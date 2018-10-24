@@ -4,10 +4,10 @@ title: ID2D1Bitmap::GetDpi
 author: windows-sdk-content
 description: Return the dots per inch (DPI) of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetDpi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 50659165-86e9-4143-af88-a68e422a74e0
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],GetDpi method, ID2D1Bitmap.GetDpi, ID2D1Bitmap::GetDpi, d2d1/ID2D1Bitmap::GetDpi, direct2d.ID2D1Bitmap_GetDpi
 ms.prod: windows-hardware
 ms.technology: windows-devices

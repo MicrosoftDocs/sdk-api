@@ -7,7 +7,7 @@ old-location: intl\normalizestring.htm
 tech.root: Intl
 ms.assetid: ef76d0e5-2999-4a21-8522-c698013e3816
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: NormalizeString, NormalizeString function [Internationalization for Windows Applications], _win32_NormalizeString, intl.normalizestring, winnls/NormalizeString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumCERTVIEWROW
 author: windows-sdk-content
 description: Represents a row-enumeration sequence that contains the data in the rows of the Certificate Services view, allowing further access to the columns, attributes, and extensions associated with each row.
 old-location: security\ienumcertviewrow.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c9529f7a-9d97-4315-af96-f7b687af3c2e
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], IEnumCERTVIEWROW interface [Security],described, _certsrv_ienumcertviewrow, certview/IEnumCERTVIEWROW, security.ienumcertviewrow
 ms.prod: windows
 ms.technology: windows-sdk

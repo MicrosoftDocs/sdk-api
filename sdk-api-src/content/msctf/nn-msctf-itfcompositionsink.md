@@ -7,7 +7,7 @@ old-location: tsf\itfcompositionsink.htm
 tech.root: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptMemFree function
 author: windows-sdk-content
 description: The CryptMemFree function frees memory allocated by CryptMemAlloc or CryptMemRealloc.
 old-location: security\cryptmemfree.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fb5c10ba-da8e-4a34-9302-67586a0a9624
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptMemFree, CryptMemFree function [Security], _crypto2_cryptmemfree, security.cryptmemfree, wincrypt/CryptMemFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

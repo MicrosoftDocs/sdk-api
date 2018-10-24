@@ -7,7 +7,7 @@ old-location: properties\VariantToBuffer.htm
 tech.root: properties
 ms.assetid: 2d310156-c274-4aaf-aee2-ac311a952889
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: VariantToBuffer, VariantToBuffer function [Windows Properties], _shell_VariantToBuffer, properties.VariantToBuffer, propvarutil/VariantToBuffer, shell.VariantToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

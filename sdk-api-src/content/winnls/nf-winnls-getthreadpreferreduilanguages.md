@@ -7,7 +7,7 @@ old-location: intl\getthreadpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: GetThreadPreferredUILanguages, GetThreadPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MERGE_SYSTEM_FALLBACK, MUI_MERGE_USER_FALLBACK, MUI_THREAD_LANGUAGES, MUI_UI_FALLBACK, _win32_GetThreadPreferredUILanguages, intl.getthreadpreferreduilanguages, winnls/GetThreadPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern.htm
 tech.root: WinAuto
 ms.assetid: 145c14e5-1b6b-4eb1-a73a-aa59b5e1b4c4
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], IUIAutomationRangeValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRangeValuePattern, uiauto_IUIAutomationRangeValuePattern, uiautomationclient/IUIAutomationRangeValuePattern, winauto.uiauto_IUIAutomationRangeValuePattern
 ms.prod: windows
 ms.technology: windows-sdk

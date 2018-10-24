@@ -7,7 +7,7 @@ old-location: wcs\cmcreatedevicelinkprofile.htm
 tech.root: WCS
 ms.assetid: 54f46d2c-ddcb-4597-9816-172e507a7fa2
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: CMCreateDeviceLinkProfile, CMCreateDeviceLinkProfile function [Windows Color System], _color_CMCreateDeviceLinkProfile, icm/CMCreateDeviceLinkProfile, wcs.cmcreatedevicelinkprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

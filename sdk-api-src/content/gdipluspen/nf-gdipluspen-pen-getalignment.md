@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetAlignment_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getalignment.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],Pen class, Pen class [GDI+],GetAlignment method, Pen.GetAlignment, Pen::GetAlignment, _gdiplus_CLASS_Pen_GetAlignment_, gdiplus._gdiplus_CLASS_Pen_GetAlignment_
 ms.prod: windows-hardware
 ms.technology: windows-devices

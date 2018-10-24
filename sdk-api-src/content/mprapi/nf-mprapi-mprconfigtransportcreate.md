@@ -7,7 +7,7 @@ old-location: rras\mprconfigtransportcreate.htm
 tech.root: rras
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

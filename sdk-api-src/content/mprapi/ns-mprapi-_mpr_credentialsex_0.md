@@ -7,7 +7,7 @@ old-location: rras\mpr_credentialsex_0.htm
 tech.root: rras
 ms.assetid: a1524c6e-3a94-4fc1-be28-bcaca8bcc62e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: "*PMPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0"
 ms.prod: windows
 ms.technology: windows-sdk

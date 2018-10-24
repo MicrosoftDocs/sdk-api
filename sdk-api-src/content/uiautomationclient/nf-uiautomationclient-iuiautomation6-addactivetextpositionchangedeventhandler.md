@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHan
 tech.root: WinAuto
 ms.assetid: 05D46393-6B76-415A-A1F9-F28B5DAF2074
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomation6.AddActiveTextPositionChangedEventHandler, IUIAutomation6::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomation6::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Registers a method that handles when the active text position changes.
-<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined here and in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
+<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the <a href="https://msdn.microsoft.com/4D92FFD9-1E83-4DE3-B20C-5203E4D7E3A2">IUIAutomationEventHandlerGroup</a> methods to register event listeners instead of individual event registration methods defined here and in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
 
 ## -parameters
 
@@ -110,11 +110,11 @@ Active text position is indicated by a navigation event within or between read-o
 Use this event handler to sync the visual location of the bookmark/target with the focus location in a read-only text element, which can diverge when using bookmarks or fragment identifiers.
 
  For example, when a same page anchor (<code>&lt;a href=”#C4”&gt;Jump to Chapter 4&lt;/a&gt; ... &lt;h1&gt;&lt;a name="C4"&gt;Chapter 4&lt;/a&gt;&lt;/h1&gt;</code>) 
-is invoked, the visual location is updated, but the AT remains at the original location. This results in actions such as text reading or move next item commands starting from the original location, not the new location. 
+is invoked, the visual location is updated, but the UI Automation client remains at the original location. This results in actions such as text reading or move next item commands starting from the original location, not the new location. 
 
-Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the AT   at the top of the page.
+Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients   at the top of the page.
 
-For editable text elements, such as <a href="https://msdn.microsoft.com/c899e4f7-20fc-4b95-9e38-5821915760e0">TextBox</a>, <a href="https://msdn.microsoft.com/5e31b85f-c86b-4f4f-b94d-42059c7e82d9">RichEditBox</a>, <a href="https://msdn.microsoft.com/4d092b18-75e4-4faa-91f5-ae00c1400a29">TextBlock</a>, and <a href="https://msdn.microsoft.com/d4dbe6f4-52f6-473a-97c8-d5bd505b6097">RichTextBlock</a>,  you can listen for a SelectionChanged event.
+For editable text elements, such as <a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit</a> and <a href="https://msdn.microsoft.com/dc34cc88-fd65-4c28-8a6a-ccfa6f3ac614">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
 
 
 
@@ -124,11 +124,11 @@ For editable text elements, such as <a href="https://msdn.microsoft.com/c899e4f7
 
 
 
-<a href="winauto.iuiautomation6">IUIAutomation6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
 
 
 
-<a href="winauto.uiauto_iuiautomation6_removeactivetextpositionchangedeventhandler">RemoveActiveTextPositionChangedEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-removeactivetextpositionchangedeventhandler">RemoveActiveTextPositionChangedEventHandler</a>
  
 
  

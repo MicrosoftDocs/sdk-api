@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationPropertyCha
 tech.root: WinAuto
 ms.assetid: 84b8db1d-75ec-45b6-a4a5-c5d4bffe6978
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: AddAutomationPropertyChangedEvent, AddAutomationPropertyChangedEvent method [Windows Accessibility], AddAutomationPropertyChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddAutomationPropertyChangedEvent method, IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent, IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent, uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The identifier of the property that is to be changed. For a list of property IDs
 
 ### -param newValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
 
 The new value for the changed property.
 

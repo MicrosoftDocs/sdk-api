@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm
 tech.root: WmiSdk
 ms.assetid: 85721e0c-863b-45af-91ca-8ee14af37181
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: AddObjectByPath, AddObjectByPath method [Windows Management Instrumentation], AddObjectByPath method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByPath method, IWbemConfigureRefresher.AddObjectByPath, IWbemConfigureRefresher::AddObjectByPath, _hmm_iwbemconfigurerefresher_addobjectbypath, wbemcli/IWbemConfigureRefresher::AddObjectByPath, wmi.iwbemconfigurerefresher_addobjectbypath
 ms.prod: windows-hardware
 ms.technology: windows-devices

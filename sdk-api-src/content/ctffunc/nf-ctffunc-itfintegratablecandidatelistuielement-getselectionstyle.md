@@ -7,7 +7,7 @@ old-location: tsf\itfintegratablecandidatelistuielement_getselectionstyle.htm
 tech.root: TSF
 ms.assetid: D51E27FE-503E-459C-92F1-1826762A5188
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetSelectionStyle, GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],GetSelectionStyle method, ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

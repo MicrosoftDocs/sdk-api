@@ -4,10 +4,10 @@ title: "_CRYPT_ENCRYPT_MESSAGE_PARA"
 author: windows-sdk-content
 description: Contains information used to encrypt messages.
 old-location: security\crypt_encrypt_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _CRYPT_ENCRYPT_MESSAGE_PARA, _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

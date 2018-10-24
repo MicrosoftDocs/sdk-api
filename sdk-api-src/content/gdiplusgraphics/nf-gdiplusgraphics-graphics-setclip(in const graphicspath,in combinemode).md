@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetClip_path_combineMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicssetclipmethods\setclip_39path_combinemode.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Graphics class [GDI+],SetClip method, Graphics.SetClip, Graphics.SetClip(IN const GraphicsPath,IN CombineMode), Graphics.SetClip(const GraphicsPath*,CombineMode), Graphics::SetClip, Graphics::SetClip(IN const GraphicsPath,IN CombineMode), SetClip, SetClip method [GDI+], SetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetClip_path_combineMode_, gdiplus._gdiplus_CLASS_Graphics_SetClip_path_combineMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

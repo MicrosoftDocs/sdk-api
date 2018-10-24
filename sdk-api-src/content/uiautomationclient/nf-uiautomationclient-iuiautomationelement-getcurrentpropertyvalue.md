@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPropertyValue.htm
 tech.root: WinAuto
 ms.assetid: 819e548e-7ff4-4f9f-969b-bfd1625f6151
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: GetCurrentPropertyValue, GetCurrentPropertyValue method [Windows Accessibility], GetCurrentPropertyValue method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPropertyValue method, IUIAutomationElement.GetCurrentPropertyValue, IUIAutomationElement::GetCurrentPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValue, uiauto_IUIAutomationElement_GetCurrentPropertyValue, uiautomationclient/IUIAutomationElement::GetCurrentPropertyValue, winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The identifier of the property. For a list of property IDs, see <a href="https:/
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
 
 Receives the value of the property.
 

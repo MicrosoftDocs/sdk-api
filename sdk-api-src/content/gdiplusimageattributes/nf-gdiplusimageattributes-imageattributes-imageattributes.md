@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ImageAttributes_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributes_26.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: ImageAttributes, ImageAttributes class [GDI+],ImageAttributes constructor, ImageAttributes constructor [GDI+], ImageAttributes constructor [GDI+],ImageAttributes class, ImageAttributes.ImageAttributes, ImageAttributes::ImageAttributes, _gdiplus_CLASS_ImageAttributes_ImageAttributes_, gdiplus._gdiplus_CLASS_ImageAttributes_ImageAttributes_
 ms.prod: windows-hardware
 ms.technology: windows-devices

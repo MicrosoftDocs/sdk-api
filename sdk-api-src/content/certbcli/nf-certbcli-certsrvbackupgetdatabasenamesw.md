@@ -4,10 +4,10 @@ title: CertSrvBackupGetDatabaseNamesW function
 author: windows-sdk-content
 description: Retrieves the list of Certificate Services database file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetdatabasenames.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
 ms.prod: windows-hardware
 ms.technology: windows-devices

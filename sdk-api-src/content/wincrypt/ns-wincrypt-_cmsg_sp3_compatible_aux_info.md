@@ -4,10 +4,10 @@ title: "_CMSG_SP3_COMPATIBLE_AUX_INFO"
 author: windows-sdk-content
 description: Contains information needed for SP3 compatible encryption.
 old-location: security\cmsg_sp3_compatible_aux_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9afd38c5-fccd-43ea-9c30-c62fdcbee633
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO structure [Security], PCMSG_SP3_COMPATIBLE_AUX_INFO, PCMSG_SP3_COMPATIBLE_AUX_INFO structure pointer [Security], _CMSG_SP3_COMPATIBLE_AUX_INFO, _crypto2_cmsg_sp3_compatible_aux_info, security.cmsg_sp3_compatible_aux_info, wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO, wincrypt/PCMSG_SP3_COMPATIBLE_AUX_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

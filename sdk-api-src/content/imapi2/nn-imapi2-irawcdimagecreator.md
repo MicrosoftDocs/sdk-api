@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator.htm
 tech.root: imapi
 ms.assetid: b5fe1a32-545e-417d-9996-34d12862a0ea
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDImageCreator interface [IMAPI],described, imapi.irawcdimagecreator, imapi2/IRawCDImageCreator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded string array and stores the resulting array of strings in the CertEncodeStringArray object.
 old-location: security\icertencodestringarray_decode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 35799b54-2c04-4bb4-a227-d2902b2379ec
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CCertEncodeStringArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeStringArray object, Decode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Decode method, ICertEncodeStringArray.Decode, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

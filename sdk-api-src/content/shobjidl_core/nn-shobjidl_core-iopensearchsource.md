@@ -7,7 +7,7 @@ old-location: shell\IOpenSearchSource.htm
 tech.root: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
 ms.prod: windows
 ms.technology: windows-sdk

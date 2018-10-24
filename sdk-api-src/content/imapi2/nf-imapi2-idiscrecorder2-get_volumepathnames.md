@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_get_volumepathnames.htm
 tech.root: imapi
 ms.assetid: 6e07553f-0d90-4b7d-95f8-0fe02c348695
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_VolumePathNames method, IDiscRecorder2.get_VolumePathNames, IDiscRecorder2::get_VolumePathNames, get_VolumePathNames, get_VolumePathNames method [IMAPI], get_VolumePathNames method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_volumepathnames, imapi2/IDiscRecorder2::get_VolumePathNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

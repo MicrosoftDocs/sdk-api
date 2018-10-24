@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_SetAutomationObject.htm
 tech.root: shell
 ms.assetid: 742b0d93-5cdf-4498-80c2-2d33359f146f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetAutomationObject method, IShellFolderView.SetAutomationObject, IShellFolderView::SetAutomationObject, SetAutomationObject, SetAutomationObject method [Windows Shell], SetAutomationObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetAutomationObject, shell.IShellFolderView_SetAutomationObject, shlobj_core/IShellFolderView::SetAutomationObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

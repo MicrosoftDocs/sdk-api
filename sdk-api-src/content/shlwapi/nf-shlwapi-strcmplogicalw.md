@@ -7,7 +7,7 @@ old-location: shell\StrCmpLogicalW.htm
 tech.root: shell
 ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
 ms.prod: windows-hardware
 ms.technology: windows-devices

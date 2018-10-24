@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_x_y_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_73x_y_width_height.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(IN INT,IN INT,IN INT,IN INT), Rect.Rect(INT,INT,INT,INT), Rect::Rect, Rect::Rect(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Rect_Rect_x_y_width_height_, gdiplus._gdiplus_CLASS_Rect_Rect_x_y_width_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices

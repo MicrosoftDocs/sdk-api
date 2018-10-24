@@ -7,7 +7,7 @@ old-location: intl\imecharposition.htm
 tech.root: Intl
 ms.assetid: 5c278df0-ce90-4f9d-915e-45dadc823360
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: "*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHARPOSITION, IMECHARPOSITION structure [Internationalization for Windows Applications], PIMECHARPOSITION, PIMECHARPOSITION structure pointer [Internationalization for Windows Applications], _win32_IMECHARPOSITION_str, imm/IMECHARPOSITION, imm/PIMECHARPOSITION, intl.imecharposition, tagIMECHARPOSITION"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GradientStop function
 author: windows-sdk-content
 description: Creates a D2D1_GRADIENT_STOP structure.
 old-location: direct2d\gradientstop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 37f413e8-36ee-462d-8419-908690094c49
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GradientStop, GradientStop function [Direct2D], d2d1helper/GradientStop, direct2d.gradientstop
 ms.prod: windows-hardware
 ms.technology: windows-devices

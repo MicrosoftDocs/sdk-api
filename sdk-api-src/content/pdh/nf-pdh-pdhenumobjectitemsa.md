@@ -7,7 +7,7 @@ old-location: perf\pdhenumobjectitems.htm
 tech.root: perfctrs
 ms.assetid: b3efdd31-44e6-47ff-bd0e-d31451c32818
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectItems, PdhEnumObjectItems function [Perf], PdhEnumObjectItemsA, PdhEnumObjectItemsW, _win32_pdhenumobjectitems, base.pdhenumobjectitems, pdh/PdhEnumObjectItems, pdh/PdhEnumObjectItemsA, pdh/PdhEnumObjectItemsW, perf.pdhenumobjectitems
 ms.prod: windows-hardware
 ms.technology: windows-devices

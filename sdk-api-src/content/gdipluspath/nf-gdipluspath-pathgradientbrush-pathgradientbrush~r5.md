@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush~r5, PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush~r5, _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

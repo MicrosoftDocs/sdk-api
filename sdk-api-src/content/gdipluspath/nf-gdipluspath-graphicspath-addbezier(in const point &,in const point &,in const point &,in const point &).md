@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziermethods\addbezier.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: AddBezier, AddBezier method [GDI+], AddBezier method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddBezier method, GraphicsPath.AddBezier, GraphicsPath.AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &), GraphicsPath.AddBezier(const Point&,const Point&,const Point&,const Point&), GraphicsPath::AddBezier, GraphicsPath::AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &), _gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_Point_pt3_Point_pt4_, gdiplus._gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_Point_pt3_Point_pt4_
 ms.prod: windows-hardware
 ms.technology: windows-devices

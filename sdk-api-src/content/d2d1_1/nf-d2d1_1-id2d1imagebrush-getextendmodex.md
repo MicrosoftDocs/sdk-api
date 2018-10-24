@@ -4,10 +4,10 @@ title: ID2D1ImageBrush::GetExtendModeX
 author: windows-sdk-content
 description: Gets the extend mode of the image brush on the x-axis.
 old-location: direct2d\id2d1imagebrush_getextendmodex.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 272b3d4d-ff76-42fa-8765-b44b1a834dbe
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetExtendModeX method, ID2D1ImageBrush.GetExtendModeX, ID2D1ImageBrush::GetExtendModeX, d2d1_1/ID2D1ImageBrush::GetExtendModeX, direct2d.id2d1imagebrush_getextendmodex
 ms.prod: windows-hardware
 ms.technology: windows-devices

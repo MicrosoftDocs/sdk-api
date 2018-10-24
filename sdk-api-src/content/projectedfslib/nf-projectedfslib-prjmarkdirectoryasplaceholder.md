@@ -7,7 +7,7 @@ old-location: projfs\prjmarkdirectoryasplaceholder.htm
 tech.root: ProjFS
 ms.assetid: 6C92275E-B9A6-4556-A709-8EFBAEDB94B5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjMarkDirectoryAsPlaceholder, PrjMarkDirectoryAsPlaceholder function, ProjFS.prjmarkdirectoryasplaceholder, projectedfslib/PrjMarkDirectoryAsPlaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ If this parameter is not specified or is an empty string, then this means the ca
 
 ### -param versionInfo [in, optional]
 
-Optional version information for the target placeholder. The provider chooses what information to put in the <a href="projfs.prj_placeholder_version_info">PRJ_PLACEHOLDER_VERSION_INFO</a> structure. If not specified, the placeholder gets zeros for its version information.
+Optional version information for the target placeholder. The provider chooses what information to put in the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info">PRJ_PLACEHOLDER_VERSION_INFO</a> structure. If not specified, the placeholder gets zeros for its version information.
 
 
 ### -param virtualizationInstanceID [in]
@@ -94,7 +94,7 @@ HRESULT_FROM_WIN32(ERROR_REPARSE_POINT_ENCOUNTERED) typically means the director
 
 
 
-The provider must use this API to designate the virtualization root before calling <a href="projfs.prjstartvirtualizing">PrjStartVirtualizing</a>. 
+The provider must use this API to designate the virtualization root before calling <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>. 
 
 
 

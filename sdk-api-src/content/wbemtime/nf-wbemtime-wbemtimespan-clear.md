@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_clear.htm
 tech.root: WmiSdk
 ms.assetid: 8bd964ed-d815-489a-8ddf-c92970701b05
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],Clear method, WBEMTimeSpan.Clear, WBEMTimeSpan::Clear, _hmm_wbemtimespan_clear, wbemtime/WBEMTimeSpan::Clear, wmi.wbemtimespan_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

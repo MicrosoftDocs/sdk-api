@@ -7,7 +7,7 @@ old-location: rras\mpradminmibbufferfree.htm
 tech.root: rras
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

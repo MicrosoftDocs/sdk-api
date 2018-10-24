@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_44imageimage_realx_realy_realsrcx_realsr.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit), Graphics.DrawImage(Image*,REAL,REAL,REAL,REAL,REAL,REAL,Unit), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit), _gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_REAL_srcx_REAL_srcy_REAL_srcwidth_REAL_s, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_REAL_srcx_REAL_srcy_REAL_srcwidth_REAL_s
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_CRYPT_AES_128_KEY_STATE"
 author: windows-sdk-content
 description: Specifies the 128-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
 old-location: security\crypt_aes_128_key_state.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1a472caa-e57a-4b3a-ab28-8aacf8e39ad1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE structure [Security], PCRYPT_AES_128_KEY_STATE, PCRYPT_AES_128_KEY_STATE structure pointer [Security], _CRYPT_AES_128_KEY_STATE, security.crypt_aes_128_key_state, wincrypt/CRYPT_AES_128_KEY_STATE, wincrypt/PCRYPT_AES_128_KEY_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\ienumtflangbaritems.htm
 tech.root: TSF
 ms.assetid: a3988c0f-db2d-4841-8098-f1dc133cb60a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services Framework], IEnumTfLangBarItems interface [Text Services Framework],described, _tsf_ienumtflangbaritems_ref, ctfutb/IEnumTfLangBarItems, tsf.ienumtflangbaritems
 ms.prod: windows
 ms.technology: windows-sdk

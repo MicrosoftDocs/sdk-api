@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_MoveItem.htm
 tech.root: shell
 ms.assetid: 7b1e66c9-5264-42cb-9554-d1ea92625c6f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IFileOperation interface [Windows Shell],MoveItem method, IFileOperation.MoveItem, IFileOperation::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_MoveItem, shell.IFileOperation_MoveItem, shobjidl_core/IFileOperation::MoveItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

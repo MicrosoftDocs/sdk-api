@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrection.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: RedEyeCorrection, RedEyeCorrection class [GDI+], RedEyeCorrection class [GDI+],described, _gdiplus_CLASS_RedEyeCorrection_Class, gdiplus._gdiplus_CLASS_RedEyeCorrection_Class, gdipluseffects/RedEyeCorrection
 ms.prod: windows
 ms.technology: windows-sdk

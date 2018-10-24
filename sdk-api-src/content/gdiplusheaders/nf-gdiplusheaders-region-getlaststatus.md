@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getlaststatus_54.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Region class, Region class [GDI+],GetLastStatus method, Region.GetLastStatus, Region::GetLastStatus, _gdiplus_CLASS_Region_GetLastStatus_, gdiplus._gdiplus_CLASS_Region_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices

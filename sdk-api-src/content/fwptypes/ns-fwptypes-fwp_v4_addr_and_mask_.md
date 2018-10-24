@@ -2,26 +2,26 @@
 UID: NS:fwptypes.FWP_V4_ADDR_AND_MASK_
 title: FWP_V4_ADDR_AND_MASK_
 author: windows-sdk-content
-description: The FWP_V4_ADDR_AND_MASK structure defines the address and subnet mask for an IPv4 Internet address.
-old-location: netvista\fwp_v4_addr_and_mask.htm
-tech.root: NetVista
-ms.assetid: 3beefa33-1331-4a76-b705-6060a00901f2
+description: Specifies IPv4 address and mask in host order.
+old-location: fwp\fwp_v4_addr_and_mask_struct.htm
+tech.root: fwp
+ms.assetid: da6315af-264e-4dcb-b5eb-ac308128a511
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FWP_V4_ADDR_AND_MASK, FWP_V4_ADDR_AND_MASK structure [Network Drivers Starting with Windows Vista], FWP_V4_ADDR_AND_MASK_, fwptypes/FWP_V4_ADDR_AND_MASK, netvista.fwp_v4_addr_and_mask, wfp_ref_3_struct_1_top_fwp_A-Z_08c85505-84f1-4627-a003-95a1842d544d.xml
+ms.date: 10/12/2018
+ms.keywords: FWP_V4_ADDR_AND_MASK, FWP_V4_ADDR_AND_MASK structure [Filtering], FWP_V4_ADDR_AND_MASK_, fwp.fwp_v4_addr_and_mask_struct, fwptypes/FWP_V4_ADDR_AND_MASK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
-req.include-header: Fwpsk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - fwptypes.h
+ - Fwptypes.h
 api_name:
  - FWP_V4_ADDR_AND_MASK
 product: Windows
@@ -50,8 +50,7 @@ req.redist:
 ## -description
 
 
-The FWP_V4_ADDR_AND_MASK structure defines the address and subnet mask for an IPv4 Internet
-  address.
+The <b>FWP_V4_ADDR_AND_MASK</b> structure specifies IPv4 address and mask in host order.. 
 
 
 ## -struct-fields
@@ -61,22 +60,12 @@ The FWP_V4_ADDR_AND_MASK structure defines the address and subnet mask for an IP
 
 ### -field addr
 
-An IPv4 network address in host byte order.
+Specifies an IPv4 address.
 
 
 ### -field mask
 
-An IPv4 subnet mask in host byte order.
-
-
-## -remarks
-
-
-
-The FWP_V4_ADDR_AND_MASK structure specifies an IPv4 address and subnet mask as a condition value for
-    a filtering condition.
-
-
+Specifies an IPv4 mask.
 
 
 ## -see-also
@@ -84,11 +73,7 @@ The FWP_V4_ADDR_AND_MASK structure specifies an IPv4 address and subnet mask as 
 
 
 
-<a href="https://msdn.microsoft.com/8d0aad8c-b224-4066-a10a-7c11ca60a78c">FWP_CONDITION_VALUE0</a>
-
-
-
-<a href="https://msdn.microsoft.com/7632d9be-dd16-40d2-b7b4-2d4efb6aaa99">FWP_DATA_TYPE</a>
+<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
  
 
  

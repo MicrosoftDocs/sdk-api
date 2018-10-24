@@ -4,10 +4,10 @@ title: WinUsb_SetPipePolicy function
 author: windows-sdk-content
 description: The WinUsb_SetPipePolicy function sets the policy for a specific pipe associated with an endpoint on the device. This is a synchronous operation.
 old-location: buses\winusb_setpipepolicy.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: 34bd7798-4c5f-48c9-bcd1-1492693b0639
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: WinUsb_SetPipePolicy, WinUsb_SetPipePolicy function [Buses], buses.winusb_setpipepolicy, winusb/WinUsb_SetPipePolicy, winusbfunc_8a973602-4564-42df-9adf-b7ea6a0339e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

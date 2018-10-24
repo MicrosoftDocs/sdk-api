@@ -4,10 +4,10 @@ title: GetNumaAvailableMemoryNodeEx function
 author: windows-sdk-content
 description: Retrieves the amount of memory that is available in a node specified as a USHORT value.
 old-location: base\getnumaavailablememorynodeex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 59382114-f3da-45e0-843e-51c0fd52a164
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: GetNumaAvailableMemoryNodeEx, GetNumaAvailableMemoryNodeEx function, base.getnumaavailablememorynodeex, winbase/GetNumaAvailableMemoryNodeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

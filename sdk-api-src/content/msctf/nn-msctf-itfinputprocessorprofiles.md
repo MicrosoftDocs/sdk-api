@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: 9fa722a4-1e3f-4845-aea7-3b24b517f2a5
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ITfInputProcessorProfiles interface [Text Services Framework],described, _tsf_itfinputprocessorprofiles_ref, msctf/ITfInputProcessorProfiles, tsf.itfinputprocessorprofiles
 ms.prod: windows
 ms.technology: windows-sdk

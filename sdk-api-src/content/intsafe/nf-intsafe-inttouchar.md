@@ -7,7 +7,7 @@ old-location: shell\IntToUChar.htm
 tech.root: shell
 ms.assetid: 19bdf34e-49ae-4dff-bed7-fa6229c8aa1b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IntToUChar, IntToUChar function [Windows Shell], _shell_IntToUChar, intsafe/IntToUChar, shell.IntToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

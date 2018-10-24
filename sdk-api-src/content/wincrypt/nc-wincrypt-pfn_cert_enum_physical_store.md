@@ -4,10 +4,10 @@ title: PFN_CERT_ENUM_PHYSICAL_STORE
 author: windows-sdk-content
 description: The CertEnumPhysicalStoreCallback callback function formats and presents information on each physical store found by a call to CertEnumPhysicalStore.
 old-location: security\certenumphysicalstorecallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
 ms.prod: windows
 ms.technology: windows-sdk

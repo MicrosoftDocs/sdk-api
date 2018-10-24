@@ -7,7 +7,7 @@ old-location: properties\propvarianttowinrtpropertyvalue.htm
 tech.root: properties
 ms.assetid: 38DD3673-17FD-4F2A-BA58-A1A9983B92BF
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PropVariantToWinRTPropertyValue, PropVariantToWinRTPropertyValue function [Windows Properties], properties.propvarianttowinrtpropertyvalue, propsys/PropVariantToWinRTPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

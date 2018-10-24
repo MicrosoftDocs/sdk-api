@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdragpattern_cacheddropeffects.htm
 tech.root: WinAuto
 ms.assetid: FDE2A5CA-1353-466E-A28C-E317059AEA54
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: CachedDropEffects property [Windows Accessibility], CachedDropEffects property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedDropEffects property, IUIAutomationDragPattern.CachedDropEffects, IUIAutomationDragPattern.get_CachedDropEffects, IUIAutomationDragPattern::CachedDropEffects, IUIAutomationDragPattern::get_CachedDropEffects, get_CachedDropEffects, uiautomationclient/IUIAutomationDragPattern::CachedDropEffects, uiautomationclient/IUIAutomationDragPattern::get_CachedDropEffects, winauto.uiauto_iuiautomationdragpattern_cacheddropeffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

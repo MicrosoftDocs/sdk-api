@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getmodepage.htm
 tech.root: imapi
 ms.assetid: 69e163a6-943d-4626-8120-778c9ca1777f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetModePage, GetModePage method [IMAPI], GetModePage method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetModePage method, IDiscRecorder2Ex.GetModePage, IDiscRecorder2Ex::GetModePage, imapi.idiscrecorder2ex_getmodepage, imapi2/IDiscRecorder2Ex::GetModePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

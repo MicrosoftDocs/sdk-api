@@ -4,10 +4,10 @@ title: IEnumCERTVIEWROW::Skip
 author: windows-sdk-content
 description: Skips a specified number of rows in the row enumeration sequence.
 old-location: security\ienumcertviewrow_skip.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9115262e-00bb-4446-906d-7a57fd5781d1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Skip method, IEnumCERTVIEWROW object [Security],Skip method, IEnumCERTVIEWROW.Skip, IEnumCERTVIEWROW::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWROW interface, Skip method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

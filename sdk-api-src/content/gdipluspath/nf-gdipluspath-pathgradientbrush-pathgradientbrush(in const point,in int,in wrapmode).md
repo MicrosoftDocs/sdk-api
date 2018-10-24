@@ -2,21 +2,21 @@
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode)
 title: PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode)
 author: windows-sdk-content
-description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
-old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm
+description: Creates a PathGradientBrush::PathGradientBrush object based on an array of points. Initializes the wrap mode of the path gradient brush.
+old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors\pathgradientbrush_15pointpoints_intcount_wrapmodewrapmode.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
-ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode), _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
+ms.date: 10/19/2018
+ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+],PathGradientBrush constructor, PathGradientBrush constructor [GDI+], PathGradientBrush constructor [GDI+],PathGradientBrush class, PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode), PathGradientBrush.PathGradientBrush(const Point*,INT,WrapMode), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode), _gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdipluspath.h
+ - Gdiplus.dll
 api_name:
  - PathGradientBrush.PathGradientBrush
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode)
@@ -50,41 +51,66 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> class. For a complete class listing, see <b>PathGradientBrushXX Class</b>. 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535102(v=VS.85).aspx">PathGradientBrush(GraphicsPath*)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535102(v=VS.85).aspx">PathGradientBrush::PathGradientBrush</a> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
+Creates a <b>PathGradientBrush::PathGradientBrush</b> object based on an array of points. Initializes the wrap mode of the path gradient brush.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535100(v=VS.85).aspx">PathGradientBrush(Point*,INT,WrapMode)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms535100(v=VS.85).aspx">PathGradientBrush::PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535101(v=VS.85).aspx">PathGradientBrush(PointF*,INT,WrapMode)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param points [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>*</b>
+
+Pointer to an array of points that specifies the boundary path of the path gradient brush. 
+
+
+### -param count [in]
+
+Type: <b>INT</b>
+
+Integer that specifies the number of elements in the <i>points</i> array. 
+
+
+### -param wrapMode [in]
+
+Type: <b><a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a></b>
+
+Optional. Element of the <a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a> enumeration that specifies how areas painted with the path gradient brush will be tiled. The default value is WrapModeClamp. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+
+
+
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
+
+
+
+<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+
+
+
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+ 
+
+ 
 

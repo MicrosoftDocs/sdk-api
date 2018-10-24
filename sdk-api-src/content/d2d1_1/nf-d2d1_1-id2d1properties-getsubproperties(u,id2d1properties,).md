@@ -4,10 +4,10 @@ title: ID2D1Properties::GetSubProperties(U,ID2D1Properties,)
 author: windows-sdk-content
 description: Gets the sub-properties of the provided property by index. This is a template overload.
 old-location: direct2d\id2d1properties_getsubproperties2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D7A79C72-6BFC-4603-82AD-FFEEA91B6CBE
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetSubProperties, GetSubProperties method [Direct2D], GetSubProperties method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetSubProperties method, ID2D1Properties.GetSubProperties, ID2D1Properties.GetSubProperties(U,ID2D1Properties,), ID2D1Properties::GetSubProperties, ID2D1Properties::GetSubProperties(U,ID2D1Properties**), ID2D1Properties::GetSubProperties(U,ID2D1Properties,), d2d1_1/ID2D1Properties::GetSubProperties, direct2d.id2d1properties_getsubproperties2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Rec
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors\lineargradientbrush_3rectamprect_colorampcolor1_colorampcolo.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL), LinearGradientBrush.LinearGradientBrush(const Rect&,const Color&,const Color&,REAL,BOOL), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Rect_rect_Color_color1_Color_color2_REAL_angl, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Rect_rect_Color_color1_Color_color2_REAL_angl
 ms.prod: windows-hardware
 ms.technology: windows-devices

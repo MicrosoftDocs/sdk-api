@@ -4,10 +4,10 @@ title: CertRDNValueToStrA function
 author: windows-sdk-content
 description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
 old-location: security\certrdnvaluetostr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

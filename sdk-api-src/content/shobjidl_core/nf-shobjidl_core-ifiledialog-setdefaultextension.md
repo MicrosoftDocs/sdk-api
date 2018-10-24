@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetDefaultExtension.htm
 tech.root: shell
 ms.assetid: 2e1739f4-d229-4bf1-99f4-6bded830de2b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultExtension method, IFileDialog.SetDefaultExtension, IFileDialog::SetDefaultExtension, SetDefaultExtension, SetDefaultExtension method [Windows Shell], SetDefaultExtension method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultExtension, shell_IFileDialog_SetDefaultExtension, shobjidl_core/IFileDialog::SetDefaultExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

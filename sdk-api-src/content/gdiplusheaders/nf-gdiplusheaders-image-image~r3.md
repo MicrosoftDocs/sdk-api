@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image~r3, Image::Image, Image::Image~r3, _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
 ms.prod: windows-hardware
 ms.technology: windows-devices

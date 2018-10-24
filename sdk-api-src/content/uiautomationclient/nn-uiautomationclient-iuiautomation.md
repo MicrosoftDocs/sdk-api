@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation.htm
 tech.root: WinAuto
 ms.assetid: 46b31ab6-39aa-4df8-a421-6369c32a9605
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], IUIAutomation interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomation, uiauto_IUIAutomation, uiautomationclient/IUIAutomation, winauto.uiauto_IUIAutomation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ Registers a method that handles structure-changed events.
 <a href="https://msdn.microsoft.com/c7fd7d1e-3f7b-4700-9263-2cab6e0de896">CheckNotSupported</a>
 </td>
 <td align="left" width="63%">
-Checks a provided <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> to see if it contains the Not Supported identifier.
 
 </td>
 </tr>
@@ -426,7 +426,7 @@ Retrieves the properties that might be supported on a UI Automation element.
 <a href="https://msdn.microsoft.com/abfb2bb1-7594-4f32-9188-05745006ae18">RectToVariant</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that contains the coordinates of a rectangle.
+Creates a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> that contains the coordinates of a rectangle.
 
 </td>
 </tr>
@@ -489,7 +489,7 @@ Converts a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</
 <a href="https://msdn.microsoft.com/ef8bb8eb-c6f1-4797-b64f-f4f9d41db2bb">VariantToRect</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> containing rectangle coordinates to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
+Converts a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> containing rectangle coordinates to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
 
 </td>
 </tr>

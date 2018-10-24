@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_TintParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\tintparams.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: TintParams, TintParams structure [GDI+], _gdiplus_STRUC_TintParams, gdiplus._gdiplus_STRUC_TintParams, gdipluseffects/TintParams
 ms.prod: windows
 ms.technology: windows-sdk

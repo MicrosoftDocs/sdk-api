@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_savedata.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsavedata.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/22/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SaveData method, IITPropList.SaveData, IITPropList::SaveData, SaveData, SaveData method [HTML Help Workshop], SaveData method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_savedata, infotech/IITPropList::SaveData, refIITPropListSaveData
 ms.prod: windows-hardware
 ms.technology: windows-devices

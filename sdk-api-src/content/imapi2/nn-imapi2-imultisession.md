@@ -7,7 +7,7 @@ old-location: imapi\imultisession.htm
 tech.root: imapi
 ms.assetid: a983af02-ee0e-4a62-8ae0-fb9a1e0c2571
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IMultisession, IMultisession interface [IMAPI], IMultisession interface [IMAPI],described, imapi.imultisession, imapi2/IMultisession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\msiviewgeterror.htm
 tech.root: msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/23/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
 ms.prod: windows-hardware
 ms.technology: windows-devices

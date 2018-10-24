@@ -4,10 +4,10 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
 author: windows-sdk-content
 description: Specifies that an object has changed.
 old-location: security\pfn_crypt_object_locator_provider_flush.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: F6EE5424-A3ED-4E90-897B-56C605EB985C
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback function [Security], security.pfn_crypt_object_locator_provider_flush, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
 ms.prod: windows
 ms.technology: windows-sdk

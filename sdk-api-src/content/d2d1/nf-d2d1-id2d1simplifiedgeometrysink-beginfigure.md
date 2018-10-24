@@ -4,10 +4,10 @@ title: ID2D1SimplifiedGeometrySink::BeginFigure
 author: windows-sdk-content
 description: Starts a new figure at the specified point.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: BeginFigure, BeginFigure method [Direct2D], BeginFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],BeginFigure method, ID2D1SimplifiedGeometrySink.BeginFigure, ID2D1SimplifiedGeometrySink::BeginFigure, d2d1/ID2D1SimplifiedGeometrySink::BeginFigure, direct2d.ID2D1SimplifiedGeometrySink_BeginFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

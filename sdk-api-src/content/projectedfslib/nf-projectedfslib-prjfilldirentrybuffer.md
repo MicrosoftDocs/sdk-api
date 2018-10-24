@@ -7,7 +7,7 @@ old-location: projfs\prjfilldirentrybuffer.htm
 tech.root: ProjFS
 ms.assetid: CBCB0A0E-9227-42EF-B747-62783400AD16
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjFillDirEntryBuffer, PrjFillDirEntryBuffer function, ProjFS.prjfilldirentrybuffer, projectedfslib/PrjFillDirEntryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,16 +86,16 @@ HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) indicates that dirEntryBufferHandl
 
 
 
-The provider uses this routine to service a <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. When processing the callback, the provider calls this routine for each matching file or directory in the enumeration. 
+The provider uses this routine to service a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. When processing the callback, the provider calls this routine for each matching file or directory in the enumeration. 
 
 
-If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) when adding an entry to the enumeration, the provider returns S_OK from the callback and waits for the next <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. 
+If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) when adding an entry to the enumeration, the provider returns S_OK from the callback and waits for the next <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. 
 
 
 The provider resumes filling the enumeration with the entry it was trying to add when it got HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER). 
 
 
-If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) for the first file or directory in the enumeration, the provider must return HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) from its <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
+If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) for the first file or directory in the enumeration, the provider must return HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) from its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
 
 
 

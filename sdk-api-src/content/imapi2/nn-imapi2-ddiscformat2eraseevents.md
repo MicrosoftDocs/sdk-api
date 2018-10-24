@@ -7,7 +7,7 @@ old-location: imapi\ddiscformat2eraseevents.htm
 tech.root: imapi
 ms.assetid: 0e999859-d409-4fd8-a5da-c43da64bcd8f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI], DDiscFormat2EraseEvents interface [IMAPI],described, imapi.ddiscformat2eraseevents, imapi2/DDiscFormat2EraseEvents
 ms.prod: windows
 ms.technology: windows-sdk

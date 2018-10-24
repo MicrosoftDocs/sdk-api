@@ -7,7 +7,7 @@ old-location: projfs\prjfilenamematch.htm
 tech.root: ProjFS
 ms.assetid: 2BE57189-0F68-4CCD-8796-964EFDE0A02E
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjFileNameMatch, PrjFileNameMatch function, ProjFS.prjfilenamematch, projectedfslib/PrjFileNameMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ True if fileNameToCheck matches pattern, False otherwise.
 
 
 
-The provider must use this routine when processing a <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback to determine whether a name in its backing store matches the searchExpression passed to the callback. This routine performs pattern matching in the same way the file system does when it is processing a directory enumeration
+The provider must use this routine when processing a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback to determine whether a name in its backing store matches the searchExpression passed to the callback. This routine performs pattern matching in the same way the file system does when it is processing a directory enumeration
 
 
 

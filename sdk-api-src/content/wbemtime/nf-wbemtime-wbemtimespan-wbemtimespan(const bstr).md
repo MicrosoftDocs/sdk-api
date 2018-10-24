@@ -2,13 +2,13 @@
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const BSTR)
 title: WBEMTimeSpan::WBEMTimeSpan(const BSTR)
 author: windows-sdk-content
-description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
-old-location: wmi\wbemtimespan_wbemtimespan.htm
+description: This WBEMTimeSpan class constructor creates a time span object from a BSTR in Interval Format.
+old-location: wmi\wbemtimespan_wbemtimespan_bstr_.htm
 tech.root: WmiSdk
-ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
+ms.assetid: 51be003d-e85d-4cd0-99ed-a4575e35a773
 ms.author: windowssdkdev
-ms.date: 10/09/2018
-ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const BSTR), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WBEMTimeSpan(const BSTR), WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
+ms.date: 10/19/2018
+ms.keywords: "??0WBEMTimeSpan@@QAE@QAG@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const BSTR), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(BSTR), WBEMTimeSpan::WBEMTimeSpan(const BSTR), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_bstr_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -33,12 +33,13 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::WbemTimeSpan
+ - WBEMTimeSpan.WBEMTimeSpan
+ - ??0WBEMTimeSpan@@QAE@QAG@Z
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,41 +57,16 @@ req.redist:
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
-<span>The <b>WBEMTimeSpan</b> class constructor creates a 
-    time span object. The constructor is overloaded.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75964571-b82a-441a-8cc9-4f10d41363d6">WBEMTimeSpan()</a>
-</td>
-<td align="left" width="63%">
-Creates an uninitialized time span object.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51be003d-e85d-4cd0-99ed-a4575e35a773">WBEMTimeSpan(BSTR)</a>
-</td>
-<td align="left" width="63%">
-Initializes the new time span object to value in the parameter.
+This   <b>WBEMTimeSpan</b> class constructor creates a time span object from a <b>BSTR</b> in <a href="https://msdn.microsoft.com/13a3ca74-e3e9-44d7-9254-e288eb70ae4c">Interval Format</a>.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1bd1421-81f6-478a-8ec3-dfacdac3c85f">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
-</td>
-<td align="left" width="63%">
-Initializes the new time span object to values in the parameters.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param bstrDMTFFormat
+
+<b>BSTR</b> in <a href="https://msdn.microsoft.com/13a3ca74-e3e9-44d7-9254-e288eb70ae4c">Interval Format</a>.
 

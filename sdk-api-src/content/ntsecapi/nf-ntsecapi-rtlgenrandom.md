@@ -4,10 +4,10 @@ title: RtlGenRandom function
 author: windows-sdk-content
 description: Generates a pseudo-random number.
 old-location: security\rtlgenrandom.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom
 ms.prod: windows-hardware
 ms.technology: windows-devices

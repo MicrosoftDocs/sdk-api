@@ -7,7 +7,7 @@ old-location: display\dd_rendermocompdata.htm
 tech.root: display
 ms.assetid: a890707f-b773-4b66-8817-68efdb8d47f8
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PDD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA structure [Display Devices], _DD_RENDERMOCOMPDATA, ddrawint/DD_RENDERMOCOMPDATA, ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml, display.dd_rendermocompdata"
 ms.prod: windows
 ms.technology: windows-sdk

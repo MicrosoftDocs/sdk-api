@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_getpropertystoragefromidlist.htm
 tech.root: shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorageFromIDList method, CItemIDFactory.GetPropertyStorageFromIDList, CItemIDFactory::GetPropertyStorageFromIDList, GetPropertyStorageFromIDList, GetPropertyStorageFromIDList method [Windows Shell], GetPropertyStorageFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystoragefromidlist, shidfact/CItemIDFactory::GetPropertyStorageFromIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

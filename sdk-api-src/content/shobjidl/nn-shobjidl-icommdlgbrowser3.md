@@ -7,7 +7,7 @@ old-location: shell\ICommDlgBrowser3.htm
 tech.root: shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], ICommDlgBrowser3 interface [Windows Shell],described, _shell_ICommDlgBrowser3, shell.ICommDlgBrowser3, shobjidl/ICommDlgBrowser3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\wcscreateiccprofile.htm
 tech.root: WCS
 ms.assetid: 6e9aaad6-a7d4-4685-b694-89d499a411e1
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: WcsCreateIccProfile, WcsCreateIccProfile function [Windows Color System], _color_WcsCreateIccProfile, icm/WcsCreateIccProfile, wcs.wcscreateiccprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

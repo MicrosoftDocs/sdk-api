@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_RectF_rect_.
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods\drawrectangle_65penpen_rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: DrawRectangle, DrawRectangle method [GDI+], DrawRectangle method [GDI+],Graphics class, Graphics class [GDI+],DrawRectangle method, Graphics.DrawRectangle, Graphics.DrawRectangle(IN const Pen,IN const RectF &), Graphics.DrawRectangle(const Pen*,const RectF&), Graphics::DrawRectangle, Graphics::DrawRectangle(IN const Pen,IN const RectF &), _gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

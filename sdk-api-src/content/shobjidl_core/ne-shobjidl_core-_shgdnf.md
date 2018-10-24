@@ -7,7 +7,7 @@ old-location: shell\SHGNO.htm
 tech.root: shell
 ms.assetid: 5d87609d-bcbf-4a4f-a97e-017ee8a9879e
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHGDNF, SHGDNF enumeration [Windows Shell], SHGDN_FORADDRESSBAR, SHGDN_FOREDITING, SHGDN_FORPARSING, SHGDN_INFOLDER, SHGDN_NORMAL, _SHGDNF, _win32_SHGNO, shell.SHGNO, shobjidl_core/SHGDNF, shobjidl_core/SHGDN_FORADDRESSBAR, shobjidl_core/SHGDN_FOREDITING, shobjidl_core/SHGDN_FORPARSING, shobjidl_core/SHGDN_INFOLDER, shobjidl_core/SHGDN_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk

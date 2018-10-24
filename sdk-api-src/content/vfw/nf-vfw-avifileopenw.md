@@ -7,7 +7,7 @@ old-location: multimedia\avifileopen.htm
 tech.root: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
 ms.prod: windows-hardware
 ms.technology: windows-devices

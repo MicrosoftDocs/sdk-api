@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafile.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Metafile, Metafile class [GDI+], Metafile class [GDI+],described, _gdiplus_CLASS_Metafile_Class, gdiplus._gdiplus_CLASS_Metafile_Class, gdiplusheaders/Metafile
 ms.prod: windows
 ms.technology: windows-sdk

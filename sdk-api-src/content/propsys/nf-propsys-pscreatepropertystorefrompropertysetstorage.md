@@ -7,7 +7,7 @@ old-location: properties\PSCreatePropertyStoreFromPropertySetStorage.htm
 tech.root: properties
 ms.assetid: efba5a2a-df26-4f7e-9ddf-ec471e3d547c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PSCreatePropertyStoreFromPropertySetStorage, PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties], STGM_READ, STGM_READWRITE, STGM_WRITE, _shell_PSCreatePropertyStoreFromPropertySetStorage, properties.PSCreatePropertyStoreFromPropertySetStorage, propsys/PSCreatePropertyStoreFromPropertySetStorage, shell.PSCreatePropertyStoreFromPropertySetStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

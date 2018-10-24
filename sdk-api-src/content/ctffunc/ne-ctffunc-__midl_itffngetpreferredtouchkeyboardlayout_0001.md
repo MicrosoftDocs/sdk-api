@@ -7,7 +7,7 @@ old-location: tsf\tkblayouttype.htm
 tech.root: TSF
 ms.assetid: 65C46775-9D4D-4C80-A5F0-6713C805053D
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: TKBLT_CLASSIC, TKBLT_OPTIMIZED, TKBLT_UNDEFINED, TKBLayoutType, TKBLayoutType enumeration [Text Services Framework], __MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001, ctffunc/TKBLT_CLASSIC, ctffunc/TKBLT_OPTIMIZED, ctffunc/TKBLT_UNDEFINED, ctffunc/TKBLayoutType, tsf.tkblayouttype
 ms.prod: windows
 ms.technology: windows-sdk

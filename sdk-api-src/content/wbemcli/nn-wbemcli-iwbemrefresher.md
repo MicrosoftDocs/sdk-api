@@ -7,7 +7,7 @@ old-location: wmi\iwbemrefresher.htm
 tech.root: WmiSdk
 ms.assetid: cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], IWbemRefresher interface [Windows Management Instrumentation],described, WbemRefresher, _hmm_iwbemrefresher, wbemcli/IWbemRefresher, wmi.iwbemrefresher
 ms.prod: windows
 ms.technology: windows-sdk

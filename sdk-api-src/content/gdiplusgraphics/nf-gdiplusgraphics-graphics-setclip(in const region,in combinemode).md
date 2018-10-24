@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetClip_region_combineMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicssetclipmethods\setclip_48region_combinemode.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Graphics class [GDI+],SetClip method, Graphics.SetClip, Graphics.SetClip(IN const Region,IN CombineMode), Graphics.SetClip(const Region*,CombineMode), Graphics::SetClip, Graphics::SetClip(IN const Region,IN CombineMode), SetClip, SetClip method [GDI+], SetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetClip_region_combineMode_, gdiplus._gdiplus_CLASS_Graphics_SetClip_region_combineMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

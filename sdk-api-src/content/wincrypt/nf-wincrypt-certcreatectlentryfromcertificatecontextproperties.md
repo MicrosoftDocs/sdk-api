@@ -4,10 +4,10 @@ title: CertCreateCTLEntryFromCertificateContextProperties function
 author: windows-sdk-content
 description: The CertCreateCTLEntryFromCertificateContextProperties function creates a certificate trust list (CTL) entry whose attributes are the properties of the certificate context. The SubjectIdentifier in the CTL entry is the SHA1 hash of the certificate.
 old-location: security\certcreatectlentryfromcertificatecontextproperties.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 90ac512f-3cbe-4543-9b34-8e384f730cfe
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CertCreateCTLEntryFromCertificateContextProperties, CertCreateCTLEntryFromCertificateContextProperties function [Security], _crypto2_certcreatectlentryfromcertificatecontextproperties, security.certcreatectlentryfromcertificatecontextproperties, wincrypt/CertCreateCTLEntryFromCertificateContextProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

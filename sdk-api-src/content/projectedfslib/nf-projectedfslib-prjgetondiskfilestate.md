@@ -7,7 +7,7 @@ old-location: projfs\prjgetondiskfilestate.htm
 tech.root: ProjFS
 ms.assetid: E302C472-1360-43D9-8AB9-26C93F97F00F
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjGetOnDiskFileState, PrjGetOnDiskFileState function, ProjFS.prjgetondiskfilestate, projectedfslib/PrjGetOnDiskFileState
 ms.prod: windows-hardware
 ms.technology: windows-devices

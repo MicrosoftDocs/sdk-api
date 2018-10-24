@@ -7,7 +7,7 @@ old-location: wcs\getcolorprofileelement.htm
 tech.root: WCS
 ms.assetid: 37bcfafc-7316-4c72-80df-c3424d639181
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: GetColorProfileElement, GetColorProfileElement function [Windows Color System], _color_GetColorProfileElement, icm/GetColorProfileElement, wcs.getcolorprofileelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

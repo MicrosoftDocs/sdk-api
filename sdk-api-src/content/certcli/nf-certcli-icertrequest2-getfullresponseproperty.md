@@ -4,10 +4,10 @@ title: ICertRequest2::GetFullResponseProperty
 author: windows-sdk-content
 description: Retrieves the cached response data returned by the server.
 old-location: security\icertrequest2_getfullresponseproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1ee979b7-2d2a-4140-8eef-5e3a5e0c132c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CCertRequest object [Security],GetFullResponseProperty method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, FR_PROP_ATTESTATIONCHALLENGE, FR_PROP_ATTESTATIONPROVIDERNAME, FR_PROP_BODYPARTSTRING, FR_PROP_CAEXCHANGECERTIFICATE, FR_PROP_CAEXCHANGECERTIFICATECHAIN, FR_PROP_CAEXCHANGECERTIFICATECRLCHAIN, FR_PROP_CAEXCHANGECERTIFICATEHASH, FR_PROP_ENCRYPTEDKEYHASH, FR_PROP_FAILINFO, FR_PROP_FULLRESPONSE, FR_PROP_FULLRESPONSENOPKCS7, FR_PROP_ISSUEDCERTIFICATE, FR_PROP_ISSUEDCERTIFICATECHAIN, FR_PROP_ISSUEDCERTIFICATECRLCHAIN, FR_PROP_ISSUEDCERTIFICATEHASH, FR_PROP_NONE, FR_PROP_OTHERINFOCHOICE, FR_PROP_PENDINFOTIME, FR_PROP_PENDINFOTOKEN, FR_PROP_STATUS, FR_PROP_STATUSINFOCOUNT, FR_PROP_STATUSSTRING, GetFullResponseProperty, GetFullResponseProperty method [Security], GetFullResponseProperty method [Security],CCertRequest object, GetFullResponseProperty method [Security],ICertRequest interface, GetFullResponseProperty method [Security],ICertRequest2 interface, GetFullResponseProperty method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetFullResponseProperty method, ICertRequest2 interface [Security],GetFullResponseProperty method, ICertRequest2.GetFullResponseProperty, ICertRequest2::GetFullResponseProperty, ICertRequest3 interface [Security],GetFullResponseProperty method, ICertRequest3::GetFullResponseProperty, ICertRequest::GetFullResponseProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getfullresponseproperty, certcli/ICertRequest2::GetFullResponseProperty, certcli/ICertRequest3::GetFullResponseProperty, certcli/ICertRequest::GetFullResponseProperty, security.icertrequest2_getfullresponseproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

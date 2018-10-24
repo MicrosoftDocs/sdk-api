@@ -7,7 +7,7 @@ old-location: shell\UrlIsFileUrl.htm
 tech.root: shell
 ms.assetid: b122d3e4-47cc-47c0-a30c-6f9d1aa9d174
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: UrlIsFileUrl, UrlIsFileUrl function [Windows Shell], UrlIsFileUrlA, UrlIsFileUrlW, _win32_UrlIsFileUrl, shell.UrlIsFileUrl, shlwapi/UrlIsFileUrl, shlwapi/UrlIsFileUrlA, shlwapi/UrlIsFileUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices

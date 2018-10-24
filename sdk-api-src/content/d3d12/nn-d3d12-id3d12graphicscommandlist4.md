@@ -72,7 +72,7 @@ The <b>ID3D12GraphicsCommandList4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_buildraytracingaccelerationstructure">BuildRaytracingAccelerationStructure</a>
+<a href="https://msdn.microsoft.com/B714530C-40E6-4C67-8908-373BB26E6635">BuildRaytracingAccelerationStructure</a>
 </td>
 <td align="left" width="63%">
 Performs a raytracing acceleration structure build on the GPU and optionally outputs post-build information immediately after the build.  
@@ -81,7 +81,7 @@ Performs a raytracing acceleration structure build on the GPU and optionally out
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a>
+<a href="https://msdn.microsoft.com/13E0E477-9CD5-484B-9532-AB6D415CF6CB">CopyRaytracingAccelerationStructure</a>
 </td>
 <td align="left" width="63%">
 Copies a source acceleration structure to destination memory while applying the specified transformation.
@@ -90,7 +90,7 @@ Copies a source acceleration structure to destination memory while applying the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_dispatchrays">DispatchRays</a>
+<a href="https://msdn.microsoft.com/157F4609-B9AF-40EC-A2E6-33D5A897A813">DispatchRays</a>
 </td>
 <td align="left" width="63%">
 Launch the threads of a ray generation shader.
@@ -99,7 +99,7 @@ Launch the threads of a ray generation shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_emitraytracingaccelerationstructurepostbuildinfo">EmitRaytracingAccelerationStructurePostbuildInfo</a>
+<a href="https://msdn.microsoft.com/05E4B38B-1A3A-4121-8BD7-A437534C8B9A">EmitRaytracingAccelerationStructurePostbuildInfo</a>
 </td>
 <td align="left" width="63%">
 Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
@@ -108,7 +108,7 @@ Emits post-build properties for a set of acceleration structures.  This enables 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_setpipelinestate1">SetPipelineState1</a>
+<a href="https://msdn.microsoft.com/CD408074-2B2A-461C-9CA8-DC967BC61067">SetPipelineState1</a>
 </td>
 <td align="left" width="63%">
 Sets a state object on the command list. 

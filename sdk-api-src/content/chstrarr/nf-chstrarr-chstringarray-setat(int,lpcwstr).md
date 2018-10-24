@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_setat.htm
 tech.root: WmiSdk
 ms.assetid: 709bed59-c154-4103-9d38-398945657ec6
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAt method, CHStringArray.SetAt, CHStringArray.SetAt(int,LPCWSTR), CHStringArray::SetAt, CHStringArray::SetAt(int,LPCWSTR), SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
 ms.prod: windows-hardware
 ms.technology: windows-devices

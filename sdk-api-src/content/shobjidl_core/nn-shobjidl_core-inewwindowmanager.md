@@ -7,7 +7,7 @@ old-location: shell\INewWindowManager.htm
 tech.root: shell
 ms.assetid: 63fbdd29-fe5e-4216-afb3-041320a8c496
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: INewWindowManager, INewWindowManager interface [Windows Shell], INewWindowManager interface [Windows Shell],described, _shell_INewWindowManager, shell.INewWindowManager, shobjidl_core/INewWindowManager
 ms.prod: windows
 ms.technology: windows-sdk

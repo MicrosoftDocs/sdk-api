@@ -7,7 +7,7 @@ old-location: shell\IContextMenuSite.htm
 tech.root: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
 ms.prod: windows
 ms.technology: windows-sdk

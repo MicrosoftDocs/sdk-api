@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_testkeydown.htm
 tech.root: TSF
 ms.assetid: e1f03aff-ce6e-4bb6-ad08-666e04cf6c13
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyDown method, ITfKeystrokeMgr.TestKeyDown, ITfKeystrokeMgr::TestKeyDown, TestKeyDown, TestKeyDown method [Text Services Framework], TestKeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_testkeydown_ref, msctf/ITfKeystrokeMgr::TestKeyDown, tsf.itfkeystrokemgr_testkeydown
 ms.prod: windows-hardware
 ms.technology: windows-devices

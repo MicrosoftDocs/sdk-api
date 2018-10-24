@@ -2,7 +2,7 @@
 UID: NA:mswmdm
 ms.assetid: 0c12fb5b-3edb-3d86-9989-eadf5b4c38eb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

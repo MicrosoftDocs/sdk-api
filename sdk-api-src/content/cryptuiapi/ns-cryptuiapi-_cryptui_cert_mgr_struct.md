@@ -4,10 +4,10 @@ title: "_CRYPTUI_CERT_MGR_STRUCT"
 author: windows-sdk-content
 description: Contains information about a certificate manager dialog box.
 old-location: security\cryptui_cert_mgr_struct.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e6c24d16-0ae2-443c-8971-2d7da3aae963
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], _CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct"
 ms.prod: windows
 ms.technology: windows-sdk

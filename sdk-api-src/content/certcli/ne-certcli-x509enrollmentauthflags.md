@@ -4,10 +4,10 @@ title: X509EnrollmentAuthFlags
 author: windows-sdk-content
 description: Specifies the authentication type.
 old-location: security\x509enrollmentauthflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 84a7e6e3-dfbb-4c27-af63-e521103e1b00
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthNone, X509AuthUsername, X509EnrollmentAuthFlags, X509EnrollmentAuthFlags enumeration [Security], certcli/X509AuthAnonymous, certcli/X509AuthCertificate, certcli/X509AuthKerberos, certcli/X509AuthNone, certcli/X509AuthUsername, certcli/X509EnrollmentAuthFlags, security.x509enrollmentauthflags
 ms.prod: windows
 ms.technology: windows-sdk

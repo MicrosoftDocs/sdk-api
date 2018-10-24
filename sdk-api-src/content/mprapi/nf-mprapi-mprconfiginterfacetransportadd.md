@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacetransportadd.htm
 tech.root: rras
 ms.assetid: f4735fd1-031d-4cda-af40-36f55e5796f9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

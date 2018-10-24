@@ -7,7 +7,7 @@ old-location: wmi\provider_provider.htm
 tech.root: WmiSdk
 ms.assetid: 1859c921-a0dc-4fd4-9c0b-680a24eab936
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: "??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Provider interface [Windows Management Instrumentation],Provider method, Provider method [Windows Management Instrumentation], Provider method [Windows Management Instrumentation],Provider interface, Provider.Provider, Provider::Provider, provider/Provider::Provider, wmi.provider_provider"
 ms.prod: windows-hardware
 ms.technology: windows-devices

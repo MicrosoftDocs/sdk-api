@@ -7,7 +7,7 @@ old-location: rras\mpradmintransportsetinfo.htm
 tech.root: rras
 ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MprAdminTransportSetInfo, MprAdminTransportSetInfo function [RAS], _mpr_mpradmintransportsetinfo, mprapi/MprAdminTransportSetInfo, rras.mpradmintransportsetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

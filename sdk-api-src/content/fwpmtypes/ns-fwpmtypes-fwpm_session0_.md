@@ -2,26 +2,26 @@
 UID: NS:fwpmtypes.FWPM_SESSION0_
 title: FWPM_SESSION0_
 author: windows-sdk-content
-description: The FWPM_SESSION0 structure defines session-specific parameters for an open session to the filter engine.Note  FWPM_SESSION0 is a specific version of FWPM_SESSION.
-old-location: netvista\fwpm_session0.htm
-tech.root: NetVista
-ms.assetid: 971faf9c-2847-4829-ae96-b9fde15f5c26
+description: Stores the state associated with a client session.
+old-location: fwp\fwpm_session0_struct.htm
+tech.root: fwp
+ms.assetid: 9f259ab7-cec9-44c1-8914-2850235470b3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FWPM_SESSION0, FWPM_SESSION0 structure [Network Drivers Starting with Windows Vista], FWPM_SESSION0_, fwpmtypes/FWPM_SESSION0, netvista.fwpm_session0, wfp_ref_3_struct_2_fwpm_A-Z_29684a7b-29ea-42b3-9351-d7d847ef4717.xml
+ms.date: 10/12/2018
+ms.keywords: FWPM_SESSION0, FWPM_SESSION0 structure [Filtering], FWPM_SESSION0_, FWPM_SESSION_FLAG_DYNAMIC, FWPM_SESSION_FLAG_RESERVED, fwp.fwpm_session0_struct, fwpmtypes/FWPM_SESSION0
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
-req.include-header: Fwpmk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwpmtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
  - FWPM_SESSION0
 product: Windows
@@ -50,9 +50,8 @@ req.redist:
 ## -description
 
 
-The <b>FWPM_SESSION0</b> structure defines session-specific parameters for an open session to the filter
-  engine.
-<div class="alert"><b>Note</b>  <b>FWPM_SESSION0</b> is a specific version of <b>FWPM_SESSION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+The <b>FWPM_SESSION0</b> structure stores the state associated with a client session.
+
 
 ## -struct-fields
 
@@ -61,73 +60,90 @@ The <b>FWPM_SESSION0</b> structure defines session-specific parameters for an op
 
 ### -field sessionKey
 
-A callout driver-defined GUID that uniquely identifies the open session to the filter engine. If a
-     callout driver zero-initializes this GUID prior to opening the session, the filter engine will generate
-     a unique GUID when the session is opened.
+Uniquely identifies the session. 
+
+If this member is zero in the
+   call to <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a>, Base Filtering Engine (BFE) will generate a GUID.
 
 
 ### -field displayData
 
-An 
-     <a href="https://msdn.microsoft.com/dfd92824-feea-4f57-ba2f-b2d56dee48ad">FWPM_DISPLAY_DATA0</a> structure that
-     specifies a name and a description for the open session to the filter engine.
+Allows sessions to be annotated in a human-readable form.
+
+See <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> for more information.
 
 
 ### -field flags
 
-Flags that specify the session-specific parameters. Possible flags are:
-     
+Settings to control session behavior.
 
+<table>
+<tr>
+<th>Session flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="FWPM_SESSION_FLAG_DYNAMIC"></a><a id="fwpm_session_flag_dynamic"></a><dl>
+<dt><b>FWPM_SESSION_FLAG_DYNAMIC</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag is set, any objects added during the session are
+automatically deleted when the session ends.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FWPM_SESSION_FLAG_RESERVED"></a><a id="fwpm_session_flag_reserved"></a><dl>
+<dt><b>FWPM_SESSION_FLAG_RESERVED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reserved.
 
-
-
-#### FWPM_SESSION_FLAG_DYNAMIC
-
-If this flag is set, any filters, providers, provider contexts, or callouts that are added to
-       the filter engine during the open session will be automatically removed from the filter engine when
-       the session is closed. No filters, providers, provider contexts, or callouts can be deleted during the
-       open session except for those that are added during the session.
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field txnWaitTimeoutInMSec
 
-The time, in milliseconds, that the callout driver will wait to begin a transaction with the
-     filter engine before a time-out occurs. If a callout driver specifies zero for this member, a default
-     time-out value will be used.
+Time in milli-seconds that a client will wait to begin a transaction. 
+
+If this member is zero, BFE will use a
+   default timeout.
 
 
 ### -field processId
 
-This member is not used when a callout driver specifies an <b>FWPM_SESSION0</b> structure when opening a
-     session to the filter engine.
+Process ID of the client.
 
 
 ### -field sid
 
-This member is not used when a callout driver specifies an <b>FWPM_SESSION0</b> structure when opening a
-     session to the filter engine.
+SID of the client.
 
 
 ### -field username
 
-This member is not used when a callout driver specifies an <b>FWPM_SESSION0</b> structure when opening a
-     session to the filter engine.
+User name of the client.
 
 
 ### -field kernelMode
 
-This member is not used when a callout driver specifies an <b>FWPM_SESSION0</b> structure when opening a
-     session to the filter engine.
+TRUE if this is a kernel-mode client.
 
 
 ## -remarks
 
 
 
-A callout driver can pass a pointer to an <b>FWPM_SESSION0</b> structure to the 
-    <a href="https://msdn.microsoft.com/4d805ffe-7cf9-4cbc-9077-e191ddc24ecd">FwpmEngineOpen0</a> function to specify
-    session-specific parameters for the session to the filter engine.
+This structure contains information supplied by the client when creating a session by calling <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a>, or information retrieved from the system when enumerating sessions by calling <a href="https://msdn.microsoft.com/fb67d74a-dd96-434c-b218-a34ca6043cb1">FwpmSessionEnum0</a>.
+
+The members <b>processId</b>, <b>sid</b>,  <b>username</b>, and <b>kernelMode</b> are not supplied by the client. They are supplied by BFE and can be retrieved when enumerating sessions.
+
+<b>FWPM_SESSION0</b> is a specific implementation of FWPM_SESSION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -137,11 +153,19 @@ A callout driver can pass a pointer to an <b>FWPM_SESSION0</b> structure to the
 
 
 
-<a href="https://msdn.microsoft.com/dfd92824-feea-4f57-ba2f-b2d56dee48ad">FWPM_DISPLAY_DATA0</a>
+<a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d805ffe-7cf9-4cbc-9077-e191ddc24ecd">FwpmEngineOpen0</a>
+<a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a>
+
+
+
+<a href="https://msdn.microsoft.com/fb67d74a-dd96-434c-b218-a34ca6043cb1">FwpmSessionEnum0</a>
+
+
+
+<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
  
 
  

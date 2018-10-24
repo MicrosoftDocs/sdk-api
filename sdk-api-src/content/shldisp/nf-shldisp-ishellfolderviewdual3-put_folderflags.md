@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3_put_FolderFlags.htm
 tech.root: shell
 ms.assetid: 698678a6-3624-420a-997a-9fd1e61d67e6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_FolderFlags method, IShellFolderViewDual3.put_FolderFlags, IShellFolderViewDual3::put_FolderFlags, _shell_IShellFolderViewDual3_put_FolderFlags, put_FolderFlags, put_FolderFlags method [Windows Shell], put_FolderFlags method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_FolderFlags, shldisp/IShellFolderViewDual3::put_FolderFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

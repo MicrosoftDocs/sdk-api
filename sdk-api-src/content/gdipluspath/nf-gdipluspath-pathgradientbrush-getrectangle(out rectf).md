@@ -2,21 +2,21 @@
 UID: NF:gdipluspath.PathGradientBrush.GetRectangle(OUT RectF)
 title: PathGradientBrush::GetRectangle(OUT RectF)
 author: windows-sdk-content
-description: This topic lists the GetRectangle methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
-old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods.htm
+description: The PathGradientBrush::GetRectangle method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
+old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetRectangle_RectF_rect_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetrectanglemethods.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetrectanglemethods\getrectangle_25rectfrect.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
-ms.keywords: GetRectangle, GetRectangle methods [GDI+], PathGradientBrush.GetRectangle, PathGradientBrush.GetRectangle(OUT RectF), PathGradientBrush::GetRectangle, PathGradientBrush::GetRectangle(OUT RectF), _gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdipluspath/GetRectangle
+ms.date: 10/19/2018
+ms.keywords: GetRectangle, GetRectangle method [GDI+], GetRectangle method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetRectangle method, PathGradientBrush.GetRectangle, PathGradientBrush.GetRectangle(OUT RectF), PathGradientBrush.GetRectangle(RectF*), PathGradientBrush::GetRectangle, PathGradientBrush::GetRectangle(OUT RectF), _gdiplus_CLASS_PathGradientBrush_GetRectangle_RectF_rect_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetRectangle_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
-req.include-header: 
+req.include-header: Gdiplus.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - gdipluspath.h
+ - Gdiplus.dll
 api_name:
  - PathGradientBrush.GetRectangle
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+req.product: GDI+ 1.0
 ---
 
 # PathGradientBrush::GetRectangle(OUT RectF)
@@ -50,35 +51,64 @@ req.redist:
 ## -description
 
 
-<span>This topic lists the 
-			GetRectangle methods of the 
-			<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>class. For a complete list of methods for the 
-			<b>PathGradientBrush</b>class, see <a href="https://msdn.microsoft.com/17dc4bef-a8ee-4ff2-ade0-ff5cdb0633df">PathGradientBrush Methods</a>.
+The <b>PathGradientBrush::GetRectangle</b> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
 
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27d267d2-ccdb-4e62-bb1f-5bc91b1490bb">GetRectangle(Rect*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/27d267d2-ccdb-4e62-bb1f-5bc91b1490bb">PathGradientBrush::GetRectangle</a> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da6ff6c8-4be9-46fe-8509-5e72b2feab71">GetRectangle(RectF*)</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/da6ff6c8-4be9-46fe-8509-5e72b2feab71">PathGradientBrush::GetRectangle</a> method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param rect [out]
+
+Type: <b><a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object that receives the bounding rectangle. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+</strong>
+
+If the method succeeds, it returns <b>Ok</b>, which is an element of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+If the method fails, it returns one of the other elements of the 
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+
+
+
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
+
+
+
+<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+
+
+
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+
+
+
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+ 
+
+ 
 

@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection
 author: windows-sdk-content
 description: Represents a set of configurable attribute properties (name-value pairs) for an Online Certificate Status Protocol (OCSP) service.
 old-location: security\iocsppropertycollection.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\gettimesysinfo.htm
 tech.root: sysinfo
 ms.assetid: e1b527e2-ab7c-4106-b203-e74b4ce2a89b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetTimeSysInfoFunc, GetTimeSysInfoFunc callback, GetTimeSysInfoFunc callback function, TSI_ClockPrecision, TSI_ClockTickSize, TSI_CurrentTime, TSI_LastSyncTime, TSI_LeapFlags, TSI_PhaseOffset, TSI_PollInterval, TSI_ReferenceIdentifier, TSI_RootDelay, TSI_RootDispersion, TSI_Stratum, TSI_TSFlags, TSI_TickCount, _win32_gettimesysinfo, base.gettimesysinfo, timeprov/GetTimeSysInfoFunc
 ms.prod: windows
 ms.technology: windows-sdk

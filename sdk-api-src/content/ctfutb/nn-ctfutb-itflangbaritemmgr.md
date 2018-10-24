@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: a7fa257f-e600-4554-8b23-f73323f37e69
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], ITfLangBarItemMgr interface [Text Services Framework],described, _tsf_itflangbaritemmgr_ref, ctfutb/ITfLangBarItemMgr, tsf.itflangbaritemmgr
 ms.prod: windows
 ms.technology: windows-sdk

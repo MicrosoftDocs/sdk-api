@@ -7,7 +7,7 @@ old-location: rras\rasenumdevices.htm
 tech.root: rras
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

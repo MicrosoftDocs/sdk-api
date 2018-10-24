@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdata.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetData, GetData method [GDI+], GetData method [GDI+],Region class, Region class [GDI+],GetData method, Region.GetData, Region::GetData, _gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_, gdiplus._gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_
 ms.prod: windows-hardware
 ms.technology: windows-devices

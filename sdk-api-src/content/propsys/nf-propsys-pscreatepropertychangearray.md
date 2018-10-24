@@ -7,7 +7,7 @@ old-location: properties\PSCreatePropertyChangeArray.htm
 tech.root: properties
 ms.assetid: 5e0fdf09-a688-4297-9abe-2f1d67fce1a2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PSCreatePropertyChangeArray, PSCreatePropertyChangeArray function [Windows Properties], _shell_PSCreatePropertyChangeArray, properties.PSCreatePropertyChangeArray, propsys/PSCreatePropertyChangeArray, shell.PSCreatePropertyChangeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

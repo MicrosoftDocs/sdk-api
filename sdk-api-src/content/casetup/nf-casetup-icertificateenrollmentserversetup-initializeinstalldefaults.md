@@ -4,10 +4,10 @@ title: ICertificateEnrollmentServerSetup::InitializeInstallDefaults
 author: windows-sdk-content
 description: Initializes the ICertificateEnrollmentServerSetup object with a default configuration.
 old-location: security\icertificateenrollmentserversetup_initializeinstalldefaults.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2C6E8F84-56AC-4541-A778-839D5F2C764F
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentServerSetup.InitializeInstallDefaults, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\LIBRARYSAVEFLAGS.htm
 tech.root: shell
 ms.assetid: cae52226-0030-457b-aebf-00aaf860243d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: LIBRARYSAVEFLAGS, LIBRARYSAVEFLAGS enumeration [Windows Shell], LSF_FAILIFTHERE, LSF_MAKEUNIQUENAME, LSF_OVERRIDEEXISTING, _shell_LIBRARYSAVEFLAGS, shell.LIBRARYSAVEFLAGS, shobjidl_core/LIBRARYSAVEFLAGS, shobjidl_core/LSF_FAILIFTHERE, shobjidl_core/LSF_MAKEUNIQUENAME, shobjidl_core/LSF_OVERRIDEEXISTING
 ms.prod: windows
 ms.technology: windows-sdk

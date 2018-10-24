@@ -7,7 +7,7 @@ old-location: rras\rasdialdlg.htm
 tech.root: rras
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SHGetInverseCMAP.htm
 tech.root: shell
 ms.assetid: 46d5ccd2-3c5d-431b-b27b-6a7a95043e0a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHGetInverseCMAP, SHGetInverseCMAP function [Windows Shell], _shell_SHGetInverseCMAP, shell.SHGetInverseCMAP, shlwapi/SHGetInverseCMAP
 ms.prod: windows-hardware
 ms.technology: windows-devices

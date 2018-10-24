@@ -7,7 +7,7 @@ old-location: base\translatename.htm
 tech.root: sysinfo
 ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: TranslateName, TranslateName function, TranslateNameA, TranslateNameW, _win32_translatename, base.translatename, secext/TranslateName, secext/TranslateNameA, secext/TranslateNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

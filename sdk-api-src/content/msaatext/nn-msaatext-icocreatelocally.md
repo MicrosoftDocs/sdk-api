@@ -7,7 +7,7 @@ old-location: winauto\icocreatelocally.htm
 tech.root: WinAuto
 ms.assetid: df432ace-01ff-4100-a9df-4ed6abea7f1c
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: ICoCreateLocally, ICoCreateLocally interface [Windows Accessibility], ICoCreateLocally interface [Windows Accessibility],described, msaa.icocreatelocally, msaatext/ICoCreateLocally, winauto.icocreatelocally
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\rasinvokeeapui.htm
 tech.root: rras
 ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
 ms.prod: windows-hardware
 ms.technology: windows-devices

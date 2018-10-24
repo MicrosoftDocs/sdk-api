@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetInt16Elem.htm
 tech.root: properties
 ms.assetid: 1dbb6887-81c9-411d-9fce-c9e2f3479a43
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PropVariantGetInt16Elem, PropVariantGetInt16Elem function [Windows Properties], _shell_PropVariantGetInt16Elem, properties.PropVariantGetInt16Elem, propvarutil/PropVariantGetInt16Elem, shell.PropVariantGetInt16Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices

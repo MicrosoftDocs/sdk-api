@@ -7,7 +7,7 @@ old-location: display\dd_createmocompdata.htm
 tech.root: display
 ms.assetid: 53b2aa38-b007-4938-8fdb-c3482735ae36
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA structure [Display Devices], _DD_CREATEMOCOMPDATA, ddrawint/DD_CREATEMOCOMPDATA, ddstrcts_776346bf-3538-4965-b747-a017a7c21514.xml, display.dd_createmocompdata"
 ms.prod: windows
 ms.technology: windows-sdk

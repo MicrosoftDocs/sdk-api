@@ -4,10 +4,10 @@ title: CryptXmlDllCreateKey
 author: windows-sdk-content
 description: Parses the KeyValue element and creates a Cryptography API:\_Next Generation (CNG) BCrypt key handle to verify a signature.
 old-location: security\cryptxmldllcreatekey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a2c4b4b5-ccfc-4fb9-ad03-942906cf73d7
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCreateKey callback function [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey
 ms.prod: windows
 ms.technology: windows-sdk

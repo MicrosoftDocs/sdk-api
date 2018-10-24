@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationNotCondition.htm
 tech.root: WinAuto
 ms.assetid: 63745e87-1571-47cb-b4d2-6909d834e97b
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: IUIAutomationNotCondition, IUIAutomationNotCondition interface [Windows Accessibility], IUIAutomationNotCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationNotCondition, uiauto_IUIAutomationNotCondition, uiautomationclient/IUIAutomationNotCondition, winauto.uiauto_IUIAutomationNotCondition
 ms.prod: windows
 ms.technology: windows-sdk

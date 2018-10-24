@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_RemovePropertyItem_propId_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\removepropertyitem.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Image class [GDI+],RemovePropertyItem method, Image.RemovePropertyItem, Image::RemovePropertyItem, RemovePropertyItem, RemovePropertyItem method [GDI+], RemovePropertyItem method [GDI+],Image class, _gdiplus_CLASS_Image_RemovePropertyItem_propId_, gdiplus._gdiplus_CLASS_Image_RemovePropertyItem_propId_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getscopeastext.htm
 tech.root: WmiSdk
 ms.assetid: f43d2215-7950-421b-b660-ebe89f24407e
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: GetScopeAsText, GetScopeAsText method [Windows Management Instrumentation], GetScopeAsText method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScopeAsText method, IWbemPath.GetScopeAsText, IWbemPath::GetScopeAsText, _hmm_iwbempath_getscopeastext, wmi.iwbempath_getscopeastext, wmiutils/IWbemPath::GetScopeAsText
 ms.prod: windows-hardware
 ms.technology: windows-devices

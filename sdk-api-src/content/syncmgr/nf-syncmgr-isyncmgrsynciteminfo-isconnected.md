@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm
 tech.root: shell
 ms.assetid: 12ecfdba-87fb-4b73-8dac-0279f3f140fc
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsConnected method, ISyncMgrSyncItemInfo.IsConnected, ISyncMgrSyncItemInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsConnected, shell.ISyncMgrSyncItemInfo_IsConnected, syncmgr/ISyncMgrSyncItemInfo::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

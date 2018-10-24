@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple_GetPropertyValue.htm
 tech.root: WinAuto
 ms.assetid: 029ea063-009d-4b54-978a-4183454b2d66
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: GetPropertyValue, GetPropertyValue method [Windows Accessibility], GetPropertyValue method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPropertyValue method, IRawElementProviderSimple.GetPropertyValue, IRawElementProviderSimple::GetPropertyValue, uiauto.uiauto_IRawElementProviderSimple_GetPropertyValue, uiauto_IRawElementProviderSimple_GetPropertyValue, uiautomationcore/IRawElementProviderSimple::GetPropertyValue, winauto.uiauto_IRawElementProviderSimple_GetPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The property identifier. For a list of property IDs, see <a href="https://msdn.m
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
 
 Receives the property value, or <b>VT_EMPTY</b> if the property is not supported by this
 				provider. This parameter is passed uninitialized. See Remarks.

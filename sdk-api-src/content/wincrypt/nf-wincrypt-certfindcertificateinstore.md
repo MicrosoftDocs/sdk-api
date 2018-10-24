@@ -4,10 +4,10 @@ title: CertFindCertificateInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate context in a certificate store that matches a search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindcertificateinstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

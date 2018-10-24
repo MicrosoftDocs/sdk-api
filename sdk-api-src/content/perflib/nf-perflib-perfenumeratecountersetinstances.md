@@ -7,7 +7,7 @@ old-location: perf\perfenumeratecountersetinstances.htm
 tech.root: perfctrs
 ms.assetid: 83DCEAB7-5F79-4A55-8BAC-D20F545FF76D
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

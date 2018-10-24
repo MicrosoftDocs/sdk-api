@@ -4,10 +4,10 @@ title: CryptCATPutMemberInfo function
 author: windows-sdk-content
 description: Allocates memory for a catalog member and adds it to the catalog.
 old-location: security\cryptcatputmemberinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

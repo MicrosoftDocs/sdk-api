@@ -7,7 +7,7 @@ old-location: display\dd_addattachedsurfacedata.htm
 tech.root: display
 ms.assetid: d00120d9-5825-4998-a1ef-ccc5654b91b9
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA structure [Display Devices], _DD_ADDATTACHEDSURFACEDATA, ddrawint/DD_ADDATTACHEDSURFACEDATA, ddstrcts_2697c197-c588-4f30-8f96-db7d835f3929.xml, display.dd_addattachedsurfacedata"
 ms.prod: windows
 ms.technology: windows-sdk

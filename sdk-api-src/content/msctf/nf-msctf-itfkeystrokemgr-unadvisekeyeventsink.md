@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_unadvisekeyeventsink.htm
 tech.root: TSF
 ms.assetid: 72250972-0a0b-4e83-8603-0fb5adc9a2c9
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnadviseKeyEventSink method, ITfKeystrokeMgr.UnadviseKeyEventSink, ITfKeystrokeMgr::UnadviseKeyEventSink, UnadviseKeyEventSink, UnadviseKeyEventSink method [Text Services Framework], UnadviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unadvisekeyeventsink_ref, msctf/ITfKeystrokeMgr::UnadviseKeyEventSink, tsf.itfkeystrokemgr_unadvisekeyeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

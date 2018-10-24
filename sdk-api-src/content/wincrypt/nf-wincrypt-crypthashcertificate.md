@@ -4,10 +4,10 @@ title: CryptHashCertificate function
 author: windows-sdk-content
 description: The CryptHashCertificate function hashes the entire encoded content of a certificate including its signature.
 old-location: security\crypthashcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a5beba30-f32b-4d57-8a54-7d9096459c50
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptHashCertificate, CryptHashCertificate function [Security], _crypto2_crypthashcertificate, security.crypthashcertificate, wincrypt/CryptHashCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

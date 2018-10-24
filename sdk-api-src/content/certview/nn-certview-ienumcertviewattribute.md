@@ -4,10 +4,10 @@ title: IEnumCERTVIEWATTRIBUTE
 author: windows-sdk-content
 description: Represents an attribute-enumeration sequence that contains the certificate attributes for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewattribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security],described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
 ms.prod: windows
 ms.technology: windows-sdk

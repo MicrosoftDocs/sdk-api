@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_width_height_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_50width_height_format.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN INT,IN INT,IN PixelFormat), Bitmap.Bitmap(INT,INT,PixelFormat), Bitmap::Bitmap, Bitmap::Bitmap(IN INT,IN INT,IN PixelFormat), _gdiplus_CLASS_Bitmap_Bitmap_width_height_format_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_format_
 ms.prod: windows-hardware
 ms.technology: windows-devices

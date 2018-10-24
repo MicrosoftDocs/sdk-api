@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributenotifysink.htm
 tech.root: TSF
 ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework],described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ItemDataPosition.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\itemdataposition.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: ItemDataPosition, ItemDataPosition enumeration [GDI+], ItemDataPositionAfterBits, ItemDataPositionAfterHeader, ItemDataPositionAfterPalette, _gdiplus_ENUM_ItemDataPosition, gdiplus._gdiplus_ENUM_ItemDataPosition, gdiplusimaging/ItemDataPosition, gdiplusimaging/ItemDataPositionAfterBits, gdiplusimaging/ItemDataPositionAfterHeader, gdiplusimaging/ItemDataPositionAfterPalette
 ms.prod: windows
 ms.technology: windows-sdk

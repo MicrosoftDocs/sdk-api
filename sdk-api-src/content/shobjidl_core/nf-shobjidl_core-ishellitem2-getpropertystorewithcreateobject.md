@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetPropertyStoreWithCreateObject.htm
 tech.root: shell
 ms.assetid: 6a90ea62-e4d7-4876-802a-9c1f6c296714
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetPropertyStoreWithCreateObject, GetPropertyStoreWithCreateObject method [Windows Shell], GetPropertyStoreWithCreateObject method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreWithCreateObject method, IShellItem2.GetPropertyStoreWithCreateObject, IShellItem2::GetPropertyStoreWithCreateObject, _shell_IShellItem2_GetPropertyStoreWithCreateObject, shell.IShellItem2_GetPropertyStoreWithCreateObject, shobjidl_core/IShellItem2::GetPropertyStoreWithCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

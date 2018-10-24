@@ -4,10 +4,10 @@ title: ICertSrvSetup::InitializeDefaults
 author: windows-sdk-content
 description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.
 old-location: security\icertsrvsetup_initializedefaults.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dff7e2e2-291a-4ea9-858a-8d98d96f79ac
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ICertSrvSetup interface [Security],InitializeDefaults method, ICertSrvSetup.InitializeDefaults, ICertSrvSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

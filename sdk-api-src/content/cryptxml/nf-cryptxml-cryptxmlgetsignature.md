@@ -4,10 +4,10 @@ title: CryptXmlGetSignature function
 author: windows-sdk-content
 description: Returns an XML Signature element.
 old-location: security\cryptxmlgetsignature.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ef6748eb-1d3b-43e0-9525-2b588c2ae13f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

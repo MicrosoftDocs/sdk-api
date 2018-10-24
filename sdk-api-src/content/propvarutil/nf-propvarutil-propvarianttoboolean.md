@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBoolean.htm
 tech.root: properties
 ms.assetid: 74b9a388-8342-46e3-ac5e-b7c99e8f8f00
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Properties], properties.PropVariantToBoolean, propvarutil/PropVariantToBoolean, shell.PropVariantToBoolean, shell_PropVariantToBoolean
 ms.prod: windows-hardware
 ms.technology: windows-devices

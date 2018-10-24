@@ -7,7 +7,7 @@ old-location: wcs\logcolorspace.htm
 tech.root: WCS
 ms.assetid: b08aec07-6ac0-47be-8dc9-d604d94dedde
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: "*LPLOGCOLORSPACEW, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows Color System], LOGCOLORSPACEW, LPLOGCOLORSPACE, LPLOGCOLORSPACE structure pointer [Windows Color System], _color_LOGCOLORSPACE_str, tagLOGCOLORSPACEW, wcs.logcolorspace, wingdi/LOGCOLORSPACE, wingdi/LPLOGCOLORSPACE"
 ms.prod: windows
 ms.technology: windows-sdk

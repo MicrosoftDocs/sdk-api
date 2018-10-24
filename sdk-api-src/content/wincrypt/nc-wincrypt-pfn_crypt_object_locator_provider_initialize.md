@@ -4,10 +4,10 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 author: windows-sdk-content
 description: Initializes the provider.
 old-location: security\pfn_crypt_object_locator_provider_initialize.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 ms.prod: windows
 ms.technology: windows-sdk

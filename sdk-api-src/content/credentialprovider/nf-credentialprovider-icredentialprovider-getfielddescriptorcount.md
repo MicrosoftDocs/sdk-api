@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_GetFieldDescriptorCount.htm
 tech.root: shell
 ms.assetid: dacaa846-1838-4348-ba63-c204cbe0e2ae
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorCount method, ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

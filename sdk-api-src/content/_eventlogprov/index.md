@@ -2,7 +2,7 @@
 UID: TP:eventlogprov
 ms.assetid: 615a5ad8-3de5-39c6-b9be-7ab4b3fd9633
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

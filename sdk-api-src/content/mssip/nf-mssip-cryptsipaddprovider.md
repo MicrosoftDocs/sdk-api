@@ -4,10 +4,10 @@ title: CryptSIPAddProvider function
 author: windows-sdk-content
 description: The CryptSIPAddProvider function registers functions that are exported by a given DLL file that implements a Subject Interface Package (SIP).
 old-location: security\cryptsipaddprovider.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 99633c2f-e5ed-49e4-9c98-7501f66e5571
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptSIPAddProvider, CryptSIPAddProvider function [Security], mssip/CryptSIPAddProvider, security.cryptsipaddprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

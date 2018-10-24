@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_s
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblendbellshape_37focus_scale.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlendBellShape method, PathGradientBrush.SetBlendBellShape, PathGradientBrush::SetBlendBellShape, SetBlendBellShape, SetBlendBellShape method [GDI+], SetBlendBellShape method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_
 ms.prod: windows-hardware
 ms.technology: windows-devices

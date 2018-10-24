@@ -7,7 +7,7 @@ old-location: display\ddgetavaildrivermemory.htm
 tech.root: display
 ms.assetid: 21a1988a-1bfd-47b8-b4b6-1bc137b2ba64
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DdGetAvailDriverMemory, DdGetAvailDriverMemory callback function [Display Devices], PDD_GETAVAILDRIVERMEMORY, PDD_GETAVAILDRIVERMEMORY callback, ddfncs_670b3444-286c-4258-9936-9cb7995d0b24.xml, ddrawint/DdGetAvailDriverMemory, display.ddgetavaildrivermemory
 ms.prod: windows
 ms.technology: windows-sdk

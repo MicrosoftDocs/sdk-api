@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHTextRangeFromVariantFunction.htm
 tech.root: WinAuto
 ms.assetid: 139b970f-614c-42ff-b1d1-4d8644d98d06
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: UiaHTextRangeFromVariant, UiaHTextRangeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHTextRangeFromVariantFunction, uiauto_UiaHTextRangeFromVariantFunction, uiautomationcoreapi/UiaHTextRangeFromVariant, winauto.uiauto_UiaHTextRangeFromVariantFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Gets a text range from a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> type.
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Gets a text range from a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> type.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ req.redist:
 
 ### -param pvar [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
 
 The text range.
 

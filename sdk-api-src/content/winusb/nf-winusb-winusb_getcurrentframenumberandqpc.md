@@ -4,10 +4,10 @@ title: WinUsb_GetCurrentFrameNumberAndQpc function
 author: windows-sdk-content
 description: The WinUsb_GetCurrentFrameNumberAndQpc function retrieves the system query performance counter (QPC) value synchronized with the frame and microframe.
 old-location: buses\winusb_getcurrentframenumberandqpc.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: 9D94408F-C1EE-4940-8D33-8C32F5DE7DC4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: WinUsb_GetCurrentFrameNumberAndQpc, WinUsb_GetCurrentFrameNumberAndQpc function [Buses], buses.winusb_getcurrentframenumberandqpc, winusb/WinUsb_GetCurrentFrameNumberAndQpc
 ms.prod: windows-hardware
 ms.technology: windows-devices

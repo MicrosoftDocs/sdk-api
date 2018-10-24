@@ -4,10 +4,10 @@ title: INDESPolicy::VerifyRequest
 author: windows-sdk-content
 description: Verifies the NDES certificate request for submission to the CA.
 old-location: security\indespolicy_verifyrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

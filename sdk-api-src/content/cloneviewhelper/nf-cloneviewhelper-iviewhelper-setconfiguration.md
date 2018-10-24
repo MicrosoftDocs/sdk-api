@@ -7,7 +7,7 @@ old-location: display\iviewhelper_setconfiguration.htm
 tech.root: display
 ms.assetid: 8ec09950-afb6-43ff-8e05-4c801e49ba4b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IViewHelper interface [Display Devices],SetConfiguration method, IViewHelper.SetConfiguration, IViewHelper::SetConfiguration, SetConfiguration, SetConfiguration method [Display Devices], SetConfiguration method [Display Devices],IViewHelper interface, TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml, cloneviewhelper/IViewHelper::SetConfiguration, display.iviewhelper_setconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

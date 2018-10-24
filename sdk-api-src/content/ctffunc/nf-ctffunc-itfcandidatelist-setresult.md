@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelist_setresult.htm
 tech.root: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

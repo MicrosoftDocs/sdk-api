@@ -4,10 +4,10 @@ title: IRtwqAsyncCallback::GetParameters
 author: windows-sdk-content
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: base\irtwqasynccallback_getparameters.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: C6569BC4-E722-418E-B469-B20877F44648
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: GetParameters, GetParameters method, GetParameters method,IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,GetParameters method, IRtwqAsyncCallback.GetParameters, IRtwqAsyncCallback::GetParameters, Zero, base.irtwqasynccallback_getparameters, rtworkq/IRtwqAsyncCallback::GetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

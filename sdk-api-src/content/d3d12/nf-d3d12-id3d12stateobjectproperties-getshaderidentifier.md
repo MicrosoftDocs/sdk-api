@@ -85,7 +85,7 @@ If the shader isn’t fully resolved in the state object, the return value is <b
 
 
 
-<a href="direct3d12.id3d12stateobjectproperties">ID3D12StateObjectProperties</a>
+<a href="https://msdn.microsoft.com/3971089A-2779-42FA-8FF9-6C7C8E39C7F9">ID3D12StateObjectProperties</a>
  
 
  

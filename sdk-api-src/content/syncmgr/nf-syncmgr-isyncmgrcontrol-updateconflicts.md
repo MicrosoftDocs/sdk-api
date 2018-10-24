@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateConflicts.htm
 tech.root: shell
 ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
 ms.prod: windows-hardware
 ms.technology: windows-devices

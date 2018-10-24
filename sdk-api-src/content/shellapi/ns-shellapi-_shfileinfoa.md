@@ -7,7 +7,7 @@ old-location: shell\SHFILEINFO.htm
 tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOA, _SHFILEINFOA, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.prod: windows
 ms.technology: windows-sdk

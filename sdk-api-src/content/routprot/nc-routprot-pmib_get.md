@@ -7,7 +7,7 @@ old-location: rras\mibget.htm
 tech.root: rras
 ms.assetid: a6f3d450-0ca1-4c22-9e48-addf317cac2a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback, _mpr_mibget, routprot/MibGet, rras.mibget
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_ConnectionRecoveryBehavior.htm
 tech.root: WinAuto
 ms.assetid: 09184E02-1007-4F49-8B03-97430CD6327E
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: ConnectionRecoveryBehavior property [Windows Accessibility], ConnectionRecoveryBehavior property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],ConnectionRecoveryBehavior property, IUIAutomation6.ConnectionRecoveryBehavior, IUIAutomation6.get_ConnectionRecoveryBehavior, IUIAutomation6::ConnectionRecoveryBehavior, IUIAutomation6::get_ConnectionRecoveryBehavior, IUIAutomation6::put_ConnectionRecoveryBehavior, get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::put_ConnectionRecoveryBehavior, winauto.uiauto_IUIAutomation6_ConnectionRecoveryBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="winauto.iuiautomation6">IUIAutomation6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
  
 
  

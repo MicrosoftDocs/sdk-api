@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_FindAttributeConPat.htm
 tech.root: WinAuto
 ms.assetid: b5fac0d6-77d7-4fbf-a1b0-4ae0effbd23a
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: TextRange_FindAttribute, TextRange_FindAttribute function [Windows Accessibility], uiauto.uiauto_TextRange_FindAttributeConPat, uiauto_TextRange_FindAttributeConPat, uiautomationcoreapi/TextRange_FindAttribute, winauto.uiauto_TextRange_FindAttributeConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The text attribute to search for. For a list of text attribute IDs, see <a href=
 
 ### -param val [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
 
 The value of the attribute that the client wants to find.
 

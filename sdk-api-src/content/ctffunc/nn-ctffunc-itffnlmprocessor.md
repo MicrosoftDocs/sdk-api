@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor.htm
 tech.root: TSF
 ms.assetid: 89581a75-9263-45d7-99de-b3bd78a5169c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework],described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Rotate_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\rotate.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Matrix class [GDI+],Rotate method, Matrix.Rotate, Matrix::Rotate, Rotate, Rotate method [GDI+], Rotate method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Rotate_angle_order_, gdiplus._gdiplus_CLASS_Matrix_Rotate_angle_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromGUIDAsBuffer.htm
 tech.root: properties
 ms.assetid: c46c1263-527a-4a64-b4c9-4c4779b271c7
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: InitVariantFromGUIDAsBuffer, InitVariantFromGUIDAsBuffer function [Windows Properties], properties.InitVariantFromGUIDAsBuffer, propvarutil/InitVariantFromGUIDAsBuffer, shell.InitVariantFromGUIDAsBuffer, shell_InitVariantFromGUIDAsBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

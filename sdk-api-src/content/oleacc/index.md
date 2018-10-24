@@ -2,7 +2,7 @@
 UID: NA:oleacc
 ms.assetid: b6b79d56-7777-3076-995e-8307fab75125
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

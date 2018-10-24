@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorCurve_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurvemethods\getparameters.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: ColorCurve class [GDI+],GetParameters method, ColorCurve.GetParameters, ColorCurve::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorCurve class, _gdiplus_CLASS_ColorCurve_GetParameters_, gdiplus._gdiplus_CLASS_ColorCurve_GetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

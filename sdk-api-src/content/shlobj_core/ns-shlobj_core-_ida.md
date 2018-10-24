@@ -7,7 +7,7 @@ old-location: shell\CIDA.htm
 tech.root: shell
 ms.assetid: 30caf91d-8f3c-48ea-ad64-47f919f33f1d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*LPIDA, CIDA, CIDA structure [Windows Shell], LPIDA, LPIDA structure pointer [Windows Shell], _IDA, _win32_CIDA, shell.CIDA, shlobj_core/CIDA, shlobj_core/LPIDA"
 ms.prod: windows
 ms.technology: windows-sdk

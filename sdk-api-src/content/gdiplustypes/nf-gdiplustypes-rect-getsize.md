@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetSize_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getsize_80size.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],Rect class, Rect class [GDI+],GetSize method, Rect.GetSize, Rect::GetSize, _gdiplus_CLASS_Rect_GetSize_size_, gdiplus._gdiplus_CLASS_Rect_GetSize_size_
 ms.prod: windows-hardware
 ms.technology: windows-devices

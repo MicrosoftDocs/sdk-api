@@ -7,7 +7,7 @@ old-location: wcs\rgbcolor.htm
 tech.root: WCS
 ms.assetid: fce4437b-4625-4e72-a7ab-b362d83c7b29
 ms.author: windowssdkdev
-ms.date: 10/03/2018
+ms.date: 10/19/2018
 ms.keywords: RGBCOLOR, RGBCOLOR structure [Windows Color System], icm/RGBCOLOR, wcs.rgbcolor
 ms.prod: windows
 ms.technology: windows-sdk

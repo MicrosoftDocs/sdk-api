@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addchangeseventhandl
 tech.root: WinAuto
 ms.assetid: AB46E0D3-FFE0-4565-A971-191C0D266506
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: AddChangesEventHandler, AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddChangesEventHandler method, IUIAutomationEventHandlerGroup.AddChangesEventHandler, IUIAutomationEventHandlerGroup::AddChangesEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddChangesEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addchangeseventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ Before implementing an event handler, you should be familiar with the threading 
 
 
 
-<a href="winauto.iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>
  
 
  

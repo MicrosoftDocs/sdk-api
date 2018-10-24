@@ -4,10 +4,10 @@ title: "_CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
 author: windows-sdk-content
 description: Contains the length, in bits, of the public key and the names of the signing and hashing algorithms used for strong signing.
 old-location: security\crypt_verify_cert_sign_strong_properties_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7D68DE3D-B05D-4E06-9BA1-72E407E5FED2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure [Security], PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure pointer [Security], _CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, security.crypt_verify_cert_sign_strong_properties_info, wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, wincrypt/PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

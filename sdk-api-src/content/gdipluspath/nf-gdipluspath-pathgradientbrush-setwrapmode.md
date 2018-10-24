@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setwrapmode_12wrapmode.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: PathGradientBrush class [GDI+],SetWrapMode method, PathGradientBrush.SetWrapMode, PathGradientBrush::SetWrapMode, SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

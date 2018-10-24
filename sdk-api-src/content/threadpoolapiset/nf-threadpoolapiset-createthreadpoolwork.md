@@ -4,10 +4,10 @@ title: CreateThreadpoolWork function
 author: windows-sdk-content
 description: Creates a new work object.
 old-location: base\createthreadpoolwork.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 50647d87-1768-4918-8376-a6a04daca621
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: CreateThreadpoolWork, CreateThreadpoolWork function, base.createthreadpoolwork, threadpoolapiset/CreateThreadpoolWork
 ms.prod: windows-hardware
 ms.technology: windows-devices

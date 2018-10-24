@@ -7,7 +7,7 @@ old-location: shell\IntSub.htm
 tech.root: shell
 ms.assetid: ee083a68-27fd-4c94-93e0-7e662c48d5cf
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IntSub, IntSub function [Windows Shell], intsafe/IntSub, shell.IntSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

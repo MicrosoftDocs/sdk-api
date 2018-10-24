@@ -7,7 +7,7 @@ old-location: display\wcrun.htm
 tech.root: display
 ms.assetid: 01a90280-a7cc-4726-b0a2-68121bdb4686
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN, WCRUN structure [Display Devices], _WCRUN, display.wcrun, grstrcts_0ef325fa-6d74-4c0e-87e2-126c05560c5d.xml, winddi/PWCRUN, winddi/WCRUN"
 ms.prod: windows
 ms.technology: windows-sdk

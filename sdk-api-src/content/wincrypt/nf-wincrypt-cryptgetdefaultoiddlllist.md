@@ -4,10 +4,10 @@ title: CryptGetDefaultOIDDllList function
 author: windows-sdk-content
 description: The CryptGetDefaultOIDDllList function acquires the list of the names of DLL files that contain registered default object identifier (OID) functions for a specified function set and encoding type.
 old-location: security\cryptgetdefaultoiddlllist.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
 ms.prod: windows-hardware
 ms.technology: windows-devices

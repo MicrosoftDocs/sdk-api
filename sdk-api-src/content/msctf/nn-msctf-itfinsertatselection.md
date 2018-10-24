@@ -7,7 +7,7 @@ old-location: tsf\itfinsertatselection.htm
 tech.root: TSF
 ms.assetid: bd303639-942f-4cb0-8d69-1715f85b6ef3
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfInsertAtSelection, ITfInsertAtSelection interface [Text Services Framework], ITfInsertAtSelection interface [Text Services Framework],described, _tsf_itfinsertatselection_ref, msctf/ITfInsertAtSelection, tsf.itfinsertatselection
 ms.prod: windows
 ms.technology: windows-sdk

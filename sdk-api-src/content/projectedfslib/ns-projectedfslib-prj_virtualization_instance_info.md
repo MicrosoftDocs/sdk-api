@@ -7,7 +7,7 @@ old-location: projfs\prj_virtualization_instance_info.htm
 tech.root: ProjFS
 ms.assetid: B6532FDF-F190-4C10-BF5C-96BDF477BB4A
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO structure, ProjFS.prj_virtualization_instance_info, projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,5 +65,5 @@ An ID corresponding to a specific virtualization instance.
 
 ### -field WriteAlignment
 
-The value used for the byteOffset and length parameters of <a href="projfs.prjwritefiledata">PrjWriteFileData</a>.
+The value used for the byteOffset and length parameters of <a href="https://msdn.microsoft.com/A09D8E74-D574-41C6-A586-86E03839DA89">PrjWriteFileData</a>.
 

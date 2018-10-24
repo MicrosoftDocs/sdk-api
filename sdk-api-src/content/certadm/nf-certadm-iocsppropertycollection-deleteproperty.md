@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::DeleteProperty
 author: windows-sdk-content
 description: Removes a named property from a property set.
 old-location: security\iocsppropertycollection_deleteproperty_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

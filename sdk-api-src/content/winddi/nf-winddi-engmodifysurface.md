@@ -7,7 +7,7 @@ old-location: display\engmodifysurface.htm
 tech.root: display
 ms.assetid: 176f51c0-0075-4afb-8b5c-5d0b6b64a3ad
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: EngModifySurface, EngModifySurface function [Display Devices], display.engmodifysurface, gdifncs_422719a8-bffd-4c92-bbb8-fbd53ee1ce09.xml, winddi/EngModifySurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

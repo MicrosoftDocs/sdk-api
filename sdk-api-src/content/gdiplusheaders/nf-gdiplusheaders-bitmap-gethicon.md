@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHICON_hicon_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\gethicon.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Bitmap class [GDI+],GetHICON method, Bitmap.GetHICON, Bitmap::GetHICON, GetHICON, GetHICON method [GDI+], GetHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_GetHICON_hicon_
 ms.prod: windows-hardware
 ms.technology: windows-devices

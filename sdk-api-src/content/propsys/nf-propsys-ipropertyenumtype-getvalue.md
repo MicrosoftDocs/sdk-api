@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType_GetValue.htm
 tech.root: properties
 ms.assetid: e820087b-95fb-4352-9bb0-cf34216d37a6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetValue, GetValue method [Windows Properties], GetValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetValue method, IPropertyEnumType.GetValue, IPropertyEnumType::GetValue, _shell_IPropertyEnumType_GetValue, properties.IPropertyEnumType_GetValue, propsys/IPropertyEnumType::GetValue, shell.IPropertyEnumType_GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

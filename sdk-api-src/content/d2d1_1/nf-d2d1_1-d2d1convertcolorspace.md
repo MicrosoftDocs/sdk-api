@@ -4,10 +4,10 @@ title: D2D1ConvertColorSpace function
 author: windows-sdk-content
 description: Converts the given color from one colorspace to another.
 old-location: direct2d\d2d1convertcolorspace.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ECFE9F50-290D-4E6C-90AB-A46B9E413A48
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: D2D1ConvertColorSpace, D2D1ConvertColorSpace function [Direct2D], d2d1_1/D2D1ConvertColorSpace, direct2d.d2d1convertcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

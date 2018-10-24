@@ -7,7 +7,7 @@ old-location: multimedia\auxgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "_win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

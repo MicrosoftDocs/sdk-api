@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_B
 author: windows-sdk-content
 description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
 old-location: direct2d\id2d1devicecontext_createbitmapfromdxgisurface.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 76d49be7-b0ac-44a7-aeaf-a7b18346a2bf
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CreateBitmapFromDxgiSurface, CreateBitmapFromDxgiSurface method [Direct2D], CreateBitmapFromDxgiSurface method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapFromDxgiSurface method, ID2D1DeviceContext.CreateBitmapFromDxgiSurface, ID2D1DeviceContext.CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromDxgiSurface, ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmapFromDxgiSurface, direct2d.id2d1devicecontext_createbitmapfromdxgisurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

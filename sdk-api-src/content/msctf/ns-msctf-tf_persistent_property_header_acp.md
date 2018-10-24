@@ -7,7 +7,7 @@ old-location: tsf\tf_persistent_property_header_acp.htm
 tech.root: TSF
 ms.assetid: 9c5cb193-d18e-4d91-b9be-b8a61a56d3a3
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: TF_PERSISTENT_PROPERTY_HEADER_ACP, TF_PERSISTENT_PROPERTY_HEADER_ACP structure [Text Services Framework], _tsf_tf_persistent_property_header_acp_ref, msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP, tsf.tf_persistent_property_header_acp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TpSetCallbackPersistent function
 author: windows-sdk-content
 description: Specifies that the callback should run on a persistent thread.
 old-location: base\tpsetcallbackpersistent.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: FE2CB959-25BC-4420-A921-2A65016B25CF
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/19/2018
 ms.keywords: TpSetCallbackPersistent, TpSetCallbackPersistent function, base.tpsetcallbackpersistent, winnt/TpSetCallbackPersistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WinUsb_SetPowerPolicy function
 author: windows-sdk-content
 description: The WinUsb_SetPowerPolicy function sets the power policy for a device.
 old-location: buses\winusb_setpowerpolicy.htm
-tech.root: UsbRef
+tech.root: usbref
 ms.assetid: 11e56a77-1a9f-418a-94cf-df686d3d7868
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/23/2018
 ms.keywords: WinUsb_SetPowerPolicy, WinUsb_SetPowerPolicy function [Buses], buses.winusb_setpowerpolicy, winusb/WinUsb_SetPowerPolicy, winusbfunc_f957d4a1-0ba3-4e43-bf77-74314a5fae59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfsourcesingle_advisesinglesink.htm
 tech.root: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: AdviseSingleSink, AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework],ITfSourceSingle interface, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],AdviseSingleSink method, ITfSourceSingle.AdviseSingleSink, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
 ms.prod: windows-hardware
 ms.technology: windows-devices

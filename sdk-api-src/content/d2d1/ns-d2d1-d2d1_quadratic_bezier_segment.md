@@ -4,10 +4,10 @@ title: D2D1_QUADRATIC_BEZIER_SEGMENT
 author: windows-sdk-content
 description: Contains the control point and end point for a quadratic Bezier segment.
 old-location: direct2d\D2D1_QUADRATIC_BEZIER_SEGMENT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5060cb17-b6f4-4796-b91d-602fd81591c2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: D2D1_QUADRATIC_BEZIER_SEGMENT, D2D1_QUADRATIC_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT, direct2d.D2D1_QUADRATIC_BEZIER_SEGMENT
 ms.prod: windows
 ms.technology: windows-sdk

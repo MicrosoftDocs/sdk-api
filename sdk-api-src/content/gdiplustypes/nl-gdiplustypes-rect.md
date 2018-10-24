@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rect.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Rect, Rect class [GDI+], Rect class [GDI+],described, _gdiplus_CLASS_Rect_Class, gdiplus._gdiplus_CLASS_Rect_Class, gdiplustypes/Rect
 ms.prod: windows
 ms.technology: windows-sdk

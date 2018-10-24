@@ -4,10 +4,10 @@ title: CertCreateCertificateChainEngine function
 author: windows-sdk-content
 description: The CertCreateCertificateChainEngine function creates a new, nondefault chain engine for an application.
 old-location: security\certcreatecertificatechainengine.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e173016a-d3d7-42e0-aad8-e738abaf1df9
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CertCreateCertificateChainEngine, CertCreateCertificateChainEngine function [Security], _crypto2_certcreatecertificatechainengine, security.certcreatecertificatechainengine, wincrypt/CertCreateCertificateChainEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

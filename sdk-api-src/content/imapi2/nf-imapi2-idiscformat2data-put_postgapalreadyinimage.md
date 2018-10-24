@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_put_postgapalreadyinimage.htm
 tech.root: imapi
 ms.assetid: 68dba44b-ac14-4473-9b74-917ce2c5054a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_PostgapAlreadyInImage method, IDiscFormat2Data.put_PostgapAlreadyInImage, IDiscFormat2Data::put_PostgapAlreadyInImage, imapi.idiscformat2data_put_postgapalreadyinimage, imapi2/IDiscFormat2Data::put_PostgapAlreadyInImage, put_PostgapAlreadyInImage, put_PostgapAlreadyInImage method [IMAPI], put_PostgapAlreadyInImage method [IMAPI],IDiscFormat2Data interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

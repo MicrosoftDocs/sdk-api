@@ -7,7 +7,7 @@ old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm
 tech.root: shell
 ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage method, IQueryContinueWithStatus.SetStatusMessage, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell],IQueryContinueWithStatus interface, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

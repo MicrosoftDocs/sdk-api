@@ -7,7 +7,7 @@ old-location: rras\ras_stats.htm
 tech.root: rras
 ms.assetid: f55852f9-fa6f-480c-9c65-d6631d5270a0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: "*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _RAS_STATS, _ras_ras_stats, ras/RAS_STATS, rras.ras_stats"
 ms.prod: windows
 ms.technology: windows-sdk

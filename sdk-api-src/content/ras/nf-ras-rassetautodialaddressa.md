@@ -7,7 +7,7 @@ old-location: rras\rassetautodialaddress.htm
 tech.root: rras
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

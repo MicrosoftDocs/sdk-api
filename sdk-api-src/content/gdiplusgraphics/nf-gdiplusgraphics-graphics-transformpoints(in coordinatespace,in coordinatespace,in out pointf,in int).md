@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\transformpoints.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Graphics class [GDI+],TransformPoints method, Graphics.TransformPoints, Graphics.TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT PointF,IN INT), Graphics::TransformPoints, Graphics::TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT PointF,IN INT), TransformPoints, TransformPoints method [GDI+], TransformPoints method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_, gdiplus._gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

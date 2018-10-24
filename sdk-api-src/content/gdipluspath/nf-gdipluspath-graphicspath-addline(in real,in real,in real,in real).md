@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods\addline_50realx1_realy1_realx2_realy2.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddLine(REAL,REAL,REAL,REAL), GraphicsPath::AddLine, GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

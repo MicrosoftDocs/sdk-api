@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\getparameters.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],RedEyeCorrection class, RedEyeCorrection class [GDI+],GetParameters method, RedEyeCorrection.GetParameters, RedEyeCorrection::GetParameters, _gdiplus_CLASS_RedEyeCorrection_GetParameters_, gdiplus._gdiplus_CLASS_RedEyeCorrection_GetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

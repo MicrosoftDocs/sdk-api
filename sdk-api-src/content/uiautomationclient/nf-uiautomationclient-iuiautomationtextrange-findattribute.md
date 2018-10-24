@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_FindAttribute.htm
 tech.root: WinAuto
 ms.assetid: 12722d22-79ca-4390-8155-61234b821256
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindAttribute method, IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The identifier of the text attribute for the text range subset being retrieved. 
 
 ### -param val [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
 
 The value of the attribute. This value must match the type specified for the attribute.
 

@@ -7,7 +7,7 @@ old-location: tsf\itffngetsapiobject.htm
 tech.root: TSF
 ms.assetid: d7b4caa5-e915-4e57-878a-2a2d6ce609a7
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Framework], ITfFnGetSAPIObject interface [Text Services Framework],described, _tsf_itffngetsapiobject_ref, ctffunc/ITfFnGetSAPIObject, tsf.itffngetsapiobject
 ms.prod: windows
 ms.technology: windows-sdk

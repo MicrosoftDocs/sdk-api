@@ -7,7 +7,7 @@ old-location: tsf\itffnpropertyuistatus.htm
 tech.root: TSF
 ms.assetid: 5583ae98-02a5-4303-9674-b8a85b52442a
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Services Framework], ITfFnPropertyUIStatus interface [Text Services Framework],described, _tsf_itffnpropertyuistatus_ref, ctffunc/ITfFnPropertyUIStatus, tsf.itffnpropertyuistatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: projfs\prjstartvirtualizing.htm
 tech.root: ProjFS
 ms.assetid: 466347B7-1D7D-4C7D-B17C-1E5E1A2223C1
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,22 +62,22 @@ Configures a ProjFS virtualization instance and starts it, making it available t
 
 Pointer to a null-terminated unicode string specifying the full path to the virtualization root directory.
 
-The provider must have called <a href="projfs.prjmarkdirectoryasplaceholder">PrjMarkDirectoryAsPlaceholder</a> passing the specified path as the rootPathName parameter and NULL as the targetPathName parameter before calling this routine. This only needs to be done once to designate the path as the virtualization root directory
+The provider must have called <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder">PrjMarkDirectoryAsPlaceholder</a> passing the specified path as the rootPathName parameter and NULL as the targetPathName parameter before calling this routine. This only needs to be done once to designate the path as the virtualization root directory
 
 
 ### -param callbacks [in]
 
-Pointer to a <a href="projfs.prj_callbacks">PRJ_CALLBACKS</a> structure that has been initialized with PrjCommandCallbacksInit and filled in with pointers to the provider's callback functions. 
+Pointer to a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_callbacks">PRJ_CALLBACKS</a> structure that has been initialized with PrjCommandCallbacksInit and filled in with pointers to the provider's callback functions. 
 
 
 ### -param instanceContext [in, optional]
 
-Pointer to context information defined by the provider for each instance. This parameter is optional and can be NULL. If it is specified, ProjFS will return it in the InstanceContext member of <a href="projfs.prj_callback_data">PRJ_CALLBACK_DATA</a> when invoking provider callback routines. 
+Pointer to context information defined by the provider for each instance. This parameter is optional and can be NULL. If it is specified, ProjFS will return it in the InstanceContext member of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_callback_data">PRJ_CALLBACK_DATA</a> when invoking provider callback routines. 
 
 
 ### -param options [in, optional]
 
-An optional pointer to a  <a href="projfs.prj_startvirtualizing_options">PRJ_STARTVIRTUALIZING_OPTIONS</a>.
+An optional pointer to a  <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_startvirtualizing_options">PRJ_STARTVIRTUALIZING_OPTIONS</a>.
 
 
 ### -param namespaceVirtualizationContext [out]

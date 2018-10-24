@@ -7,7 +7,7 @@ old-location: display\drvfn.htm
 tech.root: display
 ms.assetid: 2ff20004-ec2e-4192-a5f1-e3e9d2bfad3c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PDRVFN, DRVFN, DRVFN structure [Display Devices], PDRVFN, PDRVFN structure pointer [Display Devices], _DRVFN, display.drvfn, grstrcts_178b2ecc-75f9-4921-8912-661b33305d80.xml, winddi/DRVFN, winddi/PDRVFN"
 ms.prod: windows
 ms.technology: windows-sdk

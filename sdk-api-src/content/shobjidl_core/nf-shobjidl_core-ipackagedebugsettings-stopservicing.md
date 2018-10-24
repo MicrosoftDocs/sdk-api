@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StopServicing.htm
 tech.root: shell
 ms.assetid: 129ea98a-e0c3-4472-918c-6d9aa4858c4b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopServicing method, IPackageDebugSettings.StopServicing, IPackageDebugSettings::StopServicing, StopServicing, StopServicing method [Windows Shell], StopServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopServicing, shobjidl_core/IPackageDebugSettings::StopServicing
 ms.prod: windows-hardware
 ms.technology: windows-devices

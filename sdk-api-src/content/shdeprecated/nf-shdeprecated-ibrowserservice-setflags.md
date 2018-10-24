@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_SetFlags.htm
 tech.root: shell
 ms.assetid: 696d4350-95f9-4d69-bb4b-92f4c26b3f65
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, IBrowserService interface [Windows Shell],SetFlags method, IBrowserService.SetFlags, IBrowserService::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetFlags, shell.IBrowserService_SetFlags, zone_IBrowserService_SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

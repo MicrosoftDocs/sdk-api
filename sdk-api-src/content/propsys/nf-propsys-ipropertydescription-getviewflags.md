@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetViewFlags.htm
 tech.root: properties
 ms.assetid: 73b60861-3d73-4bff-ae46-a7683d708c83
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetViewFlags, GetViewFlags method [Windows Properties], GetViewFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetViewFlags method, IPropertyDescription.GetViewFlags, IPropertyDescription::GetViewFlags, properties.IPropertyDescription_GetViewFlags, propsys/IPropertyDescription::GetViewFlags, shell.IPropertyDescription_GetViewFlags, shell_IPropertyDescription_GetViewFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

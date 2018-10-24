@@ -2,7 +2,7 @@
 UID: NA:wmcontainer
 ms.assetid: bc85a06e-51f0-3104-9a96-35b003f555ac
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: Vector4F function
 author: windows-sdk-content
 description: Returns a filled D2D1_VECTOR_4F structure.
 old-location: direct2d\vector4f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: Vector4F, Vector4F function [Direct2D], d2d1_1helper/Vector4F, direct2d.vector4f
 ms.prod: windows-hardware
 ms.technology: windows-devices

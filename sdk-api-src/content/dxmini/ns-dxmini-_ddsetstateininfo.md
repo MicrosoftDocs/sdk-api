@@ -7,7 +7,7 @@ old-location: display\ddsetstateininfo.htm
 tech.root: display
 ms.assetid: 85fdf0eb-3253-4370-b1b5-ade85c5c992f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PDDSETSTATEININFO, DDSETSTATEININFO, DDSETSTATEININFO structure [Display Devices], PDDSETSTATEININFO, PDDSETSTATEININFO structure pointer [Display Devices], Video_Structs_ac2e1c06-be26-4f4c-8dd9-e322535c3a12.xml, _DDSETSTATEININFO, display.ddsetstateininfo, dxmini/DDSETSTATEININFO, dxmini/PDDSETSTATEININFO"
 ms.prod: windows
 ms.technology: windows-sdk

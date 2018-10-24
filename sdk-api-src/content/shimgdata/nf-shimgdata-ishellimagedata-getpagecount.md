@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetPageCount.htm
 tech.root: shell
 ms.assetid: 5967a167-2cd5-4662-b624-e136c0092118
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetPageCount, GetPageCount method [Windows Shell], GetPageCount method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPageCount method, IShellImageData.GetPageCount, IShellImageData::GetPageCount, _shell_IShellImageData_GetPageCount, shell.IShellImageData_GetPageCount, shimgdata/IShellImageData::GetPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

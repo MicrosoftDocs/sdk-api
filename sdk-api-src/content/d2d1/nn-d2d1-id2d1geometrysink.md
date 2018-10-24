@@ -4,10 +4,10 @@ title: ID2D1GeometrySink
 author: windows-sdk-content
 description: Describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
 old-location: direct2d\ID2D1GeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6d2c1959-1309-45d8-8204-19ffea03375b
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ID2D1GeometrySink, ID2D1GeometrySink interface [Direct2D], ID2D1GeometrySink interface [Direct2D],described, d2d1/ID2D1GeometrySink, direct2d.ID2D1GeometrySink
 ms.prod: windows
 ms.technology: windows-sdk

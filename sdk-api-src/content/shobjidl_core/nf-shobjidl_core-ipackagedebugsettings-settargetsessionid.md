@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm
 tech.root: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],SetTargetSessionId method, IPackageDebugSettings.SetTargetSessionId, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId, SetTargetSessionId method [Windows Shell], SetTargetSessionId method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

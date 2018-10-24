@@ -7,7 +7,7 @@ old-location: shell\SHGetStockIconInfo.htm
 tech.root: shell
 ms.assetid: c08b1a53-e67c-4ed0-a9c6-d000c448e182
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHGSI_ICON, SHGSI_ICONLOCATION, SHGSI_LARGEICON, SHGSI_LINKOVERLAY, SHGSI_SELECTED, SHGSI_SHELLICONSIZE, SHGSI_SMALLICON, SHGSI_SYSICONINDEX, SHGetStockIconInfo, SHGetStockIconInfo function [Windows Shell], _shell_SHGetStockIconInfo, shell.SHGetStockIconInfo, shellapi/SHGetStockIconInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\resettransform_69.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: PathGradientBrush class [GDI+],ResetTransform method, PathGradientBrush.ResetTransform, PathGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_PathGradientBrush_ResetTransform_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CertSerializeCertificateStoreElement function
 author: windows-sdk-content
 description: The CertSerializeCertificateStoreElement function serializes a certificate context's encoded certificate and its encoded properties. The result can be persisted to storage so that the certificate and properties can be retrieved at a later time.
 old-location: security\certserializecertificatestoreelement.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 104fc986-6344-41b7-8843-23c3c72405a2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CertSerializeCertificateStoreElement, CertSerializeCertificateStoreElement function [Security], _crypto2_certserializecertificatestoreelement, security.certserializecertificatestoreelement, wincrypt/CertSerializeCertificateStoreElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

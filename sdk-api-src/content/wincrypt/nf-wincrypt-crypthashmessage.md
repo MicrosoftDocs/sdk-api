@@ -4,10 +4,10 @@ title: CryptHashMessage function
 author: windows-sdk-content
 description: Creates a hash of the message.
 old-location: security\crypthashmessage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 85a04c01-fd7c-4d87-b6e1-a0f2aea45d16
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CryptHashMessage, CryptHashMessage function [Security], _crypto2_crypthashmessage, security.crypthashmessage, wincrypt/CryptHashMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

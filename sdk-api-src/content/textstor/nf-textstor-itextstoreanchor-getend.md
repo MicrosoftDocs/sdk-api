@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getend.htm
 tech.root: TSF
 ms.assetid: 4c510900-bcff-4ea1-a8f3-95b6f47b3432
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEnd method, ITextStoreAnchor.GetEnd, ITextStoreAnchor::GetEnd, textstor/ITextStoreAnchor::GetEnd, tsf.itextstoreanchor_getend
 ms.prod: windows-hardware
 ms.technology: windows-devices

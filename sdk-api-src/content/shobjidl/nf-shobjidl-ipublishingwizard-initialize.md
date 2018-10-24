@@ -7,7 +7,7 @@ old-location: shell\IPublishingWizard_Initialize.htm
 tech.root: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

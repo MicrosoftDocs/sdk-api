@@ -7,7 +7,7 @@ old-location: base\regdisablepredefinedcache.htm
 tech.root: sysinfo
 ms.assetid: 837584b3-5f61-4535-9e66-56f50ab3fa46
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

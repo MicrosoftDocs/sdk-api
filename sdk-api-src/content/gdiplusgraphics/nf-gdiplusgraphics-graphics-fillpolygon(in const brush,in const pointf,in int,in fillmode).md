@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_poi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods\fillpolygon_71brushbrush_pointfpoints_intcount_fillm.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: FillPolygon, FillPolygon method [GDI+], FillPolygon method [GDI+],Graphics class, Graphics class [GDI+],FillPolygon method, Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode), Graphics.FillPolygon(const Brush*,const PointF*,INT,FillMode), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const PointF,IN INT,IN FillMode), _gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_FillMode_fillMode_, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_PointF_points_INT_count_FillMode_fillMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

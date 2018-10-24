@@ -7,7 +7,7 @@ old-location: shell\Int8ToULongPtr.htm
 tech.root: shell
 ms.assetid: 84a9003a-1f80-4dea-8062-888097963e47
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: Int8ToULongPtr, Int8ToULongPtr function [Windows Shell], intsafe/Int8ToULongPtr, shell.Int8ToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

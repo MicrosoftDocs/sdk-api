@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IItemContainerProvider_FindItemByProperty.htm
 tech.root: WinAuto
 ms.assetid: f2873bbb-5bb4-4eaa-b0bd-60061fc06f53
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IItemContainerProvider interface, IItemContainerProvider interface [Windows Accessibility],FindItemByProperty method, IItemContainerProvider.FindItemByProperty, IItemContainerProvider::FindItemByProperty, uiauto.uiauto_IItemContainerProvider_FindItemByProperty, uiauto_IItemContainerProvider_FindItemByProperty, uiautomationcore/IItemContainerProvider::FindItemByProperty, winauto.uiauto_IItemContainerProvider_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The property identifier. For a list of property IDs, see <a href="https://msdn.m
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
 
 The value of the property.
 

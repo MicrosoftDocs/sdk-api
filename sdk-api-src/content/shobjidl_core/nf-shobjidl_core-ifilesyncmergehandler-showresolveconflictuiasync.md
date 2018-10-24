@@ -7,7 +7,7 @@ old-location: shell\IFileSyncMergeHandler_ShowResolveConflictUIAsync.htm
 tech.root: shell
 ms.assetid: 7D437A9A-8F16-4E5E-B464-61A9A398C649
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IFileSyncMergeHandler interface [Windows Shell],ShowResolveConflictUIAsync method, IFileSyncMergeHandler.ShowResolveConflictUIAsync, IFileSyncMergeHandler::ShowResolveConflictUIAsync, MUS_COMPLETE, MUS_FAILED, MUS_USERINPUTNEEDED, ShowResolveConflictUIAsync, ShowResolveConflictUIAsync method [Windows Shell], ShowResolveConflictUIAsync method [Windows Shell],IFileSyncMergeHandler interface, shell.IFileSyncMergeHandler_ShowResolveConflictUIAsync, shobjidl_core/IFileSyncMergeHandler::ShowResolveConflictUIAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

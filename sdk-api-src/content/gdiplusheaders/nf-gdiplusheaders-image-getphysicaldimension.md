@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPhysicalDimension_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getphysicaldimension.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GetPhysicalDimension, GetPhysicalDimension method [GDI+], GetPhysicalDimension method [GDI+],Image class, Image class [GDI+],GetPhysicalDimension method, Image.GetPhysicalDimension, Image::GetPhysicalDimension, _gdiplus_CLASS_Image_GetPhysicalDimension_size_, gdiplus._gdiplus_CLASS_Image_GetPhysicalDimension_size_
 ms.prod: windows-hardware
 ms.technology: windows-devices

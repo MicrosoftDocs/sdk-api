@@ -7,7 +7,7 @@ old-location: intl\script_digitsubstitute.htm
 tech.root: Intl
 ms.assetid: e96bf8b4-7456-4e16-a623-48320104dd66
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/19/2018
 ms.keywords: SCRIPT_DIGITSUBSTITUTE, SCRIPT_DIGITSUBSTITUTE structure [Internationalization for Windows Applications], SCRIPT_DIGITSUBSTITUTE_CONTEXT, SCRIPT_DIGITSUBSTITUTE_NATIONAL, SCRIPT_DIGITSUBSTITUTE_NONE, SCRIPT_DIGITSUBSTITUTE_TRADITIONAL, _win32_SCRIPT_DIGITSUBSTITUTE_str, intl.script_digitsubstitute, tag_SCRIPT_DIGITSUBSTITUTE, usp10/SCRIPT_DIGITSUBSTITUTE
 ms.prod: windows
 ms.technology: windows-sdk

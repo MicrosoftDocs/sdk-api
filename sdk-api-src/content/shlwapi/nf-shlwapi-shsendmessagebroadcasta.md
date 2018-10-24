@@ -7,7 +7,7 @@ old-location: shell\SHSendMessageBroadcast.htm
 tech.root: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Shell], SHSendMessageBroadcastA, SHSendMessageBroadcastW, _shell_SHSendMessageBroadcast, shell.SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcastA, shlwapi/SHSendMessageBroadcastW
 ms.prod: windows-hardware
 ms.technology: windows-devices

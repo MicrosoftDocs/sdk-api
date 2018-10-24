@@ -7,7 +7,7 @@ old-location: projfs\prj_complete_command_extended_parameters.htm
 tech.root: ProjFS
 ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure, ProjFS.prj_complete_command_extended_parameters, projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Used if the commandType is PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION.
 
 ##### DirEntryBufferHandle
 
-An opaque handle to a directory entry buffer. This must be the value passed in the dirEntryBufferHandle parameter of the <a href="projfs.prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback being completed.
+An opaque handle to a directory entry buffer. This must be the value passed in the dirEntryBufferHandle parameter of the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback being completed.
 
 
 ### -field DUMMYUNIONNAME.Notification
@@ -121,9 +121,9 @@ The type of command.
 
 
 
-For any callback except <a href="projfs.prj_cancel_command_cb">PRJ_CANCEL_COMMAND_CB</a>, the provider may opt to process the callback asynchronously. To do so it returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) from the callback. Once the provider has finished processing the callback. 
+For any callback except <a href="https://msdn.microsoft.com/8C646A8C-7C55-4F54-965A-04ACAC64C65D">PRJ_CANCEL_COMMAND_CB</a>, the provider may opt to process the callback asynchronously. To do so it returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) from the callback. Once the provider has finished processing the callback. 
 
-If the provider calls this function for the commandId passed by the <a href="projfs.prj_cancel_command_cb">PRJ_CANCEL_COMMAND_CB</a> callback it is not an error, however it is a no-op because the I/O that caused the callback invocation identified by commandId has already ended.
+If the provider calls this function for the commandId passed by the <a href="https://msdn.microsoft.com/8C646A8C-7C55-4F54-965A-04ACAC64C65D">PRJ_CANCEL_COMMAND_CB</a> callback it is not an error, however it is a no-op because the I/O that caused the callback invocation identified by commandId has already ended.
 
 
 

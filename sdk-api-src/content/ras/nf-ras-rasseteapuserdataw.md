@@ -7,7 +7,7 @@ old-location: rras\rasseteapuserdata.htm
 tech.root: rras
 ms.assetid: 702e5c42-cc8c-43cf-a0bf-d3e450c031a4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RasSetEapUserData, RasSetEapUserData function [RAS], RasSetEapUserDataA, RasSetEapUserDataW, _ras_rasseteapuserdata, ras/RasSetEapUserData, ras/RasSetEapUserDataA, ras/RasSetEapUserDataW, rras.rasseteapuserdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

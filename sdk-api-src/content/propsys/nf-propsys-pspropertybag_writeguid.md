@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteGUID.htm
 tech.root: properties
 ms.assetid: F50CF010-3A4E-4723-BA9F-CE1B48CA4AA4
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PSPropertyBag_WriteGUID, PSPropertyBag_WriteGUID function [Windows Properties], properties.PSPropertyBag_WriteGUID, propsys/PSPropertyBag_WriteGUID, shell.PSPropertyBag_WriteGUID, shell_PSPropertyBag_WriteGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

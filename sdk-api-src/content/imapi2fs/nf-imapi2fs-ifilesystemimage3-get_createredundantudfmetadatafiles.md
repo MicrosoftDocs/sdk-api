@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage3_get_createredundantudfmetadatafiles.htm
 tech.root: imapi
 ms.assetid: d71e997f-e6d6-414b-b89e-73a486f29619
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],get_CreateRedundantUdfMetadataFiles method, IFileSystemImage3.get_CreateRedundantUdfMetadataFiles, IFileSystemImage3::get_CreateRedundantUdfMetadataFiles, get_CreateRedundantUdfMetadataFiles, get_CreateRedundantUdfMetadataFiles method [IMAPI], get_CreateRedundantUdfMetadataFiles method [IMAPI],IFileSystemImage3 interface, imapi.ifilesystemimage3_get_createredundantudfmetadatafiles, imapi2fs/IFileSystemImage3::get_CreateRedundantUdfMetadataFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

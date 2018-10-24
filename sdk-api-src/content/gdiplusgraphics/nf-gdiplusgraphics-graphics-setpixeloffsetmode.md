@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setpixeloffsetmode.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Graphics class [GDI+],SetPixelOffsetMode method, Graphics.SetPixelOffsetMode, Graphics::SetPixelOffsetMode, SetPixelOffsetMode, SetPixelOffsetMode method [GDI+], SetPixelOffsetMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

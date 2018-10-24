@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillellipsemethods\fillellipse.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: FillEllipse, FillEllipse method [GDI+], FillEllipse method [GDI+],Graphics class, Graphics class [GDI+],FillEllipse method, Graphics.FillEllipse, Graphics.FillEllipse(IN const Brush,IN const Rect &), Graphics.FillEllipse(const Brush*,const Rect&), Graphics::FillEllipse, Graphics::FillEllipse(IN const Brush,IN const Rect &), _gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

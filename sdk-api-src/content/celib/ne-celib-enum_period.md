@@ -4,10 +4,10 @@ title: ENUM_PERIOD
 author: windows-sdk-content
 description: Specifies the units of a time span.
 old-location: security\enum_period.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1bd8c906-7e17-4d8c-93e8-8901f9104d58
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ENUM_PERIOD, ENUM_PERIOD enumeration [Security], ENUM_PERIOD_DAYS, ENUM_PERIOD_HOURS, ENUM_PERIOD_INVALID, ENUM_PERIOD_MINUTES, ENUM_PERIOD_MONTHS, ENUM_PERIOD_SECONDS, ENUM_PERIOD_WEEKS, ENUM_PERIOD_YEARS, celib/ENUM_PERIOD, celib/ENUM_PERIOD_DAYS, celib/ENUM_PERIOD_HOURS, celib/ENUM_PERIOD_INVALID, celib/ENUM_PERIOD_MINUTES, celib/ENUM_PERIOD_MONTHS, celib/ENUM_PERIOD_SECONDS, celib/ENUM_PERIOD_WEEKS, celib/ENUM_PERIOD_YEARS, security.enum_period
 ms.prod: windows
 ms.technology: windows-sdk

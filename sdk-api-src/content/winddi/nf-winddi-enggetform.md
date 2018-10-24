@@ -7,7 +7,7 @@ old-location: display\enggetform.htm
 tech.root: display
 ms.assetid: b5cc37b1-3e5e-4d3b-b23f-1f737c8dcd28
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: EngGetForm, EngGetForm function [Display Devices], display.enggetform, gdifncs_178cf402-6353-453e-99c8-0164b0552231.xml, winddi/EngGetForm
 ms.prod: windows-hardware
 ms.technology: windows-devices

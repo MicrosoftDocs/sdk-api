@@ -7,7 +7,7 @@ old-location: wmi\swbemqueryqualifiedname.htm
 tech.root: WmiSdk
 ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/19/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], tag_SWbemQueryQualifiedName, wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName
 ms.prod: windows
 ms.technology: windows-sdk

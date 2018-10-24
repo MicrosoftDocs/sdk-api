@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Effect_Effect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectconstructors\effect.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Effect, Effect class [GDI+],Effect constructor, Effect constructor [GDI+], Effect constructor [GDI+],Effect class, Effect.Effect, Effect::Effect, _gdiplus_CLASS_Effect_Effect_, gdiplus._gdiplus_CLASS_Effect_Effect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

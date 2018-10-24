@@ -4,10 +4,10 @@ title: "_CMC_TAGGED_CONTENT_INFO"
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_content_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ff10dcdf-4c76-434a-a8bd-78d64ea24d23
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO structure [Security], PCMC_TAGGED_CONTENT_INFO, PCMC_TAGGED_CONTENT_INFO structure pointer [Security], _CMC_TAGGED_CONTENT_INFO, _crypto2_cmc_tagged_content_info, security.cmc_tagged_content_info, wincrypt/CMC_TAGGED_CONTENT_INFO, wincrypt/PCMC_TAGGED_CONTENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

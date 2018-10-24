@@ -4,10 +4,10 @@ title: ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_
 author: windows-sdk-content
 description: Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.
 old-location: direct2d\ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D_RECT_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 97b23c9e-87cf-421e-a205-12707647c0fb
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: GetWidenedBounds, GetWidenedBounds method [Direct2D], GetWidenedBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetWidenedBounds method, ID2D1Geometry.GetWidenedBounds, ID2D1Geometry.GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_RECT_F), ID2D1Geometry::GetWidenedBounds, ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_RECT_F), d2d1/ID2D1Geometry::GetWidenedBounds, direct2d.ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D_RECT_F
 ms.prod: windows-hardware
 ms.technology: windows-devices

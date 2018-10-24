@@ -7,7 +7,7 @@ old-location: shell\PathFileExists.htm
 tech.root: shell
 ms.assetid: 26d01e9f-cbf2-4e40-9970-a594879b424d
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: PathFileExists, PathFileExists function [Windows Shell], PathFileExistsA, PathFileExistsW, _win32_PathFileExists, shell.PathFileExists, shlwapi/PathFileExists, shlwapi/PathFileExistsA, shlwapi/PathFileExistsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

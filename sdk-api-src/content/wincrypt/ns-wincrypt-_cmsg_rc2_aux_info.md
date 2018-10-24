@@ -4,10 +4,10 @@ title: "_CMSG_RC2_AUX_INFO"
 author: windows-sdk-content
 description: Contains the bit length of the key for RC2 encryption algorithms.
 old-location: security\cmsg_rc2_aux_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6d7014fa-2d0c-48de-bda5-91d19ad879f9
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: "*PCMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO structure [Security], PCMSG_RC2_AUX_INFO, PCMSG_RC2_AUX_INFO structure pointer [Security], _CMSG_RC2_AUX_INFO, _crypto2_cmsg_rc2_aux_info, security.cmsg_rc2_aux_info, wincrypt/CMSG_RC2_AUX_INFO, wincrypt/PCMSG_RC2_AUX_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

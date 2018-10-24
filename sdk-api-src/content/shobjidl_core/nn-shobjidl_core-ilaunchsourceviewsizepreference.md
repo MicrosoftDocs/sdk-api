@@ -7,7 +7,7 @@ old-location: shell\ILaunchSourceViewSizePreference.htm
 tech.root: shell
 ms.assetid: 94436BC1-658E-4D33-866D-9C05282291A8
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference interface [Windows Shell], ILaunchSourceViewSizePreference interface [Windows Shell],described, shell.ILaunchSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference
 ms.prod: windows
 ms.technology: windows-sdk

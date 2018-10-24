@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clone_98.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],Clone method, ImageAttributes.Clone, ImageAttributes::Clone, _gdiplus_CLASS_ImageAttributes_Clone_, gdiplus._gdiplus_CLASS_ImageAttributes_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices

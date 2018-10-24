@@ -7,7 +7,7 @@ old-location: projfs\prjgetvirtualizationinstanceinfo.htm
 tech.root: ProjFS
 ms.assetid: 0C04D13F-862C-4E4C-9BC1-13E6FAC86E99
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PrjGetVirtualizationInstanceInfo, PrjGetVirtualizationInstanceInfo function, ProjFS.prjgetvirtualizationinstanceinfo, projectedfslib/PrjGetVirtualizationInstanceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ProjFS callback routines provide the virtualization instance handle in their callbackData parameters. A provider that manages multiple virtualization instances can use the InstanceID field of virtualizationInstanceInfo to identify which of its virtualization instances is receiving the callback. 
 
 
-The provider can use the WriteAlignment member of virtualizationInstanceInfo to determine the correct values to use for the byteOffset and length parameters of <a href="projfs.prjwritefiledata">PrjWriteFileData</a>.
+The provider can use the WriteAlignment member of virtualizationInstanceInfo to determine the correct values to use for the byteOffset and length parameters of <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a>.
 
 
 

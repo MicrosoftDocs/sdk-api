@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager_FolderIdToCsidl.htm
 tech.root: shell
 ms.assetid: 27bd8c79-34ff-44ee-ad99-aa079af7da89
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: FolderIdToCsidl, FolderIdToCsidl method [Windows Shell], FolderIdToCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdToCsidl method, IKnownFolderManager.FolderIdToCsidl, IKnownFolderManager::FolderIdToCsidl, _shell_IKnownFolderManager_FolderIdToCsidl, shell.IKnownFolderManager_FolderIdToCsidl, shobjidl_core/IKnownFolderManager::FolderIdToCsidl
 ms.prod: windows-hardware
 ms.technology: windows-devices

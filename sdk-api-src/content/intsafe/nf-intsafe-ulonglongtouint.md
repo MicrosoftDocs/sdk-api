@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUInt.htm
 tech.root: shell
 ms.assetid: 22ddab76-7f47-4198-830a-5ae88706ef1f
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ULongLongToUInt, ULongLongToUInt function [Windows Shell], _shell_ULongLongToUInt, intsafe/ULongLongToUInt, shell.ULongLongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_LineJoin.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linejoin.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter, LineJoinMiterClipped, LineJoinRound, _gdiplus_ENUM_LineJoin, gdiplus._gdiplus_ENUM_LineJoin, gdiplusenums/LineJoin, gdiplusenums/LineJoinBevel, gdiplusenums/LineJoinMiter, gdiplusenums/LineJoinMiterClipped, gdiplusenums/LineJoinRound
 ms.prod: windows
 ms.technology: windows-sdk

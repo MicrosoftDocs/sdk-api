@@ -7,7 +7,7 @@ old-location: rras\rtmgetenumnexthops.htm
 tech.root: rras
 ms.assetid: 3e1a6064-6ba0-4ed8-b6df-1c347b098807
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ms.keywords: RtmGetEnumNextHops, RtmGetEnumNextHops function [RAS], _rtmv2ref_rtmgetenumnexthops, rras.rtmgetenumnexthops, rtmv2/RtmGetEnumNextHops
 ms.prod: windows-hardware
 ms.technology: windows-devices

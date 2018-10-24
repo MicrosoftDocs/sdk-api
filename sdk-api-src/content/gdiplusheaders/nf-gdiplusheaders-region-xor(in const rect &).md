@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods\xor_60rectamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const Rect &), Region.Xor(const Rect&), Region::Xor, Region::Xor(IN const Rect &), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Xor_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

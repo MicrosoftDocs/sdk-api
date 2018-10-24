@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPolygon_Pen_pen_Point_points_I
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpolygonmethods\drawpolygon.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: DrawPolygon, DrawPolygon method [GDI+], DrawPolygon method [GDI+],Graphics class, Graphics class [GDI+],DrawPolygon method, Graphics.DrawPolygon, Graphics.DrawPolygon(IN const Pen,IN const Point,IN INT), Graphics.DrawPolygon(const Pen*,const Point*,INT*), Graphics::DrawPolygon, Graphics::DrawPolygon(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawPolygon_Pen_pen_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawPolygon_Pen_pen_Point_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

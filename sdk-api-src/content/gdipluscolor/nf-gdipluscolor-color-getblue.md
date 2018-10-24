@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetBlue_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getblue.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Color class [GDI+],GetBlue method, Color.GetBlue, Color::GetBlue, GetBlue, GetBlue method [GDI+], GetBlue method [GDI+],Color class, _gdiplus_CLASS_Color_GetBlue_, gdiplus._gdiplus_CLASS_Color_GetBlue_
 ms.prod: windows-hardware
 ms.technology: windows-devices

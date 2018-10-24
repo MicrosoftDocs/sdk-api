@@ -65,7 +65,7 @@ For a nonobject RPC interface on the server-side, it points to an RPC server int
 
 ### -field pfnAllocate
 
-Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
+Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
 
 
 ### -field pfnFree
@@ -140,7 +140,7 @@ Version of the MIDL compiler used to compile the .idl file.
 
 ### -field CommFaultOffsets
 
-Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/">fault_status</a> attributes. 
+Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">fault_status</a> attributes. 
 
 
 ### -field aUserMarshalQuadruple

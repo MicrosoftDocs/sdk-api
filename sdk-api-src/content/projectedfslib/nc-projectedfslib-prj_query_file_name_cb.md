@@ -7,7 +7,7 @@ old-location: projfs\prj_query_file_name_cb.htm
 tech.root: ProjFS
 ms.assetid: 1B218D41-AF24-48C2-9E11-7E0455CE15AC
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_FILE_NAME_CB callback function, ProjFS.prj_query_file_name_cb, projectedfslib/PRJ_QUERY_FILE_NAME_CB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ An appropriate HRESULT error code if the provider fails the operation.
 
 This callback is optional.  If the provider does not supply an implementation of this callback, ProjFS will invoke the provider’s directory enumeration callbacks to determine the existence of a file path in the provider's store.
 
-The provider should use <a href="projfs.prjfilenamecompare">PrjFileNameCompare</a> as the comparison routine when searching its backing store for the specified file.
+The provider should use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamecompare">PrjFileNameCompare</a> as the comparison routine when searching its backing store for the specified file.
 
 
 

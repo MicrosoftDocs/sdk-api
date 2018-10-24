@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromBuffer.htm
 tech.root: properties
 ms.assetid: 4dd28a13-2161-4258-a32f-57e5bd8ce091
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: InitVariantFromBuffer, InitVariantFromBuffer function [Windows Properties], _shell_InitVariantFromBuffer, properties.InitVariantFromBuffer, propvarutil/InitVariantFromBuffer, shell.InitVariantFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

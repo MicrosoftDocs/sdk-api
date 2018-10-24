@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::CreateProperty
 author: windows-sdk-content
 description: Creates a new property and adds it to a property set.
 old-location: security\iocsppropertycollection_createproperty_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],CreateProperty method, IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\icqueryconfigure.htm
 tech.root: Multimedia
 ms.assetid: a0e65123-5224-43a4-9a1e-28a10ecbed5c
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: ICQueryConfigure, ICQueryConfigure macro [Windows Multimedia], _win32_ICQueryConfigure, multimedia.icqueryconfigure, vfw/ICQueryConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

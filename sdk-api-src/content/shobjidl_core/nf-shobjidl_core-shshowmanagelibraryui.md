@@ -7,7 +7,7 @@ old-location: shell\SHShowManageLibraryUI.htm
 tech.root: shell
 ms.assetid: 1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: SHShowManageLibraryUI, SHShowManageLibraryUI function [Windows Shell], _shell_SHShowManageLibraryUI, shell.SHShowManageLibraryUI, shobjidl_core/SHShowManageLibraryUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfrange_getembedded.htm
 tech.root: TSF
 ms.assetid: ff8c4f60-76d5-422d-9d23-584e8eb5f1a1
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: Caller-defined, GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetEmbedded method, ITfRange.GetEmbedded, ITfRange::GetEmbedded, _tsf_itfrange_getembedded_ref, msctf/ITfRange::GetEmbedded, tsf.itfrange_getembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices

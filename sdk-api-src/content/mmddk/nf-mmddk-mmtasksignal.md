@@ -7,7 +7,7 @@ old-location: multimedia\mmtasksignal.htm
 tech.root: Multimedia
 ms.assetid: 99063f94-efe6-43f5-87e4-1d52b83650e2
 ms.author: windowssdkdev
-ms.date: 10/18/2018
+ms.date: 10/19/2018
 ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmTaskSignal, multimedia.mmtasksignal
 ms.prod: windows-hardware
 ms.technology: windows-devices

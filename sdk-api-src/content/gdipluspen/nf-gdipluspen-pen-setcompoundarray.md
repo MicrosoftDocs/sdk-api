@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetCompoundArray_compoundArray_count_.h
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setcompoundarray.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: Pen class [GDI+],SetCompoundArray method, Pen.SetCompoundArray, Pen::SetCompoundArray, SetCompoundArray, SetCompoundArray method [GDI+], SetCompoundArray method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetCompoundArray_compoundArray_count_, gdiplus._gdiplus_CLASS_Pen_SetCompoundArray_compoundArray_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

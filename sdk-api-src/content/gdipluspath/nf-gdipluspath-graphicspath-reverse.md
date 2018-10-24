@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reverse_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reverse.htm
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/19/2018
 ms.keywords: GraphicsPath class [GDI+],Reverse method, GraphicsPath.Reverse, GraphicsPath::Reverse, Reverse, Reverse method [GDI+], Reverse method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Reverse_, gdiplus._gdiplus_CLASS_GraphicsPath_Reverse_
 ms.prod: windows-hardware
 ms.technology: windows-devices

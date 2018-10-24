@@ -2,7 +2,7 @@
 UID: NA:accctrl
 ms.assetid: aef287f5-bd2b-3608-a837-33f1afcbaa69
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

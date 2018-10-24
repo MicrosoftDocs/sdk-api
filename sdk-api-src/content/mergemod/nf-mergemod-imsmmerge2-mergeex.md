@@ -7,7 +7,7 @@ old-location: setup\imsmmerge2_mergeex.htm
 tech.root: msi
 ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/23/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
