@@ -78,7 +78,7 @@ The highest message identifier contained within this structure.
 
 Type: <b>DWORD</b>
 
-The offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.com/439cf64e-29be-49ab-8bbf-cb98ac2e41cd">MESSAGE_RESOURCE_DATA</a> structure to the <a href="https://msdn.microsoft.com/cce13b09-5c8b-4d64-a229-419d01d91f27">MESSAGE_RESOURCE_ENTRY</a> structures in this <b>MESSAGE_RESOURCE_BLOCK</b>. The <b>MESSAGE_RESOURCE_ENTRY</b> structures contain the message strings. 
+The offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.com/en-us/library/ms648021(v=VS.85).aspx">MESSAGE_RESOURCE_DATA</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms648022(v=VS.85).aspx">MESSAGE_RESOURCE_ENTRY</a> structures in this <b>MESSAGE_RESOURCE_BLOCK</b>. The <b>MESSAGE_RESOURCE_ENTRY</b> structures contain the message strings. 
 
 
 ## -see-also
@@ -90,11 +90,11 @@ The offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/439cf64e-29be-49ab-8bbf-cb98ac2e41cd">MESSAGE_RESOURCE_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648021(v=VS.85).aspx">MESSAGE_RESOURCE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/cce13b09-5c8b-4d64-a229-419d01d91f27">MESSAGE_RESOURCE_ENTRY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648022(v=VS.85).aspx">MESSAGE_RESOURCE_ENTRY</a>
 
 
 
@@ -102,7 +102,7 @@ The offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/6B8C9A0A-81D6-4CC2-B30B-995D4C2E59FC">Gaussian blur effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706338(v=VS.85).aspx">Gaussian blur effect</a>.
         
 
 
@@ -75,7 +75,7 @@ The default value is 3.0f.
 The optimization mode.
             
 
-The type is <a href="https://msdn.microsoft.com/D6A8BB3A-8286-4410-8EA3-A9AEA1797C5E">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
+The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934247(v=VS.85).aspx">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
 
 The default value is D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED.
 
@@ -85,7 +85,7 @@ The default value is D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED.
 The mode used to calculate the border of the image, soft or hard.
             
 
-The type is <a href="https://msdn.microsoft.com/D6A8BB3A-8286-4410-8EA3-A9AEA1797C5E">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
+The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934247(v=VS.85).aspx">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

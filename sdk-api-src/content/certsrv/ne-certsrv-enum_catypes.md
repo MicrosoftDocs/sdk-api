@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ENUM_CATYPES</b> enumeration specifies a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) type.
+The <b>ENUM_CATYPES</b> enumeration specifies a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) type.
 
 
 ## -enum-fields

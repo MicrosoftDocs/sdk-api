@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="c.htm">color space</a>.
+The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
 
 
 

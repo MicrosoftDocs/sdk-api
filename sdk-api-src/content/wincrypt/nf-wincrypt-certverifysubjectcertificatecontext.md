@@ -51,7 +51,7 @@ req.redist:
 
 
 The <b>CertVerifySubjectCertificateContext</b> function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new 
-<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of this function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 
 ## -parameters
@@ -178,7 +178,7 @@ is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CE
 
 
 
-<a href="cryptography_functions.htm">Certificate Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
  
 
  

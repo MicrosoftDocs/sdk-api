@@ -164,7 +164,7 @@ Color(255, 0, 0, 0)Color(255, 255, 0,  0)</pre>
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 

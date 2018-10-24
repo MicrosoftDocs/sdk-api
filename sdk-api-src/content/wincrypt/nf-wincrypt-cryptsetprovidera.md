@@ -167,7 +167,7 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 
 
 
-<a href="cryptography_functions.htm">Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
  
 
  
