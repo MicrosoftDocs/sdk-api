@@ -152,27 +152,23 @@ If you pass a compiled shader to <i>pShaderBytecode</i> that uses any of the fol
 
 Usage Example
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 ID3D11GeometryShader*       g_pGeometryShader11 = NULL;
 ID3DBlob* pGeometryShaderBuffer = NULL;
 ID3DBlob * errorbuffer = NULL;
 
 D3DX11CompileFromFile( str, NULL, NULL, "GS", "gs_4_0", dwShaderFlags, 0, NULL,
-                                         &amp;pGeometryShaderBuffer, &amp;errorbuffer, NULL );
+                                         &pGeometryShaderBuffer, &errorbuffer, NULL );
 
-pd3dDevice-&gt;CreateGeometryShader( pGeometryShaderBuffer-&gt;GetBufferPointer(),
-               pGeometryShaderBuffer-&gt;GetBufferSize(), NULL, &amp;g_pGeometryShader11 );
+pd3dDevice->CreateGeometryShader( pGeometryShaderBuffer->GetBufferPointer(),
+               pGeometryShaderBuffer->GetBufferSize(), NULL, &g_pGeometryShader11 );
      
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
+
+
 
 
 

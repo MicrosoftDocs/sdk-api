@@ -120,17 +120,13 @@ The
 
 The following example retrieves the TCP statistics for the local computer and prints some values from the returned data.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//#include &lt;windows.h&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+//#include <windows.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <iphlpapi.h>
+#include <stdio.h>
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -151,11 +147,11 @@ int main()
     }
 
     if ((dwRetVal = GetTcpStatistics(pTCPStats)) == NO_ERROR) {
-      printf("\tActive Opens: %ld\n", pTCPStats-&gt;dwActiveOpens);
-      printf("\tPassive Opens: %ld\n", pTCPStats-&gt;dwPassiveOpens);
-      printf("\tSegments Recv: %ld\n", pTCPStats-&gt;dwInSegs);
-      printf("\tSegments Xmit: %ld\n", pTCPStats-&gt;dwOutSegs);
-      printf("\tTotal # Conxs: %ld\n", pTCPStats-&gt;dwNumConns);
+      printf("\tActive Opens: %ld\n", pTCPStats->dwActiveOpens);
+      printf("\tPassive Opens: %ld\n", pTCPStats->dwPassiveOpens);
+      printf("\tSegments Recv: %ld\n", pTCPStats->dwInSegs);
+      printf("\tSegments Xmit: %ld\n", pTCPStats->dwOutSegs);
+      printf("\tTotal # Conxs: %ld\n", pTCPStats->dwNumConns);
     }
     else {
       printf("GetTcpStatistics failed with error: %ld\n", dwRetVal);
@@ -167,7 +163,7 @@ int main()
         NULL,
         dwRetVal,
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-        (LPTSTR) &amp;lpMsgBuf,
+        (LPTSTR) &lpMsgBuf,
         0,
         NULL )) {
         printf("\tError: %s", lpMsgBuf);
@@ -178,10 +174,10 @@ int main()
     if (pTCPStats)
         FREE (pTCPStats);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

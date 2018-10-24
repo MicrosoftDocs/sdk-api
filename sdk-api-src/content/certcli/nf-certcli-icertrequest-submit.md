@@ -435,13 +435,9 @@ If you read a BASE64 format request from a file, ensure that the file is in Unic
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    //  The pointer to the interface object.
+
+```cpp
+    //  The pointer to the interface object.
     ICertRequest * pCertRequest = NULL;
 
     //  The variable for the computer\CAName.
@@ -473,7 +469,7 @@ If you read a BASE64 format request from a file, ensure that the file is in Unic
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ICertRequest,
-                          (void **)&amp;pCertRequest);
+                          (void **)&pCertRequest);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertRequest [%x]\n", hr);
@@ -492,11 +488,11 @@ If you read a BASE64 format request from a file, ensure that the file is in Unic
     bstrAttribs = SysAllocString(L"");
     
     //  Submit the request.
-    hr = pCertRequest-&gt;Submit(CR_IN_BASE64 | CR_IN_PKCS10, 
+    hr = pCertRequest->Submit(CR_IN_BASE64 | CR_IN_PKCS10, 
                               bstrRequest,
                               bstrAttribs,
                               bstrCA, 
-                              &amp;nDisp );
+                              &nDisp );
     if (FAILED(hr))
     {
         printf("Failed Submit [%x]\n", hr);
@@ -523,14 +519,14 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertRequest)
-        pCertRequest-&gt;Release();
+        pCertRequest->Release();
 
     //  Free COM resources.
     CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

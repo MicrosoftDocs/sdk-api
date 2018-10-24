@@ -105,15 +105,11 @@ The following example shows how to use the
 <b>IBITSExtensionSetupFactory</b> interface to get a pointer to the 
 <a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//Set the BITSUploadEnabled IIS configuration setting.
+
+```cpp
+//Set the BITSUploadEnabled IIS configuration setting.
 //The pszPath parameter contains the path to the directory service. 
-//For example, "IIS://&lt;machine name&gt;/w3svc/1/&lt;virtual directory&gt;".
+//For example, "IIS://<machine name>/w3svc/1/<virtual directory>".
 //The Enable parameter contains true (enable) or false (disable).
 HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
 {
@@ -124,32 +120,32 @@ HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
   hr = CoCreateInstance(__uuidof(BITSExtensionSetupFactory),
     NULL, CLSCTX_INPROC_SERVER,
     __UUIDOF(IBITSExtensionSetupFactory),
-    (void**)&amp;pExtensionSetupFactory);
+    (void**)&pExtensionSetupFactory);
 
   if (SUCCEEDED(hr))
   {
-    hr = pExtensionSetupFactory-&gt;GetObject(BSTR(pszPath), &amp;pExtensionSetup);
+    hr = pExtensionSetupFactory->GetObject(BSTR(pszPath), &pExtensionSetup);
     if (SUCCEEDED(hr))
     {
       if (Enable)
       {
-        hr = pExtensionSetup-&gt;EnableBITSUploads();
+        hr = pExtensionSetup->EnableBITSUploads();
       }
       else
       {
-        hr = pExtensionSetup-&gt;DisableBITSUploads();
+        hr = pExtensionSetup->DisableBITSUploads();
       }
 
-      pExtensionSetup-&gt;Release();
+      pExtensionSetup->Release();
     }
-    pExtensionSetupFactory-&gt;Release();
+    pExtensionSetupFactory->Release();
   }
 
   return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -92,20 +92,16 @@ Passing a negative value or a value greater than the value returned by <a href="
 
 The following code example shows the use of <b>CHStringArray::GetAt</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHStringArray array;
+
+```cpp
+CHStringArray array;
 
 array.Add( L"String 1" ); // Element 0 
 array.Add( L"String 2" ); // Element 1 
-assert( array.GetAt( 0 ) == "String 1" );</pre>
-</td>
-</tr>
-</table></span></div>
+assert( array.GetAt( 0 ) == "String 1" );
+```
+
+
 
 
 

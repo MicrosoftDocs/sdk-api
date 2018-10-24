@@ -130,16 +130,12 @@ The number of histograms returned depends on the <a href="https://msdn.microsoft
 
 The following example constructs a <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object from a BMP file. The code retrieves three histograms from the bitmap: one each for the red, green, and blue channels. Note the order of RGB in the name of the enumeration element <b>HistogramFormatRGB</b>. R is first, so it corresponds with <b>ch0</b>. Green is second, so it corresponds with <b>ch1</b>. Blue is third, so it corresponds with <b>ch2</b>. The final parameter passed to <b>Bitmap::GetHistogram</b> is <b>NULL</b> because there is no fourth histogram.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Bitmap myBitmap(L"Picture.bmp");
+
+```cpp
+Bitmap myBitmap(L"Picture.bmp");
 
 UINT numEntries;
-myBitmap.GetHistogramSize(HistogramFormatRGB, &amp;numEntries);
+myBitmap.GetHistogramSize(HistogramFormatRGB, &numEntries);
 
 UINT* ch0 = new UINT[numEntries];
 UINT* ch1 = new UINT[numEntries];
@@ -148,17 +144,17 @@ UINT* ch2 = new UINT[numEntries];
 myBitmap.GetHistogram(HistogramFormatRGB, numEntries, ch0, ch1, ch2, NULL);
 
 // Print the histogram values for the three channels: red, green, blue.
-for(UINT j = 0; j &lt; numEntries; ++j)
+for(UINT j = 0; j < numEntries; ++j)
 {
    printf("%u\t%u\t%u\t%u\n", j, ch0[j], ch1[j], ch2[j]);
 }
 
 delete ch0;
 delete ch1;
-delete ch2;</pre>
-</td>
-</tr>
-</table></span></div>
+delete ch2;
+```
+
+
 
 
 

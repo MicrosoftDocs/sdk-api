@@ -98,22 +98,18 @@ If the column-enumeration sequence is not referencing a valid column, <b>IsIndex
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT  hr;
+
+```cpp
+HRESULT  hr;
 LONG     bIsindexed;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
-hr = pEnumCol-&gt;IsIndexed(&amp;bIsindexed);
+hr = pEnumCol->IsIndexed(&bIsindexed);
 if (S_OK == hr)
-    printf( bIsindexed ? "Indexed\n" : "Not indexed\n");</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( bIsindexed ? "Indexed\n" : "Not indexed\n");
+```
+
+
 
 
 

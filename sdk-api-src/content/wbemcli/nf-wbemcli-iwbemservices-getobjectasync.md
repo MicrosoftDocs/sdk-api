@@ -170,13 +170,9 @@ For more information about using methods semisynchronously, see <a href="https:/
 The following example describes how to implement 
 <b>GetObjectAsync</b> for an instance provider.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SCODE CInstPro::GetObjectAsync (BSTR ObjectPath, 
+
+```cpp
+SCODE CInstPro::GetObjectAsync (BSTR ObjectPath, 
                                 long lFlags, IWbemContext *pCtx,
                                 IWbemObjectSink FAR* pHandler)
 {
@@ -202,11 +198,11 @@ The following example describes how to implement
     // The IWbemPath interface can be used to parse
     // the object path, separating the namespace and class name.
 
-    sc = GetByPath (ObjectPath, &amp;pObj, pCtx);
+    sc = GetByPath (ObjectPath, &pObj, pCtx);
     if(sc == S_OK) 
     {
-        pHandler-&gt;Indicate (1, &amp;pObj);
-        pObj-&gt;Release();
+        pHandler->Indicate (1, &pObj);
+        pObj->Release();
         bOK = TRUE;
     }
 
@@ -214,30 +210,26 @@ The following example describes how to implement
 
     // Set status.
 
-    pHandler-&gt;SetStatus(0,sc, NULL, NULL);
+    pHandler->SetStatus(0,sc, NULL, NULL);
 
     // Free memory resources.
 
     SysFreeString(ObjectPath);
-    m_pNamespace-&gt;Release();
-    pObj-&gt;Release();
+    m_pNamespace->Release();
+    pObj->Release();
 
     return sc;
   
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following example shows how a typical class provider  implements 
 <b>GetObjectAsync</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CStdProvider::GetObjectAsync( 
+
+```cpp
+HRESULT CStdProvider::GetObjectAsync( 
             /* [in] */ BSTR strObjectPath,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -251,32 +243,32 @@ The following example shows how a typical class provider  implements
 // Retrieve an 'empty' object which is built up
 // into the class definition.
 
-    HRESULT hRes = m_pSvc-&gt;GetObject(NULL, 0, NULL, &amp;pClass, 0);
+    HRESULT hRes = m_pSvc->GetObject(NULL, 0, NULL, &pClass, 0);
     if (hRes)
         return hRes;
 
 // Parse the object path and determine which class is   
 // required. The path string is the required class name.
 // Fill in the properties required for the class definition
-// using pClass-&gt;Put(...), and so on.
+// using pClass->Put(...), and so on.
 
     
     // ...
 
     // Send the class definition back to WMI.
-    pResponseHandler-&gt;Indicate(1, &amp;pClass);
+    pResponseHandler->Indicate(1, &pClass);
 
 // Indicate that it is now finished.
 
-    pResponseHandler-&gt;SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
+    pResponseHandler->SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
     SysFreeString(strObjectPath);
-    m_pSvc-&gt;Relaase();
-    pClass-&gt;Release();  // This is no longer needed.
+    m_pSvc->Relaase();
+    pClass->Release();  // This is no longer needed.
     return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

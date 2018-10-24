@@ -122,27 +122,23 @@ If the application is Unicode, it should use the PeekMessageW and GetMessageW me
 
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfMessagePump *pMessagePump;
 
-hr = pThreadManager-&gt;QueryInterface(IID_ITfMessagePump, (LPVOID*)&amp;pMessagePump);
+hr = pThreadManager->QueryInterface(IID_ITfMessagePump, (LPVOID*)&pMessagePump);
 if(SUCCEEDED(hr))
 {
     //Use the ITfMessagePump interface. 
     
     //Release the ITfMessagePump interface. 
-    pMessagePump-&gt;Release();
+    pMessagePump->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

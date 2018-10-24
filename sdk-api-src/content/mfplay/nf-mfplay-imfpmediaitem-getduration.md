@@ -116,32 +116,28 @@ The method returns the total duration of the content, regardless of any values s
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;propvarutil.h&gt;
+
+```cpp
+#include <propvarutil.h>
 
 HRESULT GetPlaybackDuration(IMFPMediaItem *pItem, ULONGLONG *phnsDuration)
 {
     PROPVARIANT var;
 
-    HRESULT hr = pItem-&gt;GetDuration(MFP_POSITIONTYPE_100NS, &amp;var);
+    HRESULT hr = pItem->GetDuration(MFP_POSITIONTYPE_100NS, &var);
 
     if (SUCCEEDED(hr))
     {
         hr = PropVariantToUInt64(var, phnsDuration);
-        PropVariantClear(&amp;var);
+        PropVariantClear(&var);
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -81,21 +81,17 @@ The control's width and height will be at their minimum.
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
     HRESULT hr = CoInitialize(NULL);
     hr = g_spMIC.CoCreateInstance(CLSID_MathInputControl);
-    hr = g_spMIC-&gt;EnableExtendedButtons(VARIANT_TRUE);
-    hr = g_spMIC-&gt;Show();  
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    hr = g_spMIC->EnableExtendedButtons(VARIANT_TRUE);
+    hr = g_spMIC->Show();  
+    
+```
+
+
 
 
 

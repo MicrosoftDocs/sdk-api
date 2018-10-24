@@ -86,13 +86,9 @@ When the <b>ARGB</b> value is converted to a <b>COLORREF</b> value, the alpha co
 
 The following example creates two <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> objects and converts the <b>ARGB</b> value of the first <b>Color</b> object into a GDI<b>COLORREF</b> value. The code then passes that <b>COLORREF</b> value to the <a href="https://msdn.microsoft.com/5fb15f81-8bed-4895-bec8-b687028cc5a2">Color::SetFromCOLORREF</a> method of the second <b>Color</b> object. Finally, the code uses the second <b>Color</b> object to fill a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_ToCOLORREF(HDC hdc)
+
+```cpp
+VOID Example_ToCOLORREF(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -108,11 +104,11 @@ The following example creates two <a href="https://msdn.microsoft.com/dae648fd-1
 
    // Create a SolidBrush object based on secondColor, and fill a rectangle.
    SolidBrush colorRefBrush(secondColor);
-   graphics.FillRectangle(&amp;colorRefBrush, Rect(0, 0, 100, 100));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&colorRefBrush, Rect(0, 0, 100, 100));
+}
+```
+
+
 
 
 

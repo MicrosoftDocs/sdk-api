@@ -79,23 +79,19 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR vectorOut;
 
-vectorOut.x = (float)((pSource-&gt;c &gt;&gt; 16) &amp; 0xFF) / 255.0f;
-vectorOut.y = (float)((pSource-&gt;c &gt;&gt; 8) &amp; 0xFF) / 255.0f;
-vectorOut.z = (float)((pSource-&gt;c &gt;&gt; 0) &amp; 0xFF) / 255.0f;
-vectorOut.w = (float)((pSource-&gt;c &gt;&gt; 24) &amp; 0xFF) / 255.0f;
+```
+XMVECTOR vectorOut;
 
-return vectorOut;</pre>
-</td>
-</tr>
-</table></span></div>
+vectorOut.x = (float)((pSource->c >> 16) & 0xFF) / 255.0f;
+vectorOut.y = (float)((pSource->c >> 8) & 0xFF) / 255.0f;
+vectorOut.z = (float)((pSource->c >> 0) & 0xFF) / 255.0f;
+vectorOut.w = (float)((pSource->c >> 24) & 0xFF) / 255.0f;
+
+return vectorOut;
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

@@ -166,14 +166,10 @@ This method is intended for future functionality. A minimal implementation is re
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Certmod.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Certmod.h>
 
 HRESULT CCertManagePolicyModule::SetProperty(
             /* [in] */ const BSTR strConfig,
@@ -185,10 +181,10 @@ HRESULT CCertManagePolicyModule::SetProperty(
     // This implementation fulfills the minimal requirement
     // needed for ICertManageModule::SetProperty.
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

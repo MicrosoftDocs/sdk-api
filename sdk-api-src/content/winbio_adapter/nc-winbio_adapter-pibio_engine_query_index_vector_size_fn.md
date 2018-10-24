@@ -107,13 +107,9 @@ The index vector is used by the engine adapter to index the available biometric 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>///////////////////////////////////////////////////////////////////////////////
+
+```cpp
+///////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQueryIndexVectorSize
 //
@@ -154,10 +150,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
