@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.SetValue(U,const T &,)
 title: ID2D1Properties::SetValue(U,const T &,)
 author: windows-sdk-content
-description: Sets the corresponding property by index.
-old-location: direct2d\id2d1properties_setvalue.htm
-tech.root: Direct2D
-ms.assetid: 7b21bcc0-b76e-4802-a8c4-ffba5ac8fa19
+description: Sets the corresponding property by index. This is a template overload.
+old-location: direct2d\id2d1properties_setvalue2.htm
+tech.root: direct2d
+ms.assetid: 9E5DBADF-33E9-45BB-889D-80F770670C5C
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(U,const T &,), ID2D1Properties::SetValue, ID2D1Properties::SetValue(U,const T &,), ID2D1Properties::SetValue(UINT32,const BYTE*,UINT32), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue
+ms.date: 10/24/2018
+ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(U,const T &,), ID2D1Properties::SetValue, ID2D1Properties::SetValue(U,const T &,), ID2D1Properties::SetValue(U,const T&), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the corresponding  property by index.
+Sets the corresponding  property by index. This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -60,14 +60,12 @@ Sets the corresponding  property by index.
 
 ### -param index
 
-Type: <b>UINT32</b>
-
 The index of the property to set.
 
 
-### -param value
+### -param value [in, ref]
 
-TBD
+The data to set.
 
 
 ### -param arg1
@@ -77,25 +75,9 @@ TBD
 
 
 
-#### - data [in]
-
-Type: <b>const BYTE*</b>
-
-The data to set.
-
-
-#### - dataSize
-
-Type: <b>UINT32</b>
-
-The number of bytes in the data to set.
-
-
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -138,10 +120,13 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-If the property does not exist, the request is ignored and <b>D2DERR_INVALID_PROPERTY</b> is returned.
 
-Any error not in the standard set returned by a property implementation will be mapped into the standard error range.
-
+<pre class="syntax">template&lt;typename T, typename U&gt;
+    HRESULT SetValue(
+        U index,
+        _In_ const T &amp;value
+        );
+</pre>
 
 
 

@@ -92,12 +92,16 @@ The <b>KF_CATEGORY</b> type is defined in Shobjidl.h as shown here.
 
                 
 
-
-```
-typedef DWORD KF_CATEGORY;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD KF_CATEGORY;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

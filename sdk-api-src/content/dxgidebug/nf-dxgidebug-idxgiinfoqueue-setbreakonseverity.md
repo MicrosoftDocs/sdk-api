@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_setbreakonseverity.htm
 tech.root: direct3ddxgi
 ms.assetid: 3316A9E5-F65B-4162-9A5E-CDB5CD65FBF8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnSeverity method, IDXGIInfoQueue.SetBreakOnSeverity, IDXGIInfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method [DXGI], SetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakonseverity, dxgidebug/IDXGIInfoQueue::SetBreakOnSeverity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ A Boolean value that specifies whether <b>SetBreakOnSeverity</b> turns on or off
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

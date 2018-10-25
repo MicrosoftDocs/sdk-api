@@ -4,10 +4,10 @@ title: IRemoteDesktopClientSettings
 author: windows-sdk-content
 description: Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclientsettings.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8bdb224c-bb29-43f1-8a7c-94686a8efe0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], IRemoteDesktopClientSettings interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientSettings, termserv.iremotedesktopclientsettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Use the <a href="https://msdn.microsoft.com/4b4c1080-3ea1-4557-92d6-45a80a788071
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClientSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRemoteDesktopClientSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClientSettings</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IRemoteDesktopClientSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

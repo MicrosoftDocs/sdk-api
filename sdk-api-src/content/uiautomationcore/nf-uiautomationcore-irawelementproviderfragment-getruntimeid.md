@@ -94,9 +94,13 @@ The following implementation for a list item returns a runtime identifier made u
             <b>UiaAppendRuntimeId</b>constant and the index of the item within the list.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE ListItemProvider::GetRuntimeId(SAFEARRAY ** pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::GetRuntimeId(SAFEARRAY ** pRetVal)
 {
     if (pRetVal == NULL) 
     {
@@ -110,17 +114,17 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::GetRuntimeId(SAFEARRAY ** pRetVal)
         return E_OUTOFMEMORY;
     }
     
-    for (LONG i = 0; i < 2; i++)
+    for (LONG i = 0; i &lt; 2; i++)
     {
-        SafeArrayPutElement(psa, &i, (void*)&(rId[i]));
+        SafeArrayPutElement(psa, &amp;i, (void*)&amp;(rId[i]));
     }
     
     *pRetVal = psa;
     return S_OK;
-}   
-```
-
-
+}   </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

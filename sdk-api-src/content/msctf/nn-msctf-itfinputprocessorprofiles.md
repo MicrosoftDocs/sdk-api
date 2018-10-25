@@ -237,7 +237,7 @@ Removes a text service from TSF.
 
 
 
-To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
+To obtain a pointer to this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
 
 
 #### Examples
@@ -245,9 +245,13 @@ To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/
 <b>ITfInputProcessorProfiles</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfInputProcessorProfiles *pProfiles;
 
@@ -256,18 +260,18 @@ hr = CoCreateInstance(  CLSID_TF_InputProcessorProfiles,
                         NULL, 
                         CLSCTX_INPROC_SERVER, 
                         IID_ITfInputProcessorProfiles, 
-                        (LPVOID*)&pProfiles);
+                        (LPVOID*)&amp;pProfiles);
 
 if(SUCCEEDED(hr))
 {
     //Use the interface. 
 
     //Release the interface. 
-    pProfiles->Release();
+    pProfiles-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -100,28 +100,32 @@ It is recommended that your implementation convert the <i>psf</i> and <i>pidlIte
 
                 
 
-
-```
-STDMETHODIMP ShouldShow(IShellFolder *psf, 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP ShouldShow(IShellFolder *psf, 
                         PCIDLIST_ABSOLUTE pidlFolder, 
                         PCUITEMID_CHILD pidlItem)
 {
     IShellItem *psi;
 
-    HRESULT hr = SHCreateItemWithParent(NULL, psf, pidlItem, IID_PPV_ARGS(&psi));
+    HRESULT hr = SHCreateItemWithParent(NULL, psf, pidlItem, IID_PPV_ARGS(&amp;psi));
     if (SUCCEEDED(hr))
     {
         // Determine here whether the item should be shown. This determination
         // is application-dependent.
 
-        psi->Release();
+        psi-&gt;Release();
     }
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

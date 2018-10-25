@@ -7,7 +7,7 @@ old-location: rras\mpradminmibsettrapinfo.htm
 tech.root: rras
 ms.assetid: fc223682-9dd9-4d3f-8cfb-ec7c438f68e7
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr_mpradminmibsettrapinfo, mprapi/MprAdminMIBSetTrapInfo, rras.mpradminmibsettrapinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

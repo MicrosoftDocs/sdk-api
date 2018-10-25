@@ -4,10 +4,10 @@ title: D2D1_LAYER_OPTIONS1
 author: windows-sdk-content
 description: Specifies how the layer contents should be prepared.
 old-location: direct2d\d2d1_layer_options1.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 13C9EDE7-A1D0-4359-8EF3-77FF763B9244
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_LAYER_OPTIONS1, D2D1_LAYER_OPTIONS1 enumeration [Direct2D], D2D1_LAYER_OPTIONS1_IGNORE_ALPHA, D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND, D2D1_LAYER_OPTIONS1_NONE, d2d1_1/D2D1_LAYER_OPTIONS1, d2d1_1/D2D1_LAYER_OPTIONS1_IGNORE_ALPHA, d2d1_1/D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND, d2d1_1/D2D1_LAYER_OPTIONS1_NONE, direct2d.d2d1_layer_options1
 ms.prod: windows
 ms.technology: windows-sdk

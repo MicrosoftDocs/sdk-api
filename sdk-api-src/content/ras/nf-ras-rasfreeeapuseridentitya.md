@@ -7,7 +7,7 @@ old-location: rras\rasfreeeapuseridentity.htm
 tech.root: rras
 ms.assetid: 84102fdc-b44a-415e-b67e-58c82e662a23
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasFreeEapUserIdentity, RasFreeEapUserIdentity function [RAS], RasFreeEapUserIdentityA, RasFreeEapUserIdentityW, _ras_rasfreeeapuseridentity, ras/RasFreeEapUserIdentity, ras/RasFreeEapUserIdentityA, ras/RasFreeEapUserIdentityW, rras.rasfreeeapuseridentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

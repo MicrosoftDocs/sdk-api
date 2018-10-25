@@ -90,9 +90,13 @@ Use <b>SHHandleUpdateImage</b> only when the <i>pidl2</i> parameter received by 
 
 The following example demonstrates the use of <b>SHHandleUpdateImage</b> in the implementation of <a href="https://msdn.microsoft.com/27ef6a2e-e463-4ba7-922f-20bf8e118d3a">IShellChangeNotify::OnChange</a>.
 
-
-```cpp
-STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent, 
                                             LPCITEMIDLIST pidl1, 
                                             LPCITEMIDLIST pidl2)
 {
@@ -120,10 +124,10 @@ STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent,
         // Other cases
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

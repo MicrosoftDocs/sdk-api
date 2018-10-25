@@ -4,10 +4,10 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP)
 author: windows-sdk-content
 description: Sets an attribute of this element as a line cap value. This method can be used to set the value of the stroke-linecap property.
 old-location: direct2d\id2d1svgelement_setattributevalue_10.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 5348071B-36B7-40B7-8CF2-A7C185D30510
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_10
 ms.prod: windows-hardware
 ms.technology: windows-devices

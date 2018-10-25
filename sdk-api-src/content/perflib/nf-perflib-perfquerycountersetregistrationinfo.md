@@ -7,7 +7,7 @@ old-location: perf\perfquerycountersetregistrationinfo.htm
 tech.root: perfctrs
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -261,20 +261,24 @@ The following example passes <b>IFileOperationProgressSink</b> to an instance of
 
                 
 
-
-```
-IFileOperation *pfo;
-CoCreateInstance(CLSID_FileOperation, NULL, CLSCTX_ALL, IID_IFileOperation, (void **)&m_pFO)
-HRESULT hr = SHCreateFileOperation(hwnd, 0, IID_PPV_ARGS(&pfo));
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IFileOperation *pfo;
+CoCreateInstance(CLSID_FileOperation, NULL, CLSCTX_ALL, IID_IFileOperation, (void **)&amp;m_pFO)
+HRESULT hr = SHCreateFileOperation(hwnd, 0, IID_PPV_ARGS(&amp;pfo));
 if (SUCCEEDED(hr))
 {
     // Advise to get notifications
     DWORD dwCookie;
-    hr = pfo->Advise(SAFECAST(this, IFileOperationProgressSink*), &dwCookie);
-}
-```
-
-
+    hr = pfo-&gt;Advise(SAFECAST(this, IFileOperationProgressSink*), &amp;dwCookie);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

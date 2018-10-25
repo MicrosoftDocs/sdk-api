@@ -7,7 +7,7 @@ old-location: mscs\cluster_resource_embedded_failure_action.htm
 tech.root: mscs
 ms.assetid: 72251E97-0DBC-4EEA-BACF-3F7677483F29
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration [Failover Cluster], ClusterResourceEmbeddedFailureActionLogOnly, ClusterResourceEmbeddedFailureActionNone, ClusterResourceEmbeddedFailureActionRecover, clusapi/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, clusapi/ClusterResourceEmbeddedFailureActionLogOnly, clusapi/ClusterResourceEmbeddedFailureActionNone, clusapi/ClusterResourceEmbeddedFailureActionRecover, msclus/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, msclus/ClusterResourceEmbeddedFailureActionLogOnly, msclus/ClusterResourceEmbeddedFailureActionNone, msclus/ClusterResourceEmbeddedFailureActionRecover, mscs.cluster_resource_embedded_failure_action
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Indicates that the resource is to be recovered.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

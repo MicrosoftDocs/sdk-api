@@ -4,10 +4,10 @@ title: CryptMsgDuplicate function
 author: windows-sdk-content
 description: The CryptMsgDuplicate function duplicates a cryptographic message handle by incrementing its reference count.
 old-location: security\cryptmsgduplicate.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9b1142b9-0caa-4304-bfe6-1c27c6a7b782
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptMsgDuplicate, CryptMsgDuplicate function [Security], _crypto2_cryptmsgduplicate, security.cryptmsgduplicate, wincrypt/CryptMsgDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,11 +97,11 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

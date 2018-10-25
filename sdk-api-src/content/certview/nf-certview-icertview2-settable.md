@@ -4,10 +4,10 @@ title: ICertView2::SetTable
 author: windows-sdk-content
 description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.
 old-location: security\icertview2_settable.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 76353137-75c5-46e5-82da-33d2f8e54661
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CCertView object [Security],SetTable method, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, ICertView interface [Security],SetTable method, ICertView2 interface [Security],SetTable method, ICertView2.SetTable, ICertView2::SetTable, ICertView::SetTable, SetTable, SetTable method [Security], SetTable method [Security],CCertView object, SetTable method [Security],ICertView interface, SetTable method [Security],ICertView2 interface, _certsrv_icertview2_settable, certview/ICertView2::SetTable, certview/ICertView::SetTable, security.icertview2_settable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a> interface.
+The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a> interface.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ Specifies the Certificate Services database table to use for subsequent calls. T
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">attributes</a> table is used for subsequent calls.
+The <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> table is used for subsequent calls.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">at
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) table is used for subsequent calls.
+The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) table is used for subsequent calls.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The table of pending requests, denied requests, issued certificates, and revoked
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -135,26 +135,30 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Before calling the <b>SetTable</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
 
 If the <b>SetTable</b> method is not called, then the default table  CVRC_TABLE_REQCERT is used.
 
 
 #### Examples
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 
 // Specify the certificate revocation list table.
-hr = pCertView2->SetTable(CVRC_TABLE_CRL);
+hr = pCertView2-&gt;SetTable(CVRC_TABLE_CRL);
 if (FAILED(hr))
 {
     printf("Failed SetTable\n");
     exit(1);  // Or other error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

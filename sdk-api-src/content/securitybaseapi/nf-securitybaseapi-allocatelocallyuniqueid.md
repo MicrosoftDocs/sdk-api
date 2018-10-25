@@ -102,7 +102,7 @@ The allocated <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

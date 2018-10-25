@@ -4,10 +4,10 @@ title: ID2D1InkStyle::SetNibShape
 author: windows-sdk-content
 description: Sets the pre-transform nib shape for this style.
 old-location: direct2d\id2d1inkstyle_setnibshape.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 460A037D-5315-4CAE-AB6B-5286B48551F1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibShape method, ID2D1InkStyle.SetNibShape, ID2D1InkStyle::SetNibShape, SetNibShape, SetNibShape method [Direct2D], SetNibShape method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibShape, direct2d.id2d1inkstyle_setnibshape
 ms.prod: windows-hardware
 ms.technology: windows-devices

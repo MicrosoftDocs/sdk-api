@@ -4,10 +4,10 @@ title: Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F)
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_4X4_F matrix to a Matrix4x4F without making a copy.
 old-location: direct2d\matrix4x4f_reinterpretbasetype.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 379F9F01-EE5E-438B-BD0A-F0EB6B92E28F
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: Matrix4x4F interface [Direct2D],ReinterpretBaseType method, Matrix4x4F.ReinterpretBaseType, Matrix4x4F.ReinterpretBaseType(D2D1_MATRIX_4X4_F), Matrix4x4F::ReinterpretBaseType, Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F), ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::ReinterpretBaseType, direct2d.matrix4x4f_reinterpretbasetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Converts the specified <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a> without making a copy.
+Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a> without making a copy.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The matrix to convert.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>*</b>
 
 The converted matrix.
 
@@ -81,7 +81,7 @@ The converted matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

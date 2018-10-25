@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::GetEffectInvalidRectangleCount
 author: windows-sdk-content
 description: Gets the number of invalid output rectangles that have accumulated on the effect.
 old-location: direct2d\id2d1devicecontext_geteffectinvalidrectanglecount.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: C0B70DA1-C9BF-47AC-BF3E-2A741DACD2E8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: GetEffectInvalidRectangleCount, GetEffectInvalidRectangleCount method [Direct2D], GetEffectInvalidRectangleCount method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectInvalidRectangleCount method, ID2D1DeviceContext.GetEffectInvalidRectangleCount, ID2D1DeviceContext::GetEffectInvalidRectangleCount, d2d1_1/ID2D1DeviceContext::GetEffectInvalidRectangleCount, direct2d.id2d1devicecontext_geteffectinvalidrectanglecount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the <b>wParam</b> in the <a href="https://msdn.microsoft.com/en-us/library/Bb774195(v=VS.85).aspx">EM_GETTEXTLENGTHEX</a> message.
+Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the <b>wParam</b> in the <a href="https://msdn.microsoft.com/42c89b7b-e48d-4517-9993-ce58ff9e4e40">EM_GETTEXTLENGTHEX</a> message.
 
 
 ## -struct-fields
@@ -145,7 +145,7 @@ Code page used in the translation. It is CP_ACP for ANSI Code Page and 1200 for 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774195(v=VS.85).aspx">EM_GETTEXTLENGTHEX</a>
+<a href="https://msdn.microsoft.com/42c89b7b-e48d-4517-9993-ce58ff9e4e40">EM_GETTEXTLENGTHEX</a>
  
 
  

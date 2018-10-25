@@ -7,7 +7,7 @@ old-location: rras\stopprotocol.htm
 tech.root: rras
 ms.assetid: 8b9459f8-152c-4ec1-9ed0-2b27a56f521d
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PSTOP_PROTOCOL, PSTOP_PROTOCOL callback, StopProtocol, StopProtocol callback function [RAS], _mpr_stopprotocol, routprot/StopProtocol, rras.stopprotocol
 ms.prod: windows
 ms.technology: windows-sdk

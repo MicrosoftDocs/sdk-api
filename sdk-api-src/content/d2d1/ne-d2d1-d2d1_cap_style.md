@@ -4,10 +4,10 @@ title: D2D1_CAP_STYLE
 author: windows-sdk-content
 description: Describes the shape at the end of a line or segment.
 old-location: direct2d\D2D1_CAP_STYLE.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: acf4365e-b9df-459e-a746-016339cd09ac
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_CAP_STYLE, D2D1_CAP_STYLE enumeration [Direct2D], D2D1_CAP_STYLE_FLAT, D2D1_CAP_STYLE_ROUND, D2D1_CAP_STYLE_SQUARE, D2D1_CAP_STYLE_TRIANGLE, d2d1/D2D1_CAP_STYLE, d2d1/D2D1_CAP_STYLE_FLAT, d2d1/D2D1_CAP_STYLE_ROUND, d2d1/D2D1_CAP_STYLE_SQUARE, d2d1/D2D1_CAP_STYLE_TRIANGLE, direct2d.D2D1_CAP_STYLE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,6 +91,6 @@ The following illustration shows the available cap styles for lines or segments.
 
 
 
-<img alt="Illustration of four cap styles" src="./images/linecaps.png"/>
+<img alt="Illustration of four cap styles" src="images/linecaps.png"/>
 
 

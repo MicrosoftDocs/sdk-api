@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_getdestsize.htm
 tech.root: direct3ddxgi
 ms.assetid: FA01A6C1-7731-4B30-845F-4C2514B6AD77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: GetDestSize, GetDestSize method [DXGI], GetDestSize method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetDestSize method, IDXGIDecodeSwapChain.GetDestSize, IDXGIDecodeSwapChain::GetDestSize, direct3ddxgi.idxgidecodeswapchain_getdestsize, dxgi1_3/IDXGIDecodeSwapChain::GetDestSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ A pointer to a variable that receives the height in pixels.
 
 
 
-This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

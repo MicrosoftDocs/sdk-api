@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore
 author: windows-sdk-content
 description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.
 old-location: termserv\itssbresourcepluginstore.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ITsSbResourcePluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePluginStore, termserv.itssbresourcepluginstore
 ms.prod: windows
 ms.technology: windows-sdk

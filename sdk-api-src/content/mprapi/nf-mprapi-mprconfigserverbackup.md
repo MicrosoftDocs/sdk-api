@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverbackup.htm
 tech.root: rras
 ms.assetid: 7e318742-78ba-4eb4-818b-939688e79d54
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprConfigServerBackup, MprConfigServerBackup function [RAS], _mpr_mprconfigserverbackup, mprapi/MprConfigServerBackup, rras.mprconfigserverbackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

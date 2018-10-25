@@ -50,9 +50,9 @@ req.redist:
 ## -description
 
 
-Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a> has been called for this window. 
+Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a> has been called for this window. 
 
-<div class="alert"><b>Note</b>  This is identical to <a href="https://msdn.microsoft.com/en-us/library/Bb775433(v=VS.85).aspx">FlatSB_GetScrollProp</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This is identical to <a href="https://msdn.microsoft.com/5091ff5c-3154-4a51-940c-fec1074133ed">FlatSB_GetScrollProp</a>.</div><div> </div>
 
 ## -parameters
 
@@ -226,7 +226,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 </dl>
 </td>
 <td width="60%">
-<i>pValue</i> is a pointer to an INT value that receives the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_HSCROLL</a> and <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VSCROLL</a> style bits contained by the current window.
+<i>pValue</i> is a pointer to an INT value that receives the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_HSCROLL</a> and <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_VSCROLL</a> style bits contained by the current window.
 
 </td>
 </tr>
@@ -251,9 +251,9 @@ A pointer to an <b>int</b> that receives the requested data. This parameter depe
 
 #### - param
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
 
 
 ## -returns
@@ -263,7 +263,7 @@ A handle to the window that contains the flat scroll bar. This window handle mus
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. If 
-						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
+						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
 
 
 

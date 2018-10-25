@@ -4,10 +4,10 @@ title: IEnroll2::Reset
 author: windows-sdk-content
 description: Returns the certificate enrollment control object to its initial state and thereby allows reuse of the control.
 old-location: security\ienroll4_reset.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: bc91fc89-fe90-4da1-a870-0fa21e4debbb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IEnroll2 interface [Security],Reset method, IEnroll2.Reset, IEnroll2::Reset, IEnroll3 interface [Security],Reset method, IEnroll3::Reset, IEnroll4 interface [Security],Reset method, IEnroll4::Reset, Reset, Reset method [Security], Reset method [Security],IEnroll2 interface, Reset method [Security],IEnroll3 interface, Reset method [Security],IEnroll4 interface, security.ienroll4_reset, xenroll/IEnroll2::Reset, xenroll/IEnroll3::Reset, xenroll/IEnroll4::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

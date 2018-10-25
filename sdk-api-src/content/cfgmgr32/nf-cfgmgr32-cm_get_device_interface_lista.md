@@ -69,7 +69,7 @@ Supplies a GUID that identifies a device interface class.
 
 ### -param pDeviceID [in, optional]
 
-Caller-supplied pointer to a NULL-terminated string that represents a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If specified, the function retrieves device interfaces that are supported by the device for the specified class. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves all interfaces that belong to the specified class.
+Caller-supplied pointer to a NULL-terminated string that represents a <a href="devinst.device_instance_ids">device instance ID</a>. If specified, the function retrieves device interfaces that are supported by the device for the specified class. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves all interfaces that belong to the specified class.
 
 
 ### -param Buffer [out]
@@ -142,15 +142,19 @@ Between calling <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade
 
 This snippet illustrates retrying getting the size and the list as described in the Remarks section.
 
-
-```
-    CONFIGRET cr = CR_SUCCESS;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    CONFIGRET cr = CR_SUCCESS;
     PWSTR DeviceInterfaceList = NULL;
     ULONG DeviceInterfaceListLength = 0;
 
     do {
-        cr = CM_Get_Device_Interface_List_Size(&DeviceInterfaceListLength,
-                                               (LPGUID)&GUID_DEVINTERFACE_VOLUME,
+        cr = CM_Get_Device_Interface_List_Size(&amp;DeviceInterfaceListLength,
+                                               (LPGUID)&amp;GUID_DEVINTERFACE_VOLUME,
                                                NULL,
                                                CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES);
 
@@ -175,7 +179,7 @@ This snippet illustrates retrying getting the size and the list as described in 
             break;
         }
 
-        cr = CM_Get_Device_Interface_List((LPGUID)&GUID_DEVINTERFACE_VOLUME,
+        cr = CM_Get_Device_Interface_List((LPGUID)&amp;GUID_DEVINTERFACE_VOLUME,
                                           NULL,
                                           DeviceInterfaceList,
                                           DeviceInterfaceListLength,
@@ -186,10 +190,10 @@ This snippet illustrates retrying getting the size and the list as described in 
     {
         goto Exit;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

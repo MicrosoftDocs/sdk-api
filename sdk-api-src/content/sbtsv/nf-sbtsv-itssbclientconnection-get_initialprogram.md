@@ -4,10 +4,10 @@ title: ITsSbClientConnection::get_InitialProgram
 author: windows-sdk-content
 description: Retrieves a value that indicates the program that is launched when the user logs on to the target computer.
 old-location: termserv\itssbclientconnection_initialprogram.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],InitialProgram property, ITsSbClientConnection.InitialProgram, ITsSbClientConnection.get_InitialProgram, ITsSbClientConnection::InitialProgram, ITsSbClientConnection::get_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbClientConnection interface, get_InitialProgram, sbtsv/ITsSbClientConnection::InitialProgram, sbtsv/ITsSbClientConnection::get_InitialProgram, termserv.itssbclientconnection_initialprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices

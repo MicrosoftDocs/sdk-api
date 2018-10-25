@@ -7,7 +7,7 @@ old-location: rras\mpradminmibserverconnect.htm
 tech.root: rras
 ms.assetid: 8d8cba34-e5d3-42ae-9724-361802f21410
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminMIBServerConnect, MprAdminMIBServerConnect function [RAS], _mpr_mpradminmibserverconnect, mprapi/MprAdminMIBServerConnect, rras.mpradminmibserverconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

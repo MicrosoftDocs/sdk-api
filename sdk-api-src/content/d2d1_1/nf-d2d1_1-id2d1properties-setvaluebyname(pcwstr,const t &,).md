@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.SetValueByName(PCWSTR,const T &,)
 title: ID2D1Properties::SetValueByName(PCWSTR,const T &,)
 author: windows-sdk-content
-description: Sets the named property to the given value.
-old-location: direct2d\id2d1properties_setvaluebyname.htm
-tech.root: Direct2D
-ms.assetid: 3faedf5e-9329-4502-a1c9-162fd7b00319
+description: Sets the named property to the given value. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_setvaluebyname__pcwstr__const_t_.htm
+tech.root: direct2d
+ms.assetid: 50AC6CAF-16D6-4E10-8B9D-A91D5869D7E1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,const BYTE*,UINT32), ID2D1Properties::SetValueByName(PCWSTR,const T &,), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname
+ms.date: 10/24/2018
+ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName(PCWSTR,const T&), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname__pcwstr__const_t_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the named property to the given value.  
+Sets the named property to the given value.  This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -58,14 +58,14 @@ Sets the named property to the given value.
 
 
 
-### -param propertyName
+### -param propertyName [in]
 
-TBD
+The name of the property to set.
 
 
-### -param value
+### -param value [in, ref]
 
-TBD
+The data to set.  The method will convert this type to a BYTE* before setting it as the property value.
 
 
 ### -param arg1
@@ -75,32 +75,9 @@ TBD
 
 
 
-#### - data [in]
-
-Type: <b>const BYTE*</b>
-
-The data to set.
-
-
-#### - dataSize
-
-Type: <b>UINT32</b>
-
-The number of bytes in the data to set.
-
-
-#### - name [in]
-
-Type: <b>PCWSTR</b>
-
-The name of the property to set.
-
-
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -143,19 +120,20 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-If the property does not exist, the request is ignored and the method returns <b>D2DERR_INVALID_PROPERTY</b>.
 
-Any error not in the standard set returned by a property implementation will be mapped into the standard error range.
+<pre class="syntax">template&lt;typename T&gt;
+    HRESULT SetValueByName(
+        _In_ PCWSTR propertyName,
+        _In_ const T &amp;value
+        );
+</pre>
+
 
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/dfe587f9-e92f-4367-a503-edd446a91cb8">ID2D1DeviceContext::CreateEffect</a>
 
 
 

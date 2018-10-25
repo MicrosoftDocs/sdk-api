@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IDXGIObject, IDXGIObject interface [DXGI], IDXGIObject interface [DXGI],described, ae721ac9-3ed3-d7ef-07a7-3f3acbb19dcd, direct3ddxgi.idxgiobject, dxgi/IDXGIObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The <b>IDXGIObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174542(v=VS.85).aspx">GetParent</a>
+<a href="https://msdn.microsoft.com/7e7f7494-445e-4bf1-8b94-fc40b7d9b887">GetParent</a>
 </td>
 <td align="left" width="63%">
 Gets the parent of the object.
@@ -82,7 +82,7 @@ Gets the parent of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174543(v=VS.85).aspx">GetPrivateData</a>
+<a href="https://msdn.microsoft.com/d06e73e1-503b-44ad-9154-230d68797bc4">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the object's data.
@@ -91,7 +91,7 @@ Get a pointer to the object's data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174544(v=VS.85).aspx">SetPrivateData</a>
+<a href="https://msdn.microsoft.com/fd34c22f-a8fa-4012-be4c-e251b951261f">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Sets application-defined data to the object and associates that data with a GUID.
@@ -100,7 +100,7 @@ Sets application-defined data to the object and associates that data with a GUID
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174545(v=VS.85).aspx">SetPrivateDataInterface</a>
+<a href="https://msdn.microsoft.com/7b64aa3a-ccb3-4aed-a37b-58e4bd77ed8c">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
 Set an interface in the object's private data.
@@ -119,16 +119,16 @@ Set an interface in the object's private data.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>
+<a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>
+<a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
+<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a>
 </li>
 </ul>
 <b>Windows Phone 8:

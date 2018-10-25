@@ -4,10 +4,10 @@ title: IMSCEPSetup::SetAccountInformation
 author: windows-sdk-content
 description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
 old-location: security\imscepsetup_setaccountinformation.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IMSCEPSetup interface [Security],SetAccountInformation method, IMSCEPSetup.SetAccountInformation, IMSCEPSetup::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ A string that contains the password for the user account.
 
 The account must be a member of the <b>IIS_USRS</b> group on the computer.
 
-If NDES is configured for an enterprise <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
+If NDES is configured for an enterprise <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
 
 
 
@@ -84,7 +84,7 @@ If NDES is configured for an enterprise <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

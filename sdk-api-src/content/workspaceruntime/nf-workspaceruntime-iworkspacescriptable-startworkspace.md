@@ -4,10 +4,10 @@ title: IWorkspaceScriptable::StartWorkspace
 author: windows-sdk-content
 description: Associates user credentials and certificates with a connection ID.
 old-location: termserv\iworkspacescriptable_startworkspace.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a2985ae1-7874-43e8-b0d3-ef3f13ac2f8d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable.StartWorkspace, IWorkspaceScriptable2 interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable2::StartWorkspace, IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable3::StartWorkspace, IWorkspaceScriptable::StartWorkspace, StartWorkspace, StartWorkspace method [Remote Desktop Services], StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable interface, StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable2 interface, StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspace method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspace method, termserv.iworkspacescriptable_startworkspace, workspaceruntime/IWorkspaceScriptable2::StartWorkspace, workspaceruntime/IWorkspaceScriptable3::StartWorkspace, workspaceruntime/IWorkspaceScriptable::StartWorkspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

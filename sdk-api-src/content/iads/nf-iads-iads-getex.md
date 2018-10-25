@@ -93,9 +93,13 @@ The <a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">IA
 </tr>
 <tr>
 <td>
-
-```vb
-Dim x as IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x as IADs
 
 otherNumbers = x.Get("otherHomePhone")
 If VarType(otherNumbers) = vbString Then
@@ -104,23 +108,27 @@ Else
   For Each homeNum In otherNumbers
     Debug.Print homeNum
   Next
-End If
-```
-
-
+End If</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 <td>
-
-```cpp
-Dim x as IADs
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x as IADs
 
 otherNumbers = x.GetEx("otherHomePhone")
 For Each homeNum In otherNumbers
   Debug.Print homeNum
-Next
-```
-
-
+Next</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 </table>
@@ -133,9 +141,13 @@ Like the  <a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a76
 
 The following code example shows how to use <b>IADs::GetEx</b> to retrieve object properties.
 
-
-```vb
-Dim x As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As IADs
 On Error GoTo ErrTest:
  
 Set x = GetObject("LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=com")
@@ -158,87 +170,95 @@ Exit Sub
 ErrTest:
     Debug.Print Hex(Err.Number)
     Set x = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to retrieve values of the optional properties of an object using the <a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">IADs::Get</a> method.
 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;HTML&gt;
+&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;
 
-```vb
-<HTML>
-<head><title></title></head>
-
-<body>
-<%
+&lt;body&gt;
+&lt;%
 Dim x 
 
 On Error Resume Next
 Set x = GetObject("WinNT://Fabrikam/Administrator")
-Response.Write "Object Name: " & x.Name & "<br>"
-Response.Write "Object Class: " & x.Class & "<br>"
+Response.Write "Object Name: " &amp; x.Name &amp; "&lt;br&gt;"
+Response.Write "Object Class: " &amp; x.Class &amp; "&lt;br&gt;"
  
 ' Get the optional property values for this object.
 Set cls = GetObject(x.Schema)
 For Each op In cls.OptionalProperties
    vals = obj.GetEx(op)
    if err.Number = 0 then
-       Response.Write "Optional Property: & op & "=" 
+       Response.Write "Optional Property: &amp; op &amp; "=" 
        for each v in vals 
-          Response.Write v & " "
+          Response.Write v &amp; " "
        next
-       Response.Write "<br>"
+       Response.Write "&lt;br&gt;"
    end if
 Next
-%>
+%&gt;
 
-</body>
-</html>
-```
-
-
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example retrieves the "homePhone" property values using <b>IADs::GetEx</b>.
 
-
-```cpp
-IADs *pADs = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pADs = NULL;
  
-hr = ADsGetObject(L"LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=Com", IID_IADs, (void**) &pADs );
+hr = ADsGetObject(L"LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=Com", IID_IADs, (void**) &amp;pADs );
 if ( !SUCCEEDED(hr) ) { return hr;}
  
-hr = pADs->GetEx(CComBSTR("homePhone"), &var);
+hr = pADs-&gt;GetEx(CComBSTR("homePhone"), &amp;var);
 if ( SUCCEEDED(hr) )
 {
     LONG lstart, lend;
-    SAFEARRAY *sa = V_ARRAY( &var );
+    SAFEARRAY *sa = V_ARRAY( &amp;var );
     VARIANT varItem;
  
     // Get the lower and upper bound.
-    hr = SafeArrayGetLBound( sa, 1, &lstart );
-    hr = SafeArrayGetUBound( sa, 1, &lend );
+    hr = SafeArrayGetLBound( sa, 1, &amp;lstart );
+    hr = SafeArrayGetUBound( sa, 1, &amp;lend );
  
     // Iterate and print the content.
-    VariantInit(&varItem);
+    VariantInit(&amp;varItem);
     printf("Getting Home Phone using IADs::Get.\n");
-    for ( long idx=lstart; idx <= lend; idx++ )
+    for ( long idx=lstart; idx &lt;= lend; idx++ )
     {
-        hr = SafeArrayGetElement( sa, &idx, &varItem );
-        printf("%S ", V_BSTR(&varItem));
-        VariantClear(&varItem);
+        hr = SafeArrayGetElement( sa, &amp;idx, &amp;varItem );
+        printf("%S ", V_BSTR(&amp;varItem));
+        VariantClear(&amp;varItem);
     }
     printf("\n");
  
-    VariantClear(&var);
+    VariantClear(&amp;var);
 }
  
 // Cleanup.
 if ( pADs )
 {
-    pADs->Release();
-}
-```
-
-
+    pADs-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

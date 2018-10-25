@@ -4,10 +4,10 @@ title: D2D1_EDGEDETECTION_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Edge Detection effect.
 old-location: direct2d\d2d1_edgedetection_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: F3B94BDC-120E-4B44-9AA8-595AAEFD1F61
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_EDGEDETECTION_PROP, D2D1_EDGEDETECTION_PROP enumeration [Direct2D], D2D1_EDGEDETECTION_PROP_ALPHA_MODE, D2D1_EDGEDETECTION_PROP_BLUR_RADIUS, D2D1_EDGEDETECTION_PROP_MODE, D2D1_EDGEDETECTION_PROP_OVERLAY_EDGES, D2D1_EDGEDETECTION_PROP_STRENGTH, d2d1effects_2/D2D1_EDGEDETECTION_PROP, d2d1effects_2/D2D1_EDGEDETECTION_PROP_ALPHA_MODE, d2d1effects_2/D2D1_EDGEDETECTION_PROP_BLUR_RADIUS, d2d1effects_2/D2D1_EDGEDETECTION_PROP_MODE, d2d1effects_2/D2D1_EDGEDETECTION_PROP_OVERLAY_EDGES, d2d1effects_2/D2D1_EDGEDETECTION_PROP_STRENGTH, direct2d.d2d1_edgedetection_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The D2D1_EDGEDETECTION_PROP_BLUR_RADIUS property is a float value specifying the
 
 ### -field D2D1_EDGEDETECTION_PROP_MODE
 
-The D2D1_EDGEDETECTION_PROP_MODE property is a <a href="https://msdn.microsoft.com/en-us/library/Dn890722(v=VS.85).aspx">D2D1_EDGEDETECTION_MODE</a> enumeration value which mode to use for edge detection.  
+The D2D1_EDGEDETECTION_PROP_MODE property is a <a href="https://msdn.microsoft.com/22C57518-8617-44F3-BC04-42605A77985C">D2D1_EDGEDETECTION_MODE</a> enumeration value which mode to use for edge detection.  
           The default value is D2D1_EDGEDETECTION_MODE_SOBEL.
 
 
@@ -85,9 +85,9 @@ The D2D1_EDGEDETECTION_PROP_OVERLAY_EDGES property is a boolean value. Edge dete
 
 ### -field D2D1_EDGEDETECTION_PROP_ALPHA_MODE
 
-The D2D1_EDGEDETECTION_PROP_ALPHA_MODE property is a <a href="https://msdn.microsoft.com/en-us/library/Dd368058(v=VS.85).aspx">D2D1_ALPHA_MODE</a> enumeration value indicating the alpha mode of the input file.
+The D2D1_EDGEDETECTION_PROP_ALPHA_MODE property is a <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE</a> enumeration value indicating the alpha mode of the input file.
           If the input is not opaque, this value is used to determine whether to unpremultiply the inputs.
-          See the About Alpha Modes section of the <a href="https://msdn.microsoft.com/en-us/library/Dd756766(v=VS.85).aspx">Supported Pixel Formats and Alpha Modes</a> topic for additional information.   
+          See the About Alpha Modes section of the <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a> topic for additional information.   
           
           The default value is D2D1_ALPHA_MODE_PREMULTIPLIED.
 

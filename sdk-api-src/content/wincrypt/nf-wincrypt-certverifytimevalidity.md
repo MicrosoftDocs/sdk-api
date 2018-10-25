@@ -4,10 +4,10 @@ title: CertVerifyTimeValidity function
 author: windows-sdk-content
 description: The CertVerifyTimeValidity function verifies the time validity of a certificate.
 old-location: security\certverifytimevalidity.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9ccf9230-e998-4f82-9db0-6cbaa1c36850
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertVerifyTimeValidity, CertVerifyTimeValidity function [Security], _crypto2_certverifytimevalidity, security.certverifytimevalidity, wincrypt/CertVerifyTimeValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ Returns a minus one if the comparison time is before the <b>NotBefore</b> member
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

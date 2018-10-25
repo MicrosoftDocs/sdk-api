@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder.htm
 tech.root: tablet
 ms.assetid: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], IStrokeBuilder interface [Tablet PC],described, rtscom/IStrokeBuilder, tablet.istrokebuilder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,14 +154,18 @@ The following two models are supported.
 
 The following C++ example shows a partial implementation of an <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a> class. The plug-in uses a <a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder</a> object to create a new ink stroke.
 
-
-```cpp
-// CStrokeBuilderPlugin
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// CStrokeBuilderPlugin
 
 // Helper functions
 HRESULT CStrokeBuilderPlugin::GetInk(IInkDisp** pInk)
 {
-	return m_pStrokeBuilder->get_Ink(pInk);
+	return m_pStrokeBuilder-&gt;get_Ink(pInk);
 }
 
 // IStylusAsyncPlugin Interface implementation
@@ -172,7 +176,7 @@ STDMETHODIMP CStrokeBuilderPlugin::RealTimeStylusEnabled(
             /* [size_is][in] */ const TABLET_CONTEXT_ID *pTcids)
 {
 	// Create an IStrokeBuilder object
-	return CoCreateInstance(CLSID_StrokeBuilder, NULL, CLSCTX_INPROC, IID_IStrokeBuilder, (VOID **)&m_pStrokeBuilder);
+	return CoCreateInstance(CLSID_StrokeBuilder, NULL, CLSCTX_INPROC, IID_IStrokeBuilder, (VOID **)&amp;m_pStrokeBuilder);
 }
 
 STDMETHODIMP CStrokeBuilderPlugin::DataInterest( 
@@ -197,14 +201,14 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusDown(
 	PACKET_PROPERTY* pPacketProperties;
 
 	// Get the info we need to call BeginStroke
-	HRESULT hr = piRtsSrc->GetPacketDescriptionData(pStylusInfo->tcid, &fInkToDeviceScaleX, &fInkToDeviceScaleY, 
-													&cPacketProperties, &pPacketProperties);
+	HRESULT hr = piRtsSrc-&gt;GetPacketDescriptionData(pStylusInfo-&gt;tcid, &amp;fInkToDeviceScaleX, &amp;fInkToDeviceScaleY, 
+													&amp;cPacketProperties, &amp;pPacketProperties);
 
 	if (SUCCEEDED(hr))
 	{
 		// Start creating the stroke
-		hr = m_pStrokeBuilder->BeginStroke(pStylusInfo->tcid, pStylusInfo->cid, pPacket, cPropCountPerPkt, 
-											pPacketProperties, fInkToDeviceScaleX, fInkToDeviceScaleY, &m_piStroke);
+		hr = m_pStrokeBuilder-&gt;BeginStroke(pStylusInfo-&gt;tcid, pStylusInfo-&gt;cid, pPacket, cPropCountPerPkt, 
+											pPacketProperties, fInkToDeviceScaleX, fInkToDeviceScaleY, &amp;m_piStroke);
 	}
 	
 	return hr;
@@ -220,7 +224,7 @@ STDMETHODIMP CStrokeBuilderPlugin::Packets(
             /* [out][in] */ LONG **ppInOutPkts)
 {
 	// Add packet to the stroke
-	return m_pStrokeBuilder->AppendPackets(pStylusInfo->tcid, pStylusInfo->cid, cPktBuffLength, pPackets);
+	return m_pStrokeBuilder-&gt;AppendPackets(pStylusInfo-&gt;tcid, pStylusInfo-&gt;cid, cPktBuffLength, pPackets);
 }
 
 STDMETHODIMP CStrokeBuilderPlugin::StylusUp( 
@@ -231,7 +235,7 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusUp(
             /* [out][in] */ LONG **ppInOutPkt)
 {
     // Finish the stroke. This adds the stroke to the StrokeBuilder's Ink object.
-    return m_pStrokeBuilder->EndStroke(pStylusInfo->tcid, pStylusInfo->cid, &m_piStroke, NULL);
+    return m_pStrokeBuilder-&gt;EndStroke(pStylusInfo-&gt;tcid, pStylusInfo-&gt;cid, &amp;m_piStroke, NULL);
 }
 
 STDMETHODIMP CStrokeBuilderPlugin::Error( 
@@ -248,10 +252,10 @@ STDMETHODIMP CStrokeBuilderPlugin::Error(
 }
 
 // The remaining interface methods are not used
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

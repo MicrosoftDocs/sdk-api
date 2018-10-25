@@ -4,10 +4,10 @@ title: IOCSPCAConfigurationCollection::CreateCAConfiguration
 author: windows-sdk-content
 description: Creates a new certification authority (CA) configuration and adds it to the configuration set.
 old-location: security\iocspcaconfigurationcollection_createcaconfiguration_method.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: d1c47402-77b1-4c43-8d57-20b9dd2682f7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CreateCAConfiguration, CreateCAConfiguration method [Security], CreateCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],CreateCAConfiguration method, IOCSPCAConfigurationCollection.CreateCAConfiguration, IOCSPCAConfigurationCollection::CreateCAConfiguration, certadm/IOCSPCAConfigurationCollection::CreateCAConfiguration, security.iocspcaconfigurationcollection_createcaconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CreateCAConfiguration</b> method creates a new <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) configuration and adds it to the configuration set.
+The <b>CreateCAConfiguration</b> method creates a new <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration and adds it to the configuration set.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CreateCAConfiguration</b> method creates a new <a href="https://msdn.micr
 
 ### -param bstrIdentifier [in]
 
-A string that contains a name for the new <a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a> object.
+A string that contains a name for the new <a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a> object.
 
 
 ### -param varCACert [in]
@@ -70,7 +70,7 @@ An X.509 CA certificate.
 
 ### -param ppVal [out]
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a> interface for the newly created object.
+The address of a pointer to an <a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a> interface for the newly created object.
 
 
 ## -returns
@@ -80,13 +80,13 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library
 <h3>C++</h3>
 If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
 <h3>VB</h3>
 An 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  interface for the newly created object.
 
 
@@ -96,7 +96,7 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386330(v=VS.85).aspx">IOCSPCAConfigurationCollection</a>
+<a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a>
  
 
  

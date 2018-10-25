@@ -106,11 +106,11 @@ For example, for 8-bit YUV formats, <code>val = BYTE(f * 255.0)</code>.  Referen
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530104(v=VS.85).aspx">About YUV Video</a>
+<a href="https://msdn.microsoft.com/089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1">About YUV Video</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

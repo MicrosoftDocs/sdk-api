@@ -212,9 +212,13 @@ The following type is defined to represent a constant pointer to a <b>TOUCHINPUT
 
 <div class="alert"><b>Note</b>  In the following example, the <i>pInputs</i> array is not sorted. Use the <b>dwID</b> value to track specific touch points.</div>
 <div> </div>
-
-```cpp
-UINT cInputs = LOWORD(wParam);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT cInputs = LOWORD(wParam);
 PTOUCHINPUT pInputs = new TOUCHINPUT[cInputs];
 if (NULL != pInputs)
 {
@@ -240,29 +244,33 @@ else
     // error handling, presumably out of memory
 }
 return DefWindowProc(hWnd, message, wParam, lParam);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href=" http://go.microsoft.com/fwlink/p/?linkid=142508">GetRawInputDevice</a> to retrieve information about the device.
 
-
-```cpp
-for (UINT i = 0; i < cInputs; i++){
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>for (UINT i = 0; i &lt; cInputs; i++){
   TOUCHINPUT ti = pInputs[i];      
   RID_DEVICE_INFO info;
-  ZeroMemory(&info, sizeof(RID_DEVICE_INFO));
+  ZeroMemory(&amp;info, sizeof(RID_DEVICE_INFO));
   info.cbSize = sizeof(RID_DEVICE_INFO);
   UINT size = 0;
-  if (GetRawInputDeviceInfo(ti.hSource, RIDI_DEVICEINFO, &info, &size)){
+  if (GetRawInputDeviceInfo(ti.hSource, RIDI_DEVICEINFO, &amp;info, &amp;size)){
   }else{
     DWORD err = GetLastError();
   }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

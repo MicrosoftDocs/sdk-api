@@ -4,10 +4,10 @@ title: CryptImportKey function
 author: windows-sdk-content
 description: Transfers a cryptographic key from a key BLOB into a cryptographic service provider (CSP).
 old-location: security\cryptimportkey.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: f48b6ec9-e03b-43b0-9f22-120ae93d934c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_IPSEC_HMAC_KEY, CRYPT_NO_SALT, CRYPT_OAEP, CRYPT_USER_PROTECTED, CryptImportKey, CryptImportKey function [Security], _crypto2_cryptimportkey, security.cryptimportkey, wincrypt/CryptImportKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -301,17 +301,21 @@ For an example of importing a plaintext key, see <a href="https://msdn.microsoft
 
 The following example shows how you can set the header fields.
 
-
-```cpp
-keyBlob.header.bType = PLAINTEXTKEYBLOB;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>keyBlob.header.bType = PLAINTEXTKEYBLOB;
 keyBlob.header.bVersion = CUR_BLOB_VERSION;
 keyBlob.header.reserved = 0;
 // CALG_AES_128 is used as an example. You would set this to the 
 // algorithm id that corresponds to the one used by the key.
-keyBlob.header.aiKeyAlg = CALG_AES_128;
-```
-
-
+keyBlob.header.aiKeyAlg = CALG_AES_128;</pre>
+</td>
+</tr>
+</table></span></div>
 The length of the key is specified in keyBlob.keyLength, which is followed by the actual key data.
 
 <div class="alert"><b>Note</b>  The HMAC algorithms do not have their own algorithm identifiers; use CALG_RC2 instead. <b>CRYPT_IPSEC_HMAC_KEY</b> allows the import of RC2 keys longer than 16 bytes.</div>
@@ -348,11 +352,15 @@ The following example shows how to import a key from a key BLOB. For a full exam
 For additional code that uses this function, see 
 						<a href="https://msdn.microsoft.com/be355b08-95c1-4ad3-bb05-6f646d5db5cd">Example C Program: Decrypting a File</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 BOOL ImportKey(HCRYPTPROV hProv, LPBYTE pbKeyBlob, DWORD dwBlobLen)
 {
@@ -376,7 +384,7 @@ BOOL ImportKey(HCRYPTPROV hProv, LPBYTE pbKeyBlob, DWORD dwBlobLen)
         dwBlobLen,
         0,
         0,
-        &hPubKey))
+        &amp;hPubKey))
     {
         printf("The key has been imported.\n");
     }
@@ -403,10 +411,10 @@ BOOL ImportKey(HCRYPTPROV hProv, LPBYTE pbKeyBlob, DWORD dwBlobLen)
     }
 
     return TRUE;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -427,7 +435,7 @@ BOOL ImportKey(HCRYPTPROV hProv, LPBYTE pbKeyBlob, DWORD dwBlobLen)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

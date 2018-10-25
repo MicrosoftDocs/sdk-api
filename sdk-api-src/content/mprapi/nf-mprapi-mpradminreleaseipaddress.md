@@ -7,7 +7,7 @@ old-location: rras\mpradminreleaseipaddress.htm
 tech.root: rras
 ms.assetid: 7a1570a9-b43f-4603-a5ed-6d078a5bbb7c
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdminReleaseIpAddress callback function [RAS], _mpr_mpradminreleaseipaddress, mprapi/MprAdminReleaseIpAddress, rras.mpradminreleaseipaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

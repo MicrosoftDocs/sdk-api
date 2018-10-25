@@ -4,10 +4,10 @@ title: "__BITMAP_RENDERER_STATISTICS"
 author: windows-sdk-content
 description: Contains statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\bitmap_renderer_statistics.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: "*PBITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS structure [Remote Desktop Services], PBITMAP_RENDERER_STATISTICS, PBITMAP_RENDERER_STATISTICS structure pointer [Remote Desktop Services], __BITMAP_RENDERER_STATISTICS, termserv.bitmap_renderer_statistics, tsvirtualchannels/BITMAP_RENDERER_STATISTICS, tsvirtualchannels/PBITMAP_RENDERER_STATISTICS"
 ms.prod: windows
 ms.technology: windows-sdk

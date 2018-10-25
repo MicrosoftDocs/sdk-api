@@ -4,10 +4,10 @@ title: ITsSbProvider::CreateLoadBalanceResultObject
 author: windows-sdk-content
 description: Creates an ITsSbLoadBalanceResult load-balancing result object.
 old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

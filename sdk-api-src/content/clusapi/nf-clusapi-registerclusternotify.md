@@ -7,7 +7,7 @@ old-location: mscs\registerclusternotify.htm
 tech.root: mscs
 ms.assetid: ddf0e01c-08e9-4e32-b012-76c8a41037a7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: CLUSTER_CHANGE_CLUSTER_PROPERTY, CLUSTER_CHANGE_CLUSTER_RECONNECT, CLUSTER_CHANGE_CLUSTER_STATE, CLUSTER_CHANGE_GROUP_ADDED, CLUSTER_CHANGE_GROUP_DELETED, CLUSTER_CHANGE_GROUP_PROPERTY, CLUSTER_CHANGE_GROUP_STATE, CLUSTER_CHANGE_HANDLE_CLOSE, CLUSTER_CHANGE_NETINTERFACE_ADDED, CLUSTER_CHANGE_NETINTERFACE_DELETED, CLUSTER_CHANGE_NETINTERFACE_PROPERTY, CLUSTER_CHANGE_NETINTERFACE_STATE, CLUSTER_CHANGE_NETWORK_ADDED, CLUSTER_CHANGE_NETWORK_DELETED, CLUSTER_CHANGE_NETWORK_PROPERTY, CLUSTER_CHANGE_NETWORK_STATE, CLUSTER_CHANGE_NODE_ADDED, CLUSTER_CHANGE_NODE_DELETED, CLUSTER_CHANGE_NODE_PROPERTY, CLUSTER_CHANGE_NODE_STATE, CLUSTER_CHANGE_QUORUM_STATE, CLUSTER_CHANGE_REGISTRY_ATTRIBUTES, CLUSTER_CHANGE_REGISTRY_NAME, CLUSTER_CHANGE_REGISTRY_SUBTREE, CLUSTER_CHANGE_REGISTRY_VALUE, CLUSTER_CHANGE_RESOURCE_ADDED, CLUSTER_CHANGE_RESOURCE_DELETED, CLUSTER_CHANGE_RESOURCE_PROPERTY, CLUSTER_CHANGE_RESOURCE_STATE, CLUSTER_CHANGE_RESOURCE_TYPE_ADDED, CLUSTER_CHANGE_RESOURCE_TYPE_DELETED, CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY, PCLUSAPI_REGISTER_CLUSTER_NOTIFY, PCLUSAPI_REGISTER_CLUSTER_NOTIFY function [Failover Cluster], RegisterClusterNotify, RegisterClusterNotify function [Failover Cluster], _wolf_registerclusternotify, clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY, clusapi/RegisterClusterNotify, mscs.registerclusternotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Bitmask of flags that describes the event to be added to the set of events curre
 #### CLUSTER_CHANGE_CLUSTER_PROPERTY (0x40000000)
 
 The queue receives a notification when the cluster's prioritized list of internal 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">networks</a> changes.
+        <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">networks</a> changes.
 
 
 
@@ -98,7 +98,7 @@ The queue receives a notification when the cluster becomes unavailable, meaning 
 
 #### CLUSTER_CHANGE_GROUP_ADDED (0x00004000)
 
-The queue receives a notification when a new <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> is 
+The queue receives a notification when a new <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> is 
         created in the cluster.
 
 
@@ -106,14 +106,14 @@ The queue receives a notification when a new <a href="https://msdn.microsoft.com
 #### CLUSTER_CHANGE_GROUP_DELETED (0x00002000)
 
 The queue receives a notification when an existing 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> is deleted.
+        <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> is deleted.
 
 
 
 #### CLUSTER_CHANGE_GROUP_PROPERTY (0x00008000)
 
 The queue receives a notification when the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa369680(v=VS.85).aspx">properties</a> of an existing group change.
+        <a href="https://msdn.microsoft.com/bc13356c-06d8-400e-9fe0-3afbda4f228a">properties</a> of an existing group change.
 
 
 
@@ -134,7 +134,7 @@ The queue receives a notification when a handle to a
 
 The queue receives a notification when a new 
         <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a> is added to a cluster 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>.
+        <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
 
 
 
@@ -162,7 +162,7 @@ The queue receives a notification when a network interface changes state. For a 
 #### CLUSTER_CHANGE_NETWORK_ADDED (0x00400000)
 
 The queue receives a notification when a new 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a> is added to the cluster environment.
+        <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a> is added to the cluster environment.
 
 
 
@@ -174,7 +174,7 @@ The queue receives a notification when a network is permanently removed from the
 
 #### CLUSTER_CHANGE_NETWORK_PROPERTY (0x00800000)
 
-The queue receives a notification when the  <a href="https://msdn.microsoft.com/en-us/library/Aa371517(v=VS.85).aspx">properties</a> of an existing network change.
+The queue receives a notification when the  <a href="https://msdn.microsoft.com/9a59f372-0d09-4dba-adcf-38c7f2a8e006">properties</a> of an existing network change.
 
 
 
@@ -186,13 +186,13 @@ The queue receives a notification when a network changes state. For a list of th
 
 #### CLUSTER_CHANGE_NODE_ADDED (0x00000004)
 
-The queue receives a notification when a new  <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> is added to the cluster. A node can be added only when the Cluster service is initially installed on the node.
+The queue receives a notification when a new  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> is added to the cluster. A node can be added only when the Cluster service is initially installed on the node.
 
 
 
 #### CLUSTER_CHANGE_NODE_DELETED (0x00000002)
 
-The queue receives a notification when a  <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> is permanently removed from a cluster. A node can be permanently deleted from an existing cluster with a call to the  <a href="https://msdn.microsoft.com/0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9">EvictClusterNode</a> function.
+The queue receives a notification when a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> is permanently removed from a cluster. A node can be permanently deleted from an existing cluster with a call to the  <a href="https://msdn.microsoft.com/0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9">EvictClusterNode</a> function.
 
 
 
@@ -210,13 +210,13 @@ The queue receives a notification when a node changes state.
 
 #### CLUSTER_CHANGE_QUORUM_STATE (0x10000000)
 
-The queue receives a notification when the  <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resource</a> changes state.
+The queue receives a notification when the  <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> changes state.
 
 
 
 #### CLUSTER_CHANGE_REGISTRY_ATTRIBUTES (0x00000020)
 
-The queue receives a notification when a  <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> key's attributes are changed.
+The queue receives a notification when a  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key's attributes are changed.
 
 
 
@@ -240,21 +240,21 @@ The queue receives a notification when a value of the specified cluster database
 
 #### CLUSTER_CHANGE_RESOURCE_ADDED (0x00000400)
 
-The queue receives a notification when a new  <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> is created in the cluster.
+The queue receives a notification when a new  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> is created in the cluster.
 
 
 
 #### CLUSTER_CHANGE_RESOURCE_DELETED (0x00000200)
 
 The queue receives a notification when a 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> is deleted.
+        <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> is deleted.
 
 
 
 #### CLUSTER_CHANGE_RESOURCE_PROPERTY (0x00000800)
 
 Indicates that a notification should be issued when the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa372230(v=VS.85).aspx">properties</a> of a resource change.
+        <a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">properties</a> of a resource change.
 
 
 
@@ -267,7 +267,7 @@ The queue receives a notification when a resource changes state.
 #### CLUSTER_CHANGE_RESOURCE_TYPE_ADDED (0x00020000)
 
 The queue receives a notification when a new 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa372279(v=VS.85).aspx">resource type</a> is created in the cluster.
+        <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> is created in the cluster.
 
 
 
@@ -280,12 +280,12 @@ The queue receives a notification when an existing resource type is deleted.
 #### CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY (0x00040000)
 
 The queue receives a notification when the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa372230(v=VS.85).aspx">properties</a> of a resource type change.
+        <a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">properties</a> of a resource type change.
 
 
 ### -param hObject [in]
 
-Handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">failover cluster object</a> 
+Handle to the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">failover cluster object</a> 
       affected by the event specified in the <i>dwFilterType</i> parameter. The type of handle 
       depends on the value of <i>dwFilterType</i> as described in the following list.
 
@@ -406,7 +406,7 @@ Notification key returned from
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -415,10 +415,10 @@ If the operation fails, the function returns a
 
 
 
-The  <b>RegisterClusterNotify</b> function enables an application that has already created a notification port with  <a href="https://msdn.microsoft.com/90e85f5d-54b4-48a5-bb5b-e46eb14781bb">CreateClusterNotifyPort</a> to register for an additional event that affects a  <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>,  <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>, or  <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a>.
+The  <b>RegisterClusterNotify</b> function enables an application that has already created a notification port with  <a href="https://msdn.microsoft.com/90e85f5d-54b4-48a5-bb5b-e46eb14781bb">CreateClusterNotifyPort</a> to register for an additional event that affects a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>,  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>, or  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 To receive notifications of 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> changes, one or more of the 
+    <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> changes, one or more of the 
     flags applicable to the database must be set in the <i>dwFilterType</i> parameter. Applicable 
     flags start with the prefix CLUSTER_CHANGE_REGISTRY. Making manual changes to the cluster database through the 
     registry editor, RegEdit.exe, does not generate notifications.
@@ -426,7 +426,7 @@ To receive notifications of
 
 #### Examples
 
-See the <a href="https://msdn.microsoft.com/en-us/library/Aa371762(v=VS.85).aspx">Notification Port Example</a>.
+See the <a href="https://msdn.microsoft.com/c3c8ead5-236b-42b3-9413-80df7c71653b">Notification Port Example</a>.
 
 <div class="code"></div>
 

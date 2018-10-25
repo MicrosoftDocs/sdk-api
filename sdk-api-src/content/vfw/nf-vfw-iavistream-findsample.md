@@ -126,15 +126,19 @@ If key frames are not significant in your custom format, return the position spe
 
 For handlers written in C++, <b>FindSample</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LONG FindSample(LONG lPos, LONG lFlags) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

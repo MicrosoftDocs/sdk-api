@@ -4,10 +4,10 @@ title: "__MIDL_IRemoteDesktopClientActions_0001"
 author: windows-sdk-content
 description: The action to send to the remote session.
 old-location: termserv\remoteactiontype.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 27E6FB88-54A6-4D0B-B0D0-A46A96299DD1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: RemoteActionAppSwitch, RemoteActionAppbar, RemoteActionCharms, RemoteActionSnap, RemoteActionStartScreen, RemoteActionType, RemoteActionType enumeration [Remote Desktop Services], __MIDL_IRemoteDesktopClientActions_0001, rdpappcontainerclient/RemoteActionAppSwitch, rdpappcontainerclient/RemoteActionAppbar, rdpappcontainerclient/RemoteActionCharms, rdpappcontainerclient/RemoteActionSnap, rdpappcontainerclient/RemoteActionStartScreen, rdpappcontainerclient/RemoteActionType, termserv.remoteactiontype
 ms.prod: windows
 ms.technology: windows-sdk

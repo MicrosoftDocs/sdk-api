@@ -4,10 +4,10 @@ title: "_WTSINFOEX_LEVEL_A"
 author: windows-sdk-content
 description: Contains a WTSINFOEX_LEVEL1 structure that contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex_level.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d3df1f40-698b-43ca-808d-0df5550b6eae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: "*PWTSINFOEX_LEVEL_A, PWTSINFOEX_LEVEL, PWTSINFOEX_LEVEL union pointer [Remote Desktop Services], WTSINFOEX_LEVEL, WTSINFOEX_LEVEL union [Remote Desktop Services], WTSINFOEX_LEVEL_A, WTSINFOEX_LEVEL_W, _WTSINFOEX_LEVEL_A, termserv.wtsinfoex_level, wtsapi32/PWTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL_A, wtsapi32/WTSINFOEX_LEVEL_W"
 ms.prod: windows
 ms.technology: windows-sdk

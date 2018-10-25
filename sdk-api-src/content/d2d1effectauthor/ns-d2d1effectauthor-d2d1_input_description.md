@@ -4,10 +4,10 @@ title: D2D1_INPUT_DESCRIPTION
 author: windows-sdk-content
 description: Describes the options that transforms may set on input textures.
 old-location: direct2d\d2d1_input_description.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: ba900ef8-a71a-4aac-a884-38917b78b8df
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_INPUT_DESCRIPTION, D2D1_INPUT_DESCRIPTION structure [Direct2D], d2d1effectauthor/D2D1_INPUT_DESCRIPTION, direct2d.d2d1_input_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The mip level to retrieve from the upstream transform, if specified.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404306(v=VS.85).aspx">D2D1_FILTER</a>
+<a href="https://msdn.microsoft.com/cd978d3c-ae41-4321-95dd-46b186acf002">D2D1_FILTER</a>
  
 
  

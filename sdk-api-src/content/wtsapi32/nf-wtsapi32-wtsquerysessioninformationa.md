@@ -4,10 +4,10 @@ title: WTSQuerySessionInformationA function
 author: windows-sdk-content
 description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsquerysessioninformation.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d52345a4-0408-4ea9-ba71-349910143752
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: WTSQuerySessionInformation, WTSQuerySessionInformation function [Remote Desktop Services], WTSQuerySessionInformationA, WTSQuerySessionInformationW, _win32_wtsquerysessioninformation, termserv.wtsquerysessioninformation, wtsapi32/WTSQuerySessionInformation, wtsapi32/WTSQuerySessionInformationA, wtsapi32/WTSQuerySessionInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

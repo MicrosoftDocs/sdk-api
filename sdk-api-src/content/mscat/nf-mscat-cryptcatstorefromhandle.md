@@ -4,10 +4,10 @@ title: CryptCATStoreFromHandle function
 author: windows-sdk-content
 description: Retrieves a CRYPTCATSTORE structure from a catalog handle.
 old-location: security\cryptcatstorefromhandle.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

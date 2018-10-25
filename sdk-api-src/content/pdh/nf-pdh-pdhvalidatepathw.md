@@ -7,7 +7,7 @@ old-location: perf\pdhvalidatepath.htm
 tech.root: perfctrs
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PdhValidatePath, PdhValidatePath function [Perf], PdhValidatePathA, PdhValidatePathW, _win32_pdhvalidatepath, base.pdhvalidatepath, pdh/PdhValidatePath, pdh/PdhValidatePathA, pdh/PdhValidatePathW, perf.pdhvalidatepath
 ms.prod: windows-hardware
 ms.technology: windows-devices

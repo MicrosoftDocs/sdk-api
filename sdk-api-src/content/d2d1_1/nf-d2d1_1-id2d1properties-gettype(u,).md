@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetType(U,)
 title: ID2D1Properties::GetType(U,)
 author: windows-sdk-content
-description: Gets the D2D1_PROPERTY_TYPE of the selected property.
-old-location: direct2d\id2d1properties_gettype.htm
-tech.root: Direct2D
-ms.assetid: 42e80588-9e80-4f30-9a3c-77b64f88ff7a
+description: Gets the D2D1_PROPERTY_TYPE of the selected property. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_gettype2.htm
+tech.root: direct2d
+ms.assetid: 4EFE306B-DE39-4536-8BE0-8036A380E2BD
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetType method, ID2D1Properties.GetType, ID2D1Properties.GetType(U,), ID2D1Properties::GetType, ID2D1Properties::GetType(U,), ID2D1Properties::GetType(UINT32), d2d1_1/ID2D1Properties::GetType, direct2d.id2d1properties_gettype
+ms.date: 10/24/2018
+ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetType method, ID2D1Properties.GetType, ID2D1Properties.GetType(U,), ID2D1Properties::GetType, ID2D1Properties::GetType(U), ID2D1Properties::GetType(U,), d2d1_1/ID2D1Properties::GetType, direct2d.id2d1properties_gettype2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -52,7 +52,7 @@ req.redist:
 
 Gets the <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a> of the selected property.
 
-
+This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Gets the <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383
 
 ### -param index
 
-Type: <b>UINT32</b>
+Type: <b>U</b>
 
 The index of the property for which the type will be retrieved.
 
@@ -90,6 +90,14 @@ This method returns a <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-997
 
 
 If the property does not exist, the method returns <a href="__d2d1_property_type.htm">D2D1_PROPERTY_TYPE_UNKNOWN</a>.
+
+
+<pre class="syntax">template&lt;typename U&gt;
+    D2D1_PROPERTY_TYPE GetType(
+        U index
+        ) CONST;
+</pre>
+
 
 
 

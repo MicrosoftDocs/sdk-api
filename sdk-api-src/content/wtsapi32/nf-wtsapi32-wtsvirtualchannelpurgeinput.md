@@ -4,10 +4,10 @@ title: WTSVirtualChannelPurgeInput function
 author: windows-sdk-content
 description: Deletes all queued input data sent from the client to the server on a specified virtual channel.
 old-location: termserv\wtsvirtualchannelpurgeinput.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ec8ee90d-0871-466c-8da3-04813319216a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: WTSVirtualChannelPurgeInput, WTSVirtualChannelPurgeInput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeinput, termserv.wtsvirtualchannelpurgeinput, wtsapi32/WTSVirtualChannelPurgeInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

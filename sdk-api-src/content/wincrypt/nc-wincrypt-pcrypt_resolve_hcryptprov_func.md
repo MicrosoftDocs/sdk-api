@@ -4,10 +4,10 @@ title: PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 author: windows-sdk-content
 description: Returns a handle to a cryptographic service provider (CSP) by using the phCryptProv parameter to receive the key being imported.
 old-location: security\pcrypt_resolve_hcryptprov_func.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: d3b2b942-bde5-4399-9412-95fe227cd546
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: PCRYPT_RESOLVE_HCRYPTPROV_FUNC, PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback, PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback function [Security], security.pcrypt_resolve_hcryptprov_func, wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 ms.prod: windows
 ms.technology: windows-sdk

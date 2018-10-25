@@ -103,9 +103,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateConfli
 
 The following example shows the usage of <a href="https://msdn.microsoft.com/72848e6a-eec3-45fc-b599-a5a8da2e1070">ISyncMgrControl::UpdateEvents</a> by a handler's procedure.
 
-
-```cpp
-void CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CMyDeviceHandler::Synchronize(...)
 {
     ...
     // Add conflicts to the event store.
@@ -115,24 +119,24 @@ void CMyDeviceHandler::Synchronize(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center that we added events to our event store.
         // By passing NULL in pszItemID, we tell Sync Center that the conflict
         // occurred on the handler rather than a specific item.
-        hr = pControl->UpdateConflicts(s_szMyDeviceSyncHandlerID, 
+        hr = pControl-&gt;UpdateConflicts(s_szMyDeviceSyncHandlerID, 
                                        NULL,
                                        SYNCMGR_CF_NOWAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

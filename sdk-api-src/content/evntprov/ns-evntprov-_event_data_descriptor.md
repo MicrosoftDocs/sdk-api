@@ -106,29 +106,33 @@ Reserved for future use.
 
 The most convenient method of populating the EVENT_DATA_DESCRIPTOR structure is to use the <b>EventDataDescCreate</b> macro. This macro is declared in Evntprov.h and its use is documented in the Microsoft Windows SDK documentation. The following example uses the <b>EventDataDescCreate</b> macro to populate an array of three EVENT_DATA_DESCRIPTOR structures. This array is then passed to the <b>EtwWrite</b> function. 
 
-
-```
- EventDataDescCreate(&EventDataDescriptor[0],
-                            (PVOID)&DeviceName.Length,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre> EventDataDescCreate(&amp;EventDataDescriptor[0],
+                            (PVOID)&amp;DeviceName.Length,
  sizeof(USHORT));
 
- EventDataDescCreate(&EventDataDescriptor[1],
+ EventDataDescCreate(&amp;EventDataDescriptor[1],
                             (PVOID)DeviceName.Buffer,
  DeviceName.Length);
  
- EventDataDescCreate(&EventDataDescriptor[2],
-                            (PVOID)&Status,
+ EventDataDescCreate(&amp;EventDataDescriptor[2],
+                            (PVOID)&amp;Status,
  sizeof(ULONG));
  
  EtwWrite(RegHandle,            // Handle from EtwRegister
-                 &StartEvent,          // EventDescriptor
+                 &amp;StartEvent,          // EventDescriptor
                  NULL,                 // Activity ID
                  3,                    // Number of data items
  EventDataDescriptor); // Array of data descriptors
-    }              
-```
-
-
+    }              </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

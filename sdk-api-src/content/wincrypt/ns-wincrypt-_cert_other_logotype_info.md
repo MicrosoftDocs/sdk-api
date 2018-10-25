@@ -4,10 +4,10 @@ title: "_CERT_OTHER_LOGOTYPE_INFO"
 author: windows-sdk-content
 description: Contains information about logo types that are not predefined.
 old-location: security\cert_other_logotype_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 104cc412-a268-4b5f-bb9d-9df27f4df6b7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: "*PCERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO structure [Security], PCERT_OTHER_LOGOTYPE_INFO, PCERT_OTHER_LOGOTYPE_INFO structure pointer [Security], _CERT_OTHER_LOGOTYPE_INFO, security.cert_other_logotype_info, szOID_BACKGROUND_OTHER_LOGOTYPE, szOID_LOYALTY_OTHER_LOGOTYPE, wincrypt/CERT_OTHER_LOGOTYPE_INFO, wincrypt/PCERT_OTHER_LOGOTYPE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

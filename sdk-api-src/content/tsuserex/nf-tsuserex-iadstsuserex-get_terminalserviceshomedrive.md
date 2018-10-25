@@ -4,10 +4,10 @@ title: IADsTSUserEx::get_TerminalServicesHomeDrive
 author: windows-sdk-content
 description: The root drive for the user. In a network environment, this property is a string that contains a drive specification (a drive letter followed by a colon) to which the UNC path specified as the root directory is mapped.
 old-location: termserv\iadstsuserex_terminalserviceshomedrive.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e5cfa526-eff8-4a89-9b13-c4a06a416fe5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesHomeDrive property, IADsTSUserEx.TerminalServicesHomeDrive, IADsTSUserEx.get_TerminalServicesHomeDrive, IADsTSUserEx::TerminalServicesHomeDrive, IADsTSUserEx::get_TerminalServicesHomeDrive, IADsTSUserEx::put_TerminalServicesHomeDrive, TerminalServicesHomeDrive property [Remote Desktop Services], TerminalServicesHomeDrive property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesHomeDrive, termserv.iadstsuserex_terminalserviceshomedrive, tsuserex/IADsTSUserEx::TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,9 +71,13 @@ To set a root directory in a network environment, you must first set this proper
 
 The following example shows a script that binds to the SAM database without credentials.
 
-
-```vb
-Set DSO = GetObject("WinNT:")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set DSO = GetObject("WinNT:")
 Set usr = DSO.OpenDSObject("WinNT://Server1/Test,user")
 WScript.echo usr.TerminalServicesHomeDrive
 Wscript.echo usr.TerminalServicesHomeDirectory
@@ -84,10 +88,10 @@ usr.SetInfo
 
 WScript.echo usr.TerminalServicesHomeDrive
 WScript.echo usr.TerminalServicesHomeDirectory
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

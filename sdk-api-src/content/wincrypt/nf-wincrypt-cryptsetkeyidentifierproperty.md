@@ -4,10 +4,10 @@ title: CryptSetKeyIdentifierProperty function
 author: windows-sdk-content
 description: The CryptSetKeyIdentifierProperty function sets the property of a specified key identifier. This function can set the property on the computer identified in pwszComputerName.
 old-location: security\cryptsetkeyidentifierproperty.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0970aaaa-3f9a-4471-bd21-5de8746f94a2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_KEYID_DELETE_FLAG, CRYPT_KEYID_MACHINE_FLAG, CRYPT_KEYID_SET_NEW_FLAG, CryptSetKeyIdentifierProperty, CryptSetKeyIdentifierProperty function [Security], _crypto2_cryptsetkeyidentifierproperty, security.cryptsetkeyidentifierproperty, wincrypt/CryptSetKeyIdentifierProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,7 +162,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Identifier Functions</a>
+<a href="cryptography_functions.htm">Key Identifier Functions</a>
  
 
  

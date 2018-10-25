@@ -4,10 +4,10 @@ title: IMSCEPSetup::IsMSCEPStoreEmpty
 author: windows-sdk-content
 description: Always returns VARIANT_TRUE. It should not be used.
 old-location: security\imscepsetup_ismscepstoreempty.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 90ce2ea5-e531-4787-954a-cd4d09ba753e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSetup.IsMSCEPStoreEmpty, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ For the Network Device Enrollment Service (NDES) role, the My personal store is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

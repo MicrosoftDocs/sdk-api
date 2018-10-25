@@ -4,10 +4,10 @@ title: CryptCATCDFEnumCatAttributes function
 author: windows-sdk-content
 description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
 old-location: security\cryptcatcdfenumcatattributes.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptCATCDFEnumCatAttributes, CryptCATCDFEnumCatAttributes function [Security], mscat/CryptCATCDFEnumCatAttributes, security.cryptcatcdfenumcatattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,13 @@ You typically call this function in a loop to enumerate all of the catalog heade
 
 The following example shows the correct sequence of assignments for the <i>pPrevAttr</i> parameter (<code>pAttr</code>).
 
-
-```cpp
-    CRYPTCATCDF         *pCDF;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    CRYPTCATCDF         *pCDF;
     CRYPTCATATTRIBUTE   *pAttr;
 
     pCDF = CryptCATCDFOpen(L"myCDF", NULL);
@@ -110,10 +114,10 @@ The following example shows the correct sequence of assignments for the <i>pPrev
     }
 
     CryptCATCDFClose(pCDF);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

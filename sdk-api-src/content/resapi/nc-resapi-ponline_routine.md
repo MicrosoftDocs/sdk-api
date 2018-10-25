@@ -7,7 +7,7 @@ old-location: mscs\online.htm
 tech.root: mscs
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ For effective implementation strategies of the <i>Online</i>
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

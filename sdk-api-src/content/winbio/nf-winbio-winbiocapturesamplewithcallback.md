@@ -214,9 +214,13 @@ Callers are responsible for releasing the <a href="https://msdn.microsoft.com/39
 
 The callback routine must have the following signature:
 
-
-```cpp
-VOID CALLBACK CaptureCallback(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID CALLBACK CaptureCallback(
 __in_opt PVOID CaptureCallbackContext,
 __in HRESULT OperationStatus,
 __in WINBIO_UNIT_ID UnitId,
@@ -224,10 +228,10 @@ __in_bcount(SampleSize) PWINBIO_BIR Sample,
 __in SIZE_T SampleSize,
 __in WINBIO_REJECT_DETAIL RejectDetail
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 
@@ -239,9 +243,13 @@ The following code example captures a sample asynchronously by calling <b>WinBio
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT CaptureSampleWithCallback(BOOL bCancel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CaptureSampleWithCallback(BOOL bCancel)
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -254,7 +262,7 @@ HRESULT CaptureSampleWithCallback(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,          // Default database
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -360,10 +368,10 @@ e_Exit:
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

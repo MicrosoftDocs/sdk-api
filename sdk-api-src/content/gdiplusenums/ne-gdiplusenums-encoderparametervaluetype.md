@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 The <b>EncoderParameterValueType</b> enumeration specifies data types for image codec (encoder/decoder) parameters. An element of this enumeration is assigned to the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">Type</a> data member of an <b>EncoderParameter</b> object. 
+			<a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">Type</a> data member of an <b>EncoderParameter</b> object. 
 
 
 ## -enum-fields
@@ -110,7 +110,7 @@ Specifies that the parameter is a pointer to a block of custom metadata.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+<a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a>
  
 
  

@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::QueryProperty
 author: windows-sdk-content
 description: IWTSProtocolConnection::QueryProperty is no longer available. Instead, use IWRdsProtocolConnection::QueryProperty.
 old-location: termserv\iwtsprotocolconnection_queryproperty.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 129b8314-fa84-414d-93c4-f9320650e2de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWTSProtocolConnection.QueryProperty, IWTSProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWTSProtocolConnection interface, WTS_QUERY_ALLOWED_INITIAL_APP, WTS_QUERY_AUDIOENUM_DLL, WTS_QUERY_LOGON_SCREEN_SIZE, WTS_QUERY_MF_FORMAT_SUPPORT, termserv.iwtsprotocolconnection_queryproperty, wtsprotocol/IWTSProtocolConnection::QueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iec_gestureinfo__win32_only_.htm
 tech.root: tablet
 ms.assetid: f932508b-44d3-4605-97a7-bb6eed248939
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: IEC_GESTUREINFO, IEC_GESTUREINFO (Win32 Only), IEC_GESTUREINFO (Win32 Only) structure [Tablet PC], f932508b-44d3-4605-97a7-bb6eed248939, inked/IEC_GESTUREINFO, tablet.iec_gestureinfo__win32_only_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,16 +65,20 @@ Contains information about a specific gesture.
 
 The NMHDR structure that contains standard information about the WM_NOTIFY message. The NMHDR structure contains the handle and identifier of the control that is sending the message and the notification code, which in this case is <a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">IECN_GESTURE</a>. The format of the NMHDR structure is:
 
-
-```cpp
-typedef struct tagNMHDR {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct tagNMHDR {
       HWND hwndFrom;
       UINT idFrom;
       UINT code;
-  } NMHDR;
-```
-
-
+  } NMHDR;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field Cursor
 

@@ -86,18 +86,22 @@ The two-letter country or region code is in ISO 3166 format.
 
 The following example demonstrates how to call <b>GetCountryRegion</b>.
 
-
-```cpp
-    hr = pCivicAddressReport->GetCountryRegion(&bstrCountryRegion);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    hr = pCivicAddressReport-&gt;GetCountryRegion(&amp;bstrCountryRegion);
     if (SUCCEEDED(hr)) 
     {
         // Country/Region is an ISO-3166-1 two-letter code.
        wprintf(L"\tCountry/Region:\t%s\n\n", bstrCountryRegion);    
     }       
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

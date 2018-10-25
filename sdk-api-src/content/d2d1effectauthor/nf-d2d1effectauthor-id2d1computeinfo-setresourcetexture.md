@@ -4,10 +4,10 @@ title: ID2D1ComputeInfo::SetResourceTexture
 author: windows-sdk-content
 description: Sets the resource texture corresponding to the given shader texture index to the given texture resource.
 old-location: direct2d\id2d1computeinfo_setresourcetexture.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 20641E91-15EB-4D64-AE36-DB83103B112E
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetResourceTexture method, ID2D1ComputeInfo.SetResourceTexture, ID2D1ComputeInfo::SetResourceTexture, SetResourceTexture, SetResourceTexture method [Direct2D], SetResourceTexture method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetResourceTexture, direct2d.id2d1computeinfo_setresourcetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices

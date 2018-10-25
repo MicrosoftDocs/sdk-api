@@ -7,7 +7,7 @@ old-location: rras\mprconfigserversetinfo.htm
 tech.root: rras
 ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -206,7 +206,7 @@ The topic <a href="https://msdn.microsoft.com/9e4aa8d4-e09e-4c84-acf0-c505a58841
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

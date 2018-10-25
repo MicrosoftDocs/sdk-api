@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizercontext.htm
 tech.root: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
 ms.prod: windows
 ms.technology: windows-sdk

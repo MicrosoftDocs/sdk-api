@@ -7,7 +7,7 @@ old-location: rras\rasclearconnectionstatistics.htm
 tech.root: rras
 ms.assetid: b5c87ecd-4f21-46b5-91a3-41706907157a
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function [RAS], _ras_rasclearconnectionstatistics, ras/RasClearConnectionStatistics, rras.rasclearconnectionstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ The function could not allocate sufficient memory to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: ID2D1GdiInteropRenderTarget::ReleaseDC
 author: windows-sdk-content
 description: Indicates that drawing with the device context retrieved using the GetDC method is finished.
 old-location: direct2d\ID2D1GdiInteropRenderTarget_ReleaseDC.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 802bd023-f223-4505-9911-95b43f3490e3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1GdiInteropRenderTarget interface [Direct2D],ReleaseDC method, ID2D1GdiInteropRenderTarget.ReleaseDC, ID2D1GdiInteropRenderTarget::ReleaseDC, ReleaseDC, ReleaseDC method [Direct2D], ReleaseDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, d2d1/ID2D1GdiInteropRenderTarget::ReleaseDC, direct2d.ID2D1GdiInteropRenderTarget_ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

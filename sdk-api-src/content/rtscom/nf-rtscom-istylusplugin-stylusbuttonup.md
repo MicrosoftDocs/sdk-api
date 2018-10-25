@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusbuttonup.htm
 tech.root: tablet
 ms.assetid: a56182f3-3e9a-4cc2-895d-54010cd00cb4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusButtonUp method, IStylusPlugin.StylusButtonUp, IStylusPlugin::StylusButtonUp, StylusButtonUp, StylusButtonUp method [Tablet PC], StylusButtonUp method [Tablet PC],IStylusPlugin interface, a56182f3-3e9a-4cc2-895d-54010cd00cb4, rtscom/IStylusPlugin::StylusButtonUp, tablet.istylusplugin_stylusbuttonup
 ms.prod: windows-hardware
 ms.technology: windows-devices

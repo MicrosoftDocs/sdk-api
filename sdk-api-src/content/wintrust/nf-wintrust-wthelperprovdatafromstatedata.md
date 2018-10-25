@@ -4,10 +4,10 @@ title: WTHelperProvDataFromStateData function
 author: windows-sdk-content
 description: Retrieves trust provider information from a specified handle.
 old-location: security\wthelperprovdatafromstatedata.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

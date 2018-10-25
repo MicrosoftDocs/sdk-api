@@ -4,10 +4,10 @@ title: IRemoteDesktopClient::Connect
 author: windows-sdk-content
 description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient_connect.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 52dbc0f3-8ba9-45a5-a224-b7de67847bf3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Connect method, IRemoteDesktopClient.Connect, IRemoteDesktopClient::Connect, rdpappcontainerclient/IRemoteDesktopClient::Connect, termserv.iremotedesktopclient_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

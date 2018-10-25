@@ -7,7 +7,7 @@ old-location: rras\rasgetlinkstatistics.htm
 tech.root: rras
 ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ The function could not allocate sufficient memory to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

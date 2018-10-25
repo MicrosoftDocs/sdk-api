@@ -7,7 +7,7 @@ old-location: mscs\createclustergroupcollection.htm
 tech.root: mscs
 ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: CreateClusterGroupSet, CreateClusterGroupSet function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/CreateClusterGroupSet, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Adds a  groupset to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to the newly added groupset.
+Adds a  groupset to a <a href="c_gly.htm">cluster</a> and returns a handle to the newly added groupset.
 
 
 ## -parameters

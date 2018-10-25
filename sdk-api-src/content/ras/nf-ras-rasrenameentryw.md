@@ -7,7 +7,7 @@ old-location: rras\rasrenameentry.htm
 tech.root: rras
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, RasRenameEntryW, _ras_rasrenameentry, ras/RasRenameEntry, ras/RasRenameEntryA, ras/RasRenameEntryW, rras.rasrenameentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -176,12 +176,16 @@ The
 </ol>
 The following code sample renames the phone-book entry with the name specified by <i>pszOldName</i> to the new name specified by <i>pszNewName</i>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
-#include <tchar.h>
+#include &lt;tchar.h&gt;
 
 DWORD main (){
 
@@ -207,10 +211,10 @@ DWORD main (){
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

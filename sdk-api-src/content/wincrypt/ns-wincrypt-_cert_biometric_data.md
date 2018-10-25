@@ -4,10 +4,10 @@ title: "_CERT_BIOMETRIC_DATA"
 author: windows-sdk-content
 description: Contains information about biometric data.
 old-location: security\cert_biometric_data.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: "*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], _CERT_BIOMETRIC_DATA, security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: D2D1_HIGHLIGHTSANDSHADOWS_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2E4BACCB-EF29-44FB-8427-C10211BC4899
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_HIGHLIGHTSANDSHADOWS_PROP, D2D1_HIGHLIGHTSANDSHADOWS_PROP enumeration [Direct2D], D2D1_HIGHLIGHTSANDSHADOWS_PROP_CLARITY, D2D1_HIGHLIGHTSANDSHADOWS_PROP_HIGHLIGHTS, D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA, D2D1_HIGHLIGHTSANDSHADOWS_PROP_MASK_BLUR_RADIUS, D2D1_HIGHLIGHTSANDSHADOWS_PROP_SHADOWS, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_CLARITY, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_HIGHLIGHTS, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_MASK_BLUR_RADIUS, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_SHADOWS, direct2d.d2d1_highlightsandshadows_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890773(v=VS.85).aspx">Highlights and Shadows effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/ebbb7d99-9144-ffff-af73-d89e7d269924">Highlights and Shadows effect</a>.
 
 
 ## -enum-fields
@@ -75,7 +75,7 @@ The D2D1_HIGHLIGHTSANDSHADOWS_PROP_CLARITY property is a float value indicating 
 
 ### -field D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA
 
-The D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA property is a <a href="https://msdn.microsoft.com/en-us/library/Dn890727(v=VS.85).aspx">D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA</a> enumeration value
+The D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA property is a <a href="https://msdn.microsoft.com/F56C9933-B340-4E8B-85BE-CE04E90C9ADC">D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA</a> enumeration value
           indicating the gamma of the input image.  The Highlights and Shadows effect works in linear gamma space, so if the input image is know to be linear, the D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR value should be used to prevent sRGB to linear conversions from being performed.
 
 

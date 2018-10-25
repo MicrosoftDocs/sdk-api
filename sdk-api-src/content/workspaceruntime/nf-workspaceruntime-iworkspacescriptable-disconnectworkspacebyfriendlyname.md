@@ -4,10 +4,10 @@ title: IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
 author: windows-sdk-content
 description: Disconnects all existing connections associated with the connection that has the specified name.
 old-location: termserv\iworkspacescriptable_disconnectworkspacebyfriendlyname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e9cf9c1a-8400-4a69-9cf1-0dfa6fe6a38b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: DisconnectWorkspaceByFriendlyName, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services], DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable2 interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable3 interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],Workspace object, IWorkspaceScriptable interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable.DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable2 interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable2::DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable3 interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable3::DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName, Workspace object [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, termserv.iworkspacescriptable_disconnectworkspacebyfriendlyname, workspaceruntime/IWorkspaceScriptable2::DisconnectWorkspaceByFriendlyName, workspaceruntime/IWorkspaceScriptable3::DisconnectWorkspaceByFriendlyName, workspaceruntime/IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

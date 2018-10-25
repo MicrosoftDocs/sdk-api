@@ -4,10 +4,10 @@ title: IOCSPAdmin::Ping
 author: windows-sdk-content
 description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ping.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IOCSPAdmin interface [Security],Ping method, IOCSPAdmin.Ping, IOCSPAdmin::Ping, Ping, Ping method [Security], Ping method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::Ping, security.iocspadmin_ping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ A string that contains the OCSP responder server name.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a>
+<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
  
 
  

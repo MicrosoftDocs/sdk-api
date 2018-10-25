@@ -4,10 +4,10 @@ title: "_WTS_VIRTUAL_CLASS"
 author: windows-sdk-content
 description: Contains values that indicate the type of virtual channel information to retrieve.
 old-location: termserv\wts_virtual_class.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ca7bb0ff-f5af-477f-a610-563071554234
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: WTSVirtualClientData, WTSVirtualFileHandle, WTS_VIRTUAL_CLASS, WTS_VIRTUAL_CLASS enumeration [Remote Desktop Services], _WTS_VIRTUAL_CLASS, _win32_wts_virtual_class, termserv.wts_virtual_class, wtsapi32/WTSVirtualClientData, wtsapi32/WTSVirtualFileHandle, wtsapi32/WTS_VIRTUAL_CLASS
 ms.prod: windows
 ms.technology: windows-sdk

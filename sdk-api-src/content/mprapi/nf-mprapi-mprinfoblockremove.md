@@ -7,7 +7,7 @@ old-location: rras\mprinfoblockremove.htm
 tech.root: rras
 ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprInfoBlockRemove, MprInfoBlockRemove function [RAS], _mpr_mprinfoblockremove, mprapi/MprInfoBlockRemove, rras.mprinfoblockremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ The memory allocation required for successful execution of
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ After removing an information block, obtain the new size of the information head
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

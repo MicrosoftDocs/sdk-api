@@ -4,10 +4,10 @@ title: CertCreateCTLContext function
 author: windows-sdk-content
 description: The CertCreateCTLContext function creates a certificate trust list (CTL) context from an encoded CTL. The created context is not persisted to a certificate store. The function makes a copy of the encoded CTL within the created context.
 old-location: security\certcreatectlcontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 172c59ee-9e06-4169-aaa7-2624e3fcf015
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertCreateCTLContext, CertCreateCTLContext function [Security], _crypto2_certcreatectlcontext, security.certcreatectlcontext, wincrypt/CertCreateCTLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

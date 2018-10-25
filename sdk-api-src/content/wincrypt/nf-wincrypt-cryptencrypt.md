@@ -4,10 +4,10 @@ title: CryptEncrypt function
 author: windows-sdk-content
 description: Encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the hKey parameter.
 old-location: security\cryptencrypt.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_OAEP, CryptEncrypt, CryptEncrypt function [Security], _crypto2_cryptencrypt, security.cryptencrypt, wincrypt/CryptEncrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -399,7 +399,7 @@ For examples that use this function, see  <a href="https://msdn.microsoft.com/a2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
  
 
  

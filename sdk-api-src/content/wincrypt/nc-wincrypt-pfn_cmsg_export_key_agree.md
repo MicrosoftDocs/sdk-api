@@ -4,10 +4,10 @@ title: PFN_CMSG_EXPORT_KEY_AGREE
 author: windows-sdk-content
 description: Encrypts and exports the content encryption key for a key agreement recipient of an enveloped message.
 old-location: security\pfn_cmsg_export_key_agree.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5283f3be-7451-4896-82a5-bcfe63db9344
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_AGREE, PFN_CMSG_EXPORT_KEY_AGREE callback, PFN_CMSG_EXPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_export_key_agree, wincrypt/PFN_CMSG_EXPORT_KEY_AGREE
 ms.prod: windows
 ms.technology: windows-sdk

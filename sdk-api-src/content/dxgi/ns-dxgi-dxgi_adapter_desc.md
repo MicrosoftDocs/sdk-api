@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_adapter_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_adapter_desc.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: DXGI_ADAPTER_DESC, DXGI_ADAPTER_DESC structure [DXGI], aa379230-8fa1-e846-2745-b4f13f26ee19, direct3ddxgi.dxgi_adapter_desc, dxgi/DXGI_ADAPTER_DESC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,35 +62,35 @@ Describes an adapter (or video card) by using DXGI 1.0.
 
 Type: <b>WCHAR[128]</b>
 
-A string that contains the adapter description. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns “Software Adapter” for the description string.
+A string that contains the adapter description. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns “Software Adapter” for the description string.
 
 
 ### -field VendorId
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the hardware vendor. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the hardware vendor.
+The PCI ID of the hardware vendor. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the hardware vendor.
 
 
 ### -field DeviceId
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the hardware device. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the hardware device.
+The PCI ID of the hardware device. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the hardware device.
 
 
 ### -field SubSysId
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the sub system. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the sub system.
+The PCI ID of the sub system. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the sub system.
 
 
 ### -field Revision
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the revision number of the adapter. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the revision number of the adapter.
+The PCI ID of the revision number of the adapter. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the revision number of the adapter.
 
 
 ### -field DedicatedVideoMemory
@@ -125,7 +125,7 @@ A unique value that identifies the adapter. See <a href="https://msdn.microsoft.
 
 
 
-The <b>DXGI_ADAPTER_DESC</b> structure provides a description of an adapter.  This structure is initialized by using the <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">IDXGIAdapter::GetDesc</a> method.
+The <b>DXGI_ADAPTER_DESC</b> structure provides a description of an adapter.  This structure is initialized by using the <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">IDXGIAdapter::GetDesc</a> method.
 
 
 

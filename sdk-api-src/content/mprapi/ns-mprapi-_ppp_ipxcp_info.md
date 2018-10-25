@@ -7,7 +7,7 @@ old-location: rras\ppp_ipxcp_info.htm
 tech.root: rras
 ms.assetid: 6e269c4e-8014-4d59-a7dc-3314a67a4d12
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PPP_IPXCP_INFO, PPP_IPXCP_INFO structure [RAS], _PPP_IPXCP_INFO, _mpr_ppp_ipxcp_info, mprapi/PPP_IPXCP_INFO, rras.ppp_ipxcp_info
 ms.prod: windows
 ms.technology: windows-sdk

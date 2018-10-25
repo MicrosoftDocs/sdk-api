@@ -3,12 +3,12 @@ UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UIN
 title: ID2D1Properties::GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UINT32)
 author: windows-sdk-content
 description: Gets the property value by name.
-old-location: direct2d\id2d1properties_getvaluebyname.htm
-tech.root: Direct2D
-ms.assetid: 2dc60fad-9ce2-4951-85ea-647a828420a1
+old-location: direct2d\id2d1properties_getvaluebyname2.htm
+tech.root: direct2d
+ms.assetid: CED051A4-4889-452C-9946-D13214E4B746
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UINT32), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,BYTE*,UINT32), ID2D1Properties::GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UINT32), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname
+ms.date: 10/24/2018
+ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UINT32), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE*,UINT32), ID2D1Properties::GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UINT32), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ Gets the property value by name.
 
 
 
-#### - name [in]
+### -param name [in]
 
 Type: <b>PCWSTR</b>
 
@@ -67,17 +67,19 @@ The property name to get.
 
 ### -param type
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a></b>
+
+A <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a>-typed value that specifies the type of property to get.
 
 
-#### - data [out]
+### -param data [out]
 
 Type: <b>BYTE*</b>
 
 When this method returns, contains the buffer with  the data value.
 
 
-#### - dataSize
+### -param dataSize
 
 Type: <b>UINT32</b>
 
@@ -134,6 +136,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 If <i>name</i> does not exist, no information is retrieved.
 
 Any error not in the standard set returned by a property implementation will be mapped into the standard error range.
+
+<b>GetValueByName</b> retrieves the given property or sub-property by name. '.' is the delimiter for sub-properties.
 
 
 

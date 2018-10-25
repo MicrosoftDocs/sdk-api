@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb776025(v=VS.85).aspx">ICredentialProviderCredential::GetFieldState</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb776015(v=VS.85).aspx">ICredentialProviderCredentialEvents::SetFieldInteractiveState</a>.
+Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states. Used by <a href="https://msdn.microsoft.com/9a709835-cf89-464d-a257-d16a1312ab44">ICredentialProviderCredential::GetFieldState</a> and <a href="https://msdn.microsoft.com/649f0f65-78dd-4232-b471-9a18d1448f1d">ICredentialProviderCredentialEvents::SetFieldInteractiveState</a>.
 
 
 ## -enum-fields

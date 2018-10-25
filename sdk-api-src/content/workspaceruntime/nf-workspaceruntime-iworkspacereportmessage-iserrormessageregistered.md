@@ -4,10 +4,10 @@ title: IWorkspaceReportMessage::IsErrorMessageRegistered
 author: windows-sdk-content
 description: Determines whether a specified error message is registered in a specified workspace.
 old-location: termserv\iworkspacereportmessage_iserrormessageregistered.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ea66553b-915b-4244-add7-08c7bc255203
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],IsErrorMessageRegistered method, IWorkspaceReportMessage.IsErrorMessageRegistered, IWorkspaceReportMessage::IsErrorMessageRegistered, IsErrorMessageRegistered, IsErrorMessageRegistered method [Remote Desktop Services], IsErrorMessageRegistered method [Remote Desktop Services],IWorkspaceReportMessage interface, IsErrorMessageRegistered method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsErrorMessageRegistered method, termserv.iworkspacereportmessage_iserrormessageregistered, workspaceruntime/IWorkspaceReportMessage::IsErrorMessageRegistered
 ms.prod: windows-hardware
 ms.technology: windows-devices

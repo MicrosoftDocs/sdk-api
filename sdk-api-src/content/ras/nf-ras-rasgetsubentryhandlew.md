@@ -7,7 +7,7 @@ old-location: rras\rasgetsubentryhandle.htm
 tech.root: rras
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasGetSubEntryHandle, RasGetSubEntryHandle function [RAS], RasGetSubEntryHandleA, RasGetSubEntryHandleW, _ras_rasgetsubentryhandle, ras/RasGetSubEntryHandle, ras/RasGetSubEntryHandleA, ras/RasGetSubEntryHandleW, rras.rasgetsubentryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_WTSCLIENTA"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Connection (RDC) client.
 old-location: termserv\wtsclient.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: "*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, _WTSCLIENTA, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW"
 ms.prod: windows
 ms.technology: windows-sdk

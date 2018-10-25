@@ -4,10 +4,10 @@ title: D2D1_SCALE_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode the Scale effect uses to scale the image. There are 6 scale modes that range in quality and speed.
 old-location: direct2d\d2d1_scale_interpolation_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2673E6AE-EEF5-4727-B224-0245CED15C21
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_SCALE_INTERPOLATION_MODE, D2D1_SCALE_INTERPOLATION_MODE enumeration [Direct2D], D2D1_SCALE_INTERPOLATION_MODE_ANISOTROPIC, D2D1_SCALE_INTERPOLATION_MODE_CUBIC, D2D1_SCALE_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_SCALE_INTERPOLATION_MODE_LINEAR, D2D1_SCALE_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_SCALE_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_scale_interpolation_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706339(v=VS.85).aspx">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed. 
+The interpolation mode the <a href="https://msdn.microsoft.com/99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed. 
 
 
 ## -enum-fields

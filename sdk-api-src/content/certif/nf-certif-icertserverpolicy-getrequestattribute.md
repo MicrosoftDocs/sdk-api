@@ -4,10 +4,10 @@ title: ICertServerPolicy::GetRequestAttribute
 author: windows-sdk-content
 description: Returns a named attribute from a request.
 old-location: security\icertserverpolicy_getrequestattribute.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 344cb710-4824-455c-9599-3036a2b36905
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerPolicy object, GetRequestAttribute method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestAttribute method, ICertServerPolicy.GetRequestAttribute, ICertServerPolicy::GetRequestAttribute, _certsrv_icertserverpolicy_getrequestattribute, certif/ICertServerPolicy::GetRequestAttribute, security.icertserverpolicy_getrequestattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>GetRequestAttribute</b> method returns a named <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">attribute</a> from a request.
+The <b>GetRequestAttribute</b> method returns a named <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> from a request.
 
 
 ## -parameters
@@ -78,9 +78,9 @@ A pointer to a <b>BSTR</b> value that will contain the attribute value.
 
 To use this method, create a variable of type <b>BSTR</b>, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrAttributeValue</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the attribute value.
@@ -93,7 +93,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a> prior to using this method.
 
 The following request attributes are unique to KEYGEN style requests.
 
@@ -119,16 +119,20 @@ The following request attributes are unique to KEYGEN style requests.
 
 #### Examples
 
-
-```cpp
-BSTR     bstrAttribValue = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrAttribValue = NULL;
 HRESULT  hr;
 
 // Get the request attribute.
 // bstrAttribName is BSTR assigned by EnumerateAttributes.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->GetRequestAttribute(bstrAttribName,
-                                            &bstrAttribValue);
+hr = pCertServerPolicy-&gt;GetRequestAttribute(bstrAttribName,
+                                            &amp;bstrAttribValue);
 
 if (FAILED(hr))
 {
@@ -144,10 +148,10 @@ else
 
 // Done processing. Free BSTR.
 if (NULL != bstrAttribValue)
-    SysFreeString(bstrAttribValue);
-```
-
-
+    SysFreeString(bstrAttribValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -156,11 +160,11 @@ if (NULL != bstrAttribValue)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a>
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a>
  
 
  

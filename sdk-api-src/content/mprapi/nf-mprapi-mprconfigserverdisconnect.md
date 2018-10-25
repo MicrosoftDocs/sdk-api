@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverdisconnect.htm
 tech.root: rras
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprConfigServerDisconnect, MprConfigServerDisconnect function [RAS], _mpr_mprconfigserverdisconnect, mprapi/MprConfigServerDisconnect, rras.mprconfigserverdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

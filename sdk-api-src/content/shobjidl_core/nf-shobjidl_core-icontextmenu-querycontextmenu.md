@@ -218,7 +218,7 @@ If successful, returns an <b>HRESULT</b> value that has its severity value set t
 
 
 
-This method should call either <a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a> or <a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a> to insert its menu items into the menu specified by <i>hmenu</i>. The <i>indexMenu</i> parameter holds the index to be used for the first menu item. The identifier of each menu item must fall within the range defined by <i>idCmdFirst</i> and <i>idCmdLast</i>.
+This method should call either <a href="https://msdn.microsoft.com/8ca7510a-e035-4ba2-98dd-57d777cae814">InsertMenu</a> or <a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a> to insert its menu items into the menu specified by <i>hmenu</i>. The <i>indexMenu</i> parameter holds the index to be used for the first menu item. The identifier of each menu item must fall within the range defined by <i>idCmdFirst</i> and <i>idCmdLast</i>.
 
 A common practice is to set the first command identifier to <i>idCmdFirst</i> (an offset of zero) and increment the offset for each additional command by one. This practice ensures that you do not exceed <i>idCmdLast</i> and preserves the range of identifiers that are available for use by other handlers. Store the offsets for reference because they can be used to identify the command in subsequent calls to <a href="https://msdn.microsoft.com/efa60153-7635-4aef-bd9e-f51fe4ecc234">IContextMenu::GetCommandString</a> and <a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">IContextMenu::InvokeCommand</a>.
 

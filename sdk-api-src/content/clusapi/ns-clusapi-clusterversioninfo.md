@@ -7,7 +7,7 @@ old-location: mscs\clusterversioninfo.htm
 tech.root: mscs
 ms.assetid: e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: "*LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO, CLUSTERVERSIONINFO, CLUSTERVERSIONINFO structure [Failover Cluster], LPCLUSTERVERSIONINFO, LPCLUSTERVERSIONINFO structure pointer [Failover Cluster], PCLUSTERVERSIONINFO, PCLUSTERVERSIONINFO structure pointer [Failover Cluster], _wolf_clusterversioninfo, clusapi/CLUSTERVERSIONINFO, clusapi/LPCLUSTERVERSIONINFO, clusapi/PCLUSTERVERSIONINFO, mscs.clusterversioninfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,8 @@ req.redist:
 
 
 Describes 
-    information about the version of the <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> 
-    installed locally on a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>.
+    information about the version of the <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> 
+    installed locally on a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
 
 
 ## -struct-fields
@@ -97,7 +97,7 @@ Contains the latest service pack installed on the node. If a Service Pack has no
 ### -field dwClusterHighestVersion
 
 Identifies the highest version of the Cluster service with which the Cluster service installed on the local 
-      node can join to form a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+      node can join to form a <a href="c_gly.htm">cluster</a>.
 
 
 ### -field dwClusterLowestVersion
@@ -110,7 +110,7 @@ Identifies the lowest version of the Cluster service with which the Cluster serv
 
 If the cluster nodes are running different versions of the Cluster service, this value is set to 
       <b>CLUSTER_VERSION_FLAG_MIXED_MODE</b>. If all cluster nodes are running the same version of 
-      the <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a>, this value is 0.
+      the <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>, this value is 0.
 
 
 ### -field dwReserved
@@ -144,7 +144,7 @@ The <b>dwClusterHighestVersion</b> and <b>dwClusterLowestVersion</b>
 <li>The local node's highest version exactly matches the other node's lowest version.</li>
 </ul>
 For more information on how the Cluster service creates and uses version numbers, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa373117(v=VS.85).aspx">Version Compatibility</a>.
+    <a href="https://msdn.microsoft.com/919345fa-cbaa-4d01-bd3c-9ca69cab5094">Version Compatibility</a>.
 
 
 

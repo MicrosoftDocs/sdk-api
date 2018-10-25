@@ -141,9 +141,9 @@ There are three discrete pieces of functionality bundled together for tiled reso
           </li>
 <li>The ability to change page mappings and manipulate texture data on tile granularities.
             In D3D12, these operations are
-            <a href="https://msdn.microsoft.com/en-us/library/Dn788641(v=VS.85).aspx">ID3D12CommandQueue::UpdateTileMappings</a>,
-            <a href="https://msdn.microsoft.com/en-us/library/Dn788629(v=VS.85).aspx">ID3D12CommandQueue::CopyTileMappings</a>, and
-            <a href="https://msdn.microsoft.com/en-us/library/Dn903865(v=VS.85).aspx">ID3D12GraphicsCommandList::CopyTiles</a>.
+            <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">ID3D12CommandQueue::UpdateTileMappings</a>,
+            <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">ID3D12CommandQueue::CopyTileMappings</a>, and
+            <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">ID3D12GraphicsCommandList::CopyTiles</a>.
           </li>
 </ul>
 Three significant changes over D3D11 are:
@@ -157,7 +157,7 @@ Three significant changes over D3D11 are:
             The D3D11 restriction that all non-NULL mapped pages must come from the same heap does not exist.
           </li>
 <li>Applications should be aware of GPU virtual address capabilities, which enable litmus tests for particular usage scenarios.
-            See <a href="https://msdn.microsoft.com/en-us/library/Dn770363(v=VS.85).aspx">D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT</a>.
+            See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT</a>.
           </li>
 </ul>
 
@@ -168,7 +168,7 @@ Three significant changes over D3D11 are:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

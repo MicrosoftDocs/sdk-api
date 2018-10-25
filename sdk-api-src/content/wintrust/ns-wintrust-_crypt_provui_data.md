@@ -4,10 +4,10 @@ title: "_CRYPT_PROVUI_DATA"
 author: windows-sdk-content
 description: Provides user interface (UI) data for a provider. This structure is used by the CRYPT_PROVUI_FUNCS structure.
 old-location: security\crypt_provui_data.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 86f819f0-c243-45ba-8b7b-97ed906e6e8a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: "*PCRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA structure [Security], PCRYPT_PROVUI_DATA, PCRYPT_PROVUI_DATA structure pointer [Security], _CRYPT_PROVUI_DATA, security.crypt_provui_data, wintrust/CRYPT_PROVUI_DATA, wintrust/PCRYPT_PROVUI_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

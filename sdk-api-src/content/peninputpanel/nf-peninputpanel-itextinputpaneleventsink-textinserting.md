@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_textinserting.htm
 tech.root: tablet
 ms.assetid: 8e2ca5e2-a407-44cd-b489-c118401ca21b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: 8e2ca5e2-a407-44cd-b489-c118401ca21b, ITextInputPanelEventSink interface [Tablet PC],TextInserting method, ITextInputPanelEventSink.TextInserting, ITextInputPanelEventSink::TextInserting, TextInserting, TextInserting method [Tablet PC], TextInserting method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserting, tablet.itextinputpaneleventsink_textinserting
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PFN_CDF_PARSE_ERROR_CALLBACK
 author: windows-sdk-content
 description: Called for Catalog Definition Function errors while parsing a catalog definition file (CDF).
 old-location: security\pfn_cdf_parse_error_callback.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 94c12ad7-dcb0-4099-8eba-da38367f0d79
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: PFN_CDF_PARSE_ERROR_CALLBACK, PFN_CDF_PARSE_ERROR_CALLBACK callback, PFN_CDF_PARSE_ERROR_CALLBACK callback function [Security], mscat/PFN_CDF_PARSE_ERROR_CALLBACK, security.pfn_cdf_parse_error_callback
 ms.prod: windows
 ms.technology: windows-sdk

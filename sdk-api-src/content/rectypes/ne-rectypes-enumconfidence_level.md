@@ -7,7 +7,7 @@ old-location: tablet\confidence_level.htm
 tech.root: tablet
 ms.assetid: 94167a91-7d72-40c9-bce4-29babdb5bff9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: 94167a91-7d72-40c9-bce4-29babdb5bff9, CFL_INTERMEDIATE, CFL_POOR, CFL_STRONG, CONFIDENCE_LEVEL, CONFIDENCE_LEVEL enumeration [Tablet PC], enumCONFIDENCE_LEVEL, rectypes/CFL_INTERMEDIATE, rectypes/CFL_POOR, rectypes/CFL_STRONG, rectypes/CONFIDENCE_LEVEL, tablet.confidence_level
 ms.prod: windows
 ms.technology: windows-sdk

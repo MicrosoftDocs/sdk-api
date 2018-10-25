@@ -85,15 +85,19 @@ An interaction configuration specifies how the manipulation engine responds to i
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pRegion->RemoveConfiguration(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pRegion-&gt;RemoveConfiguration(
     DIRECTMANIPULATION_CONFIGURATION_INTERACTION | 
     DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

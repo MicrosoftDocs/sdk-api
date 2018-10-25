@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacesetinfo.htm
 tech.root: rras
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprConfigInterfaceSetInfo, MprConfigInterfaceSetInfo function [RAS], _mpr_mprconfiginterfacesetinfo, mprapi/MprConfigInterfaceSetInfo, rras.mprconfiginterfacesetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,7 +169,7 @@ The interface that corresponds to <i>hRouterInterface</i> is not present in the 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

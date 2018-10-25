@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Accepts a <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure returned by <a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a> that contains or points to a string, and returns that string as a <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>.
+Accepts a <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure returned by <a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a> that contains or points to a string, and returns that string as a <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>.
 
 
 ## -parameters
@@ -74,9 +74,9 @@ A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f
 
 ### -param pbstr [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
 
-A pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> that receives the converted string.
+A pointer to a variable of type <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> that receives the converted string.
 
 
 ## -returns

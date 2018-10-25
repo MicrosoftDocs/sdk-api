@@ -144,13 +144,17 @@ This function does not do any special processing based on pixel encoding except 
 
 Before including Vfw.h, you must add the following line to your code:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define DRAWDIB_INCLUDE_STRETCHDIB
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

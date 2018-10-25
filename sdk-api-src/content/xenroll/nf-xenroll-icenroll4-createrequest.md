@@ -4,10 +4,10 @@ title: ICEnroll4::createRequest
 author: windows-sdk-content
 description: Creates a PKCS #10, PKCS #7, or full Certificate Management over CMS (CMC) format certificate request and stores it in a string. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_createrequest.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: d2a1c1c4-dbbf-423c-bf59-da0ab9a71078
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CEnroll object [Security],createRequest method, ICEnroll4 interface [Security],createRequest method, ICEnroll4.createRequest, ICEnroll4::createRequest, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, _xen_icenroll4_createrequest, createRequest, createRequest method [Security], createRequest method [Security],CEnroll object, createRequest method [Security],ICEnroll4 interface, security.icenroll4_createrequest, xenroll/ICEnroll4::createRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ An <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">obj
 
 ### -param pstrRequest [out]
 
-A pointer to a <b>BSTR</b> (BASE64_HEADER format) that receives the request. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> (BASE64_HEADER format) that receives the request. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -154,9 +154,13 @@ When this method is called from script, the method displays a user interface tha
 
 #### Examples
 
-
-```cpp
-BSTR bstrDN = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR bstrDN = NULL;
 BSTR bstrReq = NULL;
 ICEnroll4 * pEnroll4 = NULL;
 HRESULT hr;
@@ -172,7 +176,7 @@ hr = CoCreateInstance( __uuidof(CEnroll),
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        __uuidof(ICEnroll4),
-                       (void **)&pEnroll4);
+                       (void **)&amp;pEnroll4);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance - pEnroll4 [%x]\n", hr);
@@ -188,10 +192,10 @@ bstrDN = SysAllocString( TEXT("CN=Your Name")   // common name
                          TEXT(",C=Your Country") );  // country/region
 
 // create the CMC request
-hr = pEnroll4->createRequest( XECR_CMC,
+hr = pEnroll4-&gt;createRequest( XECR_CMC,
                               bstrDN,
                               NULL,
-                              &bstrReq );
+                              &amp;bstrReq );
 if (FAILED(hr))
 {
         printf("Failed createRequest - pEnroll4 [%x]\n", hr);
@@ -208,12 +212,12 @@ if ( bstrDN )
 if ( bstrReq )
     SysFreeString( bstrReq );
 if ( pEnroll4 )
-    pEnroll4->Release();
+    pEnroll4-&gt;Release();
 
 CoUninitialize();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

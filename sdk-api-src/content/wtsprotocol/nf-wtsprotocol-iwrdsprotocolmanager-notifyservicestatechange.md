@@ -4,10 +4,10 @@ title: IWRdsProtocolManager::NotifyServiceStateChange
 author: windows-sdk-content
 description: Notifies the protocol provider that the state of the Remote Desktop Services service is changing.
 old-location: termserv\iwrdsprotocolmanager_notifyservicestatechange.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 32b2a05a-d5de-4f2f-bcaa-587cf22aa5c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWRdsProtocolManager.NotifyServiceStateChange, IWRdsProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifyservicestatechange, wtsprotocol/IWRdsProtocolManager::NotifyServiceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

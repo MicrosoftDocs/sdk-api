@@ -4,10 +4,10 @@ title: CertResyncCertificateChainEngine function
 author: windows-sdk-content
 description: Resyncs the certificate chain engine, which resynchronizes the stores the store's engine and updates the engine caches.
 old-location: security\certresynccertificatechainengine.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: D8674AD1-0407-4D1E-9E21-60CAC6D01FC5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertResyncCertificateChainEngine, CertResyncCertificateChainEngine function [Security], security.certresynccertificatechainengine, wincrypt/CertResyncCertificateChainEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -237,7 +237,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -270,9 +270,13 @@ The <b>SCardConnect</b> function is a <a href="https://msdn.microsoft.com/3e9d76
 
 The following example creates a connection to a reader. The example assumes that <i>hContext</i> is a valid handle of type <b>SCARDCONTEXT</b> received from a previous call to <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a>.
 
-
-```cpp
-SCARDHANDLE     hCardHandle;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SCARDHANDLE     hCardHandle;
 LONG            lReturn;
 DWORD           dwAP;
 
@@ -280,8 +284,8 @@ lReturn = SCardConnect( hContext,
                         (LPCTSTR)"Rainbow Technologies SCR3531 0",
                         SCARD_SHARE_SHARED,
                         SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1,
-                        &hCardHandle,
-                        &dwAP );
+                        &amp;hCardHandle,
+                        &amp;dwAP );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardConnect\n");
@@ -308,10 +312,10 @@ switch ( dwAP )
 
 // Remember to disconnect (by calling SCardDisconnect).
 // ...
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

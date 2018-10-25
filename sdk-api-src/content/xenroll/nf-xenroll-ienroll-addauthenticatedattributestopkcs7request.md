@@ -4,10 +4,10 @@ title: IEnroll::AddAuthenticatedAttributesToPKCS7Request
 author: windows-sdk-content
 description: The AddAuthenticatedAttributesToPKCS7Request method adds authenticated attributes to a PKCS #7 certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_addauthenticatedattributestopkcs7request.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a65eca3d-8308-4bdc-b851-016a4e63a1f1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: AddAuthenticatedAttributesToPKCS7Request, AddAuthenticatedAttributesToPKCS7Request method [Security], AddAuthenticatedAttributesToPKCS7Request method [Security],IEnroll interface, IEnroll interface [Security],AddAuthenticatedAttributesToPKCS7Request method, IEnroll.AddAuthenticatedAttributesToPKCS7Request, IEnroll::AddAuthenticatedAttributesToPKCS7Request, security.ienroll4_addauthenticatedattributestopkcs7request, xenroll/IEnroll::AddAuthenticatedAttributesToPKCS7Request
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -60,12 +60,12 @@ Identifiers for various global counters, or shared variables. Each global counte
 
 ### -field GLOBALCOUNTER_SEARCHMANAGER
 
-The global counter for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a>.
+The global counter for use with the <a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a>.
 
 
 ### -field GLOBALCOUNTER_SEARCHOPTIONS
 
-The global counter for use with <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> to identify whether a query parser's settings have changed.
+The global counter for use with <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a> to identify whether a query parser's settings have changed.
 
 
 ### -field GLOBALCOUNTER_FOLDERSETTINGSCHANGE
@@ -366,9 +366,13 @@ These global counters are shared variables that can help identify whether the st
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following pseudocode example shows how a global counter can be used.
 
-
-```
-void ValidateSomeSettings()
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void ValidateSomeSettings()
     {
         // Get the current GLOBALCOUNTER_SHELLSETTINGSCHANGED value.
         long lGlobalSettingsCounter = SHGlobalCounterGetValue(GLOBALCOUNTER_SHELLSETTINGSCHANGED);
@@ -388,10 +392,10 @@ void ValidateSomeSettings()
             // Shell settings have changed. Rollback and redo.
             ...
         }
-    }
-```
-
-
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: D2D1_BITMAP_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
 old-location: direct2d\D2D1_BITMAP_BRUSH_PROPERTIES.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: e252d1b4-2f34-4479-94fc-636d4115b00c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_BITMAP_BRUSH_PROPERTIES, D2D1_BITMAP_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_BITMAP_BRUSH_PROPERTIES, direct2d.D2D1_BITMAP_BRUSH_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,21 +60,21 @@ Describes the extend modes and the interpolation mode of an <a href="https://msd
 
 ### -field extendModeX
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
 
 A value that describes how the brush horizontally tiles those areas that extend past its bitmap.
 
 
 ### -field extendModeY
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
 
 A value that describes how the brush vertically tiles those areas that extend past its bitmap.
 
 
 ### -field interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368073(v=VS.85).aspx">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b53b7e0a-aa8b-4788-896c-9825c9e6cceb">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
 
 A value that specifies how the bitmap is interpolated when it is scaled or rotated.
 
@@ -84,11 +84,11 @@ A value that specifies how the bitmap is interpolated when it is scaled or rotat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368073(v=VS.85).aspx">D2D1_BITMAP_INTERPOLATION_MODE</a>
+<a href="https://msdn.microsoft.com/b53b7e0a-aa8b-4788-896c-9825c9e6cceb">D2D1_BITMAP_INTERPOLATION_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE</a>
+<a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a>
  
 
  

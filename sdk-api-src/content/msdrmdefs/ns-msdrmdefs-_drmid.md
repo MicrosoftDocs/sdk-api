@@ -88,34 +88,46 @@ A pointer to a null-terminated Unicode string that contains the object ID. If yo
 
 In a C++ application, this structure will have a default constructor that initializes the members to the following values.
 
-
-```cpp
-uVersion = DRMIDVERSION
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>uVersion = DRMIDVERSION
 wszIDType = NULL
 wszID = NULL
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 An overloaded C++ constructor is also defined as follows.
 
-
-```cpp
-DRMID(PWSTR wszIDType, PWSTR wszID)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DRMID(PWSTR wszIDType, PWSTR wszID)</pre>
+</td>
+</tr>
+</table></span></div>
  This constructor will initialize the members to the following values.
 
-
-```cpp
-uVersion = DRMIDVERSION
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>uVersion = DRMIDVERSION
 wszIDType = wszTypein
 wszID = wszIDin
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
