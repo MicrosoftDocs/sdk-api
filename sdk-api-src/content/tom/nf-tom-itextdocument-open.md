@@ -259,27 +259,23 @@ Errors are reported by negative values, but because file operations have many ki
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```
+HRESULT hr;
 VARIANT Var;
-VariantInit(&amp;Var)
+VariantInit(&Var)
 
 Var.vt = VT_BSTR;
 Var.bstrVal = SysAllocString(L"test.txt"); // Use file command
-hr = pDoc-&gt;Open(&amp;Var, tomOpenExisting, 0);
-hr &amp;= ~0x40000; // Mask off bit 18
+hr = pDoc->Open(&Var, tomOpenExisting, 0);
+hr &= ~0x40000; // Mask off bit 18
 if(hr == STG_E_FILENOTFOUND)
 {
 ...// the rest of the code
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -152,13 +152,9 @@ The engine adapter must also maintain a separate hash buffer for each pipeline.
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterGetEnrollmentHash
 //
@@ -197,11 +193,11 @@ EngineAdapterGetEnrollmentHash(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context-&gt;Enrollment.InProgress != TRUE)
+    if (context->Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -217,10 +213,10 @@ EngineAdapterGetEnrollmentHash(
     // context.
     hr = _AdapterGenerateHashForTemplate(
                 context,
-                context-&gt;Enrollment.Template, 
-                context-&gt;Enrollment.TemplateSize,
-                context-&gt;HashBuffer,
-                &amp;context-&gt;HashSize
+                context->Enrollment.Template, 
+                context->Enrollment.TemplateSize,
+                context->HashBuffer,
+                &context->HashSize
                 );
     if (FAILED(hr))
     {
@@ -228,17 +224,17 @@ EngineAdapterGetEnrollmentHash(
     }
 
     // Return the hash to the caller.
-    *HashValue = context-&gt;HashBuffer;
-    *HashSize = context-&gt;HashSize;
+    *HashValue = context->HashBuffer;
+    *HashSize = context->HashSize;
 
 cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

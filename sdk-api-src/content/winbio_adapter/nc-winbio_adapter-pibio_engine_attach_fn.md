@@ -132,13 +132,9 @@ Similarly, if the <b>EngineHandle</b> field does not contain <b>INVALID_HANDLE_V
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterAttach
 //
@@ -180,10 +176,10 @@ EngineAdapterAttach(
     ZeroMemory(newContext, sizeof(WINBIO_ENGINE_CONTEXT));
 
     // Initialize any required context fields.
-    newContext-&gt;SomeField = SomeSpecialValue;
+    newContext->SomeField = SomeSpecialValue;
 
-    newContext-&gt;SomePointerField = _AdapterAlloc(sizeof(SOME_STRUCTURE));
-    if (newContext-&gt;SomePointerField == NULL)
+    newContext->SomePointerField = _AdapterAlloc(sizeof(SOME_STRUCTURE));
+    if (newContext->SomePointerField == NULL)
     {
         E_OUTOFMEMORY;
         goto cleanup;
@@ -201,7 +197,7 @@ EngineAdapterAttach(
 
     // If initialization completes successfully, attach the engine context to the 
     // processing pipeline of the biometric unit.
-    Pipeline-&gt;EngineContext = newContext;
+    Pipeline->EngineContext = newContext;
     newContext = NULL;
 
 cleanup:
@@ -218,9 +214,9 @@ cleanup:
             _AdapterCleanupCrypto(newContext);
 
             // Release any other object pointed to by the context.
-            if (newContext-&gt;SomePointerField != NULL)
+            if (newContext->SomePointerField != NULL)
             {
-                _AdapterRelease(newContext-&gt;SomePointerField);
+                _AdapterRelease(newContext->SomePointerField);
             }
 
             // Release the context
@@ -230,10 +226,10 @@ cleanup:
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

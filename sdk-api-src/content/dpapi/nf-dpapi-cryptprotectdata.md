@@ -170,13 +170,9 @@ To encrypt memory for temporary use in the same process or across processes, cal
 The following example shows encryption of the data in a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">DATA_BLOB</a> structure. The <b>CryptProtectData</b> function does the encryption by using a session key that the function creates by using the user's logon credentials. For another example that uses this function, see 
 <a href="https://msdn.microsoft.com/51607aad-9fa8-4db6-bd2a-3821dce619e7">Example C Program: Using CryptProtectData</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Encrypt data from DATA_BLOB DataIn to DATA_BLOB DataOut.
+
+```cpp
+// Encrypt data from DATA_BLOB DataIn to DATA_BLOB DataOut.
 
 //--------------------------------------------------------------------
 // Declare and initialize variables.
@@ -197,7 +193,7 @@ DataIn.cbData = cbDataInput;
 //  by the function and is not passed.
 
 if(CryptProtectData(
-     &amp;DataIn,
+     &DataIn,
      L"This is the description string.", // A description string
                                          // to be included with the
                                          // encrypted data. 
@@ -206,7 +202,7 @@ if(CryptProtectData(
      NULL,                               // Pass NULL for the 
                                          // prompt structure.
      0,
-     &amp;DataOut))
+     &DataOut))
 {
      printf("The encryption phase worked.\n");
 }
@@ -214,10 +210,10 @@ else
 {
     printf("Encryption error using CryptProtectData.\n");
     exit(1); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

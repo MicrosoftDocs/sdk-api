@@ -276,13 +276,9 @@ See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetD
 
 The Winsock2.h header file must be included to use WSAGetLastError and other Winsock functions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>QOS_VERSION    Version;
+
+```cpp
+QOS_VERSION    Version;
 HANDLE         QoSHandle = NULL;
 QOS_FLOWID     QoSFlowId = 0; // Flow Id must be 0.
 SOCKET        ConnectionSocket;
@@ -295,13 +291,13 @@ Version.MinorVersion = 0;
 
 // Get a handle to the QoS subsystem.
 QoSResult = QOSCreateHandle(
-    &amp;Version, 
-    &amp;QoSHandle );
+    &Version, 
+    &QoSHandle );
 
 if (QoSResult != TRUE)
 {
-    std::cerr &lt;&lt; "QOSCreateHandle failed. Error: "; 
-    std::cerr &lt;&lt; WSAGetLastError() &lt;&lt; std::endl;
+    std::cerr << "QOSCreateHandle failed. Error: "; 
+    std::cerr << WSAGetLastError() << std::endl;
 }
 
 // Initialization of ConnectionSocket   
@@ -315,18 +311,18 @@ QoSResult = QOSAddSocketToFlow(
     NULL,
     QOSTrafficTypeExcellentEffort, 
      QOS_NON_ADAPTIVE_FLOW, 
-    &amp;QoSFlowId);
+    &QoSFlowId);
 
 if (QoSResult != TRUE)
 {
-    std::cerr &lt;&lt; "QOSAddSocketToFlow failed. Error: "; 
-    std::cerr &lt;&lt; WSAGetLastError() &lt;&lt; std::endl;
+    std::cerr << "QOSAddSocketToFlow failed. Error: "; 
+    std::cerr << WSAGetLastError() << std::endl;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

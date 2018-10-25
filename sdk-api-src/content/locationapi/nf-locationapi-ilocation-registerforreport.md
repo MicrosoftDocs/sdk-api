@@ -141,19 +141,15 @@ Applications that need to get location data only once, to fill out a form or pla
 
 The following example calls <b>RegisterForReport</b> to subscribe to events.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;atlbase.h&gt;
-#include &lt;atlcom.h&gt;
-#include &lt;LocationApi.h&gt; // This is the main Location API header
+
+```cpp
+#include <windows.h>
+#include <atlbase.h>
+#include <atlcom.h>
+#include <LocationApi.h> // This is the main Location API header
 #include "LocationCallback.h" // This is our callback interface that receives Location reports.
 
-class CInitializeATL : public CAtlExeModuleT&lt;CInitializeATL&gt;{};
+class CInitializeATL : public CAtlExeModuleT<CInitializeATL>{};
 CInitializeATL g_InitializeATL; // Initializes ATL for this application. This also does CoInitialize for us
 
 int wmain()
@@ -161,18 +157,18 @@ int wmain()
     HRESULT hr = CoInitializeEx(NULL, COINIT_MULTITHREADED | COINIT_DISABLE_OLE1DDE);;
     if (SUCCEEDED(hr))
     {
-        CComPtr&lt;ILocation&gt; spLocation; // This is the main Location interface
-        CComObject&lt;CLocationEvents&gt;* pLocationEvents = NULL; // This is our callback object for location reports
+        CComPtr<ILocation> spLocation; // This is the main Location interface
+        CComObject<CLocationEvents>* pLocationEvents = NULL; // This is our callback object for location reports
         IID REPORT_TYPES[] = { IID_ILatLongReport }; // Array of report types of interest. Other ones include IID_ICivicAddressReport
 
         hr = spLocation.CoCreateInstance(CLSID_Location); // Create the Location object
 
         if (SUCCEEDED(hr))
         {
-            hr = CComObject&lt;CLocationEvents&gt;::CreateInstance(&amp;pLocationEvents); // Create the callback object
+            hr = CComObject<CLocationEvents>::CreateInstance(&pLocationEvents); // Create the callback object
             if (NULL != pLocationEvents)
             {
-                pLocationEvents-&gt;AddRef();
+                pLocationEvents->AddRef();
             }
         }
 
@@ -180,15 +176,15 @@ int wmain()
         {
             // Request permissions for this user account to receive location data for all the
             // types defined in REPORT_TYPES (which is currently just one report)
-            if (FAILED(spLocation-&gt;RequestPermissions(NULL, REPORT_TYPES, ARRAYSIZE(REPORT_TYPES), FALSE))) // FALSE means an asynchronous request
+            if (FAILED(spLocation->RequestPermissions(NULL, REPORT_TYPES, ARRAYSIZE(REPORT_TYPES), FALSE))) // FALSE means an asynchronous request
             {
                 wprintf(L"Warning: Unable to request permissions.\n");
             }
 
             // Tell the Location API that we want to register for reports (which is currently just one report)
-            for (DWORD index = 0; index &lt; ARRAYSIZE(REPORT_TYPES); index++)
+            for (DWORD index = 0; index < ARRAYSIZE(REPORT_TYPES); index++)
             {
-                hr = spLocation-&gt;RegisterForReport(pLocationEvents, REPORT_TYPES[index], 0);
+                hr = spLocation->RegisterForReport(pLocationEvents, REPORT_TYPES[index], 0);
             }
         }
 
@@ -199,16 +195,16 @@ int wmain()
             system("pause");
 
             // Unregister from reports from the Location API
-            for (DWORD index = 0; index &lt; ARRAYSIZE(REPORT_TYPES); index++)
+            for (DWORD index = 0; index < ARRAYSIZE(REPORT_TYPES); index++)
             {
-                spLocation-&gt;UnregisterForReport(REPORT_TYPES[index]);
+                spLocation->UnregisterForReport(REPORT_TYPES[index]);
             }
         }
 
         // Cleanup
         if (NULL != pLocationEvents)
         {
-            pLocationEvents-&gt;Release();
+            pLocationEvents->Release();
             pLocationEvents = NULL;
         }
 
@@ -217,10 +213,10 @@ int wmain()
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

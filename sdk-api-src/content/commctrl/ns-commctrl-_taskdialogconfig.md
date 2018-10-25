@@ -100,16 +100,12 @@ Specifies the behavior of the task dialog. This parameter can be a combination o
 Enables hyperlink processing for the strings specified in the <b>pszContent</b>, <b>pszExpandedInformation</b> and <b>pszFooter</b> members. When enabled, these members may point to strings that contain hyperlinks in the following form:
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>&lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+<A HREF="executablestring">Hyperlink Text</A>
+```
+
+
 <b>Warning: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
 
 <div class="alert"><b>Note</b>  Task Dialogs will not actually execute any hyperlinks. Hyperlink execution must be handled in the callback function specified by <b>pfCallback</b>. For more details, see <a href="https://msdn.microsoft.com/4229df67-3e99-4606-917f-8122e1a6a5ee">TaskDialogCallbackProc</a>.</div>
@@ -581,16 +577,12 @@ Pointer to the string to be used in the footer area of the task dialog. This par
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>&lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+<A HREF="executablestring">Hyperlink Text</A>
+```
+
+
 <div class="alert"><b>Warning</b>  Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</div>
 <div> </div>
 

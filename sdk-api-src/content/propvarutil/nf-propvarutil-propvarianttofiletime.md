@@ -118,22 +118,18 @@ The source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToFileTime">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_DateModified, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_DateModified, &propvar);
 if (SUCCEEDED(hr))
 {
      // PKEY_DateModified is expected to produce a VT_FILETIME or VT_EMPTY value.
      // PropVariantToFileTime will return a failure code for VT_EMPTY
      FILETIME ftModified;
-     hr = PropVariantToFileTime(propvar, PSTF_UTC, &amp;ftModified);
+     hr = PropVariantToFileTime(propvar, PSTF_UTC, &ftModified);
      if (SUCCEEDED(hr))
      {
         // ftModified is now valid and contains a file time in UTC
@@ -142,11 +138,11 @@ if (SUCCEEDED(hr))
      {
         // Unable to convert propvar to a FILETIME
      }
-     PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+     PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

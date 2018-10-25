@@ -249,14 +249,10 @@ When a thread is in background processing mode, it should minimize sharing resou
 
 The following example demonstrates the use of thread background mode.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+#include <windows.h>
+#include <tchar.h>
 
 int main( void )
 {
@@ -292,10 +288,10 @@ Cleanup:
    ;
 return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

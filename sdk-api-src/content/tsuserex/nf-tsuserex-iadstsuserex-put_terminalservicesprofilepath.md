@@ -76,13 +76,9 @@ The profile path is
 
 The following example shows a program that binds to the Active Directory database without credentials.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> IADsContainer *pContainer = NULL;
+
+```cpp
+ IADsContainer *pContainer = NULL;
  IDispatch *pNewObject = NULL;
  IADsTSUserEx *pTSUser = NULL;
  IADsUser *pUser = NULL;
@@ -95,7 +91,7 @@ The following example shows a program that binds to the Active Directory databas
  hr = ADsGetObject(
     L"LDAP://DOMAIN/CN=Users,DC=Server1,DC=Domain,DC=com",
     IID_IADsContainer,
-    (void**)&amp;pContainer);
+    (void**)&pContainer);
 
  if( !SUCCEEDED(hr)) {
   wprintf(L"ADsGetObject ret failed with 0x%x\n", hr);
@@ -104,10 +100,10 @@ The following example shows a program that binds to the Active Directory databas
  //
  // Create the new Active Directory Service Interfaces User object.
  //
- hr = pContainer-&gt;Create(L"user",
+ hr = pContainer->Create(L"user",
                          L"cn=test3",
-                         &amp;pNewObject);
- pContainer-&gt;Release();
+                         &pNewObject);
+ pContainer->Release();
 
  if( !SUCCEEDED(hr)) {
   wprintf(L"Create ret failed with 0x%x\n", hr);
@@ -116,7 +112,7 @@ The following example shows a program that binds to the Active Directory databas
  //
  // Get the IADsTSUser interface from the user object.
  //
- hr = pNewObject-&gt;QueryInterface(IID_IADsTSUserEx, (void**)&amp;pTSUser);
+ hr = pNewObject->QueryInterface(IID_IADsTSUserEx, (void**)&pTSUser);
 
  if( !SUCCEEDED(hr)) { 
   wprintf(L"QueryInterface for IADsTSUserEx failed with ret 0x%x\n",
@@ -126,30 +122,30 @@ The following example shows a program that binds to the Active Directory databas
  //
  // Get the IADsTSUser interface from the user object.
  //
- hr = pNewObject-&gt;QueryInterface(IID_IADsUser, (void**)&amp;pUser);
+ hr = pNewObject->QueryInterface(IID_IADsUser, (void**)&pUser);
 
  if( !SUCCEEDED(hr)) {
   wprintf(L"QueryInterface for IAsUser failed with 0x%x\n", hr);
   return FALSE;
  }
- pNewObject-&gt;Release();
+ pNewObject->Release();
 
  //
  // Set TerminalServicesProfilePath
  //
- pTSUser-&gt;put_TerminalServicesProfilePath(L"c:\\windows");
- pTSUser-&gt;Release();
+ pTSUser->put_TerminalServicesProfilePath(L"c:\\windows");
+ pTSUser->Release();
 
  //
  // Commit the object data to the directory.
  //
- pUser-&gt;SetInfo();
- pUser-&gt;Release();
+ pUser->SetInfo();
+ pUser->Release();
  CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 You can use the following script examples to bind to a provider's namespace. Two examples bind with supplied 
      credentials; two bind without credentials.
 
@@ -159,13 +155,9 @@ The first example shows a script that binds to the Security Accounts Manager (SA
 The second example shows a script that binds to the Active Directory database with the supplied 
      credentials.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set DSO = GetObject("WinNT:")
+
+```vb
+Set DSO = GetObject("WinNT:")
 Set usr = DSO.OpenDSObject(
     "WinNT://Server1/Test,user",
     Domain\User,
@@ -175,16 +167,11 @@ Wscript.echo usr.TerminalServicesProfilePath
 usr.TerminalServicesProfilePath = "profile path"
 usr.SetInfo
 WScript.echo usr.TerminalServicesProfilePath
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set DSO = GetObject("LDAP:")
+
+```
+
+```vb
+Set DSO = GetObject("LDAP:")
 Set usr = DSO.OpenDSObject(
     "LDAP://DOMAIN/CN=Test,CN=Users,DC=Server1,DC=Domain,DC=com",
     Domain\User,
@@ -194,10 +181,10 @@ Wscript.echo usr.TerminalServicesProfilePath
 usr.TerminalServicesProfilePath = "profile path"
 usr.SetInfo
 WScript.echo usr.TerminalServicesProfilePath
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

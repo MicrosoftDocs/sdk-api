@@ -143,17 +143,13 @@ PDH stores the raw counter values for the current and previous collection. If yo
 
 The following example shows how to use this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;pdh.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <pdh.h>
 
 #pragma comment(lib, "pdh.lib")
 
@@ -171,14 +167,14 @@ void wmain(void)
     ULONG CounterType;
     PDH_FMT_COUNTERVALUE DisplayValue;
 
-    Status = PdhOpenQuery(NULL, 0, &amp;Query);
+    Status = PdhOpenQuery(NULL, 0, &Query);
     if (Status != ERROR_SUCCESS) 
     {
         wprintf(L"\nPdhOpenQuery failed with status 0x%x.", Status);
         goto Cleanup;
     }
 
-    Status = PdhAddCounter(Query, COUNTER_NAME, 0, &amp;Counter);
+    Status = PdhAddCounter(Query, COUNTER_NAME, 0, &Counter);
     if (Status != ERROR_SUCCESS) 
     {
         wprintf(L"\nPdhAddCounter failed with 0x%x.", Status);
@@ -221,13 +217,13 @@ void wmain(void)
     // Collect and format 10 samples, 2 seconds apart.
     //
 
-    for (ULONG i = 0; i &lt; SAMPLE_COUNT; i++) 
+    for (ULONG i = 0; i < SAMPLE_COUNT; i++) 
     {
         WaitResult = WaitForSingleObject(Event, INFINITE);
 
         if (WaitResult == WAIT_OBJECT_0) 
         {
-            Status = PdhGetFormattedCounterValue(Counter, PDH_FMT_DOUBLE, &amp;CounterType, &amp;DisplayValue);
+            Status = PdhGetFormattedCounterValue(Counter, PDH_FMT_DOUBLE, &CounterType, &DisplayValue);
 
             if (Status == ERROR_SUCCESS) 
             {
@@ -263,10 +259,10 @@ Cleanup:
         PdhCloseQuery(Query);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

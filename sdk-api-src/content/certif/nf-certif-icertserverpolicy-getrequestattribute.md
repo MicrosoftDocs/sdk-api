@@ -119,20 +119,16 @@ The following request attributes are unique to KEYGEN style requests.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrAttribValue = NULL;
+
+```cpp
+BSTR     bstrAttribValue = NULL;
 HRESULT  hr;
 
 // Get the request attribute.
 // bstrAttribName is BSTR assigned by EnumerateAttributes.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy-&gt;GetRequestAttribute(bstrAttribName,
-                                            &amp;bstrAttribValue);
+hr = pCertServerPolicy->GetRequestAttribute(bstrAttribName,
+                                            &bstrAttribValue);
 
 if (FAILED(hr))
 {
@@ -148,10 +144,10 @@ else
 
 // Done processing. Free BSTR.
 if (NULL != bstrAttribValue)
-    SysFreeString(bstrAttribValue);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrAttribValue);
+```
+
+
 
 
 

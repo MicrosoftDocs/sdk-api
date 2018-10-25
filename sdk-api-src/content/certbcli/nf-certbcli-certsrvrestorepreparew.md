@@ -117,13 +117,9 @@ To execute this call, you must have the restore <a href="https://msdn.microsoft.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVRESTOREPREPAREW*  pfnRestorePrepare;
+
+```cpp
+FNCERTSRVRESTOREPREPAREW*  pfnRestorePrepare;
 char * szRestorePrepFunc = "CertSrvRestorePrepareW";
 HCSBC      hCSBC=NULL;
 HINSTANCE  hInst=0;
@@ -152,7 +148,7 @@ if ( NULL == pfnRestorePrepare )
 // Prepare CertServ for restoration.
 hr = pfnRestorePrepare(wszServer,
                        CSRESTORE_TYPE_FULL,
-                       &amp;hCSBC);
+                       &hCSBC);
 
 if (FAILED(hr))
 {
@@ -170,10 +166,10 @@ if (FAILED(hr))
 
 // Free the DLL.
 if (hInst)
-    FreeLibrary(hInst);</pre>
-</td>
-</tr>
-</table></span></div>
+    FreeLibrary(hInst);
+```
+
+
 
 
 

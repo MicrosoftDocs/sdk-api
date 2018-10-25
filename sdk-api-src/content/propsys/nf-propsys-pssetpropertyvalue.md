@@ -101,13 +101,9 @@ This helper function is used to write a property value to a store. If the callin
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSSetPropertyValue">PSSetPropertyValue</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyDescription *pPropDesc;
+
+```cpp
+// IPropertyDescription *pPropDesc;
 // IPropertyStore *pStore;
 // PROPVARIANT propvar;
 // Assume the variables pStore, pPropDesc, and propvar are initialized and valid.
@@ -117,10 +113,10 @@ HRESULT hr = PSSetPropertyValue(pStore, pPropDesc, propvar);
 if (SUCCEEDED(hr))
 {
     // The value has been written to the store but has not been committed yet.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

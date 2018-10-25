@@ -78,20 +78,16 @@ ClusAPI.h defines  <b>ALIGN_CLUSPROP</b> as follows:
 
 The following example illustrates how to use  <b>ALIGN_CLUSPROP</b> to calculate the size of a value list entry. For additional examples, see  <a href="https://msdn.microsoft.com/f8f0297a-c050-41b9-a52f-a0265a18b87a">Using Lists and Tables</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR szData[] = L"StringData";
+
+```cpp
+WCHAR szData[] = L"StringData";
 DWORD cbSizeofValueListEntry;
 
 cbSizeofValueListEntry = sizeof( CLUSPROP_VALUE ) + 
                          ALIGN_CLUSPROP( sizeof( szData ) );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

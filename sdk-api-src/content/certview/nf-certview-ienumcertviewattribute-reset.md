@@ -92,18 +92,14 @@ following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumAttr is a previously instantiated
+
+```cpp
+// pEnumAttr is a previously instantiated
 // IEnumCERTVIEWATTRIBUTE object.
 HRESULT  hr;
 LONG     Index;
 
-hr = pEnumAttr-&gt;Reset();
+hr = pEnumAttr->Reset();
 if (S_OK != hr)
     printf("Unable to reset pEnumAttr - %x\n", hr );
 
@@ -113,15 +109,15 @@ else
 {
 
     // Reset to the beginning of the attributes again.
-    while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
+    while (S_OK == pEnumAttr->Next(&Index))
     {
 
         // Use each attribute as needed.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

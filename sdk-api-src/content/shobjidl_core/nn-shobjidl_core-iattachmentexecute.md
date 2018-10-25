@@ -195,13 +195,9 @@ The IID for this interface is <b>IID_IAttachmentExecute</b>.
 Here is an example of how an email client might use <b>IAttachmentExecute</b>.
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // CClientAttachmentInfo, defined by the client, implements all the
 // necessary client functionality concerning attachments. 
 class CClientAttachmentInfo;  
@@ -214,7 +210,7 @@ HRESULT CreateAttachmentServices(IAttachmentExecute **ppae)
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
                                   IID_IAttachmentExecute, 
-                                  (void**)&amp;pAttachExec);
+                                  (void**)&pAttachExec);
 
     if (SUCCEEDED(hr))
     {
@@ -222,7 +218,7 @@ HRESULT CreateAttachmentServices(IAttachmentExecute **ppae)
 
         // UUID_ClientID should be created using uuidgen.exe and 
         // defined internally.
-        (*ppae)-&gt;SetClientGuid(UUID_ClientID);
+        (*ppae)->SetClientGuid(UUID_ClientID);
         
         // You also could call SetClientTitle at this point, but it is
         // not required.
@@ -238,15 +234,15 @@ BOOL IsAttachmentBlocked(CClientAttachmentInfo *pinfo)
 
     // GetFileName is a method in this class for which we do not provide
     // an implementation here.
-    HRESULT hr = pinfo-&gt;GetFileName(&amp;pszFileName);
+    HRESULT hr = pinfo->GetFileName(&pszFileName);
     if (SUCCEEDED(hr))
     {
         IAttachmentExecute *pExecute;
 
-        hr = CreateAttachmentServices(&amp;pExecute);
+        hr = CreateAttachmentServices(&pExecute);
         if (SUCCEEDED(hr))
         {
-            hr = pExecute-&gt;SetFileName(pszFileName);
+            hr = pExecute->SetFileName(pszFileName);
 
             // Do not call SetLocalPath since we do not have the local path yet.
             // Do not call SetSource since email sources are not verifiable.
@@ -256,9 +252,9 @@ BOOL IsAttachmentBlocked(CClientAttachmentInfo *pinfo)
             // Check for a policy regarding the file.
             if (SUCCEEDED(hr))
             {
-                hr = pExecute-&gt;CheckPolicy();
+                hr = pExecute->CheckPolicy();
             }
-            pExecute-&gt;Release();
+            pExecute->Release();
         }
         LocalFree(pszFileName);
     }
@@ -273,15 +269,15 @@ HRESULT OnDoubleClickAttachment(HWND hwnd, CClientAttachmentInfo *pinfo)
 
     // CopyToTempFile is a method in this class for which we do not provide
     // an implementation here.
-    HRESULT hr = pinfo-&gt;CopyToTempFile(&amp;pszTempFile);
+    HRESULT hr = pinfo->CopyToTempFile(&pszTempFile);
     if (SUCCEEDED(hr))
     {
         IAttachmentExecute *pExecute;
 
-        hr = CreateAttachmentServices(&amp;pExecute);
+        hr = CreateAttachmentServices(&pExecute);
         if (SUCCEEDED(hr))
         {
-            hr = pExecute-&gt;SetLocalPath(pszTempFile);
+            hr = pExecute->SetLocalPath(pszTempFile);
 
             // Do not call SetFileName since we already have the local path.
             // Do not call SetSource since email sources are not verifiable.
@@ -290,9 +286,9 @@ HRESULT OnDoubleClickAttachment(HWND hwnd, CClientAttachmentInfo *pinfo)
 
             if (SUCCEEDED(hr))
             {
-                hr = pExecute-&gt;Execute(hwnd, NULL, NULL);
+                hr = pExecute->Execute(hwnd, NULL, NULL);
             }
-            pExecute-&gt;Release();
+            pExecute->Release();
         }
         LocalFree(pszTempFile);
     }
@@ -307,15 +303,15 @@ HRESULT OnSaveAttachment(HWND hwnd, CClientAttachmentInfo *pinfo)
 
     // CopyToUserFile is a method in this class for which we do not provide
     // an implementation here.
-    HRESULT hr = pinfo-&gt;CopyToUserFile(hwnd, &amp;pszUserFile);
+    HRESULT hr = pinfo->CopyToUserFile(hwnd, &pszUserFile);
     if (SUCCEEDED(hr))
     {
         IAttachmentExecute *pExecute;
 
-        hr = CreateAttachmentServices(&amp;pExecute);
+        hr = CreateAttachmentServices(&pExecute);
         if (SUCCEEDED(hr))
         {
-            hr = pExecute-&gt;SetLocalPath(pszTempFile);
+            hr = pExecute->SetLocalPath(pszTempFile);
 
             // Do not call SetFileName since we have the local path.
             // Do not call SetSource since email sources are not verifiable.
@@ -324,16 +320,16 @@ HRESULT OnSaveAttachment(HWND hwnd, CClientAttachmentInfo *pinfo)
 
             if (SUCCEEDED(hr))
             {
-                hr = pExecute-&gt;Save();
+                hr = pExecute->Save();
             }
-            pExecute-&gt;Release();
+            pExecute->Release();
         }
         LocalFree(pszUserFile);
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

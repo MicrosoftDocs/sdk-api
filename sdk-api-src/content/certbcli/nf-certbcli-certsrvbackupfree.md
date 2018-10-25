@@ -98,13 +98,9 @@ Call this function when finished with memory allocated by using the following fu
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPFREE* pfnBackupFree;
+
+```cpp
+FNCERTSRVBACKUPFREE* pfnBackupFree;
 
 char * szBackupFreeFunc = "CertSrvBackupFree";
 
@@ -125,10 +121,10 @@ if ( NULL == pfnBackupFree )
 
 // Free allocated memory.
 // pBuff was allocated by another certsrv backup function.
-pfnBackupFree(pBuff);</pre>
-</td>
-</tr>
-</table></span></div>
+pfnBackupFree(pBuff);
+```
+
+
 
 
 
