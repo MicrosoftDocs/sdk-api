@@ -4,10 +4,10 @@ title: "_WTS_SESSION_INFO_1A"
 author: windows-sdk-content
 description: Contains extended information about a client session on a Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wts_session_info_1.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 29d76033-d61d-4bc5-b47a-f7dea9543f23
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: "*PWTS_SESSION_INFO_1A, PWTS_SESSION_INFO_1, PWTS_SESSION_INFO_1 structure pointer [Remote Desktop Services], WTS_SESSION_INFO_1, WTS_SESSION_INFO_1 structure [Remote Desktop Services], WTS_SESSION_INFO_1A, WTS_SESSION_INFO_1W, _WTS_SESSION_INFO_1A, termserv.wts_session_info_1, wtsapi32/PWTS_SESSION_INFO_1, wtsapi32/WTS_SESSION_INFO_1, wtsapi32/WTS_SESSION_INFO_1A, wtsapi32/WTS_SESSION_INFO_1W"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ID2D1EffectImpl::PrepareForRender
 author: windows-sdk-content
 description: Prepares an effect for the rendering process.
 old-location: direct2d\id2d1effectimpl_prepareforrender.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 0EBA4FDB-A9EA-4FCF-BF40-3D73ED356CD4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],PrepareForRender method, ID2D1EffectImpl.PrepareForRender, ID2D1EffectImpl::PrepareForRender, PrepareForRender, PrepareForRender method [Direct2D], PrepareForRender method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::PrepareForRender, direct2d.id2d1effectimpl_prepareforrender
 ms.prod: windows-hardware
 ms.technology: windows-devices

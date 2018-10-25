@@ -4,10 +4,10 @@ title: InfiniteRect function
 author: windows-sdk-content
 description: Creates a rectangle that has its upper-left corner set to (negative infinity, negative infinity) and its lower-right corner set to (infinity, infinity).
 old-location: direct2d\infiniterect.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: c2f75645-3197-4afa-81ac-8a362ce99620
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: InfiniteRect, InfiniteRect function [Direct2D], d2d1helper/InfiniteRect, direct2d.infiniterect
 ms.prod: windows-hardware
 ms.technology: windows-devices

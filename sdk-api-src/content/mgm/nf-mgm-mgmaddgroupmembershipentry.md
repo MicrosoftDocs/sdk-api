@@ -7,7 +7,7 @@ old-location: rras\mgmaddgroupmembershipentry.htm
 tech.root: rras
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmAddGroupMembershipEntry, MgmAddGroupMembershipEntry function [RAS], _mpr_mgmaddgroupmembershipentry, mgm/MgmAddGroupMembershipEntry, rras.mgmaddgroupmembershipentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,12 +3,12 @@ UID: NE:indexsrv.tagWORDREP_BREAK_TYPE
 title: tagWORDREP_BREAK_TYPE
 author: windows-sdk-content
 description: Describes the type of break that separates the current word from the previous word.
-old-location: indexsrv\wordrep_break_type.htm
-tech.root: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_12at.htm
+old-location: search\wordrep_break_type.htm
+tech.root: search
+ms.assetid: 8E6F5DA6-F9A4-4B58-8236-F19E51AE3E8B
 ms.author: windowssdkdev
-ms.date: 10/02/2018
-ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BREAK_EOW, WORDREP_BREAK_TYPE, WORDREP_BREAK_TYPE enumeration [Indexing Service], _idxs_WORDREP_BREAK_TYPE, indexsrv.wordrep_break_type, indexsrv/WORDREP_BREAK_EOC, indexsrv/WORDREP_BREAK_EOP, indexsrv/WORDREP_BREAK_EOS, indexsrv/WORDREP_BREAK_EOW, indexsrv/WORDREP_BREAK_TYPE, tagWORDREP_BREAK_TYPE
+ms.date: 09/27/2018
+ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BREAK_EOW, WORDREP_BREAK_TYPE, indexsrv/WORDREP_BREAK_EOC, indexsrv/WORDREP_BREAK_EOP, indexsrv/WORDREP_BREAK_EOS, indexsrv/WORDREP_BREAK_EOW, indexsrv/tagWORDREP_BREAK_TYPE, search.wordrep_break_type, tagWORDREP_BREAK_TYPE, tagWORDREP_BREAK_TYPE enumeration [search]
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - Indexsrv.h
+ - indexsrv.h
 api_name:
  - WORDREP_BREAK_TYPE
 product: Windows
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
 Describes the type of break that separates the current word from the previous word.
 
 
@@ -62,7 +60,7 @@ Describes the type of break that separates the current word from the previous wo
 
 ### -field WORDREP_BREAK_EOW
 
-A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="https://msdn.microsoft.com/3de6e9a7-2213-4401-84a2-7fa73c9d5547">PutWord</a> method.
+A word break is placed between this word and the previous word that was placed in the WordSink. This break is the default used by the <a href="https://msdn.microsoft.com/3D645BF6-895E-46E2-92A3-3E301CD228D8">IWordSink::PutWord</a> method.
 
 
 ### -field WORDREP_BREAK_EOS
@@ -85,11 +83,11 @@ A chapter break is placed between this word and the previous word.
 
 
 
-<a href="https://msdn.microsoft.com/6e0d0ec1-1ab9-4cbf-bb28-e38aaa42f41e">IWordSink::PutAltWord</a>
+<a href="https://msdn.microsoft.com/5C8A9B30-F9B5-42E9-ADAC-A11230F0C2FA">IWordSink::PutAltWord</a>
 
 
 
-<a href="https://msdn.microsoft.com/3de6e9a7-2213-4401-84a2-7fa73c9d5547">IWordSink::PutWord</a>
+<a href="https://msdn.microsoft.com/C8622067-D8CE-4099-8B9F-941720F4706B">IWordSink::PutBreak</a>
  
 
  

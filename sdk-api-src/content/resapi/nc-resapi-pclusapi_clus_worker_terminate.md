@@ -7,7 +7,7 @@ old-location: mscs\clusworkerterminate.htm
 tech.root: mscs
 ms.assetid: d143a860-92fe-4fa9-b0d7-d591376a0209
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: PCLUSAPI_CLUS_WORKER_TERMINATE, PCLUSAPI_CLUS_WORKER_TERMINATE callback, PCLUSAPI_CLUS_WORKER_TERMINATE callback function [Failover Cluster], _wolf_clusworkerterminate, mscs.clusworkerterminate, resapi/PCLUSAPI_CLUS_WORKER_TERMINATE
 ms.prod: windows
 ms.technology: windows-sdk

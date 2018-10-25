@@ -4,10 +4,10 @@ title: "_TSSD_AddrV46Type"
 author: windows-sdk-content
 description: Indicates the IP address type.
 old-location: termserv\tssd_addrv46type.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3c79234e-3ded-4911-8a83-2e69d3a6294a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: TSSD_ADDR_IPv4, TSSD_ADDR_IPv6, TSSD_ADDR_UNDEFINED, TSSD_AddrV46Type, TSSD_AddrV46Type enumeration [Remote Desktop Services], _TSSD_AddrV46Type, sessdirpublictypes/TSSD_ADDR_IPv4, sessdirpublictypes/TSSD_ADDR_IPv6, sessdirpublictypes/TSSD_ADDR_UNDEFINED, sessdirpublictypes/TSSD_AddrV46Type, termserv.tssd_addrv46type
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\mpradmingeterrorstring.htm
 tech.root: rras
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

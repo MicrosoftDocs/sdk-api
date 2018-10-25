@@ -7,7 +7,7 @@ old-location: perf\pdhcomputecounterstatistics.htm
 tech.root: perfctrs
 ms.assetid: a986ae6c-88ee-4a03-9077-3d286157b9d1
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhComputeCounterStatistics, PdhComputeCounterStatistics function [Perf], _win32_pdhcomputecounterstatistics, base.pdhcomputecounterstatistics, pdh/PdhComputeCounterStatistics, perf.pdhcomputecounterstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

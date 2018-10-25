@@ -4,10 +4,10 @@ title: ID2D1Multithread::GetMultithreadProtected
 author: windows-sdk-content
 description: Returns whether the Direct2D factory was created with the D2D1_FACTORY_TYPE_MULTI_THREADED flag.
 old-location: direct2d\id2d1multithread_getmultithreadprotected.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: C805B8C1-942B-4E56-97F2-756B0DD800A2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct2D], GetMultithreadProtected method [Direct2D],ID2D1Multithread interface, ID2D1Multithread interface [Direct2D],GetMultithreadProtected method, ID2D1Multithread.GetMultithreadProtected, ID2D1Multithread::GetMultithreadProtected, d2d1_1/ID2D1Multithread::GetMultithreadProtected, direct2d.id2d1multithread_getmultithreadprotected
 ms.prod: windows-hardware
 ms.technology: windows-devices

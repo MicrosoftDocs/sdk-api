@@ -4,10 +4,10 @@ title: CertGetCRLFromStore function
 author: windows-sdk-content
 description: Gets the first or next certificate revocation list (CRL) context from the certificate store for the specified issuer.
 old-location: security\certgetcrlfromstore.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7bd21424-4f74-4bac-ab47-00d51ebdca1c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

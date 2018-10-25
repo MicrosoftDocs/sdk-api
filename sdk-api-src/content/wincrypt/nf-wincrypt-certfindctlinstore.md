@@ -4,10 +4,10 @@ title: CertFindCTLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate trust list (CTL) context that matches search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindctlinstore.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_USAGE_FLAG, CTL_FIND_SHA1_HASH, CTL_FIND_SUBJECT, CTL_FIND_USAGE, CertFindCTLInStore, CertFindCTLInStore function [Security], _crypto2_certfindctlinstore, security.certfindctlinstore, wincrypt/CertFindCTLInStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

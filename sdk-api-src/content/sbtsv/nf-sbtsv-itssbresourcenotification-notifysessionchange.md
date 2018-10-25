@@ -4,10 +4,10 @@ title: ITsSbResourceNotification::NotifySessionChange
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotification_notifysessionchange.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c1efe806-a448-42d7-8bcd-bd763c00c732
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifySessionChange method, ITsSbResourceNotification.NotifySessionChange, ITsSbResourceNotification::NotifySessionChange, NotifySessionChange, NotifySessionChange method [Remote Desktop Services], NotifySessionChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifySessionChange, termserv.itssbresourcenotification_notifysessionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

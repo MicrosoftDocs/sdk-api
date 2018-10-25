@@ -4,10 +4,10 @@ title: ID2D1DrawInfo::SetPixelShader
 author: windows-sdk-content
 description: Set the shader instructions for this transform.
 old-location: direct2d\id2d1drawinfo_setpixelshader.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9CB38592-6B49-48FE-AA3F-1FC402489454
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetPixelShader method, ID2D1DrawInfo.SetPixelShader, ID2D1DrawInfo::SetPixelShader, SetPixelShader, SetPixelShader method [Direct2D], SetPixelShader method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetPixelShader, direct2d.id2d1drawinfo_setpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

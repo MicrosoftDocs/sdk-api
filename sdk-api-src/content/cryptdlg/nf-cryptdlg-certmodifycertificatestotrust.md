@@ -4,10 +4,10 @@ title: CertModifyCertificatesToTrust function
 author: windows-sdk-content
 description: Modifies the set of certificates in a certificate trust list (CTL) for a given purpose.
 old-location: security\certmodifycertificatestotrust.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a23d968e-113f-470e-a629-18c22882c77f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
 ms.prod: windows-hardware
 ms.technology: windows-devices

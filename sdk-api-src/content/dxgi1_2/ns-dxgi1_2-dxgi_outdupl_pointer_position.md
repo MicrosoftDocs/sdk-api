@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_outdupl_pointer_position.htm
 tech.root: direct3ddxgi
 ms.assetid: CCD55021-8F67-463D-BA00-46D8B9D22B9A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: DXGI_OUTDUPL_POINTER_POSITION, DXGI_OUTDUPL_POINTER_POSITION structure [DXGI], direct3ddxgi.dxgi_outdupl_pointer_position, dxgi1_2/DXGI_OUTDUPL_POINTER_POSITION
 ms.prod: windows
 ms.technology: windows-sdk

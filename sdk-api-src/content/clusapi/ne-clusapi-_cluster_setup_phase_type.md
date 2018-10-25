@@ -7,7 +7,7 @@ old-location: mscs\cluster_setup_phase_type.htm
 tech.root: mscs
 ms.assetid: 515fe36d-84a0-41f1-80fa-a8c12718bdf5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster], ClusterSetupPhaseContinue, ClusterSetupPhaseEnd, ClusterSetupPhaseStart, _CLUSTER_SETUP_PHASE_TYPE, clusapi/CLUSTER_SETUP_PHASE_TYPE, clusapi/ClusterSetupPhaseContinue, clusapi/ClusterSetupPhaseEnd, clusapi/ClusterSetupPhaseStart, mscs.cluster_setup_phase_type
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::SendPolicyData
 author: windows-sdk-content
 description: IWTSProtocolConnection::SendPolicyData is no longer available. Instead, use IWRdsProtocolManager::NotifySettingsChange.
 old-location: termserv\iwtsprotocolconnection_sendpolicydata.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: b3fcc213-8257-433f-b304-ce19bc209591
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SendPolicyData method, IWTSProtocolConnection.SendPolicyData, IWTSProtocolConnection::SendPolicyData, SendPolicyData, SendPolicyData method [Remote Desktop Services], SendPolicyData method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_sendpolicydata, wtsprotocol/IWTSProtocolConnection::SendPolicyData
 ms.prod: windows-hardware
 ms.technology: windows-devices

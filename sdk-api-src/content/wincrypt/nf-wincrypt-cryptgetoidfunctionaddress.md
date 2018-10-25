@@ -4,10 +4,10 @@ title: CryptGetOIDFunctionAddress function
 author: windows-sdk-content
 description: Searches the list of registered and installed functions for an encoding type and object identifier (OID) match.
 old-location: security\cryptgetoidfunctionaddress.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2eef6109-a840-48c6-936c-ec0875039c39
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_GET_INSTALLED_OID_FUNC_FLAG, CryptGetOIDFunctionAddress, CryptGetOIDFunctionAddress function [Security], _crypto2_cryptgetoidfunctionaddress, security.cryptgetoidfunctionaddress, wincrypt/CryptGetOIDFunctionAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

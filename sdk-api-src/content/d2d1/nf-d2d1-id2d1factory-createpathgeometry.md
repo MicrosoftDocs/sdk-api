@@ -4,10 +4,10 @@ title: ID2D1Factory::CreatePathGeometry
 author: windows-sdk-content
 description: Creates an empty ID2D1PathGeometry.
 old-location: direct2d\ID2D1Factory_CreatePathGeometry.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 35c46055-3df2-44d5-b11d-520ab2fa4a0e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreatePathGeometry method, ID2D1Factory.CreatePathGeometry, ID2D1Factory::CreatePathGeometry, d2d1/ID2D1Factory::CreatePathGeometry, direct2d.ID2D1Factory_CreatePathGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

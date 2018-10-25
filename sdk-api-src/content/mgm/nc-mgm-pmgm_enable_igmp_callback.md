@@ -7,7 +7,7 @@ old-location: rras\pmgm_enable_igmp_callback.htm
 tech.root: rras
 ms.assetid: 6c23779b-d759-4443-a134-0ff27c48dc8e
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PMGM_ENABLE_IGMP_CALLBACK, PMGM_ENABLE_IGMP_CALLBACK callback, PMGM_ENABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_enable_igmp_callback, mgm/PMGM_ENABLE_IGMP_CALLBACK, rras.pmgm_enable_igmp_callback
 ms.prod: windows
 ms.technology: windows-sdk

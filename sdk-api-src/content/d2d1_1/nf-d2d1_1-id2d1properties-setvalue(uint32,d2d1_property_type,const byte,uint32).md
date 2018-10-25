@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32)
 title: ID2D1Properties::SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32)
 author: windows-sdk-content
-description: Sets the corresponding property by index.
-old-location: direct2d\id2d1properties_setvalue.htm
-tech.root: Direct2D
-ms.assetid: 7b21bcc0-b76e-4802-a8c4-ffba5ac8fa19
+description: Sets the given value by using the property index.
+old-location: direct2d\id2d1properties_setvalue4.htm
+tech.root: direct2d
+ms.assetid: 649C699D-FF10-424F-8669-4EF2055B89A3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValue, ID2D1Properties::SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValue(UINT32,const BYTE*,UINT32), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue
+ms.date: 10/24/2018
+ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValue, ID2D1Properties::SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE*,UINT32), ID2D1Properties::SetValue(UINT32,D2D1_PROPERTY_TYPE,const BYTE,UINT32), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the corresponding  property by index.
+Sets the given value by using the property index.
 
 
 ## -parameters
@@ -67,17 +67,19 @@ The index of the property to set.
 
 ### -param type
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a></b>
+
+A <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a>-typed value that specifies the type of property to set.
 
 
-#### - data [in]
+### -param data [in]
 
 Type: <b>const BYTE*</b>
 
 The data to set.
 
 
-#### - dataSize
+### -param dataSize
 
 Type: <b>UINT32</b>
 

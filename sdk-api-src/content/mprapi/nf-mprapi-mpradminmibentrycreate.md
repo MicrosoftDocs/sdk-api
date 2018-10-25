@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrycreate.htm
 tech.root: rras
 ms.assetid: b634ed78-ca01-4128-aeeb-fd8585e64f75
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminMIBEntryCreate, MprAdminMIBEntryCreate function [RAS], _mpr_mpradminmibentrycreate, mprapi/MprAdminMIBEntryCreate, rras.mpradminmibentrycreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

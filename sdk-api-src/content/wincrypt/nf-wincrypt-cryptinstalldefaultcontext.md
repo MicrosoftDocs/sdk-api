@@ -4,10 +4,10 @@ title: CryptInstallDefaultContext function
 author: windows-sdk-content
 description: Installs a specific provider to be the default context provider for the specified algorithm.
 old-location: security\cryptinstalldefaultcontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 79d121df-0699-424e-a8de-5fc2b396afc2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_DEFAULT_CONTEXT_AUTO_RELEASE_FLAG, CRYPT_DEFAULT_CONTEXT_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_MULTI_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_PROCESS_FLAG, CryptInstallDefaultContext, CryptInstallDefaultContext function [Security], _crypto2_cryptinstalldefaultcontext, security.cryptinstalldefaultcontext, wincrypt/CryptInstallDefaultContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\getclusterresourcekey.htm
 tech.root: mscs
 ms.assetid: 841f28a1-1415-41bb-b8ac-cf17c6d7c6f3
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: GetClusterResourceKey, GetClusterResourceKey function [Failover Cluster], _wolf_getclusterresourcekey, clusapi/GetClusterResourceKey, mscs.getclusterresourcekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

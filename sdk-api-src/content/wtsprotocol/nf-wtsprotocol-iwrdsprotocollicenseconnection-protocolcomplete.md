@@ -4,10 +4,10 @@ title: IWRdsProtocolLicenseConnection::ProtocolComplete
 author: windows-sdk-content
 description: Notifies the protocol whether the licensing process completed successfully.
 old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

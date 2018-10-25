@@ -2,7 +2,7 @@
 UID: NA:wia_xp
 ms.assetid: ef43ca4f-6fc3-3d64-a4bb-72f44caa18e5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

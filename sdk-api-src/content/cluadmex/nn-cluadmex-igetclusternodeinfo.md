@@ -7,7 +7,7 @@ old-location: mscs\igetclusternodeinfo.htm
 tech.root: mscs
 ms.assetid: 97c90830-1f6d-4f8f-ba0a-fee39aef5c1d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: IGetClusterNodeInfo, IGetClusterNodeInfo interface [Failover Cluster], IGetClusterNodeInfo interface [Failover Cluster],described, _wolf_igetclusternodeinfo, cluadmex/IGetClusterNodeInfo, mscs.igetclusternodeinfo
 ms.prod: windows
 ms.technology: windows-sdk

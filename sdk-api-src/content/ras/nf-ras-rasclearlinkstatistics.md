@@ -7,7 +7,7 @@ old-location: rras\rasclearlinkstatistics.htm
 tech.root: rras
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

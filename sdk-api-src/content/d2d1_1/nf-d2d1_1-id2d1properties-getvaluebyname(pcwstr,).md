@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR,)
 title: ID2D1Properties::GetValueByName(PCWSTR,)
 author: windows-sdk-content
-description: Gets the property value by name.
-old-location: direct2d\id2d1properties_getvaluebyname.htm
-tech.root: Direct2D
-ms.assetid: 2dc60fad-9ce2-4951-85ea-647a828420a1
+description: Gets the property value by name. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_getvaluebyname4.htm
+tech.root: direct2d
+ms.assetid: 9DBC3AB6-0C58-4CC4-8851-7AF36E7FA2A7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName(PCWSTR,BYTE*,UINT32), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname
+ms.date: 10/24/2018
+ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR), ID2D1Properties::GetValueByName(PCWSTR,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the property value by name.
+Gets the property value by name. This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Gets the property value by name.
 
 
 
-### -param propertyName
+### -param propertyName [in]
 
-TBD
+Type: <b>PCWSTR</b>
+
+The property name to get.
 
 
 ### -param arg1
@@ -70,66 +72,13 @@ TBD
 
 
 
-#### - data [out]
-
-Type: <b>BYTE*</b>
-
-When this method returns, contains the buffer with  the data value.
-
-
-#### - dataSize
-
-Type: <b>UINT32</b>
-
-The number of bytes in the data to be retrieved.
-
-
-#### - name [in]
-
-Type: <b>PCWSTR</b>
-
-The property name to get.
-
-
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b>T</b>
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
-
-<table>
-<tr>
-<th>HRESULT</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>S_OK</td>
-<td>No error occurred.</td>
-</tr>
-<tr>
-<td>D2DERR_INVALID_PROPERTY</td>
-<td>The specified property does not exist.</td>
-</tr>
-<tr>
-<td>E_OUTOFMEMORY</td>
-<td>Failed to allocate necessary memory.</td>
-</tr>
-<tr>
-<td>D3DERR_OUT_OF_VIDEO_MEMORY</td>
-<td>Failed to allocate required video memory.</td>
-</tr>
-<tr>
-<td>E_INVALIDARG</td>
-<td>One or more arguments are invalid.</td>
-</tr>
-<tr>
-<td>E_FAIL</td>
-<td>Unspecified failure.</td>
-</tr>
-</table>
- 
+Returns the value requested.
 
 
 
@@ -138,9 +87,17 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-If <i>name</i> does not exist, no information is retrieved.
+If <i>propertyName</i> does not exist, no information is retrieved.
 
 Any error not in the standard set returned by a property implementation will be mapped into the standard error range.
+
+
+<pre class="syntax">template&lt;typename T&gt;
+    T GetValueByName(
+        _In_ PCWSTR propertyName
+        ) const;
+</pre>
+
 
 
 

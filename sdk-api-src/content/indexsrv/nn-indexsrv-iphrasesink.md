@@ -3,12 +3,12 @@ UID: NN:indexsrv.IPhraseSink
 title: IPhraseSink
 author: windows-sdk-content
 description: Handles phrases that word breakers parse from query text during query time.
-old-location: indexsrv\iphrasesink.htm
-tech.root: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm
+old-location: search\iphrasesink.htm
+tech.root: search
+ms.assetid: 9485202D-94D6-4E9E-9C42-502033E85670
 ms.author: windowssdkdev
-ms.date: 10/02/2018
-ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink interface [Indexing Service],described, _idxs_PhraseSink, indexsrv.iphrasesink, indexsrv/IPhraseSink
+ms.date: 09/27/2018
+ms.keywords: IPhraseSink, IPhraseSink interface [search], IPhraseSink interface [search],described, indexsrv/IPhraseSink, search.iphrasesink
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
@@ -51,8 +51,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
 Handles phrases that word breakers parse from query text during query time.
 
 
@@ -73,15 +71,15 @@ The <b>IPhraseSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86bff25f-190c-48f9-abd8-29dceb3e9912">PutPhrase</a>
+<a href="https://msdn.microsoft.com/5E1762A8-8CC9-4EAE-BC79-91672994C1E3">PutPhrase</a>
 </td>
 <td align="left" width="63%">
-Puts a query-time phrase in the PhraseSink object.
+Puts a query-time phrase in the <b>IPhraseSink</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
-<td align="left" width="37%"><b>PutSmallPhrase</b></td>
+<td align="left" width="37%">PutSmallPhrase</td>
 <td align="left" width="63%">
 Not supported.
 
@@ -94,23 +92,12 @@ Not supported.
 
 
 
-Indexing Service creates and initializes instances of the PhraseSink object. The PhraseSink receives the <i>fQuery</i> parameter during initialization and uses this parameter to determine the word-breaking context in which the object is being used.
+Windows Search creates and initializes instances of the <b>IPhraseSink</b> object. The <b>IPhraseSink</b> object receives the <i>fQuery</i> parameter during initialization and uses this parameter to determine the word-breaking context in which the object is being used.
 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementations receive a pointer to the PhraseSink object in the <a href="https://msdn.microsoft.com/en-us/library/Bb266429(v=VS.85).aspx">BreakText</a> method.
+<a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementations receive a pointer to the <b>IPhraseSink</b> object in the <a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">IWordBreaker::BreakText</a> method.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
- 
-
- 
 

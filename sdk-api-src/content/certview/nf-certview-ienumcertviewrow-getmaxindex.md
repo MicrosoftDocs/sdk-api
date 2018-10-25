@@ -4,10 +4,10 @@ title: IEnumCERTVIEWROW::GetMaxIndex
 author: windows-sdk-content
 description: Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.
 old-location: security\ienumcertviewrow_getmaxindex.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],GetMaxIndex method, IEnumCERTVIEWROW.GetMaxIndex, IEnumCERTVIEWROW::GetMaxIndex, certview/IEnumCERTVIEWROW::GetMaxIndex, security.ienumcertviewrow_getmaxindex, security.ienumcertviewrow_getmaxtindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

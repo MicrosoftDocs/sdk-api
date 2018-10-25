@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectionenumex.htm
 tech.root: rras
 ms.assetid: 12507432-bf18-444d-9bcc-4ebc1418c083
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminConnectionEnumEx, MprAdminConnectionEnumEx function [RAS], mprapi/MprAdminConnectionEnumEx, rras.mpradminconnectionenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

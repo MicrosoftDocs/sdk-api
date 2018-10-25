@@ -7,7 +7,7 @@ old-location: rras\mgmdeletegroupmembershipentry.htm
 tech.root: rras
 ms.assetid: fe39d824-3154-4479-bd70-09b2b6593885
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmDeleteGroupMembershipEntry, MgmDeleteGroupMembershipEntry function [RAS], _mpr_mgmdeletegroupmembershipentry, mgm/MgmDeleteGroupMembershipEntry, rras.mgmdeletegroupmembershipentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

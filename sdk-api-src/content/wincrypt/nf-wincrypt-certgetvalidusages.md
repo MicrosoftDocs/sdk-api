@@ -4,10 +4,10 @@ title: CertGetValidUsages function
 author: windows-sdk-content
 description: Returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 old-location: security\certgetvalidusages.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
 ms.prod: windows-hardware
 ms.technology: windows-devices

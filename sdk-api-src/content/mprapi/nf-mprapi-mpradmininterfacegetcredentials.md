@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacegetcredentials.htm
 tech.root: rras
 ms.assetid: 0ec18926-1ee9-4e28-9284-9d95d06be2e4
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: MprAdminInterfaceGetCredentials, MprAdminInterfaceGetCredentials function [RAS], _mpr_mpradmininterfacegetcredentials, mprapi/MprAdminInterfaceGetCredentials, rras.mpradmininterfacegetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

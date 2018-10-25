@@ -4,10 +4,10 @@ title: IEnumCERTVIEWCOLUMN::GetName
 author: windows-sdk-content
 description: Retrieves the nonlocalized name of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getname.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: be76cec1-9ac0-4cc0-bddb-992b2d3590d7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetName method, IEnumCERTVIEWCOLUMN.GetName, IEnumCERTVIEWCOLUMN::GetName, _certsrv_ienumcertviewcolumn_getname, certview/IEnumCERTVIEWCOLUMN::GetName, security.ienumcertviewcolumn_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

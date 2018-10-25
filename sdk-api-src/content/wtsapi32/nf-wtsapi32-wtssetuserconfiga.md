@@ -4,10 +4,10 @@ title: WTSSetUserConfigA function
 author: windows-sdk-content
 description: Modifies configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssetuserconfig.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 44d027c6-6ebb-4750-a0fa-17fdf31e45cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: WTSSetUserConfig, WTSSetUserConfig function [Remote Desktop Services], WTSSetUserConfigA, WTSSetUserConfigW, _win32_wtssetuserconfig, termserv.wtssetuserconfig, wtsapi32/WTSSetUserConfig, wtsapi32/WTSSetUserConfigA, wtsapi32/WTSSetUserConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

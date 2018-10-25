@@ -4,10 +4,10 @@ title: ITsSbSession::get_InitialProgram
 author: windows-sdk-content
 description: Retrieves or specifies the initial program for this session.
 old-location: termserv\itssbsession_initialprogram.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c299c4f7-3c5f-468f-9fc7-81eac322dfa2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],InitialProgram property, ITsSbSession.InitialProgram, ITsSbSession.get_InitialProgram, ITsSbSession::InitialProgram, ITsSbSession::get_InitialProgram, ITsSbSession::put_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbSession interface, get_InitialProgram, sbtsv/ITsSbSession::InitialProgram, sbtsv/ITsSbSession::get_InitialProgram, sbtsv/ITsSbSession::put_InitialProgram, termserv.itssbsession_initialprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices

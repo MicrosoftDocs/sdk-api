@@ -145,11 +145,11 @@ For a full listing of the information returned by
 
 
 
-<a href="https://msdn.microsoft.com/a2407aa3-574d-4690-8cdf-cb1c01ca8c49">user_marshal</a>
+<a href="https://msdn.microsoft.com/">user_marshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>
+<a href="https://msdn.microsoft.com/">wire_marshal</a>
  
 
  

@@ -7,8 +7,8 @@ old-location: mscs\resutilgetresourcedependencybyclassex.htm
 tech.root: mscs
 ms.assetid: D35816C8-A449-41FF-9398-A6A4E19C29FB
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX function [Failover Cluster], ResUtilGetResourceDependencyByClass, ResUtilGetResourceDependencyByClass function [Failover Cluster], ResUtilGetResourceDependencyByClassEx, mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, resapi/ResUtilGetResourceDependencyByClass
+ms.date: 10/24/2018
+ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX function [Failover Cluster], ResUtilGetResourceDependencyByClassEx, ResUtilGetResourceDependencyByClassEx function [Failover Cluster], mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, resapi/ResUtilGetResourceDependencyByClassEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ResUtils.dll
 api_name:
- - ResUtilGetResourceDependencyByClass
+ - ResUtilGetResourceDependencyByClassEx
 product: Windows
 targetos: Windows
 req.typenames: 

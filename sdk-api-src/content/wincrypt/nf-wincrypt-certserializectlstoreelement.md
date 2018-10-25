@@ -4,10 +4,10 @@ title: CertSerializeCTLStoreElement function
 author: windows-sdk-content
 description: The CertSerializeCTLStoreElement function serializes an encoded certificate trust list (CTL) context and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
 old-location: security\certserializectlstoreelement.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 63d343c1-fa65-4cd1-a210-3805c7d92208
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertSerializeCTLStoreElement, CertSerializeCTLStoreElement function [Security], _crypto2_certserializectlstoreelement, security.certserializectlstoreelement, wincrypt/CertSerializeCTLStoreElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

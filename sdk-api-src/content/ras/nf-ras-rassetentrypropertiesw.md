@@ -7,7 +7,7 @@ old-location: rras\rassetentryproperties.htm
 tech.root: rras
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

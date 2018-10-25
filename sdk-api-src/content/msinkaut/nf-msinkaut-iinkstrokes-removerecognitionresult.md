@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_removerecognitionresult.htm
 tech.root: tablet
 ms.assetid: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b, IInkStrokes interface [Tablet PC],RemoveRecognitionResult method, IInkStrokes.RemoveRecognitionResult, IInkStrokes::RemoveRecognitionResult, RemoveRecognitionResult, RemoveRecognitionResult method [Tablet PC], RemoveRecognitionResult method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::RemoveRecognitionResult, tablet.inkstrokes_removerecognitionresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

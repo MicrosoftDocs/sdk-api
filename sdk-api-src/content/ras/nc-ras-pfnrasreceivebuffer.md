@@ -7,7 +7,7 @@ old-location: rras\rasreceivebuffer.htm
 tech.root: rras
 ms.assetid: cc5523df-748d-4f96-8d54-bf0a2f9ecde4
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PFNRASRECEIVEBUFFER, PFNRASRECEIVEBUFFER callback, RasReceiveBuffer, RasReceiveBuffer callback function [RAS], _ras_rasreceivebuffer, ras/RasReceiveBuffer, rras.rasreceivebuffer
 ms.prod: windows
 ms.technology: windows-sdk

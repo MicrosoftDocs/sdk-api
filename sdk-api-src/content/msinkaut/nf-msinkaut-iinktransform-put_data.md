@@ -7,7 +7,7 @@ old-location: tablet\inktransform_data.htm
 tech.root: tablet
 ms.assetid: f22c0ef8-8604-4719-bc93-a265a19defd0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkTransform interface, IInkTransform interface [Tablet PC],Data property, IInkTransform.Data, IInkTransform.put_Data, IInkTransform::Data, IInkTransform::get_Data, IInkTransform::put_Data, InkTransform.get_Data, InkTransform.put_Data, f22c0ef8-8604-4719-bc93-a265a19defd0, get_Data, msinkaut/IInkTransform::Data, msinkaut/IInkTransform::get_Data, msinkaut/IInkTransform::put_Data, put_Data, tablet.inktransform_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

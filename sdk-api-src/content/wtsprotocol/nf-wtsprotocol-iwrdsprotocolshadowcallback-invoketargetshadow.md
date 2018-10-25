@@ -4,10 +4,10 @@ title: IWRdsProtocolShadowCallback::InvokeTargetShadow
 author: windows-sdk-content
 description: Instructs the Remote Desktop Services service to begin the target side of the shadow and passes any information that must be exchanged between the client and the target.
 old-location: termserv\iwrdsprotocolshadowcallback_invoketargetshadow.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 76682f4c-2651-4f5d-b96d-4d84bae7933c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWRdsProtocolShadowCallback.InvokeTargetShadow, IWRdsProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWRdsProtocolShadowCallback::InvokeTargetShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices

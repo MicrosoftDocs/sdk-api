@@ -4,10 +4,10 @@ title: ICertRequest2::GetCAPropertyDisplayName
 author: windows-sdk-content
 description: Retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertydisplayname.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5c294758-b2aa-497b-8377-6c5987576f82
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CCertRequest object [Security],GetCAPropertyDisplayName method, GetCAPropertyDisplayName, GetCAPropertyDisplayName method [Security], GetCAPropertyDisplayName method [Security],CCertRequest object, GetCAPropertyDisplayName method [Security],ICertRequest interface, GetCAPropertyDisplayName method [Security],ICertRequest2 interface, GetCAPropertyDisplayName method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCAPropertyDisplayName method, ICertRequest2 interface [Security],GetCAPropertyDisplayName method, ICertRequest2.GetCAPropertyDisplayName, ICertRequest2::GetCAPropertyDisplayName, ICertRequest3 interface [Security],GetCAPropertyDisplayName method, ICertRequest3::GetCAPropertyDisplayName, ICertRequest::GetCAPropertyDisplayName, _certsrv_icertrequest2_getcapropertydisplayname, certcli/ICertRequest2::GetCAPropertyDisplayName, certcli/ICertRequest3::GetCAPropertyDisplayName, certcli/ICertRequest::GetCAPropertyDisplayName, security.icertrequest2_getcapropertydisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices

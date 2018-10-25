@@ -4,10 +4,10 @@ title: WTSVirtualChannelPurgeOutput function
 author: windows-sdk-content
 description: Deletes all queued output data sent from the server to the client on a specified virtual channel.
 old-location: termserv\wtsvirtualchannelpurgeoutput.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9edd06d1-3f5a-4d83-8c3c-16b761ce4c60
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: WTSVirtualChannelPurgeOutput, WTSVirtualChannelPurgeOutput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeoutput, termserv.wtsvirtualchannelpurgeoutput, wtsapi32/WTSVirtualChannelPurgeOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

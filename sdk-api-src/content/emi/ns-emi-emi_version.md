@@ -7,7 +7,7 @@ old-location: powermeter\emi_version.htm
 tech.root: powermeter
 ms.assetid: 00CDB74C-B0DB-426E-9D94-7DBCFF15793F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: EMI_VERSION, EMI_VERSION structure [Power Metering and Budgeting Devices], PEMI_VERSION, PEMI_VERSION structure pointer [Power Metering and Budgeting Devices], emi/EMI_VERSION, emi/PEMI_VERSION, powermeter.emi_version
 ms.prod: windows
 ms.technology: windows-sdk

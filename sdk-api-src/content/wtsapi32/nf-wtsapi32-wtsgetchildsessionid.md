@@ -4,10 +4,10 @@ title: WTSGetChildSessionId function
 author: windows-sdk-content
 description: Retrieves the child session identifier, if present.
 old-location: termserv\wtsgetchildsessionid.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: EA78660C-438D-458C-B723-ED1C8AA60FA5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: WTSGetChildSessionId, WTSGetChildSessionId function [Remote Desktop Services], termserv.wtsgetchildsessionid, wtsapi32/WTSGetChildSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

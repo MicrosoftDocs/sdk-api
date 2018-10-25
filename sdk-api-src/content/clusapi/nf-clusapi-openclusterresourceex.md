@@ -7,7 +7,7 @@ old-location: mscs\openclusterresourceex.htm
 tech.root: mscs
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster], clusapi/OpenClusterResourceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices

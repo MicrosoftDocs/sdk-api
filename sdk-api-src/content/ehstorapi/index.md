@@ -2,7 +2,7 @@
 UID: NA:ehstorapi
 ms.assetid: 8e2a3a3d-4b8c-3f8e-a691-470fd2586eff
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

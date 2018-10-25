@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_rational.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_rational.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: 5deaf109-e4cc-0f12-82f4-0d4d0b2e387a, DXGI_RATIONAL, DXGI_RATIONAL structure [DXGI], direct3ddxgi.dxgi_rational, dxgicommon/DXGI_RATIONAL
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptDuplicateKey function
 author: windows-sdk-content
 description: Makes an exact copy of a key and the state of the key.
 old-location: security\cryptduplicatekey.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

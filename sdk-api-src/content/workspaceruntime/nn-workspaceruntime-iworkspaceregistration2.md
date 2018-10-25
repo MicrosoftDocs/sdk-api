@@ -4,10 +4,10 @@ title: IWorkspaceRegistration2
 author: windows-sdk-content
 description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration2.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: b677863a-c8cc-4ed8-aea4-16de1cba21c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWorkspaceRegistration2, IWorkspaceRegistration2 interface [Remote Desktop Services], IWorkspaceRegistration2 interface [Remote Desktop Services],described, termserv.iworkspaceregistration2, workspaceruntime/IWorkspaceRegistration2
 ms.prod: windows
 ms.technology: windows-sdk

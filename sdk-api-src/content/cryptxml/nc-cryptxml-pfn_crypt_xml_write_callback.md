@@ -4,10 +4,10 @@ title: PFN_CRYPT_XML_WRITE_CALLBACK
 author: windows-sdk-content
 description: Writes XML data.
 old-location: security\pfn_crypt_xml_write_callback.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 722f6ab4-ca6f-460d-9282-e4b7ca484077
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: PFN_CRYPT_XML_WRITE_CALLBACK, PFN_CRYPT_XML_WRITE_CALLBACK callback, PFN_CRYPT_XML_WRITE_CALLBACK callback function [Security], cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK, security.pfn_crypt_xml_write_callback
 ms.prod: windows
 ms.technology: windows-sdk

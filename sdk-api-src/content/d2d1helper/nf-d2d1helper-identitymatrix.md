@@ -4,10 +4,10 @@ title: IdentityMatrix function
 author: windows-sdk-content
 description: Creates an identity matrix.
 old-location: direct2d\identitymatrix.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 09c2ed59-db4a-4753-a98a-bef7748d3803
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IdentityMatrix, IdentityMatrix function [Direct2D], d2d1helper/IdentityMatrix, direct2d.identitymatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

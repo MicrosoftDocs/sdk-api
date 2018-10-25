@@ -4,10 +4,10 @@ title: "_CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO"
 author: windows-sdk-content
 description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain extended information about a signature.
 old-location: security\cryptui_wiz_digital_sign_extended_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e061aac4-8c9f-4282-a8f8-bc0c5a10e566
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_COMMERCIAL, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_INDIVIDUAL, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, security.cryptui_wiz_digital_sign_extended_info"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptCATCatalogInfoFromContext function
 author: windows-sdk-content
 description: Retrieves catalog information from a specified catalog context.
 old-location: security\cryptcatcataloginfofromcontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptCATCatalogInfoFromContext, CryptCATCatalogInfoFromContext function [Security], mscat/CryptCATCatalogInfoFromContext, security.cryptcatcataloginfofromcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

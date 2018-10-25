@@ -7,7 +7,7 @@ old-location: perf\pdhcollectquerydata.htm
 tech.root: perfctrs
 ms.assetid: 1d83325b-8deb-4731-9df4-6201da292cdc
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PdhCollectQueryData, PdhCollectQueryData function [Perf], _win32_pdhcollectquerydata, base.pdhcollectquerydata, pdh/PdhCollectQueryData, perf.pdhcollectquerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices

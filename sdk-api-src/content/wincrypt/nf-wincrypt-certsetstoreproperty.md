@@ -4,10 +4,10 @@ title: CertSetStoreProperty function
 author: windows-sdk-content
 description: The CertSetStoreProperty function sets a store property.
 old-location: security\certsetstoreproperty.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

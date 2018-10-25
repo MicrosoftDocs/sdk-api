@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitma
 author: windows-sdk-content
 description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
 old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap_3.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 6E8CAD85-DADD-4EF1-BD22-6437DEC3BD23
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap interface [Direct2D],CreateBitmapFromWicBitmap method, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],CreateBitmapFromWicBitmap interface, CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromWicBitmap, ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1), d2d1_3/CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap, direct2d.id2d1devicecontext_createbitmapfromwicbitmap_3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\getclusternetworkstate.htm
 tech.root: mscs
 ms.assetid: 7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: GetClusterNetworkState, GetClusterNetworkState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NETWORK_STATE, PCLUSAPI_GET_CLUSTER_NETWORK_STATE function [Failover Cluster], _wolf_getclusternetworkstate, clusapi/GetClusterNetworkState, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_STATE, mscs.getclusternetworkstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

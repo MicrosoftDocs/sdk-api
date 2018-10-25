@@ -7,7 +7,7 @@ old-location: mscs\create_cluster_name_account.htm
 tech.root: mscs
 ms.assetid: 21D43B28-0B14-4A00-BDEE-B2B769BF9777
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: "*PCREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster], PCREATE_CLUSTER_NAME_ACCOUNT, PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster], _CREATE_CLUSTER_NAME_ACCOUNT, clusapi/CREATE_CLUSTER_NAME_ACCOUNT, clusapi/PCREATE_CLUSTER_NAME_ACCOUNT, mscs.create_cluster_name_account"
 ms.prod: windows
 ms.technology: windows-sdk

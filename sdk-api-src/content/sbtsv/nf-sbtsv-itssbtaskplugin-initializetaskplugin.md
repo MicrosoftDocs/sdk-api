@@ -4,10 +4,10 @@ title: ITsSbTaskPlugin::InitializeTaskPlugin
 author: windows-sdk-content
 description: Initializes a task that is in the queue of a Remote Desktop Connection Broker plugin.
 old-location: termserv\itssbtaskplugin_initializetaskplugin.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9e8722c4-0070-448a-a97c-aeb1db59ac7b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],InitializeTaskPlugin method, ITsSbTaskPlugin.InitializeTaskPlugin, ITsSbTaskPlugin::InitializeTaskPlugin, InitializeTaskPlugin, InitializeTaskPlugin method [Remote Desktop Services], InitializeTaskPlugin method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::InitializeTaskPlugin, termserv.itssbtaskplugin_initializetaskplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

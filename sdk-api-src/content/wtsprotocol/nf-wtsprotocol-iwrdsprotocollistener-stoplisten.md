@@ -4,10 +4,10 @@ title: IWRdsProtocolListener::StopListen
 author: windows-sdk-content
 description: Notifies the protocol to stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_stoplisten.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: bfb758e8-3d71-47b9-bf7d-075c0c401177
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StopListen method, IWRdsProtocolListener.StopListen, IWRdsProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_stoplisten, wtsprotocol/IWRdsProtocolListener::StopListen
 ms.prod: windows-hardware
 ms.technology: windows-devices

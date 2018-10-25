@@ -4,11 +4,11 @@ title: PFN_CERT_STORE_PROV_WRITE_CTL
 author: windows-sdk-content
 description: The CertStoreProvWriteCTL callback function can be called by CertAddEncodedCTLToStore, CertAddCTLContextToStore or CertAddSerializedElementToStore before a CTL is added to the store.
 old-location: security\certstoreprovwritectl.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 91344133-0785-4c4f-8df3-83301cf85e70
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: CertStoreProvWriteCTL, PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], PFN_CERT_STORE_PROV_WRITE_CTL, PFN_CERT_STORE_PROV_WRITE_CTL callback function [Security], _crypto2_certstoreprovwritectl, security.certstoreprovwritectl, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT, wincrypt/PFN_CERT_STORE_PROV_WRITE_CTL
+ms.date: 10/24/2018
+ms.keywords: CertStoreProvWriteCTL, PFN_CERT_STORE_PROV_WRITE_CTL, PFN_CERT_STORE_PROV_WRITE_CTL callback, PFN_CERT_STORE_PROV_WRITE_CTL callback function [Security], _crypto2_certstoreprovwritectl, security.certstoreprovwritectl, wincrypt/PFN_CERT_STORE_PROV_WRITE_CTL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - PFN_CERT_STORE_PROV_WRITE_CERT
+ - PFN_CERT_STORE_PROV_WRITE_CTL
 product: Windows
 targetos: Windows
 req.typenames: 

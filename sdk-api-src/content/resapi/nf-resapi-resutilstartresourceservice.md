@@ -7,7 +7,7 @@ old-location: mscs\resutilstartresourceservice.htm
 tech.root: mscs
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE function [Failover Cluster], ResUtilStartResourceService, ResUtilStartResourceService function [Failover Cluster], _wolf_resutilstartresourceservice, mscs.resutilstartresourceservice, resapi/PRESUTIL_START_RESOURCE_SERVICE, resapi/ResUtilStartResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices

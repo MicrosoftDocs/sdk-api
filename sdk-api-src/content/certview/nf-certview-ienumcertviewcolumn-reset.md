@@ -4,10 +4,10 @@ title: IEnumCERTVIEWCOLUMN::Reset
 author: windows-sdk-content
 description: Moves to the beginning of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_reset.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0be00eb0-1a22-4849-95ca-276099bbfa74
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Reset method, IEnumCERTVIEWCOLUMN object [Security],Reset method, IEnumCERTVIEWCOLUMN.Reset, IEnumCERTVIEWCOLUMN::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWCOLUMN interface, Reset method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_reset, certview/IEnumCERTVIEWCOLUMN::Reset, security.ienumcertviewcolumn_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

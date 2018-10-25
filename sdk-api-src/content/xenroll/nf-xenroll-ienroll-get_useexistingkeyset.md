@@ -4,10 +4,10 @@ title: IEnroll::get_UseExistingKeySet
 author: windows-sdk-content
 description: The UseExistingKeySet property of IEnroll4 sets or retrieves a Boolean value that determines whether the existing keys should be used.
 old-location: security\ienroll4_useexistingkeyset.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1534ec57-71d3-4189-a94e-7bcb3c0670e1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: IEnroll interface [Security],UseExistingKeySet property, IEnroll.UseExistingKeySet, IEnroll.get_UseExistingKeySet, IEnroll::UseExistingKeySet, IEnroll::get_UseExistingKeySet, IEnroll::put_UseExistingKeySet, UseExistingKeySet property [Security], UseExistingKeySet property [Security],IEnroll interface, get_UseExistingKeySet, security.ienroll4_useexistingkeyset, xenroll/IEnroll::UseExistingKeySet, xenroll/IEnroll::get_UseExistingKeySet, xenroll/IEnroll::put_UseExistingKeySet
 ms.prod: windows-hardware
 ms.technology: windows-devices

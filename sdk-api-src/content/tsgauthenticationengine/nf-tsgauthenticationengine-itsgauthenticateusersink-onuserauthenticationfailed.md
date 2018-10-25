@@ -4,10 +4,10 @@ title: ITSGAuthenticateUserSink::OnUserAuthenticationFailed
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in failed to authenticate the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticationfailed.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d3d1e582-db1d-413d-8ec8-7fdb7c6e3609
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticationFailed method, ITSGAuthenticateUserSink.OnUserAuthenticationFailed, ITSGAuthenticateUserSink::OnUserAuthenticationFailed, OnUserAuthenticationFailed, OnUserAuthenticationFailed method [Remote Desktop Services], OnUserAuthenticationFailed method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticationfailed, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticationFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices

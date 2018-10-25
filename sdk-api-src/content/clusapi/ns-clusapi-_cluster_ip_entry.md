@@ -7,7 +7,7 @@ old-location: mscs\cluster_ip_entry.htm
 tech.root: mscs
 ms.assetid: 9c2bc2ca-41e5-4e07-a3a2-d762ea5565e1
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: "*PCLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY structure [Failover Cluster], PCLUSTER_IP_ENTRY, PCLUSTER_IP_ENTRY structure pointer [Failover Cluster], _CLUSTER_IP_ENTRY, clusapi/CLUSTER_IP_ENTRY, clusapi/PCLUSTER_IP_ENTRY, mscs.cluster_ip_entry"
 ms.prod: windows
 ms.technology: windows-sdk

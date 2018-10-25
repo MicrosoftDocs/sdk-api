@@ -7,7 +7,7 @@ old-location: mscs\igetclusterobjectinfo_getobjecttype.htm
 tech.root: mscs
 ms.assetid: f01a1ada-bb4d-4042-ac56-3658262d1110
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: GetObjectType, GetObjectType method [Failover Cluster], GetObjectType method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectType method, IGetClusterObjectInfo.GetObjectType, IGetClusterObjectInfo::GetObjectType, _wolf_igetclusterobjectinfo_getobjecttype, cluadmex/IGetClusterObjectInfo::GetObjectType, mscs.igetclusterobjectinfo_getobjecttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

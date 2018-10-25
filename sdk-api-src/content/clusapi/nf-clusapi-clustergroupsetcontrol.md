@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectioncontrol.htm
 tech.root: mscs
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: ClusterGroupSetControl, ClusterGroupSetControl function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL function [Failover Cluster], clusapi/ClusterGroupSetControl, clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, mscs.clustergroupcollectioncontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

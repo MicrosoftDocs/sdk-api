@@ -4,10 +4,10 @@ title: IWRdsGraphicsChannel::Write
 author: windows-sdk-content
 description: Called to send data to the virtual channel.
 old-location: termserv\iwrdsgraphicschannel_write.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6ce627d8-078d-427a-b732-473d4f44f719
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Write method, IWRdsGraphicsChannel.Write, IWRdsGraphicsChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_write, wrdsgraphicschannels/IWRdsGraphicsChannel::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

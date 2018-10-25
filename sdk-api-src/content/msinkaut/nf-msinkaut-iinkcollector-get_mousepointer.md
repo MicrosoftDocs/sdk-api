@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_mousepointer.htm
 tech.root: tablet
 ms.assetid: 8876b0ef-1a61-481b-ac37-9e4d637f8097
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/24/2018
 ms.keywords: 8876b0ef-1a61-481b-ac37-9e4d637f8097, IInkCollector interface [Tablet PC],MousePointer property, IInkCollector.MousePointer, IInkCollector.get_MousePointer, IInkCollector.put_MousePointer, IInkCollector::MousePointer, IInkCollector::get_MousePointer, IInkCollector::put_MousePointer, InkCollector.get_MousePointer, InkCollector.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkCollector interface, get_MousePointer, msinkaut/IInkCollector::MousePointer, msinkaut/IInkCollector::get_MousePointer, msinkaut/IInkCollector::put_MousePointer, put_MousePointer, tablet.inkcollector_mousepointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

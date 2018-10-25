@@ -4,10 +4,10 @@ title: IWTSListenerCallback::OnNewChannelConnection
 author: windows-sdk-content
 description: Allows the Remote Desktop Connection (RDC) client plug-in to accept or deny a connection request for an incoming connection.
 old-location: termserv\iwtslistenercallback_onnewchannelconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1fa2b063-3a41-4f56-8cc1-8a829e530fb2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWTSListenerCallback interface [Remote Desktop Services],OnNewChannelConnection method, IWTSListenerCallback.OnNewChannelConnection, IWTSListenerCallback::OnNewChannelConnection, OnNewChannelConnection, OnNewChannelConnection method [Remote Desktop Services], OnNewChannelConnection method [Remote Desktop Services],IWTSListenerCallback interface, termserv.iwtslistenercallback_onnewchannelconnection, tsvirtualchannels/IWTSListenerCallback::OnNewChannelConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_matrix_3x2_f.htm
 tech.root: direct3ddxgi
 ms.assetid: 5EA0FAD4-5F19-4E5A-97D4-11AE750E8560
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: DXGI_MATRIX_3X2_F, DXGI_MATRIX_3X2_F structure [DXGI], direct3ddxgi.dxgi_matrix_3x2_f, dxgi1_3/DXGI_MATRIX_3X2_F
 ms.prod: windows
 ms.technology: windows-sdk

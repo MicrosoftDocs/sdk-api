@@ -7,7 +7,7 @@ old-location: rras\mpr_interface_0.htm
 tech.root: rras
 ms.assetid: b204c10e-ccce-4d62-a7a9-75cf4fe1d9ba
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: "*PMPR_INTERFACE_0, MPR_INTERFACE_0, MPR_INTERFACE_0 structure [RAS], PMPR_INTERFACE_0, PMPR_INTERFACE_0 structure pointer [RAS], _MPR_INTERFACE_0, _mpr_mpr_interface_0, mprapi/MPR_INTERFACE_0, mprapi/PMPR_INTERFACE_0, rras.mpr_interface_0"
 ms.prod: windows
 ms.technology: windows-sdk

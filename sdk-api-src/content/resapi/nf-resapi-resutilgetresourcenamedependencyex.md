@@ -7,8 +7,8 @@ old-location: mscs\resutilgetresourcenamedependencyex.htm
 tech.root: mscs
 ms.assetid: 3A57C19C-F0A2-4183-ACA6-0CEF2F2FF23E
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceNameDependency, ResUtilGetResourceNameDependency function [Failover Cluster], ResUtilGetResourceNameDependencyEx, mscs.resutilgetresourcenamedependencyex, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, resapi/ResUtilGetResourceNameDependency
+ms.date: 10/24/2018
+ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceNameDependencyEx, ResUtilGetResourceNameDependencyEx function [Failover Cluster], mscs.resutilgetresourcenamedependencyex, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, resapi/ResUtilGetResourceNameDependencyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ResUtils.dll
 api_name:
- - ResUtilGetResourceNameDependency
+ - ResUtilGetResourceNameDependencyEx
 product: Windows
 targetos: Windows
 req.typenames: 

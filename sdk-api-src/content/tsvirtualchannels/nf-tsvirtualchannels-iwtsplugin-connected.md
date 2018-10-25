@@ -4,10 +4,10 @@ title: IWTSPlugin::Connected
 author: windows-sdk-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has successfully connected to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iwtsplugin_connected.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 089db67e-6c3d-4950-a1dd-de0a3bbe8d5c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: Connected, Connected method [Remote Desktop Services], Connected method [Remote Desktop Services],IWTSPlugin interface, IWTSPlugin interface [Remote Desktop Services],Connected method, IWTSPlugin.Connected, IWTSPlugin::Connected, termserv.iwtsplugin_connected, tsvirtualchannels/IWTSPlugin::Connected
 ms.prod: windows-hardware
 ms.technology: windows-devices

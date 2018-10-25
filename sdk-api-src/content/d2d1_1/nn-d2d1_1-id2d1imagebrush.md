@@ -4,10 +4,10 @@ title: ID2D1ImageBrush
 author: windows-sdk-content
 description: Represents a brush based on an ID2D1Image.
 old-location: direct2d\id2d1imagebrush.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: c5088ce2-5744-4061-957b-25831478a714
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: ID2D1ImageBrush, ID2D1ImageBrush interface [Direct2D], ID2D1ImageBrush interface [Direct2D],described, d2d1_1/ID2D1ImageBrush, direct2d.id2d1imagebrush
 ms.prod: windows
 ms.technology: windows-sdk

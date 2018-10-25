@@ -4,10 +4,10 @@ title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 author: windows-sdk-content
 description: Retrieves the virtual channel transport object.
 old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltransport.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 70de545f-f630-40cc-8456-ea0703caba17
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: GetVirtualChannelTransport, GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,9 @@ req.redist:
 
 ## -description
 
+
+<p class="CCE_Message">[The GetVirtualChannelTransport method is deprecated and should not be used.
+]
 
 Retrieves the virtual channel transport object.
 

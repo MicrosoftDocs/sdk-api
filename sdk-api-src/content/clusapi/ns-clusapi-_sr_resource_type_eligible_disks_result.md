@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_eligible_disks_result.htm
 tech.root: mscs
 ms.assetid: EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/24/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, mscs.sr_resource_type_eligible_disks_result"
 ms.prod: windows
 ms.technology: windows-sdk

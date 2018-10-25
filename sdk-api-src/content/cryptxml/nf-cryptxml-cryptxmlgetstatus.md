@@ -4,10 +4,10 @@ title: CryptXmlGetStatus function
 author: windows-sdk-content
 description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.
 old-location: security\cryptxmlgetstatus.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

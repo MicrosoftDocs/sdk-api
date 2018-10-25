@@ -4,10 +4,10 @@ title: CryptXmlOpenToDecode function
 author: windows-sdk-content
 description: Opens an XML digital signature to decode and returns the handle of the document context that encapsulates a CRYPT_XML_SIGNATURE structure. The document context can include one or more Signature elements.
 old-location: security\cryptxmlopentodecode.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b6a77d62-b92d-4b83-949f-14a0ce3ce025
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToDecode, CryptXmlOpenToDecode function [Security], cryptxml/CryptXmlOpenToDecode, security.cryptxmlopentodecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

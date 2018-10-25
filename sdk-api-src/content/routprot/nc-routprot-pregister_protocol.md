@@ -7,7 +7,7 @@ old-location: rras\registerprotocol.htm
 tech.root: rras
 ms.assetid: b9027ef9-e573-4df0-b37e-d09956c1f8ee
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PREGISTER_PROTOCOL, PREGISTER_PROTOCOL callback, RegisterProtocol, RegisterProtocol callback function [RAS], _mpr_registerprotocol, routprot/RegisterProtocol, rras.registerprotocol
 ms.prod: windows
 ms.technology: windows-sdk

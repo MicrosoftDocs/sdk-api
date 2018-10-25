@@ -7,7 +7,7 @@ old-location: rras\rtm_pref_info.htm
 tech.root: rras
 ms.assetid: 50aa7f8e-9d89-44bd-897e-f0040f579d24
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: "*PRTM_PREF_INFO, PRTM_PREF_INFO, PRTM_PREF_INFO structure pointer [RAS], RTM_PREF_INFO, RTM_PREF_INFO structure [RAS], _RTM_PREF_INFO, _rtmv2ref_rtm_pref_info, rras.rtm_pref_info, rtmv2/PRTM_PREF_INFO, rtmv2/RTM_PREF_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

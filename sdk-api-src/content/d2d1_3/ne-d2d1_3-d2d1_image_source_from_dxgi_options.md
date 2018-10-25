@@ -4,10 +4,10 @@ title: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
 author: windows-sdk-content
 description: Option flags controlling primary conversion performed by CreateImageSourceFromDxgi, if any.
 old-location: direct2d\d2d1_image_source_from_dxgi_options.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 39458E66-D924-4E7A-9B99-A7E258AFB4E5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS, D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS enumeration [Direct2D], D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION, D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE, d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS, d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION, d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE, direct2d.d2d1_image_source_from_dxgi_options
 ms.prod: windows
 ms.technology: windows-sdk

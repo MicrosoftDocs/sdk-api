@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetValue(U,)
 title: ID2D1Properties::GetValue(U,)
 author: windows-sdk-content
-description: Gets the value of the specified property by index.
-old-location: direct2d\id2d1properties_getvalue.htm
-tech.root: Direct2D
-ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
+description: Gets the value of the property by index. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_getvalue5.htm
+tech.root: direct2d
+ms.assetid: 90E54C63-B584-4844-85B7-BCCF766D90E3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U,), ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
+ms.date: 10/24/2018
+ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U), ID2D1Properties::GetValue(U,), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets  the value of the specified property by index.
+Gets  the value of the property by index. This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Gets  the value of the specified property by index.
 
 ### -param index
 
-Type: <b>UINT32</b>
+Type: <b>U</b>
 
-The index of the property from which the data is to be obtained.
+The index of the property from which the value is to be obtained.
 
 
 ### -param arg1
@@ -72,59 +72,28 @@ TBD
 
 
 
-#### - data [out]
-
-Type: <b>BYTE*</b>
-
-When this method returns, contains a pointer to the data requested.
-
-
-#### - dataSize
-
-Type: <b>UINT32</b>
-
-The number of bytes in the data to be retrieved.
-
-
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b>T</b>
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+Returns the value requested.
 
-<table>
-<tr>
-<th>HRESULT</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>S_OK</td>
-<td>No error occurred.</td>
-</tr>
-<tr>
-<td>D2DERR_INVALID_PROPERTY</td>
-<td>The specified property does not exist.</td>
-</tr>
-<tr>
-<td>E_OUTOFMEMORY</td>
-<td>Failed to allocate necessary memory.</td>
-</tr>
-<tr>
-<td>D3DERR_OUT_OF_VIDEO_MEMORY</td>
-<td>Failed to allocate required video memory.</td>
-</tr>
-<tr>
-<td>E_INVALIDARG</td>
-<td>One or more arguments are invalid.</td>
-</tr>
-<tr>
-<td>E_FAIL</td>
-<td>Unspecified failure.</td>
-</tr>
-</table>
- 
+
+
+
+## -remarks
+
+
+
+
+<pre class="syntax">template&lt;typename T, typename U&gt;
+    T GetValue(
+        U index
+        ) const;
+</pre>
+
 
 
 

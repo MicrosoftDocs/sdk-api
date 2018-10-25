@@ -4,10 +4,10 @@ title: CryptXmlCreateReference function
 author: windows-sdk-content
 description: Creates a reference to an XML signature.
 old-location: security\cryptxmlcreatereference.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1078d483-a017-486b-8967-a3efe9d3a29a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

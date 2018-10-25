@@ -4,10 +4,10 @@ title: IWTSProtocolListenerCallback
 author: windows-sdk-content
 description: IWTSProtocolListenerCallback is no longer available. Instead, use IWRdsProtocolListenerCallback.
 old-location: termserv\iwtsprotocollistenercallback.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 607fcb85-4602-4651-b246-3e32c8868e47
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWTSProtocolListenerCallback, IWTSProtocolListenerCallback interface [Remote Desktop Services], IWTSProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwtsprotocollistenercallback, wtsprotocol/IWTSProtocolListenerCallback
 ms.prod: windows
 ms.technology: windows-sdk

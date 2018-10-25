@@ -7,7 +7,7 @@ old-location: perf\pdhgetdefaultperfcounter.htm
 tech.root: perfctrs
 ms.assetid: 0eb78071-3496-40e9-91b0-3c06547c88d5
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/24/2018
 ms.keywords: PdhGetDefaultPerfCounter, PdhGetDefaultPerfCounter function [Perf], PdhGetDefaultPerfCounterA, PdhGetDefaultPerfCounterW, _win32_pdhgetdefaultperfcounter, base.pdhgetdefaultperfcounter, pdh/PdhGetDefaultPerfCounter, pdh/PdhGetDefaultPerfCounterA, pdh/PdhGetDefaultPerfCounterW, perf.pdhgetdefaultperfcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

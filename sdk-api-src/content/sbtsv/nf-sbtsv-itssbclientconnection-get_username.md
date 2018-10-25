@@ -4,10 +4,10 @@ title: ITsSbClientConnection::get_UserName
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_username.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],UserName property, ITsSbClientConnection.UserName, ITsSbClientConnection.get_UserName, ITsSbClientConnection::UserName, ITsSbClientConnection::get_UserName, UserName property [Remote Desktop Services], UserName property [Remote Desktop Services],ITsSbClientConnection interface, get_UserName, sbtsv/ITsSbClientConnection::UserName, sbtsv/ITsSbClientConnection::get_UserName, termserv.itssbclientconnection_username
 ms.prod: windows-hardware
 ms.technology: windows-devices

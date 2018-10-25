@@ -2,7 +2,7 @@
 UID: NA:mpeg2structs
 ms.assetid: 4f63b952-cded-396a-9537-94cec4271831
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

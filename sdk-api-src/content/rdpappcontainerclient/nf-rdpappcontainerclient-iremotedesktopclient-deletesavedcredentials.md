@@ -4,10 +4,10 @@ title: IRemoteDesktopClient::DeleteSavedCredentials
 author: windows-sdk-content
 description: Deletes saved credentials for the specified remote computer.
 old-location: termserv\iremotedesktopclient_deletesavedcredentials.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9addc8de-1e82-47a3-a10e-566bacc3e37c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: DeleteSavedCredentials, DeleteSavedCredentials method [Remote Desktop Services], DeleteSavedCredentials method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],DeleteSavedCredentials method, IRemoteDesktopClient.DeleteSavedCredentials, IRemoteDesktopClient::DeleteSavedCredentials, rdpappcontainerclient/IRemoteDesktopClient::DeleteSavedCredentials, termserv.iremotedesktopclient_deletesavedcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

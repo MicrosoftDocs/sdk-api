@@ -2,13 +2,13 @@
 UID: NF:d2d1_1.ID2D1Properties.GetValue(U,BYTE,UINT32,)
 title: ID2D1Properties::GetValue(U,BYTE,UINT32,)
 author: windows-sdk-content
-description: Gets the value of the specified property by index.
-old-location: direct2d\id2d1properties_getvalue.htm
-tech.root: Direct2D
-ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
+description: Gets the value of the specified property by index. This is a template overload. See Remarks.
+old-location: direct2d\id2d1properties_getvalue3.htm
+tech.root: direct2d
+ms.assetid: 3BCCE3B2-E772-467B-AD7E-7E2B9258EAA1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
+ms.date: 10/24/2018
+ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U,BYTE*,UINT32), ID2D1Properties::GetValue(U,BYTE,UINT32,), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets  the value of the specified property by index.
+Gets  the value of the specified property by index. This is a template overload. See Remarks.
 
 
 ## -parameters
@@ -60,19 +60,19 @@ Gets  the value of the specified property by index.
 
 ### -param index
 
-Type: <b>UINT32</b>
+Type: <b>U</b>
 
 The index of the property from which the data is to be obtained.
 
 
-#### - data [out]
+### -param data [out]
 
 Type: <b>BYTE*</b>
 
 When this method returns, contains a pointer to the data requested.
 
 
-#### - dataSize
+### -param dataSize
 
 Type: <b>UINT32</b>
 
@@ -125,6 +125,23 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </tr>
 </table>
  
+
+
+
+
+## -remarks
+
+
+
+
+<pre class="syntax">template&lt;typename U&gt;
+    HRESULT GetValue(
+        U index,
+        _Out_writes_(dataSize) BYTE *data,
+        UINT32 dataSize
+        ) CONST;
+</pre>
+
 
 
 

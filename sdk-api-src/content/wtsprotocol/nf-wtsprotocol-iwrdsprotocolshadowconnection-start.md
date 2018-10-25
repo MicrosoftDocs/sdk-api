@@ -4,10 +4,10 @@ title: IWRdsProtocolShadowConnection::Start
 author: windows-sdk-content
 description: Notifies the protocol that shadowing has started.
 old-location: termserv\iwrdsprotocolshadowconnection_start.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/24/2018
 ms.keywords: IWRdsProtocolShadowConnection interface [Remote Desktop Services],Start method, IWRdsProtocolShadowConnection.Start, IWRdsProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, termserv.iwrdsprotocolshadowconnection_start, wtsprotocol/IWRdsProtocolShadowConnection::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

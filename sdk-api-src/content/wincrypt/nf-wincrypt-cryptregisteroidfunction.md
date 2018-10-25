@@ -4,10 +4,10 @@ title: CryptRegisterOIDFunction function
 author: windows-sdk-content
 description: Registers a DLL that contains the function to be called for the specified encoding type, function name, and object identifier (OID).
 old-location: security\cryptregisteroidfunction.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

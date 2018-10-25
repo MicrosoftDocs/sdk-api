@@ -4,10 +4,10 @@ title: IEnroll2::put_HashAlgID
 author: windows-sdk-content
 description: The HashAlgID property of IEnroll4 sets or retrieves the hash algorithm used when signing a PKCS #10 certificate request.
 old-location: security\ienroll4_hashalgid.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ebf4a7c7-4bd4-4a5f-8f32-bb30a6a8af0e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: HashAlgID property [Security], HashAlgID property [Security],IEnroll2 interface, HashAlgID property [Security],IEnroll4 interface, IEnroll2 interface [Security],HashAlgID property, IEnroll2.HashAlgID, IEnroll2.put_HashAlgID, IEnroll2::HashAlgID, IEnroll2::get_HashAlgID, IEnroll2::put_HashAlgID, IEnroll4 interface [Security],HashAlgID property, IEnroll4.HashAlgID, IEnroll4::get_HashAlgID, IEnroll4::put_HashAlgID, get_HashAlgID, put_HashAlgID, security.ienroll4_hashalgid, xenroll/IEnroll2::HashAlgID, xenroll/IEnroll2::get_HashAlgID, xenroll/IEnroll2::put_HashAlgID, xenroll/IEnroll4::HashAlgID, xenroll/IEnroll4::get_HashAlgID, xenroll/IEnroll4::put_HashAlgID
 ms.prod: windows-hardware
 ms.technology: windows-devices

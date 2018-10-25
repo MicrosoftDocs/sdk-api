@@ -4,10 +4,10 @@ title: OpenPersonalTrustDBDialog function
 author: windows-sdk-content
 description: Displays the Certificates dialog box.
 old-location: security\openpersonaltrustdbdialog.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 25f1d012-0c82-4992-b924-b539d4c6dc5f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: OpenPersonalTrustDBDialog, OpenPersonalTrustDBDialog function [Security], security.openpersonaltrustdbdialog, wintrust/OpenPersonalTrustDBDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

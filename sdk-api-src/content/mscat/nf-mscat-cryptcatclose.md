@@ -4,10 +4,10 @@ title: CryptCATClose function
 author: windows-sdk-content
 description: Closes a catalog handle opened previously by the CryptCATOpen function.
 old-location: security\cryptcatclose.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

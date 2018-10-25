@@ -4,10 +4,10 @@ title: D2D1_CONVOLVEMATRIX_SCALE_MODE
 author: windows-sdk-content
 description: The interpolation mode the Convolve matrix effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_convolvematrix_scale_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 16949437-83A6-41D2-B531-089ACE748E3F
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/24/2018
 ms.keywords: D2D1_CONVOLVEMATRIX_SCALE_MODE, D2D1_CONVOLVEMATRIX_SCALE_MODE enumeration [Direct2D], D2D1_CONVOLVEMATRIX_SCALE_MODE_ANISOTROPIC, D2D1_CONVOLVEMATRIX_SCALE_MODE_CUBIC, D2D1_CONVOLVEMATRIX_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR, D2D1_CONVOLVEMATRIX_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_CONVOLVEMATRIX_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_CUBIC, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_convolvematrix_scale_mode
 ms.prod: windows
 ms.technology: windows-sdk
