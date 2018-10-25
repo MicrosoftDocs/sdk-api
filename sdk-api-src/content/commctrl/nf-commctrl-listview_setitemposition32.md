@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="https://msdn.microsoft.com/8965e972-f547-41dc-b742-a6ac757f0f76">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="https://msdn.microsoft.com/77db5fd0-bbc3-47ad-95ef-61ef4ac022bc">LVM_SETITEMPOSITION32</a> message explicitly. 
+Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="https://msdn.microsoft.com/en-us/library/Bb775098(v=VS.85).aspx">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761194(v=VS.85).aspx">LVM_SETITEMPOSITION32</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Moves an item to a specified position in a list-view control (in icon or small i
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 

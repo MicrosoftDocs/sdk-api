@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the <a href="https://msdn.microsoft.com/4109714e-94a3-4c88-96e7-b4b8ec67f4a1">TVM_GETINDENT</a> message explicitly. 
+Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773588(v=VS.85).aspx">TVM_GETINDENT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the amount, in pixels, that child items are indented relative to their
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tree-view control. 
 

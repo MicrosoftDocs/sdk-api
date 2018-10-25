@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returns a copy of the security descriptor protecting the specified  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key.
+Returns a copy of the security descriptor protecting the specified  <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> key.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ Handle to a cluster database key.
 
 ### -param RequestedInformation [in]
 
-A  <a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> structure that indicates the requested security descriptor.
+A  <a href="https://msdn.microsoft.com/en-us/library/Aa379573(v=VS.85).aspx">SECURITY_INFORMATION</a> structure that indicates the requested security descriptor.
 
 
 ### -param pSecurityDescriptor [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa379561(v=VS.85).aspx">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
 
 
 ### -param lpcbSecurityDescriptor [in, out]
@@ -85,7 +85,7 @@ On input, pointer to a count of the number of bytes in the buffer pointed to by 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
 
 
 
@@ -95,7 +95,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-<a href="https://msdn.microsoft.com/f2cf204e-d02d-40b9-86d7-0262b8cc4db1">ClusterRegOpenKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369004(v=VS.85).aspx">ClusterRegOpenKey</a>
  
 
  

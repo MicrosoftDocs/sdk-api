@@ -126,7 +126,7 @@ Some control codes should be handled by the <a href="https://msdn.microsoft.com/
 
 #### Examples
 
-See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

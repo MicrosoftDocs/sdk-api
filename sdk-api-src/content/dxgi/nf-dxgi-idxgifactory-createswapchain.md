@@ -70,26 +70,26 @@ For Direct3D 11, and earlier versions of Direct3D, this is a pointer to the Dire
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/819d4ff3-f717-46ab-a626-cff065681c79">DXGI_SWAP_CHAIN_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173075(v=VS.85).aspx">DXGI_SWAP_CHAIN_DESC</a>*</b>
 
-A pointer to a  <a href="https://msdn.microsoft.com/819d4ff3-f717-46ab-a626-cff065681c79">DXGI_SWAP_CHAIN_DESC</a> structure for the swap-chain description. This parameter cannot be <b>NULL</b>.
+A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Bb173075(v=VS.85).aspx">DXGI_SWAP_CHAIN_DESC</a> structure for the swap-chain description. This parameter cannot be <b>NULL</b>.
 
 
 ### -param ppSwapChain [out]
 
-Type: <b><a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>**</b>
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a> interface for the swap chain that <b>CreateSwapChain</b> creates.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a> interface for the swap chain that <b>CreateSwapChain</b> creates.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 
-<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if <i>pDesc</i> or <i>ppSwapChain</i> is <b>NULL</b>, DXGI_STATUS_OCCLUDED if you request full-screen mode and it is unavailable, or E_OUTOFMEMORY. Other error codes defined by the type of device passed in may also be returned.
+<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  if <i>pDesc</i> or <i>ppSwapChain</i> is <b>NULL</b>, DXGI_STATUS_OCCLUDED if you request full-screen mode and it is unavailable, or E_OUTOFMEMORY. Other error codes defined by the type of device passed in may also be returned.
 
 
 
@@ -98,7 +98,7 @@ Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 If you attempt to create a swap chain in full-screen mode, and full-screen mode is unavailable, the swap chain will be created in windowed mode and DXGI_STATUS_OCCLUDED will be returned.
 
@@ -107,12 +107,12 @@ If the buffer width or the buffer height is zero, the sizes will be inferred fro
 Because the target output can't be chosen explicitly when the swap chain is created, we recommend not to create a full-screen swap chain. This can reduce presentation performance if the swap chain size and the output window size do not match. Here are two ways to ensure that the sizes match:
 
 <ul>
-<li>Create a windowed swap chain and then set it full-screen using <a href="https://msdn.microsoft.com/4762082c-5a61-43a0-b158-a70bbec804d4">IDXGISwapChain::SetFullscreenState</a>.</li>
-<li>Save a pointer to the swap chain immediately after creation, and use it to get the output window size during a WM_SIZE event. Then resize the swap chain buffers (with <a href="https://msdn.microsoft.com/c70aaad0-e742-4ff1-9d25-80d171f3f9de">IDXGISwapChain::ResizeBuffers</a>) during the transition from windowed to full-screen.</li>
+<li>Create a windowed swap chain and then set it full-screen using <a href="https://msdn.microsoft.com/en-us/library/Bb174579(v=VS.85).aspx">IDXGISwapChain::SetFullscreenState</a>.</li>
+<li>Save a pointer to the swap chain immediately after creation, and use it to get the output window size during a WM_SIZE event. Then resize the swap chain buffers (with <a href="https://msdn.microsoft.com/en-us/library/Bb174577(v=VS.85).aspx">IDXGISwapChain::ResizeBuffers</a>) during the transition from windowed to full-screen.</li>
 </ul>
-If the swap chain is in full-screen mode, before you release it you must use <a href="https://msdn.microsoft.com/4762082c-5a61-43a0-b158-a70bbec804d4">SetFullscreenState</a> to switch it to windowed mode. For more information about releasing a swap chain, see the "Destroying a Swap Chain" section of <a href="https://msdn.microsoft.com/0522ccbf-e754-470a-8199-004fcbaa927d">DXGI Overview</a>.
+If the swap chain is in full-screen mode, before you release it you must use <a href="https://msdn.microsoft.com/en-us/library/Bb174579(v=VS.85).aspx">SetFullscreenState</a> to switch it to windowed mode. For more information about releasing a swap chain, see the "Destroying a Swap Chain" section of <a href="https://msdn.microsoft.com/en-us/library/Bb205075(v=VS.85).aspx">DXGI Overview</a>.
 
-After the runtime renders the initial frame in full screen, the runtime might unexpectedly exit full screen during a call to <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a>. To work around this issue, we recommend that you execute the following code right after you call <b>CreateSwapChain</b> to create a full-screen swap chain (<b>Windowed</b> member of <a href="https://msdn.microsoft.com/819d4ff3-f717-46ab-a626-cff065681c79">DXGI_SWAP_CHAIN_DESC</a> set to <b>FALSE</b>).
+After the runtime renders the initial frame in full screen, the runtime might unexpectedly exit full screen during a call to <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>. To work around this issue, we recommend that you execute the following code right after you call <b>CreateSwapChain</b> to create a full-screen swap chain (<b>Windowed</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb173075(v=VS.85).aspx">DXGI_SWAP_CHAIN_DESC</a> set to <b>FALSE</b>).
 
 
 
@@ -137,7 +137,7 @@ if (!bFullscreen)
 ```
 
 
-You can specify <a href="https://msdn.microsoft.com/211d53a9-1332-4e94-abd5-7df7f19094a6">DXGI_SWAP_EFFECT</a> and <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG</a> values in the swap-chain description that <i>pDesc</i> points to. These values allow you to use features like flip-model presentation and content protection by using pre-Windows 8 APIs.
+You can specify <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG</a> values in the swap-chain description that <i>pDesc</i> points to. These values allow you to use features like flip-model presentation and content protection by using pre-Windows 8 APIs.
 
 However, to use stereo presentation and to change resize behavior for the flip model, applications must use the <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a> method. Otherwise, the back-buffer contents implicitly scale to fit the presentation target size; that is, you can't turn off scaling.
 
@@ -164,7 +164,7 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
  
 
  

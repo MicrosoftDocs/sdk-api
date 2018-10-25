@@ -68,11 +68,11 @@ The characteristic value has changed.
 
 
 
-<a href="https://msdn.microsoft.com/96AC4E49-76D7-47B5-93B9-64D574A28E0A">Bluetooth GATT Event Callback Function</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450822(v=VS.85).aspx">Bluetooth GATT Event Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450804(v=VS.85).aspx">BluetoothGATTRegisterEvent</a>
  
 
  

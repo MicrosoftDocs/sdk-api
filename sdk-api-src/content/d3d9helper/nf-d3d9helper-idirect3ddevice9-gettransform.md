@@ -61,24 +61,24 @@ Retrieves a matrix describing a transformation state.
 
 ### -param State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/53535d9f-246a-42cf-82a2-fb3cf6d4ebac">D3DTRANSFORMSTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a></b>
 
-Device state variable that is being modified. This parameter can be any member of the <a href="https://msdn.microsoft.com/53535d9f-246a-42cf-82a2-fb3cf6d4ebac">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="https://msdn.microsoft.com/b0a1548c-de5d-4eff-baf9-4aecb5e13443">D3DTS_WORLDMATRIX</a> macro. 
+Device state variable that is being modified. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="https://msdn.microsoft.com/en-us/library/Bb172623(v=VS.85).aspx">D3DTS_WORLDMATRIX</a> macro. 
 
 
 ### -param pMatrix [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d6b98a32-e745-4724-b8ce-a81a3f5416f3">D3DMATRIX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a>*</b>
 
 Pointer to a 
-    <a href="https://msdn.microsoft.com/d6b98a32-e745-4724-b8ce-a81a3f5416f3">D3DMATRIX</a> structure, describing the returned transformation state. 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a> structure, describing the returned transformation state. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of the arguments is invalid.
 
@@ -89,7 +89,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if one of
 
 
 
-This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other flag values in <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE</a>.
+This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other flag values in <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>.
     
 
 
@@ -101,11 +101,11 @@ This method will not return device state for a device that is created using D3DC
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc94280-131f-47e8-8dd7-cea43dc6e6da">IDirect3DDevice9::SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
  
 
  

@@ -88,7 +88,7 @@ Event must be an exact match or any descendant of the fully qualified UNC path a
 
 
 
-<a href="https://msdn.microsoft.com/0b9d8339-3daa-4f0c-8a52-59e06b663163">IOfflineFilesEventsFilter::GetPathFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530536(v=VS.85).aspx">IOfflineFilesEventsFilter::GetPathFilter</a>
  
 
  

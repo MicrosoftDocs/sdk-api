@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Extracts the object code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>.
+Extracts the object code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a>.
 
 
 ## -parameters

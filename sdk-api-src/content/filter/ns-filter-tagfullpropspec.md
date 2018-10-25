@@ -67,9 +67,9 @@ The GUID that identifies the property set.
 
 ### -field psProperty
 
-Type: <b><a href="_stg_propspec">PROPSPEC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a></b>
 
-The <a href="_stg_propspec">PROPSPEC</a> structure that specifies a property either by its property identifier or by the associated string name.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure that specifies a property either by its property identifier or by the associated string name.
 
 
 ## -see-also
@@ -85,7 +85,7 @@ The <a href="_stg_propspec">PROPSPEC</a> structure that specifies a property eit
 
 
 
-<a href="_stg_propspec">PROPSPEC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>
 
 
 

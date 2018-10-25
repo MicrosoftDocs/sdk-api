@@ -121,7 +121,7 @@ The
 <b>RegOpenUserClassesRoot</b> to retrieve the merged information for a client.
 
 <b>RegOpenUserClassesRoot</b> fails if the user profile for the specified user is not loaded. When a user logs on interactively, the system automatically loads the user's profile. For other users, you can call the 
-<a href="_shell_loaduserprofile">LoadUserProfile</a> function to load the user's profile. However, <b>LoadUserProfile</b> can be very time-consuming, so do not call it for this purpose unless it is absolutely necessary to have the user's merged <b>HKEY_CLASSES_ROOT</b> information.
+<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a> function to load the user's profile. However, <b>LoadUserProfile</b> can be very time-consuming, so do not call it for this purpose unless it is absolutely necessary to have the user's merged <b>HKEY_CLASSES_ROOT</b> information.
 
 Applications running in the security context of the interactively logged-on user do not need to use 
 <b>RegOpenUserClassesRoot</b>. These applications can call the 
@@ -135,7 +135,7 @@ Applications running in the security context of the interactively logged-on user
 
 
 
-<a href="_shell_loaduserprofile">LoadUserProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a>
 
 
 

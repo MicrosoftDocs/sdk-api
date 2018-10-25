@@ -50,7 +50,7 @@ req.redist: the Windows NT 4.0 Option Pack
 ## -description
 
 
-Indicates whether the caller should use the <a href="_stg_ipropertysetstorage">IPropertySetStorage</a> and <a href="_stg_ipropertystorage">IPropertyStorage</a> interfaces to locate additional properties.
+Indicates whether the caller should use the <a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a> interfaces to locate additional properties.
 
 
 ## -enum-fields
@@ -60,7 +60,7 @@ Indicates whether the caller should use the <a href="_stg_ipropertysetstorage">I
 
 ### -field IFILTER_FLAGS_OLE_PROPERTIES
 
-The caller should use the <a href="_stg_ipropertysetstorage">IPropertySetStorage</a> and <a href="_stg_ipropertystorage">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>. 
+The caller should use the <a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>. 
 
 
 ## -remarks
@@ -81,11 +81,11 @@ The <i>pdwFlags</i> parameter in the <a href="https://msdn.microsoft.com/c0ec3db
 
 
 
-<a href="_stg_ipropertysetstorage">IPropertySetStorage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a>
 
 
 
-<a href="_stg_ipropertystorage">IPropertyStorage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a>
 
 
 

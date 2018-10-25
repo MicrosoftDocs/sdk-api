@@ -101,7 +101,7 @@ Creates a VT_LPWSTR propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStrRet">InitPropVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762308(v=VS.85).aspx">InitPropVariantFromStrRet</a>.
 
 
 ```cpp
@@ -130,19 +130,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
 
 
 
-<a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762337(v=VS.85).aspx">InitVariantFromStrRet</a>
 
 
 
-<a href="shell.PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
  
 
  

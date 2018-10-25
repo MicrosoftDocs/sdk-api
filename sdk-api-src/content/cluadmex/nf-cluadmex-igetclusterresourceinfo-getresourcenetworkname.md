@@ -53,9 +53,9 @@ req.redist:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of the <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a> managed by the 
-    <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource on which a 
-    <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> depends.
+Returns the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a> managed by the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resource on which a 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> depends.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Returns the name of the <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b
 A number representing the zero-based index of the target resource. The target resource may or may not depend 
        on a Network Name resource. <i>lObjIndex</i> is restricted to the number that can be 
        retrieved by calling 
-       <a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/Aa370214(v=VS.85).aspx">IGetClusterDataInfo::GetObjectCount</a>.
 
 
 ### -param lpszNetName [out]
@@ -102,7 +102,7 @@ This method returns BOOL.
 The 
      <b>GetResourceNetworkName</b> 
      method is necessary to allow 
-     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extension property 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extension property 
      pages to determine whether a resource has an existing or a pending dependency on a Network Name resource.
 
 The name of the network is stored in the Network Name resource's Name private property. The Network Name 
@@ -119,11 +119,11 @@ The name of the network is stored in the Network Name resource's Name private pr
 
 
 
-<a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370214(v=VS.85).aspx">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370230(v=VS.85).aspx">IGetClusterResourceInfo</a>
  
 
  
