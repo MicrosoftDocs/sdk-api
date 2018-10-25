@@ -2,7 +2,7 @@
 UID: NA:mmdeviceapi
 ms.assetid: 4b57a412-ba54-35c5-9867-03aac210211e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

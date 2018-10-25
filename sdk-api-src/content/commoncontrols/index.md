@@ -2,7 +2,7 @@
 UID: NA:commoncontrols
 ms.assetid: 5c8176d8-c245-3b46-a092-dfa1152a7c98
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

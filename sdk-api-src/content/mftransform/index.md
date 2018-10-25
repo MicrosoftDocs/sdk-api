@@ -2,7 +2,7 @@
 UID: NA:mftransform
 ms.assetid: 0d01b4e7-a8bd-3daf-a967-84a5905034fd
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

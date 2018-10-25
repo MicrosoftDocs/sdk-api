@@ -2,7 +2,7 @@
 UID: NA:intsafe
 ms.assetid: 794d13ce-06be-360e-a29e-f3e6062f516c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
