@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionShadowEffect.SetGreen(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetGreen(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the green value for the color of the shadow.
-old-location: directcomp\idcompositionshadoweffect_setgreen.htm
+old-location: directcomp\idcompositionshadoweffect_setgreen_2.htm
 tech.root: directcomp
-ms.assetid: AFBDF412-D0B3-440F-92E2-25BE3083C40B
+ms.assetid: 0CD8562E-D729-4628-914C-767AD90B80C6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetGreen method, IDCompositionShadowEffect.SetGreen, IDCompositionShadowEffect.SetGreen(IDCompositionAnimation), IDCompositionShadowEffect::SetGreen, IDCompositionShadowEffect::SetGreen(IDCompositionAnimation), SetGreen, SetGreen method [DirectComposition], SetGreen method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetGreen, directcomp.idcompositionshadoweffect_setgreen
+ms.date: 10/25/2018
+ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetGreen method, IDCompositionShadowEffect.SetGreen, IDCompositionShadowEffect.SetGreen(IDCompositionAnimation), IDCompositionShadowEffect::SetGreen, IDCompositionShadowEffect::SetGreen(IDCompositionAnimation), SetGreen, SetGreen method [DirectComposition], SetGreen method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetGreen, directcomp.idcompositionshadoweffect_setgreen_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the green value for the color of the shadow.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amount [in]
-
-Type: <b>float</b>
-
-The green value for the color of the shadow.
+An animation that represents how the green value for the color of the shadow changes over time. This parameter must not be NULL.
 
 
 ## -returns

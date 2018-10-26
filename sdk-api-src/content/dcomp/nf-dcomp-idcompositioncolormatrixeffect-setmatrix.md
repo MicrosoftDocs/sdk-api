@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncolormatrixeffect_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 1EE0C9B6-6309-40A3-AE80-A47C45BBA536
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrix method, IDCompositionColorMatrixEffect.SetMatrix, IDCompositionColorMatrixEffect::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrix, directcomp.idcompositioncolormatrixeffect_setmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

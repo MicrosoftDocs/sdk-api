@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverrestore.htm
 tech.root: rras
 ms.assetid: 1489ce8a-4f9d-4cf0-8729-b24e8c571557
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MprConfigServerRestore, MprConfigServerRestore function [RAS], _mpr_mprconfigserverrestore, mprapi/MprConfigServerRestore, rras.mprconfigserverrestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

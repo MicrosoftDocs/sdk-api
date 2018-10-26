@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setparentcainformation.htm
 tech.root: seccrypto
 ms.assetid: 73c4782d-579d-48d7-b999-f15a2443bbca
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ICertSrvSetup interface [Security],SetParentCAInformation method, ICertSrvSetup.SetParentCAInformation, ICertSrvSetup::SetParentCAInformation, SetParentCAInformation, SetParentCAInformation method [Security], SetParentCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetParentCAInformation, security.icertsrvsetup_setparentcainformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>SetParentCAInformation</b> method sets the parent <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) information for a subordinate CA configuration. This facilitates retrieval and installation of the subordinate certificate directly from the parent CA. The parent CA must be a Microsoft CA.
+The <b>SetParentCAInformation</b> method sets the parent <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) information for a subordinate CA configuration. This facilitates retrieval and installation of the subordinate certificate directly from the parent CA. The parent CA must be a Microsoft CA.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A string that contains a valid configuration for the parent CA. The string must 
 The <b>SetParentCAInformation</b> method pings the parent CA computer to verify that it is available on the network.
 
 Upon success, <b>SetParentCAInformation</b> sets the ENUM_SETUPPROP_PARENTCAMACHINE and ENUM_SETUPPROP_PARENTCANAME properties for the subordinate CA configuration.
-For more information about setup properties, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
+For more information about setup properties, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
 
 
 
@@ -80,7 +80,7 @@ For more information about setup properties, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

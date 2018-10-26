@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createvisual.htm
 tech.root: directcomp
 ms.assetid: 3b4fefe0-772e-42bd-8e81-37d0b128c418
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: CreateVisual, CreateVisual method [DirectComposition], CreateVisual method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateVisual method, IDCompositionDevice.CreateVisual, IDCompositionDevice::CreateVisual, dcomp/IDCompositionDevice::CreateVisual, directcomp.idcompositiondevice_createvisual
 ms.prod: windows-hardware
 ms.technology: windows-devices

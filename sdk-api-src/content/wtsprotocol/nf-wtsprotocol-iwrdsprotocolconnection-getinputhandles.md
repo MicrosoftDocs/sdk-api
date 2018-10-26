@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm
 tech.root: termserv
 ms.assetid: 42f20dfc-e625-4b53-b055-750af4cbd3ec
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetInputHandles, GetInputHandles method [Remote Desktop Services], GetInputHandles method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetInputHandles method, IWRdsProtocolConnection.GetInputHandles, IWRdsProtocolConnection::GetInputHandles, termserv.iwrdsprotocolconnection_getinputhandles, wtsprotocol/IWRdsProtocolConnection::GetInputHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

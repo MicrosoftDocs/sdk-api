@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement5_CurrentLandmarkType.htm
 tech.root: WinAuto
 ms.assetid: 85A5612D-7BCB-4E0C-B6DC-EAC0D3F6789D
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: CurrentLandmarkType property [Windows Accessibility], CurrentLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CurrentLandmarkType property, IUIAutomationElement5.CurrentLandmarkType, IUIAutomationElement5.get_CurrentLandmarkType, IUIAutomationElement5::CurrentLandmarkType, IUIAutomationElement5::get_CurrentLandmarkType, get_CurrentLandmarkType, uiautomationclient/IUIAutomationElement5::CurrentLandmarkType, uiautomationclient/IUIAutomationElement5::get_CurrentLandmarkType, winauto.uiauto_IUIAutomationElement5_CurrentLandmarkType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt798233(v=VS.85).aspx">IUIAutomationElement5</a>
+<a href="winauto.iuiautomationelement5">IUIAutomationElement5</a>
  
 
  

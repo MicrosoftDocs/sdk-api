@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,IDComposi
 title: IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets a value in the alpha table.
-old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue.htm
+old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue_2.htm
 tech.root: directcomp
-ms.assetid: 53821725-EB51-47C4-9C9F-403D41FD1FA4
+ms.assetid: B0DF72F0-48ED-48A5-821A-3A426AD66013
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTableValue method, IDCompositionTableTransferEffect.SetAlphaTableValue, IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetAlphaTableValue, IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,IDCompositionAnimation), SetAlphaTableValue, SetAlphaTableValue method [DirectComposition], SetAlphaTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue
+ms.date: 10/25/2018
+ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTableValue method, IDCompositionTableTransferEffect.SetAlphaTableValue, IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetAlphaTableValue, IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,IDCompositionAnimation), SetAlphaTableValue, SetAlphaTableValue method [DirectComposition], SetAlphaTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -62,21 +62,14 @@ Sets a value in the alpha table.
 
 Type: <b>UINT</b>
 
-The index of the value to set.
+Index of the value to change.
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - value [in]
-
-Type: <b>float</b>
-
-The new value.
+An animation that represents how the value in the alpha table changes over time. This parameter must not be NULL.
 
 
 ## -returns

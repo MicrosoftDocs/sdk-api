@@ -7,8 +7,8 @@ old-location: projfs\prj_complete_command_type.htm
 tech.root: ProjFS
 ms.assetid: AE9CD44C-0E68-4E35-8A7E-89B33E796AF0
 ms.author: windowssdkdev
-ms.date: 10/24/2018
-ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION, ProjFS.prj_complete_command_type, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION
+ms.date: 10/25/2018
+ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION, ProjFS.prj_complete_command_type, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -60,13 +60,10 @@ Specifies command types.
 
 ### -field PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
 
+The provider is completing a call to its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback.
+
 
 ### -field PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION
 
 The provider is completing a call to its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
-
-
-#### - PRJ_COMPLETE_COMMAND_TYPE_NOTIFY_OPERATION
-
-The provider is completing a call to its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback.
 

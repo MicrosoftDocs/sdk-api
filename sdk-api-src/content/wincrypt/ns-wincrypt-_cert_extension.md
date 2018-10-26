@@ -7,7 +7,7 @@ old-location: security\cert_extension.htm
 tech.root: seccrypto
 ms.assetid: 787a4df0-c0e3-46b9-a7e6-eb3bee3ed717
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCERT_EXTENSION, CERT_EXTENSION, CERT_EXTENSION structure [Security], PCERT_EXTENSION, PCERT_EXTENSION structure pointer [Security], _CERT_EXTENSION, _crypto2_cert_extension, security.cert_extension, wincrypt/CERT_EXTENSION, wincrypt/PCERT_EXTENSION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>CERT_EXTENSION</b> structure contains the extension information for a <a 
 ### -field pszObjId
 
 <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">Object identifier</a> (OID) that specifies the structure of the extension data contained in the <b>Value</b> member. For specifics on extension OIDs and their related structures, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380258(v=VS.85).aspx">X.509 Certificate Extension Structures</a>.
+<a href="cryptography_structures.htm">X.509 Certificate Extension Structures</a>.
 
 
 ### -field fCritical

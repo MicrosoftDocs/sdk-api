@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictStore.htm
 tech.root: shell
 ms.assetid: 25f47c73-eb9f-4beb-aa10-4f12b38d6507
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: ISyncMgrConflictStore, ISyncMgrConflictStore interface [Windows Shell], ISyncMgrConflictStore interface [Windows Shell],described, _shell_ISyncMgrConflictStore, shell.ISyncMgrConflictStore, syncmgr/ISyncMgrConflictStore
 ms.prod: windows
 ms.technology: windows-sdk

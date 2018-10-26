@@ -7,7 +7,7 @@ old-location: mscs\clusterpreparesharedvolumeforbackup.htm
 tech.root: mscs
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ClusterPrepareSharedVolumeForBackup, ClusterPrepareSharedVolumeForBackup function [Failover Cluster], PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/ClusterPrepareSharedVolumeForBackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

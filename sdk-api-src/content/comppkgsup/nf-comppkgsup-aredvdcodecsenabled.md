@@ -7,7 +7,7 @@ old-location: winprog\aredvdcodecsenabled.htm
 tech.root: devnotes
 ms.assetid: 706476D1-B372-4C51-8534-0085A4735D4C
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: AreDvdCodecsEnabled, AreDvdCodecsEnabled function [Windows API], comppkgsup/AreDvdCodecsEnabled, winprog.aredvdcodecsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

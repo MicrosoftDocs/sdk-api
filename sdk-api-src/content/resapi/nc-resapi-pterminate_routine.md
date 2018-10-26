@@ -7,7 +7,7 @@ old-location: mscs\terminate.htm
 tech.root: mscs
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ For effective implementation strategies of the <i>Terminate</i>
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

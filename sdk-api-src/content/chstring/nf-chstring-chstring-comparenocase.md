@@ -92,18 +92,22 @@ The <b>CompareNoCase</b> method, which performs a case-insensitive comparison of
 
 The following code  example shows the use of <b>CHstring::CompareNoCase</b>:
 
-
-```cpp
-CHString s1( L"abc" );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s1( L"abc" );
 CHString s2( L"ABD" );
 
 // Compare with a CHString.
 assert( s1.CompareNoCase( s2 ) == 0 );
 // Compare with LPCWSTR string.
-assert( s1.CompareNoCase( L"ABE" ) < 0 );
-```
-
-
+assert( s1.CompareNoCase( L"ABE" ) &lt; 0 );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

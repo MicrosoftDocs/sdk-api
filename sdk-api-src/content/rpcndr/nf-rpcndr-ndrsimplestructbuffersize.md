@@ -7,7 +7,7 @@ old-location: winprog\ndrsimplestructbuffersize.htm
 tech.root: devnotes
 ms.assetid: e88eaed3-0676-4c43-8ac1-7a5e19fc5748
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: NdrSimpleStructBufferSize, NdrSimpleStructBufferSize function [Windows API], rpcndr/NdrSimpleStructBufferSize, winprog.ndrsimplestructbuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

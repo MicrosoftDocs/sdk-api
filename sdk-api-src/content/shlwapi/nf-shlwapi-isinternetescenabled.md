@@ -7,7 +7,7 @@ old-location: shell\IsInternetESCEnabled.htm
 tech.root: shell
 ms.assetid: 2f803b69-9734-484c-9392-a48e116cf506
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IsInternetESCEnabled, IsInternetESCEnabled function [Windows Shell], _win32_IsInternetESCEnabled, shell.IsInternetESCEnabled, shlwapi/IsInternetESCEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

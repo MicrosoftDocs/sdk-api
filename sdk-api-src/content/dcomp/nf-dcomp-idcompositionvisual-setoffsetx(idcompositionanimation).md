@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionVisual.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionVisual::SetOffsetX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the OffsetX property of this visual.
-old-location: directcomp\idcompositionvisual_setoffsetx_float.htm
+old-location: directcomp\idcompositionvisual_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 5A90D9F4-E28D-49D6-9E5A-511E9479BD97
+ms.assetid: f0595951-a0b0-47bb-9e94-1cbaa7b7f736
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetX method, IDCompositionVisual.SetOffsetX, IDCompositionVisual.SetOffsetX(IDCompositionAnimation), IDCompositionVisual::SetOffsetX, IDCompositionVisual::SetOffsetX(IDCompositionAnimation), IDCompositionVisual::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetX, directcomp.idcompositionvisual_setoffsetx_float
+ms.date: 10/25/2018
+ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetX method, IDCompositionVisual.SetOffsetX, IDCompositionVisual.SetOffsetX(IDCompositionAnimation), IDCompositionVisual::SetOffsetX, IDCompositionVisual::SetOffsetX(IDCompositionAnimation), IDCompositionVisual::SetOffsetX(IDCompositionAnimation*), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetX, directcomp.idcompositionvisual_setoffsetx_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Changes the value of the OffsetX property of this visual.  The OffsetX property 
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - offsetX [in]
-
-Type: <b>float</b>
-
-The new offset of the visual along the x-axis, in pixels.
+An animation object that determines how the value of the OffsetX property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,29 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>offsetX</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the animation object referenced by the <i>animation</i> parameter is changed after this call, the change does not affect the OffsetX property unless this method is called again. If the OffsetX property was previously animated, this method replaces that animation with the new animation.
+
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
-
-Changing the OffsetX property of a visual transforms the coordinate system of the entire visual subtree that is rooted at that visual. If the Clip property of this visual is specified, the clip rectangle is also transformed.
-
-
-
-
-
-A transformation that is specified by the Transform property is applied after the OffsetX property.  In other words, the effect of setting the Transform property and the OffsetX property is the same as setting only the Transform property on a transform group  object where the first member of the group is an <a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a> object that has the same OffsetX value as <i>offsetX</i>. However, you should use  <b>IDCompositionVisual::SetOffsetX</b> whenever possible because it is slightly faster.
-
-If the OffsetX and OffsetY properties are set to 0, and the Transform property is set to NULL, the coordinate system of the visual is the same as that of its parent.
-
-If the OffsetX property was previously animated, this method removes the animation and sets the property to the specified static value.
-
-
-
-#### Examples
-
-For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-D0CA9DB19505">How to Build a Simple Visual Tree</a>.
-
-<div class="code"></div>
 
 
 

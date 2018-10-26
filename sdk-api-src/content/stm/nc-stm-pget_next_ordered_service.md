@@ -7,7 +7,7 @@ old-location: rras\getnextorderedservice.htm
 tech.root: rras
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
 ms.prod: windows
 ms.technology: windows-sdk

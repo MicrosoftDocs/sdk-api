@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter1.htm
 tech.root: direct3ddxgi
 ms.assetid: 003d5a10-e978-481f-8ca6-9e5ab69bfec0
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 2ac7b82f-b5a5-ec94-1506-33b758455dd2, IDXGIAdapter1, IDXGIAdapter1 interface [DXGI], IDXGIAdapter1 interface [DXGI],described, direct3ddxgi.idxgiadapter1, dxgi/IDXGIAdapter1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <b>IDXGIAdapter1</b> interface represents a display sub-system (including on
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>. <b>IDXGIAdapter1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter1</b> interface inherits from <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>. <b>IDXGIAdapter1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -93,7 +93,7 @@ This interface is not supported by DXGI 1.0, which shipped in Windows Vista and
 A display sub-system is often referred to as a video card, however, on some machines the display sub-system is part of the mother board.
 
 To enumerate the display sub-systems, use <a href="https://msdn.microsoft.com/351b7b2d-abb7-449e-bee2-eea96fef3b9d">IDXGIFactory1::EnumAdapters1</a>. To get an interface to the adapter for a
-            particular device, use <a href="https://msdn.microsoft.com/en-us/library/Bb174531(v=VS.85).aspx">IDXGIDevice::GetAdapter</a>. To create a software adapter, use <a href="https://msdn.microsoft.com/en-us/library/Bb174536(v=VS.85).aspx">IDXGIFactory::CreateSoftwareAdapter</a>.
+            particular device, use <a href="https://msdn.microsoft.com/ae113b36-47fd-4db1-b10c-ced22ec52435">IDXGIDevice::GetAdapter</a>. To create a software adapter, use <a href="https://msdn.microsoft.com/46c10086-aa57-42f6-a619-8c537e4ae406">IDXGIFactory::CreateSoftwareAdapter</a>.
           
 
 <b>Windows Phone 8:
@@ -112,7 +112,7 @@ To enumerate the display sub-systems, use <a href="https://msdn.microsoft.com/35
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>
+<a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>
  
 
  

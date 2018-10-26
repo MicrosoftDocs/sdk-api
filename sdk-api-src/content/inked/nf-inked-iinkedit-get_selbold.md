@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selbold.htm
 tech.root: tablet
 ms.assetid: 423f9303-38e9-4d70-88cd-e6503a9f0a64
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelBold property, IInkEdit.SelBold, IInkEdit.get_SelBold, IInkEdit::SelBold, IInkEdit::get_SelBold, IInkEdit::put_SelBold, InkEdit.get_SelBold, InkEdit.put_SelBold, NULL, SelBold property [Tablet PC], SelBold property [Tablet PC],IInkEdit interface, TRUE, get_SelBold, inked/IInkEdit::SelBold, inked/IInkEdit::get_SelBold, inked/IInkEdit::put_SelBold, put_SelBold, tablet.inkedit_selbold
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SFBS_FLAGS.htm
 tech.root: shell
 ms.assetid: 9b26734b-bda4-4b60-92a3-fe5b3d360dd0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: SFBS_FLAGS, SFBS_FLAGS enumeration [Windows Shell], SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT, SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS, _shell_SFBS_FLAGS, shell.SFBS_FLAGS, shlwapi/SFBS_FLAGS, shlwapi/SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT, shlwapi/SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS, tagSFBS_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

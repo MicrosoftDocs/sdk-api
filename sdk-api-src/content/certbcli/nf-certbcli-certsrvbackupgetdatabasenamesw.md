@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdatabasenames.htm
 tech.root: seccrypto
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ A handle to a Certificate Services backup context.
 
 ### -param ppwszzAttachmentInformation [out]
 
-A pointer to a <b>WCHAR</b> pointer that will receive the list of null-terminated database file names. There is a null character after every file name and an extra null character at the end of the list. The file name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be the following value for this function. 
+A pointer to a <b>WCHAR</b> pointer that will receive the list of null-terminated database file names. There is a null character after every file name and an extra null character at the end of the list. The file name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be the following value for this function. 
 
 
 
@@ -91,7 +91,7 @@ Certificate Services database file name including path.
 </table>
  
 
-You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>. Before calling this function, setting *<i>ppwszzAttachmentInformation</i> to <b>NULL</b> is optional.
+You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>. Before calling this function, setting *<i>ppwszzAttachmentInformation</i> to <b>NULL</b> is optional.
 
 
 ### -param pcbSize [out]
@@ -117,9 +117,13 @@ This function's name in the Certadm.dll is <b>CertSrvBackupGetDatabaseNamesW</b>
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPGETDATABASENAMESW* pfnGetDBNames;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPGETDATABASENAMESW* pfnGetDBNames;
 char * szGetDBNamesFunc = "CertSrvBackupGetDatabaseNamesW";
 WCHAR *    pwszzDBFiles;
 DWORD      nListBytes=0;
@@ -140,7 +144,7 @@ if ( NULL == pfnGetDBNames )
 
 // Determine the names of the database files.
 // hCSBC was set by an earlier call to CertSrvBackupPrepare
-hr = pfnGetDBNames(hCSBC, &pwszzDBFiles, &nListBytes);
+hr = pfnGetDBNames(hCSBC, &amp;pwszzDBFiles, &amp;nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDBNames call [%x]\n", hr);
@@ -155,7 +159,7 @@ else
     {
         // Use the file name referenced by pwszFile.
         // Here it is merely displayed.
-        printf("%02x: %ws\n", *pwszFile, &pwszFile[1]);
+        printf("%02x: %ws\n", *pwszFile, &amp;pwszFile[1]);
         // Move to the next database file name.
         // + 1 moves past the null terminator.
         pwszFile+=(wcslen(pwszFile)) + 1; 
@@ -164,10 +168,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDBFiles);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -176,15 +180,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>
+<a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376584(v=VS.85).aspx">CertSrvBackupOpenFile</a>
+<a href="https://msdn.microsoft.com/5ddce73f-c693-437a-9eae-d7eaf482ee05">CertSrvBackupOpenFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

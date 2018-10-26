@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761657(v=VS.85).aspx">EM_SETRECT</a> message explicitly.
+Sets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/4f576e94-3bd3-4416-a960-b7f22da963ea">EM_SETRECT</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf1
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761657(v=VS.85).aspx">EM_SETRECT</a>.
+For more information, see <a href="https://msdn.microsoft.com/4f576e94-3bd3-4416-a960-b7f22da963ea">EM_SETRECT</a>.
 
 
 

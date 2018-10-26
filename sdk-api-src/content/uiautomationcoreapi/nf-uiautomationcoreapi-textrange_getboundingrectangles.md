@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetBoundingRectanglesConPat.htm
 tech.root: WinAuto
 ms.assetid: f6b9e6b5-554d-46cb-a423-e7e3f6fb3a04
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: TextRange_GetBoundingRectangles, TextRange_GetBoundingRectangles function [Windows Accessibility], uiauto.uiauto_TextRange_GetBoundingRectanglesConPat, uiauto_TextRange_GetBoundingRectanglesConPat, uiautomationcoreapi/TextRange_GetBoundingRectangles, winauto.uiauto_TextRange_GetBoundingRectanglesConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A text range object.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 When this function returns, contains 
 				an array of rectangle coordinates for the lines of text that the range spans. 

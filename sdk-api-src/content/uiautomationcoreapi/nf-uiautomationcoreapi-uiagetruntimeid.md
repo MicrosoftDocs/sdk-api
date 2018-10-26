@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetRuntimeIdAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 3b339cda-3569-4705-b5cf-028c354d627e
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: UiaGetRuntimeId, UiaGetRuntimeId function [Windows Accessibility], uiauto.uiauto_UiaGetRuntimeIdAutoMeth, uiauto_UiaGetRuntimeIdAutoMeth, uiautomationcoreapi/UiaGetRuntimeId, winauto.uiauto_UiaGetRuntimeIdAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,9 @@ The node for which the identifier is being requested.
 
 ### -param pruntimeId [out]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the runtime identifier of the type VT_I4. This parameter is passed uninitialized.
+The address of a variable that receives a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the runtime identifier of the type VT_I4. This parameter is passed uninitialized.
 
 
 ## -returns

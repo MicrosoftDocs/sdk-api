@@ -7,7 +7,7 @@ old-location: mscs\removeclusterresourcenode.htm
 tech.root: mscs
 ms.assetid: 1a5b59b9-5c19-4920-b150-b0b404629fb3
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE function [Failover Cluster], RemoveClusterResourceNode, RemoveClusterResourceNode function [Failover Cluster], _wolf_removeclusterresourcenode, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, clusapi/RemoveClusterResourceNode, mscs.removeclusterresourcenode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Removes a  <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> from the list of nodes that can host a  <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>. The <b>PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE</b> type defines a pointer to this function.
+Removes a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> from the list of nodes that can host a  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The <b>PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Handle to the node that should be removed from the list of potential host nodes 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -84,9 +84,9 @@ the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms68138
 
 
 
-Do not call  <b>RemoveClusterResourceNode</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>RemoveClusterResourceNode</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
-Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and can have additional destructive effects. For information on how LPC and RPC handles are created, see  <a href="https://msdn.microsoft.com/en-us/library/Aa372959(v=VS.85).aspx">Using Object Handles</a> and  <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>.
+Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and can have additional destructive effects. For information on how LPC and RPC handles are created, see  <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a> and  <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>.
 
 
 

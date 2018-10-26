@@ -7,7 +7,7 @@ old-location: rras\projection_info.htm
 tech.root: rras
 ms.assetid: 3f87d09a-2408-4fe4-97f9-61ed9b5d2fa5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PPROJECTION_INFO, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO, PPROJECTION_INFO structure pointer [RAS], PROJECTION_INFO, PROJECTION_INFO structure [RAS], _PROJECTION_INFO, mprapi/PPROJECTION_INFO, mprapi/PROJECTION_INFO, rras.projection_info"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\fnfciseek.htm
 tech.root: devnotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,9 +92,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCISEEK(fnFileSeek)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCISEEK(fnFileSeek)
 {
     INT iResult = 0;
 
@@ -109,10 +113,10 @@ FNFCISEEK(fnFileSeek)
 
     return iResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

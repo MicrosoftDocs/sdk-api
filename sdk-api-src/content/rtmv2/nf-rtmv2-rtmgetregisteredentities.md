@@ -7,7 +7,7 @@ old-location: rras\rtmgetregisteredentities.htm
 tech.root: rras
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RtmGetRegisteredEntities, RtmGetRegisteredEntities function [RAS], _rtmv2ref_rtmgetregisteredentities, rras.rtmgetregisteredentities, rtmv2/RtmGetRegisteredEntities
 ms.prod: windows-hardware
 ms.technology: windows-devices

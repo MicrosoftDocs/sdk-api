@@ -7,7 +7,7 @@ old-location: winprog\fnfcialloc.htm
 tech.root: devnotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,16 +72,20 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIALLOC(fnMemAlloc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIALLOC(fnMemAlloc)
 {
     return malloc(cb);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

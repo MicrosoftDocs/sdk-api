@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentpolicyserversetup_setproperty.htm
 tech.root: seccrypto
 ms.assetid: 81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],SetProperty method, ICertificateEnrollmentPolicyServerSetup.SetProperty, ICertificateEnrollmentPolicyServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::SetProperty, security.icertificateenrollmentpolicyserversetup_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/en
 
 ### -param propertyId [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
+A value of the <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ If you specify <b>ENUM_CEPSETUPPROP_KEYBASED_RENEWAL</b> in the <i>propertyId</i
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration type or you have tried to set the <b>ENUM_CEPSETUPPROP_URL</b> value.
+The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration type or you have tried to set the <b>ENUM_CEPSETUPPROP_URL</b> value.
 
 </td>
 </tr>
@@ -157,9 +157,9 @@ The <i>pPropertyValue</i> parameter cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object has not been initialized.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ If you are setting the <b>ENUM_CEPSETUPPROP_AUTHENTICATION</b> property, the <b>
 
 
 
-You must call <a href="https://msdn.microsoft.com/en-us/library/Ff808373(v=VS.85).aspx">InitializeInstallDefaults</a> before calling the <b>SetProperty</b> method.
+You must call <a href="https://msdn.microsoft.com/C7E82D9B-DC1A-4268-8973-5D07D977451D">InitializeInstallDefaults</a> before calling the <b>SetProperty</b> method.
 
 
 
@@ -194,15 +194,15 @@ You must call <a href="https://msdn.microsoft.com/en-us/library/Ff808373(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808372(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/52AD50BB-4146-44FC-BA32-9FC46FFE32E4">GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808373(v=VS.85).aspx">InitializeInstallDefaults</a>
+<a href="https://msdn.microsoft.com/C7E82D9B-DC1A-4268-8973-5D07D977451D">InitializeInstallDefaults</a>
  
 
  

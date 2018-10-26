@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm
 tech.root: termserv
 ms.assetid: a120ff15-2d78-4bca-b470-0eb03933a4d9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetEnvironmentProperty method, ITsSbResourcePluginStore.SetEnvironmentProperty, ITsSbResourcePluginStore::SetEnvironmentProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetEnvironmentProperty method, ITsSbResourcePluginStoreEx::SetEnvironmentProperty, SetEnvironmentProperty, SetEnvironmentProperty method [Remote Desktop Services], SetEnvironmentProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetEnvironmentProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStoreEx::SetEnvironmentProperty, termserv.itssbresourcepluginstore_setenvironmentproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

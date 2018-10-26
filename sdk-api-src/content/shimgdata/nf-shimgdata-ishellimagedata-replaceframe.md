@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_ReplaceFrame.htm
 tech.root: shell
 ms.assetid: f066c503-4512-46db-be50-016996b92668
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IShellImageData interface [Windows Shell],ReplaceFrame method, IShellImageData.ReplaceFrame, IShellImageData::ReplaceFrame, ReplaceFrame, ReplaceFrame method [Windows Shell], ReplaceFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_ReplaceFrame, shell.IShellImageData_ReplaceFrame, shimgdata/IShellImageData::ReplaceFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

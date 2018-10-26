@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetTable.htm
 tech.root: WinAuto
 ms.assetid: 6e84ec4d-9589-47b0-ae69-5d640141dd8b
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetTable, GetTable method [Windows Accessibility], GetTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetTable method, IUIAutomationProxyFactoryMapping.GetTable, IUIAutomationProxyFactoryMapping::GetTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::GetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves all entries in the proxy factory table.
 
 ### -param table [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives a pointer to an array of table entries.
 

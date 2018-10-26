@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_providerclsid_method.htm
 tech.root: seccrypto
 ms.assetid: 4ea109a9-00ed-46b5-a58c-7dc5bc936102
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderCLSID property, IOCSPCAConfiguration.ProviderCLSID, IOCSPCAConfiguration.get_ProviderCLSID, IOCSPCAConfiguration::ProviderCLSID, IOCSPCAConfiguration::get_ProviderCLSID, IOCSPCAConfiguration::put_ProviderCLSID, ProviderCLSID property [Security], ProviderCLSID property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderCLSID, certadm/IOCSPCAConfiguration::get_ProviderCLSID, certadm/IOCSPCAConfiguration::put_ProviderCLSID, get_ProviderCLSID, security.iocspcaconfiguration_providerclsid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

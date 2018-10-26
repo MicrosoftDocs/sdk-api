@@ -7,7 +7,7 @@ old-location: winprog\fcache_richcreate_callback.htm
 tech.root: devnotes
 ms.assetid: 86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: FCACHE_RICHCREATE_CALLBACK, FCACHE_RICHCREATE_CALLBACK callback, FCACHE_RICHCREATE_CALLBACK callback function [Windows API], filehc/FCACHE_RICHCREATE_CALLBACK, winprog.fcache_richcreate_callback
 ms.prod: windows
 ms.technology: windows-sdk

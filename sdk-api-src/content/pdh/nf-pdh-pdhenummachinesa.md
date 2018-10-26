@@ -7,7 +7,7 @@ old-location: perf\pdhenummachines.htm
 tech.root: perfctrs
 ms.assetid: 77584d3b-3ba5-4288-b730-be2458f4fc1c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PdhEnumMachines, PdhEnumMachines function [Perf], PdhEnumMachinesA, PdhEnumMachinesW, _win32_pdhenummachines, base.pdhenummachines, pdh/PdhEnumMachines, pdh/PdhEnumMachinesA, pdh/PdhEnumMachinesW, perf.pdhenummachines
 ms.prod: windows-hardware
 ms.technology: windows-devices

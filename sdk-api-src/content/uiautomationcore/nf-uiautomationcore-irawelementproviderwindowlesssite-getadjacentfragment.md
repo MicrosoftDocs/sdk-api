@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragme
 tech.root: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Receives the adjacent fragment.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="https://msdn.microsoft.com/en-us/library/Ee671588(v=VS.85).aspx">NavigateDirection_FirstChild</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671588(v=VS.85).aspx">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
+If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="uiauto_NavDirEnum.htm">NavigateDirection_FirstChild</a> or <a href="uiauto_NavDirEnum.htm">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
 
 
 
@@ -112,9 +112,13 @@ A provider typically calls this method as part of handling the <a href="https://
 
 The following C++ code example shows how to implement the <b>GetAdjacentFragment</b> method.
 
-
-```cpp
-IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
         enum NavigateDirection direction, IRawElementProviderFragment **ppFragment)   
 {
     if (ppFragment == NULL)
@@ -133,12 +137,12 @@ IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
 
                 // Call an application-defined function to retrieve the
                 // parent provider interface.
-                hr = GetParentProvider(&pSimple);  
+                hr = GetParentProvider(&amp;pSimple);  
                 if (SUCCEEDED(hr))  
                 {  
                     // Get the parent's IRawElementProviderFragment interface.
-                    hr = pSimple->QueryInterface(IID_PPV_ARGS(ppFragment));  
-                    pSimple->Release();  
+                    hr = pSimple-&gt;QueryInterface(IID_PPV_ARGS(ppFragment));  
+                    pSimple-&gt;Release();  
                 } 
             }  
             break;  
@@ -156,10 +160,10 @@ IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
   
     return hr;  
 }   
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

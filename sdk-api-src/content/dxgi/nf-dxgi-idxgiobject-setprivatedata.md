@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject_setprivatedata.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 5949633e-2d65-5d04-b6ba-29414dfded94, IDXGIObject interface [DXGI],SetPrivateData method, IDXGIObject.SetPrivateData, IDXGIObject::SetPrivateData, SetPrivateData, SetPrivateData method [DXGI], SetPrivateData method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedata, dxgi/IDXGIObject::SetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ Sets application-defined data to the object and associates that data with a GUID
 
 Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
 
-A GUID that identifies the data. Use this GUID in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb174543(v=VS.85).aspx">GetPrivateData</a> to get the data.
+A GUID that identifies the data. Use this GUID in a call to <a href="https://msdn.microsoft.com/d06e73e1-503b-44ad-9154-230d68797bc4">GetPrivateData</a> to get the data.
 
 
 ### -param DataSize
@@ -84,9 +84,9 @@ A pointer to the object's data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 
 
 
@@ -101,15 +101,19 @@ Private data that <b>SetPrivateData</b> stores in the object occupies the same s
 
 The <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">debug layer</a> reports memory leaks by outputting a list of object interface pointers along with their friendly names. The default friendly name is "&lt;unnamed&gt;". You can set the friendly name so that you can determine if the corresponding object interface pointer caused the leak. To set the friendly name, use the <b>SetPrivateData</b> method and the well-known private data GUID (<b>WKPDID_D3DDebugObjectName</b>) that is in D3Dcommon.h. For example, to give pContext a friendly name of <i>My name</i>, use the following code:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 static const char c_szName[] = "My name";
-hr = pContext->SetPrivateData( WKPDID_D3DDebugObjectName, sizeof( c_szName ) - 1, c_szName );
-
-```
-
-
+hr = pContext-&gt;SetPrivateData( WKPDID_D3DDebugObjectName, sizeof( c_szName ) - 1, c_szName );
+</pre>
+</td>
+</tr>
+</table></span></div>
 You can use <b>WKPDID_D3DDebugObjectName</b> to track down memory leaks and understand performance characteristics of your applications. This information is reflected in the output of the <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">debug layer</a> that is related to memory leaks (<a href="https://msdn.microsoft.com/a4e5f3c1-8b67-488b-8476-464c5ea5abc6">ID3D11Debug::ReportLiveDeviceObjects</a>) and with the <a href="https://msdn.microsoft.com/2203D2D2-ECF6-4753-90FA-12A52678DFBB">event tracing</a> for Windows events that we've added to Windows 8.
 
 
@@ -125,7 +129,7 @@ You can use <b>WKPDID_D3DDebugObjectName</b> to track down memory leaks and unde
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

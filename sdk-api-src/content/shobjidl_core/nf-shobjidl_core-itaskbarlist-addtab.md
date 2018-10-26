@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList_AddTab.htm
 tech.root: shell
 ms.assetid: 47d52ab8-f182-4bfb-8745-ad2d23197088
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: AddTab, AddTab method [Windows Shell], AddTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],AddTab method, ITaskbarList.AddTab, ITaskbarList::AddTab, _win32_ITaskbarList_AddTab, shell.ITaskbarList_AddTab, shobjidl_core/ITaskbarList::AddTab
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Any type of window can be added to the taskbar, but it is recommended that the window at least have the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CAPTION</a> style.
+Any type of window can be added to the taskbar, but it is recommended that the window at least have the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_CAPTION</a> style.
 
 Any window added with this method must be removed with the <a href="https://msdn.microsoft.com/bf1b3d27-5cd3-44c8-81e6-d9418d30ffe3">DeleteTab</a> method when the added window is destroyed.
 

@@ -7,7 +7,7 @@ old-location: perf\pdhcollectquerydataex.htm
 tech.root: perfctrs
 ms.assetid: 3fa1d193-03d0-44d8-a32b-b7754594d0ca
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,13 +143,17 @@ PDH stores the raw counter values for the current and previous collection. If yo
 
 The following example shows how to use this function.
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <pdh.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;pdh.h&gt;
 
 #pragma comment(lib, "pdh.lib")
 
@@ -167,14 +171,14 @@ void wmain(void)
     ULONG CounterType;
     PDH_FMT_COUNTERVALUE DisplayValue;
 
-    Status = PdhOpenQuery(NULL, 0, &Query);
+    Status = PdhOpenQuery(NULL, 0, &amp;Query);
     if (Status != ERROR_SUCCESS) 
     {
         wprintf(L"\nPdhOpenQuery failed with status 0x%x.", Status);
         goto Cleanup;
     }
 
-    Status = PdhAddCounter(Query, COUNTER_NAME, 0, &Counter);
+    Status = PdhAddCounter(Query, COUNTER_NAME, 0, &amp;Counter);
     if (Status != ERROR_SUCCESS) 
     {
         wprintf(L"\nPdhAddCounter failed with 0x%x.", Status);
@@ -217,13 +221,13 @@ void wmain(void)
     // Collect and format 10 samples, 2 seconds apart.
     //
 
-    for (ULONG i = 0; i < SAMPLE_COUNT; i++) 
+    for (ULONG i = 0; i &lt; SAMPLE_COUNT; i++) 
     {
         WaitResult = WaitForSingleObject(Event, INFINITE);
 
         if (WaitResult == WAIT_OBJECT_0) 
         {
-            Status = PdhGetFormattedCounterValue(Counter, PDH_FMT_DOUBLE, &CounterType, &DisplayValue);
+            Status = PdhGetFormattedCounterValue(Counter, PDH_FMT_DOUBLE, &amp;CounterType, &amp;DisplayValue);
 
             if (Status == ERROR_SUCCESS) 
             {
@@ -259,10 +263,10 @@ Cleanup:
         PdhCloseQuery(Query);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

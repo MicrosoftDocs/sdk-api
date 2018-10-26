@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_itembyname_method.htm
 tech.root: seccrypto
 ms.assetid: 0f7fe732-1d76-49c0-8b1e-a9950c85ca59
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],ItemByName property, IOCSPPropertyCollection.ItemByName, IOCSPPropertyCollection.get_ItemByName, IOCSPPropertyCollection::ItemByName, IOCSPPropertyCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::ItemByName, certadm/IOCSPPropertyCollection::get_ItemByName, get_ItemByName, security.iocsppropertycollection_itembyname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a>
+<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct2d\stringsetter.htm
 tech.root: direct2d
 ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienroll4_installpkcs7blobex.htm
 tech.root: seccrypto
 ms.assetid: 6a65eac6-3fe5-4464-876d-80eedaca7ae6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IEnroll4 interface [Security],InstallPKCS7BlobEx method, IEnroll4.InstallPKCS7BlobEx, IEnroll4::InstallPKCS7BlobEx, InstallPKCS7BlobEx, InstallPKCS7BlobEx method [Security], InstallPKCS7BlobEx method [Security],IEnroll4 interface, security.ienroll4_installpkcs7blobex, xenroll/IEnroll4::InstallPKCS7BlobEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

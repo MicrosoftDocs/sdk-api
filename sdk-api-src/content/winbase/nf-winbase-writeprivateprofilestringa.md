@@ -188,11 +188,15 @@ The following sample code illustrates the preceding guidelines and is based on s
 </li>
 <li>The user will not have to reboot the system in order to have future invocations of the application see the mapping of the .ini file to the registry.</li>
 </ul>
-
-```cpp
-#include <windows.h> 
-#include <tchar.h>
-#include <stdio.h> 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt; 
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt; 
  
 int main() 
 { 
@@ -210,8 +214,8 @@ int main()
        REG_OPTION_NON_VOLATILE, 
        KEY_WRITE, 
        NULL, 
-       &hKey1, 
-       &dwDisposition); 
+       &amp;hKey1, 
+       &amp;dwDisposition); 
  
    if (lRetCode != ERROR_SUCCESS)
    { 
@@ -247,8 +251,8 @@ int main()
                                REG_OPTION_NON_VOLATILE,
                                KEY_WRITE, 
                                NULL, 
-                               &hKey2, 
-                               &dwDisposition); 
+                               &amp;hKey2, 
+                               &amp;dwDisposition); 
  
    if (lRetCode != ERROR_SUCCESS) 
    { 
@@ -308,10 +312,10 @@ int main()
    
    return(1); 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

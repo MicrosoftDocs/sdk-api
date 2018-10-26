@@ -7,7 +7,7 @@ old-location: shell\IContextMenu_InvokeCommand.htm
 tech.root: shell
 ms.assetid: f3aaa84c-3b33-4288-a46a-cd80d3fa89cf
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IContextMenu interface [Windows Shell],InvokeCommand method, IContextMenu.InvokeCommand, IContextMenu::InvokeCommand, InvokeCommand, InvokeCommand method [Windows Shell], InvokeCommand method [Windows Shell],IContextMenu interface, _win32_IContextMenu_InvokeCommand, _win32_icontextmenu_win32_icontextmenu_invokecommand_cpp, shell.IContextMenu_InvokeCommand, shobjidl_core/IContextMenu::InvokeCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

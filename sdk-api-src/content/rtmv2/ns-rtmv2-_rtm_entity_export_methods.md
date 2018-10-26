@@ -7,7 +7,7 @@ old-location: rras\rtm_entity_export_methods.htm
 tech.root: rras
 ms.assetid: 8198cfad-9188-4f49-92ab-1750ec16aec4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS structure pointer [RAS], RTM_ENTITY_EXPORT_METHODS, RTM_ENTITY_EXPORT_METHODS structure [RAS], _RTM_ENTITY_EXPORT_METHODS, _rtmv2ref_rtm_entity_export_methods, rras.rtm_entity_export_methods, rtmv2/PRTM_ENTITY_EXPORT_METHODS, rtmv2/RTM_ENTITY_EXPORT_METHODS"
 ms.prod: windows
 ms.technology: windows-sdk

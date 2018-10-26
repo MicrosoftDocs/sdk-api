@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionVisual.SetTransform(IDCompositionTransform)
 title: IDCompositionVisual::SetTransform(IDCompositionTransform)
 author: windows-sdk-content
-description: Sets the Transform property of this visual to the specified 3-by-2 transform matrix.
-old-location: directcomp\idcompositionvisual_settransform_d2d1_matrix_3x2_f.htm
+description: Sets the Transform property of this visual to the specified 2D transform object.
+old-location: directcomp\idcompositionvisual_settransform_idcompositiontransform.htm
 tech.root: directcomp
-ms.assetid: 9179d0c4-f8de-4902-b0a8-a501e7bfbe61
+ms.assetid: 448B853E-B045-4D06-BCC8-E1578E36C20A
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransform method, IDCompositionVisual.SetTransform, IDCompositionVisual.SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform, IDCompositionVisual::SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform(const D2D_MATRIX_3X2_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransform, directcomp.idcompositionvisual_settransform_d2d1_matrix_3x2_f
+ms.date: 10/25/2018
+ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransform method, IDCompositionVisual.SetTransform, IDCompositionVisual.SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform, IDCompositionVisual::SetTransform(IDCompositionTransform), IDCompositionVisual::SetTransform(IDCompositionTransform*), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransform, directcomp.idcompositionvisual_settransform_idcompositiontransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the Transform property of this visual to the specified 3-by-2 transform matrix.  
+Sets the Transform property of this visual to the specified 2D transform object.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Sets the Transform property of this visual to the specified 3-by-2 transform mat
 
 
 
-### -param transform
+### -param transform [in, optional]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/22f0d199-5162-4869-909e-d0ed0059b773">IDCompositionTransform</a>*</b>
 
-
-
-
-#### - matrix [in, ref]
-
-Type: <b>const <a href="https://msdn.microsoft.com/c8a54bad-4376-479b-8529-1e407623e473">D2D_MATRIX_3X2_F</a></b>
-
-The 3-by-2 transform matrix that is used to modify  the coordinate system of this visual.
+The transform object that is used to modify  the coordinate system of this visual. This parameter can point to an <a href="https://msdn.microsoft.com/22f0d199-5162-4869-909e-d0ed0059b773">IDCompositionTransform</a> interface or one of its derived interfaces. This parameter can be NULL.
 
 
 ## -returns
@@ -91,7 +84,16 @@ Setting the Transform property transforms the coordinate system of the entire vi
 
 
 
-If the Transform property previously specified a transform object, the newly specified transform matrix replaces the transform object.
+If the Transform property previously specified a transform matrix, the newly specified transform object replaces the transform matrix.
+
+A transformation specified by the Transform property is applied after the OffsetX and OffsetY properties. In other words, the effect of setting the Transform property and the OffsetX and OffsetY properties is the same as setting only the Transform property on a transform group where the first member of the group is an <a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a> object that has those same OffsetX and OffsetY values. However, you should use the <a href="https://msdn.microsoft.com/5A90D9F4-E28D-49D6-9E5A-511E9479BD97">IDCompositionVisual::SetOffsetX</a> and <a href="https://msdn.microsoft.com/7FF2433A-1741-4177-85C8-F5AE0D920EB4">SetOffsetY</a> methods whenever possible because they are slightly faster. 
+
+This method fails if <i>transform</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+
+
+If the <i>transform</i> parameter is NULL, the coordinate system of this visual is transformed only by its OffsetX and OffsetY properties. Setting the Transform property to NULL is equivalent to setting it to an <a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a> object where the specified matrix is the identity matrix. However, an application should set the Transform property to NULL whenever possible because it is slightly faster.
+
+If the OffsetX and OffsetY properties are set to 0, and the Transform property is set to NULL, the coordinate system of the visual is the same as that of its parent.
 
 
 

@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacecreate.htm
 tech.root: rras
 ms.assetid: e368aa3c-bb80-49ed-a1da-39777dada960
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], _mpr_mprconfiginterfacecreate, mprapi/MprConfigInterfaceCreate, rras.mprconfiginterfacecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,7 +168,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

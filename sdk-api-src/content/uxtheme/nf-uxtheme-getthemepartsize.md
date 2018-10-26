@@ -65,7 +65,7 @@ Calculates the original size of the part defined by a visual style.
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -79,14 +79,14 @@ HDC to select fonts into.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part to calculate the size of. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part to calculate the size of. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param prc [in]
@@ -112,7 +112,7 @@ Pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa
 
 Type: <b>THEMESIZE</b>
 
-Enumerated type that specifies the type of size to retrieve. See <a href="https://msdn.microsoft.com/en-us/library/Bb759839(v=VS.85).aspx">THEMESIZE</a> for a list of type values.
+Enumerated type that specifies the type of size to retrieve. See <a href="https://msdn.microsoft.com/099d3d2d-a267-429c-abf5-6632bc8bc92a">THEMESIZE</a> for a list of type values.
 
 
 ## -returns
@@ -131,7 +131,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
  
 
  

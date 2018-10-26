@@ -7,7 +7,7 @@ old-location: mscs\clus_storage_get_available_driveletters.htm
 tech.root: mscs
 ms.assetid: 37a843db-bb11-46e5-9b1c-da8403f73aa6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure [Failover Cluster], PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure pointer [Failover Cluster], _CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, mscs.clus_storage_get_available_driveletters"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains a bitmask of the driver letters that are available on  a node. It is used as the return value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736300(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a> control code.
+Contains a bitmask of the driver letters that are available on  a node. It is used as the return value of the <a href="https://msdn.microsoft.com/7960baea-64b5-481b-9237-044ffa7b3b0a">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a> control code.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The least significant bit represents the letter 'A' and is set to zero if any pa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736300(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>
+<a href="https://msdn.microsoft.com/7960baea-64b5-481b-9237-044ffa7b3b0a">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>
  
 
  

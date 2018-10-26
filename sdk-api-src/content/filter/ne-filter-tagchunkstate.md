@@ -3,12 +3,12 @@ UID: NE:filter.tagCHUNKSTATE
 title: tagCHUNKSTATE
 author: windows-sdk-content
 description: Specifies whether the current chunk is a text-type property or a value-type property.
-old-location: search\_search_CHUNKSTATE.htm
-tech.root: search
-ms.assetid: VS|search|~\search\wds3x\reference\enums\chunkstate.htm
+old-location: indexsrv\chunkstate.htm
+tech.root: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_6mat.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [search], CHUNK_FILTER_OWNED_VALUE, CHUNK_TEXT, CHUNK_VALUE, _search_CHUNKSTATE, filter/CHUNKSTATE, filter/CHUNK_FILTER_OWNED_VALUE, filter/CHUNK_TEXT, filter/CHUNK_VALUE, search._search_CHUNKSTATE, tagCHUNKSTATE
+ms.date: 10/02/2018
+ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [Indexing Service], CHUNK_FILTER_OWNED_VALUE, CHUNK_TEXT, CHUNK_VALUE, _idxs_CHUNKSTATE, filter/CHUNKSTATE, filter/CHUNK_FILTER_OWNED_VALUE, filter/CHUNK_TEXT, filter/CHUNK_VALUE, indexsrv.chunkstate, tagCHUNKSTATE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -41,7 +41,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: CHUNKSTATE
-req.redist: the Windows NT 4.0 Option Pack
+req.redist: 
 ---
 
 # tagCHUNKSTATE enumeration
@@ -50,7 +50,10 @@ req.redist: the Windows NT 4.0 Option Pack
 ## -description
 
 
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+
 Specifies whether the current chunk is a text-type property or a value-type property.
+
 
 
 ## -enum-fields
@@ -78,27 +81,15 @@ Reserved.
 
 
 
-<b>Conceptual</b>
+<a href="https://msdn.microsoft.com/4d4f3150-deec-40b6-a945-b4cea241db8d">IFilter::GetChunk</a>
 
 
 
-<a href="https://msdn.microsoft.com/361b0edc-579f-471a-8b4d-4ef1ae242b32">GetChunk</a>
+<a href="https://msdn.microsoft.com/d63639a6-6729-44cd-8105-198a268ff2d6">IFilter::GetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a27f57a-eebe-4c72-91c6-25fc8ccc7822">GetText</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="https://msdn.microsoft.com/199e23f9-3cf8-48ba-8ad3-8122429c1640">STAT_CHUNK</a>
-
-
-
-<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/fb3e432d-3c8b-4567-9dc3-c35961f100ff">STAT_CHUNK</a>
  
 
  

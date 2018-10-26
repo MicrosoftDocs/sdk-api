@@ -7,7 +7,7 @@ old-location: mscs\resutilenumresourcesex.htm
 tech.root: mscs
 ms.assetid: e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX, PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster], ResUtilEnumResourcesEx, ResUtilEnumResourcesEx function [Failover Cluster], _wolf_resutilenumresourcesex, mscs.resutilenumresourcesex, resapi/PRESUTIL_ENUM_RESOURCES_EX, resapi/ResUtilEnumResourcesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 
 Enumerates all of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in a specified 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and initiates a user-defined operation for each 
+    <a href="c_gly.htm">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES_EX</b> type defines a pointer to this function.
 
 

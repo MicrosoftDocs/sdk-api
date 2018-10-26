@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer.htm
 tech.root: tablet
 ms.assetid: 6435b297-d6a7-418b-afc0-f8cc0b329842
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 6435b297-d6a7-418b-afc0-f8cc0b329842, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], IDynamicRenderer interface [Tablet PC],described, rtscom/IDynamicRenderer, tablet.idynamicrenderer
 ms.prod: windows
 ms.technology: windows-sdk

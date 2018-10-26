@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_perspectiveprojection.htm
 tech.root: direct2d
 ms.assetid: AE896E2E-752E-46D1-9281-4B3511D21468
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: Matrix4x4F interface [Direct2D],PerspectiveProjection method, Matrix4x4F.PerspectiveProjection, Matrix4x4F::PerspectiveProjection, PerspectiveProjection, PerspectiveProjection method [Direct2D], PerspectiveProjection method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::PerspectiveProjection, direct2d.matrix4x4f_perspectiveprojection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The depth for the perspective transform.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The result matrix.
 
@@ -81,7 +81,7 @@ The result matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

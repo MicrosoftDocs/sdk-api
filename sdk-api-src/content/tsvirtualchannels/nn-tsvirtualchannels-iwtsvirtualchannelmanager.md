@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannelmanager.htm
 tech.root: termserv
 ms.assetid: 289f76b8-dbb5-4f80-98e9-f39f7946494b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWTSVirtualChannelManager, IWTSVirtualChannelManager interface [Remote Desktop Services], IWTSVirtualChannelManager interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelmanager, tsvirtualchannels/IWTSVirtualChannelManager
 ms.prod: windows
 ms.technology: windows-sdk

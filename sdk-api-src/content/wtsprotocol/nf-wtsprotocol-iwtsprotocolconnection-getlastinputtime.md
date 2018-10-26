@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getlastinputtime.htm
 tech.root: termserv
 ms.assetid: 8daecbde-8866-4ae9-a07c-32d28d321392
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWTSProtocolConnection.GetLastInputTime, IWTSProtocolConnection::GetLastInputTime, termserv.iwtsprotocolconnection_getlastinputtime, wtsprotocol/IWTSProtocolConnection::GetLastInputTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

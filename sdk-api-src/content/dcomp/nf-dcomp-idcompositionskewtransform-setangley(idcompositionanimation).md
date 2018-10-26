@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the AngleY property of a 2D skew transform.
-old-location: directcomp\idcompositionskewtransform_setangley_float.htm
+description: Animates the value of the AngleY property of a 2D skew transform.
+old-location: directcomp\idcompositionskewtransform_setangley_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 5B356D5E-2F69-4620-880C-14F51786A8A5
+ms.assetid: f79ab50f-37f5-43d5-b7df-0cd1b65bdfcd
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY method, IDCompositionSkewTransform.SetAngleY, IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY, IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY(float), SetAngleY, SetAngleY method [DirectComposition], SetAngleY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleY, directcomp.idcompositionskewtransform_setangley_float
+ms.date: 10/25/2018
+ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY method, IDCompositionSkewTransform.SetAngleY, IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY, IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation*), SetAngleY, SetAngleY method [DirectComposition], SetAngleY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleY, directcomp.idcompositionskewtransform_setangley_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the AngleY property of a 2D skew transform. The AngleY property specifies the skew angle along the y-axis.
+Animates the value of the AngleY property of a 2D skew transform. The AngleY property specifies the skew angle along the y-axis.
 
 
 ## -parameters
@@ -58,23 +58,18 @@ Changes the value of the AngleY property of a 2D skew transform. The AngleY prop
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - angleY [in]
-
-Type: <b>float</b>
-
-The new skew angle of the y-axis, in degrees. A positive value creates a counterclockwise skew, and a negative value creates a clockwise skew. For values less than –360 or greater than 360, the values wrap around and are treated as if the mathematical operation mod(360) was applied.
+An animation object that represents how the value of the AngleY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
 
 
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
 
@@ -85,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>angleY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the AngleY property unless this method is called again. If the AngleY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the AngleY property was previously animated, this method removes the animation and sets the AngleY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

@@ -65,7 +65,7 @@ The <b>RESULT_VIEW_TYPE_INFO</b> structure is used in calls to
 
 ### -field pstrPersistableViewDescription
 
-Snap-in-provided identifier for this view type. When implementing <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a>, this member must contain a valid view description string; otherwise, MMC will not initialize your snap-in. Additionally, this value must be created by means of <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>. It will be freed by MMC, not the snap-in.
+Snap-in-provided identifier for this view type. When implementing <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a>, this member must contain a valid view description string; otherwise, MMC will not initialize your snap-in. Additionally, this value must be created by means of <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>. It will be freed by MMC, not the snap-in.
 
 
 ### -field eViewType
@@ -182,13 +182,13 @@ There is no list view in the OCX view.
 
 #### RVTI_OCX_OPTIONS_CACHE_OCX
 
-MMC will cache the OCX. If this value is specified, then the snap-in should maintain the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer for the OCX, so that if MMC calls <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> again, the snap-in returns the <b>IUnknown</b> pointer. MMC then identifies the cached OCX and reuses it. 
+MMC will cache the OCX. If this value is specified, then the snap-in should maintain the <a href="_com_iunknown">IUnknown</a> pointer for the OCX, so that if MMC calls <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> again, the snap-in returns the <b>IUnknown</b> pointer. MMC then identifies the cached OCX and reuses it. 
 Be aware that OCXs are cached for each <a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> object, so the snap-in should create a different OCX for each <b>IComponent</b> object even if<b> RVTI_OCX_OPTIONS_CACHE_OCX</b> is set.
 
 
 ### -field pUnkControl
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer for the OCX. This parameter applies only when the <b>eViewType</b> member is <b>MMC_VIEW_TYPE_OCX</b>. When a snap-in implements <a href="https://msdn.microsoft.com/b9e67a37-c09d-46f3-896f-e75122256812">IComponent2</a> and has an OCX in the result pane, the snap-in must create the OCX during the call to <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> and return the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer (through <b>pUnkControl</b>) to MMC. The snap-in must also initialize the OCX. MMC will not send a <a href="https://msdn.microsoft.com/79256d4a-a936-419e-a953-80d743d05290">MMCN_INITOCX</a> notification to the snap-in.
+The <a href="_com_iunknown">IUnknown</a> pointer for the OCX. This parameter applies only when the <b>eViewType</b> member is <b>MMC_VIEW_TYPE_OCX</b>. When a snap-in implements <a href="https://msdn.microsoft.com/b9e67a37-c09d-46f3-896f-e75122256812">IComponent2</a> and has an OCX in the result pane, the snap-in must create the OCX during the call to <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> and return the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer (through <b>pUnkControl</b>) to MMC. The snap-in must also initialize the OCX. MMC will not send a <a href="https://msdn.microsoft.com/79256d4a-a936-419e-a953-80d743d05290">MMCN_INITOCX</a> notification to the snap-in.
 
 
 ## -see-also

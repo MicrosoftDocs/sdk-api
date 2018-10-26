@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_gettablet.htm
 tech.root: tablet
 ms.assetid: 38970fc0-ec4c-4068-a146-83edaa040c8c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [Tablet PC], GetTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTablet method, IRealTimeStylus.GetTablet, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,31 +86,35 @@ This method returns, <i>ppiSingleTablet</i> will contain <b>NULL</b> when the Re
 
 The following C++ example code gets a pointer to the <a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a> object and uses that pointer to get the tablet's Plug and Play identifier.
 
-
-```cpp
-// Must be in single tablet mode for GetTablet to succeed. This call to
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Must be in single tablet mode for GetTablet to succeed. This call to
 // SetSingleTabletMode() would likely happen somewhere else in the app.
-if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
+if (SUCCEEDED(g_pRealTimeStylus-&gt;SetSingleTabletMode(pInkTablet)))
 {
     IInkTablet* pTablet = NULL;
 
-    if ((SUCCEEDED(g_pRealTimeStylus->GetTablet(&pTablet))) && (NULL != pTablet))
+    if ((SUCCEEDED(g_pRealTimeStylus-&gt;GetTablet(&amp;pTablet))) &amp;&amp; (NULL != pTablet))
     {
         BSTR bstrPnPID;
 
-        if (SUCCEEDED(pTablet->get_PlugAndPlayId(&bstrPnPID)))
+        if (SUCCEEDED(pTablet-&gt;get_PlugAndPlayId(&amp;bstrPnPID)))
         {
             TRACE("The tablet's Plug-n-Play ID is: %s\n", bstrPnPID);
         }
     }
 
     // Restore all tablets mode.
-    g_pRealTimeStylus->SetAllTabletsMode(TRUE);
+    g_pRealTimeStylus-&gt;SetAllTabletsMode(TRUE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: winprog\rtlfreeunicodestring.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeunicodestring.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString function [Windows API], winprog.rtlfreeunicodestring, winternl/RtlFreeUnicodeString, winui.rtlfreeunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 
 Frees the string buffer allocated by
-    <a href="https://msdn.microsoft.com/en-us/library/ms648413(v=VS.85).aspx">RtlAnsiStringToUnicodeString</a> or by <b>RtlUpcaseUnicodeString</b>.
+    <a href="https://msdn.microsoft.com/f49e58f7-0793-4bf3-a728-850b55dde9ba">RtlAnsiStringToUnicodeString</a> or by <b>RtlUpcaseUnicodeString</b>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Frees the string buffer allocated by
 ### -param UnicodeString [in, out]
 
 A pointer to the Unicode string whose
-        buffer was previously allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648413(v=VS.85).aspx">RtlAnsiStringToUnicodeString</a>.
+        buffer was previously allocated by <a href="https://msdn.microsoft.com/f49e58f7-0793-4bf3-a728-850b55dde9ba">RtlAnsiStringToUnicodeString</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This function does not return a value.
 
 
 
-This routine does not release the ANSI string buffer passed to <a href="https://msdn.microsoft.com/en-us/library/ms648413(v=VS.85).aspx">RtlAnsiStringToUnicodeString</a> or <b>RtlUpcaseUnicodeString</b>.
+This routine does not release the ANSI string buffer passed to <a href="https://msdn.microsoft.com/f49e58f7-0793-4bf3-a728-850b55dde9ba">RtlAnsiStringToUnicodeString</a> or <b>RtlUpcaseUnicodeString</b>.
 		
 
 Because there is no import library for this function, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.

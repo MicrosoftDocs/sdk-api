@@ -7,7 +7,7 @@ old-location: mscs\sr_replicated_disk_type.htm
 tech.root: mscs
 ms.assetid: 913367E0-B3C2-40D0-B516-6C2F834152BB
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PSR_REPLICATED_DISK_TYPE, PSR_REPLICATED_DISK_TYPE, PSR_REPLICATED_DISK_TYPE enumeration pointer [Failover Cluster], SR_REPLICATED_DISK_TYPE, SR_REPLICATED_DISK_TYPE enumeration [Failover Cluster], SrReplicatedDiskTypeDestination, SrReplicatedDiskTypeLogDestination, SrReplicatedDiskTypeLogNotInParthership, SrReplicatedDiskTypeLogSource, SrReplicatedDiskTypeNone, SrReplicatedDiskTypeNotInParthership, SrReplicatedDiskTypeOther, SrReplicatedDiskTypeSource, _SR_REPLICATED_DISK_TYPE, clusapi/PSR_REPLICATED_DISK_TYPE, clusapi/SR_REPLICATED_DISK_TYPE, clusapi/SrReplicatedDiskTypeDestination, clusapi/SrReplicatedDiskTypeLogDestination, clusapi/SrReplicatedDiskTypeLogNotInParthership, clusapi/SrReplicatedDiskTypeLogSource, clusapi/SrReplicatedDiskTypeNone, clusapi/SrReplicatedDiskTypeNotInParthership, clusapi/SrReplicatedDiskTypeOther, clusapi/SrReplicatedDiskTypeSource, mscs.sr_replicated_disk_type, resapi/PSR_REPLICATED_DISK_TYPE, resapi/SR_REPLICATED_DISK_TYPE, resapi/SrReplicatedDiskTypeDestination, resapi/SrReplicatedDiskTypeLogDestination, resapi/SrReplicatedDiskTypeLogNotInParthership, resapi/SrReplicatedDiskTypeLogSource, resapi/SrReplicatedDiskTypeNone, resapi/SrReplicatedDiskTypeNotInParthership, resapi/SrReplicatedDiskTypeOther, resapi/SrReplicatedDiskTypeSource"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Specifies the replicated disk types for the <a href="https://msdn.microsoft.com/en-us/library/Mt164375(v=VS.85).aspx">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
+Specifies the replicated disk types for the <a href="https://msdn.microsoft.com/0C020CC3-43CD-49ED-B42D-2365D76ED40D">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
 
 
 ## -enum-fields
@@ -104,7 +104,7 @@ Other.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

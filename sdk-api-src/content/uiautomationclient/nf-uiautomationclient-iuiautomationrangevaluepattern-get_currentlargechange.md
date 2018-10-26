@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange.h
 tech.root: WinAuto
 ms.assetid: 801d7a2c-387f-4770-980a-fc5fb98959d8
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: CurrentLargeChange property [Windows Accessibility], CurrentLargeChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentLargeChange property, IUIAutomationRangeValuePattern.CurrentLargeChange, IUIAutomationRangeValuePattern.get_CurrentLargeChange, IUIAutomationRangeValuePattern::CurrentLargeChange, IUIAutomationRangeValuePattern::get_CurrentLargeChange, get_CurrentLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange, uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CurrentLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="http://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
+The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
         
 
 

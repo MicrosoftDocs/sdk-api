@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>LinearGradientBrush::GetGammaCorrection</b> method determines whether gamma correction is enabled for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> object.
+			<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a> object.
 
 
 ## -parameters
@@ -79,11 +79,11 @@ If gamma correction is enabled, this method returns <b>TRUE</b>; otherwise, it r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
  
 
  

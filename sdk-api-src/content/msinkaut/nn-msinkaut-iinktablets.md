@@ -7,7 +7,7 @@ old-location: tablet\iinktablets.htm
 tech.root: tablet
 ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IInkTablets, IInkTablets interface [Tablet PC], IInkTablets interface [Tablet PC],described, msinkaut/IInkTablets, tablet.iinktablets
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_setalltabletsmode.htm
 tech.root: tablet
 ms.assetid: 30e8c0d3-6cae-476b-8fc5-f0d97b4b16f4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IInkPicture interface [Tablet PC],SetAllTabletsMode method, IInkPicture.SetAllTabletsMode, IInkPicture::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkPicture interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkPicture::SetAllTabletsMode, tablet.inkpicture_setalltabletsmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

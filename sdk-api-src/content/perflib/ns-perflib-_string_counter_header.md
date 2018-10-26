@@ -7,7 +7,7 @@ old-location: perf\perf_string_counter_header.htm
 tech.root: perfctrs
 ms.assetid: 73DFA1C0-B0E8-4788-8CBA-1CFA7580F633
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PPERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER structure [Perf], PPERF_STRING_COUNTER_HEADER, PPERF_STRING_COUNTER_HEADER structure pointer [Perf], _STRING_COUNTER_HEADER, perf.perf_string_counter_header, perflib/PERF_STRING_COUNTER_HEADER, perflib/PPERF_STRING_COUNTER_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

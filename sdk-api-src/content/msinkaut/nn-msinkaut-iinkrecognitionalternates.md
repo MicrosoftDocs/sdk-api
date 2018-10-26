@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternates.htm
 tech.root: tablet
 ms.assetid: 39f49762-de86-4a1a-ac7b-327b65c3eb54
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 39f49762-de86-4a1a-ac7b-327b65c3eb54, IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], IInkRecognitionAlternates interface [Tablet PC],described, msinkaut/IInkRecognitionAlternates, tablet.iinkrecognitionalternates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ Specifies the alternate at the known index in the collection.
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
+Gets either the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
 
 The <b>_NewEnum</b> property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces.
 

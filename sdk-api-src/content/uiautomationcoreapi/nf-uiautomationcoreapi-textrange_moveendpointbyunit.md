@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_MoveEndpointByUnitConPat.htm
 tech.root: WinAuto
 ms.assetid: 15afd438-c662-4cc1-b6b5-87e5bf82ccaa
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: TextRange_MoveEndpointByUnit, TextRange_MoveEndpointByUnit function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByUnitConPat, uiauto_TextRange_MoveEndpointByUnitConPat, uiautomationcoreapi/TextRange_MoveEndpointByUnit, winauto.uiauto_TextRange_MoveEndpointByUnitConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

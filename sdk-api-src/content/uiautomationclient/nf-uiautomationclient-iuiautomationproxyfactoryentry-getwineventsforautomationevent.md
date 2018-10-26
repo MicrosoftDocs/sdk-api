@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutom
 tech.root: WinAuto
 ms.assetid: f8daa90f-9fad-48c7-8f22-e8c673fca330
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetWinEventsForAutomationEvent, GetWinEventsForAutomationEvent method [Windows Accessibility], GetWinEventsForAutomationEvent method [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],GetWinEventsForAutomationEvent method, IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent, IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, uiauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiautomationclient/IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, winauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The property identifier. For a list of property IDs, see <a href="https://msdn.m
 
 ### -param winEvents [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives a pointer to the list of WinEvents that map to this event.
 

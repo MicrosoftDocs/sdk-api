@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionShadowEffect.SetStandardDeviation(IDCompositionAnimat
 title: IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the amount of blur to be applied to the alpha channel of the image.
-old-location: directcomp\idcompositionshadoweffect_setstandarddeviation.htm
+old-location: directcomp\idcompositionshadoweffect_setstandarddeviation_2.htm
 tech.root: directcomp
-ms.assetid: 5860E4F6-D778-4F10-ACE1-416E6D378528
+ms.assetid: B5470CF6-A24B-4168-904E-2465372B60FC
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionShadowEffect.SetStandardDeviation, IDCompositionShadowEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionShadowEffect::SetStandardDeviation, IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetStandardDeviation, directcomp.idcompositionshadoweffect_setstandarddeviation
+ms.date: 10/25/2018
+ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionShadowEffect.SetStandardDeviation, IDCompositionShadowEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionShadowEffect::SetStandardDeviation, IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetStandardDeviation, directcomp.idcompositionshadoweffect_setstandarddeviation_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,20 +58,14 @@ Sets the amount of blur to be applied to the alpha channel of the image.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amount [in]
-
-Type: <b>float</b>
-
-The amount of blur to be applied to the alpha channel of the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
-            The units of both the standard deviation and blur radius are DIPs.
-          
+An animation that represents how the amount of blur to be applied to the alpha channel of the image changes over time. 
+            You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
+            The units of both the standard deviation and blur radius are DIPs.          
+          This parameter must not be NULL.
 
 
 ## -returns

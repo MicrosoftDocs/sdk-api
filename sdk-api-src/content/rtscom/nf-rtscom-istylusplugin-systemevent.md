@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_systemevent.htm
 tech.root: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

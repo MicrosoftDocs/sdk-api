@@ -7,7 +7,7 @@ old-location: winauto\uiauto_idragprovider_getgrabbeditems.htm
 tech.root: WinAuto
 ms.assetid: B56F5975-279C-48C7-84C9-35BBBE222F6A
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetGrabbedItems, GetGrabbedItems method [Windows Accessibility], GetGrabbedItems method [Windows Accessibility],IDragProvider interface, IDragProvider interface [Windows Accessibility],GetGrabbedItems method, IDragProvider.GetGrabbedItems, IDragProvider::GetGrabbedItems, uiautomationcore/IDragProvider::GetGrabbedItems, winauto.uiauto_idragprovider_getgrabbeditems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If the user is dragging multiple items, the items are represented by a single master element with an associated set of grabbed elements.  The master element raises the appropriate events, to avoid having a large set of duplicate events.  The client can call <b>GetGrabbedItems</b> to retrieve the full list of grabbed items.  The provider should allocate a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> of appropriate length and add the Component Object Model (COM) pointers of the elements that are part of the drag operation.  
+If the user is dragging multiple items, the items are represented by a single master element with an associated set of grabbed elements.  The master element raises the appropriate events, to avoid having a large set of duplicate events.  The client can call <b>GetGrabbedItems</b> to retrieve the full list of grabbed items.  The provider should allocate a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> of appropriate length and add the Component Object Model (COM) pointers of the elements that are part of the drag operation.  
 
 
 

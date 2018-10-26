@@ -7,7 +7,7 @@ old-location: security\crypt_enrollment_name_value_pair.htm
 tech.root: seccrypto
 ms.assetid: 996bd28e-73c1-494e-957c-8dd4c7b8e064
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure [Security], _CRYPT_ENROLLMENT_NAME_VALUE_PAIR, _crypto2_crypt_enrollment_name_value_pair, security.crypt_enrollment_name_value_pair, wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
 ms.prod: windows
 ms.technology: windows-sdk

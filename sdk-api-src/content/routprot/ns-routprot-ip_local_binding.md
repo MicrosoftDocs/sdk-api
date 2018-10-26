@@ -7,7 +7,7 @@ old-location: rras\ip_local_binding.htm
 tech.root: rras
 ms.assetid: 121cc415-35eb-4c9b-a02d-c23be468d6bc
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding"
 ms.prod: windows
 ms.technology: windows-sdk

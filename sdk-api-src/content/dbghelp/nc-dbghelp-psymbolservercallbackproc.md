@@ -7,7 +7,7 @@ old-location: winprog\symbolservercallback.htm
 tech.root: devnotes
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
 ms.prod: windows
 ms.technology: windows-sdk

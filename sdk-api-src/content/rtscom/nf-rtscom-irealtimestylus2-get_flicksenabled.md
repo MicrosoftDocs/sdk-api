@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus2_get_flicksenabled.htm
 tech.root: tablet
 ms.assetid: b23d0a41-a5c4-40bc-a5d8-f8273119c92e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IRealTimeStylus2 interface [Tablet PC],get_FlicksEnabled method, IRealTimeStylus2.get_FlicksEnabled, IRealTimeStylus2::get_FlicksEnabled, b23d0a41-a5c4-40bc-a5d8-f8273119c92e, get_FlicksEnabled, get_FlicksEnabled method [Tablet PC], get_FlicksEnabled method [Tablet PC],IRealTimeStylus2 interface, rtscom/IRealTimeStylus2::get_FlicksEnabled, tablet.irealtimestylus2_get_flicksenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

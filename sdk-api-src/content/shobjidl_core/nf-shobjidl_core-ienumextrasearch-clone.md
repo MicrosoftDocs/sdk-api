@@ -7,7 +7,7 @@ old-location: shell\IEnumExtraSearch_Clone.htm
 tech.root: shell
 ms.assetid: 9d766cf9-784b-4e89-ad58-bab6415630fe
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExtraSearch interface, IEnumExtraSearch interface [Windows Shell],Clone method, IEnumExtraSearch.Clone, IEnumExtraSearch::Clone, _win32_IEnumExtraSearch_Clone, shell.IEnumExtraSearch_Clone, shobjidl_core/IEnumExtraSearch::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

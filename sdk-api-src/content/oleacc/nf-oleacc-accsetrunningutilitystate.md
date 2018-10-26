@@ -7,7 +7,7 @@ old-location: winauto\accsetrunningutilitystate.htm
 tech.root: WinAuto
 ms.assetid: 0AEDDE0D-D8E2-4C9E-AB2B-2FF0ACC3695D
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE_NODUCK, ANRUS_TOUCH_MODIFICATION_ACTIVE, AccSetRunningUtilityState, AccSetRunningUtilityState function [Windows Accessibility], oleacc/AccSetRunningUtilityState, winauto.accsetrunningutilitystate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -181,16 +181,20 @@ If not successful, returns a standard <a href="https://msdn.microsoft.com/e6deca
 
 Before it exits, an AT application should reset any system values that it previously set. 
 
-This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccSetRunningUtilityState</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://msdn.microsoft.com/0c3689e1-2124-4142-b0bd-233e95ee1285">Security Considerations for Assistive Technologies</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
+This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccSetRunningUtilityState</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://msdn.microsoft.com/0c3689e1-2124-4142-b0bd-233e95ee1285">Security Considerations for Assistive Technologies</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
 
 
 #### Examples
 
 This code example shows how to call the <b>AccSetRunningUtilityState</b> function.
 
-
-```cpp
-if (SUCCEEDED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
     // Tell the system that an AT application has registered with the 
     // touch redirector.
@@ -202,10 +206,10 @@ if (SUCCEEDED(hr))
         MyErrorHandler(hr); // Application-defined error handler
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

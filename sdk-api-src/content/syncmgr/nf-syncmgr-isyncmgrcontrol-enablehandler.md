@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_EnableHandler.htm
 tech.root: shell
 ms.assetid: 92a9525c-bf06-4720-a3e2-5352fa693c8e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: EnableHandler, EnableHandler method [Windows Shell], EnableHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableHandler method, ISyncMgrControl.EnableHandler, ISyncMgrControl::EnableHandler, _shell_ISyncMgrControl_EnableHandler, shell.ISyncMgrControl_EnableHandler, syncmgr/ISyncMgrControl::EnableHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,9 +114,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>EnableHandle
 
 The following example shows the usage of <b>ISyncMgrControl::EnableHandler</b> by a handler's procedure.
 
-
-```cpp
-void MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void MiscProc(...)
 {
     ...
 
@@ -125,23 +129,23 @@ void MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center to enable our handler.
-        hr = pControl->EnableHandler(TRUE, 
+        hr = pControl-&gt;EnableHandler(TRUE, 
                                      s_szMySyncHandlerID, 
                                      hwnd,
                                      SYNCMGR_CF_NOWAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

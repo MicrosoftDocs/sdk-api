@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_isstringsupported.htm
 tech.root: tablet
 ms.assetid: 5344044a-0973-4ab2-bf5c-74e0d07d4e76
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interface [Tablet PC],IsStringSupported method, IInkRecognizerContext.IsStringSupported, IInkRecognizerContext::IsStringSupported, IsStringSupported, IsStringSupported method [Tablet PC], IsStringSupported method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::IsStringSupported, tablet.inkrecognizercontext_isstringsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

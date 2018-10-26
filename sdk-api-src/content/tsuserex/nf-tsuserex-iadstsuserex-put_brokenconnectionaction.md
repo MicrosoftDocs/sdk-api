@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_brokenconnectionaction.htm
 tech.root: termserv
 ms.assetid: 4c5b2982-d8b6-413d-9758-1226074ad613
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: BrokenConnectionAction property [Remote Desktop Services], BrokenConnectionAction property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],BrokenConnectionAction property, IADsTSUserEx.BrokenConnectionAction, IADsTSUserEx.put_BrokenConnectionAction, IADsTSUserEx::BrokenConnectionAction, IADsTSUserEx::get_BrokenConnectionAction, IADsTSUserEx::put_BrokenConnectionAction, put_BrokenConnectionAction, termserv.iadstsuserex_brokenconnectionaction, tsuserex/IADsTSUserEx::BrokenConnectionAction, tsuserex/IADsTSUserEx::get_BrokenConnectionAction, tsuserex/IADsTSUserEx::put_BrokenConnectionAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_swap_chain_desc1.htm
 tech.root: direct3ddxgi
 ms.assetid: 38B302DF-5617-4195-8E4A-619D75188AD5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: DXGI_SWAP_CHAIN_DESC1, DXGI_SWAP_CHAIN_DESC1 structure [DXGI], direct3ddxgi.dxgi_swap_chain_desc1, dxgi1_2/DXGI_SWAP_CHAIN_DESC1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ A value that describes the resolution height. If you specify the height as zero 
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> structure that describes the 
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> structure that describes the 
       display format.
 
 
@@ -93,20 +93,20 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI
 Specifies whether the full-screen display mode or the swap-chain back buffer is stereo. 
       <b>TRUE</b> if stereo; otherwise, <b>FALSE</b>. If you specify stereo, you 
       must also specify a flip-model swap chain (that is, a swap chain that has the 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
+      <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
       value set in the <b>SwapEffect</b> member).
 
 
 ### -field SampleDesc
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that 
+A <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure that 
       describes multi-sampling parameters. This member is valid only with bit-block transfer (bitblt) model swap 
       chains.
 
 
 ### -field BufferUsage
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173078(v=VS.85).aspx">DXGI_USAGE</a>-typed value that describes the 
+A <a href="https://msdn.microsoft.com/b5026566-89b5-458e-b36d-a55e5f8c10c1">DXGI_USAGE</a>-typed value that describes the 
       surface usage and CPU access options for the back buffer. The back buffer can be used for shader input or 
       render-target output.
 
@@ -125,10 +125,10 @@ A <a href="https://msdn.microsoft.com/7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE">DXGI
 
 ### -field SwapEffect
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT</a>-typed value 
+A <a href="https://msdn.microsoft.com/211d53a9-1332-4e94-abd5-7df7f19094a6">DXGI_SWAP_EFFECT</a>-typed value 
       that describes the presentation model that is used by the swap chain and options for handling the contents of 
       the presentation buffer after presenting a surface. You must specify the 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
+      <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
       value when you call the 
       <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a> 
       method because this method supports only <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">flip 
@@ -144,7 +144,7 @@ A <a href="https://msdn.microsoft.com/DD3D1E49-06D2-4FB9-A41B-86453D8E566F">DXGI
 ### -field Flags
 
 A combination of 
-     <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are 
+     <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are 
      combined by using a bitwise OR operation. The resulting value specifies options for swap-chain behavior.
 
 
@@ -156,7 +156,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/B78E9F87-C6B0-
 
 <div class="alert"><b>Note</b>  You cannot cast a 
      <b>DXGI_SWAP_CHAIN_DESC1</b> to a 
-     <a href="https://msdn.microsoft.com/en-us/library/Bb173075(v=VS.85).aspx">DXGI_SWAP_CHAIN_DESC</a> and vice versa. An 
+     <a href="https://msdn.microsoft.com/819d4ff3-f717-46ab-a626-cff065681c79">DXGI_SWAP_CHAIN_DESC</a> and vice versa. An 
      application must explicitly use the 
      <a href="https://msdn.microsoft.com/86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2">IDXGISwapChain1::GetDesc1</a> method to 
      retrieve the newer version of the swap-chain description structure.</div>
@@ -165,14 +165,14 @@ In full-screen mode, there is a dedicated front buffer; in windowed mode, the de
 
 For a <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">flip-model</a> swap chain (that is, a swap 
      chain that has the 
-     <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
+     <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
      value set in the <b>SwapEffect</b> member), you must set the 
      <b>Format</b> member to 
-     <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R16G16B16A16_FLOAT</a>, 
+     <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R16G16B16A16_FLOAT</a>, 
      <b>DXGI_FORMAT_B8G8R8A8_UNORM</b>, or 
      <b>DXGI_FORMAT_R8G8B8A8_UNORM</b>; you must set the 
      <b>Count</b> member of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that the 
+     <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure that the 
      <b>SampleDesc</b> member specifies to one and the <b>Quality</b> member 
      of <b>DXGI_SAMPLE_DESC</b> to zero because multiple 
      sample antialiasing (MSAA) is not supported; you must set the <b>BufferCount</b> member to 

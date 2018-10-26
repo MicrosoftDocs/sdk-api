@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__GetToolbarItem.htm
 tech.root: shell
 ms.assetid: 9bce71ca-189e-4072-9acf-10c8b3a34c5c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

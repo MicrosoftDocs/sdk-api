@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the <a href="https://msdn.microsoft.com/en-us/library/Ee418785(v=VS.85).aspx">ReverbConvertI3DL2ToNative</a> function.
+Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the <a href="https://msdn.microsoft.com/0df56c6a-642c-4bfd-a5ad-ae8bbd627dc8">ReverbConvertI3DL2ToNative</a> function.
 
 
 ## -struct-fields
@@ -144,7 +144,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418785(v=VS.85).aspx">ReverbConvertI3DL2ToNative</a>
+<a href="https://msdn.microsoft.com/0df56c6a-642c-4bfd-a5ad-ae8bbd627dc8">ReverbConvertI3DL2ToNative</a>
 
 
 

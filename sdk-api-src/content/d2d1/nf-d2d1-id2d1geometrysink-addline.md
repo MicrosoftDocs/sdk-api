@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GeometrySink_AddLine.htm
 tech.root: direct2d
 ms.assetid: 9ab11c38-784b-4834-bced-cd560a5273f6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: AddLine, AddLine method [Direct2D], AddLine method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddLine method, ID2D1GeometrySink.AddLine, ID2D1GeometrySink::AddLine, d2d1/ID2D1GeometrySink::AddLine, direct2d.ID2D1GeometrySink_AddLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_getpoints.htm
 tech.root: tablet
 ms.assetid: 76378521-15d1-48a0-ae9f-8362faf60c9f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 76378521-15d1-48a0-ae9f-8362faf60c9f, GetPoints, GetPoints method [Tablet PC], GetPoints method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPoints method, IInkStrokeDisp.GetPoints, IInkStrokeDisp::GetPoints, msinkaut/IInkStrokeDisp::GetPoints, tablet.iinkstrokedisp_getpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

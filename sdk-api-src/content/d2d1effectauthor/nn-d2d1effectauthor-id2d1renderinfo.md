@@ -7,7 +7,7 @@ old-location: direct2d\id2d1renderinfo.htm
 tech.root: direct2d
 ms.assetid: 26FB6D27-7EE0-43DA-A575-D9FF77846A16
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ID2D1RenderInfo, ID2D1RenderInfo interface [Direct2D], ID2D1RenderInfo interface [Direct2D],described, d2d1effectauthor/ID2D1RenderInfo, direct2d.id2d1renderinfo
 ms.prod: windows
 ms.technology: windows-sdk

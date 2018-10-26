@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizerguide_columns.htm
 tech.root: tablet
 ms.assetid: dfc2848c-6cd6-4dd6-95b6-4097ef641835
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: Columns property [Tablet PC], Columns property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],Columns property, IInkRecognizerGuide.Columns, IInkRecognizerGuide.get_Columns, IInkRecognizerGuide::Columns, IInkRecognizerGuide::get_Columns, IInkRecognizerGuide::put_Columns, InkRecognizerGuide.get_Columns, InkRecognizerGuide.put_Columns, dfc2848c-6cd6-4dd6-95b6-4097ef641835, get_Columns, msinkaut/IInkRecognizerGuide::Columns, msinkaut/IInkRecognizerGuide::get_Columns, msinkaut/IInkRecognizerGuide::put_Columns, tablet.inkrecognizerguide_columns
 ms.prod: windows-hardware
 ms.technology: windows-devices

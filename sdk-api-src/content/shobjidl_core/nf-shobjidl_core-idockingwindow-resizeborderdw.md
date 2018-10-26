@@ -7,7 +7,7 @@ old-location: shell\IDockingWindow_ResizeBorderDW.htm
 tech.root: shell
 ms.assetid: de61badd-0794-484c-921f-4e72e881579c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ResizeBorderDW method, IDockingWindow.ResizeBorderDW, IDockingWindow::ResizeBorderDW, ResizeBorderDW, ResizeBorderDW method [Windows Shell], ResizeBorderDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ResizeBorderDW, shell.IDockingWindow_ResizeBorderDW, shobjidl_core/IDockingWindow::ResizeBorderDW
 ms.prod: windows-hardware
 ms.technology: windows-devices

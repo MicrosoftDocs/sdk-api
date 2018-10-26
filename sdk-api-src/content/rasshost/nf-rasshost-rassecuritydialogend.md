@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialogend.htm
 tech.root: rras
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
 ms.prod: windows-hardware
 ms.technology: windows-devices

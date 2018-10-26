@@ -7,7 +7,7 @@ old-location: security\ienroll4_addcerttypetorequestwstrex.htm
 tech.root: seccrypto
 ms.assetid: aa3bab0d-2ed4-4ef2-9665-a6c70e14308d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: AddCertTypeToRequestWStrEx, AddCertTypeToRequestWStrEx method [Security], AddCertTypeToRequestWStrEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],AddCertTypeToRequestWStrEx method, IEnroll4.AddCertTypeToRequestWStrEx, IEnroll4::AddCertTypeToRequestWStrEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, security.ienroll4_addcerttypetorequestwstrex, xenroll/IEnroll4::AddCertTypeToRequestWStrEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

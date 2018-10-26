@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getpacketdescriptiondata.htm
 tech.root: tablet
 ms.assetid: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8, GetPacketDescriptionData, GetPacketDescriptionData method [Tablet PC], GetPacketDescriptionData method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetPacketDescriptionData method, IRealTimeStylus.GetPacketDescriptionData, IRealTimeStylus::GetPacketDescriptionData, rtscom/IRealTimeStylus::GetPacketDescriptionData, tablet.irealtimestylus_getpacketdescriptiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,9 +108,13 @@ The order of properties in the stream of data sent to plug-ins is the same as th
 
 This C++ code example uses the <b>IRealTimeStylus::GetPacketDescriptionData Method</b> method to get information about the ink packet data.
 
-
-```cpp
-STDMETHODIMP CCustomRenderer::StylusUp( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CCustomRenderer::StylusUp( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPropCountPerPkt,
@@ -126,25 +130,25 @@ ULONG ulPacketProperties;
 PACKET_PROPERTY *pPacketProperties;
 
 // Get all the tablet context identifiers
-HRESULT hr = piRtsSrc->GetAllTabletContextIds(&ulTcidCount, &pTcids);
+HRESULT hr = piRtsSrc-&gt;GetAllTabletContextIds(&amp;ulTcidCount, &amp;pTcids);
 
 // Use the first tablet context identifier in the array
 tcid = *pTcids;
 
 // Get the packet description data
-hr = piRtsSrc->GetPacketDescriptionData(tcid, &fInkToDeviceScaleX, 
-                                        &fInkToDeviceScaleY, &ulPacketProperties,
-                                        &pPacketProperties);
+hr = piRtsSrc-&gt;GetPacketDescriptionData(tcid, &amp;fInkToDeviceScaleX, 
+                                        &amp;fInkToDeviceScaleY, &amp;ulPacketProperties,
+                                        &amp;pPacketProperties);
 
 // Use the packet description data to do things like scale the ink 
 // to the physical display device when rendering your own strokes
 
 	return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

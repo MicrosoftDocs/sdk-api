@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the alpha value for the effect.
-old-location: directcomp\idcompositionshadoweffect_setalpha.htm
+old-location: directcomp\idcompositionshadoweffect_setalpha_2.htm
 tech.root: directcomp
-ms.assetid: 78DAA4BF-3054-4F01-95CA-2575F0A83931
+ms.assetid: 2C0C85FC-83AF-4036-9BCE-730457FB483F
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation), IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha
+ms.date: 10/25/2018
+ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation), IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the alpha value for the effect.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amount [in]
-
-Type: <b>float</b>
-
-The alpha value for the effect.
+An animation that represents how the alpha value for the effect changes over time. This parameter must not be NULL.
 
 
 ## -returns

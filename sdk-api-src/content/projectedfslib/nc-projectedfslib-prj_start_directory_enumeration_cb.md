@@ -7,7 +7,7 @@ old-location: projfs\prj_start_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: 09F284D4-BF39-42C9-A89B-DDC8201362EE
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PRJ_START_DIRECTORY_ENUMERATION_CB, PRJ_START_DIRECTORY_ENUMERATION_CB callback, PRJ_START_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_start_directory_enumeration_cb, projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB
 ms.prod: windows
 ms.technology: windows-sdk

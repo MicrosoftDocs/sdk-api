@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform3d_setscalez_float.htm
 tech.root: directcomp
 ms.assetid: 9238ACAD-C6A6-4804-BF12-B28A498C03A9
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D.SetScaleZ(float), IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(float), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

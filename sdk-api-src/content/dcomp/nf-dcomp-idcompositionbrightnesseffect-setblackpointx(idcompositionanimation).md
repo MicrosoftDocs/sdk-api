@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionbrightnesseffect_setblackpointx_2.htm
 tech.root: directcomp
 ms.assetid: E575DB19-9C28-4C4F-9339-16F562542D32
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect.SetBlackPointX(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(IDCompositionAnimation), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

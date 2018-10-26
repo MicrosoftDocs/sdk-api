@@ -7,7 +7,7 @@ old-location: mscs\cluster_node_enum.htm
 tech.root: mscs
 ms.assetid: e8660f86-f4e5-4aa3-851a-94f0a230e12d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CLUSTER_NODE_ENUM, CLUSTER_NODE_ENUM enumeration [Failover Cluster], CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, CLUSTER_NODE_ENUM_PREFERRED_GROUPS, _CLUSTER_NODE_ENUM, _CLUSTER_NODE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NODE_ENUM, clusapi/CLUSTER_NODE_ENUM_ALL, clusapi/CLUSTER_NODE_ENUM_GROUPS, clusapi/CLUSTER_NODE_ENUM_NETINTERFACES, clusapi/CLUSTER_NODE_ENUM_PREFERRED_GROUPS, clusapi/_CLUSTER_NODE_ENUM, msclus/CLUSTER_NODE_ENUM, msclus/CLUSTER_NODE_ENUM_ALL, msclus/CLUSTER_NODE_ENUM_GROUPS, msclus/CLUSTER_NODE_ENUM_NETINTERFACES, msclus/CLUSTER_NODE_ENUM_PREFERRED_GROUPS, msclus/_CLUSTER_NODE_ENUM, mscs.cluster_node_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Network interfaces on the node, groups on the node, and groups that list the nod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

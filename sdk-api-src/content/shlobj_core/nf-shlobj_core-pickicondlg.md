@@ -7,7 +7,7 @@ old-location: shell\PickIconDlg.htm
 tech.root: shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylussynchronization.htm
 tech.root: tablet
 ms.assetid: fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], IRealTimeStylusSynchronization interface [Tablet PC],described, fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd, rtscom/IRealTimeStylusSynchronization, tablet.irealtimestylussynchronization
 ms.prod: windows
 ms.technology: windows-sdk

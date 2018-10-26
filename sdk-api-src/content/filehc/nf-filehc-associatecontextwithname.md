@@ -7,7 +7,7 @@ old-location: winprog\_associatecontextwithname.htm
 tech.root: devnotes
 ms.assetid: 4f4bbfda-3be0-41d3-9087-d46edd2e21a3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
 ms.prod: windows-hardware
 ms.technology: windows-devices

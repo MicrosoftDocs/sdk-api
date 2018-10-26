@@ -7,7 +7,7 @@ old-location: termserv\client_display.htm
 tech.root: termserv
 ms.assetid: 6436c049-d710-4208-882a-0c7e83b4a079
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCLIENT_DISPLAY, CLIENT_DISPLAY, CLIENT_DISPLAY structure [Remote Desktop Services], PCLIENT_DISPLAY, PCLIENT_DISPLAY structure pointer [Remote Desktop Services], __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001, sessdirpublictypes/CLIENT_DISPLAY, sessdirpublictypes/PCLIENT_DISPLAY, termserv.client_display"
 ms.prod: windows
 ms.technology: windows-sdk

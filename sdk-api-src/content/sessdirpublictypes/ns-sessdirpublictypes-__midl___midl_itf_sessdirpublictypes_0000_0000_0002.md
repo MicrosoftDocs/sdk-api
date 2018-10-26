@@ -7,7 +7,7 @@ old-location: termserv\tssd_connectionpoint.htm
 tech.root: termserv
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PTSSD_ConnectionPoint, PTSSD_ConnectionPoint, PTSSD_ConnectionPoint structure pointer [Remote Desktop Services], TSSD_ConnectionPoint, TSSD_ConnectionPoint structure [Remote Desktop Services], __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002, sessdirpublictypes/PTSSD_ConnectionPoint, sessdirpublictypes/TSSD_ConnectionPoint, termserv.tssd_connectionpoint"
 ms.prod: windows
 ms.technology: windows-sdk

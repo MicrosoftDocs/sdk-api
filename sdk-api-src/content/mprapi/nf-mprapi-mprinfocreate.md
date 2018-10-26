@@ -7,7 +7,7 @@ old-location: rras\mprinfocreate.htm
 tech.root: rras
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ The requested memory allocation could not be completed.
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The call failed. Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

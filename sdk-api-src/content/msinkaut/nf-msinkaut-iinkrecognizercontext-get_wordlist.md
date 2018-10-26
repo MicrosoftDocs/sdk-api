@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_wordlist.htm
 tech.root: tablet
 ms.assetid: 893950d4-c19c-4635-ad66-6e363860280a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 893950d4-c19c-4635-ad66-6e363860280a, IInkRecognizerContext interface [Tablet PC],WordList property, IInkRecognizerContext.WordList, IInkRecognizerContext.get_WordList, IInkRecognizerContext::WordList, IInkRecognizerContext::get_WordList, IInkRecognizerContext::putref_WordList, InkRecognizerContext.get_WordList, WordList property [Tablet PC], WordList property [Tablet PC],IInkRecognizerContext interface, get_WordList, msinkaut/IInkRecognizerContext::WordList, msinkaut/IInkRecognizerContext::get_WordList, msinkaut/IInkRecognizerContext::putref_WordList, putref_WordList, tablet.inkrecognizercontext_wordlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

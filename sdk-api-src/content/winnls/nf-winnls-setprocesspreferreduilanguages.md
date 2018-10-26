@@ -143,18 +143,22 @@ passed as "0409" and en as "0009".
 <div class="alert"><b>Note</b>  Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID.</div>
 <div> </div>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean SetProcessPreferredUILanguages(
             System.UInt32 dwFlags,
             System.String pwszLanguagesBuffer,
             ref System.UInt32 pulNumLanguages
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

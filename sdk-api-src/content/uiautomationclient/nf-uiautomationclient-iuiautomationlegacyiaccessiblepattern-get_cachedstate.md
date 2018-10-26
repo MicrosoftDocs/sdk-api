@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState.h
 tech.root: WinAuto
 ms.assetid: 0429138e-e218-4384-be21-666fe5ca5542
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: CachedState property [Windows Accessibility], CachedState property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedState property, IUIAutomationLegacyIAccessiblePattern.CachedState, IUIAutomationLegacyIAccessiblePattern.get_CachedState, IUIAutomationLegacyIAccessiblePattern::CachedState, IUIAutomationLegacyIAccessiblePattern::get_CachedState, get_CachedState, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedState, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_query_eligible_source_datadisks.htm
 tech.root: mscs
 ms.assetid: DA64413A-0FCB-4D25-A6D0-58C1E978455E
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS, clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, mscs.sr_resource_type_query_eligible_source_datadisks"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The cluster resource identifier of the data disk.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

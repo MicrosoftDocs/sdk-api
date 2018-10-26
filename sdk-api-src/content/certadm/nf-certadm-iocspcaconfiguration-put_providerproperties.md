@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_providerproperties_method.htm
 tech.root: seccrypto
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderProperties property, IOCSPCAConfiguration.ProviderProperties, IOCSPCAConfiguration.put_ProviderProperties, IOCSPCAConfiguration::ProviderProperties, IOCSPCAConfiguration::get_ProviderProperties, IOCSPCAConfiguration::put_ProviderProperties, ProviderProperties property [Security], ProviderProperties property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderProperties, certadm/IOCSPCAConfiguration::get_ProviderProperties, certadm/IOCSPCAConfiguration::put_ProviderProperties, put_ProviderProperties, security.iocspcaconfiguration_providerproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>ProviderProperties</b> property gets or sets information that provides certificate status responses. The revocation information provider configured in the <a href="https://msdn.microsoft.com/en-us/library/Aa386369(v=VS.85).aspx">ProviderCLSID</a> property uses <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation lists</a> (CRLs) specified in this property to provide responses.
+The <b>ProviderProperties</b> property gets or sets information that provides certificate status responses. The revocation information provider configured in the <a href="https://msdn.microsoft.com/4ea109a9-00ed-46b5-a58c-7dc5bc936102">ProviderCLSID</a> property uses <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs) specified in this property to provide responses.
 
 This property is read/write.
 
@@ -64,16 +64,16 @@ This property is read/write.
 
 
 
-The <b>VARIANT</b> returned in <i>pVal</i> is an <a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a> interface.
+The <b>VARIANT</b> returned in <i>pVal</i> is an <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.
 
 To work with revocation-information provider properties:
 
 <ol>
-<li>Create an <a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a> object.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/Aa386413(v=VS.85).aspx">InitializeFromProperties</a> and pass in the <b>VARIANT</b>, <i>pVal</i>, returned by the <b>ProviderProperties</b> property.</li>
-<li>Use the <a href="https://msdn.microsoft.com/en-us/library/Bb394801(v=VS.85).aspx">Methods</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb394806(v=VS.85).aspx">Properties</a> of the <a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a> interface.</li>
+<li>Create an <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> object.</li>
+<li>Call <a href="https://msdn.microsoft.com/e944af4e-80e4-470e-be04-770cf0f89871">InitializeFromProperties</a> and pass in the <b>VARIANT</b>, <i>pVal</i>, returned by the <b>ProviderProperties</b> property.</li>
+<li>Use the <a href="https://msdn.microsoft.com/7273a8ed-cf0e-40d8-8cac-4effbdf41ae8">Methods</a> and <a href="https://msdn.microsoft.com/c476b627-f558-4a39-86f7-de85d9138004">Properties</a> of the <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.</li>
 </ol>
-The following table lists the possible <a href="https://msdn.microsoft.com/en-us/library/Aa386391(v=VS.85).aspx">IOCSPProperty</a> <a href="https://msdn.microsoft.com/en-us/library/Aa386543(v=VS.85).aspx">Name</a> values and their data types for the default revocation-information provider.
+The following table lists the possible <a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a> <a href="https://msdn.microsoft.com/33980a7c-0ae5-470b-a55a-f3e19c8846a6">Name</a> values and their data types for the default revocation-information provider.
 
 <table>
 <tr>
@@ -119,7 +119,7 @@ The following table lists the possible <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

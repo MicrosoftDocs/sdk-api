@@ -7,7 +7,7 @@ old-location: mscs\setresourcelockedmode.htm
 tech.root: mscs
 ms.assetid: 000D127C-7BDE-4FC1-984E-2EE805E603FC
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PSET_RESOURCE_LOCKED_MODE_ROUTINE, PSET_RESOURCE_LOCKED_MODE_ROUTINE callback function [Failover Cluster], SetResourceLockedMode, SetResourceLockedMode callback, SetResourceLockedMode callback function [Failover Cluster], mscs.setresourcelockedmode, resapi/PSET_RESOURCE_LOCKED_MODE_ROUTINE, resapi/SetResourceLockedMode
 ms.prod: windows
 ms.technology: windows-sdk

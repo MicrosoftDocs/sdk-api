@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_pt
 tech.root: direct2d
 ms.assetid: 8f91ceca-c862-4173-b819-2a2668845c29
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ComputeLength, ComputeLength method [Direct2D], ComputeLength method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeLength method, ID2D1Geometry.ComputeLength, ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F,FLOAT), ID2D1Geometry::ComputeLength, ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F,FLOAT), ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F,FLOAT,FLOAT), d2d1/ID2D1Geometry::ComputeLength, direct2d.ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

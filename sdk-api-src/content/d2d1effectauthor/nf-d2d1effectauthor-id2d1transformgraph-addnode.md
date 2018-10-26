@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transformgraph_addnode.htm
 tech.root: direct2d
 ms.assetid: 1937BD5F-C26A-4E67-8E07-688A24DA201E
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: AddNode, AddNode method [Direct2D], AddNode method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],AddNode method, ID2D1TransformGraph.AddNode, ID2D1TransformGraph::AddNode, d2d1effectauthor/ID2D1TransformGraph::AddNode, direct2d.id2d1transformgraph_addnode
 ms.prod: windows-hardware
 ms.technology: windows-devices

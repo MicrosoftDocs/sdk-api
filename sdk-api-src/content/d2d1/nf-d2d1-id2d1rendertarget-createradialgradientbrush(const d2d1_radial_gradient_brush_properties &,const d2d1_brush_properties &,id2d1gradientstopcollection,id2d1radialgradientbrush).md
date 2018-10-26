@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateRadialGradientBrush_overload1.htm
 tech.root: direct2d
 ms.assetid: df87e288-392d-439e-8d03-e4866fde892f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [Direct2D], CreateRadialGradientBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateRadialGradientBrush method, ID2D1RenderTarget.CreateRadialGradientBrush, ID2D1RenderTarget.CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush), ID2D1RenderTarget::CreateRadialGradientBrush, ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES &,const D2D1_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1RadialGradientBrush), d2d1/ID2D1RenderTarget::CreateRadialGradientBrush, direct2d.ID2D1RenderTarget_CreateRadialGradientBrush_overload1, direct2d.ID2D1RenderTarget_CreateRadialGradientBrush_ref_D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ID2D1GradientStopCollection_ptr_ptr_ID2D1RadialGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

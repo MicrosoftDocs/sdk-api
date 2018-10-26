@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider.htm
 tech.root: WinAuto
 ms.assetid: e02731f8-e58d-4c66-95bf-005cf954471c
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: ISelectionProvider, ISelectionProvider interface [Windows Accessibility], ISelectionProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionProvider, uiauto_ISelectionProvider, uiautomationcore/ISelectionProvider, winauto.uiauto_ISelectionProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ Indicates whether the UI Automation provider requires at least one child element
 
 This interface is implemented by a UI Automation provider.
 
-Providers should raise an event of type <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
+Providers should raise an event of type <a href="uiauto_event_ids.htm">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
 
 
 

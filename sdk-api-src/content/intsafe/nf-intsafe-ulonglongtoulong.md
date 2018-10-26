@@ -7,7 +7,7 @@ old-location: shell\ULongLongToULong.htm
 tech.root: shell
 ms.assetid: d00be99c-f4ec-4a4e-98d1-6e96f5bd3a0c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: ULongLongToDWord, ULongLongToULong, ULongLongToULong function [Windows Shell], _shell_ULongLongToULong, intsafe/ULongLongToULong, shell.ULongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices

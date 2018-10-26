@@ -123,11 +123,15 @@ A thread can create more than one thread ordering group and join more than one t
 
 The following snippet creates a thread ordering group.
 
-
-```cpp
-#include <windows.h>
-#include <avrt.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;avrt.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Avrt.lib")
 
@@ -144,10 +148,10 @@ int main( void )
     timeout.QuadPart = Int32x32To64(_100NS_IN_1MS, 10000); // 10 seconds
 
     bRes = AvRtCreateThreadOrderingGroup( 
-            &hContext,
-            &period,
-            &guid,
-            &timeout );
+            &amp;hContext,
+            &amp;period,
+            &amp;guid,
+            &amp;timeout );
 
     if( bRes != TRUE )
     {
@@ -157,10 +161,10 @@ int main( void )
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

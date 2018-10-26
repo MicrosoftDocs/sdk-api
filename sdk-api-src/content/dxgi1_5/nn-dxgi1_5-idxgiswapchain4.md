@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain4.htm
 tech.root: direct3ddxgi
 ms.assetid: F24AF5B3-AEEF-433E-A597-4A588B9B1D2B
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IDXGISwapChain4, IDXGISwapChain4 interface [DXGI], IDXGISwapChain4 interface [DXGI],described, direct3ddxgi.idxgiswapchain4, dxgi1_5/IDXGISwapChain4
 ms.prod: windows
 ms.technology: windows-sdk

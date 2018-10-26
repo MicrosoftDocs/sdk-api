@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_extractstrokes.htm
 tech.root: tablet
 ms.assetid: 1cb109e5-5193-4022-a3b1-ade9be1337e8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 1cb109e5-5193-4022-a3b1-ade9be1337e8, ExtractStrokes, ExtractStrokes method [Tablet PC], ExtractStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractStrokes method, IInkDisp.ExtractStrokes, IInkDisp::ExtractStrokes, msinkaut/IInkDisp::ExtractStrokes, tablet.inkdisp_extractstrokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

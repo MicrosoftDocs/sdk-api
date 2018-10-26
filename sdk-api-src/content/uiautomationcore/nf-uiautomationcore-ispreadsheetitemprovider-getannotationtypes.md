@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 95DD80C7-AD98-42D5-BB2E-05ACA02F878A
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetAnnotationTypes, GetAnnotationTypes method [Windows Accessibility], GetAnnotationTypes method [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],GetAnnotationTypes method, ISpreadsheetItemProvider.GetAnnotationTypes, ISpreadsheetItemProvider::GetAnnotationTypes, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationTypes, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves an array of annotation type identifiers indicating the types of annota
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives an array of annotation type identifiers, one for each type of annotation associated with the spreadsheet cell. For a list of possible values, see <a href="https://msdn.microsoft.com/46948B7C-EC9F-4B55-B769-62EE8BE11D33">Annotation Type Identifiers</a>.
 

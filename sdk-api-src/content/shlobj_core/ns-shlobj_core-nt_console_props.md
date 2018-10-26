@@ -7,7 +7,7 @@ old-location: shell\NT_CONSOLE_PROPS_str.htm
 tech.root: shell
 ms.assetid: 02542cd4-be8f-45c0-ad0f-e1e39a45f5de
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: "*LPNT_CONSOLE_PROPS, LPNT_CONSOLE_PROPS, LPNT_CONSOLE_PROPS structure pointer [Windows Shell], NT_CONSOLE_PROPS, NT_CONSOLE_PROPS structure [Windows Shell], _win32_NT_CONSOLE_PROPS_str, shell.NT_CONSOLE_PROPS_str, shlobj_core/LPNT_CONSOLE_PROPS, shlobj_core/NT_CONSOLE_PROPS"
 ms.prod: windows
 ms.technology: windows-sdk

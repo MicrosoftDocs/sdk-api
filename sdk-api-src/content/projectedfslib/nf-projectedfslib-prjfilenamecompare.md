@@ -7,7 +7,7 @@ old-location: projfs\prjfilenamecompare.htm
 tech.root: ProjFS
 ms.assetid: A20C2E31-918D-4AE8-9C54-D88BB5DC21E7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PrjFileNameCompare, PrjFileNameCompare function, ProjFS.prjfilenamecompare, projectedfslib/PrjFileNameCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices

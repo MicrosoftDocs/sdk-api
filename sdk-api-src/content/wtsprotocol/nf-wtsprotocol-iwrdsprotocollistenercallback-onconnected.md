@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollistenercallback_onconnected.htm
 tech.root: termserv
 ms.assetid: 9d2d5393-f0a6-40ec-9bf2-2e8c945693db
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWRdsProtocolListenerCallback interface [Remote Desktop Services],OnConnected method, IWRdsProtocolListenerCallback.OnConnected, IWRdsProtocolListenerCallback::OnConnected, OnConnected, OnConnected method [Remote Desktop Services], OnConnected method [Remote Desktop Services],IWRdsProtocolListenerCallback interface, termserv.iwrdsprotocollistenercallback_onconnected, wtsprotocol/IWRdsProtocolListenerCallback::OnConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

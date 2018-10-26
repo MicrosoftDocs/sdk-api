@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider2_LastSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: 94A9A0EC-EE57-4D80-841E-7442139B9306
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: ISelectionProvider2 interface [Windows Accessibility],LastSelectedItem property, ISelectionProvider2.LastSelectedItem, ISelectionProvider2.get_LastSelectedItem, ISelectionProvider2::LastSelectedItem, ISelectionProvider2::get_LastSelectedItem, LastSelectedItem property [Windows Accessibility], LastSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, get_LastSelectedItem, uiautomationcore/ISelectionProvider2::LastSelectedItem, uiautomationcore/ISelectionProvider2::get_LastSelectedItem, winauto.uiauto_ISelectionProvider2_LastSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

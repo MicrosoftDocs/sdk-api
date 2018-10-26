@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgikeyedmutex.htm
 tech.root: direct3ddxgi
 ms.assetid: f790eb46-f116-4258-8c8d-de1ece4a1f21
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 624ec55f-8325-5294-526a-89138f1d7331, IDXGIKeyedMutex, IDXGIKeyedMutex interface [DXGI], IDXGIKeyedMutex interface [DXGI],described, direct3ddxgi.idxgikeyedmutex, dxgi/IDXGIKeyedMutex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Represents a keyed mutex, which allows exclusive access to a shared resource tha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIKeyedMutex</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174528(v=VS.85).aspx">IDXGIDeviceSubObject</a>. <b>IDXGIKeyedMutex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIKeyedMutex</b> interface inherits from <a href="https://msdn.microsoft.com/f2f3da88-76e9-4721-bc02-b3b82b7794b8">IDXGIDeviceSubObject</a>. <b>IDXGIKeyedMutex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -96,7 +96,7 @@ Using a key, releases exclusive rendering access to a shared resource.
 
 The <a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a> is required to create a resource capable of supporting the <b>IDXGIKeyedMutex</b> interface.
 
-An <b>IDXGIKeyedMutex</b> should be retrieved for each device sharing a resource. In Direct3D 10.1, such a resource that is shared between two or more devices is created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172412(v=VS.85).aspx">D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</a>  flag. In Direct3D 11, such a resource that is shared between two or more devices is created with the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a>  flag.
+An <b>IDXGIKeyedMutex</b> should be retrieved for each device sharing a resource. In Direct3D 10.1, such a resource that is shared between two or more devices is created with the <a href="https://msdn.microsoft.com/bdcb4e87-0285-4e96-a7ce-e08a43d3a4cb">D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</a>  flag. In Direct3D 11, such a resource that is shared between two or more devices is created with the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a>  flag.
 
 For information about creating a keyed mutex, see the <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> method.
 
@@ -112,7 +112,7 @@ For information about creating a keyed mutex, see the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174528(v=VS.85).aspx">IDXGIDeviceSubObject</a>
+<a href="https://msdn.microsoft.com/f2f3da88-76e9-4721-bc02-b3b82b7794b8">IDXGIDeviceSubObject</a>
  
 
  

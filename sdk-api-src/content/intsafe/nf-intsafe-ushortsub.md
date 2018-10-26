@@ -7,7 +7,7 @@ old-location: shell\UShortSub.htm
 tech.root: shell
 ms.assetid: 29365c4b-317f-4351-b684-a77b06593c2d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: UShortSub, UShortSub function [Windows Shell], WordSub, _shell_UShortSub, intsafe/UShortSub, shell.UShortSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

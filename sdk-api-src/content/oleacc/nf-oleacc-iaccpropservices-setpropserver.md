@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm
 tech.root: WinAuto
 ms.assetid: 15e43a38-4cb3-43ca-a0fc-28faf49057dc
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropServer method, IAccPropServices.SetPropServer, IAccPropServices::SetPropServer, SetPropServer, SetPropServer method [Windows Accessibility], SetPropServer method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropServer, msaa.iaccpropservices_iaccpropservices__setpropserver, oleacc/IAccPropServices::SetPropServer, winauto.iaccpropservices_iaccpropservices__setpropserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_settargetstate.htm
 tech.root: termserv
 ms.assetid: 5ba5c4c6-b644-45f7-8942-ee8ea543138d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetState method, ITsSbResourcePluginStore.SetTargetState, ITsSbResourcePluginStore::SetTargetState, SetTargetState, SetTargetState method [Remote Desktop Services], SetTargetState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetState, termserv.itssbresourcepluginstore_settargetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

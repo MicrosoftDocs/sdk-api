@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard97.htm
 tech.root: mscs
 ms.assetid: 3473dc89-8676-4b13-b3c8-f112c0b9cf8c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWEExtendWizard97, IWEExtendWizard97 interface [Failover Cluster], IWEExtendWizard97 interface [Failover Cluster],described, _wolf_iweextendwizard97, cluadmex/IWEExtendWizard97, mscs.iweextendwizard97
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,14 +55,14 @@ req.redist:
 
 Implement the <b>IWEExtendWizard97</b> interface 
     to add Wizard97-style wizard pages to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> wizard.
+    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> wizard.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard97</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWEExtendWizard97</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard97</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWEExtendWizard97</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IWEExtendWizard97</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">CreateWizard97Pages</a>
+<a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">CreateWizard97Pages</a>
 </td>
 <td align="left" width="63%">
 Allows you to create Wizard 97 wizard pages and add them to a Failover Cluster Administrator wizard.
@@ -89,7 +89,7 @@ Allows you to create Wizard 97 wizard pages and add them to a Failover Cluster A
 
 
 
-To create non-Wizard97 pages, see <a href="https://msdn.microsoft.com/en-us/library/Aa370724(v=VS.85).aspx">IWEExtendWizard</a>.
+To create non-Wizard97 pages, see <a href="https://msdn.microsoft.com/6407163e-a8ca-4601-88a0-ecf87e29b9ab">IWEExtendWizard</a>.
 
 
 
@@ -99,7 +99,7 @@ To create non-Wizard97 pages, see <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369071(v=VS.85).aspx">Failover Cluster Administrator Extension Interfaces</a>
+<a href="https://msdn.microsoft.com/a2306e94-47c6-441f-b06d-70e3f633f78e">Failover Cluster Administrator Extension Interfaces</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\cluster_enum_item.htm
 tech.root: mscs
 ms.assetid: 2E7FB4DA-88AD-4739-ACE0-D43670F914D4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCLUSTER_ENUM_ITEM, CLUSTER_ENUM_ITEM, CLUSTER_ENUM_ITEM structure [Failover Cluster], PCLUSTER_ENUM_ITEM, PCLUSTER_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_ENUM_ITEM, _CLUSTER_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_ENUM_ITEM, clusapi/PCLUSTER_ENUM_ITEM, clusapi/_CLUSTER_ENUM_ITEM, msclus/CLUSTER_ENUM_ITEM, msclus/PCLUSTER_ENUM_ITEM, msclus/_CLUSTER_ENUM_ITEM, mscs.cluster_enum_item"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ The name of the cluster.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

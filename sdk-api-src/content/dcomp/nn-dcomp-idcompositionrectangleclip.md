@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip.htm
 tech.root: directcomp
 ms.assetid: 486bcdb9-e353-4ca2-b24c-af863dda7470
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: IDCompositionRectangleClip, IDCompositionRectangleClip interface [DirectComposition], IDCompositionRectangleClip interface [DirectComposition],described, dcomp/IDCompositionRectangleClip, directcomp.idcompositionrectangleclip
 ms.prod: windows
 ms.technology: windows-sdk

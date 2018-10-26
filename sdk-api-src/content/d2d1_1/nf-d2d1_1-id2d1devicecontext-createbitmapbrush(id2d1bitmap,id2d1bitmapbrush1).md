@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createbitmapbrush4.htm
 tech.root: direct2d
 ms.assetid: ED701935-BA23-4D4F-A196-99480953ACBF
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CreateBitmapBrush, CreateBitmapBrush method [Direct2D], CreateBitmapBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapBrush method, ID2D1DeviceContext.CreateBitmapBrush, ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1), ID2D1DeviceContext::CreateBitmapBrush, ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1), d2d1_1/ID2D1DeviceContext::CreateBitmapBrush, direct2d.id2d1devicecontext_createbitmapbrush4
 ms.prod: windows-hardware
 ms.technology: windows-devices

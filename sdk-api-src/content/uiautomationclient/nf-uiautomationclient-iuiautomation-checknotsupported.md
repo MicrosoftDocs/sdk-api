@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CheckNotSupported.htm
 tech.root: WinAuto
 ms.assetid: c7fd7d1e-3f7b-4700-9263-2cab6e0de896
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: CheckNotSupported, CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CheckNotSupported method, IUIAutomation.CheckNotSupported, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Checks a provided <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> to see if it contains the Not Supported identifier.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Checks a provided <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-07
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
 
 The value to check.
 
@@ -69,7 +69,7 @@ The value to check.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
 
-Receives <b>TRUE</b> if the provided <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
+Receives <b>TRUE</b> if the provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
 
 
 ## -returns

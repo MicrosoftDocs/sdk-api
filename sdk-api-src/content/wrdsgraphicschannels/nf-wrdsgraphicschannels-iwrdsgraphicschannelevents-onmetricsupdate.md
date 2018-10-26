@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents_onmetricsupdate.htm
 tech.root: termserv
 ms.assetid: d955041a-6179-4bf2-9a1b-766f459f3776
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnMetricsUpdate method, IWRdsGraphicsChannelEvents.OnMetricsUpdate, IWRdsGraphicsChannelEvents::OnMetricsUpdate, OnMetricsUpdate, OnMetricsUpdate method [Remote Desktop Services], OnMetricsUpdate method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onmetricsupdate, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnMetricsUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mpr_interface_3.htm
 tech.root: rras
 ms.assetid: d761a9cf-7b56-48ad-b98b-60fc99d0d8ba
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PMPR_INTERFACE_3, MPRDM_DialAll, MPRDM_DialAsNeeded, MPRDT_Atm, MPRDT_FrameRelay, MPRDT_Generic, MPRDT_Irda, MPRDT_Isdn, MPRDT_Modem, MPRDT_Pad, MPRDT_Parallel, MPRDT_SW56, MPRDT_Serial, MPRDT_Sonet, MPRDT_Vpn, MPRDT_X25, MPRET_Direct, MPRET_Phone, MPRET_Vpn, MPRIDS_Disabled, MPRIDS_UseGlobalValue, MPRIO_DisableLcpExtensions, MPRIO_IpHeaderCompression, MPRIO_NetworkLogon, MPRIO_PromoteAlternates, MPRIO_RemoteDefaultGateway, MPRIO_RequireCHAP, MPRIO_RequireDataEncryption, MPRIO_RequireEAP, MPRIO_RequireEncryptedPw, MPRIO_RequireMsCHAP, MPRIO_RequireMsCHAP2, MPRIO_RequireMsEncryptedPw, MPRIO_RequirePAP, MPRIO_RequireSPAP, MPRIO_SecureLocalFiles, MPRIO_SharedPhoneNumbers, MPRIO_SpecificIpAddr, MPRIO_SpecificNameServers, MPRIO_SwCompression, MPRIO_UseLogonCredentials, MPRNP_Ip, MPRNP_Ipx, MPR_ET_None, MPR_ET_Optional, MPR_ET_Require, MPR_ET_RequireMax, MPR_INTERFACE_3, MPR_INTERFACE_3 structure [RAS], MPR_VS_Default, MPR_VS_L2tpFirst, MPR_VS_L2tpOnly, MPR_VS_PptpFirst, MPR_VS_PptpOnly, PMPR_INTERFACE_3, PMPR_INTERFACE_3 structure pointer [RAS], _MPR_INTERFACE_3, mprapi/MPR_INTERFACE_3, mprapi/PMPR_INTERFACE_3, rras.mpr_interface_3"
 ms.prod: windows
 ms.technology: windows-sdk

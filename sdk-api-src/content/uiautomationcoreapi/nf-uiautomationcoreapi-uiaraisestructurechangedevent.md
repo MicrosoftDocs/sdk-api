@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseStructureChangedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: 29137b40-4758-4c73-9596-8cb375b8d362
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ The type of change that occurred in the tree.
 Type: <b>int*</b>
 
 The runtime IDs for the child elements of the provider node 
-    where the tree change occurred. This parameter is used only when <i>structureChangeType</i> is <a href="https://msdn.microsoft.com/en-us/library/Ee671618(v=VS.85).aspx">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events.
+    where the tree change occurred. This parameter is used only when <i>structureChangeType</i> is <a href="uiauto_StructureChangeTypeEnum.htm">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events.
 
 <div class="alert"><b>Note</b>  For Windows 7, the array of integers pointed to by <i>pRuntimeId</i> can contain a partial set of 
     IDs that identify only those elements affected by the structure change.</div>

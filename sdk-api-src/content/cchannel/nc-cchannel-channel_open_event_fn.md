@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelopenevent.htm
 tech.root: termserv
 ms.assetid: 7412d125-1a3c-4e9a-9804-b612030682da
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CHANNEL_EVENT_DATA_RECEIVED, CHANNEL_EVENT_WRITE_CANCELLED, CHANNEL_EVENT_WRITE_COMPLETE, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_OPEN_EVENT_FN, CHANNEL_OPEN_EVENT_FN callback function [Remote Desktop Services], VirtualChannelOpenEvent callback, _win32_virtualchannelopenevent, cchannel/CHANNEL_OPEN_EVENT_FN, termserv.virtualchannelopenevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The <b>PCHANNEL_OPEN_EVENT_FN</b> type defines a pointer to this callback functi
 ### -param openHandle [in]
 
 Handle to the virtual channel. This is the handle returned in the <i>pOpenHandle</i> 
-      parameter of the <a href="https://msdn.microsoft.com/en-us/library/Aa383570(v=VS.85).aspx">VirtualChannelOpen</a> 
+      parameter of the <a href="https://msdn.microsoft.com/4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9">VirtualChannelOpen</a> 
       function.
 
 
@@ -87,7 +87,7 @@ The virtual channel received data from the server end. <i>pData</i> is a pointer
 #### CHANNEL_EVENT_WRITE_CANCELLED
 
 A write operation started by a 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa383576(v=VS.85).aspx">VirtualChannelWrite</a> call has been 
+         <a href="https://msdn.microsoft.com/bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab">VirtualChannelWrite</a> call has been 
          canceled. <i>pData</i> is the value specified in the <i>pUserData</i> 
          parameter of <b>VirtualChannelWrite</b>.
 
@@ -99,7 +99,7 @@ A write operation is canceled when the client session is disconnected. This noti
 #### CHANNEL_EVENT_WRITE_COMPLETE
 
 A write operation started by a 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa383576(v=VS.85).aspx">VirtualChannelWrite</a> call has 
+        <a href="https://msdn.microsoft.com/bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab">VirtualChannelWrite</a> call has 
         been completed. <i>pData</i> is the value specified in the 
         <i>pUserData</i> parameter of 
         <b>VirtualChannelWrite</b>.
@@ -190,13 +190,13 @@ This function has no return values.
 
 
 The client DLL uses the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa383570(v=VS.85).aspx">VirtualChannelOpen</a> function to 
+    <a href="https://msdn.microsoft.com/4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9">VirtualChannelOpen</a> function to 
     register a <b>VirtualChannelOpenEvent</b> 
     function for a specific virtual channel.
 
 You can use the same 
     <b>VirtualChannelOpenEvent</b> function for 
-    multiple calls to <a href="https://msdn.microsoft.com/en-us/library/Aa383570(v=VS.85).aspx">VirtualChannelOpen</a>.
+    multiple calls to <a href="https://msdn.microsoft.com/4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9">VirtualChannelOpen</a>.
 
 This function can be called with a different event type while it is executing. For example, it might be called 
     with <b>CHANNEL_EVENT_WRITE_COMPLETE</b> or 
@@ -212,7 +212,7 @@ This function can be called with a different event type while it is executing. F
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383570(v=VS.85).aspx">VirtualChannelOpen</a>
+<a href="https://msdn.microsoft.com/4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9">VirtualChannelOpen</a>
  
 
  

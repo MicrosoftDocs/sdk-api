@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_TranslateAcceleratorSB.htm
 tech.root: shell
 ms.assetid: dda5c085-7199-4b83-b03e-e4c715665157
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IShellBrowser interface [Windows Shell],TranslateAcceleratorSB method, IShellBrowser.TranslateAcceleratorSB, IShellBrowser::TranslateAcceleratorSB, TranslateAcceleratorSB, TranslateAcceleratorSB method [Windows Shell], TranslateAcceleratorSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_TranslateAcceleratorSB, shell.IShellBrowser_TranslateAcceleratorSB, shobjidl_core/IShellBrowser::TranslateAcceleratorSB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The command identifier value corresponding to the keystroke in the container-pro
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure containing the keystroke message.
+The address of an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure containing the keystroke message.
 
 
 ## -returns

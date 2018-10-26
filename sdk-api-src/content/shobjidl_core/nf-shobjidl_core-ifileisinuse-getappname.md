@@ -7,7 +7,7 @@ old-location: shell\IFileIsInUse_GetAppName.htm
 tech.root: shell
 ms.assetid: 282334a9-28b4-4c3f-977e-824011efe381
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: GetAppName, GetAppName method [Windows Shell], GetAppName method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetAppName method, IFileIsInUse.GetAppName, IFileIsInUse::GetAppName, _shell_IFileIsInUse_GetAppName, shell.IFileIsInUse_GetAppName, shobjidl_core/IFileIsInUse::GetAppName
 ms.prod: windows-hardware
 ms.technology: windows-devices

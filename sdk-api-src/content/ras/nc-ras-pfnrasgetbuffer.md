@@ -7,7 +7,7 @@ old-location: rras\rasgetbuffer.htm
 tech.root: rras
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
 ms.prod: windows
 ms.technology: windows-sdk

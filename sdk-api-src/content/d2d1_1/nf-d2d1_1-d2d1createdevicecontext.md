@@ -7,7 +7,7 @@ old-location: direct2d\d2d1createdevicecontext.htm
 tech.root: direct2d
 ms.assetid: 0e56d057-20a5-47b7-aec9-63c8e31f349b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1CreateDeviceContext, D2D1CreateDeviceContext function [Direct2D], d2d1_1/D2D1CreateDeviceContext, direct2d.d2d1createdevicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,15 +122,15 @@ If <i>creationProperties</i> are not specified, the Direct2D device will inherit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404272(v=VS.85).aspx">D2D1CreateDevice</a>
+<a href="https://msdn.microsoft.com/5ed3ec21-b609-41b6-9568-6ede460bc395">D2D1CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404273(v=VS.85).aspx">D2D1CreateDeviceContext</a>
+<a href="https://msdn.microsoft.com/0e56d057-20a5-47b7-aec9-63c8e31f349b">D2D1CreateDeviceContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404298(v=VS.85).aspx">D2D1_CREATION_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a5a3">D2D1_CREATION_PROPERTIES</a>
 
 
 

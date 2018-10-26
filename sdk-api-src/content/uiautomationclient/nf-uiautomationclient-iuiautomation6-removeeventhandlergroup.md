@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_RemoveEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 43BDE7F5-67DF-4DE5-AEDE-068421375E07
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveEventHandlerGroup method, IUIAutomation6.RemoveEventHandlerGroup, IUIAutomation6::RemoveEventHandlerGroup, RemoveEventHandlerGroup, RemoveEventHandlerGroup method [Windows Accessibility], RemoveEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup, winauto.uiauto_IUIAutomation6_RemoveEventHandlerGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ A pointer to the UI Automation element associated with the event handler group.
 
 ### -param handlerGroup
 
-The collection of event handlers.
+A collection of UI Automation event listeners.
 
 
 ## -returns

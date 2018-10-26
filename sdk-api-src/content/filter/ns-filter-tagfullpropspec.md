@@ -3,12 +3,12 @@ UID: NS:filter.tagFULLPROPSPEC
 title: tagFULLPROPSPEC
 author: windows-sdk-content
 description: Specifies a property set and a property within the property set.
-old-location: search\_search_FULLPROPSPEC.htm
-tech.root: search
-ms.assetid: VS|search|~\search\wds3x\reference\structures\fullpropspec.htm
+old-location: indexsrv\fullpropspec.htm
+tech.root: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [search], _search_FULLPROPSPEC, filter/FULLPROPSPEC, search._search_FULLPROPSPEC, tagFULLPROPSPEC
+ms.date: 10/02/2018
+ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -41,7 +41,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: FULLPROPSPEC
-req.redist: Windows NT 4.0 Option Pack
+req.redist: 
 ---
 
 # tagFULLPROPSPEC structure
@@ -49,6 +49,8 @@ req.redist: Windows NT 4.0 Option Pack
 
 ## -description
 
+
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Specifies a property set and a property within the property set.
 
@@ -60,16 +62,12 @@ Specifies a property set and a property within the property set.
 
 ### -field guidPropSet
 
-Type: <b>GUID</b>
-
-The GUID that identifies the property set.
+The globally unique identifier (GUID) that identifies the property set.
 
 
 ### -field psProperty
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a></b>
-
-The <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure that specifies a property either by its property identifier or by the associated string name.
+A pointer to the <a href="_stg_propspec">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
 
 
 ## -see-also
@@ -77,19 +75,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PR
 
 
 
-<a href="https://msdn.microsoft.com/c0ec3db9-23c4-449e-8106-572c432ea7cc">Init</a>
-
-
-
-<b>Other Resources</b>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>
-
-
-
-<b>Reference</b>
+<a href="https://msdn.microsoft.com/5cb9b675-258e-46b0-905f-15a086f84f74">IFilter::Init</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rras\mprconfigtransportcreate.htm
 tech.root: rras
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -189,7 +189,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ If the specified transport already exists,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedAriaRole.htm
 tech.root: WinAuto
 ms.assetid: 8e3671b0-49f5-4d8b-b2ab-51a976316191
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: CachedAriaRole property [Windows Accessibility], CachedAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaRole property, IUIAutomationElement.CachedAriaRole, IUIAutomationElement.get_CachedAriaRole, IUIAutomationElement::CachedAriaRole, IUIAutomationElement::get_CachedAriaRole, get_CachedAriaRole, uiauto.uiauto_IUIAutomationElement_CachedAriaRole, uiauto_IUIAutomationElement_CachedAriaRole, uiautomationclient/IUIAutomationElement::CachedAriaRole, uiautomationclient/IUIAutomationElement::get_CachedAriaRole, winauto.uiauto_IUIAutomationElement_CachedAriaRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ This property is read-only.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=149006">WAI-ARIA Overview</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=149006">WAI-ARIA Overview</a>
  
 
  

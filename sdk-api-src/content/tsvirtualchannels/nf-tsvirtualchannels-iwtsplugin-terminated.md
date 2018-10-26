@@ -7,7 +7,7 @@ old-location: termserv\iwtsplugin_terminated.htm
 tech.root: termserv
 ms.assetid: face8f79-f02d-465f-b716-1fa170fd6a33
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWTSPlugin interface [Remote Desktop Services],Terminated method, IWTSPlugin.Terminated, IWTSPlugin::Terminated, Terminated, Terminated method [Remote Desktop Services], Terminated method [Remote Desktop Services],IWTSPlugin interface, termserv.iwtsplugin_terminated, tsvirtualchannels/IWTSPlugin::Terminated
 ms.prod: windows-hardware
 ms.technology: windows-devices

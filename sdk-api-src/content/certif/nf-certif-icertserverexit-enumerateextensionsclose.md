@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensionsclose.htm
 tech.root: seccrypto
 ms.assetid: 769235cd-d5ef-458b-a04b-88f9f831ce3f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsClose method, EnumerateExtensionsClose, EnumerateExtensionsClose method [Security], EnumerateExtensionsClose method [Security],CCertServerExit object, EnumerateExtensionsClose method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsClose method, ICertServerExit.EnumerateExtensionsClose, ICertServerExit::EnumerateExtensionsClose, _certsrv_icertserverexit_enumerateextensionsclose, certif/ICertServerExit::EnumerateExtensionsClose, security.icertserverexit_enumerateextensionsclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 
 The <b>EnumerateExtensionsClose</b>  method frees any resources connected with extension enumeration.
 
-All applications that use <a href="https://msdn.microsoft.com/en-us/library/Aa385066(v=VS.85).aspx">ICertServerExit::EnumerateExtensionsSetup</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa385061(v=VS.85).aspx">ICertServerExit::EnumerateExtensions</a> should call <b>EnumerateExtensionsClose</b> when finished enumerating.
+All applications that use <a href="https://msdn.microsoft.com/2a0c4919-b3a0-4027-85bd-970f6bc0cdeb">ICertServerExit::EnumerateExtensionsSetup</a> and <a href="https://msdn.microsoft.com/8726f5fa-dc85-4357-b73a-013842d6ab78">ICertServerExit::EnumerateExtensions</a> should call <b>EnumerateExtensionsClose</b> when finished enumerating.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ All applications that use <a href="https://msdn.microsoft.com/en-us/library/Aa38
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
  
 
  

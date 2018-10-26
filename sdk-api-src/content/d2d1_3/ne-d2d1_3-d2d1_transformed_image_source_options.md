@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_transformed_image_source_options.htm
 tech.root: direct2d
 ms.assetid: 25A55F80-ACE0-4955-8483-687C7A7E4E20
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS, D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS enumeration [Direct2D], D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS_DISABLE_DPI_SCALE, D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS_NONE, d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS, d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS_DISABLE_DPI_SCALE, d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS_NONE, direct2d.d2d1_transformed_image_source_options
 ms.prod: windows
 ms.technology: windows-sdk

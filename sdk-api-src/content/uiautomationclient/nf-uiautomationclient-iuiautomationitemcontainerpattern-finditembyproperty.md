@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByPropert
 tech.root: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The property identifier. For a list of property IDs, see <a href="https://msdn.m
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
 
 The property value.
 

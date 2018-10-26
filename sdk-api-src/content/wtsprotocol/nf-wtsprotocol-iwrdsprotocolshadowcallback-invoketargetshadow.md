@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolshadowcallback_invoketargetshadow.htm
 tech.root: termserv
 ms.assetid: 76682f4c-2651-4f5d-b96d-4d84bae7933c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWRdsProtocolShadowCallback.InvokeTargetShadow, IWRdsProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWRdsProtocolShadowCallback::InvokeTargetShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation)
 title: IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the CenterX property of a 2D scale transform.
-old-location: directcomp\idcompositionscaletransform_setcenterx_float.htm
+description: Animates the value of the CenterX property of a 2D scale transform.
+old-location: directcomp\idcompositionscaletransform_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: C2DA7251-AB71-400A-9016-04EB4A6F0B5D
+ms.assetid: EA62C748-A741-49A4-8799-0825811D302F
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform.SetCenterX, IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX, IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterX, directcomp.idcompositionscaletransform_setcenterx_float
+ms.date: 10/25/2018
+ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform.SetCenterX, IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX, IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterX, directcomp.idcompositionscaletransform_setcenterx_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the CenterX property of a 2D scale transform.   The CenterX property specifies the x-coordinate of the point about which scaling is performed. 
+Animates the value of the CenterX property of a 2D scale transform. The CenterX property specifies the x-coordinate of the point about which scaling is performed.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the CenterX property of a 2D scale transform.   The CenterX
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - centerX [in]
-
-Type: <b>float</b>
-
-The new x-coordinate of the center point.
+An animation object that determines how the value of the CenterX property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>centerX</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the CenterX property unless this method is called again. If the CenterX property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the CenterX property was previously animated, this method removes the animation and sets the CenterX property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

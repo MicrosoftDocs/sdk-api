@@ -7,7 +7,7 @@ old-location: security\ienroll4_resetextensions.htm
 tech.root: seccrypto
 ms.assetid: 6e03ecaa-3996-4aea-b328-e438194f30d5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IEnroll4 interface [Security],resetExtensions method, IEnroll4.resetExtensions, IEnroll4::resetExtensions, resetExtensions, resetExtensions method [Security], resetExtensions method [Security],IEnroll4 interface, security.ienroll4_resetextensions, xenroll/IEnroll4::resetExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

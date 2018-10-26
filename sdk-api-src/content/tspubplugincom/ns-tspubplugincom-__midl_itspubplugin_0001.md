@@ -7,7 +7,7 @@ old-location: termserv\pluginresource.htm
 tech.root: termserv
 ms.assetid: 209dee74-c52e-4e31-9d1b-1e7c6c0d0121
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "__MIDL_ItsPubPlugin_0001, pluginResource, pluginResource structure [Remote Desktop Services], termserv.pluginresource, tspubplugincom/pluginResource"
 ms.prod: windows
 ms.technology: windows-sdk

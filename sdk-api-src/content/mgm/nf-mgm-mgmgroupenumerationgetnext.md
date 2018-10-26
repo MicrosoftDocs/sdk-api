@@ -7,7 +7,7 @@ old-location: rras\mgmgroupenumerationgetnext.htm
 tech.root: rras
 ms.assetid: a5e659e9-b566-490b-831b-96f9de822ebf
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MgmGroupEnumerationGetNext, MgmGroupEnumerationGetNext function [RAS], _mpr_mgmgroupenumerationgetnext, mgm/MgmGroupEnumerationGetNext, rras.mgmgroupenumerationgetnext
 ms.prod: windows-hardware
 ms.technology: windows-devices

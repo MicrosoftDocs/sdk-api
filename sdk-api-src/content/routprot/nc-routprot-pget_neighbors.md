@@ -7,7 +7,7 @@ old-location: rras\getneighbors.htm
 tech.root: rras
 ms.assetid: 31a28a43-3cfd-4d3c-813e-8f8289d99712
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetNeighbors, GetNeighbors callback function [RAS], PGET_NEIGHBORS, PGET_NEIGHBORS callback, _mpr_getneighbors, routprot/GetNeighbors, rras.getneighbors
 ms.prod: windows
 ms.technology: windows-sdk

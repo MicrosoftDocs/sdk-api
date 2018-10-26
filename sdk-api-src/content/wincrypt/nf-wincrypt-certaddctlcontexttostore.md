@@ -7,7 +7,7 @@ old-location: security\certaddctlcontexttostore.htm
 tech.root: seccrypto
 ms.assetid: e8858f75-77a1-4c5f-a3e3-a645c5e0f053
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCTLContextToStore, CertAddCTLContextToStore function [Security], _crypto2_certaddctlcontexttostore, security.certaddctlcontexttostore, wincrypt/CertAddCTLContextToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -235,7 +235,7 @@ To remove the CTL context from the certificate store, use the  <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

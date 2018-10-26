@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectionremovequarantine.htm
 tech.root: rras
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MprAdminConnectionRemoveQuarantine, MprAdminConnectionRemoveQuarantine function [RAS], _mpr_mpradminconnectionremovequarantine, mprapi/MprAdminConnectionRemoveQuarantine, rras.mpradminconnectionremovequarantine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,7 +138,7 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 
 
-If <a href="https://msdn.microsoft.com/library/ms688288(v=VS.85).aspx">Internet Authentication Service (IAS)</a> policies configure regular filters, then these filters are added to the RAS client interface as a result of calling 
+If <a href="ias.ias_start_page">Internet Authentication Service (IAS)</a> policies configure regular filters, then these filters are added to the RAS client interface as a result of calling 
 <b>MprAdminConnectionRemoveQuarantine</b>.
 
 

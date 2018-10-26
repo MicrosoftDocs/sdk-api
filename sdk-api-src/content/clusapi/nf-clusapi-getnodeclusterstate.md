@@ -7,7 +7,7 @@ old-location: mscs\getnodeclusterstate.htm
 tech.root: mscs
 ms.assetid: 67534bc8-f19e-4330-850a-788a7f031f5b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNotRunning, ClusterStateRunning, GetNodeClusterState, GetNodeClusterState function [Failover Cluster], PCLUSAPI_GET_NODE_CLUSTER_STATE, PCLUSAPI_GET_NODE_CLUSTER_STATE function [Failover Cluster], _wolf_getnodeclusterstate, clusapi/GetNodeClusterState, clusapi/PCLUSAPI_GET_NODE_CLUSTER_STATE, mscs.getnodeclusterstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,8 +53,8 @@ req.redist:
 ## -description
 
 
-Determines whether the <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> is installed and 
-    running on a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>. The <b>PCLUSAPI_GET_NODE_CLUSTER_STATE</b> type defines a pointer to this function.
+Determines whether the <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> is installed and 
+    running on a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>. The <b>PCLUSAPI_GET_NODE_CLUSTER_STATE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Pointer to a null-terminated Unicode string containing the name of the node to q
 ### -param pdwClusterState [out]
 
 Pointer to a value describing the state of the Cluster service on the node. A node will be described by one 
-       of the following <a href="https://msdn.microsoft.com/en-us/library/Bb394679(v=VS.85).aspx">NODE_CLUSTER_STATE</a> enumeration 
+       of the following <a href="https://msdn.microsoft.com/cc3b5bdc-79d7-4578-bfa5-8e57df4670e6">NODE_CLUSTER_STATE</a> enumeration 
        values.
 
 
@@ -104,7 +104,7 @@ The Cluster service is installed, configured, and running on the node.
 
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0). If the operation 
-       fails, the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+       fails, the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -114,7 +114,7 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0). If the
 
 
 <b>Note</b>  The <b>GetNodeClusterState</b> function does not 
-     support a 64-bit Windows-based <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> if the calling application is 
+     support a 64-bit Windows-based <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> if the calling application is 
      32-bit Windows-based.
 
 
@@ -125,11 +125,11 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0). If the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394679(v=VS.85).aspx">NODE_CLUSTER_STATE</a>
+<a href="https://msdn.microsoft.com/cc3b5bdc-79d7-4578-bfa5-8e57df4670e6">NODE_CLUSTER_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
  
 
  

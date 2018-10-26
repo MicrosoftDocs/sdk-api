@@ -7,7 +7,7 @@ old-location: rras\rasphonebookdlg.htm
 tech.root: rras
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,10 +97,14 @@ If the user selects the <b>Connect</b> button and the function establishes a con
 
 The following sample code brings up the <b>Dial-Up Networking</b> dialog. The dialog  displays dialing information for the first entry from the default phonebook file.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "rasdlg.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -115,7 +119,7 @@ int main (){
     
     // The dwsize member of lpInfo must contain the structure size, or the 
     // call to RasPhonebookDlg will fail
-    lpInfo->dwSize = sizeof(RASPBDLG);
+    lpInfo-&gt;dwSize = sizeof(RASPBDLG);
      
     // Open a user dialog box  
     nRet = RasPhonebookDlg(NULL,NULL,lpInfo);
@@ -124,8 +128,8 @@ int main (){
         // The user dialed a connection successfully
         printf("User pressed Connect\n");
     }else{
-        if(lpInfo->dwError != 0){
-            printf("RasPhonebookDlg failed: Error = %d\n", lpInfo->dwError);
+        if(lpInfo-&gt;dwError != 0){
+            printf("RasPhonebookDlg failed: Error = %d\n", lpInfo-&gt;dwError);
         }else{
             // The user closed the dialog box manually
             printf("User pressed Close\n");
@@ -136,10 +140,10 @@ int main (){
     HeapFree(GetProcessHeap(), 0, lpInfo);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

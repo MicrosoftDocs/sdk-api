@@ -7,7 +7,7 @@ old-location: security\certverifycrlrevocation.htm
 tech.root: seccrypto
 ms.assetid: a46ac5b5-bc44-4857-a7fb-4f35d438e3f7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security], _crypto2_certverifycrlrevocation, security.certverifycrlrevocation, wincrypt/CertVerifyCRLRevocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 The <b>CertVerifyCRLRevocation</b> function check a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) to determine whether a subject's certificate has or has not been revoked. The new 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
 
 
 ## -parameters
@@ -118,7 +118,7 @@ It returns <b>FALSE</b> if the certificate is on the list and therefore has been
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

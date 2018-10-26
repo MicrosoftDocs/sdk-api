@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded.ht
 tech.root: WinAuto
 ms.assetid: b5902d9b-e008-4b91-933e-82506718eecd
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: AdviseEventAdded, AdviseEventAdded method [Windows Accessibility], AdviseEventAdded method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventAdded method, IRawElementProviderAdviseEvents.AdviseEventAdded, IRawElementProviderAdviseEvents::AdviseEventAdded, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventAdded, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The identifier of the event being added. For a list of event IDs, see <a href="h
 
 ### -param propertyIDs [in]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
 A pointer to the identifiers of properties being added, or <b>NULL</b> if the event listener 
 				being added is not listening for property events.

@@ -7,7 +7,7 @@ old-location: security\cryptverifydetachedmessagesignature.htm
 tech.root: seccrypto
 ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -198,7 +198,7 @@ The message's signature was not verified.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

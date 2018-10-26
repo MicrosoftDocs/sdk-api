@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_mask_from_len.htm
 tech.root: rras
 ms.assetid: 7f4a67d9-e707-413e-8cc3-600eb7968b82
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RTM_IPV4_MASK_FROM_LEN, RTM_IPV4_MASK_FROM_LEN macro [RAS], _rtmv2ref_rtm_ipv4_mask_from_len, rras.rtm_ipv4_mask_from_len, rtmv2/RTM_IPV4_MASK_FROM_LEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,16 +72,20 @@ For example, if a client supplies the <i>Len</i> 24, the mask 255.255.255.255 is
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_IPV4_MASK_FROM_LEN(Len)                         \
-        ((Len) ? htonl(~0 << (32 - (Len))): 0);             \       
-
-```
-
-
+        ((Len) ? htonl(~0 &lt;&lt; (32 - (Len))): 0);             \       
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

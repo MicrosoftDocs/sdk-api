@@ -7,7 +7,7 @@ old-location: rras\rtmgetnexthoppointer.htm
 tech.root: rras
 ms.assetid: 61fa3fa2-1cad-4930-975e-8f5b86ad3b05
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RtmGetNextHopPointer, RtmGetNextHopPointer function [RAS], _rtmv2ref_rtmgetnexthoppointer, rras.rtmgetnexthoppointer, rtmv2/RtmGetNextHopPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

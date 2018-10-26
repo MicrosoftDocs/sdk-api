@@ -7,7 +7,7 @@ old-location: mscs\clusctl_group_get_last_move_time_output.htm
 tech.root: mscs
 ms.assetid: C8292546-4220-4A5D-91C6-03687DD06A9B
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure [Failover Cluster], PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure pointer [Failover Cluster], _CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, clusapi/CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, clusapi/PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, mscs.clusctl_group_get_last_move_time_output"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ The unique ID of the node that owns the group.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_sprite_options.htm
 tech.root: direct2d
 ms.assetid: 64B7D987-A79C-412C-8D12-53E21DD8DDD9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1_SPRITE_OPTIONS, D2D1_SPRITE_OPTIONS enumeration [Direct2D], D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, D2D1_SPRITE_OPTIONS_NONE, d2d1_3/D2D1_SPRITE_OPTIONS, d2d1_3/D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, d2d1_3/D2D1_SPRITE_OPTIONS_NONE, direct2d.d2d1_sprite_options
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">ID2D1DeviceContext3::DrawSpriteBatch</a>.
+Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="https://msdn.microsoft.com/66d049ca-5d4b-1570-3fa3-8991f9fc97a0">ID2D1DeviceContext3::DrawSpriteBatch</a>.
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RadialGradientBrush_GetCenter.htm
 tech.root: direct2d
 ms.assetid: 9f6fd69b-bc0e-458c-8e39-546103874fe9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetCenter, GetCenter method [Direct2D], GetCenter method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetCenter method, ID2D1RadialGradientBrush.GetCenter, ID2D1RadialGradientBrush::GetCenter, d2d1/ID2D1RadialGradientBrush::GetCenter, direct2d.ID2D1RadialGradientBrush_GetCenter
 ms.prod: windows-hardware
 ms.technology: windows-devices

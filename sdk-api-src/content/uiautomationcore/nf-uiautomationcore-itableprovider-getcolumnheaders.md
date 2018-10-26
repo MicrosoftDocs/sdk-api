@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableProvider_GetColumnHeaders.htm
 tech.root: WinAuto
 ms.assetid: ee7a4e40-58eb-4400-96c2-0d2196837a24
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [Windows Accessibility], GetColumnHeaders method [Windows Accessibility],ITableProvider interface, ITableProvider interface [Windows Accessibility],GetColumnHeaders method, ITableProvider.GetColumnHeaders, ITableProvider::GetColumnHeaders, uiauto.uiauto_ITableProvider_GetColumnHeaders, uiauto_ITableProvider_GetColumnHeaders, uiautomationcore/ITableProvider::GetColumnHeaders, winauto.uiauto_ITableProvider_GetColumnHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ Gets a collection of Microsoft UI Automation providers
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
-Receives a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains an array of pointers to the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> interfaces
+Receives a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains an array of pointers to the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> interfaces
 				of the column headers. This parameter is passed uninitialized.
 
 

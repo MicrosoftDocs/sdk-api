@@ -70,7 +70,7 @@ The number of video present sources in the array that the <b>sources</b> member 
 
 ### -field sources
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
+An array of <a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
 
 
 ## -see-also
@@ -82,7 +82,7 @@ An array of <a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
  
 
  

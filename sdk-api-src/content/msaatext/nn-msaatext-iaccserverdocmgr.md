@@ -7,7 +7,7 @@ old-location: winauto\iaccserverdocmgr.htm
 tech.root: WinAuto
 ms.assetid: a69d46b1-26d2-4121-b89a-42c53343d426
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IAccServerDocMgr, IAccServerDocMgr interface [Windows Accessibility], IAccServerDocMgr interface [Windows Accessibility],described, msaa.iaccserverdocmgr, msaatext/IAccServerDocMgr, winauto.iaccserverdocmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods that make documents accessible to client applications. 

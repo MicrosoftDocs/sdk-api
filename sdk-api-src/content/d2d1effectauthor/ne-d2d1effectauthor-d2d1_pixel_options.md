@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_pixel_options.htm
 tech.root: direct2d
 ms.assetid: 285cf526-d8f6-4ae7-a017-066e397078b0
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1_PIXEL_OPTIONS, D2D1_PIXEL_OPTIONS enumeration [Direct2D], D2D1_PIXEL_OPTIONS_NONE, D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING, d2d1effectauthor/D2D1_PIXEL_OPTIONS, d2d1effectauthor/D2D1_PIXEL_OPTIONS_NONE, d2d1effectauthor/D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING, direct2d.d2d1_pixel_options
 ms.prod: windows
 ms.technology: windows-sdk

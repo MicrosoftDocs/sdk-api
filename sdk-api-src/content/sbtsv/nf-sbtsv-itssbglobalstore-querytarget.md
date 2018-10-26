@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_querytarget.htm
 tech.root: termserv
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QueryTarget method, ITsSbGlobalStore.QueryTarget, ITsSbGlobalStore::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QueryTarget, termserv.itssbglobalstore_querytarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

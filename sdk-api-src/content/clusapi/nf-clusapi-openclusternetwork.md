@@ -7,7 +7,7 @@ old-location: mscs\openclusternetwork.htm
 tech.root: mscs
 ms.assetid: a888ca91-e56f-42bc-81c5-9235c6fd5172
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: OpenClusterNetwork, OpenClusterNetwork function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK, PCLUSAPI_OPEN_CLUSTER_NETWORK function [Failover Cluster], _wolf_openclusternetwork, clusapi/OpenClusterNetwork, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK, mscs.openclusternetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Opens a connection to a <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a> and returns a handle 
+Opens a connection to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a> and returns a handle 
     to it. The <b>PCLUSAPI_OPEN_CLUSTER_NETWORK</b> type defines a pointer to this function.
 
 
@@ -61,7 +61,7 @@ Opens a connection to a <a href="https://msdn.microsoft.com/en-us/library/Aa3715
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszNetworkName [in]
@@ -88,7 +88,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371731(v=VS.85).aspx">Failover Cluster Network Management Functions</a>
+<a href="https://msdn.microsoft.com/7908db54-f432-4aee-aaf4-91f763ffa3a0">Failover Cluster Network Management Functions</a>
 
 
 

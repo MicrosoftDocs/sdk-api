@@ -7,7 +7,7 @@ old-location: security\certgetserverocspresponsecontext.htm
 tech.root: seccrypto
 ms.assetid: 07476e43-db6b-4119-8d6b-41143b98744e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CertGetServerOcspResponseContext, CertGetServerOcspResponseContext function [Security], security.certgetserverocspresponsecontext, wincrypt/CertGetServerOcspResponseContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

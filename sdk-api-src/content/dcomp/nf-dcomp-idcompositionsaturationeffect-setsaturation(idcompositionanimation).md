@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation
 title: IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the saturation of the image.
-old-location: directcomp\idcompositionsaturationeffect_setsaturation.htm
+old-location: directcomp\idcompositionsaturationeffect_setsaturation_2.htm
 tech.root: directcomp
-ms.assetid: A2BAE19A-FC9F-4476-9DBB-438FE2923246
+ms.assetid: 0F206128-A0F2-4BE3-A22D-2BAA8853099C
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation
+ms.date: 10/25/2018
+ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,12 @@ Sets the saturation of the image.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - ratio [in]
-
-Type: <b>float</b>
-
-The saturation of the image. You can set the saturation to a value between 0 and 1. If you set it to 1 the output image is fully saturated.
+An animation that represents how the saturation of the image changes over time. This parameter must not be NULL.
+            You can set the saturation to a value between 0 and 1. If you set it to 1 the output image is fully saturated.
             If you set it to 0 the output image is monochrome. The saturation value is unitless.
             
             The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:

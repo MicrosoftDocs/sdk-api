@@ -7,7 +7,7 @@ old-location: security\cmsg_signer_info.htm
 tech.root: seccrypto
 ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCMSG_SIGNER_INFO, CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _CMSG_SIGNER_INFO, _crypto2_cmsg_signer_info, security.cmsg_signer_info, wincrypt/CMSG_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

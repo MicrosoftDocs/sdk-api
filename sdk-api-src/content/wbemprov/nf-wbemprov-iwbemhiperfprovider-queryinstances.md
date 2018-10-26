@@ -63,7 +63,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
 
 
 ### -param wszClass [in]
@@ -125,9 +125,13 @@ The
 The following code example shows how to implement 
 <b>QueryInstances</b>.
 
-
-```cpp
-HRESULT CMyHiPerfProvider::QueryInstances(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyHiPerfProvider::QueryInstances(
     /* [in] */ IWbemServices* pNamespace,  
     /* [in] */ BSTR strClass,
     /* [in] */ long lFlags,
@@ -149,16 +153,16 @@ HRESULT CMyHiPerfProvider::QueryInstances(
     // Use the namespace pointer to retrieve a class
     // definition.
 
-   hRes = pNamespace ->GetObject(strClass, 0, NULL, &pClass, 0);
+   hRes = pNamespace -&gt;GetObject(strClass, 0, NULL, &amp;pClass, 0);
    if (WBEM_NO_ERROR==hRes)
        return hRes;
 
 
     // Now loop through the private source and create each instance.
 
-     for (int i = 0 ; i < NUM_OF_INSTANCES ; i++)
+     for (int i = 0 ; i &lt; NUM_OF_INSTANCES ; i++)
     {
-         hRes = pClass->SpawnInstance(0, &pNextInst);
+         hRes = pClass-&gt;SpawnInstance(0, &amp;pNextInst);
 
          // Exit loop if no new instance is spawned
          if (WBEM_S_FALSE == hRes)
@@ -172,25 +176,25 @@ HRESULT CMyHiPerfProvider::QueryInstances(
         /*FillInst(pNextInst);*/
 
         // Deliver the class to WMI.
-        pResponseHandler->Indicate(1, &pNextInst);
-        pNextInst->Release(); 
+        pResponseHandler-&gt;Indicate(1, &amp;pNextInst);
+        pNextInst-&gt;Release(); 
         pNextInst=NULL;
        }
     }
 
    // Send a finish message to WMI.
-    pResponseHandler->SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
+    pResponseHandler-&gt;SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
     // Free memory resources.
-    pNamespace->Release();
-    pClass->Release();
+    pNamespace-&gt;Release();
+    pClass-&gt;Release();
     SysFreeString(strClass);
 
   return WBEM_S_NO_ERROR;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

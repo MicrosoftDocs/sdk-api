@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_GetSelection.htm
 tech.root: WinAuto
 ms.assetid: f5c0b2ed-e891-4856-8829-617a69d4708a
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetSelection method, ITextProvider.GetSelection, ITextProvider::GetSelection, uiauto.uiauto_ITextProvider_GetSelection, uiauto_ITextProvider_GetSelection, uiautomationcore/ITextProvider::GetSelection, winauto.uiauto_ITextProvider_GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Retrieves a collection of text ranges that represents the currently selected tex
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives the address of an array of pointers to the <a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fda">ITextRangeProvider</a> interfaces of the text ranges,
 				one for each selected span of text. This parameter is passed uninitialized.

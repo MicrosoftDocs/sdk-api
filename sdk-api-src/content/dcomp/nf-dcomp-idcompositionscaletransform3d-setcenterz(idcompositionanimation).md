@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the CenterZ property of a 3D scale transform.
-old-location: directcomp\idcompositionscaletransform3d_setcenterz_float.htm
+description: Animates the value of the CenterZ property of a 3D scale transform.
+old-location: directcomp\idcompositionscaletransform3d_setcenterz_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 69610037-28CD-49DA-8633-C26986AD17E7
+ms.assetid: 7A64DE5A-90DF-4B20-B851-D7FD730CAB48
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionScaleTransform3D.SetCenterZ, IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ(float), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterZ, directcomp.idcompositionscaletransform3d_setcenterz_float
+ms.date: 10/25/2018
+ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionScaleTransform3D.SetCenterZ, IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation*), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterZ, directcomp.idcompositionscaletransform3d_setcenterz_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the CenterZ property of a 3D scale transform.   The CenterZ property specifies the z-coordinate of the point about which scaling is performed. 
+Animates the value of the CenterZ property of a 3D scale transform. The CenterZ property specifies the z-coordinate of the point about which scaling is performed.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the CenterZ property of a 3D scale transform.   The CenterZ
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - centerZ [in]
-
-Type: <b>float</b>
-
-The new z-coordinate of the center point.
+An animation object that determines how the value of the CenterZ property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>centerZ</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the CenterZ property unless this method is called again. If the CenterZ property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the CenterZ property was previously animated, this method removes the animation and sets the CenterZ property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

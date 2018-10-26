@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager_UnregisterFolder.htm
 tech.root: shell
 ms.assetid: 2c66f5e3-3479-414c-8888-0a888708dbe0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],UnregisterFolder method, IKnownFolderManager.UnregisterFolder, IKnownFolderManager::UnregisterFolder, UnregisterFolder, UnregisterFolder method [Windows Shell], UnregisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_UnregisterFolder, shell.IKnownFolderManager_UnregisterFolder, shobjidl_core/IKnownFolderManager::UnregisterFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

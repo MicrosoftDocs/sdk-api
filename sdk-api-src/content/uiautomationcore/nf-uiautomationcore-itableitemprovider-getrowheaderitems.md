@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableItemProvider_GetRowHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: 02717f9a-93dd-4963-bbc7-a1eb257bf5e5
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetRowHeaderItems, GetRowHeaderItems method [Windows Accessibility], GetRowHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetRowHeaderItems method, ITableItemProvider.GetRowHeaderItems, ITableItemProvider::GetRowHeaderItems, uiauto.uiauto_ITableItemProvider_GetRowHeaderItems, uiauto_ITableItemProvider_GetRowHeaderItems, uiautomationcore/ITableItemProvider::GetRowHeaderItems, winauto.uiauto_ITableItemProvider_GetRowHeaderItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ Retrieves a collection of Microsoft UI Automation provider
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
-Receives a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains an array of pointers to the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> interfaces
+Receives a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains an array of pointers to the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> interfaces
 				of the row headers. This parameter is passed uninitialized.
 
 

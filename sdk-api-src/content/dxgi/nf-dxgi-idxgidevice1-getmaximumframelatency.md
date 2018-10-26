@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice1_getmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: 87b98c47-3556-4588-97b2-c935d7052286
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 65e01dd1-b488-81d7-8806-77a7e4bb8f02, GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, IDXGIDevice1 interface [DXGI],GetMaximumFrameLatency method, IDXGIDevice1.GetMaximumFrameLatency, IDXGIDevice1::GetMaximumFrameLatency, direct3ddxgi.idxgidevice1_getmaximumframelatency, dxgi/IDXGIDevice1::GetMaximumFrameLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,9 +71,9 @@ This value is set to the number of frames that can be queued for render.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://msdn.microsoft.com/en-us/library/Bb172554(v=VS.85).aspx">D3DERR</a> enumerated type:
+Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a> enumerated type:
 
 <ul>
 <li><b>D3DERR_DEVICELOST</b></li>

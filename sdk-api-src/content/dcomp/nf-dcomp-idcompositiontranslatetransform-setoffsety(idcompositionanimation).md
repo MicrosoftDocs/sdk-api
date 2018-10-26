@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetY(IDCompositionAnimation)
 title: IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the OffsetY property of a 2D translation transform.
-old-location: directcomp\idcompositiontranslatetransform_setoffsety_float.htm
+description: Animates the value of the OffsetY property of a 2D translation transform.
+old-location: directcomp\idcompositiontranslatetransform_setoffsety_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 7EF80FFC-FB9B-4F4D-A321-7871E6C2E757
+ms.assetid: 579B8866-7882-48E9-BA9C-75D78AF66A38
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform.SetOffsetY, IDCompositionTranslateTransform.SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetY, IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetY(float), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetY, directcomp.idcompositiontranslatetransform_setoffsety_float
+ms.date: 10/25/2018
+ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform.SetOffsetY, IDCompositionTranslateTransform.SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetY, IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation*), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetY, directcomp.idcompositiontranslatetransform_setoffsety_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the OffsetY property of a 2D translation transform. The OffsetY property specifies the distance to translate along the y-axis.
+Animates the value of the OffsetY property of a 2D translation transform. The OffsetY property specifies the translation along the y-axis.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the OffsetY property of a 2D translation transform. The Off
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - offsetY [in]
-
-Type: <b>float</b>
-
-The distance to translate along the y-axis, in pixels.
+An animation object that determines how the value of the OffsetY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>offsetY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the OffsetY property unless this method is called again. If the OffsetY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the OffsetY property was previously animated, this method removes the animation and sets the OffsetY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

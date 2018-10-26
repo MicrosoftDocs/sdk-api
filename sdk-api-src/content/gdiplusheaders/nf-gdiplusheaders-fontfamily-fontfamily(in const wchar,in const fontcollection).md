@@ -80,7 +80,7 @@ Optional. Pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
 
 
 

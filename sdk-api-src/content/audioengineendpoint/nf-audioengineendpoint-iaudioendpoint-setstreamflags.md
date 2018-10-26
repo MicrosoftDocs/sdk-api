@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpoint_setstreamflags.htm
 tech.root: termserv
 ms.assetid: f6713912-ba7e-4e3e-95d9-8318c40a7042
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetStreamFlags method, IAudioEndpoint.SetStreamFlags, IAudioEndpoint::SetStreamFlags, SetStreamFlags, SetStreamFlags method [Remote Desktop Services], SetStreamFlags method [Remote Desktop Services],IAudioEndpoint interface, audioengineendpoint/IAudioEndpoint::SetStreamFlags, termserv.iaudioendpoint_setstreamflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

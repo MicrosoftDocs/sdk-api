@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_deletestroke.htm
 tech.root: tablet
 ms.assetid: ac6579ec-20f7-4a20-8cb8-5f3a6119959d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: DeleteStroke, DeleteStroke method [Tablet PC], DeleteStroke method [Tablet PC],IInkDisp interface, IInkDisp, IInkDisp interface [Tablet PC],DeleteStroke method, IInkDisp.DeleteStroke, IInkDisp::DeleteStroke, ac6579ec-20f7-4a20-8cb8-5f3a6119959d, msinkaut/IInkDisp::DeleteStroke, tablet.inkdisp_deletestroke
 ms.prod: windows-hardware
 ms.technology: windows-devices

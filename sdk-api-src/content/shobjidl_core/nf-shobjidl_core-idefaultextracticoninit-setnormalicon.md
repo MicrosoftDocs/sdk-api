@@ -7,7 +7,7 @@ old-location: shell\IDefaultExtractIconInit_SetNormalIcon.htm
 tech.root: shell
 ms.assetid: 49d11767-4237-48f3-973b-03cf032c5e68
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetNormalIcon method, IDefaultExtractIconInit.SetNormalIcon, IDefaultExtractIconInit::SetNormalIcon, SetNormalIcon, SetNormalIcon method [Windows Shell], SetNormalIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetNormalIcon, shell.IDefaultExtractIconInit_SetNormalIcon, shobjidl_core/IDefaultExtractIconInit::SetNormalIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

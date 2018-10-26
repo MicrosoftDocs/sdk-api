@@ -7,7 +7,7 @@ old-location: shell\IShellExtInit_Initialize.htm
 tech.root: shell
 ms.assetid: 1997a32e-562a-4d20-ad09-c40446a8feed
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IShellExtInit interface [Windows Shell],Initialize method, IShellExtInit.Initialize, IShellExtInit::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IShellExtInit interface, _win32_IShellExtInit_Initialize, _win32_ishellextinit_win32_ishellextinit_initialize_cpp, shell.IShellExtInit_Initialize, shobjidl_core/IShellExtInit::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

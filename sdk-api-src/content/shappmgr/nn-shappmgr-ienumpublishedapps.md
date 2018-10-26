@@ -7,7 +7,7 @@ old-location: shell\IEnumPublishedApps.htm
 tech.root: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
 ms.prod: windows
 ms.technology: windows-sdk

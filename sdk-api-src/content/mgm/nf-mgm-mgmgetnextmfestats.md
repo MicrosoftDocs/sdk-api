@@ -7,7 +7,7 @@ old-location: rras\mgmgetnextmfestats.htm
 tech.root: rras
 ms.assetid: af8dd38e-e66f-459a-a07c-c298154901f6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetNextMfeStats, MgmGetNextMfeStats function [RAS], _mpr_mgmgetnextmfestats, mgm/MgmGetNextMfeStats, rras.mgmgetnextmfestats
 ms.prod: windows-hardware
 ms.technology: windows-devices

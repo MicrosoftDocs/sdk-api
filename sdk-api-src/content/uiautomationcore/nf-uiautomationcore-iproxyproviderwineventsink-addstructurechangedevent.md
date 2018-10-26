@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent
 tech.root: WinAuto
 ms.assetid: 03be09a6-da4d-4071-bd7c-df79688c20d3
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: AddStructureChangedEvent, AddStructureChangedEvent method [Windows Accessibility], AddStructureChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddStructureChangedEvent method, IProxyProviderWinEventSink.AddStructureChangedEvent, IProxyProviderWinEventSink::AddStructureChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddStructureChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ TBD
 
 ### -param runtimeId [in]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
 A pointer to the runtime identifiers of the elements that are affected. These IDs enable applications to identify elements that have been removed and are no longer represented by <a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a> interfaces.
 

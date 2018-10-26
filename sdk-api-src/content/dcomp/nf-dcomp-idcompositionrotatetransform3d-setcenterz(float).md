@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setcenterz_float.htm
 tech.root: directcomp
 ms.assetid: 56406AD4-F257-444C-8E72-6B9A901D6075
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionRotateTransform3D.SetCenterZ, IDCompositionRotateTransform3D.SetCenterZ(float), IDCompositionRotateTransform3D::SetCenterZ, IDCompositionRotateTransform3D::SetCenterZ(float), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterZ, directcomp.idcompositionrotatetransform3d_setcenterz_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

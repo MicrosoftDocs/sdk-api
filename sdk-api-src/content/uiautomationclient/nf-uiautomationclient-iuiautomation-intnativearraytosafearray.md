@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_IntNativeArrayToSafeArray.htm
 tech.root: WinAuto
 ms.assetid: f8fd2c2b-f8c7-454b-ad03-aeeb4bbcef61
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],IntNativeArrayToSafeArray method, IUIAutomation.IntNativeArrayToSafeArray, IUIAutomation::IntNativeArrayToSafeArray, IntNativeArrayToSafeArray, IntNativeArrayToSafeArray method [Windows Accessibility], IntNativeArrayToSafeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray, uiauto_IUIAutomation_IntNativeArrayToSafeArray, uiautomationclient/IUIAutomation::IntNativeArrayToSafeArray, winauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Converts an array of integers to a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>.
+Converts an array of integers to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The number of elements in <i>array</i>.
 
 ### -param safeArray [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives a pointer to the allocated SAFEARRAY.
 

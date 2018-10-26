@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollogonerrorredirector_redirectmessage.htm
 tech.root: termserv
 ms.assetid: b818e2b0-3d6c-4a56-8175-75b585553520
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectMessage method, IWRdsProtocolLogonErrorRedirector.RedirectMessage, IWRdsProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A pointer to a string that contains the logon message.
 
 ### -param uType [in]
 
-An integer that contains the message box type. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
+An integer that contains the message box type. For more information, see the <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a> function.
 
 
 ### -param pResponse [out]

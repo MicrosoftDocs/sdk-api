@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_RectToVariant.htm
 tech.root: WinAuto
 ms.assetid: abfb2bb1-7594-4f32-9188-05745006ae18
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RectToVariant method, IUIAutomation.RectToVariant, IUIAutomation::RectToVariant, RectToVariant, RectToVariant method [Windows Accessibility], RectToVariant method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RectToVariant, uiauto_IUIAutomation_RectToVariant, uiautomationclient/IUIAutomation::RectToVariant, winauto.uiauto_IUIAutomation_RectToVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A pointer to a structure that contains the coordinates of the rectangle.
 
 ### -param var [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>*</b>
 
 Receives the coordinates of the rectangle.
 

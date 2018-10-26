@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientsettings_applysettings.htm
 tech.root: termserv
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

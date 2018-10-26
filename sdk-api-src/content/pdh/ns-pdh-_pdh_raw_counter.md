@@ -7,7 +7,7 @@ old-location: perf\pdh_raw_counter_str.htm
 tech.root: perfctrs
 ms.assetid: 237a3c82-0ab4-45cb-bd93-2f308178c573
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PPDH_RAW_COUNTER, PDH_RAW_COUNTER, PDH_RAW_COUNTER structure [Perf], PPDH_RAW_COUNTER, PPDH_RAW_COUNTER structure pointer [Perf], _PDH_RAW_COUNTER, _win32_pdh_raw_counter_str, base.pdh_raw_counter_str, pdh/PDH_RAW_COUNTER, pdh/PPDH_RAW_COUNTER, perf.pdh_raw_counter_str"
 ms.prod: windows
 ms.technology: windows-sdk

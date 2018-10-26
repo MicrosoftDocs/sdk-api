@@ -7,7 +7,7 @@ old-location: winprog\fcidestroy.htm
 tech.root: devnotes
 ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

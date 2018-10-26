@@ -7,7 +7,7 @@ old-location: rras\deletestaticservice.htm
 tech.root: rras
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, PDELETE_STATIC_SERVICE callback, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_GetAttributes.htm
 tech.root: shell
 ms.assetid: 4669ec62-270a-4b75-b073-2f45f11b6f99
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_CONTENT_INDEXED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_ATTRIBUTE_VALID_FLAGS, FILE_ATTRIBUTE_VALID_SET_FLAGS, GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetAttributes method, IShellItemResources.GetAttributes, IShellItemResources::GetAttributes, _shell_IShellItemResources_GetAttributes, shell.IShellItemResources_GetAttributes, shobjidl_core/IShellItemResources::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

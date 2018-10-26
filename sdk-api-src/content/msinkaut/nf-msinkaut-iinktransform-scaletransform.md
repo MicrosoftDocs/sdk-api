@@ -7,7 +7,7 @@ old-location: tablet\inktransform_scaletransform.htm
 tech.root: tablet
 ms.assetid: 49da109e-afca-4695-94ab-e4ed00d82e5a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IInkTransform interface [Tablet PC],ScaleTransform method, IInkTransform.ScaleTransform, IInkTransform::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkTransform interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkTransform::ScaleTransform, tablet.inktransform_scaletransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
 tech.root: termserv
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifySessionChangeEx method, ITsSbResourceNotificationEx.NotifySessionChangeEx, ITsSbResourceNotificationEx::NotifySessionChangeEx, NotifySessionChangeEx, NotifySessionChangeEx method [Remote Desktop Services], NotifySessionChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx, termserv.itssbresourcenotificationex_notifysessionchangeex
 ms.prod: windows-hardware
 ms.technology: windows-devices

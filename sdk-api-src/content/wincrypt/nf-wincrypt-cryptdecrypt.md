@@ -7,7 +7,7 @@ old-location: security\cryptdecrypt.htm
 tech.root: seccrypto
 ms.assetid: 7c3d2838-6fd1-4f6c-9586-8b94b459a31a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, CryptDecrypt function [Security], _crypto2_cryptdecrypt, security.cryptdecrypt, wincrypt/CryptDecrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -387,7 +387,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption/Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption/Decryption Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\ILCloneChild.htm
 tech.root: shell
 ms.assetid: e82f0b34-3d7d-4da2-9eec-05842ede8300
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: ILCloneChild, ILCloneChild function [Windows Shell], _shell_ILCloneChild, shell.ILCloneChild, shlobj_core/ILCloneChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

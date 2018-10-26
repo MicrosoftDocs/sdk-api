@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_FACTORY_OPTIONS.htm
 tech.root: direct2d
 ms.assetid: 2765d34e-978c-4121-82c9-2780d54e2850
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1_FACTORY_OPTIONS, D2D1_FACTORY_OPTIONS structure [Direct2D], d2d1/D2D1_FACTORY_OPTIONS, direct2d.D2D1_FACTORY_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Contains the debugging level of an <a href="https://msdn.microsoft.com/cef6115c-
 
 ### -field debugLevel
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368090(v=VS.85).aspx">D2D1_DEBUG_LEVEL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/3f1b4127-12d4-4472-ae26-0b69fdbb35a7">D2D1_DEBUG_LEVEL</a></b>
 
 The debugging level of the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object.
 
@@ -69,7 +69,7 @@ The debugging level of the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e
 
 
 
-To enable debugging, you must install the <a href="https://msdn.microsoft.com/en-us/library/Ee794277(v=VS.85).aspx">Direct2D Debug Layer</a>.
+To enable debugging, you must install the <a href="https://msdn.microsoft.com/7c28e00b-ebb9-4b79-939c-64eade1351ad">Direct2D Debug Layer</a>.
 
 
 
@@ -79,7 +79,7 @@ To enable debugging, you must install the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee794277(v=VS.85).aspx">Direct2D Debug Layer</a>
+<a href="https://msdn.microsoft.com/7c28e00b-ebb9-4b79-939c-64eade1351ad">Direct2D Debug Layer</a>
  
 
  

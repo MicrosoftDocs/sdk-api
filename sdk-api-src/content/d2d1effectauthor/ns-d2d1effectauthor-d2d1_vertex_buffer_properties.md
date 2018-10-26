@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_vertex_buffer_properties.htm
 tech.root: direct2d
 ms.assetid: d2f46c31-10f3-4318-8185-40a6bbd8ef8a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1_VERTEX_BUFFER_PROPERTIES, D2D1_VERTEX_BUFFER_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES, direct2d.d2d1_vertex_buffer_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ If the initialization data is not specified, the buffer will be uninitialized.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404337(v=VS.85).aspx">D2D1_VERTEX_USAGE</a>
+<a href="https://msdn.microsoft.com/ff122e0d-5f0e-4a61-bead-53bea6f1648f">D2D1_VERTEX_USAGE</a>
 
 
 

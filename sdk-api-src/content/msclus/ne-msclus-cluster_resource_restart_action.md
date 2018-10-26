@@ -7,7 +7,7 @@ old-location: mscs\cluster_resource_restart_action.htm
 tech.root: mscs
 ms.assetid: 6300bdb7-2349-44f8-913a-dd84813bd3bd
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CLUSTER_RESOURCE_RESTART_ACTION, CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster], CRRA, CRRA enumeration [Failover Cluster], ClusterResourceDontRestart, ClusterResourceRestartActionCount, ClusterResourceRestartNoNotify, ClusterResourceRestartNotify, _CLUSTER_RESOURCE_RESTART_ACTION, _CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_RESTART_ACTION, clusapi/CRRA, clusapi/ClusterResourceDontRestart, clusapi/ClusterResourceRestartActionCount, clusapi/ClusterResourceRestartNoNotify, clusapi/ClusterResourceRestartNotify, clusapi/_CLUSTER_RESOURCE_RESTART_ACTION, msclus/CLUSTER_RESOURCE_RESTART_ACTION, msclus/CRRA, msclus/ClusterResourceDontRestart, msclus/ClusterResourceRestartActionCount, msclus/ClusterResourceRestartNoNotify, msclus/ClusterResourceRestartNotify, msclus/_CLUSTER_RESOURCE_RESTART_ACTION, mscs.cluster_resource_restart_action
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ Restart the resource after a failure. If the resource exceeds its restart thresh
        period, do not attempt to <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> the 
        <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to another 
        <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> in the 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+       <a href="c_gly.htm">cluster</a>.
 
 
 ### -field ClusterResourceRestartNotify

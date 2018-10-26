@@ -7,7 +7,7 @@ old-location: perf\pdhgetlogfilesize.htm
 tech.root: perfctrs
 ms.assetid: 2bb94019-c664-4144-98b6-a0a545f7e4c1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PdhGetLogFileSize, PdhGetLogFileSize function [Perf], _win32_pdhgetlogfilesize, base.pdhgetlogfilesize, pdh/PdhGetLogFileSize, perf.pdhgetlogfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

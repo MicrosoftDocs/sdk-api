@@ -7,7 +7,7 @@ old-location: winprog\ntquerymultiplevaluekey.htm
 tech.root: devnotes
 ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

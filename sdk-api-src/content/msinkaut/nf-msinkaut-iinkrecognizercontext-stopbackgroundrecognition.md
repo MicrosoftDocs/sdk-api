@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_stopbackgroundrecognition.htm
 tech.root: tablet
 ms.assetid: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],StopBackgroundRecognition method, IInkRecognizerContext.StopBackgroundRecognition, IInkRecognizerContext::StopBackgroundRecognition, StopBackgroundRecognition, StopBackgroundRecognition method [Tablet PC], StopBackgroundRecognition method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::StopBackgroundRecognition, tablet.inkrecognizercontext_stopbackgroundrecognition
 ms.prod: windows-hardware
 ms.technology: windows-devices

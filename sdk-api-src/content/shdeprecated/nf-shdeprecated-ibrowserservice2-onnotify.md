@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnNotify.htm
 tech.root: shell
 ms.assetid: 666d76da-0891-4645-8852-fc963be75369
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnNotify method, IBrowserService2.OnNotify, IBrowserService2::OnNotify, OnNotify, OnNotify method [Windows Shell], OnNotify method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnNotify, shell.IBrowserService2_OnNotify, zone_IBrowserService2_OnNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/23ff9dc1-3d92-4e94-8df5-7a645039ce27">WM_NOTIFY</a> message. The derived class handles the message.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ TBD
 
 Type: <b>tagNMHDR*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
+A pointer to a <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
 
 
 ## -returns

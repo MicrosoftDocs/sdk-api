@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable_isworkspacecredentialspecified.htm
 tech.root: termserv
 ms.assetid: 1b01f48d-161a-4cea-84d4-82c98d2e6998
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable.IsWorkspaceCredentialSpecified, IWorkspaceScriptable2 interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable2::IsWorkspaceCredentialSpecified, IWorkspaceScriptable3 interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable3::IsWorkspaceCredentialSpecified, IWorkspaceScriptable::IsWorkspaceCredentialSpecified, IsWorkspaceCredentialSpecified, IsWorkspaceCredentialSpecified method [Remote Desktop Services], IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable2 interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable3 interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsWorkspaceCredentialSpecified method, termserv.iworkspacescriptable_isworkspacecredentialspecified, workspaceruntime/IWorkspaceScriptable2::IsWorkspaceCredentialSpecified, workspaceruntime/IWorkspaceScriptable3::IsWorkspaceCredentialSpecified, workspaceruntime/IWorkspaceScriptable::IsWorkspaceCredentialSpecified
 ms.prod: windows-hardware
 ms.technology: windows-devices

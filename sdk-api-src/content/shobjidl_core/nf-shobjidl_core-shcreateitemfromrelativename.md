@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemFromRelativeName.htm
 tech.root: shell
 ms.assetid: af6c2e8b-c812-4858-a9db-24549dedc2aa
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: SHCreateItemFromRelativeName, SHCreateItemFromRelativeName function [Windows Shell], _shell_SHCreateItemFromRelativeName, shell.SHCreateItemFromRelativeName, shobjidl_core/SHCreateItemFromRelativeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

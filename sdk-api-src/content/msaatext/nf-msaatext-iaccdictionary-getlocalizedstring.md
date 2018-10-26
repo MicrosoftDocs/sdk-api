@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary_iaccdictionary__getlocalizedstring.htm
 tech.root: WinAuto
 ms.assetid: 7419395d-d4be-4ee4-bf98-aef7e82cb3d5
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetLocalizedString, GetLocalizedString method [Windows Accessibility], GetLocalizedString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetLocalizedString method, IAccDictionary.GetLocalizedString, IAccDictionary::GetLocalizedString, _msaa_IAccDictionary_GetLocalizedString, msaa.iaccdictionary_iaccdictionary__getlocalizedstring, msaatext/IAccDictionary::GetLocalizedString, winauto.iaccdictionary_iaccdictionary__getlocalizedstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later 
 
 Clients call the <b>IAccDictionary::GetLocalizedString</b> method to get localized strings for all system properties and their values.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

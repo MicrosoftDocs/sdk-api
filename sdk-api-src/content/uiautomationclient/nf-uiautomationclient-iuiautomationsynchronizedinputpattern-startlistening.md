@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_StartListenin
 tech.root: WinAuto
 ms.assetid: 2ecd413e-c1a8-404f-9a11-8c2c8428d6d7
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IUIAutomationSynchronizedInputPattern interface [Windows Accessibility],StartListening method, IUIAutomationSynchronizedInputPattern.StartListening, IUIAutomationSynchronizedInputPattern::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],IUIAutomationSynchronizedInputPattern interface, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiautomationclient/IUIAutomationSynchronizedInputPattern::StartListening, winauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedOtherElementEventId</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputDiscardedEventId</a> event.
+When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="uiauto_event_ids.htm">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="uiauto_event_ids.htm">UIA_InputReachedOtherElementEventId</a> or <a href="uiauto_event_ids.htm">UIA_InputDiscardedEventId</a> event.
 
 After receiving input of the specified type, the provider stops checking for input and continues as normal.
 

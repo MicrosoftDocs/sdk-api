@@ -7,7 +7,7 @@ old-location: mscs\clusprop_piflags.htm
 tech.root: mscs
 ms.assetid: 54597c05-57af-49ad-96e0-171f09c45a65
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CLUSPROP_PIFLAGS, CLUSPROP_PIFLAGS enumeration [Failover Cluster], CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_ENCRYPTION_ENABLED, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_UNKNOWN, CLUSPROP_PIFLAG_USABLE, CLUSPROP_PIFLAG_USABLE_FOR_CSV, _CLUSPROP_PIFLAGS, _CLUSPROP_PIFLAGS enumeration [Failover Cluster], clusapi/CLUSPROP_PIFLAGS, clusapi/CLUSPROP_PIFLAG_DEFAULT_QUORUM, clusapi/CLUSPROP_PIFLAG_ENCRYPTION_ENABLED, clusapi/CLUSPROP_PIFLAG_REMOVABLE, clusapi/CLUSPROP_PIFLAG_STICKY, clusapi/CLUSPROP_PIFLAG_UNKNOWN, clusapi/CLUSPROP_PIFLAG_USABLE, clusapi/CLUSPROP_PIFLAG_USABLE_FOR_CSV, clusapi/_CLUSPROP_PIFLAGS, msclus/CLUSPROP_PIFLAGS, msclus/CLUSPROP_PIFLAG_DEFAULT_QUORUM, msclus/CLUSPROP_PIFLAG_ENCRYPTION_ENABLED, msclus/CLUSPROP_PIFLAG_REMOVABLE, msclus/CLUSPROP_PIFLAG_STICKY, msclus/CLUSPROP_PIFLAG_UNKNOWN, msclus/CLUSPROP_PIFLAG_USABLE, msclus/CLUSPROP_PIFLAG_USABLE_FOR_CSV, msclus/_CLUSPROP_PIFLAGS, mscs.clusprop_piflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.redist:
 
 Represents disk partition information.  The enumeration flags identify certain properties of a disk partition, 
     which is a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a>.
+    <a href="s_gly.htm">storage class resource</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The storage class resource is removable.
 ### -field CLUSPROP_PIFLAG_USABLE
 
 The storage class resource is formatted with a file system that is usable by the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a>.
+      <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>.
 
 
 ### -field CLUSPROP_PIFLAG_DEFAULT_QUORUM
@@ -114,7 +114,7 @@ The partition uses an unknown file system type.
 
 
 
-For <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Physical Disk</a> resources, the smallest NTFS partition 
+For <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resources, the smallest NTFS partition 
      larger than 50 MB automatically receives the <b>CLUSPROP_PIFLAG_DEFAULT_QUORUM</b> flag.
 
 
@@ -125,7 +125,7 @@ For <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Ph
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368381(v=VS.85).aspx">CLUSPROP_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/cda1e334-dba8-4fe9-b035-4e475245869c">CLUSPROP_PARTITION_INFO</a>
 
 
 
@@ -141,11 +141,11 @@ For <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Ph
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368118(v=VS.85).aspx">Flags Property of the ClusPartition Object</a>
+<a href="https://msdn.microsoft.com/19a69c92-495c-486d-9f42-6b0531dfb992">Flags Property of the ClusPartition Object</a>
  
 
  

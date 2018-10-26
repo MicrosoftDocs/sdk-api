@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_setunitmode.htm
 tech.root: direct2d
 ms.assetid: e524aa51-2499-4333-9562-a4893666b666
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetUnitMode method, ID2D1CommandSink.SetUnitMode, ID2D1CommandSink::SetUnitMode, SetUnitMode, SetUnitMode method [Direct2D], SetUnitMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetUnitMode, direct2d.id2d1commandsink_setunitmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

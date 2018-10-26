@@ -7,7 +7,7 @@ old-location: shell\IAccessibleObject.htm
 tech.root: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
 ms.prod: windows
 ms.technology: windows-sdk

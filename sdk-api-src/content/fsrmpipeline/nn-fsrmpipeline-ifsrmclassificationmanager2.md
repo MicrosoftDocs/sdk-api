@@ -59,7 +59,7 @@ Manages file classification. Use this interface to define properties to use in c
     reporting.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmClassificationManager</b> as the class identifier and 
     <code>__uuidof(IFsrmClassificationManager2)</code> as the interface 
     identifier or use the use the "Fsrm.FsrmClassificationManager" program identifier.

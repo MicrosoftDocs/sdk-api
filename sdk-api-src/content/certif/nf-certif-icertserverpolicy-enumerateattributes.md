@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateattributes.htm
 tech.root: seccrypto
 ms.assetid: 5db05ed9-ab17-462b-9a76-34458489771a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerPolicy object, EnumerateAttributes method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributes method, ICertServerPolicy.EnumerateAttributes, ICertServerPolicy::EnumerateAttributes, _certsrv_icertserverpolicy_enumerateattributes, certif/ICertServerPolicy::EnumerateAttributes, security.icertserverpolicy_enumerateattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,9 @@ A pointer to the attribute name.
 
 To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrAttributeName</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that contains the name of the attribute, or an empty string if the last attribute was already enumerated.
@@ -88,10 +88,10 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Before calling the <b>EnumerateAttributes</b>  method for the first time, call 
-the <a href="https://msdn.microsoft.com/en-us/library/Aa385083(v=VS.85).aspx">EnumerateAttributesSetup</a> method to initialize the enumeration pointer to the first attribute.
+the <a href="https://msdn.microsoft.com/14b81b88-36db-4b01-96e6-eafed22ae02e">EnumerateAttributesSetup</a> method to initialize the enumeration pointer to the first attribute.
 
  When done enumerating, call  
-the <a href="https://msdn.microsoft.com/en-us/library/Aa385082(v=VS.85).aspx">EnumerateAttributesClose</a> method to free resources used by the enumeration calls.
+the <a href="https://msdn.microsoft.com/91cb8edd-7735-44c5-b2c5-d46fa1e33e41">EnumerateAttributesClose</a> method to free resources used by the enumeration calls.
 
 
 
@@ -101,15 +101,15 @@ the <a href="https://msdn.microsoft.com/en-us/library/Aa385082(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385082(v=VS.85).aspx">ICertServerPolicy::EnumerateAttributesClose</a>
+<a href="https://msdn.microsoft.com/91cb8edd-7735-44c5-b2c5-d46fa1e33e41">ICertServerPolicy::EnumerateAttributesClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385083(v=VS.85).aspx">ICertServerPolicy::EnumerateAttributesSetup</a>
+<a href="https://msdn.microsoft.com/14b81b88-36db-4b01-96e6-eafed22ae02e">ICertServerPolicy::EnumerateAttributesSetup</a>
  
 
  

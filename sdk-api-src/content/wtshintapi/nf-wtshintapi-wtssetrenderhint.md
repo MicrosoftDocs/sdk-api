@@ -7,7 +7,7 @@ old-location: termserv\wtssetrenderhint.htm
 tech.root: termserv
 ms.assetid: CF8AE408-AE3A-44AC-91F9-6F6D9858893F
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RENDER_HINT_CLEAR, RENDER_HINT_MAPPEDWINDOW, RENDER_HINT_VIDEO, WTSSetRenderHint, WTSSetRenderHint function [Remote Desktop Services], termserv.wtssetrenderhint, wtshintapi/WTSSetRenderHint
 ms.prod: windows-hardware
 ms.technology: windows-devices

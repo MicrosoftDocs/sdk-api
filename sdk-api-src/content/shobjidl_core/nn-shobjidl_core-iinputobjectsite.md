@@ -7,7 +7,7 @@ old-location: shell\IInputObjectSite.htm
 tech.root: shell
 ms.assetid: fda52080-4117-47d6-8248-ffedd35e7625
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IInputObjectSite, IInputObjectSite interface [Windows Shell], IInputObjectSite interface [Windows Shell],described, _win32_IInputObjectSite, shell.IInputObjectSite, shobjidl_core/IInputObjectSite
 ms.prod: windows
 ms.technology: windows-sdk

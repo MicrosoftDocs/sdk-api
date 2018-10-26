@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_enableautogrow.htm
 tech.root: tablet
 ms.assetid: 23eae5ee-8f3d-4f54-9c30-b29f0c14ba7f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: EnableAutoGrow, EnableAutoGrow method [Tablet PC], EnableAutoGrow method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableAutoGrow method, IMathInputControl.EnableAutoGrow, IMathInputControl::EnableAutoGrow, micaut/IMathInputControl::EnableAutoGrow, tablet.imathinputcontrol_enableautogrow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inkwordlist_addword.htm
 tech.root: tablet
 ms.assetid: bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: AddWord, AddWord method [Tablet PC], AddWord method [Tablet PC],IInkWordList interface, AddWord method [Tablet PC],InkWordList class, IInkWordList, IInkWordList interface [Tablet PC],AddWord method, IInkWordList.AddWord, IInkWordList::AddWord, InkWordList class [Tablet PC],AddWord method, bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4, msinkaut/IInkWordList::AddWord, tablet.inkwordlist_addword
 ms.prod: windows-hardware
 ms.technology: windows-devices

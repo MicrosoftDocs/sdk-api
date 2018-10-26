@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurfacefactory.htm
 tech.root: directcomp
 ms.assetid: 1BB028E0-376E-42BD-82FD-08331341C93B
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/25/2018
 ms.keywords: IDCompositionSurfaceFactory, IDCompositionSurfaceFactory interface [DirectComposition], IDCompositionSurfaceFactory interface [DirectComposition],described, dcomp/IDCompositionSurfaceFactory, directcomp.idcompositionsurfacefactory
 ms.prod: windows
 ms.technology: windows-sdk

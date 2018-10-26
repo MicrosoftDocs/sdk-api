@@ -7,7 +7,7 @@ old-location: mscs\resutilfreeparameterblock.htm
 tech.root: mscs
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster], ResUtilFreeParameterBlock, ResUtilFreeParameterBlock function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK, resapi/ResUtilFreeParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

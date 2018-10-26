@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/
 
 A <b>BSTR</b> that is used by Plug-and-play to identify a currently connected WPD device. The Plug and Play (PnP) identifier for a particular device can be obtained from the <a href="https://msdn.microsoft.com/5061b3c0-8b93-480d-b1c6-0a6b616a2c8d">IPortableDeviceManager::GetDevices</a> method in the WPD C++/COM API.
 
-A Windows Store app can obtain the PnP identifier of a WPD device by using <a href="https://msdn.microsoft.com/83dddddf-ebf5-4922-9fa7-c438bffbd606">Windows.Devices.Portable.ServiceDevice.GetDeviceSelector</a> or <a href="https://msdn.microsoft.com/de88774f-5141-400a-b1c4-a397dc2882d8">Windows.Devices.Portable.ServiceDevice.GetDeviceSelectorFromServiceId</a> to get a selector string to pass to <a href="https://msdn.microsoft.com/540adf5c-8c36-404f-8c35-ba36af6dfe23">Windows.Devices.Enumeration.DeviceInformation.FindAllAsync</a>. <a href="https://msdn.microsoft.com/0d50757d-38fa-430d-9797-9b8ff3e0c082">FindAllAsync</a> returns a collection of <a href="https://msdn.microsoft.com/8a53fdec-5fbe-4958-806a-4f840e6de6b5">DeviceInformation</a> objects that represent the currently connected  WPD devices. A <b>DeviceInformation</b> object's <a href="https://msdn.microsoft.com/en-us/library/ms684582(v=VS.85).aspx">Id</a> property is the device's PnP identifier.
+A Windows Store app can obtain the PnP identifier of a WPD device by using <a href="https://msdn.microsoft.com/83dddddf-ebf5-4922-9fa7-c438bffbd606">Windows.Devices.Portable.ServiceDevice.GetDeviceSelector</a> or <a href="https://msdn.microsoft.com/de88774f-5141-400a-b1c4-a397dc2882d8">Windows.Devices.Portable.ServiceDevice.GetDeviceSelectorFromServiceId</a> to get a selector string to pass to <a href="https://msdn.microsoft.com/540adf5c-8c36-404f-8c35-ba36af6dfe23">Windows.Devices.Enumeration.DeviceInformation.FindAllAsync</a>. <a href="https://msdn.microsoft.com/0d50757d-38fa-430d-9797-9b8ff3e0c082">FindAllAsync</a> returns a collection of <a href="https://msdn.microsoft.com/8a53fdec-5fbe-4958-806a-4f840e6de6b5">DeviceInformation</a> objects that represent the currently connected  WPD devices. A <b>DeviceInformation</b> object's <a href="https://msdn.microsoft.com/ca31a3bd-de02-41d8-9e91-4ac7d2d3faa2">Id</a> property is the device's PnP identifier.
 
 
 ### -param ppDevice [out, retval]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object.
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
 
 
 
@@ -122,19 +122,23 @@ A call to this method outside of a Windows Store app running on Windows 8 will r
 
 For WPD devices that use an MTP device service, you can create a COM Automation object to work with the device like this:
 
-
-```javascript
-
+<div class="code"><span codelanguage="JavaScript"><table>
+<tr>
+<th>JavaScript</th>
+</tr>
+<tr>
+<td>
+<pre>
  
 deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
  
 var device = deviceFactory.getDeviceFromId(deviceId);
 // Get the first service on the device
 var deviceService = device.services[0];
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

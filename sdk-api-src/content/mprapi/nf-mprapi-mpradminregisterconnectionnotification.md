@@ -7,7 +7,7 @@ old-location: rras\mpradminregisterconnectionnotification.htm
 tech.root: rras
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionNotification function [RAS], _mpr_mpradminregisterconnectionnotification, mprapi/MprAdminRegisterConnectionNotification, rras.mpradminregisterconnectionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ The <i>hEventNotification</i> parameter is <b>NULL</b> or is an invalid handle.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The event is signaled when an interface connects or disconnects. When an event i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

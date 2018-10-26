@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextEditProvider_GetConversionTarget.htm
 tech.root: WinAuto
 ms.assetid: C05DC0F6-FB24-2D06-C2D8-43ADF2C110F9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: GetConversionTarget, GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility],ITextEditProvider interface, ITextEditProvider interface [Windows Accessibility],GetConversionTarget method, ITextEditProvider.GetConversionTarget, ITextEditProvider::GetConversionTarget, uiautomationcore/ITextEditProvider::GetConversionTarget, winauto.uiauto_ITextEditProvider_GetConversionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

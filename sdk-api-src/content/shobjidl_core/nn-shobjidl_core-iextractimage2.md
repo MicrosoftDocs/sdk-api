@@ -7,7 +7,7 @@ old-location: shell\IExtractImage2.htm
 tech.root: shell
 ms.assetid: 4fa28126-e65c-49d9-ab76-fb4a0dd0747c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IExtractImage2, IExtractImage2 interface [Windows Shell], IExtractImage2 interface [Windows Shell],described, _win32_IExtractImage2, shell.IExtractImage2, shobjidl_core/IExtractImage2
 ms.prod: windows
 ms.technology: windows-sdk

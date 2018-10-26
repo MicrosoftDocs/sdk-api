@@ -119,19 +119,23 @@ The application returns S_OK to the calling method to indicate that the operatio
 
 The following C++ code is a simple implementation of the <b>Progress</b> method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Progress(DWORD  dwTranspiredTicks)
 {
     // TODO: Display the message: "IWMDMProgress::Progress called" 
     // followed by the dwTranspiredTicks value.
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

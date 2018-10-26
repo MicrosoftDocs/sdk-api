@@ -7,7 +7,7 @@ old-location: mscs\cluster_quorum_value.htm
 tech.root: mscs
 ms.assetid: 5b5310f5-b4f4-4c1e-82ad-3bbf3ebc511b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CLUSTER_QUORUM_LOST, CLUSTER_QUORUM_MAINTAINED, CLUSTER_QUORUM_VALUE, CLUSTER_QUORUM_VALUE enumeration [Failover Cluster], msclus/CLUSTER_QUORUM_LOST, msclus/CLUSTER_QUORUM_MAINTAINED, msclus/CLUSTER_QUORUM_VALUE, mscs.cluster_quorum_value
 ms.prod: windows
 ms.technology: windows-sdk

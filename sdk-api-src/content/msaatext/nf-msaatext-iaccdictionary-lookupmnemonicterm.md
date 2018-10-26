@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary_iaccdictionary__lookupmnemonicterm.htm
 tech.root: WinAuto
 ms.assetid: a8a4dfde-3721-4bf5-a609-12f06154b5f0
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IAccDictionary interface [Windows Accessibility],LookupMnemonicTerm method, IAccDictionary.LookupMnemonicTerm, IAccDictionary::LookupMnemonicTerm, LookupMnemonicTerm, LookupMnemonicTerm method [Windows Accessibility], LookupMnemonicTerm method [Windows Accessibility],IAccDictionary interface, _msaa_IAccDictionary_LookupMnemonicTerm, msaa.iaccdictionary_iaccdictionary__lookupmnemonicterm, msaatext/IAccDictionary::LookupMnemonicTerm, winauto.iaccdictionary_iaccdictionary__lookupmnemonicterm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later 
 
 Clients call the <b>IAccDictionary::LookupMnemonicTerm</b> method to find the property for a given mnemonic string.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

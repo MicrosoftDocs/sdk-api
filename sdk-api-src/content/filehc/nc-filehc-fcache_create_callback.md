@@ -7,7 +7,7 @@ old-location: winprog\fcache_create_callback.htm
 tech.root: devnotes
 ms.assetid: e6e20409-3cbc-4d04-b861-ebed7d15af6a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/25/2018
 ms.keywords: FCACHE_CREATE_CALLBACK, FCACHE_CREATE_CALLBACK callback, FCACHE_CREATE_CALLBACK callback function [Windows API], filehc/FCACHE_CREATE_CALLBACK, winprog.fcache_create_callback
 ms.prod: windows
 ms.technology: windows-sdk

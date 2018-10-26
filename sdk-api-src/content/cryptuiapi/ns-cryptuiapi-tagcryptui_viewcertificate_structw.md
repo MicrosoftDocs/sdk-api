@@ -7,7 +7,7 @@ old-location: security\cryptui_viewcertificate_struct.htm
 tech.root: seccrypto
 ms.assetid: 7bbd58df-3a1b-4d82-9a90-7c94260a7165
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_ACCEPT_DECLINE_STYLE, CRYPTUI_CACHE_ONLY_URL_RETRIEVAL, CRYPTUI_DISABLE_ADDTOSTORE, CRYPTUI_DISABLE_EDITPROPERTIES, CRYPTUI_DISABLE_EXPORT, CRYPTUI_DISABLE_HTMLLINK, CRYPTUI_DISABLE_ISSUERSTATEMENT, CRYPTUI_DONT_OPEN_STORES, CRYPTUI_ENABLE_ADDTOSTORE, CRYPTUI_ENABLE_EDITPROPERTIES, CRYPTUI_ENABLE_REVOCATION_CHECKING, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CRYPTUI_ENABLE_REVOCATION_CHECK_END_CERT, CRYPTUI_HIDE_DETAILPAGE, CRYPTUI_HIDE_HIERARCHYPAGE, CRYPTUI_IGNORE_UNTRUSTED_ROOT, CRYPTUI_ONLY_OPEN_ROOT_STORE, CRYPTUI_VIEWCERTIFICATE_STRUCT, CRYPTUI_VIEWCERTIFICATE_STRUCT structure [Security], CRYPTUI_VIEWCERTIFICATE_STRUCTA, CRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_WARN_REMOTE_TRUST, CRYPTUI_WARN_UNTRUSTED_ROOT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], PCRYPTUI_VIEWCERTIFICATE_STRUCT, PCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTA, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTW, cryptuiapi/PCCRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/PCRYPTUI_VIEWCERTIFICATE_STRUCT, security.cryptui_viewcertificate_struct, security.cryptui_viewcertificate_structw, tagCRYPTUI_VIEWCERTIFICATE_STRUCTW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure contains information about a certificate to view.  This structure is used in the <a href="https://msdn.microsoft.com/en-us/library/Aa380289(v=VS.85).aspx">CryptUIDlgViewCertificate</a> function.
+The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure contains information about a certificate to view.  This structure is used in the <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a> function.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ The size, in bytes, of the <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure.
 
 ### -field hwndParent
 
-A handle to the window that is the parent of the dialog box produced by <a href="https://msdn.microsoft.com/en-us/library/Aa380289(v=VS.85).aspx">CryptUIDlgViewCertificate</a>.
+A handle to the window that is the parent of the dialog box produced by <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a>.
 
 
 ### -field dwFlags
@@ -239,7 +239,7 @@ Enable revocation checking only on the leaf certificate in the certificate chain
 <td width="60%">
 Enable revocation checking on each certificate in the certificate chain.  Valid only if neither the  <b>pCryptProviderData</b> nor the <b>hWVTStateData</b> union member is  passed in.
 
-<b>Note</b>  Because root certificates rarely contain information that allows revocation checking, it is expected that use of this option will usually result in failure of the <a href="https://msdn.microsoft.com/en-us/library/Aa380289(v=VS.85).aspx">CryptUIDlgViewCertificate</a> function.  The recommended option is to use CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT.
+<b>Note</b>  Because root certificates rarely contain information that allows revocation checking, it is expected that use of this option will usually result in failure of the <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a> function.  The recommended option is to use CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT.
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Disable the <b>Issuer Statement</b> button on the <b>General</b> tab of the <b>C
 </dl>
 </td>
 <td width="60%">
-Disable online revocation checking. Set this flag to ensure that the <a href="https://msdn.microsoft.com/en-us/library/Aa380289(v=VS.85).aspx">CryptUIDlgViewCertificate</a> function uses the local cache to retrieve the certificate and  does not attempt to retrieve the certificate from the network.
+Disable online revocation checking. Set this flag to ensure that the <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a> function uses the local cache to retrieve the certificate and  does not attempt to retrieve the certificate from the network.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -298,7 +298,7 @@ A pointer to a null-terminated string that contains the title for the window.
 
 ### -field pCertContext
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains the certificate context to display.
+A pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the certificate context to display.
 
 
 ### -field rgszPurposes
@@ -313,17 +313,17 @@ The number of purposes in the <b>rgszPurposes</b> array.
 
 ### -field pCryptProviderData
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Aa388208(v=VS.85).aspx">WinVerifyTrust</a> function has already been called for the certificate and the <a href="https://msdn.microsoft.com/en-us/library/Aa388451(v=VS.85).aspx">WTHelperProvDataFromStateData</a> function was also called, pass in a pointer to the state structure that was acquired from the call to <b>WTHelperProvDataFromStateData</b>. If <b>pCryptProviderData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
+If the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function has already been called for the certificate and the <a href="https://msdn.microsoft.com/ca2ca612-2da6-4fe1-8b1e-bc6307eb92af">WTHelperProvDataFromStateData</a> function was also called, pass in a pointer to the state structure that was acquired from the call to <b>WTHelperProvDataFromStateData</b>. If <b>pCryptProviderData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
 
 
 ### -field hWVTStateData
 
-If <a href="https://msdn.microsoft.com/en-us/library/Aa388208(v=VS.85).aspx">WinVerifyTrust</a> has already been called for the certificate and <a href="https://msdn.microsoft.com/en-us/library/Aa388451(v=VS.85).aspx">WTHelperProvDataFromStateData</a> was not called, pass in the <b>hWVTStateData</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa388205(v=VS.85).aspx">WINTRUST_DATA</a> structure. If <b>hWVTStateData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
+If <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> has already been called for the certificate and <a href="https://msdn.microsoft.com/ca2ca612-2da6-4fe1-8b1e-bc6307eb92af">WTHelperProvDataFromStateData</a> was not called, pass in the <b>hWVTStateData</b> member of the <a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure. If <b>hWVTStateData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
 
 
 ### -field fpCryptProviderDataTrustedUsage
 
-If <a href="https://msdn.microsoft.com/en-us/library/Aa388208(v=VS.85).aspx">WinVerifyTrust</a> was called, this is the result of whether the certificate was trusted.
+If <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> was called, this is the result of whether the certificate was trusted.
 
 
 ### -field idxSigner
@@ -363,7 +363,7 @@ The number of property pages to add to the dialog box.
 
 ### -field rgPropSheetPages
 
-An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380612(v=VS.85).aspx">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> for which the page is being displayed.
+An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://msdn.microsoft.com/c6335c02-3b3e-45e2-bb58-b7213aea500b">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> for which the page is being displayed.
 
 
 ### -field nStartPage
@@ -376,7 +376,7 @@ The index of the initial page that will be displayed.  If the highest bit (0x800
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380289(v=VS.85).aspx">CryptUIDlgViewCertificate</a>
+<a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a>
  
 
  

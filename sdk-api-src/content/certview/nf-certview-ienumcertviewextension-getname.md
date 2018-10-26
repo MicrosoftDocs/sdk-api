@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_getname.htm
 tech.root: seccrypto
 ms.assetid: 7c56708c-ae25-46f5-94f3-d58eea8d08d4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CEnumCERTVIEWEXTENSION object, GetName method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetName method, IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 
 The <b>GetName</b> method retrieves the name of the current extension in the extension-enumeration sequence.
 
- The returned extension name is an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) string, as in L"2.5.29.31".
+ The returned extension name is an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) string, as in L"2.5.29.31".
 
 
 ## -parameters
@@ -73,9 +73,9 @@ A pointer to a value of <b>BSTR</b> type that contains the name of the extension
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and tat the <i>pstrOut</i> parameter is set to the name of the extension.
 
-To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrOut</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrOut</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a <b>String</b> that contains the name of the extension.
@@ -94,21 +94,25 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386225(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386227(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
 </ul>
 
 #### Examples
 
-
-```cpp
-BSTR  bstrExtName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR  bstrExtName = NULL;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt->GetName(&bstrExtName);
+hr = pEnumExt-&gt;GetName(&amp;bstrExtName);
 if (S_OK == hr)
     printf("Extension name is: %ws\n", bstrExtName);
 else
@@ -116,10 +120,10 @@ else
 
 // free memory when done
 if (NULL != bstrExtName)
-    SysFreeString(bstrExtName);
-```
-
-
+    SysFreeString(bstrExtName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -128,27 +132,27 @@ if (NULL != bstrExtName)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a>
+<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386208(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetFlags</a>
+<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">IEnumCERTVIEWEXTENSION::GetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386216(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetValue</a>
+<a href="https://msdn.microsoft.com/7a81b096-36ba-416a-ad15-5bf1c4d512dd">IEnumCERTVIEWEXTENSION::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386225(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Reset</a>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">IEnumCERTVIEWEXTENSION::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386227(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Skip</a>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">IEnumCERTVIEWEXTENSION::Skip</a>
  
 
  

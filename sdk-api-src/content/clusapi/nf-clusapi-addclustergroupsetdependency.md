@@ -7,7 +7,7 @@ old-location: mscs\addclustergroupcollectiondependency.htm
 tech.root: mscs
 ms.assetid: dab8cef1-475b-4d92-8f3f-e828d62bcd17
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: AddClusterGroupSetDependency, AddClusterGroupSetDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupSetDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergroupcollectiondependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ The collection <i>hDependentGroupSet</i> depends on.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

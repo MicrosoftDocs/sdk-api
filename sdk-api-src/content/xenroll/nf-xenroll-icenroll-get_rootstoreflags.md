@@ -7,7 +7,7 @@ old-location: security\icenroll4_rootstoreflags.htm
 tech.root: seccrypto
 ms.assetid: bf844047-4f5a-42de-a446-195371c0dbcf
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CEnroll object [Security],RootStoreFlags property, ICEnroll interface [Security],RootStoreFlags property, ICEnroll.RootStoreFlags, ICEnroll.get_RootStoreFlags, ICEnroll2 interface [Security],RootStoreFlags property, ICEnroll2.RootStoreFlags, ICEnroll2::get_RootStoreFlags, ICEnroll2::put_RootStoreFlags, ICEnroll3 interface [Security],RootStoreFlags property, ICEnroll3.RootStoreFlags, ICEnroll3::get_RootStoreFlags, ICEnroll3::put_RootStoreFlags, ICEnroll4 interface [Security],RootStoreFlags property, ICEnroll4.RootStoreFlags, ICEnroll4::RootStoreFlags, ICEnroll4::get_RootStoreFlags, ICEnroll4::put_RootStoreFlags, ICEnroll::get_RootStoreFlags, ICEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],CEnroll object, RootStoreFlags property [Security],ICEnroll interface, RootStoreFlags property [Security],ICEnroll2 interface, RootStoreFlags property [Security],ICEnroll3 interface, RootStoreFlags property [Security],ICEnroll4 interface, get_RootStoreFlags, security.icenroll4_rootstoreflags, xenroll/ICEnroll2::RootStoreFlags, xenroll/ICEnroll2::get_RootStoreFlags, xenroll/ICEnroll2::put_RootStoreFlags, xenroll/ICEnroll3::RootStoreFlags, xenroll/ICEnroll3::get_RootStoreFlags, xenroll/ICEnroll3::put_RootStoreFlags, xenroll/ICEnroll4::RootStoreFlags, xenroll/ICEnroll4::get_RootStoreFlags, xenroll/ICEnroll4::put_RootStoreFlags, xenroll/ICEnroll::RootStoreFlags, xenroll/ICEnroll::get_RootStoreFlags, xenroll/ICEnroll::put_RootStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

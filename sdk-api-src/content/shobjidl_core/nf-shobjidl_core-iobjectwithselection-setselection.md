@@ -7,7 +7,7 @@ old-location: shell\IObjectWithSelection_SetSelection.htm
 tech.root: shell
 ms.assetid: e561b8f8-36e9-45ec-beb2-62d7f429dec4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IObjectWithSelection interface [Windows Shell],SetSelection method, IObjectWithSelection.SetSelection, IObjectWithSelection::SetSelection, SetSelection, SetSelection method [Windows Shell], SetSelection method [Windows Shell],IObjectWithSelection interface, _shell_IObjectWithSelection_SetSelection, shell.IObjectWithSelection_SetSelection, shobjidl_core/IObjectWithSelection::SetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

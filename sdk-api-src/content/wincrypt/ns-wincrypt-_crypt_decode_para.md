@@ -7,7 +7,7 @@ old-location: security\crypt_decode_para.htm
 tech.root: seccrypto
 ms.assetid: 08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCRYPT_DECODE_PARA, CRYPT_DECODE_PARA, CRYPT_DECODE_PARA structure [Security], PCRYPT_DECODE_PARA, PCRYPT_DECODE_PARA structure pointer [Security], _CRYPT_DECODE_PARA, security.crypt_decode_para, wincrypt/CRYPT_DECODE_PARA, wincrypt/PCRYPT_DECODE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

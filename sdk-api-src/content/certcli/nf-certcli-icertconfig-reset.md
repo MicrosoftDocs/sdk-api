@@ -7,7 +7,7 @@ old-location: security\icertconfig2_reset.htm
 tech.root: seccrypto
 ms.assetid: 62c24bda-463a-4238-be70-14e28bcbfb39
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CCertConfig object [Security],Reset method, ICertConfig interface [Security],Reset method, ICertConfig.Reset, ICertConfig2 interface [Security],Reset method, ICertConfig2::Reset, ICertConfig::Reset, Reset, Reset method [Security], Reset method [Security],CCertConfig object, Reset method [Security],ICertConfig interface, Reset method [Security],ICertConfig2 interface, _certsrv_icertconfig_reset, certcli/ICertConfig2::Reset, certcli/ICertConfig::Reset, security.icertconfig2_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>Reset</b> method resets the configuration query <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">state</a> to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a> interface.
+The <b>Reset</b> method resets the configuration query <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a> interface.
 
 Each individual configuration indicates a specific Certificate Services server. Some Certificate Services servers may have multiple valid configurations in the configuration database.
 
@@ -79,7 +79,7 @@ A pointer to the number of configurations in the enterprise.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pCount</i> parameter points to a <b>Long</b> that contains the number of configurations in the enterprise.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of configurations in the enterprise.
@@ -92,15 +92,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>
+<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383280(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/af81c25e-94e7-4c50-9e90-612c034e24b4">Next</a>
  
 
  

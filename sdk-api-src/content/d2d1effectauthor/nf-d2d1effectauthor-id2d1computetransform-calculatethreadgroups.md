@@ -7,7 +7,7 @@ old-location: direct2d\id2d1computetransform_calculatethreadgroups.htm
 tech.root: direct2d
 ms.assetid: 6B662297-3EBE-459F-8284-7A59F67DB025
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CalculateThreadgroups, CalculateThreadgroups method [Direct2D], CalculateThreadgroups method [Direct2D],ID2D1ComputeTransform interface, ID2D1ComputeTransform interface [Direct2D],CalculateThreadgroups method, ID2D1ComputeTransform.CalculateThreadgroups, ID2D1ComputeTransform::CalculateThreadgroups, d2d1effectauthor/ID2D1ComputeTransform::CalculateThreadgroups, direct2d.id2d1computetransform_calculatethreadgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

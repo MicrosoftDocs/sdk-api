@@ -7,7 +7,7 @@ old-location: shell\StrIsIntlEqual.htm
 tech.root: shell
 ms.assetid: 02c66644-8aab-4ddd-a3ab-d52aeaa900a3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlEqualA, StrIsIntlEqualW, _win32_StrIsIntlEqual, shell.StrIsIntlEqual, shlwapi/StrIsIntlEqual, shlwapi/StrIsIntlEqualA, shlwapi/StrIsIntlEqualW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,12 +113,16 @@ You can set case sensitivity with the <b>StrIntlEqN</b> and <b>StrIntlEqNI</b> m
 The syntax of the two macros is:
 				
 
-
-```
-#define StrIntlEqN(s1, s2, nChar) StrIsIntlEqual(TRUE, s1, s2, nChar)
-#define StrIntlEqNI(s1, s2, nChar) StrIsIntlEqual(FALSE, s1, s2, nChar)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define StrIntlEqN(s1, s2, nChar) StrIsIntlEqual(TRUE, s1, s2, nChar)
+#define StrIntlEqNI(s1, s2, nChar) StrIsIntlEqual(FALSE, s1, s2, nChar)</pre>
+</td>
+</tr>
+</table></span></div>
 
 

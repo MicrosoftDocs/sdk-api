@@ -7,7 +7,7 @@ old-location: mscs\clus_worker.htm
 tech.root: mscs
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: "*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluster], PCLUS_WORKER, PCLUS_WORKER structure pointer [Failover Cluster], _wolf_clus_worker, mscs.clus_worker, resapi/CLUS_WORKER, resapi/PCLUS_WORKER"
 ms.prod: windows
 ms.technology: windows-sdk

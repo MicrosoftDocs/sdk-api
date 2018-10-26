@@ -7,7 +7,7 @@ old-location: rras\rasenumdevices.htm
 tech.root: rras
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,10 +178,14 @@ The following sample code enumerates the devices on the current machine. The cod
 <b>RasEnumDevices</b> with a <i>lpRasDevInfo</i> parameter of <b>NULL</b>, to obtain the size of the buffer that should be passed in. The code also sets the <b>dwSize</b> member of the first 
 <a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structure to sizeof(<b>RASDEVINFO</b>) to specify the version of the structure.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "raserror.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -195,7 +199,7 @@ DWORD __cdecl wmain(){
     
     // Call RasEnumDevices with lpRasDevInfo = NULL. dwCb is returned with the required buffer size and 
     // a return code of ERROR_BUFFER_TOO_SMALL
-    dwRet = RasEnumDevices(lpRasDevInfo, &dwCb, &dwDevices);
+    dwRet = RasEnumDevices(lpRasDevInfo, &amp;dwCb, &amp;dwDevices);
 
     if (dwRet == ERROR_BUFFER_TOO_SMALL){
         // Allocate the memory needed for the array of RAS structure(s).
@@ -208,12 +212,12 @@ DWORD __cdecl wmain(){
         lpRasDevInfo[0].dwSize = sizeof(RASDEVINFO);
         
         // Call RasEnumDevices to enumerate RAS devices
-        dwRet = RasEnumDevices(lpRasDevInfo, &dwCb, &dwDevices);
+        dwRet = RasEnumDevices(lpRasDevInfo, &amp;dwCb, &amp;dwDevices);
 
         // If successful, print the names of the RAS devices
         if (ERROR_SUCCESS == dwRet){
             wprintf(L"The following RAS devices were found:\n");
-            for (DWORD i = 0; i < dwDevices; i++){
+            for (DWORD i = 0; i &lt; dwDevices; i++){
                          wprintf(L"%s\n", lpRasDevInfo[i].szDeviceName);
                   }
         }
@@ -224,7 +228,7 @@ DWORD __cdecl wmain(){
     }
 
     // There was either a problem with RAS or there are no RAS devices to enumerate    
-    if(dwDevices >= 1){
+    if(dwDevices &gt;= 1){
         wprintf(L"The operation failed to acquire the buffer size.\n");
     }else{
         wprintf(L"There were no RAS devices found.\n");
@@ -232,10 +236,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

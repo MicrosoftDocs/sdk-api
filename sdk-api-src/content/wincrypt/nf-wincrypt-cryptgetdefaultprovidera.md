@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultprovider.htm
 tech.root: seccrypto
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -231,11 +231,15 @@ This function determines which installed CSP is currently set as the default for
 
 The following example retrieves the name of the default CSP for the PROV_RSA_FULL provider type. For another example that uses this function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
-
-```cpp
-#include <stdio.h>
-#include <windows.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;Wincrypt.h&gt;
 #pragma comment(lib, "crypt32.lib")
 
 void main()
@@ -250,7 +254,7 @@ void main()
          NULL, 
          CRYPT_MACHINE_DEFAULT,
          NULL, 
-         &cbProvName))) 
+         &amp;cbProvName))) 
     { 
       printf("Error getting the length of the default "
           "provider name.\n");
@@ -272,7 +276,7 @@ void main()
         NULL, 
         CRYPT_MACHINE_DEFAULT,
         pbProvName,
-        &cbProvName)) 
+        &amp;cbProvName)) 
     {
         printf("The default provider name is %s\n",pbProvName);
     }
@@ -286,10 +290,10 @@ void main()
     LocalFree(pbProvName);
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -306,7 +310,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

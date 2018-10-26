@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetChildrenConPat.htm
 tech.root: WinAuto
 ms.assetid: b8ee94c3-3da2-4f66-ba75-64bc4d40543b
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: TextRange_GetChildren, TextRange_GetChildren function [Windows Accessibility], uiauto.uiauto_TextRange_GetChildrenConPat, uiauto_TextRange_GetChildrenConPat, uiautomationcoreapi/TextRange_GetChildren, winauto.uiauto_TextRange_GetChildrenConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A text range object.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 When this function returns, contains 
 				an array of nodes that are children of the text range in the UI Automation tree.

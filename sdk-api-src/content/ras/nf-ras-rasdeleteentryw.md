@@ -7,7 +7,7 @@ old-location: rras\rasdeleteentry.htm
 tech.root: rras
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,10 +136,14 @@ The entry name specified in <i>lpszEntry</i> does not exist.
 
 The following sample code deletes the phone-book entry specified by the variable <i>lpszEntry</i>.
 
-
-```cpp
-#include <stdio.h>
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 #include "ras.h"
 #include "strsafe.h"
 
@@ -162,14 +166,14 @@ DWORD __cdecl wmain(){
         return 0;
        }
   
-    // The RASENTRY->dwSize member has to be initialized or the RRAS APIs will fail below.
-    lpentry->dwSize = sizeof(RASENTRY);
-    lpentry->dwFramingProtocol = RASFP_Ppp;
-    lpentry->dwfOptions = 0;
-    lpentry->dwType = RASET_Phone;
-    dwRet |= StringCchCopyN(lpentry->szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszphonenumber, PHONE_NUMBER_LENGTH);
-    dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
-    dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
+    // The RASENTRY-&gt;dwSize member has to be initialized or the RRAS APIs will fail below.
+    lpentry-&gt;dwSize = sizeof(RASENTRY);
+    lpentry-&gt;dwFramingProtocol = RASFP_Ppp;
+    lpentry-&gt;dwfOptions = 0;
+    lpentry-&gt;dwType = RASET_Phone;
+    dwRet |= StringCchCopyN(lpentry-&gt;szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszphonenumber, PHONE_NUMBER_LENGTH);
+    dwRet |= StringCchCopyN(lpentry-&gt;szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpentry-&gt;szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASENTRY structure initilization failed");
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -185,7 +189,7 @@ DWORD __cdecl wmain(){
     }
 
     // Create and set the new entry's properties
-    dwRet = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry->dwSize, NULL, 0);
+    dwRet = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry-&gt;dwSize, NULL, 0);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RasSetEntryProperties failed: Error = %d\n", dwRet);
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -201,10 +205,10 @@ DWORD __cdecl wmain(){
     HeapFree(GetProcessHeap(), 0, lpentry);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

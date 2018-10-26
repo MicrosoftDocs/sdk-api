@@ -7,7 +7,7 @@ old-location: mscs\extendcontrolcall.htm
 tech.root: mscs
 ms.assetid: 79607FE9-96E5-4854-BC92-8FF1C474B3D6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: ExtendControlCall, ExtendControlCall callback, ExtendControlCall callback function [Failover Cluster], PEXTEND_RES_CONTROL_CALL, PEXTEND_RES_CONTROL_CALL callback function [Failover Cluster], mscs.extendcontrolcall, resapi/ExtendControlCall, resapi/PEXTEND_RES_CONTROL_CALL
 ms.prod: windows
 ms.technology: windows-sdk

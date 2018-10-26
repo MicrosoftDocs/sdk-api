@@ -7,7 +7,7 @@ old-location: security\icenroll4_binarytostring.htm
 tech.root: seccrypto
 ms.assetid: 43358d84-ccdd-49a8-be1d-bb5e8ddd1397
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CEnroll object [Security],binaryToString method, ICEnroll4 interface [Security],binaryToString method, ICEnroll4.binaryToString, ICEnroll4::binaryToString, _xen_icenroll4_binarytostring, binaryToString, binaryToString method [Security], binaryToString method [Security],CEnroll object, binaryToString method [Security],ICEnroll4 interface, security.icenroll4_binarytostring, xenroll/ICEnroll4::binaryToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ A binary data BLOB to be converted to a string.
 
 ### -param pstrEncoded [out]
 
-A pointer to a <b>BSTR</b> that receives the encoded data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the encoded data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

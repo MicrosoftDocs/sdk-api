@@ -7,7 +7,7 @@ old-location: security\ienroll4_enumalgs.htm
 tech.root: seccrypto
 ms.assetid: a40d85d0-fd02-4e0a-af7d-dfefe02f4e2a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IEnroll2 interface, IEnroll2 interface [Security],EnumAlgs method, IEnroll2.EnumAlgs, IEnroll2::EnumAlgs, security.ienroll4_enumalgs, xenroll/IEnroll2::EnumAlgs
 ms.prod: windows-hardware
 ms.technology: windows-devices

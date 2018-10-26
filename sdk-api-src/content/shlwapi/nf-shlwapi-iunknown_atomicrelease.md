@@ -7,7 +7,7 @@ old-location: shell\IUnknown_AtomicRelease.htm
 tech.root: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/25/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,19 +89,23 @@ If <i>ppunk</i> points to a <b>NULL</b> pointer, no operation is performed. Othe
 
 The following example uses <b>IUnknown_AtomicRelease</b> to release the stream, if it exists. If not, it does nothing.
 
-
-```cpp
-void sample()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void sample()
 {
     IStream *pstm = NULL;
-    CreateStreamOnHGlobal(NULL, TRUE, &pstm);
+    CreateStreamOnHGlobal(NULL, TRUE, &amp;pstm);
     
-    IUnknown_AtomicRelease((void**)&pstm);
+    IUnknown_AtomicRelease((void**)&amp;pstm);
     
     // At this point, pstm is NULL
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

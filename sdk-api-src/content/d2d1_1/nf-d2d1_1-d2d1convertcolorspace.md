@@ -7,7 +7,7 @@ old-location: direct2d\d2d1convertcolorspace.htm
 tech.root: direct2d
 ms.assetid: ECFE9F50-290D-4E6C-90AB-A46B9E413A48
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: D2D1ConvertColorSpace, D2D1ConvertColorSpace function [Direct2D], d2d1_1/D2D1ConvertColorSpace, direct2d.d2d1convertcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,21 +60,21 @@ Converts the given color from one colorspace to another.
 
 ### -param sourceColorSpace
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446992(v=VS.85).aspx">D2D1_COLOR_SPACE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a></b>
 
 The source color space.
 
 
 ### -param destinationColorSpace
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446992(v=VS.85).aspx">D2D1_COLOR_SPACE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a></b>
 
 The destination color space.
 
 
 ### -param color [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a>*</b>
 
 The source color.
 
@@ -83,7 +83,7 @@ The source color.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
 
 The converted color.
 

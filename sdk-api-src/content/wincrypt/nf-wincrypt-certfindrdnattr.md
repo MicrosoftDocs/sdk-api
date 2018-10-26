@@ -7,7 +7,7 @@ old-location: security\certfindrdnattr.htm
 tech.root: seccrypto
 ms.assetid: 31f82a02-e90a-48de-857a-9fbb03048b5c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_certfindrdnattr, security.certfindrdnattr, wincrypt/CertFindRDNAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ Returns a pointer to the attribute, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getprotocolhandles.htm
 tech.root: termserv
 ms.assetid: d453ac71-4733-4a68-892c-ffca2d2954c6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetProtocolHandles, GetProtocolHandles method [Remote Desktop Services], GetProtocolHandles method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetProtocolHandles method, IWTSProtocolConnection.GetProtocolHandles, IWTSProtocolConnection::GetProtocolHandles, termserv.iwtsprotocolconnection_getprotocolhandles, wtsprotocol/IWTSProtocolConnection::GetProtocolHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

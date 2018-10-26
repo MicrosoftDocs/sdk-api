@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the maximum date range that can be selected in a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760960(v=VS.85).aspx">MCM_GETMAXSELCOUNT</a> message explicitly. 
+Retrieves the maximum date range that can be selected in a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/34204231-3a3c-4eba-913d-b0c27769c338">MCM_GETMAXSELCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to a month calendar control.
 
 
 
-You can change the maximum date range that can be selected by using the <a href="https://msdn.microsoft.com/en-us/library/Bb761008(v=VS.85).aspx">MCM_SETMAXSELCOUNT</a> message. 
+You can change the maximum date range that can be selected by using the <a href="https://msdn.microsoft.com/190453ab-e53b-4db7-82c1-f9d50188ad39">MCM_SETMAXSELCOUNT</a> message. 
 
 
 

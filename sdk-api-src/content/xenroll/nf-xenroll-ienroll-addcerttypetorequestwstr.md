@@ -7,7 +7,7 @@ old-location: security\ienroll4_addcerttypetorequestwstr.htm
 tech.root: seccrypto
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: AddCertTypeToRequestWStr, AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security],IEnroll interface, IEnroll interface [Security],AddCertTypeToRequestWStr method, IEnroll.AddCertTypeToRequestWStr, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

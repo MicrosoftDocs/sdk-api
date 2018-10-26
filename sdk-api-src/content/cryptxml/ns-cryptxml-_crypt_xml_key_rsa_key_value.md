@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_rsa_key_value.htm
 tech.root: seccrypto
 ms.assetid: e2b1344d-c108-4255-bd50-06d742ed67a8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CRYPT_XML_KEY_RSA_KEY_VALUE, CRYPT_XML_KEY_RSA_KEY_VALUE structure [Security], _CRYPT_XML_KEY_RSA_KEY_VALUE, cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE, security.crypt_xml_key_rsa_key_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure is used as element of the key value union  in the <a href="https://msdn.microsoft.com/en-us/library/Dd433858(v=VS.85).aspx">CRYPT_XML_KEY_VALUE</a> structure.
+The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure is used as element of the key value union  in the <a href="https://msdn.microsoft.com/7aadd268-41bc-4ba3-babb-2ca7b13f378b">CRYPT_XML_KEY_VALUE</a> structure.
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The 
 
 ### -field Modulus
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433847(v=VS.85).aspx">CRYPT_XML_DATA_BLOB</a> structure that contains the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> modulus data.
+A <a href="https://msdn.microsoft.com/dc7e23d6-923c-40d2-9cf7-9a529c0634ce">CRYPT_XML_DATA_BLOB</a> structure that contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> modulus data.
 
 
 ### -field Exponent
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433847(v=VS.85).aspx">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.
+A <a href="https://msdn.microsoft.com/dc7e23d6-923c-40d2-9cf7-9a529c0634ce">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.
 

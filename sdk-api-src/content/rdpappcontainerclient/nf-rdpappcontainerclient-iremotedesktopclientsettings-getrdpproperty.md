@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm
 tech.root: termserv
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: GetRdpProperty, GetRdpProperty method [Remote Desktop Services], GetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],GetRdpProperty method, IRemoteDesktopClientSettings.GetRdpProperty, IRemoteDesktopClientSettings::GetRdpProperty, rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty, termserv.iremotedesktopclientsettings_getrdpproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

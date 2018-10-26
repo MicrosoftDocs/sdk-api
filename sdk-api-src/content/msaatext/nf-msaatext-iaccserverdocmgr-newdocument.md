@@ -7,7 +7,7 @@ old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__newdocument.htm
 tech.root: WinAuto
 ms.assetid: 8bac6081-3b4e-45df-a900-66bc037a232f
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/25/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],NewDocument method, IAccServerDocMgr.NewDocument, IAccServerDocMgr::NewDocument, NewDocument, NewDocument method [Windows Accessibility], NewDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_NewDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__newdocument, msaatext/IAccServerDocMgr::NewDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__newdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later 
 
 Server applications call the <b>IAccServerDocMgr::NewDocument</b> method when it is available. The adapter creates a wrapped document and registers it with the store, so clients can access information about the text in the document.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mscs\cluster_change_node_upgrade_phase_v2.htm
 tech.root: mscs
 ms.assetid: 70EEDB16-CEE0-4570-9DBD-1649DD800453
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/25/2018
 ms.keywords: CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2, CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2 enumeration [Failover Cluster], CLUSTER_CHANGE_UPGRADE_ALL, CLUSTER_CHANGE_UPGRADE_NODE_COMMIT, CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT, CLUSTER_CHANGE_UPGRADE_NODE_PREPARE, clusapi/CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2, clusapi/CLUSTER_CHANGE_UPGRADE_ALL, clusapi/CLUSTER_CHANGE_UPGRADE_NODE_COMMIT, clusapi/CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT, clusapi/CLUSTER_CHANGE_UPGRADE_NODE_PREPARE, msclus/CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2, msclus/CLUSTER_CHANGE_UPGRADE_ALL, msclus/CLUSTER_CHANGE_UPGRADE_NODE_COMMIT, msclus/CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT, msclus/CLUSTER_CHANGE_UPGRADE_NODE_PREPARE, mscs.cluster_change_node_upgrade_phase_v2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Indicates all <b>CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2</b> notifications.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  
