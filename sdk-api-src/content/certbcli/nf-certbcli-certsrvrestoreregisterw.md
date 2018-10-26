@@ -126,13 +126,9 @@ This function requires that the calling account be  a local administrator. If th
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// szMyDBName is the returned path from the backup client's
+
+```cpp
+// szMyDBName is the returned path from the backup client's
 // call to CertSrvRestoreGetDatabaseLocations. This value would
 // have been saved during a full backup operation.
 CSEDB_RSTMAP rgrstmap[1] = 
@@ -164,10 +160,10 @@ if (S_OK != hr)
 
 // Continue processing.
 // When done, call CertSrvRestoreRegisterComplete (not shown).
-// ...</pre>
-</td>
-</tr>
-</table></span></div>
+// ...
+```
+
+
 
 
 

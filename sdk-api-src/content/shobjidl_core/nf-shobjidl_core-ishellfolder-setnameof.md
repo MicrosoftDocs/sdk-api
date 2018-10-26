@@ -122,16 +122,12 @@ Implementers of <b>IShellFolder::SetNameOf</b> must call <a href="https://msdn.m
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>SHChangeNotify(SHCNE_RENAMEFOLDER, SHCNF_IDLIST, pidlFullOld, pidlFullNew);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+SHChangeNotify(SHCNE_RENAMEFOLDER, SHCNF_IDLIST, pidlFullOld, pidlFullNew);
+```
+
+
 This call prevents both the old and new names being displayed in the view.
 
 

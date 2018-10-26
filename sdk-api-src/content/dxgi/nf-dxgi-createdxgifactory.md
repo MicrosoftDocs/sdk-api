@@ -112,19 +112,15 @@ Creating a DXGI 1.0 Factory
 
 The following code example demonstrates how to create a DXGI 1.0 factory.  This example uses the __uuidof() intrinsic to obtain the REFIID, or GUID, of the <a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a> interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDXGIFactory * pFactory;
-HRESULT hr = CreateDXGIFactory(__uuidof(IDXGIFactory), (void**)(&amp;pFactory) );
-</pre>
-</td>
-</tr>
-</table></span></div>
+HRESULT hr = CreateDXGIFactory(__uuidof(IDXGIFactory), (void**)(&pFactory) );
+
+```
+
+
 
 
 

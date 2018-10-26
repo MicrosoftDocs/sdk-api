@@ -166,21 +166,17 @@ The <b>WNetGetUser</b> function is not aware of shares on the Distributed File S
 The following code sample illustrates how to use the 
 <b>WNetGetUser</b> function to retrieve the name of the user associated with a redirected local device or a remote network resource.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "mpr.lib")
 
-#include &lt;windows.h&gt;
-#include &lt;tchar.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Winnetwk.h&gt;
+#include <windows.h>
+#include <tchar.h>
+#include <stdio.h>
+#include <Winnetwk.h>
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -199,14 +195,14 @@ int wmain(int argc, wchar_t * argv[])
 
     wprintf(L"Calling WNetGetUser with Network-Resource = %s\n", argv[1]);
 
-    dwRetVal = WNetGetUser(argv[1], UserName, &amp;dwNameLength);
+    dwRetVal = WNetGetUser(argv[1], UserName, &dwNameLength);
     //
     // If the call succeeds, print the user information.
     //
     if (dwRetVal == NO_ERROR) {
 
         wprintf(L"WNetGetUser returned success\n");
-        wprintf(L"\tUsername=%s   NameLength=%d\n", &amp;UserName, dwNameLength);
+        wprintf(L"\tUsername=%s   NameLength=%d\n", &UserName, dwNameLength);
         exit(0);
     }
 
@@ -216,10 +212,10 @@ int wmain(int argc, wchar_t * argv[])
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

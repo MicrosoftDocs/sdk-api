@@ -505,22 +505,18 @@ The Install Scope must be one of the following values.
 
 The following is an example use of the OLECMDID_ACTIVEXINSTALLSCOPE command.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IOleCommandTarget::Exec(
+
+```cpp
+IOleCommandTarget::Exec(
 NULL, // Pointer to command group
 OLECMDARGINDEX_ACTIVEXINSTALL_INSTALLSCOPE, // ID of command to execute
 NULL, // Options
-&amp;varArgs, // pvain pointer to input arguments
+&varArgs, // pvain pointer to input arguments
 NULL) // pointer to command output
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

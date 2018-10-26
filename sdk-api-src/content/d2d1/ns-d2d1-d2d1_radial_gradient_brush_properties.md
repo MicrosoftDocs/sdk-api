@@ -103,30 +103,26 @@ The following example calls <a href="https://msdn.microsoft.com/985a4c1b-d29b-46
 
 <img alt="Illustration of a circle with a radial gradient brush" src="./images/brushes_ovw_radials.png"/>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// The center of the gradient is in the center of the box.
+
+```cpp
+// The center of the gradient is in the center of the box.
 // The gradient origin offset was set to zero(0, 0) or center in this case.
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget-&gt;CreateRadialGradientBrush(
+    hr = m_pRenderTarget->CreateRadialGradientBrush(
         D2D1::RadialGradientBrushProperties(
             D2D1::Point2F(75, 75),
             D2D1::Point2F(0, 0),
             75,
             75),
         pGradientStops,
-        &amp;m_pRadialGradientBrush
+        &m_pRadialGradientBrush
         );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For more information about radial gradient brushes, see the <a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a> topic and the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.
 
 <div class="code"></div>

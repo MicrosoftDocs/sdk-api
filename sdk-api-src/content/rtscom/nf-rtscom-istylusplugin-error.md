@@ -106,13 +106,9 @@ This method is called when the RTS object has caught an exception.
 
 The following C++ example implements an <b>IStylusPlugin::Error Method</b> method that outputs a message and error code to the debug window using <a href="http://go.microsoft.com/fwlink/p/?linkid=73729">The TRACE Macro</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CPacketModifier::Error( 
+
+```cpp
+STDMETHODIMP CPacketModifier::Error( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ IStylusPlugin *piPlugin,
             /* [in] */ RealTimeStylusDataInterest dataInterest,
@@ -124,10 +120,10 @@ The following C++ example implements an <b>IStylusPlugin::Error Method</b> metho
 	TRACE(strError);
 	return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

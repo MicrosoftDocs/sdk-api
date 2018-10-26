@@ -92,21 +92,17 @@ The following example shows how to use
      another example, see 
      <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Creating Physical Disk Resources</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR szName[] = L"Name";
+
+```cpp
+WCHAR szName[] = L"Name";
 CLUSPROP_PROPERTY_NAME_DECLARE( PropName, sizeof( szName ) / sizeof( WCHAR ) );
 PropName.Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 PropName.cbLength  = sizeof( szName );
 StringCbCopy( PropName.sz, PropName.cbLength, szName );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

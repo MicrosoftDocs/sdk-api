@@ -101,13 +101,9 @@ Do not call  <b>ResUtilGetResourceDependencyByClass</b> from any resource DLL en
 
 As the following example illustrates, if you know that resource A depends on a <a href="s_gly.htm">storage class resource</a>, you can use  <b>ResUtilGetResourceDependencyByClass</b> to obtain a handle to the storage class resource without knowing anything else about it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// String initialization and error checking omitted.
+
+```cpp
+// String initialization and error checking omitted.
 
 HCLUSTER hCluster = OpenCluster( lpszClusterName );
 
@@ -119,7 +115,7 @@ HRESOURCE hResA = OpenClusterResource( hCluster, lpszResName );
 
 PCLUS_RESOURCE_CLASS_INFO pClassInfo;
 
-pClassInfo-&gt;rc = CLUS_RESCLASS_STORAGE;
+pClassInfo->rc = CLUS_RESCLASS_STORAGE;
 
 //
 // Returns a handle to the storage class resource on which resource A depends.
@@ -132,10 +128,10 @@ HRESOURCE hResD = ResUtilGetResourceDependencyByClass(
                         TRUE );
 
 // Close handles and free memory.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

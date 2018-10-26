@@ -53,24 +53,20 @@ req.redist:
 The <b>IDsAdminCreateObj</b> interface is implemented by the system and used by an application or component to programmatically start a creation wizard for a specified object class.
 
 To obtain an instance of this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsAdminCreateObj</b> class identifier as shown below.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;initguid.h&gt;
-#include &lt;dsadmin.h&gt;
+
+```cpp
+#include <initguid.h>
+#include <dsadmin.h>
 
 HRESULT hr = S_OK;
 IDsAdminCreateObj* pCreateObj = NULL;
 hr = ::CoCreateInstance(CLSID_DsAdminCreateObj,
         NULL, CLSCTX_INPROC_SERVER,
         IID_IDsAdminCreateObj,
-        (void**)&amp;pCreateObj);</pre>
-</td>
-</tr>
-</table></span></div>
+        (void**)&pCreateObj);
+```
+
+
 
 ## -inheritance
 

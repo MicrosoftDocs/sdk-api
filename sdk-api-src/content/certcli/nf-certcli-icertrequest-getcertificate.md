@@ -180,15 +180,11 @@ An application would call this method to retrieve the certificate issued by mean
 
 The following example shows retrieving a certificate.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certcli.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certcli.h>
 
 HRESULT main()
 {
@@ -218,7 +214,7 @@ HRESULT main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ICertRequest,
-                          (void **)&amp;pCertRequest);
+                          (void **)&pCertRequest);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertRequest [%x]\n", hr);
@@ -230,10 +226,10 @@ HRESULT main()
     bstrCA = SysAllocString(L"server01\\myCAName");
     
     //  Retrieve the CA certificate.
-    hr = pCertRequest-&gt;GetCACertificate(FALSE,
+    hr = pCertRequest->GetCACertificate(FALSE,
                                         bstrCA,
                                         CR_OUT_BASE64,
-                                        &amp;bstrCACert);
+                                        &bstrCACert);
     if (FAILED(hr))
     {
         printf("Failed GetCACertificate [%x]\n", hr);
@@ -257,7 +253,7 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertRequest)
-        pCertRequest-&gt;Release();
+        pCertRequest->Release();
 
     //  Free COM resources.
     CoUninitialize();
@@ -265,10 +261,10 @@ error:
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

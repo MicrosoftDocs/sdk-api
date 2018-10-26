@@ -109,19 +109,15 @@ This object can be retrieved using the <a href="https://msdn.microsoft.com/06257
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR deviceCapability = NULL;
+
+```cpp
+LPWSTR deviceCapability = NULL;
 bool hasCurrent = false;
 	
-for (deviceCapabilitiesEnumerator-&gt;GetHasCurrent(&amp;hasCurrent); hasCurrent == true;
-	deviceCapabilitiesEnumerator-&gt;MoveNext(&amp;hasCurrent))
+for (deviceCapabilitiesEnumerator->GetHasCurrent(&hasCurrent); hasCurrent == true;
+	deviceCapabilitiesEnumerator->MoveNext(&hasCurrent))
 {
-	hr = deviceCapabilitiesEnumerator-&gt;GetCurrent(&amp;deviceCapability); 
+	hr = deviceCapabilitiesEnumerator->GetCurrent(&deviceCapability); 
 
 	...
 
@@ -130,10 +126,10 @@ for (deviceCapabilitiesEnumerator-&gt;GetHasCurrent(&amp;hasCurrent); hasCurrent
 		CoTaskMemFree(deviceCapability);
 	}
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

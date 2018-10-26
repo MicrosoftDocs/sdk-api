@@ -148,13 +148,9 @@ biometric databases on the system. The example also includes a function, Display
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnumDatabases( )
+
+```cpp
+HRESULT EnumDatabases( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -165,8 +161,8 @@ biometric databases on the system. The example also includes a function, Display
     // Enumerate the databases.
     hr = WinBioEnumDatabases( 
             WINBIO_TYPE_FINGERPRINT,    // Type of biometric unit
-            &amp;storageSchemaArray,        // Array of database schemas
-            &amp;storageCount );            // Number of database schemas
+            &storageSchemaArray,        // Array of database schemas
+            &storageCount );            // Number of database schemas
     if (FAILED(hr))
     {
         wprintf_s(L"\nWinBioEnumDatabases failed. hr = 0x%x\n", hr);
@@ -175,18 +171,18 @@ biometric databases on the system. The example also includes a function, Display
 
     // Display information for each database.
     wprintf_s(L"\nDatabases:\n");
-    for (index = 0; index &lt; storageCount; ++index)
+    for (index = 0; index < storageCount; ++index)
     {
         wprintf_s(L"\n[%d]: \tBiometric factor: 0x%08x\n", 
                  index, 
                  storageSchemaArray[index].BiometricFactor );
         
         wprintf_s(L"\tDatabase ID: ");
-        DisplayGuid(&amp;storageSchemaArray[index].DatabaseId);
+        DisplayGuid(&storageSchemaArray[index].DatabaseId);
         wprintf_s(L"\n");
 
         wprintf_s(L"\tData format: ");
-        DisplayGuid(&amp;storageSchemaArray[index].DataFormat);
+        DisplayGuid(&storageSchemaArray[index].DataFormat);
         wprintf_s(L"\n");
 
         wprintf_s(L"\tAttributes:  0x%08x\n", 
@@ -222,24 +218,24 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 {
     wprintf_s(
         L"{%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X}",
-        Guid-&gt;Data1,
-        Guid-&gt;Data2,
-        Guid-&gt;Data3,
-        Guid-&gt;Data4[0],
-        Guid-&gt;Data4[1],
-        Guid-&gt;Data4[2],
-        Guid-&gt;Data4[3],
-        Guid-&gt;Data4[4],
-        Guid-&gt;Data4[5],
-        Guid-&gt;Data4[6],
-        Guid-&gt;Data4[7]
+        Guid->Data1,
+        Guid->Data2,
+        Guid->Data3,
+        Guid->Data4[0],
+        Guid->Data4[1],
+        Guid->Data4[2],
+        Guid->Data4[3],
+        Guid->Data4[4],
+        Guid->Data4[5],
+        Guid->Data4[6],
+        Guid->Data4[7]
         );
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

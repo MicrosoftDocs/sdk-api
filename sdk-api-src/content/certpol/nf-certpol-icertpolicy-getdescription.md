@@ -90,14 +90,10 @@ When you write custom policy modules, implement this method.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Certpol.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Certpol.h>
 
 STDMETHODIMP CCertPolicy::GetDescription(
     /* [out, retval] */ BSTR __RPC_FAR *pstrDescription)
@@ -122,10 +118,10 @@ STDMETHODIMP CCertPolicy::GetDescription(
     }
     // Success
     return( S_OK );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

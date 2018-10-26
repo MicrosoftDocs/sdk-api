@@ -106,13 +106,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>object based on a triangular path. The code calls the <b>PathGradientBrush::SetFocusScales</b> method of the 
 						<b>PathGradientBrush</b>object to set the brush's focus scales to (0.2, 0.2). Then the code uses the path gradient brush to paint a rectangle that includes the triangular path.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetFocusScales(HDC hdc)
+
+```cpp
+VOID Example_SetFocusScales(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -140,11 +136,11 @@ The following example creates a
    // Fill a rectangle that is larger than the triangle
    // specified in the Point array. The portion of the
    // rectangle outside the triangle will not be painted.
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200); 
+}
+```
+
+
 
 
 

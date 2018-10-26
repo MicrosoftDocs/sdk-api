@@ -307,16 +307,12 @@ The algorithm identifier string passed to the CNG functions (the BCrypt* and NCr
 
 <div class="alert"><b>Note</b>  The  <b>pwszCNGAlgid</b> member is only available if you include the following statement in your code.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS
+```
+
+
 This member applies for the following values of <b>dwGroupId</b>:
 
 <ul>
@@ -416,16 +412,12 @@ An extra algorithm string, other than the string in the <b>pwszCNGAlgid</b> memb
 
 <div class="alert"><b>Note</b>  This member is only available if you include the following statement in your code.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS
+```
+
+
 For the signature algorithms (CRYPT_SIGN_ALG_OID_GROUP_ID), this member is the public key algorithm string to pass to the CNG functions.
 
 For ECC signatures, this member is the special CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM string value.

@@ -150,13 +150,9 @@ The application can determine whether data is being read from or written to the 
 
 The following C++ code demonstrates how an application might implement <b>TransferObjectData</b> to handle file transfer itself. The code shown handles both reading data from and writing data to the device. The direction of data flow is indicated by a member variable <b>m_OperationStatus</b>, set in a prior call to <b>BeginRead</b> or <b>BeginWrite</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
 {
     HRESULT hr = S_OK;
@@ -167,7 +163,7 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
         // TODO: Display the message: "Invalid argument in SetObjectTotalSize."
         return E_INVALIDARG;
     }
-    if ((m_OperationStatus != OPERATION_READ) &amp;&amp; (m_OperationStatus != OPERATION_WRITE))
+    if ((m_OperationStatus != OPERATION_READ) && (m_OperationStatus != OPERATION_WRITE))
     {
         // TODO: Display the message: "Unable to determine direction of data transfer."
         return E_FAIL;
@@ -202,14 +198,14 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
 
         // Create the MAC to return to Windows Media Device Manager.
         HMAC hMAC;
-        hr = m_pSAC-&gt;MACInit(&amp;hMAC);
-        hr = m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(pData), *pdwSize);
-        hr = m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD));
-        hr = m_pSAC-&gt;MACFinal(hMAC, (BYTE*)pMac);
+        hr = m_pSAC->MACInit(&hMAC);
+        hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(pData), *pdwSize);
+        hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD));
+        hr = m_pSAC->MACFinal(hMAC, (BYTE*)pMac);
         if (hr != S_OK) return E_FAIL;
 
         // Encrypt the data to send to the service provider/device.
-        hr = m_pSAC-&gt;EncryptParam((BYTE*)(pData), *pdwSize);
+        hr = m_pSAC->EncryptParam((BYTE*)(pData), *pdwSize);
         if (hr != S_OK) 
         {
             return E_FAIL;
@@ -229,15 +225,15 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
         memcpy(pTmpData, pData, *pdwSize);
 
         // Decrypt the pData Parameter
-        hr = m_pSAC-&gt;DecryptParam(pTmpData, *pdwSize);
+        hr = m_pSAC->DecryptParam(pTmpData, *pdwSize);
         
         // Verify the MAC of the decrypted data.
         HMAC hMAC;
         BYTE pTestMac[WMDM_MAC_LENGTH];
-        hr = m_pSAC-&gt;MACInit(&amp;hMAC);
-        hr = m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(pTmpData), *pdwSize);
-        hr = m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(*pdwSize));
-        hr = m_pSAC-&gt;MACFinal(hMAC, pTestMac);
+        hr = m_pSAC->MACInit(&hMAC);
+        hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(pTmpData), *pdwSize);
+        hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(*pdwSize));
+        hr = m_pSAC->MACFinal(hMAC, pTestMac);
         if ((memcmp(pMac, pTestMac, WMDM_MAC_LENGTH) != 0) || (hr != S_OK))
         {
             delete [] pTmpData;
@@ -246,7 +242,7 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
 
         // Write the data to file, and record the amount of data written.
         DWORD dwWritten = 0;
-        if (WriteFile(m_File,pTmpData,*pdwSize,&amp;dwWritten,NULL))
+        if (WriteFile(m_File,pTmpData,*pdwSize,&dwWritten,NULL))
         {
             hr = S_OK;
             *pdwSize = dwWritten;
@@ -262,10 +258,10 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
