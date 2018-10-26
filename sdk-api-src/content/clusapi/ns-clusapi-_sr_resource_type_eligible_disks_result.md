@@ -73,11 +73,11 @@ An array that contains the retrieved disk information.
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/8A53714D-D125-4B83-B51D-DF0EADE4C4E0">SR_RESOURCE_TYPE_DISK_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt421319(v=VS.85).aspx">SR_RESOURCE_TYPE_DISK_INFO</a>
  
 
  

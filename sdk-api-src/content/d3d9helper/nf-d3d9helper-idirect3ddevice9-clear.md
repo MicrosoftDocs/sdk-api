@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/ae48c5ce-b7f5-4189-8b04-880836be3fe0">multiple render targets</a>, a stencil buffer, and a depth buffer.
+Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/en-us/library/Bb147221(v=VS.85).aspx">multiple render targets</a>, a stencil buffer, and a depth buffer.
 
 
 ## -parameters
@@ -68,21 +68,21 @@ Number of rectangles in the array at pRects. Must be set to 0 if pRects is <b>NU
 
 ### -param pRects [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a8590411-fd34-4048-a41f-b4155d955573">D3DRECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172597(v=VS.85).aspx">D3DRECT</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/a8590411-fd34-4048-a41f-b4155d955573">D3DRECT</a> structures that describe the rectangles to clear. Set a rectangle to the dimensions of the rendering target to clear the entire surface. Each rectangle uses screen coordinates that correspond to points on the render target. Coordinates are clipped to the bounds of the viewport rectangle. To indicate that the entire viewport rectangle is to be cleared, set this parameter to <b>NULL</b> and Count to 0.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb172597(v=VS.85).aspx">D3DRECT</a> structures that describe the rectangles to clear. Set a rectangle to the dimensions of the rendering target to clear the entire surface. Each rectangle uses screen coordinates that correspond to points on the render target. Coordinates are clipped to the bounds of the viewport rectangle. To indicate that the entire viewport rectangle is to be cleared, set this parameter to <b>NULL</b> and Count to 0.
 
 
 ### -param Flags [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Combination of one or more <a href="https://msdn.microsoft.com/5d76e9a3-7afc-4db7-bffe-64bc7b9f83ac">D3DCLEAR</a> flags that specify the surface(s) that will be cleared.
+Combination of one or more <a href="https://msdn.microsoft.com/en-us/library/Bb172514(v=VS.85).aspx">D3DCLEAR</a> flags that specify the surface(s) that will be cleared.
 
 
 ### -param Color [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a4425774-fd4b-4f5c-9e10-7679bc2795f6">D3DCOLOR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172518(v=VS.85).aspx">D3DCOLOR</a></b>
 
 Clear a render target to this ARGB color.
 
@@ -105,7 +105,7 @@ Clear the stencil buffer to this new value which ranges from 0 to 2ⁿ-1 (n is t
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be: D3DERR_INVALIDCALL.
 
@@ -132,7 +132,7 @@ Use this method to clear a surface including: a render target, all render target
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

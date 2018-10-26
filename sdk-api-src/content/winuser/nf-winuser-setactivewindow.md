@@ -88,7 +88,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="https://msdn.microsoft.com/8318c22f-85a2-490e-8233-ee1e234890d9">Z-Order</a>) if its application is in the foreground when the system activates the window.
+The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a>) if its application is in the foreground when the system activates the window.
 
 If the window identified by the 
     <i>hWnd</i> parameter was created by the calling thread, the active window status of the calling thread is set to 
@@ -106,11 +106,11 @@ If the window identified by the
 
 
 
-<a href="https://msdn.microsoft.com/48f5ed0f-d141-4fef-8f34-7107156e2f48">GetActiveWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646292(v=VS.85).aspx">GetActiveWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -118,11 +118,11 @@ If the window identified by the
 
 
 
-<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/a62bb9f7-f286-4d0d-a1ca-370950c188b2">WM_ACTIVATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646274(v=VS.85).aspx">WM_ACTIVATE</a>
  
 
  

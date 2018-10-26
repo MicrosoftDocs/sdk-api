@@ -68,7 +68,7 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  When using managed code, use the <a href="P:Microsoft.Ink.ExtendedProperty.Id">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
+<div class="alert"><b>Note</b>  When using managed code, use the <a href="https://msdn.microsoft.com/en-us/library/ms684582(v=VS.85).aspx">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
 <div> </div>
 
 

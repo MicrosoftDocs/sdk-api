@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Adds a  groupset to a <a href="c_gly.htm">cluster</a> and returns a handle to the newly added groupset.
+Adds a  groupset to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to the newly added groupset.
 
 
 ## -parameters

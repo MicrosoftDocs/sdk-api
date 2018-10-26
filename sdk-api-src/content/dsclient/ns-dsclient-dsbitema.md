@@ -151,7 +151,7 @@ Pointer to a null-terminated string that contains the display name of the item. 
 
 ### -field szIconLocation
 
-Pointer to a null-terminated string that contains the name of an .exe, .dll, or .ico file that contains the icon to display for the item. This can be any file type that can be passed to the <a href="_win32_extracticon_cpp">ExtractIcon</a> function. The index for this icon is specified in <b>iIconResID</b>. To modify the icon displayed for the item, copy the icon source file name into this member, set  <b>iIconResID</b> to the zero-based index of the icon, set the <b>DSBF_ICONLOCATION</b> flag in  the <b>dwMask</b> member, and return a nonzero value from <a href="https://msdn.microsoft.com/91cfef29-3e0a-4dd0-be1a-215827c23143">BFFCallBack</a>.
+Pointer to a null-terminated string that contains the name of an .exe, .dll, or .ico file that contains the icon to display for the item. This can be any file type that can be passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx">ExtractIcon</a> function. The index for this icon is specified in <b>iIconResID</b>. To modify the icon displayed for the item, copy the icon source file name into this member, set  <b>iIconResID</b> to the zero-based index of the icon, set the <b>DSBF_ICONLOCATION</b> flag in  the <b>dwMask</b> member, and return a nonzero value from <a href="https://msdn.microsoft.com/91cfef29-3e0a-4dd0-be1a-215827c23143">BFFCallBack</a>.
 
 
 ### -field iIconResID
@@ -174,7 +174,7 @@ Contains the zero-based index of the icon to display for the item.
 
 
 
-<a href="_win32_extracticon_cpp">ExtractIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx">ExtractIcon</a>
  
 
  

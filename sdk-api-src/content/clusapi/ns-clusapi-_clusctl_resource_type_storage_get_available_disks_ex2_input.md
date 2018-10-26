@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Represents an input buffer for the <a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>  control code.
+Represents an input buffer for the <a href="https://msdn.microsoft.com/en-us/library/Dn806584(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>  control code.
 
 
 ## -struct-fields
@@ -95,11 +95,11 @@ A storage pool <b>GUID</b> that filters the results.
 
 
 
-<a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn806584(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
  
 
  

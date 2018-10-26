@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object that uses a specified color and width.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object that uses a specified color and width.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b
 
 Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object that specifies the color for this <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object. 
+Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object that specifies the color for this <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. 
 
 
 ### -param width [in]
@@ -87,7 +87,7 @@ If you pass the address of a pen to one of the draw methods of a
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object with the color red and a width of 4.0.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object with the color red and a width of 4.0.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -51,7 +51,7 @@ req.redist:
 
 
 Represents a tensor patch with 16 control points, 4 corner colors, and boundary flags. An ID2D1GradientMesh is made up of 1 or more gradient mesh patches.
-          Use the <a href="https://msdn.microsoft.com/78d2af9d-e158-29ce-ea6e-67b2d22925a1">GradientMeshPatch function</a> or the <a href="https://msdn.microsoft.com/12469ab9-890c-e4a9-57b2-41a804712052">GradientMeshPatchFromCoonsPatch function</a> to create one.
+          Use the <a href="https://msdn.microsoft.com/en-us/library/Dn890770(v=VS.85).aspx">GradientMeshPatch function</a> or the <a href="https://msdn.microsoft.com/en-us/library/Dn890772(v=VS.85).aspx">GradientMeshPatchFromCoonsPatch function</a> to create one.
         
 
 

@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>GetDeviceGammaRamp</b> function gets the <a href="g.htm">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>GetDeviceGammaRamp</b> function gets the <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 ## -parameters

@@ -69,7 +69,7 @@ Represents the order in which current batch command data is sent to the
 ### -field Command
 
 A command that is supported by this API and taken from the 
-       <a href="https://msdn.microsoft.com/1a1266dc-a223-48bd-be30-80c8b50c5b21">CLUSTER_REG_COMMAND</a> enumeration. The possible 
+       <a href="https://msdn.microsoft.com/en-us/library/Bb309163(v=VS.85).aspx">CLUSTER_REG_COMMAND</a> enumeration. The possible 
        commands are as follows.
 
 
@@ -78,7 +78,7 @@ A command that is supported by this API and taken from the
 
 Sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not 
          provided) relative to a key passed into the 
-         <a href="https://msdn.microsoft.com/83e7c216-f08f-4dc2-9b53-faa2760985d4">ClusterRegCreateBatch</a> function.
+         <a href="https://msdn.microsoft.com/en-us/library/Bb309132(v=VS.85).aspx">ClusterRegCreateBatch</a> function.
 
 
 
@@ -100,7 +100,7 @@ Deletes a key with all values and nested subkeys.  No commands that operate on v
 
 Deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if 
          not provided) relative to a key passed into the 
-         <a href="https://msdn.microsoft.com/83e7c216-f08f-4dc2-9b53-faa2760985d4">ClusterRegCreateBatch</a> function.
+         <a href="https://msdn.microsoft.com/en-us/library/Bb309132(v=VS.85).aspx">ClusterRegCreateBatch</a> function.
 
 
 
@@ -115,7 +115,7 @@ Indicates whether a  specific cluster registry value has been deleted or if the 
 If the <b>Command</b> member takes either the 
        <b>CLUSREG_SET_VALUE</b> command or the <b>CLUSREG_DELETE_VALUE</b> 
        command, then this member takes one of the standard 
-       <a href="https://msdn.microsoft.com/5fd828d6-4d62-4823-a2f1-15782b5cd28c">registry value types</a>. If not, then 
+       <a href="https://msdn.microsoft.com/en-us/library/ms724884(v=VS.85).aspx">registry value types</a>. If not, then 
        <b>Command</b> is set to 0.
 
 
@@ -156,7 +156,7 @@ The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch
 
 
 
-<a href="https://msdn.microsoft.com/1a1266dc-a223-48bd-be30-80c8b50c5b21">CLUSTER_REG_COMMAND</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309163(v=VS.85).aspx">CLUSTER_REG_COMMAND</a>
 
 
 
@@ -172,11 +172,11 @@ The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch
 
 
 
-<a href="https://msdn.microsoft.com/83e7c216-f08f-4dc2-9b53-faa2760985d4">ClusterRegCreateBatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309132(v=VS.85).aspx">ClusterRegCreateBatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/640359e9-ed65-46c1-a9d4-655e2f6a24df">Failover Cluster Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369165(v=VS.85).aspx">Failover Cluster Structures</a>
  
 
  

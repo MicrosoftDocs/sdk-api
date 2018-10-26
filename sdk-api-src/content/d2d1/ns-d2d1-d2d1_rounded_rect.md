@@ -60,7 +60,7 @@ Contains the dimensions and corner radii of a rounded rectangle.
 
 ### -field rect
 
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
 
 The coordinates of the rectangle.
 
