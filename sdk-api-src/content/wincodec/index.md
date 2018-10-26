@@ -2,7 +2,7 @@
 UID: NA:wincodec
 ms.assetid: 0309ff9a-dec7-37c4-8350-152dfe3e195d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

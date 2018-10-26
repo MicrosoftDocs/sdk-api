@@ -2,7 +2,7 @@
 UID: NA:handleapi
 ms.assetid: 3f378102-a72c-36e4-86d4-13b40ec99d32
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

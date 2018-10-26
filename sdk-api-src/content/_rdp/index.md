@@ -2,7 +2,7 @@
 UID: TP:rdp
 ms.assetid: f2fdbe9c-5378-3329-bc7e-5993852bc608
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

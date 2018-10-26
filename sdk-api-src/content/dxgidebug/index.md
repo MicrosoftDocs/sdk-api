@@ -2,7 +2,7 @@
 UID: NA:dxgidebug
 ms.assetid: a1d3e485-0721-3cd3-b78c-50d60d5c6821
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

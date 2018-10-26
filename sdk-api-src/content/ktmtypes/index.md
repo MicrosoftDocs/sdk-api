@@ -2,7 +2,7 @@
 UID: NA:ktmtypes
 ms.assetid: 8a60bdf8-2faa-3238-b021-1f23bf7e60e2
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:dxvahd
 ms.assetid: 2c79b8ae-f0db-3720-aeed-fb19a16b491c
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:imagehlp
 ms.assetid: 1721db5b-f550-38d7-9e78-a802731ec92e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

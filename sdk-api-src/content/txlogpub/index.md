@@ -2,7 +2,7 @@
 UID: NA:txlogpub
 ms.assetid: 08e9a373-7fa6-33d6-9a8b-ce0a30237de4
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

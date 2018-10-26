@@ -2,7 +2,7 @@
 UID: NA:identitycommon
 ms.assetid: ecfe21d1-b6bf-32d4-a8cf-93ffd4272965
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

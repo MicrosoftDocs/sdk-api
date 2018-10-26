@@ -2,7 +2,7 @@
 UID: NA:midles
 ms.assetid: ee047dea-0363-3814-8325-5522cc5ab348
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

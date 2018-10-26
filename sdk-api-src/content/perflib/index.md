@@ -2,7 +2,7 @@
 UID: NA:perflib
 ms.assetid: 882c5ff2-079d-3e33-9d2a-f993faf213fd
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

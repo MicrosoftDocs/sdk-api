@@ -2,7 +2,7 @@
 UID: NA:emi
 ms.assetid: a3d844b2-70c5-310b-bb5f-9ca4f80b87ce
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:mmstream
 ms.assetid: ef67fdfa-597a-3ddd-bc70-7dc48571bbfc
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:mbn
 ms.assetid: a50fdfaa-8786-3d51-8479-2ca7260c9904
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

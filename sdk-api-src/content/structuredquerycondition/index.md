@@ -2,7 +2,7 @@
 UID: NA:structuredquerycondition
 ms.assetid: 00a29e75-1661-338b-bf86-09b29aa51310
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

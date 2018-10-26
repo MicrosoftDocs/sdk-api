@@ -2,7 +2,7 @@
 UID: TP:dshow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:bits2_5
 ms.assetid: fb834d8c-47b4-37b1-9700-97b1447799f3
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

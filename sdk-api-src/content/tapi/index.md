@@ -2,7 +2,7 @@
 UID: NA:tapi
 ms.assetid: 02fee33b-32b4-3b18-98a7-0e1ee369b5e3
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

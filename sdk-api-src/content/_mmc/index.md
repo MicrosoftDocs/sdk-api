@@ -2,7 +2,7 @@
 UID: TP:mmc
 ms.assetid: de56c74d-5f5f-3cef-a733-c5b42e122a67
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
