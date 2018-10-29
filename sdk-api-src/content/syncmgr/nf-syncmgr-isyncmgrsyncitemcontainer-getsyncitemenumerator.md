@@ -89,13 +89,9 @@ The number of enumerated items can be obtained through the <a href="https://msdn
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
+
+```cpp
+STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
     __out IEnumSyncMgrSyncItems **ppenum)
 {
     *ppenum = NULL;
@@ -111,9 +107,9 @@ The following example shows an implementation of this method.
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

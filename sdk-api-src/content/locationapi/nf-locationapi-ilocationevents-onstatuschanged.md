@@ -91,13 +91,9 @@ This event provides report status for new reports. The most recent reports remai
 
 The following is a sample implementation of <b>OnStatusChanged</b> that handles status changed events for latitude/longitude reports.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// This is called when the status of a report type changes.
+
+```cpp
+// This is called when the status of a report type changes.
 // The LOCATION_REPORT_STATUS enumeration is defined in LocApi.h in the SDK
 STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT_STATUS status)
 {
@@ -128,10 +124,10 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

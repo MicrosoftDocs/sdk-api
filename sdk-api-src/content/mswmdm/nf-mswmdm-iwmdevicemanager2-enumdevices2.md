@@ -98,17 +98,13 @@ This method returns a snapshot of the devices connected when the underlying obje
 
 The following C++ code loops through all the devices and retrieves the display name of each.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Enumerate through the devices using the faster EnumDevices2 Plug-and-Play method.
 // IWMDevMgr2 is a global IWMDeviceManager2 pointer.
-CComPtr&lt;IWMDMEnumDevice&gt; pEnumDevice;
-hr = pIWMDevMgr2-&gt;EnumDevices2(&amp;pEnumDevice);
+CComPtr<IWMDMEnumDevice> pEnumDevice;
+hr = pIWMDevMgr2->EnumDevices2(&pEnumDevice);
 if (hr == S_OK)
 {
     // Length of all the strings we'll send in. 
@@ -121,21 +117,21 @@ if (hr == S_OK)
         // Get a device handle.
         IWMDMDevice* pDevice;
         ULONG ulFetched = 0;
-        hr = pEnumDevice-&gt;Next(1, &amp;pDevice, &amp;ulFetched);
-        CComQIPtr&lt;IWMDMDevice2&gt; pDevice2(pDevice);
+        hr = pEnumDevice->Next(1, &pDevice, &ulFetched);
+        CComQIPtr<IWMDMDevice2> pDevice2(pDevice);
 
         if (hr != S_OK || ulFetched != 1)
         {
             break;
         }
         ZeroMemory(name, MAX_CHARS);
-        hr = pDevice2-&gt;GetName(name, MAX_CHARS);
+        hr = pDevice2->GetName(name, MAX_CHARS);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

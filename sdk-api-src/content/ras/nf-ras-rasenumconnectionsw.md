@@ -134,14 +134,10 @@ If a connection was made without specifying a phone-book entry name, the informa
 
 The following code sample code uses <b>RasEnumConnections</b> to enumerates the active RAS connections.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
 #include "ras.h"
 #include "raserror.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -155,7 +151,7 @@ DWORD __cdecl wmain(){
     
     // Call RasEnumConnections with lpRasConn = NULL. dwCb is returned with the required buffer size and 
     // a return code of ERROR_BUFFER_TOO_SMALL
-    dwRet = RasEnumConnections(lpRasConn, &amp;dwCb, &amp;dwConnections);
+    dwRet = RasEnumConnections(lpRasConn, &dwCb, &dwConnections);
 
     if (dwRet == ERROR_BUFFER_TOO_SMALL){
         // Allocate the memory needed for the array of RAS structure(s).
@@ -168,12 +164,12 @@ DWORD __cdecl wmain(){
         lpRasConn[0].dwSize = sizeof(RASCONN);
         
         // Call RasEnumConnections to enumerate active connections
-        dwRet = RasEnumConnections(lpRasConn, &amp;dwCb, &amp;dwConnections);
+        dwRet = RasEnumConnections(lpRasConn, &dwCb, &dwConnections);
 
         // If successful, print the names of the active connections.
         if (ERROR_SUCCESS == dwRet){
             wprintf(L"The following RAS connections are currently active:\n");
-            for (DWORD i = 0; i &lt; dwConnections; i++){
+            for (DWORD i = 0; i < dwConnections; i++){
                          wprintf(L"%s\n", lpRasConn[i].szEntryName);
                   }
         }
@@ -184,7 +180,7 @@ DWORD __cdecl wmain(){
     }
 
     // There was either a problem with RAS or there are no connections to enumerate    
-    if(dwConnections &gt;= 1){
+    if(dwConnections >= 1){
         wprintf(L"The operation failed to acquire the buffer size.\n");
     }else{
         wprintf(L"There are no active RAS connections.\n");
@@ -192,10 +188,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>RasEnumConnections</b> cannot  enumerate a connection as <b>Active</b> until RAS has successfully connected. 
 
 <b>Windows Me/98/95:  </b><b>RasEnumConnections</b>  enumerates a connection as <b>Active</b> as soon as it starts dialing.

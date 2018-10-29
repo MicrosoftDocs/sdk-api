@@ -144,31 +144,27 @@ The following example code shows this method being called in a <a href="https://
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd, 
                              LONG idObject, LONG idChild, 
                              DWORD dwEventThread, DWORD dwmsEventTime)
 {
     IAccessible* pAcc = NULL;
     VARIANT varChild;
-    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &amp;pAcc, &amp;varChild);  
-    if ((hr == S_OK) &amp;&amp; (pAcc != NULL))
+    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &pAcc, &varChild);  
+    if ((hr == S_OK) && (pAcc != NULL))
     {
         // Do something with the accessible object, then release it.        
         // ... 
-        pAcc-&gt;Release();
+        pAcc->Release();
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

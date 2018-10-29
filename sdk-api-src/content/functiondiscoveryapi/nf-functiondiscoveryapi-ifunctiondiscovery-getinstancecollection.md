@@ -172,21 +172,17 @@ Subcategory queries are only supported for layered categories and some provider 
 
 The following code returns the function instances associated with the SSDP provider in the Microsoft.Networking.Devices namespace.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = spDisco-&gt;GetInstanceCollection(FCTN_CATEGORY_NETWORKDEVICES,
+
+```cpp
+hr = spDisco->GetInstanceCollection(FCTN_CATEGORY_NETWORKDEVICES,
                                    FCTN_SUBCAT_NETWORKDEVICES_SSDP, 
                                    FALSE, 
-                                   &amp;spFunctionInstanceCollection);
+                                   &spFunctionInstanceCollection);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 See interface constraints on <a href="https://msdn.microsoft.com/03343d85-c0db-436d-bedc-c001b1886173">IFunctionInstanceQuery</a> to filter on multiple interfaces at one time or to filter on providers that do not support subcategory queries.
 
 <div class="code"></div>

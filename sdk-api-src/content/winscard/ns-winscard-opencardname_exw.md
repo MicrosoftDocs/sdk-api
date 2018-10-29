@@ -151,23 +151,19 @@ A pointer to the caller's card connect routine. If the caller needs to perform a
 
 The prototype for the connect routine is as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Connect(
+
+```cpp
+Connect(
   hSCardContext,  // the card context passed in the parameter block
   szReader,       // the name of the reader
   mszCards,       // multiple string that contains the possible 
                   //  card names in the reader
   pvUserData      // pointer to user data passed in parameter block
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 ### -field pvUserData
 

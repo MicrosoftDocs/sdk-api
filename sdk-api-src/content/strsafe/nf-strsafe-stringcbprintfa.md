@@ -193,13 +193,9 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 The following example shows a basic use of <b>StringCbPrintf</b>, using four arguments.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>int const arraysize = 30;
+
+```cpp
+int const arraysize = 30;
 TCHAR pszDest[arraysize]; 
 size_t cbDest = arraysize * sizeof(TCHAR);
 
@@ -208,10 +204,10 @@ TCHAR* pszTxt = TEXT("The answer is");
 
 HRESULT hr = StringCbPrintf(pszDest, cbDest, pszFormat, pszTxt, 1, 2, 3);
 
-// The resultant string at pszDest is "The answer is 1 + 2 = 3."</pre>
-</td>
-</tr>
-</table></span></div>
+// The resultant string at pszDest is "The answer is 1 + 2 = 3."
+```
+
+
 
 
 

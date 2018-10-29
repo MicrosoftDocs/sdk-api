@@ -146,32 +146,28 @@ For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type info
 
 The following example gets the TKIND_INTERFACE type information for a dual interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
-hr = ptlib-&gt;GetTypeInfo((unsigned int) dwIndex, &amp;ptypeinfoDisp);
+
+```cpp
+HRESULT hr;
+hr = ptlib->GetTypeInfo((unsigned int) dwIndex, &ptypeinfoDisp);
 if (FAILED(hr)) {
    //free resources
    return hr;
 }
-hr = ptypeinfoDisp-&gt;GetRefTypeOfImplType(-1, &amp;phreftype);
+hr = ptypeinfoDisp->GetRefTypeOfImplType(-1, &phreftype);
 if (FAILED(hr)) {
    //free resources
    return hr;
 
-hr = ptypeinfoDisp-&gt;GetRefTypeInfo(phreftype, &amp;ptypeinfoInt);
+hr = ptypeinfoDisp->GetRefTypeInfo(phreftype, &ptypeinfoInt);
 if (FAILED(hr)) {
    //free resources
    return hr;
 
-// </pre>
-</td>
-</tr>
-</table></span></div>
+// 
+```
+
+
 
 
 

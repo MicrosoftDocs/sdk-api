@@ -89,13 +89,9 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSession</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyDeviceHandler::Synchronize(...)
+
+```cpp
+HRESULT CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -106,28 +102,28 @@ The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSessi
     // Check for additional items to sync.
     IEnumString *penumItemIDs = NULL;
     
-    hr = pCallback-&gt;QueryForAdditionalItems(&amp;penumItemIDs);
+    hr = pCallback->QueryForAdditionalItems(&penumItemIDs);
     if (hr == S_OK)
     {
         while (hr == S_OK)
         {
             LPWSTR pszItemID;
             ULONG cFetched;
-            hr = penumItemIDs-&gt;Next(1, &amp;pszItemID, &amp;cFetched);
-            if ((hr == S_OK) &amp;&amp; (cFetched == 1))
+            hr = penumItemIDs->Next(1, &pszItemID, &cFetched);
+            if ((hr == S_OK) && (cFetched == 1))
             {
                 // Add this item to the set of items we are syncing.
-                hr = pCallback-&gt;AddItemToSession(pszItemID);
+                hr = pCallback->AddItemToSession(pszItemID);
                 CoTaskMemFree(pszItemID);
             }
         }
-        penumItemIDs-&gt;Release();
+        penumItemIDs->Release();
     }
     ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

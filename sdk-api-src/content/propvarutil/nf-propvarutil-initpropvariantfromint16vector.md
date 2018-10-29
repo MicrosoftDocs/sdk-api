@@ -101,26 +101,22 @@ Creates a VT_VECTOR | VT_I2 propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SHORT rgShorts[] = {3, 1, 4};
+
+```cpp
+SHORT rgShorts[] = {3, 1, 4};
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromInt16Vector(rgShorts, ARRAYSIZE(rgShorts), &amp;propvar);
+HRESULT hr = InitPropVariantFromInt16Vector(rgShorts, ARRAYSIZE(rgShorts), &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_I2.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

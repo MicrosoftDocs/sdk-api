@@ -124,13 +124,9 @@ The following code example demonstrates how to create an <a href="https://msdn.m
     the function.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT InitD3D9Ex( /* IN */ HWND hWnd, /* OUT */ IDirect3DDevice9Ex ** ppD3DDevice )
+
+```cpp
+HRESULT InitD3D9Ex( /* IN */ HWND hWnd, /* OUT */ IDirect3DDevice9Ex ** ppD3DDevice )
 {
     HRESULT hr = E_FAIL;
     IDirect3D9Ex * pD3D = NULL;
@@ -142,7 +138,7 @@ The following code example demonstrates how to create an <a href="https://msdn.m
     }
     
     // Create the D3D object, which is needed to create the D3DDevice.
-    if(FAILED(hr = Direct3DCreate9Ex( D3D_SDK_VERSION, &amp;pD3D )))
+    if(FAILED(hr = Direct3DCreate9Ex( D3D_SDK_VERSION, &pD3D )))
     {
         *ppD3DDevice = NULL;
         return hr;
@@ -151,15 +147,15 @@ The following code example demonstrates how to create an <a href="https://msdn.m
         
     // Set up the structure used to create the D3DDevice. 
     D3DPRESENT_PARAMETERS d3dpp; 
-    ZeroMemory( &amp;d3dpp, sizeof(d3dpp) );
+    ZeroMemory( &d3dpp, sizeof(d3dpp) );
     d3dpp.Windowed = TRUE;
     d3dpp.SwapEffect = D3DSWAPEFFECT_DISCARD;
     d3dpp.BackBufferFormat = D3DFMT_UNKNOWN;
 
     // Create the Direct3D device. 
-    if( FAILED( hr = pD3D-&gt;CreateDeviceEx( D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
+    if( FAILED( hr = pD3D->CreateDeviceEx( D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
                                       D3DCREATE_SOFTWARE_VERTEXPROCESSING,
-                                      &amp;d3dpp, NULL, &amp;pDevice ) ) )
+                                      &d3dpp, NULL, &pDevice ) ) )
 
     {
         *ppD3DDevice = NULL;
@@ -172,10 +168,10 @@ The following code example demonstrates how to create an <a href="https://msdn.m
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Checking for Direct3D9Ex.
 
 The following code example demonstrates how to check for the existence of <b>Direct3DCreate9Ex</b>and fail on platforms that do not support it. You can use this code in a game launcher to present 
@@ -188,13 +184,9 @@ To check for <b>Direct3DCreate9Ex</b>, this example explicitly loads the D3D9.dl
           However, if <b>Direct3DCreate9Ex</b> is present, it returns an <b>S_OK</b> value.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CheckD3D9Ex( void )
+
+```cpp
+HRESULT CheckD3D9Ex( void )
 {
     HRESULT hr = E_FAIL;
     HMODULE libHandle = NULL;
@@ -232,10 +224,10 @@ To check for <b>Direct3DCreate9Ex</b>, this example explicitly loads the D3D9.dl
     
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Note that you may cast an <a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a> interface pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface pointer because the extended version is inherited. This makes it possible to use the extended device with existing Direct3D 9 code, except where the new device changes the semantics of the interface.  For more information about differences between the two interfaces, see <a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">device behavior changes</a>.
 
 <div class="code"></div>

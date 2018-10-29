@@ -134,13 +134,9 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 
 The following code example shows how to set the default proxy configuration in the registry.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    WINHTTP_PROXY_INFO proxyInfo;
+
+```cpp
+    WINHTTP_PROXY_INFO proxyInfo;
 
     // Allocate memory for string members.
     proxyInfo.lpszProxy = new WCHAR[25];
@@ -149,19 +145,19 @@ The following code example shows how to set the default proxy configuration in t
     // Set the members of the proxy info structure.
     proxyInfo.dwAccessType = WINHTTP_ACCESS_TYPE_NAMED_PROXY;
     swprintf_s(proxyInfo.lpszProxy, 25, L"proxy_server");
-    swprintf_s(proxyInfo.lpszProxyBypass, 25, L"&lt;local&gt;");
+    swprintf_s(proxyInfo.lpszProxyBypass, 25, L"<local>");
 
     // Set the default proxy configuration.
-    if (WinHttpSetDefaultProxyConfiguration( &amp;proxyInfo ))
+    if (WinHttpSetDefaultProxyConfiguration( &proxyInfo ))
         printf("Proxy Configuration Set.\n");
 
     // Free memory allocated to the strings.
     delete [] proxyInfo.lpszProxy;
     delete [] proxyInfo.lpszProxyBypass;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

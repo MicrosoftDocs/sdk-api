@@ -111,18 +111,14 @@ This interface, like all COM interfaces, inherits from the <a href="https://msdn
 
 The LPDIRECT3DINDEXBUFFER9 and PDIRECT3DINDEXBUFFER9 types are defined as pointers to the <b>IDirect3DIndexBuffer9</b> interface. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirect3DIndexBuffer9 *LPDIRECT3DINDEXBUFFER9, *PDIRECT3DINDEXBUFFER9;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

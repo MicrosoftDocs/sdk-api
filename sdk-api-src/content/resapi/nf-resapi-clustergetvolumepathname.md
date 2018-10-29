@@ -150,6 +150,9 @@ Output: "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
       <b>TCHAR</b>-based data types instead of <b>WCHAR</b>-based 
       data types. The UNICODE preprocessor define must be set before ResApi.h is included.
 
+      data types. The UNICODE preprocessor define must be set before ResApi.h is included.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
       data types. The UNICODE preprocessor define must be set before ResApi.h is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -162,6 +165,8 @@ Output: "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
 </td>
 </tr>
 </table></span></div>
+
+
 
 
 

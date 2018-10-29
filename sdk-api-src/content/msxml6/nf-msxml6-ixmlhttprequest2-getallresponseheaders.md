@@ -83,18 +83,14 @@ The returned response header information is only valid after the <a href="https:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 WCHAR *pwszHeaderValue = NULL;
 IXMLHTTPRequest2 *pIXMLHTTPRequest2 = NULL;
 
 // Create IXMLHTTPRequest2 object and initialize pIXMLHTTPRequest2.
-hr = pIXMLHTTPRequest2-&gt;GetAllResponseHeaders(&amp;pwszHeaderValue);
+hr = pIXMLHTTPRequest2->GetAllResponseHeaders(&pwszHeaderValue);
 if(SUCCEEDED(hr))
 {
   MessageBox(NULL, pwszHeaderValue, L"All Response Headers", MB_OK);
@@ -107,10 +103,10 @@ if (pwszHeaderValue != NULL)
 }
 
 // Release pIXMLHTTPRequest2 when finished with it.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

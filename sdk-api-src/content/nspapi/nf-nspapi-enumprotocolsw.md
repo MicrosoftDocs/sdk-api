@@ -205,20 +205,16 @@ The buffer pointed to by <i>lpProtocolBuffer</i> was too small to receive all of
 In the following sample code, the 
 <b>EnumProtocols</b> function retrieves information about all protocols that are available on a system. The code then examines each of the protocols in greater detail.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define WIN32_LEAN_AND_MEAN
 
-#include &lt;windows.h&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;Nspapi.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;stdio.h&gt;
+```cpp
+#define WIN32_LEAN_AND_MEAN
+
+#include <windows.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <Nspapi.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 
 // Need to link with Ws2_32.lib and Mswsock.lib
@@ -249,7 +245,7 @@ int __cdecl main(int argc, char **argv)
     }
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed with error: %d\n", iResult);
         return 1;
@@ -294,8 +290,8 @@ int FindProtocol (
     // First look up the protocols installed on this computer. 
     // 
     bytesRequired = sizeof(buffer); 
-    err = EnumProtocols( NULL, buffer, &amp;bytesRequired ); 
-    if ( err &lt;= 0 ) 
+    err = EnumProtocols( NULL, buffer, &bytesRequired ); 
+    if ( err <= 0 ) 
         return SOCKET_ERROR; 
  
     // Walk through the available protocols and pick out the ones which 
@@ -305,7 +301,7 @@ int FindProtocol (
     protocolInfo = (PPROTOCOL_INFO)buffer; 
  
     for ( i = 0, protocolIndex = 0; 
-        i &lt; protocolCount &amp;&amp; protocolIndex &lt; MAX_PROTOCOLS; 
+        i < protocolCount && protocolIndex < MAX_PROTOCOLS; 
         i++, protocolInfo++ ) { 
  
         // If connection-oriented support is requested, then check if 
@@ -318,10 +314,10 @@ int FindProtocol (
             // guarantee both delivery of all data and the order in 
             // which the data arrives. 
             // 
-            if ( (protocolInfo-&gt;dwServiceFlags &amp; 
+            if ( (protocolInfo->dwServiceFlags & 
                     XP_GUARANTEED_DELIVERY) == 0 
                 || 
-                    (protocolInfo-&gt;dwServiceFlags &amp; 
+                    (protocolInfo->dwServiceFlags & 
                     XP_GUARANTEED_ORDER) == 0 ) { 
  
                 continue; 
@@ -330,16 +326,16 @@ int FindProtocol (
             // Check to see that the protocol matches the stream/message 
             // characteristics requested. 
             // 
-            if ( StreamOriented &amp;&amp; 
-                (protocolInfo-&gt;dwServiceFlags &amp; XP_MESSAGE_ORIENTED) 
-                    != 0 &amp;&amp; 
-                (protocolInfo-&gt;dwServiceFlags &amp; XP_PSEUDO_STREAM) 
+            if ( StreamOriented && 
+                (protocolInfo->dwServiceFlags & XP_MESSAGE_ORIENTED) 
+                    != 0 && 
+                (protocolInfo->dwServiceFlags & XP_PSEUDO_STREAM) 
                      == 0 ) { 
                 continue; 
             } 
  
-            if ( MessageOriented &amp;&amp; 
-                    (protocolInfo-&gt;dwServiceFlags &amp; XP_MESSAGE_ORIENTED) 
+            if ( MessageOriented && 
+                    (protocolInfo->dwServiceFlags & XP_MESSAGE_ORIENTED) 
                               == 0 ) { 
                 continue; 
             } 
@@ -348,7 +344,7 @@ int FindProtocol (
         else if ( Connectionless ) { 
             // Make sure that this is a connectionless protocol. 
             // 
-            if ( (protocolInfo-&gt;dwServiceFlags &amp; XP_CONNECTIONLESS) 
+            if ( (protocolInfo->dwServiceFlags & XP_CONNECTIONLESS) 
                      != 0 ) 
                 continue; 
         } 
@@ -356,16 +352,16 @@ int FindProtocol (
         // This protocol fits all the criteria.  Add it to the list of 
         // protocols in which we're interested. 
         // 
-        protocols[protocolIndex++] = protocolInfo-&gt;iProtocol; 
+        protocols[protocolIndex++] = protocolInfo->iProtocol; 
      }
 
      *ProtocolUsed = (INT) protocolIndex;
      return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

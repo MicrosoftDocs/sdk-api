@@ -107,13 +107,9 @@ A provider typically calls this method as part of handling the <a href="https://
 
 The following C++ code example shows how to implement the <b>GetAdjacentFragment</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
+
+```cpp
+IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
         enum NavigateDirection direction, IRawElementProviderFragment **ppFragment)   
 {
     if (ppFragment == NULL)
@@ -132,12 +128,12 @@ The following C++ code example shows how to implement the <b>GetAdjacentFragment
 
                 // Call an application-defined function to retrieve the
                 // parent provider interface.
-                hr = GetParentProvider(&amp;pSimple);  
+                hr = GetParentProvider(&pSimple);  
                 if (SUCCEEDED(hr))  
                 {  
                     // Get the parent's IRawElementProviderFragment interface.
-                    hr = pSimple-&gt;QueryInterface(IID_PPV_ARGS(ppFragment));  
-                    pSimple-&gt;Release();  
+                    hr = pSimple->QueryInterface(IID_PPV_ARGS(ppFragment));  
+                    pSimple->Release();  
                 } 
             }  
             break;  
@@ -155,10 +151,10 @@ The following C++ code example shows how to implement the <b>GetAdjacentFragment
   
     return hr;  
 }   
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

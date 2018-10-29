@@ -87,13 +87,9 @@ A font family consists of a single font type with related styles. An example of 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, gets the number of 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> objects contained within the collection, and outputs that number.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetFamilyCount(HDC hdc)
+
+```cpp
+VOID Example_GetFamilyCount(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -112,11 +108,11 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
    WCHAR      string[256];
    swprintf_s(string, L"There are %i families in fontCollection.", numFamilies);
    graphics.DrawString(string,
-                       wcslen(string), &amp;font, PointF(0, 0), &amp;solidbrush);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+                       wcslen(string), &font, PointF(0, 0), &solidbrush);
+}
+```
+
+
 
 
 

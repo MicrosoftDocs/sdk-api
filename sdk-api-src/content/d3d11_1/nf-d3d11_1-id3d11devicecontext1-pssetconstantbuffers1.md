@@ -173,77 +173,65 @@ The runtime's <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85
 Here is the code to check whether either the runtime emulates command lists or the driver supports command lists:
             
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
      HRESULT hr = S_OK;
      bool needWorkaround = false;
-     D3D11_DEVICE_CONTEXT_TYPE contextType = pDeviceContext-&gt;GetType();
+     D3D11_DEVICE_CONTEXT_TYPE contextType = pDeviceContext->GetType();
 
      if( D3D11_DEVICE_CONTEXT_DEFERRED == contextType)
      {
           D3D11_FEATURE_DATA_THREADING threadingCaps = { FALSE, FALSE };
 
-          hr = pDevice-&gt;CheckFeatureSupport( D3D11_FEATURE_THREADING, &amp;threadingCaps, sizeof(threadingCaps) );
-          if( SUCCEEDED(hr) &amp;&amp; !threadingCaps.DriverCommandLists )
+          hr = pDevice->CheckFeatureSupport( D3D11_FEATURE_THREADING, &threadingCaps, sizeof(threadingCaps) );
+          if( SUCCEEDED(hr) && !threadingCaps.DriverCommandLists )
           {
                needWorkaround = true; // the runtime emulates command lists.
           }
      }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 If the runtime emulates command lists, you need to use one of these code snippets:
           
 
 If you change the offset and size on only a single constant buffer, set the constant buffer to <b>NULL</b> first:
             
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-     pDeviceContext-&gt;PSSetConstantBuffers1(0, 1, &amp;CBuf, &amp;Offset, &amp;Count);
+
+```cpp
+
+     pDeviceContext->PSSetConstantBuffers1(0, 1, &CBuf, &Offset, &Count);
      if( needWorkaround )
      {
           // Workaround for command list emulation
-          pDeviceContext-&gt;PSSetConstantBuffers(0, 1, &amp;NullCBuf);
+          pDeviceContext->PSSetConstantBuffers(0, 1, &NullCBuf);
      }
-     pDeviceContext-&gt;PSSetConstantBuffers1(0, 1, &amp;CBuf, &amp;Offset, &amp;Count);
-</pre>
-</td>
-</tr>
-</table></span></div>
+     pDeviceContext->PSSetConstantBuffers1(0, 1, &CBuf, &Offset, &Count);
+
+```
+
+
 If you change multiple constant buffers, set the first and last constant buffers of the range to <b>NULL</b> first:
             
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-     pDeviceContext-&gt;PSSetConstantBuffers1(0, 4, &amp;CBufs, &amp;Offsets, &amp;Counts);
+
+```cpp
+
+     pDeviceContext->PSSetConstantBuffers1(0, 4, &CBufs, &Offsets, &Counts);
      if( needWorkaround )
      {
           // Workaround for command list emulation
-          pDeviceContext-&gt;PSSetConstantBuffers(0, 1, &amp;NullCBuf);
-          pDeviceContext-&gt;PSSetConstantBuffers(3, 1, &amp;NullCBuf);
+          pDeviceContext->PSSetConstantBuffers(0, 1, &NullCBuf);
+          pDeviceContext->PSSetConstantBuffers(3, 1, &NullCBuf);
      }
-     pDeviceContext-&gt;PSSetConstantBuffers1(0, 4, &amp;CBufs, &amp;Offsets, &amp;Counts);
-</pre>
-</td>
-</tr>
-</table></span></div>
+     pDeviceContext->PSSetConstantBuffers1(0, 4, &CBufs, &Offsets, &Counts);
+
+```
+
+
 
 
 

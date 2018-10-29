@@ -106,13 +106,9 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and calls the <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> method to draw the image. Then the code creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap output channel to cyan (<a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlagsC</a>). The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">DrawImage</a> a second time, passing the address of the <b>Image</b> object and the address of the <b>ImageAttributes</b> object. The cyan channel of each pixel is calculated, and the rendered image shows the intensities of the cyan channel as shades of gray. The code calls <b>DrawImage</b> three more times to show the intensities of the magenta, yellow, and black channels.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetOutputChannel(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -120,7 +116,7 @@ VOID Example_SetOutputChannel(HDC hdc)
    Image image(L"Mosaic2.bmp");
 
    // Draw the image unaltered.
-   graphics.DrawImage(&amp;image, 10, 10, width, height);
+   graphics.DrawImage(&image, 10, 10, width, height);
 
    UINT width = image.GetWidth();
    UINT height = image.GetHeight();
@@ -130,43 +126,43 @@ VOID Example_SetOutputChannel(HDC hdc)
    // Draw the image, showing the intensity of the cyan channel.
    imAtt.SetOutputChannel(ColorChannelFlagsC, ColorAdjustTypeBitmap);
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(110, 10, width, height),  // dest rect
       0, 0, width, height,           // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Draw the image, showing the intensity of the magenta channel.
    imAtt.SetOutputChannel(ColorChannelFlagsM, ColorAdjustTypeBitmap);
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(210, 10, width, height),  // dest rect
       0, 0, width, height,           // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Draw the image, showing the intensity of the yellow channel.
    imAtt.SetOutputChannel(ColorChannelFlagsY, ColorAdjustTypeBitmap);
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(10, 110, width, height),  // dest rect
       0, 0, width, height,           // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Draw the image, showing the intensity of the black channel.
    imAtt.SetOutputChannel(ColorChannelFlagsK, ColorAdjustTypeBitmap);
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(110, 110, width, height),  // dest rect
       0, 0, width, height,            // source rect
       UnitPixel,
-      &amp;imAtt); 
+      &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing five versions of one image: first in color, then in four different patterns of greyscale" src="./images/imageattributessetoutputchannel.png"/>

@@ -91,17 +91,13 @@ It is recommended that language projections implement this interface when the st
 
 The following example demonstrates a projection providing its back trace through an interface implemented on the language exception object.  Global Error Handling (GEH) queries for this interface when a language exception object is provided to <a href="https://msdn.microsoft.com/573A9209-31EF-4FD4-A504-16795BA42337">RoOriginateLanguageException</a> or <a href="https://msdn.microsoft.com/60026962-4E6C-4906-97D9-46BD2BCA3AC6">CapturePropagationContext</a>.  As such, this scenario allows the GEH to expose back traces for projections which the GEH can’t capture back traces for.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>class FooExceptionInfo : public Microsoft::WRL::RuntimeClass&lt; 
-    Microsoft::WRL::RuntimeClassFlags&lt; 
-    Microsoft::WRL::RuntimeClassType::ClassicCom&gt;, 
+
+```cpp
+class FooExceptionInfo : public Microsoft::WRL::RuntimeClass< 
+    Microsoft::WRL::RuntimeClassFlags< 
+    Microsoft::WRL::RuntimeClassType::ClassicCom>, 
     ... 
-    ILanguageExceptionStackBackTrace &gt; 
+    ILanguageExceptionStackBackTrace > 
 { 
     ... 
     ... 
@@ -115,7 +111,7 @@ public:
         ULONG* framesCaptured) 
     { 
         int idx = 0; 
-        for (; idx &lt; maxFramesToCapture &amp;&amp; idx &lt; numFramesCaptured; idx++) 
+        for (; idx < maxFramesToCapture && idx < numFramesCaptured; idx++) 
         { 
             stackBackTrace[idx] = customBackTrace[idx]; 
         } 
@@ -123,10 +119,10 @@ public:
         return S_OK; 
     } 
 } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

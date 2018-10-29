@@ -176,6 +176,9 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
       <b>WCHAR</b>-based data types. The UNICODE preprocessor define must be set before ResApi.h 
       is included.
 
+      is included.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
       is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -188,6 +191,8 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
 </td>
 </tr>
 </table></span></div>
+
+
 
 
 

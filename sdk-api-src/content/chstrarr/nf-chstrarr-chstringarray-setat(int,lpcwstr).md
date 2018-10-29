@@ -97,34 +97,26 @@ You must ensure that your index value represents a valid position in the array.
 
 The following code example shows the use of <b>CHStringArray::SetAt</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHStringArray array;
+
+```cpp
+CHStringArray array;
 
 array.Add( L"String 1" ); // Element 0
 array.Add( L"String 2" ); // Element 1
 array.SetAt( 0, L"String 3" );  // Replace element 0.
-assert( array[0] == "String 3" );</pre>
-</td>
-</tr>
-</table></span></div>
+assert( array[0] == "String 3" );
+```
+
+
 The following  example results in a <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> with two elements.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    [0] = String 3
-    [1] = String 2</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+    [0] = String 3
+    [1] = String 2
+```
+
+
 
 
 

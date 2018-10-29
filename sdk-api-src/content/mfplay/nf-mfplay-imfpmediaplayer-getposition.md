@@ -169,13 +169,9 @@ The playback position is calculated relative to the start time of the media item
 
 The following code gets the current position, in 100-nanosecond units, as a <b>LONGLONG</b> value.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT GetPositionHNS(
+
+```
+HRESULT GetPositionHNS(
     IMFPMediaPlayer *pPlayer, 
     LONGLONG *phnsPosition    // Receives the position in hns.
 )
@@ -183,24 +179,24 @@ The following code gets the current position, in 100-nanosecond units, as a <b>L
     HRESULT hr = S_OK;
 
     PROPVARIANT var;
-    PropVariantInit(&amp;var);
+    PropVariantInit(&var);
 
     *phnsPosition = 0;
 
-    hr = pPlayer-&gt;GetPosition(MFP_POSITIONTYPE_100NS, &amp;var);
+    hr = pPlayer->GetPosition(MFP_POSITIONTYPE_100NS, &var);
 
     if (SUCCEEDED(hr))
     {
         *phnsPosition = var.hVal.QuadPart;
     }
 
-    PropVariantClear(&amp;var);
+    PropVariantClear(&var);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

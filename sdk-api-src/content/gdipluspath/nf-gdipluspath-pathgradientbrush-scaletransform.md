@@ -114,13 +114,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on a triangular path. The calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535093(v=VS.85).aspx">PathGradientBrush::TranslateTransform</a> and <b>PathGradientBrush::ScaleTransform</b> methods of the 
 						<b>PathGradientBrush</b>object set the elements of the brush's transformation matrix so that it represents a composite transformation: first translate, then scale. The code uses the path gradient brush twice to paint a rectangle: once before the transformation is set and once after the transformation is set.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_ScaleTransform(HDC hdc)
+
+```cpp
+VOID Example_ScaleTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -129,17 +125,17 @@ The following example creates a
    PathGradientBrush pthGrBrush(pts, 3);
 
    // Fill an area with the path gradient brush (no transformation).
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 500, 500);
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 500, 500);
 
    pthGrBrush.TranslateTransform(50.0f, 40.0f);               // translate
    pthGrBrush.ScaleTransform(3.0f, 2.0f, MatrixOrderAppend);  // then scale
 
    // Fill the same area with the transformed path gradient brush.
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 500, 500); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 500, 500); 
+}
+```
+
+
 
 
 

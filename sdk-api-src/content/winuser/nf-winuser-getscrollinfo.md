@@ -211,35 +211,31 @@ To get the 32-bit position of the scroll box (thumb) during a SB_THUMBTRACK requ
 				<b>fMask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. The function returns the tracking position of the scroll box in the 
 				<b>nTrackPos</b> member of the <b>SCROLLINFO</b> structure. This allows you to get the position of the scroll box as the user moves it. The following sample code illustrates the technique.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>SCROLLINFO si;
+
+```
+SCROLLINFO si;
 case WM_HSCROLL:
     switch(LOWORD(wparam)) {
         case SB_THUMBTRACK:
           // Initialize SCROLLINFO structure
  
-            ZeroMemory(&amp;si, sizeof(si));
+            ZeroMemory(&si, sizeof(si));
             si.cbSize = sizeof(si);
             si.fMask = SIF_TRACKPOS;
  
           // Call GetScrollInfo to get current tracking 
           //    position in si.nTrackPos
  
-            if (!GetScrollInfo(hwnd, SB_HORZ, &amp;si) )
+            if (!GetScrollInfo(hwnd, SB_HORZ, &si) )
                 return 1; // GetScrollInfo failed
             break;
         .
         .
         .
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
+
 If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a> message to the window to obtain scroll bar information. This allows <b>GetScrollInfo</b> to operate on a custom control that mimics a scroll bar. If the window does not handle the <b>SBM_GETSCROLLINFO</b> message, the <b>GetScrollInfo</b> function fails.
 
 

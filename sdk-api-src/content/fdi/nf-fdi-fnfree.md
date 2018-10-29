@@ -72,20 +72,16 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNFREE(fnMemFree)
+
+```cpp
+FNFREE(fnMemFree)
 {
     free(pv);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

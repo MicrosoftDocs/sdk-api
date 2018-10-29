@@ -314,17 +314,13 @@ Resolving 3rd-party types from a process that's not in a Windows Store app is no
 
 The following C++ example shows how to use the <b>RoGetMetaDataFile</b> function to find the metadata file for a specified type name.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;WinRTString.h&gt;
-#include &lt;TypeResolution.h&gt;
-#include &lt;atlbase.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <WinRTString.h>
+#include <TypeResolution.h>
+#include <atlbase.h>
 
 HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename);
 
@@ -358,22 +354,22 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
     HRESULT hr;
     HSTRING hstrTypeName = nullptr;
     HSTRING hstrMetaDataFilePath = nullptr;
-    CComPtr&lt;IMetaDataImport2&gt; spMetaDataImport;
+    CComPtr<IMetaDataImport2> spMetaDataImport;
     mdTypeDef typeDef;
 
     hr = WindowsCreateString(
         pszTypename,
-        static_cast&lt;UINT32&gt;(wcslen(pszTypename)),
-        &amp;hstrTypeName);
+        static_cast<UINT32>(wcslen(pszTypename)),
+        &hstrTypeName);
 
     if (SUCCEEDED(hr))
     {
         hr = RoGetMetaDataFile(
             hstrTypeName,
             nullptr,
-            &amp;hstrMetaDataFilePath,
-            &amp;spMetaDataImport,
-            &amp;typeDef);
+            &hstrMetaDataFilePath,
+            &spMetaDataImport,
+            &typeDef);
     }
 
     if (SUCCEEDED(hr))
@@ -402,9 +398,9 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

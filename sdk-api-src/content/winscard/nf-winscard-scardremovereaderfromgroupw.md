@@ -185,13 +185,9 @@ To add a reader to a reader group, use
 
 The following example  shows how to remove a reader from the group.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Remove a reader from the group.
+
+```cpp
+// Remove a reader from the group.
 // lReturn is of type LONG.
 // hContext was set by a previous call to SCardEstablishContext.
 // The group is automatically forgotten if no readers remain in it.
@@ -200,10 +196,10 @@ lReturn = SCardRemoveReaderFromGroup(hContext,
                                      L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardRemoveReaderFromGroup\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

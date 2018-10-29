@@ -190,13 +190,9 @@ For scalability concerns, see <a href="https://msdn.microsoft.com/en-us/library/
 The following example shows how to add multiple files to a download job. The example assumes the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface pointer is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 IBackgroundCopyJob* pJob;
 BG_FILE_INFO* paFiles = NULL;
 int idx = 0;
@@ -217,19 +213,19 @@ if (NULL == paFiles)
 else
 {
   //Add local and remote file name pairs to the memory block. 
-  for (idx=0; idx&lt;nCount; idx++)
+  for (idx=0; idx<nCount; idx++)
   {
     //Set pszLocalName to point to an LPWSTR that contains the local name or
     //allocate memory for pszLocalName and copy the local name to pszLocalName.
-    (paFiles+idx)-&gt;LocalName = pszLocalName;
+    (paFiles+idx)->LocalName = pszLocalName;
 
     //Set pszRemoteName to point to an LPWSTR that contains the remote name or
     //allocate memory for pszRemoteName and copy the remote name to pszRemoteName.
-    (paFiles+idx)-&gt;RemoteName = pszRemoteName;
+    (paFiles+idx)->RemoteName = pszRemoteName;
   }
 
   //Add the files to the job.
-  hr = pJob-&gt;AddFileSet(nCount, paFiles);
+  hr = pJob->AddFileSet(nCount, paFiles);
   if (SUCCEEDED(hr))
   {
      //Do Something.
@@ -239,10 +235,10 @@ else
   //memory for the local and remote file names, loop through the array and free the
   //memory for the file names before you free paFiles.
   free(paFiles);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

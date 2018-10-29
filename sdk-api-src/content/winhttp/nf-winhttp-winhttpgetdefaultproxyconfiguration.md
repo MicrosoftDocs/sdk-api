@@ -136,16 +136,12 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 
 The following code example shows how to retrieve the default proxy configuration from the registry.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    WINHTTP_PROXY_INFO proxyInfo;
+
+```cpp
+    WINHTTP_PROXY_INFO proxyInfo;
 
     // Retrieve the default proxy configuration.
-    WinHttpGetDefaultProxyConfiguration( &amp;proxyInfo );
+    WinHttpGetDefaultProxyConfiguration( &proxyInfo );
 
     // Display the proxy servers and free memory 
     // allocated to this string.
@@ -162,10 +158,10 @@ The following code example shows how to retrieve the default proxy configuration
         printf("Proxy bypass list: %S\n", proxyInfo.lpszProxyBypass);
         GlobalFree( proxyInfo.lpszProxyBypass );
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

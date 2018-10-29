@@ -118,26 +118,22 @@ To reference a different row, call one of the following methods to navigate thro
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
+
+```cpp
+// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
 HRESULT                  hr;
 LONG                     Index;
 IEnumCERTVIEWATTRIBUTE * pEnumAttr = NULL;
 
 // obtain enumerator for attributes
-hr = pEnumRow-&gt;EnumCertViewAttribute(0, &amp;pEnumAttr);
+hr = pEnumRow->EnumCertViewAttribute(0, &pEnumAttr);
 if (FAILED(hr))
 {
     printf("Failed EnumCertViewAttribute - %x\n", hr);
     goto error;
 }
 // enumerate each attribute
-while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
+while (S_OK == pEnumAttr->Next(&Index))
 {
     // Use this attribute as needed.
 }
@@ -145,10 +141,10 @@ error:
 
 // Free resources.
 if (NULL != pEnumAttr)
-    pEnumAttr-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumAttr->Release();
+```
+
+
 
 
 

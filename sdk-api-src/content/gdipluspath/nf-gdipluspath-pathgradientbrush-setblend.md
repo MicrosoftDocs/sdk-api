@@ -114,13 +114,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlend</b> method of the 
 						<b>PathGradientBrush</b>object to establish a set of blend factors and blend positions for the brush. Then the code uses the path gradient brush to fill the ellipse.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetBlend(HDC hdc)
+
+```cpp
+VOID Example_SetBlend(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -129,7 +125,7 @@ The following example creates a
    path.AddEllipse(0, 0, 200, 100);
 
    // Use the path to construct a brush.
-   PathGradientBrush pthGrBrush(&amp;path);
+   PathGradientBrush pthGrBrush(&path);
 
    // Set the color at the center of the path to blue.
    pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
@@ -137,7 +133,7 @@ The following example creates a
    // Set the color along the entire boundary of the path to aqua.
    Color colors[] = {Color(255, 0, 255, 255)};
    INT count = 1;
-   pthGrBrush.SetSurroundColors(colors, &amp;count);
+   pthGrBrush.SetSurroundColors(colors, &count);
 
    // Set blend factors and positions for the path gradient brush.
    REAL fac[] = {
@@ -155,11 +151,11 @@ The following example creates a
    pthGrBrush.SetBlend(fac, pos, 4);
 
    // Fill the ellipse with the path gradient brush.
-   graphics.FillEllipse(&amp;pthGrBrush, 0, 0, 200, 100);  
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&pthGrBrush, 0, 0, 200, 100);  
+}
+```
+
+
 
 
 
