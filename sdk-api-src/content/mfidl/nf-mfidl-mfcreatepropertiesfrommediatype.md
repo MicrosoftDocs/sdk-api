@@ -7,7 +7,7 @@ old-location: mf\mfcreatepropertiesfrommediatype.htm
 tech.root: medfound
 ms.assetid: D9B639BB-285C-40BF-B111-2C5501E41CE1
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MFCreatePropertiesFromMediaType, MFCreatePropertiesFromMediaType function [Media Foundation], mf.mfcreatepropertiesfrommediatype, mfidl/MFCreatePropertiesFromMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

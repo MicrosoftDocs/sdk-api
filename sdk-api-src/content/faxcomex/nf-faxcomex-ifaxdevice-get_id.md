@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_id_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0tyc.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxDevice interface [Fax Service],Id property, IFaxDevice.Id, IFaxDevice.get_Id, IFaxDevice::Id, IFaxDevice::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxDevice interface, _mfax_faxdevice.id, fax._mfax_faxdevice_cpp_mfax_faxdevice_id_cpp, fax._mfax_faxdevice_id, faxcomex/IFaxDevice::Id, faxcomex/IFaxDevice::get_Id, get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices

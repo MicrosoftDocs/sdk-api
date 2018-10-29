@@ -7,7 +7,7 @@ old-location: security\system_audit_callback_ace.htm
 tech.root: SecAuthZ
 ms.assetid: 4d1799b0-3e55-48d7-94ff-c0094945adea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PSYSTEM_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_ACE, SYSTEM_AUDIT_CALLBACK_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_ACE, security.system_audit_callback_ace, winnt/PACCESS_AUDIT_CALLBACK_ACE, winnt/SYSTEM_AUDIT_CALLBACK_ACE"
 ms.prod: windows
 ms.technology: windows-sdk

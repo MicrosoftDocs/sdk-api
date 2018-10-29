@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getcolumninfo.htm
 tech.root: WinRT
 ms.assetid: aea7944a-87db-496c-869d-e9e2fa87e9af
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Runtime], GetColumnInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetColumnInfo method, IMetaDataTables.GetColumnInfo, IMetaDataTables::GetColumnInfo, rometadataapi/IMetaDataTables::GetColumnInfo, winrt.imetadatatables_getcolumninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

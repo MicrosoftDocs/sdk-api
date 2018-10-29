@@ -7,7 +7,7 @@ old-location: winsock\wsasetlasterror_2.htm
 tech.root: WinSock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ This function generates no return values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">

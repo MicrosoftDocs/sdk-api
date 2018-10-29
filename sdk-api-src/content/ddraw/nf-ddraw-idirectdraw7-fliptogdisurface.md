@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_fliptogdisurface.htm
 tech.root: directdraw
 ms.assetid: 495cace2-a315-4937-b0d9-9f77f5d95f66
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: FlipToGDISurface, FlipToGDISurface method [DirectDraw], FlipToGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],FlipToGDISurface method, IDirectDraw7.FlipToGDISurface, IDirectDraw7::FlipToGDISurface, ddraw/IDirectDraw7::FlipToGDISurface, directdraw.idirectdraw7_fliptogdisurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ If it fails, the method can return one of the following error values:
 
 You can call  <b>FlipToGDISurface</b> at the end of a page-flipping application to ensure that the display memory that the GDI writes to is visible.
 
-You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary surface so that normal windows, such as dialog boxes, can be displayed in full-screen mode. The hardware must have the <a href="https://msdn.microsoft.com/en-us/library/Gg426101(v=VS.85).aspx">DDCAPS2_CANRENDERWINDOWED</a> capability.
+You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary surface so that normal windows, such as dialog boxes, can be displayed in full-screen mode. The hardware must have the <a href="ddcaps.htm">DDCAPS2_CANRENDERWINDOWED</a> capability.
 
 <b>FlipToGDISurface</b> disables stereo autoflipping.
 

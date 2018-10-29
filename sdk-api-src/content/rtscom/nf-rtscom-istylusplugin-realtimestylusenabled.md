@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_realtimestylusenabled.htm
 tech.root: tablet
 ms.assetid: bd5689c1-32e2-4a37-8dd2-4525b16f4662
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],RealTimeStylusEnabled method, IStylusPlugin.RealTimeStylusEnabled, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC],IStylusPlugin interface, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,20 +96,24 @@ This method is called when the <a href="https://msdn.microsoft.com/fd686a78-b0a8
 
 The following C++ example implements a <b>IStylusPlugin::RealTimeStylusEnabled Method</b> method that creates a new instance of an <a href="https://msdn.microsoft.com/309fcc8a-6a14-4ee3-b340-5e47ff249bf8">IStrokeBuilder</a> object for the purpose of creating Ink strokes from packets collected by a <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object.
 
-
-```cpp
-STDMETHODIMP CStrokeBuilderPlugin::RealTimeStylusEnabled( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CStrokeBuilderPlugin::RealTimeStylusEnabled( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ ULONG cTcidCount,
             /* [size_is][in] */ const TABLET_CONTEXT_ID *pTcids)
 {
 	// Create an IStrokeBuilder object
-	return CoCreateInstance(CLSID_StrokeBuilder, NULL, CLSCTX_INPROC, IID_IStrokeBuilder, (VOID **)&m_pStrokeBuilder);
+	return CoCreateInstance(CLSID_StrokeBuilder, NULL, CLSCTX_INPROC, IID_IStrokeBuilder, (VOID **)&amp;m_pStrokeBuilder);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

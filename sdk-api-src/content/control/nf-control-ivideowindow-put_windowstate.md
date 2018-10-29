@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_windowstate.htm
 tech.root: DirectShow
 ms.assetid: 75189754-61c4-4196-9cfb-3f8c8e33efbc
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowState method, IVideoWindow.put_WindowState, IVideoWindow::put_WindowState, IVideoWindowput_WindowState, control/IVideoWindow::put_WindowState, dshow.ivideowindow_put_windowstate, put_WindowState, put_WindowState method [DirectShow], put_WindowState method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ The <code>put_WindowState</code> method shows, hides, minimizes, or maximizes th
 
 ### -param WindowState [in]
 
-Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. 
+Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="winui._win32_ShowWindow">ShowWindow</a> function. 
 
 
 ## -returns
@@ -111,15 +111,15 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377302(v=VS.85).aspx">IVideoWindow::get_WindowState</a>
+<a href="https://msdn.microsoft.com/ecda497c-634b-4a7e-9f21-85bde307c796">IVideoWindow::get_WindowState</a>
  
 
  

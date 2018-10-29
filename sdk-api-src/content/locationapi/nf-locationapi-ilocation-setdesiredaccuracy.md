@@ -7,7 +7,7 @@ old-location: winlocation\ilocation_setdesiredaccuracy.htm
 tech.root: LocationAPI
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Specifies the accuracy to be used.
 <b>REFIID</b> that specifies the report type for which to set the accuracy to be used.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - desiredAccuracy [in]
+### -param arg1 [in]
 
 
 <a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.

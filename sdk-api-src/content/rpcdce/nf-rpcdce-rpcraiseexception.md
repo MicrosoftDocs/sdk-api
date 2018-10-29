@@ -7,7 +7,7 @@ old-location: rpc\rpcraiseexception.htm
 tech.root: Rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcRaiseException, RpcRaiseException function [RPC], _rpc_rpcraiseexception, rpc.rpcraiseexception, rpcdce/RpcRaiseException
 ms.prod: windows-hardware
 ms.technology: windows-devices

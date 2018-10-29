@@ -7,7 +7,7 @@ old-location: display\ddlockoutinfo.htm
 tech.root: display
 ms.assetid: a29ec594-c5f9-46e4-a8c2-95e24e2ddb2d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: "*PDDLOCKOUTINFO, DDLOCKOUTINFO, DDLOCKOUTINFO structure [Display Devices], PDDLOCKOUTINFO, PDDLOCKOUTINFO structure pointer [Display Devices], Video_Structs_7e32e28f-c3c0-48cc-85e7-341bed0382e5.xml, _DDLOCKOUTINFO, display.ddlockoutinfo, dxmini/DDLOCKOUTINFO, dxmini/PDDLOCKOUTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

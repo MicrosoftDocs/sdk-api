@@ -7,7 +7,7 @@ old-location: gdi\kerningpair.htm
 tech.root: gdi
 ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, tagKERNINGPAIR, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR"
 ms.prod: windows
 ms.technology: windows-sdk

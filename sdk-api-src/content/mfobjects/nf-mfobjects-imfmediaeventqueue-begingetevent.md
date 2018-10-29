@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventqueue_begingetevent.htm
 tech.root: medfound
 ms.assetid: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5, BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],BeginGetEvent method, IMFMediaEventQueue.BeginGetEvent, IMFMediaEventQueue::BeginGetEvent, mf.imfmediaeventqueue_begingetevent, mfobjects/IMFMediaEventQueue::BeginGetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

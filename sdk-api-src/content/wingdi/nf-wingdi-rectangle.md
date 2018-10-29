@@ -7,7 +7,7 @@ old-location: gdi\rectangle.htm
 tech.root: gdi
 ms.assetid: ed6b9824-1edc-4510-b9da-a4287845aa83
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: Rectangle, Rectangle function [Windows GDI], _win32_Rectangle, gdi.rectangle, wingdi/Rectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RasEnumAutodialAddressesW function
 author: windows-sdk-content
 description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
 old-location: rras\rasenumautodialaddresses.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,13 +139,17 @@ The <i>lppAddresses</i> buffer was <b>NULL</b> and <i>lpdwcbAddresses</i> was ze
 
 The following code sample code uses <b>RasEnumAutodialAddresses</b> to enumerate the Autodial mapping database.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "raserror.h"
-#include <tchar.h>
+#include &lt;tchar.h&gt;
 
 DWORD __cdecl wmain(){
 
@@ -157,15 +161,15 @@ DWORD __cdecl wmain(){
 
     // Allocate memory for a new Autodial address to add to the mapping database
     LPRASAUTODIALENTRY lpentry = (LPRASAUTODIALENTRY) HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, sizeof(RASAUTODIALENTRY));
-    lpentry->dwSize = sizeof(RASAUTODIALENTRY);
+    lpentry-&gt;dwSize = sizeof(RASAUTODIALENTRY);
 
     // Add a (non-functional) address to the Autodial mapping database
     // (this ensures RasEnumAutodialAddresses() has something to return)
-    dwRet = RasSetAutodialAddress(lpEntryAddress, 0, lpentry, lpentry->dwSize, 1);
+    dwRet = RasSetAutodialAddress(lpEntryAddress, 0, lpentry, lpentry-&gt;dwSize, 1);
     
     // Call RasEnumAutodialAddresses() with lppAddresses = NULL. dwBytes is returned with the 
     // required buffer size and a return code of ERROR_BUFFER_TOO_SMALL
-    dwRet = RasEnumAutodialAddresses(lppAddresses, &dwBytes, &dwAddresses);
+    dwRet = RasEnumAutodialAddresses(lppAddresses, &amp;dwBytes, &amp;dwAddresses);
 
     if (dwRet == ERROR_BUFFER_TOO_SMALL){
         // Allocate the memory needed for the array of RAS Autodial addresses.
@@ -176,12 +180,12 @@ DWORD __cdecl wmain(){
         }
         
         // Call RasEnumAutodialAddresses() to enumerate all RAS Autodial addresses
-        dwRet = RasEnumAutodialAddresses(lppAddresses, &dwBytes, &dwAddresses);
+        dwRet = RasEnumAutodialAddresses(lppAddresses, &amp;dwBytes, &amp;dwAddresses);
 
         // If successful, print the RAS Autodial addresses
         if (dwRet == ERROR_SUCCESS){
             wprintf(L"The following RAS Autodial addresses were found:\n");
-            for (DWORD i = 0; i < dwAddresses; i++){
+            for (DWORD i = 0; i &lt; dwAddresses; i++){
                 wprintf(L"%s\n", lppAddresses[i]);
             }
         }
@@ -196,7 +200,7 @@ DWORD __cdecl wmain(){
     }
 
     // There was either a problem with RAS or there are no RAS Autodial addresses to enumerate
-    if(dwAddresses >= 1){
+    if(dwAddresses &gt;= 1){
         wprintf(L"The operation failed to acquire the buffer size.\n");
     }else{
         wprintf(L"There were no RAS Autodial addresses found.\n");
@@ -207,10 +211,10 @@ DWORD __cdecl wmain(){
     HeapFree(GetProcessHeap(), 0, lpentry);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

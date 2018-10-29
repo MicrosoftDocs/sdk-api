@@ -7,7 +7,7 @@ old-location: mf\idirect3dauthenticatedchannel9.htm
 tech.root: medfound
 ms.assetid: dd969956-a140-44ed-9917-5a0a09a432fa
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], IDirect3DAuthenticatedChannel9 interface [Media Foundation],described, d3d9/IDirect3DAuthenticatedChannel9, mf.idirect3dauthenticatedchannel9
 ms.prod: windows
 ms.technology: windows-sdk

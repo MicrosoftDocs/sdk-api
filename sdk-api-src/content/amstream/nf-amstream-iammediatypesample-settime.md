@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_settime.htm
 tech.root: DirectShow
 ms.assetid: b8f2c1bd-ea78-43b8-881c-d1f1a64ee575
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetTime method, IAMMediaTypeSample.SetTime, IAMMediaTypeSample::SetTime, IAMMediaTypeSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetTime, dshow.iammediatypesample_settime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: FNFCIWRITE macro
 author: windows-sdk-content
 description: The FNFCIWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FCI context.
 old-location: winprog\fnfciwrite.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,15 +92,19 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIWRITE(fnFileWrite)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIWRITE(fnFileWrite)
 {
     DWORD dwBytesWritten = 0;
 
     UNREFERENCED_PARAMETER(pv);
 
-    if ( WriteFile((HANDLE)hf, memory, cb, &dwBytesWritten, NULL) == FALSE )
+    if ( WriteFile((HANDLE)hf, memory, cb, &amp;dwBytesWritten, NULL) == FALSE )
     {
         dwBytesWritten = (DWORD)-1;
         *err = GetLastError();
@@ -108,10 +112,10 @@ FNFCIWRITE(fnFileWrite)
 
     return dwBytesWritten;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

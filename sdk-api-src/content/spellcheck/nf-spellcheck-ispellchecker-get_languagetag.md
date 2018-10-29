@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_languagetag.htm
 tech.root: Intl
 ms.assetid: 1765a0ec-798c-4d0f-af05-d4d028c71dda
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LanguageTag property, ISpellChecker.LanguageTag, ISpellChecker.get_LanguageTag, ISpellChecker::LanguageTag, ISpellChecker::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellChecker interface, get_LanguageTag, intl.ispellchecker_languagetag, spellcheck/ISpellChecker::LanguageTag, spellcheck/ISpellChecker::get_LanguageTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

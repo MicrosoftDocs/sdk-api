@@ -7,7 +7,7 @@ old-location: dlgbox\printhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\printhookproc.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: LPPRINTHOOKPROC, LPPRINTHOOKPROC callback, LPPRINTHOOKPROC callback function [Dialog Boxes], _win32_PrintHookProc, _win32_printhookproc_cpp, commdlg/LPPRINTHOOKPROC, dlgbox.printhookproc, winui._win32_printhookproc
 ms.prod: windows
 ms.technology: windows-sdk

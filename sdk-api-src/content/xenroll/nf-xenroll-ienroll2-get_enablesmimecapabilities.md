@@ -7,7 +7,7 @@ old-location: security\ienroll4_enablesmimecapabilities.htm
 tech.root: seccrypto
 ms.assetid: e0571a8c-c682-44fd-a479-ace627b314b5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: EnableSMIMECapabilities property [Security], EnableSMIMECapabilities property [Security],IEnroll2 interface, IEnroll2 interface [Security],EnableSMIMECapabilities property, IEnroll2.EnableSMIMECapabilities, IEnroll2.get_EnableSMIMECapabilities, IEnroll2::EnableSMIMECapabilities, IEnroll2::get_EnableSMIMECapabilities, IEnroll2::put_EnableSMIMECapabilities, get_EnableSMIMECapabilities, security.ienroll4_enablesmimecapabilities, xenroll/IEnroll2::EnableSMIMECapabilities, xenroll/IEnroll2::get_EnableSMIMECapabilities, xenroll/IEnroll2::put_EnableSMIMECapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

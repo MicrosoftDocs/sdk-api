@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespacescheduledcast_starttransmission.htm
 tech.root: Wds
 ms.assetid: 408ba96e-1a88-4a53-9cbe-8f2763542659
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services],StartTransmission method, IWdsTransportNamespaceScheduledCast.StartTransmission, IWdsTransportNamespaceScheduledCast::StartTransmission, StartTransmission, StartTransmission method [Windows Deployment Services], StartTransmission method [Windows Deployment Services],IWdsTransportNamespaceScheduledCast interface, wds.iwdstransportnamespacescheduledcast_starttransmission, wdstptmgmt/IWdsTransportNamespaceScheduledCast::StartTransmission
 ms.prod: windows-hardware
 ms.technology: windows-devices

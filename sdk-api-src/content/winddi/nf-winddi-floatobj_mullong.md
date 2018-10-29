@@ -7,7 +7,7 @@ old-location: display\floatobj_mullong.htm
 tech.root: display
 ms.assetid: 945b9280-41fc-44f9-a5df-c0a725cef377
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: FLOATOBJ_MulLong, FLOATOBJ_MulLong function [Display Devices], display.floatobj_mullong, gdifncs_7548db1a-4ed7-4946-95f6-5541e7c4226f.xml, winddi/FLOATOBJ_MulLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_MulLong</b> function multiplies the <a href="https://msdn.micros
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the value ( *<i>pf</i>  *  <i>l</i>).
 
 
-#### - l [in]
+### -param arg2 [in]
 
 Specifies the LONG operand. This value is converted to a FLOATOBJ for the multiplication.
 

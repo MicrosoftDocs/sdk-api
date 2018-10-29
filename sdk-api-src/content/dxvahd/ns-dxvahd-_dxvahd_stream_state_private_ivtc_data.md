@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_private_ivtc_data.htm
 tech.root: medfound
 ms.assetid: 166fc57e-3b49-44c1-8c6c-691950e7b675
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, mf.dxvahd_stream_state_private_ivtc_data
 ms.prod: windows
 ms.technology: windows-sdk

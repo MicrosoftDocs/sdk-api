@@ -7,7 +7,7 @@ old-location: security\destroyprivateobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 4ef10852-8229-41de-a4d7-d2845e4c92ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DestroyPrivateObjectSecurity, DestroyPrivateObjectSecurity function [Security], _win32_destroyprivateobjectsecurity, security.destroyprivateobjectsecurity, securitybaseapi/DestroyPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

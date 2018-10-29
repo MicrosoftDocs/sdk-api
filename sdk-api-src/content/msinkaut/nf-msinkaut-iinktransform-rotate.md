@@ -7,7 +7,7 @@ old-location: tablet\inktransform_rotate.htm
 tech.root: tablet
 ms.assetid: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e, IInkTransform interface [Tablet PC],Rotate method, IInkTransform.Rotate, IInkTransform::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Rotate, tablet.inktransform_rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices

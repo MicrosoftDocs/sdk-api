@@ -4,10 +4,10 @@ title: TSPI_phoneOpen function
 author: windows-sdk-content
 description: The TSPI_phoneOpen function opens the phone device whose device identifier is given, returning the service provider's opaque handle for the device and retaining TAPI's opaque handle for the device for use in subsequent calls to the PHONEEVENT procedure.
 old-location: tspi\tspi_phoneopen.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: e2a4372f-62ff-488c-94a7-ed44388b8092
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: TSPI_phoneOpen, TSPI_phoneOpen function [TAPI 2.2], _tspi_tspi_phoneopen, tspi.tspi_phoneopen, tspi/TSPI_phoneOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

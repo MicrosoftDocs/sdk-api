@@ -4,10 +4,10 @@ title: IEditionUpgradeHelper::CanUpgrade
 author: windows-sdk-content
 description: Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
 old-location: winprog\ieditionupgradehelper_canupgrade.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 8B2776DC-09DE-4E40-96CC-656C4B09A109
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],CanUpgrade method, IEditionUpgradeHelper.CanUpgrade, IEditionUpgradeHelper::CanUpgrade, editionupgradehelper/IEditionUpgradeHelper::CanUpgrade, winprog.ieditionupgradehelper_canupgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices

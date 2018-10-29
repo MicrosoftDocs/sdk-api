@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_allocatestreamingresources.htm
 tech.root: DirectShow
 ms.assetid: cd608bf2-50a5-4037-aeb5-c5c380c3d6df
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],AllocateStreamingResources method, IMediaObject.AllocateStreamingResources, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

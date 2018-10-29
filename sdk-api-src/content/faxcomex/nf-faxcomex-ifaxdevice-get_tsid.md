@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1c10.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxDevice interface [Fax Service],TSID property, IFaxDevice.TSID, IFaxDevice.get_TSID, IFaxDevice.put_TSID, IFaxDevice::TSID, IFaxDevice::get_TSID, IFaxDevice::put_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxDevice interface, _mfax_faxdevice.tsid, fax._mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp, fax._mfax_faxdevice_tsid, faxcomex/IFaxDevice::TSID, faxcomex/IFaxDevice::get_TSID, faxcomex/IFaxDevice::put_TSID, get_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

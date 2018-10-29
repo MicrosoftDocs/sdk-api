@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_setgroupingparam.htm
 tech.root: medfound
 ms.assetid: 2c024208-f13f-4fd1-b5a8-b881af226670
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 2c024208-f13f-4fd1-b5a8-b881af226670, IMFAudioPolicy interface [Media Foundation],SetGroupingParam method, IMFAudioPolicy.SetGroupingParam, IMFAudioPolicy::SetGroupingParam, SetGroupingParam, SetGroupingParam method [Media Foundation], SetGroupingParam method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_setgroupingparam, mfidl/IMFAudioPolicy::SetGroupingParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

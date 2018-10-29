@@ -7,7 +7,7 @@ old-location: security\cryptunprotectmemory.htm
 tech.root: seccrypto
 ms.assetid: 1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-Using  <a href="https://msdn.microsoft.com/en-us/library/Aa380262(v=VS.85).aspx">CryptProtectMemory</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa380890(v=VS.85).aspx">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
+Using  <a href="seccpki.cryptprotectmemory">CryptProtectMemory</a> and <a href="seccpki.cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
  You must encrypt and decrypt the memory during the same boot session. If the computer is restarted before you call the <b>CryptUnprotectMemory</b> function, you will not be able to decrypt the data.
 
@@ -139,12 +139,16 @@ You must pass the same flag to <b>CryptUnprotectMemory</b> and <a href="https://
 
 The following example calls  the <b>CryptUnprotectMemory</b> function to decrypt data that is in memory. The example assumes the variable pEncryptedText points to a string that has been encrypted using the <a href="https://msdn.microsoft.com/6b372552-87d4-4047-afa5-0d1113348289">CryptProtectMemory</a> function.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
-#include <strsafe.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
+#include &lt;strsafe.h&gt;
 #pragma comment(lib, "crypt32.lib")
 
 void main()
@@ -169,10 +173,10 @@ void main()
     SecureZeroMemory(pEncryptedText, cbEncryptedText);
     LocalFree(pEncryptedText);
     pEncryptedText = NULL;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

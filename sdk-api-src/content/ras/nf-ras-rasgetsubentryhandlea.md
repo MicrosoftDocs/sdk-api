@@ -4,10 +4,10 @@ title: RasGetSubEntryHandleA function
 author: windows-sdk-content
 description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
 old-location: rras\rasgetsubentryhandle.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasGetSubEntryHandle, RasGetSubEntryHandle function [RAS], RasGetSubEntryHandleA, RasGetSubEntryHandleW, _ras_rasgetsubentryhandle, ras/RasGetSubEntryHandle, ras/RasGetSubEntryHandleA, ras/RasGetSubEntryHandleW, rras.rasgetsubentryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,35 +61,18 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Specifies the <b>HRASCONN</b> connection handle returned by the 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> function for a multilink phone-book entry.
 
 
-#### - dwSubEntry [in]
+### -param arg2 [in]
 
 Specifies a valid subentry index for the phone-book entry.
 
 
-#### - lphRasConn [out]
+### -param arg3 [out]
 
 Pointer to the <b>HRASCONN</b> variable that receives a connection handle that represents the subentry connection.
 

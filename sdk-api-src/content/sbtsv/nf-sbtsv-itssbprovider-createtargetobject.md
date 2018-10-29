@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createtargetobject.htm
 tech.root: termserv
 ms.assetid: 9ee426a3-03fa-4535-84b6-f965bd9eba60
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CreateTargetObject, CreateTargetObject method [Remote Desktop Services], CreateTargetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetObject method, ITsSbProvider.CreateTargetObject, ITsSbProvider::CreateTargetObject, sbtsv/ITsSbProvider::CreateTargetObject, termserv.itssbprovider_createtargetobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

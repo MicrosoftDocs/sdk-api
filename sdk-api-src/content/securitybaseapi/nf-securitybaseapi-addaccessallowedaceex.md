@@ -7,7 +7,7 @@ old-location: security\addaccessallowedaceex.htm
 tech.root: SecAuthZ
 ms.assetid: 6ddec01f-237f-4b6a-8ea8-a126017b30c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AddAccessAllowedAceEx, AddAccessAllowedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedaceex, security.addaccessallowedaceex, securitybaseapi/AddAccessAllowedAceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -281,7 +281,7 @@ The caller must ensure that ACEs are added to the DACL in the correct order. For
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

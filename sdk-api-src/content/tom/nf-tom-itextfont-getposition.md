@@ -4,10 +4,10 @@ title: ITextFont::GetPosition
 author: windows-sdk-content
 description: Gets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_GetPosition.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getposition.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetPosition, GetPosition method [Windows Controls], GetPosition method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetPosition method, ITextFont.GetPosition, ITextFont::GetPosition, _win32_ITextFont_GetPosition, _win32_ITextFont_GetPosition_cpp, controls.ITextFont_GetPosition, controls._win32_ITextFont_GetPosition, tom/ITextFont::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ Displayed text typically has a zero value for this property. Positive values rai
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -132,11 +132,11 @@ Displayed text typically has a zero value for this property. Positive values rai
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787801(v=VS.85).aspx">SetPosition</a>
+<a href="https://msdn.microsoft.com/e55684d8-d75d-46bf-a8bc-81bc9c46a1e0">SetPosition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: opengl\wglgetprocaddress.htm
 tech.root: OpenGL
 ms.assetid: 7c419b64-1bc6-492e-9853-98b08f38a5ba
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglGetProcAddress, opengl.wglgetprocaddress, wglGetProcAddress, wglGetProcAddress function [OpenGL], wingdi/wglGetProcAddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetNumberOfSwapChains
 author: windows-sdk-content
 description: Gets the number of implicit swap chains.
 old-location: direct3d9\idirect3ddevice9__getnumberofswapchains.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getnumberofswapchains.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: 84771686-c1f5-0be3-b170-1de4e0c8acc9, GetNumberOfSwapChains, GetNumberOfSwapChains method [Direct3D 9], GetNumberOfSwapChains method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetNumberOfSwapChains method, IDirect3DDevice9.GetNumberOfSwapChains, IDirect3DDevice9::GetNumberOfSwapChains, d3d9helper/IDirect3DDevice9::GetNumberOfSwapChains, direct3d9.idirect3ddevice9__getnumberofswapchains
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,11 +76,11 @@ Number of implicit swap chains. See Remarks.
 
 
 
-Implicit swap chains are created by the device during <a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a>. This method returns the number of swap chains created by CreateDevice. 
+Implicit swap chains are created by the device during <a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a>. This method returns the number of swap chains created by CreateDevice. 
     
 
 
-An application may create additional swap chains using <a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">IDirect3DDevice9::CreateAdditionalSwapChain</a>.
+An application may create additional swap chains using <a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">IDirect3DDevice9::CreateAdditionalSwapChain</a>.
 
 
 
@@ -90,7 +90,7 @@ An application may create additional swap chains using <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

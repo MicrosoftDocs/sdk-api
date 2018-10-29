@@ -4,10 +4,10 @@ title: "_EVENT_INSTANCE_HEADER"
 author: windows-sdk-content
 description: The EVENT_INSTANCE_HEADER structure contains standard event tracing information common to all events.
 old-location: etw\event_instance_header.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2a79d937-2a3b-4426-b31f-a1a3ce86a334
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/26/2018
 ms.keywords: "*PEVENT_INSTANCE_HEADER, EVENT_INSTANCE_HEADER, EVENT_INSTANCE_HEADER structure [ETW], EVENT_TRACE_TYPE_CHECKPOINT, EVENT_TRACE_TYPE_DC_END, EVENT_TRACE_TYPE_DC_START, EVENT_TRACE_TYPE_DEQUEUE, EVENT_TRACE_TYPE_END, EVENT_TRACE_TYPE_EXTENSION, EVENT_TRACE_TYPE_INFO, EVENT_TRACE_TYPE_REPLY, EVENT_TRACE_TYPE_START, TRACE_LEVEL_ERROR, TRACE_LEVEL_FATAL, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, WNODE_FLAG_USE_GUID_PTR, WNODE_FLAG_USE_MOF_PTR, _EVENT_INSTANCE_HEADER, _evt_event_instance_header, base.event_instance_header, etw.event_instance_header, evntrace/EVENT_INSTANCE_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RasEnumEntriesA function
 author: windows-sdk-content
 description: The RasEnumEntries function lists all entry names in a remote access phone book.
 old-location: rras\rasenumentries.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,44 +63,31 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Reserved; must be <b>NULL</b>.
 
 
-#### - lpcEntries [out]
+### -param arg2 [in]
 
-Pointer to a variable that receives to the number of phone-book entries written to the buffer specified by <i>lprasentryname</i>.
+Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
+
+If this parameter is <b>NULL</b>, the entries are enumerated from all the remote access phone-book files in the AllUsers profile and the user's profile.
 
 
-#### - lpcb [in, out]
+### -param arg3 [in, out]
+
+Pointer to a buffer that, on output, receives an array of 
+<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structures, one for each phone-book entry. 
+
+
+
+
+On input, an application must set the <b>dwSize</b> member of the first 
+<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
+
+
+### -param arg4 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasentryname</i>. 
 
@@ -114,23 +101,9 @@ Pointer to a variable that, on output, contains the size, in bytes, of the array
 <b>RasEnumEntries</b> with <i>lprasentryname</i> set to <b>NULL</b>. The variable pointed to by <i>lpcb</i> should be set to zero. The function will return the required buffer size in <i>lpcb</i> and an error code of <b>ERROR_BUFFER_TOO_SMALL</b>.
 
 
-#### - lprasentryname [in, out]
+### -param arg5 [out]
 
-Pointer to a buffer that, on output, receives an array of 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structures, one for each phone-book entry. 
-
-
-
-
-On input, an application must set the <b>dwSize</b> member of the first 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
-
-
-#### - lpszPhonebook [in]
-
-Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
-
-If this parameter is <b>NULL</b>, the entries are enumerated from all the remote access phone-book files in the AllUsers profile and the user's profile.
+Pointer to a variable that receives to the number of phone-book entries written to the buffer specified by <i>lprasentryname</i>.
 
 
 ## -returns
@@ -199,10 +172,14 @@ The following sample code enumerates the RAS phone-book entries on Windows Vist
 <b>RasEnumEntries</b> again, to enumerate the entries. Note that for the second call, the code sets the <b>dwSize</b> member of the first 
 <a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) to specify the structure version.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "raserror.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -216,7 +193,7 @@ DWORD __cdecl wmain(){
     
     // Call RasEnumEntries with lpRasEntryName = NULL. dwCb is returned with the required buffer size and 
     // a return code of ERROR_BUFFER_TOO_SMALL
-    dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &dwCb, &dwEntries);
+    dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &amp;dwCb, &amp;dwEntries);
 
     if (dwRet == ERROR_BUFFER_TOO_SMALL){
         // Allocate the memory needed for the array of RAS entry names.
@@ -229,12 +206,12 @@ DWORD __cdecl wmain(){
         lpRasEntryName[0].dwSize = sizeof(RASENTRYNAME);
         
         // Call RasEnumEntries to enumerate all RAS entry names
-        dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &dwCb, &dwEntries);
+        dwRet = RasEnumEntries(NULL, NULL, lpRasEntryName, &amp;dwCb, &amp;dwEntries);
 
         // If successful, print the RAS entry names 
         if (ERROR_SUCCESS == dwRet){
             wprintf(L"The following RAS entry names were found:\n");
-            for (DWORD i = 0; i < dwEntries; i++){
+            for (DWORD i = 0; i &lt; dwEntries; i++){
                 wprintf(L"%s\n", lpRasEntryName[i].szEntryName);
             }
         }
@@ -245,7 +222,7 @@ DWORD __cdecl wmain(){
     }
 
     // There was either a problem with RAS or there are RAS entry names to enumerate    
-    if(dwEntries >= 1){
+    if(dwEntries &gt;= 1){
         wprintf(L"The operation failed to acquire the buffer size.\n");
     }else{
         wprintf(L"There were no RAS entry names found:.\n");
@@ -253,10 +230,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

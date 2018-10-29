@@ -7,7 +7,7 @@ old-location: perf\perfclosequeryhandle.htm
 tech.root: perfctrs
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

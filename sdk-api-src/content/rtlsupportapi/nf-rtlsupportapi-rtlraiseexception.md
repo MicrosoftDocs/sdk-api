@@ -4,10 +4,10 @@ title: RtlRaiseException function
 author: windows-sdk-content
 description: Raises an exception.
 old-location: winprog\rtlraiseexception.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0d43418a-1c80-4f5e-a0fe-5bc3adac847c
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception
 ms.prod: windows-hardware
 ms.technology: windows-devices

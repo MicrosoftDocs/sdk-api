@@ -7,7 +7,7 @@ old-location: shell\PathParseIconLocation.htm
 tech.root: shell
 ms.assetid: 1ded2f0f-0e11-4730-ab7b-16536e7f4435
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: PathParseIconLocation, PathParseIconLocation function [Windows Shell], PathParseIconLocationA, PathParseIconLocationW, _win32_PathParseIconLocation, shell.PathParseIconLocation, shlwapi/PathParseIconLocation, shlwapi/PathParseIconLocationA, shlwapi/PathParseIconLocationW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,10 +93,14 @@ This function is useful for taking a DefaultIcon value retrieved from the regist
 
 
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main(void)
@@ -111,16 +115,16 @@ int retval;
 
 // Search a path to parse for file and icon index.
 retval = PathParseIconLocation(lpStr1);
-cout << "The path to parse for file and icon index is   : " << lpStr1 << endl;
-cout << "PathParseIconLocation returns the icon index of: " << retval << endl;
+cout &lt;&lt; "The path to parse for file and icon index is   : " &lt;&lt; lpStr1 &lt;&lt; endl;
+cout &lt;&lt; "PathParseIconLocation returns the icon index of: " &lt;&lt; retval &lt;&lt; endl;
 }
 
 OUTPUT:
 ==========
 The path to parse for file and icon index is   : C:\TEST\sample.txt
-PathParseIconLocation returns the icon index of: 3
-```
-
-
+PathParseIconLocation returns the icon index of: 3</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -4,10 +4,10 @@ title: IDirect3DVertexBuffer9::Lock
 author: windows-sdk-content
 description: Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
 old-location: direct3d9\idirect3dvertexbuffer9__lock.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__lock.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: 50b9d9ea-bb70-b92b-dbd4-0e355b29ab40, IDirect3DVertexBuffer9 interface [Direct3D 9],Lock method, IDirect3DVertexBuffer9.Lock, IDirect3DVertexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Lock, direct3d9.idirect3dvertexbuffer9__lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,14 +95,14 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_READONLY</li>
 <li>D3DLOCK_NOOVERWRITE</li>
 </ul>
-For a description of the flags, see <a href="https://msdn.microsoft.com/en-us/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
+For a description of the flags, see <a href="https://msdn.microsoft.com/46a611bd-a1ec-4967-b68d-72661d1b5cad">D3DLOCK</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -117,7 +117,7 @@ As a general rule, do not hold a lock across more than one frame. When working w
 
 The D3DLOCK_DISCARD and D3DLOCK_NOOVERWRITE flags are valid only on buffers created with D3DUSAGE_DYNAMIC.
 
-For information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE with <b>IDirect3DVertexBuffer9::Lock</b>, see <a href="https://msdn.microsoft.com/en-us/library/Bb147263(v=VS.85).aspx">Using Dynamic Vertex and Index Buffers</a>.
+For information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE with <b>IDirect3DVertexBuffer9::Lock</b>, see <a href="https://msdn.microsoft.com/074f848e-4a42-48a2-adf7-4026b8967413">Using Dynamic Vertex and Index Buffers</a>.
 
 
 
@@ -127,15 +127,15 @@ For information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE with <b>IDire
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>
+<a href="https://msdn.microsoft.com/6efb68b4-c276-4ae2-8a53-316e41c3a77b">IDirect3DVertexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205918(v=VS.85).aspx">IDirect3DVertexBuffer9::Unlock</a>
+<a href="https://msdn.microsoft.com/72932c97-d515-4f50-94ec-274274248cd4">IDirect3DVertexBuffer9::Unlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206332(v=VS.85).aspx">Vertex Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/f9274562-413c-4f0d-bdb4-dc8fa83b6063">Vertex Buffers (Direct3D 9)</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\cryptdecodemessage.htm
 tech.root: seccrypto
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ The <b>CryptDecodeMessage</b> function decodes, decrypts, and verifies a cryptog
 This function can be used when the type of cryptographic message is unknown. The <i>dwMsgTypeFlags</i> constants can be combined with a bitwise-<b>OR</b> operation so that the function will try to find one of the types. When one of the types is found, the function reports the type found and returns the data appropriate to that type.
 
 In each pass, the function cracks only a single level of encryption or encoding. For additional cracking, this function, or one of the other 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>, must be called again.
+<a href="cryptography_functions.htm">Simplified Message Functions</a>, must be called again.
 
 
 ## -parameters
@@ -239,7 +239,7 @@ The <i>ppXchgCert</i> or <i>ppSignerCert</i> parameters can be set to <b>NULL</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

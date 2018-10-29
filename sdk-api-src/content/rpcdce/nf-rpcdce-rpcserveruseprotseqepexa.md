@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseprotseqepex.htm
 tech.root: Rpc
 ms.assetid: c5bc52c5-9799-4fab-89fa-a680639a229f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcServerUseProtseqEpEx, RpcServerUseProtseqEpEx function [RPC], RpcServerUseProtseqEpExA, RpcServerUseProtseqEpExW, _rpc_rpcserveruseprotseqepex, rpc.rpcserveruseprotseqepex, rpcdce/RpcServerUseProtseqEpEx, rpcdce/RpcServerUseProtseqEpExA, rpcdce/RpcServerUseProtseqEpExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

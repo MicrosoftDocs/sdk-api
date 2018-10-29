@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_instancing.htm
 tech.root: WinRT
 ms.assetid: 23618FBC-2404-4AB7-9842-7FD439F677B1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Instancing method, IExeServerRegistration.get_Instancing, IExeServerRegistration::get_Instancing, activationregistration/IExeServerRegistration::get_Instancing, get_Instancing, get_Instancing method [Windows Runtime], get_Instancing method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_instancing
 ms.prod: windows-hardware
 ms.technology: windows-devices

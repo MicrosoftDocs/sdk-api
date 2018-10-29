@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_setdesiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 1ea8359b-fc9f-4929-9499-c5017eb3d763
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 1ea8359b-fc9f-4929-9499-c5017eb3d763, IRealTimeStylus interface [Tablet PC],SetDesiredPacketDescription method, IRealTimeStylus.SetDesiredPacketDescription, IRealTimeStylus::SetDesiredPacketDescription, SetDesiredPacketDescription, SetDesiredPacketDescription method [Tablet PC], SetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetDesiredPacketDescription, tablet.irealtimestylus_setdesiredpacketdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,9 +137,13 @@ Calls to the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method a
 
 The following C++ example code sets the properties that are requested to be included in the packet stream.
 
-
-```cpp
-GUID guidDesiredPacketDescription[] = { GUID_PACKETPROPERTY_GUID_X, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>GUID guidDesiredPacketDescription[] = { GUID_PACKETPROPERTY_GUID_X, 
                                         GUID_PACKETPROPERTY_GUID_Y, 
                                         GUID_PACKETPROPERTY_GUID_NORMAL_PRESSURE,
                                         GUID_PACKETPROPERTY_GUID_TANGENT_PRESSURE };
@@ -148,7 +152,7 @@ GUID guidDesiredPacketDescription[] = { GUID_PACKETPROPERTY_GUID_X,
 ULONG ulProperties = sizeof(guidDesiredPacketDescription) / sizeof(GUID);
 
 // Set the packet information we'd like to get
-if (SUCCEEDED(g_pRealTimeStylus->SetDesiredPacketDescription(ulProperties, guidDesiredPacketDescription)))
+if (SUCCEEDED(g_pRealTimeStylus-&gt;SetDesiredPacketDescription(ulProperties, guidDesiredPacketDescription)))
 {
     TRACE("Set the desired packet description successfully.\n");
 }
@@ -156,20 +160,20 @@ if (SUCCEEDED(g_pRealTimeStylus->SetDesiredPacketDescription(ulProperties, guidD
 GUID* pGuids = NULL;
 
 // See if setting the properties was successful
-if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGuids)))
+if (SUCCEEDED(g_pRealTimeStylus-&gt;GetDesiredPacketDescription(&amp;ulProperties, &amp;pGuids)))
 {
     TRACE("The RealTimeStylus supports %d properties.\n", ulProperties);
 
     // Display the values of the GUIDs in debug output
-    for (int i = 0; i < ulProperties; i++)
+    for (int i = 0; i &lt; ulProperties; i++)
     {
         TRACE("GUID #%d == %d\n", i, pGuids[i]);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

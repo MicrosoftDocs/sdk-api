@@ -7,7 +7,7 @@ old-location: shell\INewWindowManager.htm
 tech.root: shell
 ms.assetid: 63fbdd29-fe5e-4216-afb3-041320a8c496
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: INewWindowManager, INewWindowManager interface [Windows Shell], INewWindowManager interface [Windows Shell],described, _shell_INewWindowManager, shell.INewWindowManager, shobjidl_core/INewWindowManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,9 @@ Accepts data about a new window that is attempting to display and determines whe
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement <b>INewWindowManager</b> when your application hosts a <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control and you want to include pop-up management functionality.
+Implement <b>INewWindowManager</b> when your application hosts a <a href="_inet_MLang_1">WebBrowser</a> control and you want to include pop-up management functionality.
 
-When you implement <b>INewWindowManager</b>, you can override some or all of the Windows Internet Explorer pop-up blocking logic. To use the default Internet Explorer pop-up blocking logic, implement <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> to return E_FAIL. This instructs the <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control to use the default Internet Explorer implementation. Alternately, the application hosting the WebBrowser control can call <a href="https://msdn.microsoft.com/library/ms537168(v=VS.85).aspx">CoInternetSetFeatureEnabled</a> with the <b>FEATURE_WEBOC_POPUPMANAGEMENT</b> flag for the same result.
+When you implement <b>INewWindowManager</b>, you can override some or all of the Windows Internet Explorer pop-up blocking logic. To use the default Internet Explorer pop-up blocking logic, implement <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> to return E_FAIL. This instructs the <a href="_inet_MLang_1">WebBrowser</a> control to use the default Internet Explorer implementation. Alternately, the application hosting the WebBrowser control can call <a href="ie.CoInternetSetFeatureEnabled_Function">CoInternetSetFeatureEnabled</a> with the <b>FEATURE_WEBOC_POPUPMANAGEMENT</b> flag for the same result.
 
 
 
@@ -97,7 +97,7 @@ When you implement <b>INewWindowManager</b>, you can override some or all of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms537168(v=VS.85).aspx">CoInternetSetFeatureEnabled</a>
+<a href="ie.CoInternetSetFeatureEnabled_Function">CoInternetSetFeatureEnabled</a>
  
 
  

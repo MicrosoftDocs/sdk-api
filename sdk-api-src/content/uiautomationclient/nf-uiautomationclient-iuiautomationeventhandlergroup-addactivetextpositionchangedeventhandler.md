@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositio
 tech.root: WinAuto
 ms.assetid: D3A09F61-5536-409E-BFA2-63D6E4A774A2
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler, IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Registers a method that handles when the active text position changes.<div class
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -74,11 +74,6 @@ A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
 A pointer to the object that handles the active text position changed event.
 
-
-
-#### - scope [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

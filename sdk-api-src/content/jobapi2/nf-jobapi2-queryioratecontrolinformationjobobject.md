@@ -7,7 +7,7 @@ old-location: base\queryioratecontrolinformationjobobject.htm
 tech.root: ProcThread
 ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

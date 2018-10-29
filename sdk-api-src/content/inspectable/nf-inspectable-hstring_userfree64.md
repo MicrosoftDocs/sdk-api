@@ -7,7 +7,7 @@ old-location: winrt\hstring_userfree64.htm
 tech.root: WinRT
 ms.assetid: 11285260-6AF3-4047-92D4-958B1BFA18E7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: HSTRING_UserFree64, HSTRING_UserFree64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree64, winrt.hstring_userfree64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,24 +60,12 @@ Frees resources on the server side when called by RPC stub files.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - ppidl [in]
+### -param arg2 [in]
 
 The string.
 

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_description.htm
 tech.root: Wds
 ms.assetid: 1d3d2cd8-f2ed-495a-a7f9-659ef5e0f6e1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: Description property [Windows Deployment Services], Description property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Description property, IWdsTransportNamespace.Description, IWdsTransportNamespace.get_Description, IWdsTransportNamespace::Description, IWdsTransportNamespace::get_Description, IWdsTransportNamespace::put_Description, get_Description, wds.iwdstransportnamespace_description, wdstptmgmt/IWdsTransportNamespace::Description, wdstptmgmt/IWdsTransportNamespace::get_Description, wdstptmgmt/IWdsTransportNamespace::put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

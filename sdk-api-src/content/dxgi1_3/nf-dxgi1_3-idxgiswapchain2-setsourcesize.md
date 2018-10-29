@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutpu2_setsourcesize.htm
 tech.root: direct3ddxgi
 ms.assetid: BD424F5A-9735-4E90-9FAD-A0B827D7AD80
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetSourceSize method, IDXGISwapChain2.SetSourceSize, IDXGISwapChain2::SetSourceSize, SetSourceSize, SetSourceSize method [DXGI], SetSourceSize method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgioutpu2_setsourcesize, dxgi1_3/IDXGISwapChain2::SetSourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 
 Sets the source region to be used for the swap chain.
 
-Use <b>SetSourceSize</b> to specify the portion of the swap chain from which the operating system presents. This allows an effective resize without calling the more-expensive <a href="https://msdn.microsoft.com/en-us/library/Bb174577(v=VS.85).aspx">IDXGISwapChain::ResizeBuffers</a> method. Prior to Windows 8.1, calling <b>IDXGISwapChain::ResizeBuffers</b> was the only way to resize the swap chain. The source rectangle is always defined by the region [0, 0, Width, Height].
+Use <b>SetSourceSize</b> to specify the portion of the swap chain from which the operating system presents. This allows an effective resize without calling the more-expensive <a href="https://msdn.microsoft.com/c70aaad0-e742-4ff1-9d25-80d171f3f9de">IDXGISwapChain::ResizeBuffers</a> method. Prior to Windows 8.1, calling <b>IDXGISwapChain::ResizeBuffers</b> was the only way to resize the swap chain. The source rectangle is always defined by the region [0, 0, Width, Height].
 
 
 ## -parameters
@@ -79,7 +79,7 @@ This method can return:
 
 <ul>
 <li>E_INVALIDARG if one or more parameters exceed the size of the back buffer.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

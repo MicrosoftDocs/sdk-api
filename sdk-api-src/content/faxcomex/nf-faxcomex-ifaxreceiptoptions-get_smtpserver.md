@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpserver_
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_83aq.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPServer property, IFaxReceiptOptions.SMTPServer, IFaxReceiptOptions.get_SMTPServer, IFaxReceiptOptions.put_SMTPServer, IFaxReceiptOptions::SMTPServer, IFaxReceiptOptions::get_SMTPServer, IFaxReceiptOptions::put_SMTPServer, SMTPServer property [Fax Service], SMTPServer property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpserver, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpserver_cpp, fax._mfax_faxreceiptoptions_smtpserver, faxcomex/IFaxReceiptOptions::SMTPServer, faxcomex/IFaxReceiptOptions::get_SMTPServer, faxcomex/IFaxReceiptOptions::put_SMTPServer, get_SMTPServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin_pluginversion.htm
 tech.root: termserv
 ms.assetid: 39e5cc01-3945-4e78-bbce-bff5d5a5f22d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginVersion property, ItsPubPlugin.get_pluginVersion, ItsPubPlugin.pluginVersion, ItsPubPlugin::get_pluginVersion, ItsPubPlugin::pluginVersion, get_pluginVersion, pluginVersion property [Remote Desktop Services], pluginVersion property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginversion, tspubplugincom/ItsPubPlugin::get_pluginVersion, tspubplugincom/ItsPubPlugin::pluginVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

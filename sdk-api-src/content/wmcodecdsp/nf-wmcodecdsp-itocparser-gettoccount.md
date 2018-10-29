@@ -7,7 +7,7 @@ old-location: mf\itocparser_gettoccount.htm
 tech.root: medfound
 ms.assetid: 8ad80a20-cadb-4a0d-a39e-b627324df425
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocCount method, ITocParser.GetTocCount, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>GetTocCount</b> method retrieves the number of tables of contents, of a s
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the tables of contents to be counted.
 
 
 ### -param pdwTocCount [out]
 
 Pointer to a <b>DWORD</b> that receives the number of tables of contents.
-
-
-#### - enumTocPosType [in]
-
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the tables of contents to be counted.
 
 
 ## -returns

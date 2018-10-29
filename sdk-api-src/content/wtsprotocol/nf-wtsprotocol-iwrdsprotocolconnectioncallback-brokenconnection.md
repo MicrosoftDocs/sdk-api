@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnectioncallback_brokenconnection.htm
 tech.root: termserv
 ms.assetid: bc317e10-e09c-423b-8016-eb1cf49eba43
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWRdsProtocolConnectionCallback.BrokenConnection, IWRdsProtocolConnectionCallback::BrokenConnection, termserv.iwrdsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

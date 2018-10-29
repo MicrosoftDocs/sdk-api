@@ -7,7 +7,7 @@ old-location: netshell\ns_helper_attributes.htm
 tech.root: NetShell
 ms.assetid: b2a3ae40-4aaa-41b2-965c-1467a07ab2de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PNS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES structure [NetShell], PNS_HELPER_ATTRIBUTES, PNS_HELPER_ATTRIBUTES structure pointer [NetShell], _NS_HELPER_ATTRIBUTES, _netsh_ns_helper_attributes, netsh/NS_HELPER_ATTRIBUTES, netsh/PNS_HELPER_ATTRIBUTES, netshell.ns_helper_attributes"
 ms.prod: windows
 ms.technology: windows-sdk

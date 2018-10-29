@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxoutboundroutinggroups_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0i7h.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get__NewEnum method, IFaxOutboundRoutingGroups.get__NewEnum, IFaxOutboundRoutingGroups::get__NewEnum, _mfax_ifaxoutboundroutinggroups_get__newenum, fax._mfax_ifaxoutboundroutinggroups_get__newenum, faxcomex/IFaxOutboundRoutingGroups::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxOutboundRoutingGroups interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroups::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
+The <b>IFaxOutboundRoutingGroups::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ TBD
 
 #### - pUnk [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
+Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
 
-Receives an indirect pointer to the enumerator object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for this collection.
+Receives an indirect pointer to the enumerator object's <a href="_com_IUnknown">IUnknown</a> interface for this collection.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
  
 
  

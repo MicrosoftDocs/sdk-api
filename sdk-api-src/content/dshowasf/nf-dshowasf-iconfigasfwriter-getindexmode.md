@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter_getindexmode.htm
 tech.root: DirectShow
 ms.assetid: 70d9a2e7-2f5a-4f87-b42c-3a225c42a44b
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetIndexMode method, IConfigAsfWriter.GetIndexMode, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

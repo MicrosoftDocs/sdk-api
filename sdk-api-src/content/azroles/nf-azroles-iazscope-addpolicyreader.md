@@ -7,7 +7,7 @@ old-location: security\iazscope_addpolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: dd4d3254-8bcf-46b5-8e7b-d3f076988a7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzScope object, AddPolicyReader method [Security],IAzScope interface, AzScope object [Security],AddPolicyReader method, IAzScope interface [Security],AddPolicyReader method, IAzScope.AddPolicyReader, IAzScope::AddPolicyReader, azroles/IAzScope::AddPolicyReader, security.iazscope_addpolicyreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,11 +73,11 @@ Reserved for future use.
 
 
 
-Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the  <a href="https://msdn.microsoft.com/en-us/library/Aa377880(v=VS.85).aspx">AccessCheck</a> method. Readers cannot modify the object or its child objects.
+Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the  <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> method. Readers cannot modify the object or its child objects.
 
-To view the list of policy readers, use the <a href="https://msdn.microsoft.com/en-us/library/Aa378360(v=VS.85).aspx">PolicyReaders</a> property.
+To view the list of policy readers, use the <a href="https://msdn.microsoft.com/7576997c-a585-4f0d-bec5-c616d39633f9">PolicyReaders</a> property.
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa378364(v=VS.85).aspx">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://msdn.microsoft.com/c06f1994-71d9-4867-a5ed-8fa90206994f">Submit</a> method to persist any changes made by this method.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\objectcloseauditalarm.htm
 tech.root: SecAuthZ
 ms.assetid: 274f3a62-1833-402b-b362-f526b2bee14b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ObjectCloseAuditAlarm, ObjectCloseAuditAlarm function [Security], ObjectCloseAuditAlarmA, ObjectCloseAuditAlarmW, _win32_objectcloseauditalarm, security.objectcloseauditalarm, winbase/ObjectCloseAuditAlarm, winbase/ObjectCloseAuditAlarmA, winbase/ObjectCloseAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ The <b>ObjectCloseAuditAlarm</b> function requires the calling application to ha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

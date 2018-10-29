@@ -7,7 +7,7 @@ old-location: security\win_certificate.htm
 tech.root: seccrypto
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], _WIN_CERTIFICATE, security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE"
 ms.prod: windows
 ms.technology: windows-sdk

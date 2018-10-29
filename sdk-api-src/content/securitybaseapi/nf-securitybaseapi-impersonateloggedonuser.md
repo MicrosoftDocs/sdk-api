@@ -7,7 +7,7 @@ old-location: security\impersonateloggedonuser.htm
 tech.root: SecAuthZ
 ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ For more information about impersonation, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

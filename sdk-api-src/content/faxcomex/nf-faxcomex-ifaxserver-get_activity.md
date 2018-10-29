@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_activity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Activity property, IFaxServer.Activity, IFaxServer.get_Activity, IFaxServer::Activity, IFaxServer::get_Activity, _mfax_faxserver.activity_cpp, fax._mfax_faxserver_activity_cpp, faxcomex/IFaxServer::Activity, faxcomex/IFaxServer::get_Activity, get_Activity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693455(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cf85750a-56ac-41d5-b6c0-5444934afce7">Visual Basic Example</a>
  
 
  

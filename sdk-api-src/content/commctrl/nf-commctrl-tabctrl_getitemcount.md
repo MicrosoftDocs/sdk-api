@@ -4,10 +4,10 @@ title: TabCtrl_GetItemCount macro
 author: windows-sdk-content
 description: Retrieves the number of tabs in the tab control. You can use this macro or send the TCM_GETITEMCOUNT message explicitly.
 old-location: controls\TabCtrl_GetItemCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemcount.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: TabCtrl_GetItemCount, TabCtrl_GetItemCount macro [Windows Controls], _win32_TabCtrl_GetItemCount, _win32_TabCtrl_GetItemCount_cpp, commctrl/TabCtrl_GetItemCount, controls.TabCtrl_GetItemCount, controls._win32_TabCtrl_GetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the number of tabs in the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760592(v=VS.85).aspx">TCM_GETITEMCOUNT</a> message explicitly. 
+Retrieves the number of tabs in the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/a8ec7d66-fe44-45ca-8f6c-4e75752ebe95">TCM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the number of tabs in the tab control. You can use this macro or send 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

@@ -7,7 +7,7 @@ old-location: winauto\createstdaccessibleobject.htm
 tech.root: WinAuto
 ms.assetid: 50b6f391-98a4-4276-840f-028cc18e99ef
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CreateStdAccessibleObject, CreateStdAccessibleObject function [Windows Accessibility], _msaa_CreateStdAccessibleObject, msaa.createstdaccessibleobject, oleacc/CreateStdAccessibleObject, winauto.createstdaccessibleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Window handle of the system-provided user interface element (a control) for whic
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Object ID. This value is usually <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_CLIENT</a>, but it may be another object identifier.
+Object ID. This value is usually <a href="object_identifiers.htm">OBJID_CLIENT</a>, but it may be another object identifier.
 
 
 ### -param riid [in]

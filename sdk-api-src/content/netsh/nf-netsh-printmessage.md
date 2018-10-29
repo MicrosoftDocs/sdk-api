@@ -7,7 +7,7 @@ old-location: netshell\printmessage.htm
 tech.root: NetShell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,13 +65,6 @@ A string to be output to the NetShell console.
 
 
 ### -param arg1
-
-TBD
-
-
-
-
-#### - param
 
 The arguments used to fill into the message.
 

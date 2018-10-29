@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_createpalette.htm
 tech.root: directdraw
 ms.assetid: 3e9eec72-b9c7-4c9f-b9ea-177605fedf96
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CreatePalette, CreatePalette method [DirectDraw], CreatePalette method [DirectDraw],IDirectDraw7 interface, DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_INITIALIZE, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, IDirectDraw7 interface [DirectDraw],CreatePalette method, IDirectDraw7.CreatePalette, IDirectDraw7::CreatePalette, ddraw/IDirectDraw7::CreatePalette, directdraw.idirectdraw7_createpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,29 +59,7 @@ Creates a DirectDrawPalette object for this DirectDraw object.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 This value consists of one or more of the following flags:
 
@@ -152,17 +130,17 @@ This palette is the one attached to the left-eye primary surface. Changing this 
 This palette can have modifications to it synchronized with the monitor's refresh rate.
 
 
-#### - lpDDColorArray [in]
+### -param arg2 [in]
 
 Address of an array of 2, 4, 16, or 256 <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures to initialize the DirectDrawPalette object.
 
 
-#### - lplpDDPalette [out]
+### -param arg3 [out]
 
 Address of a variable to be set to a valid <a href="https://msdn.microsoft.com/82dad1d4-2368-4cb0-a45c-0de894b016b7">IDirectDrawPalette</a> interface pointer if the call succeeds.
 
 
-#### - pUnkOuter [in]
+### -param arg4 [in]
 
 Allows for future compatibility with COM aggregation features. Currently, this method returns an error if this parameter is not NULL.
 

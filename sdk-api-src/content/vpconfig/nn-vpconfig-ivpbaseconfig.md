@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig.htm
 tech.root: DirectShow
 ms.assetid: d9a4f395-3d2f-429a-884d-90131927a929
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], IVPBaseConfig interface [DirectShow],described, IVPBaseConfigInterface, dshow.ivpbaseconfig, vpconfig/IVPBaseConfig
 ms.prod: windows
 ms.technology: windows-sdk

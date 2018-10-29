@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevsend.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7rz8.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fax._mfax_faxdevsend, faxdev/FaxDevSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ The fax service calls the <b>FaxDevSend</b> function to signal a fax service pro
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function.
+Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a> function.
 
 
 ### -param FaxSend [in]
 
 Type: <b>PFAX_SEND</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a> structure that contains the sending information. For more information, see the following Remarks section.
+Pointer to a <a href="https://msdn.microsoft.com/eeed15e9-11a6-4a0d-bedc-b8807fe69b46">FAX_SEND</a> structure that contains the sending information. For more information, see the following Remarks section.
 
 
 ### -param FaxSendCallback
@@ -98,16 +98,16 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The FSP must respond to the <b>FaxDevSend</b> function by making the call, sending the data, and terminating the call. The provider can call the <a href="https://msdn.microsoft.com/4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226">lineSetMediaMode</a> function to correctly set the call's media mode. The fax service provider must dial the number specified by the <b>ReceiverNumber</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a> structure. 
+The FSP must respond to the <b>FaxDevSend</b> function by making the call, sending the data, and terminating the call. The provider can call the <a href="https://msdn.microsoft.com/4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226">lineSetMediaMode</a> function to correctly set the call's media mode. The fax service provider must dial the number specified by the <b>ReceiverNumber</b> member of the <a href="https://msdn.microsoft.com/eeed15e9-11a6-4a0d-bedc-b8807fe69b46">FAX_SEND</a> structure. 
         
 
 The FSP has ownership of the line while in the context of the <b>FaxDevSend</b> function, and it must handle all protocol and error correction. 
         
 
-The data stream stored in the file specified by the <b>FileName</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a> structure is a Tagged Image File Format Class F (TIFF Class F) file. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693440(v=VS.85).aspx">Fax Image Format</a>. 
+The data stream stored in the file specified by the <b>FileName</b> member of the <a href="https://msdn.microsoft.com/eeed15e9-11a6-4a0d-bedc-b8807fe69b46">FAX_SEND</a> structure is a Tagged Image File Format Class F (TIFF Class F) file. For more information, see <a href="https://msdn.microsoft.com/d7840c10-6059-40ed-9040-50eefefc7349">Fax Image Format</a>. 
         
 
-To notify the fax service that a call has been established, the FSP must call the <a href="https://msdn.microsoft.com/en-us/library/ms684549(v=VS.85).aspx">FaxSendCallback</a> function pointed to by the <i>FaxSendCallback</i> parameter. The callback function also provides the fax service with the call handle that TAPI assigns. This handle is necessary for TAPI message routing. If the FSP does not call <i>FaxSendCallback</i>, it will miss all call-specific events for the send operation. 
+To notify the fax service that a call has been established, the FSP must call the <a href="https://msdn.microsoft.com/5ead1d33-e02b-4afc-a4cd-2adbae88571e">FaxSendCallback</a> function pointed to by the <i>FaxSendCallback</i> parameter. The callback function also provides the fax service with the call handle that TAPI assigns. This handle is necessary for TAPI message routing. If the FSP does not call <i>FaxSendCallback</i>, it will miss all call-specific events for the send operation. 
         
 
 
@@ -118,27 +118,27 @@ To notify the fax service that a call has been established, the FSP must call th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a>
+<a href="https://msdn.microsoft.com/eeed15e9-11a6-4a0d-bedc-b8807fe69b46">FAX_SEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/402583fd-aef8-4197-a41e-870825c58351">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
+<a href="https://msdn.microsoft.com/3f37c113-2971-4092-8753-b0d30b8ce6c1">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684549(v=VS.85).aspx">FaxSendCallback</a>
+<a href="https://msdn.microsoft.com/5ead1d33-e02b-4afc-a4cd-2adbae88571e">FaxSendCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
  
 
  

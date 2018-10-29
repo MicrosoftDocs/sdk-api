@@ -4,10 +4,10 @@ title: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 author: windows-sdk-content
 description: Values for the D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property of the RGB to Hue effect.
 old-location: direct2d\d2d1_rgbtohue_output_color_space.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DD87B97F-553A-4E36-A245-5ED15F33C62B
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE, D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE enumeration [Direct2D], D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS, D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE, d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE, d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS, d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE, direct2d.d2d1_rgbtohue_output_color_space
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890744(v=VS.85).aspx">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn900459(v=VS.85).aspx">RGB to Hue effect</a>.
+Values for the <a href="https://msdn.microsoft.com/C5CB2C7A-C7C0-4FC9-BAB0-0360ABE984E6">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/1def972d-8172-9217-8ce7-abce4a93f6e1">RGB to Hue effect</a>.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 
@@ -86,7 +86,7 @@ The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn900459(v=VS.85).aspx">RGB to Hue effect</a>
+<a href="https://msdn.microsoft.com/1def972d-8172-9217-8ce7-abce4a93f6e1">RGB to Hue effect</a>
  
 
  

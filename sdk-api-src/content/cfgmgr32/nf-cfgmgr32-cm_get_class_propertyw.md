@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_property.htm
 tech.root: devinst
 ms.assetid: D2388F05-20BC-42E5-907E-A7DD89448AF3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CM_Get_Class_Property, CM_Get_Class_Property function [Device and Driver Installation], CM_Get_Class_PropertyW, cfgmgr32/CM_Get_Class_Property, cfgmgr32/CM_Get_Class_PropertyW, devinst.cm_get_class_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Get_Class_Property</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">Unified Device Property Model</a>.
+<b>CM_Get_Class_Property</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

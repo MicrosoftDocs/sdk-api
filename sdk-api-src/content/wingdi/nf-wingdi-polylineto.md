@@ -7,7 +7,7 @@ old-location: gdi\polylineto.htm
 tech.root: gdi
 ms.assetid: 76020742-b651-4244-82c3-13034573c306
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: PolylineTo, PolylineTo function [Windows GDI], _win32_PolylineTo, gdi.polylineto, wingdi/PolylineTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

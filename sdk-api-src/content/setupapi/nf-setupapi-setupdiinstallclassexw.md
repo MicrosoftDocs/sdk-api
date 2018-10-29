@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstallclassex.htm
 tech.root: devinst
 ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in, optional]
 
-A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
+A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="devinst.inf_classinstall32_section">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
 
-If this function is being used to install an interface class, the INF file contains an <a href="https://msdn.microsoft.com/library/Ff547446(v=VS.85).aspx">INF InterfaceInstall32 section</a>. 
+If this function is being used to install an interface class, the INF file contains an <a href="devinst.inf_interfaceinstall32_section">INF InterfaceInstall32 section</a>. 
 
 
 ### -param Flags [in]

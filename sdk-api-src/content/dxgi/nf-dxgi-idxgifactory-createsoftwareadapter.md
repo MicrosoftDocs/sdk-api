@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_createsoftwareadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createsoftwareadapter.htm
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CreateSoftwareAdapter, CreateSoftwareAdapter method [DXGI], CreateSoftwareAdapter method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSoftwareAdapter method, IDXGIFactory.CreateSoftwareAdapter, IDXGIFactory::CreateSoftwareAdapter, direct3ddxgi.idxgifactory_createsoftwareadapter, dxgi/IDXGIFactory::CreateSoftwareAdapter, eb1643db-ba87-e9e9-56a9-b7f505fcd700
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,18 +68,18 @@ Handle to the software adapter's dll. HMODULE can be obtained with <a href="http
 
 ### -param ppAdapter [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>**</b>
 
-Address of a pointer to an adapter (see <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>).
+Address of a pointer to an adapter (see <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">return code</a> indicating success or failure.
+A <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">return code</a> indicating success or failure.
 
 
 
@@ -102,7 +102,7 @@ The typical calling scenario is to call <a href="https://msdn.microsoft.com/d936
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
+<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>
  
 
  

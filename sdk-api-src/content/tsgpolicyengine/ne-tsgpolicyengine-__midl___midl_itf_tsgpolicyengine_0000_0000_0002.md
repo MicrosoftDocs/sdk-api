@@ -7,7 +7,7 @@ old-location: termserv\aaaccountingdatatype.htm
 tech.root: termserv
 ms.assetid: 2864d044-266c-44e4-90d3-ccd75bf08348
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AAAccountingDataType, AAAccountingDataType enumeration [Remote Desktop Services], AA_MAIN_SESSION_CLOSED, AA_MAIN_SESSION_CREATION, AA_SUB_SESSION_CLOSED, AA_SUB_SESSION_CREATION, __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0002, termserv.aaaccountingdatatype, tsgpolicyengine/AAAccountingDataType, tsgpolicyengine/AA_MAIN_SESSION_CLOSED, tsgpolicyengine/AA_MAIN_SESSION_CREATION, tsgpolicyengine/AA_SUB_SESSION_CLOSED, tsgpolicyengine/AA_SUB_SESSION_CREATION
 ms.prod: windows
 ms.technology: windows-sdk

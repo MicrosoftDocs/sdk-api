@@ -7,7 +7,7 @@ old-location: security\freesid.htm
 tech.root: SecAuthZ
 ms.assetid: 1e2098d8-4d1f-4353-97c1-549021a5b3fd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: FreeSid, FreeSid function [Security], _win32_freesid, security.freesid, securitybaseapi/FreeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ If the function fails, it returns a pointer to the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

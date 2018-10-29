@@ -7,7 +7,7 @@ old-location: rpc\rpcsmsetclientallocfree.htm
 tech.root: Rpc
 ms.assetid: f6b6db72-c9af-44d1-9f84-26aaaa17691c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcSmSetClientAllocFree, RpcSmSetClientAllocFree function [RPC], _rpc_rpcsmsetclientallocfree, rpc.rpcsmsetclientallocfree, rpcndr/RpcSmSetClientAllocFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

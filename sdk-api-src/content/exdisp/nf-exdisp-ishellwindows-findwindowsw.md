@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_FindWindowSW.htm
 tech.root: shell
 ms.assetid: 10eed153-cb0b-4ce0-8cc5-2e7ebf683fda
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: FindWindowSW, FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell],IShellWindows interface, IShellWindows interface [Windows Shell],FindWindowSW method, IShellWindows.FindWindowSW, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Finds a window in the Shell windows collection and returns the window's handle and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+Finds a window in the Shell windows collection and returns the window's handle and <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Finds a window in the Shell windows collection and returns the window's handle a
 
 Type: <b>VARIANT*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the window to find. (See remarks.)
+A <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the window to find. (See remarks.)
 
 
 ### -param pvarLocRoot [in]
@@ -96,9 +96,9 @@ One or more <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b
 
 ### -param ppdispOut [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
-A reference to the window's <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface, or <b>NULL</b> if no such window was found.
+A reference to the window's <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface, or <b>NULL</b> if no such window was found.
 
 
 ## -returns
@@ -143,7 +143,7 @@ A window matching the specified search criteria was not found.
 </dl>
 </td>
 <td width="60%">
-A window was found, but a reference to the window's <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface could not be obtained. Only occurs if the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_NEEDDISPATCH</a> flag is set.
+A window was found, but a reference to the window's <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface could not be obtained. Only occurs if the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_NEEDDISPATCH</a> flag is set.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_tapi3_0000_0018_0004"
 author: windows-sdk-content
 description: The MSP_EVENT enumerator defines the type of event information contained in MSP_EVENT_INFO.
 old-location: tapi3\msp_event.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 53e19eff-b5f0-43fd-b59b-e85e75220282
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ME_ADDRESS_EVENT, ME_CALL_EVENT, ME_PRIVATE_EVENT, ME_TSP_DATA, MSP_EVENT, MSP_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0004, _tapi3_msp_event, msp/ME_ADDRESS_EVENT, msp/ME_CALL_EVENT, msp/ME_PRIVATE_EVENT, msp/ME_TSP_DATA, msp/MSP_EVENT, tapi3.msp_event
 ms.prod: windows
 ms.technology: windows-sdk

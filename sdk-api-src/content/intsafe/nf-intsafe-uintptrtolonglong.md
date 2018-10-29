@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToLongLong.htm
 tech.root: shell
 ms.assetid: 95d9153c-e9bd-4098-ad5f-2128ebed8140
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: SizeTToInt64, UIntPtrToLongLong, UIntPtrToLongLong function [Windows Shell], intsafe/UIntPtrToLongLong, shell.UIntPtrToLongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

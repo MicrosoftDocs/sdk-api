@@ -4,10 +4,10 @@ title: ITextFont2::SetSpaceExtension
 author: windows-sdk-content
 description: Sets the East Asian space extension value.
 old-location: controls\itextfont2_setspaceextension.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7388f414-f361-40e4-8a64-fc0643777f33
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetSpaceExtension method, ITextFont2.SetSpaceExtension, ITextFont2::SetSpaceExtension, SetSpaceExtension, SetSpaceExtension method [Windows Controls], SetSpaceExtension method [Windows Controls],ITextFont2 interface, controls.itextfont2_setspaceextension, tom/ITextFont2::SetSpaceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

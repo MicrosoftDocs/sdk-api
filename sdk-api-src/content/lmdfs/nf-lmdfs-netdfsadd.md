@@ -152,23 +152,27 @@ The following code sample demonstrates how to create a new DFS link using a call
     <b>NetDfsAdd</b> fails if the DFS link already exists. To add additional targets to an 
     existing DFS link, you can specify zero in the <i>Flags</i> parameter.
 
-
-```cpp
-#include <windows.h>
-#include <lm.h>
-#include <lmdfs.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;lmdfs.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "NetApi32.lib")
 
 void wmain(int argc, wchar_t *argv[ ])
 {
    DWORD res;
    LPTSTR lpszComment;
-   lpszComment = argc < 5 ? NULL : argv[4];
+   lpszComment = argc &lt; 5 ? NULL : argv[4];
    //
    // Check for required parameters.
    //
-   if (argc < 4)
+   if (argc &lt; 4)
       wprintf(L"Syntax: %s DfsEntryPath ServerName ShareName [\"Comment\"]\n", argv[0]);
    else
    {
@@ -190,10 +194,10 @@ void wmain(int argc, wchar_t *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

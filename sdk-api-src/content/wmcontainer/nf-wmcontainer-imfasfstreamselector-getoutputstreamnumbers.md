@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getoutputstreamnumbers.htm
 tech.root: medfound
 ms.assetid: 4a999e7a-1b2e-4206-874a-ed93b868150b
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 4a999e7a-1b2e-4206-874a-ed93b868150b, GetOutputStreamNumbers, GetOutputStreamNumbers method [Media Foundation], GetOutputStreamNumbers method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamNumbers method, IMFASFStreamSelector.GetOutputStreamNumbers, IMFASFStreamSelector::GetOutputStreamNumbers, mf.imfasfstreamselector_getoutputstreamnumbers, wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

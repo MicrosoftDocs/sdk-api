@@ -7,7 +7,7 @@ old-location: gdi\getpixel.htm
 tech.root: gdi
 ms.assetid: 46d17e95-93ce-4a43-b86c-489d6e3afe12
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetPixel, GetPixel function [Windows GDI], _win32_GetPixel, gdi.getpixel, wingdi/GetPixel
 ms.prod: windows-hardware
 ms.technology: windows-devices

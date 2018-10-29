@@ -4,10 +4,10 @@ title: Animate_Seek macro
 author: windows-sdk-content
 description: Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.
 old-location: controls\Animate_Seek.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_seek.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: Animate_Seek, Animate_Seek macro [Windows Controls], _win32_Animate_Seek, _win32_Animate_Seek_cpp, commctrl/Animate_Seek, controls.Animate_Seek, controls._win32_Animate_Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761899(v=VS.85).aspx">ACM_PLAY</a> message explicitly. 
+Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/738b7305-bb77-441d-a198-17daf3b76039">ACM_PLAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Directs an animation control to display a particular frame of an AVI clip. The c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the animation control in which to display the AVI frame. 
 
 
 ### -param frame
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The zero-based index of the frame to display. 
 
@@ -77,7 +77,7 @@ The zero-based index of the frame to display.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761912(v=VS.85).aspx">Animate_Play</a>
+<a href="https://msdn.microsoft.com/41865bd5-2729-423c-866b-e4afafa19b3a">Animate_Play</a>
  
 
  

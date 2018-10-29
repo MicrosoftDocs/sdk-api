@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassRegistration::put_Company
 author: windows-sdk-content
 description: The put_Company method sets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_company.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: e68539dc-0ebe-41f7-a9fe-941e2f941225
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Company method, ITPluggableTerminalClassRegistration.put_Company, ITPluggableTerminalClassRegistration::put_Company, _tapi3_itpluggableterminalclassregistration_put_company, put_Company, put_Company method [TAPI 2.2], put_Company method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_company, termmgr/ITPluggableTerminalClassRegistration::put_Company
 ms.prod: windows-hardware
 ms.technology: windows-devices

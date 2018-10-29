@@ -7,7 +7,7 @@ old-location: rpc\rpc_if_id.htm
 tech.root: Rpc
 ms.assetid: 6fad80e0-4239-48f7-9cd1-3b9c56303346
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RPC_IF_ID, RPC_IF_ID structure [RPC], _RPC_IF_ID, _rpc_rpc_if_id, rpc.rpc_if_id, rpcdce/RPC_IF_ID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 ### -field Uuid
 
 Specifies the interface 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>.
+<a href="https://msdn.microsoft.com/">UUID</a>.
 
 
 ### -field VersMajor

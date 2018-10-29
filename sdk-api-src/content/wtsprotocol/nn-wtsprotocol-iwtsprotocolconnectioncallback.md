@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnectioncallback.htm
 tech.root: termserv
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], IWTSProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolconnectioncallback, wtsprotocol/IWTSProtocolConnectionCallback
 ms.prod: windows
 ms.technology: windows-sdk

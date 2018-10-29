@@ -7,7 +7,7 @@ old-location: security\setsecuritydescriptorgroup.htm
 tech.root: SecAuthZ
 ms.assetid: 060c375c-a313-4fa2-8d85-cee9369c26a8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: SetSecurityDescriptorGroup, SetSecurityDescriptorGroup function [Security], _win32_setsecuritydescriptorgroup, security.setsecuritydescriptorgroup, securitybaseapi/SetSecurityDescriptorGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

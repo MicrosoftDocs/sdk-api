@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingtostringbinding.htm
 tech.root: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcBindingToStringBinding, RpcBindingToStringBinding function [RPC], RpcBindingToStringBindingA, RpcBindingToStringBindingW, _rpc_rpcbindingtostringbinding, rpc.rpcbindingtostringbinding, rpcdce/RpcBindingToStringBinding, rpcdce/RpcBindingToStringBindingA, rpcdce/RpcBindingToStringBindingW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ The RPC run-time library allocates memory for the string returned in the <i>Stri
 <a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function to deallocate that memory.
 
 If the binding handle in the <i>Binding</i> parameter contained a nil object 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>, the object UUID field is not included in the returned string.
+<a href="https://msdn.microsoft.com/">UUID</a>, the object UUID field is not included in the returned string.
 
 To parse the returned <i>StringBinding</i> parameter, call the 
 <a href="https://msdn.microsoft.com/c55d0259-e251-42d0-8565-ce71ab3bb59c">RpcStringBindingParse</a> function.

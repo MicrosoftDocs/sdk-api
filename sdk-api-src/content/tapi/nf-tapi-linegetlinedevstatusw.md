@@ -4,10 +4,10 @@ title: lineGetLineDevStatusW function
 author: windows-sdk-content
 description: The lineGetLineDevStatus function enables an application to query the specified open line device for its current status.
 old-location: tapi2\linegetlinedevstatus.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 9c0fa2ba-1157-43d2-af56-aa4e0c28bd05
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_tapi2_linegetlinedevstatus, lineGetLineDevStatus, lineGetLineDevStatus function [TAPI 2.2], lineGetLineDevStatusA, lineGetLineDevStatusW, tapi/lineGetLineDevStatus, tapi/lineGetLineDevStatusA, tapi/lineGetLineDevStatusW, tapi2.linegetlinedevstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

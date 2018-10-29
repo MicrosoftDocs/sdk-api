@@ -7,7 +7,7 @@ old-location: base\tlssetvalue.htm
 tech.root: ProcThread
 ms.assetid: 531b4a4a-a251-4ab4-b00a-754783a51283
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: TlsSetValue, TlsSetValue function, _win32_tlssetvalue, base.tlssetvalue, processthreadsapi/TlsSetValue, winbase/TlsSetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

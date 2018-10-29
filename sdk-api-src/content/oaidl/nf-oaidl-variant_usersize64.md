@@ -7,7 +7,7 @@ old-location: automat\variant_usersize64.htm
 tech.root: automat
 ms.assetid: a6ae00a6-f126-4550-ae46-96c5ba1aee35
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: VARIANT_UserSize64, VARIANT_UserSize64 function [Automation], automat.variant_usersize64, oaidl/VARIANT_UserSize64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/e305240e-9e1
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - Offset [in]
-
-The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the object to be properly aligned when it will be marshaled to the buffer.
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pVariant [in]
+### -param arg2 [in]
+
+The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the object to be properly aligned when it will be marshaled to the buffer.
+
+
+### -param arg3 [in]
 
 The object.
 

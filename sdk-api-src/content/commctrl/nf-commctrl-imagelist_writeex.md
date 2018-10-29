@@ -4,10 +4,10 @@ title: ImageList_WriteEx function
 author: windows-sdk-content
 description: Writes an image list to a stream.
 old-location: controls\ImageList_WriteEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_writeex.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_WriteEx, ImageList_WriteEx function [Windows Controls], _win32_ImageList_WriteEx, _win32_ImageList_WriteEx_cpp, commctrl/ImageList_WriteEx, controls.ImageList_WriteEx, controls._win32_ImageList_WriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ A handle to the image list.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A flag that specifies how the stream is written.
 
@@ -86,7 +86,7 @@ A flag that specifies how the stream is written.
 </dl>
 </td>
 <td width="60%">
-Writes to the stream using the file format for <a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
+Writes to the stream using the file format for <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
 			
 
 </td>
@@ -118,7 +118,7 @@ The address of the stream.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -129,10 +129,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://msdn.microsoft.com/en-us/library/Bb761522(v=VS.85).aspx">ILC_COLOR32</a>.  
+You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://msdn.microsoft.com/9f38a80f-1219-4a13-8827-e788d9f518d3">ILC_COLOR32</a>.  
 	
 
-To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 
@@ -142,15 +142,15 @@ To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll versi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
+<a href="https://msdn.microsoft.com/d0b6b9ca-18e5-4db5-8995-3db81adaec25">ImageList_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761562(v=VS.85).aspx">ImageList_ReadEx</a>
+<a href="https://msdn.microsoft.com/2d2d60b0-ab2d-45f6-863f-207c056c5fc6">ImageList_ReadEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
+<a href="https://msdn.microsoft.com/00078f34-3c8c-45dd-be81-9d62b90222ca">ImageList_Write</a>
 
 
 

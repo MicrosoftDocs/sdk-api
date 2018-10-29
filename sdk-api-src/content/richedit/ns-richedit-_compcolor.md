@@ -4,10 +4,10 @@ title: "_compcolor"
 author: windows-sdk-content
 description: Contains color settings for a composition string.
 old-location: controls\COMPCOLOR.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\compcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: COMPCOLOR, COMPCOLOR structure [Windows Controls], _compcolor, _win32_COMPCOLOR_str, _win32_COMPCOLOR_str_cpp, controls.COMPCOLOR, controls._win32_COMPCOLOR_str, richedit/COMPCOLOR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Color of background. To generate a <a href="https://msdn.microsoft.com/b87d3de2-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Character effect values as described for the 
-					<b>dwEffects</b> member in the <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> structure. 
+					<b>dwEffects</b> member in the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. 
 
 
 ## -see-also
@@ -85,7 +85,7 @@ Character effect values as described for the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
+<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
 
 
 

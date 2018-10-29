@@ -7,7 +7,7 @@ old-location: security\iazrole_tasks.htm
 tech.root: SecAuthZ
 ms.assetid: 60342e8f-1947-4949-b25e-01db473712ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AzRole object [Security],Tasks property, IAzRole interface [Security],Tasks property, IAzRole.Tasks, IAzRole.get_Tasks, IAzRole::Tasks, IAzRole::get_Tasks, Tasks property [Security], Tasks property [Security],AzRole object, Tasks property [Security],IAzRole interface, azroles/IAzRole::Tasks, azroles/IAzRole::get_Tasks, get_Tasks, security.iazrole_tasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

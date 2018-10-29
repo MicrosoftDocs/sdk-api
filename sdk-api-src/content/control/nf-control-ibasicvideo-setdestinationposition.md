@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_setdestinationposition.htm
 tech.root: DirectShow
 ms.assetid: e638eb33-5a7f-4ebc-910f-72566e251f17
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDestinationPosition method, IBasicVideo.SetDestinationPosition, IBasicVideo::SetDestinationPosition, IBasicVideoSetDestinationPosition, SetDestinationPosition, SetDestinationPosition method [DirectShow], SetDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDestinationPosition, dshow.ibasicvideo_setdestinationposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,7 +136,7 @@ The video renderer is not connected.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389591(v=VS.85).aspx">IBasicVideo::put_DestinationLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389592(v=VS.85).aspx">IBasicVideo::put_DestinationTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389593(v=VS.85).aspx">IBasicVideo::put_DestinationWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389590(v=VS.85).aspx">IBasicVideo::put_DestinationHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/718fcc07-1e37-4e37-ab99-39f629e65309">IBasicVideo::put_DestinationLeft</a>, <a href="https://msdn.microsoft.com/254fb104-c080-411d-9795-edcd4da41bdc">IBasicVideo::put_DestinationTop</a>, <a href="https://msdn.microsoft.com/4ae22194-19ca-4a20-9b4f-d9f39e346606">IBasicVideo::put_DestinationWidth</a>, and <a href="https://msdn.microsoft.com/e530bf39-d352-4808-9ac6-5e3d322e1905">IBasicVideo::put_DestinationHeight</a> methods.
 
 
 
@@ -146,11 +146,11 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

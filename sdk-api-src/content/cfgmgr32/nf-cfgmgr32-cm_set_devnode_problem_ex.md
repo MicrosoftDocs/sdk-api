@@ -7,7 +7,7 @@ old-location: devinst\cm_set_devnode_problem_ex.htm
 tech.root: devinst
 ms.assetid: 2e3e2c3a-c507-4cc8-bc2c-823d0b597704
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CM_Set_DevNode_Problem_Ex, CM_Set_DevNode_Problem_Ex function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem_Ex, cfgmgrfn_a2853e6a-afab-4725-bbe3-520605d515f0.xml, devinst.cm_set_devnode_problem_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Caller-supplied device instance handle that is bound to the machine handle suppl
 
 ### -param ulProblem [in]
 
-Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="https://msdn.microsoft.com/library/Ff541422(v=VS.85).aspx">Device Manager Error Messages</a>. A value of zero indicates that a problem code is not set for the device. 
+Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="devinst.device_manager_error_messages">Device Manager Error Messages</a>. A value of zero indicates that a problem code is not set for the device. 
 
 
 ### -param ulFlags [in]

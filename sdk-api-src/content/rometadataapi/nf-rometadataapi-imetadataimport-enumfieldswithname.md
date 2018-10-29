@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumfieldswithname.htm
 tech.root: WinRT
 ms.assetid: 6035f267-778d-4d7d-84eb-1081f33ff619
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFieldsWithName method, IMetaDataImport.EnumFieldsWithName, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
 ms.prod: windows-hardware
 ms.technology: windows-devices

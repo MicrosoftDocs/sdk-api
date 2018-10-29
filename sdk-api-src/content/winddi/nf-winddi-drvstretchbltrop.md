@@ -7,7 +7,7 @@ old-location: display\drvstretchbltrop.htm
 tech.root: display
 ms.assetid: eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: DrvStretchBltROP, DrvStretchBltROP function [Display Devices], ddifncs_c25f3aa6-9564-4189-b956-51cd2729576c.xml, display.drvstretchbltrop, winddi/DrvStretchBltROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

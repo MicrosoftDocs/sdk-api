@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_setcooperativelevel.htm
 tech.root: directdraw
 ms.assetid: f791732d-9dab-470a-9243-6f71fd3bcd54
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSCL_EXCLUSIVE, DDSCL_FPUPRESERVE, DDSCL_FPUSETUP, DDSCL_FULLSCREEN, DDSCL_MULTITHREADED, DDSCL_NORMAL, DDSCL_NOWINDOWCHANGES, DDSCL_SETDEVICEWINDOW, DDSCL_SETFOCUSWINDOW, IDirectDraw7 interface [DirectDraw],SetCooperativeLevel method, IDirectDraw7.SetCooperativeLevel, IDirectDraw7::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [DirectDraw], SetCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetCooperativeLevel, directdraw.idirectdraw7_setcooperativelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,12 @@ Determines the top-level behavior of the application.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+Window handle used for the application. Set to the calling application's top-level window handle (not a handle for any child windows created by the top-level window). This parameter can be NULL when the DDSCL_NORMAL flag is specified in the <i>dwFlags</i> parameter.
 
 
-
-
-#### - dwFlags [in]
+### -param arg2 [in]
 
 This value consists of one or more of the following flags:
 
@@ -147,11 +140,6 @@ This flag is supported in Windows 98 and Windows 2000 only. Indicates that the <
 This flag is supported in Windows 98 and Windows 2000 only. Indicates that the <i>hWnd</i> parameter is the window handle of the focus window for this DirectDraw object. This flag cannot be used with the DDSCL_SETDEVICEWINDOW flag.
 
 
-#### - hWnd [in]
-
-Window handle used for the application. Set to the calling application's top-level window handle (not a handle for any child windows created by the top-level window). This parameter can be NULL when the DDSCL_NORMAL flag is specified in the <i>dwFlags</i> parameter.
-
-
 ## -returns
 
 
@@ -193,14 +181,18 @@ If you use Microsoft Foundation Classes (MFC), the window handle passed to this 
 
 
 
-
-```
-
-HWND hwndTop = AfxGetMainWnd()->GetSafeHwnd();
-
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+HWND hwndTop = AfxGetMainWnd()-&gt;GetSafeHwnd();
+</pre>
+</td>
+</tr>
+</table></span></div>
 You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>SetCooperativeLevel</b> method.
 
 

@@ -7,7 +7,7 @@ old-location: security\initializesid.htm
 tech.root: SecAuthZ
 ms.assetid: b2d803a5-faaf-4066-ba2c-0442c71bb150
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: InitializeSid, InitializeSid function [Security], _win32_initializesid, security.initializesid, securitybaseapi/InitializeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ This function uses a 32-bit RID value. For applications that require a larger RI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_setsurfacedesc.htm
 tech.root: directdraw
 ms.assetid: 541bd833-20c4-4b47-a3ed-c29f228a0626
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetSurfaceDesc method, IDirectDrawSurface7.SetSurfaceDesc, IDirectDrawSurface7::SetSurfaceDesc, SetSurfaceDesc, SetSurfaceDesc method [DirectDraw], SetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetSurfaceDesc, directdraw.idirectdrawsurface7_setsurfacedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Sets the characteristics of an existing surface.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
-
-Currently not used and must be set to 0.
-
-
-#### - lpDDsd2 [in]
+### -param arg1 [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that contains the new surface characteristics.
+
+
+### -param arg2 [in]
+
+Currently not used and must be set to 0.
 
 
 ## -returns

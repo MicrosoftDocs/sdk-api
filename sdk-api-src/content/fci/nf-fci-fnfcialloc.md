@@ -4,10 +4,10 @@ title: FNFCIALLOC macro
 author: windows-sdk-content
 description: The FNFCIALLOC provides the declaration for the application-defined callback function to allocate memory within an FCI context.
 old-location: winprog\fnfcialloc.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,16 +72,20 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCIALLOC(fnMemAlloc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIALLOC(fnMemAlloc)
 {
     return malloc(cb);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

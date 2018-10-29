@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_disablewdstransportservices.
 tech.root: Wds
 ms.assetid: 46ded55b-f371-405a-bfcd-c361ac6fb5bd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DisableWdsTransportServices, DisableWdsTransportServices method [Windows Deployment Services], DisableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DisableWdsTransportServices method, IWdsTransportConfigurationManager.DisableWdsTransportServices, IWdsTransportConfigurationManager::DisableWdsTransportServices, wds.iwdstransportconfigurationmanager_disablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::DisableWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

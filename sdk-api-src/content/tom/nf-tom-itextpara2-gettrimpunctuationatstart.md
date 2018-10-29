@@ -4,10 +4,10 @@ title: ITextPara2::GetTrimPunctuationAtStart
 author: windows-sdk-content
 description: Gets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_gettrimpunctuationatstart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 965df0ef-b8ff-4d0e-8124-c811e74e0208
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetTrimPunctuationAtStart, GetTrimPunctuationAtStart method [Windows Controls], GetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetTrimPunctuationAtStart method, ITextPara2.GetTrimPunctuationAtStart, ITextPara2::GetTrimPunctuationAtStart, controls.itextpara2_gettrimpunctuationatstart, tom/ITextPara2::GetTrimPunctuationAtStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Gets whether to trim the leading space of a punctuation symbol at the start of a
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

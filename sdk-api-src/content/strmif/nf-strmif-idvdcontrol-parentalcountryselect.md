@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_parentalcountryselect.htm
 tech.root: DirectShow
 ms.assetid: fc79ad9b-4044-4a33-83b4-f3033283058a
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IDvdControl interface [DirectShow],ParentalCountrySelect method, IDvdControl.ParentalCountrySelect, IDvdControl::ParentalCountrySelect, IDvdControlParentalCountrySelect, ParentalCountrySelect, ParentalCountrySelect method [DirectShow], ParentalCountrySelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_parentalcountryselect, strmif/IDvdControl::ParentalCountrySelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,14 +85,18 @@ This method returns an error unless the domain is DVD_DOMAIN_Stop. For more info
 
 The ISO3166 2-letter country/region codes in the <i>wCountry</i> parameter must be supplied to this method as a WORD. The conversion is demonstrated for the United States (US) in the following line of code.
 
-
-```cpp
-
-WORD wCountry  =  ( WORD( 'U' ) << 8 ) | 'S';
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+WORD wCountry  =  ( WORD( 'U' ) &lt;&lt; 8 ) | 'S';
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: RasValidateEntryNameA function
 author: windows-sdk-content
 description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
 old-location: rras\rasvalidateentryname.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*, /, :, <, >, ?, RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, \, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname, |"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,19 +61,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 A pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
 
@@ -83,7 +71,7 @@ A pointer to a null-terminated string that specifies the full path and file name
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpszEntry [in]
+### -param arg2 [in]
 
 Pointer to a null-terminated string that specifies an entry name. 
 
@@ -241,12 +229,16 @@ The format of the specified entry name is invalid.
 
 The following sample code validates the phone-book entry specified by the variable <i>lpszEntry</i>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
-#include <tchar.h>
+#include &lt;tchar.h&gt;
 
 DWORD __cdecl wmain(){
 
@@ -270,10 +262,10 @@ DWORD __cdecl wmain(){
             break;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

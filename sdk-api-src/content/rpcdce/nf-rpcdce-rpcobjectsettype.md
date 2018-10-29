@@ -7,7 +7,7 @@ old-location: rpc\rpcobjectsettype.htm
 tech.root: Rpc
 ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectsettype, rpc.rpcobjectsettype, rpcdce/RpcObjectSetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

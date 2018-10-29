@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter_getcurrentprofile.htm
 tech.root: DirectShow
 ms.assetid: 1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetCurrentProfile, GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfile method, IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

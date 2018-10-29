@@ -7,7 +7,7 @@ old-location: ldap\ldap_get_option.htm
 tech.root: LDAP
 ms.assetid: e07c2c3d-8099-4f9c-9ee7-26c1287110d5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "_ldap_ldap_get_option, ldap.ldap__get__option, ldap.ldap_get_option, ldap_get_option, ldap_get_option function [LDAP], ldap_get_optionW, winldap/ldap_get_option, winldap/ldap_get_optionW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

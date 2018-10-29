@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getduration.htm
 tech.root: medfound
 ms.assetid: 831f023b-c06f-4099-9f4c-df38f3d1382f
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetDuration method, IMFPMediaItem.GetDuration, IMFPMediaItem::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaitem_getduration, mfplay/IMFPMediaItem::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,28 +116,32 @@ The method returns the total duration of the content, regardless of any values s
 
 #### Examples
 
-
-```cpp
-#include <propvarutil.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;propvarutil.h&gt;
 
 HRESULT GetPlaybackDuration(IMFPMediaItem *pItem, ULONGLONG *phnsDuration)
 {
     PROPVARIANT var;
 
-    HRESULT hr = pItem->GetDuration(MFP_POSITIONTYPE_100NS, &var);
+    HRESULT hr = pItem-&gt;GetDuration(MFP_POSITIONTYPE_100NS, &amp;var);
 
     if (SUCCEEDED(hr))
     {
         hr = PropVariantToUInt64(var, phnsDuration);
-        PropVariantClear(&var);
+        PropVariantClear(&amp;var);
     }
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

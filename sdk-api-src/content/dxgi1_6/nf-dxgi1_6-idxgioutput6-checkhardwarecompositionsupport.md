@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput6_checkhardwarecompositionsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CheckHardwareCompositionSupport, CheckHardwareCompositionSupport method [DXGI], CheckHardwareCompositionSupport method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],CheckHardwareCompositionSupport method, IDXGIOutput6.CheckHardwareCompositionSupport, IDXGIOutput6::CheckHardwareCompositionSupport, direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport, dxgi1_6/IDXGIOutput6::CheckHardwareCompositionSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A bitfield of <a href="https://msdn.microsoft.com/FA8BCF74-58CB-4806-A0A5-1D8E6E
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns a code that indicates success or failure.
 

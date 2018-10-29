@@ -4,10 +4,10 @@ title: "_HD_TEXTFILTERW"
 author: windows-sdk-content
 description: Contains information about header control text filters.
 old-location: controls\HDTEXTFILTER.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdtextfilter.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPHD_TEXTFILTERW, HDTEXTFILTER, HDTEXTFILTER structure [Windows Controls], HD_TEXTFILTERW, LPHD_TEXTFILTER, LPHD_TEXTFILTER structure pointer [Windows Controls], _HD_TEXTFILTERA, _HD_TEXTFILTERW, _win32_HDTEXTFILTER_Structure, _win32_HDTEXTFILTER_Structure_cpp, commctrl/HDTEXTFILTER, commctrl/LPHD_TEXTFILTER, controls.HDTEXTFILTER, controls._win32_HDTEXTFILTER_Structure"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directdraw\dddeviceidentifier2.htm
 tech.root: directdraw
 ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2, tagDDDEVICEIDENTIFIER2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,17 +74,21 @@ Version of the driver. It is valid to do less than and greater than comparisons 
 
 The data takes the following form:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 wProduct = HIWORD(liDriverVersion.HighPart)
 wVersion = LOWORD(liDriverVersion.HighPart)
 wSubVersion = HIWORD(liDriverVersion.LowPart)
 wBuild = LOWORD(liDriverVersion.LowPart)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field dwDriverVersionLowPart
 

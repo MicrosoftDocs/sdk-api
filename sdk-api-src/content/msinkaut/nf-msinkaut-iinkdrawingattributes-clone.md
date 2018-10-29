@@ -7,7 +7,7 @@ old-location: tablet\inkdrawingattributes_clone.htm
 tech.root: tablet
 ms.assetid: 97facd95-af49-459e-82fc-12534d466786
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],Clone method, IInkDrawingAttributes.Clone, IInkDrawingAttributes::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDrawingAttributes::Clone, tablet.inkdrawingattributes_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\cmp_waitnopendinginstallevents.htm
 tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CMP_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents function [Device and Driver Installation], cfgmgr32/CM_WaitNoPendingInstallEvents, cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml, devinst.cmp_waitnopendinginstallevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,7 +138,7 @@ If a non-zero time-out value is specified, then <b>CMP_WaitNoPendingInstallEvent
 
 New installation events can occur at any time. This function just indicates that there are no pending installation activities at the moment it is called.
 
-This function is typically used by <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device installation applications</a>. For more information, see <a href="https://msdn.microsoft.com/library/Ff554015(v=VS.85).aspx">Writing a Device Installation Application</a>.
+This function is typically used by <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device installation applications</a>. For more information, see <a href="devinst.writing_a_device_installation_application">Writing a Device Installation Application</a>.
 
 Do not call this function while processing any events inside of a system-initiated callback function that is expected to return within a short amount of time.  This includes service startup (for example in the <b>ServiceMain</b> callback function) or while processing any control in the service handler (for example, the <b>Handler</b> callback function), or from installation components such as class-installers or co-installers.
 

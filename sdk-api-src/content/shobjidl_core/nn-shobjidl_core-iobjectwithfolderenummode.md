@@ -7,7 +7,7 @@ old-location: shell\IObjectWithFolderEnumMode.htm
 tech.root: shell
 ms.assetid: 33838ddc-8e0e-431a-a957-40e23f0ad0c7
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IObjectWithFolderEnumMode, IObjectWithFolderEnumMode interface [Windows Shell], IObjectWithFolderEnumMode interface [Windows Shell],described, _shell_IObjectWithFolderEnumMode, shell.IObjectWithFolderEnumMode, shobjidl_core/IObjectWithFolderEnumMode
 ms.prod: windows
 ms.technology: windows-sdk

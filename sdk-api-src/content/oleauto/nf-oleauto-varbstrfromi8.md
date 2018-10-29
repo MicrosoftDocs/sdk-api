@@ -7,7 +7,7 @@ old-location: automat\varbstrfromi8.htm
 tech.root: automat
 ms.assetid: c81118ce-fbd7-4ac1-a388-db4fef58f30c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: VarBstrFromI8, VarBstrFromI8 function [Automation], _oa96_VarBstrFromI8, automat.varbstrfromi8, oleauto/VarBstrFromI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

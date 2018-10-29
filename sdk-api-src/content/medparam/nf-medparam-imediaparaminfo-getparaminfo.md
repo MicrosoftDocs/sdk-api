@@ -7,7 +7,7 @@ old-location: dshow\imediaparaminfo_getparaminfo.htm
 tech.root: DirectShow
 ms.assetid: 80fdb9c2-d979-4671-981a-54d968b23042
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamInfo method, IMediaParamInfo.GetParamInfo, IMediaParamInfo::GetParamInfo, IMediaParamInfoGetParamInfo, dshow.imediaparaminfo_getparaminfo, medparam/IMediaParamInfo::GetParamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

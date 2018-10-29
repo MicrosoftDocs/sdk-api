@@ -82,12 +82,16 @@ The dialog box displays a container picker which is either populated with contai
 
 The <b>pszRoot</b> member contains an ADsPath, which requires the  following form.
 
-
-```cpp
-LDAP://fabrikam.com/CN=Users,DC=Fabrikam,DC=com
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LDAP://fabrikam.com/CN=Users,DC=Fabrikam,DC=com</pre>
+</td>
+</tr>
+</table></span></div>
 <b>DsBrowseForContainer</b> uses this path as the root of the tree.  The <b>pszRoot</b> member can also be used to specify a domain that has a trust with the domain that the user is logged on to, so that the user can browse the <b>Users</b> container of the alternate  domain. If the <b>pszPath</b> member contains a path, the dialog will navigate from <b>pszRoot</b> through the containers until it reaches the object specified by <b>pszPath</b>.
 
 The <b>DsBrowseForContainer</b> function supports a callback function as specified in the <a href="https://msdn.microsoft.com/eaa2da41-1ddf-42d3-b721-6649ad49acf1">DSBROWSEINFO</a> structure. The callback function can be used to filter, modify, or otherwise update the view based on selection change, and so on. For more information, see 
@@ -100,9 +104,13 @@ The <b>DsBrowseForContainer</b> function supports a callback function as specifi
 
 The following code example chooses a container in the domain that the user is logged on to. The view also displays all the trusted domains.
 
-
-```cpp
-void PickContainer(void)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void PickContainer(void)
 {
     DSBROWSEINFOW dsbi = { 0 };
     WCHAR wszResult[MAX_PATH];
@@ -114,16 +122,16 @@ void PickContainer(void)
     dsbi.cchPath = MAX_PATH;
     dsbi.dwFlags = DSBI_ENTIREDIRECTORY;
 
-    int nReturn = DsBrowseForContainerW(&dsbi);
+    int nReturn = DsBrowseForContainerW(&amp;dsbi);
  
     if ( IDOK == nReturn )
     {
         // wszResult contains the resulting path
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

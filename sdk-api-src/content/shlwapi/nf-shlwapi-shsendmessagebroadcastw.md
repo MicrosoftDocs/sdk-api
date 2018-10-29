@@ -7,7 +7,7 @@ old-location: shell\SHSendMessageBroadcast.htm
 tech.root: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Shell], SHSendMessageBroadcastA, SHSendMessageBroadcastW, _shell_SHSendMessageBroadcast, shell.SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcastA, shlwapi/SHSendMessageBroadcastW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ The return value is not meaningful.
 
 
 
-<b>SHSendMessageBroadcast</b> is equivalent to <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> with <b>HWND_BROADCAST</b>. To avoid causing the Shell to become unresponsive in the case where there could be a window in the system that is not responding to messages, use <b>SHSendMessageBroadcast</b>.
+<b>SHSendMessageBroadcast</b> is equivalent to <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> with <b>HWND_BROADCAST</b>. To avoid causing the Shell to become unresponsive in the case where there could be a window in the system that is not responding to messages, use <b>SHSendMessageBroadcast</b>.
 
 <b>SHSendMessageBroadcast</b> is not exported by name. <b>SHSendMessageBroadcastA</b> is exported from Shlwapi.dll as ordinal 432. <b>SHSendMessageBroadcastW</b> is exported from Shlwapi.dll as ordinal 433.
 

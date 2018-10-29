@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dreflectlibrary.htm
 tech.root: direct3dhlsl
 ms.assetid: E64FB2C3-8F64-411F-89E1-984DAAE4D7C2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: D3DReflectLibrary, D3DReflectLibrary function [HLSL], d3dcompiler/D3DReflectLibrary, direct3dhlsl.d3dreflectlibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecachecallback.htm
 tech.root: lwef
 ms.assetid: d6775458-3b39-4ee8-90f9-d8a749bd1800
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IEmptyVolumeCacheCallBack, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features], IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCacheCallBack, emptyvc/IEmptyVolumeCacheCallBack, lwef.iemptyvolumecachecallback, shell.iemptyvolumecachecallback
 ms.prod: windows
 ms.technology: windows-sdk

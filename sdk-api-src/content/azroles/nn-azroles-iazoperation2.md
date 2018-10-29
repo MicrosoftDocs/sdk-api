@@ -7,7 +7,7 @@ old-location: security\iazoperation2.htm
 tech.root: SecAuthZ
 ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IAzOperation2, IAzOperation2 interface [Security], IAzOperation2 interface [Security],described, azroles/IAzOperation2, security.iazoperation2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,5 +50,5 @@ req.redist:
 ## -description
 
 
-The <b>IAzOperation2</b> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> with a method that returns the role assignments associated with the operation.
+The <b>IAzOperation2</b> interface extends the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> with a method that returns the role assignments associated with the operation.
 

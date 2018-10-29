@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontranslatetransform_setoffsety_float.htm
 tech.root: directcomp
 ms.assetid: 7EF80FFC-FB9B-4F4D-A321-7871E6C2E757
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform.SetOffsetY, IDCompositionTranslateTransform.SetOffsetY(float), IDCompositionTranslateTransform::SetOffsetY, IDCompositionTranslateTransform::SetOffsetY(float), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetY, directcomp.idcompositiontranslatetransform_setoffsety_float
 ms.prod: windows-hardware
 ms.technology: windows-devices

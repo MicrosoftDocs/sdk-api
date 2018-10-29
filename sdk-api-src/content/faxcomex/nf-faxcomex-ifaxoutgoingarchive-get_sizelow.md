@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizelow_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8v93.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],SizeLow property, IFaxOutgoingArchive.SizeLow, IFaxOutgoingArchive.get_SizeLow, IFaxOutgoingArchive::SizeLow, IFaxOutgoingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.sizelow, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizelow_cpp, fax._mfax_faxoutgoingarchive_sizelow, faxcomex/IFaxOutgoingArchive::SizeLow, faxcomex/IFaxOutgoingArchive::get_SizeLow, get_SizeLow
 ms.prod: windows-hardware
 ms.technology: windows-devices

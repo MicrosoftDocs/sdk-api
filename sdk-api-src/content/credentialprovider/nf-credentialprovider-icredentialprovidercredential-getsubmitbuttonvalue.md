@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetSubmitButtonValue.htm
 tech.root: shell
 ms.assetid: 74adc133-aa4d-405f-a98d-c9cfc719648a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetSubmitButtonValue, GetSubmitButtonValue method [Windows Shell], GetSubmitButtonValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetSubmitButtonValue method, ICredentialProviderCredential.GetSubmitButtonValue, ICredentialProviderCredential::GetSubmitButtonValue, _shell_ICredentialProviderCredential_GetSubmitButtonValue, credentialprovider/ICredentialProviderCredential::GetSubmitButtonValue, shell.ICredentialProviderCredential_GetSubmitButtonValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The submit button is not labeled as such; that is simply a generic way to refer to the button you click to submit the credentials. The button normally appears as a circular button that contains an arrow pointing to the right, although this appearance could change in later releases. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb762490(v=VS.85).aspx">CPFT_SUBMIT_BUTTON</a>.
+The submit button is not labeled as such; that is simply a generic way to refer to the button you click to submit the credentials. The button normally appears as a circular button that contains an arrow pointing to the right, although this appearance could change in later releases. For more information, see <a href="https://msdn.microsoft.com/5af9f007-9588-4574-a5ce-3f01ec0b45e8">CPFT_SUBMIT_BUTTON</a>.
 
 You should not hide the submit button unless your credential provider always performs automatic submission. Otherwise it can be confusing to the users since they will not see a way to submit their credentials.
 

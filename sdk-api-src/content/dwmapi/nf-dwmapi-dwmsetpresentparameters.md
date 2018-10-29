@@ -7,7 +7,7 @@ old-location: dwm\dwmsetpresentparameters.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetpresentparameters.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DwmSetPresentParameters, DwmSetPresentParameters function [Desktop Window Manager], _udwm_dwmsetpresentparameters, _udwm_dwmsetpresentparameters_cpp, dwm.dwmsetpresentparameters, dwmapi/DwmSetPresentParameters, winui._udwm_dwmsetpresentparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The handle to the window where the present parameters are applied.
 
 ### -param pPresentParams [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa969501(v=VS.85).aspx">DWM_PRESENT_PARAMETERS</a> structure that contains DWM video frame parameters for frame composition.
+A pointer to a <a href="https://msdn.microsoft.com/9fa736e7-9816-45e7-a864-da88403369b9">DWM_PRESENT_PARAMETERS</a> structure that contains DWM video frame parameters for frame composition.
 
 
 ## -returns

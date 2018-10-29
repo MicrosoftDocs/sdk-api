@@ -7,7 +7,7 @@ old-location: menurc\loadstring.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadStringA, LoadStringW, _win32_LoadString, _win32_loadstring_cpp, menurc.loadstring, winui._win32_loadstring, winuser/LoadString, winuser/LoadStringA, winuser/LoadStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ Using this function incorrectly can compromise the security of your application.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v=VS.85).aspx">Creating a Child Window</a>
+For an example, see <a href="https://msdn.microsoft.com/024744d3-362f-4162-8d0a-d4dac61de808">Creating a Child Window</a>
 
 <div class="code"></div>
 
@@ -139,7 +139,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>
 
 
 
@@ -147,19 +147,19 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://msdn.microsoft.com/806297e1-0ee4-4471-a98a-598c1b48c0de">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://msdn.microsoft.com/01736486-6dee-43fe-80a7-06c4cf13a23e">LoadMenuIndirect</a>
 
 
 
@@ -171,7 +171,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644909(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

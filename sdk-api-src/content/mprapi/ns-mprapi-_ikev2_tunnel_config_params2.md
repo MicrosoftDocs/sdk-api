@@ -4,10 +4,10 @@ title: "_IKEV2_TUNNEL_CONFIG_PARAMS2"
 author: windows-sdk-content
 description: Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 old-location: rras\ikev2_tunnel_config_params2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 916e70d9-b103-4e72-a9b3-a34063b3641e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PIKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS2, PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS], _IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2, rras.ikev2_tunnel_config_params2"
 ms.prod: windows
 ms.technology: windows-sdk

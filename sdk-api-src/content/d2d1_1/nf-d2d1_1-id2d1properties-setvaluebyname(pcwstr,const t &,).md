@@ -4,10 +4,10 @@ title: ID2D1Properties::SetValueByName(PCWSTR,const T &,)
 author: windows-sdk-content
 description: Sets the named property to the given value. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_setvaluebyname__pcwstr__const_t_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 50AC6CAF-16D6-4E10-8B9D-A91D5869D7E1
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,const T &,), ID2D1Properties::SetValueByName(PCWSTR,const T&), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname__pcwstr__const_t_
 ms.prod: windows-hardware
 ms.technology: windows-devices

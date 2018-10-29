@@ -4,10 +4,10 @@ title: "_StrTableA"
 author: windows-sdk-content
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablea.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: BCDD9AE4-6ADF-4018-A9C0-7924DE30B954
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows API], STRTABLE, STRTABLEA, STRTABLEA structure [Windows API], _StrTableA, _StrTableA structure [Windows API], advpub/LPSTRTABLEA, advpub/_StrTableA, winprog._strtablea"
 ms.prod: windows
 ms.technology: windows-sdk

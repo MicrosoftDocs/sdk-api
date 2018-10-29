@@ -7,7 +7,7 @@ old-location: automat\idispatch_getidsofnames.htm
 tech.root: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -159,7 +159,7 @@ When <b>GetIDsOfNames</b> is called with more than one name, the first name (<i>
 
 The same name may map to different DISPIDs, depending on context. For example, a name may have a DISPID when it is used as a member name with a particular interface, a different ID as a member of a different interface, and different mapping for each time it appears as a parameter.
 
-<b>GetIDsOfNames</b> is used when an <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> client binds to names at run time. To bind at compile time instead, an <b>IDispatch</b> client can map names to DISPIDs by using the type information interfaces described in <a href="https://msdn.microsoft.com/en-us/library/ms221442(v=VS.85).aspx">Type Description Interfaces</a>. This allows a client to bind to members at compile time and avoid calling <b>GetIDsOfNames</b> at run time. For a description of binding at compile time, see Type Description Interfaces. 
+<b>GetIDsOfNames</b> is used when an <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> client binds to names at run time. To bind at compile time instead, an <b>IDispatch</b> client can map names to DISPIDs by using the type information interfaces described in <a href="387D44B7-407B-44A9-9239-A4CB20E88CAC">Type Description Interfaces</a>. This allows a client to bind to members at compile time and avoid calling <b>GetIDsOfNames</b> at run time. For a description of binding at compile time, see Type Description Interfaces. 
 
 The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need case-sensitive name mapping should use type information interfaces to map names to DISPIDs, rather than call <b>GetIDsOfNames</b>.
 
@@ -170,9 +170,13 @@ The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need 
 
 The following code from the Lines sample file Lines.cpp implements the <b>GetIDsOfNames</b> member function for the CLine class. The ActiveX or OLE object uses the standard implementation, <a href="https://msdn.microsoft.com/720a0237-9c68-4252-9f66-43610d4be106">DispGetIDsOfNames</a>. This implementation relies on <b>DispGetIdsOfNames</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
 
-
-```cpp
-STDMETHODIMP 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP 
 CLine::GetIDsOfNames(
       REFIID riid,
       OLECHAR ** rgszNames,
@@ -181,29 +185,33 @@ CLine::GetIDsOfNames(
       DISPID * rgDispId)
 {
       return DispGetIDsOfNames(m_ptinfo, rgszNames, cNames, rgDispId);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following code might appear in an ActiveX client that calls <b>GetIDsOfNames</b> to get the DISPID of the <b>CLine</b><b>Color</b> property.
 
-
-```cpp
-HRESULT hresult;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hresult;
 IDispatch * pdisp = (IDispatch *)NULL;
 DISPID dispid;
 OLECHAR * szMember = "color";
 
 // Code that sets a pointer to the dispatch (pdisp) is omitted.
 
-hresult = pdisp->GetIDsOfNames(
+hresult = pdisp-&gt;GetIDsOfNames(
    IID_NULL,
-   &szMember,
+   &amp;szMember,
    1, LOCALE_SYSTEM_DEFAULT,
-   &dispid);
-```
-
-
+   &amp;dispid);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

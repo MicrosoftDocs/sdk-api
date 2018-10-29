@@ -7,7 +7,7 @@ old-location: ldap\ldap_result.htm
 tech.root: LDAP
 ms.assetid: e047fccc-a875-4360-be1b-3ac3dea15dd6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "_ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_result, ldap_result function [LDAP], winldap/ldap_result"
 ms.prod: windows-hardware
 ms.technology: windows-devices

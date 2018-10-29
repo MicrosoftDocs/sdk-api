@@ -7,7 +7,7 @@ old-location: base\systemtimetotzspecificlocaltimeex.htm
 tech.root: sysinfo
 ms.assetid: A4483E33-6D74-4194-BF85-51FF55F1BF9A
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SystemTimeToTzSpecificLocalTimeEx, SystemTimeToTzSpecificLocalTimeEx function, base.systemtimetotzspecificlocaltimeex, timezoneapi/SystemTimeToTzSpecificLocalTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

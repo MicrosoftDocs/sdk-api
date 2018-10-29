@@ -4,10 +4,10 @@ title: tagINITCOMMONCONTROLSEX
 author: windows-sdk-content
 description: Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the InitCommonControlsEx function.
 old-location: controls\INITCOMMONCONTROLSEX_4vvx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\initcommoncontrolsex.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPINITCOMMONCONTROLSEX, ICC_ANIMATE_CLASS, ICC_BAR_CLASSES, ICC_COOL_CLASSES, ICC_DATE_CLASSES, ICC_HOTKEY_CLASS, ICC_INTERNET_CLASSES, ICC_LINK_CLASS, ICC_LISTVIEW_CLASSES, ICC_NATIVEFNTCTL_CLASS, ICC_PAGESCROLLER_CLASS, ICC_PROGRESS_CLASS, ICC_STANDARD_CLASSES, ICC_TAB_CLASSES, ICC_TREEVIEW_CLASSES, ICC_UPDOWN_CLASS, ICC_USEREX_CLASSES, ICC_WIN95_CLASSES, INITCOMMONCONTROLSEX, INITCOMMONCONTROLSEX structure [Windows Controls], LPINITCOMMONCONTROLSEX, LPINITCOMMONCONTROLSEX structure pointer [Windows Controls], _win32_INITCOMMONCONTROLSEX_4vvx, _win32_INITCOMMONCONTROLSEX_4vvx_cpp, commctrl/INITCOMMONCONTROLSEX, commctrl/LPINITCOMMONCONTROLSEX, controls.INITCOMMONCONTROLSEX_4vvx, controls._win32_INITCOMMONCONTROLSEX_4vvx, tagINITCOMMONCONTROLSEX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx">InitCommonControlsEx</a> function. 
+Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://msdn.microsoft.com/a0ca2152-673e-4920-ae78-1421fdec1a05">InitCommonControlsEx</a> function. 
 
 
 ## -struct-fields
@@ -60,14 +60,14 @@ Carries information used to load common control classes from the dynamic-link li
 
 ### -field dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The size of the structure, in bytes. 
 
 
 ### -field dwICC
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The set of bit flags that indicate which common control classes will be loaded from the DLL. This can be a combination of the following values. 
 

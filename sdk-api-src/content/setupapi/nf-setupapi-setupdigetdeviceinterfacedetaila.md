@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinterfacedetail.htm
 tech.root: devinst
 ms.assetid: fb4963f1-0ed4-483d-9f39-dcbac493bf1d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: SetupDiGetDeviceInterfaceDetail, SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation], SetupDiGetDeviceInterfaceDetailA, SetupDiGetDeviceInterfaceDetailW, devinst.setupdigetdeviceinterfacedetail, di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml, setupapi/SetupDiGetDeviceInterfaceDetail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiGetDeviceInterfaceDetail</b> function returns details about a devi
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the interface for which to retrieve details. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the interface for which to retrieve details. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInterfaceData [in]

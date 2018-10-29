@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getcertificate.htm
 tech.root: seccrypto
 ms.assetid: ba8fc725-c376-4e66-8417-777ce13f2954
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, CR_OUT_CRLS, GetCertificate, GetCertificate method [Security], GetCertificate method [Security],CCertRequest object, GetCertificate method [Security],ICertRequest interface, GetCertificate method [Security],ICertRequest2 interface, GetCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCertificate method, ICertRequest.GetCertificate, ICertRequest2 interface [Security],GetCertificate method, ICertRequest2::GetCertificate, ICertRequest3 interface [Security],GetCertificate method, ICertRequest3::GetCertificate, ICertRequest::GetCertificate, certcli/ICertRequest2::GetCertificate, certcli/ICertRequest3::GetCertificate, certcli/ICertRequest::GetCertificate, security.icertrequest2_getcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-The <b>GetCertificate</b> method returns the certificate issued for the request as an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> certificate, or optionally packaged in a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">Public Key Cryptography Standards</a> (PKCS) #7 message that contains the complete certificate chain for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Services</a> server.
+The <b>GetCertificate</b> method returns the certificate issued for the request as an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate, or optionally packaged in a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">Public Key Cryptography Standards</a> (PKCS) #7 message that contains the complete certificate chain for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Services</a> server.
 
 
 ## -parameters
@@ -127,7 +127,7 @@ The following flags can be combined with the format flag.
 <td width="60%">
 Include complete certificate chain in the PKCS #7.
 
- If this flag is not specified, only the requested certificate, in <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> format, is returned.
+ If this flag is not specified, only the requested certificate, in <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> format, is returned.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Include complete certificate chain in the PKCS #7.
 </dl>
 </td>
 <td width="60%">
-Include <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation lists</a> (CRLs) in the PKCS #7.
+Include <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs) in the PKCS #7.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ For example, to retrieve a binary certificate with complete certificate chain in
 
 A pointer to the <b>BSTR</b> that contains the certificate, in the specified format.
 
-When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -162,7 +162,7 @@ When using this method, create a variable of <b>BSTR</b> type, set the variable 
 
 If the method sets *<i>pstrCertificate</i>  to the <b>BSTR</b> that contains the certificate for the request, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -172,19 +172,23 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 An application would call this method to retrieve the certificate issued by means of an earlier call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385054(v=VS.85).aspx">ICertRequest3::Submit</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385053(v=VS.85).aspx">ICertRequest3::RetrievePending</a>.
+<a href="https://msdn.microsoft.com/22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b">ICertRequest3::Submit</a> or 
+<a href="https://msdn.microsoft.com/07a9ac57-f90e-4c5c-b563-8aebbcf8f42e">ICertRequest3::RetrievePending</a>.
 
 
 #### Examples
 
 The following example shows retrieving a certificate.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certcli.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certcli.h&gt;
 
 HRESULT main()
 {
@@ -214,7 +218,7 @@ HRESULT main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ICertRequest,
-                          (void **)&pCertRequest);
+                          (void **)&amp;pCertRequest);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertRequest [%x]\n", hr);
@@ -226,10 +230,10 @@ HRESULT main()
     bstrCA = SysAllocString(L"server01\\myCAName");
     
     //  Retrieve the CA certificate.
-    hr = pCertRequest->GetCACertificate(FALSE,
+    hr = pCertRequest-&gt;GetCACertificate(FALSE,
                                         bstrCA,
                                         CR_OUT_BASE64,
-                                        &bstrCACert);
+                                        &amp;bstrCACert);
     if (FAILED(hr))
     {
         printf("Failed GetCACertificate [%x]\n", hr);
@@ -253,7 +257,7 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertRequest)
-        pCertRequest->Release();
+        pCertRequest-&gt;Release();
 
     //  Free COM resources.
     CoUninitialize();
@@ -261,10 +265,10 @@ error:
     return hr;
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -273,19 +277,19 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">CCertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">CCertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">ICertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385041(v=VS.85).aspx">ICertRequest2</a>
+<a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">ICertRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee373776(v=VS.85).aspx">ICertRequest3</a>
+<a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a>
  
 
  

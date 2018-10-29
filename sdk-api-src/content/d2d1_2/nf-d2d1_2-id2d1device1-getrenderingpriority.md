@@ -4,10 +4,10 @@ title: ID2D1Device1::GetRenderingPriority
 author: windows-sdk-content
 description: Retrieves the current rendering priority of the device.
 old-location: direct2d\id2d1device1_getrenderingpriority.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 204D74F1-3110-45F8-B034-15E3011F9D1F
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetRenderingPriority, GetRenderingPriority method [Direct2D], GetRenderingPriority method [Direct2D],ID2D1Device1 interface, ID2D1Device1 interface [Direct2D],GetRenderingPriority method, ID2D1Device1.GetRenderingPriority, ID2D1Device1::GetRenderingPriority, d2d1_2/ID2D1Device1::GetRenderingPriority, direct2d.id2d1device1_getrenderingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

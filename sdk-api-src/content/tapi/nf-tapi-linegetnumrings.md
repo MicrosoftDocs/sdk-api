@@ -4,10 +4,10 @@ title: lineGetNumRings function
 author: windows-sdk-content
 description: The lineGetNumRings function determines the number of rings an incoming call on the given address should ring prior to answering the call.
 old-location: tapi2\linegetnumrings.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 7aee6396-6045-4e7b-9df9-3729159ea4b2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_tapi2_linegetnumrings, lineGetNumRings, lineGetNumRings function [TAPI 2.2], tapi/lineGetNumRings, tapi2.linegetnumrings"
 ms.prod: windows-hardware
 ms.technology: windows-devices

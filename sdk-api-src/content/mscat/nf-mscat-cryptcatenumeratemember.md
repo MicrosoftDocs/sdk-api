@@ -7,7 +7,7 @@ old-location: security\cryptcatenumeratemember.htm
 tech.root: seccrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CryptCATEnumerateMember, CryptCATEnumerateMember function [Security], mscat/CryptCATEnumerateMember, security.cryptcatenumeratemember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,19 +90,23 @@ Do not free the returned pointer nor any of the members pointed to by the return
 
 The following pseudocode example shows how to use this function to enumerate all of the members of a catalog.
 
-
-```cpp
-CRYPTCATMEMBER *pMember = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CRYPTCATMEMBER *pMember = NULL;
 
 for(pMember = CryptCATEnumerateMember(hCatalog, pMember); 
     NULL != pMember; 
     pMember = CryptCATEnumerateMember(hCatalog, pMember))
 {
    // Use the catalog member.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

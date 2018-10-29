@@ -7,7 +7,7 @@ old-location: winrt\windowscreatestring.htm
 tech.root: WinRT
 ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
 ms.prod: windows-hardware
 ms.technology: windows-devices

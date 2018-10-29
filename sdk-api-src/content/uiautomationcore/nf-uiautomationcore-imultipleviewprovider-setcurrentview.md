@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IMultipleViewProvider_SetCurrentView.htm
 tech.root: WinAuto
 ms.assetid: dfa652be-b6b6-44e3-b06a-8ead56f17d2d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IMultipleViewProvider interface [Windows Accessibility],SetCurrentView method, IMultipleViewProvider.SetCurrentView, IMultipleViewProvider::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IMultipleViewProvider interface, uiauto.uiauto_IMultipleViewProvider_SetCurrentView, uiauto_IMultipleViewProvider_SetCurrentView, uiautomationcore/IMultipleViewProvider::SetCurrentView, winauto.uiauto_IMultipleViewProvider_SetCurrentView
 ms.prod: windows-hardware
 ms.technology: windows-devices

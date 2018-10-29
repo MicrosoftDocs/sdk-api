@@ -7,7 +7,7 @@ old-location: shell\SMDATA.htm
 tech.root: shell
 ms.assetid: 4690daa1-f935-4d0c-8b1f-0b9442fc78dc
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPSMDATA, SMDATA, SMDATA structure [Windows Shell], _win32_SMDATA, lPSMDATA, lPSMDATA structure pointer [Windows Shell], shell.SMDATA, shobjidl_core/SMDATA, shobjidl_core/lPSMDATA, tagSMDATA"
 ms.prod: windows
 ms.technology: windows-sdk

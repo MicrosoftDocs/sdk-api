@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_marginy.htm
 tech.root: tablet
 ms.assetid: 4b2e4ad4-55ab-4b12-8c42-7aa0186289d9
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MarginY property, IInkOverlay.MarginY, IInkOverlay.get_MarginY, IInkOverlay::MarginY, IInkOverlay::get_MarginY, IInkOverlay::put_MarginY, InkOverlay.get_MarginY, InkOverlay.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkOverlay interface, get_MarginY, msinkaut/IInkOverlay::MarginY, msinkaut/IInkOverlay::get_MarginY, msinkaut/IInkOverlay::put_MarginY, put_MarginY, tablet.inkoverlay_marginy
 ms.prod: windows-hardware
 ms.technology: windows-devices

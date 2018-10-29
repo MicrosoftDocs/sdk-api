@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_flip.htm
 tech.root: directdraw
 ms.assetid: 6c0c23e7-7567-4e07-9ba0-5e50b758f711
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DDFLIP_DONOTWAIT, DDFLIP_EVEN, DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, DDFLIP_INTERVAL4, DDFLIP_NOVSYNC, DDFLIP_ODD, DDFLIP_STEREO, DDFLIP_WAIT, Flip, Flip method [DirectDraw], Flip method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],Flip method, IDirectDrawSurface7.Flip, IDirectDrawSurface7::Flip, ddraw/IDirectDrawSurface7::Flip, directdraw.idirectdrawsurface7_flip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,13 @@ Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface 
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain. 
 
 
 
-
-#### - dwFlags [in]
+### -param arg2 [in]
 
 A combination of flags that specify flip options. The following flags are defined:
 
@@ -127,12 +121,6 @@ For use only when displaying video in an overlay surface. The new surface contai
 #### DDFLIP_WAIT
 
 Typically, if the flip cannot be set up because the state of the display hardware is not appropriate, the DDERR_WASSTILLDRAWING error returns immediately, and no flip occurs. Setting this flag causes <b>Flip</b> to continue trying to flip if it receives the DDERR_WASSTILLDRAWING error from the hardware abstraction layer (HAL). <b>Flip</b> does not return until the flipping operation has been successfully set up or another error, such as DDERR_SURFACEBUSY, is returned.
-
-
-#### - lpDDSurfaceTargetOverride [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain. 
-
 
 
 ## -returns

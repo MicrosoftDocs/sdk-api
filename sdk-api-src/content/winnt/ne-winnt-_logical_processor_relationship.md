@@ -7,7 +7,7 @@ old-location: base\logical_processor_relationship.htm
 tech.root: ProcThread
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, _LOGICAL_PROCESSOR_RELATIONSHIP, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
 ms.prod: windows
 ms.technology: windows-sdk

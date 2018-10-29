@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqstats.htm
 tech.root: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
 ms.prod: windows-hardware
 ms.technology: windows-devices

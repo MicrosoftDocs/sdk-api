@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_UpdateExternal.htm
 tech.root: shell
 ms.assetid: 2fda446d-8652-455b-9233-aa02f2a85e7f
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ITravelLog interface [Windows Shell],UpdateExternal method, ITravelLog.UpdateExternal, ITravelLog::UpdateExternal, UpdateExternal, UpdateExternal method [Windows Shell], UpdateExternal method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::UpdateExternal, shell.ITravelLog_UpdateExternal, zone_ITravelLog_UpdateExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Deprecated. Updates an entry that originated out of the current procedure through <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
+Deprecated. Updates an entry that originated out of the current procedure through <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08b
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an <a href="https://msdn.microsoft.com/library/Aa767949(v=VS.85).aspx">IHlinkBrowseContext</a> retrieved through <a href="https://msdn.microsoft.com/library/Aa767937(v=VS.85).aspx">IHlinkFrame::GetBrowseContext</a>.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an <a href="_inet_IHlinkBrowseContext_Interface_cpp">IHlinkBrowseContext</a> retrieved through <a href="_inet_IHlinkFrame_Interface_inet_IHlinkFrame_GetBrowseContext_Method_cpp">IHlinkFrame::GetBrowseContext</a>.
         
 
 

@@ -7,7 +7,7 @@ old-location: ldap\queryclientcert.htm
 tech.root: LDAP
 ms.assetid: c2788fb9-14db-41d2-9555-ae264f825121
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
 ms.prod: windows
 ms.technology: windows-sdk

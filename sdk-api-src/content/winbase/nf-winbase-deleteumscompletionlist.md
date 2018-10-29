@@ -7,7 +7,7 @@ old-location: base\deleteumscompletionlist.htm
 tech.root: ProcThread
 ms.assetid: 98124359-ddd1-468c-9f99-74dd3f631fa1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.deleteumscompletionlist, winbase/DeleteUmsCompletionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

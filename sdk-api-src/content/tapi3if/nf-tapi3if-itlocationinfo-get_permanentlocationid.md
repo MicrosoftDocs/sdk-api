@@ -4,10 +4,10 @@ title: ITLocationInfo::get_PermanentLocationID
 author: windows-sdk-content
 description: The get_PermanentLocationID method gets the permanent location identifier.
 old-location: tapi3\itlocationinfo_get_permanentlocationid.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 5dab6a20-6113-46ef-a5d2-855ac1befc1a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PermanentLocationID method, ITLocationInfo.get_PermanentLocationID, ITLocationInfo::get_PermanentLocationID, _tapi3_itlocationinfo_get_permanentlocationid, get_PermanentLocationID, get_PermanentLocationID method [TAPI 2.2], get_PermanentLocationID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_permanentlocationid, tapi3if/ITLocationInfo::get_PermanentLocationID
 ms.prod: windows-hardware
 ms.technology: windows-devices

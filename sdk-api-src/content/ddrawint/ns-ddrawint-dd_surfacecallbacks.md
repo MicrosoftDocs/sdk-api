@@ -7,7 +7,7 @@ old-location: display\dd_surfacecallbacks.htm
 tech.root: display
 ms.assetid: a363446e-a9f7-4b32-acc2-c369d3dfe8f3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: "*PDD_SURFACECALLBACKS, DD_SURFACECALLBACKS, DD_SURFACECALLBACKS structure [Display Devices], PDD_SURFACECALLBACKS, PDD_SURFACECALLBACKS structure pointer [Display Devices], ddrawint/DD_SURFACECALLBACKS, ddrawint/PDD_SURFACECALLBACKS, ddstrcts_868cb884-02fc-4df4-a3ec-1fde158e42b0.xml, display.dd_surfacecallbacks"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ Points to the driver-supplied <a href="https://msdn.microsoft.com/4ce2e967-7b4a-
 
 ### -field SetClipList
 
-Points to the driver-supplied <a href="https://msdn.microsoft.com/library/Ff550300(v=VS.85).aspx">DdSetClipList</a> surface callback.
+Points to the driver-supplied <a href="display.ddsetcliplist">DdSetClipList</a> surface callback.
 
 
 ### -field Lock

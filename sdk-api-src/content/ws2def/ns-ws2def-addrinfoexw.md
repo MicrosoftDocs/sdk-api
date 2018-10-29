@@ -7,7 +7,7 @@ old-location: winsock\addrinfoex.htm
 tech.root: WinSock
 ms.assetid: 1077e03d-a1a4-45ab-a5d2-29a67e03f5df
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPADDRINFOEXW, *PADDRINFOEXW, ADDRINFOEX, ADDRINFOEX structure [Winsock], ADDRINFOEXW, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, PADDRINFOEX, PADDRINFOEX structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex, addrinfoex structure [Winsock], addrinfoexA, addrinfoexW, winsock.addrinfoex, ws2def/ADDRINFOEX, ws2def/PADDRINFOEX, ws2def/addrinfoexA, ws2def/addrinfoexW, ws2tcpip/ADDRINFOEX, ws2tcpip/PADDRINFOEX, ws2tcpip/addrinfoexA, ws2tcpip/addrinfoexW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -554,9 +554,13 @@ Upon a successful call to <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd
 
 The following example demonstrates the use of the <b>addrinfoex</b> structure.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #ifndef UNICODE
 #define UNICODE
 #endif
@@ -565,10 +569,10 @@ The following example demonstrates the use of the <b>addrinfoex</b> structure.
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <windows.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Ws2_32.lib")
 
@@ -597,7 +601,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
     // Validate the parameters
     if (argc != 3) {
-        wprintf(L"usage: %ws <hostname> <servicename>\n", argv[0]);
+        wprintf(L"usage: %ws &lt;hostname&gt; &lt;servicename&gt;\n", argv[0]);
         wprintf(L"       provides protocol-independent translation\n");
         wprintf(L"       from a host name to an IP address\n");
         wprintf(L"%ws example usage\n", argv[0]);
@@ -605,7 +609,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -613,7 +617,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 //--------------------------------
 // Setup the hints address info structure
 // which is passed to the GetAddrInfoW() function
-    memset(&hints, 0, sizeof (hints));
+    memset(&amp;hints, 0, sizeof (hints));
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
@@ -628,7 +632,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 // of ADDRINFOEX structures containing response
 // information about the host
     dwRetval = GetAddrInfoEx(argv[1], argv[2],
-                             dwNamespace, lpNspid, &hints, &result,
+                             dwNamespace, lpNspid, &amp;hints, &amp;result,
                              NULL, NULL, NULL, NULL);
 
     if (dwRetval != 0) {
@@ -639,30 +643,30 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     wprintf(L"GetAddrInfoEx returned success\n");
 
     // Retrieve each address and print out the hex bytes
-    for (ptr = result; ptr != NULL; ptr = ptr->ai_next) {
+    for (ptr = result; ptr != NULL; ptr = ptr-&gt;ai_next) {
 
         wprintf(L"GetAddrInfoEx response %d\n", i++);
-        wprintf(L"\tFlags: 0x%x\n", ptr->ai_flags);
+        wprintf(L"\tFlags: 0x%x\n", ptr-&gt;ai_flags);
         wprintf(L"\tFamily: ");
-        switch (ptr->ai_family) {
+        switch (ptr-&gt;ai_family) {
         case AF_UNSPEC:
             wprintf(L"Unspecified\n");
             break;
         case AF_INET:
             wprintf(L"AF_INET (IPv4)\n");
             // the InetNtop function is available on Windows Vista and later
-            sockaddr_ipv4 = (struct sockaddr_in *) ptr->ai_addr;
+            sockaddr_ipv4 = (struct sockaddr_in *) ptr-&gt;ai_addr;
             wprintf(L"\tIPv4 address %ws\n",
-                    InetNtop(AF_INET, &sockaddr_ipv4->sin_addr, ipstringbuffer,
+                    InetNtop(AF_INET, &amp;sockaddr_ipv4-&gt;sin_addr, ipstringbuffer,
                              46));
 
             // We could also use the WSAAddressToString function
-            // sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
+            // sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
             // The buffer length is changed by each call to WSAAddresstoString
             // So we need to set it for each iteration through the loop for safety
             // ipbufferlength = 46;
-            // iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
-            //    ipstringbuffer, &ipbufferlength );
+            // iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
+            //    ipstringbuffer, &amp;ipbufferlength );
             // if (iRetval)
             //    wprintf(L"WSAAddressToString failed with %u\n", WSAGetLastError() );
             // else    
@@ -671,29 +675,29 @@ int __cdecl wmain(int argc, wchar_t ** argv)
         case AF_INET6:
             wprintf(L"AF_INET6 (IPv6)\n");
             // the InetNtop function is available on Windows Vista and later
-            sockaddr_ipv6 = (struct sockaddr_in6 *) ptr->ai_addr;
+            sockaddr_ipv6 = (struct sockaddr_in6 *) ptr-&gt;ai_addr;
             wprintf(L"\tIPv6 address %ws\n",
-                    InetNtop(AF_INET6, &sockaddr_ipv6->sin6_addr,
+                    InetNtop(AF_INET6, &amp;sockaddr_ipv6-&gt;sin6_addr,
                              ipstringbuffer, 46));
 
             // We could also use WSAAddressToString which also returns the scope ID
-            // sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
+            // sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
             // The buffer length is changed by each call to WSAAddresstoString
             // So we need to set it for each iteration through the loop for safety
             // ipbufferlength = 46;
-            //iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
-            //    ipstringbuffer, &ipbufferlength );
+            //iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
+            //    ipstringbuffer, &amp;ipbufferlength );
             //if (iRetval)
             //    wprintf(L"WSAAddressToString failed with %u\n", WSAGetLastError() );
             //else    
             //    wprintf(L"\tIPv6 address %ws\n", ipstringbuffer);
             break;
         default:
-            wprintf(L"Other %ld\n", ptr->ai_family);
+            wprintf(L"Other %ld\n", ptr-&gt;ai_family);
             break;
         }
         wprintf(L"\tSocket type: ");
-        switch (ptr->ai_socktype) {
+        switch (ptr-&gt;ai_socktype) {
         case 0:
             wprintf(L"Unspecified\n");
             break;
@@ -713,11 +717,11 @@ int __cdecl wmain(int argc, wchar_t ** argv)
             wprintf(L"SOCK_SEQPACKET (pseudo-stream packet)\n");
             break;
         default:
-            wprintf(L"Other %ld\n", ptr->ai_socktype);
+            wprintf(L"Other %ld\n", ptr-&gt;ai_socktype);
             break;
         }
         wprintf(L"\tProtocol: ");
-        switch (ptr->ai_protocol) {
+        switch (ptr-&gt;ai_protocol) {
         case 0:
             wprintf(L"Unspecified\n");
             break;
@@ -728,11 +732,11 @@ int __cdecl wmain(int argc, wchar_t ** argv)
             wprintf(L"IPPROTO_UDP (UDP) \n");
             break;
         default:
-            wprintf(L"Other %ld\n", ptr->ai_protocol);
+            wprintf(L"Other %ld\n", ptr-&gt;ai_protocol);
             break;
         }
-        wprintf(L"\tLength of this sockaddr: %d\n", ptr->ai_addrlen);
-        wprintf(L"\tCanonical name: %s\n", ptr->ai_canonname);
+        wprintf(L"\tLength of this sockaddr: %d\n", ptr-&gt;ai_addrlen);
+        wprintf(L"\tCanonical name: %s\n", ptr-&gt;ai_canonname);
     }
 
     FreeAddrInfoEx(result);
@@ -741,10 +745,10 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <b>ADDRINFOEX</b> and <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a>, respectively.</div>
 <div> </div>
 

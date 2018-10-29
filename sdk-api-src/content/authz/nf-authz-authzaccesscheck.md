@@ -7,7 +7,7 @@ old-location: security\authzaccesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: 633c2a73-169c-4e0c-abb6-96c360bd63cf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,7 +195,7 @@ For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: intl\script_item.htm
 tech.root: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, tag_SCRIPT_ITEM, usp10/SCRIPT_ITEM
 ms.prod: windows
 ms.technology: windows-sdk

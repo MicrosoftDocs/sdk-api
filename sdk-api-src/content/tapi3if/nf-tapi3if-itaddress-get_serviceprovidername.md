@@ -4,10 +4,10 @@ title: ITAddress::get_ServiceProviderName
 author: windows-sdk-content
 description: The get_ServiceProviderName method gets the name of the Telephony Service Provider (TSP) that supports this address:\_for example, Unimdm.tsp for the Unimodem service provider or H323.tsp for the H323 service provider.
 old-location: tapi3\itaddress_get_serviceprovidername.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: fa49d256-58e0-4d7e-a121-387a3a704519
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_ServiceProviderName method, ITAddress.get_ServiceProviderName, ITAddress::get_ServiceProviderName, _tapi3_itaddress_get_serviceprovidername, get_ServiceProviderName, get_ServiceProviderName method [TAPI 2.2], get_ServiceProviderName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_serviceprovidername, tapi3if/ITAddress::get_ServiceProviderName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ No service provider was found that supports the current address.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 You can retrieve the name of the provider in a TSP-dependent format using 

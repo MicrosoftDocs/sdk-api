@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_digital_sign_cert_pvk_info.htm
 tech.root: seccrypto
 ms.assetid: 0316ed0b-d4e5-4102-9ab0-637e96c7d9f5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV, PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, security.cryptui_wiz_digital_sign_cert_pvk_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</b> structure contains information about the PVK file that contains the certificates used by the <a href="https://msdn.microsoft.com/en-us/library/Aa380292(v=VS.85).aspx">CryptUIWizDigitalSign</a> function.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</b> structure contains information about the PVK file that contains the certificates used by the <a href="https://msdn.microsoft.com/1d01523e-d47b-49be-82c8-5e98f97be800">CryptUIWizDigitalSign</a> function.
 
 
 ## -struct-fields
@@ -105,12 +105,12 @@ The entity is a PVK provider.
 
 ### -field pPvkFileInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380682(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/0e737661-2cc3-47be-ab32-0efbc18fefbd">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
 
 
 ### -field pPvkProvInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa381420(v=VS.85).aspx">CRYPT_KEY_PROV_INFO</a> structure that contains information about the PVK provider that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV</b> is specified for the <b>dwPvkChoice</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure that contains information about the PVK provider that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV</b> is specified for the <b>dwPvkChoice</b> member.
 
 
 ## -see-also
@@ -118,7 +118,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa381420(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380292(v=VS.85).aspx">CryptUIWizDigitalSign</a>
+<a href="https://msdn.microsoft.com/1d01523e-d47b-49be-82c8-5e98f97be800">CryptUIWizDigitalSign</a>
  
 
  

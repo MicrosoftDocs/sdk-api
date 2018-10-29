@@ -7,7 +7,7 @@ old-location: gdi\logfont.htm
 tech.root: gdi
 ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPLOGFONTW, *NPLOGFONTW, *PLOGFONTW, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, tagLOGFONTW, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,14 +93,18 @@ This mapping occurs when the font is used for the first time.
 
 For the MM_TEXT mapping mode, you can use the following formula to specify a height for a font with a specified point size:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lfWidth
 

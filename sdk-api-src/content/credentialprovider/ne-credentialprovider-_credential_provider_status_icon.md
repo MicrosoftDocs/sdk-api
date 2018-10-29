@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_STATUS_ICON.htm
 tech.root: shell
 ms.assetid: 2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CPSI_ERROR, CPSI_NONE, CPSI_SUCCESS, CPSI_WARNING, CREDENTIAL_PROVIDER_STATUS_ICON, CREDENTIAL_PROVIDER_STATUS_ICON enumeration [Windows Shell], _CREDENTIAL_PROVIDER_STATUS_ICON, _shell_CREDENTIAL_PROVIDER_STATUS_ICON, credentialprovider/CPSI_ERROR, credentialprovider/CPSI_NONE, credentialprovider/CPSI_SUCCESS, credentialprovider/CPSI_WARNING, credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON, shell.CREDENTIAL_PROVIDER_STATUS_ICON
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Reserved.
 
 <b>CREDENTIAL_PROVIDER_STATUS_ICON</b> is not used starting in Windows 10.
 
-As part of <a href="https://msdn.microsoft.com/en-us/library/Bb776030(v=VS.85).aspx">ReportResult</a>, a credential provider may specify a status icon to display. It is important to not that only Logon UI calls <b>ReportResult</b>, Credential UI does not.
+As part of <a href="https://msdn.microsoft.com/13d6dda7-4a4f-45bf-af91-72f80497b9f7">ReportResult</a>, a credential provider may specify a status icon to display. It is important to not that only Logon UI calls <b>ReportResult</b>, Credential UI does not.
 
 
 

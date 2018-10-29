@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_getcurrentimage.htm
 tech.root: DirectShow
 ms.assetid: dddba9a5-be25-4dc4-9d91-eaff78d2405d
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl9.GetCurrentImage, IVMRWindowlessControl9::GetCurrentImage, IVMRWindowlessControl9GetCurrentImage, dshow.ivmrwindowlesscontrol9_getcurrentimage, vmr9/IVMRWindowlessControl9::GetCurrentImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,11 +121,15 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BYTE *lpDib = NULL;
-hr = pWindowlessControl->GetCurrentImage(&lpDib);
+hr = pWindowlessControl-&gt;GetCurrentImage(&amp;lpDib);
 if (SUCCEEDED(hr))
 {
     BITMAPINFOHEADER  *pBMIH = (BITMAPINFOHEADER*) lpDib;
@@ -133,10 +137,10 @@ if (SUCCEEDED(hr))
     CoTaskMemFree(lpDib);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

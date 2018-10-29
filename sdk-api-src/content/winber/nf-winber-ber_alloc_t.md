@@ -7,7 +7,7 @@ old-location: ldap\ber_alloc_t.htm
 tech.root: LDAP
 ms.assetid: 2a6fd54a-5ef7-49e3-98dd-da26bd98f89b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "_ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.ber__alloc__t, ldap.ber_alloc_t, winber/ber_alloc_t"
 ms.prod: windows-hardware
 ms.technology: windows-devices

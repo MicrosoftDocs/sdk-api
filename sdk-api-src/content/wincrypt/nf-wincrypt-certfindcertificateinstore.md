@@ -7,7 +7,7 @@ old-location: security\certfindcertificateinstore.htm
 tech.root: seccrypto
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -532,11 +532,15 @@ The following example shows finding a certificate context in the certificate sto
 
 For another example that uses this function, see <a href="https://msdn.microsoft.com/5349222f-ad68-477c-8712-fde16e68f600">Example C Program: Collection and Sibling Certificate Store Operations</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 #pragma comment(lib, "crypt32.lib")
 
 #define MY_ENCODING_TYPE  (PKCS_7_ASN_ENCODING | X509_ASN_ENCODING)
@@ -607,10 +611,10 @@ if(hSystemStore)
     CertCloseStore(
         hSystemStore, 
         CERT_CLOSE_STORE_CHECK_FLAG);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -651,7 +655,7 @@ if(hSystemStore)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

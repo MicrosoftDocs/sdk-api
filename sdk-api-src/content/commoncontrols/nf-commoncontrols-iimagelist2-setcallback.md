@@ -4,10 +4,10 @@ title: IImageList2::SetCallback
 author: windows-sdk-content
 description: Sets an image list callback.
 old-location: controls\IImageList2_SetCallback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setcallback.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: IImageList2 interface [Windows Controls],SetCallback method, IImageList2.SetCallback, IImageList2::SetCallback, SetCallback, SetCallback method [Windows Controls], SetCallback method [Windows Controls],IImageList2 interface, _shell_IImageList2_SetCallback, _shell_IImageList2_SetCallback_cpp, commoncontrols/IImageList2::SetCallback, controls.IImageList2_SetCallback, controls._shell_IImageList2_SetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

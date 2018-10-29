@@ -4,10 +4,10 @@ title: EventDescOrKeyword function
 author: windows-sdk-content
 description: Adds another keyword to the event descriptor.
 old-location: etw\eventdescorkeyword_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/26/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inktransform_edx.htm
 tech.root: tablet
 ms.assetid: f2e6fabc-4a8a-4225-b518-438e1d0ca196
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IInkTransform interface [Tablet PC],eDx property, IInkTransform.eDx, IInkTransform.put_eDx, IInkTransform::eDx, IInkTransform::get_eDx, IInkTransform::put_eDx, InkTransform.get_eDx, InkTransform.put_eDx, eDx property [Tablet PC], eDx property [Tablet PC],IInkTransform interface, f2e6fabc-4a8a-4225-b518-438e1d0ca196, get_eDx, msinkaut/IInkTransform::eDx, msinkaut/IInkTransform::get_eDx, msinkaut/IInkTransform::put_eDx, put_eDx, tablet.inktransform_edx
 ms.prod: windows-hardware
 ms.technology: windows-devices

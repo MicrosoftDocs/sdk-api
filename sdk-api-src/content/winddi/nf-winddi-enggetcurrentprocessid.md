@@ -7,7 +7,7 @@ old-location: display\enggetcurrentprocessid.htm
 tech.root: display
 ms.assetid: 63ed7f38-6874-4d33-80e4-fdd00175e039
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: EngGetCurrentProcessId, EngGetCurrentProcessId function [Display Devices], display.enggetcurrentprocessid, gdifncs_073e5c03-16d4-4257-bf0a-7ea183beea9d.xml, winddi/EngGetCurrentProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices

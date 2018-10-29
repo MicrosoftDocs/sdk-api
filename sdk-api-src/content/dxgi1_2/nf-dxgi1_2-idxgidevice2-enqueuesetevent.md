@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice2_enqueuesetevent.htm
 tech.root: direct3ddxgi
 ms.assetid: CECF3ED6-A025-48C4-A7E2-971B86A262F0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent method [DXGI],IDXGIDevice2 interface, IDXGIDevice2 interface [DXGI],EnqueueSetEvent method, IDXGIDevice2.EnqueueSetEvent, IDXGIDevice2::EnqueueSetEvent, direct3ddxgi.idxgidevice2_enqueuesetevent, dxgi1_2/IDXGIDevice2::EnqueueSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,16 +89,20 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
 
 After an application calls <b>EnqueueSetEvent</b>, it  can immediately call the <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a> function to put itself to sleep until rendering commands complete.
 
-You cannot use <b>EnqueueSetEvent</b> to determine work completion that is associated with presentation (<a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>); instead, we recommend that you use <a href="https://msdn.microsoft.com/en-us/library/Bb174573(v=VS.85).aspx">IDXGISwapChain::GetFrameStatistics</a>.
+You cannot use <b>EnqueueSetEvent</b> to determine work completion that is associated with presentation (<a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a>); instead, we recommend that you use <a href="https://msdn.microsoft.com/c02b9e3b-5d59-4ed2-b373-2097c0e46f70">IDXGISwapChain::GetFrameStatistics</a>.
 
 
 #### Examples
 
 The following example code shows how to use <b>EnqueueSetEvent</b>.
 
-
-```
-void BlockingFinish( IDXGIDevice2* pDevice ) 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void BlockingFinish( IDXGIDevice2* pDevice ) 
 {
     // Create a manual-reset event object. 
     hEvent = CreateEvent( 
@@ -114,7 +118,7 @@ void BlockingFinish( IDXGIDevice2* pDevice )
         return;
     }
 
-    pDevice->EnqueueSetEvent(hEvent);    
+    pDevice-&gt;EnqueueSetEvent(hEvent);    
 
     DWORD dwWaitResult = WaitForSingleObject( 
         hEvent, // event handle
@@ -135,10 +139,10 @@ void BlockingFinish( IDXGIDevice2* pDevice )
 
     CloseHandle(hEvent);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

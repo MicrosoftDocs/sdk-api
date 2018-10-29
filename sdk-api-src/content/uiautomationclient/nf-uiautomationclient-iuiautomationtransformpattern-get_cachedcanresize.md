@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanResize.htm
 tech.root: WinAuto
 ms.assetid: 2059daae-af25-4226-9a4d-a63e75c9ad14
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CachedCanResize property [Windows Accessibility], CachedCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanResize property, IUIAutomationTransformPattern.CachedCanResize, IUIAutomationTransformPattern.get_CachedCanResize, IUIAutomationTransformPattern::CachedCanResize, IUIAutomationTransformPattern::get_CachedCanResize, get_CachedCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanResize, uiauto_IUIAutomationTransformPattern_CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize, winauto.uiauto_IUIAutomationTransformPattern_CachedCanResize
 ms.prod: windows-hardware
 ms.technology: windows-devices

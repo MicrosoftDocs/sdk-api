@@ -7,7 +7,7 @@ old-location: mf\mfoffset.htm
 tech.root: medfound
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], _MFOffset, e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,19 +80,23 @@ The value of the number is <b>value</b> + (<b>fract</b> / 65536.0f).
 
 #### Examples
 
-
-```cpp
-MFOffset MakeOffset(float v)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MFOffset MakeOffset(float v)
 {
     MFOffset offset;
     offset.value = short(v);
     offset.fract = WORD(65536 * (v-offset.value));
     return offset;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

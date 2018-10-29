@@ -7,7 +7,7 @@ old-location: shell\IFrameworkInputPaneHandler_Showing.htm
 tech.root: shell
 ms.assetid: E7CE2808-0146-4704-B1DA-1DDE691E946E
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IFrameworkInputPaneHandler interface [Windows Shell],Showing method, IFrameworkInputPaneHandler.Showing, IFrameworkInputPaneHandler::Showing, Showing, Showing method [Windows Shell], Showing method [Windows Shell],IFrameworkInputPaneHandler interface, shell.IFrameworkInputPaneHandler_Showing, shobjidl_core/IFrameworkInputPaneHandler::Showing
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackactivationcontext.htm
 tech.root: ProcThread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

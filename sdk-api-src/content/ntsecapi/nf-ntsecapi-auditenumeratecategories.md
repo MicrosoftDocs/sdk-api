@@ -7,7 +7,7 @@ old-location: security\auditenumeratecategories_func.htm
 tech.root: SecAuthZ
 ms.assetid: bcfdb24b-182e-4845-95c0-a210915435ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AuditEnumerateCategories, AuditEnumerateCategories function [Security], ntsecapi/AuditEnumerateCategories, security.auditenumeratecategories_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

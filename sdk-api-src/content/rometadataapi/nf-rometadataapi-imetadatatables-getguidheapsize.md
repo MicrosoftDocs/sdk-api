@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getguidheapsize.htm
 tech.root: WinRT
 ms.assetid: 56b0f15f-caf3-44e0-8cec-7ca3f2edb74d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetGuidHeapSize, GetGuidHeapSize method [Windows Runtime], GetGuidHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuidHeapSize method, IMetaDataTables.GetGuidHeapSize, IMetaDataTables::GetGuidHeapSize, rometadataapi/IMetaDataTables::GetGuidHeapSize, winrt.imetadatatables_getguidheapsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

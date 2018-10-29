@@ -7,7 +7,7 @@ old-location: intl\getcpinfo.htm
 tech.root: Intl
 ms.assetid: f7401cd5-d0ed-49b1-b8fc-dda8df99e6b6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetCPInfo, GetCPInfo function [Internationalization for Windows Applications], _win32_GetCPInfo, intl.getcpinfo, winnls/GetCPInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

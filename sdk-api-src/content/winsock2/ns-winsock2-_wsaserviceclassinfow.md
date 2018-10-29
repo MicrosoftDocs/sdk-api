@@ -7,7 +7,7 @@ old-location: winsock\wsaserviceclassinfo_2.htm
 tech.root: WinSock
 ms.assetid: 02422c24-34a6-4e34-a795-66b0b687ac44
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPWSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW structure pointer [Winsock], WSASERVICECLASSINFO, WSASERVICECLASSINFO structure [Winsock], WSASERVICECLASSINFOA, WSASERVICECLASSINFOW, _WSAServiceClassInfoW, _win32_wsaserviceclassinfo_2, winsock.wsaserviceclassinfo_2, winsock2/PWSASERVICECLASSINFOW, winsock2/WSASERVICECLASSINFO, winsock2/WSASERVICECLASSINFOA, winsock2/WSASERVICECLASSINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

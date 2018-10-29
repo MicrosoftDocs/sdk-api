@@ -4,10 +4,10 @@ title: IRichEditOle::GetLinkCount
 author: windows-sdk-content
 description: Returns the number of objects in a rich edit control that are links.
 old-location: controls\IRichEditOle_GetLinkCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetlinkcount.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetLinkCount, GetLinkCount method [Windows Controls], GetLinkCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetLinkCount method, IRichEditOle.GetLinkCount, IRichEditOle::GetLinkCount, _win32_IRichEditOle_GetLinkCount, _win32_IRichEditOle_GetLinkCount_cpp, controls.IRichEditOle_GetLinkCount, controls._win32_IRichEditOle_GetLinkCount, richole/IRichEditOle::GetLinkCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ This method returns the number of links.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
  
 
  

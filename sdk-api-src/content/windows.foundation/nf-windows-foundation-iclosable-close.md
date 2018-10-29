@@ -7,7 +7,7 @@ old-location: winrt\iclosable_close.htm
 tech.root: WinRT
 ms.assetid: B08161D3-01D9-4782-A3FA-EAD15DA8B7D9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IClosable interface, IClosable interface [Windows Runtime],Close method, IClosable.Close, IClosable.IClosable, IClosable::Close, IClosable::IClosable, windows/IClosable::Close, winrt.iclosable_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

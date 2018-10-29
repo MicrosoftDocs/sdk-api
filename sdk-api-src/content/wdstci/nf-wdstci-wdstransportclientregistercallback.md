@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientregistercallback.htm
 tech.root: Wds
 ms.assetid: e3c809c4-5681-4979-8633-bb8d3dbde35b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WdsTransportClientRegisterCallback, WdsTransportClientRegisterCallback function [Windows Deployment Services], wds.wdstransportclientregistercallback, wdstci/WdsTransportClientRegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_begin_frame_crypto_session.htm
 tech.root: medfound
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, mf.d3d11_video_decoder_begin_frame_crypto_session
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides data to the <a href="https://msdn.microsoft.com/en-us/library/Hh447705(v=VS.85).aspx">ID3D11VideoContext::DecoderBeginFrame</a> method.
+Provides data to the <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69-A183C30E36B7">ID3D11VideoContext::DecoderBeginFrame</a> method.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Provides data to the <a href="https://msdn.microsoft.com/en-us/library/Hh447705(
 
 ### -field pCryptoSession
 
-A pointer to the ID3D11CryptoSession interface.  To get this pointer, call <a href="https://msdn.microsoft.com/en-us/library/Dd318827(v=VS.85).aspx">ID3D11VideoDevice1::CreateCryptoSession</a>.
+A pointer to the ID3D11CryptoSession interface.  To get this pointer, call <a href="https://msdn.microsoft.com/1c0e3aa4-94d5-4398-a6c0-5466a437162d">ID3D11VideoDevice1::CreateCryptoSession</a>.
 
 
 ### -field BlobSize
@@ -101,7 +101,7 @@ The definition of this buffer is dependent on the implementation of the secure e
 
 
 
-This structure is passed in the <i>pContentKey</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Hh447705(v=VS.85).aspx">ID3D11VideoContext::DecoderBeginFrame</a> function when <a href="https://msdn.microsoft.com/en-us/library/Dn894125(v=VS.85).aspx">D3D11_DECODER_ENCRYPTION_HW_CENC</a>  is specified in the <b>guidConfigBitstreamEncryption</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh447643(v=VS.85).aspx">D3D11_VIDEO_DECODER_CONFIG</a> structure when creating the video decoder interface.
+This structure is passed in the <i>pContentKey</i> parameter of the <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69-A183C30E36B7">ID3D11VideoContext::DecoderBeginFrame</a> function when <a href="https://msdn.microsoft.com/CF2F3058-328A-4128-B5C6-29723B49AB1E">D3D11_DECODER_ENCRYPTION_HW_CENC</a>  is specified in the <b>guidConfigBitstreamEncryption</b> member of the <a href="https://msdn.microsoft.com/AB963FAD-F16C-47F6-8C78-FF4C234FBC60">D3D11_VIDEO_DECODER_CONFIG</a> structure when creating the video decoder interface.
 
 
 
@@ -111,7 +111,7 @@ This structure is passed in the <i>pContentKey</i> parameter of the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

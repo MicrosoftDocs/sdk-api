@@ -4,10 +4,10 @@ title: GetThemeSysInt function
 author: windows-sdk-content
 description: Retrieves the value of a system int.
 old-location: controls\GetThemeSysInt.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

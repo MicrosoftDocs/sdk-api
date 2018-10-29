@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getstreamcaps.htm
 tech.root: DirectShow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetStreamCaps method, IAMStreamConfig.GetStreamCaps, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -192,14 +192,18 @@ On some compression filters, this method fails if the filter's input pin is not 
 
 The following example retrieves the first supported format (index zero) on a video output pin and then sets this format on the pin.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 int iCount, iSize;
 BYTE *pSCC = NULL;
 AM_MEDIA_TYPE *pmt;
 
-hr = pConfig->GetNumberOfCapabilities(&iCount, &iSize);
+hr = pConfig-&gt;GetNumberOfCapabilities(&amp;iCount, &amp;iSize);
 
 pSCC = new BYTE[iSize];
 if (pSCC == NULL)
@@ -208,13 +212,13 @@ if (pSCC == NULL)
 }
 
 // Get the first format.
-hr = pConfig->GetStreamCaps(0, &pmt, pSCC));
+hr = pConfig-&gt;GetStreamCaps(0, &amp;pmt, pSCC));
 if (hr == S_OK)
 {
     // TODO: Examine the format. If it's not suitable for some
     // reason, call GetStreamCaps with the next index value (up
     // to iCount). Otherwise, set the format:
-    hr = pConfig->SetFormat(pmt);
+    hr = pConfig-&gt;SetFormat(pmt);
     if (FAILED(hr))
     {
         // TODO: Error handling.
@@ -222,10 +226,10 @@ if (hr == S_OK)
     DeleteMediaType(pmt);
 }
 delete [] pSCC;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

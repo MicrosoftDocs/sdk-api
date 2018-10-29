@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getprivatedata.htm
 tech.root: directdraw
 ms.assetid: f8c0c882-329f-4cce-8cd0-ff71c18b1716
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetPrivateData, GetPrivateData method [DirectDraw], GetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPrivateData method, IDirectDrawSurface7.GetPrivateData, IDirectDrawSurface7::GetPrivateData, ddraw/IDirectDrawSurface7::GetPrivateData, directdraw.idirectdrawsurface7_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Copies the private data that is associated with this surface to a provided buffe
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - guidTag [in]
+### -param arg1 [in]
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be retrieved.
 
 
-#### - lpBuffer [out]
+### -param arg2 [out]
 
 A pointer to a previously allocated buffer that receives the requested private data if the call succeeds. The application that calls this method must allocate and release this buffer.
 
 
-#### - lpcbBufferSize [in, out]
+### -param arg3 [in, out]
 
 A pointer to a variable that contains the size value of the buffer at <i>lpBuffer</i>, in bytes. If this value is less than the actual size of the private data (such as 0), <b>GetPrivateData</b> sets the variable to the required buffer size, and then returns DDERR_MOREDATA.
 

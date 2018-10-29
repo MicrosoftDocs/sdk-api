@@ -7,7 +7,7 @@ old-location: base\localfiletimetofiletime.htm
 tech.root: sysinfo
 ms.assetid: 491e4724-8e6f-4155-b427-15cd7968e2da
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_localfiletimetofiletime, base.localfiletimetofiletime, fileapi/LocalFileTimeToFileTime, winbase/LocalFileTimeToFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

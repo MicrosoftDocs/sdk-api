@@ -7,7 +7,7 @@ old-location: automat\querypathofregtypelib.htm
 tech.root: automat
 ms.assetid: a71dc182-2fbf-48bd-9c9a-c662b9b0a6ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: QueryPathOfRegTypeLib, QueryPathOfRegTypeLib function [Automation], _oa96_QueryPathOfRegTypeLib, automat.querypathofregtypelib, oleauto/QueryPathOfRegTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices

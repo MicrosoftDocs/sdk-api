@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiongaussianblureffect_setbordermode.htm
 tech.root: directcomp
 ms.assetid: 34A96D63-E6F3-48F3-8105-A7E30C1D4E7D
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetBorderMode method, IDCompositionGaussianBlurEffect.SetBorderMode, IDCompositionGaussianBlurEffect::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetBorderMode, directcomp.idcompositiongaussianblureffect_setbordermode
 ms.prod: windows-hardware
 ms.technology: windows-devices

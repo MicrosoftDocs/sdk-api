@@ -7,7 +7,7 @@ old-location: hid\keyboard_indicator_translation.htm
 tech.root: hid
 ms.assetid: 7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/26/2018
 ms.keywords: "*PKEYBOARD_INDICATOR_TRANSLATION, KEYBOARD_INDICATOR_TRANSLATION, KEYBOARD_INDICATOR_TRANSLATION structure [Human Input Devices], PKEYBOARD_INDICATOR_TRANSLATION, PKEYBOARD_INDICATOR_TRANSLATION structure pointer [Human Input Devices], _KEYBOARD_INDICATOR_TRANSLATION, hid.keyboard_indicator_translation, kref_937bedf9-89bf-4db8-ad4d-2e8354a163f6.xml, ntddkbd/KEYBOARD_INDICATOR_TRANSLATION, ntddkbd/PKEYBOARD_INDICATOR_TRANSLATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,15 +67,19 @@ Specifies the number of elements in the <b>IndicatorList</b> array.
 
 Specifies a device-specific, variable-length array of INDICATOR_LIST structures.
 
-
-```
-typedef struct _INDICATOR_LIST {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _INDICATOR_LIST {
   USHORT  MakeCode;
   USHORT  IndicatorFlags;
-} INDICATOR_LIST, *PINDICATOR_LIST;
-```
-
-
+} INDICATOR_LIST, *PINDICATOR_LIST;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

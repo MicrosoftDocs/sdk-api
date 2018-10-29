@@ -4,10 +4,10 @@ title: ITDirectoryObject::get_SecurityDescriptor
 author: windows-sdk-content
 description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_get_securitydescriptor.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 746367e1-4319-4903-843f-7a25d60f4223
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor method, ITDirectoryObject.get_SecurityDescriptor, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

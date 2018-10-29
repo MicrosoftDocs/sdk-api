@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_verifyrequest.htm
 tech.root: seccrypto
 ms.assetid: 860f0eb0-5b23-44bd-8416-687a94962f1b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CCertPolicy object [Security],VerifyRequest method, ICertPolicy interface [Security],VerifyRequest method, ICertPolicy.VerifyRequest, ICertPolicy2 interface [Security],VerifyRequest method, ICertPolicy2::VerifyRequest, ICertPolicy::VerifyRequest, VR_INSTANT_BAD, VR_INSTANT_OK, VR_PENDING, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],CCertPolicy object, VerifyRequest method [Security],ICertPolicy interface, VerifyRequest method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_verifyrequest, certpol/ICertPolicy2::VerifyRequest, certpol/ICertPolicy::VerifyRequest, security.icertpolicy2_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,8 +65,8 @@ The returned disposition value indicates whether the request has been accepted, 
 
 ### -param strConfig [in]
 
-Represents the name of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+Represents the name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 
 ### -param Context [in]
@@ -77,7 +77,7 @@ Identifies the request and associated certificate under construction. The certif
 ### -param bNewRequest [in]
 
 If set to <b>TRUE</b>, specifies that the request is new. If set to <b>FALSE</b>, the request is being resubmitted to the policy module as a result of an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383250(v=VS.85).aspx">ICertAdmin::ResubmitRequest</a> call. A value of <b>FALSE</b> can be used to indicate that the administrator wants the request to be issued or that request properties set by the administrator should be examined.
+<a href="https://msdn.microsoft.com/610712d9-3661-42ba-9d2f-27862ba8dbd4">ICertAdmin::ResubmitRequest</a> call. A value of <b>FALSE</b> can be used to indicate that the administrator wants the request to be issued or that request properties set by the administrator should be examined.
 
 Note that <b>TRUE</b> is defined (in a Microsoft header file) for C/C++ programmers as one, while  Visual Basic defines the <b>True</b> keyword as negative one. As a result, Visual Basic developers must use one (instead of <b>True</b>) to set this parameter to <b>TRUE</b>. However, to set this parameter to <b>FALSE</b>, Visual Basic developers can use zero or <b>False</b>.
 
@@ -140,7 +140,7 @@ Add the request to the queue to accept or deny the request at a later  time.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value specifies the disposition, which must be one of the following values.
@@ -194,7 +194,7 @@ Add the request to the queue to accept or deny the request at a later  time.
 
 
 <b>VerifyRequest</b> is free to spawn off other processes or access an external database to do the request verification. If the verification requires out-of-band processing or human intervention, <b>VerifyRequest</b> can notify another process or leave any notice of the incoming request required. After the out-of-band processing is complete, a call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383250(v=VS.85).aspx">ResubmitRequest</a> can be made, or the provided administration tool can be used to resubmit the request to the Policy Module. The policy module can examine the request again, access any necessary external data, and return a value to indicate the certificate should be issued or denied.
+<a href="https://msdn.microsoft.com/610712d9-3661-42ba-9d2f-27862ba8dbd4">ResubmitRequest</a> can be made, or the provided administration tool can be used to resubmit the request to the Policy Module. The policy module can examine the request again, access any necessary external data, and return a value to indicate the certificate should be issued or denied.
 
 When you write custom policy modules, you must implement <b>VerifyRequest</b> functionality in your modules.
 
@@ -203,11 +203,15 @@ When you write custom policy modules, you must implement <b>VerifyRequest</b> fu
 
 The following example shows a possible implementation of the <b>VerifyRequest</b> method.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certpol.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certpol.h&gt;
 
 STDMETHODIMP CCertPolicy::VerifyRequest(
              BSTR const strConfig,
@@ -237,7 +241,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertServerPolicy,
-                           (void **) &pServer);
+                           (void **) &amp;pServer);
     if (FAILED( hr ))
     {
         printf("Failed CoCreateInstance for pServer - %x\n", hr );
@@ -245,7 +249,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
     }
 
     // Set the context to refer to this request.
-    hr = pServer->SetContext(Context);
+    hr = pServer-&gt;SetContext(Context);
     if (FAILED( hr ))
     {
         printf("Failed SetContext(%u) - %x\n", Context, hr );
@@ -264,10 +268,10 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
 
     // Retrieve the certificate property for the CN.
     // Actual implementations may want to examine other properties.
-    VariantInit( &varProp );
-    hr = pServer->GetCertificateProperty( bstrPropName,
+    VariantInit( &amp;varProp );
+    hr = pServer-&gt;GetCertificateProperty( bstrPropName,
                                           PROPTYPE_STRING,
-                                          &varProp );
+                                          &amp;varProp );
     if (FAILED(hr))
     {
         printf("Failed GetCertificateProperty - %x\n", hr);
@@ -286,18 +290,18 @@ error:
 
     // Free resources.
     if (NULL != pServer)
-        pServer->Release();
+        pServer-&gt;Release();
 
-    VariantClear( &varProp );
+    VariantClear( &amp;varProp );
 
     if ( NULL != bstrPropName )
         SysFreeString( bstrPropName );
 
     return(hr);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -306,15 +310,15 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385033(v=VS.85).aspx">ICertPolicy</a>
+<a href="https://msdn.microsoft.com/14031490-be8e-47f9-8c66-ae27f7d3599c">ICertPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385034(v=VS.85).aspx">ICertPolicy2</a>
+<a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">ICertPolicy2</a>
  
 
  

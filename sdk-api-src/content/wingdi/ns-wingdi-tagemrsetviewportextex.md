@@ -7,7 +7,7 @@ old-location: gdi\emrsetviewportextex__emrsetwindowextex.htm
 tech.root: gdi
 ms.assetid: 4030c4c4-60be-43b7-855e-49d65ea482c1
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*PEMRSETVIEWPORTEXTEX, *PEMRSETWINDOWEXTEX, EMRSETVIEWPORTEXTEX, EMRSETVIEWPORTEXTEX structure [Windows GDI], EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX, EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX structure [Windows GDI], EMRSETWINDOWEXTEX, EMRSETWINDOWEXTEX structure [Windows GDI], PEMRSETVIEWPORTEXTEX, PEMRSETVIEWPORTEXTEX structure pointer [Windows GDI], PEMRSETWINDOWEXTEX, PEMRSETWINDOWEXTEX structure pointer [Windows GDI], _win32_EMRSETVIEWPORTEXTEX_str, gdi.emrsetviewportextex__emrsetwindowextex, tagEMRSETVIEWPORTEXTEX, wingdi/EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX, wingdi/EMRSETWINDOWEXTEX, wingdi/PEMRSETVIEWPORTEXTEX, wingdi/PEMRSETWINDOWEXTEX"
 ms.prod: windows
 ms.technology: windows-sdk

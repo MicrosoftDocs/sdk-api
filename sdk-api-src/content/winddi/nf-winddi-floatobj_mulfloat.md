@@ -7,7 +7,7 @@ old-location: display\floatobj_mulfloat.htm
 tech.root: display
 ms.assetid: 7b4189f7-b80b-4543-b713-b0b2d06ef81e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: FLOATOBJ_MulFloat, FLOATOBJ_MulFloat function [Display Devices], display.floatobj_mulfloat, gdifncs_39da7310-f7d3-4ceb-8bd5-c2a0eaab0068.xml, winddi/FLOATOBJ_MulFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_MulFloat</b> function multiplies the <a href="https://msdn.micro
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the value (*<i>pf</i>  *  <i>f</i>).
 
 
-#### - f [in]
+### -param arg2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the multiplication.
 

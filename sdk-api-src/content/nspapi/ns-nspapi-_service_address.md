@@ -7,7 +7,7 @@ old-location: winsock\service_address_2.htm
 tech.root: WinSock
 ms.assetid: 5fc99e3a-7316-4950-9249-968bbc4168c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPSERVICE_ADDRESS, *PSERVICE_ADDRESS, SERVICE_ADDRESS, SERVICE_ADDRESS structure [Winsock], SERVICE_ADDRESS_FLAG_RPC_CN, SERVICE_ADDRESS_FLAG_RPC_DG, SERVICE_ADDRESS_FLAG_RPC_NB, _SERVICE_ADDRESS, _win32_service_address_2, nspapi/SERVICE_ADDRESS, winsock.service_address_2"
 ms.prod: windows
 ms.technology: windows-sdk

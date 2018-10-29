@@ -7,7 +7,7 @@ old-location: winrt\hstring_userunmarshal64.htm
 tech.root: WinRT
 ms.assetid: CD6F7DCD-23D8-4485-9803-142EE9730458
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal64, winrt.hstring_userunmarshal64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,34 +60,17 @@ Unmarshals an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D77
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pBuffer [in]
+### -param arg2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
 
-#### - ppidl [out]
+### -param arg3 [out]
 
 The string.
 

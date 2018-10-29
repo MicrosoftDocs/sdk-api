@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptiontransform_gettransformedrestrictederrorinf
 tech.root: WinRT
 ms.assetid: F64449FE-9562-4210-8C00-9935DE71DA07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetTransformedRestrictedErrorInfo, GetTransformedRestrictedErrorInfo method [Windows Runtime], GetTransformedRestrictedErrorInfo method [Windows Runtime],ILanguageExceptionTransform interface, ILanguageExceptionTransform interface [Windows Runtime],GetTransformedRestrictedErrorInfo method, ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo, ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,13 @@ When implemented, the system uses the <a href="https://msdn.microsoft.com/1af8d4
 
 #### Examples
 
-
-```cpp
-[ 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[ 
     uuid(7974CD8B-A9EF-4CC4-9A7D-5793CCE30734), 
     pointer_default(unique), 
     object 
@@ -97,18 +101,18 @@ interface IFooExceptionInfo : IUnknown
     HRESULT SetTranformedException(IFooException* exception); 
 } 
 
-class FooExceptionInfo : public Microsoft::WRL::RuntimeClass< 
-    Microsoft::WRL::RuntimeClassFlags< 
-    Microsoft::WRL::RuntimeClassType::ClassicCom>, 
+class FooExceptionInfo : public Microsoft::WRL::RuntimeClass&lt; 
+    Microsoft::WRL::RuntimeClassFlags&lt; 
+    Microsoft::WRL::RuntimeClassType::ClassicCom&gt;, 
     IFooExceptionInfo, 
-    ILanguageExceptionTransform> 
+    ILanguageExceptionTransform&gt; 
 { 
     ... 
     ... 
 private: 
     HRESULT _hr; 
     Microsoft::WRL::Wrappers::HString _message; 
-    ComPtr<IFooException> _transformedException; 
+    ComPtr&lt;IFooException&gt; _transformedException; 
 public: 
     HRESULT SetTranformedException(IFooException* exception) 
     { 
@@ -118,7 +122,7 @@ public:
 
     HRESULT GetTransformedRestrictedErrorInfo(IRestrictedErrorInfo** restrictedErrorInfo) 
     { 
-        return _transformedException->GetRestrictedErrorForException( 
+        return _transformedException-&gt;GetRestrictedErrorForException( 
                    restrictedErrorInfo); 
     } 
 } 
@@ -134,17 +138,17 @@ interface IFooException : IUnknown
     HRESULT GetExceptionInfo(IFooExceptionInfo** exceptionInfo); 
 } 
 
-class FooException : public Microsoft::WRL::RuntimeClass< 
-    Microsoft::WRL::RuntimeClassFlags< 
-    Microsoft::WRL::RuntimeClassType::ClassicCom>, 
+class FooException : public Microsoft::WRL::RuntimeClass&lt; 
+    Microsoft::WRL::RuntimeClassFlags&lt; 
+    Microsoft::WRL::RuntimeClassType::ClassicCom&gt;, 
     IFooException 
-    ...> 
+    ...&gt; 
 { 
     ... 
     ... 
 private: 
-    ComPtr<IFooExceptionInfo> _exceptionInfo; 
-    ComPtr<IRestrictedErrorInfo> _restrictedErrorInfo;  
+    ComPtr&lt;IFooExceptionInfo&gt; _exceptionInfo; 
+    ComPtr&lt;IRestrictedErrorInfo&gt; _restrictedErrorInfo;  
 public: 
     HRESULT GetRestrictedErrorForException(IRestrictedErrorInfo** restrictedErrorInfo) 
     { 
@@ -158,15 +162,15 @@ public:
 } 
 void OriginateErrorInfoForThrowWithCaughtException(IFooException* exception, IFooException* caughtException) 
 { 
-    ComPtr<IFooExceptionInfo> exceptionInfo;     if(SUCCEEDED(exception->GetExceptionInfo(&exceptionInfo))) 
+    ComPtr&lt;IFooExceptionInfo&gt; exceptionInfo;     if(SUCCEEDED(exception-&gt;GetExceptionInfo(&amp;exceptionInfo))) 
     { 
-        exceptionInfo->SetTranformedException(caughtException); 
-        exception->OriginateErrorInfoForThrow(); 
+        exceptionInfo-&gt;SetTranformedException(caughtException); 
+        exception-&gt;OriginateErrorInfoForThrow(); 
     } 
-} 
-```
-
-
+} </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

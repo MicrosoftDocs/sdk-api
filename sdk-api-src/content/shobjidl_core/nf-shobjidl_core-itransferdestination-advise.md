@@ -7,7 +7,7 @@ old-location: shell\ITransferDestination_Advise.htm
 tech.root: shell
 ms.assetid: e25040dd-bb51-45cc-99fb-9113e26d0baa
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],Advise method, ITransferDestination.Advise, ITransferDestination::Advise, _shell_ITransferDestination_Advise, shell.ITransferDestination_Advise, shobjidl_core/ITransferDestination::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptmsgcontrol.htm
 tech.root: seccrypto
 ms.assetid: a990d44d-2993-429f-b817-2a834105ecef
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_CTRL_ADD_ATTR_CERT, CMSG_CTRL_ADD_CERT, CMSG_CTRL_ADD_CMS_SIGNER_INFO, CMSG_CTRL_ADD_CRL, CMSG_CTRL_ADD_SIGNER, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR, CMSG_CTRL_DECRYPT, CMSG_CTRL_DECRYPT,CMSG_CTRL_KEY_TRANS_DECRYPT,CMSG_CTRL_KEY_AGREE_DECRYPT,or CMSG_CTRL_MAIL_LIST_DECRYPT,and the streamed enveloped message is being decoded, CMSG_CTRL_DEL_ATTR_CERT, CMSG_CTRL_DEL_CERT, CMSG_CTRL_DEL_CRL, CMSG_CTRL_DEL_SIGNER, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR, CMSG_CTRL_ENABLE_STRONG_SIGNATURE, CMSG_CTRL_KEY_AGREE_DECRYPT, CMSG_CTRL_KEY_TRANS_DECRYPT, CMSG_CTRL_MAIL_LIST_DECRYPT, CMSG_CTRL_VERIFY_HASH, CMSG_CTRL_VERIFY_SIGNATURE, CMSG_CTRL_VERIFY_SIGNATURE_EX, CryptMsgControl, CryptMsgControl function [Security], _crypto2_cryptmsgcontrol, security.cryptmsgcontrol, wincrypt/CryptMsgControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -636,11 +636,11 @@ Not enough memory was available to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

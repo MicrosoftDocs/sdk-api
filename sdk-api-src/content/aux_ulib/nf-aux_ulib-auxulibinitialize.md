@@ -4,10 +4,10 @@ title: AuxUlibInitialize function
 author: windows-sdk-content
 description: Initializes the Aux_ulib library.
 old-location: winprog\auxulibinitialize_func.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 2e46e323-669c-4fcd-b3e0-d1e4ec700c64
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AuxUlibInitialize, AuxUlibInitialize function [Windows API], aux_ulib/AuxUlibInitialize, winprog.auxulibinitialize_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

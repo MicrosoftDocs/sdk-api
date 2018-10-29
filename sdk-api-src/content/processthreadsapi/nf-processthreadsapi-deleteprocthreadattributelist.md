@@ -7,7 +7,7 @@ old-location: base\deleteprocthreadattributelist.htm
 tech.root: ProcThread
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: DeleteProcThreadAttributeList, DeleteProcThreadAttributeList function, base.deleteprocthreadattributelist, processthreadsapi/DeleteProcThreadAttributeList, winbase/DeleteProcThreadAttributeList
 ms.prod: windows-hardware
 ms.technology: windows-devices

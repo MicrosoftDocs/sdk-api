@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_getinterfacevalue_method.htm
 tech.root: SecAuthZ
 ms.assetid: d5d12529-6ce8-4189-949b-210d8ec84084
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetInterfaceValue, GetInterfaceValue method [Security], GetInterfaceValue method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],GetInterfaceValue method, IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

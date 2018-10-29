@@ -7,7 +7,7 @@ old-location: shell\ICurrentWorkingDirectory.htm
 tech.root: shell
 ms.assetid: 1fdbe616-3ca3-4f07-b89c-4c76561ba169
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windows Shell], ICurrentWorkingDirectory interface [Windows Shell],described, _win32_ICurrentWorkingDirectory, shell.ICurrentWorkingDirectory, shlobj/ICurrentWorkingDirectory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_retrievecontents.htm
 tech.root: Wds
 ms.assetid: 78afaf1c-f29f-4ab0-8329-d2199ea49c43
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],RetrieveContents method, IWdsTransportNamespace.RetrieveContents, IWdsTransportNamespace::RetrieveContents, RetrieveContents, RetrieveContents method [Windows Deployment Services], RetrieveContents method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_retrievecontents, wdstptmgmt/IWdsTransportNamespace::RetrieveContents
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getthreaddescription.htm
 tech.root: ProcThread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,18 +96,22 @@ To free the memory for the thread description, call the <a href="https://msdn.mi
 
 The following example gets the description for a thread,  prints the description, and then frees the memory for the description.
 
-
-```cpp
-HRESULT hr = GetThreadDescription(ThreadHandle, &data);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = GetThreadDescription(ThreadHandle, &amp;data);
 if (SUCCEEDED(hr))
 {   
     wprintf(“%ls\m”, data);
     LocalFree(data);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 63ef7dbe-138b-442a-bf54-1f409c969418
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetOutputFormat method, IAMWstDecoder.GetOutputFormat, IAMWstDecoder::GetOutputFormat, IAMWstDecoderGetOutputFormat, dshow.iamwstdecoder_getoutputformat, iwstdec/IAMWstDecoder::GetOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

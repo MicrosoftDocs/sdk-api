@@ -4,10 +4,10 @@ title: PropSheet_GetTabControl macro
 author: windows-sdk-content
 description: Retrieves the handle to the tab control of a property sheet. You can use this macro or send the PSM_GETTABCONTROL message explicitly.
 old-location: controls\PropSheet_GetTabControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_gettabcontrol.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: PropSheet_GetTabControl, PropSheet_GetTabControl macro [Windows Controls], _win32_PropSheet_GetTabControl, _win32_PropSheet_GetTabControl_cpp, controls.PropSheet_GetTabControl, controls._win32_PropSheet_GetTabControl, prsht/PropSheet_GetTabControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774580(v=VS.85).aspx">PSM_GETTABCONTROL</a> message explicitly.
+Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/5ddea541-c8e0-4357-b08e-3b5e64be377f">PSM_GETTABCONTROL</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to the property sheet.
 
 
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

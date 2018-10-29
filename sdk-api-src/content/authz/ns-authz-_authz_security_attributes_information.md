@@ -7,7 +7,7 @@ old-location: security\authz_security_attributes_information.htm
 tech.root: SecAuthZ
 ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, security.authz_security_attributes_information"
 ms.prod: windows
 ms.technology: windows-sdk

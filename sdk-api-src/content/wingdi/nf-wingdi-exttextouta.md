@@ -7,7 +7,7 @@ old-location: gdi\exttextout.htm
 tech.root: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN, ETO_NUMERICSLOCAL, ETO_OPAQUE, ETO_PDY, ETO_RTLREADING, ExtTextOut, ExtTextOut function [Windows GDI], ExtTextOutA, ExtTextOutW, _win32_ExtTextOut, gdi.exttextout, wingdi/ExtTextOut, wingdi/ExtTextOutA, wingdi/ExtTextOutW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -326,7 +326,7 @@ Note, the <i>alpDx</i> values from <a href="https://msdn.microsoft.com/b873a059-
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: wds\pxeregistercallback.htm
 tech.root: Wds
 ms.assetid: e4d7295a-99ef-4dcb-8e40-b5a5383356b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: PXE_CALLBACK_MAX, PXE_CALLBACK_RECV_REQUEST, PXE_CALLBACK_SERVICE_CONTROL, PXE_CALLBACK_SHUTDOWN, PxeRegisterCallback, PxeRegisterCallback function [Windows Deployment Services], wds.pxeregistercallback, wdspxe/PxeRegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RasGetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
 old-location: rras\rasgetentryproperties.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGetEntryPropertiesA, RasGetEntryPropertiesW, _ras_rasgetentryproperties, ras/RasGetEntryProperties, ras/RasGetEntryPropertiesA, ras/RasGetEntryPropertiesW, rras.rasgetentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,39 +63,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-### -param arg6
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -105,7 +73,12 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpRasEntry [in, out]
+### -param arg2 [in]
+
+Pointer to a <b>null</b>-terminated string that specifies an existing entry name. If an empty string is specified, the function returns default values in the buffers pointed to by the <i>lpRasEntry</i> and <i>lpbDeviceInfo</i> parameters.
+
+
+### -param arg3 [in, out]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
@@ -124,12 +97,27 @@ Microsoft Layer for Unicode does not support <b>dwAlternateOffset</b> in
 <a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASENTRY</a>.
 
 
-#### - lpbDeviceInfo [out]
+### -param arg4 [in, out]
+
+Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpRasEntry</i> buffer. 
+
+
+
+
+On output, this variable receives the number of bytes required.
+
+This parameter can be <b>NULL</b> if the <i>lpRasEntry</i> parameter is <b>NULL</b>.
+
+To determine the required buffer size, call 
+<b>RasGetEntryProperties</b> with <i>lpRasEntry</i> set to <b>NULL</b> and <i>*lpdwEntryInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwEntryInfoSize</i>.
+
+
+### -param arg5 [out]
 
 This parameter is no longer used. The calling function should set this parameter to <b>NULL</b>.
 
 <b>Windows Me/98/95:  </b>Pointer to a buffer that receives device-specific configuration information. Do not directly manipulate this opaque TAPI device information. For more information about TAPI device configuration, see the 
-<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
+<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
 
 
 This parameter can be <b>NULL</b>.
@@ -137,7 +125,7 @@ This parameter can be <b>NULL</b>.
 
 
 
-#### - lpdwDeviceInfoSize [in, out]
+### -param arg6 [in, out]
 
 This parameter is unused. The calling function should set this parameter to <b>NULL</b>.
 						
@@ -153,26 +141,6 @@ To determine the required buffer size, call
 <b>RasGetEntryProperties</b> with <i>lpbDeviceInfo</i> set to <b>NULL</b> and <i>*lpdwDeviceInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwDeviceInfoSize</i>.
 
 
-
-
-#### - lpdwEntryInfoSize [in, out]
-
-Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpRasEntry</i> buffer. 
-
-
-
-
-On output, this variable receives the number of bytes required.
-
-This parameter can be <b>NULL</b> if the <i>lpRasEntry</i> parameter is <b>NULL</b>.
-
-To determine the required buffer size, call 
-<b>RasGetEntryProperties</b> with <i>lpRasEntry</i> set to <b>NULL</b> and <i>*lpdwEntryInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwEntryInfoSize</i>.
-
-
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies an existing entry name. If an empty string is specified, the function returns default values in the buffers pointed to by the <i>lpRasEntry</i> and <i>lpbDeviceInfo</i> parameters.
 
 
 ## -returns

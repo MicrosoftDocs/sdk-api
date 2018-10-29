@@ -7,7 +7,7 @@ old-location: directdraw\directdrawcreate.htm
 tech.root: directdraw
 ms.assetid: bad18493-417f-499d-a9a8-719d094be62a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreate, DirectDrawCreate function [DirectDraw], ddraw/DirectDrawCreate, directdraw.directdrawcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

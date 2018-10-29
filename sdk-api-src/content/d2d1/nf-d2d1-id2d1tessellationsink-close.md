@@ -4,10 +4,10 @@ title: ID2D1TessellationSink::Close
 author: windows-sdk-content
 description: Closes the sink and returns its error status.
 old-location: direct2d\ID2D1TessellationSink_Close.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 42630fca-1f57-4b1e-be9d-7636a792a1bf
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1TessellationSink interface, ID2D1TessellationSink interface [Direct2D],Close method, ID2D1TessellationSink.Close, ID2D1TessellationSink::Close, d2d1/ID2D1TessellationSink::Close, direct2d.ID2D1TessellationSink_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

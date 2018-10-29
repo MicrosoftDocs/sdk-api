@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper.htm
 tech.root: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,13 +164,17 @@ You can use the LPDIRECTDRAWCLIPPER data type to declare a variable that contain
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawClipper    FAR *LPDIRECTDRAWCLIPPER;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

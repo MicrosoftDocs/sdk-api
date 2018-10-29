@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizerguide_writingbox.htm
 tech.root: tablet
 ms.assetid: 60e37b92-22c2-4a71-a4d1-815226d804fa
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 60e37b92-22c2-4a71-a4d1-815226d804fa, IInkRecognizerGuide interface [Tablet PC],WritingBox property, IInkRecognizerGuide.WritingBox, IInkRecognizerGuide.put_WritingBox, IInkRecognizerGuide::WritingBox, IInkRecognizerGuide::get_WritingBox, IInkRecognizerGuide::put_WritingBox, InkRecognizerGuide.get_WritingBox, InkRecognizerGuide.put_WritingBox, WritingBox property [Tablet PC], WritingBox property [Tablet PC],IInkRecognizerGuide interface, get_WritingBox, msinkaut/IInkRecognizerGuide::WritingBox, msinkaut/IInkRecognizerGuide::get_WritingBox, msinkaut/IInkRecognizerGuide::put_WritingBox, put_WritingBox, tablet.inkrecognizerguide_writingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

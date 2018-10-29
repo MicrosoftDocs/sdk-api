@@ -7,7 +7,7 @@ old-location: security\certunregisterphysicalstore.htm
 tech.root: seccrypto
 ms.assetid: 06480a2f-5a94-4cf5-9774-ceb9499e1d44
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterPhysicalStore, CertUnregisterPhysicalStore function [Security], _crypto2_certunregisterphysicalstore, security.certunregisterphysicalstore, wincrypt/CertUnregisterPhysicalStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ If the function fails, the return value is <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

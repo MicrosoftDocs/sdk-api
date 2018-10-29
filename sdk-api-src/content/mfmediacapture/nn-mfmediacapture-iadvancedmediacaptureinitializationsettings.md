@@ -7,7 +7,7 @@ old-location: mf\iadvancedmediacaptureInitializationsettings.htm
 tech.root: medfound
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
 ms.prod: windows
 ms.technology: windows-sdk

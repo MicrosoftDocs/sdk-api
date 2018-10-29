@@ -7,7 +7,7 @@ old-location: automat\variant_usermarshal64.htm
 tech.root: automat
 ms.assetid: af9f85fa-b123-49da-99c7-552cd03197c0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: VARIANT_UserMarshal64, VARIANT_UserMarshal64 function [Automation], automat.variant_usermarshal64, oaidl/VARIANT_UserMarshal64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Marshals a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pBuffer [in, out]
+### -param arg2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
 
-#### - pVariant [in]
+### -param arg3 [in]
 
 The object.
 

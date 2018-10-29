@@ -7,7 +7,7 @@ old-location: gdi\gditransparentblt.htm
 tech.root: gdi
 ms.assetid: 82f6db79-f364-480a-ad9d-acf2ad94a295
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GdiTransparentBlt, GdiTransparentBlt function [Windows GDI], gdi.gditransparentblt, wingdi/GdiTransparentBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

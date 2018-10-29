@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_collectingink.htm
 tech.root: tablet
 ms.assetid: 19fbe26e-02a4-4d05-a2e8-25d2f8ae1146
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],CollectingInk property, IInkPicture.CollectingInk, IInkPicture.get_CollectingInk, IInkPicture::CollectingInk, IInkPicture::get_CollectingInk, InkPicture.get_CollectingInk, get_CollectingInk, msinkaut/IInkPicture::CollectingInk, msinkaut/IInkPicture::get_CollectingInk, tablet.inkpicture_collectingink
 ms.prod: windows-hardware
 ms.technology: windows-devices

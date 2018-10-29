@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::PushLayer(const D2D1_LAYER_PARAMETERS1,ID2D1Layer)
 author: windows-sdk-content
 description: Push a layer onto the clip and layer stack of the device context.
 old-location: direct2d\id2d1devicecontext_pushlayer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7DC719E3-CE94-4B7F-B02D-62D78425CFFE
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],PushLayer method, ID2D1DeviceContext.PushLayer, ID2D1DeviceContext.PushLayer(const D2D1_LAYER_PARAMETERS1,ID2D1Layer), ID2D1DeviceContext::PushLayer, ID2D1DeviceContext::PushLayer(const D2D1_LAYER_PARAMETERS1,ID2D1Layer), PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::PushLayer, direct2d.id2d1devicecontext_pushlayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

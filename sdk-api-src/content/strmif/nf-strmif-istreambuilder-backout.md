@@ -7,7 +7,7 @@ old-location: dshow\istreambuilder_backout.htm
 tech.root: DirectShow
 ms.assetid: b8f895a7-7f71-4c0d-af9d-e2b0ed433172
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,13 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates to the graph bu
 
 The following example shows how a filter would reverse the steps that are shown in the code example for the <b>IStreamBuilder::Render</b> method:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
 {
     CheckPointer(pPin, E_POINTER);
@@ -100,17 +104,17 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     {
         // Find the filter that owns the pin connected to us.
         FILTER_INFO fi;
-        hr = m_Connected->QueryFilterInfo(&fi);
+        hr = m_Connected-&gt;QueryFilterInfo(&amp;fi);
         if (SUCCEEDED(hr)) 
         {
             if (fi.pFilter != NULL) 
             {
                 //  Disconnect the pins.
-                pGraph->Disconnect(m_Connected);
-                pGraph->Disconnect(pPin);
+                pGraph-&gt;Disconnect(m_Connected);
+                pGraph-&gt;Disconnect(pPin);
                 // Remove the filter from the graph.
-                pGraph->RemoveFilter(fi.pFilter);
-                fi.pFilter->Release();
+                pGraph-&gt;RemoveFilter(fi.pFilter);
+                fi.pFilter-&gt;Release();
             } 
             else 
             {
@@ -120,10 +124,10 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\PathRelativePathTo.htm
 tech.root: shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: PathRelativePathTo, PathRelativePathTo function [Windows Shell], PathRelativePathToA, PathRelativePathToW, _win32_PathRelativePathTo, shell.PathRelativePathTo, shlwapi/PathRelativePathTo, shlwapi/PathRelativePathToA, shlwapi/PathRelativePathToW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,10 +123,14 @@ For example, let the starting point, <i>pszFrom</i>, be "c:\FolderA\FolderB\Fold
 
 
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main(void)
@@ -135,13 +139,13 @@ void main(void)
     char szFrom[ ] = "c:\\a\\b\\path";
     char szTo[ ] = "c:\\a\\x\\y\\file";
 
-    cout  <<  "The relative path is relative from: ";
-    cout  <<  szFrom;
-    cout  <<  "\n";
+    cout  &lt;&lt;  "The relative path is relative from: ";
+    cout  &lt;&lt;  szFrom;
+    cout  &lt;&lt;  "\n";
 
-    cout  <<  "The relative path is relative to: ";
-    cout  <<  szTo;
-    cout  <<  "\n";
+    cout  &lt;&lt;  "The relative path is relative to: ";
+    cout  &lt;&lt;  szTo;
+    cout  &lt;&lt;  "\n";
 
     PathRelativePathTo(szOut,
                        szFrom,
@@ -149,18 +153,18 @@ void main(void)
                        szTo,
                        FILE_ATTRIBUTE_NORMAL);
 
-    cout  <<  "The relative path is: ";
-    cout  <<  szOut;
-    cout  <<  "\n";
+    cout  &lt;&lt;  "The relative path is: ";
+    cout  &lt;&lt;  szOut;
+    cout  &lt;&lt;  "\n";
 }
 
 OUTPUT:
 ==================
 The relative path is relative from: c:\a\b\path
 The relative path is relative to: c:\a\x\y\file
-The relative path is: ..\..\x\y\file
-```
-
-
+The relative path is: ..\..\x\y\file</pre>
+</td>
+</tr>
+</table></span></div>
 
 

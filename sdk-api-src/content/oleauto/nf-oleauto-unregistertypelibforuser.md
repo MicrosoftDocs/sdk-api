@@ -7,7 +7,7 @@ old-location: automat\unregistertypelibforuser.htm
 tech.root: automat
 ms.assetid: 2d88f97b-b1f6-4682-abf5-304ee752e2ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: UnRegisterTypeLibForUser, UnRegisterTypeLibForUser function [Automation], _oa96_UnRegisterTypeLibForUser, automat.unregistertypelibforuser, oleauto/UnRegisterTypeLibForUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engcontrolsprites.htm
 tech.root: display
 ms.assetid: 8de02019-6f58-4adc-9589-fdfbf4a062aa
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: EngControlSprites, EngControlSprites function [Display Devices], display.engcontrolsprites, gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml, winddi/EngControlSprites
 ms.prod: windows-hardware
 ms.technology: windows-devices

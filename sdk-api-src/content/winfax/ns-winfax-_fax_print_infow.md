@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_print_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_60he.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: "*PFAX_PRINT_INFOW, FAX_PRINT_INFO, FAX_PRINT_INFO structure [Fax Service], FAX_PRINT_INFOA, FAX_PRINT_INFOW, PFAX_PRINT_INFO, PFAX_PRINT_INFO structure pointer [Fax Service], _FAX_PRINT_INFOW, _mfax_fax_print_info_str, fax._mfax_fax_print_info_str, winfax/FAX_PRINT_INFO, winfax/FAX_PRINT_INFOA, winfax/FAX_PRINT_INFOW, winfax/PFAX_PRINT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,7 +143,7 @@ This member is reserved for future use by Microsoft. It must be set to <b>NULL</
 
 
 
-A fax client application passes the <b>FAX_PRINT_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function to start a print job on a specified fax printer. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690908(v=VS.85).aspx">Printing a Fax to a Device Context</a>.
+A fax client application passes the <b>FAX_PRINT_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a> function to start a print job on a specified fax printer. For more information, see <a href="https://msdn.microsoft.com/d6e0afbd-6e64-487c-97fc-1e5cd5092d14">Printing a Fax to a Device Context</a>.
 
 
 
@@ -153,19 +153,19 @@ A fax client application passes the <b>FAX_PRINT_INFO</b> structure in a call to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/94b09265-a53c-47a2-8b24-bccb662b21c6">FAX_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a>
+<a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a>
  
 
  

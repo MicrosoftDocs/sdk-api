@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_disconnecttime.htm
 tech.root: termserv
 ms.assetid: e4bbb6e5-5fe2-4aa8-8a14-40fb2a4251e2
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: DisconnectTime property [Remote Desktop Services], DisconnectTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],DisconnectTime property, ITsSbSession.DisconnectTime, ITsSbSession.get_DisconnectTime, ITsSbSession::DisconnectTime, ITsSbSession::get_DisconnectTime, ITsSbSession::put_DisconnectTime, get_DisconnectTime, sbtsv/ITsSbSession::DisconnectTime, sbtsv/ITsSbSession::get_DisconnectTime, sbtsv/ITsSbSession::put_DisconnectTime, termserv.itssbsession_disconnecttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

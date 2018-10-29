@@ -7,7 +7,7 @@ old-location: security\access_allowed_object_ace.htm
 tech.root: SecAuthZ
 ms.assetid: ee91ca50-e81b-4872-95eb-349c2d5be004
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PACCESS_ALLOWED_OBJECT_ACE, 0, ACCESS_ALLOWED_OBJECT_ACE, ACCESS_ALLOWED_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_ALLOWED_OBJECT_ACE, PACCESS_ALLOWED_OBJECT_ACE structure pointer [Security], _ACCESS_ALLOWED_OBJECT_ACE, _win32_access_allowed_object_ace_str, security.access_allowed_object_ace, winnt/ACCESS_ALLOWED_OBJECT_ACE, winnt/PACCESS_ALLOWED_OBJECT_ACE"
 ms.prod: windows
 ms.technology: windows-sdk

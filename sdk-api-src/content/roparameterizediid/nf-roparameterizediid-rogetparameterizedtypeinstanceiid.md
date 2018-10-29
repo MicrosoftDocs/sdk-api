@@ -7,7 +7,7 @@ old-location: winrt\rogetparameterizedtypeinstanceiid.htm
 tech.root: WinRT
 ms.assetid: DE908C82-5D7C-415C-B08B-31786589979B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RoGetParameterizedTypeInstanceIID, RoGetParameterizedTypeInstanceIID function [Windows Runtime], roparameterizediid/RoGetParameterizedTypeInstanceIID, winrt.rogetparameterizedtypeinstanceiid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,16 +173,20 @@ If a call to the <a href="https://msdn.microsoft.com/031B9F9B-FF77-4524-87B7-D78
 
 #### Examples
 
-
-```cpp
-
-#include <stdlib.h>
-#include <windows.h>
-#include <winrt/paraminstanceapi.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;stdlib.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;winrt/paraminstanceapi.h&gt;
 
 HRESULT ExampleMetadataLocator(
     PCWSTR name, 
-    IRoSimpleMetaDataBuilder& builder)
+    IRoSimpleMetaDataBuilder&amp; builder)
 {
     if (wcscmp(L"Example.IParam`1", name) == 0)
     {
@@ -219,13 +223,13 @@ int main()
     HRESULT hr = RoGetParameterizedTypeInstanceIID(
         2,
         names,
-        Ro::Locator(&ExampleMetadataLocator),
-        &iidResult);
+        Ro::Locator(&amp;ExampleMetadataLocator),
+        &amp;iidResult);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

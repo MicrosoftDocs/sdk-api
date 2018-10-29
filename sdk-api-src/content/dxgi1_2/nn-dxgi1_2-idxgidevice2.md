@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice2.htm
 tech.root: direct3ddxgi
 ms.assetid: 0AD1E52F-EB9F-473F-AF16-E2E1A7E8946A
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDXGIDevice2, IDXGIDevice2 interface [DXGI], IDXGIDevice2 interface [DXGI],described, direct3ddxgi.idxgidevice2, dxgi1_2/IDXGIDevice2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,14 +112,18 @@ The Direct3D create device functions return a Direct3D device object. This Direc
           corresponding <b>IDXGIDevice2</b> interface. To retrieve the <b>IDXGIDevice2</b>  interface of a Direct3D device, use the following code:
         
 
-
-```
-IDXGIDevice2 * pDXGIDevice;
-hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice2), (void **)&pDXGIDevice);
-
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IDXGIDevice2 * pDXGIDevice;
+hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice2), (void **)&amp;pDXGIDevice);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:
         </b> This API is supported.
       

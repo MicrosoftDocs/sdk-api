@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createpointarray.htm
 tech.root: WinRT
 ms.assetid: cdfc2a91-0f1b-41d9-99e3-e3589bdae6ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CreatePointArray, CreatePointArray method [Windows Runtime], CreatePointArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreatePointArray method, IPropertyValueStatics.CreatePointArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreatePointArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreatePointArray, winrt.ipropertyvaluefactory_createpointarray, winrt.ipropertyvaluestatics_createpointarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

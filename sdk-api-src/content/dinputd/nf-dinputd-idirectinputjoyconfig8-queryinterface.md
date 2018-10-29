@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_queryinterface.htm
 tech.root: hid
 ms.assetid: aadd7919-2cb1-4c1e-944d-2ccca2f72b3f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],QueryInterface method, IDirectInputJoyConfig8.QueryInterface, IDirectInputJoyConfig8::QueryInterface, QueryInterface, QueryInterface method [Human Input Devices], QueryInterface method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_757b488f-c54a-4661-9406-d7eb2cbd9dd7.xml, dinputd/IDirectInputJoyConfig8::QueryInterface, hid.idirectinputjoyconfig8_queryinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

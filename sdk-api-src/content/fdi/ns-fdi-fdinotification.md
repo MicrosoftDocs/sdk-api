@@ -4,10 +4,10 @@ title: FDINOTIFICATION
 author: windows-sdk-content
 description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
 old-location: winprog\fdinotification.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 8b92226e-b19a-4624-925e-4a98d037637d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PFDINOTIFICATION, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, FDINOTIFICATION, FDINOTIFICATION structure [Windows API], PFDINOTIFICATION, PFDINOTIFICATION structure pointer [Windows API], fdi/FDINOTIFICATION, fdi/PFDINOTIFICATION, winprog.fdinotification"
 ms.prod: windows
 ms.technology: windows-sdk

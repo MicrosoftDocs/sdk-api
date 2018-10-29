@@ -4,10 +4,10 @@ title: ITextFont2::GetScaling
 author: windows-sdk-content
 description: Gets the font horizontal scaling percentage.
 old-location: controls\itextfont2_getscaling.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4508d079-6f75-4842-a7e6-c2b9a99c826c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetScaling, GetScaling method [Windows Controls], GetScaling method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetScaling method, ITextFont2.GetScaling, ITextFont2::GetScaling, controls.itextfont2_getscaling, tom/ITextFont2::GetScaling
 ms.prod: windows-hardware
 ms.technology: windows-devices

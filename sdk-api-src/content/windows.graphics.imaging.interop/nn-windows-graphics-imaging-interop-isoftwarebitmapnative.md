@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnative.htm
 tech.root: WinRT
 ms.assetid: 9EB9C74E-A056-4A40-AFAD-0056E139BA28
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ISoftwareBitmapNative, ISoftwareBitmapNative interface [Windows Runtime], ISoftwareBitmapNative interface [Windows Runtime],described, windows/ISoftwareBitmapNative, winrt.isoftwarebitmapnative
 ms.prod: windows
 ms.technology: windows-sdk

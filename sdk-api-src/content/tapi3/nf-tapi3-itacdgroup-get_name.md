@@ -4,10 +4,10 @@ title: ITACDGroup::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the ACD group name. This string can be a displayable name for the group.
 old-location: tapi3\itacdgroup_get_name.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must free <i>ppName</i> through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the variable is no longer needed.
 
 
 

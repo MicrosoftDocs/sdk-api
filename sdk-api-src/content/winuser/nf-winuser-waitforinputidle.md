@@ -7,7 +7,7 @@ old-location: base\waitforinputidle.htm
 tech.root: ProcThread
 ms.assetid: 2a684921-36f1-438c-895c-5bebc242635a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: WaitForInputIdle, WaitForInputIdle function, _win32_waitforinputidle, base.waitforinputidle, winuser/WaitForInputIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices

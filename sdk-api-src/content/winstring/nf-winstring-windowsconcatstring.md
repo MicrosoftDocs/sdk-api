@@ -7,7 +7,7 @@ old-location: winrt\windowsconcatstring.htm
 tech.root: WinRT
 ms.assetid: 916E1FC2-CCA1-4B4E-8710-99D5ECA31ABE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WindowsConcatString, WindowsConcatString function [Windows Runtime], winrt.windowsconcatstring, winstring/WindowsConcatString
 ms.prod: windows-hardware
 ms.technology: windows-devices

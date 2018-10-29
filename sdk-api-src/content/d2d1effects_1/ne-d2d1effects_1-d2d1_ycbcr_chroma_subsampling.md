@@ -4,10 +4,10 @@ title: D2D1_YCBCR_CHROMA_SUBSAMPLING
 author: windows-sdk-content
 description: Specifies the chroma subsampling of the input chroma image used by the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_chroma_subsampling.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4B0BDC1D-B39C-4787-90D3-50845C3A2B9A
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: D2D1_YCBCR_CHROMA_SUBSAMPLING, D2D1_YCBCR_CHROMA_SUBSAMPLING enumeration [Direct2D], D2D1_YCBCR_CHROMA_SUBSAMPLING_420, D2D1_YCBCR_CHROMA_SUBSAMPLING_422, D2D1_YCBCR_CHROMA_SUBSAMPLING_440, D2D1_YCBCR_CHROMA_SUBSAMPLING_444, D2D1_YCBCR_CHROMA_SUBSAMPLING_AUTO, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_420, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_422, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_440, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_444, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_AUTO, direct2d.d2d1_ycbcr_chroma_subsampling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the chroma subsampling of the input chroma image used by the <a href="https://msdn.microsoft.com/en-us/library/Dn280624(v=VS.85).aspx">YCbCr effect</a>.
+Specifies the chroma subsampling of the input chroma image used by the <a href="https://msdn.microsoft.com/E4492996-54DA-4C5F-B44C-8FBE97C8DD7D">YCbCr effect</a>.
         
 
 

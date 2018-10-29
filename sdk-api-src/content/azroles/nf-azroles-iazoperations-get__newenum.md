@@ -7,7 +7,7 @@ old-location: security\iazoperations_newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 20c47a77-936d-45b2-a3c3-9087c1af8667
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AzOperations object [Security],_NewEnum property, IAzOperations interface [Security],_NewEnum property, IAzOperations._NewEnum, IAzOperations.get__NewEnum, IAzOperations::_NewEnum, IAzOperations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzOperations object, _NewEnum property [Security],IAzOperations interface, azroles/IAzOperations::_NewEnum, azroles/IAzOperations::get__NewEnum, get__NewEnum, security.iazoperations_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>_NewEnum</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within  Visual Basic and Visual Basic Scripting Edition (VBScript).
+The <b>_NewEnum</b> property retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within  Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 This property is read-only.
 

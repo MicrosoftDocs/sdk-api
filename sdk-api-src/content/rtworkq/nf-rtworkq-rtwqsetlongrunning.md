@@ -7,7 +7,7 @@ old-location: base\rtwqsetlongrunning.htm
 tech.root: ProcThread
 ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

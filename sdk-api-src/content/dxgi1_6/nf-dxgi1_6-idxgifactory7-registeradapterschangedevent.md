@@ -1,0 +1,94 @@
+---
+UID: NF:dxgi1_6.IDXGIFactory7.RegisterAdaptersChangedEvent
+title: IDXGIFactory7::RegisterAdaptersChangedEvent
+author: windows-sdk-content
+description: Registers to receive notification of changes whenever the adapter enumeration state changes.
+old-location: direct3ddxgi\idxgifactory7_registeradapterschangedevent.htm
+tech.root: direct3ddxgi
+ms.assetid: B0A5C04B-B081-4BDD-8952-6CC9116123E0
+ms.author: windowssdkdev
+ms.date: 10/26/2018
+ms.keywords: IDXGIFactory7 interface [DXGI],RegisterAdaptersChangedEvent method, IDXGIFactory7.RegisterAdaptersChangedEvent, IDXGIFactory7::RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent method [DXGI], RegisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_registeradapterschangedevent, dxgi1_6/IDXGIFactory7::RegisterAdaptersChangedEvent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dxgi1_6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi.lib
+ - dxgi.dll
+api_name:
+ - IDXGIFactory7.RegisterAdaptersChangedEvent
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IDXGIFactory7::RegisterAdaptersChangedEvent
+
+
+## -description
+
+
+Registers to receive notification of changes whenever the adapter enumeration state changes.
+
+
+## -parameters
+
+
+
+
+### -param hEvent [in]
+
+A handle to the event object.
+
+
+### -param pdwCookie [in, out]
+
+A key value for the registered event.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if successful; an error code otherwise. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory7">IDXGIFactory7</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory7-unregisteradapterschangedevent">UnregisterAdaptersChangedEvent</a>
+ 
+
+ 
+

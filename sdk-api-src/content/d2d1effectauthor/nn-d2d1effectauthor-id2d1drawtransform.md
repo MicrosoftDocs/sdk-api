@@ -4,10 +4,10 @@ title: ID2D1DrawTransform
 author: windows-sdk-content
 description: A specialized implementation of the Shantzis calculations to a transform implemented on the GPU.
 old-location: direct2d\id2d1drawtransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 90C49A9A-9297-44E6-9AB8-01C6847CA3F8
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ID2D1DrawTransform, ID2D1DrawTransform interface [Direct2D], ID2D1DrawTransform interface [Direct2D],described, d2d1effectauthor/ID2D1DrawTransform, direct2d.id2d1drawtransform
 ms.prod: windows
 ms.technology: windows-sdk

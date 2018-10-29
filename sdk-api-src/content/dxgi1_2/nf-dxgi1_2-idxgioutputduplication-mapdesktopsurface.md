@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_mapdesktopsurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],MapDesktopSurface method, IDXGIOutputDuplication.MapDesktopSurface, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Provides the CPU with efficient access to a desktop image if that desktop image 
 
 ### -param pLockedRect [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173063(v=VS.85).aspx">DXGI_MAPPED_RECT</a> structure that receives the surface data that the CPU needs to directly access the surface data. 
+A pointer to a <a href="https://msdn.microsoft.com/9f5e33d9-3b82-4b5e-8ddc-aacd581b829b">DXGI_MAPPED_RECT</a> structure that receives the surface data that the CPU needs to directly access the surface data. 
 
 
 ## -returns
@@ -77,9 +77,9 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173063(v=VS.8
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
 </ul>In this situation, the application must release the <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> interface and create a new <b>IDXGIOutputDuplication</b> for the new content.</li>
 <li>DXGI_ERROR_INVALID_CALL if the application already has an outstanding map on the desktop image.  The application must call <a href="https://msdn.microsoft.com/1B9AF088-5856-4F1C-A794-6CF870D62A29">UnMapDesktopSurface</a> before it calls <b>MapDesktopSurface</b> again. DXGI_ERROR_INVALID_CALL is also returned if the application did not own the desktop image when it called <b>MapDesktopSurface</b>.</li>
-<li>DXGI_ERROR_UNSUPPORTED if the desktop image is not in system memory. In this situation, the application must first transfer the image to a staging surface and then lock the image by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a> method.</li>
+<li>DXGI_ERROR_UNSUPPORTED if the desktop image is not in system memory. In this situation, the application must first transfer the image to a staging surface and then lock the image by calling the <a href="https://msdn.microsoft.com/027da15c-1670-41ec-a633-addd1c5ff150">IDXGISurface::Map</a> method.</li>
 <li>E_INVALIDARG if the <i>pLockedRect</i> parameter is incorrect; for example, if <i>pLockedRect</i> is <b>NULL</b>.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

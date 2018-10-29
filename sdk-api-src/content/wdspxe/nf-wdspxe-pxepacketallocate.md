@@ -7,7 +7,7 @@ old-location: wds\pxepacketallocate.htm
 tech.root: Wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

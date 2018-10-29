@@ -7,7 +7,7 @@ old-location: gdi\copymetafile.htm
 tech.root: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,24 +62,12 @@ The <b>CopyMetaFile</b> function copies the content of a Windows-format metafile
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 A handle to the source Windows-format metafile.
 
 
-#### - lpszFile [in]
+### -param arg2 [in]
 
 A pointer to the name of the destination file. If this parameter is <b>NULL</b>, the source metafile is copied to memory.
 

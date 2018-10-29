@@ -7,7 +7,7 @@ old-location: display\ddvideoportgetline.htm
 tech.root: display
 ms.assetid: 6c0cfa87-bc16-47a6-8106-e5a1b1456813
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: DdVideoPortGetLine, DdVideoPortGetLine callback function [Display Devices], PDD_VPORTCB_GETLINE, PDD_VPORTCB_GETLINE callback, ddfncs_7695bbcc-355a-4934-bf3f-ad9a58607917.xml, ddrawint/DdVideoPortGetLine, display.ddvideoportgetline
 ms.prod: windows
 ms.technology: windows-sdk

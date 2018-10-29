@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithPropertyStore.htm
 tech.root: shell
 ms.assetid: da8592a9-7727-433f-ac92-abf22a735eb2
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IInitializeWithPropertyStore, IInitializeWithPropertyStore interface [Windows Shell], IInitializeWithPropertyStore interface [Windows Shell],described, _shell_IInitializeWithPropertyStore, shell.IInitializeWithPropertyStore, shobjidl_core/IInitializeWithPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk

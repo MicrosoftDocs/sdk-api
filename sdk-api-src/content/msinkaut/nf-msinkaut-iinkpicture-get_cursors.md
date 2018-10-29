@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_cursors.htm
 tech.root: tablet
 ms.assetid: 815f4895-d418-4336-9420-2405bcd5cfb3
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Cursors property, IInkPicture.Cursors, IInkPicture.get_Cursors, IInkPicture::Cursors, IInkPicture::get_Cursors, InkPicture.get_Cursors, get_Cursors, msinkaut/IInkPicture::Cursors, msinkaut/IInkPicture::get_Cursors, tablet.inkpicture_cursors
 ms.prod: windows-hardware
 ms.technology: windows-devices

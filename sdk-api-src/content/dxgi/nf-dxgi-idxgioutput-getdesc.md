@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getdesc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDesc method, IDXGIOutput.GetDesc, IDXGIOutput::GetDesc, direct3ddxgi.idxgioutput_getdesc, dxgi/IDXGIOutput::GetDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,18 +61,18 @@ Get a description of the output.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173068(v=VS.85).aspx">DXGI_OUTPUT_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7293abb3-81e5-46b2-9987-f60e3ac9eed8">DXGI_OUTPUT_DESC</a>*</b>
 
-A pointer to the output description (see <a href="https://msdn.microsoft.com/en-us/library/Bb173068(v=VS.85).aspx">DXGI_OUTPUT_DESC</a>).
+A pointer to the output description (see <a href="https://msdn.microsoft.com/7293abb3-81e5-46b2-9987-f60e3ac9eed8">DXGI_OUTPUT_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns a code that indicates success or failure. S_OK if successful, <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if <i>pDesc</i> is passed in as <b>NULL</b>.
+Returns a code that indicates success or failure. S_OK if successful, <a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if <i>pDesc</i> is passed in as <b>NULL</b>.
 
 
 
@@ -81,7 +81,7 @@ Returns a code that indicates success or failure. S_OK if successful, <a href="h
 
 
 
- On a high DPI desktop, <b>GetDesc</b> returns the visualized screen size unless the app is marked high DPI aware. For info about writing DPI-aware Win32 apps, see <a href="https://msdn.microsoft.com/en-us/library/Mt843498(v=VS.85).aspx">High DPI</a>.
+ On a high DPI desktop, <b>GetDesc</b> returns the visualized screen size unless the app is marked high DPI aware. For info about writing DPI-aware Win32 apps, see <a href="https://msdn.microsoft.com/784e308d-904b-40ac-bf98-1a00fa1c9cf0">High DPI</a>.
 
 
 
@@ -95,7 +95,7 @@ Returns a code that indicates success or failure. S_OK if successful, <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a>
  
 
  

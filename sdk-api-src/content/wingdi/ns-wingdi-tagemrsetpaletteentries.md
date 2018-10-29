@@ -7,7 +7,7 @@ old-location: gdi\emrsetpaletteentries.htm
 tech.root: gdi
 ms.assetid: df75567e-150f-4f88-b6ae-938b451a7b7d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*PEMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES structure [Windows GDI], PEMRSETPALETTEENTRIES, PEMRSETPALETTEENTRIES structure pointer [Windows GDI], _win32_EMRSETPALETTEENTRIES_str, gdi.emrsetpaletteentries, tagEMRSETPALETTEENTRIES, wingdi/EMRSETPALETTEENTRIES, wingdi/PEMRSETPALETTEENTRIES"
 ms.prod: windows
 ms.technology: windows-sdk

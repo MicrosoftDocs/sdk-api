@@ -7,7 +7,7 @@ old-location: winsock\wsastartup_2.htm
 tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ The <b>WSAStartup</b> function directly returns the extended error code in the r
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSNOTREADY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSNOTREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ The underlying network subsystem is not ready for network communication.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +117,7 @@ The version of Windows Sockets support requested is not provided by this particu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +128,7 @@ A blocking Windows Sockets 1.1 operation is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROCLIM</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROCLIM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ A limit on the number of tasks supported by the Windows Sockets implementation h
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -255,7 +255,7 @@ The following table shows how
 <td>1.0</td>
 <td>—</td>
 <td>—</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAVERNOTSUPPORTED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></td>
 </tr>
 <tr>
 <td>1.0 1.1</td>
@@ -338,14 +338,18 @@ the <b>WSAStartup</b> function fails or the <b>WSAStartup</b> function was not c
 The following code fragment demonstrates how an application that supports only version 2.2 of Windows Sockets makes a 
 <b>WSAStartup</b> call:
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define WIN32_LEAN_AND_MEAN
 
-```cpp
-#define WIN32_LEAN_AND_MEAN
-
-#include <windows.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -361,7 +365,7 @@ int __cdecl main()
 /* Use the MAKEWORD(lowbyte, highbyte) macro declared in Windef.h */
     wVersionRequested = MAKEWORD(2, 2);
 
-    err = WSAStartup(wVersionRequested, &wsaData);
+    err = WSAStartup(wVersionRequested, &amp;wsaData);
     if (err != 0) {
         /* Tell the user that we could not find a usable */
         /* Winsock DLL.                                  */
@@ -396,10 +400,10 @@ int __cdecl main()
 
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -408,7 +412,7 @@ int __cdecl main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632663(v=VS.85).aspx">MAKEWORD</a>
+<a href="_win32_MAKEWORD_cpp">MAKEWORD</a>
 
 
 

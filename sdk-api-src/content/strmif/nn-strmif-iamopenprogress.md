@@ -7,7 +7,7 @@ old-location: dshow\iamopenprogress.htm
 tech.root: DirectShow
 ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
 ms.prod: windows
 ms.technology: windows-sdk

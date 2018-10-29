@@ -4,10 +4,10 @@ title: D2D1_BITMAPSOURCE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 02E1108D-FD73-4031-B709-5993D42D102F
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: D2D1_BITMAPSOURCE_PROP, D2D1_BITMAPSOURCE_PROP enumeration [Direct2D], D2D1_BITMAPSOURCE_PROP_ALPHA_MODE, D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION, D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE, D2D1_BITMAPSOURCE_PROP_ORIENTATION, D2D1_BITMAPSOURCE_PROP_SCALE, D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, d2d1effects/D2D1_BITMAPSOURCE_PROP, d2d1effects/D2D1_BITMAPSOURCE_PROP_ALPHA_MODE, d2d1effects/D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION, d2d1effects/D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_BITMAPSOURCE_PROP_ORIENTATION, d2d1effects/D2D1_BITMAPSOURCE_PROP_SCALE, d2d1effects/D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, direct2d.d2d1_bitmapsource_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706312(v=VS.85).aspx">Bitmap source effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/86646111-208A-4E6D-A28C-7B23A1742D24">Bitmap source effect</a>.
         
 
 
@@ -86,7 +86,7 @@ The interpolation mode used to scale the image.
           If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934214(v=VS.85).aspx">D2D1_BITMAPSOURCE_INTERPOLATION_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/2912E2FA-4B1D-43FF-9684-22C3B2720395">D2D1_BITMAPSOURCE_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_BITMAPSOURCE_INTERPOLATION_MODE_LINEAR.
 
@@ -107,7 +107,7 @@ The default value is FALSE.
 The alpha mode of the output. This can be either premultiplied or straight.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934213(v=VS.85).aspx">D2D1_BITMAPSOURCE_ALPHA_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/2DC16975-3ABF-4880-9F62-2EE55FE604F6">D2D1_BITMAPSOURCE_ALPHA_MODE</a>.
 
 The default value is D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED.
 
@@ -117,7 +117,7 @@ The default value is D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED.
 A flip and/or rotation operation to be performed on the image.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934215(v=VS.85).aspx">D2D1_BITMAPSOURCE_ORIENTATION</a>.
+The type is <a href="https://msdn.microsoft.com/15359FE9-99CB-4047-B5C2-0EAFC87963F0">D2D1_BITMAPSOURCE_ORIENTATION</a>.
 
 The default value is D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT.
 

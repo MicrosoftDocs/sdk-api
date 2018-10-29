@@ -4,10 +4,10 @@ title: TabCtrl_SetItemSize macro
 author: windows-sdk-content
 description: Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the TCM_SETITEMSIZE message explicitly.
 old-location: controls\TabCtrl_SetItemSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemsize.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: TabCtrl_SetItemSize, TabCtrl_SetItemSize macro [Windows Controls], _win32_TabCtrl_SetItemSize, _win32_TabCtrl_SetItemSize_cpp, commctrl/TabCtrl_SetItemSize, controls.TabCtrl_SetItemSize, controls._win32_TabCtrl_SetItemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760635(v=VS.85).aspx">TCM_SETITEMSIZE</a> message explicitly. 
+Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/3935d686-f8bc-41fb-b025-04120cf03f02">TCM_SETITEMSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the width and height of tabs in a fixed-width or owner-drawn tab control. Y
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

@@ -7,7 +7,7 @@ old-location: automat\loadtypelib.htm
 tech.root: automat
 ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LoadTypeLib, LoadTypeLib function [Automation], _oa96_LoadTypeLib, automat.loadtypelib, oleauto/LoadTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -213,13 +213,17 @@ If the file is a stand-alone type library implemented by Typelib.dll, the librar
 <li>
 If the file is a DLL or an executable file, it is loaded. By default, the type library is extracted from the first resource of type <a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>. To load a different type of library resource, append an integer index to <i>szFile</i>. For example: 
 
-
-```cpp
-ITypeLib *ptlib;
-LoadTypeLib("C:\\MONTANA\\EXE\\MFA.EXE\\3", &ptlib)
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ITypeLib *ptlib;
+LoadTypeLib("C:\\MONTANA\\EXE\\MFA.EXE\\3", &amp;ptlib)</pre>
+</td>
+</tr>
+</table></span></div>
 This statement loads the type library resource 3 from the file Mfa.exe file. 
 
 </li>

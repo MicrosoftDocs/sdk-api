@@ -4,10 +4,10 @@ title: IEnumACDGroup::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumacdgroup_clone.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumACDGroup interface, IEnumACDGroup interface [TAPI 2.2],Clone method, IEnumACDGroup.Clone, IEnumACDGroup::Clone, _tapi3_ienumacdgroup_clone, tapi3.ienumacdgroup_clone, tapi3cc/IEnumACDGroup::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

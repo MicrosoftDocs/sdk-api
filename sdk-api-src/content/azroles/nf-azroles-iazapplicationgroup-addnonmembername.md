@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_addnonmembername.htm
 tech.root: SecAuthZ
 ms.assetid: 56bde3d9-f4f7-449d-a080-5215dda940a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberName method [Security],AzApplicationGroup object, AddNonMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMemberName method, IAzApplicationGroup interface [Security],AddNonMemberName method, IAzApplicationGroup.AddNonMemberName, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices

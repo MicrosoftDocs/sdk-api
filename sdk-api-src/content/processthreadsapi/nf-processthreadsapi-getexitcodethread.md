@@ -7,7 +7,7 @@ old-location: base\getexitcodethread.htm
 tech.root: ProcThread
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ This function returns immediately. If the specified thread has not terminated an
 <li>The return value from the thread function.</li>
 <li>The exit value of the thread's process.</li>
 </ul>
-<div class="alert"><b>Important</b>  The <b>GetExitCodeThread</b> function returns a valid error code defined by the application only after the thread terminates. Therefore, an application should not use <b>STILL_ACTIVE</b> (259) as an error code. If a thread returns <b>STILL_ACTIVE</b> (259) as an error code, applications that test for this value could interpret it to mean that the thread is still running and continue to test for the completion of the thread after the thread has terminated, which could put the application into an infinite loop.</div>
+<div class="alert"><b>Important</b>  The <b>GetExitCodeThread</b> function returns a valid error code defined by the application only after the thread terminates. Therefore, an application should not use <b>STILL_ACTIVE</b> (259) as an error code. If a thread returns <b>STILL_ACTIVE</b> (259) as an error code, applications that test for this value could interpret it to mean that the thread is still running and continue to test for the completion of the thread after the thread has terminated, which could put the application into an infinite loop. To avoid this problem, callers should call the <b>GetExitCodeThread</b> function only after the thread has been confirmed to have exited. Use the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a> function with a wait duration of zero to determine whether a thread has exited. </div>
 <div> </div>
 <b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later.
 

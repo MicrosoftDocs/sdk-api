@@ -7,7 +7,7 @@ old-location: security\cryptimportpkcs8.htm
 tech.root: seccrypto
 ms.assetid: fa3deff9-b4c1-4b63-a59f-738f87e1a409
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_USER_PROTECTED, CryptImportPKCS8, CryptImportPKCS8 function [Security], security.cryptimportpkcs8, wincrypt/CryptImportPKCS8
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm
 tech.root: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices

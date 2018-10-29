@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_usersidstring.htm
 tech.root: termserv
 ms.assetid: b04eeeca-de53-4b29-a5e8-15018ac11dc5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],UserSidString property, ITsSbClientConnection.UserSidString, ITsSbClientConnection.get_UserSidString, ITsSbClientConnection::UserSidString, ITsSbClientConnection::get_UserSidString, UserSidString property [Remote Desktop Services], UserSidString property [Remote Desktop Services],ITsSbClientConnection interface, get_UserSidString, sbtsv/ITsSbClientConnection::UserSidString, sbtsv/ITsSbClientConnection::get_UserSidString, termserv.itssbclientconnection_usersidstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

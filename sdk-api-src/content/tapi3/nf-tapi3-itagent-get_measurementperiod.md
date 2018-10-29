@@ -4,10 +4,10 @@ title: ITAgent::get_MeasurementPeriod
 author: windows-sdk-content
 description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itagent_get_measurementperiod.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: ccc91dfb-83e5-496a-921d-784fcaea5af5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_MeasurementPeriod method, ITAgent.get_MeasurementPeriod, ITAgent::get_MeasurementPeriod, _tapi3_itagent_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_measurementperiod, tapi3cc/ITAgent::get_MeasurementPeriod
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_usersize64.htm
 tech.root: automat
 ms.assetid: 5F41D197-027E-4640-833A-4F6239F0DFB0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation], automat.lpsafearray_usersize64, wia_xp/LPSAFEARRAY_UserSize64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/9ec8025b-476
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - Offset [in]
-
-Sets the buffer offset so that the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - ppSafeArray [in]
+### -param arg2 [in]
+
+Sets the buffer offset so that the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
+
+
+### -param arg3 [in]
 
 The safe array that contains the data to marshal.
 

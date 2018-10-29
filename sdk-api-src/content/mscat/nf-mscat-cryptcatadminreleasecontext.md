@@ -7,7 +7,7 @@ old-location: security\cryptcatadminreleasecontext.htm
 tech.root: seccrypto
 ms.assetid: dff253dc-c444-46be-a383-41340d634cce
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

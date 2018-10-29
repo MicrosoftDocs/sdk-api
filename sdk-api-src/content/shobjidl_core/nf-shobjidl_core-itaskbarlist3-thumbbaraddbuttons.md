@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
 tech.root: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarAddButtons method, ITaskbarList3.ThumbBarAddButtons, ITaskbarList3::ThumbBarAddButtons, ThumbBarAddButtons, ThumbBarAddButtons method [Windows Shell], ThumbBarAddButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarAddButtons, shell.ITaskbarList3_ThumbBarAddButtons, shobjidl_core/ITaskbarList3::ThumbBarAddButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,9 +115,9 @@ The <i>hwnd</i> parameter does not specify a handle that belongs to the process 
 
 This method allows an application to define buttons for an active toolbar control that is embedded in a window's taskbar thumbnail preview. This provides access to the window's essential commands without making the user restore or activate the window. For example, Windows Media Player might offer standard media transport controls such as play, pause, mute, and stop.
 
-The toolbar used in the thumbnail is essentially a standard <a href="https://msdn.microsoft.com/en-us/library/Bb760435(v=VS.85).aspx">toolbar</a> control. It has a maximum of seven buttons, and it is center-aligned, transparent, and displayed in an area beneath the thumbnail rather than covering any portion of it. Each button's ID, image, tooltip, and state are defined in a <a href="https://msdn.microsoft.com/c13657b2-5b96-45ae-b339-b06b13aca65d">THUMBBUTTON</a> structure, which is then passed to the taskbar. The application can then subsequently show, alter, or hide buttons from the thumbnail toolbar as required by its current state by calling <a href="https://msdn.microsoft.com/5bb38b1e-dc09-4868-b424-f11beca6e64f">ITaskbarList3::ThumbBarUpdateButtons</a>.
+The toolbar used in the thumbnail is essentially a standard <a href="https://msdn.microsoft.com/944447c6-d804-421c-9669-a3767a00730a">toolbar</a> control. It has a maximum of seven buttons, and it is center-aligned, transparent, and displayed in an area beneath the thumbnail rather than covering any portion of it. Each button's ID, image, tooltip, and state are defined in a <a href="https://msdn.microsoft.com/c13657b2-5b96-45ae-b339-b06b13aca65d">THUMBBUTTON</a> structure, which is then passed to the taskbar. The application can then subsequently show, alter, or hide buttons from the thumbnail toolbar as required by its current state by calling <a href="https://msdn.microsoft.com/5bb38b1e-dc09-4868-b424-f11beca6e64f">ITaskbarList3::ThumbBarUpdateButtons</a>.
 
-When a button in a thumbnail toolbar is clicked, the window associated with that thumbnail is sent a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message with the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> of its <i>wParam</i> parameter set to <b>THBN_CLICKED</b> and the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> to the button ID.
+When a button in a thumbnail toolbar is clicked, the window associated with that thumbnail is sent a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> message with the <a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a> of its <i>wParam</i> parameter set to <b>THBN_CLICKED</b> and the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> to the button ID.
 
 After a toolbar has been added to a thumbnail, buttons can be altered only through <a href="https://msdn.microsoft.com/5bb38b1e-dc09-4868-b424-f11beca6e64f">ITaskbarList3::ThumbBarUpdateButtons</a>. While individual buttons cannot be added or removed, they can be shown and hidden through <b>ThumbBarUpdateButtons</b> as needed. The toolbar itself cannot be removed without re-creating the window itself.
 
@@ -130,9 +130,13 @@ Thumbnail toolbars are displayed only when thumbnails are being displayed. For i
 
 The following example shows how to use <b>ThumbBarAddButtons</b> to add a toolbar that contains two buttons to a thumbnail on the extended taskbar.
 
-
-```cpp
-HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 {
     // Define an array of two buttons. These buttons provide images through an 
     // image list and also provide tooltips.
@@ -156,25 +160,25 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
     HRESULT hr = CoCreateInstance(CLSID_TaskbarList, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&ptbl);
+                                  IID_PPV_ARGS(&amp;ptbl);
 
     if (SUCCEEDED(hr))
     {
         // Declare the image list that contains the button images.
-        hr = ptbl->ThumbBarSetImageList(hwnd, himl);
+        hr = ptbl-&gt;ThumbBarSetImageList(hwnd, himl);
 
         if (SUCCEEDED(hr))
         {
             // Attach the toolbar to the thumbnail.
-            hr = ptbl->ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &thbButtons);
+            hr = ptbl-&gt;ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &amp;thbButtons);
         }
-        ptbl->Release();
+        ptbl-&gt;Release();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

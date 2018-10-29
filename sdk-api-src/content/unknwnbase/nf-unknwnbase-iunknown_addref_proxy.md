@@ -7,7 +7,7 @@ old-location: rpc\iunknown_addref_proxy.htm
 tech.root: Rpc
 ms.assetid: a95efffc-1761-40ae-80d2-c2a4ceddab6c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iunknown_addref_proxy, unknwnbase/IUnknown_AddRef_Proxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[IUnknown_AddRef_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>IUnknown_AddRef_Proxy</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method for all interface proxies.
+The <b>IUnknown_AddRef_Proxy</b> function implements the <a href="_com_iunknown_addref">AddRef</a> method for all interface proxies.
 
 
 ## -parameters

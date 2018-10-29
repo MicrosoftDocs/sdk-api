@@ -7,7 +7,7 @@ old-location: base\rtwqsetdeadline.htm
 tech.root: ProcThread
 ms.assetid: 1A5D6352-283C-43FC-B011-48DFA69BC75A
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: RtwqSetDeadline, RtwqSetDeadline function, base.rtwqsetdeadline, rtworkq/RtwqSetDeadline
 ms.prod: windows-hardware
 ms.technology: windows-devices

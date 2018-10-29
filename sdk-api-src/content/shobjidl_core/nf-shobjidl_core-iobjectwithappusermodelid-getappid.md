@@ -7,7 +7,7 @@ old-location: shell\IObjectWithAppUserModelID_GetAppID.htm
 tech.root: shell
 ms.assetid: da6c4799-fda9-43e5-86eb-91a40db5ab6c
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetAppID, GetAppID method [Windows Shell], GetAppID method [Windows Shell],IObjectWithAppUserModelID interface, IObjectWithAppUserModelID interface [Windows Shell],GetAppID method, IObjectWithAppUserModelID.GetAppID, IObjectWithAppUserModelID::GetAppID, _shell_IObjectWithAppUserModelID_GetAppID, shell.IObjectWithAppUserModelID_GetAppID, shobjidl_core/IObjectWithAppUserModelID::GetAppID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\eavdecddoperationalmode.htm
 tech.root: DirectShow
 ms.assetid: 00d3f086-eaba-4bd2-ba77-401101e92570
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: codecapi/eAVDecDDOperationalMode, codecapi/eAVDecDDOperationalMode_CUSTOM0, codecapi/eAVDecDDOperationalMode_CUSTOM1, codecapi/eAVDecDDOperationalMode_LINE, codecapi/eAVDecDDOperationalMode_NONE, codecapi/eAVDecDDOperationalMode_PORTABLE11, codecapi/eAVDecDDOperationalMode_PORTABLE14, codecapi/eAVDecDDOperationalMode_PORTABLE8, codecapi/eAVDecDDOperationalMode_RF, dshow.eavdecddoperationalmode, eAVDecDDOperationalMode, eAVDecDDOperationalMode enumeration [DirectShow], eAVDecDDOperationalModeEnumeration, eAVDecDDOperationalMode_CUSTOM0, eAVDecDDOperationalMode_CUSTOM1, eAVDecDDOperationalMode_LINE, eAVDecDDOperationalMode_NONE, eAVDecDDOperationalMode_PORTABLE11, eAVDecDDOperationalMode_PORTABLE14, eAVDecDDOperationalMode_PORTABLE8, eAVDecDDOperationalMode_RF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ No dynamic range control or dialogue normalization (dialnorm). This mode should 
 
 ### -field eAVDecDDOperationalMode_LINE
 
-Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="https://msdn.microsoft.com/8771a5f9-878b-43fd-8eaa-0bfc276194aa">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="https://msdn.microsoft.com/en-us/library/Dd317623(v=VS.85).aspx">AVDecDDDynamicRangeScaleLow</a> property.
+Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="https://msdn.microsoft.com/8771a5f9-878b-43fd-8eaa-0bfc276194aa">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="https://msdn.microsoft.com/d723c825-f2f1-4ba0-a667-8285009764fd">AVDecDDDynamicRangeScaleLow</a> property.
 
 
 ### -field eAVDecDDOperationalMode_RF
@@ -106,11 +106,11 @@ Dialnorm enabled, dialogue at -14dBFS. Dynamic range and compression used. High-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_DoRename.htm
 tech.root: shell
 ms.assetid: 194804bc-c446-491b-9452-996132a65fcf
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: DoRename, DoRename method [Windows Shell], DoRename method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],DoRename method, IFolderView2.DoRename, IFolderView2::DoRename, _shell_IFolderView2_DoRename, shell.IFolderView2_DoRename, shobjidl_core/IFolderView2::DoRename
 ms.prod: windows-hardware
 ms.technology: windows-devices

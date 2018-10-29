@@ -7,7 +7,7 @@ old-location: intl\getoemcp.htm
 tech.root: Intl
 ms.assetid: e6d42641-4bbe-44d8-baea-1087e48dae7d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetOEMCP, GetOEMCP function [Internationalization for Windows Applications], _win32_GetOEMCP, intl.getoemcp, winnls/GetOEMCP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: opengl\wglmakecurrent.htm
 tech.root: OpenGL
 ms.assetid: a1d3cbc9-2587-4f49-9d7d-749cf9a3ecfe
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,10 @@ The <b>wglMakeCurrent</b> function makes a specified OpenGL rendering context th
 
 ### -param arg1
 
-TBD
+Handle to a device context. Subsequent OpenGL calls made by the calling thread are drawn on the device identified by <i>hdc</i>.
 
 
 ### -param arg2
-
-TBD
-
-
-
-
-
-
-#### - hglrc
 
 Handle to an OpenGL rendering context that the function sets as the calling thread's rendering context.
 

@@ -4,10 +4,10 @@ title: RasCreatePhonebookEntryA function
 author: windows-sdk-content
 description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
 old-location: rras\rascreatephonebookentry.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: da8bd49f-e890-4e8a-ab4d-7366c6f2b361
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasCreatePhonebookEntry, RasCreatePhonebookEntry function [RAS], RasCreatePhonebookEntryA, RasCreatePhonebookEntryW, _ras_rascreatephonebookentry, ras/RasCreatePhonebookEntry, ras/RasCreatePhonebookEntryA, ras/RasCreatePhonebookEntryW, rras.rascreatephonebookentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,24 +63,12 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Handle to the parent window of the dialog box.
 
 
-#### - lpszPhonebook [in]
+### -param arg2 [in]
 
  Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 

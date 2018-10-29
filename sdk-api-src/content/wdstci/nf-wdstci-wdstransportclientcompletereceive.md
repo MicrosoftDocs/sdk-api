@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientcompletereceive.htm
 tech.root: Wds
 ms.assetid: 1c5cdd44-e818-43ef-aaba-60a01660f7cf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WdsTransportClientCompleteReceive, WdsTransportClientCompleteReceive function [Windows Deployment Services], wds.wdstransportclientcompletereceive, wdstci/WdsTransportClientCompleteReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_enumsurfaces.htm
 tech.root: directdraw
 ms.assetid: d97135f3-9921-4e0c-b5ba-e4f709a5e32d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DDENUMSURFACES_ALL, DDENUMSURFACES_CANBECREATED, DDENUMSURFACES_DOESEXIST, DDENUMSURFACES_MATCH, DDENUMSURFACES_NOMATCH, EnumSurfaces, EnumSurfaces method [DirectDraw], EnumSurfaces method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumSurfaces method, IDirectDraw7.EnumSurfaces, IDirectDraw7::EnumSurfaces, ddraw/IDirectDraw7::EnumSurfaces, directdraw.idirectdraw7_enumsurfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,29 +59,7 @@ Enumerates all the existing or possible surfaces that meet the specified surface
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 A combination of one search type flag and one matching flag. The search type flag determines how the method searches for matching surfaces; you can search for surfaces that can be created using the description in the <i>lpDDSD2</i> parameter or for existing surfaces that already match that description. The matching flag determines whether the method enumerates all surfaces, only those that match, or only those that do not match the description in the <i>lpDDSD2</i> parameter.
 
@@ -120,17 +98,17 @@ Searches for any surface that matches the surface description.
 Searches for any surface that does not match the surface description.
 
 
-#### - lpContext [in]
-
-Address of an application-defined structure to be passed to each enumeration member.
-
-
-#### - lpDDSD2 [in]
+### -param arg2 [in]
 
 Address of a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
 
 
-#### - lpEnumSurfacesCallback [in]
+### -param arg3 [in]
+
+Address of an application-defined structure to be passed to each enumeration member.
+
+
+### -param arg4 [in]
 
 Address of the <a href="https://msdn.microsoft.com/DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0">EnumSurfacesCallback7</a> function that the enumeration procedure calls every time a match is found.
 

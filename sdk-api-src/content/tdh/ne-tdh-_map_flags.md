@@ -4,10 +4,10 @@ title: "_MAP_FLAGS"
 author: windows-sdk-content
 description: Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
 old-location: etw\map_flags_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 3fc6935a-328a-4df3-8c2f-cd634d94ca16
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/26/2018
 ms.keywords: EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, EVENTMAP_INFO_FLAG_WBEM_BITMAP, EVENTMAP_INFO_FLAG_WBEM_FLAG, EVENTMAP_INFO_FLAG_WBEM_NO_MAP, EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, MAP_FLAGS, MAP_FLAGS enumeration [ETW], _MAP_FLAGS, etw.map_flags_enum, tdh.map_flags_enum, tdh/EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_BITMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_FLAG, tdh/EVENTMAP_INFO_FLAG_WBEM_NO_MAP, tdh/EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, tdh/MAP_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

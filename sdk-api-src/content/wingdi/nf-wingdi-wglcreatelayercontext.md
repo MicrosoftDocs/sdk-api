@@ -7,7 +7,7 @@ old-location: opengl\wglcreatelayercontext.htm
 tech.root: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,10 @@ The <b>wglCreateLayerContext</b> function creates a new OpenGL rendering context
 
 ### -param arg1
 
-TBD
+Specifies the device context for a new rendering context.
 
 
 ### -param arg2
-
-TBD
-
-
-
-
-
-
-#### - iLayerPlane
 
 Specifies the layer plane to which you want to bind a rendering context. The value 0 identifies the main plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure.
 
@@ -103,9 +94,13 @@ With OpenGL applications that use multiple threads, you create a rendering conte
 
 The following code example shows how to use <b>wglCreateLayerContext</b>.
 
-
-```cpp
-// The following code fragment shows how to render to overlay 1  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The following code fragment shows how to render to overlay 1  
 // This example assumes that the pixel format of hdc includes   
 // overlay plane 1  
  
@@ -126,10 +121,10 @@ wglMakeCurrent(hdc, hglrc);
 wglMakeCurrent(NULL, NULL); 
  
 // delete the rendering context  
-wglDeleteContext(hglrc);
-```
-
-
+wglDeleteContext(hglrc);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

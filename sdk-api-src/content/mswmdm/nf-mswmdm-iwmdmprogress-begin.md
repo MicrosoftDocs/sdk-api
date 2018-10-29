@@ -119,19 +119,23 @@ The <a href="https://msdn.microsoft.com/8c794aff-9800-405e-853a-56dd5bd84665">IW
 
 The following C++ code is an implementation of the <b>Begin</b> method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Begin(DWORD  dwEstimatedTicks)
 {
     // TODO: Display the message: "IWMDMProgress::Begin called.: "
     // followed by the dwEstimatedTicks value.
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

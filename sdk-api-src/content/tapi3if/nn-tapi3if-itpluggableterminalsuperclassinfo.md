@@ -4,10 +4,10 @@ title: ITPluggableTerminalSuperclassInfo
 author: windows-sdk-content
 description: The ITPluggableTerminalSuperclassInfo interface exposes methods that get the name and CLSID of a pluggable terminal class.
 old-location: tapi3\itpluggableterminalsuperclassinfo.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: f9226af1-90e7-4317-af73-e1563883e2b6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo, ITPluggableTerminalSuperclassInfo interface [TAPI 2.2], ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassinfo, tapi3if/ITPluggableTerminalSuperclassInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassInfo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

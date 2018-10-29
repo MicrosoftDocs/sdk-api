@@ -7,7 +7,7 @@ old-location: winrt\roparameterizedtypeextragettypesignature.htm
 tech.root: WinRT
 ms.assetid: E51A7A3D-F4BF-44BD-ACF2-B0AC7A4161EA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RoParameterizedTypeExtraGetTypeSignature, RoParameterizedTypeExtraGetTypeSignature function [Windows Runtime], roparameterizediid/RoParameterizedTypeExtraGetTypeSignature, winrt.roparameterizedtypeextragettypesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_receivemode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_086d_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxDevice interface [Fax Service],ReceiveMode property, IFaxDevice.ReceiveMode, IFaxDevice.get_ReceiveMode, IFaxDevice::ReceiveMode, IFaxDevice::get_ReceiveMode, IFaxDevice::put_ReceiveMode, ReceiveMode property [Fax Service], ReceiveMode property [Fax Service],IFaxDevice interface, _mfax_faxdevice.receivemode_cpp, fax._mfax_faxdevice_receivemode_cpp, faxcomex/IFaxDevice::ReceiveMode, faxcomex/IFaxDevice::get_ReceiveMode, faxcomex/IFaxDevice::put_ReceiveMode, get_ReceiveMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> property is a value from the <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
+The <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> property is a value from the <a href="https://msdn.microsoft.com/0fb87bfd-61b0-4130-86fd-0e6579bc55ea">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
 
 This property is read/write.
 
@@ -66,7 +66,7 @@ This property is read/write.
 
 You can set only one device to receive faxes manually at any given time. If you set a device to answer manually and another device is already set to the manual mode, the device that had been previously set will automatically change to the no-answer mode. You should call the <a href="https://msdn.microsoft.com/9517a067-d29b-4362-a3ca-0658498aba5e">IFaxDevice::Refresh</a> method on that device to see the change.
 
-Some devices, such as virtual devices, do not support the manual-answer receive mode. For those devices, the <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> will fail if you set the receive mode to <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">fdrmMANUAL_ANSWER</a>. In C++, the method will return an ERROR_NOT_SUPPORTED error code in an <b>HRESULT</b> format.
+Some devices, such as virtual devices, do not support the manual-answer receive mode. For those devices, the <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> will fail if you set the receive mode to <a href="https://msdn.microsoft.com/0fb87bfd-61b0-4130-86fd-0e6579bc55ea">fdrmMANUAL_ANSWER</a>. In C++, the method will return an ERROR_NOT_SUPPORTED error code in an <b>HRESULT</b> format.
 
 
 
@@ -76,15 +76,15 @@ Some devices, such as virtual devices, do not support the manual-answer receive 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
+<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
  
 
  

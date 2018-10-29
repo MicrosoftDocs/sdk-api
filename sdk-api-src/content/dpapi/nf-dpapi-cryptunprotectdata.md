@@ -7,7 +7,7 @@ old-location: security\cryptunprotectdata.htm
 tech.root: seccrypto
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,9 +157,13 @@ The following example shows decrypting encrypted data in a
 <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">DATA_BLOB</a> structure. This function does the decryption by using a session key that the function creates by using the user's logon credentials. For another example that uses this function, see 
 <a href="https://msdn.microsoft.com/51607aad-9fa8-4db6-bd2a-3821dce619e7">Example C Program: Using CryptProtectData</a>.
 
-
-```cpp
-// Decrypt data from DATA_BLOB DataOut to DATA_BLOB DataVerify.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Decrypt data from DATA_BLOB DataOut to DATA_BLOB DataVerify.
 
 //--------------------------------------------------------------------
 // Declare and initialize variables.
@@ -175,15 +179,15 @@ LPWSTR pDescrOut =  NULL;
 //   Begin unprotect phase.
 
 if (CryptUnprotectData(
-        &DataOut,
-        &pDescrOut,
+        &amp;DataOut,
+        &amp;pDescrOut,
         NULL,                 // Optional entropy
         NULL,                 // Reserved
         NULL,                 // Here, the optional 
                               // prompt structure is not
                               // used.
         0,
-        &DataVerify))
+        &amp;DataVerify))
 {
      printf("The decrypted data is: %s\n", DataVerify.pbData);
      printf("The description of the data was: %s\n",pDescrOut);
@@ -192,10 +196,10 @@ else
 {
     printf("Decryption error!");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -212,7 +216,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
 
 
 

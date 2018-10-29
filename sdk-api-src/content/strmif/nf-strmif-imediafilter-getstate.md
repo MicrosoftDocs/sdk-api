@@ -7,7 +7,7 @@ old-location: dshow\imediafilter_getstate.htm
 tech.root: DirectShow
 ms.assetid: b20ca3e9-bec2-4c6d-ba80-f4dae2f5a831
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IBaseFilter interface, GetState method [DirectShow],IMediaFilter interface, IBaseFilter interface [DirectShow],GetState method, IBaseFilter::GetState, IMediaFilter interface [DirectShow],GetState method, IMediaFilter.GetState, IMediaFilter::GetState, IMediaFilterGetState, dshow.imediafilter_getstate, strmif/IBaseFilter::GetState, strmif/IMediaFilter::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

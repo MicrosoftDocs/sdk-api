@@ -7,7 +7,7 @@ old-location: automat\itypelib.htm
 tech.root: automat
 ms.assetid: c1e5d71f-6a4e-45f3-811d-f57024f81a55
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation],described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ Releases the TLIBATTR originally obtained from <a href="https://msdn.microsoft.c
 
 The system registry contains a list of all the installed type libraries. Type library organization is illustrated in the following figure:
 
-<img alt="" src="./images/oa03_10.Png"/>
+<img alt="" src="images/oa03_10.Png"/>
 The <b>ITypeLib</b> interface provides methods for accessing a library of type descriptions. This interface supports the following:  
 
 <ul>
@@ -192,7 +192,7 @@ General information, including a user-readable name for the library and help for
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221172(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="387d44b7-407b-44a9-9239-a4cb20e88cac">Type Description Interfaces and Functions </a>
  
 
  

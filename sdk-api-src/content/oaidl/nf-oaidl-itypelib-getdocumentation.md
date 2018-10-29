@@ -7,7 +7,7 @@ old-location: automat\itypelib_getdocumentation.htm
 tech.root: automat
 ms.assetid: aa65e143-47db-4241-9c66-fe3a1dcf1f0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetDocumentation method, ITypeLib.GetDocumentation, ITypeLib::GetDocumentation, _oa96_ITypeLib_GetDocumentation, automat.itypelib_getdocumentation, oaidl/ITypeLib::GetDocumentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

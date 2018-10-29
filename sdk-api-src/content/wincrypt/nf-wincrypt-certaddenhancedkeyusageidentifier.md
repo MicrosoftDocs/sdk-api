@@ -7,7 +7,7 @@ old-location: security\certaddenhancedkeyusageidentifier.htm
 tech.root: seccrypto
 ms.assetid: 1bec8d2f-aa43-4a8b-9414-c3a4e5fcb470
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CertAddEnhancedKeyUsageIdentifier, CertAddEnhancedKeyUsageIdentifier function [Security], _crypto2_certaddenhancedkeyusageidentifier, security.certaddenhancedkeyusageidentifier, wincrypt/CertAddEnhancedKeyUsageIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
 
 
 

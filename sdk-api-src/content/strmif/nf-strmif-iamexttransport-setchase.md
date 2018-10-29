@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_setchase.htm
 tech.root: DirectShow
 ms.assetid: f8c94e74-e243-4fa9-85e6-8c027b514e4f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetChase method, IAMExtTransport.SetChase, IAMExtTransport::SetChase, IAMExtTransportSetChase, SetChase, SetChase method [DirectShow], SetChase method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setchase, strmif/IAMExtTransport::SetChase
 ms.prod: windows-hardware
 ms.technology: windows-devices

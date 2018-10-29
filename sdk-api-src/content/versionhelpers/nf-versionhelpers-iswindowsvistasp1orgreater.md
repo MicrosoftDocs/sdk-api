@@ -7,7 +7,7 @@ old-location: base\iswindowsvistasp1orgreater.htm
 tech.root: sysinfo
 ms.assetid: 7E74A761-E336-4618-B92F-166C3DF1FF66
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: IsWindowsVistaSP1OrGreater, IsWindowsVistaSP1OrGreater function, base.iswindowsvistasp1orgreater, versionhelpers/IsWindowsVistaSP1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,18 +85,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows Vista with SP1 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindowsVistaSP1OrGreater())
     {
        MessageBox(NULL, "You need at least Windows Vista with SP1", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an array of unsigned 64-bit integer values.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with an array of unsigned 64-bit integer values.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The number of elements in the array pointed to by <i>prgn</i>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -99,23 +99,27 @@ Creates a VT_ARRAY | VT_UI8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762343(v=VS.85).aspx">InitVariantFromUInt64Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>.
 
-
-```cpp
-ULONGLONG rgLongs[] = {4, 2};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ULONGLONG rgLongs[] = {4, 2};
 VARIANT var;
 
-HRESULT hr = InitVariantFromUInt64Array(rgLongs, ARRAYSIZE(rgLongs), &var);
+HRESULT hr = InitVariantFromUInt64Array(rgLongs, ARRAYSIZE(rgLongs), &amp;var);
 
 if (SUCCEEDED(hr))                            
 {
     // var now is valid and has type VT_ARRAY | VT_UI8.
-    VariantClear(&propvar);
-}
-```
-
-
+    VariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -124,15 +128,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>
+<a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>
+<a href="shell.InitVariantFromUInt64">InitVariantFromUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776632(v=VS.85).aspx">VariantToUInt64Array</a>
+<a href="shell.VariantToUInt64Array">VariantToUInt64Array</a>
  
 
  

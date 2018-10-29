@@ -7,7 +7,7 @@ old-location: gdi\getviewportorgex.htm
 tech.root: gdi
 ms.assetid: 6e6c7090-edf4-46a3-8bcd-10a00c0cf847
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetViewportOrgEx, GetViewportOrgEx function [Windows GDI], _win32_GetViewportOrgEx, gdi.getviewportorgex, wingdi/GetViewportOrgEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

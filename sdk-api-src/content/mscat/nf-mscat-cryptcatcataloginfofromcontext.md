@@ -7,7 +7,7 @@ old-location: security\cryptcatcataloginfofromcontext.htm
 tech.root: seccrypto
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CryptCATCatalogInfoFromContext, CryptCATCatalogInfoFromContext function [Security], mscat/CryptCATCatalogInfoFromContext, security.cryptcatcataloginfofromcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

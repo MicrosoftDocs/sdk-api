@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedLabeledBy.htm
 tech.root: WinAuto
 ms.assetid: a0c76cf1-1c59-40b9-8bb7-9a2e68bef4a9
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CachedLabeledBy property [Windows Accessibility], CachedLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLabeledBy property, IUIAutomationElement.CachedLabeledBy, IUIAutomationElement.get_CachedLabeledBy, IUIAutomationElement::CachedLabeledBy, IUIAutomationElement::get_CachedLabeledBy, get_CachedLabeledBy, uiauto.uiauto_IUIAutomationElement_CachedLabeledBy, uiauto_IUIAutomationElement_CachedLabeledBy, uiautomationclient/IUIAutomationElement::CachedLabeledBy, uiautomationclient/IUIAutomationElement::get_CachedLabeledBy, winauto.uiauto_IUIAutomationElement_CachedLabeledBy
 ms.prod: windows-hardware
 ms.technology: windows-devices

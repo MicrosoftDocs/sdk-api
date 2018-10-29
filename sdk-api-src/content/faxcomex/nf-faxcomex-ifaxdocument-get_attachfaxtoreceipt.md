@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_attachfaxtoreceipt_cpp.
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5blg.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],AttachFaxToReceipt property, IFaxDocument.AttachFaxToReceipt, IFaxDocument.get_AttachFaxToReceipt, IFaxDocument::AttachFaxToReceipt, IFaxDocument::get_AttachFaxToReceipt, IFaxDocument::put_AttachFaxToReceipt, _mfax_faxdocument.attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt, fax._mfax_faxdocument_cpp_mfax_faxdocument_attachfaxtoreceipt_cpp, faxcomex/IFaxDocument::AttachFaxToReceipt, faxcomex/IFaxDocument::get_AttachFaxToReceipt, faxcomex/IFaxDocument::put_AttachFaxToReceipt, get_AttachFaxToReceipt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,15 +76,15 @@ When a fax consisting only of a cover page is sent to multiple recipients, you c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

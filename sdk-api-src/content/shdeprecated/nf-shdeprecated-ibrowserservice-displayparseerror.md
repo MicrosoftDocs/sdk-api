@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_DisplayParseError.htm
 tech.root: shell
 ms.assetid: 966fec07-6a67-435a-8908-67999afce9f0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: DisplayParseError, DisplayParseError method [Windows Shell], DisplayParseError method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],DisplayParseError method, IBrowserService.DisplayParseError, IBrowserService::DisplayParseError, shdeprecated/IBrowserService::DisplayParseError, shell.IBrowserService_DisplayParseError, zone_IBrowserService_DisplayParseError
 ms.prod: windows-hardware
 ms.technology: windows-devices

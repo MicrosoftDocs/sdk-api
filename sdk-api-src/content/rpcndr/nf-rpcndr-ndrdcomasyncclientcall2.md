@@ -7,7 +7,7 @@ old-location: rpc\ndrdcomasyncclientcall2.htm
 tech.root: Rpc
 ms.assetid: 87BA97F8-E905-44C7-BBC6-A62240216984
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: NdrDcomAsyncClientCall2, NdrDcomAsyncClientCall2 function [RPC], rpc.ndrdcomasyncclientcall2, rpcndr/NdrDcomAsyncClientCall2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ Reserved.
 Reserved.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - param [in, out]
+### -param arg1 [in, out]
 
 Reserved.
 

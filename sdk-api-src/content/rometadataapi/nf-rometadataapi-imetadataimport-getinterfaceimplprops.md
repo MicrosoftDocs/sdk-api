@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getinterfaceimplprops.htm
 tech.root: WinRT
 ms.assetid: ff91bb07-8e3a-49f1-9cd6-1c3e18a3c242
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetInterfaceImplProps method, IMetaDataImport.GetInterfaceImplProps, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

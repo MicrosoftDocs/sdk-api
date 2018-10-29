@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IDockProvider_DockPosition.htm
 tech.root: WinAuto
 ms.assetid: aa170dec-a4e1-48ac-8434-a24b79006653
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: DockPosition property [Windows Accessibility], DockPosition property [Windows Accessibility],IDockProvider interface, IDockProvider interface [Windows Accessibility],DockPosition property, IDockProvider.DockPosition, IDockProvider.get_DockPosition, IDockProvider::DockPosition, IDockProvider::get_DockPosition, get_DockPosition, uiauto.uiauto_IDockProvider_DockPosition, uiauto_IDockProvider_DockPosition, uiautomationcore/IDockProvider::DockPosition, uiautomationcore/IDockProvider::get_DockPosition, winauto.uiauto_IDockProvider_DockPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,13 @@ A docking container is a control that allows the arrangement of child elements, 
 The following example shows how to return the DockPosition property.
 			
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     // dockPosition is a global variable of type DockPosition.
 
     HRESULT STDMETHODCALLTYPE BucketControl::get_DockPosition(DockPosition *pRetVal)
@@ -86,10 +90,10 @@ The following example shows how to return the DockPosition property.
         *pRetVal = dockPosition;
         return S_OK;
     }
-            
-```
-
-
+            </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

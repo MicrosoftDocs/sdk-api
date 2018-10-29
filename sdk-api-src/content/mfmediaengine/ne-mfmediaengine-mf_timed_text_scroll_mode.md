@@ -7,7 +7,7 @@ old-location: mf\mf_timed_text_scroll_mode.htm
 tech.root: medfound
 ms.assetid: 7FE9B5BB-7313-4E9F-A34E-FDFBC6F07686
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MF_TIMED_TEXT_SCROLL_MODE, MF_TIMED_TEXT_SCROLL_MODE enumeration [Media Foundation], MF_TIMED_TEXT_SCROLL_MODE_POP_ON, MF_TIMED_TEXT_SCROLL_MODE_ROLL_UP, mf.mf_timed_text_scroll_mode, mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE, mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE_POP_ON, mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE_ROLL_UP
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetDisplayName.htm
 tech.root: shell
 ms.assetid: 2552677b-7907-4a2b-8a2f-6769bca64029
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetDisplayName method, ISearchFolderItemFactory.SetDisplayName, ISearchFolderItemFactory::SetDisplayName, SetDisplayName, SetDisplayName method [Windows Shell], SetDisplayName method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetDisplayName, shell.ISearchFolderItemFactory_SetDisplayName, shobjidl_core/ISearchFolderItemFactory::SetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

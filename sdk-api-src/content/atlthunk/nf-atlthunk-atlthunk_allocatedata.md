@@ -7,7 +7,7 @@ old-location: base\atlthunk_allocatedata.htm
 tech.root: Memory
 ms.assetid: D306E6CB-72D4-4820-885E-175FC8500954
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AtlThunk_AllocateData, AtlThunk_AllocateData function, atlthunk/AtlThunk_AllocateData, base.atlthunk_allocatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

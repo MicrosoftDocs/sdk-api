@@ -7,7 +7,7 @@ old-location: tablet\ipeninputpanel.htm
 tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPanel interface [Tablet PC],described, peninputpanel/IPenInputPanel, tablet.ipeninputpanel
 ms.prod: windows
 ms.technology: windows-sdk

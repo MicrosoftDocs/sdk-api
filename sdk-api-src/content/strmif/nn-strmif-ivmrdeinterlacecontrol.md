@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol.htm
 tech.root: DirectShow
 ms.assetid: 77abbcd4-6538-491d-b3c2-6a29a391c68a
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], IVMRDeinterlaceControl interface [DirectShow],described, IVMRDeinterlaceControlInterface, dshow.ivmrdeinterlacecontrol, strmif/IVMRDeinterlaceControl
 ms.prod: windows
 ms.technology: windows-sdk

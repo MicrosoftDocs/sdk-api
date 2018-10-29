@@ -7,7 +7,7 @@ old-location: base\avrtjointhreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: 76e70f91-750e-49c8-8ddf-e8eddd150aa4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: AvRtJoinThreadOrderingGroup, AvRtJoinThreadOrderingGroup function, avrt/AvRtJoinThreadOrderingGroup, base.avrtjointhreadorderinggroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

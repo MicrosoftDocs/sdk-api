@@ -7,7 +7,7 @@ old-location: base\getprocessmitigationpolicy.htm
 tech.root: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

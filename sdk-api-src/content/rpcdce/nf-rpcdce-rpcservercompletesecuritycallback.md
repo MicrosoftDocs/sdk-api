@@ -7,7 +7,7 @@ old-location: rpc\rpcservercompletesecuritycallback.htm
 tech.root: Rpc
 ms.assetid: 4DF613C7-CF82-47DB-9D6A-F820373534E6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcServerCompleteSecurityCallback, RpcServerCompleteSecurityCallback function [RPC], rpc.rpcservercompletesecuritycallback, rpcdce/RpcServerCompleteSecurityCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

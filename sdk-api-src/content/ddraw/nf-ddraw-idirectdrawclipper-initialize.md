@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_initialize.htm
 tech.root: directdraw
 ms.assetid: b0b71af4-f806-4264-bd14-b556b31aab29
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],Initialize method, IDirectDrawClipper.Initialize, IDirectDrawClipper::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,27 +59,15 @@ Initializes a DirectDrawClipper object that was created by using the <a href="ht
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
-
-Currently not used and must be set to 0.
-
-
-#### - lpDD [in]
+### -param arg1 [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawClipper object. If this parameter is set to NULL, an independent DirectDrawClipper object is initialized; a call of this type is equivalent to using the <a href="https://msdn.microsoft.com/12d499d2-dd4a-4831-9290-c225aec1a160">DirectDrawCreateClipper</a> function. 
 
+
+
+### -param arg2 [in]
+
+Currently not used and must be set to 0.
 
 
 ## -returns

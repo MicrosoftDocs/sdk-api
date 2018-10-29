@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinterface.htm
 tech.root: devinst
 ms.assetid: e5f78c34-b61c-4fcb-b021-fb8d07c2d841
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: SetupDiCreateDeviceInterface, SetupDiCreateDeviceInterface function [Device and Driver Installation], SetupDiCreateDeviceInterfaceA, SetupDiCreateDeviceInterfaceW, devinst.setupdicreatedeviceinterface, di-rtns_252e73f4-f140-44bf-bd81-abb08a036df7.xml, setupapi/SetupDiCreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiCreateDeviceInterface</b> function registers a device interface on
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>. This set contains a device information element that represents the device for which to register an interface. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>. 
+A handle to a <a href="devinst.device_information_sets">device information set</a>. This set contains a device information element that represents the device for which to register an interface. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>. 
 
 
 ### -param DeviceInfoData [in]

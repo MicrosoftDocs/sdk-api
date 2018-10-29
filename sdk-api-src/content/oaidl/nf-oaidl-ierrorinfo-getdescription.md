@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo_getdescription.htm
 tech.root: automat
 ms.assetid: 672884a8-4dfc-473c-a13d-d1723fcd01cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetDescription, GetDescription method [Automation], GetDescription method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetDescription method, IErrorInfo.GetDescription, IErrorInfo::GetDescription, _oa96_IErrorInfo_GetDescription, automat.ierrorinfo_getdescription, oaidl/IErrorInfo::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

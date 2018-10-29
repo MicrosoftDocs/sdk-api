@@ -7,7 +7,7 @@ old-location: devinst\setupdisetselecteddevice.htm
 tech.root: devinst
 ms.assetid: d3ce8a05-d26b-452f-8418-e104ae486a1a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: SetupDiSetSelectedDevice, SetupDiSetSelectedDevice function [Device and Driver Installation], devinst.setupdisetselecteddevice, di-rtns_db49eaf1-c6cb-48ef-ae17-f5c578672eca.xml, setupapi/SetupDiSetSelectedDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiSetSelectedDevice</b> function sets a device information element a
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device information element to set as the selected member of the device information set. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element to set as the selected member of the device information set. 
 
 
 ### -param DeviceInfoData [in]

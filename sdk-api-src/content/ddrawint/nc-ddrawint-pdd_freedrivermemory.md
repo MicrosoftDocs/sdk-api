@@ -7,7 +7,7 @@ old-location: display\ddfreedrivermemory.htm
 tech.root: display
 ms.assetid: dd37c6b5-2039-487f-badc-840ac6cc7906
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: DdFreeDriverMemory, DdFreeDriverMemory callback function [Display Devices], PDD_FREEDRIVERMEMORY, PDD_FREEDRIVERMEMORY callback, ddfncs_cbc94a36-d6b1-45e5-925e-17738eae3904.xml, ddrawint/DdFreeDriverMemory, display.ddfreedrivermemory
 ms.prod: windows
 ms.technology: windows-sdk

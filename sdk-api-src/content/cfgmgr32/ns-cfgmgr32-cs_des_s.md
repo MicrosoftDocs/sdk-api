@@ -7,7 +7,7 @@ old-location: devinst\cs_des.htm
 tech.root: devinst
 ms.assetid: 16b47fe9-cb84-453d-b515-bfdba254f947
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCS_DES, CS_DES, CS_DES structure [Device and Driver Installation], CS_Des_s, PCS_DES, PCS_DES structure pointer [Device and Driver Installation], cfgmgr32/CS_DES, cfgmgr32/PCS_DES, cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml, devinst.cs_des"
 ms.prod: windows
 ms.technology: windows-sdk

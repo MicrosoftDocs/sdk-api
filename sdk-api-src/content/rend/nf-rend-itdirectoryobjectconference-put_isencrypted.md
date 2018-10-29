@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::put_IsEncrypted
 author: windows-sdk-content
 description: The put_IsEncrypted method sets whether the conference is encrypted.
 old-location: tapi3\itdirectoryobjectconference_put_isencrypted.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: af2d55be-cd4f-498b-9c23-abb2dda39f6e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_IsEncrypted method, ITDirectoryObjectConference.put_IsEncrypted, ITDirectoryObjectConference::put_IsEncrypted, _tapi3_itdirectoryobjectconference_put_isencrypted, put_IsEncrypted, put_IsEncrypted method [TAPI 2.2], put_IsEncrypted method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_IsEncrypted, tapi3.itdirectoryobjectconference_put_isencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices

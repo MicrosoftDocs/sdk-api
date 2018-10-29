@@ -4,10 +4,10 @@ title: uaw_wcslen function
 author: windows-sdk-content
 description: Retrieves the number of characters in a null-terminated Unicode string.
 old-location: winprog\uaw_wcslen.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 006e09df-9df3-48e8-9eaa-d8e95369424a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: stralign/uaw_wcslen, uaw_wcslen, uaw_wcslen function [Windows API], winprog.uaw_wcslen
 ms.prod: windows-hardware
 ms.technology: windows-devices

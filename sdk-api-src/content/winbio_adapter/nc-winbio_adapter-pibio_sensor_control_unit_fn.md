@@ -196,9 +196,13 @@ This function must check the value of the <i>ReceiveBufferSize</i> parameter to 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterControlUnit
 //
@@ -252,11 +256,11 @@ SensorAdapterControlUnit(
 
     // Retrieve the context from the pipeline.
     PWINBIO_SENSOR_CONTEXT sensorContext = 
-                 (PWINBIO_SENSOR_CONTEXT)Pipeline->SensorContext;
+                 (PWINBIO_SENSOR_CONTEXT)Pipeline-&gt;SensorContext;
 
     // Verify the state of the pipeline.
     if (sensorContext == NULL || 
-        Pipeline->SensorHandle == INVALID_HANDLE_VALUE)
+        Pipeline-&gt;SensorHandle == INVALID_HANDLE_VALUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -269,7 +273,7 @@ SensorAdapterControlUnit(
             CTRL_CODE_NP1_SEND_BUFFER *sendBuffer = (CTRL_CODE_NP1_SEND_BUFFER*)SendBuffer;
 
             // Verify the size of the send buffer.
-            if (SendBufferSize < sizeof(CTRL_CODE_NP1_SEND_BUFFER))
+            if (SendBufferSize &lt; sizeof(CTRL_CODE_NP1_SEND_BUFFER))
             {
                 hr = E_INVALIDARG;
                 break;
@@ -277,14 +281,14 @@ SensorAdapterControlUnit(
 
             // Perform any other checks that may be required on the buffer 
             // contents. Return E_INVALIDARG if any of the checks fail.
-            if (sendBuffer->SomeField != SomeSpecialValue ||
-                sendBuffer->SomeOtherField != SomeOtherSpecialValue)
+            if (sendBuffer-&gt;SomeField != SomeSpecialValue ||
+                sendBuffer-&gt;SomeOtherField != SomeOtherSpecialValue)
             {
                 hr = E_INVALIDARG;
                 break;
             }
 
-            if (ReceiveBufferSize < sizeof(CTRL_CODE_NP1_RECEIVE_BUFFER))
+            if (ReceiveBufferSize &lt; sizeof(CTRL_CODE_NP1_RECEIVE_BUFFER))
             {
                 hr = E_NOT_SUFFICIENT_BUFFER;
                 break;
@@ -303,7 +307,7 @@ SensorAdapterControlUnit(
             CTRL_CODE_NP2_SEND_BUFFER *sendBuffer = (CTRL_CODE_NP2_SEND_BUFFER*)SendBuffer;
 
             // Verify the size of the send buffer.
-            if (SendBufferSize < sizeof(CTRL_CODE_NP2_SEND_BUFFER))
+            if (SendBufferSize &lt; sizeof(CTRL_CODE_NP2_SEND_BUFFER))
             {
                 hr = E_INVALIDARG;
                 break;
@@ -311,14 +315,14 @@ SensorAdapterControlUnit(
 
             // Perform any other checks that may be required on the buffer 
             // contents. Return E_INVALIDARG if any of the checks fail.
-            if (sendBuffer->SomeField != SomeSpecialValue ||
-                sendBuffer->SomeOtherField != SomeOtherSpecialValue)
+            if (sendBuffer-&gt;SomeField != SomeSpecialValue ||
+                sendBuffer-&gt;SomeOtherField != SomeOtherSpecialValue)
             {
                 hr = E_INVALIDARG;
                 break;
             }
 
-            if (ReceiveBufferSize < sizeof(CTRL_CODE_NP2_RECEIVE_BUFFER))
+            if (ReceiveBufferSize &lt; sizeof(CTRL_CODE_NP2_RECEIVE_BUFFER))
             {
                 hr = E_NOT_SUFFICIENT_BUFFER;
                 break;
@@ -340,22 +344,22 @@ SensorAdapterControlUnit(
     // example assumes that the driver performs overlapped I/O and that a properly 
     // initialized OVERLAPPED structure is contained in the sensor context.
     result = DeviceIoControl(
-                Pipeline->SensorHandle,
+                Pipeline-&gt;SensorHandle,
                 ControlCode,
                 SendBuffer,
                 (DWORD)SendBufferSize,
                 ReceiveBuffer,
                 (DWORD)ReceiveBufferSize,
                 (LPDWORD)ReceiveDataSize,
-                &sensorContext->Overlapped
+                &amp;sensorContext-&gt;Overlapped
                 );
-    if (result == FALSE && GetLastError() == ERROR_IO_PENDING)
+    if (result == FALSE &amp;&amp; GetLastError() == ERROR_IO_PENDING)
     {
         SetLastError(ERROR_SUCCESS);
 
         result = GetOverlappedResult(
-                    Pipeline->SensorHandle,
-                    &sensorContext->Overlapped,
+                    Pipeline-&gt;SensorHandle,
+                    &amp;sensorContext-&gt;Overlapped,
                     (LPDWORD)ReceiveDataSize,
                     TRUE
                     );
@@ -371,10 +375,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

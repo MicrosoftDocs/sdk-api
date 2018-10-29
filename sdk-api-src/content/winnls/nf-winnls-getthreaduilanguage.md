@@ -7,7 +7,7 @@ old-location: intl\getthreaduilanguage.htm
 tech.root: Intl
 ms.assetid: c10cbf84-8aaf-46c7-8b2f-e719e30f2556
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetThreadUILanguage, GetThreadUILanguage function [Internationalization for Windows Applications], _win32_GetThreadUILanguage, intl.getthreaduilanguage, winnls/GetThreadUILanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,14 +85,18 @@ Calling this function is identical to calling <a href="https://msdn.microsoft.co
 The return value for this function does not provide useful information about a Language Interface Pack (LIP) language if that language corresponds to a <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">supplemental locale</a>. For such a language, the function returns the hexadecimal value "1400", which corresponds to <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a> if that language is specified in the user preferred UI languages list. If the language is not specified in the user preferred UI languages list, the function returns the value "1000", corresponding to <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.UInt16 GetThreadUILanguage();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

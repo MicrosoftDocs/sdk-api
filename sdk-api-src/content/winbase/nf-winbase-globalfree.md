@@ -7,7 +7,7 @@ old-location: base\globalfree.htm
 tech.root: Memory
 ms.assetid: 5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GlobalFree, GlobalFree function, _win32_globalfree, base.globalfree, winbase/GlobalFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

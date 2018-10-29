@@ -7,7 +7,7 @@ old-location: wds\pxetrace.htm
 tech.root: Wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,13 +138,6 @@ Address of a buffer that contains a printf-style format string.
 
 
 ### -param arg1
-
-TBD
-
-
-
-
-#### - param
 
 Optional arguments. The number and type of argument parameters depend on the format control string pointed 
       to by the <i>pszFormat</i> parameter.

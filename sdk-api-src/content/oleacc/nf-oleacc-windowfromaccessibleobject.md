@@ -7,7 +7,7 @@ old-location: winauto\windowfromaccessibleobject.htm
 tech.root: WinAuto
 ms.assetid: b3a3d3dd-ef84-4323-ab6d-6331d8389f11
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Windows Accessibility], _msaa_WindowFromAccessibleObject, msaa.windowfromaccessibleobject, oleacc/WindowFromAccessibleObject, winauto.windowfromaccessibleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Retrieves the window handle that corresponds to a particular instance of an <a h
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b>IAccessible*</b>
+
+Pointer to the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
 
 
 ### -param phwnd [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>*</b>
 
 Address of a variable that receives a handle to the window containing the object specified in <i>pacc</i>. If this value is <b>NULL</b> after the call, the object is not contained within a window; for example, the mouse pointer is not contained within a window.
-
-
-#### - param [in]
-
-Type: <b>IAccessible*</b>
-
-Pointer to the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getmemberprops.htm
 tech.root: WinRT
 ms.assetid: b278947f-4e84-4438-bb93-11bfd2d56be3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetMemberProps, GetMemberProps method [Windows Runtime], GetMemberProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMemberProps method, IMetaDataImport.GetMemberProps, IMetaDataImport::GetMemberProps, rometadataapi/IMetaDataImport::GetMemberProps, winrt.imetadataimport_getmemberprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

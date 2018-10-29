@@ -2,21 +2,21 @@
 UID: NE:mmcobj.ColumnSortOrder
 title: ColumnSortOrder
 author: windows-sdk-content
-description: The ColumnSortOrder enumeration is used by the Column.SetAsSortColumn method to specify whether a column is sorted in ascending or descending order. This enumeration applies to the MMC 2.0 Automation Object Model.
-old-location: mmc\columnsortorder.htm
-tech.root: mmc
-ms.assetid: 2843c9fc-e422-4c1a-a348-5c6656a160ed
+description: Used by IResultsViewer::SortOrderProperty to indicate or set how a query is to be sorted.
+old-location: lwef\search_2x_columnsortorder.htm
+tech.root: lwef
+ms.assetid: VS|search|~\search\wds2x\reference\enum\columnsortorder.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
-ms.keywords: COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumeration [MMC], SortOrder_Ascending, SortOrder_Descending, _ColumnSortOrder, _ColumnSortOrder enumeration [MMC], _slate_columnsortorder, mmc.columnsortorder, mmcobj/ColumnSortOrder, mmcobj/SortOrder_Ascending, mmcobj/SortOrder_Descending
+ms.date: 10/26/2018
+ms.keywords: AscItems, COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumeration [Legacy Windows Environment Features], DescItems, _ColumnSortOrder, lwef.search_2x_columnsortorder, mmcobj/AscItems, mmcobj/ColumnSortOrder, mmcobj/DescItems, search.search_2x_columnsortorder, search_2x_ColumnSortOrder
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,9 +35,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - MmcObj.h
+ - mmcobj.h
 api_name:
- - _ColumnSortOrder
+ - ColumnSortOrder
 product: Windows
 targetos: Windows
 req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
@@ -50,10 +50,11 @@ req.redist:
 ## -description
 
 
-The 
-<b>ColumnSortOrder</b> enumeration is used by the 
-<a href="https://msdn.microsoft.com/dbbf6c9c-ba58-4588-b972-7d9b2029ee91">Column.SetAsSortColumn</a> method to specify whether a column is sorted in ascending or descending order. This enumeration applies to the 
-<a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a>.
+<p class="CCE_Message">[Windows Search 2.x is available for use in the operating system specified in the 
+
+Requirements section. It might be altered or unavailable in later versions. Use the <a href="https://msdn.microsoft.com/3590cdab-5831-4372-adf7-61814031c931">Windows Search API</a> instead.]
+
+Used by <a href="https://msdn.microsoft.com/ea05f4df-4caf-404f-8890-a109ca88555c">IResultsViewer::SortOrderProperty</a> to indicate or set how a query is to be sorted.
 
 
 ## -enum-fields
@@ -63,25 +64,18 @@ The
 
 ### -field SortOrder_Ascending
 
-The column is sorted in ascending order.
-
 
 ### -field SortOrder_Descending
 
-The column is sorted in descending order.
-
-
-## -see-also
 
 
 
+#### - AscItems
 
-<a href="https://msdn.microsoft.com/9005ab58-ec89-4168-ac7c-aeaa25c2c778">Column object</a>
+Indicates that the sort order is ascending.
 
 
+#### - DescItems
 
-<a href="https://msdn.microsoft.com/dbbf6c9c-ba58-4588-b972-7d9b2029ee91">Column.SetAsSortColumn</a>
- 
-
- 
+Indicates that the sort order is descending.
 

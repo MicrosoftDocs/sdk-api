@@ -7,7 +7,7 @@ old-location: base\irtwqplatformevents_initializationcomplete.htm
 tech.root: ProcThread
 ms.assetid: 7CAD2809-9030-4D84-9FF4-A2461EB18583
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: IRtwqPlatformEvents interface,InitializationComplete method, IRtwqPlatformEvents.InitializationComplete, IRtwqPlatformEvents::InitializationComplete, InitializationComplete, InitializationComplete method, InitializationComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_initializationcomplete, rtworkq/IRtwqPlatformEvents::InitializationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

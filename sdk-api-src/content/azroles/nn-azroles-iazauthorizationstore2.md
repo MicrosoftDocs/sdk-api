@@ -7,7 +7,7 @@ old-location: security\iazauthorizationstore2.htm
 tech.root: SecAuthZ
 ms.assetid: 8b3901a9-003f-4346-a0c7-34a1ed730949
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IAzAuthorizationStore2, IAzAuthorizationStore2 interface [Security], IAzAuthorizationStore2 interface [Security],described, azroles/IAzAuthorizationStore2, security.iazauthorizationstore2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IAzAuthorizationStore2</b> interface inherits from the <a href="https://m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzAuthorizationStore2</b> interface inherits from <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. <b>IAzAuthorizationStore2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzAuthorizationStore2</b> interface inherits from <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> and <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. <b>IAzAuthorizationStore2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

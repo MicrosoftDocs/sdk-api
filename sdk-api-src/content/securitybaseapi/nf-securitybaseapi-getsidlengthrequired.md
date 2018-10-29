@@ -7,7 +7,7 @@ old-location: security\getsidlengthrequired.htm
 tech.root: SecAuthZ
 ms.assetid: a481fb4f-20bd-4f44-a3d5-d8b8d6228339
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdi\enumlogfont.htm
 tech.root: gdi
 ms.assetid: cfae9e97-c714-40fb-88ab-95e12ea3ffa9
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPENUMLOGFONTA, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, tagENUMLOGFONTA, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dwm\milmatrix3x2d.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\milmatrix3x2d.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [Desktop Window Manager], _MilMatrix3x2D, _udwm_MilMatrix3x2D, _udwm_milmatrix3x2d_cpp, dwm.milmatrix3x2d, dwmapi/MilMatrix3x2D, winui._udwm_milmatrix3x2d
 ms.prod: windows
 ms.technology: windows-sdk

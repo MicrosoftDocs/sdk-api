@@ -7,7 +7,7 @@ old-location: rpc\iunknown_release_proxy.htm
 tech.root: Rpc
 ms.assetid: 55a1fa04-bd14-4867-b0ca-42574d71169a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IUnknown_Release_Proxy, IUnknown_Release_Proxy function [RPC], rpc.iunknown_release_proxy, unknwnbase/IUnknown_Release_Proxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[IUnknown_Release_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <a href="https://msdn.microsoft.com/4f266740-e33a-4dc1-8ade-720308bb82fe">IUnknown_Release_Proxy</a> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method for all interface proxies.
+The <a href="https://msdn.microsoft.com/4f266740-e33a-4dc1-8ade-720308bb82fe">IUnknown_Release_Proxy</a> function implements the <a href="_com_iunknown_release">Release</a> method for all interface proxies.
 
 
 ## -parameters

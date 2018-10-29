@@ -7,7 +7,7 @@ old-location: shell\LongLongToShort.htm
 tech.root: shell
 ms.assetid: c292f2f0-18c3-4675-8ff9-8c773aa6dc8e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: LongLongToShort, LongLongToShort function [Windows Shell], intsafe/LongLongToShort, shell.LongLongToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

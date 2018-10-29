@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_VerticalViewSize.htm
 tech.root: WinAuto
 ms.assetid: 9ddf60c9-68d4-4bec-8bbe-cb9bb13711e6
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalViewSize property, IScrollProvider.VerticalViewSize, IScrollProvider.get_VerticalViewSize, IScrollProvider::VerticalViewSize, IScrollProvider::get_VerticalViewSize, VerticalViewSize property [Windows Accessibility], VerticalViewSize property [Windows Accessibility],IScrollProvider interface, get_VerticalViewSize, uiauto.uiauto_IScrollProvider_VerticalViewSize, uiauto_IScrollProvider_VerticalViewSize, uiautomationcore/IScrollProvider::VerticalViewSize, uiautomationcore/IScrollProvider::get_VerticalViewSize, winauto.uiauto_IScrollProvider_VerticalViewSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

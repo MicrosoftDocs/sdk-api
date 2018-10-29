@@ -4,10 +4,10 @@ title: EDITWORDBREAKPROCEX
 author: windows-sdk-content
 description: The EditWordBreakProcEx function is an application defined callback function used with the EM_SETWORDBREAKPROCEX message.
 old-location: controls\EditWordBreakProcEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\editwordbreakprocex.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: EditWordBreakProcEx, EditWordBreakProcEx callback, EditWordBreakProcEx callback function [Windows Controls], _win32_EditWordBreakProcEx, _win32_EditWordBreakProcEx_cpp, controls.EditWordBreakProcEx, controls._win32_EditWordBreakProcEx, richedit/EditWordBreakProcEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <i>EditWordBreakProcEx</i> function is an application defined  callback function used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774292(v=VS.85).aspx">EM_SETWORDBREAKPROCEX</a> message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The 
+The <i>EditWordBreakProcEx</i> function is an application defined  callback function used with the <a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a> message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The 
 			<b>EDITWORDBREAKPROCEX</b> type defines a pointer to this callback function. <i>EditWordBreakProcEx</i> is a placeholder for the application-defined function name. 
 
 
@@ -103,7 +103,7 @@ Character set of the text.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 Word break action. Can be one of the values described for the 
-					<i>code</i> parameter in the <a href="https://msdn.microsoft.com/en-us/library/Bb788018(v=VS.85).aspx">EM_FINDWORDBREAK</a> message. 
+					<i>code</i> parameter in the <a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a> message. 
 
 
 ## -returns
@@ -174,10 +174,10 @@ Returns the character index of the word break.
 
 
 
-An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/en-us/library/Bb774292(v=VS.85).aspx">EM_SETWORDBREAKPROCEX</a> message. 
+An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a> message. 
 
 For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWordBreakProcEx</i>. Users can send 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb761665(v=VS.85).aspx">EM_SETWORDBREAKPROC</a> to set <a href="https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
+				<a href="https://msdn.microsoft.com/e5029b75-5f35-43a5-876d-24e81605bb49">EM_SETWORDBREAKPROC</a> to set <a href="https://msdn.microsoft.com/601afaee-f5cd-4b25-b9c7-5c6868b75b3f">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
 
 
 
@@ -187,15 +187,15 @@ For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWord
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788018(v=VS.85).aspx">EM_FINDWORDBREAK</a>
+<a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774292(v=VS.85).aspx">EM_SETWORDBREAKPROCEX</a>
+<a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx">EditWordBreakProc</a>
+<a href="https://msdn.microsoft.com/601afaee-f5cd-4b25-b9c7-5c6868b75b3f">EditWordBreakProc</a>
 
 
 

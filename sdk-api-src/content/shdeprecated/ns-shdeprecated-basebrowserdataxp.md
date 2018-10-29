@@ -7,7 +7,7 @@ old-location: shell\BASEBROWSERDATA.htm
 tech.root: shell
 ms.assetid: d56e42e8-a556-4470-82d9-466edd84214f
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPBASEBROWSERDATA, *LPBASEBROWSERDATAXP, BASEBROWSERDATA, BASEBROWSERDATA structure [Windows Shell], BASEBROWSERDATAXP, FALSE, LPCBASEBROWSERDATA, LPCBASEBROWSERDATA structure pointer [Windows Shell], SECURELOCK_FIRSTSUGGEST, SECURELOCK_NOCHANGE, SECURELOCK_SET_FORTEZZA, SECURELOCK_SET_MIXED, SECURELOCK_SET_SECURE128BIT, SECURELOCK_SET_SECURE40BIT, SECURELOCK_SET_SECURE56BIT, SECURELOCK_SET_SECUREUNKNOWNBIT, SECURELOCK_SET_UNSECURE, SECURELOCK_SUGGEST_FORTEZZA, SECURELOCK_SUGGEST_MIXED, SECURELOCK_SUGGEST_SECURE128BIT, SECURELOCK_SUGGEST_SECURE40BIT, SECURELOCK_SUGGEST_SECURE56BIT, SECURELOCK_SUGGEST_SECUREUNKNOWNBIT, SECURELOCK_SUGGEST_UNSECURE, TRUE, shdeprecated/BASEBROWSERDATA, shdeprecated/LPCBASEBROWSERDATA, shell.BASEBROWSERDATA, zone_BASEBROWSERDATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb
 
 ### -field _phlf
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>*</b>
+Type: <b><a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
+A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
     
                         
 
@@ -86,9 +86,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/library/Aa767938(
 
 ### -field _pautoWB2
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> object.
+A pointer to the browser's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> object.
 
 
 ### -field _pautoEDS

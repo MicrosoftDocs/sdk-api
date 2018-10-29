@@ -7,7 +7,7 @@ old-location: opengl\wglcopycontext.htm
 tech.root: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,29 +60,15 @@ The <b>wglCopyContext</b> function copies selected groups of rendering states fr
 
 ### -param arg1
 
-TBD
+Specifies the source OpenGL rendering context whose state information is to be copied.
 
 
 ### -param arg2
 
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-
-
-#### - hglrcDst
-
 Specifies the destination OpenGL rendering context to which state information is to be copied.
 
 
-#### - mask
+### -param arg3
 
 Specifies which groups of the <i>hglrcSrc</i> rendering state are to be copied to <i>hglrcDst</i>. It contains the bitwise-OR of the same symbolic names that are passed to the <b>glPushAttrib</b> function. You can use GL_ALL_ATTRIB_BITS to copy all the rendering state information.
 

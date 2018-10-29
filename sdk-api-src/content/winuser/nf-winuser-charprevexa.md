@@ -7,7 +7,7 @@ old-location: menurc\charprevexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprevexa.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharPrevExA, CharPrevExA function [Menus and Other Resources], _win32_CharPrevExA, _win32_charprevexa_cpp, menurc.charprevexa, winui._win32_charprevexa, winuser/CharPrevExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,7 +149,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<b>CharPrevExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a> (if called as an ANSI function) uses the system default code-page.
+<b>CharPrevExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/f1599f24-2a6f-4887-8712-302631fee313">CharPrev</a> (if called as an ANSI function) uses the system default code-page.
 
 
 
@@ -159,11 +159,11 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
+<a href="https://msdn.microsoft.com/0501744a-83a5-4ac4-b934-3e794fe940c0">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a>
+<a href="https://msdn.microsoft.com/f1599f24-2a6f-4887-8712-302631fee313">CharPrev</a>
 
 
 
@@ -175,7 +175,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

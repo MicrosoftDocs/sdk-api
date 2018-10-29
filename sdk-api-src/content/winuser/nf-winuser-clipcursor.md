@@ -7,7 +7,7 @@ old-location: menurc\clipcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\clipcursor.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ClipCursor, ClipCursor function [Menus and Other Resources], _win32_ClipCursor, _win32_clipcursor_cpp, menurc.clipcursor, winui._win32_clipcursor, winuser/ClipCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Confines the cursor to a rectangular area on the screen. If a subsequent cursor position (set by the <a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a> function or the mouse) lies outside the rectangle, the system automatically adjusts the position to keep the cursor inside the rectangular area. 
+Confines the cursor to a rectangular area on the screen. If a subsequent cursor position (set by the <a href="https://msdn.microsoft.com/b17cf57f-dd96-4695-a51e-ee1e1f00f85f">SetCursorPos</a> function or the mouse) lies outside the rectangle, the system automatically adjusts the position to keep the cursor inside the rectangular area. 
 
 
 ## -parameters
@@ -89,7 +89,7 @@ The calling process must have <b>WINSTA_WRITEATTRIBUTES</b> access to the window
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Confining a Cursor</a>.
+For an example, see <a href="using_cursors.htm">Confining a Cursor</a>.
 
 <div class="code"></div>
 
@@ -104,15 +104,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648387(v=VS.85).aspx">GetClipCursor</a>
+<a href="https://msdn.microsoft.com/f1f476b6-8306-4db5-90bf-05147af640b7">GetClipCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/c76370d3-741a-4192-97d4-d63d2885b36b">GetCursorPos</a>
 
 
 
@@ -128,7 +128,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
+<a href="https://msdn.microsoft.com/b17cf57f-dd96-4695-a51e-ee1e1f00f85f">SetCursorPos</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\itocparser_removetocbyindex.htm
 tech.root: medfound
 ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: ITocParser interface [Media Foundation],RemoveTocByIndex method, ITocParser.RemoveTocByIndex, ITocParser::RemoveTocByIndex, RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>RemoveTocByIndex</b> method removes a table of contents, specified by an 
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be removed.
 
 
 ### -param dwTocIndex [in]
 
 The index of the table of contents to be removed.
-
-
-#### - enumTocPosType [in]
-
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be removed.
 
 
 ## -returns

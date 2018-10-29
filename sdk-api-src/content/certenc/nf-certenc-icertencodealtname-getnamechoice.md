@@ -7,7 +7,7 @@ old-location: security\icertencodealtname_getnamechoice.htm
 tech.root: seccrypto
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeAltName object, GetNameChoice method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameChoice method, ICertEncodeAltName.GetNameChoice, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to a <b>LONG</b> that receives the name choice specifier.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pNameChoice</i> parameter points to a value that indicates the type of the alternate name. This is one of the following values.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the name choice at the specified index. The name choice indicates the type of the alternate name so that it can be used correctly. It must be one of the following values.
@@ -126,7 +126,7 @@ The name is an octet string that represents an Internet protocol address.
 </dl>
 </td>
 <td width="60%">
-The name is a registered <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
+The name is a registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The name is an IA5 string that contains a URL in the format <i>Service</i><b>://
 </dl>
 </td>
 <td width="60%">
-The name consists of an OID and a binary <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx">BLOB</a>.
+The name consists of an OID and a binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
 
 </td>
 </tr>
@@ -174,15 +174,15 @@ The name consists of an OID and a binary <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383295(v=VS.85).aspx">ICertEncodeAltName</a>
+<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383304(v=VS.85).aspx">ICertEncodeAltName::GetName</a>
+<a href="https://msdn.microsoft.com/25a3f36b-1c09-4b2e-84b7-a725d366fd77">ICertEncodeAltName::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383657(v=VS.85).aspx">ICertEncodeAltName::SetNameEntry</a>
+<a href="https://msdn.microsoft.com/5da07c09-9213-4604-b058-5e69df646b09">ICertEncodeAltName::SetNameEntry</a>
  
 
  

@@ -4,10 +4,10 @@ title: D2D1_UNIT_MODE
 author: windows-sdk-content
 description: Specifies how units in Direct2D will be interpreted.
 old-location: direct2d\__d2d1_unit_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1ba11761-f3e9-4996-8494-384db5bddc99
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: D2D1_UNIT_MODE, D2D1_UNIT_MODE enumeration [Direct2D], D2D1_UNIT_MODE_DIPS, D2D1_UNIT_MODE_PIXELS, d2d1_1/D2D1_UNIT_MODE, d2d1_1/D2D1_UNIT_MODE_DIPS, d2d1_1/D2D1_UNIT_MODE_PIXELS, direct2d.__d2d1_unit_mode
 ms.prod: windows
 ms.technology: windows-sdk

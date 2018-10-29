@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation.htm
 tech.root: WinAuto
 ms.assetid: 46b31ab6-39aa-4df8-a421-6369c32a9605
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], IUIAutomation interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomation, uiauto_IUIAutomation, uiautomationclient/IUIAutomation, winauto.uiauto_IUIAutomation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -658,20 +658,24 @@ Every UI Automation client application must obtain this interface to a <a href="
 The following example function creates a <a href="https://msdn.microsoft.com/5a3a108d-48da-4384-9f38-052b9ff6d7aa">CUIAutomation</a> object and obtains the <b>IUIAutomation</b> interface.
 
 
-
-```
-IUIAutomation *g_pAutomation;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IUIAutomation *g_pAutomation;
 
 BOOL InitializeUIAutomation()
 {
     CoInitialize(NULL);
     HRESULT hr = CoCreateInstance(__uuidof(CUIAutomation), NULL, CLSCTX_INPROC_SERVER, 
-        __uuidof(IUIAutomation), (void**)&g_pAutomation);
+        __uuidof(IUIAutomation), (void**)&amp;g_pAutomation);
     return (SUCCEEDED(hr));
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

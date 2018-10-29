@@ -7,7 +7,7 @@ old-location: base\heapalloc.htm
 tech.root: Memory
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFhReassociation::GetConfigurationDetails
 author: windows-sdk-content
 description: This method enumerates File History configurations that were discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method and returns additional information about each of the discovered configurations.
 old-location: winprog\ifhreassociation_getconfigurationdetails.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 4B5259B7-D845-4CF1-AC33-56DF9D00F2E2
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: FhReassociation class [Windows API],GetConfigurationDetails method, GetConfigurationDetails, GetConfigurationDetails method [Windows API], GetConfigurationDetails method [Windows API],FhReassociation class, GetConfigurationDetails method [Windows API],IFhReassociation interface, IFhReassociation interface [Windows API],GetConfigurationDetails method, IFhReassociation.GetConfigurationDetails, IFhReassociation::GetConfigurationDetails, fhcfg/IFhReassociation::GetConfigurationDetails, winprog.ifhreassociation_getconfigurationdetails
 ms.prod: windows-hardware
 ms.technology: windows-devices

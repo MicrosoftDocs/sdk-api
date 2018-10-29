@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_addnewhardware.htm
 tech.root: hid
 ms.assetid: 25a00f6a-7971-4d35-a888-ad80159d0e05
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/26/2018
 ms.keywords: AddNewHardware, AddNewHardware method [Human Input Devices], AddNewHardware method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],AddNewHardware method, IDirectInputJoyConfig8.AddNewHardware, IDirectInputJoyConfig8::AddNewHardware, di_ref_88ea414c-9d33-4669-8f5b-b14c2d0089ef.xml, dinputd/IDirectInputJoyConfig8::AddNewHardware, hid.idirectinputjoyconfig8_addnewhardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,22 +60,10 @@ The <b>IDirectInputJoyConfig8::AddNewHardware </b>method displays the <b>Add New
 
 ### -param arg1
 
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - hwndOwner
-
 Handle to the window that functions as the owner window for the user interface. 
 
 
-#### - rguidClass
+### -param arg2
 
 GUID that specifies the class of the hardware device to be added. DirectInput comes with the following class GUIDs already defined: 
 

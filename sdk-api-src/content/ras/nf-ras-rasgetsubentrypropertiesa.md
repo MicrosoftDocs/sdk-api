@@ -4,10 +4,10 @@ title: RasGetSubEntryPropertiesA function
 author: windows-sdk-content
 description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
 old-location: rras\rasgetsubentryproperties.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasGetSubEntryProperties, RasGetSubEntryProperties function [RAS], RasGetSubEntryPropertiesA, RasGetSubEntryPropertiesW, _ras_rasgetsubentryproperties, ras/RasGetSubEntryProperties, ras/RasGetSubEntryPropertiesA, ras/RasGetSubEntryPropertiesW, rras.rasgetsubentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,44 +61,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-### -param arg6
-
-TBD
-
-
-### -param arg7
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -108,12 +71,17 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - dwSubEntry [in]
+### -param arg2 [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
+
+
+### -param arg3 [in]
 
 Specifies the one-based index of the subentry.
 
 
-#### - lpRasSubEntry [in, out]
+### -param arg4 [in, out]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/48c1b100-e490-41a0-8324-6be2297bd814">RASSUBENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
@@ -128,18 +96,7 @@ On input, the <b>dwSize</b> member specifies the size of the structure. The size
 This parameter can be <b>NULL</b>.
 
 
-#### - lpbDeviceConfig [in]
-
-Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
-
-
-#### - lpcbDeviceConfig [in]
-
-Pointer to a <b>DWORD</b> that specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter.
-
-
-#### - lpdwcb [in, out]
+### -param arg5 [in, out]
 
 Pointer to a variable that specifies, on input, the size, in bytes, of the <i>lpRasSubEntry</i> buffer. 
 
@@ -151,9 +108,15 @@ On output, the variable receives the number of bytes returned, or the number of 
 This parameter can be <b>NULL</b> if <i>lpRasSubEntry</i> is <b>NULL</b>.
 
 
-#### - lpszEntry [in]
+### -param arg6 [in]
 
-Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
+Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
+<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a>.
+
+
+### -param arg7 [in]
+
+Pointer to a <b>DWORD</b> that specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter.
 
 
 ## -returns

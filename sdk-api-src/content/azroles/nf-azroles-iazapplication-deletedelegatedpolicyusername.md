@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletedelegatedpolicyusername.htm
 tech.root: SecAuthZ
 ms.assetid: b6abe8d6-9212-4c92-ba35-d6eaa8df1115
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security],AzApplication object, DeleteDelegatedPolicyUserName method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUserName method, IAzApplication.DeleteDelegatedPolicyUserName, IAzApplication::DeleteDelegatedPolicyUserName, azroles/IAzApplication::DeleteDelegatedPolicyUserName, security.iazapplication_deletedelegatedpolicyusername
 ms.prod: windows-hardware
 ms.technology: windows-devices

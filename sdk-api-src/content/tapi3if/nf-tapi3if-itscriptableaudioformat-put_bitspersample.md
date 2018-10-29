@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::put_BitsPerSample
 author: windows-sdk-content
 description: The put_BitsPerSample method sets the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_bitspersample.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 8e1038d6-122f-40c9-a6ab-57ae583ff9bc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_BitsPerSample method, ITScriptableAudioFormat.put_BitsPerSample, ITScriptableAudioFormat::put_BitsPerSample, _tapi3_itscriptableaudioformat_put_bitspersample, put_BitsPerSample, put_BitsPerSample method [TAPI 2.2], put_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_bitspersample, tapi3if/ITScriptableAudioFormat::put_BitsPerSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>put_BitsPerSample</b> method sets the <b>wBitsPerSample</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>wBitsPerSample</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

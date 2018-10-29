@@ -4,10 +4,10 @@ title: ITextHost2::TxShowDropCaret
 author: windows-sdk-content
 description: Shows or hides the caret during the drop portion of a drag-and-drop operation (Direct2D only).
 old-location: controls\itexthost2_txshowdropcaret.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: D7FAD45E-3467-4F07-A0D9-3131E48C314B
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxShowDropCaret method, ITextHost2.TxShowDropCaret, ITextHost2::TxShowDropCaret, TxShowDropCaret, TxShowDropCaret method [Windows Controls], TxShowDropCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txshowdropcaret, textserv/ITextHost2::TxShowDropCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices

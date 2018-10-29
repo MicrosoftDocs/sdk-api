@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile_getvideoattributes.htm
 tech.root: medfound
 ms.assetid: 734cb4d0-7017-4a30-9d0c-a6b5ce42fec6
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: GetVideoAttributes, GetVideoAttributes method [Media Foundation], GetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetVideoAttributes method, IMFTranscodeProfile.GetVideoAttributes, IMFTranscodeProfile::GetVideoAttributes, mf.imftranscodeprofile_getvideoattributes, mfidl/IMFTranscodeProfile::GetVideoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

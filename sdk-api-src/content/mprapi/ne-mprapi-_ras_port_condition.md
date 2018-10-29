@@ -4,10 +4,10 @@ title: "_RAS_PORT_CONDITION"
 author: windows-sdk-content
 description: The RAS_PORT_CONDITION enumerated type specifies information regarding the connection condition of a given RAS port.
 old-location: rras\ras_port_condition.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 86bcca08-97c5-404c-b5d9-a90d93f26e00
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RAS_PORT_AUTHENTICATED, RAS_PORT_AUTHENTICATING, RAS_PORT_CALLING_BACK, RAS_PORT_CONDITION, RAS_PORT_CONDITION enumeration [RAS], RAS_PORT_DISCONNECTED, RAS_PORT_INITIALIZING, RAS_PORT_LISTENING, RAS_PORT_NON_OPERATIONAL, _RAS_PORT_CONDITION, _mpr_ras_port_condition, mprapi/RAS_PORT_AUTHENTICATED, mprapi/RAS_PORT_AUTHENTICATING, mprapi/RAS_PORT_CALLING_BACK, mprapi/RAS_PORT_CONDITION, mprapi/RAS_PORT_DISCONNECTED, mprapi/RAS_PORT_INITIALIZING, mprapi/RAS_PORT_LISTENING, mprapi/RAS_PORT_NON_OPERATIONAL, rras.ras_port_condition
 ms.prod: windows
 ms.technology: windows-sdk

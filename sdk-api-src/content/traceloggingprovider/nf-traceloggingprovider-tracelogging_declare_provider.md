@@ -7,7 +7,7 @@ old-location: tracelogging\TRACELOGGING_DECLARE_PROVIDER.htm
 tech.root: tracelogging
 ms.assetid: E9C0B622-77A5-498F-BB28-C6C181271276
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: TRACELOGGING_DECLARE_PROVIDER, TRACELOGGING_DECLARE_PROVIDER macro, tracelogging.TRACELOGGING_DECLARE_PROVIDER, tracelogging.traceloggingdeclareprovider, traceloggingprovider/TRACELOGGING_DECLARE_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,17 +73,21 @@ If the header file that you use this macro in is used in both C and C++ code, yo
 enclose TRACELOGGING_DECLARE_PROVIDER in an extern "C" region so
 that the provider handle variable is declared as C-compatible. For example:
 
-
-```
-    #ifdef __cplusplus
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    #ifdef __cplusplus
     extern "C" {
     #endif
     TRACELOGGING_DECLARE_PROVIDER(g_hMyProvider);
     #ifdef __cplusplus
     } // extern "C"
-    #endif
-```
-
-
+    #endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 

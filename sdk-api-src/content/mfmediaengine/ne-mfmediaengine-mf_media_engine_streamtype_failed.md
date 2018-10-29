@@ -7,7 +7,7 @@ old-location: mf\mf_media_engine_streamtype_failed.htm
 tech.root: medfound
 ms.assetid: CD87E77B-3A9D-435A-A439-B810E9270CE5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MF_MEDIA_ENGINE_STREAMTYPE_FAILED, MF_MEDIA_ENGINE_STREAMTYPE_FAILED enumeration [Media Foundation], MF_MEDIA_ENGINE_STREAMTYPE_FAILED_AUDIO, MF_MEDIA_ENGINE_STREAMTYPE_FAILED_UNKNOWN, MF_MEDIA_ENGINE_STREAMTYPE_FAILED_VIDEO, mf.mf_media_engine_streamtype_failed, mfmediaengine/MF_MEDIA_ENGINE_STREAMTYPE_FAILED, mfmediaengine/MF_MEDIA_ENGINE_STREAMTYPE_FAILED_AUDIO, mfmediaengine/MF_MEDIA_ENGINE_STREAMTYPE_FAILED_UNKNOWN, mfmediaengine/MF_MEDIA_ENGINE_STREAMTYPE_FAILED_VIDEO
 ms.prod: windows
 ms.technology: windows-sdk

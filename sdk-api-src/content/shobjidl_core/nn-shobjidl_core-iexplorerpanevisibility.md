@@ -7,7 +7,7 @@ old-location: shell\IExplorerPaneVisibility.htm
 tech.root: shell
 ms.assetid: b940adc2-dfef-49c5-b86c-d0da83db0aad
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IExplorerPaneVisibility, IExplorerPaneVisibility interface [Windows Shell], IExplorerPaneVisibility interface [Windows Shell],described, _shell_IExplorerPaneVisibility, shell.IExplorerPaneVisibility, shobjidl_core/IExplorerPaneVisibility
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used in Windows Explorer by an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation to give suggestions to the view about what panes are visible. Additionally, an <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> host can use this interface to provide information about pane visibility. The host should implement <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> with <b>SID_ExplorerPaneVisibility</b> as the service ID. The host must be in the site chain.
+Used in Windows Explorer by an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation to give suggestions to the view about what panes are visible. Additionally, an <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> host can use this interface to provide information about pane visibility. The host should implement <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> with <b>SID_ExplorerPaneVisibility</b> as the service ID. The host must be in the site chain.
 
             
 

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_createvirtualchannel.htm
 tech.root: termserv
 ms.assetid: 28cdabde-980f-48b7-920e-1eeeb70b6952
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWTSProtocolConnection.CreateVirtualChannel, IWTSProtocolConnection::CreateVirtualChannel, termserv.iwtsprotocolconnection_createvirtualchannel, wtsprotocol/IWTSProtocolConnection::CreateVirtualChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

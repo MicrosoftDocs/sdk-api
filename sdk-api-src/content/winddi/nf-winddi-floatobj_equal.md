@@ -7,7 +7,7 @@ old-location: display\floatobj_equal.htm
 tech.root: display
 ms.assetid: 1fc9afcb-7b65-415c-ae6c-8885ef47abe9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: FLOATOBJ_Equal, FLOATOBJ_Equal function [Display Devices], display.floatobj_equal, gdifncs_20ba1db5-2709-4765-a637-94000c803ecb.xml, winddi/FLOATOBJ_Equal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_Equal</b> function determines whether the two <a href="https://m
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to the first FLOATOBJ operand.
 
 
-#### - pf1 [in]
+### -param arg2 [in]
 
 Pointer to the second FLOATOBJ operand.
 

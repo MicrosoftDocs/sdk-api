@@ -4,10 +4,10 @@ title: ITCallInfo::get_Privilege
 author: windows-sdk-content
 description: The get_Privilege method gets the call privilege of the application for the current call, such as CP_MONITOR.
 old-location: tapi3\itcallinfo_get_privilege.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Privilege method, ITCallInfo.get_Privilege, ITCallInfo::get_Privilege, _tapi3_itcallinfo_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_privilege, tapi3if/ITCallInfo::get_Privilege
 ms.prod: windows-hardware
 ms.technology: windows-devices

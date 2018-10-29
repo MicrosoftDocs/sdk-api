@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcontentprovider_initializationroutine.htm
 tech.root: Wds
 ms.assetid: 5EB23649-CF1C-424C-ABC1-BEA46F274D7E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],InitializationRoutine property, IWdsTransportContentProvider.InitializationRoutine, IWdsTransportContentProvider.get_InitializationRoutine, IWdsTransportContentProvider::InitializationRoutine, IWdsTransportContentProvider::get_InitializationRoutine, InitializationRoutine property [Windows Deployment Services], InitializationRoutine property [Windows Deployment Services],IWdsTransportContentProvider interface, get_InitializationRoutine, wds.iwdstransportcontentprovider_initializationroutine, wdstptmgmt/IWdsTransportContentProvider::InitializationRoutine, wdstptmgmt/IWdsTransportContentProvider::get_InitializationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\createdisptypeinfo.htm
 tech.root: automat
 ms.assetid: 603e00e8-0370-4ebf-b9d2-85e6e58c2b3a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CreateDispTypeInfo, CreateDispTypeInfo function [Automation], _oa96_CreateDispTypeInfo, automat.createdisptypeinfo, oleauto/CreateDispTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,9 +147,13 @@ To use type information from a type library, use the <a href="https://msdn.micro
 
 The code that follows creates type information from INTERFACEDATA to expose the CCalc object.
 
-
-```cpp
-static METHODDATA NEARDATA rgmdataCCalc[] =
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>static METHODDATA NEARDATA rgmdataCCalc[] =
 {
       PROPERTY(VALUE,  IMETH_ACCUM,    IDMEMBER_ACCUM,    VT_I4),
       PROPERTY(ACCUM,  IMETH_ACCUM,    IDMEMBER_ACCUM,    VT_I4),
@@ -180,14 +184,14 @@ CCalc::Create()
 
    if((pcalc = new CCalc()) == NULL)
       return NULL;
-   pcalc->AddRef();
+   pcalc-&gt;AddRef();
 
-   parith = &(pcalc->m_arith);
+   parith = &amp;(pcalc-&gt;m_arith);
 
    // Build type information for the functionality on this object that
    // is being exposed for external programmability.
    hresult = CreateDispTypeInfo(
-      &g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &ptinfo);
+      &amp;g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &amp;ptinfo);
    if(hresult != NOERROR)
       goto LError0;
 
@@ -198,24 +202,24 @@ CCalc::Create()
       pcalc,            // Controlling unknown.
       parith,            // Instance to dispatch on.
       ptinfo,            // Type information describing the instance.
-      &punkStdDisp);
+      &amp;punkStdDisp);
 
-   ptinfo->Release();
+   ptinfo-&gt;Release();
 
    if(hresult != NOERROR)
       goto LError0;
 
-   pcalc->m_punkStdDisp = punkStdDisp;
+   pcalc-&gt;m_punkStdDisp = punkStdDisp;
 
    return pcalc;
 
 LError0:;
-   pcalc->Release();
+   pcalc-&gt;Release();
    return NULL;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

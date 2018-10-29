@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settopleftradiusx_idcomposit
 tech.root: directcomp
 ms.assetid: 802C5F88-F160-422E-99CC-D573471B119B
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopLeftRadiusX method, IDCompositionRectangleClip.SetTopLeftRadiusX, IDCompositionRectangleClip.SetTopLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusX, IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation*), SetTopLeftRadiusX, SetTopLeftRadiusX method [DirectComposition], SetTopLeftRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopLeftRadiusX, directcomp.idcompositionrectangleclip_settopleftradiusx_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ldap\ldapsortkey.htm
 tech.root: LDAP
 ms.assetid: 3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PLDAPSortKeyA, LDAPSortKey, LDAPSortKey structure [LDAP], LDAPSortKeyA, LDAPSortKeyW, PLDAPSortKey, PLDAPSortKey structure pointer [LDAP], _ldap_ldapsortkey, ldap.ldapsortkey, ldapsortkeyA, winldap/LDAPSortKey, winldap/LDAPSortKeyA, winldap/LDAPSortKeyW, winldap/PLDAPSortKey"
 ms.prod: windows
 ms.technology: windows-sdk

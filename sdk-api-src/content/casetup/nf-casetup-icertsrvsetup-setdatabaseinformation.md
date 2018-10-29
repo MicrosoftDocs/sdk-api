@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setdatabaseinformation.htm
 tech.root: seccrypto
 ms.assetid: ae690d59-21fe-4429-8e80-ee2ce19a7090
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ICertSrvSetup interface [Security],SetDatabaseInformation method, ICertSrvSetup.SetDatabaseInformation, ICertSrvSetup::SetDatabaseInformation, SetDatabaseInformation, SetDatabaseInformation method [Security], SetDatabaseInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetDatabaseInformation, security.icertsrvsetup_setdatabaseinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>SetDatabaseInformation</b> method sets the database related information for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) role.
+The <b>SetDatabaseInformation</b> method sets the database related information for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) role.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ A value that indicates whether to overwrite any existing database files in the s
 
 The <b>SetDatabaseInformation</b> method creates the specified directories if they do not exist.
 
-Upon failure, the <b>SetDatabaseInformation</b> method might set additional error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb736384(v=VS.85).aspx">CAErrorId</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb736385(v=VS.85).aspx">CAErrorString</a> properties.
+Upon failure, the <b>SetDatabaseInformation</b> method might set additional error information in the <a href="https://msdn.microsoft.com/462fb4a6-2aad-46d4-98e0-32c095eff5c7">CAErrorId</a> and <a href="https://msdn.microsoft.com/154397f8-aa0e-4d74-b18e-b68b46fdfcdb">CAErrorString</a> properties.
 
 
 
@@ -94,7 +94,7 @@ Upon failure, the <b>SetDatabaseInformation</b> method might set additional erro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

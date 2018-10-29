@@ -7,7 +7,7 @@ old-location: base\rtwqstartup.htm
 tech.root: ProcThread
 ms.assetid: 101e73ec-34ec-49af-999d-5410f46ff319
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

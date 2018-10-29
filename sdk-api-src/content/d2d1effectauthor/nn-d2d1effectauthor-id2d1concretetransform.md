@@ -4,10 +4,10 @@ title: ID2D1ConcreteTransform
 author: windows-sdk-content
 description: Represents the set of transforms implemented by the effect-rendering system, which provides fixed-functionality.
 old-location: direct2d\id2d1concretetransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5349EF29-767F-4C78-A6F9-B0C6F143E762
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ID2D1ConcreteTransform, ID2D1ConcreteTransform interface [Direct2D], ID2D1ConcreteTransform interface [Direct2D],described, d2d1effectauthor/ID2D1ConcreteTransform, direct2d.id2d1concretetransform
 ms.prod: windows
 ms.technology: windows-sdk

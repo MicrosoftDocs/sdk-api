@@ -7,7 +7,7 @@ old-location: shell\CM_SET_WIDTH_VALUE.htm
 tech.root: shell
 ms.assetid: c5778bcc-fc9e-499a-b5e5-31c4f2df4871
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CM_SET_WIDTH_VALUE, CM_SET_WIDTH_VALUE enumeration [Windows Shell], CM_WIDTH_AUTOSIZE, CM_WIDTH_USEDEFAULT, shell.CM_SET_WIDTH_VALUE, shell_CM_SET_WIDTH_VALUE, shobjidl_core/CM_SET_WIDTH_VALUE, shobjidl_core/CM_WIDTH_AUTOSIZE, shobjidl_core/CM_WIDTH_USEDEFAULT
 ms.prod: windows
 ms.technology: windows-sdk

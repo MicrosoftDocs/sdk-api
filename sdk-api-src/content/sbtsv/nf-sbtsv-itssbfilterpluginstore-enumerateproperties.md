@@ -7,7 +7,7 @@ old-location: termserv\itssbfilterpluginstore_enumerateproperties.htm
 tech.root: termserv
 ms.assetid: 0eb489d2-2644-4d34-83a7-132d28a7b871
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: EnumerateProperties, EnumerateProperties method [Remote Desktop Services], EnumerateProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],EnumerateProperties method, ITsSbFilterPluginStore.EnumerateProperties, ITsSbFilterPluginStore::EnumerateProperties, sbtsv/ITsSbFilterPluginStore::EnumerateProperties, termserv.itssbfilterpluginstore_enumerateproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

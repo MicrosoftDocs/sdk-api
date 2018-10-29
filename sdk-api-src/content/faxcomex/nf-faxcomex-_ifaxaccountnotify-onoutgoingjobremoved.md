@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxaccountnotify_onoutgoingjobremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutgoingjobremoved.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingJobRemoved, OnOutgoingJobRemoved, OnOutgoingJobRemoved method [Fax Service], OnOutgoingJobRemoved method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingJobRemoved method, _IFaxAccountNotify.OnOutgoingJobRemoved, _IFaxAccountNotify::OnOutgoingJobRemoved, _mfax_ifaxaccountnotify_onoutgoingjobremoved, fax._mfax_ifaxaccountnotify_onoutgoingjobremoved, faxcomex/_IFaxAccountNotify::OnOutgoingJobRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

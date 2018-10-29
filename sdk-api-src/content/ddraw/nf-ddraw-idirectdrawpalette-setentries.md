@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette_setentries.htm
 tech.root: directdraw
 ms.assetid: c12247b9-ecb3-4fdf-b25f-373da06df791
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirectDrawPalette.SetEntries, IDirectDrawPalette::SetEntries, SetEntries, SetEntries method [DirectDraw], SetEntries method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::SetEntries, directdraw.idirectdrawpalette_setentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,44 +58,22 @@ Changes entries in a DirectDrawPalette object immediately.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - dwCount [in]
-
-Number of palette entries to be changed.
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 Currently not used and must be set to 0.
 
 
-#### - dwStartingEntry [in]
+### -param arg2 [in]
 
 First entry to be set.
 
 
-#### - lpEntries [in]
+### -param arg3 [in]
+
+Number of palette entries to be changed.
+
+
+### -param arg4 [in]
 
 An array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures that contains the palette entries that <b>SetEntries</b> uses to change the DirectDrawPalette object. The palette entries are 1 byte each if the DDPCAPS_8BITENTRIES flag is set, and 4 bytes otherwise. Each field is a color description.
 

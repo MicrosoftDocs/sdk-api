@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUShort.htm
 tech.root: shell
 ms.assetid: 7e320c61-31af-485d-a023-dc656798c73a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ULongLongToUShort, ULongLongToUShort function [Windows Shell], intsafe/ULongLongToUShort, shell.ULongLongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

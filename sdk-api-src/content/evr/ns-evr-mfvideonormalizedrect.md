@@ -7,7 +7,7 @@ old-location: mf\mfvideonormalizedrect.htm
 tech.root: medfound
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 ms.prod: windows
 ms.technology: windows-sdk

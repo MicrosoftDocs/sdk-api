@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputavailabletype.htm
 tech.root: medfound
 ms.assetid: ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: GetInputAvailableType, GetInputAvailableType method [Media Foundation], GetInputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputAvailableType method, IMFTransform.GetInputAvailableType, IMFTransform::GetInputAvailableType, ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf, mf.imftransform_getinputavailabletype, mftransform/IMFTransform::GetInputAvailableType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,7 +171,7 @@ In some cases, an MFT cannot return a list of input types until one or more outp
 
 An MFT is not required to implement this method. However, most MFTs should implement this method, unless the supported types are simple and can be discovered through the <a href="https://msdn.microsoft.com/d1bac1c7-3f9b-46b7-bdf7-c32983c648ee">MFTGetInfo</a> function.
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputAvailableType</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputAvailableType</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 For encoders, after the output type is set, <b>GetInputAvailableType</b> must return a list of input types that are compatible with the current output type. This means that all types returned by <b>GetInputAvailableType</b> after the output type is set must be valid types for <a href="https://msdn.microsoft.com/822a83d1-177a-4a8d-842e-eb76f8253283">SetInputType</a>.
 

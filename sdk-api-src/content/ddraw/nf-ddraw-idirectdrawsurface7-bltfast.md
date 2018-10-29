@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_bltfast.htm
 tech.root: directdraw
 ms.assetid: ac882b48-87b2-4b65-99b0-ac9065b5f47f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],IDirectDrawSurface7 interface, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7 interface [DirectDraw],BltFast method, IDirectDrawSurface7.BltFast, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,27 @@ Performs a source copy bitblt or transparent bitblt by using a source color key 
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+The x-coordinate to bitblt to on the destination surface.
 
 
-### -param arg3
+### -param arg2 [in]
 
-TBD
-
-
-### -param arg4
-
-TBD
+The y-coordinate to bitblt to on the destination surface.
 
 
-### -param arg5
+### -param arg3 [in]
 
-TBD
-
-
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
 
-#### - dwFlags [in]
+### -param arg4 [in]
+
+A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface.
+
+
+### -param arg5 [in]
 
 Type of transfer. The following transfers are defined:
 
@@ -112,31 +105,6 @@ A transparent bitblt that uses the source color key.
 #### DDBLTFAST_WAIT
 
 Postpones the DDERR_WASSTILLDRAWING message if the bitbltter is busy, and returns as soon as the bitblt can be set up or another error occurs.
-
-
-#### - dwX [in]
-
-The x-coordinate to bitblt to on the destination surface.
-
-
-#### - dwY [in]
-
-The y-coordinate to bitblt to on the destination surface.
-
-
-#### - lpDDBltFx [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure for the bitblt.
-
-
-#### - lpDDSrcSurface [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
-
-
-#### - lpSrcRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface.
 
 
 ## -returns

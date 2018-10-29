@@ -7,7 +7,7 @@ old-location: dshow\dvd_title_appmode.htm
 tech.root: DirectShow
 ms.assetid: f0a12b00-89a5-4b70-9a78-519ae36d1bac
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: DVD_AppMode_Karaoke, DVD_AppMode_Not_Specified, DVD_AppMode_Other, DVD_TITLE_APPMODE, DVD_TITLE_APPMODE , DVD_TITLE_APPMODE enumeration [DirectShow], DVD_TITLE_APPMODEEnumeration, dshow.dvd_title_appmode, strmif/DVD_AppMode_Karaoke, strmif/DVD_AppMode_Not_Specified, strmif/DVD_AppMode_Other, strmif/DVD_TITLE_APPMODE, tagDVD_TITLE_APPMODE
 ms.prod: windows
 ms.technology: windows-sdk

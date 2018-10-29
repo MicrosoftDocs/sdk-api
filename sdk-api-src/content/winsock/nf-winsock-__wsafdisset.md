@@ -7,7 +7,7 @@ old-location: winsock\wsafdisset.htm
 tech.root: WinSock
 ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "__WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,9 @@ The <b>__WSAFDIsSet</b> function specifies whether a socket is included in a set
 
 ### -param arg1
 
-TBD
+Descriptor identifying a socket.
+
+Pointer to an <a href="https://msdn.microsoft.com/2af5d69d-190e-4814-8d8b-438431808625">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
 
 
 ### -param arg2
@@ -68,16 +70,6 @@ TBD
 TBD
 
 
-
-
-#### - param
-
-Descriptor identifying a socket.
-
-
-#### - set
-
-Pointer to an <a href="https://msdn.microsoft.com/2af5d69d-190e-4814-8d8b-438431808625">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
 
 
 ## -remarks

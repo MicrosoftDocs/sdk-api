@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisualdebug.htm
 tech.root: directcomp
 ms.assetid: 0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IDCompositionVisualDebug, IDCompositionVisualDebug interface [DirectComposition], IDCompositionVisualDebug interface [DirectComposition],described, dcomp/IDCompositionVisualDebug, directcomp.idcompositionvisualdebug
 ms.prod: windows
 ms.technology: windows-sdk

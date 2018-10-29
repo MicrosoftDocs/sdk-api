@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addstructurechangede
 tech.root: WinAuto
 ms.assetid: E559FF67-3A64-4F2A-B129-FDF8771E3E6A
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AddStructureChangedEventHandler, AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddStructureChangedEventHandler method, IUIAutomationEventHandlerGroup.AddStructureChangedEventHandler, IUIAutomationEventHandlerGroup::AddStructureChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddStructureChangedEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addstructurechangedeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Registers a method that handles structure-changed events.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -72,11 +72,6 @@ A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
 A pointer to the object that handles the structure-changed event.
 
-
-
-#### - scope [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

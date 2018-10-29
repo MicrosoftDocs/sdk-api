@@ -4,10 +4,10 @@ title: RasGetCredentialsA function
 author: windows-sdk-content
 description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rasgetcredentials.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasGetCredentials, RasGetCredentials function [RAS], RasGetCredentialsA, RasGetCredentialsW, _ras_rasgetcredentials, ras/RasGetCredentials, ras/RasGetCredentialsA, ras/RasGetCredentialsW, rras.rasgetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,29 +63,17 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 
-#### - lpCredentials [in, out]
+### -param arg2 [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
+
+
+### -param arg3 [in, out]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a> structure that, on output, receives the user credentials associated with the specified phone-book entry. 
@@ -94,11 +82,6 @@ Pointer to the
 
 
 On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a>), and set the <b>dwMask</b> member to indicate the credential information to retrieve. When the function returns, <b>dwMask</b> indicates the members that were successfully retrieved.
-
-
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
 
 
 ## -returns
@@ -197,12 +180,16 @@ To retrieve a pre-shared key, use the RASCM_PreSharedKey flag in the RASCREDENTI
 
 The following sample code creates the "RasEntryName" phone book entry, sets its credentials using <a href="https://msdn.microsoft.com/5ebfffb7-9158-4414-982c-e187600aa1ab">RasSetCredentials</a>, and then retrieves those credentials using <b>RasGetCredentials</b>.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 #include "ras.h"
-#include <stdio.h>
-#include <tchar.h>
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 #include "strsafe.h"
 
 #define PHONE_NUMBER_LENGTH 7
@@ -230,15 +217,15 @@ DWORD __cdecl wmain(){
         wprintf(L"HeapAlloc failed!\n");
         return 0;
     }
-    // The RASENTRY->dwSize member has to be initialized or the RRAS RasValidateEntryName() and 
+    // The RASENTRY-&gt;dwSize member has to be initialized or the RRAS RasValidateEntryName() and 
     // RasSetEntryProperties APIs will fail below.
-    lpentry->dwSize = sizeof(RASENTRY);
-    lpentry->dwFramingProtocol = RASFP_Ppp;
-    lpentry->dwfOptions = 0;
-    lpentry->dwType = RASFP_Ppp;
-    dwRet |= StringCchCopyN(lpentry->szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszPhoneNumber, PHONE_NUMBER_LENGTH);
-    dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszDeviceName, DEVICE_NAME_LENGTH);
-    dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszDeviceType, DEVICE_TYPE_LENGTH);
+    lpentry-&gt;dwSize = sizeof(RASENTRY);
+    lpentry-&gt;dwFramingProtocol = RASFP_Ppp;
+    lpentry-&gt;dwfOptions = 0;
+    lpentry-&gt;dwType = RASFP_Ppp;
+    dwRet |= StringCchCopyN(lpentry-&gt;szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszPhoneNumber, PHONE_NUMBER_LENGTH);
+    dwRet |= StringCchCopyN(lpentry-&gt;szDeviceName, RAS_MaxDeviceName, lpszDeviceName, DEVICE_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpentry-&gt;szDeviceType, RAS_MaxDeviceType, lpszDeviceType, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASENTRY structure initilization failed!\n");
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -254,7 +241,7 @@ DWORD __cdecl wmain(){
         }
 
     // Create and set the new entry's properties
-    dwRet = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry->dwSize, NULL, 0);
+    dwRet = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry-&gt;dwSize, NULL, 0);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RasSetEntryProperties failed: Error = %d\n", dwRet);
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -271,30 +258,30 @@ DWORD __cdecl wmain(){
         wprintf(L"HeapAlloc failed!\n");
         return 0;
     }
-    // The RASCREDENTIALS->dwsize member must be initialized or the RRAS RasSetCredentials() and 
+    // The RASCREDENTIALS-&gt;dwsize member must be initialized or the RRAS RasSetCredentials() and 
     // RasGetCredentials() APIs will fail below
-    lpCred->dwSize = sizeof(RASCREDENTIALS);
+    lpCred-&gt;dwSize = sizeof(RASCREDENTIALS);
 
     // The entry's credentials must first be set with RasSetCredentials() before they can be 
     // retrieved with RasGetCredentials(). The values below are used to set the new entry's credentials.
-    dwRet |= StringCchCopyN(lpCred->szDomain, DNLEN, lpszDomainName, DOMAIN_NAME_LENGTH);
-    dwRet |= StringCchCopyN(lpCred->szUserName, UNLEN, lpszUserName, USER_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpCred-&gt;szDomain, DNLEN, lpszDomainName, DOMAIN_NAME_LENGTH);
+    dwRet |= StringCchCopyN(lpCred-&gt;szUserName, UNLEN, lpszUserName, USER_NAME_LENGTH);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASCREDENTIALS structure initilization failed!\n");
         HeapFree(GetProcessHeap(), 0, lpCred);
         return 0;
     }
     // The username, password, and Domain credentials are valid
-    lpCred->dwMask = RASCM_UserName | RASCM_Password | RASCM_Domain;
+    lpCred-&gt;dwMask = RASCM_UserName | RASCM_Password | RASCM_Domain;
     
     // Set the newly created entry's credentials
     dwRet = RasSetCredentials(NULL, lpszEntry, lpCred, FALSE);
     
     // The same RASCREDENTIALS structure is used to 'set' and 'get' the credentials. Therefore, zero out 
     // its values. (this proves RasGetCredentials works below!) 
-    dwRet |= StringCchCopyN(lpCred->szDomain, DNLEN, L"", 0);
-    dwRet |= StringCchCopyN(lpCred->szUserName, UNLEN, L"", 0);
-    dwRet |= StringCchCopyN(lpCred->szPassword, UNLEN, L"", 0);
+    dwRet |= StringCchCopyN(lpCred-&gt;szDomain, DNLEN, L"", 0);
+    dwRet |= StringCchCopyN(lpCred-&gt;szUserName, UNLEN, L"", 0);
+    dwRet |= StringCchCopyN(lpCred-&gt;szPassword, UNLEN, L"", 0);
     if (dwRet != ERROR_SUCCESS){
         wprintf(L"RASCREDENTIALS structure reset failed!\n");
         HeapFree(GetProcessHeap(), 0, lpCred);
@@ -305,7 +292,7 @@ DWORD __cdecl wmain(){
     // Grab the newly created entry's credentials
     dwRet = RasGetCredentials(NULL, lpszEntry, lpCred);
     if(dwRet == ERROR_SUCCESS){
-        wprintf(L"The following credentials were retrieved for the entry: %s\n\tUser name: %s\n\tPassword: %s\n\tDomain: %s\n", lpszEntry, lpCred->szUserName, lpCred->szPassword, lpCred->szDomain);
+        wprintf(L"The following credentials were retrieved for the entry: %s\n\tUser name: %s\n\tPassword: %s\n\tDomain: %s\n", lpszEntry, lpCred-&gt;szUserName, lpCred-&gt;szPassword, lpCred-&gt;szDomain);
     }else{
         wprintf(L"RasValidateEntryName failed: Error = %d\n", dwRet);
     }
@@ -320,10 +307,10 @@ DWORD __cdecl wmain(){
     HeapFree(GetProcessHeap(), 0, lpCred);
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

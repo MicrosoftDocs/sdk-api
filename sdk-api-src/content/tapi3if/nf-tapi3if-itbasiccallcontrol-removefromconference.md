@@ -4,10 +4,10 @@ title: ITBasicCallControl::RemoveFromConference
 author: windows-sdk-content
 description: The RemoveFromConference method removes the call from a conference if it is involved in one.
 old-location: tapi3\itbasiccallcontrol_removefromconference.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: c3a357a1-9bfa-4d23-b7d7-e1d9b636e861
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],RemoveFromConference method, ITBasicCallControl.RemoveFromConference, ITBasicCallControl::RemoveFromConference, RemoveFromConference, RemoveFromConference method [TAPI 2.2], RemoveFromConference method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_removefromconference, tapi3.itbasiccallcontrol_removefromconference, tapi3if/ITBasicCallControl::RemoveFromConference
 ms.prod: windows-hardware
 ms.technology: windows-devices

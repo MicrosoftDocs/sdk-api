@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getformat.htm
 tech.root: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,23 +148,27 @@ On some compression filters, the method fails if the filter's input pin is not c
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IAMStreamConfig *pConfig = NULL;
 // Query the output pin for IAMStreamConfig (not shown).
 AM_MEDIA_TYPE *pmt = NULL;
-hr = pConfig->GetFormat(&pmt);
+hr = pConfig-&gt;GetFormat(&amp;pmt);
 if (SUCCEEDED(hr))
 {
     /* Examine the media type for any information you need. */
     DeleteMediaType(pmt);
 }
-pConfig->Release();
-
-```
-
-
+pConfig-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -97,12 +97,16 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 It is the responsibility of the implementer to free the memory occupied by the <b>WCHAR</b> string:
 
-
-```cpp
-    free(pw);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    free(pw);</pre>
+</td>
+</tr>
+</table></span></div>
 Use <b>free</b> rather than <b>delete</b> because the provider framework allocates the string using <b>malloc</b> and does not use the <b>new</b> operator.
 
 

@@ -7,7 +7,7 @@ old-location: gdi\createfontindirectex.htm
 tech.root: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

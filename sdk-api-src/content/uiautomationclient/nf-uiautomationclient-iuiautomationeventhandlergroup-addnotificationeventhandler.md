@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addnotificationevent
 tech.root: WinAuto
 ms.assetid: B7597727-76B9-4D8E-B247-6461815FA57E
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddNotificationEventHandler method, IUIAutomationEventHandlerGroup.AddNotificationEventHandler, IUIAutomationEventHandlerGroup::AddNotificationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddNotificationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addnotificationeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Registers a method that handles notification events.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -72,11 +72,6 @@ A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
 A pointer to the object that handles the notification event.
 
-
-
-#### - scope [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

@@ -103,9 +103,13 @@ This method is similar to the <b>GetMetadata</b> and <b>GetSpecifiedMetadata</b>
 
 The following C++ code queries for the g_wszWMDMFormatsSupported property, which returns a <b>SAFEARRAY</b> list of formats supported by a device.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Query a device for supported configurations for each media or format type. 
 HRESULT GetCaps(IWMDMDevice3* pDevice)
 {
@@ -113,18 +117,18 @@ HRESULT GetCaps(IWMDMDevice3* pDevice)
 
     // Request the "formats supported" property to get a list of supported formats.
     PROPVARIANT pvFormatsSupported;
-    PropVariantInit(&pvFormatsSupported);
-    hr = pDevice->GetProperty(g_wszWMDMFormatsSupported, &pvFormatsSupported);
+    PropVariantInit(&amp;pvFormatsSupported);
+    hr = pDevice-&gt;GetProperty(g_wszWMDMFormatsSupported, &amp;pvFormatsSupported);
     HANDLE_HR(hr, "Got a property list in GetCaps", "Couldn't get a property list in GetCaps.");
 
     // Loop through the retrieved format list.
     // For each format, get a list of format configurations.
     SAFEARRAY* formatList = pvFormatsSupported.parray;
     WMDM_FORMATCODE formatCode = WMDM_FORMATCODE_NOTUSED;
-    for(LONG iCap = 0; iCap < formatList->rgsabound[0].cElements; iCap++)
+    for(LONG iCap = 0; iCap &lt; formatList-&gt;rgsabound[0].cElements; iCap++)
     { 
         // Get a format from the SAFEARRAY of retrieved formats.
-        SafeArrayGetElement(formatList, &iCap, &formatCode);
+        SafeArrayGetElement(formatList, &amp;iCap, &amp;formatCode);
 
         // Call a custom function to see the specifics of device support for 
        // each format.
@@ -134,13 +138,13 @@ HRESULT GetCaps(IWMDMDevice3* pDevice)
 
 e_Exit:
     // Clear out the memory we used.
-    PropVariantClear(&pvFormatsSupported);
+    PropVariantClear(&amp;pvFormatsSupported);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

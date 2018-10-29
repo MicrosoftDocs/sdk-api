@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig9_setdefaultmonitor.htm
 tech.root: DirectShow
 ms.assetid: 4e02e0b6-8c0e-4c32-9059-91b1b8be165f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig9.SetDefaultMonitor, IVMRMonitorConfig9::SetDefaultMonitor, IVMRMonitorConfig9SetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, dshow.ivmrmonitorconfig9_setdefaultmonitor, vmr9/IVMRMonitorConfig9::SetDefaultMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

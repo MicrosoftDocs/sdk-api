@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern2.htm
 tech.root: WinAuto
 ms.assetid: E237CE81-9C01-4EBB-AA75-4EB90123E8C8
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], IUIAutomationSelectionPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSelectionPattern2, winauto.uiauto_IUIAutomationSelectionPattern2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncselect_2.htm
 tech.root: WinSock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ If the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ The network subsystem failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ One of the specified parameters was invalid, such as the window handle not refer
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,43 +164,43 @@ Event: FD_CONNECT
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>Addresses in the specified family cannot be used with this socket.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></td>
 <td>The attempt to connect was rejected.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></td>
 <td>The network cannot be reached from this host at this time.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></td>
 <td>The <i>namelen</i> parameter is invalid.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>The socket is already bound to an address.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEISCONN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a></td>
 <td>The socket is already connected.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMFILE</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEMFILE</a></td>
 <td>No more file descriptors are available.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></td>
 <td>No buffer space is available. The socket cannot be connected.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></td>
 <td>The socket is not connected.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></td>
 <td>Attempt to connect timed out without establishing a connection.</td>
 </tr>
 </table>
@@ -214,15 +214,15 @@ Event: FD_CLOSE
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem failed.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></td>
 <td>The connection was reset by the remote side.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAECONNABORTED</a></td>
 <td>The connection was terminated due to a time-out or other failure.</td>
 </tr>
 </table>
@@ -234,7 +234,7 @@ Event: FD_CLOSE
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem failed.</td>
 </tr>
 </table>
@@ -248,11 +248,11 @@ Event: FD_ROUTING_INTERFACE_CHANGE
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></td>
 <td>The specified destination is no longer reachable.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem failed.</td>
 </tr>
 </table>
@@ -326,32 +326,44 @@ Issuing a
 <a href="https://msdn.microsoft.com/f98a71e4-47fb-47a4-b37e-e4cc801a8f98">WSAEventSelect</a> for the same socket. For example, to receive notification for both reading and writing, the application must call 
 <b>WSAAsyncSelect</b> with both <b>FD_READ</b> and <b>FD_WRITE</b>, as follows:
 
-
-```cpp
-rc = WSAAsyncSelect(s, hWnd, wMsg, FD_READ|FD_WRITE);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>rc = WSAAsyncSelect(s, hWnd, wMsg, FD_READ|FD_WRITE);
+</pre>
+</td>
+</tr>
+</table></span></div>
 It is not possible to specify different messages for different events. The following code will not work; the second call will cancel the effects of the first, and only <b>FD_WRITE</b> events will be reported with message wMsg2:
 
-
-```cpp
-rc = WSAAsyncSelect(s, hWnd, wMsg1, FD_READ);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>rc = WSAAsyncSelect(s, hWnd, wMsg1, FD_READ);
 rc = WSAAsyncSelect(s, hWnd, wMsg2, FD_WRITE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To cancel all notification indicating that Windows Sockets should send no further messages related to network events on the socket, <i>lEvent</i> is set to zero.
 
-
-```cpp
-rc = WSAAsyncSelect(s, hWnd, 0, 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>rc = WSAAsyncSelect(s, hWnd, 0, 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Although 
 <b>WSAAsyncSelect</b> immediately disables event message posting for the socket in this instance, it is possible that messages could be waiting in the application message queue. Therefore, the application must be prepared to receive network event messages even after cancellation. Closing a socket with 
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> also cancels 
@@ -370,16 +382,20 @@ When one of the nominated network events occurs on the specified socket <i>s</i>
 <div> </div>
 The error and event codes can be extracted from the <i>lParam</i> using the macros <b>WSAGETSELECTERROR</b> and <b>WSAGETSELECTEVENT</b>, defined in Winsock2.h as:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define WSAGETSELECTEVENT(lParam)       LOWORD(lParam)
 #define WSAGETSELECTERROR(lParam)       HIWORD(lParam)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The use of these macros will maximize the portability of the source code for the application.
 
 The possible network event codes that can be returned are listed in the following table.
@@ -439,7 +455,7 @@ As in the case of the
 <a href="https://msdn.microsoft.com/f9f1092d-7e15-41cd-a42f-abe8a4f33e15">select</a> function, 
 <b>WSAAsyncSelect</b> will frequently be used to determine when a data transfer operation (<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a> or 
 <a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>) can be issued with the expectation of immediate success. Nevertheless, a robust application must be prepared for the possibility that it can receive a message and issue a Windows Sockets 2 call that returns 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> immediately. For example, the following sequence of events is possible:
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> immediately. For example, the following sequence of events is possible:
 
 <ol>
 <li>Data arrives on socket <i>s</i>; Windows Sockets 2 posts 
@@ -449,7 +465,7 @@ As in the case of the
 <li>Application issues a <code>recv(s,...)</code> to read the data</li>
 <li>Application loops to process next message, eventually reaching the 
 <b>WSAAsyncSelect</b> message indicating that data is ready to read</li>
-<li>Application issues <code>recv(s,...)</code>, which fails with the error <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a>.</li>
+<li>Application issues <code>recv(s,...)</code>, which fails with the error <a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a>.</li>
 </ol>
 Other sequences are also possible.
 
@@ -489,7 +505,7 @@ The WS2_32.DLL will not continually flood an application with messages for a par
 <td>
 <a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a> or 
 <a href="https://msdn.microsoft.com/f385f63f-49b2-4eb7-8717-ad4cca1a2252">WSAAccept</a> unless the error code is 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a> indicating that the condition function returned CF_DEFER.</td>
+<a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a> indicating that the condition function returned CF_DEFER.</td>
 </tr>
 <tr>
 <td><b>FD_CONNECT</b></td>
@@ -561,14 +577,14 @@ The <b>FD_WRITE</b> event is handled slightly differently. An <b>FD_WRITE</b> me
 <a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a> or 
 <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a> (after FD_CONNECT, if also registered) or accepted with 
 <a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a> or 
-<a href="https://msdn.microsoft.com/f385f63f-49b2-4eb7-8717-ad4cca1a2252">WSAAccept</a>, and then after a send operation fails with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> and buffer space becomes available. Therefore, an application can assume that sends are possible starting from the first <b>FD_WRITE</b> message and lasting until a send returns <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a>. After such a failure the application will be notified that sends are again possible with an <b>FD_WRITE</b> message.
+<a href="https://msdn.microsoft.com/f385f63f-49b2-4eb7-8717-ad4cca1a2252">WSAAccept</a>, and then after a send operation fails with <a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> and buffer space becomes available. Therefore, an application can assume that sends are possible starting from the first <b>FD_WRITE</b> message and lasting until a send returns <a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a>. After such a failure the application will be notified that sends are again possible with an <b>FD_WRITE</b> message.
 
 The <b>FD_OOB</b> event is used only when a socket is configured to receive OOB data separately. If the socket is configured to receive OOB data inline, the OOB (expedited) data is treated as normal data and the application should register an interest in, and will receive, <b>FD_READ</b> events, not <b>FD_OOB</b> events. An application can set or inspect the way in which OOB data is to be handled by using 
 <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> or 
 <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> for the SO_OOBINLINE option.
 
 The error code in an <b>FD_CLOSE</b> message indicates whether the socket close was graceful or abortive. If the error code is zero, then the close was graceful; if the error code is 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a>, then the socket's virtual circuit was reset. This only applies to connection-oriented sockets such as SOCK_STREAM.
+<a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a>, then the socket's virtual circuit was reset. This only applies to connection-oriented sockets such as SOCK_STREAM.
 
 The <b>FD_CLOSE</b> message is posted when a close indication is received for the virtual circuit corresponding to the socket. In TCP terms, this means that the <b>FD_CLOSE</b> is posted when the connection goes into the TIME WAIT or CLOSE WAIT states. This results from the remote end performing a 
 <a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> on the send side or a 
@@ -617,7 +633,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 <li>After 
 <a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a> or 
 <a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a> fail with 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a>, when 
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a>, when 
 <b>send</b> or 
 <b>sendto</b> are likely to succeed.</li>
 <li>After 
@@ -664,7 +680,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 <a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>, 
 <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a>, or 
 <a href="https://msdn.microsoft.com/ef9efa03-feed-4f0d-b874-c646cce745c9">WSAJoinLeaf</a> was called with a nonblocking, connection-oriented socket. The initial operation returned with a specific error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a>, but the network operation went ahead. Whether the operation eventually succeeds or not, when the outcome has been determined, <b>FD_CONNECT</b> happens. The client should check the error code to determine whether the outcome was successful or failed.</li>
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a>, but the network operation went ahead. Whether the operation eventually succeeds or not, when the outcome has been determined, <b>FD_CONNECT</b> happens. The client should check the error code to determine whether the outcome was successful or failed.</li>
 </ol>
 </li>
 <li><b>FD_CLOSE</b>: Only valid on connection-oriented sockets (for example, SOCK_STREAM) 
@@ -677,7 +693,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 <li>After local system initiates graceful close with 
 <a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> and remote system has responded with "End of Data" notification (for example, TCP FIN), when no data currently available to receive.</li>
 <li>When remote system terminates connection (for example, sent TCP RST), and <i>lParam</i> will contain 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a> error value. 
+<a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a> error value. 
 
 
 <div class="alert"><b>Note</b>  <b>FD_CLOSE</b> is not posted after 

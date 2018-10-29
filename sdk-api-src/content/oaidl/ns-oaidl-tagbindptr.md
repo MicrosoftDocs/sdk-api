@@ -7,7 +7,7 @@ old-location: automat\bindptr.htm
 tech.root: automat
 ms.assetid: 7035df31-3b13-4297-8464-b86f64d38f20
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPBINDPTR, BINDPTR, BINDPTR structure [Automation], LPBINDPTR, LPBINDPTR structure pointer [Automation], _oa96_BINDPTR, automat.bindptr, oaidl/BINDPTR, oaidl/LPBINDPTR, tagBINDPTR"
 ms.prod: windows
 ms.technology: windows-sdk

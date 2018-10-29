@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_deleteimpltype.htm
 tech.root: automat
 ms.assetid: c64b70eb-6047-4572-9d5e-f40b3c302f31
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteImplType method, ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
 ms.prod: windows-hardware
 ms.technology: windows-devices

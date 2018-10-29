@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_coverpage_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7lm5.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FAX_COVERPAGE_TYPE_ENUM, FAX_COVERPAGE_TYPE_ENUM enumeration [Fax Service], _mfax_fax_coverpage_type_enum, fax._mfax_fax_coverpage_type_enum, faxcomex/FAX_COVERPAGE_TYPE_ENUM, faxcomex/fcptLOCAL, faxcomex/fcptNONE, faxcomex/fcptSERVER, fcptLOCAL, fcptNONE, fcptSERVER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Use a cover page from the fax server common coverpages folder.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IFaxDocument::get_CoverPageType</a>
+<a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITextRange2::InsertTable
 author: windows-sdk-content
 description: Inserts a table in a range.
 old-location: controls\itextrange2_inserttable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f62cc778-8f06-43d1-985b-d233b02d3255
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ITextRange2 interface [Windows Controls],InsertTable method, ITextRange2.InsertTable, ITextRange2::InsertTable, InsertTable, InsertTable method [Windows Controls], InsertTable method [Windows Controls],ITextRange2 interface, controls.itextrange2_inserttable, tom/ITextRange2::InsertTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

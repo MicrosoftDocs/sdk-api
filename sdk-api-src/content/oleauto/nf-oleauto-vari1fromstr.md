@@ -7,7 +7,7 @@ old-location: automat\vari1fromstr.htm
 tech.root: automat
 ms.assetid: 587eb198-de49-4b7a-a733-eb8dd23a8e97
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarI1FromStr, VarI1FromStr function [Automation], _oa96_VarI1FromStr, automat.vari1fromstr, oleauto/VarI1FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

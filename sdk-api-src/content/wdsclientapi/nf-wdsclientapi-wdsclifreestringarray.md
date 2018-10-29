@@ -7,7 +7,7 @@ old-location: wds\wdsclifreestringarray.htm
 tech.root: Wds
 ms.assetid: 37d96077-d3f0-4372-955d-f8c071d82230
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WdsCliFreeStringArray, WdsCliFreeStringArray function [Windows Deployment Services], wds.wdsclifreestringarray, wdsclientapi/WdsCliFreeStringArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

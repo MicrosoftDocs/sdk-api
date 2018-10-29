@@ -4,10 +4,10 @@ title: ITextPara2::IsEqual2
 author: windows-sdk-content
 description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.
 old-location: controls\itextpara2_isequal2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ITextPara2 interface [Windows Controls],IsEqual2 method, ITextPara2.IsEqual2, ITextPara2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_isequal2, tom/ITextPara2::IsEqual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The text paragraph object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that is <b>tomTrue</b> if the text paragraph objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that is <b>tomTrue</b> if the text paragraph objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
 
 
 ## -returns

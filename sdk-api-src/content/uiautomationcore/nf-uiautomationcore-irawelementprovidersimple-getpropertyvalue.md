@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple_GetPropertyValue.htm
 tech.root: WinAuto
 ms.assetid: 029ea063-009d-4b54-978a-4183454b2d66
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetPropertyValue, GetPropertyValue method [Windows Accessibility], GetPropertyValue method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPropertyValue method, IRawElementProviderSimple.GetPropertyValue, IRawElementProviderSimple::GetPropertyValue, uiauto.uiauto_IRawElementProviderSimple_GetPropertyValue, uiauto_IRawElementProviderSimple_GetPropertyValue, uiautomationcore/IRawElementProviderSimple::GetPropertyValue, winauto.uiauto_IRawElementProviderSimple_GetPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,32 +94,44 @@ If the provider does not support the <i>propertyId</i> property, the provider sh
 If a provider is explicitly hiding the property value (that is, the provider does not supply the property, and the request is not to be passed through to other providers), it should return a pointer obtained by using the             <a href="https://msdn.microsoft.com/ba789ed0-fa34-492c-90b4-acee0adb634c">UiaGetReservedNotSupportedValue</a> function. For example: 
             
 
-
-```
-pRetVal->vt = VT_UNKNOWN;
-UiaGetReservedNotSupportedValue(&pRetVal->punkVal);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>pRetVal-&gt;vt = VT_UNKNOWN;
+UiaGetReservedNotSupportedValue(&amp;pRetVal-&gt;punkVal);</pre>
+</td>
+</tr>
+</table></span></div>
 UI Automation properties of the <b>double</b> type support Not a Number (NaN) values. When returning a NaN value, the provider should return a quiet (non-signaling) NaN to avoid raising an exception if floating-point exceptions are turned on. The following example shows how to create a quiet NaN:
 
             
 
-
-```
-ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
-    *pRetVal = *reinterpret_cast<double*>(&ulNaN);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
+    *pRetVal = *reinterpret_cast&lt;double*&gt;(&amp;ulNaN);</pre>
+</td>
+</tr>
+</table></span></div>
 Alternatively, you can use the following function from the standard C++ libraries:
 
-
-```
-numeric_limits<double>::quiet_NaN( )
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>numeric_limits&lt;double&gt;::quiet_NaN( )</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 
@@ -127,16 +139,20 @@ The following example returns various property values. The <b>UiaIds</b> structu
             property identifiers; to see how it is initialized, see <a href="https://msdn.microsoft.com/9906acea-5246-4f01-8d76-03b89ff2f789">UiaLookupId</a>.
 			
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId, 
         VARIANT* pRetVal)
 {
     if (propertyId == UiaIds.ControlTypeProperty)
     {
-        pRetVal->vt = VT_I4;
-        pRetVal->lVal = UiaIds.ButtonControlType;
+        pRetVal-&gt;vt = VT_I4;
+        pRetVal-&gt;lVal = UiaIds.ButtonControlType;
     }
 
     // The Name property normally comes from the Caption property of the 
@@ -144,21 +160,21 @@ HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId,
     // sake of illustration. 
     else if (propertyId == UiaIds.NameProperty)
     {
-        pRetVal->vt = VT_BSTR;
-        pRetVal->bstrVal = SysAllocString(L"ColorButton");
+        pRetVal-&gt;vt = VT_BSTR;
+        pRetVal-&gt;bstrVal = SysAllocString(L"ColorButton");
     }
     else
     {
-        pRetVal->vt = VT_EMPTY;
+        pRetVal-&gt;vt = VT_EMPTY;
         // UI Automation will attempt to get the property from the host 
         //window provider.
     }
     return S_OK;
 }
-            
-```
-
-
+            </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

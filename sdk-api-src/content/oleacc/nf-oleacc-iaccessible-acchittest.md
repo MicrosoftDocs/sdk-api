@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__acchittest.htm
 tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,9 +186,13 @@ When this method is used in certain situations, additional usage notes apply. Fo
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation for a custom list box.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // m_pControl is the control that returns this accessible object. 
 // m_hwnd is the HWND of the control window. 
 //  
@@ -205,40 +209,44 @@ HRESULT STDMETHODCALLTYPE AccServer::accHitTest(
     // Not in our window. 
     if (WindowFromPoint(pt) != m_hwnd)
     {
-        pvarChild->vt = VT_EMPTY;
+        pvarChild-&gt;vt = VT_EMPTY;
         return S_FALSE;
     }
 
     else  // In our window; return list item, or self if in blank space. 
     {
-        pvarChild->vt = VT_I4;
-        ScreenToClient(m_hwnd, &pt);
+        pvarChild-&gt;vt = VT_I4;
+        ScreenToClient(m_hwnd, &amp;pt);
         // IndexFromY returns the 0-based index of the item at that point, 
         // or -1 if the point is not on any item.
-        int index = m_pControl->IndexFromY(pt.y);
-        if (index >= 0)
+        int index = m_pControl-&gt;IndexFromY(pt.y);
+        if (index &gt;= 0)
         {
             // Increment, because the child array is 1-based. 
-            pvarChild->lVal = index + 1;
+            pvarChild-&gt;lVal = index + 1;
         }
         else
         {
-            pvarChild->lVal = CHILDID_SELF;
+            pvarChild-&gt;lVal = CHILDID_SELF;
 
         }
         return S_OK;
     }
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function selects the item at a specified point on the screen within the list represented by <i>pAcc</i>. It is assumed that a single selection is wanted.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
 {
     if (pAcc == NULL)
@@ -247,17 +255,17 @@ HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
     }
     VARIANT varChild;
 
-    HRESULT hr = pAcc->accHitTest(point.x, point.y, &varChild);        
-    if ((hr == S_OK) && (varChild.lVal != CHILDID_SELF))
+    HRESULT hr = pAcc-&gt;accHitTest(point.x, point.y, &amp;varChild);        
+    if ((hr == S_OK) &amp;&amp; (varChild.lVal != CHILDID_SELF))
     {
-        return pAcc->accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varChild);
+        return pAcc-&gt;accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varChild);
     }
     return S_FALSE;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtbindingunexport.htm
 tech.root: Rpc
 ms.assetid: e15b9e45-ac9f-4f90-9323-8b16066290d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RPC_C_VERS_ALL, RPC_C_VERS_EXACT, RPC_C_VERS_IF_ID, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsMgmtBindingUnexport, RpcNsMgmtBindingUnexport function [RPC], RpcNsMgmtBindingUnexportA, RpcNsMgmtBindingUnexportW, _rpc_rpcnsmgmtbindingunexport, rpc.rpcnsmgmtbindingunexport, rpcnsi/RpcNsMgmtBindingUnexport, rpcnsi/RpcNsMgmtBindingUnexportA, rpcnsi/RpcNsMgmtBindingUnexportW
 ms.prod: windows-hardware
 ms.technology: windows-devices

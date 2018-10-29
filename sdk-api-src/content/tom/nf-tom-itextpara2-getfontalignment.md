@@ -4,10 +4,10 @@ title: ITextPara2::GetFontAlignment
 author: windows-sdk-content
 description: Gets the paragraph font alignment state.
 old-location: controls\itextpara2_getfontalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetFontAlignment, GetFontAlignment method [Windows Controls], GetFontAlignment method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetFontAlignment method, ITextPara2.GetFontAlignment, ITextPara2::GetFontAlignment, controls.itextpara2_getfontalignment, tom/ITextPara2::GetFontAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,19 +69,19 @@ The paragraph font alignment state. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="tomconstants.htm">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentTop</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBaseline</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBottom</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentCenter</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  

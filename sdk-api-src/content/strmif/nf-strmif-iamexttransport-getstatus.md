@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_getstatus.htm
 tech.root: DirectShow
 ms.assetid: 01d90527-4851-45a3-9481-929a9f4aa0cd
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

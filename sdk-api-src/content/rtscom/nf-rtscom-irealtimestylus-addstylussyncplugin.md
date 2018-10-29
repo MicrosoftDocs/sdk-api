@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_addstylussyncplugin.htm
 tech.root: tablet
 ms.assetid: db38e39a-27ba-42ca-8748-b5e9c4db18f7
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AddStylusSyncPlugin, AddStylusSyncPlugin method [Tablet PC], AddStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddStylusSyncPlugin method, IRealTimeStylus.AddStylusSyncPlugin, IRealTimeStylus::AddStylusSyncPlugin, db38e39a-27ba-42ca-8748-b5e9c4db18f7, rtscom/IRealTimeStylus::AddStylusSyncPlugin, tablet.irealtimestylus_addstylussyncplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,14 +95,18 @@ Plugins must aggregate the free threaded marshaler and must not be single thread
 
 The following C++ code example implements an event handler for a <b>CheckBox Control (Windows Forms)</b>. Depending on the checked state of the control, represented by the <code>m_btnPacketFilter</code> member variable, the function either adds or removes the plug-in represented by the global <code>g_pPacketModifier</code> variable.
 
-
-```cpp
-void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 {
 	HRESULT hr;
 	IStylusSyncPlugin* pSyncPlugin;
 
-	hr = g_pPacketModifier->QueryInterface(IID_IStylusSyncPlugin, reinterpret_cast<void**>(&pSyncPlugin));
+	hr = g_pPacketModifier-&gt;QueryInterface(IID_IStylusSyncPlugin, reinterpret_cast&lt;void**&gt;(&amp;pSyncPlugin));
 
 	if (SUCCEEDED(hr))
 	{
@@ -110,20 +114,20 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 		{
 			// If the checkbox is checked, add the 
 			// Packet Modifier plugin to the RealTimeStylus
-			hr = g_pRealTimeStylus->AddStylusSyncPlugin(0, pSyncPlugin);
+			hr = g_pRealTimeStylus-&gt;AddStylusSyncPlugin(0, pSyncPlugin);
 		}
 		else
 		{
 			// If the checkbox is not checked, remove the 
 			// Packet Modifier plugin from the RealTimeStylus
-			hr = g_pRealTimeStylus->RemoveStylusSyncPlugin(0, &pSyncPlugin);
+			hr = g_pRealTimeStylus-&gt;RemoveStylusSyncPlugin(0, &amp;pSyncPlugin);
 		}
 	}
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

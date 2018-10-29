@@ -7,7 +7,7 @@ old-location: gdi\createfont.htm
 tech.root: gdi
 ms.assetid: 373bac6e-5d4d-4909-8096-2f0e909d2f1d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ANTIALIASED_QUALITY, CLEARTYPE_QUALITY, CLIP_CHARACTER_PRECIS, CLIP_DEFAULT_PRECIS, CLIP_DFA_DISABLE, CLIP_DFA_OVERRIDE, CLIP_EMBEDDED, CLIP_LH_ANGLES, CLIP_MASK, CLIP_STROKE_PRECIS, CLIP_TT_ALWAYS, CreateFont, CreateFont function [Windows GDI], CreateFontA, CreateFontW, DEFAULT_QUALITY, DRAFT_QUALITY, FF_DECORATIVE, FF_DONTCARE, FF_MODERN, FF_ROMAN, FF_SCRIPT, FF_SWISS, FW_BLACK, FW_BOLD, FW_DEMIBOLD, FW_DONTCARE, FW_EXTRABOLD, FW_EXTRALIGHT, FW_HEAVY, FW_LIGHT, FW_MEDIUM, FW_NORMAL, FW_REGULAR, FW_SEMIBOLD, FW_THIN, FW_ULTRABOLD, FW_ULTRALIGHT, NONANTIALIASED_QUALITY, OUT_CHARACTER_PRECIS, OUT_DEFAULT_PRECIS, OUT_DEVICE_PRECIS, OUT_OUTLINE_PRECIS, OUT_PS_ONLY_PRECIS, OUT_RASTER_PRECIS, OUT_STRING_PRECIS, OUT_STROKE_PRECIS, OUT_TT_ONLY_PRECIS, OUT_TT_PRECIS, PROOF_QUALITY, _win32_CreateFont, gdi.createfont, wingdi/CreateFont, wingdi/CreateFontA, wingdi/CreateFontW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,14 +115,18 @@ This mapping occurs when the font is used for the first time.
 
 For the MM_TEXT mapping mode, you can use the following formula to specify a height for a font with a specified point size:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 nHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param cWidth [in]
 
@@ -797,9 +801,13 @@ The following situations do not support ClearType antialiasing:
 
 #### Examples
 
-
-```cpp
-LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     int wmId, wmEvent;
     PAINTSTRUCT ps;
@@ -813,7 +821,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         RECT rect;
         HBRUSH hBrush;
         HFONT hFont;
-        hdc = BeginPaint(hWnd, &ps);
+        hdc = BeginPaint(hWnd, &amp;ps);
 
             
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 48 pixels in height.
@@ -824,9 +832,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SelectObject(hdc, hFont);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
-            SetRect(&rect, 100,100,700,200);
+            SetRect(&amp;rect, 100,100,700,200);
             SetTextColor(hdc, RGB(255,0,0));
-            DrawText(hdc, TEXT("Drawing Text with Impact"), -1,&rect, DT_NOCLIP);
+            DrawText(hdc, TEXT("Drawing Text with Impact"), -1,&amp;rect, DT_NOCLIP);
             
 
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
@@ -837,9 +845,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SelectObject(hdc,hFont);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
-            SetRect(&rect, 100, 200, 900, 800);
+            SetRect(&amp;rect, 100, 200, 900, 800);
             SetTextColor(hdc, RGB(0,128,0));
-            DrawText(hdc, TEXT("Drawing Text with Times New Roman"), -1,&rect, DT_NOCLIP);
+            DrawText(hdc, TEXT("Drawing Text with Times New Roman"), -1,&amp;rect, DT_NOCLIP);
             
                 
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
@@ -850,12 +858,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SelectObject(hdc,hFont);
 
             //Sets the coordinates for the rectangle in which the text is to be formatted.
-            SetRect(&rect, 500, 200, 1400, 600);
+            SetRect(&amp;rect, 500, 200, 1400, 600);
             SetTextColor(hdc, RGB(0,0,255));
-            DrawText(hdc, TEXT("Drawing Text with Arial"), -1,&rect, DT_NOCLIP);
+            DrawText(hdc, TEXT("Drawing Text with Arial"), -1,&amp;rect, DT_NOCLIP);
             DeleteObject(hFont);    
         
-        EndPaint(hWnd, &ps);
+        EndPaint(hWnd, &amp;ps);
         break;
         }
     case WM_DESTROY:
@@ -866,11 +874,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return 0;
 }
-
-```
-
-
-For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

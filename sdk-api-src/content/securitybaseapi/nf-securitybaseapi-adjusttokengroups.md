@@ -7,7 +7,7 @@ old-location: security\adjusttokengroups.htm
 tech.root: SecAuthZ
 ms.assetid: 839c4b58-4c61-4f72-8337-1e3dfa267ee5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AdjustTokenGroups, AdjustTokenGroups function [Security], _win32_adjusttokengroups, security.adjusttokengroups, securitybaseapi/AdjustTokenGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,7 @@ You cannot enable a group that has the SE_GROUP_USE_FOR_DENY_ONLY attribute.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

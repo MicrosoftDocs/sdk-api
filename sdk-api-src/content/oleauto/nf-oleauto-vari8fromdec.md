@@ -7,7 +7,7 @@ old-location: automat\vari8fromdec.htm
 tech.root: automat
 ms.assetid: 6fb7f5da-f82c-4a39-9900-d0ce3472a70d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: VarI8FromDec, VarI8FromDec function [Automation], _oa96_VarI8FromDec, automat.vari8fromdec, oleauto/VarI8FromDec
 ms.prod: windows-hardware
 ms.technology: windows-devices

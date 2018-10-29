@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_erasermode.htm
 tech.root: tablet
 ms.assetid: f6471163-8209-4dd0-887c-0edd54ebb50e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: EraserMode property [Tablet PC], EraserMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EraserMode property, IInkPicture.EraserMode, IInkPicture.put_EraserMode, IInkPicture::EraserMode, IInkPicture::get_EraserMode, IInkPicture::put_EraserMode, InkPicture.get_EraserMode, InkPicture.put_EraserMode, f6471163-8209-4dd0-887c-0edd54ebb50e, get_EraserMode, msinkaut/IInkPicture::EraserMode, msinkaut/IInkPicture::get_EraserMode, msinkaut/IInkPicture::put_EraserMode, put_EraserMode, tablet.inkpicture_erasermode
 ms.prod: windows-hardware
 ms.technology: windows-devices

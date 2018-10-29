@@ -7,7 +7,7 @@ old-location: security\dseditsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

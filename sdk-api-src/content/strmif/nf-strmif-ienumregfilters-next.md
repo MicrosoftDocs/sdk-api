@@ -7,7 +7,7 @@ old-location: dshow\ienumregfilters_next.htm
 tech.root: DirectShow
 ms.assetid: ec255b9b-33cf-42a3-9f02-f1f34eee2da1
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Next method, IEnumRegFilters.Next, IEnumRegFilters::Next, IEnumRegFiltersNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_next, strmif/IEnumRegFilters::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITAddress::get_TAPIObject
 author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object that owns this address.
 old-location: tapi3\itaddress_get_tapiobject.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 37064bef-d5c0-44b9-a7eb-ae922b175f91
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_TAPIObject method, ITAddress.get_TAPIObject, ITAddress::get_TAPIObject, _tapi3_itaddress_get_tapiobject, get_TAPIObject, get_TAPIObject method [TAPI 2.2], get_TAPIObject method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_tapiobject, tapi3if/ITAddress::get_TAPIObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

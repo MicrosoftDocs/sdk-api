@@ -4,10 +4,10 @@ title: RasGetAutodialAddressW function
 author: windows-sdk-content
 description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
 old-location: rras\rasgetautodialaddress.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasGetAutodialAddress, RasGetAutodialAddress function [RAS], RasGetAutodialAddressA, RasGetAutodialAddressW, _ras_rasgetautodialaddress, ras/RasGetAutodialAddress, ras/RasGetAutodialAddressA, ras/RasGetAutodialAddressW, rras.rasgetautodialaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,41 +63,19 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the address for which information is requested. This can be an IP address, Internet host name ("www.microsoft.com"), or NetBIOS name ("products1").
 
 If this parameter is <b>NULL</b>, the function retrieves the default Internet connection. The function returns the per-user default Internet connection if one is configured. Otherwise, the function returns the global default Internet connection. If no default Internet connections are configured, the function returns zero for the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters.
 
 
-#### - lpAutoDialEntries [in, out]
+### -param arg2 [in]
+
+Reserved; must be <b>NULL</b>.
+
+
+### -param arg3 [in, out]
 
 Pointer to a buffer that, on output, receives an array of 
 <a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures, one for each AutoDial entry associated with the address specified by the <i>lpszAddress</i> parameter. 
@@ -112,17 +90,7 @@ If <i>lpAutoDialEntries</i> is <b>NULL</b>,
 <b>RasGetAutodialAddress</b> sets the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters to indicate the required buffer size, in bytes, and the number of AutoDial entries.
 
 
-#### - lpdwReserved [in]
-
-Reserved; must be <b>NULL</b>.
-
-
-#### - lpdwcAutoDialEntries [out]
-
-Pointer to a variable that receives the number of structure elements returned in the <i>lpAutoDialEntries</i> buffer.
-
-
-#### - lpdwcbAutoDialEntries [in, out]
+### -param arg4 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer. 
 
@@ -130,6 +98,11 @@ Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lp
 
 
 On output, this variable receives the number of bytes returned, or the number of bytes required if the buffer is too small.
+
+
+### -param arg5 [out]
+
+Pointer to a variable that receives the number of structure elements returned in the <i>lpAutoDialEntries</i> buffer.
 
 
 ## -returns

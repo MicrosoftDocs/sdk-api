@@ -7,7 +7,7 @@ old-location: winsock\pollfd.htm
 tech.root: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], pollfd, winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD"
 ms.prod: windows
 ms.technology: windows-sdk

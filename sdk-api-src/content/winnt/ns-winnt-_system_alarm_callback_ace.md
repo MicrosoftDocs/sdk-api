@@ -7,7 +7,7 @@ old-location: security\system_alarm_callback_ace.htm
 tech.root: SecAuthZ
 ms.assetid: 8bfb579f-4bee-454e-827b-63a800bccf85
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PSYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE structure [Security], _SYSTEM_ALARM_CALLBACK_ACE, security.system_alarm_callback_ace, winnt/SYSTEM_ALARM_CALLBACK_ACE"
 ms.prod: windows
 ms.technology: windows-sdk

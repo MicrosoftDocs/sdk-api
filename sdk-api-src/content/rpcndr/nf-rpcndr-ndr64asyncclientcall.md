@@ -7,7 +7,7 @@ old-location: rpc\ndr64asyncclientcall.htm
 tech.root: Rpc
 ms.assetid: 0C2188A9-CEAA-487F-9385-48E9BF7773B9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: Ndr64AsyncClientCall, Ndr64AsyncClientCall function [RPC], rpc.ndr64asyncclientcall, rpcndr/Ndr64AsyncClientCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Reserved.
 Reserved.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - param [in, out]
+### -param arg1 [in, out]
 
 Reserved.
 

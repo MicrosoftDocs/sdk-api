@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm
 tech.root: LocationAPI
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

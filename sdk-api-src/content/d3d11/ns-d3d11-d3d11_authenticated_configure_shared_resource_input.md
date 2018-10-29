@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_configure_shared_resource_input.htm
 tech.root: medfound
 ms.assetid: 5AE1D03F-1853-45DA-96DC-BF1AACF6945F
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT, mf.d3d11_authenticated_configure_shared_resource_input
 ms.prod: windows
 ms.technology: windows-sdk

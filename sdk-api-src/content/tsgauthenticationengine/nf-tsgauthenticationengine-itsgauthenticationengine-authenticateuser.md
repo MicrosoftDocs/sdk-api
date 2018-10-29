@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticationengine_authenticateuser.htm
 tech.root: termserv
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AuthenticateUser, AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],AuthenticateUser method, ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

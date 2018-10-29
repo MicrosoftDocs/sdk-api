@@ -7,7 +7,7 @@ old-location: base\setproviderstatusinfofreefunc.htm
 tech.root: sysinfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
 ms.prod: windows
 ms.technology: windows-sdk

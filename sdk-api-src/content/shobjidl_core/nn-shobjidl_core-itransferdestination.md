@@ -7,7 +7,7 @@ old-location: shell\ITransferDestination.htm
 tech.root: shell
 ms.assetid: 8d0049e0-e227-40ae-a282-cdc17f227e24
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ITransferDestination, ITransferDestination interface [Windows Shell], ITransferDestination interface [Windows Shell],described, _shell_ITransferDestination, shell.ITransferDestination, shobjidl_core/ITransferDestination
 ms.prod: windows
 ms.technology: windows-sdk

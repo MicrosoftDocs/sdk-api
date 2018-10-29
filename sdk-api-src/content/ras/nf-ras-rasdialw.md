@@ -4,10 +4,10 @@ title: RasDialW function
 author: windows-sdk-content
 description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
 old-location: rras\rasdial.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,39 +63,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-### -param arg6
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/533c9ab4-69d0-492d-81c6-2c07ca219fc7">RASDIALEXTENSIONS</a> structure that specifies a set of 
@@ -106,7 +74,30 @@ Pointer to a
 					
 
 
-#### - dwNotifierType [in]
+### -param arg2 [in]
+
+Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
+					
+
+
+### -param arg3 [in]
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure that specifies calling parameters for the RAS connection. Use the 
+<a href="https://msdn.microsoft.com/c6752f95-c7e8-44d9-9dbd-9f03cc4778fa">RasGetEntryDialParams</a> function to retrieve a copy of this structure for a particular phone-book entry. 
+
+
+
+
+The caller must set the 
+<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure's <b>dwSize</b> member to sizeof(<b>RASDIALPARAMS</b>) to identify the version of the structure being passed.
+
+If the <b>szPhoneNumber</b> member of the 
+<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure is an empty string, 
+<b>RasDial</b> uses the phone number stored in the phone-book entry.
+
+
+### -param arg4 [in]
 
 Specifies the nature of the <i>lpvNotifier</i> parameter. If <i>lpvNotifier</i> is <b>NULL</b>, <i>dwNotifierType</i> is ignored. If <i>lpvNotifier</i> is not <b>NULL</b>, set <i>dwNotifierType</i> to one of the following values. 
 
@@ -154,37 +145,7 @@ The <i>lpvNotifier</i> parameter points to a
  
 
 
-#### - lpRasDialParams [in]
-
-Pointer to a 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure that specifies calling parameters for the RAS connection. Use the 
-<a href="https://msdn.microsoft.com/c6752f95-c7e8-44d9-9dbd-9f03cc4778fa">RasGetEntryDialParams</a> function to retrieve a copy of this structure for a particular phone-book entry. 
-
-
-
-
-The caller must set the 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure's <b>dwSize</b> member to sizeof(<b>RASDIALPARAMS</b>) to identify the version of the structure being passed.
-
-If the <b>szPhoneNumber</b> member of the 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure is an empty string, 
-<b>RasDial</b> uses the phone number stored in the phone-book entry.
-
-
-#### - lphRasConn [out]
-
-Pointer to a variable of type <b>HRASCONN</b>. Set the <b>HRASCONN</b> variable to <b>NULL</b> before calling 
-<b>RasDial</b>. If 
-<b>RasDial</b> succeeds, it stores a handle to the RAS connection into <i>*lphRasConn</i>.
-
-
-#### - lpszPhonebook [in]
-
-Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
-					
-
-
-#### - lpvNotifier [in]
+### -param arg5 [in]
 
 Specifies a window handle or a 
 <a href="https://msdn.microsoft.com/668ebede-73ec-4ee9-9b81-7167e827db60">RasDialFunc</a>, 
@@ -216,6 +177,13 @@ If <i>lpvNotifier</i> is not <b>NULL</b>, notifications to the window or callbac
 </ul>
 The callback notifications are made in the context of a thread captured during the initial call to 
 <b>RasDial</b>.
+
+
+### -param arg6 [out]
+
+Pointer to a variable of type <b>HRASCONN</b>. Set the <b>HRASCONN</b> variable to <b>NULL</b> before calling 
+<b>RasDial</b>. If 
+<b>RasDial</b> succeeds, it stores a handle to the RAS connection into <i>*lphRasConn</i>.
 
 
 ## -returns
@@ -263,15 +231,19 @@ The <i>lpvNotifier</i> parameter is a handle to a window to receive progress not
 
 The progress notification message uses a system registered message code. You can obtain the value of this message code as follows:
 
-
-```cpp
-UINT unMsg = RegisterWindowMessageA( RASDIALEVENT );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT unMsg = RegisterWindowMessageA( RASDIALEVENT );
 if (unMsg == 0)
     unMsg = WM_RASDIALEVENT;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 RAS supports referenced connections. If the entry being dialed is already connected, 
 <b>RasDial</b>  returns <b>SUCCESS</b> and the connection is referenced. To disconnect the connection, each 
 <b>RasDial</b> on the connection should be matched by a 

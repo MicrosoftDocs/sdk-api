@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_deleteappmember.htm
 tech.root: SecAuthZ
 ms.assetid: 856d9b18-927a-462a-b238-78b704bcc58b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzApplicationGroup object, DeleteAppMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppMember method, IAzApplicationGroup.DeleteAppMember, IAzApplicationGroup::DeleteAppMember, azroles/IAzApplicationGroup::DeleteAppMember, security.iazapplicationgroup_deleteappmember
 ms.prod: windows-hardware
 ms.technology: windows-devices

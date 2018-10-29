@@ -7,7 +7,7 @@ old-location: security\crypt_provui_funcs.htm
 tech.root: seccrypto
 ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS structure [Security], PCRYPT_PROVUI_FUNCS, PCRYPT_PROVUI_FUNCS structure pointer [Security], _CRYPT_PROVUI_FUNCS, security.crypt_provui_funcs, wintrust/CRYPT_PROVUI_FUNCS, wintrust/PCRYPT_PROVUI_FUNCS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,19 +96,23 @@ A pointer to the  default function called when the <b>Advanced</b> button is cli
 
 The prototype for PFN_PROVUI_CALL is defined as:
 
-
-```cpp
-#include <windows.h>
-#include <Wintrust.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Wintrust.h&gt;
 
 typedef BOOL (*PFN_PROVUI_CALL)(
     IN HWND hWndSecurityDialog,
     IN struct _CRYPT_PROVIDER_DATA *pProvData
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

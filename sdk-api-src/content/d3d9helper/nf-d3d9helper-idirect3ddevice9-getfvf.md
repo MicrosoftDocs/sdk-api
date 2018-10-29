@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetFVF
 author: windows-sdk-content
 description: Gets the fixed vertex function declaration.
 old-location: direct3d9\idirect3ddevice9__getfvf.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getfvf.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: 951f24cf-f72e-7ab4-8fde-fbe96bc36c7a, GetFVF, GetFVF method [Direct3D 9], GetFVF method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetFVF method, IDirect3DDevice9.GetFVF, IDirect3DDevice9::GetFVF, d3d9helper/IDirect3DDevice9::GetFVF, direct3d9.idirect3ddevice9__getfvf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,14 @@ Gets the fixed vertex function declaration.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
-A DWORD pointer to the fixed function vertex type. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb172559(v=VS.85).aspx">D3DFVF</a>.
+A DWORD pointer to the fixed function vertex type. For more information, see <a href="https://msdn.microsoft.com/85d9f5b2-8e4a-4f92-a587-eae5b293778c">D3DFVF</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -92,11 +92,11 @@ The fixed vertex function declaration is a set of FVF flags that determine how v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174433(v=VS.85).aspx">IDirect3DDevice9::SetFVF</a>
+<a href="https://msdn.microsoft.com/30c7db1d-5814-49d5-a92a-de597b31cb63">IDirect3DDevice9::SetFVF</a>
  
 
  

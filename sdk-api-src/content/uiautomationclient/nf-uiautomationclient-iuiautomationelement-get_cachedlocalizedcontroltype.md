@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedLocalizedControlType.htm
 tech.root: WinAuto
 ms.assetid: 815cce32-45ca-4fd1-aedc-5b288d876d60
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CachedLocalizedControlType property [Windows Accessibility], CachedLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLocalizedControlType property, IUIAutomationElement.CachedLocalizedControlType, IUIAutomationElement.get_CachedLocalizedControlType, IUIAutomationElement::CachedLocalizedControlType, IUIAutomationElement::get_CachedLocalizedControlType, get_CachedLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CachedLocalizedControlType, uiauto_IUIAutomationElement_CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CachedLocalizedControlType, winauto.uiauto_IUIAutomationElement_CachedLocalizedControlType
 ms.prod: windows-hardware
 ms.technology: windows-devices

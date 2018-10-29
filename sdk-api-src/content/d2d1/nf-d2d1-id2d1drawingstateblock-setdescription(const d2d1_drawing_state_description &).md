@@ -4,10 +4,10 @@ title: ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTI
 author: windows-sdk-content
 description: Specifies the antialiasing mode, transform, and tags portion of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_STATE_DESCRIPTION.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 96ef4161-7af1-4a02-bdbe-5fcb752055d9
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ID2D1DrawingStateBlock interface [Direct2D],SetDescription method, ID2D1DrawingStateBlock.SetDescription, ID2D1DrawingStateBlock.SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &), ID2D1DrawingStateBlock::SetDescription, ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &), SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1DrawingStateBlock interface, d2d1/ID2D1DrawingStateBlock::SetDescription, direct2d.ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_STATE_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

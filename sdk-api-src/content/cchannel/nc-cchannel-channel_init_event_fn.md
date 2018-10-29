@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelinitevent.htm
 tech.root: termserv
 ms.assetid: 8a074b6c-7fc1-411f-a50c-64f40c0c4dd6
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CHANNEL_EVENT_CONNECTED, CHANNEL_EVENT_DISCONNECTED, CHANNEL_EVENT_INITIALIZED, CHANNEL_EVENT_REMOTE_CONTROL_START, CHANNEL_EVENT_REMOTE_CONTROL_STOP, CHANNEL_EVENT_TERMINATED, CHANNEL_EVENT_V1_CONNECTED, CHANNEL_INIT_EVENT_FN, CHANNEL_INIT_EVENT_FN callback function [Remote Desktop Services], VirtualChannelInitEvent callback, _win32_virtualchannelinitevent, cchannel/CHANNEL_INIT_EVENT_FN, termserv.virtualchannelinitevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The <b>PCHANNEL_INIT_EVENT_FN</b> type defines a pointer to this callback functi
 ### -param pInitHandle [in]
 
 Handle to the client connection. This is the handle returned in the <i>ppInitHandle</i> parameter of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa383564(v=VS.85).aspx">VirtualChannelInit</a> function.
+      <a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a> function.
 
 
 ### -param event [in]
@@ -144,14 +144,14 @@ This function does not return a value.
 
 
 The client DLL uses the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa383564(v=VS.85).aspx">VirtualChannelInit</a> function to 
+     <a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a> function to 
      register its <b>VirtualChannelInitEvent</b> function with Remote Desktop Services.
 
 This function is reentrant on a per-handle basis. The function may be called while it is executing, but not 
      on the same handle more than once.
 
 This function is called only after 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa383560(v=VS.85).aspx">VirtualChannelEntry</a> has completed.
+     <a href="https://msdn.microsoft.com/1fd185fb-6dc9-4b32-9fa7-15ef76776305">VirtualChannelEntry</a> has completed.
 
 <b>CHANNEL_EVENT_CONNECTED</b> and <b>CHANNEL_EVENT_DISCONNECTED</b> event notifications will not be sent if the 
      connection is transferred to another session. However, the server-side plug-in that is administering the session 
@@ -172,7 +172,7 @@ If the user-mode plug-in must be notified that it has been reconnected (for exam
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383564(v=VS.85).aspx">VirtualChannelInit</a>
+<a href="https://msdn.microsoft.com/3dae59dc-e70f-450e-a324-a4d68341a72e">VirtualChannelInit</a>
  
 
  

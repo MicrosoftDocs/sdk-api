@@ -4,10 +4,10 @@ title: ITDigitsGatheredEvent::get_TickCount
 author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which digit-gathering completed.
 old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 6e5fbed0-f132-418f-aa71-36d0e673affa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_TickCount method, ITDigitsGatheredEvent.get_TickCount, ITDigitsGatheredEvent::get_TickCount, _tapi3_itdigitsgatheredevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_tickcount, tapi3if/ITDigitsGatheredEvent::get_TickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

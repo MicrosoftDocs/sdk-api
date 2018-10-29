@@ -7,7 +7,7 @@ old-location: security\certsrvbackupend.htm
 tech.root: seccrypto
 ms.assetid: ebf87af3-df45-4440-9881-e2926b0c4f08
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CertSrvBackupEnd, CertSrvBackupEnd function [Security], _certsrv_certsrvbackupend, certbcli/CertSrvBackupEnd, security.certsrvbackupend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,18 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-Upon completion of a backup session, the session needs to be terminated by means of <b>CertSrvBackupEnd</b>. For every successful call to <a href="https://msdn.microsoft.com/en-us/library/Aa376585(v=VS.85).aspx">CertSrvBackupPrepare</a>, there should be a call to <b>CertSrvBackupEnd</b>.
+Upon completion of a backup session, the session needs to be terminated by means of <b>CertSrvBackupEnd</b>. For every successful call to <a href="https://msdn.microsoft.com/21af96f8-168d-4c6c-8966-357236c0e4e6">CertSrvBackupPrepare</a>, there should be a call to <b>CertSrvBackupEnd</b>.
 
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPEND* pfnBackupEnd;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPEND* pfnBackupEnd;
 char * szBackEndFunc = "CertSrvBackupEnd";
 HRESULT    hr=0;
 
@@ -107,10 +111,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnBackupEnd call [%x]\n", hr);
     exit(1);  // Or other appropriate error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,11 +123,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376585(v=VS.85).aspx">CertSrvBackupPrepare</a>
+<a href="https://msdn.microsoft.com/21af96f8-168d-4c6c-8966-357236c0e4e6">CertSrvBackupPrepare</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

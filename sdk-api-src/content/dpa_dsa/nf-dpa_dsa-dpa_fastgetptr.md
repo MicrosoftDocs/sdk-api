@@ -4,10 +4,10 @@ title: DPA_FastGetPtr macro
 author: windows-sdk-content
 description: Gets the value of the specified pointer in the dynamic pointer array (DPA).
 old-location: controls\DPA_FastGetPtr.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: DPA_FastGetPtr, DPA_FastGetPtr macro [Windows Controls], _shell_DPA_FastGetPtr, _shell_DPA_FastGetPtr_cpp, controls.DPA_FastGetPtr, controls._shell_DPA_FastGetPtr, dpa_dsa/DPA_FastGetPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The index of the DPA item.
 
 
 
- Unlike function <a href="https://msdn.microsoft.com/en-us/library/Bb775617(v=VS.85).aspx">DPA_GetPtr</a>, the macro <b>DPA_FastGetPtr</b> does no parameter validation. If the index specified in <b>DPA_FastGetPtr</b> is out of range, the behavior is undefined.
+ Unlike function <a href="https://msdn.microsoft.com/1aca806d-4ab2-4286-a30f-66cd12000c44">DPA_GetPtr</a>, the macro <b>DPA_FastGetPtr</b> does no parameter validation. If the index specified in <b>DPA_FastGetPtr</b> is out of range, the behavior is undefined.
 
 
 

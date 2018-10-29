@@ -7,7 +7,7 @@ old-location: shell\IFileSystemBindData_SetFindData.htm
 tech.root: shell
 ms.assetid: 8e2af85f-5eca-46e4-b193-bf25e2366fac
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, IFileSystemBindData.SetFindData, IFileSystemBindData::SetFindData, SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell],IFileSystemBindData interface, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
 ms.prod: windows-hardware
 ms.technology: windows-devices

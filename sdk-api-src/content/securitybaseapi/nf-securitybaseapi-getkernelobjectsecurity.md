@@ -7,7 +7,7 @@ old-location: security\getkernelobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 276e9657-5729-48cb-9531-14bfd08b7868
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetKernelObjectSecurity, GetKernelObjectSecurity function [Security], _win32_getkernelobjectsecurity, security.getkernelobjectsecurity, securitybaseapi/GetKernelObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -136,7 +136,7 @@ To read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

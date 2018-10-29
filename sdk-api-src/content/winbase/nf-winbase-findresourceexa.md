@@ -7,7 +7,7 @@ old-location: menurc\findresourceex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresourceex.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: FindResourceEx, FindResourceEx function [Menus and Other Resources], FindResourceExA, FindResourceExW, _win32_FindResourceEx, _win32_findresourceex_cpp, menurc.findresourceex, winbase/FindResourceEx, winbase/FindResourceExA, winbase/FindResourceExW, winui._win32_findresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,16 +89,16 @@ A handle to the module whose portable executable file or an accompanying MUI fil
 
 Type: <b>LPCTSTR</b>
 
-The resource type. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
+The resource type. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
 
-resource type. For standard resource types, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Resource Types</a>. For more information, see the Remarks section below.
+resource type. For standard resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. For more information, see the Remarks section below.
 
 
 ### -param lpName [in]
 
 Type: <b>LPCTSTR</b>
 
-The name of the resource. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
+The name of the resource. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
 
 ### -param wLanguage [in]
@@ -117,7 +117,7 @@ To specify a language other than the current language, use the <a href="https://
 
 Type: <b>HRSRC</b>
 
-If the function succeeds, the return value is a handle to the specified resource's information block. To obtain a handle to the resource, pass this handle to the <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> function.
+If the function succeeds, the return value is a handle to the specified resource's information block. To obtain a handle to the resource, pass this handle to the <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> function.
                     
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -129,11 +129,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If <a href="https://msdn.microsoft.com/en-us/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a> is <b>TRUE</b> for x = <i>lpType</i> or <i>lpName</i>, x specifies the integer identifier of the type or name of the given resource. Otherwise, those parameters are long pointers to null-terminated strings. If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource's name or type. For example, the string "#258" represents the integer identifier 258. 
+If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a> is <b>TRUE</b> for x = <i>lpType</i> or <i>lpName</i>, x specifies the integer identifier of the type or name of the given resource. Otherwise, those parameters are long pointers to null-terminated strings. If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource's name or type. For example, the string "#258" represents the integer identifier 258. 
 
 To reduce the amount of memory required for a resource, an application should refer to it by integer identifier instead of by name. 
 
-An application can use <b>FindResourceEx</b> to find any type of resource, but this function should be used only if the application must access the binary resource data by making subsequent calls to <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> and then to <a href="https://msdn.microsoft.com/en-us/library/ms648047(v=VS.85).aspx">LockResource</a>. 
+An application can use <b>FindResourceEx</b> to find any type of resource, but this function should be used only if the application must access the binary resource data by making subsequent calls to <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> and then to <a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a>. 
 
 To use a resource immediately, an application should use one of the following resource-specific functions to find the resource and convert the data into a more usable form. 
 
@@ -150,7 +150,7 @@ To use a resource immediately, an application should use one of the following re
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>
 </td>
 <td>Loads an accelerator table.</td>
 </tr>
@@ -162,39 +162,39 @@ To use a resource immediately, an application should use one of the following re
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 </td>
 <td>Loads a cursor resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
 </td>
 <td>Loads an icon resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://msdn.microsoft.com/806297e1-0ee4-4471-a98a-598c1b48c0de">LoadMenu</a>
 </td>
 <td>Loads a menu resource.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
 </td>
 <td>Loads a string-table entry.</td>
 </tr>
 </table>
  
 
-For example, an application can use the <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function to load an icon for display on the screen. However, the application should use <b>FindResourceEx</b> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> if it is loading the icon to copy its data to another application. 
+For example, an application can use the <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function to load an icon for display on the screen. However, the application should use <b>FindResourceEx</b> and <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> if it is loading the icon to copy its data to another application. 
 
-String resources are stored in sections of up to 16 strings per section. The strings in each section are stored as a sequence of counted (not necessarily null-terminated) Unicode strings. The <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> function will extract the string resource from its corresponding section. 
+String resources are stored in sections of up to 16 strings per section. The strings in each section are stored as a sequence of counted (not necessarily null-terminated) Unicode strings. The <a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a> function will extract the string resource from its corresponding section. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v=VS.85).aspx">Creating a Resource List</a>.
+For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
 
 <div class="code"></div>
 
@@ -209,7 +209,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>
+<a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a>
 
 
 
@@ -217,11 +217,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a>
+<a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>
 
 
 
@@ -229,23 +229,23 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://msdn.microsoft.com/806297e1-0ee4-4471-a98a-598c1b48c0de">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
+<a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
 
 
 
@@ -261,7 +261,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
  
 
  

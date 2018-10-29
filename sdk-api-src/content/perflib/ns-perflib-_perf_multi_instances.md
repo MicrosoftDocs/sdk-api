@@ -7,7 +7,7 @@ old-location: perf\perf_multi_instances.htm
 tech.root: perfctrs
 ms.assetid: 5EC34ECD-D240-4B44-A52B-C5518918400C
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PPERF_MULTI_INSTANCES, PERF_MULTI_INSTANCES, PERF_MULTI_INSTANCES structure [Perf], PPERF_MULTI_INSTANCES, PPERF_MULTI_INSTANCES structure pointer [Perf], _PERF_MULTI_INSTANCES, perf.perf_multi_instances, perflib/PERF_MULTI_INSTANCES, perflib/PPERF_MULTI_INSTANCES"
 ms.prod: windows
 ms.technology: windows-sdk

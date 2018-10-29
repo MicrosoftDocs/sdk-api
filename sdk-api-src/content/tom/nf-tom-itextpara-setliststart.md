@@ -4,10 +4,10 @@ title: ITextPara::SetListStart
 author: windows-sdk-content
 description: Sets the starting number or Unicode value for a numbered list.
 old-location: controls\ITextPara_SetListStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setliststart.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListStart method, ITextPara.SetListStart, ITextPara::SetListStart, SetListStart, SetListStart method [Windows Controls], SetListStart method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListStart, _win32_ITextPara_SetListStart_cpp, controls.ITextPara_SetListStart, controls._win32_ITextPara_SetListStart, tom/ITextPara::SetListStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-Other characteristics of a list are specified by <a href="https://msdn.microsoft.com/en-us/library/Bb787786(v=VS.85).aspx">ITextPara::SetListType</a>.
+Other characteristics of a list are specified by <a href="https://msdn.microsoft.com/5f9adb67-e4d6-41c9-b360-efbcead7befc">ITextPara::SetListType</a>.
 
 
 
@@ -157,7 +157,7 @@ Other characteristics of a list are specified by <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -165,11 +165,11 @@ Other characteristics of a list are specified by <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787786(v=VS.85).aspx">SetListType</a>
+<a href="https://msdn.microsoft.com/5f9adb67-e4d6-41c9-b360-efbcead7befc">SetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

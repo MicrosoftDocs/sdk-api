@@ -7,7 +7,7 @@ old-location: winsock\wspaddresstostring_2.htm
 tech.root: WinSock
 ms.assetid: 7a6d8f77-7235-4cd1-90e1-9b5260137246
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Buffer that receives the human readableâ€“address string..
 ### -param lpdwAddressStringLength [in, out]
 
 Length of the <i>AddressString</i> buffer, in bytes. Returns the length of the string actually copied into the buffer. If the supplied buffer is not large enough, the function fails with a specific error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size, in bytes.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size, in bytes.
 
 
 ### -param lpErrno [out]
@@ -108,7 +108,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ The specified AddressString buffer is too small. Pass in a larger buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

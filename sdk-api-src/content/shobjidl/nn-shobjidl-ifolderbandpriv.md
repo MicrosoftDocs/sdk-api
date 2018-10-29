@@ -7,7 +7,7 @@ old-location: shell\IFolderBandPriv.htm
 tech.root: shell
 ms.assetid: d942a60d-aaac-4889-b74a-a8b4682ab619
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], IFolderBandPriv interface [Windows Shell],described, _win32_IFolderBandPriv, shell.IFolderBandPriv, shobjidl/IFolderBandPriv
 ms.prod: windows
 ms.technology: windows-sdk

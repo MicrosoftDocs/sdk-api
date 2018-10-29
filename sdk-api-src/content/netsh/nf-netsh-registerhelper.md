@@ -7,7 +7,7 @@ old-location: netshell\registerhelper.htm
 tech.root: NetShell
 ms.assetid: 9c9ac64a-6edd-4348-80c7-4192726e5108
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RegisterHelper, RegisterHelper function [NetShell], _netsh_registerhelper, netsh/RegisterHelper, netshell.registerhelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

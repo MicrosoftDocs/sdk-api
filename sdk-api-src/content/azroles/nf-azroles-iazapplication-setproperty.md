@@ -7,7 +7,7 @@ old-location: security\iazapplication_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 077ed5a9-7a38-4477-9fac-1f0b88ab0d33
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_INTERFACE_CLSID, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AzApplication object [Security],SetProperty method, IAzApplication interface [Security],SetProperty method, IAzApplication.SetProperty, IAzApplication::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplication object, SetProperty method [Security],IAzApplication interface, azroles/IAzApplication::SetProperty, security.iazapplication_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_Parent.htm
 tech.root: shell
 ms.assetid: 36a893b3-6c4e-4cca-949b-707fd2aed125
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Parent method, IShellFolderViewDual.get_Parent, IShellFolderViewDual::get_Parent, _shell_IShellFolderViewDual_get_Parent, get_Parent, get_Parent method [Windows Shell], get_Parent method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Parent, shldisp/IShellFolderViewDual::get_Parent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Not implemented.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 The application object.
 

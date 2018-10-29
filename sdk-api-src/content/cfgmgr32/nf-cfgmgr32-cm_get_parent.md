@@ -7,7 +7,7 @@ old-location: devinst\cm_get_parent.htm
 tech.root: devinst
 ms.assetid: e9d1db59-e9fb-4704-81f6-86523397c114
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CM_Get_Parent, CM_Get_Parent function [Device and Driver Installation], cfgmgr32/CM_Get_Parent, cfgmgrfn_fdd00a0a-e79d-469d-9a1a-852096d89a48.xml, devinst.cm_get_parent
 ms.prod: windows-hardware
 ms.technology: windows-devices

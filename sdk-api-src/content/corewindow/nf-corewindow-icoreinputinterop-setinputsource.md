@@ -7,7 +7,7 @@ old-location: winrt\icoreinputinterop_setinputsource.htm
 tech.root: WinRT
 ms.assetid: 693180F5-2C19-47CD-9514-F0CEA1849A4A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ICoreInputInterop interface [Windows Runtime],SetInputSource method, ICoreInputInterop.SetInputSource, ICoreInputInterop::SetInputSource, SetInputSource, SetInputSource method [Windows Runtime], SetInputSource method [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::SetInputSource, winrt.icoreinputinterop_setinputsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn302114(v=VS.85).aspx">ICoreInputInterop</a>
+<a href="https://msdn.microsoft.com/F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599">ICoreInputInterop</a>
  
 
  

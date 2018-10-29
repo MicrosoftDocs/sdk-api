@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusdown.htm
 tech.root: tablet
 ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tablet PC],StylusDown method, IStylusPlugin.StylusDown, IStylusPlugin::StylusDown, StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,9 +113,13 @@ The <i>cPropCountPerPkt</i> value is useful to help clarify the boundaries betwe
 
 The following C++ code example implements a <b>StylusDown</b> method that calls a helper function, <b>ModifyPacket</b>, to change the value of the X,Y data to make it fall within a specified rectangle. This is the same functionality that is implemented in the C# sample, <a href="https://msdn.microsoft.com/0ba753d1-d81a-4f7a-942c-2967c46febec">RealTimeStylus Plug-in Sample</a>. The second code snippet is the <b>ModifyPacket</b> function.
 
-
-```cpp
-STDMETHODIMP CPacketModifier::StylusDown( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CPacketModifier::StylusDown( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPropCountPerPkt,
@@ -124,13 +128,17 @@ STDMETHODIMP CPacketModifier::StylusDown(
 {
 	return ModifyPacket(cPropCountPerPkt, pPacket, ppInOutPkt);
 }
-
-```
-
-
-
-```cpp
-// Helper method to modify a single packet
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Helper method to modify a single packet
 // Called from StylusDown() and StylusUp()
 HRESULT CPacketModifier::ModifyPacket(
             /* [in] */ ULONG cPropCountPerPkt,
@@ -144,7 +152,7 @@ HRESULT CPacketModifier::ModifyPacket(
 	// other properties follow
 	ULONG iOtherProps = 2;
 
-	if (cPropCountPerPkt > 0)
+	if (cPropCountPerPkt &gt; 0)
 	{
 		pTempOutPkt = (LONG*)CoTaskMemAlloc(sizeof(LONG)*cPropCountPerPkt);
 
@@ -158,10 +166,10 @@ HRESULT CPacketModifier::ModifyPacket(
 			// its X,Y values fall outside of the specified rectangle.
 			// If so, replace them with the nearest point that still
 			// falls within the rectangle.
-			x = (x < m_filterRect.left ? m_filterRect.left : x);
-			x = (x > m_filterRect.right ? m_filterRect.right : x);
-			y = (y < m_filterRect.top ? m_filterRect.top : y);
-			y = (y > m_filterRect.bottom ? m_filterRect.bottom : y);
+			x = (x &lt; m_filterRect.left ? m_filterRect.left : x);
+			x = (x &gt; m_filterRect.right ? m_filterRect.right : x);
+			y = (y &lt; m_filterRect.top ? m_filterRect.top : y);
+			y = (y &gt; m_filterRect.bottom ? m_filterRect.bottom : y);
 
 			// If necessary, modify the x,y packet data
 			if ((x != pPacket[0]) || (y != pPacket[1]))
@@ -170,7 +178,7 @@ HRESULT CPacketModifier::ModifyPacket(
 				pTempOutPkt[1] = y;
 
 				// Copy the properties that we haven't modified
-				while (iOtherProps < cPropCountPerPkt)
+				while (iOtherProps &lt; cPropCountPerPkt)
 				{
 					pTempOutPkt[iOtherProps] = pPacket[iOtherProps++];
 				}
@@ -186,10 +194,10 @@ HRESULT CPacketModifier::ModifyPacket(
 
 	return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\addsecurememorycachecallback.htm
 tech.root: Memory
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AddSecureMemoryCacheCallback, AddSecureMemoryCacheCallback function, base.addsecurememorycachecallback, winbase/AddSecureMemoryCacheCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

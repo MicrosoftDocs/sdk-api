@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol_setdestinationrectangle.htm
 tech.root: medfound
 ms.assetid: 8AD1BDF4-2508-4A99-85A1-9DBC969D511B
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetDestinationRectangle method, IMFVideoProcessorControl.SetDestinationRectangle, IMFVideoProcessorControl::SetDestinationRectangle, SetDestinationRectangle, SetDestinationRectangle method [Media Foundation], SetDestinationRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setdestinationrectangle, mfidl/IMFVideoProcessorControl::SetDestinationRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

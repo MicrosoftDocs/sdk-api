@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorrmcontrol.htm
 tech.root: SecAuthZ
 ms.assetid: a1e2ce12-586b-4011-a82d-e246d5544367
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetSecurityDescriptorRMControl, GetSecurityDescriptorRMControl function [Security], _win32_getsecuritydescriptorrmcontrol, security.getsecuritydescriptorrmcontrol, securitybaseapi/GetSecurityDescriptorRMControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ The <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

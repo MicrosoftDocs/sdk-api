@@ -7,7 +7,7 @@ old-location: winsock\wscinstallproviderandchains64_32.htm
 tech.root: WinSock
 ms.assetid: 211d0d13-e8ce-422a-810d-416686ee1326
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WSCInstallProviderAndChains64_32, WSCInstallProviderAndChains64_32 function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains64_32, ws2spi/WSCInstallProviderAndChains64_32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A pointer to a globally unique identifier (GUID) for the provider.
 
 A pointer to a Unicode string that contains the load path to the provider 64-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the <i>Ws2_32.dll</i> must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the <i>Ws2_32.dll</i> passes the resulting string to the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function which loads the provider into memory. For more information, see <b>LoadLibrary</b>.
 
-<div class="alert"><b>Note</b>  If <i>lpszProviderDllPath32</i> is set to <b>NULL</b> then <i>lpszProviderDllPath</i> must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If not, the call fails and returns the <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a> error code.</div>
+<div class="alert"><b>Note</b>  If <i>lpszProviderDllPath32</i> is set to <b>NULL</b> then <i>lpszProviderDllPath</i> must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If not, the call fails and returns the <a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a> error code.</div>
 <div> </div>
 
 ### -param lpszProviderDllPath32 [in]
@@ -140,7 +140,7 @@ If <b>WSCInstallProviderAndChains64_32</b> succeeds, it returns zero. Otherwise,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -173,7 +173,7 @@ The provider is missing required functionality. A non-IFS provider must implemen
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -184,7 +184,7 @@ A provider installation is already in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -195,7 +195,7 @@ A provider installation is already in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -206,7 +206,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -248,7 +248,7 @@ Upon successful completion of this call, any subsequent calls to <a href="https:
 
 On success, <b>WSCInstallProviderAndChains64_32</b> will attempt to alert all interested applications that have registered for notification of the change by calling <a href="https://msdn.microsoft.com/abaf367a-8f99-478c-a58c-d57e9f9cd8a1">WSAProviderConfigChange</a>.
 
-The <b>WSCInstallProviderAndChains64_32</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCInstallProviderAndChains64_32</b> is called by a user that is not a member of the Administrators group, the function call will fail and <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a> is returned in the <i>lpErrno</i> parameter. 
+The <b>WSCInstallProviderAndChains64_32</b> function can only be called by a user logged on as a member of the Administrators group. If <b>WSCInstallProviderAndChains64_32</b> is called by a user that is not a member of the Administrators group, the function call will fail and <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a> is returned in the <i>lpErrno</i> parameter. 
  For computers running Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (<b>RunAs administrator</b>) for this function to succeed.
 
 Any file installation or provider-specific configuration must be performed by the calling application.
@@ -263,7 +263,7 @@ A non-IFS provider is one that creates an intermediate handle with <a href="http
 
 <i>lpszProviderDllPath32</i> represents the fully qualified path to the 32-bit version of the provider DLL. This parameter can contain embedded environment strings (such as <i>%SystemRoot%</i>).
 
-If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then <i>lpszProviderDllPath</i> is the path for both 32 and 64 bit providers.  When a 32-bit process on a 64-bit computer is running (for example, when a Winsock application loads the 32-bit version of an LSP), it attempts to load the 32-bit provider specified in <i>lpszProviderDllPath</i>.  If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then the <i>lpszProviderDllPath</i> parameter must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If this is not the case, the call fails with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a>.  If the path in <i>lpszProviderDllPath</i> is <i>%windir%\system32\&lt;dllname&gt;</i> when <i>lpszProviderDllPath32</i> is <b>NULL</b>, the call will be redirected (using the file system redirector) to the directory returned by <b>GetSystemWow64Directory</b> where the 32-bit LSP must reside. For Windows XP 64-bit edition, Windows Server 2003 and Windows Vista, this directory is <i>%windir%\syswow64</i>.
+If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then <i>lpszProviderDllPath</i> is the path for both 32 and 64 bit providers.  When a 32-bit process on a 64-bit computer is running (for example, when a Winsock application loads the 32-bit version of an LSP), it attempts to load the 32-bit provider specified in <i>lpszProviderDllPath</i>.  If <i>lpszProviderDllPath32</i> is <b>NULL</b>, then the <i>lpszProviderDllPath</i> parameter must be set to <i>%windir%\system32\&lt;dllname&gt;</i>.  If this is not the case, the call fails with <a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a>.  If the path in <i>lpszProviderDllPath</i> is <i>%windir%\system32\&lt;dllname&gt;</i> when <i>lpszProviderDllPath32</i> is <b>NULL</b>, the call will be redirected (using the file system redirector) to the directory returned by <b>GetSystemWow64Directory</b> where the 32-bit LSP must reside. For Windows XP 64-bit edition, Windows Server 2003 and Windows Vista, this directory is <i>%windir%\syswow64</i>.
 
 
 

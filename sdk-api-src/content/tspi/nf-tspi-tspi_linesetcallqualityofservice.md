@@ -4,10 +4,10 @@ title: TSPI_lineSetCallQualityOfService function
 author: windows-sdk-content
 description: The TSPI_lineSetCallQualityOfService function service provider attempts to renegotiate the QOS on the call with the switch If the desired QOS is not available, then the function fails, but the call continues with the previous QOS.
 old-location: tspi\tspi_linesetcallqualityofservice.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: ebef3ee3-94e3-4aef-831d-5ce031882b5c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: TSPI_lineSetCallQualityOfService, TSPI_lineSetCallQualityOfService function [TAPI 2.2], _tspi_tspi_linesetcallqualityofservice, tspi.tspi_linesetcallqualityofservice, tspi/TSPI_lineSetCallQualityOfService
 ms.prod: windows-hardware
 ms.technology: windows-devices

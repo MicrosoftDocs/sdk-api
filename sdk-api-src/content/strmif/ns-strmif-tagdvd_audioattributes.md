@@ -7,7 +7,7 @@ old-location: dshow\dvd_audioattributes.htm
 tech.root: DirectShow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes, tagDVD_AudioAttributes
 ms.prod: windows
 ms.technology: windows-sdk

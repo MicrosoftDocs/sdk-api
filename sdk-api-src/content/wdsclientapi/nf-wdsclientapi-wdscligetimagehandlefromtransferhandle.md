@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagehandlefromtransferhandle.htm
 tech.root: Wds
 ms.assetid: d2356f34-9ef8-4d7d-bb01-843d1aa1cbed
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

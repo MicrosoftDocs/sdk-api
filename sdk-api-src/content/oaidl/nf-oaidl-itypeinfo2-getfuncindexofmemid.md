@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getfuncindexofmemid.htm
 tech.root: automat
 ms.assetid: dad5fd34-9322-46aa-9ae3-d5ff9d1639b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetFuncIndexOfMemId, GetFuncIndexOfMemId method [Automation], GetFuncIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncIndexOfMemId method, ITypeInfo2.GetFuncIndexOfMemId, ITypeInfo2::GetFuncIndexOfMemId, _oa96_ITypeInfo2_GetFuncIndexOfMemId, automat.itypeinfo2_getfuncindexofmemid, oaidl/ITypeInfo2::GetFuncIndexOfMemId
 ms.prod: windows-hardware
 ms.technology: windows-devices

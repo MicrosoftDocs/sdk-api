@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_logon.htm
 tech.root: DirectShow
 ms.assetid: b4a5a927-254c-44cd-b17d-e1f47b3f62a7
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IAMTuner interface [DirectShow],Logon method, IAMTuner.Logon, IAMTuner::Logon, IAMTunerLogon, Logon, Logon method [DirectShow], Logon method [DirectShow],IAMTuner interface, dshow.iamtuner_logon, strmif/IAMTuner::Logon
 ms.prod: windows-hardware
 ms.technology: windows-devices

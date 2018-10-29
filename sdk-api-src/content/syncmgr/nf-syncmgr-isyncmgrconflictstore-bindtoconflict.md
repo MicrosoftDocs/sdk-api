@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictStore_BindToConflict.htm
 tech.root: shell
 ms.assetid: 86414360-7dc5-4819-8372-0cede07ba41b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: BindToConflict, BindToConflict method [Windows Shell], BindToConflict method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],BindToConflict method, ISyncMgrConflictStore.BindToConflict, ISyncMgrConflictStore::BindToConflict, _shell_ISyncMgrConflictStore_BindToConflict, shell.ISyncMgrConflictStore_BindToConflict, syncmgr/ISyncMgrConflictStore::BindToConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices

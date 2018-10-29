@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addchangeseventhandl
 tech.root: WinAuto
 ms.assetid: AB46E0D3-FFE0-4565-A971-191C0D266506
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AddChangesEventHandler, AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddChangesEventHandler method, IUIAutomationEventHandlerGroup.AddChangesEventHandler, IUIAutomationEventHandlerGroup::AddChangesEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddChangesEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addchangeseventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Registers a method that handles change events.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param changeTypes [in]
@@ -86,11 +86,6 @@ A pointer to the object that handles the changes event.
 #### - pCacheRequest [in]
 
 A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
-
-
-#### - scope [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

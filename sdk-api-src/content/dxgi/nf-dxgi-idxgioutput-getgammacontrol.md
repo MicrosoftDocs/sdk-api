@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getgammacontrol.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getgammacontrol.htm
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetGammaControl, GetGammaControl method [DXGI], GetGammaControl method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetGammaControl method, IDXGIOutput.GetGammaControl, IDXGIOutput::GetGammaControl, direct3ddxgi.idxgioutput_getgammacontrol, dxgi/IDXGIOutput::GetGammaControl, eec103ab-9b5d-9ed5-ce8f-90664ac48789
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,18 +61,18 @@ Gets the gamma control settings.
 
 ### -param pArray [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173061(v=VS.85).aspx">DXGI_GAMMA_CONTROL</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1c215306-f278-4843-8411-eb7e45fb3054">DXGI_GAMMA_CONTROL</a>*</b>
 
-An array of gamma control settings (see <a href="https://msdn.microsoft.com/en-us/library/Bb173061(v=VS.85).aspx">DXGI_GAMMA_CONTROL</a>).
+An array of gamma control settings (see <a href="https://msdn.microsoft.com/1c215306-f278-4843-8411-eb7e45fb3054">DXGI_GAMMA_CONTROL</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 
 
 
@@ -96,7 +96,7 @@ For info about using gamma correction, see <a href="https://msdn.microsoft.com/9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a>
  
 
  

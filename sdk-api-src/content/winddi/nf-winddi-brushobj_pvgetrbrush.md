@@ -7,7 +7,7 @@ old-location: display\brushobj_pvgetrbrush.htm
 tech.root: display
 ms.assetid: 3f3e5acb-f984-4571-9555-f6b383ddb6a7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: BRUSHOBJ_pvGetRbrush, BRUSHOBJ_pvGetRbrush function [Display Devices], display.brushobj_pvgetrbrush, gdifncs_a19def34-749c-4e98-b03e-1b35f4e1f761.xml, winddi/BRUSHOBJ_pvGetRbrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

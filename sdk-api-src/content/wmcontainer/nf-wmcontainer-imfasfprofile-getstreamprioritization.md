@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization, GetStreamPrioritization method [Media Foundation], GetStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamPrioritization method, IMFASFProfile.GetStreamPrioritization, IMFASFProfile::GetStreamPrioritization, mf.imfasfprofile_getstreamprioritization, wmcontainer/IMFASFProfile::GetStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

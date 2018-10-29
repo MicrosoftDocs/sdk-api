@@ -7,7 +7,7 @@ old-location: ldap\ldap_ufn2dn.htm
 tech.root: LDAP
 ms.assetid: aca3942b-4371-48d2-8975-8d184abd1a49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "_ldap_ldap_ufn2dn, ldap.ldap__ufn2dn, ldap.ldap_ufn2dn, ldap_ufn2dn, ldap_ufn2dn function [LDAP], ldap_ufn2dnA, ldap_ufn2dnW, winldap/ldap_ufn2dn, winldap/ldap_ufn2dnA, winldap/ldap_ufn2dnW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

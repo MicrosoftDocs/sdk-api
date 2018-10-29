@@ -7,7 +7,7 @@ old-location: display\engprobeforread.htm
 tech.root: display
 ms.assetid: 7c64c9a8-45e6-4afa-a358-457c04a333d7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: EngProbeForRead, EngProbeForRead function [Display Devices], display.engprobeforread, gdifncs_35c5929d-d559-42ea-9925-b00bc7af551e.xml, winddi/EngProbeForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

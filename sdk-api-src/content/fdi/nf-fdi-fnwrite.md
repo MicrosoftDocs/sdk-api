@@ -4,10 +4,10 @@ title: FNWRITE macro
 author: windows-sdk-content
 description: The FNWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FDI context.
 old-location: winprog\fnwrite.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,23 +82,27 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNWRITE(fnFileWrite)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNWRITE(fnFileWrite)
 {
     DWORD dwBytesWritten = 0;
 
-    if ( WriteFile((HANDLE)hf, pv, cb, &dwBytesWritten, NULL) == FALSE )
+    if ( WriteFile((HANDLE)hf, pv, cb, &amp;dwBytesWritten, NULL) == FALSE )
     {
         dwBytesWritten = (DWORD)-1;
     }
 
     return dwBytesWritten;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

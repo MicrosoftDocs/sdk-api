@@ -4,10 +4,10 @@ title: MprConfigServerSetInfo function
 author: windows-sdk-content
 description: The MprConfigServerSetInfo function is used to set the port count for L2TP, PPTP, and SSTP ports and enable or disable RRAS on them in the registry when the RRAS service is not running so that it is picked up next time the system restarts.
 old-location: rras\mprconfigserversetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -206,7 +206,7 @@ The topic <a href="https://msdn.microsoft.com/9e4aa8d4-e09e-4c84-acf0-c505a58841
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

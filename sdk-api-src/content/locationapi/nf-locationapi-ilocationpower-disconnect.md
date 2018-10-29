@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationpower_disconnect.htm
 tech.root: LocationAPI
 ms.assetid: 8bf9bc29-4e81-4d80-8de5-317678b34792
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: Disconnect, Disconnect method [WinLocation], Disconnect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Disconnect method, ILocationPower.Disconnect, ILocationPower::Disconnect, WinLocation_COM_Ref.ilocationpower_disconnect, locationapi/ILocationPower::Disconnect, winlocation.ilocationpower_disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

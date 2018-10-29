@@ -7,7 +7,7 @@ old-location: display\floatobj_setfloat.htm
 tech.root: display
 ms.assetid: ba2c33fa-9489-482d-b27e-79537425cc4b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], display.floatobj_setfloat, gdifncs_3bf0c118-feea-48f1-8e20-d3b43408a860.xml, winddi/FLOATOBJ_SetFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_SetFloat</b> function assigns the value of type FLOATL to the <a
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [out]
+### -param arg1 [out]
 
 Pointer to the FLOATOBJ that will receive the value of <i>f</i>.
 
 
-#### - f [in]
+### -param arg2 [in]
 
 Specifies the FLOATL value. This value is converted to a FLOATOBJ for the assignment.
 

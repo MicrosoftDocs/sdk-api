@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getinternalmeminfo.htm
 tech.root: DirectShow
 ms.assetid: 64b6371c-4baf-4ec1-bd0d-6413f053e2fa
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetInternalMemInfo, GetInternalMemInfo method [DirectShow], GetInternalMemInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetInternalMemInfo method, IAMVideoAccelerator.GetInternalMemInfo, IAMVideoAccelerator::GetInternalMemInfo, IAMVideoAcceleratorGetInternalMemInfo, dshow.iamvideoaccelerator_getinternalmeminfo, videoacc/IAMVideoAccelerator::GetInternalMemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

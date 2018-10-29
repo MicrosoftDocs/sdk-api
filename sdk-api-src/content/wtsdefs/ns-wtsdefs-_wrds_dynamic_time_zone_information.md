@@ -7,7 +7,7 @@ old-location: termserv\wrds_dynamic_time_zone_information.htm
 tech.root: termserv
 ms.assetid: D529B7BB-380F-462E-99B8-E565B9636D97
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, PWRDS_DYNAMIC_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], WRDS_DYNAMIC_TIME_ZONE_INFORMATION, WRDS_DYNAMIC_TIME_ZONE_INFORMATION structure [Remote Desktop Services], _WRDS_DYNAMIC_TIME_ZONE_INFORMATION, termserv.wrds_dynamic_time_zone_information, wtsdefs/PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, wtsdefs/WRDS_DYNAMIC_TIME_ZONE_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

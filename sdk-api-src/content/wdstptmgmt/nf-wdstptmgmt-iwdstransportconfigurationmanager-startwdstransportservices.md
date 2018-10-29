@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_startwdstransportservices.ht
 tech.root: Wds
 ms.assetid: 7612335a-4d81-4ec5-a348-93adefb0cced
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StartWdsTransportServices method, IWdsTransportConfigurationManager.StartWdsTransportServices, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

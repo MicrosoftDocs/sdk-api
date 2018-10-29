@@ -7,7 +7,7 @@ old-location: rpc\rpcsssetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: 8984e253-ea78-4ca2-bf24-83100a0ac79d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcSsSetThreadHandle, RpcSsSetThreadHandle function [RPC], _rpc_rpcsssetthreadhandle, rpc.rpcsssetthreadhandle, rpcndr/RpcSsSetThreadHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

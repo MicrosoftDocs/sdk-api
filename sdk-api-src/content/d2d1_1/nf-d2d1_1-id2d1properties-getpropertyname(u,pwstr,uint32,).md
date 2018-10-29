@@ -4,10 +4,10 @@ title: ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,)
 author: windows-sdk-content
 description: Gets the property name that corresponds to the given index. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_getpropertyname2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 777BF543-F2AF-4B17-BF2B-845D713EA5CA
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetPropertyName, GetPropertyName method [Direct2D], GetPropertyName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyName method, ID2D1Properties.GetPropertyName, ID2D1Properties.GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName, ID2D1Properties::GetPropertyName(U,PWSTR,UINT32), ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,), d2d1_1/ID2D1Properties::GetPropertyName, direct2d.id2d1properties_getpropertyname2
 ms.prod: windows-hardware
 ms.technology: windows-devices

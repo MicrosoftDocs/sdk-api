@@ -7,7 +7,7 @@ old-location: mf\mflockplatform.htm
 tech.root: medfound
 ms.assetid: 040742dc-4ba3-4906-8257-65505b2924d5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 040742dc-4ba3-4906-8257-65505b2924d5, MFLockPlatform, MFLockPlatform function [Media Foundation], mf.mflockplatform, mfapi/MFLockPlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices

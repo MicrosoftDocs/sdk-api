@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_getmaxpixelrate.htm
 tech.root: DirectShow
 ms.assetid: 9b86ff2c-c51f-4498-a000-5f1868c2c24b
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetMaxPixelRate, GetMaxPixelRate method [DirectShow], GetMaxPixelRate method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetMaxPixelRate method, IVPBaseConfig.GetMaxPixelRate, IVPBaseConfig::GetMaxPixelRate, IVPBaseConfigGetMaxPixelRate, dshow.ivpbaseconfig_getmaxpixelrate, vpconfig/IVPBaseConfig::GetMaxPixelRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

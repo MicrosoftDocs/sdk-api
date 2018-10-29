@@ -4,10 +4,10 @@ title: ITTerminalSupport2::get_PluggableTerminalClasses
 author: windows-sdk-content
 description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggableterminalclasses.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 4bbb7f77-fc67-4b6b-88fa-2dc5bcfb6c48
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableTerminalClasses method, ITTerminalSupport2.get_PluggableTerminalClasses, ITTerminalSupport2::get_PluggableTerminalClasses, _tapi3_itterminalsupport2_get_pluggableterminalclasses, get_PluggableTerminalClasses, get_PluggableTerminalClasses method [TAPI 2.2], get_PluggableTerminalClasses method [TAPI 2.2],ITTerminalSupport2 interface, tapi3.itterminalsupport2_get_pluggableterminalclasses, tapi3if/ITTerminalSupport2::get_PluggableTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,8 +146,8 @@ The <i>bstrTerminalSuperclass</i> or <i>pVariant</i> parameter is not a valid po
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/0f7190c4-c696-4749-82f2-20fdbc8651f4">ITPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::get_PluggableTerminalClasses</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/0f7190c4-c696-4749-82f2-20fdbc8651f4">ITPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::get_PluggableTerminalClasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITPluggableTerminalClassInfo</b> interface to free resources associated with it.
 
 

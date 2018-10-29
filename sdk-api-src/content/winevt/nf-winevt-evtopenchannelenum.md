@@ -7,7 +7,7 @@ old-location: wes\evtopenchannelenum.htm
 tech.root: wes
 ms.assetid: eb077b0c-1ae6-40ae-becc-98d840302e6f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: EvtOpenChannelEnum, EvtOpenChannelEnum function [EventLog], wes.evtopenchannelenum, winevt/EvtOpenChannelEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

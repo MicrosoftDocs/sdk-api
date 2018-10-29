@@ -7,7 +7,7 @@ old-location: security\cryptxmldllsigndata.htm
 tech.root: seccrypto
 ms.assetid: 6a159fd7-6bf2-43b7-ae7f-b4e4eb02615f
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData callback, CryptXmlDllSignData callback function [Security], cryptxml/CryptXmlDllSignData, security.cryptxmldllsigndata
 ms.prod: windows
 ms.technology: windows-sdk

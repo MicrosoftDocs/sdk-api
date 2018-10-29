@@ -7,7 +7,7 @@ old-location: menurc\is_intresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ This macro checks whether all bits except the least 16 bits are zero. When true,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources Overview</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources Overview</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\createremotethread.htm
 tech.root: ProcThread
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThread, CreateRemoteThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createremotethread, base.createremotethread, processthreadsapi/CreateRemoteThread, winbase/CreateRemoteThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

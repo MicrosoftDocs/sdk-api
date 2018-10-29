@@ -7,7 +7,7 @@ old-location: winauto\setwineventhook.htm
 tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -217,9 +217,13 @@ The following example code shows how a client application might listen for menu-
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // Global variable.
 HWINEVENTHOOK g_hook;
 
@@ -252,11 +256,11 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
 {
     IAccessible* pAcc = NULL;
     VARIANT varChild;
-    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &pAcc, &varChild);  
-    if ((hr == S_OK) && (pAcc != NULL))
+    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &amp;pAcc, &amp;varChild);  
+    if ((hr == S_OK) &amp;&amp; (pAcc != NULL))
     {
         BSTR bstrName;
-        pAcc->get_accName(varChild, &bstrName);
+        pAcc-&gt;get_accName(varChild, &amp;bstrName);
         if (event == EVENT_SYSTEM_MENUSTART) 
         {
             printf("Begin: ");
@@ -267,13 +271,13 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
         }
         printf("%S\n", bstrName);
         SysFreeString(bstrName);
-        pAcc->Release();
+        pAcc-&gt;Release();
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

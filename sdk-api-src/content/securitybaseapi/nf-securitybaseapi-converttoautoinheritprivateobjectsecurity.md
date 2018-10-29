@@ -7,7 +7,7 @@ old-location: security\converttoautoinheritprivateobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: eaaa5509-eff5-461d-843b-7ebbbe0dd58f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ConvertToAutoInheritPrivateObjectSecurity, ConvertToAutoInheritPrivateObjectSecurity function [Security], _win32_converttoautoinheritprivateobjectsecurity, security.converttoautoinheritprivateobjectsecurity, securitybaseapi/ConvertToAutoInheritPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ This function works with ACL_REVISION and ACL_REVISION_DS ACLs.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

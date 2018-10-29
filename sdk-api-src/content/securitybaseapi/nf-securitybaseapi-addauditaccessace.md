@@ -7,7 +7,7 @@ old-location: security\addauditaccessace.htm
 tech.root: SecAuthZ
 ms.assetid: 34f22aea-9cde-411e-b2d5-bfcd3bfe325d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AddAuditAccessAce, AddAuditAccessAce function [Security], _win32_addauditaccessace, security.addauditaccessace, securitybaseapi/AddAuditAccessAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -226,7 +226,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

@@ -4,10 +4,10 @@ title: ListView_GetItemPosition macro
 author: windows-sdk-content
 description: Gets the position of a list-view item. You can use this macro or explicitly send the LVM_GETITEMPOSITION message.
 old-location: controls\ListView_GetItemPosition.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemposition.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ListView_GetItemPosition, ListView_GetItemPosition macro [Windows Controls], _win32_ListView_GetItemPosition, _win32_ListView_GetItemPosition_cpp, commctrl/ListView_GetItemPosition, controls.ListView_GetItemPosition, controls._win32_ListView_GetItemPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761048(v=VS.85).aspx">LVM_GETITEMPOSITION</a> message. 
+Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/e5841089-c34e-498e-b94c-45c845bfc747">LVM_GETITEMPOSITION</a> message. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the position of a list-view item. You can use this macro or explicitly send
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

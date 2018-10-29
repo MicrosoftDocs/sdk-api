@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getdisplaymode.htm
 tech.root: directdraw
 ms.assetid: bd31efc8-17c4-4744-a03b-a22a50c7d9c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetDisplayMode, GetDisplayMode method [DirectDraw], GetDisplayMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDisplayMode method, IDirectDraw7.GetDisplayMode, IDirectDraw7::GetDisplayMode, ddraw/IDirectDraw7::GetDisplayMode, directdraw.idirectdraw7_getdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices

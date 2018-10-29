@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_setgain.htm
 tech.root: hid
 ms.assetid: 6d0089b2-6e77-4308-b29c-7cc38595de6e
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SetGain method, IDirectInputEffectDriver.SetGain, IDirectInputEffectDriver::SetGain, SetGain, SetGain method [Human Input Devices], SetGain method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_8a0a1de3-be33-44e2-9abb-f4b0b0d4bad8.xml, dinputd/IDirectInputEffectDriver::SetGain, hid.idirectinputeffectdriver_setgain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,24 +60,12 @@ The <b>IDirectInputEffectDriver::SetGain </b>method sets the overall device gain
 
 ### -param arg1
 
-TBD
+Indicates the joystick ID number being used. 
 
 
 ### -param arg2
 
-TBD
-
-
-
-
-#### - dwGain
-
 Specifies the new gain value (1 to 10,000). 
-
-
-#### - dwID
-
-Indicates the joystick ID number being used. 
 
 
 ## -returns

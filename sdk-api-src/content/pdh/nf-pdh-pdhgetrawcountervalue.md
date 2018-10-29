@@ -7,7 +7,7 @@ old-location: perf\pdhgetrawcountervalue.htm
 tech.root: perfctrs
 ms.assetid: bb246c82-8748-4e2f-9f44-a206199aff90
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

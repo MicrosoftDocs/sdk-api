@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamtimeseek.htm
 tech.root: medfound
 ms.assetid: BD9EDFF7-46BA-4788-A44E-C69C4B0BEB50
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], IMFByteStreamTimeSeek interface [Media Foundation],described, mf.imfbytestreamtimeseek, mfidl/IMFByteStreamTimeSeek
 ms.prod: windows
 ms.technology: windows-sdk

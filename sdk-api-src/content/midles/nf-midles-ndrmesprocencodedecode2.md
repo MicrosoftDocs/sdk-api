@@ -7,7 +7,7 @@ old-location: rpc\ndrmesprocencodedecode2.htm
 tech.root: Rpc
 ms.assetid: A2FA0E3A-C038-42AB-9341-CC2D781743BE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: NdrMesProcEncodeDecode2, NdrMesProcEncodeDecode2 function [RPC], midles/NdrMesProcEncodeDecode2, rpc.ndrmesprocencodedecode2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,13 +76,6 @@ Reserved.
 
 
 ### -param arg1
-
-TBD
-
-
-
-
-#### - param
 
 Reserved.
 

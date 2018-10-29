@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\idefaultlocation_setreport.htm
 tech.root: LocationAPI
 ms.assetid: 50355f93-e609-44d5-925a-2de7af1e0564
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IDefaultLocation interface [WinLocation],SetReport method, IDefaultLocation.SetReport, IDefaultLocation::SetReport, SetReport, SetReport method [WinLocation], SetReport method [WinLocation],IDefaultLocation interface, WinLocation_COM_Ref.idefaultlocation_setreport, locationapi/IDefaultLocation::SetReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,10 +139,14 @@ The latitude and longitude provided in a latitude/longitude report must correspo
 
 The following example shows how to set the default location using a civic address report.
 
-
-```cpp
-            // set the civic address fields of the Default Location
-            hr = spDefaultLocation->SetReport(IID_ICivicAddressReport, spCivicAddressReport);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>            // set the civic address fields of the Default Location
+            hr = spDefaultLocation-&gt;SetReport(IID_ICivicAddressReport, spCivicAddressReport);
             if (E_INVALIDARG == hr)
             {
                 wprintf(L"The civic address report has invalid data. ");
@@ -152,10 +156,10 @@ The following example shows how to set the default location using a civic addres
             {
                 wprintf(L"Administrator privilege required.\n");
             }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

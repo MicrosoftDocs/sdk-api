@@ -7,7 +7,7 @@ old-location: security\crypt_oid_info.htm
 tech.root: seccrypto
 ms.assetid: 06ba0f60-778d-450b-8f71-23471b8c4e2c
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPT_OID_INFO, CCRYPT_OID_INFO, CCRYPT_OID_INFO structure [Security], CRYPT_ENCRYPT_ALG_OID_GROUP_ID, CRYPT_ENHKEY_USAGE_OID_GROUP_ID, CRYPT_EXT_OR_ATTR_OID_GROUP_ID, CRYPT_HASH_ALG_OID_GROUP_ID, CRYPT_OID_INFO, CRYPT_OID_INFO structure [Security], CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_ECC_WRAP_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_HASH_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_NO_SIGN_ALGORITHM, CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM, CRYPT_OID_INHIBIT_SIGNATURE_FORMAT_FLAG, CRYPT_OID_NO_NULL_ALGORITHM_PARA_FLAG, CRYPT_OID_PUBKEY_ENCRYPT_ONLY_FLAG, CRYPT_OID_PUBKEY_SIGN_ONLY_FLAG, CRYPT_OID_USE_PUBKEY_PARA_FOR_PKCS7_FLAG, CRYPT_POLICY_OID_GROUP_ID, CRYPT_PUBKEY_ALG_OID_GROUP_ID, CRYPT_RDN_ATTR_OID_GROUP_ID, CRYPT_SIGN_ALG_OID_GROUP_ID, PCCRYPT_OID_INFO, PCCRYPT_OID_INFO structure pointer [Security], PCRYPT_OID_INFO, PCRYPT_OID_INFO structure pointer [Security], _CRYPT_OID_INFO, _crypto2_crypt_oid_info, security.crypt_oid_info, wincrypt/CCRYPT_OID_INFO, wincrypt/CRYPT_OID_INFO, wincrypt/PCCRYPT_OID_INFO, wincrypt/PCRYPT_OID_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -307,12 +307,16 @@ The algorithm identifier string passed to the CNG functions (the BCrypt* and NCr
 
 <div class="alert"><b>Note</b>  The  <b>pwszCNGAlgid</b> member is only available if you include the following statement in your code.</div>
 <div> </div>
-
-```cpp
-#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS</pre>
+</td>
+</tr>
+</table></span></div>
 This member applies for the following values of <b>dwGroupId</b>:
 
 <ul>
@@ -412,12 +416,16 @@ An extra algorithm string, other than the string in the <b>pwszCNGAlgid</b> memb
 
 <div class="alert"><b>Note</b>  This member is only available if you include the following statement in your code.</div>
 <div> </div>
-
-```cpp
-#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define CRYPT_OID_INFO_HAS_EXTRA_FIELDS</pre>
+</td>
+</tr>
+</table></span></div>
 For the signature algorithms (CRYPT_SIGN_ALG_OID_GROUP_ID), this member is the public key algorithm string to pass to the CNG functions.
 
 For ECC signatures, this member is the special CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM string value.

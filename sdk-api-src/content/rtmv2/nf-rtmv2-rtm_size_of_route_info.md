@@ -4,10 +4,10 @@ title: RTM_SIZE_OF_ROUTE_INFO macro
 author: windows-sdk-content
 description: The RTM_SIZE_OF_ROUTE_INFO macro returns the size of the route information structure, RTM_ROUTE_INFO.
 old-location: rras\rtm_size_of_route_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ef3308a1-9a5e-4162-91d1-6ae2abff5c3b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RTM_SIZE_OF_ROUTE_INFO, RTM_SIZE_OF_ROUTE_INFO macro [RAS], _rtmv2ref_rtm_size_of_route_info, rras.rtm_size_of_route_info, rtmv2/RTM_SIZE_OF_ROUTE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,9 +74,13 @@ If the client  only allocates one next hop per route, the client can allocate an
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_SIZE_OF_ROUTE_INFO(NumHops)                     \
     FIELD_OFFSET(RTM_ROUTE_INFO, NextHopsList.NumNextHops)
@@ -84,9 +88,9 @@ The macro is defined as follows:
 #define RTM_BASIC_ROUTE_INFO_SIZE                           \
     (RTM_BASIC_ROUTE_INFO_SIZE + (NumHops) *                \
      sizeof(RTM_NEXTHOP_HANDLE))
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

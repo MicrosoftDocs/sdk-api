@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromevent.htm
 tech.root: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ This function retrieves the lowest-level accessible object in the object hierarc
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
-This function fails if called in response to <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_CREATE</a> because the object is not fully initialized. Similarly, clients should not call this in response to <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_DESTROY</a> because the object is no longer available and cannot respond. Clients watch for <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_SHOW</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_HIDE</a> events rather than for <b>EVENT_OBJECT_CREATE</b> and <b>EVENT_OBJECT_DESTROY</b>.
+This function fails if called in response to <a href="event_constants.htm">EVENT_OBJECT_CREATE</a> because the object is not fully initialized. Similarly, clients should not call this in response to <a href="event_constants.htm">EVENT_OBJECT_DESTROY</a> because the object is no longer available and cannot respond. Clients watch for <a href="event_constants.htm">EVENT_OBJECT_SHOW</a> and <a href="event_constants.htm">EVENT_OBJECT_HIDE</a> events rather than for <b>EVENT_OBJECT_CREATE</b> and <b>EVENT_OBJECT_DESTROY</b>.
 
 
 #### Examples
@@ -144,27 +144,31 @@ The following example code shows this method being called in a <a href="https://
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd, 
                              LONG idObject, LONG idChild, 
                              DWORD dwEventThread, DWORD dwmsEventTime)
 {
     IAccessible* pAcc = NULL;
     VARIANT varChild;
-    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &pAcc, &varChild);  
-    if ((hr == S_OK) && (pAcc != NULL))
+    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &amp;pAcc, &amp;varChild);  
+    if ((hr == S_OK) &amp;&amp; (pAcc != NULL))
     {
         // Do something with the accessible object, then release it.        
         // ... 
-        pAcc->Release();
+        pAcc-&gt;Release();
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

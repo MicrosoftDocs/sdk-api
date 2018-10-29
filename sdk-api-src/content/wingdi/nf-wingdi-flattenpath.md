@@ -7,7 +7,7 @@ old-location: gdi\flattenpath.htm
 tech.root: gdi
 ms.assetid: 267b0c9a-25d4-4b04-95d3-6b0856bed022
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: FlattenPath, FlattenPath function [Windows GDI], _win32_FlattenPath, gdi.flattenpath, wingdi/FlattenPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

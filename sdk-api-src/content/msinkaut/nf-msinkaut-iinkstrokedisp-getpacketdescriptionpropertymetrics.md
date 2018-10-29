@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_getpacketdescriptionpropertymetrics.htm
 tech.root: tablet
 ms.assetid: 21b13777-d924-45d6-bdcc-284c9b7d9627
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 21b13777-d924-45d6-bdcc-284c9b7d9627, GetPacketDescriptionPropertyMetrics, GetPacketDescriptionPropertyMetrics method [Tablet PC], GetPacketDescriptionPropertyMetrics method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketDescriptionPropertyMetrics method, IInkStrokeDisp.GetPacketDescriptionPropertyMetrics, IInkStrokeDisp::GetPacketDescriptionPropertyMetrics, msinkaut/IInkStrokeDisp::GetPacketDescriptionPropertyMetrics, tablet.iinkstrokedisp_getpacketdescriptionpropertymetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

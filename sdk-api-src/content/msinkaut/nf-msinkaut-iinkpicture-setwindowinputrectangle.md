@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_setwindowinputrectangle.htm
 tech.root: tablet
 ms.assetid: 3602a550-d37b-4a78-b949-04f5e3cb923a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IInkPicture interface [Tablet PC],SetWindowInputRectangle method, IInkPicture.SetWindowInputRectangle, IInkPicture::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkPicture interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkPicture::SetWindowInputRectangle, tablet.inkpicture_setwindowinputrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

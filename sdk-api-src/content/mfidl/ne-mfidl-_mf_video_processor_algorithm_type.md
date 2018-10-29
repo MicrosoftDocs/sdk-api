@@ -7,7 +7,7 @@ old-location: mf\mf_video_processor_algorithm_type.htm
 tech.root: medfound
 ms.assetid: 3BB0836E-39E6-40FA-9BA0-C986EB587CF1
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration [Media Foundation], _MF_VIDEO_PROCESSOR_ALGORITHM_TYPE, mf.mf_video_processor_algorithm_type, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

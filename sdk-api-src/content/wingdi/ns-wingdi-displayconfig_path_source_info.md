@@ -7,7 +7,7 @@ old-location: display\displayconfig_path_source_info.htm
 tech.root: display
 ms.assetid: df43d20b-a55a-4bec-89a2-9ede03b4d6c5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: CCD_Structures_5a87f2c5-d99e-46f6-8a91-61d2d4edfb68.xml, DISPLAYCONFIG_PATH_SOURCE_INFO, DISPLAYCONFIG_PATH_SOURCE_INFO structure [Display Devices], display.displayconfig_path_source_info, wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO
 ms.prod: windows
 ms.technology: windows-sdk

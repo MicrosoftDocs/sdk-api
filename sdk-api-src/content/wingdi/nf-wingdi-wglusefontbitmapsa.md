@@ -7,7 +7,7 @@ old-location: opengl\wglusefontbitmaps.htm
 tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,39 +64,20 @@ The <b>wglUseFontBitmaps</b> function creates <i>count</i> display lists, one fo
 
 ### -param arg1
 
-TBD
+Specifies the device context whose currently selected font will be used to form the glyph bitmap display lists in the current OpenGL rendering context.
 
 
 ### -param arg2
 
-TBD
+Specifies the first glyph in the run of glyphs that will be used to form glyph bitmap display lists.
 
 
 ### -param arg3
 
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-
-
-#### - count
-
 Specifies the number of glyphs in the run of glyphs that will be used to form glyph bitmap display lists. The function creates <i>count</i> display lists, one for each glyph in the run.
 
 
-#### - first
-
-Specifies the first glyph in the run of glyphs that will be used to form glyph bitmap display lists.
-
-
-#### - listBase
+### -param arg4
 
 Specifies a starting display list.
 
@@ -165,9 +146,13 @@ The function determines the parameters of each call to <b>glBitmap</b> as follow
 
 The following code example shows how to use <b>wglUseFontBitmaps</b> to draw some text.
 
-
-```cpp
-HDC    hdc; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HDC    hdc; 
 HGLRC  hglrc; 
  
 // create a rendering context  
@@ -190,10 +175,10 @@ wglUseFontBitmaps (hdc, 0, 255, 1000);
 // indicate start of glyph display lists  
 glListBase (1000); 
 // now draw the characters in a string  
-glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");
-```
-
-
+glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

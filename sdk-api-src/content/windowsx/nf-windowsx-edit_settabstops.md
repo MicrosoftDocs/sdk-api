@@ -4,10 +4,10 @@ title: Edit_SetTabStops macro
 author: windows-sdk-content
 description: Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the EM_SETTABSTOPS message explicitly.
 old-location: controls\Edit_SetTabStops.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settabstops.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: Edit_SetTabStops, Edit_SetTabStops macro [Windows Controls], _win32_Edit_SetTabStops, _win32_Edit_SetTabStops_cpp, controls.Edit_SetTabStops, controls._win32_Edit_SetTabStops, windowsx/Edit_SetTabStops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761663(v=VS.85).aspx">EM_SETTABSTOPS</a> message explicitly.
+Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the <a href="https://msdn.microsoft.com/d6fe2828-4ae9-4652-ace0-2f71e146f777">EM_SETTABSTOPS</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ A pointer to an array of unsigned integers specifying the tab stops, in dialog t
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761663(v=VS.85).aspx">EM_SETTABSTOPS</a>.
+For more information, see <a href="https://msdn.microsoft.com/d6fe2828-4ae9-4652-ace0-2f71e146f777">EM_SETTABSTOPS</a>.
 
 
 

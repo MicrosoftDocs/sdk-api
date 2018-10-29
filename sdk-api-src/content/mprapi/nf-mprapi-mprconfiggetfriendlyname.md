@@ -4,10 +4,10 @@ title: MprConfigGetFriendlyName function
 author: windows-sdk-content
 description: The MprConfigGetFriendlyName function returns the friendly name for an interface that corresponds to the specified GUID name.
 old-location: rras\mprconfiggetfriendlyname.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 16cd38f2-5029-4b95-871d-a8ba6c96b78c
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: MprConfigGetFriendlyName, MprConfigGetFriendlyName function [RAS], _mpr_mprconfiggetfriendlyname, mprapi/MprConfigGetFriendlyName, rras.mprconfiggetfriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\crypt_time_stamp_request_info.htm
 tech.root: seccrypto
 ms.assetid: 876527dd-1ec5-4783-a7ad-20a0e2d2367a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO structure [Security], PCRYPT_TIME_STAMP_REQUEST_INFO, PCRYPT_TIME_STAMP_REQUEST_INFO structure pointer [Security], _CRYPT_TIME_STAMP_REQUEST_INFO, _crypto2_crypt_time_stamp_request_info, security.crypt_time_stamp_request_info, wincrypt/CRYPT_TIME_STAMP_REQUEST_INFO, wincrypt/PCRYPT_TIME_STAMP_REQUEST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

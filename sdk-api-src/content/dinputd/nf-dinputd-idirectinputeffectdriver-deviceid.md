@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_deviceid.htm
 tech.root: hid
 ms.assetid: 80abcfef-edd9-48df-8e47-96731ae41f8a
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/26/2018
 ms.keywords: DeviceID, DeviceID method [Human Input Devices], DeviceID method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DeviceID method, IDirectInputEffectDriver.DeviceID, IDirectInputEffectDriver::DeviceID, di_ref_80f2cc7f-de04-4497-a245-b6abaf0a98d1.xml, dinputd/IDirectInputEffectDriver::DeviceID, hid.idirectinputeffectdriver_deviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,52 +60,25 @@ The <b>IDirectInputEffectDriver::DeviceID </b>method sends the driver the identi
 
 ### -param arg1
 
-TBD
+Specifies the version number of DirectInput that loaded the effect driver. For example, with DirectInput 5.0, the value of this parameter is 0x00000500. 
 
 
 ### -param arg2
 
-TBD
+Specifies the joystick ID number. The Microsoft Windows joystick subsystem allocates external IDs. 
 
 
 ### -param arg3
 
-TBD
+Specifies the availability of the device. This value is nonzero if access to the device is beginning, and zero if access to the device is ending. 
 
 
 ### -param arg4
 
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - dwDIVer
-
-Specifies the version number of DirectInput that loaded the effect driver. For example, with DirectInput 5.0, the value of this parameter is 0x00000500. 
-
-
-#### - dwExternalID
-
-Specifies the joystick ID number. The Microsoft Windows joystick subsystem allocates external IDs. 
-
-
-#### - dwInternalId
-
 Specifies the ID of the internal joystick. The device driver manages internal IDs. 
 
 
-#### - fBegin
-
-Specifies the availability of the device. This value is nonzero if access to the device is beginning, and zero if access to the device is ending. 
-
-
-#### - lpDIHIDInitInfo
+### -param arg5
 
 Points to a <a href="https://msdn.microsoft.com/7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
 

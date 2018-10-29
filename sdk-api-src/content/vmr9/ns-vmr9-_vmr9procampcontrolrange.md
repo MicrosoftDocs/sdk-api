@@ -7,7 +7,7 @@ old-location: dshow\vmr9procampcontrolrange.htm
 tech.root: DirectShow
 ms.assetid: 5fa61ed8-4fd6-42fb-8c5b-87d23e239cd1
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: VMR9ProcAmpControlRange, VMR9ProcAmpControlRange structure [DirectShow], VMR9ProcAmpControlRangeStructure, _VMR9ProcAmpControlRange, dshow.vmr9procampcontrolrange, vmr9/VMR9ProcAmpControlRange
 ms.prod: windows
 ms.technology: windows-sdk

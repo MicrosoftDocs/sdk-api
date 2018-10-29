@@ -4,10 +4,10 @@ title: ITextFont::GetStrikeThrough
 author: windows-sdk-content
 description: Gets whether characters are displayed with a horizontal line through the center.
 old-location: controls\ITextFont_GetStrikeThrough.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstrikethrough.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetStrikeThrough, GetStrikeThrough method [Windows Controls], GetStrikeThrough method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetStrikeThrough method, ITextFont.GetStrikeThrough, ITextFont::GetStrikeThrough, _win32_ITextFont_GetStrikeThrough, _win32_ITextFont_GetStrikeThrough_cpp, controls.ITextFont_GetStrikeThrough, controls._win32_ITextFont_GetStrikeThrough, tom/ITextFont::GetStrikeThrough
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Gets whether characters are displayed with a horizontal line through the center.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -130,7 +130,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure.
 
 
 
@@ -140,7 +140,7 @@ This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
 
 
 
@@ -148,7 +148,7 @@ This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -156,11 +156,11 @@ This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787826(v=VS.85).aspx">SetStrikeThrough</a>
+<a href="https://msdn.microsoft.com/1f0721b3-b28e-4df8-b2a8-98ccbfd6e93d">SetStrikeThrough</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\createrestrictedtoken.htm
 tech.root: SecAuthZ
 ms.assetid: e087f360-5d1d-4846-b3d6-214a426e5222
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -255,7 +255,7 @@ You can use the restricted token in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\mfcreatesinkwriterfrommediasink.htm
 tech.root: medfound
 ms.assetid: 77bd81fe-bcbd-4bcd-9d3a-dd9fe6154337
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MFCreateSinkWriterFromMediaSink, MFCreateSinkWriterFromMediaSink function [Media Foundation], mf.mfcreatesinkwriterfrommediasink, mfreadwrite/MFCreateSinkWriterFromMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

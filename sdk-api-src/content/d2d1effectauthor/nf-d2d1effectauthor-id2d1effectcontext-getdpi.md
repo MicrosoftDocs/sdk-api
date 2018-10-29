@@ -4,10 +4,10 @@ title: ID2D1EffectContext::GetDpi
 author: windows-sdk-content
 description: Gets the unit mapping that an effect will use for properties that could be in either dots per inch (dpi) or pixels.
 old-location: direct2d\id2d1contextinternal_getdpi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 465D75BF-67A0-410C-950E-DB42995379B0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetDpi method, ID2D1EffectContext.GetDpi, ID2D1EffectContext::GetDpi, d2d1effectauthor/ID2D1EffectContext::GetDpi, direct2d.id2d1contextinternal_getdpi
 ms.prod: windows-hardware
 ms.technology: windows-devices

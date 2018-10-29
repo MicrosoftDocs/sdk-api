@@ -7,7 +7,7 @@ old-location: mf\mfgetcontentprotectionsystemclsid.htm
 tech.root: medfound
 ms.assetid: 03E1AF8D-69C7-4988-A699-0BD71ED635AF
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: MFGetContentProtectionSystemCLSID, MFGetContentProtectionSystemCLSID function [Media Foundation], mf.mfgetcontentprotectionsystemclsid, mfapi/MFGetContentProtectionSystemCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

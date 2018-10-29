@@ -4,10 +4,10 @@ title: ID2D1Brush::GetTransform
 author: windows-sdk-content
 description: Gets the transform applied to this brush.
 old-location: direct2d\ID2D1Brush_GetTransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f28282e8-f994-4501-a327-fcceb8379f70
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetTransform, GetTransform method [Direct2D], GetTransform method [Direct2D],ID2D1Brush interface, ID2D1Brush interface [Direct2D],GetTransform method, ID2D1Brush.GetTransform, ID2D1Brush::GetTransform, d2d1/ID2D1Brush::GetTransform, direct2d.ID2D1Brush_GetTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

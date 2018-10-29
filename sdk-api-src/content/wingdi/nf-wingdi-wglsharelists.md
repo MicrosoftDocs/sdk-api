@@ -7,7 +7,7 @@ old-location: opengl\wglsharelists.htm
 tech.root: OpenGL
 ms.assetid: 587ea116-c70b-41ca-bf9b-a0c666f4e948
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareLists function [OpenGL], wingdi/wglShareLists"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,10 @@ The <b>wglShareLists</b> function enables multiple OpenGL rendering contexts to 
 
 ### -param arg1
 
-TBD
+Specifies the OpenGL rendering context with which to share display lists.
 
 
 ### -param arg2
-
-TBD
-
-
-
-
-
-
-#### - hglrc2
 
 Specifies the OpenGL rendering context to share display lists with <i>hglrc1</i>. The <i>hglrc2</i> parameter should not contain any existing display lists when <b>wglShareLists</b> is called.
 

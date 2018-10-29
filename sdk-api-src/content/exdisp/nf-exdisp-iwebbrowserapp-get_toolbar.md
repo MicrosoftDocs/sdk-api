@@ -4,10 +4,10 @@ title: IWebBrowserApp::get_ToolBar
 author: windows-sdk-content
 description: Sets or gets whether toolbars for the object are visible.
 old-location: winprog\iwebbrowser2_toolbar.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 25C459AF-A57C-453A-987C-004CCA8F276F
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: FALSE, IWebBrowser2 interface [Windows API],ToolBar property, IWebBrowser2.ToolBar, IWebBrowser2.get_ToolBar, IWebBrowser2.put_ToolBar, IWebBrowser2::get_ToolBar, IWebBrowser2::put_ToolBar, IWebBrowserApp interface [Windows API],ToolBar property, IWebBrowserApp.ToolBar, IWebBrowserApp.get_ToolBar, IWebBrowserApp::ToolBar, IWebBrowserApp::get_ToolBar, IWebBrowserApp::put_ToolBar, TRUE, ToolBar property [Windows API], ToolBar property [Windows API],IWebBrowser2 interface, ToolBar property [Windows API],IWebBrowserApp interface, exdisp/IWebBrowser2::ToolBar, exdisp/IWebBrowser2::get_ToolBar, exdisp/IWebBrowser2::put_ToolBar, exdisp/IWebBrowserApp::ToolBar, exdisp/IWebBrowserApp::get_ToolBar, exdisp/IWebBrowserApp::put_ToolBar, get_ToolBar, winprog.iwebbrowser2_toolbar
 ms.prod: windows-hardware
 ms.technology: windows-devices

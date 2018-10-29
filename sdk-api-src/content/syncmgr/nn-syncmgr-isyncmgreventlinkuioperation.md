@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventLinkUIOperation.htm
 tech.root: shell
 ms.assetid: 53ea9488-77e0-4eb2-86d3-88747ba44654
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ISyncMgrEventLinkUIOperation, ISyncMgrEventLinkUIOperation interface [Windows Shell], ISyncMgrEventLinkUIOperation interface [Windows Shell],described, _shell_ISyncMgrEventLinkUIOperation, shell.ISyncMgrEventLinkUIOperation, syncmgr/ISyncMgrEventLinkUIOperation
 ms.prod: windows
 ms.technology: windows-sdk

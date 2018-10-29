@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm
 tech.root: termserv
 ms.assetid: 78fdb301-ea8c-4806-b24a-f40449e77b9a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ConnectClientPrintersAtLogon property [Remote Desktop Services], ConnectClientPrintersAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientPrintersAtLogon property, IADsTSUserEx.ConnectClientPrintersAtLogon, IADsTSUserEx.get_ConnectClientPrintersAtLogon, IADsTSUserEx::ConnectClientPrintersAtLogon, IADsTSUserEx::get_ConnectClientPrintersAtLogon, IADsTSUserEx::put_ConnectClientPrintersAtLogon, get_ConnectClientPrintersAtLogon, termserv.iadstsuserex_connectclientprintersatlogon, tsuserex/IADsTSUserEx::ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientPrintersAtLogon
 ms.prod: windows-hardware
 ms.technology: windows-devices

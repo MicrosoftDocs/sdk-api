@@ -4,10 +4,10 @@ title: ITextFont2::GetCharRep
 author: windows-sdk-content
 description: Gets the character repertoire (writing system).
 old-location: controls\itextfont2_getcharrep.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 250b9fe9-8f63-4f6f-9b14-d6fdac3580b0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetCharRep, GetCharRep method [Windows Controls], GetCharRep method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCharRep method, ITextFont2.GetCharRep, ITextFont2::GetCharRep, controls.itextfont2_getcharrep, tom/ITextFont2::GetCharRep, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\windowsdeletestringbuffer.htm
 tech.root: WinRT
 ms.assetid: c543b2ff-56be-48b5-8b44-3d7549c75df2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: WindowsDeleteStringBuffer, WindowsDeleteStringBuffer function [Windows Runtime], winrt.windowsdeletestringbuffer, winstring/WindowsDeleteStringBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,23 +124,27 @@ Use the <b>WindowsDeleteStringBuffer</b> function to discard a string buffer tha
 
 The following code example demonstrates how to use the <b>WindowsDeleteStringBuffer</b> function.
 
-
-```cpp
-int main()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int main()
 {
     HSTRING_BUFFER hStringBuffer = NULL;
     PWSTR strBuffer = NULL;
-    HRESULT hr = WindowsPreallocateStringBuffer(10, &strBuffer, &hStringBuffer);
+    HRESULT hr = WindowsPreallocateStringBuffer(10, &amp;strBuffer, &amp;hStringBuffer);
 
     // You hit a case in which you need to discard the buffer.
 
     WindowsStringDeleteBuffer(hStringBuffer);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

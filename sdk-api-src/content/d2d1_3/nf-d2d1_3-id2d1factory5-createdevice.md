@@ -4,10 +4,10 @@ title: ID2D1Factory5::CreateDevice
 author: windows-sdk-content
 description: Creates an ID2D1Device4 object.
 old-location: direct2d\id2d1factory5_createdevice.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BE77F5AD-82B1-4DB4-8BE0-8C066EA09424
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory5 interface, ID2D1Factory5 interface [Direct2D],CreateDevice method, ID2D1Factory5.CreateDevice, ID2D1Factory5::CreateDevice, d2d1_3/ID2D1Factory5::CreateDevice, direct2d.id2d1factory5_createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

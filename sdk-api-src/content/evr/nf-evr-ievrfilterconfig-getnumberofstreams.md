@@ -7,7 +7,7 @@ old-location: mf\ievrfilterconfig_getnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 94e15032-efb6-4919-b018-953eee803135
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 94e15032-efb6-4919-b018-953eee803135, GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, IEVRFilterConfig interface [Media Foundation],GetNumberOfStreams method, IEVRFilterConfig.GetNumberOfStreams, IEVRFilterConfig::GetNumberOfStreams, evr/IEVRFilterConfig::GetNumberOfStreams, mf.ievrfilterconfig_getnumberofstreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\emrpolytextouta__emrpolytextoutw.htm
 tech.root: gdi
 ms.assetid: 9c1decdd-fe6f-4220-abba-7547ab5427ba
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*PEMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA, EMRPOLYTEXTOUTA structure [Windows GDI], EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW structure [Windows GDI], EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTW structure [Windows GDI], PEMRPOLYTEXTOUTA, PEMRPOLYTEXTOUTA structure pointer [Windows GDI], PEMRPOLYTEXTOUTW, PEMRPOLYTEXTOUTW structure pointer [Windows GDI], _win32_EMRPOLYTEXTOUTA_str, gdi.emrpolytextouta__emrpolytextoutw, tagEMRPOLYTEXTOUTA, wingdi/EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, wingdi/EMRPOLYTEXTOUTW, wingdi/PEMRPOLYTEXTOUTA, wingdi/PEMRPOLYTEXTOUTW"
 ms.prod: windows
 ms.technology: windows-sdk

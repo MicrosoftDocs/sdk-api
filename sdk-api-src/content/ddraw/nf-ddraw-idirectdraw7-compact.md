@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_compact.htm
 tech.root: directdraw
 ms.assetid: ae417266-5c75-4f7f-b892-f99e5e25e5f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: Compact, Compact method [DirectDraw], Compact method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],Compact method, IDirectDraw7.Compact, IDirectDraw7::Compact, ddraw/IDirectDraw7::Compact, directdraw.idirectdraw7_compact
 ms.prod: windows-hardware
 ms.technology: windows-devices

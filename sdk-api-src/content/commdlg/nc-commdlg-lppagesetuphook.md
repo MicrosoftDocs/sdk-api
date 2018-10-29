@@ -7,7 +7,7 @@ old-location: dlgbox\pagesetuphook.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\pagesetuphook.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: LPPAGESETUPHOOK, LPPAGESETUPHOOK callback, LPPAGESETUPHOOK callback function [Dialog Boxes], _win32_PageSetupHook, _win32_pagesetuphook_cpp, commdlg/LPPAGESETUPHOOK, dlgbox.pagesetuphook, winui._win32_pagesetuphook
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\iinkrenderer.htm
 tech.root: tablet
 ms.assetid: 2AB56616-3F67-4428-8A99-FCE733A5FDBF
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC], IInkRenderer interface [Tablet PC],described, msinkaut/IInkRenderer, tablet.iinkrenderer
 ms.prod: windows
 ms.technology: windows-sdk

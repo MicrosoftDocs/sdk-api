@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IExpandCollapseProvider_ExpandCollapseState.htm
 tech.root: WinAuto
 ms.assetid: 0f0cdf30-97e5-45df-88a5-039e15e26420
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ExpandCollapseState property [Windows Accessibility], ExpandCollapseState property [Windows Accessibility],IExpandCollapseProvider interface, IExpandCollapseProvider interface [Windows Accessibility],ExpandCollapseState property, IExpandCollapseProvider.ExpandCollapseState, IExpandCollapseProvider.get_ExpandCollapseState, IExpandCollapseProvider::ExpandCollapseState, IExpandCollapseProvider::get_ExpandCollapseState, get_ExpandCollapseState, uiauto.uiauto_IExpandCollapseProvider_ExpandCollapseState, uiauto_IExpandCollapseProvider_ExpandCollapseState, uiautomationcore/IExpandCollapseProvider::ExpandCollapseState, uiautomationcore/IExpandCollapseProvider::get_ExpandCollapseState, winauto.uiauto_IExpandCollapseProvider_ExpandCollapseState
 ms.prod: windows-hardware
 ms.technology: windows-devices

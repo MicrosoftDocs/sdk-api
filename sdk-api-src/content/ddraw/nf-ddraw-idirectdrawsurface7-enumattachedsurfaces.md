@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_enumattachedsurfaces.htm
 tech.root: directdraw
 ms.assetid: 7f8e9b53-3aff-491c-ab0c-2f414d1ddb27
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: EnumAttachedSurfaces, EnumAttachedSurfaces method [DirectDraw], EnumAttachedSurfaces method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumAttachedSurfaces method, IDirectDrawSurface7.EnumAttachedSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, ddraw/IDirectDrawSurface7::EnumAttachedSurfaces, directdraw.idirectdrawsurface7_enumattachedsurfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Enumerates all the surfaces that are attached to this surface.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - lpContext [in]
+### -param arg1 [in]
 
 Address of the application-defined structure that is passed to the enumeration member every time that it is called.
 
 
-#### - lpEnumSurfacesCallback [in]
+### -param arg2 [in]
 
 Address of the <a href="https://msdn.microsoft.com/DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0">EnumSurfacesCallback7</a> function to be called for each surface that is attached to this surface.
 

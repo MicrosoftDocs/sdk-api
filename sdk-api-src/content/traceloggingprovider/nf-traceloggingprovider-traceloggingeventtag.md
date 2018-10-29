@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingeventtag.htm
 tech.root: tracelogging
 ms.assetid: D7BD0AC7-2330-4DE7-8C46-CF210B102704
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: TraceLoggingEventTag, TraceLoggingEventTag macro, tracelogging.traceloggingeventtag, traceloggingprovider/TraceLoggingEventTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

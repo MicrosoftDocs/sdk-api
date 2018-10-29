@@ -7,7 +7,7 @@ old-location: base\setthreadpoolwait.htm
 tech.root: ProcThread
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait
 ms.prod: windows-hardware
 ms.technology: windows-devices

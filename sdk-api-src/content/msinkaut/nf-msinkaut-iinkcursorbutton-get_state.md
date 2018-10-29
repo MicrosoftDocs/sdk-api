@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbutton_state.htm
 tech.root: tablet
 ms.assetid: 166bffdc-ec72-427a-a4bd-35ff16e8eb60
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 166bffdc-ec72-427a-a4bd-35ff16e8eb60, IInkCursorButton interface [Tablet PC],State property, IInkCursorButton.State, IInkCursorButton.get_State, IInkCursorButton::State, IInkCursorButton::get_State, State property [Tablet PC], State property [Tablet PC],IInkCursorButton interface, get_State, msinkaut/IInkCursorButton::State, msinkaut/IInkCursorButton::get_State, tablet.iinkcursorbutton_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

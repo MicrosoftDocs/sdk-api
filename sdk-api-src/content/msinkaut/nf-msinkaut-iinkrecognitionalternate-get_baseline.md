@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_baseline.htm
 tech.root: tablet
 ms.assetid: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4, Baseline property [Tablet PC], Baseline property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Baseline property, IInkRecognitionAlternate.Baseline, IInkRecognitionAlternate.get_Baseline, IInkRecognitionAlternate::Baseline, IInkRecognitionAlternate::get_Baseline, get_Baseline, msinkaut/IInkRecognitionAlternate::Baseline, msinkaut/IInkRecognitionAlternate::get_Baseline, tablet.iinkrecognitionalternate_baseline
 ms.prod: windows-hardware
 ms.technology: windows-devices

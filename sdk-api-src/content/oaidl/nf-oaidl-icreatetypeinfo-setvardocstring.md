@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setvardocstring.htm
 tech.root: automat
 ms.assetid: 6bea2b52-30d8-454c-ad96-f94417640ce5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarDocString method, ICreateTypeInfo.SetVarDocString, ICreateTypeInfo::SetVarDocString, SetVarDocString, SetVarDocString method [Automation], SetVarDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarDocString, automat.icreatetypeinfo_setvardocstring, oaidl/ICreateTypeInfo::SetVarDocString
 ms.prod: windows-hardware
 ms.technology: windows-devices

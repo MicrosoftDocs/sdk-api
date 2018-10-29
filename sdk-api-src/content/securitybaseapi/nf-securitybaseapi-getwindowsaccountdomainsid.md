@@ -7,7 +7,7 @@ old-location: security\getwindowsaccountdomainsid.htm
 tech.root: SecAuthZ
 ms.assetid: ee2ba1b4-1bef-4d79-bb18-512705e2c378
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetWindowsAccountDomainSid, GetWindowsAccountDomainSid function [Security], _win32_getwindowsaccountdomainsid, security.getwindowsaccountdomainsid, securitybaseapi/GetWindowsAccountDomainSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

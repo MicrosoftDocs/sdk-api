@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ExpandCollapsePattern_CollapseConPat.htm
 tech.root: WinAuto
 ms.assetid: 71423347-bfae-4223-8215-d4f8d9226b63
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ExpandCollapsePattern_Collapse, ExpandCollapsePattern_Collapse function [Windows Accessibility], uiauto.uiauto_ExpandCollapsePattern_CollapseConPat, uiauto_ExpandCollapsePattern_CollapseConPat, uiautomationcoreapi/ExpandCollapsePattern_Collapse, winauto.uiauto_ExpandCollapsePattern_CollapseConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

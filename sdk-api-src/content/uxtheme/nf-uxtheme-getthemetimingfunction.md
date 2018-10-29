@@ -4,10 +4,10 @@ title: GetThemeTimingFunction function
 author: windows-sdk-content
 description: Gets a predefined timing function based on a timing function identifier.
 old-location: controls\getthemetimingfunction.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 640E1933-E23D-4852-95A2-4FD630162D2C
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

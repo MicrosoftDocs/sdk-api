@@ -7,7 +7,7 @@ old-location: security\authzfreehandle.htm
 tech.root: SecAuthZ
 ms.assetid: 8d2e2ae9-b515-4a02-b366-5b107b4f7ffa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzfreehandle, authz/AuthzFreeHandle, security.authzfreehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

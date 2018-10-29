@@ -7,7 +7,7 @@ old-location: devinst\sp_device_interface_detail_data.htm
 tech.root: devinst
 ms.assetid: 9dd44297-6e51-425d-a355-f2ea78757bf7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PSP_DEVICE_INTERFACE_DETAIL_DATA_A, PSP_DEVICE_INTERFACE_DETAIL_DATA, PSP_DEVICE_INTERFACE_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVICE_INTERFACE_DETAIL_DATA, SP_DEVICE_INTERFACE_DETAIL_DATA structure [Device and Driver Installation], SP_DEVICE_INTERFACE_DETAIL_DATA_A, SP_INTERFACE_DEVICE_DETAIL_DATA, SP_INTERFACE_DEVICE_DETAIL_DATA_A, _SP_DEVICE_INTERFACE_DETAIL_DATA_A, devinst.sp_device_interface_detail_data, di-struct_fbf4856e-f570-4024-b4eb-6ac7555d65ca.xml, setupapi/PSP_DEVICE_INTERFACE_DETAIL_DATA, setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

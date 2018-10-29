@@ -7,7 +7,7 @@ old-location: base\setproviderstatusinfo_str.htm
 tech.root: sysinfo
 ms.assetid: 8e0a79ba-f76a-435a-9b0b-c3a2d9c390da
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo
 ms.prod: windows
 ms.technology: windows-sdk

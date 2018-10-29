@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlCustomDraw_PrePaint.htm
 tech.root: shell
 ms.assetid: 3d9c0616-90f2-435c-a663-9ffe4adab8a0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PrePaint method, INameSpaceTreeControlCustomDraw.PrePaint, INameSpaceTreeControlCustomDraw::PrePaint, PrePaint, PrePaint method [Windows Shell], PrePaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_PrePaint, shell.INameSpaceTreeControlCustomDraw_PrePaint, shobjidl/INameSpaceTreeControlCustomDraw::PrePaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8dd
 
 Type: <b>LRESULT*</b>
 
-When this method returns, contains a pointer to an <b>LRESULT</b>, which contains one or more of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb775489(v=VS.85).aspx">CDRF Constants</a> enumeration.
+When this method returns, contains a pointer to an <b>LRESULT</b>, which contains one or more of the values from the <a href="https://msdn.microsoft.com/6b05e27e-5d18-46f2-b326-2a5148597852">CDRF Constants</a> enumeration.
 
 
 ## -returns

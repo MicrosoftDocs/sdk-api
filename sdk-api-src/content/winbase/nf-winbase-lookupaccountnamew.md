@@ -7,7 +7,7 @@ old-location: security\lookupaccountname.htm
 tech.root: SecAuthZ
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,7 +141,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

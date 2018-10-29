@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm
 tech.root: shell
 ms.assetid: D0E26154-DADB-499D-A434-8211196E2F5F
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],RegisterForPackageStateChanges method, IPackageDebugSettings.RegisterForPackageStateChanges, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Shell], RegisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_RegisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

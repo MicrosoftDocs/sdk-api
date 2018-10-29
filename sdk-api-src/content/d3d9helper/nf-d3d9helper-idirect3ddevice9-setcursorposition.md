@@ -4,10 +4,10 @@ title: IDirect3DDevice9::SetCursorPosition
 author: windows-sdk-content
 description: Sets the cursor position and update options.
 old-location: direct3d9\idirect3ddevice9__setcursorposition.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setcursorposition.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: 40c9d24c-baf1-aaaf-5f7b-a462b05b36b5, D3DCURSOR_IMMEDIATE_UPDATE, IDirect3DDevice9 interface [Direct3D 9],SetCursorPosition method, IDirect3DDevice9.SetCursorPosition, IDirect3DDevice9::SetCursorPosition, SetCursorPosition, SetCursorPosition method [Direct3D 9], SetCursorPosition method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCursorPosition, direct3d9.idirect3ddevice9__setcursorposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Specifies the update options for the cursor. Currently, only one flag is defined
 <td width="60%">
 Update cursor at the refresh rate.
 
-If this flag is specified, the system guarantees that the cursor will be updated at a minimum of half the display refresh rate, but never more frequently than the display refresh rate. Otherwise, the method delays cursor updates until the next <a href="https://msdn.microsoft.com/en-us/library/Bb174423(v=VS.85).aspx">IDirect3DDevice9::Present</a> call. Not setting this flag usually results in better performance than if the flag is set. However, applications should set this flag if the rate of calls to Present is low enough that users would notice a significant delay in cursor motion. This flag has no effect in a windowed-mode application. Some video cards implement hardware color cursors. This flag does not have an effect on these cards.
+If this flag is specified, the system guarantees that the cursor will be updated at a minimum of half the display refresh rate, but never more frequently than the display refresh rate. Otherwise, the method delays cursor updates until the next <a href="https://msdn.microsoft.com/47e67956-7ab4-4e05-bf05-685bdc094cf2">IDirect3DDevice9::Present</a> call. Not setting this flag usually results in better performance than if the flag is set. However, applications should set this flag if the rate of calls to Present is low enough that users would notice a significant delay in cursor motion. This flag has no effect in a windowed-mode application. Some video cards implement hardware color cursors. This flag does not have an effect on these cards.
 
 </td>
 </tr>
@@ -116,9 +116,9 @@ None.
 
 
 
-When running in full-screen mode, screen space coordinates are the back buffer coordinates appropriately scaled to the current display mode. When running in windowed mode, screen space coordinates are the desktop coordinates. The cursor image is drawn at the specified position minus the hotspot-offset specified by the <a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">SetCursorProperties</a> method.
+When running in full-screen mode, screen space coordinates are the back buffer coordinates appropriately scaled to the current display mode. When running in windowed mode, screen space coordinates are the desktop coordinates. The cursor image is drawn at the specified position minus the hotspot-offset specified by the <a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">SetCursorProperties</a> method.
 
-If the cursor has been hidden by <a href="https://msdn.microsoft.com/en-us/library/Bb174470(v=VS.85).aspx">ShowCursor</a>, the cursor is not drawn.
+If the cursor has been hidden by <a href="https://msdn.microsoft.com/76d848f1-a426-489f-9207-ef708adea1be">ShowCursor</a>, the cursor is not drawn.
 
 
 
@@ -128,15 +128,15 @@ If the cursor has been hidden by <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">SetCursorProperties</a>
+<a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">SetCursorProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174470(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/76d848f1-a426-489f-9207-ef708adea1be">ShowCursor</a>
  
 
  

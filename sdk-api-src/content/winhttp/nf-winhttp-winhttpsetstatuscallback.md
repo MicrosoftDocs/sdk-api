@@ -371,9 +371,13 @@ Note, however, that WinHTTP does not synchronize <b>WinHttpSetStatusCallback</b>
 The following example shows how to install a callback function for asynchronous WinHTTP functions.  The example assumes that a 
 <a href="https://msdn.microsoft.com/4d828e41-9073-407a-aab5-531f1d6d6d02">WINHTTP_STATUS_CALLBACK</a> function named "AsyncCallback( )" has been previously implemented:
 
-
-```cpp
-    // Use WinHttpOpen to obtain an HINTERNET handle.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Use WinHttpOpen to obtain an HINTERNET handle.
     HINTERNET hSession = WinHttpOpen(L"A WinHTTP Example Program/1.0", 
                                     WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
                                     WINHTTP_NO_PROXY_NAME, 
@@ -395,10 +399,10 @@ The following example shows how to install a callback function for asynchronous 
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

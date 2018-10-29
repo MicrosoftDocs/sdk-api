@@ -7,7 +7,7 @@ old-location: automat\bstr_usermarshal.htm
 tech.root: automat
 ms.assetid: 98825155-1dd3-47c0-928d-484d5bc70927
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: BSTR_UserMarshal, BSTR_UserMarshal function [Automation], _oa96_BSTR_UserMarshal, automat.bstr_usermarshal, oaidl/BSTR_UserMarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,36 +58,19 @@ Marshals a <a href="https://msdn.microsoft.com/1b2d7d2c-47af-4389-a6b6-b01b7e915
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pBstr [in]
-
-The object.
-
-
-#### - pBuffer [in, out]
+### -param arg2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry.
+
+
+### -param arg3 [in]
+
+The object.
 
 
 ## -returns

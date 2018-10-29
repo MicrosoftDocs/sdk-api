@@ -4,10 +4,10 @@ title: RtmHoldDestination function
 author: windows-sdk-content
 description: The RtmHoldDestination function marks a destination to be put in the hold-down state for a certain amount of time. A hold down only happens if the last route for the destination in any view is deleted.
 old-location: rras\rtmholddestination.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 433d6d97-9541-496a-8d10-2a2fc31d043d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RtmHoldDestination, RtmHoldDestination function [RAS], _rtmv2ref_rtmholddestination, rras.rtmholddestination, rtmv2/RtmHoldDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices

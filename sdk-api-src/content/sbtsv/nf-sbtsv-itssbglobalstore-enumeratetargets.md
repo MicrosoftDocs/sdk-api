@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_enumeratetargets.htm
 tech.root: termserv
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbGlobalStore.EnumerateTargets, ITsSbGlobalStore::EnumerateTargets, sbtsv/ITsSbGlobalStore::EnumerateTargets, termserv.itssbglobalstore_enumeratetargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

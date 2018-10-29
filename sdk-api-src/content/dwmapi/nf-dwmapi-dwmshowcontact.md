@@ -7,7 +7,7 @@ old-location: dwm\DwmShowContact.htm
 tech.root: dwm
 ms.assetid: E9C302AA-D622-483d-83AC-0D0D7D23719E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,13 +66,6 @@ The pointer ID of the contact. Each touch or pen contact is given a unique ID wh
 
 
 ### -param arg1
-
-TBD
-
-
-
-
-#### - eShowContact
 
 One or more of the following DWM_SHOWCONTACT visualizations that DWM should show for this contact.
 

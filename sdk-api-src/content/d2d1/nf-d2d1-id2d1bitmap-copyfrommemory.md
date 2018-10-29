@@ -4,10 +4,10 @@ title: ID2D1Bitmap::CopyFromMemory
 author: windows-sdk-content
 description: Copies the specified region from memory into the current bitmap.
 old-location: direct2d\ID2D1Bitmap_CopyFromMemory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 594cba56-6f18-439a-ada4-0f591af094bb
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CopyFromMemory, CopyFromMemory method [Direct2D], CopyFromMemory method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromMemory method, ID2D1Bitmap.CopyFromMemory, ID2D1Bitmap::CopyFromMemory, d2d1/ID2D1Bitmap::CopyFromMemory, direct2d.ID2D1Bitmap_CopyFromMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

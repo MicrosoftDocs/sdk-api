@@ -7,7 +7,7 @@ old-location: opengl\glyphmetricsfloat.htm
 tech.root: OpenGL
 ms.assetid: 6ceccb76-be31-4a4d-b093-1f8e35261a60
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _GLYPHMETRICSFLOAT, _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: perf\pdhreadrawlogrecord.htm
 tech.root: perfctrs
 ms.assetid: fb93b6ea-ca31-4ff1-a553-b02388be8b72
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

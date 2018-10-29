@@ -4,10 +4,10 @@ title: RasSetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,39 +61,7 @@ The <b>RasSetEntryProperties</b> function changes the
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-### -param arg6
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. 
       If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
@@ -101,21 +69,23 @@ Pointer to a null-terminated string that specifies the full path and file name o
       property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 
-#### - dwDeviceInfoSize [in]
+### -param arg2 [in]
 
-Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
-      
+Pointer to a null-terminated string that specifies an entry name.
 
-<b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to zero.
+If the entry name matches an existing entry, 
+       <b>RasSetEntryProperties</b> modifies the properties 
+       of that entry.
+
+If the entry name does not match an existing entry, 
+       <b>RasSetEntryProperties</b> creates a new 
+       phone-book entry. For new entries, call the 
+       <a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the 
+       entry name before calling 
+       <b>RasSetEntryProperties</b>.
 
 
-#### - dwEntryInfoSize [in]
-
-Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i> 
-      parameter.
-
-
-#### - lpRasEntry [in]
+### -param arg3 [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASENTRY</a> structure that specifies the 
        new connection data to be associated with the phone-book entry indicated by the 
@@ -145,12 +115,18 @@ The structure might be followed by an array of null-terminated alternate phone n
        the first string.
 
 
-#### - lpbDeviceInfo [in]
+### -param arg4 [in]
+
+Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i> 
+      parameter.
+
+
+### -param arg5 [in]
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in 
-      <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interfaces (TAPI)</a> 
+      <a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in 
+      <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
 
@@ -158,20 +134,12 @@ Pointer to a buffer that specifies device-specific configuration information. Th
         <b>NULL</b>.
 
 
-#### - lpszEntry [in]
+### -param arg6 [in]
 
-Pointer to a null-terminated string that specifies an entry name.
+Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
+      
 
-If the entry name matches an existing entry, 
-       <b>RasSetEntryProperties</b> modifies the properties 
-       of that entry.
-
-If the entry name does not match an existing entry, 
-       <b>RasSetEntryProperties</b> creates a new 
-       phone-book entry. For new entries, call the 
-       <a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the 
-       entry name before calling 
-       <b>RasSetEntryProperties</b>.
+<b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to zero.
 
 
 ## -returns
@@ -250,7 +218,7 @@ When setting properties for an all-users connection, if the calling application 
     non-<b>NULL</b> value for the phone-book parameter, <i>lpszPhonebook</i>, 
     the phone-book file must be located in the phone-book directory beneath the all-users application data path. To 
     obtain the correct location for the phone-book file, first call 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb762181(v=VS.85).aspx">SHGetFolderPath</a> with a 
+    <a href="_win32_shgetfolderpath_cpp">SHGetFolderPath</a> with a 
     <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:

@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_beginstroke.htm
 tech.root: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,9 +121,13 @@ Used in conjunction with the <a href="https://msdn.microsoft.com/7b53a9b2-11da-4
 
 The following C++ example shows the implementation of a <a href="https://msdn.microsoft.com/13fb831c-e3e8-4e04-81ce-d4658be105a0">IStylusPlugin::StylusDown Method</a> method on an <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::BeginStroke Method</b> method is called from <b>IStylusPlugin::StylusDown Method</b> to initiate the construction of a stroke.
 
-
-```cpp
-STDMETHODIMP CStrokeBuilderPlugin::StylusDown( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CStrokeBuilderPlugin::StylusDown( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPropCountPerPkt,
@@ -136,22 +140,22 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusDown(
 	PACKET_PROPERTY* pPacketProperties;
 
 	// Get the info we need to call BeginStroke
-	HRESULT hr = piRtsSrc->GetPacketDescriptionData(pStylusInfo->tcid, &fInkToDeviceScaleX, &fInkToDeviceScaleY, 
-													&cPacketProperties, &pPacketProperties);
+	HRESULT hr = piRtsSrc-&gt;GetPacketDescriptionData(pStylusInfo-&gt;tcid, &amp;fInkToDeviceScaleX, &amp;fInkToDeviceScaleY, 
+													&amp;cPacketProperties, &amp;pPacketProperties);
 
 	if (SUCCEEDED(hr))
 	{
 		// Start creating the stroke
-		hr = m_pStrokeBuilder->BeginStroke(pStylusInfo->tcid, pStylusInfo->cid, pPacket, cPropCountPerPkt, 
-											pPacketProperties, fInkToDeviceScaleX, fInkToDeviceScaleY, &m_piStroke);
+		hr = m_pStrokeBuilder-&gt;BeginStroke(pStylusInfo-&gt;tcid, pStylusInfo-&gt;cid, pPacket, cPropCountPerPkt, 
+											pPacketProperties, fInkToDeviceScaleX, fInkToDeviceScaleY, &amp;m_piStroke);
 	}
 	
 	return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

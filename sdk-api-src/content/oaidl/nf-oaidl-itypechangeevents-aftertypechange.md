@@ -7,7 +7,7 @@ old-location: automat\itypechangeevents_aftertypechange.htm
 tech.root: automat
 ms.assetid: 902663be-4cdb-47e5-916a-004483d6758e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AfterTypeChange, AfterTypeChange method [Automation], AfterTypeChange method [Automation],ITypeChangeEvents interface, CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],AfterTypeChange method, ITypeChangeEvents.AfterTypeChange, ITypeChangeEvents::AfterTypeChange, _oa96_ITypeChangeEvents_AfterTypeChange, automat.itypechangeevents_aftertypechange, oaidl/ITypeChangeEvents::AfterTypeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

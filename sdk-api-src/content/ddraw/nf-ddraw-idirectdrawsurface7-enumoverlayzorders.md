@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_enumoverlayzorders.htm
 tech.root: directdraw
 ms.assetid: fab3212c-c1af-4119-85ff-108594cc64fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DDENUMOVERLAYZ_BACKTOFRONT, DDENUMOVERLAYZ_FRONTTOBACK, EnumOverlayZOrders, EnumOverlayZOrders method [DirectDraw], EnumOverlayZOrders method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumOverlayZOrders method, IDirectDrawSurface7.EnumOverlayZOrders, IDirectDrawSurface7::EnumOverlayZOrders, ddraw/IDirectDrawSurface7::EnumOverlayZOrders, directdraw.idirectdrawsurface7_enumoverlayzorders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,7 @@ Enumerates the overlay surfaces on the specified destination. You can enumerate 
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 A value that can be set to one of the following flags:
 
@@ -92,12 +75,12 @@ Enumerates overlays back to front.
 Enumerates overlays front to back.
 
 
-#### - lpContext [in]
+### -param arg2 [in]
 
 Address of the user-defined structure to be passed to the callback function for each overlay surface.
 
 
-#### - lpfnCallback [in]
+### -param arg3 [in]
 
 Address of the <a href="https://msdn.microsoft.com/DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0">EnumSurfacesCallback7</a> callback function to be called for each surface to be overlaid on this surface.
 

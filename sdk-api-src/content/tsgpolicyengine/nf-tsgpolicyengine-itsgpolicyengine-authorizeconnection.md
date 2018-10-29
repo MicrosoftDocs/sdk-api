@@ -7,7 +7,7 @@ old-location: termserv\itsgpolicyengine_authorizeconnection.htm
 tech.root: termserv
 ms.assetid: 41a61eef-c8fe-4e08-b793-a58553f31646
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeConnection method, ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

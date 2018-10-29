@@ -7,7 +7,7 @@ old-location: security\areanyaccessesgranted.htm
 tech.root: SecAuthZ
 ms.assetid: 4bac6ebc-716a-4725-b9e6-a109b27dfc18
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AreAnyAccessesGranted, AreAnyAccessesGranted function [Security], _win32_areanyaccessesgranted, security.areanyaccessesgranted, securitybaseapi/AreAnyAccessesGranted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ The <b>AreAnyAccessesGranted</b> function is often used by a server application 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

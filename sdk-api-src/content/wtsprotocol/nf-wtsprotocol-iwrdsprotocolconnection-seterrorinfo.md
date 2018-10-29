@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_seterrorinfo.htm
 tech.root: termserv
 ms.assetid: 114abaf1-fe67-4d80-ad5d-f49aac9dd587
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWRdsProtocolConnection.SetErrorInfo, IWRdsProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_seterrorinfo, wtsprotocol/IWRdsProtocolConnection::SetErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

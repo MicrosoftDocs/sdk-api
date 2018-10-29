@@ -7,7 +7,7 @@ old-location: mf\imfsinkwritercallback.htm
 tech.root: medfound
 ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], IMFSinkWriterCallback interface [Media Foundation],described, mf.imfsinkwritercallback, mfreadwrite/IMFSinkWriterCallback
 ms.prod: windows
 ms.technology: windows-sdk

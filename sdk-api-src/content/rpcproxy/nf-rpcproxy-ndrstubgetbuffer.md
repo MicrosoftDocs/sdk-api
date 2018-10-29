@@ -7,7 +7,7 @@ old-location: rpc\ndrstubgetbuffer.htm
 tech.root: Rpc
 ms.assetid: ab877b5a-5c44-46eb-bd03-26410eccc765
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: NdrStubGetBuffer, NdrStubGetBuffer function [RPC], rpc.ndrstubgetbuffer, rpcproxy/NdrStubGetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,11 +87,11 @@ This function has no return value. Throws an exception upon error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>
+<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>
+<a href="_com_irpcstubbuffer">IRpcStubBuffer</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetObject.htm
 tech.root: shell
 ms.assetid: 54336c43-348b-4767-94e4-fe7dc47c0876
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetObject method, ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,9 +175,13 @@ The item can implement the requested interface on its handler or it can implemen
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
                                           __in REFIID    riid,
                                           __out void   **ppv)
 {
@@ -195,9 +199,9 @@ STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

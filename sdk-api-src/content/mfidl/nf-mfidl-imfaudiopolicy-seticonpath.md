@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_seticonpath.htm
 tech.root: medfound
 ms.assetid: 098ad6ae-b1fe-4e74-b494-572770906b14
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 098ad6ae-b1fe-4e74-b494-572770906b14, IMFAudioPolicy interface [Media Foundation],SetIconPath method, IMFAudioPolicy.SetIconPath, IMFAudioPolicy::SetIconPath, SetIconPath, SetIconPath method [Media Foundation], SetIconPath method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_seticonpath, mfidl/IMFAudioPolicy::SetIconPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,9 +85,13 @@ The icon path has the format "path,index" or "path,-id", where <i>path</i> is th
 
 The following example sets the icon using a resource identifier for an icon in the application's executable file.
 
-
-```cpp
-HRESULT SetIcon(IMFMediaSession *pSession, int nID)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT SetIcon(IMFMediaSession *pSession, int nID)
 {
     IMFAudioPolicy *pPolicy = NULL;
 
@@ -119,7 +123,7 @@ HRESULT SetIcon(IMFMediaSession *pSession, int nID)
     hr = MFGetService(
         pSession, 
         MR_AUDIO_POLICY_SERVICE, 
-        IID_PPV_ARGS(&pPolicy)
+        IID_PPV_ARGS(&amp;pPolicy)
         );
 
     if (FAILED(hr))
@@ -127,20 +131,20 @@ HRESULT SetIcon(IMFMediaSession *pSession, int nID)
         goto done;
     }
 
-    hr = pPolicy->SetIconPath(szIconPath);
+    hr = pPolicy-&gt;SetIconPath(szIconPath);
     if (FAILED(hr))
     {
         goto done;
     }
 
 done:
-    SafeRelease(&pPolicy);
+    SafeRelease(&amp;pPolicy);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

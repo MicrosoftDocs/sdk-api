@@ -7,7 +7,7 @@ old-location: security\certfreecertificatechain.htm
 tech.root: seccrypto
 ms.assetid: 5ba181c2-6936-4848-a571-2bb58f46f081
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CertFreeCertificateChain, CertFreeCertificateChain function [Security], _crypto2_certfreecertificatechain, security.certfreecertificatechain, wincrypt/CertFreeCertificateChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
  
 
  

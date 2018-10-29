@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationreport_getsensorid.htm
 tech.root: LocationAPI
 ms.assetid: c75b2ce3-8c60-4e26-870f-2bec599ea3b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetSensorID, GetSensorID method [WinLocation], GetSensorID method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetSensorID method, ILocationReport.GetSensorID, ILocationReport::GetSensorID, WinLocation_COM_Ref.ilocationreport_getsensorid, locationapi/ILocationReport::GetSensorID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,18 +86,22 @@ A sensor ID is a <b>GUID</b>.
 
 The following example demonstrates how to call <b>GetSensorID</b>.
 
-
-```cpp
-    // Print the Sensor ID GUID
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Print the Sensor ID GUID
     GUID sensorID = {0};
-    if (SUCCEEDED(spLatLongReport->GetSensorID(&sensorID)))
+    if (SUCCEEDED(spLatLongReport-&gt;GetSensorID(&amp;sensorID)))
     {
         wprintf(L"SensorID: %s\n", GUIDToString(sensorID, szGUID, ARRAYSIZE(szGUID)));
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

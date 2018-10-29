@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary, traceloggingprovider/TraceLoggingBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices

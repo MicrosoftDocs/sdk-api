@@ -4,10 +4,10 @@ title: IEditionUpgradeHelper::ShowProductKeyUI
 author: windows-sdk-content
 description: Displays the user interface through which the user can provide a product key to upgrade or get a genuine copy of the operating system.
 old-location: winprog\ieditionupgradehelper_showproductkeyui.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 504B3699-8837-4C14-959A-B3B4385E8932
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],ShowProductKeyUI method, IEditionUpgradeHelper.ShowProductKeyUI, IEditionUpgradeHelper::ShowProductKeyUI, ShowProductKeyUI, ShowProductKeyUI method [Windows API], ShowProductKeyUI method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::ShowProductKeyUI, winprog.ieditionupgradehelper_showproductkeyui
 ms.prod: windows-hardware
 ms.technology: windows-devices

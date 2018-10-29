@@ -7,7 +7,7 @@ old-location: security\iazrole_addoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzRole object, AddOperation method [Security],IAzRole interface, AzRole object [Security],AddOperation method, IAzRole interface [Security],AddOperation method, IAzRole.AddOperation, IAzRole::AddOperation, azroles/IAzRole::AddOperation, security.iazrole_addoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

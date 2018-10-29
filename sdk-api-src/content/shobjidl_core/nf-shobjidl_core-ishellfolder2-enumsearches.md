@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2_EnumSearches.htm
 tech.root: shell
 ms.assetid: ed7b0e3c-f679-491b-98a2-542fcf5d2077
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tagTVHITTESTINFO
 author: windows-sdk-content
 description: Contains information used to determine the location of a point relative to a tree-view control.
 old-location: controls\TVHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvhittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPTVHITTESTINFO, LPTVHITTESTINFO, LPTVHITTESTINFO structure pointer [Windows Controls], TVHITTESTINFO, TVHITTESTINFO structure [Windows Controls], TVHT_ABOVE, TVHT_BELOW, TVHT_NOWHERE, TVHT_ONITEM, TVHT_ONITEMBUTTON, TVHT_ONITEMICON, TVHT_ONITEMINDENT, TVHT_ONITEMLABEL, TVHT_ONITEMRIGHT, TVHT_ONITEMSTATEICON, TVHT_TOLEFT, TVHT_TORIGHT, _win32_TVHITTESTINFO, _win32_TVHITTESTINFO_cpp, commctrl/LPTVHITTESTINFO, commctrl/TVHITTESTINFO, controls.TVHITTESTINFO, controls._win32_TVHITTESTINFO, tagTVHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773732(v=VS.85).aspx">TVM_HITTEST</a> message. The structure is identical to the 
+Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/18ea3737-f429-4c10-9133-3b5729aa36fa">TVM_HITTEST</a> message. The structure is identical to the 
 			<b>TV_HITTESTINFO</b> structure, but it has been renamed to follow current naming conventions. 
 
 
@@ -68,7 +68,7 @@ Client coordinates of the point to test.
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Variable that receives information about the results of a hit test. This member can be one or more of the following values: 
 

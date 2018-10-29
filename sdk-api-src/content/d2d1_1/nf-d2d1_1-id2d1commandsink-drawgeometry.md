@@ -4,10 +4,10 @@ title: ID2D1CommandSink::DrawGeometry
 author: windows-sdk-content
 description: Indicates the geometry to be drawn to the command sink.
 old-location: direct2d\id2d1commandsink_drawgeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ff91dd6c-0604-44aa-a30c-6b531cc3fb58
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: DrawGeometry, DrawGeometry method [Direct2D], DrawGeometry method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGeometry method, ID2D1CommandSink.DrawGeometry, ID2D1CommandSink::DrawGeometry, d2d1_1/ID2D1CommandSink::DrawGeometry, direct2d.id2d1commandsink_drawgeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

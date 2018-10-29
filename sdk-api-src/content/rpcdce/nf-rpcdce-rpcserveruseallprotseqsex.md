@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqsex.htm
 tech.root: Rpc
 ms.assetid: 4fc2ccbe-1b01-4157-b3e7-2c61397d78f7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcServerUseAllProtseqsEx, RpcServerUseAllProtseqsEx function [RPC], _rpc_rpcserveruseallprotseqsex, rpc.rpcserveruseallprotseqsex, rpcdce/RpcServerUseAllProtseqsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

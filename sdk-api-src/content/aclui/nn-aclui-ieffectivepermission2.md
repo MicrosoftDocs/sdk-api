@@ -7,7 +7,7 @@ old-location: security\ieffectivepermission2.htm
 tech.root: SecAuthZ
 ms.assetid: 2FDCA205-6880-4526-B8D7-6F9B107B218B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IEffectivePermission2, IEffectivePermission2 interface [Security], IEffectivePermission2 interface [Security],described, aclui/IEffectivePermission2, security.ieffectivepermission2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudionotification_onevent.htm
 tech.root: DirectShow
 ms.assetid: 5282cbbf-5501-42eb-95ba-bf7b32792d56
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IAMTVAudioNotification interface [DirectShow],OnEvent method, IAMTVAudioNotification.OnEvent, IAMTVAudioNotification::OnEvent, IAMTVAudioNotificationOnEvent, OnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow],IAMTVAudioNotification interface, dshow.iamtvaudionotification_onevent, strmif/IAMTVAudioNotification::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

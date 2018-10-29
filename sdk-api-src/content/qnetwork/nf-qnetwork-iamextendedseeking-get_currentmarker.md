@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_get_currentmarker.htm
 tech.root: DirectShow
 ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_CurrentMarker method, IAMExtendedSeeking.get_CurrentMarker, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_CurrentMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

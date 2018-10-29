@@ -7,7 +7,7 @@ old-location: winsock\hostent_2.htm
 tech.root: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,13 +103,17 @@ An application should not try to release the memory used by the returned <b>host
 
 The following examples demonstrates the use of the <b>hostent</b> structure with the <a href="https://msdn.microsoft.com/2526ecb5-927b-40c8-8d8f-919e7986ff05">gethostbyname</a> function.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define WIN32_LEAN_AND_MEAN
 
-```cpp
-#define WIN32_LEAN_AND_MEAN
-
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -143,7 +147,7 @@ int main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -163,7 +167,7 @@ int main(int argc, char **argv)
             printf("The IPv4 address entered must be a legal address\n");
             return 1;
         } else
-            remoteHost = gethostbyaddr((char *) &addr, 4, AF_INET);
+            remoteHost = gethostbyaddr((char *) &amp;addr, 4, AF_INET);
     }
 
     if (remoteHost == NULL) {
@@ -182,12 +186,12 @@ int main(int argc, char **argv)
         }
     } else {
         printf("Function returned:\n");
-        printf("\tOfficial name: %s\n", remoteHost->h_name);
-        for (pAlias = remoteHost->h_aliases; *pAlias != 0; pAlias++) {
+        printf("\tOfficial name: %s\n", remoteHost-&gt;h_name);
+        for (pAlias = remoteHost-&gt;h_aliases; *pAlias != 0; pAlias++) {
             printf("\tAlternate name #%d: %s\n", ++i, *pAlias);
         }
         printf("\tAddress type: ");
-        switch (remoteHost->h_addrtype) {
+        switch (remoteHost-&gt;h_addrtype) {
         case AF_INET:
             printf("AF_INET\n");
             break;
@@ -198,26 +202,26 @@ int main(int argc, char **argv)
             printf("AF_NETBIOS\n");
             break;
         default:
-            printf(" %d\n", remoteHost->h_addrtype);
+            printf(" %d\n", remoteHost-&gt;h_addrtype);
             break;
         }
-        printf("\tAddress length: %d\n", remoteHost->h_length);
+        printf("\tAddress length: %d\n", remoteHost-&gt;h_length);
 
-        if (remoteHost->h_addrtype == AF_INET) {
-            while (remoteHost->h_addr_list[i] != 0) {
-                addr.s_addr = *(u_long *) remoteHost->h_addr_list[i++];
+        if (remoteHost-&gt;h_addrtype == AF_INET) {
+            while (remoteHost-&gt;h_addr_list[i] != 0) {
+                addr.s_addr = *(u_long *) remoteHost-&gt;h_addr_list[i++];
                 printf("\tIPv4 Address #%d: %s\n", i, inet_ntoa(addr));
             }
-        } else if (remoteHost->h_addrtype == AF_INET6)
+        } else if (remoteHost-&gt;h_addrtype == AF_INET6)
             printf("\tRemotehost is an IPv6 address\n");
     }
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

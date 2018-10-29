@@ -7,7 +7,7 @@ old-location: rpc\ndrolefree.htm
 tech.root: Rpc
 ms.assetid: c4289448-11bb-40d1-ae63-68521b901796
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: NdrOleFree, NdrOleFree function [RPC], rpc.ndrolefree, rpcndr/NdrOleFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

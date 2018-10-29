@@ -4,10 +4,10 @@ title: MprConfigServerSetInfoEx function
 author: windows-sdk-content
 description: The MprConfigServerSetInfoEx function sets port information on a specified RRAS server.
 old-location: rras\mprconfigserversetinfoex.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: MprConfigServerSetInfoEx, MprConfigServerSetInfoEx function [RAS], mprapi/MprConfigServerSetInfoEx, rras.mprconfigserversetinfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

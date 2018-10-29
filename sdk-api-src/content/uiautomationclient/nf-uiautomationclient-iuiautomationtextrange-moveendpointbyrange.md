@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByRange.htm
 tech.root: WinAuto
 ms.assetid: 16cb22ec-2735-41ab-88d5-78a27246af6e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],MoveEndpointByRange method, IUIAutomationTextRange.MoveEndpointByRange, IUIAutomationTextRange::MoveEndpointByRange, MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange, uiauto_IUIAutomationTextRange_MoveEndpointByRange, uiautomationclient/IUIAutomationTextRange::MoveEndpointByRange, winauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+An endpoint (either start or end) of the current text range. This is the endpoint to be moved.
 
 
 ### -param range [in]
@@ -70,21 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c9214
 A second text range from the same text provider as the current text range.
 
 
-### -param arg2
-
-TBD
-
-
-
-
-#### - srcEndPoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-An endpoint (either start or end) of the current text range. This is the endpoint to be moved.
-
-
-#### - targetEndPoint [in]
+### -param arg2 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 

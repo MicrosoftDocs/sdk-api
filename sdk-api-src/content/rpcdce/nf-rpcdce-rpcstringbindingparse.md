@@ -7,7 +7,7 @@ old-location: rpc\rpcstringbindingparse.htm
 tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ Pointer to a <b>null</b>-terminated string representation of a binding.
 ### -param ObjUuid
 
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. 
+<a href="https://msdn.microsoft.com/">UUID</a>. 
 
 
 

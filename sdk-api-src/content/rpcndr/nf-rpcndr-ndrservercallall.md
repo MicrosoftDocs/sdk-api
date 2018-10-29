@@ -7,7 +7,7 @@ old-location: rpc\ndrservercallall.htm
 tech.root: Rpc
 ms.assetid: 7CCFC1CC-E37E-412E-9CB9-46888C42244A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: NdrServerCallAll, NdrServerCallAll function [RPC], rpc.ndrservercallall, rpcndr/NdrServerCallAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

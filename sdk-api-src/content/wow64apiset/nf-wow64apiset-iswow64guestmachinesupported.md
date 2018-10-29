@@ -7,7 +7,7 @@ old-location: base\iswow64guestmachinesupported.htm
 tech.root: sysinfo
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

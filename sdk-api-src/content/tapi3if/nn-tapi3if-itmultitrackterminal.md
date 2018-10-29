@@ -4,10 +4,10 @@ title: ITMultiTrackTerminal
 author: windows-sdk-content
 description: This ITMultiTrackTerminal interface is exposed on all multitrack terminals. The interface includes methods for enumerating, creating, and removing tracks. The ITMultiTrackTerminal interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itmultitrackterminal.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: c9e5d8a4-78a6-4449-9c11-c780e72ab925
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: ITMultiTrackTerminal, ITMultiTrackTerminal interface [TAPI 2.2], ITMultiTrackTerminal interface [TAPI 2.2],described, _tapi3_itmultitrackterminal, tapi3.itmultitrackterminal, tapi3if/ITMultiTrackTerminal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ This
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMultiTrackTerminal</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMultiTrackTerminal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMultiTrackTerminal</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITMultiTrackTerminal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -7,7 +7,7 @@ old-location: wcs\cmcreatetransformextw.htm
 tech.root: WCS
 ms.assetid: fa041ecd-8c42-4675-9e53-dd34535a2fd3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: CMCreateTransformExtW, CMCreateTransformExtW function [Windows Color System], _color_CMCreateTransformExtW, icm/CMCreateTransformExtW, wcs.cmcreatetransformextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

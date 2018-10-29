@@ -7,7 +7,7 @@ old-location: security\system_audit_callback_object_ace.htm
 tech.root: SecAuthZ
 ms.assetid: f547c928-4850-4072-be05-76a6c83b79bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, SYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, security.system_audit_callback_object_ace, winnt/PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, winnt/SYSTEM_AUDIT_CALLBACK_OBJECT_ACE"
 ms.prod: windows
 ms.technology: windows-sdk

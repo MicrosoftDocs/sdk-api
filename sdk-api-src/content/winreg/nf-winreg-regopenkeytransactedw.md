@@ -7,7 +7,7 @@ old-location: base\regopenkeytransacted.htm
 tech.root: sysinfo
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: RegOpenKeyTransacted, RegOpenKeyTransacted function, RegOpenKeyTransactedA, RegOpenKeyTransactedW, base.regopenkeytransacted, winreg/RegOpenKeyTransacted, winreg/RegOpenKeyTransactedA, winreg/RegOpenKeyTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 
 
-When a key is opened using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using the <a href="https://msdn.microsoft.com/f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2">RegCreateKeyTransacted</a> or <b>RegOpenKeyTransacted</b> function with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="https://msdn.microsoft.com/en-us/library/Bb986748(v=VS.85).aspx">Kernel Transaction Manager</a>.
+When a key is opened using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using the <a href="https://msdn.microsoft.com/f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2">RegCreateKeyTransacted</a> or <b>RegOpenKeyTransacted</b> function with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="fs.ktm_start_page">Kernel Transaction Manager</a>.
 
 Note that subsequent operations on subkeys of this key are not automatically transacted. Therefore,  the <a href="https://msdn.microsoft.com/41fde6a5-647c-4293-92b8-74be54fa4136">RegDeleteKeyEx</a> function does not perform a transacted delete operation. Instead, use the <a href="https://msdn.microsoft.com/4c67e08b-4338-4441-8300-6b6ed31d4b21">RegDeleteKeyTransacted</a> function to perform a transacted delete operation.
 

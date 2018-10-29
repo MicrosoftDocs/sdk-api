@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createinspectablearray.htm
 tech.root: WinRT
 ms.assetid: 2bcb8530-07cb-4f54-b727-e08807c3f22b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CreateInspectableArray, CreateInspectableArray method [Windows Runtime], CreateInspectableArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInspectableArray method, IPropertyValueStatics.CreateInspectableArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInspectableArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInspectableArray, winrt.ipropertyvaluefactory_createinspectablearray, winrt.ipropertyvaluestatics_createinspectablearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

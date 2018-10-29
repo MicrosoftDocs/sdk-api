@@ -262,25 +262,33 @@ To examine a directory that is not a root directory, use the path to that direct
 
 The following call:
 
-
-```cpp
-FindFirstFileEx( lpFileName, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FindFirstFileEx( lpFileName, 
                  FindExInfoStandard, 
                  lpFindData, 
                  FindExSearchNameMatch, 
                  NULL, 
-                 0 );
-```
-
-
+                 0 );</pre>
+</td>
+</tr>
+</table></span></div>
 Is equivalent to the following call:
 
-
-```cpp
-FindFirstFile( lpFileName, lpFindData );
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FindFirstFile( lpFileName, lpFindData );</pre>
+</td>
+</tr>
+</table></span></div>
 Be aware that some other thread or process could create or delete a file with this name between the time you 
     query for the result and the time you act on the information. If this is a potential concern for your application, 
     one possible solution is to use the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function with 
@@ -366,11 +374,15 @@ The following code shows a minimal use of
      <b>FindFirstFileEx</b>. This program is equivalent to the 
      example in the <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a> topic.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 void _tmain(int argc, TCHAR *argv[])
 {
@@ -384,7 +396,7 @@ void _tmain(int argc, TCHAR *argv[])
    }
 
    _tprintf (TEXT("Target file is %s\n"), argv[1]);
-   hFind = FindFirstFileEx(argv[1], FindExInfoStandard, &FindFileData,
+   hFind = FindFirstFileEx(argv[1], FindExInfoStandard, &amp;FindFileData,
              FindExSearchNameMatch, NULL, 0);
    if (hFind == INVALID_HANDLE_VALUE) 
    {
@@ -398,10 +410,10 @@ void _tmain(int argc, TCHAR *argv[])
       FindClose(hFind);
    }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

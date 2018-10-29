@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_receipt_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1igd.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FAX_RECEIPT_TYPE_ENUM, FAX_RECEIPT_TYPE_ENUM enumeration [Fax Service], _mfax_fax_receipt_type_enum, fax._mfax_fax_receipt_type_enum, faxcomex/FAX_RECEIPT_TYPE_ENUM, faxcomex/frtMAIL, faxcomex/frtMSGBOX, faxcomex/frtNONE, frtMAIL, frtMSGBOX, frtNONE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,11 +78,11 @@ Display a delivery report in a message box on the display of a specific computer
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686899(v=VS.85).aspx">IFaxDocument::get_ReceiptType</a>
+<a href="https://msdn.microsoft.com/ee8f9070-7f00-4bd4-8022-1d9b00f1bdaa">IFaxDocument::get_ReceiptType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689599(v=VS.85).aspx">IFaxOutgoingJob::get_ReceiptType</a>
+<a href="https://msdn.microsoft.com/675fa0b8-758d-43b4-b493-ee8204f4b9c6">IFaxOutgoingJob::get_ReceiptType</a>
  
 
  

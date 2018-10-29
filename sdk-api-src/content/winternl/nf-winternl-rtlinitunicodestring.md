@@ -4,10 +4,10 @@ title: RtlInitUnicodeString function
 author: windows-sdk-content
 description: Initializes a counted Unicode string.
 old-location: winprog\rtlinitunicodestring.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitunicodestring.htm
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString function [Windows API], winprog.rtlinitunicodestring, winternl/RtlInitUnicodeString, winui.rtlinitunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices

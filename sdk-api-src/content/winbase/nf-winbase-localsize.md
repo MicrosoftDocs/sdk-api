@@ -7,7 +7,7 @@ old-location: base\localsize.htm
 tech.root: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

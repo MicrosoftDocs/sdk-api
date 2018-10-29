@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_Update.htm
 tech.root: shell
 ms.assetid: 42000a83-2ee0-49b9-b3fc-328685e25c0b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IShellItem2 interface [Windows Shell],Update method, IShellItem2.Update, IShellItem2::Update, Update, Update method [Windows Shell], Update method [Windows Shell],IShellItem2 interface, _shell_IShellItem2_Update, shell.IShellItem2_Update, shobjidl_core/IShellItem2::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ListBox_DeleteString macro
 author: windows-sdk-content
 description: Deletes the item at the specified location in a list box. You can use this macro or send the LB_DELETESTRING message explicitly.
 old-location: controls\ListBox_DeleteString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_deletestring.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: ListBox_DeleteString, ListBox_DeleteString macro [Windows Controls], _win32_ListBox_DeleteString, _win32_ListBox_DeleteString_cpp, controls.ListBox_DeleteString, controls._win32_ListBox_DeleteString, windowsx/ListBox_DeleteString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Deletes the item at the specified location in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775183(v=VS.85).aspx">LB_DELETESTRING</a> message explicitly.
+Deletes the item at the specified location in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/3f360e07-b70d-4bfc-89d4-18d3b18b0fcf">LB_DELETESTRING</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The zero-based index of the item to delete.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775183(v=VS.85).aspx">LB_DELETESTRING</a>
+For more information, see <a href="https://msdn.microsoft.com/3f360e07-b70d-4bfc-89d4-18d3b18b0fcf">LB_DELETESTRING</a>
 
 
 

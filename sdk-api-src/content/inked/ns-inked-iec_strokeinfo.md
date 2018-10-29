@@ -7,7 +7,7 @@ old-location: tablet\iec_strokeinfo__win32_only_.htm
 tech.root: tablet
 ms.assetid: 12486d28-eba2-4ef6-802e-be7155de6edd
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 12486d28-eba2-4ef6-802e-be7155de6edd, IEC_STROKEINFO, IEC_STROKEINFO (Win32 Only), IEC_STROKEINFO (Win32 Only) structure [Tablet PC], inked/IEC_STROKEINFO, structure [Tablet PC], tablet.iec_strokeinfo__win32_only_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,16 +65,20 @@ Contains information about a <a href="https://msdn.microsoft.com/eaa89dfe-6141-4
 
 Specifies the NMHDR structure that contains standard information about the WM_NOTIFY message. The NMHDR structure contains the handle and identifier of the control that is sending the message and the notification code, which in this case is <a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">IECN_STROKE</a>. The format of the NMHDR structure is:
 
-
-```cpp
-typedef struct tagNMHDR {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct tagNMHDR {
       HWND hwndFrom;
       UINT idFrom;
       UINT code;
-  } NMHDR;
-```
-
-
+  } NMHDR;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field Cursor
 

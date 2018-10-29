@@ -252,7 +252,7 @@ Returned when an incoming response exceeds an internal WinHTTP size limit.
 </td>
 <td width="60%">
 One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server.  To determine what type of error was encountered, verify through a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
+<a href="internet_status_callback_prototype.htm">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
 <a href="https://msdn.microsoft.com/4d828e41-9073-407a-aab5-531f1d6d6d02">WINHTTP_STATUS_CALLBACK</a>.
 
 </td>
@@ -358,7 +358,7 @@ An application can use the same HTTP request handle in multiple calls to
 The name and value of request headers added with this function are validated.  Headers must be well formed.  For more information about valid HTTP headers, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.  If an invalid header is used, this function fails and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383770(v=VS.85).aspx">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
+<a href="error_messages.htm">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 
 <b>Windows 2000:  </b>When sending requests from multiple threads, there may be a significant decrease in network and CPU performance.  For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84525">Q282865 - Winsock Shutdown Can Increase CPU Usage to 100 Percent</a>.
@@ -419,9 +419,13 @@ The following code example shows how to obtain an
 <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle, open an HTTP
                 session, create a request header, and send that header to the server.
 
-
-```cpp
-    BOOL  bResults = FALSE;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,
               hConnect = NULL,
               hRequest = NULL;
@@ -463,10 +467,10 @@ The following code example shows how to obtain an
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

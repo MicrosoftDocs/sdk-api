@@ -7,7 +7,7 @@ old-location: base\heapqueryinformation.htm
 tech.root: Memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInformation function, _win32_heapqueryinformation, base.heapqueryinformation, heapapi/HeapQueryInformation, winbase/HeapQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,11 +161,15 @@ The following example uses <a href="https://msdn.microsoft.com/ecd716b2-df48-491
      <b>HeapQueryInformation</b> to retrieve information 
      about the heap.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 #define HEAP_STANDARD 0
 #define HEAP_LAL 1
@@ -192,7 +196,7 @@ int __cdecl _tmain()
     //
     bResult = HeapQueryInformation(hHeap,
                                    HeapCompatibilityInformation,
-                                   &HeapInformation,
+                                   &amp;HeapInformation,
                                    sizeof(HeapInformation),
                                    NULL);
     if (bResult == FALSE) {
@@ -225,10 +229,10 @@ int __cdecl _tmain()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

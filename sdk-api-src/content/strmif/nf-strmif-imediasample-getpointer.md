@@ -7,7 +7,7 @@ old-location: dshow\imediasample_getpointer.htm
 tech.root: DirectShow
 ms.assetid: a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetPointer method, IMediaSample.GetPointer, IMediaSample::GetPointer, IMediaSampleGetPointer, dshow.imediasample_getpointer, strmif/IMediaSample::GetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

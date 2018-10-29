@@ -90,15 +90,15 @@ A pointer to the Bluetooth LE GATT characteristic value data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450822(v=VS.85).aspx">Bluetooth GATT Notification Callback Function</a>
+<a href="https://msdn.microsoft.com/96AC4E49-76D7-47B5-93B9-64D574A28E0A">Bluetooth GATT Notification Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450796(v=VS.85).aspx">BluetoothGATTGetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/8C89FCE9-8DCA-4A38-AF67-A46FDDCC9A60">BluetoothGATTGetCharacteristicValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450806(v=VS.85).aspx">BluetoothGATTSetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/114C1FCD-95F8-4358-8178-C9B283CA7323">BluetoothGATTSetCharacteristicValue</a>
  
 
  

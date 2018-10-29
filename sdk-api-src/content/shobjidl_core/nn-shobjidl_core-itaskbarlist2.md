@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList2.htm
 tech.root: shell
 ms.assetid: 8af23586-349f-4d21-98cb-0aaa27a586ff
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: ITaskbarList2, ITaskbarList2 interface [Windows Shell], ITaskbarList2 interface [Windows Shell],described, shell.ITaskbarList2, shell_ITaskbarList2, shobjidl_core/ITaskbarList2
 ms.prod: windows
 ms.technology: windows-sdk

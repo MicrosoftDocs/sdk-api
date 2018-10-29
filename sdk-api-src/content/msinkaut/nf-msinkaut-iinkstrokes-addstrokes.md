@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_addstrokes.htm
 tech.root: tablet
 ms.assetid: 76580828-c776-4787-843c-db0acb768321
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 76580828-c776-4787-843c-db0acb768321, AddStrokes, AddStrokes method [Tablet PC], AddStrokes method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],AddStrokes method, IInkStrokes.AddStrokes, IInkStrokes::AddStrokes, msinkaut/IInkStrokes::AddStrokes, tablet.inkstrokes_addstrokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

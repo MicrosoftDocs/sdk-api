@@ -7,7 +7,7 @@ old-location: security\iazscope2_roleassignments.htm
 tech.root: SecAuthZ
 ms.assetid: 9f844f6b-8c31-4cec-ae72-a3fd4e947d49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IAzScope2 interface [Security],RoleAssignments property, IAzScope2.RoleAssignments, IAzScope2.get_RoleAssignments, IAzScope2::RoleAssignments, IAzScope2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzScope2 interface, azroles/IAzScope2::RoleAssignments, azroles/IAzScope2::get_RoleAssignments, get_RoleAssignments, security.iazscope2_roleassignments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>RoleAssignments</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377919(v=VS.85).aspx">IAzRoleAssignments</a> object that represents the collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> objects associated with this scope.
+The <b>RoleAssignments</b> property retrieves an <a href="https://msdn.microsoft.com/d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47">IAzRoleAssignments</a> object that represents the collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects associated with this scope.
 
 This property is read-only.
 

@@ -7,7 +7,7 @@ old-location: gdi\mat2.htm
 tech.root: gdi
 ms.assetid: 841883d6-bc4d-46ef-abf4-f179771d255b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: "*LPMAT2, LPMAT2, LPMAT2 structure pointer [Windows GDI], MAT2, MAT2 structure [Windows GDI], _MAT2, _win32_MAT2_str, gdi.mat2, wingdi/LPMAT2, wingdi/MAT2"
 ms.prod: windows
 ms.technology: windows-sdk

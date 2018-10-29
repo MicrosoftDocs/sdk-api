@@ -7,7 +7,7 @@ old-location: security\accesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: d9fd2e44-5782-40c9-a1cf-1788ca7afc50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: AccessCheck, AccessCheck function [Security], _win32_accesscheck, security.accesscheck, securitybaseapi/AccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,7 +173,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

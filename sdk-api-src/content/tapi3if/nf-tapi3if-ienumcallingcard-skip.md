@@ -4,10 +4,10 @@ title: IEnumCallingCard::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallingcard_skip.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: c24acc61-9e1a-42a5-bf0f-302f523b0978
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Skip method, IEnumCallingCard.Skip, IEnumCallingCard::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_skip, tapi3.ienumcallingcard_skip, tapi3if/IEnumCallingCard::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

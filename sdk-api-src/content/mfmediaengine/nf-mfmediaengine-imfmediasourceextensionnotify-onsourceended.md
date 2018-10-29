@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextensionnotify_onsourceended.htm
 tech.root: medfound
 ms.assetid: 2ce65194-fb52-41e7-9ca4-d1e65fbbbeb0
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceEnded method, IMFMediaSourceExtensionNotify.OnSourceEnded, IMFMediaSourceExtensionNotify::OnSourceEnded, OnSourceEnded, OnSourceEnded method [Media Foundation], OnSourceEnded method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceended, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded
 ms.prod: windows-hardware
 ms.technology: windows-devices

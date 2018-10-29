@@ -7,7 +7,7 @@ old-location: winauto\uiauto_VisualEffectsEnum.htm
 tech.root: WinAuto
 ms.assetid: 961C2064-F896-4ECD-9529-71A1656EE0EE
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: VisualEffects, VisualEffects enumeration [Windows Accessibility], VisualEffects_Bevel, VisualEffects_Glow, VisualEffects_None, VisualEffects_Reflection, VisualEffects_Shadow, VisualEffects_SoftEdges, uiautomationcore/VisualEffects, uiautomationcore/VisualEffects_Bevel, uiautomationcore/VisualEffects_Glow, uiautomationcore/VisualEffects_None, uiautomationcore/VisualEffects_Reflection, uiautomationcore/VisualEffects_Shadow, uiautomationcore/VisualEffects_SoftEdges, winauto.uiauto_VisualEffectsEnum
 ms.prod: windows
 ms.technology: windows-sdk

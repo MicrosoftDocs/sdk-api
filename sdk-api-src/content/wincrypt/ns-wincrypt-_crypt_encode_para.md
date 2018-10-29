@@ -7,7 +7,7 @@ old-location: security\crypt_encode_para.htm
 tech.root: seccrypto
 ms.assetid: 330af6ac-f1db-4cee-81fd-d3c2c341d493
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _CRYPT_ENCODE_PARA, _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

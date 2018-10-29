@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefrommpeg1videoinfo.htm
 tech.root: medfound
 ms.assetid: 2506ae6e-a3bb-4d36-8c70-837a42cfb272
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/26/2018
 ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1VideoInfo, MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg1videoinfo, mfapi/MFInitMediaTypeFromMPEG1VideoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

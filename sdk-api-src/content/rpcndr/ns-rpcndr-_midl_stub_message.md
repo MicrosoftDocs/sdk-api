@@ -7,7 +7,7 @@ old-location: rpc\midl_stub_message.htm
 tech.root: Rpc
 ms.assetid: 9bd021f6-10c9-4e77-be75-9a89a3a016e0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PMIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE structure [RPC], PMIDL_STUB_MESSAGE, PMIDL_STUB_MESSAGE structure pointer [RPC], _MIDL_STUB_MESSAGE, rpc.midl_stub_message, rpcndr/MIDL_STUB_MESSAGE, rpcndr/PMIDL_STUB_MESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk

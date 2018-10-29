@@ -7,7 +7,7 @@ old-location: tablet\setguide.htm
 tech.root: tablet
 ms.assetid: 3ca3c743-83f9-46b0-851a-cba6e4ed980a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: 3ca3c743-83f9-46b0-851a-cba6e4ed980a, SetGuide, SetGuide function [Tablet PC], recapis/SetGuide, tablet.setguide
 ms.prod: windows-hardware
 ms.technology: windows-devices

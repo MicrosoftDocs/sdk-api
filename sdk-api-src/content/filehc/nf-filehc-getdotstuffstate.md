@@ -4,10 +4,10 @@ title: GetDotStuffState function
 author: windows-sdk-content
 description: Determines whether dots are added to the file when any dot stuffing mechanisms are turned on.
 old-location: winprog\_getdotstuffstate.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

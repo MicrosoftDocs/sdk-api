@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_openconfigkey.htm
 tech.root: hid
 ms.assetid: f3e902e1-bc5d-419e-b728-2f9199dacb94
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/26/2018
 ms.keywords: IDirectInputJoyConfig, IDirectInputJoyConfig interface [Human Input Devices],OpenConfigKey method, IDirectInputJoyConfig.OpenConfigKey, IDirectInputJoyConfig::OpenConfigKey, OpenConfigKey, OpenConfigKey (IDirectInputJoyConfig8), OpenConfigKey method [Human Input Devices], OpenConfigKey method [Human Input Devices],IDirectInputJoyConfig interface, di_ref_d0c78a58-7e2c-46bb-a974-4996a2e488a3.xml, dinputd/IDirectInputJoyConfig::OpenConfigKey, hid.idirectinputjoyconfig8_openconfigkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,34 +60,17 @@ The <b>IDirectInputJoyConfig8::OpenConfigKey </b>method opens IDirectInputJoyCon
 
 ### -param arg1
 
-TBD
+Indicates a zero-based joystick identification number. 
 
 
 ### -param arg2
 
-TBD
+Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first be acquired. If only read access is requested, then acquisition is not required. At least one access mask must be specified. 
 
 
 ### -param arg3
 
-TBD
-
-
-
-
-#### - idJoy
-
-Indicates a zero-based joystick identification number. 
-
-
-#### - phk
-
 Points to the opened registry key on success. 
-
-
-#### - regsam
-
-Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first be acquired. If only read access is requested, then acquisition is not required. At least one access mask must be specified. 
 
 
 ## -returns

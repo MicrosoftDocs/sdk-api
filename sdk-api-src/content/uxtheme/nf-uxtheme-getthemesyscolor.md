@@ -4,10 +4,10 @@ title: GetThemeSysColor function
 author: windows-sdk-content
 description: Retrieves the value of a system color.
 old-location: controls\GetThemeSysColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolor.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: GetThemeSysColor, GetThemeSysColor function [Windows Controls], controls.GetThemeSysColor, controls.inet_GetThemeSysColor, inet_GetThemeSysColor, inet_GetThemeSysColor_cpp, uxtheme/GetThemeSysColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

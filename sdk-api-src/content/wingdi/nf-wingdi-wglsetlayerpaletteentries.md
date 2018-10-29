@@ -7,7 +7,7 @@ old-location: opengl\wglsetlayerpaletteentries.htm
 tech.root: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: "_ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,60 +60,33 @@ Sets the palette entries in a given color-index layer plane for a specified devi
 
 ### -param arg1
 
-TBD
+Type: <b>HDC</b>
+
+The device context of a window whose layer palette is to be set.
 
 
 ### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - COLORREF
 
 Type: <b>int</b>
 
 An overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure.
 
 
-#### - cEntries
-
-Type: <b>int</b>
-
-The number of palette entries to be set.
-
-
-#### - iStart
+### -param arg3
 
 Type: <b>int</b>
 
 The first palette entry to be set.
 
 
-#### - param
+### -param arg4
 
-Type: <b>HDC</b>
+Type: <b>int</b>
 
-The device context of a window whose layer palette is to be set.
+The number of palette entries to be set.
 
 
-#### - pcr
+### -param arg5
 
 Type: <b>const <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>*</b>
 

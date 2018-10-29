@@ -7,7 +7,7 @@ old-location: shell\IMenuPopup_Popup.htm
 tech.root: shell
 ms.assetid: 2f889955-9c6d-4b6c-ae04-389d2bff3bd9
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: IMenuPopup interface [Windows Shell],Popup method, IMenuPopup.Popup, IMenuPopup::Popup, MPPF_ALIGN_LEFT, MPPF_ALIGN_RIGHT, MPPF_BOTTOM, MPPF_FINALSELECT, MPPF_FORCEZORDER, MPPF_INITIALSELECT, MPPF_KEYBOARD, MPPF_LEFT, MPPF_NOANIMATE, MPPF_POS_MASK, MPPF_REPOSITION, MPPF_RIGHT, MPPF_SETFOCUS, MPPF_TOP, Popup, Popup method [Windows Shell], Popup method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_Popup, shell.IMenuPopup_Popup, shobjidl_core/IMenuPopup::Popup
 ms.prod: windows-hardware
 ms.technology: windows-devices

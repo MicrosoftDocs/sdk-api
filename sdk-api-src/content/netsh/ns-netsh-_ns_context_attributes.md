@@ -7,7 +7,7 @@ old-location: netshell\ns_context_attributes.htm
 tech.root: NetShell
 ms.assetid: 5041801d-384d-4faf-b0df-2a76b083facd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: "*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES structure [NetShell], PNS_CONTEXT_ATTRIBUTES, PNS_CONTEXT_ATTRIBUTES structure pointer [NetShell], _NS_CONTEXT_ATTRIBUTES, _netsh_ns_context_attributes, netsh/NS_CONTEXT_ATTRIBUTES, netsh/PNS_CONTEXT_ATTRIBUTES, netshell.ns_context_attributes"
 ms.prod: windows
 ms.technology: windows-sdk

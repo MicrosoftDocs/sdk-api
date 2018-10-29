@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_enumdisplaymodes.htm
 tech.root: directdraw
 ms.assetid: 04ed2545-c611-435d-95ef-a0d854380a69
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes, EnumDisplayModes method [DirectDraw], EnumDisplayModes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumDisplayModes method, IDirectDraw7.EnumDisplayModes, IDirectDraw7::EnumDisplayModes, ddraw/IDirectDraw7::EnumDisplayModes, directdraw.idirectdraw7_enumdisplaymodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,29 +59,7 @@ Enumerates all the display modes that the hardware exposes through the DirectDra
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 This value consists of one or more of the following flags:
 
@@ -98,17 +76,17 @@ Enumerates modes with different refresh rates. <b>IDirectDraw7::EnumDisplayModes
 Enumerates Mode 13 in addition to the 320x200x8 Mode X mode.
 
 
-#### - lpContext [in]
-
-Address of an application-defined structure to be passed to each enumeration member.
-
-
-#### - lpDDSurfaceDesc2 [in]
+### -param arg2 [in]
 
 Address of a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure to be checked against available modes. If the value of this parameter is NULL, all modes are enumerated.
 
 
-#### - lpEnumModesCallback [in]
+### -param arg3 [in]
+
+Address of an application-defined structure to be passed to each enumeration member.
+
+
+### -param arg4 [in]
 
 Address of the <a href="https://msdn.microsoft.com/53185A9A-EBA3-4443-8E76-AC85E69B39F2">EnumModesCallback2</a> function that the enumeration procedure calls every time a match is found.
 

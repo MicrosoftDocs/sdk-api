@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationelement2_cachedlivesetting.htm
 tech.root: WinAuto
 ms.assetid: 5DAE4E4B-A93D-4743-907E-29FC4B6D9101
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: CachedLiveSetting property [Windows Accessibility], CachedLiveSetting property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedLiveSetting property, IUIAutomationElement2.CachedLiveSetting, IUIAutomationElement2.get_CachedLiveSetting, IUIAutomationElement2::CachedLiveSetting, IUIAutomationElement2::get_CachedLiveSetting, get_CachedLiveSetting, uiautomationclient/IUIAutomationElement2::CachedLiveSetting, uiautomationclient/IUIAutomationElement2::get_CachedLiveSetting, winauto.uiauto_iuiautomationelement2_cachedlivesetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumTerminalClass::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminalclass_clone.htm
-tech.root: TAPI
+tech.root: Tapi
 ms.assetid: 60b4005f-25a8-4544-b2c9-0c12c3f93618
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/26/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumTerminalClass interface, IEnumTerminalClass interface [TAPI 2.2],Clone method, IEnumTerminalClass.Clone, IEnumTerminalClass::Clone, _tapi3_ienumterminalclass_clone, tapi3.ienumterminalclass_clone, tapi3if/IEnumTerminalClass::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,8 +130,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe">IEnumTerminalClass</a> interface returned by <b>IEnumTerminalClass::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe">IEnumTerminalClass</a> interface returned by <b>IEnumTerminalClass::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumTerminalClass</b> interface to free resources associated with it.
 
 

@@ -7,7 +7,7 @@ old-location: intl\ispellchecker2_remove.htm
 tech.root: Intl
 ms.assetid: 425F1C58-D279-48E2-84D3-D3094314C756
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: ISpellChecker2 interface [Internationalization for Windows Applications],Remove method, ISpellChecker2.Remove, ISpellChecker2::Remove, Remove, Remove method [Internationalization for Windows Applications], Remove method [Internationalization for Windows Applications],ISpellChecker2 interface, intl.ispellchecker2_remove, spellcheck/ISpellChecker2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

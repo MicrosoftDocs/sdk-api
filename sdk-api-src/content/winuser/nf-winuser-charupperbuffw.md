@@ -7,7 +7,7 @@ old-location: menurc\charupperbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: CharUpperBuff, CharUpperBuff function [Menus and Other Resources], CharUpperBuffA, CharUpperBuffW, _win32_CharUpperBuff, _win32_charupperbuff_cpp, menurc.charupperbuff, winui._win32_charupperbuff, winuser/CharUpperBuff, winuser/CharUpperBuffA, winuser/CharUpperBuffW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Aa363875(v=VS.85).aspx">Creating and Using a Temporary File</a>. 
+For an example, see <a href="_win32_Creating_and_Using_a_Temporary_File">Creating and Using a Temporary File</a>. 
 
 
 
@@ -121,15 +121,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Aa363875(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx">CharLower</a>
+<a href="https://msdn.microsoft.com/b67786aa-d629-4d23-b4cb-efb43282ca02">CharLower</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647468(v=VS.85).aspx">CharLowerBuff</a>
+<a href="https://msdn.microsoft.com/3a678c1b-76a5-4a08-8a13-dfc400492bba">CharLowerBuff</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647474(v=VS.85).aspx">CharUpper</a>
+<a href="https://msdn.microsoft.com/4a101fb6-8b90-479b-93dc-3f768e9b952a">CharUpper</a>
 
 
 
@@ -141,7 +141,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Aa363875(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

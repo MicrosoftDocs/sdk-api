@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_GetToolTip.htm
 tech.root: shell
 ms.assetid: f2c54602-2ffc-45bc-ba00-d7b9d4cf2343
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetToolTip, GetToolTip method [Windows Shell], GetToolTip method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetToolTip method, IExplorerCommand.GetToolTip, IExplorerCommand::GetToolTip, _shell_IExplorerCommand_GetToolTip, shell.IExplorerCommand_GetToolTip, shobjidl_core/IExplorerCommand::GetToolTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

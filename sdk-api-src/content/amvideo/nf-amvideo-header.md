@@ -7,7 +7,7 @@ old-location: dshow\header.htm
 tech.root: DirectShow
 ms.assetid: 5263f924-6f82-4d64-8dc7-0b5e7efa4150
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.keywords: HEADER, HEADER macro [DirectShow], amvideo/HEADER, dshow.header
 ms.prod: windows-hardware
 ms.technology: windows-devices

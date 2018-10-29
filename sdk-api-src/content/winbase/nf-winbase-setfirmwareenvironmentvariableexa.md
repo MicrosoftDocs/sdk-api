@@ -7,7 +7,7 @@ old-location: base\setfirmwareenvironmentvariableex.htm
 tech.root: sysinfo
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -196,11 +196,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="base.access_uefi_firmware_variables_from_a_universal_windows_app">Access UEFI firmware variables from a Universal Windows App</a>for details.
 
 Starting with Windows 10, version 1803, reading UEFI firmware variables is also supported from User-Mode Driver Framework (UMDF) drivers. Writing UEFI firmware variables from UMDF drivers is not supported.
 
-To write a firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>.
+To write a firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="base.access_uefi_firmware_variables_from_a_universal_windows_app">Access UEFI firmware variables from a Universal Windows App</a>.
 
 The correct method of changing the attributes of a variable is to delete the
 variable and recreate it with different attributes.
@@ -217,7 +217,7 @@ Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>
+<a href="base.access_uefi_firmware_variables_from_a_universal_windows_app">Access UEFI firmware variables from a Universal Windows App</a>
 
 
 

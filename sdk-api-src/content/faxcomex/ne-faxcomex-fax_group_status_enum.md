@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_group_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0tyl.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FAX_GROUP_STATUS_ENUM, FAX_GROUP_STATUS_ENUM enumeration [Fax Service], _mfax_fax_group_status_enum, fax._mfax_fax_group_status_enum, faxcomex/FAX_GROUP_STATUS_ENUM, faxcomex/fgsALL_DEV_NOT_VALID, faxcomex/fgsALL_DEV_VALID, faxcomex/fgsEMPTY, faxcomex/fgsSOME_DEV_NOT_VALID, fgsALL_DEV_NOT_VALID, fgsALL_DEV_VALID, fgsEMPTY, fgsSOME_DEV_NOT_VALID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The routing group contains some devices that are unavailable for sending faxes. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688419(v=VS.85).aspx">IFaxOutboundRoutingGroup::get_Status</a>
+<a href="https://msdn.microsoft.com/e009411d-07d1-4be3-a050-eea78084953f">IFaxOutboundRoutingGroup::get_Status</a>
  
 
  

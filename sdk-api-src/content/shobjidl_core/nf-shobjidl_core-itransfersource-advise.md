@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_Advise.htm
 tech.root: shell
 ms.assetid: 5a546603-d409-4c8e-9fa8-892c5c4844e7
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],Advise method, ITransferSource.Advise, ITransferSource::Advise, _shell_ITransferSource_Advise, shell.ITransferSource_Advise, shobjidl_core/ITransferSource::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\uuidcompare.htm
 tech.root: Rpc
 ms.assetid: 9a8c558b-c438-45f7-ac0f-1da20eb26e29
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: UuidCompare, UuidCompare function [RPC], _rpc_uuidcompare, rpc.uuidcompare, rpcdce/UuidCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices

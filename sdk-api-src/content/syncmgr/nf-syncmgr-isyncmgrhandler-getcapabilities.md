@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_GetCapabilities.htm
 tech.root: shell
 ms.assetid: 3eb43984-f284-4df9-934b-1dd2f0e62e26
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/26/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetCapabilities method, ISyncMgrHandler.GetCapabilities, ISyncMgrHandler::GetCapabilities, _shell_ISyncMgrHandler_GetCapabilities, shell.ISyncMgrHandler_GetCapabilities, syncmgr/ISyncMgrHandler::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,18 +89,22 @@ This method is called by Sync Center in response to a call to <a href="https://m
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetCapabilities(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetCapabilities(
                              __out SYNCMGR_HANDLER_CAPABILITIES *pmCapabilities)
 {
     *pmCapabilities = SYNCMGR_HCM_EVENT_STORE
                     | SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

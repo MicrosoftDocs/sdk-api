@@ -7,7 +7,7 @@ old-location: automat\safearraydestroy.htm
 tech.root: automat
 ms.assetid: fc94f7e7-b903-4c78-905c-54df1f8d13fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: SafeArrayDestroy, SafeArrayDestroy function [Automation], _oa96_SafeArrayDestroy, automat.safearraydestroy, oleauto/SafeArrayDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,9 +123,13 @@ Safe arrays of variant will have the <a href="https://msdn.microsoft.com/28741d8
 
 #### Examples
 
-
-```cpp
-STDMETHODIMP_(ULONG) CEnumPoint::Release()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP_(ULONG) CEnumPoint::Release()
 {
    if(--m_refs == 0){
       if(m_psa != NULL)
@@ -134,9 +138,9 @@ STDMETHODIMP_(ULONG) CEnumPoint::Release()
       return 0;
    }
    return m_refs;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
