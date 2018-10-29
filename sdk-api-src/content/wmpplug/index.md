@@ -2,7 +2,7 @@
 UID: NA:wmpplug
 ms.assetid: 827d90de-9b18-33c3-bd0d-a17992e7bd9c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

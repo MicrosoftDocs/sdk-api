@@ -2,7 +2,7 @@
 UID: NA:wabiab
 ms.assetid: 03e74b6f-a527-39b0-9e34-b9fd66e3478e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

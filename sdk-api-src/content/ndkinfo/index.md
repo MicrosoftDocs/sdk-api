@@ -2,7 +2,7 @@
 UID: NA:ndkinfo
 ms.assetid: 55a8285c-2038-3caa-9def-61c74e31393d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

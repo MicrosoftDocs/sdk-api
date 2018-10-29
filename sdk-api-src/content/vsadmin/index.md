@@ -2,7 +2,7 @@
 UID: NA:vsadmin
 ms.assetid: 06dcee59-b6e3-3bcc-936b-905c2a845f5f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

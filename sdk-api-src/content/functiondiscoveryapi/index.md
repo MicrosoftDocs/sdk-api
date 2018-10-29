@@ -2,7 +2,7 @@
 UID: NA:functiondiscoveryapi
 ms.assetid: a3472a20-20e1-397a-8bf3-816b1cf1e6fd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:amsi
 ms.assetid: 5c64e8da-d685-3a4a-bc23-c19f1b6f1148
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
