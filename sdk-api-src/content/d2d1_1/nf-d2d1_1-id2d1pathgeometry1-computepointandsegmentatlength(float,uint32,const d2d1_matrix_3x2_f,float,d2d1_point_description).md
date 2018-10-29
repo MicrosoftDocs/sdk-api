@@ -140,7 +140,7 @@ If <i>length</i> is greater than the total length of the path, then the end poin
 <h3><a id="Example_Illustration"></a><a id="example_illustration"></a><a id="EXAMPLE_ILLUSTRATION"></a>Example Illustration</h3>
 Consider this example that explains the value of different parameters returned for the given path geometry. 
 
-<img alt="A diagram of a path geometry and its lengths." src="images/computepointandsegmentatlength.png"/>
+<img alt="A diagram of a path geometry and its lengths." src="./images/computepointandsegmentatlength.png"/>
 Here are two different scenarios.
 
 <h3><a id="You_want_to_retrieve_the_segment_at_a_length_L2"></a><a id="you_want_to_retrieve_the_segment_at_a_length_l2"></a><a id="YOU_WANT_TO_RETRIEVE_THE_SEGMENT_AT_A_LENGTH_L2"></a>You want to retrieve the segment at a length L2</h3>

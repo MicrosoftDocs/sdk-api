@@ -131,7 +131,7 @@ The table here shows the primitive blend modes for both aliased and antialiased 
 </table>
  
 
-<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="images/PrimBlendDemo.png"/>
+<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="./images/PrimBlendDemo.png"/>
 An illustration of the primitive blend modes with varying opacity and backgrounds.
 
 The primitive blend will apply to all of the primitive drawn on the context, unless this is overridden with the <i>compositeMode</i> parameter on the <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">DrawImage</a> API.
