@@ -68,9 +68,9 @@ Specifies the level of the texture resource to lock.
 
 ### -param pLockedRect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6">D3DLOCKED_RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6">D3DLOCKED_RECT</a> structure, describing the locked region. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a> structure, describing the locked region. 
 
 
 ### -param pRect [in]
@@ -94,14 +94,14 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_NOSYSLOCK</li>
 <li>D3DLOCK_READONLY</li>
 </ul>
-You may not specify a subrect when using D3DLOCK_DISCARD. For a description of the flags, see <a href="https://msdn.microsoft.com/46a611bd-a1ec-4967-b68d-72661d1b5cad">D3DLOCK</a>.
+You may not specify a subrect when using D3DLOCK_DISCARD. For a description of the flags, see <a href="https://msdn.microsoft.com/en-us/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -112,15 +112,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Textures created with D3DPOOL_DEFAULT are not lockable. Textures created in video memory are lockable when created with <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">USAGE_DYNAMIC</a>.
+Textures created with D3DPOOL_DEFAULT are not lockable. Textures created in video memory are lockable when created with <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">USAGE_DYNAMIC</a>.
 
-For performance reasons, dirty regions are recorded only for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DTexture9::LockRect</b> is called without <a href="https://msdn.microsoft.com/46a611bd-a1ec-4967-b68d-72661d1b5cad">D3DLOCK_NO_DIRTY_UPDATE</a>    or D3DLOCK_READONLY. See <a href="https://msdn.microsoft.com/79be31d9-0dd2-416c-b58c-9b3b7777c65c">IDirect3DDevice9::UpdateTexture</a> for more information.
+For performance reasons, dirty regions are recorded only for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DTexture9::LockRect</b> is called without <a href="https://msdn.microsoft.com/en-us/library/Bb172568(v=VS.85).aspx">D3DLOCK_NO_DIRTY_UPDATE</a>    or D3DLOCK_READONLY. See <a href="https://msdn.microsoft.com/en-us/library/Bb205858(v=VS.85).aspx">IDirect3DDevice9::UpdateTexture</a> for more information.
 
-The only lockable format for a depth-stencil texture is <a href="https://msdn.microsoft.com/46a611bd-a1ec-4967-b68d-72661d1b5cad">D3DLOCK_D16_LOCKABLE</a>.
+The only lockable format for a depth-stencil texture is <a href="https://msdn.microsoft.com/en-us/library/Bb172568(v=VS.85).aspx">D3DLOCK_D16_LOCKABLE</a>.
 
-Video memory textures cannot be locked, but must be modified by calling <a href="https://msdn.microsoft.com/303a4224-9c5d-4fc6-a7c5-168f18166e3c">IDirect3DDevice9::UpdateSurface</a> or <a href="https://msdn.microsoft.com/79be31d9-0dd2-416c-b58c-9b3b7777c65c">IDirect3DDevice9::UpdateTexture</a>. There are exceptions for some proprietary driver pixel formats that Direct3D 9 does not recognize. These can be locked.
+Video memory textures cannot be locked, but must be modified by calling <a href="https://msdn.microsoft.com/en-us/library/Bb205857(v=VS.85).aspx">IDirect3DDevice9::UpdateSurface</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205858(v=VS.85).aspx">IDirect3DDevice9::UpdateTexture</a>. There are exceptions for some proprietary driver pixel formats that Direct3D 9 does not recognize. These can be locked.
 
-This method cannot retrieve data from a texture resource created with <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE_RENDERTARGET</a> because such a texture must be assigned to D3DPOOL_DEFAULT memory and is therefore not lockable. In this case, use instead <a href="https://msdn.microsoft.com/9fc6121c-3da8-49d8-9bd6-c8654ce90100">IDirect3DDevice9::GetRenderTargetData</a> to copy texture data from device memory to system memory.
+This method cannot retrieve data from a texture resource created with <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_RENDERTARGET</a> because such a texture must be assigned to D3DPOOL_DEFAULT memory and is therefore not lockable. In this case, use instead <a href="https://msdn.microsoft.com/en-us/library/Bb174405(v=VS.85).aspx">IDirect3DDevice9::GetRenderTargetData</a> to copy texture data from device memory to system memory.
 
 
 
@@ -130,19 +130,19 @@ This method cannot retrieve data from a texture resource created with <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/9fc6121c-3da8-49d8-9bd6-c8654ce90100">IDirect3DDevice9::GetRenderTargetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174405(v=VS.85).aspx">IDirect3DDevice9::GetRenderTargetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/79be31d9-0dd2-416c-b58c-9b3b7777c65c">IDirect3DDevice9::UpdateTexture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205858(v=VS.85).aspx">IDirect3DDevice9::UpdateTexture</a>
 
 
 
-<a href="https://msdn.microsoft.com/fcea1048-1d9b-409f-9b5a-cdf85c30c76e">IDirect3DTexture9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>
 
 
 
-<a href="https://msdn.microsoft.com/728ead50-5d2e-45a7-a91d-e2d520171d1d">IDirect3DTexture9::UnlockRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205914(v=VS.85).aspx">IDirect3DTexture9::UnlockRect</a>
  
 
  

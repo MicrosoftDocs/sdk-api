@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element.
+Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element.
 
 
 ## -enum-fields

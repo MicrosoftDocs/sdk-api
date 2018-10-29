@@ -65,12 +65,12 @@ Contains a 32-bit value defined by the query handler. This value is passed to th
 
 ### -param clsidForm
 
-Contains the <b>CLSID</b> of the form that the page should be added to. This member can contain the <b>CLSID</b> of a custom query form or one of the system-supplied forms defined for the <b>clsidDefaultForm</b> member of the <a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a> structure.
+Contains the <b>CLSID</b> of the form that the page should be added to. This member can contain the <b>CLSID</b> of a custom query form or one of the system-supplied forms defined for the <b>clsidDefaultForm</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a> structure.
 
 
 ### -param pPage
 
-Pointer to a <a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a> structure that defines the page to be added.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a> structure that defines the page to be added.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns an <b>HRESULT</b> value that indicates the success or failure of the pag
 
 
 
-<a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a>
 
 
 
@@ -95,7 +95,7 @@ Returns an <b>HRESULT</b> value that indicates the success or failure of the pag
 
 
 
-<a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a>
  
 
  

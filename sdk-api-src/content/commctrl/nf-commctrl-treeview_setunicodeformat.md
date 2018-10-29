@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/e4b58ae5-6217-4a2e-80e5-3ba9e578859a">TVM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773775(v=VS.85).aspx">TVM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the Unicode character format flag for the control. This message allows you 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the control. 
 
@@ -77,7 +77,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/a68a7907-d549-4470-9194-a6fc717eec0b">TreeView_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773895(v=VS.85).aspx">TreeView_GetUnicodeFormat</a>
  
 
  

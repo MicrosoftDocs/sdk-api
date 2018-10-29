@@ -98,7 +98,7 @@ Points to the driver-supplied <a href="https://msdn.microsoft.com/4ce2e967-7b4a-
 
 ### -field SetClipList
 
-Points to the driver-supplied <a href="display.ddsetcliplist">DdSetClipList</a> surface callback.
+Points to the driver-supplied <a href="https://msdn.microsoft.com/library/Ff550300(v=VS.85).aspx">DdSetClipList</a> surface callback.
 
 
 ### -field Lock

@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Carries information used to describe and handle a <a href="https://msdn.microsoft.com/e67e222d-28a1-4d30-ae64-8ec9a62fa321">DTN_WMKEYDOWN</a> notification code. 
+Carries information used to describe and handle a <a href="https://msdn.microsoft.com/en-us/library/Bb761747(v=VS.85).aspx">DTN_WMKEYDOWN</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Carries information used to describe and handle a <a href="https://msdn.microsof
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-A <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
+A <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field nVirtKey
@@ -76,7 +76,7 @@ A virtual key code that represents the key that the user pressed.
 
 ### -field pszFormat
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCTSTR</a></b>
 
 A zero-terminated substring, taken from the format string, that defines the callback field. The substring is one or more "X" characters, followed by a <b>NULL</b>. 
 

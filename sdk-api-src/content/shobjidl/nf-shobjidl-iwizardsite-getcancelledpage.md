@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
+Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ TBD
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a handle variable of type <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that receives the wizard page to display when the user cancels navigation while in the wizard extension.
+A pointer to a handle variable of type <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that receives the wizard page to display when the user cancels navigation while in the wizard extension.
 
 
 

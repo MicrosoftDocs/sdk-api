@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Renames an item in the cache. This method is identical to the <a href="https://msdn.microsoft.com/883f29cb-d551-4358-8e74-f901956d8829">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away. 
+Renames an item in the cache. This method is identical to the <a href="https://msdn.microsoft.com/en-us/library/Bb530500(v=VS.85).aspx">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away. 
 
 
 ## -parameters
@@ -91,7 +91,7 @@ This method does not require system administrator privilege.
 
 If the item to be renamed is a file or directory, it must obey the file system semantics for the rename operation. If the file or a child file (for a directory) is already open, the rename will fail. Also, this method attempts to perform the rename as long as the user has access to the item that is being renamed.
 
-If you need to minimize the chance that the item is in use, call the <a href="https://msdn.microsoft.com/883f29cb-d551-4358-8e74-f901956d8829">IOfflineFilesCache::RenameItem</a> method instead.
+If you need to minimize the chance that the item is in use, call the <a href="https://msdn.microsoft.com/en-us/library/Bb530500(v=VS.85).aspx">IOfflineFilesCache::RenameItem</a> method instead.
 
 
 
@@ -101,7 +101,7 @@ If you need to minimize the chance that the item is in use, call the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/B4E2C2B0-AA6B-4657-8711-E5057720AF15">IOfflineFilesCache2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh769076(v=VS.85).aspx">IOfflineFilesCache2</a>
  
 
  

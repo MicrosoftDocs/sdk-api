@@ -53,7 +53,7 @@ req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ## -description
 
 
-Generates <a href="uniscribe_glossary.htm">glyphs</a> and visual attributes for a Unicode run with OpenType information from the output of <a href="https://msdn.microsoft.com/d2e062a6-2ec8-4057-b525-d1cd719dc736">ScriptShapeOpenType</a>.
+Generates <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">glyphs</a> and visual attributes for a Unicode run with OpenType information from the output of <a href="https://msdn.microsoft.com/d2e062a6-2ec8-4057-b525-d1cd719dc736">ScriptShapeOpenType</a>.
 
 
 ## -parameters
@@ -141,7 +141,7 @@ Count of glyphs in a glyph array buffer.
 
 ### -param piAdvance [out]
 
-Pointer to an array, of length indicated by <i>cGlyphs</i>, in which this function retrieves <a href="uniscribe_glossary.htm">advance width</a> information.
+Pointer to an array, of length indicated by <i>cGlyphs</i>, in which this function retrieves <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">advance width</a> information.
 
 
 ### -param pGoffset [out]
@@ -151,7 +151,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/63fa8741-c8c8-480d-97
 
 ### -param pABC [out, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structure in which this function retrieves the <a href="uniscribe_glossary.htm">ABC width</a> for the entire <a href="uniscribe_glossary.htm">run</a>.
+Pointer to an <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structure in which this function retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">ABC width</a> for the entire <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">run</a>.
 
 
 ## -returns
@@ -177,7 +177,7 @@ This function is preferred over the older <a href="https://msdn.microsoft.com/7f
 <li>Parameters directly correspond to OpenType tags in font layout tables.</li>
 <li>Parameters define features applied to each character. Input is divided into ranges, and each range has OpenType properties associated with it.</li>
 </ul>
-The composite ABC width for the whole item identifies how much the glyphs <a href="uniscribe_glossary.htm">overhang</a> to the left of the start position and to the right of the length implied by the sum of the advance widths. The total advance width of the line is exactly abcA+abcB+abcC. The abcA and abcC values are maintained as proportions of the cell height represented in 8 bits and are thus roughly +/-1 percent. The total width retrieved, which is the sum of the abcA+abcB+abcC values indicated by <i>piAdvance</i>, is accurate to the resolution of the TrueType shaping engine.
+The composite ABC width for the whole item identifies how much the glyphs <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">overhang</a> to the left of the start position and to the right of the length implied by the sum of the advance widths. The total advance width of the line is exactly abcA+abcB+abcC. The abcA and abcC values are maintained as proportions of the cell height represented in 8 bits and are thus roughly +/-1 percent. The total width retrieved, which is the sum of the abcA+abcB+abcC values indicated by <i>piAdvance</i>, is accurate to the resolution of the TrueType shaping engine.
 
 All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in the <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
 

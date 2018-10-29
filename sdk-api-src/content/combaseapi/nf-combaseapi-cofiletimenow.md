@@ -79,11 +79,11 @@ This function returns S_OK to indicate success.
 
 
 
-<a href="https://msdn.microsoft.com/eb7af6a3-7547-405e-b96e-3e68a1ac273b">CoDosDateTimeToFileTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693800(v=VS.85).aspx">CoDosDateTimeToFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/38670fe7-10cf-44e2-a5f1-60ec43fd83b5">CoFileTimeToDosDateTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680620(v=VS.85).aspx">CoFileTimeToDosDateTime</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the calendar ID for the given calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/4b9d06f5-0784-4a17-b401-982206d4be67">MCM_SETCALID</a> message explicitly.
+Sets the calendar ID for the given calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760995(v=VS.85).aspx">MCM_SETCALID</a> message explicitly.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the calendar ID for the given calendar control. You can use this macro or s
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to a month calendar control.
 
 
 ### -param calid
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
-Calendar ID. One of the <a href="https://msdn.microsoft.com/ba2e841e-e24e-476a-851e-a29b3af4f04d">Calendar Identifiers</a> constants.
+Calendar ID. One of the <a href="https://msdn.microsoft.com/en-us/library/Dd317732(v=VS.85).aspx">Calendar Identifiers</a> constants.
 

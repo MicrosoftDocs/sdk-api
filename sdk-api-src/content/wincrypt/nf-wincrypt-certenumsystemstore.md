@@ -163,7 +163,7 @@ For an example that uses this function, see
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
  
 
  

@@ -140,9 +140,9 @@ The video renderer filter is not connected.
 
 
 
-This method has the same effect as calling the <a href="https://msdn.microsoft.com/a614ee46-49cf-40e4-a1f7-b3b3b7065175">IVideoWindow::put_Left</a>, <a href="https://msdn.microsoft.com/1a5df1f1-3867-4956-8e1b-090aa8d8ff3a">IVideoWindow::put_Top</a>, <a href="https://msdn.microsoft.com/7cb02033-0405-4b8b-91fc-2f33097f2c88">IVideoWindow::put_Width</a>, and <a href="https://msdn.microsoft.com/39ba411f-675f-4dad-be4f-6beffbd3b53c">IVideoWindow::put_Height</a> methods.
+This method has the same effect as calling the <a href="https://msdn.microsoft.com/en-us/library/Dd377322(v=VS.85).aspx">IVideoWindow::put_Left</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd377325(v=VS.85).aspx">IVideoWindow::put_Top</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd377327(v=VS.85).aspx">IVideoWindow::put_Width</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd377321(v=VS.85).aspx">IVideoWindow::put_Height</a> methods.
 
-If resizing the window to the specified dimensions is impossible, this method modifies the window's size and location to make the window fit. Call the <a href="https://msdn.microsoft.com/df55c10d-aec1-42f3-8bfb-207ae8804e72">IVideoWindow::GetWindowPosition</a> method to determine the result.
+If resizing the window to the specified dimensions is impossible, this method modifies the window's size and location to make the window fit. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd377288(v=VS.85).aspx">IVideoWindow::GetWindowPosition</a> method to determine the result.
 
 
 
@@ -152,11 +152,11 @@ If resizing the window to the specified dimensions is impossible, this method mo
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
  
 
  

@@ -91,7 +91,7 @@ Gets the search folder as a <a href="https://msdn.microsoft.com/599b9c0a-df04-4d
 <a href="https://msdn.microsoft.com/6ac5acc3-e522-4b6f-a31c-c0850445e00c">SetCondition</a>
 </td>
 <td align="left" width="63%">
-Sets the  <a href="_search_ICondition">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
+Sets the  <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
 
 </td>
 </tr>

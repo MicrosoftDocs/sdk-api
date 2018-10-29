@@ -305,7 +305,7 @@ Although the <b>AddAccessDeniedObjectAce</b> function adds the new ACE to the en
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
  
 
  

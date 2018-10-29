@@ -123,7 +123,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
 
 
 
@@ -131,11 +131,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>
 
 
 
-<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
  
 
  

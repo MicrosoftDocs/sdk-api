@@ -84,7 +84,7 @@ Number of four float vectors in the array of constants.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -97,11 +97,11 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f8271a5-782b-4e9a-93a6-8c7d98e0f1f7">IDirect3DDevice9::GetPixelShaderConstantF</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174400(v=VS.85).aspx">IDirect3DDevice9::GetPixelShaderConstantF</a>
  
 
  

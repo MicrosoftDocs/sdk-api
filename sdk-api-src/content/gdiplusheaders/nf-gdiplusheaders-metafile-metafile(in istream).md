@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Metafile::Metafile</b> object from an <a href="_stg_istream">IStream</a> interface for playback.
+Creates a <b>Metafile::Metafile</b> object from an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface for playback.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <b>Metafile::Metafile</b> object from an <a href="_stg_istream">IStrea
 
 ### -param stream [in]
 
-Type: <b><a href="_stg_istream">IStream</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
 
-Pointer to a COM <a href="_stg_istream">IStream</a> interface that points to a data stream in a file. 
+Pointer to a COM <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface that points to a data stream in a file. 
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Pointer to a COM <a href="_stg_istream">IStream</a> interface that points to a 
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 

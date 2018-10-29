@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Determines whether there are any actions in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/ae7ff372-b1f8-4ab7-9a7e-450aed3e0bc5">EM_CANUNDO</a> message explicitly.
+Determines whether there are any actions in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775468(v=VS.85).aspx">EM_CANUNDO</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/ae7ff372-b1f8-4ab7-9a7e-450aed3e0bc5">EM_CANUNDO</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775468(v=VS.85).aspx">EM_CANUNDO</a>.
 
 
 

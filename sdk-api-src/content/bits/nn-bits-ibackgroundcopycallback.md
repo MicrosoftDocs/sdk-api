@@ -52,7 +52,7 @@ req.redist:
 
 Implement the 
 <b>IBackgroundCopyCallback</b> interface to 
-<a href="https://msdn.microsoft.com/29350ea4-f7a9-4a42-a531-2cf623fe247b">receive notification</a> that a job is complete, has been modified, or is in error. Clients use this interface instead of  <a href="https://msdn.microsoft.com/b12ee1e0-d3d9-4d31-b2af-7491480968f0">polling for the status of the job</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363146(v=VS.85).aspx">receive notification</a> that a job is complete, has been modified, or is in error. Clients use this interface instead of  <a href="https://msdn.microsoft.com/en-us/library/Aa363136(v=VS.85).aspx">polling for the status of the job</a>.
 			
 			
 		
@@ -60,9 +60,9 @@ Implement the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBackgroundCopyCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBackgroundCopyCallback</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IBackgroundCopyCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e206195-1a8c-435e-9b8f-6517b8e3c4ca">JobError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362872(v=VS.85).aspx">JobError</a>
 </td>
 <td align="left" width="63%">
 Called when an error occurs.
@@ -84,7 +84,7 @@ Called when an error occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7614756d-92d1-4b71-a589-c0e39728a51c">JobModification</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362873(v=VS.85).aspx">JobModification</a>
 </td>
 <td align="left" width="63%">
 Called when a job is modified.
@@ -93,7 +93,7 @@ Called when a job is modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04ff96c4-5b22-4935-bce8-5b9d3196cbe5">JobTransferred</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362874(v=VS.85).aspx">JobTransferred</a>
 </td>
 <td align="left" width="63%">
 Called when all of the files in the job have successfully transferred.
@@ -108,17 +108,17 @@ Called when all of the files in the job have successfully transferred.
 
 
 To receive notifications, call the 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
 <b>IBackgroundCopyCallback</b> implementation. To specify which notifications you want to receive, call the 
-<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a> method.
 
 BITS will call your callbacks as long as the interface pointer is valid. The notification interface is no longer valid when your application terminates; BITS does not persist the notify interface. As a result, your application's initialization process should call the 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">SetNotifyInterface</a> method on those existing jobs for which you want to receive notification.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">SetNotifyInterface</a> method on those existing jobs for which you want to receive notification.
 
 BITS guarantees to call your callback at least once, even if the registration occurs after the event. For example, if you request notification of a job transfer after the transfer occurred, you will receive the job transferred callback. Also, if a job received a notification and the pointer is subsequently  no longer valid, that job would receive another notification if you later set the interface pointer on that job.
 
 You must implement all methods of the 
-<b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the job modification callback, the <a href="https://msdn.microsoft.com/7614756d-92d1-4b71-a589-c0e39728a51c">JobModification</a> method must still return <b>S_OK</b>.
+<b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the job modification callback, the <a href="https://msdn.microsoft.com/en-us/library/Aa362873(v=VS.85).aspx">JobModification</a> method must still return <b>S_OK</b>.
 
 The JobModification callbacks are launched using low priority threads whereas the JobTransferred and the JobError callbacks are launched using higher priority threads. So it is possible that while some JobModification callbacks are pending the JobTransferred callback is received by the client first although it is launched after the pending JobModification callbacks.
 
@@ -128,7 +128,7 @@ BITS supports up to four simultaneous notifications per user. If one or more app
 
 If an administrator takes ownership of the job, the notification callbacks are made in the context of the user who requested notification.
 
-If your application uses the <a href="_com_single_threaded_apartments">single-threaded apartment</a> model, your callback methods can become reentrant if you call COM objects from inside your callback method. For example, if you call <a href="https://msdn.microsoft.com/30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a">IBackgroundCopyJob::GetProgress</a> from inside your <a href="https://msdn.microsoft.com/7614756d-92d1-4b71-a589-c0e39728a51c">JobModification</a> callback, BITS can send your job modification callback another notification while you are still processing the current notification. If it is not important to your application to respond to every <a href="https://msdn.microsoft.com/7614756d-92d1-4b71-a589-c0e39728a51c">JobModification</a> callback, you could ignore reentrant callbacks as shown in the following example. 
+If your application uses the <a href="https://msdn.microsoft.com/library/ms680112(v=VS.85).aspx">single-threaded apartment</a> model, your callback methods can become reentrant if you call COM objects from inside your callback method. For example, if you call <a href="https://msdn.microsoft.com/en-us/library/Aa363034(v=VS.85).aspx">IBackgroundCopyJob::GetProgress</a> from inside your <a href="https://msdn.microsoft.com/en-us/library/Aa362873(v=VS.85).aspx">JobModification</a> callback, BITS can send your job modification callback another notification while you are still processing the current notification. If it is not important to your application to respond to every <a href="https://msdn.microsoft.com/en-us/library/Aa362873(v=VS.85).aspx">JobModification</a> callback, you could ignore reentrant callbacks as shown in the following example. 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -159,7 +159,7 @@ return hr;
 
 The following example shows an 
 <b>IBackgroundCopyCallback</b> implementation. For an example that calls this implementation, see the 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a> method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -346,15 +346,15 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
 
 
 
-<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

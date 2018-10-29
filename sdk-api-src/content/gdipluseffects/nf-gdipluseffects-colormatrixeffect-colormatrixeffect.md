@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e96">ColorMatrixEffect</a> object. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).aspx">ColorMatrixEffect</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e
 
 
 
-<a href="https://msdn.microsoft.com/2b37702b-c87f-4f41-8240-a23393019ea3">ColorMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534063(v=VS.85).aspx">ColorMatrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e96">ColorMatrixEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).aspx">ColorMatrixEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/de649f16-eaf4-4af6-88d3-227aa01825e5">ColorMatrixEffect::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536233(v=VS.85).aspx">ColorMatrixEffect::SetParameters</a>
  
 
  
