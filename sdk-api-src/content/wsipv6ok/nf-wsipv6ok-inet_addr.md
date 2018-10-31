@@ -4,10 +4,10 @@ title: inet_addr macro
 author: windows-sdk-content
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,13 +128,17 @@ When only one part is given, the value is stored directly in the network address
 
 The following code example shows how to use the <b>inet_addr</b> function.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define WIN32_LEAN_AND_MEAN
 
-```cpp
-#define WIN32_LEAN_AND_MEAN
-
-#include <winsock2.h>
-#include <stdio.h>
-#include <windows.h>
+#include &lt;winsock2.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 
 
 // need link with Ws2_32.lib
@@ -152,7 +156,7 @@ int __cdecl main(int argc, char **argv)
 
     // Validate the parameters
     if (argc != 2) {
-        printf("usage: %s <IPv4 address>\n", argv[0]);
+        printf("usage: %s &lt;IPv4 address&gt;\n", argv[0]);
         printf("  inetaddr converts a string containing an\n");
         printf("  IPv4 address in one of the supported formats\n");
         printf("  to a unsigned long representing an IN_ADDR\n");
@@ -160,7 +164,7 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -186,15 +190,15 @@ int __cdecl main(int argc, char **argv)
     
     // Here we could implement code to retrieve each address and 
     // print out the hex bytes
-    // for(i=0, ptr= (Char*) &ulAddr; i < 4; i++, ptr++) {
+    // for(i=0, ptr= (Char*) &amp;ulAddr; i &lt; 4; i++, ptr++) {
 
     WSACleanup();
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

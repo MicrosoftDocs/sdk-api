@@ -4,10 +4,10 @@ title: CMSPCallBase::RemoveStream
 author: windows-sdk-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallbase_removestream.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 5e2b4261-ba0f-429a-aef5-974b2841bf0b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],RemoveStream method, CMSPCallBase.RemoveStream, CMSPCallBase::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_removestream, mspcall/CMSPCallBase::RemoveStream, tapi3.cmspcallbase_removestream
 ms.prod: windows-hardware
 ms.technology: windows-devices

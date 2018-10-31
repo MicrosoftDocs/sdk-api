@@ -83,12 +83,16 @@ The <b>ClearStylusQueues</b> method can be used to quickly clear the <a href="ht
 
 The following C++ example code snippet shows a button click event handler that calls <b>IRealTimeStylus::ClearStylusQueues Method</b>. It also redraws the window where a <a href="https://msdn.microsoft.com/938e1eb2-3dd4-4e21-9c46-9ef840172b05">DynamicRenderer</a> object has been drawing ink.
 
-
-```cpp
-void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
 {
 	// Clear the stylus queues
-	if (!SUCCEEDED(g_pRealTimeStylus->ClearStylusQueues()))
+	if (!SUCCEEDED(g_pRealTimeStylus-&gt;ClearStylusQueues()))
 	{
 		TRACE("Error clearing stylus queues.");
 	}
@@ -97,12 +101,12 @@ void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
 	m_staticGestureStatus.SetWindowTextW(L"");
 
 	// Redaw the window to clear the ink
-	this->RedrawWindow();
+	this-&gt;RedrawWindow();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

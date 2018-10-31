@@ -4,10 +4,10 @@ title: RpcAsyncGetCallStatus function
 author: windows-sdk-content
 description: The client calls the RpcAsyncGetCallStatus function to determine the current status of an asynchronous remote call.
 old-location: rpc\rpcasyncgetcallstatus.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: caa3add7-d07f-4d56-ad96-51dc67f66117
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_rpcasyncgetcallstatus, rpc.rpcasyncgetcallstatus, rpcasync/RpcAsyncGetCallStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

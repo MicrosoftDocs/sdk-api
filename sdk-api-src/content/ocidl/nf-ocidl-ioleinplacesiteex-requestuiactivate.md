@@ -7,7 +7,7 @@ old-location: com\ioleinplacesiteex_requestuiactivate.htm
 tech.root: com
 ms.assetid: 60baefc0-eaf6-4d73-975c-987a7720955b
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],RequestUIActivate method, IOleInPlaceSiteEx.RequestUIActivate, IOleInPlaceSiteEx::RequestUIActivate, RequestUIActivate, RequestUIActivate method [COM], RequestUIActivate method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_requestuiactivate, com.ioleinplacesiteex_requestuiactivate, ocidl/IOleInPlaceSiteEx::RequestUIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

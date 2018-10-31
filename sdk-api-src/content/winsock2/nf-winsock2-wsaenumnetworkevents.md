@@ -4,10 +4,10 @@ title: WSAEnumNetworkEvents function
 author: windows-sdk-content
 description: The WSAEnumNetworkEvents function discovers occurrences of network events for the indicated socket, clear internal network event records, and reset event objects (optional).
 old-location: winsock\wsaenumnetworkevents_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ The return value is zero if the operation was successful. Otherwise, the value S
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +102,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +124,7 @@ One of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +146,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -192,23 +192,23 @@ The following error codes can be returned along with the corresponding network e
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>Addresses in the specified family cannot be used with this socket.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></td>
 <td>The attempt to connect was forcefully rejected.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></td>
 <td>The network cannot be reached from this host at this time.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></td>
 <td>No buffer space is available. The socket cannot be connected.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></td>
 <td>An attempt to connect timed out without establishing a connection</td>
 </tr>
 </table>
@@ -225,15 +225,15 @@ The following error codes can be returned along with the corresponding network e
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></td>
 <td>The connection was reset by the remote side.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAECONNABORTED</a></td>
 <td>The connection was terminated due to a time-out or other failure.</td>
 </tr>
 </table>
@@ -262,7 +262,7 @@ The following error codes can be returned along with the corresponding network e
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 </table>
@@ -279,11 +279,11 @@ The following error codes can be returned along with the corresponding network e
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></td>
 <td>The specified destination is no longer reachable.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 </table>
@@ -294,19 +294,23 @@ The following error codes can be returned along with the corresponding network e
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the WSAEnumNetworkEvents function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <windows.h>
+#include &lt;windows.h&gt;
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -329,7 +333,7 @@ int main()
     HANDLE NewEvent = NULL; 
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed with error: %d\n", iResult);
         return 1;
@@ -349,7 +353,7 @@ int main()
 
 //-------------------------
 // Bind the listening socket
-    iResult = bind(ListenSocket, (SOCKADDR *) & InetAddr, sizeof (InetAddr));
+    iResult = bind(ListenSocket, (SOCKADDR *) &amp; InetAddr, sizeof (InetAddr));
     if (iResult != 0) {
         wprintf(L"bind failed with error: %d\n", WSAGetLastError() );
         return 1;
@@ -394,20 +398,20 @@ int main()
 //-------------------------
 // Iterate through all events and enumerate
 // if the wait does not fail.
-    for (i = Index; i < EventTotal; i++) {
-        Index = WSAWaitForMultipleEvents(1, &EventArray[i], TRUE, 1000, FALSE);
-        if ((Index != WSA_WAIT_FAILED) && (Index != WSA_WAIT_TIMEOUT)) {
-            WSAEnumNetworkEvents(SocketArray[i], EventArray[i], &NetworkEvents);
+    for (i = Index; i &lt; EventTotal; i++) {
+        Index = WSAWaitForMultipleEvents(1, &amp;EventArray[i], TRUE, 1000, FALSE);
+        if ((Index != WSA_WAIT_FAILED) &amp;&amp; (Index != WSA_WAIT_TIMEOUT)) {
+            WSAEnumNetworkEvents(SocketArray[i], EventArray[i], &amp;NetworkEvents);
         }
     }
 
 //...
     return 0;
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

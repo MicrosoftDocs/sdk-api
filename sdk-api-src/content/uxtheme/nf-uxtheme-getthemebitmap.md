@@ -4,10 +4,10 @@ title: GetThemeBitmap function
 author: windows-sdk-content
 description: Retrieves the bitmap associated with a particular theme, part, state, and property.
 old-location: controls\GetThemeBitmap.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebitmap.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GBF_COPY, GBF_DIRECT, GBF_VALIDBITS, GetThemeBitmap, GetThemeBitmap function [Windows Controls], TMT_DIBDATA, TMT_GLYPHDIBDATA, TMT_HBITMAP, controls.GetThemeBitmap, controls.inet_GetThemeBitmap, inet_GetThemeBitmap, inet_GetThemeBitmap_cpp, uxtheme/GetThemeBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ A handle to theme data.
 
 Type: <b>int</b>
 
-The part that contains the bitmap. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+The part that contains the bitmap. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]

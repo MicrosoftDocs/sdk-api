@@ -7,7 +7,7 @@ old-location: mscs\resutilgetcoreclusterresourcesex.htm
 tech.root: mscs
 ms.assetid: F6C576C1-5D34-41EB-95A4-BC8F78F02414
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX function [Failover Cluster], ResUtilGetCoreClusterResourcesEx, ResUtilGetCoreClusterResourcesEx function [Failover Cluster], mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, resapi/ResUtilGetCoreClusterResourcesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The cluster handle (see <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8
 
 A pointer to a resource handle to the core 
       <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource for the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>, which stores the cluster name.
+      <a href="c_gly.htm">cluster</a>, which stores the cluster name.
 
 
 ### -param phClusterQuorumResourceOut [out]

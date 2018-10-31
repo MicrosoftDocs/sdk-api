@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexshader9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 09169d01-44dc-55c7-a6bd-28349bbc3b06, IDirect3DVertexShader9, IDirect3DVertexShader9 interface [Direct3D 9], IDirect3DVertexShader9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexShader9, direct3d9.idirect3dvertexshader9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3DVertexShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205923(v=VS.85).aspx">GetDevice</a>
+<a href="https://msdn.microsoft.com/7058fb2f-4c82-4314-b216-b15880a36d63">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.
@@ -80,7 +80,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205924(v=VS.85).aspx">GetFunction</a>
+<a href="https://msdn.microsoft.com/f549d70c-9a2f-4663-83e1-8d4e926f04c2">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.
@@ -98,12 +98,16 @@ The LPDIRECT3DVERTEXSHADER9 and PDIRECT3DVERTEXSHADER9 types are defined as poin
     
             
 
-
-```
-typedef struct IDirect3DVertexShader9 *LPDIRECT3DVERTEXSHADER9, *PDIRECT3DVERTEXSHADER9;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct IDirect3DVertexShader9 *LPDIRECT3DVERTEXSHADER9, *PDIRECT3DVERTEXSHADER9;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

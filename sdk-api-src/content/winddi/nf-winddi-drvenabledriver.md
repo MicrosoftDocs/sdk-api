@@ -7,7 +7,7 @@ old-location: display\drvenabledriver.htm
 tech.root: display
 ms.assetid: b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifncs_ceb25289-afd3-447e-85e7-d89fa95aebd4.xml, display.drvenabledriver, winddi/DrvEnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices

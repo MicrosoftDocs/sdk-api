@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_get_countrycode.htm
 tech.root: DirectShow
 ms.assetid: 8b459ad8-c9e0-4b35-aec4-113c8a67d907
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAMTuner interface [DirectShow],get_CountryCode method, IAMTuner.get_CountryCode, IAMTuner::get_CountryCode, IAMTunerget_CountryCode, dshow.iamtuner_get_countrycode, get_CountryCode, get_CountryCode method [DirectShow], get_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

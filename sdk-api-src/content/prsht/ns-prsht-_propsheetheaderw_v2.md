@@ -4,10 +4,10 @@ title: "_PROPSHEETHEADERW_V2"
 author: windows-sdk-content
 description: Defines the frame and pages of a property sheet.
 old-location: controls\PROPSHEETHEADER.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPPROPSHEETHEADERW_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER structure pointer [Windows Controls], PROPSHEETHEADER, PROPSHEETHEADER structure [Windows Controls], PROPSHEETHEADERA, PROPSHEETHEADERW, PROPSHEETHEADERW_V2, PSH_AEROWIZARD, PSH_DEFAULT, PSH_HASHELP, PSH_HEADER, PSH_HEADERBITMAP, PSH_MODELESS, PSH_NOAPPLYNOW, PSH_NOCONTEXTHELP, PSH_NOMARGIN, PSH_PROPSHEETPAGE, PSH_PROPTITLE, PSH_RESIZABLE, PSH_RTLREADING, PSH_STRETCHWATERMARK, PSH_USECALLBACK, PSH_USEHBMHEADER, PSH_USEHBMWATERMARK, PSH_USEHICON, PSH_USEHPLWATERMARK, PSH_USEICONID, PSH_USEPAGELANG, PSH_USEPSTARTPAGE, PSH_WATERMARK, PSH_WIZARD, PSH_WIZARD97, PSH_WIZARDCONTEXTHELP, PSH_WIZARDHASFINISH, PSH_WIZARD_LITE, _PROPSHEETHEADERW_V2, _win32_PROPSHEETHEADER, _win32_PROPSHEETHEADER_cpp, controls.PROPSHEETHEADER, controls._win32_PROPSHEETHEADER, prsht/LPPROPSHEETHEADER, prsht/PROPSHEETHEADER, prsht/PROPSHEETHEADERA, prsht/PROPSHEETHEADERW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,7 +151,7 @@ Uses the default meaning for all structure members, and creates a normal propert
 </dl>
 </td>
 <td width="60%">
-Permits property sheet pages to display a <b>Help</b> button. You must also set the PSP_HASHELP flag in the page's <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure when the page is created. If any of the initial property sheet pages enable a <b>Help</b> button, PSH_HASHELP will be set automatically. If none of the initial pages enable a <b>Help</b> button, you must explicitly set PSH_HASHELP if you want to have <b>Help</b> buttons on any pages that might be added later. This flag is not supported in conjunction with PSH_AEROWIZARD.
+Permits property sheet pages to display a <b>Help</b> button. You must also set the PSP_HASHELP flag in the page's <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure when the page is created. If any of the initial property sheet pages enable a <b>Help</b> button, PSH_HASHELP will be set automatically. If none of the initial pages enable a <b>Help</b> button, you must explicitly set PSH_HASHELP if you want to have <b>Help</b> buttons on any pages that might be added later. This flag is not supported in conjunction with PSH_AEROWIZARD.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ Permits property sheet pages to display a <b>Help</b> button. You must also set 
 </dl>
 </td>
 <td width="60%">
-Causes the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function to create the property sheet as a modeless dialog box instead of as a modal dialog box. When this flag is set, <b>PropertySheet</b> returns immediately after the dialog box is created, and the return value from <b>PropertySheet</b> is the window handle to the property sheet dialog box. This flag is not supported in conjunction with PSH_AEROWIZARD.
+Causes the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function to create the property sheet as a modeless dialog box instead of as a modal dialog box. When this flag is set, <b>PropertySheet</b> returns immediately after the dialog box is created, and the return value from <b>PropertySheet</b> is the window handle to the property sheet dialog box. This flag is not supported in conjunction with PSH_AEROWIZARD.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Removes the <b>Apply</b> button. This flag is not supported in conjunction with 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> and later. Removes the context-sensitive <b>Help</b> button ("?"), which is usually present on the caption bar of property sheets. This flag is not valid for wizards. See <a href="https://msdn.microsoft.com/en-us/library/Bb774538(v=VS.85).aspx">About Property Sheets</a> for a discussion of how to remove the caption bar <b>Help</b> button for earlier versions of the common controls. This flag is not supported in conjunction with PSH_AEROWIZARD.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> and later. Removes the context-sensitive <b>Help</b> button ("?"), which is usually present on the caption bar of property sheets. This flag is not valid for wizards. See <a href="https://msdn.microsoft.com/93676a64-7980-48cd-8615-23b14a118e1c">About Property Sheets</a> for a discussion of how to remove the caption bar <b>Help</b> button for earlier versions of the common controls. This flag is not supported in conjunction with PSH_AEROWIZARD.
 
 </td>
 </tr>
@@ -501,7 +501,7 @@ Name of the initial page that appears when the property sheet dialog box is crea
 
 Type: <b>PFNPROPSHEETCALLBACK</b>
 
-Pointer to an application-defined callback function that is called when the property sheet is initialized. For more information about the callback function, see the description of the <a href="https://msdn.microsoft.com/en-us/library/Bb760815(v=VS.85).aspx">PropSheetProc</a> function. If the 
+Pointer to an application-defined callback function that is called when the property sheet is initialized. For more information about the callback function, see the description of the <a href="https://msdn.microsoft.com/ed621b8a-abb4-4efa-b9e5-092ca5ac5d04">PropSheetProc</a> function. If the 
 <b>dwFlags</b> member does not include PSH_USECALLBACK, this member is ignored.
 
 
@@ -509,14 +509,14 @@ Pointer to an application-defined callback function that is called when the prop
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-Pointer to an array of handles to the property sheet pages. Each handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function. If the <b>dwFlags</b> member includes PSH_PROPSHEETPAGE, <b>phpage</b> is ignored and should be set to <b>NULL</b>. When the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function returns, any HPROPSHEETPAGE handles in the <b>phpage</b> array will have been destroyed. This member is declared as a union with <b>ppsp</b>.
+Pointer to an array of handles to the property sheet pages. Each handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function. If the <b>dwFlags</b> member includes PSH_PROPSHEETPAGE, <b>phpage</b> is ignored and should be set to <b>NULL</b>. When the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function returns, any HPROPSHEETPAGE handles in the <b>phpage</b> array will have been destroyed. This member is declared as a union with <b>ppsp</b>.
 
 
 #### - ppsp
 
 Type: <b>LPCPROPSHEETPAGE</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures that define the pages in the property sheet. If the <b>dwFlags</b> member does not include PSH_PROPSHEETPAGE, this member is ignored. Note that the <b>PROPSHEETPAGE</b> structure is variable in size. Applications that parse the array pointed to by <b>ppsp</b> must take the size of each page into account. This member is declared as a union with <b>phpage</b>.
+Pointer to an array of <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structures that define the pages in the property sheet. If the <b>dwFlags</b> member does not include PSH_PROPSHEETPAGE, this member is ignored. Note that the <b>PROPSHEETPAGE</b> structure is variable in size. Applications that parse the array pointed to by <b>ppsp</b> must take the size of each page into account. This member is declared as a union with <b>phpage</b>.
 
 
 #### - pszCaption
@@ -550,7 +550,7 @@ or
 
 <code>#define _WIN32_IE 0x0500 // For version 5.80</code>
 
-However, you must initialize the structure with its size. If you use the size of the currently defined structure, the application may not run with the earlier versions of Comctl32.dll, which expect a smaller structure. This includes all systems with Windows 95 or Microsoft Windows NT 4.0 that do not have Internet Explorer 4.0 or later installed. You can run your application on pre-4.71 versions of Comctl32.dll by defining the appropriate <a href="https://msdn.microsoft.com/en-us/library/Bb775493(v=VS.85).aspx">version number</a>. However, this may cause problems if your application also needs to run on systems with more recent versions.
+However, you must initialize the structure with its size. If you use the size of the currently defined structure, the application may not run with the earlier versions of Comctl32.dll, which expect a smaller structure. This includes all systems with Windows 95 or Microsoft Windows NT 4.0 that do not have Internet Explorer 4.0 or later installed. You can run your application on pre-4.71 versions of Comctl32.dll by defining the appropriate <a href="https://msdn.microsoft.com/c0d3eff4-c5b5-4b59-b980-96e0e4d6a595">version number</a>. However, this may cause problems if your application also needs to run on systems with more recent versions.
 
 You can remain compatible with all Comctl32.dll versions by using the current header files and setting the size of the <b>PROPSHEETHEADER</b> structure appropriately. Before you initialize the structure, use the <a href="https://msdn.microsoft.com/d7ec0f7d-ba2f-4aa4-b867-a2615244a580">DllGetVersion</a> function to determine which Comctl32.dll version is installed on the system. If it is version 4.71 or greater, use
 

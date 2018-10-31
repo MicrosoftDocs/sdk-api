@@ -7,7 +7,7 @@ old-location: automat\sysreallocstringlen.htm
 tech.root: automat
 ms.assetid: d134cff1-7cc8-4284-a216-3819615e3017
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SysReAllocStringLen, SysReAllocStringLen function [Automation], _oa96_SysReAllocStringLen, automat.sysreallocstringlen, oleauto/SysReAllocStringLen
 ms.prod: windows-hardware
 ms.technology: windows-devices

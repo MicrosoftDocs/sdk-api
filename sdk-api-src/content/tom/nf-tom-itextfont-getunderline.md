@@ -4,10 +4,10 @@ title: ITextFont::GetUnderline
 author: windows-sdk-content
 description: Gets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_GetUnderline.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getunderline.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetUnderline, GetUnderline method [Windows Controls], GetUnderline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetUnderline method, ITextFont.GetUnderline, ITextFont::GetUnderline, _win32_ITextFont_GetUnderline, _win32_ITextFont_GetUnderline_cpp, controls.ITextFont_GetUnderline, controls._win32_ITextFont_GetUnderline, tom/ITextFont::GetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -252,7 +252,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -260,11 +260,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787832(v=VS.85).aspx">SetUnderline</a>
+<a href="https://msdn.microsoft.com/a58baee4-6264-49ed-bd2c-15ce22cdba94">SetUnderline</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

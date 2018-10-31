@@ -7,7 +7,7 @@ old-location: dshow\iamoviesetup_register.htm
 tech.root: DirectShow
 ms.assetid: c39edba2-df48-43e4-9a0d-d5c409a8a9d0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Register method, IAMovieSetup.Register, IAMovieSetup::Register, IAMovieSetupRegister, Register, Register method [DirectShow], Register method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_register, strmif/IAMovieSetup::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices

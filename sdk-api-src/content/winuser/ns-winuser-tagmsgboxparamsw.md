@@ -7,7 +7,7 @@ old-location: dlgbox\msgboxparams.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\msgboxparams.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPMSGBOXPARAMSW, *PMSGBOXPARAMSW, MSGBOXPARAMS, MSGBOXPARAMS structure [Dialog Boxes], MSGBOXPARAMSA, MSGBOXPARAMSW, PMSGBOXPARAMS, PMSGBOXPARAMS structure pointer [Dialog Boxes], _win32_MSGBOXPARAMS_str, _win32_msgboxparams_str_cpp, dlgbox.msgboxparams, tagMSGBOXPARAMSW, winui._win32_msgboxparams_str, winuser/MSGBOXPARAMS, winuser/MSGBOXPARAMSA, winuser/MSGBOXPARAMSW, winuser/PMSGBOXPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Contains information used to display a message box. The <a href="https://msdn.microsoft.com/en-us/library/ms645511(v=VS.85).aspx">MessageBoxIndirect</a> function uses this structure.
+Contains information used to display a message box. The <a href="https://msdn.microsoft.com/3834bf46-0952-4e5c-bda4-6997576192d9">MessageBoxIndirect</a> function uses this structure.
 
 
 ## -struct-fields
@@ -104,7 +104,7 @@ A null-terminated string, or the identifier of a string resource, that contains 
 Type: <b>DWORD</b>
 
 The contents and behavior of the dialog box. This member can be a combination of flags described for the 
-					<i>uType</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a> function. 
+					<i>uType</i> parameter of the <a href="https://msdn.microsoft.com/aca871a0-4767-4a7d-ab12-6eb7d03577ef">MessageBoxEx</a> function. 
 
 In addition, you can specify the <b>MB_USERICON</b> flag (0x00000080L) if you want the message box to display the icon specified by the 
 					<b>lpszIcon</b> member. 
@@ -114,11 +114,11 @@ In addition, you can specify the <b>MB_USERICON</b> flag (0x00000080L) if you wa
 
 Type: <b>LPCTSTR</b>
 
-Identifies an icon resource. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. 
+Identifies an icon resource. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. 
 
 To load one of the standard system-defined icons, set the 
 						<b>hInstance</b> member to <b>NULL</b> and set 
-						<b>lpszIcon</b> to one of the values listed with the <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function. 
+						<b>lpszIcon</b> to one of the values listed with the <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function. 
 
 This member is ignored if the 
 						<b>dwStyle</b> member does not specify the <b>MB_USERICON</b> flag. 
@@ -164,7 +164,7 @@ For a list of supported language identifiers, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
@@ -172,11 +172,11 @@ For a list of supported language identifiers, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
 
 
 
@@ -184,11 +184,11 @@ For a list of supported language identifiers, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>
+<a href="https://msdn.microsoft.com/aca871a0-4767-4a7d-ab12-6eb7d03577ef">MessageBoxEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645511(v=VS.85).aspx">MessageBoxIndirect</a>
+<a href="https://msdn.microsoft.com/3834bf46-0952-4e5c-bda4-6997576192d9">MessageBoxIndirect</a>
 
 
 

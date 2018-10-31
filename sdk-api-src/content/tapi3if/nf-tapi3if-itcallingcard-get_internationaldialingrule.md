@@ -4,10 +4,10 @@ title: ITCallingCard::get_InternationalDialingRule
 author: windows-sdk-content
 description: The get_InternationalDialingRule method gets the international dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_internationaldialingrule.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: b452edbd-2c37-4f40-873b-24b4b60836bb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_InternationalDialingRule method, ITCallingCard.get_InternationalDialingRule, ITCallingCard::get_InternationalDialingRule, _tapi3_itcallingcard_get_internationaldialingrule, get_InternationalDialingRule, get_InternationalDialingRule method [TAPI 2.2], get_InternationalDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_internationaldialingrule, tapi3if/ITCallingCard::get_InternationalDialingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppRule</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppRule</i> parameter.
 			
 
 

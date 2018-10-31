@@ -2,7 +2,7 @@
 UID: NA:sensapi
 ms.assetid: 554e8a9b-1a97-3bbf-93d0-109cf9b2cd09
 ms.author: windowssdkdev
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

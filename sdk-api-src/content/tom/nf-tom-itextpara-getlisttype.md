@@ -4,10 +4,10 @@ title: ITextPara::GetListType
 author: windows-sdk-content
 description: Retrieves the kind of numbering to use with paragraphs.
 old-location: controls\ITextPara_GetListType.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttype.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetListType, GetListType method [Windows Controls], GetListType method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListType method, ITextPara.GetListType, ITextPara::GetListType, _win32_ITextPara_GetListType, _win32_ITextPara_GetListType_cpp, controls.ITextPara_GetListType, controls._win32_ITextPara_GetListType, tom/ITextPara::GetListType, tomListBullet, tomListMinus, tomListNone, tomListNumberAsArabic, tomListNumberAsLCLetter, tomListNumberAsLCRoman, tomListNumberAsSequence, tomListNumberAsUCLetter, tomListNumberAsUCRoman, tomListNumberedArabic1, tomListNumberedArabic2, tomListNumberedArabicWide, tomListNumberedBlackCircleWingding, tomListNumberedChS, tomListNumberedChT, tomListNumberedCircle, tomListNumberedHebrew, tomListNumberedHindiAlpha, tomListNumberedHindiAlpha1, tomListNumberedHindiNum, tomListNumberedJpnChs, tomListNumberedJpnKor, tomListNumberedThaiAlpha, tomListNumberedThaiNum, tomListNumberedWhiteCircleWingding, tomListParentheses, tomListPeriod, tomListPlain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -313,19 +313,23 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 Values above 32 correspond to Unicode values for bullets. 
 
-The mobile Microsoft Office version of the rich edit control uses <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIgnoreNumberStyle</a> to suppress setting the style.
+The mobile Microsoft Office version of the rich edit control uses <a href="tomconstants.htm">tomIgnoreNumberStyle</a> to suppress setting the style.
 
 The following Microsoft Visual Basic for Applications (VBA) example numbers the paragraphs in a range, starting with the number 2 and following the numbers with a period.
             
 
-
-```
-    range.Para.ListStart = 2
-    range.Para.ListType = tomListNumberAsArabic + tomListPeriod
-```
-
-
-For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    range.Para.ListStart = 2
+    range.Para.ListType = tomListNumberAsArabic + tomListPeriod</pre>
+</td>
+</tr>
+</table></span></div>
+For an example of <a href="tomconstants.htm">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
 
 
 
@@ -339,11 +343,11 @@ For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773987(v=VS.85).aspx">GetListStart</a>
+<a href="https://msdn.microsoft.com/e797f494-bc34-4529-a773-22d1ebfe1250">GetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -351,15 +355,15 @@ For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774175(v=VS.85).aspx">SetListStart</a>
+<a href="https://msdn.microsoft.com/1ba2346a-b56a-4eda-a6f9-0563e71c9cbd">SetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787786(v=VS.85).aspx">SetListType</a>
+<a href="https://msdn.microsoft.com/5f9adb67-e4d6-41c9-b360-efbcead7befc">SetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\iglobaloptions.htm
 tech.root: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Sets and queries global properties of the Component Object Model (COM) runtime.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGlobalOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalOptions</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IGlobalOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

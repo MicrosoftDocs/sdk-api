@@ -4,10 +4,10 @@ title: ListBox_GetItemHeight macro
 author: windows-sdk-content
 description: Retrieves the height of items in a list box.
 old-location: controls\ListBox_GetItemHeight.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemheight.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ListBox_GetItemHeight, ListBox_GetItemHeight macro [Windows Controls], _win32_ListBox_GetItemHeight, _win32_ListBox_GetItemHeight_cpp, controls.ListBox_GetItemHeight, controls._win32_ListBox_GetItemHeight, windowsx/ListBox_GetItemHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the height of items in a list box. If the list box has the <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style, this macro gets the height of the specified item; otherwise, it gets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775204(v=VS.85).aspx">LB_GETITEMHEIGHT</a> message explicitly.
+Retrieves the height of items in a list box. If the list box has the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, this macro gets the height of the specified item; otherwise, it gets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/ee96fce6-babd-4581-ac0e-2eb955fe543b">LB_GETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -69,14 +69,14 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The zero-based index of the item. If the list box does not have the <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
+The zero-based index of the item. If the list box does not have the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
 
 
 ## -remarks
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775204(v=VS.85).aspx">LB_GETITEMHEIGHT</a>.
+For more information, see <a href="https://msdn.microsoft.com/ee96fce6-babd-4581-ac0e-2eb955fe543b">LB_GETITEMHEIGHT</a>.
 	
 
 

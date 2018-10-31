@@ -7,7 +7,7 @@ old-location: mf\d3d11_tex2d_vpov.htm
 tech.root: medfound
 ms.assetid: DFABFB34-2622-4AB7-A87E-7E15F4D20E69
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3D11_TEX2D_VPOV, D3D11_TEX2D_VPOV structure [Media Foundation], d3d11/D3D11_TEX2D_VPOV, mf.d3d11_tex2d_vpov
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,11 @@ The zero-based index into the array of subtextures.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447791(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
+<a href="https://msdn.microsoft.com/EC7AFE44-877C-4FB0-9E61-FCD504A334D3">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
  
 
  

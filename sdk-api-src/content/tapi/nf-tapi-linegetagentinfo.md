@@ -4,10 +4,10 @@ title: lineGetAgentInfo function
 author: windows-sdk-content
 description: The lineGetAgentInfo function returns a structure holding the ACD information associated with a particular agent handle.
 old-location: tapi2\linegetagentinfo.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 166b0595-2df0-431f-924c-6899b47408ac
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_linegetagentinfo, lineGetAgentInfo, lineGetAgentInfo function [TAPI 2.2], tapi/lineGetAgentInfo, tapi2.linegetagentinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

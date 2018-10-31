@@ -4,10 +4,10 @@ title: ITDigitDetectionEvent::get_Digit
 author: windows-sdk-content
 description: The get_Digit method retrieves an unsigned char pointer to the digit that was detected.
 old-location: tapi3\itdigitdetectionevent_get_digit.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: b62418de-9a3e-46f1-88d9-7e147859ec96
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_Digit method, ITDigitDetectionEvent.get_Digit, ITDigitDetectionEvent::get_Digit, _tapi3_itdigitdetectionevent_get_digit, get_Digit, get_Digit method [TAPI 2.2], get_Digit method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_digit, tapi3if/ITDigitDetectionEvent::get_Digit
 ms.prod: windows-hardware
 ms.technology: windows-devices

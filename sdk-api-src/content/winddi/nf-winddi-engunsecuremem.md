@@ -7,7 +7,7 @@ old-location: display\engunsecuremem.htm
 tech.root: display
 ms.assetid: ceb011cf-7c4c-4f28-a805-9554c0597063
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EngUnsecureMem, EngUnsecureMem function [Display Devices], display.engunsecuremem, gdifncs_3e27ea5f-a5a9-40c8-8540-79499664f97d.xml, winddi/EngUnsecureMem
 ms.prod: windows-hardware
 ms.technology: windows-devices

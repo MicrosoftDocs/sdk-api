@@ -4,10 +4,10 @@ title: ITTAPI::EnumeratePrivateTAPIObjects
 author: windows-sdk-content
 description: The EnumeratePrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
 old-location: tapi3\ittapi_enumerateprivatetapiobjects.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 071166d9-99ff-4245-b4c8-0b89b8bae19c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumeratePrivateTAPIObjects, EnumeratePrivateTAPIObjects method [TAPI 2.2], EnumeratePrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumeratePrivateTAPIObjects method, ITTAPI.EnumeratePrivateTAPIObjects, ITTAPI::EnumeratePrivateTAPIObjects, _tapi3_ittapi_enumerateprivatetapiobjects, tapi3.ittapi_enumerateprivatetapiobjects, tapi3if/ITTAPI::EnumeratePrivateTAPIObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CStdAsyncStubBuffer_Connect function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdasyncstubbuffer_connect.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: A181B325-7947-4E44-AA00-DE14DB569DB0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CStdAsyncStubBuffer_Connect, CStdAsyncStubBuffer_Connect function [RPC], rpc.cstdasyncstubbuffer_connect, rpcproxy/CStdAsyncStubBuffer_Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 
 <p class="CCE_Message">[CStdAsyncStubBuffer_Connect is not supported and may be altered or unavailable in the future.]
 
-Implements the  <a href="https://msdn.microsoft.com/en-us/library/ms678495(v=VS.85).aspx">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
+Implements the  <a href="_com_irpcstubbuffer_connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
 
 
 ## -parameters
@@ -64,12 +64,12 @@ Implements the  <a href="https://msdn.microsoft.com/en-us/library/ms678495(v=VS.
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
+Pointer to the <a href="_com_iunknown">IUnknown</a> interface of the server object. 
 
 
 ## -returns

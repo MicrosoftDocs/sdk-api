@@ -7,7 +7,7 @@ old-location: multimedia\avistreamdatasize.htm
 tech.root: Multimedia
 ms.assetid: e91258ee-b90a-43b9-9d5e-0adee215714c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: AVIStreamDataSize, AVIStreamDataSize macro [Windows Multimedia], _win32_AVIStreamDataSize, multimedia.avistreamdatasize, vfw/AVIStreamDataSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,16 +82,20 @@ Address to contain the buffer size for the optional header data.
 
 The <b>AVIStreamDataSize</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamDataSize(pavi, fcc, plSize) \ 
     AVIStreamReadData(pavi, fcc, NULL, plSize) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

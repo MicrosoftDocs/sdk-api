@@ -4,10 +4,10 @@ title: ITDirectory::get_DisplayName
 author: windows-sdk-content
 description: The get_DisplayName method gets displayable name for directory.
 old-location: tapi3\itdirectory_get_displayname.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DisplayName method, ITDirectory.get_DisplayName, ITDirectory::get_DisplayName, _tapi3_itdirectory_get_displayname, get_DisplayName, get_DisplayName method [TAPI 2.2], get_DisplayName method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DisplayName, tapi3.itdirectory_get_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ This method is not yet implemented.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>pName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>pName</i> parameter.
 			
 
 

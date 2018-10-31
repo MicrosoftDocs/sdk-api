@@ -7,7 +7,7 @@ old-location: shell\SHGNO.htm
 tech.root: shell
 ms.assetid: 5d87609d-bcbf-4a4f-a97e-017ee8a9879e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SHGDNF, SHGDNF enumeration [Windows Shell], SHGDN_FORADDRESSBAR, SHGDN_FOREDITING, SHGDN_FORPARSING, SHGDN_INFOLDER, SHGDN_NORMAL, _SHGDNF, _win32_SHGNO, shell.SHGNO, shobjidl_core/SHGDNF, shobjidl_core/SHGDN_FORADDRESSBAR, shobjidl_core/SHGDN_FOREDITING, shobjidl_core/SHGDN_FORPARSING, shobjidl_core/SHGDN_INFOLDER, shobjidl_core/SHGDN_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,12 +95,16 @@ The <b>SHGDNF</b> type is defined in Shobjidl.h as shown here.
 
                 
 
-
-```
-typedef DWORD SHGDNF;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD SHGDNF;</pre>
+</td>
+</tr>
+</table></span></div>
 This enumeration consists of two groups of values. The first group—SHGDN_NORMAL and SHGDN_INFOLDER—specifies the name's type. The second group—SHGDN_FOREDITING, SHGDN_FORADDRESSBAR, and SHGDN_FORPARSING—consists of modifiers to the first group that specify name retrieval options.
 
 If SHGDN_FORPARSING is set and SHGDN_INFOLDER is not set, <a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a> can accept a PIDL that contains more than an <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure. Otherwise, only a single-level PIDL can be passed.

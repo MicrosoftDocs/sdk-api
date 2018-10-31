@@ -4,10 +4,10 @@ title: ID2D1SvgElement::HasChildren
 author: windows-sdk-content
 description: Returns a boolean indicating whether this element has children.
 old-location: direct2d\id2d1svgelement_haschildren.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 8E7942E1-AD67-44B5-9C8D-89DD7551BA18
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: HasChildren, HasChildren method [Direct2D], HasChildren method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],HasChildren method, ID2D1SvgElement.HasChildren, ID2D1SvgElement::HasChildren, d2d1svg/ID2D1SvgElement::HasChildren, direct2d.id2d1svgelement_haschildren
 ms.prod: windows-hardware
 ms.technology: windows-devices

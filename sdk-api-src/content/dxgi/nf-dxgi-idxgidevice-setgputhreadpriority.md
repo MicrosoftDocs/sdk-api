@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice_setgputhreadpriority.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_setgputhreadpriority.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDXGIDevice interface [DXGI],SetGPUThreadPriority method, IDXGIDevice.SetGPUThreadPriority, IDXGIDevice::SetGPUThreadPriority, SetGPUThreadPriority, SetGPUThreadPriority method [DXGI], SetGPUThreadPriority method [DXGI],IDXGIDevice interface, b610ce23-f003-9031-4c67-b5013c5af229, direct3ddxgi.idxgidevice_setgputhreadpriority, dxgi/IDXGIDevice::SetGPUThreadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A value that specifies the required GPU thread priority. This value must be betw
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Return S_OK if successful; otherwise, returns E_INVALIDARG if the <i>Priority</i> parameter is invalid.
 
@@ -102,11 +102,11 @@ To use the <b>SetGPUThreadPriority</b> method, you should have a comprehensive u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>
+<a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174532(v=VS.85).aspx">IDXGIDevice::GetGPUThreadPriority</a>
+<a href="https://msdn.microsoft.com/b9e00d10-df95-4c89-89b3-e9c534bff933">IDXGIDevice::GetGPUThreadPriority</a>
  
 
  

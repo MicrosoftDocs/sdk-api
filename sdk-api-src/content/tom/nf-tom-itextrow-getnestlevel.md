@@ -4,10 +4,10 @@ title: ITextRow::GetNestLevel
 author: windows-sdk-content
 description: Gets the nest level of a table.
 old-location: controls\itextrow_getnestlevel.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetNestLevel, GetNestLevel method [Windows Controls], GetNestLevel method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetNestLevel method, ITextRow.GetNestLevel, ITextRow::GetNestLevel, controls.itextrow_getnestlevel, tom/ITextRow::GetNestLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

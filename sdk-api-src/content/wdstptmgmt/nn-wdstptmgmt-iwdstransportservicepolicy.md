@@ -4,10 +4,10 @@ title: IWdsTransportServicePolicy
 author: windows-sdk-content
 description: Represents the service policy part of the WDS transport server's configuration.
 old-location: wds\iwdstransportservicepolicy.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 0a522633-87da-426c-9778-30949257e931
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], IWdsTransportServicePolicy interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy, wdstptmgmt/IWdsTransportServicePolicy
 ms.prod: windows
 ms.technology: windows-sdk

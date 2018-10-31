@@ -7,7 +7,7 @@ old-location: dshow\imediastream_allocatesample.htm
 tech.root: DirectShow
 ms.assetid: a035797d-ebf2-40c2-b1a3-b903a691b7d2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

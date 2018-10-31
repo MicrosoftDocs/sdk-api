@@ -4,10 +4,10 @@ title: DSCreateSecurityPage function
 author: windows-sdk-content
 description: Creates a security property page for an Active Directory object.
 old-location: security\dscreatesecuritypage.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 1ebb531f-84a0-4ace-88d1-89e65e18c34a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DSCreateSecurityPage, DSCreateSecurityPage function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateSecurityPage, security.dscreatesecuritypage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,9 +195,13 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 The function pointed to by <i>pfnReadSD</i> is defined as follows.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 typedef HRESULT (WINAPI *PFNREADOBJECTSECURITY)(
     LPCWSTR,               // Active Directory path of object
@@ -205,17 +209,21 @@ typedef HRESULT (WINAPI *PFNREADOBJECTSECURITY)(
     PSECURITY_DESCRIPTOR*, // the returned security descriptor 
     LPARAM                 // context parameter
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>DSCreateSecurityPage</b> function will free the security descriptor returned in the third parameter above by a  call to the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
 
 The function pointed to by <i>pfnWriteSD</i> is defined as follows.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 typedef HRESULT (WINAPI *PFNWRITEOBJECTSECURITY)(
     LPCWSTR,              // Active Directory path of object
@@ -223,10 +231,10 @@ typedef HRESULT (WINAPI *PFNWRITEOBJECTSECURITY)(
     PSECURITY_DESCRIPTOR, // the security descriptor to write
     LPARAM                // context parameter
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\iviewhelper_setconfiguration.htm
 tech.root: display
 ms.assetid: 8ec09950-afb6-43ff-8e05-4c801e49ba4b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IViewHelper interface [Display Devices],SetConfiguration method, IViewHelper.SetConfiguration, IViewHelper::SetConfiguration, SetConfiguration, SetConfiguration method [Display Devices], SetConfiguration method [Display Devices],IViewHelper interface, TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml, cloneviewhelper/IViewHelper::SetConfiguration, display.iviewhelper_setconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,31 +152,31 @@ The following data structures are used to format the display modes and topology 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538207(v=VS.85).aspx">Adapter</a>
+<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538208(v=VS.85).aspx">Adapters</a>
+<a href="https://msdn.microsoft.com/4f91e683-66f6-4667-86d0-d3de28ba64b0">Adapters</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554037(v=VS.85).aspx">DisplayMode</a>
+<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554039(v=VS.85).aspx">DisplayModes</a>
+<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
 
 
 </li>
@@ -191,19 +191,19 @@ These structures are defined in the <i>Cloneviewhelper.h</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538207(v=VS.85).aspx">Adapter</a>
+<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538208(v=VS.85).aspx">Adapters</a>
+<a href="https://msdn.microsoft.com/4f91e683-66f6-4667-86d0-d3de28ba64b0">Adapters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554037(v=VS.85).aspx">DisplayMode</a>
+<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554039(v=VS.85).aspx">DisplayModes</a>
+<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
 
 
 
@@ -211,7 +211,7 @@ These structures are defined in the <i>Cloneviewhelper.h</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
  
 
  

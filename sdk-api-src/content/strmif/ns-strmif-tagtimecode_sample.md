@@ -7,7 +7,7 @@ old-location: dshow\timecode_sample.htm
 tech.root: DirectShow
 ms.assetid: 7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PTIMECODE_SAMPLE, AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUENCE, AM_TIMECODE_FILMSEQUENCE_TYPE, AM_TIMECODE_FLAG_CF, AM_TIMECODE_FLAG_DF, AM_TIMECODE_FLAG_FCM, AM_TIMECODE_FLAG_FIELD, ED_DEVCAP_ATN_READ, ED_DEVCAP_RTC_READ, ED_DEVCAP_TIMECODE_READ, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [DirectShow], TIMECODE_SAMPLEStructure, dshow.timecode_sample, strmif/TIMECODE_SAMPLE, tagTIMECODE_SAMPLE"
 ms.prod: windows
 ms.technology: windows-sdk

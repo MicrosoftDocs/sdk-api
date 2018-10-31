@@ -7,7 +7,7 @@ old-location: intl\script_properties.htm
 tech.root: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FALSE, SCRIPT_PROPERTIES, SCRIPT_PROPERTIES structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_PROPERTIES_str, intl.script_properties, usp10/SCRIPT_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -515,32 +515,40 @@ Many Uniscribe scripts do not correspond directly to 8-bit character sets. When 
 
 The application uses the following code during initialization to get a pointer to the <b>SCRIPT_PROPERTIES</b>  array.
 
-
-```cpp
-const SCRIPT_PROPERTIES **ppScriptProperties; // Array of pointers  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>const SCRIPT_PROPERTIES **ppScriptProperties; // Array of pointers  
                                               // to properties 
 int iMaxScript;
 HRESULT hr;
 
-hr = ScriptGetProperties(&ppScriptProperties, &iMaxScript);
-
-```
-
-
+hr = ScriptGetProperties(&amp;ppScriptProperties, &amp;iMaxScript);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Then the application can inspect the properties of the script of an item as shown in the next example.
 
-
-```cpp
-hr = ScriptItemize(pwcInChars, cInChars, cMaxItems, psControl, psState, pItems, pcItems);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = ScriptItemize(pwcInChars, cInChars, cMaxItems, psControl, psState, pItems, pcItems);
 //...
-if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo) 
+if (ppScriptProperties[pItems[iItem].a.eScript]-&gt;fNeedsCaretInfo) 
     {
         // Use ScriptBreak to restrict the caret from entering clusters (for example). 
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: RasCustomDialDlgFn
 author: windows-sdk-content
 description: The RasCustomDialDlg function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom RAS connection dialog boxes.
 old-location: rras\rascustomdialdlg.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: d1f4715a-a31c-4346-ac0a-83f2c58e8cc1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RCD_Logon, RasCustomDialDlg, RasCustomDialDlg callback function [RAS], RasCustomDialDlgA, RasCustomDialDlgFn, RasCustomDialDlgFn callback, RasCustomDialDlgW, _ras_rascustomdialdlg, rasdlg/RasCustomDialDlg, rasdlg/RasCustomDialDlgA, rasdlg/RasCustomDialDlgW, rras.rascustomdialdlg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,8 +149,8 @@ If this entry point calls
 <a href="https://msdn.microsoft.com/533c9ab4-69d0-492d-81c6-2c07ca219fc7">RASDIALEXTENSIONS</a> structure must have the <b>RDEOPT_CustomDial</b> flag set.
 
 The custom-dial dialog must support 
-<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="_win32_wm_command">WM_COMMAND</a> messages where 
+<a href="_win32_loword">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 If the custom-dial DLL does not support this entry point, RAS returns <b>ERROR_CANNOT_DO_CUSTOMDIAL</b> to the caller of 
 <a href="https://msdn.microsoft.com/698a18a1-b302-4b0d-8399-0bbdbe775f08">RasDialDlg</a>.

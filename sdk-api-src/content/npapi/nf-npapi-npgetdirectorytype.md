@@ -7,7 +7,7 @@ old-location: security\npgetdirectorytype.htm
 tech.root: secauthn
 ms.assetid: 70ee5c14-1395-470a-970c-91a3d3ac0fd1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: NPGetDirectoryType, NPGetDirectoryType function [Security], _mnp_npgetdirectorytype, npapi/NPGetDirectoryType, security.npgetdirectorytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

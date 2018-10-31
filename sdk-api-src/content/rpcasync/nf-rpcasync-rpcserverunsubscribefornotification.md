@@ -4,10 +4,10 @@ title: RpcServerUnsubscribeForNotification function
 author: windows-sdk-content
 description: Unsubscribes the server from RPC notifications.
 old-location: rpc\rpcserverunsubscribefornotification.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 7ca59f00-41ac-4771-a465-6185e17abe80
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcServerUnsubscribeForNotification, RpcServerUnsubscribeForNotification function [RPC], rpc.rpcserverunsubscribefornotification, rpcasync/RpcServerUnsubscribeForNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

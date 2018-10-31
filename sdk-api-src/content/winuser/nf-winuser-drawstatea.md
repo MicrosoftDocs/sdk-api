@@ -7,7 +7,7 @@ old-location: gdi\drawstate.htm
 tech.root: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
 ms.prod: windows-hardware
 ms.technology: windows-devices

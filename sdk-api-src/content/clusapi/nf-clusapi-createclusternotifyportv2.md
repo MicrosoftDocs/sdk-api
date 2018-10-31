@@ -7,7 +7,7 @@ old-location: mscs\createclusternotifyportv2.htm
 tech.root: mscs
 ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: CreateClusterNotifyPortV2, CreateClusterNotifyPortV2 function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 function [Failover Cluster], clusapi/CreateClusterNotifyPortV2, clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 
 Creates 
     or modifies a notification port. For information about  notification ports, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371823(v=VS.85).aspx">Receiving Cluster Events</a>.
+    <a href="https://msdn.microsoft.com/6d69cdd8-b29a-40c5-94c6-908b9bea22ef">Receiving Cluster Events</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to a notification port or <b>INVALID_HANDLE_VALUE</b>, indicating that 
 
 ### -param hCluster [in]
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be associated with the 
+A handle to the <a href="c_gly.htm">cluster</a> to be associated with the 
        notification port that is  identified by the  <i>hChange</i>    parameter or 
        <b>INVALID_HANDLE_VALUE</b>, indicating that the notification port should not be associated 
        with a cluster. If the  <i>hChange</i>  parameter  is not set to 
@@ -81,7 +81,7 @@ A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.
 
 ### -param Filters [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.85).aspx">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
+A pointer to the <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
 
 
 ### -param dwFilterCount [in]

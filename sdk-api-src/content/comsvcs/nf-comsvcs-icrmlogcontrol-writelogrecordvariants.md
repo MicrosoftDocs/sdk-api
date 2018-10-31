@@ -140,7 +140,7 @@ The transaction has aborted, most likely because of a transaction time-out.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679573(v=VS.85).aspx">ICrmLogControl</a>
+<a href="https://msdn.microsoft.com/3309ed58-8161-46f3-93bc-afc0c9bc8d50">ICrmLogControl</a>
  
 
  

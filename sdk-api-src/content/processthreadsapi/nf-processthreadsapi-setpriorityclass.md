@@ -4,10 +4,10 @@ title: SetPriorityClass function
 author: windows-sdk-content
 description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.
 old-location: base\setpriorityclass.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 02686637-427a-4cf1-a4e5-60c707af3084
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ABOVE_NORMAL_PRIORITY_CLASS, BELOW_NORMAL_PRIORITY_CLASS, HIGH_PRIORITY_CLASS, IDLE_PRIORITY_CLASS, NORMAL_PRIORITY_CLASS, PROCESS_MODE_BACKGROUND_BEGIN, PROCESS_MODE_BACKGROUND_END, REALTIME_PRIORITY_CLASS, SetPriorityClass, SetPriorityClass function, _win32_setpriorityclass, base.setpriorityclass, processthreadsapi/SetPriorityClass, winbase/SetPriorityClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -216,10 +216,14 @@ Each  thread can enter background processing mode independently using <a href="h
 
 The following example demonstrates the use of process background mode.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
 
 int main( void )
 {
@@ -255,10 +259,10 @@ Cleanup:
    ;
 return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

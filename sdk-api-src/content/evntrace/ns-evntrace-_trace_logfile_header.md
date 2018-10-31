@@ -4,10 +4,10 @@ title: "_TRACE_LOGFILE_HEADER"
 author: windows-sdk-content
 description: The TRACE_LOGFILE_HEADER structure contains information about an event tracing session and its events.
 old-location: etw\trace_logfile_header.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 13fdabe6-c904-4546-b876-c145f6a6c345
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER structure pointer [ETW], TRACE_LOGFILE_HEADER, TRACE_LOGFILE_HEADER structure [ETW], _TRACE_LOGFILE_HEADER, _evt_trace_logfile_header, base.trace_logfile_header, etw.trace_logfile_header, evntrace/PTRACE_LOGFILE_HEADER, evntrace/TRACE_LOGFILE_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

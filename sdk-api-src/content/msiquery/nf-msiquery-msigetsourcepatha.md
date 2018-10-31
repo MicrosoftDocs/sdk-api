@@ -7,7 +7,7 @@ old-location: setup\msigetsourcepath.htm
 tech.root: msi
 ms.assetid: 3cb8c3fa-6f0a-4829-befd-450e58c86962
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiGetSourcePath, MsiGetSourcePath function, MsiGetSourcePathA, MsiGetSourcePathW, _msi_msigetsourcepath, msiquery/MsiGetSourcePath, msiquery/MsiGetSourcePathA, msiquery/MsiGetSourcePathW, setup.msigetsourcepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Location Functions</a>
+<a href="database_functions.htm">Installer Location Functions</a>
 
 
 

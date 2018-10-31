@@ -4,10 +4,10 @@ title: ITraceRelogger::Inject
 author: windows-sdk-content
 description: Injects a non-system-generated event into the event stream being written to the output trace logfile.
 old-location: etw\itracerelogger_inject.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: c9d19ad9-182d-469e-b783-2061b7150933
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITraceRelogger interface [ETW],Inject method, ITraceRelogger.Inject, ITraceRelogger::Inject, Inject, Inject method [ETW], Inject method [ETW],ITraceRelogger interface, etw.itracerelogger_inject, relogger/ITraceRelogger::Inject
 ms.prod: windows-hardware
 ms.technology: windows-devices

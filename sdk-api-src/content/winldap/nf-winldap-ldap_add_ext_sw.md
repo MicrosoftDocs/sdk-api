@@ -4,10 +4,10 @@ title: ldap_add_ext_sW function
 author: windows-sdk-content
 description: The ldap_add_ext_s function initiates a synchronous add operation to a tree. For an add operation to succeed, the parent of the entry added must exist, or the parent must be empty (equal to the distinguished name of the root).
 old-location: ldap\ldap_add_ext_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: b124ad29-2f9a-48c4-b51e-2fc9143a630c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ldap_add_ext_s, ldap.ldap__add__ext__s, ldap.ldap_add_ext_s, ldap_add_ext_s, ldap_add_ext_s function [LDAP], ldap_add_ext_sA, ldap_add_ext_sW, winldap/ldap_add_ext_s, winldap/ldap_add_ext_sA, winldap/ldap_add_ext_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

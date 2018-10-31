@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_setlanguage.htm
 tech.root: medfound
 ms.assetid: da615053-ddd5-448e-905c-b060cdaefa95
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFMetadata interface [Media Foundation],SetLanguage method, IMFMetadata.SetLanguage, IMFMetadata::SetLanguage, SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation],IMFMetadata interface, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

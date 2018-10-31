@@ -7,7 +7,7 @@ old-location: com\icallframeevents.htm
 tech.root: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Delivers method call notifications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallFrameEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameEvents</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ICallFrameEvents</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICallFrameEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms692566(v=VS.85).aspx">OnCall</a>
+<a href="https://msdn.microsoft.com/bdccc4a7-e408-4186-8cc0-b14feacfbf04">OnCall</a>
 </td>
 <td align="left" width="63%">
 Informs the event sink if it receives a method call on the interceptor.

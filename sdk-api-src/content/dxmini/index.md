@@ -2,7 +2,7 @@
 UID: NA:dxmini
 ms.assetid: 8e4ca689-3335-3709-8aaf-e8fe7148a45b
 ms.author: windowssdkdev
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

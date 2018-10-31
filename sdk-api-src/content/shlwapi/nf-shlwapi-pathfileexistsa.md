@@ -7,7 +7,7 @@ old-location: shell\PathFileExists.htm
 tech.root: shell
 ms.assetid: 26d01e9f-cbf2-4e40-9970-a594879b424d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PathFileExists, PathFileExists function [Windows Shell], PathFileExistsA, PathFileExistsW, _win32_PathFileExists, shell.PathFileExists, shlwapi/PathFileExists, shlwapi/PathFileExistsA, shlwapi/PathFileExistsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,11 +93,15 @@ A path specified by Universal Naming Convention (UNC) is limited to a file only;
 
 #### Examples
 
-
-```cpp
-
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main(void)
@@ -119,15 +123,15 @@ void main(void)
     retval = PathFileExists(lpStr1);
     if(retval == 1)
     {
-        cout << "Search for the file path of : " << lpStr1 << endl;
-        cout << "The file requested \"" << lpStr1 << "\" is a valid file" << endl;
-        cout << "The return from function is : " << retval << endl;
+        cout &lt;&lt; "Search for the file path of : " &lt;&lt; lpStr1 &lt;&lt; endl;
+        cout &lt;&lt; "The file requested \"" &lt;&lt; lpStr1 &lt;&lt; "\" is a valid file" &lt;&lt; endl;
+        cout &lt;&lt; "The return from function is : " &lt;&lt; retval &lt;&lt; endl;
     }
     
     else
     {
-        cout << "\nThe file requested " << lpStr1 << " is not a valid file" << endl;
-        cout << "The return from function is : " << retval << endl;
+        cout &lt;&lt; "\nThe file requested " &lt;&lt; lpStr1 &lt;&lt; " is not a valid file" &lt;&lt; endl;
+        cout &lt;&lt; "The return from function is : " &lt;&lt; retval &lt;&lt; endl;
     }
     
     // Search for the presence of a file with a false result.
@@ -135,14 +139,14 @@ void main(void)
     
     if(retval == 1)
     {
-        cout << "\nThe file requested " << lpStr2 << "is a valid file" << endl;
-        cout << "Search for the file path of : " << lpStr2 << endl;
-        cout << "The return from function is : " << retval << endl;
+        cout &lt;&lt; "\nThe file requested " &lt;&lt; lpStr2 &lt;&lt; "is a valid file" &lt;&lt; endl;
+        cout &lt;&lt; "Search for the file path of : " &lt;&lt; lpStr2 &lt;&lt; endl;
+        cout &lt;&lt; "The return from function is : " &lt;&lt; retval &lt;&lt; endl;
     }
     else
     {
-        cout << "\nThe file requested \"" << lpStr2 << "\" is not a valid file" << endl;
-        cout << "The return from function is : " << retval << endl;
+        cout &lt;&lt; "\nThe file requested \"" &lt;&lt; lpStr2 &lt;&lt; "\" is not a valid file" &lt;&lt; endl;
+        cout &lt;&lt; "The return from function is : " &lt;&lt; retval &lt;&lt; endl;
     }
 }
 
@@ -153,9 +157,9 @@ The file requested "C:\TEST\file.txt" is a valid file
 The return from function is : 1
 
 The file requested "C:\TEST\file.doc" is not a valid file
-The return from function is : 0
-```
-
-
+The return from function is : 0</pre>
+</td>
+</tr>
+</table></span></div>
 
 

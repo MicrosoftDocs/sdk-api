@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getoutput.htm
 tech.root: medfound
 ms.assetid: 0d947d92-4669-4857-bd61-10fa8ebd2598
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 0d947d92-4669-4857-bd61-10fa8ebd2598, GetOutput, GetOutput method [Media Foundation], GetOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutput method, IMFTopologyNode.GetOutput, IMFTopologyNode::GetOutput, mf.imftopologynode_getoutput, mfidl/IMFTopologyNode::GetOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

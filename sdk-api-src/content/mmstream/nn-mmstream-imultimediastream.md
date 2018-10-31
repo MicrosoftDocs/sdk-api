@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream.htm
 tech.root: DirectShow
 ms.assetid: 8be6c74f-9290-48b4-ad66-8d7d7cc94174
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMultiMediaStream, IMultiMediaStream interface [DirectShow], IMultiMediaStream interface [DirectShow],described, IMultiMediaStreamInterface, dshow.imultimediastream, mmstream/IMultiMediaStream
 ms.prod: windows
 ms.technology: windows-sdk

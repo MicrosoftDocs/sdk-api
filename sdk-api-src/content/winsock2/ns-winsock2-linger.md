@@ -4,10 +4,10 @@ title: linger
 author: windows-sdk-content
 description: Maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the closesocket function is called on the socket.
 old-location: winsock\linger_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINGER, *PLINGER, LINGER, _win32_linger_2, linger, linger structure [Winsock], winsock.linger_2, winsock/linger"
 ms.prod: windows
 ms.technology: windows-sdk

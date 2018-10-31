@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential.htm
 tech.root: shell
 ms.assetid: ef9bb148-0b4e-4c13-b69d-3e63a5592e4a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], ICredentialProviderCredential interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential, shell.ICredentialProviderCredential, shell_ICredentialProviderCredential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Exposes methods that enable the handling of a credential.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredential</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICredentialProviderCredential</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredential</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICredentialProviderCredential</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ICredentialProviderCredential</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776019(v=VS.85).aspx">Advise</a>
+<a href="https://msdn.microsoft.com/26db5ec5-78bf-4d88-90af-c822c8d3ce45">Advise</a>
 </td>
 <td align="left" width="63%">
 Enables a credential to initiate events in the Logon UI or Credential UI through a callback interface. This method should be called before other methods in <b>ICredentialProviderCredential</b> interface.
@@ -79,7 +79,7 @@ Enables a credential to initiate events in the Logon UI or Credential UI through
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776020(v=VS.85).aspx">CommandLinkClicked</a>
+<a href="https://msdn.microsoft.com/04e371cb-f968-4a15-9285-e676dff59899">CommandLinkClicked</a>
 </td>
 <td align="left" width="63%">
 Enables the Logon UI and Credential UI to indicate that a link was clicked.
@@ -88,7 +88,7 @@ Enables the Logon UI and Credential UI to indicate that a link was clicked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776021(v=VS.85).aspx">GetBitmapValue</a>
+<a href="https://msdn.microsoft.com/5171b8f4-877b-43ab-be1d-4ccffdfc74ce">GetBitmapValue</a>
 </td>
 <td align="left" width="63%">
 Enables retrieval of bitmap data from a credential with a bitmap field.
@@ -97,7 +97,7 @@ Enables retrieval of bitmap data from a credential with a bitmap field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776022(v=VS.85).aspx">GetCheckboxValue</a>
+<a href="https://msdn.microsoft.com/f7fcf44c-bc5e-4d15-bbd8-7f7e9df9240b">GetCheckboxValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the checkbox value.
@@ -106,7 +106,7 @@ Retrieves the checkbox value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776023(v=VS.85).aspx">GetComboBoxValueAt</a>
+<a href="https://msdn.microsoft.com/e64c6b80-03c9-46a3-91bd-6cd67d666540">GetComboBoxValueAt</a>
 </td>
 <td align="left" width="63%">
 Gets the string label for a combo box entry at the given index.
@@ -115,7 +115,7 @@ Gets the string label for a combo box entry at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776024(v=VS.85).aspx">GetComboBoxValueCount</a>
+<a href="https://msdn.microsoft.com/50d28ad6-ab18-4648-8e3d-1759ce6b5aeb">GetComboBoxValueCount</a>
 </td>
 <td align="left" width="63%">
 Gets a count of the items in the specified combo box and designates which item should have initial selection.
@@ -124,7 +124,7 @@ Gets a count of the items in the specified combo box and designates which item s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776025(v=VS.85).aspx">GetFieldState</a>
+<a href="https://msdn.microsoft.com/9a709835-cf89-464d-a257-d16a1312ab44">GetFieldState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the field state. The Logon UI and Credential UI use this to gain information about a field of a credential to display this information in the user tile.
@@ -133,7 +133,7 @@ Retrieves the field state. The Logon UI and Credential UI use this to gain infor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776026(v=VS.85).aspx">GetSerialization</a>
+<a href="https://msdn.microsoft.com/c5f7ba25-c38a-431a-b4ad-0e2409f763a3">GetSerialization</a>
 </td>
 <td align="left" width="63%">
 Called in response to an attempt to submit this credential to the underlying authentication engine.
@@ -142,7 +142,7 @@ Called in response to an attempt to submit this credential to the underlying aut
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776027(v=VS.85).aspx">GetStringValue</a>
+<a href="https://msdn.microsoft.com/b891c735-9822-4bc1-a1cc-0c50b35c03c4">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Enables retrieval of text from a credential with a text field.
@@ -151,7 +151,7 @@ Enables retrieval of text from a credential with a text field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776028(v=VS.85).aspx">GetSubmitButtonValue</a>
+<a href="https://msdn.microsoft.com/74adc133-aa4d-405f-a98d-c9cfc719648a">GetSubmitButtonValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of a field that the submit button should be placed next to in the Logon UI.
@@ -160,7 +160,7 @@ Retrieves the identifier of a field that the submit button should be placed next
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776030(v=VS.85).aspx">ReportResult</a>
+<a href="https://msdn.microsoft.com/13d6dda7-4a4f-45bf-af91-72f80497b9f7">ReportResult</a>
 </td>
 <td align="left" width="63%">
 Translates a received error status code into the appropriate user-readable message.
@@ -170,7 +170,7 @@ Translates a received error status code into the appropriate user-readable messa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776031(v=VS.85).aspx">SetCheckboxValue</a>
+<a href="https://msdn.microsoft.com/7da8e80f-1cbe-4a10-96a0-7eb6e61b0f9b">SetCheckboxValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI and Credential UI ro indicate that a checkbox value has changed.
@@ -179,7 +179,7 @@ Enables a Logon UI and Credential UI ro indicate that a checkbox value has chang
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776032(v=VS.85).aspx">SetComboBoxSelectedValue</a>
+<a href="https://msdn.microsoft.com/fe33500b-ab34-4f28-b244-692e62d6d30c">SetComboBoxSelectedValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI and Credential UI to indicate that a combo box value has been selected.
@@ -188,7 +188,7 @@ Enables a Logon UI and Credential UI to indicate that a combo box value has been
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776033(v=VS.85).aspx">SetDeselected</a>
+<a href="https://msdn.microsoft.com/89c01b7c-0d22-44f8-9934-b01d7410f85f">SetDeselected</a>
 </td>
 <td align="left" width="63%">
 Called when a credential loses selection.
@@ -197,7 +197,7 @@ Called when a credential loses selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776034(v=VS.85).aspx">SetSelected</a>
+<a href="https://msdn.microsoft.com/06a0482c-100c-445f-9a77-279d85492f42">SetSelected</a>
 </td>
 <td align="left" width="63%">
 Called when a credential is selected. Enables the implementer to set logon characteristics.
@@ -206,7 +206,7 @@ Called when a credential is selected. Enables the implementer to set logon chara
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776035(v=VS.85).aspx">SetStringValue</a>
+<a href="https://msdn.microsoft.com/ea2007b9-fff1-4cd2-8656-61ec050a8e96">SetStringValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI or Credential UI to update the text for a <b>CPFT_EDIT_TEXT</b> fields as the user types in them.
@@ -215,7 +215,7 @@ Enables a Logon UI or Credential UI to update the text for a <b>CPFT_EDIT_TEXT</
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb776036(v=VS.85).aspx">UnAdvise</a>
+<a href="https://msdn.microsoft.com/29e01ef4-3186-4f9a-9898-b7424bba2b61">UnAdvise</a>
 </td>
 <td align="left" width="63%">
 Used by the Logon UI or Credential UI to advise the credential that event callbacks are no longer accepted.
@@ -250,11 +250,11 @@ Credential providers handle extremely sensitive user secrets in order to complet
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt158211(v=VS.85).aspx">Credential Providers in Windows 10</a>
+<a href="https://msdn.microsoft.com/BCF69196-D4E4-41D0-B372-5000FD50164B">Credential Providers in Windows 10</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx">ICredentialProvider</a>
+<a href="https://msdn.microsoft.com/7ce6cd61-16d1-414e-b9b3-4929a65c0cc6">ICredentialProvider</a>
  
 
  

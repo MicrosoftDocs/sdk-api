@@ -4,10 +4,10 @@ title: FN_HANDLE_CMD
 author: windows-sdk-content
 description: Is the command function for helpers.
 old-location: netshell\fn_handle_cmd.htm
-tech.root: NetShell
+tech.root: netshell
 ms.assetid: 5058e202-9ad4-4789-97db-3c13b4a1c337
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FN_HANDLE_CMD, FN_HANDLE_CMD callback, FN_HANDLE_CMD callback function [NetShell], SampleCommand, _netsh_fn_handle_cmd, netsh/FN_HANDLE_CMD, netshell.fn_handle_cmd
 ms.prod: windows
 ms.technology: windows-sdk

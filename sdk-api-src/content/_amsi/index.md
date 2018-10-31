@@ -2,7 +2,7 @@
 UID: TP:amsi
 ms.assetid: 2e9afe53-8233-3700-b784-fd4779116249
 ms.author: windowssdkdev
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: Sleep function
 author: windows-sdk-content
 description: Suspends the execution of the current thread until the time-out interval elapses.
 old-location: base\sleep.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 934d37ea-402c-4118-bd7e-87b5fce80fca
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, winbase/Sleep
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfvideodrmflags.htm
 tech.root: medfound
 ms.assetid: 6d218992-c1c3-4d83-b364-4c7d3b50474f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 6d218992-c1c3-4d83-b364-4c7d3b50474f, MFVideoDRMFlag_AnalogProtected, MFVideoDRMFlag_DigitallyProtected, MFVideoDRMFlag_None, MFVideoDRMFlags, MFVideoDRMFlags enumeration [Media Foundation], _MFVideoDRMFlags, mf.mfvideodrmflags, mfapi/MFVideoDRMFlag_AnalogProtected, mfapi/MFVideoDRMFlag_DigitallyProtected, mfapi/MFVideoDRMFlag_None, mfapi/MFVideoDRMFlags
 ms.prod: windows
 ms.technology: windows-sdk

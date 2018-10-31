@@ -7,7 +7,7 @@ old-location: mscs\clustersetaccountaccess.htm
 tech.root: mscs
 ms.assetid: E0038A7B-291F-4A30-86BD-D9BD2404D3B5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSAPI_READ_ACCESS, CLUSTER_DELETE_ACCESS_CONTROL_ENTRY, CLUSTER_SET_ACCESS_TYPE_ALLOWED, CLUSTER_SET_ACCESS_TYPE_DENIED, ClusterSetAccountAccess, ClusterSetAccountAccess function [Failover Cluster], PCLUSTER_SET_ACCOUNT_ACCESS, PCLUSTER_SET_ACCOUNT_ACCESS function [Failover Cluster], clusapi/ClusterSetAccountAccess, clusapi/PCLUSTER_SET_ACCOUNT_ACCESS, mscs.clustersetaccountaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,7 +137,7 @@ Deletes all the ACEs for for the SID.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -147,7 +147,7 @@ If the operation fails, the function returns a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
  
 
  

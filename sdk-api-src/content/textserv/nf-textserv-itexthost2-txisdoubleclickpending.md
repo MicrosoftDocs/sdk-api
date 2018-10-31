@@ -4,10 +4,10 @@ title: ITextHost2::TxIsDoubleClickPending
 author: windows-sdk-content
 description: Discovers whether the message queue contains a WM_LBUTTONDBLCLK message that is pending for the text host window.
 old-location: controls\itexthost2_txisdoubleclickpending.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 24051A4F-70CD-4147-B623-BC818F3F9AF2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxIsDoubleClickPending method, ITextHost2.TxIsDoubleClickPending, ITextHost2::TxIsDoubleClickPending, TxIsDoubleClickPending, TxIsDoubleClickPending method [Windows Controls], TxIsDoubleClickPending method [Windows Controls],ITextHost2 interface, controls.itexthost2_txisdoubleclickpending, textserv/ITextHost2::TxIsDoubleClickPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/370aa19e-4939-4ac3-9c0b-137a9792e52a">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Discovers whether the message queue contains a <a href="https://msdn.microsoft.c
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-Returns <b>TRUE</b> if a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
+Returns <b>TRUE</b> if a <a href="https://msdn.microsoft.com/370aa19e-4939-4ac3-9c0b-137a9792e52a">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
 
 
 

@@ -4,10 +4,10 @@ title: D2D1_SHADOW_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Shadow effect.
 old-location: direct2d\d2d1_shadow_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 332B5743-D702-4DBC-8482-FEAD43641C3A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_SHADOW_PROP, D2D1_SHADOW_PROP enumeration [Direct2D], D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, D2D1_SHADOW_PROP_COLOR, D2D1_SHADOW_PROP_OPTIMIZATION, d2d1effects/D2D1_SHADOW_PROP, d2d1effects/D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, d2d1effects/D2D1_SHADOW_PROP_COLOR, d2d1effects/D2D1_SHADOW_PROP_OPTIMIZATION, direct2d.d2d1_shadow_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706334(v=VS.85).aspx">Shadow effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
         
 
 
@@ -87,7 +87,7 @@ The default value is {0.0f, 0.0f, 0.0f, 1.0f}.
 The level of performance optimization.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934262(v=VS.85).aspx">D2D1_SHADOW_OPTIMIZATION</a>.
+The type is <a href="https://msdn.microsoft.com/1C509608-BEBA-4E4C-8EC5-88B587D81B34">D2D1_SHADOW_OPTIMIZATION</a>.
 
 The default value is D2D1_SHADOW_OPTIMIZATION_BALANCED.
 

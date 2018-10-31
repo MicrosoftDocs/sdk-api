@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_content_desc.htm
 tech.root: medfound
 ms.assetid: A1649897-B368-4D03-9A08-630C8C59E44A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC, mf.d3d11_video_processor_content_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,12 +60,12 @@ Describes a video stream for a video processor.
 
 ### -field InputFrameFormat
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Hh447647(v=VS.85).aspx">D3D11_VIDEO_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
+A member of the <a href="https://msdn.microsoft.com/D0C0C58C-8BBC-4C2C-BD0B-4244211E7E06">D3D11_VIDEO_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
 
 
 ### -field InputFrameRate
 
-The frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure.
+The frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure.
 
 
 
@@ -82,7 +82,7 @@ The height of the input frames, in pixels.
 
 ### -field OutputFrameRate
 
-The frame rate of the output video stream, specified as a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure.
+The frame rate of the output video stream, specified as a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure.
 
 
 
@@ -101,7 +101,7 @@ The height of the output frames, in pixels.
 
 ### -field Usage
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Hh447673(v=VS.85).aspx">D3D11_VIDEO_USAGE</a> enumeration that describes how the video processor will be used. The value indicates the desired trade-off between speed and video quality. The driver uses this flag as a hint when it creates the video processor.
+A member of the <a href="https://msdn.microsoft.com/11657847-FFDB-42EA-9A29-FDC1F92DF039">D3D11_VIDEO_USAGE</a> enumeration that describes how the video processor will be used. The value indicates the desired trade-off between speed and video quality. The driver uses this flag as a hint when it creates the video processor.
 
 
 ## -see-also
@@ -109,11 +109,11 @@ A member of the <a href="https://msdn.microsoft.com/en-us/library/Hh447673(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447789(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessorEnumerator</a>
+<a href="https://msdn.microsoft.com/992C699D-A499-494E-AEDF-A6688CB14D70">ID3D11VideoDevice::CreateVideoProcessorEnumerator</a>
  
 
  

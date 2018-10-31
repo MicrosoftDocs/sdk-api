@@ -4,10 +4,10 @@ title: RtmLockRoute function
 author: windows-sdk-content
 description: The RtmLockRoute function locks or unlocks a route in the routing table. This protects the route while a client makes the necessary changes to the opaque route pointers owned by the client.
 old-location: rras\rtmlockroute.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 8de3e4e3-f3bc-4a98-8a11-cc5b4db9027f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RtmLockRoute, RtmLockRoute function [RAS], _rtmv2ref_rtmlockroute, rras.rtmlockroute, rtmv2/RtmLockRoute
 ms.prod: windows-hardware
 ms.technology: windows-devices

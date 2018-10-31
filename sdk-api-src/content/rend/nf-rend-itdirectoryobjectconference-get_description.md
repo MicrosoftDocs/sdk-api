@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::get_Description
 author: windows-sdk-content
 description: The get_Description method gets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_get_description.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: f90defa9-5e70-4168-9a07-ccb520bd5a1f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Description method, ITDirectoryObjectConference.get_Description, ITDirectoryObjectConference::get_Description, _tapi3_itdirectoryobjectconference_get_description, get_Description, get_Description method [TAPI 2.2], get_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Description, tapi3.itdirectoryobjectconference_get_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ This method is not yet implemented.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppDescription</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppDescription</i> parameter.
 			
 
 

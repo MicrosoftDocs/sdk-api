@@ -4,10 +4,10 @@ title: D2D1_MAP_OPTIONS
 author: windows-sdk-content
 description: Specifies how the memory to be mapped from the corresponding ID2D1Bitmap1 should be treated.
 old-location: direct2d\__d2d1_map_options.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 8706c3e3-eb29-4760-bdfd-f19afc6f2bf7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_MAP_OPTIONS, D2D1_MAP_OPTIONS enumeration [Direct2D], D2D1_MAP_OPTIONS_DISCARD, D2D1_MAP_OPTIONS_READ, D2D1_MAP_OPTIONS_WRITE, d2d1_1/D2D1_MAP_OPTIONS, d2d1_1/D2D1_MAP_OPTIONS_DISCARD, d2d1_1/D2D1_MAP_OPTIONS_READ, d2d1_1/D2D1_MAP_OPTIONS_WRITE, direct2d.__d2d1_map_options
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediasinkpreroll_notifypreroll.htm
 tech.root: medfound
 ms.assetid: d0694ad9-a18a-4fea-a9ff-b416bd4827ba
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFMediaSinkPreroll interface [Media Foundation],NotifyPreroll method, IMFMediaSinkPreroll.NotifyPreroll, IMFMediaSinkPreroll::NotifyPreroll, NotifyPreroll, NotifyPreroll method [Media Foundation], NotifyPreroll method [Media Foundation],IMFMediaSinkPreroll interface, d0694ad9-a18a-4fea-a9ff-b416bd4827ba, mf.imfmediasinkpreroll_notifypreroll, mfidl/IMFMediaSinkPreroll::NotifyPreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

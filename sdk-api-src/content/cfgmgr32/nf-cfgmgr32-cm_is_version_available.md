@@ -7,7 +7,7 @@ old-location: devinst\cm_is_version_available.htm
 tech.root: devinst
 ms.assetid: a7a1e8d0-7645-423a-8123-a58ed7ae9827
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Is_Version_Available, CM_Is_Version_Available function [Device and Driver Installation], cfgmgr32/CM_Is_Version_Available, cfgmgrfn_dfae29e5-44ab-4bbc-b104-5ccd4914eea0.xml, devinst.cm_is_version_available
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ The function returns <b>TRUE</b> if the local machine supports the specified ver
 
 
 
-Use this function to determine whether a specified version of the configuration manager is supported by a local machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://msdn.microsoft.com/en-us/library/Ff538739(v=VS.85).aspx">CM_Is_Version_Available_Ex</a> to determine if a local or a remote machine supports a specific version of the configuration manager. 
+Use this function to determine whether a specified version of the configuration manager is supported by a local machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a> to determine if a local or a remote machine supports a specific version of the configuration manager. 
 
 
 
@@ -90,15 +90,15 @@ Use this function to determine whether a specified version of the configuration 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538686(v=VS.85).aspx">CM_Get_Version</a>
+<a href="https://msdn.microsoft.com/998c6c57-b242-4aa0-8c9f-cfff61d2a642">CM_Get_Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538696(v=VS.85).aspx">CM_Get_Version_Ex</a>
+<a href="https://msdn.microsoft.com/f189a417-48a4-436e-bb1c-6b0c9f066c04">CM_Get_Version_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538739(v=VS.85).aspx">CM_Is_Version_Available_Ex</a>
+<a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a>
  
 
  

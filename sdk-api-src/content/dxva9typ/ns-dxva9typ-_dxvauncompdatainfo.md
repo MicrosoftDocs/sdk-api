@@ -7,7 +7,7 @@ old-location: mf\dxvauncompdatainfo.htm
 tech.root: medfound
 ms.assetid: bd19d9a8-7d69-4aea-9638-84c3f1a1e810
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DXVAUncompDataInfo, DXVAUncompDataInfo structure [Media Foundation], _DXVAUncompDataInfo, dxva9typ/DXVAUncompDataInfo, mf.dxvauncompdatainfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\rogetactivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 9D9B74C9-9D9A-4E10-A222-C8F3658F2C48
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RoGetActivatableClassRegistration, RoGetActivatableClassRegistration function [Windows Runtime], roregistrationapi/RoGetActivatableClassRegistration, winrt.rogetactivatableclassregistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

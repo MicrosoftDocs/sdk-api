@@ -7,7 +7,7 @@ old-location: display\perbandinfo.htm
 tech.root: display
 ms.assetid: ec02542f-68d1-4d05-a4d1-e475725997ad
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PPERBANDINFO, PERBANDINFO, PERBANDINFO structure [Display Devices], PPERBANDINFO, PPERBANDINFO structure pointer [Display Devices], _PERBANDINFO, display.perbandinfo, grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml, winddi/PERBANDINFO, winddi/PPERBANDINFO"
 ms.prod: windows
 ms.technology: windows-sdk

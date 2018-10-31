@@ -7,7 +7,7 @@ old-location: shell\WTS_THUMBNAILID.htm
 tech.root: shell
 ms.assetid: 3006d1a8-c9cf-4528-9aea-8ad5d97ddff0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WTS_THUMBNAILID, WTS_THUMBNAILID structure [Windows Shell], _shell_WTS_THUMBNAILID, shell.WTS_THUMBNAILID, thumbcache/WTS_THUMBNAILID
 ms.prod: windows
 ms.technology: windows-sdk

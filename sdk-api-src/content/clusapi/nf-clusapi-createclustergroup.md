@@ -7,7 +7,7 @@ old-location: mscs\createclustergroup.htm
 tech.root: mscs
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: CreateClusterGroup, CreateClusterGroup function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP function [Failover Cluster], _wolf_createclustergroup, clusapi/CreateClusterGroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-Adds a  <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to the newly added group. The <b>PCLUSAPI_CREATE_CLUSTER_GROUP</b> type defines a pointer to this function.
+Adds a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to a <a href="c_gly.htm">cluster</a> and returns a handle to the newly added group. The <b>PCLUSAPI_CREATE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ The <b>CreateClusterGroup</b> function calls the <a href="https://msdn.microsoft
 
 #### Examples
 
-See  <a href="https://msdn.microsoft.com/en-us/library/Aa369325(v=VS.85).aspx">Creating Groups</a>.
+See  <a href="https://msdn.microsoft.com/c6309c0e-fe81-4946-a333-efc5d2a7cb48">Creating Groups</a>.
 
 <div class="code"></div>
 

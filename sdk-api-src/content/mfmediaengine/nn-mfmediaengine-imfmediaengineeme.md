@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineeme.htm
 tech.root: medfound
 ms.assetid: d03045d5-bafe-4e65-98da-e9ea8104c169
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFMediaEngineEME, IMFMediaEngineEME interface [Media Foundation], IMFMediaEngineEME interface [Media Foundation],described, mf.imfmediaengineeme, mfmediaengine/IMFMediaEngineEME
 ms.prod: windows
 ms.technology: windows-sdk

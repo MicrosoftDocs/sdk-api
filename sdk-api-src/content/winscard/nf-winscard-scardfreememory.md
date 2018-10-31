@@ -7,7 +7,7 @@ old-location: security\scardfreememory.htm
 tech.root: secauthn
 ms.assetid: d41d3891-671b-4129-8034-b251af983830
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardfreememory, security.scardfreememory, winscard/SCardFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

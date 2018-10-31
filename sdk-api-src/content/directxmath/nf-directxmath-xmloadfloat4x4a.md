@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMLoadFloat4x4A
+: 
 ---
 
 # XMLoadFloat4x4A function

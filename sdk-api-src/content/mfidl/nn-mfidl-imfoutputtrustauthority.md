@@ -7,7 +7,7 @@ old-location: mf\imfoutputtrustauthority.htm
 tech.root: medfound
 ms.assetid: 21594ac0-7e3c-44a3-bbee-64316dd51824
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 21594ac0-7e3c-44a3-bbee-64316dd51824, IMFOutputTrustAuthority, IMFOutputTrustAuthority interface [Media Foundation], IMFOutputTrustAuthority interface [Media Foundation],described, mf.imfoutputtrustauthority, mfidl/IMFOutputTrustAuthority
 ms.prod: windows
 ms.technology: windows-sdk

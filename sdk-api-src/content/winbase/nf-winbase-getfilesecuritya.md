@@ -4,10 +4,10 @@ title: GetFileSecurityA function
 author: windows-sdk-content
 description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges.
 old-location: security\getfilesecurity.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 4043b76b-76b9-4111-8a29-a808b2412be0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetFileSecurity, GetFileSecurity function [Security], GetFileSecurityA, GetFileSecurityW, _win32_getfilesecurity, security.getfilesecurity, winbase/GetFileSecurity, winbase/GetFileSecurityA, winbase/GetFileSecurityW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ To read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

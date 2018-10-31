@@ -7,7 +7,7 @@ old-location: automat\oleloadpicturefileex.htm
 tech.root: automat
 ms.assetid: 39a2c814-97f6-4157-8884-8b3f268d3f7f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: LP_COLOR, LP_DEFAULT, LP_MONOCHROME, LP_VGACOLOR, OleLoadPictureFileEx, OleLoadPictureFileEx function [Automation], _oa96_OleLoadPictureFileEx, automat.oleloadpicturefileex, olectl/OleLoadPictureFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

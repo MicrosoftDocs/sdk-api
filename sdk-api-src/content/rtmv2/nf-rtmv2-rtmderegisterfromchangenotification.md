@@ -4,10 +4,10 @@ title: RtmDeregisterFromChangeNotification function
 author: windows-sdk-content
 description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.
 old-location: rras\rtmderegisterfromchangenotification.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

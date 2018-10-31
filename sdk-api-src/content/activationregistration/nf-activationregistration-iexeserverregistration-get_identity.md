@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_identity.htm
 tech.root: WinRT
 ms.assetid: DA667D7C-323B-412D-AF9E-03402223292A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Identity method, IExeServerRegistration.get_Identity, IExeServerRegistration::get_Identity, activationregistration/IExeServerRegistration::get_Identity, get_Identity, get_Identity method [Windows Runtime], get_Identity method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_identity
 ms.prod: windows-hardware
 ms.technology: windows-devices

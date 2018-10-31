@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_SetOwnerWindow.htm
 tech.root: shell
 ms.assetid: ad3276a5-409d-4a49-ac95-2c2a3eb3b864
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetOwnerWindow method, IFileOperation.SetOwnerWindow, IFileOperation::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Windows Shell], SetOwnerWindow method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetOwnerWindow, shell.IFileOperation_SetOwnerWindow, shobjidl_core/IFileOperation::SetOwnerWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

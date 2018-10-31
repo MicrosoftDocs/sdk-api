@@ -7,7 +7,7 @@ old-location: shell\IShellItemArray_EnumItems.htm
 tech.root: shell
 ms.assetid: c8ee210c-dab9-4678-9c62-d06677cbb395
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumItems, EnumItems method [Windows Shell], EnumItems method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],EnumItems method, IShellItemArray.EnumItems, IShellItemArray::EnumItems, _shell_IShellItemArray_EnumItems, shell.IShellItemArray_EnumItems, shobjidl_core/IShellItemArray::EnumItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfrequireprotectedenvironment.htm
 tech.root: medfound
 ms.assetid: 5129d8c0-4049-4b90-ade8-b4cd32277664
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 5129d8c0-4049-4b90-ade8-b4cd32277664, MFRequireProtectedEnvironment, MFRequireProtectedEnvironment function [Media Foundation], mf.mfrequireprotectedenvironment, mfidl/MFRequireProtectedEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

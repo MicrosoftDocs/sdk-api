@@ -7,7 +7,7 @@ old-location: mf\imfmediasinkpreroll.htm
 tech.root: medfound
 ms.assetid: 7cc93751-4477-4649-b09e-53f519fb1acb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 7cc93751-4477-4649-b09e-53f519fb1acb, IMFMediaSinkPreroll, IMFMediaSinkPreroll interface [Media Foundation], IMFMediaSinkPreroll interface [Media Foundation],described, mf.imfmediasinkpreroll, mfidl/IMFMediaSinkPreroll
 ms.prod: windows
 ms.technology: windows-sdk

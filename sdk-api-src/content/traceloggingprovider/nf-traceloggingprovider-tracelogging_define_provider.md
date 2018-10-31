@@ -7,7 +7,7 @@ old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER.htm
 tech.root: tracelogging
 ms.assetid: 4515652D-86B0-4274-8523-27292F5F6815
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER, TRACELOGGING_DEFINE_PROVIDER macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER, tracelogging.traceloggingprovider, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ The GUID of the provider group that this provider is a member of.
 
 
 
-Before using this macro, you need to declare your TraceLogging provider using <a href="https://msdn.microsoft.com/E9C0B622-77A5-498F-BB28-C6C181271276">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://msdn.microsoft.com/en-us/library/Dn904610(v=VS.85).aspx">TraceLoggingRegister</a>.
+Before using this macro, you need to declare your TraceLogging provider using <a href="https://msdn.microsoft.com/E9C0B622-77A5-498F-BB28-C6C181271276">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://msdn.microsoft.com/621A7DA3-8E75-431C-B747-FFCE72EB2110">TraceLoggingRegister</a>.
 
 Use the <a href="https://msdn.microsoft.com/5D794C46-95B2-4111-AFB8-CE488B4D1A42">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
 more than one group. The semantics of group membership are determined by
@@ -93,22 +93,31 @@ If your provider is a part of a group, add the <i>options</i> parameter.
 
 #### Examples
 
-
-```cpp
-TRACELOGGING_DEFINE_PROVIDER(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TRACELOGGING_DEFINE_PROVIDER(
     g_hMyProvider,
     "MyProvider",
-    (0xb3864c38, 0x4273, 0x58c5, 0x54, 0x5b, 0x8b, 0x36, 0x08, 0x34, 0x34, 0x71));
-```
-
-```cpp
-TRACELOGGING_DEFINE_PROVIDER(
+    (0xb3864c38, 0x4273, 0x58c5, 0x54, 0x5b, 0x8b, 0x36, 0x08, 0x34, 0x34, 0x71));</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TRACELOGGING_DEFINE_PROVIDER(
     g_hMyProvider,
     "MyProvider",
     (0xb3864c38, 0x4273, 0x58c5, 0x54, 0x5b, 0x8b, 0x36, 0x08, 0x34, 0x34, 0x71),
-    TraceLoggingOptionGroup(0xfaaf2f61, 0x9b26, 0x4591, 0x9b, 0xb1, 0xb9, 0xb8, 0xba, 0xe2, 0xd3, 0x4c));
-```
-
-
+    TraceLoggingOptionGroup(0xfaaf2f61, 0x9b26, 0x4591, 0x9b, 0xb1, 0xb9, 0xb8, 0xba, 0xe2, 0xd3, 0x4c));</pre>
+</td>
+</tr>
+</table></span></div>
 
 

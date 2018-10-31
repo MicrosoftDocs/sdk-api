@@ -58,38 +58,50 @@ The <b>IADsPathname</b> interface can be used to:
 <li>Set and get paths of ADSI objects in different formats.</li>
 <li>Extract or add each element for a given ADsPath.</li>
 <li>Construct ADsPaths to be used in queries of directory objects.</li>
-</ul>The <b>IADsPathname</b> interface is implemented on a <b>Pathname</b> object. You must instantiate the <b>Pathname</b> object to use the methods defined in the <b>IADsPathname</b> interface. This requirement is similar to calling the  <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance()</a> function in C++.
-
-```cpp
-IADsPathname *pPathname=NULL;
+</ul>The <b>IADsPathname</b> interface is implemented on a <b>Pathname</b> object. You must instantiate the <b>Pathname</b> object to use the methods defined in the <b>IADsPathname</b> interface. This requirement is similar to calling the  <a href="_com_cocreateinstance">CoCreateInstance()</a> function in C++.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPathname *pPathname=NULL;
 HRESULT hr;
  
 hr = CoCreateInstance(CLSID_Pathname,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsPathname,
-                      (void**)&pPathname);
-```
-
-You can also invoke the <b>New</b> operator in Visual Basic:
-
-```vb
-Dim path As New Pathname
-```
-
-Or use the <b>CreateObject</b> function in VBScript, supplying "Pathname" as the ProgID.
-
-```vb
-Dim path
-Set path = CreateObject("Pathname")
-```
-
-The <b>IADsPathname</b> interface uses two enumeration types:  <a href="https://msdn.microsoft.com/fbf7de54-3ea7-4d66-ad56-21cae1e28c07">ADS_SETTYPE_ENUM</a>, and  <a href="https://msdn.microsoft.com/d0c94f30-6b8c-4c7a-bb74-205b2b658dbb">ADS_FORMAT_ENUM</a>.
+                      (void**)&amp;pPathname);</pre>
+</td>
+</tr>
+</table></span></div>You can also invoke the <b>New</b> operator in Visual Basic:
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim path As New Pathname</pre>
+</td>
+</tr>
+</table></span></div>Or use the <b>CreateObject</b> function in VBScript, supplying "Pathname" as the ProgID.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim path
+Set path = CreateObject("Pathname")</pre>
+</td>
+</tr>
+</table></span></div>The <b>IADsPathname</b> interface uses two enumeration types:  <a href="https://msdn.microsoft.com/fbf7de54-3ea7-4d66-ad56-21cae1e28c07">ADS_SETTYPE_ENUM</a>, and  <a href="https://msdn.microsoft.com/d0c94f30-6b8c-4c7a-bb74-205b2b658dbb">ADS_FORMAT_ENUM</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPathname</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPathname</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPathname</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsPathname</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -224,7 +236,7 @@ Retrieves the mode for escaping a path.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance()</a>
+<a href="_com_cocreateinstance">CoCreateInstance()</a>
 
 
 
@@ -233,7 +245,7 @@ Retrieves the mode for escaping a path.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

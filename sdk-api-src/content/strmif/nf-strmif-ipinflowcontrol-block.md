@@ -7,7 +7,7 @@ old-location: dshow\ipinflowcontrol_block.htm
 tech.root: DirectShow
 ms.assetid: 9bcd325d-41fc-4166-8fce-50fc921efdba
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Block, Block method [DirectShow], Block method [DirectShow],IPinFlowControl interface, IPinFlowControl interface [DirectShow],Block method, IPinFlowControl.Block, IPinFlowControl::Block, IPinFlowControlBlock, dshow.ipinflowcontrol_block, strmif/IPinFlowControl::Block
 ms.prod: windows-hardware
 ms.technology: windows-devices

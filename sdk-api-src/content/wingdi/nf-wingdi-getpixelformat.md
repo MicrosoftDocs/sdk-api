@@ -7,7 +7,7 @@ old-location: opengl\getpixelformat.htm
 tech.root: OpenGL
 ms.assetid: e9a65f3a-6932-462f-b342-a993d222fae8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetPixelFormat, GetPixelFormat function [OpenGL], _ogl_GetPixelFormat, opengl.getpixelformat, wingdi/GetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

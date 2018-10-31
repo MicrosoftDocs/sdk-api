@@ -4,10 +4,10 @@ title: TSPI_lineSetCallTreatment function
 author: windows-sdk-content
 description: The TSPI_lineSetCallTreatment function service provider stores the indicated dwCallTreatment in LINECALLINFO, and sends a LINE_CALLINFO message to indicate the updated information.
 old-location: tspi\tspi_linesetcalltreatment.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 04c93e35-df6b-409e-9bc4-06c36819963a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TSPI_lineSetCallTreatment, TSPI_lineSetCallTreatment function [TAPI 2.2], _tspi_tspi_linesetcalltreatment, tspi.tspi_linesetcalltreatment, tspi/TSPI_lineSetCallTreatment
 ms.prod: windows-hardware
 ms.technology: windows-devices

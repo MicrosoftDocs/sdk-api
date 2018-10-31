@@ -7,7 +7,7 @@ old-location: mf\imfactivate_shutdownobject.htm
 tech.root: medfound
 ms.assetid: 1f88ff31-5a91-4838-bfce-673a5a85c766
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 1f88ff31-5a91-4838-bfce-673a5a85c766, IMFActivate interface [Media Foundation],ShutdownObject method, IMFActivate.ShutdownObject, IMFActivate::ShutdownObject, ShutdownObject, ShutdownObject method [Media Foundation], ShutdownObject method [Media Foundation],IMFActivate interface, mf.imfactivate_shutdownobject, mfobjects/IMFActivate::ShutdownObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

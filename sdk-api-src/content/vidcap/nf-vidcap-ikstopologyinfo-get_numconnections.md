@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_numconnections.htm
 tech.root: DirectShow
 ms.assetid: 55f52b02-2768-4c59-9275-96e238ccf3f0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumConnections method, IKsTopologyInfo.get_NumConnections, IKsTopologyInfo::get_NumConnections, IKsTopologyInfoget_NumConnections, dshow.ikstopologyinfo_get_numconnections, get_NumConnections, get_NumConnections method [DirectShow], get_NumConnections method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices

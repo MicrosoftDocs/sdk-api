@@ -7,7 +7,7 @@ old-location: automat\createstddispatch.htm
 tech.root: automat
 ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,9 +161,13 @@ Supports only dispatch-defined exception codes returned from <a href="https://ms
 
 The following code implements the <b>IDispatch</b> interface for the <b>CCalc</b> class using <b>CreateStdDispatch</b>.
 
-
-```cpp
-CCalc FAR*
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CCalc FAR*
 CCalc::Create()
 {
    HRESULT hresult;
@@ -175,14 +179,14 @@ extern INTERFACEDATA NEARDATA g_idataCCalc;
 
    if((pcalc = new FAR CCalc()) == NULL)
       return NULL;
-   pcalc->AddRef();
+   pcalc-&gt;AddRef();
 
-   parith = &(pcalc->m_arith);
+   parith = &amp;(pcalc-&gt;m_arith);
 
    // Build type information for the functionality on this object that
    // is being exposed for external programmability.
    hresult = CreateDispTypeInfo(
-      &g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &ptinfo);
+      &amp;g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &amp;ptinfo);
    if(hresult != NOERROR)
       goto LError0;
 
@@ -193,24 +197,24 @@ extern INTERFACEDATA NEARDATA g_idataCCalc;
       pcalc,            // Controlling unknown.
       parith,            // Instance to dispatch on.
       ptinfo,            // Type information describing the instance.
-      &punkStdDisp);
+      &amp;punkStdDisp);
 
-   ptinfo-&>Release();
+   ptinfo-&amp;&gt;Release();
 
    if(hresult != NOERROR)
       goto LError0;
 
-   pcalc->m_punkStdDisp = punkStdDisp;
+   pcalc-&gt;m_punkStdDisp = punkStdDisp;
 
    return pcalc;
 
 LError0:;
-   pcalc->Release();
+   pcalc-&gt;Release();
    return NULL;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

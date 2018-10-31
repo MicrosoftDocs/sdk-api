@@ -4,10 +4,10 @@ title: RpcServerUseAllProtseqsIfEx function
 author: windows-sdk-content
 description: The RpcServerUseAllProtseqsIfEx function tells the RPC run-time library to use all the specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsifex.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 118c931e-29ca-4ffb-aa32-24c6f4289cc8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcServerUseAllProtseqsIfEx, RpcServerUseAllProtseqsIfEx function [RPC], _rpc_rpcserveruseallprotseqsifex, rpc.rpcserveruseallprotseqsifex, rpcdce/RpcServerUseAllProtseqsIfEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -205,7 +205,7 @@ To receive remote procedure call requests, a server must register at least one p
 <a href="https://msdn.microsoft.com/3633842c-d1f5-46d9-866e-e54f31415ea5">ncacn_nb_tcp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/641471d4-eba4-4d4a-a3fe-1e40b3751e38">ncacn_nb_ipx</a>
+<a href="https://msdn.microsoft.com/">ncacn_nb_ipx</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/">ncadg_mq</a>

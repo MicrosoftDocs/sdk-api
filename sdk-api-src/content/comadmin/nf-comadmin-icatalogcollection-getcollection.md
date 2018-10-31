@@ -65,12 +65,12 @@ The name of the collection to be retrieved.
 
 ### -param varObjectKey [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms679201(v=VS.85).aspx">Key</a> property value of the parent item of the collection to be retrieved.
+The <a href="https://msdn.microsoft.com/1937cd5a-742f-4248-a4c2-0b39a03eed20">Key</a> property value of the parent item of the collection to be retrieved.
 
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a> interface for the retrieved collection.
+The <a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a> interface for the retrieved collection.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-This method does not read in data for items in the retrieved collection from the catalog data store. Use the <a href="https://msdn.microsoft.com/en-us/library/ms683485(v=VS.85).aspx">Populate</a> method to read in data for items in the collection.
+This method does not read in data for items in the retrieved collection from the catalog data store. Use the <a href="https://msdn.microsoft.com/817f203c-ddc6-47bd-a946-2393067eca44">Populate</a> method to read in data for items in the collection.
 
 
 
@@ -96,7 +96,7 @@ This method does not read in data for items in the retrieved collection from the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

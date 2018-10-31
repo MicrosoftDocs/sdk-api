@@ -4,10 +4,10 @@ title: PHONE_BUTTON_MODE
 author: windows-sdk-content
 description: The PHONE_BUTTON_MODE enum describes the mode of a phone button.
 old-location: tapi3\phone_button_mode.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: ae410224-bb01-4d56-95e8-1c2ead544cf1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PBM_CALL, PBM_DISPLAY, PBM_DUMMY, PBM_FEATURE, PBM_KEYPAD, PBM_LOCAL, PHONE_BUTTON_MODE, PHONE_BUTTON_MODE enumeration [TAPI 2.2], _tapi3_phone_button_mode, tapi3.phone_button_mode, tapi3if/PBM_CALL, tapi3if/PBM_DISPLAY, tapi3if/PBM_DUMMY, tapi3if/PBM_FEATURE, tapi3if/PBM_KEYPAD, tapi3if/PBM_LOCAL, tapi3if/PHONE_BUTTON_MODE
 ms.prod: windows
 ms.technology: windows-sdk

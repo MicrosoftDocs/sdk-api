@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_info_queue_message.htm
 tech.root: direct3ddxgi
 ms.assetid: F0FF1DC6-8E62-4D35-BCB7-EC3BB314F033
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DXGI_INFO_QUEUE_MESSAGE, DXGI_INFO_QUEUE_MESSAGE structure [DXGI], direct3ddxgi.dxgi_info_queue_message, dxgidebug/DXGI_INFO_QUEUE_MESSAGE
 ms.prod: windows
 ms.technology: windows-sdk

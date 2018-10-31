@@ -7,7 +7,7 @@ old-location: gdi\ttembedinfo.htm
 tech.root: gdi
 ms.assetid: 7e1828bf-c9ed-4120-b91f-b4eb45191e48
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TTEMBEDINFO, TTEMBEDINFO structure [Windows GDI], _win32_TTEMBEDINFO, gdi.ttembedinfo, t2embapi/TTEMBEDINFO
 ms.prod: windows
 ms.technology: windows-sdk

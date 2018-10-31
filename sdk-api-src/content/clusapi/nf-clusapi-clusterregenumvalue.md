@@ -7,7 +7,7 @@ old-location: mscs\clusterregenumvalue.htm
 tech.root: mscs
 ms.assetid: 4ea2fc6f-6b52-4fa1-8d71-5bbae72368b3
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: ClusterRegEnumValue, ClusterRegEnumValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregenumvalue, clusapi/ClusterRegEnumValue, mscs.clusterregenumvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

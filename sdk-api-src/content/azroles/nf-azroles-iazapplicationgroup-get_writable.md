@@ -4,10 +4,10 @@ title: IAzApplicationGroup::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the application group can be modified by the user context that initialized it.
 old-location: security\iazapplicationgroup_writable.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c0d88a7c-2df7-4f8e-94c2-75690d9758e7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AzApplicationGroup object [Security],Writable property, IAzApplicationGroup interface [Security],Writable property, IAzApplicationGroup.Writable, IAzApplicationGroup.get_Writable, IAzApplicationGroup::Writable, IAzApplicationGroup::get_Writable, Writable property [Security], Writable property [Security],AzApplicationGroup object, Writable property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Writable, azroles/IAzApplicationGroup::get_Writable, get_Writable, security.iazapplicationgroup_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices

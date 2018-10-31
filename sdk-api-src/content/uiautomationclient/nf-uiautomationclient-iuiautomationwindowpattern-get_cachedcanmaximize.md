@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMaximize.htm
 tech.root: WinAuto
 ms.assetid: 614b6030-79c2-4c09-a28d-801d5b3832d9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CachedCanMaximize property [Windows Accessibility], CachedCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMaximize property, IUIAutomationWindowPattern.CachedCanMaximize, IUIAutomationWindowPattern.get_CachedCanMaximize, IUIAutomationWindowPattern::CachedCanMaximize, IUIAutomationWindowPattern::get_CachedCanMaximize, get_CachedCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize
 ms.prod: windows-hardware
 ms.technology: windows-devices

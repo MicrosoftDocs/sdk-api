@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerCollection.htm
 tech.root: shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell],described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,9 +97,13 @@ The author of a sync handler implements this interface to support multiple devic
 
 The following example shows an outline implementation of this interface.
 
-
-```cpp
-class CMyHandlerCollection : public ISyncMgrHandlerCollection
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>class CMyHandlerCollection : public ISyncMgrHandlerCollection
 {
 public:
     // IUnknown
@@ -129,9 +133,9 @@ STDMETHODIMP CMyHandlerCollection::BindToHandler(
     // by the factory method or by some other method.
     return CMyHandler_Create(pszHandlerID, riid, ppv);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

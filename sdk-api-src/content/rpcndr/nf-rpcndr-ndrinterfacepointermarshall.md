@@ -4,10 +4,10 @@ title: NdrInterfacePointerMarshall function
 author: windows-sdk-content
 description: The NdrInterfacePointerMarshall function marshals the interface pointer into a network buffer to be sent to the server.
 old-location: rpc\ndrinterfacepointermarshall.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: b6a8ca3c-a386-48c9-9347-ef9329678b5d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: NdrInterfacePointerMarshall, NdrInterfacePointerMarshall function [RPC], rpc.ndrinterfacepointermarshall, rpcndr/NdrInterfacePointerMarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Pointer to the format string description.
 
 
 
-Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>.
+Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_comarshalinterface">CoMarshalInterface</a>.
 
 <table>
 <tr>

@@ -4,10 +4,10 @@ title: RtwqCancelDeadline function
 author: windows-sdk-content
 description: Cancels a deadline that was previously set with RtwqSetDeadline.
 old-location: base\rtwqcanceldeadline.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 4128B655-AFF9-4AEF-8EDB-A6DC8DA05FE9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RtwqCancelDeadline, RtwqCancelDeadline function, base.rtwqcanceldeadline, rtworkq/RtwqCancelDeadline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\wordlist_type.htm
 tech.root: Intl
 ms.assetid: F1D517F3-CAE3-46DC-867E-D8D73C20CF9A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WORDLIST_TYPE, WORDLIST_TYPE enumeration [Internationalization for Windows Applications], WORDLIST_TYPE_ADD, WORDLIST_TYPE_AUTOCORRECT, WORDLIST_TYPE_EXCLUDE, WORDLIST_TYPE_IGNORE, intl.wordlist_type, spellcheck/WORDLIST_TYPE, spellcheck/WORDLIST_TYPE_ADD, spellcheck/WORDLIST_TYPE_AUTOCORRECT, spellcheck/WORDLIST_TYPE_EXCLUDE, spellcheck/WORDLIST_TYPE_IGNORE
 ms.prod: windows
 ms.technology: windows-sdk

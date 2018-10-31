@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenterconfig.htm
 tech.root: DirectShow
 ms.assetid: cbf0fac4-c976-4c1a-ab3a-75ae0d565544
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IVMRImagePresenterConfig, IVMRImagePresenterConfig interface [DirectShow], IVMRImagePresenterConfig interface [DirectShow],described, IVMRImagePresenterConfigInterface, dshow.ivmrimagepresenterconfig, strmif/IVMRImagePresenterConfig
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\vardecabs.htm
 tech.root: automat
 ms.assetid: edd11182-319f-4f7d-917e-b0fec57574d7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarDecAbs, VarDecAbs function [Automation], _oa96_VarDecAbs, automat.vardecabs, oleauto/VarDecAbs
 ms.prod: windows-hardware
 ms.technology: windows-devices

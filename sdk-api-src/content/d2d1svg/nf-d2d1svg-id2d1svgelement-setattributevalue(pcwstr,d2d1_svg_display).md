@@ -4,10 +4,10 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
 author: windows-sdk-content
 description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
 old-location: direct2d\id2d1svgelement_setattributevalue_7.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7B5828F9-F69D-4346-A2EB-5D00AD08B46F
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_7
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_BrowseObject.htm
 tech.root: shell
 ms.assetid: e391ca11-25e3-4d97-8efd-0afd74a3e5c2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: BrowseObject, BrowseObject method [Windows Shell], BrowseObject method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],BrowseObject method, IShellBrowser.BrowseObject, IShellBrowser::BrowseObject, SBSP_ABSOLUTE, SBSP_ACTIVATE_NOFOCUS, SBSP_ALLOW_AUTONAVIGATE, SBSP_CALLERUNTRUSTED, SBSP_CREATENOHISTORY, SBSP_DEFBROWSER, SBSP_DEFMODE, SBSP_EXPLOREMODE, SBSP_FEEDNAVIGATION, SBSP_HELPMODE, SBSP_INITIATEDBYHLINKFRAME, SBSP_KEEPSAMETEMPLATE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_NEWBROWSER, SBSP_NOAUTOSELECT, SBSP_NOTRANSFERHIST, SBSP_OPENMODE, SBSP_PARENT, SBSP_PLAYNOSOUND, SBSP_REDIRECT, SBSP_RELATIVE, SBSP_SAMEBROWSER, SBSP_TRUSTEDFORACTIVEX, SBSP_TRUSTFIRSTDOWNLOAD, SBSP_UNTRUSTEDFORDOWNLOAD, SBSP_WRITENOHISTORY, _win32_IShellBrowser_BrowseObject, shell.IShellBrowser_BrowseObject, shobjidl_core/IShellBrowser::BrowseObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -311,19 +311,23 @@ Views can use this method to force Windows Explorer to browse to a specific plac
 
 
 
-
-```cpp
-IShellBrowser* psb;
-hr = IUnknown_QueryService(punkSite, SID_STopLevelBrowser, IID_PPV_ARGS(&psb));
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IShellBrowser* psb;
+hr = IUnknown_QueryService(punkSite, SID_STopLevelBrowser, IID_PPV_ARGS(&amp;psb));
 
 if (SUCCEEDED(hr))
 {
-    hr = psb->BrowseObject(pidlSearch, SBSP_DEFBROWSER | SBSP_ABSOLUTE);
-    psb->Release();
-}
-```
-
-
+    hr = psb-&gt;BrowseObject(pidlSearch, SBSP_DEFBROWSER | SBSP_ABSOLUTE);
+    psb-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

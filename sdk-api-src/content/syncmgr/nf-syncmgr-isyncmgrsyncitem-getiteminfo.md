@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemInfo.htm
 tech.root: shell
 ms.assetid: b6257d66-36c8-41d6-88f0-99417755582b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Shell], GetItemInfo method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemInfo method, ISyncMgrSyncItem.GetItemInfo, ISyncMgrSyncItem::GetItemInfo, _shell_ISyncMgrSyncItem_GetItemInfo, shell.ISyncMgrSyncItem_GetItemInfo, syncmgr/ISyncMgrSyncItem::GetItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ If <b>GetItemInfo</b> fails, the sync item is still shown in the handler's folde
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
                               __out ISyncMgrSyncItemInfo **ppItemInfo)
 {
     *ppItemInfo = NULL;
@@ -99,9 +103,9 @@ STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
     HRESULT hr = QueryInterface(IID_ISyncMgrSyncItemInfo, (void**)ppItemInfo);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

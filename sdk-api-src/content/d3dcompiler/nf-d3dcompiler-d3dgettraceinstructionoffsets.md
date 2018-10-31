@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgettraceinstructionoffsets.htm
 tech.root: direct3dhlsl
 ms.assetid: 9E27C70C-C266-48A6-81C7-E9A5E430B48B
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3DGetTraceInstructionOffsets, D3DGetTraceInstructionOffsets function [HLSL], d3dcompiler/D3DGetTraceInstructionOffsets, direct3dhlsl.d3dgettraceinstructionoffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ A new kind of Microsoft High Level Shader Language (HLSL) debugging information 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

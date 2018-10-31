@@ -4,10 +4,10 @@ title: ID2D1RenderInfo::SetCached
 author: windows-sdk-content
 description: Specifies that the output of the transform in which the render information is encapsulated is or is not cached.
 old-location: direct2d\id2d1renderinfo_setcached.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2325A132-5B34-48B2-90F0-2A31892E0AD8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetCached method, ID2D1RenderInfo.SetCached, ID2D1RenderInfo::SetCached, SetCached, SetCached method [Direct2D], SetCached method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetCached, direct2d.id2d1renderinfo_setcached
 ms.prod: windows-hardware
 ms.technology: windows-devices

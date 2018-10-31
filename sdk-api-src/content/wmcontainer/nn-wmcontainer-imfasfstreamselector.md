@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector.htm
 tech.root: medfound
 ms.assetid: d2e1fc15-2e12-4698-a4b1-ca8046d228de
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], IMFASFStreamSelector interface [Media Foundation],described, d2e1fc15-2e12-4698-a4b1-ca8046d228de, mf.imfasfstreamselector, wmcontainer/IMFASFStreamSelector
 ms.prod: windows
 ms.technology: windows-sdk

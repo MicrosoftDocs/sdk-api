@@ -4,10 +4,10 @@ title: TdhLoadManifest function
 author: windows-sdk-content
 description: Loads the manifest used to decode a log file.
 old-location: etw\tdhloadmanifest.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 85dfcf73-ea3a-47e2-ad1a-3891b3917ecf
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifest, tdh/TdhLoadManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices

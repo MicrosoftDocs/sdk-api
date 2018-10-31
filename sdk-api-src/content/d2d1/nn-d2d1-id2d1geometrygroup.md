@@ -4,10 +4,10 @@ title: ID2D1GeometryGroup
 author: windows-sdk-content
 description: Represents a composite geometry, composed of other ID2D1Geometry objects.
 old-location: direct2d\ID2D1GeometryGroup.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 15c3800c-b57c-4c3c-995f-407beee4cc99
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1GeometryGroup, ID2D1GeometryGroup interface [Direct2D], ID2D1GeometryGroup interface [Direct2D],described, d2d1/ID2D1GeometryGroup, direct2d.ID2D1GeometryGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ if (SUCCEEDED(hr))
 </table></span></div>
 The following illustration shows the results of rendering the two group geometries from the example.
 
-<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="./images/create_geometry_group.png"/>
+<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="images/create_geometry_group.png"/>
 
 <div class="code"></div>
 

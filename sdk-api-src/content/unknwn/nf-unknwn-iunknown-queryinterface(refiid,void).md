@@ -7,7 +7,7 @@ old-location: com\iunknown_queryinterface.htm
 tech.root: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(REFIID,void), IUnknown::QueryInterface, IUnknown::QueryInterface(REFIID,void), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,14 @@ This method calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-80
 The identifier of the interface being requested.
 
 
-#### - ppvObject [out]
+### -param ppvObject
+
+TBD
+
+
+
+
+#### - arg1 [out]
 
 The address of a pointer variable that receives the interface pointer requested in the <i>riid</i> parameter. Upon successful return, *<i>ppvObject</i> contains the requested interface pointer to the object. If the object does not support the interface, *<i>ppvObject</i> is set to <b>NULL</b>.
 

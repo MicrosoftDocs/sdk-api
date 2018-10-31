@@ -7,7 +7,7 @@ old-location: automat\varcymuli8.htm
 tech.root: automat
 ms.assetid: 52f73532-db69-4220-aed3-caedb671b935
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarCyMulI8, VarCyMulI8 function [Automation], _oa96_VarCyMulI8, automat.varcymuli8, oleauto/VarCyMulI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

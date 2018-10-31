@@ -4,10 +4,10 @@ title: lineSetCallData function
 author: windows-sdk-content
 description: The lineSetCallData function sets the CallData member in LINECALLINFO.
 old-location: tapi2\linesetcalldata.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: f428f952-f8ff-4b55-a957-58fdb35a8c0e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_linesetcalldata, lineSetCallData, lineSetCallData function [TAPI 2.2], tapi/lineSetCallData, tapi2.linesetcalldata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

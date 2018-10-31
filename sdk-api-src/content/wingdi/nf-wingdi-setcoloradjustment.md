@@ -7,7 +7,7 @@ old-location: gdi\setcoloradjustment.htm
 tech.root: gdi
 ms.assetid: 292d6cdc-cafa-438a-9392-a9c22e7d44a5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetColorAdjustment, SetColorAdjustment function [Windows GDI], _win32_SetColorAdjustment, gdi.setcoloradjustment, wingdi/SetColorAdjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices

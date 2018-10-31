@@ -7,7 +7,7 @@ old-location: com\ipersiststorage.htm
 tech.root: com
 ms.assetid: 1c1a20fc-c101-4cbc-a7a6-30613aa387d7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IPersistStorage, IPersistStorage interface [COM], IPersistStorage interface [COM],described, _com_ipersiststorage, com.ipersiststorage, objidl/IPersistStorage
 ms.prod: windows
 ms.technology: windows-sdk

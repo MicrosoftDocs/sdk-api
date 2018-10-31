@@ -7,7 +7,7 @@ old-location: projfs\prj_placeholder_version_info.htm
 tech.root: ProjFS
 ms.assetid: 4F2156AC-087B-4FF6-8566-25D9DC2A8C06
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PRJ_PLACEHOLDER_VERSION_INFO, PRJ_PLACEHOLDER_VERSION_INFO structure, ProjFS.prj_placeholder_version_info, projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO
 ms.prod: windows
 ms.technology: windows-sdk

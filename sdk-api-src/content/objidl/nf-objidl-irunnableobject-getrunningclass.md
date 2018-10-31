@@ -7,7 +7,7 @@ old-location: com\irunnableobject_getrunningclass.htm
 tech.root: com
 ms.assetid: dfe80741-ceda-44cd-8506-1807bb664ad0
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: GetRunningClass, GetRunningClass method [COM], GetRunningClass method [COM],IRunnableObject interface, IRunnableObject interface [COM],GetRunningClass method, IRunnableObject.GetRunningClass, IRunnableObject::GetRunningClass, _com_irunnableobject_getrunningclass, com.irunnableobject_getrunningclass, objidl/IRunnableObject::GetRunningClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

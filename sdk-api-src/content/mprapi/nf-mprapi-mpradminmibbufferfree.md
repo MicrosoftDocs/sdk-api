@@ -4,10 +4,10 @@ title: MprAdminMIBBufferFree function
 author: windows-sdk-content
 description: The MprAdminMIBBufferFree function frees buffers returned by the following functions:
 old-location: rras\mpradminmibbufferfree.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

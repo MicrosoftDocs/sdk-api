@@ -4,10 +4,10 @@ title: IWdsTransportContent::RetrieveSessions
 author: windows-sdk-content
 description: Retrieves a collection of active transport sessions associated with this content.
 old-location: wds\iwdstransportcontent_retrievesessions.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],RetrieveSessions method, IWdsTransportContent.RetrieveSessions, IWdsTransportContent::RetrieveSessions, RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices

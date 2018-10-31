@@ -4,10 +4,10 @@ title: tagTVITEMCHANGE
 author: windows-sdk-content
 description: Contains information on a tree-view item change. This structure is sent with the TVN_ITEMCHANGED and TVN_ITEMCHANGING notifications.
 old-location: controls\NMTVITEMCHANGE.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvitemchange.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: NMTVITEMCHANGE, NMTVITEMCHANGE structure [Windows Controls], _shell_NMTVITEMCHANGE, _shell_NMTVITEMCHANGE_cpp, commctrl/NMTVITEMCHANGE, controls.NMTVITEMCHANGE, controls._shell_NMTVITEMCHANGE, tagTVITEMCHANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information on a tree-view item change. This structure is sent with the <a href="https://msdn.microsoft.com/en-us/library/Bb773526(v=VS.85).aspx">TVN_ITEMCHANGED</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773530(v=VS.85).aspx">TVN_ITEMCHANGING</a> notifications. 
+Contains information on a tree-view item change. This structure is sent with the <a href="https://msdn.microsoft.com/b09164bc-54da-457a-9fb7-3beab3dae3e4">TVN_ITEMCHANGED</a> and <a href="https://msdn.microsoft.com/c997871c-8eca-46c0-999d-2f6d7e3e6c96">TVN_ITEMCHANGING</a> notifications. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information on a tree-view item change. This structure is sent with the
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification.
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification.
 
 
 ### -field uChanged

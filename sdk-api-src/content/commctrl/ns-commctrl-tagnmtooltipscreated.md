@@ -4,10 +4,10 @@ title: tagNMTOOLTIPSCREATED
 author: windows-sdk-content
 description: Contains information used with NM_TOOLTIPSCREATED notification codes.
 old-location: controls\NMTOOLTIPSCREATED.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmtooltipscreated.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED structure pointer [Windows Controls], NMTOOLTIPSCREATED, NMTOOLTIPSCREATED structure [Windows Controls], _win32_NMTOOLTIPSCREATED, _win32_NMTOOLTIPSCREATED_cpp, commctrl/LPNMTOOLTIPSCREATED, commctrl/NMTOOLTIPSCREATED, controls.NMTOOLTIPSCREATED, controls._win32_NMTOOLTIPSCREATED, tagNMTOOLTIPSCREATED"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used with <a href="https://msdn.microsoft.com/en-us/library/Bb775570(v=VS.85).aspx">NM_TOOLTIPSCREATED</a> notification codes. 
+Contains information used with <a href="https://msdn.microsoft.com/8108f084-212d-4a16-b604-1ec134b1bb43">NM_TOOLTIPSCREATED</a> notification codes. 
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information used with <a href="https://msdn.microsoft.com/en-us/library
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field hwndToolTips

@@ -7,7 +7,7 @@ old-location: automat\custdataitem.htm
 tech.root: automat
 ms.assetid: dae0f1be-0b77-4af6-9983-d8cb313e5276
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPCUSTDATAITEM, CUSTDATAITEM, CUSTDATAITEM structure [Automation], LPCUSTDATAITEM, LPCUSTDATAITEM structure pointer [Automation], _oa96_CUSTDATAITEM, automat.custdataitem, oaidl/CUSTDATAITEM, oaidl/LPCUSTDATAITEM, tagCUSTDATAITEM"
 ms.prod: windows
 ms.technology: windows-sdk

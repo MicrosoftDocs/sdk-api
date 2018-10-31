@@ -7,7 +7,7 @@ old-location: com\ipersiststream_getsizemax.htm
 tech.root: com
 ms.assetid: ef9f0afe-b7e5-4b88-b59d-1371ffeaacb8
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStream interface, IPersistStream interface [COM],GetSizeMax method, IPersistStream.GetSizeMax, IPersistStream::GetSizeMax, _com_ipersiststream_getsizemax, com.ipersiststream_getsizemax, objidl/IPersistStream::GetSizeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices

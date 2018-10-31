@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__registersoftwaredevice.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__registersoftwaredevice.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirect3D9 interface [Direct3D 9],RegisterSoftwareDevice method, IDirect3D9.RegisterSoftwareDevice, IDirect3D9::RegisterSoftwareDevice, RegisterSoftwareDevice, RegisterSoftwareDevice method [Direct3D 9], RegisterSoftwareDevice method [Direct3D 9],IDirect3D9 interface, d3d9helper/IDirect3D9::RegisterSoftwareDevice, direct3d9.idirect3d9__registersoftwaredevice, e610f417-a861-aa97-bbbf-2a9305b15f2d
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Pointer to the initialization function for the software device to be registered.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL. The method call is invalid. For example, a method's parameter may have an invalid value: D3DERR_OUTOFVIDEOMEMORY. 
 
@@ -87,7 +87,7 @@ If the user's computer provides no special hardware acceleration for 3D operatio
 
 Software devices communicate with Direct3D through an interface similar to the hardware device driver interface (DDI).
 
-Software devices are loaded by the application and registered with the <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> object. Direct3D uses the software device for rendering. 
+Software devices are loaded by the application and registered with the <a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a> object. Direct3D uses the software device for rendering. 
 
 The Direct3D Driver Development Kit (DDK) provides the documentation and headers for developing pluggable software devices.
 
@@ -99,7 +99,7 @@ The Direct3D Driver Development Kit (DDK) provides the documentation and headers
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

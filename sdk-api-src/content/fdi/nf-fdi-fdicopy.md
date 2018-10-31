@@ -4,10 +4,10 @@ title: FDICopy function
 author: windows-sdk-content
 description: The FDICopy function extracts files from cabinets.
 old-location: winprog\fdicopy.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getwindowposition.htm
 tech.root: DirectShow
 ms.assetid: df55c10d-aec1-42f3-8bfb-207ae8804e72
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetWindowPosition, GetWindowPosition method [DirectShow], GetWindowPosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetWindowPosition method, IVideoWindow.GetWindowPosition, IVideoWindow::GetWindowPosition, IVideoWindowGetWindowPosition, control/IVideoWindow::GetWindowPosition, dshow.ivideowindow_getwindowposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,7 +138,7 @@ The video renderer filter is not connected.
 
 
 
-This method has the same effect as calling the <a href="https://msdn.microsoft.com/en-us/library/Dd377296(v=VS.85).aspx">IVideoWindow::get_Left</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd377299(v=VS.85).aspx">IVideoWindow::get_Top</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd377301(v=VS.85).aspx">IVideoWindow::get_Width</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd377295(v=VS.85).aspx">IVideoWindow::get_Height</a> methods.
+This method has the same effect as calling the <a href="https://msdn.microsoft.com/6d75c926-588c-4fb2-b537-f27602799b2e">IVideoWindow::get_Left</a>, <a href="https://msdn.microsoft.com/00baab45-d740-4f74-bd53-eb2ff21c5dcc">IVideoWindow::get_Top</a>, <a href="https://msdn.microsoft.com/179b065a-7269-40fa-8772-b336f27d69de">IVideoWindow::get_Width</a>, and <a href="https://msdn.microsoft.com/c1d29cd5-1e82-4406-b007-aa7b581d158e">IVideoWindow::get_Height</a> methods.
 
 
 
@@ -148,15 +148,15 @@ This method has the same effect as calling the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377334(v=VS.85).aspx">IVideoWindow::SetWindowPosition</a>
+<a href="https://msdn.microsoft.com/5e667044-1781-4380-b855-d15cf8cd2349">IVideoWindow::SetWindowPosition</a>
  
 
  

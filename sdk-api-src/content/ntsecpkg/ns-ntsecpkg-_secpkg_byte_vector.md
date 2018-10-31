@@ -7,7 +7,7 @@ old-location: security\secpkg_byte_vector.htm
 tech.root: secauthn
 ms.assetid: 2EB8591E-8FBC-47DA-8128-F82D82CB0B26
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: "*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR structure pointer [Security], SECPKG_BYTE_VECTOR, SECPKG_BYTE_VECTOR structure [Security], _SECPKG_BYTE_VECTOR, ntsecpkg/PSECPKG_BYTE_VECTOR, ntsecpkg/SECPKG_BYTE_VECTOR, security.secpkg_byte_vector"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ldap_value_freeW function
 author: windows-sdk-content
 description: Frees a structure returned by ldap_get_values.
 old-location: ldap\ldap_value_free.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 67c9f04c-4b8e-4e97-902d-fceccf27f522
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ldap_value_free, ldap.ldap__value__free, ldap.ldap_value_free, ldap_value_free, ldap_value_free function [LDAP], ldap_value_freeA, ldap_value_freeW, winldap/ldap_value_free, winldap/ldap_value_freeA, winldap/ldap_value_freeW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

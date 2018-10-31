@@ -7,7 +7,7 @@ old-location: mf\stream_medium.htm
 tech.root: medfound
 ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], _STREAM_MEDIUM, mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory3_getcreationflags.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B4A5DC9-6853-4047-B64D-BD251352AC89
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method [DXGI], GetCreationFlags method [DXGI],IDXGIFactory3 interface, IDXGIFactory3 interface [DXGI],GetCreationFlags method, IDXGIFactory3.GetCreationFlags, IDXGIFactory3::GetCreationFlags, direct3ddxgi.idxgifactory3_getcreationflags, dxgi1_3/IDXGIFactory3::GetCreationFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ The creation flags.
 
 
 
-The <b>GetCreationFlags</b> method returns flags that were passed to the  <a href="https://msdn.microsoft.com/D3CF43B0-8F17-486E-8750-CF0B9052BE74">CreateDXGIFactory2</a> function, or were implicitly constructed by <a href="https://msdn.microsoft.com/en-us/library/Bb204862(v=VS.85).aspx">CreateDXGIFactory</a>, <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a>,  <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, or <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>.
+The <b>GetCreationFlags</b> method returns flags that were passed to the  <a href="https://msdn.microsoft.com/D3CF43B0-8F17-486E-8750-CF0B9052BE74">CreateDXGIFactory2</a> function, or were implicitly constructed by <a href="https://msdn.microsoft.com/5d8fb726-b2dc-4326-a7ad-8324af3924de">CreateDXGIFactory</a>, <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a>,  <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, or <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>.
 
 
 

@@ -4,10 +4,10 @@ title: D2D1_BLEND
 author: windows-sdk-content
 description: Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.
 old-location: direct2d\d2d1_blend.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9bc91efd-f695-4bc6-a63e-a3862cca91dd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_BLEND, D2D1_BLEND enumeration [Direct2D], D2D1_BLEND_BLEND_FACTOR, D2D1_BLEND_DEST_ALPHA, D2D1_BLEND_DEST_COLOR, D2D1_BLEND_INV_BLEND_FACTOR, D2D1_BLEND_INV_DEST_ALPHA, D2D1_BLEND_INV_DEST_COLOR, D2D1_BLEND_INV_SRC_ALPHA, D2D1_BLEND_INV_SRC_COLOR, D2D1_BLEND_ONE, D2D1_BLEND_SRC_ALPHA, D2D1_BLEND_SRC_ALPHA_SAT, D2D1_BLEND_SRC_COLOR, D2D1_BLEND_ZERO, d2d1effectauthor/D2D1_BLEND, d2d1effectauthor/D2D1_BLEND_BLEND_FACTOR, d2d1effectauthor/D2D1_BLEND_DEST_ALPHA, d2d1effectauthor/D2D1_BLEND_DEST_COLOR, d2d1effectauthor/D2D1_BLEND_INV_BLEND_FACTOR, d2d1effectauthor/D2D1_BLEND_INV_DEST_ALPHA, d2d1effectauthor/D2D1_BLEND_INV_DEST_COLOR, d2d1effectauthor/D2D1_BLEND_INV_SRC_ALPHA, d2d1effectauthor/D2D1_BLEND_INV_SRC_COLOR, d2d1effectauthor/D2D1_BLEND_ONE, d2d1effectauthor/D2D1_BLEND_SRC_ALPHA, d2d1effectauthor/D2D1_BLEND_SRC_ALPHA_SAT, d2d1effectauthor/D2D1_BLEND_SRC_COLOR, d2d1effectauthor/D2D1_BLEND_ZERO, direct2d.d2d1_blend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,7 +132,7 @@ The data source is the blend factor. The preblend operation inverts the blend fa
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND</a>.
+This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/0d3a337d-3d16-4a0a-9611-b511c8fb39b4">D3D10_BLEND</a>.
 
 
 
@@ -142,7 +142,7 @@ This enumeration has the same numeric values as <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404277(v=VS.85).aspx">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
 
 
 

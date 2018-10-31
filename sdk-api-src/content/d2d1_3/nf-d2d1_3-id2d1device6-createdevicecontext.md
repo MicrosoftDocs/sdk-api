@@ -4,10 +4,10 @@ title: ID2D1Device6::CreateDeviceContext
 author: windows-sdk-content
 description: Creates a new device context with no initially assigned target.
 old-location: direct2d\id2d1device6_createdevicecontext.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: DF0BF258-7817-4F5A-A5FA-C04D4A1D0AB6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device6 interface, ID2D1Device6 interface [Direct2D],CreateDeviceContext method, ID2D1Device6.CreateDeviceContext, ID2D1Device6::CreateDeviceContext, d2d1_3/ID2D1Device6::CreateDeviceContext, direct2d.id2d1device6_createdevicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfcapturesink_removeallstreams.htm
 tech.root: medfound
 ms.assetid: 7E05D04F-BDE8-4053-A7C4-B74AC5FA76B7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],RemoveAllStreams method, IMFCaptureSink.RemoveAllStreams, IMFCaptureSink::RemoveAllStreams, RemoveAllStreams, RemoveAllStreams method [Media Foundation], RemoveAllStreams method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_removeallstreams, mfcaptureengine/IMFCaptureSink::RemoveAllStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

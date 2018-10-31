@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextRange.htm
 tech.root: WinAuto
 ms.assetid: D7F5BB02-9932-447D-A6C9-35B17B4FCD83
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextRange property, IUIAutomationTextChildPattern.TextRange, IUIAutomationTextChildPattern.get_TextRange, IUIAutomationTextChildPattern::TextRange, IUIAutomationTextChildPattern::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextRange, uiautomationclient/IUIAutomationTextChildPattern::TextRange, uiautomationclient/IUIAutomationTextChildPattern::get_TextRange, winauto.uiauto_IUIAutomationTextChildPattern_TextRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

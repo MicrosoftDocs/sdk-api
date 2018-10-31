@@ -4,10 +4,10 @@ title: linePrepareAddToConferenceW function
 author: windows-sdk-content
 description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
 old-location: tapi2\lineprepareaddtoconference.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: e1603b36-8bcb-4665-b711-6d2b6794c963
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_lineprepareaddtoconference, linePrepareAddToConference, linePrepareAddToConference function [TAPI 2.2], linePrepareAddToConferenceA, linePrepareAddToConferenceW, tapi/linePrepareAddToConference, tapi/linePrepareAddToConferenceA, tapi/linePrepareAddToConferenceW, tapi2.lineprepareaddtoconference"
 ms.prod: windows-hardware
 ms.technology: windows-devices

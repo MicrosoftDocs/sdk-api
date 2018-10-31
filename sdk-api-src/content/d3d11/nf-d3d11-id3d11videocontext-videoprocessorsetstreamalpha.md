@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamalpha.htm
 tech.root: medfound
 ms.assetid: DA869E3F-25BB-4794-B7AE-A3C2DA968800
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAlpha method, ID3D11VideoContext.VideoProcessorSetStreamAlpha, ID3D11VideoContext::VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha method [Media Foundation], VideoProcessorSetStreamAlpha method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAlpha, mf.id3d11videocontext_videoprocessorsetstreamalpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDF
 
 ### -param StreamIndex [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 
 ### -param Enable [in]
@@ -92,7 +92,7 @@ This method does not return a value.
 
 
 
-To use this feature, the driver must support stereo video, indicated by the  <a href="https://msdn.microsoft.com/en-us/library/Hh447650(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALHPA_STREAM</a> capability flag. To query for this  capability, call <a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>.
+To use this feature, the driver must support stereo video, indicated by the  <a href="https://msdn.microsoft.com/EF79BE15-B92E-45C1-BC42-E89E06197C20">D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALHPA_STREAM</a> capability flag. To query for this  capability, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>.
 
 Alpha blending is disabled by default. 
         
@@ -112,7 +112,7 @@ where:
 </ul>
 <div class="alert"><b>Note</b>  Palette-entry alpha values apply only to palettized color formats, and only when the device supports the <b>D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE</b> capability. Otherwise, this factor equals 1.0. </div>
 <div> </div>
-The destination alpha value is computed according to the alpha fill mode. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Hh447746(v=VS.85).aspx">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>.
+The destination alpha value is computed according to the alpha fill mode. For more information, see <a href="https://msdn.microsoft.com/898604FA-B857-4D84-AA0D-3BC517F75A36">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>.
 
 
 
@@ -122,7 +122,7 @@ The destination alpha value is computed according to the alpha fill mode. For mo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a>
+<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
  
 
  

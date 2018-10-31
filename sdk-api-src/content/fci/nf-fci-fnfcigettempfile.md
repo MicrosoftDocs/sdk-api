@@ -4,10 +4,10 @@ title: FNFCIGETTEMPFILE macro
 author: windows-sdk-content
 description: The FNFCIGETTEMPFILE macro provides the declaration for the application-defined callback function to obtain a temporary file name.
 old-location: winprog\fnfcigettempfile.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 8978f688-d8f1-437a-b298-eed1e7dac012
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGETTEMPFILE, winprog.fnfcigettempfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,13 @@ The function can return a filename that already exists by the time it is opened.
 
 #### Examples
 
-
-```cpp
-FNFCIGETTEMPFILE(fnGetTempFileName)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIGETTEMPFILE(fnGetTempFileName)
 {
     BOOL bSucceeded = FALSE;
     CHAR pszTempPath[MAX_PATH];
@@ -104,10 +108,10 @@ FNFCIGETTEMPFILE(fnGetTempFileName)
 
     return bSucceeded;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

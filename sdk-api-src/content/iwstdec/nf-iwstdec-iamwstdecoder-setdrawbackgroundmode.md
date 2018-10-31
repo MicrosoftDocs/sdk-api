@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setdrawbackgroundmode.htm
 tech.root: DirectShow
 ms.assetid: d237d3dc-b3c9-44b2-9277-798c4830b361
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

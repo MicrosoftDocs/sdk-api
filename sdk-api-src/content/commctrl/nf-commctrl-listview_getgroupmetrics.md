@@ -4,10 +4,10 @@ title: ListView_GetGroupMetrics macro
 author: windows-sdk-content
 description: Gets information about the display of groups. You can use this macro or send the LVM_GETGROUPMETRICS message explicitly.
 old-location: controls\ListView_GetGroupMetrics.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupmetrics.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ListView_GetGroupMetrics, ListView_GetGroupMetrics macro [Windows Controls], _win32_ListView_GetGroupMetrics, _win32_ListView_GetGroupMetrics_cpp, commctrl/ListView_GetGroupMetrics, controls.ListView_GetGroupMetrics, controls._win32_ListView_GetGroupMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774934(v=VS.85).aspx">LVM_GETGROUPMETRICS</a> message explicitly. 
+Gets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/75e7da66-50c6-4834-ae66-e43b8f9b0b34">LVM_GETGROUPMETRICS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets information about the display of groups. You can use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -69,13 +69,13 @@ A handle to the list-view control.
 
 Type: <b>PLVGROUPMETRICS</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774752(v=VS.85).aspx">LVGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/8cbe72d0-7d99-48fb-b10b-bc862ba93f6e">LVGROUPMETRICS</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

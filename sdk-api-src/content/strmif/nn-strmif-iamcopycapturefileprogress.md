@@ -7,7 +7,7 @@ old-location: dshow\iamcopycapturefileprogress.htm
 tech.root: DirectShow
 ms.assetid: 780ffe63-f4b6-4b3c-b7a6-571b58aba4dd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAMCopyCaptureFileProgress, IAMCopyCaptureFileProgress interface [DirectShow], IAMCopyCaptureFileProgress interface [DirectShow],described, IAMCopyCaptureFileProgressInterface, dshow.iamcopycapturefileprogress, strmif/IAMCopyCaptureFileProgress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,13 @@ To use this interface, implement a class that inherits the interface and impleme
 
 The following example shows a class that implements the interface:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 class CProgress : public IAMCopyCaptureFileProgress 
 {
 public:
@@ -110,11 +114,11 @@ public:
         }
         else if (iid == __uuidof(IUnknown))
         {
-            *ppv = static_cast<IUnknown*>(this);
+            *ppv = static_cast&lt;IUnknown*&gt;(this);
         }
         else if (iid == IID_IAMCopyCaptureFileProgress) 
         {
-            *ppv = static_cast<IAMCopyCaptureFileProgress*>(this);
+            *ppv = static_cast&lt;IAMCopyCaptureFileProgress*&gt;(this);
         }
         else
         {
@@ -124,7 +128,7 @@ public:
     }
     STDMETHODIMP Progress(int iPercent) 
     {
-        if (iPercent < 0 || iPercent > 100) 
+        if (iPercent &lt; 0 || iPercent &gt; 100) 
         {
             return E_INVALIDARG;
         }
@@ -137,26 +141,30 @@ public:
         return S_OK;
     };
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example uses this class in the <b>CopyCaptureFile</b> method:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Scope for CProgress object
 {
     CProgress Prog;
     // Assume pBuilder is an initialized ICaptureGraphBuilder2 pointer.
-    hr = pBuilder->CopyCaptureFile(szCaptureFile, szDestFile, TRUE,
-        static_cast<IAMCopyCaptureFileProgress*>(&Prog));
+    hr = pBuilder-&gt;CopyCaptureFile(szCaptureFile, szDestFile, TRUE,
+        static_cast&lt;IAMCopyCaptureFileProgress*&gt;(&amp;Prog));
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

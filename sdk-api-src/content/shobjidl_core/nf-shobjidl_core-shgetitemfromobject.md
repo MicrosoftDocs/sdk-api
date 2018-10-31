@@ -7,7 +7,7 @@ old-location: shell\SHGetItemFromObject.htm
 tech.root: shell
 ms.assetid: 0ef494c0-81c7-4fbd-9c37-78861d8ac63b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SHGetItemFromObject, SHGetItemFromObject function [Windows Shell], _shell_SHGetItemFromObject, shell.SHGetItemFromObject, shobjidl_core/SHGetItemFromObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

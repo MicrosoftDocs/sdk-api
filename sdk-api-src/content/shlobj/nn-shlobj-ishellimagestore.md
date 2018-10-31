@@ -7,7 +7,7 @@ old-location: shell\IShellImageStore.htm
 tech.root: shell
 ms.assetid: 746bd660-17b6-4669-8f23-254f5d7dde82
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IShellImageStore, IShellImageStore interface [Windows Shell], IShellImageStore interface [Windows Shell],described, _win32_IShellImageStore, shell.IShellImageStore, shlobj/IShellImageStore
 ms.prod: windows
 ms.technology: windows-sdk

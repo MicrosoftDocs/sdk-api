@@ -4,10 +4,10 @@ title: QueryIdleProcessorCycleTime function
 author: windows-sdk-content
 description: Retrieves the cycle time for the idle thread of each processor in the system.
 old-location: base\queryidleprocessorcycletime.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

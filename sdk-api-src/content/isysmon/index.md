@@ -2,7 +2,7 @@
 UID: NA:isysmon
 ms.assetid: 3ac65e31-6a89-3725-a3ff-b89ea7a661d5
 ms.author: windowssdkdev
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

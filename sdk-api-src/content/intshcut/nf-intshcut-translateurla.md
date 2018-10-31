@@ -7,7 +7,7 @@ old-location: shell\TranslateURL.htm
 tech.root: shell
 ms.assetid: 2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, TranslateURL, TranslateURL function [Windows Shell], TranslateURLA, TranslateURLW, _win32_TranslateURL, intshcut/TranslateURL, intshcut/TranslateURLA, intshcut/TranslateURLW, shell.TranslateURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

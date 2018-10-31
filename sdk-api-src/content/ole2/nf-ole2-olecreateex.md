@@ -7,7 +7,7 @@ old-location: com\olecreateex.htm
 tech.root: com
 ms.assetid: 11f2703c-b596-4cb9-855a-d8cf4b947fae
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: OleCreateEx, OleCreateEx function [COM], _ole_OleCreateEx, com.olecreateex, ole2/OleCreateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

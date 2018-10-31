@@ -7,7 +7,7 @@ old-location: display\drvloadfontfile.htm
 tech.root: display
 ms.assetid: d9bcf8f8-40bc-48dc-85b7-67773c8a4ded
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DrvLoadFontFile, DrvLoadFontFile function [Display Devices], ddifncs_42238b28-ad71-4df8-b572-4ffd7ca2d3c1.xml, display.drvloadfontfile, winddi/DrvLoadFontFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

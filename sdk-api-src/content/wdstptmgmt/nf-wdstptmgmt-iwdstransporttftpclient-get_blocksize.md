@@ -4,10 +4,10 @@ title: IWdsTransportTftpClient::get_BlockSize
 author: windows-sdk-content
 description: Retrieves the block size used in the TFTP session.
 old-location: wds\iwdstransporttftpclient_blocksize.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 64C3BBAE-F60E-411C-89E6-6DC59B95AF41
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: BlockSize property [Windows Deployment Services], BlockSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],BlockSize property, IWdsTransportTftpClient.BlockSize, IWdsTransportTftpClient.get_BlockSize, IWdsTransportTftpClient::BlockSize, IWdsTransportTftpClient::get_BlockSize, get_BlockSize, wds.iwdstransporttftpclient_blocksize, wdstptmgmt/IWdsTransportTftpClient::BlockSize, wdstptmgmt/IWdsTransportTftpClient::get_BlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

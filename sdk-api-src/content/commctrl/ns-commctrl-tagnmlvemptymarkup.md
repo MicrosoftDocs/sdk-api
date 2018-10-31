@@ -4,10 +4,10 @@ title: tagNMLVEMPTYMARKUP
 author: windows-sdk-content
 description: Contains information used with the LVN_GETEMPTYMARKUP notification code.
 old-location: controls\NMLVEMPTYMARKUP.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EMF_CENTERED, NMLVEMPTYMARKUP, NMLVEMPTYMARKUP structure [Windows Controls], commctrl/NMLVEMPTYMARKUP, controls.NMLVEMPTYMARKUP, controls.shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP_cpp, tagNMLVEMPTYMARKUP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774833(v=VS.85).aspx">LVN_GETEMPTYMARKUP</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/5ea74120-f347-493a-af14-6bda5b8f6082">LVN_GETEMPTYMARKUP</a> notification code. 
 
 
 
@@ -61,14 +61,14 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 Info on the notification message.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 One of the following values. If <b>NULL</b>, markup is rendered left-justified in the listview area.
 
@@ -93,7 +93,7 @@ Render markup centered in the listview area.
 
 ### -field szMarkup
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WCHAR</a>[L_MAX_URL_LENGTH]</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 Markup to display.
 

@@ -4,10 +4,10 @@ title: TpSetCallbackLongFunction function
 author: windows-sdk-content
 description: Indicates that callbacks associated with this callback environment may not return quickly.
 old-location: base\tpsetcallbacklongfunction.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 27E7F647-1005-4499-9787-F2CE6E8B6AFF
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TpSetCallbackLongFunction, TpSetCallbackLongFunction function, base.tpsetcallbacklongfunction, winnt/TpSetCallbackLongFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

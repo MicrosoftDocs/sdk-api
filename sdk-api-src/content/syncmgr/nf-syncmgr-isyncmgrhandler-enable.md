@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_Enable.htm
 tech.root: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,16 +99,20 @@ If the handler does not need to perform any actions when it is activated, it can
 
 The following example shows a simple implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Enable(__in BOOL fEnable)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Enable(__in BOOL fEnable)
 {
     return E_NOTIMPL;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

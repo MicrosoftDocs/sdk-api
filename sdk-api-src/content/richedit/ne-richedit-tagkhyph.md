@@ -4,10 +4,10 @@ title: tagKHYPH
 author: windows-sdk-content
 description: Contains values used to specify how to do hyphenation in a rich edit control. The HyphenateProc callback function uses this enumeration type.
 old-location: controls\KHYPH.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\khyph.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: KHYPH, KHYPH enumeration [Windows Controls], _win32_KHYPH, _win32_KHYPH_cpp, controls.KHYPH, controls._win32_KHYPH, khyphAddBefore, khyphChangeAfter, khyphChangeBefore, khyphDelAndChange, khyphDeleteBefore, khyphNil, khyphNormal, richedit/KHYPH, richedit/khyphAddBefore, richedit/khyphChangeAfter, richedit/khyphChangeBefore, richedit/khyphDelAndChange, richedit/khyphDeleteBefore, richedit/khyphNil, richedit/khyphNormal, tagKHYPH
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains values used to specify how to do hyphenation in a rich edit control. The <a href="https://msdn.microsoft.com/en-us/library/Bb774370(v=VS.85).aspx">HyphenateProc</a> callback function uses this enumeration type. 
+Contains values used to specify how to do hyphenation in a rich edit control. The <a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a> callback function uses this enumeration type. 
 
 
 ## -enum-fields
@@ -90,7 +90,7 @@ Change the letter after the hyphenation mark.
 
 ### -field khyphDelAndChange
 
-The two letters before the hyphenation mark are replaced by one character; see the <b>chHyph</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb787932(v=VS.85).aspx">HYPHRESULT</a>.
+The two letters before the hyphenation mark are replaced by one character; see the <b>chHyph</b> member of <a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>.
 
 
 ## -remarks
@@ -107,11 +107,11 @@ Hyphenation rules are specific for each language; not all hyphenation types are 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787932(v=VS.85).aspx">HYPHRESULT</a>
+<a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774370(v=VS.85).aspx">HyphenateProc</a>
+<a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a>
 
 
 

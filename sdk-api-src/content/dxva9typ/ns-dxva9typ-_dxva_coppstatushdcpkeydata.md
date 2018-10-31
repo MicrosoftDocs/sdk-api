@@ -7,7 +7,7 @@ old-location: dshow\dxva_coppstatushdcpkeydata.htm
 tech.root: DirectShow
 ms.assetid: fd49c50d-6caa-4d2a-83c6-41ff0130160f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [DirectShow], DXVA_COPPStatusHDCPKeyDataStructure, _DXVA_COPPStatusHDCPKeyData, dshow.dxva_coppstatushdcpkeydata, dxva9typ/DXVA_COPPStatusHDCPKeyData
 ms.prod: windows
 ms.technology: windows-sdk

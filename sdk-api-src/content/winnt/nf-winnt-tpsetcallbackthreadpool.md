@@ -4,10 +4,10 @@ title: TpSetCallbackThreadpool function
 author: windows-sdk-content
 description: Assigns a thread pool to a callback environment.
 old-location: base\tpsetcallbackthreadpool.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: A1BED20A-9DB5-4B5A-B1AD-60454176AB1D
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TpSetCallbackThreadpool, TpSetCallbackThreadpool function, base.tpsetcallbackthreadpool, winnt/TpSetCallbackThreadpool
 ms.prod: windows-hardware
 ms.technology: windows-devices

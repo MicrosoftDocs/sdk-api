@@ -4,10 +4,10 @@ title: NdrConformantArrayUnmarshall function
 author: windows-sdk-content
 description: The NdrConformantArrayUnmarshall function unmarshals a conformant array.
 old-location: rpc\ndrconformantarrayunmarshall.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall
 , pStubMsg, pStubMsg function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/pStubMsg
 ms.prod: windows-hardware
@@ -162,13 +162,17 @@ The <b>NdrConformantArrayUnmarshall</b> function is used by both the client- and
 
 #### Examples
 
-
-```cpp
-void  ConfArray([in] long size,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void  ConfArray([in] long size,
         [in,size_is(size)] long *pArray);         // conformant array
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

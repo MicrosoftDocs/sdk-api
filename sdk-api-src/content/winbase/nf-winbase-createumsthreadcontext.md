@@ -4,10 +4,10 @@ title: CreateUmsThreadContext function
 author: windows-sdk-content
 description: Creates a user-mode scheduling (UMS) thread context to represent a UMS worker thread.
 old-location: base\createumsthreadcontext.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: b27ce81a-8463-46af-8acf-2de091f625df
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateUmsThreadContext, CreateUmsThreadContext function, base.createumsthreadcontext, winbase/CreateUmsThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

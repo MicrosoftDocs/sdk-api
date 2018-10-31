@@ -7,7 +7,7 @@ old-location: devinst\cm_query_and_remove_subtree_ex.htm
 tech.root: devinst
 ms.assetid: c8a3af37-0886-4187-9cdb-49616bcb04a9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Query_And_Remove_SubTree_Ex, CM_Query_And_Remove_SubTree_Ex function [Device and Driver Installation], CM_Query_And_Remove_SubTree_ExW, cfgmgr32/CM_Query_And_Remove_SubTree_Ex, cfgmgr32/CM_Query_And_Remove_SubTree_ExW, cfgmgrfn_69fa61ff-b77c-41d7-a263-facf56883977.xml, devinst.cm_query_and_remove_subtree_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,7 +141,7 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539763(v=VS.85).aspx">CM_Reenumerate_DevNode</a>
+<a href="https://msdn.microsoft.com/dcba5021-7517-4922-9c50-ebfa7375e258">CM_Reenumerate_DevNode</a>
 
 
 

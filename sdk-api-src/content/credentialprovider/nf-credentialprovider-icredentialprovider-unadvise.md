@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_UnAdvise.htm
 tech.root: shell
 ms.assetid: d971c7be-f440-41ce-945d-4dbe51554e59
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICredentialProvider.UnAdvise, ICredentialProvider::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method does not need to be implemented, and should return <b>E_NOTIMPL</b> if it does not. There might be no reason to call it, such as if the Logon UI or Credential UI never changes or updates.
 
-If this method is called, it indicates that the <a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a> pointer provided in <a href="https://msdn.microsoft.com/en-us/library/Bb776037(v=VS.85).aspx">Advise</a> is no longer valid. It is the responsibility of the credential provider to call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the provided <b>ICredentialProviderEvents</b> pointer during this method.
+If this method is called, it indicates that the <a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a> pointer provided in <a href="https://msdn.microsoft.com/5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9">Advise</a> is no longer valid. It is the responsibility of the credential provider to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the provided <b>ICredentialProviderEvents</b> pointer during this method.
 
 <div class="alert"><b>Important</b>  <p class="note">You should not use this method to clean up allocated memory for the credential provider. you should do that in the destructor of the credential provider as normal.
 
@@ -91,11 +91,11 @@ If this method is called, it indicates that the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx">ICredentialProvider</a>
+<a href="https://msdn.microsoft.com/7ce6cd61-16d1-414e-b9b3-4929a65c0cc6">ICredentialProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776037(v=VS.85).aspx">ICredentialProvider::Advise</a>
+<a href="https://msdn.microsoft.com/5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9">ICredentialProvider::Advise</a>
  
 
  

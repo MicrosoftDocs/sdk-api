@@ -4,10 +4,10 @@ title: PMIB_SET
 author: windows-sdk-content
 description: The MibSet function passes a SNMP MIB-style Set Request to the routing protocol.
 old-location: rras\mibset.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: f1df3476-f6c5-4f7e-bc86-83e5f8d0cd57
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MibSet, PMIB_SET, PMIB_SET callback, PMIB_SET callback function [RAS], TBD, _mpr_mibset, routprot/PMIB_SET, rras.mibset
 ms.prod: windows
 ms.technology: windows-sdk

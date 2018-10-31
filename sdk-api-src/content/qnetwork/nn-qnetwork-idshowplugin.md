@@ -7,7 +7,7 @@ old-location: dshow\idshowplugin.htm
 tech.root: DirectShow
 ms.assetid: b5b73489-4d2d-4afa-a4df-7b84711f2556
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], IDShowPlugin interface [DirectShow],described, IDShowPluginInterface, dshow.idshowplugin, qnetwork/IDShowPlugin
 ms.prod: windows
 ms.technology: windows-sdk

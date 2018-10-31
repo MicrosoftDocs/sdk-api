@@ -4,10 +4,10 @@ title: PFNDACOMPARECONST
 author: windows-sdk-content
 description: Defines the prototype for the compare function used by DSA_Sort when the items being compared are constant objects.
 old-location: controls\PFNDACOMPARECONST.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompareconst.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PFNDACOMPARECONST, PFNDACOMPARECONST callback, PFNDACOMPARECONST callback function [Windows Controls], PFNDPACOMPARECONST, PFNDSACOMPARECONST, _shell_PFNDACOMPARECONST, _shell_PFNDACOMPARECONST_cpp, controls.PFNDACOMPARECONST, controls._shell_PFNDACOMPARECONST, dpa_dsa/PFNDACOMPARECONST
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines the prototype for the compare function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775670(v=VS.85).aspx">DSA_Sort</a> when the items being compared are constant objects.
+Defines the prototype for the compare function used by <a href="https://msdn.microsoft.com/cf9c56fd-eeca-414a-8c3f-a962d41b1161">DSA_Sort</a> when the items being compared are constant objects.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ Additional data passed to <i>pfnCmp</i>.
 
 Type: <b>int</b>
 
-The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://msdn.microsoft.com/en-us/library/Bb775670(v=VS.85).aspx">DSA_Sort</a> are as follows:                
+The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://msdn.microsoft.com/cf9c56fd-eeca-414a-8c3f-a962d41b1161">DSA_Sort</a> are as follows:                
                     
 
 

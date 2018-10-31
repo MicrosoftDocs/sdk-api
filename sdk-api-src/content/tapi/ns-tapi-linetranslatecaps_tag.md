@@ -4,10 +4,10 @@ title: linetranslatecaps_tag
 author: windows-sdk-content
 description: The LINETRANSLATECAPS structure describes the address translation capabilities.
 old-location: tapi2\linetranslatecaps_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINETRANSLATECAPS, LINETRANSLATECAPS, LINETRANSLATECAPS structure [TAPI 2.2], LPLINETRANSLATECAPS, LPLINETRANSLATECAPS structure pointer [TAPI 2.2], _tapi2_linetranslatecaps_str, linetranslatecaps_tag, tapi/LINETRANSLATECAPS, tapi/LPLINETRANSLATECAPS, tapi2.linetranslatecaps_str"
 ms.prod: windows
 ms.technology: windows-sdk

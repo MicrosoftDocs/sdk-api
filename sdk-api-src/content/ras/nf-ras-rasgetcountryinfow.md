@@ -4,10 +4,10 @@ title: RasGetCountryInfoW function
 author: windows-sdk-content
 description: The RasGetCountryInfo function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 old-location: rras\rasgetcountryinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetCountryInfo, RasGetCountryInfo function [RAS], RasGetCountryInfoA, RasGetCountryInfoW, _ras_rasgetcountryinfo, ras/RasGetCountryInfo, ras/RasGetCountryInfoA, ras/RasGetCountryInfoW, rras.rasgetcountryinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ req.redist:
 The 
 <b>RasGetCountryInfo</b> function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 
-For more information about country/region-specific dialing information and <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
+For more information about country/region-specific dialing information and <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
 
 
 ## -parameters

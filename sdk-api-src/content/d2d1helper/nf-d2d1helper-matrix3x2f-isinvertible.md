@@ -4,10 +4,10 @@ title: Matrix3x2F::IsInvertible
 author: windows-sdk-content
 description: Indicates whether the matrix is invertible.
 old-location: direct2d\matrix3x2f_isinvertible.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 8c82752f-1287-45c9-8eec-ad924f650045
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1.Matrix3x2F.IsInvertible, D2D1::Matrix3x2F::IsInvertible, IsInvertible, IsInvertible method [Direct2D], IsInvertible method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],IsInvertible method, Matrix3x2F.IsInvertible, Matrix3x2F::IsInvertible, d2d1helper/Matrix3x2F::IsInvertible, direct2d.matrix3x2f_isinvertible
 ms.prod: windows-hardware
 ms.technology: windows-devices

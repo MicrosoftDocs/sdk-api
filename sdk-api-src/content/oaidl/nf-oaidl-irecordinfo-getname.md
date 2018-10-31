@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_getname.htm
 tech.root: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,7 @@ The state of the type library is not valid for this operation.
 
 
 
-The caller must free the BSTR by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the BSTR by calling <a href="8F230EE3-5F6E-4CB9-A910-9C90B754DCD3">SysFreeString</a>.
 
 
 

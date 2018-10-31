@@ -7,7 +7,7 @@ old-location: gdi\emrfillrgn.htm
 tech.root: gdi
 ms.assetid: 84b81b9d-3def-403c-94cd-8f5ddea02d6d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMRFILLRGN, EMRFILLRGN, EMRFILLRGN structure [Windows GDI], PEMRFILLRGN, PEMRFILLRGN structure pointer [Windows GDI], _win32_EMRFILLRGN_str, gdi.emrfillrgn, tagEMRFILLRGN, wingdi/EMRFILLRGN, wingdi/PEMRFILLRGN"
 ms.prod: windows
 ms.technology: windows-sdk

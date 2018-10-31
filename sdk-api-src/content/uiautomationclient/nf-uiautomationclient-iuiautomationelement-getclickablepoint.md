@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm
 tech.root: WinAuto
 ms.assetid: 3762aac6-5bd8-43a6-8fe6-e79d8724622b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetClickablePoint, GetClickablePoint method [Windows Accessibility], GetClickablePoint method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetClickablePoint method, IUIAutomationElement.GetClickablePoint, IUIAutomationElement::GetClickablePoint, uiauto.uiauto_IUIAutomationElement_GetClickablePoint, uiauto_IUIAutomationElement_GetClickablePoint, uiautomationclient/IUIAutomationElement::GetClickablePoint, winauto.uiauto_IUIAutomationElement_GetClickablePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ A client application can use this method to simulate clicking the left or right 
 
 <ul>
 <li>Call the <b>GetClickablePoint</b> method to find a clickable point on the control.</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
+<li>Call the <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
 </ul>
 
 

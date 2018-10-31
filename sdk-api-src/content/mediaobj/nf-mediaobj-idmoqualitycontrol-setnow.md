@@ -7,7 +7,7 @@ old-location: dshow\idmoqualitycontrol_setnow.htm
 tech.root: DirectShow
 ms.assetid: 36efee4f-0a06-421f-bc37-688a6499bda7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDMOQualityControl interface [DirectShow],SetNow method, IDMOQualityControl.SetNow, IDMOQualityControl::SetNow, IDMOQualityControlSetNow, SetNow, SetNow method [DirectShow], SetNow method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setnow, mediaobj/IDMOQualityControl::SetNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

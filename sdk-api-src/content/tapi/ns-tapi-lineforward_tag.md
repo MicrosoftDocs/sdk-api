@@ -4,10 +4,10 @@ title: lineforward_tag
 author: windows-sdk-content
 description: The LINEFORWARD structure describes an entry of the forwarding instructions. The LINEFORWARDLIST and the LINEADDRESSSTATUS structures can contain an array of LINEFORWARD structures.
 old-location: tapi2\lineforward_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: cbdb4409-a51a-4ddf-b3ec-c5b958fc2527
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINEFORWARD, LINEFORWARD, LINEFORWARD structure [TAPI 2.2], LINEFORWARDMODE_BUSYNASPECIFIC, LINEFORWARDMODE_BUSYSPECIFIC, LINEFORWARDMODE_NOANSWSPECIFIC, LINEFORWARDMODE_UNCONDSPECIFIC, LPLINEFORWARD, LPLINEFORWARD structure pointer [TAPI 2.2], _tapi2_lineforward_str, lineforward_tag, tapi/LINEFORWARD, tapi/LPLINEFORWARD, tapi2.lineforward_str"
 ms.prod: windows
 ms.technology: windows-sdk

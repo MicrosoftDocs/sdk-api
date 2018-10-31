@@ -4,10 +4,10 @@ title: ID2D1GdiMetafile::Stream
 author: windows-sdk-content
 description: This method streams the contents of the command to the given metafile sink.
 old-location: direct2d\id2d1gdimetafile_stream.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 84E7305D-1E2D-43C3-8E79-02EBCC8F36A1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1GdiMetafile interface [Direct2D],Stream method, ID2D1GdiMetafile.Stream, ID2D1GdiMetafile::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1GdiMetafile interface, d2d1_1/ID2D1GdiMetafile::Stream, direct2d.id2d1gdimetafile_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices

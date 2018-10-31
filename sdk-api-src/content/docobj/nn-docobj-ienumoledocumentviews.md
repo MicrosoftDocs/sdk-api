@@ -7,7 +7,7 @@ old-location: com\ienumoledocumentviews.htm
 tech.root: com
 ms.assetid: cd8fa8b8-17b1-4d77-9611-473725899351
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM],described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enumerates the views supported by a document object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleDocumentViews</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumOleDocumentViews</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleDocumentViews</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumOleDocumentViews</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

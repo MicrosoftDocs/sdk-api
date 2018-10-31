@@ -4,10 +4,10 @@ title: ID2D1RenderInfo::SetOutputBuffer
 author: windows-sdk-content
 description: Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.
 old-location: direct2d\id2d1renderinfo_setoutputbuffer.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 4267FCA0-10AF-4731-8B68-B3425FA00185
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetOutputBuffer method, ID2D1RenderInfo.SetOutputBuffer, ID2D1RenderInfo::SetOutputBuffer, SetOutputBuffer, SetOutputBuffer method [Direct2D], SetOutputBuffer method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetOutputBuffer, direct2d.id2d1renderinfo_setoutputbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

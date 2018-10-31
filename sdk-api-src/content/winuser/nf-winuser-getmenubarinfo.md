@@ -7,7 +7,7 @@ old-location: menurc\getmenubarinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenubarinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetMenuBarInfo, GetMenuBarInfo function [Menus and Other Resources], OBJID_CLIENT, OBJID_MENU, OBJID_SYSMENU, _win32_GetMenuBarInfo, _win32_getmenubarinfo_cpp, menurc.getmenubarinfo, winui._win32_getmenubarinfo, winuser/GetMenuBarInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ The popup menu associated with the window.
 </dl>
 </td>
 <td width="60%">
-The menu bar associated with the window (see the <a href="https://msdn.microsoft.com/en-us/library/ms647640(v=VS.85).aspx">GetMenu</a> function).
+The menu bar associated with the window (see the <a href="https://msdn.microsoft.com/e86b20c6-9a4b-40b7-95d1-ffa57795f5e0">GetMenu</a> function).
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The menu bar associated with the window (see the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-The system menu associated with the window (see the <a href="https://msdn.microsoft.com/en-us/library/ms647985(v=VS.85).aspx">GetSystemMenu</a> function).
+The system menu associated with the window (see the <a href="https://msdn.microsoft.com/a9b8456e-e849-44f9-9a3a-a059141d79b0">GetSystemMenu</a> function).
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ The item for which to retrieve information. If this parameter is zero, the funct
 
 Type: <b>PMENUBARINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647564(v=VS.85).aspx">MENUBARINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUBARINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/1c6cdc30-5d0b-4b05-aaea-4ef62c4145c4">MENUBARINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUBARINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -153,19 +153,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647640(v=VS.85).aspx">GetMenu</a>
+<a href="https://msdn.microsoft.com/e86b20c6-9a4b-40b7-95d1-ffa57795f5e0">GetMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647985(v=VS.85).aspx">GetSystemMenu</a>
+<a href="https://msdn.microsoft.com/a9b8456e-e849-44f9-9a3a-a059141d79b0">GetSystemMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647564(v=VS.85).aspx">MENUBARINFO</a>
+<a href="https://msdn.microsoft.com/1c6cdc30-5d0b-4b05-aaea-4ef62c4145c4">MENUBARINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

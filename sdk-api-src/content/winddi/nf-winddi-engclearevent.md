@@ -7,7 +7,7 @@ old-location: display\engclearevent.htm
 tech.root: display
 ms.assetid: fa87ed4f-4ccb-465c-bcd5-890694b790a3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EngClearEvent, EngClearEvent function [Display Devices], display.engclearevent, gdifncs_0650b2ea-0f64-425b-bfd4-a7c369f2915b.xml, winddi/EngClearEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

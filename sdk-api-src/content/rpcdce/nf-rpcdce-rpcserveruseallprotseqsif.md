@@ -4,10 +4,10 @@ title: RpcServerUseAllProtseqsIf function
 author: windows-sdk-content
 description: The RpcServerUseAllProtseqsIf function tells the RPC run-time library to use all specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsif.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcServerUseAllProtseqsIf, RpcServerUseAllProtseqsIf function [RPC], _rpc_rpcserveruseallprotseqsif, rpc.rpcserveruseallprotseqsif, rpcdce/RpcServerUseAllProtseqsIf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,7 +190,7 @@ To receive remote procedure call requests, a server must register at least one p
 <a href="https://msdn.microsoft.com/3633842c-d1f5-46d9-866e-e54f31415ea5">ncacn_nb_tcp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/641471d4-eba4-4d4a-a3fe-1e40b3751e38">ncacn_nb_ipx</a>
+<a href="https://msdn.microsoft.com/">ncacn_nb_ipx</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/">ncadg_mq</a>

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport2.htm
 tech.root: WinRT
 ms.assetid: 32c462e0-d4b8-44db-b24b-c86b46be85bf
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], IMetaDataImport2 interface [Windows Runtime],described, rometadataapi/IMetaDataImport2, winrt.imetadataimport2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: HeapSize function
 author: windows-sdk-content
 description: Retrieves the size of a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapsize.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: a8fcfd99-7b04-4aa3-8619-272b254551a3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

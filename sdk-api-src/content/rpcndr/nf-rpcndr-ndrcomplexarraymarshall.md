@@ -4,10 +4,10 @@ title: NdrComplexArrayMarshall function
 author: windows-sdk-content
 description: The NdrComplexArrayMarshall function marshals the complex array into a network buffer.
 old-location: winprog\ndrcomplexarraymarshall.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 01109e96-7d5b-4f16-a0fc-e7cf49020c3e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: NdrComplexArrayMarshall, NdrComplexArrayMarshall function [Windows API], rpcndr/NdrComplexArrayMarshall, winprog.ndrcomplexarraymarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

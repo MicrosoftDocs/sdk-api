@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_downloadeffect.htm
 tech.root: hid
 ms.assetid: c10ee6f6-ed9e-45f9-b98d-db62d250a420
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DownloadEffect, DownloadEffect method [Human Input Devices], DownloadEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DownloadEffect method, IDirectInputEffectDriver.DownloadEffect, IDirectInputEffectDriver::DownloadEffect, di_ref_6f931ad9-9a30-45a6-aae5-0b10b1e4e4a7.xml, dinputd/IDirectInputEffectDriver::DownloadEffect, hid.idirectinputeffectdriver_downloadeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

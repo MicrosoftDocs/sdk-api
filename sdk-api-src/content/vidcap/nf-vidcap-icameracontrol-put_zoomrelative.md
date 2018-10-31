@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_zoomrelative.htm
 tech.root: DirectShow
 ms.assetid: 815f92c3-bfab-47d5-86dd-f9b2321d20eb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ZoomRelative method, ICameraControl.put_ZoomRelative, ICameraControl::put_ZoomRelative, ICameraControlput_ZoomRelative, dshow.icameracontrol_put_zoomrelative, put_ZoomRelative, put_ZoomRelative method [DirectShow], put_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ZoomRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

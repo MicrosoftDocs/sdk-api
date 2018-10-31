@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_sethelpfile.htm
 tech.root: automat
 ms.assetid: bb439d74-fd52-4c95-afc5-d57e2fe5029d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpFile method, ICreateErrorInfo.SetHelpFile, ICreateErrorInfo::SetHelpFile, SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

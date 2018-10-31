@@ -7,7 +7,7 @@ old-location: devinst\cm_get_log_conf_priority_ex.htm
 tech.root: devinst
 ms.assetid: e02e8885-b459-4a70-9f0d-7765603e9dc4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Get_Log_Conf_Priority_Ex, CM_Get_Log_Conf_Priority_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Log_Conf_Priority_Ex, cfgmgrfn_f4e7d475-18c7-4854-bff1-a484014f07ac.xml, devinst.cm_get_log_conf_priority_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/en-us/library/Ff538580(v=VS.85).aspx">CM_Get_Log_Conf_Priority</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/0db6c2f4-2d44-49ad-a1cc-f29a5088c74c">CM_Get_Log_Conf_Priority</a> instead.]
 
 The <b>CM_Get_Log_Conf_Priority_Ex</b> function obtains the configuration priority of a specified <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> on a local or a remote machine.
 
@@ -65,19 +65,19 @@ The <b>CM_Get_Log_Conf_Priority_Ex</b> function obtains the configuration priori
 Caller-supplied handle to a logical configuration. This handle must have been previously obtained by calling one of the following functions:
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff537921(v=VS.85).aspx">CM_Add_Empty_Log_Conf</a>
+<a href="https://msdn.microsoft.com/9de0b04d-96be-4c93-b7af-09200fdcf807">CM_Add_Empty_Log_Conf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff537926(v=VS.85).aspx">CM_Add_Empty_Log_Conf_Ex</a>
+<a href="https://msdn.microsoft.com/cb34e5ec-4257-4c30-890a-40f669f1dfeb">CM_Add_Empty_Log_Conf_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538522(v=VS.85).aspx">CM_Get_First_Log_Conf</a>
+<a href="https://msdn.microsoft.com/7ef14797-ea67-40cb-ad8d-e8c846ae1fd4">CM_Get_First_Log_Conf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538529(v=VS.85).aspx">CM_Get_First_Log_Conf_Ex</a>
+<a href="https://msdn.microsoft.com/cb562b5c-eb40-4be4-89a3-0e69a78ae6ea">CM_Get_First_Log_Conf_Ex</a>
 
 
 
@@ -91,7 +91,7 @@ Caller-supplied handle to a logical configuration. This handle must have been pr
 
 ### -param pPriority [out]
 
-Caller-supplied address of a location to receive a configuration priority value. For a list of priority values, see the description of <i>Priority</i> for <a href="https://msdn.microsoft.com/en-us/library/Ff537926(v=VS.85).aspx">CM_Add_Empty_Log_Conf_Ex</a>.
+Caller-supplied address of a location to receive a configuration priority value. For a list of priority values, see the description of <i>Priority</i> for <a href="https://msdn.microsoft.com/cb34e5ec-4257-4c30-890a-40f669f1dfeb">CM_Add_Empty_Log_Conf_Ex</a>.
 
 
 ### -param ulFlags [in]
@@ -131,7 +131,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538580(v=VS.85).aspx">CM_Get_Log_Conf_Priority</a>
+<a href="https://msdn.microsoft.com/0db6c2f4-2d44-49ad-a1cc-f29a5088c74c">CM_Get_Log_Conf_Priority</a>
  
 
  

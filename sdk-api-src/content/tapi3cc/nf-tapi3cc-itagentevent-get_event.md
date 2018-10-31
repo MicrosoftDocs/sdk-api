@@ -4,10 +4,10 @@ title: ITAgentEvent::get_Event
 author: windows-sdk-content
 description: Gets an AGENT_EVENT descriptor of the event that occurred.
 old-location: tapi3\itagentevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: d402b2b4-2817-4ebe-b735-69ea9e975f54
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Event method, ITAgentEvent.get_Event, ITAgentEvent::get_Event, _tapi3_itagentevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_event, tapi3cc/ITAgentEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices

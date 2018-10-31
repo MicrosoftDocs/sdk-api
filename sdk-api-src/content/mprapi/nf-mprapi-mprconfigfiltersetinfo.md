@@ -4,10 +4,10 @@ title: MprConfigFilterSetInfo function
 author: windows-sdk-content
 description: Sets the static filtering information for a specified transport protocol type.
 old-location: rras\mprconfigfiltersetinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 278cf536-3aed-4384-a9d8-ab8786a5cb1e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MprConfigFilterSetInfo, MprConfigFilterSetInfo function [RAS], mprapi/MprConfigFilterSetInfo, rras.mprconfigfiltersetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

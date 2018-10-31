@@ -7,7 +7,7 @@ old-location: shell\IStreamAsync.htm
 tech.root: shell
 ms.assetid: 2d436312-3d61-4511-9342-711b2f7d4717
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], IStreamAsync interface [Windows Shell],described, _shell_IStreamAsync, shell.IStreamAsync, shobjidl/IStreamAsync
 ms.prod: windows
 ms.technology: windows-sdk

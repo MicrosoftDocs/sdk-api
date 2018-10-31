@@ -4,10 +4,10 @@ title: MprAdminMIBEntryGetFirst function
 author: windows-sdk-content
 description: The MprAdminMIBEntryGetFirst function retrieves the first variable of some set of variables exported by a protocol or router manager. The module that services the call defines first.
 old-location: rras\mpradminmibentrygetfirst.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: e3c3ac47-d47c-4fd4-a064-b737bc40f190
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetFirst function [RAS], _mpr_mpradminmibentrygetfirst, mprapi/MprAdminMIBEntryGetFirst, rras.mpradminmibentrygetfirst
 ms.prod: windows-hardware
 ms.technology: windows-devices

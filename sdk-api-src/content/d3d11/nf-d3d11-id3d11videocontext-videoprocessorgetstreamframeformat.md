@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamframeformat.htm
 tech.root: medfound
 ms.assetid: 43879368-1730-4881-B77E-0A975DD5E473
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamFrameFormat method, ID3D11VideoContext.VideoProcessorGetStreamFrameFormat, ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat method [Media Foundation], VideoProcessorGetStreamFrameFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, mf.id3d11videocontext_videoprocessorgetstreamframeformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

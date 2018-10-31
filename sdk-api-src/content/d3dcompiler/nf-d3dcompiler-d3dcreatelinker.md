@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcreatelinker.htm
 tech.root: direct3dhlsl
 ms.assetid: 15BEFF31-9E08-462F-9F27-1CADB8367E4F
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3DCreateLinker, D3DCreateLinker function [HLSL], d3dcompiler/D3DCreateLinker, direct3dhlsl.d3dcreatelinker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
 
 
 

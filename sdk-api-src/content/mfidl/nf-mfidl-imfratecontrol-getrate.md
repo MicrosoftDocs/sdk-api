@@ -7,7 +7,7 @@ old-location: mf\imfratecontrol_getrate.htm
 tech.root: medfound
 ms.assetid: fb970d06-0f82-4e35-8e03-68044c7f12cd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFRateControl interface, IMFRateControl interface [Media Foundation],GetRate method, IMFRateControl.GetRate, IMFRateControl::GetRate, fb970d06-0f82-4e35-8e03-68044c7f12cd, mf.imfratecontrol_getrate, mfidl/IMFRateControl::GetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

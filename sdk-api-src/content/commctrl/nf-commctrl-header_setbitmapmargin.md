@@ -4,10 +4,10 @@ title: Header_SetBitmapMargin macro
 author: windows-sdk-content
 description: Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the HDM_SETBITMAPMARGIN message explicitly.
 old-location: controls\Header_SetBitmapMargin.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Header_SetBitmapMargin, Header_SetBitmapMargin macro [Windows Controls], _win32_Header_SetBitmapMargin, _win32_Header_SetBitmapMargin_cpp, commctrl/Header_SetBitmapMargin, controls.Header_SetBitmapMargin, controls._win32_Header_SetBitmapMargin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775357(v=VS.85).aspx">HDM_SETBITMAPMARGIN</a> message explicitly. 
+Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/5ac04701-18c8-42d4-9850-fe6eb813672c">HDM_SETBITMAPMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the width of the margin for a bitmap in an existing header control. You can
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
@@ -77,7 +77,7 @@ The width, specified in pixels, of the margin that surrounds a bitmap within an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775385(v=VS.85).aspx">Header_GetBitmapMargin</a>
+<a href="https://msdn.microsoft.com/3590cbdd-03fc-4654-8a8d-63d62d3f27a8">Header_GetBitmapMargin</a>
  
 
  

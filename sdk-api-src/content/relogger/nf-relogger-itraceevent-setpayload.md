@@ -4,10 +4,10 @@ title: ITraceEvent::SetPayload
 author: windows-sdk-content
 description: Sets the payload for an event.
 old-location: etw\ievent_setpayload.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 180e0487-5262-45ae-a701-3fcb575637ae
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITraceEvent interface [ETW],SetPayload method, ITraceEvent.SetPayload, ITraceEvent::SetPayload, SetPayload, SetPayload method [ETW], SetPayload method [ETW],ITraceEvent interface, etw.ievent_setpayload, relogger/ITraceEvent::SetPayload
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RasHangUpW function
 author: windows-sdk-content
 description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle.
 old-location: rras\rashangup.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ After this call, the <i>hrasconn</i> handle can no longer be used.
 
 An application should not call 
 <b>RasHangUp</b> and then immediately exit. The connection state machine needs time to properly terminate. If the system prematurely terminates the state machine, the state machine can fail to properly close a port, leaving the port in an inconsistent state. Also, an immediate attempt to use the same connection may fail leaving the connection unusable. A simple way to avoid these problems is to call 
-<a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>(3000) after returning from 
+<a href="_win32_sleep">Sleep</a>(3000) after returning from 
 <b>RasHangUp</b>; after that pause, the application can exit. A more responsive way to avoid these problems is, after returning from 
 <b>RasHangUp</b>, to call 
 <a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a>(<i>hrasconn</i>) and <b>Sleep</b>(0) in a loop until 
@@ -159,7 +159,7 @@ You can call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>
+<a href="_win32_sleep">Sleep</a>
  
 
  

@@ -4,10 +4,10 @@ title: addrinfoex4
 author: windows-sdk-content
 description: Used by the GetAddrInfoEx function to hold host address information when a specific network interface has been requested.
 old-location: winsock\addrinfoex4.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 96B19008-9F20-4F47-A0F1-AA695227725B
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPADDRINFOEX4, *PADDRINFOEX4, ADDRINFOEX4, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RESOLUTION_HANDLE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex4, LPaddrinfoex4 structure pointer [Winsock], Paddrinfoex4, Paddrinfoex4 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex4, addrinfoex4 structure [Winsock], addrinfoex4A, addrinfoex4W, winsock.addrinfoex4, ws2def/LPaddrinfoex4, ws2def/Paddrinfoex4, ws2def/addrinfoex4, ws2def/addrinfoex4A, ws2def/addrinfoex4W"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -572,9 +572,13 @@ Upon a successful call to <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd
 
 The following code describes making a call to <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> with an <b>addrinfoex4</b> structure to retrieve the handle to a FQDN. the sample then call <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> with the <a href="https://msdn.microsoft.com/8B6EB9A4-47B9-40C3-B647-BB05B657B7CE">ASSOCIATE_NAMERES_CONTEXT_INPUT</a> structure.
 
-
-```cpp
-// 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// 
 // Connect to a server using its IPv4 addresses 
 // 
 
@@ -599,7 +603,7 @@ ConnectServer(
     // 
     iResult = WSAStartup( 
         MAKEWORD(2, 2),  
-        &wsaData); 
+        &amp;wsaData); 
     if (iResult != 0) { 
         printf("WSAStartup failed: %d\n", iResult); 
         goto Exit; 
@@ -632,8 +636,8 @@ ConnectServer(
         NULL, 
         NS_DNS, 
         NULL, 
-        (const ADDRINFOEXW*)&hints, 
-        (PADDRINFOEXW*)&pResult, 
+        (const ADDRINFOEXW*)&amp;hints, 
+        (PADDRINFOEXW*)&amp;pResult, 
         NULL, 
         NULL, 
         NULL, NULL); 
@@ -642,7 +646,7 @@ ConnectServer(
         goto Exit; 
     } 
     input.TransportSettingId.Guid = ASSOCIATE_NAMERES_CONTEXT; 
-    input.Handle = pResult->ai_resolutionhandle; 
+    input.Handle = pResult-&gt;ai_resolutionhandle; 
 
     // 
     // Associate socket with the handle 
@@ -651,11 +655,11 @@ ConnectServer(
     if (WSAIoctl( 
             connectSocket, 
             SIO_APPLY_TRANSPORT_SETTING, 
-            (VOID *)&input, 
+            (VOID *)&amp;input, 
             sizeof(input), 
             NULL, 
             0, 
-            &bytesReturned, 
+            &amp;bytesReturned, 
             NULL, 
             NULL) == SOCKET_ERROR) 
     if (iResult != 0){ 
@@ -670,20 +674,20 @@ ConnectServer(
     pCur = pResult; 
     while (pCur != NULL) 
     { 
-        if (pCur->ai_addr->sa_family == AF_INET) 
+        if (pCur-&gt;ai_addr-&gt;sa_family == AF_INET) 
         { 
-            clientService = *(const sockaddr_in*)pCur->ai_addr; 
+            clientService = *(const sockaddr_in*)pCur-&gt;ai_addr; 
             clientService.sin_port = htons(80); 
             if (connect( 
                 connectSocket, 
-                (const SOCKADDR *)&clientService, 
+                (const SOCKADDR *)&amp;clientService, 
                 sizeof(clientService)) == SOCKET_ERROR) 
             { 
                 printf("connect failed: %d\n", WSAGetLastError()); 
                 goto Exit; 
             } 
         } 
-        pCur = pCur->ai_next; 
+        pCur = pCur-&gt;ai_next; 
     } 
 
 Exit: 
@@ -699,10 +703,10 @@ Exit:
     WSACleanup(); 
     return; 
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

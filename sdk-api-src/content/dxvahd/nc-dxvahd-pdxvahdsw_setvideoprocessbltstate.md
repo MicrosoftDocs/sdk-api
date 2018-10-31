@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_setvideoprocessbltstate.htm
 tech.root: medfound
 ms.assetid: 604af2f8-42e8-465c-a49f-8c6c9bcc84dd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessBltState, PDXVAHDSW_SetVideoProcessBltState callback, PDXVAHDSW_SetVideoProcessBltState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessBltState, mf.pdxvahdsw_setvideoprocessbltstate
 ms.prod: windows
 ms.technology: windows-sdk

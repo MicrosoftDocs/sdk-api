@@ -7,7 +7,7 @@ old-location: setup\msidatabaseimport.htm
 tech.root: msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
 
 
 

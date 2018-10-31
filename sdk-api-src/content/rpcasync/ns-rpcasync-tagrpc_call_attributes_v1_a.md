@@ -4,10 +4,10 @@ title: tagRPC_CALL_ATTRIBUTES_V1_A
 author: windows-sdk-content
 description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
 old-location: rpc\rpc_call_attributes_v1.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 62988900-e794-4d91-861e-f72d854249fe
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RPC_CALL_ATTRIBUTES_V1, RPC_CALL_ATTRIBUTES_V1 structure [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, rpc.rpc_call_attributes_v1, rpcasync/RPC_CALL_ATTRIBUTES_V1, rpcasync/RPC_CALL_ATTRIBUTES_V1_A, rpcasync/RPC_CALL_ATTRIBUTES_V1_W, tagRPC_CALL_ATTRIBUTES_V1_A
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,18 +162,22 @@ The second method offers the best performance in most cases, since the caller do
 
 #### Examples
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RPC_CALL_ATTRIBUTES CallAttributes;  // this maps to RPC_CALL_ATTRIBUTES_V1
 
-```cpp
-RPC_CALL_ATTRIBUTES CallAttributes;  // this maps to RPC_CALL_ATTRIBUTES_V1
-
-memset(&CallAttributes, 0, sizeof(CallAttributes));
+memset(&amp;CallAttributes, 0, sizeof(CallAttributes));
 CallAttributes.Version = RPC_CALL_ATTRIBUTES_VERSION;    // maps to 1
 CallAttributes.Flags = ;//....
-Status = RpcServerInqCallAttributes(0, &CallAttributes);
-
-```
-
-
+Status = RpcServerInqCallAttributes(0, &amp;CallAttributes);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

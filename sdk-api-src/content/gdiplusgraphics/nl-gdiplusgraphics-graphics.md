@@ -50,5 +50,5 @@ req.redist:
 ## -description
 
 
-The <b>Graphics</b> class provides methods for drawing lines, curves, figures, images, and text. A <a href="https://msdn.microsoft.com/en-us/library/ms535632(v=VS.85).aspx">Graphics</a> object stores attributes of the display device and attributes of the items to be drawn.
+The <b>Graphics</b> class provides methods for drawing lines, curves, figures, images, and text. A <a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics</a> object stores attributes of the display device and attributes of the items to be drawn.
 

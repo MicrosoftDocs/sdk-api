@@ -7,7 +7,7 @@ old-location: display\dxapi_interface.htm
 tech.root: display
 ms.assetid: 137473ea-4785-4118-86af-a859f69f425f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDXAPI_INTERFACE, DXAPI_INTERFACE, DXAPI_INTERFACE structure [Display Devices], PDXAPI_INTERFACE, PDXAPI_INTERFACE structure pointer [Display Devices], _DXAPI_INTERFACE, ddstrcts_99854747-7e4c-4a5a-9252-13f56abdffbc.xml, display.dxapi_interface, dxmini/DXAPI_INTERFACE, dxmini/PDXAPI_INTERFACE"
 ms.prod: windows
 ms.technology: windows-sdk

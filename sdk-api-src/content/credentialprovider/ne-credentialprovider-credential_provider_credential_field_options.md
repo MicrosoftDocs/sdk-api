@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS.htm
 tech.root: shell
 ms.assetid: 6E8623D0-7FC3-4ccb-B17A-CB12A0508F15
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, CPCFO_NUMBERS_ONLY, CPCFPO_ENABLE_PASSWORD_REVEAL, CPCFPO_IS_EMAIL_ADDRESS, CPCFPO_NONE, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration [Windows Shell], credentialprovider/CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, credentialprovider/CPCFO_NUMBERS_ONLY, credentialprovider/CPCFPO_ENABLE_PASSWORD_REVEAL, credentialprovider/CPCFPO_IS_EMAIL_ADDRESS, credentialprovider/CPCFPO_NONE, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_USER_ENUM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides customization options for a single field in a logon or credential UI. Used by <a href="https://msdn.microsoft.com/en-us/library/Hh706917(v=VS.85).aspx">ICredentialProviderCredentialEvents2::SetFieldOptions</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh706919(v=VS.85).aspx">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>.
+Provides customization options for a single field in a logon or credential UI. Used by <a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredentialEvents2::SetFieldOptions</a> and <a href="https://msdn.microsoft.com/DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>.
 
 
 ## -enum-fields
@@ -88,7 +88,7 @@ Display the "password reveal" glyph in a password entry box. When this glyph is 
 
                         
 
-<img alt="Password reveal glyph" src="./images/PasswordReveal.png"/>
+<img alt="Password reveal glyph" src="images/PasswordReveal.png"/>
 
 
 #### - CPCFPO_IS_EMAIL_ADDRESS
@@ -106,11 +106,11 @@ Default. Do not show the "password reveal" glyph and use the standard on-screen 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706917(v=VS.85).aspx">ICredentialProviderCredentialEvents2::SetFieldOptions</a>
+<a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredentialEvents2::SetFieldOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706919(v=VS.85).aspx">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>
+<a href="https://msdn.microsoft.com/DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>
  
 
  

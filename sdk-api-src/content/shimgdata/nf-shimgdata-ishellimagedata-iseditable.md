@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsEditable.htm
 tech.root: shell
 ms.assetid: 81dbb486-0b35-44ff-9aa2-2e449995591e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsEditable method, IShellImageData.IsEditable, IShellImageData::IsEditable, IsEditable, IsEditable method [Windows Shell], IsEditable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsEditable, shell.IShellImageData_IsEditable, shimgdata/IShellImageData::IsEditable
 ms.prod: windows-hardware
 ms.technology: windows-devices

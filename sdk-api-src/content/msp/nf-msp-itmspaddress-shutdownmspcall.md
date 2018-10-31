@@ -4,10 +4,10 @@ title: ITMSPAddress::ShutdownMSPCall
 author: windows-sdk-content
 description: The ShutdownMSPCall method is called when the call object is being destroyed.
 old-location: tapi3\itmspaddress_shutdownmspcall.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 6527db85-cad8-4b0d-977a-9ab8b047e44e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ShutdownMSPCall method, ITMSPAddress.ShutdownMSPCall, ITMSPAddress::ShutdownMSPCall, ShutdownMSPCall, ShutdownMSPCall method [TAPI 2.2], ShutdownMSPCall method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_shutdownmspcall, msp/ITMSPAddress::ShutdownMSPCall, tapi3.itmspaddress_shutdownmspcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The
 
 ### -param pStreamControl [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the call's 
+Pointer to <a href="_com_iunknown">IUnknown</a> interface for the call's 
 <a href="https://msdn.microsoft.com/12b9457a-7afb-4348-93a2-28728c673929">ITStreamControl</a>.
 
 

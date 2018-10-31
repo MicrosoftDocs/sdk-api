@@ -4,10 +4,10 @@ title: CMSPCallBase::MSPCallRelease
 author: windows-sdk-content
 description: The MSPCallRelease method is the private Release method for the call object.
 old-location: tapi3\cmspcallbase_mspcallrelease.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 662361f2-ce0c-4c07-88c1-30393a236bf6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],MSPCallRelease method, CMSPCallBase.MSPCallRelease, CMSPCallBase::MSPCallRelease, MSPCallRelease, MSPCallRelease method [TAPI 2.2], MSPCallRelease method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_mspcallrelease, mspcall/CMSPCallBase::MSPCallRelease, tapi3.cmspcallbase_mspcallrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

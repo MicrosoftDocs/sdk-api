@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofile_getprofileid.htm
 tech.root: medfound
 ms.assetid: EBBDCC39-8FF9-421B-867D-0AD950C2DDF5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetProfileId, GetProfileId method [Media Foundation], GetProfileId method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],GetProfileId method, IMFSensorProfile.GetProfileId, IMFSensorProfile::GetProfileId, mf.imfsensorprofile_getprofileid, mfidl/IMFSensorProfile::GetProfileId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves the sensor profile ID.
 
 ### -param pId [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt845826(v=VS.85).aspx">SENSORPROFILEID</a> containing the profile ID.
+Pointer to a <a href="mf.sensorprofileid">SENSORPROFILEID</a> containing the profile ID.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a>
+<a href="mf.imfsensorprofile">IMFSensorProfile</a>
  
 
  

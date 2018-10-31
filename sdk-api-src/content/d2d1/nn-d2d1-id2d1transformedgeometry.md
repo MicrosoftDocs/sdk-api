@@ -4,10 +4,10 @@ title: ID2D1TransformedGeometry
 author: windows-sdk-content
 description: Represents a geometry that has been transformed.
 old-location: direct2d\ID2D1TransformedGeometry.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1TransformedGeometry, ID2D1TransformedGeometry interface [Direct2D], ID2D1TransformedGeometry interface [Direct2D],described, d2d1/ID2D1TransformedGeometry, direct2d.ID2D1TransformedGeometry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ Direct2D geometries are immutable and device-independent resources created by <a
 
 The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
-<img alt="Illustration of a rectangle" src="./images/transformedgeometry2_step1.png"/>
+<img alt="Illustration of a rectangle" src="images/transformedgeometry2_step1.png"/>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -122,7 +122,7 @@ The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34
 </table></span></div>
 The next example uses the render target to scale the geometry by a factor of 3, then draws it. The following illustration shows the result of drawing the rectangle without the transform and with the transform; notices that the stroke is thicker after the transform, even though the stroke thickness is 1.
 
-<img alt="Illustration of a smaller rectangle inside a larger rectangle with a thicker stroke" src="./images/transformedgeometry2_step2.png"/>
+<img alt="Illustration of a smaller rectangle inside a larger rectangle with a thicker stroke" src="images/transformedgeometry2_step2.png"/>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -143,7 +143,7 @@ m_pRenderTarget-&gt;DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 </table></span></div>
 The next example uses the <a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
-<img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
+<img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="images/transformedgeometry2_step3.png"/>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

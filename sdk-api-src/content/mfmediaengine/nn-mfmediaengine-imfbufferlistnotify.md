@@ -7,7 +7,7 @@ old-location: mf\imfbufferlistnotify.htm
 tech.root: medfound
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
 ms.prod: windows
 ms.technology: windows-sdk

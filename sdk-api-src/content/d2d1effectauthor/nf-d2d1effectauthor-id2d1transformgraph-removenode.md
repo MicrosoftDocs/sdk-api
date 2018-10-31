@@ -4,10 +4,10 @@ title: ID2D1TransformGraph::RemoveNode
 author: windows-sdk-content
 description: Removes the provided node from the transform graph.
 old-location: direct2d\id2d1transformgraph_removenode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 075D43D7-0299-45E9-8C43-3EA37F0477CB
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],RemoveNode method, ID2D1TransformGraph.RemoveNode, ID2D1TransformGraph::RemoveNode, RemoveNode, RemoveNode method [Direct2D], RemoveNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::RemoveNode, direct2d.id2d1transformgraph_removenode
 ms.prod: windows-hardware
 ms.technology: windows-devices

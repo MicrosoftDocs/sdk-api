@@ -4,10 +4,10 @@ title: D2D1_PIXEL_FORMAT
 author: windows-sdk-content
 description: Contains the data format and alpha mode for a bitmap or render target.
 old-location: direct2d\D2D1_PIXEL_FORMAT.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: e95afd9c-5793-4cb7-bcb8-aae4d28b6532
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_PIXEL_FORMAT, D2D1_PIXEL_FORMAT structure [Direct2D], dcommon/D2D1_PIXEL_FORMAT, direct2d.D2D1_PIXEL_FORMAT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,10 +83,14 @@ For more information about the pixel formats and alpha modes supported by each r
 
 The following example creates a <b>D2D1_PIXEL_FORMAT</b> structure and uses it to specify the pixel format and alpha mode of an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
 
-
-```cpp
-RECT rc;
-GetClientRect(m_hwnd, &rc);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RECT rc;
+GetClientRect(m_hwnd, &amp;rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -104,16 +108,16 @@ D2D1_RENDER_TARGET_PROPERTIES props = D2D1::RenderTargetProperties();
 props.pixelFormat = pixelFormat;
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory->CreateHwndRenderTarget(
+hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
     props,
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &m_pRT
+    &amp;m_pRT
     );
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

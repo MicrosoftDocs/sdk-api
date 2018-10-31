@@ -7,7 +7,7 @@ old-location: mf\dxva2_filtervalues.htm
 tech.root: medfound
 ms.assetid: 48dc1631-f96c-4515-aac2-225b3427f9ad
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 48dc1631-f96c-4515-aac2-225b3427f9ad, DXVA2_FilterValues, DXVA2_FilterValues structure [Media Foundation], _DXVA2_FilterValues, dxva2api/DXVA2_FilterValues, mf.dxva2_filtervalues
 ms.prod: windows
 ms.technology: windows-sdk

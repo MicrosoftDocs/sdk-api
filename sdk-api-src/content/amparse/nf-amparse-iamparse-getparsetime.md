@@ -7,7 +7,7 @@ old-location: dshow\iamparse_getparsetime.htm
 tech.root: DirectShow
 ms.assetid: ce87e39e-1e5d-4098-8431-ea9b3188784e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetParseTime, GetParseTime method [DirectShow], GetParseTime method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],GetParseTime method, IAMParse.GetParseTime, IAMParse::GetParseTime, IAMParseGetParseTime, amparse/IAMParse::GetParseTime, dshow.iamparse_getparsetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <code>GetParseTime</code> method retrieves the current stream parse time. Fo
 
 
 
-### -param prtCurrent
-
-TBD
-
-
-
-
-#### - ptrParseTime [out]
+### -param prtCurrent [out]
 
 Pointer to the current parse time.
 

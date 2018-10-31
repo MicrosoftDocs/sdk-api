@@ -7,7 +7,7 @@ old-location: display\engsetpointertag.htm
 tech.root: display
 ms.assetid: a1a2c74c-c568-4abe-bf84-7e0ace2c44b0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], display.engsetpointertag, gdifncs_bbe9c510-e5c9-40c3-9c62-460acd564e80.xml, winddi/EngSetPointerTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

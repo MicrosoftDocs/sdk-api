@@ -4,10 +4,10 @@ title: DdUnattachSurface function
 author: windows-sdk-content
 description: The DdUnattachSurface function removes an attachment, created with DdAttachSurface, between two kernel-mode surface objects.
 old-location: winprog\_dxgkernel_ddunattachsurface.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddunattachsurface.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DdUnattachSurface, DdUnattachSurface function [Windows API], GdiEntry12, _dxgkernel_ddunattachsurface, ddrawgdi/DdUnattachSurface, ddrawgdi/GdiEntry12, winprog._dxgkernel_ddunattachsurface, winui._dxgkernel_ddunattachsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-The <b>DdUnattachSurface</b> function removes an attachment, created with <a href="https://msdn.microsoft.com/en-us/library/ms648433(v=VS.85).aspx">DdAttachSurface</a>, between two kernel-mode surface objects.
+The <b>DdUnattachSurface</b> function removes an attachment, created with <a href="https://msdn.microsoft.com/549c34ad-3e41-4602-951b-15f1f62ec777">DdAttachSurface</a>, between two kernel-mode surface objects.
 
 <b>GdiEntry12</b> is defined as an alias for this function.
 
@@ -68,12 +68,12 @@ The <b>DdUnattachSurface</b> function removes an attachment, created with <a hre
 
 ### -param pSurface [in]
 
-Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceFrom</i> parameter to <a href="https://msdn.microsoft.com/en-us/library/ms648433(v=VS.85).aspx">DdAttachSurface</a>.
+Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceFrom</i> parameter to <a href="https://msdn.microsoft.com/549c34ad-3e41-4602-951b-15f1f62ec777">DdAttachSurface</a>.
 
 
 ### -param pSurfaceAttached [in]
 
-Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceTo</i> parameter to <a href="https://msdn.microsoft.com/en-us/library/ms648433(v=VS.85).aspx">DdAttachSurface</a>
+Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceTo</i> parameter to <a href="https://msdn.microsoft.com/549c34ad-3e41-4602-951b-15f1f62ec777">DdAttachSurface</a>
 
 
 
@@ -93,7 +93,7 @@ This function does not return a value.
 It is recommended that applications use the DirectDraw 
     API which handles surface attachments in a higher-level manner.
 
-It is not necessary to call this function since the kernel will automatically destroy all attachments when <a href="https://msdn.microsoft.com/en-us/library/ms648505(v=VS.85).aspx">DdDestroySurface</a> is called.
+It is not necessary to call this function since the kernel will automatically destroy all attachments when <a href="https://msdn.microsoft.com/65419fce-9e82-4621-9906-832144888a3b">DdDestroySurface</a> is called.
 
 
 
@@ -103,7 +103,7 @@ It is not necessary to call this function since the kernel will automatically de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

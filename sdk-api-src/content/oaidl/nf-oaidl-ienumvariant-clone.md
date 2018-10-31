@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_clone.htm
 tech.root: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVARIANT interface, IEnumVARIANT interface [Automation],Clone method, IEnumVARIANT.Clone, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,9 +118,13 @@ There is no guarantee that exactly the same set of variants will be enumerated t
 
 The following code implements <b>IEnumVariant::Clone</b>. A complete example implementation of the <b>IEnumVariant</b> interface is available in the COM Fundamentals Lines sample (Enumvar.cpp).
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CEnumVariant::Clone(IEnumVARIANT ** ppenum)
 {
    CEnumVariant * penum = NULL;
@@ -131,23 +135,23 @@ CEnumVariant::Clone(IEnumVARIANT ** ppenum)
 
    *ppenum = NULL;
 
-   hr = CEnumVariant::Create(m_psa, m_cElements, &penum);
+   hr = CEnumVariant::Create(m_psa, m_cElements, &amp;penum);
    if (FAILED(hr))
       goto error;
-   penum->AddRef();
-   penum->m_lCurrent = m_lCurrent;
+   penum-&gt;AddRef();
+   penum-&gt;m_lCurrent = m_lCurrent;
 
    *ppenum = penum;
    return NOERROR;
 
 error:
    if (penum)
-      penum->Release();
+      penum-&gt;Release();
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

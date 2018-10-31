@@ -7,7 +7,7 @@ old-location: devinst\cm_add_res_des_ex.htm
 tech.root: devinst
 ms.assetid: f19996ae-f243-4e8c-b200-7d11c06490c9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Add_Res_Des_Ex, CM_Add_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Add_Res_Des_Ex, cfgmgrfn_b3ed76ba-a2cc-4ede-a079-6e39c5c1d3bd.xml, devinst.cm_add_res_des_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,7 +151,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff544764(v=VS.85).aspx">DMA_RESOURCE</a>
+<a href="https://msdn.microsoft.com/226a5ca1-10e1-47a7-8bd9-b153a0784ccb">DMA_RESOURCE</a>
 
 
 </td>

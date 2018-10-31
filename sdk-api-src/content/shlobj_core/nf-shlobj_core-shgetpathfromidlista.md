@@ -7,7 +7,7 @@ old-location: shell\SHGetPathFromIDList.htm
 tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], SHGetPathFromIDListA, SHGetPathFromIDListW, _win32_SHGetPathFromIDList, shell.SHGetPathFromIDList, shlobj_core/SHGetPathFromIDList, shlobj_core/SHGetPathFromIDListA, shlobj_core/SHGetPathFromIDListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

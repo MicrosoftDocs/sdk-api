@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getclipper.htm
 tech.root: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetClipper, GetClipper method [DirectDraw], GetClipper method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetClipper method, IDirectDrawSurface7.GetClipper, IDirectDrawSurface7::GetClipper, ddraw/IDirectDrawSurface7::GetClipper, directdraw.idirectdrawsurface7_getclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices

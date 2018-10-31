@@ -7,7 +7,7 @@ old-location: automat\variant_usermarshal.htm
 tech.root: automat
 ms.assetid: 1c273053-9a9e-4a04-af35-995378bc0142
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VARIANT_UserMarshal, VARIANT_UserMarshal function [Automation], _oa96_VARIANT_UserMarshal, automat.variant_usermarshal, oaidl/VARIANT_UserMarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices

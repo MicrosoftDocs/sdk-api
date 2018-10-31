@@ -4,10 +4,10 @@ title: ITCallInfoChangeEvent::get_CallbackInstance
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with this event.
 old-location: tapi3\itcallinfochangeevent_get_callbackinstance.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: feb9fbcd-58e6-48c7-ab21-9ba0fd766b25
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallInfoChangeEvent.get_CallbackInstance, ITCallInfoChangeEvent::get_CallbackInstance, _tapi3_itcallinfochangeevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_callbackinstance, tapi3if/ITCallInfoChangeEvent::get_CallbackInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

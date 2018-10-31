@@ -7,7 +7,7 @@ old-location: mf\define_mediatype_guid_macro.htm
 tech.root: medfound
 ms.assetid: be094ccc-a475-480a-a345-bdad70b11f45
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DEFINE_MEDIATYPE_GUID, DEFINE_MEDIATYPE_GUID macro [Media Foundation], be094ccc-a475-480a-a345-bdad70b11f45, mf.define_mediatype_guid_macro, mfapi/DEFINE_MEDIATYPE_GUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,16 +79,20 @@ This macro invokes the <b>DEFINE_GUID</b> macro. The resuling GUID constant is d
 
 #### Examples
 
-
-```cpp
-#include <initguid.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;initguid.h&gt;
 
 // Declares a GUID named MFVideoFormat_ABCD_Format.
 DEFINE_MEDIATYPE_GUID( MFVideoFormat_ABCD_Format, FCC('ABCD') );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

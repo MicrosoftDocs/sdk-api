@@ -7,7 +7,7 @@ old-location: shell\DAD_DragLeave.htm
 tech.root: shell
 ms.assetid: 5b2b8f04-c746-48d0-9fca-eda2c6b9ff2a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DAD_DragLeave, DAD_DragLeave function [Windows Shell], shell.DAD_DragLeave, shell_DAD_DragLeave, shlobj_core/DAD_DragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/en-us/library/Bb761528(v=VS.85).aspx">ImageList_DragLeave</a> instead.]
+<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/87249df7-1489-4a70-8ed7-92c926a22edf">ImageList_DragLeave</a> instead.]
 
 Unlocks the window locked by the <a href="https://msdn.microsoft.com/32f98df7-e357-4d17-9e33-f162a6ffb7ed">DAD_DragEnterEx</a> function.
 

@@ -4,10 +4,10 @@ title: ITextRange::Expand
 author: windows-sdk-content
 description: Expands this range so that any partial units it contains are completely contained.
 old-location: controls\ITextRange_Expand.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\expand.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Expand, Expand method [Windows Controls], Expand method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Expand method, ITextRange.Expand, ITextRange::Expand, _win32_ITextRange_Expand, _win32_ITextRange_Expand_cpp, controls.ITextRange_Expand, controls._win32_ITextRange_Expand, tom/ITextRange::Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Expands this range so that any partial units it contains are completely containe
 
 Type: <b>long</b>
 
-Unit to include, if it is partially within the range. The default value is <code>tomWord</code>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
+Unit to include, if it is partially within the range. The default value is <code>tomWord</code>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
 
 
 ### -param pDelta
@@ -131,7 +131,7 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -139,7 +139,7 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

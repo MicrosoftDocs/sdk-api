@@ -7,7 +7,7 @@ old-location: intl\goffset.htm
 tech.root: Intl
 ms.assetid: 63fa8741-c8c8-480d-9702-2f4eb13bc01c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GOFFSET, GOFFSET structure [Internationalization for Windows Applications], _win32_GOFFSET_str, intl.goffset, tagGOFFSET, usp10/GOFFSET
 ms.prod: windows
 ms.technology: windows-sdk

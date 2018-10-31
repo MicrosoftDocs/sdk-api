@@ -7,7 +7,7 @@ old-location: com\coimpersonateclient.htm
 tech.root: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ This method allows the server to impersonate the client of the current call for 
     pss-&gt;ImpersonateClient();
     pss-&gt;Release();
 </code></pre>
-<b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="https://msdn.microsoft.com/en-us/library/ms691215(v=VS.85).aspx">IServerSecurity</a> that contains data about the current call, calling its <a href="https://msdn.microsoft.com/en-us/library/ms679757(v=VS.85).aspx">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="https://msdn.microsoft.com/en-us/library/ms687267(v=VS.85).aspx">CoRevertToSelf</a> (or <a href="https://msdn.microsoft.com/en-us/library/ms680038(v=VS.85).aspx">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
+<b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a> that contains data about the current call, calling its <a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="https://msdn.microsoft.com/8061ddbe-ed21-47f7-9ac4-b3ec910ff89d">CoRevertToSelf</a> (or <a href="https://msdn.microsoft.com/21952f54-439e-446f-a206-4b35759b1090">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
 
 
 
@@ -96,11 +96,11 @@ This method allows the server to impersonate the client of the current call for 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683778(v=VS.85).aspx">Cloaking</a>
+<a href="https://msdn.microsoft.com/5b97d9d6-8fa9-4da2-8351-64772227d9a2">Cloaking</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679757(v=VS.85).aspx">IServerSecurity::ImpersonateClient</a>
+<a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">IServerSecurity::ImpersonateClient</a>
 
 
 
@@ -108,11 +108,11 @@ This method allows the server to impersonate the client of the current call for 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687247(v=VS.85).aspx">Impersonation and Asynchronous Calls</a>
+<a href="https://msdn.microsoft.com/7eaa0a66-7a80-4831-b0b6-b8eff4abd036">Impersonation and Asynchronous Calls</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693319(v=VS.85).aspx">Security in COM</a>
+<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
  
 
  

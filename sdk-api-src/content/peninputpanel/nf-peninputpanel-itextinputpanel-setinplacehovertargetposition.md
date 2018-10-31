@@ -127,13 +127,17 @@ The <b>SetInPlaceHoverTargetPosition</b> method is synchronous. Positioning occu
 
 This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT2</code>. It first checks if an <a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it sets the position of the Input Panel hover target by calling the <b>ITextInputPanel::SetInPlaceHoverTargetPosition Method</b>. It then reports whether the call was successful to debug output using the <b>TRACE</b> macro.
 
-
-```cpp
-void CCOMTIPDlg::OnEnSetfocusEdit2()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CCOMTIPDlg::OnEnSetfocusEdit2()
 {
 	if (NULL != g_pTip)
 	{
-		if (SUCCEEDED(g_pTip->SetInPlaceHoverTargetPosition(300, 300)))
+		if (SUCCEEDED(g_pTip-&gt;SetInPlaceHoverTargetPosition(300, 300)))
 		{
 			TRACE("Call to SetInPlaceHoverTargetPosition() succeeded.\n");
 		}
@@ -147,10 +151,10 @@ void CCOMTIPDlg::OnEnSetfocusEdit2()
         TRACE("ITextInputPanel object is NULL.\n");
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

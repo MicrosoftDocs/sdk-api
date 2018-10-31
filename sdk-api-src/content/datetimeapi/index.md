@@ -2,7 +2,7 @@
 UID: NA:datetimeapi
 ms.assetid: 1b71de78-13d8-3182-bdc5-179dd6ed1ca5
 ms.author: windowssdkdev
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

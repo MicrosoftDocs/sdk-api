@@ -7,7 +7,7 @@ old-location: mf\imfsourcereaderex_setnativemediatype.htm
 tech.root: medfound
 ms.assetid: 532E8F28-16F4-442E-83D9-C247E8FA7E2A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFSourceReaderEx interface [Media Foundation],SetNativeMediaType method, IMFSourceReaderEx.SetNativeMediaType, IMFSourceReaderEx::SetNativeMediaType, MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, SetNativeMediaType, SetNativeMediaType method [Media Foundation], SetNativeMediaType method [Media Foundation],IMFSourceReaderEx interface, mf.imfsourcereaderex_setnativemediatype, mfreadwrite/IMFSourceReaderEx::SetNativeMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

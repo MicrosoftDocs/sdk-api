@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings.htm
 tech.root: shell
 ms.assetid: D26C9A87-8C29-4029-BF8A-E0566DC2DF2A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IApplicationDesignModeSettings, IApplicationDesignModeSettings interface [Windows Shell], IApplicationDesignModeSettings interface [Windows Shell],described, shell.IApplicationDesignModeSettings, shobjidl_core/IApplicationDesignModeSettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,25 +153,29 @@ Use the methods of this interface to test your Windows Store app under various s
 
 This example shows the methods of this interface in use.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IApplicationDesignModeSettings *pDesignModeSettings;
 
 // CoCreate the design mode settings object
-HRESULT hr = CoCreateInstance(CLSID_ApplicationDesignModeSettings, nullptr, CLSCTX_INPROC, IID_PPV_ARGS(&pDesignModeSettings));
+HRESULT hr = CoCreateInstance(CLSID_ApplicationDesignModeSettings, nullptr, CLSCTX_INPROC, IID_PPV_ARGS(&amp;pDesignModeSettings));
 if (SUCCEEDED(hr))
 {
     IInitializeWithWindow *pInitializeWithWindow;
-    hr = pDesignModeSettings->QueryInterface(IID_PPV_ARGS(&pInitializeWithWindow);
+    hr = pDesignModeSettings-&gt;QueryInterface(IID_PPV_ARGS(&amp;pInitializeWithWindow);
     if (SUCCEEDED(hr))
     {
         // Before we spoof any state, we must first initialize the design
         // mode settings object with a proxy core window. Since apps
         // running in design mode don't have an actual core window, we must
         // supply an HWND that can be used as a proxy.
-        hr = pInitializeWithWindow->Initialize(hwndProxyCoreWindow);
-        pInitializeWithWindow->Release();
+        hr = pInitializeWithWindow-&gt;Initialize(hwndProxyCoreWindow);
+        pInitializeWithWindow-&gt;Release();
     }
 
     if (SUCCEEDED(hr))
@@ -181,27 +185,27 @@ if (SUCCEEDED(hr))
         SCALE_FACTOR scaleFactor = SCALE_100_PERCENT;
         APPLICATION_VIEW_STATE viewState = AVS_FULLSCREEN_LANDSCAPE;
         BOOL fSupported;
-        hr = pDesignModeSettings->IsApplicationViewStateSupported(viewState,
+        hr = pDesignModeSettings-&gt;IsApplicationViewStateSupported(viewState,
                                                                   sizeNativeDisplay,
                                                                   scaleFactor,
-                                                                  &fSupported);
+                                                                  &amp;fSupported);
     }
 
-    if (SUCCEEDED(hr) && fSupported))
+    if (SUCCEEDED(hr) &amp;&amp; fSupported))
     {
         // Set the spoofed native display size.
-        hr = pDesignModeSettings->SetNativeDisplaySize(sizeNativeDisplay);
+        hr = pDesignModeSettings-&gt;SetNativeDisplaySize(sizeNativeDisplay);
 
         if (SUCCEEDED(hr))
         {
             // Set the spoofed scale factor to 100%.
-            hr = pDesignModeSettings->SetScaleFactor(SCALE_100_PERCENT);
+            hr = pDesignModeSettings-&gt;SetScaleFactor(SCALE_100_PERCENT);
         }
 
         if (SUCCEEDED(hr))
         {
             // Set the spoofed application view state to full-screen landscape.
-            hr = pDesignModeSettings->SetApplicationViewState(AVS_FULLSCREEN_LANDSCAPE);
+            hr = pDesignModeSettings-&gt;SetApplicationViewState(AVS_FULLSCREEN_LANDSCAPE);
         }
 
         if (SUCCEEDED(hr))
@@ -209,14 +213,14 @@ if (SUCCEEDED(hr))
             // Now that all the necessary state has been spoofed, calculate
             // the size that the app should occupy.
             SIZE sizeApplication;
-            hr = pDesignModeSettings->ComputeApplicationSize(&sizeApplication);
+            hr = pDesignModeSettings-&gt;ComputeApplicationSize(&amp;sizeApplication);
         }
     }
 
-    pDesignModeSettings->Release();
-}
-```
-
-
+    pDesignModeSettings-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

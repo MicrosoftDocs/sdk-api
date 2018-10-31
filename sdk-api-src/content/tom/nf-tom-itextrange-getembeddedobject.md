@@ -4,10 +4,10 @@ title: ITextRange::GetEmbeddedObject
 author: windows-sdk-content
 description: Retrieves a pointer to the embedded object at the start of the specified range, that is, at cpFirst. The range must either be an insertion point or it must select only the embedded object.
 old-location: controls\ITextRange_GetEmbeddedObject.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getembeddedobject.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetEmbeddedObject, GetEmbeddedObject method [Windows Controls], GetEmbeddedObject method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetEmbeddedObject method, ITextRange.GetEmbeddedObject, ITextRange::GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject_cpp, controls.ITextRange_GetEmbeddedObject, controls._win32_ITextRange_GetEmbeddedObject, tom/ITextRange::GetEmbeddedObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ If the start of this range does not have an embedded object or if the range sele
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -132,7 +132,7 @@ If the start of this range does not have an embedded object or if the range sele
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

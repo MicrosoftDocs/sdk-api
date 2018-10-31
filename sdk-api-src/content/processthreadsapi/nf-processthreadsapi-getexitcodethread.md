@@ -4,10 +4,10 @@ title: GetExitCodeThread function
 author: windows-sdk-content
 description: Retrieves the termination status of the specified thread.
 old-location: base\getexitcodethread.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

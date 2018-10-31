@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dwriteblobtofile.htm
 tech.root: direct3dhlsl
 ms.assetid: F21FF3B4-5F69-4C93-9F93-6A12324A664A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3DWriteBlobToFile, D3DWriteBlobToFile function [HLSL], d3dcompiler/D3DWriteBlobToFile, direct3dhlsl.d3dwriteblobtofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,7 +104,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

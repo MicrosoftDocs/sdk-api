@@ -2,7 +2,7 @@
 UID: NA:robuffer
 ms.assetid: d7bf6782-77e1-3cac-9e7c-7e1d4cd2f36e
 ms.author: windowssdkdev
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

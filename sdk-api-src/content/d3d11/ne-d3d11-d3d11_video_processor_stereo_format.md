@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_stereo_format.htm
 tech.root: medfound
 ms.assetid: 77832DF2-821E-465C-80B6-46DDB2433791
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_FORMAT, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, mf.d3d11_video_processor_stereo_format
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ The sample does not contain stereo data.  If the stereo format is not specified,
 
 Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 
-<img alt="Side-by-side packing" src="./images/dxgistereo3d02.png"/>
+<img alt="Side-by-side packing" src="images/dxgistereo3d02.png"/>
 
 All drivers that support stereo video must support this format.
 
@@ -76,7 +76,7 @@ All drivers that support stereo video must support this format.
 
 Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 
-<img alt="Top-to-bottom packing" src="./images/dxgistereo3d01.png"/>
+<img alt="Top-to-bottom packing" src="images/dxgistereo3d01.png"/>
 
 All drivers that support stereo video must support this format.
 
@@ -101,7 +101,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed into interleaved rows, as shown in the following diagram.
 
-<img alt="Interleaved rows" src="./images/dxgistereo3d03.png"/>
+<img alt="Interleaved rows" src="images/dxgistereo3d03.png"/>
 
 Support for this stereo format is optional.
 
@@ -110,7 +110,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed into interleaved columns, as shown in the following diagram.
 
-<img alt="Interleaved columns" src="./images/dxgistereo3d04.png"/>
+<img alt="Interleaved columns" src="images/dxgistereo3d04.png"/>
 
 Support for this stereo format is optional.
 
@@ -119,7 +119,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed in a checkerboard format, as shown in the following diagram.
 
-<img alt="Checkerboard packing" src="./images/dxgistereo3d05.png"/>
+<img alt="Checkerboard packing" src="images/dxgistereo3d05.png"/>
 
 Support for this stereo format is optional.
 

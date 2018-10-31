@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassproperty.htm
 tech.root: devinst
 ms.assetid: b90473fe-eb8c-463a-971c-422c108dec1d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiGetClassProperty, SetupDiGetClassProperty function [Device and Driver Installation], SetupDiGetClassPropertyW, devinst.setupdigetclassproperty, di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml, setupapi/SetupDiGetClassProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -264,7 +264,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetClassProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
+<b>SetupDiGetClassProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetClassProperty</b>. 
 

@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceupdatescallbacknative.htm
 tech.root: WinRT
 ms.assetid: 76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
 ms.prod: windows
 ms.technology: windows-sdk

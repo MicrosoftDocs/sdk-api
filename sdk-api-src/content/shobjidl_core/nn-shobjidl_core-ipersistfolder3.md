@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder3.htm
 tech.root: shell
 ms.assetid: 77a10997-1512-41ee-a84c-f3fa2e500d20
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IPersistFolder3, IPersistFolder3 interface [Windows Shell], IPersistFolder3 interface [Windows Shell],described, _win32_IPersistFolder3, shell.IPersistFolder3, shobjidl_core/IPersistFolder3
 ms.prod: windows
 ms.technology: windows-sdk

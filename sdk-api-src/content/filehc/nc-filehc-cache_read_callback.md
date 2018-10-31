@@ -4,10 +4,10 @@ title: CACHE_READ_CALLBACK
 author: windows-sdk-content
 description: A callback that is provided to the cache to help examine items within the cache.
 old-location: winprog\fcache_read_callback.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 9fcdbca6-95db-4ec1-b81c-3681e9e2bffb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CACHE_READ_CALLBACK, CACHE_READ_CALLBACK callback, CACHE_READ_CALLBACK callback function [Windows API], filehc/CACHE_READ_CALLBACK, winprog.fcache_read_callback
 ms.prod: windows
 ms.technology: windows-sdk

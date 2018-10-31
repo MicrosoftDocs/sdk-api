@@ -7,7 +7,7 @@ old-location: display\engsort.htm
 tech.root: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,12 +95,16 @@ None
 
 The basis for comparing two elements is defined in the function that <i>pfnComp </i>points to. This function is prototyped as follows:
 
-
-```
-int (__cdecl *SORTCOMP)(const void *pv1, const void *pv2);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>int (__cdecl *SORTCOMP)(const void *pv1, const void *pv2);</pre>
+</td>
+</tr>
+</table></span></div>
 where <i>pv1</i> and <i>pv2</i> point to the two elements to be compared. The return value is the result of the comparison defined as follows:
 
 <table>

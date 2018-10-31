@@ -4,10 +4,10 @@ title: ImageList_Create function
 author: windows-sdk-content
 description: Creates a new image list.
 old-location: controls\ImageList_Create.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_create.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ImageList_Create, ImageList_Create function [Windows Controls], _win32_ImageList_Create, _win32_ImageList_Create_cpp, commctrl/ImageList_Create, controls.ImageList_Create, controls._win32_ImageList_Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,9 +75,9 @@ The height, in pixels, of each image.
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A set of bit flags that specify the type of image list to create. This parameter can be a combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb775232(v=VS.85).aspx">Image List Creation Flags</a>. 
+A set of bit flags that specify the type of image list to create. This parameter can be a combination of the <a href="https://msdn.microsoft.com/DFEB1934-DB7F-4151-97F9-DDB2BCCC782A">Image List Creation Flags</a>. 
 
 
 ### -param cInitial
@@ -109,9 +109,9 @@ Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
 
 
 
-When you finish using the image list, destroy it by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> function.  
+When you finish using the image list, destroy it by calling the <a href="https://msdn.microsoft.com/6720c9e7-b35f-4acd-8fa7-9aa9f0991879">ImageList_Destroy</a> function.  
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

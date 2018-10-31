@@ -7,7 +7,7 @@ old-location: gdi\createscalablefontresource.htm
 tech.root: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 0, 1, CreateScalableFontResource, CreateScalableFontResource function [Windows GDI], CreateScalableFontResourceA, CreateScalableFontResourceW, _win32_CreateScalableFontResource, gdi.createscalablefontresource, wingdi/CreateScalableFontResource, wingdi/CreateScalableFontResourceA, wingdi/CreateScalableFontResourceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

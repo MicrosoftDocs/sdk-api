@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getfourcccodes.htm
 tech.root: directdraw
 ms.assetid: 980b1cfe-d466-42f4-865f-6ddc7a41ea94
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetFourCCCodes method, IDirectDraw7.GetFourCCCodes, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

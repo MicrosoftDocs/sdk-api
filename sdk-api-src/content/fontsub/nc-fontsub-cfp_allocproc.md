@@ -7,7 +7,7 @@ old-location: gdi\cfp_allocproc.htm
 tech.root: gdi
 ms.assetid: f6a98721-ebd1-4d83-bc9d-adde2e3ce525
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CFP_ALLOCPROC, CFP_ALLOCPROC callback, CFP_ALLOCPROC callback function [Windows GDI], _win32_CFP_ALLOCPROC, fontsub/CFP_ALLOCPROC, gdi.cfp_allocproc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Returns a void pointer to the allocated space, or <b>NULL</b> if there is insuff
 
 
 
-<a href="https://msdn.microsoft.com/library/6ewkz86d(v=VS.100).aspx">malloc</a> conforms to this type; the application can either use <b>malloc</b> or a more specialized function for memory allocation. Whatever function is chosen, there must also be appropriate functions to reallocate and to free this memory. 
+<a href="144fcee2-be34-4a03-bb7e-ed6d4b99eea0">malloc</a> conforms to this type; the application can either use <b>malloc</b> or a more specialized function for memory allocation. Whatever function is chosen, there must also be appropriate functions to reallocate and to free this memory. 
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\clusprop_sz_declare.htm
 tech.root: mscs
 ms.assetid: ff759673-b9cf-44fb-b4a0-4264117b24a8
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: CLUSPROP_SZ_DECLARE, CLUSPROP_SZ_DECLARE macro [Failover Cluster], _wolf_clusprop_sz_declare, clusapi/CLUSPROP_SZ_DECLARE, mscs.clusprop_sz_declare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,17 +90,21 @@ ClusAPI.h defines <b>CLUSPROP_SZ_DECLARE</b> as follows:
 The following example shows how to use 
      <b>CLUSPROP_SZ_DECLARE</b>:
 
-
-```cpp
-WCHAR szNameData[] = L"Object Name";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR szNameData[] = L"Object Name";
 CLUSPROP_SZ_DECLARE( NameValue, sizeof( szNameData ) / sizeof( WCHAR ) );
 NameValue.Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 NameValue.cbLength = sizeof( szNameData );
 StringCbCopy( NameValue.sz, NameValue.cbLength, szNameData );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

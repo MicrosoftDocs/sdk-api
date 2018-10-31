@@ -4,10 +4,10 @@ title: PCREATE_SERVICE_ENUMERATION_HANDLE
 author: windows-sdk-content
 description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.
 old-location: rras\createserviceenumerationhandle.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateServiceEnumerationHandle, CreateServiceEnumerationHandle callback function [RAS], PCREATE_SERVICE_ENUMERATION_HANDLE, PCREATE_SERVICE_ENUMERATION_HANDLE callback, STM_ONLY_THIS_INTERFACE, STM_ONLY_THIS_PROTOCOL, STM_ONLY_THIS_TYPE, _mpr_createserviceenumerationhandle, rras.createserviceenumerationhandle, stm/CreateServiceEnumerationHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ Pointer to an
 If the function succeeds, the return value is a handle for use with the service enumeration function.
 
 A <b>NULL</b> handle indicates no services exists with the specified criteria, or that the operation failed. For more information, call 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a> and check the error code against the table below.
+<a href="_win32_getlasterror">GetLastError</a> and check the error code against the table below.
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a>
+<a href="_win32_getlasterror">GetLastError</a>
 
 
 

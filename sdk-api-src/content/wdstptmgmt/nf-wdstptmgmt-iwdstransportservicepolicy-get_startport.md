@@ -4,10 +4,10 @@ title: IWdsTransportServicePolicy::get_StartPort
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_startport.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 0ef74479-f732-4b7b-8d40-29c359901837
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy.get_StartPort, IWdsTransportServicePolicy::StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

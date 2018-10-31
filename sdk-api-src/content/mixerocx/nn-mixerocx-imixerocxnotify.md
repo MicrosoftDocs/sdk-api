@@ -7,7 +7,7 @@ old-location: dshow\imixerocxnotify.htm
 tech.root: DirectShow
 ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getcurrentimage.htm
 tech.root: DirectShow
 ms.assetid: 515e252d-4ac4-49ec-8d94-bf850dd4783f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl.GetCurrentImage, IVMRWindowlessControl::GetCurrentImage, IVMRWindowlessControlGetCurrentImage, dshow.ivmrwindowlesscontrol_getcurrentimage, strmif/IVMRWindowlessControl::GetCurrentImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,20 +108,24 @@ This method can be called at any time, no matter what state the filter is in, wh
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BYTE *lpDib = NULL;
-hr = pWindowlessControl->GetCurrentImage(&lpDib);
+hr = pWindowlessControl-&gt;GetCurrentImage(&amp;lpDib);
 if (SUCCEEDED(hr))
 {
     BITMAPINFOHEADER *pBMIH = (BITMAPINFOHEADER*)lpDib;
     /* .... */
     CoTaskMemFree(lpDib);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

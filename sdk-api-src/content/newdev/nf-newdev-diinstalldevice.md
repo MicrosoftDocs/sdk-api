@@ -7,7 +7,7 @@ old-location: devinst\diinstalldevice.htm
 tech.root: devinst
 ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Installation], devinst.diinstalldevice, di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml, newdev/DiInstallDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>DiInstallDevice</b> function installs a specified driver that is preinstalled in the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a> on a specified device that is present in the system.
+The <b>DiInstallDevice</b> function installs a specified driver that is preinstalled in the <a href="devinst.driver_store">driver store</a> on a specified device that is present in the system.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to the top-level window that <b>DiInstallDevice</b> uses to display any
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the specified device.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the specified device.
 
 
 ### -param DeviceInfoData [in]
@@ -76,7 +76,7 @@ A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242
 
 ### -param DriverInfoData [in, optional]
 
-An pointer to an <a href="https://msdn.microsoft.com/13cdebad-6247-4651-a1d0-709e14af22f6">SP_DRVINFO_DATA</a> structure that specifies the driver to install on the specified device. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, <b>DiInstallDevice</b> searches the drivers preinstalled in the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a> for the driver that is the best match to the specified device, and, if one is found, installs the driver on the specified device.
+An pointer to an <a href="https://msdn.microsoft.com/13cdebad-6247-4651-a1d0-709e14af22f6">SP_DRVINFO_DATA</a> structure that specifies the driver to install on the specified device. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, <b>DiInstallDevice</b> searches the drivers preinstalled in the <a href="devinst.driver_store">driver store</a> for the driver that is the best match to the specified device, and, if one is found, installs the driver on the specified device.
 
 
 ### -param Flags [in]
@@ -107,7 +107,7 @@ If the caller does not specify a driver (<i>DriverInfoData</i> is set to <b>NULL
 
 #### DIIDFLAG_INSTALLCOPYINFDRIVERS
 
-Any additional INF file specified via a <a href="https://msdn.microsoft.com/library/Ff547317(v=VS.85).aspx">CopyINF</a> directive will be installed on any device it is applicable to.  Any failure in installing an additional INF will not cause the primary INF's installation to fail.
+Any additional INF file specified via a <a href="devinst.inf_copyinf_directive">CopyINF</a> directive will be installed on any device it is applicable to.  Any failure in installing an additional INF will not cause the primary INF's installation to fail.
 
 
 ### -param NeedReboot [out, optional]
@@ -155,7 +155,7 @@ The value that is specified for <i>Flags</i> is not zero or a bitwise OR of the 
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="devinst.device_installations_on_64_bit_systems">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ The calling application is a 32-bit application that is attempting to execute in
 
 
 
-Only call <b>DiInstallDevice</b> if it is necessary to install a specific driver on a specific device. Otherwise, use <a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a> or <a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a> to install a driver for a device. For more information about which of these functions to call to install a driver on a device, see <a href="https://msdn.microsoft.com/library/Ff550867(v=VS.85).aspx">SetupAPI Functions that Simplify Driver Installation</a>. 
+Only call <b>DiInstallDevice</b> if it is necessary to install a specific driver on a specific device. Otherwise, use <a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a> or <a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a> to install a driver for a device. For more information about which of these functions to call to install a driver on a device, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>. 
 
 Before calling <b>DiInstallDevice</b>, the caller must obtain an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure to specify the device and, optionally, an <a href="https://msdn.microsoft.com/13cdebad-6247-4651-a1d0-709e14af22f6">SP_DRVINFO_DATA</a> structure to specify a driver for the device.
 

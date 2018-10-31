@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamalpha.htm
 tech.root: medfound
 ms.assetid: E2DB0672-54D9-4DDB-B6EA-9935237C33FB
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamAlpha method, ID3D11VideoContext.VideoProcessorGetStreamAlpha, ID3D11VideoContext::VideoProcessorGetStreamAlpha, VideoProcessorGetStreamAlpha, VideoProcessorGetStreamAlpha method [Media Foundation], VideoProcessorGetStreamAlpha method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamAlpha, mf.id3d11videocontext_videoprocessorgetstreamalpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

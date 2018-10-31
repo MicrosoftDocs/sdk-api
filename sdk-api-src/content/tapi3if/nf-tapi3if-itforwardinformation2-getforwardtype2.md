@@ -4,10 +4,10 @@ title: ITForwardInformation2::GetForwardType2
 author: windows-sdk-content
 description: The GetForwardType2 method gets the current forwarding mode, specified by caller address.
 old-location: tapi3\itforwardinformation2_getforwardtype2.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: c3142217-d3fa-4e0b-ad3b-65a0557ce951
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetForwardType2, GetForwardType2 method [TAPI 2.2], GetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, ITForwardInformation2 interface [TAPI 2.2],GetForwardType2 method, ITForwardInformation2.GetForwardType2, ITForwardInformation2::GetForwardType2, _tapi3_itforwardinformation2_getforwardtype2, tapi3.itforwardinformation2_getforwardtype2, tapi3if/ITForwardInformation2::GetForwardType2
 ms.prod: windows-hardware
 ms.technology: windows-devices

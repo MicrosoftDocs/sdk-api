@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_SetThumbnailClip.htm
 tech.root: shell
 ms.assetid: a22c4708-af59-4ccb-9ddb-885d14c17a33
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailClip method, ITaskbarList3.SetThumbnailClip, ITaskbarList3::SetThumbnailClip, SetThumbnailClip, SetThumbnailClip method [Windows Shell], SetThumbnailClip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailClip, shell.ITaskbarList3_SetThumbnailClip, shobjidl_core/ITaskbarList3::SetThumbnailClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

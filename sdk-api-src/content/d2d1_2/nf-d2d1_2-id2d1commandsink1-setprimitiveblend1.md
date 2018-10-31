@@ -4,10 +4,10 @@ title: ID2D1CommandSink1::SetPrimitiveBlend1
 author: windows-sdk-content
 description: Sets a new primitive blend mode.
 old-location: direct2d\id2d1commandsink_setprimitiveblend1.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3EA9EC07-1B2F-48A2-ABFB-2DA0E2EFFBF4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1CommandSink1 interface [Direct2D],SetPrimitiveBlend1 method, ID2D1CommandSink1.SetPrimitiveBlend1, ID2D1CommandSink1::SetPrimitiveBlend1, SetPrimitiveBlend1, SetPrimitiveBlend1 method [Direct2D], SetPrimitiveBlend1 method [Direct2D],ID2D1CommandSink1 interface, d2d1_2/ID2D1CommandSink1::SetPrimitiveBlend1, direct2d.id2d1commandsink_setprimitiveblend1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,7 @@ The table here shows the primitive blend modes for both aliased and antialiased 
 </table>
  
 
-<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="./images/PrimBlendDemo.png"/>
+<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="images/PrimBlendDemo.png"/>
 An illustration of the primitive blend modes with varying opacity and backgrounds.
 
 The primitive blend will apply to all of the primitive drawn on the context, unless this is overridden with the <i>compositeMode</i> parameter on the <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">DrawImage</a> API.

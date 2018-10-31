@@ -7,7 +7,7 @@ old-location: automat\safearraycopy.htm
 tech.root: automat
 ms.assetid: 8f84d4f6-1852-4ad8-b174-f3fa37e5bbd6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SafeArrayCopy, SafeArrayCopy function [Automation], _oa96_SafeArrayCopy, automat.safearraycopy, oleauto/SafeArrayCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

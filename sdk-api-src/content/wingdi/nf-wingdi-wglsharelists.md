@@ -7,7 +7,7 @@ old-location: opengl\wglsharelists.htm
 tech.root: OpenGL
 ms.assetid: 587ea116-c70b-41ca-bf9b-a0c666f4e948
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareLists function [OpenGL], wingdi/wglShareLists"
 ms.prod: windows-hardware
 ms.technology: windows-devices

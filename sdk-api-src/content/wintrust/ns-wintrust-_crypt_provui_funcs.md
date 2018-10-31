@@ -96,19 +96,23 @@ A pointer to the  default function called when the <b>Advanced</b> button is cli
 
 The prototype for PFN_PROVUI_CALL is defined as:
 
-
-```cpp
-#include <windows.h>
-#include <Wintrust.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Wintrust.h&gt;
 
 typedef BOOL (*PFN_PROVUI_CALL)(
     IN HWND hWndSecurityDialog,
     IN struct _CRYPT_PROVIDER_DATA *pProvData
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

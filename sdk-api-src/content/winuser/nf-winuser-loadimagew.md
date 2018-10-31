@@ -7,7 +7,7 @@ old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ Loads an icon, cursor, animated cursor, or bitmap.
 
 Type: <b>HINSTANCE</b>
 
-A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
+A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="https://msdn.microsoft.com/e704ccb6-b4ab-4e1b-8d25-2209de3d38f8">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
 
 
 To load an OEM image, set this parameter to <b>NULL</b>.
@@ -83,7 +83,7 @@ To load a stand-alone resource (icon, cursor, or bitmap file)—for example, c:\
 
 Type: <b>LPCTSTR</b>
 
-The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
+The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
 
 					For more information, see the Remarks section below.
 
@@ -109,7 +109,7 @@ If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omi
 </table>
  
 
-To pass these constants to the <b>LoadImage</b> function, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
+To pass these constants to the <b>LoadImage</b> function, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
 
 If the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the  stand-alone resource (icon, cursor, or bitmap file). Therefore, set <i>hinst</i> to <b>NULL</b>.
 
@@ -329,7 +329,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If <a href="https://msdn.microsoft.com/en-us/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-
+If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-
 
 terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
 
@@ -354,13 +354,13 @@ When you are finished using a bitmap, cursor, or icon you loaded without specify
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
 </td>
 </tr>
 </table>
@@ -373,7 +373,7 @@ The system automatically deletes these resources when the process that created t
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633575(v=VS.85).aspx">Using Window Classes</a>.
+For an example, see <a href="https://msdn.microsoft.com/ea9e36c9-b10d-441e-b1b5-1ab93e009e1d">Using Window Classes</a>.
 
 <div class="code"></div>
 
@@ -388,7 +388,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633575(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648031(v=VS.85).aspx">CopyImage</a>
+<a href="https://msdn.microsoft.com/3912d9e3-f507-4046-80fd-12e76a61edc7">CopyImage</a>
 
 
 
@@ -400,11 +400,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633575(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
 
 
 
@@ -416,7 +416,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633575(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
  
 
  

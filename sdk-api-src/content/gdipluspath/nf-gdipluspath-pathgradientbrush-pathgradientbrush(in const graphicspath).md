@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>PathGradientBrush::PathGradientBrush</b> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
+Creates a <b>PathGradientBrush::PathGradientBrush</b> object based on a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <b>PathGradientBrush::PathGradientBrush</b> object based on a <a href=
 
 ### -param path [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object that specifies the boundary path of the path gradient brush. 
+Pointer to a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object that specifies the boundary path of the path gradient brush. 
 
 
 ## -see-also
@@ -83,7 +83,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
@@ -91,7 +91,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
  
 
  

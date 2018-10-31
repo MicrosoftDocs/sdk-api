@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_createmutualexclusion.htm
 tech.root: medfound
 ms.assetid: 457b7b73-34c0-48fe-882a-9cdc3516e20d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 457b7b73-34c0-48fe-882a-9cdc3516e20d, CreateMutualExclusion, CreateMutualExclusion method [Media Foundation], CreateMutualExclusion method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateMutualExclusion method, IMFASFProfile.CreateMutualExclusion, IMFASFProfile::CreateMutualExclusion, mf.imfasfprofile_createmutualexclusion, wmcontainer/IMFASFProfile::CreateMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices

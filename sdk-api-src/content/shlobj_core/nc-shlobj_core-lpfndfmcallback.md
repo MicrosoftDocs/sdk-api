@@ -7,7 +7,7 @@ old-location: shell\LPFNDFMCALLBACK.htm
 tech.root: shell
 ms.assetid: a5635196-80de-4db9-9c3a-65f2b241b4a0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPFNDFMCALLBACK, LPFNDFMCALLBACK callback, LPFNDFMCALLBACK callback function [Windows Shell], _win32_LPFNDFMCALLBACK, shell.LPFNDFMCALLBACK, shlobj_core/LPFNDFMCALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

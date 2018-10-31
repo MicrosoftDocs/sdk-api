@@ -7,7 +7,7 @@ old-location: com\callframeinfo.htm
 tech.root: com
 ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], __MIDL_ICallFrame_0001, callobj/CALLFRAMEINFO, com.callframeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,11 +123,11 @@ The number of parameters in <b>imethod</b>. The receiver is excluded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691485(v=VS.85).aspx">ICallIndirect</a>
+<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
  
 
  

@@ -4,10 +4,10 @@ title: RpcMgmtIsServerListening function
 author: windows-sdk-content
 description: The RpcMgmtIsServerListening function tells whether a server is listening for remote procedure calls.
 old-location: rpc\rpcmgmtisserverlistening.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: e4c5e8aa-764d-489f-ac98-ab40ca4a3534
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcMgmtIsServerListening, RpcMgmtIsServerListening function [RPC], _rpc_rpcmgmtisserverlistening, rpc.rpcmgmtisserverlistening, rpcdce/RpcMgmtIsServerListening
 ms.prod: windows-hardware
 ms.technology: windows-devices

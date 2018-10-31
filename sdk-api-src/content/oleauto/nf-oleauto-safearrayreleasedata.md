@@ -7,7 +7,7 @@ old-location: automat\safearrayreleasedata.htm
 tech.root: automat
 ms.assetid: AF3C36A3-2B3A-4159-8183-DB082FBFD215
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SafeArrayReleaseData, SafeArrayReleaseData function [Automation], automat.safearrayreleasedata, oleauto/SafeArrayReleaseData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: D2D1_COLORMANAGEMENT_RENDERING_INTENT
 author: windows-sdk-content
 description: Specifies which ICC rendering intent the Color management effect should use.
 old-location: direct2d\d2d1_colormanagement_rendering_intent.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 64161335-7974-4B8D-9385-045A94625FE1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_COLORMANAGEMENT_RENDERING_INTENT, D2D1_COLORMANAGEMENT_RENDERING_INTENT enumeration [Direct2D], D2D1_COLORMANAGEMENT_RENDERING_INTENT_ABSOLUTE_COLORIMETRIC, D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL, D2D1_COLORMANAGEMENT_RENDERING_INTENT_RELATIVE_COLORIMETRIC, D2D1_COLORMANAGEMENT_RENDERING_INTENT_SATURATION, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_ABSOLUTE_COLORIMETRIC, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_RELATIVE_COLORIMETRIC, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_SATURATION, direct2d.d2d1_colormanagement_rendering_intent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies which ICC rendering intent the <a href="https://msdn.microsoft.com/en-us/library/Hh706318(v=VS.85).aspx">Color management effect</a> should use.
+Specifies which ICC rendering intent the <a href="https://msdn.microsoft.com/7351C4B4-F289-4236-BB42-1B3BD8753248">Color management effect</a> should use.
 
 
 ## -enum-fields

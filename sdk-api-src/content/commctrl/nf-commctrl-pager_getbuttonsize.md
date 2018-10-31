@@ -4,10 +4,10 @@ title: Pager_GetButtonSize macro
 author: windows-sdk-content
 description: Retrieves the current button size for the pager control. You can use this macro or send the PGM_GETBUTTONSIZE message explicitly.
 old-location: controls\Pager_GetButtonSize.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonsize.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Pager_GetButtonSize, Pager_GetButtonSize macro [Windows Controls], _win32_Pager_GetButtonSize, _win32_Pager_GetButtonSize_cpp, commctrl/Pager_GetButtonSize, controls.Pager_GetButtonSize, controls._win32_Pager_GetButtonSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the current button size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760870(v=VS.85).aspx">PGM_GETBUTTONSIZE</a> message explicitly. 
+Retrieves the current button size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/fa8b4814-4587-4149-83a7-84faad2a4641">PGM_GETBUTTONSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the current button size for the pager control. You can use this macro 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 
@@ -70,7 +70,7 @@ Handle to the pager control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760908(v=VS.85).aspx">Pager_SetButtonSize</a>
+<a href="https://msdn.microsoft.com/f38cc108-7a54-4b2f-92f9-4c4516136fa8">Pager_SetButtonSize</a>
  
 
  

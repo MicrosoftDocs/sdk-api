@@ -7,7 +7,7 @@ old-location: mf\mfsetattributeratio.htm
 tech.root: medfound
 ms.assetid: 04e8c89e-115e-41d4-b8cb-953f68ddd14e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 04e8c89e-115e-41d4-b8cb-953f68ddd14e, MFSetAttributeRatio, MFSetAttributeRatio function [Media Foundation], mf.mfsetattributeratio, mfapi/MFSetAttributeRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

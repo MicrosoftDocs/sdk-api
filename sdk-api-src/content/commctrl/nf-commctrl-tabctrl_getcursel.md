@@ -4,10 +4,10 @@ title: TabCtrl_GetCurSel macro
 author: windows-sdk-content
 description: Determines the currently selected tab in a tab control. You can use this macro or send the TCM_GETCURSEL message explicitly.
 old-location: controls\TabCtrl_GetCurSel.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcursel.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TabCtrl_GetCurSel, TabCtrl_GetCurSel macro [Windows Controls], _win32_TabCtrl_GetCurSel, _win32_TabCtrl_GetCurSel_cpp, commctrl/TabCtrl_GetCurSel, controls.TabCtrl_GetCurSel, controls._win32_TabCtrl_GetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Determines the currently selected tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760583(v=VS.85).aspx">TCM_GETCURSEL</a> message explicitly. 
+Determines the currently selected tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/1caa7fad-da5a-4b26-8e78-12110c126691">TCM_GETCURSEL</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Determines the currently selected tab in a tab control. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

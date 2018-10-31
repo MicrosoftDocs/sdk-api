@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawcolorcontrol_setcolorcontrols.htm
 tech.root: directdraw
 ms.assetid: de6f8266-d712-40bd-8230-cf5800cf8926
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawColorControl interface [DirectDraw],SetColorControls method, IDirectDrawColorControl.SetColorControls, IDirectDrawColorControl::SetColorControls, SetColorControls, SetColorControls method [DirectDraw], SetColorControls method [DirectDraw],IDirectDrawColorControl interface, ddraw/IDirectDrawColorControl::SetColorControls, directdraw.idirectdrawcolorcontrol_setcolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

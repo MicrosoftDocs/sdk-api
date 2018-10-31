@@ -4,10 +4,10 @@ title: ITextDocument2::SetDocumentFont
 author: windows-sdk-content
 description: Sets the default character formatting for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_setdocumentfont.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 1fbc000a-76c2-4b80-856b-42f2e1829e93
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetDocumentFont method, ITextDocument2.SetDocumentFont, ITextDocument2::SetDocumentFont, SetDocumentFont, SetDocumentFont method [Windows Controls], SetDocumentFont method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setdocumentfont, tom/ITextDocument2::SetDocumentFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-You can also set the default character formatting by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787865(v=VS.85).aspx">ITextFont::Reset(tomDefault)</a>.
+You can also set the default character formatting by calling <a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">ITextFont::Reset(tomDefault)</a>.
 
 
 
@@ -98,7 +98,7 @@ You can also set the default character formatting by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787865(v=VS.85).aspx">ITextFont::Reset</a>
+<a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">ITextFont::Reset</a>
  
 
  

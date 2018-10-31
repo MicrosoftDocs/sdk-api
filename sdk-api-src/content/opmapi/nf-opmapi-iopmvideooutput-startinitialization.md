@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput_iopmvideooutput__startinitialization.htm
 tech.root: medfound
 ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices

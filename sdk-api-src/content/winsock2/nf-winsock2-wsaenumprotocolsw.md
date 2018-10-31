@@ -4,10 +4,10 @@ title: WSAEnumProtocolsW function
 author: windows-sdk-content
 description: The WSAEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wsaenumprotocols_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 928b6937-41a3-4268-a3bc-14c9e04870e4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAEnumProtocols, WSAEnumProtocols function [Winsock], WSAEnumProtocolsA, WSAEnumProtocolsW, _win32_wsaenumprotocols_2, winsock.wsaenumprotocols_2, winsock2/WSAEnumProtocols, winsock2/WSAEnumProtocolsA, winsock2/WSAEnumProtocolsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -129,7 +129,7 @@ A blocking Windows Sockets 1.1 call is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ Indicates that one of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The buffer length was too small to receive all the relevant
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,16 +197,20 @@ The order in which the
 
 The following example demonstrates the use of the <b>WSAEnumProtocols</b> function to retrieve an array of <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structures for available transport protocols.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE 1
 #endif
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <objbase.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib and ole32.lib
 #pragma comment (lib, "Ws2_32.lib")
@@ -239,7 +243,7 @@ int wmain()
     WCHAR GuidString[40] = { 0 };
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -252,7 +256,7 @@ int wmain()
         return 1;
     }
 
-    iNuminfo = WSAEnumProtocols(NULL, lpProtocolInfo, &dwBufferLen);
+    iNuminfo = WSAEnumProtocols(NULL, lpProtocolInfo, &amp;dwBufferLen);
     if (iNuminfo == SOCKET_ERROR) {
         iError = WSAGetLastError();
         if (iError != WSAENOBUFS) {
@@ -277,7 +281,7 @@ int wmain()
                 WSACleanup();
                 return 1;
             }
-            iNuminfo = WSAEnumProtocols(NULL, lpProtocolInfo, &dwBufferLen);
+            iNuminfo = WSAEnumProtocols(NULL, lpProtocolInfo, &amp;dwBufferLen);
             if (iNuminfo == SOCKET_ERROR) {
                 iError = WSAGetLastError();
                 wprintf(L"WSAEnumProtocols failed with error: %d\n", iError);
@@ -294,7 +298,7 @@ int wmain()
 
     wprintf(L"WSAEnumProtocols succeeded with protocol count = %d\n\n",
             iNuminfo);
-    for (i = 0; i < iNuminfo; i++) {
+    for (i = 0; i &lt; iNuminfo; i++) {
         wprintf(L"Winsock Catalog Provider Entry #%d\n", i);
         wprintf
             (L"----------------------------------------------------------\n");
@@ -308,7 +312,7 @@ int wmain()
 
         iRet =
             StringFromGUID2(lpProtocolInfo[i].ProviderId,
-                            (LPOLESTR) & GuidString, 39);
+                            (LPOLESTR) &amp; GuidString, 39);
         if (iRet == 0)
             wprintf(L"StringFromGUID2 failed\n");
         else
@@ -363,10 +367,10 @@ int wmain()
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

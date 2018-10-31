@@ -7,7 +7,7 @@ old-location: setup\msirecordreadstream.htm
 tech.root: msi
 ms.assetid: a7ff84f0-15d2-4fb2-98c7-8fb8d2f14004
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiRecordReadStream, MsiRecordReadStream function, _msi_msirecordreadstream, msiquery/MsiRecordReadStream, setup.msirecordreadstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,24 +100,28 @@ If you pass 0 for <i>szDataBuf</i> then <i>pcbDataBuf</i> is reset to the number
 
 The following code sample reads from a stream that is in field 1 of a record specified by hRecord and reads the entire stream 8 bytes at a time.
 
-
-```cpp
-char szBuffer[8];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>char szBuffer[8];
 PMSIHANDLE hRecord;
 DWORD cbBuf = sizeof(szBuffer);
 do 
 {
     if (MsiRecordReadStream(hRecord, 1, szBuffer, 
-        &cbBuf) != ERROR_SUCCESS)
+        &amp;cbBuf) != ERROR_SUCCESS)
         break; /* error */
 }
 while (cbBuf == 8);  //continue reading the stream while you receive a full buffer
 //cbBuf will be less once you reach the end of the stream and cannot fill your 
 //buffer with stream data
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 See also 
 <a href="https://msdn.microsoft.com/ebd5fcac-0238-4f30-9fd5-a0c5cf9028ef">OLE Limitations on Streams</a>.
 
@@ -129,7 +133,7 @@ See also
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

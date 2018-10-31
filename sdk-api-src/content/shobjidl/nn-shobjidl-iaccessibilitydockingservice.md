@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservice.htm
 tech.root: com
 ms.assetid: DBAFE260-0AC6-4801-8590-DE058667C9A6
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], IAccessibilityDockingService interface [COM],described, com.iaccessibilitydockingservice, shobjidl/IAccessibilityDockingService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Docks an application window to the bottom of a monitor when a Windows Store app 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IAccessibilityDockingService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingService</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IAccessibilityDockingService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

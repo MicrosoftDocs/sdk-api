@@ -7,7 +7,7 @@ old-location: mscs\fileshare_change_enum.htm
 tech.root: mscs
 ms.assetid: 36139a95-141c-4f44-9627-9ed6c3fed0c5
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: "*PFILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ENUM enumeration [Failover Cluster], FILESHARE_CHANGE_MODIFY, FILESHARE_CHANGE_NONE, _FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_ADD, clusapi/FILESHARE_CHANGE_DEL, clusapi/FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_MODIFY, clusapi/FILESHARE_CHANGE_NONE, mscs.fileshare_change_enum"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 Contains the possible change events that are used by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Cc895521(v=VS.85).aspx">FILESHARE_CHANGE</a> structure to describe an entry in a 
+    <a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a> structure to describe an entry in a 
     file share event notification list.
 
 
@@ -97,11 +97,11 @@ One or more properties of an existing file share resource have been changed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc895521(v=VS.85).aspx">FILESHARE_CHANGE</a>
+<a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\dxva2_ayuvsample16.htm
 tech.root: medfound
 ms.assetid: 3e25182a-fd5d-437c-9441-44094a3450cb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 3e25182a-fd5d-437c-9441-44094a3450cb, DXVA2_AYUVSample16, DXVA2_AYUVSample16 structure [Media Foundation], _DXVA2_AYUVSample16, dxva2api/DXVA2_AYUVSample16, mf.dxva2_ayuvsample16
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_AddToSelection.htm
 tech.root: WinAuto
 ms.assetid: 5ae4a131-3283-4e91-8419-f2aa6f488833
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],AddToSelection method, IUIAutomationTextRange.AddToSelection, IUIAutomationTextRange::AddToSelection, uiauto.uiauto_IUIAutomationTextRange_AddToSelection, uiauto_IUIAutomationTextRange_AddToSelection, uiautomationclient/IUIAutomationTextRange::AddToSelection, winauto.uiauto_IUIAutomationTextRange_AddToSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

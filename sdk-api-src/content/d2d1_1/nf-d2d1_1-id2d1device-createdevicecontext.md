@@ -4,10 +4,10 @@ title: ID2D1Device::CreateDeviceContext
 author: windows-sdk-content
 description: Creates a new device context from a Direct2D device.
 old-location: direct2d\id2d1device_createdevicecontext.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: d14255d4-ae59-42b4-ada9-bd7a3c5e8024
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],CreateDeviceContext method, ID2D1Device.CreateDeviceContext, ID2D1Device::CreateDeviceContext, d2d1_1/ID2D1Device::CreateDeviceContext, direct2d.id2d1device_createdevicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

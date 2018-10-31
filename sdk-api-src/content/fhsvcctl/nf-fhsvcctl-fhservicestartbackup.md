@@ -4,10 +4,10 @@ title: FhServiceStartBackup function
 author: windows-sdk-content
 description: This function starts an immediate backup for the current user.
 old-location: winprog\fhservicestartbackup.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

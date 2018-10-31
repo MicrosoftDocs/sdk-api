@@ -7,7 +7,7 @@ old-location: display\dd_destroysurfacedata.htm
 tech.root: display
 ms.assetid: 77d9544d-72df-4e7d-ba57-644aeee34a88
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA structure [Display Devices], _DD_DESTROYSURFACEDATA, ddrawint/DD_DESTROYSURFACEDATA, ddstrcts_19c2445b-0f9f-445d-a486-8ca100beeca7.xml, display.dd_destroysurfacedata"
 ms.prod: windows
 ms.technology: windows-sdk

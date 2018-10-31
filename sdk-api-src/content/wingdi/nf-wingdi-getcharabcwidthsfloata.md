@@ -7,7 +7,7 @@ old-location: gdi\getcharabcwidthsfloat.htm
 tech.root: gdi
 ms.assetid: 552942c9-e2a6-43f9-901f-3aba1e2523e5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCharABCWidthsFloat, GetCharABCWidthsFloat function [Windows GDI], GetCharABCWidthsFloatA, GetCharABCWidthsFloatW, _win32_GetCharABCWidthsFloat, gdi.getcharabcwidthsfloat, wingdi/GetCharABCWidthsFloat, wingdi/GetCharABCWidthsFloatA, wingdi/GetCharABCWidthsFloatW
 ms.prod: windows-hardware
 ms.technology: windows-devices

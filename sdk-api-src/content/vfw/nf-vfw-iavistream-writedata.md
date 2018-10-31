@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_writedata.htm
 tech.root: Multimedia
 ms.assetid: b6fb8e25-b6f9-4134-bb63-0a96fea88db8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],WriteData method, IAVIStream.WriteData, IAVIStream::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_WriteData, multimedia.iavistream_writedata, vfw/IAVIStream::WriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,15 +109,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>WriteData</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT WriteData(DWORD fcc, LPVOID lpBuffer, LONG cbBuffer); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageT
 author: windows-sdk-content
 description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 old-location: direct2d\id2d1device_createprintcontrol2.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7F1BE691-2CC4-4A53-9D4D-42E3D7354509
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreatePrintControl, CreatePrintControl method [Direct2D], CreatePrintControl method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],CreatePrintControl method, ID2D1Device.CreatePrintControl, ID2D1Device.CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES &,ID2D1PrintControl), ID2D1Device::CreatePrintControl, ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES &,ID2D1PrintControl), d2d1_1/ID2D1Device::CreatePrintControl, direct2d.id2d1device_createprintcontrol2
 ms.prod: windows-hardware
 ms.technology: windows-devices

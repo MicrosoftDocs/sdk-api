@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommandProvider_GetCommand.htm
 tech.root: shell
 ms.assetid: 8ef1fb9d-03ed-4e1a-bc13-9f5caab2abb9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCommand, GetCommand method [Windows Shell], GetCommand method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommand method, IExplorerCommandProvider.GetCommand, IExplorerCommandProvider::GetCommand, _shell_IExplorerCommandProvider_GetCommand, shell.IExplorerCommandProvider_GetCommand, shobjidl_core/IExplorerCommandProvider::GetCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

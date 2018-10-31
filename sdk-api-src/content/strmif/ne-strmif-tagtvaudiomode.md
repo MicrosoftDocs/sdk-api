@@ -7,7 +7,7 @@ old-location: dshow\tvaudiomode.htm
 tech.root: DirectShow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode, tagTVAudioMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,20 +173,24 @@ The following constants are defined in Strmif.h:
 You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
           
 
-
-```cpp
-DWORD ModeFlags(DWORD AudioMode)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD ModeFlags(DWORD AudioMode)
 {
-    return AudioMode & TVAUDIO_MODE_MASK;
+    return AudioMode &amp; TVAUDIO_MODE_MASK;
 }   
 
 DWORD PresetFlags(DWORD AudioMode)
 {
-    return AudioMode & TVAUDIO_PRESET_MASK;
-}
-```
-
-
+    return AudioMode &amp; TVAUDIO_PRESET_MASK;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

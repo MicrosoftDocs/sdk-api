@@ -4,10 +4,10 @@ title: ITTAPI::get_CallHubs
 author: windows-sdk-content
 description: The get_CallHubs method creates a collection of the currently available call hubs. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCallHubs method.
 old-location: tapi3\ittapi_get_callhubs.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 57177526-1351-4f59-8f24-74d8b87d27c0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_CallHubs method, ITTAPI.get_CallHubs, ITTAPI::get_CallHubs, _tapi3_ittapi_get_callhubs, get_CallHubs, get_CallHubs method [TAPI 2.2], get_CallHubs method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_callhubs, tapi3if/ITTAPI::get_CallHubs
 ms.prod: windows-hardware
 ms.technology: windows-devices

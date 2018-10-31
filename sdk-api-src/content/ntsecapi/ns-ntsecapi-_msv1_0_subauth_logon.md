@@ -7,7 +7,7 @@ old-location: security\msv1_0_subauth_logon.htm
 tech.root: secauthn
 ms.assetid: e53cb14a-097c-4ee4-ab7a-baa4b6699cc7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: "*PMSV1_0_SUBAUTH_LOGON, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_SUBAUTH_LOGON, MSV1_0_SUBAUTH_LOGON structure [Security], MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, PMSV1_0_SUBAUTH_LOGON, PMSV1_0_SUBAUTH_LOGON structure pointer [Security], _MSV1_0_SUBAUTH_LOGON, _lsa_msv1_0_subauth_logon, ntsecapi/MSV1_0_SUBAUTH_LOGON, ntsecapi/PMSV1_0_SUBAUTH_LOGON, security.msv1_0_subauth_logon"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcServerUseProtseqIf function
 author: windows-sdk-content
 description: The RpcServerUseProtseqIf function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqif.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 41c1fa20-266a-4071-91b3-d0fd8196871b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcServerUseProtseqIf, RpcServerUseProtseqIf function [RPC], RpcServerUseProtseqIfA, RpcServerUseProtseqIfW, _rpc_rpcserveruseprotseqif, rpc.rpcserveruseprotseqif, rpcdce/RpcServerUseProtseqIf, rpcdce/RpcServerUseProtseqIfA, rpcdce/RpcServerUseProtseqIfW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventgenerator_getevent.htm
 tech.root: medfound
 ms.assetid: e78464b5-ec6b-4739-a135-352fa297916a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 0, GetEvent, GetEvent method [Media Foundation], GetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],GetEvent method, IMFMediaEventGenerator.GetEvent, IMFMediaEventGenerator::GetEvent, MF_EVENT_FLAG_NO_WAIT, e78464b5-ec6b-4739-a135-352fa297916a, mf.imfmediaeventgenerator_getevent, mfobjects/IMFMediaEventGenerator::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

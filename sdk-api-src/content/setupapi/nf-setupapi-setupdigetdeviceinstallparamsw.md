@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinstallparams.htm
 tech.root: devinst
 ms.assetid: e5e8c203-cf71-4cb4-a7a8-5af3a2483eea
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiGetDeviceInstallParams, SetupDiGetDeviceInstallParams function [Device and Driver Installation], SetupDiGetDeviceInstallParamsA, SetupDiGetDeviceInstallParamsW, devinst.setupdigetdeviceinstallparams, di-rtns_417ee0d9-f9c6-44a2-b4b4-4787fe9e952b.xml, setupapi/SetupDiGetDeviceInstallParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiGetDeviceInstallParams</b> function retrieves device installation 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device installation parameters to retrieve.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device installation parameters to retrieve.
 
 
 ### -param DeviceInfoData [in, optional]

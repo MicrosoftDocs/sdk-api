@@ -7,7 +7,7 @@ old-location: display\devmodew.htm
 tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW structure [Display Devices], LPDEVMODEW, LPDEVMODEW structure pointer [Display Devices], NPDEVMODEW, NPDEVMODEW structure pointer [Display Devices], PDEVMODEW, PDEVMODEW structure pointer [Display Devices], _devicemodeW, display.devmodew, grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml, wingdi/DEVMODEW, wingdi/LPDEVMODEW, wingdi/NPDEVMODEW, wingdi/PDEVMODEW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -501,12 +501,16 @@ For printer drivers, the DEVMODEW structure is used for specifying printer chara
 
 Immediately following a DEVMODEW structure's defined members (often referred to as its public members), there can be a set of driver-defined members (often referred to as private DEVMODEW members). The driver supplies the size, in bytes, of this private area in <b>dmDriverExtra</b>. Driver-defined private members are for exclusive use by the driver. The starting address for the private members can be referenced using the <b>dmSize</b> member as follows:
 
-
-```
-PVOID pvDriverData = (PVOID) (((BYTE *) pdm) + (pdm->dmSize));
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PVOID pvDriverData = (PVOID) (((BYTE *) pdm) + (pdm-&gt;dmSize));</pre>
+</td>
+</tr>
+</table></span></div>
 A driver can rely on the spooler to pass a DEVMODEW buffer that is no smaller than (<b>dmSize</b> + <b>dmDriverExtra</b>) bytes. As a result, the driver can safely read that number of bytes starting from the beginning of the buffer without causing an access violation, and without needing to probe memory.
 
 Prior to playing EMF, GDI calls the spooler to validate the contents of the public portion of the DEVMODEW buffer. If the DEVMODEW buffer does not pass the validation tests performed in the spooler, GDI does not pass the buffer on to the printer driver.

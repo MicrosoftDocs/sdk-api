@@ -7,7 +7,7 @@ old-location: mscs\setclusternetworkpriorityorder.htm
 tech.root: mscs
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster], SetClusterNetworkPriorityOrder, SetClusterNetworkPriorityOrder function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, clusapi/SetClusterNetworkPriorityOrder, mscs.setclusternetworkpriorityorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,8 +54,8 @@ req.redist:
     section. Support for this method was removed in Windows Server 2008 and this function does nothing and returns 
     <b>ERROR_CALL_NOT_IMPLEMENTED</b>.]
 
-Sets the priority order for the set of <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">networks</a> used for 
-    internal communication between cluster <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER</b> type defines a pointer to this function.
+Sets the priority order for the set of <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">networks</a> used for 
+    internal communication between cluster <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Sets the priority order for the set of <a href="https://msdn.microsoft.com/en-us
 
 ### -param hCluster [in]
 
-Handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be affected.
+Handle to the <a href="c_gly.htm">cluster</a> to be affected.
 
 
 ### -param NetworkCount [in]

@@ -4,10 +4,10 @@ title: EventProviderEnabled function
 author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventproviderenabled_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

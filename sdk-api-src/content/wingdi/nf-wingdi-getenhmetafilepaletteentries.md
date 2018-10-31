@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafilepaletteentries.htm
 tech.root: gdi
 ms.assetid: 2d61fd6a-cebd-457e-ad00-d3e8bd15584a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetEnhMetaFilePaletteEntries, GetEnhMetaFilePaletteEntries function [Windows GDI], _win32_GetEnhMetaFilePaletteEntries, gdi.getenhmetafilepaletteentries, wingdi/GetEnhMetaFilePaletteEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

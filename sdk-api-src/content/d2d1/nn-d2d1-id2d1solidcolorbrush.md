@@ -4,10 +4,10 @@ title: ID2D1SolidColorBrush
 author: windows-sdk-content
 description: Paints an area with a solid color.
 old-location: direct2d\ID2D1SolidColorBrush.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: a15c2696-3122-461e-806e-2195a50a3e92
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1SolidColorBrush, ID2D1SolidColorBrush interface [Direct2D], ID2D1SolidColorBrush interface [Direct2D],described, d2d1/ID2D1SolidColorBrush, direct2d.ID2D1SolidColorBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ m_pRenderTarget-&gt;DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
 </table></span></div>
 These examples produce the output shown in the following illustration.
 
-<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="./images/brushes_ovw_solidcolor.png"/>
+<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="images/brushes_ovw_solidcolor.png"/>
 
 <div class="code"></div>
 

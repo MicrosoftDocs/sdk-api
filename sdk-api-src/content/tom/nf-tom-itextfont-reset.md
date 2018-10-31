@@ -4,10 +4,10 @@ title: ITextFont::Reset
 author: windows-sdk-content
 description: Resets the character formatting to the specified values.
 old-location: controls\ITextFont_Reset.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontreset.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextFont interface [Windows Controls],Reset method, ITextFont.Reset, ITextFont::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextFont interface, _win32_ITextFont_Reset, _win32_ITextFont_Reset_cpp, controls.ITextFont_Reset, controls._win32_ITextFont_Reset, tom/ITextFont::Reset, tomApplyLater, tomApplyNow, tomApplyTmp, tomCacheParms, tomDefault, tomDisableSmartFont, tomEnableSmartFont, tomTrackParms, tomUndefined, tomUsePoints, tomUseTwips
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -241,7 +241,7 @@ The font object is attached to a range that has been deleted.
 
 Calling 
 				<b>ITextFont::Reset</b> with <b>tomUndefined</b> sets all properties to undefined values. Thus, applying the font object to a range changes nothing. This applies to a font object that is obtained by the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">ITextFont::GetDuplicate</a> method.
+				<a href="https://msdn.microsoft.com/63911719-9ce2-482f-ba66-bc04eaa5d965">ITextFont::GetDuplicate</a> method.
 
 
 
@@ -255,11 +255,11 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/63911719-9ce2-482f-ba66-bc04eaa5d965">GetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -267,7 +267,7 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

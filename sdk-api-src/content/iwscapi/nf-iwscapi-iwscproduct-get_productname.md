@@ -4,10 +4,10 @@ title: IWscProduct::get_ProductName
 author: windows-sdk-content
 description: Returns the current product information for the security product.
 old-location: winprog\iwscproduct_productname.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 5270D8AF-AA69-4CC8-8ABC-F0716B3ED588
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductName method, IWscProduct.get_ProductName, IWscProduct::get_ProductName, get_ProductName, get_ProductName method [Windows API], get_ProductName method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_ProductName, winprog.iwscproduct_productname
 ms.prod: windows-hardware
 ms.technology: windows-devices

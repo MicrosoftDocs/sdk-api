@@ -4,10 +4,10 @@ title: MprAdminIsDomainRasServer function
 author: windows-sdk-content
 description: The MprAdminIsDomainRasServer function returns information regarding whether the given machine is registered as the remote access server in the domain.
 old-location: rras\mpradminisdomainrasserver.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,10 +148,14 @@ This function must be executed only on a machine joined to a domain.
 
 The follow example code shows the use of the <a href="https://msdn.microsoft.com/37187f6f-388e-47d6-83a8-92c2f69f71d9">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "mprapi.h"
 #pragma comment(lib, "mprapi.lib")
 
@@ -166,17 +170,17 @@ int __cdecl main(){
     MPR_SERVER_HANDLE phMprServer;
 
     // Make sure RRAS is running on the remote server
-    dwRes = MprAdminServerConnect(pszMachine, &phMprServer);
+    dwRes = MprAdminServerConnect(pszMachine, &amp;phMprServer);
     if(dwRes != ERROR_SUCCESS){
         wprintf (L"RRAS is not running on %s.\n", pszMachine);
         return dwRes;
     }
      
     // Close RRAS handle. It's not needed.
-    MprAdminServerDisconnect(&phMprServer);
+    MprAdminServerDisconnect(&amp;phMprServer);
  
     // Check to see if pszMachine is a RAS server for the domain
-    dwRes = MprAdminIsDomainRasServer (pszDomain, pszMachine, &bIsRegistered);
+    dwRes = MprAdminIsDomainRasServer (pszDomain, pszMachine, &amp;bIsRegistered);
     if (dwRes != ERROR_SUCCESS){
         //
         // Handle errors here
@@ -199,10 +203,10 @@ int __cdecl main(){
     }
     return ERROR_SUCCESS;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

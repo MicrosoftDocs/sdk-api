@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_commandline.htm
 tech.root: WinRT
 ms.assetid: 2A4B80B9-3590-411C-8834-6850A44AF46C
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_CommandLine method, IExeServerRegistration.get_CommandLine, IExeServerRegistration::get_CommandLine, activationregistration/IExeServerRegistration::get_CommandLine, get_CommandLine, get_CommandLine method [Windows Runtime], get_CommandLine method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_commandline
 ms.prod: windows-hardware
 ms.technology: windows-devices

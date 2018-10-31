@@ -4,10 +4,10 @@ title: lineforwardlist_tag
 author: windows-sdk-content
 description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.
 old-location: tapi2\lineforwardlist_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, lineforwardlist_tag, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str"
 ms.prod: windows
 ms.technology: windows-sdk

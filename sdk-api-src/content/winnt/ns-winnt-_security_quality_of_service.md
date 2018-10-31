@@ -4,10 +4,10 @@ title: "_SECURITY_QUALITY_OF_SERVICE"
 author: windows-sdk-content
 description: Contains information used to support client impersonation.
 old-location: security\security_quality_of_service.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 21f99d04-b21b-442c-9034-35f9f7bbee53
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE structure pointer [Security], SECURITY_QUALITY_OF_SERVICE, SECURITY_QUALITY_OF_SERVICE structure [Security], _SECURITY_QUALITY_OF_SERVICE, _win32_security_quality_of_service_str, security.security_quality_of_service, winnt/PSECURITY_QUALITY_OF_SERVICE, winnt/SECURITY_QUALITY_OF_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Specifies whether the server may enable or disable <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649003(v=VS.85).aspx">DdeSetQualityOfService</a>
+<a href="_win32_ddesetqualityofservice_cpp">DdeSetQualityOfService</a>
 
 
 

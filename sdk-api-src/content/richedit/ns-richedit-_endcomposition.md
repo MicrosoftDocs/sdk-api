@@ -4,10 +4,10 @@ title: "_endcomposition"
 author: windows-sdk-content
 description: Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.
 old-location: controls\endcompositionnotify.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ECN_ENDCOMPOSITION, ECN_NEWTEXT, ENDCOMPOSITIONNOTIFY, ENDCOMPOSITIONNOTIFY structure [Windows Controls], _endcomposition, controls.endcompositionnotify, richedit/ENDCOMPOSITIONNOTIFY
 ms.prod: windows
 ms.technology: windows-sdk

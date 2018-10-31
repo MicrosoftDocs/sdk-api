@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createvertexshader.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexshader.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 42a56eab-a68f-232a-b21e-cc24c0b7b58d, CreateVertexShader, CreateVertexShader method [Direct3D 9], CreateVertexShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexShader method, IDirect3DDevice9.CreateVertexShader, IDirect3DDevice9::CreateVertexShader, d3d9helper/IDirect3DDevice9::CreateVertexShader, direct3d9.idirect3ddevice9__createvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,23 +68,23 @@ Pointer to an array of tokens that represents the vertex shader, including any e
 
 
 <ul>
-<li>Use a function such as <a href="https://msdn.microsoft.com/en-us/library/Bb172731(v=VS.85).aspx">D3DXCompileShader</a> to create the array from a HLSL shader.</li>
-<li>Use a function like <a href="https://msdn.microsoft.com/en-us/library/Bb172707(v=VS.85).aspx">D3DXAssembleShader</a> to create the token array from an assembly language shader.</li>
-<li>Use a function like <a href="https://msdn.microsoft.com/en-us/library/Bb205791(v=VS.85).aspx">ID3DXEffectCompiler::CompileShader</a> to create the array from an effect.</li>
+<li>Use a function such as <a href="https://msdn.microsoft.com/9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8">D3DXCompileShader</a> to create the array from a HLSL shader.</li>
+<li>Use a function like <a href="https://msdn.microsoft.com/24c3dcae-9397-4856-b072-0ae340157bf9">D3DXAssembleShader</a> to create the token array from an assembly language shader.</li>
+<li>Use a function like <a href="https://msdn.microsoft.com/f34a2975-dcd5-4917-9b11-ed40583272f9">ID3DXEffectCompiler::CompileShader</a> to create the array from an effect.</li>
 </ul>
 
 ### -param ppShader [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205922(v=VS.85).aspx">IDirect3DVertexShader9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/834bd54b-673b-4fa8-aba5-30ed5b923542">IDirect3DVertexShader9</a>**</b>
 
-Pointer to the returned vertex shader interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205922(v=VS.85).aspx">IDirect3DVertexShader9</a>).
+Pointer to the returned vertex shader interface (see <a href="https://msdn.microsoft.com/834bd54b-673b-4fa8-aba5-30ed5b923542">IDirect3DVertexShader9</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, E_OUTOFMEMORY.
 
@@ -95,14 +95,14 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-When a device is created, <a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a> uses the behavior flag to determine whether to process vertices in hardware or software. There are three possibilities:
+When a device is created, <a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a> uses the behavior flag to determine whether to process vertices in hardware or software. There are three possibilities:
 
 <ul>
 <li>Process vertices in hardware by setting D3DCREATE_HARDWARE_VERTEXPROCESSING.</li>
 <li>Process vertices in software by setting D3DCREATE_SOFTWARE_VERTEXPROCESSING.</li>
-<li>Process vertices in either hardware or software by setting D3DCREATE_MIXED_VERTEXPROCESSING. To switch a mixed-mode device between software and hardware processing, use <a href="https://msdn.microsoft.com/en-us/library/Bb174458(v=VS.85).aspx">IDirect3DDevice9::SetSoftwareVertexProcessing</a>.</li>
+<li>Process vertices in either hardware or software by setting D3DCREATE_MIXED_VERTEXPROCESSING. To switch a mixed-mode device between software and hardware processing, use <a href="https://msdn.microsoft.com/05e67ec5-98f8-47c4-b5b7-aabb974db88a">IDirect3DDevice9::SetSoftwareVertexProcessing</a>.</li>
 </ul>
-For an example using <a href="https://msdn.microsoft.com/en-us/library/Bb172731(v=VS.85).aspx">D3DXCompileShader</a>, see <a href="https://msdn.microsoft.com/library/Ee417786(v=VS.85).aspx">HLSLwithoutEffects Sample</a>.
+For an example using <a href="https://msdn.microsoft.com/9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8">D3DXCompileShader</a>, see <a href="ac1492cf-d8aa-e22d-a7e0-dfd0a84d268d">HLSLwithoutEffects Sample</a>.
 
 
 
@@ -112,7 +112,7 @@ For an example using <a href="https://msdn.microsoft.com/en-us/library/Bb172731(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

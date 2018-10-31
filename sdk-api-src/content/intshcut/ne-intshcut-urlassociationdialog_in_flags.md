@@ -7,7 +7,7 @@ old-location: shell\URLASSOCIATIONDIALOG_IN_FLAGS.htm
 tech.root: shell
 ms.assetid: bbfb0063-0d7e-432b-8428-a7652933c670
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URLASSOCIATIONDIALOG_IN_FLAGS, URLASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_URLASSOCIATIONDIALOG_IN_FLAGS, intshcut/URLASSOCDLG_FL_REGISTER_ASSOC, intshcut/URLASSOCDLG_FL_USE_DEFAULT_NAME, intshcut/URLASSOCIATIONDIALOG_IN_FLAGS, shell.URLASSOCIATIONDIALOG_IN_FLAGS, urlassociationdialog_in_flags
 ms.prod: windows
 ms.technology: windows-sdk

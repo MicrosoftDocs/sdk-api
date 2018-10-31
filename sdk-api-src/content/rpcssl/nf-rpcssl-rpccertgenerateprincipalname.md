@@ -4,10 +4,10 @@ title: RpcCertGeneratePrincipalName function
 author: windows-sdk-content
 description: Server programs use the RpcCertGeneratePrincipalName function to generate principal names for security certificates.
 old-location: rpc\rpccertgenerateprincipalname.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 88a172f5-2226-46e9-845e-c67b0a885905
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function [RPC], RpcCertGeneratePrincipalNameA, RpcCertGeneratePrincipalNameW, _rpc_rpccertgenerateprincipalname, rpc.rpccertgenerateprincipalname, rpcssl/RpcCertGeneratePrincipalName, rpcssl/RpcCertGeneratePrincipalNameA, rpcssl/RpcCertGeneratePrincipalNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

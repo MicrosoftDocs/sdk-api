@@ -7,7 +7,7 @@ old-location: shell\icreateprocessinputs_addstartupflags.htm
 tech.root: shell
 ms.assetid: 62270ED9-678B-4D39-BFF1-3F9E10AAF03A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AddStartupFlags, AddStartupFlags method [Windows Shell], AddStartupFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],AddStartupFlags method, ICreateProcessInputs.AddStartupFlags, ICreateProcessInputs::AddStartupFlags, shell.icreateprocessinputs_addstartupflags, shobjidl_core/ICreateProcessInputs::AddStartupFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

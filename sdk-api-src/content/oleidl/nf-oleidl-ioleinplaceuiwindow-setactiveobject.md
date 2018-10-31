@@ -7,7 +7,7 @@ old-location: com\ioleinplaceuiwindow_setactiveobject.htm
 tech.root: com
 ms.assetid: 6ed1b09a-44e4-41dc-aa35-27efb3df66d6
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInPlaceUIWindow.SetActiveObject, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

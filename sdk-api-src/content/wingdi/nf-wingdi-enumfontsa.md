@@ -7,7 +7,7 @@ old-location: gdi\enumfonts.htm
 tech.root: gdi
 ms.assetid: b5dfc38d-c400-4900-a15b-f251815ee346
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumFonts, EnumFonts function [Windows GDI], EnumFontsA, EnumFontsW, _win32_EnumFonts, gdi.enumfonts, wingdi/EnumFonts, wingdi/EnumFontsA, wingdi/EnumFontsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

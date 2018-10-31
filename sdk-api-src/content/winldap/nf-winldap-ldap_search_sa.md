@@ -4,10 +4,10 @@ title: ldap_search_sA function
 author: windows-sdk-content
 description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: ed0a2c43-c38f-4991-b652-a1df4f739478
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_s, ldap.ldap__search__s, ldap.ldap_search_s, ldap_search_s, ldap_search_s function [LDAP], ldap_search_sA, ldap_search_sW, winldap/ldap_search_s, winldap/ldap_search_sA, winldap/ldap_search_sW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,9 +158,13 @@ Multithreading: Calls to <b>ldap_search_s</b> are thread-safe.
 
 The following code example shows how to free <i>pMsg</i> in the event that <b>ldap_search_s</b> fails.
 
-
-```cpp
-// Initialize return value to NULL.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Initialize return value to NULL.
 LDAPMessage *pMsg = NULL;
 
 // Perform the search request.
@@ -170,7 +174,7 @@ dwErr = ldap_search_s (i_pldap,
         i_lpszSearchFilter,
         lpszAttributes,
         0,
-        &pMsg
+        &amp;pMsg
         );
 
 // Cleanup calling parameters.
@@ -202,10 +206,10 @@ else
     ...
     // Free the results when no longer required.
     if (pMsg != NULL) ldap_msgfree(pMsg);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

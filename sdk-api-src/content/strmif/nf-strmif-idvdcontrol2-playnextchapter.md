@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playnextchapter.htm
 tech.root: DirectShow
 ms.assetid: 654841ce-6689-47cc-93fb-bd8de8f4dd3a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdControl2.PlayNextChapter, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

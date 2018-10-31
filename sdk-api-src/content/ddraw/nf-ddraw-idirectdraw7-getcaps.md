@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getcaps.htm
 tech.root: directdraw
 ms.assetid: 4e93612c-9e28-4d51-a640-e8e9b5ed8e7a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetCaps method, IDirectDraw7.GetCaps, IDirectDraw7::GetCaps, ddraw/IDirectDraw7::GetCaps, directdraw.idirectdraw7_getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

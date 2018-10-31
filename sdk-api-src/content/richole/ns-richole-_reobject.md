@@ -4,10 +4,10 @@ title: "_reobject"
 author: windows-sdk-content
 description: Contains information about an OLE or image object in a rich edit control.
 old-location: controls\REOBJECT.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reobject.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: REOBJECT, REOBJECT structure [Windows Controls], REO_ALIGNTORIGHT, REO_BELOWBASELINE, REO_BLANK, REO_CANROTATE, REO_DONTNEEDPALETTE, REO_DYNAMICSIZE, REO_GETMETAFILE, REO_HILITED, REO_INPLACEACTIVE, REO_INVERTEDSELECT, REO_LINK, REO_LINKAVAILABLE, REO_OPEN, REO_OWNERDRAWSELECT, REO_RESIZABLE, REO_SELECTED, REO_STATIC, REO_USEASBACKGROUND, REO_WRAPTEXTAROUND, _reobject, _win32_REOBJECT_str, _win32_REOBJECT_str_cpp, controls.REOBJECT, controls._win32_REOBJECT_str, richole/REOBJECT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ An instance of the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-c
 
 Type: <b>LPOLECLIENTSITE</b>
 
-An instance of the <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> interface. This is the object's client site in the rich edit control. This address must have been obtained from the <a href="https://msdn.microsoft.com/en-us/library/Bb774338(v=VS.85).aspx">GetClientSite</a> method. 
+An instance of the <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> interface. This is the object's client site in the rich edit control. This address must have been obtained from the <a href="https://msdn.microsoft.com/6ffceb29-6c76-4130-9bfe-0bc0b63c7478">GetClientSite</a> method. 
 
 
 ### -field sizel
@@ -340,7 +340,7 @@ An OLE or image object  in a rich edit control occupies one character position i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774338(v=VS.85).aspx">GetClientSite</a>
+<a href="https://msdn.microsoft.com/6ffceb29-6c76-4130-9bfe-0bc0b63c7478">GetClientSite</a>
 
 
 

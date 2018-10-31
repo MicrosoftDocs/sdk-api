@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellItemArrayFromShellItem.htm
 tech.root: shell
 ms.assetid: 93401708-6f11-474d-8009-24554f316e79
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SHCreateShellItemArrayFromShellItem, SHCreateShellItemArrayFromShellItem function [Windows Shell], _shell_SHCreateShellItemArrayFromShellItem, shell.SHCreateShellItemArrayFromShellItem, shobjidl_core/SHCreateShellItemArrayFromShellItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

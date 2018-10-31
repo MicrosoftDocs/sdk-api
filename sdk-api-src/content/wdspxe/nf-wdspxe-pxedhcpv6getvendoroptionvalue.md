@@ -4,10 +4,10 @@ title: PxeDhcpv6GetVendorOptionValue function
 author: windows-sdk-content
 description: Retrieves option values from the OPTION_VENDOR_OPTS (17) field of a DHCPv6 packet.
 old-location: wds\pxedhcpv6getvendoroptionvalue.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

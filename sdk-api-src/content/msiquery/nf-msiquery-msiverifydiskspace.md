@@ -7,7 +7,7 @@ old-location: setup\msiverifydiskspace.htm
 tech.root: msi
 ms.assetid: 5b1ded22-37a4-4026-872a-20ac3a69fe86
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydiskspace, msiquery/MsiVerifyDiskSpace, setup.msiverifydiskspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
  
 
  

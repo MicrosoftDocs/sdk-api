@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_info.htm
 tech.root: Multimedia
 ms.assetid: cac01da4-b979-4386-8fc7-f47a7771e6f4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],Info method, IAVIFile.Info, IAVIFile::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_Info, multimedia.iavifile_info, vfw/IAVIFile::Info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,15 +96,19 @@ If the buffer allocated is too small for the structure, this method should fail 
 
 For handlers written in C++, <b>Info</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Info(AVIFILEINFO *pfi, LONG lSize) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

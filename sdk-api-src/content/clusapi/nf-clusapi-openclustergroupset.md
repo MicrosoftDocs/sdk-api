@@ -7,7 +7,7 @@ old-location: mscs\openclustergroupcollection.htm
 tech.root: mscs
 ms.assetid: 8a5b944b-53c2-4437-b580-6ad603d0011a
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: OpenClusterGroupSet, OpenClusterGroupSet function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/OpenClusterGroupSet, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, mscs.openclustergroupcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

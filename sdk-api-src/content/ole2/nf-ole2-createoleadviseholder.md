@@ -7,7 +7,7 @@ old-location: com\createoleadviseholder.htm
 tech.root: com
 ms.assetid: f76e074e-6814-4735-9417-d5970e73089f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: CreateOleAdviseHolder, CreateOleAdviseHolder function [COM], _ole_CreateOleAdviseHolder, com.createoleadviseholder, ole2/CreateOleAdviseHolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

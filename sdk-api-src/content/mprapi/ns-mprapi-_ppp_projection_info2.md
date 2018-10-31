@@ -4,10 +4,10 @@ title: "_PPP_PROJECTION_INFO2"
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
 old-location: rras\ppp_projection_info2.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 273af594-66f1-4d51-b597-3f09ee5c66cb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PPPP_PROJECTION_INFO2, ERROR_PPP_NOT_CONVERGING, PPPP_PROJECTION_INFO2, PPPP_PROJECTION_INFO2 structure pointer [RAS], PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40BIT, PPP_CCP_ENCRYPTION40BITOLD, PPP_CCP_ENCRYPTION56BIT, PPP_CCP_HISTORYLESS, PPP_IPCP_VJ, PPP_LCP_3_DES, PPP_LCP_ACFC, PPP_LCP_AES_128, PPP_LCP_AES_256, PPP_LCP_CHAP, PPP_LCP_CHAP_MD5, PPP_LCP_CHAP_MS, PPP_LCP_CHAP_MSV2, PPP_LCP_DES_56, PPP_LCP_EAP, PPP_LCP_MULTILINK_FRAMING, PPP_LCP_PAP, PPP_LCP_PFC, PPP_LCP_SSHF, PPP_PROJECTION_INFO2, PPP_PROJECTION_INFO2 structure [RAS], RASCCPCA_MPPC, RASCCPCA_STAC, _PPP_PROJECTION_INFO2, mprapi/PPPP_PROJECTION_INFO2, mprapi/PPP_PROJECTION_INFO2, rras.ppp_projection_info2"
 ms.prod: windows
 ms.technology: windows-sdk

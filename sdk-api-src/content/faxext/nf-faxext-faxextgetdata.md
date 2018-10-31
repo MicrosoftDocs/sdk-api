@@ -67,7 +67,7 @@ Specifies a <b>DWORD</b> value that indicates the device for which data is to be
 
 
 
-If this parameter is zero, it indicates that the data to retrieve is global configuration data (configuration data that is not associated with a specific device). For example, a fax routing extension may export several different fax routing methods that use OCR technology and rely on the same OCR parameters. The routing extension can specify that the OCR configuration data is global, rather than device-specific, by specifying zero in this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693473(v=VS.85).aspx">Storing Global Configuration Data</a>.
+If this parameter is zero, it indicates that the data to retrieve is global configuration data (configuration data that is not associated with a specific device). For example, a fax routing extension may export several different fax routing methods that use OCR technology and rely on the same OCR parameters. The routing extension can specify that the OCR configuration data is global, rather than device-specific, by specifying zero in this parameter. For more information, see <a href="https://msdn.microsoft.com/fd5063d5-b9ff-4899-b275-e0ed037c11d3">Storing Global Configuration Data</a>.
 
 
 ### -param DevIdSrc [in]
@@ -103,7 +103,7 @@ Type: <b>LPBYTE*</b>
 Pointer to a buffer to receive the configuration data. The fax service allocates the memory for the buffer. The fax service regards this data as an opaque collection of bits. The service stores and reads the named data but does not manipulate the data.
 
 
-<div class="alert"><b>Note</b>  The fax extension must call the <a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a> function to deallocate this memory once the extension completes processing the data. </div>
+<div class="alert"><b>Note</b>  The fax extension must call the <a href="https://msdn.microsoft.com/58a30203-b734-45fa-b502-6d97711f73e0">FaxExtFreeBuffer</a> function to deallocate this memory once the extension completes processing the data. </div>
 <div> </div>
 
 ### -param lpdwDataSize [out]
@@ -226,14 +226,14 @@ The server is shutting down.
 
 
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function.
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a> function.
 
 <b>Security requirements:</b> The caller must have access rights to query a server's configuration in order to call this function.
 
 
-You can call the <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> function to change global configuration data or configuration data for a specific device and GUID.
+You can call the <a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a> function to change global configuration data or configuration data for a specific device and GUID.
 
-The fax service passes a pointer to the <b>FaxExtGetData</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. The PFAX_EXT_GET_DATA data type is a pointer to a <b>FaxExtGetData</b> function.
+The fax service passes a pointer to the <b>FaxExtGetData</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a> function. The PFAX_EXT_GET_DATA data type is a pointer to a <b>FaxExtGetData</b> function.
 
 
 
@@ -244,15 +244,15 @@ The fax service passes a pointer to the <b>FaxExtGetData</b> callback function w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a>
+<a href="https://msdn.microsoft.com/58a30203-b734-45fa-b502-6d97711f73e0">FaxExtFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a>
+<a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a>
+<a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a>
  
 
  

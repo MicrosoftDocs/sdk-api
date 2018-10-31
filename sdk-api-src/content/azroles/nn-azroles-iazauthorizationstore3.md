@@ -4,10 +4,10 @@ title: IAzAuthorizationStore3
 author: windows-sdk-content
 description: Extends the IAzAuthorizationStore2 interface with methods that manage business rule (BizRule) support and caching.
 old-location: security\iazauthorizationstore3.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 7063416c-b132-4b3a-bb2b-d27fccea25e4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security], IAzAuthorizationStore3 interface [Security],described, azroles/IAzAuthorizationStore3, security.iazauthorizationstore3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,16 +97,16 @@ Gets a Boolean  value that indicates whether the version of this authorization s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377605(v=VS.85).aspx">IsUpdateNeeded</a>
+<a href="https://msdn.microsoft.com/2b5bed8f-f38a-46dd-b889-65d43b13ce7c">IsUpdateNeeded</a>
 </td>
 <td align="left" width="63%">
-Checks whether the persisted version of this authorization store is newer than the cached version. If the cached version of the store is newer, the calling application can update the cached version by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa376371(v=VS.85).aspx">UpdateCache</a> method of the <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object.
+Checks whether the persisted version of this authorization store is newer than the cached version. If the cached version of the store is newer, the calling application can update the cached version by calling the <a href="https://msdn.microsoft.com/1fd17040-f736-44a6-8a01-720f4c8fe9ac">UpdateCache</a> method of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377609(v=VS.85).aspx">UpgradeStoresFunctionalLevel</a>
+<a href="https://msdn.microsoft.com/7719e3fd-5b06-468c-9034-f1f0bb41a5be">UpgradeStoresFunctionalLevel</a>
 </td>
 <td align="left" width="63%">
 Upgrades this authorization store from version 1 to version 2.

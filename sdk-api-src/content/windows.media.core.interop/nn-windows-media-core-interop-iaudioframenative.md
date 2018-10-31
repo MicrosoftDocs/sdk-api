@@ -7,7 +7,7 @@ old-location: winrt\iaudioframenative.htm
 tech.root: WinRT
 ms.assetid: 9C9DDDFD-8399-403F-8EB4-485D8531C94B
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAudioFrameNative, IAudioFrameNative interface [Windows Runtime], IAudioFrameNative interface [Windows Runtime],described, windows/IAudioFrameNative, winrt.iaudioframenative
 ms.prod: windows
 ms.technology: windows-sdk

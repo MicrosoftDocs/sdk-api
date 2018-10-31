@@ -4,10 +4,10 @@ title: PxeSendReply function
 author: windows-sdk-content
 description: Sends a packet to a client request.
 old-location: wds\pxesendreply.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: b4809f0b-b8a5-45d1-b6ef-8f812379e706
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PxeSendReply, PxeSendReply function [Windows Deployment Services], wds.pxesendreply, wdspxe/PxeSendReply
 ms.prod: windows-hardware
 ms.technology: windows-devices

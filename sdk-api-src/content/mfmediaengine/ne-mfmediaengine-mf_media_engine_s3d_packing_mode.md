@@ -7,7 +7,7 @@ old-location: mf\mf_media_engine_s3d_packing_mode.htm
 tech.root: medfound
 ms.assetid: 13638568-11BE-4D1B-897E-5F8472C03677
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MF_MEDIA_ENGINE_S3D_PACKING_MODE, MF_MEDIA_ENGINE_S3D_PACKING_MODE enumeration [Media Foundation], MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE, MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE, MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM, mf.mf_media_engine_s3d_packing_mode, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM
 ms.prod: windows
 ms.technology: windows-sdk

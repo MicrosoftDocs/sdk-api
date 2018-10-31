@@ -7,7 +7,7 @@ old-location: winauto\uiauto_idroptargetprovider_droptargeteffect.htm
 tech.root: WinAuto
 ms.assetid: F94D0513-543D-4B9D-A665-2197349C3B55
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DropTargetEffect property [Windows Accessibility], DropTargetEffect property [Windows Accessibility],IDropTargetProvider interface, IDropTargetProvider interface [Windows Accessibility],DropTargetEffect property, IDropTargetProvider.DropTargetEffect, IDropTargetProvider.get_DropTargetEffect, IDropTargetProvider::DropTargetEffect, IDropTargetProvider::get_DropTargetEffect, get_DropTargetEffect, uiautomationcore/IDropTargetProvider::DropTargetEffect, uiautomationcore/IDropTargetProvider::get_DropTargetEffect, winauto.uiauto_idroptargetprovider_droptargeteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,15 +65,19 @@ This property is read-only.
 
 This property describes the default effect that happens when the user drops a grabbed element on a target, such as moving or copying the element.  This property can be a short string such as "move", or a longer one such as "insert into Main group".  The string is always localized.
 
-If this property changes, the provider must notify clients by firing a <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_AutomationPropertyChangedEventId</a> event. 
+If this property changes, the provider must notify clients by firing a <a href="uiauto_event_ids.htm">UIA_AutomationPropertyChangedEventId</a> event. 
 
 
 
 #### Examples
 
-
-```cpp
-IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
 {
     WCHAR wszDropAction[100];
     LoadString(g_hInstance, IDS_REGION_DEFAULTDROPACTION1, wszDropAction, 
@@ -81,10 +85,10 @@ IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
     *pDefaultDropAction = ::SysAllocString(wszDropAction);
     return (*pDefaultDropAction == nullptr) ? E_OUTOFMEMORY : S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

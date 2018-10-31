@@ -4,10 +4,10 @@ title: DSA_Destroy function
 author: windows-sdk-content
 description: Frees a dynamic structure array (DSA).
 old-location: controls\DSA_Destroy.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroy.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DSA_Destroy, DSA_Destroy function [Windows Controls], _win32_DSA_Destroy, _win32_DSA_Destroy_cpp, controls.DSA_Destroy, controls._win32_DSA_Destroy, dpa_dsa/DSA_Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

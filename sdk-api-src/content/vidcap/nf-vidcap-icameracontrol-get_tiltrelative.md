@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_tiltrelative.htm
 tech.root: DirectShow
 ms.assetid: e8730043-a506-4c74-a9ca-94d6e003a4b1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICameraControl interface [DirectShow],get_TiltRelative method, ICameraControl.get_TiltRelative, ICameraControl::get_TiltRelative, ICameraControlget_TiltRelative, dshow.icameracontrol_get_tiltrelative, get_TiltRelative, get_TiltRelative method [DirectShow], get_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_TiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

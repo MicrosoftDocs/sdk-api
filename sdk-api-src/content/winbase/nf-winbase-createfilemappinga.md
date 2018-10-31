@@ -4,16 +4,16 @@ title: CreateFileMappingA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 old-location: base\createfilemapping.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
-req.include-header: Windows.h
+req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -86,7 +86,7 @@ A handle to the file from which to create a file mapping object.
 The file must be opened with access rights that are compatible with the protection flags that the 
        <i>flProtect</i> parameter specifies. It is not required, but it is recommended that files 
        you intend to map be opened for exclusive access. For more information, see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+       <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -500,8 +500,8 @@ The exception is related to remote files. Although
     each computer only sees its own writes to the page. When the data gets updated on the disk, it is not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>) are not necessarily coherent.
+    (<a href="base.readfile">ReadFile</a> and 
+    <a href="base.writefile">WriteFile</a>) are not necessarily coherent.
 
 Mapped views of a file mapping object maintain internal references to the object, and a file mapping object 
     does not close until all references to it are released. Therefore, to fully close a file mapping object, an 
@@ -647,7 +647,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -663,7 +663,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

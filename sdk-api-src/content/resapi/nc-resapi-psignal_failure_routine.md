@@ -7,7 +7,7 @@ old-location: mscs\signalfailure.htm
 tech.root: mscs
 ms.assetid: C4226174-B983-4BF5-8DA5-638201124037
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PSIGNAL_FAILURE_ROUTINE, PSIGNAL_FAILURE_ROUTINE callback function [Failover Cluster], SignalFailure, SignalFailure callback, SignalFailure callback function [Failover Cluster], mscs.signalfailure, resapi/PSIGNAL_FAILURE_ROUTINE, resapi/SignalFailure
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tapiRequestDrop function
 author: windows-sdk-content
 description: Closes a call request made by a previous call to tapiRequestMediaCall.
 old-location: tapi2\tapirequestdrop.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 57fe47c8-5a03-4c31-8008-0ebca88a840c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_lockdevice.htm
 tech.root: medfound
 ms.assetid: EFB458D5-40A9-4729-9C22-B66FE76D5680
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],LockDevice method, IMFDXGIDeviceManager.LockDevice, IMFDXGIDeviceManager::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_lockdevice, mfobjects/IMFDXGIDeviceManager::LockDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

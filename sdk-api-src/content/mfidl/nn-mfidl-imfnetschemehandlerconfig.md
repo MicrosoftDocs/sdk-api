@@ -7,7 +7,7 @@ old-location: mf\imfnetschemehandlerconfig.htm
 tech.root: medfound
 ms.assetid: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], IMFNetSchemeHandlerConfig interface [Media Foundation],described, mf.imfnetschemehandlerconfig, mfidl/IMFNetSchemeHandlerConfig
 ms.prod: windows
 ms.technology: windows-sdk

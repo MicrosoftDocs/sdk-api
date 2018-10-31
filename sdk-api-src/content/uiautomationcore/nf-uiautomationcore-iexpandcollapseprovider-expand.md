@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IExpandCollapseProvider_Expand.htm
 tech.root: WinAuto
 ms.assetid: 1ac8c1fd-e754-439a-9bcf-92cb0974df91
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Expand, Expand method [Windows Accessibility], Expand method [Windows Accessibility],IExpandCollapseProvider interface, IExpandCollapseProvider interface [Windows Accessibility],Expand method, IExpandCollapseProvider.Expand, IExpandCollapseProvider::Expand, uiauto.uiauto_IExpandCollapseProvider_Expand, uiauto_IExpandCollapseProvider_Expand, uiautomationcore/IExpandCollapseProvider::Expand, winauto.uiauto_IExpandCollapseProvider_Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices

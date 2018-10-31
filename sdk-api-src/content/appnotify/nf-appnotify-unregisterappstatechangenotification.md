@@ -7,7 +7,7 @@ old-location: shell\UnregisterAppStateChangeNotification.htm
 tech.root: shell
 ms.assetid: 97D92C75-5C73-4DCF-BE65-2558A1101789
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: UnregisterAppStateChangeNotification, UnregisterAppStateChangeNotification function [Windows Shell], appnotify/UnregisterAppStateChangeNotification, shell.UnregisterAppStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

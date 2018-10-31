@@ -7,7 +7,7 @@ old-location: gdi\monitorfromwindow.htm
 tech.root: gdi
 ms.assetid: fe6505c9-b481-4fec-ae9d-995943234a3a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromWindow, MonitorFromWindow function [Windows GDI], _win32_MonitorFromWindow, gdi.monitorfromwindow, winuser/MonitorFromWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfvideodeviceid.htm
 tech.root: medfound
 ms.assetid: c42b75f9-6b72-4aab-92f2-3361ab475ce9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFVideoDeviceID, IMFVideoDeviceID interface [Media Foundation], IMFVideoDeviceID interface [Media Foundation],described, c42b75f9-6b72-4aab-92f2-3361ab475ce9, evr/IMFVideoDeviceID, mf.imfvideodeviceid
 ms.prod: windows
 ms.technology: windows-sdk

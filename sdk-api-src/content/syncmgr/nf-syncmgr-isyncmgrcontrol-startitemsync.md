@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_StartItemSync.htm
 tech.root: shell
 ms.assetid: 7e4798ce-04ee-4c75-8be2-0ad8fdc400a5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartItemSync method, ISyncMgrControl.StartItemSync, ISyncMgrControl::StartItemSync, StartItemSync, StartItemSync method [Windows Shell], StartItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartItemSync, shell.ISyncMgrControl_StartItemSync, syncmgr/ISyncMgrControl::StartItemSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,9 +131,13 @@ This method is analogous to <a href="https://msdn.microsoft.com/7a646d11-a84c-44
 
 The following example shows the usage of <b>ISyncMgrControl::StartItemSync</b> by a handler's procedure.
 
-
-```cpp
-void CMyDeviceHandler::MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CMyDeviceHandler::MiscProc(...)
 {
     ...
 
@@ -142,25 +146,25 @@ void CMyDeviceHandler::MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER,
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Synchronize one sync item for the sync handler.
-        hr = pControl->StartItemSync(s_szMySyncHandlerID,
+        hr = pControl-&gt;StartItemSync(s_szMySyncHandlerID,
                                      s_szMySyncHandlerMusicContentID,
                                      1,
                                      _hwnd,
                                      NULL,
                                      NULL);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

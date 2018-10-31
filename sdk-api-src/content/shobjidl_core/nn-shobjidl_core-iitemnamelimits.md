@@ -7,7 +7,7 @@ old-location: shell\IItemNameLimits.htm
 tech.root: shell
 ms.assetid: 2850bdf1-12ea-42cd-a0fb-68491337ae69
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IItemNameLimits, IItemNameLimits interface [Windows Shell], IItemNameLimits interface [Windows Shell],described, _shell_IItemNameLimits, shell.IItemNameLimits, shobjidl_core/IItemNameLimits
 ms.prod: windows
 ms.technology: windows-sdk

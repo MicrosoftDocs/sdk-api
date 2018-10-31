@@ -86,7 +86,7 @@ A pointer to a memory block that receives a pointer to the <a href="https://msdn
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command queue.
             See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
@@ -108,17 +108,21 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command queue can be 
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateCommandQueue</b> as follows:
         
 
-
-```cpp
-D3D12_COMMAND_QUEUE_DESC queueDesc = {};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_COMMAND_QUEUE_DESC queueDesc = {};
 queueDesc.Flags = D3D12_COMMAND_QUEUE_FLAG_NONE;
 queueDesc.Type = D3D12_COMMAND_LIST_TYPE_DIRECT;
 
-ThrowIfFailed(m_device->CreateCommandQueue(&queueDesc, IID_PPV_ARGS(&m_commandQueue)));
-
-```
-
-
+ThrowIfFailed(m_device-&gt;CreateCommandQueue(&amp;queueDesc, IID_PPV_ARGS(&amp;m_commandQueue)));
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

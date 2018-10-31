@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingdescription.htm
 tech.root: tracelogging
 ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TraceLoggingDescription, TraceLoggingDescription macro, tracelogging.traceloggingdescription, traceloggingprovider/TraceLoggingDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

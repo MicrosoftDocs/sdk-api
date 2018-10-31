@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_setcliplist.htm
 tech.root: directdraw
 ms.assetid: 717f51e0-80cb-4762-b05d-30e30d065d0c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],SetClipList method, IDirectDrawClipper.SetClipList, IDirectDrawClipper::SetClipList, SetClipList, SetClipList method [DirectDraw], SetClipList method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetClipList, directdraw.idirectdrawclipper_setcliplist
 ms.prod: windows-hardware
 ms.technology: windows-devices

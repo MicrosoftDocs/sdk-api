@@ -7,7 +7,7 @@ old-location: gdi\changedisplaysettingsex.htm
 tech.root: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CDS_DISABLE_UNSAFE_MODES, CDS_ENABLE_UNSAFE_MODES, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, CDS_VIDEOPARAMETERS, ChangeDisplaySettingsEx, ChangeDisplaySettingsEx function [Windows GDI], ChangeDisplaySettingsExA, ChangeDisplaySettingsExW, _win32_ChangeDisplaySettingsEx, gdi.changedisplaysettingsex, winuser/ChangeDisplaySettingsEx, winuser/ChangeDisplaySettingsExA, winuser/ChangeDisplaySettingsExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -422,16 +422,20 @@ When the display mode is changed dynamically, the <a href="https://msdn.microsof
 
 To change the settings for more than one display at the same time, first call <b>ChangeDisplaySettingsEx</b> for each device individually to update the registry without applying the changes. Then call <b>ChangeDisplaySettingsEx</b> once more, with a <b>NULL</b> device, to apply the changes. For example, to change the settings for two displays, do the following:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ChangeDisplaySettingsEx (lpszDeviceName1, lpDevMode1, NULL, (CDS_UPDATEREGISTRY | CDS_NORESET), NULL);
 ChangeDisplaySettingsEx (lpszDeviceName2, lpDevMode2, NULL, (CDS_UPDATEREGISTRY | CDS_NORESET), NULL);
 ChangeDisplaySettingsEx (NULL, NULL, NULL, 0, NULL);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The input given is always in terms of physical pixels, and is not related to the calling context.
 

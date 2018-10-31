@@ -7,7 +7,7 @@ old-location: mf\imfdesiredsample.htm
 tech.root: medfound
 ms.assetid: 373c076c-6329-4332-9f07-f18a01197659
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 373c076c-6329-4332-9f07-f18a01197659, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], IMFDesiredSample interface [Media Foundation],described, evr/IMFDesiredSample, mf.imfdesiredsample
 ms.prod: windows
 ms.technology: windows-sdk

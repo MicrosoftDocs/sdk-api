@@ -7,7 +7,7 @@ old-location: automat\varmod.htm
 tech.root: automat
 ms.assetid: 910d3f37-15f4-4a0e-8aa0-ab58be865c62
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarMod, VarMod function [Automation], _oa96_VarMod, automat.varmod, oleauto/VarMod
 ms.prod: windows-hardware
 ms.technology: windows-devices

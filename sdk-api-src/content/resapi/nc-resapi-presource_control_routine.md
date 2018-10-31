@@ -7,7 +7,7 @@ old-location: mscs\resourcecontrol.htm
 tech.root: mscs
 ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ Some control codes should be handled by the resource DLL, while others should be
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

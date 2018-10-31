@@ -7,7 +7,7 @@ old-location: devinst\cs_resource.htm
 tech.root: devinst
 ms.assetid: 471112ab-8f3b-4bfe-b456-68fea933a31f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PCS_RESOURCE, CS_RESOURCE, CS_RESOURCE structure [Device and Driver Installation], CS_Resource_s, PCS_RESOURCE, PCS_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/CS_RESOURCE, cfgmgr32/PCS_RESOURCE, cfgmgrst_f9da8049-7bf7-4f27-9788-3204a9fb42d5.xml, devinst.cs_resource"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The CS_RESOURCE structure is used for specifying a resource list that describes 
 
 ### -field CS_Header
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff540226(v=VS.85).aspx">CS_DES</a> structure.
+A <a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a> structure.
 
 
 ## -see-also
@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Ff540226(v=VS.85).aspx">CS_D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff540226(v=VS.85).aspx">CS_DES</a>
+<a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a>
  
 
  

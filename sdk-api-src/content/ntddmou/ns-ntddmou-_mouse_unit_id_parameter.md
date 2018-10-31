@@ -7,7 +7,7 @@ old-location: hid\mouse_unit_id_parameter.htm
 tech.root: hid
 ms.assetid: c121e9af-29c3-4638-9c21-2dc45c572858
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PMOUSE_UNIT_ID_PARAMETER, MOUSE_UNIT_ID_PARAMETER, MOUSE_UNIT_ID_PARAMETER structure [Human Input Devices], PMOUSE_UNIT_ID_PARAMETER, PMOUSE_UNIT_ID_PARAMETER structure pointer [Human Input Devices], _MOUSE_UNIT_ID_PARAMETER, hid.mouse_unit_id_parameter, mref_596482c8-d90d-4505-9b30-567bd8468691.xml, ntddmou/MOUSE_UNIT_ID_PARAMETER, ntddmou/PMOUSE_UNIT_ID_PARAMETER"
 ms.prod: windows
 ms.technology: windows-sdk

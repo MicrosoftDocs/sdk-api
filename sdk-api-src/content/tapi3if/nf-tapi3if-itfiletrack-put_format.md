@@ -4,10 +4,10 @@ title: ITFileTrack::put_Format
 author: windows-sdk-content
 description: The put_Format method sets the format type of the track.
 old-location: tapi3\itfiletrack_put_format.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 76a60e3f-d310-457d-8d1b-17860165c1e9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],put_Format method, ITFileTrack.put_Format, ITFileTrack::put_Format, _tapi3_itfiletrack_put_format, put_Format, put_Format method [TAPI 2.2], put_Format method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_put_format, tapi3if/ITFileTrack::put_Format
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\xformobj_bapplyxform.htm
 tech.root: display
 ms.assetid: a9267d2a-96ab-4518-8045-428ab74bd599
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform
 ms.prod: windows-hardware
 ms.technology: windows-devices

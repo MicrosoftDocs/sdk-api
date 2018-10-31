@@ -7,7 +7,7 @@ old-location: com\iclassactivator.htm
 tech.root: com
 ms.assetid: 4f34c5a4-46c0-4391-9c64-cbb6a366e2dc
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator interface [COM],described, _com_iclassactivator, com.iclassactivator, objidl/IClassActivator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Specifies a method that retrieves a class object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassActivator</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IClassActivator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassActivator</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IClassActivator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -4,10 +4,10 @@ title: D2D1_GAUSSIANBLUR_OPTIMIZATION
 author: windows-sdk-content
 description: The optimization mode for the Gaussian blur effect.
 old-location: direct2d\d2d1_gaussianblur_optimization.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: D6A8BB3A-8286-4410-8EA3-A9AEA1797C5E
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_GAUSSIANBLUR_OPTIMIZATION, D2D1_GAUSSIANBLUR_OPTIMIZATION enumeration [Direct2D], D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED, D2D1_GAUSSIANBLUR_OPTIMIZATION_QUALITY, D2D1_GAUSSIANBLUR_OPTIMIZATION_SPEED, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION_QUALITY, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION_SPEED, direct2d.d2d1_gaussianblur_optimization
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The optimization mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706338(v=VS.85).aspx">Gaussian blur effect</a>.
+The optimization mode for the <a href="https://msdn.microsoft.com/6B8C9A0A-81D6-4CC2-B30B-995D4C2E59FC">Gaussian blur effect</a>.
         
 
 

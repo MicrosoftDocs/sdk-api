@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_alias.htm
 tech.root: devinst
 ms.assetid: 855d1b3b-1c65-4a0d-a591-d9fbc235c4ca
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Get_Device_Interface_Alias, CM_Get_Device_Interface_Alias function [Device and Driver Installation], CM_Get_Device_Interface_AliasW, cfgmgr32/CM_Get_Device_Interface_Alias, cfgmgr32/CM_Get_Device_Interface_AliasW, cfgmgrfn_7650eacc-4b5e-4f88-81f2-a7f75462dfc1.xml, devinst.cm_get_device_interface_alias
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The <b>CM_Get_Device_Interface_Alias</b> function returns the alias of the speci
 
 ### -param pszDeviceInterface [in]
 
-Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://msdn.microsoft.com/en-us/library/Ff538463(v=VS.85).aspx">CM_Get_Device_Interface_List</a>, or in a PnP notification structure.
+Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>, or in a PnP notification structure.
 
 
 ### -param AliasInterfaceGuid [in]

@@ -7,7 +7,7 @@ old-location: menurc\lstrcmpi.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ req.redist:
 
 Compares two character strings. The comparison is not case-sensitive.
 
-To perform a comparison that is case-sensitive, use the <a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a> function.
+To perform a comparison that is case-sensitive, use the <a href="https://msdn.microsoft.com/e7b6ac43-ef24-4121-bb4e-a01232b034ad">lstrcmp</a> function.
 
 
 ## -parameters
@@ -128,11 +128,11 @@ choice of comparison functions.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx">CompareString</a>
+<a href="winui._win32_CompareString">CompareString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317761(v=VS.85).aspx">CompareStringEx</a>
+<a href="winui._win32_CompareStringEx">CompareStringEx</a>
 
 
 
@@ -152,23 +152,23 @@ choice of comparison functions.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647487(v=VS.85).aspx">lstrcat</a>
+<a href="https://msdn.microsoft.com/346f6c95-6ebe-4e73-8f29-2778cc813e36">lstrcat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://msdn.microsoft.com/e7b6ac43-ef24-4121-bb4e-a01232b034ad">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>
+<a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://msdn.microsoft.com/0024853f-3a1f-4742-bc5e-f0ca89e23f3a">lstrlen</a>
  
 
  

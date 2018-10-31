@@ -4,10 +4,10 @@ title: ITACDGroupEvent::get_Group
 author: windows-sdk-content
 description: The get_Group method gets the ITACDGroup interface pointer for the group on which the event occurred.
 old-location: tapi3\itacdgroupevent_get_group.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: bbdc94b0-fa46-422a-bffc-32bbd1d49e5a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Group method, ITACDGroupEvent.get_Group, ITACDGroupEvent::get_Group, _tapi3_itacdgroupevent_get_group, get_Group, get_Group method [TAPI 2.2], get_Group method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_group, tapi3cc/ITACDGroupEvent::get_Group
 ms.prod: windows-hardware
 ms.technology: windows-devices

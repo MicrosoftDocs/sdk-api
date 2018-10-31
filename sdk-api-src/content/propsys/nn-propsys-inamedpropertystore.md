@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore.htm
 tech.root: shell
 ms.assetid: 5f7997ba-a5c8-42b5-90c8-5cb34afd6092
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk

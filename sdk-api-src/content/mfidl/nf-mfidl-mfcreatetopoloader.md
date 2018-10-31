@@ -7,7 +7,7 @@ old-location: mf\mfcreatetopoloader.htm
 tech.root: medfound
 ms.assetid: 0c0173ef-9c29-465c-b725-ce38b220f94f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 0c0173ef-9c29-465c-b725-ce38b220f94f, MFCreateTopoLoader, MFCreateTopoLoader function [Media Foundation], mf.mfcreatetopoloader, mfidl/MFCreateTopoLoader
 ms.prod: windows-hardware
 ms.technology: windows-devices

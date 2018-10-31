@@ -4,10 +4,10 @@ title: IdentityMatrix function
 author: windows-sdk-content
 description: Creates an identity matrix.
 old-location: direct2d\identitymatrix.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 09c2ed59-db4a-4753-a98a-bef7748d3803
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IdentityMatrix, IdentityMatrix function [Direct2D], d2d1helper/IdentityMatrix, direct2d.identitymatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ Creates an identity matrix.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 An identity matrix.
 
@@ -91,7 +91,7 @@ Calling this function is the same as calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>
+<a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>
  
 
  

@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::CreateColorContextFromWicColorContext
 author: windows-sdk-content
 description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info.
 old-location: direct2d\id2d1devicecontext_createcolorcontextfromwiccolorcontext.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: eaa97544-f767-4a46-95bc-528e484fd24f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateColorContextFromWicColorContext, CreateColorContextFromWicColorContext method [Direct2D], CreateColorContextFromWicColorContext method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContextFromWicColorContext method, ID2D1DeviceContext.CreateColorContextFromWicColorContext, ID2D1DeviceContext::CreateColorContextFromWicColorContext, d2d1_1/ID2D1DeviceContext::CreateColorContextFromWicColorContext, direct2d.id2d1devicecontext_createcolorcontextfromwiccolorcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

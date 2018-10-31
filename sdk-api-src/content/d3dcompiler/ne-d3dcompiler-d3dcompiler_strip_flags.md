@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcompiler_strip_flags.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompiler_strip_flags.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3DCOMPILER_STRIP_DEBUG_INFO, D3DCOMPILER_STRIP_FLAGS, D3DCOMPILER_STRIP_FLAGS enumeration [HLSL], D3DCOMPILER_STRIP_FORCE_DWORD, D3DCOMPILER_STRIP_PRIVATE_DATA, D3DCOMPILER_STRIP_REFLECTION_DATA, D3DCOMPILER_STRIP_ROOT_SIGNATURE, D3DCOMPILER_STRIP_TEST_BLOBS, d2322971-23ee-a7bd-cf13-8a393a03e8a9, d3dcompiler/D3DCOMPILER_STRIP_DEBUG_INFO, d3dcompiler/D3DCOMPILER_STRIP_FLAGS, d3dcompiler/D3DCOMPILER_STRIP_FORCE_DWORD, d3dcompiler/D3DCOMPILER_STRIP_PRIVATE_DATA, d3dcompiler/D3DCOMPILER_STRIP_REFLECTION_DATA, d3dcompiler/D3DCOMPILER_STRIP_ROOT_SIGNATURE, d3dcompiler/D3DCOMPILER_STRIP_TEST_BLOBS, direct3dhlsl.d3dcompiler_strip_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Dd607335(v=VS.85).aspx">D3DStripShader</a>.
+These flags are used by <a href="https://msdn.microsoft.com/d6f51f57-02e1-485d-8f49-60a9bfb62cf5">D3DStripShader</a>.
 
 
 
@@ -106,7 +106,7 @@ These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Dd6073
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607341(v=VS.85).aspx">Enumerations</a>
+<a href="https://msdn.microsoft.com/684508d8-2289-4124-9910-93c6bf0a1f99">Enumerations</a>
  
 
  

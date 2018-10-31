@@ -4,10 +4,10 @@ title: "_TRACE_GUID_INFO"
 author: windows-sdk-content
 description: Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.
 old-location: etw\trace_guid_info.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 2c484adf-605d-420b-8059-942b35305acd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PTRACE_GUID_INFO, PTRACE_GUID_INFO, PTRACE_GUID_INFO structure pointer [ETW], TRACE_GUID_INFO, TRACE_GUID_INFO structure [ETW], _TRACE_GUID_INFO, etw.trace_guid_info, evntrace/PTRACE_GUID_INFO, evntrace/TRACE_GUID_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

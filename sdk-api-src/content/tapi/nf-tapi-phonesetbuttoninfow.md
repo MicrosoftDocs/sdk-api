@@ -4,10 +4,10 @@ title: phoneSetButtonInfoW function
 author: windows-sdk-content
 description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tapi2\phonesetbuttoninfo.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_phonesetbuttoninfo, phoneSetButtonInfo, phoneSetButtonInfo function [TAPI 2.2], phoneSetButtonInfoA, phoneSetButtonInfoW, tapi/phoneSetButtonInfo, tapi/phoneSetButtonInfoA, tapi/phoneSetButtonInfoW, tapi2.phonesetbuttoninfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

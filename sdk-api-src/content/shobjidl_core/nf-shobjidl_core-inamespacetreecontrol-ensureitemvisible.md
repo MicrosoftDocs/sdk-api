@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_EnsureItemVisible.htm
 tech.root: shell
 ms.assetid: c0c40137-e19b-448c-a327-454b12a5604a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnsureItemVisible, EnsureItemVisible method [Windows Shell], EnsureItemVisible method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],EnsureItemVisible method, INameSpaceTreeControl.EnsureItemVisible, INameSpaceTreeControl::EnsureItemVisible, _shell_INameSpaceTreeControl_EnsureItemVisible, shell.INameSpaceTreeControl_EnsureItemVisible, shobjidl_core/INameSpaceTreeControl::EnsureItemVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

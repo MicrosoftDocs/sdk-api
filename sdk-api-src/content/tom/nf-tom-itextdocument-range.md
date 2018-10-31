@@ -4,10 +4,10 @@ title: ITextDocument::Range
 author: windows-sdk-content
 description: Retrieves a text range object for a specified range of content in the active story of the document.
 old-location: controls\ITextDocument_Range.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\range.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextDocument interface [Windows Controls],Range method, ITextDocument.Range, ITextDocument::Range, Range, Range method [Windows Controls], Range method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Range, _win32_ITextDocument_Range_cpp, controls.ITextDocument_Range, controls._win32_ITextDocument_Range, tom/ITextDocument::Range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ TBD
 
 ### -param ppRange
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>**</b>
 
-Address of a pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> that receives a pointer to the specified text range. 
+Address of a pointer to a variable of type <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> that receives a pointer to the specified text range. 
 
 
 #### - cpFirst
@@ -139,11 +139,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -151,7 +151,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

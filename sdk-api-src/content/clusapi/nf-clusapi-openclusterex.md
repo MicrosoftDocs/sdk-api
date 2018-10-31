@@ -7,7 +7,7 @@ old-location: mscs\openclusterex.htm
 tech.root: mscs
 ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: OpenClusterEx, OpenClusterEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX function [Failover Cluster], clusapi/OpenClusterEx, clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Opens a connection to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to it.
+    <a href="c_gly.htm">cluster</a> and returns a handle to it.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Specifies one of the following values:
 
 <ul>
 <li>Pointer to a null-terminated Unicode string containing the name of the cluster or one of the cluster 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> expressed as a NetBIOS name, a fully qualified DNS name, or 
+        <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> expressed as a NetBIOS name, a fully qualified DNS name, or 
         an IP address. This produces an RPC cluster handle.</li>
 <li><b>NULL</b>, which produces an LPC handle to the cluster to which the local computer 
         belongs.</li>
@@ -106,7 +106,7 @@ A cluster handle is a pointer to an internally defined structure which stores in
      connection to the cluster. Any object handles obtained from the cluster handle will be associated with the RPC or 
      LPC session data stored in the cluster structure. Combining RPC and LPC handles or using handles obtained from 
      different contexts can cause exceptions or other unpredictable results. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370974(v=VS.85).aspx">LPC and RPC Handles</a>.
+     <a href="https://msdn.microsoft.com/0fdb2024-9b04-4a38-baf9-3cdabba9bf8c">LPC and RPC Handles</a>.
 
 When finished with a cluster handle, it is important to call 
      <a href="https://msdn.microsoft.com/cf055fd6-b1e1-4262-b205-c7d926522450">CloseCluster</a> to ensure that all memory is freed and the 

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexdeclaration9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface [Direct3D 9], IDirect3DVertexDeclaration9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexDeclaration9, direct3d9.idirect3dvertexdeclaration9, f42aaa68-f7f3-0eec-ac4e-7d8617f131ae
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3DVertexDeclaration9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205920(v=VS.85).aspx">GetDeclaration</a>
+<a href="https://msdn.microsoft.com/ff80439b-38fb-47f0-ad38-429decd0d573">GetDeclaration</a>
 </td>
 <td align="left" width="63%">
 Gets the vertex shader declaration.
@@ -80,7 +80,7 @@ Gets the vertex shader declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205921(v=VS.85).aspx">GetDevice</a>
+<a href="https://msdn.microsoft.com/c183de38-ab09-4a8b-951a-b12ab4e6de26">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the current device.
@@ -100,12 +100,16 @@ The LPDIRECT3DVERTEXDECLARATION9 and PDIRECT3DVERTEXDECLARATION9 types are defin
     
             
 
-
-```
-typedef struct IDirect3DVertexDeclaration9 *LPDIRECT3DVERTEXDECLARATION9, *PDIRECT3DVERTEXDECLARATION9;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct IDirect3DVertexDeclaration9 *LPDIRECT3DVERTEXDECLARATION9, *PDIRECT3DVERTEXDECLARATION9;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

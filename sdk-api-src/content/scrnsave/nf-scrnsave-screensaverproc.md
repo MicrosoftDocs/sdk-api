@@ -7,7 +7,7 @@ old-location: shell\ScreenSaverProc.htm
 tech.root: shell
 ms.assetid: cc013841-41fc-404a-a239-4118f70542b5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-A screen saver's <b>ScreenSaverProc</b> window procedure should use the <a href="https://msdn.microsoft.com/eda5c4d4-0484-4c81-a699-5fedea0bd1c2">DefScreenSaverProc</a> function instead of the <a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function to provide default message processing. The <b>DefScreenSaverProc</b> function passes any messages that do not affect screen saver operations to <b>DefWindowProc</b>.
+A screen saver's <b>ScreenSaverProc</b> window procedure should use the <a href="https://msdn.microsoft.com/eda5c4d4-0484-4c81-a699-5fedea0bd1c2">DefScreenSaverProc</a> function instead of the <a href="https://msdn.microsoft.com/fcc6b242-e152-4364-a977-b0441bec425f">DefWindowProc</a> function to provide default message processing. The <b>DefScreenSaverProc</b> function passes any messages that do not affect screen saver operations to <b>DefWindowProc</b>.
 
 The <b>ScreenSaverProc</b> function must be exported by including it in the EXPORTS statement in the application's module-definition (.def) file.
 

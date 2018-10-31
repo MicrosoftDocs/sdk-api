@@ -7,7 +7,7 @@ old-location: com\ienterprisedroptarget.htm
 tech.root: com
 ms.assetid: 9ACFE824-5F0D-42CC-8E2F-DF2658AC9908
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IEnterpriseDropTarget, IEnterpriseDropTarget interface [COM], IEnterpriseDropTarget interface [COM],described, com.ienterprisedroptarget, oleidl/IEnterpriseDropTarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ When implemented by the drop target application, this interface gives the OLE dr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnterpriseDropTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnterpriseDropTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnterpriseDropTarget</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnterpriseDropTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

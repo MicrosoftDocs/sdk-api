@@ -7,7 +7,7 @@ old-location: dshow\impeg2streamidmap.htm
 tech.root: DirectShow
 ms.assetid: 714c6b0e-3885-4026-8a83-06b37cc97d7c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2StreamIdMap interface [DirectShow],described, IMPEG2StreamIdMapInterface, dshow.impeg2streamidmap, strmif/IMPEG2StreamIdMap
 ms.prod: windows
 ms.technology: windows-sdk

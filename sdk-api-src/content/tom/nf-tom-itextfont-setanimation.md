@@ -4,10 +4,10 @@ title: ITextFont::SetAnimation
 author: windows-sdk-content
 description: Sets the animation type.
 old-location: controls\ITextFont_SetAnimation.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setanimation.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextFont interface [Windows Controls],SetAnimation method, ITextFont.SetAnimation, ITextFont::SetAnimation, SetAnimation, SetAnimation method [Windows Controls], SetAnimation method [Windows Controls],ITextFont interface, _win32_ITextFont_SetAnimation, _win32_ITextFont_SetAnimation_cpp, controls.ITextFont_SetAnimation, controls._win32_ITextFont_SetAnimation, tom/ITextFont::SetAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,11 +148,11 @@ Invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773931(v=VS.85).aspx">GetAnimation</a>
+<a href="https://msdn.microsoft.com/996f4ca0-bb7b-4a6a-84d5-3c5a9a178c09">GetAnimation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -160,7 +160,7 @@ Invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -4,10 +4,10 @@ title: Edit_GetTextLength macro
 author: windows-sdk-content
 description: Gets the number of characters in the text of an edit control.
 old-location: controls\Edit_GetTextLength.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gettextlength.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Edit_GetTextLength, Edit_GetTextLength macro [Windows Controls], _win32_Edit_GetTextLength, _win32_Edit_GetTextLength_cpp, controls.Edit_GetTextLength, controls._win32_Edit_GetTextLength, windowsx/Edit_GetTextLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ A handle to the control.
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>.
+The macro expands to a call to <a href="https://msdn.microsoft.com/dfd05c5b-2e60-4f4f-aa6b-53f723a048be">GetWindowTextLength</a>.
 	
 
 

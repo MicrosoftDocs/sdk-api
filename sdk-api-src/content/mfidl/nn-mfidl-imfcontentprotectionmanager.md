@@ -7,7 +7,7 @@ old-location: mf\imfcontentprotectionmanager.htm
 tech.root: medfound
 ms.assetid: 0dba0384-eac7-456a-af9f-86eb944cdb2e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 0dba0384-eac7-456a-af9f-86eb944cdb2e, IMFContentProtectionManager, IMFContentProtectionManager interface [Media Foundation], IMFContentProtectionManager interface [Media Foundation],described, mf.imfcontentprotectionmanager, mfidl/IMFContentProtectionManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\isurrogateservice.htm
 tech.root: com
 ms.assetid: 01773aa6-3eb5-43dd-8a10-d1351a07fe1f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: ISurrogateService, ISurrogateService interface [COM], ISurrogateService interface [COM],described, _com_isurrogateservice, com.isurrogateservice, objidl/ISurrogateService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Used to initialize, launch, and release a COM+ application. You can also refresh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ISurrogateService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ISurrogateService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

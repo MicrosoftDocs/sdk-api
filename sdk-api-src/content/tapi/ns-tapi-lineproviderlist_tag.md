@@ -4,10 +4,10 @@ title: lineproviderlist_tag
 author: windows-sdk-content
 description: The LINEPROVIDERLIST structure describes a list of service providers. A structure of this type is returned by the lineGetProviderList function. The LINEPROVIDERLIST structure can contain an array of LINEPROVIDERENTRY structures.
 old-location: tapi2\lineproviderlist_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 75790ffd-bb1b-4efc-a905-5727d31f8aec
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINEPROVIDERLIST, LINEPROVIDERLIST, LINEPROVIDERLIST structure [TAPI 2.2], LPLINEPROVIDERLIST, LPLINEPROVIDERLIST structure pointer [TAPI 2.2], _tapi2_lineproviderlist_str, lineproviderlist_tag, tapi/LINEPROVIDERLIST, tapi/LPLINEPROVIDERLIST, tapi2.lineproviderlist_str"
 ms.prod: windows
 ms.technology: windows-sdk

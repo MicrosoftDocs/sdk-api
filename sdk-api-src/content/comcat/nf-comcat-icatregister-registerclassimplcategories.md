@@ -7,7 +7,7 @@ old-location: com\icatregister_registerclassimplcategories.htm
 tech.root: com
 ms.assetid: c293038f-4dbf-40af-9237-c9bb59c84252
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: ICatRegister interface [COM],RegisterClassImplCategories method, ICatRegister.RegisterClassImplCategories, ICatRegister::RegisterClassImplCategories, RegisterClassImplCategories, RegisterClassImplCategories method [COM], RegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_registerclassimplcategories, com.icatregister_registerclassimplcategories, comcat/ICatRegister::RegisterClassImplCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ In case of an error, this method does not ensure that the registry is restored t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx">ICatRegister</a>
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
  
 
  

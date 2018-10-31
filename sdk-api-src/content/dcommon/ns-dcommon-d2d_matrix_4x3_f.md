@@ -4,10 +4,10 @@ title: D2D_MATRIX_4X3_F
 author: windows-sdk-content
 description: Describes a 4-by-3 floating point matrix.
 old-location: direct2d\d2d_matrix_4x3_f.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2CCAB3EE-EEF2-4C36-8F8E-23B93A45B1FF
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D_MATRIX_4X3_F, D2D_MATRIX_4X3_F structure [Direct2D], dcommon/D2D_MATRIX_4X3_F, direct2d.d2d_matrix_4x3_f
 ms.prod: windows
 ms.technology: windows-sdk

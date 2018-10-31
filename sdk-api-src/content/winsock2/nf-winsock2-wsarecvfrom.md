@@ -4,10 +4,10 @@ title: WSARecvFrom function
 author: windows-sdk-content
 description: Receives a datagram and stores the source address.
 old-location: winsock\wsarecvfrom_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 8617dbb8-0e4e-4cd3-9597-5d20de6778f6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSARecvFrom, WSARecvFrom function [Winsock], _win32_wsarecvfrom_2, winsock.wsarecvfrom_2, winsock2/WSARecvFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ If no error occurs and the receive operation has completed immediately,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ The <i>lpBuffers</i>, <i>lpFlags</i>, <i>lpFrom</i>, <i>lpNumberOfBytesRecvd</i>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -174,7 +174,7 @@ A blocking Windows Socket 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ The socket has not been bound (with
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ The message was too large for the specified buffer and (for unreliable protocols
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ For a datagram socket, this error indicates that the time to live has expired.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ The socket is not connected (connection-oriented sockets only).
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -243,7 +243,7 @@ Overlapped sockets: There are too many outstanding overlapped I/O requests. Nono
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -255,7 +255,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -266,7 +266,7 @@ An overlapped operation was successfully initiated and completion will be indica
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_OPERATION_ABORTED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_OPERATION_ABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -327,7 +327,7 @@ For byte stream–style sockets (for example, type SOCK_STREAM), incoming data i
 </ul>
 Regardless of whether or not the incoming data fills all the buffers, the completion indication occurs for overlapped sockets. For message-oriented sockets, an incoming message is placed into the buffers up to the total size of the buffers, and the completion indication occurs for overlapped sockets. If the message is larger than the buffers, the buffers are filled with the first part of the message. If the <b>MSG_PARTIAL</b> feature is supported by the underlying service provider, the <b>MSG_PARTIAL</b> flag is set in <i>lpFlags</i> and subsequent receive operation(s) will retrieve the rest of the message. If <b>MSG_PARTIAL</b> is not supported, but the protocol is reliable, 
 <b>WSARecvFrom</b> generates the error 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a> and a subsequent receive operation with a larger buffer can be used to retrieve the entire message. Otherwise, (that is, the protocol is unreliable and does not support <b>MSG_PARTIAL</b>), the excess data is lost, and 
+<a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a> and a subsequent receive operation with a larger buffer can be used to retrieve the entire message. Otherwise, (that is, the protocol is unreliable and does not support <b>MSG_PARTIAL</b>), the excess data is lost, and 
 <b>WSARecvFrom</b> generates the error WSAEMSGSIZE.
 
 The <i>lpFlags</i> parameter can be used to influence the behavior of the function invocation beyond the options specified for the associated socket. That is, the semantics of this function are determined by the socket options and the <i>lpFlags</i> parameter. The latter is constructed by using the bitwise OR operator with any of any of the values listed in the following table.
@@ -394,19 +394,23 @@ The transport providers allow an application to invoke send and receive operatio
 
 The prototype of the completion routine is as follows.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void CALLBACK CompletionROUTINE(
   IN DWORD dwError, 
   IN DWORD cbTransferred, 
   IN LPWSAOVERLAPPED lpOverlapped, 
   IN DWORD dwFlags
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>CompletionRoutine</b> is a placeholder for an application-defined or library-defined function name. The <i>dwError</i> specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. The <i>cbTransferred</i> specifies the number of bytes received. The <i>dwFlags</i> parameter contains information that would have appeared in <i>lpFlags</i> if the receive operation had completed immediately. This function does not return a value.
 
 Returning from this function allows invocation of another pending completion routine for this socket. When using 
@@ -415,17 +419,21 @@ Returning from this function allows invocation of another pending completion rou
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSARecvFrom</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 int __cdecl main()
 {
@@ -452,7 +460,7 @@ int __cdecl main()
     
     //-----------------------------------------------
     // Initialize Winsock
-    rc = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    rc = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (rc != 0) {
         /* Could not find a usable Winsock DLL */
         wprintf(L"WSAStartup failed with error: %ld\n", rc);
@@ -460,7 +468,7 @@ int __cdecl main()
     }
 
     // Make sure the Overlapped struct is zeroed out
-    SecureZeroMemory((PVOID) &Overlapped, sizeof(WSAOVERLAPPED) );
+    SecureZeroMemory((PVOID) &amp;Overlapped, sizeof(WSAOVERLAPPED) );
 
     // Create an event handle and setup the overlapped structure.
     Overlapped.hEvent = WSACreateEvent();
@@ -488,7 +496,7 @@ int __cdecl main()
     RecvAddr.sin_port = htons(Port);
     RecvAddr.sin_addr.s_addr = htonl(INADDR_ANY);
 
-    rc = bind(RecvSocket, (SOCKADDR *) & RecvAddr, sizeof (RecvAddr));
+    rc = bind(RecvSocket, (SOCKADDR *) &amp; RecvAddr, sizeof (RecvAddr));
     if (rc != 0) {
         /* Bind to the socket failed */
         wprintf(L"bind failed with error: %ld\n", WSAGetLastError());
@@ -505,12 +513,12 @@ int __cdecl main()
     DataBuf.buf = RecvBuf;
     wprintf(L"Listening for incoming datagrams on port=%d\n", Port);
     rc = WSARecvFrom(RecvSocket,
-                      &DataBuf,
+                      &amp;DataBuf,
                       1,
-                      &BytesRecv,
-                      &Flags,
-                      (SOCKADDR *) & SenderAddr,
-                      &SenderAddrSize, &Overlapped, NULL);
+                      &amp;BytesRecv,
+                      &amp;Flags,
+                      (SOCKADDR *) &amp; SenderAddr,
+                      &amp;SenderAddrSize, &amp;Overlapped, NULL);
 
     if (rc != 0) {
         err = WSAGetLastError();
@@ -522,14 +530,14 @@ int __cdecl main()
             return 1;
         }
         else {
-            rc = WSAWaitForMultipleEvents(1, &Overlapped.hEvent, TRUE, INFINITE, TRUE);
+            rc = WSAWaitForMultipleEvents(1, &amp;Overlapped.hEvent, TRUE, INFINITE, TRUE);
             if (rc == WSA_WAIT_FAILED) {
                 wprintf(L"WSAWaitForMultipleEvents failed with error: %d\n", WSAGetLastError());
                 retval = 1;
             }
 
-            rc = WSAGetOverlappedResult(RecvSocket, &Overlapped, &BytesRecv,
-                                FALSE, &Flags);
+            rc = WSAGetOverlappedResult(RecvSocket, &amp;Overlapped, &amp;BytesRecv,
+                                FALSE, &amp;Flags);
             if (rc == FALSE) {
                 wprintf(L"WSArecvFrom failed with error: %d\n", WSAGetLastError());
                 retval = 1;
@@ -553,10 +561,10 @@ int __cdecl main()
     WSACleanup();
     return (retval);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

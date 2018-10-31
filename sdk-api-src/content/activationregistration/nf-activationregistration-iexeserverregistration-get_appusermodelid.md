@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration_appusermodelid.htm
 tech.root: WinRT
 ms.assetid: DC0E3542-662F-43B8-968B-9F565D9D9278
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_AppUserModelId method, IExeServerRegistration.get_AppUserModelId, IExeServerRegistration::get_AppUserModelId, activationregistration/IExeServerRegistration::get_AppUserModelId, get_AppUserModeId, get_AppUserModelId, get_AppUserModelId method [Windows Runtime], get_AppUserModelId method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_appusermodelid
 ms.prod: windows-hardware
 ms.technology: windows-devices

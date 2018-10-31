@@ -4,10 +4,10 @@ title: AuthzInitializeContextFromToken function
 author: windows-sdk-content
 description: Initializes a client authorization context from a kernel token. The kernel token must have been opened for TOKEN_QUERY.
 old-location: security\authzinitializecontextfromtoken.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 75a7fb3f-6b3a-42ca-b467-f57baf6c60c6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AuthzInitializeContextFromToken, AuthzInitializeContextFromToken function [Security], _win32_authzinitializecontextfromtoken, authz/AuthzInitializeContextFromToken, security.authzinitializecontextfromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,7 +127,7 @@ This function calls the  <a href="https://msdn.microsoft.com/c20a02a0-5303-4433-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

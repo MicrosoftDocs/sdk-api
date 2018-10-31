@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgetinputsignatureblob.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetinputsignatureblob.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 4f2b8180-4af5-06c2-bd88-b229e19ce686, D3DGetInputSignatureBlob, D3DGetInputSignatureBlob function [HLSL], d3dcompiler/D3DGetInputSignatureBlob, direct3dhlsl.d3dgetinputsignatureblob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<div class="alert"><b>Note</b>  <b>D3DGetInputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://msdn.microsoft.com/cf9cea53-e7a3-4473-bfdf-0cdeb8370974">D3DGetBlobPart</a> with the <a href="https://msdn.microsoft.com/en-us/library/Ff728720(v=VS.85).aspx">D3D_BLOB_INPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the input signature from a compilation result.
+<div class="alert"><b>Note</b>  <b>D3DGetInputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://msdn.microsoft.com/cf9cea53-e7a3-4473-bfdf-0cdeb8370974">D3DGetBlobPart</a> with the <a href="d3d_blob_part.htm">D3D_BLOB_INPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the input signature from a compilation result.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

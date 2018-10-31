@@ -7,7 +7,7 @@ old-location: com\ienumguid_clone.htm
 tech.root: com
 ms.assetid: 5b12adf2-c2fe-4499-ab2a-94af6337e4a2
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumGUID interface, IEnumGUID interface [COM],Clone method, IEnumGUID.Clone, IEnumGUID::Clone, _com_ienumguid_clone, com.ienumguid_clone, comcat/IEnumGUID::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682393(v=VS.85).aspx">IEnumGUID</a>
+<a href="https://msdn.microsoft.com/4f2e0f96-a471-4883-be41-d93806461020">IEnumGUID</a>
  
 
  

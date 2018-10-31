@@ -7,7 +7,7 @@ old-location: automat\vardecfromcy.htm
 tech.root: automat
 ms.assetid: ca26c1f3-3a18-40a7-b13f-e17a7d721024
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarDecFromCy, VarDecFromCy function [Automation], _oa96_VarDecFromCy, automat.vardecfromcy, oleauto/VarDecFromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices

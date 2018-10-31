@@ -4,10 +4,10 @@ title: ScrollBar_GetRange macro
 author: windows-sdk-content
 description: Gets the range of a scroll bar.
 old-location: controls\ScrollBar_GetRange.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getrange.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ScrollBar_GetRange, ScrollBar_GetRange macro [Windows Controls], _win32_ScrollBar_GetRange, _win32_ScrollBar_GetRange_cpp, controls.ScrollBar_GetRange, controls._win32_ScrollBar_GetRange, windowsx/ScrollBar_GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 Gets the range of a scroll bar.
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787587(v=VS.85).aspx">GetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/883a7d53-7dc0-4b0c-bcda-e1f022dad12a">GetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -84,7 +84,7 @@ Address of a variable that receives the maximum value of the scroll bar.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787587(v=VS.85).aspx">GetScrollRange</a>.
+For more information, see <a href="https://msdn.microsoft.com/883a7d53-7dc0-4b0c-bcda-e1f022dad12a">GetScrollRange</a>.
 
 
 

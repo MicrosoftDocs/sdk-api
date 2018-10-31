@@ -4,10 +4,10 @@ title: "_SOCKET_SECURITY_PROTOCOL"
 author: windows-sdk-content
 description: Indicates the type of security protocol to be used on a socket to secure network traffic.
 old-location: winsock\socket_security_protocol.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: ae77ac61-5035-401e-a4b6-345c1be7b2b7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SOCKET_SECURITY_PROTOCOL, SOCKET_SECURITY_PROTOCOL enumeration [Winsock], SOCKET_SECURITY_PROTOCOL_DEFAULT, SOCKET_SECURITY_PROTOCOL_INVALID, SOCKET_SECURITY_PROTOCOL_IPSEC, _SOCKET_SECURITY_PROTOCOL, mstcpip/SOCKET_SECURITY_PROTOCOL, mstcpip/SOCKET_SECURITY_PROTOCOL_DEFAULT, mstcpip/SOCKET_SECURITY_PROTOCOL_INVALID, mstcpip/SOCKET_SECURITY_PROTOCOL_IPSEC, winsock.socket_security_protocol
 ms.prod: windows
 ms.technology: windows-sdk

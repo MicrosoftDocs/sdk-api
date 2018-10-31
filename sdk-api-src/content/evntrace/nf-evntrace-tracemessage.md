@@ -4,10 +4,10 @@ title: TraceMessage function
 author: windows-sdk-content
 description: The TraceMessage function sends an informational message to an event tracing session.
 old-location: etw\tracemessage.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PVOID, TRACE_MESSAGE_COMPONENTID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessage, TraceMessage function [ETW], _evt_tracemessage, base.tracemessage, etw.tracemessage, evntrace/TraceMessage, size_t
 ms.prod: windows-hardware
 ms.technology: windows-devices

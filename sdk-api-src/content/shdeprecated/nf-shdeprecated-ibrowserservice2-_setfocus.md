@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__SetFocus.htm
 tech.root: shell
 ms.assetid: 4a69c3f4-49e0-4a06-8cf2-dc8db640f58f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SetFocus method, IBrowserService2._SetFocus, IBrowserService2::_SetFocus, _SetFocus, _SetFocus method [Windows Shell], _SetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SetFocus, shell.IBrowserService2__SetFocus, zone_IBrowserService2__SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ The handle of the browser window in which the focus shift is taking place.
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> that contains a keystroke message that indicates an accelerator.
+A pointer to a <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> that contains a keystroke message that indicates an accelerator.
 
 
 ## -returns

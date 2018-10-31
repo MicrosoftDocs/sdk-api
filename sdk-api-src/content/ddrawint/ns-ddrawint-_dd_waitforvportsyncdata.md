@@ -7,7 +7,7 @@ old-location: display\dd_waitforvportsyncdata.htm
 tech.root: display
 ms.assetid: 903c697e-4fa5-472e-ab5b-7864a326f323
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA structure [Display Devices], _DD_WAITFORVPORTSYNCDATA, ddrawint/DD_WAITFORVPORTSYNCDATA, ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml, display.dd_waitforvportsyncdata"
 ms.prod: windows
 ms.technology: windows-sdk

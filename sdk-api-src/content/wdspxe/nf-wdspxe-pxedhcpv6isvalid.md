@@ -4,10 +4,10 @@ title: PxeDhcpv6IsValid function
 author: windows-sdk-content
 description: Validates that a packet is a valid DHCPv6 packet.
 old-location: wds\pxedhcpv6isvalid.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: E20A9E7A-8CFA-4A2B-8A40-7937937332A5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FALSE, PxeDhcpv6IsValid, PxeDhcpv6IsValid function [Windows Deployment Services], TRUE, wds.pxedhcpv6isvalid, wdspxe/PxeDhcpv6IsValid
 ms.prod: windows-hardware
 ms.technology: windows-devices

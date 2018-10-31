@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_getflags.htm
 tech.root: medfound
 ms.assetid: b0aeefb5-6996-4abb-b869-855aaa7fcde2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetFlags method, IMFASFMultiplexer.GetFlags, IMFASFMultiplexer::GetFlags, b0aeefb5-6996-4abb-b869-855aaa7fcde2, mf.imfasfmultiplexer_getflags, wmcontainer/IMFASFMultiplexer::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

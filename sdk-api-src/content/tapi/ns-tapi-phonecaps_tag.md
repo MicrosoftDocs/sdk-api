@@ -4,10 +4,10 @@ title: phonecaps_tag
 author: windows-sdk-content
 description: The PHONECAPS structure describes the capabilities of a phone device. The phoneGetDevCaps and TSPI_phoneGetDevCaps functions return this structure.
 old-location: tapi2\phonecaps_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9549e30c-9425-4fb1-8ce5-f180a32f8e1f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2], PHONECAPS, PHONECAPS structure [TAPI 2.2], _tapi2_phonecaps_str, phonecaps_tag, tapi/LPPHONECAPS, tapi/PHONECAPS, tapi2.phonecaps_str"
 ms.prod: windows
 ms.technology: windows-sdk

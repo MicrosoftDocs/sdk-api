@@ -4,10 +4,10 @@ title: IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount
 author: windows-sdk-content
 description: Receives the maximum number of multicast streams per transmission used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_multistreamstreamcount.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 34dd6dc0-3ff9-4dc3-9805-8fbfa972c4e1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],MultistreamStreamCount property, IWdsTransportMulticastSessionPolicy.MultistreamStreamCount, IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount, MultistreamStreamCount property [Windows Deployment Services], MultistreamStreamCount property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, get_MultistreamStreamCount, wds.iwdstransportmulticastsessionpolicy_multistreamstreamcount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

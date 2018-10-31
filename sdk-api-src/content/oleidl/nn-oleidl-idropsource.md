@@ -7,7 +7,7 @@ old-location: com\idropsource.htm
 tech.root: com
 ms.assetid: 963a36bc-4ad7-4591-bffc-a96b4310177d
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IDropSource, IDropSource interface [COM], IDropSource interface [COM],described, _ole_idropsource, com.idropsource, oleidl/IDropSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>IDropSource</b> interface is one of the interfaces you implement to provi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSource</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IDropSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSource</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IDropSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

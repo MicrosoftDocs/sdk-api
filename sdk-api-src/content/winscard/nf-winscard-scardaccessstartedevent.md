@@ -7,7 +7,7 @@ old-location: security\scardaccessstartedevent.htm
 tech.root: secauthn
 ms.assetid: ddfab09d-5477-4c4e-883c-d3c19258c49d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: SCardAccessStartedEvent, SCardAccessStartedEvent function [Security], _smart_scardaccessstartedevent, security.scardaccessstartedevent, winscard/SCardAccessStartedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WdsCliRegisterTrace function
 author: windows-sdk-content
 description: Registers a callback function that will receive debugging messages.
 old-location: wds\wdscliregistertrace.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 1bdb1e47-fbbb-4952-9339-accdfe40bd18
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WdsCliRegisterTrace, WdsCliRegisterTrace function [Windows Deployment Services], wds.wdscliregistertrace, wdsclientapi/WdsCliRegisterTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

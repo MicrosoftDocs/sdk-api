@@ -4,10 +4,10 @@ title: ITextFont2::SetModWidthSpace
 author: windows-sdk-content
 description: Sets whether &#0034;increase width of whitespace&#0034; is active.
 old-location: controls\itextfont2_setmodwidthspace.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: df3ea127-1f47-4173-ad2c-0a7af4c8454c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetModWidthSpace method, ITextFont2.SetModWidthSpace, ITextFont2::SetModWidthSpace, SetModWidthSpace, SetModWidthSpace method [Windows Controls], SetModWidthSpace method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmodwidthspace, tom/ITextFont2::SetModWidthSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets whether "increase width of whitespace" is active.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

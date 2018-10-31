@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritestart.htm
 tech.root: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

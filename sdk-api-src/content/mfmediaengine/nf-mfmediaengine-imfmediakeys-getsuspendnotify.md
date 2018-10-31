@@ -7,7 +7,7 @@ old-location: mf\imfmediakeys_getsuspendnotify.htm
 tech.root: medfound
 ms.assetid: 35d76cbc-04c7-49e7-9451-6b032ccd2937
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetSuspendNotify, GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],GetSuspendNotify method, IMFMediaKeys.GetSuspendNotify, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

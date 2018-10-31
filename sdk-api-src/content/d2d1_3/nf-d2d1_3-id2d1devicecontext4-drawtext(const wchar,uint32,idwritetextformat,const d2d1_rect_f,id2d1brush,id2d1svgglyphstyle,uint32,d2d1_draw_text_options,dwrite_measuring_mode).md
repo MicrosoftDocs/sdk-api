@@ -4,10 +4,10 @@ title: ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const 
 author: windows-sdk-content
 description: Draws the text within the given layout rectangle.
 old-location: direct2d\id2d1devicecontext4_drawtext.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7C701D94-5DBB-4143-B88B-A0D7BB124FC5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DrawText, DrawText method [Direct2D], DrawText method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawText method, ID2D1DeviceContext4.DrawText, ID2D1DeviceContext4.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), ID2D1DeviceContext4::DrawText, ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), d2d1_3/ID2D1DeviceContext4::DrawText, direct2d.id2d1devicecontext4_drawtext
 ms.prod: windows-hardware
 ms.technology: windows-devices

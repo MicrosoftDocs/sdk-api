@@ -4,10 +4,10 @@ title: ldap_parse_page_control function
 author: windows-sdk-content
 description: The ldap_parse_page_control parses the results of a search into pages.
 old-location: ldap\ldap_parse_page_control.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: babf74d1-2f9c-40f8-ba82-e298e49ad937
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ldap.ldap_parse_page_control, ldap_parse_page_control, ldap_parse_page_control function [LDAP], ldap_parse_page_controlA, ldap_parse_page_controlW, winldap/ldap_parse_page_control, winldap/ldap_parse_page_controlA, winldap/ldap_parse_page_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

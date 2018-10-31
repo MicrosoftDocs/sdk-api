@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_StopItemSync.htm
 tech.root: shell
 ms.assetid: dd56f26b-caae-4f4d-9a32-fac450e255d0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopItemSync method, ISyncMgrControl.StopItemSync, ISyncMgrControl::StopItemSync, StopItemSync, StopItemSync method [Windows Shell], StopItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopItemSync, shell.ISyncMgrControl_StopItemSync, syncmgr/ISyncMgrControl::StopItemSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LinearGradientBrushProperties function
 author: windows-sdk-content
 description: Creates a D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES structure.
 old-location: direct2d\lineargradientbrushproperties.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: dba59936-2b2d-4a9b-aba4-acb6ff84c037
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: LinearGradientBrushProperties, LinearGradientBrushProperties function [Direct2D], d2d1helper/LinearGradientBrushProperties, direct2d.lineargradientbrushproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368128(v=VS.85).aspx">D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="https://msdn.microsoft.com/753278f0-d8a1-4dc5-b976-a00f8aab357e">D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</a> structure.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368128(v=VS.85).as
 
 ### -param startPoint [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The start point, in the brush's coordinate space, of the gradient axis. 
 
 
 ### -param endPoint [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The end point, in the brush's coordinate space, of the gradient axis.
 
@@ -76,7 +76,7 @@ The end point, in the brush's coordinate space, of the gradient axis.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368128(v=VS.85).aspx">D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="https://msdn.microsoft.com/753278f0-d8a1-4dc5-b976-a00f8aab357e">D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</a></b>
 
 A structure that contains the start and end point of the gradient axis for an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a>.
 

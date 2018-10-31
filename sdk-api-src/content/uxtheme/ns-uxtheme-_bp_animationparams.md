@@ -4,10 +4,10 @@ title: "_BP_ANIMATIONPARAMS"
 author: windows-sdk-content
 description: Defines animation parameters for the BP_PAINTPARAMS structure used by BeginBufferedPaint.
 old-location: controls\BP_ANIMATIONPARAMS.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_animationparams.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PBP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS structure [Windows Controls], PBP_ANIMATIONPARAMS, PBP_ANIMATIONPARAMS structure pointer [Windows Controls], _BP_ANIMATIONPARAMS, _shell_BP_ANIMATIONPARAMS, _shell_BP_ANIMATIONPARAMS_cpp, controls.BP_ANIMATIONPARAMS, controls._shell_BP_ANIMATIONPARAMS, uxtheme/BP_ANIMATIONPARAMS, uxtheme/PBP_ANIMATIONPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines animation parameters for the <a href="https://msdn.microsoft.com/en-us/library/Bb773228(v=VS.85).aspx">BP_PAINTPARAMS</a> structure used by <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Defines animation parameters for the <a href="https://msdn.microsoft.com/46ebf529-530f-4ccd-a3f8-7fcc7c71fca7">BP_PAINTPARAMS</a> structure used by <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Reserved.
 
 ### -field style
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759833(v=VS.85).aspx">BP_ANIMATIONSTYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/435AA5FA-3C40-4BBC-8F8C-D6E0323C3FD8">BP_ANIMATIONSTYLE</a></b>
 
 Animation style.
 

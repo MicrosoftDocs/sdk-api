@@ -7,7 +7,7 @@ old-location: display\dd_createvportdata.htm
 tech.root: display
 ms.assetid: c4dea564-399a-46ee-ad71-7a374d6fbc0a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA, DD_CREATEVPORTDATA structure [Display Devices], _DD_CREATEVPORTDATA, ddrawint/DD_CREATEVPORTDATA, ddstrcts_397bd4aa-7d61-4efa-b47e-1ec97556a429.xml, display.dd_createvportdata"
 ms.prod: windows
 ms.technology: windows-sdk

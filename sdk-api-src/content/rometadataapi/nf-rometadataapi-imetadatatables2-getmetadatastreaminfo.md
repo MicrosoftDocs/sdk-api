@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables2_getmetadatastreaminfo.htm
 tech.root: WinRT
 ms.assetid: a292a32a-b9c2-46b5-a2c4-074e616d7675
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStreamInfo method, IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

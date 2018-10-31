@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_getvideoformats.htm
 tech.root: DirectShow
 ms.assetid: a0426a2a-a856-4e5d-8ff2-4afa3b18355e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetVideoFormats, GetVideoFormats method [DirectShow], GetVideoFormats method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVideoFormats method, IVPBaseConfig.GetVideoFormats, IVPBaseConfig::GetVideoFormats, IVPBaseConfigGetVideoFormats, dshow.ivpbaseconfig_getvideoformats, vpconfig/IVPBaseConfig::GetVideoFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

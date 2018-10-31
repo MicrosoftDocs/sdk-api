@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::get_Url
 author: windows-sdk-content
 description: The get_Url method gets a URL.
 old-location: tapi3\itdirectoryobjectconference_get_url.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: a3ea4bfc-dcb6-46a1-83da-2d897487c2c1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Url method, ITDirectoryObjectConference.get_Url, ITDirectoryObjectConference::get_Url, _tapi3_itdirectoryobjectconference_get_url, get_Url, get_Url method [TAPI 2.2], get_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Url, tapi3.itdirectoryobjectconference_get_url
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ This method is not yet implemented.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppUrl</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppUrl</i> parameter.
 			
 
 

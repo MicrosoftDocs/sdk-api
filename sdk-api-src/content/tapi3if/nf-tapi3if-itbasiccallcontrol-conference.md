@@ -4,10 +4,10 @@ title: ITBasicCallControl::Conference
 author: windows-sdk-content
 description: The Conference method adds a consultation call to the conference in which the current call is a participant. If an associated ITCallHub object does not exist, it is created.
 old-location: tapi3\itbasiccallcontrol_conference.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 73721921-c943-4adc-a2b1-e8c19ec809ac
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Conference, Conference method [TAPI 2.2], Conference method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Conference method, ITBasicCallControl.Conference, ITBasicCallControl::Conference, _tapi3_itbasiccallcontrol_conference, tapi3.itbasiccallcontrol_conference, tapi3if/ITBasicCallControl::Conference
 ms.prod: windows-hardware
 ms.technology: windows-devices

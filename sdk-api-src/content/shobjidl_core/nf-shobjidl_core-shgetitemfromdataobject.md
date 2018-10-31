@@ -7,7 +7,7 @@ old-location: shell\SHGetItemFromDataObject.htm
 tech.root: shell
 ms.assetid: 1d7b9ffa-9980-4d68-85e4-7bab667be168
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SHGetItemFromDataObject, SHGetItemFromDataObject function [Windows Shell], _shell_SHGetItemFromDataObject, shell.SHGetItemFromDataObject, shobjidl_core/SHGetItemFromDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

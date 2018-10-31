@@ -4,10 +4,10 @@ title: "_PPP_INFO"
 author: windows-sdk-content
 description: The PPP_INFO structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.
 old-location: rras\ppp_info.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 39692a38-ab40-43da-a704-8c206be72ceb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PPP_INFO, PPP_INFO structure [RAS], _PPP_INFO, _mpr_ppp_info, mprapi/PPP_INFO, rras.ppp_info
 ms.prod: windows
 ms.technology: windows-sdk

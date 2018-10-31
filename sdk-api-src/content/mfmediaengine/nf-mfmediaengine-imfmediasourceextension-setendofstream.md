@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_setendofstream.htm
 tech.root: medfound
 ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetEndOfStream method, IMFMediaSourceExtension.SetEndOfStream, IMFMediaSourceExtension::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Media Foundation], SetEndOfStream method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setendofstream, mfmediaengine/IMFMediaSourceExtension::SetEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

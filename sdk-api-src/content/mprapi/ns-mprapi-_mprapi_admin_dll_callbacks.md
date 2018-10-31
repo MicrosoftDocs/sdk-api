@@ -4,10 +4,10 @@ title: "_MPRAPI_ADMIN_DLL_CALLBACKS"
 author: windows-sdk-content
 description: The MPRAPI_ADMIN_DLL_CALLBACKS structure is used by the MprAdminInitializeDllEx function to register the callback function pointers.
 old-location: rras\mprapi_admin_dll_callbacks.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: b36036e3-1aee-41e6-b777-98455b04e44b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PMPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS structure [RAS], MPRAPI_ADMIN_DLL_VERSION_1, MPRAPI_ADMIN_DLL_VERSION_2, PMPRAPI_ADMIN_DLL_CALLBACKS, PMPRAPI_ADMIN_DLL_CALLBACKS structure pointer [RAS], _MPRAPI_ADMIN_DLL_CALLBACKS, mprapi/MPRAPI_ADMIN_DLL_CALLBACKS, mprapi/PMPRAPI_ADMIN_DLL_CALLBACKS, rras.mprapi_admin_dll_callbacks"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,97 +97,129 @@ The <a href="https://msdn.microsoft.com/48526073-caeb-463e-b85b-1ef46ca1e2b4">RA
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/79deeb39-1916-4bb0-b701-8f0a05dc55af">MprAdminGetIpAddressForUser</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef DWORD (APIENTRY * PMPRADMINGETIPADDRESSFORUSER)(WCHAR *, WCHAR *, DWORD *, BOOL *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD (APIENTRY * PMPRADMINGETIPADDRESSFORUSER)(WCHAR *, WCHAR *, DWORD *, BOOL *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnMprAdminReleaseIpAddress
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/7a1570a9-b43f-4603-a5ed-6d078a5bbb7c">MprAdminReleaseIpAddress</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef VOID  (APIENTRY * PMPRADMINRELEASEIPADRESS)(WCHAR *, WCHAR *, DWORD *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID  (APIENTRY * PMPRADMINRELEASEIPADRESS)(WCHAR *, WCHAR *, DWORD *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnMprAdminGetIpv6AddressForUser
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/ec4b4130-4864-470f-8647-1fcadd359c58">MprAdminGetIpv6AddressForUser</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef DWORD (APIENTRY * PMPRADMINGETIPV6ADDRESSFORUSER)(WCHAR *, WCHAR *, IN6_ADDR *, BOOL *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD (APIENTRY * PMPRADMINGETIPV6ADDRESSFORUSER)(WCHAR *, WCHAR *, IN6_ADDR *, BOOL *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnMprAdminReleaseIpV6AddressForUser
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/c06433b3-d1b0-42d0-993d-5c1cde4cbc0f">MprAdminReleaseIpv6AddressForUser</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef VOID  (APIENTRY * PMPRADMINRELEASEIPV6ADDRESSFORUSER)(WCHAR *, WCHAR *, IN6_ADDR *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID  (APIENTRY * PMPRADMINRELEASEIPV6ADDRESSFORUSER)(WCHAR *, WCHAR *, IN6_ADDR *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRasAdminAcceptNewLink
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/a4cbca7d-a8b0-4396-9201-648bcca6a8c8">MprAdminAcceptNewLink</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWLINK)(RAS_PORT_0 *, RAS_PORT_1 *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWLINK)(RAS_PORT_0 *, RAS_PORT_1 *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRasAdminLinkHangupNotification
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/7f2b30e8-ba1d-4db3-843f-f9eafca47add">MprAdminLinkHangupNotification</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef VOID  (APIENTRY * PMPRADMINLINKHANGUPNOTIFICATION)(RAS_PORT_0 *, RAS_PORT_1 *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID  (APIENTRY * PMPRADMINLINKHANGUPNOTIFICATION)(RAS_PORT_0 *, RAS_PORT_1 *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRasAdminTerminateDll
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/7be485ce-fd45-4968-9e9d-2128d5a8967d">MprAdminTerminateDll</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef DWORD (APIENTRY * PMPRADMINTERMINATEDLL)();
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef DWORD (APIENTRY * PMPRADMINTERMINATEDLL)();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRasAdminAcceptNewConnectionEx
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/398dd922-dd83-402f-b7ad-ce9438f15ca9">MprAdminAcceptNewConnectionEx</a>  callback. The callback prototype is defined as:
 
-
-```cpp
-typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWCONNECTIONEX)(RAS_CONNECTION_EX *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWCONNECTIONEX)(RAS_CONNECTION_EX *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRasAdminAcceptEndpointChangeEx
 
@@ -198,25 +230,33 @@ typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWCONNECTIONEX)(RAS_CONNECTION_EX *);
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/32ea0cb5-f67d-4dcc-b5d0-705b6847b163">MprAdminAcceptReauthenticationEx</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef BOOL  (APIENTRY * PMPRADMINACCEPTREAUTHENTICATIONEX)(RAS_CONNECTION_EX *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef BOOL  (APIENTRY * PMPRADMINACCEPTREAUTHENTICATIONEX)(RAS_CONNECTION_EX *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRasAdminConnectionHangupNotificationEx
 
 A function pointer to an instance of the <a href="https://msdn.microsoft.com/de251e1b-53ff-45c8-8e2e-65ac26b4a7f5">MprAdminConnectionHangupNotificationEx</a> callback. The callback prototype is defined as:
 
-
-```cpp
-typedef VOID  (APIENTRY * PMPRADMINCONNECTIONHANGUPNOTIFICATIONEX)(RAS_CONNECTION_EX *);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID  (APIENTRY * PMPRADMINCONNECTIONHANGUPNOTIFICATIONEX)(RAS_CONNECTION_EX *);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnRASValidatePreAuthenticatedConnectionEx
 

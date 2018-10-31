@@ -7,7 +7,7 @@ old-location: dwm\dwmtransition_ownedwindow_target.htm
 tech.root: dwm
 ms.assetid: 01164EBA-EAD1-47EB-9ED6-F4791DAF7E00
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: DWMTRANSITION_OWNEDWINDOW_NULL, DWMTRANSITION_OWNEDWINDOW_REPOSITION, DWMTRANSITION_OWNEDWINDOW_TARGET, DWMTRANSITION_OWNEDWINDOW_TARGET enumeration [Desktop Window Manager], dwm.dwmtransition_ownedwindow_target, dwmapi/DWMTRANSITION_OWNEDWINDOW_NULL, dwmapi/DWMTRANSITION_OWNEDWINDOW_REPOSITION, dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET
 ms.prod: windows
 ms.technology: windows-sdk

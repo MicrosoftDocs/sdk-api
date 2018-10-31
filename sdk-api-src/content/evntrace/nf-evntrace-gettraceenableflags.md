@@ -4,10 +4,10 @@ title: GetTraceEnableFlags function
 author: windows-sdk-content
 description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenableflags.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettraceenableflags, base.gettraceenableflags, etw.gettraceenableflags, evntrace/GetTraceEnableFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

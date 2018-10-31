@@ -7,7 +7,7 @@ old-location: mscs\resutilsetqwordvalue.htm
 tech.root: mscs
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PRESUTIL_SET_QWORD_VALUE, PRESUTIL_SET_QWORD_VALUE function [Failover Cluster], ResUtilSetQwordValue, ResUtilSetQwordValue function [Failover Cluster], mscs.resutilsetqwordvalue, resapi/PRESUTIL_SET_QWORD_VALUE, resapi/ResUtilSetQwordValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

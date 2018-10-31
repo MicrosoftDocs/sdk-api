@@ -7,7 +7,7 @@ old-location: menurc\menubarinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menubarinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPMENUBARINFO, *PMENUBARINFO, MENUBARINFO, MENUBARINFO structure [Menus and Other Resources], PMENUBARINFO, PMENUBARINFO structure pointer [Menus and Other Resources], _win32_MENUBARINFO_str, _win32_menubarinfo_str_cpp, menurc.menubarinfo, tagMENUBARINFO, winui._win32_menubarinfo_str, winuser/MENUBARINFO, winuser/PMENUBARINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,11 +109,11 @@ If the menu item has the focus, this member is <b>TRUE</b>. Otherwise, the membe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647833(v=VS.85).aspx">GetMenuBarInfo</a>
+<a href="https://msdn.microsoft.com/552868df-9641-4584-bbd1-89c8c5806a68">GetMenuBarInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

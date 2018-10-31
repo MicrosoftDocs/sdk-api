@@ -4,10 +4,10 @@ title: IAzTask::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzTask object.
 old-location: security\iaztask_submit.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: a6f01573-c1ee-421d-8591-e1c9fa6c3d68
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AzTask object [Security],Submit method, IAzTask interface [Security],Submit method, IAzTask.Submit, IAzTask::Submit, Submit, Submit method [Security], Submit method [Security],AzTask object, Submit method [Security],IAzTask interface, azroles/IAzTask::Submit, security.iaztask_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices

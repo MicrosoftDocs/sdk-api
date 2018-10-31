@@ -4,10 +4,10 @@ title: ITPhone::get_PhoneCapsLong
 author: windows-sdk-content
 description: The get_PhoneCapsLong method gets a DWORD capability of the phone, based on the PHONECAPS_LONG enum passed in. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_phonecapslong.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9d7804a7-616b-4efc-9f3b-6d7b1fda1bf6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsLong method, ITPhone.get_PhoneCapsLong, ITPhone::get_PhoneCapsLong, _tapi3_itphone_get_phonecapslong, get_PhoneCapsLong, get_PhoneCapsLong method [TAPI 2.2], get_PhoneCapsLong method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapslong, tapi3if/ITPhone::get_PhoneCapsLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

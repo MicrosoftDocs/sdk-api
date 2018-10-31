@@ -4,10 +4,10 @@ title: TSPI_lineCreateMSPInstance function
 author: windows-sdk-content
 description: The TSPI_lineCreateMSPInstance function directs the TAPI 3 DLL to create a media service provider (MSP) instance for a specific line device. This function returns a TSP handle for the MSP call. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linecreatemspinstance.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 1d3421d8-2ef8-4f62-b6b0-5671a18ffc0b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TSPI_lineCreateMSPInstance, TSPI_lineCreateMSPInstance function [TAPI 2.2], _tspi_tspi_linecreatemspinstance, tspi.tspi_linecreatemspinstance, tspi/TSPI_lineCreateMSPInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

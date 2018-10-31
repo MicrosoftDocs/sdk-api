@@ -7,7 +7,7 @@ old-location: com\ioleobject_doverb.htm
 tech.root: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Number assigned to the verb in the <a href="https://msdn.microsoft.com/657e3cc3-
 
 ### -param lpmsg [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure describing the event (such as a double-click) that invoked the verb. The caller should pass the <b>MSG</b> structure unmodified, without attempting to interpret or alter the values of any of the structure members.
+Pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure describing the event (such as a double-click) that invoked the verb. The caller should pass the <b>MSG</b> structure unmodified, without attempting to interpret or alter the values of any of the structure members.
 
 
 ### -param pActiveSite [in]
@@ -306,7 +306,7 @@ Containers call <b>IOleObject::DoVerb</b> as part of initializing a newly create
 
 <b>IOleObject::DoVerb</b> automatically runs the OLE server application. If an error occurs during verb execution, the object application is shut down.
 
-If an end user invokes a verb by some means other than selecting a command from a menu (say, by double-clicking or, more rarely, single-clicking an object), the object's container should pass a pointer to a Windows <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure containing the appropriate message. For example, if the end user invokes a verb by double-clicking the object, the container should pass a <b>MSG</b> structure containing WM_LBUTTONDBLCLK, WM_MBUTTONDBLCLK, or WM_RBUTTONDBLCLK. If the container passes no message, lpmsg should be set to <b>NULL</b>. The object should ignore the <b>hwnd</b> member of the passed <b>MSG</b> structure, but can use all the other MSG members.
+If an end user invokes a verb by some means other than selecting a command from a menu (say, by double-clicking or, more rarely, single-clicking an object), the object's container should pass a pointer to a Windows <a href="_win32_MSG_str_cpp">MSG</a> structure containing the appropriate message. For example, if the end user invokes a verb by double-clicking the object, the container should pass a <b>MSG</b> structure containing WM_LBUTTONDBLCLK, WM_MBUTTONDBLCLK, or WM_RBUTTONDBLCLK. If the container passes no message, lpmsg should be set to <b>NULL</b>. The object should ignore the <b>hwnd</b> member of the passed <b>MSG</b> structure, but can use all the other MSG members.
 
 If the object's embedding container calls <b>IOleObject::DoVerb</b>, the client-site pointer (<i>pClientSite</i>) passed to <b>IOleObject::DoVerb</b> is the same as that of the embedding site. If the embedded object is a link source, the pointer passed to <b>IOleObject::DoVerb</b> is that of the linking client's client site.
 
@@ -323,7 +323,7 @@ If the verb being executed places the object in the running state, you should re
 
 <div class="alert"><b>Note</b>  When the object leaves the running state, remember to revoke the object's registration with the ROT by calling <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>. If the object's container document is renamed while the object is running, you should revoke the object's registration and re-register it with the ROT, using its new name. The container should inform the object of its new moniker either by calling <a href="https://msdn.microsoft.com/1313cd9a-757d-4716-abac-027cff9fee03">IOleObject::SetMoniker</a> or by responding to the object's calling <a href="https://msdn.microsoft.com/9ca3e997-9a96-43c3-a213-de8c8440cd54">IOleClientSite::GetMoniker</a>.</div>
 <div> </div>
-When showing a window as a result of <b>IOleObject::DoVerb</b>, it is very important for the object to explicitly call <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> on its editing window. This ensures that the object's window will be visible to the user even if another process originally obscured it. For more information see <b>SetForegroundWindow</b> and <a href="https://msdn.microsoft.com/en-us/library/ms646311(v=VS.85).aspx">SetActiveWindow</a>.
+When showing a window as a result of <b>IOleObject::DoVerb</b>, it is very important for the object to explicitly call <a href="_win32_SetForegroundWindow_cpp">SetForegroundWindow</a> on its editing window. This ensures that the object's window will be visible to the user even if another process originally obscured it. For more information see <b>SetForegroundWindow</b> and <a href="_win32_SetActiveWindow_cpp">SetActiveWindow</a>.
 
 
 

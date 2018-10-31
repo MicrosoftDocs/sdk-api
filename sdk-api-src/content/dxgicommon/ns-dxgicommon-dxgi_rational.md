@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_rational.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_rational.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 5deaf109-e4cc-0f12-82f4-0d4d0b2e387a, DXGI_RATIONAL, DXGI_RATIONAL structure [DXGI], direct3ddxgi.dxgi_rational, dxgicommon/DXGI_RATIONAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ An unsigned integer value representing the bottom of the rational number.
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a> structure.
 
 The <b>DXGI_RATIONAL</b> structure operates under the following rules:
 

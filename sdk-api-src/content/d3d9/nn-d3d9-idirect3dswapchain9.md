@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dswapchain9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 9b1ef0f9-2688-f6ec-ae04-d0dc94b7d8b9, IDirect3DSwapChain9, IDirect3DSwapChain9 interface [Direct3D 9], IDirect3DSwapChain9 interface [Direct3D 9],described, d3d9helper/IDirect3DSwapChain9, direct3d9.idirect3dswapchain9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3DSwapChain9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205902(v=VS.85).aspx">GetBackBuffer</a>
+<a href="https://msdn.microsoft.com/89fa363f-023d-43aa-8f09-fa80ac49ccb6">GetBackBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a back buffer from the swap chain of the device.
@@ -80,7 +80,7 @@ Retrieves a back buffer from the swap chain of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205903(v=VS.85).aspx">GetDevice</a>
+<a href="https://msdn.microsoft.com/753614d1-2c07-471c-870a-3fc163d9ca1c">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with the swap chain.
@@ -89,7 +89,7 @@ Retrieves the device associated with the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205904(v=VS.85).aspx">GetDisplayMode</a>
+<a href="https://msdn.microsoft.com/ccef372e-7efa-44d0-b07c-21e894726f23">GetDisplayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
@@ -98,7 +98,7 @@ Retrieves the display mode's spatial resolution, color resolution, and refresh f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205905(v=VS.85).aspx">GetFrontBufferData</a>
+<a href="https://msdn.microsoft.com/9f5782b9-b648-494d-9304-4df0a88476eb">GetFrontBufferData</a>
 </td>
 <td align="left" width="63%">
 Generates a copy of the swapchain's front buffer and places that copy in a system memory buffer provided by the application.
@@ -107,7 +107,7 @@ Generates a copy of the swapchain's front buffer and places that copy in a syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205906(v=VS.85).aspx">GetPresentParameters</a>
+<a href="https://msdn.microsoft.com/76c85259-d958-4256-9327-67ade7c5581a">GetPresentParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presentation parameters associated with a swap chain.
@@ -116,7 +116,7 @@ Retrieves the presentation parameters associated with a swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205907(v=VS.85).aspx">GetRasterStatus</a>
+<a href="https://msdn.microsoft.com/ce326f9a-56c3-4aac-80a5-02bbc5d1b1f2">GetRasterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information describing the raster of the monitor on which the swap chain is presented.
@@ -125,7 +125,7 @@ Returns information describing the raster of the monitor on which the swap chain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205908(v=VS.85).aspx">Present</a>
+<a href="https://msdn.microsoft.com/ac90aee6-dd66-46d8-a628-4bf8bff087b4">Present</a>
 </td>
 <td align="left" width="63%">
 Presents the contents of the next buffer in the sequence of back buffers owned by the swap chain.
@@ -139,7 +139,7 @@ Presents the contents of the next buffer in the sequence of back buffers owned b
 
 
 
-There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">IDirect3DDevice9::CreateAdditionalSwapChain</a> method.
+There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">IDirect3DDevice9::CreateAdditionalSwapChain</a> method.
 
 This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
 
@@ -149,14 +149,18 @@ The LPDIRECT3DSWAPCHAIN9 and PDIRECT3DSWAPCHAIN9 types are defined as pointers t
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirect3DSwapChain9 *LPDIRECT3DSWAPCHAIN9, *PDIRECT3DSWAPCHAIN9;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Note the application should ensure that its associated device window is visible when its swapchain(s) is in fullscreen mode. Invisible windows cannot receive user mode events and invisible fullscreen windows will interfere with other windowed mode applications' presentation.
 
 
@@ -171,7 +175,7 @@ Note the application should ensure that its associated device window is visible 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">IDirect3DDevice9::CreateAdditionalSwapChain</a>
+<a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">IDirect3DDevice9::CreateAdditionalSwapChain</a>
  
 
  

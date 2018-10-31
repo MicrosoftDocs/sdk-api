@@ -4,10 +4,10 @@ title: RtmDeleteNextHop function
 author: windows-sdk-content
 description: The RtmDeleteNextHop function deletes a next hop from the next-hop list.
 old-location: rras\rtmdeletenexthop.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 708a890e-4dc6-49c7-b857-cdb8504e7f7f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
 ms.prod: windows-hardware
 ms.technology: windows-devices

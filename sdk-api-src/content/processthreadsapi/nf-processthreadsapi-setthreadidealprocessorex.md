@@ -4,10 +4,10 @@ title: SetThreadIdealProcessorEx function
 author: windows-sdk-content
 description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.
 old-location: base\setthreadidealprocessorex.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

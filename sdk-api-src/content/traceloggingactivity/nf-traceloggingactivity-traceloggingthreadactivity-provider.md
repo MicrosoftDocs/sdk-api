@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingthreadactivity_provider.htm
 tech.root: tracelogging
 ms.assetid: 53B0C290-8A1B-4C0A-8EA7-98E26EFF47D1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity interface,Provider method, TraceLoggingThreadActivity.Provider, TraceLoggingThreadActivity::Provider, tracelogging.traceloggingthreadactivity_provider, traceloggingactivity/TraceLoggingThreadActivity::Provider
 ms.prod: windows-hardware
 ms.technology: windows-devices

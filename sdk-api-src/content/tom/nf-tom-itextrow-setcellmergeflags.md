@@ -4,10 +4,10 @@ title: ITextRow::SetCellMergeFlags
 author: windows-sdk-content
 description: Sets the merge flags of the active cell.
 old-location: controls\itextrow_setcellmergeflags.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: a60966cc-03c6-4cb9-b424-eb59f68d1fd1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMergeFlags method, ITextRow.SetCellMergeFlags, ITextRow::SetCellMergeFlags, SetCellMergeFlags, SetCellMergeFlags method [Windows Controls], SetCellMergeFlags method [Windows Controls],ITextRow interface, controls.itextrow_setcellmergeflags, tom/ITextRow::SetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
 ms.prod: windows-hardware
 ms.technology: windows-devices

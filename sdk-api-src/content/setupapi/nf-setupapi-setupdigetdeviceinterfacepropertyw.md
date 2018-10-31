@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinterfaceproperty.htm
 tech.root: devinst
 ms.assetid: 72a44060-cebc-4690-8776-68db76810732
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiGetDeviceInterfaceProperty, SetupDiGetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiGetDeviceInterfacePropertyW, devinst.setupdigetdeviceinterfaceproperty, di-rtns_7a7e0730-650f-4deb-a724-8f90385c762a.xml, setupapi/SetupDiGetDeviceInterfaceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiGetDeviceInterfaceProperty</b> function retrieves a device propert
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device interface for which to retrieve a device interface property.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device interface for which to retrieve a device interface property.
 
 
 ### -param DeviceInterfaceData [in]
@@ -244,7 +244,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetDeviceInterfaceProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
+<b>SetupDiGetDeviceInterfaceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceInterfaceProperty</b>. 
 

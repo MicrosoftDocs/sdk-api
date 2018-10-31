@@ -4,10 +4,10 @@ title: ldap
 author: windows-sdk-content
 description: Represents an LDAP session.
 old-location: ldap\ldap.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 844093e1-daba-494d-91b3-67455ff2e456
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointer [LDAP], _ldap_ldap, ldap, ldap.ldap, winldap/LDAP, winldap/PLDAP"
 ms.prod: windows
 ms.technology: windows-sdk

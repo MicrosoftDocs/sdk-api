@@ -4,10 +4,10 @@ title: D2D1_HUETORGB_INPUT_COLOR_SPACE
 author: windows-sdk-content
 description: Values for the D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property of the Hue to RGB effect.
 old-location: direct2d\d2d1_huetorgb_input_color_space.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2A8166D8-73F5-4D29-BCD2-7F4FE70AA9A1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_HUETORGB_INPUT_COLOR_SPACE, D2D1_HUETORGB_INPUT_COLOR_SPACE enumeration [Direct2D], D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS, D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_VALUE, d2d1effects_2/D2D1_HUETORGB_INPUT_COLOR_SPACE, d2d1effects_2/D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS, d2d1effects_2/D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_VALUE, direct2d.d2d1_huetorgb_input_color_space
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890730(v=VS.85).aspx">D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn890774(v=VS.85).aspx">Hue to RGB effect</a>.
+Values for the <a href="https://msdn.microsoft.com/293E05B7-DA10-4E71-B519-0AF99EE007EC">D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ The effect converts from Hue Saturation Lightness (HSL) to RGB.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 
@@ -86,7 +86,7 @@ The effect converts from Hue Saturation Lightness (HSL) to RGB.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890774(v=VS.85).aspx">Hue to RGB effect</a>
+<a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>
  
 
  

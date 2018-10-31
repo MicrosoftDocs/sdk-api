@@ -4,10 +4,10 @@ title: SetThreadpoolCallbackCleanupGroup function
 author: windows-sdk-content
 description: Associates the specified cleanup group with the specified callback environment.
 old-location: base\setthreadpoolcallbackcleanupgroup.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 395db7ba-ff39-46ee-917b-2896a0e99d43
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetThreadpoolCallbackCleanupGroup, SetThreadpoolCallbackCleanupGroup function, base.setthreadpoolcallbackcleanupgroup, winbase/SetThreadpoolCallbackCleanupGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

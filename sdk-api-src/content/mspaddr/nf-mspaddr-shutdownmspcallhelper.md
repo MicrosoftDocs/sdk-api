@@ -4,10 +4,10 @@ title: ShutdownMSPCallHelper function
 author: windows-sdk-content
 description: The ShutdownMSPCallHelper helper template function is called in the derived class' implementation of ShutdownMSPCall.
 old-location: tapi3\cmspaddress_shutdownmspcallhelper.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 66f7b743-6100-45b9-98b0-3bacfcffed15
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CMSPAddress [TAPI 2.2],ShutdownMSPCallHelper method, CMSPAddress,ShutdownMSPCallHelper, CMSPAddress::ShutdownMSPCallHelper, ShutdownMSPCallHelper, ShutdownMSPCallHelper method [TAPI 2.2], ShutdownMSPCallHelper method [TAPI 2.2],CMSPAddress, ShutdownMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_shutdownmspcallhelper, mspaddr/CMSPAddress::ShutdownMSPCallHelper, tapi3.cmspaddress_shutdownmspcallhelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

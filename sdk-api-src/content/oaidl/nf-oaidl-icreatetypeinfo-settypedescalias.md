@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_settypedescalias.htm
 tech.root: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeDescAlias method, ICreateTypeInfo.SetTypeDescAlias, ICreateTypeInfo::SetTypeDescAlias, SetTypeDescAlias, SetTypeDescAlias method [Automation], SetTypeDescAlias method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeDescAlias, automat.icreatetypeinfo_settypedescalias, oaidl/ICreateTypeInfo::SetTypeDescAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices

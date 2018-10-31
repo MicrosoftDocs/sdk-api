@@ -4,10 +4,10 @@ title: AuthzModifyClaims function
 author: windows-sdk-content
 description: Adds, deletes, or modifies user and device claims in the Authz client context.
 old-location: security\authzmodifyclaims.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: A93CD1DD-4E87-4C6A-928A-F90AD7F1085E
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AuthzModifyClaims, AuthzModifyClaims function [Security], authz/AuthzModifyClaims, security.authzmodifyclaims
 ms.prod: windows-hardware
 ms.technology: windows-devices

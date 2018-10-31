@@ -7,7 +7,7 @@ old-location: automat\varboolfromdec.htm
 tech.root: automat
 ms.assetid: f7397feb-8ef4-4734-875a-0ef2bb818caa
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarBoolFromDec, VarBoolFromDec function [Automation], _oa96_VarBoolFromDec, automat.varboolfromdec, oleauto/VarBoolFromDec
 ms.prod: windows-hardware
 ms.technology: windows-devices

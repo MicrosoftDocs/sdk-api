@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo.htm
 tech.root: DirectShow
 ms.assetid: 641a10fe-8e8c-4225-b05e-b09dfb5f2fee
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], IKsTopologyInfo interface [DirectShow],described, IKsTopologyInfoInterface, dshow.ikstopologyinfo, vidcap/IKsTopologyInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ Returns the number of nodes in the filter.
 
 In the Windows Driver Model, a kernel-streaming (KS) filter contains one or more <i>nodes</i>. Each node encapsulates a processing task that is applied to the stream. Nodes have inputs and outputs, which connect either to other nodes in the filter, or else to the filter's pins. In this way, the nodes resemble a miniature "filter graph" inside the filter, which may contain several possible data paths. Applications can use the <code>IKsTopologyInfo</code> interface to get information about the nodes and the node connections.
 
-<img alt="KsFilter nodes" border="0" src="./images/ksproxynodes.png"/>
+<img alt="KsFilter nodes" border="0" src="images/ksproxynodes.png"/>
 
 Some devices also support the <a href="https://msdn.microsoft.com/bd6e028c-ed6d-4dad-a276-c59ba9d88e87">ISelector</a> interface for selecting input nodes. For example, if a video capture device has a camera and a tape transport, these could be represented as two nodes (see the previous diagram).
 

@@ -7,7 +7,7 @@ old-location: gdi\emrsetpixelv.htm
 tech.root: gdi
 ms.assetid: 1487d788-c85a-4a58-a4c8-8abe198944b4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMRSETPIXELV, EMRSETPIXELV, EMRSETPIXELV structure [Windows GDI], PEMRSETPIXELV, PEMRSETPIXELV structure pointer [Windows GDI], _win32_EMRSETPIXELV_str, gdi.emrsetpixelv, tagEMRSETPIXELV, wingdi/EMRSETPIXELV, wingdi/PEMRSETPIXELV"
 ms.prod: windows
 ms.technology: windows-sdk

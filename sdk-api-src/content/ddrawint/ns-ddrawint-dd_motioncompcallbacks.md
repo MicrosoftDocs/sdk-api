@@ -7,7 +7,7 @@ old-location: display\dd_motioncompcallbacks.htm
 tech.root: display
 ms.assetid: db707fd8-2190-4c4f-89fd-ab46d97f66a2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_MOTIONCOMPCALLBACKS, DD_MOTIONCOMPCALLBACKS, DD_MOTIONCOMPCALLBACKS structure [Display Devices], PDD_MOTIONCOMPCALLBACKS, PDD_MOTIONCOMPCALLBACKS structure pointer [Display Devices], ddrawint/DD_MOTIONCOMPCALLBACKS, ddrawint/PDD_MOTIONCOMPCALLBACKS, ddstrcts_b9c5a52b-5814-42ae-8002-0de8f7c0bca5.xml, display.dd_motioncompcallbacks"
 ms.prod: windows
 ms.technology: windows-sdk

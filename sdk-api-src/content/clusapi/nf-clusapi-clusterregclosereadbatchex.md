@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosereadbatchex.htm
 tech.root: mscs
 ms.assetid: 45509B96-F67D-4754-B073-0B881D681011
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: ClusterRegCloseReadBatchEx, ClusterRegCloseReadBatchEx function [Failover Cluster], IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX function [Failover Cluster], clusapi/ClusterRegCloseReadBatchEx, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ The flags for the operation.
 
 ### -param phRegReadBatchReply [out]
 
-A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a> function.
+A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a> function.
 
 
 ## -returns
@@ -86,7 +86,7 @@ A pointer to the handle of the created read batch result. You must close this ha
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 
@@ -96,7 +96,7 @@ The function returns one of the following
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
 
 
 
@@ -104,7 +104,7 @@ The function returns one of the following
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706743(v=VS.85).aspx">ClusterRegCreateReadBatch</a>
+<a href="https://msdn.microsoft.com/FED3986E-7383-46C4-B2D5-259812EF63A2">ClusterRegCreateReadBatch</a>
 
 
 

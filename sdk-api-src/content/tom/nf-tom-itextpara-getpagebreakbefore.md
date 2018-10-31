@@ -4,10 +4,10 @@ title: ITextPara::GetPageBreakBefore
 author: windows-sdk-content
 description: Determines whether each paragraph in the range must begin on a new page.
 old-location: controls\ITextPara_GetPageBreakBefore.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpagebreakbefore.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetPageBreakBefore, GetPageBreakBefore method [Windows Controls], GetPageBreakBefore method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetPageBreakBefore method, ITextPara.GetPageBreakBefore, ITextPara::GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore_cpp, controls.ITextPara_GetPageBreakBefore, controls._win32_ITextPara_GetPageBreakBefore, tom/ITextPara::GetPageBreakBefore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,7 +154,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -162,11 +162,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787795(v=VS.85).aspx">SetPageBreakBefore</a>
+<a href="https://msdn.microsoft.com/6f94aba1-62df-4714-ab50-a86fc679f407">SetPageBreakBefore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

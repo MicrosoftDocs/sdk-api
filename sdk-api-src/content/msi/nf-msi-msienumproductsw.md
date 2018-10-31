@@ -7,7 +7,7 @@ old-location: setup\msienumproducts.htm
 tech.root: msi
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiEnumProducts, MsiEnumProducts function, MsiEnumProductsA, MsiEnumProductsW, _msi_msienumproducts, msi/MsiEnumProducts, msi/MsiEnumProductsA, msi/MsiEnumProductsW, setup.msienumproducts
 ms.prod: windows-hardware
 ms.technology: windows-devices

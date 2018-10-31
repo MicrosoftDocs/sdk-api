@@ -4,10 +4,10 @@ title: ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT)
 author: windows-sdk-content
 description: Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.
 old-location: direct2d\ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_ptr_FLOAT.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 451d2979-5f76-46d7-b07c-43fbae48a522
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ComputeArea, ComputeArea method [Direct2D], ComputeArea method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeArea method, ID2D1Geometry.ComputeArea, ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT), ID2D1Geometry::ComputeArea, ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT), d2d1/ID2D1Geometry::ComputeArea, direct2d.ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_ptr_FLOAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

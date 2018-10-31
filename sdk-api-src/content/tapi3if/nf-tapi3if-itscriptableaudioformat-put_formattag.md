@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::put_FormatTag
 author: windows-sdk-content
 description: The put_FormatTag method sets the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_formattag.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: a57eb237-189f-4c42-a1cd-9e70f53c3c4a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_FormatTag method, ITScriptableAudioFormat.put_FormatTag, ITScriptableAudioFormat::put_FormatTag, _tapi3_itscriptableaudioformat_put_formattag, put_FormatTag, put_FormatTag method [TAPI 2.2], put_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_formattag, tapi3if/ITScriptableAudioFormat::put_FormatTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>put_FormatTag</b> method sets the <b>wFormatTag</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>wFormatTag</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

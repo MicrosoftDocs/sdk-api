@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_hasaudio.htm
 tech.root: medfound
 ms.assetid: D06A773E-8D41-40D1-BA10-65AEFF2D7667
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasAudio method, IMFMediaEngine.HasAudio, IMFMediaEngine::HasAudio, mf.imfmediaengine_hasaudio, mfmediaengine/IMFMediaEngine::HasAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices

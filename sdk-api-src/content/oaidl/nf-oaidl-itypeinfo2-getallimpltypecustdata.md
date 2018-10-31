@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getallimpltypecustdata.htm
 tech.root: automat
 ms.assetid: 021849d8-ec61-4f35-8302-caa8338a8758
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetAllImplTypeCustData, GetAllImplTypeCustData method [Automation], GetAllImplTypeCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllImplTypeCustData method, ITypeInfo2.GetAllImplTypeCustData, ITypeInfo2::GetAllImplTypeCustData, _oa96_ITypeInfo2_GetAllImplTypeCustData, automat.itypeinfo2_getallimpltypecustdata, oaidl/ITypeInfo2::GetAllImplTypeCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices

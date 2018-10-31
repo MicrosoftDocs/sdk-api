@@ -4,10 +4,10 @@ title: ConvertSecurityDescriptorToStringSecurityDescriptorW function
 author: windows-sdk-content
 description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.
 old-location: security\convertsecuritydescriptortostringsecuritydescriptor.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurityDescriptorToStringSecurityDescriptor function [Security], ConvertSecurityDescriptorToStringSecurityDescriptorA, ConvertSecurityDescriptorToStringSecurityDescriptorW, _win32_convertsecuritydescriptortostringsecuritydescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW, security.convertsecuritydescriptortostringsecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -185,7 +185,7 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

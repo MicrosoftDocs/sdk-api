@@ -7,7 +7,7 @@ old-location: setup\msigetlasterrorrecord.htm
 tech.root: msi
 ms.assetid: 0d6f4506-367b-43d7-ba1c-2a93c1d0cc51
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiGetLastErrorRecord, MsiGetLastErrorRecord function, _msi_msigetlasterrorrecord, msiquery/MsiGetLastErrorRecord, setup.msigetlasterrorrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ The following functions set the per-process error record or reset it to null if 
 </li>
 </ul>
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="https://msdn.microsoft.com/en-us/library/Bb204770(v=VS.85).aspx">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
+<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="windows_installer_best_practices.htm">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
 
 The following sample uses a call to <a href="https://msdn.microsoft.com/1ef23f9a-7d79-4d07-9349-8e9c132f1b94">MsiDatabaseOpenView</a> to  show how to obtain extended error information from one of the Windows Installer functions that supports <b>MsiGetLastErrorRecord</b>.  The example, OpenViewOnDatabase,  attempts to open a view on a database                 handle. The <i>hDatabase</i> handle can be
 obtained by a call to <a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a>. If opening
@@ -163,10 +163,14 @@ the view fails, the function then tries to obtain extended
 error information by using <b>MsiGetLastErrorRecord</b>.
 
 
-
-```cpp
-#include <windows.h>
-#include <Msiquery.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Msiquery.h&gt;
 #pragma comment(lib, "msi.lib")
 //-------------------------------------------------------------------
 // Function: OpenViewOnDatabase
@@ -184,7 +188,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
     PMSIHANDLE hView = 0;
     UINT uiReturn = MsiDatabaseOpenView(hDatabase, 
                                 TEXT("SELECT * FROM `UnknownTable`"),
-                           &hView);
+                           &amp;hView);
 
     if (ERROR_SUCCESS != uiReturn)
     {
@@ -209,7 +213,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
             UINT uiStatus = MsiFormatRecord(NULL,
                              hLastErrorRec,
                              TEXT(""),
-                             &cchExtendedError);
+                             &amp;cchExtendedError);
 
             if (ERROR_MORE_DATA == uiStatus)
             {
@@ -222,7 +226,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
                     uiStatus = MsiFormatRecord(NULL,
                                      hLastErrorRec,
                                      szExtendedError,
-                                     &cchExtendedError);
+                                     &amp;cchExtendedError);
                     if (ERROR_SUCCESS == uiStatus)
                     {
                         // We now have an extended error
@@ -242,10 +246,10 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
 
     return uiReturn;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -254,7 +258,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

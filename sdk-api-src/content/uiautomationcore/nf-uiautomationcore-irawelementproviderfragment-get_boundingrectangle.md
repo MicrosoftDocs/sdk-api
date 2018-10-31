@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_BoundingRectangle.htm
 tech.root: WinAuto
 ms.assetid: 443df4af-06cd-4866-bdeb-b1770ccb9060
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: BoundingRectangle property [Windows Accessibility], BoundingRectangle property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],BoundingRectangle property, IRawElementProviderFragment.BoundingRectangle, IRawElementProviderFragment.get_BoundingRectangle, IRawElementProviderFragment::BoundingRectangle, IRawElementProviderFragment::get_BoundingRectangle, get_BoundingRectangle, uiauto.uiauto_IRawElementProviderFragment_BoundingRectangle, uiauto_IRawElementProviderFragment_BoundingRectangle, uiautomationcore/IRawElementProviderFragment::BoundingRectangle, uiautomationcore/IRawElementProviderFragment::get_BoundingRectangle, winauto.uiauto_IRawElementProviderFragment_BoundingRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,23 +76,27 @@ The following example implementation by a list item provider calculates the boun
             based on its height and position within the containing list box.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE ListItemProvider::get_BoundingRectangle(UiaRect * pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE ListItemProvider::get_BoundingRectangle(UiaRect * pRetVal)
 {
     if (pRetVal == NULL) return E_INVALIDARG;
 
     UiaRect parentRect;
-    HRESULT hr = m_parentProvider->get_BoundingRectangle(&parentRect);
-    pRetVal->left = parentRect.left;
-    pRetVal->top = parentRect.top + (m_pParentControl->m_itemHeight * m_itemIndex);
-    pRetVal->width = parentRect.width;
-    pRetVal->height = m_pParentControl->m_itemHeight;
+    HRESULT hr = m_parentProvider-&gt;get_BoundingRectangle(&amp;parentRect);
+    pRetVal-&gt;left = parentRect.left;
+    pRetVal-&gt;top = parentRect.top + (m_pParentControl-&gt;m_itemHeight * m_itemIndex);
+    pRetVal-&gt;width = parentRect.width;
+    pRetVal-&gt;height = m_pParentControl-&gt;m_itemHeight;
     return S_OK;
-}             
-```
-
-
+}             </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

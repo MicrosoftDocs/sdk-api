@@ -4,10 +4,10 @@ title: ID2D1SvgElement::GetPreviousChild
 author: windows-sdk-content
 description: Gets the previous sibling of the referenceChild element.
 old-location: direct2d\id2d1svgelement_getpreviouschild.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: CE4334D8-7A96-464A-BE57-A7B226221FC3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetPreviousChild, GetPreviousChild method [Direct2D], GetPreviousChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetPreviousChild method, ID2D1SvgElement.GetPreviousChild, ID2D1SvgElement::GetPreviousChild, d2d1svg/ID2D1SvgElement::GetPreviousChild, direct2d.id2d1svgelement_getpreviouschild
 ms.prod: windows-hardware
 ms.technology: windows-devices

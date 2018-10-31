@@ -4,10 +4,10 @@ title: SetSecurityDescriptorControl function
 author: windows-sdk-content
 description: Sets the control bits of a security descriptor. The function can set only the control bits that relate to automatic inheritance of ACEs.
 old-location: security\setsecuritydescriptorcontrol.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 672406af-ae04-4939-82a4-069a91e61b3f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetSecurityDescriptorControl, SetSecurityDescriptorControl function [Security], _win32_setsecuritydescriptorcontrol, security.setsecuritydescriptorcontrol, securitybaseapi/SetSecurityDescriptorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,24 +106,32 @@ The <b>SetSecurityDescriptorControl</b> function specifies the control bit or bi
 
 The following example marks the DACL on the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> as protected.
 
-
-```cpp
-    SetSecurityDescriptorControl( &SecDesc,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    SetSecurityDescriptorControl( &amp;SecDesc,
             SE_DACL_PROTECTED, SE_DACL_PROTECTED );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example marks the DACL as not protected.
 
-
-```cpp
-    SetSecurityDescriptorControl( &SecDesc,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    SetSecurityDescriptorControl( &amp;SecDesc,
             SE_DACL_PROTECTED, 0 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -136,7 +144,7 @@ The following example marks the DACL as not protected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

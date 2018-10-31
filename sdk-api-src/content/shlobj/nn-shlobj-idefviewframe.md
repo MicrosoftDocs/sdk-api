@@ -7,7 +7,7 @@ old-location: shell\IDefViewFrame.htm
 tech.root: shell
 ms.assetid: 59dffa62-a26a-4dfa-95be-6b838a2d2903
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDefViewFrame, IDefViewFrame interface [Windows Shell], IDefViewFrame interface [Windows Shell],described, _win32_IDefViewFrame, shell.IDefViewFrame, shlobj/IDefViewFrame
 ms.prod: windows
 ms.technology: windows-sdk

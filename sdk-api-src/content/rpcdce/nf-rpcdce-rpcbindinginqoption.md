@@ -4,10 +4,10 @@ title: RpcBindingInqOption function
 author: windows-sdk-content
 description: RPC client processes use RpcBindingInqOption to determine current values of the binding options for a given binding handle.
 old-location: rpc\rpcbindinginqoption.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: f148c827-d18a-41f2-834a-f6b77b331bcc
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

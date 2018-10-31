@@ -7,7 +7,7 @@ old-location: security\scardlistreaderswithdeviceinstanceid.htm
 tech.root: secauthn
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -127,9 +127,13 @@ An error code. For more information, see
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 szDeviceInstanceIdcchReaderNameLONG     lReturn, lReturn2;
 
 LPTSTR   pmszReaders = NULL;
@@ -142,8 +146,8 @@ DWORD    cchReaderName = SCARD_AUTOALLOCATE;
 // szDeviceInstanceId was obtained by calling SetupDiGetDeviceInstanceId
 lReturn = SCardListReadersWithDeviceInstanceId (hContext,
                          szDeviceInstanceId,
-                         (LPTSTR)&pmszReaders,
-                         &cchReaderName);
+                         (LPTSTR)&amp;pmszReaders,
+                         &amp;cchReaderName);
 
 switch( lReturn )
 {
@@ -178,9 +182,9 @@ default:
         // ...
         break;
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

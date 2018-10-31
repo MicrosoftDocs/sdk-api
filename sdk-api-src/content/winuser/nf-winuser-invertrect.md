@@ -7,7 +7,7 @@ old-location: gdi\invertrect.htm
 tech.root: gdi
 ms.assetid: a8c4dbf1-94ec-46e9-b365-7dfc89e4f176
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

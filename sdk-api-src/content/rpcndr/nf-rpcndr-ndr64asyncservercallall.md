@@ -4,10 +4,10 @@ title: Ndr64AsyncServerCallAll function
 author: windows-sdk-content
 description: Ndr64AsyncServerCallAll is not intended to be directly called by applications.
 old-location: rpc\ndr64asyncservercallall.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 0B8203F2-2EE0-4DBD-B1B8-FD9E7E073E6F
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: Ndr64AsyncServerCallAll, Ndr64AsyncServerCallAll function [RPC], rpc.ndr64asyncservercallall, rpcndr/Ndr64AsyncServerCallAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

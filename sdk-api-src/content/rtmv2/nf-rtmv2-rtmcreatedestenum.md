@@ -4,10 +4,10 @@ title: RtmCreateDestEnum function
 author: windows-sdk-content
 description: The RtmCreateDestEnum function starts an enumeration of the destinations in the routing table. A client can enumerate destinations for one or more views, or for all views.
 old-location: rras\rtmcreatedestenum.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 6efea7b4-dd44-4b08-999d-62e7f660ed64
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RTM_ENUM_ALL_DESTS, RTM_ENUM_NEXT, RTM_ENUM_OWN_DESTS, RTM_ENUM_RANGE, RTM_ENUM_START, RTM_VIEW_MASK_ANY, RTM_VIEW_MASK_MCAST, RTM_VIEW_MASK_UCAST, RtmCreateDestEnum, RtmCreateDestEnum function [RAS], _rtmv2ref_rtmcreatedestenum, rras.rtmcreatedestenum, rtmv2/RtmCreateDestEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

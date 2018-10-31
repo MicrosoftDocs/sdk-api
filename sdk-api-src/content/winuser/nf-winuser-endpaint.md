@@ -7,7 +7,7 @@ old-location: gdi\endpaint.htm
 tech.root: gdi
 ms.assetid: b07cfed9-21c4-4459-855a-eaf4d1d34ab8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EndPaint, EndPaint function [Windows GDI], _win32_EndPaint, gdi.endpaint, winuser/EndPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

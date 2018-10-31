@@ -7,7 +7,7 @@ old-location: display\clipobj_benum.htm
 tech.root: display
 ms.assetid: d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,19 +88,23 @@ The return value is <b>TRUE</b> if the driver must call this function again for 
 
 A possible loop structure for calling this function follows:
 
-
-```
-do {
-    bMore = CLIPOBJ_bEnum(pco, sizeof(buffer), &buffer.c);
-    for (i = 0; i < buffer.c; i++) {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>do {
+    bMore = CLIPOBJ_bEnum(pco, sizeof(buffer), &amp;buffer.c);
+    for (i = 0; i &lt; buffer.c; i++) {
         .
         .
         .
     }
-} while (bMore);
-```
-
-
+} while (bMore);</pre>
+</td>
+</tr>
+</table></span></div>
 The count of objects written to the buffer is written to the buffer itself.
 
 

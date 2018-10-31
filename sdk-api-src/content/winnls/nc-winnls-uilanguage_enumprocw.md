@@ -7,7 +7,7 @@ old-location: intl\enumuilanguagesproc.htm
 tech.root: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumUILanguagesProc, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callback, UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications], UILANGUAGE_ENUMPROCA, UILANGUAGE_ENUMPROCW, _win32_EnumUILanguagesProc, intl.enumuilanguagesproc, winnls/UILANGUAGE_ENUMPROC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,16 +102,20 @@ identifiers that do not include the leading 0x, and will be 4 characters in leng
 be passed as "0409" and en as "0009".
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-delegate System.Boolean EnumUILanguagesProc(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>delegate System.Boolean EnumUILanguagesProc(
             System.IntPtr lpUILanguageString,
             System.IntPtr lParam
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

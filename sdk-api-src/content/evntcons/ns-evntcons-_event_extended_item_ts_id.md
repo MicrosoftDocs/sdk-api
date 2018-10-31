@@ -4,10 +4,10 @@ title: "_EVENT_EXTENDED_ITEM_TS_ID"
 author: windows-sdk-content
 description: Defines the terminal session that logged the event.
 old-location: etw\event_extended_item_ts_id.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID structure [ETW], PEVENT_EXTENDED_ITEM_TS_ID, PEVENT_EXTENDED_ITEM_TS_ID structure pointer [ETW], _EVENT_EXTENDED_ITEM_TS_ID, base.event_extended_item_ts_id, etw.event_extended_item_ts_id, evntcons/EVENT_EXTENDED_ITEM_TS_ID, evntcons/PEVENT_EXTENDED_ITEM_TS_ID"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IRichEditOle::GetObject
 author: windows-sdk-content
 description: Retrieves information, stored in a REOBJECT structure, about an object in a rich edit control.
 old-location: controls\IRichEditOle_GetObject.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetobject.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetObject, GetObject method [Windows Controls], GetObject method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetObject method, IRichEditOle.GetObject, IRichEditOle::GetObject, REO_GETOBJ_ALL_INTERFACES, REO_GETOBJ_NO_INTERFACES, REO_GETOBJ_POLEOBJ, REO_GETOBJ_POLESITE, REO_GETOBJ_PSTG, _win32_IRichEditOle_GetObject, _win32_IRichEditOle_GetObject_cpp, controls.IRichEditOle_GetObject, controls._win32_IRichEditOle_GetObject, richole/IRichEditOle::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves information, stored in a <a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a> structure, about an object in a rich edit control.
+Retrieves information, stored in a <a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a> structure, about an object in a rich edit control.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ Retrieves information, stored in a <a href="https://msdn.microsoft.com/en-us/lib
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Zero-based index that specifies which object to return information about. If this parameter is <b>REO_IOB_USE_CP</b>, information about the object at the character position specified by the <a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a> structure is returned.
+Zero-based index that specifies which object to return information about. If this parameter is <b>REO_IOB_USE_CP</b>, information about the object at the character position specified by the <a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a> structure is returned.
 
 
 ### -param lpreobject
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a>*</b>
 
 Structure that receives information about the object. The reference count of the interfaces returned in this structure has been incremented; it is the responsibility of the caller to use the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method to decrement the count.
 
@@ -143,7 +143,7 @@ Get all interfaces.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG</b> is returned if no buffer for the <a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a> structure was given or if the <i>iob</i> value or character position is invalid.
+Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG</b> is returned if no buffer for the <a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a> structure was given or if the <i>iob</i> value or character position is invalid.
 
 
 
@@ -153,11 +153,11 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787946(v=VS.85).aspx">REOBJECT</a>
+<a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a>
 
 
 

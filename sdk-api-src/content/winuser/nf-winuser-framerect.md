@@ -7,7 +7,7 @@ old-location: gdi\framerect.htm
 tech.root: gdi
 ms.assetid: a1083cb5-5e6c-4134-badf-9fc5142d1453
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: FrameRect, FrameRect function [Windows GDI], _win32_FrameRect, gdi.framerect, winuser/FrameRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

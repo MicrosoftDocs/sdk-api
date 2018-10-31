@@ -7,7 +7,7 @@ old-location: gdi\emrextfloodfill.htm
 tech.root: gdi
 ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, tagEMREXTFLOODFILL, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL"
 ms.prod: windows
 ms.technology: windows-sdk

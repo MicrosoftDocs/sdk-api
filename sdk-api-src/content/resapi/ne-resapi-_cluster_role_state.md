@@ -7,7 +7,7 @@ old-location: mscs\cluster_role_state.htm
 tech.root: mscs
 ms.assetid: 21424e31-4eba-4ff9-95c1-0908827936df
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: CLUSTER_ROLE_STATE, CLUSTER_ROLE_STATE enumeration [Failover Cluster], ClusterRoleClustered, ClusterRoleUnclustered, ClusterRoleUnknown, _CLUSTER_ROLE_STATE, mscs.cluster_role_state, resapi/CLUSTER_ROLE_STATE, resapi/ClusterRoleClustered, resapi/ClusterRoleUnclustered, resapi/ClusterRoleUnknown
 ms.prod: windows
 ms.technology: windows-sdk

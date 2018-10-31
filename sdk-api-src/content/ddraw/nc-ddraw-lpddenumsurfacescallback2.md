@@ -7,7 +7,7 @@ old-location: directdraw\enumsurfacescallback2.htm
 tech.root: directdraw
 ms.assetid: BC10A26B-50A3-48C5-94D7-B9C9E8FFE768
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumSurfacesCallback2, EnumSurfacesCallback2 callback function [DirectDraw], LPDDENUMSURFACESCALLBACK2, LPDDENUMSURFACESCALLBACK2 callback, ddraw/EnumSurfacesCallback2, directdraw.enumsurfacescallback2
 ms.prod: windows
 ms.technology: windows-sdk

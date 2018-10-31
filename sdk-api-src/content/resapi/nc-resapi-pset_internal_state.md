@@ -7,7 +7,7 @@ old-location: mscs\setinternalstate.htm
 tech.root: mscs
 ms.assetid: B9ECD98B-D867-44C0-846F-8FE96E44F387
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PSET_INTERNAL_STATE, PSET_INTERNAL_STATE callback function [Failover Cluster], SetInternalState, SetInternalState callback, SetInternalState callback function [Failover Cluster], mscs.setinternalstate, resapi/PSET_INTERNAL_STATE, resapi/SetInternalState
 ms.prod: windows
 ms.technology: windows-sdk

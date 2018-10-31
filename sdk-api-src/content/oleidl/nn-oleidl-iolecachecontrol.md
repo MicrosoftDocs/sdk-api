@@ -7,7 +7,7 @@ old-location: com\iolecachecontrol.htm
 tech.root: com
 ms.assetid: 64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], IOleCacheControl interface [COM],described, _ole_iolecachecontrol, com.iolecachecontrol, oleidl/IOleCacheControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Provides proper maintenance of caches. It maintains the caches by connecting the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCacheControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleCacheControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCacheControl</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleCacheControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

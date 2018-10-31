@@ -4,10 +4,10 @@ title: MesDecodeIncrementalHandleCreate function
 author: windows-sdk-content
 description: The MesDecodeIncrementalHandleCreate function creates a decoding handle for the incremental style of serialization.
 old-location: rpc\mesdecodeincrementalhandlecreate.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 0fe051be-e5c0-44b2-8ebc-5aa362fe4008
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MesDecodeIncrementalHandleCreate, MesDecodeIncrementalHandleCreate function [RPC], _rpc_mesdecodeincrementalhandlecreate, midles/MesDecodeIncrementalHandleCreate, rpc.mesdecodeincrementalhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

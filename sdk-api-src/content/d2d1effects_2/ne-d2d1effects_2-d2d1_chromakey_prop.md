@@ -4,10 +4,10 @@ title: D2D1_CHROMAKEY_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Chroma-key effect.
 old-location: direct2d\d2d1_chromakey_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: B68F7F68-12F5-4650-84ED-D1EE0B670964
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_CHROMAKEY_PROP, D2D1_CHROMAKEY_PROP enumeration [Direct2D], D2D1_CHROMAKEY_PROP_COLOR, D2D1_CHROMAKEY_PROP_FEATHER, D2D1_CHROMAKEY_PROP_INVERT_ALPHA, D2D1_CHROMAKEY_PROP_TOLERANCE, d2d1effects_2/D2D1_CHROMAKEY_PROP, d2d1effects_2/D2D1_CHROMAKEY_PROP_COLOR, d2d1effects_2/D2D1_CHROMAKEY_PROP_FEATHER, d2d1effects_2/D2D1_CHROMAKEY_PROP_INVERT_ALPHA, d2d1effects_2/D2D1_CHROMAKEY_PROP_TOLERANCE, direct2d.d2d1_chromakey_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890715(v=VS.85).aspx">Chroma-key effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/f7bb5c65-f406-f947-c05d-2756cff99d21">Chroma-key effect</a>.
 
 
 ## -enum-fields

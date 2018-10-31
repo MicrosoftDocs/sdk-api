@@ -7,7 +7,7 @@ old-location: winauto\uiauto_WindowPattern_WaitForInputIdleConPat.htm
 tech.root: WinAuto
 ms.assetid: c2a319bd-9698-4671-b3d9-bcfd07c15aef
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WindowPattern_WaitForInputIdle, WindowPattern_WaitForInputIdle function [Windows Accessibility], uiauto.uiauto_WindowPattern_WaitForInputIdleConPat, uiauto_WindowPattern_WaitForInputIdleConPat, uiautomationcoreapi/WindowPattern_WaitForInputIdle, winauto.uiauto_WindowPattern_WaitForInputIdleConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

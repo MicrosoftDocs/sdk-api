@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory5_checkfeaturesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 959F83F8-ADC6-4609-8F63-BEDDFC2EF088
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [DXGI], CheckFeatureSupport method [DXGI],IDXGIFactory5 interface, IDXGIFactory5 interface [DXGI],CheckFeatureSupport method, IDXGIFactory5.CheckFeatureSupport, IDXGIFactory5::CheckFeatureSupport, direct3ddxgi.idxgifactory5_checkfeaturesupport, dxgi1_5/IDXGIFactory5::CheckFeatureSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ The size, in bytes, of <i>pFeatureSupportData</i>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -95,7 +95,7 @@ This method returns an HRESULT success or error code.
 
 
 
-Refer to the description of <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>.
+Refer to the description of <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>.
 
 
 

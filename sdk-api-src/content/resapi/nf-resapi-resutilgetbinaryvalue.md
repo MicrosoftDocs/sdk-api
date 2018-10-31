@@ -7,7 +7,7 @@ old-location: mscs\resutilgetbinaryvalue.htm
 tech.root: mscs
 ms.assetid: d5068cc4-1fdc-430a-a48b-8e024bc20ca3
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/30/2018
 ms.keywords: PRESUTIL_GET_BINARY_VALUE, PRESUTIL_GET_BINARY_VALUE function [Failover Cluster], ResUtilGetBinaryValue, ResUtilGetBinaryValue function [Failover Cluster], _wolf_resutilgetbinaryvalue, mscs.resutilgetbinaryvalue, resapi/PRESUTIL_GET_BINARY_VALUE, resapi/ResUtilGetBinaryValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_PROCESS_LEAP_SECOND_INFO"
 author: windows-sdk-content
 description: Specifies how the system handles positive leap seconds.
 old-location: base\process_leap_second_info.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 63AA6F71-506C-47EA-A7EF-8A8309B84257
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO structure pointer, PROCESS_LEAP_SECOND_INFO, PROCESS_LEAP_SECOND_INFO structure, PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND, _PROCESS_LEAP_SECOND_INFO, base.process_leap_second_info, processthreadsapi/PPROCESS_LEAP_SECOND_INFO, processthreadsapi/PROCESS_LEAP_SECOND_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

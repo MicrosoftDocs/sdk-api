@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceinterfaceproperty.htm
 tech.root: devinst
 ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfaceProperty , SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiSetDeviceInterfacePropertyW, devinst.setupdisetdeviceinterfaceproperty, di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml, setupapi/SetupDiSetDeviceInterfaceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The <b>SetupDiSetDeviceInterfaceProperty</b> function sets a device property of 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface for which to set a device interface property.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to set a device interface property.
 
 
 ### -param DeviceInterfaceData [in]
@@ -239,7 +239,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
+<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetDeviceInterfaceProperty</b>. 
 

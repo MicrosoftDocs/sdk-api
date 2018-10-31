@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accchild.htm
 tech.root: WinAuto
 ms.assetid: 64b0c24d-778a-4f13-8c70-6be3436a98cd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChild method, IAccessible.get_accChild, IAccessible::get_accChild, _msaa_IAccessible_get_accChild, get_accChild, get_accChild method [Windows Accessibility], get_accChild method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchild, oleacc/IAccessible::get_accChild, winauto.iaccessible_iaccessible__get_accchild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,9 +132,13 @@ Servers expose elements as either elements (child IDs) or full objects (<a href=
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows an implementation for an object that does not have any children, or whose children are elements rather than objects.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE AccServer::get_accChild( 
     VARIANT varChild,
     IDispatch **ppdispChild)
@@ -147,10 +151,10 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accChild(
     *ppdispChild = NULL;    
     return S_FALSE;     
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

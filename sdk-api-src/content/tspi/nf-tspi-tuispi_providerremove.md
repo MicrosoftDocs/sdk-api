@@ -4,10 +4,10 @@ title: TUISPI_providerRemove function
 author: windows-sdk-content
 description: The TUISPI_providerRemove function asks the user to confirm elimination of the service provider. This function makes the TSPI_providerRemove function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerremove.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 217d1f40-7f3f-49a0-b29e-e2da85ba47f1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _tspi_tuispi_providerremove, tspi.tuispi_providerremove, tspi/TUISPI_providerRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices

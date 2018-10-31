@@ -7,7 +7,7 @@ old-location: com\icallframe_freeparam.htm
 tech.root: com
 ms.assetid: b141bfc4-de1b-4251-b88f-551d0805e9b6
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: FreeParam, FreeParam method [COM], FreeParam method [COM],ICallFrame interface, ICallFrame interface [COM],FreeParam method, ICallFrame.FreeParam, ICallFrame::FreeParam, _com_icallframe_freeparam, callobj/ICallFrame::FreeParam, com.icallframe_freeparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,17 +65,17 @@ The number of the parameter to be freed.
 
 ### -param freeFlags [in]
 
-Represents flags from the <a href="https://msdn.microsoft.com/en-us/library/ms686569(v=VS.85).aspx">CALLFRAME_FREE</a> enumeration.
+Represents flags from the <a href="https://msdn.microsoft.com/6a048133-7a89-4b55-afd3-5eb722d41914">CALLFRAME_FREE</a> enumeration.
 
 
 ### -param pWalkerFree [in]
 
-A pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/ms679746(v=VS.85).aspx">ICallFrameWalker</a> interface. When specified, a callback is made for each interface pointer encountered while freeing occurs. If this parameter is not specified, then the interface pointers are freed by the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method.
+A pointer to an instance of the <a href="https://msdn.microsoft.com/1eeb00a3-d3c5-46f0-95a8-f694f802894b">ICallFrameWalker</a> interface. When specified, a callback is made for each interface pointer encountered while freeing occurs. If this parameter is not specified, then the interface pointers are freed by the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method.
 
 
 ### -param nullFlags [in]
 
-Represents flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd542639(v=VS.85).aspx">CALLFRAME_NULL</a> enumeration.
+Represents flags from the <a href="https://msdn.microsoft.com/99d83bdc-a33b-4233-84c6-350274f42965">CALLFRAME_NULL</a> enumeration.
 
 
 ## -returns
@@ -122,7 +122,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

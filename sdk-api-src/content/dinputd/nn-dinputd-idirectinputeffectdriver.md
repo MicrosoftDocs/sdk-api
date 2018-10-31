@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver.htm
 tech.root: hid
 ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], IDirectInputEffectDriver interface [Human Input Devices],described, di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml, dinputd/IDirectInputEffectDriver, hid.idirectinputeffectdriver
 ms.prod: windows
 ms.technology: windows-sdk

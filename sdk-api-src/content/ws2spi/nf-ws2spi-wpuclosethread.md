@@ -4,10 +4,10 @@ title: WPUCloseThread function
 author: windows-sdk-content
 description: The WPUCloseThread function closes a thread opened with a call to WPUOpenCurrentThread.
 old-location: winsock\wpuclosethread_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">

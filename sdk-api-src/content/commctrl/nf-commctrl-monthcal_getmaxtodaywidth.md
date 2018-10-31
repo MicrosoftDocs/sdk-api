@@ -4,10 +4,10 @@ title: MonthCal_GetMaxTodayWidth macro
 author: windows-sdk-content
 description: Retrieves the maximum width of the &#0034;today&#0034; string in a month calendar control. This includes the label text and the date text. You can use this macro or send the MCM_GETMAXTODAYWIDTH message explicitly.
 old-location: controls\MonthCal_GetMaxTodayWidth.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxtodaywidth.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MonthCal_GetMaxTodayWidth, MonthCal_GetMaxTodayWidth macro [Windows Controls], _win32_MonthCal_GetMaxTodayWidth, _win32_MonthCal_GetMaxTodayWidth_cpp, commctrl/MonthCal_GetMaxTodayWidth, controls.MonthCal_GetMaxTodayWidth, controls._win32_MonthCal_GetMaxTodayWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the maximum width of the "today" string in a month calendar control. This includes the label text and the date text. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760962(v=VS.85).aspx">MCM_GETMAXTODAYWIDTH</a> message explicitly. 
+Retrieves the maximum width of the "today" string in a month calendar control. This includes the label text and the date text. You can use this macro or send the <a href="https://msdn.microsoft.com/bb55c24e-ba04-4a57-97b0-ff04d77e1d43">MCM_GETMAXTODAYWIDTH</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the maximum width of the "today" string in a month calendar control. T
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 

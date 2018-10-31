@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_begin.htm
 tech.root: Multimedia
 ms.assetid: 2d2c1872-e0c3-4fea-bfb9-45b814973072
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],Begin method, IGetFrame.Begin, IGetFrame::Begin, _win32_IGetFrame_Begin, multimedia.igetframe_begin, vfw/IGetFrame::Begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,15 +97,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Begin</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Begin(LONG lStart, LONG lEnd, LONG lRate); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

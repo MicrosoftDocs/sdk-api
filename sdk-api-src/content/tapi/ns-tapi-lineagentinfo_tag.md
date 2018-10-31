@@ -4,10 +4,10 @@ title: lineagentinfo_tag
 author: windows-sdk-content
 description: The LINEAGENTINFO structure contains information about an ACD agent. The lineGetAgentInfo function returns the LINEAGENTINFO structure.
 old-location: tapi2\lineagentinfo.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 84eedf88-f0ea-4dc8-9840-b94a47fb7ca2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, lineagentinfo_tag, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo"
 ms.prod: windows
 ms.technology: windows-sdk

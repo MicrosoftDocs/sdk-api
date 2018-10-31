@@ -4,10 +4,10 @@ title: "_selchange"
 author: windows-sdk-content
 description: Contains information associated with an EN_SELCHANGE notification code. A rich edit control sends this notification to its parent window when the current selection changes.
 old-location: controls\SELCHANGE.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\selchange.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SELCHANGE, SELCHANGE structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _selchange, _win32_SELCHANGE_str, _win32_SELCHANGE_str_cpp, controls.SELCHANGE, controls._win32_SELCHANGE_str, richedit/SELCHANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information associated with an <a href="https://msdn.microsoft.com/en-us/library/Bb787987(v=VS.85).aspx">EN_SELCHANGE</a> notification code. A rich edit control sends this notification to its parent window when the current selection changes.
+Contains information associated with an <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a> notification code. A rich edit control sends this notification to its parent window when the current selection changes.
 
 
 ## -struct-fields
@@ -60,14 +60,14 @@ Contains information associated with an <a href="https://msdn.microsoft.com/en-u
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 Notification header. 
 
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
 
 New selection range. 
 
@@ -132,7 +132,7 @@ More than one COM object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787987(v=VS.85).aspx">EN_SELCHANGE</a>
+<a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
  
 
  

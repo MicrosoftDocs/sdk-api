@@ -4,10 +4,10 @@ title: D2D1_DISTANTDIFFUSE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Distant-diffuse lighting effect.
 old-location: direct2d\d2d1_distantdiffuse_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: C47029DF-D612-4256-ABFC-57F42614E78A
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_DISTANTDIFFUSE_PROP, D2D1_DISTANTDIFFUSE_PROP enumeration [Direct2D], D2D1_DISTANTDIFFUSE_PROP_AZIMUTH, D2D1_DISTANTDIFFUSE_PROP_COLOR, D2D1_DISTANTDIFFUSE_PROP_DIFFUSE_CONSTANT, D2D1_DISTANTDIFFUSE_PROP_ELEVATION, D2D1_DISTANTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, D2D1_DISTANTDIFFUSE_PROP_SCALE_MODE, D2D1_DISTANTDIFFUSE_PROP_SURFACE_SCALE, d2d1effects/D2D1_DISTANTDIFFUSE_PROP, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_AZIMUTH, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_COLOR, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_DIFFUSE_CONSTANT, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_ELEVATION, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_SCALE_MODE, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_SURFACE_SCALE, direct2d.d2d1_distantdiffuse_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706331(v=VS.85).aspx">Distant-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/981FD58B-0565-4D0E-957C-3ED81BA8A6EB">Distant-diffuse lighting effect</a>.
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: menurc\getsubmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getsubmenu.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetSubMenu, GetSubMenu function [Menus and Other Resources], _win32_GetSubMenu, _win32_getsubmenu_cpp, menurc.getsubmenu, winui._win32_getsubmenu, winuser/GetSubMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,15 +96,15 @@ If the function succeeds, the return value is a handle to the drop-down menu or 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a>
+<a href="https://msdn.microsoft.com/b1341fe7-1532-4e0b-82f3-540cc88c0aa7">CreatePopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647640(v=VS.85).aspx">GetMenu</a>
+<a href="https://msdn.microsoft.com/e86b20c6-9a4b-40b7-95d1-ffa57795f5e0">GetMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

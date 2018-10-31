@@ -4,10 +4,10 @@ title: ComboBox_InsertItemData macro
 author: windows-sdk-content
 description: Inserts item data in a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
 old-location: controls\ComboBox_InsertItemData.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertitemdata.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ComboBox_InsertItemData, ComboBox_InsertItemData macro [Windows Controls], _win32_ComboBox_InsertItemData, _win32_ComboBox_InsertItemData_cpp, controls.ComboBox_InsertItemData, controls._win32_ComboBox_InsertItemData, windowsx/ComboBox_InsertItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Inserts item data in a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a> message explicitly.
+Inserts item data in a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The item data to insert.
 
 
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>.
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>.
 	
 
 

@@ -97,7 +97,7 @@ Destroys a resource (string resource version).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683610(v=VS.85).aspx">EnlistResource</a>
+<a href="https://msdn.microsoft.com/87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a">EnlistResource</a>
 </td>
 <td align="left" width="63%">
 Enlists a resource in a transaction.
@@ -106,7 +106,7 @@ Enlists a resource in a transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681755(v=VS.85).aspx">RateResource</a>
+<a href="https://msdn.microsoft.com/5fe3ca39-e4cb-4dae-be96-ce1a2099486a">RateResource</a>
 </td>
 <td align="left" width="63%">
 Evaluates how well a candidate resource matches.
@@ -115,7 +115,7 @@ Evaluates how well a candidate resource matches.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681713(v=VS.85).aspx">ResetResource</a>
+<a href="https://msdn.microsoft.com/59df0703-90ea-480c-8608-7d43039b48ba">ResetResource</a>
 </td>
 <td align="left" width="63%">
 Prepares the resource to be put back into general or enlisted inventory.
@@ -130,7 +130,7 @@ Prepares the resource to be put back into general or enlisted inventory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685072(v=VS.85).aspx">IDispenserManager</a>
+<a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a>
  
 
  

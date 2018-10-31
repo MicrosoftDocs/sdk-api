@@ -97,24 +97,28 @@ Call this method to determine whether the current CSP supports exchange keys, si
 
 #### Examples
 
-
-```cpp
-DWORD dwKeySpec;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwKeySpec;
 
 // Determine the supported key specifications.
 // hr is HRESULT variable.
-hr = pEnroll->GetSupportedKeySpec( &dwKeySpec );
+hr = pEnroll-&gt;GetSupportedKeySpec( &amp;dwKeySpec );
 if ( FAILED( hr ) )    
     printf("Failed GetSupportedKeySpec [%x]\n", hr);
 else
 {
     printf("Exchange keys are %s. Signature keys are %s.\n",
-           dwKeySpec & AT_KEYEXCHANGE ? "supported" : "not supported",
-           dwKeySpec & AT_SIGNATURE ? "supported" : "not supported" );
-}
-```
-
-
+           dwKeySpec &amp; AT_KEYEXCHANGE ? "supported" : "not supported",
+           dwKeySpec &amp; AT_SIGNATURE ? "supported" : "not supported" );
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

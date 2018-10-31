@@ -4,10 +4,10 @@ title: RpcTestCancel function
 author: windows-sdk-content
 description: The RpcTestCancel function checks for a cancel indication.
 old-location: rpc\rpctestcancel.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

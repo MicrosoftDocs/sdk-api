@@ -4,10 +4,10 @@ title: GetThemeAppProperties function
 author: windows-sdk-content
 description: Retrieves the property flags that control how visual styles are applied in the current application.
 old-location: controls\GetThemeAppProperties.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,14 +127,18 @@ Do not call this function during <a href="https://msdn.microsoft.com/0c3e3083-92
 
 The example extracts a single flag's state from the function result.
 
-
-```cpp
-DWORD resultFlags = GetThemeAppProperties();
-bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD resultFlags = GetThemeAppProperties();
+bool ctrlsAreThemed = ((resultFlags &amp; STAP_ALLOW_CONTROLS) != 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -143,7 +147,7 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759825(v=VS.85).aspx">SetThemeAppProperties</a>
+<a href="https://msdn.microsoft.com/7675c2c1-c152-41ad-b34b-5ca6cc7cd26b">SetThemeAppProperties</a>
  
 
  

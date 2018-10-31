@@ -7,7 +7,7 @@ old-location: mf\imfmediatype.htm
 tech.root: medfound
 ms.assetid: f1d60bec-71e4-4fcc-a020-92754b6f3c02
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IMFMediaType interface [Media Foundation],described, f1d60bec-71e4-4fcc-a020-92754b6f3c02, mf.imfmediatype, mfobjects/IMFMediaType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcSsDontSerializeContext function
 author: windows-sdk-content
 description: The RpcSsDontSerializeContext function disables run-time serialization of multiple calls dispatched to server-manager routines on the same context handle.
 old-location: rpc\rpcssdontserializecontext.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 75c8bf34-1522-4db2-9c33-e1ca5ac11e4c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcSsDontSerializeContext, RpcSsDontSerializeContext function [RPC], _rpc_rpcssdontserializecontext, rpc.rpcssdontserializecontext, rpcdce/RpcSsDontSerializeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

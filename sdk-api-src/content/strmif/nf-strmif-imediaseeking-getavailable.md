@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getavailable.htm
 tech.root: DirectShow
 ms.assetid: 8c4114e5-ff82-421a-a7fb-9382d4182388
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetAvailable, GetAvailable method [DirectShow], GetAvailable method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetAvailable method, IMediaSeeking.GetAvailable, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

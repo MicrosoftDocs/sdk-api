@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawgammacontrol.htm
 tech.root: directdraw
 ms.assetid: a6286a2d-76d5-49ec-afd5-cbf112528db8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], IDirectDrawGammaControl interface [DirectDraw],described, ddraw/IDirectDrawGammaControl, directdraw.idirectdrawgammacontrol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,13 +102,17 @@ You can use the LPDIRECTDRAWGAMMACONTROL data type to declare a variable that co
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirectDrawGammaControl    FAR *LPDIRECTDRAWGAMMACONTROL;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

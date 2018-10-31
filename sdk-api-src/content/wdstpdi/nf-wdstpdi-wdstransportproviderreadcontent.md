@@ -4,10 +4,10 @@ title: WdsTransportProviderReadContent function
 author: windows-sdk-content
 description: Reads content from an open content stream.
 old-location: wds\wdstransportproviderreadcontent.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 2b208871-a623-469b-a5dc-40d0c8009c02
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WdsTransportProviderReadContent, WdsTransportProviderReadContent callback, WdsTransportProviderReadContent callback function [Windows Deployment Services], wds.wdstransportproviderreadcontent, wdstpdi/WdsTransportProviderReadContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

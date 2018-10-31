@@ -7,7 +7,7 @@ old-location: automat\varui1fromdec.htm
 tech.root: automat
 ms.assetid: 9a8a8403-473e-47da-a7ee-11568ae1588f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarUI1FromDec, VarUI1FromDec function [Automation], _oa96_VarUI1FromDec, automat.varui1fromdec, oleauto/VarUI1FromDec
 ms.prod: windows-hardware
 ms.technology: windows-devices

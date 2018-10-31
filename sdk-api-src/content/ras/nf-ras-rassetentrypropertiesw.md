@@ -4,10 +4,10 @@ title: RasSetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,8 +125,8 @@ Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i>
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in 
-      <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interfaces (TAPI)</a> 
+      <a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in 
+      <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
 
@@ -218,7 +218,7 @@ When setting properties for an all-users connection, if the calling application 
     non-<b>NULL</b> value for the phone-book parameter, <i>lpszPhonebook</i>, 
     the phone-book file must be located in the phone-book directory beneath the all-users application data path. To 
     obtain the correct location for the phone-book file, first call 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb762181(v=VS.85).aspx">SHGetFolderPath</a> with a 
+    <a href="_win32_shgetfolderpath_cpp">SHGetFolderPath</a> with a 
     <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:

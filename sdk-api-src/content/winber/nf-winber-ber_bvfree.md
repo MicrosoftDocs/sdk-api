@@ -4,10 +4,10 @@ title: ber_bvfree function
 author: windows-sdk-content
 description: The ber_bvfree function frees a berval structure.
 old-location: ldap\ber_bvfree.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 9e5a4bb9-568d-48ee-be75-952916c021b1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\getgvalue.htm
 tech.root: gdi
 ms.assetid: be989b36-8acb-435b-8d71-1c388c7884f0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

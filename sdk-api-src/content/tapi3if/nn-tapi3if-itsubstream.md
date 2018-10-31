@@ -4,10 +4,10 @@ title: ITSubStream
 author: windows-sdk-content
 description: An ITSubStream is a component of an ITStream, and gives an application finer control over the media streaming.
 old-location: tapi3\itsubstream.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: fc495bc3-1172-4e39-b617-055b7ac95898
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ An
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStream</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITSubStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStream</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITSubStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -156,7 +156,7 @@ Unselects the terminal from the substream.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

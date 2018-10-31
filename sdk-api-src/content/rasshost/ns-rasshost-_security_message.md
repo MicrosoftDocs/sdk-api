@@ -4,10 +4,10 @@ title: "_SECURITY_MESSAGE"
 author: windows-sdk-content
 description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
 old-location: rras\security_message_str.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 7eab7bff-1c72-4382-980f-be4e58d60159
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PSECURITY_MESSAGE, PSECURITY_MESSAGE, PSECURITY_MESSAGE structure pointer [RAS], SECURITYMSG_ERROR, SECURITYMSG_FAILURE, SECURITYMSG_SUCCESS, SECURITY_MESSAGE, SECURITY_MESSAGE structure [RAS], _SECURITY_MESSAGE, _ras_security_message_str, rasshost/PSECURITY_MESSAGE, rasshost/SECURITY_MESSAGE, rras.security_message_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PxePacketFree function
 author: windows-sdk-content
 description: Frees a packet allocated by the PxePacketAllocate function.
 old-location: wds\pxepacketfree.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: de93d42d-9c46-4944-a6e9-5dd72b8a3278
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services], wds.pxepacketfree, wdspxe/PxePacketFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

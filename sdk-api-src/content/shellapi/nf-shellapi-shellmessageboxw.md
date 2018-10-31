@@ -7,7 +7,7 @@ old-location: shell\ShellMessageBox.htm
 tech.root: shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 
 <p class="CCE_Message">[<b>ShellMessageBox</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-<b>ShellMessageBox</b> is a special instance of <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> that provides the option of using the owner window's title as the title of the message box.
+<b>ShellMessageBox</b> is a special instance of <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a> that provides the option of using the owner window's title as the title of the message box.
   
 
 
@@ -93,14 +93,14 @@ A pointer to a null-terminated string that contains either the message to be dis
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string that contains the dialog box title or a resource ID specifying where the title is to be retrieved. If both this parameter and <i>hWnd</i> are <b>NULL</b>, no title is displayed. If this parameter points to a loadable resource formed with the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro, it overrides <i>hWnd</i> as the title.
+A pointer to a null-terminated string that contains the dialog box title or a resource ID specifying where the title is to be retrieved. If both this parameter and <i>hWnd</i> are <b>NULL</b>, no title is displayed. If this parameter points to a loadable resource formed with the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro, it overrides <i>hWnd</i> as the title.
 
 
 ### -param fuStyle [in]
 
 Type: <b>UINT</b>
 
-Specifies the contents and behavior of the dialog box. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>.
+Specifies the contents and behavior of the dialog box. For possible values, see <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>.
 
 
 ### -param arg1 [in]
@@ -114,7 +114,7 @@ A variable argument list that is combined with <i>pszMsg</i> to form the full te
 
 Type: <b>int</b>
 
-An integer value indicating a button that was pressed in the message box. For specific values, see <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>.
+An integer value indicating a button that was pressed in the message box. For specific values, see <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>.
 
 					
 
@@ -128,11 +128,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>
  
 
  

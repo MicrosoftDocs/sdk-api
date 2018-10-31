@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accdefaultaction.htm
 tech.root: WinAuto
 ms.assetid: 1261ff7c-7822-47c1-ac39-536b5ea09f31
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDefaultAction method, IAccessible.get_accDefaultAction, IAccessible::get_accDefaultAction, _msaa_IAccessible_get_accDefaultAction, get_accDefaultAction, get_accDefaultAction method [Windows Accessibility], get_accDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdefaultaction, oleacc/IAccessible::get_accDefaultAction, winauto.iaccessible_iaccessible__get_accdefaultaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,9 +147,13 @@ Only controls that perform actions support this method.
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation of this method for a custom list box. For simplicity, the strings are not localized.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT STDMETHODCALLTYPE AccServer::get_accDefaultAction( 
     VARIANT varChild,
     BSTR *pszDefaultAction)
@@ -169,10 +173,10 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accDefaultAction(
     }
     return S_OK;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

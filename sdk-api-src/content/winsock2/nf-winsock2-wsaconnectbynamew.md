@@ -4,10 +4,10 @@ title: WSAConnectByNameW function
 author: windows-sdk-content
 description: Establishes a connection to a specified host and port.
 old-location: winsock\wsaconnectbyname_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -218,17 +218,21 @@ When the
 
 For example:
 
-
-```cpp
-//Need to #include <mswsock.h> for SO_UPDATE_CONNECT_CONTEXT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//Need to #include &lt;mswsock.h&gt; for SO_UPDATE_CONNECT_CONTEXT
 
 int iResult = 0;
 
 iResult = setsockopt( s, SOL_SOCKET, SO_UPDATE_CONNECT_CONTEXT, NULL, 0 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <b>WSAConnectByName</b> with the <i>timeout</i> parameter set to <b>NULL</b>, Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
 <div> </div>
 <b>Windows Phone 8:</b> The <b>WSAConnectByNameW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.
@@ -240,18 +244,22 @@ iResult = setsockopt( s, SOL_SOCKET, SO_UPDATE_CONNECT_CONTEXT, NULL, 0 );
 
 Establish a connection using <b>WSAConnectByName</b>.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <mswsock.h>   // Need for SO_UPDATE_CONNECT_CONTEXT
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;mswsock.h&gt;   // Need for SO_UPDATE_CONNECT_CONTEXT
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -275,7 +283,7 @@ OpenAndConnect(LPWSTR NodeName, LPWSTR PortName)
     }
 
     iResult = setsockopt(ConnSocket, IPPROTO_IPV6,
-        IPV6_V6ONLY, (char*)&ipv6only, sizeof(ipv6only) );
+        IPV6_V6ONLY, (char*)&amp;ipv6only, sizeof(ipv6only) );
     if (iResult == SOCKET_ERROR){
         wprintf(L"setsockopt for IPV6_V6ONLY failed with error: %d\n",
             WSAGetLastError());
@@ -284,10 +292,10 @@ OpenAndConnect(LPWSTR NodeName, LPWSTR PortName)
     }
 
     bSuccess = WSAConnectByName(ConnSocket, NodeName, 
-            PortName, &dwLocalAddr,
-            (SOCKADDR*)&LocalAddr,
-            &dwRemoteAddr,
-            (SOCKADDR*)&RemoteAddr,
+            PortName, &amp;dwLocalAddr,
+            (SOCKADDR*)&amp;LocalAddr,
+            &amp;dwRemoteAddr,
+            (SOCKADDR*)&amp;RemoteAddr,
             NULL,
             NULL);
     if (!bSuccess){
@@ -321,14 +329,14 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     // Validate the parameters
     if (argc != 3) {
-        wprintf(L"usage: %ws <Nodename> <Portname>\n", argv[0]);
+        wprintf(L"usage: %ws &lt;Nodename&gt; &lt;Portname&gt;\n", argv[0]);
         wprintf(L"wsaconnectbyname establishes a connection to a specified host and port.\n");
         wprintf(L"%ws www.contoso.com 8080\n", argv[0]);
         return 1;
     }
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -356,10 +364,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
         return 0;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

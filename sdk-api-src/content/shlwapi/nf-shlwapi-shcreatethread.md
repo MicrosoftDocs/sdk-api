@@ -7,7 +7,7 @@ old-location: shell\SHCreateThread.htm
 tech.root: shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,19 +105,23 @@ Returns <b>TRUE</b> if the thread is successfully created, or <b>FALSE</b> other
 
                     
 
-
-```
-if (!SHCreateThread(...))
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (!SHCreateThread(...))
 {
     hr = HRESULT_FROM_WIN32( GetLastError() );
 }
 else
 {
     ....
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -129,15 +133,19 @@ The function pointed to by <i>pfnThreadProc</i> and <i>pfnCallback</i> must take
 
 				
 
-
-```
-DWORD WINAPI ThreadProc(LPVOID pData)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DWORD WINAPI ThreadProc(LPVOID pData)
 {
   ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The function name is arbitrary. The <i>pData</i> parameter points to an application-defined data structure with initialization information.
 
 

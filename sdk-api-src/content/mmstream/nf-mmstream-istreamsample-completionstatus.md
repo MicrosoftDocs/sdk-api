@@ -7,7 +7,7 @@ old-location: dshow\istreamsample_completionstatus.htm
 tech.root: DirectShow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

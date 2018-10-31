@@ -7,7 +7,7 @@ old-location: winauto\icocreatelocally_icocreatelocally__cocreatelocally.htm
 tech.root: WinAuto
 ms.assetid: 3a41dd9d-71b3-4d7c-9728-a65f7ddac3d5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CoCreateLocally, CoCreateLocally method [Windows Accessibility], CoCreateLocally method [Windows Accessibility],ICoCreateLocally interface, ICoCreateLocally interface [Windows Accessibility],CoCreateLocally method, ICoCreateLocally.CoCreateLocally, ICoCreateLocally::CoCreateLocally, _msaa_ICoCreateLocally_CoCreateLocally, msaa.icocreatelocally_icocreatelocally__cocreatelocally, msaatext/ICoCreateLocally::CoCreateLocally, winauto.icocreatelocally_icocreatelocally__cocreatelocally
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_CLAIM_SECURITY_ATTRIBUTES_INFORMATION"
 author: windows-sdk-content
 description: Defines the security attributes for the claim.
 old-location: security\claim_security_attributes_information.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: D7D9816E-1ECE-48CA-9F2F-0955572A0FCA
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, PCLAIM_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTES_INFORMATION, security.claim_security_attributes_information, winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION, winnt/PCLAIM_SECURITY_ATTRIBUTES_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ObjectDeleteAuditAlarmA function
 author: windows-sdk-content
 description: Generates audit messages when an object is deleted.
 old-location: security\objectdeleteauditalarm.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cb4c857c-5e63-41fe-8ae8-6762b0014a85
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ObjectDeleteAuditAlarm, ObjectDeleteAuditAlarm function [Security], ObjectDeleteAuditAlarmA, ObjectDeleteAuditAlarmW, _win32_objectdeleteauditalarm, security.objectdeleteauditalarm, winbase/ObjectDeleteAuditAlarm, winbase/ObjectDeleteAuditAlarmA, winbase/ObjectDeleteAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,7 @@ The <b>ObjectDeleteAuditAlarm</b> function requires the calling application to h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

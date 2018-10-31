@@ -4,10 +4,10 @@ title: ImpersonateAnonymousToken function
 author: windows-sdk-content
 description: Enables the specified thread to impersonate the system's anonymous logon token.
 old-location: security\impersonateanonymoustoken.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 98d1072e-f569-4c8c-9254-fa558054c7ec
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ImpersonateAnonymousToken, ImpersonateAnonymousToken function [Security], _win32_impersonateanonymoustoken, security.impersonateanonymoustoken, securitybaseapi/ImpersonateAnonymousToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,7 +104,7 @@ To cancel the impersonation call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

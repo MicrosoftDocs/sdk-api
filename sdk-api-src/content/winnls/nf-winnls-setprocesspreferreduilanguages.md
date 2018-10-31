@@ -7,7 +7,7 @@ old-location: intl\setprocesspreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 81f65561-886d-4c29-aca6-ea69bc865ea0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, SetProcessPreferredUILanguages, SetProcessPreferredUILanguages function [Internationalization for Windows Applications], intl.setprocesspreferreduilanguages, winnls/SetProcessPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,18 +143,22 @@ passed as "0409" and en as "0009".
 <div class="alert"><b>Note</b>  Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID.</div>
 <div> </div>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-
-```cpp
-[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean SetProcessPreferredUILanguages(
             System.UInt32 dwFlags,
             System.String pwszLanguagesBuffer,
             ref System.UInt32 pulNumLanguages
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

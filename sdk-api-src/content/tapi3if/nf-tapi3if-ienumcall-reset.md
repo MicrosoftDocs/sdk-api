@@ -4,10 +4,10 @@ title: IEnumCall::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcall_reset.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9aa41bab-c575-440b-b1ff-bdbdde68da36
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Reset method, IEnumCall.Reset, IEnumCall::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_reset, tapi3.ienumcall_reset, tapi3if/IEnumCall::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\impeg2demultiplexer_createoutputpin.htm
 tech.root: DirectShow
 ms.assetid: fb863b9c-e8da-444a-b50f-37f4fe9d8164
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateOutputPin, CreateOutputPin method [DirectShow], CreateOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],CreateOutputPin method, IMpeg2Demultiplexer.CreateOutputPin, IMpeg2Demultiplexer::CreateOutputPin, IMpeg2DemultiplexerCreateOutputPin, dshow.impeg2demultiplexer_createoutputpin, strmif/IMpeg2Demultiplexer::CreateOutputPin
 ms.prod: windows-hardware
 ms.technology: windows-devices

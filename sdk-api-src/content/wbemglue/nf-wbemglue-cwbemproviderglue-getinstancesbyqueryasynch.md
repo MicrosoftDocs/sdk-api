@@ -79,15 +79,19 @@ Pointer of the instance of the class being provided by the framework provider. T
 
 Pointer to a static function with this prototype.
 
-
-```cpp
-static HRESULT WINAPI Classname::FunctionName(Provider *pProvider,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>static HRESULT WINAPI Classname::FunctionName(Provider *pProvider,
                                               CInstance *pInstance,
                                               MethodContext *pMethodContext,
-                                              void *pUserData );
-```
-
-
+                                              void *pUserData );</pre>
+</td>
+</tr>
+</table></span></div>
 where Classname is the name of a class derived from class <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>.
 
 

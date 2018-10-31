@@ -4,10 +4,10 @@ title: WPUResetEvent function
 author: windows-sdk-content
 description: The WPUResetEvent function resets the state of the specified event object to nonsignaled. This call is safe for use within interrupt context.
 old-location: winsock\wpuresetevent_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">

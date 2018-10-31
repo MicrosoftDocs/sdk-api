@@ -4,10 +4,10 @@ title: D2D1_STRAIGHTEN_SCALE_MODE
 author: windows-sdk-content
 description: Values for the D2D1_STRAIGHTEN_PROP_SCALE_MODE property of the Straighten effect.
 old-location: direct2d\d2d1_straighten_scale_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: EF6831AD-3D79-4A48-ACA5-7B8D80E8BAF3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_STRAIGHTEN_SCALE_MODE, D2D1_STRAIGHTEN_SCALE_MODE enumeration [Direct2D], D2D1_STRAIGHTEN_SCALE_MODE_ANISOTROPIC, D2D1_STRAIGHTEN_SCALE_MODE_CUBIC, D2D1_STRAIGHTEN_SCALE_MODE_LINEAR, D2D1_STRAIGHTEN_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_STRAIGHTEN_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_ANISOTROPIC, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_CUBIC, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_LINEAR, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_straighten_scale_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890747(v=VS.85).aspx">D2D1_STRAIGHTEN_PROP_SCALE_MODE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn900462(v=VS.85).aspx">Straighten effect</a>.
+Values for the <a href="https://msdn.microsoft.com/AD22B649-E4FE-41BD-85FE-B000CCB7F48D">D2D1_STRAIGHTEN_PROP_SCALE_MODE</a> property of the <a href="https://msdn.microsoft.com/aa37cdf1-bbb6-db4e-45a7-67c7cc16b7b4">Straighten effect</a>.
 
 
 ## -enum-fields

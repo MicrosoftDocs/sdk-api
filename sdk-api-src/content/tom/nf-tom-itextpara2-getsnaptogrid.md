@@ -4,10 +4,10 @@ title: ITextPara2::GetSnapToGrid
 author: windows-sdk-content
 description: Gets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_getsnaptogrid.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: ee5fd1d8-cd2d-4674-bb0f-6021a3115aac
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetSnapToGrid, GetSnapToGrid method [Windows Controls], GetSnapToGrid method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetSnapToGrid method, ITextPara2.GetSnapToGrid, ITextPara2::GetSnapToGrid, controls.itextpara2_getsnaptogrid, tom/ITextPara2::GetSnapToGrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Gets whether paragraph lines snap to a vertical grid that could be defined for t
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

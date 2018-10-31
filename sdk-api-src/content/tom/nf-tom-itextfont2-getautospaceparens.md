@@ -4,10 +4,10 @@ title: ITextFont2::GetAutospaceParens
 author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_getautospaceparens.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: fce60349-cded-4cab-b2e5-4fad02d11195
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetAutospaceParens, GetAutospaceParens method [Windows Controls], GetAutospaceParens method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceParens method, ITextFont2.GetAutospaceParens, ITextFont2::GetAutospaceParens, controls.itextfont2_getautospaceparens, tom/ITextFont2::GetAutospaceParens
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Gets the East Asian "autospace parentheses" state.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

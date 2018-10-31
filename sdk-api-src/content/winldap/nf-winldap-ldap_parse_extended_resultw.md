@@ -4,10 +4,10 @@ title: ldap_parse_extended_resultW function
 author: windows-sdk-content
 description: The ldap_parse_extended_result parses the results of an LDAP extended operation.
 old-location: ldap\ldap_parse_extended_result.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: b869c8e9-022c-437c-ba06-cb98a59c8c2d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ldap_parse_extended_result, ldap.ldap__parse__extended__result, ldap.ldap_parse_extended_result, ldap_parse_extended_result, ldap_parse_extended_result function [LDAP], ldap_parse_extended_resultA, ldap_parse_extended_resultW, winldap/ldap_parse_extended_result, winldap/ldap_parse_extended_resultA, winldap/ldap_parse_extended_resultW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

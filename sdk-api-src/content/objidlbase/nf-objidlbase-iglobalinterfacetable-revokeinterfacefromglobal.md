@@ -7,7 +7,7 @@ old-location: com\iglobalinterfacetable_revokeinterfacefromglobal.htm
 tech.root: com
 ms.assetid: 202bf33a-5827-4cbf-b977-86167a9c633f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IGlobalInterfaceTable interface [COM],RevokeInterfaceFromGlobal method, IGlobalInterfaceTable.RevokeInterfaceFromGlobal, IGlobalInterfaceTable::RevokeInterfaceFromGlobal, RevokeInterfaceFromGlobal, RevokeInterfaceFromGlobal method [COM], RevokeInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_revokeinterfacefromglobal, com.iglobalinterfacetable_revokeinterfacefromglobal, objidlbase/IGlobalInterfaceTable::RevokeInterfaceFromGlobal
 ms.prod: windows-hardware
 ms.technology: windows-devices

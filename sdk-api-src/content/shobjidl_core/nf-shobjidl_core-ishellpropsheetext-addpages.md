@@ -7,7 +7,7 @@ old-location: shell\IShellPropSheetExt_AddPages.htm
 tech.root: shell
 ms.assetid: 76a2a94b-b79f-41d1-9e42-fbfda545d12f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IShellPropSheetExt interface, IShellPropSheetExt interface [Windows Shell],AddPages method, IShellPropSheetExt.AddPages, IShellPropSheetExt::AddPages, _win32_IShellPropSheetExt_AddPages, _win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp, shell.IShellPropSheetExt_AddPages, shobjidl_core/IShellPropSheetExt::AddPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Adds one or more pages to a property sheet that the Shell displays for a file ob
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to a function that the property sheet handler calls to add a page to the property sheet. The function takes a property sheet handle returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function and the <i>lParam</i> parameter passed to this method.
+A pointer to a function that the property sheet handler calls to add a page to the property sheet. The function takes a property sheet handle returned by the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function and the <i>lParam</i> parameter passed to this method.
 
 
 ### -param lParam [in]
@@ -88,9 +88,9 @@ If successful, returns a one-based index to specify the page that should be init
 
 
 
-For each page that the property sheet handler needs to add to a property sheet, the handler fills a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure, calls the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function, and then calls the function pointed to by <i>pfnAddPage</i>.
+For each page that the property sheet handler needs to add to a property sheet, the handler fills a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure, calls the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function, and then calls the function pointed to by <i>pfnAddPage</i>.
 
-The <b>LPFNADDPROPSHEETPAGE</b> function pointer type is defined in Prsht.h as shown here. It accepts a handle to a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure and function-defined data through <i>lParam</i>.
+The <b>LPFNADDPROPSHEETPAGE</b> function pointer type is defined in Prsht.h as shown here. It accepts a handle to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure and function-defined data through <i>lParam</i>.
 
                 
 

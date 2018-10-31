@@ -7,7 +7,7 @@ old-location: com\ienumguid.htm
 tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,9 @@ Enables clients to enumerate through a collection of class IDs for COM classes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGUID</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumGUID</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGUID</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumGUID</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IEnumGUID</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683768(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/5b12adf2-c2fe-4499-ab2a-94af6337e4a2">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -80,7 +80,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms693415(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/d32e02c7-1109-40cc-bf36-d224fa59fe20">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -89,7 +89,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683887(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/5f31c45a-c7a2-4cdc-a468-76a31a9ba1e9">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -98,7 +98,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms688533(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/8c3b955b-ba36-4bab-af89-fc89e08e6e94">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.

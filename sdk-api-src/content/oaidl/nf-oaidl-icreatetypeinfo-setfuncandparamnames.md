@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setfuncandparamnames.htm
 tech.root: automat
 ms.assetid: e3764917-43ea-4151-95da-e01946a2ebb7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method, ICreateTypeInfo.SetFuncAndParamNames, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

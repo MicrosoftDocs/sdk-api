@@ -7,7 +7,7 @@ old-location: shell\PathCchRenameExtension.htm
 tech.root: shell
 ms.assetid: 79cd9499-03b7-4482-abd3-a42edd1b2b67
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PathCchRenameExtension, PathCchRenameExtension function [Windows Shell], pathcch/PathCchRenameExtension, shell.PathCchRenameExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

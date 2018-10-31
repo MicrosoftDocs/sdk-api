@@ -4,10 +4,10 @@ title: "_PPP_NBFCP_INFO"
 author: windows-sdk-content
 description: The PPP_NBFCP_INFO structure contains the result of a PPP NetBEUI Framer (NBF) projection operation.
 old-location: rras\ppp_nbfcp_info.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 376c662d-c0e1-4136-937c-47a4681c14ec
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PPP_NBFCP_INFO, PPP_NBFCP_INFO structure [RAS], _PPP_NBFCP_INFO, _mpr_ppp_nbfcp_info, mprapi/PPP_NBFCP_INFO, rras.ppp_nbfcp_info
 ms.prod: windows
 ms.technology: windows-sdk

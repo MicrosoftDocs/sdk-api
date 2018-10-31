@@ -1,0 +1,118 @@
+---
+UID: NF:memoryapi.UnmapViewOfFile2
+title: UnmapViewOfFile2 function
+author: windows-sdk-content
+description: Unmaps a previously mapped view of a file or a pagefile-backed section.
+old-location: base\unmapviewoffile2.htm
+tech.root: memory
+ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7
+ms.author: windowssdkdev
+ms.date: 10/30/2018
+ms.keywords: UnmapViewOfFile2, UnmapViewOfFile2 function, base.unmapviewoffile2, winbase/UnmapViewOfFile2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: memoryapi.h
+req.include-header: Windows.h, Memoryapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - UnmapViewOfFile2
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# UnmapViewOfFile2 function
+
+
+## -description
+
+
+Unmaps a previously mapped view of a file or a
+    pagefile-backed section.
+
+
+## -parameters
+
+
+
+
+### -param Process
+
+TBD
+
+
+### -param BaseAddress [in]
+
+The base address of a previously mapped
+                  view that is to be unmapped.  This value must be
+                  identical to the value returned by a previous call
+                  to <a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a>.
+
+
+### -param UnmapFlags [in]
+
+<b>MEM_UNMAP_WITH_TRANSIENT_BOOST</b> or zero (0).
+
+<b>MEM_UNMAP_WITH_TRANSIENT_BOOST</b> should be used if the
+                 pages backing this view should be temporarily boosted
+                 (with automatic short term decay) because another thread
+                 will access them shortly.
+
+
+#### - ProcessHandle [in]
+
+A <b>HANDLE</b> to the process from which the section
+                    will be unmapped.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if sucessful. Otherwise, returns <b>FALSE</b> and extended error status is available
+            using <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/2e9c3174-af48-4fa3-9f6a-fb62b23ed994">UnmapViewOfFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/1C86075D-17B8-481E-BDF0-6E5A8F55C188">UnmapViewOfFileEx</a>
+ 
+
+ 
+

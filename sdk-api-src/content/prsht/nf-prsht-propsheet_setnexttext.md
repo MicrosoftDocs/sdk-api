@@ -4,10 +4,10 @@ title: PropSheet_SetNextText macro
 author: windows-sdk-content
 description: Sets the text of the Next button in a wizard. You can use this macro or send the PSM_SETNEXTTEXT message explicitly.
 old-location: controls\PropSheet_SetNextText.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setnexttext.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: PropSheet_SetNextText, PropSheet_SetNextText macro [Windows Controls], _shell_PropSheet_SetNextText, _shell_PropSheet_SetNextText_cpp, controls.PropSheet_SetNextText, controls._shell_PropSheet_SetNextText, prsht/PropSheet_SetNextText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the text of the <b>Next</b> button in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774625(v=VS.85).aspx">PSM_SETNEXTTEXT</a> message explicitly.
+Sets the text of the <b>Next</b> button in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/4608425e-1724-4d0b-b0f6-9fec147a85f6">PSM_SETNEXTTEXT</a> message explicitly.
 
 
 ## -parameters

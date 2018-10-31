@@ -7,7 +7,7 @@ old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__newdocument.htm
 tech.root: WinAuto
 ms.assetid: 8bac6081-3b4e-45df-a900-66bc037a232f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],NewDocument method, IAccServerDocMgr.NewDocument, IAccServerDocMgr::NewDocument, NewDocument, NewDocument method [Windows Accessibility], NewDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_NewDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__newdocument, msaatext/IAccServerDocMgr::NewDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__newdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetEffectiveRightsFromAclW function
 author: windows-sdk-content
 description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
 old-location: security\geteffectiverightsfromacl.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,17 +117,21 @@ The <b>GetEffectiveRightsFromAcl</b> function fails and returns <b>ERROR_INVALID
 
 The following example shows using <a href="https://msdn.microsoft.com/83df96ff-f3d6-43f8-88b2-6387914b3503">Authz API</a> to get effective access rights from an ACL.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 //  Copyright (C) Microsoft. All rights reserved.
 
-#include <windows.h>
-#include <stdio.h>
-#include <aclapi.h>
-#include <tchar.h>
-#include <strsafe.h> // for proper buffer handling
-#include <authz.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;aclapi.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;strsafe.h&gt; // for proper buffer handling
+#include &lt;authz.h&gt;
 
 #pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "authz.lib")
@@ -151,10 +155,10 @@ PSID ConvertNameToBinarySid(LPTSTR pAccountName)
             lpServerName,      // look up on local system
             pAccountName,
             pSid,              // buffer to receive name
-            &dwSidSize,
+            &amp;dwSidSize,
             pDomainName,
-            &dwDomainNameSize,
-            &sidType);
+            &amp;dwDomainNameSize,
+            &amp;sidType);
       
       //  If the Name cannot be resolved, LookupAccountName will fail with
       //  ERROR_NONE_MAPPED.
@@ -183,10 +187,10 @@ PSID ConvertNameToBinarySid(LPTSTR pAccountName)
                lpServerName,      // look up on local system
                pAccountName,
                pSid,              // buffer to receive name
-               &dwSidSize,
+               &amp;dwSidSize,
                pDomainName,
-               &dwDomainNameSize,
-               &sidType))
+               &amp;dwDomainNameSize,
+               &amp;sidType))
          {
             wprintf_s(_T("LookupAccountName failed with %d\n"), GetLastError());
             __leave;
@@ -233,7 +237,7 @@ void DisplayError(char* pszAPI, DWORD dwError)
    if (!FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_HMODULE | FORMAT_MESSAGE_FROM_SYSTEM,
               GetModuleHandle(L"Kernel32.dll"), dwError, 
               MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),  // the user default language
-              (LPTSTR)&lpvMessageBuffer, 0, NULL))
+              (LPTSTR)&amp;lpvMessageBuffer, 0, NULL))
    {
       wprintf_s(L"FormatMessage failed with %d\n", GetLastError());
       ExitProcess(GetLastError());
@@ -256,20 +260,20 @@ void DisplayAccessMask(ACCESS_MASK Mask)
       // Applications should evaluate the ACCESS_MASK as necessary.
 
    wprintf_s(L"Effective Allowed Access Mask : %8X\n", Mask);
-   if (((Mask & GENERIC_ALL) == GENERIC_ALL)
-      || ((Mask & FILE_ALL_ACCESS) == FILE_ALL_ACCESS))
+   if (((Mask &amp; GENERIC_ALL) == GENERIC_ALL)
+      || ((Mask &amp; FILE_ALL_ACCESS) == FILE_ALL_ACCESS))
    {
          wprintf_s(L"Full Control\n");
          return;
    }
-   if (((Mask & GENERIC_READ) == GENERIC_READ)
-      || ((Mask & FILE_GENERIC_READ) == FILE_GENERIC_READ))
+   if (((Mask &amp; GENERIC_READ) == GENERIC_READ)
+      || ((Mask &amp; FILE_GENERIC_READ) == FILE_GENERIC_READ))
          wprintf_s(L"Read\n");
-   if (((Mask & GENERIC_WRITE) == GENERIC_WRITE)
-      || ((Mask & FILE_GENERIC_WRITE) == FILE_GENERIC_WRITE))
+   if (((Mask &amp; GENERIC_WRITE) == GENERIC_WRITE)
+      || ((Mask &amp; FILE_GENERIC_WRITE) == FILE_GENERIC_WRITE))
          wprintf_s(L"Write\n");
-   if (((Mask & GENERIC_EXECUTE) == GENERIC_EXECUTE)
-      || ((Mask & FILE_GENERIC_EXECUTE) == FILE_GENERIC_EXECUTE))
+   if (((Mask &amp; GENERIC_EXECUTE) == GENERIC_EXECUTE)
+      || ((Mask &amp; FILE_GENERIC_EXECUTE) == FILE_GENERIC_EXECUTE))
          wprintf_s(L"Execute\n");
 
 }
@@ -296,12 +300,12 @@ void GetAccess(AUTHZ_CLIENT_CONTEXT_HANDLE hAuthzClient, PSECURITY_DESCRIPTOR ps
 
    if (!AuthzAccessCheck( 0,
                           hAuthzClient,
-                          &AccessRequest,
+                          &amp;AccessRequest,
                           NULL,
                           psd,
                           NULL,
                           0,
-                          &AccessReply,
+                          &amp;AccessReply,
                           NULL) ) {
       wprintf_s(_T("AuthzAccessCheck failed with %d\n"), GetLastError());
    }
@@ -329,7 +333,7 @@ BOOL GetEffectiveRightsForUser(AUTHZ_RESOURCE_MANAGER_HANDLE hManager,
          NULL,
          unusedId,
          NULL,
-         &hAuthzClientContext);
+         &amp;hAuthzClientContext);
       if (bResult)
       {
          GetAccess(hAuthzClientContext, psd);
@@ -353,7 +357,7 @@ void UseAuthzSolution(PSECURITY_DESCRIPTOR psd, LPTSTR lpszUserName)
    BOOL bResult = FALSE;
 
    bResult = AuthzInitializeResourceManager(AUTHZ_RM_FLAG_NO_AUDIT,
-      NULL, NULL, NULL, NULL, &hManager);
+      NULL, NULL, NULL, NULL, &amp;hManager);
    if (bResult)
    {
       bResult = GetEffectiveRightsForUser(hManager, psd, lpszUserName);
@@ -381,7 +385,7 @@ void wmain(int argc, wchar_t *argv[])
 
     dw = GetNamedSecurityInfo(argv[1], SE_FILE_OBJECT, DACL_SECURITY_INFORMATION | 
       OWNER_SECURITY_INFORMATION |
-      GROUP_SECURITY_INFORMATION, NULL, NULL, &pacl, NULL, &psd);
+      GROUP_SECURITY_INFORMATION, NULL, NULL, &amp;pacl, NULL, &amp;psd);
    if (dw != ERROR_SUCCESS)
    {  printf("couldn't do getnamedsecinfo \n");
       DisplayError("GetNamedSecurityInfo", dw);
@@ -399,10 +403,10 @@ void wmain(int argc, wchar_t *argv[])
 
    LocalFree(psd);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -435,7 +439,7 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

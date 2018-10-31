@@ -4,10 +4,10 @@ title: NdrDllGetClassObject function
 author: windows-sdk-content
 description: The NdrDllGetClassObject function retrieves the class object of the proxy or stub.
 old-location: rpc\ndrdllgetclassobject.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 322e0a8c-1eda-4148-a7cc-7f7fd7bf0b6f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: NdrDllGetClassObject, NdrDllGetClassObject function [RPC], rpc.ndrdllgetclassobject, rpcproxy/NdrDllGetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Class identifier of the proxy or stub to retrieve.
 
 ### -param riid [in]
 
-Interface identifier of the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">IPSFactoryBuffer</a> interface.
+Interface identifier of the <a href="_com_ipsfactorybuffer">IPSFactoryBuffer</a> interface.
 
 
 ### -param ppv [out]
@@ -85,7 +85,7 @@ Pointer to the class identifier of the proxy or stub. Specify <i>pclsid</i> if t
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">IPSFactoryBuffer</a> object.  The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
+Pointer to the <a href="_com_ipsfactorybuffer">IPSFactoryBuffer</a> object.  The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: AccessCheckByType function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheckbytype.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 50acfc17-459d-464c-9927-88b32dd424c7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AccessCheckByType, AccessCheckByType function [Security], _win32_accesscheckbytype, security.accesscheckbytype, securitybaseapi/AccessCheckByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -208,7 +208,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

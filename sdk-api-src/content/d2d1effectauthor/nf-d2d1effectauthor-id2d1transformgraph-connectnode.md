@@ -4,10 +4,10 @@ title: ID2D1TransformGraph::ConnectNode
 author: windows-sdk-content
 description: Connects two nodes inside the transform graph.
 old-location: direct2d\id2d1transformgraph_connectnode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 59C7A366-804F-4CB3-A8CB-8617F226CE6B
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: ConnectNode, ConnectNode method [Direct2D], ConnectNode method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],ConnectNode method, ID2D1TransformGraph.ConnectNode, ID2D1TransformGraph::ConnectNode, d2d1effectauthor/ID2D1TransformGraph::ConnectNode, direct2d.id2d1transformgraph_connectnode
 ms.prod: windows-hardware
 ms.technology: windows-devices

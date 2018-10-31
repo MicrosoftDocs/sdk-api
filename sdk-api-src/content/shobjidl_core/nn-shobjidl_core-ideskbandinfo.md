@@ -7,7 +7,7 @@ old-location: shell\IDeskBandInfo.htm
 tech.root: shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandInfo interface [Windows Shell],described, _shell_IDeskBandInfo, shell.IDeskBandInfo, shobjidl_core/IDeskBandInfo
 ms.prod: windows
 ms.technology: windows-sdk

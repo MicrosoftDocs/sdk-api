@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_userfree64.htm
 tech.root: automat
 ms.assetid: 79D73C90-4F31-4F18-B47D-2FBB4D9ED45C
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPSAFEARRAY_UserFree64, LPSAFEARRAY_UserFree64 function [Automation], automat.lpsafearray_userfree64, wia_xp/LPSAFEARRAY_UserFree64
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dquery9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: 6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], IDirect3DQuery9 interface [Direct3D 9],described, d3d9helper/IDirect3DQuery9, direct3d9.idirect3dquery9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,16 +71,16 @@ The <b>IDirect3DQuery9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205873(v=VS.85).aspx">GetData</a>
+<a href="https://msdn.microsoft.com/5363b5a4-6ac1-4f4e-8d64-949968d2a08a">GetData</a>
 </td>
 <td align="left" width="63%">
-Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/en-us/library/Bb147308(v=VS.85).aspx">Queries (Direct3D 9)</a>.
+Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205874(v=VS.85).aspx">GetDataSize</a>
+<a href="https://msdn.microsoft.com/3caddccc-3ed9-4dd7-94b7-ab41324a71e3">GetDataSize</a>
 </td>
 <td align="left" width="63%">
 Gets the number of bytes in the query data.
@@ -89,7 +89,7 @@ Gets the number of bytes in the query data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205875(v=VS.85).aspx">GetDevice</a>
+<a href="https://msdn.microsoft.com/a686b8b1-d2ec-41cd-ad28-caad46d20fc2">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device that is being queried.
@@ -98,7 +98,7 @@ Gets the device that is being queried.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205876(v=VS.85).aspx">GetType</a>
+<a href="https://msdn.microsoft.com/292431c4-33d6-477c-943c-fa90503b5f46">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the query type.
@@ -107,7 +107,7 @@ Gets the query type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205877(v=VS.85).aspx">Issue</a>
+<a href="https://msdn.microsoft.com/8b9a9b1d-bc00-4961-b8ed-edbbf4e64fda">Issue</a>
 </td>
 <td align="left" width="63%">
 Issue a query.
@@ -125,12 +125,16 @@ The LPDIRECT3DQUERY9 and PDIRECT3DQUERY9 types are defined as pointers to the <b
     
             
 
-
-```
-typedef struct IDirect3DQuery9 *LPDIRECT3DQUERY9, *PDIRECT3DQUERY9;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct IDirect3DQuery9 *LPDIRECT3DQUERY9, *PDIRECT3DQUERY9;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

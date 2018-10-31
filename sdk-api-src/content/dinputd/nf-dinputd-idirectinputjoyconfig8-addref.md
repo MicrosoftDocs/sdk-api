@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_addref.htm
 tech.root: hid
 ms.assetid: 04e10558-367e-495c-aa1a-43344f803c8a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: AddRef, AddRef method [Human Input Devices], AddRef method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],AddRef method, IDirectInputJoyConfig8.AddRef, IDirectInputJoyConfig8::AddRef, di_ref_5b8306ac-22f0-48f9-af91-a83d6bd8b936.xml, dinputd/IDirectInputJoyConfig8::AddRef, hid.idirectinputjoyconfig8_addref
 ms.prod: windows-hardware
 ms.technology: windows-devices
