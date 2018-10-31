@@ -136,7 +136,7 @@ The following example marks the DACL as not protected.
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

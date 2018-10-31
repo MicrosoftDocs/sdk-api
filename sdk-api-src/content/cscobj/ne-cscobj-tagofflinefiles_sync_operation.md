@@ -103,7 +103,7 @@ Operation was preparing for the synchronization.  Preparation involves obtaining
 
 
 
-<a href="https://msdn.microsoft.com/21973fb8-26f9-40a0-bb9a-d9c5ff6924e7">IOfflineFilesSyncErrorInfo::GetSyncOperation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530630(v=VS.85).aspx">IOfflineFilesSyncErrorInfo::GetSyncOperation</a>
  
 
  

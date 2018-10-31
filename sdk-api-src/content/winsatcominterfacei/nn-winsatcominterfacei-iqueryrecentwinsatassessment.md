@@ -54,7 +54,7 @@ req.redist:
 
 Retrieves details about the results of the most recent formal WinSAT assessment.
 
-To retrieve this interface, call the <a href="_com_cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryWinSAT) as the class identifier and __uuidof(IQueryRecentWinSATAssessment) as the interface identifier.
+To retrieve this interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function. Use __uuidof(CQueryWinSAT) as the class identifier and __uuidof(IQueryRecentWinSATAssessment) as the interface identifier.
 
 
 ## -see-also

@@ -78,7 +78,7 @@ The incoming job has been received, and is now in routing mode (modem is not use
 
 
 
-<a href="https://msdn.microsoft.com/30e91faa-7682-411c-b57d-b4d2823f47b0">IFaxJobStatus::get_JobType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687451(v=VS.85).aspx">IFaxJobStatus::get_JobType</a>
  
 
  

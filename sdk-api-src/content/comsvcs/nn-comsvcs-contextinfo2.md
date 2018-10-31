@@ -50,16 +50,16 @@ req.redist:
 ## -description
 
 
- Provides additional information about an object's context, supplementing the information that is available through the <a href="https://msdn.microsoft.com/ef8d7ef7-fae4-4a20-80fb-18f5daa9b564">ContextInfo</a> interface.
+ Provides additional information about an object's context, supplementing the information that is available through the <a href="https://msdn.microsoft.com/en-us/library/ms687780(v=VS.85).aspx">ContextInfo</a> interface.
 
-<b>ContextInfo2</b> and <a href="https://msdn.microsoft.com/21e078d2-ba93-4118-b1d1-3b4b6e0e28a4">IObjectContextInfo2</a> provide the same functionality, but unlike <b>IObjectContextInfo2</b>, <b>ContextInfo2</b> is compatible with Automation.
+<b>ContextInfo2</b> and <a href="https://msdn.microsoft.com/en-us/library/ms679257(v=VS.85).aspx">IObjectContextInfo2</a> provide the same functionality, but unlike <b>IObjectContextInfo2</b>, <b>ContextInfo2</b> is compatible with Automation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo2</b> interface inherits from <a href="https://msdn.microsoft.com/ef8d7ef7-fae4-4a20-80fb-18f5daa9b564">ContextInfo</a>. <b>ContextInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms687780(v=VS.85).aspx">ContextInfo</a>. <b>ContextInfo2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fc5cffe-a532-4084-8b6c-9812a5b117b2">GetApplicationId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685065(v=VS.85).aspx">GetApplicationId</a>
 </td>
 <td align="left" width="63%">
  Retrieves the GUID of the application of the current object context.
@@ -81,7 +81,7 @@ The <b>ContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77149329-db3a-4ff4-a522-c290c2d0a915">GetApplicationInstanceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682799(v=VS.85).aspx">GetApplicationInstanceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the application instance of the current object context.
@@ -90,7 +90,7 @@ Retrieves the GUID of the application instance of the current object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4cda75d-a4f3-404e-965a-9c1487946ee1">GetPartitionId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686048(v=VS.85).aspx">GetPartitionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the COM+ partition of the current object context.
@@ -105,27 +105,27 @@ Retrieves the GUID of the COM+ partition of the current object context.
 
 
 
-<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681289(v=VS.85).aspx">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd22a64c-f2d8-48af-86e1-985e21b0f8fa">COM+ Partitions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688501(v=VS.85).aspx">COM+ Partitions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef8d7ef7-fae4-4a20-80fb-18f5daa9b564">ContextInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687780(v=VS.85).aspx">ContextInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684253(v=VS.85).aspx">IObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/21e078d2-ba93-4118-b1d1-3b4b6e0e28a4">IObjectContextInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679257(v=VS.85).aspx">IObjectContextInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678909(v=VS.85).aspx">ObjectContext</a>
  
 
  

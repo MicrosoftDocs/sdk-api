@@ -64,9 +64,9 @@ The <b>Install</b> method installs a role as configured in the <b>CCertSrvSetup<
 
 
 
-The <a href="https://msdn.microsoft.com/dff7e2e2-291a-4ea9-858a-8d98d96f79ac">InitializeDefaults</a> method must be called before calling this or any other method on a <b>CCertSrvSetup</b> object.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb736394(v=VS.85).aspx">InitializeDefaults</a> method must be called before calling this or any other method on a <b>CCertSrvSetup</b> object.
 
-Unless the key already exists, the <b>Install</b> method creates a key for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificate. If the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) requires interaction, it prompts the user. 
+Unless the key already exists, the <b>Install</b> method creates a key for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) certificate. If the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) requires interaction, it prompts the user. 
 
 
 
@@ -76,7 +76,7 @@ Unless the key already exists, the <b>Install</b> method creates a key for the <
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
  
 
  

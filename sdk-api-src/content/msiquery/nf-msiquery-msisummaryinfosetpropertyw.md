@@ -112,7 +112,7 @@ The
 
 
 
-<a href="database_functions.htm">Summary Information Property Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
 
 
 

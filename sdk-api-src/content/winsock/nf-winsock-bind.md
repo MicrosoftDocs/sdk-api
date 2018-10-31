@@ -90,7 +90,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +102,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ the <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">se
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRINUSE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ This error is returned if a process on the computer is already bound to the same
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ This error is returned if the specified address pointed to by the <i>name</i> pa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ This error is returned if the <i>name</i> parameter is NULL, the <i>name</i> or 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -177,7 +177,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -190,7 +190,7 @@ This error is returned of the socket <i>s</i> is already bound to an address.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -203,7 +203,7 @@ This error is returned of not enough buffers are available or there are too many
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

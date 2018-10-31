@@ -88,11 +88,11 @@ Pointer to an array that contains the error message or message box display text.
 
 
 
-<a href="https://msdn.microsoft.com/573f22be-d204-4c0d-9c45-bd6d46094e32">MESSAGE_RESOURCE_BLOCK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648020(v=VS.85).aspx">MESSAGE_RESOURCE_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/439cf64e-29be-49ab-8bbf-cb98ac2e41cd">MESSAGE_RESOURCE_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648021(v=VS.85).aspx">MESSAGE_RESOURCE_DATA</a>
 
 
 
@@ -100,7 +100,7 @@ Pointer to an array that contains the error message or message box display text.
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
  
 
  

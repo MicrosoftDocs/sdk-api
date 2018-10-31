@@ -63,7 +63,7 @@ The <b>FontFamily::IsStyleAvailable</b> method determines whether the specified 
 
 Type: <b>INT</b>
 
-Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/de08c779-1f43-4740-b2b9-8d3906dc4432">FontStyle</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. For example, <code>FontStyleBold | FontStyleUnderline | FontStyleStrikeout </code> specifies a combination of the three styles. 
+Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. For example, <code>FontStyleBold | FontStyleUnderline | FontStyleStrikeout </code> specifies a combination of the three styles. 
 
 
 ## -returns
@@ -89,7 +89,7 @@ This method returns a misleading result on some third-party fonts. For example, 
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> object. If the font family has a regular style available, the example draws text.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object. If the font family has a regular style available, the example draws text.
 
 
 ```cpp
@@ -125,15 +125,15 @@ VOID Example_IsStyleAvailable(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/ae12afcf-12cc-4c84-9aba-de56fc39437b">Creating a Private Font Collection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533820(v=VS.85).aspx">Creating a Private Font Collection</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/de08c779-1f43-4740-b2b9-8d3906dc4432">FontStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
  
 
  

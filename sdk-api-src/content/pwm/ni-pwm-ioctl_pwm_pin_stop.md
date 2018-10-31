@@ -51,7 +51,7 @@ req.redist:
 
 
 
-Stops generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use <a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>.
+Stops generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use <a href="https://msdn.microsoft.com/en-us/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a>.
 
 
 

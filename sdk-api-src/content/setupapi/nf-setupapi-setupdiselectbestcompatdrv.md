@@ -60,7 +60,7 @@ The <b>SetupDiSelectBestCompatDrv</b> function is the default handler for the <a
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to select the best compatible driver.
+A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to select the best compatible driver.
 
 
 ### -param DeviceInfoData [in, out]
@@ -83,7 +83,7 @@ If the operation succeeds, <b>SetupDiSelectBestCompatDrv</b> returns <b>TRUE</b>
 
 If the caller of <b>SetupDiSelectBestCompatDrv</b> is a member of the Administrators group and the class of the device is different that the class of the selected driver, <b>SetupDiSelectBestCompatDrv</b> sets the class of the device to the class of the driver. If this behavior is not desired, call this function at a lower privilege level. 
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiSelectBestCompatDrv</b> and only in those situations where the class installer must perform driver selection operations after <b>SetupDiSelectBestCompatDrv</b> completes the default driver selection operation. In such situations, the class installer must directly call <b>SetupDiSelectBestCompatDrv</b> when the installer processes a DIF_SELECTBESTCOMPATDRV request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiSelectBestCompatDrv</b> and only in those situations where the class installer must perform driver selection operations after <b>SetupDiSelectBestCompatDrv</b> completes the default driver selection operation. In such situations, the class installer must directly call <b>SetupDiSelectBestCompatDrv</b> when the installer processes a DIF_SELECTBESTCOMPATDRV request. For more information about calling the default handler, see <a href="https://msdn.microsoft.com/library/Ff537868(v=VS.85).aspx">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 <b>SetupDiSelectBestCompatDrv </b>is primarily designed to select the best compatible driver for a device information element on a local computer. Although <b>SetupDiSelectBestCompatDrv </b>will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used as input with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations for a remote computer. In particular, the device information set cannot subsequently be used as input with a DIF_INSTALLDEVICE installation request to install a device on a remote computer.
 

@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Extracts the value of a Boolean property from a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure. If no value can be extracted, then a default value is assigned.
+Extracts the value of a Boolean property from a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure. If no value can be extracted, then a default value is assigned.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Extracts the value of a Boolean property from a <a href="e305240e-9e11-4006-98cc
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+Reference to a source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ### -param pfRet [out]
@@ -87,16 +87,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used when the calling application expects a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to hold a Boolean value. For instance, an application that obtains values from a Shell folder can use this function to safely extract the value from one of the folder's Boolean properties.
+This helper function is used when the calling application expects a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> to hold a Boolean value. For instance, an application that obtains values from a Shell folder can use this function to safely extract the value from one of the folder's Boolean properties.
 
-If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_BOOL, this function extracts the <b>BOOL</b> value.
+If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is of type VT_BOOL, this function extracts the <b>BOOL</b> value.
 
-If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is not of type VT_BOOL, this function attempts to convert the value in the <b>VARIANT</b> structure into a <b>BOOL</b>. If a conversion is not possible, <a href="shell.VariantToBoolean">VariantToBoolean</a> returns a failure code and sets <i>pfRet</i> to <b>FALSE</b>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to <b>FALSE</b>.
+If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is not of type VT_BOOL, this function attempts to convert the value in the <b>VARIANT</b> structure into a <b>BOOL</b>. If a conversion is not possible, <a href="https://msdn.microsoft.com/en-us/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a> returns a failure code and sets <i>pfRet</i> to <b>FALSE</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to <b>FALSE</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBoolean">VariantToBoolean</a> to access a <b>BOOL</b> value in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a> to access a <b>BOOL</b> value in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>.
 
 
 ```cpp
@@ -126,19 +126,19 @@ else
 
 
 
-<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToBoolean">PropVariantToBoolean</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776531(v=VS.85).aspx">PropVariantToBoolean</a>
 
 
 
-<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
  
 
  

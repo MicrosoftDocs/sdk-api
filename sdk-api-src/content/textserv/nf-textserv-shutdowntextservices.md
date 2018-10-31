@@ -62,7 +62,7 @@ Disconnects a host from a text services instance.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-A text services instance created by a previous call to the <a href="https://msdn.microsoft.com/475ede7d-75ba-4eda-8253-1166fc9f45fe">CreateTextServices</a> function.
+A text services instance created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function.
 
 
 ## -returns
@@ -111,7 +111,7 @@ A host calls this function when the host is being freed. Calling this function i
 
 
 
-<a href="https://msdn.microsoft.com/475ede7d-75ba-4eda-8253-1166fc9f45fe">CreateTextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a>
  
 
  

@@ -89,12 +89,12 @@ Returns extracted <b>unsigned short</b> value, or default.
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a  <b>unsigned short</b>   value. For instance, an application obtaining values from a property store can use this to safely extract the  <b>unsigned short</b>  value for UInt16 properties.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_UI2</b>, this helper function extracts the <b>unsigned short</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>unsigned short</b>. If a conversion is not possible, <a href="shell.PropVariantToUInt16">PropVariantToUInt16</a> will return a failure code and set <i>puiRet</i> to 0. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to 0.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_UI2</b>, this helper function extracts the <b>unsigned short</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>unsigned short</b>. If a conversion is not possible, <a href="https://msdn.microsoft.com/en-us/library/Bb776565(v=VS.85).aspx">PropVariantToUInt16</a> will return a failure code and set <i>puiRet</i> to 0. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to 0.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt16">PropVariantToUInt16</a> to access a <b>unsigned short</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776565(v=VS.85).aspx">PropVariantToUInt16</a> to access a <b>unsigned short</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 
 ```cpp
@@ -148,19 +148,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToUInt16Vector">PropVariantToUInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776566(v=VS.85).aspx">PropVariantToUInt16Vector</a>
 
 
 
-<a href="shell.VariantToUInt16">VariantToUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776623(v=VS.85).aspx">VariantToUInt16</a>
  
 
  

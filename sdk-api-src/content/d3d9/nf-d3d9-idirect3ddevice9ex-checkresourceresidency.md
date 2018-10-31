@@ -61,9 +61,9 @@ Checks an array of resources to determine if it is likely that they will cause a
 
 ### -param pResourceArray [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>**</b>
 
-An array of <a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a> pointers that indicate the resources to check.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a> pointers that indicate the resources to check.
 
 
 ### -param NumResources [in]
@@ -77,7 +77,7 @@ A value indicating the number of resources passed into the <i>pResourceArray</i>
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If all the resources are in GPU-accessible memory, the method will return S_OK. The system may need to perform a remapping operation to promote the resources, but will not have to copy data.
 
@@ -96,7 +96,7 @@ This API is no more than a reasonable guess at residency, since resources may ha
 
 The expected usage pattern is as follows. If the application determines that a set of resources are not resident, then the application will substitute a lower-LOD version of the resource and continue with rendering. The video memory manager API, offers a feature to allow the application to express that it would like these lower-LOD resources to be made more likely to stay resident in GPU-accessible memory. It is the app's responsibility to create, fill and destroy these lower-LOD versions, if it so chooses.
 
-The application also needs to begin promotion of the higher-LOD versions when the residency check indicates that the resource is not resident in GPU-accessible memory. Since a per-process lock exists in kernel mode, a performant implementation will spawn a separate process whose sole job is to promote resources. The application communicates resource identity between the two process by means of the <a href="https://msdn.microsoft.com/3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5">Sharing Resources</a> shared surfaces API and promotes them by means of the <a href="https://msdn.microsoft.com/4c5b5e86-a0f4-42be-a082-ea645faaa6b3">SetPriority</a>.
+The application also needs to begin promotion of the higher-LOD versions when the residency check indicates that the resource is not resident in GPU-accessible memory. Since a per-process lock exists in kernel mode, a performant implementation will spawn a separate process whose sole job is to promote resources. The application communicates resource identity between the two process by means of the <a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">Sharing Resources</a> shared surfaces API and promotes them by means of the <a href="https://msdn.microsoft.com/en-us/library/Bb205885(v=VS.85).aspx">SetPriority</a>.
 
 
 
@@ -106,7 +106,7 @@ The application also needs to begin promotion of the higher-LOD versions when th
 
 
 
-<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
  
 
  

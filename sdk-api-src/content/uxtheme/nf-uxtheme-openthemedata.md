@@ -103,7 +103,7 @@ Class names for the Aero theme are defined in AeroStyle.xml.
 
 
 
-<a href="https://msdn.microsoft.com/e9927fff-8d30-4180-a34f-ac71ccf02519">CloseThemeData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773287(v=VS.85).aspx">CloseThemeData</a>
  
 
  

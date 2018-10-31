@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Value</b> property retrieves a string that contains the dotted decimal <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). This property is web enabled.
+The <b>Value</b> property retrieves a string that contains the dotted decimal <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID). This property is web enabled.
 
 This property is read-only.
 
@@ -67,23 +67,23 @@ The dotted decimal format is discussed in the ASN.1 X.208 specification. For exa
 
 You must call any of the following methods before you can retrieve this property value:<ul>
 <li>
-<a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376796(v=VS.85).aspx">InitializeFromAlgorithmName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/dce84308-aecc-4841-88da-e948313b90b3">InitializeFromName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376797(v=VS.85).aspx">InitializeFromName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2bb2ee69-02c3-41b9-a67b-036c7154a44e">InitializeFromValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376798(v=VS.85).aspx">InitializeFromValue</a>
 </li>
 </ul>
 
 
 You can also retrieve the following property values:<ul>
 <li>
-<a href="https://msdn.microsoft.com/9360f652-afeb-4f30-a423-402f397b9255">FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376795(v=VS.85).aspx">FriendlyName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3d3842a9-73b6-4fb8-83cf-ac65c5a09acb">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376800(v=VS.85).aspx">Name</a>
 </li>
 </ul>
 
@@ -96,7 +96,7 @@ You can also retrieve the following property values:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectID</a>
  
 
  

@@ -260,7 +260,7 @@ Tells the receiver to display the script error message.
 
 ### -field OLECMDID_SHOWMESSAGE
 
-This command takes an <a href="ie.IHTMLEventObj2">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
+This command takes an <a href="https://msdn.microsoft.com/library/Hh773930(v=VS.85).aspx">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
 
 
 ### -field OLECMDID_SHOWFIND
@@ -270,12 +270,12 @@ Tells the receiver to show the Find dialog box. It takes a <b>VT_DISPATCH</b> in
 
 ### -field OLECMDID_SHOWPAGESETUP
 
-Tells the receiver to show the Page Setup dialog box. It takes an <a href="ie.IHTMLEventObj2">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Page Setup dialog box. It takes an <a href="https://msdn.microsoft.com/library/Hh773930(v=VS.85).aspx">IHTMLEventObj2</a>  input parameter.
 
 
 ### -field OLECMDID_SHOWPRINT
 
-Tells the receiver to show the Print dialog box. It takes an <a href="ie.IHTMLEventObj2">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Print dialog box. It takes an <a href="https://msdn.microsoft.com/library/Hh773930(v=VS.85).aspx">IHTMLEventObj2</a>  input parameter.
 
 
 ### -field OLECMDID_CLOSE
@@ -380,7 +380,7 @@ Windows Internet Explorer 8 with Windows Vista. Has no effect with Windows Inte
 
 ### -field OLECMDID_UPDATETRAVELENTRY_DATARECOVERY
 
-Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="_inet_IPersistHistory_LoadHistory_Method">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
+Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="https://msdn.microsoft.com/library/Aa768216(v=VS.85).aspx">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
 
 
 ### -field OLECMDID_SHOWTASKDLG

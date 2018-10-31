@@ -54,7 +54,7 @@ req.redist:
 
 
 Deletes the specified <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> from a 
-    <a href="c_gly.htm">cluster</a>. Unlike 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. Unlike 
     <a href="https://msdn.microsoft.com/a0a8461c-8919-4620-83a2-bb8e5d03b0c4">DeleteClusterGroup</a> the group can contain resources 
     and it can be online. The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this function.
 
@@ -93,7 +93,7 @@ The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this functio
 
 Do not call <b>DestroyClusterGroup</b> from a resource 
      DLL. For more information, see 
-     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -111,7 +111,7 @@ Do not call <b>DestroyClusterGroup</b> from a resource
 
 
 
-<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
  
 
  

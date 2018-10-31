@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Returns a pointer to the <a href="https://msdn.microsoft.com/2824919b-a4ec-4fee-93d2-6157340f2d43">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
+Returns a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Returns a pointer to the <a href="https://msdn.microsoft.com/2824919b-a4ec-4fee-
 
 
 
-Pointer to the <a href="https://msdn.microsoft.com/2824919b-a4ec-4fee-93d2-6157340f2d43">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
 
 CXAPOBase
 
@@ -87,7 +87,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/C55C4597-F379-462E-94FE-D7CF2004D8F4">CXAPOBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415236(v=VS.85).aspx">CXAPOBase</a>
  
 
  

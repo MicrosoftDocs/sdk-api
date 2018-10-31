@@ -53,7 +53,7 @@ req.redist:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Retrieves a handle to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
+Retrieves a handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Retrieves a handle to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b
 
 A number representing the zero-based index of the target network. <i>lObjIndex</i> is 
        restricted to the number that can be retrieved by calling 
-       <a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/Aa370214(v=VS.85).aspx">IGetClusterDataInfo::GetObjectCount</a>.
 
 
 ## -returns
@@ -96,11 +96,11 @@ Do not close the handle obtained through this method.
 
 
 
-<a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370214(v=VS.85).aspx">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4">IGetClusterNetworkInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370219(v=VS.85).aspx">IGetClusterNetworkInfo</a>
  
 
  

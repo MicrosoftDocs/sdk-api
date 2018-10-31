@@ -102,7 +102,7 @@ This API does not participate in DPI virtualization. The provided position is in
 
 #### Examples
 
-For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648398(v=VS.85).aspx">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 
@@ -113,7 +113,7 @@ For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</
 
 
 
-<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
 
 
 
@@ -121,11 +121,11 @@ For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</
 
 
 
-<a href="https://msdn.microsoft.com/14786dc7-bdd2-45e5-8073-b8dc3f5d30de">GetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648402(v=VS.85).aspx">GetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fab919f-11aa-429e-aaa6-89854caa7b1c">HideCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648403(v=VS.85).aspx">HideCaret</a>
 
 
 
@@ -133,7 +133,7 @@ For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</
 
 
 
-<a href="https://msdn.microsoft.com/1a3a141e-9b5a-495a-8138-b9522933499f">ShowCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648406(v=VS.85).aspx">ShowCaret</a>
  
 
  

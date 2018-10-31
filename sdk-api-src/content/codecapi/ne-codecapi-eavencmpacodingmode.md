@@ -51,7 +51,7 @@ req.redist:
 
 
 
-Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://msdn.microsoft.com/c1a303fd-3625-4051-b6b8-4f83cceec945">AVEncMPACodingMode</a> property.
+Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd317871(v=VS.85).aspx">AVEncMPACodingMode</a> property.
 
 
 
@@ -95,11 +95,11 @@ Surround audio (5.1 channels).
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

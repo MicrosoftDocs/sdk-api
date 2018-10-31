@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>SetupSetThreadLogToken</b> function sets the log context, as represented by a <a href="devinst.log_tokens">log token</a><u>,</u> for the thread from which this function was called. A subsequent call to <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a> made within the same thread retrieves the log token that was most recently set for the thread.
+The <b>SetupSetThreadLogToken</b> function sets the log context, as represented by a <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a><u>,</u> for the thread from which this function was called. A subsequent call to <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a> made within the same thread retrieves the log token that was most recently set for the thread.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>SetupSetThreadLogToken</b> function sets the log context, as represented 
 
 ### -param LogToken [in]
 
-A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
+A <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
 
 
 ## -returns
@@ -77,11 +77,11 @@ None
 
 
 
-<b>SetupSetThreadLogToken</b> establishes a log context for the thread from which the function was called. The log context is represented by a <a href="devinst.log_tokens">log token</a>, which can be retrieved by calling <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>. 
+<b>SetupSetThreadLogToken</b> establishes a log context for the thread from which the function was called. The log context is represented by a <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a>, which can be retrieved by calling <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>. 
 
-For more information about log tokens, see <a href="devinst.log_tokens">Log Tokens</a>.
+For more information about log tokens, see <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>.
 
 
 
@@ -91,11 +91,11 @@ For more information about using log tokens, see <a href="devinst.setting_and_ge
 
 
 
-<a href="devinst.log_tokens">Log Tokens</a>
+<a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>
 
 
 
-<a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>
+<a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>
 
 
 

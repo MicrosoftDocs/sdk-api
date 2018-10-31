@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used when changes made since the most recent <a href="https://msdn.microsoft.com/18da6bdb-9409-49b6-8116-580fedd99a02">PSN_APPLY</a> notification cannot be canceled. You can also send a <a href="https://msdn.microsoft.com/0a4b6176-7ddb-469f-8ebf-a31e533a8690">PSM_CANCELTOCLOSE</a> message explicitly.
+Used when changes made since the most recent <a href="https://msdn.microsoft.com/en-us/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a> notification cannot be canceled. You can also send a <a href="https://msdn.microsoft.com/en-us/library/Bb774575(v=VS.85).aspx">PSM_CANCELTOCLOSE</a> message explicitly.
 
 
 ## -parameters
@@ -70,18 +70,18 @@ Handle to the property sheet.
 
 
 
-<a href="https://msdn.microsoft.com/0a4b6176-7ddb-469f-8ebf-a31e533a8690">PSM_CANCELTOCLOSE</a> disables the <b>Cancel</b> button and changes the text of the <b>OK</b> button to "Close". You can use this macro or send the <b>PSM_CANCELTOCLOSE</b> message explicitly.
+<a href="https://msdn.microsoft.com/en-us/library/Bb774575(v=VS.85).aspx">PSM_CANCELTOCLOSE</a> disables the <b>Cancel</b> button and changes the text of the <b>OK</b> button to "Close". You can use this macro or send the <b>PSM_CANCELTOCLOSE</b> message explicitly.
 
-Most property sheets wait to perform irreversible changes until a <a href="https://msdn.microsoft.com/18da6bdb-9409-49b6-8116-580fedd99a02">PSN_APPLY</a> notification is received. However, in some circumstances, a property sheet may make irreversible changes outside the standard PSN_APPLY/<a href="https://msdn.microsoft.com/75448852-8a5e-41a7-92b6-00692e771a06">PSN_RESET</a> sequence. One example is a property sheet that contains an <b>Edit</b> button that is used to display a subdialog box for editing a property. When the user clicks <b>OK</b> to submit the change, the property sheet page has several options:
+Most property sheets wait to perform irreversible changes until a <a href="https://msdn.microsoft.com/en-us/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a> notification is received. However, in some circumstances, a property sheet may make irreversible changes outside the standard PSN_APPLY/<a href="https://msdn.microsoft.com/en-us/library/Bb774566(v=VS.85).aspx">PSN_RESET</a> sequence. One example is a property sheet that contains an <b>Edit</b> button that is used to display a subdialog box for editing a property. When the user clicks <b>OK</b> to submit the change, the property sheet page has several options:
 
 <ul>
-<li>It can record the changes but wait until it receives a <a href="https://msdn.microsoft.com/18da6bdb-9409-49b6-8116-580fedd99a02">PSN_APPLY</a> notification to apply them. This is the preferred approach.</li>
-<li>It can apply the changes immediately after exiting the subdialog box, but remember the original settings. Those settings can be used to restore the original state if a <a href="https://msdn.microsoft.com/75448852-8a5e-41a7-92b6-00692e771a06">PSN_RESET</a> notification is received.</li>
-<li>It can apply the changes immediately and not attempt to restore the original settings when it receives a <a href="https://msdn.microsoft.com/75448852-8a5e-41a7-92b6-00692e771a06">PSN_RESET</a> notification. This approach is not recommended, but may be necessary if the changes are too far-reaching for the other two options to be practical.</li>
+<li>It can record the changes but wait until it receives a <a href="https://msdn.microsoft.com/en-us/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a> notification to apply them. This is the preferred approach.</li>
+<li>It can apply the changes immediately after exiting the subdialog box, but remember the original settings. Those settings can be used to restore the original state if a <a href="https://msdn.microsoft.com/en-us/library/Bb774566(v=VS.85).aspx">PSN_RESET</a> notification is received.</li>
+<li>It can apply the changes immediately and not attempt to restore the original settings when it receives a <a href="https://msdn.microsoft.com/en-us/library/Bb774566(v=VS.85).aspx">PSN_RESET</a> notification. This approach is not recommended, but may be necessary if the changes are too far-reaching for the other two options to be practical.</li>
 </ul>
-For the third option, applications should send a <a href="https://msdn.microsoft.com/0a4b6176-7ddb-469f-8ebf-a31e533a8690">PSM_CANCELTOCLOSE</a> message to the property sheet. It indicates to the user that the changes made with the subdialog box cannot be reversed by clicking the <b>Cancel</b> button.
+For the third option, applications should send a <a href="https://msdn.microsoft.com/en-us/library/Bb774575(v=VS.85).aspx">PSM_CANCELTOCLOSE</a> message to the property sheet. It indicates to the user that the changes made with the subdialog box cannot be reversed by clicking the <b>Cancel</b> button.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

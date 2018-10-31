@@ -140,7 +140,7 @@ Send the fax at the time specified by the <b>ScheduleTime</b> member.
 
 #### JSA_DISCOUNT_PERIOD
 
-Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/c29f0eaf-39a5-45e2-afb9-010494552969">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
+Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
 
 
 ### -field ScheduleTime
@@ -220,7 +220,7 @@ Do not send a DR or an NDR to the sender of the fax transmission.
 
 ##### - ScheduleAction.JSA_DISCOUNT_PERIOD
 
-Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/c29f0eaf-39a5-45e2-afb9-010494552969">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
+Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
 
 
 ##### - ScheduleAction.JSA_NOW
@@ -237,7 +237,7 @@ Send the fax at the time specified by the <b>ScheduleTime</b> member.
 
 
 
-A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to the <a href="https://msdn.microsoft.com/bbf8def4-4af0-4315-94f9-860f9db1eefa">FaxSendDocument</a> function to inform the fax server how and when to send the fax transmission. For more information, see <a href="https://msdn.microsoft.com/99331570-b396-4ed8-b2f4-3db883be0130">Sending a Fax to One Recipient (Win32 Environment)</a>.
+A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a> function to inform the fax server how and when to send the fax transmission. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691919(v=VS.85).aspx">Sending a Fax to One Recipient (Win32 Environment)</a>.
 
 
 
@@ -247,23 +247,23 @@ A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to 
 
 
 
-<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/46eb9960-1d07-4792-83d6-d2f5948e05e9">FaxCompleteJobParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692819(v=VS.85).aspx">FaxCompleteJobParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/c29f0eaf-39a5-45e2-afb9-010494552969">FaxGetConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf8def4-4af0-4315-94f9-860f9db1eefa">FaxSendDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a>
 
 
 
@@ -271,7 +271,7 @@ A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to 
 
 
 
-<a href="_tapi2_linemakecall">lineMakeCall</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735988(v=VS.85).aspx">lineMakeCall</a>
  
 
  

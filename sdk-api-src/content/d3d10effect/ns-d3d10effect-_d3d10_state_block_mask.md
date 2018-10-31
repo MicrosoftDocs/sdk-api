@@ -280,7 +280,7 @@ Array of vertex-shader resources. The array is a multi-byte bitmask where each b
 
 
 
-A state-block mask indicates the device states that a pass or a technique changes.  The <a href="https://msdn.microsoft.com/85e4a56d-016b-42e3-9ec8-b279fd4bd95b">D3D10StateBlockMaskEnableCapture</a> function 
+A state-block mask indicates the device states that a pass or a technique changes.  The <a href="https://msdn.microsoft.com/en-us/library/Bb205106(v=VS.85).aspx">D3D10StateBlockMaskEnableCapture</a> function 
       provides a convenient way of setting a range of bitmasks for the array members of <b>D3D10_STATE_BLOCK_MASK</b>.
 
 
@@ -291,7 +291,7 @@ A state-block mask indicates the device states that a pass or a technique change
 
 
 
-<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
  
 
  
