@@ -85,13 +85,9 @@ You can call <b>GenerateMips</b> on any shader-resource view to generate the low
 
 Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1 and higher support generating mipmaps if you use any of these formats:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 DXGI_FORMAT_R8G8B8A8_UNORM
 DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
 DXGI_FORMAT_B5G6R5_UNORM
@@ -99,52 +95,40 @@ DXGI_FORMAT_B8G8R8A8_UNORM
 DXGI_FORMAT_B8G8R8A8_UNORM_SRGB
 DXGI_FORMAT_B8G8R8X8_UNORM
 DXGI_FORMAT_B8G8R8X8_UNORM_SRGB
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.2 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature level 9.1:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 DXGI_FORMAT_R16G16B16A16_FLOAT
 DXGI_FORMAT_R16G16B16A16_UNORM
 DXGI_FORMAT_R16G16_FLOAT
 DXGI_FORMAT_R16G16_UNORM
 DXGI_FORMAT_R32_FLOAT
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.3 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1 and 9.2:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 DXGI_FORMAT_R32G32B32A32_FLOAT
 DXGI_FORMAT_B4G4R4A4 (optional)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 10 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1, 9.2, and 9.3:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 DXGI_FORMAT_R32G32B32_FLOAT (optional)
 DXGI_FORMAT_R16G16B16A16_SNORM
 DXGI_FORMAT_R32G32_FLOAT
@@ -161,10 +145,10 @@ DXGI_FORMAT_R8_UNORM
 DXGI_FORMAT_R8_SNORM
 DXGI_FORMAT_A8_UNORM
 DXGI_FORMAT_B5G5R5A1_UNORM (optional)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For all other unsupported formats, <b>GenerateMips</b> will silently fail.
 
 

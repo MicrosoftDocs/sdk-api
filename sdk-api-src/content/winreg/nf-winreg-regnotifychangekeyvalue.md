@@ -226,15 +226,11 @@ To monitor registry operations in more detail, see <a href="https://msdn.microso
 
 The following program illustrates how to use <b>RegNotifyChangeKeyValue</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;tchar.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <tchar.h>
+#include <stdio.h>
 
 //void main(int argc, char *argv[])
 void __cdecl _tmain(int argc, TCHAR *argv[])
@@ -252,7 +248,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
    // Display the usage error message.
    if (argc != 3) 
    {
-      _tprintf(TEXT("Usage: notify [HKLM|HKU|HKCU|HKCR|HCC] [&lt;subkey&gt;]\n"));
+      _tprintf(TEXT("Usage: notify [HKLM|HKU|HKCU|HKCR|HCC] [<subkey>]\n"));
       return;
    }
 
@@ -264,12 +260,12 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
    else if(_tcscmp(TEXT("HCC"), argv[1]) == 0) hMainKey=HKEY_CURRENT_CONFIG;
    else 
    {
-      _tprintf(TEXT("Usage: notify [HKLM|HKU|HKCU|HKCR|HCC] [&lt;subkey&gt;]\n"));
+      _tprintf(TEXT("Usage: notify [HKLM|HKU|HKCU|HKCR|HCC] [<subkey>]\n"));
       return;
    }
 
    // Open a key.
-    lErrorCode = RegOpenKeyEx(hMainKey, argv[2], 0, KEY_NOTIFY, &amp;hKey);
+    lErrorCode = RegOpenKeyEx(hMainKey, argv[2], 0, KEY_NOTIFY, &hKey);
    if (lErrorCode != ERROR_SUCCESS)
    {
       _tprintf(TEXT("Error in RegOpenKeyEx (%d).\n"), lErrorCode);
@@ -320,10 +316,10 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
       return;
    }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

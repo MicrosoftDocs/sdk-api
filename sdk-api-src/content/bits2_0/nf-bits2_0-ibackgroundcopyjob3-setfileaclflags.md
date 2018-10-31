@@ -202,43 +202,39 @@ If the user does not have privileges on the local and remote computers to copy t
 
 The following example shows how to call the <b>SetFileACLFlags</b> method to specify what owner and ACL information to maintain with the files that BITS downloads. The example assumes the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> variable, pJob, is valid, points to a new job, and is suspended.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>     IBackgroundCopyJob *pJob;
+
+```cpp
+     IBackgroundCopyJob *pJob;
      IBackgroundCopyJob3 *pJob3 = NULL;
 
      //Need to query the IBackgroundCopyJob interface for an IBackgroundCopyJob3
      //interface pointer. The IBackgroundCopyJob3 interface contains the SetACLFlags method.
-     hr = pJob-&gt;QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&amp;pJob3;);
+     hr = pJob->QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&pJob3;);
      if (S_OK == hr)
      {
-          pJob-&gt;Release(); //No longer need the IBackgoundCopyJob interface pointer.
+          pJob->Release(); //No longer need the IBackgoundCopyJob interface pointer.
 
           //Copy the group and DACL information for each file.
-          hr = pJob3-&gt;SetACLFlags(BG_COPY_FILE_GROUP | BG_COPY_FILE_DACL);
+          hr = pJob3->SetACLFlags(BG_COPY_FILE_GROUP | BG_COPY_FILE_DACL);
           if (FAILED(hr))
           {
                //Handle error.
           }
 
           ... //Add one or more files and resume the job.
-          pJob3-&gt;Resume();
+          pJob3->Resume();
 
           //When done, release the interface pointer.
-          pJob3-&gt;Release();
+          pJob3->Release();
      }
      else
      {
           //Handle error. QueryInterface will return E_NOINTERFACE if the version of BITS
           //running on the computer is less than BITS 2.0.
-     }</pre>
-</td>
-</tr>
-</table></span></div>
+     }
+```
+
+
 
 
 

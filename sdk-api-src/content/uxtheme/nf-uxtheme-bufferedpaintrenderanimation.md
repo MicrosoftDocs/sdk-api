@@ -91,13 +91,9 @@ If this function returns <b>TRUE</b>, the application should do no further paint
 
 An application calls this function within its <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> handler.  After <b>BufferedPaintRenderAnimation</b> paints an animation frame, an application will typically continue without performing its usual painting operations.  If appropriate, an application may choose to render additional user interface (UI) over the top of the animation. The following code example, to be included as part of a larger body of code, shows how to use the animation painting functions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    if (!_fBufferedPaintInit)
+
+```cpp
+    if (!_fBufferedPaintInit)
     {
         BufferedPaintInit();
         _fBufferedPaintInit = TRUE;
@@ -111,11 +107,11 @@ An application calls this function within its <a href="https://msdn.microsoft.co
         animParams.style = BPAS_LINEAR; 
         animParams.dwDuration = 0;
         GetThemeTransitionDuration(hTheme, iPartId, iStateIdFrom, 
-                iStateIdTo, TMT_TRANSITIONDURATIONS, &amp;animParams.dwDuration);
+                iStateIdTo, TMT_TRANSITIONDURATIONS, &animParams.dwDuration);
 
         HDC hdcFrom, hdcTo;
-        HANIMATIONBUFFER hbpAnimation = BeginBufferedAnimation(hWnd, hdc, &amp;rc, 
-                BPBF_COMPATIBLEBITMAP, NULL, &amp;animParams, &amp;hdcFrom, &amp;hdcTo);
+        HANIMATIONBUFFER hbpAnimation = BeginBufferedAnimation(hWnd, hdc, &rc, 
+                BPBF_COMPATIBLEBITMAP, NULL, &animParams, &hdcFrom, &hdcTo);
         if (hbpAnimation)
         {
             if (hdcFrom)
@@ -139,9 +135,9 @@ An application calls this function within its <a href="https://msdn.microsoft.co
     // Else do not paint because the BufferedPaintRenderAnimation function 
     // already did.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

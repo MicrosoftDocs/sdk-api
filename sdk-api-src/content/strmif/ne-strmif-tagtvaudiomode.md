@@ -173,24 +173,20 @@ The following constants are defined in Strmif.h:
 You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
           
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD ModeFlags(DWORD AudioMode)
+
+```cpp
+DWORD ModeFlags(DWORD AudioMode)
 {
-    return AudioMode &amp; TVAUDIO_MODE_MASK;
+    return AudioMode & TVAUDIO_MODE_MASK;
 }   
 
 DWORD PresetFlags(DWORD AudioMode)
 {
-    return AudioMode &amp; TVAUDIO_PRESET_MASK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    return AudioMode & TVAUDIO_PRESET_MASK;
+}
+```
+
+
 
 
 

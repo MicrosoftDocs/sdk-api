@@ -81,25 +81,21 @@ As with <a href="https://msdn.microsoft.com/library/windows/desktop/mt186427.asp
 
 This is a Win32 API that's only supported in UWP desktop and Xbox apps. It also requires the <b>expandedResources</b> restricted capability, which you can select by opening <b>Package.appxmanifest</b> in Visual Studio and navigating to the <b>Capabilities</b> tab. Alternatively, you can edit the file's code directly:
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>
-&lt;Package
+
+```xml
+
+<Package
 xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-IgnorableNamespaces=" rescap"&gt;
+IgnorableNamespaces=" rescap">
 	...
-	&lt;Capabilities&gt;
-		&lt;rescap:Capability Name="expandedResources" /&gt;
-	&lt;/Capabilities&gt;
+	<Capabilities>
+		<rescap:Capability Name="expandedResources" />
+	</Capabilities>
 	...
-&lt;/Package&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+</Package>
+```
+
+
 This capability is granted on a per-title basis; contact your account manager for more information. You can publish a UWP app with this capability to the Store if it targets desktop, but if it targets Xbox it will be rejected in certification.
 
 The app must be in the foreground and have focus before exclusive resources are granted.

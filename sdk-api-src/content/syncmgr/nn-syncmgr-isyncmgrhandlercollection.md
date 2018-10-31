@@ -97,13 +97,9 @@ The author of a sync handler implements this interface to support multiple devic
 
 The following example shows an outline implementation of this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>class CMyHandlerCollection : public ISyncMgrHandlerCollection
+
+```cpp
+class CMyHandlerCollection : public ISyncMgrHandlerCollection
 {
 public:
     // IUnknown
@@ -133,9 +129,9 @@ STDMETHODIMP CMyHandlerCollection::BindToHandler(
     // by the factory method or by some other method.
     return CMyHandler_Create(pszHandlerID, riid, ppv);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

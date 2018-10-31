@@ -247,16 +247,12 @@ The following code sample demonstrates how to list the DFS links in a named DFS 
 <b>NetDfsEnum</b>, specifying information level 3 (
 <a href="https://msdn.microsoft.com/fd60cb52-fa17-4cac-a7e8-9803303336dc">DFS_INFO_3</a>). The sample code loops through the entries and prints the retrieved data and the status of each host server referenced by the DFS link. Finally, the sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;lm.h&gt;
-#include &lt;lmdfs.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <lm.h>
+#include <lmdfs.h>
+#include <stdio.h>
 
 #pragma comment(lib, "Netapi32.lib")
 
@@ -266,14 +262,14 @@ void wmain(int argc, wchar_t *argv[ ])
     PDFS_STORAGE_INFO ps;
     DWORD er = 0, hResume = 0, res, i, j;
 
-    if(argc &lt; 2)
+    if(argc < 2)
         wprintf(L"Syntax: %s \\\\DfsName\n", argv[0]);
     else
     {
         //
         // Call the NetDfsEnum function, specifying level 3.
         //
-        res = NetDfsEnum(argv[1], 3, MAX_PREFERRED_LENGTH, (LPBYTE *) &amp;pData, &amp;er, &amp;hResume);
+        res = NetDfsEnum(argv[1], 3, MAX_PREFERRED_LENGTH, (LPBYTE *) &pData, &er, &hResume);
 
         // Call NetDfsEnum until all available entries are returned.
         // NetDfsEnum will return ERROR_NO_MORE_ITEMS when all entries 
@@ -284,21 +280,21 @@ void wmain(int argc, wchar_t *argv[ ])
             //
             // Loop through the entries; print the data.
             //
-            for(i = 1; i &lt;= er; i++)
+            for(i = 1; i <= er; i++)
             {
-                printf("%-30S%u\n", p-&gt;EntryPath, p-&gt;NumberOfStorages);
-                ps = p-&gt;Storage;
+                printf("%-30S%u\n", p->EntryPath, p->NumberOfStorages);
+                ps = p->Storage;
                 //
                 // Loop through each target.
                 //
-                for(j = 1; j &lt;= p-&gt;NumberOfStorages; j++)
+                for(j = 1; j <= p->NumberOfStorages; j++)
                 {
                     //
                     // Print the status (Offline/Online) and the name 
                     // of each target referenced by the DFS link.
                     //
-                    printf("    %S  ", (ps-&gt;State == DFS_STORAGE_STATE_OFFLINE) ? TEXT("Offline"):TEXT("Online "));
-                    printf("\\\\%S\\%S\n", ps-&gt;ServerName, ps-&gt;ShareName);
+                    printf("    %S  ", (ps->State == DFS_STORAGE_STATE_OFFLINE) ? TEXT("Offline"):TEXT("Online "));
+                    printf("\\\\%S\\%S\n", ps->ServerName, ps->ShareName);
                     ps++;
                 }
                 p++;
@@ -308,7 +304,7 @@ void wmain(int argc, wchar_t *argv[ ])
             NetApiBufferFree(pData);
 
 
-            res = NetDfsEnum(argv[1], 3, MAX_PREFERRED_LENGTH, (LPBYTE *) &amp;pData, &amp;er, &amp;hResume);
+            res = NetDfsEnum(argv[1], 3, MAX_PREFERRED_LENGTH, (LPBYTE *) &pData, &er, &hResume);
         }
 
 
@@ -326,10 +322,10 @@ void wmain(int argc, wchar_t *argv[ ])
     }
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

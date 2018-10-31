@@ -92,21 +92,17 @@ This interface provides the native implementation of the <a href="https://msdn.m
     you must cast a <a href="https://msdn.microsoft.com/2f47fd2c-a0ff-4981-a404-0934aed39f84">SwapChainPanel</a> instance 
     to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-Microsoft::WRL::ComPtr&lt;ISwapChainPanelNative2&gt;	m_swapChainNative2;
+
+```cpp
+
+Microsoft::WRL::ComPtr<ISwapChainPanelNative2>	m_swapChainNative2;
 // ...
-IInspectable* panelInspectable = (IInspectable*) reinterpret_cast&lt;IInspectable*&gt;(swapChainPanel);
-panelInspectable-&gt;QueryInterface(__uuidof(ISwapChainPanelNative2), (void **)&amp;m_swapChainNative2);
-	</pre>
-</td>
-</tr>
-</table></span></div>
+IInspectable* panelInspectable = (IInspectable*) reinterpret_cast<IInspectable*>(swapChainPanel);
+panelInspectable->QueryInterface(__uuidof(ISwapChainPanelNative2), (void **)&m_swapChainNative2);
+	
+```
+
+
 
 
 

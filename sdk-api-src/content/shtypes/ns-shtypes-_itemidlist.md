@@ -83,19 +83,15 @@ As of Windows Vista, several forms of <b>ITEMIDLIST</b> are available as data t
 </ul>
 These types are used if you compile your code with the symbol STRICT_TYPED_ITEMIDS before you include the Shell header files, as shown in the following example code.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #define STRICT_TYPED_ITEMIDS    // Better type safety for IDLists
 
-#include &lt;shlobj.h&gt;             // Typical Shell header file</pre>
-</td>
-</tr>
-</table></span></div>
+#include <shlobj.h>             // Typical Shell header file
+```
+
+
 The meaning of each of these types can be altered with one or more of the following modifiers:
 
 <ul>

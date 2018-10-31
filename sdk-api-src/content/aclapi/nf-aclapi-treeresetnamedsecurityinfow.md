@@ -109,14 +109,10 @@ Boolean value that defines whether explicitly defined ACEs are kept or deleted f
 
 A pointer to the function used to track the progress of the <b>TreeResetNamedSecurityInfo</b> function. The prototype of the progress function is:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Aclapi.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Aclapi.h>
 
 typedef VOID (*FN_PROGRESS) (
   IN LPWSTR pObjectName,              // Name of object just processed
@@ -125,10 +121,10 @@ typedef VOID (*FN_PROGRESS) (
   IN PVOID Args,                      // Caller specific data
   IN BOOL SecuritySet                 // Whether security was set
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The progress function provides the caller with progress and error information when nodes are processed. The caller specifies the progress function in <i>fnProgress</i>, and during the tree  operation, <b>TreeResetNamedSecurityInfo</b> passes the name of the last object processed, the error status of that operation, and the current  PROG_INVOKE_SETTING value. The caller can change the PROG_INVOKE_SETTING value by using <i>pInvokeSetting</i>.
 
 If no progress function is to be used, set this parameter to <b>NULL</b>.

@@ -114,20 +114,16 @@ The <i>x</i>, <i>y</i>, <i>dx</i>, and <i>dy</i> parameters identify the portion
 
 For handlers written in C++, <b>SetFormat</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SetFormat(LPBITMAPINFOHEADER lpbi, LPVOID lpBits, int x, 
     int y, int dx, int dy); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

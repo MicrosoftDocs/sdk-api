@@ -83,23 +83,19 @@ All policy modules should call the <b>EnumerateExtensionsClose</b> method after 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Close the enumeration.
+
+```cpp
+// Close the enumeration.
 // hr is defined as an HRESULT.
-hr = pCertServerPolicy-&gt;EnumerateExtensionsClose();
+hr = pCertServerPolicy->EnumerateExtensionsClose();
 if (FAILED(hr))
 {
     printf("Failed EnumerateExtensionsClose [%x]\n", hr);
     goto error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

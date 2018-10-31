@@ -105,23 +105,19 @@ Shader code contains metadata that can be inspected using the reflection APIs.
 
 The following code illustrates retrieving a <a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection</a> Interface from a shader.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-pd3dDevice-&gt;CreatePixelShader( pPixelShaderBuffer-&gt;GetBufferPointer(),
-                               pPixelShaderBuffer-&gt;GetBufferSize(), g_pPSClassLinkage, &amp;g_pPixelShader );
+
+```cpp
+
+pd3dDevice->CreatePixelShader( pPixelShaderBuffer->GetBufferPointer(),
+                               pPixelShaderBuffer->GetBufferSize(), g_pPSClassLinkage, &g_pPixelShader );
 
 ID3D11ShaderReflection* pReflector = NULL; 
-D3DReflect( pPixelShaderBuffer-&gt;GetBufferPointer(), pPixelShaderBuffer-&gt;GetBufferSize(), 
-            IID_ID3D11ShaderReflection, (void**) &amp;pReflector);
-</pre>
-</td>
-</tr>
-</table></span></div>
+D3DReflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBufferSize(), 
+            IID_ID3D11ShaderReflection, (void**) &pReflector);
+
+```
+
+
 
 
 

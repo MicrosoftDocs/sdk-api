@@ -114,13 +114,9 @@ Failure for some other reason.
 This definition together with the implementation of 
 				<b>IEnumVARIANT</b>, enables one to support the following Microsoft Visual Basic for Applications (VBA) code.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    Dim t As ITextDocument
+
+```
+    Dim t As ITextDocument
     Dim c As ITextStoryRanges
     Dim r As ITextRange
 
@@ -129,10 +125,10 @@ This definition together with the implementation of
 
     For Each r In c
         Debug.Print r.Text
-    Next</pre>
-</td>
-</tr>
-</table></span></div>
+    Next
+```
+
+
 
 
 

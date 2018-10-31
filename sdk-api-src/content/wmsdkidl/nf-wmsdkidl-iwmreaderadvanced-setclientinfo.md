@@ -114,24 +114,20 @@ Invalid argument. The <b>cbSize</b> member must be set, and the string values mu
 
 Initialize the <b>WM_READER_CLIENTINFO</b> structure before calling this method. Always set the <b>cbSize</b> member equal to the size of the structure, and set any unused fields to zero.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 WM_READER_CLIENTINFO info;
-ZeroMemory(&amp;info, sizeof(WM_READER_CLIENTINFO));
+ZeroMemory(&info, sizeof(WM_READER_CLIENTINFO));
 info.cbSize = sizeof(WM_READER_CLIENTINFO);
 
 // Set other fields (not shown).
 
-hr = pReaderAdvanced-&gt;SetClientInfo( &amp;info );
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pReaderAdvanced->SetClientInfo( &info );
+
+```
+
+
 
 
 

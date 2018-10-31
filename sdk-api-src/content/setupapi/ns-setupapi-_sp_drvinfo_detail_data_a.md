@@ -155,27 +155,23 @@ For example, depending on how the list of <a href="devinst.hardware_ids">hardwar
 </ul>
 An algorithm to correctly parse this buffer must use the <b>CompatIDsOffset</b> and <b>CompatIDsLength</b> fields to extract the <a href="devinst.hardware_ids">hardware ID</a> and <a href="devinst.compatible_ids">compatible IDs</a>, as shown in the following code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// parse the hardware ID, if it exists
-if (CompatIDsOffset &gt; 1)
+
+```
+// parse the hardware ID, if it exists
+if (CompatIDsOffset > 1)
 {
     // Parse for hardware ID from index 0. 
     // This is a single NULL-terminated string
 }
  // Parse the compatible IDs, if they exist
-if (CompatIDsLength &gt; 0)
+if (CompatIDsLength > 0)
 {
     // Parse for list of compatible IDs from CompatIDsOffset. 
     // This is a double NULL-terminated list of strings (i.e. MULTI-SZ)
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

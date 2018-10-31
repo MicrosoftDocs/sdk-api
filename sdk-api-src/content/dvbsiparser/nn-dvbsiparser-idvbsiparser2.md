@@ -89,16 +89,12 @@ Gets the event information table (EIT).
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the following CLSID:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>F6B96EDA-1A94-4476-A85F-4D3DC7B39C3F</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+F6B96EDA-1A94-4476-A85F-4D3DC7B39C3F
+```
+
+
 This CLSID is not is not published in an SDK header; define a new GUID constant in your application.
 
 

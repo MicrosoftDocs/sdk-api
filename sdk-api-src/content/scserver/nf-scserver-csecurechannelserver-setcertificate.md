@@ -136,29 +136,25 @@ This method sends the component's authentication certificate to <b>CSecureChanne
 
 The following code demonstrates creating a CSecureChannelServer object and setting its certificate. In this code, the variables <i>pbAppCert</i> and <i>pbAppPVK</i> are a matching certificate/key pair.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 extern CSecureChannelServer *g_pSCWMDM;
 g_pSCWMDM = new CSecureChannelServer();
 
 // Select the certificate and the associated private key into the SAC.
 if (g_pSCWMDM)
 {
-    g_pSCWMDM-&gt;SetCertificate( SAC_CERT_V1, 
+    g_pSCWMDM->SetCertificate( SAC_CERT_V1, 
                                (BYTE*)g_abAppCert,
                                sizeof(g_abAppCert), 
                                (BYTE*)g_abPriv,
                                sizeof(g_abPriv) );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
