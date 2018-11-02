@@ -4,10 +4,10 @@ title: IAzScope::put_ApplicationData
 author: windows-sdk-content
 description: The ApplicationData property of IAzScope sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazscope_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c54aaadb-0c4a-43f9-ac50-413ed190b365
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzScope object, ApplicationData property [Security],IAzScope interface, AzScope object [Security],ApplicationData property, IAzScope interface [Security],ApplicationData property, IAzScope.ApplicationData, IAzScope.put_ApplicationData, IAzScope::ApplicationData, IAzScope::get_ApplicationData, IAzScope::put_ApplicationData, azroles/IAzScope::ApplicationData, azroles/IAzScope::get_ApplicationData, azroles/IAzScope::put_ApplicationData, put_ApplicationData, security.iazscope_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

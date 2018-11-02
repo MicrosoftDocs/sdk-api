@@ -7,7 +7,7 @@ old-location: opengl\wglusefontoutlines.htm
 tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,79 +66,40 @@ Thelpgmfparameter returns a <a href="https://msdn.microsoft.com/6ceccb76-be31-4a
 
 ### -param arg1
 
-TBD
+Specifies the device context with the desired outline font. The outline font of <i>hdc</i> is used to create the display lists in the current rendering context.
 
 
 ### -param arg2
 
-TBD
+Specifies the first of the set of glyphs that form the font outline display lists.
 
 
 ### -param arg3
 
-TBD
+Specifies the number of glyphs in the set of glyphs used to form the font outline display lists. The <b>wglUseFontOutlines</b> function creates <i>count</i> display lists, one display list for each glyph in a set of glyphs.
 
 
 ### -param arg4
 
-TBD
+Specifies a starting display list.
 
 
 ### -param arg5
 
-TBD
+Specifies the maximum chordal deviation from the original outlines. When deviation is zero, the chordal deviation is equivalent to one design unit of the original font. The value of <i>deviation</i> must be equal to or greater than 0.
 
 
 ### -param arg6
 
-TBD
+Specifies how much a font is extruded in the negative <i>z</i> direction. The value must be equal to or greater than 0. When <i>extrusion</i> is 0, the display lists are not extruded.
 
 
 ### -param arg7
 
-TBD
-
-
-### -param arg8
-
-TBD
-
-
-
-
-
-
-#### - count
-
-Specifies the number of glyphs in the set of glyphs used to form the font outline display lists. The <b>wglUseFontOutlines</b> function creates <i>count</i> display lists, one display list for each glyph in a set of glyphs.
-
-
-#### - deviation
-
-Specifies the maximum chordal deviation from the original outlines. When deviation is zero, the chordal deviation is equivalent to one design unit of the original font. The value of <i>deviation</i> must be equal to or greater than 0.
-
-
-#### - extrusion
-
-Specifies how much a font is extruded in the negative <i>z</i> direction. The value must be equal to or greater than 0. When <i>extrusion</i> is 0, the display lists are not extruded.
-
-
-#### - first
-
-Specifies the first of the set of glyphs that form the font outline display lists.
-
-
-#### - format
-
 Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the display lists. When <i>format</i> is WGL_FONT_LINES, the <b>wglUseFontOutlines</b> function creates fonts with line segments. When <i>format</i> is WGL_FONT_POLYGONS, <b>wglUseFontOutlines</b> creates fonts with polygons.
 
 
-#### - listBase
-
-Specifies a starting display list.
-
-
-#### - lpgmf
+### -param arg8
 
 Points to an array of <i>count</i><a href="https://msdn.microsoft.com/6ceccb76-be31-4a4d-b093-1f8e35261a60">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
 

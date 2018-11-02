@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CreatePropertyCondition.htm
 tech.root: WinAuto
 ms.assetid: 8b777a53-90a8-4e51-b707-d0ea8f5790a8
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [Windows Accessibility], CreatePropertyCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreatePropertyCondition method, IUIAutomation.CreatePropertyCondition, IUIAutomation::CreatePropertyCondition, uiauto.uiauto_IUIAutomation_CreatePropertyCondition, uiauto_IUIAutomation_CreatePropertyCondition, uiautomationclient/IUIAutomation::CreatePropertyCondition, winauto.uiauto_IUIAutomation_CreatePropertyCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The property identifier.  For a list of property IDs, see <a href="https://msdn.
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
 
 The property value.
 

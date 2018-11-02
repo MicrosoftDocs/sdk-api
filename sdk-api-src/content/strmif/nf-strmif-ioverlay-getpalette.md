@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_getpalette.htm
 tech.root: DirectShow
 ms.assetid: 993c80fb-fa67-4dd6-815b-8e15d2f7f495
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: GetPalette, GetPalette method [DirectShow], GetPalette method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetPalette method, IOverlay.GetPalette, IOverlay::GetPalette, IOverlayGetPalette, dshow.ioverlay_getpalette, strmif/IOverlay::GetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

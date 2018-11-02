@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetOutline.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getoutline.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetOutline, GetOutline method [Windows Controls], GetOutline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetOutline method, ITextFont.GetOutline, ITextFont::GetOutline, _win32_ITextFont_GetOutline, _win32_ITextFont_GetOutline_cpp, controls.ITextFont_GetOutline, controls._win32_ITextFont_GetOutline, tom/ITextFont::GetOutline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\drawingstatedescription.htm
 tech.root: direct2d
 ms.assetid: a1f81523-bf9b-4807-a095-d2f4081698e3
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: DrawingStateDescription, DrawingStateDescription function [Direct2D], d2d1helper/DrawingStateDescription, direct2d.drawingstatedescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

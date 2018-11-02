@@ -4,10 +4,10 @@ title: ldap_apifeature_infoW
 author: windows-sdk-content
 description: Retrieves data about any supported LDAP API extensions.
 old-location: ldap\ldapapifeatureinfo.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LDAPAPIFeatureInfo, LDAPAPIFeatureInfo structure [LDAP], LDAPAPIFeatureInfoA, LDAPAPIFeatureInfoW, ldap.ldapapifeatureinfo, ldap_apifeature_infoW, winldap/LDAPAPIFeatureInfo, winldap/LDAPAPIFeatureInfoA, winldap/LDAPAPIFeatureInfoW
 ms.prod: windows
 ms.technology: windows-sdk

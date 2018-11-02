@@ -7,7 +7,7 @@ old-location: controls\NMBCDROPDOWN.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbcdropdown.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPNMBCDROPDOWN, LPNMBCDROPDOWN, LPNMBCDROPDOWN structure pointer [Windows Controls], NMBCDROPDOWN, NMBCDROPDOWN structure [Windows Controls], _shell_NMBCDROPDOWN, _shell_NMBCDROPDOWN_cpp, commctrl/LPNMBCDROPDOWN, commctrl/NMBCDROPDOWN, controls.NMBCDROPDOWN, controls._shell_NMBCDROPDOWN, tagNMBCDROPDOWN"
 ms.prod: windows
 ms.technology: windows-sdk

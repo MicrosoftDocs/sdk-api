@@ -7,7 +7,7 @@ old-location: perf\pdhgetdatasourcetimerange.htm
 tech.root: perfctrs
 ms.assetid: 142ee829-7f1c-4b97-859c-670f7058dfa1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: PdhGetDataSourceTimeRange, PdhGetDataSourceTimeRange function [Perf], PdhGetDataSourceTimeRangeA, PdhGetDataSourceTimeRangeW, _win32_pdhgetdatasourcetimerange, base.pdhgetdatasourcetimerange, pdh/PdhGetDataSourceTimeRange, pdh/PdhGetDataSourceTimeRangeA, pdh/PdhGetDataSourceTimeRangeW, perf.pdhgetdatasourcetimerange
 ms.prod: windows-hardware
 ms.technology: windows-devices

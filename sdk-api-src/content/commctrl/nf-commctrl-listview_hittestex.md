@@ -7,7 +7,7 @@ old-location: controls\ListView_HitTestEx.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittestex.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ListView_HitTestEx, ListView_HitTestEx macro [Windows Controls], _shell_ListView_HitTestEx, _shell_ListView_HitTestEx_cpp, commctrl/ListView_HitTestEx, controls.ListView_HitTestEx, controls._shell_ListView_HitTestEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

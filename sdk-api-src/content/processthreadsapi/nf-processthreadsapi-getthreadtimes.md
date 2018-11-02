@@ -4,10 +4,10 @@ title: GetThreadTimes function
 author: windows-sdk-content
 description: Retrieves timing information for the specified thread.
 old-location: base\getthreadtimes.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: eb61aa05-15d8-4251-947a-54df8433b858
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetThreadTimes, GetThreadTimes function, _win32_getthreadtimes, base.getthreadtimes, processthreadsapi/GetThreadTimes, winbase/GetThreadTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

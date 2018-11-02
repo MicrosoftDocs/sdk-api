@@ -2,7 +2,7 @@
 UID: NA:mileffects
 ms.assetid: 3373afd5-dd48-30e0-bb2b-7f6588fc84a0
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

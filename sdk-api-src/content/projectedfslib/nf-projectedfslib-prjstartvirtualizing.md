@@ -7,7 +7,7 @@ old-location: projfs\prjstartvirtualizing.htm
 tech.root: ProjFS
 ms.assetid: 466347B7-1D7D-4C7D-B17C-1E5E1A2223C1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing
 ms.prod: windows-hardware
 ms.technology: windows-devices

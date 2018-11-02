@@ -7,7 +7,7 @@ old-location: controls\FlatSB_GetScrollRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: FlatSB_GetScrollRange, FlatSB_GetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_GetScrollRange, _win32_FlatSB_GetScrollRange_cpp, commctrl/FlatSB_GetScrollRange, controls.FlatSB_GetScrollRange, controls._win32_FlatSB_GetScrollRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,9 @@ Gets the scroll range for a flat scroll bar. If flat scroll bars are not initial
 
 ### -param arg1
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
 
 ### -param code
@@ -100,35 +102,16 @@ Retrieves the scroll range of the vertical scroll bar.
 
 ### -param arg2
 
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - lpMaxPos
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPINT</a></b>
-
-A pointer to an INT value that receives the maximum scroll range value. 
-
-
-#### - lpMinPos
-
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPINT</a></b>
 
 A pointer to an INT value that receives the minimum scroll range value. 
 
 
-#### - param
+### -param arg3
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPINT</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A pointer to an INT value that receives the maximum scroll range value. 
 
 
 ## -returns

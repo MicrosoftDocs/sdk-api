@@ -4,10 +4,10 @@ title: IsWow64Message function
 author: windows-sdk-content
 description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.
 old-location: base\iswow64message.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
 ms.prod: windows-hardware
 ms.technology: windows-devices

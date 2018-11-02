@@ -7,7 +7,7 @@ old-location: direct2d\sizeu.htm
 tech.root: direct2d
 ms.assetid: 147670e3-c451-401e-9e79-dacd7c33385d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: SizeU, SizeU function [Direct2D], d2d1helper/SizeU, direct2d.sizeu
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GetCurrentProcessToken function
 author: windows-sdk-content
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the access token associated with a process.
 old-location: security\getcurrentprocesstoken.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9DD1781A-4C77-4E22-9FCF-579FC90F3028
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCurrentProcessToken, GetCurrentProcessToken function [Security], processthreadsapi/GetCurrentProcessToken, security.getcurrentprocesstoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: tuispicreatedialoginstanceparams_tag
 author: windows-sdk-content
 description: The TUISPI data structure is defined below.
 old-location: tspi\tuispicreatedialoginstanceparams_str.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 4de0ee9b-0643-4eab-b100-ee7aaa0b6992
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEPARAMS structure pointer [TAPI 2.2], TUISPICREATEDIALOGINSTANCEPARAMS, TUISPICREATEDIALOGINSTANCEPARAMS structure [TAPI 2.2], _tspi_tuispicreatedialoginstanceparams_str, tspi.tuispicreatedialoginstanceparams_str, tspi/LPTUISPICREATEDIALOGINSTANCEPARAMS, tspi/TUISPICREATEDIALOGINSTANCEPARAMS, tuispicreatedialoginstanceparams_tag"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\rtmgetenumroutes.htm
 tech.root: rras
 ms.assetid: fb3977ef-9edd-4653-b65c-b6d0fb66a785
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RtmGetEnumRoutes, RtmGetEnumRoutes function [RAS], _rtmv2ref_rtmgetenumroutes, rras.rtmgetenumroutes, rtmv2/RtmGetEnumRoutes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enuminterfaceimpls.htm
 tech.root: WinRT
 ms.assetid: 37f3eada-7719-4303-a9c7-57ee396a5dc5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumInterfaceImpls, EnumInterfaceImpls method [Windows Runtime], EnumInterfaceImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumInterfaceImpls method, IMetaDataImport.EnumInterfaceImpls, IMetaDataImport::EnumInterfaceImpls, rometadataapi/IMetaDataImport::EnumInterfaceImpls, winrt.imetadataimport_enuminterfaceimpls
 ms.prod: windows-hardware
 ms.technology: windows-devices

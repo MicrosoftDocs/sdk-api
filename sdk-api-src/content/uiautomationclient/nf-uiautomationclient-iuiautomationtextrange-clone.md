@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_Clone.htm
 tech.root: WinAuto
 ms.assetid: 0f41fecf-fd66-443f-bc4d-23c05a4d3824
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],Clone method, IUIAutomationTextRange.Clone, IUIAutomationTextRange::Clone, uiauto.uiauto_IUIAutomationTextRange_Clone, uiauto_IUIAutomationTextRange_Clone, uiautomationclient/IUIAutomationTextRange::Clone, winauto.uiauto_IUIAutomationTextRange_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

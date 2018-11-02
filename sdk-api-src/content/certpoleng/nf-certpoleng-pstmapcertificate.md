@@ -7,7 +7,7 @@ old-location: security\pstmapcertificate.htm
 tech.root: secauthn
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

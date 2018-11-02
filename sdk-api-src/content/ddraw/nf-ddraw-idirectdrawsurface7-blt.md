@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_blt.htm
 tech.root: directdraw
 ms.assetid: e458c430-855c-419b-aa50-144d2b422e78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt, Blt method [DirectDraw], Blt method [DirectDraw],IDirectDrawSurface7 interface, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_DEPTHFILL, DDBLT_DONOTWAIT, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_WAIT, IDirectDrawSurface7 interface [DirectDraw],Blt method, IDirectDrawSurface7.Blt, IDirectDrawSurface7::Blt, ddraw/IDirectDrawSurface7::Blt, directdraw.idirectdrawsurface7_blt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,22 @@ Performs a bit block transfer (bitblt). This method does not support z-buffering
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt to on the destination surface. If this parameter is NULL, the entire destination surface is used.
 
 
-### -param arg3
+### -param arg2 [in]
 
-TBD
-
-
-### -param arg4
-
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
 
-### -param arg5
+### -param arg3 [in]
 
-TBD
-
-
+A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface. If this parameter is NULL, the entire source surface is used.
 
 
-#### - dwFlags [in]
+### -param arg4 [in]
 
 A combination of flags that determine the valid members of the associated <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure, specify color-key information, or request special behavior from the method. The following flags are defined:
 
@@ -188,24 +176,9 @@ Not currently implemented.
 This method does not currently support z-aware bitblt operations. None of the flags beginning with "DDBLT_ZBUFFER" are supported.
 
 
-#### - lpDDBltFx [in]
+### -param arg5 [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure for the bitblt.
-
-
-#### - lpDDSrcSurface [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
-
-
-#### - lpDestRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt to on the destination surface. If this parameter is NULL, the entire destination surface is used.
-
-
-#### - lpSrcRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface. If this parameter is NULL, the entire source surface is used.
 
 
 ## -returns

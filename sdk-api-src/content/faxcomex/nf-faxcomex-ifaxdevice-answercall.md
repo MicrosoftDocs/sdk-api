@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_76uk.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: AnswerCall, AnswerCall method [Fax Service], AnswerCall method [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],AnswerCall method, IFaxDevice.AnswerCall, IFaxDevice::AnswerCall, _mfax_faxdevice.answercall, fax._mfax_faxdevice_answercall, fax._mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp, faxcomex/IFaxDevice::AnswerCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

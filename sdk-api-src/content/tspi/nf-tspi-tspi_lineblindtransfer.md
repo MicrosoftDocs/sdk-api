@@ -4,10 +4,10 @@ title: TSPI_lineBlindTransfer function
 author: windows-sdk-content
 description: The TSPI_lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
 old-location: tspi\tspi_lineblindtransfer.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 825f132c-fb0e-4e3d-bd2c-4e5226a30ba3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: TSPI_lineBlindTransfer, TSPI_lineBlindTransfer function [TAPI 2.2], _tspi_tspi_lineblindtransfer, tspi.tspi_lineblindtransfer, tspi/TSPI_lineBlindTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

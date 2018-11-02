@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillColor.htm
 tech.root: WinAuto
 ms.assetid: 3B1C3731-72E5-4407-AFA8-4E5ACB3F1FD2
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CurrentFillColor property [Windows Accessibility], CurrentFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillColor property, IUIAutomationStylesPattern.CurrentFillColor, IUIAutomationStylesPattern.get_CurrentFillColor, IUIAutomationStylesPattern::CurrentFillColor, IUIAutomationStylesPattern::get_CurrentFillColor, get_CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

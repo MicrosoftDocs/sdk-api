@@ -7,7 +7,7 @@ old-location: shell\FFFP_MODE.htm
 tech.root: shell
 ms.assetid: ffa62c36-6fdf-4644-b90d-9b5cc989de8a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_MODE, FFFP_MODE enumeration [Windows Shell], FFFP_NEARESTPARENTMATCH, _shell_FFFP_MODE, shell.FFFP_MODE, shobjidl_core/FFFP_EXACTMATCH, shobjidl_core/FFFP_MODE, shobjidl_core/FFFP_NEARESTPARENTMATCH
 ms.prod: windows
 ms.technology: windows-sdk

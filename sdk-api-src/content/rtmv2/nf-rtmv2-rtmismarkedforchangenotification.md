@@ -7,7 +7,7 @@ old-location: rras\rtmismarkedforchangenotification.htm
 tech.root: rras
 ms.assetid: bde390fe-3ada-48d3-b9aa-b4bb56228eac
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RtmIsMarkedForChangeNotification, RtmIsMarkedForChangeNotification function [RAS], _rtmv2ref_rtmismarkedforchangenotification, rras.rtmismarkedforchangenotification, rtmv2/RtmIsMarkedForChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

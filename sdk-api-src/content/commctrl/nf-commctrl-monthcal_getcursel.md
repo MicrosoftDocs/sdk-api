@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCurSel.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: MonthCal_GetCurSel, MonthCal_GetCurSel macro [Windows Controls], _win32_MonthCal_GetCurSel, _win32_MonthCal_GetCurSel_cpp, commctrl/MonthCal_GetCurSel, controls.MonthCal_GetCurSel, controls._win32_MonthCal_GetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices

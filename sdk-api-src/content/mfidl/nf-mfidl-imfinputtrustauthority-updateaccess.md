@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_updateaccess.htm
 tech.root: medfound
 ms.assetid: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176, IMFInputTrustAuthority interface [Media Foundation],UpdateAccess method, IMFInputTrustAuthority.UpdateAccess, IMFInputTrustAuthority::UpdateAccess, UpdateAccess, UpdateAccess method [Media Foundation], UpdateAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_updateaccess, mfidl/IMFInputTrustAuthority::UpdateAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

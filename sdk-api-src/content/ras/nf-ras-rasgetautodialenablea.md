@@ -7,7 +7,7 @@ old-location: rras\rasgetautodialenable.htm
 tech.root: rras
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetAutodialEnable, RasGetAutodialEnable function [RAS], RasGetAutodialEnableA, RasGetAutodialEnableW, _ras_rasgetautodialenable, ras/RasGetAutodialEnable, ras/RasGetAutodialEnableA, ras/RasGetAutodialEnableW, rras.rasgetautodialenable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,24 +61,12 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
 
-#### - lpfEnabled [out]
+### -param arg2 [out]
 
 Pointer to a BOOL variable that receives a nonzero value if AutoDial is enabled for the specified dialing location, or zero if it is not enabled.
 

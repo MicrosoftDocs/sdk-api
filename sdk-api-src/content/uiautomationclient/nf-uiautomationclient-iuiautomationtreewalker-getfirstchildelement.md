@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChild.htm
 tech.root: WinAuto
 ms.assetid: 2f1df27c-664b-451a-8a1f-e4dbc70b1845
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetFirstChildElement, GetFirstChildElement method [Windows Accessibility], GetFirstChildElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElement method, IUIAutomationTreeWalker.GetFirstChildElement, IUIAutomationTreeWalker::GetFirstChildElement, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChild, uiauto_IUIAutomationTreeWalker_GetFirstChild, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElement, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

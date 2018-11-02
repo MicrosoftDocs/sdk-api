@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragme
 tech.root: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Retrieves a fragment pointer for a fragment that is adjacent to the windowless M
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
+
+A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).  
 
 
 ### -param ppParent
@@ -68,13 +70,6 @@ TBD
 TBD
 
 
-
-
-#### - direction [in]
-
-Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
-
-A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).  
 
 
 #### - ppRetVal [out, retval]

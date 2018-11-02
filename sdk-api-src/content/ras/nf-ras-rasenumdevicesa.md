@@ -7,7 +7,7 @@ old-location: rras\rasenumdevices.htm
 tech.root: rras
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,37 +61,14 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a buffer that receives an array of 
 <a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures, one for each RAS-capable device. Before calling the function, set the <b>dwSize</b> member of the first 
 <b>RASDEVINFO</b> structure in the buffer to sizeof(<b>RASDEVINFO</b>) to identify the version of the structure.
 
 
-#### - lpcDevices [out]
-
-Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
-
-
-#### - lpcb [in, out]
+### -param arg2 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the <i>lpRasDevInfo</i> buffer. 
 
@@ -105,6 +82,12 @@ On output, the function sets this variable to the number of bytes required to en
 
 </div>
 <div> </div>
+
+### -param arg3 [out]
+
+Pointer to a variable that receives the number of 
+<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
+
 
 ## -returns
 

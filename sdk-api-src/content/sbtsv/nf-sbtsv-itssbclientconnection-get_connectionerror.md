@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_connectionerror.htm
 tech.root: termserv
 ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection.get_ConnectionError, ITsSbClientConnection::ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

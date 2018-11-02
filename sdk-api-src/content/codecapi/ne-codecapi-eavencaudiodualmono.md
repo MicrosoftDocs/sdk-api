@@ -7,7 +7,7 @@ old-location: dshow\eavencaudiodualmono.htm
 tech.root: DirectShow
 ms.assetid: 5204ca69-947a-4099-a571-b2c0047d9f7f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: codecapi/eAVEncAudioDualMono, codecapi/eAVEncAudioDualMono_Off, codecapi/eAVEncAudioDualMono_On, codecapi/eAVEncAudioDualMono_SameAsInput, dshow.eavencaudiodualmono, eAVEncAudioDualMono, eAVEncAudioDualMono enumeration [DirectShow], eAVEncAudioDualMonoEnumeration, eAVEncAudioDualMono_Off, eAVEncAudioDualMono_On, eAVEncAudioDualMono_SameAsInput
 ms.prod: windows
 ms.technology: windows-sdk

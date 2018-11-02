@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getrange.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: MonthCal_GetRange, MonthCal_GetRange macro [Windows Controls], _win32_MonthCal_GetRange, _win32_MonthCal_GetRange_cpp, commctrl/MonthCal_GetRange, controls.MonthCal_GetRange, controls._win32_MonthCal_GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\roundedrect.htm
 tech.root: direct2d
 ms.assetid: 200119a2-941c-493f-9e56-c9f306dc5322
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RoundedRect, RoundedRect function [Direct2D], d2d1helper/RoundedRect, direct2d.roundedrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

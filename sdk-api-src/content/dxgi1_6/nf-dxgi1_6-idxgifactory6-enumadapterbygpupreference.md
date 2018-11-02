@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory6_enumadapterbygpupreference.htm
 tech.root: direct3ddxgi
 ms.assetid: E5F835FB-3699-4E27-B990-4C1CF6E6DD48
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -105,9 +105,9 @@ Returns <b>S_OK</b> if successful; an error code otherwise. For a list of error 
 
 This method allows developers to select which GPU they think is most appropriate for each device their app creates and utilizes.
 
-This method is similar to <a href="https://msdn.microsoft.com/AC800F32-2922-45BA-A6D3-D3E45113B9A7">IDXGIFactory4::EnumAdapterByLuid</a>, but it accepts a GPU preference instead of an adapter LUID. It returns the appropriate <b>IDXGIAdapter</b> for the given GPU preference. It is meant to be used in conjunction with the <b>D3D*CreateDevice</b> functions, which take in an <b>IDXGIAdapter*</b>.
+This method is similar to <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1">IDXGIFactory1::EnumAdapters1</a>, but it accepts a GPU preference instead of an adapter LUID. It returns the appropriate <b>IDXGIAdapter</b> for the given GPU preference. It is meant to be used in conjunction with the <b>D3D*CreateDevice</b> functions, which take in an <b>IDXGIAdapter*</b>.
 
-When <b>DXGI_GPU_PREFERENCE_UNSPECIFIED</b> is specified for the <i>GpuPreference</i> parameter, this method is equivalent to calling <a href="https://msdn.microsoft.com/351b7b2d-abb7-449e-bee2-eea96fef3b9d">IDXGIFactory1::EnumAdapters1</a>.
+When <b>DXGI_GPU_PREFERENCE_UNSPECIFIED</b> is specified for the <i>GpuPreference</i> parameter, this method is equivalent to calling <a href="https://docs.microsoft.com/en-us/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1">IDXGIFactory1::EnumAdapters1</a>.
 
 When <b>DXGI_GPU_PREFERENCE_MINIMUM_POWER</b> is specified for the <i>GpuPreference</i> parameter, the order of preference for the adapter returned in <i>ppvAdapter</i> will be:<dl>
 <dd>1. iGPUs (integrated GPUs)</dd>

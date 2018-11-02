@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createtransform3dgroup.htm
 tech.root: directcomp
 ms.assetid: 47119ECA-CAA0-41E7-821E-18E99B6C91BD
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: CreateTransform3DGroup, CreateTransform3DGroup method [DirectComposition], CreateTransform3DGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTransform3DGroup method, IDCompositionDevice.CreateTransform3DGroup, IDCompositionDevice::CreateTransform3DGroup, dcomp/IDCompositionDevice::CreateTransform3DGroup, directcomp.idcompositiondevice_createtransform3dgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

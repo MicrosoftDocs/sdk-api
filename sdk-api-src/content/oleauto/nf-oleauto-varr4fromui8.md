@@ -7,7 +7,7 @@ old-location: automat\varr4fromui8.htm
 tech.root: automat
 ms.assetid: fc6872d4-0b0d-47fb-ab75-3f63e243f874
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarR4FromUI8, VarR4FromUI8 function [Automation], _oa96_VarR4FromUI8, automat.varr4fromui8, oleauto/VarR4FromUI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

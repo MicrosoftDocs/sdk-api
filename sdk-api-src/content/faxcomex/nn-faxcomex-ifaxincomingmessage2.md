@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\faxinta_n_ifaxincomingmessage2_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxIncomingMessage2, IFaxIncomingMessage2 interface [Fax Service], IFaxIncomingMessage2 interface [Fax Service],described, _mfax_faxincomingmessage2_cpp, fax._mfax_faxincomingmessage2_cpp, faxcomex/IFaxIncomingMessage2
 ms.prod: windows
 ms.technology: windows-sdk

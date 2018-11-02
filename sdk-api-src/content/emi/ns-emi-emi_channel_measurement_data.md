@@ -7,7 +7,7 @@ old-location: powermeter\emi_channel_measurement_data.htm
 tech.root: powermeter
 ms.assetid: 7485EA5D-65D2-49EB-B177-AF019EB15545
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: EMI_CHANNEL_MEASUREMENT_DATA, EMI_CHANNEL_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA_V1, emi/EMI_CHANNEL_MEASUREMENT_DATA, powermeter.emi_channel_measurement_data
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\getfeaturevariant.htm
 tech.root: devnotes
 ms.assetid: CEB545DB-321A-4FE6-B182-DC7F6B37D665
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: GetFeatureVariant, GetFeatureVariant function [Windows API], featurestagingapi/GetFeatureVariant, winprog.getfeaturevariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\PUNCTUATION.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\punctuation.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: PUNCTUATION, PUNCTUATION structure [Windows Controls], _punctuation, _win32_PUNCTUATION_str, _win32_PUNCTUATION_str_cpp, controls.PUNCTUATION, controls._win32_PUNCTUATION_str, richedit/PUNCTUATION
 ms.prod: windows
 ms.technology: windows-sdk

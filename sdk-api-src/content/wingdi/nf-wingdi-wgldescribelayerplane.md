@@ -7,7 +7,7 @@ old-location: opengl\wgldescribelayerplane.htm
 tech.root: OpenGL
 ms.assetid: a80d257e-7053-4328-8298-80ed72513837
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescribeLayerPlane, wglDescribeLayerPlane function [OpenGL], wingdi/wglDescribeLayerPlane"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,49 +60,25 @@ The <b>wglDescribeLayerPlane</b> function obtains information about the layer pl
 
 ### -param arg1
 
-TBD
+Specifies the device context of a window whose layer planes are to be described.
 
 
 ### -param arg2
 
-TBD
+Specifies which layer planes of a pixel format are being described.
 
 
 ### -param arg3
 
-TBD
+Specifies the overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure.
 
 
 ### -param arg4
 
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-
-
-#### - iLayerPlane
-
-Specifies the overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure.
-
-
-#### - iPixelFormat
-
-Specifies which layer planes of a pixel format are being described.
-
-
-#### - nBytes
-
 Specifies the size, in bytes, of the structure pointed to by <i>plpd</i>. The <b>wglDescribeLayerPlane</b> function stores layer plane data in a <a href="https://msdn.microsoft.com/fdb0322d-503f-4c17-b438-f764d60da7f6">LAYERPLANEDESCRIPTOR</a> structure, and stores no more than <i>nBytes</i> of data. Set the value of <i>nBytes</i> to the size of <b>LAYERPLANEDESCRIPTOR</b>.
 
 
-#### - plpd
+### -param arg5
 
 Points to a <b>LAYERPLANEDESCRIPTOR</b> structure. The <b>wglDescribeLayerPlane</b> function sets the value of the structure's data members. The function stores the number of bytes of data copied to the structure in the <b>nSize</b> member.
 

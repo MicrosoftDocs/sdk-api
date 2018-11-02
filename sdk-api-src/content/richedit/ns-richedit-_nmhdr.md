@@ -7,7 +7,7 @@ old-location: controls\NMHDR.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: NMHDR, NMHDR structure [Windows Controls], _nmhdr, _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR
 ms.prod: windows
 ms.technology: windows-sdk

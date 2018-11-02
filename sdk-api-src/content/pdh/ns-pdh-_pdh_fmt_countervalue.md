@@ -7,7 +7,7 @@ old-location: perf\pdh_fmt_countervalue_str.htm
 tech.root: perfctrs
 ms.assetid: 68ccd722-94d2-4610-ba64-f51318f5436e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PPDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE structure [Perf], PPDH_FMT_COUNTERVALUE, PPDH_FMT_COUNTERVALUE structure pointer [Perf], _PDH_FMT_COUNTERVALUE, _win32_pdh_fmt_countervalue_str, base.pdh_fmt_countervalue_str, pdh/PDH_FMT_COUNTERVALUE, pdh/PPDH_FMT_COUNTERVALUE, perf.pdh_fmt_countervalue_str"
 ms.prod: windows
 ms.technology: windows-sdk

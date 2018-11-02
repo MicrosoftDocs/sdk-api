@@ -4,10 +4,10 @@ title: WSAAsyncGetServByPort function
 author: windows-sdk-content
 description: The WSAAsyncGetServByPort function asynchronously retrieves service information that corresponds to a port and protocol.
 old-location: winsock\wsaasyncgetservbyport_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 0d0bd09c-ea97-46fb-b7b0-6e3e0a41dbc1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAAsyncGetServByPort, WSAAsyncGetServByPort function [Winsock], _win32_wsaasyncgetservbyport_2, winsock.wsaasyncgetservbyport_2, winsock/WSAAsyncGetServByPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

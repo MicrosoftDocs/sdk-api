@@ -7,7 +7,7 @@ old-location: gdi\axisinfo.htm
 tech.root: gdi
 ms.assetid: a947618e-4b50-453a-82d5-5a6f825faebb
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPAXISINFOA, *PAXISINFOA, AXISINFO, AXISINFO structure [Windows GDI], AXISINFOA, AXISINFOW, PAXISINFO, PAXISINFO structure pointer [Windows GDI], _win32_AXISINFO_str, gdi.axisinfo, tagAXISINFOA, wingdi/AXISINFO, wingdi/AXISINFOA, wingdi/AXISINFOW, wingdi/PAXISINFO"
 ms.prod: windows
 ms.technology: windows-sdk

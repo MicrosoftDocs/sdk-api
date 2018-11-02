@@ -7,7 +7,7 @@ old-location: com\icallframe_invoke.htm
 tech.root: com
 ms.assetid: 75cb7b96-55c9-4aee-b507-a549e2af38bc
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: ICallFrame interface [COM],Invoke method, ICallFrame.Invoke, ICallFrame::Invoke, Invoke, Invoke method [COM], Invoke method [COM],ICallFrame interface, _com_icallframe_invoke, callobj/ICallFrame::Invoke, com.icallframe_invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

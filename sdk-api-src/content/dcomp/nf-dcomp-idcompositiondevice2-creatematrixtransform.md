@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice2_creatematrixtransform.htm
 tech.root: directcomp
 ms.assetid: 4E8D8560-F7D3-4075-A4E9-00AFCEB526BE
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [DirectComposition], CreateMatrixTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateMatrixTransform method, IDCompositionDevice2.CreateMatrixTransform, IDCompositionDevice2::CreateMatrixTransform, dcomp/IDCompositionDevice2::CreateMatrixTransform, directcomp.idcompositiondevice2_creatematrixtransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 A new matrix transform object has the identity matrix as its initial value. The identity matrix is the 3x2 matrix with ones on the main diagonal and zeros elsewhere, as shown in the following illustration. 
 
-<img alt="Three-by-two identity matrix" src="images/identity_3x2matrix.png"/>
+<img alt="Three-by-two identity matrix" src="./images/identity_3x2matrix.png"/>
 
 When an identity transform is applied to an object, it does not change the position, shape, or size of the object. It is similar to the way that multiplying a number by one does not change the number. Any transform other than the identity transform will modify the position, shape, and/or size of objects.
 

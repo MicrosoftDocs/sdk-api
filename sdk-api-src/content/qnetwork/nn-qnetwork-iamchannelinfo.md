@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo.htm
 tech.root: DirectShow
 ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow],described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
 ms.prod: windows
 ms.technology: windows-sdk

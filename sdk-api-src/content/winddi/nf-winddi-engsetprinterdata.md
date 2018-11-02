@@ -7,7 +7,7 @@ old-location: display\engsetprinterdata.htm
 tech.root: display
 ms.assetid: 8e6ff116-8735-49b1-a67c-70f5d65efb0f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: EngSetPrinterData, EngSetPrinterData function [Display Devices], display.engsetprinterdata, gdifncs_5d3c9c7e-f688-4361-8aee-545c7244921a.xml, winddi/EngSetPrinterData
 ms.prod: windows-hardware
 ms.technology: windows-devices

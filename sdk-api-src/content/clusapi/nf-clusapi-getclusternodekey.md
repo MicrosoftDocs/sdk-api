@@ -7,7 +7,7 @@ old-location: mscs\getclusternodekey.htm
 tech.root: mscs
 ms.assetid: 8c943e86-aacc-4340-a26a-1d1916150344
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetClusterNodeKey, GetClusterNodeKey function [Failover Cluster], _wolf_getclusternodekey, clusapi/GetClusterNodeKey, mscs.getclusternodekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

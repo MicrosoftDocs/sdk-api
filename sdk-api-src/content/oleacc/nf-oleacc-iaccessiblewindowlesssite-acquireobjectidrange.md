@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange.htm
 tech.root: WinAuto
 ms.assetid: EB8BAD4D-0C8F-4926-A1B4-383D03C3B0C4
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],AcquireObjectIdRange method, IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

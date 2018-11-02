@@ -7,7 +7,7 @@ old-location: gdi\emrsetmiterlimit.htm
 tech.root: gdi
 ms.assetid: 2d56eb0d-5417-464b-be6a-57e4654003e6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMRSETMITERLIMIT, EMRSETMITERLIMIT, EMRSETMITERLIMIT structure [Windows GDI], PEMRSETMITERLIMIT, PEMRSETMITERLIMIT structure pointer [Windows GDI], _win32_EMRSETMITERLIMIT_str, gdi.emrsetmiterlimit, tagEMRSETMITERLIMIT, wingdi/EMRSETMITERLIMIT, wingdi/PEMRSETMITERLIMIT"
 ms.prod: windows
 ms.technology: windows-sdk

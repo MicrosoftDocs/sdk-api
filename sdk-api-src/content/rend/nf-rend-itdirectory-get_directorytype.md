@@ -4,10 +4,10 @@ title: ITDirectory::get_DirectoryType
 author: windows-sdk-content
 description: The get_DirectoryType method gets DIRECTORY_TYPE indicator of the type of the directory.
 old-location: tapi3\itdirectory_get_directorytype.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 3f0ca4c2-4ba9-4a6e-877b-36486086368f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryType method, ITDirectory.get_DirectoryType, ITDirectory::get_DirectoryType, _tapi3_itdirectory_get_directorytype, get_DirectoryType, get_DirectoryType method [TAPI 2.2], get_DirectoryType method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryType, tapi3.itdirectory_get_directorytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

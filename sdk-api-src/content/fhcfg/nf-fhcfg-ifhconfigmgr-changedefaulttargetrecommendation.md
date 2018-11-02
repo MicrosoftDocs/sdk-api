@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm
 tech.root: devnotes
 ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: ChangeDefaultTargetRecommendation, ChangeDefaultTargetRecommendation method [Windows API], ChangeDefaultTargetRecommendation method [Windows API],FhConfigMgr class, ChangeDefaultTargetRecommendation method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr interface [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr.ChangeDefaultTargetRecommendation, IFhConfigMgr::ChangeDefaultTargetRecommendation, fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation, winprog.ifhconfigmgr_changedefaulttargetrecommendation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\sysstringlen.htm
 tech.root: automat
 ms.assetid: 65e792af-f8a8-4cdc-a279-494bba59394a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SysStringLen, SysStringLen function [Automation], _oa96_SysStringLen, automat.sysstringlen, oleauto/SysStringLen
 ms.prod: windows-hardware
 ms.technology: windows-devices

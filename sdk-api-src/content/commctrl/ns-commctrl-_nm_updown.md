@@ -7,7 +7,7 @@ old-location: controls\NMUPDOWN.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _NM_UPDOWN, _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN"
 ms.prod: windows
 ms.technology: windows-sdk

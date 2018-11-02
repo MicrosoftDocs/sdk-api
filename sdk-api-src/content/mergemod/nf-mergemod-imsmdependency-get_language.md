@@ -7,7 +7,7 @@ old-location: setup\imsmdependency_get_language.htm
 tech.root: msi
 ms.assetid: eb7e224d-948e-46d6-ac1b-cd851530cc8b
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IMsmDependency interface,get_Language method, IMsmDependency.get_Language, IMsmDependency::get_Language, _msi_get_language_function_dependency_object_, get_Language, get_Language method, get_Language method,IMsmDependency interface, mergemod/IMsmDependency::get_Language, setup.imsmdependency_get_language
 ms.prod: windows-hardware
 ms.technology: windows-devices

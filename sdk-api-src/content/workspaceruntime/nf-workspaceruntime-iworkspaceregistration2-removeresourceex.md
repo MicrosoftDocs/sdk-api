@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceregistration2_removeresourceex.htm
 tech.root: termserv
 ms.assetid: dc8b7374-4a64-43a8-947e-0088aa26444e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveResourceEx method, IWorkspaceRegistration2.RemoveResourceEx, IWorkspaceRegistration2::RemoveResourceEx, RemoveResourceEx, RemoveResourceEx method [Remote Desktop Services], RemoveResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, RemoveResourceEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RemoveResourceEx method, termserv.iworkspaceregistration2_removeresourceex, workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

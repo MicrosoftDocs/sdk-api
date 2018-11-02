@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxaccountnotify_onoutgoingjobchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutgoingjobchanged.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingJobChanged, OnOutgoingJobChanged, OnOutgoingJobChanged method [Fax Service], OnOutgoingJobChanged method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingJobChanged method, _IFaxAccountNotify.OnOutgoingJobChanged, _IFaxAccountNotify::OnOutgoingJobChanged, _mfax_ifaxaccountnotify_onoutgoingjobchanged, fax._mfax_ifaxaccountnotify_onoutgoingjobchanged, faxcomex/_IFaxAccountNotify::OnOutgoingJobChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

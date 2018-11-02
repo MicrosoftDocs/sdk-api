@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusinrange.htm
 tech.root: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 586e7fee-6340-46b6-941f-1316b2925e1c, IStylusPlugin interface [Tablet PC],StylusInRange method, IStylusPlugin.StylusInRange, IStylusPlugin::StylusInRange, StylusInRange, StylusInRange method [Tablet PC], StylusInRange method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusInRange, tablet.istylusplugin_stylusinrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

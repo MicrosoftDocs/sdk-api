@@ -7,7 +7,7 @@ old-location: shell\LongPtrMult.htm
 tech.root: shell
 ms.assetid: c2b86515-fe03-439a-bfe4-d92750b29279
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: LongPtrMult, LongPtrMult function [Windows Shell], intsafe/LongPtrMult, shell.LongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

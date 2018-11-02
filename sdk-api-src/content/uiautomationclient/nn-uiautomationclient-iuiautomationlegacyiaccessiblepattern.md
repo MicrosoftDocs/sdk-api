@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern.htm
 tech.root: WinAuto
 ms.assetid: d6564d14-a739-47bf-9202-0757ac3ba7f8
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern, uiauto_IUIAutomationLegacyIAccessiblePattern, uiautomationclient/IUIAutomationLegacyIAccessiblePattern, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern
 ms.prod: windows
 ms.technology: windows-sdk

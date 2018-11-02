@@ -4,10 +4,10 @@ title: PHONE_HOOK_SWITCH_STATE
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.
 old-location: tapi3\phone_hook_switch_state.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: c9501a3f-1aaa-4d58-aca1-5ef00c31d195
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: PHONE_HOOK_SWITCH_STATE, PHONE_HOOK_SWITCH_STATE enumeration [TAPI 2.2], PHSS_OFFHOOK, PHSS_OFFHOOK_MIC_ONLY, PHSS_OFFHOOK_SPEAKER_ONLY, PHSS_ONHOOK, _tapi3_phone_hook_switch_state, tapi3.phone_hook_switch_state, tapi3if/PHONE_HOOK_SWITCH_STATE, tapi3if/PHSS_OFFHOOK, tapi3if/PHSS_OFFHOOK_MIC_ONLY, tapi3if/PHSS_OFFHOOK_SPEAKER_ONLY, tapi3if/PHSS_ONHOOK
 ms.prod: windows
 ms.technology: windows-sdk

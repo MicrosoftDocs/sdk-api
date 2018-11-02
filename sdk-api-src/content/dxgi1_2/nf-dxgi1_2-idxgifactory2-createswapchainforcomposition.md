@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchainforcompositionsurface.ht
 tech.root: direct3ddxgi
 ms.assetid: 8AE13082-F8C3-422A-A111-4E91488BD1AF
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: CreateSwapChainForComposition, CreateSwapChainForComposition method [DXGI], CreateSwapChainForComposition method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForComposition method, IDXGIFactory2.CreateSwapChainForComposition, IDXGIFactory2::CreateSwapChainForComposition, direct3ddxgi.idxgifactory2_createswapchainforcompositionsurface, dxgi1_2/IDXGIFactory2::CreateSwapChainForComposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

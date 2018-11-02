@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollogonerrorredirector.htm
 tech.root: termserv
 ms.assetid: 1ff30217-9091-47df-a38f-30784538f0b9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwtsprotocollogonerrorredirector, wtsprotocol/IWTSProtocolLogonErrorRedirector
 ms.prod: windows
 ms.technology: windows-sdk

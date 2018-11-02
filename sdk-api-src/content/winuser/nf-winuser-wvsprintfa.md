@@ -7,7 +7,7 @@ old-location: menurc\wvsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wvsprintf.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._win32_wvsprintf, winuser/wvsprintf, winuser/wvsprintfA, winuser/wvsprintfW, wvsprintf, wvsprintf function [Menus and Other Resources], wvsprintfA, wvsprintfW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,18 @@ Writes formatted data to the specified buffer using a pointer to a list of argum
 
 
 
-### -param arg1
+### -param arg1 [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
 
 
-### -param arg2
+### -param arg2 [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the <a href="https://msdn.microsoft.com/en-us/library/ms647550(v=VS.85).aspx">wsprintf</a> function.
 
 
 ### -param arglist [in]
@@ -78,20 +82,6 @@ Type: <b>va_list</b>
 
 Each element of this list specifies an argument for the format-control string. The number, type, and interpretation of the arguments depend on the corresponding format-control specifications in the 
 					<i>lpFmt</i> parameter.
-
-
-#### - lpFmt [in]
-
-Type: <b>LPCTSTR</b>
-
-The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the <a href="https://msdn.microsoft.com/en-us/library/ms647550(v=VS.85).aspx">wsprintf</a> function.
-
-
-#### - param [out]
-
-Type: <b>LPTSTR</b>
-
-The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
 
 
 ## -returns

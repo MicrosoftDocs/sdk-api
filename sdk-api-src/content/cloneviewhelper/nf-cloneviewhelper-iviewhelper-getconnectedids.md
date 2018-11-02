@@ -7,7 +7,7 @@ old-location: display\iviewhelper_getconnectedids.htm
 tech.root: display
 ms.assetid: ca3dfc5b-0851-4a09-8b5c-25b8c300c2bb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetConnectedIDs, GetConnectedIDs method [Display Devices], GetConnectedIDs method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetConnectedIDs method, IViewHelper.GetConnectedIDs, IViewHelper::GetConnectedIDs, TMM_Ref_0c676d81-3866-4c7e-91e9-cd986374fa00.xml, cloneviewhelper/IViewHelper::GetConnectedIDs, display.iviewhelper_getconnectedids
 ms.prod: windows-hardware
 ms.technology: windows-devices

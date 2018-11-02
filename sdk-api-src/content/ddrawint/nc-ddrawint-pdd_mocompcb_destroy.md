@@ -7,7 +7,7 @@ old-location: display\ddmocompdestroy.htm
 tech.root: display
 ms.assetid: 7a8900d0-4c9f-4600-8408-197f4e7c78ba
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: DdMoCompDestroy, DdMoCompDestroy callback function [Display Devices], PDD_MOCOMPCB_DESTROY, PDD_MOCOMPCB_DESTROY callback, ddfncs_7fbf03ee-a58a-40f0-88b6-f9bf68cb3f8f.xml, ddrawint/DdMoCompDestroy, display.ddmocompdestroy
 ms.prod: windows
 ms.technology: windows-sdk

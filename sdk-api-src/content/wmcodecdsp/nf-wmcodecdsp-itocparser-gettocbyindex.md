@@ -7,7 +7,7 @@ old-location: mf\itocparser_gettocbyindex.htm
 tech.root: medfound
 ms.assetid: 1386e348-c94f-4343-908c-338352eae494
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: GetTocByIndex, GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByIndex method, ITocParser.GetTocByIndex, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ The <b>GetTocByIndex</b> method retrieves a table of contents, specified by an i
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be retrieved.
 
 
 ### -param dwTocIndex [in]
@@ -71,11 +71,6 @@ The index of the table of contents to be retrieved.
 ### -param ppToc [out]
 
 Pointer to a variable that receives a pointer to an <a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a> interface that represents the retrieved table of contents.
-
-
-#### - enumTocPosType [in]
-
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be retrieved.
 
 
 ## -returns

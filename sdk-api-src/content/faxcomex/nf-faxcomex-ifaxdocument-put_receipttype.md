@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_receipttype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_75ut.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxDocument interface [Fax Service],ReceiptType property, IFaxDocument.ReceiptType, IFaxDocument.get_ReceiptType, IFaxDocument.put_ReceiptType, IFaxDocument::ReceiptType, IFaxDocument::get_ReceiptType, IFaxDocument::put_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxDocument interface, _mfax_faxdocument.receipttype, fax._mfax_faxdocument_cpp_mfax_faxdocument_receipttype_cpp, fax._mfax_faxdocument_receipttype, faxcomex/IFaxDocument::ReceiptType, faxcomex/IFaxDocument::get_ReceiptType, faxcomex/IFaxDocument::put_ReceiptType, put_ReceiptType
 ms.prod: windows-hardware
 ms.technology: windows-devices

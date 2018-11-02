@@ -7,7 +7,7 @@ old-location: rras\mprinfoblockquerysize.htm
 tech.root: rras
 ms.assetid: cac491c9-3486-4eba-afe9-9e18f50c0643
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: MprInfoBlockQuerySize, MprInfoBlockQuerySize function [RAS], _mpr_mprinfoblockquerysize, mprapi/MprInfoBlockQuerySize, rras.mprinfoblockquerysize
 ms.prod: windows-hardware
 ms.technology: windows-devices

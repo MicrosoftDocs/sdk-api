@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getdatetimearray.htm
 tech.root: WinRT
 ms.assetid: 76d18ef4-676c-4130-90e3-e74776e47f33
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetDateTimeArray, GetDateTimeArray method [Windows Runtime], GetDateTimeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTimeArray method, IPropertyValue.GetDateTimeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTimeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTimeArray, winrt.ipropertyvalue_getdatetimearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

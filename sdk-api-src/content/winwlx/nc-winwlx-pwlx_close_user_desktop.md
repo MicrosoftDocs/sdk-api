@@ -7,7 +7,7 @@ old-location: security\wlxcloseuserdesktop.htm
 tech.root: secauthn
 ms.assetid: ad910f0b-f8fb-4246-830e-1edb23e06f36
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: PWLX_CLOSE_USER_DESKTOP, PWLX_CLOSE_USER_DESKTOP callback, WlxCloseUserDesktop, WlxCloseUserDesktop callback function [Security], _gina_wlxcloseuserdesktop, security.wlxcloseuserdesktop, winwlx/WlxCloseUserDesktop
 ms.prod: windows
 ms.technology: windows-sdk

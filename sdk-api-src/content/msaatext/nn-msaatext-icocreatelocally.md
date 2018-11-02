@@ -7,7 +7,7 @@ old-location: winauto\icocreatelocally.htm
 tech.root: WinAuto
 ms.assetid: df432ace-01ff-4100-a9df-4ed6abea7f1c
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: ICoCreateLocally, ICoCreateLocally interface [Windows Accessibility], ICoCreateLocally interface [Windows Accessibility],described, msaa.icocreatelocally, msaatext/ICoCreateLocally, winauto.icocreatelocally
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes a method that enables a client application to create a helper object in the server context.

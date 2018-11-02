@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisY(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the AxisY property of a 3D rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
-old-location: directcomp\idcompositionrotatetransform3d_setaxisy_float.htm
+description: Animates the value of the AxisY property of a 3D rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
+old-location: directcomp\idcompositionrotatetransform3d_setaxisy_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: EEDED20E-B1AC-4464-ABB5-C413E10B3E7E
+ms.assetid: E4FEC079-D1D6-4279-8AE1-7987312A6DC5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisY method, IDCompositionRotateTransform3D.SetAxisY, IDCompositionRotateTransform3D.SetAxisY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisY, IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisY(float), SetAxisY, SetAxisY method [DirectComposition], SetAxisY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisY method, IDCompositionRotateTransform3D.SetAxisY, IDCompositionRotateTransform3D.SetAxisY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisY, IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation*), SetAxisY, SetAxisY method [DirectComposition], SetAxisY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the AxisY property of a 3D rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation.  The default value is zero.
+Animates the value of the AxisY property of a 3D rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the AxisY property of a 3D rotation transform. The AxisY pr
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - axisY [in]
-
-Type: <b>float</b>
-
-The new y-coordinate for the axis vector of rotation. 
+An animation object that determines how the value of the AxisY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -89,11 +82,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 When setting the axis to a non-default value, you should always set all three axis properties (AxisX, AxisY, and AxisZ).
 
-This method fails if the <i>axisY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the AxisY property unless this method is called again. If the AxisY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the AxisY property was previously animated, this method removes the animation and sets the AxisY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected 3D transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

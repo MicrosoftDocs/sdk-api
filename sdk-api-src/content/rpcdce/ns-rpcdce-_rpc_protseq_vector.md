@@ -4,10 +4,10 @@ title: "_RPC_PROTSEQ_VECTOR"
 author: windows-sdk-content
 description: The RPC_PROTSEQ_VECTOR structure contains a list of protocol sequences the RPC run-time library uses to send and receive remote procedure calls.
 old-location: rpc\rpc_protseq_vector.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 535ffce0-54e2-483c-8b74-006b6f5e05f0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RPC_PROTSEQ_VECTOR, RPC_PROTSEQ_VECTOR structure [RPC], _RPC_PROTSEQ_VECTOR, _rpc_rpc_protseq_vector, rpc.rpc_protseq_vector, rpcdce/RPC_PROTSEQ_VECTOR
 ms.prod: windows
 ms.technology: windows-sdk

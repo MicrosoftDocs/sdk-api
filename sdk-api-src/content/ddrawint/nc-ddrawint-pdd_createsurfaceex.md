@@ -7,7 +7,7 @@ old-location: display\d3dcreatesurfaceex.htm
 tech.root: display
 ms.assetid: dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: D3dCreateSurfaceEx, D3dCreateSurfaceEx callback function [Display Devices], PDD_CREATESURFACEEX, PDD_CREATESURFACEEX callback, d3dfncs_84d5da96-838e-4ba9-84a2-412e58f36bd0.xml, ddrawint/D3dCreateSurfaceEx, display.d3dcreatesurfaceex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WSAQuerySocketSecurity function
 author: windows-sdk-content
 description: Queries information about the security applied to a connection on a socket.
 old-location: winsock\wsaquerysocketsecurity.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: fda7738f-b7fc-49c3-aa40-9beea31d1009
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAQuerySocketSecurity, WSAQuerySocketSecurity function [Winsock], winsock.wsaquerysocketsecurity, ws2tcpip/WSAQuerySocketSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

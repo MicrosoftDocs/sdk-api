@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPropertyChangedEventHandler_HandleProp
 tech.root: WinAuto
 ms.assetid: 3b0bb9a0-b2a5-4843-9431-cc00e1836dd1
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: HandlePropertyChangedEvent, HandlePropertyChangedEvent method [Windows Accessibility], HandlePropertyChangedEvent method [Windows Accessibility],IUIAutomationPropertyChangedEventHandler interface, IUIAutomationPropertyChangedEventHandler interface [Windows Accessibility],HandlePropertyChangedEvent method, IUIAutomationPropertyChangedEventHandler.HandlePropertyChangedEvent, IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent, uiauto.uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent, uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent, uiautomationclient/IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent, winauto.uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The identifier of the property whose value has changed. For a list of property I
 
 ### -param newValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
 
 The new property value.
 

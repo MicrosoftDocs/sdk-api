@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport.htm
 tech.root: WinRT
 ms.assetid: c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], IMetaDataAssemblyImport interface [Windows Runtime],described, rometadataapi/IMetaDataAssemblyImport, winrt.imetadataassemblyimport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCachedPropertyValueEx.htm
 tech.root: WinAuto
 ms.assetid: 3f496ee4-8508-4331-9c1c-7805e17874f9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetCachedPropertyValueEx, GetCachedPropertyValueEx method [Windows Accessibility], GetCachedPropertyValueEx method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPropertyValueEx method, IUIAutomationElement.GetCachedPropertyValueEx, IUIAutomationElement::GetCachedPropertyValueEx, uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValueEx, uiauto_IUIAutomationElement_GetCachedPropertyValueEx, uiautomationclient/IUIAutomationElement::GetCachedPropertyValueEx, winauto.uiauto_IUIAutomationElement_GetCachedPropertyValueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ A value that specifies whether a default value should be ignored if the specifie
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>*</b>
 
 Receives the value of the property.
 
@@ -102,7 +102,7 @@ If the Microsoft UI Automation provider for the element itself supports the prop
 
 This method returns a failure code  if the requested property was not previously cached.
 
-UI Automation properties of the <b>double</b> type support Not a Number (NaN) values. When retrieving a property of the <b>double</b> type, a client can use the <a href="http://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
+UI Automation properties of the <b>double</b> type support Not a Number (NaN) values. When retrieving a property of the <b>double</b> type, a client can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198403">_isnan</a> function to determine whether the property is a NaN value.
         
 
 

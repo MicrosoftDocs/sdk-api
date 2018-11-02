@@ -7,7 +7,7 @@ old-location: gdi\createrectrgn.htm
 tech.root: gdi
 ms.assetid: 17456440-c655-48ab-8d1e-ee770330f164
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: CreateRectRgn, CreateRectRgn function [Windows GDI], _win32_CreateRectRgn, gdi.createrectrgn, wingdi/CreateRectRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

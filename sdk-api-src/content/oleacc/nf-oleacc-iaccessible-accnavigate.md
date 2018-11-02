@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accnavigate.htm
 tech.root: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later 
 
 
 The <b>IAccessible::accNavigate</b> method traverses to another UI element within a container and retrieves the object. This method is optional.
-<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>, <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>, <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>, <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>, <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>.</div><div> </div>
 
 ## -parameters
 

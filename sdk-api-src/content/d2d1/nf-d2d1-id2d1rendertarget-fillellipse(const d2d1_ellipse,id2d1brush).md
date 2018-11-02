@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_FillEllipse_ptr_D2D1_ELLIPSE_ptr_ID2D1B
 tech.root: direct2d
 ms.assetid: 30027ffd-f835-44a7-8c58-c8cef79f0037
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: FillEllipse, FillEllipse method [Direct2D], FillEllipse method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillEllipse method, ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE,ID2D1Brush), ID2D1RenderTarget::FillEllipse, ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE,ID2D1Brush), d2d1/ID2D1RenderTarget::FillEllipse, direct2d.ID2D1RenderTarget_FillEllipse_ptr_D2D1_ELLIPSE_ptr_ID2D1Brush
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createdoublearray.htm
 tech.root: WinRT
 ms.assetid: 709235a3-0699-49a2-a487-76bc5e4efb64
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateDoubleArray, CreateDoubleArray method [Windows Runtime], CreateDoubleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDoubleArray method, IPropertyValueStatics.CreateDoubleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDoubleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDoubleArray, winrt.ipropertyvaluefactory_createdoublearray, winrt.ipropertyvaluestatics_createdoublearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

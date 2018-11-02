@@ -7,7 +7,7 @@ old-location: rras\rtmdeleteroutelist.htm
 tech.root: rras
 ms.assetid: 0f8f04af-6ef6-42a7-a086-ba1706815ccb
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RtmDeleteRouteList, RtmDeleteRouteList function [RAS], _rtmv2ref_rtmdeleteroutelist, rras.rtmdeleteroutelist, rtmv2/RtmDeleteRouteList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\cm_is_dock_station_present.htm
 tech.root: devinst
 ms.assetid: 1c07dca9-5209-46d5-a0a3-87a615e3d40a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Is_Dock_Station_Present, CM_Is_Dock_Station_Present function [Device and Driver Installation], cfgmgr32/CM_Is_Dock_Station_Present, cfgmgrfn_ad4a7b33-0c70-4f03-91e2-c4707c83656e.xml, devinst.cm_is_dock_station_present
 ms.prod: windows-hardware
 ms.technology: windows-devices

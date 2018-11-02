@@ -7,7 +7,7 @@ old-location: security\crypthashsessionkey.htm
 tech.root: seccrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipersiststreaminit_save.htm
 tech.root: com
 ms.assetid: f88b61d0-dd85-4e8e-b445-dfced6521981
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IPersistStreamInit interface [COM],Save method, IPersistStreamInit.Save, IPersistStreamInit::Save, Save, Save method [COM], Save method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

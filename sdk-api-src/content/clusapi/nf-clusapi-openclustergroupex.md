@@ -7,7 +7,7 @@ old-location: mscs\openclustergroupex.htm
 tech.root: mscs
 ms.assetid: 240defbb-b9e9-4455-b863-c9b2192f12b7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: OpenClusterGroupEx, OpenClusterGroupEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_EX, PCLUSAPI_OPEN_CLUSTER_GROUP_EX function [Failover Cluster], clusapi/OpenClusterGroupEx, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_EX, mscs.openclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices

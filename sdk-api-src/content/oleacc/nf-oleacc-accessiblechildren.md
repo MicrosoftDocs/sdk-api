@@ -7,7 +7,7 @@ old-location: winauto\accessiblechildren.htm
 tech.root: WinAuto
 ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ When calling this function to obtain information about the children of a user in
 
 If a child ID is returned for an element, then the container must provide information about the child element. To obtain information about the element, clients use the container's  <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer and specify the obtained child ID in calls to the <b>IAccessible</b> properties.
 
-Clients must call the <a href="http://go.microsoft.com/fwlink/p/?linkid=123614">IUnknown::Release</a> method for any <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
+Clients must call the <a href="https://go.microsoft.com/fwlink/p/?linkid=123614">IUnknown::Release</a> method for any <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
 
 
 #### Examples

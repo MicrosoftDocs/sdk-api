@@ -7,7 +7,7 @@ old-location: controls\PropSheet_IsDialogMessage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_isdialogmessage.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: PropSheet_IsDialogMessage, PropSheet_IsDialogMessage macro [Windows Controls], _win32_PropSheet_IsDialogMessage, _win32_PropSheet_IsDialogMessage_cpp, controls.PropSheet_IsDialogMessage, controls._win32_PropSheet_IsDialogMessage, prsht/PropSheet_IsDialogMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

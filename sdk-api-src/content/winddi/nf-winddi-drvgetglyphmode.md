@@ -7,7 +7,7 @@ old-location: display\drvgetglyphmode.htm
 tech.root: display
 ms.assetid: 8e11c4e7-0203-4445-8f33-3b928161c62a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: DrvGetGlyphMode, DrvGetGlyphMode function [Display Devices], ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml, display.drvgetglyphmode, winddi/DrvGetGlyphMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>DrvGetGlyphMode</b> function tells GDI how to cache glyph information.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Handle to a physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> structure.
 
 
-#### - pfo [in]
+### -param arg2 [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure that can be queried to find the font size, transform, and other font attributes.
 

@@ -7,7 +7,7 @@ old-location: dshow\ienumpidmap_next.htm
 tech.root: DirectShow
 ms.assetid: e7e3a2a7-cc62-478d-b0b8-30d58f0b3372
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Next method, IEnumPIDMap.Next, IEnumPIDMap::Next, IEnumPIDMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Next, dshow.ienumpidmap_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptxmldllencodealgorithm.htm
 tech.root: seccrypto
 ms.assetid: ef21897e-66f1-436c-8440-91422f5c95a7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CryptXmlDllEncodeAlgorithm, CryptXmlDllEncodeAlgorithm callback, CryptXmlDllEncodeAlgorithm callback function [Security], cryptxml/CryptXmlDllEncodeAlgorithm, security.cryptxmldllencodealgorithm
 ms.prod: windows
 ms.technology: windows-sdk

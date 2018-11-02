@@ -7,7 +7,7 @@ old-location: controls\BufferedPaintStopAllAnimations.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintstopallanimations.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: BufferedPaintStopAllAnimations, BufferedPaintStopAllAnimations function [Windows Controls], _shell_BufferedPaintStopAllAnimations, _shell_BufferedPaintStopAllAnimations_cpp, controls.BufferedPaintStopAllAnimations, controls._shell_BufferedPaintStopAllAnimations, uxtheme/BufferedPaintStopAllAnimations
 ms.prod: windows-hardware
 ms.technology: windows-devices

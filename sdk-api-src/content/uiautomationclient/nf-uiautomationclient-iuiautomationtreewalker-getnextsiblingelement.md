@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSibling.htm
 tech.root: WinAuto
 ms.assetid: a1e42cb4-0b87-42c2-9ea5-67630c0b895a
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetNextSiblingElement, GetNextSiblingElement method [Windows Accessibility], GetNextSiblingElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetNextSiblingElement method, IUIAutomationTreeWalker.GetNextSiblingElement, IUIAutomationTreeWalker::GetNextSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSibling, uiauto_IUIAutomationTreeWalker_GetNextSibling, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetNextSibling
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_miscellaneous2callbacks.htm
 tech.root: display
 ms.assetid: bb3e91c0-5399-4760-a12e-0a47f0fbd2f9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS structure [Display Devices], PDD_MISCELLANEOUS2CALLBACKS, PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices], _DD_MISCELLANEOUS2CALLBACKS, ddrawint/DD_MISCELLANEOUS2CALLBACKS, ddrawint/PDD_MISCELLANEOUS2CALLBACKS, ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml, display.dd_miscellaneous2callbacks"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\rasgeteapuserdata.htm
 tech.root: rras
 ms.assetid: 6b1a1c73-28af-43ff-b79c-c796ddae219c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserDataA, RasGetEapUserDataW, _ras_rasgeteapuserdata, ras/RasGetEapUserData, ras/RasGetEapUserDataA, ras/RasGetEapUserDataW, rras.rasgeteapuserdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

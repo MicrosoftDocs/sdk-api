@@ -7,7 +7,7 @@ old-location: display\floatobj_setlong.htm
 tech.root: display
 ms.assetid: 4fa1b8a6-8172-4047-9ee2-fe00f0924487
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: FLOATOBJ_SetLong, FLOATOBJ_SetLong function [Display Devices], display.floatobj_setlong, gdifncs_b0a076a3-766b-42fb-a04d-5da69177656b.xml, winddi/FLOATOBJ_SetLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a hr
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [out]
+### -param arg1 [out]
 
 Pointer to the FLOATOBJ that will receive the value of <i>l</i>.
 
 
-#### - l [in]
+### -param arg2 [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the assignment.
 

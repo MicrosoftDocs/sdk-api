@@ -7,7 +7,7 @@ old-location: winauto\getoleaccversioninfo.htm
 tech.root: WinAuto
 ms.assetid: 96dcdb85-4f35-4274-ba57-2f565c3ebb5f
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetOleaccVersionInfo, GetOleaccVersionInfo function [Windows Accessibility], _msaa_GetOleaccVersionInfo, msaa.getoleaccversioninfo, oleacc/GetOleaccVersionInfo, winauto.getoleaccversioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ This function does not return a value.
 
 
 
-This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="http://go.microsoft.com/fwlink/p/?linkid=178218">GetFileVersionInfoSize</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=178219">GetFileVersionInfo</a>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=178220">VerQueryValue</a> functions can be used to retrieve the same information.
+This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="https://go.microsoft.com/fwlink/p/?linkid=178218">GetFileVersionInfoSize</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=178219">GetFileVersionInfo</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=178220">VerQueryValue</a> functions can be used to retrieve the same information.
 
 
 

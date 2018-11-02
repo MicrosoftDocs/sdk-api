@@ -7,7 +7,7 @@ old-location: wcs\setcolorprofileelement.htm
 tech.root: WCS
 ms.assetid: 9991cdf7-4ab4-49da-b1ea-70dbeff77f4c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SetColorProfileElement, SetColorProfileElement function [Windows Color System], _color_SetColorProfileElement, icm/SetColorProfileElement, wcs.setcolorprofileelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

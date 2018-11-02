@@ -4,10 +4,10 @@ title: ITACDGroupEvent
 author: windows-sdk-content
 description: The ITACDGroupEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
 old-location: tapi3\itacdgroupevent.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
 ms.prod: windows
 ms.technology: windows-sdk

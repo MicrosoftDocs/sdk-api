@@ -4,10 +4,10 @@ title: IWdsTransportServicePolicy2
 author: windows-sdk-content
 description: This interface inherits from the IWdsTransportServicePolicy interface and extends it beginning with Windows Server 2012.
 old-location: wds\iwdstransportservicepolicy2.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], IWdsTransportServicePolicy2 interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy2, wdstptmgmt/IWdsTransportServicePolicy2
 ms.prod: windows
 ms.technology: windows-sdk

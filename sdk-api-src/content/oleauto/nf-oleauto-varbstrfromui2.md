@@ -7,7 +7,7 @@ old-location: automat\varbstrfromui2.htm
 tech.root: automat
 ms.assetid: ee5c6582-f040-4b65-8ed7-3ba571d3a348
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI2, VarBstrFromUI2 function [Automation], _oa96_VarBstrFromUI2, automat.varbstrfromui2, oleauto/VarBstrFromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

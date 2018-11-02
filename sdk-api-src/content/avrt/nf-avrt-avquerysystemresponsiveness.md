@@ -4,10 +4,10 @@ title: AvQuerySystemResponsiveness function
 author: windows-sdk-content
 description: Retrieves the system responsiveness setting used by the multimedia class scheduler service.
 old-location: base\avquerysystemresponsiveness.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 87184232-9f58-4a59-87e9-fdd081a7dc5c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, avrt/AvQuerySystemResponsiveness, base.avquerysystemresponsiveness
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_cancreatesurfacedata.htm
 tech.root: display
 ms.assetid: 35ac7efd-1949-497c-8730-2c4414aed977
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA structure [Display Devices], _DD_CANCREATESURFACEDATA, ddrawint/DD_CANCREATESURFACEDATA, ddstrcts_53ef5031-d754-4aab-8729-520852df024a.xml, display.dd_cancreatesurfacedata"
 ms.prod: windows
 ms.technology: windows-sdk

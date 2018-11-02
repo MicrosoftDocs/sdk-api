@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptions.htm
 tech.root: WinAuto
 ms.assetid: D6A872E7-290D-45E7-B4FD-7201A4E990A2
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: FindFirstWithOptions, FindFirstWithOptions method [Windows Accessibility], FindFirstWithOptions method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptions method, IUIAutomationElement7.FindFirstWithOptions, IUIAutomationElement7::FindFirstWithOptions, uiautomationclient/IUIAutomationElement7::FindFirstWithOptions, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptions, winauto.uiauto_iuiautomationelement_findfirstwithoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Finds the first matching element in the specified order.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+A combination of values specifying the scope of the search. 
 
 
 ### -param condition [in]
@@ -70,7 +70,7 @@ A pointer to a condition that represents the criteria to match.
 
 ### -param arg2
 
-TBD
+Enumeration value specifying the tree navigation order.
 
 
 ### -param root [in, optional]
@@ -88,16 +88,6 @@ TBD
 #### - foundElement [out, retval]
 
 Receives a pointer to the element. <b>NULL</b> is returned if no matching element is found.
-
-
-#### - scope [in]
-
-A combination of values specifying the scope of the search. 
-
-
-#### - traversalOptions
-
-Enumeration value specifying the tree navigation order.
 
 
 ## -returns

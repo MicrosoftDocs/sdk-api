@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetDirect3D
 author: windows-sdk-content
 description: Returns an interface to the instance of the Direct3D object that created the device.
 old-location: direct3d9\idirect3ddevice9__getdirect3d.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdirect3d.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 81502735-fdf2-3d9f-7157-db6ecffe07a9, GetDirect3D, GetDirect3D method [Direct3D 9], GetDirect3D method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDirect3D method, IDirect3DDevice9.GetDirect3D, IDirect3DDevice9::GetDirect3D, d3d9helper/IDirect3DDevice9::GetDirect3D, direct3d9.idirect3ddevice9__getdirect3d
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ibpcsatellitetuner_put_defaultsubchanneltypes.htm
 tech.root: DirectShow
 ms.assetid: 90f73ca0-1d9a-4161-bc86-d69cc71e88c6
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],put_DefaultSubChannelTypes method, IBPCSatelliteTuner.put_DefaultSubChannelTypes, IBPCSatelliteTuner::put_DefaultSubChannelTypes, IBPCSatelliteTunerput_DefaultSubChannelTypes, dshow.ibpcsatellitetuner_put_defaultsubchanneltypes, put_DefaultSubChannelTypes, put_DefaultSubChannelTypes method [DirectShow], put_DefaultSubChannelTypes method [DirectShow],IBPCSatelliteTuner interface, strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

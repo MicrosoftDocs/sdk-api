@@ -4,10 +4,10 @@ title: WdsCliGetImageHandleFromFindHandle function
 author: windows-sdk-content
 description: Returns an image handle for the current image in an image enumeration.
 old-location: wds\wdscligetimagehandlefromfindhandle.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 28cb93de-67f2-4e94-b0b7-0707c276662a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WdsCliGetImageHandleFromFindHandle, WdsCliGetImageHandleFromFindHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromfindhandle, wdsclientapi/WdsCliGetImageHandleFromFindHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

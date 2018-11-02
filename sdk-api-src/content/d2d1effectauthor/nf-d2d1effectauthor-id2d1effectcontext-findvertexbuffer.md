@@ -7,7 +7,7 @@ old-location: direct2d\id2d1contextinternal_findvertexbuffer.htm
 tech.root: direct2d
 ms.assetid: 8CAC0872-2368-4926-8FF9-87D73136986F
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: FindVertexBuffer, FindVertexBuffer method [Direct2D], FindVertexBuffer method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],FindVertexBuffer method, ID2D1EffectContext.FindVertexBuffer, ID2D1EffectContext::FindVertexBuffer, d2d1effectauthor/ID2D1EffectContext::FindVertexBuffer, direct2d.id2d1contextinternal_findvertexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

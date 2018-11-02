@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgideclareadapterremovalsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,6 +84,10 @@ This function should be called once per process and before any device creation.
 
 ## -see-also
 
+
+
+
+<a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/develop/Tools/DXGIAdapterRemovalSupportTest">DXGI AdapterRemovalSupport test sample</a>
 
 
 

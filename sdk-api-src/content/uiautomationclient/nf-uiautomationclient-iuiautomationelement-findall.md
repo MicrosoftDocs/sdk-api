@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindAll.htm
 tech.root: WinAuto
 ms.assetid: ead73c6d-7fb8-4e00-b027-5d747268af08
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: FindAll, FindAll method [Windows Accessibility], FindAll method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAll method, IUIAutomationElement.FindAll, IUIAutomationElement::FindAll, uiauto.uiauto_IUIAutomationElement_FindAll, uiauto_IUIAutomationElement_FindAll, uiautomationclient/IUIAutomationElement::FindAll, winauto.uiauto_IUIAutomationElement_FindAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Returns all UI Automation elements that satisfy the specified condition.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A combination of values specifying the scope of the search.
 
 
 ### -param condition [in]
@@ -75,13 +77,6 @@ A pointer to a condition that represents the criteria to match.
 Type: <b><a href="https://msdn.microsoft.com/7ecf585c-ff3b-4f89-8a7d-e2de66650ab4">IUIAutomationElementArray</a>**</b>
 
 Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found. 
-
-
-#### - scope [in]
-
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
-
-A combination of values specifying the scope of the search.
 
 
 ## -returns

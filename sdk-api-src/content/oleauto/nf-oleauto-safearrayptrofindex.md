@@ -7,7 +7,7 @@ old-location: automat\safearrayptrofindex.htm
 tech.root: automat
 ms.assetid: a73cfd50-89b5-4025-817c-e6c06cc0b300
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SafeArrayPtrOfIndex, SafeArrayPtrOfIndex function [Automation], _oa96_SafeArrayPtrOfIndex, automat.safearrayptrofindex, oleauto/SafeArrayPtrOfIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

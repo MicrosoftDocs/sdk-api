@@ -4,10 +4,10 @@ title: RpcSsDisableAllocate function
 author: windows-sdk-content
 description: The RpcSsDisableAllocate function frees resources and memory within the stub memory&#8211;management environment.
 old-location: rpc\rpcssdisableallocate.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 08121380-ff75-4f18-aae4-fdd01e1dfa8b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcSsDisableAllocate, RpcSsDisableAllocate function [RPC], _rpc_rpcssdisableallocate, rpc.rpcssdisableallocate, rpcndr/RpcSsDisableAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

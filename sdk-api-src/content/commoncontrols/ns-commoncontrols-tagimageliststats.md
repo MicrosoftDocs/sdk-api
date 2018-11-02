@@ -7,7 +7,7 @@ old-location: controls\IMAGELISTSTATS.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS, tagIMAGELISTSTATS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getoverlayposition.htm
 tech.root: directdraw
 ms.assetid: 008502f7-468f-4d79-a309-75ebdbe29ff3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetOverlayPosition, GetOverlayPosition method [DirectDraw], GetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetOverlayPosition method, IDirectDrawSurface7.GetOverlayPosition, IDirectDrawSurface7::GetOverlayPosition, ddraw/IDirectDrawSurface7::GetOverlayPosition, directdraw.idirectdrawsurface7_getoverlayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Retrieves the display coordinates of this surface. This method is used on a visi
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - lplX [out]
+### -param arg1 [out]
 
 A pointer to a variable that receives the x- display coordinate of this surface if the call succeeds.
 
 
-#### - lplY [out]
+### -param arg2 [out]
 
 A pointer to a variable that receives the y-display coordinate of this surface if the call succeeds.
 

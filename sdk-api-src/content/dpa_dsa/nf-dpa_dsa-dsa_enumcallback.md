@@ -7,7 +7,7 @@ old-location: controls\DSA_EnumCallback.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_enumcallback.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: DSA_EnumCallback, DSA_EnumCallback function [Windows Controls], _shell_DSA_EnumCallback, _shell_DSA_EnumCallback_cpp, controls.DSA_EnumCallback, controls._shell_DSA_EnumCallback, dpa_dsa/DSA_EnumCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

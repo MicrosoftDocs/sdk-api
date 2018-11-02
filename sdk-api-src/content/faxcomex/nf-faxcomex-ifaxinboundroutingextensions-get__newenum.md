@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxinboundroutingextensions_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9965.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get__NewEnum method, IFaxInboundRoutingExtensions.get__NewEnum, IFaxInboundRoutingExtensions::get__NewEnum, _mfax_ifaxinboundroutingextensions_get__newenum, fax._mfax_ifaxinboundroutingextensions_get__newenum, faxcomex/IFaxInboundRoutingExtensions::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingExtensions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

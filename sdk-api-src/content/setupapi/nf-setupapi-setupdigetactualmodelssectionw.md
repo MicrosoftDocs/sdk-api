@@ -7,7 +7,7 @@ old-location: devinst\setupdigetactualmodelssection.htm
 tech.root: devinst
 ms.assetid: 8338989a-ef99-479c-8163-ad8d65eba32b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiGetActualModelsSection, SetupDiGetActualModelsSection function [Device and Driver Installation], SetupDiGetActualModelsSectionA, SetupDiGetActualModelsSectionW, devinst.setupdigetactualmodelssection, di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml, setupapi/SetupDiGetActualModelsSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

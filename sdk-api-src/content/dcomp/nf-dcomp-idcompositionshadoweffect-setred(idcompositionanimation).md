@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionShadowEffect.SetRed(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetRed(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the red value for the color of the shadow.
-old-location: directcomp\idcompositionshadoweffect_setred.htm
+old-location: directcomp\idcompositionshadoweffect_setred_2.htm
 tech.root: directcomp
-ms.assetid: CB8B41BF-1E68-472C-946B-4D07FF8C5541
+ms.assetid: 91440FC9-DCDA-44F1-B227-56A628686272
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetRed method, IDCompositionShadowEffect.SetRed, IDCompositionShadowEffect.SetRed(IDCompositionAnimation), IDCompositionShadowEffect::SetRed, IDCompositionShadowEffect::SetRed(IDCompositionAnimation), SetRed, SetRed method [DirectComposition], SetRed method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetRed, directcomp.idcompositionshadoweffect_setred
+ms.date: 10/26/2018
+ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetRed method, IDCompositionShadowEffect.SetRed, IDCompositionShadowEffect.SetRed(IDCompositionAnimation), IDCompositionShadowEffect::SetRed, IDCompositionShadowEffect::SetRed(IDCompositionAnimation), SetRed, SetRed method [DirectComposition], SetRed method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetRed, directcomp.idcompositionshadoweffect_setred_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the red value for the color of the shadow.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amount [in]
-
-Type: <b>float</b>
-
-The red value for the color of the shadow.
+An animation that represents how the red value for the color of the shadow changes over time. This parameter must not be NULL.
 
 
 ## -returns

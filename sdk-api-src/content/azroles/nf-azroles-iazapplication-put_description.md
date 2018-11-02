@@ -4,10 +4,10 @@ title: IAzApplication::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the application.
 old-location: security\iazapplication_description.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 32ccf51c-b820-4819-9e19-135ed3a0581d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AzApplication object [Security],Description property, Description property [Security], Description property [Security],AzApplication object, Description property [Security],IAzApplication interface, IAzApplication interface [Security],Description property, IAzApplication.Description, IAzApplication.put_Description, IAzApplication::Description, IAzApplication::get_Description, IAzApplication::put_Description, azroles/IAzApplication::Description, azroles/IAzApplication::get_Description, azroles/IAzApplication::put_Description, put_Description, security.iazapplication_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

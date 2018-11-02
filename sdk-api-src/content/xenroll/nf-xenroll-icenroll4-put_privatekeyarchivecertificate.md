@@ -7,7 +7,7 @@ old-location: security\icenroll4_privatekeyarchivecertificate.htm
 tech.root: seccrypto
 ms.assetid: c5099bef-2882-4106-a2e6-a144e16993c3
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CEnroll object [Security],PrivateKeyArchiveCertificate property, ICEnroll4 interface [Security],PrivateKeyArchiveCertificate property, ICEnroll4.PrivateKeyArchiveCertificate, ICEnroll4.put_PrivateKeyArchiveCertificate, ICEnroll4::PrivateKeyArchiveCertificate, ICEnroll4::get_PrivateKeyArchiveCertificate, ICEnroll4::put_PrivateKeyArchiveCertificate, PrivateKeyArchiveCertificate property [Security], PrivateKeyArchiveCertificate property [Security],CEnroll object, PrivateKeyArchiveCertificate property [Security],ICEnroll4 interface, _xen_icenroll4_privatekeyarchivecertificate, put_PrivateKeyArchiveCertificate, security.icenroll4_privatekeyarchivecertificate, xenroll/ICEnroll4::PrivateKeyArchiveCertificate, xenroll/ICEnroll4::get_PrivateKeyArchiveCertificate, xenroll/ICEnroll4::put_PrivateKeyArchiveCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromPointFunction.htm
 tech.root: WinAuto
 ms.assetid: 46da2f6a-3cb7-4220-b578-4fcf9711b99f
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: UiaNodeFromPoint, UiaNodeFromPoint function [Windows Accessibility], uiauto.uiauto_UiaNodeFromPointFunction, uiauto_UiaNodeFromPointFunction, uiautomationcoreapi/UiaNodeFromPoint, winauto.uiauto_UiaNodeFromPointFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,9 +81,9 @@ The address of a <a href="https://msdn.microsoft.com/426355e4-50ce-4189-824d-c22
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized.
+The address of a variable that receives a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized.
 
 
 ### -param ppTreeStructure [out]

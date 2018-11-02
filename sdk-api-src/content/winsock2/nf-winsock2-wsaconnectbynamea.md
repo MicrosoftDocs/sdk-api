@@ -4,10 +4,10 @@ title: WSAConnectByNameA function
 author: windows-sdk-content
 description: Establishes a connection to a specified host and port.
 old-location: winsock\wsaconnectbyname_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

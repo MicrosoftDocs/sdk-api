@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resources], StringCchPrintfA, StringCchPrintfW, _shell_StringCchPrintf, _shell_stringcchprintf_cpp, menurc.stringcchprintf, strsafe/StringCchPrintf, strsafe/StringCchPrintfA, strsafe/StringCchPrintfW, winui._shell_stringcchprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,14 +92,7 @@ Type: <b>LPCTSTR</b>
 The format string. This string must be null-terminated. For more information, see <a href="https://msdn.microsoft.com/en-us/library/56e442dc.aspx">Format Specification Syntax</a>.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - param [in]
+### -param arg1 [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 

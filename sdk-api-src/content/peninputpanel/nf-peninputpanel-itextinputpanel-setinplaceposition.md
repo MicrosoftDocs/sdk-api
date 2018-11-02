@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_setinplaceposition.htm
 tech.root: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 49bb1a89-7064-4822-866f-739434043869, ITextInputPanel interface [Tablet PC],SetInPlacePosition method, ITextInputPanel.SetInPlacePosition, ITextInputPanel::SetInPlacePosition, SetInPlacePosition, SetInPlacePosition method [Tablet PC], SetInPlacePosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlacePosition, tablet.itextinputpanel_setinplaceposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

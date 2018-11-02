@@ -7,7 +7,7 @@ old-location: security\cryptdecryptandverifymessagesignature.htm
 tech.root: seccrypto
 ms.assetid: 0864a187-617f-4a21-9809-d2dbbc54ab9c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CryptDecryptAndVerifyMessageSignature, CryptDecryptAndVerifyMessageSignature function [Security], _crypto2_cryptdecryptandverifymessagesignature, security.cryptdecryptandverifymessagesignature, wincrypt/CryptDecryptAndVerifyMessageSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

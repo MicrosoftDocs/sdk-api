@@ -7,7 +7,7 @@ old-location: rras\closeserviceenumerationhandle.htm
 tech.root: rras
 ms.assetid: c127f914-b655-4b6a-bb13-daeb5e82e343
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: CloseServiceEnumerationHandle, CloseServiceEnumerationHandle callback function [RAS], PCLOSE_SERVICE_ENUMERATION_HANDLE, PCLOSE_SERVICE_ENUMERATION_HANDLE callback, _mpr_closeserviceenumerationhandle, rras.closeserviceenumerationhandle, stm/CloseServiceEnumerationHandle
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_SafeArrayToRectNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 1fa9fad1-55b9-4cb5-a5c2-687074fa5d56
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],SafeArrayToRectNativeArray method, IUIAutomation.SafeArrayToRectNativeArray, IUIAutomation::SafeArrayToRectNativeArray, SafeArrayToRectNativeArray, SafeArrayToRectNativeArray method [Windows Accessibility], SafeArrayToRectNativeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_SafeArrayToRectNativeArray, uiauto_IUIAutomation_SafeArrayToRectNativeArray, uiautomationclient/IUIAutomation::SafeArrayToRectNativeArray, winauto.uiauto_IUIAutomation_SafeArrayToRectNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Converts a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>. 
+Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Converts a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</
 
 ### -param rects [in]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
 A pointer to an array containing rectangle coordinates.
 

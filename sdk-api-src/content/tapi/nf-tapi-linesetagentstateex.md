@@ -4,10 +4,10 @@ title: lineSetAgentStateEx function
 author: windows-sdk-content
 description: The lineSetAgentStateEx function sets the agent state associated with a particular agent handle.
 old-location: tapi2\linesetagentstateex.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: f7da697a-658e-4f0d-8e6c-539fd8fb1935
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_linesetagentstateex, lineSetAgentStateEx, lineSetAgentStateEx function [TAPI 2.2], tapi/lineSetAgentStateEx, tapi2.linesetagentstateex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

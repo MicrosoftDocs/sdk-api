@@ -7,7 +7,7 @@ old-location: gdi\setrectrgn.htm
 tech.root: gdi
 ms.assetid: 9a024d61-f397-43d8-a48e-edb8102a6f55
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, gdi.setrectrgn, wingdi/SetRectRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

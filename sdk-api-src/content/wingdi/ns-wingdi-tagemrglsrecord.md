@@ -7,7 +7,7 @@ old-location: gdi\emrglsrecord.htm
 tech.root: gdi
 ms.assetid: 58e31199-80e2-4077-a6f6-1787c5228f77
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMRGLSRECORD, EMRGLSRECORD, EMRGLSRECORD structure [Windows GDI], PEMRGLSRECORD, PEMRGLSRECORD structure pointer [Windows GDI], _win32_EMRGLSRECORD_str, gdi.emrglsrecord, tagEMRGLSRECORD, wingdi/EMRGLSRECORD, wingdi/PEMRGLSRECORD"
 ms.prod: windows
 ms.technology: windows-sdk

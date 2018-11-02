@@ -7,7 +7,7 @@ old-location: security\ienroll4_createpkcs7requestfromrequest.htm
 tech.root: seccrypto
 ms.assetid: f1d2df72-bedc-45e5-8c0a-a731845d4487
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CreatePKCS7RequestFromRequest, CreatePKCS7RequestFromRequest method [Security], CreatePKCS7RequestFromRequest method [Security],IEnroll interface, CreatePKCS7RequestFromRequest method [Security],IEnroll2 interface, IEnroll interface [Security],CreatePKCS7RequestFromRequest method, IEnroll.CreatePKCS7RequestFromRequest, IEnroll2 interface [Security],CreatePKCS7RequestFromRequest method, IEnroll2::CreatePKCS7RequestFromRequest, IEnroll::CreatePKCS7RequestFromRequest, security.ienroll4_createpkcs7requestfromrequest, xenroll/IEnroll2::CreatePKCS7RequestFromRequest, xenroll/IEnroll::CreatePKCS7RequestFromRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

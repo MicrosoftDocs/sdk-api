@@ -7,7 +7,7 @@ old-location: rras\rasenumconnections.htm
 tech.root: rras
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,24 +63,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 Pointer to a buffer that receives, on output, an array of 
 <a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures, one for each RAS connection. 
@@ -92,13 +75,7 @@ On input, an application must set the <b>dwSize</b> member of the first
 <a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
 
 
-#### - lpcConnections [out]
-
-Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
-
-
-#### - lpcb [in, out]
+### -param arg2 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasconn</i>. 
 
@@ -112,6 +89,12 @@ On output, the function sets this variable to the number of bytes required to en
 
 </div>
 <div> </div>
+
+### -param arg3 [out]
+
+Pointer to a variable that receives the number of 
+<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
+
 
 ## -returns
 

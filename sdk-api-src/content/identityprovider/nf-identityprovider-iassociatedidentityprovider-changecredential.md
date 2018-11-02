@@ -7,7 +7,7 @@ old-location: security\iassociatedidentityprovider_changecredential.htm
 tech.root: secauthn
 ms.assetid: 6a4361a8-8054-434e-9852-fcc20b1086cd
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: ChangeCredential, ChangeCredential method [Security], ChangeCredential method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],ChangeCredential method, IAssociatedIdentityProvider.ChangeCredential, IAssociatedIdentityProvider::ChangeCredential, identityprovider/IAssociatedIdentityProvider::ChangeCredential, identitystore/IAssociatedIdentityProvider::ChangeCredential, security.iassociatedidentityprovider_changecredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

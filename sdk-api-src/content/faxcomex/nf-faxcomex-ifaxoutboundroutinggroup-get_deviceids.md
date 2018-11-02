@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4var_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxOutboundRoutingGroup interface, IFaxOutboundRoutingGroup interface [Fax Service],DeviceIds property, IFaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids_cpp, fax._mfax_faxoutboundroutinggroup_deviceids_cpp, faxcomex/IFaxOutboundRoutingGroup::DeviceIds, faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds, get_DeviceIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

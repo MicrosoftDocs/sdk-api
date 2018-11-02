@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple2_ShowContextMenu.htm
 tech.root: WinAuto
 ms.assetid: DAC75974-4B3E-4C95-F0D7-90D5709EFD93
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IRawElementProviderSimple2 interface [Windows Accessibility],ShowContextMenu method, IRawElementProviderSimple2.ShowContextMenu, IRawElementProviderSimple2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],IRawElementProviderSimple2 interface, uiautomationcore/IRawElementProviderSimple2::ShowContextMenu, winauto.uiauto_IRawElementProviderSimple2_ShowContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

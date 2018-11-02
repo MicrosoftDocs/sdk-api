@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache.
 tech.root: WinAuto
 ms.assetid: 92F9E34B-BFB9-48EA-A0EC-6E69EFB6307B
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: FindAllWithOptionsBuildCache, FindAllWithOptionsBuildCache method [Windows Accessibility], FindAllWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindAllWithOptionsBuildCache method, IUIAutomationElement7.FindAllWithOptionsBuildCache, IUIAutomationElement7::FindAllWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,14 @@ Finds all matching elements in the specified order, but also caches their proper
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param condition [in]
+### -param arg1 [in]
 
 A pointer to a condition that represents the criteria to match.
+
+
+### -param condition
+
+TBD
 
 
 ### -param cacheRequest [in]
@@ -73,14 +73,14 @@ A pointer to a condition that represents the criteria to match.
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
 
-### -param arg2
-
-TBD
-
-
-### -param root [in, optional]
+### -param arg2 [in, optional]
 
 A pointer to the element with which to begin the search.
+
+
+### -param root
+
+TBD
 
 
 ### -param found

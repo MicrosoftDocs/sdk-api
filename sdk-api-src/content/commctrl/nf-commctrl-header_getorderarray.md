@@ -7,7 +7,7 @@ old-location: controls\Header_GetOrderArray.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getorderarray.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: Header_GetOrderArray, Header_GetOrderArray macro [Windows Controls], _win32_Header_GetOrderArray, _win32_Header_GetOrderArray_cpp, commctrl/Header_GetOrderArray, controls.Header_GetOrderArray, controls._win32_Header_GetOrderArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

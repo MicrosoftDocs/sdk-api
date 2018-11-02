@@ -7,7 +7,7 @@ old-location: winrt\ivideoframenative_getdata.htm
 tech.root: WinRT
 ms.assetid: 084F020F-A6F5-4982-BA4B-A8F8D6182868
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetData method, IVideoFrameNative.GetData, IVideoFrameNative.core, IVideoFrameNative::GetData, IVideoFrameNative::core, windows/IVideoFrameNative::GetData, winrt.ivideoframenative_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

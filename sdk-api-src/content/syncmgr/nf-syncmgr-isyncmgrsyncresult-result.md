@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncResult_Result.htm
 tech.root: shell
 ms.assetid: 8ba7de05-0703-4bab-bf64-ae84f42fad69
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: ISyncMgrSyncResult interface [Windows Shell],Result method, ISyncMgrSyncResult.Result, ISyncMgrSyncResult::Result, Result, Result method [Windows Shell], Result method [Windows Shell],ISyncMgrSyncResult interface, _shell_ISyncMgrSyncResult_Result, shell.ISyncMgrSyncResult_Result, syncmgr/ISyncMgrSyncResult::Result
 ms.prod: windows-hardware
 ms.technology: windows-devices

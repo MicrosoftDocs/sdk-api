@@ -7,7 +7,7 @@ old-location: controls\itextstory_setproperty.htm
 tech.root: controls
 ms.assetid: 432afe58-a1ed-45aa-b018-bf608bbb7e2a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ITextStory interface [Windows Controls],SetProperty method, ITextStory.SetProperty, ITextStory::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextStory interface, controls.itextstory_setproperty, tom/ITextStory::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

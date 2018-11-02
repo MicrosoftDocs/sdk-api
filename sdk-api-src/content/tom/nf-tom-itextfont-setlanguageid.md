@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetLanguageID.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlanguageid.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ITextFont interface [Windows Controls],SetLanguageID method, ITextFont.SetLanguageID, ITextFont::SetLanguageID, SetLanguageID, SetLanguageID method [Windows Controls], SetLanguageID method [Windows Controls],ITextFont interface, _win32_ITextFont_SetLanguageID, _win32_ITextFont_SetLanguageID_cpp, controls.ITextFont_SetLanguageID, controls._win32_ITextFont_SetLanguageID, tom/ITextFont::SetLanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices

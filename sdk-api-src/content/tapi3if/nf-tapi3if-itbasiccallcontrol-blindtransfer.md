@@ -4,10 +4,10 @@ title: ITBasicCallControl::BlindTransfer
 author: windows-sdk-content
 description: The BlindTransfer method performs a blind or single-step transfer of the specified call to the specified destination address. The application must be the owner of the call. After a successful transfer, the call state transitions to CS_DISCONNECTED.
 old-location: tapi3\itbasiccallcontrol_blindtransfer.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 766a48af-512a-4ad6-99e1-436141bf8447
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: BlindTransfer, BlindTransfer method [TAPI 2.2], BlindTransfer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],BlindTransfer method, ITBasicCallControl.BlindTransfer, ITBasicCallControl::BlindTransfer, _tapi3_itbasiccallcontrol_blindtransfer, tapi3.itbasiccallcontrol_blindtransfer, tapi3if/ITBasicCallControl::BlindTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

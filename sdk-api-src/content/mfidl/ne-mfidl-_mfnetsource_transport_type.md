@@ -7,7 +7,7 @@ old-location: mf\mfnetsource_transport_type.htm
 tech.root: medfound
 ms.assetid: b3cdb604-15eb-4df7-af30-b21093c93781
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: MFNETSOURCE_TCP, MFNETSOURCE_TRANSPORT_TYPE, MFNETSOURCE_TRANSPORT_TYPE enumeration [Media Foundation], MFNETSOURCE_UDP, _MFNETSOURCE_TRANSPORT_TYPE, b3cdb604-15eb-4df7-af30-b21093c93781, mf.mfnetsource_transport_type, mfidl/MFNETSOURCE_TCP, mfidl/MFNETSOURCE_TRANSPORT_TYPE, mfidl/MFNETSOURCE_UDP
 ms.prod: windows
 ms.technology: windows-sdk

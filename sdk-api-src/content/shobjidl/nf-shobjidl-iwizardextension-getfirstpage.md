@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension_GetFirstPage.htm
 tech.root: shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

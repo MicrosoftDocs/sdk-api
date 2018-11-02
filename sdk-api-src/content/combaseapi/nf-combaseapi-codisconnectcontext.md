@@ -7,7 +7,7 @@ old-location: com\codisconnectcontext.htm
 tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

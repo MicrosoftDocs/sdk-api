@@ -7,7 +7,7 @@ old-location: winrt\roparsetypename.htm
 tech.root: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
 ms.prod: windows-hardware
 ms.technology: windows-devices

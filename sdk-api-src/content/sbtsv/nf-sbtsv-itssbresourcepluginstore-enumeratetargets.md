@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_enumeratetargets.htm
 tech.root: termserv
 ms.assetid: bb05847a-e7fb-481b-ad84-9f6dc15f9be0
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStore.EnumerateTargets, ITsSbResourcePluginStore::EnumerateTargets, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStoreEx::EnumerateTargets, sbtsv/ITsSbResourcePluginStore::EnumerateTargets, sbtsv/ITsSbResourcePluginStoreEx::EnumerateTargets, termserv.itssbresourcepluginstore_enumeratetargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

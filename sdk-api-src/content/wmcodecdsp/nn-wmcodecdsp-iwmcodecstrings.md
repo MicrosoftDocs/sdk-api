@@ -7,7 +7,7 @@ old-location: mf\iwmcodecstringsinterface.htm
 tech.root: medfound
 ms.assetid: 84b6223e-d42a-47b0-8553-2b4d69de2da3
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMCodecStrings interface [Media Foundation],described, codecapi.iwmcodecstringsinterface, mf.iwmcodecstringsinterface, wmcodecdsp/IWMCodecStrings
 ms.prod: windows
 ms.technology: windows-sdk

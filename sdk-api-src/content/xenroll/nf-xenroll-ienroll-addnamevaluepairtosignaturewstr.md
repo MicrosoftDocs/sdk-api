@@ -7,7 +7,7 @@ old-location: security\ienroll4_addnamevaluepairtosignaturewstr.htm
 tech.root: seccrypto
 ms.assetid: 8ccc0bdf-01db-4863-aaaf-94910bfa0b8b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: AddNameValuePairToSignatureWStr, AddNameValuePairToSignatureWStr method [Security], AddNameValuePairToSignatureWStr method [Security],IEnroll interface, AddNameValuePairToSignatureWStr method [Security],IEnroll4 interface, IEnroll interface [Security],AddNameValuePairToSignatureWStr method, IEnroll.AddNameValuePairToSignatureWStr, IEnroll4 interface [Security],AddNameValuePairToSignatureWStr method, IEnroll4::AddNameValuePairToSignatureWStr, IEnroll::AddNameValuePairToSignatureWStr, security.ienroll4_addnamevaluepairtosignaturewstr, xenroll/IEnroll4::AddNameValuePairToSignatureWStr, xenroll/IEnroll::AddNameValuePairToSignatureWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

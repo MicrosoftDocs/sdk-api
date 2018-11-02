@@ -4,10 +4,10 @@ title: setsourcefilter function
 author: windows-sdk-content
 description: Sets the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\setsourcefilter.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

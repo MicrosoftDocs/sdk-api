@@ -7,7 +7,7 @@ old-location: rras\raseditphonebookentry.htm
 tech.root: rras
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasEditPhonebookEntry, RasEditPhonebookEntry function [RAS], RasEditPhonebookEntryA, RasEditPhonebookEntryW, _ras_raseditphonebookentry, ras/RasEditPhonebookEntry, ras/RasEditPhonebookEntryA, ras/RasEditPhonebookEntryW, rras.raseditphonebookentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,40 +63,23 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Handle to the parent window of the dialog box.
 
 
-#### - lpszEntryName [in]
-
-Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
-
-
-#### - lpszPhonebook [in]
+### -param arg2 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the<b> Dial-Up Networking</b> dialog box. 
 
 
 
 					
+
+
+### -param arg3 [in]
+
+Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
 
 
 ## -returns

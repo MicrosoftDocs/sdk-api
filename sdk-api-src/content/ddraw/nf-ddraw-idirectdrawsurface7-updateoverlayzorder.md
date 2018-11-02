@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_updateoverlayzorder.htm
 tech.root: directdraw
 ms.assetid: a95f315f-7a1f-4ca0-bb18-9bd54f2cc78d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DDOVERZ_INSERTINBACKOF, DDOVERZ_INSERTINFRONTOF, DDOVERZ_MOVEBACKWARD, DDOVERZ_MOVEFORWARD, DDOVERZ_SENDTOBACK, DDOVERZ_SENDTOFRONT, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayZOrder method, IDirectDrawSurface7.UpdateOverlayZOrder, IDirectDrawSurface7::UpdateOverlayZOrder, UpdateOverlayZOrder, UpdateOverlayZOrder method [DirectDraw], UpdateOverlayZOrder method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayZOrder, directdraw.idirectdrawsurface7_updateoverlayzorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,7 @@ Sets the z-order of an overlay.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 One of the following flags that determines the z-order of the overlay:
 
@@ -111,7 +99,7 @@ Moves this overlay to the back of the overlay chain.
 Moves this overlay to the front of the overlay chain.
 
 
-#### - lpDDSReference [in]
+### -param arg2 [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDraw surface to be used as a relative position in the overlay chain. This parameter is needed only for the DDOVERZ_INSERTINBACKOF and DDOVERZ_INSERTINFRONTOF flags.
 

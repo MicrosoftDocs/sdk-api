@@ -7,7 +7,7 @@ old-location: rras\rtmgetentitymethods.htm
 tech.root: rras
 ms.assetid: 186f4a55-d46b-42ab-b092-dc036b011594
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RtmGetEntityMethods, RtmGetEntityMethods function [RAS], _rtmv2ref_rtmgetentitymethods, rras.rtmgetentitymethods, rtmv2/RtmGetEntityMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices

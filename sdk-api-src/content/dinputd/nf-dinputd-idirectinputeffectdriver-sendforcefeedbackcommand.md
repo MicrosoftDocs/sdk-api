@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_sendforcefeedbackcommand.htm
 tech.root: hid
 ms.assetid: 9a872712-32aa-40b6-9d0f-c51d841342cb
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SendForceFeedbackCommand method, IDirectInputEffectDriver.SendForceFeedbackCommand, IDirectInputEffectDriver::SendForceFeedbackCommand, SendForceFeedbackCommand, SendForceFeedbackCommand method [Human Input Devices], SendForceFeedbackCommand method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml, dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand, hid.idirectinputeffectdriver_sendforcefeedbackcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,10 @@ The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the
 
 ### -param arg1
 
-TBD
+Indicates the external joystick number being addressed. 
 
 
 ### -param arg2
-
-TBD
-
-
-
-
-#### - dwCommand
 
 Indicates which of the following commands is being sent: 
 
@@ -111,11 +104,6 @@ Indicates that the device's force-feedback actuators should be enabled.
 #### DISFFC_SETACTUATORSOFF
 
 Indicates that the device's force-feedback actuators should be disabled. If successful, force feedback effects are "muted". Note that time continues to elapse while actuators are off. For example, suppose an effect of five seconds' duration is started. After one second, actuators are turned off. After two more seconds, actuators are turned back on. The effect should then play for two additional seconds. 
-
-
-#### - dwID
-
-Indicates the external joystick number being addressed. 
 
 
 ## -returns

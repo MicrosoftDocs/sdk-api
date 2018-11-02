@@ -7,7 +7,7 @@ old-location: tablet\inkedit_borderstyle.htm
 tech.root: tablet
 ms.assetid: 89d42f9c-6354-4159-9717-23c6484b10af
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: BorderStyle property [Tablet PC], BorderStyle property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],BorderStyle property, IInkEdit.BorderStyle, IInkEdit.get_BorderStyle, IInkEdit::BorderStyle, IInkEdit::get_BorderStyle, IInkEdit::put_BorderStyle, InkEdit.get_BorderStyle, InkEdit.put_BorderStyle, get_BorderStyle, inked/IInkEdit::BorderStyle, inked/IInkEdit::get_BorderStyle, inked/IInkEdit::put_BorderStyle, put_BorderStyle, rtfFixedSingle, rtfNoBorder, tablet.inkedit_borderstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

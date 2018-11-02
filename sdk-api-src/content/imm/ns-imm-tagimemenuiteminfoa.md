@@ -7,7 +7,7 @@ old-location: intl\imemenuiteminfo.htm
 tech.root: Intl
 ms.assetid: 2e00993f-6720-4139-8097-a3d830e661ca
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *PIMEMENUITEMINFOA, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

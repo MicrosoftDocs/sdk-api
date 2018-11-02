@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclasspropertyex.htm
 tech.root: devinst
 ms.assetid: 74b6cd23-5741-4f0c-b5e1-6cdea2074c28
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiGetClassPropertyEx, SetupDiGetClassPropertyEx function [Device and Driver Installation], SetupDiGetClassPropertyExW, devinst.setupdigetclasspropertyex, di-rtns_b2221d4f-34d3-4206-b1f2-fbaa8d7886cc.xml, setupapi/SetupDiGetClassPropertyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

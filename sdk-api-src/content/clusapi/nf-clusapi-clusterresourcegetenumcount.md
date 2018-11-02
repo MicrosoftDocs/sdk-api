@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcegetenumcount.htm
 tech.root: mscs
 ms.assetid: f837d57a-e7eb-4262-a1a3-e3bf9948cf09
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ClusterResourceGetEnumCount, ClusterResourceGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT function [Failover Cluster], _wolf_clusterresourcegetenumcount, clusapi/ClusterResourceGetEnumCount, clusapi/PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT, mscs.clusterresourcegetenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

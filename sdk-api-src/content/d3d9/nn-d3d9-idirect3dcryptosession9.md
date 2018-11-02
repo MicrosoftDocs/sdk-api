@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9.htm
 tech.root: medfound
 ms.assetid: 2511c9da-e696-4e49-b180-7fc1317c1652
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], IDirect3DCryptoSession9 interface [Media Foundation],described, d3d9/IDirect3DCryptoSession9, mf.idirect3dcryptosession9
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\inkdivider_strokes.htm
 tech.root: tablet
 ms.assetid: 611ccce9-7acb-4138-9655-938efcaa4c75
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 611ccce9-7acb-4138-9655-938efcaa4c75, IInkDivider interface [Tablet PC],Strokes property, IInkDivider.Strokes, IInkDivider.putref_Strokes, IInkDivider::Strokes, IInkDivider::get_Strokes, IInkDivider::putref_Strokes, InkDivider.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivider interface, get_Strokes, msinkaut15/IInkDivider::Strokes, msinkaut15/IInkDivider::get_Strokes, msinkaut15/IInkDivider::putref_Strokes, putref_Strokes, tablet.inkdivider_strokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

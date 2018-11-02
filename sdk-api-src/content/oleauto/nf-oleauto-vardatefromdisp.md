@@ -7,7 +7,7 @@ old-location: automat\vardatefromdisp.htm
 tech.root: automat
 ms.assetid: 54935d65-d5d2-4b36-9b0e-8d5b83f7ef93
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarDateFromDisp, VarDateFromDisp function [Automation], _oa96_VarDateFromDisp, automat.vardatefromdisp, oleauto/VarDateFromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

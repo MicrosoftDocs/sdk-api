@@ -7,7 +7,7 @@ old-location: controls\ListView_SetItemCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcount.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ListView_SetItemCount, ListView_SetItemCount macro [Windows Controls], _win32_ListView_SetItemCount, _win32_ListView_SetItemCount_cpp, commctrl/ListView_SetItemCount, controls.ListView_SetItemCount, controls._win32_ListView_SetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

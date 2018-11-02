@@ -4,10 +4,10 @@ title: TSPI_phoneGetStatus function
 author: windows-sdk-content
 description: The TSPI_phoneGetStatus function queries the specified open phone device for its overall status.
 old-location: tspi\tspi_phonegetstatus.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 92cf7299-2e1f-42ce-abf7-2824d993bd59
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: TSPI_phoneGetStatus, TSPI_phoneGetStatus function [TAPI 2.2], _tspi_tspi_phonegetstatus, tspi.tspi_phonegetstatus, tspi/TSPI_phoneGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

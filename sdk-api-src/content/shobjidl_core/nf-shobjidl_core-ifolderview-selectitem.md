@@ -7,7 +7,7 @@ old-location: shell\IFolderView_SelectItem.htm
 tech.root: shell
 ms.assetid: 6db262ea-861b-4bc5-955f-b81945313ea8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IFolderView interface [Windows Shell],SelectItem method, IFolderView.SelectItem, IFolderView::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IFolderView interface, _shell_IFolderView_SelectItem, shell.IFolderView_SelectItem, shobjidl_core/IFolderView::SelectItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

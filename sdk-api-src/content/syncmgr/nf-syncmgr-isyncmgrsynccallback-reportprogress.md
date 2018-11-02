@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ReportProgress.htm
 tech.root: shell
 ms.assetid: fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportProgress method, ISyncMgrSyncCallback.ReportProgress, ISyncMgrSyncCallback::ReportProgress, ReportProgress, ReportProgress method [Windows Shell], ReportProgress method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportProgress, shell.ISyncMgrSyncCallback_ReportProgress, syncmgr/ISyncMgrSyncCallback::ReportProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

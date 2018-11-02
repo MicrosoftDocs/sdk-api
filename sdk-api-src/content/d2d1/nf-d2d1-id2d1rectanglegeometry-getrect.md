@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RectangleGeometry_GetRect.htm
 tech.root: direct2d
 ms.assetid: 9c9858d0-abb0-4ab5-8e7f-e613b256bbd7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetRect, GetRect method [Direct2D], GetRect method [Direct2D],ID2D1RectangleGeometry interface, ID2D1RectangleGeometry interface [Direct2D],GetRect method, ID2D1RectangleGeometry.GetRect, ID2D1RectangleGeometry::GetRect, d2d1/ID2D1RectangleGeometry::GetRect, direct2d.ID2D1RectangleGeometry_GetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

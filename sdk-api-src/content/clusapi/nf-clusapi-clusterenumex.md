@@ -7,7 +7,7 @@ old-location: mscs\clusterenumex.htm
 tech.root: mscs
 ms.assetid: F50FB801-8ACA-40BD-9E89-7E3AF2CA2DA5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ClusterEnumEx, ClusterEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM_EX, PCLUSAPI_CLUSTER_ENUM_EX function [Failover Cluster], clusapi/ClusterEnumEx, clusapi/PCLUSAPI_CLUSTER_ENUM_EX, mscs.clusterenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

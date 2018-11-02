@@ -7,7 +7,7 @@ old-location: security\icenroll4_addcerttypetorequest.htm
 tech.root: seccrypto
 ms.assetid: d2c22689-d386-43d1-a42f-f303a034a087
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CEnroll object [Security],addCertTypeToRequest method, ICEnroll2 interface [Security],addCertTypeToRequest method, ICEnroll2.addCertTypeToRequest, ICEnroll2::addCertTypeToRequest, ICEnroll3 interface [Security],addCertTypeToRequest method, ICEnroll3::addCertTypeToRequest, ICEnroll4 interface [Security],addCertTypeToRequest method, ICEnroll4::addCertTypeToRequest, addCertTypeToRequest, addCertTypeToRequest method [Security], addCertTypeToRequest method [Security],CEnroll object, addCertTypeToRequest method [Security],ICEnroll2 interface, addCertTypeToRequest method [Security],ICEnroll3 interface, addCertTypeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequest, xenroll/ICEnroll2::addCertTypeToRequest, xenroll/ICEnroll3::addCertTypeToRequest, xenroll/ICEnroll4::addCertTypeToRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

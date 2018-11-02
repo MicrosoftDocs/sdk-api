@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfaceupdateroutes.htm
 tech.root: rras
 ms.assetid: b06ce009-c52f-4d3b-a452-785c75638c89
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: MprAdminInterfaceUpdateRoutes, MprAdminInterfaceUpdateRoutes function [RAS], _mpr_mpradmininterfaceupdateroutes, mprapi/MprAdminInterfaceUpdateRoutes, rras.mpradmininterfaceupdateroutes
 ms.prod: windows-hardware
 ms.technology: windows-devices

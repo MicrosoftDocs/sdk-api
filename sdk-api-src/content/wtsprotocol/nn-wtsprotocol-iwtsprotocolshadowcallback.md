@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolshadowcallback.htm
 tech.root: termserv
 ms.assetid: ce224b9f-161c-4133-97d9-05c339eefb77
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IWTSProtocolShadowCallback, IWTSProtocolShadowCallback interface [Remote Desktop Services], IWTSProtocolShadowCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowcallback, wtsprotocol/IWTSProtocolShadowCallback
 ms.prod: windows
 ms.technology: windows-sdk

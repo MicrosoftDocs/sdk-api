@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_AutoKeypadTones
 author: windows-sdk-content
 description: The get_AutoKeypadTones method gets the AutoKeypadTones property for this phone. When this feature is enabled, a digit tone is automatically played whenever a keypad button is pressed.
 old-location: tapi3\itautomatedphonecontrol_get_autokeypadtones.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: fd6c2b1c-53c5-40f9-bb5e-51c48d5bc944
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoKeypadTones method, ITAutomatedPhoneControl.get_AutoKeypadTones, ITAutomatedPhoneControl::get_AutoKeypadTones, _tapi3_itautomatedphonecontrol_get_autokeypadtones, get_AutoKeypadTones, get_AutoKeypadTones method [TAPI 2.2], get_AutoKeypadTones method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autokeypadtones, tapi3if/ITAutomatedPhoneControl::get_AutoKeypadTones
 ms.prod: windows-hardware
 ms.technology: windows-devices

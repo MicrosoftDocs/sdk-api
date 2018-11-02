@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_Scroll.htm
 tech.root: WinAuto
 ms.assetid: d1bd15d2-beaf-4838-970a-00cfa2a7cfd9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],Scroll method, IScrollProvider.Scroll, IScrollProvider::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IScrollProvider interface, uiauto.uiauto_IScrollProvider_Scroll, uiauto_IScrollProvider_Scroll, uiautomationcore/IScrollProvider::Scroll, winauto.uiauto_IScrollProvider_Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,26 +59,14 @@ Scrolls the visible region of the content area horizontally and vertically.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - horizontalAmount [in]
+### -param arg1 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/94d84a66-5222-48e4-9675-444eb04558a4">ScrollAmount</a></b>
 
 The horizontal scrolling increment that is specific to the control.
 
 
-#### - verticalAmount [in]
+### -param arg2 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/94d84a66-5222-48e4-9675-444eb04558a4">ScrollAmount</a></b>
 

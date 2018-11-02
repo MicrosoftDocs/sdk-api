@@ -7,7 +7,7 @@ old-location: menurc\getmenuinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuinfo.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetMenuInfo, GetMenuInfo function [Menus and Other Resources], _win32_GetMenuInfo, _win32_getmenuinfo_cpp, menurc.getmenuinfo, winui._win32_getmenuinfo, winuser/GetMenuInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Retrieves information about a specified menu.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Type: <b>HMENU</b>
 
 A handle on a menu. 
 
 
-#### - lpcmi [in, out]
+### -param arg2 [in, out]
 
 Type: <b>LPMENUINFO</b>
 

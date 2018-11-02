@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4azp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FaxExtConfigChange, FaxExtConfigChange function [Fax Service], _mfax_faxextconfigchange, fax._mfax_faxextconfigchange, faxext/FaxExtConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

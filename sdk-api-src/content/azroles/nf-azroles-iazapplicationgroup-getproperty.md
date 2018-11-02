@@ -4,10 +4,10 @@ title: IAzApplicationGroup::GetProperty
 author: windows-sdk-content
 description: Returns the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_getproperty.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: b91c21c0-3042-457b-9f53-b03d9805f255
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AZ_PROP_WRITABLE, AzApplicationGroup object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzApplicationGroup object, GetProperty method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],GetProperty method, IAzApplicationGroup.GetProperty, IAzApplicationGroup::GetProperty, azroles/IAzApplicationGroup::GetProperty, security.iazapplicationgroup_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDirect3DSwapChain9::Present
 author: windows-sdk-content
 description: Presents the contents of the next buffer in the sequence of back buffers owned by the swap chain.
 old-location: direct3d9\idirect3dswapchain9__present.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__present.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 0765aea9-8fd8-8d38-bcaf-184610e8d81e, IDirect3DSwapChain9 interface [Direct3D 9],Present method, IDirect3DSwapChain9.Present, IDirect3DSwapChain9::Present, Present, Present method [Direct3D 9], Present method [Direct3D 9],IDirect3DSwapChain9 interface, d3d9helper/IDirect3DSwapChain9::Present, direct3d9.idirect3dswapchain9__present
 ms.prod: windows-hardware
 ms.technology: windows-devices

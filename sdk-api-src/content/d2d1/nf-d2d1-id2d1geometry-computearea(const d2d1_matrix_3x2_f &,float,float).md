@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_
 tech.root: direct2d
 ms.assetid: f99e7e0b-6024-4ce1-83da-cf01894f173e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ComputeArea, ComputeArea method [Direct2D], ComputeArea method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeArea method, ID2D1Geometry.ComputeArea, ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT), ID2D1Geometry::ComputeArea, ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT), d2d1/ID2D1Geometry::ComputeArea, direct2d.ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

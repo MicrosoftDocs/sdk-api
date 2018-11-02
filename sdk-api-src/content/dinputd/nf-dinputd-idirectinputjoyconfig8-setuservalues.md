@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_setuservalues.htm
 tech.root: hid
 ms.assetid: 0e33a73b-0315-43a2-8563-f21a7776921c
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetUserValues method, IDirectInputJoyConfig8.SetUserValues, IDirectInputJoyConfig8::SetUserValues, SetUserValues, SetUserValues method [Human Input Devices], SetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml, dinputd/IDirectInputJoyConfig8::SetUserValues, hid.idirectinputjoyconfig8_setuservalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,10 @@ The <b>IDirectInputJoyConfig8::SetUserValues </b>method sets the user settings f
 
 ### -param arg1
 
-TBD
+Points to a structure that receives information about the new user joystick settings. 
 
 
 ### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags
 
 Specifies the parts of the <a href="https://msdn.microsoft.com/15424c18-c9ae-4058-97b4-f55b56daea72">DIJOYUSERVALUES</a> structure that contain values to be set.  There may be zero, one, or more of the following: 
 
@@ -95,11 +88,6 @@ A list of valid global drivers can be obtained by enumerating the list of joysti
 #### DIJU_GAMEPORTEMULATOR
 
 Unused.
-
-
-#### - pjuv
-
-Points to a structure that receives information about the new user joystick settings. 
 
 
 ## -returns

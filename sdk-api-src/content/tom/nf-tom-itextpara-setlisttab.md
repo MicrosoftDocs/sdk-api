@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetListTab.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttab.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListTab method, ITextPara.SetListTab, ITextPara::SetListTab, SetListTab, SetListTab method [Windows Controls], SetListTab method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListTab, _win32_ITextPara_SetListTab_cpp, controls.ITextPara_SetListTab, controls._win32_ITextPara_SetListTab, tom/ITextPara::SetListTab
 ms.prod: windows-hardware
 ms.technology: windows-devices

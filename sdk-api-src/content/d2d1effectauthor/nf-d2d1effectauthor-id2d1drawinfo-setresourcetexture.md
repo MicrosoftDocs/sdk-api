@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawinfo_setresourcetexture.htm
 tech.root: direct2d
 ms.assetid: 6E53577B-AD97-4530-8260-4A99B90E0581
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetResourceTexture method, ID2D1DrawInfo.SetResourceTexture, ID2D1DrawInfo::SetResourceTexture, SetResourceTexture, SetResourceTexture method [Direct2D], SetResourceTexture method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetResourceTexture, direct2d.id2d1drawinfo_setresourcetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices

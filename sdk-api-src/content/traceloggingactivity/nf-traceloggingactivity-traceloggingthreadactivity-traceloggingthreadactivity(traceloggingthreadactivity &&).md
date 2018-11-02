@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity
 tech.root: tracelogging
 ms.assetid: A83EE18B-F443-42B8-841D-83CF2BA0FCBC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity interface,TraceLoggingThreadActivity method, TraceLoggingThreadActivity method, TraceLoggingThreadActivity method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity.TraceLoggingThreadActivity, TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&), TraceLoggingThreadActivity::TraceLoggingThreadActivity, TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&), tracelogging.traceloggingthreadactivity_traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IWdsTransportNamespaceScheduledCastAutoStart
 author: windows-sdk-content
 description: An administrator can specify criteria that starts transmission on an object of an IWdsTransportNamespaceScheduledCastAutoStart interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.
 old-location: wds\iwdstransportnamespacescheduledcastautostart.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
 ms.prod: windows
 ms.technology: windows-sdk

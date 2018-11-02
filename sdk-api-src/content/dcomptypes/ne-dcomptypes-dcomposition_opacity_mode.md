@@ -7,7 +7,7 @@ old-location: directcomp\dcomposition_opacity_mode.htm
 tech.root: directcomp
 ms.assetid: D768F699-39F6-4ED5-B3D7-D509871BCEAB
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: DCOMPOSITION_OPACITY_MODE, DCOMPOSITION_OPACITY_MODE enumeration [DirectComposition], DCOMPOSITION_OPACITY_MODE_INHERIT, DCOMPOSITION_OPACITY_MODE_LAYER, DCOMPOSITION_OPACITY_MODE_MULTIPLY, dcomptypes/DCOMPOSITION_OPACITY_MODE, dcomptypes/DCOMPOSITION_OPACITY_MODE_INHERIT, dcomptypes/DCOMPOSITION_OPACITY_MODE_LAYER, dcomptypes/DCOMPOSITION_OPACITY_MODE_MULTIPLY, directcomp.dcomposition_opacity_mode
 ms.prod: windows
 ms.technology: windows-sdk

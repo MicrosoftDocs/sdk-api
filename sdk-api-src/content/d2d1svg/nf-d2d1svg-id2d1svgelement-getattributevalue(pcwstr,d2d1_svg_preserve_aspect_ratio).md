@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_getattributevalue_15.htm
 tech.root: direct2d
 ms.assetid: F65F9346-82C5-433E-938F-35D3FC1F4907
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_PRESERVE_ASPECT_RATIO), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_PRESERVE_ASPECT_RATIO), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_15
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\wlxdialogboxindirectparam.htm
 tech.root: secauthn
 ms.assetid: 98541411-45c7-4c23-95a0-c76022184db3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: PWLX_DIALOG_BOX_INDIRECT_PARAM, PWLX_DIALOG_BOX_INDIRECT_PARAM callback, WlxDialogBoxIndirectParam, WlxDialogBoxIndirectParam callback function [Security], _gina_wlxdialogboxindirectparam, security.wlxdialogboxindirectparam, winwlx/WlxDialogBoxIndirectParam
 ms.prod: windows
 ms.technology: windows-sdk

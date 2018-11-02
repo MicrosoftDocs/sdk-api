@@ -7,7 +7,7 @@ old-location: shell\IProgressDialog_StartProgressDialog.htm
 tech.root: shell
 ms.assetid: 0cafe878-c95f-416e-8291-51d9a5a17a71
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IProgressDialog interface [Windows Shell],StartProgressDialog method, IProgressDialog.StartProgressDialog, IProgressDialog::StartProgressDialog, PROGDLG_AUTOTIME, PROGDLG_MARQUEEPROGRESS, PROGDLG_MODAL, PROGDLG_NOCANCEL, PROGDLG_NOMINIMIZE, PROGDLG_NOPROGRESSBAR, PROGDLG_NORMAL, PROGDLG_NOTIME, StartProgressDialog, StartProgressDialog method [Windows Shell], StartProgressDialog method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_StartProgressDialog, shell.IProgressDialog_StartProgressDialog, shlobj_core/IProgressDialog::StartProgressDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

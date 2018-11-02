@@ -7,7 +7,7 @@ old-location: controls\TaskDialogIndirect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogindirect.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls], _shell_TaskDialogIndirect, _shell_TaskDialogIndirect_cpp, commctrl/TaskDialogIndirect, controls.TaskDialogIndirect, controls._shell_TaskDialogIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

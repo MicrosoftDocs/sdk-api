@@ -7,7 +7,7 @@ old-location: display\ddsyncvideoportdata.htm
 tech.root: display
 ms.assetid: 3726a505-c3cf-4784-886e-2f4524fb0c5b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: DdSyncVideoPortData, DdSyncVideoPortData callback function [Display Devices], PDD_KERNELCB_SYNCVIDEOPORT, PDD_KERNELCB_SYNCVIDEOPORT callback, ddfncs_828e83a4-4723-4cf5-8eac-8b6b449765c0.xml, ddrawint/DdSyncVideoPortData, display.ddsyncvideoportdata
 ms.prod: windows
 ms.technology: windows-sdk

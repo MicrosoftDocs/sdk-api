@@ -7,7 +7,7 @@ old-location: mf\imfclockconsumer.htm
 tech.root: medfound
 ms.assetid: B21D3797-695F-4794-80A2-05D381F288C2
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IMFClockConsumer interface [Media Foundation],described, mf.imfclockconsumer, mfidl/IMFClockConsumer
 ms.prod: windows
 ms.technology: windows-sdk

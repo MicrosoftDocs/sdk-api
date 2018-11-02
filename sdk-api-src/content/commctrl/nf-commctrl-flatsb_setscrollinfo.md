@@ -7,7 +7,7 @@ old-location: controls\FlatSB_SetScrollInfo.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: FlatSB_SetScrollInfo, FlatSB_SetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_SetScrollInfo, _win32_FlatSB_SetScrollInfo_cpp, commctrl/FlatSB_SetScrollInfo, controls.FlatSB_SetScrollInfo, controls._win32_FlatSB_SetScrollInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,9 @@ Sets the information for a flat scroll bar. If flat scroll bars are not initiali
 
 ### -param arg1
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
 
 ### -param code
@@ -173,13 +175,6 @@ A combination of SIF_PAGE, SIF_POS, and SIF_RANGE.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether the scroll bar should be redrawn immediately to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn; if it is <b>FALSE</b>, the scroll bar is not redrawn. 
-
-
-#### - param
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
 
 ## -returns

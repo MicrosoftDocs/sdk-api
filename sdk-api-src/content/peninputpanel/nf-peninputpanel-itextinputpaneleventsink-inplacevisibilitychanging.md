@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanging.htm
 tech.root: tablet
 ms.assetid: 957e1c24-3eee-4a6f-9157-961e3d6914b7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 957e1c24-3eee-4a6f-9157-961e3d6914b7, ITextInputPanelEventSink interface [Tablet PC],InPlaceVisibilityChanging method, ITextInputPanelEventSink.InPlaceVisibilityChanging, ITextInputPanelEventSink::InPlaceVisibilityChanging, InPlaceVisibilityChanging, InPlaceVisibilityChanging method [Tablet PC], InPlaceVisibilityChanging method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanging, tablet.itextinputpaneleventsink_inplacevisibilitychanging
 ms.prod: windows-hardware
 ms.technology: windows-devices

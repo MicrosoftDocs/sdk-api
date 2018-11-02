@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_issupported.htm
 tech.root: direct2d
 ms.assetid: d9fbc313-fe82-4425-9c9a-79bfacc08019
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],IsSupported method, ID2D1RenderTarget.IsSupported, ID2D1RenderTarget.IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &), ID2D1RenderTarget::IsSupported, ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &), IsSupported, IsSupported method [Direct2D], IsSupported method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::IsSupported, direct2d.id2d1rendertarget_issupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

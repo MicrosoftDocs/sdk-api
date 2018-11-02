@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_guid_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1les.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: Guid property [Fax Service], Guid property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],Guid property, IFaxRoutingMethod.Guid, IFaxRoutingMethod.get_Guid, IFaxRoutingMethod::Guid, IFaxRoutingMethod::get_Guid, _mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_guid_cpp, faxcom/IFaxRoutingMethod::Guid, faxcom/IFaxRoutingMethod::get_Guid, get_Guid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\vari2fromstr.htm
 tech.root: automat
 ms.assetid: a4f43356-5681-4926-aa2a-471fa2198a2c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI2FromStr, VarI2FromStr function [Automation], _oa96_VarI2FromStr, automat.vari2fromstr, oleauto/VarI2FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

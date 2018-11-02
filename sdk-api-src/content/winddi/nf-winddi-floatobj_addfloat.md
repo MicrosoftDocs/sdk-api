@@ -7,7 +7,7 @@ old-location: display\floatobj_addfloat.htm
 tech.root: display
 ms.assetid: 47af86ec-a7b2-49c1-aeda-1a273f17c4ae
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: FLOATOBJ_AddFloat, FLOATOBJ_AddFloat function [Display Devices], display.floatobj_addfloat, gdifncs_2e5305b6-571f-4ae2-bfd7-2305c006b6da.xml, winddi/FLOATOBJ_AddFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_AddFloat</b> function adds the value of type FLOATL to the <a hr
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the sum of *<i>pf</i> and *<i>f</i>.
 
 
-#### - f [in]
+### -param arg2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the summation.
 

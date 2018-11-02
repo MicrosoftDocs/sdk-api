@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getrow.htm
 tech.root: WinRT
 ms.assetid: d56bc0c8-0a63-48c8-bc2c-e3b4c2f313b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetRow, GetRow method [Windows Runtime], GetRow method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetRow method, IMetaDataTables.GetRow, IMetaDataTables::GetRow, rometadataapi/IMetaDataTables::GetRow, winrt.imetadatatables_getrow
 ms.prod: windows-hardware
 ms.technology: windows-devices

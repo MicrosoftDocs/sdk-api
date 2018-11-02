@@ -7,7 +7,7 @@ old-location: rras\rasenumentries.htm
 tech.root: rras
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,44 +63,31 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Reserved; must be <b>NULL</b>.
 
 
-#### - lpcEntries [out]
+### -param arg2 [in]
 
-Pointer to a variable that receives to the number of phone-book entries written to the buffer specified by <i>lprasentryname</i>.
+Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
+
+If this parameter is <b>NULL</b>, the entries are enumerated from all the remote access phone-book files in the AllUsers profile and the user's profile.
 
 
-#### - lpcb [in, out]
+### -param arg3 [in, out]
+
+Pointer to a buffer that, on output, receives an array of 
+<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structures, one for each phone-book entry. 
+
+
+
+
+On input, an application must set the <b>dwSize</b> member of the first 
+<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
+
+
+### -param arg4 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasentryname</i>. 
 
@@ -114,23 +101,9 @@ Pointer to a variable that, on output, contains the size, in bytes, of the array
 <b>RasEnumEntries</b> with <i>lprasentryname</i> set to <b>NULL</b>. The variable pointed to by <i>lpcb</i> should be set to zero. The function will return the required buffer size in <i>lpcb</i> and an error code of <b>ERROR_BUFFER_TOO_SMALL</b>.
 
 
-#### - lprasentryname [in, out]
+### -param arg5 [out]
 
-Pointer to a buffer that, on output, receives an array of 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structures, one for each phone-book entry. 
-
-
-
-
-On input, an application must set the <b>dwSize</b> member of the first 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
-
-
-#### - lpszPhonebook [in]
-
-Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
-
-If this parameter is <b>NULL</b>, the entries are enumerated from all the remote access phone-book files in the AllUsers profile and the user's profile.
+Pointer to a variable that receives to the number of phone-book entries written to the buffer specified by <i>lprasentryname</i>.
 
 
 ## -returns

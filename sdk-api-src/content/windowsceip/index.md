@@ -2,7 +2,7 @@
 UID: NA:windowsceip
 ms.assetid: 3757983b-c84c-3901-8c5b-27bf7d45c860
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

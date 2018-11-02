@@ -7,7 +7,7 @@ old-location: controls\GetThemeSysFont.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysfont.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetThemeSysFont, GetThemeSysFont function [Windows Controls], TMT_CAPTIONFONT, TMT_ICONTITLEFONT, TMT_MENUFONT, TMT_MSGBOXFONT, TMT_SMALLCAPTIONFONT, TMT_STATUSFONT, controls.GetThemeSysFont, controls.inet_GetThemeSysFont, inet_GetThemeSysFont, inet_GetThemeSysFont_cpp, uxtheme/GetThemeSysFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\wnsprintf.htm
 tech.root: shell
 ms.assetid: 1d2b472b-6b34-4867-897c-eca60921d414
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_wnsprintf, shell.wnsprintf, shlwapi/wnsprintf, shlwapi/wnsprintfA, shlwapi/wnsprintfW, wnsprintf, wnsprintf function [Windows Shell], wnsprintfA, wnsprintfW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,7 @@ Type: <b>PCTSTR</b>
 A <a href="https://msdn.microsoft.com/en-us/library/Ff728755(v=VS.85).aspx">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - param [in]
+### -param arg1 [in]
 
 Additional parameters that contain the data to be output.
 

@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_scale.htm
 tech.root: direct2d
 ms.assetid: D0ACA5DC-D144-4832-94EB-A851F7602FD9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: Matrix4x4F interface [Direct2D],Scale method, Matrix4x4F.Scale, Matrix4x4F::Scale, Scale, Scale method [Direct2D], Scale method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::Scale, direct2d.matrix4x4f_scale
 ms.prod: windows-hardware
 ms.technology: windows-devices

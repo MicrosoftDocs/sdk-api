@@ -7,7 +7,7 @@ old-location: com\ienumstring.htm
 tech.root: com
 ms.assetid: 7f3e642a-17c7-4646-8c70-da6b0946a415
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [COM],described, _com_ienumstring, com.ienumstring, objidlbase/IEnumString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createboolean.htm
 tech.root: WinRT
 ms.assetid: F825D8F2-8FCE-48A7-9BD8-57E5D97A0E88
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateBoolean, CreateBoolean method [Windows Runtime], CreateBoolean method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBoolean method, IPropertyValueStatics.CreateBoolean, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBoolean, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBoolean, winrt.ipropertyvaluefactory_createboolean, winrt.ipropertyvaluestatics_createboolean
 ms.prod: windows-hardware
 ms.technology: windows-devices

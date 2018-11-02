@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_initialize.htm
 tech.root: directdraw
 ms.assetid: 98b9a05f-ff61-4c58-9c09-625077eb64ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Initialize method, IDirectDrawSurface7.Initialize, IDirectDrawSurface7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Initialize, directdraw.idirectdrawsurface7_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Initializes a DirectDrawSurface object.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - lpDD [in]
+### -param arg1 [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawSurface object.
 
 
-#### - lpDDSurfaceDesc [in]
+### -param arg2 [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes how to initialize this surface.
 

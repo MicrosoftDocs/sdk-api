@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_refresh_cpp.h
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_24vc.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxIncomingQueue interface [Fax Service],Refresh method, IFaxIncomingQueue.Refresh, IFaxIncomingQueue::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingQueue interface, _mfax_faxincomingqueue.refresh, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_refresh_cpp, fax._mfax_faxincomingqueue_refresh, faxcomex/IFaxIncomingQueue::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

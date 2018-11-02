@@ -7,7 +7,7 @@ old-location: winauto\accnotifytouchinteraction.htm
 tech.root: WinAuto
 ms.assetid: CB533913-95A7-45D5-B0D3-E931E4F73B2E
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: AccNotifyTouchInteraction, AccNotifyTouchInteraction function [Windows Accessibility], oleacc/AccNotifyTouchInteraction, winauto.accnotifytouchinteraction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ If not successful, returns a standard <a href="https://msdn.microsoft.com/e6deca
 
 
 
-This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccNotifyTouchInteraction</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://msdn.microsoft.com/0c3689e1-2124-4142-b0bd-233e95ee1285">Security Considerations for Assistive Technologies</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
+This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccNotifyTouchInteraction</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://msdn.microsoft.com/0c3689e1-2124-4142-b0bd-233e95ee1285">Security Considerations for Assistive Technologies</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=207612">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
 
 When an AT is consuming touch data (such as when using the <a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-09fe530f1830">RegisterPointerInputTarget</a> function), the shell and applications that the AT interacts with through the Windows Automation API are not aware that the user is interacting through touch. For the system to expose touch-related functionality to the user, the AT must use <b>AccNotifyTouchInteraction</b> to notify the system that it is performing the interaction in response to user touch input.
 

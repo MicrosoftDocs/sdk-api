@@ -7,7 +7,7 @@ old-location: security\sip_cap_set.htm
 tech.root: seccrypto
 ms.assetid: 0B6D173B-0183-4A7C-BB92-2D451F746164
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PSIP_CAP_SET_V3, PSIP_CAP_SET, PSIP_CAP_SET structure pointer [Security], SIP_CAP_SET, SIP_CAP_SET structure [Security], SIP_CAP_SET_V3, _SIP_CAP_SET_V3, mssip/PSIP_CAP_SET, mssip/SIP_CAP_SET, security.sip_cap_set"
 ms.prod: windows
 ms.technology: windows-sdk

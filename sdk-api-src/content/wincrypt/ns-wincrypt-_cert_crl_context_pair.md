@@ -7,7 +7,7 @@ old-location: security\cert_crl_context_pair.htm
 tech.root: seccrypto
 ms.assetid: e88781f0-8474-47d3-8218-de95f7eadf04
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR structure [Security], PCERT_CRL_CONTEXT_PAIR, PCERT_CRL_CONTEXT_PAIR structure pointer [Security], _CERT_CRL_CONTEXT_PAIR, _crypto2_cert_crl_context_pair, security.cert_crl_context_pair, wincrypt/CERT_CRL_CONTEXT_PAIR, wincrypt/PCERT_CRL_CONTEXT_PAIR"
 ms.prod: windows
 ms.technology: windows-sdk

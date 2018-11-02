@@ -7,7 +7,7 @@ old-location: com\cocreateguid.htm
 tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

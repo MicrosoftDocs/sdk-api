@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometries.htm
 tech.root: direct2d
 ms.assetid: 11c375a1-aea0-44bf-abcb-ee071140525a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetSourceGeometries, GetSourceGeometries method [Direct2D], GetSourceGeometries method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetSourceGeometries method, ID2D1GeometryGroup.GetSourceGeometries, ID2D1GeometryGroup::GetSourceGeometries, d2d1/ID2D1GeometryGroup::GetSourceGeometries, direct2d.ID2D1GeometryGroup_GetSourceGeometries
 ms.prod: windows-hardware
 ms.technology: windows-devices

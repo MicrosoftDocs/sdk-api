@@ -7,7 +7,7 @@ old-location: automat\vari1fromui8.htm
 tech.root: automat
 ms.assetid: 5732c276-4e0d-485b-84f1-2f020b192190
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarI1FromUI8, VarI1FromUI8 function [Automation], _oa96_VarI1FromUI8, automat.vari1fromui8, oleauto/VarI1FromUI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

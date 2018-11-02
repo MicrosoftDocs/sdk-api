@@ -7,7 +7,7 @@ old-location: display\floatobj_sublong.htm
 tech.root: display
 ms.assetid: 2a3e8a17-3718-4212-adfe-f109e286bec6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: FLOATOBJ_SubLong, FLOATOBJ_SubLong function [Display Devices], display.floatobj_sublong, gdifncs_8b50c7a1-6ed7-4368-8465-5b1b1e7f4c48.xml, winddi/FLOATOBJ_SubLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ The <b>FLOATOBJ_SubLong</b> function subtracts the value of type LONG from the <
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the value (*<i>pf</i> - <i>l</i>).
 
 
-#### - l [in]
+### -param arg2 [in]
 
 Specifies the LONG operand. This value is converted to a FLOATOBJ for the subtraction.
 

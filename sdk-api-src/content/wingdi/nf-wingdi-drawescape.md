@@ -7,7 +7,7 @@ old-location: gdi\drawescape.htm
 tech.root: gdi
 ms.assetid: 306eec06-6d29-43bc-aff0-a267efa52ccd
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: DrawEscape, DrawEscape function [Windows GDI], _win32_DrawEscape, gdi.drawescape, wingdi/DrawEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices

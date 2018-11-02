@@ -7,7 +7,7 @@ old-location: winauto\uiauto_RowOrColumnMajorEnum.htm
 tech.root: WinAuto
 ms.assetid: c1847da9-21ad-4751-bb17-5c54b4bebe77
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: RowOrColumnMajor, RowOrColumnMajor enumeration [Windows Accessibility], RowOrColumnMajor_ColumnMajor, RowOrColumnMajor_Indeterminate, RowOrColumnMajor_RowMajor, uiauto.uiauto_RowOrColumnMajorEnum, uiauto_RowOrColumnMajorEnum, uiautomationcore/RowOrColumnMajor, uiautomationcore/RowOrColumnMajor_ColumnMajor, uiautomationcore/RowOrColumnMajor_Indeterminate, uiautomationcore/RowOrColumnMajor_RowMajor, winauto.uiauto_RowOrColumnMajorEnum
 ms.prod: windows
 ms.technology: windows-sdk

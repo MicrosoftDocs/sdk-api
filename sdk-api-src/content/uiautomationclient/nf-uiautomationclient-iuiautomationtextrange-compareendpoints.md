@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_CompareEndpoints.htm
 tech.root: WinAuto
 ms.assetid: 7071ae46-3f2d-4fdb-9908-366ac1fde691
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],CompareEndpoints method, IUIAutomationTextRange.CompareEndpoints, IUIAutomationTextRange::CompareEndpoints, uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints, uiauto_IUIAutomationTextRange_CompareEndpoints, uiautomationclient/IUIAutomationTextRange::CompareEndpoints, winauto.uiauto_IUIAutomationTextRange_CompareEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Retrieves a value that specifies whether the start or end endpoint of this text 
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+A value indicating whether the start or end endpoint of this text range is to be compared.
 
 
 ### -param range [in]
@@ -70,9 +72,11 @@ Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c9214
 A pointer to the text range to compare.
 
 
-### -param arg2
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+A value indicating whether the start or end endpoint of <i>range</i> is to be compared.
 
 
 ### -param compValue [out, retval]
@@ -80,20 +84,6 @@ TBD
 Type: <b>int*</b>
 
 Receives a negative value if the caller's endpoint occurs earlier in the text than the target endpoint; 0 if the caller's endpoint is at the same location as the target endpoint; or a positive value if the caller's endpoint occurs later in the text than the target endpoint.
-
-
-#### - srcEndPoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-A value indicating whether the start or end endpoint of this text range is to be compared.
-
-
-#### - targetEndPoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-A value indicating whether the start or end endpoint of <i>range</i> is to be compared.
 
 
 ## -returns

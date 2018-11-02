@@ -4,10 +4,10 @@ title: ITPhone::put_ButtonMode
 author: windows-sdk-content
 description: The put_ButtonMode method sets the button mode.
 old-location: tapi3\itphone_put_buttonmode.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: d2287c86-5884-4890-956c-fcc26c426cd3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonMode method, ITPhone.put_ButtonMode, ITPhone::put_ButtonMode, _tapi3_itphone_put_buttonmode, put_ButtonMode, put_ButtonMode method [TAPI 2.2], put_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttonmode, tapi3if/ITPhone::put_ButtonMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

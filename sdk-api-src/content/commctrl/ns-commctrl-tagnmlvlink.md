@@ -7,7 +7,7 @@ old-location: controls\NMLVLINK.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvlink.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*PNMLVLINK, LPNMLVLINK, LPNMLVLINK structure pointer [Windows Controls], NMLVLINK, NMLVLINK structure [Windows Controls], commctrl/LPNMLVLINK, commctrl/NMLVLINK, controls.NMLVLINK, controls.shell_NMLVLINK, shell_NMLVLINK, shell_NMLVLINK_cpp, tagNMLVLINK"
 ms.prod: windows
 ms.technology: windows-sdk

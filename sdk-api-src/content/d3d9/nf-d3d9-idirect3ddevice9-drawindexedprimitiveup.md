@@ -4,10 +4,10 @@ title: IDirect3DDevice9::DrawIndexedPrimitiveUP
 author: windows-sdk-content
 description: Renders the specified geometric primitive with data specified by a user memory pointer.
 old-location: direct3d9\idirect3ddevice9__drawindexedprimitiveup.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawindexedprimitiveup.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DrawIndexedPrimitiveUP, DrawIndexedPrimitiveUP method [Direct3D 9], DrawIndexedPrimitiveUP method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawIndexedPrimitiveUP method, IDirect3DDevice9.DrawIndexedPrimitiveUP, IDirect3DDevice9::DrawIndexedPrimitiveUP, a76e7ddd-b096-aabd-099d-4ef12355b8c1, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitiveUP, direct3d9.idirect3ddevice9__drawindexedprimitiveup
 ms.prod: windows-hardware
 ms.technology: windows-devices

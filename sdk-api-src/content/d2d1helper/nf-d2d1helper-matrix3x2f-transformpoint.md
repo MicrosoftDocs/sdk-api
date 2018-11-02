@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_transformpoint.htm
 tech.root: direct2d
 ms.assetid: f7c31524-5c29-4c09-b863-6b511ef9ce70
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1.Matrix3x2F.TransformPoint, D2D1::Matrix3x2F::TransformPoint, Matrix3x2F interface [Direct2D],TransformPoint method, Matrix3x2F.TransformPoint, Matrix3x2F::TransformPoint, TransformPoint, TransformPoint method [Direct2D], TransformPoint method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::TransformPoint, direct2d.matrix3x2f_transformpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

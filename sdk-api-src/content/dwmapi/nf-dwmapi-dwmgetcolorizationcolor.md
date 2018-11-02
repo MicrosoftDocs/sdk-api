@@ -7,7 +7,7 @@ old-location: dwm\dwmgetcolorizationcolor.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcolorizationcolor.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DwmGetColorizationColor, DwmGetColorizationColor function [Desktop Window Manager], _udwm_dwmgetcolorizationcolor, _udwm_dwmgetcolorizationcolor_cpp, dwm.dwmgetcolorizationcolor, dwmapi/DwmGetColorizationColor, winui._udwm_dwmgetcolorizationcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

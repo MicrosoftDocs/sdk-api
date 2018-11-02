@@ -4,10 +4,10 @@ title: RpcNsProfileEltInqNextW function
 author: windows-sdk-content
 description: The RpcNsProfileEltInqNext function returns one element at a time from a profile.
 old-location: rpc\rpcnsprofileeltinqnext.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 78835fde-82c3-4cff-94b9-91e07120e03f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RpcNsProfileEltInqNext, RpcNsProfileEltInqNext function [RPC], RpcNsProfileEltInqNextA, RpcNsProfileEltInqNextW, _rpc_rpcnsprofileeltinqnext, rpc.rpcnsprofileeltinqnext, rpcnsi/RpcNsProfileEltInqNext, rpcnsi/RpcNsProfileEltInqNextA, rpcnsi/RpcNsProfileEltInqNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

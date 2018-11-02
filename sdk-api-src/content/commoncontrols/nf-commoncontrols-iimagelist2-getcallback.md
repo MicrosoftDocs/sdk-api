@@ -7,7 +7,7 @@ old-location: controls\IImageList2_GetCallback.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getcallback.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetCallback, GetCallback method [Windows Controls], GetCallback method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetCallback method, IImageList2.GetCallback, IImageList2::GetCallback, _shell_IImageList2_GetCallback, _shell_IImageList2_GetCallback_cpp, commoncontrols/IImageList2::GetCallback, controls.IImageList2_GetCallback, controls._shell_IImageList2_GetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

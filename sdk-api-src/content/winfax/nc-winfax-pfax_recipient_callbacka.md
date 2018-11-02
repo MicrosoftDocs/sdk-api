@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_recipient_callback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5a5n.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FAX_RECIPIENT_CALLBACK, FAX_RECIPIENT_CALLBACK callback, FAX_RECIPIENT_CALLBACK callback function [Fax Service], PFAX_RECIPIENT_CALLBACKA, PFAX_RECIPIENT_CALLBACKW, _mfax_fax_recipient_callback, fax._mfax_fax_recipient_callback, winfax/FAX_RECIPIENT_CALLBACK, winfax/PFAX_RECIPIENT_CALLBACKA, winfax/PFAX_RECIPIENT_CALLBACKW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getimplementationid.htm
 tech.root: WinAuto
 ms.assetid: 018834df-bd03-4bf5-8af2-b325f7a6a586
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetImplementationID, GetImplementationID method [Windows Accessibility], GetImplementationID method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetImplementationID method, IVersionInfo.GetImplementationID, IVersionInfo::GetImplementationID, _msaa_IVersionInfo_GetImplementationID, msaa.iversioninfo_iversioninfo__getimplementationid, msaatext/IVersionInfo::GetImplementationID, winauto.iversioninfo_iversioninfo__getimplementationid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later 
 
 Clients call <b>IVersionInfo::GetImplementationID</b> to retrieve a unique identifier for the component.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

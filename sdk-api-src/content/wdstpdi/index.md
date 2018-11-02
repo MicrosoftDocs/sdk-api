@@ -2,7 +2,7 @@
 UID: NA:wdstpdi
 ms.assetid: 386ae06c-6e77-3313-ba45-daeb53004c4d
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

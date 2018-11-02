@@ -7,7 +7,7 @@ old-location: gdi\emrpolydraw16.htm
 tech.root: gdi
 ms.assetid: 476c5a81-99fc-4e25-a761-b95bbf18b271
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMRPOLYDRAW16, EMRPOLYDRAW16, EMRPOLYDRAW16 structure [Windows GDI], PEMRPOLYDRAW16, PEMRPOLYDRAW16 structure pointer [Windows GDI], _win32_EMRPOLYDRAW16_str, gdi.emrpolydraw16, tagEMRPOLYDRAW16, wingdi/EMRPOLYDRAW16, wingdi/PEMRPOLYDRAW16"
 ms.prod: windows
 ms.technology: windows-sdk

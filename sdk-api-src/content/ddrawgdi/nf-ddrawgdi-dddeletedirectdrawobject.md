@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_dddeletedirectdrawobject.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletedirectdrawobject.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: DdDeleteDirectDrawObject, DdDeleteDirectDrawObject function [Windows API], GdiEntry3, _dxgkernel_dddeletedirectdrawobject, ddrawgdi/DdDeleteDirectDrawObject, ddrawgdi/GdiEntry3, winprog._dxgkernel_dddeletedirectdrawobject, winui._dxgkernel_dddeletedirectdrawobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

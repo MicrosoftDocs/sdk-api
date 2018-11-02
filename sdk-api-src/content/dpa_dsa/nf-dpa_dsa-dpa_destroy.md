@@ -7,7 +7,7 @@ old-location: controls\DPA_Destroy.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_destroy.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: DPA_Destroy, DPA_Destroy function [Windows Controls], _win32_DPA_Destroy, _win32_DPA_Destroy_cpp, controls.DPA_Destroy, controls._win32_DPA_Destroy, dpa_dsa/DPA_Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

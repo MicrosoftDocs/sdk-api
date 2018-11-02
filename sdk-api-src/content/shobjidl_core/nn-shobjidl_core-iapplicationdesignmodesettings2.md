@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings2.htm
 tech.root: shell
 ms.assetid: 1F630AFF-3C73-461C-AE41-D597F6FF42D8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IApplicationDesignModeSettings2, IApplicationDesignModeSettings2 interface [Windows Shell], IApplicationDesignModeSettings2 interface [Windows Shell],described, shell.IApplicationDesignModeSettings2, shobjidl_core/IApplicationDesignModeSettings2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_deleteproperty.htm
 tech.root: medfound
 ms.assetid: 7c9a406d-6144-4e9c-b62c-1d9c691391f0
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 7c9a406d-6144-4e9c-b62c-1d9c691391f0, DeleteProperty, DeleteProperty method [Media Foundation], DeleteProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],DeleteProperty method, IMFMetadata.DeleteProperty, IMFMetadata::DeleteProperty, mf.imfmetadata_deleteproperty, mfidl/IMFMetadata::DeleteProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

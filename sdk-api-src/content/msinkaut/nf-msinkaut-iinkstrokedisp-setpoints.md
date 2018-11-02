@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_setpoints.htm
 tech.root: tablet
 ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tablet PC],SetPoints method, IInkStrokeDisp.SetPoints, IInkStrokeDisp::SetPoints, SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

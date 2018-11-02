@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_setmessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: 77FFF3EA-DEBC-4D92-9C10-E382CD663D20
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetMessageCountLimit method, IDXGIInfoQueue.SetMessageCountLimit, IDXGIInfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [DXGI], SetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setmessagecountlimit, dxgidebug/IDXGIInfoQueue::SetMessageCountLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

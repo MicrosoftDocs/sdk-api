@@ -7,7 +7,7 @@ old-location: display\dd_updatenonlocalheapdata.htm
 tech.root: display
 ms.assetid: ef16df6f-dbc6-40ee-9c86-be9c3d132b28
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA structure [Display Devices], _DD_UPDATENONLOCALHEAPDATA, ddrawint/DD_UPDATENONLOCALHEAPDATA, ddstrcts_e53429c7-6fc5-4528-ab0e-c9768fdf75ae.xml, display.dd_updatenonlocalheapdata"
 ms.prod: windows
 ms.technology: windows-sdk

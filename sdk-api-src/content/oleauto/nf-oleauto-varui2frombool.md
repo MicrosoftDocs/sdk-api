@@ -7,7 +7,7 @@ old-location: automat\varui2frombool.htm
 tech.root: automat
 ms.assetid: 0d1ee7cf-3d3b-49a3-9afa-9ee5afc49d19
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarUI2FromBool, VarUI2FromBool function [Automation], _oa96_VarUI2FromBool, automat.varui2frombool, oleauto/VarUI2FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

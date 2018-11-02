@@ -4,10 +4,10 @@ title: WSANSPIoctl function
 author: windows-sdk-content
 description: Enables developers to make I/O control calls to a registered namespace.
 old-location: winsock\wsanspioctl_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 6ecaedf0-0038-46d3-9916-c9cb069c5e92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SIO_NSP_NOTIFY_CHANGE, WSANSPIoctl, WSANSPIoctl function [Winsock], _win32_wsanspioctl_2, winsock.wsanspioctl_2, winsock2/WSANSPIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

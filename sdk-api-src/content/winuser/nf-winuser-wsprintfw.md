@@ -7,7 +7,7 @@ old-location: menurc\wsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_wsprintf, _win32_wsprintf_cpp, menurc.wsprintf, winui._win32_wsprintf, winuser/wsprintf, winuser/wsprintfA, winuser/wsprintfW, wsprintf, wsprintf function [Menus and Other Resources], wsprintfA, wsprintfW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,40 +60,23 @@ Writes formatted data to the specified buffer. Any arguments are converted and c
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-####### - ... [in]
-
-One or more optional arguments. The number and type of argument parameters depend on the corresponding format-control specifications in the <i>lpFmt</i> parameter.
-
-
-#### - [out]
+### -param arg1 [out]
 
 Type: <b>LPTSTR</b>
 
 The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
 
 
-#### - lpFmt [in]
+### -param arg2 [in]
 
 Type: <b>LPCTSTR</b>
 
 The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the Remarks section.
+
+
+### -param arg3 [in]
+
+One or more optional arguments. The number and type of argument parameters depend on the corresponding format-control specifications in the <i>lpFmt</i> parameter.
 
 
 ## -returns

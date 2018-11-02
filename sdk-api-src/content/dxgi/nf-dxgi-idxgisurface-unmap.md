@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgisurface_unmap.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_unmap.htm
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: 72e0302e-2a02-c42b-8a5c-609c0e5f562a, IDXGISurface interface [DXGI],Unmap method, IDXGISurface.Unmap, IDXGISurface::Unmap, Unmap, Unmap method [DXGI], Unmap method [DXGI],IDXGISurface interface, direct3ddxgi.idxgisurface_unmap, dxgi/IDXGISurface::Unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

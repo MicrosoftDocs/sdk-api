@@ -4,10 +4,10 @@ title: GlobalSize function
 author: windows-sdk-content
 description: Retrieves the current size of the specified global memory object, in bytes.
 old-location: base\globalsize.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 9fd01460-d6fc-41f4-9e0c-209a3d1844c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

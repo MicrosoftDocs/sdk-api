@@ -4,10 +4,10 @@ title: NdrAsyncClientCall2 function
 author: windows-sdk-content
 description: NdrAsyncClientCall2 may be altered or unavailable.
 old-location: rpc\ndrasyncclientcall2.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 0EBBE464-14D9-4A44-ADD4-1250FDBC02F1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: NdrAsyncClientCall2, NdrAsyncClientCall2 function [RPC], rpc.ndrasyncclientcall2, rpcndr/NdrAsyncClientCall2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ Reserved.
 Reserved.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - param [in, out]
+### -param arg1 [in, out]
 
 Reserved.
 

@@ -4,10 +4,10 @@ title: l_timeval
 author: windows-sdk-content
 description: Used to represent an interval of time.
 old-location: ldap\ldap_timeval.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 8e551e7c-7237-4761-92e8-c352c3adda77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PLDAP_TIMEVAL, LDAP_TIMEVAL, LDAP_TIMEVAL structure [LDAP], PLDAP_TIMEVAL, PLDAP_TIMEVAL structure pointer [LDAP], _ldap_ldap_timeval, l_timeval, ldap.ldap__timeval, ldap.ldap_timeval, winldap/LDAP_TIMEVAL, winldap/PLDAP_TIMEVAL"
 ms.prod: windows
 ms.technology: windows-sdk

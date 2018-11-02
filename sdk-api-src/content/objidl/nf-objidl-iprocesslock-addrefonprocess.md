@@ -7,7 +7,7 @@ old-location: com\iprocesslock_addrefonprocess.htm
 tech.root: com
 ms.assetid: 7c82273f-7303-45c2-92e2-48ffab094756
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: AddRefOnProcess, AddRefOnProcess method [COM], AddRefOnProcess method [COM],IProcessLock interface, IProcessLock interface [COM],AddRefOnProcess method, IProcessLock.AddRefOnProcess, IProcessLock::AddRefOnProcess, _com_iprocesslock_addrefonprocess, com.iprocesslock_addrefonprocess, objidl/IProcessLock::AddRefOnProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

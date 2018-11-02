@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithItem.htm
 tech.root: shell
 ms.assetid: 95f3917e-66ca-45de-a3ed-811680a179e7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IInitializeWithItem, IInitializeWithItem interface [Windows Shell], IInitializeWithItem interface [Windows Shell],described, shell.IInitializeWithItem, shell_IInitializeWithItem, shobjidl_core/IInitializeWithItem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzBizRuleParameters::Remove
 author: windows-sdk-content
 description: Removes the specified parameter from the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_remove_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 1874ac48-0a06-4387-89c2-c194b60bb8f2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAzBizRuleParameters interface [Security],Remove method, IAzBizRuleParameters.Remove, IAzBizRuleParameters::Remove, Remove, Remove method [Security], Remove method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::Remove, security.iazbizruleparameters_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

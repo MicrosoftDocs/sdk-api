@@ -4,10 +4,10 @@ title: GetUmsCompletionListEvent function
 author: windows-sdk-content
 description: Retrieves a handle to the event associated with the specified user-mode scheduling (UMS) completion list.
 old-location: base\getumscompletionlistevent.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 393f6e0a-fbea-4aa0-9c18-f96da18e61e9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetUmsCompletionListEvent, GetUmsCompletionListEvent function, base.getumscompletionlistevent, winbase/GetUmsCompletionListEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IDropTargetHelper_DragEnter.htm
 tech.root: shell
 ms.assetid: cc0fd3f2-424e-4448-b589-fc4b8dc75506
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: DragEnter, DragEnter method [Windows Shell], DragEnter method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragEnter method, IDropTargetHelper.DragEnter, IDropTargetHelper::DragEnter, _win32_IDropTargetHelper_DragEnter, shell.IDropTargetHelper_DragEnter, shobjidl_core/IDropTargetHelper::DragEnter
 ms.prod: windows-hardware
 ms.technology: windows-devices

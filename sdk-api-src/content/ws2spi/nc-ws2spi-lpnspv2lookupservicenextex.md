@@ -4,10 +4,10 @@ title: LPNSPV2LOOKUPSERVICENEXTEX
 author: windows-sdk-content
 description: Called after obtaining a handle from a previous call to NSPv2LookupServiceBegin in order to retrieve the requested information from a namespace version-2 service provider.
 old-location: winsock\nspv2lookupservicenextex.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 957fe544-9a3f-47f4-a98c-0624747650f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPNSPV2LOOKUPSERVICENEXTEX, NSPv2LookupServiceNextEx, NSPv2LookupServiceNextEx function [Winsock], winsock.nspv2lookupservicenextex, ws2spi/NSPv2LookupServiceNextEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dreflectlibrary.htm
 tech.root: direct3dhlsl
 ms.assetid: E64FB2C3-8F64-411F-89E1-984DAAE4D7C2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: D3DReflectLibrary, D3DReflectLibrary function [HLSL], d3dcompiler/D3DReflectLibrary, direct3dhlsl.d3dreflectlibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

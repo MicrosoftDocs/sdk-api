@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilitie
 tech.root: termserv
 ms.assetid: ff6123f6-4d78-41d1-8093-916f01de09ef
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWTSProtocolLicenseConnection.RequestLicensingCapabilities, IWTSProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

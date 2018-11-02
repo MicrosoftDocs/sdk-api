@@ -7,7 +7,7 @@ old-location: tablet\inkedit_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: 0992dbd2-bd32-4af6-abd1-66027dd2b30f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 0992dbd2-bd32-4af6-abd1-66027dd2b30f, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],GetGestureStatus method, IInkEdit.GetGestureStatus, IInkEdit::GetGestureStatus, inked/IInkEdit::GetGestureStatus, tablet.inkedit_getgesturestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

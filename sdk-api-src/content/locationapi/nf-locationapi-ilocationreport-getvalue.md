@@ -4,10 +4,10 @@ title: ILocationReport::GetValue
 author: windows-sdk-content
 description: Retrieves a property value from the location report.
 old-location: winlocation_com_ref\ilocationreport_getvalue.htm
-tech.root: LocationAPI
+tech.root: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetValue, GetValue method [WinLocation], GetValue method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetValue method, ILocationReport.GetValue, ILocationReport::GetValue, WinLocation_COM_Ref.ilocationreport_getvalue, locationapi/ILocationReport::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

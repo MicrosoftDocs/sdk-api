@@ -4,10 +4,10 @@ title: TSPI_lineCompleteCall function
 author: windows-sdk-content
 description: The TSPI_lineCompleteCall function is used to specify how a call that cannot be connected normally is to be completed instead.
 old-location: tspi\tspi_linecompletecall.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: ec7b9aec-01f2-497a-924b-471fbb526bee
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: TSPI_lineCompleteCall, TSPI_lineCompleteCall function [TAPI 2.2], _tspi_tspi_linecompletecall, tspi.tspi_linecompletecall, tspi/TSPI_lineCompleteCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

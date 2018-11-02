@@ -7,7 +7,7 @@ old-location: winprog\ifhscopeiterator_getitem.htm
 tech.root: devnotes
 ms.assetid: EB732725-497C-4D58-A05C-373732054BE5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: GetItem, GetItem method [Windows API], GetItem method [Windows API],IFhScopeIterator interface, IFhScopeIterator interface [Windows API],GetItem method, IFhScopeIterator.GetItem, IFhScopeIterator::GetItem, fhcfg/IFhScopeIterator::GetItem, winprog.ifhscopeiterator_getitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

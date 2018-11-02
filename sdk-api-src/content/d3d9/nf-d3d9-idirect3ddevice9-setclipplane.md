@@ -4,10 +4,10 @@ title: IDirect3DDevice9::SetClipPlane
 author: windows-sdk-content
 description: Sets the coefficients of a user-defined clipping plane for the device.
 old-location: direct3d9\idirect3ddevice9__setclipplane.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setclipplane.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetClipPlane method, IDirect3DDevice9.SetClipPlane, IDirect3DDevice9::SetClipPlane, SetClipPlane, SetClipPlane method [Direct3D 9], SetClipPlane method [Direct3D 9],IDirect3DDevice9 interface, b1eeda9e-38a1-4dea-dab6-04754538861d, d3d9helper/IDirect3DDevice9::SetClipPlane, direct3d9.idirect3ddevice9__setclipplane
 ms.prod: windows-hardware
 ms.technology: windows-devices

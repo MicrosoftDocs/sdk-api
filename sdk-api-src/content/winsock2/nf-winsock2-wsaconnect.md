@@ -4,10 +4,10 @@ title: WSAConnect function
 author: windows-sdk-content
 description: The WSAConnect function establishes a connection to another socket application, exchanges connect data, and specifies required quality of service based on the specified FLOWSPEC structure.
 old-location: winsock\wsaconnect_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 3b32cc6e-3df7-4104-a0d4-317fd445c7b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSAConnect, WSAConnect function [Winsock], _win32_wsaconnect_2, winsock.wsaconnect_2, winsock2/WSAConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

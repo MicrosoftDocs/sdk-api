@@ -7,7 +7,7 @@ old-location: mscs\clusprop_buffer_helper.htm
 tech.root: mscs
 ms.assetid: a2b706a0-76fe-4757-b76b-96cb6708bb61
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: "*PCLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER union [Failover Cluster], PCLUSPROP_BUFFER_HELPER, PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster], _wolf_clusprop_buffer_helper, clusapi/CLUSPROP_BUFFER_HELPER, clusapi/PCLUSPROP_BUFFER_HELPER, mscs.clusprop_buffer_helper"
 ms.prod: windows
 ms.technology: windows-sdk

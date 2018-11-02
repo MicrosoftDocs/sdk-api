@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritetagged.htm
 tech.root: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
 ms.prod: windows-hardware
 ms.technology: windows-devices

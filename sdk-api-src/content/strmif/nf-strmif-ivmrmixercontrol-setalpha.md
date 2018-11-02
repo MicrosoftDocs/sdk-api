@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_setalpha.htm
 tech.root: DirectShow
 ms.assetid: aab95d45-b8f1-40cb-811f-c1d00aa37c97
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetAlpha method, IVMRMixerControl.SetAlpha, IVMRMixerControl::SetAlpha, IVMRMixerControlSetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setalpha, strmif/IVMRMixerControl::SetAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATR
 tech.root: direct2d
 ms.assetid: 903c7668-fc40-4b2d-8586-68cdac83359f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: FillContainsPoint, FillContainsPoint method [Direct2D], FillContainsPoint method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],FillContainsPoint method, ID2D1Geometry.FillContainsPoint, ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL), ID2D1Geometry::FillContainsPoint, ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL), d2d1/ID2D1Geometry::FillContainsPoint, direct2d.ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL
 ms.prod: windows-hardware
 ms.technology: windows-devices

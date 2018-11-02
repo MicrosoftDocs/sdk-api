@@ -4,10 +4,10 @@ title: ntohs function
 author: windows-sdk-content
 description: The ntohs function converts a u_short from TCP/IP network byte order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohs_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs"
 ms.prod: windows-hardware
 ms.technology: windows-devices

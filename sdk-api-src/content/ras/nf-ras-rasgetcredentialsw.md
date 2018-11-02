@@ -7,7 +7,7 @@ old-location: rras\rasgetcredentials.htm
 tech.root: rras
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetCredentials, RasGetCredentials function [RAS], RasGetCredentialsA, RasGetCredentialsW, _ras_rasgetcredentials, ras/RasGetCredentials, ras/RasGetCredentialsA, ras/RasGetCredentialsW, rras.rasgetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,29 +63,17 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 
-#### - lpCredentials [in, out]
+### -param arg2 [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
+
+
+### -param arg3 [in, out]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a> structure that, on output, receives the user credentials associated with the specified phone-book entry. 
@@ -94,11 +82,6 @@ Pointer to the
 
 
 On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a>), and set the <b>dwMask</b> member to indicate the credential information to retrieve. When the function returns, <b>dwMask</b> indicates the members that were successfully retrieved.
-
-
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
 
 
 ## -returns

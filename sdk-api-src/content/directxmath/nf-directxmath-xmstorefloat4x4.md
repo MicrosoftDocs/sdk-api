@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMStoreFloat4x4
+: 
 ---
 
 # XMStoreFloat4x4 function

@@ -4,10 +4,10 @@ title: IWdsTransportConfigurationManager2
 author: windows-sdk-content
 description: This interface inherits from the IWdsTransportConfigurationManager interface and extends it with configuration settings, such as multicast session policy, that are available beginning with Windows Server 2008 R2.
 old-location: wds\iwdstransportconfigurationmanager2.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 93e22735-83a4-4037-abea-b72277f8b857
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportConfigurationManager2, IWdsTransportConfigurationManager2 interface [Windows Deployment Services], IWdsTransportConfigurationManager2 interface [Windows Deployment Services],described, wds.iwdstransportconfigurationmanager2, wdstptmgmt/IWdsTransportConfigurationManager2
 ms.prod: windows
 ms.technology: windows-sdk

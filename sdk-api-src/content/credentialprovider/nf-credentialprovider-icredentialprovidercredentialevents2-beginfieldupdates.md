@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents2_BeginFieldUpdates.htm
 tech.root: shell
 ms.assetid: 2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: BeginFieldUpdates, BeginFieldUpdates method [Windows Shell], BeginFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],BeginFieldUpdates method, ICredentialProviderCredentialEvents2.BeginFieldUpdates, ICredentialProviderCredentialEvents2::BeginFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::BeginFieldUpdates, shell.ICredentialProviderCredentialEvents2_BeginFieldUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices

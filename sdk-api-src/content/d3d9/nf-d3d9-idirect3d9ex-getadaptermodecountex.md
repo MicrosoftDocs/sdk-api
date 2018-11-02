@@ -4,10 +4,10 @@ title: IDirect3D9Ex::GetAdapterModeCountEx
 author: windows-sdk-content
 description: Returns the number of display modes available.
 old-location: direct3d9\idirect3d9ex_getadaptermodecountex.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadaptermodecountex.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetAdapterModeCountEx, GetAdapterModeCountEx method [Direct3D 9], GetAdapterModeCountEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterModeCountEx method, IDirect3D9Ex.GetAdapterModeCountEx, IDirect3D9Ex::GetAdapterModeCountEx, b588ce9d-6d83-1841-d193-8ee55c13af53, d3d9/IDirect3D9Ex::GetAdapterModeCountEx, direct3d9.idirect3d9ex_getadaptermodecountex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\diuninstalldevice.htm
 tech.root: devinst
 ms.assetid: 317b24bd-01a8-41ff-9aac-78690574eade
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DiUninstallDevice, DiUninstallDevice function [Device and Driver Installation], devinst.diuninstalldevice, di-rtns_361ca427-6e65-497e-a9c0-8723e4aaa8c6.xml, newdev/DiUninstallDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

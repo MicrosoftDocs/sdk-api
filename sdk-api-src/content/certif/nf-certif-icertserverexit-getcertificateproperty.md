@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getcertificateproperty.htm
 tech.root: seccrypto
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerExit object, GetCertificateProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateProperty method, ICertServerExit.GetCertificateProperty, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

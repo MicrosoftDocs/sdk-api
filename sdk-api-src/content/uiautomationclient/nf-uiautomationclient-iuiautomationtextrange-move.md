@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_Move.htm
 tech.root: WinAuto
 ms.assetid: b59ffdb5-6c05-4139-84ae-10ca5c543c3c
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Move method, IUIAutomationTextRange.Move, IUIAutomationTextRange::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_Move, uiauto_IUIAutomationTextRange_Move, uiautomationclient/IUIAutomationTextRange::Move, winauto.uiauto_IUIAutomationTextRange_Move
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Moves the text range forward or backward by the specified number of text units .
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+A value specifying the type of text units, such as character, word, paragraph, and so on.
 
 
 ### -param count [in]
@@ -75,13 +77,6 @@ The number of text units to move. A positive value moves the text range forward.
 Type: <b>int*</b>
 
 Receives the number of text units actually moved. This can be less than the number requested if either of the new text range endpoints is greater than or less than the endpoints retrieved by the <a href="https://msdn.microsoft.com/38892548-7c1f-4bac-8eac-29d7b4d190d3">IUIAutomationTextPattern::DocumentRange</a> method. This value can be negative if navigation is happening in the backward direction.
-
-
-#### - unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
-
-A value specifying the type of text units, such as character, word, paragraph, and so on.
 
 
 ## -returns

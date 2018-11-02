@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemInfo.htm
 tech.root: shell
 ms.assetid: b6257d66-36c8-41d6-88f0-99417755582b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Shell], GetItemInfo method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemInfo method, ISyncMgrSyncItem.GetItemInfo, ISyncMgrSyncItem::GetItemInfo, _shell_ISyncMgrSyncItem_GetItemInfo, shell.ISyncMgrSyncItem_GetItemInfo, syncmgr/ISyncMgrSyncItem::GetItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

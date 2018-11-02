@@ -7,7 +7,7 @@ old-location: winrt\iasyncaction.htm
 tech.root: WinRT
 ms.assetid: E5D567F6-FFDE-4E51-8D52-638D30252549
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAsyncAction, IAsyncAction interface [Windows Runtime], IAsyncAction interface [Windows Runtime],described, windows/IAsyncAction, winrt.iasyncaction
 ms.prod: windows
 ms.technology: windows-sdk

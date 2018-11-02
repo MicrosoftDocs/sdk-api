@@ -4,10 +4,10 @@ title: "_WSACOMPLETION"
 author: windows-sdk-content
 description: Specifies completion notification settings for I/O control calls made to a registered namespace.
 old-location: winsock\wsacompletion.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], _WSACOMPLETION, winsock.wsacompletion, winsock2/WSACOMPLETION"
 ms.prod: windows
 ms.technology: windows-sdk

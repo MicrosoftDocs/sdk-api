@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_drawgdimetafile2.htm
 tech.root: direct2d
 ms.assetid: 24e44019-a1ac-5ae4-d4c8-d8450e38165a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],DrawGdiMetafile method, ID2D1DeviceContext2.DrawGdiMetafile, ID2D1DeviceContext2.DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F,const D2D1_RECT_F), ID2D1DeviceContext2::DrawGdiMetafile, ID2D1DeviceContext2::DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F,const D2D1_RECT_F), d2d1_3/ID2D1DeviceContext2::DrawGdiMetafile, direct2d.id2d1devicecontext2_drawgdimetafile2
 ms.prod: windows-hardware
 ms.technology: windows-devices

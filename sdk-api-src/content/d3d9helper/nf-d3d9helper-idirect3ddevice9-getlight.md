@@ -4,10 +4,10 @@ title: IDirect3DDevice9::GetLight
 author: windows-sdk-content
 description: Retrieves a set of lighting properties that this device uses.
 old-location: direct3d9\idirect3ddevice9__getlight.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getlight.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 63c42786-98b1-2b46-00cc-ad05ab2594f4, GetLight, GetLight method [Direct3D 9], GetLight method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetLight method, IDirect3DDevice9.GetLight, IDirect3DDevice9::GetLight, d3d9helper/IDirect3DDevice9::GetLight, direct3d9.idirect3ddevice9__getlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Zero-based index of the lighting property set to retrieve. This method will fail if a lighting property has not been set for this index by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">IDirect3DDevice9::SetLight</a> method. 
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - pLight [out]
+### -param arg1 [out]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLight9</a>*</b>
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyValue.htm
 tech.root: WinAuto
 ms.assetid: a92a5ee7-d5b4-4b2e-9e38-846e9b07d0b7
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyValue property, IUIAutomationPropertyCondition.PropertyValue, IUIAutomationPropertyCondition.get_PropertyValue, IUIAutomationPropertyCondition::PropertyValue, IUIAutomationPropertyCondition::get_PropertyValue, PropertyValue property [Windows Accessibility], PropertyValue property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyValue, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyValue, uiauto_IUIAutomationPropertyCondition_PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue, winauto.uiauto_IUIAutomationPropertyCondition_PropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

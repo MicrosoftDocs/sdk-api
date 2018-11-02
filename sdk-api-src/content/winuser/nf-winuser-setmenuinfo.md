@@ -7,7 +7,7 @@ old-location: menurc\setmenuinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuinfo.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetMenuInfo, SetMenuInfo function [Menus and Other Resources], _win32_SetMenuInfo, _win32_setmenuinfo_cpp, menurc.setmenuinfo, winui._win32_setmenuinfo, winuser/SetMenuInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Sets information for a specified menu.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Type: <b>HMENU</b>
 
 A handle to a menu. 
 
 
-#### - lpcmi [in]
+### -param arg2 [in]
 
 Type: <b>LPCMENUINFO</b>
 

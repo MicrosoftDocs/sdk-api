@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTogglePattern_Toggle.htm
 tech.root: WinAuto
 ms.assetid: 5d1e6474-e8fb-47a2-9130-539d1b9f230e
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationTogglePattern interface [Windows Accessibility],Toggle method, IUIAutomationTogglePattern.Toggle, IUIAutomationTogglePattern::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IUIAutomationTogglePattern interface, uiauto.uiauto_IUIAutomationTogglePattern_Toggle, uiauto_IUIAutomationTogglePattern_Toggle, uiautomationclient/IUIAutomationTogglePattern::Toggle, winauto.uiauto_IUIAutomationTogglePattern_Toggle
 ms.prod: windows-hardware
 ms.technology: windows-devices

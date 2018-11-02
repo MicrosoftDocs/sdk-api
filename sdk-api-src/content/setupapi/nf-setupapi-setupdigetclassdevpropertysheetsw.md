@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdevpropertysheets.htm
 tech.root: devinst
 ms.assetid: cf5e8511-37be-4fb8-bded-b9b1e6bd247b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiGetClassDevPropertySheets, SetupDiGetClassDevPropertySheets function [Device and Driver Installation], SetupDiGetClassDevPropertySheetsA, SetupDiGetClassDevPropertySheetsW, devinst.setupdigetclassdevpropertysheets, di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml, setupapi/SetupDiGetClassDevPropertySheets
 ms.prod: windows-hardware
 ms.technology: windows-devices

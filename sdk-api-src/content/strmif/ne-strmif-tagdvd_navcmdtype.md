@@ -7,7 +7,7 @@ old-location: dshow\dvd_navcmdtype.htm
 tech.root: DirectShow
 ms.assetid: cefe9a5f-3cd6-4b4c-96d5-cd4746a80729
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: DVD_NavCmdType, DVD_NavCmdType enumeration [DirectShow], DVD_NavCmdType_Button, DVD_NavCmdType_Cell, DVD_NavCmdType_Post, DVD_NavCmdType_Pre, dshow.dvd_navcmdtype, strmif/DVD_NavCmdType, strmif/DVD_NavCmdType_Button, strmif/DVD_NavCmdType_Cell, strmif/DVD_NavCmdType_Post, strmif/DVD_NavCmdType_Pre, tagDVD_NavCmdType
 ms.prod: windows
 ms.technology: windows-sdk

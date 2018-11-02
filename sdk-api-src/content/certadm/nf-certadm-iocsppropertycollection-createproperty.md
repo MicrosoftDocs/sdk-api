@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_createproperty_method.htm
 tech.root: seccrypto
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],CreateProperty method, IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

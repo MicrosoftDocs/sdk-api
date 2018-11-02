@@ -4,10 +4,10 @@ title: IAzObjectPicker::get_Name
 author: windows-sdk-content
 description: Gets the name of the IAzObjectPicker object.
 old-location: security\iazobjectpicker_name_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IAzObjectPicker interface [Security],Name property, IAzObjectPicker.Name, IAzObjectPicker.get_Name, IAzObjectPicker::Name, IAzObjectPicker::get_Name, Name property [Security], Name property [Security],IAzObjectPicker interface, azroles/IAzObjectPicker::Name, azroles/IAzObjectPicker::get_Name, get_Name, security.iazobjectpicker_name_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wcs\wcssetuseperuserprofiles.htm
 tech.root: WCS
 ms.assetid: c108fbb2-e9f3-41fe-af36-99114df1507e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles function [Windows Color System], _color_WcsSetUsePerUserProfiles, icm/WcsSetUsePerUserProfiles, wcs.wcssetuseperuserprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

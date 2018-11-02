@@ -4,10 +4,10 @@ title: IDirect3DDevice9::Clear
 author: windows-sdk-content
 description: Clears one or more surfaces such as a render target, multiple render targets, a stencil buffer, and a depth buffer.
 old-location: direct3d9\idirect3ddevice9__clear.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__clear.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: Clear, Clear method [Direct3D 9], Clear method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],Clear method, IDirect3DDevice9.Clear, IDirect3DDevice9::Clear, d3d9helper/IDirect3DDevice9::Clear, d8af3d4c-75ea-6282-a8b9-4d9c94a8fbc3, direct3d9.idirect3ddevice9__clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\olemetafilepictfromiconandlabel.htm
 tech.root: com
 ms.assetid: 627a79eb-46dd-4df7-a0d6-cab37b73387a
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: OleMetafilePictFromIconAndLabel, OleMetafilePictFromIconAndLabel function [COM], _ole_OleMetafilePictFromIconAndLabel, com.olemetafilepictfromiconandlabel, ole2/OleMetafilePictFromIconAndLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices

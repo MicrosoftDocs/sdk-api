@@ -7,7 +7,7 @@ old-location: com\icatinformation_getcategorydesc.htm
 tech.root: com
 ms.assetid: 66f004c2-2616-441e-8bb7-f56eb062bb35
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: GetCategoryDesc, GetCategoryDesc method [COM], GetCategoryDesc method [COM],ICatInformation interface, ICatInformation interface [COM],GetCategoryDesc method, ICatInformation.GetCategoryDesc, ICatInformation::GetCategoryDesc, _com_icatinformation_getcategorydesc, com.icatinformation_getcategorydesc, comcat/ICatInformation::GetCategoryDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

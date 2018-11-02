@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getattachedsurface.htm
 tech.root: directdraw
 ms.assetid: 0eae7e55-5ff7-41f6-ac6a-ce7fb6d809b9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetAttachedSurface, GetAttachedSurface method [DirectDraw], GetAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetAttachedSurface method, IDirectDrawSurface7.GetAttachedSurface, IDirectDrawSurface7::GetAttachedSurface, ddraw/IDirectDrawSurface7::GetAttachedSurface, directdraw.idirectdrawsurface7_getattachedsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Obtains the attached surface that has the specified capabilities, and increments
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - lpDDSCaps [in]
+### -param arg1 [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that indicates the hardware capabilities of the attached surface.
 
 
-#### - lplpDDAttachedSurface [out]
+### -param arg2 [out]
 
 A pointer to a variable to receive a pointer to the retrieved surface's <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface. The retrieved surface is the one that matches the description, according to the <i>lpDDSCaps</i> parameter.
 

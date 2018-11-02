@@ -7,7 +7,7 @@ old-location: mscs\igetclusterdatainfo_getobjectcount.htm
 tech.root: mscs
 ms.assetid: 20ef63e2-bcec-48bc-86e8-ab746fb72cc5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Failover Cluster], GetObjectCount method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetObjectCount method, IGetClusterDataInfo.GetObjectCount, IGetClusterDataInfo::GetObjectCount, _wolf_igetclusterdatainfo_getobjectcount, cluadmex/IGetClusterDataInfo::GetObjectCount, mscs.igetclusterdatainfo_getobjectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

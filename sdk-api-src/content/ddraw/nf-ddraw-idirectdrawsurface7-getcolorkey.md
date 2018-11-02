@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getcolorkey.htm
 tech.root: directdraw
 ms.assetid: 0df14c63-f962-4823-873a-3fe1d626f4cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBLT, DDCKEY_SRCOVERLAY, GetColorKey, GetColorKey method [DirectDraw], GetColorKey method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetColorKey method, IDirectDrawSurface7.GetColorKey, IDirectDrawSurface7::GetColorKey, ddraw/IDirectDrawSurface7::GetColorKey, directdraw.idirectdrawsurface7_getcolorkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,7 @@ Retrieves the color key value for this surface.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 A value that can be set to one of the following flags to specify the color key to retrieve:
 
@@ -99,7 +87,7 @@ A color key or color space to be used as a source color key for bitblt operation
 A color key or color space to be used as a source color key for overlay operations.
 
 
-#### - lpDDColorKey [out]
+### -param arg2 [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/c520e649-86f9-4c4a-bb67-22d75aa3c8b0">DDCOLORKEY</a> structure that receives the current values for the specified color key of the DirectDrawSurface object.
 

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_updateoverlay.htm
 tech.root: directdraw
 ms.assetid: 8706c6ca-cd17-490a-8ff9-9470a7d7a150
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DDOVER_ADDDIRTYRECT, DDOVER_ALPHADEST, DDOVER_ALPHADESTCONSTOVERRIDE, DDOVER_ALPHADESTNEG, DDOVER_ALPHADESTSURFACEOVERRIDE, DDOVER_ALPHAEDGEBLEND, DDOVER_ALPHASRC, DDOVER_ALPHASRCCONSTOVERRIDE, DDOVER_ALPHASRCNEG, DDOVER_ALPHASRCSURFACEOVERRIDE, DDOVER_ARGBSCALEFACTORS, DDOVER_AUTOFLIP, DDOVER_BOB, DDOVER_BOBHARDWARE, DDOVER_DDFX, DDOVER_DEGRADEARGBSCALING, DDOVER_HIDE, DDOVER_INTERLEAVED, DDOVER_KEYDEST, DDOVER_KEYDESTOVERRIDE, DDOVER_KEYSRC, DDOVER_KEYSRCOVERRIDE, DDOVER_OVERRIDEBOBWEAVE, DDOVER_REFRESHALL, DDOVER_REFRESHDIRTYRECTS, DDOVER_SHOW, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlay method, IDirectDrawSurface7.UpdateOverlay, IDirectDrawSurface7::UpdateOverlay, UpdateOverlay, UpdateOverlay method [DirectDraw], UpdateOverlay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlay, directdraw.idirectdrawsurface7_updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,22 @@ Repositions or modifies the visual attributes of an overlay surface. These surfa
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+A pointer to a <b>RECT</b> structure that defines the x, y, width, and height of the region on the source surface being used as the overlay. This parameter can be NULL to hide an overlay or to indicate that the entire overlay surface is to be used and that the overlay surface conforms to any boundary and size-alignment restrictions imposed by the device driver.
 
 
-### -param arg3
+### -param arg2 [in]
 
-TBD
-
-
-### -param arg4
-
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
 
 
-### -param arg5
+### -param arg3 [in]
 
-TBD
-
-
+A pointer to a <b>RECT</b> structure that defines the width, x, and height, y, of the region on the destination surface that the overlay should be moved to. This parameter can be NULL to hide the overlay.
 
 
-#### - dwFlags [in]
+### -param arg4 [in]
 
 A combination of the following flags that determine the overlay update:
 
@@ -247,24 +235,9 @@ Redraws all dirty rectangles on an emulated overlayed surface.
 Turns on this overlay.
 
 
-#### - lpDDDestSurface [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
-
-
-#### - lpDDOverlayFx [in]
+### -param arg5 [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/83b56211-0483-4e22-90b4-83ac5eaaa2f4">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
-
-
-#### - lpDestRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the width, x, and height, y, of the region on the destination surface that the overlay should be moved to. This parameter can be NULL to hide the overlay.
-
-
-#### - lpSrcRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the x, y, width, and height of the region on the source surface being used as the overlay. This parameter can be NULL to hide an overlay or to indicate that the entire overlay surface is to be used and that the overlay surface conforms to any boundary and size-alignment restrictions imposed by the device driver.
 
 
 ## -returns

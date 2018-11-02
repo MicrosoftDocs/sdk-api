@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_createsurface.htm
 tech.root: directdraw
 ms.assetid: 4f27e36f-d04f-43ce-9a3d-64c352c8f8d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectDraw], CreateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateSurface method, IDirectDraw7.CreateSurface, IDirectDraw7::CreateSurface, ddraw/IDirectDraw7::CreateSurface, directdraw.idirectdraw7_createsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,34 +59,17 @@ Creates a DirectDrawSurface object for this DirectDraw object.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - lpDDSurfaceDesc2 [in]
+### -param arg1 [in]
 
 Address of a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
 
 
-#### - lplpDDSurface [out]
+### -param arg2 [out]
 
 Address of a variable to be set to a valid <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface pointer if the call succeeds.
 
 
-#### - pUnkOuter [in]
+### -param arg3 [in]
 
 Allows for future compatibility with COM aggregation features. Currently, this method returns an error if this parameter is not NULL.
 

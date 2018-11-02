@@ -7,7 +7,7 @@ old-location: winrt\roreportunhandlederror.htm
 tech.root: WinRT
 ms.assetid: DE8F29B4-505C-480E-9258-9E5300BEA3F0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RoReportUnhandledError, RoReportUnhandledError function [Windows Runtime], roerrorapi/RoReportUnhandledError, winrt.roreportunhandlederror
 ms.prod: windows-hardware
 ms.technology: windows-devices

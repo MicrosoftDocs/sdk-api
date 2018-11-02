@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionShadowEffect.SetBlue(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetBlue(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the blue value for the color of the shadow.
-old-location: directcomp\idcompositionshadoweffect_setblue.htm
+old-location: directcomp\idcompositionshadoweffect_setblue_2.htm
 tech.root: directcomp
-ms.assetid: 3ECA54E6-65ED-467B-823C-F6C96AFEE1E5
+ms.assetid: DE146FA2-FB55-4588-82CB-C6E6BD2DB71E
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetBlue method, IDCompositionShadowEffect.SetBlue, IDCompositionShadowEffect.SetBlue(IDCompositionAnimation), IDCompositionShadowEffect::SetBlue, IDCompositionShadowEffect::SetBlue(IDCompositionAnimation), SetBlue, SetBlue method [DirectComposition], SetBlue method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetBlue, directcomp.idcompositionshadoweffect_setblue
+ms.date: 10/26/2018
+ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetBlue method, IDCompositionShadowEffect.SetBlue, IDCompositionShadowEffect.SetBlue(IDCompositionAnimation), IDCompositionShadowEffect::SetBlue, IDCompositionShadowEffect::SetBlue(IDCompositionAnimation), SetBlue, SetBlue method [DirectComposition], SetBlue method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetBlue, directcomp.idcompositionshadoweffect_setblue_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the blue value for the color of the shadow.
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - amount [in]
-
-Type: <b>float</b>
-
-The blue value for the color of the shadow.
+An animation that represents how the blue value for the color of the shadow changes over time. This parameter must not be NULL.
 
 
 ## -returns

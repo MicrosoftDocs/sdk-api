@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_verify_encoded_signature_func.htm
 tech.root: seccrypto
 ms.assetid: 0093ce11-8b72-403d-a3fd-3eaf2dc29d71
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC, PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC callback, PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC callback function [Security], security.pfn_crypt_verify_encoded_signature_func, wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
 ms.prod: windows
 ms.technology: windows-sdk

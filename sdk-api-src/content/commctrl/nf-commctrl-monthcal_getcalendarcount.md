@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCalendarCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarcount.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: MonthCal_GetCalendarCount, MonthCal_GetCalendarCount macro [Windows Controls], _shell_MonthCal_GetCalendarCount, _shell_MonthCal_GetCalendarCount_cpp, commctrl/MonthCal_GetCalendarCount, controls.MonthCal_GetCalendarCount, controls._shell_MonthCal_GetCalendarCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

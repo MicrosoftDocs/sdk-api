@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxImmGetContext.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttximmgetcontext.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ITextHost interface [Windows Controls],TxImmGetContext method, ITextHost.TxImmGetContext, ITextHost::TxImmGetContext, TxImmGetContext, TxImmGetContext method [Windows Controls], TxImmGetContext method [Windows Controls],ITextHost interface, _win32_ITextHost_TxImmGetContext, _win32_ITextHost_TxImmGetContext_cpp, controls.ITextHost_TxImmGetContext, controls._win32_ITextHost_TxImmGetContext, textserv/ITextHost::TxImmGetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

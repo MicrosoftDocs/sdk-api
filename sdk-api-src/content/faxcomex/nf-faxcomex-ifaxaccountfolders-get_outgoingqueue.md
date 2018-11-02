@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingque
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\outgoingqueue.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxAccountFolders interface [Fax Service],OutgoingQueue property, IFaxAccountFolders.OutgoingQueue, IFaxAccountFolders.get_OutgoingQueue, IFaxAccountFolders::OutgoingQueue, IFaxAccountFolders::get_OutgoingQueue, OutgoingQueue property [Fax Service], OutgoingQueue property [Fax Service],IFaxAccountFolders interface, _mfax_faxaccountfolders.outgoingqueue, fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingqueue_cpp, fax._mfax_faxaccountfolders_outgoingqueue, faxcomex/IFaxAccountFolders::OutgoingQueue, faxcomex/IFaxAccountFolders::get_OutgoingQueue, get_OutgoingQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

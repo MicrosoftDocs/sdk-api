@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_lock.htm
 tech.root: directdraw
 ms.assetid: 0267ad70-e7cc-41e8-8325-7ede4a662d13
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DDLOCK_DISCARDCONTENTS, DDLOCK_DONOTWAIT, DDLOCK_EVENT, DDLOCK_NOOVERWRITE, DDLOCK_NOSYSLOCK, DDLOCK_OKTOSWAP, DDLOCK_READONLY, DDLOCK_SURFACEMEMORYPTR, DDLOCK_WAIT, DDLOCK_WRITEONLY, IDirectDrawSurface7 interface [DirectDraw],Lock method, IDirectDrawSurface7.Lock, IDirectDrawSurface7::Lock, Lock, Lock method [DirectDraw], Lock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Lock, directdraw.idirectdrawsurface7_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,29 +58,17 @@ Obtains a pointer to the surface memory.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+A pointer to a <b>RECT</b> structure that identifies the region of the surface that is being locked. If this parameter is NULL, the entire surface is locked.
 
 
-### -param arg3
+### -param arg2 [in, out]
 
-TBD
-
-
-### -param arg4
-
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
 
 
-
-
-#### - dwFlags [in]
+### -param arg3 [in]
 
 A combination of flags that determine how to lock the surface. The following flags are defined:
 
@@ -145,19 +133,9 @@ If a lock cannot be obtained because a bit block transfer (bitblt) operation is 
 Indicates that the surface being locked is write-enabled.
 
 
-#### - hEvent [in]
+### -param arg4 [in]
 
 Handle of the event. This parameter is not currently used and must be set to NULL.
-
-
-#### - lpDDSurfaceDesc [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
-
-
-#### - lpDestRect [in]
-
-A pointer to a <b>RECT</b> structure that identifies the region of the surface that is being locked. If this parameter is NULL, the entire surface is locked.
 
 
 ## -returns

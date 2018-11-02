@@ -4,10 +4,10 @@ title: TSPI_lineCompleteTransfer function
 author: windows-sdk-content
 description: The TSPI_lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tspi\tspi_linecompletetransfer.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 486a62df-dcdb-46f5-af02-1cf091215401
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI 2.2], _tspi_tspi_linecompletetransfer, tspi.tspi_linecompletetransfer, tspi/TSPI_lineCompleteTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_gettypeinfo.htm
 tech.root: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette_getentries.htm
 tech.root: directdraw
 ms.assetid: ae3c639f-beb4-40b6-a237-60d6e560a1c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetEntries method, IDirectDrawPalette.GetEntries, IDirectDrawPalette::GetEntries, ddraw/IDirectDrawPalette::GetEntries, directdraw.idirectdrawpalette_getentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,45 +59,23 @@ Retrieves palette values from a DirectDrawPalette object.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - dwBase [in]
-
-Start of the entries to be retrieved sequentially.
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 Currently not used and must be set to 0.
 
 
-#### - dwNumEntries [in]
+### -param arg2 [in]
+
+Start of the entries to be retrieved sequentially.
+
+
+### -param arg3 [in]
 
 Number of palette entries that can fit in the array that <i>lpEntries</i> specifies. The colors of the palette entries are returned in sequence, from the value of the <i>dwStartingEntry</i> parameter through the value of the <i>dwCount</i> parameter minus 1. (These parameters are set by <a href="https://msdn.microsoft.com/c12247b9-ecb3-4fdf-b25f-373da06df791">IDirectDrawPalette::SetEntries</a>.) 
 
 
 
-#### - lpEntries [out]
+### -param arg4 [out]
 
 An array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures that receives the palette entries from the DirectDrawPalette object. The palette entries are 1 byte each if the DDPCAPS_8BITENTRIES flag is set, and 4 bytes otherwise. Each field is a color description.
 

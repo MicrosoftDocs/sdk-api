@@ -7,7 +7,7 @@ old-location: rras\rtmreleasechangeddests.htm
 tech.root: rras
 ms.assetid: 542cb23f-81c2-4b29-b049-ebb5827b1d62
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RtmReleaseChangedDests, RtmReleaseChangedDests function [RAS], _rtmv2ref_rtmreleasechangeddests, rras.rtmreleasechangeddests, rtmv2/RtmReleaseChangedDests
 ms.prod: windows-hardware
 ms.technology: windows-devices

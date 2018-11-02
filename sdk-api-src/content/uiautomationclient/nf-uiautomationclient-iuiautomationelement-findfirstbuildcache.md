@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindFirstBuildCache.htm
 tech.root: WinAuto
 ms.assetid: ecb10fbf-ff1d-4bd0-b036-1050560d82fe
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: FindFirstBuildCache, FindFirstBuildCache method [Windows Accessibility], FindFirstBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirstBuildCache method, IUIAutomationElement.FindFirstBuildCache, IUIAutomationElement::FindFirstBuildCache, uiauto.uiauto_IUIAutomationElement_FindFirstBuildCache, uiauto_IUIAutomationElement_FindFirstBuildCache, uiautomationclient/IUIAutomationElement::FindFirstBuildCache, winauto.uiauto_IUIAutomationElement_FindFirstBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Retrieves the first child or descendant element that matches the specified condi
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A combination of values specifying the scope of the search.
 
 
 ### -param condition [in]
@@ -82,13 +84,6 @@ A pointer to a cache request that specifies the control patterns and properties 
 Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>**</b>
 
 Receives a pointer to the matching element, or <b>NULL</b> if no matching element is found.
-
-
-#### - scope [in]
-
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
-
-A combination of values specifying the scope of the search.
 
 
 ## -returns

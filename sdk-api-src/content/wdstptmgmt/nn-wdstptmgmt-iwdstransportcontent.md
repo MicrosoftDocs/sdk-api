@@ -4,10 +4,10 @@ title: IWdsTransportContent
 author: windows-sdk-content
 description: Represents content being transmitted under a namespace over one or more sessions.
 old-location: wds\iwdstransportcontent.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
 ms.prod: windows
 ms.technology: windows-sdk

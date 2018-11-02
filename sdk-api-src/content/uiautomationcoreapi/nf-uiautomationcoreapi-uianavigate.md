@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNavigateAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 11f0d52a-11be-4038-bf9e-94e44b118a22
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: UiaNavigate, UiaNavigate function [Windows Accessibility], uiauto.uiauto_UiaNavigateAutoMeth, uiauto_UiaNavigateAutoMeth, uiautomationcoreapi/UiaNavigate, winauto.uiauto_UiaNavigateAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,9 +88,9 @@ The address of a <a href="https://msdn.microsoft.com/426355e4-50ce-4189-824d-c22
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
+The address of a variable that receives a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
 
 
 ### -param ppTreeStructure [out]

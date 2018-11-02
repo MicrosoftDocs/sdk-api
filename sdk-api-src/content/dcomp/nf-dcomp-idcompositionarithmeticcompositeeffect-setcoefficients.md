@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficients.
 tech.root: directcomp
 ms.assetid: 02A98C38-1D6E-43ED-8744-D3029F4BF573
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficients method, IDCompositionArithmeticCompositeEffect.SetCoefficients, IDCompositionArithmeticCompositeEffect::SetCoefficients, SetCoefficients, SetCoefficients method [DirectComposition], SetCoefficients method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficients, directcomp.idcompositionarithmeticcompositeeffect_setcoefficients
 ms.prod: windows-hardware
 ms.technology: windows-devices

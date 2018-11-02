@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterNextStep.htm
 tech.root: shell
 ms.assetid: a56ca252-89e5-4ad0-bc9a-f8c7b70bd536
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterNextStep method, ISyncMgrConflictResolveInfo.SetPresenterNextStep, ISyncMgrConflictResolveInfo::SetPresenterNextStep, SetPresenterNextStep, SetPresenterNextStep method [Windows Shell], SetPresenterNextStep method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterNextStep, shell.ISyncMgrConflictResolveInfo_SetPresenterNextStep, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterNextStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

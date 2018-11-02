@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::get_StopTime
 author: windows-sdk-content
 description: The get_StopTime method gets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_get_stoptime.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: df22b117-8382-4ea2-8e6b-961f87f41b21
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StopTime method, ITDirectoryObjectConference.get_StopTime, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime
 ms.prod: windows-hardware
 ms.technology: windows-devices

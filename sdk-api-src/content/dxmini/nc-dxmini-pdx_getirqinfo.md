@@ -7,7 +7,7 @@ old-location: display\dxgetirqinfo.htm
 tech.root: display
 ms.assetid: bc7463ab-1cb1-4ce5-a929-1513507a16ff
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: DxGetIRQInfo, DxGetIRQInfo callback function [Display Devices], PDX_GETIRQINFO, PDX_GETIRQINFO callback, VideoMiniPort_DxApiFunctions_1e787efc-ec94-4fa0-bc13-22142c16cc8d.xml, display.dxgetirqinfo, dxmini/DxGetIRQInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\dma_range.htm
 tech.root: devinst
 ms.assetid: 46c80013-1863-4e02-be8d-282d2e619200
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PDMA_RANGE, DMA_RANGE, DMA_RANGE structure [Device and Driver Installation], DMA_Range_s, PDMA_RANGE, PDMA_RANGE structure pointer [Device and Driver Installation], cfgmgr32/DMA_RANGE, cfgmgr32/PDMA_RANGE, cfgmgrst_a19d993e-d664-4218-8bae-23e97919b3a8.xml, devinst.dma_range"
 ms.prod: windows
 ms.technology: windows-sdk

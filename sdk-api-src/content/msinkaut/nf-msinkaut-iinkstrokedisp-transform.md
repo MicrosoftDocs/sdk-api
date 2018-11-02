@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_transform.htm
 tech.root: tablet
 ms.assetid: b7860215-a267-407e-9105-8e51340f4216
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],Transform method, IInkStrokeDisp.Transform, IInkStrokeDisp::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokeDisp interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokeDisp::Transform, tablet.iinkstrokedisp_transform
 ms.prod: windows-hardware
 ms.technology: windows-devices

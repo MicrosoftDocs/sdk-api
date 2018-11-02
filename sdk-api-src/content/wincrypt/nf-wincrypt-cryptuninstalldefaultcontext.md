@@ -7,7 +7,7 @@ old-location: security\cryptuninstalldefaultcontext.htm
 tech.root: seccrypto
 ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITRequestEvent::get_CalledParty
 author: windows-sdk-content
 description: The get_CalledParty method gets the called party.
 old-location: tapi3\itrequestevent_get_calledparty.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 0dfbf033-83cf-4e2c-b107-963c10595ee5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_CalledParty method, ITRequestEvent.get_CalledParty, ITRequestEvent::get_CalledParty, _tapi3_itrequestevent_get_calledparty, get_CalledParty, get_CalledParty method [TAPI 2.2], get_CalledParty method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_calledparty, tapi3if/ITRequestEvent::get_CalledParty
 ms.prod: windows-hardware
 ms.technology: windows-devices

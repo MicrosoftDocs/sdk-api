@@ -7,7 +7,7 @@ old-location: com\iolelink_getsourcedisplayname.htm
 tech.root: com
 ms.assetid: a4c5bc82-f423-4a02-b8d4-49b38a9c0f42
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: GetSourceDisplayName, GetSourceDisplayName method [COM], GetSourceDisplayName method [COM],IOleLink interface, IOleLink interface [COM],GetSourceDisplayName method, IOleLink.GetSourceDisplayName, IOleLink::GetSourceDisplayName, _ole_iolelink_getsourcedisplayname, com.iolelink_getsourcedisplayname, oleidl/IOleLink::GetSourceDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_seteditproperty.htm
 tech.root: DirectShow
 ms.assetid: 85ac14c7-7b47-4462-98ba-68a73f4c7497
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditProperty method, IAMExtTransport.SetEditProperty, IAMExtTransport::SetEditProperty, IAMExtTransportSetEditProperty, SetEditProperty, SetEditProperty method [DirectShow], SetEditProperty method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditproperty, strmif/IAMExtTransport::SetEditProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

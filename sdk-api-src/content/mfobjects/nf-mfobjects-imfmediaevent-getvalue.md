@@ -7,7 +7,7 @@ old-location: mf\imfmediaevent_getvalue.htm
 tech.root: medfound
 ms.assetid: 05e57b40-2565-4312-866e-50f0c7d62c4a
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 05e57b40-2565-4312-866e-50f0c7d62c4a, GetValue, GetValue method [Media Foundation], GetValue method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetValue method, IMFMediaEvent.GetValue, IMFMediaEvent::GetValue, mf.imfmediaevent_getvalue, mfobjects/IMFMediaEvent::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

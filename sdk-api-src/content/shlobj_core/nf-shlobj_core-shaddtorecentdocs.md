@@ -7,7 +7,7 @@ old-location: shell\SHAddToRecentDocs.htm
 tech.root: shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SHAddToRecentDocs, SHAddToRecentDocs function [Windows Shell], _win32_SHAddToRecentDocs, shell.SHAddToRecentDocs, shlobj_core/SHAddToRecentDocs
 ms.prod: windows-hardware
 ms.technology: windows-devices

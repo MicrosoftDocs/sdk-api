@@ -7,7 +7,7 @@ old-location: wes\evtnextchannelpath.htm
 tech.root: wes
 ms.assetid: 51fd2449-8a89-4a18-99c3-b974c2c998ca
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: EvtNextChannelPath, EvtNextChannelPath function [EventLog], wes.evtnextchannelpath, winevt/EvtNextChannelPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

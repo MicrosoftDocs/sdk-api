@@ -7,7 +7,7 @@ old-location: dlgbox\iprintdialogservices_getcurrentdevmode.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentdevmode.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetCurrentDevMode, GetCurrentDevMode function, GetCurrentDevMode method [Dialog Boxes], GetCurrentDevMode method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentDevMode method, IPrintDialogServices.GetCurrentDevMode, IPrintDialogServices::GetCurrentDevMode, _win32_IPrintDialogServices_GetCurrentDevMode, _win32_iprintdialogservices_getcurrentdevmode_cpp, commdlg/IPrintDialogServices::GetCurrentDevMode, dlgbox.iprintdialogservices_getcurrentdevmode, winui._win32_iprintdialogservices_getcurrentdevmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

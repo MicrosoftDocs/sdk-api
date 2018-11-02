@@ -7,7 +7,7 @@ old-location: dshow\imediasample_ispreroll.htm
 tech.root: DirectShow
 ms.assetid: 7df1d34f-ba55-42bd-b61b-272ef72e13a8
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IMediaSample interface [DirectShow],IsPreroll method, IMediaSample.IsPreroll, IMediaSample::IsPreroll, IMediaSampleIsPreroll, IsPreroll, IsPreroll method [DirectShow], IsPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_ispreroll, strmif/IMediaSample::IsPreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

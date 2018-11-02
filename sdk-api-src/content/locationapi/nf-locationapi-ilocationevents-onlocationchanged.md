@@ -4,10 +4,10 @@ title: ILocationEvents::OnLocationChanged
 author: windows-sdk-content
 description: Called when a new location report is available.
 old-location: winlocation_com_ref\ilocationevents_onlocationchanged.htm
-tech.root: LocationAPI
+tech.root: locationapi
 ms.assetid: 14353c8e-15f5-493b-9b49-139924f2397e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnLocationChanged method, ILocationEvents.OnLocationChanged, ILocationEvents::OnLocationChanged, OnLocationChanged, OnLocationChanged method [WinLocation], OnLocationChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onlocationchanged, locationapi/ILocationEvents::OnLocationChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

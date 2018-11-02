@@ -7,7 +7,7 @@ old-location: winauto\setwineventhook.htm
 tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -198,7 +198,7 @@ Clients can call <b>SetWinEventHook</b> multiple times if they want to register 
 
 The client thread that calls <b>SetWinEventHook</b> must have a message loop in order to receive events.
 
-When you use <b>SetWinEventHook</b> to set a callback in managed code, you should use the <a href="http://go.microsoft.com/fwlink/p/?linkid=198399">GCHandle</a> structure to avoid exceptions. This tells the garbage collector not to move the callback.
+When you use <b>SetWinEventHook</b> to set a callback in managed code, you should use the <a href="https://go.microsoft.com/fwlink/p/?linkid=198399">GCHandle</a> structure to avoid exceptions. This tells the garbage collector not to move the callback.
 
 For out-of-context events, the event is delivered on the same thread that called <b>SetWinEventHook</b>. In some situations, even if you request WINEVENT_INCONTEXT events, the events will still be delivered out-of-context. These scenarios include events from console windows and events from processes that have a different bit-depth (64 bit versus 32 bits) than the caller. 
 

@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endreadpayload.htm
 tech.root: medfound
 ms.assetid: 491437FE-1401-4841-AE0E-428F28E34D4D
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: EndReadPayload, EndReadPayload method [Media Foundation], EndReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReadPayload method, IMFHttpDownloadRequest.EndReadPayload, IMFHttpDownloadRequest::EndReadPayload, mf.imfhttpdownloadrequest_endreadpayload, mfidl/IMFHttpDownloadRequest::EndReadPayload
 ms.prod: windows-hardware
 ms.technology: windows-devices

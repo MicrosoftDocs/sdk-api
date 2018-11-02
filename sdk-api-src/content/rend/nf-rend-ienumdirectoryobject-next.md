@@ -4,10 +4,10 @@ title: IEnumDirectoryObject::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_next.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 034a704a-f5c7-46bf-a8fa-9bb6298dd4d2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Next method, IEnumDirectoryObject.Next, IEnumDirectoryObject::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_next, rend/IEnumDirectoryObject::Next, tapi3.ienumdirectoryobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\arbitrate.htm
 tech.root: mscs
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

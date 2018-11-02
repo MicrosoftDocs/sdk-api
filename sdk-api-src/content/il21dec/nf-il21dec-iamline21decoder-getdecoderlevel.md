@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_getdecoderlevel.htm
 tech.root: DirectShow
 ms.assetid: 6f0fc2c3-cc98-4646-ada0-57d74c6b5dd9
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetDecoderLevel method, IAMLine21Decoder.GetDecoderLevel, IAMLine21Decoder::GetDecoderLevel, IAMLine21DecoderGetDecoderLevel, dshow.iamline21decoder_getdecoderlevel, il21dec/IAMLine21Decoder::GetDecoderLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_setfilteringvalue.htm
 tech.root: medfound
 ms.assetid: cb3c9516-2083-4c9d-b583-fc561f977ed5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue method, IMFVideoProcessor.SetFilteringValue, IMFVideoProcessor::SetFilteringValue, SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation],IMFVideoProcessor interface, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoaccelerationservice.htm
 tech.root: medfound
 ms.assetid: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationService, IDirectXVideoAccelerationService interface [Media Foundation], IDirectXVideoAccelerationService interface [Media Foundation],described, dxva2api/IDirectXVideoAccelerationService, mf.idirectxvideoaccelerationservice
 ms.prod: windows
 ms.technology: windows-sdk

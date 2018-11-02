@@ -7,7 +7,7 @@ old-location: controls\ListView_GetColumn.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumn.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ListView_GetColumn, ListView_GetColumn macro [Windows Controls], _win32_ListView_GetColumn, _win32_ListView_GetColumn_cpp, commctrl/ListView_GetColumn, controls.ListView_GetColumn, controls._win32_ListView_GetColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

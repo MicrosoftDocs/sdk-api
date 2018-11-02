@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4ew5.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],Size property, IFaxJobStatus.Size, IFaxJobStatus.get_Size, IFaxJobStatus::Size, IFaxJobStatus::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.size, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp, fax._mfax_faxjobstatus_size, faxcomex/IFaxJobStatus::Size, faxcomex/IFaxJobStatus::get_Size, get_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices

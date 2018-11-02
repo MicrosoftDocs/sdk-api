@@ -7,7 +7,7 @@ old-location: automat\vardatefromui1.htm
 tech.root: automat
 ms.assetid: 9ab0cee6-7eea-4594-bdf1-77d21307a30c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarDateFromUI1, VarDateFromUI1 function [Automation], _oa96_VarDateFromUI1, automat.vardatefromui1, oleauto/VarDateFromUI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

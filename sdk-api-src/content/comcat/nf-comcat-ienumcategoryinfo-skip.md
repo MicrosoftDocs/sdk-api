@@ -7,7 +7,7 @@ old-location: com\ienumcategoryinfo_skip.htm
 tech.root: com
 ms.assetid: 405a506b-8bce-47ea-a5a7-6cd7146dcef3
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Skip method, IEnumCATEGORYINFO.Skip, IEnumCATEGORYINFO::Skip, Skip, Skip method [COM], Skip method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_skip, com.ienumcategoryinfo_skip, comcat/IEnumCATEGORYINFO::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

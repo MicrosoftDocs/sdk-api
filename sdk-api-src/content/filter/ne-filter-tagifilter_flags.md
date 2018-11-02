@@ -3,12 +3,12 @@ UID: NE:filter.tagIFILTER_FLAGS
 title: tagIFILTER_FLAGS
 author: windows-sdk-content
 description: Indicates whether the caller should use the IPropertySetStorage and IPropertyStorage interfaces to locate additional properties.
-old-location: search\_search_IFILTER_FLAGS.htm
-tech.root: search
-ms.assetid: VS|search|~\search\wds3x\reference\enums\ifilter_flags.htm
+old-location: indexsrv\ifilter_flags.htm
+tech.root: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_0j03.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [search], IFILTER_FLAGS_OLE_PROPERTIES, _search_IFILTER_FLAGS, filter/IFILTER_FLAGS, filter/IFILTER_FLAGS_OLE_PROPERTIES, search._search_IFILTER_FLAGS, tagIFILTER_FLAGS
+ms.date: 10/02/2018
+ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [Indexing Service], IFILTER_FLAGS_OLE_PROPERTIES, _idxs_IFILTER_FLAGS, filter/IFILTER_FLAGS, filter/IFILTER_FLAGS_OLE_PROPERTIES, indexsrv.ifilter_flags, tagIFILTER_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -41,7 +41,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: IFILTER_FLAGS
-req.redist: the Windows NT 4.0 Option Pack
+req.redist: 
 ---
 
 # tagIFILTER_FLAGS enumeration
@@ -50,7 +50,9 @@ req.redist: the Windows NT 4.0 Option Pack
 ## -description
 
 
-Indicates whether the caller should use the <a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a> interfaces to locate additional properties.
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+
+Indicates whether the caller should use the <b>IPropertySetStorage</b> and <b>IPropertyStorage</b> interfaces to locate additional properties.
 
 
 ## -enum-fields
@@ -60,14 +62,14 @@ Indicates whether the caller should use the <a href="https://msdn.microsoft.com/
 
 ### -field IFILTER_FLAGS_OLE_PROPERTIES
 
-The caller should use the <a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>. 
+The caller should use the <a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>.
 
 
 ## -remarks
 
 
 
-The <i>pdwFlags</i> parameter in the <a href="https://msdn.microsoft.com/c0ec3db9-23c4-449e-8106-572c432ea7cc">IFilter::Init</a> method allows the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> implementation to pass information back to the caller. For Windows Search, the only valid flag is IFILTER_FLAGS_OLE_PROPERTIES. If OLE properties should not be enumerated, then <i>pdwFlags</i> should be set to zero.
+The <i>pdwFlags</i> parameter in the <a href="https://msdn.microsoft.com/en-us/library/ms690965(v=VS.85).aspx">IFilter::Init</a> method allows the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> implementation to pass information back to the caller. For Indexing Service 3.0, the only valid flag is IFILTER_FLAGS_OLE_PROPERTIES. If OLE properties should not be enumerated, then pdwFlags should be set to zero.
 
 
 
@@ -77,7 +79,7 @@ The <i>pdwFlags</i> parameter in the <a href="https://msdn.microsoft.com/c0ec3db
 
 
 
-<a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
 
 
 
@@ -86,18 +88,6 @@ The <i>pdwFlags</i> parameter in the <a href="https://msdn.microsoft.com/c0ec3db
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx">IPropertyStorage</a>
-
-
-
-<a href="https://msdn.microsoft.com/c0ec3db9-23c4-449e-8106-572c432ea7cc">Init</a>
-
-
-
-<b>Other Resources</b>
-
-
-
-<b>Reference</b>
  
 
  

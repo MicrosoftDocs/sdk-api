@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5xut.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientName property, IFaxDoc.RecipientName, IFaxDoc.put_RecipientName, IFaxDoc::RecipientName, IFaxDoc::get_RecipientName, IFaxDoc::put_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientname_cpp, faxcom/IFaxDoc::RecipientName, faxcom/IFaxDoc::get_RecipientName, faxcom/IFaxDoc::put_RecipientName, put_RecipientName
 ms.prod: windows-hardware
 ms.technology: windows-devices

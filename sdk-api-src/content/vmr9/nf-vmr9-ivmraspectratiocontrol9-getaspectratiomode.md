@@ -7,7 +7,7 @@ old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

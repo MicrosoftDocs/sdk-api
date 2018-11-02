@@ -7,7 +7,7 @@ old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,11 @@ Retrieves the name of the specified file.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The name and location of a file.
 
 
 ### -param Buf [out]
@@ -78,13 +80,6 @@ Type: <b>WORD</b>
 
 The length, in 
 					characters, of the buffer pointed to by the <i>lpszTitle</i> parameter.
-
-
-#### - param [in]
-
-Type: <b>LPCTSTR</b>
-
-The name and location of a file.
 
 
 ## -returns

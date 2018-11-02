@@ -7,7 +7,7 @@ old-location: projfs\prjcompletecommand.htm
 tech.root: ProjFS
 ms.assetid: 9A47FAB5-A085-41C9-861C-E74F2F5AF474
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcompletecommand, projectedfslib/PrjCompleteCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

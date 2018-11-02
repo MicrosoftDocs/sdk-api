@@ -7,7 +7,7 @@ old-location: winprog\ioctl_tcp_query_information_ex.htm
 tech.root: devnotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
 ms.prod: windows
 ms.technology: windows-sdk

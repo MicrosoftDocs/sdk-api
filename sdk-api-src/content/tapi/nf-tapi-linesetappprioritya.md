@@ -4,10 +4,10 @@ title: lineSetAppPriorityA function
 author: windows-sdk-content
 description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
 old-location: tapi2\linesetapppriority.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: f173c472-56bc-4773-a77a-1aa05ba8766f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority function [TAPI 2.2], lineSetAppPriorityA, lineSetAppPriorityW, tapi/lineSetAppPriority, tapi/lineSetAppPriorityA, tapi/lineSetAppPriorityW, tapi2.linesetapppriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices

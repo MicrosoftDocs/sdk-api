@@ -7,7 +7,7 @@ old-location: gdi\fixed.htm
 tech.root: gdi
 ms.assetid: b1d94060-e822-447f-82ba-fd1cf2ddaa3b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: FIXED, FIXED structure [Windows GDI], _FIXED, _win32_FIXED_str, gdi.fixed, wingdi/FIXED
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\setmenudefaultitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenudefaultitem.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetMenuDefaultItem, SetMenuDefaultItem function [Menus and Other Resources], _win32_SetMenuDefaultItem, _win32_setmenudefaultitem_cpp, menurc.setmenudefaultitem, winui._win32_setmenudefaultitem, winuser/SetMenuDefaultItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getnames.htm
 tech.root: automat
 ms.assetid: ff318d92-9624-48aa-a0f9-8b8826121753
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetNames, GetNames method [Automation], GetNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetNames method, ITypeInfo.GetNames, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

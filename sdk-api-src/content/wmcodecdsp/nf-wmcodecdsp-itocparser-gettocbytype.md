@@ -7,7 +7,7 @@ old-location: mf\itocparser_gettocbytype.htm
 tech.root: medfound
 ms.assetid: 97a3b835-5d99-4b37-8f1d-2469e85faf9b
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: GetTocByType, GetTocByType method [Media Foundation], GetTocByType method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByType method, ITocParser.GetTocByType, ITocParser::GetTocByType, codecapi.itocparser_gettocbytype, mf.itocparser_gettocbytype, wmcodecdsp/ITocParser::GetTocByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ The <b>GetTocByType</b> retrieves all tables of contents of a specified type fro
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be retrieved.
 
 
 ### -param guidTocType [in]
@@ -71,11 +71,6 @@ A globally unique identifier (<b>GUID</b>) that specifies the type of table of c
 ### -param ppTocs [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/10d6fc04-4444-4a47-911f-3d5bec548e28">ITocCollection</a> interface that represents the colleciton of retrieved tables of contents.
-
-
-#### - enumTocPosType [in]
-
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be retrieved.
 
 
 ## -returns

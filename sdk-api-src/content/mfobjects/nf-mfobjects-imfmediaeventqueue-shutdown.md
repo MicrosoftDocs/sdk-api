@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventqueue_shutdown.htm
 tech.root: medfound
 ms.assetid: 6ec52973-0d90-463b-b2be-08d5d6fdcc05
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface [Media Foundation],Shutdown method, IMFMediaEventQueue.Shutdown, IMFMediaEventQueue::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEventQueue interface, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

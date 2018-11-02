@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gradientmesh_getpatches.htm
 tech.root: direct2d
 ms.assetid: d3ef9370-fb9f-d55b-d910-7dd938ecf0b6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetPatches, GetPatches method [Direct2D], GetPatches method [Direct2D],ID2D1GradientMesh interface, ID2D1GradientMesh interface [Direct2D],GetPatches method, ID2D1GradientMesh.GetPatches, ID2D1GradientMesh::GetPatches, d2d1_3/ID2D1GradientMesh::GetPatches, direct2d.id2d1gradientmesh_getpatches
 ms.prod: windows-hardware
 ms.technology: windows-devices

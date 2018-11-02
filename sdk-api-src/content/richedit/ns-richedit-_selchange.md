@@ -7,7 +7,7 @@ old-location: controls\SELCHANGE.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\selchange.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: SELCHANGE, SELCHANGE structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _selchange, _win32_SELCHANGE_str, _win32_SELCHANGE_str_cpp, controls.SELCHANGE, controls._win32_SELCHANGE_str, richedit/SELCHANGE
 ms.prod: windows
 ms.technology: windows-sdk

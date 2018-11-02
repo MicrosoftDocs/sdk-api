@@ -7,7 +7,7 @@ old-location: controls\itextrange2_geturl.htm
 tech.root: controls
 ms.assetid: 0d23f261-0b44-4532-86da-0ca40561bfe0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetURL, GetURL method [Windows Controls], GetURL method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetURL method, ITextRange2.GetURL, ITextRange2::GetURL, controls.itextrange2_geturl, tom/ITextRange2::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

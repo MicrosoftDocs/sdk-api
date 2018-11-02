@@ -7,7 +7,7 @@ old-location: intl\getuserpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 0800642c-c133-4993-bd16-6bdbf7518f1c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetUserPreferredUILanguages, GetUserPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_GetUserPreferredUILanguages, intl.getuserpreferreduilanguages, winnls/GetUserPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

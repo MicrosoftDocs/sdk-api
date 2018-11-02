@@ -4,10 +4,10 @@ title: IWdsTransportSetupManager::RegisterContentProvider
 author: windows-sdk-content
 description: Enables an application run on a client computer to register a content provider DLL. This makes the provider available for use by the WDS transport server.
 old-location: wds\iwdstransportsetupmanager_registercontentprovider.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: c7793413-fef0-41e8-90f2-c8608f4ceb75
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],RegisterContentProvider method, IWdsTransportSetupManager.RegisterContentProvider, IWdsTransportSetupManager::RegisterContentProvider, RegisterContentProvider, RegisterContentProvider method [Windows Deployment Services], RegisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, wds.iwdstransportsetupmanager_registercontentprovider, wdstptmgmt/IWdsTransportSetupManager::RegisterContentProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

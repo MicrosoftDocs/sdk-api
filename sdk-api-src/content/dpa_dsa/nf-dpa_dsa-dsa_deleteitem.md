@@ -7,7 +7,7 @@ old-location: controls\DSA_DeleteItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: DSA_DeleteItem, DSA_DeleteItem function [Windows Controls], _shell_DSA_DeleteItem, _shell_DSA_DeleteItem_cpp, controls.DSA_DeleteItem, controls._shell_DSA_DeleteItem, dpa_dsa/DSA_DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

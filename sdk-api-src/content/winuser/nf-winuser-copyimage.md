@@ -7,7 +7,7 @@ old-location: menurc\copyimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\copyimage.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CopyImage, CopyImage function [Menus and Other Resources], IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_COPYDELETEORG, LR_COPYFROMRESOURCE, LR_COPYRETURNORG, LR_CREATEDIBSECTION, LR_DEFAULTSIZE, LR_MONOCHROME, _win32_CopyImage, _win32_copyimage_cpp, menurc.copyimage, winui._win32_copyimage, winuser/CopyImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

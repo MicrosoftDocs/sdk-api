@@ -2,7 +2,7 @@
 UID: NA:eapauthenticatortypes
 ms.assetid: 0d23718a-e379-3023-8412-598fbba7b01b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

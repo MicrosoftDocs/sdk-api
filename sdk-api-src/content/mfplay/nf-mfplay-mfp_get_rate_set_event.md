@@ -7,7 +7,7 @@ old-location: mf\mfp_get_rate_set_event.htm
 tech.root: medfound
 ms.assetid: c23436a7-6206-47fc-bd8e-4b8df31b26d9
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: MFP_GET_RATE_SET_EVENT, MFP_GET_RATE_SET_EVENT macro [Media Foundation], mf.mfp_get_rate_set_event, mfplay/MFP_GET_RATE_SET_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

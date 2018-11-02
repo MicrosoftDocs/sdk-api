@@ -7,7 +7,7 @@ old-location: mscs\openclusternetinterface.htm
 tech.root: mscs
 ms.assetid: 1198ad57-ea47-428f-8867-061afbfc7709
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: OpenClusterNetInterface, OpenClusterNetInterface function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_openclusternetinterface, clusapi/OpenClusterNetInterface, clusapi/PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, mscs.openclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

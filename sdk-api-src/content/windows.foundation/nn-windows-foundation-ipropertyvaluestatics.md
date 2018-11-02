@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics.htm
 tech.root: WinRT
 ms.assetid: 946BD4F9-318C-4452-AEDB-DF2212A2D3CA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], IPropertyValueStatics interface [Windows Runtime],described, windows/IPropertyValueStatics, winrt.ipropertyvaluefactory, winrt.ipropertyvaluestatics
 ms.prod: windows
 ms.technology: windows-sdk

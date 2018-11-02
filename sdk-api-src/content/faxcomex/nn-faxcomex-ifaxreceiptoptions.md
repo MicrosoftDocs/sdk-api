@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8k4z_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxReceiptOptions, IFaxReceiptOptions interface [Fax Service], IFaxReceiptOptions interface [Fax Service],described, _mfax_faxreceiptoptions_cpp, fax._mfax_faxreceiptoptions_cpp, faxcomex/IFaxReceiptOptions
 ms.prod: windows
 ms.technology: windows-sdk

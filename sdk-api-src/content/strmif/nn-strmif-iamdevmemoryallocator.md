@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator.htm
 tech.root: DirectShow
 ms.assetid: bab1e582-928a-408b-a9c5-8e9827e9928b
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], IAMDevMemoryAllocator interface [DirectShow],described, IAMDevMemoryAllocatorInterface, dshow.iamdevmemoryallocator, strmif/IAMDevMemoryAllocator
 ms.prod: windows
 ms.technology: windows-sdk

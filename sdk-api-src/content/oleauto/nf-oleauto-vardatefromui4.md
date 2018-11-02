@@ -7,7 +7,7 @@ old-location: automat\vardatefromui4.htm
 tech.root: automat
 ms.assetid: 680c30b1-9b24-437d-8833-a915355af714
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VarDateFromUI4, VarDateFromUI4 function [Automation], _oa96_VarDateFromUI4, automat.vardatefromui4, oleauto/VarDateFromUI4
 ms.prod: windows-hardware
 ms.technology: windows-devices

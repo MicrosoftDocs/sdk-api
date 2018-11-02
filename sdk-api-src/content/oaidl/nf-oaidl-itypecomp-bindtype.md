@@ -7,7 +7,7 @@ old-location: automat\itypecomp_bindtype.htm
 tech.root: automat
 ms.assetid: e1b6eb9c-aa5a-41b9-bc97-afa82206ccef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: BindType, BindType method [Automation], BindType method [Automation],ITypeComp interface, ITypeComp interface [Automation],BindType method, ITypeComp.BindType, ITypeComp::BindType, _oa96_ITypeComp_BindType, automat.itypecomp_bindtype, oaidl/ITypeComp::BindType
 ms.prod: windows-hardware
 ms.technology: windows-devices

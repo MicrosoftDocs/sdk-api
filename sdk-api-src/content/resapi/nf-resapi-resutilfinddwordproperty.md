@@ -7,7 +7,7 @@ old-location: mscs\resutilfinddwordproperty.htm
 tech.root: mscs
 ms.assetid: 884e922f-5cc6-4e46-b2f6-2436e7fc634e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: PRESUTIL_FIND_DWORD_PROPERTY, PRESUTIL_FIND_DWORD_PROPERTY function [Failover Cluster], ResUtilFindDwordProperty, ResUtilFindDwordProperty function [Failover Cluster], _wolf_resutilfinddwordproperty, mscs.resutilfinddwordproperty, resapi/PRESUTIL_FIND_DWORD_PROPERTY, resapi/ResUtilFindDwordProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

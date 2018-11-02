@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the ScaleZ property of a 3D scale transform.
-old-location: directcomp\idcompositionscaletransform3d_setscalez_float.htm
+description: Animates the value of the ScaleZ property of a scale transform.
+old-location: directcomp\idcompositionscaletransform3d_setscalez_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 9238ACAD-C6A6-4804-BF12-B28A498C03A9
+ms.assetid: B086983A-C436-4FF9-B8D6-8A00EEB0931C
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ(float), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation*), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the ScaleZ property of a 3D scale transform. The ScaleZ property specifies the scale factor along the z-axis.
+Animates the value of the ScaleZ property of a scale transform. The ScaleZ property specifies the scale factor along the z-axis.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the ScaleZ property of a 3D scale transform. The ScaleZ pro
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - scaleZ [in]
-
-Type: <b>float</b>
-
-The new z-axis scale factor.
+An animation object that determines how the value of the ScaleZ property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>scaleZ</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the ScaleZ property unless this method is called again. If the ScaleZ property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the ScaleZ property was previously animated, this method removes the animation and sets the ScaleZ property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

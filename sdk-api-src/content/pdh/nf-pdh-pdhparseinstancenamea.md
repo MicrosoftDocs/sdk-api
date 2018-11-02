@@ -7,7 +7,7 @@ old-location: perf\pdhparseinstancename.htm
 tech.root: perfctrs
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices

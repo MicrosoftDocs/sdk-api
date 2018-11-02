@@ -7,7 +7,7 @@ old-location: etw\eventwritetransfer_func.htm
 tech.root: etw
 ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

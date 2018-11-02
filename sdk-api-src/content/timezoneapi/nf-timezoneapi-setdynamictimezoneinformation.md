@@ -7,7 +7,7 @@ old-location: base\setdynamictimezoneinformation.htm
 tech.root: sysinfo
 ms.assetid: 98ad7b94-f649-4270-8348-0aba5b59a433
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: SetDynamicTimeZoneInformation, SetDynamicTimeZoneInformation function, base.setdynamictimezoneinformation, timezoneapi/SetDynamicTimeZoneInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

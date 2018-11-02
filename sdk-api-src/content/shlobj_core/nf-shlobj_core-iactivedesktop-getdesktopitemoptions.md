@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_getdesktopitemoptions.htm
 tech.root: lwef
 ms.assetid: 3717b67a-b028-44a9-af1c-a6a94b2d76d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: GetDesktopItemOptions, GetDesktopItemOptions method [Legacy Windows Environment Features], GetDesktopItemOptions method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemOptions method, IActiveDesktop.GetDesktopItemOptions, IActiveDesktop::GetDesktopItemOptions, _win32_IActiveDesktop_GetDesktopItemOptions, lwef.iactivedesktop_getdesktopitemoptions, shell.iactivedesktop_getdesktopitemoptions, shlobj_core/IActiveDesktop::GetDesktopItemOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

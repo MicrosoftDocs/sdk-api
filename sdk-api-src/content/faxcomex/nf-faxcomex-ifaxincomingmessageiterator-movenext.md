@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageit
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_27lg.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],MoveNext method, IFaxIncomingMessageIterator.MoveNext, IFaxIncomingMessageIterator::MoveNext, MoveNext, MoveNext method [Fax Service], MoveNext method [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.movenext, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movenext_cpp, fax._mfax_faxincomingmessageiterator_movenext, faxcomex/IFaxIncomingMessageIterator::MoveNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

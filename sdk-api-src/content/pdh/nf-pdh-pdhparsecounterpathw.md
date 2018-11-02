@@ -7,7 +7,7 @@ old-location: perf\pdhparsecounterpath.htm
 tech.root: perfctrs
 ms.assetid: 760b94e9-88df-4f7d-92e9-333d682779f6
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: PdhParseCounterPath, PdhParseCounterPath function [Perf], PdhParseCounterPathA, PdhParseCounterPathW, _win32_pdhparsecounterpath, base.pdhparsecounterpath, pdh/PdhParseCounterPath, pdh/PdhParseCounterPathA, pdh/PdhParseCounterPathW, perf.pdhparsecounterpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

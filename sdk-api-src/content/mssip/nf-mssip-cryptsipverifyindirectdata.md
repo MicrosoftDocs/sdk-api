@@ -7,7 +7,7 @@ old-location: security\cryptsipverifyindirectdata.htm
 tech.root: seccrypto
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

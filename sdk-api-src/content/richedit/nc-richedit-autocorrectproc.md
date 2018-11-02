@@ -7,7 +7,7 @@ old-location: controls\autocorrectproc.htm
 tech.root: controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
 ms.prod: windows
 ms.technology: windows-sdk

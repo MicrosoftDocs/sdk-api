@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromwindow.htm
 tech.root: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ The requested interface is not supported.
 
 
 
-Clients call this function to retrieve the address of an object's <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>, <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>, <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, or other supported interface pointer.
+Clients call this function to retrieve the address of an object's <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>, <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>, <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, or other supported interface pointer.
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
@@ -172,7 +172,7 @@ To obtain an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f779
 </table>
  
 
-Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=186469">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
+Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=186469">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
 
 
 

@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionMatrixTransform.SetMatrixElement(int,int,IDCompositionAnimation)
 title: IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of one element of the matrix of this transform.
-old-location: directcomp\idcompositionmatrixtransform_setmatrixelement.htm
+description: Animates the value of one element of the matrix of this 2D transform.
+old-location: directcomp\idcompositionmatrixtransform_setmatrixelement_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: E95F44EC-532C-472C-8C1A-6B008CA97DC0
+ms.assetid: 16A9E136-5F0C-4F34-A127-BF06C4530499
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform.SetMatrixElement, IDCompositionMatrixTransform.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement, IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrixElement, directcomp.idcompositionmatrixtransform_setmatrixelement
+ms.date: 10/26/2018
+ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform.SetMatrixElement, IDCompositionMatrixTransform.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement, IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation*), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrixElement, directcomp.idcompositionmatrixtransform_setmatrixelement_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of one element of the matrix of this transform.
+Animates the value of one element of the matrix of this 2D transform.
 
 
 ## -parameters
@@ -60,37 +60,22 @@ Changes the value of one element of the matrix of this transform.
 
 ### -param row [in]
 
-Type: <b>int</b>
-
 The row index of the element to change. This value must be between 0 and 2, inclusive.
 
 
 ### -param column [in]
 
-Type: <b>int</b>
-
 The column index of the element to change. This value must be between 0 and 1, inclusive.
 
 
-### -param animation
+### -param animation [in]
 
-TBD
-
-
-
-
-#### - value [in]
-
-Type: <b>float</b>
-
-The new value of the specified element.
+An animation that represents how the value of the specified element changes over time. This parameter must not be NULL.
 
 
 ## -returns
 
 
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
 
@@ -101,9 +86,12 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>value</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the element unless this method is called again. If the element was previously animated, calling this method replaces the previous animation with the new animation. 
 
-If the specified element was previously animated, this method removes the animation and sets the element to the specified static value.
+
+
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+
 
 
 

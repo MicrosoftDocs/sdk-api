@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4x7p_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxIncomingQueue, IFaxIncomingQueue interface [Fax Service], IFaxIncomingQueue interface [Fax Service],described, _mfax_faxincomingqueue_cpp, fax._mfax_faxincomingqueue_cpp, faxcomex/IFaxIncomingQueue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\createcompatiblebitmap.htm
 tech.root: gdi
 ms.assetid: d2866beb-ff7a-4390-8651-e7bf458ddf88
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: CreateCompatibleBitmap, CreateCompatibleBitmap function [Windows GDI], _win32_CreateCompatibleBitmap, gdi.createcompatiblebitmap, wingdi/CreateCompatibleBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

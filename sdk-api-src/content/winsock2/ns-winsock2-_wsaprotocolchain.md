@@ -4,10 +4,10 @@ title: "_WSAPROTOCOLCHAIN"
 author: windows-sdk-content
 description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
 old-location: winsock\wsaprotocolchain_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _WSAPROTOCOLCHAIN, _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN"
 ms.prod: windows
 ms.technology: windows-sdk

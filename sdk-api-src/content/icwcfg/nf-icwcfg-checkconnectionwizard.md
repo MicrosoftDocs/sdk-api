@@ -7,7 +7,7 @@ old-location: winprog\checkconnectionwizard.htm
 tech.root: devnotes
 ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API], ICW_ALREADYRUN, ICW_CHECKSTATUS, ICW_FULLPRESENT, ICW_FULL_SMARTSTART, ICW_LAUNCHEDFULL, ICW_LAUNCHEDMANUAL, ICW_LAUNCHFULL, ICW_LAUNCHMANUAL, ICW_MANUALPRESENT, ICW_USE_SHELLNEXT, icwcfg/CheckConnectionWizard, winprog.checkconnectionwizard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,19 +63,78 @@ The <b>CheckConnectionWizard</b> function checks that the Internet Connection Wi
 
 ### -param arg1
 
-TBD
+A combination of bit flags that indicates the action <b>CheckConnectionWizard</b> is to perform.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ICW_CHECKSTATUS"></a><a id="icw_checkstatus"></a><dl>
+<dt><b>ICW_CHECKSTATUS</b></dt>
+<dt>0x0001</dt>
+</dl>
+</td>
+<td width="60%">
+Check if the ICW is present and if it
+                                    has been run.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ICW_LAUNCHFULL"></a><a id="icw_launchfull"></a><dl>
+<dt><b>ICW_LAUNCHFULL</b></dt>
+<dt>0x0100</dt>
+</dl>
+</td>
+<td width="60%">
+Check if the ICW is present and the retail mode ISP signup
+                                    is available and, if
+                                    possible, run the ICW.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ICW_LAUNCHMANUAL"></a><a id="icw_launchmanual"></a><dl>
+<dt><b>ICW_LAUNCHMANUAL</b></dt>
+<dt>0x0200</dt>
+</dl>
+</td>
+<td width="60%">
+Check if the ICW is present, run the ICW in Internet Explorer Administrator Kit (IEAK) Kiosk mode.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_ICW_USE_SHELLNEXT"></a><a id="_icw_use_shellnext"></a><dl>
+<dt><b> ICW_USE_SHELLNEXT</b></dt>
+<dt>0x0400</dt>
+</dl>
+</td>
+<td width="60%">
+ If the retail mode ISP signup is present, run the ICW using the value set in the <b>ShellNext</b> registry key by <a href="https://msdn.microsoft.com/f08753b2-9666-498d-aee4-8eb2c7f0d95b">SetShellNext</a> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ICW_FULL_SMARTSTART"></a><a id="icw_full_smartstart"></a><dl>
+<dt><b>ICW_FULL_SMARTSTART</b></dt>
+<dt>0x800</dt>
+</dl>
+</td>
+<td width="60%">
+If the ICW is present, the retail mode ISP signup 
+                                    is available, and <b>ICW_LAUNCHFULL</b> is
+                                    specified, run the ICW with the <i>smartstart</i> command line parameter.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param arg2
-
-TBD
-
-
-
-
-
-
-#### - lpdwReturnFlags
 
 <b>DWORD</b> in which the results of the call are returned.  The value is  a
                 combination of the following bit flags.

@@ -7,7 +7,7 @@ old-location: security\scardgetreaderdeviceinstanceid.htm
 tech.root: secauthn
 ms.assetid: 306F1EAF-35A7-4449-802F-709667764737
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: SCardGetReaderDeviceInstanceId, SCardGetReaderDeviceInstanceId function [Security], SCardGetReaderDeviceInstanceIdA, SCardGetReaderDeviceInstanceIdW, security.scardgetreaderdeviceinstanceid, winscard/SCardGetReaderDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

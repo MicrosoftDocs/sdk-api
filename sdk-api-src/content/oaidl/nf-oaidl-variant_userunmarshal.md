@@ -7,7 +7,7 @@ old-location: automat\variant_userunmarshal.htm
 tech.root: automat
 ms.assetid: ec7de7f3-f64a-4ec5-9b92-450bb7d6b37b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: VARIANT_UserUnmarshal, VARIANT_UserUnmarshal function [Automation], _oa96_VARIANT_UserUnmarshal, automat.variant_userunmarshal, oaidl/VARIANT_UserUnmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Unmarshals a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pBuffer [in]
+### -param arg2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
 
-#### - pVariant [out]
+### -param arg3 [out]
 
 The object.
 

@@ -7,7 +7,7 @@ old-location: wcs\createmultiprofiletransform.htm
 tech.root: WCS
 ms.assetid: bf344e44-1379-4ba5-8215-57001c53bbd5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: CreateMultiProfileTransform, CreateMultiProfileTransform function [Windows Color System], INTENT_ABSOLUTE_COLORIMETRIC, INTENT_PERCEPTUAL, INTENT_RELATIVE_COLORIMETRIC, INTENT_SATURATION, _color_CreateMultiProfileTransform, icm/CreateMultiProfileTransform, wcs.createmultiprofiletransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

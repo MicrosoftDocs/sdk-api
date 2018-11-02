@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObject
 tech.root: WinAuto
 ms.assetid: 7D1C4ABD-38FA-48C4-80ED-C0AA312D45FE
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IUIAutomationObjectModelPattern interface, IUIAutomationObjectModelPattern interface [Windows Accessibility],GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
 ms.prod: windows-hardware
 ms.technology: windows-devices

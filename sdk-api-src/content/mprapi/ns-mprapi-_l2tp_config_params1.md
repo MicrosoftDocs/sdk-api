@@ -7,7 +7,7 @@ old-location: rras\l2tp_config_params.htm
 tech.root: rras
 ms.assetid: 7459054f-62c6-4ead-b969-884efc75ea80
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: "*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS structure [RAS], L2TP_CONFIG_PARAMS1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, _L2TP_CONFIG_PARAMS0, _L2TP_CONFIG_PARAMS1, mprapi/L2TP_CONFIG_PARAMS, rras.l2tp_config_params"
 ms.prod: windows
 ms.technology: windows-sdk

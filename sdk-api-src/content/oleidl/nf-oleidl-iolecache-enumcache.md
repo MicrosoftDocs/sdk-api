@@ -7,7 +7,7 @@ old-location: com\iolecache_enumcache.htm
 tech.root: com
 ms.assetid: a8d99926-8fb9-4624-8025-483101cb9311
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: EnumCache, EnumCache method [COM], EnumCache method [COM],IOleCache interface, IOleCache interface [COM],EnumCache method, IOleCache.EnumCache, IOleCache::EnumCache, _ole_iolecache_enumcache, com.iolecache_enumcache, oleidl/IOleCache::EnumCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

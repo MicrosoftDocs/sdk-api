@@ -7,7 +7,7 @@ old-location: rras\rasgetconnectstatus.htm
 tech.root: rras
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConnectStatusA, RasGetConnectStatusW, _ras_rasgetconnectstatus, ras/RasGetConnectStatus, ras/RasGetConnectStatusA, ras/RasGetConnectStatusW, rras.rasgetconnectstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,26 +64,14 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Specifies the remote access connection for which to retrieve the status. This handle must have been obtained from 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>.
 
 
-#### - lprasconnstatus [in, out]
+### -param arg2 [in, out]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/bebfab0c-96b2-4f34-917c-8f4cdf05bc2b">RASCONNSTATUS</a> structure that, on output, receives the status information. 

@@ -7,7 +7,7 @@ old-location: display\xformobj_igetfloatobjxform.htm
 tech.root: display
 ms.assetid: 761c6061-841b-4187-a826-575d2a5086db
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: XFORMOBJ_iGetFloatObjXform, XFORMOBJ_iGetFloatObjXform function [Display Devices], display.xformobj_igetfloatobjxform, gdifncs_26b564b5-f2ca-448a-9ca8-f34e7f8fb57a.xml, winddi/XFORMOBJ_iGetFloatObjXform
 ms.prod: windows-hardware
 ms.technology: windows-devices

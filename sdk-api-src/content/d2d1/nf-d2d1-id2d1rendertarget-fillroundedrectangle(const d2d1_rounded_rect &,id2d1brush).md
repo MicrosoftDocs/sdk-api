@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_FillRoundedRectangle_ref_D2D1_ROUNDED_R
 tech.root: direct2d
 ms.assetid: db000907-eff2-4cf7-a805-be1ff4cb30fe
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: FillRoundedRectangle, FillRoundedRectangle method [Direct2D], FillRoundedRectangle method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillRoundedRectangle method, ID2D1RenderTarget.FillRoundedRectangle, ID2D1RenderTarget.FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush), ID2D1RenderTarget::FillRoundedRectangle, ID2D1RenderTarget::FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush), d2d1/ID2D1RenderTarget::FillRoundedRectangle, direct2d.ID2D1RenderTarget_FillRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses the <a href="https://msdn.microsoft.com/d718c355-ffd8-4a7f-90f3-9a10d37a19c8">DrawRoundedRectangle</a> and <a href="https://msdn.microsoft.com/9c4765b0-858f-4a20-b044-0acf87a1f131">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
-<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
+<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="./images/drawroundedrectangle_scr.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

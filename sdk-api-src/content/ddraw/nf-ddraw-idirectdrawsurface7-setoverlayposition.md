@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_setoverlayposition.htm
 tech.root: directdraw
 ms.assetid: 94bd79f8-ded2-4cfa-98c1-a03202d3e678
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetOverlayPosition method, IDirectDrawSurface7.SetOverlayPosition, IDirectDrawSurface7::SetOverlayPosition, SetOverlayPosition, SetOverlayPosition method [DirectDraw], SetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetOverlayPosition, directdraw.idirectdrawsurface7_setoverlayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,24 +59,12 @@ Changes the display coordinates of an overlay surface.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - lX [in]
+### -param arg1 [in]
 
 The new x- display coordinate of this surface.
 
 
-#### - lY [in]
+### -param arg2 [in]
 
 The new y-display coordinate of this surface.
 

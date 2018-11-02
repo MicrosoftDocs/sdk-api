@@ -7,7 +7,7 @@ old-location: com\cogetinstancefromistorage.htm
 tech.root: com
 ms.assetid: 6a77770c-b7e1-4d29-9c4b-331b5950a635
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: CoGetInstanceFromIStorage, CoGetInstanceFromIStorage function [COM], _com_CoGetInstanceFromIStorage, com.cogetinstancefromistorage, objbase/CoGetInstanceFromIStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

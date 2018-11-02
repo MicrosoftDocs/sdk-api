@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_DrawGeometry.htm
 tech.root: direct2d
 ms.assetid: 319b2680-34f8-4e00-985e-47ff87115794
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: DrawGeometry, DrawGeometry method [Direct2D], DrawGeometry method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawGeometry method, ID2D1RenderTarget.DrawGeometry, ID2D1RenderTarget::DrawGeometry, d2d1/ID2D1RenderTarget::DrawGeometry, direct2d.ID2D1RenderTarget_DrawGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

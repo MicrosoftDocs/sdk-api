@@ -4,10 +4,10 @@ title: WdsBpAddOption function
 author: windows-sdk-content
 description: Adds an option to the packet.
 old-location: wds\wdsbpaddoption.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 4418fe47-4d54-4874-9ab1-6747f9d9eb72
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Services], wds.wdsbpaddoption, wdsbp/WdsBpAddOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

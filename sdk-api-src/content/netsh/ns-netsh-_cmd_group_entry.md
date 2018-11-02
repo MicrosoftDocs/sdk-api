@@ -4,10 +4,10 @@ title: "_CMD_GROUP_ENTRY"
 author: windows-sdk-content
 description: Defines a group of helper commands.
 old-location: netshell\cmd_group_entry.htm
-tech.root: NetShell
+tech.root: netshell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _CMD_GROUP_ENTRY, _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry"
 ms.prod: windows
 ms.technology: windows-sdk

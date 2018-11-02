@@ -4,10 +4,10 @@ title: LPNSPREMOVESERVICECLASS
 author: windows-sdk-content
 description: Permanently removes a specified service class from the namespace.
 old-location: winsock\nspremoveserviceclass_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 97313e6f-ec9e-4dcb-b888-14436259a519
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPNSPREMOVESERVICECLASS, NSPRemoveServiceClass, NSPRemoveServiceClass function [Winsock], _win32_nspremoveserviceclass_2, winsock.nspremoveserviceclass_2, ws2spi/NSPRemoveServiceClass
 ms.prod: windows
 ms.technology: windows-sdk

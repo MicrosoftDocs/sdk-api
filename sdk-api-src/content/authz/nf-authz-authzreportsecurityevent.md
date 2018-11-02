@@ -4,10 +4,10 @@ title: AuthzReportSecurityEvent function
 author: windows-sdk-content
 description: Generates a security audit for a registered security event source.
 old-location: security\authzreportsecurityevent.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

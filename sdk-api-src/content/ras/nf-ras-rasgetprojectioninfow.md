@@ -7,7 +7,7 @@ old-location: rras\rasgetprojectioninfo.htm
 tech.root: rras
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RASP_Amb, RASP_PppCcp, RASP_PppIp, RASP_PppIpv6, RASP_PppIpx, RASP_PppLcp, RASP_PppNbf, RASP_Slip, RasGetProjectionInfo, RasGetProjectionInfo function [RAS], RasGetProjectionInfoA, RasGetProjectionInfoW, _ras_rasgetprojectioninfo, ras/RasGetProjectionInfo, ras/RasGetProjectionInfoA, ras/RasGetProjectionInfoW, rras.rasgetprojectioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,46 +63,21 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Handle to the remote access connection of interest. An application obtains a RAS connection handle from the 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function.
 
 
-#### - lpcb [in, out]
+### -param arg2 [in]
 
-Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpprojection</i>. 
-
-
-
-
-On output, this variable receives the size, in bytes, of the <i>lpprojection</i> buffer.
+Specifies the 
+<a href="https://msdn.microsoft.com/589fc4b0-16f0-4728-ad8d-7a91d7b52fba">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
+					
 
 
-#### - lpprojection [out]
+### -param arg3 [out]
 
 Pointer to a buffer that receives the information specified by the <i>rasprojection</i> parameter. The information is in a structure appropriate to the <i>rasprojection</i> value. 
 
@@ -227,11 +202,14 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
  
 
 
-#### - rasprojection [in]
+### -param arg4 [in, out]
 
-Specifies the 
-<a href="https://msdn.microsoft.com/589fc4b0-16f0-4728-ad8d-7a91d7b52fba">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
-					
+Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpprojection</i>. 
+
+
+
+
+On output, this variable receives the size, in bytes, of the <i>lpprojection</i> buffer.
 
 
 ## -returns

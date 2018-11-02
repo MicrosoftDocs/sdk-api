@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_setcliplist.htm
 tech.root: directdraw
 ms.assetid: 717f51e0-80cb-4762-b05d-30e30d065d0c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],SetClipList method, IDirectDrawClipper.SetClipList, IDirectDrawClipper::SetClipList, SetClipList, SetClipList method [DirectDraw], SetClipList method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetClipList, directdraw.idirectdrawclipper_setcliplist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Sets or deletes the clip list that is used by the <a href="https://msdn.microsof
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
-
-Currently not used and must be set to 0.
-
-
-#### - lpClipList [in]
+### -param arg1 [in]
 
 A pointer to a valid <a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-6cc185e4de22">RGNDATA</a> structure for the clip list to set or NULL. If there is an existing clip list that is associated with the DirectDrawClipper object and this value is NULL, the clip list is deleted.
+
+
+### -param arg2 [in]
+
+Currently not used and must be set to 0.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_DrawRectangle_ref_D2D_RECT_F_ptr_ID2D1B
 tech.root: direct2d
 ms.assetid: bc176c12-db06-4f1e-b668-4441723a916a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: DrawRectangle, DrawRectangle method [Direct2D], DrawRectangle method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawRectangle method, ID2D1RenderTarget.DrawRectangle, ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawRectangle, ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/ID2D1RenderTarget::DrawRectangle, direct2d.ID2D1RenderTarget_DrawRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ When this method fails, it does not return an error code. To determine whether a
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration. 
 
-<img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
+<img alt="Illustration of two rectangles on a grid background" src="./images/drawrectangleexample_small.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

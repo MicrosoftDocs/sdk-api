@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_InsertRoot.htm
 tech.root: shell
 ms.assetid: 5d487896-a2ee-4bf3-82d8-90f23a4ff213
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],InsertRoot method, INameSpaceTreeControl.InsertRoot, INameSpaceTreeControl::InsertRoot, InsertRoot, InsertRoot method [Windows Shell], InsertRoot method [Windows Shell],INameSpaceTreeControl interface, NSTCRS_EXPANDED, NSTCRS_HIDDEN, NSTCRS_VISIBLE, _shell_INameSpaceTreeControl_InsertRoot, shell.INameSpaceTreeControl_InsertRoot, shobjidl_core/INameSpaceTreeControl::InsertRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

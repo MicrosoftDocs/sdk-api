@@ -7,7 +7,7 @@ old-location: controls\CreateMappedBitmap.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

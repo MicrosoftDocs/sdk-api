@@ -4,10 +4,10 @@ title: IEnumTerminalClass::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminalclass_next.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 67ed4017-9cd2-4694-9853-c07bd4f81e0a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Next method, IEnumTerminalClass.Next, IEnumTerminalClass::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_next, tapi3.ienumterminalclass_next, tapi3if/IEnumTerminalClass::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

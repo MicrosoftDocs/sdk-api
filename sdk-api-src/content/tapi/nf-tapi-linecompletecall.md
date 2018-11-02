@@ -4,10 +4,10 @@ title: lineCompleteCall function
 author: windows-sdk-content
 description: The lineCompleteCall function specifies how a call that could not be connected normally should be completed instead.
 old-location: tapi2\linecompletecall.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 4cc4c1fd-3f54-40ec-9342-58b3783031ad
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_Close.htm
 tech.root: WinAuto
 ms.assetid: 3bfd7801-c296-4f59-8094-c13c8f044038
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],Close method, IWindowProvider.Close, IWindowProvider::Close, uiauto.uiauto_IWindowProvider_Close, uiauto_IWindowProvider_Close, uiautomationcore/IWindowProvider::Close, winauto.uiauto_IWindowProvider_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

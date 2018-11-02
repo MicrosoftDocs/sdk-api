@@ -7,7 +7,7 @@ old-location: etw\ievent_seteventdescriptor.htm
 tech.root: etw
 ms.assetid: 729a887e-1759-44d5-a7d5-8385d648eebf
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: ITraceEvent interface [ETW],SetEventDescriptor method, ITraceEvent.SetEventDescriptor, ITraceEvent::SetEventDescriptor, SetEventDescriptor, SetEventDescriptor method [ETW], SetEventDescriptor method [ETW],ITraceEvent interface, etw.ievent_seteventdescriptor, relogger/ITraceEvent::SetEventDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

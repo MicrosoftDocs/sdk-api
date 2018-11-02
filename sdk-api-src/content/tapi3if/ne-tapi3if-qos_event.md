@@ -4,10 +4,10 @@ title: QOS_EVENT
 author: windows-sdk-content
 description: The QOS_EVENT enum describes quality of service (QOS) events. The ITQOSEvent::get_Event method returns a member of this enum to indicate the type of QOS event that occurred.
 old-location: tapi3\qos_event.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 8bf4bfdc-6327-497d-9d19-4771d47982bb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: QE_ADMISSIONFAILURE, QE_GENERICERROR, QE_NOQOS, QE_POLICYFAILURE, QOS_EVENT, QOS_EVENT enumeration [TAPI 2.2], _tapi3_qos_event, tapi3.qos_event, tapi3if/QE_ADMISSIONFAILURE, tapi3if/QE_GENERICERROR, tapi3if/QE_NOQOS, tapi3if/QE_POLICYFAILURE, tapi3if/QOS_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

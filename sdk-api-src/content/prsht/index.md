@@ -2,7 +2,7 @@
 UID: NA:prsht
 ms.assetid: 2f4492e5-5cb3-3f55-92f5-79a73f0d9c5b
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RegisterContext function
 author: windows-sdk-content
 description: Registers a helper context with NetShell.
 old-location: netshell\registercontext.htm
-tech.root: NetShell
+tech.root: netshell
 ms.assetid: 52cebe62-d4b6-4229-8418-c0ae9849822b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RegisterContext, RegisterContext function [NetShell], _netsh_registercontext, netsh/RegisterContext, netshell.registercontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

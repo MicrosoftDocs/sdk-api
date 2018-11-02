@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_GetViewWindow.htm
 tech.root: shell
 ms.assetid: ec0b2304-cbcb-49ac-aca0-780f1e5205ad
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: GetViewWindow, GetViewWindow method [Windows Shell], GetViewWindow method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetViewWindow method, IBrowserService2.GetViewWindow, IBrowserService2::GetViewWindow, shdeprecated/IBrowserService2::GetViewWindow, shell.IBrowserService2_GetViewWindow, zone_IBrowserService2_GetViewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

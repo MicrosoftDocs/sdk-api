@@ -7,7 +7,7 @@ old-location: winprog\fnfcifree.htm
 tech.root: devnotes
 ms.assetid: 48f052e2-7786-430a-b3dc-afcfdffae387
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: FNFCIFREE, FNFCIFREE macro [Windows API], fci/FNFCIFREE, winprog.fnfcifree
 ms.prod: windows-hardware
 ms.technology: windows-devices

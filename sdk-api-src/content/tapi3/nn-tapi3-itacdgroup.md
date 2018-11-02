@@ -4,10 +4,10 @@ title: ITACDGroup
 author: windows-sdk-content
 description: Automatic Call Distribution (ACD) is a mechanism that queues and distributes calls within a switching system.
 old-location: tapi3\itacdgroup.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\iinktablet_ispacketpropertysupported.htm
 tech.root: tablet
 ms.assetid: 4bf2e2b0-d45a-4392-990e-5e9320333c0b
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablet interface [Tablet PC],IsPacketPropertySupported method, IInkTablet.IsPacketPropertySupported, IInkTablet::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablet interface, msinkaut/IInkTablet::IsPacketPropertySupported, tablet.iinktablet_ispacketpropertysupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

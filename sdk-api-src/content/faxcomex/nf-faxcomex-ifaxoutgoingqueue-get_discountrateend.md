@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountratee
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3yzo.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],DiscountRateEnd property, IFaxOutgoingQueue.DiscountRateEnd, IFaxOutgoingQueue.get_DiscountRateEnd, IFaxOutgoingQueue.put_DiscountRateEnd, IFaxOutgoingQueue::DiscountRateEnd, IFaxOutgoingQueue::get_DiscountRateEnd, IFaxOutgoingQueue::put_DiscountRateEnd, _mfax_faxoutgoingqueue.discountrateend, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountrateend_cpp, fax._mfax_faxoutgoingqueue_discountrateend, faxcomex/IFaxOutgoingQueue::DiscountRateEnd, faxcomex/IFaxOutgoingQueue::get_DiscountRateEnd, faxcomex/IFaxOutgoingQueue::put_DiscountRateEnd, get_DiscountRateEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

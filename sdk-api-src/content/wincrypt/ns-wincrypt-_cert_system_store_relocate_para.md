@@ -7,7 +7,7 @@ old-location: security\cert_system_store_relocate_para.htm
 tech.root: seccrypto
 ms.assetid: 3bcb9b64-b9cf-48b2-bfd1-0836b3d221af
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA structure [Security], PCERT_SYSTEM_STORE_RELOCATE_PARA, PCERT_SYSTEM_STORE_RELOCATE_PARA structure pointer [Security], _CERT_SYSTEM_STORE_RELOCATE_PARA, _crypto2_cert_system_store_relocate_para, security.cert_system_store_relocate_para, wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA, wincrypt/PCERT_SYSTEM_STORE_RELOCATE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

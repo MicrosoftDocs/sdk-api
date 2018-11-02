@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontranslatetransform.htm
 tech.root: directcomp
 ms.assetid: 2215721e-a10d-4c9e-b5b7-1698afa547d8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: IDCompositionTranslateTransform, IDCompositionTranslateTransform interface [DirectComposition], IDCompositionTranslateTransform interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform, directcomp.idcompositiontranslatetransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ The <b>IDCompositionTranslateTransform</b> interface has these methods.
 
 A translation transform represents the following 3-by-2 matrix:
 
-<img alt="Three-by-two translation matrix" src="images/translate_transform_3x2matrix.png"/>
+<img alt="Three-by-two translation matrix" src="./images/translate_transform_3x2matrix.png"/>
 
 The effect is simply to offset the coordinate system by <i>x</i> and <i>y</i>.
 

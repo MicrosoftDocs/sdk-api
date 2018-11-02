@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_createclipper.htm
 tech.root: directdraw
 ms.assetid: 123a07c0-d371-4d10-bff8-b5640bd3b920
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateClipper, CreateClipper method [DirectDraw], CreateClipper method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateClipper method, IDirectDraw7.CreateClipper, IDirectDraw7::CreateClipper, ddraw/IDirectDraw7::CreateClipper, directdraw.idirectdraw7_createclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Creates a DirectDrawClipper object.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 Currently not used and must be set to 0.
 
 
-#### - lplpDDClipper [out]
+### -param arg2 [out]
 
 Address of a variable to be set to a valid <a href="https://msdn.microsoft.com/2e93583a-59a8-4a0f-9299-ed57fdcebf33">IDirectDrawClipper</a> interface pointer if the call succeeds.
 
 
-#### - pUnkOuter [in]
+### -param arg3 [in]
 
 Allows for future compatibility with COM aggregation features. Currently this method returns an error if this parameter is not NULL.
 

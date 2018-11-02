@@ -7,7 +7,7 @@ old-location: security\wlx_profile_v1_0.htm
 tech.root: secauthn
 ms.assetid: 3b75cf38-e1d7-48dd-8319-d4daf508a3e9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: "*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure pointer [Security], WLX_PROFILE_V1_0, WLX_PROFILE_V1_0 structure [Security], _WLX_PROFILE_V1_0, _gina_wlx_profile_v1_0, security.wlx_profile_v1_0, winwlx/PWLX_PROFILE_V1_0, winwlx/WLX_PROFILE_V1_0"
 ms.prod: windows
 ms.technology: windows-sdk

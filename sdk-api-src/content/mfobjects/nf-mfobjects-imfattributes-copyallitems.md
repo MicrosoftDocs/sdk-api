@@ -7,7 +7,7 @@ old-location: mf\imfattributes_copyallitems.htm
 tech.root: medfound
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CopyAllItems method, IMFAttributes.CopyAllItems, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

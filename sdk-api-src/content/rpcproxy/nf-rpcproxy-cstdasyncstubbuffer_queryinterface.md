@@ -4,10 +4,10 @@ title: CStdAsyncStubBuffer_QueryInterface function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdasyncstubbuffer_queryinterface.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 97AC8AA9-7C82-40B8-BF29-82A0E742E96C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CStdAsyncStubBuffer_QueryInterface, CStdAsyncStubBuffer_QueryInterface function [RPC], rpc.cstdasyncstubbuffer_queryinterface, rpcproxy/CStdAsyncStubBuffer_QueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

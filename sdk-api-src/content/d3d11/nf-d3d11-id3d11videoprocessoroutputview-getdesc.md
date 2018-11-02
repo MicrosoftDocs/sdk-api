@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessoroutputview_getdesc.htm
 tech.root: medfound
 ms.assetid: 8FDC547A-64B9-415C-865C-31BF8FA1A711
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoProcessorOutputView interface, ID3D11VideoProcessorOutputView interface [Media Foundation],GetDesc method, ID3D11VideoProcessorOutputView.GetDesc, ID3D11VideoProcessorOutputView::GetDesc, d3d11/ID3D11VideoProcessorOutputView::GetDesc, mf.id3d11videoprocessoroutputview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

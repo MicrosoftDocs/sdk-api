@@ -7,7 +7,7 @@ old-location: wes\evt_channel_sid_type.htm
 tech.root: wes
 ms.assetid: 7eadae8f-71b4-44de-ba66-0e460fee496c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: EVT_CHANNEL_SID_TYPE, EVT_CHANNEL_SID_TYPE enumeration [EventLog], EvtChannelSidTypeNone, EvtChannelSidTypePublishing, _EVT_CHANNEL_SID_TYPE, wes.evt_channel_sid_type, winevt/EVT_CHANNEL_SID_TYPE, winevt/EvtChannelSidTypeNone, winevt/EvtChannelSidTypePublishing
 ms.prod: windows
 ms.technology: windows-sdk

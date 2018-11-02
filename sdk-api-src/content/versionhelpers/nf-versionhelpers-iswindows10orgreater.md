@@ -7,7 +7,7 @@ old-location: base\iswindows10orgreater.htm
 tech.root: sysinfo
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: IsWindows10OrGreater, IsWindows10OrGreater function, base.iswindows10orgreater, versionhelpers/IsWindows10OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_ShowContainerUI.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackshowcontainerui.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],ShowContainerUI method, IRichEditOleCallback.ShowContainerUI, IRichEditOleCallback::ShowContainerUI, ShowContainerUI, ShowContainerUI method [Windows Controls], ShowContainerUI method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_ShowContainerUI, _win32_IRichEditOleCallback_ShowContainerUI_cpp, controls.IRichEditOleCallback_ShowContainerUI, controls._win32_IRichEditOleCallback_ShowContainerUI, richole/IRichEditOleCallback::ShowContainerUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

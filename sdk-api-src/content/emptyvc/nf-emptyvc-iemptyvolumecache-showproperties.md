@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache_showproperties.htm
 tech.root: lwef
 ms.assetid: 3bce6251-b209-405a-8ac2-fd385f1c69ee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/26/2018
 ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],ShowProperties method, IEmptyVolumeCache.ShowProperties, IEmptyVolumeCache::ShowProperties, ShowProperties, ShowProperties method [Legacy Windows Environment Features], ShowProperties method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_ShowProperties, emptyvc/IEmptyVolumeCache::ShowProperties, lwef.iemptyvolumecache_showproperties, shell.iemptyvolumecache_showproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

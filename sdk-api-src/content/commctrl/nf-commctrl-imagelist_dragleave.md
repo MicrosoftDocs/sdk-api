@@ -7,7 +7,7 @@ old-location: controls\ImageList_DragLeave.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragleave.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ImageList_DragLeave, ImageList_DragLeave function [Windows Controls], _win32_ImageList_DragLeave, _win32_ImageList_DragLeave_cpp, commctrl/ImageList_DragLeave, controls.ImageList_DragLeave, controls._win32_ImageList_DragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices

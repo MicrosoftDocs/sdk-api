@@ -4,10 +4,10 @@ title: IDirect3DDevice9::MultiplyTransform
 author: windows-sdk-content
 description: Multiplies a device's world, view, or projection matrices by a specified matrix.
 old-location: direct3d9\idirect3ddevice9__multiplytransform.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__multiplytransform.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,26 +59,14 @@ Multiplies a device's world, view, or projection matrices by a specified matrix.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - State [in]
+### -param arg1 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a></b>
 
 Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="https://msdn.microsoft.com/en-us/library/Bb172623(v=VS.85).aspx">D3DTS_WORLDMATRIX</a> macro that identifies which device matrix is to be modified. The most common setting, <b>D3DTS_WORLDMATRIX</b>(0), modifies the world matrix, but you can specify that the method modify the view or projection matrices, if needed. 
 
 
-#### - pMatrix [in]
+### -param arg2 [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a>*</b>
 

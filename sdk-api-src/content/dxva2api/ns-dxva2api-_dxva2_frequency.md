@@ -7,7 +7,7 @@ old-location: mf\dxva2_frequency.htm
 tech.root: medfound
 ms.assetid: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae, DXVA2_Frequency, DXVA2_Frequency structure [Media Foundation], _DXVA2_Frequency, dxva2api/DXVA2_Frequency, mf.dxva2_frequency
 ms.prod: windows
 ms.technology: windows-sdk

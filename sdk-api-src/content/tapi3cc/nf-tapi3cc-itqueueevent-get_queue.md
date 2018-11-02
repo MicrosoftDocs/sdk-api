@@ -4,10 +4,10 @@ title: ITQueueEvent::get_Queue
 author: windows-sdk-content
 description: The get_Queue method gets a pointer to the queue on which the event occurred.
 old-location: tapi3\itqueueevent_get_queue.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 59a4be82-0118-4a9c-9f85-0febfe1b3e18
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Queue method, ITQueueEvent.get_Queue, ITQueueEvent::get_Queue, _tapi3_itqueueevent_get_queue, get_Queue, get_Queue method [TAPI 2.2], get_Queue method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_queue, tapi3cc/ITQueueEvent::get_Queue
 ms.prod: windows-hardware
 ms.technology: windows-devices

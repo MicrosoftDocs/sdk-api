@@ -4,10 +4,10 @@ title: AuthzUnregisterCapChangeNotification function
 author: windows-sdk-content
 description: Removes a previously registered CAP update notification callback.
 old-location: security\authzunregistercapchangenotification.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 79374C66-CD50-4351-A16B-AF79A579AF74
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AuthzUnregisterCapChangeNotification, AuthzUnregisterCapChangeNotification function [Security], authz/AuthzUnregisterCapChangeNotification, security.authzunregistercapchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

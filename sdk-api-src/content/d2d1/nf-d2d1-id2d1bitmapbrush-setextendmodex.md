@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1BitmapBrush_SetExtendModeX.htm
 tech.root: direct2d
 ms.assetid: bb20c9ea-a2b1-4fa5-a0e3-b788fe493993
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeX method, ID2D1BitmapBrush.SetExtendModeX, ID2D1BitmapBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetExtendModeX, direct2d.ID2D1BitmapBrush_SetExtendModeX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Sometimes, the  bitmap for a bitmap brush doesn't completely fill the area being
 
 The following illustration shows the results from  every  possible combination of the extend modes for an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>: <a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE_CLAMP</a> (CLAMP), <b>D2D1_EXTEND_MODE_WRAP</b> (WRAP), and <b>D2D1_EXTEND_MIRROR</b> (MIRROR).
 
-<img alt="Illustration of a bitmap and the resulting images from various extend modes" src="images/bitmapwrap_clamp_mirror.png"/>
+<img alt="Illustration of a bitmap and the resulting images from various extend modes" src="./images/bitmapwrap_clamp_mirror.png"/>
 
 
 #### Examples
@@ -91,7 +91,7 @@ The following example shows how to set the bitmap brush's x- and y-extend modes 
 
 It produces the following output.
 
-<img alt="Illustration an original image and the resulting image from setting both x- and y- extend modes to mirror" src="images/brushes_ovw_bitmapmirrormirror.png"/>
+<img alt="Illustration an original image and the resulting image from setting both x- and y- extend modes to mirror" src="./images/brushes_ovw_bitmapmirrormirror.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

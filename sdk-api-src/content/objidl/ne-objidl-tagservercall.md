@@ -7,7 +7,7 @@ old-location: com\servercall.htm
 tech.root: com
 ms.assetid: 2a9b5e85-44b9-43c1-b3e5-a8f2c140b674
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: SERVERCALL, SERVERCALL enumeration [COM], SERVERCALL_ISHANDLED, SERVERCALL_REJECTED, SERVERCALL_RETRYLATER, _com_SERVERCALL, com.servercall, objidl/SERVERCALL, objidl/SERVERCALL_ISHANDLED, objidl/SERVERCALL_REJECTED, objidl/SERVERCALL_RETRYLATER, tagSERVERCALL
 ms.prod: windows
 ms.technology: windows-sdk

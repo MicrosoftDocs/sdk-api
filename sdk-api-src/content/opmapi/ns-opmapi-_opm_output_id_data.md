@@ -7,7 +7,7 @@ old-location: mf\opm_output_id_data.htm
 tech.root: medfound
 ms.assetid: 3fb56b5d-470c-4ca2-bf8b-5c3761c7cf06
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: OPM_OUTPUT_ID_DATA, OPM_OUTPUT_ID_DATA structure [Media Foundation], _OPM_OUTPUT_ID_DATA, mf.opm_output_id_data, opmapi/OPM_OUTPUT_ID_DATA
 ms.prod: windows
 ms.technology: windows-sdk

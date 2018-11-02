@@ -7,7 +7,7 @@ old-location: etw\event_filter_header.htm
 tech.root: etw
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEVENT_FILTER_HEADER, EVENT_FILTER_HEADER, EVENT_FILTER_HEADER structure [ETW], PEVENT_FILTER_HEADER, PEVENT_FILTER_HEADER structure pointer [ETW], _EVENT_FILTER_HEADER, etw.event_filter_header, evntprov/EVENT_FILTER_HEADER, evntprov/PEVENT_FILTER_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

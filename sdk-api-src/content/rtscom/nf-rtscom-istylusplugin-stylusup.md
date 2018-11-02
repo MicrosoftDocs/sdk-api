@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusup.htm
 tech.root: tablet
 ms.assetid: b0f9e49c-6a16-43c5-a653-d6142e58019a
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusUp method, IStylusPlugin.StylusUp, IStylusPlugin::StylusUp, StylusUp, StylusUp method [Tablet PC], StylusUp method [Tablet PC],IStylusPlugin interface, b0f9e49c-6a16-43c5-a653-d6142e58019a, rtscom/IStylusPlugin::StylusUp, tablet.istylusplugin_stylusup
 ms.prod: windows-hardware
 ms.technology: windows-devices

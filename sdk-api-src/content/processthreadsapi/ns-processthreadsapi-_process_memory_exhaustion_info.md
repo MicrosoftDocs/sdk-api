@@ -4,10 +4,10 @@ title: "_PROCESS_MEMORY_EXHAUSTION_INFO"
 author: windows-sdk-content
 description: Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\process_memory_exhaustion_info.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 5BD60CA2-1F97-4B62-8DD1-D21724186323
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO structure pointer, PROCESS_MEMORY_EXHAUSTION_INFO, PROCESS_MEMORY_EXHAUSTION_INFO structure, _PROCESS_MEMORY_EXHAUSTION_INFO, base.process_memory_exhaustion_info, processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_INFO, processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\showcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\showcursor.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: ShowCursor, ShowCursor function [Menus and Other Resources], _win32_ShowCursor, _win32_showcursor_cpp, menurc.showcursor, winui._win32_showcursor, winuser/ShowCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

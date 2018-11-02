@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_Move.htm
 tech.root: WinAuto
 ms.assetid: 09cd8826-4fdf-4ea5-8159-18bb81e3b5cf
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Move method, ITextRangeProvider.Move, ITextRangeProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Move, uiauto_ITextRangeProvider_Move, uiautomationcore/ITextRangeProvider::Move, winauto.uiauto_ITextRangeProvider_Move
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Moves the text range forward or backward by the specified number of text units.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+The type of text units, such as character, word, paragraph, and so on.
 
 
 ### -param count [in]
@@ -78,13 +80,6 @@ Type: <b>int*</b>
 
 The number of text units actually moved. This can be less than the number requested if 
 				either of the new text range endpoints is greater than or less than the endpoints retrieved by the <a href="https://msdn.microsoft.com/38892548-7c1f-4bac-8eac-29d7b4d190d3">ITextProvider::DocumentRange</a> method. This value can be negative if navigation is happening in the backward direction.
-
-
-#### - unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
-
-The type of text units, such as character, word, paragraph, and so on.
 
 
 ## -returns

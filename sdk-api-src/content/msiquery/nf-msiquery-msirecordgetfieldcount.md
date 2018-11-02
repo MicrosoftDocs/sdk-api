@@ -7,7 +7,7 @@ old-location: setup\msirecordgetfieldcount.htm
 tech.root: msi
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: MsiRecordGetFieldCount, MsiRecordGetFieldCount function, _msi_msirecordgetfieldcount, msiquery/MsiRecordGetFieldCount, setup.msirecordgetfieldcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

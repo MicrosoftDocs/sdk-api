@@ -4,10 +4,10 @@ title: IAzTasks::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzTask object at the specified index into the IAzTasks collection.
 old-location: security\iaztasks_item.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: eddfebba-4f0e-405a-90b5-dbdc87dca3da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AzTasks object [Security],Item property, IAzTasks interface [Security],Item property, IAzTasks.Item, IAzTasks.get_Item, IAzTasks::Item, IAzTasks::get_Item, Item property [Security], Item property [Security],AzTasks object, Item property [Security],IAzTasks interface, azroles/IAzTasks::Item, azroles/IAzTasks::get_Item, get_Item, security.iaztasks_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

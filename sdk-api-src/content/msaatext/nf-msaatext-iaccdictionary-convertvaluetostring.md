@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary_iaccdictionary__convertvaluetostring.htm
 tech.root: WinAuto
 ms.assetid: 30ac7ba4-9968-40dd-99d2-8600d25ade20
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: ConvertValueToString, ConvertValueToString method [Windows Accessibility], ConvertValueToString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],ConvertValueToString method, IAccDictionary.ConvertValueToString, IAccDictionary::ConvertValueToString, _msaa_IAccDictionary_ConvertValueToString, msaa.iaccdictionary_iaccdictionary__convertvaluetostring, msaatext/IAccDictionary::ConvertValueToString, winauto.iaccdictionary_iaccdictionary__convertvaluetostring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later 
 
 Clients call the <b>IAccDictionary::ConvertValueToString</b> method to convert a value to a localized string.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div><div> </div>
 
 ## -parameters

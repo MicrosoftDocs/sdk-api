@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextinitializeconfig.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_15lz.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,66 +58,39 @@ The fax service calls the <b>FaxExtInitializeConfig</b> function to initialize t
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Type: <b>PFAX_EXT_GET_DATA</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> fax service callback function.
 
 
-#### - pFaxExtFreeBuffer [in]
-
-Type: <b>PFAX_EXT_FREE_BUFFER</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a> fax service callback function.
-
-
-#### - pFaxExtRegisterForEvents [in]
-
-Type: <b>PFAX_EXT_REGISTER_FOR_EVENTS</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a> fax service callback function.
-
-
-#### - pFaxExtSetData [in]
+### -param arg2 [in]
 
 Type: <b>PFAX_EXT_SET_DATA</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> fax service callback function.
 
 
-#### - pFaxExtUnregisterForEvents [in]
+### -param arg3 [in]
+
+Type: <b>PFAX_EXT_REGISTER_FOR_EVENTS</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a> fax service callback function.
+
+
+### -param arg4 [in]
 
 Type: <b>PFAX_EXT_UNREGISTER_FOR_EVENTS</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684531(v=VS.85).aspx">FaxExtUnregisterForEvents</a> fax service callback function.
+
+
+### -param arg5 [in]
+
+Type: <b>PFAX_EXT_FREE_BUFFER</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a> fax service callback function.
 
 
 ## -returns

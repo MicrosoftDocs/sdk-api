@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidisplaycontrol.htm
 tech.root: direct3ddxgi
 ms.assetid: 8E9A059E-D7E2-4179-9ECA-D66BC9CD3757
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDisplayControl interface [DXGI],described, direct3ddxgi.idxgidisplaycontrol, dxgi1_2/IDXGIDisplayControl
 ms.prod: windows
 ms.technology: windows-sdk

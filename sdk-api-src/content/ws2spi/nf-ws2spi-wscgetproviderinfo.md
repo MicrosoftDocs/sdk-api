@@ -4,10 +4,10 @@ title: WSCGetProviderInfo function
 author: windows-sdk-content
 description: Retrieves the data associated with an information class for a layered service provider (LSP).
 old-location: winsock\wscgetproviderinfo.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSCGetProviderInfo, WSCGetProviderInfo function [Winsock], winsock.wscgetproviderinfo, ws2spi/WSCGetProviderInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

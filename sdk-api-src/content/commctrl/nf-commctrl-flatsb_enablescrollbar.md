@@ -7,7 +7,7 @@ old-location: controls\FlatSB_EnableScrollBar.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_enablescrollbar.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, FlatSB_EnableScrollBar, FlatSB_EnableScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_EnableScrollBar, _win32_FlatSB_EnableScrollBar_cpp, commctrl/FlatSB_EnableScrollBar, controls.FlatSB_EnableScrollBar, controls._win32_FlatSB_EnableScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,24 +60,57 @@ Enables or disables one or both flat scroll bar direction buttons. If flat scrol
 
 ### -param arg1
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
 
 
 ### -param arg2
 
-TBD
+Type: <b>int</b>
+
+A parameter that specifies the scroll bar type. It can be one of the following values: 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SB_BOTH"></a><a id="sb_both"></a><dl>
+<dt><b>SB_BOTH</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables or disables the direction buttons on the horizontal and vertical scroll bars.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
+<dt><b>SB_HORZ</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables or disables the direction buttons on the horizontal scroll bar.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
+<dt><b>SB_VERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables or disables the direction buttons on the vertical scroll bar. 
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param arg3
-
-TBD
-
-
-
-
-
-
-#### - wArrows
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
@@ -165,51 +198,6 @@ Disables the up direction button on the vertical scroll bar.
 </td>
 <td width="60%">
 Enables both direction buttons on the specified scroll bar. 
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - wSBflags
-
-Type: <b>int</b>
-
-A parameter that specifies the scroll bar type. It can be one of the following values: 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SB_BOTH"></a><a id="sb_both"></a><dl>
-<dt><b>SB_BOTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enables or disables the direction buttons on the horizontal and vertical scroll bars.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
-<dt><b>SB_HORZ</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enables or disables the direction buttons on the horizontal scroll bar.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
-<dt><b>SB_VERT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enables or disables the direction buttons on the vertical scroll bar. 
 
 </td>
 </tr>

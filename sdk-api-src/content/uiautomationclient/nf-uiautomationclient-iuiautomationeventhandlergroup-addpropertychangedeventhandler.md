@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addpropertychangedev
 tech.root: WinAuto
 ms.assetid: 186958B6-6D13-41F2-B6E5-A4C36D1B8451
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: AddPropertyChangedEventHandler, AddPropertyChangedEventHandler method [Windows Accessibility], AddPropertyChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddPropertyChangedEventHandler method, IUIAutomationEventHandlerGroup.AddPropertyChangedEventHandler, IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addpropertychangedeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Registers a method that handles property-changed events.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and children.
 
 
 ### -param cacheRequest [in]
@@ -81,11 +81,6 @@ A pointer to the UI Automation properties of interest. For a list of property ID
 ### -param propertyCount
 
 The number of properties being monitored.
-
-
-#### - scope [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and children.
 
 
 ## -returns

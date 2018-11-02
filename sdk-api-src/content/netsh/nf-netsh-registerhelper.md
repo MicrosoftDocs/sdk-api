@@ -4,10 +4,10 @@ title: RegisterHelper function
 author: windows-sdk-content
 description: Is called from within a helper's exposed InitHelperDll function, and registers the helper with the NetShell context.
 old-location: netshell\registerhelper.htm
-tech.root: NetShell
+tech.root: netshell
 ms.assetid: 9c9ac64a-6edd-4348-80c7-4192726e5108
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RegisterHelper, RegisterHelper function [NetShell], _netsh_registerhelper, netsh/RegisterHelper, netshell.registerhelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

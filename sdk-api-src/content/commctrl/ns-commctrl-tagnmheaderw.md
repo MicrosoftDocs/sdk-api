@@ -7,7 +7,7 @@ old-location: controls\NMHEADER.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmheader.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPNMHEADERW, 0, 1, 2, LPNMHEADER, LPNMHEADER structure pointer [Windows Controls], NMHEADER, NMHEADER structure [Windows Controls], NMHEADERA, NMHEADERW, _win32_NMHEADER, _win32_NMHEADER_cpp, commctrl/LPNMHEADER, commctrl/NMHEADER, commctrl/NMHEADERA, commctrl/NMHEADERW, controls.NMHEADER, controls._win32_NMHEADER, tagNMHEADERW"
 ms.prod: windows
 ms.technology: windows-sdk

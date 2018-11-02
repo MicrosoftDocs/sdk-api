@@ -7,7 +7,7 @@ old-location: etw\tracemessage.htm
 tech.root: etw
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: PVOID, TRACE_MESSAGE_COMPONENTID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessage, TraceMessage function [ETW], _evt_tracemessage, base.tracemessage, etw.tracemessage, evntrace/TraceMessage, size_t
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,11 +155,42 @@ Number that uniquely identifies each occurrence of the message. You must define 
 
 ### -param arg1
 
-TBD
+A list of variable arguments to be appended to the message. Use this list to specify your provider-specific event data. The list must be composed of pairs of arguments, as described in the following table. 
 
 
 
+<table>
+<tr>
+<th>Data Type</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PVOID"></a><a id="pvoid"></a><dl>
+<dt><b>PVOID</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer to the argument data.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="size_t"></a><a id="SIZE_T"></a><dl>
+<dt><b>size_t</b></dt>
+</dl>
+</td>
+<td width="60%">
+The size of the argument data, in bytes.
+
+</td>
+</tr>
+</table>
+ 
+
+Terminate the list using an argument pair consisting of a pointer to <b>NULL</b> and zero.
+						
+
+The caller must ensure that the sum of the sizes of the arguments + 72 does not exceed the size of the event tracing session's buffer.
 
 
 #### - SessionHandle [in]

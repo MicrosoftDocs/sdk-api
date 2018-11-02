@@ -4,10 +4,10 @@ title: IDirect3DVertexBuffer9::Lock
 author: windows-sdk-content
 description: Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
 old-location: direct3d9\idirect3dvertexbuffer9__lock.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__lock.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 50b9d9ea-bb70-b92b-dbd4-0e355b29ab40, IDirect3DVertexBuffer9 interface [Direct3D 9],Lock method, IDirect3DVertexBuffer9.Lock, IDirect3DVertexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Lock, direct3d9.idirect3dvertexbuffer9__lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

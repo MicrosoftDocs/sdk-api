@@ -7,7 +7,7 @@ old-location: termserv\wrds_setting_level.htm
 tech.root: termserv
 ms.assetid: 9E0D754D-4FB4-4878-AA59-33ACFE295651
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PWRDS_SETTING_LEVEL, PWRDS_SETTING_LEVEL, PWRDS_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_SETTING_LEVEL, WRDS_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_SETTING_LEVEL_1, WRDS_SETTING_LEVEL_INVALID, _WRDS_SETTING_LEVEL, termserv.wrds_setting_level, wtsdefs/PWRDS_SETTING_LEVEL, wtsdefs/WRDS_SETTING_LEVEL, wtsdefs/WRDS_SETTING_LEVEL_1, wtsdefs/WRDS_SETTING_LEVEL_INVALID"
 ms.prod: windows
 ms.technology: windows-sdk

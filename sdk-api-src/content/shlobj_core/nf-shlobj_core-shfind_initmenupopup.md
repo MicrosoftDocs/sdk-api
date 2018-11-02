@@ -7,7 +7,7 @@ old-location: shell\SHFind_InitMenuPopup.htm
 tech.root: shell
 ms.assetid: ca44bd57-6af0-45b3-9331-914e93360743
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SHFind_InitMenuPopup, SHFind_InitMenuPopup function [Windows Shell], _win32_SHFind_InitMenuPopup, shell.SHFind_InitMenuPopup, shlobj_core/SHFind_InitMenuPopup
 ms.prod: windows-hardware
 ms.technology: windows-devices

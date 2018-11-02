@@ -7,7 +7,7 @@ old-location: controls\TCITEMHEADER.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitemheader.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPTCITEMHEADERA, LPTCITEMHEADER, LPTCITEMHEADER structure pointer [Windows Controls], TCIF_IMAGE, TCIF_RTLREADING, TCIF_TEXT, TCITEMHEADER, TCITEMHEADER structure [Windows Controls], TCITEMHEADERA, TCITEMHEADERW, _win32_TCITEMHEADER, _win32_TCITEMHEADER_cpp, commctrl/LPTCITEMHEADER, commctrl/TCITEMHEADER, commctrl/TCITEMHEADERA, commctrl/TCITEMHEADERW, controls.TCITEMHEADER, controls._win32_TCITEMHEADER, tagTCITEMHEADERA"
 ms.prod: windows
 ms.technology: windows-sdk

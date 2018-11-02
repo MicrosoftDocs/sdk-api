@@ -4,10 +4,10 @@ title: ITLocationInfo::get_CancelCallWaitingCode
 author: windows-sdk-content
 description: The get_CancelCallWaitingCode method gets the dial digits and modifier characters that must be prefixed to a dialable string to cancel call waiting.
 old-location: tapi3\itlocationinfo_get_cancelcallwaitingcode.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 49137921-7354-4080-8684-148beb919f01
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CancelCallWaitingCode method, ITLocationInfo.get_CancelCallWaitingCode, ITLocationInfo::get_CancelCallWaitingCode, _tapi3_itlocationinfo_get_cancelcallwaitingcode, get_CancelCallWaitingCode, get_CancelCallWaitingCode method [TAPI 2.2], get_CancelCallWaitingCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_cancelcallwaitingcode, tapi3if/ITLocationInfo::get_CancelCallWaitingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

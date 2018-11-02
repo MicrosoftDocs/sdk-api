@@ -7,7 +7,7 @@ old-location: mscs\cluster_group_autofailback_type.htm
 tech.root: mscs
 ms.assetid: d7ba9298-25fc-454b-8583-196f84622cc5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: CGAFT, CGAFT enumeration [Failover Cluster], CLUSTER_GROUP_AUTOFAILBACK_TYPE, CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster], ClusterGroupAllowFailback, ClusterGroupFailbackTypeCount, ClusterGroupPreventFailback, _CLUSTER_GROUP_AUTOFAILBACK_TYPE, _CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster], clusapi/CGAFT, clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE, clusapi/ClusterGroupAllowFailback, clusapi/ClusterGroupFailbackTypeCount, clusapi/ClusterGroupPreventFailback, clusapi/_CLUSTER_GROUP_AUTOFAILBACK_TYPE, msclus/CGAFT, msclus/CLUSTER_GROUP_AUTOFAILBACK_TYPE, msclus/ClusterGroupAllowFailback, msclus/ClusterGroupFailbackTypeCount, msclus/ClusterGroupPreventFailback, msclus/_CLUSTER_GROUP_AUTOFAILBACK_TYPE, mscs.cluster_group_autofailback_type
 ms.prod: windows
 ms.technology: windows-sdk

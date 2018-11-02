@@ -4,10 +4,10 @@ title: AuthzUninstallSecurityEventSource function
 author: windows-sdk-content
 description: Removes the specified source from the list of valid security event sources.
 old-location: security\authzuninstallsecurityeventsource.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 495157da-d4ed-42ff-bcb4-5c07ab9ec0e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AuthzUninstallSecurityEventSource, AuthzUninstallSecurityEventSource function [Security], authz/AuthzUninstallSecurityEventSource, security.authzuninstallsecurityeventsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wcs\colortype.htm
 tech.root: WCS
 ms.assetid: 9735e4e5-362b-4542-9285-887279cc6499
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCOLORTYPE, COLORTYPE, COLORTYPE enumeration [Windows Color System], COLOR_3_CHANNEL, COLOR_5_CHANNEL, COLOR_6_CHANNEL, COLOR_7_CHANNEL, COLOR_8_CHANNEL, COLOR_CMYK, COLOR_GRAY, COLOR_Lab, COLOR_NAMED, COLOR_RGB, COLOR_XYZ, COLOR_Yxy, LPCOLORTYPE, LPCOLORTYPE enumeration pointer [Windows Color System], PCOLORTYPE, PCOLORTYPE enumeration pointer [Windows Color System], _color_COLORDATATYPE, icm/COLORTYPE, icm/COLOR_3_CHANNEL, icm/COLOR_5_CHANNEL, icm/COLOR_6_CHANNEL, icm/COLOR_7_CHANNEL, icm/COLOR_8_CHANNEL, icm/COLOR_CMYK, icm/COLOR_GRAY, icm/COLOR_Lab, icm/COLOR_NAMED, icm/COLOR_RGB, icm/COLOR_XYZ, icm/COLOR_Yxy, icm/LPCOLORTYPE, icm/PCOLORTYPE, wcs.colortype"
 ms.prod: windows
 ms.technology: windows-sdk

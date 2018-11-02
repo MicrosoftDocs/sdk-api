@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getextendederrorcode.htm
 tech.root: medfound
 ms.assetid: 61119103-B6F6-414B-AA7E-55DC889A5C28
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetExtendedErrorCode method, IMFTimedTextTrack.GetExtendedErrorCode, IMFTimedTextTrack::GetExtendedErrorCode, mf.imftimedtexttrack_getextendederrorcode, mfmediaengine/IMFTimedTextTrack::GetExtendedErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

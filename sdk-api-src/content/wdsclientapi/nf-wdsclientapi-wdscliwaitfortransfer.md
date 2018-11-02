@@ -4,10 +4,10 @@ title: WdsCliWaitForTransfer function
 author: windows-sdk-content
 description: Waits for an image or file transfer to complete.
 old-location: wds\wdscliwaitfortransfer.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 2328ce69-5a2d-4c4e-bf24-95a379fb7faa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Deployment Services], wds.wdscliwaitfortransfer, wdsclientapi/WdsCliWaitForTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

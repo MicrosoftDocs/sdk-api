@@ -7,7 +7,7 @@ old-location: devinst\cm_get_sibling_ex.htm
 tech.root: devinst
 ms.assetid: 6be82983-7ac7-4956-a409-77a371e4d6b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Get_Sibling_Ex, CM_Get_Sibling_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling_Ex, cfgmgrfn_f3586db6-4f64-4552-bf60-6e3d440b9138.xml, devinst.cm_get_sibling_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

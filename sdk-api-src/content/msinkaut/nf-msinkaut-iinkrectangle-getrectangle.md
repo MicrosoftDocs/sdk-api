@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_getrectangle.htm
 tech.root: tablet
 ms.assetid: 78efcd28-7095-49f7-b660-9744b1ccf93e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 78efcd28-7095-49f7-b660-9744b1ccf93e, GetRectangle, GetRectangle method [Tablet PC], GetRectangle method [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],GetRectangle method, IInkRectangle.GetRectangle, IInkRectangle::GetRectangle, msinkaut/IInkRectangle::GetRectangle, tablet.inkrectangle_getrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

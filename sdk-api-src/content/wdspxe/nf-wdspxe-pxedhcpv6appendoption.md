@@ -4,10 +4,10 @@ title: PxeDhcpv6AppendOption function
 author: windows-sdk-content
 description: Appends a DHCPv6 option to the reply packet.
 old-location: wds\pxedhcpv6appendoption.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 92A35846-360B-42D3-935B-6FC10AF687A5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: PxeDhcpv6AppendOption, PxeDhcpv6AppendOption function [Windows Deployment Services], wds.pxedhcpv6appendoption, wdspxe/PxeDhcpv6AppendOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

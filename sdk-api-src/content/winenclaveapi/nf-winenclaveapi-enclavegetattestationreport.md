@@ -4,10 +4,10 @@ title: EnclaveGetAttestationReport function
 author: windows-sdk-content
 description: Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.
 old-location: base\enclavegetattestationreport.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByUnit.htm
 tech.root: WinAuto
 ms.assetid: 3c0b9357-0f51-4044-8a5a-1f68af7a9762
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByUnit method, ITextRangeProvider.MoveEndpointByUnit, ITextRangeProvider::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit, uiauto_ITextRangeProvider_MoveEndpointByUnit, uiautomationcore/ITextRangeProvider::MoveEndpointByUnit, winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,18 @@ Moves one endpoint of the text range the specified number of <a href="https://ms
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b>TextPatternRangeEndpoint</b>
+
+The endpoint to move.
 
 
-### -param arg2
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+The type of text units, such as character, word, paragraph, and so on.
 
 
 ### -param count [in]
@@ -83,20 +87,6 @@ The number of units to move. A positive value moves the endpoint forward.
 Type: <b>int*</b>
 
 Receives the number of units actually moved, which can be less than the number requested if moving the endpoint runs into the beginning or end of the document.
-
-
-#### - endpoint [in]
-
-Type: <b>TextPatternRangeEndpoint</b>
-
-The endpoint to move.
-
-
-#### - unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
-
-The type of text units, such as character, word, paragraph, and so on.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: automat\safearraydestroy.htm
 tech.root: automat
 ms.assetid: fc94f7e7-b903-4c78-905c-54df1f8d13fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SafeArrayDestroy, SafeArrayDestroy function [Automation], _oa96_SafeArrayDestroy, automat.safearraydestroy, oleauto/SafeArrayDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

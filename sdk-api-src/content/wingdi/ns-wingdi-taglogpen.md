@@ -7,7 +7,7 @@ old-location: gdi\logpen.htm
 tech.root: gdi
 ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, tagLOGPEN, wingdi/LOGPEN, wingdi/PLOGPEN"
 ms.prod: windows
 ms.technology: windows-sdk

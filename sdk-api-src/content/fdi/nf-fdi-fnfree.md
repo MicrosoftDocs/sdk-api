@@ -7,7 +7,7 @@ old-location: winprog\fnfree.htm
 tech.root: devnotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

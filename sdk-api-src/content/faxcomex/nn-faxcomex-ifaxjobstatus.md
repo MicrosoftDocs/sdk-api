@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3p6b_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxJobStatus, IFaxJobStatus interface [Fax Service], IFaxJobStatus interface [Fax Service],described, _mfax_faxjobstatus_cpp, fax._mfax_faxjobstatus_cpp, faxcomex/IFaxJobStatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHREGENUM_FLAGS.htm
 tech.root: shell
 ms.assetid: 4216a983-9d53-44b1-8273-e5a90ac4b3ef
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SHREGENUM_BOTH, SHREGENUM_DEFAULT, SHREGENUM_FLAGS, SHREGENUM_FLAGS enumeration [Windows Shell], SHREGENUM_HKCU, SHREGENUM_HKLM, _win32_SHREGENUM_FLAGS, shell.SHREGENUM_FLAGS, shlwapi/SHREGENUM_BOTH, shlwapi/SHREGENUM_DEFAULT, shlwapi/SHREGENUM_FLAGS, shlwapi/SHREGENUM_HKCU, shlwapi/SHREGENUM_HKLM
 ms.prod: windows
 ms.technology: windows-sdk

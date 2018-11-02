@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createuint32.htm
 tech.root: WinRT
 ms.assetid: E2ABD665-0BBD-4EA3-A265-D5EB12667F0A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateUInt32, CreateUInt32 method [Windows Runtime], CreateUInt32 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt32 method, IPropertyValueStatics.CreateUInt32, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt32, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt32, winrt.ipropertyvaluefactory_createuint32, winrt.ipropertyvaluestatics_createuint32
 ms.prod: windows-hardware
 ms.technology: windows-devices

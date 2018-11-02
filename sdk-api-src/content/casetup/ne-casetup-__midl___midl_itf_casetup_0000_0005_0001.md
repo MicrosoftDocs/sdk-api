@@ -7,7 +7,7 @@ old-location: security\cepsetupproperty.htm
 tech.root: seccrypto
 ms.assetid: 344701CA-089C-4152-BDA4-249728863180
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CEPSetupProperty, CEPSetupProperty enumeration [Security], ENUM_CEPSETUPPROP_AUTHENTICATION, ENUM_CEPSETUPPROP_KEYBASED_RENEWAL, ENUM_CEPSETUPPROP_SSLCERTHASH, ENUM_CEPSETUPPROP_URL, __MIDL___MIDL_itf_casetup_0000_0005_0001, casetup/CEPSetupProperty, casetup/ENUM_CEPSETUPPROP_AUTHENTICATION, casetup/ENUM_CEPSETUPPROP_KEYBASED_RENEWAL, casetup/ENUM_CEPSETUPPROP_SSLCERTHASH, casetup/ENUM_CEPSETUPPROP_URL, security.cepsetupproperty
 ms.prod: windows
 ms.technology: windows-sdk

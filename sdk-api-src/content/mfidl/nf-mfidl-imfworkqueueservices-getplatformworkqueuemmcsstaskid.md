@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_getplatformworkqueuemmcsstaskid.htm
 tech.root: medfound
 ms.assetid: 897a048a-44fc-4176-acd9-5944f184b34a
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 897a048a-44fc-4176-acd9-5944f184b34a, GetPlatformWorkQueueMMCSSTaskId, GetPlatformWorkQueueMMCSSTaskId method [Media Foundation], GetPlatformWorkQueueMMCSSTaskId method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetPlatformWorkQueueMMCSSTaskId method, IMFWorkQueueServices.GetPlatformWorkQueueMMCSSTaskId, IMFWorkQueueServices::GetPlatformWorkQueueMMCSSTaskId, mf.imfworkqueueservices_getplatformworkqueuemmcsstaskid, mfidl/IMFWorkQueueServices::GetPlatformWorkQueueMMCSSTaskId
 ms.prod: windows-hardware
 ms.technology: windows-devices

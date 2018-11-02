@@ -4,10 +4,10 @@ title: ITAgent::CreateSessionWithPIN
 author: windows-sdk-content
 description: The CreateSessionWithPIN method creates a new agent session for the input ACD group and address, with Personal Identification Number (PIN).
 old-location: tapi3\itagent_createsessionwithpin.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: d901ad31-8ccc-4bca-9413-dff838a33088
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: CreateSessionWithPIN, CreateSessionWithPIN method [TAPI 2.2], CreateSessionWithPIN method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSessionWithPIN method, ITAgent.CreateSessionWithPIN, ITAgent::CreateSessionWithPIN, _tapi3_itagent_createsessionwithpin, tapi3.itagent_createsessionwithpin, tapi3cc/ITAgent::CreateSessionWithPIN
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:bdatif
 ms.assetid: 2908eece-5a41-3897-a208-4bc229e3e9c4
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

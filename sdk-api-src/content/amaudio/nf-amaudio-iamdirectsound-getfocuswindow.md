@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_getfocuswindow.htm
 tech.root: DirectShow
 ms.assetid: e103abb3-01fc-452f-a151-0f2d24859fba
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: GetFocusWindow, GetFocusWindow method [DirectShow], GetFocusWindow method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetFocusWindow method, IAMDirectSound.GetFocusWindow, IAMDirectSound::GetFocusWindow, IAMDirectSoundGetWindowFocus, amaudio/IAMDirectSound::GetFocusWindow, dshow.iamdirectsound_getfocuswindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,19 +62,12 @@ The <code>GetFocusWindow</code> method retrieves the window that is handling sou
 
 
 
-### -param arg1
+### -param arg1 [out]
 
-TBD
-
-
-### -param arg2
-
-TBD
+Pointer to a variable that receives a handle to the window. If sound playback is not associated with a window, the returned value is <b>NULL</b>.
 
 
-
-
-#### - bMixingOnOrOff [out]
+### -param arg2 [out]
 
 Pointer to a variable that receives one of the following values.
 
@@ -95,11 +88,6 @@ Pointer to a variable that receives one of the following values.
 </tr>
 </table>
  
-
-
-#### - hWnd [out]
-
-Pointer to a variable that receives a handle to the window. If sound playback is not associated with a window, the returned value is <b>NULL</b>.
 
 
 ## -returns

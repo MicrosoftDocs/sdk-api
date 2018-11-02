@@ -4,10 +4,10 @@ title: lineInitializeExA function
 author: windows-sdk-content
 description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.
 old-location: tapi2\lineinitializeex.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_lineinitializeex, lineInitializeEx, lineInitializeEx function [TAPI 2.2], lineInitializeExA, lineInitializeExW, tapi/lineInitializeEx, tapi/lineInitializeExA, tapi/lineInitializeExW, tapi2.lineinitializeex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

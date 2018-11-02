@@ -7,7 +7,7 @@ old-location: security\certmodifycertificatestotrust.htm
 tech.root: seccrypto
 ms.assetid: a23d968e-113f-470e-a629-18c22882c77f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
 ms.prod: windows-hardware
 ms.technology: windows-devices

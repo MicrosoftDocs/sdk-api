@@ -7,7 +7,7 @@ old-location: controls\GetThemePartSize.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], controls.GetThemePartSize, controls.inet_GetThemePartSize, inet_GetThemePartSize, inet_GetThemePartSize_cpp, uxtheme/GetThemePartSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,11 @@ Type: <b>LPCRECT</b>
 Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the rectangle used for the part drawing destination. This parameter may be set to <b>NULL</b>.
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b>THEMESIZE</b>
+
+Enumerated type that specifies the type of size to retrieve. See <a href="https://msdn.microsoft.com/en-us/library/Bb759839(v=VS.85).aspx">THEMESIZE</a> for a list of type values.
 
 
 ### -param psz [out]
@@ -106,13 +108,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that receives the dimensions of the specified part.
-
-
-#### - eSize [in]
-
-Type: <b>THEMESIZE</b>
-
-Enumerated type that specifies the type of size to retrieve. See <a href="https://msdn.microsoft.com/en-us/library/Bb759839(v=VS.85).aspx">THEMESIZE</a> for a list of type values.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: controls\ImageList_CoCreateInstance.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_cocreateinstance.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ImageList_CoCreateInstance, ImageList_CoCreateInstance function [Windows Controls], _shell_ImageList_CoCreateInstance, _shell_ImageList_CoCreateInstance_cpp, commoncontrols/ImageList_CoCreateInstance, controls.ImageList_CoCreateInstance, controls._shell_ImageList_CoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

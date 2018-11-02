@@ -7,7 +7,7 @@ old-location: etw\tdhenumerateproviders_func.htm
 tech.root: etw
 ms.assetid: ef326ef8-227d-46b5-88b9-b519748fb778
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: TdhEnumerateProviders, TdhEnumerateProviders function [ETW], etw.tdhenumerateproviders_func, tdh.tdhenumerateproviders_func, tdh/TdhEnumerateProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

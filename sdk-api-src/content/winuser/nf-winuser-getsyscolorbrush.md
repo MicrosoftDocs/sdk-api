@@ -7,7 +7,7 @@ old-location: gdi\getsyscolorbrush.htm
 tech.root: gdi
 ms.assetid: 07a1d8e3-eae8-40ab-9d0f-4efa9fac0117
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_GetSysColorBrush, gdi.getsyscolorbrush, winuser/GetSysColorBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

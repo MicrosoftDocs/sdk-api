@@ -7,7 +7,7 @@ old-location: wes\evtgeteventinfo.htm
 tech.root: wes
 ms.assetid: 69aa22a1-10c1-43bd-ae3b-d7641bed2065
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/26/2018
 ms.keywords: EvtGetEventInfo, EvtGetEventInfo function [EventLog], wes.evtgeteventinfo, winevt/EvtGetEventInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

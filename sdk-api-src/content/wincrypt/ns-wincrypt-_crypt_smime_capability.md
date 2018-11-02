@@ -7,7 +7,7 @@ old-location: security\crypt_smime_capability.htm
 tech.root: seccrypto
 ms.assetid: c7d1e04f-d2b9-4bab-88f4-8a528c527e7c
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY structure [Security], PCRYPT_SMIME_CAPABILITY, PCRYPT_SMIME_CAPABILITY structure pointer [Security], _CRYPT_SMIME_CAPABILITY, _crypto2_crypt_smime_capability, security.crypt_smime_capability, wincrypt/CRYPT_SMIME_CAPABILITY, wincrypt/PCRYPT_SMIME_CAPABILITY"
 ms.prod: windows
 ms.technology: windows-sdk

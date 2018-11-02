@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_outdupl_pointer_shape_type.htm
 tech.root: direct3ddxgi
 ms.assetid: A066B6D3-A72A-48A9-BAED-BC3488BD1BC7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: DXGI_OUTDUPL_POINTER_SHAPE_TYPE, DXGI_OUTDUPL_POINTER_SHAPE_TYPE enumeration [DXGI], DXGI_OUTDUPL_POINTER_SHAPE_TYPE_COLOR, DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MASKED_COLOR, DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MONOCHROME, direct3ddxgi.dxgi_outdupl_pointer_shape_type, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE_COLOR, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MASKED_COLOR, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MONOCHROME
 ms.prod: windows
 ms.technology: windows-sdk

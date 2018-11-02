@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent_setcontentprotectionmanager.htm
 tech.root: medfound
 ms.assetid: 8F150CB5-43AB-4709-A254-636440113642
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

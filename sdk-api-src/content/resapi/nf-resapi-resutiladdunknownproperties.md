@@ -7,7 +7,7 @@ old-location: mscs\resutiladdunknownproperties.htm
 tech.root: mscs
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: PRESUTIL_ADD_UNKNOWN_PROPERTIES, PRESUTIL_ADD_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilAddUnknownProperties, ResUtilAddUnknownProperties function [Failover Cluster], _wolf_resutiladdunknownproperties, mscs.resutiladdunknownproperties, resapi/PRESUTIL_ADD_UNKNOWN_PROPERTIES, resapi/ResUtilAddUnknownProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 The relationships between the input and output parameters of  <b>ResUtilAddUnknownProperties</b> are illustrated in the following diagram:
 
-<img alt="" border="0" src="images/resutil.png"/>
+<img alt="" border="0" src="./images/resutil.png"/>
 The  <b>ResUtilAddUnknownProperties</b> utility function enumerates the properties stored in the cluster database (under <i>hkeyClusterKey</i>) and looks for corresponding properties in the property table (<i>pPropertyTable</i>). Each property that is listed in the cluster database but not listed in the property table is added to the property list (<i>pOutPropertyList</i>).
 
 

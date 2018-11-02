@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_clear.htm
 tech.root: tablet
 ms.assetid: b5270e5c-51fa-4d1f-b4e0-9129c61bac88
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Clear method, IInkExtendedProperties.Clear, IInkExtendedProperties::Clear, b5270e5c-51fa-4d1f-b4e0-9129c61bac88, msinkaut/IInkExtendedProperties::Clear, tablet.iinkextendedproperties_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

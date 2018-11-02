@@ -7,7 +7,7 @@ old-location: rras\rtmgetrouteinfo.htm
 tech.root: rras
 ms.assetid: 13fc70de-f6cd-4e7a-b79d-c2fe811e08a4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RtmGetRouteInfo, RtmGetRouteInfo function [RAS], _rtmv2ref_rtmgetrouteinfo, rras.rtmgetrouteinfo, rtmv2/RtmGetRouteInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

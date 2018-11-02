@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_GetPropertyProgrammaticName.htm
 tech.root: WinAuto
 ms.assetid: f4472de0-7194-411d-a508-a5d81aba8b7d
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetPropertyProgrammaticName, GetPropertyProgrammaticName method [Windows Accessibility], GetPropertyProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPropertyProgrammaticName method, IUIAutomation.GetPropertyProgrammaticName, IUIAutomation::GetPropertyProgrammaticName, uiauto.uiauto_IUIAutomation_GetPropertyProgrammaticName, uiauto_IUIAutomation_GetPropertyProgrammaticName, uiautomationclient/IUIAutomation::GetPropertyProgrammaticName, winauto.uiauto_IUIAutomation_GetPropertyProgrammaticName
 ms.prod: windows-hardware
 ms.technology: windows-devices

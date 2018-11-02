@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_GetAttributeValue.htm
 tech.root: WinAuto
 ms.assetid: 7a77774e-7be0-473e-a0c9-e1aa108549e1
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetAttributeValue method, IUIAutomationTextRange.GetAttributeValue, IUIAutomationTextRange::GetAttributeValue, uiauto.uiauto_IUIAutomationTextRange_GetAttributeValue, uiauto_IUIAutomationTextRange_GetAttributeValue, uiautomationclient/IUIAutomationTextRange::GetAttributeValue, winauto.uiauto_IUIAutomationTextRange_GetAttributeValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The identifier of the text attribute. For a list of text attribute IDs, see <a h
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>*</b>
 
 Receives the value of the specified attribute. 
 

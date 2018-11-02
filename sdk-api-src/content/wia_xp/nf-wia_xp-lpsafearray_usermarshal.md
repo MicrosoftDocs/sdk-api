@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_usermarshal.htm
 tech.root: automat
 ms.assetid: 8255d1a0-b102-443d-a10f-8c6bd9047703
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automation], _oa96_LPSAFEARRAY_UserMarshal, automat.lpsafearray_usermarshal, wia_xp/LPSAFEARRAY_UserMarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ Marshals data from the specified <a href="https://msdn.microsoft.com/9ec8025b-47
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pBuffer [in, out]
+### -param arg2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry. The function aligns the buffer pointer, marshals the data, and returns the new buffer position, which is the address of the first byte after the marshaled object.
 
 
-#### - ppSafeArray [in]
+### -param arg3 [in]
 
 The safe array that contains the data to marshal.
 

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_pan.htm
 tech.root: DirectShow
 ms.assetid: 390c6330-1eb4-4149-aabc-296b585b577a
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Pan method, ICameraControl.getRange_Pan, ICameraControl::getRange_Pan, ICameraControlgetRange_Pan, dshow.icameracontrol_getrange_pan, getRange_Pan, getRange_Pan method [DirectShow], getRange_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Pan
 ms.prod: windows-hardware
 ms.technology: windows-devices

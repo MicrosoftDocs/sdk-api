@@ -4,10 +4,10 @@ title: CheckTokenMembership function
 author: windows-sdk-content
 description: Determines whether a specified security identifier (SID) is enabled in an access token.
 old-location: security\checktokenmembership.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c254a167-c4e7-4b84-9be3-6862761309f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CheckTokenMembership, CheckTokenMembership function [Security], _win32_checktokenmembership, security.checktokenmembership, securitybaseapi/CheckTokenMembership
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTablePattern_GetCachedRowHeaders.htm
 tech.root: WinAuto
 ms.assetid: 2487f6cd-5871-457d-b634-83bb6191dce2
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetCachedRowHeaders, GetCachedRowHeaders method [Windows Accessibility], GetCachedRowHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCachedRowHeaders method, IUIAutomationTablePattern.GetCachedRowHeaders, IUIAutomationTablePattern::GetCachedRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCachedRowHeaders, uiauto_IUIAutomationTablePattern_GetCachedRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCachedRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCachedRowHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

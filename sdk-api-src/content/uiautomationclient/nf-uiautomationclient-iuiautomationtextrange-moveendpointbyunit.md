@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByUnit.htm
 tech.root: WinAuto
 ms.assetid: 8724db1f-b8ed-4e00-9661-c22dd412653c
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],MoveEndpointByUnit method, IUIAutomationTextRange.MoveEndpointByUnit, IUIAutomationTextRange::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiautomationclient/IUIAutomationTextRange::MoveEndpointByUnit, winauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,18 @@ Moves one endpoint of the text range the specified number of text units within t
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+A value specifying the endpoint (start or end) to move.
 
 
-### -param arg2
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+A value specifying the textual unit for moving, such as line or paragraph.
 
 
 ### -param count [in]
@@ -80,20 +84,6 @@ The number of units to move. A positive count moves the endpoint forward. A nega
 Type: <b>int*</b>
 
 Receives the count of units actually moved. This value can be less than the number requested if moving the endpoint runs into the beginning or end of the document.
-
-
-#### - endpoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-A value specifying the endpoint (start or end) to move.
-
-
-#### - unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
-
-A value specifying the textual unit for moving, such as line or paragraph.
 
 
 ## -returns

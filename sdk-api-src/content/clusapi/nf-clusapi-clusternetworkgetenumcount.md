@@ -7,7 +7,7 @@ old-location: mscs\clusternetworkgetenumcount.htm
 tech.root: mscs
 ms.assetid: b3397d85-4e9a-4ee8-ba81-25185e2d46fd
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ClusterNetworkGetEnumCount, ClusterNetworkGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT function [Failover Cluster], _wolf_clusternetworkgetenumcount, clusapi/ClusterNetworkGetEnumCount, clusapi/PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, mscs.clusternetworkgetenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

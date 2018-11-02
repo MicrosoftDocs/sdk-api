@@ -7,7 +7,7 @@ old-location: shell\SHUnlockShared.htm
 tech.root: shell
 ms.assetid: 8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SHUnlockShared, SHUnlockShared function [Windows Shell], _win32_SHUnlockShared, shell.SHUnlockShared, shlwapi/SHUnlockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

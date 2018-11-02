@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider_CanSelectMultiple.htm
 tech.root: WinAuto
 ms.assetid: 00098f73-4cbe-4cc5-a91a-479721f9b7c1
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CanSelectMultiple property [Windows Accessibility], CanSelectMultiple property [Windows Accessibility],ISelectionProvider interface, ISelectionProvider interface [Windows Accessibility],CanSelectMultiple property, ISelectionProvider.CanSelectMultiple, ISelectionProvider.get_CanSelectMultiple, ISelectionProvider::CanSelectMultiple, ISelectionProvider::get_CanSelectMultiple, get_CanSelectMultiple, uiauto.uiauto_ISelectionProvider_CanSelectMultiple, uiauto_ISelectionProvider_CanSelectMultiple, uiautomationcore/ISelectionProvider::CanSelectMultiple, uiautomationcore/ISelectionProvider::get_CanSelectMultiple, winauto.uiauto_ISelectionProvider_CanSelectMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_acchelp.htm
 tech.root: WinAuto
 ms.assetid: ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accHelp method, IAccessible.get_accHelp, IAccessible::get_accHelp, _msaa_IAccessible_get_accHelp, get_accHelp, get_accHelp method [Windows Accessibility], get_accHelp method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelp, oleacc/IAccessible::get_accHelp, winauto.iaccessible_iaccessible__get_acchelp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,7 +139,7 @@ None of the predefined and common controls support this property.
 
 <b>Note to server developers:  </b>Localize the string returned from this property.
 
-This property returns a string, whereas <a href="https://msdn.microsoft.com/a8f4ae56-6bd9-4615-a87d-a4de2f7632b1">IAccessible::get_accHelpTopic</a> provides access to a Help topic in <a href="http://go.microsoft.com/fwlink/p/?linkid=177910">WinHelp</a>. Objects are not required to support both <b>IAccessible::get_accHelp</b> and <b>IAccessible::get_accHelpTopic</b>, but they must support at least one. If they easily return a string, they must support <b>IAccessible::get_accHelp</b> ; otherwise they must support <b>IAccessible::get_accHelpTopic</b>. If both are supported, <b>IAccessible::get_accHelpTopic</b> provides more detailed information.
+This property returns a string, whereas <a href="https://msdn.microsoft.com/a8f4ae56-6bd9-4615-a87d-a4de2f7632b1">IAccessible::get_accHelpTopic</a> provides access to a Help topic in <a href="https://go.microsoft.com/fwlink/p/?linkid=177910">WinHelp</a>. Objects are not required to support both <b>IAccessible::get_accHelp</b> and <b>IAccessible::get_accHelpTopic</b>, but they must support at least one. If they easily return a string, they must support <b>IAccessible::get_accHelp</b> ; otherwise they must support <b>IAccessible::get_accHelpTopic</b>. If both are supported, <b>IAccessible::get_accHelpTopic</b> provides more detailed information.
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows one possible implementation of this method for a custom list box. Different text is displayed depending on the status of the contact in the list. For simplicity, the example does not localize the returned string.

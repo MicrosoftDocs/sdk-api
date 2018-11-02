@@ -4,10 +4,10 @@ title: IsWellKnownSid function
 author: windows-sdk-content
 description: Compares a SID to a well-known SID and returns TRUE if they match.
 old-location: security\iswellknownsid.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 1a08c70c-00fa-4c62-883d-4f17f9d7c04b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IsWellKnownSid, IsWellKnownSid function [Security], _win32_iswellknownsid, security.iswellknownsid, securitybaseapi/IsWellKnownSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

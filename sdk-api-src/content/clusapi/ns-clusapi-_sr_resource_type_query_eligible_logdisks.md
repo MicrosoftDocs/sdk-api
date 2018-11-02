@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_query_eligible_logdisks.htm
 tech.root: mscs
 ms.assetid: AF4EBA1C-8DAB-46F4-A092-F196F02480EB
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure [Failover Cluster], _SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, mscs.sr_resource_type_query_eligible_logdisks"
 ms.prod: windows
 ms.technology: windows-sdk

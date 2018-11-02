@@ -7,7 +7,7 @@ old-location: rras\getinterfaceinfo.htm
 tech.root: rras
 ms.assetid: ec662772-f864-4108-b676-3fa501b3b927
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetInterfaceInfo, PGET_INTERFACE_INFO, PGET_INTERFACE_INFO callback, PGET_INTERFACE_INFO callback function [RAS], _mpr_getinterfaceinfo, routprot/PGET_INTERFACE_INFO, rras.getinterfaceinfo
 ms.prod: windows
 ms.technology: windows-sdk

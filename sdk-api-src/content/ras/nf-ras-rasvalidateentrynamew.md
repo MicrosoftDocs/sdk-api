@@ -7,7 +7,7 @@ old-location: rras\rasvalidateentryname.htm
 tech.root: rras
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: "*, /, :, <, >, ?, RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, \, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname, |"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,19 +61,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 A pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
 
@@ -83,7 +71,7 @@ A pointer to a null-terminated string that specifies the full path and file name
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpszEntry [in]
+### -param arg2 [in]
 
 Pointer to a null-terminated string that specifies an entry name. 
 

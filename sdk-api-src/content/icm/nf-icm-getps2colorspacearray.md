@@ -7,7 +7,7 @@ old-location: wcs\getps2colorspacearray.htm
 tech.root: WCS
 ms.assetid: d7e0de11-d5fe-4d3f-bdd0-2c6f7c61a0a9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetPS2ColorSpaceArray, GetPS2ColorSpaceArray function [Windows Color System], _color_GetPS2ColorSpaceArray, icm/GetPS2ColorSpaceArray, wcs.getps2colorspacearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

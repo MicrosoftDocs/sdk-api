@@ -7,7 +7,7 @@ old-location: gdi\emrcreatemonobrush.htm
 tech.root: gdi
 ms.assetid: 6f581ad4-0449-40b1-bcc6-737bfcdc33c4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH structure [Windows GDI], PEMRCREATEMONOBRUSH, PEMRCREATEMONOBRUSH structure pointer [Windows GDI], _win32_EMRCREATEMONOBRUSH_str, gdi.emrcreatemonobrush, tagEMRCREATEMONOBRUSH, wingdi/EMRCREATEMONOBRUSH, wingdi/PEMRCREATEMONOBRUSH"
 ms.prod: windows
 ms.technology: windows-sdk

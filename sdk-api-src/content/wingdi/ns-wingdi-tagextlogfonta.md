@@ -7,7 +7,7 @@ old-location: gdi\extlogfont.htm
 tech.root: gdi
 ms.assetid: 19f6364e-3347-45b6-be02-e2cc69a7145a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPEXTLOGFONTA, *NPEXTLOGFONTA, *PEXTLOGFONTA, EXTLOGFONT, EXTLOGFONT structure [Windows GDI], EXTLOGFONTA, EXTLOGFONTW, PEXTLOGFONT, PEXTLOGFONT structure pointer [Windows GDI], _win32_EXTLOGFONT_str, gdi.extlogfont, tagEXTLOGFONTA, wingdi/EXTLOGFONT, wingdi/EXTLOGFONTA, wingdi/EXTLOGFONTW, wingdi/PEXTLOGFONT"
 ms.prod: windows
 ms.technology: windows-sdk

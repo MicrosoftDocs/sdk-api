@@ -4,10 +4,10 @@ title: "_ACCESS_MODE"
 author: windows-sdk-content
 description: Contains values that indicate how the access rights in an EXPLICIT_ACCESS structure apply to the trustee.
 old-location: security\access_mode.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 52d1b3a3-eed5-4603-9056-520320da2a52
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: ACCESS_MODE, ACCESS_MODE enumeration [Security], DENY_ACCESS, GRANT_ACCESS, NOT_USED_ACCESS, REVOKE_ACCESS, SET_ACCESS, SET_AUDIT_FAILURE, SET_AUDIT_SUCCESS, _ACCESS_MODE, _win32_access_mode_str, accctrl/ACCESS_MODE, accctrl/DENY_ACCESS, accctrl/GRANT_ACCESS, accctrl/NOT_USED_ACCESS, accctrl/REVOKE_ACCESS, accctrl/SET_ACCESS, accctrl/SET_AUDIT_FAILURE, accctrl/SET_AUDIT_SUCCESS, security.access_mode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NS:filter.tagFILTERREGION
 title: tagFILTERREGION
 author: windows-sdk-content
-description: Describes the position and extent of a specified portion of text within an object. This structure is used by the IFilter::BindRegion method.
-old-location: search\_search_FILTERREGION.htm
-tech.root: search
-ms.assetid: VS|search|~\search\wds3x\reference\structures\filterregion.htm
+description: Describes the position and extent of a specified portion of text within an object.
+old-location: indexsrv\filterregion.htm
+tech.root: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_9usu.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FILTERREGION, FILTERREGION structure [search], _search_FILTERREGION, filter/FILTERREGION, search._search_FILTERREGION, tagFILTERREGION
+ms.date: 10/02/2018
+ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILTERREGION, filter/FILTERREGION, indexsrv.filterregion, tagFILTERREGION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -41,7 +41,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: FILTERREGION
-req.redist: the Windows NT 4.0 Option Pack
+req.redist: 
 ---
 
 # tagFILTERREGION structure
@@ -50,7 +50,9 @@ req.redist: the Windows NT 4.0 Option Pack
 ## -description
 
 
-Describes the position and extent of a specified portion of text within an object. This structure is used by the <a href="https://msdn.microsoft.com/7654292f-1a77-48b6-af74-262cac4e111c">IFilter::BindRegion</a> method.
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+
+Describes the position and extent of a specified portion of text within an object.
 
 
 ## -struct-fields
@@ -60,23 +62,17 @@ Describes the position and extent of a specified portion of text within an objec
 
 ### -field idChunk
 
-Type: <b>ULONG</b>
-
-Chunk ID.
+The chunk identifier.
 
 
 ### -field cwcStart
 
-Type: <b>ULONG</b>
-
-Beginning of the region, specified as an offset from the beginning of the chunk.
+The beginning of the region, specified as an offset from the beginning of the chunk.
 
 
 ### -field cwcExtent
 
-Type: <b>ULONG</b>
-
-Extent of the region, specified as a number of Unicode characters.
+The extent of the region, specified as the number of Unicode characters.
 
 
 ## -remarks
@@ -93,7 +89,7 @@ The <b>cwcExtent</b> member might specify a number of characters (starting from 
 
 
 
-<a href="https://msdn.microsoft.com/7654292f-1a77-48b6-af74-262cac4e111c">IFilter::BindRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691053(v=VS.85).aspx">IFilter::BindRegion</a>
  
 
  

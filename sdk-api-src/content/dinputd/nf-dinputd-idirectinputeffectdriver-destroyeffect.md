@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_destroyeffect.htm
 tech.root: hid
 ms.assetid: beb5847c-a30e-4ab4-b293-359aca851c6c
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: DestroyEffect, DestroyEffect method [Human Input Devices], DestroyEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DestroyEffect method, IDirectInputEffectDriver.DestroyEffect, IDirectInputEffectDriver::DestroyEffect, di_ref_2c37442c-093a-4470-9335-46b5cc488df3.xml, dinputd/IDirectInputEffectDriver::DestroyEffect, hid.idirectinputeffectdriver_destroyeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,24 +60,12 @@ The <b>IDirectInputEffectDriver::DestroyEffect </b>method removes an effect from
 
 ### -param arg1
 
-TBD
+Specifies the external joystick number being addressed. 
 
 
 ### -param arg2
 
-TBD
-
-
-
-
-#### - dwEffect
-
 Specifies the effect to be destroyed. 
-
-
-#### - dwID
-
-Specifies the external joystick number being addressed. 
 
 
 ## -returns

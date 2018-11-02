@@ -7,7 +7,7 @@ old-location: display\d3dgetdriverstate.htm
 tech.root: display
 ms.assetid: 6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: D3dGetDriverState, D3dGetDriverState callback function [Display Devices], PDD_GETDRIVERSTATE, PDD_GETDRIVERSTATE callback, d3dfncs_e2c93c0f-5d2e-47b2-b8df-b527db9b121e.xml, ddrawint/D3dGetDriverState, display.d3dgetdriverstate
 ms.prod: windows
 ms.technology: windows-sdk

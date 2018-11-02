@@ -7,7 +7,7 @@ old-location: directdraw\dddeviceidentifier2.htm
 tech.root: directdraw
 ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2, tagDDDEVICEIDENTIFIER2"
 ms.prod: windows
 ms.technology: windows-sdk

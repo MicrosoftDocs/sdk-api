@@ -4,10 +4,10 @@ title: ldap_openA function
 author: windows-sdk-content
 description: ldap_open is not recommended for use.
 old-location: ldap\ldap_open.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: ebd7303d-e98d-454d-9964-d774d5c2a756
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ldap_open, ldap.ldap__open, ldap.ldap_open, ldap_open, ldap_open function [LDAP], ldap_openA, ldap_openW, winldap/ldap_open, winldap/ldap_openA, winldap/ldap_openW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

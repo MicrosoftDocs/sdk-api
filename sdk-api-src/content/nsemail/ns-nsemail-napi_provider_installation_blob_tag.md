@@ -4,10 +4,10 @@ title: napi_provider_installation_blob_tag
 author: windows-sdk-content
 description: Contains the information required to install a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_provider_installation_blob.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 3444ad63-444a-481d-8fe7-f40b2b7d5283
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: NAPI_PROVIDER_INSTALLATION_BLOB, NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock], PNAPI_PROVIDER_INSTALLATION_BLOB, PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock], napi_provider_installation_blob_tag, nsemail/NAPI_PROVIDER_INSTALLATION_BLOB, nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB, winsock.napi_provider_installation_blob
 ms.prod: windows
 ms.technology: windows-sdk

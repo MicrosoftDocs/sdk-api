@@ -7,7 +7,7 @@ old-location: controls\Pager_GetBorder.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getborder.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: Pager_GetBorder, Pager_GetBorder macro [Windows Controls], _win32_Pager_GetBorder, _win32_Pager_GetBorder_cpp, commctrl/Pager_GetBorder, controls.Pager_GetBorder, controls._win32_Pager_GetBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

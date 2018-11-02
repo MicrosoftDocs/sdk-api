@@ -7,7 +7,7 @@ old-location: controls\ImageList_GetIcon.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticon.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ImageList_GetIcon, ImageList_GetIcon function [Windows Controls], _win32_ImageList_GetIcon, _win32_ImageList_GetIcon_cpp, commctrl/ImageList_GetIcon, controls.ImageList_GetIcon, controls._win32_ImageList_GetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

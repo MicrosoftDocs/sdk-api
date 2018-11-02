@@ -7,7 +7,7 @@ old-location: rras\rassetautodialaddress.htm
 tech.root: rras
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,34 +63,7 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-### -param arg5
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the address to add, delete, or modify. This address can be an IP address, Internet host name ("www.microsoft.com"), or NetBIOS name ("products1"). 
 
@@ -100,31 +73,31 @@ Pointer to a <b>null</b>-terminated string that specifies the address to add, de
 If this parameter is <b>NULL</b>, the function sets the default Internet connection (see Remarks). If this parameter points to a zero-length string, the function deletes the default Internet connection.
 
 
-#### - dwReserved [in]
+### -param arg2 [in]
 
 Reserved; must be zero.
 
 
-#### - dwcAutoDialEntries [in]
+### -param arg3 [in]
 
-Specifies the number of 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
+Pointer to an array of one or more 
+<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
+<b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database. 
 
 
 
 					
 
 
-#### - dwcbAutoDialEntries [in]
+### -param arg4 [in]
 
 Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 
 
-#### - lpAutoDialEntries [in]
+### -param arg5 [in]
 
-Pointer to an array of one or more 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
-<b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database. 
+Specifies the number of 
+<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
 
 
 

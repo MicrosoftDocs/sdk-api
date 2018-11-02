@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitiesreport.htm
 tech.root: medfound
 ms.assetid: CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IMFSensorActivitiesReport, IMFSensorActivitiesReport interface [Media Foundation], IMFSensorActivitiesReport interface [Media Foundation],described, mf.imfsensoractivitiesreport, mfidl/IMFSensorActivitiesReport
 ms.prod: windows
 ms.technology: windows-sdk

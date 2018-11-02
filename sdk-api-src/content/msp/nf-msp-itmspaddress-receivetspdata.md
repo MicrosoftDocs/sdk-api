@@ -4,10 +4,10 @@ title: ITMSPAddress::ReceiveTSPData
 author: windows-sdk-content
 description: The ReceiveTSPData method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
 old-location: tapi3\itmspaddress_receivetspdata.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

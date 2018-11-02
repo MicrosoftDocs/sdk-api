@@ -7,7 +7,7 @@ old-location: controls\PFNDPASTREAM.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpastream.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: PFNDPASTREAM, PFNDPASTREAM callback, PFNDPASTREAM callback function [Windows Controls], _win32_PFNDPASTREAM_Function, _win32_PFNDPASTREAM_Function_cpp, controls.PFNDPASTREAM, controls._win32_PFNDPASTREAM_Function, dpa_dsa/PFNDPASTREAM
 ms.prod: windows
 ms.technology: windows-sdk

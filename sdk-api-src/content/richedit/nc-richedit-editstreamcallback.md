@@ -7,7 +7,7 @@ old-location: controls\EditStreamCallback.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\editstreamcallback.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: EditStreamCallback, EditStreamCallback callback, EditStreamCallback callback function [Windows Controls], _win32_EditStreamCallback, _win32_EditStreamCallback_cpp, controls.EditStreamCallback, controls._win32_EditStreamCallback, richedit/EditStreamCallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dwm\dwmrendergesture.htm
 tech.root: dwm
 ms.assetid: 2daad062-dd7f-4a0b-a31e-134980f5bebd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DwmRenderGesture, DwmRenderGesture function [Desktop Window Manager], dwm.dwmrendergesture, dwmapi/DwmRenderGesture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Notifies Desktop Window Manager (DWM) that a touch contact has been recognized a
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The type of gesture, specified as one of the <a href="https://msdn.microsoft.com/3FBDDFC9-A3E7-43DC-B7C6-A23976861C28">GESTURE_TYPE</a> values.
 
 
 ### -param cContacts [in]
@@ -78,9 +78,4 @@ The pointer ID.
 ### -param pPoints [in]
 
 The points.
-
-
-#### - gt [in]
-
-The type of gesture, specified as one of the <a href="https://msdn.microsoft.com/3FBDDFC9-A3E7-43DC-B7C6-A23976861C28">GESTURE_TYPE</a> values.
 

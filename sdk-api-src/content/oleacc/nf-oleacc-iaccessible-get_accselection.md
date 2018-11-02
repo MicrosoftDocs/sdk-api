@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accselection.htm
 tech.root: WinAuto
 ms.assetid: 80df32de-a99f-4a5a-b354-f3e133f3e620
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accSelection method, IAccessible.get_accSelection, IAccessible::get_accSelection, VT_DISPATCH, VT_EMPTY, VT_I4, VT_UNKNOWN, _msaa_IAccessible_get_accSelection, get_accSelection, get_accSelection method [Windows Accessibility], get_accSelection method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accselection, oleacc/IAccessible::get_accSelection, winauto.iaccessible_iaccessible__get_accselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ One child object is selected, and the address of its <a href="https://msdn.micro
 </dl>
 </td>
 <td width="60%">
-Multiple child objects are selected, and the <b>punkVal</b> member contains the address of the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. The client queries this interface for the <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface, which it uses to enumerate the selected objects.
+Multiple child objects are selected, and the <b>punkVal</b> member contains the address of the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. The client queries this interface for the <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface, which it uses to enumerate the selected objects.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The object does not support this property.
 
 
 
-This method must support the <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+This method must support the <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
 
 This method returns either an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer or a child ID for the <i>pvarChildren</i> parameter. For more information about how to use the <b>IDispatch</b> interface pointer or child ID, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 

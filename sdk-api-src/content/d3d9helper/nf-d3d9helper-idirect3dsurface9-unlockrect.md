@@ -4,10 +4,10 @@ title: IDirect3DSurface9::UnlockRect
 author: windows-sdk-content
 description: Unlocks a rectangle on a surface.
 old-location: direct3d9\idirect3dsurface9__unlockrect.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__unlockrect.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirect3DSurface9 interface [Direct3D 9],UnlockRect method, IDirect3DSurface9.UnlockRect, IDirect3DSurface9::UnlockRect, UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9],IDirect3DSurface9 interface, d3d9helper/IDirect3DSurface9::UnlockRect, direct3d9.idirect3dsurface9__unlockrect, e6bd6fa0-ac07-76bd-8c15-84e5627e84a0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingactivity_traceloggingactivity.htm
 tech.root: tracelogging
 ms.assetid: 21A4BB42-1D78-48A9-A037-64A3508A9957
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity interface,TraceLoggingActivity method, TraceLoggingActivity method, TraceLoggingActivity method,TraceLoggingActivity interface, TraceLoggingActivity.TraceLoggingActivity, TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&), TraceLoggingActivity::TraceLoggingActivity, TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&), tracelogging.traceloggingactivity_traceloggingactivity, traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

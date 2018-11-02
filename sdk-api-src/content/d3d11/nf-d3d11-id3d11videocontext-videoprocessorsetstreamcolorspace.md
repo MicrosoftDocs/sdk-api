@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamcolorspace.htm
 tech.root: medfound
 ms.assetid: EFF6BF9B-CC96-4D57-A97A-B3E8457346B5
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamColorSpace method, ID3D11VideoContext.VideoProcessorSetStreamColorSpace, ID3D11VideoContext::VideoProcessorSetStreamColorSpace, VideoProcessorSetStreamColorSpace, VideoProcessorSetStreamColorSpace method [Media Foundation], VideoProcessorSetStreamColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamColorSpace, mf.id3d11videocontext_videoprocessorsetstreamcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

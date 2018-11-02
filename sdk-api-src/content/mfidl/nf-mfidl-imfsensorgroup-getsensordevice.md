@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsensordevice.htm
 tech.root: medfound
 ms.assetid: 78924C45-9612-4B39-B9E2-C8D2DCCBED79
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: GetSensorDevice, GetSensorDevice method [Media Foundation], GetSensorDevice method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDevice method, IMFSensorGroup.GetSensorDevice, IMFSensorGroup::GetSensorDevice, mf.imfsensorgroup_getsensordevice, mfidl/IMFSensorGroup::GetSensorDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

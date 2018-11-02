@@ -7,7 +7,7 @@ old-location: controls\GetThemePropertyOrigin.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetThemePropertyOrigin, GetThemePropertyOrigin function [Windows Controls], controls.GetThemePropertyOrigin, controls.inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin_cpp, uxtheme/GetThemePropertyOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,14 +86,7 @@ Type: <b>int</b>
 Value of type <b>int</b> that specifies the property to retrieve. You may use any of the property values from Vssym32.h. These values are described in the reference pages for the functions that use them. For instance, the <a href="https://msdn.microsoft.com/en-us/library/Bb759749(v=VS.85).aspx">GetThemeInt</a> function uses the TMT_BORDERSIZE value. See the <a href="https://msdn.microsoft.com/en-us/library/Bb773178(v=VS.85).aspx">Visual Styles Reference</a> for a list of functions.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - pOrigin [out]
+### -param arg1 [out]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759837(v=VS.85).aspx">PROPERTYORIGIN</a>*</b>
 

@@ -4,10 +4,10 @@ title: WPUSetEvent function
 author: windows-sdk-content
 description: The WPUSetEvent function sets the state of the specified event object to signaled. This call is safe for use within interrupt context.
 old-location: winsock\wpusetevent_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: d5caa926-1223-4917-85ba-4f79731e955a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, winsock.wpusetevent_2, ws2spi/WPUSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

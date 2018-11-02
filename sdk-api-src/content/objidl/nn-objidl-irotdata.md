@@ -7,7 +7,7 @@ old-location: com\irotdata.htm
 tech.root: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
 ms.prod: windows
 ms.technology: windows-sdk

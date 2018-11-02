@@ -4,10 +4,10 @@ title: WSCInstallProvider64_32 function
 author: windows-sdk-content
 description: Installs the specified transport service provider into the 32-bit and 64-bit system configuration databases on a 64-bit computer.
 old-location: winsock\wscinstallprovider64_32.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 50d3a5d1-18f2-439e-a16c-6f31becb1e65
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WSCInstallProvider64_32, WSCInstallProvider64_32 function [Winsock], winsock.wscinstallprovider64_32, ws2spi/WSCInstallProvider64_32
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetAutoScrollInfo.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setautoscrollinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TreeView_SetAutoScrollInfo, TreeView_SetAutoScrollInfo macro [Windows Controls], _shell_TreeView_SetAutoScrollInfo, _shell_TreeView_SetAutoScrollInfo_cpp, commctrl/TreeView_SetAutoScrollInfo, controls.TreeView_SetAutoScrollInfo, controls._shell_TreeView_SetAutoScrollInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

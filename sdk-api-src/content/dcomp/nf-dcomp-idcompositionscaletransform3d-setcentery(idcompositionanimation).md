@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterY(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the CenterY property of a 3D scale transform.
-old-location: directcomp\idcompositionscaletransform3d_setcentery_float.htm
+description: Animates the value of the CenterY property of a 3D scale transform.
+old-location: directcomp\idcompositionscaletransform3d_setcentery_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: A50A8309-08F7-4868-AB95-A825C60C7E9E
+ms.assetid: 3FF6E893-1764-4182-A6D9-3B71915CEA39
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform3D.SetCenterY, IDCompositionScaleTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterY, IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterY, directcomp.idcompositionscaletransform3d_setcentery_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform3D.SetCenterY, IDCompositionScaleTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterY, IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterY, directcomp.idcompositionscaletransform3d_setcentery_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the CenterY property of a 3D scale transform.   The CenterY property specifies the y-coordinate of the point about which scaling is performed. 
+Animates the value of the CenterY property of a 3D scale transform. The CenterY property specifies the y-coordinate of the point about which scaling is performed.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the CenterY property of a 3D scale transform.   The CenterY
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - centerY [in]
-
-Type: <b>float</b>
-
-The new y-coordinate of the center point.
+An animation object that determines how the value of the CenterY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>centerY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the CenterY property unless this method is called again. If the CenterY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the CenterY property was previously animated, this method removes the animation and sets the CenterY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

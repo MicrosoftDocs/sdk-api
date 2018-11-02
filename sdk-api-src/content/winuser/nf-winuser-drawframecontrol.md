@@ -7,7 +7,7 @@ old-location: gdi\drawframecontrol.htm
 tech.root: gdi
 ms.assetid: 3102007e-e9f7-46d8-ae10-cf156d2131f6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: DFCS_ADJUSTRECT, DFCS_BUTTON3STATE, DFCS_BUTTONCHECK, DFCS_BUTTONPUSH, DFCS_BUTTONRADIO, DFCS_BUTTONRADIOIMAGE, DFCS_BUTTONRADIOMASK, DFCS_CAPTIONCLOSE, DFCS_CAPTIONHELP, DFCS_CAPTIONMAX, DFCS_CAPTIONMIN, DFCS_CAPTIONRESTORE, DFCS_CHECKED, DFCS_FLAT, DFCS_HOT, DFCS_INACTIVE, DFCS_MENUARROW, DFCS_MENUARROWRIGHT, DFCS_MENUBULLET, DFCS_MENUCHECK, DFCS_MONO, DFCS_PUSHED, DFCS_SCROLLCOMBOBOX, DFCS_SCROLLDOWN, DFCS_SCROLLLEFT, DFCS_SCROLLRIGHT, DFCS_SCROLLSIZEGRIP, DFCS_SCROLLSIZEGRIPRIGHT, DFCS_SCROLLUP, DFCS_TRANSPARENT, DFC_BUTTON, DFC_CAPTION, DFC_MENU, DFC_POPUPMENU, DFC_SCROLL, DrawFrameControl, DrawFrameControl function [Windows GDI], _win32_DrawFrameControl, gdi.drawframecontrol, winuser/DrawFrameControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,39 +59,80 @@ The <b>DrawFrameControl</b> function draws a frame control of the specified type
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 A handle to the device context of the window in which to draw the control.
 
 
-#### - lprc [in]
+### -param arg2 [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the logical coordinates of the bounding rectangle for frame control.
 
 
-#### - uState [in]
+### -param arg3 [in]
+
+The type of frame control to draw. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DFC_BUTTON"></a><a id="dfc_button"></a><dl>
+<dt><b>DFC_BUTTON</b></dt>
+</dl>
+</td>
+<td width="60%">
+Standard button
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DFC_CAPTION"></a><a id="dfc_caption"></a><dl>
+<dt><b>DFC_CAPTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+Title bar
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DFC_MENU"></a><a id="dfc_menu"></a><dl>
+<dt><b>DFC_MENU</b></dt>
+</dl>
+</td>
+<td width="60%">
+Menu bar
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DFC_POPUPMENU"></a><a id="dfc_popupmenu"></a><dl>
+<dt><b>DFC_POPUPMENU</b></dt>
+</dl>
+</td>
+<td width="60%">
+Popup menu item.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DFC_SCROLL"></a><a id="dfc_scroll"></a><dl>
+<dt><b>DFC_SCROLL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Scroll bar
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param arg4 [in]
 
 The initial state of the frame control. If <i>uType</i> is DFC_BUTTON, <i>uState</i> can be one of the following values.
 
@@ -447,69 +488,6 @@ Button is pushed.
 </td>
 <td width="60%">
 The background remains untouched. This flag can only be combined with DFCS_MENUARROWUP or DFCS_MENUARROWDOWN.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - uType [in]
-
-The type of frame control to draw. This parameter can be one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DFC_BUTTON"></a><a id="dfc_button"></a><dl>
-<dt><b>DFC_BUTTON</b></dt>
-</dl>
-</td>
-<td width="60%">
-Standard button
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DFC_CAPTION"></a><a id="dfc_caption"></a><dl>
-<dt><b>DFC_CAPTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-Title bar
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DFC_MENU"></a><a id="dfc_menu"></a><dl>
-<dt><b>DFC_MENU</b></dt>
-</dl>
-</td>
-<td width="60%">
-Menu bar
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DFC_POPUPMENU"></a><a id="dfc_popupmenu"></a><dl>
-<dt><b>DFC_POPUPMENU</b></dt>
-</dl>
-</td>
-<td width="60%">
-Popup menu item.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DFC_SCROLL"></a><a id="dfc_scroll"></a><dl>
-<dt><b>DFC_SCROLL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Scroll bar
 
 </td>
 </tr>

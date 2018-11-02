@@ -4,10 +4,10 @@ title: AddConditionalAce function
 author: windows-sdk-content
 description: Adds a conditional access control entry (ACE) to the specified access control list (ACL).
 old-location: security\addconditionalace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 89f038be-d15c-4c0b-8145-ba531bdf87ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: ACCESS_ALLOWED_CALLBACK_ACE_TYPE, ACCESS_DENIED_CALLBACK_ACE_TYPE, AddConditionalAce, AddConditionalAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SYSTEM_AUDIT_CALLBACK_ACE_TYPE, security.addconditionalace, winbase/AddConditionalAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

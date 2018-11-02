@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
 tech.root: termserv
 ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer.get_EventsEnabled, IRemoteDesktopClientTouchPointer::EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

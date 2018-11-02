@@ -7,7 +7,7 @@ old-location: rras\rasgetnapstatus.htm
 tech.root: rras
 ms.assetid: 7f36f93f-7e07-4ad8-923f-59146bda4687
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

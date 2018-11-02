@@ -4,10 +4,10 @@ title: IAzScopes::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzScope object at the specified index into the IAzScopes collection.
 old-location: security\iazscopes_item.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 857fbe67-9b47-4641-9228-fe0e83ef6d4d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AzScopes object [Security],Item property, IAzScopes interface [Security],Item property, IAzScopes.Item, IAzScopes.get_Item, IAzScopes::Item, IAzScopes::get_Item, Item property [Security], Item property [Security],AzScopes object, Item property [Security],IAzScopes interface, azroles/IAzScopes::Item, azroles/IAzScopes::get_Item, get_Item, security.iazscopes_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

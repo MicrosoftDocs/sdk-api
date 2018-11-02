@@ -7,7 +7,7 @@ old-location: security\credread.htm
 tech.root: secauthn
 ms.assetid: 3222de7b-5290-4e82-a382-b2db6afc78cc
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred_credread, security.credread, wincred/CredRead, wincred/CredReadA, wincred/CredReadW
 ms.prod: windows-hardware
 ms.technology: windows-devices

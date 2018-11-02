@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromArray.htm
 tech.root: WinAuto
 ms.assetid: ec9ad1a1-72c7-4fc6-8812-577b44b4c5eb
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CreateAndConditionFromArray, CreateAndConditionFromArray method [Windows Accessibility], CreateAndConditionFromArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndConditionFromArray method, IUIAutomation.CreateAndConditionFromArray, IUIAutomation::CreateAndConditionFromArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromArray, uiauto_IUIAutomation_CreateAndConditionFromArray, uiautomationclient/IUIAutomation::CreateAndConditionFromArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Creates a condition that selects elements based on multiple conditions, all of w
 
 ### -param conditions [in]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
 A pointer to the conditions to be combined.
 

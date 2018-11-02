@@ -7,7 +7,7 @@ old-location: fax\_mfax_sendtofaxrecipient.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: SendToFaxRecipient, SendToFaxRecipient function [Fax Service], _mfax_sendtofaxrecipient, fax._mfax_sendtofaxrecipient, fxsutility/SendToFaxRecipient
 ms.prod: windows-hardware
 ms.technology: windows-devices

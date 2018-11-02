@@ -7,7 +7,7 @@ old-location: winrt\ivideoframenative_getdevice.htm
 tech.root: WinRT
 ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetDevice, GetDevice method [Windows Runtime], GetDevice method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetDevice method, IVideoFrameNative.GetDevice, IVideoFrameNative.core, IVideoFrameNative::GetDevice, IVideoFrameNative::core, windows/IVideoFrameNative::GetDevice, winrt.ivideoframenative_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

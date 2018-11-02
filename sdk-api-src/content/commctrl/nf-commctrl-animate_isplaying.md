@@ -7,7 +7,7 @@ old-location: controls\Animate_IsPlaying.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_isplaying.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: Animate_IsPlaying, Animate_IsPlaying macro [Windows Controls], _shell_Animate_IsPlaying, _shell_Animate_IsPlaying_cpp, commctrl/Animate_IsPlaying, controls.Animate_IsPlaying, controls._shell_Animate_IsPlaying
 ms.prod: windows-hardware
 ms.technology: windows-devices

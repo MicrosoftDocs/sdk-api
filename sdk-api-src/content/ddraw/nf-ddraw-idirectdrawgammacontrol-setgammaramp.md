@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawgammacontrol_setgammaramp.htm
 tech.root: directdraw
 ms.assetid: 3bde7ba7-8498-42e5-bd5a-625e162fc1db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method, IDirectDrawGammaControl.SetGammaRamp, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,24 +59,12 @@ Sets the red, green, and blue gamma ramps for the primary surface.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 Flag that indicates whether gamma calibration is required. Set this parameter to DDSGR_CALIBRATE to request that the calibrator adjust the gamma ramp according to the physical properties of the display, which makes the result identical on all computers. If calibration is not needed, set this parameter to 0.
 
 
-#### - lpRampData [in]
+### -param arg2 [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/ec4cb111-3b12-4470-b1e3-e4379f7f2632">DDGAMMARAMP</a> structure that contains the new red, green, and blue gamma ramp entries. Each array maps color values in the frame buffer to the color values to be passed to the digital-to-analog converter (DAC).
 

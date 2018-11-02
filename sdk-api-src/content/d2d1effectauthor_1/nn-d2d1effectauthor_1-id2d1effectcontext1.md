@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectcontext1.htm
 tech.root: direct2d
 ms.assetid: F6B92F9F-D5F3-4DA9-AEC4-826856E184AF
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1EffectContext1, ID2D1EffectContext1 interface [Direct2D], ID2D1EffectContext1 interface [Direct2D],described, d2d1effectauthor_1/ID2D1EffectContext1, direct2d.id2d1effectcontext1
 ms.prod: windows
 ms.technology: windows-sdk

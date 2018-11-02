@@ -4,10 +4,10 @@ title: IDirect3DDevice9::SetTransform
 author: windows-sdk-content
 description: Sets a single device transformation-related state.
 old-location: direct3d9\idirect3ddevice9__settransform.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settransform.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 25042e52-3212-5250-0bac-ab23f76aaeb1, IDirect3DDevice9 interface [Direct3D 9],SetTransform method, IDirect3DDevice9.SetTransform, IDirect3DDevice9::SetTransform, SetTransform, SetTransform method [Direct3D 9], SetTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTransform, direct3d9.idirect3ddevice9__settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

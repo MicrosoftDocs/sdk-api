@@ -7,7 +7,7 @@ old-location: controls\TreeView_EnsureVisible.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Controls], _win32_TreeView_EnsureVisible, _win32_TreeView_EnsureVisible_cpp, commctrl/TreeView_EnsureVisible, controls.TreeView_EnsureVisible, controls._win32_TreeView_EnsureVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

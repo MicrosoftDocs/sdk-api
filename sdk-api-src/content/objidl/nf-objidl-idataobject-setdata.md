@@ -7,7 +7,7 @@ old-location: com\idataobject_setdata.htm
 tech.root: com
 ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IDataObject interface [COM],SetData method, IDataObject.SetData, IDataObject::SetData, SetData, SetData method [COM], SetData method [COM],IDataObject interface, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

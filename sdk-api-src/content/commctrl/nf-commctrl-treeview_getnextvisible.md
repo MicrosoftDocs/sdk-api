@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetNextVisible.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextvisible.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TreeView_GetNextVisible, TreeView_GetNextVisible macro [Windows Controls], _win32_TreeView_GetNextVisible, _win32_TreeView_GetNextVisible_cpp, commctrl/TreeView_GetNextVisible, controls.TreeView_GetNextVisible, controls._win32_TreeView_GetNextVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

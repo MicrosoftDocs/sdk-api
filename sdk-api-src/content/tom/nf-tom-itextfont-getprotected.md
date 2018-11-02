@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetProtected.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getprotected.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetProtected, GetProtected method [Windows Controls], GetProtected method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetProtected method, ITextFont.GetProtected, ITextFont::GetProtected, _win32_ITextFont_GetProtected, _win32_ITextFont_GetProtected_cpp, controls.ITextFont_GetProtected, controls._win32_ITextFont_GetProtected, tom/ITextFont::GetProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices

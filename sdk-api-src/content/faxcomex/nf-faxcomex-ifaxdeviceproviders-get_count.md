@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1th0.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxDeviceProviders interface, IFaxDeviceProviders interface [Fax Service],Count property, IFaxDeviceProviders.Count, IFaxDeviceProviders.get_Count, IFaxDeviceProviders::Count, IFaxDeviceProviders::get_Count, _mfax_faxdeviceproviders.count, fax._mfax_faxdeviceproviders_count, fax._mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp, faxcomex/IFaxDeviceProviders::Count, faxcomex/IFaxDeviceProviders::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

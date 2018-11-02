@@ -7,7 +7,7 @@ old-location: perf\perfdeletecounters.htm
 tech.root: perfctrs
 ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:powerbase
 ms.assetid: afdd1508-50b9-343f-aa45-140aee081e89
 ms.author: windowssdkdev
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzBizRuleParameters::AddParameters
 author: windows-sdk-content
 description: Adds parameters to the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_addparameters_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: ebf336a9-a64a-4ded-b508-56491ebf48e2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AddParameters, AddParameters method [Security], AddParameters method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],AddParameters method, IAzBizRuleParameters.AddParameters, IAzBizRuleParameters::AddParameters, azroles/IAzBizRuleParameters::AddParameters, security.iazbizruleparameters_addparameters_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

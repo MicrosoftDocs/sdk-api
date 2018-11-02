@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_menucall.htm
 tech.root: DirectShow
 ms.assetid: b0e27b7a-cf14-4b4c-849e-0fa7f6b1c0ed
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IDvdControl interface [DirectShow],MenuCall method, IDvdControl.MenuCall, IDvdControl::MenuCall, IDvdControlMenuCall, MenuCall, MenuCall method [DirectShow], MenuCall method [DirectShow],IDvdControl interface, dshow.idvdcontrol_menucall, strmif/IDvdControl::MenuCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

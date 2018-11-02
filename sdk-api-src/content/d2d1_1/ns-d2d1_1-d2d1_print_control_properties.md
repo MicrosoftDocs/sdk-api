@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_print_control_properties.htm
 tech.root: direct2d
 ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D], d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES, direct2d.d2d1_print_control_properties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCachedSupported
 tech.root: WinAuto
 ms.assetid: 7d6874c2-adf9-441a-931e-15b65b7a427c
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetCachedSupportedViews, GetCachedSupportedViews method [Windows Accessibility], GetCachedSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCachedSupportedViews method, IUIAutomationMultipleViewPattern.GetCachedSupportedViews, IUIAutomationMultipleViewPattern::GetCachedSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves a collection of control-specific view identifiers from the cache.
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives a pointer to an array of view identifiers.
 

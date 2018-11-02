@@ -7,7 +7,7 @@ old-location: gdi\bitblt.htm
 tech.root: gdi
 ms.assetid: d6a181e4-b6cf-44b7-bf47-4900272d6d72
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: BLACKNESS, BitBlt, BitBlt function [Windows GDI], CAPTUREBLT, DSTINVERT, MERGECOPY, MERGEPAINT, NOMIRRORBITMAP, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_BitBlt, gdi.bitblt, wingdi/BitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

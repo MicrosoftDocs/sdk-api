@@ -7,7 +7,7 @@ old-location: com\olecreatefromfile.htm
 tech.root: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,44 +60,44 @@ Creates an embedded object from the contents of a named file.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
-
-
-### -param arg2
-
-TBD
+This parameter is reserved and must be CLSID_NULL.
 
 
-### -param arg3
+### -param arg2 [in]
 
-TBD
-
-
-### -param arg4
-
-TBD
+Pointer to a string specifying the full path of the file from which the object should be initialized.
 
 
-### -param arg5
+### -param arg3 [in]
 
-TBD
-
-
-### -param arg6
-
-TBD
+Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface ID of <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>).
 
 
-### -param arg7
+### -param arg4 [in]
 
-TBD
+Value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>lpFormatEtc</i> parameter.
 
 
-### -param arg8
+### -param arg5 [in]
 
-TBD
+ Depending on which of the <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> flags is used as the value of <i>renderopt</i>, pointer to one of the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumeration values. Refer also to the <b>OLERENDER</b> enumeration for restrictions.
+
+
+### -param arg6 [in]
+
+Pointer to an instance of <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
+
+
+### -param arg7 [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object. This parameter cannot be <b>NULL</b>.
+
+
+### -param arg8 [out]
+
+Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
 
 
 ### -param arg9
@@ -105,46 +105,6 @@ TBD
 TBD
 
 
-
-
-#### - [in]
-
-This parameter is reserved and must be CLSID_NULL.
-
-
-#### - lpFormatEtc [in]
-
- Depending on which of the <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> flags is used as the value of <i>renderopt</i>, pointer to one of the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumeration values. Refer also to the <b>OLERENDER</b> enumeration for restrictions.
-
-
-#### - lpszFileName [in]
-
-Pointer to a string specifying the full path of the file from which the object should be initialized.
-
-
-#### - pClientSite [in]
-
-Pointer to an instance of <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
-
-
-#### - pStg [in]
-
-Pointer to the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object. This parameter cannot be <b>NULL</b>.
-
-
-#### - ppvObj [out]
-
-Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
-
-
-#### - renderopt [in]
-
-Value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>lpFormatEtc</i> parameter.
-
-
-#### - riid [in]
-
-Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface ID of <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>).
 
 
 ## -returns

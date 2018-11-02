@@ -7,7 +7,7 @@ old-location: mf\imftransform.htm
 tech.root: medfound
 ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
 ms.prod: windows
 ms.technology: windows-sdk

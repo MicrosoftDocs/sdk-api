@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleX(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the ScaleX property of a 3D scale transform.
-old-location: directcomp\idcompositionscaletransform3d_setscalex_float.htm
+description: Animates the value of the ScaleX property of a scale transform.
+old-location: directcomp\idcompositionscaletransform3d_setscalex_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 6461C857-AC6E-4F27-9DE2-F1B3E00846D8
+ms.assetid: DAA3F425-344D-4EAE-853A-D4AE2375ADDB
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleX method, IDCompositionScaleTransform3D.SetScaleX, IDCompositionScaleTransform3D.SetScaleX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleX, IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleX(float), SetScaleX, SetScaleX method [DirectComposition], SetScaleX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleX method, IDCompositionScaleTransform3D.SetScaleX, IDCompositionScaleTransform3D.SetScaleX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleX, IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation*), SetScaleX, SetScaleX method [DirectComposition], SetScaleX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the ScaleX property of a 3D scale transform. The ScaleX property specifies the scale factor along the x-axis.
+Animates the value of the ScaleX property of a scale transform. The ScaleX property specifies the scale factor along the x-axis.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the ScaleX property of a 3D scale transform. The ScaleX pro
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - scaleX [in]
-
-Type: <b>float</b>
-
-The new x-axis scale factor.
+An animation object that determines how the value of the ScaleX property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>scaleX</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the ScaleX property unless this method is called again. If the ScaleX property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the ScaleX property was previously animated, this method removes the animation and sets the ScaleX property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

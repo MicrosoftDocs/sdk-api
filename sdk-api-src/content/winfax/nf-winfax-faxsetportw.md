@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5sac.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetPortW, _mfax_faxsetport, fax._mfax_faxsetport, winfax/FaxSetPort, winfax/FaxSetPortA, winfax/FaxSetPortW
 ms.prod: windows-hardware
 ms.technology: windows-devices

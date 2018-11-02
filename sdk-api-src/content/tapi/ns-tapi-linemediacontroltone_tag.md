@@ -4,10 +4,10 @@ title: linemediacontroltone_tag
 author: windows-sdk-content
 description: The LINEMEDIACONTROLTONE structure describes a media action to be executed when a tone has been detected. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontroltone_str.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 0513d580-aaf1-412c-adbf-9342b74025ee
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPLINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE structure [TAPI 2.2], LPLINEMEDIACONTROLTONE, LPLINEMEDIACONTROLTONE structure pointer [TAPI 2.2], _tapi2_linemediacontroltone_str, linemediacontroltone_tag, tapi/LINEMEDIACONTROLTONE, tapi/LPLINEMEDIACONTROLTONE, tapi2.linemediacontroltone_str"
 ms.prod: windows
 ms.technology: windows-sdk

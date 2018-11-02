@@ -4,10 +4,10 @@ title: CMSPAddress::IsValidSetOfMediaTypes
 author: windows-sdk-content
 description: The IsValidSetOfMediaTypes method checks to see if the specified media type is nonzero and is in the specified mask.
 old-location: tapi3\cmspaddress_isvalidsetofmediatypes.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: 4dc47d60-184d-4601-8c58-08ae8b747223
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],IsValidSetOfMediaTypes method, CMSPAddress.IsValidSetOfMediaTypes, CMSPAddress::IsValidSetOfMediaTypes, IsValidSetOfMediaTypes, IsValidSetOfMediaTypes method [TAPI 2.2], IsValidSetOfMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_isvalidsetofmediatypes, mspaddr/CMSPAddress::IsValidSetOfMediaTypes, tapi3.cmspaddress_isvalidsetofmediatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

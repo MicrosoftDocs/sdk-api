@@ -7,7 +7,7 @@ old-location: wcs\getcountcolorprofileelements.htm
 tech.root: WCS
 ms.assetid: f8df63ff-9c8c-4131-b38d-ee39c9160a06
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: GetCountColorProfileElements, GetCountColorProfileElements function [Windows Color System], _color_GetCountColorProfileElements, icm/GetCountColorProfileElements, wcs.getcountcolorprofileelements
 ms.prod: windows-hardware
 ms.technology: windows-devices

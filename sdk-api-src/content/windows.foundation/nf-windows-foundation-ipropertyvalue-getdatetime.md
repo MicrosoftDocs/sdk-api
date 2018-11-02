@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getdatetime.htm
 tech.root: WinRT
 ms.assetid: 3ffe8778-ce0e-46bb-9387-48c20d5dddfc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetDateTime, GetDateTime method [Windows Runtime], GetDateTime method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTime method, IPropertyValue.GetDateTime, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTime, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTime, winrt.ipropertyvalue_getdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engsafesemaphore.htm
 tech.root: display
 ms.assetid: 225ca482-6a45-4726-b51b-57fa76b8c5b0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: ENGSAFESEMAPHORE, ENGSAFESEMAPHORE structure [Display Devices], _ENGSAFESEMAPHORE, display.engsafesemaphore, grstrcts_63b165c2-5032-4dcb-9039-562a38f24cc4.xml, winddi/ENGSAFESEMAPHORE
 ms.prod: windows
 ms.technology: windows-sdk

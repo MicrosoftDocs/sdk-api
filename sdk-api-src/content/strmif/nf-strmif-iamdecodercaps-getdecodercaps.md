@@ -7,7 +7,7 @@ old-location: dshow\iamdecodercaps_getdecodercaps.htm
 tech.root: DirectShow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IAMDecoderCaps interface, IAMDecoderCaps interface [DirectShow],GetDecoderCaps method, IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

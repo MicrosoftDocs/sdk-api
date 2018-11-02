@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateextensionssetup.htm
 tech.root: seccrypto
 ms.assetid: e7ad32a5-d7df-407f-8efe-c9931610c2d2
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerPolicy object, EnumerateExtensionsSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsSetup method, ICertServerPolicy.EnumerateExtensionsSetup, ICertServerPolicy::EnumerateExtensionsSetup, _certsrv_icertserverpolicy_enumerateextensionssetup, certif/ICertServerPolicy::EnumerateExtensionsSetup, security.icertserverpolicy_enumerateextensionssetup
 ms.prod: windows-hardware
 ms.technology: windows-devices

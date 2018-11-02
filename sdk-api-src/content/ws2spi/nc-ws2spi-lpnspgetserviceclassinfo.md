@@ -4,10 +4,10 @@ title: LPNSPGETSERVICECLASSINFO
 author: windows-sdk-content
 description: Retrieves all the pertinent class information (schema) pertaining to the namespace provider.
 old-location: winsock\nspgetserviceclassinfo_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: babe1c96-9077-4d91-a52a-839c89d7a83b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetThreadDescription function
 author: windows-sdk-content
 description: Assigns a description to a thread.
 old-location: base\setthreaddescription.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

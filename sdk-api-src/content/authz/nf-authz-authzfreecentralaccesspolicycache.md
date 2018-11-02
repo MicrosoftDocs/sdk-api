@@ -4,10 +4,10 @@ title: AuthzFreeCentralAccessPolicyCache function
 author: windows-sdk-content
 description: Decreases the CAP cache reference count by one so that the CAP cache can be deallocated.
 old-location: security\authzfreecentralaccesspolicycache.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0F972A95-3CD7-4C86-99DE-5B3D50CE9A34
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AuthzFreeCentralAccessPolicyCache, AuthzFreeCentralAccessPolicyCache function [Security], authz/AuthzFreeCentralAccessPolicyCache, security.authzfreecentralaccesspolicycache
 ms.prod: windows-hardware
 ms.technology: windows-devices

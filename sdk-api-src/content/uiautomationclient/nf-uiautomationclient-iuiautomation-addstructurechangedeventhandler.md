@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_AddStructureChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 671049a4-50cf-49df-9028-7af38629b7a9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: AddStructureChangedEventHandler, AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddStructureChangedEventHandler method, IUIAutomation.AddStructureChangedEventHandler, IUIAutomation::AddStructureChangedEventHandler, uiauto.uiauto_IUIAutomation_AddStructureChangedEventHandler, uiauto_IUIAutomation_AddStructureChangedEventHandler, uiautomationclient/IUIAutomation::AddStructureChangedEventHandler, winauto.uiauto_IUIAutomation_AddStructureChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -83,13 +85,6 @@ Type: <b><a href="https://msdn.microsoft.com/a28ad163-d931-432a-a786-646a10baaf8
 
 A pointer to the object that handles the structure-changed event.
 
-
-
-#### - scope [in]
-
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

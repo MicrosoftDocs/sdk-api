@@ -4,10 +4,10 @@ title: "_CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"
 author: windows-sdk-content
 description: Specifies the fully qualified binary name.
 old-location: security\claim_security_attribute_fqbn_value.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 1FD9A519-40EA-4780-90F5-C9DF4ADAE72C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, security.claim_security_attribute_fqbn_value, winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, winnt/PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_createstroke.htm
 tech.root: tablet
 ms.assetid: f7c6f177-3d89-4f27-b2c0-937b08591305
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],CreateStroke method, IStrokeBuilder.CreateStroke, IStrokeBuilder::CreateStroke, f7c6f177-3d89-4f27-b2c0-937b08591305, rtscom/IStrokeBuilder::CreateStroke, tablet.istrokebuilder_createstroke
 ms.prod: windows-hardware
 ms.technology: windows-devices

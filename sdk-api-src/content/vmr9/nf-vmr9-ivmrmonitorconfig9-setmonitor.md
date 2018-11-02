@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig9_setmonitor.htm
 tech.root: DirectShow
 ms.assetid: 21b0db95-3b70-4d9a-b533-393e89e106ae
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetMonitor method, IVMRMonitorConfig9.SetMonitor, IVMRMonitorConfig9::SetMonitor, IVMRMonitorConfig9SetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig9 interface, dshow.ivmrmonitorconfig9_setmonitor, vmr9/IVMRMonitorConfig9::SetMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentOptimizeForVisualConten
 tech.root: WinAuto
 ms.assetid: A501BC99-A387-4997-913D-7BEDE8C1E6B3
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CurrentOptimizeForVisualContent property [Windows Accessibility], CurrentOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentOptimizeForVisualContent property, IUIAutomationElement2.CurrentOptimizeForVisualContent, IUIAutomationElement2.get_CurrentOptimizeForVisualContent, IUIAutomationElement2::CurrentOptimizeForVisualContent, IUIAutomationElement2::get_CurrentOptimizeForVisualContent, get_CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CurrentOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

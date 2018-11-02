@@ -4,10 +4,10 @@ title: IDirect3DDevice9::SetLight
 author: windows-sdk-content
 description: Assigns a set of lighting properties for this device.
 old-location: direct3d9\idirect3ddevice9__setlight.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Zero-based index of the set of lighting properties to set. If a set of lighting properties exists at this index, it is overwritten by the new properties specified in pLight. 
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - pLight [in]
+### -param arg1 [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLIGHT9</a>*</b>
 

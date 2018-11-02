@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetWizButtons.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setwizbuttons.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetWizButtons, PropSheet_SetWizButtons macro [Windows Controls], _win32_PropSheet_SetWizButtons, _win32_PropSheet_SetWizButtons_cpp, controls.PropSheet_SetWizButtons, controls._win32_PropSheet_SetWizButtons, prsht/PropSheet_SetWizButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices

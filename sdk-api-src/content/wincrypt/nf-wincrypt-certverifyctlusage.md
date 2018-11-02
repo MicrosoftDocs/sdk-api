@@ -7,7 +7,7 @@ old-location: security\certverifyctlusage.htm
 tech.root: seccrypto
 ms.assetid: d87d8157-8e52-4198-bfd4-46d83d72eb13
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto2_certverifyctlusage, security.certverifyctlusage, wincrypt/CertVerifyCTLUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

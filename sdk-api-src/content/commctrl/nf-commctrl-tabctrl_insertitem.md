@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_InsertItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TabCtrl_InsertItem, TabCtrl_InsertItem macro [Windows Controls], _win32_TabCtrl_InsertItem, _win32_TabCtrl_InsertItem_cpp, commctrl/TabCtrl_InsertItem, controls.TabCtrl_InsertItem, controls._win32_TabCtrl_InsertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

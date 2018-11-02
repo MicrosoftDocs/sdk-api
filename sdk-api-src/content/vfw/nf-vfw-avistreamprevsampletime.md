@@ -7,7 +7,7 @@ old-location: multimedia\avistreamprevsampletime.htm
 tech.root: Multimedia
 ms.assetid: b116e33f-de51-4251-83be-96afceb99a69
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: AVIStreamPrevSampleTime, AVIStreamPrevSampleTime macro [Windows Multimedia], _win32_AVIStreamPrevSampleTime, multimedia.avistreamprevsampletime, vfw/AVIStreamPrevSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

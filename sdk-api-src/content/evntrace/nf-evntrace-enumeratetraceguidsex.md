@@ -7,7 +7,7 @@ old-location: etw\enumeratetraceguidsex.htm
 tech.root: etw
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.enumeratetraceguidsex, etw.enumeratetraceguidsex, evntrace/EnumerateTraceGuidsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

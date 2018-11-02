@@ -7,7 +7,7 @@ old-location: rras\rasretrievebuffer.htm
 tech.root: rras
 ms.assetid: 5dc8a034-f1cb-47c5-8d60-06f314a85f11
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: PFNRASRETRIEVEBUFFER, PFNRASRETRIEVEBUFFER callback, RasRetrieveBuffer, RasRetrieveBuffer callback function [RAS], _ras_rasretrievebuffer, ras/RasRetrieveBuffer, rras.rasretrievebuffer
 ms.prod: windows
 ms.technology: windows-sdk

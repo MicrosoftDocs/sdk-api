@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_lowquotaw
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1lkb.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],LowQuotaWaterMark property, IFaxIncomingArchive.LowQuotaWaterMark, IFaxIncomingArchive.get_LowQuotaWaterMark, IFaxIncomingArchive.put_LowQuotaWaterMark, IFaxIncomingArchive::LowQuotaWaterMark, IFaxIncomingArchive::get_LowQuotaWaterMark, IFaxIncomingArchive::put_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.lowquotawatermark, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_lowquotawatermark_cpp, fax._mfax_faxincomingarchive_lowquotawatermark, faxcomex/IFaxIncomingArchive::LowQuotaWaterMark, faxcomex/IFaxIncomingArchive::get_LowQuotaWaterMark, faxcomex/IFaxIncomingArchive::put_LowQuotaWaterMark, put_LowQuotaWaterMark
 ms.prod: windows-hardware
 ms.technology: windows-devices

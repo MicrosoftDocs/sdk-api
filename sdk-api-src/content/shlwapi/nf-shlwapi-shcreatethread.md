@@ -7,7 +7,7 @@ old-location: shell\SHCreateThread.htm
 tech.root: shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

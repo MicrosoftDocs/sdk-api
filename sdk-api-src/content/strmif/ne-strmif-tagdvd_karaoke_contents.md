@@ -7,7 +7,7 @@ old-location: dshow\dvd_karaoke_contents.htm
 tech.root: DirectShow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS enumeration [DirectShow], DVD_KARAOKE_CONTENTSEnumeration, DVD_Karaoke_GuideMelody1, DVD_Karaoke_GuideMelody2, DVD_Karaoke_GuideMelodyA, DVD_Karaoke_GuideMelodyB, DVD_Karaoke_GuideVocal1, DVD_Karaoke_GuideVocal2, DVD_Karaoke_SoundEffectA, DVD_Karaoke_SoundEffectB, dshow.dvd_karaoke_contents, strmif/DVD_KARAOKE_CONTENTS, strmif/DVD_Karaoke_GuideMelody1, strmif/DVD_Karaoke_GuideMelody2, strmif/DVD_Karaoke_GuideMelodyA, strmif/DVD_Karaoke_GuideMelodyB, strmif/DVD_Karaoke_GuideVocal1, strmif/DVD_Karaoke_GuideVocal2, strmif/DVD_Karaoke_SoundEffectA, strmif/DVD_Karaoke_SoundEffectB, tagDVD_KARAOKE_CONTENTS
 ms.prod: windows
 ms.technology: windows-sdk

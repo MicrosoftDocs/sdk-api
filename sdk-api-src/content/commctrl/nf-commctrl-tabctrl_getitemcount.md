@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetItemCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemcount.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TabCtrl_GetItemCount, TabCtrl_GetItemCount macro [Windows Controls], _win32_TabCtrl_GetItemCount, _win32_TabCtrl_GetItemCount_cpp, commctrl/TabCtrl_GetItemCount, controls.TabCtrl_GetItemCount, controls._win32_TabCtrl_GetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

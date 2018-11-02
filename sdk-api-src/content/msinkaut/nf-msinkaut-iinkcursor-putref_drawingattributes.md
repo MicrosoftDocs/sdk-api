@@ -7,7 +7,7 @@ old-location: tablet\iinkcursor_drawingattributes.htm
 tech.root: tablet
 ms.assetid: de8b2473-092d-4ff9-adbc-3ba378b035e2
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],DrawingAttributes property, IInkCursor.DrawingAttributes, IInkCursor.get_DrawingAttributes, IInkCursor.putref_DrawingAttributes, IInkCursor::DrawingAttributes, IInkCursor::get_DrawingAttributes, IInkCursor::putref_DrawingAttributes, de8b2473-092d-4ff9-adbc-3ba378b035e2, msinkaut/IInkCursor::DrawingAttributes, msinkaut/IInkCursor::get_DrawingAttributes, msinkaut/IInkCursor::putref_DrawingAttributes, putref_DrawingAttributes, tablet.iinkcursor_drawingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

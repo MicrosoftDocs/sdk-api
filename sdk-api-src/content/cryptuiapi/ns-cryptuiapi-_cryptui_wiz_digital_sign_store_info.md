@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_digital_sign_store_info.htm
 tech.root: seccrypto
 ms.assetid: d3ffbf1c-e8c2-44ab-84d2-d32350d04407
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, security.cryptui_wiz_digital_sign_store_info"
 ms.prod: windows
 ms.technology: windows-sdk

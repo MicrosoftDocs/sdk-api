@@ -7,7 +7,7 @@ old-location: tablet\iinkrectangle.htm
 tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle interface [Tablet PC],described, msinkaut/IInkRectangle, tablet.iinkrectangle
 ms.prod: windows
 ms.technology: windows-sdk

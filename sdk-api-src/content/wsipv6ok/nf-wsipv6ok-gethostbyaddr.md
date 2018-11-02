@@ -4,10 +4,10 @@ title: gethostbyaddr macro
 author: windows-sdk-content
 description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
 old-location: winsock\gethostbyaddr_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.prod: windows-hardware
 ms.technology: windows-devices

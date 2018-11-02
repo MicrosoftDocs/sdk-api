@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolmanager_notifyservicestatechange.htm
 tech.root: termserv
 ms.assetid: 303a53b3-b297-486c-9422-706ec60441f2
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWTSProtocolManager.NotifyServiceStateChange, IWTSProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifyservicestatechange, wtsprotocol/IWTSProtocolManager::NotifyServiceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

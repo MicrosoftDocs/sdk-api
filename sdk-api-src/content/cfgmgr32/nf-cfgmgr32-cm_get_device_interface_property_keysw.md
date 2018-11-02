@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_property_keys.htm
 tech.root: devinst
 ms.assetid: 0C0FE652-57DE-45DE-B1F2-84EB1BD14285
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Get_Device_Interface_Property_Keys, CM_Get_Device_Interface_Property_Keys function [Device and Driver Installation], CM_Get_Device_Interface_Property_KeysW, cfgmgr32/CM_Get_Device_Interface_Property_Keys, cfgmgr32/CM_Get_Device_Interface_Property_KeysW, devinst.cm_get_device_interface_property_keys
 ms.prod: windows-hardware
 ms.technology: windows-devices

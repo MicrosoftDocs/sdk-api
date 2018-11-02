@@ -7,7 +7,7 @@ old-location: com\ipipebyte_pull.htm
 tech.root: com
 ms.assetid: 07d4d4cd-de41-41bc-af71-ff12affcbbbe
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::Pull, Pull, Pull method [COM], Pull method [COM],IPipeByte interface, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices

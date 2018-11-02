@@ -7,7 +7,7 @@ old-location: rras\rasinvokeeapui.htm
 tech.root: rras
 ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,50 +59,28 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-### -param arg4
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Handle to the connection returned by 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>.
 
 
-#### - dwSubEntry [in]
+### -param arg2 [in]
 
 Specifies the subentry returned in the callback.
 
 
-#### - hwnd [in]
-
-Handle to the parent window to use when displaying the EAP user interface.
-
-
-#### - lpExtensions [in]
+### -param arg3 [in]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/533c9ab4-69d0-492d-81c6-2c07ca219fc7">RASDIALEXTENSIONS</a> structure. This structure should be the same as that passed to 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> when restarting from a paused state. Ensure that the <b>dwSize</b> member of the 
 <b>RASDIALEXTENSIONS</b> structure specifies the size of the structure. Obtain the size using sizeof(<b>RASDIALEXTENSIONS</b>). This parameter cannot be <b>NULL</b>.
+
+
+### -param arg4 [in]
+
+Handle to the parent window to use when displaying the EAP user interface.
 
 
 ## -returns

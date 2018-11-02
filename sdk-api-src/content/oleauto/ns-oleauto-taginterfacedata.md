@@ -7,7 +7,7 @@ old-location: automat\interfacedata.htm
 tech.root: automat
 ms.assetid: 3eafe5ba-45d9-4b0d-b3f8-68f5e99df5bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPINTERFACEDATA, INTERFACEDATA, INTERFACEDATA structure [Automation], LPINTERFACEDATA, LPINTERFACEDATA structure pointer [Automation], _oa96_INTERFACEDATA, automat.interfacedata, oleauto/INTERFACEDATA, oleauto/LPINTERFACEDATA, tagINTERFACEDATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_GetChildren.htm
 tech.root: WinAuto
 ms.assetid: 2b68a7eb-8ff5-4e8c-830b-e180b2c08be4
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetChildren method, ITextRangeProvider.GetChildren, ITextRangeProvider::GetChildren, uiauto.uiauto_ITextRangeProvider_GetChildren, uiauto_ITextRangeProvider_GetChildren, uiautomationcore/ITextRangeProvider::GetChildren, winauto.uiauto_ITextRangeProvider_GetChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Retrieves a collection of all embedded objects that fall within the text range.
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
 
 Receives the address of an array of pointers to the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> 
                 interfaces of all child objects that fall within the range. This parameter is passed uninitialized.

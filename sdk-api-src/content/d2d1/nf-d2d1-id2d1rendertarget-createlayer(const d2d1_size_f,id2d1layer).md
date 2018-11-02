@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateLayer_ptr_D2D_SIZE_F_ptr_ptr_ID2D
 tech.root: direct2d
 ms.assetid: 943fbff6-1ad1-4d4b-9d52-e9605691e1ad
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: CreateLayer, CreateLayer method [Direct2D], CreateLayer method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateLayer method, ID2D1RenderTarget.CreateLayer, ID2D1RenderTarget.CreateLayer(const D2D1_SIZE_F,ID2D1Layer), ID2D1RenderTarget::CreateLayer, ID2D1RenderTarget::CreateLayer(const D2D1_SIZE_F,ID2D1Layer), d2d1/ID2D1RenderTarget::CreateLayer, direct2d.ID2D1RenderTarget_CreateLayer_ptr_D2D_SIZE_F_ptr_ptr_ID2D1Layer
 ms.prod: windows-hardware
 ms.technology: windows-devices

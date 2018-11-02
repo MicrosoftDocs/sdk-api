@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F.htm
 tech.root: direct2d
 ms.assetid: 8feb644a-26ea-4718-abd4-6990ffd97a50
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1Brush interface [Direct2D],SetTransform method, ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F&), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1Brush interface, d2d1/ID2D1Brush::SetTransform, direct2d.ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ The following illustrations show the effect of using an <a href="https://msdn.mi
 
 The illustration on the right shows the result of transforming the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 
-<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="images/brushes_ovw_transform.png"/>
+<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="./images/brushes_ovw_transform.png"/>
 
 
 #### Examples

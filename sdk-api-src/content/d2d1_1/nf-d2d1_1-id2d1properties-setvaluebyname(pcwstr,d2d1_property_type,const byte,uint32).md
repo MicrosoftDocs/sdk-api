@@ -7,7 +7,7 @@ old-location: direct2d\id2d1properties_setvaluebyname__pcwstr__d2d1_property_typ
 tech.root: direct2d
 ms.assetid: 53C31C95-4273-4588-A264-90A431DAE3DE
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE*,UINT32), ID2D1Properties::SetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,const BYTE,UINT32), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname__pcwstr__d2d1_property_type__const_byte__datasize_
 ms.prod: windows-hardware
 ms.technology: windows-devices

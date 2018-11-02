@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTableValue(UINT,IDComposit
 title: IDCompositionTableTransferEffect::SetBlueTableValue(UINT,IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets a value in the blue table.
-old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue.htm
+old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue_2.htm
 tech.root: directcomp
-ms.assetid: D73983D6-0E5D-434E-A14A-FFB39A620F78
+ms.assetid: 82CF79D8-1CA6-4A02-B806-4A2672B4BBF3
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueTableValue method, IDCompositionTableTransferEffect.SetBlueTableValue, IDCompositionTableTransferEffect.SetBlueTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetBlueTableValue, IDCompositionTableTransferEffect::SetBlueTableValue(UINT,IDCompositionAnimation), SetBlueTableValue, SetBlueTableValue method [DirectComposition], SetBlueTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue
+ms.date: 10/26/2018
+ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueTableValue method, IDCompositionTableTransferEffect.SetBlueTableValue, IDCompositionTableTransferEffect.SetBlueTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetBlueTableValue, IDCompositionTableTransferEffect::SetBlueTableValue(UINT,IDCompositionAnimation), SetBlueTableValue, SetBlueTableValue method [DirectComposition], SetBlueTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -65,18 +65,11 @@ Type: <b>UINT</b>
 The index of the value to set.
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - value [in]
-
-Type: <b>float</b>
-
-The new value.
+An animation that represents how the value changes over time. This parameter must not be NULL.
 
 
 ## -returns

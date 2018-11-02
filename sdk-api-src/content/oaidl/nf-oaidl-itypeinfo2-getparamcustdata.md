@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getparamcustdata.htm
 tech.root: automat
 ms.assetid: 9342c364-58bb-47fa-b2c0-aae7df1ccdb5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetParamCustData, GetParamCustData method [Automation], GetParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetParamCustData method, ITypeInfo2.GetParamCustData, ITypeInfo2::GetParamCustData, _oa96_ITypeInfo2_GetParamCustData, automat.itypeinfo2_getparamcustdata, oaidl/ITypeInfo2::GetParamCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices

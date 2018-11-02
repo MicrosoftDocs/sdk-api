@@ -7,7 +7,7 @@ old-location: com\ienumstatdata.htm
 tech.root: com
 ms.assetid: 8e2f6655-4a09-4868-a909-18999104b3ff
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], IEnumSTATDATA interface [COM],described, _ole_ienumstatdata, com.ienumstatdata, objidl/IEnumSTATDATA
 ms.prod: windows
 ms.technology: windows-sdk

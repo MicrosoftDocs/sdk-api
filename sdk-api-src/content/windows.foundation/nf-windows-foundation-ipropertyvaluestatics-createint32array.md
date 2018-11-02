@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createint32array.htm
 tech.root: WinRT
 ms.assetid: 148eae0c-db3b-4a62-8edb-3225a688265c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateInt32Array, CreateInt32Array method [Windows Runtime], CreateInt32Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt32Array method, IPropertyValueStatics.CreateInt32Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt32Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt32Array, winrt.ipropertyvaluefactory_createint32array, winrt.ipropertyvaluestatics_createint32array
 ms.prod: windows-hardware
 ms.technology: windows-devices

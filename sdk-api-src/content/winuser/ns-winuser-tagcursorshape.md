@@ -7,7 +7,7 @@ old-location: menurc\cursorshape.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\cursorshape.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPCURSORSHAPE, CURSORSHAPE, CURSORSHAPE structure [Menus and Other Resources], LPCURSORSHAPE, LPCURSORSHAPE structure pointer [Menus and Other Resources], _win32_CURSORSHAPE_str, _win32_cursorshape_str_cpp, menurc.cursorshape, tagCURSORSHAPE, winui._win32_cursorshape_str, winuser/CURSORSHAPE, winuser/LPCURSORSHAPE"
 ms.prod: windows
 ms.technology: windows-sdk

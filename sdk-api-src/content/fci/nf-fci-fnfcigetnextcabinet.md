@@ -7,7 +7,7 @@ old-location: winprog\fnfcigetnextcabinet.htm
 tech.root: devnotes
 ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
 ms.prod: windows-hardware
 ms.technology: windows-devices

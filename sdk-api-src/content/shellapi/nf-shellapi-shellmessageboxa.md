@@ -7,7 +7,7 @@ old-location: shell\ShellMessageBox.htm
 tech.root: shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,14 +103,7 @@ Type: <b>UINT</b>
 Specifies the contents and behavior of the dialog box. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - param [in]
+### -param arg1 [in]
 
 A variable argument list that is combined with <i>pszMsg</i> to form the full text displayed in the message box.
 

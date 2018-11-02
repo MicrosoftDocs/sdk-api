@@ -7,7 +7,7 @@ old-location: security\cert_access_description.htm
 tech.root: seccrypto
 ms.assetid: 5e1e5b04-92af-45b1-acfd-17852c245d89
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PCERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION structure [Security], PCERT_ACCESS_DESCRIPTION, PCERT_ACCESS_DESCRIPTION structure pointer [Security], _CERT_ACCESS_DESCRIPTION, _crypto2_cert_access_description, security.cert_access_description, wincrypt/CERT_ACCESS_DESCRIPTION, wincrypt/PCERT_ACCESS_DESCRIPTION"
 ms.prod: windows
 ms.technology: windows-sdk

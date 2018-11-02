@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHTextRangeFromVariantFunction.htm
 tech.root: WinAuto
 ms.assetid: 139b970f-614c-42ff-b1d1-4d8644d98d06
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: UiaHTextRangeFromVariant, UiaHTextRangeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHTextRangeFromVariantFunction, uiauto_UiaHTextRangeFromVariantFunction, uiautomationcoreapi/UiaHTextRangeFromVariant, winauto.uiauto_UiaHTextRangeFromVariantFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

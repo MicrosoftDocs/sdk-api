@@ -7,7 +7,7 @@ old-location: shell\Shell_NotifyIcon.htm
 tech.root: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices

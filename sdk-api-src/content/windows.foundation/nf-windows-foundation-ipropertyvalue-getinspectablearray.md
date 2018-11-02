@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getinspectablearray.htm
 tech.root: WinRT
 ms.assetid: 0af4f31f-e121-4cb2-8e83-c774bf25cae5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetInspectableArray, GetInspectableArray method [Windows Runtime], GetInspectableArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInspectableArray method, IPropertyValue.GetInspectableArray, IPropertyValue.IPropertyValue, IPropertyValue::GetInspectableArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInspectableArray, winrt.ipropertyvalue_getinspectablearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

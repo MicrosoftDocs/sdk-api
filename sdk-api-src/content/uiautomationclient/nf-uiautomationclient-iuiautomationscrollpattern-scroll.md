@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_Scroll.htm
 tech.root: WinAuto
 ms.assetid: 2deb7399-604d-45eb-95d6-f1135550a18f
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],Scroll method, IUIAutomationScrollPattern.Scroll, IUIAutomationScrollPattern::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_Scroll, uiauto_IUIAutomationScrollPattern_Scroll, uiautomationclient/IUIAutomationScrollPattern::Scroll, winauto.uiauto_IUIAutomationScrollPattern_Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Scrolls the visible region of the content area horizontally and vertically.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - horizontalAmount [in]
+### -param arg1 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/94d84a66-5222-48e4-9675-444eb04558a4">ScrollAmount</a></b>
 
 A value indicating the size of the horizontal scroll increment, or <b>UIA_ScrollPatternNoScroll</b> if the horizontal position is not to be set.
 
 
-#### - verticalAmount [in]
+### -param arg2 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/94d84a66-5222-48e4-9675-444eb04558a4">ScrollAmount</a></b>
 

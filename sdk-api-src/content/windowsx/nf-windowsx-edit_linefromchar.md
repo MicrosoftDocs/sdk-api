@@ -7,7 +7,7 @@ old-location: controls\Edit_LineFromChar.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linefromchar.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: Edit_LineFromChar, Edit_LineFromChar macro [Windows Controls], _win32_Edit_LineFromChar, _win32_Edit_LineFromChar_cpp, controls.Edit_LineFromChar, controls._win32_Edit_LineFromChar, windowsx/Edit_LineFromChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

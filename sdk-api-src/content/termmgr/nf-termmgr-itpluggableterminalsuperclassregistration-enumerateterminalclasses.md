@@ -4,10 +4,10 @@ title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 author: windows-sdk-content
 description: The EnumerateTerminalClasses method lists all terminal classes for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_enumerateterminalclasses.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

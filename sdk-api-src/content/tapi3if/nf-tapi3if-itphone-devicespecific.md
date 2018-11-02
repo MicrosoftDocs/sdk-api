@@ -4,10 +4,10 @@ title: ITPhone::DeviceSpecific
 author: windows-sdk-content
 description: The DeviceSpecific method enables service providers to provide access to device specific features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecific.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: fba4bf7e-8c9d-4d34-ac56-aa47dff6f57c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: DeviceSpecific, DeviceSpecific method [TAPI 2.2], DeviceSpecific method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],DeviceSpecific method, ITPhone.DeviceSpecific, ITPhone::DeviceSpecific, _tapi3_itphone_devicespecific, tapi3.itphone_devicespecific, tapi3if/ITPhone::DeviceSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices

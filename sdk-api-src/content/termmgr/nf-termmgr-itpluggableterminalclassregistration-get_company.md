@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassRegistration::get_Company
 author: windows-sdk-content
 description: The get_Company method gets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_company.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: fea01c2a-e822-441a-89bc-8607762bc2eb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Company method, ITPluggableTerminalClassRegistration.get_Company, ITPluggableTerminalClassRegistration::get_Company, _tapi3_itpluggableterminalclassregistration_get_company, get_Company, get_Company method [TAPI 2.2], get_Company method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_company, termmgr/ITPluggableTerminalClassRegistration::get_Company
 ms.prod: windows-hardware
 ms.technology: windows-devices

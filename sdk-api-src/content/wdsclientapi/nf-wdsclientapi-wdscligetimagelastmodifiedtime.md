@@ -4,10 +4,10 @@ title: WdsCliGetImageLastModifiedTime function
 author: windows-sdk-content
 description: Returns the last-modification time of the current image.
 old-location: wds\wdscligetimagelastmodifiedtime.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: b0554857-ffef-4f45-8aba-90512ce7f3b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: WdsCliGetImageLastModifiedTime, WdsCliGetImageLastModifiedTime function [Windows Deployment Services], wds.wdscligetimagelastmodifiedtime, wdsclientapi/WdsCliGetImageLastModifiedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

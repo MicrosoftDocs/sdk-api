@@ -7,7 +7,7 @@ old-location: mscs\clusprop_property_name_declare.htm
 tech.root: mscs
 ms.assetid: 8947baed-3a96-4986-94ea-4b275908acdc
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: CLUSPROP_PROPERTY_NAME_DECLARE, CLUSPROP_PROPERTY_NAME_DECLARE macro [Failover Cluster], _wolf_clusprop_property_name_declare, clusapi/CLUSPROP_PROPERTY_NAME_DECLARE, mscs.clusprop_property_name_declare
 ms.prod: windows-hardware
 ms.technology: windows-devices

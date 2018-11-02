@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_escape.htm
 tech.root: hid
 ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],Escape method, IDirectInputEffectDriver.Escape, IDirectInputEffectDriver::Escape, di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml, dinputd/IDirectInputEffectDriver::Escape, hid.idirectinputeffectdriver_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,32 +60,15 @@ The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This m
 
 ### -param arg1
 
-TBD
+Indicates the joystick ID number being used. 
 
 
 ### -param arg2
 
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - dwEffect
-
 Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect. 
 
 
-#### - dwID
-
-Indicates the joystick ID number being used. 
-
-
-#### - pesc
+### -param arg3
 
 Points to a <a href="https://msdn.microsoft.com/97d452b2-aa25-46a9-a755-dc835270c818">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used. 
 

@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetY(IDCompositionAnimation)
 title: IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the OffsetY property of a 3D translation transform effect. The OffsetY property specifies the distance to translate along the y-axis.
-old-location: directcomp\idcompositiontranslatetransform3d_setoffsety_float.htm
+description: Animates the value of the OffsetY property of a 3D translation transform effect. The OffsetY property specifies the distance to translate along the y-axis.
+old-location: directcomp\idcompositiontranslatetransform3d_setoffsety_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: 09A12F3B-84B8-43E5-A58E-61B43E5211FB
+ms.assetid: D08FF13B-612A-4A60-B6C8-4EC1246F94E9
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform3D.SetOffsetY, IDCompositionTranslateTransform3D.SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY, IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY(float), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform3D.SetOffsetY, IDCompositionTranslateTransform3D.SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY, IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation*), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the OffsetY property of a 3D translation transform effect. The OffsetY property specifies the distance to translate along the y-axis.
+Animates the value of the OffsetY property of a 3D translation transform effect. The OffsetY property specifies the distance to translate along the y-axis.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the OffsetY property of a 3D translation transform effect. 
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - offsetY [in]
-
-Type: <b>float</b>
-
-The distance to translate along the y-axis, in pixels.
+An animation object that determines how the value of the OffsetY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>offsetY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the OffsetY property unless this method is called again. If the OffsetY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the OffsetY property was previously animated, this method removes the animation and sets the OffsetY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

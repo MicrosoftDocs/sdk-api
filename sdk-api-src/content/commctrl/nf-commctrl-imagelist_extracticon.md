@@ -7,7 +7,7 @@ old-location: controls\ImageList_ExtractIcon.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_extracticon.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ImageList_ExtractIcon, ImageList_ExtractIcon macro [Windows Controls], _win32_ImageList_ExtractIcon, _win32_ImageList_ExtractIcon_cpp, commctrl/ImageList_ExtractIcon, controls.ImageList_ExtractIcon, controls._win32_ImageList_ExtractIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

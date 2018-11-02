@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getnextstring.htm
 tech.root: WinRT
 ms.assetid: 7ac1fc2c-a60d-4431-8e49-5df1bb078c9b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetNextString, GetNextString method [Windows Runtime], GetNextString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextString method, IMetaDataTables.GetNextString, IMetaDataTables::GetNextString, rometadataapi/IMetaDataTables::GetNextString, winrt.imetadatatables_getnextstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

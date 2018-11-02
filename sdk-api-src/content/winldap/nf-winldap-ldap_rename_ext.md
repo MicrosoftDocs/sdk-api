@@ -4,10 +4,10 @@ title: ldap_rename_ext function
 author: windows-sdk-content
 description: The ldap_rename_ext function starts an asynchronous operation that changes the distinguished name of an entry in the directory. This function is available effective with LDAP 3.
 old-location: ldap\ldap_rename_ext.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 73633a71-ebe6-4169-a9ff-17151d90ebcd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_ldap_ldap_rename_ext, ldap.ldap__rename__ext, ldap.ldap_rename_ext, ldap_rename_ext, ldap_rename_ext function [LDAP], ldap_rename_extA, ldap_rename_extW, winldap/ldap_rename_ext, winldap/ldap_rename_extA, winldap/ldap_rename_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

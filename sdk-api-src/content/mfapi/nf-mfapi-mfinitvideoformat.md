@@ -7,7 +7,7 @@ old-location: mf\mfinitvideoformat.htm
 tech.root: medfound
 ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\irunnableobject.htm
 tech.root: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM],described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
 ms.prod: windows
 ms.technology: windows-sdk

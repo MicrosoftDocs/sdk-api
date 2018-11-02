@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgstrokedasharray_getdashes_2.htm
 tech.root: direct2d
 ms.assetid: D439F7ED-608B-4A3B-891E-02A9ABD7C537
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1SvgStrokeDashArray interface, ID2D1SvgStrokeDashArray interface [Direct2D],GetDashes method, ID2D1SvgStrokeDashArray.GetDashes, ID2D1SvgStrokeDashArray.GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32), ID2D1SvgStrokeDashArray::GetDashes, ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32), d2d1svg/ID2D1SvgStrokeDashArray::GetDashes, direct2d.id2d1svgstrokedasharray_getdashes_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

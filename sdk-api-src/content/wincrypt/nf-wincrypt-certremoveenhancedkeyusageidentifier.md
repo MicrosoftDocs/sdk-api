@@ -7,7 +7,7 @@ old-location: security\certremoveenhancedkeyusageidentifier.htm
 tech.root: seccrypto
 ms.assetid: 4fb27073-674c-4bac-9a62-6e33e1a5785e
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIdentifier function [Security], _crypto2_certremoveenhancedkeyusageidentifier, security.certremoveenhancedkeyusageidentifier, wincrypt/CertRemoveEnhancedKeyUsageIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iclientsecurity.htm
 tech.root: com
 ms.assetid: 65066913-f9d8-48c7-bcb5-68c8ddc4a009
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IClientSecurity, IClientSecurity interface [COM], IClientSecurity interface [COM],described, _com_iclientsecurity, com.iclientsecurity, objidl/IClientSecurity
 ms.prod: windows
 ms.technology: windows-sdk

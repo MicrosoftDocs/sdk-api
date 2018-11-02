@@ -3,12 +3,12 @@ UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient2(IDCompositi
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient2(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the second coefficient for the equation used to composite the two input images.
-old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2.htm
+old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2_2.htm
 tech.root: directcomp
-ms.assetid: 16EBC58C-8A63-4939-9753-EF02BEC479E5
+ms.assetid: C1A43316-58FA-4F42-827D-AF11104F5E60
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient2 method, IDCompositionArithmeticCompositeEffect.SetCoefficient2, IDCompositionArithmeticCompositeEffect.SetCoefficient2(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient2, IDCompositionArithmeticCompositeEffect::SetCoefficient2(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient2(float), SetCoefficient2, SetCoefficient2 method [DirectComposition], SetCoefficient2 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient2, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient2
+ms.date: 10/26/2018
+ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient2 method, IDCompositionArithmeticCompositeEffect.SetCoefficient2, IDCompositionArithmeticCompositeEffect.SetCoefficient2(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient2, IDCompositionArithmeticCompositeEffect::SetCoefficient2(IDCompositionAnimation), SetCoefficient2, SetCoefficient2 method [DirectComposition], SetCoefficient2 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient2, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient2_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,18 +58,11 @@ Sets the second coefficient for the equation used to composite the two input ima
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - Coefficient2 [in]
-
-Type: <b>float</b>
-
-The second coefficient for the equation used to composite the two input images.
+An animation that represents how the value of the second coefficient changes over time. This parameter must not be NULL.
 
 
 ## -returns

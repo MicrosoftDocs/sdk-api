@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_waitforverticalblank.htm
 tech.root: directdraw
 ms.assetid: ea52805d-201d-4fbe-a99f-5c04b7d620b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DDWAITVB_BLOCKBEGIN, DDWAITVB_BLOCKBEGINEVENT, DDWAITVB_BLOCKEND, IDirectDraw7 interface [DirectDraw],WaitForVerticalBlank method, IDirectDraw7.WaitForVerticalBlank, IDirectDraw7::WaitForVerticalBlank, WaitForVerticalBlank, WaitForVerticalBlank method [DirectDraw], WaitForVerticalBlank method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::WaitForVerticalBlank, directdraw.idirectdraw7_waitforverticalblank
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,7 @@ Helps the application synchronize itself with the vertical-blank interval.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 One of the following flags that indicates how long to wait for the vertical blank:
 
@@ -93,7 +81,7 @@ Triggers an event when the vertical blank begins. This value is not currently su
 <b>WaitForVerticalBlank</b> returns when the vertical-blank interval ends and the display begins.
 
 
-#### - hEvent [in]
+### -param arg2 [in]
 
 Handle of the event to be triggered when the vertical blank begins. This parameter is not currently used.
 

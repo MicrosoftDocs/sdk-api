@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_istemporarymonosupported.htm
 tech.root: direct3ddxgi
 ms.assetid: 0943F04B-15E4-4802-ABD1-3E7F5EF774E5
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],IsTemporaryMonoSupported method, IDXGISwapChain1.IsTemporaryMonoSupported, IDXGISwapChain1::IsTemporaryMonoSupported, IsTemporaryMonoSupported, IsTemporaryMonoSupported method [DXGI], IsTemporaryMonoSupported method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_istemporarymonosupported, dxgi1_2/IDXGISwapChain1::IsTemporaryMonoSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

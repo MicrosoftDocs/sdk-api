@@ -7,7 +7,7 @@ old-location: wcs\cmgetinfo.htm
 tech.root: WCS
 ms.assetid: 7a858c73-799c-4388-a83e-55e57f48a860
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: CMGetInfo, CMGetInfo function [Windows Color System], CMM_DESCRIPTION, CMM_DLL_VERSION, CMM_DRIVER_LEVEL, CMM_IDENT, CMM_LOGOICON, CMM_VERSION, CMM_WIN_VERSION, _color_CMGetInfo, icm/CMGetInfo, wcs.cmgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

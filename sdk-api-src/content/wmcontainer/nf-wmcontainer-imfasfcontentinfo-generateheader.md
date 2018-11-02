@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_generateheader.htm
 tech.root: medfound
 ms.assetid: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader, GenerateHeader method [Media Foundation], GenerateHeader method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GenerateHeader method, IMFASFContentInfo.GenerateHeader, IMFASFContentInfo::GenerateHeader, mf.imfasfcontentinfo_generateheader, wmcontainer/IMFASFContentInfo::GenerateHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\DEFINE_PROPERTYKEY.htm
 tech.root: shell
 ms.assetid: 099F8A20-63E4-4712-97F3-82C61A0C2DE0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

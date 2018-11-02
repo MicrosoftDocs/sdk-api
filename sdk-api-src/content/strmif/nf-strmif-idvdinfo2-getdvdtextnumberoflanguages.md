@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdvdtextnumberoflanguages.htm
 tech.root: DirectShow
 ms.assetid: 20c6ee1f-f20b-40c5-bc84-5ec1c07c0681
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: GetDVDTextNumberOfLanguages, GetDVDTextNumberOfLanguages method [DirectShow], GetDVDTextNumberOfLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextNumberOfLanguages method, IDvdInfo2.GetDVDTextNumberOfLanguages, IDvdInfo2::GetDVDTextNumberOfLanguages, IDvdInfo2GetDVDTextNumberOfLanguages, dshow.idvdinfo2_getdvdtextnumberoflanguages, strmif/IDvdInfo2::GetDVDTextNumberOfLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

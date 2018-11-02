@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the OffsetX property of a 2D translation transform.
-old-location: directcomp\idcompositiontranslatetransform_setoffsetx_float.htm
+description: Animates the value of the OffsetX property of a 2D translation transform.
+old-location: directcomp\idcompositiontranslatetransform_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: F5D96E02-2FB0-45AD-8F4A-8FB955A40C3F
+ms.assetid: eac63f97-1d6c-4672-ad0f-def71b8dd5e1
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform.SetOffsetX, IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX, IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetX, directcomp.idcompositiontranslatetransform_setoffsetx_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform.SetOffsetX, IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX, IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation*), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetX, directcomp.idcompositiontranslatetransform_setoffsetx_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the OffsetX property of a 2D translation transform. The OffsetX property specifies the distance to translate along the x-axis.
+Animates the value of the OffsetX property of a 2D translation transform.  The OffsetX property specifies the translation along the x-axis.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the OffsetX property of a 2D translation transform. The Off
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - offsetX [in]
-
-Type: <b>float</b>
-
- The distance to translate along the x-axis, in pixels.
+An animation object that determines how the value of the OffsetX property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,13 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method perfoms an affine transformation, which moves every point by a fixed distance in the same direction. It is similar to shifting the origin of the coordinate space. 
-
-This method fails if the <i>offsetX</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the OffsetX property unless this method is called again. If the OffsetX property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the OffsetX property was previously animated, this method removes the animation and sets the OffsetX property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

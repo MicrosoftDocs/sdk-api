@@ -7,7 +7,7 @@ old-location: controls\DestroyPropertySheetPage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

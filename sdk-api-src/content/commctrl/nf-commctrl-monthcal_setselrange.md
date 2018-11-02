@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetSelRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setselrange.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: MonthCal_SetSelRange, MonthCal_SetSelRange macro [Windows Controls], _win32_MonthCal_SetSelRange, _win32_MonthCal_SetSelRange_cpp, commctrl/MonthCal_SetSelRange, controls.MonthCal_SetSelRange, controls._win32_MonthCal_SetSelRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

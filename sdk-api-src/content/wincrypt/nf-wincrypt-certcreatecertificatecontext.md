@@ -7,7 +7,7 @@ old-location: security\certcreatecertificatecontext.htm
 tech.root: seccrypto
 ms.assetid: a32714c4-ee88-48a8-a40a-bbbfec0613ac
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: CertCreateCertificateContext, CertCreateCertificateContext function [Security], _crypto2_certcreatecertificatecontext, security.certcreatecertificatecontext, wincrypt/CertCreateCertificateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

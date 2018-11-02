@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_DEBUG_LEVEL.htm
 tech.root: direct2d
 ms.assetid: 3f1b4127-12d4-4472-ae26-0b69fdbb35a7
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1_DEBUG_LEVEL, D2D1_DEBUG_LEVEL enumeration [Direct2D], D2D1_DEBUG_LEVEL_ERROR, D2D1_DEBUG_LEVEL_INFORMATION, D2D1_DEBUG_LEVEL_NONE, D2D1_DEBUG_LEVEL_WARNING, d2d1/D2D1_DEBUG_LEVEL, d2d1/D2D1_DEBUG_LEVEL_ERROR, d2d1/D2D1_DEBUG_LEVEL_INFORMATION, d2d1/D2D1_DEBUG_LEVEL_NONE, d2d1/D2D1_DEBUG_LEVEL_WARNING, direct2d.D2D1_DEBUG_LEVEL
 ms.prod: windows
 ms.technology: windows-sdk

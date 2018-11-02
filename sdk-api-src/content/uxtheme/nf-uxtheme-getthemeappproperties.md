@@ -7,7 +7,7 @@ old-location: controls\GetThemeAppProperties.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

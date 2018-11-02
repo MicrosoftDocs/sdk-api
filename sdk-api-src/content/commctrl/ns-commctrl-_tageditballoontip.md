@@ -7,7 +7,7 @@ old-location: controls\EDITBALLOONTIP.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolstructures\editballoontip.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*PEDITBALLOONTIP, EDITBALLOONTIP, EDITBALLOONTIP structure [Windows Controls], PEDITBALLOONTIP, PEDITBALLOONTIP structure pointer [Windows Controls], TTI_ERROR, TTI_ERROR_LARGE, TTI_INFO, TTI_INFO_LARGE, TTI_NONE, TTI_WARNING, TTI_WARNING_LARGE, _tagEDITBALLOONTIP, _win32_EDITBALLOONTIP_str, _win32_EDITBALLOONTIP_str_cpp, commctrl/EDITBALLOONTIP, commctrl/PEDITBALLOONTIP, controls.EDITBALLOONTIP, controls._win32_EDITBALLOONTIP_str"
 ms.prod: windows
 ms.technology: windows-sdk

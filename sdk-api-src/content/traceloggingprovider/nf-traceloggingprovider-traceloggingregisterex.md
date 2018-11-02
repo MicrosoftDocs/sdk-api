@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingregisterex.htm
 tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,36 +58,19 @@ Registers a TraceLogging provider with callback so that it can be used for to lo
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 The handle of the provider to register.
 
 
-#### - pCallbackContext [in, optional]
-
-Provider-defined context data to pass to the callback when the provider is enabled or disabled. Defaults to <b>NULL</b>.
-
-
-#### - pEnableCallback [in, optional]
+### -param arg2 [in, optional]
 
 Callback that ETW calls to notify you when a session enables or disables your provider. Defaults to <b>NULL</b>.
+
+
+### -param arg3 [in, optional]
+
+Provider-defined context data to pass to the callback when the provider is enabled or disabled. Defaults to <b>NULL</b>.
 
 
 ## -returns

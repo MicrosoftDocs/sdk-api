@@ -2,13 +2,13 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleY(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation)
 author: windows-sdk-content
-description: Changes the value of the ScaleY property of a 3D scale transform.
-old-location: directcomp\idcompositionscaletransform3d_setscaley_float.htm
+description: Animates the value of the ScaleY property of a scale transform.
+old-location: directcomp\idcompositionscaletransform3d_setscaley_idcompositionanimation.htm
 tech.root: directcomp
-ms.assetid: F4BC7859-DD50-4AD0-8B6C-4E353B0AE334
+ms.assetid: 2BC384A8-641F-4144-BE24-652216101EAF
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform3D.SetScaleY, IDCompositionScaleTransform3D.SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY, IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY(float), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_float
+ms.date: 10/26/2018
+ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform3D.SetScaleY, IDCompositionScaleTransform3D.SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY, IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation*), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Changes the value of the ScaleY property of a 3D scale transform. The ScaleY property specifies the scale factor along the y-axis.
+Animates the value of the ScaleY property of a scale transform. The ScaleY property specifies the scale factor along the y-axis.
 
 
 ## -parameters
@@ -58,18 +58,11 @@ Changes the value of the ScaleY property of a 3D scale transform. The ScaleY pro
 
 
 
-### -param animation
+### -param animation [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>*</b>
 
-
-
-
-#### - scaleY [in]
-
-Type: <b>float</b>
-
-The new y-axis scale factor.
+An animation object that determines how the value of the ScaleY property changes over time. This parameter must not be NULL.
 
 
 ## -returns
@@ -87,11 +80,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method fails if the <i>scaleY</i> parameter is NaN, positive infinity, or negative infinity.
+This method makes a copy of the specified animation. If the object referenced by the <i>animation</i> parameter is changed after calling this method, the change does not affect the ScaleY property unless this method is called again. If the ScaleY property was previously animated, calling this method replaces the previous animation with the new animation. 
 
 
 
-If the ScaleY property was previously animated, this method removes the animation and sets the ScaleY property to the specified static value.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 

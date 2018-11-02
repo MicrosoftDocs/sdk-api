@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_dynamicrendering.htm
 tech.root: tablet
 ms.assetid: 48464ebc-d1a2-4068-b9ee-061adce30879
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DynamicRendering property, IInkCollector.DynamicRendering, IInkCollector.get_DynamicRendering, IInkCollector.put_DynamicRendering, IInkCollector::DynamicRendering, IInkCollector::get_DynamicRendering, IInkCollector::put_DynamicRendering, InkCollector.get_DynamicRendering, InkCollector.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkCollector::DynamicRendering, msinkaut/IInkCollector::get_DynamicRendering, msinkaut/IInkCollector::put_DynamicRendering, put_DynamicRendering, tablet.inkcollector_dynamicrendering
 ms.prod: windows-hardware
 ms.technology: windows-devices

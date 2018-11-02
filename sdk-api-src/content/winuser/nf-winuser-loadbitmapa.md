@@ -7,7 +7,7 @@ old-location: gdi\loadbitmap.htm
 tech.root: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
 ms.prod: windows-hardware
 ms.technology: windows-devices

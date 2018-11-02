@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qyc.htm
 ms.author: windowssdkdev
-ms.date: 10/09/2018
+ms.date: 10/26/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutboundRoutingRules interface, IFaxOutboundRoutingRules interface [Fax Service],Count property, IFaxOutboundRoutingRules.Count, IFaxOutboundRoutingRules.get_Count, IFaxOutboundRoutingRules::Count, IFaxOutboundRoutingRules::get_Count, _mfax_faxoutboundroutingrules.count, fax._mfax_faxoutboundroutingrules_count, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_count_cpp, faxcomex/IFaxOutboundRoutingRules::Count, faxcomex/IFaxOutboundRoutingRules::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

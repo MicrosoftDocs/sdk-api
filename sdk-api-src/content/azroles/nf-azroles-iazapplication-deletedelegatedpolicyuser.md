@@ -4,10 +4,10 @@ title: IAzApplication::DeleteDelegatedPolicyUser
 author: windows-sdk-content
 description: The IAzApplication::DeleteDelegatedPolicyUser method removes the specified security identifier in text form from the list of principals that act as delegated policy users.
 old-location: security\iazapplication_deletedelegatedpolicyuser.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 92e7f4fa-ff86-4ef5-8b87-086dd73966d1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzApplication object, DeleteDelegatedPolicyUser method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUser method, IAzApplication.DeleteDelegatedPolicyUser, IAzApplication::DeleteDelegatedPolicyUser, azroles/IAzApplication::DeleteDelegatedPolicyUser, security.iazapplication_deletedelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

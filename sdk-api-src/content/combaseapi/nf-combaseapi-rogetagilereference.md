@@ -7,7 +7,7 @@ old-location: winrt\rogetagilereference.htm
 tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Creates an agile reference for an object specified by the given interface.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+The registration options.
 
 
 ### -param riid [in]
@@ -78,11 +78,6 @@ Pointer to the interface to be encapsulated in an agile reference. It must be th
 ### -param ppAgileReference [out]
 
 The agile reference for the object. Call the <a href="https://msdn.microsoft.com/en-us/library/Dn269838(v=VS.85).aspx">Resolve</a> method to localize the object into the apartment in which <b>Resolve</b> is called.
-
-
-#### - options [in]
-
-The registration options.
 
 
 ## -returns

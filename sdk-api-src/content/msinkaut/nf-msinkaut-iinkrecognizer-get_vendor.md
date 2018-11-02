@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer_vendor.htm
 tech.root: tablet
 ms.assetid: 6b302453-ec9e-474b-b9ee-5776d464f4f8
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 6b302453-ec9e-474b-b9ee-5776d464f4f8, IInkRecognizer interface [Tablet PC],Vendor property, IInkRecognizer.Vendor, IInkRecognizer.get_Vendor, IInkRecognizer::Vendor, IInkRecognizer::get_Vendor, Vendor property [Tablet PC], Vendor property [Tablet PC],IInkRecognizer interface, get_Vendor, msinkaut/IInkRecognizer::Vendor, msinkaut/IInkRecognizer::get_Vendor, tablet.iinkrecognizer_vendor
 ms.prod: windows-hardware
 ms.technology: windows-devices

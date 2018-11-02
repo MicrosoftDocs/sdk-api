@@ -7,7 +7,7 @@ old-location: controls\ImageList_LoadBitmap.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_loadbitmap.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ImageList_LoadBitmap, ImageList_LoadBitmap macro [Windows Controls], _win32_ImageList_LoadBitmap, _win32_ImageList_LoadBitmap_cpp, commctrl/ImageList_LoadBitmap, controls.ImageList_LoadBitmap, controls._win32_ImageList_LoadBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

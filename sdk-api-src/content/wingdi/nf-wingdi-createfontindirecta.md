@@ -7,7 +7,7 @@ old-location: gdi\createfontindirect.htm
 tech.root: gdi
 ms.assetid: b7919fb6-8515-4f1b-af9c-dc7eac381b90
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: CreateFontIndirect, CreateFontIndirect function [Windows GDI], CreateFontIndirectA, CreateFontIndirectW, _win32_CreateFontIndirect, gdi.createfontindirect, wingdi/CreateFontIndirect, wingdi/CreateFontIndirectA, wingdi/CreateFontIndirectW
 ms.prod: windows-hardware
 ms.technology: windows-devices

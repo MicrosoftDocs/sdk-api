@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice.htm
 tech.root: medfound
 ms.assetid: fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation],described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice
 ms.prod: windows
 ms.technology: windows-sdk

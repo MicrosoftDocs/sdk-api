@@ -7,7 +7,7 @@ old-location: dwm\dwmtethercontact.htm
 tech.root: dwm
 ms.assetid: 9F7EFFD4-A69A-435B-8B73-A789F7BDE7BB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DwmTetherContact, DwmTetherContact function [Desktop Window Manager], dwm.dwmtethercontact, dwmapi/DwmTetherContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_evaluatemode.htm
 tech.root: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method [DirectDraw], EvaluateMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EvaluateMode method, IDirectDraw7.EvaluateMode, IDirectDraw7::EvaluateMode, ddraw/IDirectDraw7::EvaluateMode, directdraw.idirectdraw7_evaluatemode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,19 +59,7 @@ Used after a call to <a href="https://msdn.microsoft.com/b669e3c7-b34b-4919-9a3e
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param arg1 [in]
 
 One of the following flags that indicate the status of the mode being tested:
 
@@ -88,7 +76,7 @@ The mode being tested has passed.
 The mode being tested has failed.
 
 
-#### - pSecondsUntilTimeout [out]
+### -param arg2 [out]
 
 A pointer to a variable that receives a value that denotes the seconds that remain before the current mode is failed automatically unless it is explicitly passed or failed.
 

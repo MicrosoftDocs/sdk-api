@@ -7,7 +7,7 @@ old-location: gdi\getarcdirection.htm
 tech.root: gdi
 ms.assetid: 6bf426cd-e028-4568-9e9a-aca58dd69732
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: GetArcDirection, GetArcDirection function [Windows GDI], _win32_GetArcDirection, gdi.getarcdirection, wingdi/GetArcDirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

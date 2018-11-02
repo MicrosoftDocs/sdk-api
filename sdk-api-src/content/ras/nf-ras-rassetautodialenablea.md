@@ -7,7 +7,7 @@ old-location: rras\rassetautodialenable.htm
 tech.root: rras
 ms.assetid: 0d5f7b8e-9bce-4e72-8657-f465ce4008c4
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasSetAutodialEnable, RasSetAutodialEnable function [RAS], RasSetAutodialEnableA, RasSetAutodialEnableW, _ras_rassetautodialenable, ras/RasSetAutodialEnable, ras/RasSetAutodialEnableA, ras/RasSetAutodialEnableW, rras.rassetautodialenable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,24 +61,12 @@ The
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
 
-#### - fEnabled [in]
+### -param arg2 [in]
 
 Specifies <b>TRUE</b> to enable AutoDial for the dialing location indicated by the <i>dwDialingLocation</i> parameter. Specifies <b>FALSE</b> to disable it.
 

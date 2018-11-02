@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceregistryproperty.htm
 tech.root: devinst
 ms.assetid: 2686f416-3eb5-4e6b-87c8-ab10608ab406
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupDiSetDeviceRegistryProperty, SetupDiSetDeviceRegistryProperty function [Device and Driver Installation], SetupDiSetDeviceRegistryPropertyA, SetupDiSetDeviceRegistryPropertyW, devinst.setupdisetdeviceregistryproperty, di-rtns_c3fa27e1-fbc6-4f82-ab1b-cbf3581c54e4.xml, setupapi/SetupDiSetDeviceRegistryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

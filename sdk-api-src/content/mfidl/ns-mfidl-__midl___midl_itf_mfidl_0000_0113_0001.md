@@ -7,7 +7,7 @@ old-location: mf\sensorprofileid.htm
 tech.root: medfound
 ms.assetid: 29BF454E-60DD-4709-A1B2-2A46C3BD3F42
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundation], SENSORPROFILEID, SENSORPROFILEID structure [Media Foundation], __MIDL___MIDL_itf_mfidl_0000_0113_0001, mf.sensorprofileid, mfidl/PSENSORPROFILEID, mfidl/SENSORPROFILEID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextsampletime.htm
 tech.root: Multimedia
 ms.assetid: 0421f082-9281-4cdb-8b33-2a90c14404dc
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: AVIStreamNextSampleTime, AVIStreamNextSampleTime macro [Windows Multimedia], _win32_AVIStreamNextSampleTime, multimedia.avistreamnextsampletime, vfw/AVIStreamNextSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

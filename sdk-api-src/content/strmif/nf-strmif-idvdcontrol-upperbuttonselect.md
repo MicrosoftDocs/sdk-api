@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_upperbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: bd0e4086-087b-460f-a6af-fa073644f1bb
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IDvdControl interface [DirectShow],UpperButtonSelect method, IDvdControl.UpperButtonSelect, IDvdControl::UpperButtonSelect, IDvdControlUpperButtonSelect, UpperButtonSelect, UpperButtonSelect method [DirectShow], UpperButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_upperbuttonselect, strmif/IDvdControl::UpperButtonSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

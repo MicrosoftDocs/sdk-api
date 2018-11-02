@@ -7,7 +7,7 @@ old-location: automat\bstr_userfree64.htm
 tech.root: automat
 ms.assetid: 40ef9c34-243d-49f1-a51f-db9c9f887b55
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: BSTR_UserFree64, BSTR_UserFree64 function [Automation], automat.bstr_userfree64, oaidl/BSTR_UserFree64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Frees resources on the server side when called by RPC stub files.
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
 
-#### - pBstr [in]
+### -param arg2 [in]
 
 The object.
 

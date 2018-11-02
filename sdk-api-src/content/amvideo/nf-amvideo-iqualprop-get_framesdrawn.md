@@ -7,7 +7,7 @@ old-location: dshow\iqualprop_get_framesdrawn.htm
 tech.root: DirectShow
 ms.assetid: 5a5d4aee-dd35-432f-b6a6-4b1b59ad9b78
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDrawn method, IQualProp.get_FramesDrawn, IQualProp::get_FramesDrawn, IQualPropget_FramesDrawn, amvideo/IQualProp::get_FramesDrawn, dshow.iqualprop_get_framesdrawn, get_FramesDrawn, get_FramesDrawn method [DirectShow], get_FramesDrawn method [DirectShow],IQualProp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

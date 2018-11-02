@@ -4,10 +4,10 @@ title: AttachThreadInput function
 author: windows-sdk-content
 description: Attaches or detaches the input processing mechanism of one thread to that of another thread.
 old-location: base\attachthreadinput.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 0c343fab-56ae-4c70-a79e-0c5f827158a3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: AttachThreadInput, AttachThreadInput function, _win32_attachthreadinput, base.attachthreadinput, winuser/AttachThreadInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,8 +102,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Windows created in different threads typically process input independently of each other. That is, they have their own input states (focus, active, capture windows, key state, queue status, and so on), and their input processing is not synchronized with the input processing of other threads. By using the 
-<b>AttachThreadInput</b> function, a thread can attach its input processing mechanism to another thread. Keyboard and mouse events received by both threads are processed by the  thread specified by the <i>idAttachTo</i> parameter until the threads are detached by calling <b>AttachThreadInput</b> a second time and specifying <b>FALSE</b> for the <i>fAttach</i> parameter. This also allows threads to share their input states, so they can call the <a href="https://msdn.microsoft.com/en-us/library/Dd376983(v=VS.85).aspx">SetFocus</a> function to set the keyboard focus to a window of a different thread. This also allows threads to get key-state information. 
+By using the <b>AttachThreadInput</b> function, a thread can share its input states (such as keyboard states and the current focus window) with another thread. Keyboard and mouse events received by both threads are processed in the order they were received until the threads are detached by calling <b>AttachThreadInput</b> a second time and specifying <b>FALSE</b> for the <i>fAttach</i> parameter.
 
 The 
 <b>AttachThreadInput</b> function fails if either of the specified threads does not have a message queue. The system creates a thread's message queue when the thread makes its first call to one of the USER or GDI functions. The 

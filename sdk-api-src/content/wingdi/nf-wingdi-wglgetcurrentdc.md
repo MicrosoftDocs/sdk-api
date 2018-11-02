@@ -7,7 +7,7 @@ old-location: opengl\wglgetcurrentdc.htm
 tech.root: OpenGL
 ms.assetid: 026f6181-75a2-4781-8762-d5599ce90af2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_ogl_wglGetCurrentDC, opengl.wglgetcurrentdc, wglGetCurrentDC, wglGetCurrentDC function [OpenGL], wingdi/wglGetCurrentDC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

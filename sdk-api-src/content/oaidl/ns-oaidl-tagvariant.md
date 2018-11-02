@@ -7,7 +7,7 @@ old-location: automat\variant.htm
 tech.root: automat
 ms.assetid: e305240e-9e11-4006-98cc-26f4932d2118
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPVARIANT, *LPVARIANTARG, LPVARIANT, LPVARIANT structure pointer [Automation], LPVARIANTARG, LPVARIANTARG structure pointer [Automation], VARIANT, VARIANT structure [Automation], VARIANTARG, VARIANTARG structure [Automation], _oa96_VARIANT_and_VARIANTARG, automat.variant, oaidl/LPVARIANT, oaidl/LPVARIANTARG, oaidl/VARIANT, oaidl/VARIANTARG, tagVARIANT"
 ms.prod: windows
 ms.technology: windows-sdk

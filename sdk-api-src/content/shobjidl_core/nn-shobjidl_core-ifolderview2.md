@@ -7,7 +7,7 @@ old-location: shell\IFolderView2.htm
 tech.root: shell
 ms.assetid: 52fcf0df-f532-4114-b1c9-96838f1a5e77
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IFolderView2, IFolderView2 interface [Windows Shell], IFolderView2 interface [Windows Shell],described, _shell_IFolderView2, shell.IFolderView2, shobjidl_core/IFolderView2
 ms.prod: windows
 ms.technology: windows-sdk

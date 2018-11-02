@@ -7,7 +7,7 @@ old-location: setup\msigetpatchinfo.htm
 tech.root: msi
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: INSTALLPROPERTY_LOCALPACKAGE, MsiGetPatchInfo, MsiGetPatchInfo function, MsiGetPatchInfoA, MsiGetPatchInfoW, _msi_msigetpatchinfo, msi/MsiGetPatchInfo, msi/MsiGetPatchInfoA, msi/MsiGetPatchInfoW, setup.msigetpatchinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

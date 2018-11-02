@@ -7,7 +7,7 @@ old-location: rras\rasgetcountryinfo.htm
 tech.root: rras
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: RasGetCountryInfo, RasGetCountryInfo function [RAS], RasGetCountryInfoA, RasGetCountryInfoW, _ras_rasgetcountryinfo, ras/RasGetCountryInfo, ras/RasGetCountryInfoA, ras/RasGetCountryInfoW, rras.rasgetcountryinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,19 +63,7 @@ For more information about country/region-specific dialing information and <a hr
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - [in, out]
+### -param arg1 [in, out]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/bab86167-b56c-4467-8950-d892161dfccb">RASCTRYINFO</a> structure that, on output, receives the country/region-specific dialing information followed by additional bytes for a country/region description string. 
@@ -88,7 +76,7 @@ On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https
 Allocate at least 256 bytes for the buffer.
 
 
-#### - lpdwSize [in, out]
+### -param arg2 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by the <i>lpRasCtryInfo</i> parameter. 
 

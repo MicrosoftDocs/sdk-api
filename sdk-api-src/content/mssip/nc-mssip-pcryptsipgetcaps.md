@@ -7,7 +7,7 @@ old-location: security\pfncryptsipgetcaps.htm
 tech.root: seccrypto
 ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps callback, pCryptSIPGetCaps callback function [Security], security.pfncryptsipgetcaps
 ms.prod: windows
 ms.technology: windows-sdk

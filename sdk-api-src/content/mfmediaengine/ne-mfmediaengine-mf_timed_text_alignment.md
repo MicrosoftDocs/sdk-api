@@ -7,7 +7,7 @@ old-location: mf\mf_timed_text_alignment.htm
 tech.root: medfound
 ms.assetid: F94DF6A5-1FF7-48C2-834F-50C90B2D9C33
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: MF_TIMED_TEXT_ALIGNMENT, MF_TIMED_TEXT_ALIGNMENT enumeration [Media Foundation], MF_TIMED_TEXT_ALIGNMENT_CENTER, MF_TIMED_TEXT_ALIGNMENT_END, MF_TIMED_TEXT_ALIGNMENT_START, mf.mf_timed_text_alignment, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_CENTER, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_END, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_START
 ms.prod: windows
 ms.technology: windows-sdk

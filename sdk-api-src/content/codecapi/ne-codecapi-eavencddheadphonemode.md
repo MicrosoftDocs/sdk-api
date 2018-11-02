@@ -7,7 +7,7 @@ old-location: dshow\eavencddheadphonemode.htm
 tech.root: DirectShow
 ms.assetid: 8739334c-bbaa-482e-9113-d4a885f98913
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: codecapi/eAVEncDDHeadphoneMode, codecapi/eAVEncDDHeadphoneMode_Encoded, codecapi/eAVEncDDHeadphoneMode_NotEncoded, codecapi/eAVEncDDHeadphoneMode_NotIndicated, dshow.eavencddheadphonemode, eAVEncDDHeadphoneMode, eAVEncDDHeadphoneMode enumeration [DirectShow], eAVEncDDHeadphoneMode_Encoded, eAVEncDDHeadphoneMode_NotEncoded, eAVEncDDHeadphoneMode_NotIndicated
 ms.prod: windows
 ms.technology: windows-sdk

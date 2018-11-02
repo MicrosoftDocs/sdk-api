@@ -4,10 +4,10 @@ title: SwitchToThread function
 author: windows-sdk-content
 description: Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.
 old-location: base\switchtothread.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: d1e6d734-0c5b-4aa0-b1b3-220f2615e56b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SwitchToThread, SwitchToThread function, _win32_switchtothread, base.switchtothread, processthreadsapi/SwitchToThread, winbase/SwitchToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ldapmsg
 author: windows-sdk-content
 description: Used by an LDAP function to return results and error data.
 old-location: ldap\ldapmessage.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 547a0736-23a4-4bfd-8ae0-866825228b53
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMessage, PLDAPMessage structure pointer [LDAP], _ldap_ldapmessage, ldap.ldapmessage, ldapmsg, winldap/LDAPMessage, winldap/PLDAPMessage"
 ms.prod: windows
 ms.technology: windows-sdk

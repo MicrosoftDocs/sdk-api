@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizerguide_guidedata.htm
 tech.root: tablet
 ms.assetid: 154cd57d-0b98-4633-a36d-93207896c9f1
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: 154cd57d-0b98-4633-a36d-93207896c9f1, GuideData property [Tablet PC], GuideData property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],GuideData property, IInkRecognizerGuide.GuideData, IInkRecognizerGuide.get_GuideData, IInkRecognizerGuide::GuideData, IInkRecognizerGuide::get_GuideData, IInkRecognizerGuide::put_GuideData, InkRecognizerGuide.get_GuideData, InkRecognizerGuide.put_GuideData, get_GuideData, msinkaut/IInkRecognizerGuide::GuideData, msinkaut/IInkRecognizerGuide::get_GuideData, msinkaut/IInkRecognizerGuide::put_GuideData, put_GuideData, tablet.inkrecognizerguide_guidedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

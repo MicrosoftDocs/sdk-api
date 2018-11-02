@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_CompareEndpoints.htm
 tech.root: WinAuto
 ms.assetid: 88a59d93-f31b-40d5-a8d9-ef114224019b
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],CompareEndpoints method, ITextRangeProvider.CompareEndpoints, ITextRangeProvider::CompareEndpoints, uiauto.uiauto_ITextRangeProvider_CompareEndpoints, uiauto_ITextRangeProvider_CompareEndpoints, uiautomationcore/ITextRangeProvider::CompareEndpoints, winauto.uiauto_ITextRangeProvider_CompareEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,11 @@ Returns a value that specifies whether two text ranges have identical endpoints.
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+The endpoint (starting or ending) of the caller's text range.
 
 
 ### -param targetRange [in]
@@ -71,9 +73,11 @@ Type: <b><a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fd
 The text range to be compared.
 
 
-### -param arg2
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+The endpoint (starting or ending) of the target text range.
 
 
 ### -param pRetVal [out, retval]
@@ -82,20 +86,6 @@ Type: <b>int*</b>
 
 Receives a value that indicates whether the two text ranges have identical endpoints.
 				 This parameter is passed uninitialized.
-
-
-#### - endpoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-The endpoint (starting or ending) of the caller's text range.
-
-
-#### - targetEndpoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-The endpoint (starting or ending) of the target text range.
 
 
 ## -returns

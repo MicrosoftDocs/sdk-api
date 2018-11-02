@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_determinant.htm
 tech.root: direct2d
 ms.assetid: 0b403b67-11a7-48cf-9e29-ce29f8511749
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: D2D1.Matrix3x2F.Determinant, D2D1::Matrix3x2F::Determinant, Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Determinant method, Matrix3x2F.Determinant, Matrix3x2F::Determinant, d2d1helper/Matrix3x2F::Determinant, direct2d.matrix3x2f_determinant
 ms.prod: windows-hardware
 ms.technology: windows-devices

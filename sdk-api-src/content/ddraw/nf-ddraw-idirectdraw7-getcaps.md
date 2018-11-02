@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getcaps.htm
 tech.root: directdraw
 ms.assetid: 4e93612c-9e28-4d51-a640-e8e9b5ed8e7a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetCaps method, IDirectDraw7.GetCaps, IDirectDraw7::GetCaps, ddraw/IDirectDraw7::GetCaps, directdraw.idirectdraw7_getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Retrieves the capabilities of the device driver for the hardware and the hardwar
 
 
 
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - lpDDDriverCaps [out]
+### -param arg1 [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/4ddda0a7-c0db-47cf-a908-959aabb530c6">DDCAPS</a> structure that receives the capabilities of the hardware, as reported by the device driver. Set this parameter to NULL if you do not want to retrieve device driver capabilities.
 
 
-#### - lpDDHELCaps [out]
+### -param arg2 [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/4ddda0a7-c0db-47cf-a908-959aabb530c6">DDCAPS</a> structure that receives the capabilities of the HEL. Set this parameter to NULL if you do not want to retrieve HEL capabilities.
 

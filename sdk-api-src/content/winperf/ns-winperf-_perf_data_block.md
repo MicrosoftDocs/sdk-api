@@ -7,7 +7,7 @@ old-location: perf\perf_data_block_str.htm
 tech.root: perfctrs
 ms.assetid: 29f89719-7597-4f7b-879e-1670386f8396
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: "*PPERF_DATA_BLOCK, PERF_DATA_BLOCK, PERF_DATA_BLOCK structure [Perf], _PERF_DATA_BLOCK, _win32_perf_data_block_str, base.perf_data_block_str, perf.perf_data_block_str, winperf/PERF_DATA_BLOCK"
 ms.prod: windows
 ms.technology: windows-sdk

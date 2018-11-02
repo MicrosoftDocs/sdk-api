@@ -4,10 +4,10 @@ title: LPNSPV2LOOKUPSERVICEEND
 author: windows-sdk-content
 description: Called to free the handle after previous calls to NSPv2LookupServiceBegin and NSPv2LookupServiceNextEx.
 old-location: winsock\nspv2lookupserviceend.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 5f2b56c5-3a8e-4bf9-8f28-d2a06543227b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
 ms.prod: windows
 ms.technology: windows-sdk

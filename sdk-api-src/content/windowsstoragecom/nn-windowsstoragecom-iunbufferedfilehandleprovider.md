@@ -7,7 +7,7 @@ old-location: winrt\iunbufferedfilehandleprovider.htm
 tech.root: WinRT
 ms.assetid: 9716B7ED-8E2C-4B7F-B9C9-39A755615CB3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IUnbufferedFileHandleProvider, IUnbufferedFileHandleProvider interface [Windows Runtime], IUnbufferedFileHandleProvider interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleProvider, winrt.iunbufferedfilehandleprovider
 ms.prod: windows
 ms.technology: windows-sdk

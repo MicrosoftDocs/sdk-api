@@ -7,7 +7,7 @@ old-location: dshow\iaudiomediastream.htm
 tech.root: DirectShow
 ms.assetid: b4098876-6c11-4cc6-8b6d-16edc02316f3
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudioMediaStream interface [DirectShow],described, IAudioMediaStreamInterface, austream/IAudioMediaStream, dshow.iaudiomediastream
 ms.prod: windows
 ms.technology: windows-sdk

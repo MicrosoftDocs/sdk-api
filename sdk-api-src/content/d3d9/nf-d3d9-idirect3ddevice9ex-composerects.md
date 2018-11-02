@@ -4,10 +4,10 @@ title: IDirect3DDevice9Ex::ComposeRects
 author: windows-sdk-content
 description: Copy a text string to one surface using an alphabet of glyphs on another surface. Composition is done by the GPU using bitwise operations.
 old-location: direct3d9\idirect3ddevice9ex_composerect.htm
-tech.root: Direct3D9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_composerect.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: 097e4733-c996-6415-2d0b-16df84b70922, ComposeRects, ComposeRects method [Direct3D 9], ComposeRects method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],ComposeRects method, IDirect3DDevice9Ex.ComposeRects, IDirect3DDevice9Ex::ComposeRects, d3d9/IDirect3DDevice9Ex::ComposeRects, direct3d9.idirect3ddevice9ex_composerect
 ms.prod: windows-hardware
 ms.technology: windows-devices

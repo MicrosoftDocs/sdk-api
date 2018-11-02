@@ -7,7 +7,7 @@ old-location: shell\SHSkipJunction.htm
 tech.root: shell
 ms.assetid: 73af64a4-57eb-43db-91bb-75fe7134ad28
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHSkipJunction, shell.SHSkipJunction, shlwapi/SHSkipJunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_BeginDraw.htm
 tech.root: direct2d
 ms.assetid: 0562b286-7427-4d76-b699-a39356496a0f
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: BeginDraw, BeginDraw method [Direct2D], BeginDraw method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],BeginDraw method, ID2D1RenderTarget.BeginDraw, ID2D1RenderTarget::BeginDraw, d2d1/ID2D1RenderTarget::BeginDraw, direct2d.ID2D1RenderTarget_BeginDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

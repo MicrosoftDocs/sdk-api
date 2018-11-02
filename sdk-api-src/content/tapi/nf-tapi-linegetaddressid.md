@@ -4,10 +4,10 @@ title: lineGetAddressID function
 author: windows-sdk-content
 description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line.
 old-location: tapi2\linegetaddressid.htm
-tech.root: TAPI
+tech.root: tapi
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 10/30/2018
 ms.keywords: "_tapi2_linegetaddressid, lineGetAddressID, lineGetAddressID function [TAPI 2.2], lineGetAddressIDA, lineGetAddressIDW, tapi/lineGetAddressID, tapi/lineGetAddressIDA, tapi/lineGetAddressIDW, tapi2.linegetaddressid"
 ms.prod: windows-hardware
 ms.technology: windows-devices

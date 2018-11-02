@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_rightbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: 67ca86cd-37a7-48ce-80d9-585d345e83fc
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IDvdControl interface [DirectShow],RightButtonSelect method, IDvdControl.RightButtonSelect, IDvdControl::RightButtonSelect, IDvdControlRightButtonSelect, RightButtonSelect, RightButtonSelect method [DirectShow], RightButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_rightbuttonselect, strmif/IDvdControl::RightButtonSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

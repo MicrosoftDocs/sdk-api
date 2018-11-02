@@ -7,7 +7,7 @@ old-location: winprog\verifierisperusersettingsenabled.htm
 tech.root: devnotes
 ms.assetid: 29ea23ca-cb11-4b88-8863-9893e94f4e20
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled function [Windows API], avrfsdk/VerifierIsPerUserSettingsEnabled, winprog.verifierisperusersettingsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

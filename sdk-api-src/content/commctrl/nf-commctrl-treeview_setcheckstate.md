@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetCheckState.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_addstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 64bbe28b-c167-4734-8ceb-5a36da4a0c70
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 64bbe28b-c167-4734-8ceb-5a36da4a0c70, AddStreamPrioritization, AddStreamPrioritization method [Media Foundation], AddStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],AddStreamPrioritization method, IMFASFProfile.AddStreamPrioritization, IMFASFProfile::AddStreamPrioritization, mf.imfasfprofile_addstreamprioritization, wmcontainer/IMFASFProfile::AddStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

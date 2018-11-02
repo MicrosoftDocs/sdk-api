@@ -7,7 +7,7 @@ old-location: mscs\iweextendpropertysheet.htm
 tech.root: mscs
 ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: IWEExtendPropertySheet, IWEExtendPropertySheet interface [Failover Cluster], IWEExtendPropertySheet interface [Failover Cluster],described, _wolf_iweextendpropertysheet, cluadmex/IWEExtendPropertySheet, mscs.iweextendpropertysheet
 ms.prod: windows
 ms.technology: windows-sdk

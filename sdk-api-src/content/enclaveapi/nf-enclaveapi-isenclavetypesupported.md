@@ -4,10 +4,10 @@ title: IsEnclaveTypeSupported function
 author: windows-sdk-content
 description: Retrieves whether the specified type of enclave is supported.
 old-location: base\isenclavetypesupported.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

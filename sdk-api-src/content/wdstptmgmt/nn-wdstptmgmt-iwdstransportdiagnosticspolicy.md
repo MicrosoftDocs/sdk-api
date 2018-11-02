@@ -4,10 +4,10 @@ title: IWdsTransportDiagnosticsPolicy
 author: windows-sdk-content
 description: Represents the diagnostics policy part of the WDS transport server's configuration.
 old-location: wds\iwdstransportdiagnosticspolicy.htm
-tech.root: Wds
+tech.root: wds
 ms.assetid: 01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],described, wds.iwdstransportdiagnosticspolicy, wdstptmgmt/IWdsTransportDiagnosticsPolicy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm
 tech.root: WinAuto
 ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: FindAllBuildCache, FindAllBuildCache method [Windows Accessibility], FindAllBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAllBuildCache method, IUIAutomationElement.FindAllBuildCache, IUIAutomationElement::FindAllBuildCache, uiauto.uiauto_IUIAutomationElement_FindAllBuildCache, uiauto_IUIAutomationElement_FindAllBuildCache, uiautomationclient/IUIAutomationElement::FindAllBuildCache, winauto.uiauto_IUIAutomationElement_FindAllBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Returns all UI Automation elements that satisfy the specified condition, prefetc
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A combination of values specifying the scope of the search.
 
 
 ### -param condition [in]
@@ -82,13 +84,6 @@ A pointer to a cache request that specifies the control patterns and properties 
 Type: <b><a href="https://msdn.microsoft.com/7ecf585c-ff3b-4f89-8a7d-e2de66650ab4">IUIAutomationElementArray</a>**</b>
 
 Receives a pointer to an array of matching elements. If there are no matches, <b>NULL</b> is returned. 
-
-
-#### - scope [in]
-
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
-
-A combination of values specifying the scope of the search.
 
 
 ## -returns

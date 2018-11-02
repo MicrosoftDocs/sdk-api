@@ -7,7 +7,7 @@ old-location: multimedia\acmgetversion.htm
 tech.root: Multimedia
 ms.assetid: 5a710149-0c3a-4dde-8069-db2e42826080
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windows Multimedia], msacm/acmGetVersion, multimedia.acmgetversion"
 ms.prod: windows-hardware
 ms.technology: windows-devices

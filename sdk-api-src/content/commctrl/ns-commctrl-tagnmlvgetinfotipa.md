@@ -7,7 +7,7 @@ old-location: controls\NMLVGETINFOTIP.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvgetinfotip.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: "*LPNMLVGETINFOTIPA, LPNMLVGETINFOTIP, LPNMLVGETINFOTIP structure pointer [Windows Controls], NMLVGETINFOTIP, NMLVGETINFOTIP structure [Windows Controls], NMLVGETINFOTIPA, NMLVGETINFOTIPW, _win32_NMLVGETINFOTIP, _win32_NMLVGETINFOTIP_cpp, commctrl/LPNMLVGETINFOTIP, commctrl/NMLVGETINFOTIP, commctrl/NMLVGETINFOTIPA, commctrl/NMLVGETINFOTIPW, controls.NMLVGETINFOTIP, controls._win32_NMLVGETINFOTIP, tagNMLVGETINFOTIPA"
 ms.prod: windows
 ms.technology: windows-sdk

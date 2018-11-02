@@ -7,7 +7,7 @@ old-location: perf\closeperformancedata.htm
 tech.root: perfctrs
 ms.assetid: fb97f68d-4992-4969-9b6b-ace26dcd3155
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: ClosePerformanceData, ClosePerformanceData callback function [Perf], PM_CLOSE_PROC, PM_CLOSE_PROC callback, base.closeperformancedata, perf.closeperformancedata, winperf/ClosePerformanceData
 ms.prod: windows
 ms.technology: windows-sdk

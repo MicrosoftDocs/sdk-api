@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_StrokeContainsPoint_D2D_POINT_2F_FLOAT_ptr_
 tech.root: direct2d
 ms.assetid: 5a031834-dc27-44f6-8344-0aa6958eff75
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],StrokeContainsPoint method, ID2D1Geometry.StrokeContainsPoint, ID2D1Geometry.StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL), ID2D1Geometry::StrokeContainsPoint, ID2D1Geometry::StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL), StrokeContainsPoint, StrokeContainsPoint method [Direct2D], StrokeContainsPoint method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::StrokeContainsPoint, direct2d.ID2D1Geometry_StrokeContainsPoint_D2D_POINT_2F_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL
 ms.prod: windows-hardware
 ms.technology: windows-devices

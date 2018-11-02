@@ -4,10 +4,10 @@ title: getprotobyname function
 author: windows-sdk-content
 description: The getprotobyname function retrieves the protocol information corresponding to a protocol name.
 old-location: winsock\getprotobyname_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 00669525-d477-4607-beaa-61ef5a8dbd4f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: "_win32_getprotobyname_2, getprotobyname, getprotobyname function [Winsock], winsock.getprotobyname_2, winsock/getprotobyname"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1.htm
 tech.root: medfound
 ms.assetid: 10E68945-6103-491D-8846-3B7C880FEAFD
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: ID3D11VideoDevice1, ID3D11VideoDevice1 interface [Media Foundation], ID3D11VideoDevice1 interface [Media Foundation],described, d3d11_1/ID3D11VideoDevice1, mf.id3d11videodevice1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleundomanager.htm
 tech.root: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 10/30/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager interface [COM],described, _ole_ioleundomanager, com.ioleundomanager, ocidl/IOleUndoManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\lsa_forest_trust_collision_record.htm
 tech.root: secauthn
 ms.assetid: 9f9d2f57-0e7f-4222-be35-e3f026b60e93
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: "*PLSA_FOREST_TRUST_COLLISION_RECORD, CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD, LSA_FOREST_TRUST_COLLISION_RECORD structure [Security], LSA_NB_DISABLED_ADMIN, LSA_NB_DISABLED_CONFLICT, LSA_SID_DISABLED_ADMIN, LSA_SID_DISABLED_CONFLICT, LSA_TLN_DISABLED_ADMIN, LSA_TLN_DISABLED_CONFLICT, LSA_TLN_DISABLED_NEW, PLSA_FOREST_TRUST_COLLISION_RECORD, PLSA_FOREST_TRUST_COLLISION_RECORD structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/PLSA_FOREST_TRUST_COLLISION_RECORD, security.lsa_forest_trust_collision_record"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\wcsgetcalibrationmanagementstate.htm
 tech.root: WCS
 ms.assetid: 1c069d20-3d99-497f-bd43-613b504355d8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/26/2018
 ms.keywords: WcsGetCalibrationManagementState, WcsGetCalibrationManagementState function [Windows Color System], icm/WcsGetCalibrationManagementState, wcs.wcsgetcalibrationmanagementstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

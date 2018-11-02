@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsensorgroupattributes.htm
 tech.root: medfound
 ms.assetid: 4EFC4615-AD97-4F58-9BEE-63F965DF8DDE
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: GetSensorGroupAttributes, GetSensorGroupAttributes method [Media Foundation], GetSensorGroupAttributes method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorGroupAttributes method, IMFSensorGroup.GetSensorGroupAttributes, IMFSensorGroup::GetSensorGroupAttributes, mf.imfsensorgroup_getsensorgroupattributes, mfidl/IMFSensorGroup::GetSensorGroupAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

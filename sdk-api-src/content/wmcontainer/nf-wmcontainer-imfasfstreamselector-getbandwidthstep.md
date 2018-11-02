@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getbandwidthstep.htm
 tech.root: medfound
 ms.assetid: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c
 ms.author: windowssdkdev
-ms.date: 10/16/2018
+ms.date: 10/30/2018
 ms.keywords: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c, GetBandwidthStep, GetBandwidthStep method [Media Foundation], GetBandwidthStep method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStep method, IMFASFStreamSelector.GetBandwidthStep, IMFASFStreamSelector::GetBandwidthStep, mf.imfasfstreamselector_getbandwidthstep, wmcontainer/IMFASFStreamSelector::GetBandwidthStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

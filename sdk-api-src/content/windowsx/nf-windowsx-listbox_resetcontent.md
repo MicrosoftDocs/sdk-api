@@ -7,7 +7,7 @@ old-location: controls\ListBox_ResetContent.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_resetcontent.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: ListBox_ResetContent, ListBox_ResetContent macro [Windows Controls], _win32_ListBox_ResetContent, _win32_ListBox_ResetContent_cpp, controls.ListBox_ResetContent, controls._win32_ListBox_ResetContent, windowsx/ListBox_ResetContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

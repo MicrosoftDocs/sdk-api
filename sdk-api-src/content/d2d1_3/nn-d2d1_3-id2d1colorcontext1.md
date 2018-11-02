@@ -7,7 +7,7 @@ old-location: direct2d\id2d1colorcontext1.htm
 tech.root: direct2d
 ms.assetid: 77C8730B-C753-48E7-89C1-FBE28E687704
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.keywords: ID2D1ColorContext1, ID2D1ColorContext1 interface [Direct2D], ID2D1ColorContext1 interface [Direct2D],described, d2d1_3/ID2D1ColorContext1, direct2d.id2d1colorcontext1
 ms.prod: windows
 ms.technology: windows-sdk

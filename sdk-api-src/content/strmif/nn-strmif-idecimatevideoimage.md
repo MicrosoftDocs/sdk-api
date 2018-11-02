@@ -7,7 +7,7 @@ old-location: dshow\idecimatevideoimage.htm
 tech.root: DirectShow
 ms.assetid: 0d338d41-546f-41da-bc1f-b1dd74b399ef
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], IDecimateVideoImage interface [DirectShow],described, IDecimateVideoImageInterface, dshow.idecimatevideoimage, strmif/IDecimateVideoImage
 ms.prod: windows
 ms.technology: windows-sdk

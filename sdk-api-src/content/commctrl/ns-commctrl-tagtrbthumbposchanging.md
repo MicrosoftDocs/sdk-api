@@ -7,7 +7,7 @@ old-location: controls\NMTRBTHUMBPOSCHANGING.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\trackbar\structures\nmtrbthumbposchanging.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 10/30/2018
 ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Controls], _shell_NMTRBTHUMBPOSCHANGING, _shell_NMTRBTHUMBPOSCHANGING_cpp, commctrl/NMTRBTHUMBPOSCHANGING, controls.NMTRBTHUMBPOSCHANGING, controls._shell_NMTRBTHUMBPOSCHANGING, tagTRBTHUMBPOSCHANGING
 ms.prod: windows
 ms.technology: windows-sdk

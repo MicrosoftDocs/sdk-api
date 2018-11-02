@@ -7,7 +7,7 @@ old-location: automat\dispgetidsofnames.htm
 tech.root: automat
 ms.assetid: 720a0237-9c68-4252-9f66-43610d4be106
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: DispGetIDsOfNames, DispGetIDsOfNames function [Automation], _oa96_DispGetIDsOfNames, automat.dispgetidsofnames, oleauto/DispGetIDsOfNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

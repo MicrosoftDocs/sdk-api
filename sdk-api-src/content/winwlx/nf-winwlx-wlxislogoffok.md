@@ -7,7 +7,7 @@ old-location: security\wlxislogoffok.htm
 tech.root: secauthn
 ms.assetid: fe718ae7-d19e-430c-8d84-41682dca30a1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 10/30/2018
 ms.keywords: WlxIsLogoffOk, WlxIsLogoffOk function [Security], _gina_wlxislogoffok, security.wlxislogoffok, winwlx/WlxIsLogoffOk
 ms.prod: windows-hardware
 ms.technology: windows-devices

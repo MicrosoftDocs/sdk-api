@@ -7,7 +7,7 @@ old-location: shell\IUserNotification_SetIconInfo.htm
 tech.root: shell
 ms.assetid: f9a3612e-8a25-48d5-8122-44d6aa217bab
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetIconInfo method, IUserNotification.SetIconInfo, IUserNotification::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetIconInfo, shell.IUserNotification_SetIconInfo, shobjidl_core/IUserNotification::SetIconInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

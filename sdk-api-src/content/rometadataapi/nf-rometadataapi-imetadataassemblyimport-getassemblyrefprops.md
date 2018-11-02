@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_getassemblyrefprops.htm
 tech.root: WinRT
 ms.assetid: b2a0d54f-dc9d-4c3c-80e7-725da985f23b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetAssemblyRefProps, GetAssemblyRefProps method [Windows Runtime], GetAssemblyRefProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyRefProps method, IMetaDataAssemblyImport.GetAssemblyRefProps, IMetaDataAssemblyImport::GetAssemblyRefProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyRefProps, winrt.imetadataassemblyimport_getassemblyrefprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

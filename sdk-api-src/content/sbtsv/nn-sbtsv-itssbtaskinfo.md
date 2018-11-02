@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo.htm
 tech.root: termserv
 ms.assetid: d24c1a64-e006-4229-a675-54f29b8ac1c2
 ms.author: windowssdkdev
-ms.date: 10/24/2018
+ms.date: 10/26/2018
 ms.keywords: ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], ITsSbTaskInfo interface [Remote Desktop Services],described, sbtsv/ITsSbTaskInfo, termserv.itssbtaskinfo
 ms.prod: windows
 ms.technology: windows-sdk

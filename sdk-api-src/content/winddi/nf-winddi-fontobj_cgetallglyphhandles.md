@@ -7,7 +7,7 @@ old-location: display\fontobj_cgetallglyphhandles.htm
 tech.root: display
 ms.assetid: b3901f9e-14e6-42c2-851c-47c0f386f2d3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.keywords: FONTOBJ_cGetAllGlyphHandles, FONTOBJ_cGetAllGlyphHandles function [Display Devices], display.fontobj_cgetallglyphhandles, gdifncs_b082dddb-7eb3-4676-a05b-8eb731d96fc4.xml, winddi/FONTOBJ_cGetAllGlyphHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

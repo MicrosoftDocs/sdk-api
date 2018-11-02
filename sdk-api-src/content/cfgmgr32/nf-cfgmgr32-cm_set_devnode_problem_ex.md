@@ -7,7 +7,7 @@ old-location: devinst\cm_set_devnode_problem_ex.htm
 tech.root: devinst
 ms.assetid: 2e3e2c3a-c507-4cc8-bc2c-823d0b597704
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.keywords: CM_Set_DevNode_Problem_Ex, CM_Set_DevNode_Problem_Ex function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem_Ex, cfgmgrfn_a2853e6a-afab-4725-bbe3-520605d515f0.xml, devinst.cm_set_devnode_problem_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

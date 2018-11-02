@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_Navigate.htm
 tech.root: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 10/30/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],Navigate method, IRawElementProviderFragment.Navigate, IRawElementProviderFragment::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_Navigate, uiauto_IRawElementProviderFragment_Navigate, uiautomationcore/IRawElementProviderFragment::Navigate, winauto.uiauto_IRawElementProviderFragment_Navigate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Retrieves the Microsoft UI Automation element in a specified direction within th
 
 
 
-### -param arg1
+### -param arg1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
+
+The direction in which to navigate.
 
 
 ### -param pRetVal [out, retval]
@@ -70,13 +72,6 @@ Type: <b><a href="https://msdn.microsoft.com/63539ba9-7f13-48cf-9c8a-74c03d31e2a
 Receives a pointer to the provider of the 
 				UI Automation element in the specified direction, or <b>NULL</b> if there is no element in that direction.
 				This parameter is passed uninitialized.
-
-
-#### - direction [in]
-
-Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
-
-The direction in which to navigate.
 
 
 ## -returns

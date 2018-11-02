@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_mouseselect.htm
 tech.root: DirectShow
 ms.assetid: c843bf51-ae05-4045-b517-52daeda6bc07
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 10/30/2018
 ms.keywords: IDvdControl interface [DirectShow],MouseSelect method, IDvdControl.MouseSelect, IDvdControl::MouseSelect, IDvdControlMouseSelect, MouseSelect, MouseSelect method [DirectShow], MouseSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_mouseselect, strmif/IDvdControl::MouseSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
