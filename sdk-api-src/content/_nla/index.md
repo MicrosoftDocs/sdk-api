@@ -2,7 +2,7 @@
 UID: TP:nla
 ms.assetid: bab08dd3-cacc-3530-8910-b8ce6776ff7b
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

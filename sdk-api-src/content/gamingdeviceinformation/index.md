@@ -2,7 +2,7 @@
 UID: NA:gamingdeviceinformation
 ms.assetid: 8c71f935-bf26-32e3-bf34-165c7cef73fc
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

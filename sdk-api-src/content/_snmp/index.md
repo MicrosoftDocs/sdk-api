@@ -2,7 +2,7 @@
 UID: TP:snmp
 ms.assetid: ba20b313-5fd0-3d24-a094-f411706096ba
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

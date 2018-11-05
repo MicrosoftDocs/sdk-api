@@ -2,7 +2,7 @@
 UID: TP:wsl
 ms.assetid: 6050dbda-ec04-3dd4-a492-e2713ff71245
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

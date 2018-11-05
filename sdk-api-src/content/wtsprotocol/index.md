@@ -2,7 +2,7 @@
 UID: NA:wtsprotocol
 ms.assetid: ae3052a1-4a72-3aa4-a6f7-f7a0dcafde83
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

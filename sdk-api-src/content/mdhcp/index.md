@@ -2,7 +2,7 @@
 UID: NA:mdhcp
 ms.assetid: 9fecc8de-4b0b-3d1e-9525-ef036e769a5e
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

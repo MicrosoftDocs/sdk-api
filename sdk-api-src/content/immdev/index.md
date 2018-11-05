@@ -2,7 +2,7 @@
 UID: NA:immdev
 ms.assetid: 5b6a3964-dc81-322f-bed5-9efda946f817
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:shlwapi
 ms.assetid: a1a621f3-b5d8-3e28-be79-d135eb0e6b8d
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:ual
 ms.assetid: fa81b147-e0d7-36ae-8648-c11cf8644f80
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:magnification
 ms.assetid: cb8295d2-6c8b-3365-8953-0b38039c6e5c
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

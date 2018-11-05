@@ -2,7 +2,7 @@
 UID: NA:rometadata
 ms.assetid: c5190fb6-efe5-3aff-b878-deadbdfbc1c6
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

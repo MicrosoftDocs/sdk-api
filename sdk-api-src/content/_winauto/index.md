@@ -2,7 +2,7 @@
 UID: TP:winauto
 ms.assetid: 36f74dca-3718-33e7-a3b8-2c7b0e5e736b
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

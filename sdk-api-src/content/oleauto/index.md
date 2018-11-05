@@ -2,7 +2,7 @@
 UID: NA:oleauto
 ms.assetid: e26901c1-bc65-3702-b165-f54f14890afe
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

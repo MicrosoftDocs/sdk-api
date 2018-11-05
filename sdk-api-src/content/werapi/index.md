@@ -2,7 +2,7 @@
 UID: NA:werapi
 ms.assetid: 742a570f-0083-381a-b67e-189ee442556e
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
