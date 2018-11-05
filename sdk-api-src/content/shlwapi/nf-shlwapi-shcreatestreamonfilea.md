@@ -77,7 +77,7 @@ A pointer to a null-terminated string that specifies the file name.
 
 Type: <b>DWORD</b>
 
-One or more <a href="stg.stgm">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
+One or more <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
 
 
 ### -param ppstm [out]
@@ -103,7 +103,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/f948f7dd-987d-4c2d-b650-62081133c3f4">SHCreateStreamOnFileEx</a> fully supports all <a href="stg.stgm">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
+<a href="https://msdn.microsoft.com/f948f7dd-987d-4c2d-b650-62081133c3f4">SHCreateStreamOnFileEx</a> fully supports all <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
 
 
 

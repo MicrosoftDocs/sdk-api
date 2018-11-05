@@ -126,7 +126,7 @@ There is insufficient memory to complete this operation.
 
 
 
-The <b>CoGetPSClsid</b> function looks at the <b>HKEY_CLASSES_ROOT</b>\<b>Interfaces</b>\<i>{string form of riid}</i>\<b>ProxyStubClsid32</b> key in the registry to determine the CLSID of the DLL to load in order to create the proxy and stub for the interface specified by <i>riid</i>. This function also returns the CLSID for any interface IID registered by <a href="https://msdn.microsoft.com/a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6">CoRegisterPSClsid</a> within the current process.
+The <b>CoGetPSClsid</b> function looks at the <b>HKEY_CLASSES_ROOT</b>\<b>Interfaces</b>\<i>{string form of riid}</i>\<b>ProxyStubClsid32</b> key in the registry to determine the CLSID of the DLL to load in order to create the proxy and stub for the interface specified by <i>riid</i>. This function also returns the CLSID for any interface IID registered by <a href="https://msdn.microsoft.com/en-us/library/ms690518(v=VS.85).aspx">CoRegisterPSClsid</a> within the current process.
 
 
 
@@ -136,7 +136,7 @@ The <b>CoGetPSClsid</b> function looks at the <b>HKEY_CLASSES_ROOT</b>\<b>Interf
 
 
 
-<a href="https://msdn.microsoft.com/a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6">CoRegisterPSClsid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690518(v=VS.85).aspx">CoRegisterPSClsid</a>
  
 
  

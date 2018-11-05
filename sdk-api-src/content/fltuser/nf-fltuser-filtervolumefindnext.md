@@ -167,7 +167,7 @@ No more volumes were found in the list of volumes known to the filter manager.
 
 After the search handle is established by calling <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>, use the <b>FilterVolumeFindNext</b> function to search for other volumes.  <b>FilterVolumeFindNext</b> finds one volume per call.
 
-Note that when using <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a> and <b>FilterVolumeFindNext</b> to enumerate the list of volumes known to the filter manager, it is possible for two or more of the volumes in the list to have the same name.  For more information, see <a href="ifsk.understanding_volume_enumerations_with_duplicate_volume_names">Understanding Volume Enumerations with Duplicate Volume Names</a>.
+Note that when using <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a> and <b>FilterVolumeFindNext</b> to enumerate the list of volumes known to the filter manager, it is possible for two or more of the volumes in the list to have the same name.  For more information, see <a href="https://msdn.microsoft.com/library/Ff557237(v=VS.85).aspx">Understanding Volume Enumerations with Duplicate Volume Names</a>.
 
 
 

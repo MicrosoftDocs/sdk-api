@@ -61,23 +61,23 @@ Updates the dirty portions of a texture.
 
 ### -param pSourceTexture [in]
 
-Type: <b><a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a> interface, representing the source texture. The source texture must be in system memory (D3DPOOL_SYSTEMMEM). 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a> interface, representing the source texture. The source texture must be in system memory (D3DPOOL_SYSTEMMEM). 
 
 
 ### -param pDestinationTexture [in]
 
-Type: <b><a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a> interface, representing the destination texture. The destination texture must be in the D3DPOOL_DEFAULT memory pool. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a> interface, representing the destination texture. The destination texture must be in the D3DPOOL_DEFAULT memory pool. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -92,21 +92,21 @@ You can dirty a portion of a texture by locking it, or by calling one of the fol
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/377536bd-c55c-4ec8-a07c-5addd8e84c3a">IDirect3DCubeTexture9::AddDirtyRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174330(v=VS.85).aspx">IDirect3DCubeTexture9::AddDirtyRect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/71b091d7-d49f-40e8-9068-d97c6ce960b8">IDirect3DTexture9::AddDirtyRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205910(v=VS.85).aspx">IDirect3DTexture9::AddDirtyRect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f09d099f-d1c1-48c6-a709-f8da2e3e8db1">IDirect3DVolumeTexture9::AddDirtyBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205942(v=VS.85).aspx">IDirect3DVolumeTexture9::AddDirtyBox</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/303a4224-9c5d-4fc6-a7c5-168f18166e3c">IDirect3DDevice9::UpdateSurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205857(v=VS.85).aspx">IDirect3DDevice9::UpdateSurface</a>
 </li>
 </ul>
 <b>IDirect3DDevice9::UpdateTexture</b> retrieves the dirty portions of the texture by calculating what has been accumulated since the last update operation.
 
-For performance reasons, dirty regions are only recorded for level zero of a texture. For sublevels, it is assumed that the corresponding (scaled) rectangle or box is also dirty. Dirty regions are automatically recorded when LockRect or <a href="https://msdn.microsoft.com/732f7711-a71b-4470-824e-4ea0b47e64f7">IDirect3DVolumeTexture9::LockBox</a> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. Also, the destination surface of <a href="https://msdn.microsoft.com/303a4224-9c5d-4fc6-a7c5-168f18166e3c">IDirect3DDevice9::UpdateSurface</a> is marked dirty.
+For performance reasons, dirty regions are only recorded for level zero of a texture. For sublevels, it is assumed that the corresponding (scaled) rectangle or box is also dirty. Dirty regions are automatically recorded when LockRect or <a href="https://msdn.microsoft.com/en-us/library/Bb205945(v=VS.85).aspx">IDirect3DVolumeTexture9::LockBox</a> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. Also, the destination surface of <a href="https://msdn.microsoft.com/en-us/library/Bb205857(v=VS.85).aspx">IDirect3DDevice9::UpdateSurface</a> is marked dirty.
 
 This method fails if the textures are of different types, if their bottom-level buffers are of different sizes, or if their matching levels do not match. For example, consider a six-level source texture with the following dimensions.
     
@@ -178,11 +178,11 @@ Here are the possibilities for source and destination surface combinations:
 
 
 
-<a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

@@ -70,7 +70,7 @@ A tag that identifies a specific battery.
 
 ### -field Granularity
 
-Specifies the granularity as a <a href="https://msdn.microsoft.com/aea1d82d-39b8-4535-a5c3-fb987be1e43c">BATTERY_REPORTING_SCALE</a> value.
+Specifies the granularity as a <a href="https://msdn.microsoft.com/en-us/library/Ff536289(v=VS.85).aspx">BATTERY_REPORTING_SCALE</a> value.
 
 
 ### -field Capabilities
@@ -139,7 +139,7 @@ The capacity, in milliwatt-hours, at which a warning battery alert should occur.
 
 ### -field CriticalBias
 
-Specify the amount, in milliwatt-hours, of any small reserved charge that remains when the critical battery level shows zero. Miniclass drivers should subtract this value from the battery's <b>FullChargedCapacity</b> and remaining capacity, which is reported in <a href="https://msdn.microsoft.com/48df787b-f9f6-45d1-872c-ceeda3087af6">BATTERY_STATUS</a>, before reporting those values.
+Specify the amount, in milliwatt-hours, of any small reserved charge that remains when the critical battery level shows zero. Miniclass drivers should subtract this value from the battery's <b>FullChargedCapacity</b> and remaining capacity, which is reported in <a href="https://msdn.microsoft.com/en-us/library/Ff536290(v=VS.85).aspx">BATTERY_STATUS</a>, before reporting those values.
 
 
 ### -field Strings
@@ -149,7 +149,7 @@ Four variable length string values are stored with the first USHORT value contai
 
 #### - WCHAR
 
-A <a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a> structure that specifies the date that the battery was manufactured. 
+A <a href="https://msdn.microsoft.com/en-us/library/Ff536284(v=VS.85).aspx">BATTERY_MANUFACTURE_DATE</a> structure that specifies the date that the battery was manufactured. 
 
 
 ## -see-also
@@ -157,7 +157,7 @@ A <a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATT
 
 
 
-<a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff536284(v=VS.85).aspx">BATTERY_MANUFACTURE_DATE</a>
  
 
  

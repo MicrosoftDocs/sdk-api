@@ -234,7 +234,7 @@ A handle of the connected card (either through an internal dialog box connect or
 
 
 
-<a href="authentication_return_values.htm">Smart Card Return Values</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>
  
 
  

@@ -144,7 +144,7 @@ This method is not yet implemented.
 
 
 The application must use 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppOriginator</i> parameter.
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppOriginator</i> parameter.
 
 The originator's name, along with the machine name set in 
 <a href="https://msdn.microsoft.com/f4af55b1-e20b-4fe8-a15e-a1a68d22f1b9">put_MachineAddress</a>, are collectively the originator of the conference, and both are in the o= line of the SDP.

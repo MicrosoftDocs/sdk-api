@@ -60,7 +60,7 @@ Expands strings containing unexpanded references to environment variables. The <
 
 ### -param pszSrc [in]
 
-Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="e_gly.htm">expandable string</a>).
+Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="https://msdn.microsoft.com/en-us/library/Aa369570(v=VS.85).aspx">expandable string</a>).
 
 
 ## -returns

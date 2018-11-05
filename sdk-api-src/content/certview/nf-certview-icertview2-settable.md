@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a> interface.
+The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a> interface.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ Specifies the Certificate Services database table to use for subsequent calls. T
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> table is used for subsequent calls.
+The <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">attributes</a> table is used for subsequent calls.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">at
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) table is used for subsequent calls.
+The <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) table is used for subsequent calls.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The table of pending requests, denied requests, issued certificates, and revoked
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -135,7 +135,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Before calling the <b>SetTable</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
 
 If the <b>SetTable</b> method is not called, then the default table  CVRC_TABLE_REQCERT is used.
 

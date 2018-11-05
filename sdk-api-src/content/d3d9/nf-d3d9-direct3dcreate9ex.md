@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a> object and returns an interface to it.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a> object and returns an interface to it.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ TBD
 
 #### - arg2 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a> interface, representing the
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a> interface, representing the
           created <b>IDirect3D9Ex</b> object. If the function fails, <b>NULL</b> is inserted here.
 
 
@@ -85,7 +85,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47f
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 <ul>
 <li><b>D3DERR_NOTAVAILABLE</b> if Direct3DEx features are not supported (no WDDM driver is
@@ -101,12 +101,12 @@ Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 
-The <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a> object is the first object that the application creates and the
+The <a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a> object is the first object that the application creates and the
         last object thta the application releases. Functions for enumerating and retrieving
         capabilities of a device are accessible through the <b>IDirect3D9Ex</b> object.
         This enables applications to select devices without creating them.
 
-The <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a> interface supports enumeration of active display adapters
+The <a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a> interface supports enumeration of active display adapters
         and allows the creation of <b>IDirect3D9Ex</b> objects. If the user dynamically adds
         adapters (either by adding devices to the desktop, or by hot-docking a laptop), these
         devices are not included in the enumeration. Creating a new <b>IDirect3D9Ex</b>interface will expose the new devices.
@@ -118,16 +118,16 @@ Pass the <b>D3D_SDK_VERSION</b> flag to this function to ensure that header file
         header file and the runtime DLL do not match.
 
 <div class="alert"><b>Note</b>  <b>Direct3DCreate9Ex</b> is supported only in Windows Vista, Windows Server 2008, and Windows 7.  
-        Earlier versions of the D3D9.dll library do not include <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">Direct3D9Ex</a> and <b>Direct3DCreate9Ex</b>.</div>
+        Earlier versions of the D3D9.dll library do not include <a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">Direct3D9Ex</a> and <b>Direct3DCreate9Ex</b>.</div>
 <div> </div>
 
 #### Examples
 
 Creating an IDirect3D9Ex object.
 
-The following code example demonstrates how to create an <a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a> object
+The following code example demonstrates how to create an <a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a> object
           using <b>Direct3DCreate9Ex</b>.  This example then uses the <b>IDirect3D9Ex</b> object to 
-    create an <a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a> object, which is returned as an out parameter to
+    create an <a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a> object, which is returned as an out parameter to
     the function.
 
 <div class="code"></div>
@@ -182,7 +182,7 @@ HRESULT InitD3D9Ex( /* IN */ HWND hWnd, /* OUT */ IDirect3DDevice9Ex ** ppD3DDev
 Checking for Direct3D9Ex.
 
 The following code example demonstrates how to check for the existence of <b>Direct3DCreate9Ex</b>and fail on platforms that do not support it. You can use this code in a game launcher to present 
-    an error message to the user or to load a renderer that uses the <a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a> interface instead.
+    an error message to the user or to load a renderer that uses the <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> interface instead.
 
 To check for <b>Direct3DCreate9Ex</b>, this example explicitly loads the D3D9.dll
           library using the Win32 <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.  The example then assigns the
@@ -235,7 +235,7 @@ HRESULT CheckD3D9Ex( void )
 ```
 
 
-Note that you may cast an <a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a> interface pointer to an <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface pointer because the extended version is inherited. This makes it possible to use the extended device with existing Direct3D 9 code, except where the new device changes the semantics of the interface.  For more information about differences between the two interfaces, see <a href="https://msdn.microsoft.com/3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5">device behavior changes</a>.
+Note that you may cast an <a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a> interface pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface pointer because the extended version is inherited. This makes it possible to use the extended device with existing Direct3D 9 code, except where the new device changes the semantics of the interface.  For more information about differences between the two interfaces, see <a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">device behavior changes</a>.
 
 <div class="code"></div>
 

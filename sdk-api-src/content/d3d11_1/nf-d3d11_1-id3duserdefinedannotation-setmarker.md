@@ -86,7 +86,7 @@ A user can visualize the marker when the calling application is running under an
 #### Examples
 
 The following code shows how to use <b>SetMarker</b>.
-          It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
+          It also uses the <a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a> smart pointer type.
 
 
 ```
@@ -125,7 +125,7 @@ pPerf->SetMarker( L”Occlusion test failed- not drawing sun flare” );
 
 
 
-<a href="https://msdn.microsoft.com/255DE24B-3D6D-49D9-B6A8-D296AB99B4C9">ID3DUserDefinedAnnotation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446881(v=VS.85).aspx">ID3DUserDefinedAnnotation</a>
  
 
  

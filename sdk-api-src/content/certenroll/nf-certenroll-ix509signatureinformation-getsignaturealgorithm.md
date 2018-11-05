@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>GetSignatureAlgorithm</b> method retrieves the signing algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The <b>GetSignatureAlgorithm</b> method retrieves the signing algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A <b>VARIANT_BOOL</b> variable that specifies whether an algorithm that is only 
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> interface that represents the algorithm OID.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> interface that represents the algorithm OID.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Address of a variable that receives a pointer to an <a href="https://msdn.micros
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 </dl>
 </td>
 <td width="60%">
-The hashing algorithm  OID, or the <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a> property has not been specified but the signing algorithm OID cannot be found.
+The hashing algorithm  OID, or the <a href="https://msdn.microsoft.com/en-us/library/Aa379056(v=VS.85).aspx">NullSigned</a> property has not been specified but the signing algorithm OID cannot be found.
 
 </td>
 </tr>
@@ -120,29 +120,29 @@ The combined signature algorithm could not be found.
 
 
 
-This method searches for a cached signing algorithm that is consistent with the input parameters. If none is found, the method uses the input parameters plus the values assigned to various <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> properties as indicated by the following list.<ul>
+This method searches for a cached signing algorithm that is consistent with the input parameters. If none is found, the method uses the input parameters plus the values assigned to various <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> properties as indicated by the following list.<ul>
 <li>
-<i>Pkcs7Signature</i> = true, <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a> = true
+<i>Pkcs7Signature</i> = true, <a href="https://msdn.microsoft.com/en-us/library/Aa379056(v=VS.85).aspx">NullSigned</a> = true
 
 This case represents a null-signed PKCS #7 certificate request.  The method returns the XCN_OID_PKIX_NO_SIGNATURE (1.3.6.1.5.5.7.6.2) OID.
 
 </li>
 <li>
-<i>Pkcs7Signature</i> = true, <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a> = false
+<i>Pkcs7Signature</i> = true, <a href="https://msdn.microsoft.com/en-us/library/Aa379056(v=VS.85).aspx">NullSigned</a> = false
 
-This case retrieves  a discrete signature algorithm OID for a PKCS #7 request that is not null-signed. The discrete signature requires that the <a href="https://msdn.microsoft.com/b5242975-50e5-49d6-be1f-3a09ada03593">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> properties be set. In the special case where  the public key algorithm is XCN_OID_X957_DSA and the hashing algorithm is not XCN_OID_OIWSEC_sha1, the signature algorithm OID retrieved is XCN_OID_X957_SHA1DSA (1.2.840.10040.4.3).
-
-</li>
-<li>
-<i>Pkcs7Signature</i> = false, <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a> = false, <a href="https://msdn.microsoft.com/e62ecdf1-56d8-4707-8e5d-deef4d79a34c">AlternateSignatureAlgorithm</a> = true
-
-This case retrieves  a discrete signature algorithm OID for a PKCS #10 request and encodes the hash algorithm OID in the <a href="https://msdn.microsoft.com/cb5675d5-cf06-4407-a7fd-b703a56cacba">Parameters</a> property. The <a href="https://msdn.microsoft.com/b5242975-50e5-49d6-be1f-3a09ada03593">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> properties must be set.
+This case retrieves  a discrete signature algorithm OID for a PKCS #7 request that is not null-signed. The discrete signature requires that the <a href="https://msdn.microsoft.com/en-us/library/Aa379054(v=VS.85).aspx">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379059(v=VS.85).aspx">PublicKeyAlgorithm</a> properties be set. In the special case where  the public key algorithm is XCN_OID_X957_DSA and the hashing algorithm is not XCN_OID_OIWSEC_sha1, the signature algorithm OID retrieved is XCN_OID_X957_SHA1DSA (1.2.840.10040.4.3).
 
 </li>
 <li>
-<i>Pkcs7Signature</i> = false, <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a> = false, <a href="https://msdn.microsoft.com/e62ecdf1-56d8-4707-8e5d-deef4d79a34c">AlternateSignatureAlgorithm</a> = false
+<i>Pkcs7Signature</i> = false, <a href="https://msdn.microsoft.com/en-us/library/Aa379056(v=VS.85).aspx">NullSigned</a> = false, <a href="https://msdn.microsoft.com/en-us/library/Aa965846(v=VS.85).aspx">AlternateSignatureAlgorithm</a> = true
 
-This case retrieves  a discrete signature algorithm OID for a PKCS #7 request. The <a href="https://msdn.microsoft.com/b5242975-50e5-49d6-be1f-3a09ada03593">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> properties must be set.
+This case retrieves  a discrete signature algorithm OID for a PKCS #10 request and encodes the hash algorithm OID in the <a href="https://msdn.microsoft.com/en-us/library/Aa379057(v=VS.85).aspx">Parameters</a> property. The <a href="https://msdn.microsoft.com/en-us/library/Aa379054(v=VS.85).aspx">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379059(v=VS.85).aspx">PublicKeyAlgorithm</a> properties must be set.
+
+</li>
+<li>
+<i>Pkcs7Signature</i> = false, <a href="https://msdn.microsoft.com/en-us/library/Aa379056(v=VS.85).aspx">NullSigned</a> = false, <a href="https://msdn.microsoft.com/en-us/library/Aa965846(v=VS.85).aspx">AlternateSignatureAlgorithm</a> = false
+
+This case retrieves  a discrete signature algorithm OID for a PKCS #7 request. The <a href="https://msdn.microsoft.com/en-us/library/Aa379054(v=VS.85).aspx">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379059(v=VS.85).aspx">PublicKeyAlgorithm</a> properties must be set.
 
 </li>
 </ul>
@@ -156,7 +156,7 @@ This case retrieves  a discrete signature algorithm OID for a PKCS #7 request. T
 
 
 
-<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
  
 
  
