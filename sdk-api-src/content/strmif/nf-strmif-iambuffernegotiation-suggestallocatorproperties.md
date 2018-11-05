@@ -139,23 +139,19 @@ To request a particular number of buffers, set the <b>cBuffers</b> member of the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ALLOCATOR_PROPERTIES AllocProp;
 AllocProp.cbAlign = -1;  // -1 means no preference.
 AllocProp.cbBuffer = dwBytesPerSec *  dwLatencyInMilliseconds / 1000;
 AllocProp.cbPrefix = -1;
 AllocProp.cBuffers = -1;
-pIAMBufferNegotiation-&gt;SuggestAllocatorProperties(&amp;AllocProp);
-</pre>
-</td>
-</tr>
-</table></span></div>
+pIAMBufferNegotiation->SuggestAllocatorProperties(&AllocProp);
+
+```
+
+
 
 
 

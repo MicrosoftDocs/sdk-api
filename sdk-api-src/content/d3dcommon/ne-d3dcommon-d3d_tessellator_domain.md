@@ -99,17 +99,13 @@ The data domain defines the type of data. This enumeration is used by <a href="h
 
 The <b>D3D11_TESSELLATOR_DOMAIN</b>     enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://msdn.microsoft.com/9a62f3f4-b9d9-4aed-952e-00f3ad6aafd1">D3D_TESSELLATOR_DOMAIN</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-typedef D3D_TESSELLATOR_DOMAIN D3D11_TESSELLATOR_DOMAIN;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+typedef D3D_TESSELLATOR_DOMAIN D3D11_TESSELLATOR_DOMAIN;
+```
+
+
 
 
 

@@ -108,14 +108,10 @@ The directory path should be in the form of A:,B:, ..., Z:. The file path should
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;iostream.h&gt;
+
+```cpp
+#include <windows.h>
+#include <iostream.h>
 #include "Shlwapi.h"
 
 void main( void )
@@ -135,12 +131,12 @@ char buffer_3[ ] = "C:";
 char *lpStr3;
 lpStr3 = buffer_3;
 
-cout &lt;&lt; "The file path to be combined is  " 
-     &lt;&lt; lpStr2 &lt;&lt; endl;
-cout &lt;&lt; "The directory name path is       " 
-     &lt;&lt; lpStr3 &lt;&lt; endl;
-cout &lt;&lt; "The combined path is             " 
-     &lt;&lt; PathCombine(lpStr1,lpStr3,lpStr2) &lt;&lt; endl;
+cout << "The file path to be combined is  " 
+     << lpStr2 << endl;
+cout << "The directory name path is       " 
+     << lpStr3 << endl;
+cout << "The combined path is             " 
+     << PathCombine(lpStr1,lpStr3,lpStr2) << endl;
 }
 
 ------------
@@ -153,9 +149,9 @@ OUTPUT:
 ------------
 The file path to be combined is  One\Two\Three
 The directory name path is       C:
-The combined path is             C:\One\Two\Three</pre>
-</td>
-</tr>
-</table></span></div>
+The combined path is             C:\One\Two\Three
+```
+
+
 
 

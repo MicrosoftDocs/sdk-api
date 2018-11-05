@@ -130,13 +130,9 @@ If <b>TWF_WANTPALM</b> is enabled, packets from touch input are not buffered and
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    HWND hWnd;
@@ -158,10 +154,10 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    return TRUE;
 }	 
-	 </pre>
-</td>
-</tr>
-</table></span></div>
+	 
+```
+
+
 
 
 

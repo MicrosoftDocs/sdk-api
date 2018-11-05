@@ -126,31 +126,31 @@ The following diagrams show the most common arrangements.
 
 <h3><a id="4_4_4_horizontally_and_vertically_cosited._________"></a><a id="4_4_4_HORIZONTALLY_AND_VERTICALLY_COSITED._________"></a>4:4:4 horizontally and vertically cosited.
         </h3>
-<img alt="Diagram showing 4x4 grid; each cell contains two circles--one for luma and one for chroma " border="" src="images/1a4cc0bf-87e4-4695-a14f-2f8a653f7ba9.gif"/>
+<img alt="Diagram showing 4x4 grid; each cell contains two circles--one for luma and one for chroma " border="" src="./images/1a4cc0bf-87e4-4695-a14f-2f8a653f7ba9.gif"/>
 <h3><a id="4_2_2_horizontally_and_vertically_cosited._________"></a><a id="4_2_2_HORIZONTALLY_AND_VERTICALLY_COSITED._________"></a>4:2:2 horizontally and vertically cosited.
         </h3>
-<img alt="Diagram similar to the original one, but cells in the second and fourth columns have luma but not chroma" border="" src="images/11280687-7d75-4b6d-9e69-d78d767f3491.gif"/>
+<img alt="Diagram similar to the original one, but cells in the second and fourth columns have luma but not chroma" border="" src="./images/11280687-7d75-4b6d-9e69-d78d767f3491.gif"/>
 <h3><a id="4_1_1_horizontally_and_vertically_cosited._________"></a><a id="4_1_1_HORIZONTALLY_AND_VERTICALLY_COSITED._________"></a>4:1:1 horizontally and vertically cosited.
         </h3>
-<img alt="Diagram similar to the original one, but only cells in the first column contain chroma " border="" src="images/7443405f-735c-44fd-ad09-613f696eadf3.gif"/>
+<img alt="Diagram similar to the original one, but only cells in the first column contain chroma " border="" src="./images/7443405f-735c-44fd-ad09-613f696eadf3.gif"/>
 <h3><a id="4_2_0_progressive__horizontally_cosited._________"></a><a id="4_2_0_PROGRESSIVE__HORIZONTALLY_COSITED._________"></a>4:2:0 progressive, horizontally cosited.
         </h3>
-<img alt="Diagram similar to the original one, but chroma circles appear only on odd-numbered row boundaries in odd-numbered columns" border="" src="images/ba14c38b-bcab-4e68-ab24-e4a9162ce12f.gif"/>
+<img alt="Diagram similar to the original one, but chroma circles appear only on odd-numbered row boundaries in odd-numbered columns" border="" src="./images/ba14c38b-bcab-4e68-ab24-e4a9162ce12f.gif"/>
 Example: MPEG-2 progressive.
 
 <h3><a id="4_2_0_progressive__not_cosited_horizontally_or_vertically._________"></a><a id="4_2_0_PROGRESSIVE__NOT_COSITED_HORIZONTALLY_OR_VERTICALLY._________"></a>4:2:0 progressive, not cosited horizontally or vertically.
         </h3>
-<img alt="Diagram similar to the original one, but chroma circles appear only at intersections of odd-numbered row boundaries and odd-numbered columns boundaries" border="" src="images/6fec0c32-14a9-43d2-9703-f3e5df2dc7a0.gif"/>
+<img alt="Diagram similar to the original one, but chroma circles appear only at intersections of odd-numbered row boundaries and odd-numbered columns boundaries" border="" src="./images/6fec0c32-14a9-43d2-9703-f3e5df2dc7a0.gif"/>
 Example: JPEG progressive.
 
 <h3><a id="4_2_0_interlaced__vertically_cosited__chroma_planes_out_of_phase._________"></a><a id="4_2_0_INTERLACED__VERTICALLY_COSITED__CHROMA_PLANES_OUT_OF_PHASE._________"></a>4:2:0 interlaced, vertically cosited; chroma planes out of phase.
         </h3>
-<img alt="Diagram showing two 4x4 matrices; one is lower than the other by half the width of a row, and chroma circles in each column alternate between Cr and Cb" border="" src="images/f75760b6-59d2-4865-803d-e7ea5dd65914.gif"/>
+<img alt="Diagram showing two 4x4 matrices; one is lower than the other by half the width of a row, and chroma circles in each column alternate between Cr and Cb" border="" src="./images/f75760b6-59d2-4865-803d-e7ea5dd65914.gif"/>
 Example: DV PAL interlaced.
 
 <h3><a id="4_2_0_interlaced__horizontally_cosited._________"></a><a id="4_2_0_INTERLACED__HORIZONTALLY_COSITED._________"></a>4:2:0 interlaced, horizontally cosited.
         </h3>
-<img alt="Diagram showing two instances of the fourth diagram; one is lower than the other by half the width of a row" border="" src="images/c09b7773-fcb7-4949-a894-1d35a113ed9b.gif"/>
+<img alt="Diagram showing two instances of the fourth diagram; one is lower than the other by half the width of a row" border="" src="./images/c09b7773-fcb7-4949-a894-1d35a113ed9b.gif"/>
 Example: MPEG-2 interlaced.
 
 This enumeration is equivalent to the DXVA_VideoChromaSubsampling enumeration used in DXVA 1.0.

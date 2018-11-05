@@ -112,13 +112,9 @@ Even if the value of the <i>connect</i> parameter is <b>TRUE</b>, this method mi
 
 The following example creates two <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> objects: <i>path1</i> and <i>path2</i>. The code adds an open figure consisting of an arc and a Bézier spline to each path. The code calls the <b>GraphicsPath::AddPath</b> method of <i>path1</i> to add <i>path2</i> to <i>path1</i>. The second argument is <b>TRUE</b>, which specifies that all four items (two arcs and two Bézier splines) belong to the same figure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID AddPathExample(HDC hdc)
+
+```cpp
+VOID AddPathExample(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -130,14 +126,14 @@ The following example creates two <a href="https://msdn.microsoft.com/1072a5cc-4
    path2.AddArc(10, 110, 50, 20, 0.0f, 150.0f);
    path2.AddBezier(10, 150, 60, 150, 10, 180, 60, 180);
  
-   path1.AddPath(&amp;path2, TRUE);
+   path1.AddPath(&path2, TRUE);
 
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;pen, &amp;path1);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPath(&pen, &path1);
+}
+```
+
+
 
 
 

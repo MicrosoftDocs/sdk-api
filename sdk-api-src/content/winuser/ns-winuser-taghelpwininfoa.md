@@ -177,13 +177,9 @@ To calculate <b>wStructSize</b> properly, the actual size of the string to be st
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WORD wSize;
+
+```
+WORD wSize;
 TCHAR *szWndName = TEXT("wnd_menu"); 
 size_t NameLength;  
 HRESULT hr;
@@ -191,7 +187,7 @@ HELPWININFO hwi;
 
 // StringCbLength returns the length of the string without 
 // the terminating null character.
-hr = StringCbLength(szWndName, STRSAFE_MAX_CCH * sizeof(TCHAR), &amp;NameLength);
+hr = StringCbLength(szWndName, STRSAFE_MAX_CCH * sizeof(TCHAR), &NameLength);
     
 if (SUCCEEDED(hr))
 {
@@ -203,9 +199,9 @@ if (SUCCEEDED(hr))
     
     // Determine the total size of the final HELPWININFO structure.
     hwi.wStructSize = wSize + NameLength;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

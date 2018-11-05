@@ -132,7 +132,7 @@ where x is the input time stamp, r is the rate, and xi is the x-intercept for th
 
 
 
-<img alt="A diagram showing the relation between input time stamps and output time stamps." src="images/dvd_ratechange.png"/>
+<img alt="A diagram showing the relation between input time stamps and output time stamps." src="./images/dvd_ratechange.png"/>
 
 The decoder can calculate the x-intercept as follows. Given:
 
@@ -157,7 +157,7 @@ The unknown xi2 can be found by setting y = r2(x - xi2) = r1(x - xi1) and solvin
 
     xi2 = (r1 / r2)(xi1 - x) + x
 
-<img alt="A diagram showing the x intercept of the r2." src="images/dvd_rate_change2.png"/>
+<img alt="A diagram showing the x intercept of the r2." src="./images/dvd_rate_change2.png"/>
 
 In the special case where playback is 1x at time 0, r1 = 1 and xi1 = 0.
 
@@ -166,13 +166,9 @@ In the special case where playback is 1x at time 0, r1 = 1 and xi1 = 0.
 
 The following code sets the rate, starting from the most forward sample. It returns the effective start time in the <i>prtStartTime</i> parameter.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SetRateToMostForward( 
     IKsPropertySet *pIKsPropertySet,
     double dRate,
@@ -183,43 +179,39 @@ HRESULT SetRateToMostForward(
     rateSet.Rate        = LONG(dRate * 10000);
     rateSet.StartTime   = -1; //  Use the most forward sample
 
-    HRESULT hr = pIKsPropertySet-&gt;Set(
+    HRESULT hr = pIKsPropertySet->Set(
         AM_KSPROPSETID_TSRateChange, //  Property set.
         AM_RATE_SimpleRateChange,    //  Property ID.
         NULL,                        //  Instance data.
         0,                           //  Size of instance data.
-        &amp;rateSet,                    //  Property data.
+        &rateSet,                    //  Property data.
         sizeof(rateSet)              //  Size of property data.
         );
     if (SUCCEEDED(hr)) 
     {
         // Get the actual time.
         DWORD cbData = sizeof(REFERENCE_TIME);
-        hr = pIKsPropertySet-&gt;Get (
+        hr = pIKsPropertySet->Get (
             AM_KSPROPSETID_TSRateChange, //  Property set.
             AM_RATE_QueryLastRateSegPTS, //  Property ID.
             NULL,                        //  Instance data.
             0,                           //  Size of instance data.
             prtStartTime,                //  Property data.
             cbData,                      //  Size of property data.
-            &amp;cbData                      //  Size of data returned.
+            &cbData                      //  Size of data returned.
             );
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code sets the rate, starting from a specified time:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SetRate(
     IKsPropertySet *pIKsPropertySet,
     double dRate,
@@ -231,19 +223,19 @@ HRESULT SetRate(
     rateSet.Rate        = LONG(dRate * 10000);
     rateSet.StartTime   = rtStartTime;
 
-    return IKsPropertySet-&gt;Set(
+    return IKsPropertySet->Set(
         AM_KSPROPSETID_TSRateChange,    //  Property set.
         AM_RATE_SimpleRateChange,       //  Property ID.
         NULL,                           //  Instance data.
         0,                              //  Size of instance data.
-        &amp;rateSet,                       //  Property data.
+        &rateSet,                       //  Property data.
         sizeof(RateSet)                 //  Size of property data.
         );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

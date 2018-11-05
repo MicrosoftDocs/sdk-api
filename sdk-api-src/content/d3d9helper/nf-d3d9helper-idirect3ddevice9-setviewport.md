@@ -85,13 +85,9 @@ Direct3D sets the following default values for the viewport.
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3DVIEWPORT9 vp;
 vp.X      = 0;
 vp.Y      = 0;
@@ -99,10 +95,10 @@ vp.Width  = RenderTarget.Width;
 vp.Height = RenderTarget.Height;
 vp.MinZ   = 0.0f;
 vp.MaxZ   = 1.0f;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>IDirect3DDevice9::SetViewport</b> can be used to draw on part of the screen. Make sure to call it before any geometry is drawn so the viewport settings will take effect.
 
 To draw multiple views within a scene, repeat the <b>IDirect3DDevice9::SetViewport</b> and draw geometry sequence for each view.

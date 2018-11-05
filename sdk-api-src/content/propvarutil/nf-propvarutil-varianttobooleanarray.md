@@ -140,18 +140,14 @@ If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of t
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanArray">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid
 BOOL rgFlags[4]; // The application is expecting var to hold 4 BOOLs in an array.
 ULONG cFlags;
 
-HRESULT hr = VariantToBooleanArray(var, rgFlags, ARRAYSIZE(rgFlags), &amp;cFlags);
+HRESULT hr = VariantToBooleanArray(var, rgFlags, ARRAYSIZE(rgFlags), &cFlags);
 
 if (SUCCEEDED(hr))
 {
@@ -164,10 +160,10 @@ if (SUCCEEDED(hr))
         // The application got cFlags which are stored in the first cFlags 
         // elements of rgFlags.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

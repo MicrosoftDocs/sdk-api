@@ -101,13 +101,9 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymGetLinePrevW64</b> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL
+
+```cpp
+BOOL
 IMAGEAPI
 SymGetLinePrevW64(
     __in HANDLE hProcess,
@@ -116,20 +112,16 @@ SymGetLinePrevW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymGetLinePrev64    SymGetLinePrevW64
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 This function supersedes the <b>SymGetLinePrev</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetLinePrev</b> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define SymGetLinePrev SymGetLinePrev64
 #else
 BOOL
@@ -145,10 +137,10 @@ SymGetLinePrevW(
     __in HANDLE hProcess,
     __inout PIMAGEHLP_LINEW Line
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

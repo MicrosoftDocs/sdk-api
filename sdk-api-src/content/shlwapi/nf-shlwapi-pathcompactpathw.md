@@ -105,14 +105,10 @@ This function uses the font currently selected in <i>hDC</i> to calculate the wi
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;iostream.h&gt;
+
+```cpp
+#include <windows.h>
+#include <iostream.h>
 #include "Shlwapi.h"
 
 HDC hdc;  /* display DC handle to current font metrics */ 
@@ -142,19 +138,19 @@ lpStr4 = buffer_4;
 // Variable to get the return from "PathCompactPath".
 int retval;
 
-cout &lt;&lt; "The un-truncated path is                " &lt;&lt; lpStr1 &lt;&lt; endl;
+cout << "The un-truncated path is                " << lpStr1 << endl;
 
 retval = PathCompactPath(hdc,lpStr1,125);
-cout &lt;&lt; "The truncated path at 125 pixels is :   " &lt;&lt; lpStr1 &lt;&lt; endl;
+cout << "The truncated path at 125 pixels is :   " << lpStr1 << endl;
 
 retval = PathCompactPath(hdc,lpStr2,120);
-cout &lt;&lt; "The truncated path at 120 pixels is :   " &lt;&lt; lpStr2 &lt;&lt; endl;
+cout << "The truncated path at 120 pixels is :   " << lpStr2 << endl;
 
 retval = PathCompactPath(hdc,lpStr3,110);
-cout &lt;&lt; "The truncated path at 110 pixels is :   " &lt;&lt; lpStr3 &lt;&lt; endl;
+cout << "The truncated path at 110 pixels is :   " << lpStr3 << endl;
 
 retval = PathCompactPath(hdc,lpStr4,25);
-cout &lt;&lt; "The truncated path at  25 pixels is :   " &lt;&lt; lpStr4 &lt;&lt; endl;
+cout << "The truncated path at  25 pixels is :   " << lpStr4 << endl;
 }
 
 OUTPUT:
@@ -163,9 +159,9 @@ The un-truncated path is                C:\path1\path2\sample.txt
 The truncated path at 125 pixels is :   C:\path1\...\sample.txt
 The truncated path at 120 pixels is :   C:\pat...\sample.txt
 The truncated path at 110 pixels is :   C:\p...\sample.txt
-The truncated path at  25 pixels is :   ...\sample.txt</pre>
-</td>
-</tr>
-</table></span></div>
+The truncated path at  25 pixels is :   ...\sample.txt
+```
+
+
 
 

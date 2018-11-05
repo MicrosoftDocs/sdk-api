@@ -102,20 +102,16 @@ If Desktop Composition has been disabled, this function returns <b>DWM_E_COMPOSI
 
 The following example disables nonclient-area rendering, causing any previous calls to <a href="https://msdn.microsoft.com/e4b99f11-cab0-4713-8112-aab93c78378d">DwmEnableBlurBehindWindow</a> or <a href="https://msdn.microsoft.com/4ea409df-3980-4903-b481-6ff718dc01bc">DwmExtendFrameIntoClientArea</a> to be disabled.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT DisableNCRendering(HWND hwnd)
 {
    HRESULT hr = S_OK;
    DWMNCRENDERINGPOLICY ncrp = DWMNCRP_DISABLED;
 
    // Disable non-client area rendering on the window.
-   hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &amp;ncrp, sizeof(ncrp));
+   hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &ncrp, sizeof(ncrp));
 
    if (SUCCEEDED(hr))
    {
@@ -123,10 +119,10 @@ HRESULT DisableNCRendering(HWND hwnd)
    }
  
    return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

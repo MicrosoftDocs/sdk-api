@@ -81,13 +81,9 @@ For a list of image filters that are defined for DXVA-HD, see <a href="https://m
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DXVAHD_SetFilterValue(
+
+```cpp
+HRESULT DXVAHD_SetFilterValue(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     DXVAHD_FILTER filter,
@@ -97,21 +93,21 @@ For a list of image filters that are defined for DXVA-HD, see <a href="https://m
 {
     DXVAHD_STREAM_STATE_FILTER_DATA data = { bEnable, value };
 
-    DXVAHD_STREAM_STATE state = static_cast&lt;DXVAHD_STREAM_STATE&gt;(DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS + filter);
+    DXVAHD_STREAM_STATE state = static_cast<DXVAHD_STREAM_STATE>(DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS + filter);
 
-    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
+    HRESULT hr = pVP->SetVideoProcessStreamState(
         stream,
         state,
         sizeof(data),
-        &amp;data
+        &data
         );
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

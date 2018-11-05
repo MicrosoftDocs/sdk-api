@@ -86,22 +86,18 @@ The following code example shows the call to <a href="https://msdn.microsoft.com
 
 If the original request was redirected, the <b>WINHTTP_CONNECTION_INFO</b> structure contains the IP address and port of the request that resulted from the first non-30X response.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WINHTTP_CONNECTION_INFO ConnInfo;
+
+```cpp
+WINHTTP_CONNECTION_INFO ConnInfo;
 DWORD dwConnInfoSize = sizeof(WINHTTP_CONNECTION_INFO);
 
 WinHttpQueryOption( hRequest,
                     WINHTTP_OPTION_CONNECTION_INFO,
-                    &amp;ConnInfo,
-                    &amp;dwConnInfoSize);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                    &ConnInfo,
+                    &dwConnInfoSize);
+
+```
+
+
 
 

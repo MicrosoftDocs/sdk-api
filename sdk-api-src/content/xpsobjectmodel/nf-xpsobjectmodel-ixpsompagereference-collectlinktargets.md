@@ -128,13 +128,9 @@ To get the number of elements in the collection that is returned in <i>linkTarge
 
 This method returns the pointer to a new collection every time it is called. To prevent a memory leak, the pointer to a previous collection should be released when it is no longer needed or before the pointer variable is reused for another call to this method. The following code example shows how this can be done in a program.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    HRESULT                         hr = S_OK;
+
+```cpp
+    HRESULT                         hr = S_OK;
     IXpsOMPage                      *page = NULL;
     IXpsOMNameCollection            *linkTargets = NULL;
 
@@ -146,25 +142,25 @@ This method returns the pointer to a new collection every time it is called. To 
 
     // if the page hasn't been loaded yet, for example, if the XPS OM 
     //  was loaded from an XPS document, CollectLinkTargets obtains the
-    //  list of link targets from the &lt;PageContent.LinkTargets&gt; markup
-    hr = pageRef-&gt;CollectLinkTargets(&amp;linkTargets);
+    //  list of link targets from the <PageContent.LinkTargets> markup
+    hr = pageRef->CollectLinkTargets(&linkTargets);
 
     // get the page content of this page reference
-    hr = pageRef-&gt;GetPage (&amp;page);
+    hr = pageRef->GetPage (&page);
 
     // after the page object has been loaded and calling GetPage or 
     //  by creating a page in the XPS OM, CollectLinkTargets will now check
     //  each of the page elements to return the list so this call to
     //  CollectLinkTargets might take longer to return than the previous
     //  call above if the XPS OM was created from a file
-    linkTargets-&gt;Release(); // release previous collection
-    hr = pageRef-&gt;CollectLinkTargets(&amp;linkTargets);
+    linkTargets->Release(); // release previous collection
+    hr = pageRef->CollectLinkTargets(&linkTargets);
     
     // walk the list of link targets returned
-    hr = linkTargets-&gt;GetCount( &amp;numTargets );
+    hr = linkTargets->GetCount( &numTargets );
     thisTarget = 0;
-    while (thisTarget &lt; numTargets) {
-        hr = linkTargets-&gt;GetAt (thisTarget, &amp;thisTargetName);
+    while (thisTarget < numTargets) {
+        hr = linkTargets->GetAt (thisTarget, &thisTargetName);
         printf ("%s\n", thisTargetName);
         // release the target string returned to prevent memory leaks
         CoTaskMemFree (thisTargetName);
@@ -172,12 +168,12 @@ This method returns the pointer to a new collection every time it is called. To 
         thisTarget++;
     }
     // release page and the link target collection
-    page-&gt;Release();
-    linkTargets-&gt;Release();
-</pre>
-</td>
-</tr>
-</table></span></div>
+    page->Release();
+    linkTargets->Release();
+
+```
+
+
 
 
 

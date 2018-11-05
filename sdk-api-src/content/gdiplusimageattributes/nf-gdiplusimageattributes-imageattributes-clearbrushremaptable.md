@@ -94,13 +94,9 @@ The following example creates an <a href="https://msdn.microsoft.com/3732095d-c8
 
 The code calls <a href="https://msdn.microsoft.com/d604d511-c8d7-4e3b-8d54-be06823dbd1f">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object and the address of the <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object. The second time the image is drawn (after the call to <a href="https://msdn.microsoft.com/87b63b0d-9071-4c7f-9ff6-14083092246a">ImageAttributes::SetRemapTable</a>), all of the red is converted to blue. The third time the image is drawn (after the call to <a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a>), all of the red painted with a brush is converted to green, and the rest of the red is converted to blue. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearBrushRemapTable</b>), all the red painted with a brush remains unchanged, and the rest of the red is converted to blue.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetClearBrushRemap(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -117,11 +113,11 @@ VOID Example_SetClearBrushRemap(HDC hdc)
    brushMap.newColor = Color(255, 0, 255, 0);
 
    // Set the default color-remap table.
-   imAtt.SetRemapTable(1, &amp;defaultMap, ColorAdjustTypeDefault);
+   imAtt.SetRemapTable(1, &defaultMap, ColorAdjustTypeDefault);
 
    // Draw the image (metafile) using no color adjustment.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(10, 10, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel);
@@ -129,24 +125,24 @@ VOID Example_SetClearBrushRemap(HDC hdc)
    // Draw the image (metafile) using default color adjustment.
    // All red is converted to blue.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(10, 90, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Set the brush remap table.
-   imAtt.SetBrushRemapTable(1, &amp;brushMap);
+   imAtt.SetBrushRemapTable(1, &brushMap);
 
    // Draw the image (metafile) using default and brush adjustment.
    // Red painted with a brush is converted to green.
    // All other red is converted to blue (default).
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(10, 170, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),           // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Clear the brush remap table.
    imAtt.ClearBrushRemapTable();
@@ -155,19 +151,19 @@ VOID Example_SetClearBrushRemap(HDC hdc)
    // Red painted with a brush gets no color adjustment.
    // All other red is converted to blue (default).
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(10, 250, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),           // source rect
       UnitPixel,
-      &amp;imAtt);  
+      &imAtt);  
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 The preceding code, along with a particular file, Testmetafile4.emf, produced the following output. The ellipses in the left column were drawn with a pen, and the ellipses in the right column were filled with a brush. Note that the default remap table applies to the ellipses drawn with a pen. The remap table that applies to the ellipses filled with a brush varies according to the <a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a> and <b>ImageAttributes::ClearBrushRemapTable</b> calls.
 
-<img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="images/imageattributesclearbrushremap.png"/>
+<img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="./images/imageattributesclearbrushremap.png"/>
 
 <div class="code"></div>
 

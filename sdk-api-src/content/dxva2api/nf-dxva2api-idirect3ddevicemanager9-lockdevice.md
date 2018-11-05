@@ -170,13 +170,9 @@ If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For examp
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT LockDevice(
+
+```cpp
+HRESULT LockDevice(
     IDirect3DDeviceManager9 *pDeviceManager,
     BOOL fBlock,
     IDirect3DDevice9 **ppDevice, // Receives a pointer to the device.
@@ -188,27 +184,27 @@ If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For examp
 
     HANDLE hDevice = 0;
 
-    HRESULT hr = pDeviceManager-&gt;OpenDeviceHandle(&amp;hDevice);
+    HRESULT hr = pDeviceManager->OpenDeviceHandle(&hDevice);
 
     if (SUCCEEDED(hr))
     {
-        hr = pDeviceManager-&gt;LockDevice(hDevice, ppDevice, fBlock);
+        hr = pDeviceManager->LockDevice(hDevice, ppDevice, fBlock);
     }
 
     if (hr == DXVA2_E_NEW_VIDEO_DEVICE)
     {
         // Invalid device handle. Try to open a new device handle.
-        hr = pDeviceManager-&gt;CloseDeviceHandle(hDevice);
+        hr = pDeviceManager->CloseDeviceHandle(hDevice);
 
         if (SUCCEEDED(hr))
         {
-            hr = pDeviceManager-&gt;OpenDeviceHandle(&amp;hDevice);
+            hr = pDeviceManager->OpenDeviceHandle(&hDevice);
         }
 
         // Try to lock the device again.
         if (SUCCEEDED(hr))
         {
-            hr = pDeviceManager-&gt;LockDevice(hDevice, ppDevice, TRUE); 
+            hr = pDeviceManager->LockDevice(hDevice, ppDevice, TRUE); 
         }
     }
 
@@ -218,10 +214,10 @@ If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For examp
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

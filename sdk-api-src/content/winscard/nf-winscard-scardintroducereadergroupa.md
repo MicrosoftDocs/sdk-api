@@ -180,23 +180,19 @@ To remove a reader group, use
 
 The following example  shows introducing a smart card reader group.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Introduce the reader group.
+
+```cpp
+// Introduce the reader group.
 // lReturn is of type LONG.
 // hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardIntroduceReaderGroup(hContext, 
                                     L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardIntroduceReaderGroup\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

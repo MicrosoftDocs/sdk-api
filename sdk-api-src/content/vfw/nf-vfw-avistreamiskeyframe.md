@@ -77,19 +77,15 @@ Position to search in the stream.
 
 The <b>AVIStreamIsKeyFrame</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamIsKeyFrame(pavi, lPos) \ 
     (AVIStreamNearestKeyFrame(pavi, lPos) == 1) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

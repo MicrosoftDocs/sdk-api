@@ -89,25 +89,21 @@ The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many 
 
 The following example code shows a <a href="https://msdn.microsoft.com/6118d41b-f0b4-4034-aa98-d8757f18ca0d">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ...
 DWORD color = 0;
 BOOL opaque = FALSE;
   
-HRESULT hr = DwmGetColorizationColor(&amp;color, &amp;opaque);
+HRESULT hr = DwmGetColorizationColor(&color, &opaque);
 if (SUCCEEDED(hr))
 {
   // Update the application to use the new color.
 }
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
+
 
 

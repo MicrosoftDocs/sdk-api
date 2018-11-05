@@ -85,23 +85,19 @@ Users should not use this function to iterate through the progressive levels of 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IWICProgressiveLevelControl *pProgressive = NULL;
 
-HRESULT hr = (pBitmapFrame-&gt;QueryInterface(
+```
+IWICProgressiveLevelControl *pProgressive = NULL;
+
+HRESULT hr = (pBitmapFrame->QueryInterface(
    IID_IWICProgressiveLevelControl, 
-   (void**) &amp;pProgressive));
+   (void**) &pProgressive));
                 
 if (SUCCEEDED(hr))
 {
    for (UINT uCurrentLevel = 0; SUCCEEDED(hr); uCurrentLevel++)
    {
-      hr = pProgressive-&gt;SetCurrentLevel(uCurrentLevel);
+      hr = pProgressive->SetCurrentLevel(uCurrentLevel);
       if (WINCODEC_ERR_INVALIDPROGRESSIVELEVEL == hr)
       {
          // No more levels
@@ -111,18 +107,18 @@ if (SUCCEEDED(hr))
       if (SUCCEEDED(hr))
       {
          // Output the current level
-         hr = pBitmapFrame-&gt;CopyPixels(...);
+         hr = pBitmapFrame->CopyPixels(...);
       }                      
    }
 }
 
 if (pProgressive)
 {
-   pProgressive-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   pProgressive->Release();
+}
+```
+
+
 
 
 

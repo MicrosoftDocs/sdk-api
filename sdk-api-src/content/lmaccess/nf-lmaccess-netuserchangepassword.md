@@ -210,20 +210,16 @@ The
 
 The following code sample demonstrates how to change a user's password with a call to the <b>NetUserChangePassword</b> function. All parameters to the function are required.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -254,10 +250,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

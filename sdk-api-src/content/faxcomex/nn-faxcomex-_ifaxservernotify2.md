@@ -318,18 +318,14 @@ The fax service calls the <a href="https://msdn.microsoft.com/7ed8ff7a-d54e-487e
 Use the following syntax when creating the root FaxServer2 object:
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 Dim WithEvents objFaxServer2 As FaxServer2
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 For an example, see <a href="https://msdn.microsoft.com/3a9f42fa-383a-4072-92a6-b59f7940ab04">Registering for Fax Events</a>.

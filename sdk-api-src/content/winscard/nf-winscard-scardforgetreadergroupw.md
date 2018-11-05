@@ -175,21 +175,17 @@ The <b>SCardForgetReaderGroup</b> function is a database management function. Fo
 
 The following example shows how to remove a reader group from the system. The example assumes that lReturn is an existing variable of type <b>LONG</b>, and that hContext is a valid handle to a resource manager context previously obtained from a call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 lReturn = SCardForgetReaderGroup(hContext, 
                                  L"MyReaderGroup");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardForgetReaderGroup\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

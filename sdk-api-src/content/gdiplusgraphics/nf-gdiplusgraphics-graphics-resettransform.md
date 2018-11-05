@@ -88,29 +88,25 @@ The identity matrix represents a transformation that does nothing. If the world 
 
 The following example sets the world transformation of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a 45-degree rotation and then draws a rectangle. The code calls the <b>ResetTransform</b> method of the <b>Graphics</b> object and then draws a second rectangle. No rotation transformation is applied to the second rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_ResetTransform(HDC hdc)
+
+```cpp
+VOID Example_ResetTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Rotate the transformation and draw a rectangle.
    graphics.RotateTransform(45.0f);
    Pen blackPen(Color(255, 0, 0, 0));
-   graphics.DrawRectangle(&amp;blackPen, 100, 0, 100, 50);
+   graphics.DrawRectangle(&blackPen, 100, 0, 100, 50);
 
    // Reset the transformation to identity, and draw a second rectangle.
    graphics.ResetTransform();
    Pen redPen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&amp;redPen, 110, 0, 100, 50);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&redPen, 110, 0, 100, 50);
+}
+```
+
+
 
 
 

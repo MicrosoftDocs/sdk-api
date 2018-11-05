@@ -129,23 +129,19 @@ For a full example that uses <b>CancelAsyncCall</b>, see <a href="https://msdn.m
 <div class="code"></div>
 The following C++ sample, taken from the \\Program Files\Microsoft SDKs\Windows\v7.0\Samples\sysmgmt\wmi\vc\decoupled\instance_provider sample, demonstrates an implementation of <b>CancelAsyncCall</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CProvider_IWbemServices :: CancelAsyncCall ( 
+
+```cpp
+HRESULT CProvider_IWbemServices :: CancelAsyncCall ( 
   
  IWbemObjectSink *a_Sink
 )
 {
  HRESULT t_Result = WBEM_E_NOT_AVAILABLE ;
  return t_Result ;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

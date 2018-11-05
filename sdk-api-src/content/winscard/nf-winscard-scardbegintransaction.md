@@ -96,20 +96,16 @@ The <b>SCardBeginTransaction</b> function is a <a href="https://msdn.microsoft.c
 
 The following example demonstrates how to begin a smart card transaction. The example assumes that <code>lReturn</code> is an existing variable of type <b>LONG</b> and that <code>hCard</code> is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 lReturn = SCardBeginTransaction( hCard );
 if ( SCARD_S_SUCCESS != lReturn )
  printf("Failed SCardBeginTransaction\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

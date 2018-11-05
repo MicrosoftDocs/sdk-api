@@ -97,13 +97,9 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, <i>EnumerateLoadedModulesW64</i>, define <b>DBGHELP_TRANSLATE_TCHAR</b>. <i>EnumerateLoadedModulesW64</i> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL
+
+```cpp
+BOOL
 IMAGEAPI
 EnumerateLoadedModulesW64(
     __in HANDLE hProcess,
@@ -113,20 +109,16 @@ EnumerateLoadedModulesW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
     #define EnumerateLoadedModules64      EnumerateLoadedModulesW64
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 This function supersedes the <i>EnumerateLoadedModules</i> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <i>EnumerateLoadedModules</i> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define EnumerateLoadedModules EnumerateLoadedModules64
 #else
 BOOL
@@ -136,10 +128,10 @@ EnumerateLoadedModules(
     __in PENUMLOADED_MODULES_CALLBACK EnumLoadedModulesCallback,
     __in_opt PVOID UserContext
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

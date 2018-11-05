@@ -638,19 +638,19 @@ The following system icons can be used in a message box by setting the <i>uType<
 <th>Flag values</th>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="images/MB_ICONHAND.png"/></td>
+<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="./images/MB_ICONHAND.png"/></td>
 <td><b>MB_ICONHAND</b>, <b>MB_ICONSTOP</b>, or <b>MB_ICONERROR</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONQUESTION" src="images/MB_ICONQUESTION.png"/></td>
+<td><img alt="Icon for MB_ICONQUESTION" src="./images/MB_ICONQUESTION.png"/></td>
 <td><b>MB_ICONQUESTION</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="images/MB_ICONEXCLAMATION.png"/></td>
+<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="./images/MB_ICONEXCLAMATION.png"/></td>
 <td><b>MB_ICONEXCLAMATION</b> or <b>MB_ICONWARNING</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="images/MB_ICONASTERISK.png"/></td>
+<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="./images/MB_ICONASTERISK.png"/></td>
 <td><b>MB_ICONASTERISK</b> or <b>MB_ICONINFORMATION</b></td>
 </tr>
 </table>
@@ -667,13 +667,9 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 In the following example, the application displays a message box that prompts the user for an action after an error condition has occurred. The message box displays the message that describes the error condition and how to resolve it. The <b>MB_CANCELTRYCONTINUE</b> style directs <b>MessageBox</b> to provide three buttons with which the user can choose how to proceed. The <b>MB_DEFBUTTON2</b> style sets the default focus on the second button of the message box, in this case, the <b>Try Again</b> button.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>int DisplayResourceNAMessageBox()
+
+```cpp
+int DisplayResourceNAMessageBox()
 {
     int msgboxID = MessageBox(
         NULL,
@@ -696,13 +692,13 @@ In the following example, the application displays a message box that prompts th
     }
 
     return msgboxID;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="images/MessageBox_02.png"/>
+<img alt="Message box" src="./images/MessageBox_02.png"/>
 
 For another message box example, see <a href="using_dialog_boxes.htm">Displaying a Message Box</a>.
 

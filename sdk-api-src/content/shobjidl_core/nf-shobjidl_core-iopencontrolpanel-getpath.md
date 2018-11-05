@@ -98,34 +98,26 @@ If <i>pszName</i> points to the item's canonical name or <b>GUID</b>, then the p
 
                 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>::{CLSID_ControlPanel}\::{item guid}
+
+```cpp
+::{CLSID_ControlPanel}\::{item guid}
 ::{CLSID_ControlPanelCategory}\categoryId\::{item guid}
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
 
                 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>::{CLSID_ControlPanel}
+
+```cpp
+::{CLSID_ControlPanel}
 ::{CLSID_ControlPanelCategory}
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

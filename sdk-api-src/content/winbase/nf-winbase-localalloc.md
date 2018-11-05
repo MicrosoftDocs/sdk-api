@@ -213,15 +213,11 @@ To free the memory, use the
 
 The following code shows a simple use of <b>LocalAlloc</b> and <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <tchar.h>
 
 void _cdecl _tmain()
 {
@@ -246,10 +242,10 @@ void _cdecl _tmain()
     // Free the memory when finished with it
     LocalFree(pszBuf);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

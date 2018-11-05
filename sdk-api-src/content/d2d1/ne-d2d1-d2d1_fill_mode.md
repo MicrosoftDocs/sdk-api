@@ -89,33 +89,29 @@ Direct2D fills the interior of a path by using one of the two fill modes specifi
 
  To see the difference between the winding and alternate fill modes, assume that you have four circles with the same center and a different radius, as shown in the following illustration. The first one has the radius of 25, the second 50, the third 75, and the fourth 100.
 
-<img alt="Illustration of four concentric circles with different radius values" src="images/fillmode_not_filled_01.png"/>
+<img alt="Illustration of four concentric circles with different radius values" src="./images/fillmode_not_filled_01.png"/>
 The following  illustration shows the shape filled by using the alternate fill mode. Notice that the center and third ring are not filled. This is because a ray drawn from any point in either of those two rings passes through an even number of segments. 
 
-<img alt="Illustration of concentric circles with the second and fourth rings filled" src="images/fillmode_01.png"/>
+<img alt="Illustration of concentric circles with the second and fourth rings filled" src="./images/fillmode_01.png"/>
 The following illustration explains this process. 
 
-<img alt="Illustration of concentric circles with points in the second and third rings and two arbitrary rays extending from each point" src="images/fillmode_03.png"/>
+<img alt="Illustration of concentric circles with points in the second and third rings and two arbitrary rays extending from each point" src="./images/fillmode_03.png"/>
 The following illustration shows how the same shape is filled when the winding fill mode is specified. 
 
-<img alt="Illustration of concentric circles with all rings filled" src="images/fillmode_02.png"/>
+<img alt="Illustration of concentric circles with all rings filled" src="./images/fillmode_02.png"/>
 Notice that all the rings are filled. This is because all the segments run in the same direction, so a ray drawn from any point will cross one or more segments, and the sum of the crossings will not equal zero. 
 
 The following illustration explains this process. The red arrows represent the direction in which the segments are drawn and the black arrow represents an arbitrary ray that runs from a point in the innermost ring. Starting with a value of zero, for each segment that the ray crosses, a value of one is added for every clockwise intersection. All points lie in the fill region in this illustration, because the count does not equal zero. 
 
-<img alt="Illustration of concentric circles with a ray from within the first ring that crosses all four rings" src="images/fillmode_04.png"/>
+<img alt="Illustration of concentric circles with a ray from within the first ring that crosses all four rings" src="./images/fillmode_04.png"/>
 
 #### Examples
 
 The following code example creates the geometry groups used the preceding illustrations. The code first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <b>D2D1_FILL_MODE_ALTERNATE</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::CreateGeometryResources()
+
+```cpp
+HRESULT DemoApp::CreateGeometryResources()
 {
     HRESULT hr;
 
@@ -125,9 +121,9 @@ The following code example creates the geometry groups used the preceding illust
         25.0f
         );
 
-    hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+    hr = m_pD2DFactory->CreateEllipseGeometry(
         ellipse1,
-        &amp;m_pEllipseGeometry1
+        &m_pEllipseGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -138,9 +134,9 @@ The following code example creates the geometry groups used the preceding illust
             50.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse2,
-            &amp;m_pEllipseGeometry2
+            &m_pEllipseGeometry2
             );
     }
 
@@ -153,9 +149,9 @@ The following code example creates the geometry groups used the preceding illust
             75.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse3,
-            &amp;m_pEllipseGeometry3
+            &m_pEllipseGeometry3
             );
     }
 
@@ -167,9 +163,9 @@ The following code example creates the geometry groups used the preceding illust
             100.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse4,
-            &amp;m_pEllipseGeometry4
+            &m_pEllipseGeometry4
             );
     }
 
@@ -183,30 +179,30 @@ The following code example creates the geometry groups used the preceding illust
             m_pEllipseGeometry4
         };
 
-        hr = m_pD2DFactory-&gt;CreateGeometryGroup(
+        hr = m_pD2DFactory->CreateGeometryGroup(
             D2D1_FILL_MODE_ALTERNATE,
             ppGeometries,
             ARRAYSIZE(ppGeometries),
-            &amp;m_pGeoGroup_AlternateFill
+            &m_pGeoGroup_AlternateFill
             );
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pD2DFactory-&gt;CreateGeometryGroup(
+            hr = m_pD2DFactory->CreateGeometryGroup(
                 D2D1_FILL_MODE_WINDING,
                 ppGeometries,
                 ARRAYSIZE(ppGeometries),
-                &amp;m_pGeoGroup_WindingFill
+                &m_pGeoGroup_WindingFill
                 );
         }
 
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

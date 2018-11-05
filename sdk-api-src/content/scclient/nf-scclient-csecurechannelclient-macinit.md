@@ -116,35 +116,31 @@ Possible values include, but are not limited to, those in the following table.
 
 The following example code checks the MAC received by a call to <a href="https://msdn.microsoft.com/5b654d32-b72a-44cf-a8d9-63fc0ae76171">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 CSecureChannelClient *pSPClient = NULL;
-hr = m_pStorage-&gt;GetRights(ppRights, pnRightsCount, abTempMAC);
+hr = m_pStorage->GetRights(ppRights, pnRightsCount, abTempMAC);
 if (SUCCEEDED(hr))
 {
     // Verify MAC returned by GetRights on the service provider.
-    pSPClient-&gt;MACInit(&amp;hMAC);
-    pSPClient-&gt;MACUpdate(hMAC, (BYTE*)(*ppRights),
+    pSPClient->MACInit(&hMAC);
+    pSPClient->MACUpdate(hMAC, (BYTE*)(*ppRights),
                        sizeof(WMDMRIGHTS) * (*pnRightsCount));
-    pSPClient-&gt;MACUpdate(hMAC, (BYTE*)(pnRightsCount),
+    pSPClient->MACUpdate(hMAC, (BYTE*)(pnRightsCount),
                         sizeof(*pnRightsCount));
-    pSPClient-&gt;MACFinal(hMAC, abMACVerify);
+    pSPClient->MACFinal(hMAC, abMACVerify);
     if (memcmp(abMACVerify, abTempMAC, WMDM_MAC_LENGTH) != 0)
     {
         hr = WMDM_E_MAC_CHECK_FAILED;
         goto exit;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

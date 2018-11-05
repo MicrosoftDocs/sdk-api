@@ -69,29 +69,21 @@ The SmallChange property can support Not a Number (NaN) value. When returning a 
 
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
-    *pRetVal = *reinterpret_cast&lt;double*&gt;(&amp;ulNaN);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
+    *pRetVal = *reinterpret_cast<double*>(&ulNaN);
+```
+
+
 Alternatively, you can use the following function from the standard C++ libraries:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>numeric_limits&lt;double&gt;::quiet_NaN( )</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+numeric_limits<double>::quiet_NaN( )
+```
+
+
 
 
 

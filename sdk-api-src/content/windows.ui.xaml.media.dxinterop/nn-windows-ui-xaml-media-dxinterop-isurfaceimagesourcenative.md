@@ -104,21 +104,17 @@ Sets the DXGI device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will d
 
 This interface provides the native implementation of the <a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a> Windows runtime type. To obtain a pointer to <b>ISurfaceImageSourceNative</b>, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-Microsoft::WRL::ComPtr&lt;ISurfaceImageSourceNative&gt;	m_sisNative;
+
+```cpp
+
+Microsoft::WRL::ComPtr<ISurfaceImageSourceNative>	m_sisNative;
 // ...
-IInspectable* sisInspectable = (IInspectable*) reinterpret_cast&lt;IInspectable*&gt;(surfaceImageSource);
-sisInspectable-&gt;QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&amp;m_sisNative)
-	</pre>
-</td>
-</tr>
-</table></span></div>
+IInspectable* sisInspectable = (IInspectable*) reinterpret_cast<IInspectable*>(surfaceImageSource);
+sisInspectable->QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&m_sisNative)
+	
+```
+
+
 
 
 

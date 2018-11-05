@@ -77,20 +77,16 @@ Starting time, in milliseconds, to search in the stream.
 
 The <b>AVIStreamNearestSampleTime</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamNearestSampleTime(pavi, lTime) \ 
     AVIStreamSampleToTime(pavi, AVIStreamNearestSample(pavi, 
     AVIStreamTimeToSample(pavi, lTime))) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -399,27 +399,19 @@ Resolution values are expressed by using the same units as the data field, excep
 
 The following example demonstrates how to call <b>GetValue</b> to get a property value.  You must include sensors.h to use the constant in the example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 PROPVARIANT pv;				
-HRESULT hr = spLatLongReport-&gt;GetValue(SENSOR_DATA_TYPE_LATITUDE_DEGREES, &amp;pv);</pre>
-</td>
-</tr>
-</table></span></div>
+HRESULT hr = spLatLongReport->GetValue(SENSOR_DATA_TYPE_LATITUDE_DEGREES, &pv);
+```
+
+
 The following example shows how to implement <b>GetValue</b> in your own report object. This implementation allows the caller to get values for several location report fields. This code requires you to include sensors.h and provarutil.h.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
+
+```cpp
+STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
 {
     HRESULT hr = S_OK;
 
@@ -471,10 +463,10 @@ The following example shows how to implement <b>GetValue</b> in your own report 
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

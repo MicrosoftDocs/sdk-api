@@ -92,20 +92,16 @@ The <b>Compare</b> method, which performs a case-sensitive comparison of the str
 
 The following code example shows the use of <b>CHString::Compare</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString s1( L"abc" );
+
+```cpp
+CHString s1( L"abc" );
 CHString s2( L"ABC" );
 
-assert( s1.Compare( s2 ) &gt; 0 ); // Compare with another CHString.
-assert( s1.Compare( L"abc" ) == 0 ); // Compare with LPCWSTR string.</pre>
-</td>
-</tr>
-</table></span></div>
+assert( s1.Compare( s2 ) > 0 ); // Compare with another CHString.
+assert( s1.Compare( L"abc" ) == 0 ); // Compare with LPCWSTR string.
+```
+
+
 
 
 
