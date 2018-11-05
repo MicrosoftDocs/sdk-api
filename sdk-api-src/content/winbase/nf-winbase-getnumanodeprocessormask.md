@@ -7,7 +7,7 @@ old-location: base\getnumanodeprocessormask.htm
 tech.root: procthread
 ms.assetid: bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

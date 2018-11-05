@@ -7,7 +7,7 @@ old-location: base\flashwindow.htm
 tech.root: debug
 ms.assetid: c4af997d-5cb8-4d5d-ae8d-1e0cc724fe02
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 11/02/2018
 ms.keywords: FlashWindow, FlashWindow function, _win32_flashwindow, base.flashwindow, winuser/FlashWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

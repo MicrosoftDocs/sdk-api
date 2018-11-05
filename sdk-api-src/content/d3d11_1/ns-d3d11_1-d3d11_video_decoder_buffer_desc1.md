@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_buffer_desc1.htm
 tech.root: medfound
 ms.assetid: B35E4E27-6D69-49D4-908E-6EBF6DF5689A
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC1, D3D11_VIDEO_DECODER_BUFFER_DESC1 structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BUFFER_DESC1, mf.d3d11_video_decoder_buffer_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,14 +85,14 @@ The size of the buffer specified in the <i>pIV</i> parameter. If <i>pIV</i> is N
 
 ### -field pSubSampleMappingBlock
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dn894121(v=VS.85).aspx">D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures, which indicates exactly which bytes in the decode buffer are encrypted and which are in the clear.  If the decode buffer does not contain encrypted data, set this member to NULL.
+A pointer to an array of <a href="https://msdn.microsoft.com/82EC2598-60FB-4800-A001-0CCC2D0D529E">D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures, which indicates exactly which bytes in the decode buffer are encrypted and which are in the clear.  If the decode buffer does not contain encrypted data, set this member to NULL.
 
 Values in the sub sample mapping blocks are relative to the start of the decode buffer.
 
 
 ### -field SubSampleMappingCount
 
-The number of <a href="https://msdn.microsoft.com/en-us/library/Dn894121(v=VS.85).aspx">D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures specified in the <i>pSubSampleMappingBlocks</i> parameter. If <i>pSubSampleMappingBlocks</i> is NULL, set this member to zero.
+The number of <a href="https://msdn.microsoft.com/82EC2598-60FB-4800-A001-0CCC2D0D529E">D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures specified in the <i>pSubSampleMappingBlocks</i> parameter. If <i>pSubSampleMappingBlocks</i> is NULL, set this member to zero.
 
 
 ## -see-also
@@ -100,7 +100,7 @@ The number of <a href="https://msdn.microsoft.com/en-us/library/Dn894121(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

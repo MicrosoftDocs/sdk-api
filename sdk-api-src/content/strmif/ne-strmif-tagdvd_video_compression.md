@@ -7,7 +7,7 @@ old-location: dshow\dvd_video_compression.htm
 tech.root: DirectShow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSION enumeration [DirectShow], DVD_VIDEO_COMPRESSIONEnumeration, DVD_VideoCompression_MPEG1, DVD_VideoCompression_MPEG2, DVD_VideoCompression_Other, dshow.dvd_video_compression, strmif/DVD_VIDEO_COMPRESSION, strmif/DVD_VideoCompression_MPEG1, strmif/DVD_VideoCompression_MPEG2, strmif/DVD_VideoCompression_Other, tagDVD_VIDEO_COMPRESSION
 ms.prod: windows
 ms.technology: windows-sdk

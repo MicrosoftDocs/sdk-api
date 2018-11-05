@@ -7,7 +7,7 @@ old-location: shell\SHUpdateImage.htm
 tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\capdlgvideocompression.htm
 tech.root: Multimedia
 ms.assetid: f4abf869-deac-4537-a8e8-680a4f138d0b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_capDlgVideoCompression, capDlgVideoCompression, capDlgVideoCompression macro [Windows Multimedia], multimedia.capdlgvideocompression, vfw/capDlgVideoCompression"
 ms.prod: windows-hardware
 ms.technology: windows-devices

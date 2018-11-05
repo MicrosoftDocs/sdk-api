@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder_copycapturefile.htm
 tech.root: DirectShow
 ms.assetid: 6eb4a3ed-6914-4839-ab1f-18510483ab49
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CopyCaptureFile, CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],CopyCaptureFile method, ICaptureGraphBuilder.CopyCaptureFile, ICaptureGraphBuilder::CopyCaptureFile, ICaptureGraphBuilderCopyCaptureFile, dshow.icapturegraphbuilder_copycapturefile, strmif/ICaptureGraphBuilder::CopyCaptureFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

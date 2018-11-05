@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_videoprocessorsetstreammirror.htm
 tech.root: medfound
 ms.assetid: C8CCCC2B-B05A-4AF4-9274-1E205B9807DB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetStreamMirror method, ID3D11VideoContext1.VideoProcessorSetStreamMirror, ID3D11VideoContext1::VideoProcessorSetStreamMirror, VideoProcessorSetStreamMirror, VideoProcessorSetStreamMirror method [Media Foundation], VideoProcessorSetStreamMirror method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetStreamMirror, mf.id3d11videocontext1_videoprocessorsetstreammirror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Specifies whether the video processor input stream should be flipped vertically 
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface.
 
 
 ### -param StreamIndex [in]
@@ -121,7 +121,7 @@ When used in combination, transformations on the processor input stream should b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>
+<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
  
 
  

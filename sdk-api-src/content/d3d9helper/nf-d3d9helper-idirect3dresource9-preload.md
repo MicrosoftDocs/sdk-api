@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dresource9__preload.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__preload.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirect3DResource9 interface [Direct3D 9],PreLoad method, IDirect3DResource9.PreLoad, IDirect3DResource9::PreLoad, PreLoad, PreLoad method [Direct3D 9], PreLoad method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::PreLoad, direct3d9.idirect3dresource9__preload, eae2783a-4a7c-f994-50b0-b5b5c735921f
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ Calling this method indicates that the application will need this managed resour
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 688a6c30-5eca-44aa-bcb0-02a3f29647b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStyle method, IDWriteTextLayout.SetFontStyle, IDWriteTextLayout::SetFontStyle, SetFontStyle, SetFontStyle method [Direct Write], SetFontStyle method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStyle, dwrite/IDWriteTextLayout::SetFontStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The font style can be set to Normal, Italic or Oblique. The following illustration shows  three styles for the Palatino font.  For more information, see <a href="https://msdn.microsoft.com/e48a3b82-4a60-472d-8cb8-a6f63d7eeefc">DWRITE_FONT_STYLE</a>.
 
-<img alt="Illustration of normal, italic, and oblique font styles for the Palatino font" src="./images/FontStyle_for_Palatino.png"/>
+<img alt="Illustration of normal, italic, and oblique font styles for the Palatino font" src="images/FontStyle_for_Palatino.png"/>
 
 
 #### Examples

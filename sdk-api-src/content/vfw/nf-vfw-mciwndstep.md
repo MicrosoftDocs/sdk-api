@@ -7,7 +7,7 @@ old-location: multimedia\mciwndstep.htm
 tech.root: Multimedia
 ms.assetid: 4490901c-a58c-465c-a7b3-230456848da3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MCIWndStep, MCIWndStep macro [Windows Multimedia], _win32_MCIWndStep, multimedia.mciwndstep, vfw/MCIWndStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

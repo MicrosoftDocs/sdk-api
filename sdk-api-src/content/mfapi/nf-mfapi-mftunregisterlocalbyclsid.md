@@ -7,7 +7,7 @@ old-location: mf\mftunregisterlocalbyclsid.htm
 tech.root: medfound
 ms.assetid: ebdf50ad-99cb-4ebf-9050-da0b2d9f26df
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFTUnregisterLocalByCLSID, MFTUnregisterLocalByCLSID function [Media Foundation], mf.mftunregisterlocalbyclsid, mfapi/MFTUnregisterLocalByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

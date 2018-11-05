@@ -7,7 +7,7 @@ old-location: rpc\ndrclientcall3.htm
 tech.root: rpc
 ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, rpcndr/NdrClientCall3
 ms.prod: windows-hardware
 ms.technology: windows-devices

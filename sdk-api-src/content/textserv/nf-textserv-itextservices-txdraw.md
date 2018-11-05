@@ -7,7 +7,7 @@ old-location: controls\ITextServices_TxDraw.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itextservices\itextservicestxdraw.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],TxDraw method, ITextServices.TxDraw, ITextServices::TxDraw, TXTVIEW_ACTIVE, TXTVIEW_INACTIVE, TxDraw, TxDraw method [Windows Controls], TxDraw method [Windows Controls],ITextServices interface, _win32_ITextServices_TxDraw, _win32_ITextServices_TxDraw_cpp, controls.ITextServices_TxDraw, controls._win32_ITextServices_TxDraw, textserv/ITextServices::TxDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -219,19 +219,19 @@ The return value is typically <b>S_OK</b>.
 
 This method renders the text services object. It accepts the same parameters as the corresponding <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> method in OLE, with the extra <i>lprcUpdate</i> and the <i>lViewId</i> parameters. It can be used while the host is in-place active or inactive.
 
-The <i>lprcBounds</i> parameter gives the rectangle to render, also called the client rectangle. This rectangle represents the position and extent of the entire image of the text services object to be drawn. It is expressed in the logical coordinate system of <i>hdcDraw</i>. If <i>lprcBounds</i> is <b>NULL</b> then the control must be active. In this case, the text services object should render the in-place active view (that is, the client rectangle that can be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a> on the host).
+The <i>lprcBounds</i> parameter gives the rectangle to render, also called the client rectangle. This rectangle represents the position and extent of the entire image of the text services object to be drawn. It is expressed in the logical coordinate system of <i>hdcDraw</i>. If <i>lprcBounds</i> is <b>NULL</b> then the control must be active. In this case, the text services object should render the in-place active view (that is, the client rectangle that can be obtained by calling <a href="https://msdn.microsoft.com/7b1d8dbf-73b7-4a0d-8bb0-14e506de6aaf">TxGetClientRect</a> on the host).
 
 If the <i>lprcUpdate</i> parameter is not <b>NULL</b>, it gives the rectangle to update inside that client rectangle, in the logical coordinate system of <i>hdcDraw</i>. If <i>lprcUpdate</i> is <b>NULL</b>, the entire client rectangle should be painted.
 
-The text services object should render with the appropriate zoom factor, which can be obtained from the client rectangle and the native size given by <a href="https://msdn.microsoft.com/en-us/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>. For a discussion of the zoom factor, see <b>TxGetExtent</b>. 
+The text services object should render with the appropriate zoom factor, which can be obtained from the client rectangle and the native size given by <a href="https://msdn.microsoft.com/03cf4acc-f70e-40a4-9050-6e6777867b2b">TxGetExtent</a>. For a discussion of the zoom factor, see <b>TxGetExtent</b>. 
 
-General comments on OLE hosts and <b>ITextServices::TxDraw</b> (also for <a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb787679(v=VS.85).aspx">ITextServices::TxQueryHitPoint</a>):
+General comments on OLE hosts and <b>ITextServices::TxDraw</b> (also for <a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">ITextServices::OnTxSetCursor</a>, and <a href="https://msdn.microsoft.com/926bab0d-667f-40bf-b48d-9e352be41960">ITextServices::TxQueryHitPoint</a>):
 
 An OLE host can call the <b>ITextServices::TxDraw</b> method at any time with any rendering device context or client rectangle. An OLE object that is inactive only retains an extent. To get the rectangle in which to render, the host calls the <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> method. This rectangle is valid only for the scope of that method. Thus, the same control can be rendered consecutively in different rectangles and different device contexts, for example, because it is displayed simultaneously in different views on the screen.
 
 Normally, the client rectangle and device context passed to <b>ITextServices::TxDraw</b> should not be cached, because this would force the text services object to recalculate lines for every draw, which would impede performance. Instead, the text services object could cache the information that is computed for a specific client rectangle and device context (such as line breaks). On the next call to <b>ITextServices::TxDraw</b>, however, the validity of the cached information should be checked before it gets used, and updated information should be regenerated, if necessary.
 
-Also, take great care when the control is in-place active. This problem is even more complex since <b>ITextServices::TxDraw</b> can still be called to render other views than the one that is in-place active. In other words, the client rectangle passed to <b>ITextServices::TxDraw</b> may not be the same as the active one (passed to <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">ITextServices::OnTxInPlaceActivate</a> and obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a> on the host). 
+Also, take great care when the control is in-place active. This problem is even more complex since <b>ITextServices::TxDraw</b> can still be called to render other views than the one that is in-place active. In other words, the client rectangle passed to <b>ITextServices::TxDraw</b> may not be the same as the active one (passed to <a href="https://msdn.microsoft.com/80e003fd-802a-49dd-9616-b4cc7b77fd09">ITextServices::OnTxInPlaceActivate</a> and obtained through <a href="https://msdn.microsoft.com/7b1d8dbf-73b7-4a0d-8bb0-14e506de6aaf">TxGetClientRect</a> on the host). 
 
 
 
@@ -249,7 +249,7 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
 
 
 
@@ -257,7 +257,7 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">OnTxInPlaceActivate</a>
+<a href="https://msdn.microsoft.com/80e003fd-802a-49dd-9616-b4cc7b77fd09">OnTxInPlaceActivate</a>
 
 
 
@@ -277,15 +277,15 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a>
+<a href="https://msdn.microsoft.com/7b1d8dbf-73b7-4a0d-8bb0-14e506de6aaf">TxGetClientRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787664(v=VS.85).aspx">TxGetExtent</a>
+<a href="https://msdn.microsoft.com/03cf4acc-f70e-40a4-9050-6e6777867b2b">TxGetExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

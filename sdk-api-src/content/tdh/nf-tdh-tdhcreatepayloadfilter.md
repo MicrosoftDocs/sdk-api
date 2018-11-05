@@ -7,7 +7,7 @@ old-location: etw\tdhcreatepayloadfilter.htm
 tech.root: etw
 ms.assetid: B5132FF2-9DE3-40F3-82F0-90FE0640F646
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TdhCreatePayloadFilter, TdhCreatePayloadFilter function [ETW], etw.tdhcreatepayloadfilter, tdh/TdhCreatePayloadFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

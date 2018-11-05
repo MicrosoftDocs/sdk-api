@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrix.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMMATRIX
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxmath/XMMATRIX, dxmath.xmmatrix
 ms.prod: windows
 ms.technology: windows-sdk

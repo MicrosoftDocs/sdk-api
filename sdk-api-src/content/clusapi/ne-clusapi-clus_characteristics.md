@@ -7,7 +7,7 @@ old-location: mscs\clus_characteristics.htm
 tech.root: mscs
 ms.assetid: d55506fe-57d7-4d33-a28c-b185f508167d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CLUS_CHARACTERISTICS, CLUS_CHARACTERISTICS enumeration [Failover Cluster], CLUS_CHAR_BROADCAST_DELETE, CLUS_CHAR_CLONES, CLUS_CHAR_COEXIST_IN_SHARED_VOLUME_GROUP, CLUS_CHAR_DELETE_REQUIRES_ALL_NODES, CLUS_CHAR_INFRASTRUCTURE, CLUS_CHAR_LOCAL_QUORUM, CLUS_CHAR_LOCAL_QUORUM_DEBUG, CLUS_CHAR_MONITOR_DETACH, CLUS_CHAR_MONITOR_REATTACH, CLUS_CHAR_NOTIFY_NEW_OWNER, CLUS_CHAR_NOT_PREEMPTABLE, CLUS_CHAR_OPERATION_CONTEXT, CLUS_CHAR_PLACEMENT_DATA, CLUS_CHAR_QUORUM, CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON, CLUS_CHAR_SINGLE_CLUSTER_INSTANCE, CLUS_CHAR_SINGLE_GROUP_INSTANCE, CLUS_CHAR_SUPPORTS_UNMONITORED_STATE, CLUS_CHAR_UNKNOWN, _CLUS_CHARACTERISTICS, _CLUS_CHARACTERISTICS enumeration [Failover Cluster], clusapi/CLUS_CHARACTERISTICS, clusapi/CLUS_CHAR_BROADCAST_DELETE, clusapi/CLUS_CHAR_CLONES, clusapi/CLUS_CHAR_COEXIST_IN_SHARED_VOLUME_GROUP, clusapi/CLUS_CHAR_DELETE_REQUIRES_ALL_NODES, clusapi/CLUS_CHAR_INFRASTRUCTURE, clusapi/CLUS_CHAR_LOCAL_QUORUM, clusapi/CLUS_CHAR_LOCAL_QUORUM_DEBUG, clusapi/CLUS_CHAR_MONITOR_DETACH, clusapi/CLUS_CHAR_MONITOR_REATTACH, clusapi/CLUS_CHAR_NOTIFY_NEW_OWNER, clusapi/CLUS_CHAR_NOT_PREEMPTABLE, clusapi/CLUS_CHAR_OPERATION_CONTEXT, clusapi/CLUS_CHAR_PLACEMENT_DATA, clusapi/CLUS_CHAR_QUORUM, clusapi/CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON, clusapi/CLUS_CHAR_SINGLE_CLUSTER_INSTANCE, clusapi/CLUS_CHAR_SINGLE_GROUP_INSTANCE, clusapi/CLUS_CHAR_SUPPORTS_UNMONITORED_STATE, clusapi/CLUS_CHAR_UNKNOWN, clusapi/_CLUS_CHARACTERISTICS, msclus/CLUS_CHARACTERISTICS, msclus/CLUS_CHAR_BROADCAST_DELETE, msclus/CLUS_CHAR_CLONES, msclus/CLUS_CHAR_COEXIST_IN_SHARED_VOLUME_GROUP, msclus/CLUS_CHAR_DELETE_REQUIRES_ALL_NODES, msclus/CLUS_CHAR_INFRASTRUCTURE, msclus/CLUS_CHAR_LOCAL_QUORUM, msclus/CLUS_CHAR_LOCAL_QUORUM_DEBUG, msclus/CLUS_CHAR_MONITOR_DETACH, msclus/CLUS_CHAR_MONITOR_REATTACH, msclus/CLUS_CHAR_NOTIFY_NEW_OWNER, msclus/CLUS_CHAR_NOT_PREEMPTABLE, msclus/CLUS_CHAR_OPERATION_CONTEXT, msclus/CLUS_CHAR_PLACEMENT_DATA, msclus/CLUS_CHAR_QUORUM, msclus/CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON, msclus/CLUS_CHAR_SINGLE_CLUSTER_INSTANCE, msclus/CLUS_CHAR_SINGLE_GROUP_INSTANCE, msclus/CLUS_CHAR_SUPPORTS_UNMONITORED_STATE, msclus/CLUS_CHAR_UNKNOWN, msclus/_CLUS_CHARACTERISTICS, mscs.clus_characteristics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Resources of this type have no known characteristics.
 ### -field CLUS_CHAR_QUORUM
 
 Resources of this type are capable of being the 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resource type</a> for a cluster.
+       <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource type</a> for a cluster.
 
 
 ### -field CLUS_CHAR_DELETE_REQUIRES_ALL_NODES
@@ -87,8 +87,8 @@ Not supported.
 
 ### -field CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa372239(v=VS.85).aspx">resource DLL</a> will receive the 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa367493(v=VS.85).aspx">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
+The <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a> will receive the 
+       <a href="https://msdn.microsoft.com/3261c8eb-b88b-428a-8a2b-684e0967f9de">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
        control code.
 
 
@@ -114,7 +114,7 @@ The resource can be made part of a special group. Protocol version 2.0 servers d
 
 ### -field CLUS_CHAR_PLACEMENT_DATA
 
-The resource type can be queried to get more information about how many resources it uses. For example, in the <a href="https://msdn.microsoft.com/en-us/library/Dd799469(v=VS.85).aspx">virtual machine</a> resource type, information is returned about how much memory is required for the virtual machine to be started.
+The resource type can be queried to get more information about how many resources it uses. For example, in the <a href="https://msdn.microsoft.com/9f1dcda8-f34b-4801-a35a-970c04ddd6b8">virtual machine</a> resource type, information is returned about how much memory is required for the virtual machine to be started.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2012.
 
@@ -174,31 +174,31 @@ This value is reserved for infrastructure.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367238(v=VS.85).aspx">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/e01103a4-b527-4b8b-9933-7dbe0e6f2ddd">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367258(v=VS.85).aspx">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/5ead5c71-0a35-44c3-aa77-c7c4b8bb197b">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367399(v=VS.85).aspx">CLUSCTL_NETWORK_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/a1777dd3-656b-473a-a5a0-4fd9de6c0575">CLUSCTL_NETWORK_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367416(v=VS.85).aspx">CLUSCTL_NODE_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/8979b006-5494-4587-9675-983ee9021273">CLUSCTL_NODE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367466(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/02de0119-76af-445f-b107-f0ffa57e5ade">CLUSCTL_RESOURCE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367503(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/d968810f-cd95-43a8-8897-43ebf0bd6f08">CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

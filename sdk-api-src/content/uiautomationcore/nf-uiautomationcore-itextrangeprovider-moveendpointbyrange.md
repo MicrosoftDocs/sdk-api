@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByRange.htm
 tech.root: WinAuto
 ms.assetid: 86411603-c37f-4192-95d1-8ac9b6ab6c44
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByRange method, ITextRangeProvider.MoveEndpointByRange, ITextRangeProvider::MoveEndpointByRange, MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByRange, uiauto_ITextRangeProvider_MoveEndpointByRange, uiautomationcore/ITextRangeProvider::MoveEndpointByRange, winauto.uiauto_ITextRangeProvider_MoveEndpointByRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,14 @@ Type: <b><a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fd
 A second text range from the same text provider as the current text range.
 
 
-### -param arg2 [in]
+### -param arg2
+
+TBD
+
+
+
+
+#### - arg3 [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 

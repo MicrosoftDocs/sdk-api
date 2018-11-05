@@ -7,7 +7,7 @@ old-location: winrt\rogetagilereference.htm
 tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Pointer to the interface to be encapsulated in an agile reference. It must be th
 
 ### -param ppAgileReference [out]
 
-The agile reference for the object. Call the <a href="https://msdn.microsoft.com/en-us/library/Dn269838(v=VS.85).aspx">Resolve</a> method to localize the object into the apartment in which <b>Resolve</b> is called.
+The agile reference for the object. Call the <a href="https://msdn.microsoft.com/627A7EE4-CFEF-47F6-BA99-51BEB78C5D55">Resolve</a> method to localize the object into the apartment in which <b>Resolve</b> is called.
 
 
 ## -returns
@@ -156,13 +156,13 @@ The object implements the <a href="https://msdn.microsoft.com/6C82B08D-C8AF-4FB6
 
 
 
-Call the <b>RoGetAgileReference</b> function on an existing object to request an agile reference to the object. The object may or may not be agile, but the returned <a href="https://msdn.microsoft.com/en-us/library/Dn269837(v=VS.85).aspx">IAgileReference</a> is agile. The agile reference can be passed to another apartment within the same process, where the original object is retrieved by using the <b>IAgileReference</b> interface.
+Call the <b>RoGetAgileReference</b> function on an existing object to request an agile reference to the object. The object may or may not be agile, but the returned <a href="https://msdn.microsoft.com/51787A45-BCDE-4028-A338-1C16F2DE79AD">IAgileReference</a> is agile. The agile reference can be passed to another apartment within the same process, where the original object is retrieved by using the <b>IAgileReference</b> interface.
 
-This is conceptually similar to the existing Global Interface Table (GIT). Rather than interacting with the GIT, an <a href="https://msdn.microsoft.com/en-us/library/Dn269837(v=VS.85).aspx">IAgileReference</a> is obtained and used to retrieve the object directly. Just as the GIT is per-process only, agile references are per-process and can't be marshaled.
+This is conceptually similar to the existing Global Interface Table (GIT). Rather than interacting with the GIT, an <a href="https://msdn.microsoft.com/51787A45-BCDE-4028-A338-1C16F2DE79AD">IAgileReference</a> is obtained and used to retrieve the object directly. Just as the GIT is per-process only, agile references are per-process and can't be marshaled.
 
-The agile reference feature provides a performance improvement over the GIT. The agile reference performs eager marshaling by default, which saves a cross-apartment call in cases where the object is retrieved from the agile reference in an apartment that's different from where the agile reference was created. For additional performance improvement, users of the <b>RoGetAgileReference</b> function can use the same interface to create an <a href="https://msdn.microsoft.com/en-us/library/Dn269837(v=VS.85).aspx">IAgileReference</a> and resolve the original object. This saves an additional <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> call to obtain the desired interface from the resolved object.
+The agile reference feature provides a performance improvement over the GIT. The agile reference performs eager marshaling by default, which saves a cross-apartment call in cases where the object is retrieved from the agile reference in an apartment that's different from where the agile reference was created. For additional performance improvement, users of the <b>RoGetAgileReference</b> function can use the same interface to create an <a href="https://msdn.microsoft.com/51787A45-BCDE-4028-A338-1C16F2DE79AD">IAgileReference</a> and resolve the original object. This saves an additional <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> call to obtain the desired interface from the resolved object.
 
-For example, you have a non-agile object named CDemoExample, which implements the IDemo and IExample interfaces. Call the <b>RoGetAgileReference</b> function and pass the object, with IID_IDemo. You get back an <a href="https://msdn.microsoft.com/en-us/library/Dn269837(v=VS.85).aspx">IAgileReference</a> interface pointer, which is agile, so you can pass it to a different apartment. In the other apartment, call the <a href="https://msdn.microsoft.com/en-us/library/Dn269838(v=VS.85).aspx">Resolve</a> method, with IID_IExample. You get back an IExample pointer that you can use within this apartment. This IExample pointer is an IExample proxy that's connected to the original CDemoExample object. The agile reference handles the complexity of operations like manually marshaling to a stream and unmarshaling on the other side of the apartment boundary.
+For example, you have a non-agile object named CDemoExample, which implements the IDemo and IExample interfaces. Call the <b>RoGetAgileReference</b> function and pass the object, with IID_IDemo. You get back an <a href="https://msdn.microsoft.com/51787A45-BCDE-4028-A338-1C16F2DE79AD">IAgileReference</a> interface pointer, which is agile, so you can pass it to a different apartment. In the other apartment, call the <a href="https://msdn.microsoft.com/627A7EE4-CFEF-47F6-BA99-51BEB78C5D55">Resolve</a> method, with IID_IExample. You get back an IExample pointer that you can use within this apartment. This IExample pointer is an IExample proxy that's connected to the original CDemoExample object. The agile reference handles the complexity of operations like manually marshaling to a stream and unmarshaling on the other side of the apartment boundary.
 
 
 
@@ -172,11 +172,11 @@ For example, you have a non-agile object named CDemoExample, which implements th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn269836(v=VS.85).aspx">AgileReferenceOptions</a>
+<a href="https://msdn.microsoft.com/F46FD597-F278-4DA8-BC94-26836684AD7E">AgileReferenceOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn269837(v=VS.85).aspx">IAgileReference</a>
+<a href="https://msdn.microsoft.com/51787A45-BCDE-4028-A338-1C16F2DE79AD">IAgileReference</a>
  
 
  

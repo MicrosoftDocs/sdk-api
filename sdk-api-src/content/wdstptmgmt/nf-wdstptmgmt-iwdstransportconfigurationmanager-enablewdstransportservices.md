@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_enablewdstransportservices.h
 tech.root: wds
 ms.assetid: 30f4ff61-8e92-4d1b-8243-e5cc9d64da40
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EnableWdsTransportServices, EnableWdsTransportServices method [Windows Deployment Services], EnableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],EnableWdsTransportServices method, IWdsTransportConfigurationManager.EnableWdsTransportServices, IWdsTransportConfigurationManager::EnableWdsTransportServices, wds.iwdstransportconfigurationmanager_enablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::EnableWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

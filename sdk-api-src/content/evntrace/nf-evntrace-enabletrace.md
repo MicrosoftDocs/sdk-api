@@ -7,7 +7,7 @@ old-location: etw\enabletrace.htm
 tech.root: etw
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EnableTrace, EnableTrace function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, _evt_enabletrace, base.enabletrace, etw.enabletrace, evntrace/EnableTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

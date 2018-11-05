@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_moreinfourl.htm
 tech.root: DirectShow
 ms.assetid: 8efaa0b9-09c1-4434-a992-6290fc388cb2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoURL method, IAMMediaContent.get_MoreInfoURL, IAMMediaContent::get_MoreInfoURL, IAMMediaContentget_MoreInfoURL, dshow.iammediacontent_get_moreinfourl, get_MoreInfoURL, get_MoreInfoURL method [DirectShow], get_MoreInfoURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

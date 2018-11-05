@@ -7,7 +7,7 @@ old-location: base\rtwqendregisterworkqueuewithmmcss.htm
 tech.root: procthread
 ms.assetid: 887dec6f-c3ba-4139-b80b-6a2e05bfa1f9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RtwqEndRegisterWorkQueueWithMMCSS, RtwqEndRegisterWorkQueueWithMMCSS function, base.rtwqendregisterworkqueuewithmmcss, rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

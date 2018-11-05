@@ -7,7 +7,7 @@ old-location: mf\mfcreatestreamonmfbytestreamex.htm
 tech.root: medfound
 ms.assetid: 5D43889B-6430-4057-87E8-B8501B52E4A5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFCreateStreamOnMFByteStreamEx, MFCreateStreamOnMFByteStreamEx function [Media Foundation], mf.mfcreatestreamonmfbytestreamex, mf.mfcreatewinrtstreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStreamEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object that wraps a Microsoft Media Foundation byte stream.
+Creates an <a href="https://msdn.microsoft.com/a9a4bd11-8c69-4826-9ea0-6f42421c8367">IRandomAccessStream</a> object that wraps a Microsoft Media Foundation byte stream.
 
 
 ## -parameters

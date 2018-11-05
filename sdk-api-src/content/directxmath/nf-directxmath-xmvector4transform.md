@@ -7,7 +7,7 @@ old-location: dxmath\xmvector4transform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector4Transform(XMVECTOR,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMVector4Transform, XMVector4Transform, XMVector4Transform method [DirectX Math Support APIs], dxmath.xmvector4transform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVector4Transform
-: 
 ---
 
 # XMVector4Transform function

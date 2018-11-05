@@ -7,7 +7,7 @@ old-location: automat\variantcopy.htm
 tech.root: automat
 ms.assetid: f6ddbe1f-37b0-44f1-a3f0-b7ef4df88f8a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VariantCopy, VariantCopy function [Automation], _oa96_VariantCopy, automat.variantcopy, oleauto/VariantCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,7 +147,7 @@ Insufficient memory to complete the operation.
 
 
 
-First, free any memory that is owned by pvargDest, such as <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
+First, free any memory that is owned by pvargDest, such as <a href="28741D81-8404-4F85-95D3-5C209EC13835">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
 
 If pvargSrc is a VT_BSTR, a copy of the string is made. If pvargSrcis a VT_ARRAY, the entire array is copied. If pvargSrc is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count.
 

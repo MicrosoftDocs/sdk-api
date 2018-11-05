@@ -7,7 +7,7 @@ old-location: winlocation\ilocationreport.htm
 tech.root: locationapi
 ms.assetid: 6dc78c26-36b3-4545-b5ba-7f04f6e67706
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ILocationReport, ILocationReport interface [WinLocation], ILocationReport interface [WinLocation],described, locationapi/ILocationReport, winlocation.ilocationreport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IPublishingWizard_GetTransferManifest.htm
 tech.root: shell
 ms.assetid: 1c595526-f810-4a33-82c3-785727153b16
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetTransferManifest, GetTransferManifest method [Windows Shell], GetTransferManifest method [Windows Shell],IPublishingWizard interface, IPublishingWizard interface [Windows Shell],GetTransferManifest method, IPublishingWizard.GetTransferManifest, IPublishingWizard::GetTransferManifest, _shell_IPublishingWizard_GetTransferManifest, shell.IPublishingWizard_GetTransferManifest, shobjidl/IPublishingWizard::GetTransferManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ A pointer to a variable of type <b>HRESULT</b> that, when this method returns, i
 
 Type: <b>IXMLDOMDocument**</b>
 
-Address of an <a href="https://msdn.microsoft.com/library/Dd892951(v=VS.85).aspx">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
+Address of an <a href="7d0088e0-c309-4e57-9533-6700f80074b3">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
 
 
 ## -returns

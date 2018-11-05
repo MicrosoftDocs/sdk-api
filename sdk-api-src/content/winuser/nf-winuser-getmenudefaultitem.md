@@ -7,7 +7,7 @@ old-location: menurc\getmenudefaultitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenudefaultitem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GMDI_GOINTOPOPUPS, GMDI_USEDISABLED, GetMenuDefaultItem, GetMenuDefaultItem function [Menus and Other Resources], _win32_GetMenuDefaultItem, _win32_getmenudefaultitem_cpp, menurc.getmenudefaultitem, winui._win32_getmenudefaultitem, winuser/GetMenuDefaultItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -143,7 +143,7 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647996(v=VS.85).aspx">SetMenuDefaultItem</a>
+<a href="https://msdn.microsoft.com/e679f714-6298-4425-8a64-2029ae7b1326">SetMenuDefaultItem</a>
  
 
  

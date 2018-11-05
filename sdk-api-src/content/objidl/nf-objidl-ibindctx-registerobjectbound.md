@@ -7,7 +7,7 @@ old-location: com\ibindctx_registerobjectbound.htm
 tech.root: com
 ms.assetid: 84d49231-5fdd-4a89-8e76-1f0e56bc553f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IBindCtx interface [COM],RegisterObjectBound method, IBindCtx.RegisterObjectBound, IBindCtx::RegisterObjectBound, RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM],IBindCtx interface, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound
 ms.prod: windows-hardware
 ms.technology: windows-devices

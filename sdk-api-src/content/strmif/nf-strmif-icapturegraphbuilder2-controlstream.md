@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_controlstream.htm
 tech.root: DirectShow
 ms.assetid: f5c91444-6ddb-403c-bff5-33d9ce91fae3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],ControlStream method, ICaptureGraphBuilder2.ControlStream, ICaptureGraphBuilder2::ControlStream, ICaptureGraphBuilder2ControlStream, dshow.icapturegraphbuilder2_controlstream, strmif/ICaptureGraphBuilder2::ControlStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

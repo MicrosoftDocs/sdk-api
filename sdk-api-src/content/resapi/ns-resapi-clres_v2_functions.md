@@ -4,10 +4,10 @@ title: CLRES_V2_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 2.0 entry points except StartupEx.
 old-location: mscs\clres_v2_functions.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 81A5169E-C2AB-4666-9D9F-9DE4A639D0D6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PCLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS structure [Failover Cluster], PCLRES_V2_FUNCTIONS, PCLRES_V2_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v2_functions, resapi/CLRES_V2_FUNCTIONS, resapi/PCLRES_V2_FUNCTIONS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol.htm
 tech.root: medfound
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
 ms.prod: windows
 ms.technology: windows-sdk

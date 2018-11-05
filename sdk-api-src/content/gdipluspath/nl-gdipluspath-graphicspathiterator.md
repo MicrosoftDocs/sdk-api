@@ -50,6 +50,6 @@ req.redist:
 ## -description
 
 
-This <a href="https://msdn.microsoft.com/en-us/library/ms535451(v=VS.85).aspx">GraphicsPathIterator</a> class provides methods for isolating selected subsets of the path stored in a 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535523(v=VS.85).aspx">GraphicsPath</a> object. A path consists of one or more figures. You can use a <b>GraphicsPathIterator</b> to isolate one or more of those figures. A path can also have markers that divide the path into sections. You can use a <b>GraphicsPathIterator</b> object to isolate one or more of those sections.
+This <a href="https://msdn.microsoft.com/3186bc85-03c2-432b-b8de-b464738ffa6a">GraphicsPathIterator</a> class provides methods for isolating selected subsets of the path stored in a 
+			<a href="https://msdn.microsoft.com/933dd879-480c-4b8a-965a-1656382d849a">GraphicsPath</a> object. A path consists of one or more figures. You can use a <b>GraphicsPathIterator</b> to isolate one or more of those figures. A path can also have markers that divide the path into sections. You can use a <b>GraphicsPathIterator</b> object to isolate one or more of those sections.
 

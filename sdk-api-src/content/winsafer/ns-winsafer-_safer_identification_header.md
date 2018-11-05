@@ -7,7 +7,7 @@ old-location: security\safer_identification_header.htm
 tech.root: secmgmt
 ms.assetid: 9bcb7d22-2360-4146-9972-118ba8822aa7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: "*PSAFER_IDENTIFICATION_HEADER, PSAFER_IDENTIFICATION_HEADER, PSAFER_IDENTIFICATION_HEADER structure pointer [Security], SAFER_IDENTIFICATION_HEADER, SAFER_IDENTIFICATION_HEADER structure [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, _SAFER_IDENTIFICATION_HEADER, _mnp_safer_identification_header, security.safer_identification_header, winsafer/PSAFER_IDENTIFICATION_HEADER, winsafer/SAFER_IDENTIFICATION_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

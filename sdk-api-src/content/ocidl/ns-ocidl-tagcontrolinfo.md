@@ -7,7 +7,7 @@ old-location: com\controlinfo.htm
 tech.root: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO, tagCONTROLINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The size of the structure, in bytes.
 
 ### -field hAccel
 
-A handle to an array of <a href="https://msdn.microsoft.com/en-us/library/ms646340(v=VS.85).aspx">ACCEL</a> structures, each structure describing a keyboard mnemonic. The array is created with the <a href="https://msdn.microsoft.com/en-us/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a> function. The control always maintains the memory for this array; the caller of <a href="https://msdn.microsoft.com/defb7509-e586-45a0-9e56-de9eba17f18e">IOleControl::GetControlInfo</a> should not attempt to free the memory.
+A handle to an array of <a href="_win32_ACCEL_str_cpp">ACCEL</a> structures, each structure describing a keyboard mnemonic. The array is created with the <a href="_win32_CreateAcceleratorTable_cpp">CreateAcceleratorTable</a> function. The control always maintains the memory for this array; the caller of <a href="https://msdn.microsoft.com/defb7509-e586-45a0-9e56-de9eba17f18e">IOleControl::GetControlInfo</a> should not attempt to free the memory.
 
 
 ### -field cAccel

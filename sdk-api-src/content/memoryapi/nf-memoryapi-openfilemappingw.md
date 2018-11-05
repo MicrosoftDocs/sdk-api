@@ -4,10 +4,10 @@ title: OpenFileMappingW function
 author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemapping.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 4896144c-78fc-4d21-a302-d9ba66fb2f8a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFileMappingW, _win32_openfilemapping, base.openfilemapping, fs.openfilemapping, winbase/OpenFileMapping, winbase/OpenFileMappingA, winbase/OpenFileMappingW
 ms.prod: windows-hardware
 ms.technology: windows-devices

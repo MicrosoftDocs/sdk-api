@@ -7,7 +7,7 @@ old-location: rpc\rpc_async_notification_info.htm
 tech.root: rpc
 ms.assetid: 253f3d23-4cc2-44b3-9d25-c7f26d73ed1e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], _RPC_ASYNC_NOTIFICATION_INFO, rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,19 +90,19 @@ Handle to the I/O completion port.
 ### -field IOC.dwNumberOfBytesTransferred
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 ### -field IOC.dwCompletionKey
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpCompletionKey</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 ### -field IOC.lpOverlapped
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpOverlapped</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 ### -field HWND

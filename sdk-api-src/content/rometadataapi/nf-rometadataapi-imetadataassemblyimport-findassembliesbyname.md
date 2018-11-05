@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_findassembliesbyname.htm
 tech.root: WinRT
 ms.assetid: 147158ba-060e-404e-9721-3d0c2498f5c9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FindAssembliesByName, FindAssembliesByName method [Windows Runtime], FindAssembliesByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindAssembliesByName method, IMetaDataAssemblyImport.FindAssembliesByName, IMetaDataAssemblyImport::FindAssembliesByName, rometadataapi/IMetaDataAssemblyImport::FindAssembliesByName, winrt.imetadataassemblyimport_findassembliesbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

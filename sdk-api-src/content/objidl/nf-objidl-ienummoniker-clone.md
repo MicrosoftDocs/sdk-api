@@ -7,7 +7,7 @@ old-location: com\ienummoniker_clone.htm
 tech.root: com
 ms.assetid: 6238e556-9ef4-42c7-95ba-12468cec6b52
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interface, IEnumMoniker interface [COM],Clone method, IEnumMoniker.Clone, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

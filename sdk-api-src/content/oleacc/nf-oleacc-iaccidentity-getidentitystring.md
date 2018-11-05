@@ -7,7 +7,7 @@ old-location: winauto\iaccidentity_iaccidentity__getidentitystring.htm
 tech.root: WinAuto
 ms.assetid: 38467491-c432-456a-9128-723fc7dde189
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetIdentityString, GetIdentityString method [Windows Accessibility], GetIdentityString method [Windows Accessibility],IAccIdentity interface, IAccIdentity interface [Windows Accessibility],GetIdentityString method, IAccIdentity.GetIdentityString, IAccIdentity::GetIdentityString, _msaa_IAccIdentity_GetIdentityString, msaa.iaccidentity_iaccidentity__getidentitystring, oleacc/IAccIdentity::GetIdentityString, winauto.iaccidentity_iaccidentity__getidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices

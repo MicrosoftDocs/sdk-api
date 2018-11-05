@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetCaretIndex.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcaretindex.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListBox_GetCaretIndex, ListBox_GetCaretIndex macro [Windows Controls], _win32_ListBox_GetCaretIndex, _win32_ListBox_GetCaretIndex_cpp, controls.ListBox_GetCaretIndex, controls._win32_ListBox_GetCaretIndex, windowsx/ListBox_GetCaretIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775193(v=VS.85).aspx">LB_GETCARETINDEX</a> message explicitly.
+Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://msdn.microsoft.com/5e9e8a37-8aed-4cfd-9360-e0de6a9b2971">LB_GETCARETINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775193(v=VS.85).aspx">LB_GETCARETINDEX</a>.
+For more information, see <a href="https://msdn.microsoft.com/5e9e8a37-8aed-4cfd-9360-e0de6a9b2971">LB_GETCARETINDEX</a>.
 
 
 

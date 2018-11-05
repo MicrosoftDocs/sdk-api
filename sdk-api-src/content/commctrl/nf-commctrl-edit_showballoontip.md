@@ -7,7 +7,7 @@ old-location: controls\Edit_ShowBalloonTip.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_showballoontip.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Edit_ShowBalloonTip, Edit_ShowBalloonTip macro [Windows Controls], _win32_Edit_ShowBalloonTip, _win32_Edit_ShowBalloonTip_cpp, commctrl/Edit_ShowBalloonTip, controls.Edit_ShowBalloonTip, controls._win32_Edit_ShowBalloonTip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Displays a balloon tip associated with an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a> message explicitly. 
+Displays a balloon tip associated with an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/1e6915b7-4b61-43b2-be13-b89c72378a1a">EM_SHOWBALLOONTIP</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Displays a balloon tip associated with an edit control. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the edit control. 
 
@@ -69,14 +69,14 @@ A handle to the edit control.
 
 Type: <b>PEDITBALLOONTIP</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775466(v=VS.85).aspx">EDITBALLOONTIP</a> structure that contains information about the balloon tip to display. 
+A pointer to an <a href="https://msdn.microsoft.com/d8325283-d059-4494-9b99-e473459bbdcc">EDITBALLOONTIP</a> structure that contains information about the balloon tip to display. 
 
 
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -90,15 +90,15 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775466(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775466(v=VS.85).aspx">EDITBALLOONTIP</a>
+<a href="https://msdn.microsoft.com/d8325283-d059-4494-9b99-e473459bbdcc">EDITBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
+<a href="https://msdn.microsoft.com/1e6915b7-4b61-43b2-be13-b89c72378a1a">EM_SHOWBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>
 
 
 

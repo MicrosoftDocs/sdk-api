@@ -7,7 +7,7 @@ old-location: security\policy_account_domain_info.htm
 tech.root: secmgmt
 ms.assetid: 0e38ac5f-40db-405d-9394-b6bcb7c652b5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: "*PPOLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO structure [Security], PPOLICY_ACCOUNT_DOMAIN_INFO, PPOLICY_ACCOUNT_DOMAIN_INFO structure pointer [Security], _POLICY_ACCOUNT_DOMAIN_INFO, _lsa_policy_account_domain_info, lsalookup/POLICY_ACCOUNT_DOMAIN_INFO, lsalookup/PPOLICY_ACCOUNT_DOMAIN_INFO, security.policy_account_domain_info"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcount.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773572(v=VS.85).aspx">TVM_GETCOUNT</a> message explicitly. 
+Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/cb8477be-51c9-4e96-8fa6-f978e0c1595f">TVM_GETCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves a count of the items in a tree-view control. You can use this macro or
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

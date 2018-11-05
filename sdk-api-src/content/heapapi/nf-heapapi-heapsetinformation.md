@@ -4,10 +4,10 @@ title: HeapSetInformation function
 author: windows-sdk-content
 description: Enables features for a specified heap.
 old-location: base\heapsetinformation.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -198,11 +198,15 @@ Setting the <b>HeapEnableTerminateOnCorruption</b> option is strongly recommende
 
 The following example shows you how to enable the low-fragmentation heap.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 #define HEAP_LFH 2
 
@@ -251,7 +255,7 @@ int __cdecl _tmain()
     HeapInformation = HEAP_LFH;
     bResult = HeapSetInformation(hHeap,
                                  HeapCompatibilityInformation,
-                                 &HeapInformation,
+                                 &amp;HeapInformation,
                                  sizeof(HeapInformation));
     if (bResult != FALSE) {
         _tprintf(TEXT("The low-fragmentation heap has been enabled.\n"));
@@ -264,10 +268,10 @@ int __cdecl _tmain()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

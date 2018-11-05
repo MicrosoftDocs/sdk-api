@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagerinfo.htm
 tech.root: secauthn
 ms.assetid: BF573834-FA5A-4ADE-9E19-389B1A15A1F8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: KeyCredentialManagerInfo, KeyCredentialManagerInfo structure [Security], PKeyCredentialManagerInfo, PKeyCredentialManagerInfo structure pointer [Security], keycredmgr/KeyCredentialManagerInfo, keycredmgr/PKeyCredentialManagerInfo, security.keycredentialmanagerinfo
 ms.prod: windows
 ms.technology: windows-sdk

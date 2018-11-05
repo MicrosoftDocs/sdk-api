@@ -7,7 +7,7 @@ old-location: security\scardlocatecards.htm
 tech.root: secauthn
 ms.assetid: 7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SCardLocateCards, SCardLocateCards function [Security], SCardLocateCardsA, SCardLocateCardsW, _smart_scardlocatecards, security.scardlocatecards, winscard/SCardLocateCards, winscard/SCardLocateCardsA, winscard/SCardLocateCardsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -141,12 +141,16 @@ Calling this function should be done outside of a transaction. If an application
 
 The following example  shows locating smart cards.
 
-
-```cpp
-// Copyright (C) Microsoft. All rights reserved. 
-#include <stdio.h>
-#include <winscard.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Copyright (C) Microsoft. All rights reserved. 
+#include &lt;stdio.h&gt;
+#include &lt;winscard.h&gt;
+#include &lt;tchar.h&gt;
 #pragma comment(lib, "winscard.lib")
 
 HRESULT __cdecl main()
@@ -170,7 +174,7 @@ szCard[lstrlen(szCard) + 1] = 0;  // Double trailing zero.
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &hSC );
+                                &amp;hSC );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardEstablishContext\n");
@@ -180,8 +184,8 @@ if ( SCARD_S_SUCCESS != lReturn )
 // Determine which readers are available.
 lReturn = SCardListReaders(hSC,
                            NULL,
-                           (LPTSTR)&szReaders,
-                           &cchReaders );
+                           (LPTSTR)&amp;szReaders,
+                           &amp;cchReaders );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardListReaders\n");
@@ -189,7 +193,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 // Place the readers into the state array.
 szRdr = szReaders;
-for ( dwI = 0; dwI < MAXIMUM_SMARTCARD_READERS; dwI++ )
+for ( dwI = 0; dwI &lt; MAXIMUM_SMARTCARD_READERS; dwI++ )
 {
     if ( 0 == *szRdr )
         break;
@@ -216,9 +220,9 @@ if ( 0 != dwRdrCount )
     }
 
     // Look through the array of readers.
-    for ( dwI=0; dwI < dwRdrCount; dwI++)
+    for ( dwI=0; dwI &lt; dwRdrCount; dwI++)
     {
-        if ( 0 != ( SCARD_STATE_ATRMATCH & 
+        if ( 0 != ( SCARD_STATE_ATRMATCH &amp; 
                     rgscState[dwI].dwEventState))
         {
            _tprintf( TEXT("Card '%s' found in reader '%s'.\n"),
@@ -260,10 +264,10 @@ SCardFreeMemory( hSC,
 
 return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

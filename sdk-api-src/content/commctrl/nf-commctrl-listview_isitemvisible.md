@@ -7,7 +7,7 @@ old-location: controls\ListView_IsItemVisible.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isitemvisible.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Controls], _shell_ListView_IsItemVisible, _shell_ListView_IsItemVisible_cpp, commctrl/ListView_IsItemVisible, controls.ListView_IsItemVisible, controls._shell_ListView_IsItemVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761135(v=VS.85).aspx">LVM_ISITEMVISIBLE</a> message explicitly.
+Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://msdn.microsoft.com/355be527-e2b9-46be-96a0-951d72216d92">LVM_ISITEMVISIBLE</a> message explicitly.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Indicates whether an item in the list-view control is visible. Use this macro or
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param index [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The index of item in list-view control.
 

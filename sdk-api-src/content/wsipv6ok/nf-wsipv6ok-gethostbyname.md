@@ -7,7 +7,7 @@ old-location: winsock\gethostbyname_2.htm
 tech.root: winsock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ If the host specified in the <i>name</i> parameter has both IPv4 and IPv6 addres
 If the <i>name</i> parameter points to an empty string or <i>name</i> is <b>NULL</b>, the returned string is the same as the string returned by a successful 
 <a href="https://msdn.microsoft.com/8fa40b60-0e93-493b-aee1-cea6cf595707">gethostname</a> function call (the standard host name for the local computer).
 
-If the <i>name</i> parameter contains a string representation of a legal IPv4 address, then the binary IPv4 address that represents the string is returned in the <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure. The <b>h_name</b> member of the <b>hostent</b> structure contains the string representation of the IPv4 address and the <b>h_addr_list</b>  contains the binary IPv4 address. If the <i>name</i> parameter contains a string representation of an IPv6 address or an illegal IPv4 address, then the  <b>gethostbyname</b> function will fail and return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a>.  
+If the <i>name</i> parameter contains a string representation of a legal IPv4 address, then the binary IPv4 address that represents the string is returned in the <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure. The <b>h_name</b> member of the <b>hostent</b> structure contains the string representation of the IPv4 address and the <b>h_addr_list</b>  contains the binary IPv4 address. If the <i>name</i> parameter contains a string representation of an IPv6 address or an illegal IPv4 address, then the  <b>gethostbyname</b> function will fail and return <a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a>.  
 
 The memory for the <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure  returned by the <b>gethostbyname</b> function is allocated internally by the Winsock DLL from thread local storage. Only a single <b>hostent</b> structure is allocated and used, no matter how many times the <a href="https://msdn.microsoft.com/303023e1-a486-4457-80f6-8aa80f6b2c79">gethostbyaddr</a> 
 		 or <b>gethostbyname</b> functions are called on the thread. The returned  <b>hostent</b> structure  must be copied to an application buffer if additional calls are to be made to the <b>gethostbyname</b> or <b>gethostbyaddr</b> functions on the same thread. Otherwise, the return value will be overwritten by subsequent <b>gethostbyname</b> or <b>gethostbyaddr</b> 
@@ -108,12 +108,16 @@ The
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following examples demonstrates the use of the <b>gethostbyname</b> function.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 #pragma comment(lib, "ws2_32.lib")
 
 int main(int argc, char **argv)
@@ -145,7 +149,7 @@ int main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -172,12 +176,12 @@ int main(int argc, char **argv)
         }
     } else {
         printf("Function returned:\n");
-        printf("\tOfficial name: %s\n", remoteHost->h_name);
-        for (pAlias = remoteHost->h_aliases; *pAlias != 0; pAlias++) {
+        printf("\tOfficial name: %s\n", remoteHost-&gt;h_name);
+        for (pAlias = remoteHost-&gt;h_aliases; *pAlias != 0; pAlias++) {
             printf("\tAlternate name #%d: %s\n", ++i, *pAlias);
         }
         printf("\tAddress type: ");
-        switch (remoteHost->h_addrtype) {
+        switch (remoteHost-&gt;h_addrtype) {
         case AF_INET:
             printf("AF_INET\n");
             break;
@@ -185,20 +189,20 @@ int main(int argc, char **argv)
             printf("AF_NETBIOS\n");
             break;
         default:
-            printf(" %d\n", remoteHost->h_addrtype);
+            printf(" %d\n", remoteHost-&gt;h_addrtype);
             break;
         }
-        printf("\tAddress length: %d\n", remoteHost->h_length);
+        printf("\tAddress length: %d\n", remoteHost-&gt;h_length);
 
         i = 0;
-        if (remoteHost->h_addrtype == AF_INET)
+        if (remoteHost-&gt;h_addrtype == AF_INET)
         {
-            while (remoteHost->h_addr_list[i] != 0) {
-                addr.s_addr = *(u_long *) remoteHost->h_addr_list[i++];
+            while (remoteHost-&gt;h_addr_list[i] != 0) {
+                addr.s_addr = *(u_long *) remoteHost-&gt;h_addr_list[i++];
                 printf("\tIP Address #%d: %s\n", i, inet_ntoa(addr));
             }
         }
-        else if (remoteHost->h_addrtype == AF_NETBIOS)
+        else if (remoteHost-&gt;h_addrtype == AF_NETBIOS)
         {   
             printf("NETBIOS address was returned\n");
         }   
@@ -206,10 +210,10 @@ int main(int argc, char **argv)
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

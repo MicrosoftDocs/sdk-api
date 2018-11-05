@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_signal_parms.htm
 tech.root: Multimedia
 ms.assetid: 01076be3-6eaa-4fa3-a676-1698a9c08271
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPMCI_DGV_SIGNAL_PARMS, MCI_DGV_SIGNAL_PARMS, MCI_DGV_SIGNAL_PARMS structure [Windows Multimedia], _win32_MCI_DGV_SIGNAL_PARMS_str, digitalv/MCI_DGV_SIGNAL_PARMS, multimedia.mci_dgv_signal_parms"
 ms.prod: windows
 ms.technology: windows-sdk

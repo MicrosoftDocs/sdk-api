@@ -7,7 +7,7 @@ old-location: mf\d3d11_key_exchange_hw_protection_output_data.htm
 tech.root: medfound
 ms.assetid: D8F987CA-0BD2-42D1-AE95-8D2D118655B1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, mf.d3d11_key_exchange_hw_protection_output_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Represents key exchange output data for hardware content protection.
 
 ### -field PrivateDataSize
 
-The size of the private data reserved for IHV usage. This size is determined from the <i>pPrivateOutputSize</i> parameter returned by the <a href="https://msdn.microsoft.com/en-us/library/Dn894143(v=VS.85).aspx">ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize</a> function.
+The size of the private data reserved for IHV usage. This size is determined from the <i>pPrivateOutputSize</i> parameter returned by the <a href="https://msdn.microsoft.com/3F973DA0-F722-4EC2-A578-F01B6999F16B">ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize</a> function.
 
 
 ### -field MaxHWProtectionDataSize
@@ -95,7 +95,7 @@ If <b>PrivateDataSize</b> is greater than 0,  pbInput[0] – <b>pbOutput</b>[<b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

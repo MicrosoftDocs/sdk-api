@@ -7,7 +7,7 @@ old-location: controls\ListView_SetHotItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotitem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_SetHotItem, ListView_SetHotItem macro [Windows Controls], _win32_ListView_SetHotItem, _win32_ListView_SetHotItem_cpp, commctrl/ListView_SetHotItem, controls.ListView_SetHotItem, controls._win32_ListView_SetHotItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the hot item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761172(v=VS.85).aspx">LVM_SETHOTITEM</a> message explicitly. 
+Sets the hot item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/0aa2b15d-4983-4234-9863-f1fdee09f913">LVM_SETHOTITEM</a> message explicitly. 
 
 
 ## -parameters

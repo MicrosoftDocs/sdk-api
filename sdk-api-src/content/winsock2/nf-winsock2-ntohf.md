@@ -7,7 +7,7 @@ old-location: winsock\ntohf.htm
 tech.root: winsock
 ms.assetid: FD98AE9D-C753-479C-BF44-7495B3B5C953
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ntohf, ntohf function [Winsock], winsock.ntohf, winsock2/ntohf
 ms.prod: windows-hardware
 ms.technology: windows-devices

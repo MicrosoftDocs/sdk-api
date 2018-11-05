@@ -7,7 +7,7 @@ old-location: devinst\cm_free_res_des_ex.htm
 tech.root: devinst
 ms.assetid: 2c6768c2-183b-480d-96cf-0f62f33d62d1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Free_Res_Des_Ex, CM_Free_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des_Ex, cfgmgrfn_a851124e-1673-4025-8a33-478957f83152.xml, devinst.cm_free_res_des_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Ff537948(v=VS.85).aspx">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>

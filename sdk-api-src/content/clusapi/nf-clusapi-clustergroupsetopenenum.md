@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectionopenenum.htm
 tech.root: mscs
 ms.assetid: 9e629cc8-2e5f-4682-a9b5-902d13a9792d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ClusterGroupSetOpenEnum, ClusterGroupSetOpenEnum function [Failover Cluster], clusapi/ClusterGroupSetOpenEnum, mscs.clustergroupcollectionopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A handle to the cluster containing the groupset.
 
 
 
-If successful, returns a handle suitable for use with <a href="https://msdn.microsoft.com/en-us/library/Mt705438(v=VS.85).aspx">ClusterGroupSetEnum</a>
+If successful, returns a handle suitable for use with <a href="https://msdn.microsoft.com/926f67bd-2933-4b95-8320-166fe5299d7a">ClusterGroupSetEnum</a>
 
 
 If the operation fails, 

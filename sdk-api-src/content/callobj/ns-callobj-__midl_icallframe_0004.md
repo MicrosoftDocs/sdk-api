@@ -7,7 +7,7 @@ old-location: com\callframe_marshalcontext.htm
 tech.root: com
 ms.assetid: 4ecc4646-db3f-4d0e-9c45-b78a288156e1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CALLFRAME_MARSHALCONTEXT, CALLFRAME_MARSHALCONTEXT structure [COM], __MIDL_ICallFrame_0004, callobj/CALLFRAME_MARSHALCONTEXT, com.callframe_marshalcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,11 +98,11 @@ This parameter should be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684028(v=VS.85).aspx">ICallUnmarshal</a>
+<a href="https://msdn.microsoft.com/66de8d71-c27c-41bd-a741-02de5c779290">ICallUnmarshal</a>
  
 
  

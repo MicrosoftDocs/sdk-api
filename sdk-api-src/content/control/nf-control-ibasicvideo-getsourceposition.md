@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getsourceposition.htm
 tech.root: DirectShow
 ms.assetid: 4624e38c-63ff-4860-a899-c70e44e0f8aa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetSourcePosition, GetSourcePosition method [DirectShow], GetSourcePosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetSourcePosition method, IBasicVideo.GetSourcePosition, IBasicVideo::GetSourcePosition, IBasicVideoGetSourcePosition, control/IBasicVideo::GetSourcePosition, dshow.ibasicvideo_getsourceposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389583(v=VS.85).aspx">IBasicVideo::get_SourceLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389584(v=VS.85).aspx">IBasicVideo::get_SourceTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389585(v=VS.85).aspx">IBasicVideo::get_SourceWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389582(v=VS.85).aspx">IBasicVideo::get_SourceHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/1ea64dae-d643-44c1-9026-f9b0dcd25ef1">IBasicVideo::get_SourceLeft</a>, <a href="https://msdn.microsoft.com/87ad3699-5a1b-4fa0-b7bd-5ec87758e9fa">IBasicVideo::get_SourceTop</a>, <a href="https://msdn.microsoft.com/6c6f7e01-5f93-4277-b664-c5be0ea42004">IBasicVideo::get_SourceWidth</a>, and <a href="https://msdn.microsoft.com/3f4e779a-cfa9-496d-a021-d24ae3daa5b3">IBasicVideo::get_SourceHeight</a> methods.
 
 
 
@@ -105,11 +105,11 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

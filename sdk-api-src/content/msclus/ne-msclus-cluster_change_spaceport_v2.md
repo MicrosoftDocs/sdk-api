@@ -4,10 +4,10 @@ title: CLUSTER_CHANGE_SPACEPORT_V2
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_change_spaceport_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: CB4E924B-50E5-4637-8D1C-2A195EF67966
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, CLUSTER_CHANGE_SPACEPORT_V2, CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, clusapi/CLUSTER_CHANGE_SPACEPORT_V2, msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, msclus/CLUSTER_CHANGE_SPACEPORT_V2, mscs.cluster_change_spaceport_v2
 ms.prod: windows
 ms.technology: windows-sdk

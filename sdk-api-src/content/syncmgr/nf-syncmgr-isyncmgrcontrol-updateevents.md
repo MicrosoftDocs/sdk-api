@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateEvents.htm
 tech.root: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyncMgrControl.UpdateEvents, ISyncMgrControl::UpdateEvents, UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,9 +103,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateEvents
 
 The following example shows the usage of <b>ISyncMgrControl::UpdateEvents</b> by a handler's procedure.
 
-
-```cpp
-void CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CMyDeviceHandler::Synchronize(...)
 {
     ...
     // Add events to the event store.
@@ -115,24 +119,24 @@ void CMyDeviceHandler::Synchronize(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center that we added events to our event store.
         // By passing NULL in pszItemID, we tell Sync Center that the event
         // occurred on the handler rather than a specific item.
-        hr = pControl->UpdateEvents(s_szMyDeviceSyncHandlerID, 
+        hr = pControl-&gt;UpdateEvents(s_szMyDeviceSyncHandlerID, 
                                     NULL,
                                     SYNCMGR_CF_NOWAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

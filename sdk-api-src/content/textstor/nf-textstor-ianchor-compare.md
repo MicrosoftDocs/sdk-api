@@ -170,7 +170,7 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
+<a href="ranges.htm">Anchors</a>
 
 
 

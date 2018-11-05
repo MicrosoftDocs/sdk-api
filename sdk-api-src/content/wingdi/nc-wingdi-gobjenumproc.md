@@ -7,7 +7,7 @@ old-location: gdi\enumobjectsproc.htm
 tech.root: gdi
 ms.assetid: 05a0f329-add9-4e92-9a9a-e2cf0ba5a1c3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GOBJENUMPROC, GOBJENUMPROC callback, GOBJENUMPROC callback function [Windows GDI], _win32_EnumObjectsProc, gdi.enumobjectsproc, wingdi/GOBJENUMPROC
 ms.prod: windows
 ms.technology: windows-sdk

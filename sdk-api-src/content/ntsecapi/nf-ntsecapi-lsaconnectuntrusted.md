@@ -7,7 +7,7 @@ old-location: security\lsaconnectuntrusted.htm
 tech.root: secauthn
 ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LsaConnectUntrusted, LsaConnectUntrusted function [Security], _lsa_lsaconnectuntrusted, ntsecapi/LsaConnectUntrusted, security.lsaconnectuntrusted
 ms.prod: windows-hardware
 ms.technology: windows-devices

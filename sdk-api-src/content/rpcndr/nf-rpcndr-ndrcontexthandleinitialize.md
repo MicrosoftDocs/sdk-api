@@ -7,7 +7,7 @@ old-location: rpc\ndrcontexthandleinitialize.htm
 tech.root: rpc
 ms.assetid: 023f5137-fbdb-44c2-9c11-a3a8f1eb615e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NdrContextHandleInitialize, NdrContextHandleInitialize function [RPC], rpc.ndrcontexthandleinitialize, rpcndr/NdrContextHandleInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

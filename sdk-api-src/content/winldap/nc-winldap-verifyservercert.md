@@ -7,7 +7,7 @@ old-location: ldap\verifyservercert.htm
 tech.root: ldap
 ms.assetid: 3c9993b2-8591-46ff-941b-ff16d42650c9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,32 +95,44 @@ If the function fails; the return value is <b>FALSE</b> and the secure connectio
 The <b>VERIFYSERVERCERT</b> callback function allows the client to verify the certificate of the server. The client registers a callback which is invoked after the secure connection is set up. The server certificate context is presented to the callback function, where it can be verified as acceptable or not. To register this callback, call 
 <a href="https://msdn.microsoft.com/b6d6b285-7302-4812-bbcb-0aeb5b53cf23">ldap_set_option</a>where CertRoutine is the address of your callback function.
 
-
-```cpp
-conn, LDAP_OPT_SERVER_CERTIFICATE, &CertRoutine
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>conn, LDAP_OPT_SERVER_CERTIFICATE, &amp;CertRoutine</pre>
+</td>
+</tr>
+</table></span></div>
 The server calls <b>VERIFYSERVERCERT</b> after the secure connection has been established. The server's certificate context is supplied for examination by the client.
 
 An application should use the <i>ppServerCert</i> parameter as: <code>PCCERT_CONTEXT* ppServerCert = (PCCERT_CONTEXT*)pServerCert;</code>
 
 Even though <b>VERIFYSERVERCERT</b> is declared as receiving a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">PCCERT_CONTEXT</a>, it in fact receives a <b>PCCERT_CONTEXT</b>*. The <i>ppServerCert</i> can be used to verify the certificate. <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> should be called before this function returns. The call to this function should be made as follows:
 
-
-```cpp
-CertFreeCertificateContext(*ppServerCert);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CertFreeCertificateContext(*ppServerCert);</pre>
+</td>
+</tr>
+</table></span></div>
 Or, alternatively, as:
 
-
-```cpp
-CertFreeCertificateContext(*((PCCERT_CONTEXT*)pServerCert));
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CertFreeCertificateContext(*((PCCERT_CONTEXT*)pServerCert));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

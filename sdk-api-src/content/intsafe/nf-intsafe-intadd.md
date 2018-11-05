@@ -7,7 +7,7 @@ old-location: shell\IntAdd.htm
 tech.root: shell
 ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IntAdd, IntAdd function [Windows Shell], intsafe/IntAdd, shell.IntAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

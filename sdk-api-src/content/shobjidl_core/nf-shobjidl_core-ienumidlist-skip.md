@@ -7,7 +7,7 @@ old-location: shell\IEnumIDList_Skip.htm
 tech.root: shell
 ms.assetid: ed9d5774-7b2f-4a25-88f9-70d72919ff60
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Skip method, IEnumIDList.Skip, IEnumIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Skip, shell.IEnumIDList_Skip, shobjidl_core/IEnumIDList::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

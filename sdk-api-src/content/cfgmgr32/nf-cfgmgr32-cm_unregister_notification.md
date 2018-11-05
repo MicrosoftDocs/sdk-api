@@ -7,7 +7,7 @@ old-location: devinst\cm_unregister_notification.htm
 tech.root: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Aa363475(v=VS.85).aspx">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
+Use <a href="https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
 
 The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICATION handle.
 
@@ -64,7 +64,7 @@ The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICAT
 
 ### -param NotifyContext [in]
 
-The HCMNOTIFICATION handle returned by the <a href="https://msdn.microsoft.com/en-us/library/Hh780224(v=VS.85).aspx">CM_Register_Notification</a> function.
+The HCMNOTIFICATION handle returned by the <a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a> function.
 
 
 ## -returns
@@ -87,11 +87,11 @@ Instead, if you want to unregister from the notification callback, you must do s
 <ol>
 <li>Allocate a context structure to use with your notifications.      Include a pointer to a threadpool work structure (<b>PTP_WORK</b>) and any other information you would like to pass to the notification callback.</li>
 <li>Call <a href="https://msdn.microsoft.com/library/windows/desktop/ms682478">CreateThreadpoolWork</a>.   Provide a callback function that calls  <b>CM_Unregister_Notification</b>.      Add the returned work structure to the previously allocated context structure.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/Hh780224(v=VS.85).aspx">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
+<li>Call <a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
 <li>Do work, get notifications, etc.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/ms686338(v=VS.85).aspx">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
+<li>Call <a href="https://msdn.microsoft.com/library/windows/desktop/ms686338">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
 <li>When the threadpool thread runs, the work item calls <b>CM_Unregister_Notification</b>.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/ms682043(v=VS.85).aspx">CloseThreadpoolWork</a> to release the work object.</li>
+<li>Call <a href="https://msdn.microsoft.com/library/windows/desktop/ms682043">CloseThreadpoolWork</a> to release the work object.</li>
 </ol>
 If you are finished with the context structure, don't forget to release resources and and free the structure.
 
@@ -102,9 +102,13 @@ If you are finished with the context structure, don't forget to release resource
 
 The following example shows how to unregister from the notification callback, as described in the Remarks section.
 
-
-```
-typedef struct _CALLBACK_CONTEXT {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _CALLBACK_CONTEXT {
     BOOL bUnregister;
     PTP_WORK pWork;
     HCMNOTIFICATION hNotify;
@@ -124,17 +128,17 @@ EventCallback(
     PCALLBACK_CONTEXT pCallbackContext = (PCALLBACK_CONTEXT)Context;
 
    // unregister from the callback
-    EnterCriticalSection(&(pCallbackContext->lock));
+    EnterCriticalSection(&amp;(pCallbackContext-&gt;lock));
 
     // in case this callback fires before the registration call returns, make sure the notification handle is properly set
-    Context->hNotify = hNotification;
+    Context-&gt;hNotify = hNotification;
 
-    if (!pCallbackContext->bUnregister) {
-        pCallbackContext->bUnregister = TRUE;
-        SubmitThreadpoolWork(pCallbackContext->pWork);
+    if (!pCallbackContext-&gt;bUnregister) {
+        pCallbackContext-&gt;bUnregister = TRUE;
+        SubmitThreadpoolWork(pCallbackContext-&gt;pWork);
     }
 
-    LeaveCriticalSection(&(pCallbackContext->lock));
+    LeaveCriticalSection(&amp;(pCallbackContext-&gt;lock));
 
     return ERROR_SUCCESS;
 };
@@ -149,7 +153,7 @@ WorkCallback(
 {
     PCALLBACK_CONTEXT pCallbackContext = (PCALLBACK_CONTEXT)Context;
 
-    CM_Unregister_Notification(pCallbackContext->hNotify);
+    CM_Unregister_Notification(pCallbackContext-&gt;hNotify);
 }
 
 VOID NotificationFunction()
@@ -167,7 +171,7 @@ VOID NotificationFunction()
         goto end;
     }
 
-    InitializeCriticalSection(&(context->lock));
+    InitializeCriticalSection(&amp;(context-&gt;lock));
 
     NotifyFilter.cbSize = sizeof(NotifyFilter);
     NotifyFilter.Flags = 0;
@@ -181,59 +185,59 @@ VOID NotificationFunction()
         goto end;
     }
 
-    context->pWork = CreateThreadpoolWork(WorkCallback, context, NULL);
-    if (context->pWork == NULL) {
+    context-&gt;pWork = CreateThreadpoolWork(WorkCallback, context, NULL);
+    if (context-&gt;pWork == NULL) {
         goto end;
     }
 
-    cr = CM_Register_Notification(&NotifyFilter,
+    cr = CM_Register_Notification(&amp;NotifyFilter,
                                   context,
                                   EventCallback,
-                                  &context->hNotify);
+                                  &amp;context-&gt;hNotify);
    if (cr != CR_SUCCESS) {
         goto end;
     }
 
     // ... do work here ...
 
-    EnterCriticalSection(&(context->lock));
+    EnterCriticalSection(&amp;(context-&gt;lock));
 
-    if (!context->bUnregister) {
+    if (!context-&gt;bUnregister) {
         // unregister not from the callback
         bShouldUnregister = TRUE;
-        context->bUnregister = TRUE;
+        context-&gt;bUnregister = TRUE;
     }
 
-    LeaveCriticalSection(&(context->lock));
+    LeaveCriticalSection(&amp;(context-&gt;lock));
 
     if (bShouldUnregister) {
-        cr = CM_Unregister_Notification(context->hNotify);
+        cr = CM_Unregister_Notification(context-&gt;hNotify);
         if (cr != CR_SUCCESS) {
             goto end;
         }
     } else {
         // if the callback is the one performing the unregister, wait for the threadpool work item to complete the unregister
-        WaitForThreadpoolWorkCallbacks(context->pWork, FALSE);
+        WaitForThreadpoolWorkCallbacks(context-&gt;pWork, FALSE);
     }
 
 end:
 
     if (context != NULL) {
-        if (context->pWork != NULL) {
-            CloseThreadpoolWork(context->pWork);
+        if (context-&gt;pWork != NULL) {
+            CloseThreadpoolWork(context-&gt;pWork);
         }
 
-        DeleteCriticalSection(&(context->lock));
+        DeleteCriticalSection(&amp;(context-&gt;lock));
 
         HeapFree(GetProcessHeap(), 0, context);
     }
 
     return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -242,7 +246,7 @@ end:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363475(v=VS.85).aspx">UnregisterDeviceNotification</a>
+<a href="https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9">UnregisterDeviceNotification</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\iipdvdec_get_ipdisplay.htm
 tech.root: DirectShow
 ms.assetid: 9bf8e318-48b7-4aa8-a8c5-974b320f31ce
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IIPDVDec interface [DirectShow],get_IPDisplay method, IIPDVDec.get_IPDisplay, IIPDVDec::get_IPDisplay, IIPDVDecget_IPDisplay, dshow.iipdvdec_get_ipdisplay, get_IPDisplay, get_IPDisplay method [DirectShow], get_IPDisplay method [DirectShow],IIPDVDec interface, strmif/IIPDVDec::get_IPDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

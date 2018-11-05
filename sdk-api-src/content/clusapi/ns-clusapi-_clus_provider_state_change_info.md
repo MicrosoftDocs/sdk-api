@@ -7,7 +7,7 @@ old-location: mscs\clus_provider_state_change_info.htm
 tech.root: mscs
 ms.assetid: 53e25d02-6dfa-4a74-8ff3-01c868d2fd44
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PCLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, PCLUS_PROVIDER_STATE_CHANGE_INFO, PCLUS_PROVIDER_STATE_CHANGE_INFO structure pointer [Failover Cluster], _CLUS_PROVIDER_STATE_CHANGE_INFO, clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO, clusapi/PCLUS_PROVIDER_STATE_CHANGE_INFO, mscs.clus_provider_state_change_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains data about the state of a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">provider</a> resource.
+Contains data about the state of a <a href="p_gly.htm">provider</a> resource.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The size of this structure including the provider name and the terminating null 
 
 ### -field resourceState
 
-An enumerator from the <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration as its value.  The following are the possible values for this member.
+An enumerator from the <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration as its value.  The following are the possible values for this member.
 
 
 
@@ -89,7 +89,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
+The resource has <a href="f_gly.htm">failed</a>.
 
 
 
@@ -114,11 +114,11 @@ The globally unique ID of the provider resource. This value can also be passed t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
 
 
 

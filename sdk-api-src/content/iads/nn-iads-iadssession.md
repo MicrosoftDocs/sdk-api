@@ -55,7 +55,7 @@ The <b>IADsSession</b> interface is a dual interface that inherits from  <a href
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSession</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSession</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -350,9 +350,13 @@ Sessions are managed by the file service. To obtain session objects, first bind 
 
 The following code example shows how to bind to a session.
 
-
-```vb
-Dim fso as IADsFileServiceOperations
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso as IADsFileServiceOperations
 Dim ss as IADsCollection
 
 On Error GoTo Cleanup
@@ -363,13 +367,13 @@ Set ss = fso.Sessions
 ' Insert code to access session data.
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set fso = Nothing
-    Set ss = Nothing
-```
-
-
+    Set ss = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 

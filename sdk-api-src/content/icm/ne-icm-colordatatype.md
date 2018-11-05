@@ -7,7 +7,7 @@ old-location: wcs\colordatatype.htm
 tech.root: WCS
 ms.assetid: 001001c2-9a34-4d70-937d-befa0fc2118c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: "*PCOLORDATATYPE, COLORDATATYPE, COLORDATATYPE enumeration [Windows Color System], COLOR_10b_R10G10B10A2, COLOR_10b_R10G10B10A2_XR, COLOR_BYTE, COLOR_FLOAT, COLOR_S2DOT13FIXED, COLOR_WORD, LPCOLORDATATYPE, LPCOLORDATATYPE enumeration pointer [Windows Color System], PCOLORDATATYPE, PCOLORDATATYPE enumeration pointer [Windows Color System], icm/COLORDATATYPE, icm/COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, icm/COLOR_BYTE, icm/COLOR_FLOAT, icm/COLOR_S2DOT13FIXED, icm/COLOR_WORD, icm/LPCOLORDATATYPE, icm/PCOLORDATATYPE, wcs.colordatatype"
 ms.prod: windows
 ms.technology: windows-sdk

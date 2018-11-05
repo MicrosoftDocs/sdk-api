@@ -7,7 +7,7 @@ old-location: menurc\copyicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\copyicon.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CopyIcon, CopyIcon function [Menus and Other Resources], _win32_CopyIcon, _win32_copyicon_cpp, menurc.copyicon, winui._win32_copyicon, winuser/CopyIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <b>CopyIcon</b> function enables an application or DLL to get its own handle to an icon owned by another module. If the other module is freed, the application icon will still be able to use the icon. 
 
-Before closing, an application must call the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function to free any system resources associated with the icon.
+Before closing, an application must call the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function to free any system resources associated with the icon.
 
 
 
@@ -100,23 +100,23 @@ Before closing, an application must call the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648384(v=VS.85).aspx">CopyCursor</a>
+<a href="https://msdn.microsoft.com/2ae1ee3e-5114-4712-a2a8-b413b83bb58c">CopyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648064(v=VS.85).aspx">DrawIcon</a>
+<a href="https://msdn.microsoft.com/9c36ec22-45d3-4ed4-93d3-46a24d5fc5f9">DrawIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
+<a href="https://msdn.microsoft.com/037005b4-e9b2-483a-b277-7abd53a44b99">DrawIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
 
 
 

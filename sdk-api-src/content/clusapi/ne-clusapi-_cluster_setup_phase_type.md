@@ -7,7 +7,7 @@ old-location: mscs\cluster_setup_phase_type.htm
 tech.root: mscs
 ms.assetid: 515fe36d-84a0-41f1-80fa-a8c12718bdf5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster], ClusterSetupPhaseContinue, ClusterSetupPhaseEnd, ClusterSetupPhaseStart, _CLUSTER_SETUP_PHASE_TYPE, clusapi/CLUSTER_SETUP_PHASE_TYPE, clusapi/ClusterSetupPhaseContinue, clusapi/ClusterSetupPhaseEnd, clusapi/ClusterSetupPhaseStart, mscs.cluster_setup_phase_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,11 +51,11 @@ req.redist:
 
 
 Describes the  progress of the cluster setup process. The 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">ClusterSetupProgressCallback</a> function 
+    <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">ClusterSetupProgressCallback</a> function 
     uses this enumeration. The values of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb309173(v=VS.85).aspx">CLUSTER_SETUP_PHASE</a> enumeration identify the current 
+    <a href="https://msdn.microsoft.com/cc881b92-c312-4b88-8d8d-09f98925b5b5">CLUSTER_SETUP_PHASE</a> enumeration identify the current 
     phase of the cluster setup process. The values of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb309174(v=VS.85).aspx">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+    <a href="https://msdn.microsoft.com/a355dc8d-73f1-476b-a06f-24f011af4ace">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
     describe the  severity of the cluster setup process.
 
 
@@ -89,11 +89,11 @@ Indicates the end of a setup phase. Called once at the end of every setup phase.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
+<a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
  
 
  

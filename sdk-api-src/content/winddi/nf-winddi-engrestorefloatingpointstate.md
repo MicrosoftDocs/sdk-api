@@ -7,7 +7,7 @@ old-location: display\engrestorefloatingpointstate.htm
 tech.root: display
 ms.assetid: afdf7ce8-a053-424d-8b3e-0e7bc391ecb5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EngRestoreFloatingPointState, EngRestoreFloatingPointState function [Display Devices], display.engrestorefloatingpointstate, gdifncs_e3f3f96d-5e04-4c8c-b22b-73df32e862e2.xml, winddi/EngRestoreFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices

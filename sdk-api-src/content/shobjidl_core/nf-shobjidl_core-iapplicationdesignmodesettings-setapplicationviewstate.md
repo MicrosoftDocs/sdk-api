@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings_SetApplicationViewState.htm
 tech.root: shell
 ms.assetid: 37e1845c-a58a-4da3-b259-bbf5bbf5ff6d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetApplicationViewState method, IApplicationDesignModeSettings.SetApplicationViewState, IApplicationDesignModeSettings::SetApplicationViewState, SetApplicationViewState, SetApplicationViewState method [Windows Shell], SetApplicationViewState method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetApplicationViewState, shobjidl_core/IApplicationDesignModeSettings::SetApplicationViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices

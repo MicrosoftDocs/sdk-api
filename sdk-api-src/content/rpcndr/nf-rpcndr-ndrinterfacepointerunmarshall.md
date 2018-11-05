@@ -7,7 +7,7 @@ old-location: rpc\ndrinterfacepointerunmarshall.htm
 tech.root: rpc
 ms.assetid: b6ed9308-a935-44ed-a0e7-17d05d4762e5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NdrInterfacePointerUnmarshall, NdrInterfacePointerUnmarshall function [RPC], rpc.ndrinterfacepointerunmarshall, rpcndr/NdrInterfacePointerUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Unused.
 
 
 
-Returns NULL upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms693382(v=VS.85).aspx">CoUnmarshalInterface</a>.
+Returns NULL upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_counmarshalinterface">CoUnmarshalInterface</a>.
 
 <table>
 <tr>

@@ -7,7 +7,7 @@ old-location: controls\itextrange2_setdropcap.htm
 tech.root: controls
 ms.assetid: 189c1a69-44eb-4de0-8ffc-9a026d9e6f16
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetDropCap method, ITextRange2.SetDropCap, ITextRange2::SetDropCap, SetDropCap, SetDropCap method [Windows Controls], SetDropCap method [Windows Controls],ITextRange2 interface, controls.itextrange2_setdropcap, tom/ITextRange2::SetDropCap
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IStream_Size.htm
 tech.root: shell
 ms.assetid: 93c7c24d-6431-4859-b0b8-b36392bc5108
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IStream_Size, IStream_Size function [Windows Shell], _win32_IStream_Size, shell.IStream_Size, shlwapi/IStream_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices

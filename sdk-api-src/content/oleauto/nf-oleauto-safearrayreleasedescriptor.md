@@ -7,7 +7,7 @@ old-location: automat\safearrayreleasedescriptor.htm
 tech.root: automat
 ms.assetid: D6678B17-B537-46CF-AC64-4D0C0DC4CDF3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SafeArrayReleaseDescriptor, SafeArrayReleaseDescriptor function [Automation], automat.safearrayreleasedescriptor, oleauto/SafeArrayReleaseDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

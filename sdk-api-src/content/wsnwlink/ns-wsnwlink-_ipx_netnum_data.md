@@ -7,7 +7,7 @@ old-location: winsock\ipx_netnum_data_2.htm
 tech.root: winsock
 ms.assetid: 9ac7f6ea-5ed3-45f9-8422-62fef1681cdc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Winsock], PIPX_NETNUM_DATA, PIPX_NETNUM_DATA structure pointer [Winsock], _IPX_NETNUM_DATA, _win32_ipx_netnum_data_2, winsock.ipx_netnum_data_2, wsnwlink/IPX_NETNUM_DATA, wsnwlink/PIPX_NETNUM_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

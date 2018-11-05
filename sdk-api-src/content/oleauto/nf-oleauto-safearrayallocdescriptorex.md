@@ -7,7 +7,7 @@ old-location: automat\safearrayallocdescriptorex.htm
 tech.root: automat
 ms.assetid: c368d278-ef62-4cf3-a7f8-c48549207c09
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SafeArrayAllocDescriptorEx, SafeArrayAllocDescriptorEx function [Automation], _oa96_SafeArrayAllocDescriptorEx, automat.safearrayallocdescriptorex, oleauto/SafeArrayAllocDescriptorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

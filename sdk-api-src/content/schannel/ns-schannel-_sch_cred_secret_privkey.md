@@ -7,7 +7,7 @@ old-location: security\sch_cred_secret_privkey.htm
 tech.root: secauthn
 ms.assetid: 3d637716-e4cd-427c-bc80-7d0ace6ac521
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY structure pointer [Security], SCH_CRED_SECRET_PRIVKEY, SCH_CRED_SECRET_PRIVKEY structure [Security], _SCH_CRED_SECRET_PRIVKEY, _ssp_sch_cred_secret_privkey, schannel/PSCH_CRED_SECRET_PRIVKEY, schannel/SCH_CRED_SECRET_PRIVKEY, security.sch_cred_secret_privkey"
 ms.prod: windows
 ms.technology: windows-sdk

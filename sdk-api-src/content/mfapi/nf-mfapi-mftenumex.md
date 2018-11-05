@@ -7,7 +7,7 @@ old-location: mf\mftenumex.htm
 tech.root: medfound
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -280,10 +280,14 @@ Hardware codecs should also be registered under an <a href="https://msdn.microso
 
 The following example searches for a video or audio decoder. Asynchronous, hardware, transcode, and field-of-use decoders are excluded. If a match is found, the code creates the first MFT in the list.
 
-
-```cpp
-HRESULT FindDecoderEx(
-    const GUID& subtype,        // Subtype
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindDecoderEx(
+    const GUID&amp; subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppDecoder    // Receives a pointer to the decoder.
     )
@@ -301,13 +305,13 @@ HRESULT FindDecoderEx(
     hr = MFTEnumEx(
         bAudio ? MFT_CATEGORY_AUDIO_DECODER : MFT_CATEGORY_VIDEO_DECODER,
         MFT_ENUM_FLAG_SYNCMFT | MFT_ENUM_FLAG_LOCALMFT | MFT_ENUM_FLAG_SORTANDFILTER,
-        &info,      // Input type
+        &amp;info,      // Input type
         NULL,       // Output type
-        &ppActivate,
-        &count
+        &amp;ppActivate,
+        &amp;count
         );
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -316,27 +320,31 @@ HRESULT FindDecoderEx(
 
     if (SUCCEEDED(hr))
     {
-        hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(ppDecoder));
+        hr = ppActivate[0]-&gt;ActivateObject(IID_PPV_ARGS(ppDecoder));
     }
 
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
-        ppActivate[i]->Release();
+        ppActivate[i]-&gt;Release();
     }
     CoTaskMemFree(ppActivate);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example searches for a video or audio encoder. Asynchronous, hardware, transcode, and field-of-use encoders are excluded.
 
-
-```cpp
-HRESULT FindEncoderEx(
-    const GUID& subtype,        // Subtype
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindEncoderEx(
+    const GUID&amp; subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppEncoder    // Receives a pointer to the decoder.
     )
@@ -355,12 +363,12 @@ HRESULT FindEncoderEx(
         bAudio ? MFT_CATEGORY_AUDIO_ENCODER : MFT_CATEGORY_VIDEO_ENCODER,
         MFT_ENUM_FLAG_SYNCMFT | MFT_ENUM_FLAG_LOCALMFT | MFT_ENUM_FLAG_SORTANDFILTER,
         NULL,       // Input type
-        &info,      // Output type
-        &ppActivate,
-        &count
+        &amp;info,      // Output type
+        &amp;ppActivate,
+        &amp;count
         );
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -369,27 +377,31 @@ HRESULT FindEncoderEx(
 
     if (SUCCEEDED(hr))
     {
-        hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(ppEncoder));
+        hr = ppActivate[0]-&gt;ActivateObject(IID_PPV_ARGS(ppEncoder));
     }
 
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
-        ppActivate[i]->Release();
+        ppActivate[i]-&gt;Release();
     }
     CoTaskMemFree(ppActivate);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example searches for a video decoder, with options to include asynchronous, hardware, or transcode decoders.
 
-
-```cpp
-HRESULT FindVideoDecoder(
-    const GUID& subtype,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindVideoDecoder(
+    const GUID&amp; subtype,
     BOOL bAllowAsync,
     BOOL bAllowHardware, 
     BOOL bAllowTranscode,
@@ -421,12 +433,12 @@ HRESULT FindVideoDecoder(
 
     hr = MFTEnumEx(MFT_CATEGORY_VIDEO_DECODER,
         unFlags,
-        &info,      // Input type
+        &amp;info,      // Input type
         NULL,       // Output type
-        &ppActivate,
-        &count);
+        &amp;ppActivate,
+        &amp;count);
   
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -434,21 +446,21 @@ HRESULT FindVideoDecoder(
     // Create the first decoder in the list.
     if (SUCCEEDED(hr))
     {
-        hr = ppActivate[0]->ActivateObject(IID_PPV_ARGS(ppDecoder));
+        hr = ppActivate[0]-&gt;ActivateObject(IID_PPV_ARGS(ppDecoder));
     }
 
-    for (UINT32 i = 0; i < count; i++)
+    for (UINT32 i = 0; i &lt; count; i++)
     {
-        ppActivate[i]->Release();
+        ppActivate[i]-&gt;Release();
     }
     CoTaskMemFree(ppActivate);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

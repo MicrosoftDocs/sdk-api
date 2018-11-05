@@ -7,7 +7,7 @@ old-location: etw\event_filter_event_id.htm
 tech.root: etw
 ms.assetid: D660D140-BE86-44F6-B1D2-E1B97300BD11
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PEVENT_FILTER_EVENT_ID, EVENT_FILTER_EVENT_ID, EVENT_FILTER_EVENT_ID structure [ETW], PEVENT_FILTER_EVENT_ID, PEVENT_FILTER_EVENT_ID structure pointer [ETW], _EVENT_FILTER_EVENT_ID, etw.event_filter_event_id, evntprov/EVENT_FILTER_EVENT_ID, evntprov/PEVENT_FILTER_EVENT_ID"
 ms.prod: windows
 ms.technology: windows-sdk

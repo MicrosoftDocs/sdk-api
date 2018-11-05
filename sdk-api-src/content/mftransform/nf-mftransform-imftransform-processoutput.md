@@ -7,7 +7,7 @@ old-location: mf\imftransform_processoutput.htm
 tech.root: medfound
 ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMFTransform.ProcessOutput, IMFTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation],IMFTransform interface, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,7 +190,7 @@ This method generates output samples and can also generate events. If the method
 <li>One or more members of the <i>pOutputSamples</i> array contains a non-empty collection of events.
           </li>
 </ul>
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including Mftransform.h, this method is renamed <b>MFTProcessOutput</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including Mftransform.h, this method is renamed <b>MFTProcessOutput</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 <h3><a id="Output_Buffers"></a><a id="output_buffers"></a><a id="OUTPUT_BUFFERS"></a>Output Buffers</h3>
 The MFT returns output data for a stream through the <b>pSample</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure. This structure member is a pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of a media sample. (See <a href="https://msdn.microsoft.com/14389eea-8091-4c10-849e-53db3e98a7c8">Media Samples</a>.) The media sample is allocated either by the caller or by the MFT, depending on the MFT's allocation model. To find the allocation model, call <a href="https://msdn.microsoft.com/06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5">IMFTransform::GetOutputStreamInfo</a> and examine the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/4181d8b8-7c1b-4f8e-a0c6-63ab039539f6">MFT_OUTPUT_STREAM_INFO</a> structure:
@@ -236,24 +236,28 @@ It is valid for the <b>ProcessOutput</b> method to return one or more events and
 
 The caller is responsible for releasing any events that the MFT allocates. When the method returns, check the <b>pEvents</b> member of each <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure. If the value is not <b>NULL</b>, the caller must release the <a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a> interface pointer:
 
-
-```cpp
-// Release the events that an MFT might allocate in IMFTransform::ProcessOutput().
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Release the events that an MFT might allocate in IMFTransform::ProcessOutput().
 void ReleaseEventCollection(DWORD cOutputBuffers, MFT_OUTPUT_DATA_BUFFER* pBuffers)
 {
-    for (DWORD i = 0; i < cOutputBuffers; i++)
+    for (DWORD i = 0; i &lt; cOutputBuffers; i++)
     {
         if (pBuffers[i].pEvents)
         {
-            pBuffers[i].pEvents->Release();
+            pBuffers[i].pEvents-&gt;Release();
             pBuffers[i].pEvents = NULL;
         }
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 An MFT should not use the <a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a> interface to send in-band events.
 
 <h3><a id="Stream_Changes"></a><a id="stream_changes"></a><a id="STREAM_CHANGES"></a>Stream Changes</h3>
@@ -283,7 +287,7 @@ An input sample might have attributes, which are accessed through the <a href="h
 For a list of sample attributes, see <a href="https://msdn.microsoft.com/64aead5a-61c4-4e83-a556-af33e0aa82be">Sample Attributes</a>.
 
 <h3><a id="Asynchronous_Processing"></a><a id="asynchronous_processing"></a><a id="ASYNCHRONOUS_PROCESSING"></a>Asynchronous Processing</h3>
-The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="https://msdn.microsoft.com/en-us/library/Dd317909(v=VS.85).aspx">Asynchronous MFTs</a>.
+The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="asynchronous_mfts.htm">Asynchronous MFTs</a>.
 
 
 

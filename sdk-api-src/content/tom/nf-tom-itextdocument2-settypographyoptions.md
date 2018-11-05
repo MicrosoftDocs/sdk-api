@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_settypographyoptions.htm
 tech.root: controls
 ms.assetid: 1013c9bf-b6fe-4396-b7a8-36e61edf1df3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetTypographyOptions method, ITextDocument2.SetTypographyOptions, ITextDocument2::SetTypographyOptions, SetTypographyOptions, SetTypographyOptions method [Windows Controls], SetTypographyOptions method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_settypographyoptions, tom/ITextDocument2::SetTypographyOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

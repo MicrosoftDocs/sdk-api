@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo_gethelpfile.htm
 tech.root: automat
 ms.assetid: f8458382-0af7-4a9b-add3-9c99af070be4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetHelpFile, GetHelpFile method [Automation], GetHelpFile method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetHelpFile method, IErrorInfo.GetHelpFile, IErrorInfo::GetHelpFile, _oa96_IErrorInfo_GetHelpFile, automat.ierrorinfo_gethelpfile, oaidl/IErrorInfo::GetHelpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

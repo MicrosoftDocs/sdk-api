@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit.htm
 tech.root: WinAuto
 ms.assetid: 09ec62c1-f738-43af-bd6c-b45fdfb32236
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],ExpandToEnclosingUnit method, IUIAutomationTextRange.ExpandToEnclosingUnit, IUIAutomationTextRange::ExpandToEnclosingUnit, uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit, winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ Client applications such as screen readers use this method  to retrieve  the ful
 Despite its name, the <b>ExpandToEnclosingUnit</b> method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. If the range is already an exact quantity of the specified units, it remains unchanged. The following diagram shows how <b>ExpandToEnclosingUnit</b> normalizes a text range by moving the endpoints of the range. 
             
 
-<img alt="Diagram showing endpoint positions before and after a call to ExpandToEnclosingUnit" src="./images/ExpandToEnclosingUnit.jpg"/>
+<img alt="Diagram showing endpoint positions before and after a call to ExpandToEnclosingUnit" src="images/ExpandToEnclosingUnit.jpg"/>
 <b>ExpandToEnclosingUnit</b> defaults to the next largest text unit 
         supported if the specified text unit is not supported by the control. 
         

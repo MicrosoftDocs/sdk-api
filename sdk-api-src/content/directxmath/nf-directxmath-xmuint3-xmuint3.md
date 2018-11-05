@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMUINT3.XMUINT3
 title: XMUINT3 function
 author: windows-sdk-content
-description: Default constructor for XMUINT3.
-old-location: dxmath\xmuint3_ctor_1.htm
+description: Constructors exposed by XMUINT3.
+old-location: dxmath\xmuint3_ctor.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT3.#ctor
+ms.assetid: Overload:Microsoft.directx_sdk.reference.XMUINT3.#ctor
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), dxmath.xmuint3_ctor_1
+ms.date: 11/02/2018
+ms.keywords: XMUINT3, XMUINT3 Constructors, XMUINT3 Constructors constructors [DirectX Math Support APIs], directxmath/XMUINT3 Constructors, dxmath.xmuint3_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Use DirectX.
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,21 +33,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - DirectXMath.h
+ - directxmath.h
 api_name:
- - XMUINT3.XMUINT3
+ - XMUINT3
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMUINT3
-: 
 ---
 
 # XMUINT3 function
@@ -56,27 +50,59 @@ req.redist:
 ## -description
 
 
+<span>Constructors exposed by <code>XMUINT3</code>.
+
+Constructs instances of the <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a> structure.
+
+<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
+<div> </div></span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Constructor</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/dea4e42e-365a-4590-a4a1-82677a108cc9">XMUINT3 ()</a>
+</td>
+<td align="left" width="63%">
 Default constructor for <code>XMUINT3</code>.
 
 Default constructor for <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/44e21d02-43b9-4148-ba63-3440c0954860">XMUINT3 (const uint32_t*)</a>
+</td>
+<td align="left" width="63%">
+Initializes a new instance of <code>XMUINT3</code> from a three element <code>uint32_t</code> array argument.
+
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a> 
+  from a three-element <code>uint32_t</code> array argument.
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/389be3dc-2496-4dea-8778-adacb027a81a">XMUINT3 (uint32_t,uint32_t,uint32_t)</a>
+</td>
+<td align="left" width="63%">
+Initializes a new instance of <code>XMUINT3</code> from three <code>uint32_t</code> arguments.
+
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a> from three <code>uint32_t</code> arguments.
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
+<div> </div>
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-
-
-## -remarks
-
-
-
-<code>XMUINT3()</code> constructs a new instance of the <code>XMUINT3</code> structure without
-    defining the value of any of its members.
-   
-
-
 
 
 ## -see-also
@@ -92,7 +118,7 @@ Default constructor for <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-A
 
 
 
-<a href="https://msdn.microsoft.com/f3737cb1-36a0-4dbc-94d5-237e7395670e">XMUINT3 Constructors</a>
+<a href="https://msdn.microsoft.com/f3a3ff27-f259-45bd-8137-b878e43a0f87">XMUINT3 Extensions</a>
  
 
  

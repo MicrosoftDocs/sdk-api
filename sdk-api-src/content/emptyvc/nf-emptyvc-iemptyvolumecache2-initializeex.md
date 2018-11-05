@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache2_initializeex.htm
 tech.root: lwef
 ms.assetid: 42f39dcd-0292-4121-89e9-80145b1c1c7d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/31/2018
 ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache2 interface [Legacy Windows Environment Features],InitializeEx method, IEmptyVolumeCache2.InitializeEx, IEmptyVolumeCache2::InitializeEx, InitializeEx, InitializeEx method [Legacy Windows Environment Features], InitializeEx method [Legacy Windows Environment Features],IEmptyVolumeCache2 interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache2_InitializeEx, emptyvc/IEmptyVolumeCache2::InitializeEx, lwef.iemptyvolumecache2_initializeex, shell.iemptyvolumecache2_initializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -229,7 +229,7 @@ The Windows 2000 disk cleanup manager will first call <b>IEmptyVolumeCache2::In
 
 <b>InitializeEx</b> is intended to provide better localization support than <a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a>. When <b>InitializeEx</b> is called, the handler application must assign appropriately localized values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If the <b>Settings</b> button is enabled, you must also assign a value to the <i>ppwszBtnText</i> parameter. Unlike <b>Initialize</b>, if you set these strings to <b>NULL</b> to notify the disk cleanup manager to retrieve the default values from the registry, <b>InitializeEx</b> will fail. 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i>, <i>ppwszDescription</i>, and <i>ppwszBtnText</i>. The disk cleanup manager will free the memory when it is no longer needed.
+Use <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i>, <i>ppwszDescription</i>, and <i>ppwszBtnText</i>. The disk cleanup manager will free the memory when it is no longer needed.
 
 
 

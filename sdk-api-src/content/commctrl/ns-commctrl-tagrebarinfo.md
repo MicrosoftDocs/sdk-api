@@ -7,7 +7,7 @@ old-location: controls\REBARINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO, tagREBARINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,14 @@ Contains information that describes rebar control characteristics.
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter. 
 
 
 ### -field fMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Flag values that describe characteristics of the rebar control. Currently, rebar controls support only one value: 
 

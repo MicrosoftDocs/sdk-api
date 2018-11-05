@@ -7,7 +7,7 @@ old-location: netshell\printmessagefrommodule.htm
 tech.root: netshell
 ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,6 +70,13 @@ The identifier  of the message to print.
 
 
 ### -param arg1
+
+TBD
+
+
+
+
+#### - arg3
 
 The arguments to fill into the message.
 

@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider_GetCategoryForSCID.htm
 tech.root: shell
 ms.assetid: 52b4fac7-14bd-4d58-a00d-f102e013df16
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetCategoryForSCID, GetCategoryForSCID method [Windows Shell], GetCategoryForSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryForSCID method, ICategoryProvider.GetCategoryForSCID, ICategoryProvider::GetCategoryForSCID, inet_ICategoryProvider_GetCategoryForSCID, shell.ICategoryProvider_GetCategoryForSCID, shobjidl_core/ICategoryProvider::GetCategoryForSCID
 ms.prod: windows-hardware
 ms.technology: windows-devices

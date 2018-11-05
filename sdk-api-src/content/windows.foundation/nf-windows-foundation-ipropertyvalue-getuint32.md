@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getuint32.htm
 tech.root: WinRT
 ms.assetid: 3675764D-7073-479B-8B9A-0AD037A963FB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetUInt32, GetUInt32 method [Windows Runtime], GetUInt32 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt32 method, IPropertyValue.GetUInt32, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt32, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt32, winrt.ipropertyvalue_getuint32
 ms.prod: windows-hardware
 ms.technology: windows-devices

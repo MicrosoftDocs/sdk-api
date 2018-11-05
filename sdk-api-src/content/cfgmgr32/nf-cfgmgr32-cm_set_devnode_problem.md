@@ -7,7 +7,7 @@ old-location: devinst\cm_set_devnode_problem.htm
 tech.root: devinst
 ms.assetid: 94bbedfc-aeef-46e7-bcf7-477e274f9d17
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Set_DevNode_Problem, CM_Set_DevNode_Problem function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem, cfgmgrfn_86b84150-4e79-4eab-83ff-4a7bf5921021.xml, devinst.cm_set_devnode_problem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Caller-supplied device instance handle that is bound to the local machine.
 
 ### -param ulProblem [in]
 
-Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="https://msdn.microsoft.com/library/Ff541422(v=VS.85).aspx">Device Manager Error Messages</a>. A value of zero indicates that a problem is not set for the device. 
+Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="devinst.device_manager_error_messages">Device Manager Error Messages</a>. A value of zero indicates that a problem is not set for the device. 
 
 
 ### -param ulFlags [in]

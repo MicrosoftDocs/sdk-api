@@ -7,7 +7,7 @@ old-location: display\dd_setexclusivemodedata.htm
 tech.root: display
 ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA structure [Display Devices], _DD_SETEXCLUSIVEMODEDATA, ddrawint/DD_SETEXCLUSIVEMODEDATA, ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml, display.dd_setexclusivemodedata"
 ms.prod: windows
 ms.technology: windows-sdk

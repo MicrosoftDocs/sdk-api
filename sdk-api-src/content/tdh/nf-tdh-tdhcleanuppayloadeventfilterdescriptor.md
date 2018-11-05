@@ -7,7 +7,7 @@ old-location: etw\tdhcleanuppayloadeventfilterdescriptor.htm
 tech.root: etw
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

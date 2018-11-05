@@ -7,7 +7,7 @@ old-location: etw\stoptrace.htm
 tech.root: etw
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

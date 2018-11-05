@@ -7,7 +7,7 @@ old-location: com\isynchronizecontainer.htm
 tech.root: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Manages a group of unsignaled synchronization objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ISynchronizeContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeContainer</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ISynchronizeContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

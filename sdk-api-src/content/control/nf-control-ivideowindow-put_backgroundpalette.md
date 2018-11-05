@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_backgroundpalette.htm
 tech.root: DirectShow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,15 +151,15 @@ If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a pall
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377291(v=VS.85).aspx">IVideoWindow::get_BackgroundPalette</a>
+<a href="https://msdn.microsoft.com/cdd11f60-e042-4aad-a867-d1e12a88ebfe">IVideoWindow::get_BackgroundPalette</a>
  
 
  

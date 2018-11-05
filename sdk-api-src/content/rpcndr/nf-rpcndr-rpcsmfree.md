@@ -7,7 +7,7 @@ old-location: rpc\rpcsmfree.htm
 tech.root: rpc
 ms.assetid: d8f7fae4-4d91-4f91-9018-c4bcdb4d6c65
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcSmFree, RpcSmFree function [RPC], _rpc_rpcsmfree, rpc.rpcsmfree, rpcndr/RpcSmFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,7 +140,7 @@ Note that the handle of the thread calling
 
 
 
-<a href="https://msdn.microsoft.com/">midl_user_allocate</a>
+<a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">midl_user_allocate</a>
  
 
  

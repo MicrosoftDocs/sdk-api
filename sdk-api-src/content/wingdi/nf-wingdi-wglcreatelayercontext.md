@@ -7,7 +7,7 @@ old-location: opengl\wglcreatelayercontext.htm
 tech.root: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,9 +94,13 @@ With OpenGL applications that use multiple threads, you create a rendering conte
 
 The following code example shows how to use <b>wglCreateLayerContext</b>.
 
-
-```cpp
-// The following code fragment shows how to render to overlay 1  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The following code fragment shows how to render to overlay 1  
 // This example assumes that the pixel format of hdc includes   
 // overlay plane 1  
  
@@ -117,10 +121,10 @@ wglMakeCurrent(hdc, hglrc);
 wglMakeCurrent(NULL, NULL); 
  
 // delete the rendering context  
-wglDeleteContext(hglrc);
-```
-
-
+wglDeleteContext(hglrc);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

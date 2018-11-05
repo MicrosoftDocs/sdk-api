@@ -7,7 +7,7 @@ old-location: com\imoniker_bindtoobject.htm
 tech.root: com
 ms.assetid: b5ce39ff-3387-4f72-9aea-5a26eed3810c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: BindToObject, BindToObject method [COM], BindToObject method [COM],IMoniker interface, IMoniker interface [COM],BindToObject method, IMoniker.BindToObject, IMoniker::BindToObject, _com_imoniker_bindtoobject, com.imoniker_bindtoobject, objidl/IMoniker::BindToObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -291,7 +291,7 @@ Because the URL Moniker supports asynchronous binding, the actual return value o
 The semantics of the bind operation for a URL moniker are identical regardless of synchronous or asynchronous usage, and are as follows:
 
 <ol>
-<li>The URL moniker pulls further information for the bind operation from the bind context. For example, the moniker can obtain pointers to the <a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces that are registered in the bind context. Further information can include additional bind options specified on the bind context through <a href="https://msdn.microsoft.com/9dcce48e-567e-42b4-8df2-2bc861cb5fcb">IBindCtx::SetBindOptions</a>, such as the <i>dwTickCountDeadline</i> parameter or the <i>grfFlags</i> value of BIND_MAYBOTHERUSER.</li>
+<li>The URL moniker pulls further information for the bind operation from the bind context. For example, the moniker can obtain pointers to the <a href="_inet_IBindStatusCallback_Interface_cpp">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces that are registered in the bind context. Further information can include additional bind options specified on the bind context through <a href="https://msdn.microsoft.com/9dcce48e-567e-42b4-8df2-2bc861cb5fcb">IBindCtx::SetBindOptions</a>, such as the <i>dwTickCountDeadline</i> parameter or the <i>grfFlags</i> value of BIND_MAYBOTHERUSER.</li>
 <li>
 Next the moniker checks the ROT of the bind context to determine whether the referenced object is already running. The moniker can obtain this information with the following calls:
 
@@ -310,11 +310,11 @@ Then the moniker calls <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b6
 
 </li>
 <li>
-Otherwise, the moniker queries the client by calling <a href="https://msdn.microsoft.com/library/ms775058(v=VS.85).aspx">IBindStatusCallback::GetBindInfo</a> to obtain additional bind information. The moniker then initiates the bind operation and passes the resulting IBinding interface back to the client by calling <a href="https://msdn.microsoft.com/library/ms775065(v=VS.85).aspx">IBindStatusCallback::OnStartBinding</a>.
+Otherwise, the moniker queries the client by calling <a href="_inet_IBindStatusCallback_GetBindInfo_Method">IBindStatusCallback::GetBindInfo</a> to obtain additional bind information. The moniker then initiates the bind operation and passes the resulting IBinding interface back to the client by calling <a href="_inet_IBindStatusCallback_OnStartBinding_Method">IBindStatusCallback::OnStartBinding</a>.
 
 </li>
 <li>
-If in step 1 it was determined that this was an asynchronous bind, <b>BindToObject</b> returns MK_S_ASYNCHRONOUS at this point with <b>NULL</b> in <i>ppv</i>. The caller will receive the actual object pointer during the <a href="https://msdn.microsoft.com/library/ms775063(v=VS.85).aspx">IBindStatusCallback::OnObjectAvailable</a> method at some later point. The following steps then occur asynchronously to the caller, typically on another thread of execution.
+If in step 1 it was determined that this was an asynchronous bind, <b>BindToObject</b> returns MK_S_ASYNCHRONOUS at this point with <b>NULL</b> in <i>ppv</i>. The caller will receive the actual object pointer during the <a href="_inet_IBindStatusCallback_OnObjectAvailable_Method">IBindStatusCallback::OnObjectAvailable</a> method at some later point. The following steps then occur asynchronously to the caller, typically on another thread of execution.
 
 </li>
 <li>
@@ -342,7 +342,7 @@ Having determined the class, the URL moniker creates an instance using <a href="
 
 </li>
 <li>
-The URL moniker next calls the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method of the newly created object for the <a href="https://msdn.microsoft.com/library/ms775042(v=VS.85).aspx">IPersistMoniker</a> interface. If <b>QueryInterface</b> is successful, the URL moniker calls <a href="https://msdn.microsoft.com/library/ms775044(v=VS.85).aspx">IPersistMoniker::Load</a> passing itself (this) as the moniker parameter. The object typically calls <a href="https://msdn.microsoft.com/94c8219f-8131-45dd-b350-878ffd6161ea">BindToStorage</a> asking for the storage interface that they are interested in.
+The URL moniker next calls the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method of the newly created object for the <a href="_inet_IPersistMoniker_Interface">IPersistMoniker</a> interface. If <b>QueryInterface</b> is successful, the URL moniker calls <a href="_inet_IPersistMoniker_Load_Method">IPersistMoniker::Load</a> passing itself (this) as the moniker parameter. The object typically calls <a href="https://msdn.microsoft.com/94c8219f-8131-45dd-b350-878ffd6161ea">BindToStorage</a> asking for the storage interface that they are interested in.
 
 </li>
 <li>
@@ -358,7 +358,7 @@ Otherwise, the URL moniker calls <a href="https://msdn.microsoft.com/54d5ff80-18
 
 </li>
 <li>
-When the object returns from one of the various <b>Load</b> calls described in the previous steps, the URL moniker calls the <a href="https://msdn.microsoft.com/library/ms775063(v=VS.85).aspx">IBindStatusCallback::OnObjectAvailable</a> method to return the interface pointer that the client originally requested when the client called <b>BindToObject</b>.
+When the object returns from one of the various <b>Load</b> calls described in the previous steps, the URL moniker calls the <a href="_inet_IBindStatusCallback_OnObjectAvailable_Method">IBindStatusCallback::OnObjectAvailable</a> method to return the interface pointer that the client originally requested when the client called <b>BindToObject</b>.
 
 
 </li>

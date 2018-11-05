@@ -7,7 +7,7 @@ old-location: dshow\imediasample2config.htm
 tech.root: DirectShow
 ms.assetid: 99a3d957-b504-4242-87de-54b5468f00b5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config
 ms.prod: windows
 ms.technology: windows-sdk

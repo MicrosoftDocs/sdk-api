@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_registry_property.htm
 tech.root: devinst
 ms.assetid: 2247771d-5edd-47c3-8635-586bf815544a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Get_Class_Registry_Property, CM_Get_Class_Registry_Property function [Device and Driver Installation], CM_Get_Class_Registry_PropertyW, cfgmgr32/CM_Get_Class_Registry_Property, cfgmgr32/CM_Get_Class_Registry_PropertyW, cfgmgrfn_d6abfa4e-81ee-4f56-8b0f-9c4cf8b2f632.xml, devinst.cm_get_class_registry_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ req.redist:
 ## -description
 
 
-The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="https://msdn.microsoft.com/library/Ff537744(v=VS.85).aspx">device setup class property</a>.
+The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="devinst.accessing_device_setup_class_properties">device setup class property</a>.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ Represents a value of type DWORD that indicates the device characteristics for t
 
 ### -param pulRegDataType [out, optional]
 
-A pointer to a variable of type ULONG that receives the REG_<i>Xxx</i> constant that represents the data type of the requested property. The REG_<i>Xxx</i> constants are defined in <i>Winnt.h</i> and are described in the <b>Type</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff553410(v=VS.85).aspx">KEY_VALUE_BASIC_INFORMATION</a> structure. This parameter is optional and can be set to <b>NULL</b>. 
+A pointer to a variable of type ULONG that receives the REG_<i>Xxx</i> constant that represents the data type of the requested property. The REG_<i>Xxx</i> constants are defined in <i>Winnt.h</i> and are described in the <b>Type</b> member of the <a href="https://msdn.microsoft.com/b3b14c21-3613-4f84-9e7d-368c4cc3fa9d">KEY_VALUE_BASIC_INFORMATION</a> structure. This parameter is optional and can be set to <b>NULL</b>. 
 
 
 ### -param Buffer [out]
@@ -165,19 +165,19 @@ To determine the size, in bytes, of a property before attempting to retrieve the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539833(v=VS.85).aspx">CM_Set_Class_Registry_Property</a>
+<a href="https://msdn.microsoft.com/65e19d09-4a53-439b-9678-f907caf0db5c">CM_Set_Class_Registry_Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff553410(v=VS.85).aspx">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/b3b14c21-3613-4f84-9e7d-368c4cc3fa9d">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff551097(v=VS.85).aspx">SetupDiGetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff552135(v=VS.85).aspx">SetupDiSetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/78457461-11ef-44ec-aa60-1adf4a48db8c">SetupDiSetClassRegistryProperty</a>
  
 
  

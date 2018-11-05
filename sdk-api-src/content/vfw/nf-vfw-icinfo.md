@@ -7,7 +7,7 @@ old-location: multimedia\icinfo.htm
 tech.root: Multimedia
 ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

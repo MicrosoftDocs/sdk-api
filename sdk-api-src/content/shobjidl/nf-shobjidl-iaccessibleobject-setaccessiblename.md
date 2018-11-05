@@ -7,7 +7,7 @@ old-location: shell\IAccessibleObject_SetAccessibleName.htm
 tech.root: shell
 ms.assetid: 455d9434-1ea3-4a4e-ae4d-0952c895178c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAccessibleObject interface [Windows Shell],SetAccessibleName method, IAccessibleObject.SetAccessibleName, IAccessibleObject::SetAccessibleName, SetAccessibleName, SetAccessibleName method [Windows Shell], SetAccessibleName method [Windows Shell],IAccessibleObject interface, _shell_IAccessibleObject_SetAccessibleName, shell.IAccessibleObject_SetAccessibleName, shobjidl/IAccessibleObject::SetAccessibleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

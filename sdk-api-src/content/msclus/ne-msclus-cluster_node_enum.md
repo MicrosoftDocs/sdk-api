@@ -4,10 +4,10 @@ title: CLUSTER_NODE_ENUM
 author: windows-sdk-content
 description: Describes the types of cluster objects that are enumerated by the ClusterNodeEnum and ClusterNodeOpenEnum functions.
 old-location: mscs\cluster_node_enum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e8660f86-f4e5-4aa3-851a-94f0a230e12d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CLUSTER_NODE_ENUM, CLUSTER_NODE_ENUM enumeration [Failover Cluster], CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, CLUSTER_NODE_ENUM_PREFERRED_GROUPS, _CLUSTER_NODE_ENUM, _CLUSTER_NODE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NODE_ENUM, clusapi/CLUSTER_NODE_ENUM_ALL, clusapi/CLUSTER_NODE_ENUM_GROUPS, clusapi/CLUSTER_NODE_ENUM_NETINTERFACES, clusapi/CLUSTER_NODE_ENUM_PREFERRED_GROUPS, clusapi/_CLUSTER_NODE_ENUM, msclus/CLUSTER_NODE_ENUM, msclus/CLUSTER_NODE_ENUM_ALL, msclus/CLUSTER_NODE_ENUM_GROUPS, msclus/CLUSTER_NODE_ENUM_NETINTERFACES, msclus/CLUSTER_NODE_ENUM_PREFERRED_GROUPS, msclus/_CLUSTER_NODE_ENUM, mscs.cluster_node_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Describes the types of cluster objects that are enumerated by the
 Network interfaces on the node.
 
 
-#### - CLUSTER_NODE_ENUM_GROUPS
+### -field CLUSTER_NODE_ENUM_GROUPS
 
 Cluster groups on the node.
 
@@ -74,7 +74,7 @@ Cluster groups on the node.
         Windows Server 2008 R2.
 
 
-#### - CLUSTER_NODE_ENUM_PREFERRED_GROUPS
+### -field CLUSTER_NODE_ENUM_PREFERRED_GROUPS
 
 Cluster groups that list this node as their preferred owner.
 

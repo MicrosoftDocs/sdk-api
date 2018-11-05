@@ -74,14 +74,18 @@ Represents a blend-state structure and provides convenience methods for creating
 
 Here is how D3D11.h defines <b>CD3D11_BLEND_DESC</b>:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 struct CD3D11_BLEND_DESC : public D3D11_BLEND_DESC
 {
     CD3D11_BLEND_DESC()
     {}
-    explicit CD3D11_BLEND_DESC( const D3D11_BLEND_DESC& o ) :
+    explicit CD3D11_BLEND_DESC( const D3D11_BLEND_DESC&amp; o ) :
         D3D11_BLEND_DESC( o )
     {}
     explicit CD3D11_BLEND_DESC( CD3D11_DEFAULT )
@@ -95,16 +99,16 @@ struct CD3D11_BLEND_DESC : public D3D11_BLEND_DESC
             D3D11_BLEND_ONE, D3D11_BLEND_ZERO, D3D11_BLEND_OP_ADD,
             D3D11_COLOR_WRITE_ENABLE_ALL,
         };
-        for (UINT i = 0; i < D3D11_SIMULTANEOUS_RENDER_TARGET_COUNT; ++i)
+        for (UINT i = 0; i &lt; D3D11_SIMULTANEOUS_RENDER_TARGET_COUNT; ++i)
             RenderTarget[ i ] = defaultRenderTargetBlendDesc;
     }
     ~CD3D11_BLEND_DESC() {}
-    operator const D3D11_BLEND_DESC&() const { return *this; }
+    operator const D3D11_BLEND_DESC&amp;() const { return *this; }
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -113,7 +117,7 @@ struct CD3D11_BLEND_DESC : public D3D11_BLEND_DESC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151647(v=VS.85).aspx">CD3D11 Helper Structures</a>
+<a href="https://msdn.microsoft.com/E44951D9-7830-4825-B7FA-CF98CC0D024C">CD3D11 Helper Structures</a>
  
 
  

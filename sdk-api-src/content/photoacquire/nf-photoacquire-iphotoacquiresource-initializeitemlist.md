@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresource_initializeitemlist.htm
 tech.root: acquisition
 ms.assetid: 1e0ebbc7-888d-4044-8257-47c1719cf7fc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

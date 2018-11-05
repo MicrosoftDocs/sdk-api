@@ -7,7 +7,7 @@ old-location: opengl\choosepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 17bd0a2c-5257-4ae3-80f4-a5ad536169fb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ChoosePixelFormat, ChoosePixelFormat function [OpenGL], _ogl_ChoosePixelFormat, opengl.choosepixelformat, wingdi/ChoosePixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,9 +203,13 @@ You must ensure that the pixel format matched by the <b>ChoosePixelFormat</b> fu
 
 The following code sample shows how to use <b>ChoosePixelFormat</b> to match a specified pixel format.
 
-
-```cpp
-PIXELFORMATDESCRIPTOR pfd = { 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PIXELFORMATDESCRIPTOR pfd = { 
     sizeof(PIXELFORMATDESCRIPTOR),  //  size of this pfd  
     1,                     // version number  
     PFD_DRAW_TO_WINDOW |   // support window  
@@ -228,10 +232,10 @@ PIXELFORMATDESCRIPTOR pfd = {
     HDC  hdc;
     int  iPixelFormat; 
  
-iPixelFormat = ChoosePixelFormat(hdc, &pfd);
-```
-
-
+iPixelFormat = ChoosePixelFormat(hdc, &amp;pfd);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

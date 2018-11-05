@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMFLOAT2.XMFLOAT2(float,float)
 title: XMFLOAT2 function
 author: windows-sdk-content
-description: Initializes a new instance of XMFLOAT2 from two float arguments.
-old-location: dxmath\xmfloat2_ctor_2.htm
+description: Constructors exposed by XMFLOAT2.
+old-location: dxmath\xmfloat2_ctor.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor(float,float)
+ms.assetid: Overload:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2(float,float), dxmath.xmfloat2_ctor_2
+ms.date: 11/02/2018
+ms.keywords: XMFLOAT2, XMFLOAT2 Constructors, XMFLOAT2 Constructors constructors [DirectX Math Support APIs], directxmath/XMFLOAT2 Constructors, dxmath.xmfloat2_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Use DirectX.
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,21 +33,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - DirectXMath.h
+ - directxmath.h
 api_name:
- - XMFLOAT2.XMFLOAT2
+ - XMFLOAT2
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMFLOAT2
-: 
 ---
 
 # XMFLOAT2 function
@@ -56,57 +50,62 @@ req.redist:
 ## -description
 
 
+<span>Constructors exposed by <code>XMFLOAT2</code>.
+
+Constructs instances of the <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> structure.
+
+<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
+<div> </div></span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Constructor</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/c5839b3c-c3b5-483c-941d-fdb580d7f9ec">XMFLOAT2 ()</a>
+</td>
+<td align="left" width="63%">
+Default constructor for <code>XMFLOAT2</code>.
+
+Default constructor for <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>.
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ee91b630-b33a-4da5-ac3b-4c699aea6e84">XMFLOAT2 (float,float)</a>
+</td>
+<td align="left" width="63%">
 Initializes a new instance of <code>XMFLOAT2</code> from two <code>float</code> arguments.
-    
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> from two
 	<code>float</code> arguments.
+
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
-
-## -parameters
-
-
-
-
-### -param _x
-
-Value of the x-coordinate of the vector, the <b>x</b> member of the new
-		    <code>XMFLOAT2</code> instance.
-		
-
-
-### -param _y
-
-Value of the y-coordinate of the vector, the <b>y</b> member of the new
-		    <code>XMFLOAT2</code> instance.
-		
-
-
-## -remarks
-
-
-
-The following pseudocode demonstrates the operation of this constructor:
-	
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-	XMFLOAT2 instance;
-
-	instance.x = _x;
-	instance.y = _y;
-
-    </pre>
+    </div>
+<div> </div>
 </td>
 </tr>
-</table></span></div>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/dcdd1a82-20ff-4bbf-bffd-4979579479b1">XMFLOAT2 (const float*)</a>
+</td>
+<td align="left" width="63%">
+Initializes a new instance of <code>XMFLOAT2</code> from a two element <code>float</code> array
+	argument.
 
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> from a from
+	a two element <code>float</code> array argument.
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
+<div> </div>
+</td>
+</tr>
+</table>
+
+## -parameters
 
 
 ## -see-also
@@ -122,7 +121,7 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/2b679681-f50c-4028-8a0d-28d283e0e9e7">XMFLOAT2 Constructors</a>
+<a href="https://msdn.microsoft.com/6d3f0a7a-051b-4057-9ca8-87e4d9f2524d">XMFLOAT2 Extensions</a>
  
 
  

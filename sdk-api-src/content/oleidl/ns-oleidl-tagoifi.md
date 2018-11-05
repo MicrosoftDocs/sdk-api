@@ -7,7 +7,7 @@ old-location: com\oleinplaceframeinfo.htm
 tech.root: com
 ms.assetid: e09445d2-61e5-4691-b51e-746e0cc91c00
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO structure pointer [COM], OLEINPLACEFRAMEINFO, OLEINPLACEFRAMEINFO structure [COM], _ole_OLEINPLACEFRAMEINFO, com.oleinplaceframeinfo, oleidl/LPOLEINPLACEFRAMEINFO, oleidl/OLEINPLACEFRAMEINFO, tagOIFI"
 ms.prod: windows
 ms.technology: windows-sdk

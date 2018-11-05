@@ -7,7 +7,7 @@ old-location: com\comarshalhresult.htm
 tech.root: com
 ms.assetid: 37aaf404-49ca-4881-a369-44c5288abf1d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CoMarshalHresult, CoMarshalHresult function [COM], _com_CoMarshalHresult, com.comarshalhresult, combaseapi/CoMarshalHresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-Marshals an <b>HRESULT</b> to the specified stream, from which it can be unmarshaled using the <a href="https://msdn.microsoft.com/en-us/library/ms690357(v=VS.85).aspx">CoUnmarshalHresult</a> function.
+Marshals an <b>HRESULT</b> to the specified stream, from which it can be unmarshaled using the <a href="https://msdn.microsoft.com/a45ef72c-d385-4012-9683-7d2cc6d68b6d">CoUnmarshalHresult</a> function.
 
 
 
@@ -66,7 +66,7 @@ Marshals an <b>HRESULT</b> to the specified stream, from which it can be unmarsh
 
 ### -param pstm [in]
 
-A pointer to the marshaling stream. See <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>.
+A pointer to the marshaling stream. See <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
 
 
 ### -param hresult [in]
@@ -128,13 +128,13 @@ The medium is full.
 
 
 
-An <b>HRESULT</b> is process-specific, so an <b>HRESULT</b> that is valid in one process might not be valid in another. If you are writing your own implementation of <a href="https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx">IMarshal</a> and need to marshal an <b>HRESULT</b> from one process to another, either as a parameter or a return code, you must call this function. In other circumstances, you will have no need to call this function.
+An <b>HRESULT</b> is process-specific, so an <b>HRESULT</b> that is valid in one process might not be valid in another. If you are writing your own implementation of <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> and need to marshal an <b>HRESULT</b> from one process to another, either as a parameter or a return code, you must call this function. In other circumstances, you will have no need to call this function.
 
 This function performs the following tasks:
 
 <ol>
 <li>Writes an <b>HRESULT</b> to a stream.</li>
-<li>Returns an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> pointer to that stream.</li>
+<li>Returns an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> pointer to that stream.</li>
 </ol>
 
 
@@ -144,11 +144,11 @@ This function performs the following tasks:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690357(v=VS.85).aspx">CoUnmarshalHresult</a>
+<a href="https://msdn.microsoft.com/a45ef72c-d385-4012-9683-7d2cc6d68b6d">CoUnmarshalHresult</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>
+<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
  
 
  

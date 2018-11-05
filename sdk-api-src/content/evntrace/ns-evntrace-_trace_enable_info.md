@@ -7,7 +7,7 @@ old-location: etw\trace_enable_info.htm
 tech.root: etw
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO structure pointer [ETW], TRACE_ENABLE_INFO, TRACE_ENABLE_INFO structure [ETW], _TRACE_ENABLE_INFO, etw.trace_enable_info, evntrace/PTRACE_ENABLE_INFO, evntrace/TRACE_ENABLE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

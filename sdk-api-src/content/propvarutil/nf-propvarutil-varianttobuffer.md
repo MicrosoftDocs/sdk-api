@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Extracts the contents of a buffer stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure of type VT_ARRRAY | VT_UI1.
+Extracts the contents of a buffer stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure of type VT_ARRRAY | VT_UI1.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Extracts the contents of a buffer stored in a <a href="https://msdn.microsoft.co
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+Reference to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ### -param pv [out]
@@ -110,7 +110,7 @@ Data successfully extracted.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> was not of type VT_ARRRAY | VT_UI1.
+The <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> was not of type VT_ARRRAY | VT_UI1.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VA
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> buffer value had fewer than <i>cb</i> bytes.
+The <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> buffer value had fewer than <i>cb</i> bytes.
 
 </td>
 </tr>
@@ -135,22 +135,26 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VA
 
 
 
-This function is used when the calling application expects a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before it calls this function.
+This function is used when the calling application expects a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before it calls this function.
 
-If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
 
-If the stored value has fewer than <i>cb</i> bytes, then <a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> fails and the buffer is not modified.
+If the stored value has fewer than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> fails and the buffer is not modified.
 
-If the value has more than <i>cb</i> bytes, then <a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> succeeds and truncates the value.
+If the value has more than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> succeeds and truncates the value.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> to access a structure that has been stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
-
-```cpp
-// VARIANT var;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// VARIANT var;
 // Assume variable var is initialized and valid. 
 // The application expects var to hold a WIN32_FIND_DATAW structure 
 // with sizeof(WIN32_FIND_DATAW) bytes.
@@ -162,16 +166,16 @@ if (VariantGetElementCount(var) == sizeof(WIN32_FIND_DATAW))
 {
     WIN32_FIND_DATAW wfd;
 
-    hr = VariantToBuffer(var, &wfd, sizeof(wfd));
+    hr = VariantToBuffer(var, &amp;wfd, sizeof(wfd));
 
     if (SUCCEEDED(hr))
     {
         // wfd is now initialized.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -180,11 +184,11 @@ if (VariantGetElementCount(var) == sizeof(WIN32_FIND_DATAW))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>
+<a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

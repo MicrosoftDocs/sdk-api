@@ -7,7 +7,7 @@ old-location: devinst\setupdiregisterdeviceinfo.htm
 tech.root: devinst
 ms.assetid: 76b2d1ab-3efb-46e6-8c44-d6913b0eecd5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Device and Driver Installation], devinst.setupdiregisterdeviceinfo, di-rtns_ab9a56a2-3256-472f-a818-32918efd5673.xml, setupapi/SetupDiRegisterDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device to register. The device information set must not contain any remote elements.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device to register. The device information set must not contain any remote elements.
 
 
 ### -param DeviceInfoData [in, out]
@@ -88,17 +88,21 @@ If the caller supplies <i>CompareProc</i>, the caller must also set this flag.
 
 A pointer to a comparison callback function to use in duplicate detection. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the callback function is called for each device instance that is of the same class as the device instance that is being registered. The prototype of the callback function is as follows:
 
-
-```
-typedef  DWORD (CALLBACK* PSP_DETSIG_CMPPROC) (
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef  DWORD (CALLBACK* PSP_DETSIG_CMPPROC) (
     IN HDEVINFO  DeviceInfoSet,
     IN PSP_DEVINFO_DATA  NewDeviceData,
     IN PSP_DEVINFO_DATA  ExistingDeviceData,
     IN PVOID  CompareContextOPTIONAL
-    );
-```
-
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 The compare function must return ERROR_DUPLICATE_FOUND if it finds that the two devices are duplicates. Otherwise, it should return NO_ERROR. If some other error is encountered, the callback function should return the appropriate ERROR_* code to indicate the failure.
 
 If <i>CompareProc</i> is not specified and duplication detection is requested, a default comparison behavior is used. The default is to compare the new device's detect signature with the detect signature of all other devices in the class. The detect signature is contained in the class-specific resource descriptor of the device's boot log configuration.
@@ -129,9 +133,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<b>SetupDiRegisterDeviceInfo</b> is primarily designed to register a non-PnP device with the <a href="https://msdn.microsoft.com/library/Ff728837(v=VS.85).aspx">Plug and Play (PnP) manager</a> on a local computer. Although <b>SetupDiRegisterDeviceInfo</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. For example, calling <b>SetupDiCreateDevRegKey</b> to execute an INF section for a newly registered device on a remote computer will fail.
+<b>SetupDiRegisterDeviceInfo</b> is primarily designed to register a non-PnP device with the <a href="devinst.pnp_manager">Plug and Play (PnP) manager</a> on a local computer. Although <b>SetupDiRegisterDeviceInfo</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. For example, calling <b>SetupDiCreateDevRegKey</b> to execute an INF section for a newly registered device on a remote computer will fail.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterDeviceInfo</b> and only in those situations where the class installer must perform device registration operations after <b>SetupDiRegisterDeviceInfo</b> completes the default device registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterDeviceInfo</b> when the installer processes a DIF_REGISTERDEVICE request. For more information about calling the default handler, see <a href="https://msdn.microsoft.com/library/Ff537868(v=VS.85).aspx">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterDeviceInfo</b> and only in those situations where the class installer must perform device registration operations after <b>SetupDiRegisterDeviceInfo</b> completes the default device registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterDeviceInfo</b> when the installer processes a DIF_REGISTERDEVICE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 After registering a device information element, the caller should update any stored copies of the <b>DevInst</b> handle associated with this device. This is necessary because the handle value might have changed during registration. The caller does not have to retrieve the SP_DEVINFO_DATA structure again because the <b>DevInst</b> field of the structure is updated to reflect the current value of the handle. 
 

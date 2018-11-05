@@ -7,7 +7,7 @@ old-location: devinst\cm_query_resource_conflict_list.htm
 tech.root: devinst
 ms.assetid: d8b86549-3687-42e8-a82f-0f2dbd70cf66
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Query_Resource_Conflict_List, CM_Query_Resource_Conflict_List function [Device and Driver Installation], cfgmgr32/CM_Query_Resource_Conflict_List, cfgmgrfn_1d52e544-49ce-4c1a-acc1-b59b7aaec790.xml, devinst.cm_query_resource_conflict_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,9 +108,9 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-When calling <b>CM_Query_Resource_Conflict_List</b>, specify a device instance handle and resource descriptor. (Resource descriptors for existing device nodes can be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Ff538641(v=VS.85).aspx">CM_Get_Res_Des_Data</a>.) These parameters indicate the specific resources you'd like a specific device to use. The resulting conflict list identifies devices that use the same resources, along with resources reserved by the machine.
+When calling <b>CM_Query_Resource_Conflict_List</b>, specify a device instance handle and resource descriptor. (Resource descriptors for existing device nodes can be obtained by calling <a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a>.) These parameters indicate the specific resources you'd like a specific device to use. The resulting conflict list identifies devices that use the same resources, along with resources reserved by the machine.
 
-After calling <b>CM_Query_Resource_Conflict_List</b>, an application can call <a href="https://msdn.microsoft.com/en-us/library/Ff538622(v=VS.85).aspx">CM_Get_Resource_Conflict_Count</a> to determine the number of conflicts contained in the resource conflict list. (The number of conflicts can be zero.) Then the application can call <a href="https://msdn.microsoft.com/en-us/library/Ff538631(v=VS.85).aspx">CM_Get_Resource_Conflict_Details</a> for each entry in the conflict list.
+After calling <b>CM_Query_Resource_Conflict_List</b>, an application can call <a href="https://msdn.microsoft.com/758fbc4c-499f-492d-b64d-f80b1fc7ee25">CM_Get_Resource_Conflict_Count</a> to determine the number of conflicts contained in the resource conflict list. (The number of conflicts can be zero.) Then the application can call <a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a> for each entry in the conflict list.
 
 After an application has finished using the handle received for <i>pclConflictList</i>, it must call <a href="https://msdn.microsoft.com/8c6b4f0d-d4d0-44dc-9a8f-5e3fe36c73a5">CM_Free_Resource_Conflict_Handle</a>.
 
@@ -132,15 +132,15 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538641(v=VS.85).aspx">CM_Get_Res_Des_Data</a>
+<a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538622(v=VS.85).aspx">CM_Get_Resource_Conflict_Count</a>
+<a href="https://msdn.microsoft.com/758fbc4c-499f-492d-b64d-f80b1fc7ee25">CM_Get_Resource_Conflict_Count</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538631(v=VS.85).aspx">CM_Get_Resource_Conflict_Details</a>
+<a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a>
  
 
  

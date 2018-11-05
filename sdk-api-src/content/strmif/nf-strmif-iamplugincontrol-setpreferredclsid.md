@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_setpreferredclsid.htm
 tech.root: DirectShow
 ms.assetid: 45702714-6b35-4863-885e-55049258a4ae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMPluginControl interface [DirectShow],SetPreferredClsid method, IAMPluginControl.SetPreferredClsid, IAMPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [DirectShow], SetPreferredClsid method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setpreferredclsid, strmif/IAMPluginControl::SetPreferredClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

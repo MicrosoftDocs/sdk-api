@@ -4,10 +4,10 @@ title: RESUTIL_FILETIME_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a FILETIME.
 old-location: mscs\resutil_filetime_data.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

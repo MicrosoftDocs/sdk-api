@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetintbyindexptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntByIndexPtr(XMVECTOR,const uint32_t,size_t)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMVectorSetIntByIndexPtr, XMVectorSetIntByIndexPtr, XMVectorSetIntByIndexPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintbyindexptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorSetIntByIndexPtr
-: 
 ---
 
 # XMVectorSetIntByIndexPtr function

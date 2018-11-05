@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getguidarray.htm
 tech.root: WinRT
 ms.assetid: 83d19a18-3cd4-4343-8609-12e9a65b8e37
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetGuidArray, GetGuidArray method [Windows Runtime], GetGuidArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetGuidArray method, IPropertyValue.GetGuidArray, IPropertyValue.IPropertyValue, IPropertyValue::GetGuidArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetGuidArray, winrt.ipropertyvalue_getguidarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

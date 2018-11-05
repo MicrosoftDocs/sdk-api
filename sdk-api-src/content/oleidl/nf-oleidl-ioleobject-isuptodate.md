@@ -7,7 +7,7 @@ old-location: com\ioleobject_isuptodate.htm
 tech.root: com
 ms.assetid: 74203a74-c5dd-4a98-9223-1dc54c9d4399
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate, IOleObject::IsUpToDate, IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM],IOleObject interface, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

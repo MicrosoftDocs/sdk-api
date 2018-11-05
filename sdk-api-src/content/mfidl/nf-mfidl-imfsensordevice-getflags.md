@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getflags.htm
 tech.root: medfound
 ms.assetid: 802649EE-7A24-429A-92DB-775A215BCD79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetFlags method, IMFSensorDevice.GetFlags, IMFSensorDevice::GetFlags, mf.imfsensordevice_getflags, mfidl/IMFSensorDevice::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\rpcuserfree.htm
 tech.root: rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

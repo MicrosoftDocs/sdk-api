@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: 599cb788-9c1f-4b8e-819c-b82c4edba29b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IUIAutomationRangeValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationRangeValuePattern.SetValue, IUIAutomationRangeValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationRangeValuePattern interface, uiauto.uiauto_IUIAutomationRangeValuePattern_SetValue, uiauto_IUIAutomationRangeValuePattern_SetValue, uiautomationclient/IUIAutomationRangeValuePattern::SetValue, winauto.uiauto_IUIAutomationRangeValuePattern_SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

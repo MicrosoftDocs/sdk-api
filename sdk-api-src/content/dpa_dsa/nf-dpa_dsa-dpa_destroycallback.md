@@ -7,7 +7,7 @@ old-location: controls\DPA_DestroyCallback.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_destroycallback.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DPA_DestroyCallback, DPA_DestroyCallback function [Windows Controls], _win32_DPA_DestroyCallback, _win32_DPA_DestroyCallback_cpp, controls.DPA_DestroyCallback, controls._win32_DPA_DestroyCallback, dpa_dsa/DPA_DestroyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getfieldmarshal.htm
 tech.root: WinRT
 ms.assetid: a176ce92-761f-48fd-b9e8-01990176df27
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetFieldMarshal, GetFieldMarshal method [Windows Runtime], GetFieldMarshal method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldMarshal method, IMetaDataImport.GetFieldMarshal, IMetaDataImport::GetFieldMarshal, rometadataapi/IMetaDataImport::GetFieldMarshal, winrt.imetadataimport_getfieldmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices

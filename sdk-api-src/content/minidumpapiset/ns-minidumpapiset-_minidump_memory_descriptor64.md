@@ -7,7 +7,7 @@ old-location: base\minidump_memory_descriptor_str.htm
 tech.root: debug
 ms.assetid: 34c6de99-8ba5-4199-a382-3e3f7d02571f
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 11/02/2018
 ms.keywords: "*PMINIDUMP_MEMORY_DESCRIPTOR64, MINIDUMP_MEMORY_DESCRIPTOR, MINIDUMP_MEMORY_DESCRIPTOR structure, MINIDUMP_MEMORY_DESCRIPTOR64, PMINIDUMP_MEMORY_DESCRIPTOR, PMINIDUMP_MEMORY_DESCRIPTOR structure pointer, _MINIDUMP_MEMORY_DESCRIPTOR, _MINIDUMP_MEMORY_DESCRIPTOR64, _win32_minidump_memory_descriptor_str, base.minidump_memory_descriptor_str, minidumpapiset/MINIDUMP_MEMORY_DESCRIPTOR, minidumpapiset/PMINIDUMP_MEMORY_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,16 +82,20 @@ A
 
 <b>MINIDUMP_MEMORY_DESCRIPTOR64</b> is used for full-memory minidumps where all of the raw memory is sequential at the end of the minidump. There is no need for individual relative virtual addresses (RVAs), because the RVA is the base RVA plus the sum of the preceding data blocks. The <b>MINIDUMP_MEMORY_DESCRIPTOR64</b> structure is defined as follows. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct _MINIDUMP_MEMORY_DESCRIPTOR64 {
     ULONG64 StartOfMemoryRange;
     ULONG64 DataSize;
-} MINIDUMP_MEMORY_DESCRIPTOR64, *PMINIDUMP_MEMORY_DESCRIPTOR64;
-```
-
-
+} MINIDUMP_MEMORY_DESCRIPTOR64, *PMINIDUMP_MEMORY_DESCRIPTOR64;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

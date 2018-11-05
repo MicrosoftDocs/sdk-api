@@ -7,7 +7,7 @@ old-location: multimedia\avistreamsamplesize.htm
 tech.root: Multimedia
 ms.assetid: 24d8dae6-a9f7-4ca6-a083-1e1f59c0591c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia], _win32_AVIStreamSampleSize, multimedia.avistreamsamplesize, vfw/AVIStreamSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,15 +82,19 @@ Address to contain the buffer size.
 
 The <b>AVIStreamSampleSize</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamSampleSize(pavi, lPos, plSize) \ 
     AVIStreamRead(pavi, lPos, 1, NULL, 0, plSize, NULL) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

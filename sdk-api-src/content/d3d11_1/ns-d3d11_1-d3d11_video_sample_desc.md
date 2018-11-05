@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_sample_desc.htm
 tech.root: medfound
 ms.assetid: 3B6BF76A-6566-4C58-AD26-5B13E6D040CA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: D3D11_VIDEO_SAMPLE_DESC, D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation], d3d11_1/D3D11_VIDEO_SAMPLE_DESC, mf.d3d11_video_sample_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The colorspace of the sample.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

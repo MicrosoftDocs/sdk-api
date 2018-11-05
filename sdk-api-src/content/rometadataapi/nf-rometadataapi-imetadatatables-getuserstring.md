@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getuserstring.htm
 tech.root: WinRT
 ms.assetid: 868f6be3-1baf-4f7c-be10-12b79a45e9c7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserString method, IMetaDataTables.GetUserString, IMetaDataTables::GetUserString, rometadataapi/IMetaDataTables::GetUserString, winrt.imetadatatables_getuserstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

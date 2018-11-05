@@ -7,7 +7,7 @@ old-location: devinst\setupgetinfdriverstorelocation.htm
 tech.root: devinst
 ms.assetid: 34131e9e-2e0e-4098-a988-3dadbf1789af
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupGetInfDriverStoreLocation, SetupGetInfDriverStoreLocation function [Device and Driver Installation], SetupGetInfDriverStoreLocationA, SetupGetInfDriverStoreLocationW, devinst.setupgetinfdriverstorelocation, setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml, setupapi/SetupGetInfDriverStoreLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>SetupGetInfDriverStoreLocation</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://msdn.microsoft.com/library/Ff549520(v=VS.85).aspx">INF file</a> in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
+The <b>SetupGetInfDriverStoreLocation</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="devinst.overview_of_inf_files">INF file</a> in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
 
 
 ## -parameters
@@ -128,7 +128,7 @@ Call <b>SetupGetInfDriverStoreLocation</b> and supply the fully qualified file n
 </ol>
 <div class="alert"><b>Note</b>  <b>SetupGetInfDriverStoreLocation</b> does not process the contents of the INF file that is specified in <i>FileName</i>. You cannot use this function to perform a content-specific search for an INF file in the driver store.</div>
 <div> </div>
-Call the <a href="https://msdn.microsoft.com/0379f8f4-9761-4216-b4d5-5752b6dc33a5">SetupGetInfPublishedName</a> function to retrieve the fully qualified file name of an <a href="https://msdn.microsoft.com/library/Ff549520(v=VS.85).aspx">INF file</a> in the system INF file directory that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
+Call the <a href="https://msdn.microsoft.com/0379f8f4-9761-4216-b4d5-5752b6dc33a5">SetupGetInfPublishedName</a> function to retrieve the fully qualified file name of an <a href="devinst.overview_of_inf_files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
 
 
 

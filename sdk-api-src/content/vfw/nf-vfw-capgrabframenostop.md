@@ -7,7 +7,7 @@ old-location: multimedia\capgrabframenostop.htm
 tech.root: Multimedia
 ms.assetid: 0782d69f-6c4f-44f5-abd4-2b833be2f487
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_capGrabFrameNoStop, capGrabFrameNoStop, capGrabFrameNoStop macro [Windows Multimedia], multimedia.capgrabframenostop, vfw/capGrabFrameNoStop"
 ms.prod: windows-hardware
 ms.technology: windows-devices

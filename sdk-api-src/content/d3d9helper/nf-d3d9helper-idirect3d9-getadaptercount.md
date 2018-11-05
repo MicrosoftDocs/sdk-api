@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__getadaptercount.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptercount.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 7f2637d0-4165-4508-af2d-ac07385cee3e, GetAdapterCount, GetAdapterCount method [Direct3D 9], GetAdapterCount method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterCount method, IDirect3D9.GetAdapterCount, IDirect3D9::GetAdapterCount, d3d9helper/IDirect3D9::GetAdapterCount, direct3d9.idirect3d9__getadaptercount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Returns the number of adapters on the system.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A UINT value that denotes the number of adapters on the system at the time this <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> interface was instantiated.
+A UINT value that denotes the number of adapters on the system at the time this <a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a> interface was instantiated.
 
 
 
@@ -77,11 +77,11 @@ A UINT value that denotes the number of adapters on the system at the time this 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174317(v=VS.85).aspx">GetAdapterIdentifier</a>
+<a href="https://msdn.microsoft.com/aa12e943-9a2c-4c47-be28-7a46f8cb03a9">GetAdapterIdentifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="https://msdn.microsoft.com/en-us/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a> function.
+The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a> function.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ A hash operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a>
+<a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: multimedia\avibuildfilter.htm
 tech.root: Multimedia
 ms.assetid: 0ec90343-7493-4fa7-ac89-a49db90ecdf7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AVIBuildFilter, AVIBuildFilter function [Windows Multimedia], AVIBuildFilterA, AVIBuildFilterW, _win32_AVIBuildFilter, multimedia.avibuildfilter, vfw/AVIBuildFilter, vfw/AVIBuildFilterA, vfw/AVIBuildFilterW
 ms.prod: windows-hardware
 ms.technology: windows-devices

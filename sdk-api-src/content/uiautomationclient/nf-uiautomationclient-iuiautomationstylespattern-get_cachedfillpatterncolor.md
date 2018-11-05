@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedFillPatternColor.h
 tech.root: WinAuto
 ms.assetid: 7977770D-1B61-4FE7-846B-C4EE6A0647EE
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CachedFillPatternColor property [Windows Accessibility], CachedFillPatternColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedFillPatternColor property, IUIAutomationStylesPattern.CachedFillPatternColor, IUIAutomationStylesPattern.get_CachedFillPatternColor, IUIAutomationStylesPattern::CachedFillPatternColor, IUIAutomationStylesPattern::get_CachedFillPatternColor, get_CachedFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CachedFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CachedFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CachedFillPatternColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

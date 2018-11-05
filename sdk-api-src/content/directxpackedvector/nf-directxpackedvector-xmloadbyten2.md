@@ -7,7 +7,7 @@ old-location: dxmath\xmloadbyten2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByteN2(const XMBYTEN2)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectX::PackedVector.XMLoadByteN2, XMLoadByteN2, XMLoadByteN2 method [DirectX Math Support APIs], dxmath.xmloadbyten2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/87cadfb8-6b3c-4c66-88c1-c3751edeb3f2">XMBYTEN2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/87cadfb8-6b3c-4c66-88c1-c3751edeb3f2">XMBYTEN2</a> structure to load. 
 
 
 ## -returns
@@ -78,22 +78,26 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode shows you the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR vectorOut;
 
-vectorOut.x = (float)pSource->x / 127.0f;
-vectorOut.y = (float)pSource->y / 127.0f;
+vectorOut.x = (float)pSource-&gt;x / 127.0f;
+vectorOut.y = (float)pSource-&gt;y / 127.0f;
 vectorOut.z = 0;
 vectorOut.w = 0;
 
 return vectorOut;
     
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 Note that both -127 and -128 map to -1.f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

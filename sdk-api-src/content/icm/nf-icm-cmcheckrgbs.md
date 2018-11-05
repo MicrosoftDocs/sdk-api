@@ -7,7 +7,7 @@ old-location: wcs\cmcheckrgbs.htm
 tech.root: WCS
 ms.assetid: 1b8e33b7-0250-463b-a901-5a480205295e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CMCheckRGBs, CMCheckRGBs function [Windows Color System], _color_CMCheckRGBs, icm/CMCheckRGBs, wcs.cmcheckrgbs
 ms.prod: windows-hardware
 ms.technology: windows-devices

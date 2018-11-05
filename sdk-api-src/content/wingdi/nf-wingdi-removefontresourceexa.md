@@ -7,7 +7,7 @@ old-location: gdi\removefontresourceex.htm
 tech.root: gdi
 ms.assetid: 18056fe7-1efe-428e-a828-3217c53371eb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RemoveFontResourceEx, RemoveFontResourceEx function [Windows GDI], RemoveFontResourceExA, RemoveFontResourceExW, _win32_RemoveFontResourceEx, gdi.removefontresourceex, wingdi/RemoveFontResourceEx, wingdi/RemoveFontResourceExA, wingdi/RemoveFontResourceExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ while( i-- )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

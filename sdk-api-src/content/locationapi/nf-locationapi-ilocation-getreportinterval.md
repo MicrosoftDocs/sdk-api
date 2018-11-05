@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocation_getreportinterval.htm
 tech.root: locationapi
 ms.assetid: c7bcd665-317c-428a-aa20-0d09c8d7a813
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,14 +143,18 @@ You must call <a href="https://msdn.microsoft.com/1aca3e5b-20cb-4fa9-b28d-7d9926
 
 The following example demonstrates how to call <b>GetReportInterval</b>.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 DWORD reportInterval = 0;
-HRESULT hr = spLocation->GetReportInterval(IID_ILatLongReport, &reportInterval);
-```
-
-
+HRESULT hr = spLocation-&gt;GetReportInterval(IID_ILatLongReport, &amp;reportInterval);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

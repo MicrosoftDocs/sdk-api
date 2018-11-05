@@ -7,7 +7,7 @@ old-location: dshow\imediapropertybag_enumproperty.htm
 tech.root: DirectShow
 ms.assetid: 88cd9016-ef6f-467a-9e84-10b2ac578211
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EnumProperty, EnumProperty method [DirectShow], EnumProperty method [DirectShow],IMediaPropertyBag interface, IMediaPropertyBag interface [DirectShow],EnumProperty method, IMediaPropertyBag.EnumProperty, IMediaPropertyBag::EnumProperty, IMediaPropertyBagEnumProperty, dshow.imediapropertybag_enumproperty, strmif/IMediaPropertyBag::EnumProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

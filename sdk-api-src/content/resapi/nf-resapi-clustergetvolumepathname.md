@@ -4,10 +4,10 @@ title: ClusterGetVolumePathName function
 author: windows-sdk-content
 description: ClusterGetVolumePathName may be altered or unavailable. Instead, use GetVolumePathName.
 old-location: mscs\clustergetvolumepathname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,9 +148,6 @@ Output: "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
 <b>Windows Server 2008 R2:  </b>The initial release of ResApi.h containing the 
       <b>ClusterGetVolumePathName</b> function used 
       <b>TCHAR</b>-based data types instead of <b>WCHAR</b>-based 
-      data types. The UNICODE preprocessor define must be set before ResApi.h is included.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
       data types. The UNICODE preprocessor define must be set before ResApi.h is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -162,8 +159,6 @@ Output: "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 The 

@@ -7,7 +7,7 @@ old-location: gdi\playmetafilerecord.htm
 tech.root: gdi
 ms.assetid: bea22981-dc77-4de2-b6dc-d6a4f4b74bbd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PlayMetaFileRecord, PlayMetaFileRecord function [Windows GDI], _win32_PlayMetaFileRecord, gdi.playmetafilerecord, wingdi/PlayMetaFileRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

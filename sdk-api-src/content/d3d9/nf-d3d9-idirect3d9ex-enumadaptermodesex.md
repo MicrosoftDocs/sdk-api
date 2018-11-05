@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9ex_enumadaptermodesex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_enumadaptermodesex.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 4bc3b89a-9f5a-0632-2b67-102fd92c5053, EnumAdapterModesEx, EnumAdapterModesEx method [Direct3D 9], EnumAdapterModesEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],EnumAdapterModesEx method, IDirect3D9Ex.EnumAdapterModesEx, IDirect3D9Ex::EnumAdapterModesEx, d3d9/IDirect3D9Ex::EnumAdapterModesEx, direct3d9.idirect3d9ex_enumadaptermodesex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Ordinal number denoting the display adapter to enumerate. D3DADAPTER_DEFAULT is 
 
 ### -param pFilter [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4a03d0f0-dec5-4209-8c99-b58cc13064f5">D3DDISPLAYMODEFILTER</a>*</b>
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>.
+See <a href="https://msdn.microsoft.com/4a03d0f0-dec5-4209-8c99-b58cc13064f5">D3DDISPLAYMODEFILTER</a>.
 
 
 ### -param Mode [in]
@@ -82,16 +82,16 @@ Represents the display-mode index which is an unsigned integer between zero and 
 
 ### -param pMode [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a>*</b>
 
-A pointer to the available display mode of type <a href="https://msdn.microsoft.com/en-us/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>.
+A pointer to the available display mode of type <a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 <ul>
 <li>If the device can be used on this adapter, D3D_OK is returned.</li>
@@ -105,7 +105,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
+<a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\clusterregreadbatchaddcommand.htm
 tech.root: mscs
 ms.assetid: 2B665231-7325-43C4-92A4-4EDF28126BA1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ClusterRegReadBatchAddCommand, ClusterRegReadBatchAddCommand function [Failover Cluster], clusapi/ClusterRegReadBatchAddCommand, mscs.clusterregreadbatchaddcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ Adds a read command to a batch that executes on a cluster registry key.
 
 ### -param hRegReadBatch [in]
 
-The handle of the read batch to which a command will be added. Create a batch by calling the <a href="https://msdn.microsoft.com/en-us/library/Hh706743(v=VS.85).aspx">ClusterRegCreateReadBatch</a> function.
+The handle of the read batch to which a command will be added. Create a batch by calling the <a href="https://msdn.microsoft.com/FED3986E-7383-46C4-B2D5-259812EF63A2">ClusterRegCreateReadBatch</a> function.
 
 
 ### -param wzSubkeyName [in, optional]
@@ -81,7 +81,7 @@ The name of the registry value to be read. If this name is <b>NULL</b>, the cont
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 
@@ -100,7 +100,7 @@ Additional calls to the <b>ClusterRegReadBatchAddCommand</b> function add additi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706743(v=VS.85).aspx">ClusterRegCreateReadBatch</a>
+<a href="https://msdn.microsoft.com/FED3986E-7383-46C4-B2D5-259812EF63A2">ClusterRegCreateReadBatch</a>
  
 
  

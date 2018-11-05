@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getstreamconfigurationcount.htm
 tech.root: medfound
 ms.assetid: 9591BFEC-DD25-41A8-9DA8-7F39158CB442
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetStreamConfigurationCount, GetStreamConfigurationCount method [Media Foundation], GetStreamConfigurationCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfigurationCount method, IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount, IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount, mf.imfmuxstreammediatypemanager_getstreamconfigurationcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

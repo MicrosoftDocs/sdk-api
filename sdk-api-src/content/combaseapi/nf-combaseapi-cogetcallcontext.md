@@ -7,7 +7,7 @@ old-location: com\cogetcallcontext.htm
 tech.root: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,11 +125,11 @@ The call context does not support the interface specified by <i>riid</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691215(v=VS.85).aspx">IServerSecurity</a>
+<a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693319(v=VS.85).aspx">Security in COM</a>
+<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
  
 
  

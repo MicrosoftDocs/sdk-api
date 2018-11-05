@@ -7,7 +7,7 @@ old-location: automat\varr8fromui8.htm
 tech.root: automat
 ms.assetid: 789b770a-2b8b-45b2-a572-73c207d31e3e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VarR8FromUI8, VarR8FromUI8 function [Automation], _oa96_VarR8FromUI8, automat.varr8fromui8, oleauto/VarR8FromUI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

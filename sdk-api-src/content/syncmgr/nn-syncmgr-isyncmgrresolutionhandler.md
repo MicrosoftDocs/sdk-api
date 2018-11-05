@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler.htm
 tech.root: shell
 ms.assetid: 5b77217d-5c63-41be-b4df-338714a90fb9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], ISyncMgrResolutionHandler interface [Windows Shell],described, _shell_ISyncMgrResolutionHandler, shell.ISyncMgrResolutionHandler, syncmgr/ISyncMgrResolutionHandler
 ms.prod: windows
 ms.technology: windows-sdk

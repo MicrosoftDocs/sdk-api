@@ -7,7 +7,7 @@ old-location: mf\mf_video_processor_rotation.htm
 tech.root: medfound
 ms.assetid: B5B75A2A-6620-4E5B-8074-3A9E2FFB40F8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ROTATION, MF_VIDEO_PROCESSOR_ROTATION enumeration [Media Foundation], ROTATION_NONE, ROTATION_NORMAL, _MF_VIDEO_PROCESSOR_ROTATION, mf.mf_video_processor_rotation, mfidl/MF_VIDEO_PROCESSOR_ROTATION, mfidl/ROTATION_NONE, mfidl/ROTATION_NORMAL
 ms.prod: windows
 ms.technology: windows-sdk

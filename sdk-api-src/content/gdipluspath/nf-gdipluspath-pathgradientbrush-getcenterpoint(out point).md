@@ -88,7 +88,7 @@ If the method fails, it returns one of the other elements of the
 
 
 By default, the center point of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object is at the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
+				<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a> object is at the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
 				<a href="https://msdn.microsoft.com/41765887-b1de-4259-95af-a1ef8c84d01a">SetCenterPoint</a> method of the 
 				<b>PathGradientBrush</b> object.
 
@@ -98,7 +98,7 @@ By default, the center point of a
 
 
 The following example demonstrates several methods of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> class including <b>PathGradientBrush::GetCenterPoint</b> and <a href="https://msdn.microsoft.com/33e9a8f0-7c07-475d-8332-cf2e08190b35">PathGradientBrush::SetCenterColor</a>. The code creates a 
+						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a> class including <b>PathGradientBrush::GetCenterPoint</b> and <a href="https://msdn.microsoft.com/33e9a8f0-7c07-475d-8332-cf2e08190b35">PathGradientBrush::SetCenterColor</a>. The code creates a 
 						<b>PathGradientBrush</b> object and then sets the brush's center color and boundary color. The code calls the <b>PathGradientBrush::GetCenterPoint</b> method to determine the center point of the path gradient brush and then draws a line from the origin to that center point.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -164,7 +164,7 @@ The following example demonstrates several methods of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
 
 
 

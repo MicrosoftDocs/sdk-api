@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2orthogonal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Orthogonal(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMVector2Orthogonal, XMVector2Orthogonal, XMVector2Orthogonal method [DirectX Math Support APIs], dxmath.xmvector2orthogonal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVector2Orthogonal
-: 
 ---
 
 # XMVector2Orthogonal function

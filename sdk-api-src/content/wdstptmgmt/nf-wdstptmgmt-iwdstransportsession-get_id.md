@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession_id.htm
 tech.root: wds
 ms.assetid: 78d2832f-706e-4d4e-90f5-762026ef69ae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Id property, IWdsTransportSession.Id, IWdsTransportSession.get_Id, IWdsTransportSession::Id, IWdsTransportSession::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportSession interface, get_Id, wds.iwdstransportsession_id, wdstptmgmt/IWdsTransportSession::Id, wdstptmgmt/IWdsTransportSession::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices

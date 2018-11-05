@@ -281,22 +281,26 @@ The <b>CryptFindOIDInfo</b> function performs a lookup in the active directory t
 
 The bit length shifted left 16 bits can be specified in the <i>dwGroupId</i> parameter by using the logical <b>OR</b> operator (|). This is only applicable to the <b>CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> group entries that have a bit length specified in the <b>ExtraInfo</b> member of the <a href="https://msdn.microsoft.com/06ba0f60-778d-450b-8f71-23471b8c4e2c">CRYPT_OID_INFO</a> structure. Currently, only the AES encryption algorithms have this. The constant <b>CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT</b> can be used for doing the shift. For example, to find the OID information for <b>BCRYPT_AES_ALGORITHM</b> with bit length equal to 192, call <b>CryptFindOIDInfo</b> as follows.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 DWORD dwBitLen = 192;
 
 PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
      CRYPT_OID_INFO_CNG_ALGID_KEY,
      (void *) BCRYPT_AES_ALGORITHM,
      CRYPT_ENCRYPT_ALG_OID_GROUP_ID |
-         (dwBitLen << CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT)
+         (dwBitLen &lt;&lt; CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT)
      );
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -325,7 +329,7 @@ PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

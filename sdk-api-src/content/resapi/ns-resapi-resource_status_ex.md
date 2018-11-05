@@ -4,10 +4,10 @@ title: RESOURCE_STATUS_EX
 author: windows-sdk-content
 description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatusEx.
 old-location: mscs\resource_status_ex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: CBEBF870-B413-400C-A485-FD093358FB67
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PRESOURCE_STATUS_EX, CLUSRESDLL_STATUS_INSUFFICIENT_MEMORY, CLUSRESDLL_STATUS_INSUFFICIENT_OTHER_RESOURCES, CLUSRESDLL_STATUS_INSUFFICIENT_PROCESSOR, CLUSRESDLL_STATUS_NETWORK_NOT_AVAILABLE, CLUSRESDLL_STATUS_OFFLINE_BUSY, CLUSRESDLL_STATUS_OFFLINE_DESTINATION_REJECTED, CLUSRESDLL_STATUS_OFFLINE_DESTINATION_THROTTLED, CLUSRESDLL_STATUS_OFFLINE_SOURCE_THROTTLED, PRESOURCE_STATUS_EX, PRESOURCE_STATUS_EX structure pointer [Failover Cluster], RESOURCE_STATUS_EX, RESOURCE_STATUS_EX structure [Failover Cluster], STATUS_INVALID_PARAMETERS, mscs.resource_status_ex, resapi/PRESOURCE_STATUS_EX, resapi/RESOURCE_STATUS_EX"
 ms.prod: windows
 ms.technology: windows-sdk

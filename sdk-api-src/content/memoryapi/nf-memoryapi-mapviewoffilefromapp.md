@@ -4,10 +4,10 @@ title: MapViewOfFileFromApp function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling Windows Store app.
 old-location: base\mapviewoffilefromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 59369959-3347-44d0-8b08-5c38ac58fdb0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_READ, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -197,6 +197,8 @@ The exception is related to remote files. Although
     does not keep them coherent. For example, if two computers both map a file as writable, and both change the same 
     page, each computer only sees its own writes to the page. When the data gets updated on the disk, it is not 
     merged.
+
+ You can only successfully request executable protection if your app has the <b>codeGeneration</b> capability.
 
 
 

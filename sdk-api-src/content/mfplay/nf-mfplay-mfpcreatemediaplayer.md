@@ -7,7 +7,7 @@ old-location: mf\mfpcreatemediaplayer.htm
 tech.root: medfound
 ms.assetid: 80c668e2-5e93-4af2-871c-646228e18717
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundation], mf.mfpcreatemediaplayer, mfplay/MFPCreateMediaPlayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

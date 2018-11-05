@@ -7,7 +7,7 @@ old-location: controls\LITEM.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp, tagLITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Used to set and retrieve information about a link item.
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Combination of one or more of the following flags, describing the information to set or retrieve:
 
@@ -126,7 +126,7 @@ Value of type <b>int</b> that contains the item index. This numeric index is use
 
 ### -field state
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Combination of one or more of the following flags, describing the state of the item:
 
@@ -142,7 +142,7 @@ Combination of one or more of the following flags, describing the state of the i
 </dl>
 </td>
 <td width="60%">
-The link can respond to user input. This is the default unless the entire control was created with <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_DISABLED</a>. In this case, all links are disabled.
+The link can respond to user input. This is the default unless the entire control was created with <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_DISABLED</a>. In this case, all links are disabled.
 
 </td>
 </tr>
@@ -196,21 +196,21 @@ Enable custom text colors to be used.
 
 ### -field stateMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Combination of flags describing which state item to get or set. Allowable items are identical to those allowed in <b>state</b>.
 
 
 ### -field szID
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WCHAR</a>[MAX_LINKID_TEXT]</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>[MAX_LINKID_TEXT]</b>
 
 <b>WCHAR</b> string that contains the ID name. The maximum number of characters in the array is MAX_LINKID_TEXT. The ID name cannot be used to access a SysLink control link. You use the item index to access the item.
 
 
 ### -field szUrl
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WCHAR</a>[L_MAX_URL_LENGTH]</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 <b>WCHAR</b> string that contains the URL represented by the link. The maximum number of characters in the array is L_MAX_URL_LENGTH.
 

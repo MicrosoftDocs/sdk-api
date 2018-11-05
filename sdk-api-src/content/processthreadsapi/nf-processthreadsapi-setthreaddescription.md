@@ -7,7 +7,7 @@ old-location: base\setthreaddescription.htm
 tech.root: procthread
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,17 +92,21 @@ The description of a thread can be set more than once; the most recently set val
 
 The following example sets the description for the current thread to "simulation_thread".
 
-
-```cpp
-HRESULT hr = SetThreadDescription(GetCurrentThread(), L"simulation_thread");
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = SetThreadDescription(GetCurrentThread(), L"simulation_thread");
 if (FAILED(hr))
 {
     // Call failed.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

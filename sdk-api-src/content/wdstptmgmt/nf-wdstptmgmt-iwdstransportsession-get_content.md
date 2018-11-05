@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession_content.htm
 tech.root: wds
 ms.assetid: 642026fe-976f-439f-b90d-ad9a28609f00
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Content property [Windows Deployment Services], Content property [Windows Deployment Services],IWdsTransportSession interface, IWdsTransportSession interface [Windows Deployment Services],Content property, IWdsTransportSession.Content, IWdsTransportSession.get_Content, IWdsTransportSession::Content, IWdsTransportSession::get_Content, get_Content, wds.iwdstransportsession_content, wdstptmgmt/IWdsTransportSession::Content, wdstptmgmt/IWdsTransportSession::get_Content
 ms.prod: windows-hardware
 ms.technology: windows-devices

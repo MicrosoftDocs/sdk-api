@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentvideoattributes.htm
 tech.root: DirectShow
 ms.assetid: 7147d8f3-c038-4742-8667-2e40d7ab979a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetCurrentVideoAttributes, GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVideoAttributes method, IDvdInfo.GetCurrentVideoAttributes, IDvdInfo::GetCurrentVideoAttributes, IDvdInfoGetCurrentVideoAttributes, dshow.idvdinfo_getcurrentvideoattributes, strmif/IDvdInfo::GetCurrentVideoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

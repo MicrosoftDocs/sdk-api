@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_sourceprotocol.htm
 tech.root: DirectShow
 ms.assetid: 498e81fc-90d3-4a24-b672-c7c62b3bfd39
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceProtocol method, IAMNetShowExProps.get_SourceProtocol, IAMNetShowExProps::get_SourceProtocol, IAMNetShowExPropsget_SourceProtocol, dshow.iamnetshowexprops_get_sourceprotocol, get_SourceProtocol, get_SourceProtocol method [DirectShow], get_SourceProtocol method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices

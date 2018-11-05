@@ -7,7 +7,7 @@ old-location: shell\IWizardSite.htm
 tech.root: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The <b>IWizardSite</b> interface has these methods.
 <a href="https://msdn.microsoft.com/682f5624-5fec-4bc9-9455-150e8e951538">GetCancelledPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
+Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Called when the user cancels navigation through the wizard extension. Gets the h
 <a href="https://msdn.microsoft.com/61f9b288-40d0-4e36-84e7-6b7bd5d3f5f1">GetNextPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
+Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Called when the user navigates forward past the wizard extension pages. Gets the
 <a href="https://msdn.microsoft.com/998eabc5-a0d4-450f-92bf-cf81f74c48d2">GetPreviousPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
+Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
 
 </td>
 </tr>

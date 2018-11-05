@@ -77,16 +77,20 @@ Pointer to a
 The 
 <b>ALERT_OTHER_INFO</b> macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define ALERT_OTHER_INFO(x)    ((LPBYTE)(x) + sizeof(STD_ALERT))
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 See 
 <a href="https://msdn.microsoft.com/11367a72-c21d-4044-98cf-a7a30cc43a8b">NetAlertRaise</a> for a code sample that uses the 
 <b>ALERT_OTHER_INFO</b> macro to retrieve a pointer to the 

@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCalendarCount.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarcount.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MonthCal_GetCalendarCount, MonthCal_GetCalendarCount macro [Windows Controls], _shell_MonthCal_GetCalendarCount, _shell_MonthCal_GetCalendarCount_cpp, commctrl/MonthCal_GetCalendarCount, controls.MonthCal_GetCalendarCount, controls._shell_MonthCal_GetCalendarCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760947(v=VS.85).aspx">MCM_GETCALENDARCOUNT</a> message explicitly.
+Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/b9463f02-d37b-49b0-8387-0938020c23ee">MCM_GETCALENDARCOUNT</a> message explicitly.
 
 
 ## -parameters

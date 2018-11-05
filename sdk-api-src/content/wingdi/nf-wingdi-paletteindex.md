@@ -7,7 +7,7 @@ old-location: gdi\paletteindex.htm
 tech.root: gdi
 ms.assetid: 76d859fa-11a5-451f-9d7a-9cf0740eca36
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX, gdi.paletteindex, wingdi/PALETTEINDEX
 ms.prod: windows-hardware
 ms.technology: windows-devices

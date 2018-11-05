@@ -7,7 +7,7 @@ old-location: display\gdiinfo.htm
 tech.root: display
 ms.assetid: f75f599f-43ea-4da6-a6e3-6591cf6d69f1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO, PGDIINFO structure pointer [Display Devices], _GDIINFO, display.gdiinfo, grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml, winddi/GDIINFO, winddi/PGDIINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The GDIINFO structure describes the graphics capabilities of a given device.
 
 Specifies the driver version number. The byte ordering of <b>ulVersion</b> has the following form.
 
-<img alt="Figure showing the ulVersion member specifying the driver version number" src="./images/ver_nmbr.png"/>
+<img alt="Figure showing the ulVersion member specifying the driver version number" src="images/ver_nmbr.png"/>
 
 The high-order 16 bits must be set to zero. Bits 8 through 15 specify the version number of the Microsoft operating system for which the driver is designed. The high-order 4 bits of this range specify the major number of the version, the low-order 4 bits contain the minor number of the version. The low-order 8 bits of <b>ulVersion</b> specify the version number of the display driver; this value should be incremented for each release of the display driver binary file.
 
@@ -745,14 +745,18 @@ The dots in the predefined line style PS_DOT are each one unit long. If the driv
 
 Each of these three numbers must be less than 65536, even though the caps members are LONG values. These style steps are defined by the driver to ensure that the dots and dashes in a line are a pleasing size on the output device. The horizontal and vertical steps can be different to correct for nontrivial aspect ratios. For example, on an EGA display, whose pixels are 33 percent higher than they are wide, you can set:
 
-
-```
-pdevcaps->xStyleStep   =  3;    // For an EGA
-pdevcaps->yStyleStep   =  4;
-pdevcaps->denStyleStep = 12;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>pdevcaps-&gt;xStyleStep   =  3;    // For an EGA
+pdevcaps-&gt;yStyleStep   =  4;
+pdevcaps-&gt;denStyleStep = 12;</pre>
+</td>
+</tr>
+</table></span></div>
 In this case, horizontal dotted lines are 4-pixels-on, 4-pixels-off, because the style advances by 3/12 or 1/4 for each pixel. Vertical dotted lines are 3-pixels-on/3-pixels-off.
 
 Styled lines look better if both the x and y style steps divide evenly into the style denominator, as they do in the preceding example. This gives dashes and dots that are always the same length.

@@ -7,7 +7,7 @@ old-location: security\saslacceptsecuritycontext.htm
 tech.root: secauthn
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

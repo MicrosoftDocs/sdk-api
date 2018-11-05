@@ -7,7 +7,7 @@ old-location: controls\DSA_Sort.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_sort.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DSA_Sort, DSA_Sort function [Windows Controls], _shell_DSA_Sort, _shell_DSA_Sort_cpp, controls.DSA_Sort, controls._shell_DSA_Sort, dpa_dsa/DSA_Sort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A handle to an existing DSA.
 
 ### -param pfnCompare [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775707(v=VS.85).aspx">PFNDACOMPARE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/be3c1ebd-4e22-42a5-afea-bd1bb9a86ed1">PFNDACOMPARE</a></b>
 
 A comparison function pointer. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> for the comparison function prototype.
 

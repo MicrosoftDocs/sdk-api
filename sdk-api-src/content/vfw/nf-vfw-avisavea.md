@@ -7,7 +7,7 @@ old-location: multimedia\avisave.htm
 tech.root: Multimedia
 ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AVISave, AVISave function [Windows Multimedia], AVISaveA, AVISaveW, _win32_AVISave, multimedia.avisave, vfw/AVISave, vfw/AVISaveA, vfw/AVISaveW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,6 +95,13 @@ Pointer to an application-defined <a href="https://msdn.microsoft.com/8084adc3-7
 
 ### -param arg1
 
+TBD
+
+
+
+
+#### - arg7
+
 
 ## -returns
 
@@ -113,14 +120,18 @@ This function creates a file, copies stream data into the file, closes the file,
 
 A callback function (referenced by using <i>lpfnCallback</i>) can display status information and let the user cancel the save operation. The callback function uses the following format:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LONG PASCAL SaveCallback(int nPercent)  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>nPercent</i> parameter specifies the percentage of the file saved.
 
 The callback function should return AVIERR_OK if the operation should continue and AVIERR_USERABORT if the user wishes to abort the save operation.

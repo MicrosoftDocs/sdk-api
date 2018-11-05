@@ -4,10 +4,10 @@ title: ResUtilResourcesEqual function
 author: windows-sdk-content
 description: Tests whether two resource handles represent the same resource. The PRESUTIL_RESOURCES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcesequal.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a34bbe15-f13f-4034-b2f1-fea3e58c579e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PRESUTIL_RESOURCES_EQUAL, PRESUTIL_RESOURCES_EQUAL function [Failover Cluster], ResUtilResourcesEqual, ResUtilResourcesEqual function [Failover Cluster], _wolf_resutilresourcesequal, mscs.resutilresourcesequal, resapi/PRESUTIL_RESOURCES_EQUAL, resapi/ResUtilResourcesEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

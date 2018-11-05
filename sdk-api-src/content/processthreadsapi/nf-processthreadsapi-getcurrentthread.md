@@ -7,7 +7,7 @@ old-location: base\getcurrentthread.htm
 tech.root: procthread
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetCurrentThread, GetCurrentThread function, _win32_getcurrentthread, base.getcurrentthread, processthreadsapi/GetCurrentThread, winbase/GetCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ Do not create a thread while impersonating a security context. The call will suc
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/library/Aa379648(v=VS.85).aspx">Checking Client Access</a>.
+<a href="security.checking_client_access">Checking Client Access</a>.
 
 <div class="code"></div>
 

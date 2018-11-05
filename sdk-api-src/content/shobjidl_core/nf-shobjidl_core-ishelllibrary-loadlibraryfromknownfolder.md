@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_LoadLibraryFromKnownFolder.htm
 tech.root: shell
 ms.assetid: 3fc1147e-6338-4fec-b20d-db5eb1303fe1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromKnownFolder method, IShellLibrary.LoadLibraryFromKnownFolder, IShellLibrary::LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder method [Windows Shell], LoadLibraryFromKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromKnownFolder, shell.IShellLibrary_LoadLibraryFromKnownFolder, shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ If there is no existing <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-9
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/9486252b-9aaf-4daf-b307-5a5adddfaa99">SHLoadLibraryFromKnownFolder</a>, which wraps this method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // from shobjidl.h
 //
 __inline HRESULT SHLoadLibraryFromKnownFolder(
@@ -113,20 +117,20 @@ __inline HRESULT SHLoadLibraryFromKnownFolder(
         CLSID_ShellLibrary,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&plib));
+        IID_PPV_ARGS(&amp;plib));
     if (SUCCEEDED(hr))
     {
-        hr = plib->LoadLibraryFromKnownFolder(kfidLibrary, grfMode);
+        hr = plib-&gt;LoadLibraryFromKnownFolder(kfidLibrary, grfMode);
         if (SUCCEEDED(hr))
         {
-            hr = plib->QueryInterface(riid, ppv);
+            hr = plib-&gt;QueryInterface(riid, ppv);
         }
-        plib->Release();
+        plib-&gt;Release();
     }
-    return hr;}
-```
-
-
+    return hr;}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

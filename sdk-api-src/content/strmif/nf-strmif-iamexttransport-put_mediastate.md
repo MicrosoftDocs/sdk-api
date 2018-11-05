@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_mediastate.htm
 tech.root: DirectShow
 ms.assetid: e5a4638e-3246-44dd-a7f8-52d0da12fc9c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_MediaState method, IAMExtTransport.put_MediaState, IAMExtTransport::put_MediaState, IAMExtTransportput_MediaState, dshow.iamexttransport_put_mediastate, put_MediaState, put_MediaState method [DirectShow], put_MediaState method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_MediaState
 ms.prod: windows-hardware
 ms.technology: windows-devices

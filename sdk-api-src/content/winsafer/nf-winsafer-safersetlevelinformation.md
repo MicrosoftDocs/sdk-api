@@ -7,7 +7,7 @@ old-location: security\safersetlevelinformation.htm
 tech.root: secmgmt
 ms.assetid: 8DB13F94-1736-4C05-B072-BFBFC076A726
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferSetLevelInformation, SaferSetLevelInformation function [Security], security.safersetlevelinformation, winsafer/SaferSetLevelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

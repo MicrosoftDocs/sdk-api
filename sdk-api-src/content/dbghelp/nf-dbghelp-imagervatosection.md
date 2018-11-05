@@ -7,7 +7,7 @@ old-location: base\imagervatosection.htm
 tech.root: debug
 ms.assetid: a11df748-242b-4dd8-bf57-7ac02548b701
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 11/02/2018
 ms.keywords: ImageRvaToSection, ImageRvaToSection function, _win32_imagervatosection, base.imagervatosection, dbghelp/ImageRvaToSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

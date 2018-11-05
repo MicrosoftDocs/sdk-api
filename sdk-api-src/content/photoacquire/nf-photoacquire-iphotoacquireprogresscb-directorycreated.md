@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_directorycreated.htm
 tech.root: acquisition
 ms.assetid: c784750c-3f73-4ebb-ad38-cc05aada0fca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectoryCreated, DirectoryCreated method [Picture Acquisition], DirectoryCreated method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],DirectoryCreated method, IPhotoAcquireProgressCB.DirectoryCreated, IPhotoAcquireProgressCB::DirectoryCreated, IPhotoAcquireProgressCBDirectoryCreated, photoacquire/IPhotoAcquireProgressCB::DirectoryCreated, picacq.iphotoacquireprogresscb_directorycreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

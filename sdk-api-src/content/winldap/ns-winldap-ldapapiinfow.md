@@ -7,7 +7,7 @@ old-location: ldap\ldapapiinfo.htm
 tech.root: ldap
 ms.assetid: 9175224c-82f0-4f22-9975-b1d7a332c3df
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LDAPAPIInfo, LDAPAPIInfo structure [LDAP], LDAPAPIInfoA, LDAPAPIInfoW, ldap.ldapapiinfo, ldapapiinfoW, winldap/LDAPAPIInfo, winldap/LDAPAPIInfoA, winldap/LDAPAPIInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_GetTypeLabel.htm
 tech.root: shell
 ms.assetid: b1a30aad-bd8e-4375-a914-3010b86d83d9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrHandlerInfo.GetTypeLabel, ISyncMgrHandlerInfo::GetTypeLabel, _shell_ISyncMgrHandlerInfo_GetTypeLabel, shell.ISyncMgrHandlerInfo_GetTypeLabel, syncmgr/ISyncMgrHandlerInfo::GetTypeLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,15 +91,19 @@ The handler is responsible for allocating the string buffer pointed to by <i>pps
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
 {
     LPWSTR pszTypeLabel = NULL;
 
     HRESULT hr = LoadStringAlloc(g_hmodThisDll, 
                                  IDS_HANDLER_TYPE_LABEL,
-                                 &pszTypeLabel);
+                                 &amp;pszTypeLabel);
     if (SUCCEEDED(hr))
     {
         // Duplicate for the caller.
@@ -109,9 +113,9 @@ STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

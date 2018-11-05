@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxSetScrollPos.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollpos.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollPos method, ITextHost.TxSetScrollPos, ITextHost::TxSetScrollPos, TxSetScrollPos, TxSetScrollPos method [Windows Controls], TxSetScrollPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollPos, _win32_ITextHost_TxSetScrollPos_cpp, controls.ITextHost_TxSetScrollPos, controls._win32_ITextHost_TxSetScrollPos, textserv/ITextHost::TxSetScrollPos
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ Scroll bar flag. If this is SB_HORZ, horizontal scrolling is done. By default, v
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
-New position in scroll box. This must be within the range of scroll bar values set by <a href="https://msdn.microsoft.com/en-us/library/Bb787684(v=VS.85).aspx">ITextHost::TxSetScrollRange</a>. 
+New position in scroll box. This must be within the range of scroll bar values set by <a href="https://msdn.microsoft.com/4df610f4-9fca-4516-93ff-fd91cd18be45">ITextHost::TxSetScrollRange</a>. 
 
 
 ### -param fRedraw [in]
@@ -110,7 +110,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -118,11 +118,11 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787684(v=VS.85).aspx">TxSetScrollRange</a>
+<a href="https://msdn.microsoft.com/4df610f4-9fca-4516-93ff-fd91cd18be45">TxSetScrollRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

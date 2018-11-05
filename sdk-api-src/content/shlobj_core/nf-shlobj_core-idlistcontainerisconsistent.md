@@ -7,7 +7,7 @@ old-location: shell\IDListContainerIsConsistent.htm
 tech.root: shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

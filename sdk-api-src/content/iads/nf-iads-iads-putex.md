@@ -104,9 +104,13 @@ Similarly, if you use <b>PutEx</b> to delete one or more values from a multi-val
 
 The following code example shows how to use the <b>IADs.PutEx</b> method.
 
-
-```vb
-Dim x As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As IADs
 
 On Error GoTo Cleanup
 
@@ -132,69 +136,73 @@ x.PutEx ADS_PROPERTY_CLEAR, "otherHomePhone",  vbNullString
 x.SetInfo              ' Now the property has no value.
 
 Cleanup:
-    If(Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If(Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set x = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to use the <b>IADs::PutEx</b> method.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IADs *pADs=NULL;
 LPWSTR pszADsPath = L"LDAP://CN=JeffSmith,CN=Users,DC=Fabrikam,DC=com";
  
 CoInitialize(NULL);
  
-hr = ADsGetObject(pszADsPath, IID_IADs, (void**) &pADs);
+hr = ADsGetObject(pszADsPath, IID_IADs, (void**) &amp;pADs);
 
 if(SUCCEEDED(hr)) 
 {
     VARIANT var;
-    VariantInit(&var);
+    VariantInit(&amp;var);
      
     LPWSTR pszPhones[] = { L"425-707-9790", L"425-707-9791" };
     DWORD dwNumber = sizeof(pszPhones)/sizeof(LPWSTR);
-    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &var);
-    hr = pADs->Put(CComBSTR("otherHomePhone"), var); 
-    VariantClear(&var);
-    hr = pADs->SetInfo();   // The phone list is now 425-707-9790, 425-707-9791.
+    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &amp;var);
+    hr = pADs-&gt;Put(CComBSTR("otherHomePhone"), var); 
+    VariantClear(&amp;var);
+    hr = pADs-&gt;SetInfo();   // The phone list is now 425-707-9790, 425-707-9791.
      
     // Append another number to the list.
     LPWSTR pszAddPhones[]={L"425-707-9792"};
-    hr = ADsBuildVarArrayStr(pszAddPhones, 1, &var);
-    hr = pADs->PutEx(ADS_PROPERTY_APPEND, CComBSTR("otherHomePhone"), var);
-    hr = pADs->SetInfo();   // The list becomes 
+    hr = ADsBuildVarArrayStr(pszAddPhones, 1, &amp;var);
+    hr = pADs-&gt;PutEx(ADS_PROPERTY_APPEND, CComBSTR("otherHomePhone"), var);
+    hr = pADs-&gt;SetInfo();   // The list becomes 
                             // 425-707-9790, 425-707-9791, 425-707-9792.
-    VariantClear(&var);
+    VariantClear(&amp;var);
      
-    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &var);
-    hr = pADs->PutEx(ADS_PROPERTY_DELETE, CComBSTR("otherHomePhone"), var);
-    hr = pADs->SetInfo();  // The list becomes 425-707-9792.
+    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &amp;var);
+    hr = pADs-&gt;PutEx(ADS_PROPERTY_DELETE, CComBSTR("otherHomePhone"), var);
+    hr = pADs-&gt;SetInfo();  // The list becomes 425-707-9792.
      
     pszPhones[0] = L"425-707-9793";
     pszPhones[1] = L"425-707-9794";
-    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &var);
-    hr = pADs->PutEx(ADS_PROPERTY_UPDATE, CComBSTR("otherHomePhone"), var);
-    hr = pADs->SetInfo();  // The list becomes 425-707-9793, 425-707-9794.
+    hr = ADsBuildVarArrayStr(pszPhones, dwNumber, &amp;var);
+    hr = pADs-&gt;PutEx(ADS_PROPERTY_UPDATE, CComBSTR("otherHomePhone"), var);
+    hr = pADs-&gt;SetInfo();  // The list becomes 425-707-9793, 425-707-9794.
      
-    VariantClear(&var);
-    V_VT(&var)=VT_NULL;
-    hr = pADs->PutEx(ADS_PROPERTY_CLEAR, CComBSTR("otherHomePhone"), var);
-    hr = pADs->SetInfo();  // The list is empty.
+    VariantClear(&amp;var);
+    V_VT(&amp;var)=VT_NULL;
+    hr = pADs-&gt;PutEx(ADS_PROPERTY_CLEAR, CComBSTR("otherHomePhone"), var);
+    hr = pADs-&gt;SetInfo();  // The list is empty.
 
-    VariantClear(&var);
-    pADs->Release();
+    VariantClear(&amp;var);
+    pADs-&gt;Release();
 }
 
-hr = CoUninitialize();
-```
-
-
+hr = CoUninitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

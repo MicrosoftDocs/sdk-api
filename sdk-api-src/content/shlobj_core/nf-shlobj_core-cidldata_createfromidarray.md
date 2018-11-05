@@ -7,7 +7,7 @@ old-location: shell\CIDLData_CreateFromIDArray.htm
 tech.root: shell
 ms.assetid: 4949c701-a375-450a-89a3-3fd146557d11
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CIDLData_CreateFromIDArray, CIDLData_CreateFromIDArray function [Windows Shell], _shell_CIDLData_CreateFromIDArray, shell.CIDLData_CreateFromIDArray, shlobj_core/CIDLData_CreateFromIDArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

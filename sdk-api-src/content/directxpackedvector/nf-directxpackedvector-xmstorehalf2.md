@@ -7,7 +7,7 @@ old-location: dxmath\xmstorehalf2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreHalf2(XMHALF2@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectX::PackedVector.XMStoreHalf2, XMStoreHalf2, XMStoreHalf2 method [DirectX Math Support APIs], dxmath.xmstorehalf2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a>.
 
 
 ## -parameters
@@ -85,13 +85,17 @@ This function takes a vector, converts the two most significant components into 
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-pDestination->x = XMConvertFloatToHalf(V.x); // 2 bytes to address pDestination
-pDestination->y = XMConvertFloatToHalf(V.y); // 2 bytes to address (uint8_t*)pDestination + 2
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>pDestination-&gt;x = XMConvertFloatToHalf(V.x); // 2 bytes to address pDestination
+pDestination-&gt;y = XMConvertFloatToHalf(V.y); // 2 bytes to address (uint8_t*)pDestination + 2</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

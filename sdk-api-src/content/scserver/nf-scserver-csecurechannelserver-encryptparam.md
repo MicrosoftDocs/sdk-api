@@ -121,9 +121,13 @@ Certain parameters, listed in the tables under <a href="https://msdn.microsoft.c
 
 The following code demonstrates a service provider's implementation of <a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT CMyStorage::Read(
     BYTE  *pData,
     DWORD *pdwSize,
@@ -137,7 +141,7 @@ HRESULT CMyStorage::Read(
 
     // Use a global CSecureChannelServer member to verify that the client 
     // is authenticated.
-    if (!(g_pAppSCServer->fIsAuthenticated()))
+    if (!(g_pAppSCServer-&gt;fIsAuthenticated()))
     {
         return WMDM_E_NOTCERTIFIED;
     }
@@ -156,7 +160,7 @@ HRESULT CMyStorage::Read(
         return E_OUTOFMEMORY;
 
     // Read data into the temporary buffer.
-    if(ReadFile(m_hFile,(LPVOID)pTmpData,dwToRead,&dwRead,NULL)) 
+    if(ReadFile(m_hFile,(LPVOID)pTmpData,dwToRead,&amp;dwRead,NULL)) 
     { 
         *pdwSize = dwRead; 
 
@@ -167,13 +171,13 @@ HRESULT CMyStorage::Read(
             // MAC consists of data and size of data.
             HMAC hMAC;
             
-            CORg(g_pAppSCServer->MACInit(&hMAC));
-            CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead));
-            CORg(g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD)));
-            CORg(g_pAppSCServer->MACFinal(hMAC, abMac));
+            CORg(g_pAppSCServer-&gt;MACInit(&amp;hMAC));
+            CORg(g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead));
+            CORg(g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD)));
+            CORg(g_pAppSCServer-&gt;MACFinal(hMAC, abMac));
             
             // Encrypt the data.
-            CORg(g_pAppSCServer->EncryptParam(pTmpData, dwRead));
+            CORg(g_pAppSCServer-&gt;EncryptParam(pTmpData, dwRead));
             
             // Copy the data from the temporary buffer into the out param.
             memcpy(pData, pTmpData, dwRead);
@@ -197,10 +201,10 @@ Error:
 
     return hr;
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

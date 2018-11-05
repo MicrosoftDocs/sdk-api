@@ -4,10 +4,10 @@ title: SetProcessValidCallTargets function
 author: windows-sdk-content
 description: Provides CFG with a list of valid indirect call targets and specifies whether they should be marked valid or not.
 old-location: base\setprocessvalidcalltargets.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

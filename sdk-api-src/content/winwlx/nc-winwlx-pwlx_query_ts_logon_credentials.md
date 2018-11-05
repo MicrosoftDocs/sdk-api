@@ -7,7 +7,7 @@ old-location: security\wlxquerytslogoncredentials.htm
 tech.root: secauthn
 ms.assetid: 1365b798-682e-4cdb-b8f5-9e7c65366154
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PWLX_QUERY_TS_LOGON_CREDENTIALS, PWLX_QUERY_TS_LOGON_CREDENTIALS callback, WlxQueryTsLogonCredentials, WlxQueryTsLogonCredentials callback function [Security], security.wlxquerytslogoncredentials, winwlx/WlxQueryTsLogonCredentials
 ms.prod: windows
 ms.technology: windows-sdk

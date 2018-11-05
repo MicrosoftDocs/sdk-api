@@ -7,7 +7,7 @@ old-location: automat\olesavepicturefile.htm
 tech.root: automat
 ms.assetid: ac46d390-9e08-4f79-a621-60ea75f4acff
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96_OleSavePictureFile, automat.olesavepicturefile, olectl/OleSavePictureFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

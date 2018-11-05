@@ -7,7 +7,7 @@ old-location: rpc\rpcssenableallocate.htm
 tech.root: rpc
 ms.assetid: 18060ed2-2250-47c7-8579-238edea44c66
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcSsEnableAllocate, RpcSsEnableAllocate function [RPC], _rpc_rpcssenableallocate, rpc.rpcssenableallocate, rpcndr/RpcSsEnableAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

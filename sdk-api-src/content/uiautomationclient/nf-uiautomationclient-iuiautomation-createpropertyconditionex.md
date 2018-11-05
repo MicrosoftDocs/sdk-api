@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CreatePropertyConditionEx.htm
 tech.root: WinAuto
 ms.assetid: dc7ad9e8-b315-40b1-af02-997a38c4ee66
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreatePropertyConditionEx, CreatePropertyConditionEx method [Windows Accessibility], CreatePropertyConditionEx method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreatePropertyConditionEx method, IUIAutomation.CreatePropertyConditionEx, IUIAutomation::CreatePropertyConditionEx, uiauto.uiauto_IUIAutomation_CreatePropertyConditionEx, uiauto_IUIAutomation_CreatePropertyConditionEx, uiautomationclient/IUIAutomation::CreatePropertyConditionEx, winauto.uiauto_IUIAutomation_CreatePropertyConditionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,11 +72,9 @@ Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe
 The property value.
 
 
-### -param arg1 [in]
+### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags</a></b>
-
-The attributes of the condition. Use <a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags_IgnoreCase</a> to create a property condition that is not case-sensitive
+TBD
 
 
 ### -param newCondition [out, retval]
@@ -84,6 +82,13 @@ The attributes of the condition. Use <a href="https://msdn.microsoft.com/debe814
 Type: <b><a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>**</b>
 
 Receives a pointer to the new condition.
+
+
+#### - arg3 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags</a></b>
+
+The attributes of the condition. Use <a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags_IgnoreCase</a> to create a property condition that is not case-sensitive
 
 
 ## -returns

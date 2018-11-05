@@ -7,7 +7,7 @@ old-location: wcs\getcolorprofilefromhandle.htm
 tech.root: WCS
 ms.assetid: ff51c6d5-4db2-4b64-a4e3-34a9e502f456
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetColorProfileFromHandle, GetColorProfileFromHandle function [Windows Color System], _color_GetColorProfileFromHandle, icm/GetColorProfileFromHandle, wcs.getcolorprofilefromhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

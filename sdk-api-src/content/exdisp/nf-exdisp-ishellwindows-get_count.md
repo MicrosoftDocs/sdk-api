@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_get_Count.htm
 tech.root: shell
 ms.assetid: 50781569-4c80-4304-96f3-8a135cea3b20
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IShellWindows interface [Windows Shell],get_Count method, IShellWindows.get_Count, IShellWindows::get_Count, _win32_IShellWindows_get_Count, exdisp/IShellWindows::get_Count, get_Count, get_Count method [Windows Shell], get_Count method [Windows Shell],IShellWindows interface, shell.IShellWindows_get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextrow_setkeeptogether.htm
 tech.root: controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepTogether method, ITextRow.SetKeepTogether, ITextRow::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextRow interface, controls.itextrow_setkeeptogether, tom/ITextRow::SetKeepTogether
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Sets whether this row is allowed to be broken across pages.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row can be broken across pages.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row can be broken across pages.
 
 
 ## -returns

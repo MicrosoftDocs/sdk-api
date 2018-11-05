@@ -1,0 +1,157 @@
+---
+UID: NN:dwrite_2.IDWriteTextFormat1
+title: IDWriteTextFormat1
+author: windows-sdk-content
+description: Describes the font and paragraph properties used to format text, and it describes locale information.
+old-location: directwrite\idwritetextformat1.htm
+tech.root: DirectWrite
+ms.assetid: 15295A17-E542-4071-AE38-02014A1235D5
+ms.author: windowssdkdev
+ms.date: 11/02/2018
+ms.keywords: IDWriteTextFormat1, IDWriteTextFormat1 interface [Direct Write], IDWriteTextFormat1 interface [Direct Write],described, directwrite.idwritetextformat1, dwrite_2/IDWriteTextFormat1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dwrite_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat1
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IDWriteTextFormat1 interface
+
+
+## -description
+
+
+Describes the font and paragraph properties used to format text, and it describes locale information.
+        This interface has all the same methods as <a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a> and  adds the ability for you to apply an explicit orientation.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat1</b> interface inherits from <a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>. <b>IDWriteTextFormat1</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IDWriteTextFormat1</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/D34A49A0-CE37-43B9-B7CC-6A70D76BA369">GetFontFallback</a>
+</td>
+<td align="left" width="63%">
+Gets the current fallback. If none was ever set since creating the layout, it will be nullptr.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1a176dca-7fe5-baa5-3052-3fa71bc77d24">GetLastLineWrapping</a>
+</td>
+<td align="left" width="63%">
+Gets the wrapping mode of the last line.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/13d685ef-b8ba-730e-ad82-193a8a2d2cb8">GetOpticalAlignment</a>
+</td>
+<td align="left" width="63%">
+Gets the optical margin alignment for the text format.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/0ceebd85-0d57-fd38-a847-0048c2d82b22">GetVerticalGlyphOrientation</a>
+</td>
+<td align="left" width="63%">
+Get the preferred orientation of glyphs when using a vertical reading direction.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/56B577C0-2B18-409E-ADEC-0B93355586A0">SetFontFallback</a>
+</td>
+<td align="left" width="63%">
+Applies the custom font fallback onto the layout. If none is set, it uses the default system fallback list.
+        
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/2A842924-B925-4F16-A1A0-997142233AA9">SetLastLineWrapping</a>
+</td>
+<td align="left" width="63%">
+Sets the wrapping mode of the last line.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/FA050DAC-2788-4159-B299-D4B6100D85F4">SetOpticalAlignment</a>
+</td>
+<td align="left" width="63%">
+Sets the optical margin alignment for the text format.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9B4AC423-368D-429F-BC0F-BDC2F0279C61">SetVerticalGlyphOrientation</a>
+</td>
+<td align="left" width="63%">
+Sets the orientation of a text format.
+
+</td>
+</tr>
+</table> 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+ 
+
+ 
+

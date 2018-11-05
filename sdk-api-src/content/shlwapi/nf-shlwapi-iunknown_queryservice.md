@@ -7,7 +7,7 @@ old-location: shell\IUnknown_QueryService.htm
 tech.root: shell
 ms.assetid: 3e3f3ed0-ad36-40ef-b30c-8c85ff159f21
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shell], _shell_IUnknown_QueryService, shell.IUnknown_QueryService, shlwapi/IUnknown_QueryService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ When this method returns, contains the interface pointer requested <i>riid</i>. 
 
 Type: <b>HRESULT</b>
 
-Returns <b>S_OK</b> if successful. Returns <b>E_FAIL</b> if the object does not support <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>. Otherwise, the function returns the <b>HRESULT</b> returned by the object's <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> method.
+Returns <b>S_OK</b> if successful. Returns <b>E_FAIL</b> if the object does not support <a href="_inet_IServiceProvider_Interface">IServiceProvider</a>. Otherwise, the function returns the <b>HRESULT</b> returned by the object's <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> method.
 
 
 
@@ -106,7 +106,7 @@ Returns <b>S_OK</b> if successful. Returns <b>E_FAIL</b> if the object does not 
 
 
 
-If the object passed in the <i>punk</i> parameter supports the <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface, then its <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> method is invoked, passing the <i>guidService</i>, <i>riid</i>, and <i>ppvOut</i> parameters and propagating the return value. Otherwise, the function returns E_FAIL.
+If the object passed in the <i>punk</i> parameter supports the <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> interface, then its <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> method is invoked, passing the <i>guidService</i>, <i>riid</i>, and <i>ppvOut</i> parameters and propagating the return value. Otherwise, the function returns E_FAIL.
 
 For those versions of Windows that do not include <b>IUnknown_QueryService</b> in Shlwapi.h, this function must be called directly from Shlwapi.dll using ordinal 176.
 
@@ -118,11 +118,11 @@ For those versions of Windows that do not include <b>IUnknown_QueryService</b> i
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
+<a href="_inet_IServiceProvider_Interface">IServiceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a>
+<a href="_inet_IServiceProvider_QueryService_Method">QueryService</a>
  
 
  

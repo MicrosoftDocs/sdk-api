@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_channelminmax.htm
 tech.root: DirectShow
 ms.assetid: f46bf0ff-cdb3-41b1-829e-4e1b348bd808
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ChannelMinMax, ChannelMinMax method [DirectShow], ChannelMinMax method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],ChannelMinMax method, IAMTuner.ChannelMinMax, IAMTuner::ChannelMinMax, IAMTunerChannelMinMax, dshow.iamtuner_channelminmax, strmif/IAMTuner::ChannelMinMax
 ms.prod: windows-hardware
 ms.technology: windows-devices

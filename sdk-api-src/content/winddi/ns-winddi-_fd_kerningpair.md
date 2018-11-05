@@ -7,7 +7,7 @@ old-location: display\fd_kerningpair.htm
 tech.root: display
 ms.assetid: 5c5eced6-a0a3-448e-bcb3-57be1b703797
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FD_KERNINGPAIR, FD_KERNINGPAIR structure [Display Devices], _FD_KERNINGPAIR, display.fd_kerningpair, grstrcts_5e6126d0-b3c2-4964-ab7a-f3ec90162b7e.xml, winddi/FD_KERNINGPAIR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,12 +79,16 @@ Specifies the kerning value, in font (notional) units, for the kerning pair. If 
 
 An array of FD_KERNINGPAIR structures must be null-terminated, which means the last FD_KERNINGPAIR structure in the array has all structure members set to zero. An array of FD_KERNINGPAIR structures must be sorted in increasing order according to an unsigned 32-bit key, calculated as follows:
 
-
-```
-    wcFirst + 65536 * wcSecond.
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    wcFirst + 65536 * wcSecond.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

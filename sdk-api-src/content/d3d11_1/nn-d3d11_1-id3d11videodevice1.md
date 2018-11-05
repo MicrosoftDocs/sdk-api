@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1.htm
 tech.root: medfound
 ms.assetid: 10E68945-6103-491D-8846-3B7C880FEAFD
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ID3D11VideoDevice1, ID3D11VideoDevice1 interface [Media Foundation], ID3D11VideoDevice1 interface [Media Foundation],described, d3d11_1/ID3D11VideoDevice1, mf.id3d11videodevice1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,9 +55,9 @@ Provides the video decoding and video processing capabilities of a Microsoft Dir
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDevice1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Hh447781(v=VS.85).aspx">ID3D11VideoDevice</a>. <b>ID3D11VideoDevice1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDevice1</b> interface inherits from <a href="https://msdn.microsoft.com/420DE3C4-15A9-4EEB-A1FD-6350DE109CFF">ID3D11VideoDevice</a>. <b>ID3D11VideoDevice1</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D11VideoDevice1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn894142(v=VS.85).aspx">CheckVideoDecoderDownsampling</a>
+<a href="https://msdn.microsoft.com/EB05C2F7-AC7A-42BD-A661-5101641A920C">CheckVideoDecoderDownsampling</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the video decoder supports downsampling with the specified input format, and whether real-time downsampling is supported.
@@ -79,7 +79,7 @@ Indicates whether the video decoder supports downsampling with the specified inp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn894143(v=VS.85).aspx">GetCryptoSessionPrivateDataSize</a>
+<a href="https://msdn.microsoft.com/3F973DA0-F722-4EC2-A578-F01B6999F16B">GetCryptoSessionPrivateDataSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves optional sizes for private driver data. 
@@ -88,7 +88,7 @@ Retrieves optional sizes for private driver data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn894144(v=VS.85).aspx">GetVideoDecoderCaps</a>
+<a href="https://msdn.microsoft.com/9F978BE5-568E-440C-B9B2-0972893FD970">GetVideoDecoderCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves capabilities and limitations of the video decoder.
@@ -97,7 +97,7 @@ Retrieves capabilities and limitations of the video decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn894145(v=VS.85).aspx">RecommendVideoDecoderDownsampleParameters</a>
+<a href="https://msdn.microsoft.com/DD1C1273-C069-4C46-933F-3450F9DDAFBD">RecommendVideoDecoderDownsampleParameters</a>
 </td>
 <td align="left" width="63%">
 Allows the driver to recommend optimal output downsample parameters from the input parameters.
@@ -111,7 +111,7 @@ Allows the driver to recommend optimal output downsample parameters from the inp
 
 
 
-The Direct3D 11 device supports this interface. To get a pointer to this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> with an <a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a> interface pointer.
+The Direct3D 11 device supports this interface. To get a pointer to this interface, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> with an <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interface pointer.
 
 
 
@@ -121,15 +121,15 @@ The Direct3D 11 device supports this interface. To get a pointer to this interf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447679(v=VS.85).aspx">Direct3D 11 Video Interfaces</a>
+<a href="https://msdn.microsoft.com/2AE97FFE-0FA4-4CC0-8433-7BA46BCACE30">Direct3D 11 Video Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447781(v=VS.85).aspx">ID3D11VideoDevice</a>
+<a href="https://msdn.microsoft.com/420DE3C4-15A9-4EEB-A1FD-6350DE109CFF">ID3D11VideoDevice</a>
  
 
  

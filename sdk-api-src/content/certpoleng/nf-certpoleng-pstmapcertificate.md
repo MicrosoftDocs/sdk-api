@@ -7,7 +7,7 @@ old-location: security\pstmapcertificate.htm
 tech.root: secauthn
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Retrieves a structure that specifies information that can be used to create a us
 
 ### -param pCert [in]
 
-A constant pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain token information.
+A constant pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain token information.
 
 
 ### -param pTokenInformationType [out]
 
-A pointer to a value of the <a href="https://msdn.microsoft.com/en-us/library/Aa378614(v=VS.85).aspx">LSA_TOKEN_INFORMATION_TYPE</a> enumeration that indicates the type of structure pointed to by the <i>ppTokenInformation</i> parameter.
+A pointer to a value of the <a href="https://msdn.microsoft.com/c8bf5b8d-6cb1-469d-a451-6cceafda24cf">LSA_TOKEN_INFORMATION_TYPE</a> enumeration that indicates the type of structure pointed to by the <i>ppTokenInformation</i> parameter.
 
 
 ### -param ppTokenInformation [out]

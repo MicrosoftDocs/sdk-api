@@ -7,7 +7,7 @@ old-location: wcs\cmgetnamedprofileinfo.htm
 tech.root: WCS
 ms.assetid: 9791d32f-b343-4da7-add3-ed7bcecfd010
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CMGetNamedProfileInfo, CMGetNamedProfileInfo function [Windows Color System], _color_CMGetNamedProfileInfo, icm/CMGetNamedProfileInfo, wcs.cmgetnamedprofileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

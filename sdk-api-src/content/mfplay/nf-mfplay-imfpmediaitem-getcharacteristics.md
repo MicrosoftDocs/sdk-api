@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getcharacteristics.htm
 tech.root: medfound
 ms.assetid: 9fe65644-c7a0-4af5-9765-f933215f5f83
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetCharacteristics method, IMFPMediaItem.GetCharacteristics, IMFPMediaItem::GetCharacteristics, mf.imfpmediaitem_getcharacteristics, mfplay/IMFPMediaItem::GetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices

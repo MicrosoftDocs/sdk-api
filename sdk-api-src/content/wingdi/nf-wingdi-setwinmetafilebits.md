@@ -7,7 +7,7 @@ old-location: gdi\setwinmetafilebits.htm
 tech.root: gdi
 ms.assetid: b7170c8a-da5f-4946-9c56-da3cffc84567
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetWinMetaFileBits, SetWinMetaFileBits function [Windows GDI], _win32_SetWinMetaFileBits, gdi.setwinmetafilebits, wingdi/SetWinMetaFileBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ A handle to a reference device context.
 
 ### -param lpMFP [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a> structure that contains the suggested size of the metafile picture and the mapping mode that was used when the picture was created.
+A pointer to a <a href="_win32_METAFILEPICT_str_cpp">METAFILEPICT</a> structure that contains the suggested size of the metafile picture and the mapping mode that was used when the picture was created.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-Windows uses the reference device context's resolution data and the data in the <a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a> structure to scale a picture. If the <i>hdcRef</i> parameter is <b>NULL</b>, the system uses resolution data for the current output device. If the <i>lpmfp</i> parameter is <b>NULL</b>, the system uses the MM_ANISOTROPIC mapping mode to scale the picture so that it fits the entire device surface. The <b>hMF</b> member of the <b>METAFILEPICT</b> structure is not used.
+Windows uses the reference device context's resolution data and the data in the <a href="_win32_METAFILEPICT_str_cpp">METAFILEPICT</a> structure to scale a picture. If the <i>hdcRef</i> parameter is <b>NULL</b>, the system uses resolution data for the current output device. If the <i>lpmfp</i> parameter is <b>NULL</b>, the system uses the MM_ANISOTROPIC mapping mode to scale the picture so that it fits the entire device surface. The <b>hMF</b> member of the <b>METAFILEPICT</b> structure is not used.
 
 When the application no longer needs the enhanced metafile handle, it should delete it by calling the <a href="https://msdn.microsoft.com/d3b93b3b-fa0b-4480-8348-19919c9e904d">DeleteEnhMetaFile</a> function.
 
@@ -123,7 +123,7 @@ If the reference device context is not identical to the device in which the meta
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a>
+<a href="_win32_METAFILEPICT_str_cpp">METAFILEPICT</a>
 
 
 

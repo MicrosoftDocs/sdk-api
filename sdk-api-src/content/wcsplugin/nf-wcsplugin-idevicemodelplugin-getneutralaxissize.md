@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_GetNeutralAxisSize.htm
 tech.root: WCS
 ms.assetid: a4b16003-b193-48b8-9dee-9ffb39f9159d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetNeutralAxisSize, GetNeutralAxisSize method [Windows Color System], GetNeutralAxisSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNeutralAxisSize method, IDeviceModelPlugIn.GetNeutralAxisSize, IDeviceModelPlugIn::GetNeutralAxisSize, _color_IDeviceModelPlugIn::GetNeutralAxisSize, wcs.IDeviceModelPlugIn_GetNeutralAxisSize, wcsplugin/IDeviceModelPlugIn::GetNeutralAxisSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd372135(v=VS.85).aspx">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
+The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="access.IDeviceModelPlugIn::GetNeutralAxis">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::Get
 
 ### -param pcColors [out]
 
-The number of points that will be returned by a call to <a href="https://msdn.microsoft.com/en-us/library/Dd372135(v=VS.85).aspx">GetNeutralAxis</a>. Minimum is 2 (black and white).
+The number of points that will be returned by a call to <a href="access.IDeviceModelPlugIn::GetNeutralAxis">GetNeutralAxis</a>. Minimum is 2 (black and white).
 
 
 ## -returns

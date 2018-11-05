@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMINT4.XMINT4(int32_t,int32_t,int32_t,int32_t)
 title: XMINT4 function
 author: windows-sdk-content
-description: Initializes a new instance of XMINT4 from four int32_t arguments.
-old-location: dxmath\xmint4_ctor_2.htm
+description: Constructors exposed by XMINT4.
+old-location: dxmath\xmint4_ctor.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.#ctor(int32_t,int32_t,int32_t,int32_t)
+ms.assetid: Overload:Microsoft.directx_sdk.reference.XMINT4.#ctor
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: XMINT4 constructor [DirectX Math Support APIs], XMINT4 constructor [DirectX Math Support APIs],XMINT4 structure, XMINT4 structure [DirectX Math Support APIs],XMINT4 constructor, XMINT4.XMINT4(int32_t,int32_t,int32_t,int32_t), dxmath.xmint4_ctor_2
+ms.date: 11/02/2018
+ms.keywords: XMINT4, XMINT4 Constructors, XMINT4 Constructors constructors [DirectX Math Support APIs], directxmath/XMINT4 Constructors, dxmath.xmint4_ctor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Use DirectX.
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,21 +33,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - HeaderDef
 api_location:
- - DirectXMath.h
+ - directxmath.h
 api_name:
- - XMINT4.XMINT4
+ - XMINT4
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMINT4
-: 
 ---
 
 # XMINT4 function
@@ -56,73 +50,63 @@ req.redist:
 ## -description
 
 
+<span>Constructors exposed by <code>XMINT4</code>.
+
+Constructs instances of the <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> structure.
+
+<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
+<div> </div></span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Constructor</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/daf7ab5b-3e06-4962-9224-0e03ba8ae6c5">XMINT4 (const int32_t*)</a>
+</td>
+<td align="left" width="63%">
+Initializes a new instance of <code>XMINT4</code> from a four element <code>int32_t</code> array
+	argument.
+
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> from a from
+	a four element <code>int32_t</code> array argument.
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.
+    </div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b7cc0739-ef06-474f-90cb-2a67c9d80232">XMINT4 (int32_t,int32_t,int32_t,int32_t)</a>
+</td>
+<td align="left" width="63%">
 Initializes a new instance of <code>XMINT4</code> from four <code>int32_t</code> arguments.
-    
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> from four
 	<code>int32_t</code> arguments.
+
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div><div> </div>
-
-## -parameters
-
-
-
-
-### -param _x
-
-Value of the x-coordinate of the vector, the <b>x</b> member of the new
-		    <code>XMINT4</code> instance.
-		
-
-
-### -param _y
-
-Value of the y-coordinate of the vector, the <b>y</b> member of the new
-		    <code>XMINT4</code> instance.
-		
-
-
-### -param _z
-
-Value of the z-coordinate of the vector, the <b>z</b> member of the new
-		    <code>XMINT4</code> instance.
-		
-
-
-### -param _w
-
-Value of the w-coordinate of the vector, the <b>w</b> member of the new
-		    <code>XMINT4</code> instance.
-		
-
-
-## -remarks
-
-
-
-The following pseudocode demonstrates the operation of this constructor:
-	
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-	XMINT4 instance;
-
-	instance.x = _x;
-	instance.y = _y;
-	instance.z = _z;
-	instance.w = _w;
-
-    </pre>
+    </div>
+<div> </div>
 </td>
 </tr>
-</table></span></div>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/e2d22736-e5af-48c6-943c-c45b6f599aa8">XMINT4 ()</a>
+</td>
+<td align="left" width="63%">
+Default constructor for <code>XMINT4</code>.
 
+Default constructor for <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a>.
+
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
+<div> </div>
+</td>
+</tr>
+</table>
+
+## -parameters
 
 
 ## -see-also
@@ -138,7 +122,7 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/24ea5751-637d-4bd0-85f7-ce9895a10914">XMINT4 Constructors</a>
+<a href="https://msdn.microsoft.com/bbe13052-f07d-488f-b643-535195d4e9ea">XMINT4 Extensions</a>
  
 
  

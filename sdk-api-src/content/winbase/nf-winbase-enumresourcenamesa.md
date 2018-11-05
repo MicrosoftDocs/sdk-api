@@ -7,7 +7,7 @@ old-location: menurc\enumresourcenames.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 Type: <b>LPCTSTR</b>
 
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Resource Types</a>. For more information, see 
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. For more information, see 
 
 the Remarks section below.
 
@@ -84,7 +84,7 @@ the Remarks section below.
 
 Type: <b>ENUMRESNAMEPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource name or ID. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms648034(v=VS.85).aspx">EnumResNameProc</a>.
+A pointer to the callback function to be called for each enumerated resource name or ID. For more information, see <a href="https://msdn.microsoft.com/286118cd-8832-4e8f-92c7-aa1ab34e66c5">EnumResNameProc</a>.
 
 
 ### -param lParam [in]
@@ -109,15 +109,15 @@ The return value is <b>TRUE</b> if the function succeeds or <b>FALSE</b> if the 
 
 
 
-If <a href="https://msdn.microsoft.com/en-us/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a>(<i>lpszType</i>) is <b>TRUE</b>, then <i>lpszType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
+If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpszType</i>) is <b>TRUE</b>, then <i>lpszType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
 
 integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
 For each resource found, <b>EnumResourceNames</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing the name or the ID of each resource it finds, as well as the various other parameters that were passed to <b>EnumResourceNames</b>.
 
-Alternately, applications can call <a href="https://msdn.microsoft.com/en-us/library/ms648038(v=VS.85).aspx">EnumResourceNamesEx</a>, which provides more precise control of what resources are enumerated.
+Alternately, applications can call <a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a>, which provides more precise control of what resources are enumerated.
 
-If a resource has an ID, the ID is passed to the callback function; otherwise the resource name is passed to the callback function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms648034(v=VS.85).aspx">EnumResNameProc</a>.
+If a resource has an ID, the ID is passed to the callback function; otherwise the resource name is passed to the callback function. For more information, see <a href="https://msdn.microsoft.com/286118cd-8832-4e8f-92c7-aa1ab34e66c5">EnumResNameProc</a>.
 
 The <b>EnumResourceNames</b> function continues to enumerate resources until the callback function returns <b>FALSE</b> or all resources have been enumerated.
 
@@ -128,7 +128,7 @@ The enumeration never includes duplicates: if resources with the same name are c
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v=VS.85).aspx">Creating a Resource List</a>.
+For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
 
 <div class="code"></div>
 
@@ -143,19 +143,19 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648034(v=VS.85).aspx">EnumResNameProc</a>
+<a href="https://msdn.microsoft.com/286118cd-8832-4e8f-92c7-aa1ab34e66c5">EnumResNameProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648035(v=VS.85).aspx">EnumResourceLanguages</a>
+<a href="https://msdn.microsoft.com/8e47d8df-e3ce-4125-aa77-8098a060f4aa">EnumResourceLanguages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648038(v=VS.85).aspx">EnumResourceNamesEx</a>
+<a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648039(v=VS.85).aspx">EnumResourceTypes</a>
+<a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a>
 
 
 
@@ -163,7 +163,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
  
 
  

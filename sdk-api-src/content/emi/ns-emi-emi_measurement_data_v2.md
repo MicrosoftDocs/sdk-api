@@ -7,7 +7,7 @@ old-location: powermeter\emi_measurement_data_v2.htm
 tech.root: powermeter
 ms.assetid: 18715936-7401-4F32-AD80-8AE5575AECA7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/02/2018
 ms.keywords: EMI_MEASUREMENT_DATA_V2, EMI_MEASUREMENT_DATA_V2 structure [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA_V2, powermeter.emi_measurement_data_v2
 ms.prod: windows
 ms.technology: windows-sdk

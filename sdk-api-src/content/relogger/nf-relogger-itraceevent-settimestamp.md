@@ -7,7 +7,7 @@ old-location: etw\ievent_settimestamp.htm
 tech.root: etw
 ms.assetid: e1f76887-8edd-414e-bee3-36b61709c2b5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITraceEvent interface [ETW],SetTimeStamp method, ITraceEvent.SetTimeStamp, ITraceEvent::SetTimeStamp, SetTimeStamp, SetTimeStamp method [ETW], SetTimeStamp method [ETW],ITraceEvent interface, etw.ievent_settimestamp, relogger/ITraceEvent::SetTimeStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

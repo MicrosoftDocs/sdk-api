@@ -4,10 +4,10 @@ title: VirtualAllocFromApp function
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 old-location: base\virtualallocfromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAllocFromApp, VirtualAllocFromApp function, base.virtualallocfromapp, memoryapi/VirtualAllocFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

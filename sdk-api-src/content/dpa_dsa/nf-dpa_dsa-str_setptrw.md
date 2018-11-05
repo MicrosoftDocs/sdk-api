@@ -7,7 +7,7 @@ old-location: controls\Str_SetPtrW.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\str_setptrw.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Str_SetPtr, Str_SetPtr function [Windows Controls], Str_SetPtrA, Str_SetPtrW, _win32_Str_SetPtrW, _win32_Str_SetPtrW_cpp, controls.Str_SetPtrW, controls._win32_Str_SetPtrW, dpa_dsa/Str_SetPtr, dpa_dsa/Str_SetPtrA, dpa_dsa/Str_SetPtrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\charnextexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnextexa.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharNextExA, CharNextExA function [Menus and Other Resources], _win32_CharNextExA, _win32_charnextexa_cpp, menurc.charnextexa, winui._win32_charnextexa, winuser/CharNextExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ If
 
 
 
-<b>CharNextExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647469(v=VS.85).aspx">CharNext</a> (if called as an ANSI function) uses the system default code-page.
+<b>CharNextExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/23be5ba3-bc2e-4c5b-95d2-b36dc24007ae">CharNext</a> (if called as an ANSI function) uses the system default code-page.
 
 
 
@@ -154,11 +154,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647469(v=VS.85).aspx">CharNext</a>
+<a href="https://msdn.microsoft.com/23be5ba3-bc2e-4c5b-95d2-b36dc24007ae">CharNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647472(v=VS.85).aspx">CharPrevExA</a>
+<a href="https://msdn.microsoft.com/887a11c3-57fb-4407-a842-957e20931610">CharPrevExA</a>
 
 
 
@@ -170,7 +170,7 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\Pager_SetPos.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setpos.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Pager_SetPos, Pager_SetPos macro [Windows Controls], _win32_Pager_SetPos, _win32_Pager_SetPos_cpp, commctrl/Pager_SetPos, controls.Pager_SetPos, controls._win32_Pager_SetPos
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the scroll position for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760886(v=VS.85).aspx">PGM_SETPOS</a> message explicitly. 
+Sets the scroll position for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/b882ea2d-9dab-4d36-9201-29522141f779">PGM_SETPOS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the scroll position for the pager control. You can use this macro or send t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 

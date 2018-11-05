@@ -7,7 +7,7 @@ old-location: controls\Header_SetFocusedItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfocuseditem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Header_SetFocusedItem, Header_SetFocusedItem macro [Windows Controls], _shell_Header_SetFocusedItem, _shell_Header_SetFocusedItem_cpp, commctrl/Header_SetFocusedItem, controls.Header_SetFocusedItem, controls._shell_Header_SetFocusedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the focus to a specified item in a header control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775361(v=VS.85).aspx">HDM_SETFOCUSEDITEM</a> message explicitly.
+Sets the focus to a specified item in a header control. Use this macro or send the <a href="https://msdn.microsoft.com/20a321ce-4420-4239-b34d-9e7f24a89fc3">HDM_SETFOCUSEDITEM</a> message explicitly.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the focus to a specified item in a header control. Use this macro or send t
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the header control.
 
@@ -77,7 +77,7 @@ The index of item.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775238(v=VS.85).aspx">About Header Controls</a>
+<a href="https://msdn.microsoft.com/b464fb9a-e342-4209-ba6f-15b5388f3914">About Header Controls</a>
  
 
  

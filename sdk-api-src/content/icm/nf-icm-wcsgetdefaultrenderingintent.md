@@ -7,7 +7,7 @@ old-location: wcs\wcsgetdefaultrenderingintent.htm
 tech.root: WCS
 ms.assetid: 1bb1c09d-1d8a-4568-bdb3-c051781495fa
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: WcsGetDefaultRenderingIntent, WcsGetDefaultRenderingIntent function [Windows Color System], _color_WcsGetDefaultRenderingIntent, icm/WcsGetDefaultRenderingIntent, wcs.wcsgetdefaultrenderingintent
 ms.prod: windows-hardware
 ms.technology: windows-devices

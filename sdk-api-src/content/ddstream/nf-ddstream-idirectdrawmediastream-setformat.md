@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream_setformat.htm
 tech.root: DirectShow
 ms.assetid: 465b4f0c-40e1-4aec-be62-0b55c29fa05e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetFormat method, IDirectDrawMediaStream.SetFormat, IDirectDrawMediaStream::SetFormat, IDirectDrawMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetFormat, dshow.idirectdrawmediastream_setformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\CheckDlgButton.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, CheckDlgButton, CheckDlgButton function [Windows Controls], _win32_CheckDlgButton, _win32_CheckDlgButton_cpp, controls.CheckDlgButton, controls._win32_CheckDlgButton, winuser/CheckDlgButton
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ Sets the button state to checked.
 </dl>
 </td>
 <td width="60%">
-Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_3STATE</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_AUTO3STATE</a> style.
+Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="Button_Styles.htm">BS_3STATE</a> or <a href="Button_Styles.htm">BS_AUTO3STATE</a> style.
 
 </td>
 </tr>
@@ -138,12 +138,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The <b>CheckDlgButton</b> function sends a 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
+				<a href="https://msdn.microsoft.com/8294e6c4-caac-4c60-85ff-38698a1d2ae4">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
 
 
 #### Examples
 
-For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Using Dialog Boxes</a>. 
+For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Using Dialog Boxes</a>. 
 
 <div class="code"></div>
 
@@ -154,11 +154,11 @@ For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761877(v=VS.85).aspx">CheckRadioButton</a>
+<a href="https://msdn.microsoft.com/9b9dc0a7-be73-42ca-bf29-220d05baa6d1">CheckRadioButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761879(v=VS.85).aspx">IsDlgButtonChecked</a>
+<a href="https://msdn.microsoft.com/859ff84e-a6d8-466b-9b85-f844a47febdf">IsDlgButtonChecked</a>
 
 
 

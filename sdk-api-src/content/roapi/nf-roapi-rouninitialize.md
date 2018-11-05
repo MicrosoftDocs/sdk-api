@@ -7,7 +7,7 @@ old-location: winrt\rouninitialize.htm
 tech.root: WinRT
 ms.assetid: 0F910E71-BA44-44A6-8432-52A4E38854F9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RoUninitialize, RoUninitialize function [Windows Runtime], WinRTUninitialize, roapi/RoUninitialize, roapi/WinRTUninitialize, winrt.rouninitialize, winrt.winrtuninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

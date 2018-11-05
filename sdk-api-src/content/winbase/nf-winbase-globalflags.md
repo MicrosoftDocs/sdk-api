@@ -4,10 +4,10 @@ title: GlobalFlags function
 author: windows-sdk-content
 description: Retrieves information about the specified global memory object.
 old-location: base\globalflags.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 647fc9a2-0522-42ab-ab8b-43c648f27d90
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GlobalFlags, GlobalFlags function, _win32_globalflags, base.globalflags, winbase/GlobalFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

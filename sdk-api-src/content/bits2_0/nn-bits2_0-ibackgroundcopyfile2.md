@@ -55,20 +55,20 @@ Use the
 
 The 
 <b>IBackgroundCopyFile2</b> interface inherits from the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a> interface. 
+<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a> interface. 
 
 To get an 
 <b>IBackgroundCopyFile2</b> interface pointer, call the <b>IBackgroundCopyFile::QueryInterface</b> method using __uuidof(IBackgroundCopyFile2) for the interface identifier. Use the 
 <b>IBackgroundCopyFile2</b> interface pointer to call both the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a> and 
+<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a> and 
 <b>IBackgroundCopyFile2</b> methods.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a>. <b>IBackgroundCopyFile2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile2</b> interface inherits from <a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a>. <b>IBackgroundCopyFile2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -81,7 +81,7 @@ The <b>IBackgroundCopyFile2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362946(v=VS.85).aspx">GetFileRanges</a>
+<a href="https://msdn.microsoft.com/2e0ea08e-5f97-45c9-9280-ce6c4dce7a17">GetFileRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves the array of ranges that you want to download from the URL.
@@ -90,7 +90,7 @@ Retrieves the array of ranges that you want to download from the URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362948(v=VS.85).aspx">SetRemoteName</a>
+<a href="https://msdn.microsoft.com/6dd33b7d-4317-4eb5-aae4-83d3f4416bf9">SetRemoteName</a>
 </td>
 <td align="left" width="63%">
 Changes the remote name to a new URL.
@@ -105,7 +105,7 @@ Changes the remote name to a new URL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a>
+<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a>
  
 
  

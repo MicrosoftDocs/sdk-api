@@ -7,7 +7,7 @@ old-location: opengl\setpixelformat.htm
 tech.root: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,9 +102,13 @@ An OpenGL window has its own pixel format. Because of this, only device contexts
 
 The following code example shows <b>SetPixelFormat</b> usage.
 
-
-```cpp
-PIXELFORMATDESCRIPTOR pfd = { 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PIXELFORMATDESCRIPTOR pfd = { 
     sizeof(PIXELFORMATDESCRIPTOR),   // size of this pfd  
     1,                     // version number  
     PFD_DRAW_TO_WINDOW |   // support window  
@@ -128,13 +132,13 @@ HDC  hdc;
 int  iPixelFormat; 
  
 // get the best available match of pixel format for the device context   
-iPixelFormat = ChoosePixelFormat(hdc, &pfd); 
+iPixelFormat = ChoosePixelFormat(hdc, &amp;pfd); 
  
 // make that the pixel format of the device context  
-SetPixelFormat(hdc, iPixelFormat, &pfd);
-```
-
-
+SetPixelFormat(hdc, iPixelFormat, &amp;pfd);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

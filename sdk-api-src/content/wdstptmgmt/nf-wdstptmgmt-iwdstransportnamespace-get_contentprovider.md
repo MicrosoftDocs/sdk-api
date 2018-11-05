@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_contentprovider.htm
 tech.root: wds
 ms.assetid: 9c37f1d2-fd56-43c1-8565-bc60fc6894de
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ContentProvider property [Windows Deployment Services], ContentProvider property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],ContentProvider property, IWdsTransportNamespace.ContentProvider, IWdsTransportNamespace.get_ContentProvider, IWdsTransportNamespace::ContentProvider, IWdsTransportNamespace::get_ContentProvider, IWdsTransportNamespace::put_ContentProvider, get_ContentProvider, wds.iwdstransportnamespace_contentprovider, wdstptmgmt/IWdsTransportNamespace::ContentProvider, wdstptmgmt/IWdsTransportNamespace::get_ContentProvider, wdstptmgmt/IWdsTransportNamespace::put_ContentProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

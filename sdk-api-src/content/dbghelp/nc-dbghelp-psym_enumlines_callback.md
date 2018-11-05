@@ -7,7 +7,7 @@ old-location: base\symenumlinesproc.htm
 tech.root: debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 11/02/2018
 ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc, SymEnumLinesProc callback, SymEnumLinesProc callback function, base.symenumlinesproc, dbghelp/SymEnumLinesProc
 ms.prod: windows
 ms.technology: windows-sdk

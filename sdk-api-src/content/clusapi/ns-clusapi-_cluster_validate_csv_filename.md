@@ -7,7 +7,7 @@ old-location: mscs\cluster_validate_csv_filename.htm
 tech.root: mscs
 ms.assetid: E2FA02BE-45FC-4D0F-A6F3-870D20D1BCA5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PCLUSTER_VALIDATE_CSV_FILENAME, CLUSTER_VALIDATE_CSV_FILENAME, CLUSTER_VALIDATE_CSV_FILENAME structure [Failover Cluster], PCLUSTER_VALIDATE_CSV_FILENAME, PCLUSTER_VALIDATE_CSV_FILENAME structure pointer [Failover Cluster], _CLUSTER_VALIDATE_CSV_FILENAME, clusapi/CLUSTER_VALIDATE_CSV_FILENAME, clusapi/PCLUSTER_VALIDATE_CSV_FILENAME, mscs.cluster_validate_csv_filename"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ A  Unicode string that contains the volume name of the CSV. The string ends with
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

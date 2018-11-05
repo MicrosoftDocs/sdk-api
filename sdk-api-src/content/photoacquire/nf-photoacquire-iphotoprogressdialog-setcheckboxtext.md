@@ -7,7 +7,7 @@ old-location: picacq\iphotoprogressdialog_setcheckboxtext.htm
 tech.root: acquisition
 ms.assetid: db516dcd-90b4-4421-b883-2f8462b36249
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxText method, IPhotoProgressDialog.SetCheckboxText, IPhotoProgressDialog::SetCheckboxText, IPhotoProgressDialogSetCheckboxText, SetCheckboxText, SetCheckboxText method [Picture Acquisition], SetCheckboxText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxText, picacq.iphotoprogressdialog_setcheckboxtext
 ms.prod: windows-hardware
 ms.technology: windows-devices

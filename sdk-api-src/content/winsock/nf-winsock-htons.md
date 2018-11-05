@@ -7,7 +7,7 @@ old-location: winsock\htons_2.htm
 tech.root: winsock
 ms.assetid: 3dae2655-2b3c-41d9-9650-125ac393d64a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_htons_2, htons, htons function [Winsock], winsock.htons_2, winsock/htons"
 ms.prod: windows-hardware
 ms.technology: windows-devices

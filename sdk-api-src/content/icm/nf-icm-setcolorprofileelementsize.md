@@ -7,7 +7,7 @@ old-location: wcs\setcolorprofileelementsize.htm
 tech.root: WCS
 ms.assetid: 59552ca3-5b53-465c-9634-a1cc68bb7c3e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetColorProfileElementSize, SetColorProfileElementSize function [Windows Color System], _color_SetColorProfileElementSize, icm/SetColorProfileElementSize, wcs.setcolorprofileelementsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

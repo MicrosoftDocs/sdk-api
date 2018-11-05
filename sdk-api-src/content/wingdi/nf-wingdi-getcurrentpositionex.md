@@ -7,7 +7,7 @@ old-location: gdi\getcurrentpositionex.htm
 tech.root: gdi
 ms.assetid: 23a5ac58-2b88-42d3-ab02-8edb8ef187cc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetCurrentPositionEx, GetCurrentPositionEx function [Windows GDI], _win32_GetCurrentPositionEx, gdi.getcurrentpositionex, wingdi/GetCurrentPositionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_register.htm
 tech.root: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObjectTable.Register, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register, Register method [COM], Register method [COM],IRunningObjectTable interface, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ListView_GetToolTips.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettooltips.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_GetToolTips, ListView_GetToolTips macro [Windows Controls], _win32_ListView_GetToolTips, _win32_ListView_GetToolTips_cpp, commctrl/ListView_GetToolTips, controls.ListView_GetToolTips, controls._win32_ListView_GetToolTips
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the tooltip control that the list-view control uses to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761085(v=VS.85).aspx">LVM_GETTOOLTIPS</a> message explicitly. 
+Gets the tooltip control that the list-view control uses to display tooltips. You can use this macro or send the <a href="https://msdn.microsoft.com/a3522c64-9498-40b8-9062-c112b7c8cacc">LVM_GETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the tooltip control that the list-view control uses to display tooltips. Yo
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775122(v=VS.85).aspx">ListView_SetToolTips</a>
+<a href="https://msdn.microsoft.com/035fb214-3dc8-4260-bc73-675643c38dbc">ListView_SetToolTips</a>
  
 
  

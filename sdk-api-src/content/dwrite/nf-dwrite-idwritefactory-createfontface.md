@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateFontFace.htm
 tech.root: DirectWrite
 ms.assetid: bb3cd53f-a2cf-472c-aee9-88ac553f0ed0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateFontFace method, IDWriteFactory.CreateFontFace, IDWriteFactory::CreateFontFace, directwrite.IDWriteFactory_CreateFontFace, dwrite/IDWriteFactory::CreateFontFace
 ms.prod: windows-hardware
 ms.technology: windows-devices

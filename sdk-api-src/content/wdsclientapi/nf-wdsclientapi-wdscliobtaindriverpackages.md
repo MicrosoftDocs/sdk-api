@@ -7,7 +7,7 @@ old-location: wds\wdscliobtaindriverpackages.htm
 tech.root: wds
 ms.assetid: 2fb6bf5a-a46f-4664-be0a-6b4f2563986c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WdsCliObtainDriverPackages, WdsCliObtainDriverPackages function [Windows Deployment Services], wds.wdscliobtaindriverpackages, wdsclientapi/WdsCliObtainDriverPackages
 ms.prod: windows-hardware
 ms.technology: windows-devices

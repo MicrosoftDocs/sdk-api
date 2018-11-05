@@ -7,7 +7,7 @@ old-location: devinst\setupdiopendeviceinterfaceregkey.htm
 tech.root: devinst
 ms.assetid: 950dddcb-2a59-4c2d-826b-147e9acf401a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupDiOpenDeviceInterfaceRegKey, SetupDiOpenDeviceInterfaceRegKey function [Device and Driver Installation], devinst.setupdiopendeviceinterfaceregkey, di-rtns_420dfbe9-7cb3-4ecb-9341-b40fbc76a50e.xml, setupapi/SetupDiOpenDeviceInterfaceRegKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>SetupDiOpenDeviceInterfaceRegKey</b> function opens the registry subkey t
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface for which to open a registry subkey.
+A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to open a registry subkey.
 
 
 ### -param DeviceInterfaceData [in]

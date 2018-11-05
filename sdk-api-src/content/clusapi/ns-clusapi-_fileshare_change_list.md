@@ -7,7 +7,7 @@ old-location: mscs\fileshare_change_list.htm
 tech.root: mscs
 ms.assetid: 7bc77f09-8984-497c-9d86-d8e8d4b55b94
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PFILESHARE_CHANGE_LIST, FILESHARE_CHANGE_LIST, FILESHARE_CHANGE_LIST structure [Failover Cluster], PFILESHARE_CHANGE_LIST, PFILESHARE_CHANGE_LIST structure pointer [Failover Cluster], _FILESHARE_CHANGE_LIST, clusapi/FILESHARE_CHANGE_LIST, clusapi/PFILESHARE_CHANGE_LIST, mscs.fileshare_change_list"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 
 
 Describes an event notification list for file shares managed by the File Server 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>.
+    <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ The number of entries the event notification list contains.
 ### -field ChangeEntry
 
 An entry in the event notification list. The format of this member comes from the 
-       <a href="https://msdn.microsoft.com/en-us/library/Cc895521(v=VS.85).aspx">FILESHARE_CHANGE</a> structure.
+       <a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a> structure.
 
 
 ## -see-also
@@ -75,11 +75,11 @@ An entry in the event notification list. The format of this member comes from th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc895521(v=VS.85).aspx">FILESHARE_CHANGE</a>
+<a href="https://msdn.microsoft.com/f317f162-49b2-43df-a298-e2de707e089a">FILESHARE_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

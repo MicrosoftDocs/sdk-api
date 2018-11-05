@@ -7,7 +7,7 @@ old-location: display\engallocmem.htm
 tech.root: display
 ms.assetid: 61bef5a1-bf68-4d37-ae5d-13ff045a2344
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EngAllocMem, EngAllocMem function [Display Devices], display.engallocmem, gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml, winddi/EngAllocMem
 ms.prod: windows-hardware
 ms.technology: windows-devices

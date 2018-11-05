@@ -7,7 +7,7 @@ old-location: controls\ITextRange_EndOf.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EndOf, EndOf method [Windows Controls], EndOf method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],EndOf method, ITextRange.EndOf, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Moves this range's ends to the end of the last overlapping <i>Unit</i> in the ra
 
 Type: <b>long</b>
 
-Unit to use. Default value: <i>tomWord</i>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
+Unit to use. Default value: <i>tomWord</i>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
 
 
 ### -param Extend
@@ -143,7 +143,7 @@ Failure for some other reason.
 
 
 
-For comparison, the <a href="https://msdn.microsoft.com/en-us/library/Bb787835(v=VS.85).aspx">ITextRange::StartOf</a> method moves the range ends to the beginning of the first overlapping <i>Unit</i> in the range. Note, the <b>ITextRange::StartOf</b> and <b>ITextRange::EndOf</b> methods differ from the <a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from Start and <b>ITextRange::EndOf</b> extends from End. If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::EndOf</b> does not change End. In particular, calling <b>ITextRange::EndOf</b> (<i>tomCharacter</i>, *, *) does not change End except for an insertion point at the beginning of a story.
+For comparison, the <a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">ITextRange::StartOf</a> method moves the range ends to the beginning of the first overlapping <i>Unit</i> in the range. Note, the <b>ITextRange::StartOf</b> and <b>ITextRange::EndOf</b> methods differ from the <a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a> and <a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from Start and <b>ITextRange::EndOf</b> extends from End. If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::EndOf</b> does not change End. In particular, calling <b>ITextRange::EndOf</b> (<i>tomCharacter</i>, *, *) does not change End except for an insertion point at the beginning of a story.
 
 
 
@@ -157,15 +157,15 @@ For comparison, the <a href="https://msdn.microsoft.com/en-us/library/Bb787835(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a>
+<a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a>
+<a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -173,11 +173,11 @@ For comparison, the <a href="https://msdn.microsoft.com/en-us/library/Bb787835(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787835(v=VS.85).aspx">StartOf</a>
+<a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

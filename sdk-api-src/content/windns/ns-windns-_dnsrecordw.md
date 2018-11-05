@@ -83,18 +83,22 @@ The length, in bytes, of <b>Data</b>. For fixed-length data types, this value is
 
 					
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define DNS_NULL_RECORD_LENGTH(ByteCount) (sizeof(DWORD) + (ByteCount))
 #define DNS_WKS_RECORD_LENGTH(ByteCount) (sizeof(DNS_WKS_DATA) + (ByteCount-1))
 #define DNS_WINS_RECORD_LENGTH(IpCount) (sizeof(DNS_WINS_DATA) + ((IpCount-1) * sizeof(IP_ADDRESS)))
 #define DNS_TEXT_RECORD_LENGTH(StringCount) (sizeof(DWORD) + ((StringCount) * sizeof(PCHAR)))
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field Flags
 

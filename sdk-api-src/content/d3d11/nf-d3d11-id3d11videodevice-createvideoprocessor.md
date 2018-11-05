@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_createvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessor method, ID3D11VideoDevice.CreateVideoProcessor, ID3D11VideoDevice::CreateVideoProcessor, d3d11/ID3D11VideoDevice::CreateVideoProcessor, mf.id3d11videodevice_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

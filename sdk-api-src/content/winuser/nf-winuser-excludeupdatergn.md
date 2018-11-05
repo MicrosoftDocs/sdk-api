@@ -7,7 +7,7 @@ old-location: gdi\excludeupdatergn.htm
 tech.root: gdi
 ms.assetid: 408fda82-30c3-4eb4-be42-3085c71ba99e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ExcludeUpdateRgn, ExcludeUpdateRgn function [Windows GDI], _win32_ExcludeUpdateRgn, gdi.excludeupdatergn, winuser/ExcludeUpdateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

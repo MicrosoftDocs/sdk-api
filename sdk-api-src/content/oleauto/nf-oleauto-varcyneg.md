@@ -7,7 +7,7 @@ old-location: automat\varcyneg.htm
 tech.root: automat
 ms.assetid: cbd9711b-45f4-4917-84ec-22ee5438579f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VarCyNeg, VarCyNeg function [Automation], _oa96_VarCyNeg, automat.varcyneg, oleauto/VarCyNeg
 ms.prod: windows-hardware
 ms.technology: windows-devices

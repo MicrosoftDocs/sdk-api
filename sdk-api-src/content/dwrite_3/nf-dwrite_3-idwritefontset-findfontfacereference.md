@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontset_findfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: dba55a36-8037-5564-59d8-e01189ff0020
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: FindFontFaceReference, FindFontFaceReference method [Direct Write], FindFontFaceReference method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],FindFontFaceReference method, IDWriteFontSet.FindFontFaceReference, IDWriteFontSet::FindFontFaceReference, directwrite.idwritefontset_findfontfacereference, dwrite_3/IDWriteFontSet::FindFontFaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

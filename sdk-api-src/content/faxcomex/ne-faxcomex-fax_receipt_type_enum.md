@@ -78,11 +78,11 @@ Display a delivery report in a message box on the display of a specific computer
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686899(v=VS.85).aspx">IFaxDocument::get_ReceiptType</a>
+<a href="https://msdn.microsoft.com/ee8f9070-7f00-4bd4-8022-1d9b00f1bdaa">IFaxDocument::get_ReceiptType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689599(v=VS.85).aspx">IFaxOutgoingJob::get_ReceiptType</a>
+<a href="https://msdn.microsoft.com/675fa0b8-758d-43b4-b493-ee8204f4b9c6">IFaxOutgoingJob::get_ReceiptType</a>
  
 
  

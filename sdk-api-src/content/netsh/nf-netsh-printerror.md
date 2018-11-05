@@ -7,7 +7,7 @@ old-location: netshell\printerror.htm
 tech.root: netshell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,6 +70,13 @@ The identifier of the message to print.
 
 
 ### -param arg1
+
+TBD
+
+
+
+
+#### - arg3
 
 The arguments used to fill into the message.
 

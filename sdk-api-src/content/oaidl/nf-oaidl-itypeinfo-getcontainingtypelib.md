@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getcontainingtypelib.htm
 tech.root: automat
 ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetContainingTypeLib method, ITypeInfo.GetContainingTypeLib, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices

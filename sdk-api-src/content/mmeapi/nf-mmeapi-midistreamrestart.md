@@ -1,0 +1,117 @@
+---
+UID: NF:mmeapi.midiStreamRestart
+title: midiStreamRestart function
+author: windows-sdk-content
+description: The midiStreamRestart function restarts a paused MIDI stream.
+old-location: multimedia\midistreamrestart.htm
+tech.root: Multimedia
+ms.assetid: 8d0f31d6-957d-4266-adae-68865466a859
+ms.author: windowssdkdev
+ms.date: 11/02/2018
+ms.keywords: "_win32_midiStreamRestart, midiStreamRestart, midiStreamRestart function [Windows Multimedia], mmeapi/midiStreamRestart, multimedia.midistreamrestart"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mmeapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiStreamRestart
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# midiStreamRestart function
+
+
+## -description
+
+
+
+The <b>midiStreamRestart</b> function restarts a paused MIDI stream.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hms
+
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://msdn.microsoft.com/355cf034-e1d7-4530-b117-4c505ad0aac6">midiStreamOpen</a> function. This handle identifies the output device.
+
+
+## -returns
+
+
+
+Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMSYSERR_INVALHANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified device handle is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Calling this function when the output is not paused has no effect, and the function returns MMSYSERR_NOERROR.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+ 
+
+ 
+

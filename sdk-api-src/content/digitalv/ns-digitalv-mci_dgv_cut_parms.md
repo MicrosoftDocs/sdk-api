@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_cut_parms.htm
 tech.root: Multimedia
 ms.assetid: fe3e2bbb-7874-421d-90ca-f7d718cd8c27
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPMCI_DGV_CUT_PARMS, MCI_DGV_CUT_PARMS, MCI_DGV_CUT_PARMS structure [Windows Multimedia], _win32_MCI_DGV_CUT_PARMS_str, digitalv/MCI_DGV_CUT_PARMS, multimedia.mci_dgv_cut_parms"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getminidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 602e32d4-41d6-4139-aa64-4b53caa50859
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetMinIdealVideoSize, GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetMinIdealVideoSize method, IVMRWindowlessControl.GetMinIdealVideoSize, IVMRWindowlessControl::GetMinIdealVideoSize, IVMRWindowlessControlGetMinIdealVideoSize, dshow.ivmrwindowlesscontrol_getminidealvideosize, strmif/IVMRWindowlessControl::GetMinIdealVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

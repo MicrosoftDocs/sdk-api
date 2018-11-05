@@ -7,7 +7,7 @@ old-location: etw\itracerelogger.htm
 tech.root: etw
 ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], ITraceRelogger interface [ETW],described, etw.itracerelogger, relogger/ITraceRelogger
 ms.prod: windows
 ms.technology: windows-sdk

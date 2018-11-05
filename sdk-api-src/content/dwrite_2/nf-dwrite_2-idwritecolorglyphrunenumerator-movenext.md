@@ -1,0 +1,95 @@
+---
+UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.MoveNext
+title: IDWriteColorGlyphRunEnumerator::MoveNext
+author: windows-sdk-content
+description: Move to the next glyph run in the enumerator.
+old-location: directwrite\idwritecolorglyphrunenumerator_movenext.htm
+tech.root: DirectWrite
+ms.assetid: E6336C0E-F880-485C-9111-A102298257C1
+ms.author: windowssdkdev
+ms.date: 11/02/2018
+ms.keywords: IDWriteColorGlyphRunEnumerator interface [Direct Write],MoveNext method, IDWriteColorGlyphRunEnumerator.MoveNext, IDWriteColorGlyphRunEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteColorGlyphRunEnumerator interface, directwrite.idwritecolorglyphrunenumerator_movenext, dwrite_2/IDWriteColorGlyphRunEnumerator::MoveNext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dwrite_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteColorGlyphRunEnumerator.MoveNext
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IDWriteColorGlyphRunEnumerator::MoveNext
+
+
+## -description
+
+
+Move to the next glyph run in the enumerator.
+
+
+## -parameters
+
+
+
+
+### -param hasRun
+
+TBD
+
+
+
+
+#### - haveRun [out]
+
+Type: <b>BOOL*</b>
+
+Returns <b>TRUE</b> if there is a next glyph run.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/649AD648-32BB-4BF4-A82F-075E93505E33">IDWriteColorGlyphRunEnumerator</a>
+ 
+
+ 
+

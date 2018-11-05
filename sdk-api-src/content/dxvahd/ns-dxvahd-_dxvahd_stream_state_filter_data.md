@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_filter_data.htm
 tech.root: medfound
 ms.assetid: 2f70222d-f87a-49a5-8da5-15dfa2807cd7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DXVAHD_STREAM_STATE_FILTER_DATA, DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_FILTER_DATA, dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA, mf.dxvahd_stream_state_filter_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,9 +81,13 @@ For a list of image filters that are defined for DXVA-HD, see <a href="https://m
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetFilterValue(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetFilterValue(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     DXVAHD_FILTER filter,
@@ -93,21 +97,21 @@ HRESULT DXVAHD_SetFilterValue(
 {
     DXVAHD_STREAM_STATE_FILTER_DATA data = { bEnable, value };
 
-    DXVAHD_STREAM_STATE state = static_cast<DXVAHD_STREAM_STATE>(DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS + filter);
+    DXVAHD_STREAM_STATE state = static_cast&lt;DXVAHD_STREAM_STATE&gt;(DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS + filter);
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         state,
         sizeof(data),
-        &data
+        &amp;data
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

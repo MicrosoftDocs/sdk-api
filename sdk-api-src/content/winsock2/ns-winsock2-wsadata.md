@@ -7,7 +7,7 @@ old-location: winsock\wsadata_2.htm
 tech.root: winsock
 ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], WSAData, _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,15 +143,19 @@ The current version of the Windows Sockets specification returned in the <b>wHig
 
 The following example demonstrates the use of the <b>WSADATA</b> structure.
 
-
-```cpp
-WORD wVersionRequested;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WORD wVersionRequested;
 WSADATA wsaData;
 int err;
  
 wVersionRequested = MAKEWORD( 2, 2 );
  
-err = WSAStartup( wVersionRequested, &wsaData );
+err = WSAStartup( wVersionRequested, &amp;wsaData );
 if ( err != 0 ) {
     /* Tell the user that we could not find a usable */
     /* WinSock DLL.                                  */
@@ -176,10 +180,10 @@ if ( LOBYTE( wsaData.wVersion ) != 2 ||
 
 
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

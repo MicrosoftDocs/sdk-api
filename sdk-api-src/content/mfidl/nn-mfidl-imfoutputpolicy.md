@@ -7,7 +7,7 @@ old-location: mf\imfoutputpolicy.htm
 tech.root: medfound
 ms.assetid: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], IMFOutputPolicy interface [Media Foundation],described, mf.imfoutputpolicy, mfidl/IMFOutputPolicy
 ms.prod: windows
 ms.technology: windows-sdk

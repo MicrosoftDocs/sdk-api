@@ -7,7 +7,7 @@ old-location: security\scesvc_callback_info.htm
 tech.root: secmgmt
 ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO structure pointer [Security], SCESVC_CALLBACK_INFO, SCESVC_CALLBACK_INFO structure [Security], _SCESVC_CALLBACK_INFO_, _config_scesvc_callback_info, scesvc/PSCESVC_CALLBACK_INFO, scesvc/SCESVC_CALLBACK_INFO, security.scesvc_callback_info"
 ms.prod: windows
 ms.technology: windows-sdk

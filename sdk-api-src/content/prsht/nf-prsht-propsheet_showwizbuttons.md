@@ -7,7 +7,7 @@ old-location: controls\PropSheet_ShowWizButtons.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_showwizbuttons.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PSWIZB_RESTORE, PSWIZB_SHOW, PropSheet_ShowWizButtons, PropSheet_ShowWizButtons macro [Windows Controls], _shell_PropSheet_ShowWizButtons, _shell_PropSheet_ShowWizButtons_cpp, controls.PropSheet_ShowWizButtons, controls._shell_PropSheet_ShowWizButtons, prsht/PropSheet_ShowWizButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774630(v=VS.85).aspx">PSM_SHOWWIZBUTTONS</a> message explicitly.
+Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/669c4e51-cac1-40e1-8f23-afae0e41fc9b">PSM_SHOWWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters
@@ -154,13 +154,17 @@ One or more of the same values used in <i>dwFlag</i>. Here, they specify which p
 The following example code hides the <b>Back</b> button and shows the <b>Next</b> button. 
 	
 
-
-```
-PropSheet_ShowWizButtons(hwnd,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PropSheet_ShowWizButtons(hwnd,
                          PSWIZB_NEXT,
-                         PSWIZB_BACK | PSWIZB_NEXT);
-```
-
-
+                         PSWIZB_BACK | PSWIZB_NEXT);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

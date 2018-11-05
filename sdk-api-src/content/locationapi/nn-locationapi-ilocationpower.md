@@ -7,7 +7,7 @@ old-location: winlocation\ilocationpower.htm
 tech.root: locationapi
 ms.assetid: bf0a0c13-a50f-4ed8-bc29-7d70561da306
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The <b>ILocationPower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687537(v=VS.85).aspx">Connect</a>
+<a href="winlocation.ilocationpower_connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has connected.
@@ -84,7 +84,7 @@ Notify the location platform that an app has connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms689589(v=VS.85).aspx">Disconnect</a>
+<a href="winlocation.ilocationpower_disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has disconnected.

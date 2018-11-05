@@ -79,7 +79,7 @@ TBD
 
 #### - pbstrContainerName [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -107,14 +107,18 @@ This method is disabled when  the Certificate Enrollment Control is executed as 
 
 #### Examples
 
-
-```cpp
-BSTR       bstrCon = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR       bstrCon = NULL;
 DWORD      nCon = 0;
 HRESULT    hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
-while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
+while ( S_OK == pEnroll-&gt;enumContainers(nCon, &amp;bstrCon) )
 {
     printf("\t%d) %ws\n", nCon++, bstrCon );
     if ( bstrCon )
@@ -122,10 +126,10 @@ while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
         SysFreeString( bstrCon );
         bstrCon = NULL;
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

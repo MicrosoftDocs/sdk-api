@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>HatchStyle</b> enumeration specifies the hatch pattern used by a brush of type 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>. The hatch pattern consists of a solid background color and lines drawn over the background. 
+			<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>. The hatch pattern consists of a solid background color and lines drawn over the background. 
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ Specifies horizontal lines.
 
 
 
-<img alt="Illustration of an ellipse filled with widely spaced horizontal lines over a background color" src="./images/hatchstylehorizontal.png"/>
+<img alt="Illustration of an ellipse filled with widely spaced horizontal lines over a background color" src="images/hatchstylehorizontal.png"/>
 
 
 ### -field HatchStyleVertical
@@ -75,7 +75,7 @@ Specifies horizontal lines.
 Specifies vertical lines. 
 				
 
-<img alt="Illustration of an ellipse filled with widely spaced vertical lines over a background color" src="./images/hatchstylevertical.png"/>
+<img alt="Illustration of an ellipse filled with widely spaced vertical lines over a background color" src="images/hatchstylevertical.png"/>
 
 
 ### -field HatchStyleForwardDiagonal
@@ -83,7 +83,7 @@ Specifies vertical lines.
 Specifies diagonal lines that slant to the right from top points to bottom points. The lines are antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="./images/hatchstyleforwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="images/hatchstyleforwarddiagonal.png"/>
 
 
 ### -field HatchStyleBackwardDiagonal
@@ -91,7 +91,7 @@ Specifies diagonal lines that slant to the right from top points to bottom point
 Specifies diagonal lines that slant to the left from top points to bottom points. The lines are antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="./images/hatchstylebackwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="images/hatchstylebackwarddiagonal.png"/>
 
 
 ### -field HatchStyleCross
@@ -99,7 +99,7 @@ Specifies diagonal lines that slant to the left from top points to bottom points
 Specifies horizontal and vertical lines that cross at 90-degree angles. 
 				
 
-<img alt="Illustration of an ellipse filled with a grid of horizontal and vertical lines over a background color" src="./images/hatchstylecross.png"/>
+<img alt="Illustration of an ellipse filled with a grid of horizontal and vertical lines over a background color" src="images/hatchstylecross.png"/>
 
 
 ### -field HatchStyleDiagonalCross
@@ -107,7 +107,7 @@ Specifies horizontal and vertical lines that cross at 90-degree angles.
 Specifies forward diagonal and backward diagonal lines that cross at 90-degree angles. The lines are antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with a grid of diagonal lines over a background color" src="./images/hatchstylediagonalcross.png"/>
+<img alt="Illustration of an ellipse filled with a grid of diagonal lines over a background color" src="images/hatchstylediagonalcross.png"/>
 
 
 ### -field HatchStyle05Percent
@@ -115,7 +115,7 @@ Specifies forward diagonal and backward diagonal lines that cross at 90-degree a
 Specifies a 5-percent hatch. The ratio of foreground color to background color is 5:100. 
 				
 
-<img alt="Illustration of an ellipse filled with sparse, evenly spaced dots over a background color" src="./images/hatchstyle05percent.png"/>
+<img alt="Illustration of an ellipse filled with sparse, evenly spaced dots over a background color" src="images/hatchstyle05percent.png"/>
 
 
 ### -field HatchStyle10Percent
@@ -123,7 +123,7 @@ Specifies a 5-percent hatch. The ratio of foreground color to background color i
 Specifies a 10-percent hatch. The ratio of foreground color to background color is 10:100. 
 				
 
-<img alt="Illustration of an ellipse filled with evenly spaced dots over a background color" src="./images/hatchstyle10percent.png"/>
+<img alt="Illustration of an ellipse filled with evenly spaced dots over a background color" src="images/hatchstyle10percent.png"/>
 
 
 ### -field HatchStyle20Percent
@@ -131,7 +131,7 @@ Specifies a 10-percent hatch. The ratio of foreground color to background color 
 Specifies a 20-percent hatch. The ratio of foreground color to background color is 20:100. 
 				
 
-<img alt="Illustration of an ellipse filled with dense, evenly spaced dots over a background color" src="./images/hatchstyle20percent.png"/>
+<img alt="Illustration of an ellipse filled with dense, evenly spaced dots over a background color" src="images/hatchstyle20percent.png"/>
 
 
 ### -field HatchStyle25Percent
@@ -139,7 +139,7 @@ Specifies a 20-percent hatch. The ratio of foreground color to background color 
 Specifies a 25-percent hatch. The ratio of foreground color to background color is 25:100. 
 				
 
-<img alt="Illustration of an ellipse filled with very dense, evenly spaced dots over a background color" src="./images/hatchstyle25percent.png"/>
+<img alt="Illustration of an ellipse filled with very dense, evenly spaced dots over a background color" src="images/hatchstyle25percent.png"/>
 
 
 ### -field HatchStyle30Percent
@@ -147,7 +147,7 @@ Specifies a 25-percent hatch. The ratio of foreground color to background color 
 Specifies a 30-percent hatch. The ratio of foreground color to background color is 30:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a dense, diagonal dot grid over a background color" src="./images/hatchstyle30percent.png"/>
+<img alt="Illustration of an ellipse filled with a dense, diagonal dot grid over a background color" src="images/hatchstyle30percent.png"/>
 
 
 ### -field HatchStyle40Percent
@@ -155,7 +155,7 @@ Specifies a 30-percent hatch. The ratio of foreground color to background color 
 Specifies a 40-percent hatch. The ratio of foreground color to background color is 40:100. 
 				
 
-<img alt="Illustration of an ellipse filled with tiny checkerboard with cutouts shaped like plus signs, over a background color" src="./images/hatchstyle40percent.png"/>
+<img alt="Illustration of an ellipse filled with tiny checkerboard with cutouts shaped like plus signs, over a background color" src="images/hatchstyle40percent.png"/>
 
 
 ### -field HatchStyle50Percent
@@ -163,7 +163,7 @@ Specifies a 40-percent hatch. The ratio of foreground color to background color 
 Specifies a 50-percent hatch. The ratio of foreground color to background color is 50:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a tiny checkerboard over a background color" src="./images/hatchstyle50percent.png"/>
+<img alt="Illustration of an ellipse filled with a tiny checkerboard over a background color" src="images/hatchstyle50percent.png"/>
 
 
 ### -field HatchStyle60Percent
@@ -171,7 +171,7 @@ Specifies a 50-percent hatch. The ratio of foreground color to background color 
 Specifies a 60-percent hatch. The ratio of foreground color to background color is 60:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a diagonal grid of plus-signs over a background color" src="./images/hatchstyle60percent.png"/>
+<img alt="Illustration of an ellipse filled with a diagonal grid of plus-signs over a background color" src="images/hatchstyle60percent.png"/>
 
 
 ### -field HatchStyle70Percent
@@ -179,7 +179,7 @@ Specifies a 60-percent hatch. The ratio of foreground color to background color 
 Specifies a 70-percent hatch. The ratio of foreground color to background color is 70:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a dense, diagonal dot grid over a background color" src="./images/hatchstyle70percent.png"/>
+<img alt="Illustration of an ellipse filled with a dense, diagonal dot grid over a background color" src="images/hatchstyle70percent.png"/>
 
 
 ### -field HatchStyle75Percent
@@ -187,7 +187,7 @@ Specifies a 70-percent hatch. The ratio of foreground color to background color 
 Specifies a 75-percent hatch. The ratio of foreground color to background color is 75:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a wide, diagonal grid over a background color" src="./images/hatchstyle75percent.png"/>
+<img alt="Illustration of an ellipse filled with a wide, diagonal grid over a background color" src="images/hatchstyle75percent.png"/>
 
 
 ### -field HatchStyle80Percent
@@ -195,7 +195,7 @@ Specifies a 75-percent hatch. The ratio of foreground color to background color 
 Specifies an 80-percent hatch. The ratio of foreground color to background color is 80:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a wider, diagonal grid over a background color" src="./images/hatchstyle80percent.png"/>
+<img alt="Illustration of an ellipse filled with a wider, diagonal grid over a background color" src="images/hatchstyle80percent.png"/>
 
 
 ### -field HatchStyle90Percent
@@ -203,7 +203,7 @@ Specifies an 80-percent hatch. The ratio of foreground color to background color
 Specifies a 90-percent hatch. The ratio of foreground color to background color is 90:100. 
 				
 
-<img alt="Illustration of an ellipse filled with the widest, diagonal grid over a background color" src="./images/hatchstyle90percent.png"/>
+<img alt="Illustration of an ellipse filled with the widest, diagonal grid over a background color" src="images/hatchstyle90percent.png"/>
 
 
 ### -field HatchStyleLightDownwardDiagonal
@@ -211,7 +211,7 @@ Specifies a 90-percent hatch. The ratio of foreground color to background color 
 Specifies diagonal lines that slant to the right from top points to bottom points and are spaced 50 percent closer together than HatchStyleForwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="./images/hatchstylelightdownwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="images/hatchstylelightdownwarddiagonal.png"/>
 
 
 ### -field HatchStyleLightUpwardDiagonal
@@ -219,7 +219,7 @@ Specifies diagonal lines that slant to the right from top points to bottom point
 Specifies diagonal lines that slant to the left from top points to bottom points and are spaced 50 percent closer together than HatchStyleBackwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color " src="./images/hatchstylelightupwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with slanting lines over a background color " src="images/hatchstylelightupwarddiagonal.png"/>
 
 
 ### -field HatchStyleDarkDownwardDiagonal
@@ -227,7 +227,7 @@ Specifies diagonal lines that slant to the left from top points to bottom points
 Specifies diagonal lines that slant to the right from top points to bottom points, are spaced 50 percent closer together than HatchStyleForwardDiagonal, and are twice the width of HatchStyleForwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with wide, slanting lines over a background color " src="./images/hatchstyledarkdownwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with wide, slanting lines over a background color " src="images/hatchstyledarkdownwarddiagonal.png"/>
 
 
 ### -field HatchStyleDarkUpwardDiagonal
@@ -235,7 +235,7 @@ Specifies diagonal lines that slant to the right from top points to bottom point
 Specifies diagonal lines that slant to the left from top points to bottom points, are spaced 50 percent closer together than HatchStyleBackwardDiagonal, and are twice the width of HatchStyleBackwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with wide, slanting lines over a background color" src="./images/hatchstyledarkupwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with wide, slanting lines over a background color" src="images/hatchstyledarkupwarddiagonal.png"/>
 
 
 ### -field HatchStyleWideDownwardDiagonal
@@ -243,7 +243,7 @@ Specifies diagonal lines that slant to the left from top points to bottom points
 Specifies diagonal lines that slant to the right from top points to bottom points, have the same spacing as HatchStyleForwardDiagonal, and are triple the width of HatchStyleForwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with wide, widely-spaced, slanting lines over a background color" src="./images/hatchstylewidedownwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with wide, widely-spaced, slanting lines over a background color" src="images/hatchstylewidedownwarddiagonal.png"/>
 
 
 ### -field HatchStyleWideUpwardDiagonal
@@ -251,7 +251,7 @@ Specifies diagonal lines that slant to the right from top points to bottom point
 Specifies diagonal lines that slant to the left from top points to bottom points, have the same spacing as HatchStyleBackwardDiagonal, and are triple the width of HatchStyleBackwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with widely-spaced, wide, slanting lines over a background color " src="./images/hatchstylewideupwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with widely-spaced, wide, slanting lines over a background color " src="images/hatchstylewideupwarddiagonal.png"/>
 
 
 ### -field HatchStyleLightVertical
@@ -259,7 +259,7 @@ Specifies diagonal lines that slant to the left from top points to bottom points
 Specifies vertical lines that are spaced 50 percent closer together than HatchStyleVertical. 
 				
 
-<img alt="Illustration of an ellipse filled with vertical lines over a background color " src="./images/hatchstylelightvertical.png"/>
+<img alt="Illustration of an ellipse filled with vertical lines over a background color " src="images/hatchstylelightvertical.png"/>
 
 
 ### -field HatchStyleLightHorizontal
@@ -267,7 +267,7 @@ Specifies vertical lines that are spaced 50 percent closer together than HatchSt
 Specifies horizontal lines that are spaced 50 percent closer together than HatchStyleHorizontal. 
 				
 
-<img alt="Illustration of an ellipse filled with horizontal lines over a background color " src="./images/hatchstylelighthorizontal.png"/>
+<img alt="Illustration of an ellipse filled with horizontal lines over a background color " src="images/hatchstylelighthorizontal.png"/>
 
 
 ### -field HatchStyleNarrowVertical
@@ -275,7 +275,7 @@ Specifies horizontal lines that are spaced 50 percent closer together than Hatch
 Specifies vertical lines that are spaced 75 percent closer together than HatchStyleVertical (or 25 percent closer together than HatchStyleLightVertical). 
 				
 
-<img alt="Illustration of an ellipse filled with densely-spaced, vertical lines over a background color " src="./images/hatchstylenarrowvertical.png"/>
+<img alt="Illustration of an ellipse filled with densely-spaced, vertical lines over a background color " src="images/hatchstylenarrowvertical.png"/>
 
 
 ### -field HatchStyleNarrowHorizontal
@@ -283,7 +283,7 @@ Specifies vertical lines that are spaced 75 percent closer together than HatchSt
 Specifies horizontal lines that are spaced 75 percent closer together than HatchStyleHorizontal ( or 25 percent closer together than HatchStyleLightHorizontal). 
 				
 
-<img alt="Illustration of an ellipse filled with densely-spaced, horizontal lines over a background color " src="./images/hatchstylenarrowhorizontal.png"/>
+<img alt="Illustration of an ellipse filled with densely-spaced, horizontal lines over a background color " src="images/hatchstylenarrowhorizontal.png"/>
 
 
 ### -field HatchStyleDarkVertical
@@ -291,7 +291,7 @@ Specifies horizontal lines that are spaced 75 percent closer together than Hatch
 Specifies vertical lines that are spaced 50 percent closer together than HatchStyleVerical and are twice the width of HatchStyleVertical. 
 				
 
-<img alt="Illustration of an ellipse filled with wide vertical lines over a background color " src="./images/hatchstyledarkvertical.png"/>
+<img alt="Illustration of an ellipse filled with wide vertical lines over a background color " src="images/hatchstyledarkvertical.png"/>
 
 
 ### -field HatchStyleDarkHorizontal
@@ -299,7 +299,7 @@ Specifies vertical lines that are spaced 50 percent closer together than HatchSt
 Specifies horizontal lines that are spaced 50 percent closer together than HatchStyleHorizontal and are twice the width of HatchStyleHorizontal. 
 				
 
-<img alt="Illustration of an ellipse filled with wide horizontal lines over a background color " src="./images/hatchstyledarkhorizontal.png"/>
+<img alt="Illustration of an ellipse filled with wide horizontal lines over a background color " src="images/hatchstyledarkhorizontal.png"/>
 
 
 ### -field HatchStyleDashedDownwardDiagonal
@@ -307,7 +307,7 @@ Specifies horizontal lines that are spaced 50 percent closer together than Hatch
 Specifies horizontal lines that are composed of forward diagonals. 
 				
 
-<img alt="Illustration of an ellipse filled with rows of slash characters over a background color " src="./images/hatchstyledasheddownwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with rows of slash characters over a background color " src="images/hatchstyledasheddownwarddiagonal.png"/>
 
 
 ### -field HatchStyleDashedUpwardDiagonal
@@ -315,7 +315,7 @@ Specifies horizontal lines that are composed of forward diagonals.
 Specifies horizontal lines that are composed of backward diagonals. 
 				
 
-<img alt="Illustration of an ellipse filled with rows of backslash characters over a background color " src="./images/hatchstyledashedupwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with rows of backslash characters over a background color " src="images/hatchstyledashedupwarddiagonal.png"/>
 
 
 ### -field HatchStyleDashedHorizontal
@@ -323,7 +323,7 @@ Specifies horizontal lines that are composed of backward diagonals.
 Specifies horizontal dashed lines. 
 				
 
-<img alt="Illustration of an ellipse filled with dashed horizontal lines over a background color " src="./images/hatchstyledashedhorizontal.png"/>
+<img alt="Illustration of an ellipse filled with dashed horizontal lines over a background color " src="images/hatchstyledashedhorizontal.png"/>
 
 
 ### -field HatchStyleDashedVertical
@@ -331,7 +331,7 @@ Specifies horizontal dashed lines.
 Specifies vertical dashed lines. 
 				
 
-<img alt="Illustration of an ellipse filled with dashed vertical lines over a background color " src="./images/hatchstyledashedvertical.png"/>
+<img alt="Illustration of an ellipse filled with dashed vertical lines over a background color " src="images/hatchstyledashedvertical.png"/>
 
 
 ### -field HatchStyleSmallConfetti
@@ -339,7 +339,7 @@ Specifies vertical dashed lines.
 Specifies a hatch that has the appearance of confetti. 
 				
 
-<img alt="Illustration of an ellipse filled with dots that form horizontal zig-zag lines, over a background color " src="./images/hatchstylesmallconfetti.png"/>
+<img alt="Illustration of an ellipse filled with dots that form horizontal zig-zag lines, over a background color " src="images/hatchstylesmallconfetti.png"/>
 
 
 ### -field HatchStyleLargeConfetti
@@ -347,7 +347,7 @@ Specifies a hatch that has the appearance of confetti.
 Specifies a hatch that has the appearance of confetti composed of larger pieces than HatchStyleSmallConfetti. 
 				
 
-<img alt="Illustration of an ellipse filled with wider dots in an irregular but repeating pattern, over a background color " src="./images/hatchstylelargeconfetti.png"/>
+<img alt="Illustration of an ellipse filled with wider dots in an irregular but repeating pattern, over a background color " src="images/hatchstylelargeconfetti.png"/>
 
 
 ### -field HatchStyleZigZag
@@ -355,7 +355,7 @@ Specifies a hatch that has the appearance of confetti composed of larger pieces 
 Specifies horizontal lines of zigzags. 
 				
 
-<img alt="Illustration of an ellipse filled with horizontal zig-zag lines over a background color " src="./images/hatchstylezigzag.png"/>
+<img alt="Illustration of an ellipse filled with horizontal zig-zag lines over a background color " src="images/hatchstylezigzag.png"/>
 
 
 ### -field HatchStyleWave
@@ -363,7 +363,7 @@ Specifies horizontal lines of zigzags.
 Specifies horizontal lines of tildes. 
 				
 
-<img alt="Illustration of an ellipse filled with lines of tilde characters over a background color " src="./images/hatchstylewave.png"/>
+<img alt="Illustration of an ellipse filled with lines of tilde characters over a background color " src="images/hatchstylewave.png"/>
 
 
 ### -field HatchStyleDiagonalBrick
@@ -371,7 +371,7 @@ Specifies horizontal lines of tildes.
 Specifies a hatch that has the appearance of a wall of bricks laid in a backward diagonal direction. 
 				
 
-<img alt="Illustration of an ellipse filled with a diagonal brick pattern over a background color " src="./images/hatchstylediagonalbrick.png"/>
+<img alt="Illustration of an ellipse filled with a diagonal brick pattern over a background color " src="images/hatchstylediagonalbrick.png"/>
 
 
 ### -field HatchStyleHorizontalBrick
@@ -379,7 +379,7 @@ Specifies a hatch that has the appearance of a wall of bricks laid in a backward
 Specifies a hatch that has the appearance of a wall of bricks laid horizontally. 
 				
 
-<img alt="Illustration of an ellipse filled with a horizontal brick pattern over a background color " src="./images/hatchstylehorizontalbrick.png"/>
+<img alt="Illustration of an ellipse filled with a horizontal brick pattern over a background color " src="images/hatchstylehorizontalbrick.png"/>
 
 
 ### -field HatchStyleWeave
@@ -387,7 +387,7 @@ Specifies a hatch that has the appearance of a wall of bricks laid horizontally.
 Specifies a hatch that has the appearance of a woven material. 
 				
 
-<img alt="Illustration of an ellipse filled with a diagonal weave pattern over a background color " src="./images/hatchstyleweave.png"/>
+<img alt="Illustration of an ellipse filled with a diagonal weave pattern over a background color " src="images/hatchstyleweave.png"/>
 
 
 ### -field HatchStylePlaid
@@ -395,7 +395,7 @@ Specifies a hatch that has the appearance of a woven material.
 Specifies a hatch that has the appearance of a plaid material. 
 				
 
-<img alt="Illustration of an ellipse filled with an open grid of opaque half-toned horizontal lines over opaque solid vertical lines, over a background color " src="./images/hatchstyleplaid.png"/>
+<img alt="Illustration of an ellipse filled with an open grid of opaque half-toned horizontal lines over opaque solid vertical lines, over a background color " src="images/hatchstyleplaid.png"/>
 
 
 ### -field HatchStyleDivot
@@ -403,7 +403,7 @@ Specifies a hatch that has the appearance of a plaid material.
 Specifies a hatch that has the appearance of divots. 
 				
 
-<img alt="Illustration of an ellipse filled with alternating rows of greater-than and less-than symbols, over a background color" src="./images/hatchstyledivot.png"/>
+<img alt="Illustration of an ellipse filled with alternating rows of greater-than and less-than symbols, over a background color" src="images/hatchstyledivot.png"/>
 
 
 ### -field HatchStyleDottedGrid
@@ -411,7 +411,7 @@ Specifies a hatch that has the appearance of divots.
 Specifies horizontal and vertical dotted lines that cross at 90-degree angles. 
 				
 
-<img alt="Illustration of an ellipse filled with a grid of dotted lines over a background color " src="./images/hatchstyledottedgrid.png"/>
+<img alt="Illustration of an ellipse filled with a grid of dotted lines over a background color " src="images/hatchstyledottedgrid.png"/>
 
 
 ### -field HatchStyleDottedDiamond
@@ -419,7 +419,7 @@ Specifies horizontal and vertical dotted lines that cross at 90-degree angles.
 Specifies forward diagonal and backward diagonal dotted lines that cross at 90-degree angles. 
 				
 
-<img alt="Illustration of an ellipse filled with a grid of slanting dotted lines over a background color " src="./images/hatchstyledotteddiamond.png"/>
+<img alt="Illustration of an ellipse filled with a grid of slanting dotted lines over a background color " src="images/hatchstyledotteddiamond.png"/>
 
 
 ### -field HatchStyleShingle
@@ -427,7 +427,7 @@ Specifies forward diagonal and backward diagonal dotted lines that cross at 90-d
 Specifies a hatch that has the appearance of shingles laid in a forward diagonal direction. 
 				
 
-<img alt="Illustration of an ellipse filled with a diagonal shingle pattern over a background color " src="./images/hatchstyleshingle.png"/>
+<img alt="Illustration of an ellipse filled with a diagonal shingle pattern over a background color " src="images/hatchstyleshingle.png"/>
 
 
 ### -field HatchStyleTrellis
@@ -435,7 +435,7 @@ Specifies a hatch that has the appearance of shingles laid in a forward diagonal
 Specifies a hatch that has the appearance of a trellis. 
 				
 
-<img alt="Illustration of an ellipse filled with a grid of wide, slanting lines over a background color " src="./images/hatchstyletrellis.png"/>
+<img alt="Illustration of an ellipse filled with a grid of wide, slanting lines over a background color " src="images/hatchstyletrellis.png"/>
 
 
 ### -field HatchStyleSphere
@@ -443,7 +443,7 @@ Specifies a hatch that has the appearance of a trellis.
 Specifies a hatch that has the appearance of a checkerboard of spheres. 
 				
 
-<img alt="Illustration of an ellipse filled with a checkerboard of spheres over a background color " src="./images/hatchstylesphere.png"/>
+<img alt="Illustration of an ellipse filled with a checkerboard of spheres over a background color " src="images/hatchstylesphere.png"/>
 
 
 ### -field HatchStyleSmallGrid
@@ -451,7 +451,7 @@ Specifies a hatch that has the appearance of a checkerboard of spheres.
 Specifies horizontal and vertical lines that cross at 90-degree angles and are spaced 50 percent closer together than HatchStyleCross. 
 				
 
-<img alt="Illustration of an ellipse filled with a small grid of lines over a background color " src="./images/hatchstylesmallgrid.png"/>
+<img alt="Illustration of an ellipse filled with a small grid of lines over a background color " src="images/hatchstylesmallgrid.png"/>
 
 
 ### -field HatchStyleSmallCheckerBoard
@@ -459,7 +459,7 @@ Specifies horizontal and vertical lines that cross at 90-degree angles and are s
 Specifies a hatch that has the appearance of a checkerboard. 
 				
 
-<img alt="Illustration of an ellipse filled with a small checkerboard pattern over a background color " src="./images/hatchstylesmallcheckerboard.png"/>
+<img alt="Illustration of an ellipse filled with a small checkerboard pattern over a background color " src="images/hatchstylesmallcheckerboard.png"/>
 
 
 ### -field HatchStyleLargeCheckerBoard
@@ -467,7 +467,7 @@ Specifies a hatch that has the appearance of a checkerboard.
 Specifies a hatch that has the appearance of a checkerboard with squares that are twice the size of HatchStyleSmallCheckerBoard. 
 				
 
-<img alt="Illustration of an ellipse filled with a wide checkerboard pattern over a background color " src="./images/hatchstylelargecheckerboard.png"/>
+<img alt="Illustration of an ellipse filled with a wide checkerboard pattern over a background color " src="images/hatchstylelargecheckerboard.png"/>
 
 
 ### -field HatchStyleOutlinedDiamond
@@ -475,7 +475,7 @@ Specifies a hatch that has the appearance of a checkerboard with squares that ar
 Specifies forward diagonal and backward diagonal lines that cross at 90-degree angles but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with a small grid of slanting lines over a background color " src="./images/hatchstyleoutlineddiamond.png"/>
+<img alt="Illustration of an ellipse filled with a small grid of slanting lines over a background color " src="images/hatchstyleoutlineddiamond.png"/>
 
 
 ### -field HatchStyleSolidDiamond
@@ -483,7 +483,7 @@ Specifies forward diagonal and backward diagonal lines that cross at 90-degree a
 Specifies a hatch that has the appearance of a checkerboard placed diagonally. 
 				
 
-<img alt="Illustration of an ellipse filled with a large, diagonal checkerboard pattern over a background color " src="./images/hatchstylesoliddiamond.png"/>
+<img alt="Illustration of an ellipse filled with a large, diagonal checkerboard pattern over a background color " src="images/hatchstylesoliddiamond.png"/>
 
 
 ### -field HatchStyleTotal

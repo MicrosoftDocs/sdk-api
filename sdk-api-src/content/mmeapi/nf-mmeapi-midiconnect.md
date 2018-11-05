@@ -1,0 +1,145 @@
+---
+UID: NF:mmeapi.midiConnect
+title: midiConnect function
+author: windows-sdk-content
+description: The midiConnect function connects a MIDI input device to a MIDI thru or output device, or connects a MIDI thru device to a MIDI output device.
+old-location: multimedia\midiconnect.htm
+tech.root: Multimedia
+ms.assetid: 24ee806a-f8a2-470e-8737-e4e5216f2705
+ms.author: windowssdkdev
+ms.date: 11/02/2018
+ms.keywords: "_win32_midiConnect, midiConnect, midiConnect function [Windows Multimedia], mmeapi/midiConnect, multimedia.midiconnect"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mmeapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiConnect
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# midiConnect function
+
+
+## -description
+
+
+
+The <b>midiConnect</b> function connects a MIDI input device to a MIDI thru or output device, or connects a MIDI thru device to a MIDI output device.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hmi
+
+TBD
+
+
+### -param hmo
+
+Handle to the MIDI output or thru device.
+
+
+### -param pReserved
+
+Reserved; must be <b>NULL</b>.
+
+
+#### - hMidi
+
+Handle to a MIDI input device or a MIDI thru device. (For thru devices, this handle must have been returned by a call to the <a href="https://msdn.microsoft.com/929cd4d1-6912-4456-a6c7-24a819799e46">midiOutOpen</a> function.)
+
+
+## -returns
+
+
+
+Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MIDIERR_NOTREADY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specified input device is already connected to an output device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMSYSERR_INVALHANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specified device handle is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+After calling this function, the MIDI input device receives event data in an MIM_DATA message whenever a message with the same event data is sent to the output device driver.
+
+A thru driver is a special form of MIDI output driver. The system will allow only one MIDI output device to be connected to a MIDI input device, but multiple MIDI output devices can be connected to a MIDI thru device. Whenever the given MIDI input device receives event data in an MIM_DATA message, a message with the same event data is sent to the given output device driver (or through the thru driver to the output drivers).
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+ 
+
+ 
+

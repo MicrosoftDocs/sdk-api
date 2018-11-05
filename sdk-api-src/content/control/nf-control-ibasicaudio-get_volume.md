@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio_get_volume.htm
 tech.root: DirectShow
 ms.assetid: 3258da5a-ab44-4c8a-813b-79a0c28693a3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Volume method, IBasicAudio.get_Volume, IBasicAudio::get_Volume, IBasicAudioget_Volume, control/IBasicAudio::get_Volume, dshow.ibasicaudio_get_volume, get_Volume, get_Volume method [DirectShow], get_Volume method [DirectShow],IBasicAudio interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,11 +122,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389532(v=VS.85).aspx">IBasicAudio Interface</a>
+<a href="https://msdn.microsoft.com/0335b263-8d32-4690-a606-ba2b3e382680">IBasicAudio Interface</a>
  
 
  
