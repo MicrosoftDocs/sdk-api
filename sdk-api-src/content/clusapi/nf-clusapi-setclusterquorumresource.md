@@ -7,7 +7,7 @@ old-location: mscs\setclusterquorumresource.htm
 tech.root: mscs
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: CLUS_HYBRID_QUORUM, CLUS_LEGACY_QUORUM, CLUS_NODE_MAJORITY_QUORUM, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], SetClusterQuorumResource, SetClusterQuorumResource function [Failover Cluster], _wolf_setclusterquorumresource, clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, clusapi/SetClusterQuorumResource, mscs.setclusterquorumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,8 +51,8 @@ req.redist:
 
 
 Establishes a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> as the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resource</a> for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The <b>PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
+    <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> for a 
+    <a href="c_gly.htm">cluster</a>. The <b>PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Establishes a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9
 ### -param hResource [in]
 
 Handle to the new quorum resource; or the existing 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resource</a> when 
+       <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> when 
        <i>dwMaxQuoLogSize</i> is 
        <b>CLUS_NODE_MAJORITY_QUORUM</b>.
 
@@ -81,9 +81,9 @@ Determines the drive letter and path that the Cluster service will use to mainta
 <li>If <b>NULL</b>, the Cluster service will use a default partition and a default path 
         name (see below).</li>
 </ul>
-The <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> uses the partition flagged as 
+The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> uses the partition flagged as 
        <b>CLUSPROP_PIFLAG_DEFAULT_QUORUM</b> as the default partition (see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa368381(v=VS.85).aspx">CLUSPROP_PARTITION_INFO</a>), or, if the flag 
+       <a href="https://msdn.microsoft.com/cda1e334-dba8-4fe9-b035-4e475245869c">CLUSPROP_PARTITION_INFO</a>), or, if the flag 
        cannot be found, the first available NTFS partition on the new quorum resource.
 
 For the default path name, the Cluster service uses the previous path name if one exists; otherwise it uses 
@@ -92,7 +92,7 @@ For the default path name, the Cluster service uses the previous path name if on
 
 ### -param dwMaxQuoLogSize [in]
 
-The quorum type value. Specify one of the three constants listed. When you specify <b>CLUS_NODE_MAJORITY_QUORUM</b>, <i> hResource</i> must refer to the existing <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resource</a>.
+The quorum type value. Specify one of the three constants listed. When you specify <b>CLUS_NODE_MAJORITY_QUORUM</b>, <i> hResource</i> must refer to the existing <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a>.
 
 
 
@@ -114,7 +114,7 @@ The quorum type value. Specify one of the three constants listed. When you speci
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is a possible error 
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error 
        code.
 
 
@@ -126,7 +126,7 @@ If the operation fails, the function returns a
 
 Do not call <b>SetClusterQuorumResource</b> from 
      a resource DLL. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 

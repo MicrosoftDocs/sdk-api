@@ -7,7 +7,7 @@ old-location: security\freecontextbuffer.htm
 tech.root: secauthn
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ The <b>FreeContextBuffer</b> function can free any memory allocated by a securit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

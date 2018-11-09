@@ -7,7 +7,7 @@ old-location: security\opencardname.htm
 tech.root: secauthn
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPOPENCARDNAMEA, *POPENCARDNAMEA, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -211,19 +211,23 @@ A pointer to the card connect routine of the caller. If the caller needs to perf
 
 The prototype for the connect routine is as follows.
 
-
-```cpp
-Connect(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Connect(
   hSCardContext, // the card context passed in the parameter block
   szReader,      // the name of the reader
   mszCards,      // multiple string that contains the 
                  //    possible card names in the reader
   pvUserData     // pointer to user data passed in parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnCheck
 
@@ -238,17 +242,21 @@ If the card is accepted by the verify routine, <b>TRUE</b> is returned. When the
 
 The prototype for the check routine is as follows.
 
-
-```cpp
-Check(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Check(
   hSCardContext, // the card context passed in the parameter block
   hCard,         // card handle
   pvUserData     // pointer to user data passed in the parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lpfnDisconnect
 
@@ -259,17 +267,21 @@ A pointer to the card disconnect routine of the caller.
 
 The prototype for the disconnect routine is as follows.
 
-
-```cpp
-Disconnect(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Disconnect(
   hSCardContext, // the card context passed in the parameter block
   hCard,         // card handle
   pvUserData     // pointer to user data passed in the parameter block
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  When using <b>lpfnConnect</b>, <b>lpfnCheck</b>, and <b>lpfnDisconnect</b>, all three callback procedures should be present. Using these callbacks allows further verification that the calling application has found the appropriate card. This is the best way to ensure the appropriate card is selected.</div>
 <div> </div>
 

@@ -63,14 +63,7 @@ Gets the interface ID of an agile reference to an object.
 TBD
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg2 [out, retval]
+### -param arg2 [out, retval]
 
 On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
 

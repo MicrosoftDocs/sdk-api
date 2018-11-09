@@ -63,14 +63,7 @@ Coordinates the animations of tool windows with the Desktop Window Manager (DWM)
 Handle to the window.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg2
+### -param arg2
 
 The target.
 

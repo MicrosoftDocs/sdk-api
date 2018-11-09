@@ -137,16 +137,20 @@ To call this method, declare a <b>DWORD</b> variable and set the value to the bi
 
 The following code example shows how to find out whether the stream supports forward seeking, backward seeking, and absolute seeking.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set flags for the capabilities you want to check.
 
 DWORD dwCaps = AM_SEEKING_CanSeekAbsolute | 
                AM_SEEKING_CanSeekForwards |
                AM_SEEKING_CanSeekBackwards;
 
-HRESULT hr = pMediaSeeking->CheckCapabilities(&dwCaps);
+HRESULT hr = pMediaSeeking-&gt;CheckCapabilities(&amp;dwCaps);
 if(FAILED(hr)) 
 {
     // The stream cannot seek.
@@ -157,23 +161,23 @@ else if (hr == S_OK)
 }
 else if (hr == S_FALSE) // The stream has some of the capabilities.
 {
-    if (dwCaps & AM_SEEKING_CanSeekAbsolute)
+    if (dwCaps &amp; AM_SEEKING_CanSeekAbsolute)
     {
         // The stream can seek to an absolute position.
     }
-    if (dwCaps & AM_SEEKING_CanSeekForwards)
+    if (dwCaps &amp; AM_SEEKING_CanSeekForwards)
     {
         // The stream can seek forward.
     }
-    if (dwCaps & AM_SEEKING_CanSeekBackwards)
+    if (dwCaps &amp; AM_SEEKING_CanSeekBackwards)
     {
         // The stream can seek backward.
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\cluster_csv_volume_fault_state.htm
 tech.root: mscs
 ms.assetid: D3F065E5-3304-4B4E-BD85-04CAC050B001
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: "*PCLUSTER_CSV_VOLUME_FAULT_STATE, CLUSTER_CSV_VOLUME_FAULT_STATE, CLUSTER_CSV_VOLUME_FAULT_STATE enumeration [Failover Cluster], PCLUSTER_CSV_VOLUME_FAULT_STATE, PCLUSTER_CSV_VOLUME_FAULT_STATE enumeration pointer [Failover Cluster], VolumeStateDismounted, VolumeStateInMaintenance, VolumeStateNoAccess, VolumeStateNoDirectIO, VolumeStateNoFaults, _CLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/VolumeStateDismounted, clusapi/VolumeStateInMaintenance, clusapi/VolumeStateNoAccess, clusapi/VolumeStateNoDirectIO, clusapi/VolumeStateNoFaults, mscs.cluster_csv_volume_fault_state"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,11 +88,11 @@ The CSV is dismounted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622922(v=VS.85).aspx">CLUS_CSV_VOLUME_INFO</a>
+<a href="https://msdn.microsoft.com/C672B42B-0DB9-4E70-8157-15C3189102EF">CLUS_CSV_VOLUME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

@@ -64,7 +64,7 @@ req.redist:
 The handle of the window to check.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

@@ -148,23 +148,27 @@ On some compression filters, the method fails if the filter's input pin is not c
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IAMStreamConfig *pConfig = NULL;
 // Query the output pin for IAMStreamConfig (not shown).
 AM_MEDIA_TYPE *pmt = NULL;
-hr = pConfig->GetFormat(&pmt);
+hr = pConfig-&gt;GetFormat(&amp;pmt);
 if (SUCCEEDED(hr))
 {
     /* Examine the media type for any information you need. */
     DeleteMediaType(pmt);
 }
-pConfig->Release();
-
-```
-
-
+pConfig-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

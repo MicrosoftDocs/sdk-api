@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_get_name.htm
 tech.root: tapi
 ms.assetid: 0bbc0862-41d7-40cc-9b9d-57a2238122ee
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassRegistration.get_Name, ITPluggableTerminalClassRegistration::get_Name, _tapi3_itpluggableterminalclassregistration_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_name, termmgr/ITPluggableTerminalClassRegistration::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ The
 ### -param pName [out]
 
 The <b>BSTR</b> representation of the friendly name. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

@@ -65,7 +65,7 @@ Type: <b>U</b>
 The index of the property.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

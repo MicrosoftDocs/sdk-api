@@ -7,7 +7,7 @@ old-location: multimedia\midistreamproperty.htm
 tech.root: Multimedia
 ms.assetid: fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "_win32_midiStreamProperty, midiStreamProperty, midiStreamProperty function [Windows Multimedia], mmeapi/midiStreamProperty, multimedia.midistreamproperty"
 ms.prod: windows-hardware
 ms.technology: windows-devices

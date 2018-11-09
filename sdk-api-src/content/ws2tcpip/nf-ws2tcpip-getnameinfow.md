@@ -114,32 +114,32 @@ Nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>One or more invalid parameters was passed to the <b>GetNameInfoW</b> function. This error is returned if a host name was requested but the <i>NodeBufferSize</i> parameter was zero or if a service name was requested but the <i>ServiceBufferSize</i> parameter was zero. </td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>The <b>sa_family</b> member of socket address structure pointed to by the <i>pSockaddr</i> parameter is not supported. </td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></td>
 <td>A service name was requested, but no port number was found in the structure pointed to by the <i>pSockaddr</i> parameter or no service name matching the port number was found. NI_NAMEREQD is set and the host's name cannot be located, or both the <i>pNodeBuffer</i> and <i>pServiceBuffer</i> parameters were <b>NULL</b>. </td>
 </tr>
 </table>
@@ -161,7 +161,7 @@ In addition, the following error codes can be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -189,16 +189,20 @@ Macros in the Winsock header file define a mixed-case function name of <b>GetNam
 
 To simplify determining buffer requirements for the <i>pNodeBuffer</i> and <i>pServiceBuffer</i> parameters, the following values for maximum host name length and maximum service name are defined in the <i>Ws2tcpip.h</i> header file:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define NI_MAXSERV    32
 #define NI_MAXHOST  1025
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 The <i>Flags</i> parameter can be used to customize processing of the 
 <b>GetNameInfoW</b> function. The following flags are available:
@@ -244,17 +248,21 @@ Setting the <b>NI_DGRAM</b> flag indicates that the service is a datagram servic
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>GetNameInfoW</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -282,7 +290,7 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -296,7 +304,7 @@ int __cdecl main(int argc, char **argv)
 
     //-----------------------------------------
     // Call GetNameInfoW
-    dwRetval = GetNameInfoW((struct sockaddr *) &saGNI,
+    dwRetval = GetNameInfoW((struct sockaddr *) &amp;saGNI,
                            sizeof (struct sockaddr),
                            hostname,
                            NI_MAXHOST, servInfo, NI_MAXSERV, NI_NUMERICSERV);
@@ -309,10 +317,10 @@ int __cdecl main(int argc, char **argv)
         return 0;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

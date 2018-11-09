@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_signingcertificatetemplate.htm
 tech.root: seccrypto
 ms.assetid: 38e75d8f-1e6a-4214-8142-85f7e9c41ce2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificateTemplate property, IOCSPCAConfiguration.SigningCertificateTemplate, IOCSPCAConfiguration.put_SigningCertificateTemplate, IOCSPCAConfiguration::SigningCertificateTemplate, IOCSPCAConfiguration::get_SigningCertificateTemplate, IOCSPCAConfiguration::put_SigningCertificateTemplate, SigningCertificateTemplate property [Security], SigningCertificateTemplate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificateTemplate, certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate, certadm/IOCSPCAConfiguration::put_SigningCertificateTemplate, put_SigningCertificateTemplate, security.iocspcaconfiguration_signingcertificatetemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

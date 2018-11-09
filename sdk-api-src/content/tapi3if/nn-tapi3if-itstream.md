@@ -7,7 +7,7 @@ old-location: tapi3\itstream.htm
 tech.root: tapi
 ms.assetid: 74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITStream, ITStream interface [TAPI 2.2], ITStream interface [TAPI 2.2],described, _tapi3_itstream, tapi3.itstream, tapi3if/ITStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStream</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStream</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -187,7 +187,7 @@ Unselects the terminal from the stream.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

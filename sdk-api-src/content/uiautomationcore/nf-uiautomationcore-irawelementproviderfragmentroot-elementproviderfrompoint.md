@@ -108,9 +108,13 @@ The following example shows an implementation for a list box hosted in an <b>HWN
             the UI Automation provider for that item. 
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE ListProvider::ElementProviderFromPoint(double x, double y, IRawElementProviderFragment** pRetVal)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE ListProvider::ElementProviderFromPoint(double x, double y, IRawElementProviderFragment** pRetVal)
 {
     if (pRetVal == NULL) 
     {
@@ -119,25 +123,25 @@ HRESULT STDMETHODCALLTYPE ListProvider::ElementProviderFromPoint(double x, doubl
     POINT pt;
     pt.x = (LONG)x;
     pt.y = (LONG)y;
-    ScreenToClient(m_controlHwnd, &pt);
-    int itemIndex = this->m_pControl->IndexFromY(m_controlHwnd, pt.y);
+    ScreenToClient(m_controlHwnd, &amp;pt);
+    int itemIndex = this-&gt;m_pControl-&gt;IndexFromY(m_controlHwnd, pt.y);
     ListItemProvider* pItem = GetItemByIndex(itemIndex);  
     if (pItem != NULL)
     {
         *pRetVal = (IRawElementProviderFragment*)pItem;
-        pItem->AddRef();
+        pItem-&gt;AddRef();
     }
     else 
     {
         pRetVal = (IRawElementProviderFragment*)this;
-        pItem->AddRef();
+        pItem-&gt;AddRef();
     }
 
     return S_OK;
-}            
-```
-
-
+}            </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/">/Oicf</a> mode stub.
+The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -68,14 +68,7 @@ Pointer to the MIDL-generated <a href="https://msdn.microsoft.com/e3178aaa-a30a-
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg3 [in, out]
+### -param arg3 [in, out]
 
 Pointer to the client-side calling stack.
 
@@ -95,7 +88,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 

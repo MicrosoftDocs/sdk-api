@@ -4,10 +4,10 @@ title: ResUtilVerifyResourceService function
 author: windows-sdk-content
 description: Verifies that a named service is starting or currently running. The PRESUTIL_VERIFY_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilverifyresourceservice.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE function [Failover Cluster], ResUtilVerifyResourceService, ResUtilVerifyResourceService function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE, resapi/ResUtilVerifyResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Verifies that a named <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Verifies that a named <a href="s_gly.htm">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

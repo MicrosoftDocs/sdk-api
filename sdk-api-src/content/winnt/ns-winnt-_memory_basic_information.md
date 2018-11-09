@@ -4,10 +4,10 @@ title: "_MEMORY_BASIC_INFORMATION"
 author: windows-sdk-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: base\memory_basic_information_str.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: dc3fa48e-0986-49cc-88a9-ff8179fbe5f0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer, _MEMORY_BASIC_INFORMATION, _win32_memory_basic_information_str, base.memory_basic_information_str, winnt/MEMORY_BASIC_INFORMATION, winnt/PMEMORY_BASIC_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -189,9 +189,13 @@ Indicates that the memory pages within the region are private (that is, not shar
 
 To enable a debugger to debug a target that is running on a different architecture (32-bit versus 64-bit), use one of the explicit forms of this structure.
 
-
-```cpp
-typedef struct _MEMORY_BASIC_INFORMATION32 {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _MEMORY_BASIC_INFORMATION32 {
     DWORD BaseAddress;
     DWORD AllocationBase;
     DWORD AllocationProtect;
@@ -211,10 +215,10 @@ typedef struct DECLSPEC_ALIGN(16) _MEMORY_BASIC_INFORMATION64 {
     DWORD     Protect;
     DWORD     Type;
     DWORD     __alignment2;
-} MEMORY_BASIC_INFORMATION64, *PMEMORY_BASIC_INFORMATION64;
-```
-
-
+} MEMORY_BASIC_INFORMATION64, *PMEMORY_BASIC_INFORMATION64;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

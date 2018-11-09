@@ -69,14 +69,7 @@ A handle to the module from which the string should be loaded, or null for syste
 The identifier of the message to print.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg3
+### -param arg3
 
 The arguments used to fill into the message.
 

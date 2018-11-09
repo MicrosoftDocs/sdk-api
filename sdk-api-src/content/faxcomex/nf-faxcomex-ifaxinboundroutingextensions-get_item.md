@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9mwd_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get_Item method, IFaxInboundRoutingExtensions.get_Item, IFaxInboundRoutingExtensions::get_Item, _mfax_faxinboundroutingextensions.item_cpp, fax._mfax_faxinboundroutingextensions_item_cpp, faxcomex/IFaxInboundRoutingExtensions::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingExtensions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

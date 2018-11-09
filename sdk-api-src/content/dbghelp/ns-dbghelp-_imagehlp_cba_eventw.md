@@ -141,7 +141,7 @@ This member is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff797951(v=VS.85).aspx">SymbolServerCallback</a>
+<a href="base.symbolservercallback">SymbolServerCallback</a>
  
 
  

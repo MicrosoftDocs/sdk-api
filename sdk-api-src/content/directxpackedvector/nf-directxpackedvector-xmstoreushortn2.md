@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee420713(v=VS.85).aspx">XMUSHORTN2</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/05f62462-2b6a-4d1b-bf83-9109a254839e">XMUSHORTN2</a>.
 
 
 ## -parameters
@@ -83,9 +83,13 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR N;	
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR N;	
 static const XMVECTOR  Scale = {65535.0f, 65535.0f, 65535.0f, 65535.0f};
 
 assert(pDestination);
@@ -94,11 +98,11 @@ N = XMVectorClamp(V, XMVectorZero(), g_XMOne);
 N = XMVectorMultiplyAdd(N, Scale, g_XMOneHalf);
 N = XMVectorTruncate(N);
 
-pDestination->x = (int16_t)N.v[0];
-pDestination->y = (int16_t)N.v[1];
-```
-
-
+pDestination-&gt;x = (int16_t)N.v[0];
+pDestination-&gt;y = (int16_t)N.v[1];</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

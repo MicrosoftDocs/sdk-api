@@ -7,7 +7,7 @@ old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
 tech.root: mscs
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: GetClusterHandle, GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterHandle method, IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Returns a handle to the <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A cluster handle.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370211(v=VS.85).aspx">IGetClusterDataInfo</a>
+<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
  
 
  

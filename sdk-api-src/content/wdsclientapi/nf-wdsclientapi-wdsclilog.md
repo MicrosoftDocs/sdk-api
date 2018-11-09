@@ -196,14 +196,7 @@ Used to determine an out-of-range index. Values greater than or equal to
  
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg4
+### -param arg4
 
 The quantity and type of the additional arguments varies with the value of the 
       <i>ulMessageCode</i> parameter.

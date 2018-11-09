@@ -125,7 +125,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 
 A 3D scale transform represents the following 4-by-4 matrix:
 
-<img alt="Four-by-four 3D scale matrix" src="./images/3D_scale_transform_4x4matrix.png"/>
+<img alt="Four-by-four 3D scale matrix" src="images/3D_scale_transform_4x4matrix.png"/>
 
 The effect is to scale the blending of the visual's subtree up or down, and apply the corresponding translation such that the center point does not move.
 

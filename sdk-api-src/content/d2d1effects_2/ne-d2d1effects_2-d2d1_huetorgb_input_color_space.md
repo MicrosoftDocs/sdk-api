@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890730(v=VS.85).aspx">D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn890774(v=VS.85).aspx">Hue to RGB effect</a>.
+Values for the <a href="https://msdn.microsoft.com/293E05B7-DA10-4E71-B519-0AF99EE007EC">D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ The effect converts from Hue Saturation Lightness (HSL) to RGB.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 
@@ -86,7 +86,7 @@ The effect converts from Hue Saturation Lightness (HSL) to RGB.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890774(v=VS.85).aspx">Hue to RGB effect</a>
+<a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>
  
 
  

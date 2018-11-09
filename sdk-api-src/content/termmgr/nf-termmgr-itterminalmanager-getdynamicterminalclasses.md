@@ -7,7 +7,7 @@ old-location: tapi3\itterminalmanager_getdynamicterminalclasses.htm
 tech.root: tapi
 ms.assetid: 6e0ae94c-eab9-4ca2-a982-a5673f73130e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],GetDynamicTerminalClasses method, ITTerminalManager.GetDynamicTerminalClasses, ITTerminalManager::GetDynamicTerminalClasses, _tapi3_itterminalmanager_getdynamicterminalclasses, tapi3.itterminalmanager_getdynamicterminalclasses, termmgr/ITTerminalManager::GetDynamicTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_numberofoutgoingcalls.htm
 tech.root: tapi
 ms.assetid: fb2af58c-0b9e-4b00-8d8c-2fbfb2e0fc95
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfOutgoingCalls method, ITAgent.get_NumberOfOutgoingCalls, ITAgent::get_NumberOfOutgoingCalls, _tapi3_itagent_get_numberofoutgoingcalls, get_NumberOfOutgoingCalls, get_NumberOfOutgoingCalls method [TAPI 2.2], get_NumberOfOutgoingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofoutgoingcalls, tapi3cc/ITAgent::get_NumberOfOutgoingCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices

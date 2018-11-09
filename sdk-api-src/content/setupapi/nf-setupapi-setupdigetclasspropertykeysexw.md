@@ -253,7 +253,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetClassPropertyKeysEx</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
+<b>SetupDiGetClassPropertyKeysEx</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
 
 A caller of <b>SetupDiGetClassPropertyKeysEx</b> must be a member of the Administrators group to retrieve device property keys for a device class. 
 

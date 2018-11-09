@@ -7,7 +7,7 @@ old-location: multimedia\midistreamstop.htm
 tech.root: Multimedia
 ms.assetid: cf91b50c-9be9-49a6-a52c-7a56467ec21a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "_win32_midiStreamStop, midiStreamStop, midiStreamStop function [Windows Multimedia], mmeapi/midiStreamStop, multimedia.midistreamstop"
 ms.prod: windows-hardware
 ms.technology: windows-devices

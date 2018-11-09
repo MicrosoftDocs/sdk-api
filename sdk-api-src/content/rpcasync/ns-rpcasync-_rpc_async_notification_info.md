@@ -90,19 +90,19 @@ Handle to the I/O completion port.
 ### -field IOC.dwNumberOfBytesTransferred
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 ### -field IOC.dwCompletionKey
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpCompletionKey</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 ### -field IOC.lpOverlapped
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpOverlapped</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 
 ### -field HWND

@@ -61,16 +61,16 @@ Gets a DXGI 1.0 description of an adapter (or video card).
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173058(v=VS.85).aspx">DXGI_ADAPTER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df39ce37-e1ed-40f3-bfb0-3f7eddf4ec19">DXGI_ADAPTER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173058(v=VS.85).aspx">DXGI_ADAPTER_DESC</a> structure that describes the adapter. This parameter must not be <b>NULL</b>. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <b>GetDesc</b> returns zeros for the PCI ID in the <b>VendorId</b>, <b>DeviceId</b>, <b>SubSysId</b>, and <b>Revision</b> members of <b>DXGI_ADAPTER_DESC</b> and “Software Adapter” for the description string in the <b>Description</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/df39ce37-e1ed-40f3-bfb0-3f7eddf4ec19">DXGI_ADAPTER_DESC</a> structure that describes the adapter. This parameter must not be <b>NULL</b>. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <b>GetDesc</b> returns zeros for the PCI ID in the <b>VendorId</b>, <b>DeviceId</b>, <b>SubSysId</b>, and <b>Revision</b> members of <b>DXGI_ADAPTER_DESC</b> and “Software Adapter” for the description string in the <b>Description</b> member.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise returns E_INVALIDARG if the <i>pDesc</i> parameter is <b>NULL</b>.  
         
@@ -89,9 +89,13 @@ Graphics apps can use the DXGI API to retrieve an accurate set of graphics memor
 <li>
 Graphics driver model determination —Because DXGI is only available on systems with WDDM drivers, the app must first confirm the driver model by using the following API.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 HasWDDMDriver()
 {
     LPDIRECT3DCREATE9EX pD3D9Create9Ex = NULL;
@@ -111,29 +115,33 @@ HasWDDMDriver()
 
     return pD3D9Create9Ex != NULL;
 }
-      
-```
-
-
+      </pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 <li>
 Retrieval of graphics memory values.—After the app determines the driver model to be WDDM, the app can use the Direct3D 10 or later API and DXGI to get the amount of graphics memory. 
       After you create a Direct3D device, use this code to obtain 
-      a <a href="https://msdn.microsoft.com/en-us/library/Bb173058(v=VS.85).aspx">DXGI_ADAPTER_DESC</a> structure that contains the amount of available graphics memory.
+      a <a href="https://msdn.microsoft.com/df39ce37-e1ed-40f3-bfb0-3f7eddf4ec19">DXGI_ADAPTER_DESC</a> structure that contains the amount of available graphics memory.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 IDXGIDevice * pDXGIDevice;
-hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice), (void **)&pDXGIDevice);
+hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice), (void **)&amp;pDXGIDevice);
 IDXGIAdapter * pDXGIAdapter;
-pDXGIDevice->GetAdapter(&pDXGIAdapter);
+pDXGIDevice-&gt;GetAdapter(&amp;pDXGIAdapter);
 DXGI_ADAPTER_DESC adapterDesc;
-pDXGIAdapter->GetDesc(&adapterDesc);
-      
-```
-
-
+pDXGIAdapter-&gt;GetDesc(&amp;adapterDesc);
+      </pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 </ul>
 
@@ -148,7 +156,7 @@ pDXGIAdapter->GetDesc(&adapterDesc);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>
+<a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>
  
 
  

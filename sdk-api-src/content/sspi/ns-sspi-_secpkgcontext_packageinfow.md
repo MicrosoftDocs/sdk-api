@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_packageinfo.htm
 tech.root: secauthn
 ms.assetid: 94c21f22-d974-4ae5-beef-d4567e6ea7e1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*PSecPkgContext_PackageInfoW, PSecPkgContext_PackageInfo, PSecPkgContext_PackageInfo structure pointer [Security], SecPkgContext_PackageInfo, SecPkgContext_PackageInfo structure [Security], SecPkgContext_PackageInfoW, _SecPkgContext_PackageInfoA, _SecPkgContext_PackageInfoW, _ssp_secpkgcontext_packageinfo, security.secpkgcontext_packageinfo, sspi/PSecPkgContext_PackageInfo, sspi/SecPkgContext_PackageInfo"
 ms.prod: windows
 ms.technology: windows-sdk

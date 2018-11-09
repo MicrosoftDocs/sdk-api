@@ -7,7 +7,7 @@ old-location: tapi3\ienumlocation_reset.htm
 tech.root: tapi
 ms.assetid: e3933f0c-ae45-4749-916a-c2bc64ba41a0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumLocation interface [TAPI 2.2],Reset method, IEnumLocation.Reset, IEnumLocation::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumLocation interface, _tapi3_ienumlocation_reset, tapi3.ienumlocation_reset, tapi3if/IEnumLocation::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

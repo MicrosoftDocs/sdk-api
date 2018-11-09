@@ -4,10 +4,10 @@ title: HeapReAlloc function
 author: windows-sdk-content
 description: Reallocates a block of memory from a heap. This function enables you to resize a memory block and change other memory block properties.
 old-location: base\heaprealloc.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 21d711d9-3b16-4537-a830-1a2fa049a471
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_ONLY, HEAP_ZERO_MEMORY, HeapReAlloc, HeapReAlloc function, _win32_heaprealloc, base.heaprealloc, heapapi/HeapReAlloc, winbase/HeapReAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

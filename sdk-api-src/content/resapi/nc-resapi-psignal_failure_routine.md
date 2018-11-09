@@ -4,10 +4,10 @@ title: PSIGNAL_FAILURE_ROUTINE
 author: windows-sdk-content
 description: Reports that there was a failure in a resource instance. The PSIGNAL_FAILURE_ROUTINE type defines a pointer to this function.
 old-location: mscs\signalfailure.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: C4226174-B983-4BF5-8DA5-638201124037
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: PSIGNAL_FAILURE_ROUTINE, PSIGNAL_FAILURE_ROUTINE callback function [Failover Cluster], SignalFailure, SignalFailure callback, SignalFailure callback function [Failover Cluster], mscs.signalfailure, resapi/PSIGNAL_FAILURE_ROUTINE, resapi/SignalFailure
 ms.prod: windows
 ms.technology: windows-sdk

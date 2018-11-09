@@ -4,11 +4,11 @@ title: MapViewOfFile3 function
 author: windows-sdk-content
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffile3.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 585D7BA1-688F-4F24-8D8D-46A2FC137193
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: MapViewOfFile3, MapViewOfFile3 function, base.mapviewoffile3, memoryapi/MapViewOfFile3
+ms.date: 11/08/2018
+ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3, MapViewOfFile3 function, base.mapviewoffile3, memoryapi/MapViewOfFile3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -54,9 +54,9 @@ req.redist:
 Maps a view of a file or a pagefile-backed section into the address
     space of the specified process.
 
-Using this function you can: allocate/map memory with specified power-of-2 alignment; allocate/map memory in a specified range of virtual address space; and allocate/map memory on top of a previously reserved range.
+Using this function, you can: for new allocations, specify a range of virtual address space and a power-of-2 alignment restriction; specify an arbitrary number of extended parameters; specify a preferred NUMA node for the physical memory as an extended parameter; and specify a placeholder operation (specifically, replacement).
 
-To specify the NUMA node for the physical memory, see the <i>ExtendedParameters</i> parameter.
+To specify the NUMA node, see the <i>ExtendedParameters</i> parameter.
 
 
 ## -parameters
@@ -95,19 +95,66 @@ The offset from the beginning of the section.
 The number of bytes to map. A value of zero (0)
                specifies that the entire section is to be mapped.
 
+The size must always be a multiple of the page size.
+
 
 ### -param AllocationType [in]
 
-The type of allocation. This parameter can be zero (0) or one of the following constant values:
+The type of memory allocation. This parameter can be zero (0) or one of the following values.
 
-<ul>
-<li><b>MEM_RESERVE</b> - Maps a reserved view</li>
-<li><b>MEM_LARGE_PAGES</b> - Maps a large page view</li>
-</ul>
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_RESERVE"></a><a id="mem_reserve"></a><dl>
+<dt><b>MEM_RESERVE</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
+Maps a reserved view.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_REPLACE_PLACEHOLDER"></a><a id="mem_replace_placeholder"></a><dl>
+<dt><b>MEM_REPLACE_PLACEHOLDER</b></dt>
+<dt>0x00004000</dt>
+</dl>
+</td>
+<td width="60%">
+ Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder.
+
+After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="https://msdn.microsoft.com/1C86075D-17B8-481E-BDF0-6E5A8F55C188">UnmapViewOfFileEx</a> and <a href="https://msdn.microsoft.com/300BA329-1E56-4C0F-81FC-FED42FCE9EB7">UnmapViewOfFile2</a>.
+
+A placeholder is a type of reserved memory region.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_LARGE_PAGES"></a><a id="mem_large_pages"></a><dl>
+<dt><b>MEM_LARGE_PAGES</b></dt>
+<dt>0x20000000</dt>
+</dl>
+</td>
+<td width="60%">
+Maps a large page view. See <a href="https://msdn.microsoft.com/060115af-38d1-499c-b30c-47cd0cf42d20">large page support</a>.
+
+</td>
+</tr>
+</table>
+ 
+
 
 ### -param PageProtection [in]
 
 The desired page protection.
+
+For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the 
+       <i>PageProtection</i> parameter has no effect, and should be set to any valid value such as 
+       <b>PAGE_READONLY</b>.
 
 
 ### -param ExtendedParameters [in, out, optional]

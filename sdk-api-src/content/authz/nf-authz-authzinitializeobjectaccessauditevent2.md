@@ -141,7 +141,7 @@ A pointer to the returned <b>AUTHZ_AUDIT_EVENT_HANDLE</b> handle.
 Must be set to zero.
 
 
-### -param arg1
+### -param arg10
 
 TBD
 
@@ -168,7 +168,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

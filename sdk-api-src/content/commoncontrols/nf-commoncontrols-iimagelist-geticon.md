@@ -71,7 +71,7 @@ A value of type <b>int</b> that contains the index of the image.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of flags that specify the drawing style. For a list of values, see <a href="https://msdn.microsoft.com/en-us/library/Bb761455(v=VS.85).aspx">IImageList::Draw</a>. 
+A combination of flags that specify the drawing style. For a list of values, see <a href="https://msdn.microsoft.com/4a52a225-b5b3-444d-8878-a8d6de7478ee">IImageList::Draw</a>. 
 				
 
 
@@ -97,10 +97,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The calling application must destroy the icon returned from this method using <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>. 
+The calling application must destroy the icon returned from this method using <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>. 
 		
 
-To use <b>IImageList::GetIcon</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::GetIcon</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

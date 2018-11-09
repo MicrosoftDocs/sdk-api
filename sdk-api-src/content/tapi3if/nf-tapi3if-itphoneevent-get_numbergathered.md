@@ -7,7 +7,7 @@ old-location: tapi3\itphoneevent_get_numbergathered.htm
 tech.root: tapi
 ms.assetid: 04537dbb-e1a1-445c-963e-13a8733f2566
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_NumberGathered method, ITPhoneEvent.get_NumberGathered, ITPhoneEvent::get_NumberGathered, _tapi3_itphoneevent_get_numbergathered, get_NumberGathered, get_NumberGathered method [TAPI 2.2], get_NumberGathered method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_numbergathered, tapi3if/ITPhoneEvent::get_NumberGathered
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The
 ### -param ppNumber [out]
 
 Phone number that was gathered. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> and should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> and should be deallocated by the client.
 
 
 ## -returns

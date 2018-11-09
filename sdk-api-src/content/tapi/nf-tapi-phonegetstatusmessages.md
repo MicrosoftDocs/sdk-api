@@ -7,7 +7,7 @@ old-location: tapi2\phonegetstatusmessages.htm
 tech.root: tapi
 ms.assetid: 3ee182cf-20e2-4745-9aee-d5de8b44c1b4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_phonegetstatusmessages, phoneGetStatusMessages, phoneGetStatusMessages function [TAPI 2.2], tapi/phoneGetStatusMessages, tapi2.phonegetstatusmessages"
 ms.prod: windows-hardware
 ms.technology: windows-devices

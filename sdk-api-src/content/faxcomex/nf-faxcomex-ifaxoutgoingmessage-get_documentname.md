@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_documentn
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1tt1.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],DocumentName property, IFaxOutgoingMessage.DocumentName, IFaxOutgoingMessage.get_DocumentName, IFaxOutgoingMessage::DocumentName, IFaxOutgoingMessage::get_DocumentName, _mfax_faxoutgoingmessage.documentname, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_documentname_cpp, fax._mfax_faxoutgoingmessage_documentname, faxcomex/IFaxOutgoingMessage::DocumentName, faxcomex/IFaxOutgoingMessage::get_DocumentName, get_DocumentName
 ms.prod: windows-hardware
 ms.technology: windows-devices

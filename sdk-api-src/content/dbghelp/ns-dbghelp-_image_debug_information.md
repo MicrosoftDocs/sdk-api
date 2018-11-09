@@ -442,15 +442,19 @@ This member is reserved for use by the operating system.
 
 The <b>LIST_ENTRY</b> structure is defined as follows:
 
-
-```cpp
-typedef struct _LIST_ENTRY {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _LIST_ENTRY {
    struct _LIST_ENTRY *Flink;
    struct _LIST_ENTRY *Blink;
-} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;
-```
-
-
+} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

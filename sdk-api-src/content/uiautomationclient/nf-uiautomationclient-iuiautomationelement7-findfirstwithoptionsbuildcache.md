@@ -73,9 +73,9 @@ A pointer to a condition that represents the criteria to match.
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
 
-### -param arg2
+### -param arg4
 
-TBD
+Enumeration value specifying the tree navigation order.
 
 
 ### -param root [in, optional]
@@ -88,11 +88,6 @@ A pointer to the element with which to begin the search.
 TBD
 
 
-
-
-#### - arg4
-
-Enumeration value specifying the tree navigation order.
 
 
 #### - foundElement [out, retval]

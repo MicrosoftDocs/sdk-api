@@ -4,11 +4,11 @@ title: VirtualAlloc2FromApp function
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 old-location: base\virtualalloc2fromapp.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 84896A75-A917-4CA1-A417-650428E1FBFD
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc2FromApp, VirtualAlloc2FromApp function, base.virtualalloc2fromapp, memoryapi/VirtualAlloc2FromApp
+ms.date: 11/08/2018
+ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc2FromApp, VirtualAlloc2FromApp function, base.virtualalloc2fromapp, memoryapi/VirtualAlloc2FromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -51,14 +51,12 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Reserves, commits, or changes the state  of a region of pages in the virtual address space of the calling process. 
     Memory allocated by this function is automatically initialized to zero.
 
-Using this function you can: allocate/map memory with specified power-of-2 alignment; allocate/map memory in a specified range of virtual address space; and allocate/map memory on top of a previously reserved range.
+Using this function, you can: for new allocations, specify a range of virtual address space and a power-of-2 alignment restriction; specify an arbitrary number of extended parameters; specify a preferred NUMA node for the physical memory as an extended parameter; and specify a placeholder operation (specifically, replacement).
 
-To specify the NUMA node for the physical memory, see the <i>ExtendedParameters</i> parameter.
+To specify the NUMA node, see the <i>ExtendedParameters</i> parameter.
 
 
 ## -parameters
@@ -77,21 +75,25 @@ The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more info
 
 ### -param BaseAddress [in, optional]
 
-The starting address of the region to allocate. If the memory is being reserved, the specified address is 
-      rounded down to the nearest multiple of the allocation granularity. If the memory is already reserved and is 
-      being committed, the address is rounded down to the next page boundary. To determine the size of a page and the 
-      allocation granularity on the host computer, use the 
-      <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function. If this parameter is 
-      <b>NULL</b>, the system determines where to allocate the region.
+The pointer that specifies a desired starting address for the region of pages that you want to allocate.
+
+ If an explicit base address is specified, then it must be a multiple of the system allocation granularity. To determine the size of a page and the allocation granularity on the host computer, use the 
+       <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function.
+
+If <i>BaseAddress</i> is <b>NULL</b>, the function determines where to 
+       allocate the region.
 
 
 ### -param Size [in]
 
-The size of the region, in bytes. If the <i>BaseAddress</i> parameter is 
-      <b>NULL</b>, this value is rounded up to the next page boundary. Otherwise, the allocated 
-      pages include all pages containing one or more bytes in the range from <i>BaseAddress</i> to 
-      <i>BaseAddress</i>+<i>Size</i>. This means that a 2-byte range straddling 
-      a page boundary causes both pages to be included in the allocated region.
+The size of the region of memory to allocate, in bytes.
+
+The size must always be a multiple of the page size.
+
+If <i>BaseAddress</i> is not <b>NULL</b>, the function allocates all 
+       pages that contain one or more bytes in the range from <i>BaseAddress</i> to 
+       <i>BaseAddress</i>+<i>Size</i>. This means, for example, that a 2-byte 
+       range that straddles a page boundary causes the function to allocate both pages.
 
 
 ### -param AllocationType [in]
@@ -147,6 +149,36 @@ You can commit reserved pages in subsequent calls to the
 Other memory allocation functions, such as <b>malloc</b> and 
          <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>, cannot use a reserved range of memory 
          until it is released.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_REPLACE_PLACEHOLDER"></a><a id="mem_replace_placeholder"></a><dl>
+<dt><b>MEM_REPLACE_PLACEHOLDER</b></dt>
+<dt>0x00004000</dt>
+</dl>
+</td>
+<td width="60%">
+ Replaces a placeholder with a normal private allocation. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>Size</i> must exactly match those of the placeholder.
+
+After you replace a placeholder with a private allocation, to free that allocation back to a placeholder, see the <i>dwFreeType</i> parameter of <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> and <a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a>.
+
+A placeholder is a type of reserved memory region.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_RESERVE_PLACEHOLDER"></a><a id="mem_reserve_placeholder"></a><dl>
+<dt><b>MEM_RESERVE_PLACEHOLDER</b></dt>
+<dt>0x00040000</dt>
+</dl>
+</td>
+<td width="60%">
+ To create a placeholder, call 
+         <a href="base.virtualalloc2">VirtualAlloc2</a> with 
+         <code>MEM_RESERVE | MEM_RESERVE_PLACEHOLDER</code> and <i>PageProtection</i> set to <b>PAGE_NOACCESS</b>. To free/split/coalesce a placeholder, see the <i>dwFreeType</i> parameter of <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> and <a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a>.
+
+A placeholder is a type of reserved memory region.
 
 </td>
 </tr>

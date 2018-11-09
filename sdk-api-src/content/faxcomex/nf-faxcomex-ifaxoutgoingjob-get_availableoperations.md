@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperatio
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],AvailableOperations property, IFaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp, faxcomex/IFaxOutgoingJob::AvailableOperations, faxcomex/IFaxOutgoingJob::get_AvailableOperations, get_AvailableOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
  
 
  

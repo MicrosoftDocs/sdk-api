@@ -7,7 +7,7 @@ old-location: mscs\cluster_membership_info.htm
 tech.root: mscs
 ms.assetid: 4E3F8DFF-6F32-4729-9AAC-56B3E2592393
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: "*PCLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], PCLUSTER_MEMBERSHIP_INFO, PCLUSTER_MEMBERSHIP_INFO structure pointer [Failover Cluster], _CLUSTER_MEMBERSHIP_INFO, _CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], clusapi/CLUSTER_MEMBERSHIP_INFO, clusapi/PCLUSTER_MEMBERSHIP_INFO, clusapi/_CLUSTER_MEMBERSHIP_INFO, msclus/CLUSTER_MEMBERSHIP_INFO, msclus/PCLUSTER_MEMBERSHIP_INFO, msclus/_CLUSTER_MEMBERSHIP_INFO, mscs.cluster_membership_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ A byte array that specifies the nodes in the cluster that are online.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

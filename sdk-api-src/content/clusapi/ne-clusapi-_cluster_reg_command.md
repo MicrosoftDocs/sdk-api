@@ -7,7 +7,7 @@ old-location: mscs\cluster_reg_command.htm
 tech.root: mscs
 ms.assetid: 1a1266dc-a223-48bd-be30-80c8b50c5b21
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: CLUSREG_COMMAND_NONE, CLUSREG_CONDITION_EXISTS, CLUSREG_CONDITION_IS_EQUAL, CLUSREG_CONDITION_IS_GREATER_THAN, CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, CLUSREG_CONDITION_IS_LESS_THAN, CLUSREG_CONDITION_IS_NOT_EQUAL, CLUSREG_CONDITION_KEY_EXISTS, CLUSREG_CONDITION_NOT_EXISTS, CLUSREG_CONTROL_COMMAND, CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_LAST_COMMAND, CLUSREG_READ_ERROR, CLUSREG_READ_VALUE, CLUSREG_SET_KEY_SECURITY, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_REG_COMMAND, CLUSTER_REG_COMMAND enumeration [Failover Cluster], _CLUSTER_REG_COMMAND, _CLUSTER_REG_COMMAND enumeration [Failover Cluster], clusapi/CLUSREG_COMMAND_NONE, clusapi/CLUSREG_CONDITION_EXISTS, clusapi/CLUSREG_CONDITION_IS_EQUAL, clusapi/CLUSREG_CONDITION_IS_GREATER_THAN, clusapi/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, clusapi/CLUSREG_CONDITION_IS_LESS_THAN, clusapi/CLUSREG_CONDITION_IS_NOT_EQUAL, clusapi/CLUSREG_CONDITION_KEY_EXISTS, clusapi/CLUSREG_CONDITION_NOT_EXISTS, clusapi/CLUSREG_CONTROL_COMMAND, clusapi/CLUSREG_CREATE_KEY, clusapi/CLUSREG_DELETE_KEY, clusapi/CLUSREG_DELETE_VALUE, clusapi/CLUSREG_LAST_COMMAND, clusapi/CLUSREG_READ_ERROR, clusapi/CLUSREG_READ_VALUE, clusapi/CLUSREG_SET_KEY_SECURITY, clusapi/CLUSREG_SET_VALUE, clusapi/CLUSREG_VALUE_DELETED, clusapi/CLUSTER_REG_COMMAND, clusapi/_CLUSTER_REG_COMMAND, msclus/CLUSREG_COMMAND_NONE, msclus/CLUSREG_CONDITION_EXISTS, msclus/CLUSREG_CONDITION_IS_EQUAL, msclus/CLUSREG_CONDITION_IS_GREATER_THAN, msclus/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, msclus/CLUSREG_CONDITION_IS_LESS_THAN, msclus/CLUSREG_CONDITION_IS_NOT_EQUAL, msclus/CLUSREG_CONDITION_KEY_EXISTS, msclus/CLUSREG_CONDITION_NOT_EXISTS, msclus/CLUSREG_CONTROL_COMMAND, msclus/CLUSREG_CREATE_KEY, msclus/CLUSREG_DELETE_KEY, msclus/CLUSREG_DELETE_VALUE, msclus/CLUSREG_LAST_COMMAND, msclus/CLUSREG_READ_ERROR, msclus/CLUSREG_READ_VALUE, msclus/CLUSREG_SET_KEY_SECURITY, msclus/CLUSREG_SET_VALUE, msclus/CLUSREG_VALUE_DELETED, msclus/CLUSTER_REG_COMMAND, msclus/_CLUSTER_REG_COMMAND, mscs.cluster_reg_command
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="https://msdn.microsoft.com/en-us/library/Cc512181(v=VS.85).aspx">CLUSTER_BATCH_COMMAND</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh706767(v=VS.85).aspx">CLUSTER_READ_BATCH_COMMAND</a> structures.
+Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="https://msdn.microsoft.com/31f8e255-80c8-4381-a8f3-0d48a3831a89">CLUSTER_BATCH_COMMAND</a> and <a href="https://msdn.microsoft.com/BE7D4B99-27C0-4CAA-BFDC-669737E17D86">CLUSTER_READ_BATCH_COMMAND</a> structures.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ This constant is not a valid command. It and the <b>CLUSREG_LAST_COMMAND</b> con
 
 ### -field CLUSREG_SET_VALUE
 
-This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://msdn.microsoft.com/en-us/library/Bb309132(v=VS.85).aspx">ClusterRegCreateBatch</a> function.
+This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://msdn.microsoft.com/83e7c216-f08f-4dc2-9b53-faa2760985d4">ClusterRegCreateBatch</a> function.
 
 
 ### -field CLUSREG_CREATE_KEY
@@ -81,7 +81,7 @@ This command will delete a key with all values and nested subkeys.  No commands 
 
 ### -field CLUSREG_DELETE_VALUE
 
-This command deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://msdn.microsoft.com/en-us/library/Bb309132(v=VS.85).aspx">ClusterRegCreateBatch</a> function.
+This command deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://msdn.microsoft.com/83e7c216-f08f-4dc2-9b53-faa2760985d4">ClusterRegCreateBatch</a> function.
 
 
 ### -field CLUSREG_SET_KEY_SECURITY
@@ -194,23 +194,23 @@ The <b>CLUSREG_VALUE_DELETED</b> command precedes every <b>CLUSREG_SET_VALUE</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc512181(v=VS.85).aspx">CLUSTER_BATCH_COMMAND</a>
+<a href="https://msdn.microsoft.com/31f8e255-80c8-4381-a8f3-0d48a3831a89">CLUSTER_BATCH_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706767(v=VS.85).aspx">CLUSTER_READ_BATCH_COMMAND</a>
+<a href="https://msdn.microsoft.com/BE7D4B99-27C0-4CAA-BFDC-669737E17D86">CLUSTER_READ_BATCH_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309132(v=VS.85).aspx">ClusterRegCreateBatch</a>
+<a href="https://msdn.microsoft.com/83e7c216-f08f-4dc2-9b53-faa2760985d4">ClusterRegCreateBatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706743(v=VS.85).aspx">ClusterRegCreateReadBatch</a>
+<a href="https://msdn.microsoft.com/FED3986E-7383-46C4-B2D5-259812EF63A2">ClusterRegCreateReadBatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

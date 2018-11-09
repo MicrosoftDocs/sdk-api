@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5t45.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: ExtensionImageName property [Fax Service], ExtensionImageName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionImageName property, IFaxInboundRoutingMethod.ExtensionImageName, IFaxInboundRoutingMethod.get_ExtensionImageName, IFaxInboundRoutingMethod::ExtensionImageName, IFaxInboundRoutingMethod::get_ExtensionImageName, _mfax_faxinboundroutingmethod.extensionimagename, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionimagename_cpp, fax._mfax_faxinboundroutingmethod_extensionimagename, faxcomex/IFaxInboundRoutingMethod::ExtensionImageName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionImageName, get_ExtensionImageName
 ms.prod: windows-hardware
 ms.technology: windows-devices

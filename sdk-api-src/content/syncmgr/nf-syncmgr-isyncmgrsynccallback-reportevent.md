@@ -149,15 +149,19 @@ The event is stored only in memory, so all events are cleared when the user logs
 
 The following example shows the usage of <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 {
     ...
     // Get the event receiver interface.
     ISyncMgrEventReceiver *pEventReceiver = NULL;
-    hr = pCallback->QueryInterface(IID_ISyncMgrEventReceiver,
-                                   (void **) &pEventReceiver);
+    hr = pCallback-&gt;QueryInterface(IID_ISyncMgrEventReceiver,
+                                   (void **) &amp;pEventReceiver);
 
     ...
 
@@ -169,7 +173,7 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
     // Construct a string to display in the Sync Results folder.
     // Store the information about this event so we can display more details.
     // Report the event to Sync Center.
-    hr = pEventReceiver->ReportEvent(pszItemID,
+    hr = pEventReceiver-&gt;ReportEvent(pszItemID,
                                      SYNCMGR_EL_INFORMATION,
                                      SYNCMGR_EF_NONE,
                                      pszEventName,
@@ -177,12 +181,12 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
                                      NULL,
                                      NULL,
                                      NULL,
-                                     &guidEventID);
+                                     &amp;guidEventID);
     ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

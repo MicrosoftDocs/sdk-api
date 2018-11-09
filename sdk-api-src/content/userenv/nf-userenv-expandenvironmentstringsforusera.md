@@ -109,20 +109,28 @@ Type: <b>BOOL</b>
 
 The following is an example source string:
 
-
-```
-%USERPROFILE%\ntuser.dat
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>%USERPROFILE%\ntuser.dat</pre>
+</td>
+</tr>
+</table></span></div>
 When <b>ExpandEnvironmentStringsForUser</b> returns, the destination string expands as follows:
 
-
-```
-C:\Documents and Settings\UserName\ntuser.dat
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>C:\Documents and Settings\UserName\ntuser.dat</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

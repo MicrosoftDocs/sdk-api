@@ -4,10 +4,10 @@ title: CLUSPROP_PIFLAGS
 author: windows-sdk-content
 description: Represents disk partition information. The enumeration flags identify certain properties of a disk partition, which is a storage class resource.
 old-location: mscs\clusprop_piflags.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 54597c05-57af-49ad-96e0-171f09c45a65
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: CLUSPROP_PIFLAGS, CLUSPROP_PIFLAGS enumeration [Failover Cluster], CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_ENCRYPTION_ENABLED, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_UNKNOWN, CLUSPROP_PIFLAG_USABLE, CLUSPROP_PIFLAG_USABLE_FOR_CSV, _CLUSPROP_PIFLAGS, _CLUSPROP_PIFLAGS enumeration [Failover Cluster], clusapi/CLUSPROP_PIFLAGS, clusapi/CLUSPROP_PIFLAG_DEFAULT_QUORUM, clusapi/CLUSPROP_PIFLAG_ENCRYPTION_ENABLED, clusapi/CLUSPROP_PIFLAG_REMOVABLE, clusapi/CLUSPROP_PIFLAG_STICKY, clusapi/CLUSPROP_PIFLAG_UNKNOWN, clusapi/CLUSPROP_PIFLAG_USABLE, clusapi/CLUSPROP_PIFLAG_USABLE_FOR_CSV, clusapi/_CLUSPROP_PIFLAGS, msclus/CLUSPROP_PIFLAGS, msclus/CLUSPROP_PIFLAG_DEFAULT_QUORUM, msclus/CLUSPROP_PIFLAG_ENCRYPTION_ENABLED, msclus/CLUSPROP_PIFLAG_REMOVABLE, msclus/CLUSPROP_PIFLAG_STICKY, msclus/CLUSPROP_PIFLAG_UNKNOWN, msclus/CLUSPROP_PIFLAG_USABLE, msclus/CLUSPROP_PIFLAG_USABLE_FOR_CSV, msclus/_CLUSPROP_PIFLAGS, mscs.clusprop_piflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.redist:
 
 Represents disk partition information.  The enumeration flags identify certain properties of a disk partition, 
     which is a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a>.
+    <a href="s_gly.htm">storage class resource</a>.
 
 
 ## -enum-fields

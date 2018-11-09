@@ -7,7 +7,7 @@ old-location: tapi3\ittapi_registercallnotifications.htm
 tech.root: tapi
 ms.assetid: 335deb2c-7700-4101-b6fa-f7fe0f248307
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterCallNotifications method, ITTAPI.RegisterCallNotifications, ITTAPI::RegisterCallNotifications, RegisterCallNotifications, RegisterCallNotifications method [TAPI 2.2], RegisterCallNotifications method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registercallnotifications, tapi3.ittapi_registercallnotifications, tapi3if/ITTAPI::RegisterCallNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Boolean value indicating whether the application will own incoming calls. VARIAN
 
 ### -param lCallbackInstance [in]
 
-Callback instance to be used by the TAPI 3 DLL. Can be the gulAdvise value returned by <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">IConnectionPoint::Advise</a> during registration of the 
+Callback instance to be used by the TAPI 3 DLL. Can be the gulAdvise value returned by <a href="_com_iconnectionpoint_advise">IConnectionPoint::Advise</a> during registration of the 
 <a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a> outgoing interface.
 
 

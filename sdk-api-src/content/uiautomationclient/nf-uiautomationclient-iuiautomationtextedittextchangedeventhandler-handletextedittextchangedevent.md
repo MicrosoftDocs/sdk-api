@@ -65,23 +65,18 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the element that raised the event.
 
 
-### -param arg1
-
-TBD
-
-
-### -param eventStrings [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee684093(v=VS.85).aspx">SAFEARRAY</a>*</b>
-
-Event data passed by the event.
-
-
-#### - arg2 [in]
+### -param arg2 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/212FD71E-BB79-F4A5-061E-F77FF7876998">TextEditChangeType</a></b>
 
 The type of text-edit change that occurred.
+
+
+### -param eventStrings [in]
+
+Type: <b><a href="uiauto_WorkingWithSafeArrays.htm">SAFEARRAY</a>*</b>
+
+Event data passed by the event.
 
 
 ## -returns

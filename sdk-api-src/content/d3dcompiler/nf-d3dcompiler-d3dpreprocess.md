@@ -92,13 +92,17 @@ Type: <b><a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f
 
  A pointer to an <a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a> for handling include files. Setting this to <b>NULL</b> will cause a compile error if a shader contains a #include. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory and files that are relative to the directory of the initial source file. When you use <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b>, you must specify the source file name in the <i>pSourceName</i> parameter; the compiler will derive the initial relative directory from <i>pSourceName</i>.
 
-
-```cpp
-#define D3D_COMPILE_STANDARD_FILE_INCLUDE ((ID3DInclude*)(UINT_PTR)1)
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define D3D_COMPILE_STANDARD_FILE_INCLUDE ((ID3DInclude*)(UINT_PTR)1)
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param ppCodeText [out]
 
@@ -129,7 +133,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/en-us/library/Dd607350(v=VS.85).aspx">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
+<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/307410af-bd78-4b3d-b515-adf58298f35f">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
 
 
 
@@ -139,7 +143,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

@@ -209,7 +209,7 @@ Sessions are thread-safe but cannot be passed among processes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Session Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Session Management Functions</a>
  
 
  

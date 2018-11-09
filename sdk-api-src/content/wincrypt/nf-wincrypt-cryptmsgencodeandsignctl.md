@@ -7,7 +7,7 @@ old-location: security\cryptmsgencodeandsignctl.htm
 tech.root: seccrypto
 ms.assetid: 5c0e9e2e-a50d-45d0-b51d-065784d1d912
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CryptMsgEncodeAndSignCTL, CryptMsgEncodeAndSignCTL function [Security], _crypto2_cryptmsgencodeandsignctl, security.cryptmsgencodeandsignctl, wincrypt/CryptMsgEncodeAndSignCTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Verification Functions Using CTLs</a>
+<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
  
 
  

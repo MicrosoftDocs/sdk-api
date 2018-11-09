@@ -4,10 +4,10 @@ title: PCLOSE_ROUTINE
 author: windows-sdk-content
 description: Closes a resource.
 old-location: mscs\close.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE callback function [Failover Cluster], _wolf_close, mscs.close, resapi/PCLOSE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ For effective implementation strategies of the <b>Close</b>
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

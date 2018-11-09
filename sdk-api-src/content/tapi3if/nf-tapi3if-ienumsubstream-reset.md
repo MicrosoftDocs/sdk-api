@@ -7,7 +7,7 @@ old-location: tapi3\ienumsubstream_reset.htm
 tech.root: tapi
 ms.assetid: 72b91c81-8cfa-4879-bfcf-87fde38fcc79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumSubStream interface [TAPI 2.2],Reset method, IEnumSubStream.Reset, IEnumSubStream::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumSubStream interface, _tapi3_ienumsubstream_reset, tapi3.ienumsubstream_reset, tapi3if/IEnumSubStream::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

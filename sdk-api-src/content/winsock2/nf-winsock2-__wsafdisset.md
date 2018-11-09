@@ -63,14 +63,14 @@ The <b>__WSAFDIsSet</b> function specifies whether a socket is included in a set
 TBD
 
 
-### -param arg1
-
-Descriptor identifying a socket.
-
-
-#### - arg2
+### -param arg2
 
 Pointer to an <a href="https://msdn.microsoft.com/2af5d69d-190e-4814-8d8b-438431808625">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
+
+
+#### - arg1
+
+Descriptor identifying a socket.
 
 
 ## -remarks

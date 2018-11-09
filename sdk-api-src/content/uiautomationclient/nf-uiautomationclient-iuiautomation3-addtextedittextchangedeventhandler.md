@@ -65,16 +65,18 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param arg1
-
-TBD
-
-
 ### -param arg2 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
+
+
+### -param arg3 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/212FD71E-BB79-F4A5-061E-F77FF7876998">TextEditChangeType</a></b>
+
+The specific change type to listen for. Clients register for each text-edit change type separately, so that the UI Automation system can check for registered listeners at run-time and avoid raising events for particular text-edit changes when there are no listeners.
 
 
 ### -param cacheRequest [in]
@@ -90,13 +92,6 @@ Type: <b><a href="https://msdn.microsoft.com/1308F513-5458-900C-A494-9AC9131C2D1
 
 A pointer to the object that handles the programmatic text-edit event.
 
-
-
-#### - arg3 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/212FD71E-BB79-F4A5-061E-F77FF7876998">TextEditChangeType</a></b>
-
-The specific change type to listen for. Clients register for each text-edit change type separately, so that the UI Automation system can check for registered listeners at run-time and avoid raising events for particular text-edit changes when there are no listeners.
 
 
 ## -returns

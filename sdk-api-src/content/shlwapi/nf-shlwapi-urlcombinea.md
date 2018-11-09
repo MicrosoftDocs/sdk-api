@@ -196,30 +196,38 @@ Items between slashes are treated as hierarchical identifiers; the last item spe
 
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 hRetVal = UrlCombine(TEXT("http://xyz/test/abc"), 
                      TEXT("bar"), 
                      lpszCombined, 
-                     &dwLength, 0);
-```
-
-
+                     &amp;dwLength, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 The preceding code returns the URL http://xyz/test/bar. If you want the combined URL to be http://xyz/test/abc/bar, use the following call to <b>UrlCombine</b>.
 
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 hRetVal = UrlCombine(TEXT("http://xyz/test/abc/"), 
                      TEXT("bar"), 
                      lpszCombined, 
-                     &dwLength, 0);
-```
-
-
+                     &amp;dwLength, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the characters as if they indicated navigation in the URL hierarchy. The function simplifies the URLs before combining them. For instance, "/hello/cruel/../world" is simplified to "/hello/world". If the <b>URL_DONT_SIMPLIFY</b> flag is set in <i>dwFlags</i>, the function does not simplify URLs. In this case, "/hello/cruel/../world" is left as it is.
 
 
@@ -230,7 +238,7 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
 
 
 

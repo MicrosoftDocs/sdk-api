@@ -4,10 +4,10 @@ title: LocalFlags function
 author: windows-sdk-content
 description: Retrieves information about the specified local memory object.
 old-location: base\localflags.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 4804c8c3-6c0b-4f62-87ab-f64b23fff8b9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: LocalFlags, LocalFlags function, _win32_localflags, base.localflags, winbase/LocalFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

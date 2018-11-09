@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_u
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3cmd.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],UseDevice property, IFaxOutboundRoutingRule.UseDevice, IFaxOutboundRoutingRule.get_UseDevice, IFaxOutboundRoutingRule.put_UseDevice, IFaxOutboundRoutingRule::UseDevice, IFaxOutboundRoutingRule::get_UseDevice, IFaxOutboundRoutingRule::put_UseDevice, UseDevice property [Fax Service], UseDevice property [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.usedevice, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_usedevice_cpp, fax._mfax_faxoutboundroutingrule_usedevice, faxcomex/IFaxOutboundRoutingRule::UseDevice, faxcomex/IFaxOutboundRoutingRule::get_UseDevice, faxcomex/IFaxOutboundRoutingRule::put_UseDevice, get_UseDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

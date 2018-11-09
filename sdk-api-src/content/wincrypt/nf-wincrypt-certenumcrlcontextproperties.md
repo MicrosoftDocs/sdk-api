@@ -7,7 +7,7 @@ old-location: security\certenumcrlcontextproperties.htm
 tech.root: seccrypto
 ms.assetid: 330808ef-9b39-4bd4-ba0b-9e70ec516f33
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertEnumCRLContextProperties, CertEnumCRLContextProperties function [Security], _crypto2_certenumcrlcontextproperties, security.certenumcrlcontextproperties, wincrypt/CertEnumCRLContextProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ The return value is a <b>DWORD</b> value that identifies a CRL context's propert
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

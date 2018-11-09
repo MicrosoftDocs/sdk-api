@@ -212,14 +212,18 @@ If you are programming for Active Directory, you may be able to call certain Act
 The following code sample demonstrates how to check whether a server is sharing a device, using a call to the 
 <b>NetShareCheck</b> function. The function returns the type of device being shared, as described in the preceding documentation for the <i>type</i> parameter.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain( int argc, TCHAR *argv[ ])
@@ -227,14 +231,14 @@ void wmain( int argc, TCHAR *argv[ ])
    NET_API_STATUS res;
    DWORD devType = 0;
 
-   if(argc<3)
+   if(argc&lt;3)
       printf("Usage: NetShareCheck server device\n");
    else
    {
       //
       // Call the NetShareCheck function.
       //
-      res=NetShareCheck(argv[1], argv[2], &devType);
+      res=NetShareCheck(argv[1], argv[2], &amp;devType);
       //
       // If the function succeeds, inform the user.
       //
@@ -248,10 +252,10 @@ void wmain( int argc, TCHAR *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

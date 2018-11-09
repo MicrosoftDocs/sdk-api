@@ -79,12 +79,16 @@ Specifies the kerning value, in font (notional) units, for the kerning pair. If 
 
 An array of FD_KERNINGPAIR structures must be null-terminated, which means the last FD_KERNINGPAIR structure in the array has all structure members set to zero. An array of FD_KERNINGPAIR structures must be sorted in increasing order according to an unsigned 32-bit key, calculated as follows:
 
-
-```
-    wcFirst + 65536 * wcSecond.
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    wcFirst + 65536 * wcSecond.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

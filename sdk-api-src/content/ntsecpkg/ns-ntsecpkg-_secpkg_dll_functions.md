@@ -7,7 +7,7 @@ old-location: security\secpkg_dll_functions.htm
 tech.root: secauthn
 ms.assetid: a7881f06-792c-4791-9aa6-9a7eb202020b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS structure pointer [Security], SECPKG_DLL_FUNCTIONS, SECPKG_DLL_FUNCTIONS structure [Security], _SECPKG_DLL_FUNCTIONS, _ssp_secpkg_dll_functions, ntsecpkg/PSECPKG_DLL_FUNCTIONS, ntsecpkg/SECPKG_DLL_FUNCTIONS, security.secpkg_dll_functions"
 ms.prod: windows
 ms.technology: windows-sdk

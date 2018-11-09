@@ -91,9 +91,13 @@ This method is called by Sync Center in response to a call to <a href="https://m
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetPolicies(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetPolicies(
                               __out SYNCMGR_ITEM_POLICIES *pmPolicies)
 {
     *pmPolicies = SYNCMGR_IPM_PREVENT_DISABLE 
@@ -101,9 +105,9 @@ STDMETHODIMP CMyDeviceSyncItem::GetPolicies(
                 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

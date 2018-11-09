@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-The <b>SetupWriteTextLog</b> function writes a log entry in a <a href="https://msdn.microsoft.com/library/Ff550900(v=VS.85).aspx">SetupAPI text log</a>.
+The <b>SetupWriteTextLog</b> function writes a log entry in a <a href="devinst.setupapi_text_logs">SetupAPI text log</a>.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ The <b>SetupWriteTextLog</b> function writes a log entry in a <a href="https://m
 
 ### -param LogToken [in]
 
-A <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
+A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
 
 
 ### -param Category [in]
 
-A DWORD-typed value that indicates the event category for the log entry. The event categories that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event categories, see <a href="https://msdn.microsoft.com/library/Ff544882(v=VS.85).aspx">Enabling Event Categories for a SetupAPI Text Log</a>. 
+A DWORD-typed value that indicates the event category for the log entry. The event categories that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event categories, see <a href="devinst.enabling_event_categories_for_a_text_log">Enabling Event Categories for a SetupAPI Text Log</a>. 
 
 
 ### -param Flags [in]
@@ -77,7 +77,7 @@ A DWORD-typed value that is a bitwise OR of flag values, which specify the follo
 
 <ul>
 <li>
-The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="https://msdn.microsoft.com/library/Ff550845(v=VS.85).aspx">Setting the Event Level for a SetupAPI Text Log</a>. 
+The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="devinst.setting_the_event_level_for_a_text_log">Setting the Event Level for a SetupAPI Text Log</a>. 
 
 </li>
 <li>
@@ -85,7 +85,7 @@ Whether to include a time stamp in the log entry. The time stamp flag value is T
 
 </li>
 <li>
-The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="https://msdn.microsoft.com/library/Ff554018(v=VS.85).aspx">Writing Indented Log Entries</a>.
+The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="devinst.writing_indented_log_entries">Writing Indented Log Entries</a>.
 
 </li>
 </ul>
@@ -95,14 +95,7 @@ The change, if any, to the indentation depth of the section and the current log 
 A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. The comma-separated parameter list that follows <i>MessageStr</i> must match the format specifiers in the format string. 
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg5
+### -param arg5
 
 A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>. 
 
@@ -145,7 +138,7 @@ LOG_TOKEN_UNSPECIFIED
 
 </td>
 <td>
-The log entry is written to the application installation text log. The log entry is not included in a <a href="https://msdn.microsoft.com/library/Ff544956(v=VS.85).aspx">text log section</a>. 
+The log entry is written to the application installation text log. The log entry is not included in a <a href="devinst.format_of_a_text_log_section">text log section</a>. 
 
 </td>
 </tr>
@@ -178,11 +171,11 @@ In addition, <b>SetupWriteTextLog</b> does not write a log entry when any of the
 
 <ul>
 <li>
-The <a href="https://msdn.microsoft.com/library/Ff550845(v=VS.85).aspx">event level set for the text log</a> is less than the event level that is specified for the log entry. 
+The <a href="devinst.setting_the_event_level_for_a_text_log">event level set for the text log</a> is less than the event level that is specified for the log entry. 
 
 </li>
 <li>
-The event category for the log entry is not enabled for the text log. For more information about event categories, see <a href="https://msdn.microsoft.com/library/Ff544882(v=VS.85).aspx">Enabling Event Categories for a Text Log</a>.
+The event category for the log entry is not enabled for the text log. For more information about event categories, see <a href="devinst.enabling_event_categories_for_a_text_log">Enabling Event Categories for a Text Log</a>.
 
 </li>
 </ul>
@@ -190,13 +183,13 @@ The maximum length, in characters, of a log entry is 336.
 
 To write information about a SetupAPI-specific error or a Win32 error in a text log, an application can use <a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>.
 
-For general information about writing log entries in the SetupAPI text logs, see <a href="https://msdn.microsoft.com/library/Ff550887(v=VS.85).aspx">SetupAPI Logging (Windows Vista and Later)</a>. 
+For general information about writing log entries in the SetupAPI text logs, see <a href="devinst.setupapi_logging__windows_vista_and_later_">SetupAPI Logging (Windows Vista and Later)</a>. 
 
-For more information about the operation of <b>SetupWriteTextLog</b>, see <a href="https://msdn.microsoft.com/library/Ff537850(v=VS.85).aspx">Calling SetupWriteTextLog</a>. 
+For more information about the operation of <b>SetupWriteTextLog</b>, see <a href="devinst.calling_setupwritetextlog">Calling SetupWriteTextLog</a>. 
 
-For more information about log tokens, see <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>.
+For more information about log tokens, see <a href="devinst.log_tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\certoidtoalgid.htm
 tech.root: seccrypto
 ms.assetid: 920b2642-ce7c-4098-8720-5a6f24128787
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertOIDToAlgId, CertOIDToAlgId function [Security], _crypto2_certoidtoalgid, security.certoidtoalgid, wincrypt/CertOIDToAlgId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Returns the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="cryptography_functions.htm">Data Conversion Functions</a>
  
 
  

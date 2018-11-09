@@ -4,10 +4,10 @@ title: VirtualProtectFromApp function
 author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 old-location: base\virtualprotectfromapp.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

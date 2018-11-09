@@ -121,11 +121,15 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BYTE *lpDib = NULL;
-hr = pWindowlessControl->GetCurrentImage(&lpDib);
+hr = pWindowlessControl-&gt;GetCurrentImage(&amp;lpDib);
 if (SUCCEEDED(hr))
 {
     BITMAPINFOHEADER  *pBMIH = (BITMAPINFOHEADER*) lpDib;
@@ -133,10 +137,10 @@ if (SUCCEEDED(hr))
     CoTaskMemFree(lpDib);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

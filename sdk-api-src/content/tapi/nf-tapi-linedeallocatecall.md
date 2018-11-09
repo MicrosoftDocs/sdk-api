@@ -7,7 +7,7 @@ old-location: tapi2\linedeallocatecall.htm
 tech.root: tapi
 ms.assetid: a695ee19-e371-4126-b438-62bf52179cba
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall"
 ms.prod: windows-hardware
 ms.technology: windows-devices

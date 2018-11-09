@@ -7,7 +7,7 @@ old-location: security\icertrequest3_getrequestidstring.htm
 tech.root: seccrypto
 ms.assetid: 09afc06f-95e8-4519-b0c7-36da5986e077
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertRequest object [Security],GetRequestIdString method, GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],CCertRequest object, GetRequestIdString method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRequestIdString method, ICertRequest3.GetRequestIdString, ICertRequest3::GetRequestIdString, certcli/ICertRequest3::GetRequestIdString, security.icertrequest3_getrequestidstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ A pointer to <b>BSTR</b> variable to receive the request ID string.
 
 Upon successful completion of this function, the string pointed to by the <i>pstrRequestId</i> parameter is set to the request ID string.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the current internal request number, as a string, for the request and subsequent certificate.
@@ -88,11 +88,11 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">CCertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">CCertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee373776(v=VS.85).aspx">ICertRequest3</a>
+<a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a>
  
 
  

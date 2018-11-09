@@ -65,7 +65,7 @@ Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846
 The strong reference to the specified object.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

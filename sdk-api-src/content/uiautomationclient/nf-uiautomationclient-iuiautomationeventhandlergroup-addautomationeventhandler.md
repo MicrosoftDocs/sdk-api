@@ -63,9 +63,9 @@ Registers a method that handles Microsoft UI Automation events.
 The identifier of the event that the method handles. For a list of event IDs, see <a href="https://msdn.microsoft.com/4baf5cb9-c965-4977-ae2b-420e84dc2e94">Event Identifiers</a>.
 
 
-### -param arg1
+### -param arg2 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -76,11 +76,6 @@ A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 ### -param handler [in]
 
 A pointer to the object that handles the event.
-
-
-#### - arg2 [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

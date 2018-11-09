@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_createleaseinfofromvariant.htm
 tech.root: tapi
 ms.assetid: e6390b21-348a-4bb9-8d21-3c585672199d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: CreateLeaseInfoFromVariant, CreateLeaseInfoFromVariant method [TAPI 2.2], CreateLeaseInfoFromVariant method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfoFromVariant method, IMcastAddressAllocation.CreateLeaseInfoFromVariant, IMcastAddressAllocation::CreateLeaseInfoFromVariant, _tapi3_imcastaddressallocation_createleaseinfofromvariant, mdhcp/IMcastAddressAllocation::CreateLeaseInfoFromVariant, tapi3.imcastaddressallocation_createleaseinfofromvariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,8 +156,8 @@ Not enough memory exists to create the required objects.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pRequestID</i> and <i>pServerAddress</i> parameters. The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variables are no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pRequestID</i> and <i>pServerAddress</i> parameters. The application must use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variables are no longer needed.
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://msdn.microsoft.com/a4ad8009-559e-4db9-9ae2-28e4d36cf346">IMcastLeaseInfo</a> interface returned by <b>IMcastAddressAllocation::CreateLeaseInfoFromVariant</b>. The application must call <b>Release</b> on the 

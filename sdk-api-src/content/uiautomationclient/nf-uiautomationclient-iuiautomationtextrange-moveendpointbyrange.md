@@ -72,14 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c9214
 A second text range from the same text provider as the current text range.
 
 
-### -param arg2
-
-TBD
-
-
-
-
-#### - arg3 [in]
+### -param arg3 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 

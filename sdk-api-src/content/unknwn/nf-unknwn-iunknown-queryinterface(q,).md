@@ -65,14 +65,7 @@ This method calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-80
 TBD
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg2 [out]
+### -param arg2 [out]
 
 The address of a pointer variable that receives the interface pointer requested in the <i>riid</i> parameter. Upon successful return, *<i>ppvObject</i> contains the requested interface pointer to the object. If the object does not support the interface, *<i>ppvObject</i> is set to <b>NULL</b>.
 

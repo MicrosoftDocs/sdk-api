@@ -91,15 +91,19 @@ The handler is responsible for allocating the string buffer pointed to by <i>pps
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
 {
     LPWSTR pszTypeLabel = NULL;
 
     HRESULT hr = LoadStringAlloc(g_hmodThisDll, 
                                  IDS_HANDLER_TYPE_LABEL,
-                                 &pszTypeLabel);
+                                 &amp;pszTypeLabel);
     if (SUCCEEDED(hr))
     {
         // Duplicate for the caller.
@@ -109,9 +113,9 @@ STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

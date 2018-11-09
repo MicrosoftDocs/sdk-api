@@ -7,7 +7,7 @@ old-location: base\deletesynchronizationbarrier.htm
 tech.root: sync
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/08/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices

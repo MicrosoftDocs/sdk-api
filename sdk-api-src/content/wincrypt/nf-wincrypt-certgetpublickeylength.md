@@ -7,7 +7,7 @@ old-location: security\certgetpublickeylength.htm
 tech.root: seccrypto
 ms.assetid: e67923f4-cd1f-4952-88f1-92ee26423f87
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertGetPublicKeyLength, CertGetPublicKeyLength function [Security], _crypto2_certgetpublickeylength, security.certgetpublickeylength, wincrypt/CertGetPublicKeyLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">G
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

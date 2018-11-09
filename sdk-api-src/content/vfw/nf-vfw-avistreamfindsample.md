@@ -7,7 +7,7 @@ old-location: multimedia\avistreamfindsample.htm
 tech.root: Multimedia
 ms.assetid: 2bd89f50-0d3a-4c34-b7b8-dc29f2d54d55
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: AVIStreamFindSample, AVIStreamFindSample function [Windows Multimedia], _win32_AVIStreamFindSample, multimedia.avistreamfindsample, vfw/AVIStreamFindSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

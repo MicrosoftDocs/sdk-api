@@ -4,10 +4,10 @@ title: ClusterGetVolumeNameForVolumeMountPoint function
 author: windows-sdk-content
 description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster], PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/ClusterGetVolumeNameForVolumeMountPoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -174,9 +174,6 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
       <b>ClusterGetVolumeNameForVolumeMountPoint</b> 
       function used <b>TCHAR</b>-based data types instead of 
       <b>WCHAR</b>-based data types. The UNICODE preprocessor define must be set before ResApi.h 
-      is included.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
       is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -188,8 +185,6 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 The 

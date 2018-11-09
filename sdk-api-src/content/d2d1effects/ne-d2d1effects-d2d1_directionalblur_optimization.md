@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the optimization mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706328(v=VS.85).aspx">Directional blur effect</a>.
+Specifies the optimization mode for the <a href="https://msdn.microsoft.com/59328FA4-5C27-4A81-AAB2-C5B25B3615C6">Directional blur effect</a>.
 
 
 ## -enum-fields

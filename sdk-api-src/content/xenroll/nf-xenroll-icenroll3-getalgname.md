@@ -7,7 +7,7 @@ old-location: security\icenroll4_getalgname.htm
 tech.root: seccrypto
 ms.assetid: 9c5fa25c-7fab-4fb5-9ff6-bc7379260926
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnroll object [Security],GetAlgName method, GetAlgName, GetAlgName method [Security], GetAlgName method [Security],CEnroll object, GetAlgName method [Security],ICEnroll3 interface, GetAlgName method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetAlgName method, ICEnroll3.GetAlgName, ICEnroll3::GetAlgName, ICEnroll4 interface [Security],GetAlgName method, ICEnroll4::GetAlgName, security.icenroll4_getalgname, xenroll/ICEnroll3::GetAlgName, xenroll/ICEnroll4::GetAlgName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ A value that represents a cryptographic algorithm, as defined in Wincrypt.h. For
 
 ### -param pbstr [out]
 
-Upon success, a pointer to a <b>BSTR</b> that represents the name of the algorithm specified by <i>algID</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+Upon success, a pointer to a <b>BSTR</b> that represents the name of the algorithm specified by <i>algID</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -97,15 +97,19 @@ Constants for the cryptographic algorithms are defined in Wincrypt.h.
 
 #### Examples
 
-
-```cpp
-BSTR      bstrAlgName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR      bstrAlgName = NULL;
 
 HRESULT   hr;
 
 // Retrieve the algorithm name.
 // dwAlgID is a DWORD variable for an algorithm ID.
-hr = pEnroll->GetAlgName( dwAlgID, &bstrAlgName);
+hr = pEnroll-&gt;GetAlgName( dwAlgID, &amp;bstrAlgName);
 if (FAILED(hr))
     printf("Failed GetAlgName [%x]\n", hr);
 else
@@ -116,10 +120,10 @@ if ( NULL != bstrAlgName )
 {
     SysFreeString( bstrAlgName );
     bstrAlgName = NULL;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

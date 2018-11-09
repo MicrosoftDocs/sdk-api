@@ -87,14 +87,7 @@ Size of the <i>pchBuffer</i> in bytes
 Receives the actual length of the string in bytes, including the terminating <b>NULL</b>.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg6 [out]
+### -param arg6 [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> enumeration. The value indicates the type of text string, such as movie title or song name. This parameter can also receive values that are not defined in the <b>DVD_TextStringType</b> enumeration.
 

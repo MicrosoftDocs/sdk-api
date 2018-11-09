@@ -63,14 +63,7 @@ The <b>GetCMMInfo</b> function retrieves various information about the color man
 Identifies the transform for which to find CMM information.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg2
+### -param arg2
 
 Specifies the information to be retrieved. This parameter can take one of the following constant values.<div> </div>
 

@@ -54,7 +54,7 @@ req.redist:
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> but includes a parameter for locale information.
+<b>StringCchPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters
@@ -82,14 +82,7 @@ The format string. This string must be null-terminated. For more information, se
 The locale object. For more information, see <b>_create_locale</b>.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg5 [in]
+### -param arg5 [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 

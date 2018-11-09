@@ -60,14 +60,14 @@ Contains information that describes rebar control characteristics.
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter. 
 
 
 ### -field fMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Flag values that describe characteristics of the rebar control. Currently, rebar controls support only one value: 
 

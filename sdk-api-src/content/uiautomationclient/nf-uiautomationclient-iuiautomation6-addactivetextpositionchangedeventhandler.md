@@ -63,9 +63,9 @@ Registers a method that handles when the active text position changes.
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param arg1
+### -param arg2 [in]
 
-TBD
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -77,11 +77,6 @@ A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
 A pointer to the object that handles the active text position changed event.
 
-
-
-#### - arg2 [in]
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

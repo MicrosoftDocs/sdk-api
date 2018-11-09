@@ -4,10 +4,10 @@ title: PRAISE_RES_TYPE_NOTIFICATION
 author: windows-sdk-content
 description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
 old-location: mscs\raiserestypenotification.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster], RaiseResTypeNotification, RaiseResTypeNotification callback, RaiseResTypeNotification callback function [Failover Cluster], mscs.raiserestypenotification, resapi/PRAISE_RES_TYPE_NOTIFICATION, resapi/RaiseResTypeNotification
 ms.prod: windows
 ms.technology: windows-sdk

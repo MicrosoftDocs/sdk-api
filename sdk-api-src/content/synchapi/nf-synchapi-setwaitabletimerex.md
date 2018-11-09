@@ -7,7 +7,7 @@ old-location: base\setwaitabletimerex.htm
 tech.root: sync
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/08/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,7 @@ If the system time is adjusted, the due time of any outstanding absolute timers 
 
 If the thread that called <b>SetWaitableTimerEx</b> exits, the timer is canceled. This stops the timer before it can be set to the signaled state and cancels outstanding APCs; it does not change the signaled state of the timer.
 
-To use a timer to schedule an event for a window, use the <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> function.
+To use a timer to schedule an event for a window, use the <a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a> function.
 
 
 

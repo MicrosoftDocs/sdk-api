@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_14fn.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Pages property, IFaxOutgoingMessage.Pages, IFaxOutgoingMessage.get_Pages, IFaxOutgoingMessage::Pages, IFaxOutgoingMessage::get_Pages, Pages property [Fax Service], Pages property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.pages, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp, fax._mfax_faxoutgoingmessage_pages, faxcomex/IFaxOutgoingMessage::Pages, faxcomex/IFaxOutgoingMessage::get_Pages, get_Pages
 ms.prod: windows-hardware
 ms.technology: windows-devices

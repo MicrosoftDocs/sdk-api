@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_66i7.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: FaxSetRoutingInfo, FaxSetRoutingInfo function [Fax Service], FaxSetRoutingInfoA, FaxSetRoutingInfoW, _mfax_faxsetroutinginfo, fax._mfax_faxsetroutinginfo, winfax/FaxSetRoutingInfo, winfax/FaxSetRoutingInfoA, winfax/FaxSetRoutingInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ A fax management application calls the <b>FaxSetRoutingInfo</b> function to modi
 
 Type: <b>HANDLE</b>
 
-Specifies a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function.
+Specifies a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function.
 
 
 ### -param RoutingGuid [in]
@@ -76,7 +76,7 @@ Pointer to a constant null-terminated character string that specifies the GUID t
 
                     
 
-For information about fax routing methods, see <a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">About the Fax Routing Extension API</a>. For information about the relationship between routing methods and GUIDs, see <a href="https://msdn.microsoft.com/en-us/library/ms691955(v=VS.85).aspx">Fax Routing Methods</a>.
+For information about fax routing methods, see <a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">About the Fax Routing Extension API</a>. For information about the relationship between routing methods and GUIDs, see <a href="https://msdn.microsoft.com/a2144af9-9101-478f-93b9-393101dc1936">Fax Routing Methods</a>.
 
 
 ### -param RoutingInfoBuffer [in]
@@ -115,7 +115,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_PORT_SET</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_PORT_SET</a> access is required.
 
 </td>
 </tr>
@@ -153,11 +153,11 @@ The <i>RoutingGuid</i> parameter is invalid.
 
 The fax service administration application, an MMC snap-in component that manages the specified fax routing method, typically calls the <b>FaxSetRoutingInfo</b> function. This is because the format of the routing data is unavailable to the fax client application. The routing data is relevant only to the exported fax routing method and the method's administration application.
 
-To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter of the <b>FaxSetRoutingInfo</b> function, call the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function.
+To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter of the <b>FaxSetRoutingInfo</b> function, call the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function.
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms691941(v=VS.85).aspx">FaxEnumGlobalRoutingInfo</a> function retrieves routing information that applies globally to the fax server, such as routing priority. An application can modify global data with a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691451(v=VS.85).aspx">FaxSetGlobalRoutingInfo</a> function.
+The <a href="https://msdn.microsoft.com/776b1a16-9a5f-458b-96ee-b2f41568b7e5">FaxEnumGlobalRoutingInfo</a> function retrieves routing information that applies globally to the fax server, such as routing priority. An application can modify global data with a call to the <a href="https://msdn.microsoft.com/bd831edb-8fb9-4338-93fb-da07ac3a5a56">FaxSetGlobalRoutingInfo</a> function.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691940(v=VS.85).aspx">Managing Fax Routing Data</a>.
+For more information, see <a href="https://msdn.microsoft.com/356dda5c-852e-46b7-8fa4-f3a0c62d65cb">Managing Fax Routing Data</a>.
 
 
 
@@ -167,35 +167,35 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690746(v=VS.85).aspx">FAX_GLOBAL_ROUTING_INFO</a>
+<a href="https://msdn.microsoft.com/df832bcb-d07f-454b-b571-43854706a6c1">FAX_GLOBAL_ROUTING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691941(v=VS.85).aspx">FaxEnumGlobalRoutingInfo</a>
+<a href="https://msdn.microsoft.com/776b1a16-9a5f-458b-96ee-b2f41568b7e5">FaxEnumGlobalRoutingInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691804(v=VS.85).aspx">FaxEnumRoutingMethods</a>
+<a href="https://msdn.microsoft.com/1f78fed5-6b49-4946-8607-f1d7f9052aaa">FaxEnumRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690904(v=VS.85).aspx">FaxGetRoutingInfo</a>
+<a href="https://msdn.microsoft.com/c13d203d-e7b1-4bc6-a875-04ddd981d549">FaxGetRoutingInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a>
+<a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691451(v=VS.85).aspx">FaxSetGlobalRoutingInfo</a>
+<a href="https://msdn.microsoft.com/bd831edb-8fb9-4338-93fb-da07ac3a5a56">FaxSetGlobalRoutingInfo</a>
  
 
  

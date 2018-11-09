@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegatherdigits.htm
 tech.root: tapi
 ms.assetid: a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: LINEDIGITMODE_DTMF, LINEDIGITMODE_PULSE, TSPI_lineGatherDigits, TSPI_lineGatherDigits function [TAPI 2.2], _tspi_tspi_linegatherdigits, tspi.tspi_linegatherdigits, tspi/TSPI_lineGatherDigits
 ms.prod: windows-hardware
 ms.technology: windows-devices

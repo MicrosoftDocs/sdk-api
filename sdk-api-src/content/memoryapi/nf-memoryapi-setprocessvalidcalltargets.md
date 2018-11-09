@@ -2,12 +2,12 @@
 UID: NF:memoryapi.SetProcessValidCallTargets
 title: SetProcessValidCallTargets function
 author: windows-sdk-content
-description: Provides CFG with a list of valid indirect call targets and specifies whether they should be marked valid or not.
+description: Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not.
 old-location: base\setprocessvalidcalltargets.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Provides CFG with a list of valid indirect call targets and specifies whether they should be marked valid or not. The valid call target information is provided as a list of offsets relative to a virtual memory range
+Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not. The valid call target information is provided as a list of offsets relative to a virtual memory range
 
 (start and size of the range). The call targets specified should be 16-byte aligned and in ascending
 

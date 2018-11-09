@@ -60,7 +60,7 @@ Called by the system during the initialization of a logon or credential UI to re
 
 ### -param users [in]
 
-A pointer to an array object that contains a set of <a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a> objects, each representing a user that will appear in the logon or credential UI. This array enables the credential provider to enumerate and query each of the user objects for their SID, their associated credential provider's ID, various forms of the user name, and their logon status string.
+A pointer to an array object that contains a set of <a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a> objects, each representing a user that will appear in the logon or credential UI. This array enables the credential provider to enumerate and query each of the user objects for their SID, their associated credential provider's ID, various forms of the user name, and their logon status string.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Note that this method does not transfer ownership of the <a href="https://msdn.microsoft.com/en-us/library/Hh706923(v=VS.85).aspx">ICredentialProviderUserArray</a> from the credential provider framework. The information it provides is cannot be altered.
+Note that this method does not transfer ownership of the <a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a> from the credential provider framework. The information it provides is cannot be altered.
 
 
 
@@ -86,11 +86,11 @@ Note that this method does not transfer ownership of the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706920(v=VS.85).aspx">ICredentialProviderSetUserArray</a>
+<a href="https://msdn.microsoft.com/85422EF5-8A8E-4e14-BD32-953C31A9D401">ICredentialProviderSetUserArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706922(v=VS.85).aspx">ICredentialProviderUser</a>
+<a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a>
  
 
  

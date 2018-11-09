@@ -96,9 +96,13 @@ Identifies the 802.1 SNAP identifier. Only used if the <b>Layer3Protocol</b> par
 The following are the manifest constants associated with the 
 <b>ATM_BLLI</b> structure:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 /* 
  *  values used for Layer2Protocol in struct B-LLI
@@ -133,10 +137,10 @@ The following are the manifest constants associated with the
  */
 #define BLLI_L3_IPI_SNAP           0x80   /* IEEE 802.1 SNAP identifier               */
 #define BLLI_L3_IPI_IP             0xCC   /* Internet Protocol (IP) identifier        */
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

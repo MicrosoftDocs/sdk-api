@@ -72,9 +72,11 @@ Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe
 The property value.
 
 
-### -param arg1
+### -param arg3 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags</a></b>
+
+The attributes of the condition. Use <a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags_IgnoreCase</a> to create a property condition that is not case-sensitive
 
 
 ### -param newCondition [out, retval]
@@ -82,13 +84,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>**</b>
 
 Receives a pointer to the new condition.
-
-
-#### - arg3 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags</a></b>
-
-The attributes of the condition. Use <a href="https://msdn.microsoft.com/debe8141-2a91-4774-b533-d6f3ccfc7744">PropertyConditionFlags_IgnoreCase</a> to create a property condition that is not case-sensitive
 
 
 ## -returns

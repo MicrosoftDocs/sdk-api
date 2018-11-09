@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98b
 A pointer to the provider of the element that is raising the event.
 
 
-### -param arg1
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/abaf9551-40c4-4ab6-adb7-b619f3bc9745">StructureChangeType</a></b>
+
+The type of structure change that occurred.
 
 
 ### -param runtimeId [in]
@@ -75,13 +77,6 @@ TBD
 Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
 A pointer to the runtime identifiers of the elements that are affected. These IDs enable applications to identify elements that have been removed and are no longer represented by <a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a> interfaces.
-
-
-#### - arg2 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/abaf9551-40c4-4ab6-adb7-b619f3bc9745">StructureChangeType</a></b>
-
-The type of structure change that occurred.
 
 
 ## -returns

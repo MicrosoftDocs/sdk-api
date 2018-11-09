@@ -7,7 +7,7 @@ old-location: mscs\clusterregbatchreadcommand.htm
 tech.root: mscs
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, clusapi/ClusterRegBatchReadCommand, mscs.clusterregbatchreadcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ A handle to the batch notification.
 
 ### -param pBatchCommand [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Cc512181(v=VS.85).aspx">CLUSTER_BATCH_COMMAND</a> structure 
+Pointer to a <a href="https://msdn.microsoft.com/31f8e255-80c8-4381-a8f3-0d48a3831a89">CLUSTER_BATCH_COMMAND</a> structure 
        that will be filled with information about the command on successful return.
 
 
@@ -74,7 +74,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Cc512181(v=VS.85)
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 
@@ -94,7 +94,7 @@ The <b>PCLUSTER_REG_GET_BATCH_NOTIFICATION</b> type defines a pointer to this
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc512181(v=VS.85).aspx">CLUSTER_BATCH_COMMAND</a>
+<a href="https://msdn.microsoft.com/31f8e255-80c8-4381-a8f3-0d48a3831a89">CLUSTER_BATCH_COMMAND</a>
 
 
 

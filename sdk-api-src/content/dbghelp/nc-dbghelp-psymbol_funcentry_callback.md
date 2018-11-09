@@ -107,9 +107,13 @@ This function is similar to the
 
 This callback function supersedes the <i>PSYMBOL_FUNCENTRY_CALLBACK</i> callback function.  <i>PSYMBOL_FUNCENTRY_CALLBACK</i> is defined as follows in Dbghelp.h.
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PSYMBOL_FUNCENTRY_CALLBACK PSYMBOL_FUNCENTRY_CALLBACK64
 #endif
 
@@ -119,10 +123,10 @@ PVOID
     __in HANDLE hProcess,
     __in DWORD AddrBase,
     __in_opt PVOID UserContext
-    );
-```
-
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

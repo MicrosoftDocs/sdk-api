@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslation_translatedialog.htm
 tech.root: tapi
 ms.assetid: fe744658-b5a7-4d22-bf8b-9c669be3da1e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateDialog method, ITAddressTranslation.TranslateDialog, ITAddressTranslation::TranslateDialog, TranslateDialog, TranslateDialog method [TAPI 2.2], TranslateDialog method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translatedialog, tapi3.itaddresstranslation_translatedialog, tapi3if/ITAddressTranslation::TranslateDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -201,8 +201,8 @@ TAPI was not able to complete the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for <i>pAddressIn</i> and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for <i>pAddressIn</i> and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The 
 <b>TranslateDialog</b> method is a COM wrapper for the TAPI 2.1 

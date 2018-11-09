@@ -7,7 +7,7 @@ old-location: security\scardsetattrib.htm
 tech.root: secauthn
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -154,9 +154,13 @@ The <b>SCardSetAttrib</b> function is a direct card access function. For informa
 
 The following example  shows how to set an attribute.
 
-
-```cpp
-// Set the attribute.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the attribute.
 // hCardHandle was set by a previous call to SCardConnect.
 // dwAttrID is a DWORD value, specifying the attribute ID.
 // pbAttr points to the buffer of the new value.
@@ -167,10 +171,10 @@ lReturn = SCardSetAttrib(hCardHandle,
                          cByte);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardSetAttrib\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

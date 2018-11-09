@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressopen.htm
 tech.root: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win32_ICDecompressOpen, multimedia.icdecompressopen, vfw/ICDecompressOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,15 +90,19 @@ If this parameter is nonzero, a compressor handle is not returned unless it can 
 
 The <b>ICDecompressOpen</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define ICDecompressOpen(fccType, fccHandler, lpbiIn, lpbiOut) \ 
     ICLocate(fccType, fccHandler, lpbiIn, lpbiOut, ICMODE_DECOMPRESS); 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

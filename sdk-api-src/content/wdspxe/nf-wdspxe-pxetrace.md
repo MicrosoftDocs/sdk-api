@@ -137,14 +137,7 @@ The trace message indicates a fatal error condition.
 Address of a buffer that contains a printf-style format string.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg4
+### -param arg4
 
 Optional arguments. The number and type of argument parameters depend on the format control string pointed 
       to by the <i>pszFormat</i> parameter.

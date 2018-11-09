@@ -64,14 +64,7 @@ The
 A string to be output to the NetShell console.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg2
+### -param arg2
 
 The arguments used to fill into the message.
 

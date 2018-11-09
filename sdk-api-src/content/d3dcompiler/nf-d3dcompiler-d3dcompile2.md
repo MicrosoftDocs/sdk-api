@@ -92,13 +92,17 @@ Type: <b><a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f
 
  A pointer to an <a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory and files that are relative to the directory of the initial source file. When you use <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b>, you must specify the source file name in the <i>pSourceName</i> parameter; the compiler will derive the initial relative directory from <i>pSourceName</i>.
 
-
-```
-#define D3D_COMPILE_STANDARD_FILE_INCLUDE ((ID3DInclude*)(UINT_PTR)1)
-
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define D3D_COMPILE_STANDARD_FILE_INCLUDE ((ID3DInclude*)(UINT_PTR)1)
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pEntrypoint [in]
 
@@ -202,7 +206,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-The difference between <b>D3DCompile2</b> and <a href="https://msdn.microsoft.com/en-us/library/Dd607324(v=VS.85).aspx">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
+The difference between <b>D3DCompile2</b> and <a href="https://msdn.microsoft.com/feb3d4d1-06ce-4141-9267-c6c771659aa7">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
 
 <h3><a id="Compiling_shaders_for_UWP"></a><a id="compiling_shaders_for_uwp"></a><a id="COMPILING_SHADERS_FOR_UWP"></a>Compiling shaders for UWP</h3>
 To compile offline shaders the recommend approach is to use the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb232919(v=vs.85).aspx">Effect-Compiler Tool</a>. If you cannot compile all of your shaders ahead of time, consider compiling the more expensive ones and the ones on your startup and most performance-sensitive paths require, and compiling the rest at runtime. You can use a process similar to the following to compile a loaded or generated shader in a UWP application without blocking your user interface thread.
@@ -270,7 +274,7 @@ To compile offline shaders the recommend approach is to use the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\scardstatus.htm
 tech.root: secauthn
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: SCARD_ABSENT, SCARD_NEGOTIABLE, SCARD_POWERED, SCARD_PRESENT, SCARD_PROTOCOL_RAW, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_SPECIFIC, SCARD_SWALLOWED, SCardStatus, SCardStatus function [Security], SCardStatusA, SCardStatusW, _smart_scardstatus, security.scardstatus, winscard/SCardStatus, winscard/SCardStatusA, winscard/SCardStatusW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -219,7 +219,7 @@ On input, supplies the length of the <i>pbAtr</i> buffer. On output, receives th
 If the function successfully provides the current status of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> in a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 
 
@@ -236,9 +236,13 @@ The <b>SCardStatus</b> function is a <a href="https://msdn.microsoft.com/3e9d767
 
 The following example  shows how to determine the state of the smart card.
 
-
-```cpp
-WCHAR           szReader[200];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR           szReader[200];
 DWORD           cch = 200;
 BYTE            bAttr[32];
 DWORD           cByte = 32;
@@ -249,11 +253,11 @@ LONG            lReturn;
 // hCardHandle was set by an earlier call to SCardConnect.
 lReturn = SCardStatus(hCardHandle,
                       szReader,
-                      &cch,
-                      &dwState,
-                      &dwProtocol,
-                      (LPBYTE)&bAttr,
-                      &cByte); 
+                      &amp;cch,
+                      &amp;dwState,
+                      &amp;dwProtocol,
+                      (LPBYTE)&amp;bAttr,
+                      &amp;cByte); 
 
 if ( SCARD_S_SUCCESS != lReturn )
 {
@@ -288,10 +292,10 @@ switch ( dwState )
         printf("Unknown or unexpected card state.\n");
         break;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

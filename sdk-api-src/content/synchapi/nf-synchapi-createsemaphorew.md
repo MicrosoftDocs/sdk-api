@@ -7,8 +7,8 @@ old-location: base\createsemaphore.htm
 tech.root: sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: CreateSemaphore, CreateSemaphore function, CreateSemaphoreA, CreateSemaphoreW, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
+ms.date: 11/08/2018
+ms.keywords: CreateSemaphoreA, CreateSemaphoreW, CreateSemaphoreW function, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -49,7 +49,7 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateSemaphore
+ - CreateSemaphoreW
  - CreateSemaphoreA
  - CreateSemaphoreW
 product: Windows

@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope.htm
 tech.root: tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastScope</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMcastScope</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastScope</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMcastScope</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -127,7 +127,7 @@ Obtains time to live information for the multicast server.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

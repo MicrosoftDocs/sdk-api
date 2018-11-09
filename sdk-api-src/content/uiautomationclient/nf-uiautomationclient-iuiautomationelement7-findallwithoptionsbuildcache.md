@@ -73,9 +73,9 @@ TBD
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
 
-### -param arg2
+### -param arg4 [in, optional]
 
-TBD
+A pointer to the element with which to begin the search.
 
 
 ### -param root
@@ -88,11 +88,6 @@ TBD
 TBD
 
 
-
-
-#### - arg4 [in, optional]
-
-A pointer to the element with which to begin the search.
 
 
 #### - foundElementsArray [out]

@@ -7,7 +7,7 @@ old-location: mscs\clus_netname_ip_info_for_multichannel.htm
 tech.root: mscs
 ms.assetid: 724FD774-00F4-4617-B761-87509AD61AF4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: "*PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, clusapi/PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, mscs.clus_netname_ip_info_for_multichannel"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The number of channels that are specified by the <i>IpInfo</i> parameter.
 
 ### -field IpInfo
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn622928(v=VS.85).aspx">CLUS_NETNAME_IP_INFO_ENTRY</a> structures that specify the IP info for each channel.
+An array of <a href="https://msdn.microsoft.com/9631BDB9-6B7C-4BFF-9654-20C77F851A22">CLUS_NETNAME_IP_INFO_ENTRY</a> structures that specify the IP info for each channel.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ An array of <a href="https://msdn.microsoft.com/en-us/library/Dn622928(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
  
 
  

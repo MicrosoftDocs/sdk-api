@@ -7,7 +7,7 @@ old-location: security\icenroll4_getcertfromresponse.htm
 tech.root: seccrypto
 ms.assetid: 4e2b1f53-c6fc-4fb8-a69c-58ab8ac6f258
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnroll object [Security],getCertFromResponse method, ICEnroll4 interface [Security],getCertFromResponse method, ICEnroll4.getCertFromResponse, ICEnroll4::getCertFromResponse, _xen_icenroll4_getcertfromresponse, getCertFromResponse, getCertFromResponse method [Security], getCertFromResponse method [Security],CEnroll object, getCertFromResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromresponse, xenroll/ICEnroll4::getCertFromResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The base64-encoded response.
 
 ### -param pstrCert [out]
 
-A pointer to a <b>BSTR</b> that receives the certificate retrieved from the response. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the certificate retrieved from the response. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

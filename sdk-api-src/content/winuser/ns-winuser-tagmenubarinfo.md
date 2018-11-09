@@ -109,11 +109,11 @@ If the menu item has the focus, this member is <b>TRUE</b>. Otherwise, the membe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647833(v=VS.85).aspx">GetMenuBarInfo</a>
+<a href="https://msdn.microsoft.com/552868df-9641-4584-bbd1-89c8c5806a68">GetMenuBarInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

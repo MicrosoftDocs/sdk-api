@@ -75,15 +75,19 @@ A file URL has the form "File://
 				<i>xxx</i>". <b>UrlIsFileUrl</b> is actually one of the following macros, depending on whether ANSI or Unicode is selected.
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 #define  UrlIsFileUrlA(pszURL) UrlIsA(pszURL, URLIS_FILEURL)
 #define  UrlIsFileUrlW(pszURL) UrlIsW(pszURL, URLIS_FILEURL)
-				
-```
-
-
+				</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

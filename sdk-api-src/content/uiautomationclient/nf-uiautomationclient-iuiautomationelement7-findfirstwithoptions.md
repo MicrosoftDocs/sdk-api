@@ -68,9 +68,9 @@ A combination of values specifying the scope of the search.
 A pointer to a condition that represents the criteria to match.
 
 
-### -param arg2
+### -param arg3
 
-TBD
+Enumeration value specifying the tree navigation order.
 
 
 ### -param root [in, optional]
@@ -83,11 +83,6 @@ A pointer to the element with which to begin the search.
 TBD
 
 
-
-
-#### - arg3
-
-Enumeration value specifying the tree navigation order.
 
 
 #### - foundElement [out, retval]

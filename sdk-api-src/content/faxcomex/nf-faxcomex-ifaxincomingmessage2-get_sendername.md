@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderna
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\sendername.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],SenderName property, IFaxIncomingMessage2.SenderName, IFaxIncomingMessage2.get_SenderName, IFaxIncomingMessage2.put_SenderName, IFaxIncomingMessage2::SenderName, IFaxIncomingMessage2::get_SenderName, IFaxIncomingMessage2::put_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.sendername, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_sendername_cpp, fax._mfax_faxincomingmessage_sendername, faxcomex/IFaxIncomingMessage2::SenderName, faxcomex/IFaxIncomingMessage2::get_SenderName, faxcomex/IFaxIncomingMessage2::put_SenderName, get_SenderName
 ms.prod: windows-hardware
 ms.technology: windows-devices

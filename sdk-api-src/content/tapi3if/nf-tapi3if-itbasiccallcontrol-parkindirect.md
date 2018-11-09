@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_parkindirect.htm
 tech.root: tapi
 ms.assetid: 661ad11c-b653-4b70-9553-59d484527c29
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkIndirect method, ITBasicCallControl.ParkIndirect, ITBasicCallControl::ParkIndirect, ParkIndirect, ParkIndirect method [TAPI 2.2], ParkIndirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkindirect, tapi3.itbasiccallcontrol_parkindirect, tapi3if/ITBasicCallControl::ParkIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,7 +165,7 @@ The parked call enters the disconnected state after it has been successfully par
 Some switches can remind the user after a call has been parked for some long amount of time. The application sees an offering call with a call reason set to reminder.
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppNonDirAddress</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppNonDirAddress</i> parameter.
 			
 
 

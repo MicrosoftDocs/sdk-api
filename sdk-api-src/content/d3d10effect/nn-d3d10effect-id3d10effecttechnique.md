@@ -53,7 +53,7 @@ req.redist:
 
 An <b>ID3D10EffectTechnique</b> interface is a collection of passes.
 
-The lifetime of an <b>ID3D10EffectTechnique</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a> object.
+The lifetime of an <b>ID3D10EffectTechnique</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect</a> object.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectTechnique</b> interface has these methods.
@@ -64,7 +64,7 @@ The lifetime of an <b>ID3D10EffectTechnique</b> object is equal to the lifetime 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173709(v=VS.85).aspx">ComputeStateBlockMask</a>
+<a href="https://msdn.microsoft.com/c881dc2d-8e02-49b0-b539-bd0b1e767110">ComputeStateBlockMask</a>
 </td>
 <td align="left" width="63%">
 Compute a state-block mask to allow/prevent state changes.
@@ -73,7 +73,7 @@ Compute a state-block mask to allow/prevent state changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173710(v=VS.85).aspx">GetAnnotationByIndex</a>
+<a href="https://msdn.microsoft.com/6da71c9e-75b7-49dd-b9cb-871673e4b2c7">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -82,7 +82,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173711(v=VS.85).aspx">GetAnnotationByName</a>
+<a href="https://msdn.microsoft.com/0374cb3e-c609-4c39-9d68-9d189774022a">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -91,7 +91,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173712(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/18d53bb6-0055-479e-ac32-7f53498859c7">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a technique description.
@@ -100,7 +100,7 @@ Get a technique description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173713(v=VS.85).aspx">GetPassByIndex</a>
+<a href="https://msdn.microsoft.com/dbf7e4be-e25c-49ea-9851-db6a7415631a">GetPassByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a pass by index.
@@ -109,7 +109,7 @@ Get a pass by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173714(v=VS.85).aspx">GetPassByName</a>
+<a href="https://msdn.microsoft.com/9da96781-1233-47a0-a8b7-85acdb53ac49">GetPassByName</a>
 </td>
 <td align="left" width="63%">
 Get a pass by name.
@@ -118,7 +118,7 @@ Get a pass by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173715(v=VS.85).aspx">IsValid</a>
+<a href="https://msdn.microsoft.com/77001a77-04e9-40d9-8983-433e7513d3d5">IsValid</a>
 </td>
 <td align="left" width="63%">
 Test a technique to see if it contains valid syntax.
@@ -138,7 +138,7 @@ The <b>ID3D10EffectTechnique</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173709(v=VS.85).aspx">ComputeStateBlockMask</a>
+<a href="https://msdn.microsoft.com/c881dc2d-8e02-49b0-b539-bd0b1e767110">ComputeStateBlockMask</a>
 </td>
 <td align="left" width="63%">
 Compute a state-block mask to allow/prevent state changes.
@@ -147,7 +147,7 @@ Compute a state-block mask to allow/prevent state changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173710(v=VS.85).aspx">GetAnnotationByIndex</a>
+<a href="https://msdn.microsoft.com/6da71c9e-75b7-49dd-b9cb-871673e4b2c7">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -156,7 +156,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173711(v=VS.85).aspx">GetAnnotationByName</a>
+<a href="https://msdn.microsoft.com/0374cb3e-c609-4c39-9d68-9d189774022a">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -165,7 +165,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173712(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/18d53bb6-0055-479e-ac32-7f53498859c7">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a technique description.
@@ -174,7 +174,7 @@ Get a technique description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173713(v=VS.85).aspx">GetPassByIndex</a>
+<a href="https://msdn.microsoft.com/dbf7e4be-e25c-49ea-9851-db6a7415631a">GetPassByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a pass by index.
@@ -183,7 +183,7 @@ Get a pass by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173714(v=VS.85).aspx">GetPassByName</a>
+<a href="https://msdn.microsoft.com/9da96781-1233-47a0-a8b7-85acdb53ac49">GetPassByName</a>
 </td>
 <td align="left" width="63%">
 Get a pass by name.
@@ -192,7 +192,7 @@ Get a pass by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173715(v=VS.85).aspx">IsValid</a>
+<a href="https://msdn.microsoft.com/77001a77-04e9-40d9-8983-433e7513d3d5">IsValid</a>
 </td>
 <td align="left" width="63%">
 Test a technique to see if it contains valid syntax.
@@ -220,9 +220,9 @@ Test a technique to see if it contains valid syntax.
 
 
 
-An effect contains one or more techniques; each technique contains one or more passes; each pass contains state assignments (see <a href="https://msdn.microsoft.com/en-us/library/Bb205112(v=VS.85).aspx">Organizing State in an Effect (Direct3D 10)</a>). The syntax for creating a technique is shown in <a href="https://msdn.microsoft.com/en-us/library/Bb205053(v=VS.85).aspx">Effect Technique Syntax (Direct3D 10)</a>.
+An effect contains one or more techniques; each technique contains one or more passes; each pass contains state assignments (see <a href="https://msdn.microsoft.com/674ed278-102c-43da-a6bf-58e084df151e">Organizing State in an Effect (Direct3D 10)</a>). The syntax for creating a technique is shown in <a href="https://msdn.microsoft.com/84f9b74d-8397-4cd5-91a0-7f910ba7b19e">Effect Technique Syntax (Direct3D 10)</a>.
 
-To get an effect-technique interface, call a method like <a href="https://msdn.microsoft.com/en-us/library/Bb173766(v=VS.85).aspx">ID3D10Effect::GetTechniqueByName</a>.
+To get an effect-technique interface, call a method like <a href="https://msdn.microsoft.com/59c57254-f3e5-45a6-be3e-93bee67d5b36">ID3D10Effect::GetTechniqueByName</a>.
 
 
 
@@ -232,7 +232,7 @@ To get an effect-technique interface, call a method like <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
  
 
  

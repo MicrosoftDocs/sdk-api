@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_outboundrouting_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6y1z_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxServer interface [Fax Service],OutboundRouting property, IFaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.outboundrouting_cpp, fax._mfax_faxserver_outboundrouting_cpp, faxcomex/IFaxServer::OutboundRouting, faxcomex/IFaxServer::get_OutboundRouting, get_OutboundRouting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
+This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/b5d59fec-2802-40bd-8ce4-748137f30fb2">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
 
 
 
@@ -73,15 +73,15 @@ This property is not supported in Windows XP, and will return the error: <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

@@ -7,8 +7,8 @@ old-location: security\setcredentialsattributes.htm
 tech.root: secauthn
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: QueryCredentialsAttributesA, QueryCredentialsAttributesW, SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW, sspi/SetCredentialsAttributes
+ms.date: 11/08/2018
+ms.keywords: SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/SetCredentialsAttributes, sspi/SetCredentialsAttributesA, sspi/SetCredentialsAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: QueryCredentialsAttributesW (Unicode) and QueryCredentialsAttributesA (ANSI)
+req.unicode-ansi: SetCredentialsAttributesW (Unicode) and SetCredentialsAttributesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -38,8 +38,8 @@ api_location:
  - Secur32.dll
 api_name:
  - SetCredentialsAttributes
- - QueryCredentialsAttributesA
- - QueryCredentialsAttributesW
+ - SetCredentialsAttributesA
+ - SetCredentialsAttributesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -222,7 +222,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

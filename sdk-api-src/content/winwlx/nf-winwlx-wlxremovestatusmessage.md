@@ -7,7 +7,7 @@ old-location: security\wlxremovestatusmessage.htm
 tech.root: secauthn
 ms.assetid: b8e64f7b-04fc-4dbe-8670-314ff8838ba4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: WlxRemoveStatusMessage, WlxRemoveStatusMessage function [Security], _gina_wlxremovestatusmessage, security.wlxremovestatusmessage, winwlx/WlxRemoveStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

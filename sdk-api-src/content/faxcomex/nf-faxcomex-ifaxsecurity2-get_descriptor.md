@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity2_descriptor_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\descriptor.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],IFaxSecurity2 interface, IFaxSecurity2 interface [Fax Service],Descriptor property, IFaxSecurity2.Descriptor, IFaxSecurity2.get_Descriptor, IFaxSecurity2::Descriptor, IFaxSecurity2::get_Descriptor, IFaxSecurity2::put_Descriptor, _mfax_faxsecurity2.descriptor_cpp, fax._mfax_faxsecurity2_descriptor_cpp, faxcomex/IFaxSecurity2::Descriptor, faxcomex/IFaxSecurity2::get_Descriptor, faxcomex/IFaxSecurity2::put_Descriptor, get_Descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Represents the security descriptor for a <a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> object.
+Represents the security descriptor for a <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 This property is read/write.
 
@@ -64,9 +64,9 @@ This property is read/write.
 
 
 
-The <b>IFaxSecurity2::Descriptor</b> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The <a href="https://msdn.microsoft.com/c7a839d9-d7d5-4942-8886-b1ca494c5842">IFaxSecurity2::GrantedRights</a> property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a>, the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, the user can send normal-priority and low-priority faxes.
+The <b>IFaxSecurity2::Descriptor</b> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The <a href="https://msdn.microsoft.com/c7a839d9-d7d5-4942-8886-b1ca494c5842">IFaxSecurity2::GrantedRights</a> property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2SUBMIT_HIGH</a>, the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2SUBMIT_NORMAL</a>, the user can send normal-priority and low-priority faxes.
 
-To read and write this property, the user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2MANAGE_CONFIG</a> access right. Users with the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2QUERY_CONFIG</a> access right can read this property.  
+To read and write this property, the user must have the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2MANAGE_CONFIG</a> access right. Users with the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2QUERY_CONFIG</a> access right can read this property.  
 
 
 

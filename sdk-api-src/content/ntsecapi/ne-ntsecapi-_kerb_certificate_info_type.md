@@ -7,7 +7,7 @@ old-location: security\kerb_certificate_info_type.htm
 tech.root: secauthn
 ms.assetid: B6BAF09D-D284-4287-B760-32E4D5A9F091
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], _KERB_CERTIFICATE_INFO_TYPE, ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type"
 ms.prod: windows
 ms.technology: windows-sdk

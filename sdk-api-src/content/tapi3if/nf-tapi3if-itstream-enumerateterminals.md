@@ -7,7 +7,7 @@ old-location: tapi3\itstream_enumerateterminals.htm
 tech.root: tapi
 ms.assetid: c57af2a9-a2ec-45ba-9e10-7b5f41bdeb00
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITStream interface, ITStream interface [TAPI 2.2],EnumerateTerminals method, ITStream.EnumerateTerminals, ITStream::EnumerateTerminals, _tapi3_itstream_enumerateterminals, tapi3.itstream_enumerateterminals, tapi3if/ITStream::EnumerateTerminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,8 +120,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/a364e466-1d10-402f-935d-ff2713522fed">IEnumTerminal</a> interface returned by <b>ITStream::EnumerateTerminals</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/a364e466-1d10-402f-935d-ff2713522fed">IEnumTerminal</a> interface returned by <b>ITStream::EnumerateTerminals</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumTerminal</b> interface to free resources associated with it.
 
 

@@ -7,7 +7,7 @@ old-location: tapi3\itaddress_get_donotdisturb.htm
 tech.root: tapi
 ms.assetid: d9257201-bcd1-4d6b-9bc7-24b323cd4f15
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DoNotDisturb method, ITAddress.get_DoNotDisturb, ITAddress::get_DoNotDisturb, _tapi3_itaddress_get_donotdisturb, get_DoNotDisturb, get_DoNotDisturb method [TAPI 2.2], get_DoNotDisturb method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_donotdisturb, tapi3if/ITAddress::get_DoNotDisturb
 ms.prod: windows-hardware
 ms.technology: windows-devices

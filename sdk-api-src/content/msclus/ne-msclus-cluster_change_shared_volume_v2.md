@@ -4,10 +4,10 @@ title: CLUSTER_CHANGE_SHARED_VOLUME_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for a cluster shared volume.
 old-location: mscs\cluster_change_shared_volume_v2.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 2934115D-B52B-4289-9BCD-E66A4F363AE8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_V2, mscs.cluster_change_shared_volume_v2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_unpark.htm
 tech.root: tapi
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark
 ms.prod: windows-hardware
 ms.technology: windows-devices

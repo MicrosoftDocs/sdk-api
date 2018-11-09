@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope_get_scopedescription.htm
 tech.root: tapi
 ms.assetid: e675ba4a-8e5f-42a6-8edf-9b136cf9dd46
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeDescription method, IMcastScope.get_ScopeDescription, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ Not enough memory exists to allocate the string.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppDescription</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppDescription</i> parameter.
 			
 
 

@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param arg1
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -83,13 +85,6 @@ Type: <b><a href="https://msdn.microsoft.com/7E12B8C2-D6A7-4637-9049-312B78EC01D
 
 A pointer to the object that handles the notification event.
 
-
-
-#### - arg2 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

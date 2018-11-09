@@ -7,7 +7,7 @@ old-location: tapi3\address_state.htm
 tech.root: tapi
 ms.assetid: 7c79bd68-5f1d-4796-a16b-fd786345cffd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ADDRESS_STATE, ADDRESS_STATE enumeration [TAPI 2.2], AS_INSERVICE, AS_OUTOFSERVICE, _tapi3_address_state, tapi3.address_state, tapi3if/ADDRESS_STATE, tapi3if/AS_INSERVICE, tapi3if/AS_OUTOFSERVICE
 ms.prod: windows
 ms.technology: windows-sdk

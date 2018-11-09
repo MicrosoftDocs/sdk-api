@@ -89,9 +89,13 @@ This method is analogous to <a href="https://msdn.microsoft.com/94731c78-b7cf-4a
 
 The following example shows the usage of <b>ISyncMgrControl::StartSyncAll</b> by a handler's procedure.
 
-
-```cpp
-void CMyDeviceHandler::MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CMyDeviceHandler::MiscProc(...)
 {
     ...
 
@@ -100,20 +104,20 @@ void CMyDeviceHandler::MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER,
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Synchronize all sync items for all sync handlers.
-        hr = pControl->StartSyncAll(_hwnd);
-        pControl->Release();
+        hr = pControl-&gt;StartSyncAll(_hwnd);
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

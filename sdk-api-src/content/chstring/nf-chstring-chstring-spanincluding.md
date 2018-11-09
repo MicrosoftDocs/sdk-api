@@ -92,17 +92,21 @@ The <b>SpanIncluding</b> method starts with the first character of the string an
 
 The following code example shows the use of <b>CHString::SpanIncluding</b>.
 
-
-```cpp
-CHString str( L"cabbage" );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString str( L"cabbage" );
 CHString res = str.SpanIncluding( L"abc" );
 
 assert( res == L"cabba" );
 res = str.SpanIncluding( L"xyz" );
-assert( res.IsEmpty( ) );
-```
-
-
+assert( res.IsEmpty( ) );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

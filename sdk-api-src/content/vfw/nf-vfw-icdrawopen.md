@@ -7,7 +7,7 @@ old-location: multimedia\icdrawopen.htm
 tech.root: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,15 +82,19 @@ Pointer to the structure defining the input format. A driver handle will not be 
 
 The <b>ICDrawOpen</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define ICDrawOpen(fccType, fccHandler, lpbiIn) \
     ICLocate(fccType, fccHandler, lpbiIn, NULL, ICMODE_DRAW); 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

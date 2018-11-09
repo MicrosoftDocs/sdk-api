@@ -7,7 +7,7 @@ old-location: mscs\clus_csv_volume_name.htm
 tech.root: mscs
 ms.assetid: 18E17AA6-1244-41EA-918E-7BDBB90A0D70
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: "*PCLUS_CSV_VOLUME_NAME, CLUS_CSV_VOLUME_NAME, CLUS_CSV_VOLUME_NAME structure [Failover Cluster], PCLUS_CSV_VOLUME_NAME, PCLUS_CSV_VOLUME_NAME structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_NAME, clusapi/CLUS_CSV_VOLUME_NAME, clusapi/PCLUS_CSV_VOLUME_NAME, mscs.clus_csv_volume_name"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The root path of the CSV.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
  
 
  

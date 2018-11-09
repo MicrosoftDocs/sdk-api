@@ -7,7 +7,7 @@ old-location: security\iocspadmin_ocspserviceproperties_method.htm
 tech.root: seccrypto
 ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
+The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The following table lists the possible <a href="https://msdn.microsoft.com/en-us/library/Aa386543(v=VS.85).aspx">Name</a>-<a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Value</a> pairs for OCSP service properties.
+The following table lists the possible <a href="https://msdn.microsoft.com/33980a7c-0ae5-470b-a55a-f3e19c8846a6">Name</a>-<a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> pairs for OCSP service properties.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ The following table lists the possible <a href="https://msdn.microsoft.com/en-us
 <tr>
 <td><b>LogLevel</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Value</a> of <b>LogLevel</b> must be one of the following constants.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>LogLevel</b> must be one of the following constants.
 
 
 
@@ -114,7 +114,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Va
 <tr>
 <td><b>AuditFilter</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
 
 
 
@@ -145,21 +145,21 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Va
 <tr>
 <td><b>ArrayController</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>ArrayMembers</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>EnrollPollInterval</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa386546(v=VS.85).aspx">Va
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a>
+<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
  
 
  

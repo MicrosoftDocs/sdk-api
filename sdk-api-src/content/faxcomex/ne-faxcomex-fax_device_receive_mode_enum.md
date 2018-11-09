@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_device_receive_mode_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6ib1.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: FAX_DEVICE_RECEIVE_MODE_ENUM, FAX_DEVICE_RECEIVE_MODE_ENUM enumeration [Fax Service], _mfax_fax_device_receive_mode_enum, fax._mfax_fax_device_receive_mode_enum, faxcomex/FAX_DEVICE_RECEIVE_MODE_ENUM, faxcomex/fdrmAUTO_ANSWER, faxcomex/fdrmMANUAL_ANSWER, faxcomex/fdrmNO_ANSWER, fdrmAUTO_ANSWER, fdrmMANUAL_ANSWER, fdrmNO_ANSWER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The device will answer the call only if made to do so manually.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a>
+<a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a>
  
 
  

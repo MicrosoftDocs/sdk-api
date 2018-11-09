@@ -124,32 +124,36 @@ The array could not be locked.
 
 
 
-This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="https://msdn.microsoft.com/en-us/library/ms221234(v=VS.85).aspx">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="https://msdn.microsoft.com/en-us/library/ms221468(v=VS.85).aspx">SafeArrayAllocData</a> to allocate memory for the array elements.
+This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="5B94F1A2-A558-473F-85DD-9545C0464CC7">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="A1F984CD-9638-415D-8582-25B1BDFBD694">SafeArrayAllocData</a> to allocate memory for the array elements.
 
 
 #### Examples
 
 The following example creates a safe array using the <b>SafeArrayAllocDescriptor</b> and <a href="https://msdn.microsoft.com/a1f984cd-9638-415d-8582-25b1bdfbd694">SafeArrayAllocData</a> functions.
 
-
-```cpp
-SAFEARRAY *psa;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SAFEARRAY *psa;
 unsigned int ndim =  2;
-HRESULT hresult = SafeArrayAllocDescriptor( ndim, &psa );
+HRESULT hresult = SafeArrayAllocDescriptor( ndim, &amp;psa );
 if( FAILED( hresult ) )
    return ERR_OutOfMemory;
-(psa)->rgsabound[ 0 ].lLbound = 0;
-(psa)->rgsabound[ 0 ].cElements = 5;
-(psa)->rgsabound[ 1 ].lLbound = 1;
-(psa)->rgsabound[ 1 ].cElements = 4;
+(psa)-&gt;rgsabound[ 0 ].lLbound = 0;
+(psa)-&gt;rgsabound[ 0 ].cElements = 5;
+(psa)-&gt;rgsabound[ 1 ].lLbound = 1;
+(psa)-&gt;rgsabound[ 1 ].cElements = 4;
 hresult = SafeArrayAllocData( psa );
 if( FAILED( hresult ) ) {
    SafeArrayDestroyDescriptor( psa )
    return ERR_OutOfMemory;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -51,7 +51,7 @@ req.redist:
 
 
 Frees the string buffer allocated by
-    <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a>.
+    <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Frees the string buffer allocated by
 ### -param OemString [in, out]
 
 Address of the OEM string whose buffer
-        was previously allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a>.
+        was previously allocated by <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-This routine releases the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms648424(v=VS.85).aspx">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
+This routine releases the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/4f69b710-2ab2-4439-938b-20509b697dc2">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
 		
 
 

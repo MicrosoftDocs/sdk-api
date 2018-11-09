@@ -72,9 +72,11 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element to associate with the event handler.
 
 
-### -param arg1
+### -param arg3 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ### -param cacheRequest [in]
@@ -89,13 +91,6 @@ A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 Type: <b><a href="https://msdn.microsoft.com/3b79e085-fb38-403d-b7f1-3e7680f3449f">IUIAutomationEventHandler</a>*</b>
 
 A pointer to the object that handles the event.
-
-
-#### - arg3 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
-
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
 
 ## -returns

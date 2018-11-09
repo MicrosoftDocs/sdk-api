@@ -7,7 +7,7 @@ old-location: base\waitonaddress.htm
 tech.root: sync
 ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/08/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

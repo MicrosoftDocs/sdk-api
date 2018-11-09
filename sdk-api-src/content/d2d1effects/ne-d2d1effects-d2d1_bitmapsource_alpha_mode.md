@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the alpha mode of the output of the <a href="https://msdn.microsoft.com/en-us/library/Hh706312(v=VS.85).aspx">Bitmap source effect</a>.
+Specifies the alpha mode of the output of the <a href="https://msdn.microsoft.com/86646111-208A-4E6D-A28C-7B23A1742D24">Bitmap source effect</a>.
 
 
 ## -enum-fields

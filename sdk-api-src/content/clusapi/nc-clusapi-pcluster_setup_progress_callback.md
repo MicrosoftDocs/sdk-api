@@ -7,7 +7,7 @@ old-location: mscs\pcluster_setup_progress_callback.htm
 tech.root: mscs
 ms.assetid: fb7a6991-576c-4c03-aef0-89811fbc1a0d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseContinue, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEnd, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFatal, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInformational, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStart, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, ClusterSetupPhaseWarning, ClusterSetupProgressCallback, ClusterSetupProgressCallback callback, ClusterSetupProgressCallback callback function [Failover Cluster], PCLUSTER_SETUP_PROGRESS_CALLBACK, PCLUSTER_SETUP_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterSetupProgressCallback, clusapi/PCLUSTER_SETUP_PROGRESS_CALLBACK, mscs.pcluster_setup_progress_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Callback function that receives regular updates on the progression of the setup 
 
 ### -param eSetupPhase [in]
 
-Value from the <a href="https://msdn.microsoft.com/en-us/library/Bb309173(v=VS.85).aspx">CLUSTER_SETUP_PHASE</a> enumeration 
+Value from the <a href="https://msdn.microsoft.com/cc881b92-c312-4b88-8d8d-09f98925b5b5">CLUSTER_SETUP_PHASE</a> enumeration 
        that gives the current setup phase. The parameter can be one of the following values.
 
 
@@ -245,7 +245,7 @@ Return failed resource to pre-clustered state.
 
 ### -param ePhaseType [in]
 
-Value from the <a href="https://msdn.microsoft.com/en-us/library/Bb309175(v=VS.85).aspx">CLUSTER_SETUP_PHASE_TYPE</a> 
+Value from the <a href="https://msdn.microsoft.com/515fe36d-84a0-41f1-80fa-a8c12718bdf5">CLUSTER_SETUP_PHASE_TYPE</a> 
        enumeration that gives the current setup phase type. The parameter can be one of the following values.
 
 
@@ -273,7 +273,7 @@ Called once at the end of every setup phase as passed in the <i>eSetupPhase</i>
 ### -param ePhaseSeverity [in]
 
 Value from the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309174(v=VS.85).aspx">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+       <a href="https://msdn.microsoft.com/a355dc8d-73f1-476b-a06f-24f011af4ace">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
        that gives the current setup phase severity. The parameter can be one of the following values.
 
 
@@ -327,7 +327,7 @@ TBD
 
 The <b>PCLUSTER_SETUP_PROGRESS_CALLBACK</b> type defines a pointer to this function.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MSCluster_EventClusterCallback</a> 
+The <a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback</a> 
      MOF class is used in a similar manner.
 
 
@@ -342,19 +342,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309173(v=VS.85).aspx">CLUSTER_SETUP_PHASE</a>
+<a href="https://msdn.microsoft.com/cc881b92-c312-4b88-8d8d-09f98925b5b5">CLUSTER_SETUP_PHASE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309174(v=VS.85).aspx">CLUSTER_SETUP_PHASE_SEVERITY</a>
+<a href="https://msdn.microsoft.com/a355dc8d-73f1-476b-a06f-24f011af4ace">CLUSTER_SETUP_PHASE_SEVERITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309175(v=VS.85).aspx">CLUSTER_SETUP_PHASE_TYPE</a>
+<a href="https://msdn.microsoft.com/515fe36d-84a0-41f1-80fa-a8c12718bdf5">CLUSTER_SETUP_PHASE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Cluster Management Functions</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Cluster Management Functions</a>
 
 
 
@@ -366,7 +366,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MSCluster_EventClusterCallback</a>
+<a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback</a>
  
 
  

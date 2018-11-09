@@ -7,7 +7,7 @@ old-location: security\logonuserex.htm
 tech.root: secauthn
 ms.assetid: 4aba1cad-f234-4329-8599-7438cb9bee98
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUserEx, LogonUserEx function [Security], LogonUserExA, LogonUserExW, _win32_logonuserex, security.logonuserex, winbase/LogonUserEx, winbase/LogonUserExA, winbase/LogonUserExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\scardgetproviderid.htm
 tech.root: secauthn
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -132,14 +132,18 @@ The <b>SCardGetProviderId</b> function is a database query function. For more in
 
 The following example shows how to get the provider ID for the specified card. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function and that "MyCardName" was introduced by a previous call to the <a href="https://msdn.microsoft.com/1ac88466-1277-44d7-a471-b31d6bfce99e">SCardIntroduceCardType</a> function.
 
-
-```cpp
-GUID    guidProv;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>GUID    guidProv;
 LONG    lReturn;
 
 lReturn = SCardGetProviderId(hContext, 
                              L"MyCardName",
-                             &guidProv);
+                             &amp;guidProv);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardGetProviderId - %x\n", lReturn);
 else
@@ -147,10 +151,10 @@ else
     // Use the provider GUID as needed.
     // ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

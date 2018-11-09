@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension.htm
 tech.root: seccrypto
 ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], IEnumCERTVIEWEXTENSION interface [Security],described, _certsrv_ienumcertviewextension, certview/IEnumCERTVIEWEXTENSION, security.ienumcertviewextension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.redist:
 The <b>IEnumCERTVIEWEXTENSION</b> interface represents an extension-enumeration sequence that contains the  certificate extension data for the current row of the row-enumeration sequence.
 
  The extension-enumeration sequence is obtained by a call to the   
-<a href="https://msdn.microsoft.com/en-us/library/Aa386242(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewExtension</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWEXTENSION</b> interface can be used to perform the following tasks:<ul>
+<a href="https://msdn.microsoft.com/41028000-fa87-4ad0-93fc-314c5d3870f9">IEnumCERTVIEWROW::EnumCertViewExtension</a> method. After this enumeration sequence is obtained, the methods of the <b>IEnumCERTVIEWEXTENSION</b> interface can be used to perform the following tasks:<ul>
 <li>Navigate the extension-enumeration sequence.</li>
 <li>Retrieve the name, value, and flags of the extension in the enumeration.</li>
 <li>Clone an exact copy of the extension-enumeration sequence.</li>
@@ -67,9 +67,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWEXTENSION</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEnumCERTVIEWEXTENSION</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWEXTENSION</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEnumCERTVIEWEXTENSION</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -82,7 +82,7 @@ The <b>IEnumCERTVIEWEXTENSION</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386205(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/2b8e19e4-459f-45f0-abb6-e1e0e115e0f5">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the extension-enumeration sequence.
@@ -91,7 +91,7 @@ Creates a copy of the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386208(v=VS.85).aspx">GetFlags</a>
+<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the policy and origin flags of the current extension in the extension-enumeration sequence.
@@ -100,7 +100,7 @@ Retrieves the policy and origin flags of the current extension in the extension-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386211(v=VS.85).aspx">GetName</a>
+<a href="https://msdn.microsoft.com/7c56708c-ae25-46f5-94f3-d58eea8d08d4">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the current extension in the extension-enumeration sequence.
@@ -109,7 +109,7 @@ Retrieves the name of the current extension in the extension-enumeration sequenc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386216(v=VS.85).aspx">GetValue</a>
+<a href="https://msdn.microsoft.com/7a81b096-36ba-416a-ad15-5bf1c4d512dd">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the current extension in the extension-enumeration sequence.
@@ -118,7 +118,7 @@ Retrieves the value of the current extension in the extension-enumeration sequen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next extension in the extension-enumeration sequence.
@@ -127,7 +127,7 @@ Moves to the next extension in the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386225(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the extension-enumeration sequence.
@@ -136,7 +136,7 @@ Moves to the beginning of the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa386227(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of extensions in the extension-enumeration sequence.
@@ -151,11 +151,11 @@ Skips a specified number of extensions in the extension-enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386242(v=VS.85).aspx">IEnumCERTVIEWROW::IEnumCertViewExtension</a>
+<a href="https://msdn.microsoft.com/41028000-fa87-4ad0-93fc-314c5d3870f9">IEnumCERTVIEWROW::IEnumCertViewExtension</a>
  
 
  

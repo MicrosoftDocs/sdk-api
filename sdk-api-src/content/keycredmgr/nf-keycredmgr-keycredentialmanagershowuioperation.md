@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagershowuioperation.htm
 tech.root: secauthn
 ms.assetid: 94AB2BA7-810C-4AC4-A719-FD9684C21BA0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOperation function [Security], keycredmgr/KeyCredentialManagerShowUIOperation, security.keycredentialmanagershowuioperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

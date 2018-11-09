@@ -96,16 +96,20 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the enabled state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::IsEnabled()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::IsEnabled()
 {
     // Return a previously-calculated value.
     return (_fIsEnabled ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

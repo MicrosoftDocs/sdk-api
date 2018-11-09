@@ -109,20 +109,24 @@ If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=13
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     GESTUREINFO gestureInfo = {0};
     gestureInfo.cbSize = sizeof(gestureInfo);
-    BOOL bResult = GetGestureInfo((HGESTUREINFO)lParam, &gestureInfo);
+    BOOL bResult = GetGestureInfo((HGESTUREINFO)lParam, &amp;gestureInfo);
 
     if (!bResult){                
         DWORD err = GetLastError();                                       
     }
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

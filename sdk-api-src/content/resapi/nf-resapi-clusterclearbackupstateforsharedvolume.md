@@ -4,10 +4,10 @@ title: ClusterClearBackupStateForSharedVolume function
 author: windows-sdk-content
 description: Clears the backup state for the cluster shared volume.
 old-location: mscs\clusterclearbackupstateforsharedvolume.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterClearBackupStateForSharedVolume, ClusterClearBackupStateForSharedVolume function [Failover Cluster], PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/ClusterClearBackupStateForSharedVolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices

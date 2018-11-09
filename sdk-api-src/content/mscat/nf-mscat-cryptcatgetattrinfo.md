@@ -7,7 +7,7 @@ old-location: security\cryptcatgetattrinfo.htm
 tech.root: seccrypto
 ms.assetid: e36966ea-741e-4380-85cd-5a3c9db38e6d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

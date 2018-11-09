@@ -7,7 +7,7 @@ old-location: tapi2\lineproviderlist_str.htm
 tech.root: tapi
 ms.assetid: 75790ffd-bb1b-4efc-a905-5727d31f8aec
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPLINEPROVIDERLIST, LINEPROVIDERLIST, LINEPROVIDERLIST structure [TAPI 2.2], LPLINEPROVIDERLIST, LPLINEPROVIDERLIST structure pointer [TAPI 2.2], _tapi2_lineproviderlist_str, lineproviderlist_tag, tapi/LINEPROVIDERLIST, tapi/LPLINEPROVIDERLIST, tapi2.lineproviderlist_str"
 ms.prod: windows
 ms.technology: windows-sdk

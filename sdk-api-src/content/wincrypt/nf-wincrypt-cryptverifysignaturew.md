@@ -7,7 +7,7 @@ old-location: security\cryptverifysignature.htm
 tech.root: seccrypto
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -309,7 +309,7 @@ For an example that uses the <b>CryptVerifySignature</b> function, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

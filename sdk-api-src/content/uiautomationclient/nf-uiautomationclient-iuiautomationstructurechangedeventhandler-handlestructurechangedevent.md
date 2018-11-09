@@ -65,23 +65,18 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the element that raised the event.
 
 
-### -param arg1
+### -param arg2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/abaf9551-40c4-4ab6-adb7-b619f3bc9745">StructureChangeType</a></b>
+
+A value indicating the type of tree structure change that took place.
 
 
 ### -param runtimeId [in]
 
 Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
-Receives the runtime identifier of the element. This parameter is used only when <i>changeType</i> is <a href="https://msdn.microsoft.com/en-us/library/Ee671618(v=VS.85).aspx">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events. 
-
-
-#### - arg2 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/abaf9551-40c4-4ab6-adb7-b619f3bc9745">StructureChangeType</a></b>
-
-A value indicating the type of tree structure change that took place.
+Receives the runtime identifier of the element. This parameter is used only when <i>changeType</i> is <a href="uiauto_StructureChangeTypeEnum.htm">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events. 
 
 
 ## -returns

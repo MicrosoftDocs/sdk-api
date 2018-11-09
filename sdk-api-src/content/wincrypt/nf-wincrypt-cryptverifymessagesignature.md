@@ -7,7 +7,7 @@ old-location: security\cryptverifymessagesignature.htm
 tech.root: seccrypto
 ms.assetid: 03411e7a-b097-4059-a198-3d412ae40e38
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [Security], _crypto2_cryptverifymessagesignature, security.cryptverifymessagesignature, wincrypt/CryptVerifyMessageSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -238,7 +238,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

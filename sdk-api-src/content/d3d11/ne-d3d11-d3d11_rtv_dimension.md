@@ -60,7 +60,7 @@ These flags identify the type of resource that will be viewed as a render target
 
 ### -field D3D11_RTV_DIMENSION_UNKNOWN
 
-Do not use this value, as it will cause <a href="https://msdn.microsoft.com/en-us/library/Ff476517(v=VS.85).aspx">ID3D11Device::CreateRenderTargetView</a> to fail.
+Do not use this value, as it will cause <a href="https://msdn.microsoft.com/e757c959-f0ac-44c3-8226-b9f0b1c2a031">ID3D11Device::CreateRenderTargetView</a> to fail.
 
 
 ### -field D3D11_RTV_DIMENSION_BUFFER
@@ -107,7 +107,7 @@ The resource will be accessed as a 3D texture.
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff476201(v=VS.85).aspx">D3D11_RENDER_TARGET_VIEW_DESC</a> to create a render-target view.
+This enumeration is used in <a href="https://msdn.microsoft.com/b154ac98-49ed-4d00-8cb6-5e57680e125c">D3D11_RENDER_TARGET_VIEW_DESC</a> to create a render-target view.
 
 
 
@@ -117,7 +117,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

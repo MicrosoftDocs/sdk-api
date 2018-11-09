@@ -7,7 +7,7 @@ old-location: hidpi\dialog_scaling_behavior.htm
 tech.root: hidpi
 ms.assetid: B368D997-F409-491A-8578-004C7408A160
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/08/2018
 ms.keywords: DCDC_DEFAULT, DCDC_DISABLE_FONT_UPDATE, DCDC_DISABLE_RELAYOUT, DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR, DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR enumeration [High DPI], DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS, DIALOG_SCALING_BEHAVIOR, DIALOG_SCALING_BEHAVIOR enumeration [High DPI], hidpi.dialog_scaling_behavior, winuser/DCDC_DEFAULT, winuser/DCDC_DISABLE_FONT_UPDATE, winuser/DCDC_DISABLE_RELAYOUT, winuser/DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR
 ms.prod: windows
 ms.technology: windows-sdk

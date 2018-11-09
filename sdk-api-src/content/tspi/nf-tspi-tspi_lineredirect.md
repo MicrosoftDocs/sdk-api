@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineredirect.htm
 tech.root: tapi
 ms.assetid: 835fce4a-69c4-4a7e-846f-f05df4a24b96
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: TSPI_lineRedirect, TSPI_lineRedirect function [TAPI 2.2], _tspi_tspi_lineredirect, tspi.tspi_lineredirect, tspi/TSPI_lineRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

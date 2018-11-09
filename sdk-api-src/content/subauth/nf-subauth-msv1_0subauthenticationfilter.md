@@ -7,7 +7,7 @@ old-location: security\msv1_0subauthenticationfilter.htm
 tech.root: secauthn
 ms.assetid: d7162830-8cab-4ec1-afcb-7892f5e435d3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationFilter, Msv1_0SubAuthenticationFilter function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationfilter, security.msv1_0subauthenticationfilter, subauth/Msv1_0SubAuthenticationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ Returns the members of the <a href="https://msdn.microsoft.com/18cf7194-4309-47b
 <td width="60%">
 Write the data contained in the <b>Parameters</b> member of the <i>UserAll</i> structure back to the SAM database.
 
-If the size of the <b>Parameters</b> member's <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> buffer is changed, <b>Msv1_0SubAuthenticationFilter</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">MIDL_user_allocate</a> function.
+If the size of the <b>Parameters</b> member's <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> buffer is changed, <b>Msv1_0SubAuthenticationFilter</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/">MIDL_user_allocate</a> function.
 
 </td>
 </tr>
@@ -187,14 +187,18 @@ A pointer to a value that receives the time at which the user should log off the
 
 A pointer to a value that receives the time at which the user should be logged off the system. This time is used to control the logon lifetime and is specified as a GMT-relative system time. If the user is not to be automatically logged off, specify a large positive value, as follows:
 
-
-```cpp
-KickoffTime->HighPart = 0x7FFFFFFF;
-KickoffTime->LowPart = 0xFFFFFFFF;
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>KickoffTime-&gt;HighPart = 0x7FFFFFFF;
+KickoffTime-&gt;LowPart = 0xFFFFFFFF;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

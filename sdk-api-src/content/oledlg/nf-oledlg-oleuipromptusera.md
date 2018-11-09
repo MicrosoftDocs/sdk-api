@@ -72,14 +72,7 @@ The resource number of the dialog box to be displayed. See Remarks.
 The handle to the parent window of the dialog box.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg3 [in]
+### -param arg3 [in]
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 

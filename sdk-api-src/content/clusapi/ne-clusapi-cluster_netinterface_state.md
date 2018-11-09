@@ -7,7 +7,7 @@ old-location: mscs\cluster_netinterface_state.htm
 tech.root: mscs
 ms.assetid: 8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: CLUSTER_NETINTERFACE_STATE, CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], ClusterNetInterfaceFailed, ClusterNetInterfaceStateUnknown, ClusterNetInterfaceUnavailable, ClusterNetInterfaceUnreachable, ClusterNetInterfaceUp, _CLUSTER_NETINTERFACE_STATE, _CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETINTERFACE_STATE, clusapi/ClusterNetInterfaceFailed, clusapi/ClusterNetInterfaceStateUnknown, clusapi/ClusterNetInterfaceUnavailable, clusapi/ClusterNetInterfaceUnreachable, clusapi/ClusterNetInterfaceUp, clusapi/_CLUSTER_NETINTERFACE_STATE, msclus/CLUSTER_NETINTERFACE_STATE, msclus/ClusterNetInterfaceFailed, msclus/ClusterNetInterfaceStateUnknown, msclus/ClusterNetInterfaceUnavailable, msclus/ClusterNetInterfaceUnreachable, msclus/ClusterNetInterfaceUp, msclus/_CLUSTER_NETINTERFACE_STATE, mscs.cluster_netinterface_state
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.redist:
 
 
 Enumerates the possible values of the state of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>.
+    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
 
 
 ## -enum-fields
@@ -95,7 +95,7 @@ The network interface can communicate with all other network interfaces whose st
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -103,7 +103,7 @@ The network interface can communicate with all other network interfaces whose st
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367768(v=VS.85).aspx">State Property of the ClusNetInterface Object</a>
+<a href="https://msdn.microsoft.com/3bc6bec3-bfe4-4ab4-8ad3-c42eba6d7cba">State Property of the ClusNetInterface Object</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\releasemutex.htm
 tech.root: sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/08/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

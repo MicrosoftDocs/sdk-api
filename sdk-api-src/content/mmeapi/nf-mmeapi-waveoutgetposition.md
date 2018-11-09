@@ -7,7 +7,7 @@ old-location: multimedia\waveoutgetposition.htm
 tech.root: Multimedia
 ms.assetid: 66279da3-0ed7-489b-a465-88e781a8443d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "_win32_waveOutGetPosition, mmeapi/waveOutGetPosition, multimedia.waveoutgetposition, waveOutGetPosition, waveOutGetPosition function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

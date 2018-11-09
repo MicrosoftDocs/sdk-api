@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggablesuperclassinfo_clone.htm
 tech.root: tapi
 ms.assetid: ec56cac7-451b-4866-85cd-8a2dea12d1f5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, IEnumPluggableSuperclassInfo interface [TAPI 2.2],Clone method, IEnumPluggableSuperclassInfo.Clone, IEnumPluggableSuperclassInfo::Clone, _tapi3_ienumpluggablesuperclassinfo_clone, tapi3.ienumpluggablesuperclassinfo_clone, tapi3if/IEnumPluggableSuperclassInfo::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,8 +130,8 @@ The method failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface returned by <b>IEnumPluggableSuperclassInfo::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface returned by <b>IEnumPluggableSuperclassInfo::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumPluggableSuperclassInfo</b> interface to free resources associated with it.
 
 

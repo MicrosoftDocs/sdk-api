@@ -153,19 +153,7 @@ Class GUID or component ID that identifies the message. Depends if <i>MessageFla
 Number that uniquely identifies each occurrence of the message. You must define the value specified for this parameter; the value should be meaningful to the application.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - SessionHandle [in]
-
-Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
-
-
-#### - arg5
+### -param arg5
 
 A list of variable arguments to be appended to the message. Use this list to specify your provider-specific event data. The list must be composed of pairs of arguments, as described in the following table. 
 
@@ -203,6 +191,11 @@ Terminate the list using an argument pair consisting of a pointer to <b>NULL</b>
 						
 
 The caller must ensure that the sum of the sizes of the arguments + 72 does not exceed the size of the event tracing session's buffer.
+
+
+#### - SessionHandle [in]
+
+Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: tapi2\phonebuttoninfo_str.htm
 tech.root: tapi
 ms.assetid: f8316587-f279-419a-a35d-194df3fc8383
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure pointer [TAPI 2.2], PHONEBUTTONINFO, PHONEBUTTONINFO structure [TAPI 2.2], _tapi2_phonebuttoninfo_str, phonebuttoninfo_tag, tapi/LPPHONEBUTTONINFO, tapi/PHONEBUTTONINFO, tapi2.phonebuttoninfo_str"
 ms.prod: windows
 ms.technology: windows-sdk

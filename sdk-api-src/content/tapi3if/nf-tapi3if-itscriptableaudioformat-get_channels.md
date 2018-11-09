@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_get_channels.htm
 tech.root: tapi
 ms.assetid: 3d92b08f-d108-4ea5-beac-cff2fad258cc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_Channels method, ITScriptableAudioFormat.get_Channels, ITScriptableAudioFormat::get_Channels, _tapi3_itscriptableaudioformat_get_channels, get_Channels, get_Channels method [TAPI 2.2], get_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_channels, tapi3if/ITScriptableAudioFormat::get_Channels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>get_Channels</b> method returns the value for the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value of the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

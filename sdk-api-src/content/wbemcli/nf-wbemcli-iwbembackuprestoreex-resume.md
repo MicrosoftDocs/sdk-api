@@ -82,13 +82,17 @@ The <b>Resume</b> method should always be called when the <a href="https://msdn.
 
 The following C++ example shows how to call the <b>IWbemBackUpRestoreEx::Resume</b> method.
 
-
-```cpp
-// The pInt variable is of type IWbemBackupRestoreEx*
-pInt->Resume();
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The pInt variable is of type IWbemBackupRestoreEx*
+pInt-&gt;Resume();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: tapi3\itcallhub_enumeratecalls.htm
 tech.root: tapi
 ms.assetid: becacf70-0ae7-419c-a53f-c6172278d29f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],EnumerateCalls method, ITCallHub.EnumerateCalls, ITCallHub::EnumerateCalls, _tapi3_itcallhub_enumeratecalls, tapi3.itcallhub_enumeratecalls, tapi3if/ITCallHub::EnumerateCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices

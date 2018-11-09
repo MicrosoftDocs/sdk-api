@@ -88,15 +88,19 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the connected state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::IsConnected()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::IsConnected()
 {
     return (_IsConnected() ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

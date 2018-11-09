@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_autokeypadtonesminimumduration.h
 tech.root: tapi
 ms.assetid: 9f1ae3f0-ae6a-408a-ac53-e4181ecf2c4b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoKeypadTonesMinimumDuration method, ITAutomatedPhoneControl.get_AutoKeypadTonesMinimumDuration, ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration, _tapi3_itautomatedphonecontrol_get_autokeypadtonesminimumduration, get_AutoKeypadTonesMinimumDuration, get_AutoKeypadTonesMinimumDuration method [TAPI 2.2], get_AutoKeypadTonesMinimumDuration method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autokeypadtonesminimumduration, tapi3if/ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

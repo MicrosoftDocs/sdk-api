@@ -7,7 +7,7 @@ old-location: multimedia\waveincaps.htm
 tech.root: Multimedia
 ms.assetid: e96524fd-82d3-4363-989b-23fb20786f3c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPWAVEINCAPS, *NPWAVEINCAPS, *PWAVEINCAPS, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag"
 ms.prod: windows
 ms.technology: windows-sdk

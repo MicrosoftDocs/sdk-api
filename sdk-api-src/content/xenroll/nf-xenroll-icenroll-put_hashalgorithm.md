@@ -7,7 +7,7 @@ old-location: security\icenroll4_hashalgorithm.htm
 tech.root: seccrypto
 ms.assetid: 48f8a47b-0ab4-4150-b8cf-37e57fb04d3e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnroll object [Security],HashAlgorithm property, HashAlgorithm property [Security], HashAlgorithm property [Security],CEnroll object, HashAlgorithm property [Security],ICEnroll interface, HashAlgorithm property [Security],ICEnroll2 interface, HashAlgorithm property [Security],ICEnroll3 interface, HashAlgorithm property [Security],ICEnroll4 interface, ICEnroll interface [Security],HashAlgorithm property, ICEnroll.HashAlgorithm, ICEnroll.put_HashAlgorithm, ICEnroll2 interface [Security],HashAlgorithm property, ICEnroll2.HashAlgorithm, ICEnroll2::get_HashAlgorithm, ICEnroll2::put_HashAlgorithm, ICEnroll3 interface [Security],HashAlgorithm property, ICEnroll3.HashAlgorithm, ICEnroll3::get_HashAlgorithm, ICEnroll3::put_HashAlgorithm, ICEnroll4 interface [Security],HashAlgorithm property, ICEnroll4.HashAlgorithm, ICEnroll4::HashAlgorithm, ICEnroll4::get_HashAlgorithm, ICEnroll4::put_HashAlgorithm, ICEnroll::get_HashAlgorithm, ICEnroll::put_HashAlgorithm, put_HashAlgorithm, security.icenroll4_hashalgorithm, xenroll/ICEnroll2::HashAlgorithm, xenroll/ICEnroll2::get_HashAlgorithm, xenroll/ICEnroll2::put_HashAlgorithm, xenroll/ICEnroll3::HashAlgorithm, xenroll/ICEnroll3::get_HashAlgorithm, xenroll/ICEnroll3::put_HashAlgorithm, xenroll/ICEnroll4::HashAlgorithm, xenroll/ICEnroll4::get_HashAlgorithm, xenroll/ICEnroll4::put_HashAlgorithm, xenroll/ICEnroll::HashAlgorithm, xenroll/ICEnroll::get_HashAlgorithm, xenroll/ICEnroll::put_HashAlgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices

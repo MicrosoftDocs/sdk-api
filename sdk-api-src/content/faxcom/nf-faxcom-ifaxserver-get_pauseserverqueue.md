@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_pauseserverqueue_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9gv9.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxServer interface [Fax Service],PauseServerQueue property, IFaxServer.PauseServerQueue, IFaxServer.get_PauseServerQueue, IFaxServer.put_PauseServerQueue, IFaxServer::PauseServerQueue, IFaxServer::get_PauseServerQueue, IFaxServer::put_PauseServerQueue, PauseServerQueue property [Fax Service], PauseServerQueue property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_pauseserverqueue, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_pauseserverqueue_cpp, fax._mfax_ifaxserver_get_pauseserverqueue, faxcom/IFaxServer::PauseServerQueue, faxcom/IFaxServer::get_PauseServerQueue, faxcom/IFaxServer::put_PauseServerQueue, get_PauseServerQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

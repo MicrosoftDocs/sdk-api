@@ -7,7 +7,7 @@ old-location: security\ienroll4_rootstorenamewstr.htm
 tech.root: seccrypto
 ms.assetid: d1b60ba4-974e-43d4-a8f9-8ca619d6b878
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnroll interface [Security],RootStoreNameWStr property, IEnroll.RootStoreNameWStr, IEnroll.put_RootStoreNameWStr, IEnroll::RootStoreNameWStr, IEnroll::get_RootStoreNameWStr, IEnroll::put_RootStoreNameWStr, RootStoreNameWStr property [Security], RootStoreNameWStr property [Security],IEnroll interface, put_RootStoreNameWStr, security.ienroll4_rootstorenamewstr, xenroll/IEnroll::RootStoreNameWStr, xenroll/IEnroll::get_RootStoreNameWStr, xenroll/IEnroll::put_RootStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

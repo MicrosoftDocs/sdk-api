@@ -7,7 +7,7 @@ old-location: mscs\clusternodeopenenumex.htm
 tech.root: mscs
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterNodeOpenEnumEx, ClusterNodeOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ A handle to the  node.
 ### -param dwType [in]
 
 A bitmask that describes the type of objects to enumerate. This parameter  is retrieved from a 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309156(v=VS.85).aspx">CLUSTER_NODE_ENUM</a> enumeration value.
+       <a href="https://msdn.microsoft.com/e8660f86-f4e5-4aa3-851a-94f0a230e12d">CLUSTER_NODE_ENUM</a> enumeration value.
 
 
 ### -param pOptions [in, optional] [in, optional]
@@ -94,7 +94,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
  
 
  

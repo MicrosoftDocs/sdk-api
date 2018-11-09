@@ -60,7 +60,7 @@ The <b>SetupDiGetDeviceInterfacePropertyKeys</b> function retrieves an array of 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>. This device information set contains a device interface for which to retrieve an array of the device property keys that represent the device properties that are set for a device interface.
+A handle to a <a href="devinst.device_information_sets">device information set</a>. This device information set contains a device interface for which to retrieve an array of the device property keys that represent the device properties that are set for a device interface.
 
 
 ### -param DeviceInterfaceData [in]
@@ -199,7 +199,7 @@ There was not enough system memory available to complete the operation.
 
 
 
-<b>SetupDiGetDeviceInterfacePropertyKeys</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
+<b>SetupDiGetDeviceInterfacePropertyKeys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
 
 If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDeviceInterfacePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDeviceInterfacePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
 

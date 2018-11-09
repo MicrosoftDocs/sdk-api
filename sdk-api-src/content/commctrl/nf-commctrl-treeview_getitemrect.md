@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a> message explicitly. 
+Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c">TVM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the bounding rectangle for a tree-view item and indicates whether the 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -81,7 +81,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d
 
 ### -param code
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Value specifying the portion of the item for which to retrieve the bounding rectangle. If this parameter is <b>TRUE</b>, the bounding rectangle includes only the text of the item. Otherwise, it includes the entire line that the item occupies in the tree-view control. 
 

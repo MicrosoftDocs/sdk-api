@@ -73,14 +73,7 @@ Reserved.
 Reserved.
 
 
-### -param arg1
-
-TBD
-
-
-
-
-#### - arg4 [in, out]
+### -param arg4 [in, out]
 
 Reserved.
 
