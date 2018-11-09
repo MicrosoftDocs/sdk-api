@@ -85,7 +85,7 @@ The storage pool is not available.
 
 
 
-The <a href="https://msdn.microsoft.com/2a82e872-2005-4b05-b67a-161b16c4f3aa">VDS_STORAGE_POOL_PROP</a> structure uses a <b>VDS_STORAGE_POOL_STATUS</b> value in the <a href="vds_storage_pool_prop.htm">status</a> member to indicate the current status of the storage pool.
+The <a href="https://msdn.microsoft.com/2a82e872-2005-4b05-b67a-161b16c4f3aa">VDS_STORAGE_POOL_PROP</a> structure uses a <b>VDS_STORAGE_POOL_STATUS</b> value in the <a href="https://msdn.microsoft.com/en-us/library/Dd405631(v=VS.85).aspx">status</a> member to indicate the current status of the storage pool.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_STORAGE_POOL_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_STORAGE_POOL_STATUS</b> enumeration constant.</div>
 <div> </div>

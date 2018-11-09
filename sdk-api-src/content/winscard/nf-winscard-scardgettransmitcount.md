@@ -75,7 +75,7 @@ A pointer to the number of transmit operations that have completed since the spe
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.
+If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 
 

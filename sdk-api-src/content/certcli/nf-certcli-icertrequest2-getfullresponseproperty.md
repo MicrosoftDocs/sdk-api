@@ -451,7 +451,7 @@ The data returned.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and  <i>pvarPropertyValue</i> contains the returned data.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Variant</b> that contains the returned data.
@@ -474,15 +474,15 @@ The following <i>PropId</i> values return binary data, which means that the <i>F
 <li>FR_PROP_ENCRYPTEDKYEHASH</li>
 <li>FR_PROP_FULLRESPONSENOPKCS7</li>
 </ul>
-This method is called after the <a href="https://msdn.microsoft.com/22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b">ICertRequest3::Submit</a> or <a href="https://msdn.microsoft.com/07a9ac57-f90e-4c5c-b563-8aebbcf8f42e">ICertRequest3::RetrievePending</a> methods have been called. These methods populate the cached data that is returned by <b>GetFullResponseProperty</b>.
+This method is called after the <a href="https://msdn.microsoft.com/en-us/library/Aa385054(v=VS.85).aspx">ICertRequest3::Submit</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa385053(v=VS.85).aspx">ICertRequest3::RetrievePending</a> methods have been called. These methods populate the cached data that is returned by <b>GetFullResponseProperty</b>.
 
 After the <b>ICertRequest3::GetFullResponseProperty</b> method returns its data, the following methods can be called:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1149a76e-e714-4bc7-842c-6fcbe220cd24">ICEnroll4::AcceptResponse</a> can be called to install the returned certificate.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Aa382498(v=VS.85).aspx">ICEnroll4::AcceptResponse</a> can be called to install the returned certificate.</li>
 <li>
-<a href="https://msdn.microsoft.com/4e2b1f53-c6fc-4fb8-a69c-58ab8ac6f258">ICEnroll4::GetCertFromResponse</a> can be called to parse the certificate from the response.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Aa382879(v=VS.85).aspx">ICEnroll4::GetCertFromResponse</a> can be called to parse the certificate from the response.</li>
 </ul>
 
 

@@ -222,7 +222,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
 
 
 

@@ -62,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to write tapemarks. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ### -param dwTapemarkType [in]
@@ -351,7 +351,7 @@ A long filemark contains a long erase gap that allows an application to position
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
  
 
  

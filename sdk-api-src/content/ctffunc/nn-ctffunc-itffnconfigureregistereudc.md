@@ -55,9 +55,9 @@ The <b>ITfFnConfigureRegisterEudc</b> interface is implemented by a text service
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ITfFnConfigureRegisterEudc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40279381-7c1c-4b11-92c9-200b763e7c7d">Show</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa381921(v=VS.85).aspx">Show</a>
 </td>
 <td align="left" width="63%">
 Show the EUDC key sequence register UI.

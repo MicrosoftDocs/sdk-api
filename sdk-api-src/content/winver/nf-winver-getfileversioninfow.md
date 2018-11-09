@@ -86,7 +86,7 @@ Type: <b>DWORD</b>
 The size, in bytes, of the buffer pointed to by the 
 					<i>lpData</i> parameter. 
 
-Call the <a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a> function first to determine the size, in bytes, of a file's version information. The 
+Call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> function first to determine the size, in bytes, of a file's version information. The 
 						<i>dwLen</i> member should be equal to or greater than that value. 
 
 If the buffer pointed to by 
@@ -99,7 +99,7 @@ Type: <b>LPVOID</b>
 
 Pointer to a buffer that receives the file-version information.
 
-You can use this value in a subsequent call to the <a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a> function to retrieve data from the buffer.
+You can use this value in a subsequent call to the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function to retrieve data from the buffer.
 
 
 ## -returns
@@ -122,7 +122,7 @@ If the function fails, the return value is zero. To get extended error informati
  File version info has fixed and non-fixed part. The fixed part contains information like version number. The non-fixed part contains things like strings. In the past <b>GetFileVersionInfo</b> was taking version information from the binary (exe/dll). Currently, it is querying fixed version from language neutral file (exe/dll) and the non-fixed part from mui file, merges them and returns to the user.
 If the given binary does not have a mui file then behavior is as in previous version.
 
-Call the <a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a> function before calling the <b>GetFileVersionInfo</b> function. To retrieve information from the file-version information buffer, use the <a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a> function.
+Call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> function before calling the <b>GetFileVersionInfo</b> function. To retrieve information from the file-version information buffer, use the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function.
 
 
 
@@ -136,7 +136,7 @@ Call the <a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d7
 
 
 
-<a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a>
 
 
 
@@ -144,15 +144,15 @@ Call the <a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d7
 
 
 
-<a href="https://msdn.microsoft.com/7864510f-1894-4f17-bf7b-fd5bc1ba4aae">VS_VERSIONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
  
 
  

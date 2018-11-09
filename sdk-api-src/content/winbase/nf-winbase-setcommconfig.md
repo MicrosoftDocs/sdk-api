@@ -65,7 +65,7 @@ Sets the current configuration of a communications device.
 ### -param hCommDev [in]
 
 A handle to the open communications device. The 
-<a href="base.createfile">CreateFile</a> function returns this handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
 
 
 ### -param lpCC [in]
@@ -108,7 +108,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 

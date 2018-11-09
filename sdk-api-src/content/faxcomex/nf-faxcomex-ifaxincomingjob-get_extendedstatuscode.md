@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the <b>ExtendedStatusCode</b> property of a <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object. The <b>ExtendedStatusCode</b> property specifies a code describing the job's extended status.
+Retrieves the <b>ExtendedStatusCode</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <b>ExtendedStatusCode</b> property specifies a code describing the job's extended status.
 
 
 ## -parameters

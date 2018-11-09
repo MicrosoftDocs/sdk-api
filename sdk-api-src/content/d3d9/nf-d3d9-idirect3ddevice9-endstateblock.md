@@ -61,16 +61,16 @@ Signals Direct3D to stop recording a device-state block and retrieve a pointer t
 
 ### -param ppSB [in, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>**</b>
 
-Pointer to a state block interface. See <a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>.
+Pointer to a state block interface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -83,15 +83,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee197fbc-d13b-42c2-a293-72306a0d05ce">IDirect3DDevice9::BeginStateBlock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174351(v=VS.85).aspx">IDirect3DDevice9::BeginStateBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/36951221-ab14-45bc-bfb3-4294e3d20fb0">IDirect3DDevice9::CreateStateBlock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174362(v=VS.85).aspx">IDirect3DDevice9::CreateStateBlock</a>
  
 
  
