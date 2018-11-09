@@ -92,20 +92,16 @@ Use this method to obtain the system DPI when setting physical pixel values, suc
 
 The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI and set the initial size of a window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
         // Because the CreateWindow function takes its size in pixels,
         // obtain the system DPI and use it to scale the window size.
         FLOAT dpiX, dpiY;
 
         // The factory returns the current system DPI. This is also the value it will use
         // to create its own windows.
-        m_pDirect2dFactory-&gt;GetDesktopDpi(&amp;dpiX, &amp;dpiY);
+        m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
 
 
         // Create the window.
@@ -115,17 +111,17 @@ The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI
             WS_OVERLAPPEDWINDOW,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
-            static_cast&lt;UINT&gt;(ceil(640.f * dpiX / 96.f)),
-            static_cast&lt;UINT&gt;(ceil(480.f * dpiY / 96.f)),
+            static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
+            static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
             NULL,
             NULL,
             HINST_THISCOMPONENT,
             this
             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For more information about enabling high-DPI scenarios, see <a href="https://msdn.microsoft.com/72a4b076-1cf0-4dc9-bd75-43b5173fc2a0">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.
 
 <div class="code"></div>

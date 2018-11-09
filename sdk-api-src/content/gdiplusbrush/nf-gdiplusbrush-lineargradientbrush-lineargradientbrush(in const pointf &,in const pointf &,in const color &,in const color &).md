@@ -100,13 +100,9 @@ The "directional line," an imaginary straight line, is defined by the starting p
 
 The following example creates a linear gradient brush from a set of boundary points and boundary colors. The code then uses the brush to paint the interior of a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_Construct01(HDC hdc)
+
+```cpp
+VOID Example_Construct01(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -116,11 +112,11 @@ The following example creates a linear gradient brush from a set of boundary poi
       Color(255, 255, 0, 0),   // red
       Color(255, 0, 0, 255));  // blue
 
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 300, 200);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.FillRectangle(&linGrBrush, 0, 0, 300, 200);
+}
+```
+
+
 
 
 

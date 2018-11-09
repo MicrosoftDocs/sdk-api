@@ -112,13 +112,9 @@ The value of the
 
 The following example draws an image.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawImage3(HDC hdc)
+
+```cpp
+VOID Example_DrawImage3(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -135,11 +131,11 @@ The following example draws an image.
    PointF* pdestPoints = destPoints;
 
    // Draw the image.
-   graphics.DrawImage(&amp;image, pdestPoints, 3);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawImage(&image, pdestPoints, 3);
+}
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing a previously-rectangular image that has been sheared to a parallelogram" src="./images/drawimage1.png"/>

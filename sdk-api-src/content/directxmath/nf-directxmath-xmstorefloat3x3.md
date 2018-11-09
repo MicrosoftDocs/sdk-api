@@ -93,26 +93,22 @@ This function takes a matrix and writes the components out to nine single-precis
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>pDestination-&gt;_11 = M[0].x; // 4 bytes to address (uint8_t*)pDestination
-pDestination-&gt;_12 = M[0].y; // 4 bytes to address (uint8_t*)pDestination + 4
-pDestination-&gt;_13 = M[0].z; // 4 bytes to address (uint8_t*)pDestination + 8
 
-pDestination-&gt;_21 = M[1].x; // 4 bytes to address (uint8_t*)pDestination + 12
-pDestination-&gt;_22 = M[1].y; // 4 bytes to address (uint8_t*)pDestination + 16
-pDestination-&gt;_23 = M[1].z; // 4 bytes to address (uint8_t*)pDestination + 20
+```
+pDestination->_11 = M[0].x; // 4 bytes to address (uint8_t*)pDestination
+pDestination->_12 = M[0].y; // 4 bytes to address (uint8_t*)pDestination + 4
+pDestination->_13 = M[0].z; // 4 bytes to address (uint8_t*)pDestination + 8
 
-pDestination-&gt;_31 = M[2].x; // 4 bytes to address (uint8_t*)pDestination + 24
-pDestination-&gt;_32 = M[2].y; // 4 bytes to address (uint8_t*)pDestination + 28
-pDestination-&gt;_33 = M[2].z; // 4 bytes to address (uint8_t*)pDestination + 32</pre>
-</td>
-</tr>
-</table></span></div>
+pDestination->_21 = M[1].x; // 4 bytes to address (uint8_t*)pDestination + 12
+pDestination->_22 = M[1].y; // 4 bytes to address (uint8_t*)pDestination + 16
+pDestination->_23 = M[1].z; // 4 bytes to address (uint8_t*)pDestination + 20
+
+pDestination->_31 = M[2].x; // 4 bytes to address (uint8_t*)pDestination + 24
+pDestination->_32 = M[2].y; // 4 bytes to address (uint8_t*)pDestination + 28
+pDestination->_33 = M[2].z; // 4 bytes to address (uint8_t*)pDestination + 32
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

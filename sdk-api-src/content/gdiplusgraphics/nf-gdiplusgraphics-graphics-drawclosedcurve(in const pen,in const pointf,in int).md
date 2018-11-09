@@ -111,13 +111,9 @@ Each ending point is the starting point for the next cardinal spline. In a close
 
 The following example draws a closed cardinal spline.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawClosedCurve3(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -142,21 +138,21 @@ VOID Example_DrawClosedCurve3(HDC hdc)
       point7};
 
    // Draw the closed curve.
-   graphics.DrawClosedCurve(&amp;greenPen, curvePoints, 7);
+   graphics.DrawClosedCurve(&greenPen, curvePoints, 7);
 
    // Draw the points in the curve.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(495, 495, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(595, 195, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(695, 395, 10, 10));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(495, 495, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(595, 195, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(695, 395, 10, 10));
+}
+```
+
+
 
 
 

@@ -100,13 +100,9 @@ A <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">Grap
 
 The following example creates and draws a path that has a line, a rectangle, an ellipse, and a curve. The code calls the path's <a href="https://msdn.microsoft.com/52bbe19b-298f-4297-9d23-a7b3b1f1e004">GraphicsPath::GetPointCount</a> method to determine the number of data points that are stored in the path. The code allocates a buffer large enough to receive the array of data points and passes the address of that buffer to the <b>GraphicsPath::GetPathPoints</b> method. Finally, the code draws each of the path's data points.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID GetPathPointsExample(HDC hdc)
+
+```cpp
+VOID GetPathPointsExample(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -127,7 +123,7 @@ The following example creates and draws a path that has a line, a rectangle, an 
 
    // Draw the path.
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;pen, &amp;path);
+   graphics.DrawPath(&pen, &path);
 
    // Get the path points.
    INT count = path.GetPointCount();
@@ -136,10 +132,10 @@ The following example creates and draws a path that has a line, a rectangle, an 
 
    // Draw the path's data points.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j &lt; count; ++j)
+   for(INT j = 0; j < count; ++j)
    {
       graphics.FillEllipse(
-         &amp;brush, 
+         &brush, 
          dataPoints[j].X - 3.0f, 
          dataPoints[j].Y - 3.0f,
          6.0f,
@@ -147,10 +143,10 @@ The following example creates and draws a path that has a line, a rectangle, an 
    }
    delete [] dataPoints; 
 }
-Color(255, 255, 0,  0)</pre>
-</td>
-</tr>
-</table></span></div>
+Color(255, 255, 0,  0)
+```
+
+
 
 
 

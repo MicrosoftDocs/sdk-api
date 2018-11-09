@@ -107,13 +107,9 @@ You should keep a copy of the <i>points</i> array if those points will be needed
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a closed cardinal spline to <i>path</i>, and then draws <i>path</i>. The tension is set to 1.0.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_AddClosedCurve(HDC hdc)
+
+```cpp
+VOID Example_AddClosedCurve(HDC hdc)
 {
    Graphics graphics(hdc); 
 
@@ -127,11 +123,11 @@ The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e8
 
    // Draw the path.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&amp;pen, &amp;path);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+
 
 
 

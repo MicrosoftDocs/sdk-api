@@ -114,20 +114,16 @@ Alternatively, the user could determine the current value of the CRYPT_EXPORTABL
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrPVKFile = NULL;
+
+```cpp
+BSTR     bstrPVKFile = NULL;
 BSTR     bstrNewPVKFile = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the PVKFileName
-hr = pEnroll-&gt;get_PVKFileName( &amp;bstrPVKFile );
+hr = pEnroll->get_PVKFileName( &bstrPVKFile );
 if (FAILED( hr ))
     printf("Failed get_PVKFileName - %x\n", hr );
 else
@@ -139,16 +135,16 @@ if ( NULL != bstrPVKFile )
 // set the PVKFileName, for example, "MyKeys.pvk"
 bstrNewPVKFile = SysAllocString(TEXT("FILENAMEHERE"));
 
-hr = pEnroll-&gt;put_PVKFileName( bstrNewPVKFile );
+hr = pEnroll->put_PVKFileName( bstrNewPVKFile );
 if (FAILED( hr ))
     printf("Failed put_PVKFileName - %x\n", hr );
 else
     printf( "PVKFileName set to %ws\n", bstrNewPVKFile );
 // free BSTR when done
 if ( NULL != bstrNewPVKFile )
-    SysFreeString( bstrNewPVKFile );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrNewPVKFile );
+```
+
+
 
 

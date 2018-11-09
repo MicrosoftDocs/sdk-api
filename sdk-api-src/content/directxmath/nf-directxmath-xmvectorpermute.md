@@ -110,21 +110,17 @@ The <a href="https://msdn.microsoft.com/a206fe22-12c8-ac2b-ee37-20cfff35841a">XM
 For constant PermuteX/Y/Z/W parameters, it is much more efficent to use the template form of
     <a href="https://msdn.microsoft.com/14b4ff5a-464f-410d-957a-adfbf17bd25e">XMVectorPermute</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-template&lt;uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t PermuteW&gt;
+
+```
+
+template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t PermuteW>
     XMVECTOR XMVectorPermute(FXMVECTOR V1, FXMVECTOR V2)
 
-Example: XMVectorPermute&lt;XM_PERMUTE_0Z, XM_PERMUTE_1X, XM_PERMUTE_0W, XM_PERMUTE_1Y&gt;( V1, V2 );
-   </pre>
-</td>
-</tr>
-</table></span></div>
+Example: XMVectorPermute<XM_PERMUTE_0Z, XM_PERMUTE_1X, XM_PERMUTE_0W, XM_PERMUTE_1Y>( V1, V2 );
+   
+```
+
+
 <div class="alert"><b>Note</b>  This version of <code>XMVectorPermute</code> is new for DirectXMath.  The XNAMath v2.x library made use of <code>XMVectorPermuteControl</code>, 
      a control <code>XMVECTOR</code> instead of 4 indicies for <code>XMVectorPermute</code>, and used different values for the XM_PERMUTE_x constants.</div>
 <div> </div>

@@ -88,23 +88,19 @@ Returns a vector containing the interpolation.
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR Result;
+
+```
+XMVECTOR Result;
 
 Result.x = V0.x + T.x * (V1.x - V0.x);
 Result.y = V0.y + T.y * (V1.y - V0.y);
 Result.z = V0.z + T.z * (V1.z - V0.z);
 Result.w = V0.w + T.w * (V1.w - V0.w);
 
-return Result;</pre>
-</td>
-</tr>
-</table></span></div>
+return Result;
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
