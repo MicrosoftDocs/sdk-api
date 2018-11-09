@@ -2,7 +2,7 @@
 UID: NA:dpa_dsa
 ms.assetid: 7e3c9fef-2a50-3900-9159-5f808500813e
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

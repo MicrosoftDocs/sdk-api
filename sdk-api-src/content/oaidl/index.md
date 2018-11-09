@@ -2,7 +2,7 @@
 UID: NA:oaidl
 ms.assetid: 1f5faf20-f91f-36c8-86e0-bbbb3a4a9bbb
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

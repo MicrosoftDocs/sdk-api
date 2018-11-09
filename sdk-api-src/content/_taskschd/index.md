@@ -2,7 +2,7 @@
 UID: TP:taskschd
 ms.assetid: 21ed2bea-3d38-3715-81f5-fccbcae23048
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

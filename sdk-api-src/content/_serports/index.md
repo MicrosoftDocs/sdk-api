@@ -2,7 +2,7 @@
 UID: TP:serports
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

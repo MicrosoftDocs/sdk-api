@@ -2,7 +2,7 @@
 UID: NA:winternl
 ms.assetid: 51e8466e-3824-3444-9892-fb0d2b476858
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

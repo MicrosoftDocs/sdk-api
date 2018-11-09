@@ -2,7 +2,7 @@
 UID: NA:wincred
 ms.assetid: 11a6470b-c995-3468-ae4e-04a53a00f405
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

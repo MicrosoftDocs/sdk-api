@@ -2,7 +2,7 @@
 UID: NA:nb30
 ms.assetid: 0d412ad3-7766-3bd9-b74f-14bb519c2633
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

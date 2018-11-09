@@ -2,7 +2,7 @@
 UID: NA:nldef
 ms.assetid: d3ee3b93-f183-3b1f-944b-d40a795be4cf
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

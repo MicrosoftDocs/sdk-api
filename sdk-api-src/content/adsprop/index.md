@@ -2,7 +2,7 @@
 UID: NA:adsprop
 ms.assetid: 151a0f47-4a49-3b1c-a5b9-18e91e8199c4
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

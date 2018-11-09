@@ -2,7 +2,7 @@
 UID: NA:tdiinfo
 ms.assetid: c3457834-4255-3c85-bb1d-d1f4466e775f
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

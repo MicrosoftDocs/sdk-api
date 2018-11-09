@@ -2,7 +2,7 @@
 UID: TP:iphlp
 ms.assetid: 2d8e8199-22bc-381d-9913-ad803143e6e3
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

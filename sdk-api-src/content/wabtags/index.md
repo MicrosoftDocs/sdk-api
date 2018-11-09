@@ -2,7 +2,7 @@
 UID: NA:wabtags
 ms.assetid: 95712084-f6c7-32d3-90ec-060f4f56f1ba
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
