@@ -7,7 +7,7 @@ old-location: winsock\wsasetservice_2.htm
 tech.root: winsock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

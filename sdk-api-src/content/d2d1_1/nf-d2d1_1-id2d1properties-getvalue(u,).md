@@ -65,7 +65,7 @@ Type: <b>U</b>
 The index of the property from which the value is to be obtained.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

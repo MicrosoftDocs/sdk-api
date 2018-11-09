@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_next.htm
 tech.root: seccrypto
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Next method, IEnumCERTVIEWCOLUMN.Next, IEnumCERTVIEWCOLUMN::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,13 @@ Upon successful completion of this method, the information in the column can be 
 
 #### Examples
 
-
-```cpp
-LONG       nLength;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONG       nLength;
 LONG       nType;
 LONG       bIsindexed;
 LONG       Index;
@@ -113,10 +117,10 @@ BSTR       bstrColName = NULL;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 // examine each column
-while (S_OK == pEnumCol->Next(&Index))
+while (S_OK == pEnumCol-&gt;Next(&amp;Index))
 {
     // determine database length
-    hr = pEnumCol->GetMaxLength(&nLength);
+    hr = pEnumCol-&gt;GetMaxLength(&amp;nLength);
     if (FAILED(hr))
     {
         printf("Failed GetMaxLength %x\n", hr);
@@ -124,7 +128,7 @@ while (S_OK == pEnumCol->Next(&Index))
     }
 
     // determine data type
-    hr = pEnumCol->GetType(&nType);
+    hr = pEnumCol-&gt;GetType(&amp;nType);
     if (FAILED(hr))
     {
         printf("Failed GetType %x\n", hr);
@@ -132,7 +136,7 @@ while (S_OK == pEnumCol->Next(&Index))
     }
 
     // determine whether column is indexed
-    hr = pEnumCol->IsIndexed(&bIsindexed);
+    hr = pEnumCol-&gt;IsIndexed(&amp;bIsindexed);
     if (FAILED(hr))
     {
         printf("Failed IsIndexed %x\n", hr);
@@ -140,7 +144,7 @@ while (S_OK == pEnumCol->Next(&Index))
     }
 
     // retrieve column name
-    hr = pEnumCol->GetName(&bstrColName);
+    hr = pEnumCol-&gt;GetName(&amp;bstrColName);
     if (FAILED(hr))
     {
         printf("Failed GetName %x\n", hr);
@@ -184,10 +188,10 @@ error:
 
 // done processing, clear resources
 if (NULL != bstrColName)
-    SysFreeString(bstrColName);
-```
-
-
+    SysFreeString(bstrColName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

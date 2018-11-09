@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dquery9__getdata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__getdata.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 61a50651-865a-2305-3acc-ca22ba941030, GetData, GetData method [Direct3D 9], GetData method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetData method, IDirect3DQuery9.GetData, IDirect3DQuery9::GetData, d3d9helper/IDirect3DQuery9::GetData, direct3d9.idirect3dquery9__getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,25 +99,29 @@ It is possible to lose the device while polling for query status. When <a href="
 
 An application must never write code that only invokes GetData ( ... , 0 ), expecting that GetData will eventually return S_OK by itself over time. This is true, even if the application has used the FLUSH flag with GetData in the past. For example:
 
-
-```
-// Enables an infinite loop:
-while( pQuery->GetData( ... , 0 ) == S_FALSE ) ;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Enables an infinite loop:
+while( pQuery-&gt;GetData( ... , 0 ) == S_FALSE ) ;
 
 // Still enables an infinite loop:
-pQuery->GetData( ... , D3DGETDATA_FLUSH );
-while( pQuery->GetData( ... , 0 ) == S_FALSE ) ;
+pQuery-&gt;GetData( ... , D3DGETDATA_FLUSH );
+while( pQuery-&gt;GetData( ... , 0 ) == S_FALSE ) ;
 
 // Does not enable an infinite loop because eventually the command
 // buffer will fill up and that will cause a flush to occur.
-while( pQuery->GetData( ..., 0 ) == S_FALSE ) {
-	pDevice->SetTexture(...);
-	pDevice->Draw(...);
+while( pQuery-&gt;GetData( ..., 0 ) == S_FALSE ) {
+	pDevice-&gt;SetTexture(...);
+	pDevice-&gt;Draw(...);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

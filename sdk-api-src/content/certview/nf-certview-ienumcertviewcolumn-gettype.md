@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_gettype.htm
 tech.root: seccrypto
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetType method, IEnumCERTVIEWCOLUMN.GetType, IEnumCERTVIEWCOLUMN::GetType, _certsrv_ienumcertviewcolumn_gettype, certview/IEnumCERTVIEWCOLUMN::GetType, security.ienumcertviewcolumn_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,13 +123,17 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetType
 
 #### Examples
 
-
-```cpp
-LONG     nType;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONG     nType;
 HRESULT  hr;
 
 // pEnumCol is a previously instantiated IEnumCERTVIEWCOLUMN object.
-hr = pEnumCol->GetType(&nType);
+hr = pEnumCol-&gt;GetType(&amp;nType);
 if (S_OK == hr)
 {
     switch (nType)
@@ -150,10 +154,10 @@ if (S_OK == hr)
             printf("Type is unknown\n");
             break;
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

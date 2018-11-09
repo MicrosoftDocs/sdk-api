@@ -7,7 +7,7 @@ old-location: controls\FlatSB_GetScrollPropPtr.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpropptr.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FlatSB_GetScrollPropPtr, FlatSB_GetScrollPropPtr function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollPropPtr, _win32_FlatSB_GetScrollPropPtr_cpp, commctrl/FlatSB_GetScrollPropPtr, controls.FlatSB_GetScrollPropPtr, controls._win32_FlatSB_GetScrollPropPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -236,7 +236,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
  
 
 
-### -param arg2
+### -param arg3
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPINT</a></b>
 

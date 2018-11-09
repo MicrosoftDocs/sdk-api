@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_stopringer.htm
 tech.root: tapi
 ms.assetid: 74829b2a-6530-40d2-8693-7c6104de7309
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],StopRinger method, ITAutomatedPhoneControl.StopRinger, ITAutomatedPhoneControl::StopRinger, StopRinger, StopRinger method [TAPI 2.2], StopRinger method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_stopringer, tapi3.itautomatedphonecontrol_stopringer, tapi3if/ITAutomatedPhoneControl::StopRinger
 ms.prod: windows-hardware
 ms.technology: windows-devices

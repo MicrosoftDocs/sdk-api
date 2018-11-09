@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_layout.htm
 tech.root: automat
 ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ICreateTypeInfo interface [Automation],LayOut method, ICreateTypeInfo.LayOut, ICreateTypeInfo::LayOut, LayOut, LayOut method [Automation], LayOut method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
 ms.prod: windows-hardware
 ms.technology: windows-devices

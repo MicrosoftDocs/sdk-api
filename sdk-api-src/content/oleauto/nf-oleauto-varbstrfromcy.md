@@ -7,7 +7,7 @@ old-location: automat\varbstrfromcy.htm
 tech.root: automat
 ms.assetid: 5aa53d2c-ca43-4f10-a517-00a2fe80016e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, LOCALE_USE_NLS, VarBstrFromCy, VarBstrFromCy function [Automation], _oa96_VarBstrFromCy, automat.varbstrfromcy, oleauto/VarBstrFromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices

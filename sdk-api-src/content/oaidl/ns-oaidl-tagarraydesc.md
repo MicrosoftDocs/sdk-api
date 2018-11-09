@@ -7,7 +7,7 @@ old-location: automat\arraydesc.htm
 tech.root: automat
 ms.assetid: 5d48c9b7-a718-46bd-b8ba-5c92847c9a12
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ARRAYDESC, ARRAYDESC structure [Automation], _oa96_ARRAYDESC, automat.arraydesc, oaidl/ARRAYDESC, tagARRAYDESC
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\unmapviewoffile.htm
 tech.root: memory
 ms.assetid: 2e9c3174-af48-4fa3-9f6a-fb62b23ed994
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: UnmapViewOfFile, UnmapViewOfFile function, _win32_unmapviewoffile, base.unmapviewoffile, fs.unmapviewoffile, winbase/UnmapViewOfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

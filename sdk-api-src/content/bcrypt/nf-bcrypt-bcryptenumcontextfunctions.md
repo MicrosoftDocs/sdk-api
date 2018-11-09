@@ -293,15 +293,19 @@ No context functions that match the specified criteria were found.
 
 The following example shows how to use the <b>BCryptEnumContextFunctions</b> function to enumerate the key storage functions for all contexts in the local-machine configuration table.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Bcrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Bcrypt.h&gt;
 #pragma comment(lib, "Bcrypt.lib")
 
 #ifndef NT_SUCCESS
-#define NT_SUCCESS(Status) ((NTSTATUS)(Status) >= 0)
+#define NT_SUCCESS(Status) ((NTSTATUS)(Status) &gt;= 0)
 #endif
 
 NTSTATUS EnumContextFunctions()
@@ -312,35 +316,35 @@ NTSTATUS EnumContextFunctions()
     
     // Get the contexts for the local machine. 
     // CNG will allocate the memory for us.
-    status = BCryptEnumContexts(CRYPT_LOCAL, &uSize, &pContexts);
+    status = BCryptEnumContexts(CRYPT_LOCAL, &amp;uSize, &amp;pContexts);
     if(NT_SUCCESS(status))
     {
         // Enumerate the context identifiers.
         for(ULONG uContextIndex = 0; 
-            uContextIndex < pContexts->cContexts; 
+            uContextIndex &lt; pContexts-&gt;cContexts; 
             uContextIndex++)
         {
             wprintf(L"Context functions for %s:\n", 
-                pContexts->rgpszContexts[uContextIndex]);
+                pContexts-&gt;rgpszContexts[uContextIndex]);
 
             // Get the functions for this context.
             // CNG will allocate the memory for us.
             PCRYPT_CONTEXT_FUNCTIONS pContextFunctions = NULL;
             status = BCryptEnumContextFunctions(
                 CRYPT_LOCAL, 
-                pContexts->rgpszContexts[uContextIndex], 
+                pContexts-&gt;rgpszContexts[uContextIndex], 
                 NCRYPT_SCHANNEL_INTERFACE, 
-                &uSize, 
-                &pContextFunctions);
+                &amp;uSize, 
+                &amp;pContextFunctions);
             if(NT_SUCCESS(status))
             {
                 // Enumerate the functions.
                 for(ULONG i = 0; 
-                    i < pContextFunctions->cFunctions; 
+                    i &lt; pContextFunctions-&gt;cFunctions; 
                     i++)
                 {
                     wprintf(L"\t%s\n", 
-                        pContextFunctions->rgpszFunctions[i]);
+                        pContextFunctions-&gt;rgpszFunctions[i]);
                 }
 
                 // Free the context functions buffer.
@@ -354,10 +358,10 @@ NTSTATUS EnumContextFunctions()
 
     return status;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

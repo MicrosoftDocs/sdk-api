@@ -88,9 +88,13 @@ The default value of <a href="https://msdn.microsoft.com/en-us/library/ms534164(
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
 
-
-```cpp
-VOID Example_GetAlignment(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetAlignment(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -99,7 +103,7 @@ VOID Example_GetAlignment(HDC hdc)
    pen.SetAlignment(PenAlignmentCenter);
 
    // Draw a line.
-   graphics.DrawLine(&pen, 0, 0, 100, 50);
+   graphics.DrawLine(&amp;pen, 0, 0, 100, 50);
 
    // Obtain information about the Pen object.
    PenAlignment penAlignment;
@@ -109,10 +113,10 @@ VOID Example_GetAlignment(HDC hdc)
       ;  // The pixels will be centered on the theoretical line.
    else if(penAlignment == PenAlignmentInset)
       ;  // The pixels will lie inside the filled area  of the theoretical line.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\ILaunchTargetMonitor_GetMonitor.htm
 tech.root: shell
 ms.assetid: 88437C86-DC0F-42F4-B58E-E732E1DAB9FD
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetMonitor, GetMonitor method [Windows Shell], GetMonitor method [Windows Shell],ILaunchTargetMonitor interface, ILaunchTargetMonitor interface [Windows Shell],GetMonitor method, ILaunchTargetMonitor.GetMonitor, ILaunchTargetMonitor::GetMonitor, shell.ILaunchTargetMonitor_GetMonitor, shobjidl_core/ILaunchTargetMonitor::GetMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

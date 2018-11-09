@@ -7,7 +7,7 @@ old-location: controls\itextfont2_seteffects.htm
 tech.root: controls
 ms.assetid: edfc882e-6f76-498f-ae3f-4978ea728d1b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetEffects method, ITextFont2.SetEffects, ITextFont2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextFont2 interface, controls.itextfont2_seteffects, tom/ITextFont2::SetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\scardgetattrib.htm
 tech.root: secauthn
 ms.assetid: 309ac107-175b-489e-b428-b87bc4204f34
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCARD_ATTR_ATR_STRING, SCARD_ATTR_CHANNEL_ID, SCARD_ATTR_CHARACTERISTICS, SCARD_ATTR_CURRENT_BWT, SCARD_ATTR_CURRENT_CLK, SCARD_ATTR_CURRENT_CWT, SCARD_ATTR_CURRENT_D, SCARD_ATTR_CURRENT_EBC_ENCODING, SCARD_ATTR_CURRENT_F, SCARD_ATTR_CURRENT_IFSC, SCARD_ATTR_CURRENT_IFSD, SCARD_ATTR_CURRENT_N, SCARD_ATTR_CURRENT_PROTOCOL_TYPE, SCARD_ATTR_CURRENT_W, SCARD_ATTR_DEFAULT_CLK, SCARD_ATTR_DEFAULT_DATA_RATE, SCARD_ATTR_DEVICE_FRIENDLY_NAME, SCARD_ATTR_DEVICE_IN_USE, SCARD_ATTR_DEVICE_SYSTEM_NAME, SCARD_ATTR_DEVICE_UNIT, SCARD_ATTR_ICC_INTERFACE_STATUS, SCARD_ATTR_ICC_PRESENCE, SCARD_ATTR_ICC_TYPE_PER_ATR, SCARD_ATTR_MAX_CLK, SCARD_ATTR_MAX_DATA_RATE, SCARD_ATTR_MAX_IFSD, SCARD_ATTR_POWER_MGMT_SUPPORT, SCARD_ATTR_PROTOCOL_TYPES, SCARD_ATTR_VENDOR_IFD_SERIAL_NO, SCARD_ATTR_VENDOR_IFD_TYPE, SCARD_ATTR_VENDOR_IFD_VERSION, SCARD_ATTR_VENDOR_NAME, SCardGetAttrib, SCardGetAttrib function [Security], _smart_scardgetattrib, security.scardgetattrib, winscard/SCardGetAttrib
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -527,17 +527,21 @@ The <b>SCardGetAttrib</b> function is a direct card access function. For more in
 
 The following example shows how to retrieve an attribute for a card reader. The example assumes that hCardHandle is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a> function.
 
-
-```cpp
-LPBYTE   pbAttr = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPBYTE   pbAttr = NULL;
 DWORD    cByte = SCARD_AUTOALLOCATE;
 DWORD    i;
 LONG     lReturn;
 
 lReturn = SCardGetAttrib(hCardHandle,
                          SCARD_ATTR_VENDOR_NAME,
-                         (LPBYTE)&pbAttr,
-                         &cByte);
+                         (LPBYTE)&amp;pbAttr,
+                         &amp;cByte);
 if ( SCARD_S_SUCCESS != lReturn )
 {
     if ( ERROR_NOT_SUPPORTED == lReturn )
@@ -552,7 +556,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 else
 {
     // Output the bytes.
-    for (i = 0; i < cByte; i++)
+    for (i = 0; i &lt; cByte; i++)
         printf("%c", *(pbAttr+i));
     printf("\n");
 
@@ -560,10 +564,10 @@ else
     // hContext was set earlier by SCardEstablishContext
     lReturn = SCardFreeMemory( hContext, pbAttr );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

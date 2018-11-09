@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_signingcertificate_method.htm
 tech.root: seccrypto
 ms.assetid: 8635c9f0-3c70-4037-8633-7a3440aff6c8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificate property, IOCSPCAConfiguration.SigningCertificate, IOCSPCAConfiguration.get_SigningCertificate, IOCSPCAConfiguration::SigningCertificate, IOCSPCAConfiguration::get_SigningCertificate, IOCSPCAConfiguration::put_SigningCertificate, SigningCertificate property [Security], SigningCertificate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificate, certadm/IOCSPCAConfiguration::get_SigningCertificate, certadm/IOCSPCAConfiguration::put_SigningCertificate, get_SigningCertificate, security.iocspcaconfiguration_signingcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

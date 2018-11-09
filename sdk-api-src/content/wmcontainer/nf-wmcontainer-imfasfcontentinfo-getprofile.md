@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_getprofile.htm
 tech.root: medfound
 ms.assetid: 6f74c896-a0c0-407b-b893-de15863bc2eb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 6f74c896-a0c0-407b-b893-de15863bc2eb, GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetProfile method, IMFASFContentInfo.GetProfile, IMFASFContentInfo::GetProfile, mf.imfasfcontentinfo_getprofile, wmcontainer/IMFASFContentInfo::GetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

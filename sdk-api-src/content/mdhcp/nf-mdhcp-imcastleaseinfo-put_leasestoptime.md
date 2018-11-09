@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_put_leasestoptime.htm
 tech.root: tapi
 ms.assetid: dd171ebe-c436-46cf-9a4a-31f22acbaab2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],put_LeaseStopTime method, IMcastLeaseInfo.put_LeaseStopTime, IMcastLeaseInfo::put_LeaseStopTime, _tapi3_imcastleaseinfo_put_leasestoptime, mdhcp/IMcastLeaseInfo::put_LeaseStopTime, put_LeaseStopTime, put_LeaseStopTime method [TAPI 2.2], put_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, tapi3.imcastleaseinfo_put_leasestoptime
 ms.prod: windows-hardware
 ms.technology: windows-devices

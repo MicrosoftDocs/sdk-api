@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getdispositionmessage.htm
 tech.root: seccrypto
 ms.assetid: c3639cf6-c70f-4f15-a0ed-e60abe2955cb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertRequest object [Security],GetDispositionMessage method, GetDispositionMessage, GetDispositionMessage method [Security], GetDispositionMessage method [Security],CCertRequest object, GetDispositionMessage method [Security],ICertRequest interface, GetDispositionMessage method [Security],ICertRequest2 interface, GetDispositionMessage method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetDispositionMessage method, ICertRequest.GetDispositionMessage, ICertRequest2 interface [Security],GetDispositionMessage method, ICertRequest2::GetDispositionMessage, ICertRequest3 interface [Security],GetDispositionMessage method, ICertRequest3::GetDispositionMessage, ICertRequest::GetDispositionMessage, certcli/ICertRequest2::GetDispositionMessage, certcli/ICertRequest3::GetDispositionMessage, certcli/ICertRequest::GetDispositionMessage, security.icertrequest2_getdispositionmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,17 +97,21 @@ An application would call this method to obtain the message retrieved from the s
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certcli.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certcli.h&gt;
 
     BSTR    bstrDispMsg = NULL;
     // pCertRequest is previously instantiated ICertRequest object 
     // pointer. Retrieve the disposition message for the 
     // previous request.
-    hr = pCertRequest->GetDispositionMessage(&bstrDispMsg);
+    hr = pCertRequest-&gt;GetDispositionMessage(&amp;bstrDispMsg);
     if (FAILED(hr))
     {
         printf("Failed GetDispositionMessage [%x]\n", hr);
@@ -128,10 +132,10 @@ error:
 
     if (NULL != bstrDispMsg)
         SysFreeString(bstrDispMsg);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

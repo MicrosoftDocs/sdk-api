@@ -7,7 +7,7 @@ old-location: automat\safearraysetrecordinfo.htm
 tech.root: automat
 ms.assetid: 85317e8e-7625-4799-9c34-73245f164f85
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SafeArraySetRecordInfo, SafeArraySetRecordInfo function [Automation], _oa96_SafeArraySetRecordInfo, automat.safearraysetrecordinfo, oleauto/SafeArraySetRecordInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

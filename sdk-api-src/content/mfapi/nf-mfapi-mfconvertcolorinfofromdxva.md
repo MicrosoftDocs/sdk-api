@@ -7,7 +7,7 @@ old-location: mf\mfconvertcolorinfofromdxva.htm
 tech.root: medfound
 ms.assetid: b16874cc-1eb3-43dd-bd4c-3ea77be10bd2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFConvertColorInfoFromDXVA, MFConvertColorInfoFromDXVA function [Media Foundation], b16874cc-1eb3-43dd-bd4c-3ea77be10bd2, mf.mfconvertcolorinfofromdxva, mfapi/MFConvertColorInfoFromDXVA
 ms.prod: windows-hardware
 ms.technology: windows-devices

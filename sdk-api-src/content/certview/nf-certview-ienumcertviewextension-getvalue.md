@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_getvalue.htm
 tech.root: seccrypto
 ms.assetid: 7a81b096-36ba-416a-ad15-5bf1c4d512dd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetValue method, IEnumCERTVIEWEXTENSION.GetValue, IEnumCERTVIEWEXTENSION::GetValue, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_ienumcertviewextension_getvalue, certview/IEnumCERTVIEWEXTENSION::GetValue, security.ienumcertviewextension_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -256,20 +256,24 @@ This method fails if the extension-enumeration sequence was obtained by a call t
 
 #### Examples
 
-
-```cpp
-VARIANT     var;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VARIANT     var;
 LONG        Index;
 HRESULT     hr;
 SYSTEMTIME  systime;
 
-VariantInit(&var);
+VariantInit(&amp;var);
 
 // Enumerate each extension
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-while (S_OK == pEnumExt->Next(&Index))
+while (S_OK == pEnumExt-&gt;Next(&amp;Index))
 {
-    hr = pEnumExt->GetValue(PROPTYPE_BINARY, CV_OUT_HEX, &var);
+    hr = pEnumExt-&gt;GetValue(PROPTYPE_BINARY, CV_OUT_HEX, &amp;var);
     if (FAILED(hr))
     {
         printf("Failed GetValue - %x\n", hr);
@@ -284,7 +288,7 @@ while (S_OK == pEnumExt->Next(&Index))
             printf("BSTR:%ws\n", var.bstrVal);
             break;
         case VT_DATE:
-            VariantTimeToSystemTime(var.date, &systime);
+            VariantTimeToSystemTime(var.date, &amp;systime);
             printf("%d.%d.%d %02d:%02d:%02d\n",
                    systime.wMonth,
                    systime.wDay,
@@ -305,10 +309,10 @@ while (S_OK == pEnumExt->Next(&Index))
     }
 }
 // Free resources.
-VariantClear( &var );
-```
-
-
+VariantClear( &amp;var );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

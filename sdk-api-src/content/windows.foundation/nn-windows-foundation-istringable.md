@@ -7,7 +7,7 @@ old-location: winrt\istringable.htm
 tech.root: WinRT
 ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime],described, windows/IStringable, winrt.istringable
 ms.prod: windows
 ms.technology: windows-sdk

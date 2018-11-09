@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__updatetexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__updatetexture.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 29cd384a-27b9-87ac-3d77-7fb734d0afbe, IDirect3DDevice9 interface [Direct3D 9],UpdateTexture method, IDirect3DDevice9.UpdateTexture, IDirect3DDevice9::UpdateTexture, UpdateTexture, UpdateTexture method [Direct3D 9], UpdateTexture method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::UpdateTexture, direct3d9.idirect3ddevice9__updatetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,50 +115,66 @@ This method fails if the textures are of different types, if their bottom-level 
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 32x16, 16x8, 8x4, 4x2, 2x1, 1x1
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This six-level source texture could be the source for the following one-level destination.
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 1x1
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For the following two-level destination.
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 2x1, 1x1
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Or, for the following three-level destination.
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 4x2, 2x1, 1x1
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 In addition, this method will fail if the textures are of different formats. If the destination texture has fewer levels than the source, only the matching levels are copied. If the source texture has fewer levels than the destination, the method will fail. 
 
 If the source texture has dirty regions, the copy can be optimized by restricting the copy to only those regions. It is not guaranteed that only those bytes marked dirty will be copied.

@@ -7,7 +7,7 @@ old-location: com\coallowsetforegroundwindow.htm
 tech.root: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,12 +156,16 @@ Behind the scenes, the <a href="https://msdn.microsoft.com/21857592-0f98-4eb4-a1
 
 The following example demonstrates how a client process can create a local COM server, call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege, and then call a function on  the COM server that in turn directly or indirectly calls <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
 
-
-```cpp
-Microsoft::WRL::ComPtr<IExampleInterface> exampleLocalServer;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Microsoft::WRL::ComPtr&lt;IExampleInterface&gt; exampleLocalServer;
 
 ThrowIfFailed(::CoCreateInstance(CLSID_ExampleLocalServer,
-	nullptr, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&exampleLocalServer)));
+	nullptr, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&amp;exampleLocalServer)));
 
 // You can adapt to success or failure, but don't automatically throw. Don’t make the
 // opening of a window dependent on successfully passing privilege (and taking foreground),
@@ -169,10 +173,10 @@ ThrowIfFailed(::CoCreateInstance(CLSID_ExampleLocalServer,
 HRESULT hr = ::CoAllowSetForegroundWindow(exampleLocalServer.Get(), nullptr);
 
 // Call an example method that itself calls ::SetForegroundWindow(HWND).
-hr = exampleLocalServer->FunctionThatSetsForegroundWindow();
-```
-
-
+hr = exampleLocalServer-&gt;FunctionThatSetsForegroundWindow();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

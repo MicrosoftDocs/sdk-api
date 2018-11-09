@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_removetrack.htm
 tech.root: medfound
 ms.assetid: 34B785F6-0B34-431A-91CD-3C2DCEFEDAA4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RemoveTrack method, IMFTimedText.RemoveTrack, IMFTimedText::RemoveTrack, RemoveTrack, RemoveTrack method [Media Foundation], RemoveTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_removetrack, mfmediaengine/IMFTimedText::RemoveTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices

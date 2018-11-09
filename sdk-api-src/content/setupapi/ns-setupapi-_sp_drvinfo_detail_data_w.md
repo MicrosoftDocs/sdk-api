@@ -7,7 +7,7 @@ old-location: devinst\sp_drvinfo_detail_data.htm
 tech.root: devinst
 ms.assetid: 6e16a90a-a876-471c-917b-a26229a9187a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PSP_DRVINFO_DETAIL_DATA_W, PSP_DRVINFO_DETAIL_DATA, PSP_DRVINFO_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA, SP_DRVINFO_DETAIL_DATA structure [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA_W, _SP_DRVINFO_DETAIL_DATA_W, devinst.sp_drvinfo_detail_data, di-struct_74ef2af7-e982-4041-9c39-605ca316359c.xml, setupapi/PSP_DRVINFO_DETAIL_DATA, setupapi/SP_DRVINFO_DETAIL_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,23 +155,27 @@ For example, depending on how the list of <a href="https://msdn.microsoft.com/li
 </ul>
 An algorithm to correctly parse this buffer must use the <b>CompatIDsOffset</b> and <b>CompatIDsLength</b> fields to extract the <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> and <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a>, as shown in the following code example:
 
-
-```
-// parse the hardware ID, if it exists
-if (CompatIDsOffset > 1)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// parse the hardware ID, if it exists
+if (CompatIDsOffset &gt; 1)
 {
     // Parse for hardware ID from index 0. 
     // This is a single NULL-terminated string
 }
  // Parse the compatible IDs, if they exist
-if (CompatIDsLength > 0)
+if (CompatIDsLength &gt; 0)
 {
     // Parse for list of compatible IDs from CompatIDsOffset. 
     // This is a double NULL-terminated list of strings (i.e. MULTI-SZ)
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

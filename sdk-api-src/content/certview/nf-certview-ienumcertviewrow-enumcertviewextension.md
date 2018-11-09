@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_enumcertviewextension.htm
 tech.root: seccrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: EnumCertViewExtension, EnumCertViewExtension method [Security], EnumCertViewExtension method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewExtension method, IEnumCERTVIEWROW.EnumCertViewExtension, IEnumCERTVIEWROW::EnumCertViewExtension, _certsrv_ienumcertviewrow_enumcertviewextension, certview/IEnumCERTVIEWROW::EnumCertViewExtension, security.ienumcertviewrow_enumcertviewextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,21 +118,25 @@ To reference a different row, call one of the following methods to navigate thro
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 LONG       Index;
 HRESULT    hr;
 IEnumCERTVIEWEXTENSION * pEnumExt = NULL;
 // Obtain enumerator for extensions.
-hr = pEnumRow->EnumCertViewExtension(0, &pEnumExt);
+hr = pEnumRow-&gt;EnumCertViewExtension(0, &amp;pEnumExt);
 if (FAILED(hr))
 {
     printf("Failed EnumCertViewExtension - %x\n", hr);
     goto error;
 }
 // Enumerate each extension.
-while (S_OK == pEnumExt->Next(&Index))
+while (S_OK == pEnumExt-&gt;Next(&amp;Index))
 {
     // Use this extension as needed.
 }
@@ -140,10 +144,10 @@ error:
 
 // Free resources.
 if (NULL != pEnumExt)
-    pEnumExt->Release();
-```
-
-
+    pEnumExt-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

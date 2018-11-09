@@ -7,7 +7,7 @@ old-location: controls\ITextStoryRanges__NewEnum.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\_newenum.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],_NewEnum method, ITextStoryRanges._NewEnum, ITextStoryRanges::_NewEnum, _NewEnum, _NewEnum method [Windows Controls], _NewEnum method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges__NewEnum, _win32_ITextStoryRanges__NewEnum_cpp, controls.ITextStoryRanges__NewEnum, controls._win32_ITextStoryRanges__NewEnum, tom/ITextStoryRanges::_NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,9 +114,13 @@ Failure for some other reason.
 This definition together with the implementation of 
 				<b>IEnumVARIANT</b>, enables one to support the following Microsoft Visual Basic for Applications (VBA) code.
 
-
-```
-    Dim t As ITextDocument
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    Dim t As ITextDocument
     Dim c As ITextStoryRanges
     Dim r As ITextRange
 
@@ -125,10 +129,10 @@ This definition together with the implementation of
 
     For Each r In c
         Debug.Print r.Text
-    Next
-```
-
-
+    Next</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

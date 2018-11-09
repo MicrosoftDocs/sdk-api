@@ -7,7 +7,7 @@ old-location: mscs\clusprop_buffer_helper.htm
 tech.root: mscs
 ms.assetid: a2b706a0-76fe-4757-b76b-96cb6708bb61
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: "*PCLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER union [Failover Cluster], PCLUSPROP_BUFFER_HELPER, PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster], _wolf_clusprop_buffer_helper, clusapi/CLUSPROP_BUFFER_HELPER, clusapi/PCLUSPROP_BUFFER_HELPER, mscs.clusprop_buffer_helper"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -262,9 +262,13 @@ In addition to the following example, see
       <a href="https://msdn.microsoft.com/en-us/library/Aa369332(v=VS.85).aspx">Creating Value Lists</a>, and 
       <a href="https://msdn.microsoft.com/en-us/library/Aa371783(v=VS.85).aspx">Parsing a Value List</a>.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 //  
 //    HOW TO USE CLUSPROP_BUFFER HELPER
 //  
@@ -295,20 +299,20 @@ void ClusDocEx_UsingCBH()
 //
 //    The pb member points to the first byte of lp.
 //
-//    lp -----> 0 0 0 0 0 0 0 0 0 0 0 ... 0 
+//    lp -----&gt; 0 0 0 0 0 0 0 0 0 0 0 ... 0 
 //
-//    cbh.pb-->|-|
+//    cbh.pb--&gt;|-|
 //
 //
 //    Note what happens when different cbh pointer types are used:
 //
-//                   lp -----> 0 0 0 0 0 0 0 0 0 0 0 0 ... 0 
+//                   lp -----&gt; 0 0 0 0 0 0 0 0 0 0 0 0 ... 0 
 //
-//    cbh.pdw              -->|-------|
-//    cbh.psz              -->|-|
-//    cbh.pValue           -->|---------------|
-//    cbh.pValue->Syntax.dw-->|-------|
-//    cbh.pValue->cbLength         -->|-------|
+//    cbh.pdw              --&gt;|-------|
+//    cbh.psz              --&gt;|-|
+//    cbh.pValue           --&gt;|---------------|
+//    cbh.pValue-&gt;Syntax.dw--&gt;|-------|
+//    cbh.pValue-&gt;cbLength         --&gt;|-------|
 //
 //
 //    The configuration of bytes that will be affected by a read
@@ -322,14 +326,14 @@ void ClusDocEx_UsingCBH()
 //    structure pointers let you "reach over" intervening members.
 //
 
-      cbh.pValue->Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_DWORD; 
+      cbh.pValue-&gt;Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_DWORD; 
     
-      cbh.pValue->cbLength = sizeof( DWORD );
+      cbh.pValue-&gt;cbLength = sizeof( DWORD );
 
-      cbh.pDwordValue->dw  = 0x0000EEEEL;
+      cbh.pDwordValue-&gt;dw  = 0x0000EEEEL;
 
 //
-//    Result:   lp ----->| syntax | length |  value  | 0 0 0 0 ... 0 
+//    Result:   lp -----&gt;| syntax | length |  value  | 0 0 0 0 ... 0 
 //
 
 
@@ -344,7 +348,7 @@ void ClusDocEx_UsingCBH()
 
       DWORD cbAdvance = ClusDocEx_ListEntrySize( sizeof( DWORD ) );  // See "ClusDocEx.h"
 
-      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) > 100 )
+      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) &gt; 100 )
       {
           // handle the fact that there's more data than the reported size of the buffer
       }
@@ -360,20 +364,20 @@ void ClusDocEx_UsingCBH()
 
       // Write next entry
 
-      cbh.pStringValue->Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
+      cbh.pStringValue-&gt;Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 
-      cbh.pStringValue->cbLength = ( lstrlenW( L"String Value" ) + 1 ) * sizeof( WCHAR );
+      cbh.pStringValue-&gt;cbLength = ( lstrlenW( L"String Value" ) + 1 ) * sizeof( WCHAR );
       
-      StringCchCopyW( cbh.pStringValue->sz, cbh.pStringValue->cbLength, L"String Value" );
+      StringCchCopyW( cbh.pStringValue-&gt;sz, cbh.pStringValue-&gt;cbLength, L"String Value" );
 
 
       // Check space
       
       cbPosition = cbh.pb - (LPBYTE) lp;
 
-      cbAdvance = ClusDocEx_ListEntrySize( cbh.pStringValue->cbLength ); 
+      cbAdvance = ClusDocEx_ListEntrySize( cbh.pStringValue-&gt;cbLength ); 
 
-      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) > 100 )
+      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) &gt; 100 )
       {
           // 
       }
@@ -387,10 +391,10 @@ void ClusDocEx_UsingCBH()
 
       LocalFree( lp );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\CreateTextServices.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolfunctions\createtextservices.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateTextServices, CreateTextServices function [Windows Controls], _win32_CreateTextServices, _win32_CreateTextServices_cpp, controls.CreateTextServices, controls._win32_CreateTextServices, textserv/CreateTextServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

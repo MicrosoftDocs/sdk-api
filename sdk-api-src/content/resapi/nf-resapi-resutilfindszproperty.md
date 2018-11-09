@@ -7,7 +7,7 @@ old-location: mscs\resutilfindszproperty.htm
 tech.root: mscs
 ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster], ResUtilFindSzProperty, ResUtilFindSzProperty function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY, resapi/ResUtilFindSzProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

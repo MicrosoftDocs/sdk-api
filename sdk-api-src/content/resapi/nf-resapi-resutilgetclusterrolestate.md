@@ -7,7 +7,7 @@ old-location: mscs\resutilgetclusterrolestate.htm
 tech.root: mscs
 ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState
 ms.prod: windows-hardware
 ms.technology: windows-devices

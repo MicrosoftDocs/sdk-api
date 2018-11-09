@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_beginflush.htm
 tech.root: DirectShow
 ms.assetid: 29153592-dbc1-42b4-bd4e-2f1aef8d4c19
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],BeginFlush method, IAsyncReader.BeginFlush, IAsyncReader::BeginFlush, IAsyncReaderBeginFlush, dshow.iasyncreader_beginflush, strmif/IAsyncReader::BeginFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,26 +88,30 @@ For more information, see <a href="https://msdn.microsoft.com/868218c4-3e1a-4da0
 
 The following example shows how a downstream input pin should call this method:
 
-
-```cpp
-
-m_pReader->BeginFlush(); 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+m_pReader-&gt;BeginFlush(); 
 while (1) {
     IMediaSample *pSample;
     DWORD_PTR dwUnused;
-    m_pReader->WaitForNext(0, &pSample, &dwUnused);
+    m_pReader-&gt;WaitForNext(0, &amp;pSample, &amp;dwUnused);
     if(pSample) { 
-        pSample->Release();  
+        pSample-&gt;Release();  
     } 
     else {  // No more samples.
         break;
     }
 }
-m_pReader->EndFlush();
-
-```
-
-
+m_pReader-&gt;EndFlush();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

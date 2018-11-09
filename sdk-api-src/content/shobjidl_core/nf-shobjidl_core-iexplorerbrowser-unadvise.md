@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_Unadvise.htm
 tech.root: shell
 ms.assetid: a9b6b971-5676-4ceb-ab48-2350a1715b82
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],Unadvise method, IExplorerBrowser.Unadvise, IExplorerBrowser::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_Unadvise, shell.IExplorerBrowser_Unadvise, shobjidl_core/IExplorerBrowser::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

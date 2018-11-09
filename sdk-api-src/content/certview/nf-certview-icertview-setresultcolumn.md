@@ -7,7 +7,7 @@ old-location: security\icertview2_setresultcolumn.htm
 tech.root: seccrypto
 ms.assetid: c13bdc3a-e623-49df-bba0-34c4c178dc3b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertView object [Security],SetResultColumn method, ICertView interface [Security],SetResultColumn method, ICertView.SetResultColumn, ICertView2 interface [Security],SetResultColumn method, ICertView2::SetResultColumn, ICertView::SetResultColumn, SetResultColumn, SetResultColumn method [Security], SetResultColumn method [Security],CCertView object, SetResultColumn method [Security],ICertView interface, SetResultColumn method [Security],ICertView2 interface, certview/ICertView2::SetResultColumn, certview/ICertView::SetResultColumn, security.icertview2_setresultcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,30 +102,34 @@ The <b>SetResultColumn</b> method must be called for each column that is needed 
 
 #### Examples
 
-
-```cpp
-    HRESULT    hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    HRESULT    hr;
     LONG       nCount;
     LONG       i;
 
     // Determine the number of columns in the entire database.
     // pCertView is a pointer to ICertView.
-    hr = pCertView->GetColumnCount(FALSE, &nCount);
+    hr = pCertView-&gt;GetColumnCount(FALSE, &amp;nCount);
     if (FAILED(hr))
     {
         printf("Failed GetColumnCount - %x\n", hr);
         goto error;
     }
-    hr = pCertView->SetResultColumnCount( nCount );
+    hr = pCertView-&gt;SetResultColumnCount( nCount );
     if (FAILED(hr))
     {
         printf("Failed SetResultColumnCount - %x\n", hr);
         goto error;
     }
     // Place each column in the view.
-    for (i = 0; i < nCount; i++)
+    for (i = 0; i &lt; nCount; i++)
     {
-        hr = pCertView->SetResultColumn(i);
+        hr = pCertView-&gt;SetResultColumn(i);
         if (FAILED(hr))
         {
             printf("Failed SetResultColumn (%d) - %x\n", i, hr );
@@ -138,10 +142,10 @@ The <b>SetResultColumn</b> method must be called for each column that is needed 
 error:
 	{
 		 // Clean up resources, and so on.
-	}
-```
-
-
+	}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dxmath\xmbyte4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTE4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: XMBYTE4, XMBYTE4 structure [DirectX Math Support APIs], directxpackedvector/XMBYTE4, dxmath.xmbyte4
 ms.prod: windows
 ms.technology: windows-sdk

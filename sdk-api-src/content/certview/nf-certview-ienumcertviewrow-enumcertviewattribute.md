@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_enumcertviewattribute.htm
 tech.root: seccrypto
 ms.assetid: 53a70f66-3805-429e-8ef6-01b00b666b72
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: EnumCertViewAttribute, EnumCertViewAttribute method [Security], EnumCertViewAttribute method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewAttribute method, IEnumCERTVIEWROW.EnumCertViewAttribute, IEnumCERTVIEWROW::EnumCertViewAttribute, _certsrv_ienumcertviewrow_enumcertviewattribute, certview/IEnumCERTVIEWROW::EnumCertViewAttribute, security.ienumcertviewrow_enumcertviewattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,22 +118,26 @@ To reference a different row, call one of the following methods to navigate thro
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
 HRESULT                  hr;
 LONG                     Index;
 IEnumCERTVIEWATTRIBUTE * pEnumAttr = NULL;
 
 // obtain enumerator for attributes
-hr = pEnumRow->EnumCertViewAttribute(0, &pEnumAttr);
+hr = pEnumRow-&gt;EnumCertViewAttribute(0, &amp;pEnumAttr);
 if (FAILED(hr))
 {
     printf("Failed EnumCertViewAttribute - %x\n", hr);
     goto error;
 }
 // enumerate each attribute
-while (S_OK == pEnumAttr->Next(&Index))
+while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
 {
     // Use this attribute as needed.
 }
@@ -141,10 +145,10 @@ error:
 
 // Free resources.
 if (NULL != pEnumAttr)
-    pEnumAttr->Release();
-```
-
-
+    pEnumAttr-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

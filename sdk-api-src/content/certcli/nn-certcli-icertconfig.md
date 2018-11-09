@@ -7,7 +7,7 @@ old-location: security\icertconfig.htm
 tech.root: seccrypto
 ms.assetid: 92bece6a-73f0-47cf-8142-77e986448824
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: ICertConfig, ICertConfig interface [Security], ICertConfig interface [Security],described, _certsrv_icertconfig, certcli/ICertConfig, security.icertconfig
 ms.prod: windows
 ms.technology: windows-sdk

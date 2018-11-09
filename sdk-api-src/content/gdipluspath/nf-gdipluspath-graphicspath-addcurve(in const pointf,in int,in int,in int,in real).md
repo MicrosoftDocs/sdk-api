@@ -121,13 +121,9 @@ You should keep a copy of the <i>points</i> array if those points will be needed
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object <i>path</i>, adds a cardinal spline to <i>path</i>, and then draws <i>path</i>. The spline is built from the points indexed 2 through 6 in an array of eight points.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID AddCurveExample3(HDC hdc)
+
+```cpp
+VOID AddCurveExample3(HDC hdc)
 {
    Graphics graphics(hdc);
    GraphicsPath path;
@@ -147,16 +143,16 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
       4,     // Four segments. End at the point with index 6.
       1.0f);
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;pen, &amp;path);
+   graphics.DrawPath(&pen, &path);
    // Draw all eight points in the array.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j &lt;= 7; ++j)
-      graphics.FillEllipse(&amp;brush, pts[j].X - 3.0f, pts[j].Y - 3.0f, 6.0f, 6.0f); 
+   for(INT j = 0; j <= 7; ++j)
+      graphics.FillEllipse(&brush, pts[j].X - 3.0f, pts[j].Y - 3.0f, 6.0f, 6.0f); 
 }
-Color(255, 255, 0,  0)</pre>
-</td>
-</tr>
-</table></span></div>
+Color(255, 255, 0,  0)
+```
+
+
 
 
 

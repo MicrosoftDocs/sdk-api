@@ -7,7 +7,7 @@ old-location: security\icertadmin2_revokecertificate.htm
 tech.root: seccrypto
 ms.assetid: d44ff8c1-a248-4e2a-a73f-55fbea9fce03
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin interface [Security],RevokeCertificate method, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, ICertAdmin interface [Security],RevokeCertificate method, ICertAdmin.RevokeCertificate, ICertAdmin2 interface [Security],RevokeCertificate method, ICertAdmin2::RevokeCertificate, ICertAdmin::RevokeCertificate, RevokeCertificate, RevokeCertificate method [Security], RevokeCertificate method [Security],CCertAdmin interface, RevokeCertificate method [Security],ICertAdmin interface, RevokeCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::RevokeCertificate, certadm/ICertAdmin::RevokeCertificate, security.icertadmin2_revokecertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,16 +141,20 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-
-```cpp
-    BSTR bstrCA = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    BSTR bstrCA = NULL;
     BSTR bstrSerial = NULL;  // certificate serial number
     long nReason;
     DATE RevokeDate;         // revocation date
     SYSTEMTIME st;
 
-    bstrSerial = SysAllocString(L"<SERIALNUMBERHERE>");
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrSerial = SysAllocString(L"&lt;SERIALNUMBERHERE&gt;");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA || NULL == bstrSerial)
     {
         printf("Memory allocation failed\n");
@@ -165,14 +169,14 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     //  This example sets the revoke date to noon on 1/1/2001.
     //  Zero out values first (avoids setting minutes, seconds,
     //  and so on).
-    memset(&st, 0, sizeof(SYSTEMTIME));
+    memset(&amp;st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2001;
     st.wMonth = 1;     // Jan
     st.wDay = 1;       // 1st day of month
     st.wHour = 12;     // Noon
 
     //  Place the date in the required format.
-    if (!SystemTimeToVariantTime(&st, &RevokeDate))
+    if (!SystemTimeToVariantTime(&amp;st, &amp;RevokeDate))
     {
         printf("Unable to convert time.\n");
         goto error;
@@ -180,7 +184,7 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
     //  Revoke the certificate.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin->RevokeCertificate( bstrCA,
+    hr = pCertAdmin-&gt;RevokeCertificate( bstrCA,
                                         bstrSerial,
                                         nReason,
                                         RevokeDate );
@@ -200,10 +204,10 @@ error:
     if (bstrSerial)
         SysFreeString( bstrSerial );
     if (bstrCA)
-        SysFreeString( bstrCA );
-```
-
-
+        SysFreeString( bstrCA );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

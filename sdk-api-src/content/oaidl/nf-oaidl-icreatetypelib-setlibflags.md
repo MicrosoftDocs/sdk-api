@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setlibflags.htm
 tech.root: automat
 ms.assetid: fc72635c-853f-4a0a-9869-263e4aa39b8b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

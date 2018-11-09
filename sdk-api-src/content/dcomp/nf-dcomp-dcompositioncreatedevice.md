@@ -110,10 +110,14 @@ The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and
 
 The following example shows how to create a device object as part of initialing DirectComposition objects.
 
-
-```cpp
-#include <dcomp.h>
-#include <d3d11.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;dcomp.h&gt;
+#include &lt;d3d11.h&gt;
 
 HRESULT InitializeDirectCompositionDevice(HWND hwndTarget, 
         ID3D11Device **ppD3D11Device, IDCompositionDevice **ppDevice,
@@ -142,34 +146,34 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
         0,
         D3D11_SDK_VERSION,
         ppD3D11Device,
-        &featureLevelSupported,
+        &amp;featureLevelSupported,
         NULL);
 
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = (*ppD3D11Device)->QueryInterface(&pDXGIDevice);
+        hr = (*ppD3D11Device)-&gt;QueryInterface(&amp;pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, __uuidof(IDCompositionDevice), 
-                reinterpret_cast<void **>(ppDevice));
+                reinterpret_cast&lt;void **&gt;(ppDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Bind the DirectComposition device to the target window.
-        hr = (*ppDevice)->CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
+        hr = (*ppDevice)-&gt;CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
     }
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

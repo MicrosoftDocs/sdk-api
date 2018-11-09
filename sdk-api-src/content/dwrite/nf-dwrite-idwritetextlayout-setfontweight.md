@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: c6b65548-c486-4006-afe9-95bc628bbf70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontWeight method, IDWriteTextLayout.SetFontWeight, IDWriteTextLayout::SetFontWeight, SetFontWeight, SetFontWeight method [Direct Write], SetFontWeight method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontWeight, dwrite/IDWriteTextLayout::SetFontWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,25 +97,21 @@ The following illustration shows an example of Normal and UltraBold weights for 
 
 The following code illustrates how to set the font weight to bold.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Set the font weight to bold for the entire string.
 DWRITE_TEXT_RANGE textRange = {0, cTextLength_};
 
 if (SUCCEEDED(hr))
 {
-    hr = pTextLayout_-&gt;SetFontWeight(DWRITE_FONT_WEIGHT_BOLD, textRange);
+    hr = pTextLayout_->SetFontWeight(DWRITE_FONT_WEIGHT_BOLD, textRange);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

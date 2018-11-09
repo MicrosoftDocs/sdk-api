@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_getrequestattribute.htm
 tech.root: seccrypto
 ms.assetid: 344cb710-4824-455c-9599-3036a2b36905
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerPolicy object, GetRequestAttribute method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestAttribute method, ICertServerPolicy.GetRequestAttribute, ICertServerPolicy::GetRequestAttribute, _certsrv_icertserverpolicy_getrequestattribute, certif/ICertServerPolicy::GetRequestAttribute, security.icertserverpolicy_getrequestattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,16 +119,20 @@ The following request attributes are unique to KEYGEN style requests.
 
 #### Examples
 
-
-```cpp
-BSTR     bstrAttribValue = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrAttribValue = NULL;
 HRESULT  hr;
 
 // Get the request attribute.
 // bstrAttribName is BSTR assigned by EnumerateAttributes.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->GetRequestAttribute(bstrAttribName,
-                                            &bstrAttribValue);
+hr = pCertServerPolicy-&gt;GetRequestAttribute(bstrAttribName,
+                                            &amp;bstrAttribValue);
 
 if (FAILED(hr))
 {
@@ -144,10 +148,10 @@ else
 
 // Done processing. Free BSTR.
 if (NULL != bstrAttribValue)
-    SysFreeString(bstrAttribValue);
-```
-
-
+    SysFreeString(bstrAttribValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\scardforgetcardtype.htm
 tech.root: secauthn
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCardForgetCardType, SCardForgetCardType function [Security], SCardForgetCardTypeA, SCardForgetCardTypeW, _smart_scardforgetcardtype, security.scardforgetcardtype, winscard/SCardForgetCardType, winscard/SCardForgetCardTypeA, winscard/SCardForgetCardTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,17 +125,21 @@ The <b>SCardForgetCardType</b> function is a database management function. For m
 
 The following example removes the specified card type from the system. The example assumes that lReturn is a valid variable of type <b>LONG</b>,  that <i>hContext</i> is a valid handle received from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function, and that "MyCardName" was  previously introduced by a call to the <a href="https://msdn.microsoft.com/1ac88466-1277-44d7-a471-b31d6bfce99e">SCardIntroduceCardType</a> function.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardForgetCardType(hContext, 
                               L"MyCardName");
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardForgetCardType\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

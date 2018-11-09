@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoderservice.htm
 tech.root: medfound
 ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation],described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
 ms.prod: windows
 ms.technology: windows-sdk

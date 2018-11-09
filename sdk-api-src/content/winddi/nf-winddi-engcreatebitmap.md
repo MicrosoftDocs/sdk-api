@@ -7,7 +7,7 @@ old-location: display\engcreatebitmap.htm
 tech.root: display
 ms.assetid: 51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

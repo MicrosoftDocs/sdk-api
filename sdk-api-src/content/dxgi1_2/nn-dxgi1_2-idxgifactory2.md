@@ -182,20 +182,24 @@ Because you can create a Direct3D device without creating a swap chain, you migh
 You can request the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>, <a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a>, or  <a href="https://msdn.microsoft.com/0AD1E52F-EB9F-473F-AF16-E2E1A7E8946A">IDXGIDevice2</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/en-us/library/Bb174542(v=VS.85).aspx">IDXGIObject::GetParent</a> method to locate 
 the factory.  The following code shows how.
 
-
-```
-IDXGIDevice2 * pDXGIDevice;
-hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice2), (void **)&pDXGIDevice);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IDXGIDevice2 * pDXGIDevice;
+hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice2), (void **)&amp;pDXGIDevice);
       
 IDXGIAdapter * pDXGIAdapter;
-hr = pDXGIDevice->GetParent(__uuidof(IDXGIAdapter), (void **)&pDXGIAdapter);
+hr = pDXGIDevice-&gt;GetParent(__uuidof(IDXGIAdapter), (void **)&amp;pDXGIAdapter);
 
 IDXGIFactory2 * pIDXGIFactory;
-pDXGIAdapter->GetParent(__uuidof(IDXGIFactory2), (void **)&pIDXGIFactory);
-
-```
-
-
+pDXGIAdapter-&gt;GetParent(__uuidof(IDXGIFactory2), (void **)&amp;pIDXGIFactory);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

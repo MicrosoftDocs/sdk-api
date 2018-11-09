@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getdoublearray.htm
 tech.root: WinRT
 ms.assetid: 197a3626-e349-4027-913c-e8203dad4fc1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetDoubleArray, GetDoubleArray method [Windows Runtime], GetDoubleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDoubleArray method, IPropertyValue.GetDoubleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDoubleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDoubleArray, winrt.ipropertyvalue_getdoublearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

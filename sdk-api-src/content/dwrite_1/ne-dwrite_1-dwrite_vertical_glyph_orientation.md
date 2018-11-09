@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_vertical_glyph_orientation.htm
 tech.root: DirectWrite
 ms.assetid: F13CD254-0D6A-4549-A2C2-3D3126E7B2EB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DWRITE_VERTICAL_GLYPH_ORIENTATION, DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration [Direct Write], DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED, directwrite.dwrite_vertical_glyph_orientation, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED
 ms.prod: windows
 ms.technology: windows-sdk

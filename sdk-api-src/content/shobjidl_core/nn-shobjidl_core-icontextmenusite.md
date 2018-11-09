@@ -7,7 +7,7 @@ old-location: shell\IContextMenuSite.htm
 tech.root: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,17 +90,21 @@ The IID for this interface is <b>IID_IContextMenuSite</b>.
 
 To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
 
-
-```
-CComPtr<IContextMenuSite> spcms;
-hr = IUnknown_QueryService(_punkSite, SID_SFolderView, IID_PPV_ARGS(&spcms));
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>CComPtr&lt;IContextMenuSite&gt; spcms;
+hr = IUnknown_QueryService(_punkSite, SID_SFolderView, IID_PPV_ARGS(&amp;spcms));
 
 if (SUCCEEDED(hr))
 {
     ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

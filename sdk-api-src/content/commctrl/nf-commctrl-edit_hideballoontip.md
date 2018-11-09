@@ -7,7 +7,7 @@ old-location: controls\Edit_HideBalloonTip.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_hideballoontip.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Edit_HideBalloonTip, Edit_HideBalloonTip macro [Windows Controls], _win32_Edit_HideBalloonTip, _win32_Edit_HideBalloonTip_cpp, commctrl/Edit_HideBalloonTip, controls.Edit_HideBalloonTip, controls._win32_Edit_HideBalloonTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

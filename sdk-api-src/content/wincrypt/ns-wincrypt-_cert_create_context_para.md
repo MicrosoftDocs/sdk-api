@@ -7,7 +7,7 @@ old-location: security\cert_create_context_para.htm
 tech.root: seccrypto
 ms.assetid: 1486cb60-56f0-4ce4-b283-6f92dcbbea26
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: "*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA structure [Security], _CERT_CREATE_CONTEXT_PARA, security.cert_create_context_para, wincrypt/CERT_CREATE_CONTEXT_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_tombstonetime.htm
 tech.root: wds
 ms.assetid: 95516e2b-40e3-4da8-9ca0-0f96a8e6cb13
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TombstoneTime property, IWdsTransportNamespace.TombstoneTime, IWdsTransportNamespace.get_TombstoneTime, IWdsTransportNamespace::TombstoneTime, IWdsTransportNamespace::get_TombstoneTime, TombstoneTime property [Windows Deployment Services], TombstoneTime property [Windows Deployment Services],IWdsTransportNamespace interface, get_TombstoneTime, wds.iwdstransportnamespace_tombstonetime, wdstptmgmt/IWdsTransportNamespace::TombstoneTime, wdstptmgmt/IWdsTransportNamespace::get_TombstoneTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_getmaxindex.htm
 tech.root: seccrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],GetMaxIndex method, IEnumCERTVIEWROW.GetMaxIndex, IEnumCERTVIEWROW::GetMaxIndex, certview/IEnumCERTVIEWROW::GetMaxIndex, security.ienumcertviewrow_getmaxindex, security.ienumcertviewrow_getmaxtindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,24 +118,28 @@ To navigate through the row-enumeration sequence, call the following methods.
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certview.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certview.h&gt;
 
 long nMax;
 
 //  Determine the maximum row index.
-hr = pRow->GetMaxIndex(&nMax);
+hr = pRow-&gt;GetMaxIndex(&amp;nMax);
 if (FAILED(hr))
     printf("Failed GetMaxIndex [%x]\n", hr);
 else
     printf("Max index is: %d\n", nMax);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

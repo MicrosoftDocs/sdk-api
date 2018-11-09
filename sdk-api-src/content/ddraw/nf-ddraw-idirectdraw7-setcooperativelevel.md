@@ -181,14 +181,18 @@ If you use Microsoft Foundation Classes (MFC), the window handle passed to this 
 
 
 
-
-```
-
-HWND hwndTop = AfxGetMainWnd()->GetSafeHwnd();
-
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+HWND hwndTop = AfxGetMainWnd()-&gt;GetSafeHwnd();
+</pre>
+</td>
+</tr>
+</table></span></div>
 You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>SetCooperativeLevel</b> method.
 
 

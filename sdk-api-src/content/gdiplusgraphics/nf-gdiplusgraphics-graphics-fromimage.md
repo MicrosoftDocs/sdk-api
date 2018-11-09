@@ -116,9 +116,13 @@ The following example calls the <b>Graphics::FromImage</b> method to create a
 						<b>Image</b> object. The call to 
 						<a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">Graphics::DrawImage</a> displays the altered bitmap.
 
-
-```cpp
-VOID Example_FromImage(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_FromImage(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -126,20 +130,20 @@ VOID Example_FromImage(HDC hdc)
    Image image(L"Mosaic.png");
 
    // Create a Graphics object that is associated with the image.
-   Graphics* imageGraphics = Graphics::FromImage(&image);
+   Graphics* imageGraphics = Graphics::FromImage(&amp;image);
    
    // Alter the image.
    SolidBrush brush(Color(255, 0, 0, 255));
-   imageGraphics->FillEllipse(&brush, 10, 40, 100, 50);
+   imageGraphics-&gt;FillEllipse(&amp;brush, 10, 40, 100, 50);
 
    // Draw the altered image.
-   graphics.DrawImage(&image, 30, 20);
+   graphics.DrawImage(&amp;image, 30, 20);
    
    delete imageGraphics;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

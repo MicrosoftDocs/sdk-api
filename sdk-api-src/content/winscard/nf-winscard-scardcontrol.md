@@ -7,7 +7,7 @@ old-location: security\scardcontrol.htm
 tech.root: secauthn
 ms.assetid: e8c69e61-4e5e-4385-a0f1-9b594c479984
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,9 +146,13 @@ The <b>SCardControl</b> function is a direct card access function. For more info
 
 The following example issues a control code. The example assumes that hCardHandle is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a> and that dwControlCode is a variable of type <b>DWORD</b> previously initialized to a valid control code. This particular control code requires no input data and expects no output data.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardControl( hCardHandle,
                         dwControlCode,
                         NULL,
@@ -158,10 +162,10 @@ lReturn = SCardControl( hCardHandle,
                         0 );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardControl\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

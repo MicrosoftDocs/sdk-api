@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_getstreamselection.htm
 tech.root: medfound
 ms.assetid: 40301426-4bf2-442c-91b5-9916d1314617
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetStreamSelection method, IMFSourceReader.GetStreamSelection, IMFSourceReader::GetStreamSelection, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getstreamselection, mfreadwrite/IMFSourceReader::GetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

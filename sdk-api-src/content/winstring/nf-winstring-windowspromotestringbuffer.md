@@ -7,7 +7,7 @@ old-location: winrt\windowspromotestringbuffer.htm
 tech.root: WinRT
 ms.assetid: ac5261fd-2d31-4c65-84f2-4c6b4c3566bb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Windows Runtime], winrt.windowspromotestringbuffer, winstring/WindowsPromoteStringBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,9 +141,13 @@ Each call to the <b>WindowsPromoteStringBuffer</b> function must be matched with
 
 The following code example demonstrates how to use the <b>WindowsPromoteStringBuffer</b> function.
 
-
-```cpp
-#include <WinrtString.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;WinrtString.h&gt;
 
 int main()
 {
@@ -151,13 +155,13 @@ int main()
     LPVOID* hStringBuffer = NULL;
     PWSTR strBuffer = NULL;
 
-    HRESULT hr = WindowsPreallocateStringBuffer(10, &strBuffer, &hStringBuffer);
+    HRESULT hr = WindowsPreallocateStringBuffer(10, &amp;strBuffer, &amp;hStringBuffer);
 
     if (SUCCEEDED(hr))
     {
         // Fill in the buffer
 
-        hr = WindowsPromoteStringBuffer(hStringBuffer, &hString);
+        hr = WindowsPromoteStringBuffer(hStringBuffer, &amp;hString);
 
         If (SUCCEEDED(hr)
         {
@@ -169,10 +173,10 @@ int main()
 	       }
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

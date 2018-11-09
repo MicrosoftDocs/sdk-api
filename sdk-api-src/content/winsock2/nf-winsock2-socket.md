@@ -7,7 +7,7 @@ old-location: winsock\socket_2.htm
 tech.root: winsock
 ms.assetid: 6bf6e6c4-6268-479c-86a6-52e90cf317db
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_socket_2, socket, socket function [Winsock], winsock.socket_2, winsock2/socket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -601,19 +601,23 @@ A socket for use with the AF_IRDA address family can only be created if the loca
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>socket</b> function to create a socket that is bound to a specific transport service provider..
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE 1
 #endif
 
 // link with Ws2_32.lib
 #pragma comment(lib,"Ws2_32.lib")
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
-#include <stdlib.h>   // Needed for _wtoi
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;   // Needed for _wtoi
 
 
 int __cdecl wmain(int argc, wchar_t **argv)
@@ -633,8 +637,8 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     // Validate the parameters
     if (argc != 4) {
-        wprintf(L"usage: %s <addressfamily> <type> <protocol>\n", argv[0]);
-        wprintf(L"socket opens a socket for the specified family, type, & protocol\n");
+        wprintf(L"usage: %s &lt;addressfamily&gt; &lt;type&gt; &lt;protocol&gt;\n", argv[0]);
+        wprintf(L"socket opens a socket for the specified family, type, &amp; protocol\n");
         wprintf(L"%ws example usage\n", argv[0]);
         wprintf(L"   %ws 0 2 17\n", argv[0]);
         wprintf(L"   where AF_UNSPEC=0 SOCK_DGRAM=2 IPPROTO_UDP=17\n", argv[0]);
@@ -646,7 +650,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
     iProtocol = _wtoi(argv[3]);
     
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -751,10 +755,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

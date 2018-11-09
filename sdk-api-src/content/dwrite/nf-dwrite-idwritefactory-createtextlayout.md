@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: f76f85df-112f-4bc3-b922-a0d7940d2954
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: CreateTextLayout, CreateTextLayout method [Direct Write], CreateTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextLayout method, IDWriteFactory.CreateTextLayout, IDWriteFactory::CreateTextLayout, directwrite.IDWriteFactory_CreateTextLayout, dwrite/IDWriteFactory::CreateTextLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

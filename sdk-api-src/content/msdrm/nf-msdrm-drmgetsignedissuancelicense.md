@@ -202,9 +202,13 @@ An issuance license must contain metadata before it can be signed. Typical metad
 
 The following code sample shows how to use the <b>DRM_REUSE_KEY</b> value for <i>uFlags</i> to specify that the content key should be reused. This functionality is available only with Windows 7.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 extern HRESULT __stdcall StatusCallback( 
                DRM_STATUS_MSG msg, 
                HRESULT hr, 
@@ -278,36 +282,36 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
     wprintf(L"\r\nEntering EditSignedIL. \r\n");
 
     // Initialize the callback context.
-    SecureZeroMemory(&context, sizeof(context));
+    SecureZeroMemory(&amp;context, sizeof(context));
 
     // Get the system time for the starting and ending times that
     // specify the validity period of the unsigned issuance license.
     // Add one year to the ending time.
-    GetSystemTime( &stTimeFrom );
-    GetSystemTime( &stTimeUntil );
+    GetSystemTime( &amp;stTimeFrom );
+    GetSystemTime( &amp;stTimeUntil );
     stTimeUntil.wYear++;
 
     // Obtain the Content Id from the Signed issuance license
     //          a. Create an issuance license handle from the signed IL
     //          b. Obtain content ID and content ID Type
     hr = DRMCreateIssuanceLicense( 
-          &stTimeFrom,                // Starting validity time
-          &stTimeUntil,               // Ending validity time
+          &amp;stTimeFrom,                // Starting validity time
+          &amp;stTimeUntil,               // Ending validity time
           NULL,                       // Not supported
           NULL,                       // Not supported
           NULL,                       // Handle to license owner
           pwszOldSignedIL,            // Existing issuance license
           NULL,                       // Bound license handle
-          &hOldIssuanceLicense);      // Handle to the license
+          &amp;hOldIssuanceLicense);      // Handle to the license
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMCreateIssuanceLicense: hOldIssuanceLicense = %i \r\n",
           hOldIssuanceLicense);
 
     hr = DRMGetMetaData(
           hOldIssuanceLicense,        // Handle to the license
-          &uiOldContentId,            // Content Id Length
+          &amp;uiOldContentId,            // Content Id Length
           NULL,                       // Content Id
-          &uiOldContentIdType,        // Content Id Type Length
+          &amp;uiOldContentIdType,        // Content Id Type Length
           NULL,                       // Content Id Type 
           NULL,                       // SKU ID Length
           NULL,                       // SKU ID 
@@ -335,9 +339,9 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
 
     hr = DRMGetMetaData(
           hOldIssuanceLicense,        // Handle to the license
-          &uiOldContentId,            // Content Id Length
+          &amp;uiOldContentId,            // Content Id Length
           pwszOldContentId,           // Content Id
-          &uiOldContentIdType,        // Content Id Type Length
+          &amp;uiOldContentIdType,        // Content Id Type Length
           pwszOldContentIdType,       // Content Id Type 
           NULL,                       // SKU ID Length
           NULL,                       // SKU ID 
@@ -368,9 +372,9 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
 
     hr = DRMCreateBoundLicense( 
         hEnv,                    // secure environment handle 
-        &bParams,                // additional license options 
+        &amp;bParams,                // additional license options 
         pwszEUL,                 // owner license 
-        &hBoundLicense,          // handle to bound license 
+        &amp;hBoundLicense,          // handle to bound license 
         NULL                     // reserved 
         ); 
     if(FAILED(hr)) goto e_Exit;
@@ -382,7 +386,7 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
         NULL,                    // right name
         NULL,                    // reserved
         NULL,                    // reserved
-        &hDecryptor              // decryptor handle 
+        &amp;hDecryptor              // decryptor handle 
         ); 
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMCreateEnablingBitsDecryptor: hDecryptor = %i \r\n",
@@ -395,8 +399,8 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
     // to be "AES"
     hr = DRMGetInfo(hDecryptor,
                     g_wszQUERY_SYMMETRICKEYTYPE,
-                    &encodingType,
-                    &cbSymmKeyType,
+                    &amp;encodingType,
+                    &amp;cbSymmKeyType,
                     NULL);
     if(FAILED(hr)) goto e_Exit;
 
@@ -410,8 +414,8 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
 
     hr = DRMGetInfo(hDecryptor,
                     g_wszQUERY_SYMMETRICKEYTYPE,
-                    &encodingType,
-                    &cbSymmKeyType,
+                    &amp;encodingType,
+                    &amp;cbSymmKeyType,
                     (BYTE*)pwszSymmKeyType);
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMGetInfo: pwszSymmKeyType = %ws \r\n",
@@ -420,21 +424,21 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
     // Create an unsigned issuance license from the passed in
     // signed issuance license.
     hr = DRMCreateIssuanceLicense( 
-          &stTimeFrom,           // Starting validity time
-          &stTimeUntil,          // Ending validity time
+          &amp;stTimeFrom,           // Starting validity time
+          &amp;stTimeUntil,          // Ending validity time
           NULL,                  // Not supported
           NULL,                  // Not supported
           NULL,                  // Handle to license owner
           pwszOldSignedIL,       // Existing issuance license
           hBoundLicense,         // Bound license: get rights 
                                  // and content key 
-          &hNewIssuanceLicense); // Handle to the new license
+          &amp;hNewIssuanceLicense); // Handle to the new license
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMCreateIssuanceLicense: hNewIssuanceLicense = %i \r\n",
           hNewIssuanceLicense);
 
     // Create a GUID to use as the unique content ID.
-    hr = CoCreateGuid(&guid);
+    hr = CoCreateGuid(&amp;guid);
     if(FAILED(hr)) goto e_Exit;
 
     pwszNewContentId = new WCHAR[GUID_LENGTH];
@@ -469,19 +473,19 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
           pwszUserID,                 // User ID or name
           NULL,                       // Verified ID
           L"Windows",                 // Type of user ID
-          &hUser );                   // Handle to the user
+          &amp;hUser );                   // Handle to the user
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMCreateUser:  hUser = %i \r\n", hUser);
 
     // Create a right.
     hr = DRMCreateRight( 
           pwszUserRight,              // Name of the right to create
-          &stTimeFrom,                // Starting validity time
-          &stTimeUntil,               // Ending validity time
+          &amp;stTimeFrom,                // Starting validity time
+          &amp;stTimeUntil,               // Ending validity time
           0,                          // No extended information
           NULL,                       // Extended information name
           NULL,                       // Extended information value
-          &hRight );                  // Handle to the created right
+          &amp;hRight );                  // Handle to the created right
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMCreateRight:  hRight = %i \r\n", hRight);
 
@@ -513,9 +517,9 @@ HRESULT EditSignedIL(DRMENVHANDLE hEnv,
           0,                     // No length specified
           pwszSymmKeyType,       // Pass in same key type as old IL
           pwszCLC,               // Client licensor certificate
-          &StatusCallback,       // Callback function
+          &amp;StatusCallback,       // Callback function
           NULL,                  // No licensing URL specified
-          (void*)&context);      // Callback context parameter
+          (void*)&amp;context);      // Callback context parameter
     if(FAILED(hr)) goto e_Exit;
     wprintf(L"DRMGetSignedIssuanceLicense succeeded. \r\n");
 
@@ -589,10 +593,10 @@ e_Exit:
     wprintf(L"Leaving EditSignedIL: hr = %x \r\n", hr);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: devinst\cm_request_eject_pc_ex.htm
 tech.root: devinst
 ms.assetid: 69bcbfa4-fb89-4b5f-bd0a-260569dfb466
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Request_Eject_PC_Ex, CM_Request_Eject_PC_Ex function [Device and Driver Installation], cfgmgr32/CM_Request_Eject_PC_Ex, cfgmgrfn_332d3bac-644d-407d-82e3-aa26af983184.xml, devinst.cm_request_eject_pc_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itbasicaudioterminal.htm
 tech.root: tapi
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
 ms.prod: windows
 ms.technology: windows-sdk

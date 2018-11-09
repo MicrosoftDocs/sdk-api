@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_Register.htm
 tech.root: shell
 ms.assetid: 4545cc34-2209-41a5-ab65-283f2985cce0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IShellWindows interface [Windows Shell],Register method, IShellWindows.Register, IShellWindows::Register, Register, Register method [Windows Shell], Register method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Register, exdisp/IShellWindows::Register, shell.IShellWindows_Register
 ms.prod: windows-hardware
 ms.technology: windows-devices

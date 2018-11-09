@@ -7,7 +7,7 @@ old-location: dwm\dwmgetcolorizationcolor.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcolorizationcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DwmGetColorizationColor, DwmGetColorizationColor function [Desktop Window Manager], _udwm_dwmgetcolorizationcolor, _udwm_dwmgetcolorizationcolor_cpp, dwm.dwmgetcolorizationcolor, dwmapi/DwmGetColorizationColor, winui._udwm_dwmgetcolorizationcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,21 +89,25 @@ The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many 
 
 The following example code shows a <a href="https://msdn.microsoft.com/en-us/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ...
 DWORD color = 0;
 BOOL opaque = FALSE;
   
-HRESULT hr = DwmGetColorizationColor(&color, &opaque);
+HRESULT hr = DwmGetColorizationColor(&amp;color, &amp;opaque);
 if (SUCCEEDED(hr))
 {
   // Update the application to use the new color.
 }
-...
-```
-
-
+...</pre>
+</td>
+</tr>
+</table></span></div>
 
 

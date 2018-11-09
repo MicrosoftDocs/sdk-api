@@ -7,7 +7,7 @@ old-location: security\icertview2_settable.htm
 tech.root: seccrypto
 ms.assetid: 76353137-75c5-46e5-82da-33d2f8e54661
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertView object [Security],SetTable method, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, ICertView interface [Security],SetTable method, ICertView2 interface [Security],SetTable method, ICertView2.SetTable, ICertView2::SetTable, ICertView::SetTable, SetTable, SetTable method [Security], SetTable method [Security],CCertView object, SetTable method [Security],ICertView interface, SetTable method [Security],ICertView2 interface, _certsrv_icertview2_settable, certview/ICertView2::SetTable, certview/ICertView::SetTable, security.icertview2_settable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,19 +142,23 @@ If the <b>SetTable</b> method is not called, then the default table  CVRC_TABLE_
 
 #### Examples
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 
 // Specify the certificate revocation list table.
-hr = pCertView2->SetTable(CVRC_TABLE_CRL);
+hr = pCertView2-&gt;SetTable(CVRC_TABLE_CRL);
 if (FAILED(hr))
 {
     printf("Failed SetTable\n");
     exit(1);  // Or other error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

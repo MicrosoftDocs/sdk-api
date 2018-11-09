@@ -257,9 +257,13 @@ SmartCard thumbprints are not supported.
 
 The following example shows how to specify a client certificate for a job using the thumbprint of the certificate. The example hard codes the thumbprint of the certificate and assumes pJob points to a valid job. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
   HRESULT hr = S_OK;
   IBackgroundCopyJob* pJob = NULL;  
   IBackgroundCopyJobHttpOptions* pHttpOptions = NULL;
@@ -267,8 +271,8 @@ The following example shows how to specify a client certificate for a job using 
 
 
   // Retrieve a pointer to the IBackgroundCopyJob4 interface.
-  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&pHttpOptions);
-  pJob->Release();
+  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
+  pJob-&gt;Release();
   if (FAILED(hr))
   {
     wprintf(L"QueryInterface for HttpOptions failed with 0x%x.\n", hr);
@@ -276,11 +280,11 @@ The following example shows how to specify a client certificate for a job using 
   }
 
   // Use the client certificate in the current user's personal (MY) store.
-  hr = pHttpOptions->SetClientCertificateByID(BG_CERT_STORE_LOCATION_CURRENT_USER, 
+  hr = pHttpOptions-&gt;SetClientCertificateByID(BG_CERT_STORE_LOCATION_CURRENT_USER, 
       L"MY", Thumbprint);
   if (FAILED(hr))
   {
-    wprintf(L"pHttpOptions->SetClientCertificateByID failed with 0x%x.\n", hr);
+    wprintf(L"pHttpOptions-&gt;SetClientCertificateByID failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -289,13 +293,13 @@ cleanup:
 
   if (pHttpOptions)
   {
-    hr = pHttpOptions->Release();
+    hr = pHttpOptions-&gt;Release();
   }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

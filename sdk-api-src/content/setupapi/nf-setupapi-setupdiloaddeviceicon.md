@@ -7,7 +7,7 @@ old-location: devinst\setupdiloaddeviceicon.htm
 tech.root: devinst
 ms.assetid: 65a47cea-1c70-46ed-9cf5-601387dbe323
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupDiLoadDeviceIcon, SetupDiLoadDeviceIcon function [Device and Driver Installation], devinst.setupdiloaddeviceicon, di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml, setupapi/SetupDiLoadDeviceIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,12 +111,16 @@ The <a href="https://msdn.microsoft.com/eafe72c3-b9d8-44c4-a8a7-45a7e0d19b4e">de
 
 The format of a resource-identifier string is
 
-
-```
-[filepath\]filename,-resourceID
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>[filepath\]filename,-resourceID</pre>
+</td>
+</tr>
+</table></span></div>
 Where:
 
 <ul>

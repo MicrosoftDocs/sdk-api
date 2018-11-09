@@ -7,7 +7,7 @@ old-location: security\icertadmin2_publishcrls.htm
 tech.root: seccrypto
 ms.assetid: 27f9e991-bf2a-47f3-8f95-b56092fed7d0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CA_CRL_BASE, CA_CRL_DELTA, CA_CRL_REPUBLISH, CCertAdmin2 object [Security],PublishCRLs method, ICertAdmin2 interface [Security],PublishCRLs method, ICertAdmin2.PublishCRLs, ICertAdmin2::PublishCRLs, PublishCRLs, PublishCRLs method [Security], PublishCRLs method [Security],CCertAdmin2 object, PublishCRLs method [Security],ICertAdmin2 interface, _certsrv_icertadmin2_publishcrls, certadm/ICertAdmin2::PublishCRLs, security.icertadmin2_publishcrls
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,29 +128,33 @@ To determine whether a CA has successfully published base and delta CRLs, call <
 
 The following example shows publishing CRLs.
 
-
-```cpp
-    DATE ExpDate;  // CRL expiration date.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DATE ExpDate;  // CRL expiration date.
     SYSTEMTIME st;
     BSTR bstrCA = NULL;
 
     //  Set the CRL expiration date to noon, July 1, 2001.
     //  Zero out values first (avoids setting minutes,
     //  seconds, and so on).
-    memset(&st, 0, sizeof(SYSTEMTIME));
+    memset(&amp;st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2001;
     st.wMonth = 7;     // July
     st.wDay = 1;       // first day of month
     st.wHour = 12;     // noon
 
     //  Place the date in required format.
-    if (!SystemTimeToVariantTime(&st, &ExpDate))
+    if (!SystemTimeToVariantTime(&amp;st, &amp;ExpDate))
     {
         printf("Unable to convert time\n");
         goto error;
     }
 
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -159,7 +163,7 @@ The following example shows publishing CRLs.
 
     //  Publish the CRL.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin2->PublishCRLs(bstrCA,
+    hr = pCertAdmin2-&gt;PublishCRLs(bstrCA,
                               ExpDate,
                               CA_CRL_BASE);
     if (FAILED(hr))
@@ -175,9 +179,9 @@ error:
 
     //  Free resources.
     if (bstrCA)
-        SysFreeString(bstrCA);
-```
-
-
+        SysFreeString(bstrCA);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

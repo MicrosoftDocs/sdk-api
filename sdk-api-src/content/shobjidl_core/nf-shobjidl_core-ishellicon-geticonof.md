@@ -7,7 +7,7 @@ old-location: shell\IShellIcon_GetIconOf.htm
 tech.root: shell
 ms.assetid: 42ab02bf-7b94-447d-9a09-d1f4a47bef5d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 0, 1, 2, 3, 4, GIL_FORSHELL, GIL_OPENICON, GetIconOf, GetIconOf method [Windows Shell], GetIconOf method [Windows Shell],IShellIcon interface, IShellIcon interface [Windows Shell],GetIconOf method, IShellIcon.GetIconOf, IShellIcon::GetIconOf, _win32_IShellIcon_GetIconOf, shell.IShellIcon_GetIconOf, shobjidl_core/IShellIcon::GetIconOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -89,16 +89,12 @@ If you pass the address of a pen to one of the draw methods of a
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object with the color red and a width of 4.0.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Pen pen(Color(255,255,0,0), 4.0f); </pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+Pen pen(Color(255,255,0,0), 4.0f); 
+```
+
+
 
 
 

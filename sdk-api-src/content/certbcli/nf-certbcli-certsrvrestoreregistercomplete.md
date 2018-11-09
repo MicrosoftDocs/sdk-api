@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregistercomplete.htm
 tech.root: seccrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,13 @@ If a registered restore operation is not completed, Certificate Services will no
 
 #### Examples
 
-
-```cpp
-FNCERTSRVRESTOREREGISTERCOMPLETE* pfnRestRegComplete;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVRESTOREREGISTERCOMPLETE* pfnRestRegComplete;
 char * szResRegCompleteFunc = "CertSrvRestoreRegisterComplete";
 HRESULT    hr=0;
 
@@ -113,10 +117,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnRestRegComplete call [%x]\n", hr);
     exit(1); // Or other appropriate error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

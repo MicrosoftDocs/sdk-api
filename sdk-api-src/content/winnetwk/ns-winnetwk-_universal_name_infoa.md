@@ -7,7 +7,7 @@ old-location: security\universal_name_info.htm
 tech.root: secauthn
 ms.assetid: 505bcd3e-4043-4856-9a6f-a6f074dc6076
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPUNIVERSAL_NAME_INFOA, LPUNIVERSAL_NAME_INFO, LPUNIVERSAL_NAME_INFO structure pointer [Security], UNIVERSAL_NAME_INFO, UNIVERSAL_NAME_INFO structure [Security], UNIVERSAL_NAME_INFOA, UNIVERSAL_NAME_INFOW, _UNIVERSAL_NAME_INFOA, _mnp_universal_name_info, security.universal_name_info, winnetwk/LPUNIVERSAL_NAME_INFO, winnetwk/UNIVERSAL_NAME_INFO, winnetwk/UNIVERSAL_NAME_INFOA, winnetwk/UNIVERSAL_NAME_INFOW"
 ms.prod: windows
 ms.technology: windows-sdk

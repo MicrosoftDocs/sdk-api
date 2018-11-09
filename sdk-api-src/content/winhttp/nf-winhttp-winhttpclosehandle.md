@@ -161,9 +161,13 @@ An application should never <b>WinHttpCloseHandle</b> call  on a synchronous req
 The following example shows you how to  retrieve the connection 
                 time-out value:
 
-
-```cpp
-    DWORD data;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DWORD data;
     DWORD dwSize = sizeof(DWORD);
 
     // Use WinHttpOpen to obtain an HINTERNET handle.
@@ -178,7 +182,7 @@ The following example shows you how to  retrieve the connection
         // Use WinHttpQueryOption to retrieve internet options.
         if (WinHttpQueryOption( hSession, 
                                 WINHTTP_OPTION_CONNECT_TIMEOUT, 
-                                &data, &dwSize))
+                                &amp;data, &amp;dwSize))
         {
             printf("Connection timeout: %u ms\n\n",data);
         }
@@ -195,10 +199,10 @@ The following example shows you how to  retrieve the connection
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

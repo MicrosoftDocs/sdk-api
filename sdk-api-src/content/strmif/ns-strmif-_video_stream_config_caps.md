@@ -7,7 +7,7 @@ old-location: dshow\video_stream_config_caps.htm
 tech.root: DirectShow
 ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFIG_CAPS structure [DirectShow], VIDEO_STREAM_CONFIG_CAPSStructure, _VIDEO_STREAM_CONFIG_CAPS, dshow.video_stream_config_caps, strmif/VIDEO_STREAM_CONFIG_CAPS
 ms.prod: windows
 ms.technology: windows-sdk

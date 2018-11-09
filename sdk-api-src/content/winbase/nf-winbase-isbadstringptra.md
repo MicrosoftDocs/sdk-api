@@ -7,7 +7,7 @@ old-location: base\isbadstringptr.htm
 tech.root: memory
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IsBadStringPtr, IsBadStringPtr function, IsBadStringPtrA, IsBadStringPtrW, _win32_isbadstringptr, base.isbadstringptr, winbase/IsBadStringPtr, winbase/IsBadStringPtrA, winbase/IsBadStringPtrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

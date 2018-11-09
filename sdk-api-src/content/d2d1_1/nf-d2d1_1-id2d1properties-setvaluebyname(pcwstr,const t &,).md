@@ -68,7 +68,7 @@ The name of the property to set.
 The data to set.  The method will convert this type to a BYTE* before setting it as the property value.
 
 
-### -param arg1
+### -param arg3
 
 TBD
 

@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamopen.htm
 tech.root: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen"
 ms.prod: windows-hardware
 ms.technology: windows-devices

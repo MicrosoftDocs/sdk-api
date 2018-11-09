@@ -72,7 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/c38bfcc0-c696-41cc-9531-7c8f15c0b51
 When this method returns, contains the address of a pointer to the sub-properties.
 
 
-### -param arg1
+### -param arg3
 
 TBD
 

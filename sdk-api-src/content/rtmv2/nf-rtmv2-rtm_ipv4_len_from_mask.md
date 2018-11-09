@@ -77,14 +77,18 @@ For example, if a client supplies the <i>Mask</i> 255.255.255.255, the <i>Len</i
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_CHECK_NTH_BIT(Value, N, Len)                           \
-        if ((Value) & (1 << (N)))                                  \
+        if ((Value) &amp; (1 &lt;&lt; (N)))                                  \
         {                                                          \
-            (Len) += (N); (Value) <<= (N);                         \
+            (Len) += (N); (Value) &lt;&lt;= (N);                         \
         }
 
 #define RTM_IPV4_LEN_FROM_MASK(Len, Mask)                   \
@@ -96,13 +100,13 @@ The macro is defined as follows:
             RTM_CHECK_NTH_BIT(_Temp_,  4, (Len));           \
             while (_Temp_)                                  \
             {                                               \
-                (Len) +=  1; _Temp_ <<=  1;                 \
+                (Len) +=  1; _Temp_ &lt;&lt;=  1;                 \
             }                                               \
         }                                                    \
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -133,21 +133,25 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold an Int16 vector value.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is expecting propvar to contain a vector of Int16 values.
 SHORT *prgShorts;
 ULONG cElems;
-HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, & prgShorts, &cElems);
+HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, &amp; prgShorts, &amp;cElems);
 if (SUCCEEDED(hr))
 {
      // prgShorts now points to a vector of cElems SHORTs.
      CoTaskMemFree(prgShorts);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

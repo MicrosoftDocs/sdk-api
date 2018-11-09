@@ -7,7 +7,7 @@ old-location: automat\bstr_userfree64.htm
 tech.root: automat
 ms.assetid: 40ef9c34-243d-49f1-a51f-db9c9f887b55
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: BSTR_UserFree64, BSTR_UserFree64 function [Automation], automat.bstr_userfree64, oaidl/BSTR_UserFree64
 ms.prod: windows-hardware
 ms.technology: windows-devices

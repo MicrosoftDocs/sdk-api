@@ -7,7 +7,7 @@ old-location: wds\pxeproviderregister.htm
 tech.root: wds
 ms.assetid: 2b377855-dae7-47cb-925a-9ee0a9265f83
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

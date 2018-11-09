@@ -7,7 +7,7 @@ old-location: com\icallframe_invoke.htm
 tech.root: com
 ms.assetid: 75cb7b96-55c9-4aee-b507-a549e2af38bc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ICallFrame interface [COM],Invoke method, ICallFrame.Invoke, ICallFrame::Invoke, Invoke, Invoke method [COM], Invoke method [COM],ICallFrame interface, _com_icallframe_invoke, callobj/ICallFrame::Invoke, com.icallframe_invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ In a marshalling situation, typically this is carried out on the server side, an
 The interface on which the invocation is to occur. The caller is responsible for ensuring that this interface is of the appropriate IID; the implementation will simply do a cast and assume that is the case.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

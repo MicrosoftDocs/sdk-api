@@ -100,13 +100,9 @@ The <b>GraphicsPath::AddPolygon</b> method is similar to the <b>AddLines</b> met
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object <i>path</i>, adds a polygon to <i>path</i>, and then draws <i>path</i>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_AddPolygon(HDC hdc)
+
+```cpp
+VOID Example_AddPolygon(HDC hdc)
 {
    Graphics graphics(hdc); 
  
@@ -119,11 +115,11 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
 
    // Draw the path.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&amp;pen, &amp;path);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPath(&pen, &path);
+}
+```
+
+
 
 
 

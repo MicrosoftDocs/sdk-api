@@ -150,16 +150,20 @@ If the  <i>SessionHandle</i> parameter refers to the system sensor pool, the cal
 
 The following code example enrolls a fingerprint asynchronously by calling <b>WinBioEnrollCaptureWithCallback</b> and passing a pointer to a custom callback function. The callback function, EnrollCaptureCallback, is also shown. Link to the Winbio.lib static library.
 
-
-```cpp
-//------------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//------------------------------------------------------------------------
 // EnrollSystemPoolWithCallback.cpp : console application entry point.
 //
 
-#include <windows.h>
-#include <stdio.h>
-#include <conio.h>
-#include <winbio.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;winbio.h&gt;
 
 
 //------------------------------------------------------------------------
@@ -220,7 +224,7 @@ HRESULT EnrollSysPoolWithCallback(
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -231,7 +235,7 @@ HRESULT EnrollSysPoolWithCallback(
 
     // Locate the sensor.
     wprintf_s(L"\n Swipe your finger to locate the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &unitId);
+    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -260,7 +264,7 @@ HRESULT EnrollSysPoolWithCallback(
     hr = WinBioEnrollCaptureWithCallback(
             sessionHandle,          // Handle to open biometric session
             EnrollCaptureCallback,  // Callback function
-            &callbackContext        // Pointer to the custom context
+            &amp;callbackContext        // Pointer to the custom context
             );
     if (FAILED(hr))
     {
@@ -311,8 +315,8 @@ HRESULT EnrollSysPoolWithCallback(
         wprintf_s(L"\n Committing enrollment...\n");
         hr = WinBioEnrollCommit( 
                 sessionHandle,      // Handle to open biometric session
-                &identity,          // WINBIO_IDENTITY object for the user
-                &isNewTemplate);    // Is this a new template
+                &amp;identity,          // WINBIO_IDENTITY object for the user
+                &amp;isNewTemplate);    // Is this a new template
 
         if (FAILED(hr))
         {
@@ -365,7 +369,7 @@ VOID CALLBACK EnrollCaptureCallback(
 
             // Try again.
             hr = WinBioEnrollCaptureWithCallback(
-                    callbackContext->SessionHandle, // Open session handle
+                    callbackContext-&gt;SessionHandle, // Open session handle
                     EnrollCaptureCallback,          // Callback function
                     EnrollCallbackContext           // Callback context
                     );
@@ -392,7 +396,7 @@ VOID CALLBACK EnrollCaptureCallback(
         wprintf_s(L"\n Swipe your finger on the sensor again.");
 
         hr = WinBioEnrollCaptureWithCallback(
-                callbackContext->SessionHandle,
+                callbackContext-&gt;SessionHandle,
                 EnrollCaptureCallback,
                 EnrollCallbackContext
                 );
@@ -411,10 +415,10 @@ e_Exit:
     return;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

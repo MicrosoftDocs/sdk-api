@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession_close.htm
 tech.root: medfound
 ms.assetid: 587D281D-0488-470B-9E20-AE6DE70F33DC
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadSession interface, IMFHttpDownloadSession interface [Media Foundation],Close method, IMFHttpDownloadSession.Close, IMFHttpDownloadSession::Close, mf.imfhttpdownloadsession_close, mfidl/IMFHttpDownloadSession::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -92,9 +92,13 @@ This method adds the ACE to the front of the ACL, which does not necessarily res
 
 The following Visual Basic code example shows how to use the <b>IADsAccessControlList::AddAce</b> method to add two ACEs to an ACL.
 
-
-```vb
-Const ACL_REVISION_DS = &H4
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const ACL_REVISION_DS = &amp;H4
 
 Dim x as IADs
 Dim sd as IADsSecurityDescriptor
@@ -131,30 +135,34 @@ x.Put "ntSecurityDescriptor", Array(sd)
 x.SetInfo
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set Ace1 = Nothing
     Set Ace2 = Nothing
     Set Dacl = Nothing
     Set x = Nothing
     Set sd = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example adds an ACE to an ACL using the <b>IADsAccessControlList::AddAce</b> method. The added ACE has allowed access rights with the full permission.
 
-
-```cpp
-HRESULT addAceTo(IADsAccessControlList *pAcl)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT addAceTo(IADsAccessControlList *pAcl)
 {
     if(!pAcl) 
     {
         return E_FAIL;
     }
 
-    HRESULT hr = pAcl->put_AclRevision(ACL_REVISION_DS);
+    HRESULT hr = pAcl-&gt;put_AclRevision(ACL_REVISION_DS);
     if(FAILED(hr)) 
     {
         return hr;
@@ -172,16 +180,16 @@ HRESULT addAceTo(IADsAccessControlList *pAcl)
     }
 
     IDispatch *pDisp;
-    hr = pAce->QueryInterface(IID_IDispatch,(void**)&pDisp);
+    hr = pAce-&gt;QueryInterface(IID_IDispatch,(void**)&amp;pDisp);
     if(FAILED(hr)) 
     {
-        pAce->Release();
+        pAce-&gt;Release();
         return hr;
     }
 
-    hr = pAcl->AddAce(pDisp);
-    pDisp->Release();
-    if(pAce) pAce->Release();
+    hr = pAcl-&gt;AddAce(pDisp);
+    pDisp-&gt;Release();
+    if(pAce) pAce-&gt;Release();
     if(FAILED(hr)) 
     {
         return hr;
@@ -207,27 +215,27 @@ IADsAccessControlEntry *createAce(
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IADsAccessControlEntry,
-                          (void**)&pAce);
+                          (void**)&amp;pAce);
     if(FAILED(hr)) 
     {
         if(pAce) 
         {
-            pAce->Release();
+            pAce-&gt;Release();
         }
 
         return NULL;
     }
 
-    hr = pAce->put_AccessMask(mask); 
-    hr = pAce->put_AceType(type);
-    hr = pAce->put_AceFlags(flag);
-    hr = pAce->put_Trustee(trustee); 
+    hr = pAce-&gt;put_AccessMask(mask); 
+    hr = pAce-&gt;put_AceType(type);
+    hr = pAce-&gt;put_AceFlags(flag);
+    hr = pAce-&gt;put_Trustee(trustee); 
 
     return pAce;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

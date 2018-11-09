@@ -97,18 +97,22 @@ The following example creates an
 						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <b>Image::GetPropertyItemSize</b> method of that 
 						<b>Image</b> object to get the size of the property item that holds the make of the camera used to capture the image. Then the code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535390(v=VS.85).aspx">Image::GetPropertyItem</a> method to retrieve that property item.
 
-
-```cpp
-#include <windows.h>
-#include <gdiplus.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;gdiplus.h&gt;
+#include &lt;stdio.h&gt;
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
+   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
 
    UINT size = 0;
    PropertyItem* propertyItem = NULL;
@@ -116,39 +120,43 @@ INT main()
 
    // Assume that the image has a property item of type PropertyItemEquipMake.
    // Get the size of that property item.
-   size = image->GetPropertyItemSize(PropertyTagEquipMake);
+   size = image-&gt;GetPropertyItemSize(PropertyTagEquipMake);
 
    // Allocate a buffer to receive the property item.
    propertyItem = (PropertyItem*)malloc(size);
 
    // Get the property item.
-   image->GetPropertyItem(PropertyTagEquipMake, size, propertyItem);
+   image-&gt;GetPropertyItem(PropertyTagEquipMake, size, propertyItem);
 
    // Display the members of the retrieved PropertyItem object.
-   printf("The length of the property item is %u.\n", propertyItem->length);
-   printf("The data type of the property item is %u.\n", propertyItem->type);
+   printf("The length of the property item is %u.\n", propertyItem-&gt;length);
+   printf("The data type of the property item is %u.\n", propertyItem-&gt;type);
 
-   if(propertyItem->type == PropertyTagTypeASCII)
-      printf("The value of the property item is %s.\n", propertyItem->value);
+   if(propertyItem-&gt;type == PropertyTagTypeASCII)
+      printf("The value of the property item is %s.\n", propertyItem-&gt;value);
 
    free(propertyItem);
    delete image;
    GdiplusShutdown(gdiplusToken);
    return 0;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The preceding code, along with a particular file, FakePhoto.jpg, produced the following output. Note that the data type is 2, which is the value of the PropertyTagTypeASCII constant that is defined in Gdiplusimaging.h.
 
-
-```cpp
-The length of the property item is 17.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>The length of the property item is 17.
 The data type of the property item is 2.
-The value of the property item is Northwind Traders.
-```
-
-
+The value of the property item is Northwind Traders.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

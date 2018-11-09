@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getparamprops.htm
 tech.root: WinRT
 ms.assetid: 76de324f-f371-4fac-ab0a-b7f359dd3abd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamProps method, IMetaDataImport.GetParamProps, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

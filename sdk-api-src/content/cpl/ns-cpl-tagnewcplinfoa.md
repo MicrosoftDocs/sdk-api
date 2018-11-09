@@ -7,7 +7,7 @@ old-location: shell\NEWCPLINFO.htm
 tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO, tagNEWCPLINFOA"
 ms.prod: windows
 ms.technology: windows-sdk

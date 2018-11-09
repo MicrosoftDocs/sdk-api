@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreprepare.htm
 tech.root: seccrypto
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,9 +117,13 @@ To execute this call, you must have the restore <a href="https://msdn.microsoft.
 
 #### Examples
 
-
-```cpp
-FNCERTSRVRESTOREPREPAREW*  pfnRestorePrepare;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVRESTOREPREPAREW*  pfnRestorePrepare;
 char * szRestorePrepFunc = "CertSrvRestorePrepareW";
 HCSBC      hCSBC=NULL;
 HINSTANCE  hInst=0;
@@ -148,7 +152,7 @@ if ( NULL == pfnRestorePrepare )
 // Prepare CertServ for restoration.
 hr = pfnRestorePrepare(wszServer,
                        CSRESTORE_TYPE_FULL,
-                       &hCSBC);
+                       &amp;hCSBC);
 
 if (FAILED(hr))
 {
@@ -166,10 +170,10 @@ if (FAILED(hr))
 
 // Free the DLL.
 if (hInst)
-    FreeLibrary(hInst);
-```
-
-
+    FreeLibrary(hInst);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

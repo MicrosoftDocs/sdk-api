@@ -97,9 +97,13 @@ A
 
 The following example creates a linear gradient brush and sets its transformation matrix. Next, the code gets the brush's transformation matrix and proceeds to inspect or use the matrix elements.
 
-
-```cpp
-VOID Example_GetTransform(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetTransform(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -112,23 +116,23 @@ VOID Example_GetTransform(HDC hdc)
 
    Matrix matrixSet(0, 1, -1, 0, 0, 0);
 
-   linGrBrush.SetTransform(&matrixSet);
+   linGrBrush.SetTransform(&amp;matrixSet);
 
    // Obtain information about the linear gradient brush.
    Matrix matrixGet;
    REAL   elements[6];
 
-   linGrBrush.GetTransform(&matrixGet);
+   linGrBrush.GetTransform(&amp;matrixGet);
    matrixGet.GetElements(elements);  
 
-   for(INT j = 0; j <= 5; ++j)
+   for(INT j = 0; j &lt;= 5; ++j)
    {
        // Inspect or use the value in elements[j].
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: tapi2\lineagentsessionlist_str.htm
 tech.root: tapi
 ms.assetid: b14df70c-1630-46e7-a675-feb5c71dcd14
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPLINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST structure [TAPI 2.2], LPLINEAGENTSESSIONLIST, LPLINEAGENTSESSIONLIST structure pointer [TAPI 2.2], _tapi2_lineagentsessionlist_str, lineagentsessionlist_tag, tapi/LINEAGENTSESSIONLIST, tapi/LPLINEAGENTSESSIONLIST, tapi2.lineagentsessionlist_str"
 ms.prod: windows
 ms.technology: windows-sdk

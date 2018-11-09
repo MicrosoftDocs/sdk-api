@@ -7,7 +7,7 @@ old-location: controls\TVITEMEX.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitemex.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPTVITEMEXA, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEMEX, LPTVITEMEX structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_EXPANDEDIMAGE, TVIF_HANDLE, TVIF_IMAGE, TVIF_INTEGRAL, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_STATEEX, TVIF_TEXT, TVIS_EX_DISABLED, TVIS_EX_FLAT, TVIS_EX_HWND, TVITEMEX, TVITEMEX structure [Windows Controls], TVITEMEXA, TVITEMEXW, _win32_TVITEMEX, _win32_TVITEMEX_cpp, commctrl/LPTVITEMEX, commctrl/TVITEMEX, commctrl/TVITEMEXA, commctrl/TVITEMEXW, controls.TVITEMEX, controls._win32_TVITEMEX, one, tagTVITEMEXA, zero"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -300,12 +300,16 @@ The parent window keeps track of whether the item has child items. In this case,
 
 
 <div class="alert"><b>Note</b>  This flag may not be supported in future versions of Comctl32.dll. Also, this flag is not defined in commctrl.h. Add the following definition to the source files of your application to use the flag: 
-
-```
-#define I_CHILDRENAUTO (-2)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define I_CHILDRENAUTO (-2)</pre>
+</td>
+</tr>
+</table></span></div>
 </div>
 <div> </div>
 </td>

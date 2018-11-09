@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenser_openscope.htm
 tech.root: WinRT
 ms.assetid: 77ba5ee6-082c-478f-83fc-7f6c31ee3c74
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

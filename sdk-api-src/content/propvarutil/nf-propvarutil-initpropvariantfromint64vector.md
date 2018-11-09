@@ -101,22 +101,26 @@ Creates a VT_VECTOR | VT_I8 propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762302(v=VS.85).aspx">InitPropVariantFromInt64Vector</a>.
 
-
-```cpp
-LONGLONG rgLongLongs[] = {4, 7};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONGLONG rgLongLongs[] = {4, 7};
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromInt64Vector(rgLongLongs, ARRAYSIZE(rgLongLongs), &propvar);
+HRESULT hr = InitPropVariantFromInt64Vector(rgLongLongs, ARRAYSIZE(rgLongLongs), &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_I8.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

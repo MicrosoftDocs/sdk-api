@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_skip.htm
 tech.root: seccrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTVIEWATTRIBUTE object [Security],Skip method, IEnumCERTVIEWATTRIBUTE.Skip, IEnumCERTVIEWATTRIBUTE::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWATTRIBUTE interface, Skip method [Security],IEnumCERTVIEWATTRIBUTE object, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWATTRIBUTE::Skip, security.ienumcertviewattribute_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,26 +103,30 @@ If a positive value of the <i>celt</i> parameter causes the  index to exceed the
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     Index;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
 // skip the next 5 attributes
-hr = pEnumAttr->Skip(5);
+hr = pEnumAttr-&gt;Skip(5);
 if (S_OK == hr)
 {
     // get the next attribute
-    hr = pEnumAttr->Next(&Index);
+    hr = pEnumAttr-&gt;Next(&amp;Index);
     if (S_OK == hr)
     {
         // Use this attribute as needed.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

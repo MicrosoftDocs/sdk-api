@@ -74,14 +74,18 @@ The macro definition.
 
 You can use shader macros in your shaders. The <b>D3D_SHADER_MACRO</b> structure defines a single shader macro as shown in the following example:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 D3D_SHADER_MACRO Shader_Macros[] = { "zero", "0", NULL, NULL };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following shader or effect creation functions take an array of shader macros as an input parameter:
 
 <ul>

@@ -7,7 +7,7 @@ old-location: controls\ListView_CreateDragImage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_createdragimage.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_CreateDragImage, ListView_CreateDragImage macro [Windows Controls], _win32_ListView_CreateDragImage, _win32_ListView_CreateDragImage_cpp, commctrl/ListView_CreateDragImage, controls.ListView_CreateDragImage, controls._win32_ListView_CreateDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

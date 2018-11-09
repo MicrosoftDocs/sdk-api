@@ -7,7 +7,7 @@ old-location: winsock\wsanetworkevents_2.htm
 tech.root: winsock
 ms.assetid: 72ae4aa8-4e15-4215-8dcb-45e394ac1313
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPWSANETWORKEVENTS, LPWSANETWORKEVENTS, LPWSANETWORKEVENTS structure pointer [Winsock], WSANETWORKEVENTS, WSANETWORKEVENTS structure [Winsock], _WSANETWORKEVENTS, _win32_wsanetworkevents_2, winsock.wsanetworkevents_2, winsock2/LPWSANETWORKEVENTS, winsock2/WSANETWORKEVENTS"
 ms.prod: windows
 ms.technology: windows-sdk

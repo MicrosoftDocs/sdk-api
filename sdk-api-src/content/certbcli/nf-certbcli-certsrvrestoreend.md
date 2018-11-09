@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreend.htm
 tech.root: seccrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,9 +83,13 @@ When a restore is complete, it is important that you make a new full backup of t
 
 #### Examples
 
-
-```cpp
-FNCERTSRVRESTOREEND*  pfnRestoreEnd;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVRESTOREEND*  pfnRestoreEnd;
 char * szRestoreEndFunc = "CertSrvRestoreEnd";
 HRESULT    hr=0;
 	
@@ -109,10 +113,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnRestoreEnd call [%x]\n", hr);
     exit(1); // Or other appropriate error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

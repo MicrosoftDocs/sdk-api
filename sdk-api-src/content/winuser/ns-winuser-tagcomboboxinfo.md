@@ -7,7 +7,7 @@ old-location: controls\COMBOBOXINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\comboboxinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPCOMBOBOXINFO, *PCOMBOBOXINFO, COMBOBOXINFO, COMBOBOXINFO structure [Windows Controls], LPCOMBOBOXINFO, LPCOMBOBOXINFO structure pointer [Windows Controls], PCOMBOBOXINFO, PCOMBOBOXINFO structure pointer [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_PRESSED, _win32_COMBOBOXINFO_str, _win32_COMBOBOXINFO_str_cpp, controls.COMBOBOXINFO, controls._win32_COMBOBOXINFO_str, tagCOMBOBOXINFO, winuser/COMBOBOXINFO, winuser/LPCOMBOBOXINFO, winuser/PCOMBOBOXINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,14 +152,18 @@ A handle to the drop-down list.
 
 The following example code retrieves information about the combo box specified by the window handle.
 
-
-```
-COMBOBOXINFO info = { sizeof(COMBOBOXINFO) };
-GetComboBoxInfo(hwnd, &info);
-
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>COMBOBOXINFO info = { sizeof(COMBOBOXINFO) };
+GetComboBoxInfo(hwnd, &amp;info);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

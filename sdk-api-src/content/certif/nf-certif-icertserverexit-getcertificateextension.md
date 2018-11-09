@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getcertificateextension.htm
 tech.root: seccrypto
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerExit object, GetCertificateExtension method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtension method, ICertServerExit.GetCertificateExtension, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,18 +149,22 @@ You must call
 
 #### Examples
 
-
-```cpp
-VARIANT  varExt;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VARIANT  varExt;
 HRESULT  hr;
 
-VariantInit(&varExt);
+VariantInit(&amp;varExt);
 // Get the Extension value
 // bstrExtName is BSTR assigned by EnumerateExtensions.
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit->GetCertificateExtension(bstrExtName,
+hr = pCertServerExit-&gt;GetCertificateExtension(bstrExtName,
                                               PROPTYPE_BINARY,
-                                              &varExt);
+                                              &amp;varExt);
 
 if (FAILED(hr))
 {
@@ -171,10 +175,10 @@ if (FAILED(hr))
 // ...
 
 // When done, clear the Variant
-VariantClear(&varExt);
-```
-
-
+VariantClear(&amp;varExt);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

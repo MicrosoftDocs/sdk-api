@@ -84,26 +84,30 @@ When creating multiple cabinets, typically the <i>iCab</i> field is used to crea
 
 #### Examples
 
-
-```cpp
-FNFCIGETNEXTCABINET(fnGetNextCabinet)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIGETNEXTCABINET(fnGetNextCabinet)
 {
     HRESULT hr;
 
     UNREFERENCED_PARAMETER(pv);
     UNREFERENCED_PARAMETER(cbPrevCab);
     
-    hr = StringCchPrintfA(pccab->szCab,
-                          ARRAYSIZE(pccab->szCab),
+    hr = StringCchPrintfA(pccab-&gt;szCab,
+                          ARRAYSIZE(pccab-&gt;szCab),
                           "FCISample%02d.cab",
-                          pccab->iCab);
+                          pccab-&gt;iCab);
         
     return ( SUCCEEDED(hr) );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

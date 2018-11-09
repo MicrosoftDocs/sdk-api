@@ -7,7 +7,7 @@ old-location: dxmath\xmhalf2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMHALF2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: XMHALF2, XMHALF2 structure [DirectX Math Support APIs], directxpackedvector/XMHALF2, dxmath.xmhalf2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,14 +94,18 @@ The definition of the <code>HALF</code> type used under DirectXMath is consisten
 	    mantissa:
 	
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
                     [15] SEEEEEMMMMMMMMMM [0]
-	
-```
-
-
+	</pre>
+</td>
+</tr>
+</table></span></div>
 <code>XMHALF2</code>can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using <a href="https://msdn.microsoft.com/d12a9d56-07dd-4a1b-a0b7-46026e82e63d">XMLoadHalf2</a>.
 	
 

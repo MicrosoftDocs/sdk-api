@@ -7,7 +7,7 @@ old-location: wcs\iscolorprofiletagpresent.htm
 tech.root: WCS
 ms.assetid: 6cd5fed1-37ee-47b0-991b-f843b3028b17
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: IsColorProfileTagPresent, IsColorProfileTagPresent function [Windows Color System], _color_IsColorProfileTagPresent, icm/IsColorProfileTagPresent, wcs.iscolorprofiletagpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices

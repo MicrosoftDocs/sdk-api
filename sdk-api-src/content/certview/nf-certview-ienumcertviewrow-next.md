@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_next.htm
 tech.root: seccrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW.Next, IEnumCERTVIEWROW::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWROW interface, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,27 +102,31 @@ Looping through all the  rows in the enumeration sequence can be resource-intens
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 LONG  Index;
 LONG  nCount;
 
 // Ensure enumerator is at first row.
-if (FAILED(pEnumRow->Reset()))
+if (FAILED(pEnumRow-&gt;Reset()))
     printf("Failed to Reset\n");
 else
 {
     nCount = 0;
     // Count the database records by enumerating the rows.
-    while (S_OK == pEnumRow->Next(&Index))
+    while (S_OK == pEnumRow-&gt;Next(&amp;Index))
         nCount++;
     // Display number of records.
     printf("Number of records is %d\n", nCount);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

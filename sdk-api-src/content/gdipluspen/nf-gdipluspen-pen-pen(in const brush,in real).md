@@ -89,17 +89,13 @@ If you pass the address of a pen to one of the draw methods of a
 
 The following example creates a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object and then creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object based on the <b>Brush</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SolidBrush sBrush(Color(255,255,0,0));
-Pen pen(&amp;sBrush, 4.0f);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+SolidBrush sBrush(Color(255,255,0,0));
+Pen pen(&sBrush, 4.0f);
+```
+
+
 
 
 

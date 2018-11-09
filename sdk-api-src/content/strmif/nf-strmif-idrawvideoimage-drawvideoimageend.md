@@ -7,7 +7,7 @@ old-location: dshow\idrawvideoimage_drawvideoimageend.htm
 tech.root: DirectShow
 ms.assetid: 051fa283-849d-494c-bebf-d7adabb807a0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DrawVideoImageEnd, DrawVideoImageEnd method [DirectShow], DrawVideoImageEnd method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageEnd method, IDrawVideoImage.DrawVideoImageEnd, IDrawVideoImage::DrawVideoImageEnd, IDrawVideoImageDrawVideoImageEnd, dshow.idrawvideoimage_drawvideoimageend, strmif/IDrawVideoImage::DrawVideoImageEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

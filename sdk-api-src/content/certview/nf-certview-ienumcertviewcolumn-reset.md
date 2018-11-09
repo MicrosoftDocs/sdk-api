@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_reset.htm
 tech.root: seccrypto
 ms.assetid: 0be00eb0-1a22-4849-95ca-276099bbfa74
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Reset method, IEnumCERTVIEWCOLUMN object [Security],Reset method, IEnumCERTVIEWCOLUMN.Reset, IEnumCERTVIEWCOLUMN::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWCOLUMN interface, Reset method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_reset, certview/IEnumCERTVIEWCOLUMN::Reset, security.ienumcertviewcolumn_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,12 +95,16 @@ Upon successful completion of this method, call the
 
 #### Examples
 
-
-```cpp
-// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 HRESULT    hr;
 LONG        Index;
-hr = pEnumCol->Reset();
+hr = pEnumCol-&gt;Reset();
 if (S_OK != hr)
     printf("Unable to reset pEnumCol\n");
     // call appropriate error handler / exit routine
@@ -108,14 +112,14 @@ else
 {
     // now at the beginning of the columns
     // enumerate each column
-    while (S_OK == pEnumCol->Next(&Index))
+    while (S_OK == pEnumCol-&gt;Next(&amp;Index))
     {
         // Use each column as needed.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

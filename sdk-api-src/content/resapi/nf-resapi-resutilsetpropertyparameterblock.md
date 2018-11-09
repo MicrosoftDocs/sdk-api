@@ -7,7 +7,7 @@ old-location: mscs\resutilsetpropertyparameterblock.htm
 tech.root: mscs
 ms.assetid: a8d4162b-fe4e-4915-8102-744d964a6c83
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK function [Failover Cluster], ResUtilSetPropertyParameterBlock, ResUtilSetPropertyParameterBlock function [Failover Cluster], _wolf_resutilsetpropertyparameterblock, mscs.resutilsetpropertyparameterblock, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK, resapi/ResUtilSetPropertyParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cert_general_subtree.htm
 tech.root: seccrypto
 ms.assetid: 991e277c-46f5-4987-ab48-0d1c1442273f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: "*PCERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE structure [Security], PCERT_GENERAL_SUBTREE, PCERT_GENERAL_SUBTREE structure pointer [Security], _CERT_GENERAL_SUBTREE, _crypto2_cert_general_subtree, security.cert_general_subtree, wincrypt/CERT_GENERAL_SUBTREE, wincrypt/PCERT_GENERAL_SUBTREE"
 ms.prod: windows
 ms.technology: windows-sdk

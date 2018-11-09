@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresettings_setoutputfilenametemplate.htm
 tech.root: acquisition
 ms.assetid: 28eaeee4-05eb-4d51-9e21-937481bc7703
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetOutputFilenameTemplate method, IPhotoAcquireSettings.SetOutputFilenameTemplate, IPhotoAcquireSettings::SetOutputFilenameTemplate, IPhotoAcquireSettingsSetOutputFilenameTemplate, SetOutputFilenameTemplate, SetOutputFilenameTemplate method [Picture Acquisition], SetOutputFilenameTemplate method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate, picacq.iphotoacquiresettings_setoutputfilenametemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,24 +101,32 @@ The method succeeded.
 
 Format strings contain a mix of path literals and tokens. A format string looks like the following:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 $(MyPicturesFolder)\$(DateAcquired), $(EventName)\$(EventName) $(SequenceNumber).$(OriginalExtension)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The token format looks like the following, where <code>OptionalPrefix</code> and <code>OptionSuffix</code> are suppressed if the replacement for the <code>TokenIdentifier</code> yields a zero-length string:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 $([OptionalPrefix]TokenIdentifier:SubToken[OptionalSuffix]|AlternateString)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The caret ("^") is an escape character, so "^$" would yield "$" in the final path.
 
 Parentheses and brackets are not allowed as literals within tokens, but can be used outside of tokens. This means you cannot use "[", "]", "(", or ")" within the <code>OptionalString</code> sub-token unless they are escaped with a caret ("^").

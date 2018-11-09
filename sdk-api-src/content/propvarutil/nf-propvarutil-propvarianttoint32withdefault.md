@@ -96,23 +96,27 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776553(v=VS.85).aspx">PropVariantToInt32WithDefault</a> to access a <b>LONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore->GetValue(PKEY_FlagStatus, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_FlagStatus, &amp;propvar);
 if (SUCCEEDED(hr))
 {
      // PKEY_FlagStatus is expected to produce a VT_I4 or VT_EMPTY value.
      // The application developer decided to treat VT_EMPTY or invalid values as 0
      LONG iStatus = PropVariantToInt32WithDefault(propvar, 0);
      // iStatus is now valid.
-     PropVariantClear(&propvar);
-}
-```
-
-
+     PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

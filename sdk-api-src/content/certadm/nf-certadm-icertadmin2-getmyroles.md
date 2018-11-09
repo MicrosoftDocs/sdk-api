@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getmyroles.htm
 tech.root: seccrypto
 ms.assetid: 1378f1ad-1e01-4f09-869c-f450b9b2f454
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CA_ACCESS_ADMIN, CA_ACCESS_AUDITOR, CA_ACCESS_ENROLL, CA_ACCESS_OFFICER, CA_ACCESS_OPERATOR, CA_ACCESS_READ, GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetMyRoles method, ICertAdmin2.GetMyRoles, ICertAdmin2::GetMyRoles, certadm/ICertAdmin2::GetMyRoles, security.icertadmin2_getmyroles
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver_name.htm
 tech.root: wds
 ms.assetid: d638f1f5-e74a-4ef6-a3ab-7ed6e11f863f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],Name property, IWdsTransportServer.Name, IWdsTransportServer.get_Name, IWdsTransportServer::Name, IWdsTransportServer::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportServer interface, get_Name, wds.iwdstransportserver_name, wdstptmgmt/IWdsTransportServer::Name, wdstptmgmt/IWdsTransportServer::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

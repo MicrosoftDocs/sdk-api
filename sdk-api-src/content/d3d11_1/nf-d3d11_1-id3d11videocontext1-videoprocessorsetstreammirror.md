@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_videoprocessorsetstreammirror.htm
 tech.root: medfound
 ms.assetid: C8CCCC2B-B05A-4AF4-9274-1E205B9807DB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetStreamMirror method, ID3D11VideoContext1.VideoProcessorSetStreamMirror, ID3D11VideoContext1::VideoProcessorSetStreamMirror, VideoProcessorSetStreamMirror, VideoProcessorSetStreamMirror method [Media Foundation], VideoProcessorSetStreamMirror method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetStreamMirror, mf.id3d11videocontext1_videoprocessorsetstreammirror
 ms.prod: windows-hardware
 ms.technology: windows-devices

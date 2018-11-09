@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getsingle.htm
 tech.root: WinRT
 ms.assetid: FA04F9A2-C222-451B-A6CE-8324BB51DA23
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetSingle, GetSingle method [Windows Runtime], GetSingle method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingle method, IPropertyValue.GetSingle, IPropertyValue.IPropertyValue, IPropertyValue::GetSingle, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingle, winrt.ipropertyvalue_getsingle
 ms.prod: windows-hardware
 ms.technology: windows-devices

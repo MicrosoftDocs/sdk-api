@@ -7,7 +7,7 @@ old-location: winsock\atm_blli_2.htm
 tech.root: winsock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,9 +96,13 @@ Identifies the 802.1 SNAP identifier. Only used if the <b>Layer3Protocol</b> par
 The following are the manifest constants associated with the 
 <b>ATM_BLLI</b> structure:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 /* 
  *  values used for Layer2Protocol in struct B-LLI
@@ -133,10 +137,10 @@ The following are the manifest constants associated with the
  */
 #define BLLI_L3_IPI_SNAP           0x80   /* IEEE 802.1 SNAP identifier               */
 #define BLLI_L3_IPI_IP             0xCC   /* Internet Protocol (IP) identifier        */
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

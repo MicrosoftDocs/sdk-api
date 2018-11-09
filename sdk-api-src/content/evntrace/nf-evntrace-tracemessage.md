@@ -7,7 +7,7 @@ old-location: etw\tracemessage.htm
 tech.root: etw
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PVOID, TRACE_MESSAGE_COMPONENTID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessage, TraceMessage function [ETW], _evt_tracemessage, base.tracemessage, etw.tracemessage, evntrace/TraceMessage, size_t
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,7 +153,7 @@ Class GUID or component ID that identifies the message. Depends if <i>MessageFla
 Number that uniquely identifies each occurrence of the message. You must define the value specified for this parameter; the value should be meaningful to the application.
 
 
-### -param arg1
+### -param arg5
 
 A list of variable arguments to be appended to the message. Use this list to specify your provider-specific event data. The list must be composed of pairs of arguments, as described in the following table. 
 

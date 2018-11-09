@@ -104,10 +104,14 @@ The
 
 The following example code shows how this function  creates a property set within a storage object.
 
-
-```cpp
-IPropertyStorage*
-CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPropertyStorage*
+CreatePropertySetInStorage( IStorage *pStg, const FMTID &amp;fmtid )
 {
     HRESULT hr = S_OK;
     IPropertySetStorage *pPropSetStg = NULL;
@@ -115,13 +119,13 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
  
     try
     {
-        hr = StgCreatePropSetStg( pStg, 0, &pPropSetStg );
+        hr = StgCreatePropSetStg( pStg, 0, &amp;pPropSetStg );
         if( FAILED(hr) ) throw L"Failed StgCreatePropSetStg (%08x)";
  
-        hr = pPropSetStg->Create( fmtid, NULL,
+        hr = pPropSetStg-&gt;Create( fmtid, NULL,
             PROPSETFLAG_DEFAULT,
             STGM_CREATE | STGM_READWRITE | STGM_SHARE_EXCLUSIVE,
-            &pPropStg );
+            &amp;pPropStg );
         if( FAILED(hr) ) 
             throw L"Failed IPropertySetStorage::Create (%08x)";
  
@@ -135,13 +139,13 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
     }
  
     if( NULL != pPropSetStg )
-        pPropSetStg->Release();
+        pPropSetStg-&gt;Release();
  
     return( pPropStg );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

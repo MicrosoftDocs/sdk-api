@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_ThumbBarSetImageList.htm
 tech.root: shell
 ms.assetid: 5c288b64-8630-42ca-9821-8e131f11f76d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarSetImageList method, ITaskbarList3.ThumbBarSetImageList, ITaskbarList3::ThumbBarSetImageList, ThumbBarSetImageList, ThumbBarSetImageList method [Windows Shell], ThumbBarSetImageList method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarSetImageList, shell.ITaskbarList3_ThumbBarSetImageList, shobjidl_core/ITaskbarList3::ThumbBarSetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,9 +105,13 @@ Images must be 32-bit and of dimensions <a href="https://msdn.microsoft.com/d063
 
 The following example shows how to create a thumbnail toolbar with two buttons whose images come from an image list.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 {
     // Define an array of two buttons. These buttons provide images through an 
@@ -132,25 +136,25 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
     HRESULT hr = CoCreateInstance(CLSID_TaskbarList, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&ptbl);
+                                  IID_PPV_ARGS(&amp;ptbl);
 
     if (SUCCEEDED(hr))
     {
         // Declare the image list that contains the button images.
-        hr = ptbl->ThumbBarSetImageList(hwnd, himl);
+        hr = ptbl-&gt;ThumbBarSetImageList(hwnd, himl);
         
         if (SUCCEEDED(hr))
         {
             // Attach the toolbar to the thumbnail.
-            hr = ptbl->ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &thbButtons);
+            hr = ptbl-&gt;ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &amp;thbButtons);
         }
-        ptbl->Release();
+        ptbl-&gt;Release();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

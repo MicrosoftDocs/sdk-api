@@ -7,7 +7,7 @@ old-location: controls\NMCHAR.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmchar.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPNMCHAR, LPNMCHAR, LPNMCHAR structure pointer [Windows Controls], NMCHAR, NMCHAR structure [Windows Controls], _win32_NMCHAR, _win32_NMCHAR_cpp, commctrl/LPNMCHAR, commctrl/NMCHAR, controls.NMCHAR, controls._win32_NMCHAR, tagNMCHAR"
 ms.prod: windows
 ms.technology: windows-sdk

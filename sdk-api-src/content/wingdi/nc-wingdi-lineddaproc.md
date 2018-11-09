@@ -7,7 +7,7 @@ old-location: gdi\lineddaproc.htm
 tech.root: gdi
 ms.assetid: 4a8b1120-4b0b-4029-8b49-4371c0627bba
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LineDDAProc, LineDDAProc callback, LineDDAProc callback function [Windows GDI], _win32_LineDDAProc, gdi.lineddaproc, wingdi/LineDDAProc
 ms.prod: windows
 ms.technology: windows-sdk

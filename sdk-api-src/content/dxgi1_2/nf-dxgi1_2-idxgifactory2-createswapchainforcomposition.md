@@ -120,40 +120,44 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 The following code example shows how to use <b>CreateSwapChainForComposition</b> in the <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> API or the <a href="https://msdn.microsoft.com/e41c3007-8e8d-4c37-b098-dc5bcca39302">Windows.UI.Xaml</a> framework:
 
-
-```
-IDXGISwapChain1 *pSwapChain = NULL;
-pDXGIFactory->CreateSwapChainForComposition( pD3DDevice, 
-    SwapChainDescription, NULL, &pSwapChain);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IDXGISwapChain1 *pSwapChain = NULL;
+pDXGIFactory-&gt;CreateSwapChainForComposition( pD3DDevice, 
+    SwapChainDescription, NULL, &amp;pSwapChain);
 
 // DComp
 IDCompositionVisual *pDCompVisual = NULL;
-pDCompDevice->CreateVisual( &pDCompVisual );
-pDCompVisual->SetContent( pSwapChain );
+pDCompDevice-&gt;CreateVisual( &amp;pDCompVisual );
+pDCompVisual-&gt;SetContent( pSwapChain );
 
 // XAML
 virtual HRESULT STDMETHODCALLTYPE OnLaunched( __RPC__in_opt ILaunchActivatedEventArgs *args)
 {
     const wchar_t *pXaml =
-    L"<SwapChainBackgroundPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' x:Name='root' "
-    L" xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'> "
-    L"</SwapChainBackgroundPanel>";
+    L"&lt;SwapChainBackgroundPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' x:Name='root' "
+    L" xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'&gt; "
+    L"&lt;/SwapChainBackgroundPanel&gt;";
     LoadXaml( pXaml );
 
-    ComPtr<ISwapChainBackgroundPanel> spSwapChainBackgroundPanel;
-    FindName<Windows::UI::Xaml::Controls::ISwapChainBackgroundPanel>(
+    ComPtr&lt;ISwapChainBackgroundPanel&gt; spSwapChainBackgroundPanel;
+    FindName&lt;Windows::UI::Xaml::Controls::ISwapChainBackgroundPanel&gt;(
             L"root",
-            &spSwapChainBackgroundPanel
+            &amp;spSwapChainBackgroundPanel
             );
 
-    ComPtr<ISwapChainBackgroundPanelNative> spSwapChainBackgroundPanelNative;
-    spSwapChainBackgroundPanel.As<ISwapChainBackgroundPanelNative>(&spSwapChainBackgroundPanelNative);
-    spSwapChainBackgroundPanelNative->SetSwapChain( pSwapChain );
+    ComPtr&lt;ISwapChainBackgroundPanelNative&gt; spSwapChainBackgroundPanelNative;
+    spSwapChainBackgroundPanel.As&lt;ISwapChainBackgroundPanelNative&gt;(&amp;spSwapChainBackgroundPanelNative);
+    spSwapChainBackgroundPanelNative-&gt;SetSwapChain( pSwapChain );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">ISwapChainBackgroundPanelNative</a> interface is declared in the windows.ui.xaml.media.dxinterop.h header.
 
 

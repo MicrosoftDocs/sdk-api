@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromevent.htm
 tech.root: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,27 +144,31 @@ The following example code shows this method being called in a <a href="https://
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd, 
                              LONG idObject, LONG idChild, 
                              DWORD dwEventThread, DWORD dwmsEventTime)
 {
     IAccessible* pAcc = NULL;
     VARIANT varChild;
-    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &pAcc, &varChild);  
-    if ((hr == S_OK) && (pAcc != NULL))
+    HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &amp;pAcc, &amp;varChild);  
+    if ((hr == S_OK) &amp;&amp; (pAcc != NULL))
     {
         // Do something with the accessible object, then release it.        
         // ... 
-        pAcc->Release();
+        pAcc-&gt;Release();
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

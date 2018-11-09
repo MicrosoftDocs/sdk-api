@@ -7,7 +7,7 @@ old-location: controls\IImageList_GetBkColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetBkColor, GetBkColor method [Windows Controls], GetBkColor method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetBkColor method, IImageList.GetBkColor, IImageList::GetBkColor, comctl_IImageList_GetBkColor, comctl_IImageList_GetBkColor_cpp, commoncontrols/IImageList::GetBkColor, controls.IImageList_GetBkColor, controls.comctl_IImageList_GetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

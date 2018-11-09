@@ -7,7 +7,7 @@ old-location: mscs\resutilgetpropertiestoparameterblock.htm
 tech.root: mscs
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster], ResUtilGetPropertiesToParameterBlock, ResUtilGetPropertiesToParameterBlock function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, resapi/ResUtilGetPropertiesToParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

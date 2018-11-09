@@ -7,7 +7,7 @@ old-location: display\ddopenvideoportin.htm
 tech.root: display
 ms.assetid: 53a0fdb3-583d-4da2-939c-6640ca9e6c31
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPDDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN structure [Display Devices], LPDDOPENVIDEOPORTIN, LPDDOPENVIDEOPORTIN structure pointer [Display Devices], _DDOPENVIDEOPORTIN, ddkmapi/DDOPENVIDEOPORTIN, ddkmapi/LPDDOPENVIDEOPORTIN, ddstrcts_946323a4-8ead-46d5-aa18-2a3e1eaef2f1.xml, display.ddopenvideoportin"
 ms.prod: windows
 ms.technology: windows-sdk

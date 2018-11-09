@@ -7,7 +7,7 @@ old-location: mf\imfvideorenderer_initializerenderer.htm
 tech.root: medfound
 ms.assetid: e46a9596-9f3f-4430-8d45-bbc9c240be3b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer method, IMFVideoRenderer.InitializeRenderer, IMFVideoRenderer::InitializeRenderer, InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation],IMFVideoRenderer interface, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

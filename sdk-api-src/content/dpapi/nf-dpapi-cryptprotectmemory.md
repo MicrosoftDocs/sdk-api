@@ -7,7 +7,7 @@ old-location: security\cryptprotectmemory.htm
 tech.root: seccrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,11 +141,15 @@ If the client uses the CRYPTPROTECTMEMORY_SAME_LOGON flag, the server must imper
 
 The following example calls  the <b>CryptProtectMemory</b> function to encrypt data that is in memory.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 #define SSN_STR_LEN 12  // includes null
 
@@ -190,10 +194,10 @@ void main()
     pSensitiveText = NULL;
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

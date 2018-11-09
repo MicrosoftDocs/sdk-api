@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdynamicfilelist.htm
 tech.root: seccrypto
 ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvBackupGetDynamicFileList, CertSrvBackupGetDynamicFileList function [Security], CertSrvBackupGetDynamicFileListW, _certsrv_certsrvbackupgetdynamicfilelist, certbcli/CertSrvBackupGetDynamicFileList, certbcli/CertSrvBackupGetDynamicFileListW, security.certsrvbackupgetdynamicfilelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ This function's name in the Certadm.dll is <b>CertSrvBackupGetDynamicFileListW</
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPGETDYNAMICFILELISTW* pfnGetDynFiles;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPGETDYNAMICFILELISTW* pfnGetDynFiles;
 char * szGetDynFilesFunc = "CertSrvBackupGetDynamicFileListW";
 WCHAR *    pwszzDynFiles;
 DWORD      nListBytes=0;
@@ -118,7 +122,7 @@ if ( NULL == pfnGetDynFiles )
 
 // Determine the names of the dynamic files.
 // hCSBC was set by an earlier call to CertSrvBackupPrepare.
-hr = pfnGetDynFiles(hCSBC, &pwszzDynFiles, &nListBytes);
+hr = pfnGetDynFiles(hCSBC, &amp;pwszzDynFiles, &amp;nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDynFiles call [%x]\n", hr);
@@ -142,10 +146,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDynFiles);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

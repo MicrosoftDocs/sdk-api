@@ -99,9 +99,13 @@ The first time you call the <b>Pen::GetLastStatus</b> method of a
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a dashed line. The code then checks the status of the method that sets the dash style for the pen.
 
-
-```cpp
-VOID Example_GetLastStatus(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
    
@@ -110,7 +114,7 @@ VOID Example_GetLastStatus(HDC hdc)
 
    // Set the dash style, and draw a dashed line.
    pen.SetDashStyle(DashStyleDash);
-   graphics.DrawLine(&pen, 0, 0, 200, 100);
+   graphics.DrawLine(&amp;pen, 0, 0, 200, 100);
 
    // Check the status of the method that sets the dash style for the pen.
    Status status = pen.GetLastStatus();
@@ -123,10 +127,10 @@ VOID Example_GetLastStatus(HDC hdc)
    {
       // There was a problem with the call to SetDashStyle.
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

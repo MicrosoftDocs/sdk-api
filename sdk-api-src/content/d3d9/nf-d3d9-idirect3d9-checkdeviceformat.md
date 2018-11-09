@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__checkdeviceformat.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformat.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDeviceFormat method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormat method, IDirect3D9.CheckDeviceFormat, IDirect3D9::CheckDeviceFormat, d3d9helper/IDirect3D9::CheckDeviceFormat, daa5cafd-0b8b-a747-98fe-eb9db7acde6d, direct3d9.idirect3d9__checkdeviceformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,12 +126,16 @@ Here are some examples using <b>CheckDeviceFormat</b> to check for hardware supp
 <li>An off-screen plain surface format - Specify Usage = 0 and RType = D3DRTYPE_SURFACE.</li>
 <li>A depth-stencil format - The following snippet tests for the passed in depth-stencil format:
     
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL IsDepthFormatExisting( D3DFORMAT DepthFormat, D3DFORMAT AdapterFormat ) 
 {
-    HRESULT hr = pD3D->CheckDeviceFormat( D3DADAPTER_DEFAULT,
+    HRESULT hr = pD3D-&gt;CheckDeviceFormat( D3DADAPTER_DEFAULT,
                                           D3DDEVTYPE_HAL,
                                           AdapterFormat,
                                           D3DUSAGE_DEPTHSTENCIL,
@@ -139,10 +143,10 @@ BOOL IsDepthFormatExisting( D3DFORMAT DepthFormat, D3DFORMAT AdapterFormat )
                                           DepthFormat);
     
     return SUCCEEDED( hr );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 See <a href="https://msdn.microsoft.com/en-us/library/Bb147355(v=VS.85).aspx">Selecting a Device (Direct3D 9)</a> for more detail on the enumeration process.
 
 </li>
@@ -150,12 +154,16 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb147355(v=VS.85).aspx">Se
     
     
     
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat ) 
 {
-    HRESULT hr = pD3D->CheckDeviceFormat( D3DADAPTER_DEFAULT,
+    HRESULT hr = pD3D-&gt;CheckDeviceFormat( D3DADAPTER_DEFAULT,
                                           D3DDEVTYPE_HAL,
                                           AdapterFormat,
                                           0,
@@ -163,10 +171,10 @@ BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat )
                                           TextureFormat);
     
     return SUCCEEDED( hr );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 <li>Alpha blending in a pixel shader - Set Usage to <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING</a>. Expect this to fail for all floating-point render targets.</li>
 <li>Autogeneration of mipmaps - Set Usage to <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_AUTOGENMIPMAP</a>. If the mipmap automatic generation fails, the application will get a non-mipmapped texture. Calling this method is considered a hint, so this method can return D3DOK_NOAUTOGEN (a valid success code) if the only thing that fails is the mipmap generation. For more information about mipmap generation, see <a href="https://msdn.microsoft.com/en-us/library/Bb172340(v=VS.85).aspx">Automatic Generation of Mipmaps (Direct3D 9)</a>.</li>

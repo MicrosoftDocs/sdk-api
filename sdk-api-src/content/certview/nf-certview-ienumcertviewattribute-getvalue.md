@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_getvalue.htm
 tech.root: seccrypto
 ms.assetid: a03a6da4-d286-487e-a292-8a02626325a8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetValue method, IEnumCERTVIEWATTRIBUTE.GetValue, IEnumCERTVIEWATTRIBUTE::GetValue, _certsrv_ienumcertviewattribute_getvalue, certview/IEnumCERTVIEWATTRIBUTE::GetValue, security.ienumcertviewattribute_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,12 +102,16 @@ one of the following methods to navigate through the enumeration:
 
 #### Examples
 
-
-```cpp
-BSTR    bstrAttribValue = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR    bstrAttribValue = NULL;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-hr = pEnumAttr->GetValue(&bstrAttribValue);
+hr = pEnumAttr-&gt;GetValue(&amp;bstrAttribValue);
 if (S_OK != hr)
     printf("Failed call to GetValue - %x\n", hr);
 else
@@ -115,10 +119,10 @@ else
 
 // free memory when done
 if (NULL != bstrAttribValue)
-    SysFreeString(bstrAttribValue);
-```
-
-
+    SysFreeString(bstrAttribValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

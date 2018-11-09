@@ -101,24 +101,28 @@ This helper function is used to read a property value from a store. If the calli
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762083(v=VS.85).aspx">PSGetPropertyValue</a>.
 
-
-```cpp
-// IPropertyDescription *pPropDesc;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyDescription *pPropDesc;
 // IPropertyStore *pStore;
 // Assume the variables pPropDesc and pStore are initialized and valid.
 PROPVARIANT propvar;
 
-HRESULT hr = PSGetPropertyValue(pStore, pPropDesc, &propvar);
+HRESULT hr = PSGetPropertyValue(pStore, pPropDesc, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar is valid.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -115,15 +115,19 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
 						<b>StringFormat</b> object to draw a string that contains tab characters (\t). The code also draws the string's layout rectangle. Then, the code gets the tab stops and proceeds to use or inspect the tab stops in some way.
 
-
-```cpp
-VOID Example_GetTabStop(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetTabStop(HDC hdc)
 {
    Graphics graphics(hdc);
 
    REAL         tabs[] = {150, 100, 100};
    FontFamily   fontFamily(L"Courier New");
-   Font         font(&fontFamily, 12, FontStyleRegular, UnitPoint);
+   Font         font(&amp;fontFamily, 12, FontStyleRegular, UnitPoint);
    SolidBrush   solidBrush(Color(255, 0, 0, 255));
 
    StringFormat stringFormat;
@@ -131,14 +135,14 @@ VOID Example_GetTabStop(HDC hdc)
    graphics.DrawString(
       L"Name\tTest 1\tTest 2\tTest 3", 
       25, 
-      &font, 
+      &amp;font, 
       RectF(20, 20, 500, 100), 
-      &stringFormat, 
-      &solidBrush);
+      &amp;stringFormat, 
+      &amp;solidBrush);
 
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&pen, 20, 20, 500, 100);
+   graphics.DrawRectangle(&amp;pen, 20, 20, 500, 100);
 
    // Get the tab stops.
    INT   tabStopCount = 0;
@@ -147,16 +151,16 @@ VOID Example_GetTabStop(HDC hdc)
 
    tabStopCount = stringFormat.GetTabStopCount();
    tabStops = (REAL*)malloc(tabStopCount*sizeof(REAL));
-   stringFormat.GetTabStops(tabStopCount, &firstTabOffset, tabStops);
+   stringFormat.GetTabStops(tabStopCount, &amp;firstTabOffset, tabStops);
 
-   for(INT j = 0; j < tabStopCount; ++j)
+   for(INT j = 0; j &lt; tabStopCount; ++j)
    {
       // Inspect or use the value in tabStops[j].
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

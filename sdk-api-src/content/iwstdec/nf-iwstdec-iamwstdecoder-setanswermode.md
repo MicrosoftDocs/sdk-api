@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setanswermode.htm
 tech.root: DirectShow
 ms.assetid: d26b22d2-2c88-4347-80fb-aca8abae50ab
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetAnswerMode method, IAMWstDecoder.SetAnswerMode, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

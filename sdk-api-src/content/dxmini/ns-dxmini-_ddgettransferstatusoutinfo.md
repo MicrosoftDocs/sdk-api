@@ -7,7 +7,7 @@ old-location: display\ddgettransferstatusoutinfo.htm
 tech.root: display
 ms.assetid: 593a42be-e1e9-41e5-a006-1513c5aa5226
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PDDGETTRANSFEROUTINFO, DDGETTRANSFERSTATUSOUTINFO, DDGETTRANSFERSTATUSOUTINFO structure [Display Devices], PDDGETTRANSFEROUTINFO, PDDGETTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_6471d175-cf52-4da4-b0c8-a4d7b96a0bea.xml, _DDGETTRANSFERSTATUSOUTINFO, display.ddgettransferstatusoutinfo, dxmini/DDGETTRANSFERSTATUSOUTINFO, dxmini/PDDGETTRANSFEROUTINFO"
 ms.prod: windows
 ms.technology: windows-sdk

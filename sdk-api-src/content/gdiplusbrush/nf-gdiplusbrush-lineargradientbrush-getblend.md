@@ -116,9 +116,13 @@ You can call the <a href="https://msdn.microsoft.com/en-us/library/ms535342(v=VS
 
 The following example creates a linear gradient brush, sets its blend, and uses the brush to fill a rectangle. The code then gets the blend. The blend factors and positions can then be inspected or used in some way.
 
-
-```cpp
-VOID Example_GetBlend(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetBlend(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -135,7 +139,7 @@ VOID Example_GetBlend(HDC hdc)
    linGrBrush.SetBlend(fac, pos, 4);
 
    // Use the linear gradient brush to fill a rectangle.
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 100, 50);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 100, 50);
 
    // Obtain information about the linear gradient brush.
    INT   blendCount;
@@ -148,15 +152,15 @@ VOID Example_GetBlend(HDC hdc)
 
    linGrBrush.GetBlend(factors, positions, blendCount);
 
-   for(INT j = 0; j < blendCount; ++j)
+   for(INT j = 0; j &lt; blendCount; ++j)
    {
       // Inspect or use the value in factors[j].
       // Inspect or use the value in positions[j].
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

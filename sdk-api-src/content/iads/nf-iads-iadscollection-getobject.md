@@ -95,9 +95,13 @@ If you know the name of a session in the <b>Sessions</b> collection, call the <b
 
 The following Visual Basic code example shows how to retrieve a named session object from a collection of active file service sessions.
 
-
-```vb
-Dim fso As IADsFileServiceOperations 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso As IADsFileServiceOperations 
 Dim ses As IADsSession
 Dim coll As IADsCollection
 Dim mySessionName As String
@@ -108,15 +112,19 @@ Set coll = fso.Sessions
 ' Insert code to set mySessionName to the name of mySession.
  
 ' The following statement invokes IADsCollection::GetObject.
-Set ses = coll.GetObject(mySessionName)
-```
-
-
+Set ses = coll.GetObject(mySessionName)</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows how to retrieve a named session object from a collection of active file service sessions.
 
-
-```cpp
-HRESULT GetASessionObjectFromCollection(BSTR mySession)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT GetASessionObjectFromCollection(BSTR mySession)
 {
     LPWSTR adspath = L"WinNT://myComputer/FabrikamServer";
     IUnknown *pUnk=NULL;
@@ -127,33 +135,33 @@ HRESULT GetASessionObjectFromCollection(BSTR mySession)
     VARIANT varObj;
     BSTR bstrObj = NULL;
 
-    VariantInit(&varObj);
+    VariantInit(&amp;varObj);
     hr = ADsGetObject(adspath, 
                       IID_IADsFileServiceOperations,
-                      (void**)&pFso);
+                      (void**)&amp;pFso);
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pFso->Sessions(&pColl);
+    hr = pFso-&gt;Sessions(&amp;pColl);
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pColl->GetObject(mySession, &varObj);
-    V_DISPATCH(&varObj)->QueryInterface(IID_IADs,(void**)&pADsObj);
-    hr = pADsObj->get_Class(&bstrObj);
+    hr = pColl-&gt;GetObject(mySession, &amp;varObj);
+    V_DISPATCH(&amp;varObj)-&gt;QueryInterface(IID_IADs,(void**)&amp;pADsObj);
+    hr = pADsObj-&gt;get_Class(&amp;bstrObj);
     printf("Class of the object obtained from GetObject: %S\n",
              bstrObj);
 
 Cleanup:
     if(bstrObj) SysFreeString(bstrObj);
-    if(pFso) pFso->Release();
-    VariantClear(&varObj);
-    if(pADsObj) pADsObj->Release();
-    if(pColl) pColl->Release();
+    if(pFso) pFso-&gt;Release();
+    VariantClear(&amp;varObj);
+    if(pADsObj) pADsObj-&gt;Release();
+    if(pColl) pColl-&gt;Release();
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

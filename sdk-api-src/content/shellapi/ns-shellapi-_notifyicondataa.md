@@ -7,7 +7,7 @@ old-location: shell\NOTIFYICONDATA.htm
 tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PNOTIFYICONDATAA, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAA, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _NOTIFYICONDATAA, _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -387,19 +387,23 @@ No more than one balloon notification at a time can be displayed for the taskbar
 
 Several members of this structure are only supported for Windows 2000 and later. To enable these members, include one of the following lines in your header:
 
-
-```cpp
-// Windows Vista and later:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Windows Vista and later:
 #define NTDDI_VERSION NTDDI_WIN2K
 #define NTDDI_VERSION NTDDI_WINXP
 #define NTDDI_VERSION NTDDI_VISTA
 
 // Windows XP and earlier:
 #define _WIN32_IE 0x0500
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Note that you must initialize the structure with its size. If you use the size of the currently defined structure, the application might not run with earlier versions of Shell32.dll, which expect a smaller structure. You can run your application against earlier versions of Shell32.dll by defining the appropriate version number (see <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell and Common Controls Versions</a>). However, this might cause problems if your application also needs to run on more recent systems.
 
 You can maintain application compatibility with all Shell32.dll versions while still using the current header files by setting the size of the <b>NOTIFYICONDATA</b> structure appropriately. Before you initialize the structure, use <a href="https://msdn.microsoft.com/d7ec0f7d-ba2f-4aa4-b867-a2615244a580">DllGetVersion</a> to determine which Shell32.dll version is installed on the system and initialize <b>cbSize</b> with one of these values:
@@ -436,13 +440,17 @@ The following code example shows version checking that can enable an application
 
 <div class="alert"><b>Note</b>  This code is specific to the Windows 7 version number. It is expected that future versions of Windows and Windows Server will support the <b>guidItem</b> member, and at that time this code must be updated to identify later version numbers as valid as well.</div>
 <div> </div>
-
-```cpp
-BOOL IsWin7OrLater()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL IsWin7OrLater()
 {
     // Initialize the OSVERSIONINFOEX structure.
     OSVERSIONINFOEX osvi;
-    ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
+    ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
     osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
     osvi.dwMajorVersion = 6;
     osvi.dwMinorVersion = 1;
@@ -453,21 +461,25 @@ BOOL IsWin7OrLater()
     VER_SET_CONDITION(dwlConditionMask, VER_MINORVERSION, VER_GREATER_EQUAL);
 
     // Perform the test.
-    return VerifyVersionInfo(&osvi, 
+    return VerifyVersionInfo(&amp;osvi, 
                              VER_MAJORVERSION | VER_MINORVERSION,
                              dwlConditionMask);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows the use of <a href="https://msdn.microsoft.com/en-us/library/Bb775701(v=VS.85).aspx">LoadIconMetric</a> to load an icon for use with high DPI.
             
                 
 
-
-```cpp
-// Declare NOTIFYICONDATA details. 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Declare NOTIFYICONDATA details. 
 // Error handling is omitted here for brevity. Do not omit it in your code.
 
 NOTIFYICONDATA nid = {};
@@ -486,14 +498,14 @@ nid.guidItem = myGUID;
 StringCchCopy(nid.szTip, ARRAYSIZE(nid.szTip), L"Test application");
 
 // Load the icon for high DPI.
-LoadIconMetric(hInst, MAKEINTRESOURCE(IDI_SMALL), LIM_SMALL, &(nid.hIcon));
+LoadIconMetric(hInst, MAKEINTRESOURCE(IDI_SMALL), LIM_SMALL, &amp;(nid.hIcon));
 
 // Show the notification.
-Shell_NotifyIcon(NIM_ADD, &nid) ? S_OK : E_FAIL;
-
-```
-
-
+Shell_NotifyIcon(NIM_ADD, &amp;nid) ? S_OK : E_FAIL;
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Troubleshooting"></a><a id="troubleshooting"></a><a id="TROUBLESHOOTING"></a>Troubleshooting</h3>
 If you are using the <b>guidItem</b> member to identify the icon, and that icon is not seen or some calls to <a href="https://msdn.microsoft.com/a316bc29-5f19-4a04-a32b-f4caeea0c029">Shell_NotifyIcon</a> fail, one of the following cases is the likely cause:
     

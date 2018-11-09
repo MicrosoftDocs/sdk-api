@@ -7,7 +7,7 @@ old-location: winauto\IUIAutomationNotificationEventHandler_HandleNotificationEv
 tech.root: WinAuto
 ms.assetid: A5FC58D4-B624-4EB1-9AC4-CD7C6F3BBFAE
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: HandleNotificationEvent, HandleNotificationEvent method [Windows Accessibility], HandleNotificationEvent method [Windows Accessibility],IUIAutomationNotificationEventHandler interface, IUIAutomationNotificationEventHandler interface [Windows Accessibility],HandleNotificationEvent method, IUIAutomationNotificationEventHandler.HandleNotificationEvent, IUIAutomationNotificationEventHandler::HandleNotificationEvent, uiautomationclient/IUIAutomationNotificationEventHandler::HandleNotificationEvent, winauto.IUIAutomationNotificationEventHandler_HandleNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,12 +63,12 @@ Handles a Microsoft UI Automation notification event.
 A pointer to the element that raised the event.
 
 
-### -param arg1
+### -param arg2
 
 The type of notification.
 
 
-### -param arg2
+### -param arg3
 
 Indicates how to process notifications.
 

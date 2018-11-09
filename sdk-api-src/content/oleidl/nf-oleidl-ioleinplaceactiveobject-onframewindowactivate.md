@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_onframewindowactivate.htm
 tech.root: com
 ms.assetid: 6534ea03-5f1b-4d3e-b6d8-b8d478a0a144
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnFrameWindowActivate method, IOleInPlaceActiveObject.OnFrameWindowActivate, IOleInPlaceActiveObject::OnFrameWindowActivate, OnFrameWindowActivate, OnFrameWindowActivate method [COM], OnFrameWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_onframewindowactivate, com.ioleinplaceactiveobject_onframewindowactivate, oleidl/IOleInPlaceActiveObject::OnFrameWindowActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

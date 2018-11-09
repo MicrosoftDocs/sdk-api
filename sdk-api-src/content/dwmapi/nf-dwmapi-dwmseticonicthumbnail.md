@@ -7,7 +7,7 @@ old-location: dwm\dwmseticonicthumbnail.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticonicthumbnail.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 0, DWM_SIT_DISPLAYFRAME, DwmSetIconicThumbnail, DwmSetIconicThumbnail function [Desktop Window Manager], _udwm_dwmseticonicthumbnail, _udwm_dwmseticonicthumbnail_cpp, dwm.dwmseticonicthumbnail, dwmapi/DwmSetIconicThumbnail, winui._udwm_dwmseticonicthumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,9 +111,13 @@ The DWM uses a copy of the bitmap, but the application can release this copy at 
 
 Before calling <b>DwmSetIconicThumbnail</b>, the application must first call the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to set the <b>DWMWA_FORCE_ICONIC_REPRESENTATION</b> and <b>DWMWA_HAS_ICONIC_BITMAP</b> attributes, as shown in the following example.
 
-
-```cpp
-            // Set DWM window attributes to provide the iconic bitmap, and 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>            // Set DWM window attributes to provide the iconic bitmap, and 
             // to always render the thumbnail using the iconic bitmap.
             BOOL fForceIconic = TRUE;
             BOOL fHasIconicBitmap = TRUE;
@@ -121,23 +125,27 @@ Before calling <b>DwmSetIconicThumbnail</b>, the application must first call the
             DwmSetWindowAttribute(
                 hwnd,
                 DWMWA_FORCE_ICONIC_REPRESENTATION,
-                &fForceIconic,
+                &amp;fForceIconic,
                 sizeof(fForceIconic));
 
             DwmSetWindowAttribute(
                 hwnd,
                 DWMWA_HAS_ICONIC_BITMAP,
-                &fHasIconicBitmap,
+                &amp;fHasIconicBitmap,
                 sizeof(fHasIconicBitmap));
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Next, the application calls the <b>DwmSetIconicThumbnail</b> function in response to a <a href="https://msdn.microsoft.com/en-us/library/Dd938875(v=VS.85).aspx">WM_DWMSENDICONICTHUMBNAIL</a> message, as shown in the following example.
 
-
-```cpp
-        case WM_DWMSENDICONICTHUMBNAIL:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        case WM_DWMSENDICONICTHUMBNAIL:
         {    
             // This window is being asked to provide its iconic bitmap. This indicates
             // a thumbnail is being drawn.
@@ -149,10 +157,10 @@ Next, the application calls the <b>DwmSetIconicThumbnail</b> function in respons
             }
         }
         break;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For the complete example code, see the <a href="https://msdn.microsoft.com/43fe71e7-4e5c-46fb-876b-e26996071665">Customize an Iconic Thumbnail and a Live Preview Bitmap</a> sample.
 
 

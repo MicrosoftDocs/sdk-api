@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getlaststatus.htm
 tech.root: seccrypto
 ms.assetid: ebe5cfa7-6bfd-4454-9272-64e3b1bf0ae2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertRequest object [Security],GetLastStatus method, GetLastStatus, GetLastStatus method [Security], GetLastStatus method [Security],CCertRequest object, GetLastStatus method [Security],ICertRequest interface, GetLastStatus method [Security],ICertRequest2 interface, GetLastStatus method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetLastStatus method, ICertRequest.GetLastStatus, ICertRequest2 interface [Security],GetLastStatus method, ICertRequest2::GetLastStatus, ICertRequest3 interface [Security],GetLastStatus method, ICertRequest3::GetLastStatus, ICertRequest::GetLastStatus, certcli/ICertRequest2::GetLastStatus, certcli/ICertRequest3::GetLastStatus, certcli/ICertRequest::GetLastStatus, security.icertrequest2_getlaststatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,12 +97,16 @@ Additionally, the request disposition is stored in the Certificate Services data
 
 #### Examples
 
-
-```cpp
-HRESULT    hrServer, hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT    hrServer, hr;
 // pCertRequest is previously instantiated
 // ICertRequest object pointer.
-hr = pCertRequest->GetLastStatus((LONG *) &hrServer);
+hr = pCertRequest-&gt;GetLastStatus((LONG *) &amp;hrServer);
 if (FAILED(hr))
 {
     printf("Failed GetLastStatus [%x]\n", hr);
@@ -112,10 +116,10 @@ else
 {
     // Use the HRESULT value as needed...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

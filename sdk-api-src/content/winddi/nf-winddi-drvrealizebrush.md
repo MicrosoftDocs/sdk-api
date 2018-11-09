@@ -7,7 +7,7 @@ old-location: display\drvrealizebrush.htm
 tech.root: display
 ms.assetid: 2948f274-cef2-4fcf-9607-79540b6e5a5f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DrvRealizeBrush, DrvRealizeBrush function [Display Devices], ddifncs_efd25952-e672-493f-80e5-19edbac7df0e.xml, display.drvrealizebrush, winddi/DrvRealizeBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

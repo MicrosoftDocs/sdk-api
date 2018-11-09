@@ -101,20 +101,24 @@ The default wrap mode for a texture brush is <a href="https://msdn.microsoft.com
 
 The following example creates a texture brush, sets the wrap mode of the brush, and uses the brush to fill a rectangle.
 
-
-```cpp
-VOID Example_SetWrapMode(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetWrapMode(HDC hdc)
 {
    Graphics graphics(hdc);
 
    Image image(L"HouseAndTree.gif");
-   TextureBrush textureBrush(&image);
+   TextureBrush textureBrush(&amp;image);
    textureBrush.SetWrapMode(WrapModeTileFlipX);
-   graphics.FillRectangle(&textureBrush, 0, 0, 400, 200);
-}
-```
-
-
+   graphics.FillRectangle(&amp;textureBrush, 0, 0, 400, 200);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

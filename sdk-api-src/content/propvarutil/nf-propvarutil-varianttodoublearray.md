@@ -142,14 +142,18 @@ If the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx"
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>.
 
-
-```cpp
-// VARIANT var;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// VARIANT var;
 // Assume variable var is initialized and valid.
 DOUBLE rgDoubles[4]; // The application expects var to hold 4 DOUBLEs in an array.
 ULONG cDoubles;
 
-HRESULT hr = VariantToDoubleArray(var, rgDoubles, ARRAYSIZE(rgDoubles), &cFlags);
+HRESULT hr = VariantToDoubleArray(var, rgDoubles, ARRAYSIZE(rgDoubles), &amp;cFlags);
 
 if (SUCCEEDED(hr))
 {
@@ -162,10 +166,10 @@ if (SUCCEEDED(hr))
         // The application got *pcElem DOUBLEs which are stored in the first 
         // *pcElem elements of rgDoubles.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

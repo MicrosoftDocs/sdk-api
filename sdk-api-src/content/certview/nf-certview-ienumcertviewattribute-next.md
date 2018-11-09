@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_next.htm
 tech.root: seccrypto
 ms.assetid: 2903ccda-e06d-4690-accf-79bc73d8569f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Next method, IEnumCERTVIEWATTRIBUTE.Next, IEnumCERTVIEWATTRIBUTE::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_next, certview/IEnumCERTVIEWATTRIBUTE::Next, security.ienumcertviewattribute_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,17 +97,21 @@ following methods:
 
 #### Examples
 
-
-```cpp
-LONG       Index;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONG       Index;
 HRESULT    hr;
 BSTR       bstrAttribName = NULL;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-while (S_OK == pEnumAttr->Next(&Index))
+while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
 {
     // retrieve the attribute name
-    hr = pEnumAttr->GetName(&bstrAttribName);
+    hr = pEnumAttr-&gt;GetName(&amp;bstrAttribName);
     if (FAILED(hr))
         printf("Failed GetName -  %x\n", hr );
     else
@@ -116,10 +120,10 @@ while (S_OK == pEnumAttr->Next(&Index))
 
 // Free resources.
 if (NULL != bstrAttribName)
-    SysFreeString(bstrAttribName);
-```
-
-
+    SysFreeString(bstrAttribName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

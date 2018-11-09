@@ -7,7 +7,7 @@ old-location: rpc\ndrdllcanunloadnow.htm
 tech.root: rpc
 ms.assetid: 25cc5909-87f7-4670-a123-69bb28d891a5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NdrDllCanUnloadNow, NdrDllCanUnloadNow function [RPC], rpc.ndrdllcanunloadnow, rpcproxy/NdrDllCanUnloadNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

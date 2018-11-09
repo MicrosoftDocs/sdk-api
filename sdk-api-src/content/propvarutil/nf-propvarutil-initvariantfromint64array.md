@@ -103,21 +103,25 @@ Creates a VT_ARRAY | VT_I8 variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762332(v=VS.85).aspx">InitVariantFromInt64Array</a>.
 
-
-```cpp
-LONGLONG rgLongs[] = {4, 2};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONGLONG rgLongs[] = {4, 2};
 VARIANT var;
 
-HRESULT hr = InitVariantFromInt64Array(rgLongs, ARRAYSIZE(rgLongs), &var);
+HRESULT hr = InitVariantFromInt64Array(rgLongs, ARRAYSIZE(rgLongs), &amp;var);
 
 if (SUCCEEDED(hr))                            
 {
     // var now is valid and has type VT_ARRAY | VT_I8.
-    VariantClear(&propvar);
-}
-```
-
-
+    VariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

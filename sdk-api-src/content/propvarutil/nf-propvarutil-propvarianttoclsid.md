@@ -107,20 +107,24 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a> to access a CLSID value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore->GetValue(PKEY_Sync_HandlerCollectionID, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_Sync_HandlerCollectionID, &amp;propvar);
 if (SUCCEEDED(hr))
 {
         // PKEY_Sync_HandlerCollectionID is expected to produce a VT_CLSID or VT_EMPTY value.
         // PropVariantToCLSID will convert VT_EMPTY to a failure code.
         CLSID clsidCollectionID;
 
-        hr = PropVariantToCLSID(propvar, &clsidCollectionID);
+        hr = PropVariantToCLSID(propvar, &amp;clsidCollectionID);
         if (SUCCEEDED(hr))
         {
              // clsidCollectionID is now valid
@@ -129,11 +133,11 @@ if (SUCCEEDED(hr))
         {
             // the extraction failed
         }
-        PropVariantClear(&propvar);
-}
-```
-
-
+        PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

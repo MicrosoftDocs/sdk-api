@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetbackuplogs.htm
 tech.root: seccrypto
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,9 +129,13 @@ This function's name in the Certadm.dll is <b>CertSrvBackupGetBackupLogsW</b>. Y
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPGETBACKUPLOGSW* pfnGetBackupLogs;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPGETBACKUPLOGSW* pfnGetBackupLogs;
 char * szGetBackupLogsFunc = "CertSrvBackupGetBackupLogsW";
 
 WCHAR *    pwszzLogFiles;
@@ -154,7 +158,7 @@ if ( NULL == pfnGetBackupLogs )
 
 // Determine the names of the log files.
 // hCSBC was set by an earlier call to CertSrvbackupPrepare.
-hr = pfnGetBackupLogs(hCSBC, &pwszzLogFiles, &nListBytes);
+hr = pfnGetBackupLogs(hCSBC, &amp;pwszzLogFiles, &amp;nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetBackupLogs call [%x]\n", hr);
@@ -169,7 +173,7 @@ else
     {
         // Use the file name referenced by pwszLog.
         // Here it is merely displayed.
-        printf("%02x: %ws\n", *pwszLog, &pwszLog[1]);
+        printf("%02x: %ws\n", *pwszLog, &amp;pwszLog[1]);
         // Move to the next logfile name.
         // + 1 moves past the null terminator.
         pwszLog+=(wcslen(pwszLog)) + 1; 
@@ -179,10 +183,10 @@ else
     // pfnBackupFree is the address of the CertSrvBackupFree
 	   // function.
     pfnBackupFree(pwszzLogFiles);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

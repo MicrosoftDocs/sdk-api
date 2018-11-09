@@ -7,7 +7,7 @@ old-location: shell\IThumbnailCache.htm
 tech.root: shell
 ms.assetid: b0ddfca0-49b8-4f53-8d22-9a561d09367a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbnailCache interface [Windows Shell],described, _shell_IThumbnailCache, shell.IThumbnailCache, thumbcache/IThumbnailCache
 ms.prod: windows
 ms.technology: windows-sdk

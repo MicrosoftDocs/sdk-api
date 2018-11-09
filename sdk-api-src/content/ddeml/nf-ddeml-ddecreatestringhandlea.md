@@ -106,19 +106,23 @@ When an application either creates a string handle or receives one in the callba
 
 An instance-specific string handle cannot be mapped from string handle to string and back to string handle. This is shown in the following example, in which the <a href="https://msdn.microsoft.com/en-us/library/ms648763(v=VS.85).aspx">DdeQueryString</a> function creates a string from a string handle and <b>DdeCreateStringHandle</b> creates a string handle from that string, but the two handles are not the same: 
 
-
-```
-DWORD idInst; 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DWORD idInst; 
 DWORD cb; 
 HSZ hszInst, hszNew; 
 PSZ pszInst; 
  
 DdeQueryString(idInst, hszInst, pszInst, cb, CP_WINANSI); 
 hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI); 
-// hszNew != hszInst ! 
-```
-
-
+// hszNew != hszInst ! </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

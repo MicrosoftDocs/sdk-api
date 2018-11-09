@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__multiplytransform.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__multiplytransform.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,9 +92,13 @@ The multiplication order is pMatrix times State.
 
 An application might use the <b>IDirect3DDevice9::MultiplyTransform</b> method to work with hierarchies of transformations. For example, the geometry and transformations describing an arm might be arranged in the following hierarchy.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
     
     shoulder_transformation
     
@@ -107,17 +111,21 @@ An application might use the <b>IDirect3DDevice9::MultiplyTransform</b> method t
     wrist transformation
     
     hand geometry
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 An application might use the following series of calls to render this hierarchy. Not all the parameters are shown in this pseudocode.
     
             
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 IDirect3DDevice9::SetTransform(D3DTS_WORLDMATRIX(0), 
                                shoulder_transform)
 IDirect3DDevice9::DrawPrimitive(upper_arm)
@@ -126,10 +134,10 @@ IDirect3DDevice9::MultiplyTransform(D3DTS_WORLDMATRIX(0),
 IDirect3DDevice9::DrawPrimitive(lower_arm)
 IDirect3DDevice9::MultiplyTransform(D3DTS_WORLDMATRIX(0), 
                                     wrist_transform)
-IDirect3DDevice9::DrawPrimitive(hand)
-```
-
-
+IDirect3DDevice9::DrawPrimitive(hand)</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

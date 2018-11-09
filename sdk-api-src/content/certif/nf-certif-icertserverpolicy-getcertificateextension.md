@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_getcertificateextension.htm
 tech.root: seccrypto
 ms.assetid: e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerPolicy object, GetCertificateExtension method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtension method, ICertServerPolicy.GetCertificateExtension, ICertServerPolicy::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverpolicy_getcertificateextension, certif/ICertServerPolicy::GetCertificateExtension, security.icertserverpolicy_getcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,18 +149,22 @@ Certificate extensions are distinct from certificate properties. Properties are 
 
 #### Examples
 
-
-```cpp
-VARIANT    varExt;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VARIANT    varExt;
 HRESULT    hr;
 
-VariantInit(&varExt);
+VariantInit(&amp;varExt);
 // Get the Extension value.
 // bstrExtName is BSTR assigned by EnumerateExtensions.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->GetCertificateExtension(bstrExtName,
+hr = pCertServerPolicy-&gt;GetCertificateExtension(bstrExtName,
                                                 PROPTYPE_BINARY,
-                                                &varExt);
+                                                &amp;varExt);
 
 if (FAILED(hr))
 {
@@ -171,10 +175,10 @@ if (FAILED(hr))
 // ...
 
 // When done, clear the Variant
-VariantClear(&varExt);
-```
-
-
+VariantClear(&amp;varExt);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

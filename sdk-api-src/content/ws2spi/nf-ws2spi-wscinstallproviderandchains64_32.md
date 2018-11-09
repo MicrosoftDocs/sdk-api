@@ -7,7 +7,7 @@ old-location: winsock\wscinstallproviderandchains64_32.htm
 tech.root: winsock
 ms.assetid: 211d0d13-e8ce-422a-810d-416686ee1326
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSCInstallProviderAndChains64_32, WSCInstallProviderAndChains64_32 function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains64_32, ws2spi/WSCInstallProviderAndChains64_32
 ms.prod: windows-hardware
 ms.technology: windows-devices

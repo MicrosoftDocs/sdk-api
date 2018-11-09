@@ -7,7 +7,7 @@ old-location: security\npgetpropertytext.htm
 tech.root: secauthn
 ms.assetid: 5c4583f5-81e9-4723-8fd0-6909b0107446
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: NPGetPropertyText, NPGetPropertyText function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_npgetpropertytext, npapi/NPGetPropertyText, security.npgetpropertytext
 ms.prod: windows-hardware
 ms.technology: windows-devices

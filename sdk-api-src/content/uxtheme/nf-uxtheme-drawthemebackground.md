@@ -7,7 +7,7 @@ old-location: controls\DrawThemeBackground.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackground.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DrawThemeBackground, DrawThemeBackground function [Windows Controls], controls.DrawThemeBackground, controls.inet_DrawThemeBackground, inet_DrawThemeBackground, inet_DrawThemeBackground_cpp, uxtheme/DrawThemeBackground
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,9 +126,13 @@ Drawing operations are scaled to fit and not exceed the rectangle specified in <
 Prior to calling <b>DrawThemeBackground</b> to draw the background image for a window, you may call <a href="https://msdn.microsoft.com/en-us/library/Bb759815(v=VS.85).aspx">IsThemeBackgroundPartiallyTransparent</a>. This method determines whether <a href="https://msdn.microsoft.com/en-us/library/Bb773306(v=VS.85).aspx">DrawThemeParentBackground</a> should be called to draw in backgrounds behind partially-transparent or alpha-blended child controls, and is demonstrated in the following example.
 		
 
-
-```cpp
-if (_hTheme)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (_hTheme)
 {
   if (IsThemeBackgroundPartiallyTransparent(_hTheme, BP_PUSHBUTTON, _iStateId))
   {
@@ -139,13 +143,13 @@ if (_hTheme)
                     hdcPaint,
                     BP_PUSHBUTTON,
                     _iStateId,
-                    &rcClient,
+                    &amp;rcClient,
                     prcPaint);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

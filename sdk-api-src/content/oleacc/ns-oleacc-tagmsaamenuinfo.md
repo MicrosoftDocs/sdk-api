@@ -7,7 +7,7 @@ old-location: winauto\msaamenuinfo.htm
 tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, tagMSAAMENUINFO, winauto.msaamenuinfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,9 +97,13 @@ The <b>MSAAMENUINFO</b> structure cannot be a member in a class that contains vi
 
 The following code fragment shows the declaration of an application-specific owner-drawn menu information structure that includes <b>MSAAMENUINFO</b>:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // Application-specific owner-drawn menu info struct. Owner-drawn data 
 // is a pointer to one of these. MSAAMENUINFO must be the first 
 // member. 
@@ -111,10 +115,10 @@ struct MenuEntry
     int          m_CmdID;      // Menu command ID.
     int          m_IconIndex;  // Index of icon in bitmap.
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

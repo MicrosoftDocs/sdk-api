@@ -7,7 +7,7 @@ old-location: tapi3\itdigitsgatheredevent_get_call.htm
 tech.root: tapi
 ms.assetid: 43625f93-4ab2-4aeb-83da-70310f118e34
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Call method, ITDigitsGatheredEvent.get_Call, ITDigitsGatheredEvent::get_Call, _tapi3_itdigitsgatheredevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_call, tapi3if/ITDigitsGatheredEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices

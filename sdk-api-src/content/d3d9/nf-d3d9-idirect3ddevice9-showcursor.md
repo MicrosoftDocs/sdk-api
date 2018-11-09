@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__showcursor.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__showcursor.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],ShowCursor method, IDirect3DDevice9.ShowCursor, IDirect3DDevice9::ShowCursor, ShowCursor, ShowCursor method [Direct3D 9], ShowCursor method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::ShowCursor, direct3d9.idirect3ddevice9__showcursor, f4d45e5b-633f-a1a6-df58-ae9ec866fb60
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,9 +83,13 @@ Value indicating whether the cursor was previously visible. <b>TRUE</b> if the c
 
 Direct3D cursor functions use either GDI cursor or software emulation, depending on the hardware. Users usually want to respond to a WM_SETCURSOR message. For example, the users might want to write the message handler like this:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
     
 case WM_SETCURSOR:
 
@@ -93,15 +97,15 @@ case WM_SETCURSOR:
     
 SetCursor( NULL );
     
-m_pd3dDevice->ShowCursor( TRUE );
+m_pd3dDevice-&gt;ShowCursor( TRUE );
     
 return TRUE; // prevent Windows from setting cursor to window class cursor
     
 break;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Or users might want to call the <a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">IDirect3DDevice9::SetCursorProperties</a> method if they want to change the cursor. See the code in the DirectX Graphics C/C++ Samples for more detail.
 
 

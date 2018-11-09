@@ -91,9 +91,13 @@ To get the rendering quality level for text, use the
 
 The following example sets the smoothing mode to high speed and draws an ellipse. It then gets the smoothing mode, changes it to high quality, and draws a second ellipse to demonstrate the difference.
 
-
-```cpp
-VOID Example_GetSmoothingMode(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetSmoothingMode(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -101,7 +105,7 @@ VOID Example_GetSmoothingMode(HDC hdc)
    graphics.SetSmoothingMode(SmoothingModeHighSpeed);
 
    // Draw an ellipse.
-   graphics.DrawEllipse(&Pen(Color(255, 0, 0, 0), 3), Rect(10, 0, 200, 100));
+   graphics.DrawEllipse(&amp;Pen(Color(255, 0, 0, 0), 3), Rect(10, 0, 200, 100));
 
    // Get the smoothing mode.
    SmoothingMode mode = graphics.GetSmoothingMode();
@@ -114,11 +118,11 @@ VOID Example_GetSmoothingMode(HDC hdc)
    }
 
    // Draw an ellipse to demonstrate the difference.
-   graphics.DrawEllipse(&Pen(Color::Red, 3), Rect(220, 0, 200, 100));
-}
-```
-
-
+   graphics.DrawEllipse(&amp;Pen(Color::Red, 3), Rect(220, 0, 200, 100));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

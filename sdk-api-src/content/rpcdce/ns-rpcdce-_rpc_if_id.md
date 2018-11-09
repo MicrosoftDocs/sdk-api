@@ -7,7 +7,7 @@ old-location: rpc\rpc_if_id.htm
 tech.root: rpc
 ms.assetid: 6fad80e0-4239-48f7-9cd1-3b9c56303346
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RPC_IF_ID, RPC_IF_ID structure [RPC], _RPC_IF_ID, _rpc_rpc_if_id, rpc.rpc_if_id, rpcdce/RPC_IF_ID
 ms.prod: windows
 ms.technology: windows-sdk

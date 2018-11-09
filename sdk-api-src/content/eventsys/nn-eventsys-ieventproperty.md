@@ -7,7 +7,7 @@ old-location: com\ieventproperty.htm
 tech.root: com
 ms.assetid: e1ed7249-7fe3-4f90-b3e1-b79597773d85
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IEventProperty, IEventProperty interface [COM], IEventProperty interface [COM],described, _com_ieventproperty, com.ieventproperty, eventsys/IEventProperty
 ms.prod: windows
 ms.technology: windows-sdk

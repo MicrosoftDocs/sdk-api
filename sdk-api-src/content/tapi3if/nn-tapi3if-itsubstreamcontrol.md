@@ -7,7 +7,7 @@ old-location: tapi3\itsubstreamcontrol.htm
 tech.root: tapi
 ms.assetid: 17c5f2ba-d526-4b00-9649-8fd73d70bc79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITSubStreamControl, ITSubStreamControl interface [TAPI 2.2], ITSubStreamControl interface [TAPI 2.2],described, _tapi3_itsubstreamcontrol, tapi3.itsubstreamcontrol, tapi3if/ITSubStreamControl
 ms.prod: windows
 ms.technology: windows-sdk

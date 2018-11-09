@@ -7,7 +7,7 @@ old-location: security\certisvalidcrlforcertificate.htm
 tech.root: seccrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

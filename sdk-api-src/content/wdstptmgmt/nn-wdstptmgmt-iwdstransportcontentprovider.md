@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcontentprovider.htm
 tech.root: wds
 ms.assetid: DF94E03F-0A9A-4467-B932-28227B6BB3C4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], IWdsTransportContentProvider interface [Windows Deployment Services],described, wds.iwdstransportcontentprovider, wdstptmgmt/IWdsTransportContentProvider
 ms.prod: windows
 ms.technology: windows-sdk

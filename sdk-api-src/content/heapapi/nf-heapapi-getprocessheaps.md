@@ -7,7 +7,7 @@ old-location: base\getprocessheaps.htm
 tech.root: memory
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

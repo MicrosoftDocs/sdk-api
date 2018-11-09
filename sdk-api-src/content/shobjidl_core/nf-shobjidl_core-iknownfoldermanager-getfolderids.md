@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager_GetFolderIds.htm
 tech.root: shell
 ms.assetid: 3ac09fc4-15c4-4346-94ad-2a4617c463d1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetFolderIds, GetFolderIds method [Windows Shell], GetFolderIds method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderIds method, IKnownFolderManager.GetFolderIds, IKnownFolderManager::GetFolderIds, _shell_IKnownFolderManager_GetFolderIds, shell.IKnownFolderManager_GetFolderIds, shobjidl_core/IKnownFolderManager::GetFolderIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

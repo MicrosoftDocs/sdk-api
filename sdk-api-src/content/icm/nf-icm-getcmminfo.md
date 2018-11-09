@@ -7,7 +7,7 @@ old-location: wcs\getcmminfo.htm
 tech.root: WCS
 ms.assetid: 60fe282c-ed52-45c8-ac64-03c2c684679c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CMM_DLL_VERSION, CMM_IDENT, CMM_WIN_VERSION, GetCMMInfo, GetCMMInfo function [Windows Color System], _color_GetCMMInfo, icm/GetCMMInfo, wcs.getcmminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The <b>GetCMMInfo</b> function retrieves various information about the color man
 Identifies the transform for which to find CMM information.
 
 
-### -param arg1
+### -param arg2
 
 Specifies the information to be retrieved. This parameter can take one of the following constant values.<div> </div>
 

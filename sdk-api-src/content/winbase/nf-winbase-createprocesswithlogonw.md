@@ -7,7 +7,7 @@ old-location: base\createprocesswithlogonw.htm
 tech.root: procthread
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithLogonW, CreateProcessWithLogonW function, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, _win32_createprocesswithlogonw, base.createprocesswithlogonw, winbase/CreateProcessWithLogonW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -425,12 +425,16 @@ CreateProcessWithLogonW(..., szCmdline, ...)</code></pre>
 
 The following example demonstrates how to call this function.
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
-#include <userenv.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;userenv.h&gt;
 
 void DisplayError(LPWSTR pszAPI)
 {
@@ -440,7 +444,7 @@ void DisplayError(LPWSTR pszAPI)
         FORMAT_MESSAGE_FROM_SYSTEM,
         NULL, GetLastError(), 
         MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), 
-        (LPWSTR)&lpvMessageBuffer, 0, NULL);
+        (LPWSTR)&amp;lpvMessageBuffer, 0, NULL);
 
     //
     //... now display this string
@@ -479,15 +483,15 @@ void wmain(int argc, WCHAR *argv[])
     // TO DO: change NULL to '.' to use local account database
     //
     if (!LogonUser(argv[1], NULL, argv[2], LOGON32_LOGON_INTERACTIVE, 
-            LOGON32_PROVIDER_DEFAULT, &hToken))
+            LOGON32_PROVIDER_DEFAULT, &amp;hToken))
         DisplayError(L"LogonUser");
 
-    if (!CreateEnvironmentBlock(&lpvEnv, hToken, TRUE))
+    if (!CreateEnvironmentBlock(&amp;lpvEnv, hToken, TRUE))
         DisplayError(L"CreateEnvironmentBlock");
 
     dwSize = sizeof(szUserProfile)/sizeof(WCHAR);
 
-    if (!GetUserProfileDirectory(hToken, szUserProfile, &dwSize))
+    if (!GetUserProfileDirectory(hToken, szUserProfile, &amp;dwSize))
         DisplayError(L"GetUserProfileDirectory");
 
     //
@@ -496,7 +500,7 @@ void wmain(int argc, WCHAR *argv[])
     if (!CreateProcessWithLogonW(argv[1], NULL, argv[2], 
             LOGON_WITH_PROFILE, NULL, argv[3], 
             CREATE_UNICODE_ENVIRONMENT, lpvEnv, szUserProfile, 
-            &si, &pi))
+            &amp;si, &amp;pi))
         DisplayError(L"CreateProcessWithLogonW");
 
     if (!DestroyEnvironmentBlock(lpvEnv))
@@ -506,10 +510,10 @@ void wmain(int argc, WCHAR *argv[])
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

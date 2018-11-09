@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendhou
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2g4y.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: DiscountRateEndHour property [Fax Service], DiscountRateEndHour property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateEndHour property, IFaxServer.DiscountRateEndHour, IFaxServer.get_DiscountRateEndHour, IFaxServer.put_DiscountRateEndHour, IFaxServer::DiscountRateEndHour, IFaxServer::get_DiscountRateEndHour, IFaxServer::put_DiscountRateEndHour, _mfax_ifaxserver_get_discountrateendhour, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendhour_cpp, fax._mfax_ifaxserver_get_discountrateendhour, faxcom/IFaxServer::DiscountRateEndHour, faxcom/IFaxServer::get_DiscountRateEndHour, faxcom/IFaxServer::put_DiscountRateEndHour, put_DiscountRateEndHour
 ms.prod: windows-hardware
 ms.technology: windows-devices

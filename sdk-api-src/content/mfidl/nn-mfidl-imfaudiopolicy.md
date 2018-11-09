@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy.htm
 tech.root: medfound
 ms.assetid: fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], IMFAudioPolicy interface [Media Foundation],described, fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a, mf.imfaudiopolicy, mfidl/IMFAudioPolicy
 ms.prod: windows
 ms.technology: windows-sdk

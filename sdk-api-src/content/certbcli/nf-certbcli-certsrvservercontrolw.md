@@ -7,7 +7,7 @@ old-location: security\certsrvservercontrol.htm
 tech.root: seccrypto
 ms.assetid: 6f32e7f4-60d5-4370-b240-46aa2475e279
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CSCONTROL_SHUTDOWN, CertSrvServerControl, CertSrvServerControl function [Security], CertSrvServerControlW, _certsrv_certsrvservercontrol, certbcli/CertSrvServerControl, certbcli/CertSrvServerControlW, security.certsrvservercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,9 +117,13 @@ This function's name in Certadm.dll is <b>CertSrvServerControlW</b>. You must us
 
 #### Examples
 
-
-```cpp
-FNCERTSRVSERVERCONTROLW* pfnControl;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVSERVERCONTROLW* pfnControl;
 char * szControlFunc = "CertSrvServerControlW";
 HRESULT    hr=0;
 
@@ -145,10 +149,10 @@ if ( FAILED( hr ) )
 {
     printf("Failed pfnControl call [%x]\n", hr);
     exit(1); // Or other appropriate error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -99,20 +99,24 @@ The memory property store is thread safe. It aggregates the free-threaded marsha
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776489(v=VS.85).aspx">PSCreateMemoryPropertyStore</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPropertyStore *ppropstore;
 
-```cpp
-IPropertyStore *ppropstore;
-
-HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&ppropstore));
+HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&amp;ppropstore));
 
 if (SUCCEEDED(hr))
 {
     // ppropstore is now valid.  
-    ppropstore->Release();
-}
-```
-
-
+    ppropstore-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

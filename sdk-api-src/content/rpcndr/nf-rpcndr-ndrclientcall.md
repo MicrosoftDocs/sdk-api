@@ -7,7 +7,7 @@ old-location: rpc\ndrclientcall.htm
 tech.root: rpc
 ms.assetid: c7bf480a-a9c7-4d67-a7b6-cba6352b4600
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NdrClientCall, NdrClientCall function [RPC], rpc.ndrclientcall, rpcndr/NdrClientCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Pointer to the MIDL-generated <a href="https://msdn.microsoft.com/e3178aaa-a30a-
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
 
-### -param arg1 [in, out]
+### -param arg3 [in, out]
 
 Pointer to the client-side calling stack.
 

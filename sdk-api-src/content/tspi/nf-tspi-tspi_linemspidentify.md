@@ -7,7 +7,7 @@ old-location: tspi\tspi_linemspidentify.htm
 tech.root: tapi
 ms.assetid: a4fe8d2e-7257-49de-b5d1-e343cadad59a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: TSPI_lineMSPIdentify, TSPI_lineMSPIdentify function [TAPI 2.2], _tspi_tspi_linemspidentify, tspi.tspi_linemspidentify, tspi/TSPI_lineMSPIdentify
 ms.prod: windows-hardware
 ms.technology: windows-devices

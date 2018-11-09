@@ -7,7 +7,7 @@ old-location: base\virtualunlock.htm
 tech.root: memory
 ms.assetid: cb868c8a-ac0d-42ad-bf72-2ae617bc0427
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: VirtualUnlock, VirtualUnlock function, _win32_virtualunlock, base.virtualunlock, winbase/VirtualUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

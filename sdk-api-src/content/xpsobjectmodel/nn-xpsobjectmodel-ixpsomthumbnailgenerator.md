@@ -86,9 +86,13 @@ Generates a thumbnail image of a page.
 
 To instantiate this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> as shown in the code example that follows.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMThumbnailGenerator    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -99,23 +103,23 @@ hr = CoCreateInstance(
       NULL, 
       CLSCTX_INPROC_SERVER,
       __uuidof(IXpsOMThumbnailGenerator),
-      reinterpret_cast<LPVOID*>(&newInterface)
+      reinterpret_cast&lt;LPVOID*&gt;(&amp;newInterface)
       );
 
 if (SUCCEEDED(hr))
 {
     // use newInterface
-    newInterface->Release();
+    newInterface-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This interface requires XpsRasterService.dll. 
 If XpsRasterService.dll is not present when <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> is called to create an <b>IXpsOMThumbnailGenerator</b> instance, <b>CoCreateInstance</b> returns E_FAIL.
 

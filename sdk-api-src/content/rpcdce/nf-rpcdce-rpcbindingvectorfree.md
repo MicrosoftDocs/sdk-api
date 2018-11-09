@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingvectorfree.htm
 tech.root: rpc
 ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcBindingVectorFree, RpcBindingVectorFree function [RPC], _rpc_rpcbindingvectorfree, rpc.rpcbindingvectorfree, rpcdce/RpcBindingVectorFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

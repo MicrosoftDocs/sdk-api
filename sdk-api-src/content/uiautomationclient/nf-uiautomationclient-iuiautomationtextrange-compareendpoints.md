@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_CompareEndpoints.htm
 tech.root: WinAuto
 ms.assetid: 7071ae46-3f2d-4fdb-9908-366ac1fde691
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],CompareEndpoints method, IUIAutomationTextRange.CompareEndpoints, IUIAutomationTextRange::CompareEndpoints, uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints, uiauto_IUIAutomationTextRange_CompareEndpoints, uiautomationclient/IUIAutomationTextRange::CompareEndpoints, winauto.uiauto_IUIAutomationTextRange_CompareEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c9214
 A pointer to the text range to compare.
 
 
-### -param arg2 [in]
+### -param arg3 [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 

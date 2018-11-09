@@ -7,7 +7,7 @@ old-location: base\prefetchvirtualmemory.htm
 tech.root: memory
 ms.assetid: a7aeeb66-afd0-4871-81a3-e4619ac84293
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: PrefetchVirtualMemory, PrefetchVirtualMemory function, base.prefetchvirtualmemory, winbase/PrefetchVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

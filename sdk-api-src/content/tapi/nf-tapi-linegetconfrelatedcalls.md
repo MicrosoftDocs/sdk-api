@@ -7,7 +7,7 @@ old-location: tapi2\linegetconfrelatedcalls.htm
 tech.root: tapi
 ms.assetid: 048bc4bc-511a-4666-a2ff-4fff5132ed2e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_linegetconfrelatedcalls, lineGetConfRelatedCalls, lineGetConfRelatedCalls function [TAPI 2.2], tapi/lineGetConfRelatedCalls, tapi2.linegetconfrelatedcalls"
 ms.prod: windows-hardware
 ms.technology: windows-devices

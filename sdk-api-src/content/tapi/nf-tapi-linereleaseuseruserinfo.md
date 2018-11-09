@@ -7,7 +7,7 @@ old-location: tapi2\linereleaseuseruserinfo.htm
 tech.root: tapi
 ms.assetid: 35d41764-7ed6-4be3-8854-37444f2a44a8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_linereleaseuseruserinfo, lineReleaseUserUserInfo, lineReleaseUserUserInfo function [TAPI 2.2], tapi/lineReleaseUserUserInfo, tapi2.linereleaseuseruserinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3se.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3SE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3SE, dxmath.xmfloat3se
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,18 +125,14 @@ The values of the three components of an instance of <code>XMFLOAT3SE</code> are
 	    component stored in the least significant bits.
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    (E5Z9Y9X9): [31] EEEEEzzz zzzzzzyy yyyyyyyx xxxxxxxx [0]
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Or in detail:
        
 

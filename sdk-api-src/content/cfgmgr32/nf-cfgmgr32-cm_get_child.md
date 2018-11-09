@@ -7,7 +7,7 @@ old-location: devinst\cm_get_child.htm
 tech.root: devinst
 ms.assetid: b339d794-cbf0-46aa-a106-b2837f797def
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Get_Child, CM_Get_Child function [Device and Driver Installation], cfgmgr32/CM_Get_Child, cfgmgrfn_ca4f152f-3a57-4e04-b9b8-c9ed65b600f8.xml, devinst.cm_get_child
 ms.prod: windows-hardware
 ms.technology: windows-devices

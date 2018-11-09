@@ -7,7 +7,7 @@ old-location: tapi3\ittapiobjectevent2.htm
 tech.root: tapi
 ms.assetid: ad4fc838-5a6c-4942-b5a0-ed00cea11ba8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITTAPIObjectEvent2, ITTAPIObjectEvent2 interface [TAPI 2.2], ITTAPIObjectEvent2 interface [TAPI 2.2],described, _tapi3_ittapiobjectevent2, tapi3.ittapiobjectevent2, tapi3if/ITTAPIObjectEvent2
 ms.prod: windows
 ms.technology: windows-sdk

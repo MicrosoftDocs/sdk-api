@@ -7,7 +7,7 @@ old-location: wcs\checkcolorsingamut.htm
 tech.root: WCS
 ms.assetid: 87bee1a6-e3dd-4d0b-ad8a-9584833d9463
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CheckColorsInGamut, CheckColorsInGamut function [Windows Color System], _color_CheckColorsInGamut, wcs.checkcolorsingamut, wingdi/CheckColorsInGamut
 ms.prod: windows-hardware
 ms.technology: windows-devices

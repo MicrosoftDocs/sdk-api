@@ -93,9 +93,13 @@ The following example creates a
 						<b>PathGradientBrush</b>object to obtain the brush's wrap mode. If the obtained wrap mode is WrapModeTileFlipX, the code calls 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">FillRectangle</a> to tile a large area with the path gradient brush. 
 
-
-```cpp
-VOID Example_GetWrapMode(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetWrapMode(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -114,7 +118,7 @@ VOID Example_GetWrapMode(HDC hdc)
    INT count = 3;
 
    PathGradientBrush pthGrBrush(points, 3);
-   pthGrBrush.SetSurroundColors(colors, &count);
+   pthGrBrush.SetSurroundColors(colors, &amp;count);
    pthGrBrush.SetWrapMode(WrapModeTileFlipX);
 
    // Obtain information about the path gradient brush.
@@ -122,11 +126,11 @@ VOID Example_GetWrapMode(HDC hdc)
    wrapMode = pthGrBrush.GetWrapMode();
 
    if(wrapMode == WrapModeTileFlipX)
-         graphics.FillRectangle(&pthGrBrush, 0, 0, 800, 800);
-}
-```
-
-
+         graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 800, 800);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

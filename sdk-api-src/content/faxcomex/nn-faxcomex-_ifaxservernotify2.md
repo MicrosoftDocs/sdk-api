@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\faxinto_z_ifaxservernotify2.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxServerNotify2, IFaxServerNotify2 interface [Fax Service], IFaxServerNotify2 interface [Fax Service],described, IIFaxServerNotify2, _mfax_ifaxservernotify2, fax._mfax_ifaxservernotify2, faxcomex/IFaxServerNotify2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -318,14 +318,18 @@ The fax service calls the <a href="https://msdn.microsoft.com/en-us/library/Aa35
 Use the following syntax when creating the root FaxServer2 object:
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 Dim WithEvents objFaxServer2 As FaxServer2
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Registering for Fax Events</a>.

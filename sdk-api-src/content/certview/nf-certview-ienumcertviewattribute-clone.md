@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_clone.htm
 tech.root: seccrypto
 ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],Clone method, IEnumCERTVIEWATTRIBUTE.Clone, IEnumCERTVIEWATTRIBUTE::Clone, _certsrv_ienumcertviewattribute_clone, certview/IEnumCERTVIEWATTRIBUTE::Clone, security.ienumcertviewattribute_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,12 +89,16 @@ the <a href="https://msdn.microsoft.com/en-us/library/Aa386234(v=VS.85).aspx">IE
 
 #### Examples
 
-
-```cpp
-// pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
 IEnumCERTVIEWATTRIBUTE * pEnumAttr2 = NULL;
 HRESULT    hr;
-hr = pEnumAttr->Clone(&pEnumAttr2);
+hr = pEnumAttr-&gt;Clone(&amp;pEnumAttr2);
 if (S_OK != hr)
     printf("Unable to clone IEnumCERTVIEWATTRIBUTE\n");
 else
@@ -104,10 +108,10 @@ else
 }
 // done using cloned object, free memory
 if (NULL != pEnumAttr2)
-    pEnumAttr2->Release();
-```
-
-
+    pEnumAttr2-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

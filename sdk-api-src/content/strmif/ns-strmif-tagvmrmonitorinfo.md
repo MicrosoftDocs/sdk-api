@@ -7,7 +7,7 @@ old-location: dshow\vmrmonitorinfo.htm
 tech.root: DirectShow
 ms.assetid: 87567836-c01e-4615-a8e7-9ca590b6f7c9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORINFOStructure, dshow.vmrmonitorinfo, strmif/VMRMONITORINFO, tagVMRMONITORINFO
 ms.prod: windows
 ms.technology: windows-sdk

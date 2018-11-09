@@ -101,23 +101,27 @@ This function creates a VT_LPWSTR propvariant. If the specified resource does no
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762304(v=VS.85).aspx">InitPropVariantFromResource</a>.
 
-
-```cpp
-// HINSTANCE hinst;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// HINSTANCE hinst;
 // UINT id;
 // Assume variables hinst and id are initialized and valid.
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromResource(hinst, id, &propvar);
+HRESULT hr = InitPropVariantFromResource(hinst, id, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_LPWSTR.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

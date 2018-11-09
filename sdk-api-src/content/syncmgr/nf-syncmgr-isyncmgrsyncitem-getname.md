@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetName.htm
 tech.root: shell
 ms.assetid: 4a5f8430-7b5a-4184-acc9-ae4395acf2fa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetName method, ISyncMgrSyncItem.GetName, ISyncMgrSyncItem::GetName, _shell_ISyncMgrSyncItem_GetName, shell.ISyncMgrSyncItem_GetName, syncmgr/ISyncMgrSyncItem::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,17 +97,21 @@ In older Sync Manager implementations, this information was retrieved through th
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetName(__out LPWSTR *ppszName)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetName(__out LPWSTR *ppszName)
 {
     *ppszName = NULL;
     HRESULT hr = SHCoAllocString(_pszItemName, ppszName);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

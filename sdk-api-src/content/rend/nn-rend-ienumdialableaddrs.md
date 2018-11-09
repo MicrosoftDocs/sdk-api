@@ -7,7 +7,7 @@ old-location: tapi3\ienumdialableaddrs.htm
 tech.root: tapi
 ms.assetid: 0a64cb89-9e44-4af1-9b0f-2eec6e5267c7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], IEnumDialableAddrs interface [TAPI 2.2],described, _tapi3_ienumdialableaddrs, rend/IEnumDialableAddrs, tapi3.ienumdialableaddrs
 ms.prod: windows
 ms.technology: windows-sdk

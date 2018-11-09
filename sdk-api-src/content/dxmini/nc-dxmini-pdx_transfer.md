@@ -7,7 +7,7 @@ old-location: display\dxtransfer.htm
 tech.root: display
 ms.assetid: 62e1a5f6-9777-4acf-a531-b3554eaf89a6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DxTransfer, DxTransfer callback function [Display Devices], PDX_TRANSFER, PDX_TRANSFER callback, VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml, display.dxtransfer, dxmini/DxTransfer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,13 @@ The MDL is defined in <a href="https://msdn.microsoft.com/f10a63ab-2117-4a61-b3a
 
 As shown in the following code sample, the video miniport driver can use the pointer to the MDL in the <b>lpDestMDL</b> member of the DDTRANSFERININFO structure at the <i>TransferInInfo</i> parameter to bus master data to the physical memory pages that make up a scattered buffer:
 
-
-```
-DWORD 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DWORD 
 DxTransfer(
     DEVICE_EXT *pDeviceExt, 
     PDDTRANSFERININFO pTransferInInfo, 
@@ -120,22 +124,22 @@ DxTransfer(
     PVOID MappedSystemVa;
     ULONG ByteCount;
 
-    pMdl = pTransferInInfo->lpDestMDL;
+    pMdl = pTransferInInfo-&gt;lpDestMDL;
     MappedSystemVa = MmGetMdlVirtualAddress(pMdl);
     ByteCount = MmGetMdlByteCount(pMdl);
     uiNbPages = ADDRESS_AND_SIZE_TO_SPAN_PAGES(MappedSystemVa,
                                                ByteCount);
     pPages = MmGetMdlPfnArray(pMdl)
-    for (i=0; i<uiNbPages; i++) {
+    for (i=0; i&lt;uiNbPages; i++) {
         //
         // Transfer to page[i]
         //
         pPages[i];
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 See the <a href="https://msdn.microsoft.com/library/Ff540562(v=VS.85).aspx">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>, <a href="https://msdn.microsoft.com/library/Ff554537(v=VS.85).aspx">MmGetMdlPfnArray</a>, and <a href="https://msdn.microsoft.com/library/Ff554539(v=VS.85).aspx">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
 
 <i>DxTransfer</i> is called at hardware interrupt time. This means the driver cannot wait for a previous bus master to complete and it cannot call any functions that are not safe to call at interrupt time (that is, most of them).

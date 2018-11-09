@@ -7,7 +7,7 @@ old-location: security\kerb_interactive_logon.htm
 tech.root: secauthn
 ms.assetid: 96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*PKERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON structure [Security], PKERB_INTERACTIVE_LOGON, PKERB_INTERACTIVE_LOGON structure pointer [Security], _KERB_INTERACTIVE_LOGON, _lsa_kerb_interactive_logon, ntsecapi/KERB_INTERACTIVE_LOGON, ntsecapi/PKERB_INTERACTIVE_LOGON, security.kerb_interactive_logon"
 ms.prod: windows
 ms.technology: windows-sdk

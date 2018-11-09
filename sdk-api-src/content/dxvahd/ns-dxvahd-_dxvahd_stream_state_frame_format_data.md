@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_frame_format_data.htm
 tech.root: medfound
 ms.assetid: 4fa6a7f7-df9f-4e38-884c-81a01f913df0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, mf.dxvahd_stream_state_frame_format_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,13 @@ To get the device's capabilities, call <a href="https://msdn.microsoft.com/93aca
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetFrameFormat(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetFrameFormat(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     DXVAHD_FRAME_FORMAT format
@@ -88,19 +92,19 @@ HRESULT DXVAHD_SetFrameFormat(
 {
     DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA frame_format = { format };
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_FRAME_FORMAT,
         sizeof(frame_format),
-        &frame_format
+        &amp;frame_format
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\NMLVFINDITEM.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvfinditem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPNMLVFINDITEMW, NMLVFINDITEM, NMLVFINDITEM structure [Windows Controls], NMLVFINDITEMA, NMLVFINDITEMW, PNMLVFINDITEM, PNMLVFINDITEM structure pointer [Windows Controls], _win32_NMLVFINDITEM, _win32_NMLVFINDITEM_cpp, commctrl/NMLVFINDITEM, commctrl/NMLVFINDITEMA, commctrl/NMLVFINDITEMW, commctrl/PNMLVFINDITEM, controls.NMLVFINDITEM, controls._win32_NMLVFINDITEM, tagNMLVFINDITEMW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -169,41 +169,45 @@ If the remote name identifies a server message block (SMB) path, the following t
 
 The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
 
-
-```cpp
-     IBackgroundCopyJob *pJob;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>     IBackgroundCopyJob *pJob;
      IEnumBackgroundCopyFiles* pFiles = NULL;
      IBackgroundCopyFile* pFile = NULL;
      IBackgroundCopyFile2* pFile2 = NULL;
      WCHAR* pRemoteFileName = NULL;
      ULONG cFileCount = 0;
 
-     hr = pJob->Suspend();
-     hr = pJob->EnumFiles(&pFiles);
+     hr = pJob-&gt;Suspend();
+     hr = pJob-&gt;EnumFiles(&amp;pFiles);
      if (SUCCEEDED(hr))
      {
           //Get the count of files in the job. 
-          hr = pFiles->GetCount(&cFileCount);
+          hr = pFiles-&gt;GetCount(&amp;cFileCount);
 
           //Enumerate the files in the job.
-          for (ULONG idx=0; idx<cFileCount; idx++)
+          for (ULONG idx=0; idx&lt;cFileCount; idx++)
           {
-               hr = pFiles->Next(1, &pFile, NULL);
+               hr = pFiles-&gt;Next(1, &amp;pFile, NULL);
                if (S_OK == hr)
                {
                     //Get the local name of the file.
-                    hr = pFile->GetRemoteName(&pRemoteFileName);
+                    hr = pFile-&gt;GetRemoteName(&amp;pRemoteFileName);
                     if (SUCCEEDED(hr))
                     {
                          //Determine if you want to replace the remote name of this file.
-                         if (<CONDITIONGOESHERE>)
+                         if (&lt;CONDITIONGOESHERE&gt;)
                          {
                               //Need to query the IBackgroundCopyFile interface for an IBackgroundCopyFile2
                               //interface pointer. The IBackgroundCopyFile2 interface contains the SetRemoteName method.
-                              hr = pFile->QueryInterface(__uuidof(IBackgroundCopyFile2), (void**)&pFile2);
+                              hr = pFile-&gt;QueryInterface(__uuidof(IBackgroundCopyFile2), (void**)&amp;pFile2);
                               if (S_OK == hr)
                               {
-                                   hr = pFile2->SetRemoteName(L"<NEWURLGOESHERE>");
+                                   hr = pFile2-&gt;SetRemoteName(L"&lt;NEWURLGOESHERE&gt;");
                                    if (FAILED(hr))
                                    {
                                         //Handle error. 
@@ -219,7 +223,7 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
                          }
                          CoTaskMemFree(pRemoteFileName); 
                     }    
-                    pFile->Release(); 
+                    pFile-&gt;Release(); 
                     pFile = NULL;
                }
                else
@@ -229,16 +233,16 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
                }
           }
 
-          pFiles->Release();
+          pFiles-&gt;Release();
           pFiles = NULL;
      }
 
-     hr = pJob->Resume(); //Force the job to serialize.
+     hr = pJob-&gt;Resume(); //Force the job to serialize.
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

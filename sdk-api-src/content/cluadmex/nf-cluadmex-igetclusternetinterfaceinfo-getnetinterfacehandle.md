@@ -7,7 +7,7 @@ old-location: mscs\igetclusternetinterfaceinfo_getnetinterfacehandle.htm
 tech.root: mscs
 ms.assetid: a11ebbed-72e3-4f57-af8d-8a14c4b0fad2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: GetNetInterfaceHandle, GetNetInterfaceHandle method [Failover Cluster], GetNetInterfaceHandle method [Failover Cluster],IGetClusterNetInterfaceInfo interface, IGetClusterNetInterfaceInfo interface [Failover Cluster],GetNetInterfaceHandle method, IGetClusterNetInterfaceInfo.GetNetInterfaceHandle, IGetClusterNetInterfaceInfo::GetNetInterfaceHandle, _wolf_igetclusternetinterfaceinfo_getnetinterfacehandle, cluadmex/IGetClusterNetInterfaceInfo::GetNetInterfaceHandle, mscs.igetclusternetinterfaceinfo_getnetinterfacehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

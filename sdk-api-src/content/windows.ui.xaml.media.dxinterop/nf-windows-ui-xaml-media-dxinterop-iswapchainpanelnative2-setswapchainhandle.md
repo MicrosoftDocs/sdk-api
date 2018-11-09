@@ -7,7 +7,7 @@ old-location: winrt\iswapchainpanelnative2_setswapchainhandle.htm
 tech.root: WinRT
 ms.assetid: eda636d8-a07d-aea5-f81e-0489acc006ef
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ISwapChainPanelNative2 interface [Windows Runtime],SetSwapChainHandle method, ISwapChainPanelNative2.SetSwapChainHandle, ISwapChainPanelNative2.xaml, ISwapChainPanelNative2::SetSwapChainHandle, ISwapChainPanelNative2::xaml, SetSwapChainHandle, SetSwapChainHandle method [Windows Runtime], SetSwapChainHandle method [Windows Runtime],ISwapChainPanelNative2 interface, windows/ISwapChainPanelNative2::SetSwapChainHandle, winrt.iswapchainpanelnative2_setswapchainhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,50 +87,54 @@ This process works for pointers to in process swap chains.  However, this doesn�
      when a foreground process is suspended or shut down.  This two-process implementation requires the ability to pass a shared handle to a swap chain, rather than a pointer, created on the 
      background process to the foreground process to be rendered in a XAML SwapChainPanel in the foreground app.
 
-
-```cpp
-
-<!-- XAML markup --> 
-<Page> 
- <SwapChainPanel x:Name=”captureStreamDisplayPanel” /> 
-</Page> 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+&lt;!-- XAML markup --&gt; 
+&lt;Page&gt; 
+ &lt;SwapChainPanel x:Name=”captureStreamDisplayPanel” /&gt; 
+&lt;/Page&gt; 
 
 
 // Definitions 
-ComPtr<IDXGISwapChain1> m_swapChain; 
+ComPtr&lt;IDXGISwapChain1&gt; m_swapChain; 
 HANDLE m_swapChainHandle; 
-ComPtr<ID3D11Device> m_d3dDevice; 
-ComPtr<IDXGIAdapter> dxgiAdapter; 
-ComPtr<IDXGIFactory2> dxgiFactory; 
-ComPtr<IDXGIFactoryMedia> dxgiFactoryMedia; 
-ComPtr<IDXGIDevice> dxgiDevice; 
+ComPtr&lt;ID3D11Device&gt; m_d3dDevice; 
+ComPtr&lt;IDXGIAdapter&gt; dxgiAdapter; 
+ComPtr&lt;IDXGIFactory2&gt; dxgiFactory; 
+ComPtr&lt;IDXGIFactoryMedia&gt; dxgiFactoryMedia; 
+ComPtr&lt;IDXGIDevice&gt; dxgiDevice; 
 DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {0}; 
 
 
 // Get DXGI factory (assume standard boilerplate has created D3D11Device) 
-m_d3dDevice.As(&dxgiDevice); 
-dxgiDevice->GetAdapter(&dxgiAdapter); 
-dxgiAdapter->GetParent(__uuidof(IDXGIFactory2), &dxgiFactory); 
+m_d3dDevice.As(&amp;dxgiDevice); 
+dxgiDevice-&gt;GetAdapter(&amp;dxgiAdapter); 
+dxgiAdapter-&gt;GetParent(__uuidof(IDXGIFactory2), &amp;dxgiFactory); 
 
 // Create swap chain and get handle 
-DCompositionCreateSurfaceHandle(GENERIC_ALL, nullptr, &m_swapChainHandle); 
-dxgiFactory.As(&dxgiFactoryMedia); 
-dxgiFactoryMedia->CreateSwapChainForCompositionSurfaceHandle( 
+DCompositionCreateSurfaceHandle(GENERIC_ALL, nullptr, &amp;m_swapChainHandle); 
+dxgiFactory.As(&amp;dxgiFactoryMedia); 
+dxgiFactoryMedia-&gt;CreateSwapChainForCompositionSurfaceHandle( 
   m_d3dDevice.Get(), 
   m_swapChainHandle, 
-  &swapChainDesc, 
+  &amp;swapChainDesc, 
   nullptr, 
-  &m_swapChain 
+  &amp;m_swapChain 
 ); 
 
 // Set swap chain to display in a SwapChainPanel 
-ComPtr<ISwapChainPanelNative2> panelNative; 
-reinterpret_cast<IUnknown*>(captureStreamDisplayPanel)->QueryInterface(IID_PPV_ARGS(&panelNative))); 
-panelNative->SetSwapChainHandle(m_swapChainHandle); 
-	
-```
-
-
+ComPtr&lt;ISwapChainPanelNative2&gt; panelNative; 
+reinterpret_cast&lt;IUnknown*&gt;(captureStreamDisplayPanel)-&gt;QueryInterface(IID_PPV_ARGS(&amp;panelNative))); 
+panelNative-&gt;SetSwapChainHandle(m_swapChainHandle); 
+	</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

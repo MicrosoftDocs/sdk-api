@@ -96,20 +96,24 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VARIANT var;
 
-```cpp
-VARIANT var;
-
-HRESULT hr = InitVariantFromDouble(3.1415, &var);
+HRESULT hr = InitVariantFromDouble(3.1415, &amp;var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_R8.
-    VariantClear(&propvar);
-}
-```
-
-
+    VariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

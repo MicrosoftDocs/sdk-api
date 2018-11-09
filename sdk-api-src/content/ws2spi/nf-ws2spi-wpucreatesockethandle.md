@@ -7,7 +7,7 @@ old-location: winsock\wpucreatesockethandle_2.htm
 tech.root: winsock
 ms.assetid: ecbf9d8b-b705-4160-ac77-afa5b1501534
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WPUCreateSocketHandle, WPUCreateSocketHandle function [Winsock], _win32_wpucreatesockethandle_2, winsock.wpucreatesockethandle_2, ws2spi/WPUCreateSocketHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

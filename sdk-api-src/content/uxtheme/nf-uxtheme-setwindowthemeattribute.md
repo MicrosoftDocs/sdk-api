@@ -7,7 +7,7 @@ old-location: controls\SetWindowThemeAttribute.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemeattribute.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows Controls], WTA_NONCLIENT, controls.SetWindowThemeAttribute, controls.inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute_cpp, uxtheme/SetWindowThemeAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to a window to apply changes to.
 
 
-### -param arg1 [in]
+### -param arg2 [in]
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 

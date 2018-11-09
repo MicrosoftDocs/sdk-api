@@ -7,7 +7,7 @@ old-location: security\cert_or_crl_blob.htm
 tech.root: seccrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: "*PCERT_OR_CRL_BLOB, CERT_BUNDLE_CERTIFICATE, CERT_BUNDLE_CRL, CERT_OR_CRL_BLOB, CERT_OR_CRL_BLOB structure [Security], PCERT_OR_CRL_BLOB, PCERT_OR_CRL_BLOB structure pointer [Security], _CERT_OR_CRL_BLOB, security.cert_or_crl_blob, wincrypt/CERT_OR_CRL_BLOB, wincrypt/PCERT_OR_CRL_BLOB"
 ms.prod: windows
 ms.technology: windows-sdk

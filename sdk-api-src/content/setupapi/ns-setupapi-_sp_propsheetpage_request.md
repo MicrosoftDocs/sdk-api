@@ -7,7 +7,7 @@ old-location: devinst\sp_propsheetpage_request.htm
 tech.root: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], _SP_PROPSHEETPAGE_REQUEST, devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,9 +108,13 @@ The component that is retrieving the property pages calls SetupAPI's <b>Extensio
 
 The following code excerpt shows how to retrieve one page, the SetupAPI's Resource Selection page:
 
-
-```
-{
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>{
     DWORD Err;
     HINSTANCE hLib;
     FARPROC PropSheetExtProc;
@@ -135,8 +139,8 @@ The following code excerpt shows how to retrieve one page, the SetupAPI's Resour
         PropPageRequest.DeviceInfoSet  = DeviceInfoSet;
         PropPageRequest.DeviceInfoData = DeviceInfoData;
 
-        if(!PropSheetExtProc(&PropPageRequest, 
-                AddPropSheetPageProc, &hPages[1])) {
+        if(!PropSheetExtProc(&amp;PropPageRequest, 
+                AddPropSheetPageProc, &amp;hPages[1])) {
             Err = ERROR_INVALID_PARAMETER;
             FreeLibrary(hLib);
             return Err;
@@ -144,15 +148,19 @@ The following code excerpt shows how to retrieve one page, the SetupAPI's Resour
         .
         .
         .
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>AddPropSheetPageProc</b> for the previous excerpt would be something like the following:
 
-
-```
-BOOL
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 CALLBACK
 AddPropSheetPageProc(
     IN HPROPSHEETPAGE hpage,
@@ -161,10 +169,10 @@ AddPropSheetPageProc(
 {
     *((HPROPSHEETPAGE *)lParam) = hpage;
     return TRUE;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

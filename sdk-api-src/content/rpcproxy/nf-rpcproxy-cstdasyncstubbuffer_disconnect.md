@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_disconnect.htm
 tech.root: rpc
 ms.assetid: B8450473-1C2D-48F5-9B68-438A25ADB4DF
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CStdAsyncStubBuffer_Disconnect, CStdAsyncStubBuffer_Disconnect function [RPC], rpc.cstdasyncstubbuffer_disconnect, rpcproxy/CStdAsyncStubBuffer_Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

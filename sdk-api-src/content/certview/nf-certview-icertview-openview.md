@@ -7,7 +7,7 @@ old-location: security\icertview2_openview.htm
 tech.root: seccrypto
 ms.assetid: d68a5463-f711-4737-b0ad-889f7e4855d5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertView object [Security],OpenView method, ICertView interface [Security],OpenView method, ICertView.OpenView, ICertView2 interface [Security],OpenView method, ICertView2::OpenView, ICertView::OpenView, OpenView, OpenView method [Security], OpenView method [Security],CCertView object, OpenView method [Security],ICertView interface, OpenView method [Security],ICertView2 interface, certview/ICertView2::OpenView, certview/ICertView::OpenView, security.icertview2_openview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,13 +99,17 @@ To view a nondefault column set or a subset of the rows, call
 
 #### Examples
 
-
-```cpp
-// pCertView is previously instantiated pointer to ICertView.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pCertView is previously instantiated pointer to ICertView.
 IEnumCERTVIEWROW * pEnumRow = NULL;
 HRESULT    hr;
 
-hr = pCertView->OpenView(&pEnumRow);
+hr = pCertView-&gt;OpenView(&amp;pEnumRow);
 if (S_OK != hr)
     printf("Failed ICertView::OpenView - %x\n", hr);
 else
@@ -113,10 +117,10 @@ else
     // ...
 // Done processing, free resources.
 if (NULL != pEnumRow)
-    pEnumRow->Release();
-```
-
-
+    pEnumRow-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

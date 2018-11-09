@@ -100,9 +100,13 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object, checks to see that the call to create the object was successful, and, if it was, uses the 
 						<b>Font</b> object to draw text.
 
-
-```cpp
-VOID Example_GetLastStatus(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -117,12 +121,12 @@ VOID Example_GetLastStatus(HDC hdc)
    {
        SolidBrush solidbrush(Color(255, 0, 0, 0));
        WCHAR      string[] = L"The call succeeded";
-       graphics.DrawString(string, 18, &myFont, PointF(0, 0), &solidbrush);
+       graphics.DrawString(string, 18, &amp;myFont, PointF(0, 0), &amp;solidbrush);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

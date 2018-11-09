@@ -99,9 +99,13 @@ The transformation applies only during rendering. The boundaries stored by the
 
 The following example creates a linear gradient brush and uses it to fill a rectangle. Next, the code modifies the brush's transformation matrix and fills a rectangle with the transformed brush.
 
-
-```cpp
-VOID Example_SetTransform(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetTransform(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -114,16 +118,16 @@ VOID Example_SetTransform(HDC hdc)
    Matrix matrix(2.0, 0, 0, 1, 0, 0);  // horizontal doubling
 
    // Fill a large area with the linear gradient brush (no transformation).
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 800, 50);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 800, 50);
 
-   linGrBrush.SetTransform(&matrix);
+   linGrBrush.SetTransform(&amp;matrix);
 
    // Fill a large area with the transformed linear gradient brush.
-   myGraphics.FillRectangle(&linGrBrush, 0, 75, 800, 50);
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 75, 800, 50);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

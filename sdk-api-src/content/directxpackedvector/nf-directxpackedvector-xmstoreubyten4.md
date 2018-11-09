@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreubyten4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUByteN4(XMUBYTEN4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByteN4, XMStoreUByteN4, XMStoreUByteN4 method [DirectX Math Support APIs], dxmath.xmstoreubyten4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,9 +83,13 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR N;	
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR N;	
 static const XMVECTOR  Scale = {255.0f, 255.0f, 255.0f, 255.0f};
 
 assert(pDestination);
@@ -94,13 +98,13 @@ N = XMVectorSaturate(V);
 N = XMVectorMultiply(N, Scale);
 N = XMVectorTruncate(N);
 
-pDestination->x = (uint8_t)N.v[0];
-pDestination->y = (uint8_t)N.v[1];
-pDestination->z = (uint8_t)N.v[2];
-pDestination->w = (uint8_t)N.v[3];
-```
-
-
+pDestination-&gt;x = (uint8_t)N.v[0];
+pDestination-&gt;y = (uint8_t)N.v[1];
+pDestination-&gt;z = (uint8_t)N.v[2];
+pDestination-&gt;w = (uint8_t)N.v[3];</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

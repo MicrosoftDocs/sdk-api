@@ -7,7 +7,7 @@ old-location: tapi2\linesetdevconfig.htm
 tech.root: tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_linesetdevconfig, lineSetDevConfig, lineSetDevConfig function [TAPI 2.2], lineSetDevConfigA, lineSetDevConfigW, tapi/lineSetDevConfig, tapi/lineSetDevConfigA, tapi/lineSetDevConfigW, tapi2.linesetdevconfig"
 ms.prod: windows-hardware
 ms.technology: windows-devices

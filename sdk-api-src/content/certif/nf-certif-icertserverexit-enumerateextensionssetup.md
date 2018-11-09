@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensionssetup.htm
 tech.root: seccrypto
 ms.assetid: 2a0c4919-b3a0-4027-85bd-970f6bc0cdeb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerExit object, EnumerateExtensionsSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsSetup method, ICertServerExit.EnumerateExtensionsSetup, ICertServerExit::EnumerateExtensionsSetup, _certsrv_icertserverexit_enumerateextensionssetup, certif/ICertServerExit::EnumerateExtensionsSetup, security.icertserverexit_enumerateextensionssetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,12 +88,16 @@ You must call
 
 #### Examples
 
-
-```cpp
-// Set the context. The value nContext (long) would be the same
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertExit::Notify.
 // hr is defined as an HRESULT.
-hr = pCertServerExit->SetContext( nContext );
+hr = pCertServerExit-&gt;SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
@@ -101,15 +105,15 @@ if (FAILED(hr))
 }
 
 // Setup the enumeration.
-hr = pCertServerExit->EnumerateExtensionsSetup( 0 );
+hr = pCertServerExit-&gt;EnumerateExtensionsSetup( 0 );
 if (FAILED(hr))
 {
     printf("Failed EnumerateExtensionsSetup [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

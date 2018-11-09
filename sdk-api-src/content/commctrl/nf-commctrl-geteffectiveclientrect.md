@@ -7,7 +7,7 @@ old-location: controls\GetEffectiveClientRect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetEffectiveClientRect, GetEffectiveClientRect function [Windows Controls], _win32_GetEffectiveClientRect, _win32_GetEffectiveClientRect_cpp, commctrl/GetEffectiveClientRect, controls.GetEffectiveClientRect, controls._win32_GetEffectiveClientRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_enumcertviewcolumn.htm
 tech.root: seccrypto
 ms.assetid: 78fd2431-c4c7-4df9-856a-69665fa8c063
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: EnumCertViewColumn, EnumCertViewColumn method [Security], EnumCertViewColumn method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewColumn method, IEnumCERTVIEWROW.EnumCertViewColumn, IEnumCERTVIEWROW::EnumCertViewColumn, _certsrv_ienumcertviewrow_enumcertviewcolumn, certview/IEnumCERTVIEWROW::EnumCertViewColumn, security.ienumcertviewrow_enumcertviewcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,21 +99,25 @@ To reference a different row, call one of the following methods to navigate thro
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW
 HRESULT               hr;
 LONG                  Index;
 IEnumCERTVIEWCOLUMN * pEnumCol = NULL;
 // obtain enumerator for columns
-hr = pEnumRow->EnumCertViewColumn(&pEnumCol);
+hr = pEnumRow-&gt;EnumCertViewColumn(&amp;pEnumCol);
 if ( FAILED( hr ))
 {
     printf("Failed EnumCertViewColumn - %x\n", hr );
     goto error;
 }
 // enumerate each column
-while (S_OK == pEnumCol->Next(&Index))
+while (S_OK == pEnumCol-&gt;Next(&amp;Index))
 {
     // Use this column as needed.
 }
@@ -121,10 +125,10 @@ error:
 
 // Free resources.
 if ( NULL != pEnumCol )
-    pEnumCol->Release();
-```
-
-
+    pEnumCol-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

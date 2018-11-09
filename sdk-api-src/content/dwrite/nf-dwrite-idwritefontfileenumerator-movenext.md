@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFileEnumerator_MoveNext.htm
 tech.root: DirectWrite
 ms.assetid: ffacdf0b-2e37-4b69-a6b5-7c6552ecdb60
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method, IDWriteFontFileEnumerator.MoveNext, IDWriteFontFileEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteFontFileEnumerator interface, directwrite.IDWriteFontFileEnumerator_MoveNext, dwrite/IDWriteFontFileEnumerator::MoveNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -108,22 +108,26 @@ The adapter property store makes calls to methods on the <a href="https://msdn.m
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776487(v=VS.85).aspx">PSCreateAdapterFromPropertyStore</a> to use an adapter property store to convert an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface into an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 IPropertySetStorage *pSetStorage;
 
-HRESULT hr = PSCreateadapterFromPropertyStore(ppropstore, IID_PPV_ARGS(&pSetStorage));
+HRESULT hr = PSCreateadapterFromPropertyStore(ppropstore, IID_PPV_ARGS(&amp;pSetStorage));
 
 if (SUCCEEDED(hr))
 {
     // pSetStorage is now valid and can be used to access the data in ppropstore.
-    pSetStorage->Release();
-}
-```
-
-
+    pSetStorage-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: dwm\dwmsetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,16 +102,20 @@ If Desktop Composition has been disabled, this function returns <b>DWM_E_COMPOSI
 
 The following example disables nonclient-area rendering, causing any previous calls to <a href="https://msdn.microsoft.com/en-us/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa969512(v=VS.85).aspx">DwmExtendFrameIntoClientArea</a> to be disabled.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT DisableNCRendering(HWND hwnd)
 {
    HRESULT hr = S_OK;
    DWMNCRENDERINGPOLICY ncrp = DWMNCRP_DISABLED;
 
    // Disable non-client area rendering on the window.
-   hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &ncrp, sizeof(ncrp));
+   hr = DwmSetWindowAttribute(hwnd, DWMWA_NCRENDERING_POLICY, &amp;ncrp, sizeof(ncrp));
 
    if (SUCCEEDED(hr))
    {
@@ -119,10 +123,10 @@ HRESULT DisableNCRendering(HWND hwnd)
    }
  
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcename.htm
 tech.root: mscs
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME function [Failover Cluster], ResUtilGetResourceName, ResUtilGetResourceName function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME, resapi/ResUtilGetResourceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

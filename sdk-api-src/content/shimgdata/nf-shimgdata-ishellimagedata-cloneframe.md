@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_CloneFrame.htm
 tech.root: shell
 ms.assetid: 220d307a-7969-443c-963b-80132509ad8b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],CloneFrame method, IShellImageData.CloneFrame, IShellImageData::CloneFrame, _shell_IShellImageData_CloneFrame, shell.IShellImageData_CloneFrame, shimgdata/IShellImageData::CloneFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

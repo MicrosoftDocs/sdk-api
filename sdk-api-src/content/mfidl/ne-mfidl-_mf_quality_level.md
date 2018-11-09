@@ -7,7 +7,7 @@ old-location: mf\mf_quality_level.htm
 tech.root: medfound
 ms.assetid: 6fe5abbb-c079-4d74-9c75-6fb502054546
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 6fe5abbb-c079-4d74-9c75-6fb502054546, MF_NUM_QUALITY_LEVELS, MF_QUALITY_LEVEL, MF_QUALITY_LEVEL enumeration [Media Foundation], MF_QUALITY_NORMAL, MF_QUALITY_NORMAL_MINUS_1, MF_QUALITY_NORMAL_MINUS_2, MF_QUALITY_NORMAL_MINUS_3, MF_QUALITY_NORMAL_MINUS_4, MF_QUALITY_NORMAL_MINUS_5, _MF_QUALITY_LEVEL, mf.mf_quality_level, mfidl/MF_NUM_QUALITY_LEVELS, mfidl/MF_QUALITY_LEVEL, mfidl/MF_QUALITY_NORMAL, mfidl/MF_QUALITY_NORMAL_MINUS_1, mfidl/MF_QUALITY_NORMAL_MINUS_2, mfidl/MF_QUALITY_NORMAL_MINUS_3, mfidl/MF_QUALITY_NORMAL_MINUS_4, mfidl/MF_QUALITY_NORMAL_MINUS_5
 ms.prod: windows
 ms.technology: windows-sdk

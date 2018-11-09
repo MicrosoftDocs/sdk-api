@@ -112,9 +112,13 @@ Depending on the format of the bitmap, <b>Bitmap::GetPixel</b> might not return 
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object based on a JPEG file. The code calls the <b>Bitmap::GetPixel</b> method to obtain the color of a pixel in the bitmap and then fills a rectangle with the retrieved color.
 
-
-```cpp
-VOID Example_GetPixel(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetPixel(HDC hdc)
 
 {
 
@@ -125,15 +129,15 @@ VOID Example_GetPixel(HDC hdc)
 
    // Get the value of a pixel from myBitmap.
    Color pixelColor;
-   myBitmap.GetPixel(25, 25, &pixelColor);
+   myBitmap.GetPixel(25, 25, &amp;pixelColor);
 
    // Fill a rectangle with the pixel color.
    SolidBrush brush(pixelColor);
-   graphics.FillRectangle(&brush, Rect(0, 0, 100, 100));
-}
-```
-
-
+   graphics.FillRectangle(&amp;brush, Rect(0, 0, 100, 100));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

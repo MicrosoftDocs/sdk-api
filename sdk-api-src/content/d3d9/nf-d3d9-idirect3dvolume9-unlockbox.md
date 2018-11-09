@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolume9__unlockbox.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__unlockbox.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 69485f47-b13d-cd47-c467-bbbd1e9f6113, IDirect3DVolume9 interface [Direct3D 9],UnlockBox method, IDirect3DVolume9.UnlockBox, IDirect3DVolume9::UnlockBox, UnlockBox, UnlockBox method [Direct3D 9], UnlockBox method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::UnlockBox, direct3d9.idirect3dvolume9__unlockbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

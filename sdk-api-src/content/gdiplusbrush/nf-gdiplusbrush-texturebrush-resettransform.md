@@ -90,28 +90,32 @@ Setting the transformation matrix to the identity matrix guarantees that no tran
 
 The following example creates a texture brush and sets the transformation of the brush. Next, the code uses the transformed brush to fill a rectangle. Then, the code resets the transformation of the brush and uses the untransformed brush to fill a rectangle.
 
-
-```cpp
-VOID Example_ResetTransform(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_ResetTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Create a texture brush, and set its transformation.
    Image image(L"HouseAndTree.Gif");
-   TextureBrush textureBrush(&image);
+   TextureBrush textureBrush(&amp;image);
    textureBrush.RotateTransform(30);
 
    // Fill a rectangle with the transformed texture brush.
-   graphics.FillRectangle(&textureBrush, 0, 0, 200, 100);
+   graphics.FillRectangle(&amp;textureBrush, 0, 0, 200, 100);
 
    textureBrush.ResetTransform();
    
    // Fill a rectangle with the texture brush (no transformation).
-   graphics.FillRectangle(&textureBrush, 250, 0, 200, 100);
-}
-```
-
-
+   graphics.FillRectangle(&amp;textureBrush, 250, 0, 200, 100);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

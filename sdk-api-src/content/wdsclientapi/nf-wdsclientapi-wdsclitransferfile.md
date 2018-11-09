@@ -7,7 +7,7 @@ old-location: wds\wdsclitransferfile.htm
 tech.root: wds
 ms.assetid: d219b7ee-4cb8-43ce-959b-4793c7df17ff
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferFile, WdsCliTransferFile function [Windows Deployment Services], wds.wdsclitransferfile, wdsclientapi/WdsCliTransferFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

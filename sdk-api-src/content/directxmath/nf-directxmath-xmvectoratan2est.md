@@ -7,7 +7,7 @@ old-location: dxmath\xmvectoratan2est.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATan2Est(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMVectorATan2Est, XMVectorATan2Est, XMVectorATan2Est method [DirectX Math Support APIs], dxmath.xmvectoratan2est
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorATan2Est
-: 
 ---
 
 # XMVectorATan2Est function

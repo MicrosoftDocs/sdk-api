@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_receive_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7pf6.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: "*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], PFAX_RECEIVE, PFAX_RECEIVE structure pointer [Fax Service], _FAX_RECEIVE, _mfax_fax_receive_str, fax._mfax_fax_receive_str, faxdev/FAX_RECEIVE, faxdev/PFAX_RECEIVE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,9 +108,13 @@ The FSP must set the <b>ReceiverName</b> and <b>ReceiverNumber</b> members in th
 
 The following code sample and diagram illustrate how to fill in the memory that the fax service allocates.
 
-
-```
-PWSTR ReceiverName;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PWSTR ReceiverName;
 PWSTR ReceiverNumber;
 
 //
@@ -122,15 +126,15 @@ PWSTR ReceiverNumber;
 //  in the FAX_RECEIVE structure; then
 //  copy the data to the appropriate offset.
 //
-FaxReceive->ReceiverNumber = (LPWSTR) ( (LPBYTE)FaxReceive->FileName + sizeof(WCHAR)*(wcslen(FaxReceive->FileName) + 1));
-wcscpy_s(  FaxReceive->ReceiverNumber, ReceiverNumber );
+FaxReceive-&gt;ReceiverNumber = (LPWSTR) ( (LPBYTE)FaxReceive-&gt;FileName + sizeof(WCHAR)*(wcslen(FaxReceive-&gt;FileName) + 1));
+wcscpy_s(  FaxReceive-&gt;ReceiverNumber, ReceiverNumber );
 
-FaxReceive->ReceiverName = (LPWSTR) ( (LPBYTE)FaxReceive->ReceiverNumber+ sizeof(WCHAR)*(wcslen(FaxReceive->ReceiverNumber) + 1));
-wcscpy_s(  FaxReceive->ReceiverName, ReceiverName );
-
-```
-
-
+FaxReceive-&gt;ReceiverName = (LPWSTR) ( (LPBYTE)FaxReceive-&gt;ReceiverNumber+ sizeof(WCHAR)*(wcslen(FaxReceive-&gt;ReceiverNumber) + 1));
+wcscpy_s(  FaxReceive-&gt;ReceiverName, ReceiverName );
+</pre>
+</td>
+</tr>
+</table></span></div>
 <img alt="Filling in the memory that the fax service allocates" src="./images/faxover.png"/>
 The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
 

@@ -7,7 +7,7 @@ old-location: gdi\emrtransparentblt.htm
 tech.root: gdi
 ms.assetid: f343bc6a-87b8-4c6b-b2cb-3d7f2f515fc1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PEMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT structure [Windows GDI], EMRTRANSPARENTBLT, EMRTRANSPARENTBLT structure [Windows GDI], PEMREMRTRANSPARENTBLT, PEMREMRTRANSPARENTBLT structure pointer [Windows GDI], _win32_EMRTRANSPARENTBLT_str, gdi.emrtransparentblt, tagEMRTRANSPARENTBLT, wingdi/EMRTRANSPARENTBLT, wingdi/PEMREMRTRANSPARENTBLT"
 ms.prod: windows
 ms.technology: windows-sdk

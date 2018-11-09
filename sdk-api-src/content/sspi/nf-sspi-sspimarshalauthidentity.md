@@ -7,7 +7,7 @@ old-location: security\sspimarshalauthidentity.htm
 tech.root: secauthn
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security], security.sspimarshalauthidentity, sspi/SspiMarshalAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

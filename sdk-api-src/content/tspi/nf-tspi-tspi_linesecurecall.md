@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesecurecall.htm
 tech.root: tapi
 ms.assetid: a064bf4b-3401-4f92-b318-a9f66de1e61f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: TSPI_lineSecureCall, TSPI_lineSecureCall function [TAPI 2.2], _tspi_tspi_linesecurecall, tspi.tspi_linesecurecall, tspi/TSPI_lineSecureCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

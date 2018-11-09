@@ -7,7 +7,7 @@ old-location: base\setprocessrestrictionexemption.htm
 tech.root: procthread
 ms.assetid: CC7EE5D7-ADFC-4859-88F8-C5C21AEBF315
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetProcessRestrictionExemption, SetProcessRestrictionExemption function, base.setprocessrestrictionexemption, winuser/SetProcessRestrictionExemption
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -97,9 +97,13 @@ You cannot use <a href="https://msdn.microsoft.com/en-us/library/ms534404(v=VS.8
 
 The following example sets the text rendering hint to two different values and draws text to demonstrate each value.
 
-
-```cpp
-VOID Example_SetTextRenderingHint(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetTextRenderingHint(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -110,9 +114,9 @@ VOID Example_SetTextRenderingHint(HDC hdc)
    graphics.DrawString(
    L"Low quality rendering",
        21,
-   &Font(L"Arial", 24),
+   &amp;Font(L"Arial", 24),
    PointF(0, 0),
-   &SolidBrush(Color(255, 0, 0, 0)));
+   &amp;SolidBrush(Color(255, 0, 0, 0)));
 
    // Get the text rendering hint.
    TextRenderingHint hint = graphics.GetTextRenderingHint();
@@ -124,13 +128,13 @@ VOID Example_SetTextRenderingHint(HDC hdc)
    graphics.DrawString(
    L"High quality rendering",
        22,
-   &Font(L"Arial", 24),
+   &amp;Font(L"Arial", 24),
    PointF(0, 50),
-   &SolidBrush(Color(255, 0, 0, 0)));
-}
-```
-
-
+   &amp;SolidBrush(Color(255, 0, 0, 0)));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

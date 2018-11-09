@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_endsession.htm
 tech.root: acquisition
 ms.assetid: fb22709a-c1f8-4608-b984-46181e7c704e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndSession method, IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession
 ms.prod: windows-hardware
 ms.technology: windows-devices

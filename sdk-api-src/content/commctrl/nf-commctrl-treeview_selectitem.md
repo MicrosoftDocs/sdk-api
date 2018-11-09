@@ -7,7 +7,7 @@ old-location: controls\TreeView_SelectItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectitem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TreeView_SelectItem, TreeView_SelectItem macro [Windows Controls], _win32_TreeView_SelectItem, _win32_TreeView_SelectItem_cpp, commctrl/TreeView_SelectItem, controls.TreeView_SelectItem, controls._win32_TreeView_SelectItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

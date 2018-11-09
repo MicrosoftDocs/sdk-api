@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateattributessetup.htm
 tech.root: seccrypto
 ms.assetid: 14b81b88-36db-4b01-96e6-eafed22ae02e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerPolicy object, EnumerateAttributesSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesSetup method, ICertServerPolicy.EnumerateAttributesSetup, ICertServerPolicy::EnumerateAttributesSetup, _certsrv_icertserverpolicy_enumerateattributessetup, certif/ICertServerPolicy::EnumerateAttributesSetup, security.icertserverpolicy_enumerateattributessetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,13 +88,17 @@ To retrieve the attribute, call the <a href="https://msdn.microsoft.com/en-us/li
 
 #### Examples
 
-
-```cpp
-// Set the context. The value nContext (long) would be the same
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->SetContext(nContext);
+hr = pCertServerPolicy-&gt;SetContext(nContext);
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
@@ -102,15 +106,15 @@ if (FAILED(hr))
 }
 
 // Setup the enumeration.
-hr = pCertServerPolicy->EnumerateAttributesSetup(0);
+hr = pCertServerPolicy-&gt;EnumerateAttributesSetup(0);
 if (FAILED(hr))
 {
     printf("Failed EnumerateAttributesSetup [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

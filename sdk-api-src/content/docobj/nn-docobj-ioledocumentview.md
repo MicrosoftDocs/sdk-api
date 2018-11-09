@@ -7,7 +7,7 @@ old-location: com\ioledocumentview.htm
 tech.root: com
 ms.assetid: 07948c08-f047-4ae0-a41b-5410b4bbf4d6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], IOleDocumentView interface [COM],described, _ole_ioledocumentview, com.ioledocumentview, docobj/IOleDocumentView
 ms.prod: windows
 ms.technology: windows-sdk

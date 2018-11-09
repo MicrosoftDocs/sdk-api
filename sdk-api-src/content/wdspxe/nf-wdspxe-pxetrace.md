@@ -7,7 +7,7 @@ old-location: wds\pxetrace.htm
 tech.root: wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,7 +137,7 @@ The trace message indicates a fatal error condition.
 Address of a buffer that contains a printf-style format string.
 
 
-### -param arg1
+### -param arg4
 
 Optional arguments. The number and type of argument parameters depend on the format control string pointed 
       to by the <i>pszFormat</i> parameter.

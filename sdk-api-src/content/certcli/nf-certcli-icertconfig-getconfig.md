@@ -7,7 +7,7 @@ old-location: security\icertconfig2_getconfig.htm
 tech.root: seccrypto
 ms.assetid: 3a35b2a0-f8e4-496d-b76a-a7310842cc4c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, CCertConfig object [Security],GetConfig method, GetConfig, GetConfig method [Security], GetConfig method [Security],CCertConfig object, GetConfig method [Security],ICertConfig interface, GetConfig method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetConfig method, ICertConfig.GetConfig, ICertConfig2 interface [Security],GetConfig method, ICertConfig2::GetConfig, ICertConfig::GetConfig, _certsrv_icertconfig_getconfig, certcli/ICertConfig2::GetConfig, certcli/ICertConfig::GetConfig, security.icertconfig2_getconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -331,9 +331,13 @@ The certification authority name portion of the configuration string returned by
 
 The following example shows how to use this method to retrieve the default certification authority configuration string.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     ICertConfig2 * pConfig = NULL;
     BSTR  bstrConfig = NULL; //Contains CA configuration name
     HRESULT    hr;
@@ -350,7 +354,7 @@ The following example shows how to use this method to retrieve the default certi
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertConfig2,
-                           (void **)&pConfig);
+                           (void **)&amp;pConfig);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance - pConfig [%x]\n", hr);
@@ -358,7 +362,7 @@ The following example shows how to use this method to retrieve the default certi
     }
 
     // Retrieve the default CA configuration string.
-    hr = pConfig->GetConfig(CC_DEFAULTCONFIG, &bstrConfig);
+    hr = pConfig-&gt;GetConfig(CC_DEFAULTCONFIG, &amp;bstrConfig);
     if (FAILED(hr))
     {
         printf("Failed GetConfig - [%x]\n", hr);
@@ -371,16 +375,16 @@ error:
 
     // Done processing.
     if (pConfig)
-        pConfig->Release();
+        pConfig-&gt;Release();
 
     if (bstrConfig)
         SysFreeString(bstrConfig);
 
     CoUninitialize();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

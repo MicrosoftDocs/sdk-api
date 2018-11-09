@@ -129,9 +129,13 @@ The following code example describes an implementation of
 <b>FindConsumer</b>. In the implementation following, assume two sinks exist for receiving events, one for each of the two different registered event filters. To determine which sink 
 <b>FindConsumer</b> sends back to WMI, the code examines the incoming logical consumer object.
 
-
-```cpp
-HRESULT MyEventConsumerClass::FindConsumer(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT MyEventConsumerClass::FindConsumer(
    /* [in] */ IWbemClassObject __RPC_FAR *pLogicalConsumer,
    /* [out] */ IWbemUnboundObjectSink __RPC_FAR *__RPC_FAR *ppConsumer
    )
@@ -140,40 +144,40 @@ HRESULT MyEventConsumerClass::FindConsumer(
    // ====================================================
 
    VARIANT v;    
-   VariantInit(&v);
+   VariantInit(&amp;v);
 
    HRESULT hRes = WBEM_E_NOT_FOUND;
    *ppConsumer = 0;
 
-   pLogicalConsumer->Get(_bstr_t(L"Name"), 0, &v, 0, 0);
+   pLogicalConsumer-&gt;Get(_bstr_t(L"Name"), 0, &amp;v, 0, 0);
 
    // Decide which of the two logical consumers to send back.
    // =======================================================
 
-   if (_wcsicmp(V_BSTR(&v), L"Consumer1") == 0)
+   if (_wcsicmp(V_BSTR(&amp;v), L"Consumer1") == 0)
    {
 
     //send back the Consumer1 sink to WMI
     // For example:
-      /*hRes =  m_pConsumer1->
+      /*hRes =  m_pConsumer1-&gt;
          QueryInterface(IID_IWbemUnboundObjectSink,
                            (LPVOID*)ppConsumer);*/
    }
-   else if (_wcsicmp(V_BSTR(&v), L"Consumer2") == 0)
+   else if (_wcsicmp(V_BSTR(&amp;v), L"Consumer2") == 0)
    {
     //send back the Consumer2 sink to WMI
     // For example:
-      /*hRes =  m_pConsumer2->
+      /*hRes =  m_pConsumer2-&gt;
           QueryInterface(IID_IWbemUnboundObjectSink,
                             (LPVOID*)ppConsumer);*/
    }
 
-   VariantClear(&v);
+   VariantClear(&amp;v);
    return hRes;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

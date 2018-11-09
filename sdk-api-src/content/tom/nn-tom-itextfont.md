@@ -7,7 +7,7 @@ old-location: controls\ITextFont.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], ITextFont interface [Windows Controls],described, _win32_ITextFont, _win32_ITextFont_cpp, controls.ITextFont, controls._win32_ITextFont, tom/ITextFont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -576,19 +576,23 @@ Sets the font weight for the characters in a range.
 
 The <b>ITextFont</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> interfaces encapsulate the functionality of the Microsoft Word Format <b>Font</b> and <b>Paragraph</b> dialog boxes, respectively. Both interfaces include a duplicate (<b>Value</b>) property that can return a duplicate of the attributes in a range object or transfer a set of attributes to a range. As such, they act like programmable format painters. For example, you could transfer all attributes from range r1 to range r2 except for making r2 bold and the font size 12 points by using the following subroutine.
 
-
-```
-Sub AttributeCopy(r1 As ITextRange, r2 As ITextRange)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub AttributeCopy(r1 As ITextRange, r2 As ITextRange)
     Dim tf As ITextFont
     tf = r1.Font                ' Value is the default property    
     tf.Bold = tomTrue           ' You can make some modifications
     tf.Size = 12
     tf.Animation = tomSparkleText
     r2.Font = tf                ' Apply font attributes all at once
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 See <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">SetFont</a> for a similar example written in C++.
 
 The <b>ITextFont</b> attribute interface represents the traditional Microsoft Visual Basic for Applications (VBA) way of setting properties and it gives the desired VBA notation.

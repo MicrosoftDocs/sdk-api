@@ -95,30 +95,34 @@ There are, however, some queries that do not require calls to Begin. For a list 
 
 A query is typically executed as shown in the following code:
 
-
-```
-D3D10_QUERY_DESC queryDesc;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>D3D10_QUERY_DESC queryDesc;
 
 ... // Fill out queryDesc structure
 
 ID3D10Query * pQuery;
-pDevice->CreateQuery(&queryDesc, &pQuery);
+pDevice-&gt;CreateQuery(&amp;queryDesc, &amp;pQuery);
 
-pQuery->Begin();
+pQuery-&gt;Begin();
 
 ... // Issue graphis commands, do whatever
 
-pQuery->End();
+pQuery-&gt;End();
 
 UINT64 queryData; // This data type is different depending on the query type
 
-while( S_OK != pQuery->GetData(&queryData, sizeof(UINT64), 0) )
+while( S_OK != pQuery-&gt;GetData(&amp;queryData, sizeof(UINT64), 0) )
 {
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 When using a query that does not require a call to Begin, it still requires a call to End. The call to End causes the data returned by GetData to be accurate up until the last call to End.
 
 

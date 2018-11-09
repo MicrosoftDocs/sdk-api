@@ -115,15 +115,19 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
 						<b>StringFormat</b> object to draw a string that contains tab characters (\t). The code also draws the string's layout rectangle.
 
-
-```cpp
-VOID Example_SetTabStops(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetTabStops(HDC hdc)
 {
    Graphics graphics(hdc);
 
    REAL         tabs[] = {150, 100, 100};
    FontFamily   fontFamily(L"Courier New");
-   Font         font(&fontFamily, 12, FontStyleRegular, UnitPoint);
+   Font         font(&amp;fontFamily, 12, FontStyleRegular, UnitPoint);
    SolidBrush   solidBrush(Color(255, 0, 0, 255));
 
    StringFormat stringFormat;
@@ -131,18 +135,18 @@ VOID Example_SetTabStops(HDC hdc)
    graphics.DrawString(
       L"Name\tTest 1\tTest 2\tTest 3", 
       25, 
-      &font, 
+      &amp;font, 
       RectF(20, 20, 500, 100), 
-      &stringFormat, 
-      &solidBrush);
+      &amp;stringFormat, 
+      &amp;solidBrush);
 
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&pen, 20, 20, 500, 100);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, 20, 20, 500, 100);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

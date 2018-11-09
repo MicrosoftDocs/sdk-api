@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_skip.htm
 tech.root: seccrypto
 ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Skip method, IEnumCERTVIEWCOLUMN object [Security],Skip method, IEnumCERTVIEWCOLUMN.Skip, IEnumCERTVIEWCOLUMN::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWCOLUMN interface, Skip method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewcolumn_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,26 +106,30 @@ If a positive value of the <i>celt</i> parameter causes the index to exceed the 
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     Index;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 // skip the next five columns
-hr = pEnumCol->Skip(5);
+hr = pEnumCol-&gt;Skip(5);
 if (S_OK == hr) 
 {
     // get the next column
-    hr = pEnumCol->Next(&Index);
+    hr = pEnumCol-&gt;Next(&amp;Index);
     if (S_OK == hr)
     {
         // Use this column as needed.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

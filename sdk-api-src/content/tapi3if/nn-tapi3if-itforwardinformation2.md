@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation2.htm
 tech.root: tapi
 ms.assetid: 25c99955-1a9d-49fa-9432-962e19296ad5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], ITForwardInformation2 interface [TAPI 2.2],described, _tapi3_itforwardinformation2, tapi3.itforwardinformation2, tapi3if/ITForwardInformation2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dxmath\xmstoresint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreSInt3(XMINT3@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMStoreSInt3, XMStoreSInt3, XMStoreSInt3 method [DirectX Math Support APIs], dxmath.xmstoresint3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMStoreSInt3
-: 
 ---
 
 # XMStoreSInt3 function
@@ -91,13 +85,9 @@ For 16-byte aligned memory, it may be faster to use <a href="https://msdn.micros
 
 The following pseudocode shows the operation of this function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 XMVECTOR N;	
 
 assert(pDestination);
@@ -105,15 +95,15 @@ assert(pDestination);
 N = XMVectorClamp(V, MinInt, MaxInt );
 N = XMVectorRound(N);
 
-pDestination-&gt;x = (int32_t)N.v[0];
-pDestination-&gt;y = (int32_t)N.v[1];
-pDestination-&gt;z = (int32_t)N.v[2];
+pDestination->x = (int32_t)N.v[0];
+pDestination->y = (int32_t)N.v[1];
+pDestination->z = (int32_t)N.v[2];
 
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

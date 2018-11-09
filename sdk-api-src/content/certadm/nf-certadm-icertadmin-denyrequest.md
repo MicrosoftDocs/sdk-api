@@ -7,7 +7,7 @@ old-location: security\icertadmin2_denyrequest.htm
 tech.root: seccrypto
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, DenyRequest method [Security], DenyRequest method [Security],CCertAdmin interface, DenyRequest method [Security],ICertAdmin interface, DenyRequest method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DenyRequest method, ICertAdmin.DenyRequest, ICertAdmin2 interface [Security],DenyRequest method, ICertAdmin2::DenyRequest, ICertAdmin::DenyRequest, certadm/ICertAdmin2::DenyRequest, certadm/ICertAdmin::DenyRequest, security.icertadmin2_denyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,13 @@ The following example declares the necessary variables, initializes COM, and cre
 
 
 
-
-```cpp
-//  Pointer to an interface object.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Pointer to an interface object.
 ICertAdmin * pCertAdmin = NULL;
 
     BSTR       bstrCA = NULL;  // variable for machine\CAName
@@ -110,7 +114,7 @@ ICertAdmin * pCertAdmin = NULL;
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertAdmin,
-                           (void **)&pCertAdmin);
+                           (void **)&amp;pCertAdmin);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertAdmin [%x]\n", hr);
@@ -118,7 +122,7 @@ ICertAdmin * pCertAdmin = NULL;
     }
 
     //  Note the use of two '\' in C++ to produce one '\'.
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA)
     {
         printf("Failed to allocate memory for bstrCA\n");
@@ -126,10 +130,10 @@ ICertAdmin * pCertAdmin = NULL;
     }
 
     //  nReqID is RequestID to be denied.
-    nReqID = <REQUESTIDHERE>;
+    nReqID = &lt;REQUESTIDHERE&gt;;
 
     //  Deny the request.
-    hr = pCertAdmin->DenyRequest( bstrCA, nReqID );
+    hr = pCertAdmin-&gt;DenyRequest( bstrCA, nReqID );
     if (FAILED(hr))
     {
         printf("Failed DenyRequest %ws %d [%x]\n",
@@ -151,13 +155,13 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertAdmin)
-        pCertAdmin->Release();
+        pCertAdmin-&gt;Release();
 
     //  Free COM resources.
-    CoUninitialize(); 
-```
-
-
+    CoUninitialize(); </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

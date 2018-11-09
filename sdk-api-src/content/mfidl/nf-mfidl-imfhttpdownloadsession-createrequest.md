@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession_createrequest.htm
 tech.root: medfound
 ms.assetid: 111A075A-82A7-4607-9359-37B2DA97AFC5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateRequest, CreateRequest method [Media Foundation], CreateRequest method [Media Foundation],IMFHttpDownloadSession interface, IMFHttpDownloadSession interface [Media Foundation],CreateRequest method, IMFHttpDownloadSession.CreateRequest, IMFHttpDownloadSession::CreateRequest, mf.imfhttpdownloadsession_createrequest, mfidl/IMFHttpDownloadSession::CreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

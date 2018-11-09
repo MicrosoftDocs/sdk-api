@@ -7,7 +7,7 @@ old-location: security\certsrvbackupfree.htm
 tech.root: seccrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvBackupFree, CertSrvBackupFree function [Security], _certsrv_certsrvbackupfree, certbcli/CertSrvBackupFree, security.certsrvbackupfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,9 +98,13 @@ Call this function when finished with memory allocated by using the following fu
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPFREE* pfnBackupFree;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPFREE* pfnBackupFree;
 
 char * szBackupFreeFunc = "CertSrvBackupFree";
 
@@ -121,10 +125,10 @@ if ( NULL == pfnBackupFree )
 
 // Free allocated memory.
 // pBuff was allocated by another certsrv backup function.
-pfnBackupFree(pBuff);
-```
-
-
+pfnBackupFree(pBuff);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

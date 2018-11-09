@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_getvalue.htm
 tech.root: seccrypto
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetValue method, IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -202,16 +202,20 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetValu
 
 #### Examples
 
-
-```cpp
-HRESULT     hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT     hr;
 VARIANT     var;
 SYSTEMTIME  systime;
 
-VariantInit(&var);
+VariantInit(&amp;var);
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
-hr = pEnumCol->GetValue(CV_OUT_HEX, &var);
+hr = pEnumCol-&gt;GetValue(CV_OUT_HEX, &amp;var);
 if ( FAILED (hr) )
 {
     printf("Failed GetValue - %x\n", hr);
@@ -226,7 +230,7 @@ switch( var.vt )
         printf("%ws\n", var.bstrVal );
         break;
     case VT_DATE:
-        VariantTimeToSystemTime( var.date, &systime );
+        VariantTimeToSystemTime( var.date, &amp;systime );
         printf("%d.%d.%d %02d:%02d:%02d\n",
                systime.wMonth,
                systime.wDay,
@@ -246,10 +250,10 @@ switch( var.vt )
         break;
 }
 // done processing, clear resources
-VariantClear( &var );
-```
-
-
+VariantClear( &amp;var );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

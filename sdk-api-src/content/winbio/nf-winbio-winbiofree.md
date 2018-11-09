@@ -166,9 +166,13 @@ memory created by <b>WinBioEnumBiometricUnits</b>. Link to the Winbio.lib static
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT EnumerateSensors( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumerateSensors( )
 {
     HRESULT hr = S_OK;
     PWINBIO_UNIT_SCHEMA unitSchema = NULL;
@@ -177,8 +181,8 @@ HRESULT EnumerateSensors( )
     // Enumerate the installed biometric units.
     hr = WinBioEnumBiometricUnits( 
             WINBIO_TYPE_FINGERPRINT,        // Type of biometric unit
-            &unitSchema,                    // Array of unit schemas
-            &unitCount );                   // Count of unit schemas
+            &amp;unitSchema,                    // Array of unit schemas
+            &amp;unitCount );                   // Count of unit schemas
 
     if (FAILED(hr))
     {
@@ -198,10 +202,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

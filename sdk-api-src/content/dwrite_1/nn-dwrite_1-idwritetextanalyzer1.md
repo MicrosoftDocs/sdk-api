@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1.htm
 tech.root: DirectWrite
 ms.assetid: 7F79BA25-5D79-4491-82E3-F9B96DD0C37D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IDWriteTextAnalyzer1, IDWriteTextAnalyzer1 interface [Direct Write], IDWriteTextAnalyzer1 interface [Direct Write],described, directwrite.idwritetextanalyzer1, dwrite_1/IDWriteTextAnalyzer1
 ms.prod: windows
 ms.technology: windows-sdk

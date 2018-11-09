@@ -109,9 +109,13 @@ The following illustration explains this process. The red arrows represent the d
 
 The following code example creates the geometry groups used the preceding illustrations. The code first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <b>D2D1_FILL_MODE_ALTERNATE</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
-
-```cpp
-HRESULT DemoApp::CreateGeometryResources()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::CreateGeometryResources()
 {
     HRESULT hr;
 
@@ -121,9 +125,9 @@ HRESULT DemoApp::CreateGeometryResources()
         25.0f
         );
 
-    hr = m_pD2DFactory->CreateEllipseGeometry(
+    hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
         ellipse1,
-        &m_pEllipseGeometry1
+        &amp;m_pEllipseGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -134,9 +138,9 @@ HRESULT DemoApp::CreateGeometryResources()
             50.0f
             );
 
-        hr = m_pD2DFactory->CreateEllipseGeometry(
+        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
             ellipse2,
-            &m_pEllipseGeometry2
+            &amp;m_pEllipseGeometry2
             );
     }
 
@@ -149,9 +153,9 @@ HRESULT DemoApp::CreateGeometryResources()
             75.0f
             );
 
-        hr = m_pD2DFactory->CreateEllipseGeometry(
+        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
             ellipse3,
-            &m_pEllipseGeometry3
+            &amp;m_pEllipseGeometry3
             );
     }
 
@@ -163,9 +167,9 @@ HRESULT DemoApp::CreateGeometryResources()
             100.0f
             );
 
-        hr = m_pD2DFactory->CreateEllipseGeometry(
+        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
             ellipse4,
-            &m_pEllipseGeometry4
+            &amp;m_pEllipseGeometry4
             );
     }
 
@@ -179,30 +183,30 @@ HRESULT DemoApp::CreateGeometryResources()
             m_pEllipseGeometry4
         };
 
-        hr = m_pD2DFactory->CreateGeometryGroup(
+        hr = m_pD2DFactory-&gt;CreateGeometryGroup(
             D2D1_FILL_MODE_ALTERNATE,
             ppGeometries,
             ARRAYSIZE(ppGeometries),
-            &m_pGeoGroup_AlternateFill
+            &amp;m_pGeoGroup_AlternateFill
             );
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pD2DFactory->CreateGeometryGroup(
+            hr = m_pD2DFactory-&gt;CreateGeometryGroup(
                 D2D1_FILL_MODE_WINDING,
                 ppGeometries,
                 ARRAYSIZE(ppGeometries),
-                &m_pGeoGroup_WindingFill
+                &amp;m_pGeoGroup_WindingFill
                 );
         }
 
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

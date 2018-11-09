@@ -7,7 +7,7 @@ old-location: com\olegetclipboard.htm
 tech.root: com
 ms.assetid: c5e7badb-339b-48d5-8c9a-3950e2ffe6bf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

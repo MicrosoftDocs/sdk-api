@@ -7,7 +7,7 @@ old-location: mscs\clus_netname_vs_token_info.htm
 tech.root: mscs
 ms.assetid: 9b4fc589-f4e4-4fcf-b3df-3b0b6f9f4e65
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: "*PCLUS_NETNAME_VS_TOKEN_INFO, *PCLUS_VS_TOKEN_INFO, CLUS_NETNAME_VS_TOKEN_INFO, CLUS_NETNAME_VS_TOKEN_INFO structure [Failover Cluster], CLUS_VS_TOKEN_INFO, CLUS_VS_TOKEN_INFO structure [Failover Cluster], PCLUS_NETNAME_VS_TOKEN_INFO, PCLUS_NETNAME_VS_TOKEN_INFO structure pointer [Failover Cluster], PCLUS_VS_TOKEN_INFO, PCLUS_VS_TOKEN_INFO structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_VS_TOKEN_INFO, clusapi/CLUS_VS_TOKEN_INFO, clusapi/PCLUS_NETNAME_VS_TOKEN_INFO, clusapi/PCLUS_VS_TOKEN_INFO, mscs.clus_netname_vs_token_info"
 ms.prod: windows
 ms.technology: windows-sdk

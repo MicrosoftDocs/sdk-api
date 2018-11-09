@@ -107,17 +107,21 @@ If a quality of service has not been specified for a client window,
 				<i>wParam</i> set to 
 				<i>hwndClient</i>, the system uses the following default quality of service values for the client window: 
 
-
-```
-{ 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>{ 
    Length = sizeof(SECURITY_QUALITY_OF_SERVICE); 
    ImpersonationLevel = SecurityImpersonation; 
    ContextTrackingMode = SECURITY_STATIC_TRACKING; 
    EffectiveOnly = TRUE; 
-} 
-```
-
-
+} </pre>
+</td>
+</tr>
+</table></span></div>
 Use the <b>DdeSetQualityOfService</b> function to associate a different quality of service with the client window. After you change the quality of service, the new settings affect any subsequent conversations that are started. Once an application starts a DDE conversation using a particular quality of service value, it must terminate the conversation and restart the conversation in order to have a different value take effect. 
 
 

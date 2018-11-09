@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsetupmanager_protocols.htm
 tech.root: wds
 ms.assetid: 554364cf-c3ee-46ce-a483-c3304b608595
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Protocols property, IWdsTransportSetupManager.Protocols, IWdsTransportSetupManager.get_Protocols, IWdsTransportSetupManager::Protocols, IWdsTransportSetupManager::get_Protocols, Protocols property [Windows Deployment Services], Protocols property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Protocols, wds.iwdstransportsetupmanager_protocols, wdstptmgmt/IWdsTransportSetupManager::Protocols, wdstptmgmt/IWdsTransportSetupManager::get_Protocols
 ms.prod: windows-hardware
 ms.technology: windows-devices

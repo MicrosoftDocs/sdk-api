@@ -7,7 +7,7 @@ old-location: controls\MenuHelp.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\status\functions\menuhelp.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MenuHelp, MenuHelp function [Windows Controls], _win32_MenuHelp, _win32_MenuHelp_cpp, commctrl/MenuHelp, controls.MenuHelp, controls._win32_MenuHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices

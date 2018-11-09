@@ -7,7 +7,7 @@ old-location: base\createprocess.htm
 tech.root: procthread
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 ms.prod: windows-hardware
 ms.technology: windows-devices

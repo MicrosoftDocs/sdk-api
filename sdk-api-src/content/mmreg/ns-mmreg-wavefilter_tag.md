@@ -7,7 +7,7 @@ old-location: multimedia\wavefilter.htm
 tech.root: Multimedia
 ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter, wavefilter_tag"
 ms.prod: windows
 ms.technology: windows-sdk

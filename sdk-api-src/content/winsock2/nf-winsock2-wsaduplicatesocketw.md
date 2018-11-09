@@ -7,7 +7,7 @@ old-location: winsock\wsaduplicatesocket_2.htm
 tech.root: winsock
 ms.assetid: d4028461-bfa6-4074-9460-5d1371790d41
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSADuplicateSocket, WSADuplicateSocket function [Winsock], WSADuplicateSocketA, WSADuplicateSocketW, _win32_wsaduplicatesocket_2, winsock.wsaduplicatesocket_2, winsock2/WSADuplicateSocket, winsock2/WSADuplicateSocketA, winsock2/WSADuplicateSocketW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\direct3dcreate9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3d_tutorials.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,17 +85,21 @@ The Direct3D object is the first Direct3D COM object that your graphical applica
 
 Create an IDirect3D9 object as shown here:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 LPDIRECT3D9 g_pD3D = NULL;
     
 if( NULL == (g_pD3D = Direct3DCreate9(D3D_SDK_VERSION)))
     return E_FAIL;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The IDirect3D9 interface supports enumeration of active display adapters and allows the creation of <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> objects. If the user dynamically adds adapters (either by adding devices to the desktop, or by hot-docking a laptop), those devices will not be included in the enumeration. Creating a new IDirect3D9 interface will expose the new devices.
 
 D3D_SDK_VERSION is passed to this function to ensure that the header files against which an application is compiled match the version of the runtime DLL's that are installed on the machine. D3D_SDK_VERSION is only changed in the runtime when a header change (or other code change) would require an application to be rebuilt. If this function fails, it indicates that the header file version does not match the runtime DLL version.

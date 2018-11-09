@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getreftypeinfo.htm
 tech.root: automat
 ms.assetid: 61d3b31d-6591-4e55-9e82-5246a168be00
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetRefTypeInfo, GetRefTypeInfo method [Automation], GetRefTypeInfo method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeInfo method, ITypeInfo.GetRefTypeInfo, ITypeInfo::GetRefTypeInfo, _oa96_ITypeInfo_GetRefTypeInfo, automat.itypeinfo_getreftypeinfo, oaidl/ITypeInfo::GetRefTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -269,50 +269,58 @@ Retrieves an XML string that describes the values of the data collector properti
 
 The following example shows the XML that you can use to initialize this object if you call the <a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">IDataCollectorCollection::CreateDataCollectorFromXml</a> property to create one of the derived data collectors. The <a href="https://msdn.microsoft.com/c362cd5f-2db3-40ad-8f5e-e75a40db204c">IDataCollector::Xml</a> property also returns this XML.
 
-
-```xml
-
-    <FileName/>
-    <FileNameFormat/>
-    <FileNameFormatPattern/>
-    <Index/>
-    <LatestOutputLocation/>
-    <LogAppend/>
-    <LogCircular/>
-    <LogOverwrite/>
-    <Name/>
-    <OutputLocation/>
-
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>
+    &lt;FileName/&gt;
+    &lt;FileNameFormat/&gt;
+    &lt;FileNameFormatPattern/&gt;
+    &lt;Index/&gt;
+    &lt;LatestOutputLocation/&gt;
+    &lt;LogAppend/&gt;
+    &lt;LogCircular/&gt;
+    &lt;LogOverwrite/&gt;
+    &lt;Name/&gt;
+    &lt;OutputLocation/&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Note that the example does not show the property elements of the derived data collector (see each data collector for its XML elements). Include these elements in the data collectors XML as appropriate. The following example shows the XML for the alert data collector. You can specify the elements in any order.
 
-
-```xml
-<AlertDataCollector>
-    <FileName/>
-    <FileNameFormat/>
-    <FileNameFormatPattern/>
-    <Index/>
-    <LatestOutputLocation/>
-    <LogAppend/>
-    <LogCircular/>
-    <LogOverwrite/>
-    <Name/>
-    <OutputLocation/>
-    <Alert/>  <!-- Specify an <Alert> element for each alert -->
-    <EventLog/>
-    <SampleInterval/>
-    <Task/>
-    <TaskArguments/>
-    <TaskUserTextArguments/>
-    <TaskSetWorkingDirectory/>
-    <TriggerDataCollectorSet/>
-</AlertDataCollector>
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;AlertDataCollector&gt;
+    &lt;FileName/&gt;
+    &lt;FileNameFormat/&gt;
+    &lt;FileNameFormatPattern/&gt;
+    &lt;Index/&gt;
+    &lt;LatestOutputLocation/&gt;
+    &lt;LogAppend/&gt;
+    &lt;LogCircular/&gt;
+    &lt;LogOverwrite/&gt;
+    &lt;Name/&gt;
+    &lt;OutputLocation/&gt;
+    &lt;Alert/&gt;  &lt;!-- Specify an &lt;Alert&gt; element for each alert --&gt;
+    &lt;EventLog/&gt;
+    &lt;SampleInterval/&gt;
+    &lt;Task/&gt;
+    &lt;TaskArguments/&gt;
+    &lt;TaskUserTextArguments/&gt;
+    &lt;TaskSetWorkingDirectory/&gt;
+    &lt;TriggerDataCollectorSet/&gt;
+&lt;/AlertDataCollector&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <b>IDataCollector</b>. 
 
 

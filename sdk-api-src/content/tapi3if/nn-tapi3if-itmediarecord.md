@@ -7,7 +7,7 @@ old-location: tapi3\itmediarecord.htm
 tech.root: tapi
 ms.assetid: 604b0128-1461-40f2-98fe-801dbb71e005
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITMediaRecord, ITMediaRecord interface [TAPI 2.2], ITMediaRecord interface [TAPI 2.2],described, _tapi3_itmediarecord, tapi3.itmediarecord, tapi3if/ITMediaRecord
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_Open.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\open.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextDocument interface [Windows Controls],Open method, ITextDocument.Open, ITextDocument::Open, Open, Open method [Windows Controls], Open method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Open, _win32_ITextDocument_Open_cpp, controls.ITextDocument_Open, controls._win32_ITextDocument_Open, tom/ITextDocument::Open, tomCreateAlways, tomCreateNew, tomHTML, tomOpenAlways, tomOpenExisting, tomPasteFile, tomRTF, tomReadOnly, tomShareDenyRead, tomShareDenyWrite, tomText, tomTruncateExisting, tomWordDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -259,23 +259,27 @@ Errors are reported by negative values, but because file operations have many ki
 
 
 
-
-```
-HRESULT hr;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 VARIANT Var;
-VariantInit(&Var)
+VariantInit(&amp;Var)
 
 Var.vt = VT_BSTR;
 Var.bstrVal = SysAllocString(L"test.txt"); // Use file command
-hr = pDoc->Open(&Var, tomOpenExisting, 0);
-hr &= ~0x40000; // Mask off bit 18
+hr = pDoc-&gt;Open(&amp;Var, tomOpenExisting, 0);
+hr &amp;= ~0x40000; // Mask off bit 18
 if(hr == STG_E_FILENOTFOUND)
 {
 ...// the rest of the code
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\closecluster.htm
 tech.root: mscs
 ms.assetid: cf055fd6-b1e1-4262-b205-c7d926522450
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: CloseCluster, CloseCluster function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER, PCLUSAPI_CLOSE_CLUSTER function [Failover Cluster], _wolf_closecluster, clusapi/CloseCluster, clusapi/PCLUSAPI_CLOSE_CLUSTER, mscs.closecluster
 ms.prod: windows-hardware
 ms.technology: windows-devices

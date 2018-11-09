@@ -7,7 +7,7 @@ old-location: wcs\setupcolormatching.htm
 tech.root: WCS
 ms.assetid: 7d3b6d3f-49f4-46f5-a43b-868e53965d8f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetupColorMatching, SetupColorMatching function [Windows Color System], SetupColorMatchingA, SetupColorMatchingW, _color_SetupColorMatching, icm/SetupColorMatching, icm/SetupColorMatchingA, icm/SetupColorMatchingW, wcs.setupcolormatching
 ms.prod: windows-hardware
 ms.technology: windows-devices

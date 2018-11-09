@@ -181,9 +181,13 @@ A text service receives a pointer to this interface in its <a href="https://msdn
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfThreadMgr* pThreadMgr;
 
@@ -191,11 +195,11 @@ hr = CoCreateInstance(  CLSID_TF_ThreadMgr,
                         NULL, 
                         CLSCTX_INPROC_SERVER, 
                         IID_ITfThreadMgr, 
-                        (void**)&pThreadMgr);
-
-```
-
-
+                        (void**)&amp;pThreadMgr);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

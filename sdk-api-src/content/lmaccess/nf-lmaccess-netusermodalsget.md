@@ -249,16 +249,20 @@ The following code sample demonstrates how to retrieve global information for al
 <b>NetUserModalsGet</b> function. The sample calls 
 <b>NetUserModalsGet</b>, specifying information level 0 (<a href="https://msdn.microsoft.com/cf3dd091-106e-4a0d-b4db-62bd11fd65cf">USER_MODALS_INFO_0</a>). If the call succeeds, the sample prints global password information. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -267,7 +271,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPTSTR pszServerName = NULL;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -281,7 +285,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetUserModalsGet((LPCWSTR) pszServerName,
                               dwLevel,
-                              (LPBYTE *)&pBuf);
+                              (LPBYTE *)&amp;pBuf);
    //
    // If the call succeeds, print the global information.
    //
@@ -289,11 +293,11 @@ int wmain(int argc, wchar_t *argv[])
    {
       if (pBuf != NULL)
       {
-         printf("\tMinimum password length:  %d\n", pBuf->usrmod0_min_passwd_len);
-         printf("\tMaximum password age (d): %d\n", pBuf->usrmod0_max_passwd_age/86400);
-         printf("\tMinimum password age (d): %d\n", pBuf->usrmod0_min_passwd_age/86400);
-         printf("\tForced log off time (s):  %d\n", pBuf->usrmod0_force_logoff);
-         printf("\tPassword history length:  %d\n", pBuf->usrmod0_password_hist_len);
+         printf("\tMinimum password length:  %d\n", pBuf-&gt;usrmod0_min_passwd_len);
+         printf("\tMaximum password age (d): %d\n", pBuf-&gt;usrmod0_max_passwd_age/86400);
+         printf("\tMinimum password age (d): %d\n", pBuf-&gt;usrmod0_min_passwd_age/86400);
+         printf("\tForced log off time (s):  %d\n", pBuf-&gt;usrmod0_force_logoff);
+         printf("\tPassword history length:  %d\n", pBuf-&gt;usrmod0_password_hist_len);
       }
    }
    // Otherwise, print the system error.
@@ -308,10 +312,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

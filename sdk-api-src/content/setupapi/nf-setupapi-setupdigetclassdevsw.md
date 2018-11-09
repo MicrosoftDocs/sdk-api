@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdevs.htm
 tech.root: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -222,66 +222,86 @@ The following are some examples of how to use the <b>SetupDiGetClassDevs</b> fun
 
 <b>Example 1: </b>Build a list of all devices in the system, including devices that are not currently present.
 
-
-```
-Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Example 2: </b> Build a list of all devices that are present in the system.
 
-
-```
-Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="https://msdn.microsoft.com/5ae7efab-616c-4db3-bad2-2d489ed3cdca">device setup class</a>.
 
-
-```
-Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Handle = SetupDiGetClassDevs(&amp;GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="https://msdn.microsoft.com/9abc48f9-babf-407f-9046-c1e45cbbdc64">device interface class</a>.
 
-
-```
-Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Handle = SetupDiGetClassDevs(&amp;GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="https://msdn.microsoft.com/5ae7efab-616c-4db3-bad2-2d489ed3cdca">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>
-
-```
-DeviceInfoSet = SetupDiGetClassDevs(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DeviceInfoSet = SetupDiGetClassDevs(
                                     NULL,
                                     NULL,
                                     NULL,
                                     DIGCF_ALLCLASSES | DIGCF_PRESENT);
 
-ZeroMemory(&DeviceInfoData, sizeof(SP_DEVINFO_DATA));
+ZeroMemory(&amp;DeviceInfoData, sizeof(SP_DEVINFO_DATA));
 DeviceInfoData.cbSize = sizeof(SP_DEVINFO_DATA);
 DeviceIndex = 0;
     
 while (SetupDiEnumDeviceInfo(
                              DeviceInfoSet,
                              DeviceIndex,
-                             &DeviceInfoData)) {
+                             &amp;DeviceInfoData)) {
     DeviceIndex++;
 
     if (!SetupDiGetDeviceProperty(
                                   DeviceInfoSet,
-                                  &DeviceInfoData,
-                                  &DEVPKEY_Device_Class,
-                                  &PropType,
-                                  (PBYTE)&DevGuid,
+                                  &amp;DeviceInfoData,
+                                  &amp;DEVPKEY_Device_Class,
+                                  &amp;PropType,
+                                  (PBYTE)&amp;DevGuid,
                                   sizeof(GUID),
-                                  &Size,
+                                  &amp;Size,
                                   0) || PropType != DEVPROP_TYPE_GUID) {
 
         Error = GetLastError();
@@ -296,10 +316,10 @@ while (SetupDiEnumDeviceInfo(
 
 if (DeviceInfoSet) {
     SetupDiDestroyDeviceInfoList(DeviceInfoSet);
-    }
-```
-
-
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

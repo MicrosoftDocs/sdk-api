@@ -7,7 +7,7 @@ old-location: wcs\getps2colorrenderingdictionary.htm
 tech.root: WCS
 ms.assetid: 0dc10487-7b60-4f5d-a5b7-0dd8a6d1c0c5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: GetPS2ColorRenderingDictionary, GetPS2ColorRenderingDictionary function [Windows Color System], _color_GetPS2ColorRenderingDictionary, icm/GetPS2ColorRenderingDictionary, wcs.getps2colorrenderingdictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices

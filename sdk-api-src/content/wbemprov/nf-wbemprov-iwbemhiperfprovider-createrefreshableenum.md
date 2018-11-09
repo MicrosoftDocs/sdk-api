@@ -132,9 +132,13 @@ The provider must not access the enumerator unless WMI calls the
 The following code example describes how to implement 
 <b>CreateRefreshableEnum</b>.
 
-
-```cpp
-HRESULT CHiPerfProvider::CreateRefreshableEnum(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CHiPerfProvider::CreateRefreshableEnum(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */LPCWSTR wszClass,
   /* [in] */IWbemRefresher *pRefresher,
@@ -148,28 +152,28 @@ HRESULT CHiPerfProvider::CreateRefreshableEnum(
   // to talk with the refresher.
   IMyRefresher* pMyRefr = NULL;
 
-  HRESULT hres = pRefresher->QueryInterface(
+  HRESULT hres = pRefresher-&gt;QueryInterface(
     IID_IMyRefresher,
-    (void**) &pMyRefr );
+    (void**) &amp;pMyRefr );
 
   if ( SUCCEEDED( hres ) )
   {
   LPLONG plLastId;
     // Generates a unique identifier
-    *plId = InterlockedIncrement( &plLastId );
+    *plId = InterlockedIncrement( &amp;plLastId );
 
     // Use an internal method to add the
     // enumerator to an array.
-    pMyRefr->AddEnum( wszClass, *plId, pEnum );
+    pMyRefr-&gt;AddEnum( wszClass, *plId, pEnum );
 
-    pMyRefr->Release();
+    pMyRefr-&gt;Release();
   }
 
   return hres;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

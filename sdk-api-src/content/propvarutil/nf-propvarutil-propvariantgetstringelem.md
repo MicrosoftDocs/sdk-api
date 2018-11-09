@@ -114,20 +114,24 @@ If a BSTR element has a <b>NULL</b> pointer, this function allocates an empty st
 
 The following code example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 
-if ((propvar.vt & VT_TYPEMASK) == VT_LPWSTR || (propvar.vt & VT_TYPEMASK) == VT_BSTR)
+if ((propvar.vt &amp; VT_TYPEMASK) == VT_LPWSTR || (propvar.vt &amp; VT_TYPEMASK) == VT_BSTR)
 {
     UINT cElem = PropVariantGetElementCount(propvar);
-    HRESULT hr = <mark type="const">S_OK</mark>;
+    HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
 
-    for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
+    for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
     {
         PWSTR pszValue;
-        hr = PropVariantGetStringElem(propvar, iElem, &pszValue);
+        hr = PropVariantGetStringElem(propvar, iElem, &amp;pszValue);
 
         if (SUCCEEDED(hr))
         {
@@ -135,10 +139,10 @@ if ((propvar.vt & VT_TYPEMASK) == VT_LPWSTR || (propvar.vt & VT_TYPEMASK) == VT_
             CoTaskMemFree(pszValue);
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

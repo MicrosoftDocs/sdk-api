@@ -68,7 +68,7 @@ The index of the property to set.
 The data to set.
 
 
-### -param arg1
+### -param arg3
 
 TBD
 

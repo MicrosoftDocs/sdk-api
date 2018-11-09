@@ -7,7 +7,7 @@ old-location: controls\ListView_GetColumnWidth.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnwidth.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_GetColumnWidth, ListView_GetColumnWidth macro [Windows Controls], _win32_ListView_GetColumnWidth, _win32_ListView_GetColumnWidth_cpp, commctrl/ListView_GetColumnWidth, controls.ListView_GetColumnWidth, controls._win32_ListView_GetColumnWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

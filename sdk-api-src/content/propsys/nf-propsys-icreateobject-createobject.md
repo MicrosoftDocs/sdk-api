@@ -7,7 +7,7 @@ old-location: shell\ICreateObject_CreateObject.htm
 tech.root: shell
 ms.assetid: 72c56de7-4c04-4bcf-b6bb-6e41d12b68a3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateObject, CreateObject method [Windows Shell], CreateObject method [Windows Shell],ICreateObject interface, ICreateObject interface [Windows Shell],CreateObject method, ICreateObject.CreateObject, ICreateObject::CreateObject, _shell_ICreateObject_CreateObject, propsys/ICreateObject::CreateObject, shell.ICreateObject_CreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

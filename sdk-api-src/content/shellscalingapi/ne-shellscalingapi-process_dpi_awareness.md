@@ -7,7 +7,7 @@ old-location: hidpi\process_dpi_awareness.htm
 tech.root: hidpi
 ms.assetid: 50130739-E8A8-4B92-9B80-3BBBE57EBE0C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/08/2018
 ms.keywords: PROCESS_DPI_AWARENESS, PROCESS_DPI_AWARENESS enumeration [High DPI], PROCESS_DPI_UNAWARE, PROCESS_PER_MONITOR_DPI_AWARE, PROCESS_SYSTEM_DPI_AWARE, hidpi.process_dpi_awareness, shellscalingapi/PROCESS_DPI_AWARENESS, shellscalingapi/PROCESS_DPI_UNAWARE, shellscalingapi/PROCESS_PER_MONITOR_DPI_AWARE, shellscalingapi/PROCESS_SYSTEM_DPI_AWARE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,20 +126,28 @@ Because of DPI virtualization, if one application queries another with a differe
 
 This snippet demonstrates how to set a value of <b>PROCESS_SYSTEM_DPI_AWARE</b> in your application manifest.
 
-
-```xml
-<dpiAware>true</dpiAware>
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;dpiAware&gt;true&lt;/dpiAware&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 This snippet demonstrates how to set a value of <b>PROCESS_PER_MONITOR_DPI_AWARE</b> in your application manifest.
 
-
-```xml
-<dpiAware>true/PM</dpiAware>
-```
-
-
+<div class="code"><span codelanguage="XML"><table>
+<tr>
+<th>XML</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;dpiAware&gt;true/PM&lt;/dpiAware&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

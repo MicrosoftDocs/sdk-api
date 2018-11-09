@@ -7,7 +7,7 @@ old-location: security\icertview2_setrestriction.htm
 tech.root: seccrypto
 ms.assetid: a2dc8675-1d75-4c15-a9f7-971274ab044c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertView object [Security],SetRestriction method, CVR_SEEK_EQ, CVR_SEEK_GE, CVR_SEEK_GT, CVR_SEEK_LE, CVR_SEEK_LT, CVR_SORT_ASCEND, CVR_SORT_DESCEND, CVR_SORT_NONE, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetRestriction method, ICertView.SetRestriction, ICertView2 interface [Security],SetRestriction method, ICertView2::SetRestriction, ICertView::SetRestriction, SetRestriction, SetRestriction method [Security], SetRestriction method [Security],CCertView object, SetRestriction method [Security],ICertView interface, SetRestriction method [Security],ICertView2 interface, certview/ICertView2::SetRestriction, certview/ICertView::SetRestriction, security.icertview2_setrestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -245,9 +245,13 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
 
 #### Examples
 
-
-```cpp
-    // This example restricts the data
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // This example restricts the data
     // to rows that have RequestIDs greater than five.
     // pCertView is a pointer to ICertView.
     HRESULT    hr;
@@ -256,7 +260,7 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
     BSTR       bstrCol = NULL;
 
     // Use one column in the result set.
-    hr = pCertView->SetResultColumnCount(1);
+    hr = pCertView-&gt;SetResultColumnCount(1);
     if (FAILED(hr))
     {
         printf("Failed SetResultColumnCount - %x\n", hr);
@@ -264,23 +268,23 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
     }
     // Determine the column index for RequestID column.
     bstrCol = SysAllocString(TEXT("RequestID"));
-    hr = pCertView->GetColumnIndex(FALSE, bstrCol, &nIndex);
+    hr = pCertView-&gt;GetColumnIndex(FALSE, bstrCol, &amp;nIndex);
     if (FAILED(hr))
     {
         printf("Failed GetColumnIndex - %x\n", hr);
         goto error;
     }
     // Place this column into the result set.
-    pCertView->SetResultColumn(nIndex);
+    pCertView-&gt;SetResultColumn(nIndex);
     // Set a restriction on this column.
-    VariantInit(&varRest);
+    VariantInit(&amp;varRest);
     varRest.vt = VT_I4;
     varRest.lVal = 5;
     // Restrict view to requests with ID greater than 5.
-    hr = pCertView->SetRestriction(nIndex,
+    hr = pCertView-&gt;SetRestriction(nIndex,
                                    CVR_SEEK_GT,
                                    CVR_SORT_NONE,
-                                   &varRest);
+                                   &amp;varRest);
     if (S_OK != hr)
         printf("Failed ICertView::SetRestriction - %x\n", hr);
     else
@@ -290,12 +294,12 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
 	}
 error:
     // Done processing, clear resources.
-    VariantClear(&varRest);
+    VariantClear(&amp;varRest);
     if (NULL != bstrCol)
-        SysFreeString(bstrCol);
-```
-
-
+        SysFreeString(bstrCol);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

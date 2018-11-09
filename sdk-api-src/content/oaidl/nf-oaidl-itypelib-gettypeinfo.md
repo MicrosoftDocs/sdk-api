@@ -7,7 +7,7 @@ old-location: automat\itypelib_gettypeinfo.htm
 tech.root: automat
 ms.assetid: 7661faa8-eb06-4bbe-88e9-9662a0d6984b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfo method, ITypeLib.GetTypeInfo, ITypeLib::GetTypeInfo, _oa96_ITypeLib_GetTypeInfo, automat.itypelib_gettypeinfo, oaidl/ITypeLib::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,28 +146,32 @@ For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type info
 
 The following example gets the TKIND_INTERFACE type information for a dual interface.
 
-
-```cpp
-HRESULT hr;
-hr = ptlib->GetTypeInfo((unsigned int) dwIndex, &ptypeinfoDisp);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
+hr = ptlib-&gt;GetTypeInfo((unsigned int) dwIndex, &amp;ptypeinfoDisp);
 if (FAILED(hr)) {
    //free resources
    return hr;
 }
-hr = ptypeinfoDisp->GetRefTypeOfImplType(-1, &phreftype);
+hr = ptypeinfoDisp-&gt;GetRefTypeOfImplType(-1, &amp;phreftype);
 if (FAILED(hr)) {
    //free resources
    return hr;
 
-hr = ptypeinfoDisp->GetRefTypeInfo(phreftype, &ptypeinfoInt);
+hr = ptypeinfoDisp-&gt;GetRefTypeInfo(phreftype, &amp;ptypeinfoInt);
 if (FAILED(hr)) {
    //free resources
    return hr;
 
-// 
-```
-
-
+// </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

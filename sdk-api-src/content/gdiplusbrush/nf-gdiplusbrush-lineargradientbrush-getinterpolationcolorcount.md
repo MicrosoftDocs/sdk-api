@@ -92,9 +92,13 @@ You can obtain the colors and blend positions currently set for a linear gradien
 The following example sets the colors to be interpolated for this linear gradient brush to red, blue, and green and sets the blend positions to 0, 0.3, and 1. The code calls the <b>LinearGradientBrush::GetInterpolationColorCount</b> method of a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> object to obtain the number of colors currently set to be interpolated for the brush. Next, the code gets the colors and their positions. Then, the code fills a small rectangle with each color.
 
-
-```cpp
-VOID Example_GetInterpColors(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetInterpColors(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -138,16 +142,16 @@ VOID Example_GetInterpColors(HDC hdc)
 
    // Fill a small rectangle with each of the colors.
    SolidBrush* pSolidBrush;
-   for(INT j = 0; j < colorCount; j++)
+   for(INT j = 0; j &lt; colorCount; j++)
    {
       pSolidBrush = new SolidBrush(colors[j]);
       myGraphics.FillRectangle(pSolidBrush, 15*j, 0, 10, 10);
       delete(pSolidBrush);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

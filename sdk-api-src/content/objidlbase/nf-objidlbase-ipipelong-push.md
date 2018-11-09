@@ -7,7 +7,7 @@ old-location: com\ipipelong_push.htm
 tech.root: com
 ms.assetid: 16389e32-74f9-419b-bcc5-63fe43b3e456
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::Push, Push, Push method [COM], Push method [COM],IPipeLong interface, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
 ms.prod: windows-hardware
 ms.technology: windows-devices

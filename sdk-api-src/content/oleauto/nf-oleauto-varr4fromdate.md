@@ -7,7 +7,7 @@ old-location: automat\varr4fromdate.htm
 tech.root: automat
 ms.assetid: 574bae15-62ad-4258-aa98-46e2ae940084
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VarR4FromDate, VarR4FromDate function [Automation], _oa96_VarR4FromDate, automat.varr4fromdate, oleauto/VarR4FromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

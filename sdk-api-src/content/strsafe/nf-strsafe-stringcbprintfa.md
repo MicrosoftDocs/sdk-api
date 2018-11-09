@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: StringCbPrintf, StringCbPrintf function [Menus and Other Resources], StringCbPrintfA, StringCbPrintfW, _shell_StringCbPrintf, _shell_stringcbprintf_cpp, menurc.stringcbprintf, strsafe/StringCbPrintf, strsafe/StringCbPrintfA, strsafe/StringCbPrintfW, winui._shell_stringcbprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ Type: <b>LPCTSTR</b>
 The format string. This string must be null-terminated. For more information, see <a href="https://msdn.microsoft.com/en-us/library/56e442dc.aspx">Format Specification Syntax</a>.
 
 
-### -param arg1 [in]
+### -param arg4 [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
@@ -193,9 +193,13 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 The following example shows a basic use of <b>StringCbPrintf</b>, using four arguments.
 
-
-```cpp
-int const arraysize = 30;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int const arraysize = 30;
 TCHAR pszDest[arraysize]; 
 size_t cbDest = arraysize * sizeof(TCHAR);
 
@@ -204,10 +208,10 @@ TCHAR* pszTxt = TEXT("The answer is");
 
 HRESULT hr = StringCbPrintf(pszDest, cbDest, pszFormat, pszTxt, 1, 2, 3);
 
-// The resultant string at pszDest is "The answer is 1 + 2 = 3."
-```
-
-
+// The resultant string at pszDest is "The answer is 1 + 2 = 3."</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\lsaopentrusteddomainbyname.htm
 tech.root: secmgmt
 ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

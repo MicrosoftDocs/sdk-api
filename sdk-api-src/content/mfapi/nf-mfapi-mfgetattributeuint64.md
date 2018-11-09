@@ -7,7 +7,7 @@ old-location: mf\mfgetattributeuint64.htm
 tech.root: medfound
 ms.assetid: 843946a4-d270-4440-9818-59e95cbf9a5b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAttributeUINT64 function [Media Foundation], mf.mfgetattributeuint64, mfapi/MFGetAttributeUINT64
 ms.prod: windows-hardware
 ms.technology: windows-devices

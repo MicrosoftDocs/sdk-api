@@ -7,7 +7,7 @@ old-location: automat\varui4fromui1.htm
 tech.root: automat
 ms.assetid: ee3be44c-8693-4e81-91cb-976854ad599a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VarUI4FromUI1, VarUI4FromUI1 function [Automation], _oa96_VarUI4FromUI1, automat.varui4fromui1, oleauto/VarUI4FromUI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

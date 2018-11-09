@@ -117,14 +117,18 @@ The following procedure describes the conversion process using
 <b>IStorage</b> created in Step 1. 
 
 
-
-```cpp
-pstg->lpVtbl->CreateStorage(...&pStgChild); 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pstg-&gt;lpVtbl-&gt;CreateStorage(...&amp;pStgChild); 
 hRes = OleConvertIStorageToOLESTREAM(polestm, pStgChild); 
-hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
-```
-
-
+hRes = OleLoad(pStgChild, &amp;IID_IOleObject, pClientSite, ppvObj);</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 <li>Repeat Step 3 until the file is completely read.</li>
 </ol>

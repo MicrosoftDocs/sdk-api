@@ -7,7 +7,7 @@ old-location: security\icertpolicy.htm
 tech.root: seccrypto
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,17 +127,21 @@ Implementers of <b>ICertPolicy</b> should also implement
 
 Where <i>MyApp</i> is a specifier that identifies the application. For example, in C++, the following code could be used in the DECLARE_REGISTRY macro of a class (CMyCertPolicyModule) which implements <b>ICertPolicy</b>.
 
-
-```cpp
-DECLARE_REGISTRY(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_REGISTRY(
     CMyCertPolicyModule,
     L"MyCode.Policy.1",
     L"MyCode.Policy",
     IDS_CERTPOLICYMODULE_DESC,
-    THREADFLAGS_BOTH);
-```
-
-
+    THREADFLAGS_BOTH);</pre>
+</td>
+</tr>
+</table></span></div>
 For the previous example, the IDS_CERTPOLICYMODULE_DESC value is an application-specific identifier in the resource file (.rc) for a string which describes the class.
 
 String constants defined in Certmod.h can be used to simplify following the naming convention.

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getmetadata.htm
 tech.root: medfound
 ms.assetid: 212d468f-de5e-4a55-aaa4-ed487bbf6a00
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMetadata method, IMFPMediaItem.GetMetadata, IMFPMediaItem::GetMetadata, mf.imfpmediaitem_getmetadata, mfplay/IMFPMediaItem::GetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\wspaccept_2.htm
 tech.root: winsock
 ms.assetid: d73aa3a8-cef5-485d-b2ba-b2fe42ab6200
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LPWSPACCEPT, WSPAccept, WSPAccept function [Winsock], _win32_wspaccept_2, winsock.wspaccept_2, ws2spi/WSPAccept
 ms.prod: windows
 ms.technology: windows-sdk
@@ -299,9 +299,13 @@ The parameter <i>addr</i> is a result parameter that is filled with the address 
 
 The prototype of the condition function is as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 int CALLBACK ConditionFunc(
   IN LPWSABUF     lpCallerId, 
   IN LPWSABUF     lpCallerData, 
@@ -312,10 +316,10 @@ int CALLBACK ConditionFunc(
   OUT GROUP FAR   *g, 
   IN DWORD        dwCallbackData 
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>lpCallerId</i> and <i>lpCallerData</i> are value parameters that must contain the address of the connecting entity and any user data that was sent along with the connection request. If no caller identifier or caller data is available, the corresponding parameter will be null. Many network protocols do not support connect-time caller data. Most conventional network protocols can be expected to support caller identifier information at connection-request time. The <b>buf</b> part of the 
 <a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> pointed to by <i>lpCallerId</i> points to a 
 <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>. The <b>sockaddr</b> is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).

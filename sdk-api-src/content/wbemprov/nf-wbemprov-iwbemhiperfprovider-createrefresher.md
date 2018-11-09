@@ -103,9 +103,13 @@ When you release a refresher, the provider should clean up any refreshable objec
 The following code example describes how to implement 
 <b>CreateRefresher</b>.
 
-
-```cpp
-HRESULT CHiPerfProvider::CreateRefresher(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CHiPerfProvider::CreateRefresher(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */ long lFlags,
   /* [out] */ IWbemRefresher** ppRefresher
@@ -117,18 +121,18 @@ HRESULT CHiPerfProvider::CreateRefresher(
 
     // Return the refresher to the ppRefresher
     // [out] parameter
-    /*return pMyRefresher->QueryInterface(
+    /*return pMyRefresher-&gt;QueryInterface(
      IID_IWbemRefresher, (void**) ppRefresher );*/
 }
 
 // Free memory resources.
 // For Example:
-//pNamespace->Release();
-//ppRefresher->Release();
-//delete[] pMyRefresher;
-```
-
-
+//pNamespace-&gt;Release();
+//ppRefresher-&gt;Release();
+//delete[] pMyRefresher;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -87,9 +87,13 @@ A rectangle is defined as empty if either the width or the height is zero or les
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
 
-
-```cpp
-VOID Example_IsEmptyArea(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsEmptyArea(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -101,10 +105,10 @@ VOID Example_IsEmptyArea(HDC hdc)
    if(rect.IsEmptyArea())
 
    // The rectangle does not enclose any area.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

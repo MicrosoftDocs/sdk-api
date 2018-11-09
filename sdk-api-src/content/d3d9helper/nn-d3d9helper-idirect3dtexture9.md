@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dtexture9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], IDirect3DTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DTexture9, direct3d9.idirect3dtexture9, f2bb39fa-d156-a3ea-9ea0-656a78998f7a
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,14 +132,18 @@ The LPDIRECT3DTEXTURE9 and PDIRECT3DTEXTURE9 types are defined as pointers to th
 
     
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirect3DTexture9 *LPDIRECT3DTEXTURE9, *PDIRECT3DTEXTURE9;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

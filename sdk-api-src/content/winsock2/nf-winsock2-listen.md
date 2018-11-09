@@ -7,7 +7,7 @@ old-location: winsock\listen_2.htm
 tech.root: winsock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -239,17 +239,21 @@ If the <b>listen</b> function is called on an already listening socket, it will 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>listen</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -265,7 +269,7 @@ int wmain()
     SOCKET ListenSocket = INVALID_SOCKET;
     sockaddr_in service;
 
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup() failed with error: %d\n", iResult);
         return 1;
@@ -285,7 +289,7 @@ int wmain()
     service.sin_addr.s_addr = inet_addr("127.0.0.1");
     service.sin_port = htons(27015);
 
-    iResult = bind(ListenSocket, (SOCKADDR *) & service, sizeof (service));
+    iResult = bind(ListenSocket, (SOCKADDR *) &amp; service, sizeof (service));
     if (iResult == SOCKET_ERROR) {
         wprintf(L"bind function failed with error %d\n", WSAGetLastError());
         iResult = closesocket(ListenSocket);
@@ -312,10 +316,10 @@ int wmain()
     WSACleanup();
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 For another example that uses the <b>listen</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 

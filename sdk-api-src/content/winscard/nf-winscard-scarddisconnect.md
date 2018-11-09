@@ -7,7 +7,7 @@ old-location: security\scarddisconnect.htm
 tech.root: secauthn
 ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,9 +175,13 @@ The <b>SCardDisconnect</b> function is a <a href="https://msdn.microsoft.com/3e9
 
 The following example terminates the specified smart card connection. The example assumes that lReturn is a variable of type <b>LONG</b>, and that hCardHandle is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardDisconnect(hCardHandle, 
                           SCARD_LEAVE_CARD);
 if ( SCARD_S_SUCCESS != lReturn )
@@ -185,10 +189,10 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardDisconnect\n");
     exit(1);  // Or other appropriate action.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

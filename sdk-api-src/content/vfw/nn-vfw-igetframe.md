@@ -7,7 +7,7 @@ old-location: multimedia\igetframe.htm
 tech.root: Multimedia
 ms.assetid: d72349bc-5e7c-4c60-b8e0-0524d02c0583
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IGetFrame, IGetFrame interface [Windows Multimedia], IGetFrame interface [Windows Multimedia],described, _win32_IGetFrame, multimedia.igetframe, vfw/IGetFrame
 ms.prod: windows
 ms.technology: windows-sdk

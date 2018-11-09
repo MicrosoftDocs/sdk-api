@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getcrl.htm
 tech.root: seccrypto
 ms.assetid: bdfc64dd-7446-4c44-997f-fa0086bfbb4f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],GetCRL method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, GetCRL, GetCRL method [Security], GetCRL method [Security],CCertAdmin object, GetCRL method [Security],ICertAdmin interface, GetCRL method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetCRL method, ICertAdmin.GetCRL, ICertAdmin2 interface [Security],GetCRL method, ICertAdmin2::GetCRL, ICertAdmin::GetCRL, certadm/ICertAdmin2::GetCRL, certadm/ICertAdmin::GetCRL, security.icertadmin2_getcrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,9 +168,13 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 The following example declares the necessary variables, initializes COM, and creates an instance of the <b>CertAdmin</b> class. It then calls <b>GetCRL</b> and prints success or failure to the screen. Finally, it frees resources.
 
 
-
-```cpp
-    ICertAdmin * pCertAdmin = NULL;  // pointer to interface object
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    ICertAdmin * pCertAdmin = NULL;  // pointer to interface object
     BSTR bstrCA = NULL;              // variable for machine\CAName
     BSTR bstrCRL = NULL;             // variable to contain
                                      // the retrieved CRL
@@ -191,7 +195,7 @@ The following example declares the necessary variables, initializes COM, and cre
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertAdmin,
-                           (void **)&pCertAdmin);
+                           (void **)&amp;pCertAdmin);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertAdmin [%x]\n", hr);
@@ -200,7 +204,7 @@ The following example declares the necessary variables, initializes COM, and cre
 
     //  Note the use of two backslashes (\\) 
    //  in C++ to produce one backslash (\).
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (FAILED(hr))
     {
         printf("Failed to allocate memory for bstrCA\n");
@@ -208,7 +212,7 @@ The following example declares the necessary variables, initializes COM, and cre
     }
 
     //  Retrieve the CRL.
-    hr = pCertAdmin->GetCRL( bstrCA, CR_OUT_BINARY, &bstrCRL );
+    hr = pCertAdmin-&gt;GetCRL( bstrCA, CR_OUT_BINARY, &amp;bstrCRL );
     if (FAILED(hr))
     {
         printf("Failed GetCRL [%x]\n", hr);
@@ -231,14 +235,14 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertAdmin)
-        pCertAdmin->Release();
+        pCertAdmin-&gt;Release();
 
     //  Free COM resources.
     CoUninitialize();
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

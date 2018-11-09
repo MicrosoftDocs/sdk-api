@@ -7,8 +7,8 @@ old-location: tapi3\cmspaddress_createmspcallhelper.htm
 tech.root: tapi
 ms.assetid: 1e894d26-de19-4c24-b4e6-58c0b4c9d5ee
 ms.author: windowssdkdev
-ms.date: 10/30/2018
-ms.keywords: CMSPAddress [TAPI 2.2],CreateMSPCallHelper method, CMSPAddress,CreateMSPCallHelper, CMSPAddress::CreateMSPCallHelper, CreateMSPCallHelper, CreateMSPCallHelper method [TAPI 2.2], CreateMSPCallHelper method [TAPI 2.2],CMSPAddress, CreateMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_createmspcallhelper, mspaddr/CMSPAddress::CreateMSPCallHelper, tapi3.cmspaddress_createmspcallhelper
+ms.date: 11/08/2018
+ms.keywords: CMSPAddress object [TAPI 2.2],CreateMSPCallHelper method, CMSPAddress,CreateMSPCallHelper, CMSPAddress.CreateMSPCallHelper, CreateMSPCallHelper, CreateMSPCallHelper method [TAPI 2.2], CreateMSPCallHelper method [TAPI 2.2],CMSPAddress object, CreateMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_createmspcallhelper, tapi3.cmspaddress_createmspcallhelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ Pointer to <b>IUnknown</b> interface for MSP call object.
 Pointer to templated MSP call class, type implementation dependent.
 
 
-### -param arg1
+### -param arg8
 
 TBD
 

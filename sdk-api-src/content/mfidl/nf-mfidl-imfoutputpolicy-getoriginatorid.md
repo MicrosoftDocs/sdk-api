@@ -7,7 +7,7 @@ old-location: mf\imfoutputpolicy_getoriginatorid.htm
 tech.root: medfound
 ms.assetid: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d, GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GetOriginatorID method, IMFOutputPolicy.GetOriginatorID, IMFOutputPolicy::GetOriginatorID, mf.imfoutputpolicy_getoriginatorid, mfidl/IMFOutputPolicy::GetOriginatorID
 ms.prod: windows-hardware
 ms.technology: windows-devices

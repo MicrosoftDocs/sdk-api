@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7mwj.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],EmailAddress property, IFaxDoc.EmailAddress, IFaxDoc.put_EmailAddress, IFaxDoc::EmailAddress, IFaxDoc::get_EmailAddress, IFaxDoc::put_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp, faxcom/IFaxDoc::EmailAddress, faxcom/IFaxDoc::get_EmailAddress, faxcom/IFaxDoc::put_EmailAddress, put_EmailAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wcs\enumcolorprofiles.htm
 tech.root: WCS
 ms.assetid: 92d38155-e950-4c96-94e9-b66dbf090fca
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: EnumColorProfiles, EnumColorProfiles function [Windows Color System], EnumColorProfilesA, EnumColorProfilesW, _color_EnumColorProfiles, icm/EnumColorProfiles, icm/EnumColorProfilesA, icm/EnumColorProfilesW, wcs.enumcolorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

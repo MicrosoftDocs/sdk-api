@@ -7,7 +7,7 @@ old-location: com\codisconnectcontext.htm
 tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,12 +168,16 @@ The <b>CoDisconnectContext</b> function has the following limitations:
 
 #### Examples
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IContextCallback *icc;
+hr = CoCreateInstance(CLSID_ContextSwitcher, NULL, CLSCTX_INPROC_SERVER, IID_IContextCallback, (void**)&amp;icc);
 
-```cpp
-IContextCallback *icc;
-hr = CoCreateInstance(CLSID_ContextSwitcher, NULL, CLSCTX_INPROC_SERVER, IID_IContextCallback, (void**)&icc);
-
-icc->ContextCallback(EnterCallback, NULL, IID_IContextCallback, 5, NULL);
+icc-&gt;ContextCallback(EnterCallback, NULL, IID_IContextCallback, 5, NULL);
 
 HRESULT __stdcall EnterCallback(ComCallData *pv)
 { 
@@ -183,7 +187,7 @@ HRESULT __stdcall EnterCallback(ComCallData *pv)
 /* All objects created by the class factories registered in the callback will be put into the newly created context.
 To disconnect, re-enter the context, revoke the class factories, and call CoDisconnectContext. */
 
-icc->ContextCallback(DisconnectCallback, NULL, IID_IContextCallback, 5, NULL);
+icc-&gt;ContextCallback(DisconnectCallback, NULL, IID_IContextCallback, 5, NULL);
 
 HRESULT __stdcall DisconnectCallback(ComCallData *pv)
 {
@@ -191,10 +195,10 @@ HRESULT __stdcall DisconnectCallback(ComCallData *pv)
     return CoDisconnectContext(timeout);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

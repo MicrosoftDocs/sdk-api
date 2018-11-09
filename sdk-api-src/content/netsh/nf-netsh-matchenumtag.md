@@ -7,7 +7,7 @@ old-location: netshell\matchenumtag.htm
 tech.root: netshell
 ms.assetid: def20f98-76a2-4d92-a954-152474e25f05
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag, netsh/MatchEnumTag, netshell.matchenumtag
 ms.prod: windows-hardware
 ms.technology: windows-devices

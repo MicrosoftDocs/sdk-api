@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9ex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 88878a9a-f85c-f0f1-6268-c5b3e11bb875, IDirect3D9Ex, IDirect3D9Ex interface [Direct3D 9], IDirect3D9Ex interface [Direct3D 9],described, d3d9/IDirect3D9Ex, direct3d9.idirect3d9ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,14 +126,18 @@ The <b>IDirect3D9Ex</b> interface is obtained by calling the <a href="https://ms
 The <b>LPDIRECT3D9EX</b> and <b>PDIRECT3D9EX</b> types are defined as pointers to the <b>IDirect3D9Ex</b> interface:
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirect3D9Ex *LPDIRECT3D9EX, *PDIRECT3D9EX;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: com\couninitialize.htm
 tech.root: com
 ms.assetid: 9411cbed-fa3b-46f7-b677-6ada53324edc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CoUninitialize, CoUninitialize function [COM], _com_CoUninitialize, com.couninitialize, combaseapi/CoUninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

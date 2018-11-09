@@ -7,7 +7,7 @@ old-location: security\icertview2_openconnection.htm
 tech.root: seccrypto
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertView object [Security],OpenConnection method, ICertView interface [Security],OpenConnection method, ICertView.OpenConnection, ICertView2 interface [Security],OpenConnection method, ICertView2::OpenConnection, ICertView::OpenConnection, OpenConnection, OpenConnection method [Security], OpenConnection method [Security],CCertView object, OpenConnection method [Security],ICertView interface, OpenConnection method [Security],ICertView2 interface, certview/ICertView2::OpenConnection, certview/ICertView::OpenConnection, security.icertview2_openconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,9 +90,13 @@ Upon successful completion of this method, the
 
 #### Examples
 
-
-```cpp
-ICertView *   pCertView = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ICertView *   pCertView = NULL;
 BSTR          strCertServ = NULL;
 HRESULT       hr;
 
@@ -109,7 +113,7 @@ hr = CoCreateInstance(CLSID_CCertView,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_ICertView,
-                      (void **)&pCertView);
+                      (void **)&amp;pCertView);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance\n");
@@ -118,7 +122,7 @@ if (FAILED(hr))
 // The use of '\\' is necessary to represent a single backslash.
 strCertServ = SysAllocString(TEXT("Server01\\ABCCertServ"));
 // Open the connection to the Certificate Services server.
-hr = pCertView->OpenConnection(strCertServ);
+hr = pCertView-&gt;OpenConnection(strCertServ);
 if (FAILED(hr))
 {
     printf("Failed OpenConnection!\n");
@@ -130,14 +134,14 @@ else
     // Done using objects; free resources.
 error: 
     if (NULL != pCertView)
-        pCertView->Release();
+        pCertView-&gt;Release();
     if (NULL != strCertServ)
         SysFreeString(strCertServ);
     // Free COM resources.
-    CoUninitialize();
-```
-
-
+    CoUninitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

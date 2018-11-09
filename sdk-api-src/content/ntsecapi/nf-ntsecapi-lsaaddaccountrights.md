@@ -7,7 +7,7 @@ old-location: security\lsaaddaccountrights.htm
 tech.root: secmgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: LsaAddAccountRights, LsaAddAccountRights function [Security], _lsa_lsaaddaccountrights, ntsecapi/LsaAddAccountRights, security.lsaaddaccountrights
 ms.prod: windows-hardware
 ms.technology: windows-devices

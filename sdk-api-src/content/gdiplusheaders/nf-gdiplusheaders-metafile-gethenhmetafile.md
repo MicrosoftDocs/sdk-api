@@ -92,9 +92,13 @@ The following example creates a
 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object from an EMF+ file and gets a Windows handle to the metafile.
 
-
-```cpp
-VOID Example_GetHENHMETAFILE(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetHENHMETAFILE(HDC hdc)
 {
 
    // Create a GDI+ Metafile object from an existing disk file.
@@ -103,10 +107,10 @@ VOID Example_GetHENHMETAFILE(HDC hdc)
    // Get a Windows handle to the metafile.
    HENHMETAFILE hEmf = metafile.GetHENHMETAFILE();
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

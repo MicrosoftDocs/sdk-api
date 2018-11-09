@@ -2,7 +2,7 @@
 UID: TP:wmformat
 ms.assetid: d9cec177-31f2-3ccd-a314-e6d46703ed09
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

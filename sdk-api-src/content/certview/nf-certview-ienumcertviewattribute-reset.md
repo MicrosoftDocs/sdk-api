@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_reset.htm
 tech.root: seccrypto
 ms.assetid: 1f5b8ee0-2820-481b-8836-b2926aec0933
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnumCERTVIEWATTRIBUTE object [Security],Reset method, IEnumCERTVIEWATTRIBUTE interface [Security],Reset method, IEnumCERTVIEWATTRIBUTE.Reset, IEnumCERTVIEWATTRIBUTE::Reset, Reset, Reset method [Security], Reset method [Security],CEnumCERTVIEWATTRIBUTE object, Reset method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_reset, certview/IEnumCERTVIEWATTRIBUTE::Reset, security.ienumcertviewattribute_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,14 +92,18 @@ following methods:
 
 #### Examples
 
-
-```cpp
-// pEnumAttr is a previously instantiated
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumAttr is a previously instantiated
 // IEnumCERTVIEWATTRIBUTE object.
 HRESULT  hr;
 LONG     Index;
 
-hr = pEnumAttr->Reset();
+hr = pEnumAttr-&gt;Reset();
 if (S_OK != hr)
     printf("Unable to reset pEnumAttr - %x\n", hr );
 
@@ -109,15 +113,15 @@ else
 {
 
     // Reset to the beginning of the attributes again.
-    while (S_OK == pEnumAttr->Next(&Index))
+    while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
     {
 
         // Use each attribute as needed.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

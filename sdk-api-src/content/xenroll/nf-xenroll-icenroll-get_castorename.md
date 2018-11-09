@@ -7,7 +7,7 @@ old-location: security\icenroll4_castorename.htm
 tech.root: seccrypto
 ms.assetid: 29616175-7195-430e-a85b-99b50e276e7f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CAStoreName property [Security], CAStoreName property [Security],CEnroll object, CAStoreName property [Security],ICEnroll interface, CAStoreName property [Security],ICEnroll2 interface, CAStoreName property [Security],ICEnroll3 interface, CAStoreName property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreName property, ICEnroll interface [Security],CAStoreName property, ICEnroll.CAStoreName, ICEnroll.get_CAStoreName, ICEnroll2 interface [Security],CAStoreName property, ICEnroll2.CAStoreName, ICEnroll2::get_CAStoreName, ICEnroll2::put_CAStoreName, ICEnroll3 interface [Security],CAStoreName property, ICEnroll3.CAStoreName, ICEnroll3::get_CAStoreName, ICEnroll3::put_CAStoreName, ICEnroll4 interface [Security],CAStoreName property, ICEnroll4.CAStoreName, ICEnroll4::CAStoreName, ICEnroll4::get_CAStoreName, ICEnroll4::put_CAStoreName, ICEnroll::get_CAStoreName, ICEnroll::put_CAStoreName, get_CAStoreName, security.icenroll4_castorename, xenroll/ICEnroll2::CAStoreName, xenroll/ICEnroll2::get_CAStoreName, xenroll/ICEnroll2::put_CAStoreName, xenroll/ICEnroll3::CAStoreName, xenroll/ICEnroll3::get_CAStoreName, xenroll/ICEnroll3::put_CAStoreName, xenroll/ICEnroll4::CAStoreName, xenroll/ICEnroll4::get_CAStoreName, xenroll/ICEnroll4::put_CAStoreName, xenroll/ICEnroll::CAStoreName, xenroll/ICEnroll::get_CAStoreName, xenroll/ICEnroll::put_CAStoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,19 +96,15 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrStoreName = NULL;
+
+```cpp
+BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storename
-hr = pEnroll-&gt;get_CAStoreName( &amp;bstrStoreName );
+hr = pEnroll->get_CAStoreName( &bstrStoreName );
 if ( FAILED ( hr ) )
     printf("Failed getting CAStoreName - %x\n", hr );
 else
@@ -119,13 +115,13 @@ if ( NULL != bstrStoreName )
 
 // set the storename
 // bstrNewName previously set to a valid store name
-hr = pEnroll-&gt;put_CAStoreName( bstrNewName );
+hr = pEnroll->put_CAStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting CAStoreName - %x\n", hr );
 else
-    printf( "CAStoreName was set to : %ws\n", bstrNewName );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "CAStoreName was set to : %ws\n", bstrNewName );
+```
+
+
 
 

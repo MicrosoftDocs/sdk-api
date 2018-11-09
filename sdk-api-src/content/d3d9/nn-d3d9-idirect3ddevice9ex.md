@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 6755c62f-1ee8-9783-0c97-7e582de29a4b, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], IDirect3DDevice9Ex interface [Direct3D 9],described, d3d9/IDirect3DDevice9Ex, direct3d9.idirect3ddevice9ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -228,14 +228,18 @@ The <b>IDirect3DDevice9Ex</b> interface is obtained by calling <a href="https://
 The LPDIRECT3DDEVICE9EX and PDIRECT3DDEVICE9EX types are defined as pointers to the IDirect3DDevice9Ex interface:
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirect3DDevice9Ex *LPDIRECT3DDEVICE9EX, *PDIRECT3DDEVICE9EX;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Creating_a_Device"></a><a id="creating_a_device"></a><a id="CREATING_A_DEVICE"></a>Creating a Device</h3>
@@ -248,19 +252,23 @@ Follow these two steps to initialize a Direct3D device:
 Here is an example:
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 IDirect3D9Ex *pDirect3DEx;
 LPDIRECT3DDEVICE9EX pDeviceEx;
 DWORD behaviorFlags = D3DCREATE_HARDWARE_VERTEXPROCESSING;
 
-Direct3DCreate9Ex(D3D_SDK_VERSION, &pDirect3DEx);
-pDirect3DEx->CreateDeviceEx(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd, behaviorFlags, &d3dpp, NULL, &pDeviceEx);
-
-```
-
-
+Direct3DCreate9Ex(D3D_SDK_VERSION, &amp;pDirect3DEx);
+pDirect3DEx-&gt;CreateDeviceEx(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd, behaviorFlags, &amp;d3dpp, NULL, &amp;pDeviceEx);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

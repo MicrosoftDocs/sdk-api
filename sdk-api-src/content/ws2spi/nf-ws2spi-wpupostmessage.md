@@ -7,7 +7,7 @@ old-location: winsock\wpupostmessage_2.htm
 tech.root: winsock
 ms.assetid: f4241941-c39f-441e-aad4-b84f2f8ed828
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WPUPostMessage, WPUPostMessage function [Winsock], _win32_wpupostmessage_2, winsock.wpupostmessage_2, ws2spi/WPUPostMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

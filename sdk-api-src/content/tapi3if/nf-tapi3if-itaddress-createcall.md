@@ -7,7 +7,7 @@ old-location: tapi3\itaddress_createcall.htm
 tech.root: tapi
 ms.assetid: 1b5a755c-fdaf-42ca-9747-9b34efbd0ac3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: CreateCall, CreateCall method [TAPI 2.2], CreateCall method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateCall method, ITAddress.CreateCall, ITAddress::CreateCall, _tapi3_itaddress_createcall, tapi3.itaddress_createcall, tapi3if/ITAddress::CreateCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

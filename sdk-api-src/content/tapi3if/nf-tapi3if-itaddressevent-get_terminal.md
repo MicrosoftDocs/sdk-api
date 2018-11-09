@@ -7,7 +7,7 @@ old-location: tapi3\itaddressevent_get_terminal.htm
 tech.root: tapi
 ms.assetid: a57a4eea-2a94-4c32-b98f-c1747c80fec3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Terminal method, ITAddressEvent.get_Terminal, ITAddressEvent::get_Terminal, _tapi3_itaddressevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_terminal, tapi3if/ITAddressEvent::get_Terminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cmsg_stream_info.htm
 tech.root: seccrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: "*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [Security], PCMSG_STREAM_INFO, PCMSG_STREAM_INFO structure pointer [Security], _CMSG_STREAM_INFO, _crypto2_cmsg_stream_info, cbData, fFinal, pbData, pvArg, security.cmsg_stream_info, wincrypt/CMSG_STREAM_INFO, wincrypt/PCMSG_STREAM_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,10 +76,14 @@ The address of a callback function used to read from and write data to a disk wh
 
 The callback function must have the following signature and parameters:
 
-
-```cpp
-#include <windows.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 BOOL WINAPI CmsgStreamOutputCallback(
   IN const void *pvArg,  //in
@@ -87,10 +91,10 @@ BOOL WINAPI CmsgStreamOutputCallback(
   IN DWORD cbData,       //in
   IN BOOL fFinal         //in
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Value</th>

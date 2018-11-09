@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorselect.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSelect(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMVectorSelect, XMVectorSelect, XMVectorSelect method [DirectX Math Support APIs], dxmath.xmvectorselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorSelect
-: 
 ---
 
 # XMVectorSelect function
@@ -104,23 +98,19 @@ Returns the result of the per-component selection.
 If any given bit of <i>Control</i> is set, the corresponding bit from <i>V2</i> is used, otherwise, the
    corresponding bit from <i>V1</i> is used. The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR Result;
 
-Result.u[0] = (V1.u[0] &amp; ~Control.u[0]) | (V2.u[0] &amp; Control.u[0]);
-Result.u[1] = (V1.u[1] &amp; ~Control.u[1]) | (V2.u[1] &amp; Control.u[1]);
-Result.u[2] = (V1.u[2] &amp; ~Control.u[2]) | (V2.u[2] &amp; Control.u[2]);
-Result.u[3] = (V1.u[3] &amp; ~Control.u[3]) | (V2.u[3] &amp; Control.u[3]);
+```
+XMVECTOR Result;
 
-return Result;</pre>
-</td>
-</tr>
-</table></span></div>
+Result.u[0] = (V1.u[0] & ~Control.u[0]) | (V2.u[0] & Control.u[0]);
+Result.u[1] = (V1.u[1] & ~Control.u[1]) | (V2.u[1] & Control.u[1]);
+Result.u[2] = (V1.u[2] & ~Control.u[2]) | (V2.u[2] & Control.u[2]);
+Result.u[3] = (V1.u[3] & ~Control.u[3]) | (V2.u[3] & Control.u[3]);
+
+return Result;
+```
+
+
 Manual construction of a control vector is not necessary. There are two simple ways of constructing an appropriate
    control vector:
 
@@ -137,28 +127,20 @@ The control vector can be constructed using the XM_SELECT_[0,1] constant (see
        <a href="https://msdn.microsoft.com/a206fe22-12c8-ac2b-ee37-20cfff35841a">DirectXMath Library Constants</a>). As an example, in pseudo-code, an instance of
        <i>Control</i> with the elements:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>   Control = { XM_SELECT_0,   XM_SELECT_1,   XM_SELECT_0,   XM_SELECT_1 }</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+   Control = { XM_SELECT_0,   XM_SELECT_1,   XM_SELECT_0,   XM_SELECT_1 }
+```
+
+
 would return a vector <i>Result</i> with the following components of <i>V1</i> and <i>V2</i>
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>   Result = { V1.X,  V2.Y,   V1.Z,   V2.W }</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+   Result = { V1.X,  V2.Y,   V1.Z,   V2.W }
+```
+
+
 </li>
 </ul>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

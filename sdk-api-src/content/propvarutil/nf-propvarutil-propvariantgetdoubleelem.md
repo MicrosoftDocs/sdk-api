@@ -101,30 +101,34 @@ The following example uses this function to loop through the values in a <a href
 
 #### Examples
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // assume propvar is initialized and valid
 
-if ((propvar.vt & VT_TYPEMASK) == VT_R8)
+if ((propvar.vt &amp; VT_TYPEMASK) == VT_R8)
 {
     UINT cElem = PropVariantGetElementCount(propvar);
-    HRESULT hr = <mark type="const">S_OK</mark>;
+    HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
     
-    for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
+    for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
     {
         DOUBLE nValue;
-        hr = PropVariantGetDoubleElem(propvar, iElem, &nValue);
+        hr = PropVariantGetDoubleElem(propvar, iElem, &amp;nValue);
     
         if (SUCCEEDED(hr))
         {
             // nValue is valid now
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

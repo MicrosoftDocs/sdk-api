@@ -7,7 +7,7 @@ old-location: tapi2\linegeticon.htm
 tech.root: tapi
 ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_linegeticon, lineGetIcon, lineGetIcon function [TAPI 2.2], lineGetIconA, lineGetIconW, tapi/lineGetIcon, tapi/lineGetIconA, tapi/lineGetIconW, tapi2.linegeticon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

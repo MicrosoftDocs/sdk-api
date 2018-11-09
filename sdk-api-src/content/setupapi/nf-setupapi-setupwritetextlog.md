@@ -7,7 +7,7 @@ old-location: devinst\setupwritetextlog.htm
 tech.root: devinst
 ms.assetid: 8a59c796-1386-495c-9790-8916d677ebd3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupWriteTextLog, SetupWriteTextLog function [Device and Driver Installation], devinst.setupwritetextlog, setupapi/SetupWriteTextLog, setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ The change, if any, to the indentation depth of the section and the current log 
 A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. The comma-separated parameter list that follows <i>MessageStr</i> must match the format specifiers in the format string. 
 
 
-### -param arg1
+### -param arg5
 
 A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>. 
 

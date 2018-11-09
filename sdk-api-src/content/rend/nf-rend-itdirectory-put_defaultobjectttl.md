@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_put_defaultobjectttl.htm
 tech.root: tapi
 ms.assetid: aecadd26-648e-43ce-8331-ef4af24567ed
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],put_DefaultObjectTTL method, ITDirectory.put_DefaultObjectTTL, ITDirectory::put_DefaultObjectTTL, _tapi3_itdirectory_put_defaultobjectttl, put_DefaultObjectTTL, put_DefaultObjectTTL method [TAPI 2.2], put_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::put_DefaultObjectTTL, tapi3.itdirectory_put_defaultobjectttl
 ms.prod: windows-hardware
 ms.technology: windows-devices

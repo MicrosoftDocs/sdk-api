@@ -119,10 +119,14 @@ The following example calls the <b>InitializeAcl</b> function. The size of the  
 
 The example also omits a step for simplification. For more information, see the <a href="https://msdn.microsoft.com/0b309ac9-177d-425f-8b78-71fe73e41979">Taking Object Ownership</a> example. You must call the <a href="https://msdn.microsoft.com/1e2098d8-4d1f-4353-97c1-549021a5b3fd">FreeSid</a> function at the end of the example code due to calling the <a href="https://msdn.microsoft.com/fcdff2f8-7f43-4c0f-b548-4914b1991937">AllocateAndInitializeSid</a> function.
 
-
-```cpp
-#include <windows.h>
-#include <Winbase.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Winbase.h&gt;
 #pragma comment(lib, "duser.lib")
 
 #define NUM_OF_ACES 3
@@ -139,13 +143,13 @@ void main()
     // Add the SID for each ACE to psids. 
     cbAcl = sizeof(ACL) + 
         ((sizeof(ACCESS_ALLOWED_ACE)) * NUM_OF_ACES);
-    for (int i = 0; i < NUM_OF_ACES; i++)
+    for (int i = 0; i &lt; NUM_OF_ACES; i++)
     {
         cbAcl += GetLengthSid(psids[i]) - sizeof(DWORD);
     }
 
     // Align cbAcl to a DWORD.
-    cbAcl = (cbAcl + (sizeof(DWORD) - 1)) & 0xfffffffc;
+    cbAcl = (cbAcl + (sizeof(DWORD) - 1)) &amp; 0xfffffffc;
 
     pAcl = (ACL*)LocalAlloc(LPTR, cbAcl);
     if (pAcl)
@@ -170,10 +174,10 @@ void main()
     // Free pAcl when finished.
     // Call FreeSid when finished.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

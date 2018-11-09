@@ -7,7 +7,7 @@ old-location: controls\objecttype.htm
 tech.root: controls
 ms.assetid: fbac082e-adf2-48f9-ae13-5ea1357fc428
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: OBJECTTYPE, OBJECTTYPE enumeration [Windows Controls], __MIDL___MIDL_itf_tom_0000_0000_0002, controls.objecttype, tom/OBJECTTYPE, tom/tomAccent, tom/tomBox, tom/tomBoxedFormula, tom/tomBrackets, tom/tomBracketsWithSeps, tom/tomEq, tom/tomEquationArray, tom/tomFraction, tom/tomFunctionApply, tom/tomHorzVert, tom/tomLeftSubSup, tom/tomLowerLimit, tom/tomMath, tom/tomMatrix, tom/tomNary, tom/tomObjectMax, tom/tomOpChar, tom/tomOverbar, tom/tomPhantom, tom/tomRadical, tom/tomRuby, tom/tomSimpleText, tom/tomSlashedFraction, tom/tomStack, tom/tomStretchStack, tom/tomSubSup, tom/tomSubscript, tom/tomSuperscript, tom/tomUnderbar, tom/tomUpperLimit, tom/tomWarichu, tomAccent, tomBox, tomBoxedFormula, tomBrackets, tomBracketsWithSeps, tomEq, tomEquationArray, tomFraction, tomFunctionApply, tomHorzVert, tomLeftSubSup, tomLowerLimit, tomMath, tomMatrix, tomNary, tomObjectMax, tomOpChar, tomOverbar, tomPhantom, tomRadical, tomRuby, tomSimpleText, tomSlashedFraction, tomStack, tomStretchStack, tomSubSup, tomSubscript, tomSuperscript, tomUnderbar, tomUpperLimit, tomWarichu
 ms.prod: windows
 ms.technology: windows-sdk

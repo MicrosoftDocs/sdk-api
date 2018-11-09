@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ActiveEnd.htm
 tech.root: WinAuto
 ms.assetid: 20A6813A-FA1B-43BD-A2D2-AF9AB5A7CC99
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ActiveEnd, ActiveEnd enumeration [Windows Accessibility], ActiveEnd_End, ActiveEnd_None, ActiveEnd_Start, uiautomationcore/ActiveEnd, uiautomationcore/ActiveEnd_End, uiautomationcore/ActiveEnd_None, uiautomationcore/ActiveEnd_Start, winauto.uiauto_ActiveEnd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dxmath\xmplanefrompoints.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPoints(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMPlaneFromPoints, XMPlaneFromPoints, XMPlaneFromPoints method [DirectX Math Support APIs], dxmath.xmplanefrompoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMPlaneFromPoints
-: 
 ---
 
 # XMPlaneFromPoints function
@@ -84,6 +78,9 @@ Computes the equation of a plane constructed from three points in the plane.
 
 
 Returns a vector whose components are the coefficients of the plane (A, B, C, D) for the plane equation
+       
+
+<div class="code"><span codelanguage=""><table>
        <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -110,7 +107,9 @@ Result.w = -D.w;
 return Result;</pre>
 </td>
 </tr>
-</table></span></div>.
+</table></span></div>
+
+.
 
 
 

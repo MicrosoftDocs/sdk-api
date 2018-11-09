@@ -7,7 +7,7 @@ old-location: mf\imftransform_deleteinputstream.htm
 tech.root: medfound
 ms.assetid: cba37f7f-6ab2-469c-95c2-61d9e4d31d0b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],DeleteInputStream method, IMFTransform.DeleteInputStream, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

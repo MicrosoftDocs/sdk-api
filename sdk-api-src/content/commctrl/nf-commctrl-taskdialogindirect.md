@@ -7,7 +7,7 @@ old-location: controls\TaskDialogIndirect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogindirect.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls], _shell_TaskDialogIndirect, _shell_TaskDialogIndirect_cpp, commctrl/TaskDialogIndirect, controls.TaskDialogIndirect, controls._shell_TaskDialogIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -216,9 +216,13 @@ When you use a task dialog box to indicate that the system is low on memory, the
 
 The parent window should not be hidden or disabled when this function is called. 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 int nButtonPressed                  = 0;
 TASKDIALOGCONFIG config             = {0};
 const TASKDIALOG_BUTTON buttons[]   = { 
@@ -233,7 +237,7 @@ config.pszContent                   = L"Remember your changed password.";
 config.pButtons                     = buttons;
 config.cButtons                     = ARRAYSIZE(buttons);
 
-TaskDialogIndirect(&config, &nButtonPressed, NULL, NULL);
+TaskDialogIndirect(&amp;config, &amp;nButtonPressed, NULL, NULL);
 switch (nButtonPressed)
 {
     case IDOK:
@@ -242,10 +246,10 @@ switch (nButtonPressed)
         break; // user canceled the dialog
     default:
         break; // should never happen
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

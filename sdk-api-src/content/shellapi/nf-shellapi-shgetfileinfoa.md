@@ -7,7 +7,7 @@ old-location: shell\SHGetFileInfo.htm
 tech.root: shell
 ms.assetid: d662bedf-4be0-4528-8121-e7923a42bc67
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DISPLAYNAME, SHGFI_EXETYPE, SHGFI_ICON, SHGFI_ICONLOCATION, SHGFI_LARGEICON, SHGFI_LINKOVERLAY, SHGFI_OPENICON, SHGFI_OVERLAYINDEX, SHGFI_PIDL, SHGFI_SELECTED, SHGFI_SHELLICONSIZE, SHGFI_SMALLICON, SHGFI_SYSICONINDEX, SHGFI_TYPENAME, SHGFI_USEFILEATTRIBUTES, SHGetFileInfo, SHGetFileInfo function [Windows Shell], SHGetFileInfoA, SHGetFileInfoW, _win32_SHGetFileInfo, shell.SHGetFileInfo, shellapi/SHGetFileInfo, shellapi/SHGetFileInfoA, shellapi/SHGetFileInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -306,17 +306,21 @@ When you use the <b>SHGFI_EXETYPE</b> flag with a Windows application, the Windo
 
 The following code example uses <b>SHGetFileInfo</b> to retrieve the display name of the Recycle Bin, identified by its PIDL.
 
-
-```cpp
-LPITEMIDLIST pidl = NULL;
-hr = SHGetFolderLocation(NULL, CSIDL_BITBUCKET, NULL, 0, &pidl);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPITEMIDLIST pidl = NULL;
+hr = SHGetFolderLocation(NULL, CSIDL_BITBUCKET, NULL, 0, &amp;pidl);
 
 if (SUCCEEDED(hr))                    
 {
     SHFILEINFOW sfi = {0};
     hr = SHGetFileInfo((LPCTSTR)pidl,
                         -1,
-                        &sfi,
+                        &amp;sfi,
                         sizeof(sfi),
                         SHGFI_PIDL | SHGFI_DISPLAYNAME)
             
@@ -326,10 +330,10 @@ if (SUCCEEDED(hr))
     }
 }
 
-ILFree(pidl);
-```
-
-
+ILFree(pidl);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

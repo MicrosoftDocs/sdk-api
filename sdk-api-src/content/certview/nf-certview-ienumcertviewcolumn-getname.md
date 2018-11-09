@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_getname.htm
 tech.root: seccrypto
 ms.assetid: be76cec1-9ac0-4cc0-bddb-992b2d3590d7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetName method, IEnumCERTVIEWCOLUMN.GetName, IEnumCERTVIEWCOLUMN::GetName, _certsrv_ienumcertviewcolumn_getname, certview/IEnumCERTVIEWCOLUMN::GetName, security.ienumcertviewcolumn_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,22 +101,26 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetName
 
 #### Examples
 
-
-```cpp
-BSTR       bstrColName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR       bstrColName = NULL;
 HRESULT    hr;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
-hr = pEnumCol->GetName(&bstrColName);
+hr = pEnumCol-&gt;GetName(&amp;bstrColName);
 if (S_OK == hr)
     printf("Column name is %ws\n", bstrColName);
 
 // done processing, clear resources
 if (NULL != bstrColName)
-    SysFreeString(bstrColName);
-```
-
-
+    SysFreeString(bstrColName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

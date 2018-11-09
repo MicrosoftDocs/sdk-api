@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_setcertificateproperty.htm
 tech.root: seccrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -251,9 +251,13 @@ The following restrictions apply when setting the NotBefore and NotAfter certifi
 
 The following example calls the <b>SetCertificateProperty</b> method to set the NotBefore certificate property. The example assumes pServer is valid and the <a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a> method has been called.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 ICertServerPolicy *pServer;
 SYSTEMTIME st;
 BSTR bstrPropName;
@@ -267,16 +271,16 @@ if (NULL == bstrPropName)
 }
 
 // Set the 'NotBefore' property to Noon on Jan. 1, 2000.
-memset( &st, 0, sizeof(SYSTEMTIME));
+memset( &amp;st, 0, sizeof(SYSTEMTIME));
 st.wYear = 2000;
 st.wMonth = 1;     // Jan.
 st.wDay = 1;       // 1st day of month.
 st.wHour = 12;     // Noon.
 
 // Place the date into VARIANT required format.
-VariantInit( &vPropValue );
+VariantInit( &amp;vPropValue );
 vPropValue.vt = VT_DATE;
-if ( !SystemTimeToVariantTime( &st, &vPropValue.date))
+if ( !SystemTimeToVariantTime( &amp;st, &amp;vPropValue.date))
 {
     printf("Unable to convert time.\n");
     SysFreeString(bstrPropName);
@@ -284,19 +288,19 @@ if ( !SystemTimeToVariantTime( &st, &vPropValue.date))
 }
 
 // Set the NotBefore property in the certificate:
-hr = pServer->SetCertificateProperty(bstrPropName,
+hr = pServer-&gt;SetCertificateProperty(bstrPropName,
                                      PROPTYPE_DATE, 
-                                     &vPropValue);
+                                     &amp;vPropValue);
 SysFreeString(bstrPropName);
-VariantClear(&vPropValue);
+VariantClear(&amp;vPropValue);
 if (FAILED(hr))
 {
     printf("SetCertificateProperty failed [%x]\n", hr);
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

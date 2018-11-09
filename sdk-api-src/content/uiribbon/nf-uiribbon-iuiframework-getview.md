@@ -141,29 +141,33 @@ For example, each time there is a change to the size of the ribbon, a host appli
 
 The following example demonstrates how to use the <b>IUIFramework::GetView</b> method to retrieve a Ribbon View object, call the <a href="https://msdn.microsoft.com/en-us/library/Dd742708(v=VS.85).aspx">GetHeight</a> method to retrieve the height  of the ribbon, and calculate a display location for a <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> control based on the height of the ribbon.
 
-
-```cpp
-void GetDisplayLocation(POINT &pt, HWND hWnd)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void GetDisplayLocation(POINT &amp;pt, HWND hWnd)
 {
-  if (pt.x == -1 && pt.y == -1)
+  if (pt.x == -1 &amp;&amp; pt.y == -1)
   {
     HRESULT hr = E_FAIL;
 
     // Display the menu in the upper-left corner of the client area, below the ribbon.
     IUIRibbon* pRibbon;
-    hr = g_pFramework->GetView(0, IID_PPV_ARGS(&pRibbon));
+    hr = g_pFramework-&gt;GetView(0, IID_PPV_ARGS(&amp;pRibbon));
     if (SUCCEEDED(hr))
     {
       UINT32 uRibbonHeight = 0;
-      hr = pRibbon->GetHeight(&uRibbonHeight);
+      hr = pRibbon-&gt;GetHeight(&amp;uRibbonHeight);
       if (SUCCEEDED(hr))
       {
         pt.x = 0;
         pt.y = uRibbonHeight;
         // Convert client coordinates of a specified point to screen coordinates.
-        ClientToScreen(hWnd, &pt);
+        ClientToScreen(hWnd, &amp;pt);
       }
-      pRibbon->Release();
+      pRibbon-&gt;Release();
     }
     if (FAILED(hr))
     {
@@ -172,10 +176,10 @@ void GetDisplayLocation(POINT &pt, HWND hWnd)
       pt.y = 0;
     }
   }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

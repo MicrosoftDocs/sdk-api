@@ -7,7 +7,7 @@ old-location: dshow\iqueuecommand_invokeatstreamtime.htm
 tech.root: DirectShow
 ms.assetid: 350b6842-207c-47db-a3f8-9e2784d9da67
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQueueCommand.InvokeAtStreamTime, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,38 +132,42 @@ Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i
 
 The following example queues an <a href="https://msdn.microsoft.com/en-us/library/Dd390178(v=VS.85).aspx">IMediaControl::Stop</a> command for 3.0 seconds.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IQueueCommand *pQ = 0;
 IMediaControl *pControl = 0;
 
 // Query for IQueueCommand.
-pGraph->QueryInterface(IID_IQueueCommand, reinterpret_cast<void**>(&pQ));
+pGraph-&gt;QueryInterface(IID_IQueueCommand, reinterpret_cast&lt;void**&gt;(&amp;pQ));
 
 // Query for IMediaControl.
-pGraph->QueryInterface(IID_IMediaControl, reinterpret_cast<void**>(&pControl));
+pGraph-&gt;QueryInterface(IID_IMediaControl, reinterpret_cast&lt;void**&gt;(&amp;pControl));
 
 // Find the DISPID of the IMediaControl::Stop method.
 OLECHAR *szMethod = OLESTR("Stop");
 
 long dispid;
-hr = pControl->GetIDsOfNames(IID_NULL, &szMethod, 1, 0, &dispid);
+hr = pControl-&gt;GetIDsOfNames(IID_NULL, &amp;szMethod, 1, 0, &amp;dispid);
 
 // Invoke the command.
 IDeferredCommand *pCmd = 0;
-hr = pQ->InvokeAtPresentationTime(&pCmd, 3.0,
-    const_cast<GUID*>(&IID_IMediaControl), dispid, DISPATCH_METHOD, 
+hr = pQ-&gt;InvokeAtPresentationTime(&amp;pCmd, 3.0,
+    const_cast&lt;GUID*&gt;(&amp;IID_IMediaControl), dispid, DISPATCH_METHOD, 
     0, 0, 0, 0);
 if (SUCCEEDED(hr))
 {
-    pControl->Run();
-    pCmd->Release();
+    pControl-&gt;Run();
+    pCmd-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

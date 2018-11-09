@@ -7,7 +7,7 @@ old-location: tapi3\ienumlocation_next.htm
 tech.root: tapi
 ms.assetid: e9fe8747-5c65-47fd-9e1a-2387971bdf15
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumLocation interface [TAPI 2.2],Next method, IEnumLocation.Next, IEnumLocation::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumLocation interface, _tapi3_ienumlocation_next, tapi3.ienumlocation_next, tapi3if/IEnumLocation::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

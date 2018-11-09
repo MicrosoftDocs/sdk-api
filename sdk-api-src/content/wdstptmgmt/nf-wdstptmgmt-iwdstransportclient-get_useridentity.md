@@ -7,7 +7,7 @@ old-location: wds\iwdstransportclient_useridentity.htm
 tech.root: wds
 ms.assetid: c22a49ba-2f90-4131-8cf0-aa0d242d32c7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],UserIdentity property, IWdsTransportClient.UserIdentity, IWdsTransportClient.get_UserIdentity, IWdsTransportClient::UserIdentity, IWdsTransportClient::get_UserIdentity, UserIdentity property [Windows Deployment Services], UserIdentity property [Windows Deployment Services],IWdsTransportClient interface, get_UserIdentity, wds.iwdstransportclient_useridentity, wdstptmgmt/IWdsTransportClient::UserIdentity, wdstptmgmt/IWdsTransportClient::get_UserIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

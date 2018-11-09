@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_getcertificateextensionflags.htm
 tech.root: seccrypto
 ms.assetid: 6266e96d-81da-478f-99da-86936b4cfc6b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerPolicy object, GetCertificateExtensionFlags method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtensionFlags method, ICertServerPolicy.GetCertificateExtensionFlags, ICertServerPolicy::GetCertificateExtensionFlags, _certsrv_icertserverpolicy_getcertificateextensionflags, certif/ICertServerPolicy::GetCertificateExtensionFlags, security.icertserverpolicy_getcertificateextensionflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,28 +169,32 @@ It is safe to use the high 8 bits of EXTENSION_POLICY_MASK for custom data. Thes
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     ExtFlags;
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->GetCertificateExtensionFlags( &ExtFlags);
+hr = pCertServerPolicy-&gt;GetCertificateExtensionFlags( &amp;ExtFlags);
 
 // More than one policy flag might be set.
-LONG ExtPolicyFlags = ExtFlags & EXTENSION_POLICY_MASK;
+LONG ExtPolicyFlags = ExtFlags &amp; EXTENSION_POLICY_MASK;
 
-if (ExtPolicyFlags & EXTENSION_CRITICAL_FLAG)
+if (ExtPolicyFlags &amp; EXTENSION_CRITICAL_FLAG)
 {
     // Do something.
 }
 
-if (ExtPolicyFlags & EXTENSION_DISABLE_FLAG)
+if (ExtPolicyFlags &amp; EXTENSION_DISABLE_FLAG)
 {
     // Do something.
 }
 
 // only one origin flag can be set
-switch (ExtFlags & EXTENSION_ORIGIN_MASK)
+switch (ExtFlags &amp; EXTENSION_ORIGIN_MASK)
 {
     case EXTENSION_ORIGIN_REQUEST:
         // Extension was set in certificate request.
@@ -206,10 +210,10 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
         break;
     default:
         break;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

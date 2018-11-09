@@ -410,12 +410,16 @@ The parent descriptor must be returned from a previous call to BluetoothGATTGetD
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BTH_LE_GATT_DESCRIPTOR_VALUE newValue;
 
-RtlZeroMemory(&newValue, sizeof(newValue));
+RtlZeroMemory(&amp;newValue, sizeof(newValue));
 
 newValue.DescriptorType = ClientCharacteristicConfiguration;
 newValue.ClientCharacteristicConfiguration.IsSubscribeToNotification = TRUE;
@@ -423,12 +427,12 @@ newValue.ClientCharacteristicConfiguration.IsSubscribeToNotification = TRUE;
 // Subscribe to an event.
 hr = BluetoothGATTSetDescriptorValue(hDevice, 
                                 parentDescriptor, 
-                                &newValue,
+                                &amp;newValue,
                                 BLUETOOTH_GATT_FLAG_NONE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

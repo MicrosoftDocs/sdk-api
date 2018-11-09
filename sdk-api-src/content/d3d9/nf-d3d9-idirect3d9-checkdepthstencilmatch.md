@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__checkdepthstencilmatch.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdepthstencilmatch.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 64b8e751-080a-bbb1-2461-2c51a5600a61, CheckDepthStencilMatch, CheckDepthStencilMatch method [Direct3D 9], CheckDepthStencilMatch method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDepthStencilMatch method, IDirect3D9.CheckDepthStencilMatch, IDirect3D9::CheckDepthStencilMatch, d3d9helper/IDirect3D9::CheckDepthStencilMatch, direct3d9.idirect3d9__checkdepthstencilmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,16 +115,20 @@ The behavior of this method has been changed for DirectX 8.1.  This method now p
 
 The following code fragment shows how you could use <a href="https://msdn.microsoft.com/en-us/library/Bb174309(v=VS.85).aspx">CheckDeviceFormat</a> to validate a depth stencil format.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL IsDepthFormatOk(D3DFORMAT DepthFormat, 
                           D3DFORMAT AdapterFormat, 
                           D3DFORMAT BackBufferFormat)
 {
     
     // Verify that the depth format exists
-    HRESULT hr = pD3D->CheckDeviceFormat(D3DADAPTER_DEFAULT,
+    HRESULT hr = pD3D-&gt;CheckDeviceFormat(D3DADAPTER_DEFAULT,
                                          D3DDEVTYPE_HAL,
                                          AdapterFormat,
                                          D3DUSAGE_DEPTHSTENCIL,
@@ -134,7 +138,7 @@ BOOL IsDepthFormatOk(D3DFORMAT DepthFormat,
     if(FAILED(hr)) return FALSE;
     
     // Verify that the depth format is compatible
-    hr = pD3D->CheckDepthStencilMatch(D3DADAPTER_DEFAULT,
+    hr = pD3D-&gt;CheckDepthStencilMatch(D3DADAPTER_DEFAULT,
                                       D3DDEVTYPE_HAL,
                                       AdapterFormat,
                                       BackBufferFormat,
@@ -143,10 +147,10 @@ BOOL IsDepthFormatOk(D3DFORMAT DepthFormat,
     return SUCCEEDED(hr);
     
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The preceding call will return <b>FALSE</b> if DepthFormat cannot be used in conjunction with AdapterFormat and BackBufferFormat.
 
 

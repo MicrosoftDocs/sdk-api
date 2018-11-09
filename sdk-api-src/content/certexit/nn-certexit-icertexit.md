@@ -7,7 +7,7 @@ old-location: security\icertexit.htm
 tech.root: seccrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,17 +116,21 @@ Implementers of <b>ICertExit</b> should also implement
 
 Where <i>MyApp</i> is a specifier that identifies the application. For example, in C++, the following code could be used in the DECLARE_REGISTRY macro of a class (CMyCertExitModule) which implements <b>ICertExit</b>.
 
-
-```cpp
-DECLARE_REGISTRY(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_REGISTRY(
     CMyCertExitModule,
     L"MyCode.Exit.1",
     L"MyCode.Exit",
     IDS_CERTEXITMODULE_DESC,
-    THREADFLAGS_BOTH)
-```
-
-
+    THREADFLAGS_BOTH)</pre>
+</td>
+</tr>
+</table></span></div>
 For the previous sample, the IDS_CERTEXITMODULE_DESC value is an application-specific identifier in the resource file (.rc) for a string that describes the class.
 
 String constants defined in Certmod.h can be used to simplify following the naming convention.

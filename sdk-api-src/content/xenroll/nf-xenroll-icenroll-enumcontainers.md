@@ -7,7 +7,7 @@ old-location: security\icenroll4_enumcontainers.htm
 tech.root: seccrypto
 ms.assetid: 28102a55-3bda-4413-84b6-cfa2057be98b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnroll object [Security],enumContainers method, ICEnroll interface [Security],enumContainers method, ICEnroll.enumContainers, ICEnroll2 interface [Security],enumContainers method, ICEnroll2::enumContainers, ICEnroll3 interface [Security],enumContainers method, ICEnroll3::enumContainers, ICEnroll4 interface [Security],enumContainers method, ICEnroll4::enumContainers, ICEnroll::enumContainers, enumContainers, enumContainers method [Security], enumContainers method [Security],CEnroll object, enumContainers method [Security],ICEnroll interface, enumContainers method [Security],ICEnroll2 interface, enumContainers method [Security],ICEnroll3 interface, enumContainers method [Security],ICEnroll4 interface, security.icenroll4_enumcontainers, xenroll/ICEnroll2::enumContainers, xenroll/ICEnroll3::enumContainers, xenroll/ICEnroll4::enumContainers, xenroll/ICEnroll::enumContainers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,14 +107,18 @@ This method is disabled when  the Certificate Enrollment Control is executed as 
 
 #### Examples
 
-
-```cpp
-BSTR       bstrCon = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR       bstrCon = NULL;
 DWORD      nCon = 0;
 HRESULT    hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
-while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
+while ( S_OK == pEnroll-&gt;enumContainers(nCon, &amp;bstrCon) )
 {
     printf("\t%d) %ws\n", nCon++, bstrCon );
     if ( bstrCon )
@@ -122,10 +126,10 @@ while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
         SysFreeString( bstrCon );
         bstrCon = NULL;
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

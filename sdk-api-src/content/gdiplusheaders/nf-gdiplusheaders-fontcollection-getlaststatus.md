@@ -92,9 +92,13 @@ Note that the implementation of <b>FontCollection::GetLastStatus</b> in the <a h
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object, checks the status of a method call, and, if successful, draws text.
 
-
-```cpp
-VOID Example_GetLastStatus(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -108,7 +112,7 @@ VOID Example_GetLastStatus(HDC hdc)
    // fontCollection.
    FontFamily families[3];
    int numFamilies;
-   fontCollection.GetFamilies(3, families, &numFamilies);
+   fontCollection.GetFamilies(3, families, &amp;numFamilies);
 
    // Verify that the call to GetFamilies was successful.
    Status status = fontCollection.GetLastStatus();
@@ -117,18 +121,18 @@ VOID Example_GetLastStatus(HDC hdc)
    if (status == Ok)
    {
       // Create a Font object from the first FontFamily object in the array.
-      Font myFont(&families[0], 16);
+      Font myFont(&amp;families[0], 16);
 
       // Use myFont to draw text.
       SolidBrush solidbrush(Color(255, 0, 0, 0));
       WCHAR string[] = L"The call was successful";
       graphics.DrawString(string,
-                          23, &myFont, PointF(0, 0), &solidbrush);
+                          23, &amp;myFont, PointF(0, 0), &amp;solidbrush);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

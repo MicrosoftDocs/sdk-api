@@ -113,9 +113,13 @@ The following example creates a
 After the multiplication, the brush's transformation matrix represents a composite transformation: first scale, then translate. That composite transformation is applied to the brush's boundary path during the call to 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">FillRectangle</a>, so it is the area inside the transformed path that gets painted.
 
-
-```cpp
-VOID Example_MultiplyTransform(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_MultiplyTransform(HDC hdc)
 {
    Graphics graphics(hdc);
    Point pts[] = {Point(0, 0), Point(50, 0), Point(50, 50)};
@@ -125,13 +129,13 @@ VOID Example_MultiplyTransform(HDC hdc)
 
    PathGradientBrush pthGrBrush(pts, 3);
    pthGrBrush.ScaleTransform(3.0f, 1.0f);
-   pthGrBrush.MultiplyTransform(&matrix, MatrixOrderAppend);
+   pthGrBrush.MultiplyTransform(&amp;matrix, MatrixOrderAppend);
 
-   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);  
-}
-```
-
-
+   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);  
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

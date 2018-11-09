@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependencybyname.htm
 tech.root: mscs
 ms.assetid: 8c978b27-fd1a-47b6-8a30-cfe6e4fbcf57
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME function [Failover Cluster], ResUtilGetResourceDependencyByName, ResUtilGetResourceDependencyByName function [Failover Cluster], _wolf_resutilgetresourcedependencybyname, mscs.resutilgetresourcedependencybyname, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, resapi/ResUtilGetResourceDependencyByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,9 +148,13 @@ Do not call  <b>ResUtilGetResourceDependencyByName</b> from any resource DLL ent
 
 As the following example illustrates, if you know that resource A depends on a Physical Disk resource, you can use  <b>ResUtilGetResourceDependencyByName</b> to obtain a handle to the dependency.
 
-
-```cpp
-// String initialization and error checking omitted.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// String initialization and error checking omitted.
 
 HCLUSTER hCluster = OpenCluster( lpszClusterName );
 
@@ -167,10 +171,10 @@ HRESOURCE hResD = ResUtilGetResourceDependencyByName(
                         TRUE );
 
 // Close handles and free memory.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

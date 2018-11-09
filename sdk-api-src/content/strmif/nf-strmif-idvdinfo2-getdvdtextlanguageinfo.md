@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdvdtextlanguageinfo.htm
 tech.root: DirectShow
 ms.assetid: af8662af-f306-4142-b563-3b40a98b7fbe
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetDVDTextLanguageInfo, GetDVDTextLanguageInfo method [DirectShow], GetDVDTextLanguageInfo method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextLanguageInfo method, IDvdInfo2.GetDVDTextLanguageInfo, IDvdInfo2::GetDVDTextLanguageInfo, IDvdInfo2GetDVDTextLanguageInfo, dshow.idvdinfo2_getdvdtextlanguageinfo, strmif/IDvdInfo2::GetDVDTextLanguageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Receives the number of text strings for the specified language.
 Receives a <i>locale identifier</i> (LCID) that specifies the language in which the text is written. For example, the LCID for "en-us" is 0x0409.
 
 
-### -param arg1 [out]
+### -param arg4 [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/ee7d09e1-6274-4993-914e-d8f5efeb5f90">DVD_TextCharSet</a> enumeration. The value specifies the character set of the text string.
 

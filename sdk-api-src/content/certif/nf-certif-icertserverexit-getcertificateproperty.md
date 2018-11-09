@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getcertificateproperty.htm
 tech.root: seccrypto
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerExit object, GetCertificateProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateProperty method, ICertServerExit.GetCertificateProperty, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -481,21 +481,25 @@ You must call
 
 #### Examples
 
-
-```cpp
-BSTR    bstrPropName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR    bstrPropName = NULL;
 VARIANT varProp;
 
-VariantInit(&varProp);
+VariantInit(&amp;varProp);
 
 // Set the property name to RequestID.
 bstrPropName = SysAllocString(L"RequestID");
 
 // Retrieve the certificate property.
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit->GetCertificateProperty(bstrPropName,
+hr = pCertServerExit-&gt;GetCertificateProperty(bstrPropName,
                                              PROPTYPE_LONG,
-                                             &varProp );
+                                             &amp;varProp );
 if (FAILED(hr))
 {
     printf("Failed GetCertificateProperty [%x]\n", hr);
@@ -510,10 +514,10 @@ else
 // Done processing.
 if (NULL != bstrPropName)
     SysFreeString(bstrPropName);
-VariantClear(&varProp);
-```
-
-
+VariantClear(&amp;varProp);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\SetWindowTheme.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowtheme.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetWindowTheme, SetWindowTheme function [Windows Controls], controls.SetWindowTheme, controls.inet_SetWindowTheme, inet_SetWindowTheme, inet_SetWindowTheme_cpp, uxtheme/SetWindowTheme
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,12 +107,16 @@ When <i>pszSubAppName</i> and <i>pszSubIdList</i> are <b>NULL</b>, the theme man
 
 The following example code gives a list-view control the appearance of a Windows Explorer list: 
 
-
-```cpp
-SetWindowTheme(hwndList, L"Explorer", NULL);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SetWindowTheme(hwndList, L"Explorer", NULL);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

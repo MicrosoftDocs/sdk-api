@@ -7,7 +7,7 @@ old-location: controls\ComboBox_InsertString.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertstring.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ComboBox_InsertString, ComboBox_InsertString macro [Windows Controls], _win32_ComboBox_InsertString, _win32_ComboBox_InsertString_cpp, controls.ComboBox_InsertString, controls._win32_ComboBox_InsertString, windowsx/ComboBox_InsertString
 ms.prod: windows-hardware
 ms.technology: windows-devices

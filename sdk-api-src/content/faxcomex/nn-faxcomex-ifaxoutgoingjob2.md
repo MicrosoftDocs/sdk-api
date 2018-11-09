@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\faxinto_z_ifaxoutgoingjob2.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxOutgoingJob2, IFaxOutgoingJob2 interface [Fax Service], IFaxOutgoingJob2 interface [Fax Service],described, _mfax_faxoutgoingjob2_cpp, fax._mfax_faxoutgoingjob2_cpp, faxcomex/IFaxOutgoingJob2
 ms.prod: windows
 ms.technology: windows-sdk

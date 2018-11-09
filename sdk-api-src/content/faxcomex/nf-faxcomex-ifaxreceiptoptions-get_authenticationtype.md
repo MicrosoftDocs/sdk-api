@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticat
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],IFaxReceiptOptions interface, IFaxReceiptOptions interface [Fax Service],AuthenticationType property, IFaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.get_AuthenticationType, IFaxReceiptOptions::AuthenticationType, IFaxReceiptOptions::get_AuthenticationType, IFaxReceiptOptions::put_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp, faxcomex/IFaxReceiptOptions::AuthenticationType, faxcomex/IFaxReceiptOptions::get_AuthenticationType, faxcomex/IFaxReceiptOptions::put_AuthenticationType, get_AuthenticationType
 ms.prod: windows-hardware
 ms.technology: windows-devices

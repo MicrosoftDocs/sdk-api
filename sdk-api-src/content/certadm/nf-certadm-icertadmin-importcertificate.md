@@ -7,7 +7,7 @@ old-location: security\icertadmin2_importcertificate.htm
 tech.root: seccrypto
 ms.assetid: b79a726e-5823-468b-869d-382e6fd73b44
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],ImportCertificate method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin interface [Security],ImportCertificate method, ICertAdmin.ImportCertificate, ICertAdmin2 interface [Security],ImportCertificate method, ICertAdmin2::ImportCertificate, ICertAdmin::ImportCertificate, ImportCertificate, ImportCertificate method [Security], ImportCertificate method [Security],CCertAdmin object, ImportCertificate method [Security],ICertAdmin interface, ImportCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportCertificate, certadm/ICertAdmin::ImportCertificate, security.icertadmin2_importcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,9 +158,13 @@ Furthermore, you cannot import a certificate if it already exists in the databas
 
 #### Examples
 
-
-```cpp
-// This code imports a binary certificate file.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// This code imports a binary certificate file.
 BSTR   bstrCert = NULL;  // Variable for certificate.
 HANDLE hFile;  
 DWORD  cchFile, cbRead;
@@ -199,7 +203,7 @@ if (NULL == bstrCert)
 if (!ReadFile(hFile,
              (char *)bstrCert,
              cchFile,
-             &cbRead,
+             &amp;cbRead,
              NULL) || (cbRead != cchFile))
 {
     printf("Failed to successfully read file\n");
@@ -211,7 +215,7 @@ if (!ReadFile(hFile,
 CloseHandle(hFile);
 
 // Import the certificate.
-bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
 if (FAILED(hr))
 {
     printf("Failed to allocate memory for bstrCA\n");
@@ -219,20 +223,20 @@ if (FAILED(hr))
     // Take error action as needed.
 }
 
-hr = pCertAdmin->ImportCertificate(bstrCA,
+hr = pCertAdmin-&gt;ImportCertificate(bstrCA,
                                    bstrCert,
                                    CR_IN_BINARY,
-                                   &nID);
+                                   &amp;nID);
 if (FAILED(hr))
     printf("Failed ImportCertificate [%x]\n", hr);
 else
     printf("Imported certificated has Request ID: %d\n", nID);
 
 SysFreeString(bstrCert);
-SysFreeString(bstrCA);
-```
-
-
+SysFreeString(bstrCA);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

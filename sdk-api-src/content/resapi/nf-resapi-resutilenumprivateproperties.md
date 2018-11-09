@@ -7,7 +7,7 @@ old-location: mscs\resutilenumprivateproperties.htm
 tech.root: mscs
 ms.assetid: 83e08a14-4f0f-4c5b-9066-53ee5bb45901
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES function [Failover Cluster], ResUtilEnumPrivateProperties, ResUtilEnumPrivateProperties function [Failover Cluster], _wolf_resutilenumprivateproperties, mscs.resutilenumprivateproperties, resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES, resapi/ResUtilEnumPrivateProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

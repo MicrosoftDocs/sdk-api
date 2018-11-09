@@ -7,7 +7,7 @@ old-location: base\createfilemappingfromapp.htm
 tech.root: memory
 ms.assetid: ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -414,6 +414,8 @@ When modifying a file through a mapped view, the last modification timestamp may
 Use structured exception handling to protect any code that writes to or reads from a file view. For more 
     information, see 
     <a href="https://msdn.microsoft.com/c2a3da09-d116-4c2c-9e6c-ec9e80c88b99">Reading and Writing From a File View</a>.
+
+ You can only successfully request executable protection if your app has the <b>codeGeneration</b> capability.
 
 
 

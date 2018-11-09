@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_606r_cpp.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxDeviceIds, IFaxDeviceIds interface [Fax Service], IFaxDeviceIds interface [Fax Service],described, _mfax_faxdeviceids_cpp, fax._mfax_faxdeviceids_cpp, faxcomex/IFaxDeviceIds
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\scaleviewportextex.htm
 tech.root: gdi
 ms.assetid: 8dde1322-82d7-4069-9655-a7bd3a324cb0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,15 +107,19 @@ If the function fails, the return value is zero.
 
 The viewport extents are modified as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     xNewVE = (xOldVE * Xnum) / Xdenom 
     yNewVE = (yOldVE * Ynum) / Ydenom 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

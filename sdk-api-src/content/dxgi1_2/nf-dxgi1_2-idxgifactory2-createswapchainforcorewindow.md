@@ -126,13 +126,17 @@ The foreground swap chain will use multiplane overlays if supported by the hardw
 
 The following example creates a foreground swap chain for a CoreWindow:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 DXGI_SWAP_CHAIN_DESC1 swapChainDesc = { 0 };
 
-swapChainDesc.Width = static_cast<UINT>(m_d3dRenderTargetSize.Width);
-swapChainDesc.Height = static_cast<UINT>(m_d3dRenderTargetSize.Height);
+swapChainDesc.Width = static_cast&lt;UINT&gt;(m_d3dRenderTargetSize.Width);
+swapChainDesc.Height = static_cast&lt;UINT&gt;(m_d3dRenderTargetSize.Height);
 swapChainDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM;
 swapChainDesc.Stereo = false;
 swapChainDesc.SampleDesc.Count = 1; // Don't use multi-sampling.
@@ -144,33 +148,37 @@ swapChainDesc.Flags = DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER;
 swapChainDesc.AlphaMode = DXGI_ALPHA_MODE_PREMULTIPLIED;
 swapChainDesc.Scaling = DXGI_SCALING_NONE;
 
-ComPtr<IDXGISwapChain1> swapChain;
-HRESULT hr = dxgiFactory->CreateSwapChainForCoreWindow(
+ComPtr&lt;IDXGISwapChain1&gt; swapChain;
+HRESULT hr = dxgiFactory-&gt;CreateSwapChainForCoreWindow(
     m_d3dDevice.Get(),
-    reinterpret_cast<IUnknown*>(m_window.Get()),
-    &swapChainDesc,
+    reinterpret_cast&lt;IUnknown*&gt;(m_window.Get()),
+    &amp;swapChainDesc,
     nullptr,
-    &swapChain
-    );
-```
-
-
+    &amp;swapChain
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 Present both swap chains together after rendering is complete.
 
 The following example presents both swap chains:
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+HRESULT hr = m_swapChain-&gt;Present(1, 0);
 
-```cpp
-
-HRESULT hr = m_swapChain->Present(1, 0);
-
-if (SUCCEEDED(hr) && m_foregroundSwapChain)
+if (SUCCEEDED(hr) &amp;&amp; m_foregroundSwapChain)
 {
-    m_foregroundSwapChain->Present(1, 0);
-}
-```
-
-
+    m_foregroundSwapChain-&gt;Present(1, 0);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

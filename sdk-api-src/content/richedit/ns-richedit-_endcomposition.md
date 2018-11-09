@@ -7,7 +7,7 @@ old-location: controls\endcompositionnotify.htm
 tech.root: controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ECN_ENDCOMPOSITION, ECN_NEWTEXT, ENDCOMPOSITIONNOTIFY, ENDCOMPOSITIONNOTIFY structure [Windows Controls], _endcomposition, controls.endcompositionnotify, richedit/ENDCOMPOSITIONNOTIFY
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\NMRBAUTOSIZE.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrbautosize.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPNMRBAUTOSIZE, LPNMRBAUTOSIZE, LPNMRBAUTOSIZE structure pointer [Windows Controls], NMRBAUTOSIZE, NMRBAUTOSIZE structure [Windows Controls], _win32_NMRBAUTOSIZE, _win32_NMRBAUTOSIZE_cpp, commctrl/LPNMRBAUTOSIZE, commctrl/NMRBAUTOSIZE, controls.NMRBAUTOSIZE, controls._win32_NMRBAUTOSIZE, tagNMRBAUTOSIZE"
 ms.prod: windows
 ms.technology: windows-sdk

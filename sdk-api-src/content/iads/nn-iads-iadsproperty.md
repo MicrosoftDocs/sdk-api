@@ -361,9 +361,13 @@ The following code example shows the procedure above for applying the
      <b>IADsProperty</b> interface to determine attribute 
      definitions of a property.
 
-
-```vb
-Dim obj As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim obj As IADs
 Dim cl As IADsClass
 Dim pr As IADsProperty
 Dim sy As IADsSyntax
@@ -387,8 +391,8 @@ Set sc = GetObject(cl.Parent)
 Set pr = sc.GetObject("Property","Owner")
  
 ' Step 5
-MsgBox "Attribute: " & pr.Name
-MsgBox "Syntax:    " & pr.Syntax
+MsgBox "Attribute: " &amp; pr.Name
+MsgBox "Syntax:    " &amp; pr.Syntax
 If pr.Multivalued = True Then
     MsgBox "The Owner attribute has multiple values."
 Else
@@ -396,23 +400,23 @@ Else
 End If
  
 ' To further examine the syntax
-Set sy = GetObject(sc.AdsPath & "/" & pr.Syntax)
-MsgBox "Syntax object: " & sy.Name & " of OleAutoDataType: " _
-       & sy.OleAutoDataType
+Set sy = GetObject(sc.AdsPath &amp; "/" &amp; pr.Syntax)
+MsgBox "Syntax object: " &amp; sy.Name &amp; " of OleAutoDataType: " _
+       &amp; sy.OleAutoDataType
 
 Cleanup:
-    If (Err.Number <> 0 ) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number &lt;&gt; 0 ) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
 
     Set obj = Nothing
     Set cl = Nothing
     Set pr = Nothing
     Set sy = Nothing
-    Set sc = Nothing
-```
-
-
+    Set sc = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

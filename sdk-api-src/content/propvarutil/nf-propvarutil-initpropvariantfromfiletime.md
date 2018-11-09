@@ -94,24 +94,28 @@ Creates a VT_FILETIME propvariant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>.
 
-
-```cpp
-FILETIME ft;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FILETIME ft;
 PROPVARIANT propvar;
 
-GetSystemTimeAsFileTime(&ft);
+GetSystemTimeAsFileTime(&amp;ft);
 
-HRESULT hr = InitPropVariantFromFileTime(&ft, &propvar);
+HRESULT hr = InitPropVariantFromFileTime(&amp;ft, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_FILETIME.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

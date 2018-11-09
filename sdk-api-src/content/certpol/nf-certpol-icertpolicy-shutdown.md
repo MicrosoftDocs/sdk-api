@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_shutdown.htm
 tech.root: seccrypto
 ms.assetid: 2a796acb-b179-4b6f-8864-9e96f4049389
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertPolicy object [Security],ShutDown method, ICertPolicy interface [Security],ShutDown method, ICertPolicy.ShutDown, ICertPolicy2 interface [Security],ShutDown method, ICertPolicy2::ShutDown, ICertPolicy::ShutDown, ShutDown, ShutDown method [Security], ShutDown method [Security],CCertPolicy object, ShutDown method [Security],ICertPolicy interface, ShutDown method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_shutdown, certpol/ICertPolicy2::ShutDown, certpol/ICertPolicy::ShutDown, security.icertpolicy2_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,11 +86,15 @@ When you write custom policy modules, implement this method.
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certpol.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certpol.h&gt;
 
 STDMETHODIMP CCertPolicy::ShutDown()
 {
@@ -102,10 +106,10 @@ STDMETHODIMP CCertPolicy::ShutDown()
         printf("Policy module Shutdown was called\n");
     }
     return( S_OK );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

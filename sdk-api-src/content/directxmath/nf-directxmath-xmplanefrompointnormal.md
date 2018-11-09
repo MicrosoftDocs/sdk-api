@@ -7,7 +7,7 @@ old-location: dxmath\xmplanefrompointnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPointNormal(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMPlaneFromPointNormal, XMPlaneFromPointNormal, XMPlaneFromPointNormal method [DirectX Math Support APIs], dxmath.xmplanefrompointnormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMPlaneFromPointNormal
-: 
 ---
 
 # XMPlaneFromPointNormal function
@@ -79,6 +73,9 @@ Computes the equation of a plane constructed from a point in the plane and a nor
 
 
 Returns a vector whose components are the coefficients of the plane (A, B, C, D) for the plane equation
+       
+
+<div class="code"><span codelanguage=""><table>
        <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -95,7 +92,9 @@ Result.w = -(Point.x * Normal.x + Point.y * Normal.y + Point.z * Normal.z);
 return Result;</pre>
 </td>
 </tr>
-</table></span></div>.
+</table></span></div>
+
+.
 
 
 

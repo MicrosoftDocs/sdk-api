@@ -7,7 +7,7 @@ old-location: gdi\cfp_freeproc.htm
 tech.root: gdi
 ms.assetid: cd99e704-b3a8-4d55-946f-76dd47b2a030
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CFP_FREEPROC, CFP_FREEPROC callback, CFP_FREEPROC callback function [Windows GDI], _win32_CFP_FREEPROC, fontsub/CFP_FREEPROC, gdi.cfp_freeproc
 ms.prod: windows
 ms.technology: windows-sdk

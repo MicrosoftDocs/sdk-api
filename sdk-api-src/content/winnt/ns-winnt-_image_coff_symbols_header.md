@@ -7,7 +7,7 @@ old-location: base\image_coff_symbols_header_str.htm
 tech.root: debug
 ms.assetid: f3a0ba0e-ef6b-4355-8dc4-5099dd54ab7e
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 11/02/2018
 ms.keywords: "*PIMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER structure, PIMAGE_COFF_SYMBOLS_HEADER, PIMAGE_COFF_SYMBOLS_HEADER structure pointer, _IMAGE_COFF_SYMBOLS_HEADER, _win32_image_coff_symbols_header_str, base.image_coff_symbols_header_str, winnt/IMAGE_COFF_SYMBOLS_HEADER, winnt/PIMAGE_COFF_SYMBOLS_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

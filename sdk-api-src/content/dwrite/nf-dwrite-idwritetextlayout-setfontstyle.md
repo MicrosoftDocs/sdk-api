@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 688a6c30-5eca-44aa-bcb0-02a3f29647b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStyle method, IDWriteTextLayout.SetFontStyle, IDWriteTextLayout::SetFontStyle, SetFontStyle, SetFontStyle method [Direct Write], SetFontStyle method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStyle, dwrite/IDWriteTextLayout::SetFontStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,25 +96,21 @@ The font style can be set to Normal, Italic or Oblique. The following illustrati
 
 The following code illustrates how to set the font style to italic.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Set the font style to italic for the entire string.
 DWRITE_TEXT_RANGE textRange = {0, cTextLength_};
 
 if (SUCCEEDED(hr))
 {
-    hr = pTextLayout_-&gt;SetFontStyle(DWRITE_FONT_STYLE_ITALIC, textRange);
+    hr = pTextLayout_->SetFontStyle(DWRITE_FONT_STYLE_ITALIC, textRange);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

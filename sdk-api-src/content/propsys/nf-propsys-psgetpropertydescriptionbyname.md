@@ -639,21 +639,25 @@ In addition to the new canonical names, callers can pass a legacy name for a pro
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPropertyDescription *pPropDesc;
 
-```cpp
-IPropertyDescription *pPropDesc;
-
-HRESULT hr = PSGetPropertyDescriptionByName(L"System.Rating", IID_PPV_ARGS(&pPropDesc))
+HRESULT hr = PSGetPropertyDescriptionByName(L"System.Rating", IID_PPV_ARGS(&amp;pPropDesc))
 
 if (SUCCEEDED(hr))
 {
     // pPropDesc is now valid.
  
-    pPropDesc->Release();
-}
-```
-
-
+    pPropDesc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

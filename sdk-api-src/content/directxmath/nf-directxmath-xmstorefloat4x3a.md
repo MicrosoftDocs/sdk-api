@@ -7,7 +7,7 @@ old-location: dxmath\xmstorefloat4x3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x3A(XMFLOAT4X3A@,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMStoreFloat4x3A, XMStoreFloat4x3A, XMStoreFloat4x3A method [DirectX Math Support APIs], dxmath.xmstorefloat4x3a
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMStoreFloat4x3A
-: 
 ---
 
 # XMStoreFloat4x3A function
@@ -89,6 +83,9 @@ None.
 
 
 <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
+   to write out column-major data since it assumes the last column is 
+
+<div class="code"><span codelanguage=""><table>
    to write out column-major data since it assumes the last column is <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -115,7 +112,9 @@ pDestination-&gt;m[3][1] = M.r[3].v[1];
 pDestination-&gt;m[3][2] = M.r[3].v[2];</pre>
 </td>
 </tr>
-</table></span></div>.
+</table></span></div>
+
+.
 
 The following pseudocode demonstrates the operation of the function.
 

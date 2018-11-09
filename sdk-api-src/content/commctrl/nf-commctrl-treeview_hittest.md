@@ -7,7 +7,7 @@ old-location: controls\TreeView_HitTest.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_hittest.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TreeView_HitTest, TreeView_HitTest macro [Windows Controls], _win32_TreeView_HitTest, _win32_TreeView_HitTest_cpp, commctrl/TreeView_HitTest, controls.TreeView_HitTest, controls._win32_TreeView_HitTest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getsystemfilecachesize.htm
 tech.root: memory
 ms.assetid: 9a82e572-eab8-4096-a3b3-706ca6eb7a52
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: FILE_CACHE_MAX_HARD_ENABLE, FILE_CACHE_MIN_HARD_ENABLE, GetSystemFileCacheSize, GetSystemFileCacheSize function, base.getsystemfilecachesize, winbase/GetSystemFileCacheSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

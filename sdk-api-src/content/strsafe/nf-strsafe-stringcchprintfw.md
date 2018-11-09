@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resources], StringCchPrintfA, StringCchPrintfW, _shell_StringCchPrintf, _shell_stringcchprintf_cpp, menurc.stringcchprintf, strsafe/StringCchPrintf, strsafe/StringCchPrintfA, strsafe/StringCchPrintfW, winui._shell_stringcchprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Type: <b>LPCTSTR</b>
 The format string. This string must be null-terminated. For more information, see <a href="https://msdn.microsoft.com/en-us/library/56e442dc.aspx">Format Specification Syntax</a>.
 
 
-### -param arg1 [in]
+### -param arg4 [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
@@ -192,9 +192,13 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 The following example shows a simple use of <b>StringCchPrintf</b>, using four arguments.
 
-
-```cpp
-TCHAR pszDest[30]; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TCHAR pszDest[30]; 
 size_t cchDest = 30;
 
 LPCTSTR pszFormat = TEXT("%s %d + %d = %d.");
@@ -202,10 +206,10 @@ TCHAR* pszTxt = TEXT("The answer is");
 
 HRESULT hr = StringCchPrintf(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
 
-// The resultant string at pszDest is "The answer is 1 + 2 = 3."
-```
-
-
+// The resultant string at pszDest is "The answer is 1 + 2 = 3."</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

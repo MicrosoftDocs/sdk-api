@@ -7,7 +7,7 @@ old-location: tapi3\itdigitgenerationevent.htm
 tech.root: tapi
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITDigitGenerationEvent, ITDigitGenerationEvent interface [TAPI 2.2], ITDigitGenerationEvent interface [TAPI 2.2],described, _tapi3_itdigitgenerationevent, tapi3.itdigitgenerationevent, tapi3if/ITDigitGenerationEvent
 ms.prod: windows
 ms.technology: windows-sdk

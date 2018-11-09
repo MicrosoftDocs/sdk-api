@@ -7,7 +7,7 @@ old-location: controls\ListView_GetCallbackMask.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcallbackmask.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_GetCallbackMask, ListView_GetCallbackMask macro [Windows Controls], _win32_ListView_GetCallbackMask, _win32_ListView_GetCallbackMask_cpp, commctrl/ListView_GetCallbackMask, controls.ListView_GetCallbackMask, controls._win32_ListView_GetCallbackMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -99,15 +99,19 @@ A generic, default
 The following example creates a generic, default 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object and then uses it to draw a formatted string. The code also draws the string's layout rectangle.
 
-
-```cpp
-VOID Example_GenericDefault(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GenericDefault(HDC hdc)
 {
    Graphics graphics(hdc);
 
    SolidBrush  solidBrush(Color(255, 255, 0, 0)); 
    FontFamily  fontFamily(L"Times New Roman");
-   Font        font(&fontFamily, 12, FontStyleRegular, UnitPoint);
+   Font        font(&amp;fontFamily, 12, FontStyleRegular, UnitPoint);
    
    // Create a generic StringFormat object.
    const StringFormat* pStringFormat = StringFormat::GenericDefault();
@@ -116,18 +120,18 @@ VOID Example_GenericDefault(HDC hdc)
   graphics.DrawString(
       L"This text was formatted by a generic StringFormat object.", 
       57,  // string length
-      &font, 
+      &amp;font, 
       RectF(30, 30, 100, 120), 
       pStringFormat, 
-      &solidBrush);
+      &amp;solidBrush);
 
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&pen, 30, 30, 100, 120);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, 30, 30, 100, 120);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

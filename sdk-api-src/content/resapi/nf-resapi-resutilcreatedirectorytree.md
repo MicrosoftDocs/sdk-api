@@ -7,7 +7,7 @@ old-location: mscs\resutilcreatedirectorytree.htm
 tech.root: mscs
 ms.assetid: 5e1e689f-cc33-4cc7-9c6c-9799a6d6f70a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_CREATE_DIRECTORY_TREE, PRESUTIL_CREATE_DIRECTORY_TREE function [Failover Cluster], ResUtilCreateDirectoryTree, ResUtilCreateDirectoryTree function [Failover Cluster], _wolf_resutilcreatedirectorytree, mscs.resutilcreatedirectorytree, resapi/PRESUTIL_CREATE_DIRECTORY_TREE, resapi/ResUtilCreateDirectoryTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,13 @@ If the path only contains a drive specification (L"c:\\"),  <b>ResUtilCreateDire
 
 #### Examples
 
-
-```cpp
-// BEFORE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// BEFORE
 //   C:
 //   |--Program Files
 //      |-- MyApp
@@ -112,9 +116,9 @@ ResUtilCreateDirectoryTree( L"C:\\Program Files\\MyApp\\Bin" );
 //            |--Parameters
 //               |--Users
 //
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

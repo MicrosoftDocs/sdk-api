@@ -98,9 +98,13 @@ The following example creates two
 						<b>Rect</b> object horizontally by a specified value, and then determines whether the two 
 						<b>Rect</b> objects are the same.
 
-
-```cpp
-Rect rect1(50, 50, 200, 100);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Rect rect1(50, 50, 200, 100);
 Rect rect2(20, 50, 200, 100);
 
 rect2.Offset(30, 0);
@@ -108,10 +112,10 @@ rect2.Offset(30, 0);
 if(rect2.Equals(rect1))
 {
    // The two rectangles are the same.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

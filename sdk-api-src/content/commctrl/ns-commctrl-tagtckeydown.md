@@ -7,7 +7,7 @@ old-location: controls\NMTCKEYDOWN.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NMTCKEYDOWN, NMTCKEYDOWN structure [Windows Controls], _win32_NMTCKEYDOWN, _win32_NMTCKEYDOWN_cpp, commctrl/NMTCKEYDOWN, controls.NMTCKEYDOWN, controls._win32_NMTCKEYDOWN, tagTCKEYDOWN
 ms.prod: windows
 ms.technology: windows-sdk

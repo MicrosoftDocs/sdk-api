@@ -7,7 +7,7 @@ old-location: mf\mfcreatemp3mediasink.htm
 tech.root: medfound
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,9 +88,13 @@ audio samples as input, and writes an MP3 file with ID3 headers as output. The M
 
 #### Examples
 
-
-```cpp
-HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
 {
     *ppSink = NULL;
 
@@ -102,7 +106,7 @@ HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
         MF_OPENMODE_DELETE_IF_EXIST, 
         MF_FILEFLAGS_NONE, 
         pszOutputFile, 
-        &pStream
+        &amp;pStream
         );
        
     // Create the MP3 media sink.
@@ -111,13 +115,13 @@ HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
         hr =  MFCreateMP3MediaSink(pStream, ppSink);
     }
 
-    SafeRelease(&pStream);
+    SafeRelease(&amp;pStream);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

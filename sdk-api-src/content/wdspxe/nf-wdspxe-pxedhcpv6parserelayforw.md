@@ -7,7 +7,7 @@ old-location: wds\pxedhcpv6parserelayforw.htm
 tech.root: wds
 ms.assetid: 1D9F1FFF-3ABB-4580-A5F2-C74B5E7EEAC9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PxeDhcpv6ParseRelayForw, PxeDhcpv6ParseRelayForw function [Windows Deployment Services], wds.pxedhcpv6parserelayforw, wdspxe/PxeDhcpv6ParseRelayForw
 ms.prod: windows-hardware
 ms.technology: windows-devices

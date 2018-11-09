@@ -7,7 +7,7 @@ old-location: automat\idispatch_getidsofnames.htm
 tech.root: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,9 +170,13 @@ The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need 
 
 The following code from the Lines sample file Lines.cpp implements the <b>GetIDsOfNames</b> member function for the CLine class. The ActiveX or OLE object uses the standard implementation, <a href="https://msdn.microsoft.com/720a0237-9c68-4252-9f66-43610d4be106">DispGetIDsOfNames</a>. This implementation relies on <b>DispGetIdsOfNames</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
 
-
-```cpp
-STDMETHODIMP 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP 
 CLine::GetIDsOfNames(
       REFIID riid,
       OLECHAR ** rgszNames,
@@ -181,29 +185,33 @@ CLine::GetIDsOfNames(
       DISPID * rgDispId)
 {
       return DispGetIDsOfNames(m_ptinfo, rgszNames, cNames, rgDispId);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following code might appear in an ActiveX client that calls <b>GetIDsOfNames</b> to get the DISPID of the <b>CLine</b><b>Color</b> property.
 
-
-```cpp
-HRESULT hresult;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hresult;
 IDispatch * pdisp = (IDispatch *)NULL;
 DISPID dispid;
 OLECHAR * szMember = "color";
 
 // Code that sets a pointer to the dispatch (pdisp) is omitted.
 
-hresult = pdisp->GetIDsOfNames(
+hresult = pdisp-&gt;GetIDsOfNames(
    IID_NULL,
-   &szMember,
+   &amp;szMember,
    1, LOCALE_SYSTEM_DEFAULT,
-   &dispid);
-```
-
-
+   &amp;dispid);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
 tech.root: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarAddButtons method, ITaskbarList3.ThumbBarAddButtons, ITaskbarList3::ThumbBarAddButtons, ThumbBarAddButtons, ThumbBarAddButtons method [Windows Shell], ThumbBarAddButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarAddButtons, shell.ITaskbarList3_ThumbBarAddButtons, shobjidl_core/ITaskbarList3::ThumbBarAddButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,9 +130,13 @@ Thumbnail toolbars are displayed only when thumbnails are being displayed. For i
 
 The following example shows how to use <b>ThumbBarAddButtons</b> to add a toolbar that contains two buttons to a thumbnail on the extended taskbar.
 
-
-```cpp
-HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 {
     // Define an array of two buttons. These buttons provide images through an 
     // image list and also provide tooltips.
@@ -156,25 +160,25 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
     HRESULT hr = CoCreateInstance(CLSID_TaskbarList, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&ptbl);
+                                  IID_PPV_ARGS(&amp;ptbl);
 
     if (SUCCEEDED(hr))
     {
         // Declare the image list that contains the button images.
-        hr = ptbl->ThumbBarSetImageList(hwnd, himl);
+        hr = ptbl-&gt;ThumbBarSetImageList(hwnd, himl);
 
         if (SUCCEEDED(hr))
         {
             // Attach the toolbar to the thumbnail.
-            hr = ptbl->ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &thbButtons);
+            hr = ptbl-&gt;ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &amp;thbButtons);
         }
-        ptbl->Release();
+        ptbl-&gt;Release();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

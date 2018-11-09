@@ -7,7 +7,7 @@ old-location: picacq\iphotoprogressdialog_create.htm
 tech.root: acquisition
 ms.assetid: e68ac203-f97b-4459-b344-c845f0ac0f1b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Create method, IPhotoProgressDialog.Create, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
 ms.prod: windows-hardware
 ms.technology: windows-devices

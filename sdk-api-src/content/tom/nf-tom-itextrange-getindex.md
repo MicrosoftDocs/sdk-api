@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetIndex.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getindex.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetIndex, GetIndex method [Windows Controls], GetIndex method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetIndex method, ITextRange.GetIndex, ITextRange::GetIndex, _win32_ITextRange_GetIndex, _win32_ITextRange_GetIndex_cpp, controls.ITextRange_GetIndex, controls._win32_ITextRange_GetIndex, tom/ITextRange::GetIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

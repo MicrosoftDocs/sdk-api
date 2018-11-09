@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateextensionssetup.htm
 tech.root: seccrypto
 ms.assetid: e7ad32a5-d7df-407f-8efe-c9931610c2d2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerPolicy object, EnumerateExtensionsSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsSetup method, ICertServerPolicy.EnumerateExtensionsSetup, ICertServerPolicy::EnumerateExtensionsSetup, _certsrv_icertserverpolicy_enumerateextensionssetup, certif/ICertServerPolicy::EnumerateExtensionsSetup, security.icertserverpolicy_enumerateextensionssetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,28 +88,32 @@ To retrieve the extension, call the <a href="https://msdn.microsoft.com/en-us/li
 
 #### Examples
 
-
-```cpp
-// Set the context. The value nContext (long) would be the same
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->SetContext( nContext );
+hr = pCertServerPolicy-&gt;SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
     goto error;
 }
 // Setup the enumeration.
-hr = pCertServerPolicy->EnumerateExtensionsSetup( 0 );
+hr = pCertServerPolicy-&gt;EnumerateExtensionsSetup( 0 );
 if (FAILED(hr))
 {
     printf("Failed EnumerateExtensionsSetup [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

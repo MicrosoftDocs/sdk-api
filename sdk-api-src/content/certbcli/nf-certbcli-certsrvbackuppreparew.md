@@ -7,7 +7,7 @@ old-location: security\certsrvbackupprepare.htm
 tech.root: seccrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,9 +133,13 @@ To execute this call, you must have the backup <a href="https://msdn.microsoft.c
 
 #### Examples
 
-
-```cpp
-WCHAR *    wszServer = L"MyCertServerMachine";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR *    wszServer = L"MyCertServerMachine";
 FNCERTSRVBACKUPPREPAREW* pfnBackupPrepare;
 char * szBackPrepFunc = "CertSrvBackupPrepareW";
 HINSTANCE  hInst=0;
@@ -165,7 +169,7 @@ if ( NULL == pfnBackupPrepare )
 hr = pfnBackupPrepare(wszServer,
                       0,
                       CSBACKUP_TYPE_FULL,
-                      &hCSBC);
+                      &amp;hCSBC);
 if (FAILED(hr))
 {
     printf("Failed pfnBackupPrepare call [%x]\n", hr);
@@ -183,10 +187,10 @@ if (FAILED(hr))
 // Done processing, free the DLL.
 if (hInst)
     FreeLibrary(hInst);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

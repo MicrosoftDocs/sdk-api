@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_GetCredentialAt.htm
 tech.root: shell
 ms.assetid: eec370b7-0db8-492f-8dc3-4f391e1a55e7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetCredentialAt, GetCredentialAt method [Windows Shell], GetCredentialAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialAt method, ICredentialProvider.GetCredentialAt, ICredentialProvider::GetCredentialAt, credentialprovider/ICredentialProvider::GetCredentialAt, shell.ICredentialProvider_GetCredentialAt, shell_ICredentialProvider_GetCredentialAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -101,21 +101,25 @@ Creates a VT_ARRAY | VT_BSTR variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762336(v=VS.85).aspx">InitVariantFromStringArray</a>.
 
-
-```cpp
-PCWSTR rgStrings[] = {"dog", "cat"};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PCWSTR rgStrings[] = {"dog", "cat"};
 VARIANT var;
 
-HRESULT hr = InitVariantFromStringArray(rgStrings, ARRAYSIZE(rgStrings), &var);
+HRESULT hr = InitVariantFromStringArray(rgStrings, ARRAYSIZE(rgStrings), &amp;var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_ARRAY | VT_BSTR.
-    VariantClear(&var);
-}
-```
-
-
+    VariantClear(&amp;var);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

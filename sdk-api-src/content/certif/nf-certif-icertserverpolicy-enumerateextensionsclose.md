@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateextensionsclose.htm
 tech.root: seccrypto
 ms.assetid: b1755fc5-f18f-45b5-a89a-44c6598c0e2c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsClose method, EnumerateExtensionsClose, EnumerateExtensionsClose method [Security], EnumerateExtensionsClose method [Security],CCertServerPolicy object, EnumerateExtensionsClose method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsClose method, ICertServerPolicy.EnumerateExtensionsClose, ICertServerPolicy::EnumerateExtensionsClose, _certsrv_icertserverpolicy_enumerateextensionsclose, certif/ICertServerPolicy::EnumerateExtensionsClose, security.icertserverpolicy_enumerateextensionsclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,19 +83,23 @@ All policy modules should call the <b>EnumerateExtensionsClose</b> method after 
 
 #### Examples
 
-
-```cpp
-// Close the enumeration.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Close the enumeration.
 // hr is defined as an HRESULT.
-hr = pCertServerPolicy->EnumerateExtensionsClose();
+hr = pCertServerPolicy-&gt;EnumerateExtensionsClose();
 if (FAILED(hr))
 {
     printf("Failed EnumerateExtensionsClose [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

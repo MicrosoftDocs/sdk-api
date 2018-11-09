@@ -7,7 +7,7 @@ old-location: mscs\registerappinstance.htm
 tech.root: mscs
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Cluster], RegisterAppInstance, RegisterAppInstance function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE, smbclnt/RegisterAppInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

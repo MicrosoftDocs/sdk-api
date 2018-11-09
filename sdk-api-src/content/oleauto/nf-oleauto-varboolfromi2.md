@@ -7,7 +7,7 @@ old-location: automat\varboolfromi2.htm
 tech.root: automat
 ms.assetid: 2d3ce209-add5-4609-8cb4-8affd9cc1de1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VarBoolFromI2, VarBoolFromI2 function [Automation], _oa96_VarBoolFromI2, automat.varboolfromi2, oleauto/VarBoolFromI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

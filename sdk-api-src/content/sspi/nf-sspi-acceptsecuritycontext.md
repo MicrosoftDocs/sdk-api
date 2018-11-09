@@ -7,7 +7,7 @@ old-location: security\acceptsecuritycontext__credssp_.htm
 tech.root: secauthn
 ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, AcceptSecurityContext, AcceptSecurityContext (CredSSP), AcceptSecurityContext function [Security], security.acceptsecuritycontext__credssp_, sspi/AcceptSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

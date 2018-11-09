@@ -7,7 +7,7 @@ old-location: controls\CHARRANGE.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charrange.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CHARRANGE, CHARRANGE structure [Windows Controls], _charrange, _win32_CHARRANGE_str, _win32_CHARRANGE_str_cpp, controls.CHARRANGE, controls._win32_CHARRANGE_str, richedit/CHARRANGE
 ms.prod: windows
 ms.technology: windows-sdk

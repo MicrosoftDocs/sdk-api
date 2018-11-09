@@ -102,9 +102,13 @@ The following example creates a
 						<b>PathGradientBrush</b>object to obtain the brush's transformation matrix and then calls the 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535301(v=VS.85).aspx">GetElements</a> method of the retrieved <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object to fill an array with the matrix elements.
 
-
-```cpp
-VOID Example_GetTransform(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetTransform(HDC hdc)
 {
   Graphics graphics(hdc);
 
@@ -114,23 +118,23 @@ VOID Example_GetTransform(HDC hdc)
    pthGrBrush.ScaleTransform(3.0f, 1.0f);
    pthGrBrush.TranslateTransform(10.0f, 30.0f, MatrixOrderAppend);
 
-   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);
+   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);
 
    // Obtain information about the path gradient brush.
    Matrix matrix;
    REAL elements[6];
 
-   pthGrBrush.GetTransform(&matrix);
+   pthGrBrush.GetTransform(&amp;matrix);
    matrix.GetElements(elements);
 
-   for(INT j = 0; j <= 5; ++j)
+   for(INT j = 0; j &lt;= 5; ++j)
    {
       // Inspect or use the value in elements[j].
    } 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

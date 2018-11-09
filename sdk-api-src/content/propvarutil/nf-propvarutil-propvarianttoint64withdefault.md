@@ -96,16 +96,20 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776558(v=VS.85).aspx">PropVariantToInt64WithDefault</a> to access a <b>LONGLONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 // The application is expecting propvar to hold a VT_I8 value, but wishes to treat VT_EMPTY as -1.
 LONGLONG llValue = PropVariantToInt64WithDefault(propvar, -1);
-// llValue is valid
-```
-
-
+// llValue is valid</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

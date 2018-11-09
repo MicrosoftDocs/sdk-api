@@ -7,7 +7,7 @@ old-location: wcs\checkcolors.htm
 tech.root: WCS
 ms.assetid: 405b0d35-e15f-4b1d-b5de-619432a5c65b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CheckColors, CheckColors function [Windows Color System], _color_CheckColors, icm/CheckColors, wcs.checkcolors
 ms.prod: windows-hardware
 ms.technology: windows-devices

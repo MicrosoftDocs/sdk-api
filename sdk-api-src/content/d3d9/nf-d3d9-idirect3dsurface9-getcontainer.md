@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9__getcontainer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getcontainer.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetContainer method, IDirect3DSurface9.GetContainer, IDirect3DSurface9::GetContainer, b487bd6c-1138-b391-b264-d95eb2cadb18, d3d9helper/IDirect3DSurface9::GetContainer, direct3d9.idirect3dsurface9__getcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,22 +94,26 @@ If the call succeeds, the reference count of the container is increased by one.
 
 Here's an example getting the parent texture of a mip surface.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
     
 // Assumes pSurface is a valid IDirect3DSurface9 pointer
 void *pContainer = NULL;
 IDirect3DTexture9 *pTexture = NULL;
-HRESULT hr = pSurface->GetContainer(IID_IDirect3DTexture9, &pContainer);
-if (SUCCEEDED(hr) && pContainer)
+HRESULT hr = pSurface-&gt;GetContainer(IID_IDirect3DTexture9, &amp;pContainer);
+if (SUCCEEDED(hr) &amp;&amp; pContainer)
 {
     pTexture = (IDirect3DTexture9 *)pContainer;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

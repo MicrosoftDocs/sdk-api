@@ -7,7 +7,7 @@ old-location: display\pointl.htm
 tech.root: display
 ms.assetid: 68cd23d7-7898-4132-abfe-4dda527889b9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PPOINTL, POINTL, POINTL structure [Display Devices], PPOINTL, PPOINTL structure pointer [Display Devices], _POINTL, display.pointl, grstrcts_bb79820f-05c8-42bf-a7a9-923b6fbc206e.xml, windef/POINTL, windef/PPOINTL"
 ms.prod: windows
 ms.technology: windows-sdk

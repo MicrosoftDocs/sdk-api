@@ -7,7 +7,7 @@ old-location: com\dllgetclassobject.htm
 tech.root: com
 ms.assetid: 42c08149-c251-47f7-a81f-383975d7081c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,9 +139,13 @@ The following is an example (in C++) of an implementation of <b>DllGetClassObjec
 
 
 
-
-```cpp
-HRESULT_export CALLBACK DllGetClassObject 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT_export CALLBACK DllGetClassObject 
     (REFCLSID rclsid, REFIID riid, LPVOID * ppvObj) 
 { 
     HRESULT hr = E_OUTOFMEMORY; 
@@ -149,15 +153,15 @@ HRESULT_export CALLBACK DllGetClassObject
  
     CClassFactory *pClassFactory = new CClassFactory(rclsid); 
     if (pClassFactory != NULL)   { 
-        hr = pClassFactory->QueryInterface(riid, ppvObj); 
-        pClassFactory->Release(); 
+        hr = pClassFactory-&gt;QueryInterface(riid, ppvObj); 
+        pClassFactory-&gt;Release(); 
     } 
     return hr;
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

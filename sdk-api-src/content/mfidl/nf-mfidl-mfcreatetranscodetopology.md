@@ -7,7 +7,7 @@ old-location: mf\mfcreatetranscodetopology.htm
 tech.root: medfound
 ms.assetid: ef3f19bf-1db9-459d-9617-d6cca9d6aba7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: MFCreateTranscodeTopology, MFCreateTranscodeTopology function [Media Foundation], mf.mfcreatetranscodetopology, mfidl/MFCreateTranscodeTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

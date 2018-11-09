@@ -7,7 +7,7 @@ old-location: mscs\moveclustergroupex.htm
 tech.root: mscs
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: CLUSAPI_GROUP_MOVE_FAILBACK, CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START, CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_MOVE_QUEUE_ENABLED, CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR, MoveClusterGroupEx, MoveClusterGroupEx function [Failover Cluster], clusapi/MoveClusterGroupEx, mscs.moveclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,12 +150,16 @@ For a live migration of a virtual machine, perform these steps:
 
 #### Examples
 
-
-```
-#include "stdafx.h"
-#include <windows.h>
-#include <stdio.h>
-#include <ClusAPI.h>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "stdafx.h"
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;ClusAPI.h&gt;
 
 
 #define DemoResDllTypeName L"dummy"
@@ -221,9 +225,9 @@ Cleanup:
 
     return (int)error;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

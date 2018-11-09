@@ -7,7 +7,7 @@ old-location: security\certsrvbackupopenfile.htm
 tech.root: seccrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,9 +105,13 @@ The name of this  function in Certadm.dll is <b>CertSrvBackupOpenFileW</b>. You 
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPOPENFILEW* pfnOpenFile;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPOPENFILEW* pfnOpenFile;
 char * szBackupOpenFunc = "CertSrvBackupOpenFileW";
 LARGE_INTEGER liFileSize;
 HRESULT       hr=0;
@@ -132,7 +136,7 @@ if ( NULL == pfnOpenFile )
 hr = pfnOpenFile(hCSBC,
                 pwszFile,
                 0,
-                &liFileSize);
+                &amp;liFileSize);
 if (FAILED(hr))
 {
     printf("Failed pfnOpenFile call [%x] %ws\n",
@@ -143,10 +147,10 @@ if (FAILED(hr))
 
 // Use the opened file as needed.
 // When you have finished using the file, call CertSrvBackupClose.
-// ...
-```
-
-
+// ...</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

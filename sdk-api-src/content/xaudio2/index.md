@@ -2,7 +2,7 @@
 UID: NA:xaudio2
 ms.assetid: 145ad793-3734-3735-a02b-7de3fd601fa1
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

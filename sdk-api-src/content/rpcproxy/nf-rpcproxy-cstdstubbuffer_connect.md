@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_connect.htm
 tech.root: rpc
 ms.assetid: 73aacc1f-b501-4e63-b69a-e64a85664f79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CStdStubBuffer_Connect, CStdStubBuffer_Connect function [RPC], rpc.cstdstubbuffer_connect, rpcproxy/CStdStubBuffer_Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

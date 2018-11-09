@@ -277,26 +277,30 @@ The coercion is performed in four steps, as follows:
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776486(v=VS.85).aspx">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume variable propvar is initialized and valid.
 
-HRESULT hr = PSCoerceToCanonicalValue(PKEY_Keywords, &propvar);
+HRESULT hr = PSCoerceToCanonicalValue(PKEY_Keywords, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // The conversion succeeded and propvar now is of the correct type for 
     // PKEY_Keywords, or VT_EMPTY.
-    PropVariantClear(&propvar);
+    PropVariantClear(&amp;propvar);
 }
 else
 {
     // The conversion failed and propvar is now VT_EMPTY.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

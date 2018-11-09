@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtentryinqifids.htm
 tech.root: rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

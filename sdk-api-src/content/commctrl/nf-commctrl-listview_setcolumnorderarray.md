@@ -7,7 +7,7 @@ old-location: controls\ListView_SetColumnOrderArray.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnorderarray.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_SetColumnOrderArray, ListView_SetColumnOrderArray macro [Windows Controls], _win32_ListView_SetColumnOrderArray, _win32_ListView_SetColumnOrderArray_cpp, commctrl/ListView_SetColumnOrderArray, controls.ListView_SetColumnOrderArray, controls._win32_ListView_SetColumnOrderArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

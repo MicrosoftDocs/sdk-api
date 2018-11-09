@@ -493,9 +493,13 @@ The parent service must be present in the
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ////////////////////////////////////////////////////////////////////////////
 // Determine Descriptor Value Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -504,7 +508,7 @@ The parent service must be present in the
                         currGattDescriptor,
                         0,
                         NULL,
-                        &descValueDataSize,
+                        &amp;descValueDataSize,
                         BLUETOOTH_GATT_FLAG_NONE);
 
                 if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -537,10 +541,10 @@ The parent service must be present in the
                     PrintHr("BluetoothGATTGetDescriptorValue - Actual Data", hr);
                     goto Done; // allow continuation
                 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

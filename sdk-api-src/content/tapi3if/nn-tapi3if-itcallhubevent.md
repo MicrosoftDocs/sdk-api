@@ -7,7 +7,7 @@ old-location: tapi3\itcallhubevent.htm
 tech.root: tapi
 ms.assetid: 4008fc7e-f095-442d-9214-61bfead8cf04
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITCallHubEvent, ITCallHubEvent interface [TAPI 2.2], ITCallHubEvent interface [TAPI 2.2],described, _tapi3_itcallhubevent, tapi3.itcallhubevent, tapi3if/ITCallHubEvent
 ms.prod: windows
 ms.technology: windows-sdk

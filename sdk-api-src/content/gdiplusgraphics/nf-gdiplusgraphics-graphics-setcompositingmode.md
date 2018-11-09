@@ -95,9 +95,13 @@ You cannot use CompositingModeSourceCopy along with TextRenderingHintClearTypeGr
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and sets its compositing mode to CompositingModeSourceOver. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color that has an alpha component of 128. The code passes the address of that brush to the <a href="https://msdn.microsoft.com/en-us/library/ms535954(v=VS.85).aspx">Graphics::FillRectangle</a> method of the <b>Graphics</b> object to fill a rectangle with a color that is a half-and-half blend of the brush color and the background color. Then the code sets the compositing mode of the <b>Graphics</b> object to CompositingModeSourceCopy and fills a second rectangle with the same brush. In that second rectangle, the brush color is not blended with the background color.
 
-
-```cpp
-VOID Example_SetCompositingMode(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetCompositingMode(HDC hdc)
 {
    Graphics graphics(hdc);
    
@@ -107,16 +111,16 @@ VOID Example_SetCompositingMode(HDC hdc)
    // Set the compositing mode to CompositingModeSourceOver,
    // and fill a rectangle.
    graphics.SetCompositingMode(CompositingModeSourceOver);
-   graphics.FillRectangle(&alphaBrush, 0, 0, 100, 100);
+   graphics.FillRectangle(&amp;alphaBrush, 0, 0, 100, 100);
 
    // Set the compositing mode to CompositingModeSourceCopy,
    // and fill a rectangle.
    graphics.SetCompositingMode(CompositingModeSourceCopy);
-   graphics.FillRectangle(&alphaBrush, 100, 0, 100, 100);
-}
-```
-
-
+   graphics.FillRectangle(&amp;alphaBrush, 100, 0, 100, 100);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -120,13 +120,9 @@ image.Save(myStream, ...); // Do not do this.</code></pre>
 The following example creates two 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> objects: one constructed from a JPEG file and one constructed from a PNG file. The code creates a compound file with two streams and saves the two images to those streams.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Status MakeCompoundFile()
+
+```cpp
+Status MakeCompoundFile()
 {
    IStorage* pIStorage = NULL;
    IStream* pIStream1 = NULL;
@@ -148,65 +144,65 @@ The following example creates two
       L"CompoundFile.cmp", 
       STGM_READWRITE|STGM_CREATE|STGM_SHARE_EXCLUSIVE, 
       0, 
-      &amp;pIStorage);
+      &pIStorage);
 
    if(FAILED(hr))
       goto Exit;
 
    // Create a stream in the compound file.
-   hr = pIStorage-&gt;CreateStream(
+   hr = pIStorage->CreateStream(
       L"StreamImage1",
       STGM_READWRITE|STGM_SHARE_EXCLUSIVE,
       0,
       0,
-      &amp;pIStream1);
+      &pIStream1);
 
    if(FAILED(hr))
       goto Exit;
 
    // Create a second stream in the compound file.
-   hr = pIStorage-&gt;CreateStream(
+   hr = pIStorage->CreateStream(
       L"StreamImage2",
       STGM_READWRITE|STGM_SHARE_EXCLUSIVE,
       0,
       0,
-      &amp;pIStream2);
+      &pIStream2);
 
    if(FAILED(hr))
       goto Exit;
 
    // Get the class identifier for the JPEG encoder.
    CLSID jpgClsid;
-   GetEncoderClsid(L"image/jpeg", &amp;jpgClsid);
+   GetEncoderClsid(L"image/jpeg", &jpgClsid);
 
    // Get the class identifier for the PNG encoder.
    CLSID pngClsid;
-   GetEncoderClsid(L"image/png", &amp;pngClsid);
+   GetEncoderClsid(L"image/png", &pngClsid);
 
    // Save image1 as a stream in the compound file.
-   stat = image1.Save(pIStream1, &amp;jpgClsid);
+   stat = image1.Save(pIStream1, &jpgClsid);
    if(stat != Ok)
       goto Exit;
 
    // Save image2 as a stream in the compound file.
-   stat = image2.Save(pIStream2, &amp;pngClsid);
+   stat = image2.Save(pIStream2, &pngClsid);
 
 Exit:
    if(pIStream1)
-      pIStream1-&gt;Release(); 
+      pIStream1->Release(); 
    if(pIStream2)
-      pIStream2-&gt;Release();
+      pIStream2->Release();
    if(pIStorage)
-      pIStorage-&gt;Release();
+      pIStorage->Release();
 
    if(stat != Ok || FAILED(hr))
       return GenericError;
 
    return Ok;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

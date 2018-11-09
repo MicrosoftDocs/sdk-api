@@ -7,7 +7,7 @@ old-location: winsock\wsasocket_2.htm
 tech.root: winsock
 ms.assetid: dcf2e543-de54-43d9-9e45-4cb935da3548
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SG_CONSTRAINED_GROUP, SG_UNCONSTRAINED_GROUP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSASocket, WSASocket function [Winsock], WSASocketA, WSASocketW, WSA_FLAG_ACCESS_SYSTEM_SECURITY, WSA_FLAG_MULTIPOINT_C_LEAF, WSA_FLAG_MULTIPOINT_C_ROOT, WSA_FLAG_MULTIPOINT_D_LEAF, WSA_FLAG_MULTIPOINT_D_ROOT, WSA_FLAG_NO_HANDLE_INHERIT, WSA_FLAG_OVERLAPPED, _win32_wsasocket_2, winsock.wsasocket_2, winsock2/WSASocket, winsock2/WSASocketA, winsock2/WSASocketW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -845,19 +845,23 @@ The Winsock provider included with Windows allows the creation of socket groups 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSASocket</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE 1
 #endif
 
 // link with Ws2_32.lib
 #pragma comment(lib,"Ws2_32.lib")
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
-#include <stdlib.h>   // Needed for _wtoi
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;   // Needed for _wtoi
 
 
 int __cdecl wmain(int argc, wchar_t **argv)
@@ -878,7 +882,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     // Validate the parameters
     if (argc != 5) {
-        wprintf(L"usage: %s <addressfamily> <type> <protocol> <flags>\n", argv[0]);
+        wprintf(L"usage: %s &lt;addressfamily&gt; &lt;type&gt; &lt;protocol&gt; &lt;flags&gt;\n", argv[0]);
         wprintf(L"       opens a socket for the specified family, type, protocol, and flags\n");
         wprintf(L"       flags value must be in decimal, not hex\n");
         wprintf(L"%ws example usage\n", argv[0]);
@@ -893,7 +897,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
     dwFlags = _wtoi(argv[4]);
     
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -976,20 +980,20 @@ int __cdecl wmain(int argc, wchar_t **argv)
     wprintf(L" (%d)\n", iProtocol);
 
     wprintf(L"  Flags = ");
-    if (dwFlags & WSA_FLAG_OVERLAPPED)
+    if (dwFlags &amp; WSA_FLAG_OVERLAPPED)
         wprintf(L"  WSA_FLAG_OVERLAPPED");
-    if (dwFlags & WSA_FLAG_MULTIPOINT_C_ROOT)
+    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_C_ROOT)
         wprintf(L"  WSA_FLAG_MULTIPOINT_C_ROOT");
-    if (dwFlags & WSA_FLAG_MULTIPOINT_C_LEAF)
+    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_C_LEAF)
         wprintf(L"  WSA_FLAG_MULTIPOINT_C_LEAF");
-    if (dwFlags & WSA_FLAG_MULTIPOINT_D_ROOT)
+    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_D_ROOT)
         wprintf(L"  WSA_FLAG_MULTIPOINT_D_ROOT");
-    if (dwFlags & WSA_FLAG_MULTIPOINT_D_LEAF)
+    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_D_LEAF)
         wprintf(L"  WSA_FLAG_MULTIPOINT_D_LEAF");
-    if (dwFlags & WSA_FLAG_ACCESS_SYSTEM_SECURITY)
+    if (dwFlags &amp; WSA_FLAG_ACCESS_SYSTEM_SECURITY)
         wprintf(L"  WSA_FLAG_ACCESS_SYSTEM_SECURITY");
 #ifdef WSA_FLAG_NO_HANDLE_INHERIT 
-    if (dwFlags & WSA_FLAG_NO_HANDLE_INHERIT)
+    if (dwFlags &amp; WSA_FLAG_NO_HANDLE_INHERIT)
         wprintf(L"  WSA_FLAG_NO_HANDLE_INHERIT");
 #endif
     wprintf(L" (0x%x)\n" , dwFlags);
@@ -1016,10 +1020,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <b>Windows Phone 8:</b> The <b>WSASocketW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.

@@ -7,7 +7,7 @@ old-location: automat\idispatch_invoke.htm
 tech.root: automat
 ms.assetid: 964ade8e-9d8a-4d32-bd47-aa678912a54d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IDispatch interface [Automation],Invoke method, IDispatch.Invoke, IDispatch::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],IDispatch interface, _oa96_IDispatch::Invoke, automat.idispatch_invoke, oaidl/IDispatch::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -324,14 +324,18 @@ In an ActiveX client, <b>Invoke</b> should be used to get and set the values of 
 
 When you use <b>IDispatch::Invoke()</b> with DISPATCH_PROPERTYPUT or DISPATCH_PROPERTYPUTREF, you have to specially initialize the <b>cNamedArgs</b> and <b>rgdispidNamedArgs</b> elements of your DISPPARAMS structure with the following: 
 
-
-```cpp
-DISPID dispidNamed = DISPID_PROPERTYPUT;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DISPID dispidNamed = DISPID_PROPERTYPUT;
 dispparams.cNamedArgs = 1;
-dispparams.rgdispidNamedArgs = &dispidNamed;
-```
-
-
+dispparams.rgdispidNamedArgs = &amp;dispidNamed;</pre>
+</td>
+</tr>
+</table></span></div>
 The information that follows addresses developers of ActiveX clients and others who use code to expose ActiveX objects. It describes the behavior that users of exposed objects should expect.
 
 

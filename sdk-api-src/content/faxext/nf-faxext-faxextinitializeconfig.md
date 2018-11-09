@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextinitializeconfig.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_15lz.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

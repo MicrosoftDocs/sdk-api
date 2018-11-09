@@ -7,7 +7,7 @@ old-location: security\icertexit2_getdescription.htm
 tech.root: seccrypto
 ms.assetid: 362d67c7-54ab-482e-9b2b-05ba1b6e2a70
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertExit object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertExit object, GetDescription method [Security],ICertExit interface, GetDescription method [Security],ICertExit2 interface, ICertExit interface [Security],GetDescription method, ICertExit.GetDescription, ICertExit2 interface [Security],GetDescription method, ICertExit2::GetDescription, ICertExit::GetDescription, _certsrv_icertexit_getdescription, certexit/ICertExit2::GetDescription, certexit/ICertExit::GetDescription, security.icertexit2_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,9 +89,13 @@ When you write a custom exit module, implement this method.
 
 #### Examples
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CCertExit::GetDescription(
     /* [out, retval] */ BSTR __RPC_FAR *pstrDescription)
 {
@@ -115,10 +119,10 @@ CCertExit::GetDescription(
     }
     // Success
     return( S_OK );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

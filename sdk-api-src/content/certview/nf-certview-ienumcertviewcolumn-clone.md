@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_clone.htm
 tech.root: seccrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,12 +88,16 @@ The column-enumeration sequence is obtained by a call to the <a href="https://ms
 
 #### Examples
 
-
-```cpp
-// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 IEnumCERTVIEWCOLUMN * pEnumCol2 = NULL;
 HRESULT    hr;
-hr = pEnumCol->Clone(&pEnumCol2);
+hr = pEnumCol-&gt;Clone(&amp;pEnumCol2);
 if (S_OK != hr)
     printf("Unable to clone IEnumCERTVIEWCOLUMN\n");
 else
@@ -103,10 +107,10 @@ else
     // done using cloned object, free memory
 }
 if (NULL != pEnumCol2)
-    pEnumCol2->Release();
-```
-
-
+    pEnumCol2-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

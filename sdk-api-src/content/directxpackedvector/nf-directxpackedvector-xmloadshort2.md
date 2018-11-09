@@ -7,7 +7,7 @@ old-location: dxmath\xmloadshort2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShort2(const XMSHORT2)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectX::PackedVector.XMLoadShort2, XMLoadShort2, XMLoadShort2 method [DirectX Math Support APIs], dxmath.xmloadshort2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,19 +81,23 @@ The <b>x</b> and <b>y</b> members of the <a href="https://msdn.microsoft.com/en-
    <b>z</b> and <b>w</b> members of the returned <b>XMVECTOR</b> will be initialized to 0. The
    following pseudocode shows you the operation of this function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
-```
-XMVECTOR Result;
-
-Result.x = (float)pSource->x;
-Result.y = (float)pSource->y;
+Result.x = (float)pSource-&gt;x;
+Result.y = (float)pSource-&gt;y;
 vectorOut.z = 0;
 vectorOut.w = 0;
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

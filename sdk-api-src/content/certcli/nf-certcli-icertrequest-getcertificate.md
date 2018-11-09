@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getcertificate.htm
 tech.root: seccrypto
 ms.assetid: ba8fc725-c376-4e66-8417-777ce13f2954
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, CR_OUT_CRLS, GetCertificate, GetCertificate method [Security], GetCertificate method [Security],CCertRequest object, GetCertificate method [Security],ICertRequest interface, GetCertificate method [Security],ICertRequest2 interface, GetCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCertificate method, ICertRequest.GetCertificate, ICertRequest2 interface [Security],GetCertificate method, ICertRequest2::GetCertificate, ICertRequest3 interface [Security],GetCertificate method, ICertRequest3::GetCertificate, ICertRequest::GetCertificate, certcli/ICertRequest2::GetCertificate, certcli/ICertRequest3::GetCertificate, certcli/ICertRequest::GetCertificate, security.icertrequest2_getcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,11 +180,15 @@ An application would call this method to retrieve the certificate issued by mean
 
 The following example shows retrieving a certificate.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certcli.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certcli.h&gt;
 
 HRESULT main()
 {
@@ -214,7 +218,7 @@ HRESULT main()
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_ICertRequest,
-                          (void **)&pCertRequest);
+                          (void **)&amp;pCertRequest);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertRequest [%x]\n", hr);
@@ -226,10 +230,10 @@ HRESULT main()
     bstrCA = SysAllocString(L"server01\\myCAName");
     
     //  Retrieve the CA certificate.
-    hr = pCertRequest->GetCACertificate(FALSE,
+    hr = pCertRequest-&gt;GetCACertificate(FALSE,
                                         bstrCA,
                                         CR_OUT_BASE64,
-                                        &bstrCACert);
+                                        &amp;bstrCACert);
     if (FAILED(hr))
     {
         printf("Failed GetCACertificate [%x]\n", hr);
@@ -253,7 +257,7 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertRequest)
-        pCertRequest->Release();
+        pCertRequest-&gt;Release();
 
     //  Free COM resources.
     CoUninitialize();
@@ -261,10 +265,10 @@ error:
     return hr;
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

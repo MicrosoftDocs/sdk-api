@@ -7,7 +7,7 @@ old-location: security\scardstatus.htm
 tech.root: secauthn
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCARD_ABSENT, SCARD_NEGOTIABLE, SCARD_POWERED, SCARD_PRESENT, SCARD_PROTOCOL_RAW, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_SPECIFIC, SCARD_SWALLOWED, SCardStatus, SCardStatus function [Security], SCardStatusA, SCardStatusW, _smart_scardstatus, security.scardstatus, winscard/SCardStatus, winscard/SCardStatusA, winscard/SCardStatusW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -236,9 +236,13 @@ The <b>SCardStatus</b> function is a <a href="https://msdn.microsoft.com/3e9d767
 
 The following example  shows how to determine the state of the smart card.
 
-
-```cpp
-WCHAR           szReader[200];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR           szReader[200];
 DWORD           cch = 200;
 BYTE            bAttr[32];
 DWORD           cByte = 32;
@@ -249,11 +253,11 @@ LONG            lReturn;
 // hCardHandle was set by an earlier call to SCardConnect.
 lReturn = SCardStatus(hCardHandle,
                       szReader,
-                      &cch,
-                      &dwState,
-                      &dwProtocol,
-                      (LPBYTE)&bAttr,
-                      &cByte); 
+                      &amp;cch,
+                      &amp;dwState,
+                      &amp;dwProtocol,
+                      (LPBYTE)&amp;bAttr,
+                      &amp;cByte); 
 
 if ( SCARD_S_SUCCESS != lReturn )
 {
@@ -288,10 +292,10 @@ switch ( dwState )
         printf("Unknown or unexpected card state.\n");
         break;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

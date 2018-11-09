@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7gv9.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderOffice property, IFaxDoc.SenderOffice, IFaxDoc.get_SenderOffice, IFaxDoc::SenderOffice, IFaxDoc::get_SenderOffice, IFaxDoc::put_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp, faxcom/IFaxDoc::SenderOffice, faxcom/IFaxDoc::get_SenderOffice, faxcom/IFaxDoc::put_SenderOffice, get_SenderOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices

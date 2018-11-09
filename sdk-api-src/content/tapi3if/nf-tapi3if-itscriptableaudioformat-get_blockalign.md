@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_get_blockalign.htm
 tech.root: tapi
 ms.assetid: 1f96d37e-af8b-4f0e-9bc0-467e3684fadb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_BlockAlign method, ITScriptableAudioFormat.get_BlockAlign, ITScriptableAudioFormat::get_BlockAlign, _tapi3_itscriptableaudioformat_get_blockalign, get_BlockAlign, get_BlockAlign method [TAPI 2.2], get_BlockAlign method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_blockalign, tapi3if/ITScriptableAudioFormat::get_BlockAlign
 ms.prod: windows-hardware
 ms.technology: windows-devices

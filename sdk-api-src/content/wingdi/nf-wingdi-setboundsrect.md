@@ -7,7 +7,7 @@ old-location: gdi\setboundsrect.htm
 tech.root: gdi
 ms.assetid: ad361e78-42e8-4945-9395-fab983e396df
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DCB_ACCUMULATE, DCB_DISABLE, DCB_ENABLE, DCB_RESET, SetBoundsRect, SetBoundsRect function [Windows GDI], _win32_SetBoundsRect, gdi.setboundsrect, wingdi/SetBoundsRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

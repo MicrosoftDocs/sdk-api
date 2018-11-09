@@ -266,30 +266,34 @@ If the property key does not correspond to a property description in any of the 
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776498(v=VS.85).aspx">PSFormatPropertyValue</a> to format a rating value.
 
-
-```cpp
-// IPropertyStore *pStore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *pStore;
 // Assume the variable pps is initialized and valid.
 IPropertyDescription *pPropDesc;
 
-HRESULT hr = PSGetPropertyDescription(PKEY_Rating, IID_PPV_ARGS(&pPropDesc));
+HRESULT hr = PSGetPropertyDescription(PKEY_Rating, IID_PPV_ARGS(&amp;pPropDesc));
 
 if (SUCCEEDED(hr))
 {
     PWSTR pszValue;
 
-    hr = PSFormatPropertyValue(pStore, pPropDesc, PDFF_DEFAULT, &pszValue);
+    hr = PSFormatPropertyValue(pStore, pPropDesc, PDFF_DEFAULT, &amp;pszValue);
 
     if (SUCCEEDED(hr))
     {
         // pszValue contains a formatted string similar to "3 stars".
         CoTaskMemFree(pszValue);
     }
-    pPropDesc->Release();
-}
-```
-
-
+    pPropDesc-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

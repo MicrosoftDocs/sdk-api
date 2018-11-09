@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateattributesclose.htm
 tech.root: seccrypto
 ms.assetid: 91cb8edd-7735-44c5-b2c5-d46fa1e33e41
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesClose method, EnumerateAttributesClose, EnumerateAttributesClose method [Security], EnumerateAttributesClose method [Security],CCertServerPolicy object, EnumerateAttributesClose method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesClose method, ICertServerPolicy.EnumerateAttributesClose, ICertServerPolicy::EnumerateAttributesClose, _certsrv_icertserverpolicy_enumerateattributesclose, certif/ICertServerPolicy::EnumerateAttributesClose, security.icertserverpolicy_enumerateattributesclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,19 +83,23 @@ All policy modules should call the <b>EnumerateAttributesClose</b> method after 
 
 #### Examples
 
-
-```cpp
-// Close the enumeration.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Close the enumeration.
 // hr is defined as an HRESULT.
-hr = pCertServerPolicy->EnumerateAttributesClose();
+hr = pCertServerPolicy-&gt;EnumerateAttributesClose();
 if (FAILED(hr))
 {
     printf("Failed EnumerateAttributesClose [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

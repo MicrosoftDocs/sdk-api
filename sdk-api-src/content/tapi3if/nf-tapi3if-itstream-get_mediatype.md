@@ -7,7 +7,7 @@ old-location: tapi3\itstream_get_mediatype.htm
 tech.root: tapi
 ms.assetid: 871caaf3-12c4-457c-8d0f-0ee9be52a58b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_MediaType method, ITStream.get_MediaType, ITStream::get_MediaType, _tapi3_itstream_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITStream interface, tapi3.itstream_get_mediatype, tapi3if/ITStream::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_updatevideo.htm
 tech.root: medfound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,9 +132,13 @@ Call this method when your application's video playback window receives either a
 
 #### Examples
 
-
-```
-IMFPMediaPlayer *g_pPlayer;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IMFPMediaPlayer *g_pPlayer;
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
@@ -144,21 +148,21 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
     switch (uMsg)
     {
     case WM_PAINT:
-        hdc = BeginPaint(hwnd, &ps);
+        hdc = BeginPaint(hwnd, &amp;ps);
         if (g_pPlayer)
         {
-            g_pPlayer->UpdateVideo();
+            g_pPlayer-&gt;UpdateVideo();
         }
-       	EndPaint(hwnd, &ps);
+       	EndPaint(hwnd, &amp;ps);
         break;
 
     case WM_SIZE:        
-        hdc = BeginPaint(hwnd, &ps);
+        hdc = BeginPaint(hwnd, &amp;ps);
         if (g_pPlayer)
         {
-            g_pPlayer->UpdateVideo();
+            g_pPlayer-&gt;UpdateVideo();
         }
-       	EndPaint(hwnd, &ps);
+       	EndPaint(hwnd, &amp;ps);
         break;
 
     // other messages
@@ -167,10 +171,10 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
         return DefWindowProc(hwnd, uMsg, wParam, lParam); 
     }
     return 0;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

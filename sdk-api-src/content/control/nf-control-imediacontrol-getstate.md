@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_getstate.htm
 tech.root: DirectShow
 ms.assetid: 653a94ff-6929-41b1-9b94-dccaff0f7ec7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],GetState method, IMediaControl.GetState, IMediaControl::GetState, IMediaControlGetState, control/IMediaControl::GetState, dshow.imediacontrol_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,15 +149,19 @@ Avoid specifying a time-out of INFINITE, because threads cannot process messages
 
 The <i>pfs</i> parameter is typed as an <a href="https://msdn.microsoft.com/en-us/library/Dd390936(v=VS.85).aspx">OAFilterState</a> pointer but receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumeration. You can cast the variable as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 FILTER_STATE fs;
-hr = pControl->GetState(msTimeOut, (OAFilterState*)&fs);
-
-```
-
-
+hr = pControl-&gt;GetState(msTimeOut, (OAFilterState*)&amp;fs);
+</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about filter graph states, see <a href="https://msdn.microsoft.com/en-us/library/Dd375790(v=VS.85).aspx">Filter States</a>.
 
 

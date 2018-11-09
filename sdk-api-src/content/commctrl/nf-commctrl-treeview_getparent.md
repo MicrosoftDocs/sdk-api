@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetParent.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getparent.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TreeView_GetParent, TreeView_GetParent macro [Windows Controls], _win32_TreeView_GetParent, _win32_TreeView_GetParent_cpp, commctrl/TreeView_GetParent, controls.TreeView_GetParent, controls._win32_TreeView_GetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

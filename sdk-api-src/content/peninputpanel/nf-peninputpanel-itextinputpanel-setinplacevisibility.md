@@ -130,22 +130,26 @@ The <b>ITextInputPanel::SetInPlaceVisibility Method</b> is a synchronous call. T
 
 This C++ example implements an <code>EN_SETFOCUS</code> event handler for an Edit control, <code>IDC_EDIT1</code>. It first checks to if an <a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel</a> object, <code>g_pTip</code>, has been created. If it exists, it prevents the Input Panel from showing by calling the <b>ITextInputPanel::SetInPlaceVisibility Method</b> with a value of <b>false</b> for the <i>Visible</i> parameter.
 
-
-```cpp
-void CCOMTIPDlg::OnEnSetfocusEdit1()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CCOMTIPDlg::OnEnSetfocusEdit1()
 {
 	if (NULL != g_pTip)
 	{
-		if (SUCCEEDED(g_pTip->SetInPlaceVisibility(false)))
+		if (SUCCEEDED(g_pTip-&gt;SetInPlaceVisibility(false)))
 		{
 			TRACE("Successfully hid the Input Panel.\n");
 		}
 	}
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

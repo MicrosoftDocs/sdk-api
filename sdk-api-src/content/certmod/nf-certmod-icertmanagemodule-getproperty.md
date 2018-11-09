@@ -7,7 +7,7 @@ old-location: security\icertmanagemodule_getproperty.htm
 tech.root: seccrypto
 ms.assetid: f01bfcec-7031-4283-a847-0d59929e4ee5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertManageModule object [Security],GetProperty method, Copyright, Description, File Version, GetProperty, GetProperty method [Security], GetProperty method [Security],CCertManageModule object, GetProperty method [Security],ICertManageModule interface, ICertManageModule interface [Security],GetProperty method, ICertManageModule.GetProperty, ICertManageModule::GetProperty, Name, Product Version, _certsrv_icertmanagemodule_getproperty, certmod/ICertManageModule::GetProperty, security.icertmanagemodule_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -187,10 +187,14 @@ Implementing <b>ICertManageModule</b> allows the Certificate Services Manager to
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <Certmod.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Certmod.h&gt;
 
 HRESULT CCertManagePolicyModule::GetProperty(
             /* [in] */ const BSTR strConfig,
@@ -234,7 +238,7 @@ HRESULT CCertManagePolicyModule::GetProperty(
     if (NULL == pvarProperty)
         return E_POINTER;
     // Determine whether the requested property is in the Name array.
-    for (i=0; i<sizeof(awszPropName)/sizeof(wchar_t *); i++)
+    for (i=0; i&lt;sizeof(awszPropName)/sizeof(wchar_t *); i++)
         if (!wcscmp( strPropertyName, awszPropName[i]))        
         {
             bFound = TRUE;  // Found the index for the property.
@@ -244,17 +248,17 @@ HRESULT CCertManagePolicyModule::GetProperty(
         return S_FALSE;     // Requested property not found.
 
     // Allocate storage for the property value.
-    pvarProperty->bstrVal = SysAllocString(awszPropValue[i]);
-    if (NULL == pvarProperty->bstrVal)
+    pvarProperty-&gt;bstrVal = SysAllocString(awszPropValue[i]);
+    if (NULL == pvarProperty-&gt;bstrVal)
         return E_OUTOFMEMORY;   
 
-    pvarProperty->vt = VT_BSTR;
+    pvarProperty-&gt;vt = VT_BSTR;
 
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

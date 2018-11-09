@@ -7,7 +7,7 @@ old-location: mscs\igetclusterresourceinfo.htm
 tech.root: mscs
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,9 +149,13 @@ Use the <b>IGetClusterResourceInfo</b> interface only
 
 In the following code, the section enclosed by C-style comments will fail per the previous paragraph.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 // Context is a resource extension.
 //
 HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
@@ -165,7 +169,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
 
   IGetClusterGroupInfo *pGrpInfo;
 
-  hRes = piResInfo->GetResourceHandle();
+  hRes = piResInfo-&gt;GetResourceHandle();
 
   //
   // Get group handle
@@ -179,8 +183,8 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
   // must return a valid interface. But it is not a valid cluster 
   // operation so the interface won't represent a real object.
   //
-  hr = pResInfo->QueryInterface( IID_IGetClusterGroupInfo, 
-                                 (LPVOID *) &pGrpInfo );
+  hr = pResInfo-&gt;QueryInterface( IID_IGetClusterGroupInfo, 
+                                 (LPVOID *) &amp;pGrpInfo );
 
   //
   // Interface is valid, will pass this test.
@@ -192,7 +196,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
   // FAILS!
   // Interface does not represent a real cluster object.
   //    
-  hGrp = pGrpInfo->GetGroupHandle( 0 );
+  hGrp = pGrpInfo-&gt;GetGroupHandle( 0 );
 
 *******************************************************************/
 // Correct:    
@@ -205,7 +209,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
                                      NULL,
                                      0,
                                      szGroupName,
-                                     &cchGroupNameSize );
+                                     &amp;cchGroupNameSize );
 
   // Add error check.
 
@@ -218,10 +222,10 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
   // After error check, use group handle...
 
  }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

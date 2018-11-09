@@ -103,24 +103,28 @@ If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776594(v=VS.85).aspx">VariantToBooleanArrayAlloc</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
-
-```cpp
-// VARIANT var;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// VARIANT var;
 // Assume variable var is initialized and valid. 
 // The application expects var to contain an array of BOOL values.
 BOOL *prgFlags;
 ULONG cElems;
 
-HRESULT hr = VariantToBooleanArrayAlloc(var, &prgFlags, &cElems);
+HRESULT hr = VariantToBooleanArrayAlloc(var, &amp;prgFlags, &amp;cElems);
 
 if (SUCCEEDED(hr))
 {
      // prgFlags now points to a vector of cElems BOOLs.
      CoTaskMemFree(prgFlags);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

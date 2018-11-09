@@ -7,7 +7,7 @@ old-location: mscs\clusprop_binary_declare.htm
 tech.root: mscs
 ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: CLUSPROP_BINARY_DECLARE, CLUSPROP_BINARY_DECLARE macro [Failover Cluster], _wolf_clusprop_binary_declare, clusapi/CLUSPROP_BINARY_DECLARE, mscs.clusprop_binary_declare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,17 +85,21 @@ ClusAPI.h defines  <b>CLUSPROP_BINARY_DECLARE</b> as follows:
 
 The following example shows how to use  <b>CLUSPROP_BINARY_DECLARE</b>:
 
-
-```cpp
-BYTE ByteData[] = { 'A', 1, 'B', 2, 'C' };
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BYTE ByteData[] = { 'A', 1, 'B', 2, 'C' };
 CLUSPROP_BINARY_DECLARE( ByteValue, sizeof( ByteData ) );
 ByteValue.Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 ByteValue.cbLength = sizeof( ByteData );
 memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

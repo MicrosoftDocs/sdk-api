@@ -7,7 +7,7 @@ old-location: shell\StrFromTimeInterval.htm
 tech.root: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,10 +153,14 @@ The time value returned in <i>pszOut</i> will always be in the form <i>hh</i> ho
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <iostream.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
 #include "Shlwapi.h"
 
 void main(void)
@@ -165,28 +169,28 @@ void main(void)
     char *pszOut;
     pszOut = TimeString;
 
-    cout << "The return value from the call to"
-         << "\nthe function StrFromTimeInterval will"
-         << "\nreturn the number of elements in the buffer: " << endl;
+    cout &lt;&lt; "The return value from the call to"
+         &lt;&lt; "\nthe function StrFromTimeInterval will"
+         &lt;&lt; "\nreturn the number of elements in the buffer: " &lt;&lt; endl;
 
-    cout << "\nThe return from StrFromTimeInterval is " 
-         << StrFromTimeInterval(pszOut,30, 34000,30);
+    cout &lt;&lt; "\nThe return from StrFromTimeInterval is " 
+         &lt;&lt; StrFromTimeInterval(pszOut,30, 34000,30);
 
-    cout << "\nThe contents of the TimeString Buffer " << pszOut << endl;
+    cout &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
 
-    cout << "The return from StrFromTimeInterval is " 
-         << StrFromTimeInterval(pszOut,30, 74000,3);
+    cout &lt;&lt; "The return from StrFromTimeInterval is " 
+         &lt;&lt; StrFromTimeInterval(pszOut,30, 74000,3);
 
-    cout << "\nThe contents of the TimeString Buffer " << pszOut << endl;
+    cout &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
 
-    cout << "The return from StrFromTimeInterval is " 
-         << StrFromTimeInterval(pszOut,30, 74000,2);
+    cout &lt;&lt; "The return from StrFromTimeInterval is " 
+         &lt;&lt; StrFromTimeInterval(pszOut,30, 74000,2);
 
-    cout << "\nThe contents of the TimeString Buffer " << pszOut << endl;
+    cout &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
 
-    cout << "The return from StrFromTimeInterval is " 
-         << StrFromTimeInterval(pszOut,30, 74000,1)
-         << "\nThe contents of the TimeString Buffer " << pszOut << endl;
+    cout &lt;&lt; "The return from StrFromTimeInterval is " 
+         &lt;&lt; StrFromTimeInterval(pszOut,30, 74000,1)
+         &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
 }
 
 OUTPUT:
@@ -202,9 +206,9 @@ The contents of the TimeString Buffer  1 min 14 sec
 The return from StrFromTimeInterval is 13
 The contents of the TimeString Buffer  1 min 10 sec
 The return from StrFromTimeInterval is 6
-The contents of the TimeString Buffer  1 min
-```
-
-
+The contents of the TimeString Buffer  1 min</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -149,13 +149,17 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 SHORT rgShorts[4]; // The application is expecting propvar to hold 4 Int16s in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &cElems);
+HRESULT hr = PropVariantToInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &amp;cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgShorts))
@@ -166,10 +170,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cElems which are stored in the first cElems elements of rgShorts
      }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

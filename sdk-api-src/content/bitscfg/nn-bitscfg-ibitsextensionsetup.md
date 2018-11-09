@@ -128,37 +128,41 @@ On Windows Server 2003, use the <b>Windows Components Wizard</b> to install the
 The following example shows how to use the <b>ADsGetObject</b> function to get a pointer to the 
 <b>IBITSExtensionSetup</b> interface.
 
-
-```cpp
-//Set the BITSUploadEnabled IIS configuration setting.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//Set the BITSUploadEnabled IIS configuration setting.
 //The pszPath parameter contains the path to the directory service. 
-//For example, "IIS://<machine name>/w3svc/1/<virtual directory>".
+//For example, "IIS://&lt;machine name&gt;/w3svc/1/&lt;virtual directory&gt;".
 //The Enable parameter contains true (enable) or false (disable).
 HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
 {
   HRESULT hr;
   IBITSExtensionSetup* pExtensionSetup = NULL;
 
-  hr = ADsGetObject(pszPath, __uuidof(IBITSExtensionSetup), &pExtensionSetup);
+  hr = ADsGetObject(pszPath, __uuidof(IBITSExtensionSetup), &amp;pExtensionSetup);
   if (SUCCEEDED(hr))
   {
     if (Enable)
     {
-      hr = pExtensionSetup->EnableBITSUploads();
+      hr = pExtensionSetup-&gt;EnableBITSUploads();
     }
     else
     {
-      hr = pExtensionSetup->DisableBITSUploads();
+      hr = pExtensionSetup-&gt;DisableBITSUploads();
     }
 
-    pExtensionSetup->Release();
+    pExtensionSetup-&gt;Release();
   }
 
   return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

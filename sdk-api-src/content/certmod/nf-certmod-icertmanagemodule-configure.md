@@ -7,7 +7,7 @@ old-location: security\icertmanagemodule_configure.htm
 tech.root: seccrypto
 ms.assetid: dc54cda9-1818-40af-9005-f31ad3c110c4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertManageModule object [Security],Configure method, Configure, Configure method [Security], Configure method [Security],CCertManageModule object, Configure method [Security],ICertManageModule interface, ICertManageModule interface [Security],Configure method, ICertManageModule.Configure, ICertManageModule::Configure, _certsrv_icertmanagemodule_configure, certmod/ICertManageModule::Configure, security.icertmanagemodule_configure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,10 +99,14 @@ The <b>Configure</b> method displays the module user interface (if one exists), 
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <Certmod.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Certmod.h&gt;
 
 HRESULT CCertManagePolicyModule::Configure( 
             /* [in] */ const BSTR strConfig,
@@ -116,10 +120,10 @@ HRESULT CCertManagePolicyModule::Configure(
                    (MB_OK|MB_ICONINFORMATION));
 
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

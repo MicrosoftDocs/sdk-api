@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_put_originator.htm
 tech.root: tapi
 ms.assetid: 97e8b966-b65c-4c19-ac61-0b952657aec1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Originator method, ITDirectoryObjectConference.put_Originator, ITDirectoryObjectConference::put_Originator, _tapi3_itdirectoryobjectconference_put_originator, put_Originator, put_Originator method [TAPI 2.2], put_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Originator, tapi3.itdirectoryobjectconference_put_originator
 ms.prod: windows-hardware
 ms.technology: windows-devices

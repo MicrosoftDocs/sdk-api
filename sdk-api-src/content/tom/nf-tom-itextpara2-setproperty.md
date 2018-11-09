@@ -7,7 +7,7 @@ old-location: controls\itextpara2_setproperty.htm
 tech.root: controls
 ms.assetid: 5a95c055-5118-4c2a-8f63-3a2a3114451e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetProperty method, ITextPara2.SetProperty, ITextPara2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextPara2 interface, controls.itextpara2_setproperty, tom/ITextPara2::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

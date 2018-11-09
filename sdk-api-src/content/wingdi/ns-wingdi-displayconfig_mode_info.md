@@ -7,7 +7,7 @@ old-location: display\displayconfig_mode_info.htm
 tech.root: display
 ms.assetid: 39ffe49b-96d3-4d8b-94a7-01c388448b82
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml, DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_MODE_INFO structure [Display Devices], display.displayconfig_mode_info, wingdi/DISPLAYCONFIG_MODE_INFO
 ms.prod: windows
 ms.technology: windows-sdk

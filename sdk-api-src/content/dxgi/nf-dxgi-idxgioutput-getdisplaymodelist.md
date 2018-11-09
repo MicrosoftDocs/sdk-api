@@ -115,23 +115,27 @@ In general, when switching from windowed to full-screen mode, a swap chain autom
 
 As shown, this API is designed to be called twice. First to get the number of modes available, and second to return a description of the modes.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 UINT num = 0;
 DXGI_FORMAT format = DXGI_FORMAT_R32G32B32A32_FLOAT;
 UINT flags         = DXGI_ENUM_MODES_INTERLACED;
 
-pOutput->GetDisplayModeList( format, flags, &num, 0);
+pOutput-&gt;GetDisplayModeList( format, flags, &amp;num, 0);
 
 ...
 
 DXGI_MODE_DESC * pDescs = new DXGI_MODE_DESC[num];
-pOutput->GetDisplayModeList( format, flags, &num, pDescs);
-      
-```
-
-
+pOutput-&gt;GetDisplayModeList( format, flags, &amp;num, pDescs);
+      </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -444,9 +444,13 @@ To access any print jobs in a print queue, call the  <a href="https://msdn.micro
 
 The following code example shows how to manage a print job submitted to the printer, "\\aMachine\aPrinter".
 
-
-```vb
-Dim pq As IADsPrintQueue
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim pq As IADsPrintQueue
 Dim pqo As IADsPrintQueueOperations
 Dim pj As IADsPrintJob
 Dim pjo As IADsPrintJobOperations
@@ -469,22 +473,26 @@ For Each pj In pqo.PrintJobs
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set pq = Nothing
     Set pqo = Nothing
     Set pj = Nothing
     Set pjo = Nothing
-    Set pjs = Nothing
-```
-
-
+    Set pjs = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to manage a print job submitted to the printer, "\\aMachine\aPrinter".
 
-
-```cpp
-IADsPrintJobOperations *pjo = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPrintJobOperations *pjo = NULL;
 IADsPrintQueueOperations *pqo = NULL;
 IADsCollection *pColl = NULL;
 IUnknown *pUnk = NULL;
@@ -498,29 +506,29 @@ long status;
 HRESULT hr = S_OK;
 hr = ADsGetObject(L"WinNT://aMachine/aPrinter", 
                   IID_IADsPrintQueueOperations, 
-                  (void**)&pqo);
+                  (void**)&amp;pqo);
 if(FAILED(hr)){goto Cleanup;}
 
-hr = pqo->PrintJobs(&pColl);
+hr = pqo-&gt;PrintJobs(&amp;pColl);
 
-hr = pColl->get__NewEnum(&pUnk);
+hr = pColl-&gt;get__NewEnum(&amp;pUnk);
 if(FAILED(hr)){goto Cleanup;}
 
-hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
+hr = pUnk-&gt;QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
 if(FAILED(hr)){goto Cleanup;}
 
 // Now Enumerate
-VariantInit(&var);
-hr = pEnum->Next(1, &var, &lFetch);
+VariantInit(&amp;var);
+hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
 while(hr == S_OK)
 {
     if (lFetch == 1)    
     {
-        pDisp = V_DISPATCH(&var);
-        pDisp->QueryInterface(IID_IADsPrintJobOperations, 
-                              (void**)&pjo);
+        pDisp = V_DISPATCH(&amp;var);
+        pDisp-&gt;QueryInterface(IID_IADsPrintJobOperations, 
+                              (void**)&amp;pjo);
 
-        pjo->get_Status(&status);
+        pjo-&gt;get_Status(&amp;status);
         printf("Job status: %x\n",status);
         if(stats == ADS_JOB_PRINTING) {
             pjo.Pause();
@@ -528,22 +536,22 @@ while(hr == S_OK)
         else {
             pjo.Resume();
         }
-        pjo->Release();
+        pjo-&gt;Release();
     }
-    pDisp->Release();
-    VariantClear(&var);
-    hr = pEnum->Next(1, &var, &lFetch);
+    pDisp-&gt;Release();
+    VariantClear(&amp;var);
+    hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
 };
 
 Cleanup:
-    VariantClear(&var);
-    if(pColl) pColl->Release();
-    if(pUnk) pUnk->Release();
-    if(pEnum) pEnum->Release();
-    if(pqo) pqo->Release();
-```
-
-
+    VariantClear(&amp;var);
+    if(pColl) pColl-&gt;Release();
+    if(pUnk) pUnk-&gt;Release();
+    if(pEnum) pEnum-&gt;Release();
+    if(pqo) pqo-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

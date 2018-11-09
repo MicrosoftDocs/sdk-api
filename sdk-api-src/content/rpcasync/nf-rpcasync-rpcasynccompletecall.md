@@ -7,7 +7,7 @@ old-location: rpc\rpcasynccompletecall.htm
 tech.root: rpc
 ms.assetid: 76b6bc3a-f5d1-4780-8071-9b221a6fd7d8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpcasynccompletecall, rpc.rpcasynccompletecall, rpcasync/RpcAsyncCompleteCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ Server: <i>Reply</i> points to a buffer that contains the return value that need
 
 Any <a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[out]</a> parameters, including 
 				<a href="https://msdn.microsoft.com/">[comm_status]</a> and 
-				<a href="https://msdn.microsoft.com/">[fault_status]</a> parameters, are only valid if the return value of 
+				<a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">[fault_status]</a> parameters, are only valid if the return value of 
 <b>RpcAsyncCompleteCall</b> is RPC_S_OK.
 
 

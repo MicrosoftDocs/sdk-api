@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_setcontext.htm
 tech.root: seccrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerPolicy object [Security],SetContext method, ICertServerPolicy interface [Security],SetContext method, ICertServerPolicy.SetContext, ICertServerPolicy::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerPolicy object, SetContext method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcontext, certif/ICertServerPolicy::SetContext, security.icertserverpolicy_setcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,20 +86,24 @@ The policy module must call the <b>SetContext</b> method first, before calls to 
 
 #### Examples
 
-
-```cpp
-// Set the context. The value nContext (long) would be the same
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
-hr = pCertServerPolicy->SetContext( nContext );
+hr = pCertServerPolicy-&gt;SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

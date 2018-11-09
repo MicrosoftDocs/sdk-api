@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_skip.htm
 tech.root: seccrypto
 ms.assetid: b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Skip method, IEnumCERTVIEWEXTENSION object [Security],Skip method, IEnumCERTVIEWEXTENSION.Skip, IEnumCERTVIEWEXTENSION::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWEXTENSION interface, Skip method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_skip, certview/IEnumCERTVIEWEXTENSION::Skip, security.ienumcertviewextension_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,26 +106,30 @@ If a positive value of the <i>celt</i> parameter causes the index to exceed the 
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     Index;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
 // skip the next 5 extensions
-hr = pEnumExt->Skip(5);
+hr = pEnumExt-&gt;Skip(5);
 if (S_OK == hr)
 {
     // get the next extension
-    hr = pEnumExt->Next(&Index);
+    hr = pEnumExt-&gt;Next(&amp;Index);
     if (S_OK == hr)
     {
         // Use this extension as needed.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

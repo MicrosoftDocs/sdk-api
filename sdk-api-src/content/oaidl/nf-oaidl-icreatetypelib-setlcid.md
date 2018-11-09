@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setlcid.htm
 tech.root: automat
 ms.assetid: 4281058b-a617-4504-bc36-b18763b40897
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLcid method, ICreateTypeLib.SetLcid, ICreateTypeLib::SetLcid, SetLcid, SetLcid method [Automation], SetLcid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLcid, automat.icreatetypelib_setlcid, oaidl/ICreateTypeLib::SetLcid
 ms.prod: windows-hardware
 ms.technology: windows-devices

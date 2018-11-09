@@ -380,17 +380,21 @@ To display a message box with push buttons or icons, use OR-operators to add INS
 For example, the following call to 
 <b>MsiProcessMessage</b> sends an INSTALLMESSAGE_ERROR message with the MB_ICONWARNING icon and the MB_ABORTRETRYCANCEL buttons.
 
-
-```cpp
-PMSIHANDLE hInstall;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PMSIHANDLE hInstall;
 PMSIHANDLE hRec;
 MsiProcessMessage(hInstall, 
                   INSTALLMESSAGE(INSTALLMESSAGE_ERROR|MB_ABORTRETRYIGNORE|MB_ICONWARNING),
                   hRec);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If a custom action calls <b>MsiProcessMessage</b>, the custom action should be capable of handling a cancellation by the user and should return ERROR_INSTALL_USEREXIT.
 
 

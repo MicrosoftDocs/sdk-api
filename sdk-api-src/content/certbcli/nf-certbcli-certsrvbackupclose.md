@@ -7,7 +7,7 @@ old-location: security\certsrvbackupclose.htm
 tech.root: seccrypto
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,13 @@ For every successful call to <a href="https://msdn.microsoft.com/en-us/library/A
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPCLOSE* pfnClose;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPCLOSE* pfnClose;
 char * szBackupCloseFunc = "CertSrvBackupClose";
 HRESULT    hr=0;
 
@@ -107,10 +111,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnClose call [%x]\n", hr);
     exit(1);  // Or other appropriate error action.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

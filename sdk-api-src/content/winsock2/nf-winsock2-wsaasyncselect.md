@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncselect_2.htm
 tech.root: winsock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -326,32 +326,44 @@ Issuing a
 <a href="https://msdn.microsoft.com/f98a71e4-47fb-47a4-b37e-e4cc801a8f98">WSAEventSelect</a> for the same socket. For example, to receive notification for both reading and writing, the application must call 
 <b>WSAAsyncSelect</b> with both <b>FD_READ</b> and <b>FD_WRITE</b>, as follows:
 
-
-```cpp
-rc = WSAAsyncSelect(s, hWnd, wMsg, FD_READ|FD_WRITE);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>rc = WSAAsyncSelect(s, hWnd, wMsg, FD_READ|FD_WRITE);
+</pre>
+</td>
+</tr>
+</table></span></div>
 It is not possible to specify different messages for different events. The following code will not work; the second call will cancel the effects of the first, and only <b>FD_WRITE</b> events will be reported with message wMsg2:
 
-
-```cpp
-rc = WSAAsyncSelect(s, hWnd, wMsg1, FD_READ);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>rc = WSAAsyncSelect(s, hWnd, wMsg1, FD_READ);
 rc = WSAAsyncSelect(s, hWnd, wMsg2, FD_WRITE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To cancel all notification indicating that Windows Sockets should send no further messages related to network events on the socket, <i>lEvent</i> is set to zero.
 
-
-```cpp
-rc = WSAAsyncSelect(s, hWnd, 0, 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>rc = WSAAsyncSelect(s, hWnd, 0, 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Although 
 <b>WSAAsyncSelect</b> immediately disables event message posting for the socket in this instance, it is possible that messages could be waiting in the application message queue. Therefore, the application must be prepared to receive network event messages even after cancellation. Closing a socket with 
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> also cancels 
@@ -370,16 +382,20 @@ When one of the nominated network events occurs on the specified socket <i>s</i>
 <div> </div>
 The error and event codes can be extracted from the <i>lParam</i> using the macros <b>WSAGETSELECTERROR</b> and <b>WSAGETSELECTEVENT</b>, defined in Winsock2.h as:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define WSAGETSELECTEVENT(lParam)       LOWORD(lParam)
 #define WSAGETSELECTERROR(lParam)       HIWORD(lParam)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The use of these macros will maximize the portability of the source code for the application.
 
 The possible network event codes that can be returned are listed in the following table.

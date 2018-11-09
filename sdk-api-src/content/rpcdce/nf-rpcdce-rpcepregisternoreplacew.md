@@ -7,7 +7,7 @@ old-location: rpc\rpcepregisternoreplace.htm
 tech.root: rpc
 ms.assetid: eaf132a8-0bc2-4201-945a-76b6c2eab559
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcEpRegisterNoReplace, RpcEpRegisterNoReplace function [RPC], RpcEpRegisterNoReplaceA, RpcEpRegisterNoReplaceW, _rpc_rpcepregisternoreplace, rpc.rpcepregisternoreplace, rpcdce/RpcEpRegisterNoReplace, rpcdce/RpcEpRegisterNoReplaceA, rpcdce/RpcEpRegisterNoReplaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

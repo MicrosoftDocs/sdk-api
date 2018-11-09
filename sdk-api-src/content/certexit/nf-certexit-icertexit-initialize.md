@@ -7,7 +7,7 @@ old-location: security\icertexit2_initialize.htm
 tech.root: seccrypto
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -284,11 +284,15 @@ When you write a custom exit module, implement this method.
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certexit.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certexit.h&gt;
 
 STDMETHODIMP CCertExit::Initialize(
     /* [in] */ BSTR const strConfig,
@@ -323,10 +327,10 @@ STDMETHODIMP CCertExit::Initialize(
     }
 
     return( S_OK );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

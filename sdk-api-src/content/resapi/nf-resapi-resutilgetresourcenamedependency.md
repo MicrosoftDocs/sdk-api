@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcenamedependency.htm
 tech.root: mscs
 ms.assetid: 071f11bb-fcb3-4c76-ad81-b19ff7bdcb4a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY function [Failover Cluster], ResUtilGetResourceNameDependency, ResUtilGetResourceNameDependency function [Failover Cluster], _wolf_resutilgetresourcenamedependency, mscs.resutilgetresourcenamedependency, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, resapi/ResUtilGetResourceNameDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,19 +122,23 @@ Do not call  <b>ResUtilGetResourceNameDependency</b> from any resource DLL entry
 
 As the following example illustrates, if you know that resource A depends on a  <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resource, you can use  <b>ResUtilGetResourceNameDependency</b> to obtain a handle to the dependency.
 
-
-```cpp
-// String initialization and error checking omitted.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// String initialization and error checking omitted.
 
 HRESOURCE hResD = ResUtilGetResourceNameDependency(
                         L"Resource_A_Name",
                         L"Physical Disk" );
 
 // Close handles and free memory.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

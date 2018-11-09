@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_reset.htm
 tech.root: seccrypto
 ms.assetid: 76bee5db-0443-4673-a59c-0198587736dc
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Reset method, IEnumCERTVIEWROW object [Security],Reset method, IEnumCERTVIEWROW.Reset, IEnumCERTVIEWROW::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWROW interface, Reset method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_reset, certview/IEnumCERTVIEWROW::Reset, security.ienumcertviewrow_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,27 +96,31 @@ columns, attributes, and extensions associated with the certificate in the row c
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 HRESULT hr;
 LONG    Index;
 
 // Ensure enumerator is at first row.
-hr = pEnumRow->Reset();
+hr = pEnumRow-&gt;Reset();
 if (FAILED(hr))
     printf("Failed to Reset\n");
 else
 {
     printf("Reset to beginning\n");
     // Retrieve first record.
-    hr = pEnumRow->Next(&Index);
+    hr = pEnumRow-&gt;Next(&amp;Index);
     // Examine hr for success and process row.
     // ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

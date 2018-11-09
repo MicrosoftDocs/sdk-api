@@ -7,7 +7,7 @@ old-location: gdi\lptodp.htm
 tech.root: gdi
 ms.assetid: 670a16fb-842e-4250-9ad7-dc08e849c2ba
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LPtoDP, LPtoDP function [Windows GDI], _win32_LPtoDP, gdi.lptodp, wingdi/LPtoDP
 ms.prod: windows-hardware
 ms.technology: windows-devices

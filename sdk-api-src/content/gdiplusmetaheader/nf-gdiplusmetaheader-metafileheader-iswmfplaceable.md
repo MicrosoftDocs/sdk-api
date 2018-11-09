@@ -87,20 +87,24 @@ Placeable metafiles are .wmf files that contain a preheader preceding the metafi
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object from a .wmf file and gets the metafile header of the metafile. The code then determines whether the metafile is a placeable metafile.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 MetafileHeader metaHeader;
-Metafile::GetMetafileHeader(L"sampleMetafile.wmf", &metaHeader);
+Metafile::GetMetafileHeader(L"sampleMetafile.wmf", &amp;metaHeader);
 
 if(metaHeader.IsWmfPlaceable() == TRUE)
 {
    // The associated metafile is a placeable metafile.
 }
-				
-```
-
-
+				</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

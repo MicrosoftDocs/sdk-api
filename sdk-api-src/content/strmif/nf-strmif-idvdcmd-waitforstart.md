@@ -7,7 +7,7 @@ old-location: dshow\idvdcmd_waitforstart.htm
 tech.root: DirectShow
 ms.assetid: 7badcc93-b5e7-4f43-bd71-a0b9ddfb0053
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDvdCmd interface [DirectShow],WaitForStart method, IDvdCmd.WaitForStart, IDvdCmd::WaitForStart, IDvdCmdWaitForStart, WaitForStart, WaitForStart method [DirectShow], WaitForStart method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforstart, strmif/IDvdCmd::WaitForStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

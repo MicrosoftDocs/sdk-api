@@ -7,7 +7,7 @@ old-location: winsock\wsastartup_2.htm
 tech.root: winsock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -338,14 +338,18 @@ the <b>WSAStartup</b> function fails or the <b>WSAStartup</b> function was not c
 The following code fragment demonstrates how an application that supports only version 2.2 of Windows Sockets makes a 
 <b>WSAStartup</b> call:
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define WIN32_LEAN_AND_MEAN
 
-```cpp
-#define WIN32_LEAN_AND_MEAN
-
-#include <windows.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -361,7 +365,7 @@ int __cdecl main()
 /* Use the MAKEWORD(lowbyte, highbyte) macro declared in Windef.h */
     wVersionRequested = MAKEWORD(2, 2);
 
-    err = WSAStartup(wVersionRequested, &wsaData);
+    err = WSAStartup(wVersionRequested, &amp;wsaData);
     if (err != 0) {
         /* Tell the user that we could not find a usable */
         /* Winsock DLL.                                  */
@@ -396,10 +400,10 @@ int __cdecl main()
 
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

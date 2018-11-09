@@ -7,7 +7,7 @@ old-location: winsock\nsplookupservicenext_2.htm
 tech.root: winsock
 ms.assetid: 321732e4-5d48-48f4-8795-ffac208852dc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LPNSPLOOKUPSERVICENEXT, NSPLookupServiceNext, NSPLookupServiceNext function [Winsock], _win32_nsplookupservicenext_2, winsock.nsplookupservicenext_2, ws2spi/NSPLookupServiceNext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\rpcsmgetthreadhandle.htm
 tech.root: rpc
 ms.assetid: 5bf2c93c-8273-484b-a79f-821b2068692d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcSmGetThreadHandle, RpcSmGetThreadHandle function [RPC], _rpc_rpcsmgetthreadhandle, rpc.rpcsmgetthreadhandle, rpcndr/RpcSmGetThreadHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

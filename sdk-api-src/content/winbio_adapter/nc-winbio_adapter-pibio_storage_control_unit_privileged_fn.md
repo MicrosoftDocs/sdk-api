@@ -196,9 +196,13 @@ This function must check the value of the <i>ReceiveBufferSize</i> parameter to 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterControlUnitPrivileged
 //
@@ -251,11 +255,11 @@ StorageAdapterControlUnitPrivileged(
 
     // Retrieve the context from the pipeline.
     PWINBIO_STORAGE_CONTEXT storageContext = 
-           (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
+           (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
 
     // Verify the state of the pipeline.
     if (storageContext == NULL ||
-        Pipeline->StorageHandle == INVALID_HANDLE_VALUE)
+        Pipeline-&gt;StorageHandle == INVALID_HANDLE_VALUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -268,7 +272,7 @@ StorageAdapterControlUnitPrivileged(
             CTRL_CODE_P1_SEND_BUFFER *sendBuffer = (CTRL_CODE_P1_SEND_BUFFER*)SendBuffer;
 
             // Verify the size of the send buffer.
-            if (SendBufferSize < sizeof(CTRL_CODE_P1_SEND_BUFFER))
+            if (SendBufferSize &lt; sizeof(CTRL_CODE_P1_SEND_BUFFER))
             {
                 hr = E_INVALIDARG;
                 break;
@@ -276,14 +280,14 @@ StorageAdapterControlUnitPrivileged(
 
             // Perform any other checks that may be required on the buffer 
             // contents. Return E_INVALIDARG if any of the checks fail.
-            if (sendBuffer->SomeField != SomeSpecialValue ||
-                sendBuffer->SomeOtherField != SomeOtherSpecialValue)
+            if (sendBuffer-&gt;SomeField != SomeSpecialValue ||
+                sendBuffer-&gt;SomeOtherField != SomeOtherSpecialValue)
             {
                 hr = E_INVALIDARG;
                 break;
             }
 
-            if (ReceiveBufferSize < sizeof(CTRL_CODE_P1_RECEIVE_BUFFER))
+            if (ReceiveBufferSize &lt; sizeof(CTRL_CODE_P1_RECEIVE_BUFFER))
             {
                 hr = E_NOT_SUFFICIENT_BUFFER;
                 break;
@@ -302,7 +306,7 @@ StorageAdapterControlUnitPrivileged(
             CTRL_CODE_P2_SEND_BUFFER *sendBuffer = (CTRL_CODE_P2_SEND_BUFFER*)SendBuffer;
 
             // Verify the size of the send buffer.
-            if (SendBufferSize < sizeof(CTRL_CODE_P2_SEND_BUFFER))
+            if (SendBufferSize &lt; sizeof(CTRL_CODE_P2_SEND_BUFFER))
             {
                 hr = E_INVALIDARG;
                 break;
@@ -310,14 +314,14 @@ StorageAdapterControlUnitPrivileged(
 
             // Perform any other checks that may be required on the buffer 
             // contents. Return E_INVALIDARG if any of the checks fail.
-            if (sendBuffer->SomeField != SomeSpecialValue ||
-                sendBuffer->SomeOtherField != SomeOtherSpecialValue)
+            if (sendBuffer-&gt;SomeField != SomeSpecialValue ||
+                sendBuffer-&gt;SomeOtherField != SomeOtherSpecialValue)
             {
                 hr = E_INVALIDARG;
                 break;
             }
 
-            if (ReceiveBufferSize < sizeof(CTRL_CODE_P2_RECEIVE_BUFFER))
+            if (ReceiveBufferSize &lt; sizeof(CTRL_CODE_P2_RECEIVE_BUFFER))
             {
                 hr = E_NOT_SUFFICIENT_BUFFER;
                 break;
@@ -341,22 +345,22 @@ StorageAdapterControlUnitPrivileged(
     // overlapped I/O and that a properly initialized OVERLAPPED structure is
     // contained in the storage context.
     result = DeviceIoControl(
-                Pipeline->StorageHandle,
+                Pipeline-&gt;StorageHandle,
                 ControlCode,
                 SendBuffer,
                 (DWORD)SendBufferSize,
                 ReceiveBuffer,
                 (DWORD)ReceiveBufferSize,
                 (LPDWORD)ReceiveDataSize,
-                &storageContext->Overlapped
+                &amp;storageContext-&gt;Overlapped
                 );
-    if (result == FALSE && GetLastError() == ERROR_IO_PENDING)
+    if (result == FALSE &amp;&amp; GetLastError() == ERROR_IO_PENDING)
     {
         SetLastError(ERROR_SUCCESS);
 
         result = GetOverlappedResult(
-                    Pipeline->StorageHandle,
-                    &storageContext->Overlapped,
+                    Pipeline-&gt;StorageHandle,
+                    &amp;storageContext-&gt;Overlapped,
                     (LPDWORD)ReceiveDataSize,
                     TRUE
                     );
@@ -372,10 +376,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

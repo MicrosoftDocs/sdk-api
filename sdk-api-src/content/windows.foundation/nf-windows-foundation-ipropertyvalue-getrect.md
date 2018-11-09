@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getrect.htm
 tech.root: WinRT
 ms.assetid: 2333bd80-56db-4fa4-b696-269969fd1362
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetRect, GetRect method [Windows Runtime], GetRect method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRect method, IPropertyValue.GetRect, IPropertyValue.IPropertyValue, IPropertyValue::GetRect, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRect, winrt.ipropertyvalue_getrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

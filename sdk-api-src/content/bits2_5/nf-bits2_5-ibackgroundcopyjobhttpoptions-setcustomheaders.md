@@ -133,9 +133,13 @@ An ISAPI that processes the custom header can return an HTTP error if the header
 
 The following example shows how to specify custom headers for a job. The example assumes that pJob points to a valid job.
 
-
-```cpp
-// Custom headers to include in job.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Custom headers to include in job.
 #define HEADERS L"MyHeader_1: Header One Value\n" \
     L"MyHeader_2: Header Two Value\n" \
     L"MyHeader_3: Header Three Value\n"
@@ -145,18 +149,18 @@ The following example shows how to specify custom headers for a job. The example
   IBackgroundCopyJob* pJob = NULL;
   IBackgroundCopyJobHttpOptions* pHttpOptions = NULL;
 
-  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&pHttpOptions);
-  pJob->Release();
+  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
+  pJob-&gt;Release();
   if (FAILED(hr))
   {
-    wprintf(L"pJob->QueryInterface failed with 0x%x.\n", hr);
+    wprintf(L"pJob-&gt;QueryInterface failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
-  hr = pHttpOptions->SetCustomHeaders(HEADERS);
+  hr = pHttpOptions-&gt;SetCustomHeaders(HEADERS);
   if (FAILED(hr))
   {
-    wprintf(L"pHttpOptions->SetCustomHeaders failed with 0x%x.\n", hr);
+    wprintf(L"pHttpOptions-&gt;SetCustomHeaders failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -165,12 +169,12 @@ cleanup:
 
   if (pHttpOptions) 
   {
-    hr = pHttpOptions->Release();
+    hr = pHttpOptions-&gt;Release();
   }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

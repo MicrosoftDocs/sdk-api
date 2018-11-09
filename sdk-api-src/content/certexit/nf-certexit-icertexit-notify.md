@@ -7,7 +7,7 @@ old-location: security\icertexit2_notify.htm
 tech.root: seccrypto
 ms.assetid: ebe4ef0c-5778-4a62-b112-9b16b250814f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertExit object [Security],Notify method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Notify method, ICertExit.Notify, ICertExit2 interface [Security],Notify method, ICertExit2::Notify, ICertExit::Notify, Notify, Notify method [Security], Notify method [Security],CCertExit object, Notify method [Security],ICertExit interface, Notify method [Security],ICertExit2 interface, _certsrv_icertexit_notify, certexit/ICertExit2::Notify, certexit/ICertExit::Notify, security.icertexit2_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,11 +173,15 @@ If a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">c
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certexit.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certexit.h&gt;
 
 STDMETHODIMP CCertExit::Notify(
     /* [in] */ LONG ExitEvent,
@@ -236,10 +240,10 @@ STDMETHODIMP CCertExit::Notify(
     }
 
     return(hr);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

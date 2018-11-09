@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregister.htm
 tech.root: seccrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,9 +126,13 @@ This function requires that the calling account be  a local administrator. If th
 
 #### Examples
 
-
-```cpp
-// szMyDBName is the returned path from the backup client's
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// szMyDBName is the returned path from the backup client's
 // call to CertSrvRestoreGetDatabaseLocations. This value would
 // have been saved during a full backup operation.
 CSEDB_RSTMAP rgrstmap[1] = 
@@ -160,10 +164,10 @@ if (S_OK != hr)
 
 // Continue processing.
 // When done, call CertSrvRestoreRegisterComplete (not shown).
-// ...
-```
-
-
+// ...</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

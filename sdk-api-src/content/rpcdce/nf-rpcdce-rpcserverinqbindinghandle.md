@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinqbindinghandle.htm
 tech.root: rpc
 ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

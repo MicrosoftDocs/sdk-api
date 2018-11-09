@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_id.htm
 tech.root: tapi
 ms.assetid: e5045dd7-5a12-415e-b68a-f483f77f4887
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_ID method, ITAgent.get_ID, ITAgent::get_ID, _tapi3_itagent_get_id, get_ID, get_ID method [TAPI 2.2], get_ID method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_id, tapi3cc/ITAgent::get_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices

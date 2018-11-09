@@ -7,7 +7,7 @@ old-location: winsock\gethostbyaddr_2.htm
 tech.root: winsock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,11 +148,15 @@ Although
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>gethostbyaddr</b> function.
 
-
-```cpp
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 int main(int argc, char **argv)
 {
@@ -174,7 +178,7 @@ int main(int argc, char **argv)
     char **pAlias;
 
     // Validate the parameters
-    if (argc < 2) {
+    if (argc &lt; 2) {
         printf("usage: %s 4 ipv4address\n", argv[0]);
         printf(" or\n");
         printf("usage: %s 6 ipv6address\n", argv[0]);
@@ -199,7 +203,7 @@ int main(int argc, char **argv)
     }
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -210,12 +214,12 @@ int main(int argc, char **argv)
     printf("Calling gethostbyaddr with %s\n", host_addr);
     if (bIpv6 == 1) {
         {
-            iResult = inet_pton(AF_INET6, host_addr, &addr6);
+            iResult = inet_pton(AF_INET6, host_addr, &amp;addr6);
             if (iResult == 0) {
                 printf("The IPv6 address entered must be a legal address\n");
                 return 1;
             } else
-                remoteHost = gethostbyaddr((char *) &addr6, 16, AF_INET6);
+                remoteHost = gethostbyaddr((char *) &amp;addr6, 16, AF_INET6);
         }
     } else {
         addr.s_addr = inet_addr(host_addr);
@@ -223,7 +227,7 @@ int main(int argc, char **argv)
             printf("The IPv4 address entered must be a legal address\n");
             return 1;
         } else
-            remoteHost = gethostbyaddr((char *) &addr, 4, AF_INET);
+            remoteHost = gethostbyaddr((char *) &amp;addr, 4, AF_INET);
     }
 
     if (remoteHost == NULL) {
@@ -242,12 +246,12 @@ int main(int argc, char **argv)
         }
     } else {
         printf("Function returned:\n");
-        printf("\tOfficial name: %s\n", remoteHost->h_name);
-        for (pAlias = remoteHost->h_aliases; *pAlias != 0; pAlias++) {
+        printf("\tOfficial name: %s\n", remoteHost-&gt;h_name);
+        for (pAlias = remoteHost-&gt;h_aliases; *pAlias != 0; pAlias++) {
             printf("\tAlternate name #%d: %s\n", ++i, *pAlias);
         }
         printf("\tAddress type: ");
-        switch (remoteHost->h_addrtype) {
+        switch (remoteHost-&gt;h_addrtype) {
         case AF_INET:
             printf("AF_INET\n");
             break;
@@ -258,26 +262,26 @@ int main(int argc, char **argv)
             printf("AF_NETBIOS\n");
             break;
         default:
-            printf(" %d\n", remoteHost->h_addrtype);
+            printf(" %d\n", remoteHost-&gt;h_addrtype);
             break;
         }
-        printf("\tAddress length: %d\n", remoteHost->h_length);
+        printf("\tAddress length: %d\n", remoteHost-&gt;h_length);
 
-        if (remoteHost->h_addrtype == AF_INET) {
-            while (remoteHost->h_addr_list[i] != 0) {
-                addr.s_addr = *(u_long *) remoteHost->h_addr_list[i++];
+        if (remoteHost-&gt;h_addrtype == AF_INET) {
+            while (remoteHost-&gt;h_addr_list[i] != 0) {
+                addr.s_addr = *(u_long *) remoteHost-&gt;h_addr_list[i++];
                 printf("\tIPv4 Address #%d: %s\n", i, inet_ntoa(addr));
             }
-        } else if (remoteHost->h_addrtype == AF_INET6)
+        } else if (remoteHost-&gt;h_addrtype == AF_INET6)
             printf("\tRemotehost is an IPv6 address\n");
     }
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

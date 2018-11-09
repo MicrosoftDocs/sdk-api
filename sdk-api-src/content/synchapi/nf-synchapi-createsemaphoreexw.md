@@ -7,8 +7,8 @@ old-location: base\createsemaphoreex.htm
 tech.root: sync
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: CreateSemaphoreEx, CreateSemaphoreEx function, CreateSemaphoreExA, CreateSemaphoreExW, base.createsemaphoreex, synchapi/CreateSemaphoreEx, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
+ms.date: 11/08/2018
+ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function, base.createsemaphoreex, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -45,7 +45,7 @@ api_location:
  - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CreateSemaphoreEx
+ - CreateSemaphoreExW
  - CreateSemaphoreExA
  - CreateSemaphoreExW
 product: Windows

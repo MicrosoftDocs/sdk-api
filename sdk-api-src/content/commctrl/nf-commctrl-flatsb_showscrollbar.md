@@ -7,7 +7,7 @@ old-location: controls\FlatSB_ShowScrollBar.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_showscrollbar.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FlatSB_ShowScrollBar, FlatSB_ShowScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_ShowScrollBar, _win32_FlatSB_ShowScrollBar_cpp, commctrl/FlatSB_ShowScrollBar, controls.FlatSB_ShowScrollBar, controls._win32_FlatSB_ShowScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ Shows or hides the vertical scroll bar.
  
 
 
-### -param arg2
+### -param arg3
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 

@@ -7,7 +7,7 @@ old-location: shell\HELPWININFO_str.htm
 tech.root: shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,9 +177,13 @@ To calculate <b>wStructSize</b> properly, the actual size of the string to be st
 
                 
 
-
-```
-WORD wSize;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WORD wSize;
 TCHAR *szWndName = TEXT("wnd_menu"); 
 size_t NameLength;  
 HRESULT hr;
@@ -187,7 +191,7 @@ HELPWININFO hwi;
 
 // StringCbLength returns the length of the string without 
 // the terminating null character.
-hr = StringCbLength(szWndName, STRSAFE_MAX_CCH * sizeof(TCHAR), &NameLength);
+hr = StringCbLength(szWndName, STRSAFE_MAX_CCH * sizeof(TCHAR), &amp;NameLength);
     
 if (SUCCEEDED(hr))
 {
@@ -199,9 +203,9 @@ if (SUCCEEDED(hr))
     
     // Determine the total size of the final HELPWININFO structure.
     hwi.wStructSize = wSize + NameLength;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

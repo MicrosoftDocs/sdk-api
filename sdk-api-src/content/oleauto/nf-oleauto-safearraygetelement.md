@@ -7,7 +7,7 @@ old-location: automat\safearraygetelement.htm
 tech.root: automat
 ms.assetid: 47e9ee31-1e3b-4193-8467-6ef0db05966e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SafeArrayGetElement, SafeArrayGetElement function [Automation], _oa96_SafeArrayGetElement, automat.safearraygetelement, oleauto/SafeArrayGetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,9 +147,13 @@ This function calls <a href="https://msdn.microsoft.com/cb29d862-c7c5-4852-b017-
 
 The following example is taken from the COM Fundamentals SPoly sample (Cenumpt.cpp).
 
-
-```cpp
-STDMETHODIMP CEnumPoint::Next(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CEnumPoint::Next(
    ULONG celt,
    VARIANT  rgvar[],
    ULONG * pceltFetched)
@@ -158,10 +162,10 @@ STDMETHODIMP CEnumPoint::Next(
    long ix;
    HRESULT hresult;
 
-   for(i = 0; i < celt; ++i)
-      VariantInit(&rgvar[i]);
+   for(i = 0; i &lt; celt; ++i)
+      VariantInit(&amp;rgvar[i]);
 
-   for(i = 0; i < celt; ++i){
+   for(i = 0; i &lt; celt; ++i){
       // Are we at the last element?
       if(m_iCurrent == m_celts){
       hresult = S_FALSE;
@@ -170,7 +174,7 @@ STDMETHODIMP CEnumPoint::Next(
 
       ix = m_iCurrent++;
       // m_psa is a global variable that holds the safe array.
-      hresult = SafeArrayGetElement(m_psa, &ix, &rgvar[i]);
+      hresult = SafeArrayGetElement(m_psa, &amp;ix, &amp;rgvar[i]);
       if(FAILED(hresult))
          goto LError0;
    }
@@ -183,12 +187,12 @@ LDone:;
    return hresult;
 
 LError0:;
-   for(i = 0; i < celt; ++i)
-      VariantClear(&rgvar[i]);
+   for(i = 0; i &lt; celt; ++i)
+      VariantClear(&amp;rgvar[i]);
    return hresult;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_geteventhandle.htm
 tech.root: DirectShow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,15 +88,19 @@ Do not close the event handle returned by this method, because the event handle 
 
 For Automation compatibility, this method takes a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390935(v=VS.85).aspx">OAEVENT</a> type. In C++, declare a variable of type <b>HANDLE</b> and cast it an <b>OAEVENT</b> pointer, as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HANDLE hEvent;
-GetEventHandle( (OAEVENT*) &hEvent );
-
-```
-
-
+GetEventHandle( (OAEVENT*) &amp;hEvent );
+</pre>
+</td>
+</tr>
+</table></span></div>
 Another way for applications to monitor the event queue is by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd406900(v=VS.85).aspx">IMediaEventEx::SetNotifyWindow</a> method.
 
 

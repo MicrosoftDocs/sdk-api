@@ -7,7 +7,7 @@ old-location: security\icertmanagemodule_setproperty.htm
 tech.root: seccrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,10 +166,14 @@ This method is intended for future functionality. A minimal implementation is re
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <Certmod.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Certmod.h&gt;
 
 HRESULT CCertManagePolicyModule::SetProperty(
             /* [in] */ const BSTR strConfig,
@@ -181,10 +185,10 @@ HRESULT CCertManagePolicyModule::SetProperty(
     // This implementation fulfills the minimal requirement
     // needed for ICertManageModule::SetProperty.
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

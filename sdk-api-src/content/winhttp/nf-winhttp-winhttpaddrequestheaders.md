@@ -244,9 +244,13 @@ An application can also use
 
 The following code example includes an If-Modified-Since header in a request.  The response header is interpreted to determine whether the target document has been updated.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
   DWORD dwSize = sizeof(DWORD);
   DWORD dwStatusCode = 0;
   BOOL  bResults = FALSE;
@@ -304,8 +308,8 @@ The following code example includes an If-Modified-Since header in a request.  T
     bResults = WinHttpQueryHeaders( hRequest, 
                 WINHTTP_QUERY_STATUS_CODE | WINHTTP_QUERY_FLAG_NUMBER,
                                     NULL, 
-                                    &dwStatusCode,
-                                    &dwSize,
+                                    &amp;dwStatusCode,
+                                    &amp;dwSize,
                                     WINHTTP_NO_HEADER_INDEX );
 
   // Based on the status code, determine whether 
@@ -328,10 +332,10 @@ The following code example includes an If-Modified-Since header in a request.  T
   if( hRequest ) WinHttpCloseHandle( hRequest );
   if( hConnect ) WinHttpCloseHandle( hConnect );
   if( hSession ) WinHttpCloseHandle( hSession );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

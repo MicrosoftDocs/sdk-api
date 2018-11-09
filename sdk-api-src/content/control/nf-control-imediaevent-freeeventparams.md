@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_freeeventparams.htm
 tech.root: DirectShow
 ms.assetid: d98f37a4-3482-4cf7-bede-c7e7be70652a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventParams method [DirectShow],IMediaEvent interface, FreeEventParams method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],FreeEventParams method, IMediaEvent.FreeEventParams, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow],FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,16 +101,20 @@ After you call the <a href="https://msdn.microsoft.com/en-us/library/Dd406907(v=
 
 #### Examples
 
-
-```cpp
-
-hr = pEvent->GetEvent(&evCode, &param1, &param2, 0);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = pEvent-&gt;GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0);
 // Handle the event (not shown). 
-hr = pEvent->FreeEventParams(evCode, param1, param2);
-
-```
-
-
+hr = pEvent-&gt;FreeEventParams(evCode, param1, param2);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

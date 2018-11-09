@@ -7,7 +7,7 @@ old-location: tapi3\itaddress_get_calls.htm
 tech.root: tapi
 ms.assetid: b0b16578-0530-4ff9-a7ce-d36527ed2da9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_Calls method, ITAddress.get_Calls, ITAddress::get_Calls, _tapi3_itaddress_get_calls, get_Calls, get_Calls method [TAPI 2.2], get_Calls method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_calls, tapi3if/ITAddress::get_Calls
 ms.prod: windows-hardware
 ms.technology: windows-devices

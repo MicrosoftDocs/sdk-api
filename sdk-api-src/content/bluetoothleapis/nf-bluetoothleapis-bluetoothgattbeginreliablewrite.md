@@ -162,12 +162,16 @@ The <b>BluetoothGATTBeginReliableWrite</b> function notifies the Bluetooth stack
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BTH_LE_GATT_RELIABLE_WRITE_CONTEXT ReliableWriteContext = NULL;
 hr = BluetoothGATTBeginReliableWrite(hDevice, 
-                                    &ReliableWriteContext,
+                                    &amp;ReliableWriteContext,
                                     BLUETOOTH_GATT_FLAG_NONE);
 
 if (SUCCEEDED(hr)) {
@@ -178,9 +182,9 @@ if (NULL != ReliableWriteContext) {
     BluetoothGATTEndReliableWrite(hDevice, 
                                  ReliableWriteContext,
                                   BLUETOOTH_GATT_FLAG_NONE);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

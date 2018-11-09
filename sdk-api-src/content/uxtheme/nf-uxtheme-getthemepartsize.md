@@ -7,7 +7,7 @@ old-location: controls\GetThemePartSize.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], controls.GetThemePartSize, controls.inet_GetThemePartSize, inet_GetThemePartSize, inet_GetThemePartSize_cpp, uxtheme/GetThemePartSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ Type: <b>LPCRECT</b>
 Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the rectangle used for the part drawing destination. This parameter may be set to <b>NULL</b>.
 
 
-### -param arg1 [in]
+### -param arg6 [in]
 
 Type: <b>THEMESIZE</b>
 

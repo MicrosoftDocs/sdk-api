@@ -119,65 +119,77 @@ behavior.
 Here is the code to check whether either the runtime emulates command lists or the driver supports command lists:
 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
      HRESULT hr = S_OK;
      bool needWorkaround = false;
-     D3D11_DEVICE_CONTEXT_TYPE contextType = pDeviceContext->GetType();
+     D3D11_DEVICE_CONTEXT_TYPE contextType = pDeviceContext-&gt;GetType();
 
      if( D3D11_DEVICE_CONTEXT_DEFERRED == contextType)
      {
           D3D11_FEATURE_DATA_THREADING threadingCaps = { FALSE, FALSE };
 
-          hr = pDevice->CheckFeatureSupport( D3D11_FEATURE_THREADING, &threadingCaps, sizeof(threadingCaps) );
-          if( SUCCEEDED(hr) && !threadingCaps.DriverCommandLists )
+          hr = pDevice-&gt;CheckFeatureSupport( D3D11_FEATURE_THREADING, &amp;threadingCaps, sizeof(threadingCaps) );
+          if( SUCCEEDED(hr) &amp;&amp; !threadingCaps.DriverCommandLists )
           {
                needWorkaround = true; // the runtime emulates command lists.
           }
      }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If the runtime emulates command lists, you need to use one of these code snippets:
 
 
 If you change the offset and size on only a single constant buffer, set the constant buffer to <b>NULL</b> first:
 
 
-
-```cpp
-
-     pDeviceContext->CSSetConstantBuffers1(0, 1, &CBuf, &Offset, &Count);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+     pDeviceContext-&gt;CSSetConstantBuffers1(0, 1, &amp;CBuf, &amp;Offset, &amp;Count);
      if( needWorkaround )
      {
           // Workaround for command list emulation
-          pDeviceContext->CSSetConstantBuffers(0, 1, &NullCBuf);
+          pDeviceContext-&gt;CSSetConstantBuffers(0, 1, &amp;NullCBuf);
      }
-     pDeviceContext->CSSetConstantBuffers1(0, 1, &CBuf, &Offset, &Count);
-
-```
-
-
+     pDeviceContext-&gt;CSSetConstantBuffers1(0, 1, &amp;CBuf, &amp;Offset, &amp;Count);
+</pre>
+</td>
+</tr>
+</table></span></div>
 If you change multiple constant buffers, set the first and last constant buffers of the range to <b>NULL</b> first:
 
 
-
-```cpp
-
-     pDeviceContext->CSSetConstantBuffers1(0, 4, &CBufs, &Offsets, &Counts);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+     pDeviceContext-&gt;CSSetConstantBuffers1(0, 4, &amp;CBufs, &amp;Offsets, &amp;Counts);
      if( needWorkaround )
      {
           // Workaround for command list emulation
-          pDeviceContext->CSSetConstantBuffers(0, 1, &NullCBuf);
-          pDeviceContext->CSSetConstantBuffers(3, 1, &NullCBuf);
+          pDeviceContext-&gt;CSSetConstantBuffers(0, 1, &amp;NullCBuf);
+          pDeviceContext-&gt;CSSetConstantBuffers(3, 1, &amp;NullCBuf);
      }
-     pDeviceContext->CSSetConstantBuffers1(0, 4, &CBufs, &Offsets, &Counts);
-
-```
-
-
+     pDeviceContext-&gt;CSSetConstantBuffers1(0, 4, &amp;CBufs, &amp;Offsets, &amp;Counts);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

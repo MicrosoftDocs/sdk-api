@@ -91,13 +91,9 @@ Calling <b>BeginDraw</b> twice on a render target puts the target into an error 
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw text to a window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Called whenever the application needs to display the client
+
+```cpp
+//  Called whenever the application needs to display the client
 //  window. This method writes "Hello, World"
 //
 //  Note that this function will automatically discard device-specific
@@ -116,15 +112,15 @@ HRESULT DemoApp::OnRender()
         static const WCHAR sc_helloWorld[] = L"Hello, World!";
 
         // Retrieve the size of the render target.
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget-&gt;GetSize();
+        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
 
-        m_pRenderTarget-&gt;BeginDraw();
+        m_pRenderTarget->BeginDraw();
 
-        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
-        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
 
-        m_pRenderTarget-&gt;DrawText(
+        m_pRenderTarget->DrawText(
             sc_helloWorld,
             ARRAYSIZE(sc_helloWorld) - 1,
             m_pTextFormat,
@@ -132,7 +128,7 @@ HRESULT DemoApp::OnRender()
             m_pBlackBrush
             );
 
-        hr = m_pRenderTarget-&gt;EndDraw();
+        hr = m_pRenderTarget->EndDraw();
 
         if (hr == D2DERR_RECREATE_TARGET)
         {
@@ -143,10 +139,10 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

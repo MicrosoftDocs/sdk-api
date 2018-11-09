@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveWhile.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movewhile.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveWhile method, ITextRange.MoveWhile, ITextRange::MoveWhile, MoveWhile, MoveWhile method [Windows Controls], MoveWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveWhile, _win32_ITextRange_MoveWhile_cpp, controls.ITextRange_MoveWhile, controls._win32_ITextRange_MoveWhile, tom/ITextRange::MoveWhile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,47 +134,59 @@ The <a href="https://msdn.microsoft.com/en-us/library/Bb774082(v=VS.85).aspx">IT
 
 The <b>VARIANT</b> type is primarily intended to be used with <b>IDispatch</b> scenarios like Microsoft Visual Basic for Applications (VBA), but it can be readily used from C or C++ as well. The following C++ code illustrates how to initialize and use the <b>VARIANT</b> argument  for matching a span of digits in the range r.
 
-
-```
-VariantInit(&varg);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VariantInit(&amp;varg);
 varg.vt = VT_I4;
 varg.lVal = C1_DIGIT;
-hr = r.MoveWhile(&varg, tomForward, pDelta); // Move IP past span of digits
-
-```
-
-
+hr = r.MoveWhile(&amp;varg, tomForward, pDelta); // Move IP past span of digits
+</pre>
+</td>
+</tr>
+</table></span></div>
 Alternatively, an explicit string could be used, as in the following sample.
 
-
-```
-VariantInit(&varg);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VariantInit(&amp;varg);
 bstr = SysAllocString("0123456789");
 varg.vt = VT_BSTR;
 varg.bstr = bstr;
-hr =r.MoveWhile(&varg, tomForward, pDelta);    // Move IP past span of digits
-
-```
-
-
+hr =r.MoveWhile(&amp;varg, tomForward, pDelta);    // Move IP past span of digits
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBA example code matches the body of the next Standard Generalized Markup Language (SGML) entry in a range, r. SGML entries start with &lt;
 				<code>keyword ...</code>&gt; and end with &lt;/
 				<code>keyword</code>&gt;. 
 
-
-```
-r.Find <                  // Get to start of next tag
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>r.Find &lt;                  // Get to start of next tag
 r.MoveWhile C1_SPACE      // Bypass any space characters
 r.MoveEndWhile C1_ALPHA   // Match keyword
-s$ = </ + r               // Create VBA string to search for
-r.Find >                  // Bypass remainder of start tag
+s$ = &lt;/ + r               // Create VBA string to search for
+r.Find &gt;                  // Bypass remainder of start tag
 r.FindEnd s$              // Match up to end of closing keyword
-r.FindEnd <, tomStart     // Back up to start of end tag
+r.FindEnd &lt;, tomStart     // Back up to start of end tag
                           // r has body of SGML entry
-                           
-```
-
-
+                           </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

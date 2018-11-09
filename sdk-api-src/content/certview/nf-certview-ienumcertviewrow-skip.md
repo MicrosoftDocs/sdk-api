@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_skip.htm
 tech.root: seccrypto
 ms.assetid: 9115262e-00bb-4446-906d-7a57fd5781d1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Skip method, IEnumCERTVIEWROW object [Security],Skip method, IEnumCERTVIEWROW.Skip, IEnumCERTVIEWROW::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWROW interface, Skip method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,20 +107,24 @@ If a positive value of the <i>celt</i> parameter causes the index to exceed the 
 
 #### Examples
 
-
-```cpp
-// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 HRESULT  hr;
 LONG     Index;
 // Reposition the row enumerator to the beginning of the rows.
-hr = pEnumRow->Reset();
+hr = pEnumRow-&gt;Reset();
 if (FAILED(hr))
 {
     printf("Unable to reset pEnumRow\n");
     goto error;
 }
 // Skip some rows.
-hr = pEnumRow->Skip(5);
+hr = pEnumRow-&gt;Skip(5);
 if (FAILED(hr))
 {
     printf("Unable to skip rows\n");
@@ -128,7 +132,7 @@ if (FAILED(hr))
 }
 
 // Get the next row.
-hr = pEnumRow->Next(&Index);
+hr = pEnumRow-&gt;Next(&amp;Index);
 if (S_OK == hr)
 {
     // Use this row as needed.
@@ -137,10 +141,10 @@ if (S_OK == hr)
 error:
 
 if (NULL != pEnumRow)
-    pEnumRow->Release();
-```
-
-
+    pEnumRow-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

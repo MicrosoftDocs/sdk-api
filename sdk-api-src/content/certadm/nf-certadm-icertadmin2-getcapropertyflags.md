@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getcapropertyflags.htm
 tech.root: seccrypto
 ms.assetid: 6f38bea1-e278-4085-b321-05f6765cc676
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin2 object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertAdmin2 object, GetCAPropertyFlags method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAPropertyFlags method, ICertAdmin2.GetCAPropertyFlags, ICertAdmin2::GetCAPropertyFlags, _certsrv_icertadmin2_getcapropertyflags, certadm/ICertAdmin2::GetCAPropertyFlags, security.icertadmin2_getcapropertyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,12 +103,16 @@ The <b>LONG</b> value retrieved by calling this method can be examined to determ
 
 The following example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
 
-
-```cpp
-BSTR bstrCA = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR bstrCA = NULL;
 LONG nFlags;  // Variable to contain the property flags.
 
-bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
 if (NULL == bstrCA)
 {
     printf("Failed to allocate memory for bstrCA\n");
@@ -116,9 +120,9 @@ if (NULL == bstrCA)
 }
 
 // Retrieve a property's flags.
-hr = pCertAdmin2->GetCAPropertyFlags(bstrCA,
+hr = pCertAdmin2-&gt;GetCAPropertyFlags(bstrCA,
                                      CR_PROP_EXITCOUNT,
-                                     &nFlags);
+                                     &amp;nFlags);
 if (FAILED(hr))
 {
     printf("Failed GetCAPropertyFlags\n");
@@ -126,7 +130,7 @@ if (FAILED(hr))
     exit(1);  // Or other error action.
 }
 // Display the property data type.
-switch (nFlags & PROPTYPE_MASK)
+switch (nFlags &amp; PROPTYPE_MASK)
 {
     case PROPTYPE_BINARY:
         printf("Type is BINARY\n");
@@ -146,11 +150,11 @@ switch (nFlags & PROPTYPE_MASK)
 }
 // Display the property's indexed status.
 printf("Property %s indexed\n", 
-       nFlags & PROPFLAGS_INDEXED ? "is" : "is not");
+       nFlags &amp; PROPFLAGS_INDEXED ? "is" : "is not");
 
-SysFreeString(bstrCA);
-```
-
-
+SysFreeString(bstrCA);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

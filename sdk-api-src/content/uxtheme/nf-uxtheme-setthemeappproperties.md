@@ -7,7 +7,7 @@ old-location: controls\SetThemeAppProperties.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,15 +127,19 @@ After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/librar
 
 This example combines flags and calls this function as shown.
 
-
-```cpp
-DWORD dwFlags = (STAP_ALLOW_NONCLIENT | 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD dwFlags = (STAP_ALLOW_NONCLIENT | 
         STAP_ALLOW_CONTROLS | STAP_ALLOW_WEBCONTENT);
 SetThemeAppProperties(dwFlags);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\ListView_SubItemHitTest.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_subitemhittest.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_SubItemHitTest, ListView_SubItemHitTest macro [Windows Controls], _win32_ListView_SubItemHitTest, _win32_ListView_SubItemHitTest_cpp, commctrl/ListView_SubItemHitTest, controls.ListView_SubItemHitTest, controls._win32_ListView_SubItemHitTest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certsrvrestoregetdatabaselocations.htm
 tech.root: seccrypto
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,9 +137,13 @@ This function's name in Certadm.dll is <b>CertSrvRestoreGetDatabaseLocationsW</b
 
 #### Examples
 
-
-```cpp
-FNCERTSRVRESTOREGETDATABASELOCATIONSW* pfnGetDBLocs;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVRESTOREGETDATABASELOCATIONSW* pfnGetDBLocs;
 char *  szGetDBLocsFunc = "CertSrvRestoreGetDatabaseLocationsW";
 WCHAR * pwszzDBLocs;
 DWORD   nListBytes=0;
@@ -159,7 +163,7 @@ if ( NULL == pfnGetDBLocs )
 
 // Determine the names of the database locations.
 // hCSBC was set by an earlier call to CertSrvRestorePrepare.
-hr = pfnGetDBLocs(hCSBC, &pwszzDBLocs, &nListBytes);
+hr = pfnGetDBLocs(hCSBC, &amp;pwszzDBLocs, &amp;nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDBLocs call [%x]\n", hr);
@@ -174,7 +178,7 @@ else
     {
         // Use the file name referenced by pwszFile.
         // Here it is merely displayed.
-        printf("%02x: %ws\n", *pwszFile, &pwszFile[1]);
+        printf("%02x: %ws\n", *pwszFile, &amp;pwszFile[1]);
         // Move to the next database file name.
         // + 1 moves past the null terminator.
         pwszFile+=(wcslen(pwszFile)) + 1; 
@@ -183,10 +187,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDBLocs);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

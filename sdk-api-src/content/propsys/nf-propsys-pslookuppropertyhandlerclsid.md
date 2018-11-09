@@ -102,20 +102,24 @@ Applications that need to create a property handler from code and that must run 
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762084(v=VS.85).aspx">PSLookupPropertyHandlerCLSID</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CLSID clsid;
 
-```cpp
-CLSID clsid;
-
-HRESULT hr = PSLookupPropertyHandlerCLSID(L"C:\\windows\\system32\\shell32.dll", &clsid);
+HRESULT hr = PSLookupPropertyHandlerCLSID(L"C:\\windows\\system32\\shell32.dll", &amp;clsid);
 
 if (SUCCEEDED(hr))
 {
     // clsid contains the CLSID of the property handler used for 
     // C:\windows\system32\shell32.dll.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\IShellWindows.htm
 tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,9 +196,13 @@ The Shell windows collection includes file explorer windows and web browser wind
 
 The following example shows how to retrieve an <b>IShellWindows</b> instance.
 
-
-```
-#include "exdisp.h"
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "exdisp.h"
                 
 ...
 
@@ -213,19 +217,19 @@ if (SUCCEEDED(hr))
         NULL,
         CLSCTX_ALL,
         IID_IShellWindows,
-        (void**)&psw
+        (void**)&amp;psw
     );
     
     if (SUCCEEDED(hr))
     {
         // Use the IShellWindows instance...
         
-        psw->Release();
+        psw-&gt;Release();
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

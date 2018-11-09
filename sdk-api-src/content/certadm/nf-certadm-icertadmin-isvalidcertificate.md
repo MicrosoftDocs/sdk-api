@@ -7,7 +7,7 @@ old-location: security\icertadmin2_isvalidcertificate.htm
 tech.root: seccrypto
 ms.assetid: cd133c57-a62e-4083-b4fd-7eaf0c9e7606
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],IsValidCertificate method, ICertAdmin interface [Security],IsValidCertificate method, ICertAdmin.IsValidCertificate, ICertAdmin2 interface [Security],IsValidCertificate method, ICertAdmin2::IsValidCertificate, ICertAdmin::IsValidCertificate, IsValidCertificate, IsValidCertificate method [Security], IsValidCertificate method [Security],CCertAdmin object, IsValidCertificate method [Security],ICertAdmin interface, IsValidCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::IsValidCertificate, certadm/ICertAdmin::IsValidCertificate, security.icertadmin2_isvalidcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,17 +178,21 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-
-```cpp
-    BSTR       bstrCA = NULL;      // Machine\CAName
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    BSTR       bstrCA = NULL;      // Machine\CAName
     BSTR       bstrSerial = NULL;  // Contains the certificate 
                              // serial number
     long       nDisp;              // Contains the certificate
                              // disposition
     HRESULT    hr;
 
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
-    bstrSerial = SysAllocString(L"<SERIALNUMBERHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrSerial = SysAllocString(L"&lt;SERIALNUMBERHERE&gt;");
 
     if (NULL == bstrCA || NULL == bstrSerial)
     {
@@ -199,7 +203,7 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     //  Determine whether the certificate is valid.
     //  pCertAdmin is a previously instantiated ICertAdmin 
     //  object pointer.
-    hr = pCertAdmin->IsValidCertificate(bstrCA, bstrSerial, &nDisp);
+    hr = pCertAdmin-&gt;IsValidCertificate(bstrCA, bstrSerial, &amp;nDisp);
     if (FAILED(hr))
     {
         printf("Failed IsValidCertificate [%x]\n", hr);
@@ -216,10 +220,10 @@ error:
         SysFreeString(bstrCA);
 
     if (NULL != bstrSerial)
-        SysFreeString(bstrSerial);
-```
-
-
+        SysFreeString(bstrSerial);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

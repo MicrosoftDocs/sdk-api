@@ -106,9 +106,13 @@ The following example creates a
 						<b>PathGradientBrush</b>object. The code calls 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">FillRectangle</a> a second time to paint the same rectangle using the transformed path gradient brush.
 
-
-```cpp
-VOID Example_SetTransform(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -124,21 +128,21 @@ VOID Example_SetTransform(HDC hdc)
 
    INT count = 3;
    PathGradientBrush pthGrBrush(pts, 3);
-   pthGrBrush.SetSurroundColors(cols, &count);
+   pthGrBrush.SetSurroundColors(cols, &amp;count);
 
    // Fill an area with the path gradient brush (no transformation).
-   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);
+   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);
 
    // Set the transformation for the brush (rotate, then translate).
    Matrix matrix(0.0f, 1.0f, -1.0f, 0.0f, 150.0f, 60.0f);
-   pthGrBrush.SetTransform(&matrix);
+   pthGrBrush.SetTransform(&amp;matrix);
    
    // Fill the same area with the transformed path gradient brush.
-   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);  
-}
-```
-
-
+   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);  
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

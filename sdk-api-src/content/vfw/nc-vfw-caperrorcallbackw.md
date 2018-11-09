@@ -7,7 +7,7 @@ old-location: multimedia\caperrorcallback.htm
 tech.root: Multimedia
 ms.assetid: 3dc41a0e-1fed-423d-b05b-c42f361a3fb3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capErrorCallback, capErrorCallback callback, capErrorCallback callback function [Windows Multimedia], multimedia.caperrorcallback, vfw/CAPERRORCALLBACKA, vfw/CAPERRORCALLBACKW, vfw/capErrorCallback
 ms.prod: windows
 ms.technology: windows-sdk

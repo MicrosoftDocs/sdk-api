@@ -93,15 +93,19 @@ To change the encryption state of the cache, use the <a href="https://msdn.micro
 
 The following example shows how to use this method.
 
-
-```cpp
-    //
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    //
     // Assume we already have a cache ptr.
     //
     IOfflineFilesCache *pCache;
     BOOL bEncrypted;
     BOOL bPartial;
-    HRESULT hr = pCache->GetEncryptionStatus(&bEncrypted, &bPartial);
+    HRESULT hr = pCache-&gt;GetEncryptionStatus(&amp;bEncrypted, &amp;bPartial);
     if (SUCCEEDED(hr))
     {
         if (bEncrypted)
@@ -127,10 +131,10 @@ The following example shows how to use this method.
             }
         }
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

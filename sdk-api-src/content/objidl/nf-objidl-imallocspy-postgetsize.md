@@ -7,7 +7,7 @@ old-location: com\imallocspy_postgetsize.htm
 tech.root: com
 ms.assetid: ac619736-a434-46c0-9874-0cb646fdecae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMallocSpy interface [COM],PostGetSize method, IMallocSpy.PostGetSize, IMallocSpy::PostGetSize, PostGetSize, PostGetSize method [COM], PostGetSize method [COM],IMallocSpy interface, _com_imallocspy_postgetsize, com.imallocspy_postgetsize, objidl/IMallocSpy::PostGetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

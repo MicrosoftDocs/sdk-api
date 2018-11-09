@@ -7,7 +7,7 @@ old-location: multimedia\stretchdib.htm
 tech.root: Multimedia
 ms.assetid: 9b542bcf-c32f-40ab-96d1-6f0d96b856c5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,13 +144,17 @@ This function does not do any special processing based on pixel encoding except 
 
 Before including Vfw.h, you must add the following line to your code:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define DRAWDIB_INCLUDE_STRETCHDIB
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

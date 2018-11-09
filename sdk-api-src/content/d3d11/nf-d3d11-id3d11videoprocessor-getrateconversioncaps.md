@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessor_getrateconversioncaps.htm
 tech.root: medfound
 ms.assetid: CC1ED2C7-8277-4F2A-801D-7534CE383DAD
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetRateConversionCaps, GetRateConversionCaps method [Media Foundation], GetRateConversionCaps method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetRateConversionCaps method, ID3D11VideoProcessor.GetRateConversionCaps, ID3D11VideoProcessor::GetRateConversionCaps, d3d11/ID3D11VideoProcessor::GetRateConversionCaps, mf.id3d11videoprocessor_getrateconversioncaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

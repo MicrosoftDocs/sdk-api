@@ -7,7 +7,7 @@ old-location: wcs\setcolorprofileheader.htm
 tech.root: WCS
 ms.assetid: a174712b-9977-4d3c-8baa-1b6e502db166
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: SetColorProfileHeader, SetColorProfileHeader function [Windows Color System], _color_SetColorProfileHeader, icm/SetColorProfileHeader, wcs.setcolorprofileheader
 ms.prod: windows-hardware
 ms.technology: windows-devices

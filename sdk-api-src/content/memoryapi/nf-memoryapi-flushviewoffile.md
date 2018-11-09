@@ -7,7 +7,7 @@ old-location: base\flushviewoffile.htm
 tech.root: memory
 ms.assetid: 994fef62-77cf-4c99-be54-b4aff35a10f2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: FlushViewOfFile, FlushViewOfFile function, _win32_flushviewoffile, base.flushviewoffile, fs.flushviewoffile, winbase/FlushViewOfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

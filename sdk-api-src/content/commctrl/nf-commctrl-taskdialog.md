@@ -7,7 +7,7 @@ old-location: controls\TaskDialog.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialog.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, TaskDialog, TaskDialog function [Windows Controls], _shell_TaskDialog, _shell_TaskDialog_cpp, commctrl/TaskDialog, controls.TaskDialog, controls._shell_TaskDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -344,9 +344,13 @@ The following example code, to be included as part of a larger program, shows ho
 			
 			
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 int nButtonPressed = 0;
 TaskDialog(NULL, hInst, 
     MAKEINTRESOURCE(IDS_APPLICATION_TITLE),
@@ -354,7 +358,7 @@ TaskDialog(NULL, hInst,
     MAKEINTRESOURCE(IDS_SOMECONTENT), 
     TDCBF_OK_BUTTON | TDCBF_CANCEL_BUTTON,
     TD_WARNING_ICON, 
-    &nButtonPressed);
+    &amp;nButtonPressed);
 
 if (IDOK == nButtonPressed)
 {
@@ -363,10 +367,10 @@ if (IDOK == nButtonPressed)
 else if (IDCANCEL == nButtonPressed)
 {
     // Cancel pressed
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

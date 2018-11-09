@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport2_getpekind.htm
 tech.root: WinRT
 ms.assetid: ece40ffa-f92f-4f27-b03c-75204e0c6ee1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetPEKind, GetPEKind method [Windows Runtime], GetPEKind method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetPEKind method, IMetaDataImport2.GetPEKind, IMetaDataImport2::GetPEKind, rometadataapi/IMetaDataImport2::GetPEKind, winrt.imetadataimport2_getpekind
 ms.prod: windows-hardware
 ms.technology: windows-devices

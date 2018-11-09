@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorselectcontrol.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSelectControl(uint32_t,uint32_t,uint32_t,uint32_t)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMVectorSelectControl, XMVectorSelectControl, XMVectorSelectControl method [DirectX Math Support APIs], dxmath.xmvectorselectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorSelectControl
-: 
 ---
 
 # XMVectorSelectControl function
@@ -99,33 +93,29 @@ Returns the control vector.
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR    ControlVector;
+
+```
+XMVECTOR    ControlVector;
 const uint32_t  ControlElement[] =
             {
                 XM_SELECT_0,
                 XM_SELECT_1
             };
 
-assert(VectorIndex0 &lt; 2);
-assert(VectorIndex1 &lt; 2);
-assert(VectorIndex2 &lt; 2);
-assert(VectorIndex3 &lt; 2);
+assert(VectorIndex0 < 2);
+assert(VectorIndex1 < 2);
+assert(VectorIndex2 < 2);
+assert(VectorIndex3 < 2);
 
 ControlVector.u[0] = ControlElement[VectorIndex0];
 ControlVector.u[1] = ControlElement[VectorIndex1];
 ControlVector.u[2] = ControlElement[VectorIndex2];
 ControlVector.u[3] = ControlElement[VectorIndex3];
 
-return ControlVector;</pre>
-</td>
-</tr>
-</table></span></div>
+return ControlVector;
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -138,20 +128,16 @@ In this example, <b>XMVectorSelectControl</b> is used to generate a control mask
 
 The vector result will be ( 3.0f, 5.0f, 5.0f, 3.0f ).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR three = XMVectorReplicate( 3.0f );
+
+```
+XMVECTOR three = XMVectorReplicate( 3.0f );
 XMVECTOR five = XMVectorReplicate( 5.0f );
 
 XMVECTOR control = XMVectorSelectControl( 0, 1, 1, 0 );
-XMVECTOR result = XMVectorSelect( three, five, control );</pre>
-</td>
-</tr>
-</table></span></div>
+XMVECTOR result = XMVectorSelect( three, five, control );
+```
+
+
 
 
 

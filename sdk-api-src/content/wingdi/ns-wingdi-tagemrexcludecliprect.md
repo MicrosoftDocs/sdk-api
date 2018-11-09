@@ -7,7 +7,7 @@ old-location: gdi\emrexcludecliprect__emrintersectcliprect.htm
 tech.root: gdi
 ms.assetid: a8969bfd-cd60-485f-bbcc-4bf015526d56
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PEMREXCLUDECLIPRECT, *PEMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT, EMREXCLUDECLIPRECT structure [Windows GDI], EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT structure [Windows GDI], EMRINTERSECTCLIPRECT, EMRINTERSECTCLIPRECT structure [Windows GDI], PEMREXCLUDECLIPRECT, PEMREXCLUDECLIPRECT structure pointer [Windows GDI], PEMRINTERSECTCLIPRECT, PEMRINTERSECTCLIPRECT structure pointer [Windows GDI], _win32_EMREXCLUDECLIPRECT_str, gdi.emrexcludecliprect__emrintersectcliprect, tagEMREXCLUDECLIPRECT, wingdi/EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, wingdi/EMRINTERSECTCLIPRECT, wingdi/PEMREXCLUDECLIPRECT, wingdi/PEMRINTERSECTCLIPRECT"
 ms.prod: windows
 ms.technology: windows-sdk

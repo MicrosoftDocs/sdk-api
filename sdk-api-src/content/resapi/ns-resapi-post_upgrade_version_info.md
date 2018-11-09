@@ -7,7 +7,7 @@ old-location: mscs\post_upgrade_version_info.htm
 tech.root: mscs
 ms.assetid: 6F5DE9C6-5499-49FE-99D1-C8B8AE88CB18
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: "*PPOST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO structure [Failover Cluster], PPOST_UPGRADE_VERSION_INFO, PPOST_UPGRADE_VERSION_INFO structure pointer [Failover Cluster], mscs.post_upgrade_version_info, resapi/POST_UPGRADE_VERSION_INFO, resapi/PPOST_UPGRADE_VERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\iweextendcontextmenu.htm
 tech.root: mscs
 ms.assetid: a41adde0-fc4f-4997-bb56-5fa43ba62fdb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Cluster], IWEExtendContextMenu interface [Failover Cluster],described, _wolf_iweextendcontextmenu, cluadmex/IWEExtendContextMenu, mscs.iweextendcontextmenu
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wsastringtoaddress_2.htm
 tech.root: winsock
 ms.assetid: 7b9946c3-c8b3-45ae-9bde-03faaf604bba
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSAStringToAddress, WSAStringToAddress function [Winsock], WSAStringToAddressA, WSAStringToAddressW, _win32_wsastringtoaddress_2, winsock.wsastringtoaddress_2, winsock2/WSAStringToAddress, winsock2/WSAStringToAddressA, winsock2/WSAStringToAddressW
 ms.prod: windows-hardware
 ms.technology: windows-devices

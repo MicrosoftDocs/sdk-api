@@ -114,9 +114,13 @@ The order of matrix multiplication is important. In general, the matrix product 
 
 The following example creates a linear gradient brush and uses it to fill a rectangle. Next, the code modifies the brush's transformation matrix, applying a composite transformation, and then fills a rectangle with the transformed brush.
 
-
-```cpp
-VOID Example_ScaleTrans(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_ScaleTrans(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -127,18 +131,18 @@ VOID Example_ScaleTrans(HDC hdc)
       LinearGradientModeHorizontal);
 
    // Fill a large area with the linear gradient brush (no transformation).
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 800, 150);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 800, 150);
 
    // Apply a composite transformation: first translate, then scale.
    linGrBrush.TranslateTransform(60, 0);            // horizontal translation
    linGrBrush.ScaleTransform(2, MatrixOrderAppend); // horizontal doubling
 
    // Fill a large area with the transformed linear gradient brush.
-   myGraphics.FillRectangle(&linGrBrush, 0, 200, 800, 150);  
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 200, 800, 150);  
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

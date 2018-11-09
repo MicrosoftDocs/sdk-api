@@ -7,7 +7,7 @@ old-location: winsock\recvfrom_2.htm
 tech.root: winsock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -339,17 +339,21 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>recvfrom</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -374,7 +378,7 @@ int main()
 
     //-----------------------------------------------
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup failed with error %d\n", iResult);
         return 1;
@@ -392,7 +396,7 @@ int main()
     RecvAddr.sin_port = htons(Port);
     RecvAddr.sin_addr.s_addr = htonl(INADDR_ANY);
 
-    iResult = bind(RecvSocket, (SOCKADDR *) & RecvAddr, sizeof (RecvAddr));
+    iResult = bind(RecvSocket, (SOCKADDR *) &amp; RecvAddr, sizeof (RecvAddr));
     if (iResult != 0) {
         wprintf(L"bind failed with error %d\n", WSAGetLastError());
         return 1;
@@ -402,7 +406,7 @@ int main()
     // on the bound socket.
     wprintf(L"Receiving datagrams...\n");
     iResult = recvfrom(RecvSocket,
-                       RecvBuf, BufLen, 0, (SOCKADDR *) & SenderAddr, &SenderAddrSize);
+                       RecvBuf, BufLen, 0, (SOCKADDR *) &amp; SenderAddr, &amp;SenderAddrSize);
     if (iResult == SOCKET_ERROR) {
         wprintf(L"recvfrom failed with error %d\n", WSAGetLastError());
     }
@@ -423,10 +427,10 @@ int main()
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

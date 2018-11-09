@@ -7,7 +7,7 @@ old-location: winsock\recv_2.htm
 tech.root: winsock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "_win32_recv_2, recv, recv function [Winsock], winsock.recv_2, winsock/recv"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -359,13 +359,17 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows the use of the <b>recv</b> function.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define WIN32_LEAN_AND_MEAN
 
-```cpp
-#define WIN32_LEAN_AND_MEAN
-
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -389,7 +393,7 @@ int __cdecl main() {
   
     //----------------------
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
     if (iResult != NO_ERROR) {
       printf("WSAStartup failed: %d\n", iResult);
       return 1;
@@ -413,7 +417,7 @@ int __cdecl main() {
 
     //----------------------
     // Connect to server.
-    iResult = connect( ConnectSocket, (SOCKADDR*) &clientService, sizeof(clientService) );
+    iResult = connect( ConnectSocket, (SOCKADDR*) &amp;clientService, sizeof(clientService) );
     if ( iResult == SOCKET_ERROR) {
         closesocket (ConnectSocket);
         printf("Unable to connect to server: %ld\n", WSAGetLastError());
@@ -445,14 +449,14 @@ int __cdecl main() {
     do {
 
         iResult = recv(ConnectSocket, recvbuf, recvbuflen, 0);
-        if ( iResult > 0 )
+        if ( iResult &gt; 0 )
             printf("Bytes received: %d\n", iResult);
         else if ( iResult == 0 )
             printf("Connection closed\n");
         else
             printf("recv failed: %d\n", WSAGetLastError());
 
-    } while( iResult > 0 );
+    } while( iResult &gt; 0 );
 
     // cleanup
     closesocket(ConnectSocket);
@@ -461,10 +465,10 @@ int __cdecl main() {
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 For more information, and another example of the <b>recv</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 

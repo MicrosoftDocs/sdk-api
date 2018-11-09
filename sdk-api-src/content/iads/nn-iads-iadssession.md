@@ -350,9 +350,13 @@ Sessions are managed by the file service. To obtain session objects, first bind 
 
 The following code example shows how to bind to a session.
 
-
-```vb
-Dim fso as IADsFileServiceOperations
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso as IADsFileServiceOperations
 Dim ss as IADsCollection
 
 On Error GoTo Cleanup
@@ -363,13 +367,13 @@ Set ss = fso.Sessions
 ' Insert code to access session data.
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set fso = Nothing
-    Set ss = Nothing
-```
-
-
+    Set ss = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 

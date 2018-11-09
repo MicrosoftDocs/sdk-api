@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_devicestatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1dwz.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: Aborting, Answered, Available, Bad Address, Busy, Call Blacklisted, Call Delayed, Completed, DeviceStatus property [Fax Service], DeviceStatus property [Fax Service],IFaxJob interface, Dialing, Disconnected, Fatal Error, Handled, IFaxJob interface [Fax Service],DeviceStatus property, IFaxJob.DeviceStatus, IFaxJob.get_DeviceStatus, IFaxJob::DeviceStatus, IFaxJob::get_DeviceStatus, Initializing, No Answer, No Dial Tone, Not a Fax Call, Offline, Receiving, Ringing, Routing, Sending, Unavailable, _mfax_ifaxjob_get_devicestatus, fax._mfax_ifaxjob_get_devicestatus, fax._mfax_ifaxjob_mfax_ifaxjob_get_devicestatus_cpp, faxcom/IFaxJob::DeviceStatus, faxcom/IFaxJob::get_DeviceStatus, get_DeviceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

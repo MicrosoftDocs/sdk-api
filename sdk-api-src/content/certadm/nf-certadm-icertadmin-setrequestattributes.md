@@ -7,7 +7,7 @@ old-location: security\icertadmin2_setrequestattributes.htm
 tech.root: seccrypto
 ms.assetid: 309c53f9-50cf-4c50-bc48-a4f15a8ced18
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin interface [Security],SetRequestAttributes method, ICertAdmin interface [Security],SetRequestAttributes method, ICertAdmin.SetRequestAttributes, ICertAdmin2 interface [Security],SetRequestAttributes method, ICertAdmin2::SetRequestAttributes, ICertAdmin::SetRequestAttributes, SetRequestAttributes, SetRequestAttributes method [Security], SetRequestAttributes method [Security],CCertAdmin interface, SetRequestAttributes method [Security],ICertAdmin interface, SetRequestAttributes method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetRequestAttributes, certadm/ICertAdmin::SetRequestAttributes, security.icertadmin2_setrequestattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,22 +140,26 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-
-```cpp
-    BSTR bstrAttribs = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    BSTR bstrAttribs = NULL;
     BSTR bstrCA = NULL;
     long nReqID;  // request ID
 
     //  Specify the attributes.
     //  For example, "AttName1:AttValue1\nAttName2:AttValue2". 
-    bstrAttribs = SysAllocString(L"<ATTRIBUTESHERE>");
+    bstrAttribs = SysAllocString(L"&lt;ATTRIBUTESHERE&gt;");
     if (NULL == bstrAttribs)
     {
         printf("Memory allocation failed for bstrAttribs.\n");
         goto error;
     }
     
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed for bstrCA.\n");
@@ -163,12 +167,12 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     }
 
     //  Request ID to receive the attributes.
-    nReqID = <REQUESTIDHERE>;
+    nReqID = &lt;REQUESTIDHERE&gt;;
 
     //  Add these attributes to the certificate.
     //  pCertAdmin is a previously instantiated
     //  ICertAdmin object pointer. 
-    hr = pCertAdmin->SetRequestAttributes( bstrCA,
+    hr = pCertAdmin-&gt;SetRequestAttributes( bstrCA,
                                            nReqID,
                                            bstrAttribs );
     if (FAILED(hr))
@@ -184,10 +188,10 @@ error:
         SysFreeString(bstrAttribs);
     if (bstrCA)
         SysFreeString(bstrCA);
-    //  Free other resources.
-```
-
-
+    //  Free other resources.</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

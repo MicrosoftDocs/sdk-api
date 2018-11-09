@@ -7,7 +7,7 @@ old-location: gdi\rgbtriple.htm
 tech.root: gdi
 ms.assetid: bc1467a5-0027-4f22-bfc9-1deab562c573
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE structure [Windows GDI], _win32_RGBTRIPLE_str, gdi.rgbtriple, tagRGBTRIPLE, wingdi/RGBTRIPLE"
 ms.prod: windows
 ms.technology: windows-sdk

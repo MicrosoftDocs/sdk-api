@@ -7,7 +7,7 @@ old-location: controls\GetThemeAppProperties.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,14 +127,18 @@ Do not call this function during <a href="https://msdn.microsoft.com/0c3e3083-92
 
 The example extracts a single flag's state from the function result.
 
-
-```cpp
-DWORD resultFlags = GetThemeAppProperties();
-bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD resultFlags = GetThemeAppProperties();
+bool ctrlsAreThemed = ((resultFlags &amp; STAP_ALLOW_CONTROLS) != 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

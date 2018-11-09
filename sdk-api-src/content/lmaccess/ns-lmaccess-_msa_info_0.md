@@ -7,7 +7,7 @@ old-location: security\msa_info_0.htm
 tech.root: secmgmt
 ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Security], PMSA_INFO_0, PMSA_INFO_0 structure pointer [Security], _MSA_INFO_0, lmaccess/MSA_INFO_0, lmaccess/PMSA_INFO_0, security.msa_info_0"
 ms.prod: windows
 ms.technology: windows-sdk

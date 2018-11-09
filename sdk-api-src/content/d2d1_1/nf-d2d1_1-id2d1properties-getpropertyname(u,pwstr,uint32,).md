@@ -79,7 +79,7 @@ Type: <b>UINT32</b>
 The number of characters in the <i>name</i> buffer.
 
 
-### -param arg1
+### -param arg4
 
 TBD
 

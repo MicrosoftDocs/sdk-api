@@ -2,7 +2,7 @@
 UID: NA:rometadataapi
 ms.assetid: 90739179-8f2e-3d8d-9d7f-ecad767183cf
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

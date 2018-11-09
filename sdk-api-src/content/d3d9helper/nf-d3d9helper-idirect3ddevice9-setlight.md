@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setlight.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Zero-based index of the set of lighting properties to set. If a set of lighting properties exists at this index, it is overwritten by the new properties specified in pLight. 
 
 
-### -param arg1 [in]
+### -param arg2 [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172566(v=VS.85).aspx">D3DLIGHT9</a>*</b>
 
@@ -96,15 +96,19 @@ The system allocates memory to accommodate a set of lighting properties each tim
 
 The following example prepares and sets properties for a white point-light whose emitted light will not attenuate over distance.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 // Assume d3dDevice is a valid pointer to an IDirect3DDevice9 interface.
 D3DLIGHT9 d3dLight;
 HRESULT   hr;
     
 // Initialize the structure.
-ZeroMemory(&d3dLight, sizeof(d3dLight));
+ZeroMemory(&amp;d3dLight, sizeof(d3dLight));
     
 // Set up a white point light.
 d3dLight.Type = D3DLIGHT_POINT;
@@ -132,15 +136,15 @@ d3dLight.Attenuation0 = 1.0f;
 d3dLight.Range        = 1000.0f;
     
 // Set the property information for the first light.
-hr = d3dDevice->SetLight(0, &d3dLight);
+hr = d3dDevice-&gt;SetLight(0, &amp;d3dLight);
 if (SUCCEEDED(hr))
     // Handle Success
 else
     // Handle failure
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Enable a light source by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a> method for the device.
 
 

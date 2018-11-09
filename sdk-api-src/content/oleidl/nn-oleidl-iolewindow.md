@@ -7,7 +7,7 @@ old-location: com\iolewindow.htm
 tech.root: com
 ms.assetid: 2d0efbae-4a1c-43b1-9021-8d89377f7282
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
 ms.prod: windows
 ms.technology: windows-sdk

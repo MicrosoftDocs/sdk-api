@@ -7,7 +7,7 @@ old-location: winsock\wsaaccept_2.htm
 tech.root: winsock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -300,9 +300,13 @@ The <i>addr</i> parameter is a result parameter that is filled in with the addre
 
 A prototype of the condition function is defined in the Winsock2.h header file as the <b>LPCONDITIONPROC</b> as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 int CALLBACK ConditionFunc(
   IN LPWSABUF lpCallerId,
   IN LPWSABUF lpCallerData,
@@ -313,10 +317,10 @@ int CALLBACK ConditionFunc(
   OUT GROUP FAR *g,
   IN DWORD_PTR dwCallbackData
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>ConditionFunc</b> is a placeholder for the application-specified callback function. The actual condition function must reside in a DLL or application module. It is exported in the module definition file.
 
 The <i>lpCallerId</i> parameter points to a WSABUF structure that contains the address of the connecting entity, where its <i>len</i> parameter is the length of the buffer in bytes, and its <i>buf</i> parameter is a pointer to the buffer. The <i>lpCallerData</i> is a value parameter that contains any user data. The information in these parameters is sent along with the connection request. If no caller identification or caller data is available, the corresponding parameters will be <b>NULL</b>. Many network protocols do not support connect-time caller data. Most conventional network protocols can be expected to support caller identifier information at connection-request time. The buf portion of the 
@@ -359,11 +363,15 @@ The <i>dwCallbackData</i> parameter value passed to the condition function is th
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSAAccept</b> function.
 
-
-```cpp
-#include <winsock2.h>
-#include <stdio.h>
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 
 /* Define an example conditional function that depends on the pQos field */
 int CALLBACK ConditionAcceptFunc(
@@ -399,7 +407,7 @@ int main() {
     int error;
 
     /* Initialize Winsock */
-    error = WSAStartup(MAKEWORD(2,2), &wsaData);
+    error = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
     if (error) {
         printf("WSAStartup() failed with error: %d\n", error);
         return 1;
@@ -421,13 +429,13 @@ int main() {
     service.sin_port = htons(port);
     hostent* thisHost;
     thisHost = gethostbyname("");
-    ip = inet_ntoa (*(struct in_addr *)*thisHost->h_addr_list);
+    ip = inet_ntoa (*(struct in_addr *)*thisHost-&gt;h_addr_list);
     service.sin_addr.s_addr = inet_addr(ip);
 
     /*-----------------------------------------
      *  Bind the listening socket to the IP address.
      */ and port number specified by the sockaddr structure.
-    error = bind(ListenSocket, (SOCKADDR *) &service, sizeof(SOCKADDR));
+    error = bind(ListenSocket, (SOCKADDR *) &amp;service, sizeof(SOCKADDR));
     if (error == SOCKET_ERROR) {  
         printf("bind() failed with error: %d\n", WSAGetLastError() );
         closesocket(ListenSocket);
@@ -451,8 +459,8 @@ int main() {
      *  Accept an incoming connnection request on the
      *  listening socket and transfer control to the 
      */ accepting socket.
-    AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &saClient, &iClientSize, 
-        &ConditionAcceptFunc, NULL);
+    AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &amp;saClient, &amp;iClientSize, 
+        &amp;ConditionAcceptFunc, NULL);
  
     /*  Now do some work with the AcceptSocket 
      *  At this point, the application could
@@ -467,10 +475,10 @@ int main() {
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

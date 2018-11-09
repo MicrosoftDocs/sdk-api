@@ -7,7 +7,7 @@ old-location: winrt\iweakreference_resolve.htm
 tech.root: WinRT
 ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(T,), IWeakReference::Resolve, IWeakReference::Resolve(T,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846
 The strong reference to the specified object.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

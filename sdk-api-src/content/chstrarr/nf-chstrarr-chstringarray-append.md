@@ -90,9 +90,13 @@ If necessary,  <b>Append</b> can allocate extra memory to accommodate the elemen
 
 The following code example shows the use of <b>CHStringArray::Append</b>.
 
-
-```cpp
-CHStringArray myArray1, myArray2;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHStringArray myArray1, myArray2;
 int idx, size;
 
 // Add elements to the second array.
@@ -104,11 +108,11 @@ myArray1.Add( L"String 1" );
 myArray1.Append( myArray2 );
 
 size = myArray1.GetSize();
-for (idx=0; idx<size; idx++)
-   printf("[%d]: %S\n", idx, myArray1[idx]);
-```
-
-
+for (idx=0; idx&lt;size; idx++)
+   printf("[%d]: %S\n", idx, myArray1[idx]);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

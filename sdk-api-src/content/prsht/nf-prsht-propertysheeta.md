@@ -7,7 +7,7 @@ old-location: controls\PropertySheet.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW
 ms.prod: windows-hardware
 ms.technology: windows-devices

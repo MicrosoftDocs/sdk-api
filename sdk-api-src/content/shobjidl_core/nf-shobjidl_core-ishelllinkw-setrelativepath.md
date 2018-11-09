@@ -7,7 +7,7 @@ old-location: shell\IShellLink_SetRelativePath.htm
 tech.root: shell
 ms.assetid: f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IShellLink interface [Windows Shell],SetRelativePath method, IShellLink::SetRelativePath, IShellLinkA interface [Windows Shell],SetRelativePath method, IShellLinkA::SetRelativePath, IShellLinkW interface [Windows Shell],SetRelativePath method, IShellLinkW.SetRelativePath, IShellLinkW::SetRelativePath, SetRelativePath, SetRelativePath method [Windows Shell], SetRelativePath method [Windows Shell],IShellLink interface, SetRelativePath method [Windows Shell],IShellLinkA interface, SetRelativePath method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetRelativePath, shell.IShellLink_SetRelativePath, shobjidl_core/IShellLink::SetRelativePath, shobjidl_core/IShellLinkA::SetRelativePath, shobjidl_core/IShellLinkW::SetRelativePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,30 +105,22 @@ Consider the following scenario:
 </ul>
 You can assist the resolution process by creating the original link with a relative path before the shortcut is saved.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>::SetRelativePath("c:\MyLink.lnk", NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+::SetRelativePath("c:\MyLink.lnk", NULL);
+
+```
+
+
 Before the shortcut is resolved, set a new relative path, and the Resolve code will find the file in its new location.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>::SetRelativePath("d:\MyLink.lnk", NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+::SetRelativePath("d:\MyLink.lnk", NULL);
+
+```
+
+
 
 
 

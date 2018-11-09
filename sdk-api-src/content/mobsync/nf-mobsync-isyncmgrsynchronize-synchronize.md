@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_synchronize.htm
 tech.root: shell
 ms.assetid: 78c202dd-9f8c-43c1-a7be-48030bc34a9c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Synchronize method, ISyncMgrSynchronize.Synchronize, ISyncMgrSynchronize::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Synchronize, shell.syncmgr_isyncmgrsynchronize_synchronize, syncmgr.isyncmgrsynchronize_synchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices

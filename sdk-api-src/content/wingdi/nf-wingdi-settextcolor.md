@@ -7,7 +7,7 @@ old-location: gdi\settextcolor.htm
 tech.root: gdi
 ms.assetid: 3875a247-7c32-4917-bf6d-50b2a49848a6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetTextColor, SetTextColor function [Windows GDI], _win32_SetTextColor, gdi.settextcolor, wingdi/SetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

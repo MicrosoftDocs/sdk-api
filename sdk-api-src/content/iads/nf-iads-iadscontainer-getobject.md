@@ -115,36 +115,48 @@ The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</
 
 The following code example  retrieves a user object from a container object.
 
-
-```vb
-Dim cont As IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim cont As IADsContainer
 Dim usr As IADsUser
 Set cont = GetObject("LDAP://OU=Sales,DC=Fabrikam,DC=com")
-Set usr = cont.GetObject("user", "CN=jeffsmith")
-```
-
-
+Set usr = cont.GetObject("user", "CN=jeffsmith")</pre>
+</td>
+</tr>
+</table></span></div>
 This is equivalent to:
 
-
-```vb
-Dim usr As IADsUser
-Set usr=GetObject("LDAP://CN=jeffsmith,OU=Sales,DC=Fabrikam,DC=com")
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim usr As IADsUser
+Set usr=GetObject("LDAP://CN=jeffsmith,OU=Sales,DC=Fabrikam,DC=com")</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example retrieves a user object from a container object.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 CoInitialize(NULL);
  
 IADsContainer *pCont = NULL;
  
 hr = ADsGetObject(L"LDAP://DC=windows2000,DC=mytest,DC=fabrikam,DC=com",
             IID_IADsContainer, 
-            (void**) &pCont );
+            (void**) &amp;pCont );
 
 if(FAILED(hr))
 {
@@ -157,37 +169,37 @@ if(FAILED(hr))
 ///////////////////////////////////////////////////////////////////////
 IDispatch *pDisp = NULL;
 IADs *pADs = NULL;
-hr = pCont->GetObject(CComBSTR("user"), CComBSTR("CN=Jeff Smith,OU=DSys"), &pDisp);
-pCont->Release();
+hr = pCont-&gt;GetObject(CComBSTR("user"), CComBSTR("CN=Jeff Smith,OU=DSys"), &amp;pDisp);
+pCont-&gt;Release();
 if(FAILED(hr))
 {
     goto Cleanup;
 }
  
-hr = pDisp->QueryInterface(IID_IADs, (void**)&pADs);
-pDisp->Release(); 
+hr = pDisp-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
+pDisp-&gt;Release(); 
 if(FAILED(hr))
 {
     goto Cleanup;
 }
  
 // Perform an operation with pADs.
-pADs->Release();
+pADs-&gt;Release();
  
 Cleanup:
 if(pCont)
-    pCont->Release();
+    pCont-&gt;Release();
 
 if(pDisp)
-    pDisp->Release();
+    pDisp-&gt;Release();
 
 if(pADs)
-    pADs->Release();
+    pADs-&gt;Release();
 
-CoUninitialize();
-```
-
-
+CoUninitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

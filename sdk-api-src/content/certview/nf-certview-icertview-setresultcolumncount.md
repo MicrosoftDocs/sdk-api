@@ -7,7 +7,7 @@ old-location: security\icertview2_setresultcolumncount.htm
 tech.root: seccrypto
 ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertView object [Security],SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetResultColumnCount method, ICertView.SetResultColumnCount, ICertView2 interface [Security],SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security],CCertView object, SetResultColumnCount method [Security],ICertView interface, SetResultColumnCount method [Security],ICertView2 interface, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,22 +128,26 @@ If the <i>cResultColumn</i> parameter is set to a positive number (not one of th
 
 #### Examples
 
-
-```cpp
-HRESULT    hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT    hr;
 // Specify the result set for logged requests.
 // pCertView is pointer to ICertView (which has an Open Connection)
-hr = pCertView->SetResultColumnCount(CV_COLUMN_LOG_DEFAULT);
+hr = pCertView-&gt;SetResultColumnCount(CV_COLUMN_LOG_DEFAULT);
 if (S_OK != hr)
     printf("Failed ICertView::SetResultColumnCount - %x\n", hr);
 else
 {
     // Retrieve data rows by means of ICertView::OpenView.
     // ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

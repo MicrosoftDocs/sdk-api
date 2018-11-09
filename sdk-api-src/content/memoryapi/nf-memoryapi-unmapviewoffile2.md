@@ -7,8 +7,8 @@ old-location: base\unmapviewoffile2.htm
 tech.root: memory
 ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
-ms.keywords: UnmapViewOfFile2, UnmapViewOfFile2 function, base.unmapviewoffile2, winbase/UnmapViewOfFile2
+ms.date: 11/08/2018
+ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFile2, UnmapViewOfFile2 function, base.unmapviewoffile2, winbase/UnmapViewOfFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,38 @@ The base address of a previously mapped
 
 ### -param UnmapFlags [in]
 
-<b>MEM_UNMAP_WITH_TRANSIENT_BOOST</b> or zero (0).
+This parameter can be zero (0) or one of the following values.
 
-<b>MEM_UNMAP_WITH_TRANSIENT_BOOST</b> should be used if the
-                 pages backing this view should be temporarily boosted
-                 (with automatic short term decay) because another thread
-                 will access them shortly.
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_UNMAP_WITH_TRANSIENT_BOOST"></a><a id="mem_unmap_with_transient_boost"></a><dl>
+<dt><b>MEM_UNMAP_WITH_TRANSIENT_BOOST</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies that the priority of the pages being unmapped should be temporarily boosted
+                 (with automatic short term decay) because the caller expects that these pages will be accessed again shortly from another thread. For more information about memory priorities, see the <a href="https://msdn.microsoft.com/c0159bea-870a-46b7-a350-91fe52efae49">SetThreadInformation(ThreadMemoryPriority)</a> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_PRESERVE_PLACEHOLDER"></a><a id="mem_preserve_placeholder"></a><dl>
+<dt><b>MEM_PRESERVE_PLACEHOLDER</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a> or <a href="base.mapviewoffile2fromapp">MapViewOfFile2FromApp</a>).
+
+</td>
+</tr>
+</table>
+ 
 
 
 #### - ProcessHandle [in]

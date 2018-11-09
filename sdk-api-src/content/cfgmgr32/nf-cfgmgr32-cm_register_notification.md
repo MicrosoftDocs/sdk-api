@@ -7,7 +7,7 @@ old-location: devinst\cm_register_notification.htm
 tech.root: devinst
 ms.assetid: 15847F9C-9F2A-453F-9EF8-0AF63CFF93C9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Register_Notification, CM_Register_Notification function [Device and Driver Installation], cfgmgr32/CM_Register_Notification, devinst.cm_register_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices

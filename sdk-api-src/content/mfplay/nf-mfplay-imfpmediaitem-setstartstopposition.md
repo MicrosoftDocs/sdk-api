@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_setstartstopposition.htm
 tech.root: medfound
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStartStopPosition method, IMFPMediaItem.SetStartStopPosition, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,9 +173,13 @@ The adjusted start and stop times are used the next time that <a href="https://m
 
 #### Examples
 
-
-```cpp
-HRESULT PlayMediaClip(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT PlayMediaClip(
     IMFPMediaPlayer *pPlayer,
     PCWSTR pszURL,
     LONGLONG    hnsStart,
@@ -187,56 +191,56 @@ HRESULT PlayMediaClip(
 
     ULONGLONG hnsDuration = 0;
 
-    HRESULT hr = pPlayer->CreateMediaItemFromURL(pszURL, TRUE, 0, &pItem);
+    HRESULT hr = pPlayer-&gt;CreateMediaItemFromURL(pszURL, TRUE, 0, &amp;pItem);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = GetPlaybackDuration(pItem, &hnsDuration);
+    hr = GetPlaybackDuration(pItem, &amp;hnsDuration);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    if ((ULONGLONG)hnsEnd > hnsDuration)
+    if ((ULONGLONG)hnsEnd &gt; hnsDuration)
     {
         hnsEnd = hnsDuration;
     }
 
-    hr = InitPropVariantFromInt64(hnsStart, &varStart);
+    hr = InitPropVariantFromInt64(hnsStart, &amp;varStart);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = InitPropVariantFromInt64(hnsEnd, &varEnd);
+    hr = InitPropVariantFromInt64(hnsEnd, &amp;varEnd);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pItem->SetStartStopPosition(
-        &MFP_POSITIONTYPE_100NS,
-        &varStart,
-        &MFP_POSITIONTYPE_100NS,
-        &varEnd
+    hr = pItem-&gt;SetStartStopPosition(
+        &amp;MFP_POSITIONTYPE_100NS,
+        &amp;varStart,
+        &amp;MFP_POSITIONTYPE_100NS,
+        &amp;varEnd
         );
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pPlayer->SetMediaItem(pItem);
+    hr = pPlayer-&gt;SetMediaItem(pItem);
 
 done:
-    SafeRelease(&pItem);
+    SafeRelease(&amp;pItem);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

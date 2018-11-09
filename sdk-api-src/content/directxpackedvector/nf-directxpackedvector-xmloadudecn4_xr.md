@@ -7,7 +7,7 @@ old-location: dxmath\_xmloadudecn4_xr.htm
 tech.root: dxmath
 ms.assetid: C67EEA1C-C416-4E8F-A0D9-F061EF1CD119
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDecN4_XR, XMLoadUDecN4_XR, XMLoadUDecN4_XR method [DirectX Math Support APIs], dxmath._xmloadudecn4_xr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,24 +78,28 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR vectorOut;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR vectorOut;
 
 int32_t Element;
 
-Element = pSource->v & 0x3FF;
+Element = pSource-&gt;v &amp; 0x3FF;
 vectorOut.x = (float)(Element - 0x180) / 510.f;
-Element = (pSource->v >> 10) & 0x3FF;
+Element = (pSource-&gt;v &gt;&gt; 10) &amp; 0x3FF;
 vectorOut.y = (float)(Element - 0x180) / 510.f;
-Element = (pSource->v >> 20) & 0x3FF;
+Element = (pSource-&gt;v &gt;&gt; 20) &amp; 0x3FF;
 vectorOut.z = (float)(Element - 0x180) / 510.f;
-vectorOut.w = (float)(pSource->v >> 30) / 3.f;
+vectorOut.w = (float)(pSource-&gt;v &gt;&gt; 30) / 3.f;
 
-return vectorOut;
-```
-
-
+return vectorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 For more details on the Extended Range (XR) with Bias conversion, see <a href="https://msdn.microsoft.com/B3014241-A86A-4B6E-BC9D-50057B924D98">XR_BIAS Color Channel Conversion Rules</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

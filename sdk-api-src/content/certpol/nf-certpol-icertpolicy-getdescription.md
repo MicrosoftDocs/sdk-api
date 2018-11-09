@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_getdescription.htm
 tech.root: seccrypto
 ms.assetid: 38b85fa8-f5e7-4ac8-9f38-1cad83417797
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertPolicy object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertPolicy object, GetDescription method [Security],ICertPolicy interface, GetDescription method [Security],ICertPolicy2 interface, ICertPolicy interface [Security],GetDescription method, ICertPolicy.GetDescription, ICertPolicy2 interface [Security],GetDescription method, ICertPolicy2::GetDescription, ICertPolicy::GetDescription, _certsrv_icertpolicy_getdescription, certpol/ICertPolicy2::GetDescription, certpol/ICertPolicy::GetDescription, security.icertpolicy2_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,10 +90,14 @@ When you write custom policy modules, implement this method.
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <Certpol.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Certpol.h&gt;
 
 STDMETHODIMP CCertPolicy::GetDescription(
     /* [out, retval] */ BSTR __RPC_FAR *pstrDescription)
@@ -118,10 +122,10 @@ STDMETHODIMP CCertPolicy::GetDescription(
     }
     // Success
     return( S_OK );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateGlyphRunAnalysis.htm
 tech.root: DirectWrite
 ms.assetid: fcc6fe70-84ef-43ac-82ff-3f09d977220f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory.CreateGlyphRunAnalysis, IDWriteFactory::CreateGlyphRunAnalysis, directwrite.IDWriteFactory_CreateGlyphRunAnalysis, dwrite/IDWriteFactory::CreateGlyphRunAnalysis
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,13 +138,9 @@ The glyph run analysis object contains the results of analyzing the glyph run, i
 
 The following code example shows how to create a glyph run analysis object.  In this example, an empty glyph run is being used. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
+
+```cpp
+HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
 {
     HRESULT hr = S_OK;
     IDWriteFactory* pDWriteFactory = NULL;
@@ -153,14 +149,14 @@ The following code example shows how to create a glyph run analysis object.  In 
     hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
             __uuidof(IDWriteFactory),
-            reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory)
+            reinterpret_cast<IUnknown**>(&pDWriteFactory)
             );
 
     DWRITE_GLYPH_RUN emptyGlyphRun = { 0 };
     UINT16 glyphIndex = 0;
     
     emptyGlyphRun.fontFace = pFontFace;
-    emptyGlyphRun.glyphIndices = &amp;glyphIndex;
+    emptyGlyphRun.glyphIndices = &glyphIndex;
     emptyGlyphRun.glyphCount = 0;
    
     emptyGlyphRun.fontEmSize = 12;
@@ -169,27 +165,27 @@ The following code example shows how to create a glyph run analysis object.  In 
 
     if (SUCCEEDED(hr))
     {
-        hr = pDWriteFactory-&gt;CreateGlyphRunAnalysis(
-            &amp;emptyGlyphRun,
+        hr = pDWriteFactory->CreateGlyphRunAnalysis(
+            &emptyGlyphRun,
             1.0f, // pixelsPerDip,
             NULL, // transform,
             DWRITE_RENDERING_MODE_CLEARTYPE_GDI_CLASSIC,
             DWRITE_MEASURING_MODE_GDI_CLASSIC,
             0.0f, // baselineOriginX,
             0.0f, // baselineOriginY,
-            &amp;pGlyphRunAnalysis);
+            &pGlyphRunAnalysis);
     }
     
     *ppGlyphRunAnalysis = pGlyphRunAnalysis;
 
-    SafeRelease(&amp;pDWriteFactory);
+    SafeRelease(&pDWriteFactory);
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

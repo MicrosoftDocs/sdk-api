@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_checktextlimit.htm
 tech.root: controls
 ms.assetid: 2c3aae14-8fa4-47bf-93ae-1d34333f0356
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CheckTextLimit, CheckTextLimit method [Windows Controls], CheckTextLimit method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],CheckTextLimit method, ITextDocument2.CheckTextLimit, ITextDocument2::CheckTextLimit, controls.itextdocument2_checktextlimit, tom/ITextDocument2::CheckTextLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

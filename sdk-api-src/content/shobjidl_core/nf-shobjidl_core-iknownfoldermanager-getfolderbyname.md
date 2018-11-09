@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager_GetFolderByName.htm
 tech.root: shell
 ms.assetid: cfabc06c-825d-488d-919e-4cd9109eae52
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetFolderByName, GetFolderByName method [Windows Shell], GetFolderByName method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderByName method, IKnownFolderManager.GetFolderByName, IKnownFolderManager::GetFolderByName, _shell_IKnownFolderManager_GetFolderByName, shell.IKnownFolderManager_GetFolderByName, shobjidl_core/IKnownFolderManager::GetFolderByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

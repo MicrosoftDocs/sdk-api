@@ -7,7 +7,7 @@ old-location: dwm\dwmenableblurbehindwindow.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenableblurbehindwindow.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DwmEnableBlurBehindWindow, DwmEnableBlurBehindWindow function [Desktop Window Manager], _udwm_dwmenableblurbehindwindow, _udwm_dwmenableblurbehindwindow_cpp, dwm.dwmenableblurbehindwindow, dwmapi/DwmEnableBlurBehindWindow, winui._udwm_dwmenableblurbehindwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,9 +97,13 @@ This function must be called whenver Desktop Window Manager (DWM) composition is
 
 The following example demonstrates how to apply the blur behind the entire window.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT EnableBlurBehind(HWND hwnd)
 {
    HRESULT hr = S_OK;
@@ -113,16 +117,16 @@ HRESULT EnableBlurBehind(HWND hwnd)
    bb.hRgnBlur = NULL;
 
    // Apply Blur Behind
-   hr = DwmEnableBlurBehindWindow(hwnd, &bb);
+   hr = DwmEnableBlurBehindWindow(hwnd, &amp;bb);
    if (SUCCEEDED(hr))
    {
       // ...
    }
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -315,14 +315,18 @@ If 503 is specified for the <i>level</i> parameter, the remote server specified 
 The following code sample demonstrates how to set the comment associated with a shared resource using a call to the 
 <b>NetShareSetInfo</b> function. To do this, the sample specifies information level 1004 (<a href="https://msdn.microsoft.com/41749066-d0e2-4a6b-aea5-216af9a530f4">SHARE_INFO_1004</a>).
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain( int argc, TCHAR *argv[ ])
@@ -331,7 +335,7 @@ void wmain( int argc, TCHAR *argv[ ])
    NET_API_STATUS res;
    DWORD parm_err = 0;
 
-   if(argc<4)
+   if(argc&lt;4)
       printf("Usage: SetInfo server share \"remark\"\n");
    else
    {
@@ -343,7 +347,7 @@ void wmain( int argc, TCHAR *argv[ ])
       // Call the NetShareSetInfo function,
       //  specifying information level 1004.
       //
-      res=NetShareSetInfo(argv[1], argv[2], 1004, (LPBYTE)&p, &parm_err);
+      res=NetShareSetInfo(argv[1], argv[2], 1004, (LPBYTE)&amp;p, &amp;parm_err);
       //
       // Display the result of the call.
       //
@@ -354,10 +358,10 @@ void wmain( int argc, TCHAR *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\c_assert.htm
 tech.root: debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 11/02/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,25 +69,33 @@ An expression that can be determined at compile time.
 
 The <b>C_ASSERT</b> macro is defined as follows.
 
-
-```cpp
-#define C_ASSERT(e) typedef char __C_ASSERT__[(e)?1:-1]
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define C_ASSERT(e) typedef char __C_ASSERT__[(e)?1:-1]</pre>
+</td>
+</tr>
+</table></span></div>
 The following examples demonstrate common types of compile-time assertions.
 
-
-```cpp
-C_ASSERT (BUFFER_CCH_SIZE <= MAX_PATH);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>C_ASSERT (BUFFER_CCH_SIZE &lt;= MAX_PATH);
 
 C_ASSERT (ARRAYSIZE(array1) == ARRAYSIZE(array2));
 
 C_ASSERT (FIELD_OFFSET(STRUCT_DEF, MemberName) == 0x1d4);
 
-C_ASSERT (sizeof(BOOLEAN) == sizeof(UCHAR));
-```
-
-
+C_ASSERT (sizeof(BOOLEAN) == sizeof(UCHAR));</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontdownloadqueue_begindownload.htm
 tech.root: DirectWrite
 ms.assetid: 1e3b200c-0190-f600-1cb6-4e2a46f882b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],BeginDownload method, IDWriteFontDownloadQueue.BeginDownload, IDWriteFontDownloadQueue::BeginDownload, directwrite.idwritefontdownloadqueue_begindownload, dwrite_3/IDWriteFontDownloadQueue::BeginDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices

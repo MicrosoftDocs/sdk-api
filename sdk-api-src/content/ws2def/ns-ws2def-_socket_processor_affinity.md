@@ -7,7 +7,7 @@ old-location: winsock\socket_processor_affinity.htm
 tech.root: winsock
 ms.assetid: CB1E9F79-C6BD-40C2-8D0F-36B24B1BBBF4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY structure pointer [Winsock], SOCKET_PROCESSOR_AFFINITY, SOCKET_PROCESSOR_AFFINITY structure [Winsock], _SOCKET_PROCESSOR_AFFINITY, winsock.socket_processor_affinity, ws2def/PSOCKET_PROCESSOR_AFFINITY, ws2def/SOCKET_PROCESSOR_AFFINITY"
 ms.prod: windows
 ms.technology: windows-sdk

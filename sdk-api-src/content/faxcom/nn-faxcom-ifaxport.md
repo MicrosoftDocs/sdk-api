@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_21ys.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxPort, IFaxPort interface [Fax Service], IFaxPort interface [Fax Service],described, _mfax_ifaxport, fax._mfax_ifaxport, faxcom/IFaxPort
 ms.prod: windows
 ms.technology: windows-sdk

@@ -141,7 +141,7 @@ A pointer to the returned <b>AUTHZ_AUDIT_EVENT_HANDLE</b> handle.
 Must be set to zero.
 
 
-### -param arg1
+### -param arg10
 
 TBD
 

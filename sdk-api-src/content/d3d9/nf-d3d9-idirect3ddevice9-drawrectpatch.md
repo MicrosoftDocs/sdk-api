@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__drawrectpatch.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawrectpatch.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 9f04b48b-012e-3487-432e-10ce6b33782a, DrawRectPatch, DrawRectPatch method [Direct3D 9], DrawRectPatch method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawRectPatch method, IDirect3DDevice9.DrawRectPatch, IDirect3DDevice9::DrawRectPatch, d3d9helper/IDirect3DDevice9::DrawRectPatch, direct3d9.idirect3ddevice9__drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

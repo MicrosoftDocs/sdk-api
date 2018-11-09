@@ -444,9 +444,13 @@ File service is a special case of the system service. The  <a href="https://msdn
 
 To identify services available on a host computer, first bind to the computer and then enumerate the services available on that computer. The following code example shows  how to do this.
 
-
-```vb
-Public Sub ListServicesOnComputer(ComputerName As String)
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Public Sub ListServicesOnComputer(ComputerName As String)
     Dim comp As IADsComputer
     Dim srvc As IADsServiceOperations
     
@@ -461,14 +465,14 @@ Public Sub ListServicesOnComputer(ComputerName As String)
     Next
     
 Cleanup:
-    If (Err.Number <> 0) Then
-        MsgBox (Err.Description & vbLf & vbLf & " Error number = " & Err.Number)
+    If (Err.Number &lt;&gt; 0) Then
+        MsgBox (Err.Description &amp; vbLf &amp; vbLf &amp; " Error number = " &amp; Err.Number)
     End If
     Set comp = Nothing
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

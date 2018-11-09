@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
 tech.root: tapi
 ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],get_IPPhonePrimary method, ITDirectoryObjectUser.get_IPPhonePrimary, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary
 ms.prod: windows-hardware
 ms.technology: windows-devices

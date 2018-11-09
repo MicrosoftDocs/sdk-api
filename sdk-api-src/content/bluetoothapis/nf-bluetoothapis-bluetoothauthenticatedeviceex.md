@@ -153,9 +153,13 @@ For all other types of  authentication, the caller should register an authentica
 
 In the following example code a device has been found and an authentication request is  sent using <b>BluetoothAuthenticateDeviceEx</b>. 
 
-
-```cpp
-PBLUETOOTH_DEVICE_INFO pDeviceInfo; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PBLUETOOTH_DEVICE_INFO pDeviceInfo; 
 HRESULT status;
 HANDLE hEvent = NULL;
 
@@ -188,10 +192,10 @@ HRESULT WINAPI AuthenticateService(){
 	}
 
       return status;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

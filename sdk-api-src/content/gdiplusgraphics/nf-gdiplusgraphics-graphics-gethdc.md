@@ -101,26 +101,30 @@ The following function uses GDI+ to draw an ellipse, then uses GDI to draw a rec
 						<b>Graphics</b> object and then uses the 
 						<b>Graphics</b> object to draw a line.
 
-
-```cpp
-VOID Example_GetReleaseHDC(Graphics* g)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetReleaseHDC(Graphics* g)
 {
    Pen pen(Color(255, 0, 0, 255));
-   g->DrawEllipse(&pen, 10, 10, 100, 50);  // GDI+
+   g-&gt;DrawEllipse(&amp;pen, 10, 10, 100, 50);  // GDI+
    
-   HDC hdc = g->GetHDC();
+   HDC hdc = g-&gt;GetHDC();
    
       // Make GDI calls, but don't call any methods
       // on g until after the call to ReleaseHDC.
       Rectangle(hdc, 120, 10, 220, 60);  // GDI  
-   g->ReleaseHDC(hdc);
+   g-&gt;ReleaseHDC(hdc);
    
    // Ok to call methods on g again.
-   g->DrawLine(&pen, 240, 10, 340, 60);  
-}
-```
-
-
+   g-&gt;DrawLine(&amp;pen, 240, 10, 340, 60);  
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

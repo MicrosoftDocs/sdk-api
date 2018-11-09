@@ -7,7 +7,7 @@ old-location: automat\varboolfromdisp.htm
 tech.root: automat
 ms.assetid: 72a20066-26ce-4f20-97d6-315e1f183d4b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VarBoolFromDisp, VarBoolFromDisp function [Automation], _oa96_VarBoolFromDisp, automat.varboolfromdisp, oleauto/VarBoolFromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffe
 tech.root: WinAuto
 ms.assetid: 083B9B3C-B4B8-4336-8614-61899FBC5E47
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CachedDropTargetEffect property [Windows Accessibility], CachedDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffect property, IUIAutomationDropTargetPattern.CachedDropTargetEffect, IUIAutomationDropTargetPattern.get_CachedDropTargetEffect, IUIAutomationDropTargetPattern::CachedDropTargetEffect, IUIAutomationDropTargetPattern::get_CachedDropTargetEffect, get_CachedDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

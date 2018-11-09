@@ -7,7 +7,7 @@ old-location: base\interlockedbittestandreset64.htm
 tech.root: sync
 ms.assetid: a0f05333-d391-4596-b4f1-3146b46a6108
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/08/2018
 ms.keywords: InterlockedBitTestAndReset64, InterlockedBitTestAndReset64 function, _interlockedbittestandreset64, base.interlockedbittestandreset64, winnt/InterlockedBitTestAndReset64
 ms.prod: windows-hardware
 ms.technology: windows-devices

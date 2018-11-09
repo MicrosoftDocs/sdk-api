@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation.htm
 tech.root: tapi
 ms.assetid: 359e67bb-9a5b-4caa-8d3b-eb0739b0828f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], IMcastAddressAllocation interface [TAPI 2.2],described, _tapi3_imcastaddressallocation, mdhcp/IMcastAddressAllocation, tapi3.imcastaddressallocation
 ms.prod: windows
 ms.technology: windows-sdk

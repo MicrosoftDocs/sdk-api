@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfamily1_getfontlocality.htm
 tech.root: DirectWrite
 ms.assetid: 9D262E5C-4407-4110-A315-F529B809EDE2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: GetFontLocality, GetFontLocality method [Direct Write], GetFontLocality method [Direct Write],IDWriteFontFamily1 interface, IDWriteFontFamily1 interface [Direct Write],GetFontLocality method, IDWriteFontFamily1.GetFontLocality, IDWriteFontFamily1::GetFontLocality, directwrite.idwritefontfamily1_getfontlocality, dwrite_3/IDWriteFontFamily1::GetFontLocality
 ms.prod: windows-hardware
 ms.technology: windows-devices

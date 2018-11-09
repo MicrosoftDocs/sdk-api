@@ -7,7 +7,7 @@ old-location: dwm\dwmextendframeintoclientarea.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmextendframeintoclientarea.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DwmExtendFrameIntoClientArea, DwmExtendFrameIntoClientArea function [Desktop Window Manager], _udwm_dwmextendframeintoclientarea, _udwm_dwmextendframeintoclientarea_cpp, dwm.dwmextendframeintoclientarea, dwmapi/DwmExtendFrameIntoClientArea, winui._udwm_dwmextendframeintoclientarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,9 +91,13 @@ Use negative margin values to create the "sheet of glass" effect where the clien
 
 The following sample demonstrates how to extend the bottom margin, creating a large bottom frame.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT ExtendIntoClientBottom(HWND hwnd)
 {
    // Set margins, extending the bottom margin
@@ -101,21 +105,25 @@ HRESULT ExtendIntoClientBottom(HWND hwnd)
    HRESULT hr = S_OK;
 
    // Extend frame on the bottom of client area
-   hr = DwmExtendFrameIntoClientArea(hwnd,&margins);
+   hr = DwmExtendFrameIntoClientArea(hwnd,&amp;margins);
    if (SUCCEEDED(hr))
    {
       // ...
    }
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following sample demonstrates the "sheet of glass" effect where the client area is rendered without a window border.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT ExtendIntoClientAll(HWND hwnd)
 {
    // Negative margins have special meaning to DwmExtendFrameIntoClientArea.
@@ -125,16 +133,16 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
    HRESULT hr = S_OK;
 
    // Extend the frame across the entire window.
-   hr = DwmExtendFrameIntoClientArea(hwnd,&margins);
+   hr = DwmExtendFrameIntoClientArea(hwnd,&amp;margins);
    if (SUCCEEDED(hr))
    {
       // ...
    }
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

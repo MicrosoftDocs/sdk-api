@@ -7,7 +7,7 @@ old-location: shell\DAD_AutoScroll.htm
 tech.root: shell
 ms.assetid: 3c5af682-8497-477e-8222-3eb37d1e295f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_AutoScroll, shell_DAD_AutoScroll, shlobj_core/DAD_AutoScroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

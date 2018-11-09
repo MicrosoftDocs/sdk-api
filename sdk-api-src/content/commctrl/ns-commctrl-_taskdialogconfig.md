@@ -7,7 +7,7 @@ old-location: controls\TASKDIALOGCONFIG.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialogconfig.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TASKDIALOGCONFIG, TASKDIALOGCONFIG structure [Windows Controls], TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TDF_ALLOW_DIALOG_CANCELLATION, TDF_CALLBACK_TIMER, TDF_CAN_BE_MINIMIZED, TDF_ENABLE_HYPERLINKS, TDF_EXPANDED_BY_DEFAULT, TDF_EXPAND_FOOTER_AREA, TDF_NO_DEFAULT_RADIO_BUTTON, TDF_POSITION_RELATIVE_TO_WINDOW, TDF_RTL_LAYOUT, TDF_SHOW_MARQUEE_PROGRESS_BAR, TDF_SHOW_PROGRESS_BAR, TDF_SIZE_TO_CONTENT, TDF_USE_COMMAND_LINKS, TDF_USE_COMMAND_LINKS_NO_ICON, TDF_USE_HICON_FOOTER, TDF_USE_HICON_MAIN, TDF_VERIFICATION_FLAG_CHECKED, TDIF_SIZE_TO_CONTENT, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, _TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG_cpp, commctrl/TASKDIALOGCONFIG, controls.TASKDIALOGCONFIG, controls._shell_TASKDIALOGCONFIG
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,12 +100,16 @@ Specifies the behavior of the task dialog. This parameter can be a combination o
 Enables hyperlink processing for the strings specified in the <b>pszContent</b>, <b>pszExpandedInformation</b> and <b>pszFooter</b> members. When enabled, these members may point to strings that contain hyperlinks in the following form:
 
 
-
-```
-<A HREF="executablestring">Hyperlink Text</A>
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>&lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Warning: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</b>
 
 <div class="alert"><b>Note</b>  Task Dialogs will not actually execute any hyperlinks. Hyperlink execution must be handled in the callback function specified by <b>pfCallback</b>. For more details, see <a href="https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx">TaskDialogCallbackProc</a>.</div>
@@ -577,12 +581,16 @@ Pointer to the string to be used in the footer area of the task dialog. This par
 
 
 
-
-```
-<A HREF="executablestring">Hyperlink Text</A>
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>&lt;A HREF="executablestring"&gt;Hyperlink Text&lt;/A&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Warning</b>  Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.</div>
 <div> </div>
 

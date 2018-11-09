@@ -207,17 +207,21 @@ The following code sample demonstrates how to list information about all users c
 <b>NetWkstaUserEnum</b>, specifying information level 0 (
 <a href="https://msdn.microsoft.com/8bd8d8c7-4558-46cb-ab46-a2197d53e9f7">WKSTA_USER_INFO_0</a>). The sample loops through the entries and prints the names of the users logged on to a workstation. Finally, the code sample frees the memory allocated for the information buffer, and prints the total number of users enumerated.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <assert.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -233,7 +237,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPWSTR pszServerName = NULL;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -250,11 +254,11 @@ int wmain(int argc, wchar_t *argv[])
    {
       nStatus = NetWkstaUserEnum( pszServerName,
                                   dwLevel,
-                                  (LPBYTE*)&pBuf,
+                                  (LPBYTE*)&amp;pBuf,
                                   dwPrefMaxLen,
-                                  &dwEntriesRead,
-                                  &dwTotalEntries,
-                                  &dwResumeHandle);
+                                  &amp;dwEntriesRead,
+                                  &amp;dwTotalEntries,
+                                  &amp;dwResumeHandle);
       //
       // If the call succeeds,
       //
@@ -265,7 +269,7 @@ int wmain(int argc, wchar_t *argv[])
             //
             // Loop through the entries.
             //
-            for (i = 0; (i < dwEntriesRead); i++)
+            for (i = 0; (i &lt; dwEntriesRead); i++)
             {
                assert(pTmpBuf != NULL);
 
@@ -282,7 +286,7 @@ int wmain(int argc, wchar_t *argv[])
                //
                // Print the user logged on to the workstation. 
                //
-               wprintf(L"\t-- %s\n", pTmpBuf->wkui0_username);
+               wprintf(L"\t-- %s\n", pTmpBuf-&gt;wkui0_username);
 
                pTmpBuf++;
                dwTotalCount++;
@@ -320,10 +324,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

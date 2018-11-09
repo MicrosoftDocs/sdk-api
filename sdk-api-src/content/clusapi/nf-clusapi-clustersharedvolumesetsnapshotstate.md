@@ -7,7 +7,7 @@ old-location: mscs\clustersharedvolumesetsnapshotstate.htm
 tech.root: mscs
 ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: ClusterSharedVolumeSetSnapshotState, ClusterSharedVolumeSetSnapshotState function [Failover Cluster], PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster], clusapi/ClusterSharedVolumeSetSnapshotState, clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

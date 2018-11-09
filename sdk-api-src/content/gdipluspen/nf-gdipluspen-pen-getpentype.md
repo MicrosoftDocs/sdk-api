@@ -94,9 +94,13 @@ The following example creates a
 						<b>HatchBrush</b> object to a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> constructor. The code uses the pen, which has a width of 15, to draw a line. The code calls the <b>Pen::GetPenType</b> method to determine the pen's type, and then checks to see whether the type is PenTypeHatchFill.
 
-
-```cpp
-VOID Example_GetPenType(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetPenType(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -108,8 +112,8 @@ VOID Example_GetPenType(HDC hdc)
 
    // Create a pen based on a hatch brush, and use that
    // pen to draw a line.
-   Pen pen(&hatchBrush, 15);
-   graphics.DrawLine(&pen, 20, 20, 200, 100);
+   Pen pen(&amp;hatchBrush, 15);
+   graphics.DrawLine(&amp;pen, 20, 20, 200, 100);
 
    // Obtain information about the pen.
    PenType penType = pen.GetPenType();
@@ -118,10 +122,10 @@ VOID Example_GetPenType(HDC hdc)
    {
       // The pen will draw with a hatch pattern.
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

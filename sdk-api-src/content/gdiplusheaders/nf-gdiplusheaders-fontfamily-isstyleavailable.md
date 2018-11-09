@@ -91,9 +91,13 @@ This method returns a misleading result on some third-party fonts. For example, 
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object. If the font family has a regular style available, the example draws text.
 
-
-```cpp
-VOID Example_IsStyleAvailable(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsStyleAvailable(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -107,16 +111,16 @@ VOID Example_IsStyleAvailable(HDC hdc)
    if (isStyleAvailable)
    {
        SolidBrush solidbrush(Color(255, 0, 0, 0));
-       Font       font(&myFontFamily, 16);
+       Font       font(&amp;myFontFamily, 16);
        WCHAR      string[100];
        swprintf_s(string, L"myFontFamily is available in regular style");
        graphics.DrawString(string,
-                           wcslen(string), &font, PointF(0, 0), &solidbrush);
+                           wcslen(string), &amp;font, PointF(0, 0), &amp;solidbrush);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: tapi3\ienumphone_next.htm
 tech.root: tapi
 ms.assetid: 7ea1e851-00df-4b32-ba37-c562da983102
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Next method, IEnumPhone.Next, IEnumPhone::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_next, tapi3.ienumphone_next, tapi3if/IEnumPhone::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

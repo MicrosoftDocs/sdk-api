@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingcopy.htm
 tech.root: rpc
 ms.assetid: 835cac4b-9cf8-463a-8eff-d08bbee5f98e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: RpcBindingCopy, RpcBindingCopy function [RPC], _rpc_rpcbindingcopy, rpc.rpcbindingcopy, rpcdce/RpcBindingCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

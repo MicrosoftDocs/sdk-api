@@ -7,7 +7,7 @@ old-location: menurc\verqueryvalue.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verqueryvalue.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], VerQueryValueA, VerQueryValueW, _win32_VerQueryValue, _win32_verqueryvalue_cpp, menurc.verqueryvalue, winui._win32_verqueryvalue, winver/VerQueryValue, winver/VerQueryValueA, winver/VerQueryValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -167,9 +167,13 @@ The following example shows how to enumerate the available version languages and
 
 Be sure to call the <a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a> functions before calling <b>VerQueryValue</b> to properly initialize the <i>pBlock</i> buffer.
 
-
-```cpp
-// Structure used to store enumerated languages and code pages.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Structure used to store enumerated languages and code pages.
 
 HRESULT hr;
 
@@ -182,12 +186,12 @@ struct LANGANDCODEPAGE {
 
 VerQueryValue(pBlock, 
               TEXT("\\VarFileInfo\\Translation"),
-              (LPVOID*)&lpTranslate,
-              &cbTranslate);
+              (LPVOID*)&amp;lpTranslate,
+              &amp;cbTranslate);
 
 // Read the file description for each language and code page.
 
-for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
+for( i=0; i &lt; (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 {
   hr = StringCchPrintf(SubBlock, 50,
             TEXT("\\StringFileInfo\\%04x%04x\\FileDescription"),
@@ -201,12 +205,12 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
   // Retrieve file description for language and code page "i". 
   VerQueryValue(pBlock, 
                 SubBlock, 
-                &lpBuffer, 
-                &dwBytes); 
-}
-```
-
-
+                &amp;lpBuffer, 
+                &amp;dwBytes); 
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

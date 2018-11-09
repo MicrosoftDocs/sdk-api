@@ -105,9 +105,13 @@ The wrap mode defaults to WrapModeTile when a
 
 The following example creates a linear gradient brush and uses it to fill a rectangle. Next, the code modifies the brush's wrap mode and uses the modified brush to fill another rectangle.
 
-
-```cpp
-VOID Example_SetWrapMode(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetWrapMode(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -118,16 +122,16 @@ VOID Example_SetWrapMode(HDC hdc)
       LinearGradientModeHorizontal);
 
    // Fill a large area using the gradient brush with the default wrap mode.
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 800, 50);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 800, 50);
 
    linGrBrush.SetWrapMode(WrapModeTileFlipX);
 
    // Fill a large area using the gradient brush with the new wrap mode.
-   myGraphics.FillRectangle(&linGrBrush, 0, 75, 800, 50);
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 75, 800, 50);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

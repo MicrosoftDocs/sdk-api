@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_loudness.htm
 tech.root: DirectShow
 ms.assetid: e4baca46-260c-45fe-8c03-304c906aab15
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Loudness method, IAMAudioInputMixer.put_Loudness, IAMAudioInputMixer::put_Loudness, IAMAudioInputMixerput_Loudness, dshow.iamaudioinputmixer_put_loudness, put_Loudness, put_Loudness method [DirectShow], put_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Loudness
 ms.prod: windows-hardware
 ms.technology: windows-devices

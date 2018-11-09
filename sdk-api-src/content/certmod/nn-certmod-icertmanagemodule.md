@@ -7,7 +7,7 @@ old-location: security\icertmanagemodule.htm
 tech.root: seccrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,17 +109,21 @@ The <b>ICertManageModule</b> interface provides a method to invoke the module us
 
 The following is an example of what could be used in the DECLARE_REGISTRY macro of a class (CMyCertManagePolicyModule) which implements <b>ICertManageModule</b>.
 
-
-```cpp
-DECLARE_REGISTRY(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_REGISTRY(
     CMyCertManagePolicyModule,
     L"MyCode.PolicyManage.1",
     L"MyCode.PolicyManage",
     IDS_CERTMANAGEPOLICYMODULE_DESC,
-    THREADFLAGS_BOTH);
-```
-
-
+    THREADFLAGS_BOTH);</pre>
+</td>
+</tr>
+</table></span></div>
 The IDS_CERTMANAGEPOLICYMODULE_DESC value is an application-specific identifier that identifies a string table string in the resource file (.rc) which describes the class.
 			
 			

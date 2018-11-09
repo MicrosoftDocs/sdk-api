@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensions.htm
 tech.root: seccrypto
 ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerExit object, EnumerateExtensions method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensions method, ICertServerExit.EnumerateExtensions, ICertServerExit::EnumerateExtensions, _certsrv_icertserverexit_enumerateextensions, certif/ICertServerExit::EnumerateExtensions, security.icertserverexit_enumerateextensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,30 +97,34 @@ This method enumerates certificate extensions recorded in the database, even tho
 
 #### Examples
 
-
-```cpp
-BSTR     bstrExt = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrExt = NULL;
 VARIANT  varExt;
 LONG     ExtFlags;
 HRESULT  hr;
 
-VariantInit(&varExt);
+VariantInit(&amp;varExt);
 
 // Enumerate the extensions.
 while (S_OK ==
-      (hr = pCertServerExit->EnumerateExtensions(&bstrExt)))
+      (hr = pCertServerExit-&gt;EnumerateExtensions(&amp;bstrExt)))
 {
   // Retrieve the extension data.
-  if (FAILED(pCertServerExit->GetCertificateExtension(
+  if (FAILED(pCertServerExit-&gt;GetCertificateExtension(
                               bstrExt,
                               PROPTYPE_BINARY,
-                              &varExt)))
+                              &amp;varExt)))
       printf("Failed GetCertificateExtension\n");
   else
   {
      // Retrieve the extension flags.
-    if (FAILED(pCertServerExit->GetCertificateExtensionFlags(
-                                &ExtFlags)))
+    if (FAILED(pCertServerExit-&gt;GetCertificateExtensionFlags(
+                                &amp;ExtFlags)))
         printf("Failed GetCertificateExtensionFlags\n");
     else
         // This sample will display the extension OID string,
@@ -140,10 +144,10 @@ if (S_FALSE != hr)
 if (NULL != bstrExt)
     SysFreeString(bstrExt);
 // Free VARIANT resource.
-    VariantClear(&varExt);
-```
-
-
+    VariantClear(&amp;varExt);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

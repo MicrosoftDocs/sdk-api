@@ -7,7 +7,7 @@ old-location: shell\IObjectProvider.htm
 tech.root: shell
 ms.assetid: 477991e5-0882-475c-9178-c3add695dc2c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IObjectProvider, IObjectProvider interface [Windows Shell], IObjectProvider interface [Windows Shell],described, _shell_IObjectProvider, shell.IObjectProvider, shobjidl_core/IObjectProvider
 ms.prod: windows
 ms.technology: windows-sdk

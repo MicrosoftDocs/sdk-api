@@ -115,7 +115,7 @@ A pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0
 The number of AuditParamFlag  type/value pairs that appear in the variable arguments section that follows this parameter.
 
 
-### -param arg1
+### -param arg6
 
 TBD
 

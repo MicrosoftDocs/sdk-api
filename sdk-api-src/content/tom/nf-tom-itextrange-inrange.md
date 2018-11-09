@@ -7,7 +7,7 @@ old-location: controls\ITextRange_InRange.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\inrange.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ITextRange interface [Windows Controls],InRange method, ITextRange.InRange, ITextRange::InRange, InRange, InRange method [Windows Controls], InRange method [Windows Controls],ITextRange interface, _win32_ITextRange_InRange, _win32_ITextRange_InRange_cpp, controls.ITextRange_InRange, controls._win32_ITextRange_InRange, tom/ITextRange::InRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,16 +104,20 @@ For range2 to be contained in range1, both ranges must be in the same story, and
 </ul>
 The following example shows how to walk one range with another. 
 
-
-```
-    range2 = range1.Duplicate
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    range2 = range1.Duplicate
     range2.End = range2.Start       ' Collapse range2 to its start position 
     While range2.InRange(range1)    ' Iterate so long as range2 remains within range1
          ...   ' This code would change the range2 character positions 
-    Wend
-```
-
-
+    Wend</pre>
+</td>
+</tr>
+</table></span></div>
 When the <a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">ITextRange::MoveWhile</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">ITextRange::MoveUntil</a> method families are used, you can use one range to walk another by specifying the appropriate limit count of characters (for an example, see the Remarks in 
 				<b>ITextRange::Find</b>).
 

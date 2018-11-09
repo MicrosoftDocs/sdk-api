@@ -7,7 +7,7 @@ old-location: wcs\createprofilefromlogcolorspace.htm
 tech.root: WCS
 ms.assetid: ac2fddd4-ac93-49a8-883a-cf888b542812
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: CreateProfileFromLogColorSpace, CreateProfileFromLogColorSpace function [Windows Color System], CreateProfileFromLogColorSpaceA, CreateProfileFromLogColorSpaceW, _color_CreateProfileFromLogColorSpace, icm/CreateProfileFromLogColorSpace, icm/CreateProfileFromLogColorSpaceA, icm/CreateProfileFromLogColorSpaceW, wcs.createprofilefromlogcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

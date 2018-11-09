@@ -7,7 +7,7 @@ old-location: controls\CreateMappedBitmap.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,15 +137,19 @@ This function is fully supported only for images with color maps; that is, image
 
 The following example code creates a bitmap from a resource and makes the color black appear transparent by mapping it to the system color for a button face.
 
-
-```cpp
-DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
 COLORMAP colorMap;
 colorMap.from = RGB(0, 0, 0);
 colorMap.to = backgroundColor;
-HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &colorMap, 1);
-```
-
-
+HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &amp;colorMap, 1);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

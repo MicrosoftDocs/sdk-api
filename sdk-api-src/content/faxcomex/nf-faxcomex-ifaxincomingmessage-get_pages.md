@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_pages_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8mcz.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Pages property, IFaxIncomingMessage.Pages, IFaxIncomingMessage.get_Pages, IFaxIncomingMessage::Pages, IFaxIncomingMessage::get_Pages, Pages property [Fax Service], Pages property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.pages, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_pages_cpp, fax._mfax_faxincomingmessage_pages, faxcomex/IFaxIncomingMessage::Pages, faxcomex/IFaxIncomingMessage::get_Pages, get_Pages
 ms.prod: windows-hardware
 ms.technology: windows-devices

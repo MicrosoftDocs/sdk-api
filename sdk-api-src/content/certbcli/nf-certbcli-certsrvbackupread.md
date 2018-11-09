@@ -7,7 +7,7 @@ old-location: security\certsrvbackupread.htm
 tech.root: seccrypto
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,12 +98,16 @@ After opening the file for backup purposes (using
 
 #### Examples
 
-
-```cpp
-
-#include <windows.h>
-#include <stdio.h>
-#include <Certbcli.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certbcli.h&gt;
 
 #define BUFFSIZE 524288
 
@@ -131,9 +135,9 @@ if ( NULL == pfnRead )
 // To read the entire file, this code
 // would be placed in a loop.
 hr = pfnRead( hCSBC,
-              &ReadBuff,
+              &amp;ReadBuff,
               BUFFSIZE,
-              &cbRead );
+              &amp;cbRead );
 if (FAILED(hr))
 {
     printf("Failed pfnRead call [%x]\n", hr);
@@ -143,10 +147,10 @@ if (FAILED(hr))
 // Use the bytes read as needed. For example,
 // in an application-specific routine to back
 // up the file contents.
-// ...
-```
-
-
+// ...</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation2_setforwardtype2.htm
 tech.root: tapi
 ms.assetid: 774b91e8-b7f9-47b5-bbd9-025b03429b14
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],SetForwardType2 method, ITForwardInformation2.SetForwardType2, ITForwardInformation2::SetForwardType2, SetForwardType2, SetForwardType2 method [TAPI 2.2], SetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, _tapi3_itforwardinformation2_setforwardtype2, tapi3.itforwardinformation2_setforwardtype2, tapi3if/ITForwardInformation2::SetForwardType2
 ms.prod: windows-hardware
 ms.technology: windows-devices

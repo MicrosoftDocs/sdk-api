@@ -7,7 +7,7 @@ old-location: tapi3\itstream_get_terminals.htm
 tech.root: tapi
 ms.assetid: 2861dbf7-fc13-4182-90e5-32347f3d1e54
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Terminals method, ITStream.get_Terminals, ITStream::get_Terminals, _tapi3_itstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITStream interface, tapi3.itstream_get_terminals, tapi3if/ITStream::get_Terminals
 ms.prod: windows-hardware
 ms.technology: windows-devices

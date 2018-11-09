@@ -7,7 +7,7 @@ old-location: dwm\DwmShowContact.htm
 tech.root: dwm
 ms.assetid: E9C302AA-D622-483d-83AC-0D0D7D23719E
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Called by an app or framework to specify the visual feedback type to draw in res
 The pointer ID of the contact. Each touch or pen contact is given a unique ID when it is detected.
 
 
-### -param arg1
+### -param arg2
 
 One or more of the following DWM_SHOWCONTACT visualizations that DWM should show for this contact.
 

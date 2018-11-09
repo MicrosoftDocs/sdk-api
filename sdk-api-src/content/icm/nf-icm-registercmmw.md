@@ -7,7 +7,7 @@ old-location: wcs\registercmm.htm
 tech.root: WCS
 ms.assetid: e26a98be-2165-437d-a197-08e07952d043
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 ms.keywords: RegisterCMM, RegisterCMM function [Windows Color System], RegisterCMMA, RegisterCMMW, _color_RegisterCMM, icm/RegisterCMM, icm/RegisterCMMA, icm/RegisterCMMW, wcs.registercmm
 ms.prod: windows-hardware
 ms.technology: windows-devices

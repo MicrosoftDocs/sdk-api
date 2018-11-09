@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getrevocationreason.htm
 tech.root: seccrypto
 ms.assetid: 244b121a-76ba-44fd-b15d-f076b722b030
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],GetRevocationReason method, GetRevocationReason, GetRevocationReason method [Security], GetRevocationReason method [Security],CCertAdmin object, GetRevocationReason method [Security],ICertAdmin interface, GetRevocationReason method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetRevocationReason method, ICertAdmin.GetRevocationReason, ICertAdmin2 interface [Security],GetRevocationReason method, ICertAdmin2::GetRevocationReason, ICertAdmin::GetRevocationReason, certadm/ICertAdmin2::GetRevocationReason, certadm/ICertAdmin::GetRevocationReason, security.icertadmin2_getrevocationreason
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,9 +180,13 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-
-```cpp
-// The value for nDisp was set by 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The value for nDisp was set by 
 // a call to ICertAdmin2::IsValidCertificate.
 if (CA_DISP_REVOKED == nDisp)
 {
@@ -190,7 +194,7 @@ if (CA_DISP_REVOKED == nDisp)
     long       nReason;
 
     // Retrieve the revocation reason.
-    hr = pCertAdmin->GetRevocationReason(&nReason);
+    hr = pCertAdmin-&gt;GetRevocationReason(&amp;nReason);
     if (FAILED(hr))
     {
         printf("Failed GetRevocationReason [%x]\n", hr);
@@ -198,10 +202,10 @@ if (CA_DISP_REVOKED == nDisp)
     }
     else
         printf("Revocation reason = %d\n", nReason );
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

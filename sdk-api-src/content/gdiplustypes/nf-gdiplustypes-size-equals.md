@@ -101,22 +101,26 @@ Two
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object, gets the size of the rectangle, and determines whether the rectangles are equal.
 
-
-```cpp
-Rect rect(50, 30, 200, 100);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Rect rect(50, 30, 200, 100);
 Size desiredSize(200, 100);
 Size rectSize;
 
 // Get the size of the rectangle.
-rect.GetSize(&rectSize);
+rect.GetSize(&amp;rectSize);
 
 if(rectSize.Equals(desiredSize))
 {
    // The rectangle has the desired size.
-} 
-```
-
-
+} </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

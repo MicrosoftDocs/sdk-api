@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_getmaxlength.htm
 tech.root: seccrypto
 ms.assetid: 20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Security], GetMaxLength method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetMaxLength method, IEnumCERTVIEWCOLUMN.GetMaxLength, IEnumCERTVIEWCOLUMN::GetMaxLength, _certsrv_ienumcertviewcolumn_getmaxlength, certview/IEnumCERTVIEWCOLUMN::GetMaxLength, security.ienumcertviewcolumn_getmaxlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,19 +103,23 @@ To determine whether the column data is indexed, call the <a href="https://msdn.
 
 #### Examples
 
-
-```cpp
-// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 HRESULT  hr;
 LONG     nLength;
 
 // determine database length
-hr = pEnumCol->GetMaxLength(&nLength);
+hr = pEnumCol-&gt;GetMaxLength(&amp;nLength);
 if (S_OK == hr)
-    printf("max length is %d\n", nLength);
-```
-
-
+    printf("max length is %d\n", nLength);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\getlargepageminimum.htm
 tech.root: memory
 ms.assetid: ccde687d-ee8f-4668-93c1-a1fece86c2f6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: GetLargePageMinimum, GetLargePageMinimum function, base.getlargepageminimum, winbase/GetLargePageMinimum
 ms.prod: windows-hardware
 ms.technology: windows-devices

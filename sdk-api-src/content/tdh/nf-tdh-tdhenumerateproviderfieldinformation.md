@@ -7,7 +7,7 @@ old-location: etw\tdhenumerateproviderfieldinformation_func.htm
 tech.root: etw
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,13 +163,17 @@ This function uses the XML manifest or WMI MOF class to retrieve the information
 
 The following example shows how to enumerate information contained in the manifest or MOF class for the requested field.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <wmistr.h>
-#include <evntrace.h>
-#include <tdh.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;wmistr.h&gt;
+#include &lt;evntrace.h&gt;
+#include &lt;tdh.h&gt;
 
 #pragma comment(lib, "tdh.lib")
 
@@ -187,7 +191,7 @@ void wmain(void)
 
     wprintf(L"Retrieve EventKeywordInformation\n");
 
-    status = EnumFieldInfo((LPGUID)&ProviderGuid, EventKeywordInformation);
+    status = EnumFieldInfo((LPGUID)&amp;ProviderGuid, EventKeywordInformation);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"Failed to retrieve EventKeywordInformation (%lu).\n\n", status);
@@ -204,7 +208,7 @@ DWORD EnumFieldInfo(LPGUID pProvider, EVENT_FIELD_TYPE fieldType)
     // Retrieve the required buffer size. If the status is ERROR_INSUFFICIENT_BUFFER,
     // use bufferSize to allocate the buffer.
 
-    status = TdhEnumerateProviderFieldInformation(pProvider, fieldType, penum, &bufferSize);
+    status = TdhEnumerateProviderFieldInformation(pProvider, fieldType, penum, &amp;bufferSize);
     if (ERROR_INSUFFICIENT_BUFFER == status)
     {
         penum = (PROVIDER_FIELD_INFOARRAY*) malloc(bufferSize);
@@ -217,7 +221,7 @@ DWORD EnumFieldInfo(LPGUID pProvider, EVENT_FIELD_TYPE fieldType)
 
         // Retrieve the information for the field type.
 
-        status = TdhEnumerateProviderFieldInformation(pProvider, fieldType, penum, &bufferSize);
+        status = TdhEnumerateProviderFieldInformation(pProvider, fieldType, penum, &amp;bufferSize);
     }
 
     // The first call can fail with ERROR_NOT_FOUND if none of the provider's event
@@ -228,13 +232,13 @@ DWORD EnumFieldInfo(LPGUID pProvider, EVENT_FIELD_TYPE fieldType)
         // Loop through the list of field information and print the field's name,
         // description (if it exists), and value. 
 
-        for (DWORD i = 0; i < penum->NumberOfElements; i++)
+        for (DWORD i = 0; i &lt; penum-&gt;NumberOfElements; i++)
         {
             wprintf(L"Field name: %s\nDescription: %s\nValue: %I64u\n\n",
-                (PWCHAR)((PBYTE)(penum) + penum->FieldInfoArray[i].NameOffset),
-                (penum->FieldInfoArray[i].DescriptionOffset) ? 
-                    (PWCHAR)((PBYTE)(penum) + penum->FieldInfoArray[i].DescriptionOffset): L"",
-                penum->FieldInfoArray[i].Value);
+                (PWCHAR)((PBYTE)(penum) + penum-&gt;FieldInfoArray[i].NameOffset),
+                (penum-&gt;FieldInfoArray[i].DescriptionOffset) ? 
+                    (PWCHAR)((PBYTE)(penum) + penum-&gt;FieldInfoArray[i].DescriptionOffset): L"",
+                penum-&gt;FieldInfoArray[i].Value);
         }
     }
     else
@@ -261,10 +265,10 @@ cleanup:
 
     return status;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -98,22 +98,26 @@ Two
 
 
 
-
-```cpp
-RectF rect(50.0f, 30.0f, 200.0f, 100.0f);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RectF rect(50.0f, 30.0f, 200.0f, 100.0f);
 SizeF desiredSizeF(200.0f, 100.0f);
 SizeF rectSizeF;
 
 // Get the size of the rectangle.
-rect.GetSize(&rectSizeF);
+rect.GetSize(&amp;rectSizeF);
 
 if(rectSizeF.Equals(desiredSizeF))
 {
    // The rectangle has the wanted size.
-} 
-```
-
-
+} </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\icertconfig2_getfield.htm
 tech.root: seccrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -286,14 +286,18 @@ When you specify "Flags" in the <i>strFieldName</i> parameter, the retrieved dat
 
 #### Examples
 
-
-```cpp
-    BSTR  bstrFieldName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    BSTR  bstrFieldName = NULL;
     BSTR  bstrFieldValue = NULL;
     HRESULT    hr;
 
     // Specify the field to retrieve, for example, "CommonName".
-    bstrFieldName = SysAllocString(L"<FIELDNAMEHERE>");
+    bstrFieldName = SysAllocString(L"&lt;FIELDNAMEHERE&gt;");
     if (NULL == bstrFieldName)
     {
         printf("Memory allocation failed for bstrFieldName.\n");
@@ -301,7 +305,7 @@ When you specify "Flags" in the <i>strFieldName</i> parameter, the retrieved dat
     }
 
     // pConfig is a previously instantiated ICertConfig object.
-    hr = pConfig->GetField(bstrFieldName, &bstrFieldValue);
+    hr = pConfig-&gt;GetField(bstrFieldName, &amp;bstrFieldValue);
     if (FAILED(hr))
     {
         printf("Failed GetField - [%x]\n", hr);
@@ -317,10 +321,10 @@ error:
         SysFreeString(bstrFieldName);
 
     if (bstrFieldValue)
-        SysFreeString(bstrFieldValue);
-```
-
-
+        SysFreeString(bstrFieldValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

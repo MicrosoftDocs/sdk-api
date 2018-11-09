@@ -107,9 +107,13 @@ The following example creates a
 
 One edge of the rendered triangle changes gradually from red to green. The next edge changes gradually from green to black, and the third edge changes gradually from black to red. The code does not set the center color, so the center color has the default value of black. As you move along a straight line from any point on the boundary path (triangle) to the center point, the color changes gradually from that boundary point's color to black.
 
-
-```cpp
-VOID Example_SetSurColor(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetSurColor(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -125,13 +129,13 @@ VOID Example_SetSurColor(HDC hdc)
 
    INT count = 3;
    PathGradientBrush pthGrBrush(pts, 3);
-   pthGrBrush.SetSurroundColors(cols, &count);
+   pthGrBrush.SetSurroundColors(cols, &amp;count);
    
-   graphics.FillRectangle(&pthGrBrush, 0, 0, 200, 200);
-}
-```
-
-
+   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 200, 200);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

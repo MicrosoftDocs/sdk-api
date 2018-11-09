@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_protoinfo.htm
 tech.root: secauthn
 ms.assetid: c10eb1fc-b957-4853-86c1-070749488bb9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*PSecPkgContext_ProtoInfoW, PSecPkgContext_ProtoInfo, PSecPkgContext_ProtoInfo structure pointer [Security], SecPkgContext_ProtoInfo, SecPkgContext_ProtoInfo structure [Security], SecPkgContext_ProtoInfoA, SecPkgContext_ProtoInfoW, _SecPkgContext_ProtoInfoW, _ssp_secpkgcontext_protoinfo, security.secpkgcontext_protoinfo, sspi/PSecPkgContext_ProtoInfo, sspi/SecPkgContext_ProtoInfo"
 ms.prod: windows
 ms.technology: windows-sdk

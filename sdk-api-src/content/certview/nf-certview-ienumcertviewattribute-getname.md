@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_getname.htm
 tech.root: seccrypto
 ms.assetid: c2409bf1-0571-479e-8499-010d52cfb776
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetName method, IEnumCERTVIEWATTRIBUTE.GetName, IEnumCERTVIEWATTRIBUTE::GetName, _certsrv_ienumcertviewattribute_getname, certview/IEnumCERTVIEWATTRIBUTE::GetName, security.ienumcertviewattribute_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,12 +101,16 @@ If the attribute-enumeration sequence is not referencing a valid attribute, <b>G
 
 #### Examples
 
-
-```cpp
-BSTR    bstrAttribName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR    bstrAttribName = NULL;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-hr = pEnumAttr->GetName(&bstrAttribName);
+hr = pEnumAttr-&gt;GetName(&amp;bstrAttribName);
 if (S_OK != hr)
     printf("Failed call to GetName - %x\n", hr);
 else
@@ -114,10 +118,10 @@ else
 
 // free memory when done
 if (NULL != bstrAttribName)
-    SysFreeString(bstrAttribName);
-```
-
-
+    SysFreeString(bstrAttribName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

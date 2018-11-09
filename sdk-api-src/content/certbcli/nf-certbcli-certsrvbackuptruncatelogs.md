@@ -7,7 +7,7 @@ old-location: security\certsrvbackuptruncatelogs.htm
 tech.root: seccrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,13 @@ Depending on the volume of the log files, the log file replay can be a time-cons
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPTRUNCATELOGS* pfnTruncateLogs;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPTRUNCATELOGS* pfnTruncateLogs;
 char * szTruncateLogsFunc = "CertSrvBackupTruncateLogs";
 
 HRESULT    hr=0;
@@ -121,10 +125,10 @@ if (FAILED(hr))
     exit(1); // Or other appropriate error action.
 }
 else
-    printf("Logs truncated\n");
-```
-
-
+    printf("Logs truncated\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

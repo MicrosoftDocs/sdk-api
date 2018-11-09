@@ -7,7 +7,7 @@ old-location: tapi3\itprivateevent_get_eventinterface.htm
 tech.root: tapi
 ms.assetid: c5620930-5cda-4f2e-8059-12af2d7f0a02
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_EventInterface method, ITPrivateEvent.get_EventInterface, ITPrivateEvent::get_EventInterface, _tapi3_itprivateevent_get_eventinterface, get_EventInterface, get_EventInterface method [TAPI 2.2], get_EventInterface method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_eventinterface, tapi3if/ITPrivateEvent::get_EventInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

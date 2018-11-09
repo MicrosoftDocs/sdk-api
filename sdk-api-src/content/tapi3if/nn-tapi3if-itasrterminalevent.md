@@ -7,7 +7,7 @@ old-location: tapi3\itasrterminalevent.htm
 tech.root: tapi
 ms.assetid: 6bf8b1b7-698f-443f-9ddf-0d50551cebab
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITASRTerminalEvent, ITASRTerminalEvent interface [TAPI 2.2], ITASRTerminalEvent interface [TAPI 2.2],described, _tapi3_itasrterminalevent, tapi3.itasrterminalevent, tapi3if/ITASRTerminalEvent
 ms.prod: windows
 ms.technology: windows-sdk

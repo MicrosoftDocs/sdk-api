@@ -7,7 +7,7 @@ old-location: com\icontext.htm
 tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 ms.prod: windows
 ms.technology: windows-sdk

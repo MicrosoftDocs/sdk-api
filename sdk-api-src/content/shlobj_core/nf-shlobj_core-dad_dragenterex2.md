@@ -7,7 +7,7 @@ old-location: shell\DAD_DragEnterEx2.htm
 tech.root: shell
 ms.assetid: d9d902c5-c488-4e23-a749-bae42c6cb719
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DAD_DragEnterEx2, DAD_DragEnterEx2 function [Windows Shell], _shell_DAD_DragEnterEx2, shell.DAD_DragEnterEx2, shlobj_core/DAD_DragEnterEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

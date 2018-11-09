@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_reset.htm
 tech.root: seccrypto
 ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Reset method, IEnumCERTVIEWEXTENSION object [Security],Reset method, IEnumCERTVIEWEXTENSION.Reset, IEnumCERTVIEWEXTENSION::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWEXTENSION interface, Reset method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_reset, certview/IEnumCERTVIEWEXTENSION::Reset, security.ienumcertviewextension_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,27 +97,31 @@ the following methods:
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     Index;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt->Reset();
+hr = pEnumExt-&gt;Reset();
 if (S_OK != hr)
     printf("Unable to reset pEnumExt - %x\n", hr);
     // call appropriate error handler / exit routine
 else
 {
     // reset to beginning of extensions again
-    while (S_OK == pEnumExt->Next(&Index))
+    while (S_OK == pEnumExt-&gt;Next(&amp;Index))
     {
         // Use each extension as needed.
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\PFNDACOMPARE.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompare.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: PFNDACOMPARE, PFNDACOMPARE callback, PFNDACOMPARE callback function [Windows Controls], PFNDPACOMPARE, PFNDSACOMPARE, _shell_PFNDACOMPARE, _shell_PFNDACOMPARE_cpp, controls.PFNDACOMPARE, controls._shell_PFNDACOMPARE, dpa_dsa/PFNDACOMPARE
 ms.prod: windows
 ms.technology: windows-sdk

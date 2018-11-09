@@ -7,7 +7,7 @@ old-location: controls\GetThemeTextMetrics.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextmetrics.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetThemeTextMetrics, GetThemeTextMetrics function [Windows Controls], controls.GetThemeTextMetrics, controls.inet_GetThemeTextMetrics, inet_GetThemeTextMetrics, inet_GetThemeTextMetrics_cpp, uxtheme/GetThemeTextMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

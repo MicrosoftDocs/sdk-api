@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocation_getreportstatus.htm
 tech.root: locationapi
 ms.assetid: 9b7c72cc-fa09-44b2-97be-f200fab7b31d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetReportStatus, GetReportStatus method [WinLocation], GetReportStatus method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportStatus method, ILocation.GetReportStatus, ILocation::GetReportStatus, WinLocation_COM_Ref.ilocation_getreportstatus, locationapi/ILocation::GetReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ Retrieves the status for the specified report type.
 <b>REFIID</b> that specifies the report type for which to get the interval.
 
 
-### -param arg1 [out]
+### -param arg2 [out]
 
 Address of a <a href="https://msdn.microsoft.com/440e64cb-d09c-47cd-9434-8d4479fa52e2">LOCATION_REPORT_STATUS</a> that receives the current status for the specified report.
 

@@ -7,7 +7,7 @@ old-location: mscs\closeclusternode.htm
 tech.root: mscs
 ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: CloseClusterNode, CloseClusterNode function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NODE, PCLUSAPI_CLOSE_CLUSTER_NODE function [Failover Cluster], _wolf_closeclusternode, clusapi/CloseClusterNode, clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE, mscs.closeclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices

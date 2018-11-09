@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getcertificateextensionflags.htm
 tech.root: seccrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerExit object, GetCertificateExtensionFlags method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtensionFlags method, ICertServerExit.GetCertificateExtensionFlags, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,29 +186,33 @@ You must call
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 LONG     ExtFlags;
 
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit->GetCertificateExtensionFlags(&ExtFlags);
+hr = pCertServerExit-&gt;GetCertificateExtensionFlags(&amp;ExtFlags);
 
 // More than one policy flag may be set.
-LONG ExtPolicyFlags = ExtFlags & EXTENSION_POLICY_MASK;
+LONG ExtPolicyFlags = ExtFlags &amp; EXTENSION_POLICY_MASK;
 
-if (ExtPolicyFlags & EXTENSION_CRITICAL_FLAG)
+if (ExtPolicyFlags &amp; EXTENSION_CRITICAL_FLAG)
 {
     // Perform the desired operation.
 }
 
-if (ExtPolicyFlags & EXTENSION_DISABLE_FLAG)
+if (ExtPolicyFlags &amp; EXTENSION_DISABLE_FLAG)
 {
     // Perform the desired operation.
 }
 
 // Only one origin flag can be set.
-switch (ExtFlags & EXTENSION_ORIGIN_MASK)
+switch (ExtFlags &amp; EXTENSION_ORIGIN_MASK)
 {
     case EXTENSION_ORIGIN_REQUEST:
         // Extension was set in certificate request.
@@ -233,10 +237,10 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
         break;
     default:
         break;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

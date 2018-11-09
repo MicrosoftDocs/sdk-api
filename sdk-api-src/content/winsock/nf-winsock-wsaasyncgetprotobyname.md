@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncgetprotobyname_2.htm
 tech.root: winsock
 ms.assetid: 747c40fd-5dc1-4533-896e-bc1c4368d7bd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: WSAAsyncGetProtoByName, WSAAsyncGetProtoByName function [Winsock], _win32_wsaasyncgetprotobyname_2, winsock.wsaasyncgetprotobyname_2, winsock/WSAAsyncGetProtoByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -243,16 +243,20 @@ The buffer specified to this function is used by Windows Sockets to construct a
 
 The error code and buffer length should be extracted from the <i>lParam</i> using the macros <b>WSAGETASYNCERROR</b> and <b>WSAGETASYNCBUFLEN</b>, defined in Winsock2.h as:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define WSAGETASYNCBUFLEN(lParam)           LOWORD(lParam)
 #define WSAGETASYNCERROR(lParam)            HIWORD(lParam)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The use of these macros will maximize the portability of the source code for the application.
 
 

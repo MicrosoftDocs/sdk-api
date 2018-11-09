@@ -65,7 +65,7 @@ Type: <b>PCWSTR</b>
 The property name to get.
 
 
-### -param arg1
+### -param arg2
 
 TBD
 

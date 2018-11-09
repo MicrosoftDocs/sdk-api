@@ -85,9 +85,13 @@ You must clear <i>pVariant</i> using <b>VariantClear</b> when the value returned
 
 The following code example shows how to walk through a property list using the <b>Next</b> method.
 
-
-```vb
-Dim propList As IADsPropertyList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim propList As IADsPropertyList
 Dim v as Variant
 Dim propVal As IADsPropertyValue
  
@@ -103,15 +107,19 @@ While (Not (IsNull(v)) And Err.Number = 0)
     Debug.Print v.AdsType
     
     Set v = propList.Next    
-Wend
-```
-
-
+Wend</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows how to work the <b>IADsPropertyList::Next</b> method.
 
-
-```cpp
-////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>////////////////////////////////////
 // Function used to retrieve an entry using the 
 // IADsPropertyList::Next method.
  
@@ -123,7 +131,7 @@ The following C++ code example shows how to work the <b>IADsPropertyList::Next</
 IADsPropertyEntry* GetNextEntry(IADsPropertyList* pList)
 {
     VARIANT var;
-    VariantInit(&var);
+    VariantInit(&amp;var);
     IADsPropertyEntry *pEntry;
 
     if(!pList)
@@ -132,16 +140,16 @@ IADsPropertyEntry* GetNextEntry(IADsPropertyList* pList)
         return NULL;
     }
  
-    HRESULT hr = pList->Next(&var);
-    hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
-                                         (void**)&pEntry);
-    VariantClear(&var);
+    HRESULT hr = pList-&gt;Next(&amp;var);
+    hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADsPropertyEntry,
+                                         (void**)&amp;pEntry);
+    VariantClear(&amp;var);
     return pEntry;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

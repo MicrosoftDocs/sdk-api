@@ -145,12 +145,16 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use PropVariantToBuffer to access a structure that has been stored in a PROPVARIANT".
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore->GetValue(PKEY_FindData, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_FindData, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
@@ -161,18 +165,18 @@ if (SUCCEEDED(hr))
     if (PropVariantGetElementCount(propvar) == sizeof(WIN32_FIND_DATAW))
     {
         WIN32_FIND_DATAW wfd;
-        hr = PropVariantToBuffer(propvar, &wfd, sizeof(wfd));
+        hr = PropVariantToBuffer(propvar, &amp;wfd, sizeof(wfd));
         
         if (SUCCEEDED(hr))
         {
             // wfd is now initialized
         }
     }
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

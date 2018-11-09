@@ -102,14 +102,18 @@ This function performs the same action as <a href="https://msdn.microsoft.com/en
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>
 
 
-
-```cpp
-// PROPVARIANT rgpropvar[5];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT rgpropvar[5];
 // Assume all 5 propvariants are initialized and valid.
 
-FreePropVariantArray(ARRAYSIZE(rgpropvar), rgpropvar);
-```
-
-
+FreePropVariantArray(ARRAYSIZE(rgpropvar), rgpropvar);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

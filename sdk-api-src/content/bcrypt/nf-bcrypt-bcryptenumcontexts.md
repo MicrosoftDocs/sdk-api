@@ -186,10 +186,14 @@ The <i>ppBuffer</i> parameter is not <b>NULL</b>, and the value pointed to by th
 
 The following example shows how to use the <b>BCryptEnumContexts</b> function to allocate the memory for the <i>ppBuffer</i> buffer.
 
-
-```cpp
-#ifndef NT_SUCCESS
-#define NT_SUCCESS(Status) ((NTSTATUS)(Status) >= 0)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef NT_SUCCESS
+#define NT_SUCCESS(Status) ((NTSTATUS)(Status) &gt;= 0)
 #endif
 
 NTSTATUS EnumContexts_SystemAlloc()
@@ -200,13 +204,13 @@ NTSTATUS EnumContexts_SystemAlloc()
     
     // Get the contexts for the local computer. 
     // CNG allocates the memory.
-    status = BCryptEnumContexts(CRYPT_LOCAL, &uSize, &pContexts);
+    status = BCryptEnumContexts(CRYPT_LOCAL, &amp;uSize, &amp;pContexts);
     if(NT_SUCCESS(status))
     {
         // Enumerate the context identifiers.
-        for(ULONG i = 0; i < pContexts->cContexts; i++)
+        for(ULONG i = 0; i &lt; pContexts-&gt;cContexts; i++)
         {
-            wprintf(pContexts->rgpszContexts[i]);
+            wprintf(pContexts-&gt;rgpszContexts[i]);
             wprintf(L"\n");
         }
 
@@ -216,16 +220,20 @@ NTSTATUS EnumContexts_SystemAlloc()
 
     return status;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to use the <b>BCryptEnumContexts</b> function to allocate your own memory for the <i>ppBuffer</i> buffer.
 
-
-```cpp
-#ifndef NT_SUCCESS
-#define NT_SUCCESS(Status) ((NTSTATUS)(Status) >= 0)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef NT_SUCCESS
+#define NT_SUCCESS(Status) ((NTSTATUS)(Status) &gt;= 0)
 #endif
 
 NTSTATUS EnumContexts_SelfAlloc()
@@ -234,7 +242,7 @@ NTSTATUS EnumContexts_SelfAlloc()
     ULONG uSize = 0;
     
     // Get the required size of the buffer.
-    status = BCryptEnumContexts(CRYPT_LOCAL, &uSize, NULL);
+    status = BCryptEnumContexts(CRYPT_LOCAL, &amp;uSize, NULL);
     if(STATUS_BUFFER_TOO_SMALL == status)
     {
         // Allocate the buffer.
@@ -247,14 +255,14 @@ NTSTATUS EnumContexts_SelfAlloc()
             // Get the contexts for the local machine.
             status = BCryptEnumContexts(
                 CRYPT_LOCAL, 
-                &uSize, 
-                &pContexts);
+                &amp;uSize, 
+                &amp;pContexts);
             if(NT_SUCCESS((status))
             {
                 // Enumerate the context identifiers.
-                for(ULONG i = 0; i < pContexts->cContexts; i++)
+                for(ULONG i = 0; i &lt; pContexts-&gt;cContexts; i++)
                 {
-                    wprintf(pContexts->rgpszContexts[i]);
+                    wprintf(pContexts-&gt;rgpszContexts[i]);
                     wprintf(L"\n");
                 }
             }
@@ -271,10 +279,10 @@ NTSTATUS EnumContexts_SelfAlloc()
 
     return status;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

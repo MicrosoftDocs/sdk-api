@@ -7,8 +7,8 @@ old-location: base\virtualfreeex.htm
 tech.root: memory
 ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
 ms.author: windowssdkdev
-ms.date: 10/30/2018
-ms.keywords: MEM_DECOMMIT, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
+ms.date: 11/08/2018
+ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,6 +113,30 @@ The type of free operation. This parameter can be one of the following values.
 <th>Meaning</th>
 </tr>
 <tr>
+<td width="40%"><a id="MEM_COALESCE_PLACEHOLDERS"></a><a id="mem_coalesce_placeholders"></a><dl>
+<dt><b>MEM_COALESCE_PLACEHOLDERS</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_PLACEHOLDERS</code>. When you coalesce placeholders, <i>lpAddress</i> and <i>dwSize</i> must exactly match those of the placeholder.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_PRESERVE_PLACEHOLDER"></a><a id="mem_preserve_placeholder"></a><dl>
+<dt><b>MEM_PRESERVE_PLACEHOLDER</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using <a href="base.virtualalloc2">VirtualAlloc2</a> or <a href="base.virtualalloc2fromapp">Virtual2AllocFromApp</a>).
+
+To split a placeholder into two placeholders, specify <code>MEM_RELEASE | MEM_PRESERVE_PLACEHOLDER</code>.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="MEM_DECOMMIT"></a><a id="mem_decommit"></a><dl>
 <dt><b>MEM_DECOMMIT</b></dt>
 <dt>0x4000</dt>
@@ -139,7 +163,7 @@ The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> paramet
 </dl>
 </td>
 <td width="60%">
-Releases the specified region of pages. After the operation, the pages are in the free state. 
+Releases the specified region of pages, or placeholder (for a placeholder, the address space is released and available for other allocations). After the operation, the pages are in the free state. 
 
 
 

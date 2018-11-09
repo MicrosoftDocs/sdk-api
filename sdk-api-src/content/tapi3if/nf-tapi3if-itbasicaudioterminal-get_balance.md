@@ -7,7 +7,7 @@ old-location: tapi3\itbasicaudioterminal_get_balance.htm
 tech.root: tapi
 ms.assetid: 36aff613-6065-4d92-98e7-3e5b851bf544
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],get_Balance method, ITBasicAudioTerminal.get_Balance, ITBasicAudioTerminal::get_Balance, _tapi3_itbasicaudioterminal_get_balance, get_Balance, get_Balance method [TAPI 2.2], get_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_get_balance, tapi3if/ITBasicAudioTerminal::get_Balance
 ms.prod: windows-hardware
 ms.technology: windows-devices

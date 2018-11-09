@@ -7,7 +7,7 @@ old-location: security\icertpolicy2.htm
 tech.root: seccrypto
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: ICertPolicy2, ICertPolicy2 interface [Security], ICertPolicy2 interface [Security],described, _certsrv_icertpolicy2, certpol/ICertPolicy2, security.icertpolicy2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,17 +127,21 @@ Implementers of <a href="https://msdn.microsoft.com/en-us/library/Aa385033(v=VS.
 
 Where <i>MyApp</i> is a specifier that identifies the application. For example, in C++, the following could be used in the DECLARE_REGISTRY macro of a class (CMyCertPolicyModule) which implements <a href="https://msdn.microsoft.com/en-us/library/Aa385033(v=VS.85).aspx">ICertPolicy</a>.
 
-
-```cpp
-DECLARE_REGISTRY(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_REGISTRY(
     CMyCertPolicyModule,
     L"MyCode.Policy.1",
     L"MyCode.Policy",
     IDS_CERTPOLICYMODULE_DESC,
-    THREADFLAGS_BOTH);
-```
-
-
+    THREADFLAGS_BOTH);</pre>
+</td>
+</tr>
+</table></span></div>
 For the previous example, the IDS_CERTPOLICYMODULE_DESC value is an application-specific identifier in the resource file (.rc) for a string which describes the class.
 
 String constants defined in Certmod.h can be used to simplify following the naming convention.

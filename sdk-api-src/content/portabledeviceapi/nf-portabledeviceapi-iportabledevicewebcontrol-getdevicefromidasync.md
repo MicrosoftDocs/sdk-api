@@ -126,9 +126,13 @@ A call to this method outside of a Windows Store app running on Windows 8 will r
 
 For WPD devices that use an MTP device service, you can create a COM Automation object to work with the device like this:
 
-
-```javascript
-
+<div class="code"><span codelanguage="JavaScript"><table>
+<tr>
+<th>JavaScript</th>
+</tr>
+<tr>
+<td>
+<pre>
  
 deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
  
@@ -143,10 +147,10 @@ deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
             }
        }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

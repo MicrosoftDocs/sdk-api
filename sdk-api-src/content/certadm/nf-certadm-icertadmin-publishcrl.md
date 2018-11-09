@@ -7,7 +7,7 @@ old-location: security\icertadmin2_publishcrl.htm
 tech.root: seccrypto
 ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],PublishCRL method, ICertAdmin interface [Security],PublishCRL method, ICertAdmin.PublishCRL, ICertAdmin2 interface [Security],PublishCRL method, ICertAdmin2::PublishCRL, ICertAdmin::PublishCRL, PublishCRL, PublishCRL method [Security], PublishCRL method [Security],CCertAdmin object, PublishCRL method [Security],ICertAdmin interface, PublishCRL method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::PublishCRL, certadm/ICertAdmin::PublishCRL, security.icertadmin2_publishcrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,29 +96,33 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 The following example shows publishing a CRL.
 
-
-```cpp
-    DATE ExpDate;  // CRL expiration date
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DATE ExpDate;  // CRL expiration date
     SYSTEMTIME st;
     BSTR bstrCA = NULL;
 
     //  Set the CRL Expiration Date to Noon on Jan. 1, 2005 GMT.
     //  Zero out values first 
 	//  (avoids setting minutes, seconds, and so on).
-    memset(&st, 0, sizeof(SYSTEMTIME));
+    memset(&amp;st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2005;
     st.wMonth = 1;     // Jan
     st.wDay = 1;       // 1st day of month
     st.wHour = 12;     // Noon
 
     //  Place the date in required format.
-    if (!SystemTimeToVariantTime(&st, &ExpDate))
+    if (!SystemTimeToVariantTime(&amp;st, &amp;ExpDate))
     {
         printf("Unable to convert time\n");
         goto error;
     }
 
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -127,17 +131,17 @@ The following example shows publishing a CRL.
 
     //  Publish the CRL.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin->PublishCRL(bstrCA, ExpDate);
+    hr = pCertAdmin-&gt;PublishCRL(bstrCA, ExpDate);
     if (FAILED(hr))
     {
         printf("Failed PublishCRL [%x]\n", hr);
         goto error;
     }
     else
-        printf("PublishCRL succeeded\n");
-```
-
-
+        printf("PublishCRL succeeded\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

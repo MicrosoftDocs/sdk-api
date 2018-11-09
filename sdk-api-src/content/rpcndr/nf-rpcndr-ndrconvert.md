@@ -7,7 +7,7 @@ old-location: rpc\ndrconvert.htm
 tech.root: rpc
 ms.assetid: ee9952c3-04e1-4fc0-a1fb-d50bc60e87f6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: NdrConvert, NdrConvert
 , NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
 ms.prod: windows-hardware

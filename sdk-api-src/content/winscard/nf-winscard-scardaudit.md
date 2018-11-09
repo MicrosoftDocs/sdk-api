@@ -7,7 +7,7 @@ old-location: security\scardaudit.htm
 tech.root: secauthn
 ms.assetid: 5D30DC71-C69A-403B-8658-99C80C268E90
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,9 +147,13 @@ This function is not redirected. An application calling the <b>SCardAudit</b> fu
 
 #### Examples
 
-
-```cpp
-// hContext was set by a previous call to SCardEstablishContext.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardAudit (hContext,
                       SCARD_AUDIT_CHV_SUCCESS);
 
@@ -158,9 +162,9 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardAudit - %x\n", lReturn);
     // Take appropriate action
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

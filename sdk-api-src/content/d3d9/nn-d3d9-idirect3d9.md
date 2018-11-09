@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IDirect3D9, IDirect3D9 interface [Direct3D 9], IDirect3D9 interface [Direct3D 9],described, d3d9helper/IDirect3D9, dc75d960-747a-5bea-1745-0255278bfcd1, direct3d9.idirect3d9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -208,12 +208,16 @@ The LPDIRECT3D9 and PDIRECT3D9 types are defined as pointers to the <b>IDirect3D
     
             
 
-
-```
-typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

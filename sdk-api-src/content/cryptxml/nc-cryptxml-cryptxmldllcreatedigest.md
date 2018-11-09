@@ -7,7 +7,7 @@ old-location: security\cryptxmldllcreatedigest.htm
 tech.root: seccrypto
 ms.assetid: 9c9b14c8-511b-4e40-b3d3-014d75dc7fe4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest callback, CryptXmlDllCreateDigest callback function [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest
 ms.prod: windows
 ms.technology: windows-sdk

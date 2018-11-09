@@ -74,14 +74,18 @@ Represents a buffer and provides convenience methods for creating buffers.
 
 Here is how D3D11.h defines <b>CD3D11_BUFFER_DESC</b>:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 struct CD3D11_BUFFER_DESC : public D3D11_BUFFER_DESC
 {
     CD3D11_BUFFER_DESC()
     {}
-    explicit CD3D11_BUFFER_DESC( const D3D11_BUFFER_DESC& o ) :
+    explicit CD3D11_BUFFER_DESC( const D3D11_BUFFER_DESC&amp; o ) :
         D3D11_BUFFER_DESC( o )
     {}
     explicit CD3D11_BUFFER_DESC(
@@ -100,12 +104,12 @@ struct CD3D11_BUFFER_DESC : public D3D11_BUFFER_DESC
         StructureByteStride = structureByteStride;
     }
     ~CD3D11_BUFFER_DESC() {}
-    operator const D3D11_BUFFER_DESC&() const { return *this; }
+    operator const D3D11_BUFFER_DESC&amp;() const { return *this; }
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\NMDATETIMESTRING.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimestring.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPNMDATETIMESTRINGA, LPNMDATETIMESTRING, LPNMDATETIMESTRING structure pointer [Windows Controls], NMDATETIMESTRING, NMDATETIMESTRING structure [Windows Controls], NMDATETIMESTRINGA, NMDATETIMESTRINGW, _win32_NMDATETIMESTRING, _win32_NMDATETIMESTRING_cpp, commctrl/LPNMDATETIMESTRING, commctrl/NMDATETIMESTRING, commctrl/NMDATETIMESTRINGA, commctrl/NMDATETIMESTRINGW, controls.NMDATETIMESTRING, controls._win32_NMDATETIMESTRING, tagNMDATETIMESTRINGA"
 ms.prod: windows
 ms.technology: windows-sdk

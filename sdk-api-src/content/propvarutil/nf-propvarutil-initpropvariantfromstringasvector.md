@@ -96,19 +96,23 @@ If <i>psz</i> is <b>NULL</b> or contains no values, the <a href="https://msdn.mi
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>.
 
-
-```cpp
-PROPVARIANT propvar;
-HRESULT hr = InitPropVariantFromStringAsVector(L"a; b; c", &propvar);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
+HRESULT hr = InitPropVariantFromStringAsVector(L"a; b; c", &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now has type VT_VECTOR | VT_LPWSTR and contains {"a", "b", "c"}.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

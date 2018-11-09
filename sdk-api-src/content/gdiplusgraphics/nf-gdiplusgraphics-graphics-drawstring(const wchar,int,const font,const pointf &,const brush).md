@@ -132,13 +132,9 @@ The operating system requires elevated privileges to assure that all installed f
 
 The following example draws a string at the specified origin.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawString2(HDC hdc)
+
+```cpp
+VOID Example_DrawString2(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -154,13 +150,13 @@ The following example draws a string at the specified origin.
    graphics.DrawString(
    string,
    11,
-   &amp;myFont,
+   &myFont,
    origin,
-   &amp;blackBrush);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   &blackBrush);
+}
+```
+
+
 
 
 

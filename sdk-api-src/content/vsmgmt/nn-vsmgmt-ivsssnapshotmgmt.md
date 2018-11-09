@@ -103,9 +103,13 @@ The <b>IVssSnapshotMgmt</b> interface can be invoked
 
 #### Examples
 
-
-```cpp
-#include "vss.h"
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include "vss.h"
 #include "vsmgmt.h"
 
 void main()
@@ -124,29 +128,29 @@ void main()
                           NULL,
                           CLSCTX_ALL,
                           IID_IVssSnapshotMgmt,
-                          (void**)&(pMgmt));
+                          (void**)&amp;(pMgmt));
     if (FAILED(hr)) 
     {
         // error handling code
     }
 
-    hr = pMgmt->GetProviderMgmtInterface(ProviderId, 
+    hr = pMgmt-&gt;GetProviderMgmtInterface(ProviderId, 
                                          IID_IVssDifferentialSoftwareSnapshotMgmt, 
-                                         (IUnknown**)&pDiffMgmt);
+                                         (IUnknown**)&amp;pDiffMgmt);
     if (FAILED(hr)) 
     {
-        pMgmt->Release();
+        pMgmt-&gt;Release();
     }
 
     // processing code
 
-    pDiffMgmt->Release();
-    pMgmt->Release();
+    pDiffMgmt-&gt;Release();
+    pMgmt-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

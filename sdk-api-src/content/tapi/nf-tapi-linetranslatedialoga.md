@@ -7,7 +7,7 @@ old-location: tapi2\linetranslatedialog.htm
 tech.root: tapi
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "_tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog"
 ms.prod: windows-hardware
 ms.technology: windows-devices

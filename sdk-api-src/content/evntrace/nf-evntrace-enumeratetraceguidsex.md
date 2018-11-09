@@ -7,7 +7,7 @@ old-location: etw\enumeratetraceguidsex.htm
 tech.root: etw
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.enumeratetraceguidsex, etw.enumeratetraceguidsex, evntrace/EnumerateTraceGuidsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,17 +156,13 @@ For information on registering event trace providers, see
 
 The following example shows you how to call this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;evntcons.h&gt;
 
-DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO &amp; pInfo);
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <evntcons.h>
+
+DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO & pInfo);
 
 void wmain(void)
 {
@@ -184,7 +180,7 @@ void wmain(void)
 
     // Get the required buffer size for the query.
 
-    status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &amp;RequiredListSize);
+    status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &RequiredListSize);
 
     // The number of registered providers could change between the 
     // time you called to get the buffer size and the time you called
@@ -208,7 +204,7 @@ void wmain(void)
 
         ZeroMemory(pGuids, GuidListSize);
 
-        status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &amp;RequiredListSize);
+        status = EnumerateTraceGuidsEx(TraceGuidQueryList, NULL, 0, pGuids, GuidListSize, &RequiredListSize);
     }
 
     if (ERROR_SUCCESS == status)
@@ -219,7 +215,7 @@ void wmain(void)
         // about how it was registered. If a session enabled the
         // provider, get information on how the session enabled the provider.
 
-        for (USHORT i = 0; i &lt; GuidCount; i++)
+        for (USHORT i = 0; i < GuidCount; i++)
         {
             StringFromGUID2(pGuids[i], ProviderGuid, sizeof(ProviderGuid)),
 
@@ -231,22 +227,22 @@ void wmain(void)
             {
                 pInstance = (PTRACE_PROVIDER_INSTANCE_INFO)((PBYTE)pInfo + sizeof(TRACE_GUID_INFO));
 
-                if (pInfo-&gt;InstanceCount &gt; 1)
+                if (pInfo->InstanceCount > 1)
                 {
-                    wprintf(L"There are %d providers that use the same GUID.\n", pInfo-&gt;InstanceCount);
+                    wprintf(L"There are %d providers that use the same GUID.\n", pInfo->InstanceCount);
                 }
 
-                for (DWORD j = 0; j &lt; pInfo-&gt;InstanceCount; j++)
+                for (DWORD j = 0; j < pInfo->InstanceCount; j++)
                 {
-                    wprintf(L"\tThe PID of the process that registered the provider is %lu.\n", pInstance-&gt;Pid);
+                    wprintf(L"\tThe PID of the process that registered the provider is %lu.\n", pInstance->Pid);
 
-                    if ((pInstance-&gt;Flags &amp; TRACE_PROVIDER_FLAG_PRE_ENABLE) == TRACE_PROVIDER_FLAG_PRE_ENABLE)
+                    if ((pInstance->Flags & TRACE_PROVIDER_FLAG_PRE_ENABLE) == TRACE_PROVIDER_FLAG_PRE_ENABLE)
                     {
                         wprintf(L"\tThe provider is not registered; however, one or more sessions have enabled the provider.\n");
                     }
                     else
                     {
-                        if ((pInstance-&gt;Flags &amp; TRACE_PROVIDER_FLAG_LEGACY) == TRACE_PROVIDER_FLAG_LEGACY)
+                        if ((pInstance->Flags & TRACE_PROVIDER_FLAG_LEGACY) == TRACE_PROVIDER_FLAG_LEGACY)
                         {
                             wprintf(L"\tThe provider used RegisterTraceGuids to register itself.\n");
                         }
@@ -256,29 +252,29 @@ void wmain(void)
                         }
                     }
 
-                    if (pInstance-&gt;EnableCount &gt; 0)
+                    if (pInstance->EnableCount > 0)
                     {
                         wprintf(L"\tThe provider is enabled to the following sessions.\n");
 
                         pEnable = (PTRACE_ENABLE_INFO)((PBYTE)pInstance + sizeof(TRACE_PROVIDER_INSTANCE_INFO));
 
-                        for (DWORD k = 0; k &lt; pInstance-&gt;EnableCount; k++)
+                        for (DWORD k = 0; k < pInstance->EnableCount; k++)
                         {
-                            wprintf(L"\t\tSession Id: %hu\n", pEnable-&gt;LoggerId);
-                            wprintf(L"\t\tLevel used to enable the provider: %hu\n", pEnable-&gt;Level);
-                            wprintf(L"\t\tMatchAnyKeyword value used to enable the provider: %I64u\n", pEnable-&gt;MatchAnyKeyword);
-                            wprintf(L"\t\tMatchAllKeyword value used to enable the provider: %I64u\n", pEnable-&gt;MatchAllKeyword);
+                            wprintf(L"\t\tSession Id: %hu\n", pEnable->LoggerId);
+                            wprintf(L"\t\tLevel used to enable the provider: %hu\n", pEnable->Level);
+                            wprintf(L"\t\tMatchAnyKeyword value used to enable the provider: %I64u\n", pEnable->MatchAnyKeyword);
+                            wprintf(L"\t\tMatchAllKeyword value used to enable the provider: %I64u\n", pEnable->MatchAllKeyword);
 
-                            if (pEnable-&gt;EnableProperty &gt; 0)
+                            if (pEnable->EnableProperty > 0)
                             {
                                 wprintf(L"\t\tThe session requested that the following information be included with each event:\n");
 
-                                if ((pEnable-&gt;EnableProperty &amp; EVENT_ENABLE_PROPERTY_SID) == EVENT_ENABLE_PROPERTY_SID)
+                                if ((pEnable->EnableProperty & EVENT_ENABLE_PROPERTY_SID) == EVENT_ENABLE_PROPERTY_SID)
                                 {
                                     wprintf(L"\t\t\tThe SID of the user that logged the event\n");
                                 }
 
-                                if ((pEnable-&gt;EnableProperty &amp; EVENT_ENABLE_PROPERTY_TS_ID) == EVENT_ENABLE_PROPERTY_TS_ID)
+                                if ((pEnable->EnableProperty & EVENT_ENABLE_PROPERTY_TS_ID) == EVENT_ENABLE_PROPERTY_TS_ID)
                                 {
                                     wprintf(L"\t\t\tThe terminal session ID\n");
                                 }
@@ -290,7 +286,7 @@ void wmain(void)
                         }
                     }
 
-                    pInstance = (PTRACE_PROVIDER_INSTANCE_INFO)((PBYTE)pInstance + pInstance-&gt;NextOffset);
+                    pInstance = (PTRACE_PROVIDER_INSTANCE_INFO)((PBYTE)pInstance + pInstance->NextOffset);
 
                     wprintf(L"\n");
                 }
@@ -329,14 +325,14 @@ cleanup:
 
 // Get information about the specified provider.
 
-DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO &amp; pInfo)
+DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO & pInfo)
 {
     ULONG status = ERROR_SUCCESS;
     PTRACE_GUID_INFO pTemp = NULL;
     DWORD InfoListSize = 0;
     DWORD RequiredListSize = 0;
 
-    status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &amp;ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &amp;RequiredListSize);
+    status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &RequiredListSize);
 
     while (ERROR_INSUFFICIENT_BUFFER == status)
     {
@@ -355,7 +351,7 @@ DWORD GetProviderInfo(GUID ProviderGuid, PTRACE_GUID_INFO &amp; pInfo)
 
         ZeroMemory(pInfo, InfoListSize);
 
-        status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &amp;ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &amp;RequiredListSize);
+        status = EnumerateTraceGuidsEx(TraceGuidQueryInfo, &ProviderGuid, sizeof(GUID), pInfo, InfoListSize, &RequiredListSize);
     }
 
     if (ERROR_SUCCESS != status)
@@ -367,10 +363,10 @@ cleanup:
 
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\igetclusternodeinfo_getnodehandle.htm
 tech.root: mscs
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: GetNodeHandle, GetNodeHandle method [Failover Cluster], GetNodeHandle method [Failover Cluster],IGetClusterNodeInfo interface, IGetClusterNodeInfo interface [Failover Cluster],GetNodeHandle method, IGetClusterNodeInfo.GetNodeHandle, IGetClusterNodeInfo::GetNodeHandle, _wolf_igetclusternodeinfo_getnodehandle, cluadmex/IGetClusterNodeInfo::GetNodeHandle, mscs.igetclusternodeinfo_getnodehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

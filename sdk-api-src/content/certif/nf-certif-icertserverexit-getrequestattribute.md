@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getrequestattribute.htm
 tech.root: seccrypto
 ms.assetid: 894bde77-5e76-452b-acf5-c73fcaf1fa31
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerExit object, GetRequestAttribute method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestAttribute method, ICertServerExit.GetRequestAttribute, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,17 +122,21 @@ The following request attributes are unique to KEYGEN style requests.
 
 #### Examples
 
-
-```cpp
-BSTR       bstrAttribValue = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR       bstrAttribValue = NULL;
 HRESULT    hr;
 
 // Get the request attribute.
 // bstrAttribName is a BSTR assigned by EnumerateAttributes.
 // Also, ICertServerExit::SetContext has already been
 // called by pCertServerExit.
-hr = pCertServerExit->GetRequestAttribute(bstrAttribName,
-                                          &bstrAttribValue);
+hr = pCertServerExit-&gt;GetRequestAttribute(bstrAttribName,
+                                          &amp;bstrAttribValue);
 
 if (FAILED(hr))
 {
@@ -148,10 +152,10 @@ else
 
 // Done processing. Free BSTR.
 if (NULL != bstrAttribValue)
-    SysFreeString(bstrAttribValue);
-```
-
-
+    SysFreeString(bstrAttribValue);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

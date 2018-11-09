@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_seteditpropertyset.htm
 tech.root: DirectShow
 ms.assetid: 40695c7c-7381-44c0-b41f-7c838c9c83b5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditPropertySet method, IAMExtTransport.SetEditPropertySet, IAMExtTransport::SetEditPropertySet, IAMExtTransportSetEditPropertySet, SetEditPropertySet, SetEditPropertySet method [DirectShow], SetEditPropertySet method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditpropertyset, strmif/IAMExtTransport::SetEditPropertySet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,12 +128,16 @@ To create and execute an edit event, the application must do the following:
 </ul>
 For example, the following code configures an insert edit on all tracks:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Register an edit property set ID. (Causes memory to be allocated.)
 long EditId;
-SetEditPropertySet(&EditId, ED_REGISTER);  
+SetEditPropertySet(&amp;EditId, ED_REGISTER);  
 
 // Set the edit mode.
 SetEditProperty(EditId, ED_EDIT_MODE, ED_EDIT_MODE_INSERT);
@@ -148,15 +152,15 @@ SetEditProperty(EditId, ED_EDIT_REC_INPOINT, 100)
 SetEditProperty(EditId, ED_EDIT_REC_OUTPOINT, 400)
 
 // Activate the edit event.
-SetEditPropertySet(&EditId, ED_ACTIVE); 
+SetEditPropertySet(&amp;EditId, ED_ACTIVE); 
 // Cue up the machine.
 SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE); 
 
 // Run the graph. (Not shown.)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
 <a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MSDV</a> does not support this method. It returns E_NOTIMPL.

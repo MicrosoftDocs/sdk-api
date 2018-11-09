@@ -7,7 +7,7 @@ old-location: gdi\getdibcolortable.htm
 tech.root: gdi
 ms.assetid: 3e3319be-8a3d-4ac2-ba36-9dbf18243472
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetDIBColorTable, GetDIBColorTable function [Windows GDI], _win32_GetDIBColorTable, gdi.getdibcolortable, wingdi/GetDIBColorTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

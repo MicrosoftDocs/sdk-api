@@ -89,13 +89,17 @@ The miter length is the distance from the intersection of the line walls on the 
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object and gets the miter limit.
 
-
-```cpp
-Pen pen(Color(255,255,0,0), 4.0f);
-REAL miterLimit = pen.GetMiterLimit(); 
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Pen pen(Color(255,255,0,0), 4.0f);
+REAL miterLimit = pen.GetMiterLimit(); </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

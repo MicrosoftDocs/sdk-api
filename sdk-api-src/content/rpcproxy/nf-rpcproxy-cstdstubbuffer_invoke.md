@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_invoke.htm
 tech.root: rpc
 ms.assetid: ad092a99-5a30-489a-9743-a06b148e9797
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CStdStubBuffer_Invoke, CStdStubBuffer_Invoke function [RPC], rpc.cstdstubbuffer_invoke, rpcproxy/CStdStubBuffer_Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

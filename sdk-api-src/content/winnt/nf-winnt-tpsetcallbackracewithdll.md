@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackracewithdll.htm
 tech.root: procthread
 ms.assetid: 14519064-450C-409E-AA2D-B4EF4D43C180
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: TpSetCallbackRaceWithDll, TpSetCallbackRaceWithDll function, base.tpsetcallbackracewithdll, winnt/TpSetCallbackRaceWithDll
 ms.prod: windows-hardware
 ms.technology: windows-devices

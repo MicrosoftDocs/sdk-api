@@ -96,9 +96,13 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 The following example sets a color transformation matrix that converts the colors displayed in the magnifier to grayscale.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Converts the colors displayed in the magnifier window to grayscale, or
 //   returns the colors to normal.
 // Parameters:
@@ -119,7 +123,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
                 {  0.0f,  0.0f,  0.0f,  0.0f,  1.0f } 
             }};
 
-        return MagSetColorEffect(hwndMag, &magEffectGrayscale);
+        return MagSetColorEffect(hwndMag, &amp;magEffectGrayscale);
     }
 
     // Return the colors to normal.
@@ -128,10 +132,10 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
         return MagSetColorEffect(hwndMag, NULL);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

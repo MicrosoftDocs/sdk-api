@@ -118,23 +118,27 @@ You must initialize Component Object Model (COM) with <a href="https://msdn.micr
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
 
-
-```cpp
-// IShellItem *psi;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IShellItem *psi;
 // Assume variable psi is valid and initialized.
 IPropertyStore *pStore;
 
-HRESULT hr = PSGetItemPropertyHandler(psi, FALSE, IID_PPV_ARGS(&pStore));
+HRESULT hr = PSGetItemPropertyHandler(psi, FALSE, IID_PPV_ARGS(&amp;pStore));
 
 if (SUCCEEDED(hr))
 {
     // pStore is now valid and contains properties exposed through the 
     // property handler for the item.
  
-    pStore->Release();
-}
-```
-
-
+    pStore-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

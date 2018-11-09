@@ -7,7 +7,7 @@ old-location: security\lsasettrusteddomaininformation.htm
 tech.root: secmgmt
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

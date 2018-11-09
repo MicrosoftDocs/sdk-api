@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexbuffer9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 618275d7-1a22-b2cf-581b-9cf2495dc642, IDirect3DVertexBuffer9, IDirect3DVertexBuffer9 interface [Direct3D 9], IDirect3DVertexBuffer9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexBuffer9, direct3d9.idirect3dvertexbuffer9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,14 +114,18 @@ The LPDIRECT3DVERTEXBUFFER9 and PDIRECT3DVERTEXBUFFER9 types are defined as poin
 
     
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef struct IDirect3DVertexBuffer9 *LPDIRECT3DVERTEXBUFFER9, *PDIRECT3DVERTEXBUFFER9;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

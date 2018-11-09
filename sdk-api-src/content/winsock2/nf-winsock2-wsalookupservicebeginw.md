@@ -7,7 +7,7 @@ old-location: winsock\wsalookupservicebegin_2.htm
 tech.root: winsock
 ms.assetid: 448309ef-b9dd-4960-8016-d26691df59ec
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_RES_SERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, WSALookupServiceBegin, WSALookupServiceBegin function [Winsock], WSALookupServiceBeginA, WSALookupServiceBeginW, _win32_wsalookupservicebegin_2, winsock.wsalookupservicebegin_2, winsock2/WSALookupServiceBegin, winsock2/WSALookupServiceBeginA, winsock2/WSALookupServiceBeginW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -370,16 +370,20 @@ Some name service providers can have other means of finding containers. For exam
 
 The preferred method of obtaining the containers within another container, is the call:
 
-
-```cpp
-dwStatus = WSALookupServiceBegin(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>dwStatus = WSALookupServiceBegin(
       lpqsRestrictions,
       LUP_CONTAINERS,
       lphLookup);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This call is followed by the requisite number of 
 <a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a> calls. This will return all containers contained immediately within the starting context; that is, it is not a deep query. With this, one can map the address space structure by walking the hierarchy, perhaps enumerating the content of selected containers. Subsequent uses of 
 <b>WSALookupServiceBegin</b> use the containers returned from a previous call.

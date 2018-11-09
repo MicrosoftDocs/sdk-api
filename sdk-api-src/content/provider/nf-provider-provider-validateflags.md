@@ -112,9 +112,13 @@ This helper method can be called by an override of any of the following virtual 
 </ul>
 The values for <i>IAcceptableFlags</i> are limited to the <a href="https://msdn.microsoft.com/B5F1F8DD-9769-40A6-B743-4F4DF4B8C363">FlagDefs</a> enumeration defined as the following:
 
-
-```cpp
-    enum FlagDefs
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    enum FlagDefs
     {
         EnumerationFlags = 0,
         GetObjFlags = 0,
@@ -124,9 +128,9 @@ The values for <i>IAcceptableFlags</i> are limited to the <a href="https://msdn.
                             WBEM_FLAG_CREATE_ONLY |
                             WBEM_FLAG_UPDATE_ONLY),
         QueryFlags = 0
-    };
-```
-
-
+    };</pre>
+</td>
+</tr>
+</table></span></div>
 
 

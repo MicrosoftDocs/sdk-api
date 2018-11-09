@@ -7,7 +7,7 @@ old-location: controls\ComboBox_AddString.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_addstring.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ComboBox_AddString, ComboBox_AddString macro [Windows Controls], _win32_ComboBox_AddString, _win32_ComboBox_AddString_cpp, controls.ComboBox_AddString, controls._win32_ComboBox_AddString, windowsx/ComboBox_AddString
 ms.prod: windows-hardware
 ms.technology: windows-devices

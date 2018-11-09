@@ -7,7 +7,7 @@ old-location: security\icenroll4_requeststoretype.htm
 tech.root: seccrypto
 ms.assetid: cc0d09bc-3589-454d-a1fe-141af46bc45b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnroll object [Security],RequestStoreType property, ICEnroll interface [Security],RequestStoreType property, ICEnroll.RequestStoreType, ICEnroll.get_RequestStoreType, ICEnroll2 interface [Security],RequestStoreType property, ICEnroll2.RequestStoreType, ICEnroll2::get_RequestStoreType, ICEnroll2::put_RequestStoreType, ICEnroll3 interface [Security],RequestStoreType property, ICEnroll3.RequestStoreType, ICEnroll3::get_RequestStoreType, ICEnroll3::put_RequestStoreType, ICEnroll4 interface [Security],RequestStoreType property, ICEnroll4.RequestStoreType, ICEnroll4::RequestStoreType, ICEnroll4::get_RequestStoreType, ICEnroll4::put_RequestStoreType, ICEnroll::get_RequestStoreType, ICEnroll::put_RequestStoreType, RequestStoreType property [Security], RequestStoreType property [Security],CEnroll object, RequestStoreType property [Security],ICEnroll interface, RequestStoreType property [Security],ICEnroll2 interface, RequestStoreType property [Security],ICEnroll3 interface, RequestStoreType property [Security],ICEnroll4 interface, get_RequestStoreType, security.icenroll4_requeststoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::RequestStoreType, xenroll/ICEnroll2::get_RequestStoreType, xenroll/ICEnroll2::put_RequestStoreType, xenroll/ICEnroll3::RequestStoreType, xenroll/ICEnroll3::get_RequestStoreType, xenroll/ICEnroll3::put_RequestStoreType, xenroll/ICEnroll4::RequestStoreType, xenroll/ICEnroll4::get_RequestStoreType, xenroll/ICEnroll4::put_RequestStoreType, xenroll/ICEnroll::RequestStoreType, xenroll/ICEnroll::get_RequestStoreType, xenroll/ICEnroll::put_RequestStoreType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,19 +109,15 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrStoreType = NULL;
+
+```cpp
+BSTR     bstrStoreType = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storetype
-hr = pEnroll-&gt;get_RequestStoreType( &amp;bstrStoreType );
+hr = pEnroll->get_RequestStoreType( &bstrStoreType );
 if ( FAILED ( hr ) )
     printf("Failed getting RequestStoreType - %x\n", hr );
 else
@@ -132,13 +128,13 @@ if ( NULL != bstrStoreType )
 
 // set the storetype
 // bstrNewType is a BSTR that is previously set to a valid store type
-hr = pEnroll-&gt;put_RequestStoreType( bstrNewType );
+hr = pEnroll->put_RequestStoreType( bstrNewType );
 if ( FAILED ( hr ) )
     printf("Failed setting RequestStoreType - %x\n", hr );
 else
-    printf( "RequestStoreType was set to %ws\n", bstrNewType );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "RequestStoreType was set to %ws\n", bstrNewType );
+```
+
+
 
 

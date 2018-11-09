@@ -88,20 +88,28 @@ This method is used to modify the object path and retain the original object pat
 
 The following Visual Basic code example shows how to make a copy of a pathname.
 
-
-```vb
-Dim x, y As New Pathname
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x, y As New Pathname
 x.Set "LDAP://srv1/dc=dom,dc=company,dc=com",ADS_SETTYPE_FULL
 set y = x.CopyPath
-MsgBox y.Retrieve(ADS_FORMAT_WINDOWS)
-```
-
-
+MsgBox y.Retrieve(ADS_FORMAT_WINDOWS)</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript/ASP code example shows how to make a copy of a pathname.
 
-
-```vb
-<%
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%
 Dim x, y
 Const ADS_SETTYPE_FULL = 1
 Const ADS_FORMAT_WINDOWS = 1
@@ -110,17 +118,21 @@ x.Set "LDAP://srv1/dc=dom,dc=company,dc=com",ADS_SETTYPE_FULL
  
 set y = x.CopyPath
 Response.Write y.Retrieve(ADS_FORMAT_WINDOWS)
-%>
-```
-
-
+%&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example creates a copy of a pathname object. For more information and a code example 
      of the <b>GetPathnameObject</b> function, see 
      <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>.
 
-
-```cpp
-IADsPathname *pPath;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPathname *pPath;
 LPWSTR adsPath;
 adsPath = L"LDAP://server/cn=jeff smith,dc=Fabrikam,dc=com";
  
@@ -129,16 +141,16 @@ if (!pPath) exit(0);
  
 IDispatch *pDisp;
 HRESULT hr;
-hr = pPath->CopyPath(&pDisp);
+hr = pPath-&gt;CopyPath(&amp;pDisp);
 if(FAILED(hr)) exit(hr);
  
 IADsPathname *pPathCopy;
-hr = pDisp->QueryInterface(IID_IADsPathname,(void**)&pPathCopy);
+hr = pDisp-&gt;QueryInterface(IID_IADsPathname,(void**)&amp;pPathCopy);
  
-// ...
-```
-
-
+// ...</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

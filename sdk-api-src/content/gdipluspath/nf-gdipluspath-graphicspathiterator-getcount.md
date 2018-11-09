@@ -86,9 +86,13 @@ This <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">G
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and then adds a rectangle and an ellipse to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <b>GraphicsPathIterator::GetCount</b> method to determine the number of data points in the path. The call to <a href="https://msdn.microsoft.com/en-us/library/ms535453(v=VS.85).aspx">GraphicsPathIterator::Enumerate</a> retrieves two arrays from the path: one that holds the path's data points and one that holds the path's point types. After the data points have been retrieved, the code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535967(v=VS.85).aspx">FillEllipse</a> method of a  object to draw each of the data points.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID GetCountExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -99,7 +103,7 @@ VOID GetCountExample(HDC hdc)
    path.AddEllipse(Rect(20, 70, 100, 50));
 
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&path);
+   GraphicsPathIterator iterator(&amp;amp;path);
 
    // Get the number of data points in the path.
    INT count = iterator.GetCount();
@@ -111,9 +115,9 @@ VOID GetCountExample(HDC hdc)
 
    // Draw the data points.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j < count; ++j)
+   for(INT j = 0; j &amp;lt; count; ++j)
       graphics.FillEllipse(
-         &brush,
+         &amp;amp;brush,
          points[j].X - 3.0f, 
          points[j].Y - 3.0f,
          6.0f,
@@ -122,10 +126,10 @@ VOID GetCountExample(HDC hdc)
    delete points;
    delete types;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -143,23 +143,27 @@ If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// IPropertyStore *ppropstore;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore->GetValue(PKEY_Keywords, &propvar);
+HRESULT hr = ppropstore-&gt;GetValue(PKEY_Keywords, &amp;propvar);
 if (SUCCEEDED(hr))
 {
          // PKEY_Keywords is expected to produce a VT_VECTOR | VT_LPWSTR, or VT_EMPTY
          // PropVariantToStringVectorAlloc will return an error for VT_EMPTY
          LPWSTR *prgKeywords;
          ULONG cElem;
-         hr = PropVariantToStringVectorAlloc (propvar, &prgKeywords, &cElem);
+         hr = PropVariantToStringVectorAlloc (propvar, &amp;prgKeywords, &amp;cElem);
          if (SUCCEEDED(hr))
          {
                  // prgKeywords contains cElem strings
-                 for (ULONG i = 0; i < cElem; i++)
+                 for (ULONG i = 0; i &lt; cElem; i++)
                  {
                           CoTaskMemFree(prgKeywords[i]);
                  }
@@ -169,11 +173,11 @@ if (SUCCEEDED(hr))
          {
                  // propvar either is VT_EMPTY, or contains something other than a vector of  strings
          }
-         PropVariantClear(&propvar);
-}
-```
-
-
+         PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

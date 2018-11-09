@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo.htm
 tech.root: tapi
 ms.assetid: 0f82a6f4-26a6-48dc-9bfa-a86edf1b6be4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITLocationInfo, ITLocationInfo interface [TAPI 2.2], ITLocationInfo interface [TAPI 2.2],described, _tapi3_itlocationinfo, tapi3.itlocationinfo, tapi3if/ITLocationInfo
 ms.prod: windows
 ms.technology: windows-sdk

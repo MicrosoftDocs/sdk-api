@@ -7,7 +7,7 @@ old-location: security\icenroll4_rootstorename.htm
 tech.root: seccrypto
 ms.assetid: 5b686ade-e8ee-4c59-ab90-05088f575acd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnroll object [Security],RootStoreName property, ICEnroll interface [Security],RootStoreName property, ICEnroll.RootStoreName, ICEnroll.get_RootStoreName, ICEnroll2 interface [Security],RootStoreName property, ICEnroll2.RootStoreName, ICEnroll2::get_RootStoreName, ICEnroll2::put_RootStoreName, ICEnroll3 interface [Security],RootStoreName property, ICEnroll3.RootStoreName, ICEnroll3::get_RootStoreName, ICEnroll3::put_RootStoreName, ICEnroll4 interface [Security],RootStoreName property, ICEnroll4.RootStoreName, ICEnroll4::RootStoreName, ICEnroll4::get_RootStoreName, ICEnroll4::put_RootStoreName, ICEnroll::get_RootStoreName, ICEnroll::put_RootStoreName, RootStoreName property [Security], RootStoreName property [Security],CEnroll object, RootStoreName property [Security],ICEnroll interface, RootStoreName property [Security],ICEnroll2 interface, RootStoreName property [Security],ICEnroll3 interface, RootStoreName property [Security],ICEnroll4 interface, get_RootStoreName, security.icenroll4_rootstorename, xenroll/ICEnroll2::RootStoreName, xenroll/ICEnroll2::get_RootStoreName, xenroll/ICEnroll2::put_RootStoreName, xenroll/ICEnroll3::RootStoreName, xenroll/ICEnroll3::get_RootStoreName, xenroll/ICEnroll3::put_RootStoreName, xenroll/ICEnroll4::RootStoreName, xenroll/ICEnroll4::get_RootStoreName, xenroll/ICEnroll4::put_RootStoreName, xenroll/ICEnroll::RootStoreName, xenroll/ICEnroll::get_RootStoreName, xenroll/ICEnroll::put_RootStoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,19 +98,15 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrStoreName = NULL;
+
+```cpp
+BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storename
-hr = pEnroll-&gt;get_RootStoreName( &amp;bstrStoreName );
+hr = pEnroll->get_RootStoreName( &bstrStoreName );
 if ( FAILED ( hr ) )
     printf("Failed getting RootStoreName - %x\n", hr );
 else
@@ -121,13 +117,13 @@ if ( NULL != bstrStoreName )
 
 // set the storename
 // bstrNewName is a BSTR that is previously set to a valid store name
-hr = pEnroll-&gt;put_RootStoreName( bstrNewName );
+hr = pEnroll->put_RootStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting RootStoreName - %x\n", hr );
 else
-    printf( "RootStoreName was set to : %ws\n", bstrNewName );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "RootStoreName was set to : %ws\n", bstrNewName );
+```
+
+
 
 

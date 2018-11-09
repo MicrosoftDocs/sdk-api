@@ -7,7 +7,7 @@ old-location: security\icertadmin2_resubmitrequest.htm
 tech.root: seccrypto
 ms.assetid: 610712d9-3661-42ba-9d2f-27862ba8dbd4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],ResubmitRequest method, ICertAdmin interface [Security],ResubmitRequest method, ICertAdmin.ResubmitRequest, ICertAdmin2 interface [Security],ResubmitRequest method, ICertAdmin2::ResubmitRequest, ICertAdmin::ResubmitRequest, ResubmitRequest, ResubmitRequest method [Security], ResubmitRequest method [Security],CCertAdmin object, ResubmitRequest method [Security],ICertAdmin interface, ResubmitRequest method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ResubmitRequest, certadm/ICertAdmin::ResubmitRequest, security.icertadmin2_resubmitrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -179,18 +179,22 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certadm.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certadm.h&gt;
 
 
     long nDisp;  // disposition value
-    long nReqID = <REQUESTIDHERE>;
+    long nReqID = &lt;REQUESTIDHERE&gt;;
     BSTR bstrCA = NULL;
 
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -198,7 +202,7 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     }
 
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin->ResubmitRequest(bstrCA, nReqID, &nDisp);
+    hr = pCertAdmin-&gt;ResubmitRequest(bstrCA, nReqID, &amp;nDisp);
     if (FAILED(hr))
     {
         printf("Failed ResubmitRequest [%x]\n", hr);
@@ -211,10 +215,10 @@ error:
     //  Free resources.
     if (bstrCA)
         SysFreeString(bstrCA);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

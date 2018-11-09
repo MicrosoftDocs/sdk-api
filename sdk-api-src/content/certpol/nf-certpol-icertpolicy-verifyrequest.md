@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_verifyrequest.htm
 tech.root: seccrypto
 ms.assetid: 860f0eb0-5b23-44bd-8416-687a94962f1b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertPolicy object [Security],VerifyRequest method, ICertPolicy interface [Security],VerifyRequest method, ICertPolicy.VerifyRequest, ICertPolicy2 interface [Security],VerifyRequest method, ICertPolicy2::VerifyRequest, ICertPolicy::VerifyRequest, VR_INSTANT_BAD, VR_INSTANT_OK, VR_PENDING, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],CCertPolicy object, VerifyRequest method [Security],ICertPolicy interface, VerifyRequest method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_verifyrequest, certpol/ICertPolicy2::VerifyRequest, certpol/ICertPolicy::VerifyRequest, security.icertpolicy2_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,11 +203,15 @@ When you write custom policy modules, you must implement <b>VerifyRequest</b> fu
 
 The following example shows a possible implementation of the <b>VerifyRequest</b> method.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Certpol.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Certpol.h&gt;
 
 STDMETHODIMP CCertPolicy::VerifyRequest(
              BSTR const strConfig,
@@ -237,7 +241,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertServerPolicy,
-                           (void **) &pServer);
+                           (void **) &amp;pServer);
     if (FAILED( hr ))
     {
         printf("Failed CoCreateInstance for pServer - %x\n", hr );
@@ -245,7 +249,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
     }
 
     // Set the context to refer to this request.
-    hr = pServer->SetContext(Context);
+    hr = pServer-&gt;SetContext(Context);
     if (FAILED( hr ))
     {
         printf("Failed SetContext(%u) - %x\n", Context, hr );
@@ -264,10 +268,10 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
 
     // Retrieve the certificate property for the CN.
     // Actual implementations may want to examine other properties.
-    VariantInit( &varProp );
-    hr = pServer->GetCertificateProperty( bstrPropName,
+    VariantInit( &amp;varProp );
+    hr = pServer-&gt;GetCertificateProperty( bstrPropName,
                                           PROPTYPE_STRING,
-                                          &varProp );
+                                          &amp;varProp );
     if (FAILED(hr))
     {
         printf("Failed GetCertificateProperty - %x\n", hr);
@@ -286,18 +290,18 @@ error:
 
     // Free resources.
     if (NULL != pServer)
-        pServer->Release();
+        pServer-&gt;Release();
 
-    VariantClear( &varProp );
+    VariantClear( &amp;varProp );
 
     if ( NULL != bstrPropName )
         SysFreeString( bstrPropName );
 
     return(hr);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

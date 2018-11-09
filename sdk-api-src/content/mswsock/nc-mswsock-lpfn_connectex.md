@@ -7,7 +7,7 @@ old-location: winsock\connectex_2.htm
 tech.root: winsock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -375,17 +375,21 @@ When the
 
 For example:
 
-
-```cpp
-//Need to #include <mswsock.h> for SO_UPDATE_CONNECT_CONTEXT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//Need to #include &lt;mswsock.h&gt; for SO_UPDATE_CONNECT_CONTEXT
 
 int iResult = 0;
 
 iResult = setsockopt( s, SOL_SOCKET, SO_UPDATE_CONNECT_CONTEXT, NULL, 0 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The 
 <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function can be used with the <b>SO_CONNECT_TIME</b> socket option to check whether a connection has been established while 
 <b>ConnectEx</b> is in progress. If a connection has been established, the 
@@ -394,17 +398,21 @@ the returned <i>optval</i> parameter contains 0xFFFFFFFF. Checking a connection 
 
 For example:
 
-
-```cpp
-
-//Need to #include <mswsock.h> for SO_CONNECT_TIME
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+//Need to #include &lt;mswsock.h&gt; for SO_CONNECT_TIME
 
 int seconds;
 int bytes = sizeof(seconds);
 int iResult = 0;
 
 iResult = getsockopt( s, SOL_SOCKET, SO_CONNECT_TIME,
-                      (char *)&seconds, (PINT)&bytes );
+                      (char *)&amp;seconds, (PINT)&amp;bytes );
 if ( iResult != NO_ERROR ) {
     printf( "getsockopt(SO_CONNECT_TIME) failed with error: %u\n", 
         WSAGetLastError() );
@@ -416,10 +424,10 @@ else {
        printf("Connection has been established %ld seconds\n",
            seconds);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 <div class="alert"><b>Note</b>  If a socket is opened, a 
 <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> call is made, and then a 

@@ -135,21 +135,25 @@ For more information about property schemas, see <a href="https://msdn.microsoft
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762079(v=VS.85).aspx">PSGetPropertyDescriptionListFromString</a>.
 
-
-```cpp
-IPropertyDescriptionList *pList;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPropertyDescriptionList *pList;
 
 HRESULT hr = PSGetPropertyDescriptionListFromString(L"prop:System.Title;System.Size",
-                                                    IID_PPV_ARGS(&pList));
+                                                    IID_PPV_ARGS(&amp;pList));
                                                     
 if (SUCCEEDED(hr))
 {
     // pList is now valid.
  
-    pList->Release();
-}
-```
-
-
+    pList-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

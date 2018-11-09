@@ -7,7 +7,7 @@ old-location: shell\IShellView2_CreateViewWindow2.htm
 tech.root: shell
 ms.assetid: 3b829f5f-26ea-4987-be05-6725eeff5fed
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateViewWindow2, CreateViewWindow2 method [Windows Shell], CreateViewWindow2 method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],CreateViewWindow2 method, IShellView2.CreateViewWindow2, IShellView2::CreateViewWindow2, _win32_IShellView2_CreateViewWindow2, shell.IShellView2_CreateViewWindow2, shobjidl_core/IShellView2::CreateViewWindow2
 ms.prod: windows-hardware
 ms.technology: windows-devices

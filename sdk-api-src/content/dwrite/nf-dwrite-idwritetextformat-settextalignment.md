@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_SetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 2e7554e3-4e0c-45b1-a874-a3054b0e91dc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTextAlignment method, IDWriteTextFormat.SetTextAlignment, IDWriteTextFormat::SetTextAlignment, SetTextAlignment, SetTextAlignment method [Direct Write], SetTextAlignment method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTextAlignment, dwrite/IDWriteTextFormat::SetTextAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,20 +123,16 @@ See <a href="https://msdn.microsoft.com/76b347f8-185b-4da6-9647-4d066334ac12">DW
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr))
+
+```cpp
+if (SUCCEEDED(hr))
 {
-    hr = pTextFormat_-&gt;SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
+    hr = pTextFormat_->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

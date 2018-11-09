@@ -96,20 +96,24 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VARIANT var;
 
-```cpp
-VARIANT var;
-
-HRESULT hr = InitVariantFromUInt16(3, &var);
+HRESULT hr = InitVariantFromUInt16(3, &amp;var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_UI2.
-    VariantClear(&propvar);
-}
-```
-
-
+    VariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

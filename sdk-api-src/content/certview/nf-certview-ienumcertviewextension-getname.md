@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_getname.htm
 tech.root: seccrypto
 ms.assetid: 7c56708c-ae25-46f5-94f3-d58eea8d08d4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CEnumCERTVIEWEXTENSION object, GetName method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetName method, IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,12 +103,16 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 #### Examples
 
-
-```cpp
-BSTR  bstrExtName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR  bstrExtName = NULL;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt->GetName(&bstrExtName);
+hr = pEnumExt-&gt;GetName(&amp;bstrExtName);
 if (S_OK == hr)
     printf("Extension name is: %ws\n", bstrExtName);
 else
@@ -116,10 +120,10 @@ else
 
 // free memory when done
 if (NULL != bstrExtName)
-    SysFreeString(bstrExtName);
-```
-
-
+    SysFreeString(bstrExtName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

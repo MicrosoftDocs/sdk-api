@@ -7,7 +7,7 @@ old-location: mf\id3d11videodecoderoutputview.htm
 tech.root: medfound
 ms.assetid: 389E0CCC-4DD2-4E82-84D7-3794AEE59208
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ID3D11VideoDecoderOutputView, ID3D11VideoDecoderOutputView interface [Media Foundation], ID3D11VideoDecoderOutputView interface [Media Foundation],described, d3d11/ID3D11VideoDecoderOutputView, mf.id3d11videodecoderoutputview
 ms.prod: windows
 ms.technology: windows-sdk

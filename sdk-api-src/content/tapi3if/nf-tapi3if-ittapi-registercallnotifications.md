@@ -7,7 +7,7 @@ old-location: tapi3\ittapi_registercallnotifications.htm
 tech.root: tapi
 ms.assetid: 335deb2c-7700-4101-b6fa-f7fe0f248307
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterCallNotifications method, ITTAPI.RegisterCallNotifications, ITTAPI::RegisterCallNotifications, RegisterCallNotifications, RegisterCallNotifications method [TAPI 2.2], RegisterCallNotifications method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registercallnotifications, tapi3.ittapi_registercallnotifications, tapi3if/ITTAPI::RegisterCallNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

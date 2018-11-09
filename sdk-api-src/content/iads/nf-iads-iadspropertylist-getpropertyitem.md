@@ -242,9 +242,13 @@ The property of the <a href="https://msdn.microsoft.com/7cad4d04-80d4-4f9a-95b7-
 
 The following  code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method.
 
-
-```vb
-Const ADSTYPE_CASE_IGNORE_STRING = 3
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const ADSTYPE_CASE_IGNORE_STRING = 3
 Dim propList As IADsPropertyList
 Dim propEntry As IADsPropertyEntry
 Dim propVal As IADsPropertyValue
@@ -265,16 +269,20 @@ Next
 Set propList = Nothing
 Set propEntry = Nothing
 Set propVal = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="https://msdn.microsoft.com/en-us/library/Aa706102(v=VS.85).aspx">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
 
-
-```cpp
-#include <activeds.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;activeds.h&gt;
+#include &lt;stdio.h&gt;
  
 /////////////////////////////////////////////////////////
 // Function to retrieve a specified property entry 
@@ -287,7 +295,7 @@ IADsPropertyEntry *GetPropertyItem(
 {
    IADsPropertyEntry *pEntry;
    VARIANT var;
-   VariantInit(&var);
+   VariantInit(&amp;var);
 
    if(!pList || !entryName)
    {
@@ -296,10 +304,10 @@ IADsPropertyEntry *GetPropertyItem(
    }
  
    // Get a property entry.
-   hr = pList->GetPropertyItem(entryName, entryType, &var);
-   hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
-                                         (void**)&pEntry);
-   VariantClear(&var);
+   hr = pList-&gt;GetPropertyItem(entryName, entryType, &amp;var);
+   hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADsPropertyEntry,
+                                         (void**)&amp;pEntry);
+   VariantClear(&amp;var);
  
    return pEntry;
 }
@@ -320,7 +328,7 @@ if(pList)
 if(pEntry)
 { 
     BSTR nm;
-    HRESULT hr = pEntry->get_Name(&nm);
+    HRESULT hr = pEntry-&gt;get_Name(&amp;nm);
     if(SUCCEEDED(hr))
     {
         printf("Property name = %S\n",nm);
@@ -329,12 +337,12 @@ if(pEntry)
 }
  
 if(pList)
-    pList->Release();
+    pList-&gt;Release();
 if(pEntry)
-    pEntry->Release();
-```
-
-
+    pEntry-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

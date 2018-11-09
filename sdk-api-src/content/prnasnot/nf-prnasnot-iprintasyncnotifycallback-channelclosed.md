@@ -99,9 +99,13 @@ For more information about COM error codes, see <a href="https://msdn.microsoft.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 if (SUCCEEDED(hr)){
   // Call was successful 
 }
@@ -123,10 +127,10 @@ if (FAILED(hr)) {
 } else {
   // Call succeeded 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

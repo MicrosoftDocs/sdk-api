@@ -7,8 +7,8 @@ old-location: base\mapviewoffilefromapp.htm
 tech.root: memory
 ms.assetid: 59369959-3347-44d0-8b08-5c38ac58fdb0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
-ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_READ, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
+ms.date: 11/08/2018
+ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,8 +74,8 @@ A handle to a file mapping object. The
 
 ### -param DesiredAccess [in]
 
-The type of access to a file mapping object, which determines the protection of the pages. This parameter can 
-       be one of the following values.
+The type of access to a file mapping object, which determines the page protection of the pages. This 
+      parameter can be one of the following values, or a bitwise OR combination of multiple values where appropriate.
 
 <table>
 <tr>
@@ -91,31 +91,8 @@ The type of access to a file mapping object, which determines the protection of 
 A read/write view of the file is mapped. The file mapping object must have been created with 
          <b>PAGE_READWRITE</b> protection.
 
-When used with the <b>MapViewOfFileFromApp</b> 
-         function, <b>FILE_MAP_ALL_ACCESS</b> is equivalent to 
+When used with <b>MapViewOfFileFromApp</b>, <b>FILE_MAP_ALL_ACCESS</b> is equivalent to 
          <b>FILE_MAP_WRITE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_MAP_COPY"></a><a id="file_map_copy"></a><dl>
-<dt><b>FILE_MAP_COPY</b></dt>
-</dl>
-</td>
-<td width="60%">
-A copy-on-write view of the file is mapped. The file mapping object must have been created with 
-         <b>PAGE_READONLY</b>, <b>PAGE_READ_EXECUTE</b>, 
-         <b>PAGE_WRITECOPY</b>, or 
-         <b>PAGE_READWRITE</b> protection.
-
-When a process writes to a copy-on-write page, the system copies the original page to a new page that is 
-         private to the process. The new page is backed by the paging file. The protection of the new page changes 
-         from copy-on-write to read/write.
-
-When copy-on-write access is specified, the system and process commit charge taken is for the entire view 
-         because the calling process can potentially write to every page in the view, making all pages private. The 
-         contents of the new page are never written back to the original file and are lost when the view is 
-         unmapped.
 
 </td>
 </tr>
@@ -144,15 +121,72 @@ A read/write view of the file is mapped. The file mapping object must have been 
          <b>PAGE_READWRITE</b> protection.
 
 When used with <b>MapViewOfFileFromApp</b>, 
-         (<b>FILE_MAP_WRITE</b> | <b>FILE_MAP_READ</b>) and 
-         <b>FILE_MAP_ALL_ACCESS</b> are equivalent to <b>FILE_MAP_WRITE</b>.
+         <code>(FILE_MAP_WRITE | FILE_MAP_READ)</code> is equivalent to <b>FILE_MAP_WRITE</b>.
 
 </td>
 </tr>
 </table>
  
 
-For more information about access to file mapping objects, see 
+Using bitwise OR, you can combine the values above with these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_MAP_COPY"></a><a id="file_map_copy"></a><dl>
+<dt><b>FILE_MAP_COPY</b></dt>
+</dl>
+</td>
+<td width="60%">
+A copy-on-write view of the file is mapped. The file mapping object must have been created with 
+         <b>PAGE_READONLY</b>, <b>PAGE_READ_EXECUTE</b>, 
+         <b>PAGE_WRITECOPY</b>, or 
+         <b>PAGE_READWRITE</b> protection.
+
+When a process writes to a copy-on-write page, the system copies the original page to a new page that is 
+         private to the process. The new page is backed by the paging file. The protection of the new page changes 
+         from copy-on-write to read/write.
+
+When copy-on-write access is specified, the system and process commit charge taken is for the entire view 
+         because the calling process can potentially write to every page in the view, making all pages private. The 
+         contents of the new page are never written back to the original file and are lost when the view is 
+         unmapped.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_MAP_LARGE_PAGES"></a><a id="file_map_large_pages"></a><dl>
+<dt><b>FILE_MAP_LARGE_PAGES</b></dt>
+</dl>
+</td>
+<td width="60%">
+Starting with Windows 10, version 1703, this flag specifies that the view should be mapped using <a href="https://msdn.microsoft.com/060115af-38d1-499c-b30c-47cd0cf42d20">large page support</a>. The size of the view must be a multiple of the size of a 
+         large page reported by the 
+         <a href="https://msdn.microsoft.com/ccde687d-ee8f-4668-93c1-a1fece86c2f6">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for <i>lpBaseAddress</i>, then the value must be a multiple of <b>GetLargePageMinimum</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_MAP_TARGETS_INVALID"></a><a id="file_map_targets_invalid"></a><dl>
+<dt><b>FILE_MAP_TARGETS_INVALID</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets all the locations in the mapped file as invalid targets for Control Flow Guard (CFG). This flag is similar to <b>PAGE_TARGETS_INVALID</b>. Use this flag in combination with the execute access right <b>FILE_MAP_EXECUTE</b>. Any indirect call to locations in those pages will fail CFG checks, and the process will be terminated. The default behavior for executable pages allocated is to be marked valid call targets for CFG.
+
+</td>
+</tr>
+</table>
+ 
+
+For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the 
+       <i>dwDesiredAccess</i> parameter has no effect, and should be set to any valid value such as 
+       <b>FILE_MAP_READ</b>.
+
+For more information  about access to file mapping objects, see 
        <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
 
 
@@ -197,6 +231,8 @@ The exception is related to remote files. Although
     does not keep them coherent. For example, if two computers both map a file as writable, and both change the same 
     page, each computer only sees its own writes to the page. When the data gets updated on the disk, it is not 
     merged.
+
+ You can only successfully request executable protection if your app has the <b>codeGeneration</b> capability.
 
 
 

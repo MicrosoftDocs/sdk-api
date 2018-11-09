@@ -138,9 +138,13 @@ The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 #include "vss.h"
 #include "vsmgmt.h"
 
@@ -174,9 +178,9 @@ STDMETHODIMP CheckAsrBackupErrorMsg
       const WCHAR              *pwszWriterName
 )
 {
-    CComPtr<IVssWriterComponentsExt> spWriter;
-    CComPtr<IVssComponent>   spComponent;
-    CComPtr<IVssComponentEx> spComponentEx;
+    CComPtr&lt;IVssWriterComponentsExt&gt; spWriter;
+    CComPtr&lt;IVssComponent&gt;   spComponent;
+    CComPtr&lt;IVssComponentEx&gt; spComponentEx;
     UINT    cWriterComponents = 0;
     UINT    iWriterComponent = 0;
     UINT    cComponents = 0;
@@ -188,33 +192,33 @@ STDMETHODIMP CheckAsrBackupErrorMsg
     CHKARG_ASSERT( pBackup );
     CHKARG_ASSERT( pwszWriterName );
 
-    CHK( pBackup->GetWriterComponentsCount( &cWriterComponents ) );
+    CHK( pBackup-&gt;GetWriterComponentsCount( &amp;cWriterComponents ) );
 
-    for( iWriterComponent = 0; iWriterComponent < cWriterComponents; iWriterComponent++ )
+    for( iWriterComponent = 0; iWriterComponent &lt; cWriterComponents; iWriterComponent++ )
     {
         spWriter.Release();
-        CHK( pBackup->GetWriterComponents( iWriterComponent, &spWriter ) );
-        CHK( spWriter->GetWriterInfo(&idInstance, &idWriter) );
+        CHK( pBackup-&gt;GetWriterComponents( iWriterComponent, &amp;spWriter ) );
+        CHK( spWriter-&gt;GetWriterInfo(&amp;idInstance, &amp;idWriter) );
         if( idWriter != c_ASRWriterId )
         {
             continue;
         }
         
-        CHK( spWriter->GetComponentCount(&cComponents) );
-        for( iComponent = 0; iComponent < cComponents; iComponent++ )
+        CHK( spWriter-&gt;GetComponentCount(&amp;cComponents) );
+        for( iComponent = 0; iComponent &lt; cComponents; iComponent++ )
         {
             spComponent.Release();
             spComponentEx.Release();
-            CHK( spWriter->GetComponent(iComponent, &spComponent) );
-            CHK( spComponent->QueryInterface(__uuidof(IVssComponentEx), (void**)&spComponentEx) );
+            CHK( spWriter-&gt;GetComponent(iComponent, &amp;spComponent) );
+            CHK( spComponent-&gt;QueryInterface(__uuidof(IVssComponentEx), (void**)&amp;spComponentEx) );
 
             bstrFailureMsg.Empty();
-            CHK( spComponentEx->GetPrepareForBackupFailureMsg(&bstrFailureMsg) );
+            CHK( spComponentEx-&gt;GetPrepareForBackupFailureMsg(&amp;bstrFailureMsg) );
 
             if( ::SysStringLen(bstrFailureMsg) != 0 )
             {
                 //  Write into the event log.
-                Log_SPP_ERROR_WRITER( &ft, __LINE__, pwszWriterName, bstrFailureMsg );
+                Log_SPP_ERROR_WRITER( &amp;ft, __LINE__, pwszWriterName, bstrFailureMsg );
 
                 //  The ASR writer writes the same message to all components. 
                 //  Log the message once.
@@ -227,10 +231,10 @@ exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

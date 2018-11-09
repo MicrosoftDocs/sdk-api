@@ -107,34 +107,38 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object and sets the type of hot key prefix processing to be performed on the string. The code then uses the 
 						<b>StringFormat</b> object to draw a string that contains the hot key prefix character. The code also draws the string's layout rectangle.
 
-
-```cpp
-VOID Example_SetHotkeyPrefix(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetHotkeyPrefix(HDC hdc)
 {
    Graphics graphics(hdc);
 
    SolidBrush  solidBrush(Color(255, 255, 0, 0)); 
    FontFamily  fontFamily(L"Times New Roman");
-   Font        font(&fontFamily, 24, FontStyleRegular, UnitPixel);
+   Font        font(&amp;fontFamily, 24, FontStyleRegular, UnitPixel);
    
    StringFormat stringFormat;
    stringFormat.SetHotkeyPrefix(HotkeyPrefixShow);
 
    graphics.DrawString(
-      L"This &text has some &underlined characters.", 
+      L"This &amp;text has some &amp;underlined characters.", 
       43,  // string length
-      &font, 
+      &amp;font, 
       RectF(30, 30, 160, 200), 
-      &stringFormat, 
-      &solidBrush);
+      &amp;stringFormat, 
+      &amp;solidBrush);
 
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&pen, 30, 30, 160, 200);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, 30, 30, 160, 200);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

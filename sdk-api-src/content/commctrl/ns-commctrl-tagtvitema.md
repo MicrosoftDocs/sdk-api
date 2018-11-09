@@ -7,7 +7,7 @@ old-location: controls\TVITEM.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitem.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPTVITEMA, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEM, LPTVITEM structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_HANDLE, TVIF_IMAGE, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_TEXT, TVITEM, TVITEM structure [Windows Controls], TVITEMA, TVITEMW, _win32_TVITEM, _win32_TVITEM_cpp, commctrl/LPTVITEM, commctrl/TVITEM, commctrl/TVITEMA, commctrl/TVITEMW, controls.TVITEM, controls._win32_TVITEM, one, tagTVITEMA, zero"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -293,12 +293,16 @@ If the tree-view control has the <a href="https://msdn.microsoft.com/en-us/libra
 
 
 <div class="alert"><b>Note</b>  This flag may not be supported in future versions of Comctl32.dll. Also, this flag is not defined in commctrl.h. Add the following definition to the source files of your application to use the flag: 
-
-```
-#define I_CHILDRENAUTO (-2)
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define I_CHILDRENAUTO (-2)</pre>
+</td>
+</tr>
+</table></span></div>
 </div>
 <div> </div>
 </td>

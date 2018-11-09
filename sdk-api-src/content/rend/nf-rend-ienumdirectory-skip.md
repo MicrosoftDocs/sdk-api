@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectory_skip.htm
 tech.root: tapi
 ms.assetid: 45694bee-52d8-4a44-bc14-b9d03355bce1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: IEnumDirectory interface [TAPI 2.2],Skip method, IEnumDirectory.Skip, IEnumDirectory::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDirectory interface, _tapi3_ienumdirectory_skip, rend/IEnumDirectory::Skip, tapi3.ienumdirectory_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

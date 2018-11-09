@@ -7,7 +7,7 @@ old-location: shell\IHandlerInfo_GetApplicationIconReference.htm
 tech.root: shell
 ms.assetid: be886508-16a5-4a77-9fa4-b6a8d028c9e9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetApplicationIconReference, GetApplicationIconReference method [Windows Shell], GetApplicationIconReference method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationIconReference method, IHandlerInfo.GetApplicationIconReference, IHandlerInfo::GetApplicationIconReference, shell.IHandlerInfo_GetApplicationIconReference, shobjidl_core/IHandlerInfo::GetApplicationIconReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

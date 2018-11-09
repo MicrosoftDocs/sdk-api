@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_getdisplayname.htm
 tech.root: seccrypto
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Security], GetDisplayName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetDisplayName method, IEnumCERTVIEWCOLUMN.GetDisplayName, IEnumCERTVIEWCOLUMN::GetDisplayName, _certsrv_ienumcertviewcolumn_getdisplayname, certview/IEnumCERTVIEWCOLUMN::GetDisplayName, security.ienumcertviewcolumn_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,22 +101,26 @@ If the column-enumeration sequence is  not referencing a valid column, <b>GetDis
 
 #### Examples
 
-
-```cpp
-BSTR     bstrDisplay = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrDisplay = NULL;
 HRESULT  hr;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object.
-hr = pEnumCol->GetDisplayName(&bstrDisplay);
+hr = pEnumCol-&gt;GetDisplayName(&amp;bstrDisplay);
 if (S_OK == hr)
     printf("Column name is %ws\n", bstrDisplay);
 
 // Done processing, clear resources.
 if (NULL != bstrDisplay)
-    SysFreeString(bstrDisplay);
-```
-
-
+    SysFreeString(bstrDisplay);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

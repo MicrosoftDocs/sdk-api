@@ -233,15 +233,19 @@ The following code sample demonstrates how to return group account information u
 <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> function to convert the name to Unicode. The sample calls 
 <b>NetQueryDisplayInformation</b>, specifying information level 3 (<a href="https://msdn.microsoft.com/8e467f20-2cfb-40ae-a8b2-a5350d736eed">NET_DISPLAY_GROUP</a>) to retrieve group account information. If there are entries to return, the sample returns the data and prints the group information. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 
 #pragma comment(lib, "netapi32.lib")
 
@@ -255,7 +259,7 @@ void main( int argc, char *argv[ ] )
    //
    TCHAR szServer[255]=TEXT(""); 
 
-   if(argc > 1) 
+   if(argc &gt; 1) 
       //
       // Check to see if a server name was passed;
       //  if so, convert it to Unicode.
@@ -268,14 +272,14 @@ void main( int argc, char *argv[ ] )
       // Call the NetQueryDisplayInformation function;
       //   specify information level 3 (group account information).
       //
-      res = NetQueryDisplayInformation(szServer, 3, i, 1000, MAX_PREFERRED_LENGTH, &dwRec, (PVOID*) &pBuff);
+      res = NetQueryDisplayInformation(szServer, 3, i, 1000, MAX_PREFERRED_LENGTH, &amp;dwRec, (PVOID*) &amp;pBuff);
       //
       // If the call succeeds,
       //
       if((res==ERROR_SUCCESS) || (res==ERROR_MORE_DATA))
       {
          p = pBuff;
-         for(;dwRec>0;dwRec--)
+         for(;dwRec&gt;0;dwRec--)
          {
             //
             // Print the retrieved group information.
@@ -285,14 +289,14 @@ void main( int argc, char *argv[ ] )
                   "Group ID:  %u\n"
                   "Attributes: %u\n"
                   "--------------------------------\n",
-                  p->grpi3_name,
-                  p->grpi3_comment,
-                  p->grpi3_group_id,
-                  p->grpi3_attributes);
+                  p-&gt;grpi3_name,
+                  p-&gt;grpi3_comment,
+                  p-&gt;grpi3_group_id,
+                  p-&gt;grpi3_attributes);
             //
             // If there is more data, set the index.
             //
-            i = p->grpi3_next_index;
+            i = p-&gt;grpi3_next_index;
             p++;
          }
          //
@@ -308,10 +312,10 @@ void main( int argc, char *argv[ ] )
    } while (res==ERROR_MORE_DATA); // end do
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

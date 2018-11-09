@@ -7,7 +7,7 @@ old-location: tapi3\itaddresscapabilities_get_deviceclasses.htm
 tech.root: tapi
 ms.assetid: 34c662c6-4166-470f-aaaf-001da4ed048a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_DeviceClasses method, ITAddressCapabilities.get_DeviceClasses, ITAddressCapabilities::get_DeviceClasses, _tapi3_itaddresscapabilities_get_deviceclasses, get_DeviceClasses, get_DeviceClasses method [TAPI 2.2], get_DeviceClasses method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_deviceclasses, tapi3if/ITAddressCapabilities::get_DeviceClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

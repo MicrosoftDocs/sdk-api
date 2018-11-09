@@ -7,7 +7,7 @@ old-location: winsock\getnameinfow.htm
 tech.root: winsock
 ms.assetid: 5630a49a-c182-440c-ad54-6ff3ba4274c6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetNameInfoW, GetNameInfoW function [Winsock], winsock.getnameinfow, ws2tcpip/GetNameInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -189,16 +189,20 @@ Macros in the Winsock header file define a mixed-case function name of <b>GetNam
 
 To simplify determining buffer requirements for the <i>pNodeBuffer</i> and <i>pServiceBuffer</i> parameters, the following values for maximum host name length and maximum service name are defined in the <i>Ws2tcpip.h</i> header file:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define NI_MAXSERV    32
 #define NI_MAXHOST  1025
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 The <i>Flags</i> parameter can be used to customize processing of the 
 <b>GetNameInfoW</b> function. The following flags are available:
@@ -244,17 +248,21 @@ Setting the <b>NI_DGRAM</b> flag indicates that the service is a datagram servic
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>GetNameInfoW</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -282,7 +290,7 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -296,7 +304,7 @@ int __cdecl main(int argc, char **argv)
 
     //-----------------------------------------
     // Call GetNameInfoW
-    dwRetval = GetNameInfoW((struct sockaddr *) &saGNI,
+    dwRetval = GetNameInfoW((struct sockaddr *) &amp;saGNI,
                            sizeof (struct sockaddr),
                            hostname,
                            NI_MAXHOST, servInfo, NI_MAXSERV, NI_NUMERICSERV);
@@ -309,10 +317,10 @@ int __cdecl main(int argc, char **argv)
         return 0;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

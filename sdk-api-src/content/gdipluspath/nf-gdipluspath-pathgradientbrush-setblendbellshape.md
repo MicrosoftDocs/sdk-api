@@ -104,9 +104,13 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendBellShape</b> method of the 
 						<b>PathGradientBrush</b>object, passing a focus of 0.2 and a scale of 0.7. Then the code uses the path gradient brush to paint a rectangle that contains the ellipse.
 
-
-```cpp
-VOID Example_SetBlendShape(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetBlendShape(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -115,7 +119,7 @@ VOID Example_SetBlendShape(HDC hdc)
    path.AddEllipse(0, 0, 200, 100);
 
    // Use the path to construct a brush.
-   PathGradientBrush pthGrBrush(&path);
+   PathGradientBrush pthGrBrush(&amp;path);
 
    // Set the color at the center of the path to red.
    pthGrBrush.SetCenterColor(Color(255, 255, 0, 0));
@@ -123,7 +127,7 @@ VOID Example_SetBlendShape(HDC hdc)
    // Set the color along the entire boundary of the path to blue.
    Color colors[] = {Color(255, 0, 0, 255)};
    INT count = 1;
-   pthGrBrush.SetSurroundColors(colors, &count);
+   pthGrBrush.SetSurroundColors(colors, &amp;count);
 
    pthGrBrush.SetBlendBellShape(0.2f, 0.7f);
 
@@ -131,11 +135,11 @@ VOID Example_SetBlendShape(HDC hdc)
    // At points that are 20 percent of the way from the boundary to the
    // center, the color is 70 percent red and 30 percent blue.
 
-   graphics.FillRectangle(&pthGrBrush, 0, 0, 300, 300); 
-}
-```
-
-
+   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 300, 300); 
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

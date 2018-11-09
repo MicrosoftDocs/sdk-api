@@ -95,15 +95,19 @@ This function performs the same action as <a href="https://msdn.microsoft.com/en
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
 
 
-
-```cpp
-// PROPVARIANT rgpropvar[5];
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT rgpropvar[5];
 // Assume all 5 propvariants are initialized and valid.
 
-ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
-```
-
-
+ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

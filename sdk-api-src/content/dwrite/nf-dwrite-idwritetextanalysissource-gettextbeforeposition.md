@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissource_gettextbeforeposition.htm
 tech.root: DirectWrite
 ms.assetid: af09985b-5f05-47da-be32-cc591fa58765
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: GetTextBeforePosition, GetTextBeforePosition method [Direct Write], GetTextBeforePosition method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetTextBeforePosition method, IDWriteTextAnalysisSource.GetTextBeforePosition, IDWriteTextAnalysisSource::GetTextBeforePosition, directwrite.idwritetextanalysissource_gettextbeforeposition, dwrite/IDWriteTextAnalysisSource::GetTextBeforePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

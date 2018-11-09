@@ -105,13 +105,9 @@ If the point is inside this region, this method returns <b>TRUE</b>; otherwise, 
 
 The following example creates a region from a path and then tests to determine whether a point is inside the region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_IsVisibleXY(HDC hdc)
+
+```cpp
+VOID Example_IsVisibleXY(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -129,13 +125,13 @@ The following example creates a region from a path and then tests to determine w
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&amp;path);
-   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+   Region pathRegion(&path);
+   graphics.FillRegion(&solidBrush, &pathRegion);
 
    // Check to see whether the point (125, 40) is in the region.
    INT x = 125;
    INT y = 40;
-   if(pathRegion.IsVisible(x, y, &amp;graphics))
+   if(pathRegion.IsVisible(x, y, &graphics))
    {
 
       // The point is in the region.
@@ -143,11 +139,11 @@ The following example creates a region from a path and then tests to determine w
 
    // Fill a small circle centered at the point (125, 40).
    SolidBrush brush(Color(255, 0, 0, 0));
-   graphics.FillEllipse(&amp;brush, x - 4, y - 4, 8, 8);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&brush, x - 4, y - 4, 8, 8);
+}
+```
+
+
 
 
 

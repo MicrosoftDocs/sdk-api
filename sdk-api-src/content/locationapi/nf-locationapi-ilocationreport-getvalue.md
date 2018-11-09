@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationreport_getvalue.htm
 tech.root: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: GetValue, GetValue method [WinLocation], GetValue method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetValue method, ILocationReport.GetValue, ILocationReport::GetValue, WinLocation_COM_Ref.ilocationreport_getvalue, locationapi/ILocationReport::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -399,19 +399,27 @@ Resolution values are expressed by using the same units as the data field, excep
 
 The following example demonstrates how to call <b>GetValue</b> to get a property value.  You must include sensors.h to use the constant in the example.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 PROPVARIANT pv;				
-HRESULT hr = spLatLongReport->GetValue(SENSOR_DATA_TYPE_LATITUDE_DEGREES, &pv);
-```
-
-
+HRESULT hr = spLatLongReport-&gt;GetValue(SENSOR_DATA_TYPE_LATITUDE_DEGREES, &amp;pv);</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to implement <b>GetValue</b> in your own report object. This implementation allows the caller to get values for several location report fields. This code requires you to include sensors.h and provarutil.h.
 
-
-```cpp
-STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
 {
     HRESULT hr = S_OK;
 
@@ -463,10 +471,10 @@ STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: controls\ITextRange_FindText.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtext.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: FindText, FindText method [Windows Controls], FindText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindText method, ITextRange.FindText, ITextRange::FindText, _win32_ITextRange_FindText, _win32_ITextRange_FindText_cpp, controls.ITextRange_FindText, controls._win32_ITextRange_FindText, tom/ITextRange::FindText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,9 +161,13 @@ Example #1. The following Microsoft Visual Basic for Applications (VBA) program 
 
 
 
-
-```
-Sub PrintComments (r As ITextRange)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub PrintComments (r As ITextRange)
     r.SetRange 0, 0                                      'r = insertion pt at start of story
     Do While r.FindText("/*") And r.FindTextEnd("*/")    'Select comment
         r.MoveStart tomCharacter, 2                      'But do not include the opening or 
@@ -171,38 +175,50 @@ Sub PrintComments (r As ITextRange)
         r.MoveEnd tomCharacter, -2                       
         Print r                                          'Show the folks
     Loop
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Instead of these comments being printed, they could be inserted into another edit instance and saved to a file, or they could be inserted into separate cells in a table or spreadsheet.
 
 To print all lines containing one or more occurrences of the word "laser", replace the loop by the following code:
 
-
-```
-    While r.FindText("laser")            // Select next occurrence of "laser"
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    While r.FindText("laser")            // Select next occurrence of "laser"
         r.Expand tomLine                // Select enclosing line    
         Print r                    // Print the line
-    Wend
-```
-
-
+    Wend</pre>
+</td>
+</tr>
+</table></span></div>
 Example #2. The following program prints a telephone list, given a story that contains an address list. The address list entries are separated by two or more paragraph marks, and each entry has the following form.
 
-
-```
-Person/Business Name
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Person/Business Name
 Address (one or more lines)
-(area code) telephone number 
-```
-
-
+(area code) telephone number </pre>
+</td>
+</tr>
+</table></span></div>
 Note the use of the character <code>^p</code> in the <b>FindText</b> string argument to locate a pair of consecutive paragraph marks.
 
-
-```
-Sub PrintTelephoneList (r As ITextRange)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub PrintTelephoneList (r As ITextRange)
     r.SetRange 0, 0                 // r = insertion point at start of story
     r.MoveWhile C1_WHITE            // Bypass any initial white space
     Do
@@ -215,33 +231,41 @@ Sub PrintTelephoneList (r As ITextRange)
         r.EndOf tomParagraph, 1        // Select line with telephone number
         Print r                    // Print it
     Loop While r.FindText("^p^p")        // Find two consecutive para marks
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Example #3. The following subroutine replaces all occurrences of the string, str1, in a range by str2:
 
-
-```
-Sub Replace ( tr As ITextRange, str1 As String, str2 As String )
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Sub Replace ( tr As ITextRange, str1 As String, str2 As String )
     Dim r As ITextRange
     r = tr.Duplicate                // Copy tr parameters to r
     r.End = r.Start                    // Convert to insertion point at Start
     While r.FindText(str1, tr.End - r.End)        // Match next occurrence of str
         r = str2                // Replace it with rep
     Wend                        // Iterate till no more matches
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 Example #4. The following line of code inserts a blank before the first occurrence of a right parenthesis, "(", that follows an occurrence of HRESULT. 
 
-
-```
-    If r.FindText("HRESULT") And r.FindText("(") Then r = " ("
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    If r.FindText("HRESULT") And r.FindText("(") Then r = " ("</pre>
+</td>
+</tr>
+</table></span></div>
 To do this for all such occurrences, change the If into a While/Wend loop in the above line of code. This an example of a <b>FIND/REPLACE</b> macro that cannot be run with <b>Find and Replace</b> dialog boxes.
 
 

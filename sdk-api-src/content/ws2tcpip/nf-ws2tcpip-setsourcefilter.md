@@ -7,7 +7,7 @@ old-location: winsock\setsourcefilter.htm
 tech.root: winsock
 ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextContainer.htm
 tech.root: WinAuto
 ms.assetid: 67E1F709-DF8E-4B79-A6B0-1466D27FD437
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextContainer property, IUIAutomationTextChildPattern.TextContainer, IUIAutomationTextChildPattern.get_TextContainer, IUIAutomationTextChildPattern::TextContainer, IUIAutomationTextChildPattern::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextContainer, uiautomationclient/IUIAutomationTextChildPattern::TextContainer, uiautomationclient/IUIAutomationTextChildPattern::get_TextContainer, winauto.uiauto_IUIAutomationTextChildPattern_TextContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

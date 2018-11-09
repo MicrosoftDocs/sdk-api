@@ -7,7 +7,7 @@ old-location: devinst\setupwritetextlogerror.htm
 tech.root: devinst
 ms.assetid: 9b52d5a7-4a7f-49eb-86c4-cc0434b54232
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SetupWriteTextLogError, SetupWriteTextLogError function [Device and Driver Installation], devinst.setupwritetextlogerror, setupapi/SetupWriteTextLogError, setupapilog-ref_886f507a-408e-4745-b9d2-ea0cf1bf7250.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ A SetupAPI-specific error code or a Win32 error code. The SetupAPI-specific erro
 A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. 
 
 
-### -param arg1
+### -param arg6
 
 A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>. 
 

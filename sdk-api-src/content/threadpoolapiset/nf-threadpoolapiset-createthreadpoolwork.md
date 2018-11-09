@@ -7,7 +7,7 @@ old-location: base\createthreadpoolwork.htm
 tech.root: procthread
 ms.assetid: 50647d87-1768-4918-8376-a6a04daca621
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CreateThreadpoolWork, CreateThreadpoolWork function, base.createthreadpoolwork, threadpoolapiset/CreateThreadpoolWork
 ms.prod: windows-hardware
 ms.technology: windows-devices

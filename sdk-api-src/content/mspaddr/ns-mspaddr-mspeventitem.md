@@ -7,7 +7,7 @@ old-location: tapi3\mspeventitem.htm
 tech.root: tapi
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: "*PMSPEVENTITEM, MSPEVENTITEM, MSPEVENTITEM structure [TAPI 2.2], PMSPEVENTITEM, PMSPEVENTITEM structure pointer [TAPI 2.2], _tapi3_mspeventitem, mspaddr/MSPEVENTITEM, mspaddr/PMSPEVENTITEM, tapi3.mspeventitem"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_updateterminallist.htm
 tech.root: tapi
 ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],UpdateTerminalList method, CMSPAddress.UpdateTerminalList, CMSPAddress::UpdateTerminalList, UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -145,18 +145,22 @@ This method was added in Windows Server 2003 to enable binary compatibility whe
 <div class="alert"><b>Note</b>  For Windows Server 2003, it is recommended that hardware providers implement this method using 
     the following example:</div>
 <div> </div>
-
-```cpp
-HRESULT PostFinalCommitSnapshots(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT PostFinalCommitSnapshots(
     VSS_ID     /* SnapshotSetId */
 )
 {
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

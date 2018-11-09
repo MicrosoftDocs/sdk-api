@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__checkdevicemultisampletype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdevicemultisampletype.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: 38d1da74-ccb7-0331-69f5-3bcd3ba4721c, CheckDeviceMultiSampleType, CheckDeviceMultiSampleType method [Direct3D 9], CheckDeviceMultiSampleType method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceMultiSampleType method, IDirect3D9.CheckDeviceMultiSampleType, IDirect3D9::CheckDeviceMultiSampleType, d3d9helper/IDirect3D9::CheckDeviceMultiSampleType, direct3d9.idirect3d9__checkdevicemultisampletype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,20 +121,24 @@ This method is intended for use with both render-target and depth-stencil surfac
 
 The following code fragment shows how you could use <b>CheckDeviceMultiSampleType</b> to test for devices that support a specific multisampling method.
 
-
-```
-
-if( SUCCEEDED(pD3D->CheckDeviceMultiSampleType( pCaps->AdapterOrdinal, 
-                                pCaps->DeviceType, BackBufferFormat, 
-                                FALSE, D3DMULTISAMPLE_3_SAMPLES, NULL ) ) &&
-         SUCCEEDED(pD3D->CheckDeviceMultiSampleType( pCaps->AdapterOrdinal, 
-                                pCaps->DeviceType, DepthBufferFormat, 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+if( SUCCEEDED(pD3D-&gt;CheckDeviceMultiSampleType( pCaps-&gt;AdapterOrdinal, 
+                                pCaps-&gt;DeviceType, BackBufferFormat, 
+                                FALSE, D3DMULTISAMPLE_3_SAMPLES, NULL ) ) &amp;&amp;
+         SUCCEEDED(pD3D-&gt;CheckDeviceMultiSampleType( pCaps-&gt;AdapterOrdinal, 
+                                pCaps-&gt;DeviceType, DepthBufferFormat, 
                                 FALSE, D3DMULTISAMPLE_3_SAMPLES, NULL ) ) )
     return S_OK;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The preceding code will return S_OK if the device supports the full-screen D3DMULTISAMPLE_3_SAMPLES multisampling method with the surface format.
 
 See the remarks in <a href="https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx">D3DMULTISAMPLE_TYPE</a> for additional information on working with and setting multisample types and quality levels.

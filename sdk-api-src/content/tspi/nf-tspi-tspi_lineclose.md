@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineclose.htm
 tech.root: tapi
 ms.assetid: d1041620-609b-476b-bdb7-e1e0cebd74f1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: TSPI_lineClose, TSPI_lineClose function [TAPI 2.2], _tspi_tspi_lineclose, tspi.tspi_lineclose, tspi/TSPI_lineClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

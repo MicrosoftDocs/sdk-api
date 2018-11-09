@@ -7,7 +7,7 @@ old-location: shell\IPackageExecutionStateChangeNotification.htm
 tech.root: shell
 ms.assetid: 6AD9A9CD-933B-432F-A124-48092588C5DF
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IPackageExecutionStateChangeNotification, IPackageExecutionStateChangeNotification interface [Windows Shell], IPackageExecutionStateChangeNotification interface [Windows Shell],described, shell.IPackageExecutionStateChangeNotification, shobjidl_core/IPackageExecutionStateChangeNotification
 ms.prod: windows
 ms.technology: windows-sdk

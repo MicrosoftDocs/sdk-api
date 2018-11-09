@@ -7,7 +7,7 @@ old-location: security\pstvalidate.htm
 tech.root: secauthn
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

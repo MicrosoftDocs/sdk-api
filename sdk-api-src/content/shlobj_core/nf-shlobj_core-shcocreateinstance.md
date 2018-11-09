@@ -7,7 +7,7 @@ old-location: shell\SHCoCreateInstance.htm
 tech.root: shell
 ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

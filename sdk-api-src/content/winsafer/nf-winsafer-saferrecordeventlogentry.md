@@ -7,7 +7,7 @@ old-location: security\saferrecordeventlogentry.htm
 tech.root: secmgmt
 ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/02/2018
 ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -161,21 +161,25 @@ Note that this method may not find URLs to change if you called the <a href="htt
 
 The following example shows how to call the <b>ReplaceRemotePrefix</b> method to change the server name of a URL. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid and the job contains one or more files.
 
-
-```cpp
-     IBackgroundCopyJob *pJob;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>     IBackgroundCopyJob *pJob;
      IBackgroundCopyJob3 *pJob3 = NULL;
 
      //Need to query the IBackgroundCopyJob interface for an IBackgroundCopyJob3
      //interface pointer. The IBackgroundCopyJob3 interface contains the ReplaceRemotePrefix method.
-     hr = pJob->QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&pJob3;);
+     hr = pJob-&gt;QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&amp;pJob3;);
      if (S_OK == hr)
      {
-          pJob->Release(); //No longer need the IBackgoundCopyJob interface pointer.
+          pJob-&gt;Release(); //No longer need the IBackgoundCopyJob interface pointer.
 
           //Identify the old and new remote name text. For example, "http://oldservername" and 
           //"http://newservername". For SMB, specify "\\\\oldservername" and "\\\\newservername".
-          hr = pJob3->ReplaceRemotePrefix(L"<OLDSERVERNAMEGOESHERE>", L"<NEWSERVERNAMEGOESHERE>");
+          hr = pJob3-&gt;ReplaceRemotePrefix(L"&lt;OLDSERVERNAMEGOESHERE&gt;", L"&lt;NEWSERVERNAMEGOESHERE&gt;");
           if (S_FALSE == hr)
           {
                wprintf(L"The job does not contain files with a remote name that matches the prefix.\n");
@@ -187,16 +191,16 @@ The following example shows how to call the <b>ReplaceRemotePrefix</b> method to
                //Returns E_INVALIDARG if new prefix is empty or the resulting URL is invalid.
           }
 
-          pJob3->Release();
+          pJob3-&gt;Release();
      }
      else
      {
           //Handle error. QueryInterface will return E_NOINTERFACE if the version of BITS
           //running on the computer is less than BITS 2.0.
-     }
-```
-
-
+     }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

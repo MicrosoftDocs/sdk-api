@@ -7,7 +7,7 @@ old-location: security\scardbegintransaction.htm
 tech.root: secauthn
 ms.assetid: 91f61060-4b0b-4890-9372-25ba0aacb642
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _smart_scardbegintransaction, security.scardbegintransaction, winscard/SCardBeginTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,16 +96,20 @@ The <b>SCardBeginTransaction</b> function is a <a href="https://msdn.microsoft.c
 
 The following example demonstrates how to begin a smart card transaction. The example assumes that <code>lReturn</code> is an existing variable of type <b>LONG</b> and that <code>hCard</code> is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 lReturn = SCardBeginTransaction( hCard );
 if ( SCARD_S_SUCCESS != lReturn )
  printf("Failed SCardBeginTransaction\n");
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

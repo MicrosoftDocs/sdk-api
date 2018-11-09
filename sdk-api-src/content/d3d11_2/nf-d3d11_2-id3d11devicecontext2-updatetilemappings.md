@@ -205,25 +205,33 @@ Here are some examples of common <b>UpdateTileMappings</b> cases:
 
 Clearing an entire surface's mappings to NULL:
 
-
-```cpp
-// - No-overwrite is specified, assuming it is known nothing else the GPU could be doing is referencing the previous mappings
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - No-overwrite is specified, assuming it is known nothing else the GPU could be doing is referencing the previous mappings
 // - NULL for pTiledResourceRegionStatCoordinates and pTiledResourceRegionSizes defaults to the entire resource
 // - NULL for pTilePoolStartOffsets since it isn't needed for mapping tiles to NULL
 // - NULL for pRangeTileCounts when NumRanges is 1 defaults to the same number of tiles as the tiled resource region (which is
 //   the entire surface in this case)
 //
 // UINT RangeFlags = D3D11_TILE_MAPPING_NULL;
-// pDeviceContext2->UpdateTileMappings(pTiledResource,1,NULL,NULL,NULL,1,&RangeFlags,NULL,NULL,D3D11_TILE_MAPPING_NO_OVERWRITE);
-
-```
-
-
+// pDeviceContext2-&gt;UpdateTileMappings(pTiledResource,1,NULL,NULL,NULL,1,&amp;RangeFlags,NULL,NULL,D3D11_TILE_MAPPING_NO_OVERWRITE);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Mapping a region of tiles to a single tile:
 
-
-```cpp
-// - This maps a 2x3 tile region at tile offset (1,1) in a Tiled Resource to tile [12] in a Tile Pool
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - This maps a 2x3 tile region at tile offset (1,1) in a Tiled Resource to tile [12] in a Tile Pool
 // 
 // D3D11_TILED_RESOURCE_COORDINATE TRC;
 // TRC.X = 1;
@@ -240,17 +248,21 @@ Mapping a region of tiles to a single tile:
 // 
 // UINT RangeFlags = D3D11_TILE_MAPPING_REUSE_SINGLE_TILE;
 // UINT StartOffset = 12;
-// pDeviceContext2->UpdateTileMappings(pTiledResource,1,&TRC,&TRS,pTilePool,1,&RangeFlags,&StartOffset,
+// pDeviceContext2-&gt;UpdateTileMappings(pTiledResource,1,&amp;TRC,&amp;TRS,pTilePool,1,&amp;RangeFlags,&amp;StartOffset,
 //                                     NULL,D3D11_TILE_MAPPING_NO_OVERWRITE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Defining mappings for a set of disjoint individual tiles:
 
-
-```cpp
-// - This can also be accomplished in multiple calls.  Using a single call to define multiple
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - This can also be accomplished in multiple calls.  Using a single call to define multiple
 //   a single call to define multiple mapping updates can reduce CPU call overhead slightly,
 //   at the cost of having to pass arrays as parameters.
 // - Passing NULL for pTiledResourceRegionSizes defaults to each region in the Tiled Resource
@@ -278,17 +290,21 @@ Defining mappings for a set of disjoint individual tiles:
 // TRC[2].Subresource = 0;
 // StartOffsets[2] = 7;
 //
-// pDeviceContext2->UpdateTileMappings(pTiledResource,NumSingleTiles,&TRC,NULL,pTilePool,NumSingleTiles,NULL,StartOffsets,
+// pDeviceContext2-&gt;UpdateTileMappings(pTiledResource,NumSingleTiles,&amp;TRC,NULL,pTilePool,NumSingleTiles,NULL,StartOffsets,
 //                                     NULL,D3D11_TILE_MAPPING_NO_OVERWRITE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Complex example - defining mappings for regions with some skips, some NULL mappings:
 
-
-```cpp
-// - This complex example hard codes the parameter arrays, whereas in practice the 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - This complex example hard codes the parameter arrays, whereas in practice the 
 //   application would likely configure the paramaters programatically or in a data driven way.
 // - Suppose we have 3 regions in a Tiled Resource to configure mappings for, 2x3 at coordinate (1,1),
 //   3x3 at coordinate (4,7), and 7x1 at coordinate (20,30)
@@ -365,17 +381,21 @@ Complex example - defining mappings for regions with some skips, some NULL mappi
 // TilePoolStartOffsets[7] = 17; 
 // RangeTileCounts[7] = 1;
 //
-// pDeviceContext2->UpdateTileMappings(pTiledResource,NumRegions,TRC,TRS,pTilePool,NumRanges,RangeFlags,
+// pDeviceContext2-&gt;UpdateTileMappings(pTiledResource,NumRegions,TRC,TRS,pTilePool,NumRanges,RangeFlags,
 //                                     TilePoolStartOffsets,RangeTileCounts,D3D11_TILE_MAPPING_NO_OVERWRITE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 CopyTileMappings
 
-
-```cpp
-// CopyTileMappings helps with tasks such as shifting mappings around within/across Tiled Resources, e.g. scrolling tiles.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// CopyTileMappings helps with tasks such as shifting mappings around within/across Tiled Resources, e.g. scrolling tiles.
 // The source and dest region can overlap - the result of the copy in this case is as if the source was saved to a temp and then
 // from there writen to the dest, though the implementation may be able to do better. 
 //
@@ -405,10 +425,10 @@ CopyTileMappings
 //
 // The dest and the source regions must each entirely fit in their resource or behavior is undefined 
 // (debug layer will emit an error).
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

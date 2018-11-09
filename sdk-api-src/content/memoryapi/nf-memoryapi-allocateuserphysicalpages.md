@@ -7,7 +7,7 @@ old-location: base\allocateuserphysicalpages.htm
 tech.root: memory
 ms.assetid: cf45b24b-0622-4ba1-b485-8429cbf146b6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: AllocateUserPhysicalPages, AllocateUserPhysicalPages function, _win32_allocateuserphysicalpages, base.allocateuserphysicalpages, winbase/AllocateUserPhysicalPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

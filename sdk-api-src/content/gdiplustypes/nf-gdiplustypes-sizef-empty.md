@@ -90,22 +90,26 @@ A
 
 
 
-
-```cpp
-RectF rect(50.0f, 50.0f, 100.0f, 200.0f);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RectF rect(50.0f, 50.0f, 100.0f, 200.0f);
 SizeF size;
 
 rect.Inflate(-50.0f, -100.0f);
-rect.GetSize(&size);
+rect.GetSize(&amp;size);
 
 if(size.Empty())
 {
 
    // The width and height are both 0.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

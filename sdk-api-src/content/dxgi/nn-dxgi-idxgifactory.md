@@ -132,19 +132,23 @@ Because you can create a Direct3D device without creating a swap chain, you migh
           the factory.  The following code shows how.
         
 
-
-```
-IDXGIDevice * pDXGIDevice = nullptr;
-hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice), (void **)&pDXGIDevice);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IDXGIDevice * pDXGIDevice = nullptr;
+hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice), (void **)&amp;pDXGIDevice);
 
 IDXGIAdapter * pDXGIAdapter = nullptr;
-hr = pDXGIDevice->GetAdapter( &pDXGIAdapter );
+hr = pDXGIDevice-&gt;GetAdapter( &amp;pDXGIAdapter );
 
 IDXGIFactory * pIDXGIFactory = nullptr;
-pDXGIAdapter->GetParent(__uuidof(IDXGIFactory), (void **)&pIDXGIFactory);
-```
-
-
+pDXGIAdapter-&gt;GetParent(__uuidof(IDXGIFactory), (void **)&amp;pIDXGIFactory);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:
         </b> This API is supported.
       

@@ -7,7 +7,7 @@ old-location: gdi\rgndataheader.htm
 tech.root: gdi
 ms.assetid: 15990903-8a48-4c47-b527-269d775255a5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer [Windows GDI], RGNDATAHEADER, RGNDATAHEADER structure [Windows GDI], _RGNDATAHEADER, _win32_RGNDATAHEADER_str, gdi.rgndataheader, wingdi/PRGNDATAHEADER, wingdi/RGNDATAHEADER"
 ms.prod: windows
 ms.technology: windows-sdk

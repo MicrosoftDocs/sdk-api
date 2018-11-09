@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_392d.htm
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/05/2018
 ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Name property, IFaxInboundRoutingMethod.Name, IFaxInboundRoutingMethod.get_Name, IFaxInboundRoutingMethod::Name, IFaxInboundRoutingMethod::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxInboundRoutingMethod interface, _mfax_faxinboundroutingmethod.name, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_name_cpp, fax._mfax_faxinboundroutingmethod_name, faxcomex/IFaxInboundRoutingMethod::Name, faxcomex/IFaxInboundRoutingMethod::get_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

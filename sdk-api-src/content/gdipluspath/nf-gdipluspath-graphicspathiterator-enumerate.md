@@ -108,9 +108,13 @@ You can call the <a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds three lines to the path. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> object and calls its <b>GraphicsPathIterator::Enumerate</b> method to retrieve the path's data points and point types. Then the code displays the count returned by the <b>GraphicsPathIterator::Enumerate</b> method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define BUFFER_SIZE 30
 TCHAR numPointsEnum[BUFFER_SIZE];
 
@@ -123,7 +127,7 @@ GraphicsPath path;
 path.AddLines(pts, 4);
 
 // Create a GraphicsPathIterator object, and associate it with the path.
-GraphicsPathIterator pathIterator(&path);
+GraphicsPathIterator pathIterator(&amp;path);
 
 // Create destination arrays, and copy the path data to them.
 UINT c = pathIterator.GetCount();
@@ -139,10 +143,10 @@ MessageBox(hWnd, numPointsEnum, TEXT("Enumerate"), NULL);
 
 delete[] pEnumPoints;
 delete[] pTypes;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

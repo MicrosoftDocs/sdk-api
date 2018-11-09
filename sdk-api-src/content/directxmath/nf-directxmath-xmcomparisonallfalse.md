@@ -7,7 +7,7 @@ old-location: dxmath\xmcomparisonallfalse.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllFalse(uint32_t)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: Use DirectX..XMComparisonAllFalse, XMComparisonAllFalse, XMComparisonAllFalse method [DirectX Math Support APIs], dxmath.xmcomparisonallfalse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMComparisonAllFalse
-: 
 ---
 
 # XMComparisonAllFalse function
@@ -86,16 +80,20 @@ Returns true if all of the compared components are false.
 
 The following code snippet highlights how this function might be used:
 
-
-```
-uint32_t comparisonValue = XMVector4EqualR( V1, V2 );
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>uint32_t comparisonValue = XMVector4EqualR( V1, V2 );
 if( XMComparisonAllFalse( comparisonValue ) )
 {
 	DoStuff();
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The <code>DoStuff</code> function will be called only if all four components of <i>V1</i> and <i>V2</i> are
    different (all compared components are false).
 

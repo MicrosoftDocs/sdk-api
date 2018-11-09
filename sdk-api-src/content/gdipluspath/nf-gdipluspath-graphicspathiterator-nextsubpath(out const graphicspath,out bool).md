@@ -98,13 +98,9 @@ The first time you call the <b>GraphicsPathIterator::NextSubpath</b> method of a
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures (also called subpaths) to the path. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <b>GraphicsPathIterator::NextSubpath</b> method twice to retrieve the second figure (subpath) from the path. Then the code calls the <a href="https://msdn.microsoft.com/fffed788-ee5c-4c15-9480-dbedb7caa614">DrawPath</a> method of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to draw that individual subpath.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID NextSubpathExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -126,26 +122,26 @@ VOID NextSubpathExample(HDC hdc)
    path.AddRectangle(Rect(420, 20, 60, 30));  // Subpath count is 5.
  
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&amp;path);
+   GraphicsPathIterator iterator(&path);
 
    // Get the second subpath by calling NextSubpath twice.
    GraphicsPath subpath;
    BOOL isClosed;
    INT count;
-   count = iterator.NextSubpath(&amp;subpath, &amp;isClosed);
-   count = iterator.NextSubpath(&amp;subpath, &amp;isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
 
    // The variable "count" now holds the number of 
    // data points in the second subpath.
 
    // Draw the retrieved subpath.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;bluePen, &amp;subpath);
+   graphics.DrawPath(&bluePen, &subpath);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

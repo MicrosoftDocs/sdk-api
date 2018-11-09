@@ -7,7 +7,7 @@ old-location: controls\ListView_GetBkColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: ListView_GetBkColor, ListView_GetBkColor macro [Windows Controls], _win32_ListView_GetBkColor, _win32_ListView_GetBkColor_cpp, commctrl/ListView_GetBkColor, controls.ListView_GetBkColor, controls._win32_ListView_GetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

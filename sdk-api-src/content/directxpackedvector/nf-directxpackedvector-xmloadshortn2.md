@@ -7,7 +7,7 @@ old-location: dxmath\xmloadshortn2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShortN2(const XMSHORTN2)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: DirectX::PackedVector.XMLoadShortN2, XMLoadShortN2, XMLoadShortN2 method [DirectX Math Support APIs], dxmath.xmloadshortn2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,19 +79,23 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode shows you the operation of the function.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR vectorOut;
 
-```
-XMVECTOR vectorOut;
-
-vectorOut.x = (float)pSource->x / 32767.0f;
-vectorOut.y = (float)pSource->y / 32767.0f;
+vectorOut.x = (float)pSource-&gt;x / 32767.0f;
+vectorOut.y = (float)pSource-&gt;y / 32767.0f;
 vectorOut.z = 0;
 vectorOut.w = 0;
 
-return vectorOut;
-```
-
-
+return vectorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that both -32767 and -32768 map to -1.f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

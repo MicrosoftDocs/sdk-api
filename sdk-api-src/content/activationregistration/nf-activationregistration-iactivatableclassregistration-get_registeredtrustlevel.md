@@ -7,7 +7,7 @@ old-location: winrt\iactivatableclassregistration_registeredtrustlevel.htm
 tech.root: WinRT
 ms.assetid: 3DFE773C-CF63-489A-988B-2FFF4215C8BF
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_RegisteredTrustLevel method, IActivatableClassRegistration.get_RegisteredTrustLevel, IActivatableClassRegistration::get_RegisteredTrustLevel, activationregistration/IActivatableClassRegistration::get_RegisteredTrustLevel, get_RegisteredTrustLevel, get_RegisteredTrustLevel method [Windows Runtime], get_RegisteredTrustLevel method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_registeredtrustlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

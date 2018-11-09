@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_list.htm
 tech.root: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: CM_Get_Device_Interface_List, CM_Get_Device_Interface_List function [Device and Driver Installation], CM_Get_Device_Interface_ListA, CM_Get_Device_Interface_ListW, cfgmgr32/CM_Get_Device_Interface_List, cfgmgr32/CM_Get_Device_Interface_ListA, cfgmgr32/CM_Get_Device_Interface_ListW, cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml, devinst.cm_get_device_interface_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,15 +142,19 @@ Between calling <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade
 
 This snippet illustrates retrying getting the size and the list as described in the Remarks section.
 
-
-```
-    CONFIGRET cr = CR_SUCCESS;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    CONFIGRET cr = CR_SUCCESS;
     PWSTR DeviceInterfaceList = NULL;
     ULONG DeviceInterfaceListLength = 0;
 
     do {
-        cr = CM_Get_Device_Interface_List_Size(&DeviceInterfaceListLength,
-                                               (LPGUID)&GUID_DEVINTERFACE_VOLUME,
+        cr = CM_Get_Device_Interface_List_Size(&amp;DeviceInterfaceListLength,
+                                               (LPGUID)&amp;GUID_DEVINTERFACE_VOLUME,
                                                NULL,
                                                CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES);
 
@@ -175,7 +179,7 @@ This snippet illustrates retrying getting the size and the list as described in 
             break;
         }
 
-        cr = CM_Get_Device_Interface_List((LPGUID)&GUID_DEVINTERFACE_VOLUME,
+        cr = CM_Get_Device_Interface_List((LPGUID)&amp;GUID_DEVINTERFACE_VOLUME,
                                           NULL,
                                           DeviceInterfaceList,
                                           DeviceInterfaceListLength,
@@ -186,10 +190,10 @@ This snippet illustrates retrying getting the size and the list as described in 
     {
         goto Exit;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

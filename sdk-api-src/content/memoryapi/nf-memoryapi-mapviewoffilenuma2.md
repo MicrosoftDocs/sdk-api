@@ -7,7 +7,7 @@ old-location: base\mapviewoffilenuma2.htm
 tech.root: memory
 ms.assetid: 848BF3AD-9469-4A16-B1C4-B5D78954D9B5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.keywords: MapViewOfFileNuma2, MapViewOfFileNuma2 function, base.mapviewoffilenuma2, winbase/MapViewOfFileNuma2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,10 @@ The type of allocation. This parameter can be zero (0) or one of the following c
 ### -param PageProtection [in]
 
 The desired page protection.
+
+For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the 
+       <i>PageProtection</i> parameter has no effect, and should be set to any valid value such as 
+       <b>PAGE_READONLY</b>.
 
 
 ### -param PreferredNode [in]

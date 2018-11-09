@@ -7,7 +7,7 @@ old-location: dwm\dwmregisterthumbnail.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmregisterthumbnail.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DwmRegisterThumbnail, DwmRegisterThumbnail function [Desktop Window Manager], _udwm_dwmregisterthumbnail, _udwm_dwmregisterthumbnail_cpp, dwm.dwmregisterthumbnail, dwmapi/DwmRegisterThumbnail, winui._udwm_dwmregisterthumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,9 +97,13 @@ The thumbnail registration handle obtained by this function is not globally uniq
 
 The following example demonstrates how to register the desktop thumbnail.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT UpdateDesktop(HWND hwnd)
 {
 	HRESULT hr = S_OK;
@@ -107,16 +111,16 @@ HRESULT UpdateDesktop(HWND hwnd)
 	// Register the thumbnail
 	HTHUMBNAIL thumbnail = NULL;
 
-	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &thumbnail);
+	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &amp;thumbnail);
 	if (SUCCEEDED(hr))
 	{
 		// Display the thumbnail using DwmUpdateThumbnailProperties
 	}
 	return hr;	
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

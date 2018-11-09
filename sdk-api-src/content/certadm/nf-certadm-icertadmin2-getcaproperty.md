@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getcaproperty.htm
 tech.root: seccrypto
 ms.assetid: 8eaa2e36-4358-4abd-a7c2-2c9768766597
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/08/2018
 ms.keywords: CCertAdmin object [Security],GetCAProperty method, CR_PROP_ADVANCEDSERVER, CR_PROP_BASECRL, CR_PROP_BASECRLPUBLISHSTATUS, CR_PROP_CABACKWARDCROSSCERT, CR_PROP_CABACKWARDCROSSCERTSTATE, CR_PROP_CACERTSTATE, CR_PROP_CACERTSTATUSCODE, CR_PROP_CACERTVERSION, CR_PROP_CAFORWARDCROSSCERT, CR_PROP_CAFORWARDCROSSCERTSTATE, CR_PROP_CANAME, CR_PROP_CASIGCERT, CR_PROP_CASIGCERTCHAIN, CR_PROP_CASIGCERTCOUNT, CR_PROP_CASIGCERTCRLCHAIN, CR_PROP_CATYPE, CR_PROP_CAXCHGCERT, CR_PROP_CAXCHGCERTCHAIN, CR_PROP_CAXCHGCERTCOUNT, CR_PROP_CAXCHGCERTCRLCHAIN, CR_PROP_CERTAIAURLS, CR_PROP_CERTCDPURLS, CR_PROP_CRLSTATE, CR_PROP_DELTACRL, CR_PROP_DELTACRLPUBLISHSTATUS, CR_PROP_DNSNAME, CR_PROP_EXITCOUNT, CR_PROP_EXITDESCRIPTION, CR_PROP_FILEVERSION, CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTSTATE, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_PARENTCA, CR_PROP_POLICYDESCRIPTION, CR_PROP_PRODUCTVERSION, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_SANITIZEDCANAME, CR_PROP_SANITIZEDCASHORTNAME, CR_PROP_SHAREDFOLDER, CR_PROP_TEMPLATES, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertAdmin object, GetCAProperty method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAProperty method, ICertAdmin2.GetCAProperty, ICertAdmin2::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertadmin2_getcaproperty, certadm/ICertAdmin2::GetCAProperty, security.icertadmin2_getcaproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -895,27 +895,31 @@ For an example of retrieving a CRL, see <a href="https://msdn.microsoft.com/en-u
 
 The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
 
-
-```cpp
-BSTR bstrCA = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR bstrCA = NULL;
 VARIANT var1;
 HRESULT hr;
 
-bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
 if (NULL == bstrCA)
 {
     printf("Failed to allocate memory for bstrCA\n");
     exit(1);
 }
 
-VariantInit(&var1);
+VariantInit(&amp;var1);
 // Retrieve the CA signature certificate at index 0.
-hr = pAdmin2->GetCAProperty(bstrCA,
+hr = pAdmin2-&gt;GetCAProperty(bstrCA,
                                 CR_PROP_CASIGCERT,
                                 0,
                                 PROPTYPE_BINARY,
                                 CV_OUT_BASE64HEADER,
-                                &var1);
+                                &amp;var1);
 if (FAILED(hr))
 {
     printf("Failed GetCAProperty\n");
@@ -927,10 +931,10 @@ if (FAILED(hr))
 // ...
 
 // Clear the variant when finished.
-VariantClear(&var1);
-SysFreeString(bstrCA);
-```
-
-
+VariantClear(&amp;var1);
+SysFreeString(bstrCA);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

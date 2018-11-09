@@ -7,7 +7,7 @@ old-location: mscs\resutilenumresources.htm
 tech.root: mscs
 ms.assetid: 109fefb7-a5fc-44d2-80c0-9a08ce8d91bf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/06/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES, PRESUTIL_ENUM_RESOURCES function [Failover Cluster], ResUtilEnumResources, ResUtilEnumResources function [Failover Cluster], _wolf_resutilenumresources, mscs.resutilenumresources, resapi/PRESUTIL_ENUM_RESOURCES, resapi/ResUtilEnumResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,9 +124,13 @@ The following example uses
       <b>ResUtilEnumResources</b> to list the names and 
       states of all resources in the cluster.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 //  ClusDocEx_EnumDemo.cpp
 //
 //  Uses the ResUtilEnumResources function to list the names and 
@@ -147,7 +151,7 @@ MyCallbackFunction(
     HRESOURCE hCurrentEnum,
     PVOID pData );
 
-LPRESOURCE_CALLBACK g_pMyCallbackFunction = &MyCallbackFunction;
+LPRESOURCE_CALLBACK g_pMyCallbackFunction = &amp;MyCallbackFunction;
 
 int main( void )
 {
@@ -181,7 +185,7 @@ MyCallbackFunction(
                             hCurrentEnum,
                             NULL,
                             CLUSCTL_RESOURCE_GET_NAME,
-                            &cbNameSize );
+                            &amp;cbNameSize );
     if( pszEnumName == NULL )
     {
         dwResult = GetLastError();
@@ -227,10 +231,10 @@ EndFunc:
     LocalFree( pszEnumName );
     return dwResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

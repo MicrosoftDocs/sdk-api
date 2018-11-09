@@ -96,9 +96,13 @@ The following example sets the world transformation of a <a href="https://msdn.m
 
 The code passes <i>state2</i>, which was returned by the second call to <b>Save</b>, to the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method, and draws the ellipse again using a green pen. The green ellipse is rotated and translated but not scaled. Finally the code passes state1, which was returned by the first call to <b>Save</b>, to the <b>Graphics::Restore</b> method, and draws the ellipse again using a blue pen. The blue ellipse is rotated but not translated or scaled.
 
-
-```cpp
-VOID Example_Save1(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_Save1(HDC hdc)
 {
    Graphics graphics(hdc);
    GraphicsState state1, state2;
@@ -112,24 +116,24 @@ VOID Example_Save1(HDC hdc)
    // Draw an ellipse. 
    // Three transformations apply: rotate, then translate, then scale.
    Pen redPen(Color(255, 255, 0, 0));
-   graphics.DrawEllipse(&redPen, 0, 0, 100, 20);
+   graphics.DrawEllipse(&amp;redPen, 0, 0, 100, 20);
  
    // Restore to state2 and draw the ellipse again. 
    // Two transformations apply: rotate then translate.
    graphics.Restore(state2);
    Pen greenPen(Color(255, 0, 255, 0));
-   graphics.DrawEllipse(&greenPen, 0, 0, 100, 20);
+   graphics.DrawEllipse(&amp;greenPen, 0, 0, 100, 20);
 
    // Restore to state1 and draw the ellipse again. 
    // Only the rotation transformation applies.
    graphics.Restore(state1);
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawEllipse(&bluePen, 0, 0, 100, 20);
+   graphics.DrawEllipse(&amp;bluePen, 0, 0, 100, 20);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Restoring Only the First of Two Nested Saved States</b>
 
 The following example sets the world transformation of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to a rotation and then saves the state of the <b>Graphics</b> object. Next, the code calls <b>TranslateTransform</b>, and saves the state again. Then the code calls <b>ScaleTransform</b>. At that point, the world transformation of the <b>Graphics</b> object is a composite transformation: first rotate, then translate, then scale. The code uses a red pen to draw an ellipse that is transformed by that composite transformation.
@@ -138,9 +142,13 @@ The code passes <i>state1</i>, which was returned by the first call to <b>Save</
 
 Next the code attempts to restore the state identified by <i>state2</i>. The attempt fails because the call Restore(<i>state1</i>) removed the information blocks identified by both <i>state1</i> and <i>state2</i> from the stack.
 
-
-```cpp
-VOID Example_Save2(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_Save2(HDC hdc)
 {
    Graphics graphics(hdc);
    GraphicsState state1, state2;
@@ -154,13 +162,13 @@ VOID Example_Save2(HDC hdc)
    // Draw an ellipse. 
    // Three transformations apply: rotate, then translate, then scale.
    Pen redPen(Color(255, 255, 0, 0));
-   graphics.DrawEllipse(&redPen, 0, 0, 100, 20);
+   graphics.DrawEllipse(&amp;redPen, 0, 0, 100, 20);
  
    // Restore to state1 and draw the ellipse again. 
    // Only the rotation transformation applies.
    graphics.Restore(state1);
    Pen greenPen(Color(255, 0, 255, 0));
-   graphics.DrawEllipse(&greenPen, 0, 0, 100, 20);
+   graphics.DrawEllipse(&amp;greenPen, 0, 0, 100, 20);
 
    // The information block identified by state2 has been lost.
    // The following call to Restore has no effect because
@@ -172,12 +180,12 @@ VOID Example_Save2(HDC hdc)
    // The following code draws a blue ellipse on top of the previously
    // drawn green ellipse.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawEllipse(&bluePen, 0, 0, 100, 20);
+   graphics.DrawEllipse(&amp;bluePen, 0, 0, 100, 20);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

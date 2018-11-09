@@ -96,28 +96,32 @@ If the method fails, it returns one of the other elements of the
 
 The following example displays the description and data size for each metadata item in an Image object.
 
-
-```cpp
-Status stat;        
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Status stat;        
 Image image(L"River5.png");
 
 CHAR descBuf[5] = {0, 0, 0, 0, 0};
 ImageItemData itemData;
-ZeroMemory(&itemData, sizeof(itemData));
+ZeroMemory(&amp;itemData, sizeof(itemData));
 itemData.Size = sizeof(itemData);
 itemData.DescSize = 4;
 itemData.Desc = descBuf;
 
-stat = image.FindFirstItem(&itemData);
+stat = image.FindFirstItem(&amp;itemData);
 
 while(Ok == stat)
 {
    printf("%s   %d\n", itemData.Desc, itemData.DataSize);
-   stat = image.FindNextItem(&itemData);
-}
-```
-
-
+   stat = image.FindNextItem(&amp;itemData);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

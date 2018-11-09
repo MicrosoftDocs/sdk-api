@@ -7,7 +7,7 @@ old-location: dwm\dwmupdatethumbnailproperties.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatethumbnailproperties.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,9 +88,13 @@ Thumbnail relationships created by the <a href="https://msdn.microsoft.com/en-us
 
 The following example demonstrates how to register and display the desktop thumbnail.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT UpdateDesktop(HWND hwnd)
 {
 	HRESULT hr = S_OK;
@@ -99,7 +103,7 @@ HRESULT UpdateDesktop(HWND hwnd)
 	SIZE size = {100,100};
 	HTHUMBNAIL thumbnail = NULL;
 
-	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &size, &thumbnail);
+	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &amp;size, &amp;thumbnail);
 	if (SUCCEEDED(hr))
 	{
 		// The destination rectangle size
@@ -116,17 +120,17 @@ HRESULT UpdateDesktop(HWND hwnd)
 		dskThumbProps.rcDestination = dest;
 
 		// Display the thumbnail
-		hr = DwmUpdateThumbnailProperties(thumbnail,&dskThumbProps);
+		hr = DwmUpdateThumbnailProperties(thumbnail,&amp;dskThumbProps);
 		if (SUCCEEDED(hr))
 		{
 			// ...
 		}
 	}
 	return hr;	
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

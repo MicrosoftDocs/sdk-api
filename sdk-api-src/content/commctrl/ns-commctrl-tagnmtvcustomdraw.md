@@ -7,7 +7,7 @@ old-location: controls\NMTVCUSTOMDRAW.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvcustomdraw.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: "*LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW structure pointer [Windows Controls], NMTVCUSTOMDRAW, NMTVCUSTOMDRAW structure [Windows Controls], _win32_NMTVCUSTOMDRAW, _win32_NMTVCUSTOMDRAW_cpp, commctrl/LPNMTVCUSTOMDRAW, commctrl/NMTVCUSTOMDRAW, controls.NMTVCUSTOMDRAW, controls._win32_NMTVCUSTOMDRAW, tagNMTVCUSTOMDRAW"
 ms.prod: windows
 ms.technology: windows-sdk

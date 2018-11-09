@@ -101,21 +101,25 @@ Creates a VT_ARRAY | VT_UI2 variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762339(v=VS.85).aspx">InitVariantFromUInt16Array</a>.
 
-
-```cpp
-USHORT rgShorts[] = {3, 1};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>USHORT rgShorts[] = {3, 1};
 VARIANT var;
 
-HRESULT hr = InitVariantFromUInt16Array(rgShorts, ARRAYSIZE(rgShorts), &var);
+HRESULT hr = InitVariantFromUInt16Array(rgShorts, ARRAYSIZE(rgShorts), &amp;var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_ARRAY | VT_UI2.
-    VariantClear(&propvar);
-}
-```
-
-
+    VariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

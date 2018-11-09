@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accnavigate.htm
 tech.root: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/02/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -265,9 +265,13 @@ For more information, see <a href="https://msdn.microsoft.com/c6bcd044-bf70-4eec
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example shows a possible implementation of the method for a custom list box whose list items are child elements.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // m_pControl is the control that returns this accessible object. 
 // m_pStdAccessibleObject is the standard accessible object for the window 
 //    that contains the control. 
@@ -278,7 +282,7 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     VARIANT *pvarEndUpAt)
 {
     // Default value. 
-    pvarEndUpAt->vt = VT_EMPTY;
+    pvarEndUpAt-&gt;vt = VT_EMPTY;
 
     if (varStart.vt != VT_I4)
     {
@@ -290,8 +294,8 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     case NAVDIR_FIRSTCHILD:
         if (varStart.lVal == CHILDID_SELF)
         {
-            pvarEndUpAt->vt = VT_I4;
-            pvarEndUpAt->lVal = 1;
+            pvarEndUpAt-&gt;vt = VT_I4;
+            pvarEndUpAt-&gt;lVal = 1;
         }
         else  // Starting with child. 
         {
@@ -302,8 +306,8 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     case NAVDIR_LASTCHILD:
         if (varStart.lVal == CHILDID_SELF)
         {
-            pvarEndUpAt->vt = VT_I4;
-            pvarEndUpAt->lVal = m_pControl->GetCount();
+            pvarEndUpAt-&gt;vt = VT_I4;
+            pvarEndUpAt-&gt;lVal = m_pControl-&gt;GetCount();
         }
         else  // Starting with child.           
         {
@@ -315,18 +319,18 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     case NAVDIR_DOWN:
         if (varStart.lVal != CHILDID_SELF)
         {
-            pvarEndUpAt->vt = VT_I4;
-            pvarEndUpAt->lVal = varStart.lVal + 1;
+            pvarEndUpAt-&gt;vt = VT_I4;
+            pvarEndUpAt-&gt;lVal = varStart.lVal + 1;
             // Out of range. 
-            if (pvarEndUpAt->lVal > m_pControl->GetCount())
+            if (pvarEndUpAt-&gt;lVal &gt; m_pControl-&gt;GetCount())
             {
-                pvarEndUpAt->vt = VT_EMPTY;
+                pvarEndUpAt-&gt;vt = VT_EMPTY;
                 return S_FALSE;
             }
         }
         else  // Call through to method on standard object. 
         {
-            return m_pStdAccessibleObject->accNavigate(navDir, varStart, pvarEndUpAt);
+            return m_pStdAccessibleObject-&gt;accNavigate(navDir, varStart, pvarEndUpAt);
         }
         break;
 
@@ -334,18 +338,18 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     case NAVDIR_UP:
         if (varStart.lVal != CHILDID_SELF)
         {
-            pvarEndUpAt->vt = VT_I4;
-            pvarEndUpAt->lVal = varStart.lVal - 1;
+            pvarEndUpAt-&gt;vt = VT_I4;
+            pvarEndUpAt-&gt;lVal = varStart.lVal - 1;
             // Out of range. 
-            if (pvarEndUpAt->lVal <1)
+            if (pvarEndUpAt-&gt;lVal &lt;1)
             {
-                pvarEndUpAt->vt = VT_EMPTY;
+                pvarEndUpAt-&gt;vt = VT_EMPTY;
                 return S_FALSE;
             }
         }
         else  // Call through to method on standard object. 
         {
-            return m_pStdAccessibleObject->accNavigate(navDir, varStart, pvarEndUpAt);
+            return m_pStdAccessibleObject-&gt;accNavigate(navDir, varStart, pvarEndUpAt);
         }
         break;
 
@@ -354,11 +358,11 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     case NAVDIR_RIGHT:
         if (varStart.lVal == CHILDID_SELF)
         {
-            return m_pStdAccessibleObject->accNavigate(navDir, varStart, pvarEndUpAt);
+            return m_pStdAccessibleObject-&gt;accNavigate(navDir, varStart, pvarEndUpAt);
         }
         else 
         {
-            pvarEndUpAt->vt = VT_EMPTY;
+            pvarEndUpAt-&gt;vt = VT_EMPTY;
             return S_FALSE;
         }
         break;
@@ -366,10 +370,10 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
     return S_OK;
 };
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
