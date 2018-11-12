@@ -245,13 +245,9 @@ To obtain a pointer to this interface, call <a href="_com_cocreateinstance">CoCr
 <b>ITfInputProcessorProfiles</b>
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfInputProcessorProfiles *pProfiles;
 
@@ -260,18 +256,18 @@ hr = CoCreateInstance(  CLSID_TF_InputProcessorProfiles,
                         NULL, 
                         CLSCTX_INPROC_SERVER, 
                         IID_ITfInputProcessorProfiles, 
-                        (LPVOID*)&amp;pProfiles);
+                        (LPVOID*)&pProfiles);
 
 if(SUCCEEDED(hr))
 {
     //Use the interface. 
 
     //Release the interface. 
-    pProfiles-&gt;Release();
+    pProfiles->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

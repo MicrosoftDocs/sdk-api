@@ -105,30 +105,22 @@ Consider the following scenario:
 </ul>
 You can assist the resolution process by creating the original link with a relative path before the shortcut is saved.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>::SetRelativePath("c:\MyLink.lnk", NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+::SetRelativePath("c:\MyLink.lnk", NULL);
+
+```
+
+
 Before the shortcut is resolved, set a new relative path, and the Resolve code will find the file in its new location.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>::SetRelativePath("d:\MyLink.lnk", NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+::SetRelativePath("d:\MyLink.lnk", NULL);
+
+```
+
+
 
 
 

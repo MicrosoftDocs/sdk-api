@@ -584,76 +584,68 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Declare the pipeline objects.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D3D12_VIEWPORT m_viewport;
+
+```cpp
+D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
-ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
-ComPtr&lt;ID3D12Device&gt; m_device;
-ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
-ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
-ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
-ComPtr&lt;ID3D12RootSignature&gt; m_rootSignature;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
-ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState;
-ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
+ComPtr<IDXGISwapChain3> m_swapChain;
+ComPtr<ID3D12Device> m_device;
+ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
+ComPtr<ID3D12CommandAllocator> m_commandAllocator;
+ComPtr<ID3D12CommandQueue> m_commandQueue;
+ComPtr<ID3D12RootSignature> m_rootSignature;
+ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
+ComPtr<ID3D12PipelineState> m_pipelineState;
+ComPtr<ID3D12GraphicsCommandList> m_commandList;
 UINT m_rtvDescriptorSize;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Populating command lists.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Fill the command list with all the render commands and dependent state.
+
+```cpp
+// Fill the command list with all the render commands and dependent state.
 void D3D12nBodyGravity::PopulateCommandList()
 {
     // Command list allocators can only be reset when the associated
     // command lists have finished execution on the GPU; apps should use
     // fences to determine GPU execution progress.
-    ThrowIfFailed(m_commandAllocators[m_frameIndex]-&gt;Reset());
+    ThrowIfFailed(m_commandAllocators[m_frameIndex]->Reset());
 
     // However, when ExecuteCommandList() is called on a particular command
     // list, that command list can then be reset at any time and must be before
     // re-recording.
-    ThrowIfFailed(m_commandList-&gt;Reset(m_commandAllocators[m_frameIndex].Get(), m_pipelineState.Get()));
+    ThrowIfFailed(m_commandList->Reset(m_commandAllocators[m_frameIndex].Get(), m_pipelineState.Get()));
 
     // Set necessary state.
-    m_commandList-&gt;SetPipelineState(m_pipelineState.Get());
-    m_commandList-&gt;SetGraphicsRootSignature(m_rootSignature.Get());
+    m_commandList->SetPipelineState(m_pipelineState.Get());
+    m_commandList->SetGraphicsRootSignature(m_rootSignature.Get());
 
-    m_commandList-&gt;SetGraphicsRootConstantBufferView(RootParameterCB, m_constantBufferGS-&gt;GetGPUVirtualAddress() + m_frameIndex * sizeof(ConstantBufferGS));
+    m_commandList->SetGraphicsRootConstantBufferView(RootParameterCB, m_constantBufferGS->GetGPUVirtualAddress() + m_frameIndex * sizeof(ConstantBufferGS));
 
     ID3D12DescriptorHeap* ppHeaps[] = { m_srvUavHeap.Get() };
-    m_commandList-&gt;SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
+    m_commandList->SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
 
-    m_commandList-&gt;IASetVertexBuffers(0, 1, &amp;m_vertexBufferView);
-    m_commandList-&gt;IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_POINTLIST);
-    m_commandList-&gt;RSSetScissorRects(1, &amp;m_scissorRect);
+    m_commandList->IASetVertexBuffers(0, 1, &m_vertexBufferView);
+    m_commandList->IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_POINTLIST);
+    m_commandList->RSSetScissorRects(1, &m_scissorRect);
 
     // Indicate that the back buffer will be used as a render target.
-    m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
 
-    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-    m_commandList-&gt;OMSetRenderTargets(1, &amp;rtvHandle, FALSE, nullptr);
+    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
+    m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, nullptr);
 
     // Record commands.
     const float clearColor[] = { 0.0f, 0.0f, 0.1f, 0.0f };
-    m_commandList-&gt;ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
+    m_commandList->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
 
     // Render the particles.
-    float viewportHeight = static_cast&lt;float&gt;(static_cast&lt;UINT&gt;(m_viewport.Height) / m_heightInstances);
-    float viewportWidth = static_cast&lt;float&gt;(static_cast&lt;UINT&gt;(m_viewport.Width) / m_widthInstances);
-    for (UINT n = 0; n &lt; ThreadCount; n++)
+    float viewportHeight = static_cast<float>(static_cast<UINT>(m_viewport.Height) / m_heightInstances);
+    float viewportWidth = static_cast<float>(static_cast<UINT>(m_viewport.Width) / m_widthInstances);
+    for (UINT n = 0; n < ThreadCount; n++)
     {
         const UINT srvIndex = n + (m_srvIndex[n] == 0 ? SrvParticlePosVelo0 : SrvParticlePosVelo1);
 
@@ -664,25 +656,25 @@ void D3D12nBodyGravity::PopulateCommandList()
         viewport.Height = viewportHeight;
         viewport.MinDepth = D3D12_MIN_DEPTH;
         viewport.MaxDepth = D3D12_MAX_DEPTH;
-        m_commandList-&gt;RSSetViewports(1, &amp;viewport);
+        m_commandList->RSSetViewports(1, &viewport);
 
-        CD3DX12_GPU_DESCRIPTOR_HANDLE srvHandle(m_srvUavHeap-&gt;GetGPUDescriptorHandleForHeapStart(), srvIndex, m_srvUavDescriptorSize);
-        m_commandList-&gt;SetGraphicsRootDescriptorTable(RootParameterSRV, srvHandle);
+        CD3DX12_GPU_DESCRIPTOR_HANDLE srvHandle(m_srvUavHeap->GetGPUDescriptorHandleForHeapStart(), srvIndex, m_srvUavDescriptorSize);
+        m_commandList->SetGraphicsRootDescriptorTable(RootParameterSRV, srvHandle);
 
-        m_commandList-&gt;DrawInstanced(ParticleCount, 1, 0, 0);
+        m_commandList->DrawInstanced(ParticleCount, 1, 0, 0);
     }
 
-    m_commandList-&gt;RSSetViewports(1, &amp;m_viewport);
+    m_commandList->RSSetViewports(1, &m_viewport);
 
     // Indicate that the back buffer will now be used to present.
-    m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
+    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
-    ThrowIfFailed(m_commandList-&gt;Close());
+    ThrowIfFailed(m_commandList->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

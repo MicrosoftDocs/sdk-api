@@ -60,6 +60,9 @@ Calculates the dot product between an input plane and a 3D vector.
 
 ### -param P [in]
 
+<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
+
+<div class="code"><span codelanguage=""><table>
 <b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -76,7 +79,9 @@ vectorOut.w = P.x * V.x + P.y * V.y + P.z * V.z + P.w * 1.0f;
 return vectorOut;</pre>
 </td>
 </tr>
-</table></span></div>.
+</table></span></div>
+
+.
 
 
 ### -param V [in]

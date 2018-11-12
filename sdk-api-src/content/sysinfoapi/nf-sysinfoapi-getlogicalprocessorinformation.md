@@ -133,17 +133,13 @@ This example reports the number of active processor cores. This example also rep
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;malloc.h&gt;    
-#include &lt;stdio.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <malloc.h>    
+#include <stdio.h>
+#include <tchar.h>
 
 typedef BOOL (WINAPI *LPFN_GLPI)(
     PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, 
@@ -155,12 +151,12 @@ DWORD CountSetBits(ULONG_PTR bitMask)
 {
     DWORD LSHIFT = sizeof(ULONG_PTR)*8 - 1;
     DWORD bitSetCount = 0;
-    ULONG_PTR bitTest = (ULONG_PTR)1 &lt;&lt; LSHIFT;    
+    ULONG_PTR bitTest = (ULONG_PTR)1 << LSHIFT;    
     DWORD i;
     
-    for (i = 0; i &lt;= LSHIFT; ++i)
+    for (i = 0; i <= LSHIFT; ++i)
     {
-        bitSetCount += ((bitMask &amp; bitTest)?1:0);
+        bitSetCount += ((bitMask & bitTest)?1:0);
         bitTest/=2;
     }
 
@@ -195,7 +191,7 @@ int _cdecl _tmain ()
 
     while (!done)
     {
-        DWORD rc = glpi(buffer, &amp;returnLength);
+        DWORD rc = glpi(buffer, &returnLength);
 
         if (FALSE == rc) 
         {
@@ -227,9 +223,9 @@ int _cdecl _tmain ()
 
     ptr = buffer;
 
-    while (byteOffset + sizeof(SYSTEM_LOGICAL_PROCESSOR_INFORMATION) &lt;= returnLength) 
+    while (byteOffset + sizeof(SYSTEM_LOGICAL_PROCESSOR_INFORMATION) <= returnLength) 
     {
-        switch (ptr-&gt;Relationship) 
+        switch (ptr->Relationship) 
         {
         case RelationNumaNode:
             // Non-NUMA systems report a single record of this type.
@@ -240,21 +236,21 @@ int _cdecl _tmain ()
             processorCoreCount++;
 
             // A hyperthreaded core supplies more than one logical processor.
-            logicalProcessorCount += CountSetBits(ptr-&gt;ProcessorMask);
+            logicalProcessorCount += CountSetBits(ptr->ProcessorMask);
             break;
 
         case RelationCache:
-            // Cache data is in ptr-&gt;Cache, one CACHE_DESCRIPTOR structure for each cache. 
-            Cache = &amp;ptr-&gt;Cache;
-            if (Cache-&gt;Level == 1)
+            // Cache data is in ptr->Cache, one CACHE_DESCRIPTOR structure for each cache. 
+            Cache = &ptr->Cache;
+            if (Cache->Level == 1)
             {
                 processorL1CacheCount++;
             }
-            else if (Cache-&gt;Level == 2)
+            else if (Cache->Level == 2)
             {
                 processorL2CacheCount++;
             }
-            else if (Cache-&gt;Level == 3)
+            else if (Cache->Level == 3)
             {
                 processorL3CacheCount++;
             }
@@ -292,10 +288,10 @@ int _cdecl _tmain ()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
