@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the drop down state for a specified button with style of <a href="Button_Styles.htm">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://msdn.microsoft.com/725deff4-0bcb-497d-a6cf-e9c98b05f16e">BCM_SETDROPDOWNSTATE</a> message explicitly. 
+Sets the drop down state for a specified button with style of <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775973(v=VS.85).aspx">BCM_SETDROPDOWNSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Sets the drop down state for a specified button with style of <a href="Button_St
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the button control. 
 
 
 ### -param fDropDown [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 <b>TRUE</b> for state of  BST_DROPDOWNPUSHED, or <b>FALSE</b> otherwise.
 

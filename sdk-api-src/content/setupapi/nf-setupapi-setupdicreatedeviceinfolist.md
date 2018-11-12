@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="devinst.device_information_sets">device information set</a> and optionally associates the set with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> and a top-level window.
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> and optionally associates the set with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> and a top-level window.
 
 
 ## -parameters

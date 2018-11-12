@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Indicates if <a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3EEF32">IXAPOParameters::SetParameters</a> has been called since the last processing pass.
+Indicates if <a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a> has been called since the last processing pass.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Indicates if <a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3
 
 
 
-Returns TRUE if <a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3EEF32">IXAPOParameters::SetParameters</a> has been called since the last processing pass. May only be used within the XAPO's <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">IXAPO::Process</a> implementation, before <a href="https://msdn.microsoft.com/BC386533-FD78-4CE5-8CE7-E156EE92D500">CXAPOParametersBase::BeginProcess</a> is called. 
+Returns TRUE if <a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a> has been called since the last processing pass. May only be used within the XAPO's <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> implementation, before <a href="https://msdn.microsoft.com/en-us/library/Ee416384(v=VS.85).aspx">CXAPOParametersBase::BeginProcess</a> is called. 
 
 
 
@@ -85,7 +85,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/70F46E4E-E4FC-434F-AB35-B32C1365BB6D">CXAPOParametersBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415238(v=VS.85).aspx">CXAPOParametersBase</a>
  
 
  

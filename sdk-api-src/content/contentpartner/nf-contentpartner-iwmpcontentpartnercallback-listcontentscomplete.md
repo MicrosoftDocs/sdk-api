@@ -65,7 +65,7 @@ The <b>ListContentsComplete</b> method notifies Windows Media Player that the co
 
 ### -param dwListCookie [in]
 
-A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://msdn.microsoft.com/a48935ea-8275-4b68-a1ab-006a23c455ad">IWMPContentPartner::GetListContents</a>.
+A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563166(v=VS.85).aspx">IWMPContentPartner::GetListContents</a>.
 
 
 ### -param hrSuccess [in]
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-Windows Media Player starts retrieving list contents by calling <a href="https://msdn.microsoft.com/a48935ea-8275-4b68-a1ab-006a23c455ad">IWMPContentPartner::GetListContents</a>. This starts an asynchronous operation in which the online store plug-in must call <a href="https://msdn.microsoft.com/22d28495-310e-4f3d-a0e3-8f6679c78c40">IWMPContentPartnerCallback::AddListContents</a> one or more times to give the Player the requested data. The plug-in must finally call <b>ListContentsComplete</b> to notify the Player that all the data has been provided.
+Windows Media Player starts retrieving list contents by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563166(v=VS.85).aspx">IWMPContentPartner::GetListContents</a>. This starts an asynchronous operation in which the online store plug-in must call <a href="https://msdn.microsoft.com/en-us/library/Dd563143(v=VS.85).aspx">IWMPContentPartnerCallback::AddListContents</a> one or more times to give the Player the requested data. The plug-in must finally call <b>ListContentsComplete</b> to notify the Player that all the data has been provided.
 
 
 
@@ -115,7 +115,7 @@ Windows Media Player starts retrieving list contents by calling <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
  
 
  

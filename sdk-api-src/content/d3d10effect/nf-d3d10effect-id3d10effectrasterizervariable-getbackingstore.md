@@ -67,18 +67,18 @@ Index into an array of rasteriser-state descriptions. If there is only one raste
 
 ### -param pRasterizerDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ae4bb4c4-35a8-43c3-bfa5-f57b44bc367e">D3D10_RASTERIZER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">D3D10_RASTERIZER_DESC</a>*</b>
 
-A pointer to a rasteriser-state description (see <a href="https://msdn.microsoft.com/ae4bb4c4-35a8-43c3-bfa5-f57b44bc367e">D3D10_RASTERIZER_DESC</a>).
+A pointer to a rasteriser-state description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">D3D10_RASTERIZER_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -97,7 +97,7 @@ Effect variables are saved in memory in the backing store; when a technique is a
 
 
 
-<a href="https://msdn.microsoft.com/f1739480-cade-42fe-aa34-4169b20b3f52">ID3D10EffectRasterizerVariable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173669(v=VS.85).aspx">ID3D10EffectRasterizerVariable Interface</a>
  
 
  

@@ -60,7 +60,7 @@ Updates the output transform with the new matrix.
 
 ### -param pMatrix [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b75a27b4-2aac-42a0-b45e-c9fc84655513">MILMatrixF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a>*</b>
 
 The new transform to use.
 

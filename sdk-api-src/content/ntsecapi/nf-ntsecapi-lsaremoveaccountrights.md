@@ -96,7 +96,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

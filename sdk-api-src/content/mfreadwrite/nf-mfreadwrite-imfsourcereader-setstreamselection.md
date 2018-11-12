@@ -139,7 +139,7 @@ There are two common uses for this method:
 <li>To change the default stream selection. Some media files contain multiple streams of the same type. For example, a file might include audio streams for multiple languages. You can use this method to change which of the streams is selected. To get information about each stream, call <a href="https://msdn.microsoft.com/40544e1e-cce2-4860-aeb2-b60696b09145">IMFSourceReader::GetPresentationAttribute</a>  or <a href="https://msdn.microsoft.com/4b514f8d-082f-4e84-b512-d4a59706a6d8">IMFSourceReader::GetNativeMediaType</a>.</li>
 <li>If you will not need data from one of the streams, it is a good idea to deselect that stream. If the stream is selected, the media source might hold onto a queue of unread data, and the queue might grow indefinitely, consuming memory. </li>
 </ul>
-For an example of deselecting a stream, see <a href="tutorial__decoding_audio.htm">Tutorial: Decoding Audio</a>.
+For an example of deselecting a stream, see <a href="https://msdn.microsoft.com/en-us/library/Dd757929(v=VS.85).aspx">Tutorial: Decoding Audio</a>.
 
 If a stream is deselected, the <a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc5a-4b9761de5048">IMFSourceReader::ReadSample</a> method returns <b>MF_E_INVALIDREQUEST</b> for that stream. Other <a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a> methods are valid for deselected streams.
 

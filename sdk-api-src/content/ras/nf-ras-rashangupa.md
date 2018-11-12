@@ -111,7 +111,7 @@ After this call, the <i>hrasconn</i> handle can no longer be used.
 
 An application should not call 
 <b>RasHangUp</b> and then immediately exit. The connection state machine needs time to properly terminate. If the system prematurely terminates the state machine, the state machine can fail to properly close a port, leaving the port in an inconsistent state. Also, an immediate attempt to use the same connection may fail leaving the connection unusable. A simple way to avoid these problems is to call 
-<a href="_win32_sleep">Sleep</a>(3000) after returning from 
+<a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>(3000) after returning from 
 <b>RasHangUp</b>; after that pause, the application can exit. A more responsive way to avoid these problems is, after returning from 
 <b>RasHangUp</b>, to call 
 <a href="https://msdn.microsoft.com/3b2a2f8d-b1ff-44d2-ba49-60877ca6c104">RasGetConnectStatus</a>(<i>hrasconn</i>) and <b>Sleep</b>(0) in a loop until 
@@ -159,7 +159,7 @@ You can call
 
 
 
-<a href="_win32_sleep">Sleep</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>
  
 
  

@@ -55,9 +55,9 @@ req.redist:
     <b>ERROR_CALL_NOT_IMPLEMENTED</b>.]
 
 Restores 
-    the <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> and restarts the 
-    <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> on the 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> from which the function is called. This node is called the 
+    the <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> and restarts the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> on the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> from which the function is called. This node is called the 
     restoring node.
 
 
@@ -92,7 +92,7 @@ Setting <i>bForce</i> to <b>TRUE</b> causes the operation to proceed
 ### -param lpszQuorumDriveLetter [in, optional]
 
 Optional. Identifies the drive letter of the quorum resource on which the 
-       <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> will be restored. Use this 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> will be restored. Use this 
        parameter only if the quorum resource has been replaced since the backup was made. The string must be formatted 
        as follows:
 
@@ -109,7 +109,7 @@ Optional. Identifies the drive letter of the quorum resource on which the
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following are possible error 
        codes.
 
 
@@ -120,16 +120,16 @@ If the operation fails, the function returns a
 
 
 If the restore operation is successful, the restoring node forms a 
-     <a href="c_gly.htm">cluster</a> according to the configuration data in the 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> according to the configuration data in the 
      restored cluster database. As other nodes join the cluster, they update their cluster databases from the database 
      on the restoring node.
 
-Note that <a href="c_gly.htm">cluster disks</a> other than the quorum 
+Note that <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster disks</a> other than the quorum 
      resource that have added or changed since the backup was made will not be recognized by the restored cluster 
-     database and will remain <a href="o_gly.htm">offline</a> even if the restore 
-     operation is successful. New <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> must be created for these 
+     database and will remain <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a> even if the restore 
+     operation is successful. New <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resources</a> must be created for these 
      disks (see 
-    <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Creating a Physical Disk Resource</a>).
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369328(v=VS.85).aspx">Creating a Physical Disk Resource</a>).
 
 The following general procedure is recommended for any cluster restore routine:
 
@@ -192,9 +192,9 @@ If the user agrees to force continuation, call
 #### Examples
 
 The following example illustrates the procedure described above. For a more complete example that includes 
-     <a href="https://msdn.microsoft.com/c381b7d3-cc60-45cf-a7f0-eebf44557bcf">BackupClusterDatabase</a>, see the 
-     <a href="https://msdn.microsoft.com/a8914274-7cbc-4f10-9611-f625994f14c8">Backing Up and Restoring the Cluster Configuration</a>. 
-     This example uses the  <a href="https://msdn.microsoft.com/fc2032d2-40a5-45bd-8661-1e778789bad6">ClusDocEx.h</a> header file defined in the 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa367185(v=VS.85).aspx">BackupClusterDatabase</a>, see the 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa367184(v=VS.85).aspx">Backing Up and Restoring the Cluster Configuration</a>. 
+     This example uses the  <a href="https://msdn.microsoft.com/en-us/library/Aa367743(v=VS.85).aspx">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -268,7 +268,7 @@ int main( void )
 
 
 
-<a href="https://msdn.microsoft.com/c381b7d3-cc60-45cf-a7f0-eebf44557bcf">BackupClusterDatabase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa367185(v=VS.85).aspx">BackupClusterDatabase</a>
  
 
  

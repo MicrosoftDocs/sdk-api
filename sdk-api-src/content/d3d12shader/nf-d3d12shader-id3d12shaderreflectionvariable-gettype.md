@@ -65,9 +65,9 @@ Gets a shader-variable type.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933684(v=VS.85).aspx">ID3D12ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn933684(v=VS.85).aspx">ID3D12ShaderReflectionType Interface</a>.
           
 
 
@@ -88,7 +88,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933696(v=VS.85).aspx">ID3D12ShaderReflectionVariable</a>
  
 
  

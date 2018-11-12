@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains the data needed to request a token. It is used as the input parameter of the <a href="https://msdn.microsoft.com/7a1033be-1b97-49d6-91f3-78f5efed1f4b">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a> control code.
+Contains the data needed to request a token. It is used as the input parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb309091(v=VS.85).aspx">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a> control code.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Process ID of the process requesting the token.
 
 Specifies an access mask that specifies the requested types of access. For a list of access rights for access 
       tokens, see 
-      <a href="https://msdn.microsoft.com/5f710fd8-33de-47c0-a8b2-baf3008c4ed7">Access Rights for Access-Token Objects</a>.
+      <a href="https://msdn.microsoft.com/en-us/library/Aa374905(v=VS.85).aspx">Access Rights for Access-Token Objects</a>.
 
 
 ### -field InheritHandle
@@ -82,11 +82,11 @@ Indicates whether the new handle is inheritable. If <b>TRUE</b>, the duplicate h
 
 
 
-<a href="https://msdn.microsoft.com/7a1033be-1b97-49d6-91f3-78f5efed1f4b">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309091(v=VS.85).aspx">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
  
 
  

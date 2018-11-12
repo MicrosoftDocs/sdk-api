@@ -60,12 +60,12 @@ Gets the current target rectangle for the video processor.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/en-us/library/Hh447788(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 
 ### -param Enabled [out]
 
-Receives the value <b>TRUE</b> if the target rectangle was explicitly set using the <a href="https://msdn.microsoft.com/D49EED28-E26E-48B5-A050-8EB568A3D31A">ID3D11VideoContext::VideoProcessorSetOutputTargetRect</a> method. Receives the value FALSE if the target rectangle was disabled or was never set.
+Receives the value <b>TRUE</b> if the target rectangle was explicitly set using the <a href="https://msdn.microsoft.com/en-us/library/Hh447752(v=VS.85).aspx">ID3D11VideoContext::VideoProcessorSetOutputTargetRect</a> method. Receives the value FALSE if the target rectangle was disabled or was never set.
 
 
 ### -param pRect [out]
@@ -87,7 +87,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a>
  
 
  

@@ -86,8 +86,8 @@ This function supports the standard return value E_INVALIDARG as well as the fol
 <b>FmtIdToPropStgName</b> maps a property set FMTID to its stream name for a simple property set or to its storage name for a nonsimple property set.
 
 This function is useful in creating or opening a property set using the PROPSETFLAG_UNBUFFERED value with the 
-<a href="https://msdn.microsoft.com/fc171888-3723-4894-a356-1b234352c4e8">StgCreatePropStg</a> and 
-<a href="https://msdn.microsoft.com/ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e">StgOpenPropStg</a> functions. For more information about PROPSETFLAG_UNBUFFERED, see <a href="https://msdn.microsoft.com/6f865c8f-bbca-4122-b076-14f2bc56f292">PROPSETFLAG Constants</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa380327(v=VS.85).aspx">StgCreatePropStg</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/Aa380340(v=VS.85).aspx">StgOpenPropStg</a> functions. For more information about PROPSETFLAG_UNBUFFERED, see <a href="https://msdn.microsoft.com/en-us/library/Aa380069(v=VS.85).aspx">PROPSETFLAG Constants</a>.
 
 
 
@@ -97,19 +97,19 @@ This function is useful in creating or opening a property set using the PROPSETF
 
 
 
-<a href="https://msdn.microsoft.com/6f865c8f-bbca-4122-b076-14f2bc56f292">PROPSETFLAG Constants</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380069(v=VS.85).aspx">PROPSETFLAG Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f">PropStgNameToFmtId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380071(v=VS.85).aspx">PropStgNameToFmtId</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc171888-3723-4894-a356-1b234352c4e8">StgCreatePropStg</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380327(v=VS.85).aspx">StgCreatePropStg</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e">StgOpenPropStg</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380340(v=VS.85).aspx">StgOpenPropStg</a>
  
 
  
