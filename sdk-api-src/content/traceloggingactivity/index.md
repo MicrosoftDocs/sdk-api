@@ -2,7 +2,7 @@
 UID: NA:traceloggingactivity
 ms.assetid: 096793de-78e2-3dde-9a6a-ec875aee2f88
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:frquery
 ms.assetid: efc8e2e5-4289-3407-8f98-aceb8c1222f6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:lsalookup
 ms.assetid: f104326f-a8db-3cac-b963-825147c697fd
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

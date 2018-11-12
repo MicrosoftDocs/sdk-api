@@ -2,7 +2,7 @@
 UID: NA:efswrtinterop
 ms.assetid: 7abe7af0-89b1-33bb-a90b-5f41c2980004
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

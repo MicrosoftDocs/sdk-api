@@ -2,7 +2,7 @@
 UID: TP:enstor
 ms.assetid: 233ef84c-dce9-3d93-bcda-5f4649228169
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

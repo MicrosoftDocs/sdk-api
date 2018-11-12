@@ -2,7 +2,7 @@
 UID: NA:gb18030
 ms.assetid: 0127d981-a784-3545-bf9e-7ba347005523
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

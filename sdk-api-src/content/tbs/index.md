@@ -2,7 +2,7 @@
 UID: NA:tbs
 ms.assetid: 3f2d3d8b-6a7c-33e3-bf29-9f208ae1797e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

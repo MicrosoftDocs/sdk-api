@@ -2,7 +2,7 @@
 UID: TP:netmon
 ms.assetid: 394d8a4e-56cf-3be1-b42d-c49d2b11070d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

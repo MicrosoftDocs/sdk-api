@@ -2,7 +2,7 @@
 UID: NA:chstrarr
 ms.assetid: e38b81d1-057e-3ea0-bd92-b6c10bc02719
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

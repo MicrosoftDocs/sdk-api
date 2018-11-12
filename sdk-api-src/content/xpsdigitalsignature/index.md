@@ -2,7 +2,7 @@
 UID: NA:xpsdigitalsignature
 ms.assetid: b9a89344-8d0e-3f8a-b2ae-fb24c57e6061
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

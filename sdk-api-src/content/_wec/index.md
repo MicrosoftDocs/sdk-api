@@ -2,7 +2,7 @@
 UID: TP:wec
 ms.assetid: 91d1552a-99b3-3690-b81b-c0721e2d2a17
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
