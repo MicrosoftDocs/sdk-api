@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallingcard.htm
 tech.root: tapi
 ms.assetid: d2eed88b-9a01-4205-a35d-92a24e07a1e2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumCallingCard, IEnumCallingCard interface [TAPI 2.2], IEnumCallingCard interface [TAPI 2.2],described, _tapi3_ienumcallingcard, tapi3.ienumcallingcard, tapi3if/IEnumCallingCard
 ms.prod: windows
 ms.technology: windows-sdk

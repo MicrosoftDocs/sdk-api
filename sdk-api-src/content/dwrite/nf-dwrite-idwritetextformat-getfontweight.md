@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_GetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: 4e8a504e-3afa-4b12-92f8-e2fd7d535bb5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetFontWeight, GetFontWeight method [Direct Write], GetFontWeight method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontWeight method, IDWriteTextFormat.GetFontWeight, IDWriteTextFormat::GetFontWeight, directwrite.IDWriteTextFormat_GetFontWeight, dwrite/IDWriteTextFormat::GetFontWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

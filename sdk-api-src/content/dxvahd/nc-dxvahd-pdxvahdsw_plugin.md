@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_plugin.htm
 tech.root: medfound
 ms.assetid: 1290daa0-a2dd-4067-b74d-e1b3e3edb321
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: PDXVAHDSW_Plugin, PDXVAHDSW_Plugin callback, PDXVAHDSW_Plugin callback function [Media Foundation], dxvahd/PDXVAHDSW_Plugin, mf.pdxvahdsw_plugin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,11 +86,15 @@ The <a href="https://msdn.microsoft.com/74c329cc-af54-4cf8-8cb6-eed9e96db4c5">DX
 
 #### Examples
 
-
-```cpp
-HRESULT CALLBACK DXVAHDSW_Plugin(UINT Size, void* pv)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CALLBACK DXVAHDSW_Plugin(UINT Size, void* pv)
 {
-    if (Size < sizeof(DXVAHDSW_CALLBACKS))
+    if (Size &lt; sizeof(DXVAHDSW_CALLBACKS))
     {
         return E_INVALIDARG;
     }
@@ -100,10 +104,10 @@ HRESULT CALLBACK DXVAHDSW_Plugin(UINT Size, void* pv)
     // TODO: Fill in pCallbacks structure.
 
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

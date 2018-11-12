@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslationinfo_get_dialablestring.htm
 tech.root: tapi
 ms.assetid: 76177de9-eab2-4a86-ac25-29b78606b854
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DialableString method, ITAddressTranslationInfo.get_DialableString, ITAddressTranslationInfo::get_DialableString, _tapi3_itaddresstranslationinfo_get_dialablestring, get_DialableString, get_DialableString method [TAPI 2.2], get_DialableString method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_dialablestring, tapi3if/ITAddressTranslationInfo::get_DialableString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppDialableString</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppDialableString</i> parameter.
 			
 
 Corresponds to the <b>dwDialableStringSize</b> and <b>dwDialableStringOffset</b> members of TAPI 2's 

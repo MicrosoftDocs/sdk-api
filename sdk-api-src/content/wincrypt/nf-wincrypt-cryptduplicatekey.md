@@ -7,7 +7,7 @@ old-location: security\cryptduplicatekey.htm
 tech.root: seccrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -209,7 +209,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

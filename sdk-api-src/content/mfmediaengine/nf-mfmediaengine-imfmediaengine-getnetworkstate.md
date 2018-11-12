@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getnetworkstate.htm
 tech.root: medfound
 ms.assetid: 7CCA902A-51E9-4B6D-B16C-643177BE1BC9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetNetworkState, GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNetworkState method, IMFMediaEngine.GetNetworkState, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_dxil_library_desc.htm
 tech.root: direct3d12
 ms.assetid: C21E91D4-C307-40D8-A82E-DDB542C1D346
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_DXIL_LIBRARY_DESC, D3D12_DXIL_LIBRARY_DESC structure, PD3D12_DXIL_LIBRARY_DESC, PD3D12_DXIL_LIBRARY_DESC structure pointer, d3d12/D3D12_DXIL_LIBRARY_DESC, d3d12/PD3D12_DXIL_LIBRARY_DESC, direct3d12.d3d12_dxil_library_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Describes a DXIL library state subobject that can be included in a state object.
 

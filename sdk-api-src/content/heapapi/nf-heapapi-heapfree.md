@@ -7,7 +7,7 @@ old-location: base\heapfree.htm
 tech.root: memory
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

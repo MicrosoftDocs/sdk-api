@@ -7,7 +7,7 @@ old-location: security\ocsp_signed_request_info.htm
 tech.root: seccrypto
 ms.assetid: b3ff0843-77d8-4a9e-a3ba-97e9c398919a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*POCSP_SIGNED_REQUEST_INFO, OCSP_SIGNED_REQUEST_INFO, OCSP_SIGNED_REQUEST_INFO structure [Security], POCSP_SIGNED_REQUEST_INFO, POCSP_SIGNED_REQUEST_INFO structure pointer [Security], _OCSP_SIGNED_REQUEST_INFO, security.ocsp_signed_request_info, wincrypt/OCSP_SIGNED_REQUEST_INFO, wincrypt/POCSP_SIGNED_REQUEST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

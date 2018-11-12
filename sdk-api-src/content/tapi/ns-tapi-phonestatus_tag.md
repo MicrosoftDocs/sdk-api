@@ -7,7 +7,7 @@ old-location: tapi2\phonestatus_str.htm
 tech.root: tapi
 ms.assetid: 798a6c57-d3d3-4924-a925-059de350d18e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TAPI 2.2], PHONESTATUS, PHONESTATUS structure [TAPI 2.2], _tapi2_phonestatus_str, phonestatus_tag, tapi/LPPHONESTATUS, tapi/PHONESTATUS, tapi2.phonestatus_str"
 ms.prod: windows
 ms.technology: windows-sdk

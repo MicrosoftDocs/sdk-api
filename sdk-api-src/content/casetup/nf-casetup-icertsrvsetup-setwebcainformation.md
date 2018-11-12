@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setwebcainformation.htm
 tech.root: seccrypto
 ms.assetid: 6c8d6b06-d36c-496f-8d5a-da20f09a2b0a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertSrvSetup interface [Security],SetWebCAInformation method, ICertSrvSetup.SetWebCAInformation, ICertSrvSetup::SetWebCAInformation, SetWebCAInformation, SetWebCAInformation method [Security], SetWebCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetWebCAInformation, security.icertsrvsetup_setwebcainformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>SetWebCAInformation</b> method sets the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) information for the Certification Authority Web Enrollment role. You can use this method to enable certificate-related requests to a remote CA through a web interface.
+The <b>SetWebCAInformation</b> method sets the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) information for the Certification Authority Web Enrollment role. You can use this method to enable certificate-related requests to a remote CA through a web interface.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A string that contains a valid configuration for the CA. The string must be in t
 The <b>SetWebCAInformation</b> method pings the CA computer to verify that it is available on the network.
 
 Upon success, <b>SetWebCAInformation</b> sets the ENUM_SETUPPROP_WEBCAMACHINE and ENUM_SETUPPROP_WEBCANAME properties for the Certification Authority Web Enrollment role configuration.
-For more information about setup properties, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
+For more information about setup properties, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
 
 
 
@@ -80,7 +80,7 @@ For more information about setup properties, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

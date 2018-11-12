@@ -7,7 +7,7 @@ old-location: mf\_mft_enum_flag.htm
 tech.root: medfound
 ms.assetid: ba39fb66-d8b6-49c1-8312-18ebdcb012c9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFT_ENUM_FLAG_ALL, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE, MFT_ENUM_FLAG_HARDWARE, MFT_ENUM_FLAG_LOCALMFT, MFT_ENUM_FLAG_SORTANDFILTER, MFT_ENUM_FLAG_SYNCMFT, MFT_ENUM_FLAG_TRANSCODE_ONLY, _MFT_ENUM_FLAG, _MFT_ENUM_FLAG enumeration [Media Foundation], mf._mft_enum_flag, mfapi/MFT_ENUM_FLAG_ALL, mfapi/MFT_ENUM_FLAG_ASYNCMFT, mfapi/MFT_ENUM_FLAG_FIELDOFUSE, mfapi/MFT_ENUM_FLAG_HARDWARE, mfapi/MFT_ENUM_FLAG_LOCALMFT, mfapi/MFT_ENUM_FLAG_SORTANDFILTER, mfapi/MFT_ENUM_FLAG_SYNCMFT, mfapi/MFT_ENUM_FLAG_TRANSCODE_ONLY, mfapi/_MFT_ENUM_FLAG
 ms.prod: windows
 ms.technology: windows-sdk

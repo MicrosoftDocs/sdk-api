@@ -7,7 +7,7 @@ old-location: base\querymemoryresourcenotification.htm
 tech.root: memory
 ms.assetid: 95a38b97-7fae-4ec6-aa9e-cc800d40594b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: QueryMemoryResourceNotification, QueryMemoryResourceNotification function, _win32_querymemoryresourcenotification, base.querymemoryresourcenotification, winbase/QueryMemoryResourceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

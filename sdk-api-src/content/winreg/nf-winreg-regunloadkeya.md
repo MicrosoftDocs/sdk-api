@@ -7,7 +7,7 @@ old-location: base\regunloadkey.htm
 tech.root: sysinfo
 ms.assetid: 73b4b6a9-4acb-4247-bd7f-82024ba3e14a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/09/2018
 ms.keywords: RegUnLoadKey, RegUnLoadKey function, RegUnLoadKeyA, RegUnLoadKeyW, _win32_regunloadkey, base.regunloadkey, winreg/RegUnLoadKey, winreg/RegUnLoadKeyA, winreg/RegUnLoadKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

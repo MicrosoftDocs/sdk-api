@@ -7,7 +7,7 @@ old-location: mf\dxva2_fixed32transparentalpha.htm
 tech.root: medfound
 ms.assetid: beb80542-f608-43e2-ab71-8ecee7884c62
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DXVA2_Fixed32TransparentAlpha, DXVA2_Fixed32TransparentAlpha function [Media Foundation], beb80542-f608-43e2-ab71-8ecee7884c62, dxva2api/DXVA2_Fixed32TransparentAlpha, mf.dxva2_fixed32transparentalpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

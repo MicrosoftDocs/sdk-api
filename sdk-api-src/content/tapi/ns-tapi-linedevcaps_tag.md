@@ -7,7 +7,7 @@ old-location: tapi2\linedevcaps_str.htm
 tech.root: tapi
 ms.assetid: 83e38453-bb93-4cc5-923f-d0cd2898350a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPLINEDEVCAPS, LINEDEVCAPS, LINEDEVCAPS structure [TAPI 2.2], LPLINEDEVCAPS, LPLINEDEVCAPS structure pointer [TAPI 2.2], _tapi2_linedevcaps_str, linedevcaps_tag, tapi/LINEDEVCAPS, tapi/LPLINEDEVCAPS, tapi2.linedevcaps_str"
 ms.prod: windows
 ms.technology: windows-sdk

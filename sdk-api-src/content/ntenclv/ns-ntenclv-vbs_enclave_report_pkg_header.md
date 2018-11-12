@@ -7,7 +7,7 @@ old-location: base\vbs_enclave_report_pkg_header.htm
 tech.root: memory
 ms.assetid: F2E24F81-97F1-404E-9974-327C762683DA
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: VBS_ENCLAVE_REPORT_PKG_HEADER, VBS_ENCLAVE_REPORT_PKG_HEADER structure, base.vbs_enclave_report_pkg_header, ntenclv/VBS_ENCLAVE_REPORT_PKG_HEADER
 ms.prod: windows
 ms.technology: windows-sdk

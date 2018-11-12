@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_geometry_aabbs_desc.htm
 tech.root: direct3d12
 ms.assetid: A9FA270E-2B97-4DAC-891F-0DF83F8F9522
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_AABBS_DESC, D3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure, PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC, PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure pointer, d3d12/D3D12_RAYTRACING_GEOMETRY_AABBS_DESC, d3d12/PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC, direct3d12.d3d12_raytracing_geometry_aabbs_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Describes a set of Axis-aligned bounding boxes that are used in the <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure to provide input data to a raytracing acceleration structure build operation.
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_pipeline_config.htm
 tech.root: direct3d12
 ms.assetid: 4E2A9C75-CCFE-4AB5-967A-FF2CE3C8A7CF
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_RAYTRACING_PIPELINE_CONFIG, D3D12_RAYTRACING_PIPELINE_CONFIG structure, PD3D12_RAYTRACING_PIPELINE_CONFIG, PD3D12_RAYTRACING_PIPELINE_CONFIG structure pointer, d3d12/D3D12_RAYTRACING_PIPELINE_CONFIG, d3d12/PD3D12_RAYTRACING_PIPELINE_CONFIG, direct3d12.d3d12_raytracing_pipeline_config
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 A state subobject that represents a raytracing pipeline configuration.
 

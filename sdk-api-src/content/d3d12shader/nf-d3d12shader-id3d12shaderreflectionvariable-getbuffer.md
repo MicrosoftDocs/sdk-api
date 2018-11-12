@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable_getbuffer.htm
 tech.root: direct3d12
 ms.assetid: 433FABE2-D0BB-4E97-84BB-D20566D32571
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: GetBuffer, GetBuffer method, GetBuffer method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetBuffer method, ID3D12ShaderReflectionVariable.GetBuffer, ID3D12ShaderReflectionVariable::GetBuffer, d3d12shader/ID3D12ShaderReflectionVariable::GetBuffer, direct3d12.id3d12shaderreflectionvariable_getbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
+Returns the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
         
 
 
@@ -65,9 +65,9 @@ Returns the <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a>*</b>
 
-Returns a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
+Returns a pointer to the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>.
           
 
 

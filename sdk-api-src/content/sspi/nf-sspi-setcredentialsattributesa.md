@@ -7,7 +7,7 @@ old-location: security\setcredentialsattributes.htm
 tech.root: secauthn
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/SetCredentialsAttributes, sspi/SetCredentialsAttributesA, sspi/SetCredentialsAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -222,7 +222,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

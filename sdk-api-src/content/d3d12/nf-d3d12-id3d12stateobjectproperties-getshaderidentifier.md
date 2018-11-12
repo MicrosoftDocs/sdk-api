@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12stateobjectproperties_getshaderidentifier.htm
 tech.root: direct3d12
 ms.assetid: E93279A1-4238-49C7-8525-EE01999454D9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: GetShaderIdentifier, GetShaderIdentifier method, GetShaderIdentifier method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderIdentifier method, ID3D12StateObjectProperties.GetShaderIdentifier, ID3D12StateObjectProperties::GetShaderIdentifier, d3d12/ID3D12StateObjectProperties::GetShaderIdentifier, direct3d12.id3d12stateobjectproperties_getshaderidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Retrieves the unique identifier for a shader that can be used in a shader record.  
 

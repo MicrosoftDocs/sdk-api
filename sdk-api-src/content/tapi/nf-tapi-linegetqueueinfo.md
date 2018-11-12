@@ -7,7 +7,7 @@ old-location: tapi2\linegetqueueinfo.htm
 tech.root: tapi
 ms.assetid: f7bd6922-a9cd-43ab-96f7-5abf4c6a5b16
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linegetqueueinfo, lineGetQueueInfo, lineGetQueueInfo function [TAPI 2.2], tapi/lineGetQueueInfo, tapi2.linegetqueueinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

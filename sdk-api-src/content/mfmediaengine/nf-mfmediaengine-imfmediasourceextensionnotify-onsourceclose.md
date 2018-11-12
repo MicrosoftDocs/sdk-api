@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextensionnotify_onsourceclose.htm
 tech.root: medfound
 ms.assetid: d4199b4e-320f-47ec-8434-862fb1c1db8d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceClose method, IMFMediaSourceExtensionNotify.OnSourceClose, IMFMediaSourceExtensionNotify::OnSourceClose, OnSourceClose, OnSourceClose method [Media Foundation], OnSourceClose method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceclose, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

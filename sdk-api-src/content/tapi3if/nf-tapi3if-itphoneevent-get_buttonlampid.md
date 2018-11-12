@@ -7,7 +7,7 @@ old-location: tapi3\itphoneevent_get_buttonlampid.htm
 tech.root: tapi
 ms.assetid: 43b87d10-8cb9-4795-8778-70c8f8ae6300
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_ButtonLampId method, ITPhoneEvent.get_ButtonLampId, ITPhoneEvent::get_ButtonLampId, _tapi3_itphoneevent_get_buttonlampid, get_ButtonLampId, get_ButtonLampId method [TAPI 2.2], get_ButtonLampId method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_buttonlampid, tapi3if/ITPhoneEvent::get_ButtonLampId
 ms.prod: windows-hardware
 ms.technology: windows-devices

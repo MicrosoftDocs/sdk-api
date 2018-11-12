@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager.htm
 tech.root: medfound
 ms.assetid: BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], IMFMuxStreamMediaTypeManager interface [Media Foundation],described, mf.imfmuxstreammediatypemanager, mfobjects/IMFMuxStreamMediaTypeManager
 ms.prod: windows
 ms.technology: windows-sdk

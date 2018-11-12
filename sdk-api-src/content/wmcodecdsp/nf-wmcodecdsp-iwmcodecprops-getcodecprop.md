@@ -7,7 +7,7 @@ old-location: mf\iwmcodecpropsgetcodecprop.htm
 tech.root: medfound
 ms.assetid: 380c0beb-47a7-46e2-bf5a-cf901d7e0719
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetCodecProp, GetCodecProp method [Media Foundation], GetCodecProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetCodecProp method, IWMCodecProps.GetCodecProp, IWMCodecProps::GetCodecProp, codecapi.iwmcodecpropsgetcodecprop, g_wszWMCPCodecName, g_wszWMCPSupportedVBRModes, mf.iwmcodecpropsgetcodecprop, wmcodecdsp/IWMCodecProps::GetCodecProp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -79,7 +79,7 @@ Returns a handle to the main frame window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://msdn.microsoft.com/cdb9b389-0882-4e39-976e-cbbb1782edbb">MessageBox</a>
 </td>
 <td align="left" width="63%">
 Displays a message box.
@@ -119,7 +119,7 @@ Queries the console-provided result pane's image list.
 <a href="https://msdn.microsoft.com/7736919a-ca02-4dda-a475-685a1b306422">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+Queries IConsole for the result view object's <a href="_com_iunknown">IUnknown</a> interface pointer.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Generates a notification to update views because of content change.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: tapi2\lineagentactivityentry_str.htm
 tech.root: tapi
 ms.assetid: e4f869a9-608c-4119-863b-b29e8b0d9680
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPLINEAGENTACTIVITYENTRY, LINEAGENTACTIVITYENTRY, LINEAGENTACTIVITYENTRY structure [TAPI 2.2], LPLINEAGENTACTIVITYENTRY, LPLINEAGENTACTIVITYENTRY structure pointer [TAPI 2.2], _tapi2_lineagentactivityentry_str, lineagentactivityentry_tag, tapi/LINEAGENTACTIVITYENTRY, tapi/LPLINEAGENTACTIVITYENTRY, tapi2.lineagentactivityentry_str"
 ms.prod: windows
 ms.technology: windows-sdk

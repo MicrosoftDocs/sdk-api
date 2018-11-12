@@ -7,7 +7,7 @@ old-location: tapi3\itdigitdetectionevent_get_digit.htm
 tech.root: tapi
 ms.assetid: b62418de-9a3e-46f1-88d9-7e147859ec96
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_Digit method, ITDigitDetectionEvent.get_Digit, ITDigitDetectionEvent::get_Digit, _tapi3_itdigitdetectionevent_get_digit, get_Digit, get_Digit method [TAPI 2.2], get_Digit method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_digit, tapi3if/ITDigitDetectionEvent::get_Digit
 ms.prod: windows-hardware
 ms.technology: windows-devices

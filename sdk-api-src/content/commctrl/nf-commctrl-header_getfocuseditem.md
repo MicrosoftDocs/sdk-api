@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775330(v=VS.85).aspx">HDM_GETFOCUSEDITEM</a> message explicitly.
+Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/9ad8e497-6f81-4226-b138-d1101f2fd8b3">HDM_GETFOCUSEDITEM</a> message explicitly.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the item in a header control that has the focus. Use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the header control.
 
@@ -70,7 +70,7 @@ A handle to the header control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775238(v=VS.85).aspx">About Header Controls</a>
+<a href="https://msdn.microsoft.com/b464fb9a-e342-4209-ba6f-15b5388f3914">About Header Controls</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\finddebuginfofile.htm
 tech.root: debug
 ms.assetid: a13d3bf4-f34d-4304-9d47-aa21c3fa23b8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: FindDebugInfoFile, FindDebugInfoFile function, _win32_finddebuginfofile, base.finddebuginfofile, dbghelp/FindDebugInfoFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

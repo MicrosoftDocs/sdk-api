@@ -101,7 +101,7 @@ The <b>IDCompositionRotateTransform</b> interface has these methods.
 
 A rotate transform represents the following 3-by-3 matrix:
 
-<img alt="Three-by-three transformation matrix" src="./images/rotate_transform_3x3matrix.png"/>
+<img alt="Three-by-three transformation matrix" src="images/rotate_transform_3x3matrix.png"/>
 
 The effect is to rotate the coordinate system clockwise or counter-clockwise, and to apply the corresponding translation such that the center point does not move.
 

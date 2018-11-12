@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory3_getsystemfontset.htm
 tech.root: DirectWrite
 ms.assetid: 84fd8c9f-f4b1-3015-f431-08b7a07ff32b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontSet method, IDWriteFactory3.GetSystemFontSet, IDWriteFactory3::GetSystemFontSet, directwrite.idwritefactory3_getsystemfontset, dwrite_3/IDWriteFactory3::GetSystemFontSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

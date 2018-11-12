@@ -7,7 +7,7 @@ old-location: base\symsetscopefrominlinecontext.htm
 tech.root: debug
 ms.assetid: 053163b0-2504-48fc-92c1-3839311ec657
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: SymSetScopeFromInlineContext, SymSetScopeFromInlineContext function, base.symsetscopefrominlinecontext, dbghelp/SymSetScopeFromInlineContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

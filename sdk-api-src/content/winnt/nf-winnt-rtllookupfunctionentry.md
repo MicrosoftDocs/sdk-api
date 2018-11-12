@@ -7,7 +7,7 @@ old-location: base\rtllookupfunctionentry.htm
 tech.root: debug
 ms.assetid: 624b97fb-0453-4f47-b6bd-92aa14705e78
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

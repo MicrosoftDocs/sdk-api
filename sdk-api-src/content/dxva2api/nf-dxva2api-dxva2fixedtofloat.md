@@ -7,7 +7,7 @@ old-location: mf\dxva2fixedtofloat.htm
 tech.root: medfound
 ms.assetid: f92c1d78-a2a7-469e-926a-7ba5ad8221e1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DXVA2FixedToFloat, DXVA2FixedToFloat function [Media Foundation], dxva2api/DXVA2FixedToFloat, f92c1d78-a2a7-469e-926a-7ba5ad8221e1, mf.dxva2fixedtofloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

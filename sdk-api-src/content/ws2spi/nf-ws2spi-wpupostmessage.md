@@ -51,7 +51,7 @@ req.redist:
 
 
 The 
-<b>WPUPostMessage</b> function performs the standard Windows <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+<b>WPUPostMessage</b> function performs the standard Windows <a href="_win32_postmessage_cpp">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
 
 ## -parameters

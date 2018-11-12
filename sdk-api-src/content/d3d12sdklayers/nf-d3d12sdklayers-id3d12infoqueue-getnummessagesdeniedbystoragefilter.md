@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnummessagesdeniedbystoragefilter.htm
 tech.root: direct3d12
 ms.assetid: A1702C92-516C-4ECF-AD75-3D2CCFE360D2
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Number of messages denied by a storage filter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

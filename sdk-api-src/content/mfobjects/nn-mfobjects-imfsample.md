@@ -7,7 +7,7 @@ old-location: mf\imfsample.htm
 tech.root: medfound
 ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample
 ms.prod: windows
 ms.technology: windows-sdk

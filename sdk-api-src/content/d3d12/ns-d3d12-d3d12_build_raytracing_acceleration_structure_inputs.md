@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_inputs.ht
 tech.root: direct3d12
 ms.assetid: C6781F5B-A3B6-4630-A94F-C438AEA62EB7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure pointer, d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS, direct3d12.d3d12_build_raytracing_acceleration_structure_inputs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Defines the inputs for a raytracing acceleration structure build operation. This structure is used by <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-buildraytracingaccelerationstructure">ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure</a> and <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo</a>.
 

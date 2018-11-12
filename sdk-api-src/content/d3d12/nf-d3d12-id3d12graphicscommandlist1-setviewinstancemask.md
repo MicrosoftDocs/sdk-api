@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist1_setviewinstancemask_uint.htm
 tech.root: direct3d12
 ms.assetid: 0AE16797-6F9E-4387-A810-EF59DDC771E6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetViewInstanceMask method, ID3D12GraphicsCommandList1.SetViewInstanceMask, ID3D12GraphicsCommandList1::SetViewInstanceMask, SetViewInstanceMask, SetViewInstanceMask method, SetViewInstanceMask method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetViewInstanceMask, direct3d12.id3d12graphicscommandlist1_setviewinstancemask_uint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ No shader code paths that are dependent on SV_ViewID are executed at any shader 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492655(v=VS.85).aspx">ID3D12GraphicsCommandList1</a>
+<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
  
 
  

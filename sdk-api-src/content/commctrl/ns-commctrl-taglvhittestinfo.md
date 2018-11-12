@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/en-us/library/Bb761099(v=VS.85).aspx">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb761229(v=VS.85).aspx">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
+Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/81df4ed1-30bd-4b63-9cb9-5163cb7cf52c">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/1468febb-af0d-4c04-b0b1-cda5ec77aa2c">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
 			<b>LVHITTESTINFO</b> structure. 
 
 
@@ -68,7 +68,7 @@ The position to hit test, in client coordinates.
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The variable that receives information about the results of a hit test. This member can be one or more of the following values:
 

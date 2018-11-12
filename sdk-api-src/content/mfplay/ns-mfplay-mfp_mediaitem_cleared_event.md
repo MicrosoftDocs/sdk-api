@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_cleared_event.htm
 tech.root: medfound
 ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

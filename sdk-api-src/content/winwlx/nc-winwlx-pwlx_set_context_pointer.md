@@ -7,7 +7,7 @@ old-location: security\wlxsetcontextpointer.htm
 tech.root: secauthn
 ms.assetid: 592d05f4-be7c-4606-91ad-77e3fb4f6b7a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PWLX_SET_CONTEXT_POINTER, PWLX_SET_CONTEXT_POINTER callback, WlxSetContextPointer, WlxSetContextPointer callback function [Security], _gina_wlxsetcontextpointer, security.wlxsetcontextpointer, winwlx/WlxSetContextPointer
 ms.prod: windows
 ms.technology: windows-sdk

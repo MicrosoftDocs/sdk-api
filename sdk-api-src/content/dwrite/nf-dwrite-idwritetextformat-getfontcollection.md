@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: a94cfca5-3a03-4912-9a33-df705a2265cf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetFontCollection, GetFontCollection method [Direct Write], GetFontCollection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontCollection method, IDWriteTextFormat.GetFontCollection, IDWriteTextFormat::GetFontCollection, directwrite.IDWriteTextFormat_GetFontCollection, dwrite/IDWriteTextFormat::GetFontCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

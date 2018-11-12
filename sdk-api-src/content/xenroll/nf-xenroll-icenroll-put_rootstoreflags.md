@@ -7,7 +7,7 @@ old-location: security\icenroll4_rootstoreflags.htm
 tech.root: seccrypto
 ms.assetid: bf844047-4f5a-42de-a446-195371c0dbcf
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],RootStoreFlags property, ICEnroll interface [Security],RootStoreFlags property, ICEnroll.RootStoreFlags, ICEnroll.put_RootStoreFlags, ICEnroll2 interface [Security],RootStoreFlags property, ICEnroll2.RootStoreFlags, ICEnroll2::get_RootStoreFlags, ICEnroll2::put_RootStoreFlags, ICEnroll3 interface [Security],RootStoreFlags property, ICEnroll3.RootStoreFlags, ICEnroll3::get_RootStoreFlags, ICEnroll3::put_RootStoreFlags, ICEnroll4 interface [Security],RootStoreFlags property, ICEnroll4.RootStoreFlags, ICEnroll4::RootStoreFlags, ICEnroll4::get_RootStoreFlags, ICEnroll4::put_RootStoreFlags, ICEnroll::get_RootStoreFlags, ICEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],CEnroll object, RootStoreFlags property [Security],ICEnroll interface, RootStoreFlags property [Security],ICEnroll2 interface, RootStoreFlags property [Security],ICEnroll3 interface, RootStoreFlags property [Security],ICEnroll4 interface, put_RootStoreFlags, security.icenroll4_rootstoreflags, xenroll/ICEnroll2::RootStoreFlags, xenroll/ICEnroll2::get_RootStoreFlags, xenroll/ICEnroll2::put_RootStoreFlags, xenroll/ICEnroll3::RootStoreFlags, xenroll/ICEnroll3::get_RootStoreFlags, xenroll/ICEnroll3::put_RootStoreFlags, xenroll/ICEnroll4::RootStoreFlags, xenroll/ICEnroll4::get_RootStoreFlags, xenroll/ICEnroll4::put_RootStoreFlags, xenroll/ICEnroll::RootStoreFlags, xenroll/ICEnroll::get_RootStoreFlags, xenroll/ICEnroll::put_RootStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,28 +97,32 @@ The <b>RootStoreFlags</b> property should be set before using the following meth
 
 #### Examples
 
-
-```cpp
-DWORD    dwFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer.
 
 // Retrieve the flag value.
-hr = pEnroll->get_RootStoreFlags( &dwFlags );
+hr = pEnroll-&gt;get_RootStoreFlags( &amp;dwFlags );
 if ( FAILED ( hr ) )
     printf("Failed retrieving RootStoreFlags - %x\n", hr );
 else
     printf("RootStoreFlags is %x\n", dwFlags );
 
 // Set the flag.
-hr = pEnroll->put_RootStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
+hr = pEnroll-&gt;put_RootStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
 if ( FAILED ( hr ) )
     printf("Failed updating RootStoreFlags - %x\n", hr );
 else
-    printf("Updated RootStoreFlags\n");
-```
-
-
+    printf("Updated RootStoreFlags\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 

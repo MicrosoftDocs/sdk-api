@@ -69,9 +69,9 @@ The annotation name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.  Note that if the annotation is not found the <b>ID3D10EffectVariable Interface</b> returned will be empty. The <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">ID3D10EffectVariable::IsValid</a> method should be called to determine whether the annotation was found.
+A pointer to an <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>.  Note that if the annotation is not found the <b>ID3D10EffectVariable Interface</b> returned will be empty. The <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">ID3D10EffectVariable::IsValid</a> method should be called to determine whether the annotation was found.
 
 
 
@@ -80,7 +80,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.
 
 
 
-Annonations can be attached to a technique, a pass or a gloval variable. For the syntax, see <a href="https://msdn.microsoft.com/en-us/library/Bb205046(v=VS.85).aspx">Annotation Syntax (Direct3D 10)</a>.
+Annonations can be attached to a technique, a pass or a gloval variable. For the syntax, see <a href="https://msdn.microsoft.com/9178e61e-05a4-441c-a9f1-e05e23ab48a5">Annotation Syntax (Direct3D 10)</a>.
 
 
 
@@ -90,7 +90,7 @@ Annonations can be attached to a technique, a pass or a gloval variable. For the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

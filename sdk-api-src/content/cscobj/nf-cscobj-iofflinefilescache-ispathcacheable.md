@@ -71,7 +71,7 @@ Receives <b>TRUE</b> if the item is in the Offline Files cache, <b>FALSE</b> if 
 
 ### -param pShareCachingMode [out]
 
-Receives one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb530642(v=VS.85).aspx">OFFLINEFILES_CACHING_MODE</a> enumeration values indicating the caching configuration of the applicable network shared folder under which the specified item exists.
+Receives one of the following <a href="https://msdn.microsoft.com/833cd194-7086-4faa-a05b-5f8beda62f0a">OFFLINEFILES_CACHING_MODE</a> enumeration values indicating the caching configuration of the applicable network shared folder under which the specified item exists.
 
 
 
@@ -117,14 +117,14 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-The caching mode value returned is equivalent to the <b>CSC_MASK</b> value associated with <a href="https://msdn.microsoft.com/en-us/library/Bb525404(v=VS.85).aspx">SHARE_INFO_1005</a> returned by <a href="https://msdn.microsoft.com/en-us/library/Bb525388(v=VS.85).aspx">NetShareGetInfo</a>.  The value mapping is as follows:
+The caching mode value returned is equivalent to the <b>CSC_MASK</b> value associated with <a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a> returned by <a href="https://msdn.microsoft.com/672ea208-4048-4d2f-9606-ee3e2133765b">NetShareGetInfo</a>.  The value mapping is as follows:
 
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530642(v=VS.85).aspx">OFFLINEFILES_CACHING_MODE</a> Value</th>
+<a href="https://msdn.microsoft.com/833cd194-7086-4faa-a05b-5f8beda62f0a">OFFLINEFILES_CACHING_MODE</a> Value</th>
 <th>
-<a href="https://msdn.microsoft.com/en-us/library/Bb525404(v=VS.85).aspx">SHARE_INFO_1005</a> Value</th>
+<a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a> Value</th>
 </tr>
 <tr>
 <td><b>OFFLINEFILES_CACHING_MODE_NOCACHING</b></td>
@@ -155,15 +155,15 @@ These settings are configured as attributes of the shared folder on the server b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530612(v=VS.85).aspx">IOfflineFilesShareInfo::GetShareCachingMode</a>
+<a href="https://msdn.microsoft.com/0045497b-0f90-4e20-80c9-6b74e4b523b8">IOfflineFilesShareInfo::GetShareCachingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530642(v=VS.85).aspx">OFFLINEFILES_CACHING_MODE</a>
+<a href="https://msdn.microsoft.com/833cd194-7086-4faa-a05b-5f8beda62f0a">OFFLINEFILES_CACHING_MODE</a>
  
 
  

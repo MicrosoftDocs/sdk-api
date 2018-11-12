@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Arranges items in icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774884(v=VS.85).aspx">LVM_ARRANGE</a> message explicitly.
+Arranges items in icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/f7dbcdd2-3cc9-4bae-827e-8bac3b49486c">LVM_ARRANGE</a> message explicitly.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Arranges items in icon view. You can use this macro or send the <a href="https:/
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param code
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 One of the following values that specifies alignment:
 
@@ -84,7 +84,7 @@ One of the following values that specifies alignment:
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_ALIGNLEFT</a> style instead.
+Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNLEFT</a> style instead.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Not implemented. Apply the <a href="https://msdn.microsoft.com/en-us/library/Bb7
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_ALIGNTOP</a> style instead.
+Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNTOP</a> style instead.
 
 </td>
 </tr>

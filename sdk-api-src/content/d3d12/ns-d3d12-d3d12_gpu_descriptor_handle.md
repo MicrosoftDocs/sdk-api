@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_gpu_descriptor_handle.htm
 tech.root: direct3d12
 ms.assetid: 16D09788-D527-4D9F-A6EF-648F42A426B5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_GPU_DESCRIPTOR_HANDLE, D3D12_GPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_GPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_gpu_descriptor_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,11 +97,11 @@ This structure is passed into the following methods:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186569(v=VS.85).aspx">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>
+<a href="https://msdn.microsoft.com/6E405AD6-D370-4B87-849A-C52D64C79BF7">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

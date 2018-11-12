@@ -7,7 +7,7 @@ old-location: base\localfree.htm
 tech.root: memory
 ms.assetid: a0393983-cb43-4dfa-91a6-d82a5fb8de12
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: LocalFree, LocalFree function, _win32_localfree, base.localfree, winbase/LocalFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

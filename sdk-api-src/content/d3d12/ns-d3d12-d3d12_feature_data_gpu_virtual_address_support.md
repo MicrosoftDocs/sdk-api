@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_gpu_virtual_address_support.htm
 tech.root: direct3d12
 ms.assetid: 2CBED491-A8B6-47AE-8371-2081BAF85B83
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure, d3d12/D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, direct3d12.d3d12_feature_data_gpu_virtual_address_support
 ms.prod: windows
 ms.technology: windows-sdk

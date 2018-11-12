@@ -2,26 +2,26 @@
 UID: NE:fwptypes.FWP_MATCH_TYPE_
 title: FWP_MATCH_TYPE_
 author: windows-sdk-content
-description: Different match types allowed in filter conditions.
-old-location: fwp\fwp_match_type_enum.htm
-tech.root: fwp
-ms.assetid: a49efb25-990c-459d-90bc-758337c351d5
+description: The FWP_MATCH_TYPE enumeration type specifies the type of match that a filter should use to test for a particular condition.
+old-location: netvista\fwp_match_type.htm
+tech.root: NetVista
+ms.assetid: c0f95b3f-1b89-4d44-87b2-73032fa3524e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: FWP_MATCH_EQUAL, FWP_MATCH_EQUAL_CASE_INSENSITIVE, FWP_MATCH_FLAGS_ALL_SET, FWP_MATCH_FLAGS_ANY_SET, FWP_MATCH_FLAGS_NONE_SET, FWP_MATCH_GREATER, FWP_MATCH_GREATER_OR_EQUAL, FWP_MATCH_LESS, FWP_MATCH_LESS_OR_EQUAL, FWP_MATCH_NOT_EQUAL, FWP_MATCH_RANGE, FWP_MATCH_TYPE, FWP_MATCH_TYPE enumeration [Filtering], FWP_MATCH_TYPE_, FWP_MATCH_TYPE_MAX, fwp.fwp_match_type_enum, fwptypes/FWP_MATCH_EQUAL, fwptypes/FWP_MATCH_EQUAL_CASE_INSENSITIVE, fwptypes/FWP_MATCH_FLAGS_ALL_SET, fwptypes/FWP_MATCH_FLAGS_ANY_SET, fwptypes/FWP_MATCH_FLAGS_NONE_SET, fwptypes/FWP_MATCH_GREATER, fwptypes/FWP_MATCH_GREATER_OR_EQUAL, fwptypes/FWP_MATCH_LESS, fwptypes/FWP_MATCH_LESS_OR_EQUAL, fwptypes/FWP_MATCH_NOT_EQUAL, fwptypes/FWP_MATCH_RANGE, fwptypes/FWP_MATCH_TYPE, fwptypes/FWP_MATCH_TYPE_MAX
+ms.date: 09/27/2018
+ms.keywords: FWP_MATCH_EQUAL, FWP_MATCH_EQUAL_CASE_INSENSITIVE, FWP_MATCH_FLAGS_ALL_SET, FWP_MATCH_FLAGS_ANY_SET, FWP_MATCH_FLAGS_NONE_SET, FWP_MATCH_GREATER, FWP_MATCH_GREATER_OR_EQUAL, FWP_MATCH_LESS, FWP_MATCH_LESS_OR_EQUAL, FWP_MATCH_NOT_EQUAL, FWP_MATCH_RANGE, FWP_MATCH_TYPE, FWP_MATCH_TYPE enumeration [Network Drivers Starting with Windows Vista], FWP_MATCH_TYPE_, FWP_MATCH_TYPE_MAX, fwptypes/FWP_MATCH_EQUAL, fwptypes/FWP_MATCH_EQUAL_CASE_INSENSITIVE, fwptypes/FWP_MATCH_FLAGS_ALL_SET, fwptypes/FWP_MATCH_FLAGS_ANY_SET, fwptypes/FWP_MATCH_FLAGS_NONE_SET, fwptypes/FWP_MATCH_GREATER, fwptypes/FWP_MATCH_GREATER_OR_EQUAL, fwptypes/FWP_MATCH_LESS, fwptypes/FWP_MATCH_LESS_OR_EQUAL, fwptypes/FWP_MATCH_NOT_EQUAL, fwptypes/FWP_MATCH_RANGE, fwptypes/FWP_MATCH_TYPE, fwptypes/FWP_MATCH_TYPE_MAX, netvista.fwp_match_type, wfp_ref_4_enum_81a997f9-e9a8-43a7-82a0-6571c7a12b3a.xml
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
-req.include-header: 
+req.include-header: Fwpsk.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Supported starting with  Windows Vista.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Fwptypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - Fwptypes.h
+ - fwptypes.h
 api_name:
  - FWP_MATCH_TYPE
 product: Windows
@@ -50,7 +50,8 @@ req.redist:
 ## -description
 
 
-The <b>FWP_MATCH_TYPE</b> enumerated type specifies different match types allowed in filter conditions.
+The FWP_MATCH_TYPE enumeration type specifies the type of match that a filter should use to test for
+  a particular condition.
 
 
 ## -enum-fields
@@ -60,81 +61,58 @@ The <b>FWP_MATCH_TYPE</b> enumerated type specifies different match types allowe
 
 ### -field FWP_MATCH_EQUAL
 
-Tests whether the value is equal to the condition value. 
-
-All data types support <b>FWP_MATCH_EQUAL</b>.
+Tests whether the value is equal to the condition value.
 
 
 ### -field FWP_MATCH_GREATER
 
 Tests whether the value is greater than the condition value.
 
-Only sortable data types support <b>FWP_MATCH_GREATER</b>. Sortable data types consist of all integer types, FWP_BYTE_ARRAY16_TYPE, FWP_BYTE_BLOB_TYPE, and FWP_UNICODE_STRING_TYPE.
-
 
 ### -field FWP_MATCH_LESS
 
 Tests whether the value is less than the condition value.
-
-Only sortable data types support <b>FWP_MATCH_LESS</b>.
 
 
 ### -field FWP_MATCH_GREATER_OR_EQUAL
 
 Tests whether the value is greater than or equal to the condition value.
 
-Only sortable data types support <b>FWP_MATCH_GREATER_OR_EQUAL</b>.
-
 
 ### -field FWP_MATCH_LESS_OR_EQUAL
 
 Tests whether the value is less than or equal to the condition value.
-
-Only sortable data types support <b>FWP_MATCH_LESS_OR_EQUAL</b>.
 
 
 ### -field FWP_MATCH_RANGE
 
 Tests whether the value is within a given range of condition values.
 
-Only sortable data types support <b>FWP_MATCH_RANGE</b>.
-
 
 ### -field FWP_MATCH_FLAGS_ALL_SET
 
-Tests whether all flags are set.
-
-Only unsigned integer data types support <b>FWP_MATCH_FLAGS_ALL_SET</b>.
+Tests whether all of the condition flags specified in the condition value are set.
 
 
 ### -field FWP_MATCH_FLAGS_ANY_SET
 
-Tests whether any flags are set.
-
-Only unsigned integer data types support <b>FWP_MATCH_FLAGS_ANY_SET</b>.
+Tests whether any of the condition flags specified in the condition value are set.
 
 
 ### -field FWP_MATCH_FLAGS_NONE_SET
 
-Tests whether no flags are set.
-
-Only unsigned integer data types support <b>FWP_MATCH_FLAGS_NONE_SET</b>.
+Tests whether none of the condition flags specified in the condition value are set.
 
 
 ### -field FWP_MATCH_EQUAL_CASE_INSENSITIVE
 
-Tests whether the value is equal to the condition value. The test is case insensitive.
-
-Only the FWP_UNICODE_STRING_TYPE data type supports <b>FWP_MATCH_EQUAL_CASE_INSENSITIVE</b>.
+Tests whether the string of Unicode characters is the same as the condition value string. This test
+     considers uppercase and lowercase characters to be equal.
 
 
 ### -field FWP_MATCH_NOT_EQUAL
 
 Tests whether the value is not equal to the condition value.
-
-Only sortable data types support <b>FWP_MATCH_NOT_EQUAL</b>.<div class="alert"><b>Note</b>  Available only in Windows 7 and Windows Server 2008 R2.</div>
-<div> </div>
-
 
 
 ### -field FWP_MATCH_PREFIX
@@ -145,27 +123,18 @@ Only sortable data types support <b>FWP_MATCH_NOT_EQUAL</b>.<div class="alert"><
 
 ### -field FWP_MATCH_TYPE_MAX
 
-Maximum value for testing purposes.
+The maximum value for this enumeration. This value might change in future versions of the NDIS
+     header files and binaries.
 
 
 ## -remarks
 
 
 
-In general, the value data type and the filter condition data type must be the same. The Base Filtering Engine (BFE) does not perform any data conversion. For example, an FWP_UINT32 value cannot be compared with an FWP_UINT16 value.
-
-
-Exceptions to this rule are as follows.
-
-<ul>
-<li>An FWP_UINT32 field that contains an IPv4 address can be compared with an FWP_V4_ADDR_MASK value.</li>
-<li>An FWP_BYTE_ARRAY16_TYPE field that contains an IPv6 address can be compared with an FWP_V6_ADDR_MASK value.</li>
-<li>An FWP_TOKEN_INFORMATION_TYPE field can be compared with an FWP_SECURITY_DESCRIPTOR_TYPE value when adding filters.</li>
-<li>An FWP_TOKEN_ACCESS_INFORMATION_TYPE field can be compared with an FWP_SECURITY_DESCRIPTOR_TYPE value when adding filters.</li>
-<li>An FWP_TOKEN_INFORMATION_TYPE field can be compared with an FWP_SID value when enumerating.</li>
-<li>An FWP_TOKEN_ACCESS_INFORMATION_TYPE field can be compared with an FWP_SID value when enumerating.</li>
-</ul>
-
+The 
+    <a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a> structure
+    contains a member of type FWP_MATCH_TYPE that specifies the type of match that the filter should use to
+    test whether that particular condition is true.
 
 
 
@@ -175,7 +144,7 @@ Exceptions to this rule are as follows.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a>
  
 
  

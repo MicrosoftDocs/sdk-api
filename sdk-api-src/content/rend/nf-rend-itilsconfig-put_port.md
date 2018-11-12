@@ -7,7 +7,7 @@ old-location: tapi3\itilsconfig_put_port.htm
 tech.root: tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
 ms.prod: windows-hardware
 ms.technology: windows-devices

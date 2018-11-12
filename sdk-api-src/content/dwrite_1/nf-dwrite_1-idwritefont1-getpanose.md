@@ -7,7 +7,7 @@ old-location: directwrite\idwritefont1_getpanose.htm
 tech.root: DirectWrite
 ms.assetid: DD31C1D6-4CD2-4ED0-BF9F-CAF587C613E6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetPanose, GetPanose method [Direct Write], GetPanose method [Direct Write],IDWriteFont1 interface, IDWriteFont1 interface [Direct Write],GetPanose method, IDWriteFont1.GetPanose, IDWriteFont1::GetPanose, directwrite.idwritefont1_getpanose, dwrite_1/IDWriteFont1::GetPanose
 ms.prod: windows-hardware
 ms.technology: windows-devices

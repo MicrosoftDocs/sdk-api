@@ -7,7 +7,7 @@ old-location: base\mapuserphysicalpagesscatter.htm
 tech.root: memory
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
 ms.prod: windows-hardware
 ms.technology: windows-devices

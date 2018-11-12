@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout1_getcharacterspacing.htm
 tech.root: DirectWrite
 ms.assetid: A546DCB4-8068-4300-94FB-A5B314536869
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetCharacterSpacing, GetCharacterSpacing method [Direct Write], GetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, IDWriteTextLayout1 interface [Direct Write],GetCharacterSpacing method, IDWriteTextLayout1.GetCharacterSpacing, IDWriteTextLayout1::GetCharacterSpacing, directwrite.idwritetextlayout1_getcharacterspacing, dwrite_1/IDWriteTextLayout1::GetCharacterSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

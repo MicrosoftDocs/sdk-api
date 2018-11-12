@@ -7,7 +7,7 @@ old-location: base\memorystatusex_str.htm
 tech.root: memory
 ms.assetid: ce3c7993-8b91-4bca-8be8-9d81c26b9bef
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPMEMORYSTATUSEX, LPMEMORYSTATUSEX, LPMEMORYSTATUSEX structure pointer, MEMORYSTATUSEX, MEMORYSTATUSEX structure, _MEMORYSTATUSEX, _win32_memorystatusex_str, base.memorystatusex_str, sysinfoapi/LPMEMORYSTATUSEX, sysinfoapi/MEMORYSTATUSEX"
 ms.prod: windows
 ms.technology: windows-sdk

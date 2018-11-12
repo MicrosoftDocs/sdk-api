@@ -7,7 +7,7 @@ old-location: tapi2\linedrop.htm
 tech.root: tapi
 ms.assetid: ce1f1dbb-287b-483a-9e7e-87af0d07e4e4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/lineDrop, tapi2.linedrop"
 ms.prod: windows-hardware
 ms.technology: windows-devices

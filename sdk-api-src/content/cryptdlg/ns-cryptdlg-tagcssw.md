@@ -7,7 +7,7 @@ old-location: security\cert_select_struct.htm
 tech.root: seccrypto
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCERT_SELECT_STRUCT_W, CERT_SELECT_STRUCT, CERT_SELECT_STRUCT structure [Security], CERT_SELECT_STRUCT_A, CERT_SELECT_STRUCT_W, CSS_ALLOWMULTISELECT, CSS_ENABLEHOOK, CSS_ENABLETEMPLATE, CSS_ENABLETEMPLATEHANDLE, CSS_HIDE_PROPERTIES, CSS_SHOW_HELP, PCERT_SELECT_STRUCT, PCERT_SELECT_STRUCT structure pointer [Security], cryptdlg/CERT_SELECT_STRUCT, cryptdlg/CERT_SELECT_STRUCT_A, cryptdlg/CERT_SELECT_STRUCT_W, cryptdlg/PCERT_SELECT_STRUCT, security.cert_select_struct, security.cert_select_struct_w, tagCSSW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ A handle to the module whose executable file contains the dialog box template.
 
 If the <b>CSS_ENABLETEMPLATE</b> flag is set in the <b>dwFlags</b> 
       member, set <b>pTemplateName</b> to a pointer to a global memory object that contains the 
-      template that <a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> 
+      template that <a href="_win32_dialogboxindirectparam_cpp">DialogBoxIndirectParam</a> 
       uses to create the dialog box. A dialog box template consists of a header that describes the dialog box. The 
       header is followed by one or more additional blocks of data that describe each of the controls in the dialog 
       box. The template can use either the standard format or the extended format.
@@ -96,7 +96,7 @@ If the <b>CSS_ENABLETEMPLATEHANDLE</b> flag is set in <b>dwFlags</b>,
        specifies the name of the dialog box template or an integer value that specifies the resource identifier of the 
        dialog box template. If the  specifies a resource identifier, its high-order word must be zero and its 
        low-order word must contain the identifier. One way to create this integer value is to use the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+       <a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro.
 
 
 ### -field dwFlags
@@ -156,7 +156,7 @@ Show the <b>Help</b> button.
 <td width="60%">
 Cause <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
         function to call the 
-        <a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> function to 
+        <a href="_win32_dialogboxindirectparam_cpp">DialogBoxIndirectParam</a> function to 
         create a dialog box. For more information, see <b>pTemplateName</b>.
 
 </td>
@@ -168,7 +168,7 @@ Cause <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">
 </td>
 <td width="60%">
 Cause the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
-        function to call the <a href="https://msdn.microsoft.com/en-us/library/ms645465(v=VS.85).aspx">DialogBoxParam</a> function 
+        function to call the <a href="_win32_dialogboxparam_cpp">DialogBoxParam</a> function 
         to create a dialog box. For more information, see <b>pTemplateName</b>.
 
 </td>
@@ -209,7 +209,7 @@ The number of elements in the <b>arrayCertContext</b> array. After the
 
 ### -field arrayCertContext
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> 
+A pointer to an array of <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> 
      structures. The <b>cCertContext</b> member specifies the number of elements in this array. 
      This array must contain at least one element.
      
@@ -218,7 +218,7 @@ The certificates represented by these structures are selected when the dialog bo
       <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function is 
       initially displayed.  Currently, only the first certificate in this array is used. The first certificate in this 
       array will be released with the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa376075(v=VS.85).aspx">CertFreeCertificateContext</a> function 
+      <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> function 
       if the <b>CertSelectCertificate</b> function is 
       successful. If the first element in this array is <b>NULL</b>, no certificates are initially 
       selected in the dialog box.
@@ -237,14 +237,14 @@ A pointer to an array of byte values that hold custom data that is passed throug
 
 ### -field pfnHook
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa387047(v=VS.85).aspx">PFNCMHOOKPROC</a> function pointer to the Hook 
+A <a href="https://msdn.microsoft.com/7172c995-a46b-437b-beaf-a0649cb8ec3d">PFNCMHOOKPROC</a> function pointer to the Hook 
       callback function. This function is called before messages are processed by the dialog box. For more 
-      information, see <a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>.
+      information, see <a href="_win32_hooks_cpp">Hooks</a>.
 
 
 ### -field pfnFilter
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa387046(v=VS.85).aspx">PFNCMFILTERPROC</a> function pointer to the 
+A <a href="https://msdn.microsoft.com/f870a8a7-c504-491a-b9ac-045766e46348">PFNCMFILTERPROC</a> function pointer to the 
       filter callback function. This is called to determine which certificates will be displayed by the dialog 
       box.
 
@@ -263,7 +263,7 @@ The context identifier for the topic. For more information, see
 ### -field hprov
 
 A handle to the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa380245(v=VS.85).aspx">Cryptographic Service Provider</a> (CSP) 
+      <a href="https://msdn.microsoft.com/4e6eb2df-a917-4533-b9f1-8da39598d0b8">Cryptographic Service Provider</a> (CSP) 
       to use for certificate verification.
 
 

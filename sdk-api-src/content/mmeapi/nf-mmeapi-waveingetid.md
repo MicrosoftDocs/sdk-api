@@ -7,7 +7,7 @@ old-location: multimedia\waveingetid.htm
 tech.root: Multimedia
 ms.assetid: 57ca501d-3f76-4ccc-94dc-b4b5c40932e0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_waveInGetID, mmeapi/waveInGetID, multimedia.waveingetid, waveInGetID, waveInGetID function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

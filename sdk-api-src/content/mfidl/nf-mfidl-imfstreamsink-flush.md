@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink_flush.htm
 tech.root: medfound
 ms.assetid: 514d29bd-571d-46b1-9948-5d623c6703aa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 514d29bd-571d-46b1-9948-5d623c6703aa, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],Flush method, IMFStreamSink.Flush, IMFStreamSink::Flush, mf.imfstreamsink_flush, mfidl/IMFStreamSink::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sec_application_protocol_negotiation_status.htm
 tech.root: secauthn
 ms.assetid: 64236EA6-C0CE-484A-9B12-4E653790D281
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS enumeration pointer [Security], SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS enumeration [Security], SecApplicationProtocolNegotiationStatus_None, SecApplicationProtocolNegotiationStatus_SelectedClientOnly, SecApplicationProtocolNegotiationStatus_Success, _SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, security.sec_application_protocol_negotiation_status, sspi/PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, sspi/SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, sspi/SecApplicationProtocolNegotiationStatus_None, sspi/SecApplicationProtocolNegotiationStatus_SelectedClientOnly, sspi/SecApplicationProtocolNegotiationStatus_Success"
 ms.prod: windows
 ms.technology: windows-sdk

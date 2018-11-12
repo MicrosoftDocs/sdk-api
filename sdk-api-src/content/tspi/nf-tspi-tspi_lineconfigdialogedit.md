@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineconfigdialogedit.htm
 tech.root: tapi
 ms.assetid: 7248050c-0e59-406a-b75c-d06c0ce7bdc5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineConfigDialogEdit, TSPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tspi_lineconfigdialogedit, tspi.tspi_lineconfigdialogedit, tspi/TSPI_lineConfigDialogEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices

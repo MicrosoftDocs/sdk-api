@@ -7,7 +7,7 @@ old-location: base\omap.htm
 tech.root: debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: "*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP"
 ms.prod: windows
 ms.technology: windows-sdk

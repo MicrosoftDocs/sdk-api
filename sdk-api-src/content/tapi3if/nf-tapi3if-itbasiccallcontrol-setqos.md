@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_setqos.htm
 tech.root: tapi
 ms.assetid: f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SetQOS method, ITBasicCallControl.SetQOS, ITBasicCallControl::SetQOS, SetQOS, SetQOS method [TAPI 2.2], SetQOS method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_setqos, tapi3.itbasiccallcontrol_setqos, tapi3if/ITBasicCallControl::SetQOS
 ms.prod: windows-hardware
 ms.technology: windows-devices

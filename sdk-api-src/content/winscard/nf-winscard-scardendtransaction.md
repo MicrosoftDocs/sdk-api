@@ -7,7 +7,7 @@ old-location: security\scardendtransaction.htm
 tech.root: secauthn
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ Power down the card.
 
 If the function succeeds, the function returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.   Possible error codes follow.
+If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.   Possible error codes follow.
 
 <table>
 <tr>

@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaplayer_state.htm
 tech.root: medfound
 ms.assetid: a0d5c840-a1aa-48cf-bf2e-7e5c35951fb6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFP_MEDIAPLAYER_STATE, MFP_MEDIAPLAYER_STATE enumeration [Media Foundation], MFP_MEDIAPLAYER_STATE_EMPTY, MFP_MEDIAPLAYER_STATE_PAUSED, MFP_MEDIAPLAYER_STATE_PLAYING, MFP_MEDIAPLAYER_STATE_SHUTDOWN, MFP_MEDIAPLAYER_STATE_STOPPED, mf.mfp_mediaplayer_state, mfplay/MFP_MEDIAPLAYER_STATE, mfplay/MFP_MEDIAPLAYER_STATE_EMPTY, mfplay/MFP_MEDIAPLAYER_STATE_PAUSED, mfplay/MFP_MEDIAPLAYER_STATE_PLAYING, mfplay/MFP_MEDIAPLAYER_STATE_SHUTDOWN, mfplay/MFP_MEDIAPLAYER_STATE_STOPPED
 ms.prod: windows
 ms.technology: windows-sdk

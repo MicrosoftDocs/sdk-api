@@ -60,9 +60,9 @@ Creates a read-only, delayed-binding property store that contains multiple prope
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more <a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values. These values specify details of the created property store object.
+One or more <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values. These values specify details of the created property store object.
 
 
 ### -param pdpsf
@@ -97,7 +97,7 @@ Reference to the requested IID of the interface that will represent the created 
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyStore">IPropertyStore</a>.
 
 
 ## -returns
@@ -115,28 +115,28 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function creates a Component Object Model (COM) object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>, 
- <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb761452(v=VS.85).aspx">IPropertyStoreCapabilities</a>.
+This function creates a Component Object Model (COM) object that implements <a href="shell.IPropertyStore">IPropertyStore</a>, 
+ <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>, and <a href="shell.IPropertyStoreCapabilities">IPropertyStoreCapabilities</a>.
 
 Applications must call this object from only one thread at a time.
 
-You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776488(v=VS.85).aspx">PSCreateDelayedMultiplexPropertyStore</a>. COM must remain initialized for the lifetime of this object.
+You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSCreateDelayedMultiplexPropertyStore">PSCreateDelayedMultiplexPropertyStore</a>. COM must remain initialized for the lifetime of this object.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776488(v=VS.85).aspx">PSCreateDelayedMultiplexPropertyStore</a> is designed as an alternative to <a href="https://msdn.microsoft.com/en-us/library/Bb776490(v=VS.85).aspx">PSCreateMultiplexPropertyStore</a>, which requires that the array of property stores be initialized before it creates the multiplex property store.
+<a href="shell.PSCreateDelayedMultiplexPropertyStore">PSCreateDelayedMultiplexPropertyStore</a> is designed as an alternative to <a href="shell.PSCreateMultiplexPropertyStore">PSCreateMultiplexPropertyStore</a>, which requires that the array of property stores be initialized before it creates the multiplex property store.
 
-The delayed binding mechanism is designed as a performance enhancement for calls to <a href="https://msdn.microsoft.com/en-us/library/Ff536962(v=VS.85).aspx">IPropertyStore::GetValue</a> on a multiplex property store. When asked for the value of a property, the delayed multiplex property store checks each of the property stores for the value. After the value is found, there is no need to create and initialize subsequent stores. The delayed multiplex property store stops searching for a value when one of the property stores returns a success code and a non-VT_EMPTY value.
+The delayed binding mechanism is designed as a performance enhancement for calls to <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> on a multiplex property store. When asked for the value of a property, the delayed multiplex property store checks each of the property stores for the value. After the value is found, there is no need to create and initialize subsequent stores. The delayed multiplex property store stops searching for a value when one of the property stores returns a success code and a non-VT_EMPTY value.
 
 When the delayed multiplex property store needs to access a particular property store, it first checks to see if it has already obtained an interface to that property store. If not, it calls <a href="https://msdn.microsoft.com/26df5fec-2a21-454e-9539-877c00a4f8fb">IDelayedPropertyStoreFactory::GetDelayedPropertyStore</a> with the appropriate property store ID to obtain the property store. It always uses the property store IDs in the order in which they are provided by the application. It is possible that not all IDs will be used.
 
-If the call to <a href="https://msdn.microsoft.com/855c9f10-9f40-4c60-a669-551fa51133f5">IDelayedPropertyStoreFactory</a> fails with E_NOTIMPL or E_ACCESSDENIED for a particular property store ID, or if the application specified <a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GPS_BESTEFFORT</a>, then the failure is ignored and the delayed multiplex property store moves on to the next property store.
+If the call to <a href="https://msdn.microsoft.com/855c9f10-9f40-4c60-a669-551fa51133f5">IDelayedPropertyStoreFactory</a> fails with E_NOTIMPL or E_ACCESSDENIED for a particular property store ID, or if the application specified <a href="shell.GETPROPERTYSTOREFLAGS">GPS_BESTEFFORT</a>, then the failure is ignored and the delayed multiplex property store moves on to the next property store.
 
-In some cases, it might be beneficial to use <a href="https://msdn.microsoft.com/en-us/library/Bb776488(v=VS.85).aspx">PSCreateDelayedMultiplexPropertyStore</a> in place of <a href="https://msdn.microsoft.com/en-us/library/Bb776490(v=VS.85).aspx">PSCreateMultiplexPropertyStore</a>. For example, if an application needs to multiplex two property stores and the first property store is not memory-intensive to initialize and provides PKEY_Size information. Often, calling applications ask for a multiplex property store and then ask for only PKEY_Size before they release the object. In such a case, the application could avoid the cost of initializing the second property store by calling <b>PSCreateDelayedMultiplexPropertyStore</b> and implementing <a href="https://msdn.microsoft.com/855c9f10-9f40-4c60-a669-551fa51133f5">IDelayedPropertyStoreFactory</a>.
+In some cases, it might be beneficial to use <a href="shell.PSCreateDelayedMultiplexPropertyStore">PSCreateDelayedMultiplexPropertyStore</a> in place of <a href="shell.PSCreateMultiplexPropertyStore">PSCreateMultiplexPropertyStore</a>. For example, if an application needs to multiplex two property stores and the first property store is not memory-intensive to initialize and provides PKEY_Size information. Often, calling applications ask for a multiplex property store and then ask for only PKEY_Size before they release the object. In such a case, the application could avoid the cost of initializing the second property store by calling <b>PSCreateDelayedMultiplexPropertyStore</b> and implementing <a href="https://msdn.microsoft.com/855c9f10-9f40-4c60-a669-551fa51133f5">IDelayedPropertyStoreFactory</a>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776488(v=VS.85).aspx">PSCreateDelayedMultiplexPropertyStore</a> in an implementation of <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCreateDelayedMultiplexPropertyStore">PSCreateDelayedMultiplexPropertyStore</a> in an implementation of <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -230,11 +230,11 @@ HRESULT CMyFactory::GetDelayedPropertyStore(GETPROPERTYSTOREFLAGS flags,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761450(v=VS.85).aspx">IPropertyStoreFactory</a>
+<a href="shell.IPropertyStoreFactory">IPropertyStoreFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776490(v=VS.85).aspx">PSCreateMultiplexPropertyStore</a>
+<a href="shell.PSCreateMultiplexPropertyStore">PSCreateMultiplexPropertyStore</a>
  
 
  

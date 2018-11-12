@@ -7,7 +7,7 @@ old-location: security\ienroll4_setsignercertificate.htm
 tech.root: seccrypto
 ms.assetid: 1c970f6b-6b8f-4396-b59b-d6b58d52172b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll4 interface [Security],SetSignerCertificate method, IEnroll4.SetSignerCertificate, IEnroll4::SetSignerCertificate, SetSignerCertificate, SetSignerCertificate method [Security], SetSignerCertificate method [Security],IEnroll4 interface, security.ienroll4_setsignercertificate, xenroll/IEnroll4::SetSignerCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

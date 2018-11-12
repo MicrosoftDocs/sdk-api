@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_finish.htm
 tech.root: tapi
 ms.assetid: 3b0bd871-b618-4c24-a717-62a248112d97
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Finish, Finish method [TAPI 2.2], Finish method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Finish method, ITBasicCallControl.Finish, ITBasicCallControl::Finish, _tapi3_itbasiccallcontrol_finish, tapi3.itbasiccallcontrol_finish, tapi3if/ITBasicCallControl::Finish
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\midiinreset.htm
 tech.root: Multimedia
 ms.assetid: 74df14c2-df28-40c0-81f2-aed2147f7072
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_midiInReset, midiInReset, midiInReset function [Windows Multimedia], mmeapi/midiInReset, multimedia.midiinreset"
 ms.prod: windows-hardware
 ms.technology: windows-devices

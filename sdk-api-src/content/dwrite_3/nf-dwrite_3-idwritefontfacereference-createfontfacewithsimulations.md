@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfacereference_createfontfacewithsimulations
 tech.root: DirectWrite
 ms.assetid: 99b6fb24-2f66-8132-b66e-ca711bb0c7e0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateFontFaceWithSimulations, CreateFontFaceWithSimulations method [Direct Write], CreateFontFaceWithSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFaceWithSimulations method, IDWriteFontFaceReference.CreateFontFaceWithSimulations, IDWriteFontFaceReference::CreateFontFaceWithSimulations, directwrite.idwritefontfacereference_createfontfacewithsimulations, dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations
 ms.prod: windows-hardware
 ms.technology: windows-devices

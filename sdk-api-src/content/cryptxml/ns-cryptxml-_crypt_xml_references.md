@@ -7,7 +7,7 @@ old-location: security\crypt_xml_references.htm
 tech.root: seccrypto
 ms.assetid: 25414b2d-3283-4e2f-a23c-ccebff1409e2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES structure [Security], PCRYPT_XML_REFERENCES, PCRYPT_XML_REFERENCES structure pointer [Security], _CRYPT_XML_REFERENCES, cryptxml/CRYPT_XML_REFERENCES, cryptxml/PCRYPT_XML_REFERENCES, security.crypt_xml_references"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433862(v=VS.85).aspx">CRYPT_XML_REFERENCE</a> structures.
+The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://msdn.microsoft.com/af16af5a-b1e5-4250-bdb1-f3fceb1830b9">CRYPT_XML_REFERENCE</a> structures.
 
 
 ## -struct-fields
@@ -65,5 +65,5 @@ The number of elements in the array pointed to by the <b>rgpReference</b> member
 
 ### -field rgpReference
 
-A pointer to an array of  <a href="https://msdn.microsoft.com/en-us/library/Dd433862(v=VS.85).aspx">PCRYPT_XML_REFERENCE</a> structures.
+A pointer to an array of  <a href="https://msdn.microsoft.com/af16af5a-b1e5-4250-bdb1-f3fceb1830b9">PCRYPT_XML_REFERENCE</a> structures.
 

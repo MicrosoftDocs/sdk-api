@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_text_metrics.htm
 tech.root: DirectWrite
 ms.assetid: 4524ace3-fca6-4daf-9ecb-516771e53fc9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_TEXT_METRICS, DWRITE_TEXT_METRICS structure [Direct Write], directwrite.dwrite_text_metrics, dwrite/DWRITE_TEXT_METRICS
 ms.prod: windows
 ms.technology: windows-sdk

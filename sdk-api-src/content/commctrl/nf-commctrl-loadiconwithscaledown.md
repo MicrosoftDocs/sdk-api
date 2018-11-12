@@ -60,7 +60,7 @@ Loads an icon. If the icon is not a standard size, this function scales down a l
 
 ### -param hinst [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
 A handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded. For more information, see <a href="https://msdn.microsoft.com/951c7e6e-1d6d-4393-a675-d2b353c53b87">GetModuleHandle</a>.
 
@@ -71,16 +71,16 @@ To load a predefined icon or a standalone icon file, set this parameter to <b>NU
 
 ### -param pszName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer that contains location information about the icon to load. 
 
 
                     
 
-If <i>hinst</i> is non-<b>NULL</b>, <i>pszName</i>  specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+If <i>hinst</i> is non-<b>NULL</b>, <i>pszName</i>  specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="winui._win32_MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro.
 
-If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the identifier of a predefined icon to load. The following identifiers are recognized. To pass these constants to the <b>LoadIconWithScaleDown</b> function, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
+If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the identifier of a predefined icon to load. The following identifiers are recognized. To pass these constants to the <b>LoadIconWithScaleDown</b> function, use the <a href="winui._win32_MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
 
 <table>
 <tr>
@@ -247,7 +247,7 @@ The contents of the buffer pointed to by <i>pszName</i> do not fit any of the ex
 
 
 
-This function will first search the icon file for an icon having exactly the same size. If a match is not found, then unless both <i>cx</i> and <i>cy</i> match one of the standard icon sizes—16, 32, 48, or 256 pixels— the next largest icon is selected and then scaled down to the desired size. For example, if an icon with an x dimension of 40 pixels is requested by the callign application, the 48-pixel icon is used and scaled down to 40 pixels. In contrast, the <a href="https://msdn.microsoft.com/en-us/library/Bb761557(v=VS.85).aspx">LoadImage</a> function selects the 32-pixel icon and scales it up to 40 pixels.
+This function will first search the icon file for an icon having exactly the same size. If a match is not found, then unless both <i>cx</i> and <i>cy</i> match one of the standard icon sizes—16, 32, 48, or 256 pixels— the next largest icon is selected and then scaled down to the desired size. For example, if an icon with an x dimension of 40 pixels is requested by the callign application, the 48-pixel icon is used and scaled down to 40 pixels. In contrast, the <a href="https://msdn.microsoft.com/6392e485-10f4-46c1-a089-f447d078a20e">LoadImage</a> function selects the 32-pixel icon and scales it up to 40 pixels.
 
 If the function is unable to locate a larger icon, it defaults to the standard behavior of finding the next smallest icon and scaling it up to the desired size.
 

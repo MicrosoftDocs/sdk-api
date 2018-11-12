@@ -119,9 +119,13 @@ The image brush can be used to fill an arbitrary geometry, an opacity mask or te
 
 This sample illustrates drawing a rectangle with an image brush.
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 CreatePatternBrush(
      __in ID2D1DeviceContext *pDeviceContext,
      __deref_out ID2D1ImageBrush **ppImageBrush
@@ -129,24 +133,24 @@ CreatePatternBrush(
 {
     HRESULT hr = S_OK;
     ID2D1Image *pOldTarget = NULL;
-    pDeviceContext->GetTarget(&pOldTarget);
+    pDeviceContext-&gt;GetTarget(&amp;pOldTarget);
 
     ID2D1CommandList *pCommandList = NULL;
-    hr = pDeviceContext->CreateCommandList(&pCommandList);
+    hr = pDeviceContext-&gt;CreateCommandList(&amp;pCommandList);
      
     if (SUCCEEDED(hr))
     {   
-        pDeviceContext->SetTarget(pCommandList);
+        pDeviceContext-&gt;SetTarget(pCommandList);
         hr = RenderPatternToCommandList(pDeviceContext);
     }
 
-    pDeviceContext->SetTarget(pOldTarget);
+    pDeviceContext-&gt;SetTarget(pOldTarget);
 
     ID2D1ImageBrush *pImageBrush = NULL;
 
     if (SUCCEEDED(hr))
     {        
-         hr = pDeviceContext->CreateImageBrush(
+         hr = pDeviceContext-&gt;CreateImageBrush(
             pCommandList,
             D2D1::ImageBrushProperties(
                 D2D1::RectF(198, 298, 370, 470),
@@ -154,25 +158,25 @@ CreatePatternBrush(
                 D2D1_EXTEND_MODE_WRAP,
                 D2D1_INTERPOLATION_MODE_LINEAR
                 ),
-            &pImageBrush
+            &amp;pImageBrush
             );
     }
     
     // Fill a rectangle with the image brush.
     if (SUCCEEDED(hr))
     {
-        pDeviceContext->FillRectangle(
+        pDeviceContext-&gt;FillRectangle(
             D2D1::RectF(0, 0, 100, 100), pImageBrush);
     }
 
-    SafeRelease(&pImageBrush);
-    SafeRelease(&pCommandList);
-    SafeRelease(&pOldTarget);
+    SafeRelease(&amp;pImageBrush);
+    SafeRelease(&amp;pCommandList);
+    SafeRelease(&amp;pOldTarget);
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

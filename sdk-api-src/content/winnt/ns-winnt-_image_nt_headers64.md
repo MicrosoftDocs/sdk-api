@@ -7,7 +7,7 @@ old-location: base\image_nt_headers_str.htm
 tech.root: debug
 ms.assetid: 6511341f-252d-4f73-bb90-284bbb69b065
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: "*PIMAGE_NT_HEADERS64, IMAGE_NT_HEADERS, IMAGE_NT_HEADERS structure, IMAGE_NT_HEADERS32, IMAGE_NT_HEADERS64, PIMAGE_NT_HEADERS, PIMAGE_NT_HEADERS structure pointer, _IMAGE_NT_HEADERS, _IMAGE_NT_HEADERS64, _win32_image_nt_headers_str, base.image_nt_headers_str, winnt/IMAGE_NT_HEADERS, winnt/PIMAGE_NT_HEADERS"
 ms.prod: windows
 ms.technology: windows-sdk

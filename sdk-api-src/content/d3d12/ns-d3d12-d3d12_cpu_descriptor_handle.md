@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_cpu_descriptor_handle.htm
 tech.root: direct3d12
 ms.assetid: 92451E4C-5E70-4015-8760-3F75066A44FD
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_CPU_DESCRIPTOR_HANDLE, D3D12_CPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_CPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_cpu_descriptor_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ This structure is returned by the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899174(v=VS.85).aspx">ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart</a>
+<a href="https://msdn.microsoft.com/80C41537-1579-4166-A7F9-FB2478ECDE77">ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart</a>
 </li>
 </ul>
 This structure is passed into the following methods:
@@ -82,43 +82,43 @@ This structure is passed into the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899176(v=VS.85).aspx">ID3D12Device::CopyDescriptors</a>
+<a href="https://msdn.microsoft.com/F995EF34-74FF-4FCA-A018-E2F48DF92450">ID3D12Device::CopyDescriptors</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899177(v=VS.85).aspx">ID3D12Device::CopyDescriptorsSimple</a>
+<a href="https://msdn.microsoft.com/6DA1FCDA-042C-4727-9814-B8F57E14CD51">ID3D12Device::CopyDescriptorsSimple</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788659(v=VS.85).aspx">ID3D12Device::CreateConstantBufferView</a>
+<a href="https://msdn.microsoft.com/13251F82-4AE9-4234-A0C8-0E666F8A1856">ID3D12Device::CreateConstantBufferView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788672(v=VS.85).aspx">ID3D12Device::CreateShaderResourceView</a>
+<a href="https://msdn.microsoft.com/4FD7082D-2DA9-469E-BA74-6735D407D5FE">ID3D12Device::CreateShaderResourceView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788674(v=VS.85).aspx">ID3D12Device::CreateUnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/E834E469-2958-44A9-978F-F42D6BB6B1DC">ID3D12Device::CreateUnorderedAccessView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788668(v=VS.85).aspx">ID3D12Device::CreateRenderTargetView</a>
+<a href="https://msdn.microsoft.com/B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4">ID3D12Device::CreateRenderTargetView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788661(v=VS.85).aspx">ID3D12Device::CreateDepthStencilView</a>
+<a href="https://msdn.microsoft.com/57C0CA35-CFBE-4D79-B8D7-BD01CEBEA144">ID3D12Device::CreateDepthStencilView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788671(v=VS.85).aspx">ID3D12Device::CreateSampler</a>
+<a href="https://msdn.microsoft.com/453B2D3D-843E-4DB0-BC47-59BD9C78BFD6">ID3D12Device::CreateSampler</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn903840(v=VS.85).aspx">ID3D12GraphicsCommandList::ClearDepthStencilView</a>
+<a href="https://msdn.microsoft.com/EF56EA6C-00DB-4231-B67D-B99811F51246">ID3D12GraphicsCommandList::ClearDepthStencilView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn903842(v=VS.85).aspx">ID3D12GraphicsCommandList::ClearRenderTargetView</a>
+<a href="https://msdn.microsoft.com/5AB13E36-A189-41B4-AEF8-B5C5831655DB">ID3D12GraphicsCommandList::ClearRenderTargetView</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn903853(v=VS.85).aspx">ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint</a>
+<a href="https://msdn.microsoft.com/A048BF0C-9141-4DDF-91F9-B53464033A44">ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn903849(v=VS.85).aspx">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>
+<a href="https://msdn.microsoft.com/6A19F429-D7B2-4A71-8904-31BFA1FD10C6">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn986884(v=VS.85).aspx">ID3D12GraphicsCommandList::OMSetRenderTargets</a>
+<a href="https://msdn.microsoft.com/FE565AA2-FA34-4824-870E-9C4C7C19C93C">ID3D12GraphicsCommandList::OMSetRenderTargets</a>
 </li>
 </ul>
 
@@ -129,11 +129,11 @@ This structure is passed into the following methods:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186565(v=VS.85).aspx">CD3DX12_CPU_DESCRIPTOR_HANDLE</a>
+<a href="https://msdn.microsoft.com/91736069-7D13-47B0-B78C-0F6F104F97EB">CD3DX12_CPU_DESCRIPTOR_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_extension.htm
 tech.root: medfound
 ms.assetid: F82746A4-16AB-49B5-96C8-777675416467
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: D3D11_VIDEO_DECODER_EXTENSION, D3D11_VIDEO_DECODER_EXTENSION structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_EXTENSION, mf.d3d11_video_decoder_extension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains driver-specific data for the <a href="https://msdn.microsoft.com/en-us/library/Hh447707(v=VS.85).aspx">ID3D11VideoContext::DecoderExtension</a> method.
+Contains driver-specific data for the <a href="https://msdn.microsoft.com/B96FD793-C82A-4752-8F59-3CC9B86D1C2D">ID3D11VideoContext::DecoderExtension</a> method.
 
 
 ## -struct-fields
@@ -92,7 +92,7 @@ The number of elements in the <b>ppResourceList</b> array. If <b>ppResourceList<
 
 ### -field ppResourceList
 
-The address of an array of <a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a> pointers. Use this member to pass Direct3D resources to the driver.
+The address of an array of <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> pointers. Use this member to pass Direct3D resources to the driver.
 
 
 ## -remarks
@@ -109,7 +109,7 @@ The exact meaning of each structure member depends on the value of <b>Function</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

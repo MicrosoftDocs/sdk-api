@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengineclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: D5E7D96B-9438-4332-AD05-249D2DA2481A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFCaptureEngineClassFactory interface, IMFCaptureEngineClassFactory interface [Media Foundation],CreateInstance method, IMFCaptureEngineClassFactory.CreateInstance, IMFCaptureEngineClassFactory::CreateInstance, mf.imfcaptureengineclassfactory_createinstance, mfcaptureengine/IMFCaptureEngineClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

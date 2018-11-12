@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator.htm
 tech.root: medfound
 ms.assetid: 2906b998-f1ca-4c65-b810-cbc360390653
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], IMFNetProxyLocator interface [Media Foundation],described, mf.imfnetproxylocator, mfidl/IMFNetProxyLocator
 ms.prod: windows
 ms.technology: windows-sdk

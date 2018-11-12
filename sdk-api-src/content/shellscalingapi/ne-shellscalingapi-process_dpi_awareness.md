@@ -7,7 +7,7 @@ old-location: hidpi\process_dpi_awareness.htm
 tech.root: hidpi
 ms.assetid: 50130739-E8A8-4B92-9B80-3BBBE57EBE0C
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PROCESS_DPI_AWARENESS, PROCESS_DPI_AWARENESS enumeration [High DPI], PROCESS_DPI_UNAWARE, PROCESS_PER_MONITOR_DPI_AWARE, PROCESS_SYSTEM_DPI_AWARE, hidpi.process_dpi_awareness, shellscalingapi/PROCESS_DPI_AWARENESS, shellscalingapi/PROCESS_DPI_UNAWARE, shellscalingapi/PROCESS_PER_MONITOR_DPI_AWARE, shellscalingapi/PROCESS_SYSTEM_DPI_AWARE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Now consider an application that is <b>PROCESS_SYSTEM_DPI_AWARE</b>. Remember th
 
 Unlike the other awareness values, <b>PROCESS_PER_MONITOR_DPI_AWARE</b> should adapt to the display that it is on. This means that it is always rendered natively and is never scaled by the system. The responsibility is on the app to adjust the scale factor when receiving the <a href="https://msdn.microsoft.com/97C458F2-89CD-45FF-ABEE-F158A3BCE0B8">WM_DPICHANGED</a> message. Part of this message includes a suggested rect for the window. This suggestion is the current window scaled from the old DPI value to the new DPI value. For example, a window that is 500 by 500 on display A and moved to display B will receive a suggested window rect that is 1000 by 1000. If that same window is moved to display C, the suggested window rect attached to <b>WM_DPICHANGED</b> will be 1500 by 1500. Furthermore, when this app queries for the window size, it will always get the actual native value. Likewise, if it asks for the DPI of any of the three monitors, it will receive 96, 192, and 288 respectively.
 
-Because of DPI virtualization, if one application queries another with a different awareness level for DPI-dependent information, the system will automatically scale values to match the awareness level of the caller. One example of this is if you call <a href="https://msdn.microsoft.com/en-us/library/ms633519(v=VS.85).aspx">GetWindowRect</a> and pass in a window created by another application. Using the situation described above, assume that a <b>PROCESS_DPI_UNAWARE</b> app created a 500 by 500 window on display C. If you query for the window rect from a different application, the size of the rect will vary based upon the DPI awareness of your app.<table>
+Because of DPI virtualization, if one application queries another with a different awareness level for DPI-dependent information, the system will automatically scale values to match the awareness level of the caller. One example of this is if you call <a href="https://msdn.microsoft.com/9c8fe83e-0c9a-483a-a692-4d229d1bd559">GetWindowRect</a> and pass in a window created by another application. Using the situation described above, assume that a <b>PROCESS_DPI_UNAWARE</b> app created a 500 by 500 window on display C. If you query for the window rect from a different application, the size of the rect will vary based upon the DPI awareness of your app.<table>
 <tr>
 <td><b>PROCESS_DPI_UNAWARE</b></td>
 <td>You will get a 500 by 500 rect because the system will assume a DPI of 96 and automatically scale the actual rect down by a factor of 3.</td>

@@ -7,7 +7,7 @@ old-location: base\slist_entry_str.htm
 tech.root: sync
 ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PSINGLE_LIST_ENTRY, *PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SINGLE_LIST_ENTRY, SLIST_ENTRY, SLIST_ENTRY structure, _SINGLE_LIST_ENTRY, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

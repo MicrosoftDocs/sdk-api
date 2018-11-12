@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Adds the specified window to the chain of clipboard viewers. Clipboard viewer windows receive a <a href="https://msdn.microsoft.com/en-us/library/ms649025(v=VS.85).aspx">WM_DRAWCLIPBOARD</a> message whenever the content of the clipboard changes. This function is used for backward compatibility with earlier versions of Windows.
+Adds the specified window to the chain of clipboard viewers. Clipboard viewer windows receive a <a href="https://msdn.microsoft.com/ffaadf6f-588b-4a29-b26c-629087e7ce73">WM_DRAWCLIPBOARD</a> message whenever the content of the clipboard changes. This function is used for backward compatibility with earlier versions of Windows.
 
 
 ## -parameters
@@ -81,16 +81,16 @@ If the function succeeds, the return value identifies the next window in the cli
 
 
 
-The windows that are part of the clipboard viewer chain, called clipboard viewer windows, must process the clipboard messages <a href="https://msdn.microsoft.com/en-us/library/ms649019(v=VS.85).aspx">WM_CHANGECBCHAIN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms649025(v=VS.85).aspx">WM_DRAWCLIPBOARD</a>. Each clipboard viewer window calls the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function to pass these messages to the next window in the clipboard viewer chain.
+The windows that are part of the clipboard viewer chain, called clipboard viewer windows, must process the clipboard messages <a href="https://msdn.microsoft.com/7be87342-87fa-4cd2-b066-0b36b7ef52f5">WM_CHANGECBCHAIN</a> and <a href="https://msdn.microsoft.com/ffaadf6f-588b-4a29-b26c-629087e7ce73">WM_DRAWCLIPBOARD</a>. Each clipboard viewer window calls the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function to pass these messages to the next window in the clipboard viewer chain.
 
-A clipboard viewer window must eventually remove itself from the clipboard viewer chain by calling the <a href="https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx">ChangeClipboardChain</a> function — for example, in response to the <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message.
+A clipboard viewer window must eventually remove itself from the clipboard viewer chain by calling the <a href="https://msdn.microsoft.com/438ff6b4-6b45-4163-87bc-2f354c73fced">ChangeClipboardChain</a> function — for example, in response to the <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message.
 
-The <b>SetClipboardViewer</b> function exists to provide backward compatibility with earlier versions of Windows. The clipboard viewer chain can be broken by an application that fails to handle the clipboard chain messages properly. New applications should use more robust techniques such as the clipboard sequence number or the registration of a clipboard format listener. For further details on these alternatives techniques, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Monitoring Clipboard Contents</a>.
+The <b>SetClipboardViewer</b> function exists to provide backward compatibility with earlier versions of Windows. The clipboard viewer chain can be broken by an application that fails to handle the clipboard chain messages properly. New applications should use more robust techniques such as the clipboard sequence number or the registration of a clipboard format listener. For further details on these alternatives techniques, see <a href="using_the_clipboard.htm">Monitoring Clipboard Contents</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Adding a Window to the Clipboard Viewer Chain</a>.
+For an example, see <a href="using_the_clipboard.htm">Adding a Window to the Clipboard Viewer Chain</a>.
 
 <div class="code"></div>
 
@@ -101,11 +101,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx">ChangeClipboardChain</a>
+<a href="https://msdn.microsoft.com/438ff6b4-6b45-4163-87bc-2f354c73fced">ChangeClipboardChain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -113,7 +113,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
+<a href="https://msdn.microsoft.com/700bee1f-1bed-4fc8-a4ce-7a48bd05e90b">GetClipboardViewer</a>
 
 
 
@@ -121,7 +121,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
  
 
  

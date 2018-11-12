@@ -7,7 +7,7 @@ old-location: base\virtualprotectex.htm
 tech.root: memory
 ms.assetid: 6afd7ae6-e4c5-483c-a638-c85781674c7b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: VirtualProtectEx, VirtualProtectEx function, _win32_virtualprotectex, base.virtualprotectex, winbase/VirtualProtectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

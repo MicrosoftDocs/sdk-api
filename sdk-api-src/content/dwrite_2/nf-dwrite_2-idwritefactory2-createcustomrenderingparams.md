@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory2_createcustomrenderingparams.htm
 tech.root: DirectWrite
 ms.assetid: 947d50fd-888c-2f0b-25c2-b19b0e6fad58
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory2.CreateCustomRenderingParams, IDWriteFactory2::CreateCustomRenderingParams, directwrite.idwritefactory2_createcustomrenderingparams, dwrite_2/IDWriteFactory2::CreateCustomRenderingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

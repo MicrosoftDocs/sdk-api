@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_acdcallrate.htm
 tech.root: tapi
 ms.assetid: 49737945-7e27-4c88-94c5-29db7dccfc97
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDCallRate method, ITAgentSession.get_ACDCallRate, ITAgentSession::get_ACDCallRate, _tapi3_itagentsession_get_acdcallrate, get_ACDCallRate, get_ACDCallRate method [TAPI 2.2], get_ACDCallRate method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdcallrate, tapi3cc/ITAgentSession::get_ACDCallRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

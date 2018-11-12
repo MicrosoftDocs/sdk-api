@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getvideoaspectratio.htm
 tech.root: medfound
 ms.assetid: 82B4AD4B-1A2E-4B03-8343-E4E5A43E62D2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetVideoAspectRatio, GetVideoAspectRatio method [Media Foundation], GetVideoAspectRatio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetVideoAspectRatio method, IMFMediaEngine.GetVideoAspectRatio, IMFMediaEngine::GetVideoAspectRatio, mf.imfmediaengine_getvideoaspectratio, mfmediaengine/IMFMediaEngine::GetVideoAspectRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

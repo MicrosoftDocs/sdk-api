@@ -7,7 +7,7 @@ old-location: multimedia\mmioadvance.htm
 tech.root: Multimedia
 ms.assetid: 30c0b014-a0ac-4002-aeef-24816673f1ed
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_mmioAdvance, mmioAdvance, mmioAdvance function [Windows Multimedia], mmsystem/mmioAdvance, multimedia.mmioadvance"
 ms.prod: windows-hardware
 ms.technology: windows-devices

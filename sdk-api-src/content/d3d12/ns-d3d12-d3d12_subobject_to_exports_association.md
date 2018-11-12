@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subobject_to_exports_association.htm
 tech.root: direct3d12
 ms.assetid: B44B2F0C-D330-41AE-844C-F8B4D5697027
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure, PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer, d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, direct3d12.d3d12_subobject_to_exports_association
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Associates a subobject defined directly in a state object with shader exports.
 

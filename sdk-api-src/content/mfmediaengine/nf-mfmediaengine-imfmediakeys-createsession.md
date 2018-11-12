@@ -7,7 +7,7 @@ old-location: mf\imfmediakeys_createsession.htm
 tech.root: medfound
 ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateSession, CreateSession method [Media Foundation], CreateSession method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],CreateSession method, IMFMediaKeys.CreateSession, IMFMediaKeys::CreateSession, mf.imfmediakeys_createsession, mfmediaengine/IMFMediaKeys::CreateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

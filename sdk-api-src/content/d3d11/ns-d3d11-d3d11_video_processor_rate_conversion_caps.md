@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_rate_conversion_caps.htm
 tech.root: medfound
 ms.assetid: C8C50AE4-5F4F-42AB-8FBB-37D24C4D6081
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, mf.d3d11_video_processor_rate_conversion_caps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,21 +74,21 @@ The number of future reference frames required to perform the optimal video proc
 
 ### -field ProcessorCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Hh447664(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/9AD4ED7B-B12E-4DFD-BB85-BC19FC6C755A">D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS</a> enumeration.
 
 
 
 
 ### -field ITelecineCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Hh447661(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/EE92F877-1B27-4A95-8BB7-01852253D112">D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
 
 
 
 
 ### -field CustomRateCount
 
-The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://msdn.microsoft.com/en-us/library/Hh447804(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a> method.
+The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://msdn.microsoft.com/0FA868E6-B0FB-433B-A183-72DDE39B207E">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a> method.
 
 
 ## -see-also
@@ -96,7 +96,7 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: multimedia\waveinaddbuffer.htm
 tech.root: Multimedia
 ms.assetid: 343abdb6-7a0f-4756-9920-60d308e845f9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_waveInAddBuffer, mmeapi/waveInAddBuffer, multimedia.waveinaddbuffer, waveInAddBuffer, waveInAddBuffer function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

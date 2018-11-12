@@ -82,18 +82,22 @@ A pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e8
 
 A pointer to a pointer to an <a href="https://msdn.microsoft.com/c729ff1a-65f3-4f6f-84dd-5700aead75ce">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 OBJECT_TYPE_LIST g_DefaultOTL[] = {
- {0, 0, (LPGUID)&GUID_NULL},
+ {0, 0, (LPGUID)&amp;GUID_NULL},
 };
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pcObjectTypeListLength [out]
 

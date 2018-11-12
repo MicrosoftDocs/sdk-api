@@ -7,7 +7,7 @@ old-location: security\keycredentialmanagergetinformation.htm
 tech.root: secauthn
 ms.assetid: 21664FAC-F380-4D32-A3A3-5F9326F5C79E
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: KeyCredentialManagerGetInformation, KeyCredentialManagerGetInformation function [Security], keycredmgr/KeyCredentialManagerGetInformation, security.keycredentialmanagergetinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

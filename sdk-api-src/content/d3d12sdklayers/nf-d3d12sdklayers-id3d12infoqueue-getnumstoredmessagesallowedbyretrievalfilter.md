@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnumstoredmessagesallowedbyretrievalf
 tech.root: direct3d12
 ms.assetid: 57F10336-2304-4DC9-B62B-6536A7AD76CB
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method, GetNumStoredMessagesAllowedByRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d12.id3d12infoqueue_getnumstoredmessagesallowedbyretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Number of messages allowed by a retrieval filter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

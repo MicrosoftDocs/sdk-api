@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_acdgroup.htm
 tech.root: tapi
 ms.assetid: ec80092d-ceff-432c-ba0a-695718b890af
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDGroup method, ITAgentSession.get_ACDGroup, ITAgentSession::get_ACDGroup, _tapi3_itagentsession_get_acdgroup, get_ACDGroup, get_ACDGroup method [TAPI 2.2], get_ACDGroup method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdgroup, tapi3cc/ITAgentSession::get_ACDGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

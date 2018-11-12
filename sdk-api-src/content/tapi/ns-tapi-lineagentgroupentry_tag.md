@@ -7,7 +7,7 @@ old-location: tapi2\lineagentgroupentry_str.htm
 tech.root: tapi
 ms.assetid: b1814ef7-7585-4203-8eb2-6862445f9114
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPLINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY structure [TAPI 2.2], LPLINEAGENTGROUPENTRY, LPLINEAGENTGROUPENTRY structure pointer [TAPI 2.2], _tapi2_lineagentgroupentry_str, lineagentgroupentry_tag, tapi/LINEAGENTGROUPENTRY, tapi/LPLINEAGENTGROUPENTRY, tapi2.lineagentgroupentry_str"
 ms.prod: windows
 ms.technology: windows-sdk

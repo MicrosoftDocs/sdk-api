@@ -7,7 +7,7 @@ old-location: security\icenroll4_mystoreflags.htm
 tech.root: seccrypto
 ms.assetid: 0616c666-9cfc-48f9-93a2-91d51d8dff04
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],MyStoreFlags property, ICEnroll interface [Security],MyStoreFlags property, ICEnroll.MyStoreFlags, ICEnroll.get_MyStoreFlags, ICEnroll2 interface [Security],MyStoreFlags property, ICEnroll2.MyStoreFlags, ICEnroll2::get_MyStoreFlags, ICEnroll2::put_MyStoreFlags, ICEnroll3 interface [Security],MyStoreFlags property, ICEnroll3.MyStoreFlags, ICEnroll3::get_MyStoreFlags, ICEnroll3::put_MyStoreFlags, ICEnroll4 interface [Security],MyStoreFlags property, ICEnroll4.MyStoreFlags, ICEnroll4::MyStoreFlags, ICEnroll4::get_MyStoreFlags, ICEnroll4::put_MyStoreFlags, ICEnroll::get_MyStoreFlags, ICEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],CEnroll object, MyStoreFlags property [Security],ICEnroll interface, MyStoreFlags property [Security],ICEnroll2 interface, MyStoreFlags property [Security],ICEnroll3 interface, MyStoreFlags property [Security],ICEnroll4 interface, get_MyStoreFlags, security.icenroll4_mystoreflags, xenroll/ICEnroll2::MyStoreFlags, xenroll/ICEnroll2::get_MyStoreFlags, xenroll/ICEnroll2::put_MyStoreFlags, xenroll/ICEnroll3::MyStoreFlags, xenroll/ICEnroll3::get_MyStoreFlags, xenroll/ICEnroll3::put_MyStoreFlags, xenroll/ICEnroll4::MyStoreFlags, xenroll/ICEnroll4::get_MyStoreFlags, xenroll/ICEnroll4::put_MyStoreFlags, xenroll/ICEnroll::MyStoreFlags, xenroll/ICEnroll::get_MyStoreFlags, xenroll/ICEnroll::put_MyStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,28 +97,32 @@ The <b>MyStoreFlags</b> property should be set before using the following method
 
 #### Examples
 
-
-```cpp
-DWORD    dwFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // retrieve the flag value
-hr = pEnroll->get_MyStoreFlags( &dwFlags );
+hr = pEnroll-&gt;get_MyStoreFlags( &amp;dwFlags );
 if ( FAILED ( hr ) )
     printf("Failed retrieving MyStoreFlags - %x\n", hr );
 else
     printf("MyStoreFlags is %x\n", dwFlags );
 
 // set the flag
-hr = pEnroll->put_MyStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
+hr = pEnroll-&gt;put_MyStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
 if ( FAILED ( hr ) )
     printf("Failed updating MyStoreFlags - %x\n", hr );
 else
-    printf("Updated MyStoreFlags\n");
-```
-
-
+    printf("Updated MyStoreFlags\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 

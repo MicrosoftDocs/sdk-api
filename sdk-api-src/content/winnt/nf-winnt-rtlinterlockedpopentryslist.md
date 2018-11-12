@@ -7,7 +7,7 @@ old-location: base\rtlinterlockedpopentryslist.htm
 tech.root: sync
 ms.assetid: a3c14d28-627f-42e1-b149-04a333a2cde1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: RtlInterlockedPopEntrySList, RtlInterlockedPopEntrySList function, base.rtlinterlockedpopentryslist, winnt/RtlInterlockedPopEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

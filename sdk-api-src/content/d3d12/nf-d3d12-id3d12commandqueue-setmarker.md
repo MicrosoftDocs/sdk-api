@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_setmarker.htm
 tech.root: direct3d12
 ms.assetid: 993996E9-40B8-4FC6-B1CF-883829F8D1F5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D12CommandQueue interface,SetMarker method, ID3D12CommandQueue.SetMarker, ID3D12CommandQueue::SetMarker, SetMarker, SetMarker method, SetMarker method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::SetMarker, direct3d12.id3d12commandqueue_setmarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

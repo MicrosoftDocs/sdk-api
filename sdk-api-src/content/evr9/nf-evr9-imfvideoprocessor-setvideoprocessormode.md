@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_setvideoprocessormode.htm
 tech.root: medfound
 ms.assetid: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc, IMFVideoProcessor interface [Media Foundation],SetVideoProcessorMode method, IMFVideoProcessor.SetVideoProcessorMode, IMFVideoProcessor::SetVideoProcessorMode, SetVideoProcessorMode, SetVideoProcessorMode method [Media Foundation], SetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetVideoProcessorMode, mf.imfvideoprocessor_setvideoprocessormode
 ms.prod: windows-hardware
 ms.technology: windows-devices

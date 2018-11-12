@@ -7,7 +7,7 @@ old-location: mf\mfsetattribute2uint32asuint64.htm
 tech.root: medfound
 ms.assetid: a9c64e49-e249-49ce-8d58-109a7f247fe9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFSetAttribute2UINT32asUINT64, MFSetAttribute2UINT32asUINT64 function [Media Foundation], mf.mfsetattribute2uint32asuint64, mfobjects/MFSetAttribute2UINT32asUINT64
 ms.prod: windows-hardware
 ms.technology: windows-devices

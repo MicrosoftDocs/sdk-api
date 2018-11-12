@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getgdicompatiblemetrics.htm
 tech.root: DirectWrite
 ms.assetid: 2FD26970-8CF3-453F-A08D-30CC4A820281
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetGdiCompatibleMetrics, GetGdiCompatibleMetrics method [Direct Write], GetGdiCompatibleMetrics method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetGdiCompatibleMetrics method, IDWriteFontFace1.GetGdiCompatibleMetrics, IDWriteFontFace1::GetGdiCompatibleMetrics, directwrite.idwritefontface1_getgdicompatiblemetrics, dwrite_1/IDWriteFontFace1::GetGdiCompatibleMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

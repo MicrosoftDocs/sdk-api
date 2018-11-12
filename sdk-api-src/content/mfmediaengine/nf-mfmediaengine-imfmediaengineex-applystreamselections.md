@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_applystreamselections.htm
 tech.root: medfound
 ms.assetid: aaf8ad21-a790-4a78-b733-b6e3ffd859e1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: ApplyStreamSelections, ApplyStreamSelections method [Media Foundation], ApplyStreamSelections method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],ApplyStreamSelections method, IMFMediaEngineEx.ApplyStreamSelections, IMFMediaEngineEx::ApplyStreamSelections, mf.imfmediaengineex_applystreamselections, mfmediaengine/IMFMediaEngineEx::ApplyStreamSelections
 ms.prod: windows-hardware
 ms.technology: windows-devices

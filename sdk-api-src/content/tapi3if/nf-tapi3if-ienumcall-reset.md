@@ -7,7 +7,7 @@ old-location: tapi3\ienumcall_reset.htm
 tech.root: tapi
 ms.assetid: 9aa41bab-c575-440b-b1ff-bdbdde68da36
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Reset method, IEnumCall.Reset, IEnumCall::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_reset, tapi3.ienumcall_reset, tapi3if/IEnumCall::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

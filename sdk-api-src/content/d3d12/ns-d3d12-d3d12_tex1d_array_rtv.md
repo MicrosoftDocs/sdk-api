@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex1d_array_rtv.htm
 tech.root: direct3d12
 ms.assetid: AA297BF7-682B-4141-9F5B-D0C3B271C15A
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_TEX1D_ARRAY_RTV, D3D12_TEX1D_ARRAY_RTV structure, d3d12/D3D12_TEX1D_ARRAY_RTV, direct3d12.d3d12_tex1d_array_rtv
 ms.prod: windows
 ms.technology: windows-sdk

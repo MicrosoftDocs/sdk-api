@@ -7,7 +7,7 @@ old-location: base\symgetsourcefilechecksum.htm
 tech.root: debug
 ms.assetid: 6F45FEC4-AFB9-4612-A840-B806034F33E2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: SymGetSourceFileChecksum, SymGetSourceFileChecksum function, SymGetSourceFileChecksumW, base.symgetsourcefilechecksum, dbghelp/SymGetSourceFileChecksum, dbghelp/SymGetSourceFileChecksumW
 ms.prod: windows-hardware
 ms.technology: windows-devices

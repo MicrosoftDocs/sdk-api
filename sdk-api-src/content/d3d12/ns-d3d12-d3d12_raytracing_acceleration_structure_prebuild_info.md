@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_acceleration_structure_prebuild_info.h
 tech.root: direct3d12
 ms.assetid: B9F9551D-CB2F-488E-AD29-BCE603195F53
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure pointer, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, d3d12/PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, direct3d12.d3d12_raytracing_acceleration_structure_prebuild_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Represents prebuild information about a raytracing acceleration structure. Get an instance of this stucture by calling <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>.
 

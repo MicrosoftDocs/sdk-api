@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774902(v=VS.85).aspx">LVM_ENSUREVISIBLE</a> message explicitly. 
+Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/3564b6e6-b8b6-401b-85bc-8bd6261fc054">LVM_ENSUREVISIBLE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Ensures that a list-view item is either entirely or partially visible, scrolling
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -74,7 +74,7 @@ The index of the list-view item.
 
 ### -param fPartialOK
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 A value specifying whether the item must be entirely visible. If this parameter is <b>TRUE</b>, no scrolling occurs if the item is at least partially visible. 
 

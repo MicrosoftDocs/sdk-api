@@ -7,7 +7,7 @@ old-location: security\cryptprotectdata.htm
 tech.root: seccrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -234,7 +234,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
 
 
 

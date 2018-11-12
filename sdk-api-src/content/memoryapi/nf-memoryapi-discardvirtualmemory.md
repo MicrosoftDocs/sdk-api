@@ -7,7 +7,7 @@ old-location: base\discardvirtualmemory.htm
 tech.root: memory
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

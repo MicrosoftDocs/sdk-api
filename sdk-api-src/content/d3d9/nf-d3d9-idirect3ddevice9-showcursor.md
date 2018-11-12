@@ -106,7 +106,7 @@ break;
 </td>
 </tr>
 </table></span></div>
-Or users might want to call the <a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">IDirect3DDevice9::SetCursorProperties</a> method if they want to change the cursor. See the code in the DirectX Graphics C/C++ Samples for more detail.
+Or users might want to call the <a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">IDirect3DDevice9::SetCursorProperties</a> method if they want to change the cursor. See the code in the DirectX Graphics C/C++ Samples for more detail.
 
 
 
@@ -116,15 +116,15 @@ Or users might want to call the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174429(v=VS.85).aspx">IDirect3DDevice9::SetCursorPosition</a>
+<a href="https://msdn.microsoft.com/3b6410e5-fdeb-4390-b0c6-227f0c6666c6">IDirect3DDevice9::SetCursorPosition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">IDirect3DDevice9::SetCursorProperties</a>
+<a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">IDirect3DDevice9::SetCursorProperties</a>
  
 
  

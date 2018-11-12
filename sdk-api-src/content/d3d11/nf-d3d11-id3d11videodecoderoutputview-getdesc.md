@@ -7,7 +7,7 @@ old-location: mf\id3d11videodecoderoutputview_getdesc.htm
 tech.root: medfound
 ms.assetid: 002BE600-2B4C-4337-BAA4-EC132FD3BC8A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoDecoderOutputView interface, ID3D11VideoDecoderOutputView interface [Media Foundation],GetDesc method, ID3D11VideoDecoderOutputView.GetDesc, ID3D11VideoDecoderOutputView::GetDesc, d3d11/ID3D11VideoDecoderOutputView::GetDesc, mf.id3d11videodecoderoutputview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Gets the properties of the video decoder output view.
 
 ### -param pDesc [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh447646(v=VS.85).aspx">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
+A pointer to a <a href="https://msdn.microsoft.com/0A0C29C5-C3A3-43E7-86DA-1849AC276060">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447767(v=VS.85).aspx">ID3D11VideoDecoderOutputView</a>
+<a href="https://msdn.microsoft.com/389E0CCC-4DD2-4E82-84D7-3794AEE59208">ID3D11VideoDecoderOutputView</a>
  
 
  

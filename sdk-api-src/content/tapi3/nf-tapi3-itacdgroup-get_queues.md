@@ -7,7 +7,7 @@ old-location: tapi3\itacdgroup_get_queues.htm
 tech.root: tapi
 ms.assetid: f285fea5-4c08-4d30-8378-0b0aeeea8226
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Queues method, ITACDGroup.get_Queues, ITACDGroup::get_Queues, _tapi3_itacdgroup_get_queues, get_Queues, get_Queues method [TAPI 2.2], get_Queues method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_queues, tapi3cc/ITACDGroup::get_Queues
 ms.prod: windows-hardware
 ms.technology: windows-devices

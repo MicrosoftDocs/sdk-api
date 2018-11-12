@@ -7,7 +7,7 @@ old-location: tapi2\varstring_str.htm
 tech.root: tapi
 ms.assetid: ec73ed48-db5a-4478-8748-b8e58247c2f4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPVARSTRING, LPVARSTRING, LPVARSTRING structure pointer [TAPI 2.2], VARSTRING, VARSTRING structure [TAPI 2.2], _tapi2_varstring_str, tapi/LPVARSTRING, tapi/VARSTRING, tapi2.varstring_str, varstring_tag"
 ms.prod: windows
 ms.technology: windows-sdk

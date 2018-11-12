@@ -7,7 +7,7 @@ old-location: base\symgetsymnext64.htm
 tech.root: debug
 ms.assetid: e58f21b9-c2fc-48f6-af45-3c9ec42809c1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNext64 function, _win32_symgetsymnext64, base.symgetsymnext64, dbghelp/SymGetSymNext, dbghelp/SymGetSymNext64
 ms.prod: windows-hardware
 ms.technology: windows-devices

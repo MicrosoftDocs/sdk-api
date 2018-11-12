@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory.htm
 tech.root: DirectWrite
 ms.assetid: 73a85977-5c24-4abc-ad8c-1d0d6474bd7e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteFactory, IDWriteFactory interface [Direct Write], IDWriteFactory interface [Direct Write],described, directwrite.IDWriteFactory, dwrite/IDWriteFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -277,22 +277,26 @@ Registers a custom font collection loader with the factory object.
 
 Create an <b>IDWriteFactory</b> object by using the <a href="https://msdn.microsoft.com/c74c0906-0a5c-4ab8-87cf-a195566e1d9e">DWriteCreateFactory</a> function.  
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 if (SUCCEEDED(hr))
 {
     hr = DWriteCreateFactory(
         DWRITE_FACTORY_TYPE_SHARED,
         __uuidof(IDWriteFactory),
-        reinterpret_cast<IUnknown**>(&pDWriteFactory_)
+        reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory_)
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 An <b>IDWriteFactory</b> object holds state information, such as font loader registration and cached font data.  This state can be shared or isolated.  Shared is recommended for most applications because it saves memory.  However, isolated can be useful in situations where you want to have a separate state for some objects.
 
 

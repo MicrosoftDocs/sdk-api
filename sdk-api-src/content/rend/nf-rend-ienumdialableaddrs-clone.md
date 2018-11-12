@@ -7,7 +7,7 @@ old-location: tapi3\ienumdialableaddrs_clone.htm
 tech.root: tapi
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialableAddrs interface, IEnumDialableAddrs interface [TAPI 2.2],Clone method, IEnumDialableAddrs.Clone, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

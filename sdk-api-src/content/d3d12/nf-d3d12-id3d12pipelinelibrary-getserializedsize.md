@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_getserializedsize.htm
 tech.root: direct3d12
 ms.assetid: 45DA092B-AB9B-43BE-8F5C-AE05485EA3C1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,GetSerializedSize method, ID3D12PipelineLibrary.GetSerializedSize, ID3D12PipelineLibrary::GetSerializedSize, d3d12/ID3D12PipelineLibrary::GetSerializedSize, direct3d12.id3d12pipelinelibrary_getserializedsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ This method returns a SIZE_T object, containing the size required in bytes.
 
 
 
-Refer to the remarks and examples for <a href="https://msdn.microsoft.com/en-us/library/Mt709133(v=VS.85).aspx">CreatePipelineLibrary</a>. 
+Refer to the remarks and examples for <a href="https://msdn.microsoft.com/572A95A6-A02F-4512-9BDE-2A8CA58A0A27">CreatePipelineLibrary</a>. 
 
 
 
@@ -86,7 +86,7 @@ Refer to the remarks and examples for <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709145(v=VS.85).aspx">ID3D12PipelineLibrary</a>
+<a href="https://msdn.microsoft.com/7A1D750D-51F1-48F6-9D74-6439A147F1EC">ID3D12PipelineLibrary</a>
  
 
  

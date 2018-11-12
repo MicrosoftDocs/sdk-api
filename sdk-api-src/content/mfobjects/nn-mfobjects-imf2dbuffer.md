@@ -7,7 +7,7 @@ old-location: mf\imf2dbuffer.htm
 tech.root: medfound
 ms.assetid: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7, IMF2DBuffer, IMF2DBuffer interface [Media Foundation], IMF2DBuffer interface [Media Foundation],described, mf.imf2dbuffer, mfobjects/IMF2DBuffer
 ms.prod: windows
 ms.technology: windows-sdk

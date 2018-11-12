@@ -7,7 +7,7 @@ old-location: tapi2\linegetcallstatus.htm
 tech.root: tapi
 ms.assetid: 88bcd211-0993-4703-b43f-4e0b93e3eb7e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linegetcallstatus, lineGetCallStatus, lineGetCallStatus function [TAPI 2.2], tapi/lineGetCallStatus, tapi2.linegetcallstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

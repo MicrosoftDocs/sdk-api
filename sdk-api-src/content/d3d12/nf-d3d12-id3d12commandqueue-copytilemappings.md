@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_copytilemappings.htm
 tech.root: direct3d12
 ms.assetid: FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: CopyTileMappings, CopyTileMappings method, CopyTileMappings method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,CopyTileMappings method, ID3D12CommandQueue.CopyTileMappings, ID3D12CommandQueue::CopyTileMappings, d3d12/ID3D12CommandQueue::CopyTileMappings, direct3d12.id3d12commandqueue_copytilemappings
 ms.prod: windows-hardware
 ms.technology: windows-devices

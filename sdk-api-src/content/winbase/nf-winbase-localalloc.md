@@ -7,7 +7,7 @@ old-location: base\localalloc.htm
 tech.root: memory
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateextensionsclose.htm
 tech.root: seccrypto
 ms.assetid: b1755fc5-f18f-45b5-a89a-44c6598c0e2c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsClose method, EnumerateExtensionsClose, EnumerateExtensionsClose method [Security], EnumerateExtensionsClose method [Security],CCertServerPolicy object, EnumerateExtensionsClose method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsClose method, ICertServerPolicy.EnumerateExtensionsClose, ICertServerPolicy::EnumerateExtensionsClose, _certsrv_icertserverpolicy_enumerateextensionsclose, certif/ICertServerPolicy::EnumerateExtensionsClose, security.icertserverpolicy_enumerateextensionsclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The <b>EnumerateExtensionsClose</b> method frees the resources connected with ex
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -77,8 +77,8 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-All policy modules should call the <b>EnumerateExtensionsClose</b> method after calling the <a href="https://msdn.microsoft.com/en-us/library/Aa385086(v=VS.85).aspx">EnumerateExtensionsSetup</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385084(v=VS.85).aspx">ICertServerPolicy::EnumerateExtensions</a> methods.
+All policy modules should call the <b>EnumerateExtensionsClose</b> method after calling the <a href="https://msdn.microsoft.com/e7ad32a5-d7df-407f-8efe-c9931610c2d2">EnumerateExtensionsSetup</a> and 
+<a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">ICertServerPolicy::EnumerateExtensions</a> methods.
 
 
 #### Examples
@@ -108,15 +108,15 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385066(v=VS.85).aspx">ICertServerExit::EnumerateExtensionsSetup</a>
+<a href="https://msdn.microsoft.com/2a0c4919-b3a0-4027-85bd-970f6bc0cdeb">ICertServerExit::EnumerateExtensionsSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385084(v=VS.85).aspx">ICertServerPolicy::EnumerateExtensions</a>
+<a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">ICertServerPolicy::EnumerateExtensions</a>
  
 
  

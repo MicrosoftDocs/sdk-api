@@ -7,7 +7,7 @@ old-location: base\enclave_init_info_vbs.htm
 tech.root: memory
 ms.assetid: 93DA44C6-6776-4682-84C2-347192669C77
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS structure, PENCLAVE_INIT_INFO_VBS, PENCLAVE_INIT_INFO_VBS structure pointer, _ENCLAVE_INIT_INFO_VBS, base.enclave_init_info_vbs, winnt/ENCLAVE_INIT_INFO_VBS, winnt/PENCLAVE_INIT_INFO_VBS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\_mft_output_status_flags.htm
 tech.root: medfound
 ms.assetid: 951900b1-364e-4867-a1f8-50d485d13c77
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 951900b1-364e-4867-a1f8-50d485d13c77, MFT_OUTPUT_STATUS_SAMPLE_READY, _MFT_OUTPUT_STATUS_FLAGS, _MFT_OUTPUT_STATUS_FLAGS enumeration [Media Foundation], mf._mft_output_status_flags, mftransform/MFT_OUTPUT_STATUS_SAMPLE_READY, mftransform/_MFT_OUTPUT_STATUS_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

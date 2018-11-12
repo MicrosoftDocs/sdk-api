@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_getmanagemodule.htm
 tech.root: seccrypto
 ms.assetid: a8d45938-1b89-4576-8705-7a174323e072
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>GetManageModule</b> method retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.85).aspx">ICertManageModule</a> interface associated with the <a href="https://msdn.microsoft.com/en-us/library/Aa385034(v=VS.85).aspx">ICertPolicy2</a> interface by calling <b>GetManageModule</b> and passing in the address of a pointer to an <b>ICertManageModule</b>.
+The <b>GetManageModule</b> method retrieves the <a href="https://msdn.microsoft.com/82b7b770-c098-40da-8a4e-8eb0e0b8a645">ICertManageModule</a> interface associated with the <a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">ICertPolicy2</a> interface by calling <b>GetManageModule</b> and passing in the address of a pointer to an <b>ICertManageModule</b>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>GetManageModule</b> method retrieves the <a href="https://msdn.microsoft.
 
 ### -param ppManageModule [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.85).aspx">ICertManageModule</a> interface associated with the <a href="https://msdn.microsoft.com/en-us/library/Aa385034(v=VS.85).aspx">ICertPolicy2</a> interface.
+Pointer to the <a href="https://msdn.microsoft.com/82b7b770-c098-40da-8a4e-8eb0e0b8a645">ICertManageModule</a> interface associated with the <a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">ICertPolicy2</a> interface.
 
 
 ## -returns
@@ -73,7 +73,7 @@ Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.8
  The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was successful.
 
 <h3>VB</h3>
-The return value is a <b>Variant</b> containing the <a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.85).aspx">ICertManageModule</a> interface associated with the <a href="https://msdn.microsoft.com/en-us/library/Aa385034(v=VS.85).aspx">ICertPolicy2</a> interface.
+The return value is a <b>Variant</b> containing the <a href="https://msdn.microsoft.com/82b7b770-c098-40da-8a4e-8eb0e0b8a645">ICertManageModule</a> interface associated with the <a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">ICertPolicy2</a> interface.
 
 
 
@@ -87,7 +87,7 @@ The return value is a <b>Variant</b> containing the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385034(v=VS.85).aspx">ICertPolicy2</a>
+<a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">ICertPolicy2</a>
  
 
  

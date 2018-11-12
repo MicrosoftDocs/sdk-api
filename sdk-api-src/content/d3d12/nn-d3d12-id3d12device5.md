@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device5.htm
 tech.root: direct3d12
 ms.assetid: 2D72898B-F512-4E0D-8FAC-A53EA6FE614A
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D122Device5, ID3D122Device5 interface, ID3D122Device5 interface,described, ID3D12Device5, d3d12/ID3D12Device5, direct3d12.id3d12device5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Represents a virtual adapter. This interface extends <b>ID3D12Device4</b> to  support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
 <div class="alert"><b>Note</b>  This interface, introduced in Windows 10, version 1809, is the latest version of the <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a> interface. Applications targeting the TBD and later should use this interface instead of earlier versions.</div><div> </div>

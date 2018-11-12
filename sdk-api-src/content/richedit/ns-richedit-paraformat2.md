@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a> messages. 
+Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -1046,7 +1046,7 @@ Number of tab stops defined in the
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
+Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
 
 
 #### - dwMask
@@ -1782,7 +1782,7 @@ Insert a bullet at the beginning of each selected paragraph.
  
 
 
-Rich Edit versions earlier than version 3.0 do not display paragraph numbers. However, for compatibility with Microsoft <a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a> (TOM) interfaces, 
+Rich Edit versions earlier than version 3.0 do not display paragraph numbers. However, for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces, 
 						<b>wNumbering</b> can specify one of the following values. (The rich edit control stores the value but does not use it to display the text.) 
 
 
@@ -1862,15 +1862,15 @@ Uses a sequence of characters beginning with the Unicode character specified by 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a>
+<a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a>
+<a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a>
+<a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a>
  
 
  

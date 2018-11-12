@@ -7,7 +7,7 @@ old-location: mf\mfgettoponodecurrenttype.htm
 tech.root: medfound
 ms.assetid: 2405c6f6-1a3c-42d1-8ec9-4728f522ce42
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

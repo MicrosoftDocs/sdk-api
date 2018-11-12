@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12sharingcontract_sharedfencesignal.htm
 tech.root: direct3d12
 ms.assetid: E90576A7-B665-4911-A17E-FD328CD71458
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D12SharingContract interface,SharedFenceSignal method, ID3D12SharingContract.SharedFenceSignal, ID3D12SharingContract::SharedFenceSignal, SharedFenceSignal, SharedFenceSignal method, SharedFenceSignal method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::SharedFenceSignal, direct3d12.id3d12sharingcontract_sharedfencesignal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ Signals a shared fence between the D3D layers and diagnostics tools.
 
 ### -param pFence [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899188(v=VS.85).aspx">ID3D12Fence</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/2B388352-EF43-4D1E-851C-A670B4681F0F">ID3D12Fence</a>*</b>
 
 A pointer to the shared fence to signal.
 
 
 ### -param FenceValue
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
 An unsigned 64bit value to signal the shared fence with.
 
@@ -86,7 +86,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt813616(v=VS.85).aspx">ID3D12SharingContract</a>
+<a href="https://msdn.microsoft.com/10E61C88-0CDC-42E6-AB70-4911D254C40A">ID3D12SharingContract</a>
  
 
  

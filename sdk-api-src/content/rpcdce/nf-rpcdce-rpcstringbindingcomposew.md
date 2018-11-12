@@ -64,7 +64,7 @@ The
 ### -param ObjUuid
 
 Pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://msdn.microsoft.com/">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
 
 
 ### -param ProtSeq

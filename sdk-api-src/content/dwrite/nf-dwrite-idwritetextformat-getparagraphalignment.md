@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_GetParagraphAlignment.htm
 tech.root: DirectWrite
 ms.assetid: c05e1b59-0263-45a7-872c-b44b04858a5a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetParagraphAlignment, GetParagraphAlignment method [Direct Write], GetParagraphAlignment method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetParagraphAlignment method, IDWriteTextFormat.GetParagraphAlignment, IDWriteTextFormat::GetParagraphAlignment, directwrite.IDWriteTextFormat_GetParagraphAlignment, dwrite/IDWriteTextFormat::GetParagraphAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

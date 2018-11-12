@@ -7,7 +7,7 @@ old-location: tapi3\itdigitgenerationevent_get_callbackinstance.htm
 tech.root: tapi
 ms.assetid: e0cc1e75-bdc2-4b05-a83b-13e4778ed75b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitGenerationEvent.get_CallbackInstance, ITDigitGenerationEvent::get_CallbackInstance, _tapi3_itdigitgenerationevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_callbackinstance, tapi3if/ITDigitGenerationEvent::get_CallbackInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

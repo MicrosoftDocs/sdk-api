@@ -7,7 +7,7 @@ old-location: security\certregistersystemstore.htm
 tech.root: seccrypto
 ms.assetid: b6f72826-92ab-4e21-8db9-eb053663148b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_USERS, CertRegisterSystemStore, CertRegisterSystemStore function [Security], _crypto2_certregistersystemstore, security.certregistersystemstore, wincrypt/CertRegisterSystemStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -288,7 +288,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

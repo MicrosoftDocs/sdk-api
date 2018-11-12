@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_versioned_root_signature_desc.htm
 tech.root: direct3d12
 ms.assetid: 46F692DD-55FF-4DFF-AF11-78CAD10922C1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_VERSIONED_ROOT_SIGNATURE_DESC, D3D12_VERSIONED_ROOT_SIGNATURE_DESC structure, d3d12/D3D12_VERSIONED_ROOT_SIGNATURE_DESC, direct3d12.d3d12_versioned_root_signature_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,12 +65,12 @@ Specifies one member of D3D_ROOT_SIGNATURE_VERSION that determines the contents 
 
 ### -field Desc_1_0
 
-Specifies a <a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a> (version 1.0).
+Specifies a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> (version 1.0).
 
 
 ### -field Desc_1_1
 
-Specifies a <a href="https://msdn.microsoft.com/en-us/library/Mt709124(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC1</a> (version 1.1).
+Specifies a <a href="https://msdn.microsoft.com/F085D077-1DA8-41A1-9FA3-4423EA003345">D3D12_ROOT_SIGNATURE_DESC1</a> (version 1.1).
 
 
 ## -remarks
@@ -81,16 +81,16 @@ Use this structure with the following methods.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Mt709152(v=VS.85).aspx">GetRootSignatureDescAtVersion</a>
+<a href="https://msdn.microsoft.com/50EB9AC8-D13D-41D3-9E16-AC9871095A72">GetRootSignatureDescAtVersion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Mt709153(v=VS.85).aspx">GetUnconvertedRootSignatureDesc</a>
+<a href="https://msdn.microsoft.com/7E21B598-C13B-4418-B5B1-4ADDAA18F9B9">GetUnconvertedRootSignatureDesc</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Mt709110(v=VS.85).aspx">D3D12SerializeVersionedRootSignature</a>
+<a href="https://msdn.microsoft.com/D8A15561-4911-4067-B25E-8BF2B079FD81">D3D12SerializeVersionedRootSignature</a>
 </li>
 </ul>
-Refer to the helper structure <a href="https://msdn.microsoft.com/en-us/library/Mt750342(v=VS.85).aspx">CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC</a>. 
+Refer to the helper structure <a href="https://msdn.microsoft.com/4505C1CE-CAA5-4092-B990-75740A2B194C">CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC</a>. 
 
 
 
@@ -100,11 +100,11 @@ Refer to the helper structure <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709473(v=VS.85).aspx">Root Signature Version 1.1</a>
+<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
  
 
  

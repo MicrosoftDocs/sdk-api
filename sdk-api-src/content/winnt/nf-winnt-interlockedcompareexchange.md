@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange.htm
 tech.root: sync
 ms.assetid: c0da780c-5fd0-4c88-a283-8d057db812ac
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange function, _win32_interlockedcompareexchange, base.interlockedcompareexchange, winnt/InterlockedCompareExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ The parameters for this function must be aligned on a 32-bit boundary; otherwise
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/ttk2z1ws(v=VS.85).aspx">_InterlockedCompareExchange</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="c3ad79c0-a523-4930-a3a4-69a65d7d5c81">_InterlockedCompareExchange</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

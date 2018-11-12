@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_state_object_type.htm
 tech.root: direct3d12
 ms.assetid: 57E5BAE4-C6FF-4801-91A3-8C4189149B5F
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_STATE_OBJECT_TYPE, D3D12_STATE_OBJECT_TYPE enumeration, D3D12_STATE_OBJECT_TYPE_COLLECTION, D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE, d3d12/D3D12_STATE_OBJECT_TYPE, d3d12/D3D12_STATE_OBJECT_TYPE_COLLECTION, d3d12/D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE, direct3d12.d3d12_state_object_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Specifies the type of a state object. Use with <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
 

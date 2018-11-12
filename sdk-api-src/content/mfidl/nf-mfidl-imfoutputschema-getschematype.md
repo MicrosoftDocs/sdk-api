@@ -7,7 +7,7 @@ old-location: mf\imfoutputschema_getschematype.htm
 tech.root: medfound
 ms.assetid: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c, GetSchemaType, GetSchemaType method [Media Foundation], GetSchemaType method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetSchemaType method, IMFOutputSchema.GetSchemaType, IMFOutputSchema::GetSchemaType, mf.imfoutputschema_getschematype, mfidl/IMFOutputSchema::GetSchemaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

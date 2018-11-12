@@ -7,7 +7,7 @@ old-location: security\icenroll4_spcfilename.htm
 tech.root: seccrypto
 ms.assetid: 4ff2f111-31bd-4ed4-a335-2db536477660
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],SPCFileName property, ICEnroll interface [Security],SPCFileName property, ICEnroll.SPCFileName, ICEnroll.get_SPCFileName, ICEnroll2 interface [Security],SPCFileName property, ICEnroll2.SPCFileName, ICEnroll2::get_SPCFileName, ICEnroll2::put_SPCFileName, ICEnroll3 interface [Security],SPCFileName property, ICEnroll3.SPCFileName, ICEnroll3::get_SPCFileName, ICEnroll3::put_SPCFileName, ICEnroll4 interface [Security],SPCFileName property, ICEnroll4.SPCFileName, ICEnroll4::SPCFileName, ICEnroll4::get_SPCFileName, ICEnroll4::put_SPCFileName, ICEnroll::get_SPCFileName, ICEnroll::put_SPCFileName, SPCFileName property [Security], SPCFileName property [Security],CEnroll object, SPCFileName property [Security],ICEnroll interface, SPCFileName property [Security],ICEnroll2 interface, SPCFileName property [Security],ICEnroll3 interface, SPCFileName property [Security],ICEnroll4 interface, get_SPCFileName, security.icenroll4_spcfilename, xenroll/ICEnroll2::SPCFileName, xenroll/ICEnroll2::get_SPCFileName, xenroll/ICEnroll2::put_SPCFileName, xenroll/ICEnroll3::SPCFileName, xenroll/ICEnroll3::get_SPCFileName, xenroll/ICEnroll3::put_SPCFileName, xenroll/ICEnroll4::SPCFileName, xenroll/ICEnroll4::get_SPCFileName, xenroll/ICEnroll4::put_SPCFileName, xenroll/ICEnroll::SPCFileName, xenroll/ICEnroll::get_SPCFileName, xenroll/ICEnroll::put_SPCFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,16 +98,20 @@ If the file already exists, the user is notified and prompted for permission to 
 
 #### Examples
 
-
-```cpp
-BSTR     bstrSPCFile = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrSPCFile = NULL;
 BSTR     bstrNewSPCFile = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the SPCFileName
-hr = pEnroll->get_SPCFileName( &bstrSPCFile );
+hr = pEnroll-&gt;get_SPCFileName( &amp;bstrSPCFile );
 if (FAILED( hr ))
     printf("Failed get_SPCFileName - %x\n", hr );
 else
@@ -117,18 +121,18 @@ if ( NULL != bstrSPCFile )
     SysFreeString( bstrSPCFile );
 
 // set the SPCFileName, for example, "MyFile.SPC".
-bstrNewSPCFile = SysAllocString(TEXT("<FILENAMEHERE>"));
+bstrNewSPCFile = SysAllocString(TEXT("&lt;FILENAMEHERE&gt;"));
 
-hr = pEnroll->put_SPCFileName( bstrNewSPCFile );
+hr = pEnroll-&gt;put_SPCFileName( bstrNewSPCFile );
 if (FAILED( hr ))
     printf("Failed put_SPCFileName - %x\n", hr );
 else
     printf( "SPCFileName set to %ws\n", bstrNewSPCFile );
 // free BSTR when done
 if ( NULL != bstrNewSPCFile )
-    SysFreeString( bstrNewSPCFile );
-```
-
-
+    SysFreeString( bstrNewSPCFile );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

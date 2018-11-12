@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensions.htm
 tech.root: seccrypto
 ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerExit object, EnumerateExtensions method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensions method, ICertServerExit.EnumerateExtensions, ICertServerExit::EnumerateExtensions, _certsrv_icertserverexit_enumerateextensions, certif/ICertServerExit::EnumerateExtensions, security.icertserverexit_enumerateextensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,11 +51,11 @@ req.redist:
 ## -description
 
 
-The <b>EnumerateExtensions</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
+The <b>EnumerateExtensions</b> method returns the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
 
  Before calling <b>EnumerateExtensions</b>, an application calls 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385066(v=VS.85).aspx">ICertServerExit::EnumerateExtensionsSetup</a>. When done enumerating, an application calls 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385064(v=VS.85).aspx">ICertServerExit::EnumerateExtensionsClose</a>.
+<a href="https://msdn.microsoft.com/2a0c4919-b3a0-4027-85bd-970f6bc0cdeb">ICertServerExit::EnumerateExtensionsSetup</a>. When done enumerating, an application calls 
+<a href="https://msdn.microsoft.com/769235cd-d5ef-458b-a04b-88f9f831ce3f">ICertServerExit::EnumerateExtensionsClose</a>.
 
 
 ## -parameters
@@ -77,9 +77,9 @@ A pointer to the enumerated extension name.
 
 To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrExtensionName</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that contains the name of the enumerated extension, or an empty string if the last extension was already enumerated.
@@ -92,7 +92,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 This method enumerates certificate extensions recorded in the database, even those that are disabled and do not appear in the certificate. To determine whether an extension is disabled, use 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385072(v=VS.85).aspx">ICertServerExit::GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
+<a href="https://msdn.microsoft.com/0eee1d67-116b-4f93-9273-b70d50fa2c5d">ICertServerExit::GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
 
 
 #### Examples
@@ -156,23 +156,23 @@ if (NULL != bstrExt)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385064(v=VS.85).aspx">ICertServerExit::EnumerateExtensionsClose</a>
+<a href="https://msdn.microsoft.com/769235cd-d5ef-458b-a04b-88f9f831ce3f">ICertServerExit::EnumerateExtensionsClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385066(v=VS.85).aspx">ICertServerExit::EnumerateExtensionsSetup</a>
+<a href="https://msdn.microsoft.com/2a0c4919-b3a0-4027-85bd-970f6bc0cdeb">ICertServerExit::EnumerateExtensionsSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">ICertServerExit::GetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">ICertServerExit::GetCertificateExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385072(v=VS.85).aspx">ICertServerExit::GetCertificateExtensionFlags</a>
+<a href="https://msdn.microsoft.com/0eee1d67-116b-4f93-9273-b70d50fa2c5d">ICertServerExit::GetCertificateExtensionFlags</a>
  
 
  

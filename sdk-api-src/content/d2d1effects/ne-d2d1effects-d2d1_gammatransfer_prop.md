@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706337(v=VS.85).aspx">Gamma transfer effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A">Gamma transfer effect</a>.
         
 
 

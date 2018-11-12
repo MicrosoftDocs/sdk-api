@@ -7,7 +7,7 @@ old-location: base\deleteenclave.htm
 tech.root: memory
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
 ms.prod: windows-hardware
 ms.technology: windows-devices

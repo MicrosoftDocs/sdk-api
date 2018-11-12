@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory5.htm
 tech.root: DirectWrite
 ms.assetid: 2F3E30DC-A965-4C68-A337-73F338CF2563
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteFactory5, IDWriteFactory5 interface [Direct Write], IDWriteFactory5 interface [Direct Write],described, directwrite.idwritefactory5, dwrite_3/IDWriteFactory5
 ms.prod: windows
 ms.technology: windows-sdk

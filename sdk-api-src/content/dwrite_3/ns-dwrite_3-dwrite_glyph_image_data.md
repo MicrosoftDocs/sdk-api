@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_glyph_image_data.htm
 tech.root: DirectWrite
 ms.assetid: 4BBA8B7A-E2DA-445B-AE56-FFA7629E3D06
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_GLYPH_IMAGE_DATA, DWRITE_GLYPH_IMAGE_DATA structure [Direct Write], directwrite.dwrite_glyph_image_data, dwrite_3/DWRITE_GLYPH_IMAGE_DATA
 ms.prod: windows
 ms.technology: windows-sdk

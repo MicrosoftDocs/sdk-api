@@ -7,7 +7,7 @@ old-location: security\cmsg_signed_encode_info.htm
 tech.root: seccrypto
 ms.assetid: 93138744-8316-461b-908a-1eab47e83f63
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO structure [Security], _CMSG_SIGNED_ENCODE_INFO, _crypto2_cmsg_signed_encode_info, security.cmsg_signed_encode_info, wincrypt/CMSG_SIGNED_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

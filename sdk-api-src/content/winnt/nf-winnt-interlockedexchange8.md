@@ -7,7 +7,7 @@ old-location: base\interlockedexchange8.htm
 tech.root: sync
 ms.assetid: fe07fac0-b9f2-419e-a086-09bc73125c4e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedExchange8, InterlockedExchange8 function, base.interlockedexchange8, winnt/InterlockedExchange8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ The function returns the initial value of the <i>Target</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/1s26w950(v=VS.85).aspx">_InterlockedExchange8</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="be2f232a-6301-462a-a92b-fcdeb8b0f209">_InterlockedExchange8</a>.
 
 This function generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

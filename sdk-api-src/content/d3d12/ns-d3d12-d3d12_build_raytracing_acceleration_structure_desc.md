@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_desc.htm
 tech.root: direct3d12
 ms.assetid: C73A3A59-1184-401C-AF45-CBF12419852E
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure pointer, d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, direct3d12.d3d12_build_raytracing_acceleration_structure_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Describes a raytracing acceleration structure. Pass this structure into <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-buildraytracingaccelerationstructure">ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure</a> to describe the acceleration structure to be built.
 

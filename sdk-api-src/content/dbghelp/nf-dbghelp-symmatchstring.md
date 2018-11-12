@@ -7,7 +7,7 @@ old-location: base\symmatchstring.htm
 tech.root: debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

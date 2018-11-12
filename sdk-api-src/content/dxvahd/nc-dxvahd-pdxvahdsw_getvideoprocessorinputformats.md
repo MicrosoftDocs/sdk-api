@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_getvideoprocessorinputformats.htm
 tech.root: medfound
 ms.assetid: 3d24da29-0fdb-4084-9810-1a0c9b04768b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorInputFormats, PDXVAHDSW_GetVideoProcessorInputFormats callback, PDXVAHDSW_GetVideoProcessorInputFormats callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats, mf.pdxvahdsw_getvideoprocessorinputformats
 ms.prod: windows
 ms.technology: windows-sdk

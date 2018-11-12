@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissink_setlinebreakpoints.htm
 tech.root: DirectWrite
 ms.assetid: 423f1f0e-b2bd-48b6-aa3b-c79a2b542d5d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetLineBreakpoints method, IDWriteTextAnalysisSink.SetLineBreakpoints, IDWriteTextAnalysisSink::SetLineBreakpoints, SetLineBreakpoints, SetLineBreakpoints method [Direct Write], SetLineBreakpoints method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setlinebreakpoints, dwrite/IDWriteTextAnalysisSink::SetLineBreakpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

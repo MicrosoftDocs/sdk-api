@@ -7,7 +7,7 @@ old-location: tapi3\ienumagentsession.htm
 tech.root: tapi
 ms.assetid: 38b9fc57-a0af-4dfa-9058-e721138c8be9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], IEnumAgentSession interface [TAPI 2.2],described, _tapi3_ienumagentsession, tapi3.ienumagentsession, tapi3cc/IEnumAgentSession
 ms.prod: windows
 ms.technology: windows-sdk

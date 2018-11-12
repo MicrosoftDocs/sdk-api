@@ -7,7 +7,7 @@ old-location: security\icenroll4_writecerttouserds.htm
 tech.root: seccrypto
 ms.assetid: 8c80f6b9-f5f7-4fa1-9cb5-db19cdc9ec25
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],WriteCertToUserDS property, ICEnroll2 interface [Security],WriteCertToUserDS property, ICEnroll2.WriteCertToUserDS, ICEnroll2.put_WriteCertToUserDS, ICEnroll2::get_WriteCertToUserDS, ICEnroll2::put_WriteCertToUserDS, ICEnroll3 interface [Security],WriteCertToUserDS property, ICEnroll3.WriteCertToUserDS, ICEnroll3::get_WriteCertToUserDS, ICEnroll3::put_WriteCertToUserDS, ICEnroll4 interface [Security],WriteCertToUserDS property, ICEnroll4.WriteCertToUserDS, ICEnroll4::WriteCertToUserDS, ICEnroll4::get_WriteCertToUserDS, ICEnroll4::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],CEnroll object, WriteCertToUserDS property [Security],ICEnroll2 interface, WriteCertToUserDS property [Security],ICEnroll3 interface, WriteCertToUserDS property [Security],ICEnroll4 interface, put_WriteCertToUserDS, security.icenroll4_writecerttouserds, xenroll/ICEnroll2::WriteCertToUserDS, xenroll/ICEnroll2::get_WriteCertToUserDS, xenroll/ICEnroll2::put_WriteCertToUserDS, xenroll/ICEnroll3::WriteCertToUserDS, xenroll/ICEnroll3::get_WriteCertToUserDS, xenroll/ICEnroll3::put_WriteCertToUserDS, xenroll/ICEnroll4::WriteCertToUserDS, xenroll/ICEnroll4::get_WriteCertToUserDS, xenroll/ICEnroll4::put_WriteCertToUserDS
 ms.prod: windows-hardware
 ms.technology: windows-devices

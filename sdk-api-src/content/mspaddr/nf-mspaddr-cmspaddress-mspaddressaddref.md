@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_mspaddressaddref.htm
 tech.root: tapi
 ms.assetid: 74a68851-f1c2-41ed-94cd-ec043be0f0d1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressAddRef method, CMSPAddress.MSPAddressAddRef, CMSPAddress::MSPAddressAddRef, MSPAddressAddRef, MSPAddressAddRef method [TAPI 2.2], MSPAddressAddRef method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressaddref, mspaddr/CMSPAddress::MSPAddressAddRef, tapi3.cmspaddress_mspaddressaddref
 ms.prod: windows-hardware
 ms.technology: windows-devices

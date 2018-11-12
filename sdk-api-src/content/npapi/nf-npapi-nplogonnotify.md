@@ -7,7 +7,7 @@ old-location: security\nplogonnotify.htm
 tech.root: secauthn
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

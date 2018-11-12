@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,GetFeatureMask method, ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Returns the debug feature flags that have been set on a command list.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950141(v=VS.85).aspx">D3D12_DEBUG_FEATURE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/36E0A5DC-8313-4D9D-988C-21E6FFCC8730">D3D12_DEBUG_FEATURE</a></b>
 
 A bit mask containing the set debug features.
           
@@ -78,7 +78,7 @@ A bit mask containing the set debug features.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950154(v=VS.85).aspx">ID3D12DebugCommandList</a>
+<a href="https://msdn.microsoft.com/EDE527F0-4091-4B03-9030-6F693FE901BE">ID3D12DebugCommandList</a>
  
 
  

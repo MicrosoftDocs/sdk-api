@@ -7,7 +7,7 @@ old-location: security\icenroll4_hashalgorithm.htm
 tech.root: seccrypto
 ms.assetid: 48f8a47b-0ab4-4150-b8cf-37e57fb04d3e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],HashAlgorithm property, HashAlgorithm property [Security], HashAlgorithm property [Security],CEnroll object, HashAlgorithm property [Security],ICEnroll interface, HashAlgorithm property [Security],ICEnroll2 interface, HashAlgorithm property [Security],ICEnroll3 interface, HashAlgorithm property [Security],ICEnroll4 interface, ICEnroll interface [Security],HashAlgorithm property, ICEnroll.HashAlgorithm, ICEnroll.get_HashAlgorithm, ICEnroll2 interface [Security],HashAlgorithm property, ICEnroll2.HashAlgorithm, ICEnroll2::get_HashAlgorithm, ICEnroll2::put_HashAlgorithm, ICEnroll3 interface [Security],HashAlgorithm property, ICEnroll3.HashAlgorithm, ICEnroll3::get_HashAlgorithm, ICEnroll3::put_HashAlgorithm, ICEnroll4 interface [Security],HashAlgorithm property, ICEnroll4.HashAlgorithm, ICEnroll4::HashAlgorithm, ICEnroll4::get_HashAlgorithm, ICEnroll4::put_HashAlgorithm, ICEnroll::get_HashAlgorithm, ICEnroll::put_HashAlgorithm, get_HashAlgorithm, security.icenroll4_hashalgorithm, xenroll/ICEnroll2::HashAlgorithm, xenroll/ICEnroll2::get_HashAlgorithm, xenroll/ICEnroll2::put_HashAlgorithm, xenroll/ICEnroll3::HashAlgorithm, xenroll/ICEnroll3::get_HashAlgorithm, xenroll/ICEnroll3::put_HashAlgorithm, xenroll/ICEnroll4::HashAlgorithm, xenroll/ICEnroll4::get_HashAlgorithm, xenroll/ICEnroll4::put_HashAlgorithm, xenroll/ICEnroll::HashAlgorithm, xenroll/ICEnroll::get_HashAlgorithm, xenroll/ICEnroll::put_HashAlgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,13 +101,17 @@ If both the
 
 #### Examples
 
-
-```cpp
-BSTR     bstrHashAlg = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrHashAlg = NULL;
 HRESULT  hr;
 
 // get the hash algorithm
-hr = pEnroll->get_HashAlgorithm( &bstrHashAlg );
+hr = pEnroll-&gt;get_HashAlgorithm( &amp;bstrHashAlg );
 if ( FAILED ( hr ) )
     printf("Failed get_HashAlgorithm - %x\n", hr );
 else
@@ -120,16 +124,16 @@ BSTR    bstrMyHashAlg = SysAllocString(TEXT("MD5"));
 // alternatively, ... = SysAllocString(TEXT("1.2.840.113549.1.1.4"));
 
 // set the hash algorithm
-hr = pEnroll->put_HashAlgorithm( bstrMyHashAlg );
+hr = pEnroll-&gt;put_HashAlgorithm( bstrMyHashAlg );
 if ( FAILED ( hr ) )
     printf("Failed put_HashAlgorithm - %x\n", hr );
 else
     printf( "HashAlgorithm was set to %ws\n", bstrMyHashAlg );
 // free BSTR
 if ( NULL != bstrMyHashAlg )
-    SysFreeString( bstrMyHashAlg);
-```
-
-
+    SysFreeString( bstrMyHashAlg);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

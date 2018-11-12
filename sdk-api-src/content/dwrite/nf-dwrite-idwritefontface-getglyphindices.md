@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFace_GetGlyphIndices.htm
 tech.root: DirectWrite
 ms.assetid: 2dbaec8c-464e-45a5-b420-fa1ec3d224bd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [Direct Write], GetGlyphIndices method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphIndices method, IDWriteFontFace.GetGlyphIndices, IDWriteFontFace::GetGlyphIndices, directwrite.IDWriteFontFace_GetGlyphIndices, dwrite/IDWriteFontFace::GetGlyphIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices

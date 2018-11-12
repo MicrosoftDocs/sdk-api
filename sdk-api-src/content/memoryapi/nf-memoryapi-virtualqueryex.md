@@ -7,7 +7,7 @@ old-location: base\virtualqueryex.htm
 tech.root: memory
 ms.assetid: 19e1d875-f661-47cd-bba7-4327a2bbfacc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: VirtualQueryEx, VirtualQueryEx function, _win32_virtualqueryex, base.virtualqueryex, winbase/VirtualQueryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

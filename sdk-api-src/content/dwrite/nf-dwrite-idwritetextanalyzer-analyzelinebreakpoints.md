@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextAnalyzer_AnalyzeLineBreakpoints.htm
 tech.root: DirectWrite
 ms.assetid: 6c676065-0226-456c-b8c4-10752a8daec8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: AnalyzeLineBreakpoints, AnalyzeLineBreakpoints method [Direct Write], AnalyzeLineBreakpoints method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeLineBreakpoints method, IDWriteTextAnalyzer.AnalyzeLineBreakpoints, IDWriteTextAnalyzer::AnalyzeLineBreakpoints, directwrite.IDWriteTextAnalyzer_AnalyzeLineBreakpoints, dwrite/IDWriteTextAnalyzer::AnalyzeLineBreakpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

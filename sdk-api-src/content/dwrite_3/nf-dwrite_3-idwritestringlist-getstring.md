@@ -7,7 +7,7 @@ old-location: directwrite\idwritestringlist_getstring.htm
 tech.root: DirectWrite
 ms.assetid: 9F569418-F5CF-4280-8E53-32F14AE6FD42
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetString, GetString method [Direct Write], GetString method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetString method, IDWriteStringList.GetString, IDWriteStringList::GetString, directwrite.idwritestringlist_getstring, dwrite_3/IDWriteStringList::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

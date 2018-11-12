@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773625(v=VS.85).aspx">TVM_GETSCROLLTIME</a> message explicitly. 
+Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/992d1906-cda3-4ac7-ba90-c681c551ac2e">TVM_GETSCROLLTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the maximum scroll time for the tree-view control. You can use this ma
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -79,7 +79,7 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760129(v=VS.85).aspx">TreeView_SetScrollTime</a>
+<a href="https://msdn.microsoft.com/3f7705d6-22bb-4fe6-a001-da95b9b29197">TreeView_SetScrollTime</a>
  
 
  

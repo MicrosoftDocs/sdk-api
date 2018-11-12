@@ -7,7 +7,7 @@ old-location: security\ienroll4_sethstoreroot.htm
 tech.root: seccrypto
 ms.assetid: d41fabce-e0f8-4e82-b177-59a10af376ab
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreROOT method, IEnroll2.SetHStoreROOT, IEnroll2::SetHStoreROOT, SetHStoreROOT, SetHStoreROOT method [Security], SetHStoreROOT method [Security],IEnroll2 interface, security.ienroll4_sethstoreroot, xenroll/IEnroll2::SetHStoreROOT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftrustedinput_getinputtrustauthority.htm
 tech.root: medfound
 ms.assetid: b4ebf02e-554a-4e7e-93d3-6f37d8b689bf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetInputTrustAuthority, GetInputTrustAuthority method [Media Foundation], GetInputTrustAuthority method [Media Foundation],IMFTrustedInput interface, IMFTrustedInput interface [Media Foundation],GetInputTrustAuthority method, IMFTrustedInput.GetInputTrustAuthority, IMFTrustedInput::GetInputTrustAuthority, b4ebf02e-554a-4e7e-93d3-6f37d8b689bf, mf.imftrustedinput_getinputtrustauthority, mfidl/IMFTrustedInput::GetInputTrustAuthority
 ms.prod: windows-hardware
 ms.technology: windows-devices

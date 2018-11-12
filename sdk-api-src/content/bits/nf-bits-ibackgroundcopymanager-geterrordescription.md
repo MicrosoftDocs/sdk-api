@@ -66,7 +66,7 @@ Error code from a previous call to a BITS method.
 ### -param LanguageId [in]
 
 Identifies the language identifier to use to generate the description. To create the language identifier, use the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373908(v=VS.85).aspx">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="https://msdn.microsoft.com/cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -88,7 +88,7 @@ TBD
 #### - ppErrorDescription [out]
 
 Null-terminated string that contains a description of the error. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
 
 
 ## -returns
@@ -142,9 +142,9 @@ Descriptions for HTTP errors are  localized.
 #### Examples
 
 The following example shows how to retrieve the description associated with an error code. The g_XferManager variable in the example is an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363050(v=VS.85).aspx">IBackgroundCopyManager</a> interface pointer. For details on creating the 
+<a href="https://msdn.microsoft.com/fc98dfb3-7e10-421d-b722-223bd8a65330">IBackgroundCopyManager</a> interface pointer. For details on creating the 
 <b>IBackgroundCopyManager</b> interface pointer, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362832(v=VS.85).aspx">Connecting to the BITS Service</a>.
+<a href="https://msdn.microsoft.com/2fa88277-c7a1-4f1c-a63c-e2d27a163249">Connecting to the BITS Service</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -178,15 +178,15 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362845(v=VS.85).aspx">Handling Errors</a>
+<a href="https://msdn.microsoft.com/cbc182ce-c853-492e-8953-21c54500875b">Handling Errors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362875(v=VS.85).aspx">IBackgroundCopyError</a>
+<a href="https://msdn.microsoft.com/a0b9e887-84d5-4f67-a65c-6a807c50dafd">IBackgroundCopyError</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363025(v=VS.85).aspx">IBackgroundCopyJob::GetError</a>
+<a href="https://msdn.microsoft.com/2ad4c913-2d1e-4490-968c-960178a57e3b">IBackgroundCopyJob::GetError</a>
  
 
  

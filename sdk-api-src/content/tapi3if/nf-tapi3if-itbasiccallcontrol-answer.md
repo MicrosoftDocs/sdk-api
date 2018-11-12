@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_answer.htm
 tech.root: tapi
 ms.assetid: 81928cf7-082e-44e1-a631-a50a1f01ecec
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Answer, Answer method [TAPI 2.2], Answer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Answer method, ITBasicCallControl.Answer, ITBasicCallControl::Answer, _tapi3_itbasiccallcontrol_answer, tapi3.itbasiccallcontrol_answer, tapi3if/ITBasicCallControl::Answer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -120,9 +120,13 @@ To get the driver key name in  the registry, you must perform the following task
 </ol>
 The following example code shows how to send the <b>IOCTL_GET_HCD_DRIVERKEY_NAME</b> I/O control request.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 /*++
 
 Routine Description:
@@ -152,9 +156,9 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         IOCTL_GET_HCD_DRIVERKEY_NAME,
         NULL,
         0,
-        &driverKeyName,
+        &amp;driverKeyName,
         sizeof(driverKeyName),
-        &nBytes,
+        &amp;nBytes,
         NULL);
 
     if (!success) 
@@ -166,7 +170,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     //2. Get the length of the driver key name.
     nBytes = driverKeyName.ActualLength;
 
-    if (nBytes <= sizeof(driverKeyName)) 
+    if (nBytes &lt;= sizeof(driverKeyName)) 
     {
         printf("Incorrect length received by IOCTL_GET_HCD_DRIVERKEY_NAME.\n");
         goto GetHCDDriverKeyNameDone;
@@ -190,7 +194,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         0,
         driverKeyNameW,
         nBytes,
-        &nBytes,
+        &amp;nBytes,
         NULL);
 
     if (!success) 
@@ -200,7 +204,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     }
 
     // print the driver key name. 
-    printf("Driver Key Name: %s.\n", driverKeyNameW->DriverKeyName);
+    printf("Driver Key Name: %s.\n", driverKeyNameW-&gt;DriverKeyName);
 
 
 GetHCDDriverKeyNameDone:
@@ -217,10 +221,10 @@ GetHCDDriverKeyNameDone:
     return success;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\securityuserdata.htm
 tech.root: secauthn
 ms.assetid: 1a56203a-ed6a-4f32-9e7c-b498ba61a64b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PSECURITY_USER_DATA, *PSecurityUserData, PSECURITY_USER_DATA, PSECURITY_USER_DATA structure pointer [Security], PSecurityUserData, PSecurityUserData structure pointer [Security], SECURITY_USER_DATA, SECURITY_USER_DATA structure [Security], SecurityUserData, SecurityUserData structure [Security], _SECURITY_USER_DATA, _ssp_securityuserdata, ntsecpkg/PSECURITY_USER_DATA, ntsecpkg/PSecurityUserData, ntsecpkg/SecurityUserData, security.securityuserdata"
 ms.prod: windows
 ms.technology: windows-sdk

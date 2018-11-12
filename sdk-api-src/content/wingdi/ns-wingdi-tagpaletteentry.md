@@ -2,21 +2,21 @@
 UID: NS:wingdi.tagPALETTEENTRY
 title: tagPALETTEENTRY
 author: windows-sdk-content
-description: The PALETTEENTRY structure specifies the color and usage of an entry in a logical palette. A logical palette is defined by a LOGPALETTE structure.
-old-location: gdi\paletteentry.htm
-tech.root: gdi
-ms.assetid: 6430e7cf-c9f2-4376-8b17-28c10d9d0f00
+description: Specifies the color and usage of an entry in a logical palette.
+old-location: direct3d9\paletteentry.htm
+tech.root: direct3d9
+ms.assetid: VS|directx_sdk|~\paletteentry.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
-ms.keywords: "*LPPALETTEENTRY, *PPALETTEENTRY, PALETTEENTRY, PALETTEENTRY structure [Windows GDI], PC_EXPLICIT, PC_NOCOLLAPSE, PC_RESERVED, _win32_PALETTEENTRY_str, gdi.paletteentry, tagPALETTEENTRY, wingdi/PALETTEENTRY"
+ms.keywords: "*LPPALETTEENTRY, *PPALETTEENTRY, 523c466d-5003-02e3-c336-f0e36539855e, LPPALETTEENTRY, LPPALETTEENTRY structure pointer [Direct3D 9], PALETTEENTRY, PALETTEENTRY structure [Direct3D 9], direct3d9.paletteentry, tagPALETTEENTRY, wingdi/LPPALETTEENTRY, wingdi/PALETTEENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,10 +50,7 @@ req.redist:
 ## -description
 
 
-
-The <b>PALETTEENTRY</b> structure specifies the color and usage of an entry in a logical palette. A logical palette is defined by a <a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a> structure.
-
-
+Specifies the color and usage of an entry in a logical palette.
 
 
 ## -struct-fields
@@ -63,60 +60,30 @@ The <b>PALETTEENTRY</b> structure specifies the color and usage of an entry in a
 
 ### -field peRed
 
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+
 The red intensity value for the palette entry.
 
 
 ### -field peGreen
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
 The green intensity value for the palette entry.
 
 
 ### -field peBlue
 
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+
 The blue intensity value for the palette entry.
 
 
 ### -field peFlags
 
-Indicates how the palette entry is to be used. This member may be set to 0 or one of the following values.
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PC_EXPLICIT"></a><a id="pc_explicit"></a><dl>
-<dt><b>PC_EXPLICIT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the low-order word of the logical palette entry designates a hardware palette index. This flag allows the application to show the contents of the display device palette.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PC_NOCOLLAPSE"></a><a id="pc_nocollapse"></a><dl>
-<dt><b>PC_NOCOLLAPSE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the color be placed in an unused entry in the system palette instead of being matched to an existing color in the system palette. If there are no unused entries in the system palette, the color is matched normally. Once this color is in the system palette, colors in other logical palettes can be matched to this color.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PC_RESERVED"></a><a id="pc_reserved"></a><dl>
-<dt><b>PC_RESERVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the logical palette entry be used for palette animation. This flag prevents other windows from matching colors to the palette entry since the color frequently changes. If an unused system-palette entry is available, the color is placed in that entry. Otherwise, the color is not available for animation.
-
-</td>
-</tr>
-</table>
- 
+The alpha intensity value for the palette entry. Note that as of DirectX 8, this member is treated differently than documented for Windows. 
 
 
 ## -see-also
@@ -124,15 +91,7 @@ Specifies that the logical palette entry be used for palette animation. This fla
 
 
 
-<a href="https://msdn.microsoft.com/342ba106-e87a-43ae-88f9-bb42bb34006a">Color Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
-
-
-
-<a href="https://msdn.microsoft.com/99d70a0e-ac61-4a88-a500-66443e7882ad">LOGPALETTE</a>
+<a href="https://msdn.microsoft.com/0a13cb04-10cb-48a6-a709-ad4a56459f02">Direct3D Structures</a>
  
 
  

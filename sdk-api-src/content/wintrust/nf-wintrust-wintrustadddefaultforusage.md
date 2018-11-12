@@ -7,7 +7,7 @@ old-location: security\wintrustadddefaultforusage.htm
 tech.root: seccrypto
 ms.assetid: 511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: WintrustAddDefaultForUsage, WintrustAddDefaultForUsage function [Security], security.wintrustadddefaultforusage, wintrust/WintrustAddDefaultForUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

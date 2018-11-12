@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo_put_callinfostring.htm
 tech.root: tapi
 ms.assetid: d22f1afb-e036-40d0-9a7f-61d8d24d2376
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoString method, ITCallInfo.put_CallInfoString, ITCallInfo::put_CallInfoString, _tapi3_itcallinfo_put_callinfostring, put_CallInfoString, put_CallInfoString method [TAPI 2.2], put_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfostring, tapi3if/ITCallInfo::put_CallInfoString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,8 +137,8 @@ The current
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the string data referenced by <i>pCallInfoString</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the string data referenced by <i>pCallInfoString</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 
 

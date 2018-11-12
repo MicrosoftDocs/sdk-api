@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_elements_layout.htm
 tech.root: direct3d12
 ms.assetid: C3BEAE37-3C3B-4128-95C1-DD88B31AC5A3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_ELEMENTS_LAYOUT, D3D12_ELEMENTS_LAYOUT enumeration, D3D12_ELEMENTS_LAYOUT_ARRAY, D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS, d3d12/D3D12_ELEMENTS_LAYOUT, d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY, d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS, direct3d12.d3d12_elements_layout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Describes how the locations of elements are identified. 
 

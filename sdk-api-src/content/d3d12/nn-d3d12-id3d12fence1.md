@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12fence1.htm
 tech.root: direct3d12
 ms.assetid: 292FA25B-7C72-4092-8822-DB15951A8309
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D12Fence1, ID3D12Fence1 interface, ID3D12Fence1 interface,described, d3d12/ID3D12Fence1, direct3d12.id3d12fence1
 ms.prod: windows
 ms.technology: windows-sdk

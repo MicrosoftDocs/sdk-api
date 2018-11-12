@@ -7,7 +7,7 @@ old-location: tapi2\lineunpark.htm
 tech.root: tapi
 ms.assetid: 9262ab44-eac7-43e2-a0ec-dceea0838b09
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_lineunpark, lineUnpark, lineUnpark function [TAPI 2.2], lineUnparkA, lineUnparkW, tapi/lineUnpark, tapi/lineUnparkA, tapi/lineUnparkW, tapi2.lineunpark"
 ms.prod: windows-hardware
 ms.technology: windows-devices

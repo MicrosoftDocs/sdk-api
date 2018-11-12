@@ -7,7 +7,7 @@ old-location: security\sspivalidateauthidentity.htm
 tech.root: secauthn
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

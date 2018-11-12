@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol_setmirror.htm
 tech.root: medfound
 ms.assetid: 4529FEE5-7FDF-4EFF-93C1-E20A63186496
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetMirror method, IMFVideoProcessorControl.SetMirror, IMFVideoProcessorControl::SetMirror, SetMirror, SetMirror method [Media Foundation], SetMirror method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setmirror, mfidl/IMFVideoProcessorControl::SetMirror
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certsrvservercontrol.htm
 tech.root: seccrypto
 ms.assetid: 6f32e7f4-60d5-4370-b240-46aa2475e279
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CSCONTROL_SHUTDOWN, CertSrvServerControl, CertSrvServerControl function [Security], CertSrvServerControlW, _certsrv_certsrvservercontrol, certbcli/CertSrvServerControl, certbcli/CertSrvServerControlW, security.certsrvservercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,7 +161,7 @@ if ( FAILED( hr ) )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

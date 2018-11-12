@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_decoderendframe.htm
 tech.root: medfound
 ms.assetid: 3596B70C-4BED-49C4-A0E4-8702DA219B01
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DecoderEndFrame, DecoderEndFrame method [Media Foundation], DecoderEndFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderEndFrame method, ID3D11VideoContext.DecoderEndFrame, ID3D11VideoContext::DecoderEndFrame, d3d11/ID3D11VideoContext::DecoderEndFrame, mf.id3d11videocontext_decoderendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

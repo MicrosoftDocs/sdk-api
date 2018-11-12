@@ -7,7 +7,7 @@ old-location: multimedia\midiinprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 26895526-2c1e-4335-8b45-511ca56696ab
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_midiInPrepareHeader, midiInPrepareHeader, midiInPrepareHeader function [Windows Multimedia], mmeapi/midiInPrepareHeader, multimedia.midiinprepareheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices

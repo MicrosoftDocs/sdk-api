@@ -7,7 +7,7 @@ old-location: multimedia\mmiocreatechunk.htm
 tech.root: Multimedia
 ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk"
 ms.prod: windows-hardware
 ms.technology: windows-devices

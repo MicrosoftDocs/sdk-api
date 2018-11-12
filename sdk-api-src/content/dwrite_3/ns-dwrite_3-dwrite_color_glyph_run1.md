@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_color_glyph_run1.htm
 tech.root: DirectWrite
 ms.assetid: 4433AFDF-F034-43DF-A030-4D7DD6E9CFF5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_COLOR_GLYPH_RUN1, DWRITE_COLOR_GLYPH_RUN1 structure [Direct Write], directwrite.dwrite_color_glyph_run1, dwrite_3/DWRITE_COLOR_GLYPH_RUN1
 ms.prod: windows
 ms.technology: windows-sdk

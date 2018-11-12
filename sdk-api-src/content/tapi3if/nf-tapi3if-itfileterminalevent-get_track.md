@@ -7,7 +7,7 @@ old-location: tapi3\itfileterminalevent_get_track.htm
 tech.root: tapi
 ms.assetid: f860faf3-6ca5-43d3-8d68-487d1b1d29b0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Track method, ITFileTerminalEvent.get_Track, ITFileTerminalEvent::get_Track, _tapi3_itfileterminalevent_get_track, get_Track, get_Track method [TAPI 2.2], get_Track method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_track, tapi3if/ITFileTerminalEvent::get_Track
 ms.prod: windows-hardware
 ms.technology: windows-devices

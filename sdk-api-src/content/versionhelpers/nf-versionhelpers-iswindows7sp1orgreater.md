@@ -7,7 +7,7 @@ old-location: base\iswindows7sp1orgreater.htm
 tech.root: sysinfo
 ms.assetid: E8AD3423-91EF-4ECE-9EF2-808C68CEA861
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/09/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

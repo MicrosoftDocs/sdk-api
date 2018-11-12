@@ -7,7 +7,7 @@ old-location: base\systemtimetotzspecificlocaltime.htm
 tech.root: sysinfo
 ms.assetid: f3a87ec2-67a0-418f-af6e-6c0b5547cffb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/09/2018
 ms.keywords: SystemTimeToTzSpecificLocalTime, SystemTimeToTzSpecificLocalTime function, _win32_systemtimetotzspecificlocaltime, base.systemtimetotzspecificlocaltime, timezoneapi/SystemTimeToTzSpecificLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

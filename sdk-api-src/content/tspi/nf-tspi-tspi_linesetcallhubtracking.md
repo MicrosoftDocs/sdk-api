@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetcallhubtracking.htm
 tech.root: tapi
 ms.assetid: ec2d5d46-1c83-47a0-9c10-684959630a16
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineSetCallHubTracking, TSPI_lineSetCallHubTracking function [TAPI 2.2], _tspi_tspi_linesetcallhubtracking, tspi.tspi_linesetcallhubtracking, tspi/TSPI_lineSetCallHubTracking
 ms.prod: windows-hardware
 ms.technology: windows-devices

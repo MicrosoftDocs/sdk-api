@@ -238,7 +238,7 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
 
 
 

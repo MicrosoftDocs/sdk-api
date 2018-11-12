@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_setpipelinestate1.htm
 tech.root: direct3d12
 ms.assetid: CD408074-2B2A-461C-9CA8-DC967BC61067
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D12GraphicsCommandList4 interface,SetPipelineState1 method, ID3D12GraphicsCommandList4.SetPipelineState1, ID3D12GraphicsCommandList4::SetPipelineState1, SetPipelineState1, SetPipelineState1 method, SetPipelineState1 method,ID3D12GraphicsCommandList4 interface, d3d12/ID3D12GraphicsCommandList4::SetPipelineState1, direct3d12.id3d12graphicscommandlist4_setpipelinestate1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Sets a state object on the command list. 
 

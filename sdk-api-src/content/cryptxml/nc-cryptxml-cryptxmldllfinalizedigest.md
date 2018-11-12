@@ -7,7 +7,7 @@ old-location: security\cryptxmldllfinalizedigest.htm
 tech.root: seccrypto
 ms.assetid: 749226fa-6de8-4c1c-9ec0-9801a2029a6e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest callback, CryptXmlDllFinalizeDigest callback function [Security], cryptxml/CryptXmlDllFinalizeDigest, security.cryptxmldllfinalizedigest
 ms.prod: windows
 ms.technology: windows-sdk

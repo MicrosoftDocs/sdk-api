@@ -7,7 +7,7 @@ old-location: tapi2\lineswaphold.htm
 tech.root: tapi
 ms.assetid: 9e575c82-301c-4505-b400-faf4dc291ff8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold"
 ms.prod: windows-hardware
 ms.technology: windows-devices

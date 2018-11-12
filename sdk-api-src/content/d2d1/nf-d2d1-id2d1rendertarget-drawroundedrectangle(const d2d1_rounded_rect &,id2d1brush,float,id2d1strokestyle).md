@@ -106,11 +106,15 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses the <a href="https://msdn.microsoft.com/d718c355-ffd8-4a7f-90f3-9a10d37a19c8">DrawRoundedRectangle</a> and <a href="https://msdn.microsoft.com/9c4765b0-858f-4a20-b044-0acf87a1f131">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
-<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="./images/drawroundedrectangle_scr.png"/>
+<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 
-
-```cpp
-//  Called whenever the application needs to display the client
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Called whenever the application needs to display the client
 //  window.
 HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 {
@@ -123,14 +127,14 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
     if (SUCCEEDED(hr))
     {
         // Retrieve the size of the render target.
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
+        D2D1_SIZE_F renderTargetSize = m_pRenderTarget-&gt;GetSize();
 
-        m_pRenderTarget->BeginDraw();
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
-        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget-&gt;BeginDraw();
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
 
         // Paint a grid background.
-        m_pRenderTarget->FillRectangle(
+        m_pRenderTarget-&gt;FillRectangle(
             D2D1::RectF(0.0f, 0.0f, renderTargetSize.width, renderTargetSize.height),
             m_pGridPatternBitmapBrush
             );
@@ -143,29 +147,29 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
             );
 
         // Draw the rectangle.
-        m_pRenderTarget->DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f);
+        m_pRenderTarget-&gt;DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f);
 
         // Apply a translation transform.
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Translation(200.f, 0.f));
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Translation(200.f, 0.f));
 
         // Draw the rounded rectangle again, this time with a dashed stroke.
-        m_pRenderTarget->DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f, m_pStrokeStyle);
+        m_pRenderTarget-&gt;DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
         // Apply another translation transform.
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Translation(0.f, 150.f));
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Translation(0.f, 150.f));
 
         // Draw, then fill the rounded rectangle.
-        m_pRenderTarget->DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f, m_pStrokeStyle);
-        m_pRenderTarget->FillRoundedRectangle(roundedRect, m_pSilverBrush);
+        m_pRenderTarget-&gt;DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f, m_pStrokeStyle);
+        m_pRenderTarget-&gt;FillRoundedRectangle(roundedRect, m_pSilverBrush);
 
         // Apply another translation transform.
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Translation(200.f, 150.f));
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Translation(200.f, 150.f));
 
         // Fill, then draw the rounded rectangle.
-        m_pRenderTarget->FillRoundedRectangle(roundedRect, m_pSilverBrush);
-        m_pRenderTarget->DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f, m_pStrokeStyle);
+        m_pRenderTarget-&gt;FillRoundedRectangle(roundedRect, m_pSilverBrush);
+        m_pRenderTarget-&gt;DrawRoundedRectangle(roundedRect, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
-        hr = m_pRenderTarget->EndDraw();
+        hr = m_pRenderTarget-&gt;EndDraw();
 
         if (hr == D2DERR_RECREATE_TARGET)
         {
@@ -176,10 +180,10 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

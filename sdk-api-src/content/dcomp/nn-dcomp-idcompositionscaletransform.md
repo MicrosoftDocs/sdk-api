@@ -109,7 +109,7 @@ The <b>IDCompositionScaleTransform</b> interface has these methods.
 
 A scale transform represents the following 3-by-3 matrix:
 
-<img alt="Three-by-three scale matrix" src="./images/scale_transform_3x3matrix.png"/>
+<img alt="Three-by-three scale matrix" src="images/scale_transform_3x3matrix.png"/>
 
 The effect is to scale the coordinate system up or down and apply the corresponding translation such that the center point does not move.
 

@@ -89,11 +89,11 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690475(v=VS.85).aspx">CATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/a5f0cb04-595d-4388-8943-79b9da76022b">CATEGORYINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a>
  
 
  

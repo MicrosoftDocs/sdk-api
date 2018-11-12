@@ -7,7 +7,7 @@ old-location: base\isenclavetypesupported.htm
 tech.root: memory
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

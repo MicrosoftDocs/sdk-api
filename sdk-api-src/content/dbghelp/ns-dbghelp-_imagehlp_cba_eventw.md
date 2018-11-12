@@ -7,7 +7,7 @@ old-location: base\imagehlp_cba_event_str.htm
 tech.root: debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: "*PIMAGEHLP_CBA_EVENTW, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT structure, IMAGEHLP_CBA_EVENTW, PIMAGEHLP_CBA_EVENT, PIMAGEHLP_CBA_EVENT structure pointer, _IMAGEHLP_CBA_EVENT, _IMAGEHLP_CBA_EVENTW, base.imagehlp_cba_event_str, dbghelp/IMAGEHLP_CBA_EVENT, dbghelp/IMAGEHLP_CBA_EVENTW, dbghelp/PIMAGEHLP_CBA_EVENT, sevAttn, sevFatal, sevInfo, sevProblem"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,7 +141,7 @@ This member is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff797951(v=VS.85).aspx">SymbolServerCallback</a>
+<a href="base.symbolservercallback">SymbolServerCallback</a>
  
 
  

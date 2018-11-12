@@ -7,7 +7,7 @@ old-location: security\kerb_external_ticket.htm
 tech.root: secauthn
 ms.assetid: 742e2795-ec74-4856-a680-7a1c233a2934
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PKERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET structure [Security], KERB_TICKET_FLAGS_forwardable (0x40000000), KERB_TICKET_FLAGS_forwarded (0x20000000), KERB_TICKET_FLAGS_hw_authent (0x00100000), KERB_TICKET_FLAGS_initial (0x00400000), KERB_TICKET_FLAGS_invalid (0x01000000), KERB_TICKET_FLAGS_may_postdate (0x04000000), KERB_TICKET_FLAGS_ok_as_delegate (0x00040000), KERB_TICKET_FLAGS_postdated (0x02000000), KERB_TICKET_FLAGS_pre_authent (0x00200000), KERB_TICKET_FLAGS_proxiable (0x10000000), KERB_TICKET_FLAGS_proxy (0x08000000), KERB_TICKET_FLAGS_renewable (0x00800000), KERB_TICKET_FLAGS_reserved (0x80000000), KERB_TICKET_FLAGS_reserved1 (0x00000001), PKERB_EXTERNAL_TICKET, PKERB_EXTERNAL_TICKET structure pointer [Security], _KERB_EXTERNAL_TICKET, _lsa_kerb_external_ticket, ntsecapi/KERB_EXTERNAL_TICKET, ntsecapi/PKERB_EXTERNAL_TICKET, security.kerb_external_ticket"
 ms.prod: windows
 ms.technology: windows-sdk

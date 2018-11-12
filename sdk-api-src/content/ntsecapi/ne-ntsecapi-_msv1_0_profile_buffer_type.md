@@ -7,7 +7,7 @@ old-location: security\msv1_0_profile_buffer_type.htm
 tech.root: secauthn
 ms.assetid: c8fe967a-e172-4200-ab15-daebf441c689
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PMSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE enumeration [Security], MSV1_0_PROFILE_TYPE, MSV1_0_PROFILE_TYPE enumeration [Security], MsV1_0InteractiveProfile, MsV1_0Lm20LogonProfile, MsV1_0SmartCardProfile, PMSV1_0_PROFILE_BUFFER_TYPE, PMSV1_0_PROFILE_BUFFER_TYPE enumeration pointer [Security], _MSV1_0_PROFILE_BUFFER_TYPE, _lsa_msv1_0_profile_buffer_type, ntsecapi/MSV1_0_PROFILE_BUFFER_TYPE, ntsecapi/MsV1_0InteractiveProfile, ntsecapi/MsV1_0Lm20LogonProfile, ntsecapi/MsV1_0SmartCardProfile, ntsecapi/PMSV1_0_PROFILE_BUFFER_TYPE, security.msv1_0_profile_buffer_type"
 ms.prod: windows
 ms.technology: windows-sdk

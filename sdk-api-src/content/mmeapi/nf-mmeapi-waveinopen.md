@@ -7,7 +7,7 @@ old-location: multimedia\waveinopen.htm
 tech.root: Multimedia
 ms.assetid: 41b5b581-d35c-48ad-adcf-659126c4af50
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_win32_waveInOpen, mmeapi/waveInOpen, multimedia.waveinopen, waveInOpen, waveInOpen function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

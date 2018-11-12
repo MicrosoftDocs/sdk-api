@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_message_category.htm
 tech.root: direct3d12
 ms.assetid: 297923A3-CE6A-46AF-B8B6-E2AE0C1920CC
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/09/2018
 ms.keywords: D3D12_MESSAGE_CATEGORY, D3D12_MESSAGE_CATEGORY enumeration, D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED, D3D12_MESSAGE_CATEGORY_CLEANUP, D3D12_MESSAGE_CATEGORY_COMPILATION, D3D12_MESSAGE_CATEGORY_EXECUTION, D3D12_MESSAGE_CATEGORY_INITIALIZATION, D3D12_MESSAGE_CATEGORY_MISCELLANEOUS, D3D12_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, D3D12_MESSAGE_CATEGORY_SHADER, D3D12_MESSAGE_CATEGORY_STATE_CREATION, D3D12_MESSAGE_CATEGORY_STATE_GETTING, D3D12_MESSAGE_CATEGORY_STATE_SETTING, d3d12sdklayers/D3D12_MESSAGE_CATEGORY, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_CLEANUP, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_COMPILATION, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_EXECUTION, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_INITIALIZATION, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_MISCELLANEOUS, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_SHADER, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_STATE_CREATION, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_STATE_GETTING, d3d12sdklayers/D3D12_MESSAGE_CATEGORY_STATE_SETTING, direct3d12.d3d12_message_category
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/en-us/library/Dn950174(v=VS.85).aspx">ID3D12InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">ID3D12InfoQueue::AddMessage</a>. When creating an info queue filter, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
+Specifies categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B">ID3D12InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>. When creating an info queue filter, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
 
 
         
@@ -63,7 +63,7 @@ Specifies categories of debug messages. This will identify the category of a mes
 
 ### -field D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED
 
-Indicates a user defined message, see <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">ID3D12InfoQueue::AddMessage</a>.
+Indicates a user defined message, see <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>.
           
 
 
@@ -101,7 +101,7 @@ Indicates a user defined message, see <a href="https://msdn.microsoft.com/en-us/
 
 
 
-This is part of the Information Queue feature, refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a> Interface.
+This is part of the Information Queue feature, refer to the <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
 
 
 
@@ -111,7 +111,7 @@ This is part of the Information Queue feature, refer to the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item. The owner window of the owner-drawn control or menu item receives a pointer to this structure as the <i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> message.
+Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item. The owner window of the owner-drawn control or menu item receives a pointer to this structure as the <i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/e54bae5e-10d6-43b0-a766-1b270c8873a9">WM_DRAWITEM</a> message.
 
 
 ## -struct-fields
@@ -352,21 +352,21 @@ A rectangle that defines the boundaries of the control to be drawn. This rectang
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG_PTR</a></b>
 
-The application-defined value associated with the menu item. For a control, this parameter specifies the value last assigned to the list box or combo box by the <a href="https://msdn.microsoft.com/en-us/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a> message. If the list box or combo box has the <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_HASSTRINGS</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_HASSTRINGS</a> style, this value is initially zero. Otherwise, this value is initially the value that was passed to the list box or combo box in the <i>lParam</i> parameter of one of the following messages: 
+The application-defined value associated with the menu item. For a control, this parameter specifies the value last assigned to the list box or combo box by the <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a> or <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a> message. If the list box or combo box has the <a href="List_Box_Styles.htm">LBS_HASSTRINGS</a> or <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style, this value is initially zero. Otherwise, this value is initially the value that was passed to the list box or combo box in the <i>lParam</i> parameter of one of the following messages: 
 					
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>
 </li>
 </ul>
 If <b>CtlType</b> is <b>ODT_BUTTON</b> or <b>ODT_STATIC</b>, <b>itemData</b> is zero. 
@@ -389,27 +389,27 @@ Some control types, such as status bars, do not set the value of <b>CtlType</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a>
+<a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a>
+<a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a>
 
 
 
@@ -417,7 +417,7 @@ Some control types, such as status bars, do not set the value of <b>CtlType</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a>
+<a href="https://msdn.microsoft.com/e54bae5e-10d6-43b0-a766-1b270c8873a9">WM_DRAWITEM</a>
  
 
  

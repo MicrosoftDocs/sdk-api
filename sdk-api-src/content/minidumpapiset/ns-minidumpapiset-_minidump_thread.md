@@ -7,7 +7,7 @@ old-location: base\minidump_thread_str.htm
 tech.root: debug
 ms.assetid: 07d4ba98-e74d-4f50-9afa-d09d93da3d6b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: "*PMINIDUMP_THREAD, MINIDUMP_THREAD, MINIDUMP_THREAD structure, PMINIDUMP_THREAD, PMINIDUMP_THREAD structure pointer, _MINIDUMP_THREAD, _win32_minidump_thread_str, base.minidump_thread_str, minidumpapiset/MINIDUMP_THREAD, minidumpapiset/PMINIDUMP_THREAD"
 ms.prod: windows
 ms.technology: windows-sdk

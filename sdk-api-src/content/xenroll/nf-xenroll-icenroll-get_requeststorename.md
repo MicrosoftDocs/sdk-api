@@ -7,7 +7,7 @@ old-location: security\icenroll4_requeststorename.htm
 tech.root: seccrypto
 ms.assetid: c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],RequestStoreName property, ICEnroll interface [Security],RequestStoreName property, ICEnroll.RequestStoreName, ICEnroll.get_RequestStoreName, ICEnroll2 interface [Security],RequestStoreName property, ICEnroll2.RequestStoreName, ICEnroll2::get_RequestStoreName, ICEnroll2::put_RequestStoreName, ICEnroll3 interface [Security],RequestStoreName property, ICEnroll3.RequestStoreName, ICEnroll3::get_RequestStoreName, ICEnroll3::put_RequestStoreName, ICEnroll4 interface [Security],RequestStoreName property, ICEnroll4.RequestStoreName, ICEnroll4::RequestStoreName, ICEnroll4::get_RequestStoreName, ICEnroll4::put_RequestStoreName, ICEnroll::get_RequestStoreName, ICEnroll::put_RequestStoreName, RequestStoreName property [Security], RequestStoreName property [Security],CEnroll object, RequestStoreName property [Security],ICEnroll interface, RequestStoreName property [Security],ICEnroll2 interface, RequestStoreName property [Security],ICEnroll3 interface, RequestStoreName property [Security],ICEnroll4 interface, get_RequestStoreName, security.icenroll4_requeststorename, xenroll/ICEnroll2::RequestStoreName, xenroll/ICEnroll2::get_RequestStoreName, xenroll/ICEnroll2::put_RequestStoreName, xenroll/ICEnroll3::RequestStoreName, xenroll/ICEnroll3::get_RequestStoreName, xenroll/ICEnroll3::put_RequestStoreName, xenroll/ICEnroll4::RequestStoreName, xenroll/ICEnroll4::get_RequestStoreName, xenroll/ICEnroll4::put_RequestStoreName, xenroll/ICEnroll::RequestStoreName, xenroll/ICEnroll::get_RequestStoreName, xenroll/ICEnroll::put_RequestStoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,15 +108,19 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BSTR     bstrStoreName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storename
-hr = pEnroll->get_RequestStoreName( &bstrStoreName );
+hr = pEnroll-&gt;get_RequestStoreName( &amp;bstrStoreName );
 if ( FAILED ( hr ) )
     printf("Failed getting RequestStoreName - %x\n", hr );
 else
@@ -127,13 +131,13 @@ if ( NULL != bstrStoreName )
 
 // set the storename
 // bstrNewName is a BSTR that is previously set to a valid store name
-hr = pEnroll->put_RequestStoreName( bstrNewName );
+hr = pEnroll-&gt;put_RequestStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting RequestStoreName - %x\n", hr );
 else
-    printf( "RequestStoreName was set to : %ws\n", bstrNewName );
-```
-
-
+    printf( "RequestStoreName was set to : %ws\n", bstrNewName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

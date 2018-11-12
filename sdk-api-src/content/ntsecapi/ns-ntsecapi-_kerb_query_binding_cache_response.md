@@ -7,7 +7,7 @@ old-location: security\kerb_query_binding_cache_response.htm
 tech.root: secauthn
 ms.assetid: D096068F-7EC0-4745-A361-142F9B478402
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PKERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE structure [Security], PKERB_QUERY_BINDING_CACHE_RESPONSE, PKERB_QUERY_BINDING_CACHE_RESPONSE structure pointer [Security], _KERB_QUERY_BINDING_CACHE_RESPONSE, ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_BINDING_CACHE_RESPONSE, security.kerb_query_binding_cache_response"
 ms.prod: windows
 ms.technology: windows-sdk

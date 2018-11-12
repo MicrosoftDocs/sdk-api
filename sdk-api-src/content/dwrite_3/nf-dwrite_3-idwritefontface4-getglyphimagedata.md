@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface4_getglyphimagedata.htm
 tech.root: DirectWrite
 ms.assetid: 2517A029-5ACF-4CB2-8A20-98253946DF5E
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetGlyphImageData, GetGlyphImageData method [Direct Write], GetGlyphImageData method [Direct Write],IDWriteFontFace4 interface, IDWriteFontFace4 interface [Direct Write],GetGlyphImageData method, IDWriteFontFace4.GetGlyphImageData, IDWriteFontFace4::GetGlyphImageData, directwrite.idwritefontface4_getglyphimagedata, dwrite_3/IDWriteFontFace4::GetGlyphImageData
 ms.prod: windows-hardware
 ms.technology: windows-devices

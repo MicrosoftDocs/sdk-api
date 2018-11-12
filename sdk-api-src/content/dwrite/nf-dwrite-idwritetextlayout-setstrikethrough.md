@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetStrikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 650063e7-186e-493f-8e06-5466cc69e3f3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetStrikethrough method, IDWriteTextLayout.SetStrikethrough, IDWriteTextLayout::SetStrikethrough, SetStrikethrough, SetStrikethrough method [Direct Write], SetStrikethrough method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetStrikethrough, dwrite/IDWriteTextLayout::SetStrikethrough
 ms.prod: windows-hardware
 ms.technology: windows-devices
