@@ -223,32 +223,24 @@ The rectangle that bounds the text is formed by the character cells in the text 
 
 The best way to get left-aligned text is to use either
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-SetTextAlign (hdc, GetTextAlign(hdc) &amp; (~TA_CENTER))
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+
+SetTextAlign (hdc, GetTextAlign(hdc) & (~TA_CENTER))
+
+```
+
+
 or
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-SetTextAlign (hdc,TA_LEFT | &lt;other flags&gt;)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+
+SetTextAlign (hdc,TA_LEFT | <other flags>)
+
+```
+
+
 You can also use <b>SetTextAlign</b> (hdc, TA_LEFT) for this purpose, but this loses any vertical or right-to-left settings.
 
 <div class="alert"><b>Note</b>  You should not use <b>SetTextAlign</b> with TA_UPDATECP when you are using <a href="https://msdn.microsoft.com/f9b188d4-00d3-461b-ae7d-bf12e7717748">ScriptStringOut</a>, because selected text is not rendered correctly. If you must use this flag, you can unset and reset it as necessary to avoid the problem.</div>

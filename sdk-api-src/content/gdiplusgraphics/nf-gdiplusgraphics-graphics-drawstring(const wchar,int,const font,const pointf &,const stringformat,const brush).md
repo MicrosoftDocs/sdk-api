@@ -138,13 +138,9 @@ The operating system requires elevated privileges to assure that all installed f
 
 The following example uses the specified formatting to draw a string at the specified origin.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawString3(HDC hdc)
+
+```cpp
+VOID Example_DrawString3(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -162,14 +158,14 @@ The following example uses the specified formatting to draw a string at the spec
    graphics.DrawString(
    string,
    11,
-   &amp;myFont,
+   &myFont,
    origin,
-   &amp;format,
-   &amp;blackBrush);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   &format,
+   &blackBrush);
+}
+```
+
+
 
 
 

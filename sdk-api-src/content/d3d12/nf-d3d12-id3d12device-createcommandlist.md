@@ -141,44 +141,32 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Create the pipeline objects.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
-ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ComPtr<ID3D12CommandAllocator> m_commandAllocator;
+ComPtr<ID3D12GraphicsCommandList> m_commandList;
+
+```
+
+
 Create a command allocator.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ThrowIfFailed(m_device-&gt;CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&amp;m_commandAllocator)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ThrowIfFailed(m_device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&m_commandAllocator)));
+
+```
+
+
 Creating the direct command list.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ThrowIfFailed(m_device-&gt;CreateCommandList(0, D3D12_COMMAND_LIST_TYPE_DIRECT, m_commandAllocator.Get(), nullptr, IID_PPV_ARGS(&amp;m_commandList)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ThrowIfFailed(m_device->CreateCommandList(0, D3D12_COMMAND_LIST_TYPE_DIRECT, m_commandAllocator.Get(), nullptr, IID_PPV_ARGS(&m_commandList)));
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

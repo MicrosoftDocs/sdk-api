@@ -164,13 +164,9 @@ This interface allows a graph of transform nodes to be specified. This interface
 
 This example shows how many of the methods on the <b>ID2D1TransformGraph</b> can be used.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 class CMyEffect : public ID2D1EffectImpl
 {
 public:
@@ -181,31 +177,31 @@ public:
     {
         HRESULT hr = S_OK;
 
-        hr = pGraph-&gt;Clear();
+        hr = pGraph->Clear();
 
         if (SUCEEDED(hr))
         {
-            hr = pGraph-&gt;AddNode(_pTransform1);
+            hr = pGraph->AddNode(_pTransform1);
         }
    
         if (SUCCEEDED(hr))
         {
-            hr = pGraph-&gt;AddNode(_pTransform2);
+            hr = pGraph->AddNode(_pTransform2);
         }
  
         if (SUCCEEDED(hr))
         {
-            hr = pGraph-&gt;SetOuputNode(_pTransform2);
+            hr = pGraph->SetOuputNode(_pTransform2);
         }
 
         if (SUCCEEDED(hr))
         {
-            hr = pGraph-&gt;ConnectNode(_pTransform1, _pTransform2, 0);
+            hr = pGraph->ConnectNode(_pTransform1, _pTransform2, 0);
         }
 
         if (SUCCEEDED(hr))
         {
-            hr = pGraph-&gt;ConnectToEffectInput(0, _pTransform1, 0);
+            hr = pGraph->ConnectToEffectInput(0, _pTransform1, 0);
         }
 
         return hr;
@@ -215,21 +211,21 @@ private:
 
     class CMyTransform1 : public ID2D1DrawTransform
     {
-        // &lt;Snip&gt; The transform implementation, one node input&lt;/Snip&gt;
+        // <Snip> The transform implementation, one node input</Snip>
     };
 
     class CMyTransform2 : public ID2D1DrawTransform
     {
- 	   // &lt;Snip&gt; A second transform implementation one node input&lt;/Snip&gt;
+ 	   // <Snip> A second transform implementation one node input</Snip>
     };
 
     CMyTransform1 *_pTransform1;
     CMyTransform2 *_pTransform2;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

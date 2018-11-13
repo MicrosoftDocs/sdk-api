@@ -137,13 +137,9 @@ A pie is a portion of the interior of an ellipse (it is bounded by an elliptical
 
 The following example defines a pie and then fills it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_FillPie3(HDC hdc)
+
+```cpp
+VOID Example_FillPie3(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -159,11 +155,11 @@ The following example defines a pie and then fills it.
    REAL sweepAngle = 45.0f;
 
    // Fill the pie.
-   graphics.FillPie(&amp;blackBrush, x, y, width, height, startAngle, sweepAngle);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillPie(&blackBrush, x, y, width, height, startAngle, sweepAngle);
+}
+```
+
+
 
 
 

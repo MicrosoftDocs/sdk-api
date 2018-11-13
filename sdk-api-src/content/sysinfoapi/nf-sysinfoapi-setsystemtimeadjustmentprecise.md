@@ -98,13 +98,9 @@ the code example below.
 
 This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="base.getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 /****************************************************************** 
 * 
 * ObtainRequiredPrivileges 
@@ -120,7 +116,7 @@ ObtainRequiredPrivileges()
     TOKEN_PRIVILEGES tp = {0}; 
     LUID luid; 
 
-    if (!LookupPrivilegeValue(NULL, SE_SYSTEMTIME_NAME, &amp;luid)) 
+    if (!LookupPrivilegeValue(NULL, SE_SYSTEMTIME_NAME, &luid)) 
     { 
         hr = HRESULT_FROM_WIN32(GetLastError()); 
         printf("Failed to lookup privilege value. hr=0x%08x\n", hr); 
@@ -130,7 +126,7 @@ ObtainRequiredPrivileges()
     // get the token for our process 
     if (!OpenProcessToken(GetCurrentProcess(), 
     TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, 
-    &amp;hProcToken)) 
+    &hProcToken)) 
     { 
         hr = HRESULT_FROM_WIN32(GetLastError()); 
         printf("Failed to open process token. hr=0x%08x\n", hr); 
@@ -142,7 +138,7 @@ ObtainRequiredPrivileges()
     tp.Privileges[0].Luid = luid; 
     tp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED; 
 
-    if (!AdjustTokenPrivileges(hProcToken, FALSE, &amp;tp, 0, NULL, NULL)) 
+    if (!AdjustTokenPrivileges(hProcToken, FALSE, &tp, 0, NULL, NULL)) 
     { 
         hr = HRESULT_FROM_WIN32(GetLastError()); 
         printf("Failed to adjust process token privileges. hr=0x%08x\n", hr); 
@@ -182,12 +178,12 @@ PrintCurrentClockAdjustments()
     BOOL bEnabled = 0; 
     HRESULT hr = S_OK; 
 
-    if (!GetSystemTimeAdjustmentPrecise(&amp;ullCurrentAdjustment, &amp;ullTimeIncrement, &amp;bEnabledPrecise)) 
+    if (!GetSystemTimeAdjustmentPrecise(&ullCurrentAdjustment, &ullTimeIncrement, &bEnabledPrecise)) 
     { 
         hrPrecise = HRESULT_FROM_WIN32(GetLastError()); 
     } 
 
-    if (!GetSystemTimeAdjustment(&amp;dwCurrentAdjustment, &amp;dwTimeIncrement, &amp;bEnabled)) 
+    if (!GetSystemTimeAdjustment(&dwCurrentAdjustment, &dwTimeIncrement, &bEnabled)) 
     { 
         hr = HRESULT_FROM_WIN32(GetLastError()); 
     } 
@@ -215,7 +211,7 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
     DWORD dwNewAdjustmentUnits; 
     const DWORD cMicroSecondsPerSecond = 1000000; 
 
-    if (dwPPMAdjustment &gt; 1000) 
+    if (dwPPMAdjustment > 1000) 
     { 
         printf("Adjustment too large. Skipping new adjustment sequence.\n"); 
         return; 
@@ -223,14 +219,14 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
 
     printf("Starting adjustment sequence using new API...\n"); 
 
-    if (!GetSystemTimeAdjustmentPrecise(&amp;ullCurrentAdjustment, &amp;ullTimeIncrement, &amp;bEnabledPrecise)) 
+    if (!GetSystemTimeAdjustmentPrecise(&ullCurrentAdjustment, &ullTimeIncrement, &bEnabledPrecise)) 
     { 
         printf("Failed to read the system time adjustment. Adjustment sequence aborted. hr:0x%08x\n", 
         HRESULT_FROM_WIN32(GetLastError())); 
         return; 
     } 
 
-    (void)QueryPerformanceFrequency(&amp;liPerfCounterFrequency); 
+    (void)QueryPerformanceFrequency(&liPerfCounterFrequency); 
     printf("System Performance Counter Frequency: %I64u\n", 
     liPerfCounterFrequency.QuadPart); 
 
@@ -280,10 +276,10 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
     PrintCurrentClockAdjustments(); 
 
     printf("Adjustment sequence complete\n\n"); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
