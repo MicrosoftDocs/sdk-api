@@ -140,7 +140,7 @@ DxTransfer(
 </td>
 </tr>
 </table></span></div>
-See the <a href="kernel.address_and_size_to_span_pages">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>, <a href="kernel.mmgetmdlpfnarray">MmGetMdlPfnArray</a>, and <a href="kernel.mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
+See the <a href="https://msdn.microsoft.com/library/Ff540562(v=VS.85).aspx">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>, <a href="https://msdn.microsoft.com/library/Ff554537(v=VS.85).aspx">MmGetMdlPfnArray</a>, and <a href="https://msdn.microsoft.com/library/Ff554539(v=VS.85).aspx">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
 
 <i>DxTransfer</i> is called at hardware interrupt time. This means the driver cannot wait for a previous bus master to complete and it cannot call any functions that are not safe to call at interrupt time (that is, most of them).
 
@@ -154,7 +154,7 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 
-<a href="kernel.address_and_size_to_span_pages">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
+<a href="https://msdn.microsoft.com/library/Ff540562(v=VS.85).aspx">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
 
 
 
@@ -170,11 +170,11 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 
-<a href="kernel.mmgetmdlpfnarray">MmGetMdlPfnArray</a>
+<a href="https://msdn.microsoft.com/library/Ff554537(v=VS.85).aspx">MmGetMdlPfnArray</a>
 
 
 
-<a href="kernel.mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a>
+<a href="https://msdn.microsoft.com/library/Ff554539(v=VS.85).aspx">MmGetMdlVirtualAddress</a>
  
 
  

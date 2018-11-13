@@ -79,17 +79,17 @@ A <a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D1
 
 ### -param pCommandAllocator [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn770463(v=VS.85).aspx">ID3D12CommandAllocator</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> object that the device creates command lists from.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn770463(v=VS.85).aspx">ID3D12CommandAllocator</a> object that the device creates command lists from.
           
 
 
 ### -param pInitialState [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/DD922194-8AD2-4ADF-9AC2-46C903C56AE6">ID3D12PipelineState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788705(v=VS.85).aspx">ID3D12PipelineState</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/DD922194-8AD2-4ADF-9AC2-46C903C56AE6">ID3D12PipelineState</a> object that contains the initial pipeline state for the command list.  This is optional and can be NULL.  If NULL, the runtime sets a dummy initial pipeline state so that drivers don't have to deal with undefined state.  The overhead for this is low, particularly for a command list, for which the overall cost of recording the command list likely dwarfs the cost of one initial state setting.  So there is little cost in  not setting the initial pipeline state parameter if it isn't convenient.  
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn788705(v=VS.85).aspx">ID3D12PipelineState</a> object that contains the initial pipeline state for the command list.  This is optional and can be NULL.  If NULL, the runtime sets a dummy initial pipeline state so that drivers don't have to deal with undefined state.  The overhead for this is low, particularly for a command list, for which the overall cost of recording the command list likely dwarfs the cost of one initial state setting.  So there is little cost in  not setting the initial pipeline state parameter if it isn't convenient.  
 
 For bundles on the other hand, it might make more sense to try to set the initial state parameter since bundles are likely smaller overall and can be reused frequently.
 
@@ -100,7 +100,7 @@ Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the command list interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command list can be obtained by using the __uuidof() macro.
-            For example, __uuidof(<a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>) will get the <b>GUID</b> of the interface to a command list.
+            For example, __uuidof(<a href="https://msdn.microsoft.com/en-us/library/Dn770465(v=VS.85).aspx">ID3D12CommandList</a>) will get the <b>GUID</b> of the interface to a command list.
           
 
 
@@ -109,8 +109,8 @@ The globally unique identifier (<b>GUID</b>) for the command list interface.
 Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the
-            <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>or
-            <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>interface for the command list.
+            <a href="https://msdn.microsoft.com/en-us/library/Dn770465(v=VS.85).aspx">ID3D12CommandList</a>or
+            <a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>interface for the command list.
           
 
 
@@ -118,10 +118,10 @@ A pointer to a memory block that receives a pointer to the
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command list.
-              See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
+              See <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a> for other possible return values.
             
 
 
@@ -137,7 +137,7 @@ The device creates command lists from the command allocator.
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12Device::CreateCommandList</b> as follows.
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12Bundles</a> sample uses <b>ID3D12Device::CreateCommandList</b> as follows.
 
 Create the pipeline objects.
 
@@ -167,7 +167,7 @@ ThrowIfFailed(m_device->CreateCommandList(0, D3D12_COMMAND_LIST_TYPE_DIRECT, m_c
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -178,11 +178,11 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/36726FB6-09DE-4723-A60E-75FCE55F2E35">ID3D12GraphicsCommandList::Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903895(v=VS.85).aspx">ID3D12GraphicsCommandList::Reset</a>
  
 
  

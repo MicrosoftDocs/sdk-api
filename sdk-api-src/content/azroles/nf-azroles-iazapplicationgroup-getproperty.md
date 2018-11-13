@@ -51,7 +51,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/6a
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -84,7 +84,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/b2ef8988-b4de-423f-b727-f69a789b98cf">Description</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377313(v=VS.85).aspx">Description</a> property
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/b2ef8988-b4de-423f
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/74239ac2-b6ea-4839-b4c5-7a77d454aa0b">AppMembers</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377304(v=VS.85).aspx">AppMembers</a> property
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/74239ac2-b6ea-4839
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/a85a9004-f3f5-44ce-a0d7-fa450af74917">AppNonMembers</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377305(v=VS.85).aspx">AppNonMembers</a> property
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/a85a9004-f3f5-44ce
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/1370fe81-a729-477e-a500-1823abb713e1">Members</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377316(v=VS.85).aspx">Members</a> property
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/1370fe81-a729-477e
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/bdd6f88f-ea06-4075-b563-d0c7707107f8">MembersName</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377317(v=VS.85).aspx">MembersName</a> property
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/bdd6f88f-ea06-4075
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/43bdd205-4750-4ff6-8063-8de2c5962b09">NonMembers</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377319(v=VS.85).aspx">NonMembers</a> property
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/43bdd205-4750-4ff6
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/d78556ae-0d22-4df0-b850-dd7077fa3f85">NonMembersName</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377320(v=VS.85).aspx">NonMembersName</a> property
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/d78556ae-0d22-4df0
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/dc100895-4cfb-4e02-97bc-5c99bf26fbe2">Type</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377323(v=VS.85).aspx">Type</a> property
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/dc100895-4cfb-4e02
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/963ee516-6dd5-419f-9186-578b7fe9c5bc">LdapQuery</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377315(v=VS.85).aspx">LdapQuery</a> property
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/963ee516-6dd5-419f
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377318(v=VS.85).aspx">Name</a> property
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/c0d88a7c-2df7-4f8e-94c2-75690d9758e7">Writable</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377324(v=VS.85).aspx">Writable</a> property
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object property.
 
 
 ## -returns

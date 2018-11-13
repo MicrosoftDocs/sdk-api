@@ -87,11 +87,11 @@ A transparently cached item is cached locally. However, it can be accessed only 
 
 
 
-<a href="https://msdn.microsoft.com/59bd7a71-0189-4c4d-a737-e6a3f09a533d">IOfflineFilesEvents3::TransparentCacheItemNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd442648(v=VS.85).aspx">IOfflineFilesEvents3::TransparentCacheItemNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/49c8213c-e8a1-4cb8-9b58-120fc0982b7b">IOfflineFilesTransparentCacheInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd442650(v=VS.85).aspx">IOfflineFilesTransparentCacheInfo</a>
  
 
  

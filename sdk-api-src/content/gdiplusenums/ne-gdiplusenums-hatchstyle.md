@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>HatchStyle</b> enumeration specifies the hatch pattern used by a brush of type 
-			<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>. The hatch pattern consists of a solid background color and lines drawn over the background. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>. The hatch pattern consists of a solid background color and lines drawn over the background. 
 
 
 ## -enum-fields

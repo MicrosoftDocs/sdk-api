@@ -73,7 +73,7 @@ This method does not return a value.
 
 
 
-This method is identical to <a href="https://msdn.microsoft.com/4C30C7C6-6071-4D69-BAB9-4CF6FED5B7D4">ID3D12Debug::EnableDebugLayer</a>.
+This method is identical to <a href="https://msdn.microsoft.com/en-us/library/Dn986877(v=VS.85).aspx">ID3D12Debug::EnableDebugLayer</a>.
 
 
 
@@ -83,7 +83,7 @@ This method is identical to <a href="https://msdn.microsoft.com/4C30C7C6-6071-4D
 
 
 
-<a href="https://msdn.microsoft.com/3D69D0CA-5D45-49EA-BCF0-5B0ABB916261">ID3D12Debug1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt762985(v=VS.85).aspx">ID3D12Debug1</a>
  
 
  

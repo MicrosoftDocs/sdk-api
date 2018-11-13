@@ -84,9 +84,9 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> method. Readers cannot modify the object or its child objects.
+Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the <a href="https://msdn.microsoft.com/en-us/library/Aa377880(v=VS.85).aspx">AccessCheck</a> method. Readers cannot modify the object or its child objects.
 
-To view the list of policy readers in account name format, use the <a href="https://msdn.microsoft.com/d550448e-a1ea-45f3-9151-affd4b8c0b14">PolicyReadersName</a> property.
+To view the list of policy readers in account name format, use the <a href="https://msdn.microsoft.com/en-us/library/Aa376366(v=VS.85).aspx">PolicyReadersName</a> property.
 
 
 

@@ -62,7 +62,7 @@ Describes a resource, such as a texture.
 
 ### -field Dimension
 
-One member of <a href="https://msdn.microsoft.com/E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB">D3D12_RESOURCE_DIMENSION</a>, specifying the dimensions of the resource (for example, D3D12_RESOURCE_DIMENSION_TEXTURE1D), or whether it is a buffer ((D3D12_RESOURCE_DIMENSION_BUFFER).
+One member of <a href="https://msdn.microsoft.com/en-us/library/Dn770396(v=VS.85).aspx">D3D12_RESOURCE_DIMENSION</a>, specifying the dimensions of the resource (for example, D3D12_RESOURCE_DIMENSION_TEXTURE1D), or whether it is a buffer ((D3D12_RESOURCE_DIMENSION_BUFFER).
           
 
 
@@ -98,25 +98,25 @@ Specifies the number of MIP levels.
 
 ### -field Format
 
-Specifies one member of  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>.
+Specifies one member of  <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
           
 
 
 ### -field SampleDesc
 
-Specifies a <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure.
+Specifies a <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure.
           
 
 
 ### -field Layout
 
-Specifies one member of <a href="https://msdn.microsoft.com/1C61B658-9CA1-493C-8DBC-86313D0D302F">D3D12_TEXTURE_LAYOUT</a>.
+Specifies one member of <a href="https://msdn.microsoft.com/en-us/library/Dn770442(v=VS.85).aspx">D3D12_TEXTURE_LAYOUT</a>.
           
 
 
 ### -field Flags
 
-Bitwise-OR'd flags, as <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a> enumeration constants.
+Bitwise-OR'd flags, as <a href="https://msdn.microsoft.com/en-us/library/Dn986742(v=VS.85).aspx">D3D12_RESOURCE_FLAGS</a> enumeration constants.
           
 
 
@@ -126,24 +126,24 @@ Bitwise-OR'd flags, as <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E
 
 Use this structure with:<ul>
 <li>
-<a href="https://msdn.microsoft.com/B8D84D69-6B13-4E86-8EF6-A841354B1E5C">ID3D12Resource::GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788710(v=VS.85).aspx">ID3D12Resource::GetDesc</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">ID3D12Device::GetResourceAllocationInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788680(v=VS.85).aspx">ID3D12Device::GetResourceAllocationInfo</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">ID3D12Device::CreateCommittedResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899178(v=VS.85).aspx">ID3D12Device::CreateCommittedResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">ID3D12Device::CreatePlacedResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899180(v=VS.85).aspx">ID3D12Device::CreatePlacedResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/37E74129-1B5C-4997-A584-D7E9F92342EA">ID3D12Device::CreateReservedResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899181(v=VS.85).aspx">ID3D12Device::CreateReservedResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">ID3D12Device::GetCopyableFootprints</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986878(v=VS.85).aspx">ID3D12Device::GetCopyableFootprints</a>
 </li>
-<li>A number of the helper functions, refer to <a href="https://msdn.microsoft.com/095958A9-345B-45AE-8363-B353534044B2">Helper Structures and Functions for D3D12</a>.</li>
+<li>A number of the helper functions, refer to <a href="https://msdn.microsoft.com/en-us/library/Dn708058(v=VS.85).aspx">Helper Structures and Functions for D3D12</a>.</li>
 </ul>
 
 
@@ -151,7 +151,7 @@ Two common resources are buffers and textures, which both use this structure, bu
 
 <h3><a id="Buffers"></a><a id="buffers"></a><a id="BUFFERS"></a>Buffers</h3>
 Buffers are a contiguous memory region.
- <i>Width</i> may be between 1 and either the <i>MaxGPUVirtualAddressBitsPerResource</i> field of <a href="https://msdn.microsoft.com/2CBED491-A8B6-47AE-8371-2081BAF85B83">D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</a> for reserved resources or the <i>MaxGPUVirtualAddressBitsPerProcess</i> field for committed resources. However, exhaustion of GPU virtual address space, memory residency budget (see <a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">IDXGIAdapter3::QueryVideoMemoryInfo</a>), and or system memory may easily occur first.
+ <i>Width</i> may be between 1 and either the <i>MaxGPUVirtualAddressBitsPerResource</i> field of <a href="https://msdn.microsoft.com/en-us/library/Mt186607(v=VS.85).aspx">D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</a> for reserved resources or the <i>MaxGPUVirtualAddressBitsPerProcess</i> field for committed resources. However, exhaustion of GPU virtual address space, memory residency budget (see <a href="https://msdn.microsoft.com/en-us/library/Dn933223(v=VS.85).aspx">IDXGIAdapter3::QueryVideoMemoryInfo</a>), and or system memory may easily occur first.
 
 <i>Alignment</i> must be 64KB (D3D12_DEFAULT_RESOURCE_PLACEMENT_ALIGNMENT) or 0, which is effectively 64KB.
 
@@ -167,11 +167,11 @@ Buffers are a contiguous memory region.
 
 
 <h3><a id="Textures"></a><a id="textures"></a><a id="TEXTURES"></a>Textures</h3>
-Textures are a multi-dimensional arrangement of texels in a contiguous region of memory, heavily optimized to maximize bandwidth for rendering and sampling. Texture sizes are hard to predict and vary from adapter to adapter. Applications must use <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">ID3D12Device::GetResourceAllocationInfo</a> to accurately understand their size.
+Textures are a multi-dimensional arrangement of texels in a contiguous region of memory, heavily optimized to maximize bandwidth for rendering and sampling. Texture sizes are hard to predict and vary from adapter to adapter. Applications must use <a href="https://msdn.microsoft.com/en-us/library/Dn788680(v=VS.85).aspx">ID3D12Device::GetResourceAllocationInfo</a> to accurately understand their size.
 
-TEXTURE1D, TEXTURE2D, and TEXTURE3D are not supported orthogonally on every format. See the use of D3D12_FORMAT_SUPPORT1_TEXTURE1D, D3D12_FORMAT_SUPPORT1_TEXTURE2D, and D3D12_FORMAT_SUPPORT1_TEXTURE3D in <a href="https://msdn.microsoft.com/D987B228-4BC9-4A07-96A0-A518F8F52B06">D3D12_FORMAT_SUPPORT1</a>.
+TEXTURE1D, TEXTURE2D, and TEXTURE3D are not supported orthogonally on every format. See the use of D3D12_FORMAT_SUPPORT1_TEXTURE1D, D3D12_FORMAT_SUPPORT1_TEXTURE2D, and D3D12_FORMAT_SUPPORT1_TEXTURE3D in <a href="https://msdn.microsoft.com/en-us/library/Dn859389(v=VS.85).aspx">D3D12_FORMAT_SUPPORT1</a>.
 
-<i>Width</i>, <i>Height</i>, and <i>DepthOrArraySize</i> must be between 1 and the maximum dimension supported for the particular feature level and texture dimension. However, exhaustion of GPU virtual address space, memory residency budget (see <a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">IDXGIAdapter3::QueryVideoMemoryInfo</a>), and or system memory may easily occur first. For compressed formats, these dimensions are logical. For example:
+<i>Width</i>, <i>Height</i>, and <i>DepthOrArraySize</i> must be between 1 and the maximum dimension supported for the particular feature level and texture dimension. However, exhaustion of GPU virtual address space, memory residency budget (see <a href="https://msdn.microsoft.com/en-us/library/Dn933223(v=VS.85).aspx">IDXGIAdapter3::QueryVideoMemoryInfo</a>), and or system memory may easily occur first. For compressed formats, these dimensions are logical. For example:
 
 <ul>
 <li>For TEXTURE1D: <ul>
@@ -211,7 +211,7 @@ Using the non-render-target and non-depth-stencil texture as an example, the run
 <h3><a id="MipLevels"></a><a id="miplevels"></a><a id="MIPLEVELS"></a>MipLevels</h3>
 <i>MipLevels</i> may be 0, or 1 to the maximum mip levels supported by the <i>Width</i>, <i>Height</i> , and <i>DepthOrArraySize</i> dimensions. When 0 is used, the API will automatically calculate the maximum mip levels supported and use that. But, some resource and heap properties preclude mip levels, so the app must specify the value as 1. 
 
-Refer to the D3D12_FORMAT_SUPPORT1_MIP field of <a href="https://msdn.microsoft.com/D987B228-4BC9-4A07-96A0-A518F8F52B06">D3D12_FORMAT_SUPPORT1</a> for per-format restrictions. MSAA resources, textures with D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER, and heaps with D3D12_HEAP_FLAG_ALLOW_DISPLAY all preclude mip levels.
+Refer to the D3D12_FORMAT_SUPPORT1_MIP field of <a href="https://msdn.microsoft.com/en-us/library/Dn859389(v=VS.85).aspx">D3D12_FORMAT_SUPPORT1</a> for per-format restrictions. MSAA resources, textures with D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER, and heaps with D3D12_HEAP_FLAG_ALLOW_DISPLAY all preclude mip levels.
   
 
 <h3><a id="Format"></a><a id="format"></a><a id="FORMAT"></a>Format</h3>
@@ -228,7 +228,7 @@ A <i>SampleDesc.Count</i> greater than 1 and/ or non-zero <i>Quality</i> are onl
 <li>D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS,</li>
 <li>D3D12_HEAP_FLAG_ALLOW_DISPLAY</li>
 </ul>
-See <a href="https://msdn.microsoft.com/F3ECEF7C-F4A4-4134-9671-21AE488D8183">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> for determining valid <i>Count</i> and <i>Quality</i> values.
+See <a href="https://msdn.microsoft.com/en-us/library/Dn859387(v=VS.85).aspx">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> for determining valid <i>Count</i> and <i>Quality</i> values.
  
 
 
@@ -239,15 +239,15 @@ See <a href="https://msdn.microsoft.com/F3ECEF7C-F4A4-4134-9671-21AE488D8183">D3
 
 
 
-<a href="https://msdn.microsoft.com/F18D41BE-8AEF-444E-AC8B-EC57C63BF083">CD3DX12_RESOURCE_DESC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt186577(v=VS.85).aspx">CD3DX12_RESOURCE_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D6772E4">D3D12_HEAP_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986730(v=VS.85).aspx">D3D12_HEAP_FLAGS</a>
  
 
  

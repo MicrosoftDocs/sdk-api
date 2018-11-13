@@ -101,7 +101,7 @@ Uses the default meaning for all structure members.
 
 Creates the page from the dialog box template in memory pointed to by the 
         <b>pResource</b> member. The 
-        <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function assumes that the template 
+        <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template 
         is in writeable memory; a read-only template causes an exception on some versions of Microsoft Windows. If 
         this flag is not set, the page loads the dialog box template from the resource identified by the 
         <b>pszTemplate</b> member.
@@ -181,7 +181,7 @@ Uses the default meaning for all structure members.
 
 Creates the page from the dialog box template in memory pointed to by the 
         <b>pResource</b> member. The 
-        <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function assumes that the template 
+        <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template 
         is in writeable memory; a read-only template causes an exception on some versions of Microsoft Windows. If 
         this flag is not set, the page loads the dialog box template from the resource identified by the 
         <b>pszTemplate</b> member.
@@ -268,7 +268,7 @@ Application-defined data.
 #### - pResource
 
 A pointer to a dialog box template in memory. The  
-       <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function assumes that the template 
+       <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template 
        is in writeable memory; a read-only template will cause an exception on some versions of Windows. If 
        <b>dwFlags</b> does not include the <b>PSP_DLGINDIRECT</b> value, this 
        member is ignored.
@@ -284,7 +284,7 @@ A pointer to the reference count value. If <b>dwFlags</b> does not include the
 
 A pointer to an application-defined callback function that is called when the page is created and when it 
       is about to be destroyed. For more information about the callback function, see 
-      <a href="https://msdn.microsoft.com/a1f77ead-99c7-4874-8c32-289775c86458">PropSheetPageProc</a>. If 
+      <a href="https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a>. If 
       <b>dwFlags</b> does not include the <b>PSP_USECALLBACK</b> value, this 
       member is ignored.
 
@@ -292,7 +292,7 @@ A pointer to an application-defined callback function that is called when the pa
 #### - pfnDlgProc
 
 A pointer to the dialog box procedure for the page. The dialog box procedure must not call the 
-      <a href="https://msdn.microsoft.com/925e8aa8-9d8d-4bec-a19e-ba24e78b2d10">EndDialog</a> function.
+      <a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function.
 
 
 #### - pszIcon
@@ -323,9 +323,9 @@ Title of the property sheet dialog box. This title overrides the title specified
 
 
 
-When the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function creates the 
+When the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function creates the 
     page, the dialog box procedure for the page receives a 
-    <a href="https://msdn.microsoft.com/bc4f4718-1dab-48db-ae3b-5a81a7be2644">WM_INITDIALOG</a> message. The 
+    <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message. The 
     <i>lParam</i> parameter of this message points to the 
     <b>PROPSHEETPAGE</b> structure used to create the page.
 

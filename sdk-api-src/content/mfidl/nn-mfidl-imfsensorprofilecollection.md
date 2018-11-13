@@ -70,7 +70,7 @@ The <b>IMFSensorProfileCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfsensorprofilecollection_addprofile">AddProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845817(v=VS.85).aspx">AddProfile</a>
 </td>
 <td align="left" width="63%">
 Adds the specified profile to the collection.
@@ -79,7 +79,7 @@ Adds the specified profile to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfsensorprofilecollection_findprofile">FindProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845818(v=VS.85).aspx">FindProfile</a>
 </td>
 <td align="left" width="63%">
 Finds a profile based on the specified profile ID.
@@ -88,7 +88,7 @@ Finds a profile based on the specified profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfsensorprofilecollection_getprofile">GetProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845819(v=VS.85).aspx">GetProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified profile.
@@ -97,7 +97,7 @@ Retrieves the specified profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfsensorprofilecollection_removeprofile">RemoveProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845820(v=VS.85).aspx">RemoveProfile</a>
 </td>
 <td align="left" width="63%">
 removes the specified profile based on the specified profile ID.
@@ -106,7 +106,7 @@ removes the specified profile based on the specified profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfsensorprofilecollection_removeprofilebyindex">RemoveProfileByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845821(v=VS.85).aspx">RemoveProfileByIndex</a>
 </td>
 <td align="left" width="63%">
         Removes a profile based on the specified index.

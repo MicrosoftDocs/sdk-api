@@ -206,7 +206,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-The difference between <b>D3DCompile2</b> and <a href="https://msdn.microsoft.com/feb3d4d1-06ce-4141-9267-c6c771659aa7">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
+The difference between <b>D3DCompile2</b> and <a href="https://msdn.microsoft.com/en-us/library/Dd607324(v=VS.85).aspx">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
 
 <h3><a id="Compiling_shaders_for_UWP"></a><a id="compiling_shaders_for_uwp"></a><a id="COMPILING_SHADERS_FOR_UWP"></a>Compiling shaders for UWP</h3>
 To compile offline shaders the recommend approach is to use the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb232919(v=vs.85).aspx">Effect-Compiler Tool</a>. If you cannot compile all of your shaders ahead of time, consider compiling the more expensive ones and the ones on your startup and most performance-sensitive paths require, and compiling the rest at runtime. You can use a process similar to the following to compile a loaded or generated shader in a UWP application without blocking your user interface thread.
@@ -274,7 +274,7 @@ To compile offline shaders the recommend approach is to use the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
 
 
 

@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>ColorChannelFlags</b> enumeration specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the 
-			<a href="https://msdn.microsoft.com/c84b0e5f-ab24-4693-811b-cfd2bbd8f85a">ImageAttributes::SetOutputChannel</a> method.
+			<a href="https://msdn.microsoft.com/en-us/library/ms535434(v=VS.85).aspx">ImageAttributes::SetOutputChannel</a> method.
 
 
 ## -enum-fields
