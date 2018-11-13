@@ -7,7 +7,7 @@ old-location: multimedia\avistreamend.htm
 tech.root: Multimedia
 ms.assetid: 9c132953-1b24-4a5f-b2e9-b5569a579696
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: AVIStreamEnd, AVIStreamEnd macro [Windows Multimedia], _win32_AVIStreamEnd, multimedia.avistreamend, vfw/AVIStreamEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

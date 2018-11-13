@@ -4,10 +4,10 @@ title: GetEffectiveRightsFromAclA function
 author: windows-sdk-content
 description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
 old-location: security\geteffectiverightsfromacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -439,7 +439,7 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

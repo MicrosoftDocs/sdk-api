@@ -2,21 +2,21 @@
 UID: NS:evntrace._EVENT_TRACE_HEADER
 title: "_EVENT_TRACE_HEADER"
 author: windows-sdk-content
-description: The EVENT_TRACE_HEADER structure is used to pass a WMI event to the WMI event logger.
-old-location: kernel\event_trace_header.htm
-tech.root: Kernel
-ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
+description: The EVENT_TRACE_HEADER structure contains standard event tracing information common to all events.
+old-location: etw\event_trace_header.htm
+tech.root: etw
+ms.assetid: 33c2de6b-afc2-4323-8d81-2970e66edf5e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: "*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], _EVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, kernel.event_trace_header, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml"
+ms.date: 11/02/2018
+ms.keywords: "*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [ETW], EVENT_TRACE_TYPE_CHECKPOINT, EVENT_TRACE_TYPE_DC_END, EVENT_TRACE_TYPE_DC_START, EVENT_TRACE_TYPE_DEQUEUE, EVENT_TRACE_TYPE_END, EVENT_TRACE_TYPE_EXTENSION, EVENT_TRACE_TYPE_INFO, EVENT_TRACE_TYPE_REPLY, EVENT_TRACE_TYPE_START, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [ETW], TRACE_LEVEL_ERROR, TRACE_LEVEL_FATAL, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, WNODE_FLAG_USE_GUID_PTR, WNODE_FLAG_USE_MOF_PTR, _EVENT_TRACE_HEADER, _evt_event_trace_header, base.event_trace_header, etw.event_trace_header, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
-req.include-header: Wdm.h, Ntddk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,7 +50,9 @@ req.redist:
 ## -description
 
 
-The <b>EVENT_TRACE_HEADER</b> structure is used to pass a WMI event to the WMI event logger. It is overlaid on the <a href="https://msdn.microsoft.com/a895f048-b111-4ccc-8466-fe9b169a2f95">WNODE_HEADER</a> portion of the <a href="https://msdn.microsoft.com/1805d174-ac10-4e76-9e3f-e9e156b769ec">WNODE_EVENT_ITEM</a> passed to <a href="https://msdn.microsoft.com/6b98861c-b108-4b07-b494-e3647d03de4c">IoWMIWriteEvent</a>. Information contained in the <b>EVENT_TRACE_HEADER</b> is written to the WMI log file.
+The 
+<b>EVENT_TRACE_HEADER</b> structure contains standard event tracing information common to all events.
+		
 
 
 ## -struct-fields
@@ -60,7 +62,12 @@ The <b>EVENT_TRACE_HEADER</b> structure is used to pass a WMI event to the WMI e
 
 ### -field Size
 
-Specifies the size, in bytes, of the buffer that is allocated to hold event tracing information. The value that is specified must include both the size of the <b>EVENT_TRACE_HEADER</b> structure and the size of any driver-specific data. (<b>EVENT_TRACE_HEADER</b> is overlaid on a <a href="https://msdn.microsoft.com/a895f048-b111-4ccc-8466-fe9b169a2f95">WNODE_HEADER</a> structure, but the <b>Size</b> member of <b>EVENT_TRACE_HEADER</b> and the <b>BufferSize</b> member of <b>WNODE_HEADER</b> do not specify the same size. Do not use the <b>BufferSize</b> member of <b>WNODE_HEADER</b> to set the <b>Size</b> member.) 
+Total number of bytes of the event. <b>Size</b> includes the size of the 
+header structure, plus the size of any event-specific data appended to the header. 
+
+On input, the size must be less than the size of the event tracing session's buffer minus 72 (0x48).
+
+On output, do not use this number in calculations.
 
 
 ### -field DUMMYUNIONNAME
@@ -70,7 +77,8 @@ Specifies the size, in bytes, of the buffer that is allocated to hold event trac
 
 ### -field DUMMYUNIONNAME.FieldTypeFlags
 
-Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are valid.
+ Reserved.
+						
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
@@ -80,12 +88,12 @@ Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are va
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.HeaderType
 
-Reserved for internal use.
+Reserved.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MarkerFlags
 
-Reserved for internal use.
+Reserved.
 
 
 ### -field DUMMYUNIONNAME2
@@ -95,42 +103,213 @@ Reserved for internal use.
 
 ### -field DUMMYUNIONNAME2.Version
 
-Drivers can use this member to store version information. This information is not interpreted by the event logger.
+This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
 
 ### -field DUMMYUNIONNAME2.Class
 
-Event class information.
-
 
 ### -field DUMMYUNIONNAME2.Class.Type
 
-Trace event type. This can be one of the predefined EVENT_TRACE_TYPE_<i>XXX</i> values contained in Evntrace.h or can be a driver-defined value. Callers are free to define private event types with values greater than the reserved values in Evntrace.h.
+Type of event. A provider can define their own event types or use the predefined event types listed in the following table.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_CHECKPOINT"></a><a id="event_trace_type_checkpoint"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_CHECKPOINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Checkpoint event. Use for an event that is not at the start or end of an activity.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_DC_END"></a><a id="event_trace_type_dc_end"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_DC_END</b></dt>
+</dl>
+</td>
+<td width="60%">
+Data collection end event.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_DC_START"></a><a id="event_trace_type_dc_start"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_DC_START</b></dt>
+</dl>
+</td>
+<td width="60%">
+Data collection start event.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_DEQUEUE"></a><a id="event_trace_type_dequeue"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_DEQUEUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Dequeue event. Use when an activity is queued before it begins. Use EVENT_TRACE_TYPE_START to mark the time when a work item is queued. Use the dequeue event type to mark the time when work on the item actually begins. Use EVENT_TRACE_TYPE_END to mark the time when work on the item completes.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_END"></a><a id="event_trace_type_end"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_END</b></dt>
+</dl>
+</td>
+<td width="60%">
+End event. Use to trace the final state of a multi-step event.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_EXTENSION"></a><a id="event_trace_type_extension"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_EXTENSION</b></dt>
+</dl>
+</td>
+<td width="60%">
+Extension event. Use for an event that is a continuation of a previous event. For example, use the extension event type when an event trace records more data than can fit in a session buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_INFO"></a><a id="event_trace_type_info"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_INFO</b></dt>
+</dl>
+</td>
+<td width="60%">
+Informational event. This is the default event type.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_REPLY"></a><a id="event_trace_type_reply"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_REPLY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reply event. Use when an application that requests resources can receive multiple responses. For example, if a client application requests a URL, and the web server replies by sending several files, each file received can be marked as a reply event.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_TRACE_TYPE_START"></a><a id="event_trace_type_start"></a><dl>
+<dt><b>EVENT_TRACE_TYPE_START</b></dt>
+</dl>
+</td>
+<td width="60%">
+Start event. Use to trace the initial state of a multi-step event.
+
+</td>
+</tr>
+</table>
+ 
+
+If you define your own event types, you should use numbers starting from 10. However, there is nothing to prevent you from using any numbers that you wish to use.  If your event trace class GUID supports multiple event types, consumers will use the event type to determine the event and how to interpret its contents.
+							
 
 
 ### -field DUMMYUNIONNAME2.Class.Level
 
-Trace instrumentation level. A driver-defined value meant to represent the degree of detail of the trace instrumentation. Drivers are free to give this value meaning. This value should be 0 by default. More information about how consumers can request different levels of trace information will be provided in a future version of the documentation.
+Provider-defined value that defines the severity level used to generate the event. The value ranges from 0 to 255. The controller specifies the severity level when it calls the <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> function. The provider retrieves the severity level by calling the <a href="https://msdn.microsoft.com/22326fd9-c428-4430-8a92-978d005f6705">GetTraceEnableLevel</a> function from its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation. The provider uses the value to set this member.
+
+ETW defines the following severity levels. Selecting a level higher than 1 will also include events for lower levels. For example, if the controller specifies TRACE_LEVEL_WARNING (3), the provider also generates  TRACE_LEVEL_FATAL (1) and TRACE_LEVEL_ERROR (2) events.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TRACE_LEVEL_FATAL"></a><a id="trace_level_fatal"></a><dl>
+<dt><b>TRACE_LEVEL_FATAL</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Abnormal exit or termination events.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TRACE_LEVEL_ERROR"></a><a id="trace_level_error"></a><dl>
+<dt><b>TRACE_LEVEL_ERROR</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Severe error events.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TRACE_LEVEL_WARNING"></a><a id="trace_level_warning"></a><dl>
+<dt><b>TRACE_LEVEL_WARNING</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+Warning events such as allocation failures.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TRACE_LEVEL_INFORMATION"></a><a id="trace_level_information"></a><dl>
+<dt><b>TRACE_LEVEL_INFORMATION</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+Non-error events such as entry or exit events.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TRACE_LEVEL_VERBOSE"></a><a id="trace_level_verbose"></a><dl>
+<dt><b>TRACE_LEVEL_VERBOSE</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+Detailed trace events.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field DUMMYUNIONNAME2.Class.Version
 
-Version of trace record. Version information that can be used by the driver to track different event formats.
+Indicates the version of the event trace class that you are using to log the event. Specify zero if there is only one version of your event trace class. The version tells the consumer which MOF class to use to decipher the event data.
 
 
 ### -field ThreadId
 
-Thread identifier.
+On output, identifies the thread that generated the event. 
+
+
+
+
+Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
 
 
 ### -field ProcessId
 
-Process identifier.
+ On output, identifies  the process that generated the event.
+
+<b>Windows 2000:  </b>This member is not supported.
 
 
 ### -field TimeStamp
 
-The time at which the driver event occurred. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. If the WNODE_FLAG_USE_TIMESTAMP is set in <b>Flags,</b> the system logger will leave the value of <b>TimeStamp</b> unchanged. Otherwise, the system logger will set the value of <b>TimeStamp</b> at the time it receives the event. A driver can call <b>KeQuerySystemTime</b> to set the value of <b>TimeStamp</b>. 
+On output, contains the time that the event occurred. The resolution is system time unless the <b>ProcessTraceMode</b> member of <a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> contains the PROCESS_TRACE_MODE_RAW_TIMESTAMP flag, in which case the resolution depends on the value of the <b>Wnode.ClientContext</b> member of <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> at the time the controller created the session.
 
 
 ### -field DUMMYUNIONNAME3
@@ -140,12 +319,25 @@ The time at which the driver event occurred. This time value is expressed in abs
 
 ### -field DUMMYUNIONNAME3.Guid
 
-The GUID that identifies the data block for the event. 
+Event trace class GUID. You can use the class GUID to identify a category of events and the <b>Class.Type</b> member to identify an event within the category of events. 
+
+Alternatively, you can use the <b>GuidPtr</b> member to specify the class GUID.  
+
+
+
+
+<b>Windows XP and Windows 2000:  </b>The class GUID must have been registered previously using the 
+<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function.
 
 
 ### -field DUMMYUNIONNAME3.GuidPtr
 
-If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> points to the GUID that identifies the data block for the event.
+Pointer to an event trace class GUID. Alternatively, you can use the <b>Guid</b> member to specify the class GUID. 
+
+
+When the event is written, ETW uses the pointer to copy the GUID to the event (the GUID is included in the event, not the pointer).
+
+If you use this member, the <b>Flags</b> member must also contain WNODE_FLAG_USE_GUID_PTR.
 
 
 ### -field DUMMYUNIONNAME4
@@ -160,17 +352,17 @@ If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> p
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.KernelTime
 
-Reserved for internal use.
+Elapsed execution time for kernel-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead.  For more information, see Remarks.
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.UserTime
 
-Reserved for internal use.
+Elapsed execution time for user-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead. For more information, see Remarks.
 
 
 ### -field DUMMYUNIONNAME4.ProcessorTime
 
-Reserved for internal use.
+For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2
@@ -180,23 +372,58 @@ Reserved for internal use.
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.ClientContext
 
-Reserved for internal use.
+Reserved. 
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.Flags
 
-Provides information about the contents of this structure. For information about <b>EVENT_TRACE_HEADER</b><b> Flags</b> values, see the <b>Flags</b> description in <a href="https://msdn.microsoft.com/a895f048-b111-4ccc-8466-fe9b169a2f95">WNODE_HEADER</a>.
+You must set this member to WNODE_FLAG_TRACED_GUID, and may optionally specify any combination of the following.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="WNODE_FLAG_USE_GUID_PTR"></a><a id="wnode_flag_use_guid_ptr"></a><dl>
+<dt><b>WNODE_FLAG_USE_GUID_PTR</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specify if the <b>GuidPtr</b> member contains the class GUID. 
+
+
+
+									
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WNODE_FLAG_USE_MOF_PTR"></a><a id="wnode_flag_use_mof_ptr"></a><dl>
+<dt><b>WNODE_FLAG_USE_MOF_PTR</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specify if an array of 
+<a href="https://msdn.microsoft.com/64ff1191-2177-4d51-afcd-b58d510e9ae8">MOF_FIELD</a> structures contains the event data appended to this structure. The number of elements in the array is limited to <b>MAX_MOF_FIELDS</b>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ## -remarks
 
 
 
-A driver that supports trace events will use this structure to report events to the WMI event logger. Trace events should not be reported until the driver receives a request to enable events and the control GUID is one the driver supports. The driver should initialize an <b>EVENT_TRACE_HEADER</b> structure, fill in any user-defined event data at the end, and pass a pointer to the <b>EVENT_TRACE_HEADER</b> to <b>IoWMIWriteEvent</b>. The driver should continue reporting trace events until it receives a request to disable the control GUID for the trace events.
+Be sure to initialize the memory for this structure to zero before setting any members.
 
-If the driver does not specify the WNODE_FLAG_USE_MOF_PTR flag in the <b>Flags</b> member of <b>EVENT_TRACE_HEADER</b>, the <b>EVENT_TRACE_HEADER</b> structure is followed in memory by event-specific data. In this case, the <b>Size</b> member must be <b>sizeof</b>(<b>EVENT_TRACE_HEADER</b>) plus the size of the event-specific data. 
+You can use the <b>KernelTime</b> and <b>UserTime</b> members to determine the CPU cost in units for a set of instructions (the values indicate the CPU usage charged to that thread at the time of logging). For example, if Event A and Event B are consecutively logged by the same thread and they have CPU usage numbers 150 and 175, then the activity that was performed by that thread between events A and B cost 25 CPU time units (175 – 150).
 
-If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_HEADER</b> structure is followed in memory by an array of <b>MOF_FIELD</b> structures (which are defined in Evntrace.h) that contain pointers to the data and sizes rather than the event tracing data itself. In this case, the <b>Size</b> member must be <b>sizeof</b>(<b>EVENT_TRACE_HEADER</b>) plus the size of the array of <b>MOF_FIELD</b> structures.
+The <b>TimerResolution</b> of the <a href="https://msdn.microsoft.com/13fdabe6-c904-4546-b876-c145f6a6c345">TRACE_LOGFILE_HEADER</a> structure contains the resolution of the CPU usage timer in 100-nanosecond units. You can use the timer resolution with the kernel time and user time values to determine the amount of CPU time that the set of instructions used. For example, if the timer resolution is 156,250, then 25 CPU time units is 0.39 seconds (156,250 * 25 * 100 / 1,000,000,000). This is the amount of CPU time (not elapsed wall clock time) used by the set of instructions between events A and B. 
+
+Note, however, that the CPU usage timer resolution is typically very low (around 10 or more milliseconds). Therefore, CPU usage numbers cannot be used to account for CPU time usage among threads with high accuracy. Rather, they are suitable for long term, statistical type of analysis.
 
 
 
@@ -206,15 +433,19 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 
 
-<a href="https://msdn.microsoft.com/6b98861c-b108-4b07-b494-e3647d03de4c">IoWMIWriteEvent</a>
+<a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1805d174-ac10-4e76-9e3f-e9e156b769ec">WNODE_EVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/a895f048-b111-4ccc-8466-fe9b169a2f95">WNODE_HEADER</a>
+<a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a>
  
 
  

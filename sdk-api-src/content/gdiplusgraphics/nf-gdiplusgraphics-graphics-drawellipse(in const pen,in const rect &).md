@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods\drawellipse.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawEllipse, DrawEllipse method [GDI+], DrawEllipse method [GDI+],Graphics class, Graphics class [GDI+],DrawEllipse method, Graphics.DrawEllipse, Graphics.DrawEllipse(IN const Pen,IN const Rect &), Graphics.DrawEllipse(const Pen*,const Rect&), Graphics::DrawEllipse, Graphics::DrawEllipse(IN const Pen,IN const Rect &), _gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_function_desc.htm
 tech.root: direct3d12
 ms.assetid: 6FF99C49-B5B1-4969-86E2-828D584D1EA9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_FUNCTION_DESC, D3D12_FUNCTION_DESC structure, _D3D12_FUNCTION_DESC, d3d12shader/D3D12_FUNCTION_DESC, direct3d12.d3d12_function_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Describes a function.
 ### -field Version
 
 The shader version.
-            See also <a href="https://msdn.microsoft.com/en-us/library/Dn960204(v=VS.85).aspx">D3D12_SHADER_VERSION_TYPE</a>.
+            See also <a href="https://msdn.microsoft.com/4691452D-3A7B-4890-AE41-B6AF5C541A3B">D3D12_SHADER_VERSION_TYPE</a>.
           
 
 
@@ -74,7 +74,7 @@ The name of the originator of the function.
 
 ### -field Flags
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Gg615083(v=VS.85).aspx">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies shader compilation and parsing.
+A combination of <a href="https://msdn.microsoft.com/039627DD-D6A4-4EA3-8E91-D2A20770E6FF">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies shader compilation and parsing.
           
 
 
@@ -218,13 +218,13 @@ The number of bitwise arithmetic instructions used by the function.
 
 ### -field MinFeatureLevel
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL</a>-typed value that specifies the minimum Direct3D feature level target of the function byte code.
+A <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>-typed value that specifies the minimum Direct3D feature level target of the function byte code.
           
 
 
 ### -field RequiredFeatureFlags
 
-A value that contains a combination of one or more shader requirements flags; each flag specifies a requirement of the shader. A default value of 0 means there are no requirements. For a list of values, see <a href="https://msdn.microsoft.com/en-us/library/Dn933714(v=VS.85).aspx">ID3D12ShaderReflection::GetRequiresFlags</a>.
+A value that contains a combination of one or more shader requirements flags; each flag specifies a requirement of the shader. A default value of 0 means there are no requirements. For a list of values, see <a href="https://msdn.microsoft.com/ABA7BB9E-AB1D-407A-BB16-97EE74318C1A">ID3D12ShaderReflection::GetRequiresFlags</a>.
           
 
 

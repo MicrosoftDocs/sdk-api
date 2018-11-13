@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createsharedhandle.htm
 tech.root: direct3d12
 ms.assetid: AFF058FF-358F-4FF3-8C92-57A9D34B27D9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle method,ID3D12Device interface, ID3D12Device interface,CreateSharedHandle method, ID3D12Device.CreateSharedHandle, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 ### -param Access
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Currently the only value this parameter accepts is GENERIC_ALL.
 
@@ -116,26 +116,26 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associa
               Name comparison is case-sensitive.
             
 
-If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
+If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
               This occurs because these objects share the same namespace.
             
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace.
               The remainder of the name can contain any character except the backslash character (\).
               For more information, see
-              <a href="https://msdn.microsoft.com/en-us/library/Aa382954(v=VS.85).aspx">Kernel Object Namespaces</a>.
+              <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>.
               Fast user switching is implemented using Terminal Services sessions.
               Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
             
 
 The object can be created in a private namespace.
-              For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms684295(v=VS.85).aspx">Object Namespaces</a>.
+              For more information, see <a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>.
             
 
 
 ### -param pHandle [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HANDLE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a>*</b>
 
 A pointer to a variable that receives the NT HANDLE value to the resource to share.
             You can use this handle in calls to access the resource.
@@ -146,19 +146,19 @@ A pointer to a variable that receives the NT HANDLE value to the resource to sha
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following values:
               
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
               </li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
               </li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a> topic.
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> topic.
               </li>
 </ul>
 
@@ -180,7 +180,7 @@ Both heaps and committed resources can be shared.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

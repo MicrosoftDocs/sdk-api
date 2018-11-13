@@ -2,26 +2,26 @@
 UID: NE:fwptypes.FWP_DIRECTION_
 title: FWP_DIRECTION_
 author: windows-sdk-content
-description: The FWP_DIRECTION enumeration type specifies the direction of network traffic.
-old-location: netvista\fwp_direction.htm
-tech.root: NetVista
-ms.assetid: 12223283-b94f-438c-83e1-d826cae82d87
+description: Direction of network traffic.
+old-location: fwp\fwp_direction_enum.htm
+tech.root: fwp
+ms.assetid: ae0eeb36-1a41-426a-9878-77558464a91b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FWP_DIRECTION, FWP_DIRECTION enumeration [Network Drivers Starting with Windows Vista], FWP_DIRECTION_, FWP_DIRECTION_INBOUND, FWP_DIRECTION_MAX, FWP_DIRECTION_OUTBOUND, fwptypes/FWP_DIRECTION, fwptypes/FWP_DIRECTION_INBOUND, fwptypes/FWP_DIRECTION_MAX, fwptypes/FWP_DIRECTION_OUTBOUND, netvista.fwp_direction, wfp_ref_4_enum_6e24545b-e813-4807-b107-b490b9be71d3.xml
+ms.date: 10/12/2018
+ms.keywords: FWP_DIRECTION, FWP_DIRECTION enumeration [Filtering], FWP_DIRECTION_, FWP_DIRECTION_INBOUND, FWP_DIRECTION_MAX, FWP_DIRECTION_OUTBOUND, fwp.fwp_direction_enum, fwptypes/FWP_DIRECTION, fwptypes/FWP_DIRECTION_INBOUND, fwptypes/FWP_DIRECTION_MAX, fwptypes/FWP_DIRECTION_OUTBOUND
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
-req.include-header: Fwpsk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Supported starting with Windows Vista.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - fwptypes.h
+ - Fwptypes.h
 api_name:
  - FWP_DIRECTION
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The FWP_DIRECTION enumeration type specifies the direction of network traffic.
+The <b>FWP_DIRECTION</b> enumerated type specifies direction of network traffic.
 
 
 ## -enum-fields
@@ -70,6 +70,5 @@ Specifies inbound traffic.
 
 ### -field FWP_DIRECTION_MAX
 
-The maximum value for this enumeration. This value might change in future versions of the NDIS
-     header files and binaries.
+Maximum value for testing purposes.
 

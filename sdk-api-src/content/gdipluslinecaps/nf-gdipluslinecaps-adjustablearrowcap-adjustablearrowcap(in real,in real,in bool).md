@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_heigh
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcap_91height_width_isfilled.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+],AdjustableArrowCap constructor, AdjustableArrowCap constructor [GDI+], AdjustableArrowCap constructor [GDI+],AdjustableArrowCap class, AdjustableArrowCap.AdjustableArrowCap, AdjustableArrowCap.AdjustableArrowCap(IN REAL,IN REAL,IN BOOL), AdjustableArrowCap::AdjustableArrowCap, AdjustableArrowCap::AdjustableArrowCap(IN REAL,IN REAL,IN BOOL), _gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,15 +94,15 @@ The middle inset is the number of units that the midpoint of the base shifts tow
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534419(v=VS.85).aspx">AdjustableArrowCap</a>
+<a href="https://msdn.microsoft.com/da4a0644-eedf-4a9c-935a-e9fa822b2673">AdjustableArrowCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536325(v=VS.85).aspx">AdjustableArrowCap::GetMiddleInset</a>
+<a href="https://msdn.microsoft.com/83bc6530-9d78-49ad-9dfc-ea9776945ae6">AdjustableArrowCap::GetMiddleInset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536330(v=VS.85).aspx">AdjustableArrowCap::SetMiddleInset</a>
+<a href="https://msdn.microsoft.com/67721251-b805-425f-9742-6afed25df831">AdjustableArrowCap::SetMiddleInset</a>
  
 
  

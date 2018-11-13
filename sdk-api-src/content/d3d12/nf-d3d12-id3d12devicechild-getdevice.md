@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12devicechild_getdevice.htm
 tech.root: direct3d12
 ms.assetid: FFF72E85-4382-420B-82C9-CE72B223F703
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,ID3D12DeviceChild interface, ID3D12DeviceChild interface,GetDevice method, ID3D12DeviceChild.GetDevice, ID3D12DeviceChild::GetDevice, d3d12/ID3D12DeviceChild::GetDevice, direct3d12.id3d12devicechild_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ A pointer to a memory block that receives a pointer to the <a href="https://msdn
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
@@ -101,28 +101,32 @@ Any returned interfaces have their reference count incremented by one, so be sur
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12DeviceChild::GetDevice</b> as follows:
         
 
-
-```cpp
-// Returns required size of a buffer to be used for data upload
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Returns required size of a buffer to be used for data upload
 inline UINT64 GetRequiredIntermediateSize(
     _In_ ID3D12Resource* pDestinationResource,
     _In_range_(0,D3D12_REQ_SUBRESOURCES) UINT FirstSubresource,
     _In_range_(0,D3D12_REQ_SUBRESOURCES-FirstSubresource) UINT NumSubresources)
 {
-    D3D12_RESOURCE_DESC Desc = pDestinationResource->GetDesc();
+    D3D12_RESOURCE_DESC Desc = pDestinationResource-&gt;GetDesc();
     UINT64 RequiredSize = 0;
     
     ID3D12Device* pDevice;
-    pDestinationResource->GetDevice(__uuidof(*pDevice), reinterpret_cast<void**>(&pDevice));
-    pDevice->GetCopyableFootprints(&Desc, FirstSubresource, NumSubresources, 0, nullptr, nullptr, nullptr, &RequiredSize);
-    pDevice->Release();
+    pDestinationResource-&gt;GetDevice(__uuidof(*pDevice), reinterpret_cast&lt;void**&gt;(&amp;pDevice));
+    pDevice-&gt;GetCopyableFootprints(&amp;Desc, FirstSubresource, NumSubresources, 0, nullptr, nullptr, nullptr, &amp;RequiredSize);
+    pDevice-&gt;Release();
     
     return RequiredSize;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

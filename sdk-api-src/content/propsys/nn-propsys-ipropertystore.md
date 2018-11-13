@@ -2,26 +2,26 @@
 UID: NN:propsys.IPropertyStore
 title: IPropertyStore
 author: windows-sdk-content
-description: This interface exposes methods used to enumerate and manipulate property values.
-old-location: audio\ipropertystore.htm
-tech.root: audio
-ms.assetid: 63afd5b1-87cc-4e0a-8964-2138c5fbff46
+description: Exposes methods for enumerating, getting, and setting property values.
+old-location: properties\IPropertyStore.htm
+tech.root: properties
+ms.assetid: e995aaa1-d4c9-475f-b1fa-b9123cd5b653
 ms.author: windowssdkdev
-ms.date: 09/28/2018
-ms.keywords: IPropertyStore, IPropertyStore interface [Audio Devices], IPropertyStore interface [Audio Devices],described, audio.ipropertystore, audio_syseffects_r_1efc1bca-70e7-4db2-aea3-4c1d4aa1a39a.xml, propsys/IPropertyStore
+ms.date: 10/19/2018
+ms.keywords: IPropertyStore, IPropertyStore interface [Windows Properties], IPropertyStore interface [Windows Properties],described, properties.IPropertyStore, propsys/IPropertyStore, shell.IPropertyStore, shell_IPropertyStore, shell_IPropertyStore_cpp
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-This interface exposes methods used to enumerate and manipulate property values. 
+Exposes methods for enumerating, getting, and setting property values.
 
 
 ## -inheritance
@@ -70,63 +70,64 @@ The <b>IPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3cc6815-a16f-45e7-a2d5-8f354f712170">IPropertyStore::Commit</a>
+<a href="shell.IPropertyStore_Commit">Commit</a>
 </td>
 <td align="left" width="63%">
-After a change has been made, this method saves the changes.
+Saves a property change.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>
+<a href="shell.IPropertyStore_GetAt">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a property key from the property array of an item.
+Gets a property key from an item's array of properties.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23f7b982-29db-4960-9a1d-2f9e033ebf61">IPropertyStore::GetCount</a>
+<a href="shell.IPropertyStore_GetCount">GetCount</a>
 </td>
 <td align="left" width="63%">
-This method returns a count of the number of properties that are attached to the file.
+Gets the number of properties attached to the file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11204335-0f00-4af8-8787-93e91248e5bd">IPropertyStore::GetValue</a>
+<a href="shell.IPropertyStore_GetValue">GetValue</a>
 </td>
 <td align="left" width="63%">
-This method retrieves the data for a specific property.
+Gets data for a specific property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be21bcb2-6875-4559-abd7-a496f0fcddd6">IPropertyStore::SetValue</a>
+<a href="shell.IPropertyStore_SetValue">SetValue</a>
 </td>
 <td align="left" width="63%">
-This method sets a property value or replaces or removes an existing value.
+Sets a new property value, or replaces or removes an existing value.
 
 </td>
 </tr>
 </table> 
 
 
-## -see-also
+## -remarks
 
 
 
+These methods can be called at any time after initialization of the property handler but before property changes are written to the file through <a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a>. At any other time, these methods return E_FAIL.
 
-<a href="https://msdn.microsoft.com/E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC">APOInitSystemEffects</a>
+<h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
+An implementation of this interface is provided by CLSID_InMemoryPropertyStore, as <a href="shell.IPropertyStoreCache">IPropertyStoreCache</a>. Users should never need to implement it themselves.
+
+                
+
+CLSID_InMemoryPropertyStore implements <a href="shell.IPropertyStoreCache">IPropertyStoreCache</a> instead of <a href="shell.IPropertyStore">IPropertyStore</a> so that it can store additional state information (<a href="shell.PSC_STATE">PSC_STATE</a>) about each of the properties in the cache. This information can be useful for property handler implementers. It can also be useful in other scenarios where a cache of property values is needed.
 
 
-
-<a href="https://msdn.microsoft.com/en-us/library/JJ151547(v=VS.85).aspx">AudioFXExtensionParams</a>
- 
-
- 
 

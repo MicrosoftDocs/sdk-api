@@ -93,25 +93,25 @@ The following diagrams show how a rotation transform is applied to the render ta
 <li>
 Assume the rectangle in the following illustration is a render target that is aligned to the screen pixels.
 
-<img alt="Illustration of a rectangle (render target)" src="./images/pushaxisalignedclip_step1_rendertarget.png"/>
+<img alt="Illustration of a rectangle (render target)" src="images/pushaxisalignedclip_step1_rendertarget.png"/>
 
 </li>
 <li>
 Apply a rotation transform to the render target. In the following illustration, the black rectangle represents the original render target and the red dashed rectangle represents the transformed render target.
 
-<img alt="Illustration of a rotated rectangle (transformed render target)" src="./images/pushaxisalignedclip_step2_transformed.png"/>
+<img alt="Illustration of a rotated rectangle (transformed render target)" src="images/pushaxisalignedclip_step2_transformed.png"/>
 
 </li>
 <li>
 After calling <a href="https://msdn.microsoft.com/a6a0743c-e964-41f5-807f-541f00f552b5">PushAxisAlignedClip</a>, the rotation transform is applied to the <i>clipRect</i>. In the following illustration, the blue rectangle represents the transformed <i>clipRect</i>.
 
-<img alt="Illustration of a small blue rectangle (transformed clipRect) inside a rotated rectangle" src="./images/pushaxisalignedclip_step3_clipRecttransformed.png"/>
+<img alt="Illustration of a small blue rectangle (transformed clipRect) inside a rotated rectangle" src="images/pushaxisalignedclip_step3_clipRecttransformed.png"/>
 
 </li>
 <li>
 The axis-aligned bounding box is calculated. The green dashed rectangle represents the bounding box in the following illustration. All contents are clipped to this axis-aligned bounding box.
 
-<img alt="Illustration of a green bounding box around a small blue rectangle inside a rotated rectangle" src="./images/pushaxisalignedclip_step4_boundingbox.png"/>
+<img alt="Illustration of a green bounding box around a small blue rectangle inside a rotated rectangle" src="images/pushaxisalignedclip_step4_boundingbox.png"/>
 
 </li>
 </ol>

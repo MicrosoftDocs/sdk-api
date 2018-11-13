@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangle_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglemethods.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddRectangle, AddRectangle methods [GDI+], GraphicsPath.AddRectangle, GraphicsPath.AddRectangle(IN const RectF &), GraphicsPath::AddRectangle, GraphicsPath::AddRectangle(IN const RectF &), _gdiplus_CLASS_GraphicsPath_AddRectangle_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangle_Methods, gdipluspath/AddRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

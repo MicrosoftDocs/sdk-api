@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissionid_cpp.
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9btw.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],SubmissionId property, IFaxOutgoingJob.SubmissionId, IFaxOutgoingJob.get_SubmissionId, IFaxOutgoingJob::SubmissionId, IFaxOutgoingJob::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.submissionid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissionid_cpp, fax._mfax_faxoutgoingjob_submissionid, faxcomex/IFaxOutgoingJob::SubmissionId, faxcomex/IFaxOutgoingJob::get_SubmissionId, get_SubmissionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

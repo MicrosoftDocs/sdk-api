@@ -61,7 +61,7 @@ The <b>Next</b> method moves to the next  attribute in the attribute-enumeration
 
 ### -param pIndex [out]
 
-A pointer to a variable that contains the index value of the next <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">attribute</a> being referenced. If there are no more attributes to enumerate, this variable is set to –1. This method fails if <i>pIndex</i> is <b>NULL</b>.
+A pointer to a variable that contains the index value of the next <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> being referenced. If there are no more attributes to enumerate, this variable is set to –1. This method fails if <i>pIndex</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -71,7 +71,7 @@ A pointer to a variable that contains the index value of the next <a href="https
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and  the next attribute is now being referenced by the attribute-enumeration sequence.  If there are no more attributes, the method returns S_FALSE, and <i>pIndex</i> is set to a value of –1.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the index value of the attribute that is now referenced by the attribute-enumeration sequence. If there are no more attributes to enumerate, the return value is –1.
@@ -88,10 +88,10 @@ following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386164(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetName</a>
+<a href="https://msdn.microsoft.com/c2409bf1-0571-479e-8499-010d52cfb776">IEnumCERTVIEWATTRIBUTE::GetName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386166(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetValue</a>
+<a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">IEnumCERTVIEWATTRIBUTE::GetValue</a>
 </li>
 </ul>
 
@@ -132,23 +132,23 @@ if (NULL != bstrAttribName)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386157(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386164(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetName</a>
+<a href="https://msdn.microsoft.com/c2409bf1-0571-479e-8499-010d52cfb776">IEnumCERTVIEWATTRIBUTE::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386166(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetValue</a>
+<a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">IEnumCERTVIEWATTRIBUTE::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386170(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::Reset</a>
+<a href="https://msdn.microsoft.com/1f5b8ee0-2820-481b-8836-b2926aec0933">IEnumCERTVIEWATTRIBUTE::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386172(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::Skip</a>
+<a href="https://msdn.microsoft.com/546e7ad7-73f2-4f6e-8d02-a9ca5401ecce">IEnumCERTVIEWATTRIBUTE::Skip</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_PointF_pt1_PointF_pt2_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods\addline_30pointfamppt1_pointfamppt2.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN const PointF &,IN const PointF &), GraphicsPath.AddLine(const PointF&,const PointF&), GraphicsPath::AddLine, GraphicsPath::AddLine(IN const PointF &,IN const PointF &), _gdiplus_CLASS_GraphicsPath_AddLine_PointF_pt1_PointF_pt2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_PointF_pt1_PointF_pt2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

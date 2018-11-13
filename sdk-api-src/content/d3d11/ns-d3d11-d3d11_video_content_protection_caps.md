@@ -60,12 +60,12 @@ Describes the content-protection capabilities of a graphics driver.
 
 ### -field Caps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Hh447629(v=VS.85).aspx">D3D11_CONTENT_PROTECTION_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/19697660-DDB8-4A4C-888F-018BC5CCFC94">D3D11_CONTENT_PROTECTION_CAPS</a> enumeration.
 
 
 ### -field KeyExchangeTypeCount
 
-The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="https://msdn.microsoft.com/en-us/library/Hh447782(v=VS.85).aspx">ID3D11VideoDevice::CheckCryptoKeyExchange</a> method.
+The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="https://msdn.microsoft.com/AE2DA6F9-6153-43AF-8E61-26FB9DD5A1D1">ID3D11VideoDevice::CheckCryptoKeyExchange</a> method.
 
 
 ### -field BlockAlignmentSize
@@ -83,11 +83,11 @@ The total amount of memory, in bytes, that can be used to hold protected surface
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447792(v=VS.85).aspx">ID3D11VideoDevice::GetContentProtectionCaps</a>
+<a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">ID3D11VideoDevice::GetContentProtectionCaps</a>
  
 
  

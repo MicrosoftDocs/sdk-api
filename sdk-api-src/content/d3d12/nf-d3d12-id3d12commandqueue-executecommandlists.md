@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_executecommandlists.htm
 tech.root: direct3d12
 ms.assetid: 653C15CD-0996-4B3B-A5F6-3E85CD0516AD
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: ExecuteCommandLists, ExecuteCommandLists method, ExecuteCommandLists method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,ExecuteCommandLists method, ID3D12CommandQueue.ExecuteCommandLists, ID3D12CommandQueue::ExecuteCommandLists, d3d12/ID3D12CommandQueue::ExecuteCommandLists, direct3d12.id3d12commandqueue_executecommandlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,33 +115,42 @@ The debug layer will issue an error if it detects that any resource referenced b
 
 Renders a scene.
 
-
-```cpp
-// Pipeline objects.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
-ComPtr<IDXGISwapChain3> m_swapChain;
-ComPtr<ID3D11DeviceContext> m_d3d11DeviceContext;
-ComPtr<ID3D11On12Device> m_d3d11On12Device;
-ComPtr<ID3D12Device> m_d3d12Device;
-ComPtr<IDWriteFactory> m_dWriteFactory;
-ComPtr<ID2D1Factory3> m_d2dFactory;
-ComPtr<ID2D1Device2> m_d2dDevice;
-ComPtr<ID2D1DeviceContext2> m_d2dDeviceContext;
-ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
-ComPtr<ID3D11Resource> m_wrappedBackBuffers[FrameCount];
-ComPtr<ID2D1Bitmap1> m_d2dRenderTargets[FrameCount];
-ComPtr<ID3D12CommandAllocator> m_commandAllocators[FrameCount];
-ComPtr<ID3D12CommandQueue> m_commandQueue;
-ComPtr<ID3D12RootSignature> m_rootSignature;
-ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
-ComPtr<ID3D12PipelineState> m_pipelineState;
-ComPtr<ID3D12GraphicsCommandList> m_commandList;
+ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
+ComPtr&lt;ID3D11DeviceContext&gt; m_d3d11DeviceContext;
+ComPtr&lt;ID3D11On12Device&gt; m_d3d11On12Device;
+ComPtr&lt;ID3D12Device&gt; m_d3d12Device;
+ComPtr&lt;IDWriteFactory&gt; m_dWriteFactory;
+ComPtr&lt;ID2D1Factory3&gt; m_d2dFactory;
+ComPtr&lt;ID2D1Device2&gt; m_d2dDevice;
+ComPtr&lt;ID2D1DeviceContext2&gt; m_d2dDeviceContext;
+ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
+ComPtr&lt;ID3D11Resource&gt; m_wrappedBackBuffers[FrameCount];
+ComPtr&lt;ID2D1Bitmap1&gt; m_d2dRenderTargets[FrameCount];
+ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocators[FrameCount];
+ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
+ComPtr&lt;ID3D12RootSignature&gt; m_rootSignature;
+ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
+ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState;
+ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
 D3D12_RECT m_scissorRect;
-
-```
-
-```cpp
-// Render the scene.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Render the scene.
 void D3D1211on12::OnRender()
 {
     // Record all the commands we need to render the scene into the command list.
@@ -149,19 +158,19 @@ void D3D1211on12::OnRender()
 
     // Execute the command list.
     ID3D12CommandList* ppCommandLists[] = { m_commandList.Get() };
-    m_commandQueue->ExecuteCommandLists(_countof(ppCommandLists), ppCommandLists);
+    m_commandQueue-&gt;ExecuteCommandLists(_countof(ppCommandLists), ppCommandLists);
 
     RenderUI();
 
     // Present the frame.
-    ThrowIfFailed(m_swapChain->Present(1, 0));
+    ThrowIfFailed(m_swapChain-&gt;Present(1, 0));
 
     MoveToNextFrame();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

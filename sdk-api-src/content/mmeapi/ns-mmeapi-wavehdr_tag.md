@@ -7,7 +7,7 @@ old-location: multimedia\wavehdr.htm
 tech.root: Multimedia
 ms.assetid: be70ae8e-8d8f-4261-bd0e-c6fd7feec520
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "*LPWAVEHDR, *NPWAVEHDR, *PWAVEHDR, LPWAVEHDR, LPWAVEHDR structure pointer [Windows Multimedia], WAVEHDR, WAVEHDR structure [Windows Multimedia], WHDR_BEGINLOOP, WHDR_DONE, WHDR_ENDLOOP, WHDR_INQUEUE, WHDR_PREPARED, _win32_WAVEHDR_str, mmeapi/LPWAVEHDR, mmeapi/WAVEHDR, multimedia.wavehdr, wavehdr_tag"
 ms.prod: windows
 ms.technology: windows-sdk

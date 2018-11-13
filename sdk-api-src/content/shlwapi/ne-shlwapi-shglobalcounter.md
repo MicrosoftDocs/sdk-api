@@ -60,12 +60,12 @@ Identifiers for various global counters, or shared variables. Each global counte
 
 ### -field GLOBALCOUNTER_SEARCHMANAGER
 
-The global counter for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb231485(v=VS.85).aspx">ISearchManager</a>.
+The global counter for use with the <a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a>.
 
 
 ### -field GLOBALCOUNTER_SEARCHOPTIONS
 
-The global counter for use with <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> to identify whether a query parser's settings have changed.
+The global counter for use with <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a> to identify whether a query parser's settings have changed.
 
 
 ### -field GLOBALCOUNTER_FOLDERSETTINGSCHANGE

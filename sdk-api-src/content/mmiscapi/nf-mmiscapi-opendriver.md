@@ -7,7 +7,7 @@ old-location: multimedia\opendriver.htm
 tech.root: Multimedia
 ms.assetid: 882146f7-cd42-45fd-8a5f-7078b64c7ea8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: OpenDriver, OpenDriver function [Windows Multimedia], _win32_OpenDriver, mmsystem/OpenDriver, multimedia.opendriver
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp.
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0did.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Size property, IFaxIncomingMessage.Size, IFaxIncomingMessage.get_Size, IFaxIncomingMessage::Size, IFaxIncomingMessage::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.size, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp, fax._mfax_faxincomingmessage_size, faxcomex/IFaxIncomingMessage::Size, faxcomex/IFaxIncomingMessage::get_Size, get_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_REAL_x_REAL_y_REAL
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods\drawpie_2penpen_realx_realy_realwidth_realheight.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawPie, DrawPie method [GDI+], DrawPie method [GDI+],Graphics class, Graphics class [GDI+],DrawPie method, Graphics.DrawPie, Graphics.DrawPie(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Graphics.DrawPie(const Pen*,REAL,REAL,REAL,REAL,REAL,REAL), Graphics::DrawPie, Graphics::DrawPie(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawPie_Pen_pen_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sw, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 The following illustration shows the pie that is drawn in the ellipse that is bounded by the rectangle. The illustration also shows the horizontal axis of the ellipse and the direction of the 
 				<i>startAngle</i> and the <i>sweepAngle</i>.
 
-<img alt="Illustration showing an ellipse with an outlined pie; the start angle and sweep angle are labeled" src="./images/drawpie1.png"/>
+<img alt="Illustration showing an ellipse with an outlined pie; the start angle and sweep angle are labeled" src="images/drawpie1.png"/>
 
 #### Examples
 
@@ -137,9 +137,13 @@ The following illustration shows the pie that is drawn in the ellipse that is bo
 
 The following example draws a pie.
 
-
-```cpp
-VOID Example_DrawPie4(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawPie4(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -155,12 +159,12 @@ VOID Example_DrawPie4(HDC hdc)
    REAL sweepAngle = 45.0f;
 
    // Draw the pie.
-   graphics.DrawPie(&blackPen, x, y, width, height, startAngle, sweepAngle);
+   graphics.DrawPie(&amp;blackPen, x, y, width, height, startAngle, sweepAngle);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -173,7 +177,7 @@ VOID Example_DrawPie4(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

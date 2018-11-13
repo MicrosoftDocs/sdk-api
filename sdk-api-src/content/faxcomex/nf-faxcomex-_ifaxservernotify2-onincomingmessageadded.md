@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onincomingmessageadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onincomingmessageadded.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingMessageAdded method, IFaxServerNotify2.OnIncomingMessageAdded, IFaxServerNotify2::OnIncomingMessageAdded, OnIncomingMessageAdded, OnIncomingMessageAdded method [Fax Service], OnIncomingMessageAdded method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingMessageAdded, _IFaxServerNotify2::OnIncomingMessageAdded, _mfax_ifaxservernotify2_onincomingmessageadded, fax._mfax_ifaxservernotify2_onincomingmessageadded, faxcomex/IFaxServerNotify2::OnIncomingMessageAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

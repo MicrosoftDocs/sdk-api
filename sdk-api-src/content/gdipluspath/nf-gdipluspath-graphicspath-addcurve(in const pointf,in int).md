@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_cou
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve_58pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const PointF,IN INT), GraphicsPath.AddCurve(const PointF*,INT), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const PointF,IN INT), _gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,13 @@ You should keep a copy of the <i>points</i> array if those points will be needed
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a cardinal spline to <i>path</i>, and then draws <i>path</i>.
 
-
-```cpp
-VOID AddCurveExample(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID AddCurveExample(HDC hdc)
 {
    Graphics graphics(hdc);
    PointF pts[] = {PointF(50.0f, 50.0f),
@@ -113,11 +117,11 @@ VOID AddCurveExample(HDC hdc)
    path.AddCurve(pts, 4);
    // Draw the path.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&pen, &path);
-}
-```
-
-
+   graphics.DrawPath(&amp;pen, &amp;path);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

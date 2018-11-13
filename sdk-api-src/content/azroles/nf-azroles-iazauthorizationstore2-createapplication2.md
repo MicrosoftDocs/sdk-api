@@ -4,10 +4,10 @@ title: IAzAuthorizationStore2::CreateApplication2
 author: windows-sdk-content
 description: Creates an IAzApplication2 object by using the specified name.
 old-location: security\iazauthorizationstore2_createapplication2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d9af40e4-9ed9-4b81-b808-315eef07a96d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: CreateApplication2, CreateApplication2 method [Security], CreateApplication2 method [Security],IAzAuthorizationStore2 interface, IAzAuthorizationStore2 interface [Security],CreateApplication2 method, IAzAuthorizationStore2.CreateApplication2, IAzAuthorizationStore2::CreateApplication2, azroles/IAzAuthorizationStore2::CreateApplication2, security.iazauthorizationstore2_createapplication2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CreateApplication2</b> method creates an <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object by using the specified name.
+The <b>CreateApplication2</b> method creates an <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object by using the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CreateApplication2</b> method creates an <a href="https://msdn.microsoft.
 
 ### -param bstrApplicationName [in]
 
-The name for the new <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object.
+The name for the new <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppApplication [out]
 
-A pointer to a pointer to the created <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object.
+A pointer to a pointer to the created <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A pointer to a pointer to the created <a href="https://msdn.microsoft.com/en-us/
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -88,9 +88,9 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa377565(v=VS.85).aspx">IAzApplication::Submit</a> method to persist any changes made by the returned object.
+You must call the <a href="https://msdn.microsoft.com/d00d55a1-884f-46c2-b80b-f90ce8f5c648">IAzApplication::Submit</a> method to persist any changes made by the returned object.
 
-The returned <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object is an immediate child object of the <a href="https://msdn.microsoft.com/en-us/library/Aa377582(v=VS.85).aspx">IAzAuthorizationStore2</a> object.
+The returned <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object is an immediate child object of the <a href="https://msdn.microsoft.com/8b3901a9-003f-4346-a0c7-34a1ed730949">IAzAuthorizationStore2</a> object.
 
 
 

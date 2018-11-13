@@ -4,10 +4,10 @@ title: IAzTask::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iaztask_deletepropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4a9ffd54-cd1c-46ab-ab22-5c999b60d802
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AzTask object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzTask object, DeletePropertyItem method [Security],IAzTask interface, IAzTask interface [Security],DeletePropertyItem method, IAzTask.DeletePropertyItem, IAzTask::DeletePropertyItem, azroles/IAzTask::DeletePropertyItem, security.iaztask_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa378381(v=VS.85).aspx">DeleteOperation</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/3f370d04-2115-4dcc-bf18-2d28a52bdead">DeleteOperation</a> method
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa378383(v=VS.85).aspx">DeleteTask</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/1e1288ff-d67b-4180-bfd0-63b81df8f99b">DeleteTask</a> method
 
 </td>
 </tr>

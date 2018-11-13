@@ -4,10 +4,10 @@ title: AddAccessDeniedAceEx function
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessdeniedaceex.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e353c88c-f82e-40c0-b676-38f0060acc81
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: AddAccessDeniedAceEx, AddAccessDeniedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedaceex, security.addaccessdeniedaceex, securitybaseapi/AddAccessDeniedAceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -277,7 +277,7 @@ Although the <b>AddAccessDeniedAceEx</b> function adds the new ACE to the end of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_REAL_x1_REAL_y1_R
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods\drawline_39penpen_realx1_realy1_realx2_realy2.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawLine, DrawLine method [GDI+], DrawLine method [GDI+],Graphics class, Graphics class [GDI+],DrawLine method, Graphics.DrawLine, Graphics.DrawLine(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL), Graphics.DrawLine(const Pen*,REAL,REAL,REAL,REAL), Graphics::DrawLine, Graphics::DrawLine(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawLine_Pen_pen_REAL_x1_REAL_y1_REAL_x2_REAL_y2_, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Pen_pen_REAL_x1_REAL_y1_REAL_x2_REAL_y2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsintersectclipmethods\intersectclip_72rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Graphics class [GDI+],IntersectClip method, Graphics.IntersectClip, Graphics.IntersectClip(IN const RectF &), Graphics.IntersectClip(const RectF&), Graphics::IntersectClip, Graphics::IntersectClip(IN const RectF &), IntersectClip, IntersectClip method [GDI+], IntersectClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IntersectClip_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_IntersectClip_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

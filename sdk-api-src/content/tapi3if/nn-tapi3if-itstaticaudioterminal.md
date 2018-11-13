@@ -54,13 +54,13 @@ The
 <b>ITStaticAudioTerminal</b> interface is an interface that TAPI 3.1 MSPs must expose on all static audio terminals. The interface defines methods on static audio terminal objects that are needed to support phone devices.
 
 If an MSP's audio terminals are for devices that are not accessible via standard audio APIs, then a 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on 
+<a href="_com_iunknown_queryinterface">QueryInterface</a> on 
 <a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a>(IID_ITStaticAudioTerminal) should return E_NOINTERFACE, and it will be impossible to associate a USB phone with any of these audio terminals in TAPI 3.1.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStaticAudioTerminal</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITStaticAudioTerminal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStaticAudioTerminal</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITStaticAudioTerminal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

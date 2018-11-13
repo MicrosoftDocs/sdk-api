@@ -191,9 +191,13 @@ Because other <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599f
 
 The following example shows an OnEvent handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> topic.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 HRESULT CMyNotificationListener::OnEvent(
                                          IN DWORD dwEventID,
@@ -221,10 +225,10 @@ HRESULT CMyNotificationListener::OnEvent(
     
     return hr;
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

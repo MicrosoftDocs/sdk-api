@@ -4,10 +4,10 @@ title: GetVersion function
 author: windows-sdk-content
 description: With the release of Windows 8.1, the behavior of the GetVersion API has changed in the value it will return for the operating system version. The value returned by the GetVersion function now depends on how the application is manifested.
 old-location: base\getversion.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 25cb87c6-e4a5-447e-8153-f12638859d00
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: GetVersion, GetVersion function, _win32_getversion, base.getversion, sysinfoapi/GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,10 +100,14 @@ The following code fragment illustrates how to extract information from the
 <b>GetVersion</b> return value: <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
 
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 
 void main()
 {
@@ -121,7 +125,7 @@ void main()
 
     // Get the build number.
 
-    if (dwVersion < 0x80000000)              
+    if (dwVersion &lt; 0x80000000)              
         dwBuild = (DWORD)(HIWORD(dwVersion));
 
     printf("Version is %d.%d (%d)\n", 
@@ -129,10 +133,10 @@ void main()
                 dwMinorVersion,
                 dwBuild);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

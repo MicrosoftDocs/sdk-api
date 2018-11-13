@@ -4,10 +4,10 @@ title: tagEapPeerMethodResultReason
 author: windows-sdk-content
 description: Defines the set of results of an EAP authentication session returned by an EAP authenticator method to an EAP peer method.
 old-location: eaphost\eappeermethodresultreason.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/12/2018
 ms.keywords: EapPeerMethodResultFailure, EapPeerMethodResultReason, EapPeerMethodResultReason enumeration [EAPHost], EapPeerMethodResultReasonOle, EapPeerMethodResultSuccess, EapPeerMethodResultUnknown, eapauthenticatoractiondefine/EapPeerMethodResultFailure, eapauthenticatoractiondefine/EapPeerMethodResultReason, eapauthenticatoractiondefine/EapPeerMethodResultSuccess, eapauthenticatoractiondefine/EapPeerMethodResultUnknown, eaphost.eappeermethodresultreason, tagEapPeerMethodResultReason
 ms.prod: windows
 ms.technology: windows-sdk

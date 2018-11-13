@@ -2,18 +2,18 @@
 UID: NF:uxtheme.EndPanningFeedback
 title: EndPanningFeedback function
 author: windows-sdk-content
-description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.
-old-location: controls\EndPanningFeedback.htm
-tech.root: controls
-ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm
+description: Initializes the window position information for window panning.
+old-location: wintouch\resetpanningfeedback.htm
+tech.root: wintouch
+ms.assetid: 4d02d124-7f7a-4bda-90af-d8d19e45a09e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Controls], _controls_EndPanningFeedback, _controls_EndPanningFeedback_cpp, controls.EndPanningFeedback, controls._controls_EndPanningFeedback, uxtheme/EndPanningFeedback
+ms.date: 09/26/2018
+ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Touch], uxtheme/EndPanningFeedback, wintouch.resetpanningfeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
-req.include-header: 
+req.include-header: Uxtheme.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
@@ -50,7 +50,8 @@ req.redist:
 ## -description
 
 
-Terminates any existing animation that was in process or set up by <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd373385(v=VS.85).aspx">UpdatePanningFeedback</a>. 
+Initializes the window position information for window panning.
+  
 
 
 ## -parameters
@@ -60,25 +61,19 @@ Terminates any existing animation that was in process or set up by <a href="http
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-The handle to the target window that will receive feedback.
+A handle to the window to end boundary feedback on.
 
 
-### -param fAnimateBack [in]
+### -param fAnimateBack
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
-
-Flag that indicates whether the displaced window should return to the original position using animation. If <b>FALSE</b>, the method restore the moved window using a direct jump.
+Indicates whether the window positioning reset should incorporate a smooth animation.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
-
-<b>TRUE</b> if successful.
+Indicates whether the function succeeded.  Returns <b>TRUE</b> on success; otherwise, returns <b>FALSE</b>.
 
 
 
@@ -87,7 +82,109 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-This function can only be called after a <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> call.
+Panning feedback causes the window that is being manipulated to have a visual cue when a user reaches 
+       the end of a pannable area.  The window may also give the user feedback if he or she attempts to drag it beyond the pannable region.
+
+<div class="alert"><b>Note</b>  If <i>fAnimateBack</i> is set to <b>TRUE</b>, the window will have a smooth animation transition.  If <i>fAnimateBack</i> is set to <b>FALSE</b>, the window "jumps" back instantly. Set <i>fAnimateBack</i> to false if the original window position needs to be restored immediately. </div>
+<div> </div>
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    case WM_GESTURE:        
+        // Get all the vertial scroll bar information
+        si.cbSize = sizeof (si);
+        si.fMask  = SIF_ALL;
+        GetScrollInfo (hWnd, SB_VERT, &amp;si);
+        yPos = si.nPos;
+
+        ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
+        gi.cbSize = sizeof(GESTUREINFO);
+        bResult = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
+
+        if (bResult){
+            // now interpret the gesture            
+            switch (gi.dwID){
+                case GID_BEGIN:
+                   lastY = gi.ptsLocation.y;
+                   CloseGestureInfoHandle((HGESTUREINFO)lParam);
+                   break;                     
+                // A CUSTOM PAN HANDLER
+                // COMMENT THIS CASE OUT TO ENABLE DEFAULT HANDLER BEHAVIOR
+                case GID_PAN:                                                  
+                    
+                    si.nPos -= (gi.ptsLocation.y - lastY) / scale;
+
+                    si.fMask = SIF_POS;
+                    SetScrollInfo (hWnd, SB_VERT, &amp;si, TRUE);
+                    GetScrollInfo (hWnd, SB_VERT, &amp;si);                                                        
+                                               
+                    yOverpan -= lastY - gi.ptsLocation.y;
+                    lastY = gi.ptsLocation.y;
+                     
+                    if (gi.dwFlags &amp; GF_BEGIN){
+                        BeginPanningFeedback(hWnd);
+                        yOverpan = 0;
+                    } else if (gi.dwFlags &amp; GF_END) {
+                        EndPanningFeedback(hWnd, TRUE);
+                        yOverpan = 0;
+                    }
+                           
+                    if (si.nPos == si.nMin || si.nPos &gt;= (si.nMax - si.nPage)){                    
+                        // we reached the bottom / top, pan
+                        UpdatePanningFeedback(hWnd, 0, yOverpan, gi.dwFlags &amp; GF_INERTIA);
+                    }
+                    ScrollWindow(hWnd, 0, yChar * (yPos - si.nPos), NULL, NULL);
+                    UpdateWindow (hWnd);                    
+                                        
+                    return DefWindowProc(hWnd, message, lParam, wParam);
+                case GID_ZOOM:
+                   // Add Zoom handler 
+                   return DefWindowProc(hWnd, message, lParam, wParam);
+                default:
+                   // You have encountered an unknown gesture
+                   return DefWindowProc(hWnd, message, lParam, wParam);
+             }          
+        }else{
+            DWORD dwErr = GetLastError();
+            if (dwErr &gt; 0){
+                // something is wrong 
+                // 87 indicates that you are probably using a bad
+                // value for the gi.cbSize
+            }
+        } 
+        return DefWindowProc (hWnd, message, wParam, lParam);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/97956666-c875-4417-a7d1-8818871408a0">BeginPanningFeedback</a>
+
+
+
+<a href="https://msdn.microsoft.com/7872a4cb-6ae0-449a-866a-58f909b6ef9f">Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/eb01a6df-9969-44d1-a657-4f83fb0b67cb">Improving the Single Finger Panning Experience</a>
+
+
+
+<a href="https://msdn.microsoft.com/ae316f16-e443-4d7e-bb8a-fff6ba495111">UpdatePanningFeedback</a>
+ 
+
+ 
 

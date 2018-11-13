@@ -95,7 +95,7 @@ If the background mode is OPAQUE, the background color is used to fill gaps betw
 
 #### Examples
 
-For an example, see "Example of Owner-Drawn Menu Items" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Owner-Drawn Menu Items" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

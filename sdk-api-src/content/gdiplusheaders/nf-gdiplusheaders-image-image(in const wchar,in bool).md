@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManage
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors\image_53filename_useembeddedcolormanagement.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: FALSE, Image, Image class [GDI+],Image constructor, Image constructor [GDI+], Image constructor [GDI+],Image class, Image.Image, Image.Image(IN const WCHAR,IN BOOL), Image.Image(const WCHAR*,BOOL), Image::Image, Image::Image(IN const WCHAR,IN BOOL), TRUE, _gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ You can construct <b>Image::Image</b> objects based on files of a variety of typ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 

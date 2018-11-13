@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_type_desc.htm
 tech.root: direct3d12
 ms.assetid: B0AF7987-B25B-4496-9B8F-1D9C16DF5E50
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_SHADER_TYPE_DESC, D3D12_SHADER_TYPE_DESC structure, _D3D12_SHADER_TYPE_DESC, d3d12shader/D3D12_SHADER_TYPE_DESC, direct3d12.d3d12_shader_type_desc
 ms.prod: windows
 ms.technology: windows-sdk

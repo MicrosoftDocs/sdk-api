@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_texture_copy_type.htm
 tech.root: direct3d12
 ms.assetid: CF296200-55A7-46B2-BF2C-58806A6A3BBC
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_TEXTURE_COPY_TYPE, D3D12_TEXTURE_COPY_TYPE enumeration, D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT, D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX, d3d12/D3D12_TEXTURE_COPY_TYPE, d3d12/D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT, d3d12/D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX, direct3d12.d3d12_texture_copy_type
 ms.prod: windows
 ms.technology: windows-sdk

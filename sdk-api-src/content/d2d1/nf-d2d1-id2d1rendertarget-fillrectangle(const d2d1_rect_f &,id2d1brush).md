@@ -92,11 +92,15 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
-<img alt="Illustration of two rectangles on a grid background" src="./images/drawrectangleexample_small.png"/>
+<img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
-
-```cpp
-// This method discards device-specific
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// This method discards device-specific
 // resources if the Direct3D device dissapears during execution and
 // recreates the resources the next time it's invoked.
 HRESULT DemoApp::OnRender()
@@ -107,33 +111,33 @@ HRESULT DemoApp::OnRender()
 
     if (SUCCEEDED(hr))
     {
-        m_pRenderTarget->BeginDraw();
+        m_pRenderTarget-&gt;BeginDraw();
 
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
 
-        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
 
-        D2D1_SIZE_F rtSize = m_pRenderTarget->GetSize();
+        D2D1_SIZE_F rtSize = m_pRenderTarget-&gt;GetSize();
 
         // Draw a grid background.
-        int width = static_cast<int>(rtSize.width);
-        int height = static_cast<int>(rtSize.height);
+        int width = static_cast&lt;int&gt;(rtSize.width);
+        int height = static_cast&lt;int&gt;(rtSize.height);
 
-        for (int x = 0; x < width; x += 10)
+        for (int x = 0; x &lt; width; x += 10)
         {
-            m_pRenderTarget->DrawLine(
-                D2D1::Point2F(static_cast<FLOAT>(x), 0.0f),
-                D2D1::Point2F(static_cast<FLOAT>(x), rtSize.height),
+            m_pRenderTarget-&gt;DrawLine(
+                D2D1::Point2F(static_cast&lt;FLOAT&gt;(x), 0.0f),
+                D2D1::Point2F(static_cast&lt;FLOAT&gt;(x), rtSize.height),
                 m_pLightSlateGrayBrush,
                 0.5f
                 );
         }
 
-        for (int y = 0; y < height; y += 10)
+        for (int y = 0; y &lt; height; y += 10)
         {
-            m_pRenderTarget->DrawLine(
-                D2D1::Point2F(0.0f, static_cast<FLOAT>(y)),
-                D2D1::Point2F(rtSize.width, static_cast<FLOAT>(y)),
+            m_pRenderTarget-&gt;DrawLine(
+                D2D1::Point2F(0.0f, static_cast&lt;FLOAT&gt;(y)),
+                D2D1::Point2F(rtSize.width, static_cast&lt;FLOAT&gt;(y)),
                 m_pLightSlateGrayBrush,
                 0.5f
                 );
@@ -156,12 +160,12 @@ HRESULT DemoApp::OnRender()
 
 
         // Draw a filled rectangle.
-        m_pRenderTarget->FillRectangle(&rectangle1, m_pLightSlateGrayBrush);
+        m_pRenderTarget-&gt;FillRectangle(&amp;rectangle1, m_pLightSlateGrayBrush);
 
         // Draw the outline of a rectangle.
-        m_pRenderTarget->DrawRectangle(&rectangle2, m_pCornflowerBlueBrush);
+        m_pRenderTarget-&gt;DrawRectangle(&amp;rectangle2, m_pCornflowerBlueBrush);
 
-        hr = m_pRenderTarget->EndDraw();
+        hr = m_pRenderTarget-&gt;EndDraw();
     }
 
     if (hr == D2DERR_RECREATE_TARGET)
@@ -172,10 +176,10 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>. 
 
 <div class="code"></div>

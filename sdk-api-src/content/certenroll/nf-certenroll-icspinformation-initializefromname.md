@@ -69,7 +69,7 @@ A <b>BSTR</b> variable that contains the name.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -98,50 +98,50 @@ The object is already initialized.
 
 
 
-The <b>InitializeFromName</b> method opens the named provider and queries it to set the following property values on the <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> object:<ul>
+The <b>InitializeFromName</b> method opens the named provider and queries it to set the following property values on the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376605(v=VS.85).aspx">CspAlgorithms</a>
+<a href="https://msdn.microsoft.com/e74f1aa3-883b-40e4-8052-6651eaa4b63f">CspAlgorithms</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376743(v=VS.85).aspx">HasHardwareRandomNumberGenerator</a>
+<a href="https://msdn.microsoft.com/49d79310-90d2-4874-beaf-284abefd950f">HasHardwareRandomNumberGenerator</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376747(v=VS.85).aspx">IsHardwareDevice</a>
+<a href="https://msdn.microsoft.com/d69ade8c-3b74-4391-9048-6511f3d7e9fa">IsHardwareDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376748(v=VS.85).aspx">IsRemovable</a>
+<a href="https://msdn.microsoft.com/ee67670b-80a9-4637-a5ed-84d3430853ea">IsRemovable</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb394685(v=VS.85).aspx">IsSmartCard</a>
+<a href="https://msdn.microsoft.com/cfb88e17-39bb-4b4f-9eb3-3691376f8285">IsSmartCard</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376750(v=VS.85).aspx">IsSoftwareDevice</a>
+<a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376751(v=VS.85).aspx">KeySpec</a>
+<a href="https://msdn.microsoft.com/f66f2f5c-7f50-4be6-973e-844d6cb76f61">KeySpec</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376752(v=VS.85).aspx">LegacyCsp</a>
+<a href="https://msdn.microsoft.com/f798401c-bc78-438d-8847-82a57589ce38">LegacyCsp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376753(v=VS.85).aspx">MaxKeyContainerNameLength</a>
+<a href="https://msdn.microsoft.com/2508786f-0892-4ece-bbef-bd8ed9c81eee">MaxKeyContainerNameLength</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376755(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/86f6993d-c96e-4753-9670-fdcc30e8c019">Name</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376757(v=VS.85).aspx">Type</a>
+<a href="https://msdn.microsoft.com/a52caea6-fbd5-4c06-8a25-e65f7b4a72f7">Type</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376758(v=VS.85).aspx">Valid</a>
+<a href="https://msdn.microsoft.com/507896b0-598c-4a2d-854e-d4d266fdfaf7">Valid</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376759(v=VS.85).aspx">Version</a>
+<a href="https://msdn.microsoft.com/9b5010e3-d4c2-4194-ad8a-f8f4e0a41446">Version</a>
 </li>
 </ul>
 
 
-The method adds the available algorithms to the <a href="https://msdn.microsoft.com/en-us/library/Aa375948(v=VS.85).aspx">ICspAlgorithms</a> collection returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa376605(v=VS.85).aspx">CspAlgorithms</a> property. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa376746(v=VS.85).aspx">InitializeFromType</a> method to initialize the object from a provider type.
+The method adds the available algorithms to the <a href="https://msdn.microsoft.com/bbf8cff4-b1b2-480e-8c30-eb34166db143">ICspAlgorithms</a> collection returned by the <a href="https://msdn.microsoft.com/e74f1aa3-883b-40e4-8052-6651eaa4b63f">CspAlgorithms</a> property. Call the <a href="https://msdn.microsoft.com/24466981-2ea2-41f5-b2db-85b5629fba7d">InitializeFromType</a> method to initialize the object from a provider type.
 
 
 
@@ -151,7 +151,7 @@ The method adds the available algorithms to the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

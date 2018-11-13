@@ -4,10 +4,10 @@ title: IAzTask2
 author: windows-sdk-content
 description: Extends the IAzTask interface with a method that returns the role assignments associated with the task.
 old-location: security\iaztask2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fa9994c5-1866-41ab-9cae-2d0e7208f79c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: IAzTask2, IAzTask2 interface [Security], IAzTask2 interface [Security],described, azroles/IAzTask2, security.iaztask2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RegCloseKey function
 author: windows-sdk-content
 description: Closes a handle to the specified registry key.
 old-location: base\regclosekey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 10175499-abf3-4694-9594-bb97b43f3fa5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclosekey, winreg/RegCloseKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

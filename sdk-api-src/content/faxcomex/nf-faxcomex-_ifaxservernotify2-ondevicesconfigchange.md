@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_ondevicesconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_ondevicesconfigchange.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnDevicesConfigChange method, IFaxServerNotify2.OnDevicesConfigChange, IFaxServerNotify2::OnDevicesConfigChange, OnDevicesConfigChange, OnDevicesConfigChange method [Fax Service], OnDevicesConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnDevicesConfigChange, _IFaxServerNotify2::OnDevicesConfigChange, _mfax_ifaxservernotify2_ondevicesconfigchange, fax._mfax_ifaxservernotify2_ondevicesconfigchange, faxcomex/IFaxServerNotify2::OnDevicesConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

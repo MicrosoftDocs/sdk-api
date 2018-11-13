@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextMarker_startIndex_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextmarkermethods\nextmarker_95startindex_endindex.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextMarker method, GraphicsPathIterator.NextMarker, GraphicsPathIterator.NextMarker(INT*,INT*), GraphicsPathIterator.NextMarker(OUT INT,OUT INT), GraphicsPathIterator::NextMarker, GraphicsPathIterator::NextMarker(OUT INT,OUT INT), NextMarker, NextMarker method [GDI+], NextMarker method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextMarker_startIndex_endIndex_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextMarker_startIndex_endIndex_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,13 @@ The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="https://msdn.microsoft.com/c0c82a33-88f6-4540-9cc9-5cad31a59e58">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the starting and ending indices of the second marker-delimited section of the path. Finally, the code draws the data points that belong to the second marker-delimited section of the path.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID NextMarkerExample2(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -125,14 +129,14 @@ VOID NextMarkerExample2(HDC hdc)
    path.AddRectangle(Rect(420, 20, 60, 30));
  
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&path);
+   GraphicsPathIterator iterator(&amp;path);
 
    // Get the second marker-delimited section by calling NextMarker twice.
    INT start;
    INT end;
    INT count;
-   count = iterator.NextMarker(&start, &end);
-   count = iterator.NextMarker(&start, &end);
+   count = iterator.NextMarker(&amp;start, &amp;end);
+   count = iterator.NextMarker(&amp;start, &amp;end);
 
    // Get the data points of the second marker-delimited section.
    PointF* points = new PointF[count];
@@ -141,9 +145,9 @@ VOID NextMarkerExample2(HDC hdc)
 
    // Draw the data points of the second marker-delimited section.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j < count; ++j)
+   for(INT j = 0; j &lt; count; ++j)
       graphics.FillEllipse(
-         &brush,
+         &amp;brush,
          points[j].X - 3.0f,
          points[j].Y - 3.0f,
          6.0f,
@@ -152,10 +156,10 @@ VOID NextMarkerExample2(HDC hdc)
    delete points;
    delete types;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverid.htm
 tech.root: Multimedia
 ms.assetid: d88ec472-80b7-4563-a09d-65e0e829c14e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "_win32_acmDriverID, acmDriverID, acmDriverID function [Windows Multimedia], msacm/acmDriverID, multimedia.acmdriverid"
 ms.prod: windows-hardware
 ms.technology: windows-devices

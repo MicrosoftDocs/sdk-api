@@ -4,10 +4,10 @@ title: IAzTask::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the task.
 old-location: security\iaztask_description.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 095bf53b-0afa-44f3-87b8-9363dfffef1f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: AzTask object [Security],Description property, Description property [Security], Description property [Security],AzTask object, Description property [Security],IAzTask interface, IAzTask interface [Security],Description property, IAzTask.Description, IAzTask.put_Description, IAzTask::Description, IAzTask::get_Description, IAzTask::put_Description, azroles/IAzTask::Description, azroles/IAzTask::get_Description, azroles/IAzTask::put_Description, put_Description, security.iaztask_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

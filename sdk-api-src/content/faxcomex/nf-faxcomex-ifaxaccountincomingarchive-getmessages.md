@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarc
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\getmessages.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxAccountIncomingArchive interface, IFaxAccountIncomingArchive interface [Fax Service],GetMessages method, IFaxAccountIncomingArchive.GetMessages, IFaxAccountIncomingArchive::GetMessages, _mfax_faxaccountincomingarchive.getmessages, fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_getmessages_cpp, fax._mfax_faxaccountincomingarchive_getmessages, faxcomex/IFaxAccountIncomingArchive::GetMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

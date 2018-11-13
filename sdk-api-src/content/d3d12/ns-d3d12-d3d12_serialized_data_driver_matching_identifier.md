@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_serialized_data_driver_matching_identifier.htm
 tech.root: direct3d12
 ms.assetid: B98D2222-6ADC-4CA4-A75D-21162D7AB3F7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER structure, PD3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, PD3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER structure pointer, d3d12/D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, d3d12/PD3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER, direct3d12.d3d12_serialized_data_driver_matching_identifier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Opaque data structure describing driver versioning for a serialized acceleration structure.  Pass this structure into a call to <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> to determine if a previously serialized acceleration structure is compatible with the current driver/device, and can therefore be deserialized and used for raytracing.
+Opaque data structure describing driver versioning for a serialized acceleration structure.  Pass this structure into a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> to determine if a previously serialized acceleration structure is compatible with the current driver/device, and can therefore be deserialized and used for raytracing.
 
 
 ## -struct-fields

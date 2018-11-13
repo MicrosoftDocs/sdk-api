@@ -4,10 +4,10 @@ title: "_WIN32_MEMORY_RANGE_ENTRY"
 author: windows-sdk-content
 description: Specifies a range of memory.
 old-location: base\win32_memory_range_entry.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d1372687-c397-4ba8-b0c0-2dcf2ec74fbb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "*PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY structure pointer, WIN32_MEMORY_RANGE_ENTRY, WIN32_MEMORY_RANGE_ENTRY structure, _WIN32_MEMORY_RANGE_ENTRY, base.win32_memory_range_entry, winbase/PWIN32_MEMORY_RANGE_ENTRY, winbase/WIN32_MEMORY_RANGE_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

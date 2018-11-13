@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CESSetupProperty</b> enumeration type is used by the <a href="https://msdn.microsoft.com/en-us/library/Ff808379(v=VS.85).aspx">GetProperty</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff808383(v=VS.85).aspx">SetProperty</a> methods on the <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> interface to specify the type of property information to retrieve or set.
+The <b>CESSetupProperty</b> enumeration type is used by the <a href="https://msdn.microsoft.com/4B380551-742C-4D36-80C9-C92F62F916BB">GetProperty</a> and <a href="https://msdn.microsoft.com/D2E20195-D81F-4717-83D2-BF8DC1D1779B">SetProperty</a> methods on the <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> interface to specify the type of property information to retrieve or set.
 
 
 ## -enum-fields
@@ -98,15 +98,15 @@ The property value specifies whether CES can process only certificate renewals.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808379(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/4B380551-742C-4D36-80C9-C92F62F916BB">GetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a>
+<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808383(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/D2E20195-D81F-4717-83D2-BF8DC1D1779B">SetProperty</a>
  
 
  

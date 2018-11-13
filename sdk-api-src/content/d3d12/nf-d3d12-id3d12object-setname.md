@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_setname.htm
 tech.root: direct3d12
 ms.assetid: A1DEEB16-BF75-4391-ADF0-AC22EECBC71A
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: ID3D12Object interface,SetName method, ID3D12Object.SetName, ID3D12Object::SetName, SetName, SetName method, SetName method,ID3D12Object interface, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associa
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

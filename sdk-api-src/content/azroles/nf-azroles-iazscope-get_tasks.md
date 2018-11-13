@@ -4,10 +4,10 @@ title: IAzScope::get_Tasks
 author: windows-sdk-content
 description: Retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.
 old-location: security\iazscope_tasks.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4b8a5280-570d-46eb-a6cb-2723cde3eb15
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: AzScope object [Security],Tasks property, IAzScope interface [Security],Tasks property, IAzScope.Tasks, IAzScope.get_Tasks, IAzScope::Tasks, IAzScope::get_Tasks, Tasks property [Security], Tasks property [Security],AzScope object, Tasks property [Security],IAzScope interface, azroles/IAzScope::Tasks, azroles/IAzScope::get_Tasks, get_Tasks, security.iazscope_tasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

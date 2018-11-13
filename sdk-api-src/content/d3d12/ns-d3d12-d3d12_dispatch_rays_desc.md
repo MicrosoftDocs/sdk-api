@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_dispatch_rays_desc.htm
 tech.root: direct3d12
 ms.assetid: F1DDFA33-A880-4AA2-AB44-43A78F086F19
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_DISPATCH_RAYS_DESC, D3D12_DISPATCH_RAYS_DESC structure, PD3D12_DISPATCH_RAYS_DESC, PD3D12_DISPATCH_RAYS_DESC structure pointer, d3d12/D3D12_DISPATCH_RAYS_DESC, d3d12/PD3D12_DISPATCH_RAYS_DESC, direct3d12.d3d12_dispatch_rays_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the properties of a ray dispatch operation initiated with a call to <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays">ID3D12GraphicsCommandList4::DispatchRays</a>.
+Describes the properties of a ray dispatch operation initiated with a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays">ID3D12GraphicsCommandList4::DispatchRays</a>.
 
 
 ## -struct-fields

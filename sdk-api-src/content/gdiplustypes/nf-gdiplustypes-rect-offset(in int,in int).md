@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods\offset.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],Rect class, Rect class [GDI+],Offset method, Rect.Offset, Rect.Offset(IN INT,IN INT), Rect.Offset(INT,INT), Rect::Offset, Rect::Offset(IN INT,IN INT), _gdiplus_CLASS_Rect_Offset_dx_dy_, gdiplus._gdiplus_CLASS_Rect_Offset_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

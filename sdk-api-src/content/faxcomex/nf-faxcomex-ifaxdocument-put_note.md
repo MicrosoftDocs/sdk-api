@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_note_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8t7p.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxDocument interface [Fax Service],Note property, IFaxDocument.Note, IFaxDocument.get_Note, IFaxDocument.put_Note, IFaxDocument::Note, IFaxDocument::get_Note, IFaxDocument::put_Note, Note property [Fax Service], Note property [Fax Service],IFaxDocument interface, _mfax_faxdocument.note, fax._mfax_faxdocument_cpp_mfax_faxdocument_note_cpp, fax._mfax_faxdocument_note, faxcomex/IFaxDocument::Note, faxcomex/IFaxDocument::get_Note, faxcomex/IFaxDocument::put_Note, put_Note
 ms.prod: windows-hardware
 ms.technology: windows-devices

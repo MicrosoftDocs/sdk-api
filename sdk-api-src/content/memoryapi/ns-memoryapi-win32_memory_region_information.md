@@ -4,10 +4,10 @@ title: WIN32_MEMORY_REGION_INFORMATION
 author: windows-sdk-content
 description: Contains information about a memory region.
 old-location: base\win32_memory_region_information.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: C85C4B35-EED3-4BD4-A322-7C56BCB9D858
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: WIN32_MEMORY_REGION_INFORMATION, WIN32_MEMORY_REGION_INFORMATION structure, base.win32_memory_region_information, memoryapi/WIN32_MEMORY_REGION_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

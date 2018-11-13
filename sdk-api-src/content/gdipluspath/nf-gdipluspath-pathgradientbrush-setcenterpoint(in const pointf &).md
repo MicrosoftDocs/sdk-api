@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterPoint_PointF_poi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushsetcenterpointmethods\setcenterpoint_8pointfamppoint.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: PathGradientBrush class [GDI+],SetCenterPoint method, PathGradientBrush.SetCenterPoint, PathGradientBrush.SetCenterPoint(IN const PointF &), PathGradientBrush.SetCenterPoint(const PointF&), PathGradientBrush::SetCenterPoint, PathGradientBrush::SetCenterPoint(IN const PointF &), SetCenterPoint, SetCenterPoint method [GDI+], SetCenterPoint method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetCenterPoint_PointF_point_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterPoint_PointF_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices

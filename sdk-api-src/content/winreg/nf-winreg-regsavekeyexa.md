@@ -4,10 +4,10 @@ title: RegSaveKeyExA function
 author: windows-sdk-content
 description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 old-location: base\regsavekeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSaveKeyEx, RegSaveKeyEx function, RegSaveKeyExA, RegSaveKeyExW, _win32_regsavekeyex, base.regsavekeyex, winreg/RegSaveKeyEx, winreg/RegSaveKeyExA, winreg/RegSaveKeyExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

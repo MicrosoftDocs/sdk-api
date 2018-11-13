@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onactivityloggingconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onactivityloggingconfigchange.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnActivityLoggingConfigChange method, IFaxServerNotify2.OnActivityLoggingConfigChange, IFaxServerNotify2::OnActivityLoggingConfigChange, OnActivityLoggingConfigChange, OnActivityLoggingConfigChange method [Fax Service], OnActivityLoggingConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnActivityLoggingConfigChange, _IFaxServerNotify2::OnActivityLoggingConfigChange, _mfax_ifaxservernotify2_onactivityloggingconfigchange, fax._mfax_ifaxservernotify2_onactivityloggingconfigchange, faxcomex/IFaxServerNotify2::OnActivityLoggingConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

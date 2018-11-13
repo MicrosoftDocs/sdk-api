@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_lowquotaw
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9nmz.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],LowQuotaWaterMark property, IFaxOutgoingArchive.LowQuotaWaterMark, IFaxOutgoingArchive.get_LowQuotaWaterMark, IFaxOutgoingArchive.put_LowQuotaWaterMark, IFaxOutgoingArchive::LowQuotaWaterMark, IFaxOutgoingArchive::get_LowQuotaWaterMark, IFaxOutgoingArchive::put_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.lowquotawatermark, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_lowquotawatermark_cpp, fax._mfax_faxoutgoingarchive_lowquotawatermark, faxcomex/IFaxOutgoingArchive::LowQuotaWaterMark, faxcomex/IFaxOutgoingArchive::get_LowQuotaWaterMark, faxcomex/IFaxOutgoingArchive::put_LowQuotaWaterMark, put_LowQuotaWaterMark
 ms.prod: windows-hardware
 ms.technology: windows-devices

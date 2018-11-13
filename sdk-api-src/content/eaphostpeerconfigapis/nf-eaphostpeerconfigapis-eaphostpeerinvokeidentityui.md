@@ -4,10 +4,10 @@ title: EapHostPeerInvokeIdentityUI function
 author: windows-sdk-content
 description: This function is called by tunnel methods to invoke the identity UI of the inner methods. This function returns the identity as well as credentials to use in order to start the authentication.
 old-location: eaphost\eaphostpeerinvokeidentityui.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/12/2018
 ms.keywords: EapHostPeerInvokeIdentityUI, EapHostPeerInvokeIdentityUI function [EAPHost], eaphost.eaphostpeerinvokeidentityui, eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_.h
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_77imageimage_rectamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const Rect &), Graphics.DrawImage(Image*,const Rect&), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const Rect &), _gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,9 +102,13 @@ The image is scaled to fit the rectangle.
 
 The following example draws the source image, the rectangle that bounds the resized image, and then draws the resized image to fit the rectangle.
 
-
-```cpp
-VOID Example_DrawImage9(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage9(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -116,23 +120,23 @@ VOID Example_DrawImage9(HDC hdc)
    Pen pen (Color(255, 255, 0, 0), 2);
 
    // Draw the original source image.
-   graphics.DrawImage(&image, 10, 10);
+   graphics.DrawImage(&amp;image, 10, 10);
 
    // Create a Rect object that specifies the destination of the image.
    Rect destRect(200, 50, 150, 75);
 
    // Draw the rectangle that bounds the image.
-   graphics.DrawRectangle(&pen, destRect);
+   graphics.DrawRectangle(&amp;pen, destRect);
 
    // Draw the image.
-   graphics.DrawImage(&image, destRect);
-}
-```
-
-
+   graphics.DrawImage(&amp;image, destRect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing two versions of the same image; the second is slightly narrower than the first, much shorter, and outlined in red" src="./images/drawimage6.png"/>
+<img alt="Illustration showing two versions of the same image; the second is slightly narrower than the first, much shorter, and outlined in red" src="images/drawimage6.png"/>
 
 <div class="code"></div>
 
@@ -147,7 +151,7 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

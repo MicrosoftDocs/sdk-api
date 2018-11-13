@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClipBounds_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetclipboundsmethods\getclipbounds.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetClipBounds, GetClipBounds method [GDI+], GetClipBounds method [GDI+],Graphics class, Graphics class [GDI+],GetClipBounds method, Graphics.GetClipBounds, Graphics.GetClipBounds(OUT Rect), Graphics.GetClipBounds(Rect*), Graphics::GetClipBounds, Graphics::GetClipBounds(OUT Rect), _gdiplus_CLASS_Graphics_GetClipBounds_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_GetClipBounds_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::GetClipBounds</b> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+The <b>Graphics::GetClipBounds</b> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 The world transformation is applied to the clipping region and then the enclosing rectangle is calculated.
 
 If you do not explicitly set the clipping region of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, its clipping region is infinite. When the clipping region is infinite, <b>Graphics::GetClipBounds</b> returns a large rectangle. The 
+				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, its clipping region is infinite. When the clipping region is infinite, <b>Graphics::GetClipBounds</b> returns a large rectangle. The 
 				<b>X</b> and 
 				<b>Y</b> data members of that rectangle are large negative numbers, and the 
 				<b>Width</b> and 
@@ -100,9 +100,13 @@ If you do not explicitly set the clipping region of a
 
 The following example sets a clipping region, gets the rectangle that encloses the clipping region, and then fills the rectangle.
 
-
-```cpp
-VOID Example_GetClipBounds(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetClipBounds(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -118,20 +122,20 @@ VOID Example_GetClipBounds(HDC hdc)
    myRegion.Union(rect);
 
    // Set the clipping region of the graphics object.
-   graphics.SetClip(&myRegion);
+   graphics.SetClip(&amp;myRegion);
 
    // Now, get the clipping region, and fill it.
-   graphics.GetClip(&gRegion);
-   graphics.FillRegion(&blueBrush, &gRegion);
+   graphics.GetClip(&amp;gRegion);
+   graphics.FillRegion(&amp;blueBrush, &amp;gRegion);
 
    // Get a rectangle that encloses the clipping region, and draw the enclosing
    // rectangle.
-   graphics.GetClipBounds(&enclosingRect);
+   graphics.GetClipBounds(&amp;enclosingRect);
    graphics.ResetClip();
-   graphics.DrawRectangle(&greenPen, enclosingRect);}
-```
-
-
+   graphics.DrawRectangle(&amp;greenPen, enclosingRect);}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -152,7 +156,7 @@ VOID Example_GetClipBounds(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

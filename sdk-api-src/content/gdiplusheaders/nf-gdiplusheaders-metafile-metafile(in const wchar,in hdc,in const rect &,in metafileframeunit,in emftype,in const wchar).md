@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_refere
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_42wcharfilename_hdcreferencehdc_rectampf.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), Metafile.Metafile(const WCHAR*,HDC,const Rect&,MetaFileFrameUnit,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr, gdiplus._gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,7 +123,7 @@ When recording to a file, the file must be writable, and Windows GDI+ must be ab
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
 
 
 

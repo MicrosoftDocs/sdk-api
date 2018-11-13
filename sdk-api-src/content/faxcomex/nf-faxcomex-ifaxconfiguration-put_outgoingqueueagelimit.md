@@ -7,7 +7,7 @@ old-location: fax\_mfax_IFaxConfiguration_OutgoingQueueAgeLimit.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\outgoingqueueagelimit.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],OutgoingQueueAgeLimit property, IFaxConfiguration.OutgoingQueueAgeLimit, IFaxConfiguration.put_OutgoingQueueAgeLimit, IFaxConfiguration::OutgoingQueueAgeLimit, IFaxConfiguration::get_OutgoingQueueAgeLimit, IFaxConfiguration::put_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_IFaxConfiguration_OutgoingQueueAgeLimit, faxcomex/IFaxConfiguration::OutgoingQueueAgeLimit, faxcomex/IFaxConfiguration::get_OutgoingQueueAgeLimit, faxcomex/IFaxConfiguration::put_OutgoingQueueAgeLimit, put_OutgoingQueueAgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

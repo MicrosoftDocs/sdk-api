@@ -4,10 +4,10 @@ title: IAzClientContext2::AddRoles
 author: windows-sdk-content
 description: Adds the specified array of existing IAzRole objects to the client context.
 old-location: security\iazclientcontext2_addroles.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fa81e935-1207-44dd-85cb-215f754575fe
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddRoles method, IAzClientContext2.AddRoles, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles
 ms.prod: windows-hardware
 ms.technology: windows-devices

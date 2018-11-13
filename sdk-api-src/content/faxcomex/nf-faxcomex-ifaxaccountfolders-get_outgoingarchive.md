@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingarc
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\outgoingarchive.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxAccountFolders interface [Fax Service],OutgoingArchive property, IFaxAccountFolders.OutgoingArchive, IFaxAccountFolders.get_OutgoingArchive, IFaxAccountFolders::OutgoingArchive, IFaxAccountFolders::get_OutgoingArchive, OutgoingArchive property [Fax Service], OutgoingArchive property [Fax Service],IFaxAccountFolders interface, _mfax_faxaccountfolders.outgoingarchive, fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingarchive_cpp, fax._mfax_faxaccountfolders_outgoingarchive, faxcomex/IFaxAccountFolders::OutgoingArchive, faxcomex/IFaxAccountFolders::get_OutgoingArchive, get_OutgoingArchive
 ms.prod: windows-hardware
 ms.technology: windows-devices

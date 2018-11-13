@@ -4,10 +4,10 @@ title: RegReplaceKeyA function
 author: windows-sdk-content
 description: Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.
 old-location: base\regreplacekey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

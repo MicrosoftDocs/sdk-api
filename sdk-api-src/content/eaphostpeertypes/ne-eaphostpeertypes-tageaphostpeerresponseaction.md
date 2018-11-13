@@ -4,10 +4,10 @@ title: tagEapHostPeerResponseAction
 author: windows-sdk-content
 description: Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.
 old-location: eaphost\eaphostpeerresponseaction.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 59bf6e02-90b5-4f9a-9865-b71852c61db9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/12/2018
 ms.keywords: EapHostPeerResponseAction, EapHostPeerResponseAction enumeration [EAPHost], EapHostPeerResponseDiscard, EapHostPeerResponseInvokeUI, EapHostPeerResponseNone, EapHostPeerResponseRespond, EapHostPeerResponseResult, EapHostPeerResponseSend, EapHostPeerResponseStartAuthentication, eaphost.eaphostpeerresponseaction, eaphostpeertypes/EapHostPeerResponseAction, eaphostpeertypes/EapHostPeerResponseDiscard, eaphostpeertypes/EapHostPeerResponseInvokeUI, eaphostpeertypes/EapHostPeerResponseNone, eaphostpeertypes/EapHostPeerResponseRespond, eaphostpeertypes/EapHostPeerResponseResult, eaphostpeertypes/EapHostPeerResponseSend, eaphostpeertypes/EapHostPeerResponseStartAuthentication, tagEapHostPeerResponseAction
 ms.prod: windows
 ms.technology: windows-sdk

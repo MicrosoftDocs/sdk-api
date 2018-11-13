@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_INT_width_INT_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_53intx_inty_intwidth_intheight_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics), Region.IsVisible(INT,INT,INT,INT,const Graphics*), Region::IsVisible, Region::IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_INT_width_INT_height_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_INT_width_INT_height_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,9 +119,13 @@ If the rectangle intersects this region, the method returns <b>TRUE</b>; otherwi
 
 The following example creates a region from a path and then tests to determine whether a rectangle intersects the region.
 
-
-```cpp
-VOID Example_IsVisibleXYWH(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsVisibleXYWH(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -139,23 +143,23 @@ VOID Example_IsVisibleXYWH(HDC hdc)
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&path);
-   graphics.FillRegion(&solidBrush, &pathRegion);
+   Region pathRegion(&amp;path);
+   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
 
    // Check to see whether the rectangle intersects the region.
    // The rectangle has upper-left corner (65, 25), width 70, and height 30.
-   if(pathRegion.IsVisible(65, 25, 70, 30, &graphics))
+   if(pathRegion.IsVisible(65, 25, 70, 30, &amp;graphics))
    {
       // All or part of the rectangle is in the region.
    }
 
    // Draw the rectangle.
    Pen pen(Color(255, 0, 0, 0));
-   graphics.DrawRectangle(&pen, 65, 25, 70, 30);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, 65, 25, 70, 30);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -172,7 +176,7 @@ VOID Example_IsVisibleXYWH(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
  
 
  

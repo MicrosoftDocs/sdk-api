@@ -1,0 +1,110 @@
+---
+UID: NF:minwinbase.LocalDiscard
+title: LocalDiscard macro
+author: windows-sdk-content
+description: Discards the specified local memory object. The lock count of the memory object must be zero.
+old-location: base\localdiscard.htm
+tech.root: Memory
+ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
+ms.author: windowssdkdev
+ms.date: 11/12/2018
+ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: minwinbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minwinbase.h
+api_name:
+ - LocalDiscard
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# LocalDiscard macro
+
+
+## -description
+
+
+Discards the specified local memory object. The lock count of the memory object must be zero.
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>.</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param h
+
+TBD
+
+
+
+
+
+
+#### - hlocMem [in]
+
+A handle to the local memory object. This handle is returned by either the 
+<a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or 
+<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a> function.
+
+
+## -remarks
+
+
+
+Although 
+<b>LocalDiscard</b> discards the object's memory block, the handle to the object remains valid. A process can subsequently pass the handle to the 
+<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a> function to allocate another local memory object identified by the same handle.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>
+
+
+
+<a href="https://msdn.microsoft.com/88527ddd-e0c2-4a41-825e-d3a6df77fd2a">LocalReAlloc</a>
+
+
+
+<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+		  Management Functions</a>
+ 
+
+ 
+

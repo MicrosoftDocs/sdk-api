@@ -4,10 +4,10 @@ title: tagHW_PROFILE_INFOA
 author: windows-sdk-content
 description: Contains information about a hardware profile.
 old-location: base\hw_profile_info_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "*LPHW_PROFILE_INFOA, DOCKINFO_DOCKED, DOCKINFO_UNDOCKED, DOCKINFO_USER_DOCKED, DOCKINFO_USER_SUPPLIED, DOCKINFO_USER_UNDOCKED, HW_PROFILE_INFO, HW_PROFILE_INFO structure, HW_PROFILE_INFOA, HW_PROFILE_INFOW, LPHW_PROFILE_INFO, LPHW_PROFILE_INFO structure pointer, _win32_hw_profile_info_str, base.hw_profile_info_str, tagHW_PROFILE_INFOA, tagHW_PROFILE_INFOW, winbase/HW_PROFILE_INFO, winbase/HW_PROFILE_INFOA, winbase/HW_PROFILE_INFOW, winbase/LPHW_PROFILE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

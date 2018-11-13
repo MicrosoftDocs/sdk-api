@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Image_stream_useEmbeddedColorManageme
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors\image_28stream_useembeddedcolormanagement.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: FALSE, Image, Image class [GDI+],Image constructor, Image constructor [GDI+], Image constructor [GDI+],Image class, Image.Image, Image.Image(IN IStream,IN BOOL), Image.Image(IStream*,BOOL), Image::Image, Image::Image(IN IStream,IN BOOL), TRUE, _gdiplus_CLASS_Image_Image_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_Image_stream_useEmbeddedColorManagement_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ Specifies that color correction is not enabled
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 

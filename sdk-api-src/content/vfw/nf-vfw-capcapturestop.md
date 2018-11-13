@@ -7,7 +7,7 @@ old-location: multimedia\capcapturestop.htm
 tech.root: Multimedia
 ms.assetid: 79b33f36-1bf9-41f2-827f-d0cfa276113e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "_win32_capCaptureStop, capCaptureStop, capCaptureStop macro [Windows Multimedia], multimedia.capcapturestop, vfw/capCaptureStop"
 ms.prod: windows-hardware
 ms.technology: windows-devices

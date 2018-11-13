@@ -4,10 +4,10 @@ title: IAzScopes
 author: windows-sdk-content
 description: Represents a collection of IAzScope objects.
 old-location: security\iazscopes.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f00953bf-b90a-4812-a87d-a66b98a2e95f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: IAzScopes, IAzScopes interface [Security], IAzScopes interface [Security],described, azroles/IAzScopes, security.iazscopes
 ms.prod: windows
 ms.technology: windows-sdk

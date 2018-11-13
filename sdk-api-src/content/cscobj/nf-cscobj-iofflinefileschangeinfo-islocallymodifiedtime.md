@@ -77,7 +77,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Bb530571(v=VS.85).aspx">IOfflineFilesFileSysInfo::GetTimes</a> to examine the time values associated with an item.
+Use <a href="https://msdn.microsoft.com/120b3f7c-6a92-4a03-8676-1ad4e4dc96b3">IOfflineFilesFileSysInfo::GetTimes</a> to examine the time values associated with an item.
 
 
 
@@ -87,7 +87,7 @@ Use <a href="https://msdn.microsoft.com/en-us/library/Bb530571(v=VS.85).aspx">IO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530504(v=VS.85).aspx">IOfflineFilesChangeInfo</a>
+<a href="https://msdn.microsoft.com/0ece6120-bd5d-4e3d-b71f-7aa9a51a1568">IOfflineFilesChangeInfo</a>
  
 
  

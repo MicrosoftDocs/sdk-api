@@ -7,7 +7,7 @@ old-location: multimedia\midioutlongmsg.htm
 tech.root: Multimedia
 ms.assetid: 7fda802b-eed5-4a27-8bc0-1f43f4722d33
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "_win32_midiOutLongMsg, midiOutLongMsg, midiOutLongMsg function [Windows Multimedia], mmeapi/midiOutLongMsg, multimedia.midioutlongmsg"
 ms.prod: windows-hardware
 ms.technology: windows-devices

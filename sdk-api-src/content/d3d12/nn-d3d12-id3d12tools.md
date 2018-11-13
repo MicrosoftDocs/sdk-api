@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12tools.htm
 tech.root: direct3d12
 ms.assetid: F192AC22-1FD9-496D-9943-99FB424DD214
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: ID3D12Tools, ID3D12Tools interface, ID3D12Tools interface,described, d3d12/ID3D12Tools, direct3d12.id3d12tools
 ms.prod: windows
 ms.technology: windows-sdk

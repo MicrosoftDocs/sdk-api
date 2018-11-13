@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_poi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawclosedcurvemethods\drawclosedcurve_26penpen_pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawClosedCurve method, Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN INT), Graphics.DrawClosedCurve(const Pen*,const PointF*,INT), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,9 +111,13 @@ Each ending point is the starting point for the next cardinal spline. In a close
 
 The following example draws a closed cardinal spline.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawClosedCurve3(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -138,21 +142,21 @@ VOID Example_DrawClosedCurve3(HDC hdc)
       point7};
 
    // Draw the closed curve.
-   graphics.DrawClosedCurve(&greenPen, curvePoints, 7);
+   graphics.DrawClosedCurve(&amp;greenPen, curvePoints, 7);
 
    // Draw the points in the curve.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 495, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(595, 195, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(695, 395, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 495, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(595, 195, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(695, 395, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

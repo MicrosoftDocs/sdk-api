@@ -4,10 +4,10 @@ title: EapPeerCredentialsXml2Blob function
 author: windows-sdk-content
 description: Converts XML into the configuration BLOB.
 old-location: eaphost\eappeercredentialsxml2blob.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 45a13be7-9a01-467b-97db-ca896d945ee7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/12/2018
 ms.keywords: EapPeerCredentialsXml2Blob, EapPeerCredentialsXml2Blob function [EAPHost], eaphost.eappeercredentialsxml2blob, eapmethodpeerapis/EapPeerCredentialsXml2Blob
 ms.prod: windows-hardware
 ms.technology: windows-devices

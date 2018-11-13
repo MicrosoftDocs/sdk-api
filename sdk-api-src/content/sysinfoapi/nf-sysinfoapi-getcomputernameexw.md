@@ -4,10 +4,10 @@ title: GetComputerNameExW function
 author: windows-sdk-content
 description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 old-location: base\getcomputernameex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -250,13 +250,17 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 #### Examples
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _WIN32_WINNT 0x0500
 
-```cpp
-#define _WIN32_WINNT 0x0500
-
-#include <windows.h>
-#include <stdio.h>
-#include <tchar.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;tchar.h&gt;
 
 void _tmain(void)
 {
@@ -272,9 +276,9 @@ void _tmain(void)
     int cnf = 0;
     DWORD dwSize = sizeof(buffer);
     
-    for (cnf = 0; cnf < ComputerNameMax; cnf++)
+    for (cnf = 0; cnf &lt; ComputerNameMax; cnf++)
     {
-        if (!GetComputerNameEx((COMPUTER_NAME_FORMAT)cnf, buffer, &dwSize))
+        if (!GetComputerNameEx((COMPUTER_NAME_FORMAT)cnf, buffer, &amp;dwSize))
         {
             _tprintf(TEXT("GetComputerNameEx failed (%d)\n"), GetLastError());
             return;
@@ -285,10 +289,10 @@ void _tmain(void)
         ZeroMemory(buffer, dwSize);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

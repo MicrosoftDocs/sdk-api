@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_job_operations_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1ijx.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: FAX_JOB_OPERATIONS_ENUM, FAX_JOB_OPERATIONS_ENUM enumeration [Fax Service], _mfax_fax_job_operations_enum, fax._mfax_fax_job_operations_enum, faxcomex/FAX_JOB_OPERATIONS_ENUM, faxcomex/fjoDELETE, faxcomex/fjoPAUSE, faxcomex/fjoRECIPIENT_INFO, faxcomex/fjoRESTART, faxcomex/fjoRESUME, faxcomex/fjoSENDER_INFO, faxcomex/fjoVIEW, fjoDELETE, fjoPAUSE, fjoRECIPIENT_INFO, fjoRESTART, fjoRESUME, fjoSENDER_INFO, fjoVIEW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,15 +98,15 @@ The job's sender information can be retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684593(v=VS.85).aspx">AvailableOperations</a>
+<a href="https://msdn.microsoft.com/04149d5c-e26f-4cef-9ae0-eba2a199ec51">AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684920(v=VS.85).aspx">IFaxJobStatus::get_AvailableOperations</a>
+<a href="https://msdn.microsoft.com/113087c6-90dc-4bbc-ace6-b020d9949350">IFaxJobStatus::get_AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690257(v=VS.85).aspx">IFaxOutgoingJob::get_AvailableOperations</a>
+<a href="https://msdn.microsoft.com/4d97ef95-77d0-4616-afcd-7adbc26ff3c5">IFaxOutgoingJob::get_AvailableOperations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_index_buffer_view.htm
 tech.root: direct3d12
 ms.assetid: CADD98BF-EDA9-43D6-9ADA-392051541B61
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_INDEX_BUFFER_VIEW, D3D12_INDEX_BUFFER_VIEW structure, d3d12/D3D12_INDEX_BUFFER_VIEW, direct3d12.d3d12_index_buffer_view
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The size in bytes of the index buffer.
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the index-buffer format.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the index-buffer format.
           
 
 

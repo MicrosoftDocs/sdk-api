@@ -87,15 +87,19 @@ The <code>XMVectorDivide</code> divides each component of an instance of <a href
 
 The following code is generally faster than calling <code>XMVectorDivide</code> if the loss of precision is tolerable.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR R = XMVectorReciprocalEst(V2)    
 XMVectorMultiply(V1,R)
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="https://msdn.microsoft.com/en-us/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
+Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="https://msdn.microsoft.com/6118d41b-f0b4-4034-aa98-d8757f18ca0d">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many 
 
 #### Examples
 
-The following example code shows a <a href="https://msdn.microsoft.com/en-us/library/Dd388198(v=VS.85).aspx">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
+The following example code shows a <a href="https://msdn.microsoft.com/6118d41b-f0b4-4034-aa98-d8757f18ca0d">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

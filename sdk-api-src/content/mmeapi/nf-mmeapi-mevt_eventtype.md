@@ -7,7 +7,7 @@ old-location: multimedia\mevt_eventtype.htm
 tech.root: Multimedia
 ms.assetid: ce2ca2b4-129c-4164-ad0c-de748b4a29aa
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: MEVT_EVENTTYPE, MEVT_EVENTTYPE macro [Windows Multimedia], _win32_MEVT_EVENTTYPE, mmeapi/MEVT_EVENTTYPE, multimedia.mevt_eventtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,18 @@ Code for the MIDI event and the event parameters or length, as specified in the 
 
 The <b>MEVT_EVENTTYPE</b> macro is defined as follows:
 
-
-```cpp
-
-#define MEVT_EVENTTYPE(x) ((BYTE) (((x)>>24)&0xFF)) 
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#define MEVT_EVENTTYPE(x) ((BYTE) (((x)&gt;&gt;24)&amp;0xFF)) 
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

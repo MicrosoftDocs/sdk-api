@@ -51,7 +51,7 @@ req.redist:
 
 
 The SOCKADDR_IN6 structure specifies a transport address and port for the 
-  <a href="https://msdn.microsoft.com/library/Ff543746(v=VS.85).aspx">AF_INET6</a> address family.
+  <a href="netvista.af_inet6">AF_INET6</a> address family.
 
 
 ## -struct-fields
@@ -265,7 +265,7 @@ The size of the SOCKADDR_IN6 structure is too large to fit in the memory space t
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff543746(v=VS.85).aspx">AF_INET6</a>
+<a href="netvista.af_inet6">AF_INET6</a>
 
 
 

@@ -4,10 +4,10 @@ title: GetNamedSecurityInfoA function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for an object specified by name.
 old-location: security\getnamedsecurityinfo.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,7 +172,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -184,7 +184,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375728(v=VS.85).aspx">Privilege Constants</a>
+<a href="authorization_constants.htm">Privilege Constants</a>
 
 
 

@@ -4,10 +4,10 @@ title: GetTickCount64 function
 author: windows-sdk-content
 description: Retrieves the number of milliseconds that have elapsed since the system was started.
 old-location: base\gettickcount64.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 3ebf05b9-cc53-43ae-bbcb-7841793a9d84
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64
 ms.prod: windows-hardware
 ms.technology: windows-devices

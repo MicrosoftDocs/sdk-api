@@ -65,7 +65,7 @@ A WAVFORMATEX describing the format for the stream buffer.
 
 ### -field MaxFrameCount
 
-Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
+Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
 
 
 ## -remarks

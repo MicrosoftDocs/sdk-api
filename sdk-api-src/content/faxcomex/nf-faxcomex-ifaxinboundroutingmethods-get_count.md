@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethods_cpp_mfax_faxinboundroutingmetho
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_956c.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxInboundRoutingMethods interface, IFaxInboundRoutingMethods interface [Fax Service],Count property, IFaxInboundRoutingMethods.Count, IFaxInboundRoutingMethods.get_Count, IFaxInboundRoutingMethods::Count, IFaxInboundRoutingMethods::get_Count, _mfax_faxinboundroutingmethods.count, fax._mfax_faxinboundroutingmethods_count, fax._mfax_faxinboundroutingmethods_cpp_mfax_faxinboundroutingmethods_count_cpp, faxcomex/IFaxInboundRoutingMethods::Count, faxcomex/IFaxInboundRoutingMethods::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxInboundRoutingMethods::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a> collection. This is the total number of inbound routing methods associated with the fax server.
+The <b>IFaxInboundRoutingMethods::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a> collection. This is the total number of inbound routing methods associated with the fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a>
+<a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a>
+<a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

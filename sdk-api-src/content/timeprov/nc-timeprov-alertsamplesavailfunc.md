@@ -4,10 +4,10 @@ title: AlertSamplesAvailFunc
 author: windows-sdk-content
 description: Notifies the system that there are new time samples available.
 old-location: base\alertsamplesavail.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f90da019-072e-46c9-8e05-0321a9960968
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamplesAvailFunc callback function, _win32_alertsamplesavail, base.alertsamplesavail, timeprov/AlertSamplesAvailFunc
 ms.prod: windows
 ms.technology: windows-sdk

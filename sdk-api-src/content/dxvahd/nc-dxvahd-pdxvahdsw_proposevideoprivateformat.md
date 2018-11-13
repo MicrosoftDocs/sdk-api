@@ -96,9 +96,13 @@ If the function succeeds, the <a href="https://msdn.microsoft.com/c467a077-104c-
 
 The following code shows how a plug-in device proposes <b>D3DFMT_A8R8G8B8</b> as an alternative surface format for AYUV. 
 
-
-```
-HRESULT CALLBACK ProposeVideoPrivateFormat(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CALLBACK ProposeVideoPrivateFormat(
     HANDLE hDevice,
     D3DFORMAT* pFormat 
     )
@@ -113,10 +117,10 @@ HRESULT CALLBACK ProposeVideoPrivateFormat(
             return E_FAIL;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

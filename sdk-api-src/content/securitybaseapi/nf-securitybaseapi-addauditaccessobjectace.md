@@ -4,10 +4,10 @@ title: AddAuditAccessObjectAce function
 author: windows-sdk-content
 description: Adds a system-audit access control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addauditaccessobjectace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: be852a0c-9d96-4b29-b5f9-d9c41d838c12
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: AddAuditAccessObjectAce, AddAuditAccessObjectAce function [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUCCESSFUL_ACCESS_ACE_FLAG, _win32_addauditaccessobjectace, security.addauditaccessobjectace, securitybaseapi/AddAuditAccessObjectAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -328,7 +328,7 @@ If both <i>ObjectTypeGuid</i> and <i>InheritedObjectTypeGuid</i> are <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

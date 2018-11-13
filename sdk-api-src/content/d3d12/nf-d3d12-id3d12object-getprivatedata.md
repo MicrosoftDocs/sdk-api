@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_getprivatedata.htm
 tech.root: direct3d12
 ms.assetid: B2F1FFBE-1680-40D7-8B99-07FCA3F3EA0B
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,ID3D12Object interface, ID3D12Object interface,GetPrivateData method, ID3D12Object.GetPrivateData, ID3D12Object::GetPrivateData, d3d12/ID3D12Object::GetPrivateData, direct3d12.id3d12object_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ A pointer to a memory block that receives the data from the device object if <i>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

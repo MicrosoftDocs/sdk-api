@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_PointF_point_Graphic
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_6pointfamppoint_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN const PointF &,IN const Graphics), GraphicsPath.IsVisible(const PointF&,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN const PointF &,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_PointF_point_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_PointF_point_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices

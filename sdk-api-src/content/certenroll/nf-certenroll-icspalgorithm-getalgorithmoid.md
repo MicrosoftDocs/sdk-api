@@ -77,7 +77,7 @@ A <b>LONG</b> variable that identifies the required key size of the symmetric en
 
 ### -param AlgFlags [in]
 
-An  <a href="https://msdn.microsoft.com/en-us/library/Aa374813(v=VS.85).aspx">AlgorithmFlags</a> enumeration value that specifies whether to search for a key wrapping algorithm. This can be one of the following values:<ul>
+An  <a href="https://msdn.microsoft.com/0f067687-ae92-4500-af19-80f537620bb9">AlgorithmFlags</a> enumeration value that specifies whether to search for a key wrapping algorithm. This can be one of the following values:<ul>
 <li><b>AlgorithmFlagsNone</b></li>
 <li><b>AlgorithmFlagsWrap</b></li>
 </ul>
@@ -99,7 +99,7 @@ Specifying <b>AlgorithmFlagsWrap</b> causes this method to search for algorithms
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> interface that represents the algorithm OID.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> interface that represents the algorithm OID.
 
 
 ## -returns
@@ -108,7 +108,7 @@ Address of a variable that receives a pointer to an <a href="https://msdn.micros
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ The algorithm OID could not be found.
 </dl>
 </td>
 <td width="60%">
-The CSP information has not been initialized. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> interface.
+The CSP information has not been initialized. For more information, see the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interface.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The CSP information has not been initialized. For more information, see the <a h
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa376745(v=VS.85).aspx">InitializeFromName</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa376746(v=VS.85).aspx">InitializeFromType</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> interface before calling <b>GetAlgorithmOid</b>.
+You must call the <a href="https://msdn.microsoft.com/b405503f-2af5-4a2f-abdb-e2eb108c4b1b">InitializeFromName</a> method or the <a href="https://msdn.microsoft.com/24466981-2ea2-41f5-b2db-85b5629fba7d">InitializeFromType</a> method on the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interface before calling <b>GetAlgorithmOid</b>.
 
 
 
@@ -159,7 +159,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa376745(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
  
 
  

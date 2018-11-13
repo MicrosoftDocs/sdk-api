@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_serialized_data_type.htm
 tech.root: direct3d12
 ms.assetid: A1A64D1C-64F9-4317-9BA3-AD4CC0D9F2BF
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE, D3D12_SERIALIZED_DATA_TYPE, D3D12_SERIALIZED_DATA_TYPE enumeration, d3d12/D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE, d3d12/D3D12_SERIALIZED_DATA_TYPE, direct3d12.d3d12_serialized_data_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the type of serialized data. Use a value from this enumeration when calling <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a>.
+Specifies the type of serialized data. Use a value from this enumeration when calling <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a>.
 
 
 ## -enum-fields

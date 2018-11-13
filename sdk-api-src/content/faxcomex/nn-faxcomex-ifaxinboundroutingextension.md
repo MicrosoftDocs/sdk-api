@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextension_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0t66_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxInboundRoutingExtension, IFaxInboundRoutingExtension interface [Fax Service], IFaxInboundRoutingExtension interface [Fax Service],described, _mfax_faxinboundroutingextension_cpp, fax._mfax_faxinboundroutingextension_cpp, faxcomex/IFaxInboundRoutingExtension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IFaxInboundRoutingExtension</b> interface defines a configuration object 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtension</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtension</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxInboundRoutingExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtension</
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686785(v=VS.85).aspx">Debug</a>
+<a href="https://msdn.microsoft.com/7c47b4d4-269e-48fe-9a0f-951e0e5dbb01">Debug</a>
 
 
 </td>
@@ -81,14 +81,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686785(v=VS.85).aspx">IFaxInboundRoutingExtension::get_Debug</a> property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.
+The <a href="https://msdn.microsoft.com/7c47b4d4-269e-48fe-9a0f-951e0e5dbb01">IFaxInboundRoutingExtension::get_Debug</a> property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686170(v=VS.85).aspx">FriendlyName</a>
+<a href="https://msdn.microsoft.com/90f52d04-31c2-4b48-bb6d-ea068728b67e">FriendlyName</a>
 
 
 </td>
@@ -97,14 +97,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686170(v=VS.85).aspx">IFaxInboundRoutingExtension::get_FriendlyName</a> property is a null-terminated string that contains the user-friendly name for the fax routing extension. The string is suitable for display to users.
+The <a href="https://msdn.microsoft.com/90f52d04-31c2-4b48-bb6d-ea068728b67e">IFaxInboundRoutingExtension::get_FriendlyName</a> property is a null-terminated string that contains the user-friendly name for the fax routing extension. The string is suitable for display to users.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684599(v=VS.85).aspx">ImageName</a>
+<a href="https://msdn.microsoft.com/ace23017-9839-4c5c-a992-e038ae1c0635">ImageName</a>
 
 
 </td>
@@ -113,14 +113,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684599(v=VS.85).aspx">IFaxInboundRoutingExtension::get_ImageName</a> property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension.
+The <a href="https://msdn.microsoft.com/ace23017-9839-4c5c-a992-e038ae1c0635">IFaxInboundRoutingExtension::get_ImageName</a> property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687447(v=VS.85).aspx">InitErrorCode</a>
+<a href="https://msdn.microsoft.com/64aaac61-00ba-4888-b177-b847d8896e09">InitErrorCode</a>
 
 
 </td>
@@ -129,14 +129,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687447(v=VS.85).aspx">IFaxInboundRoutingExtension::get_InitErrorCode</a> property is a value that specifies the last error code that the fax routing extension returned while the fax service was loading and initializing the fax routing extension's DLL.
+The <a href="https://msdn.microsoft.com/64aaac61-00ba-4888-b177-b847d8896e09">IFaxInboundRoutingExtension::get_InitErrorCode</a> property is a value that specifies the last error code that the fax routing extension returned while the fax service was loading and initializing the fax routing extension's DLL.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684564(v=VS.85).aspx">MajorBuild</a>
+<a href="https://msdn.microsoft.com/6a986b94-e09e-4ecc-a324-ee9df3705a11">MajorBuild</a>
 
 
 </td>
@@ -145,14 +145,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684564(v=VS.85).aspx">IFaxInboundRoutingExtension::get_MajorBuild</a> property is a value that specifies the major part of the build number for the fax routing extension's DLL.
+The <a href="https://msdn.microsoft.com/6a986b94-e09e-4ecc-a324-ee9df3705a11">IFaxInboundRoutingExtension::get_MajorBuild</a> property is a value that specifies the major part of the build number for the fax routing extension's DLL.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686716(v=VS.85).aspx">MajorVersion</a>
+<a href="https://msdn.microsoft.com/028ed452-c76c-47a0-a3d7-40b60cf46a40">MajorVersion</a>
 
 
 </td>
@@ -161,14 +161,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686716(v=VS.85).aspx">IFaxInboundRoutingExtension::get_MajorVersion</a> property is a value that specifies the major part of the version number for the fax routing extension's DLL.
+The <a href="https://msdn.microsoft.com/028ed452-c76c-47a0-a3d7-40b60cf46a40">IFaxInboundRoutingExtension::get_MajorVersion</a> property is a value that specifies the major part of the version number for the fax routing extension's DLL.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a>
+<a href="https://msdn.microsoft.com/c56e55bf-b20e-4249-90d0-93e97333a0fb">Methods</a>
 
 
 </td>
@@ -177,14 +177,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">IFaxInboundRoutingExtension::get_Methods</a> property is an array of GUIDs that uniquely identify the inbound routing methods exposed by the fax routing extension.
+The <a href="https://msdn.microsoft.com/c56e55bf-b20e-4249-90d0-93e97333a0fb">IFaxInboundRoutingExtension::get_Methods</a> property is an array of GUIDs that uniquely identify the inbound routing methods exposed by the fax routing extension.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686747(v=VS.85).aspx">MinorBuild</a>
+<a href="https://msdn.microsoft.com/7674d008-f2c6-4f07-9d8e-28d32f57f7ad">MinorBuild</a>
 
 
 </td>
@@ -193,14 +193,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686747(v=VS.85).aspx">IFaxInboundRoutingExtension::get_MinorBuild</a> property is a value that specifies the minor part of the build number for the fax routing extension's DLL.
+The <a href="https://msdn.microsoft.com/7674d008-f2c6-4f07-9d8e-28d32f57f7ad">IFaxInboundRoutingExtension::get_MinorBuild</a> property is a value that specifies the minor part of the build number for the fax routing extension's DLL.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684813(v=VS.85).aspx">MinorVersion</a>
+<a href="https://msdn.microsoft.com/f448e715-623d-423b-a75a-43eef08fb7c3">MinorVersion</a>
 
 
 </td>
@@ -209,14 +209,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684813(v=VS.85).aspx">IFaxInboundRoutingExtension::get_MinorVersion</a> property is a value that specifies the minor part of the version number for the fax routing extension's DLL.
+The <a href="https://msdn.microsoft.com/f448e715-623d-423b-a75a-43eef08fb7c3">IFaxInboundRoutingExtension::get_MinorVersion</a> property is a value that specifies the minor part of the version number for the fax routing extension's DLL.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687475(v=VS.85).aspx">Status</a>
+<a href="https://msdn.microsoft.com/496b2216-8ec6-4de9-8829-13b8ec404514">Status</a>
 
 
 </td>
@@ -225,14 +225,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687475(v=VS.85).aspx">IFaxInboundRoutingExtension::get_Status</a> property is a value that indicates whether the fax routing extension loaded and initialized successfully. 
+The <a href="https://msdn.microsoft.com/496b2216-8ec6-4de9-8829-13b8ec404514">IFaxInboundRoutingExtension::get_Status</a> property is a value that indicates whether the fax routing extension loaded and initialized successfully. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685212(v=VS.85).aspx">UniqueName</a>
+<a href="https://msdn.microsoft.com/b9726d54-adec-466e-b47a-3a3bc0438adf">UniqueName</a>
 
 
 </td>
@@ -241,7 +241,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms685212(v=VS.85).aspx">IFaxInboundRoutingExtension::get_UniqueName</a> property is a null-terminated string that contains a unique name for the fax routing extension. The fax service uses this name internally to identify fax routing extensions.
+The <a href="https://msdn.microsoft.com/b9726d54-adec-466e-b47a-3a3bc0438adf">IFaxInboundRoutingExtension::get_UniqueName</a> property is a null-terminated string that contains a unique name for the fax routing extension. The fax service uses this name internally to identify fax routing extensions.
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms685212(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxInboundRoutingExtension</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a> object.
+A default implementation of <b>IFaxInboundRoutingExtension</b> is provided as the <a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a> object.
 
 
 

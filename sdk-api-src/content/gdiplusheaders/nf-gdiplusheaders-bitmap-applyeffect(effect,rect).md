@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_ApplyEffect_Effect_effect_RECT_ROI_.
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapapplyeffectmethods\applyeffect_effecteffect_rectroi.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ApplyEffect, ApplyEffect method [GDI+], ApplyEffect method [GDI+],Bitmap class, Bitmap class [GDI+],ApplyEffect method, Bitmap.ApplyEffect, Bitmap.ApplyEffect(Effect*,RECT*), Bitmap.ApplyEffect(Effect,RECT), Bitmap::ApplyEffect, Bitmap::ApplyEffect(Effect,RECT), _gdiplus_CLASS_Bitmap_ApplyEffect_Effect_effect_RECT_ROI_, gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Effect_effect_RECT_ROI_
 ms.prod: windows-hardware
 ms.technology: windows-devices

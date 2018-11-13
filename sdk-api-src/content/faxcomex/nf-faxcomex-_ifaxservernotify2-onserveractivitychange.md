@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onserveractivitychange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onserveractivitychange.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnServerActivityChange method, IFaxServerNotify2.OnServerActivityChange, IFaxServerNotify2::OnServerActivityChange, OnServerActivityChange, OnServerActivityChange method [Fax Service], OnServerActivityChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnServerActivityChange, _IFaxServerNotify2::OnServerActivityChange, _mfax_ifaxservernotify2_onserveractivitychange, fax._mfax_ifaxservernotify2_onserveractivitychange, faxcomex/IFaxServerNotify2::OnServerActivityChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

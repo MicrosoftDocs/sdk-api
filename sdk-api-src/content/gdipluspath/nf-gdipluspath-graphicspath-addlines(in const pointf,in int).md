@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLines_PointF_points_INT_cou
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinesmethods\addlines_64pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddLines, AddLines method [GDI+], AddLines method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLines method, GraphicsPath.AddLines, GraphicsPath.AddLines(IN const PointF,IN INT), GraphicsPath.AddLines(const PointF*,INT), GraphicsPath::AddLines, GraphicsPath::AddLines(IN const PointF,IN INT), _gdiplus_CLASS_GraphicsPath_AddLines_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLines_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

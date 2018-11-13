@@ -219,7 +219,7 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a>
+<a href="com.hresult_from_win32">HRESULT_FROM_WIN32</a>
 
 
 

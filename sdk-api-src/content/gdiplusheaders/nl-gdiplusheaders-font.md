@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\font.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Font, Font class [GDI+], Font class [GDI+],described, _gdiplus_CLASS_Font_Class, gdiplus._gdiplus_CLASS_Font_Class, gdiplusheaders/Font
 ms.prod: windows
 ms.technology: windows-sdk

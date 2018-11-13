@@ -4,10 +4,10 @@ title: GetSystemInfo function
 author: windows-sdk-content
 description: Retrieves information about the current system.
 old-location: base\getsysteminfo.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f6d745af-729a-494e-90b4-19fe7d97c7af
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: GetSystemInfo, GetSystemInfo function, _win32_getsysteminfo, base.getsysteminfo, sysinfoapi/GetSystemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

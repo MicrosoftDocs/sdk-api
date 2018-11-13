@@ -2,26 +2,26 @@
 UID: NS:fwptypes.FWP_CONDITION_VALUE0_
 title: FWP_CONDITION_VALUE0_
 author: windows-sdk-content
-description: The FWP_CONDITION_VALUE0 structure defines a condition value that is used by the filter engine when testing a data field against a filtering condition.Note  FWP_CONDITION_VALUE0 is a specific version of FWP_CONDITION_VALUE.
-old-location: netvista\fwp_condition_value0.htm
-tech.root: NetVista
-ms.assetid: 8d0aad8c-b224-4066-a10a-7c11ca60a78c
+description: Contains values that are used in filter conditions when testing for matching filters.
+old-location: fwp\fwp_condition_value0.htm
+tech.root: fwp
+ms.assetid: edc34005-dbc1-45a4-b6c7-fbb8b13fa388
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: FWP_CONDITION_VALUE0, FWP_CONDITION_VALUE0 structure [Network Drivers Starting with Windows Vista], FWP_CONDITION_VALUE0_, fwptypes/FWP_CONDITION_VALUE0, netvista.fwp_condition_value0, wfp_ref_3_struct_1_top_fwp_A-Z_8ed44bab-c9e7-468c-9028-61888d24b807.xml
+ms.date: 10/12/2018
+ms.keywords: FWP_CONDITION_VALUE0, FWP_CONDITION_VALUE0 structure [Filtering], FWP_CONDITION_VALUE0_, fwp.fwp_condition_value0, fwptypes/FWP_CONDITION_VALUE0
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
-req.include-header: Fwpsk.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - fwptypes.h
+ - Fwptypes.h
 api_name:
  - FWP_CONDITION_VALUE0
 product: Windows
@@ -50,9 +50,8 @@ req.redist:
 ## -description
 
 
-The <b>FWP_CONDITION_VALUE0</b> structure defines a condition value that is used by the filter engine when
-  testing a data field against a filtering condition.
-<div class="alert"><b>Note</b>  <b>FWP_CONDITION_VALUE0</b> is a specific version of <b>FWP_CONDITION_VALUE</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+The <b>FWP_CONDITION_VALUE0</b> structure contains values that are used in filter conditions when testing for matching filters.
+
 
 ## -struct-fields
 
@@ -61,129 +60,158 @@ The <b>FWP_CONDITION_VALUE0</b> structure defines a condition value that is used
 
 ### -field type
 
-The type of data that is described by the structure. For the possible values for this data member,
-     see 
-     <a href="https://msdn.microsoft.com/7632d9be-dd16-40d2-b7b4-2d4efb6aaa99">FWP_DATA_TYPE</a>.
+Specifies the data type of the condition value.
+
+See <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a> for more information.
 
 
 ### -field uint8
 
-An unsigned 8-bit value. Used when the 
-      <b>Type</b> member is set to FWP_UINT8.
+Available when <b>type</b> is FWP_UINT8.
+
+An unsigned 8-bit integer.
 
 
 ### -field uint16
 
-An unsigned 16-bit value. Used when the 
-      <b>Type</b> member is set to FWP_UINT16.
+Available when <b>type</b> is FWP_UINT16.
+
+An unsigned 16-bit integer.
 
 
 ### -field uint32
 
-An unsigned 32-bit value. Used when the 
-      <b>Type</b> member is set to FWP_UINT32.
+Available when <b>type</b> is FWP_UINT32.
+
+An unsigned 32-bit integer.
 
 
 ### -field uint64
 
-A pointer to an unsigned 64-bit value. Used when the 
-      <b>Type</b> member is set to FWP_UINT64.
+Available when <b>type</b> is FWP_UINT64.
 
+A pointer to an unsigned 64-bit integer.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
 
 ### -field int8
 
-A signed 8-bit value. Used when the 
-      <b>Type</b> member is set to FWP_INT8.
+Available when <b>type</b> is FWP_INT8.
+
+A signed 8-bit integer.
 
 
 ### -field int16
 
-A signed 16-bit value. Used when the 
-      <b>Type</b> member is set to FWP_INT16.
+Available when <b>type</b> is FWP_INT16.
+
+A signed 16-bit integer.
 
 
 ### -field int32
 
-A signed 32-bit value. Used when the 
-      <b>Type</b> member is set to FWP_INT32.
+Available when <b>type</b> is FWP_INT32.
+
+A signed 32-bit integer.
 
 
 ### -field int64
 
-A pointer to a signed 64-bit value. Used when the 
-      <b>Type</b> member is set to FWP_INT64.
+Available when <b>type</b> is FWP_INT64.
 
+A pointer to a signed 64-bit integer.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
 
 ### -field float32
 
-A single-precision floating point value. Used when the 
-      <b>Type</b> member is set to FWP_FLOAT.
+Available when <b>type</b> is FWP_FLOAT.
+
+A single-precision floating-point  value.
 
 
 ### -field double64
 
-A pointer to a double-precision floating-point value. Used when the 
-      <b>Type</b> member is set to FWP_DOUBLE.
+Available when <b>type</b> is FWP_DOUBLE.
 
+A pointer to a double-precision floating-point  value.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
 
 ### -field byteArray16
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/fcccd92d-6f00-4ab4-b730-4ddacdb900ff">FWP_BYTE_ARRAY16</a> structure. Used when the
-      
-      <b>Type</b> member is set to FWP_BYTE_ARRAY16_TYPE.
+Available when <b>type</b> is FWP_BYTE_ARRAY16_TYPE.
 
+A pointer to a <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>  structure.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
 
 ### -field byteBlob
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/dd0e5743-e261-4a53-b496-ac577d63b69f">FWP_BYTE_BLOB</a> structure. Used when the 
-      <b>Type</b> member is set to FWP_BYTE_BLOB_TYPE.
+Available when <b>type</b> is FWP_BYTE_BLOB_TYPE.
 
+A pointer to a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
+
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure cannot be null.</div>
+<div> </div>
 
 ### -field sid
 
-A pointer to a security identifier (SID) structure. Used when the 
-      <b>Type</b> member is set to FWP_SID. For more information about the SID structure, see the description
-      for the SID structure in the Microsoft Windows SDK documentation.
+Available when <b>type</b> is FWP_SID.
 
+A pointer to a security identifier (SID) structure.
+
+<div class="alert"><b>Note</b>  The security identifier cannot be null.</div>
+<div> </div>
 
 ### -field sd
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/dd0e5743-e261-4a53-b496-ac577d63b69f">FWP_BYTE_BLOB</a> structure that describes a
-      security descriptor. Used when the 
-      <b>Type</b> member is set to FWP_SECURITY_DESCRIPTOR_TYPE.
+Available when <b>type</b> is FWP_SECURITY_DESCRIPTOR_TYPE.
 
+A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
+
+<div class="alert"><b>Note</b>  Security descriptors cannot be null when used in filter conditions. Moreover, they need to be in self-relative format.</div>
+<div> </div>
 
 ### -field tokenInformation
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/e30a5441-3f36-4da9-a066-9937a484de84">FWP_TOKEN_INFORMATION</a> structure.
-      Used when the 
-      <b>Type</b> member is set to FWP_TOKEN_INFORMATION_TYPE.
+Available when <b>type</b> is FWP_TOKEN_INFORMATION_TYPE.
+
+A pointer to token information contained in a <a href="https://msdn.microsoft.com/30bc6d4b-e3a8-4adf-82d5-adaf30f042ff">FWP_TOKEN_INFORMATION</a>  structure.
 
 
 ### -field tokenAccessInformation
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/dd0e5743-e261-4a53-b496-ac577d63b69f">FWP_BYTE_BLOB</a> structure that describes token
-      access information. Used when the 
-      <b>Type</b> member is set to FWP_TOKEN_ACCESS_INFORMATION_TYPE.
+Available when <b>type</b> is FWP_TOKEN_ACCESS_INFORMATION_TYPE.
 
+A pointer to token access information contained in a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
+
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure cannot be null.</div>
+<div> </div>
 
 ### -field unicodeString
 
-A pointer to a null-terminated string of Unicode characters. Used when the 
-      <b>Type</b> member is set to FWP_UNICODE_STRING_TYPE.
+Available when <b>type</b> is FWP_UNICODE_STRING_TYPE.
 
+A pointer to a null-terminated unicode string.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
 
 ### -field byteArray6
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84e02a90c">FWP_BYTE_ARRAY6</a> structure. Used when the 
-      <b>Type</b> member is set to FWP_BYTE_ARRAY6_TYPE.
+Available when <b>type</b> is FWP_BYTE_ARRAY6_TYPE.
 
+A pointer to a <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84e02a90c">FWP_BYTE_ARRAY6</a>  structure.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  Available only in Windows 7 and Windows Server 2008 R2.</div>
+<div> </div>
 
 ### -field bitmapArray64
 
@@ -192,34 +220,36 @@ A pointer to an
 
 ### -field v4AddrMask
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/3beefa33-1331-4a76-b705-6060a00901f2">FWP_V4_ADDR_AND_MASK</a> structure. Used
-      when the 
-      <b>Type</b> member is set to FWP_V4_ADDR_MASK.
+Available when <b>type</b> is FWP_V4_ADDR_MASK.
+
+A pointer to an IPv4 address contained in  an <a href="https://msdn.microsoft.com/da6315af-264e-4dcb-b5eb-ac308128a511">FWP_V4_ADDR_AND_MASK</a>  structure.
 
 
 ### -field v6AddrMask
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/63fb08f1-b333-40de-97d9-d98792256954">FWP_V6_ADDR_AND_MASK</a> structure. Used
-      when the 
-      <b>Type</b> member is set to FWP_V6_ADDR_MASK.
+Available when <b>type</b> is FWP_V6_ADDR_MASK.
+
+A pointer to an IPv6 address contained in  an <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>  structure.
 
 
 ### -field rangeValue
 
-A pointer to an 
-      <a href="https://msdn.microsoft.com/66410df3-0856-4b2e-a586-1a75b97e0047">FWP_RANGE0</a> structure. Used when the 
-      <b>Type</b> member is set to FWP_RANGE_TYPE.
+Available when <b>type</b> is FWP_RANGE_TYPE.
+
+A pointer to a range contained in  an <a href="https://msdn.microsoft.com/191ec0e4-2489-4f6f-80c5-8feec83d69c2">FWP_RANGE0</a>  structure.
 
 
 ## -remarks
 
 
 
-An FWP_CONDITION_VALUE0 structure is contained within an 
-    <a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a> structure and
-    specifies the condition value for the filtering condition.
+The data type of 
+<b>FWP_CONDITION_VALUE0</b> must be compatible with the data type of the
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> to which it is being compared. However, this does not mean the data types
+necessarily need to be the same. For example, an FWP_V4_ADDR_MASK can be
+compared to an FWP_UINT32 containing an IPv4 address. See <a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a> for detailed information about <b>FWP_CONDITION_VALUE0</b> and <b>FWP_VALUE0</b> compatibility rules.
+
+<b>FWP_CONDITION_VALUE0</b> is a specific implementation of FWP_CONDITION_VALUE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -229,11 +259,7 @@ An FWP_CONDITION_VALUE0 structure is contained within an
 
 
 
-<a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a>
-
-
-
-<a href="https://msdn.microsoft.com/fcccd92d-6f00-4ab4-b730-4ddacdb900ff">FWP_BYTE_ARRAY16</a>
+<a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>
 
 
 
@@ -241,27 +267,27 @@ An FWP_CONDITION_VALUE0 structure is contained within an
 
 
 
-<a href="https://msdn.microsoft.com/dd0e5743-e261-4a53-b496-ac577d63b69f">FWP_BYTE_BLOB</a>
+<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/7632d9be-dd16-40d2-b7b4-2d4efb6aaa99">FWP_DATA_TYPE</a>
+<a href="https://msdn.microsoft.com/191ec0e4-2489-4f6f-80c5-8feec83d69c2">FWP_RANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/66410df3-0856-4b2e-a586-1a75b97e0047">FWP_RANGE0</a>
+<a href="https://msdn.microsoft.com/da6315af-264e-4dcb-b5eb-ac308128a511">FWP_V4_ADDR_AND_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/e30a5441-3f36-4da9-a066-9937a484de84">FWP_TOKEN_INFORMATION</a>
+<a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/3beefa33-1331-4a76-b705-6060a00901f2">FWP_V4_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/63fb08f1-b333-40de-97d9-d98792256954">FWP_V6_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
  
 
  

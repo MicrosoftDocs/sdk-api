@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4.htm
 tech.root: direct3d12
 ms.assetid: 2385E66F-CD42-4826-B508-3EF6144179BD
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: ID3D12GraphicsCommandList4, ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,described, d3d12/ID3D12GraphicsCommandList4, direct3d12.id3d12graphicscommandlist4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Launch the threads of a ray generation shader.
 <a href="https://msdn.microsoft.com/05E4B38B-1A3A-4121-8BD7-A437534C8B9A">EmitRaytracingAccelerationStructurePostbuildInfo</a>
 </td>
 <td align="left" width="63%">
-Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
+Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
 
 </td>
 </tr>

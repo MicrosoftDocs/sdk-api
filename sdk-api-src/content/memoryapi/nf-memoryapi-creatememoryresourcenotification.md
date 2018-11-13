@@ -4,10 +4,10 @@ title: CreateMemoryResourceNotification function
 author: windows-sdk-content
 description: Creates a memory resource notification object.
 old-location: base\creatememoryresourcenotification.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: e4d794ca-4abb-4933-bd07-793e78c52881
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: CreateMemoryResourceNotification, CreateMemoryResourceNotification function, HighMemoryResourceNotification, LowMemoryResourceNotification, _win32_creatememoryresourcenotification, base.creatememoryresourcenotification, winbase/CreateMemoryResourceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

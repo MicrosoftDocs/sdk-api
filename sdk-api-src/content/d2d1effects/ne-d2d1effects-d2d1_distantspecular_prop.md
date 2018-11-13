@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706332(v=VS.85).aspx">Distant-specular lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31">Distant-specular lighting effect</a>.
         
 
 

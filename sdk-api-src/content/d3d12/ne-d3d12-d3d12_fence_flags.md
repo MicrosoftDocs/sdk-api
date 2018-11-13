@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_fence_flags.htm
 tech.root: direct3d12
 ms.assetid: EF725566-B77A-40EE-B5E3-86C5D13CC7D5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: D3D12_FENCE_FLAGS, D3D12_FENCE_FLAGS enumeration, D3D12_FENCE_FLAG_NONE, D3D12_FENCE_FLAG_NON_MONITORED, D3D12_FENCE_FLAG_SHARED, D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER, d3d12/D3D12_FENCE_FLAGS, d3d12/D3D12_FENCE_FLAG_NONE, d3d12/D3D12_FENCE_FLAG_NON_MONITORED, d3d12/D3D12_FENCE_FLAG_SHARED, d3d12/D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER, direct3d12.d3d12_fence_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ The fence is of the non-monitored type. Non-monitored fences should only be used
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn899179(v=VS.85).aspx">ID3D12Device::CreateFence</a> method.
+This enum is used by the <a href="https://msdn.microsoft.com/731A60CA-644A-4FC2-8461-DDD686363BED">ID3D12Device::CreateFence</a> method.
       
 
 
@@ -98,7 +98,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn899
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

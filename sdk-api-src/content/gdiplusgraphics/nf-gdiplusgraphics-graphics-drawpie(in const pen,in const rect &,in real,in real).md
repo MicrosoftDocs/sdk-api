@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_sta
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods\drawpie.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawPie, DrawPie method [GDI+], DrawPie method [GDI+],Graphics class, Graphics class [GDI+],DrawPie method, Graphics.DrawPie, Graphics.DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL), Graphics.DrawPie(const Pen*,const Rect&,REAL,REAL), Graphics::DrawPie, Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 The following illustration shows the pie that is drawn in the ellipse that is bounded by the rectangle. The illustration also shows the horizontal axis of the ellipse and the direction of the <i>startAngle</i> and the <i>sweepAngle</i>.
 
-<img alt="Illustration showing an ellipse with an outlined pie; the start angle and sweep angle are labeled" src="./images/drawpie1.png"/>
+<img alt="Illustration showing an ellipse with an outlined pie; the start angle and sweep angle are labeled" src="images/drawpie1.png"/>
 
 #### Examples
 
@@ -115,9 +115,13 @@ The following illustration shows the pie that is drawn in the ellipse that is bo
 
 The following example draws a pie.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawPie(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -131,12 +135,12 @@ VOID Example_DrawPie(HDC hdc)
    REAL sweepAngle = 45.0f;
 
    // Draw the pie.
-   graphics.DrawPie(&blackPen, ellipseRect, startAngle, sweepAngle);
+   graphics.DrawPie(&amp;blackPen, ellipseRect, startAngle, sweepAngle);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -153,7 +157,7 @@ VOID Example_DrawPie(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

@@ -4,10 +4,10 @@ title: MapViewOfFile3FromApp function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling Windows Store app.
 old-location: base\mapviewoffile3fromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 5E10E1B2-69D9-4F68-8F06-D411CF7FE2ED
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3FromApp, MapViewOfFile3FromApp function, base.mapviewoffile3fromapp, memoryapi/MapViewOfFile3FromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

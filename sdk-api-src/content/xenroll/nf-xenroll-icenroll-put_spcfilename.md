@@ -98,16 +98,20 @@ If the file already exists, the user is notified and prompted for permission to 
 
 #### Examples
 
-
-```cpp
-BSTR     bstrSPCFile = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrSPCFile = NULL;
 BSTR     bstrNewSPCFile = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the SPCFileName
-hr = pEnroll->get_SPCFileName( &bstrSPCFile );
+hr = pEnroll-&gt;get_SPCFileName( &amp;bstrSPCFile );
 if (FAILED( hr ))
     printf("Failed get_SPCFileName - %x\n", hr );
 else
@@ -117,18 +121,18 @@ if ( NULL != bstrSPCFile )
     SysFreeString( bstrSPCFile );
 
 // set the SPCFileName, for example, "MyFile.SPC".
-bstrNewSPCFile = SysAllocString(TEXT("<FILENAMEHERE>"));
+bstrNewSPCFile = SysAllocString(TEXT("&lt;FILENAMEHERE&gt;"));
 
-hr = pEnroll->put_SPCFileName( bstrNewSPCFile );
+hr = pEnroll-&gt;put_SPCFileName( bstrNewSPCFile );
 if (FAILED( hr ))
     printf("Failed put_SPCFileName - %x\n", hr );
 else
     printf( "SPCFileName set to %ws\n", bstrNewSPCFile );
 // free BSTR when done
 if ( NULL != bstrNewSPCFile )
-    SysFreeString( bstrNewSPCFile );
-```
-
-
+    SysFreeString( bstrNewSPCFile );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

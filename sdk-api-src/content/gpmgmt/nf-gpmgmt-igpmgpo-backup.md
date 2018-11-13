@@ -4,7 +4,7 @@ title: IGPMGPO::Backup
 author: windows-sdk-content
 description: Backs up a Group Policy object (GPO) to the specified directory.
 old-location: gpmc\igpmgpo_backup.htm
-tech.root: Benchmark
+tech.root: GPMC
 ms.assetid: 5ba8d2f7-4989-4882-9ceb-4f77b8745442
 ms.author: windowssdkdev
 ms.date: 09/26/2018

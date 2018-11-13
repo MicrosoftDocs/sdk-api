@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_7hwnd_icm.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(HWND,BOOL), Graphics.Graphics(IN HWND,IN BOOL), Graphics::Graphics, Graphics::Graphics(IN HWND,IN BOOL), _gdiplus_CLASS_Graphics_Graphics_hwnd_icm_, gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ Optional. Boolean value that specifies whether the new <b>Graphics::Graphics</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

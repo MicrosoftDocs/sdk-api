@@ -4,10 +4,10 @@ title: EAP_UI_DATA_FORMAT
 author: windows-sdk-content
 description: The EAP_UI_DATA_FORMAT union specifies the value of the attribute stored in the pbUiData member of the EAP_INTERACTIVE_UI_DATA structure.
 old-location: eaphost\eap_ui_data_format.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: e4b49cbd-b50d-474c-b6b5-8ff858eca424
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/12/2018
 ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap_ui_data_format, eaptypes/EAP_UI_DATA_FORMAT
 ms.prod: windows
 ms.technology: windows-sdk

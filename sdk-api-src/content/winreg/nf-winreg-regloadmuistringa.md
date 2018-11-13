@@ -4,10 +4,10 @@ title: RegLoadMUIStringA function
 author: windows-sdk-content
 description: Loads the specified string from the specified key and subkey.
 old-location: base\regloadmuistring.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: REG_MUI_STRING_TRUNCATE, RegLoadMUIString, RegLoadMUIString function, RegLoadMUIStringA, RegLoadMUIStringW, base.regloadmuistring, winreg/RegLoadMUIString, winreg/RegLoadMUIStringA, winreg/RegLoadMUIStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

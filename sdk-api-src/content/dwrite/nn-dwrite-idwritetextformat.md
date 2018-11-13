@@ -303,12 +303,16 @@ Sets the alignment of text in a paragraph, relative to the leading and trailing 
 
 To get a reference to the <b>IDWriteTextFormat</b> interface, the application must call the <a href="https://msdn.microsoft.com/d6e7caba-5cba-4b6e-b146-10aa6d21cac1">IDWriteFactory::CreateTextFormat</a> method as shown in the following code.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 if (SUCCEEDED(hr))
 {
-    hr = pDWriteFactory_->CreateTextFormat(
+    hr = pDWriteFactory_-&gt;CreateTextFormat(
         L"Gabriola",
         NULL,
         DWRITE_FONT_WEIGHT_REGULAR,
@@ -316,14 +320,14 @@ if (SUCCEEDED(hr))
         DWRITE_FONT_STRETCH_NORMAL,
         72.0f,
         L"en-us",
-        &pTextFormat_
+        &amp;pTextFormat_
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 When creating an <b>IDWriteTextFormat</b> object using the <a href="https://msdn.microsoft.com/d6e7caba-5cba-4b6e-b146-10aa6d21cac1">CreateTextFormat</a> function, the application specifies the  font family, font collection, font weight, font size, and locale name for the text format.
 
 These properties cannot be changed after the <b>IDWriteTextFormat</b> object is created.  To change these properties, a new <b>IDWriteTextFormat</b> object must be created with the desired properties.

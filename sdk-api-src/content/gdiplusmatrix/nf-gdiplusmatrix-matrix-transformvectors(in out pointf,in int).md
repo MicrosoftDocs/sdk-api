@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformVectors_PointF_pts_INT_coun
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformvectorsmethods\transformvectors_2pointfpts_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Matrix class [GDI+],TransformVectors method, Matrix.TransformVectors, Matrix.TransformVectors(IN OUT PointF,IN INT), Matrix.TransformVectors(PointF*,INT), Matrix::TransformVectors, Matrix::TransformVectors(IN OUT PointF,IN INT), TransformVectors, TransformVectors method [GDI+], TransformVectors method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformVectors_PointF_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformVectors_PointF_pts_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,9 +107,13 @@ The following example creates a vector and a point. The tip of the vector and th
 						<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object and initializes its elements so that it represents a clockwise rotation followed by a translation 100 units to the right. The code calls the 
 						<a href="https://msdn.microsoft.com/a290aa79-64a0-440e-bfec-a8e66057ec14">TransformPoints Methods</a> method of the matrix to transform the point and calls the <b>Matrix::TransformVectors</b> method of the matrix to transform the vector. The entire transformation (rotation followed by translation) is performed on the point, but only the rotation part of the transformation is performed on the vector. The elements of the matrix that represent translation are ignored by the <b>Matrix::TransformVectors</b> method.
 
-
-```cpp
-VOID Example_TransVectorsF(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_TransVectorsF(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -122,24 +126,24 @@ VOID Example_TransVectorsF(HDC hdc)
    PointF vector(100.0f, 50.0f);
 
    // Draw the original point and vector in blue.
-   graphics.FillEllipse(&brush, point.X - 5.0f, point.Y - 5.0f, 10.0f, 10.0f);
+   graphics.FillEllipse(&amp;brush, point.X - 5.0f, point.Y - 5.0f, 10.0f, 10.0f);
 
-   graphics.DrawLine(&pen, PointF(0.0f, 0.0f), vector);
+   graphics.DrawLine(&amp;pen, PointF(0.0f, 0.0f), vector);
 
    // Transform.
    Matrix matrix(0.8f, 0.6f, -0.6f, 0.8f, 100.0f, 0.0f);
-   matrix.TransformPoints(&point);
-   matrix.TransformVectors(&vector);
+   matrix.TransformPoints(&amp;point);
+   matrix.TransformVectors(&amp;vector);
 
    // Draw the transformed point and vector in red.
    pen.SetColor(Color(255, 255, 0, 0));
    brush.SetColor(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&brush, point.X - 5.0f, point.Y - 5.0f, 10.0f, 10.0f);
-   graphics.DrawLine(&pen, PointF(0.0f, 0.0f), vector);  
-}
-```
-
-
+   graphics.FillEllipse(&amp;brush, point.X - 5.0f, point.Y - 5.0f, 10.0f, 10.0f);
+   graphics.DrawLine(&amp;pen, PointF(0.0f, 0.0f), vector);  
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

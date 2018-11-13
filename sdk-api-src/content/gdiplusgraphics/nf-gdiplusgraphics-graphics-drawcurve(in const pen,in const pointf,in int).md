@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_IN
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawcurvemethods\drawcurve_53penpen_pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawCurve, DrawCurve method [GDI+], DrawCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawCurve method, Graphics.DrawCurve, Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT), Graphics.DrawCurve(const Pen*,const PointF*,INT), Graphics::DrawCurve, Graphics::DrawCurve(IN const Pen,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,9 +111,13 @@ A segment is defined as a curve that connects two consecutive points in the card
 
 The following example draws a cardinal spline.
 
-
-```cpp
-VOID Example_DrawCurve4(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawCurve4(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -133,18 +137,18 @@ VOID Example_DrawCurve4(HDC hdc)
    PointF* pcurvePoints = curvePoints;
 
    // Draw the curve.
-   graphics.DrawCurve(&greenPen, curvePoints, 4);
+   graphics.DrawCurve(&amp;greenPen, curvePoints, 4);
 
    //Draw the points in the curve.
    SolidBrush redBrush(Color::Red);
-   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

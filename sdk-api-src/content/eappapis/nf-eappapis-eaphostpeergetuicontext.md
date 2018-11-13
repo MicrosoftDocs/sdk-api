@@ -4,10 +4,10 @@ title: EapHostPeerGetUIContext function
 author: windows-sdk-content
 description: Obtains the user interface context for the supplicant from EAPHost if the UI is to be raised.
 old-location: eaphost\eaphostpeergetuicontext.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 47ade6f1-067b-48ab-b4ac-a3d3cf63d809
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/12/2018
 ms.keywords: EapHostPeerGetUIContext, EapHostPeerGetUIContext function [EAPHost], eaphost.eaphostpeergetuicontext, eappapis/EapHostPeerGetUIContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

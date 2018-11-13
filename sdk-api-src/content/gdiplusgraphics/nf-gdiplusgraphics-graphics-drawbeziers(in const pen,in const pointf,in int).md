@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBeziers_Pen_pen_PointF_points_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziersmethods\drawbeziers_29penpen_pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawBeziers, DrawBeziers method [GDI+], DrawBeziers method [GDI+],Graphics class, Graphics class [GDI+],DrawBeziers method, Graphics.DrawBeziers, Graphics.DrawBeziers(IN const Pen,IN const PointF,IN INT), Graphics.DrawBeziers(const Pen*,const PointF*,INT), Graphics::DrawBeziers, Graphics::DrawBeziers(IN const Pen,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawBeziers_Pen_pen_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawBeziers_Pen_pen_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,9 +108,13 @@ A Bézier spline does not pass through its control points. The control points ac
 
 The following example draws a pair of Bézier curves.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawBeziers2(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -136,22 +140,22 @@ VOID Example_DrawBeziers2(HDC hdc)
       endPoint2};
 
    // Draw the Bezier curves.
-   graphics.DrawBeziers(&greenPen, curvePoints, 7);
+   graphics.DrawBeziers(&amp;greenPen, curvePoints, 7);
 
    // Draw the control and end points.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&redBrush, Rect(100 - 5, 100 - 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(500 - 5, 100 - 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(500 - 5, 500 - 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(100 - 5, 100 - 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(500 - 5, 100 - 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(500 - 5, 500 - 5, 10, 10));
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&blueBrush, Rect(200 - 5, 50 - 5, 10, 10));
-   graphics.FillEllipse(&blueBrush, Rect(400 - 5, 10 - 5, 10, 10));
-   graphics.FillEllipse(&blueBrush, Rect(600 - 5, 200 - 5, 10, 10));
-   graphics.FillEllipse(&blueBrush, Rect(700 - 5, 400 - 5, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;blueBrush, Rect(200 - 5, 50 - 5, 10, 10));
+   graphics.FillEllipse(&amp;blueBrush, Rect(400 - 5, 10 - 5, 10, 10));
+   graphics.FillEllipse(&amp;blueBrush, Rect(600 - 5, 200 - 5, 10, 10));
+   graphics.FillEllipse(&amp;blueBrush, Rect(700 - 5, 400 - 5, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

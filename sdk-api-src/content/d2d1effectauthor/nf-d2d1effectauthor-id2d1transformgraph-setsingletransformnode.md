@@ -102,9 +102,13 @@ This equivalent to calling <a href="https://msdn.microsoft.com/7223A2FF-2B86-408
 
 #### Examples
 
-
-```cpp
-class CMySimpleEffect : public ID2D1EffectImpl
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>class CMySimpleEffect : public ID2D1EffectImpl
 {
 public:
 
@@ -120,9 +124,9 @@ public:
 
         if (SUCCEEDED(hr))
         {
-            hr = graph->SetSingleTransformNode(pTransform);
+            hr = graph-&gt;SetSingleTransformNode(pTransform);
 
-            pTransform->Release();
+            pTransform-&gt;Release();
         }
 
         return hr;
@@ -132,15 +136,15 @@ private:
 
     class CMyTransform : public ID2D1DrawTransform
     {
-        // <Snip> Implementation of transform </Snip> 
+        // &lt;Snip&gt; Implementation of transform &lt;/Snip&gt; 
     };
 
     
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

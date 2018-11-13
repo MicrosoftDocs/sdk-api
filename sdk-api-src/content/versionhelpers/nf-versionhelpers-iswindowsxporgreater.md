@@ -4,10 +4,10 @@ title: IsWindowsXPOrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP version.
 old-location: base\iswindowsxporgreater.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: IsWindowsXPOrGreater, IsWindowsXPOrGreater function, base.iswindowsxporgreater, versionhelpers/IsWindowsXPOrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

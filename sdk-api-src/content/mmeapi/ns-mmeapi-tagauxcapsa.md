@@ -7,7 +7,7 @@ old-location: multimedia\auxcaps.htm
 tech.root: Multimedia
 ms.assetid: 5b94a468-88b2-40a4-b28d-49f262e62749
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "*LPAUXCAPSA, *NPAUXCAPSA, *PAUXCAPSA, AUXCAPS, AUXCAPS structure [Windows Multimedia], AUXCAPSA, AUXCAPSW, AUXCAPS_AUXIN, AUXCAPS_CDAUDIO, AUXCAPS_LRVOLUME, AUXCAPS_VOLUME, _win32_AUXCAPS_str, auxcaps_tag, mmeapi/AUXCAPS, multimedia.auxcaps, tagAUXCAPSA"
 ms.prod: windows
 ms.technology: windows-sdk

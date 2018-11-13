@@ -7,7 +7,7 @@ old-location: multimedia\videohdr.htm
 tech.root: Multimedia
 ms.assetid: 81e4dded-7ba1-40cf-bc16-20524b70a28d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "*LPVIDEOHDR, *PVIDEOHDR, LPVIDEOHDR, LPVIDEOHDR structure pointer [Windows Multimedia], PVIDEOHDR, PVIDEOHDR structure pointer [Windows Multimedia], VIDEOHDR, VIDEOHDR structure [Windows Multimedia], _win32_VIDEOHDR_str, multimedia.videohdr, vfw/LPVIDEOHDR, vfw/PVIDEOHDR, vfw/VIDEOHDR, videohdr_tag"
 ms.prod: windows
 ms.technology: windows-sdk

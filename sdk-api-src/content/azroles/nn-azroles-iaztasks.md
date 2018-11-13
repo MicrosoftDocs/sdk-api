@@ -4,10 +4,10 @@ title: IAzTasks
 author: windows-sdk-content
 description: Represents a collection of IAzTask objects.
 old-location: security\iaztasks.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/12/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 
 
 The <b>IAzTasks</b> interface represents a collection of  
-<a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> objects.
+<a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzTasks</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzTasks</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzTasks</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzTasks</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -93,7 +93,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/505768ce-27a3-4f3
 <a href="https://msdn.microsoft.com/eddfebba-4f0e-405a-90b5-dbdc87dca3da">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa378372(v=VS.85).aspx">Item</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/eddfebba-4f0e-405a-90b5-dbdc87dca3da">Item</a> property.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>
@@ -133,14 +133,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> objects in the collection.
+Retrieves the number of <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378372(v=VS.85).aspx">Item</a>
+<a href="https://msdn.microsoft.com/eddfebba-4f0e-405a-90b5-dbdc87dca3da">Item</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object at the specified index into the <b>IAzTasks</b> collection.
+Retrieves the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object at the specified index into the <b>IAzTasks</b> collection.
 
 </td>
 </tr>

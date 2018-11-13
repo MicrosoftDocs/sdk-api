@@ -7,7 +7,7 @@ old-location: multimedia\midioutprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 3e457f08-a885-48f8-97c1-ba1baef97759
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.keywords: "_win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
