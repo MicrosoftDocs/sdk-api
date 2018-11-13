@@ -2,7 +2,7 @@
 UID: NA:directxpackedvector
 ms.assetid: 9e73fdfb-d1c2-3155-b657-180a3776e9b7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

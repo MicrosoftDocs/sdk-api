@@ -2,7 +2,7 @@
 UID: NA:inspectable
 ms.assetid: fc28571c-8620-355b-b58f-bc64d526561a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:dns
 ms.assetid: 4779b2e0-69bd-384a-9c4c-b3804b03287e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

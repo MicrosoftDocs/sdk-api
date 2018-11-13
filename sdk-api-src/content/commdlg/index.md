@@ -2,7 +2,7 @@
 UID: NA:commdlg
 ms.assetid: 6f102f30-dc60-3106-8d84-e0a9a81401c2
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:aux_ulib
 ms.assetid: 143b2ad9-8d11-30f5-8f4f-9cf0deb265dd
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

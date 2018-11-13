@@ -2,7 +2,7 @@
 UID: NA:x3daudio
 ms.assetid: 07b380d5-6a4d-380a-b05e-6d9912f83b2b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

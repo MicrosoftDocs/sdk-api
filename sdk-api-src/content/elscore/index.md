@@ -2,7 +2,7 @@
 UID: NA:elscore
 ms.assetid: fb4cd2ce-d93d-317c-ae35-22c9b471056b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:gdiplusmatrix
 ms.assetid: 9677b0b5-d3cb-3f60-a5e3-2981a585008a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

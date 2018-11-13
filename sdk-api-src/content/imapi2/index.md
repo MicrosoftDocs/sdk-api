@@ -2,7 +2,7 @@
 UID: NA:imapi2
 ms.assetid: 42aa506c-a1cb-335a-8128-9e13f3895e8e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

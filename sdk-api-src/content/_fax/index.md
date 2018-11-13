@@ -2,7 +2,7 @@
 UID: TP:fax
 ms.assetid: 990b9f1f-aeba-3600-b458-c0e0d71308fc
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

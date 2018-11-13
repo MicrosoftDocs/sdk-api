@@ -2,7 +2,7 @@
 UID: NA:codecapi
 ms.assetid: 0248a00c-1498-3462-9c8f-cc566a1a2a00
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

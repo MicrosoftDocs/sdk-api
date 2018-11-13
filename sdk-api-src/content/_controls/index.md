@@ -2,7 +2,7 @@
 UID: TP:controls
 ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

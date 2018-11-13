@@ -2,7 +2,7 @@
 UID: TP:iscsidisc
 ms.assetid: 1847a03e-ccd7-31ab-aef2-7722c427e045
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
