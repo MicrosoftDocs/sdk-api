@@ -2,7 +2,7 @@
 UID: TP:storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

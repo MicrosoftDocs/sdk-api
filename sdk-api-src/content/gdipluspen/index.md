@@ -2,7 +2,7 @@
 UID: NA:gdipluspen
 ms.assetid: e8cc414b-0375-3d05-a43d-1c37d63982c3
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:subscriptionservices
 ms.assetid: af64e3fb-acc6-3f2a-a609-7f029a53da75
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

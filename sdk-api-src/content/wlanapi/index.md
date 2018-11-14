@@ -2,7 +2,7 @@
 UID: NA:wlanapi
 ms.assetid: c52fde82-91c5-3309-aa1a-665fe3afd5ad
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

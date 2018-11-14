@@ -2,7 +2,7 @@
 UID: NA:appxpackaging
 ms.assetid: d2a5a480-89cf-33fc-bbd1-18e4d5ed5dc8
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

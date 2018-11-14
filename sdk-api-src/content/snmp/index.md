@@ -2,7 +2,7 @@
 UID: NA:snmp
 ms.assetid: ee6e30d8-1567-383e-8ee8-89568a834400
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

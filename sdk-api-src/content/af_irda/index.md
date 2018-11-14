@@ -2,7 +2,7 @@
 UID: NA:af_irda
 ms.assetid: 9c758597-e3af-39c4-b476-06df5ad26352
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

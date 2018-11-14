@@ -2,7 +2,7 @@
 UID: NA:ole
 ms.assetid: 1f7743cf-ff42-3f55-819c-17a532d68409
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

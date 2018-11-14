@@ -2,7 +2,7 @@
 UID: NA:sporder
 ms.assetid: 03a1a7f4-f3e4-387c-96a3-a81a62b48c4e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

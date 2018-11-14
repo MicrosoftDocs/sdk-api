@@ -2,7 +2,7 @@
 UID: TP:battery
 ms.assetid: 7433fa8b-bcff-3cc7-a61e-27c29a2f632b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

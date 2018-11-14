@@ -2,7 +2,7 @@
 UID: NA:richedit
 ms.assetid: 7dbbf16e-3b68-3f9e-91d4-a02318c121cd
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:windows.ui.xaml.media.dxinterop
 ms.assetid: a4c7c22a-09d2-38c4-953e-d9d5066a4676
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

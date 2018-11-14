@@ -2,7 +2,7 @@
 UID: NA:deviceaccess
 ms.assetid: 4b0026e9-29ed-3ec0-a295-556fb87ed090
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

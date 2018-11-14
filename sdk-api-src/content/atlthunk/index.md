@@ -2,7 +2,7 @@
 UID: NA:atlthunk
 ms.assetid: 3b02c6c2-442b-33fd-81f1-3ef77488cd48
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

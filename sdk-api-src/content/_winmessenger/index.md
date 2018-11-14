@@ -2,7 +2,7 @@
 UID: TP:winmessenger
 ms.assetid: 9f2816ab-d7f4-3a59-96b3-d105f7af9f77
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

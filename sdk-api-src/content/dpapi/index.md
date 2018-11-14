@@ -2,7 +2,7 @@
 UID: NA:dpapi
 ms.assetid: c09dd4ae-455f-3e93-a966-1bf8218c50b9
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
