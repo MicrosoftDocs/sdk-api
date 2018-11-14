@@ -117,7 +117,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 The following illustration shows the pie that is drawn in the ellipse that is bounded by the rectangle. The illustration also shows the horizontal axis of the ellipse and the direction of the 
 				<i>startAngle</i> and the <i>sweepAngle</i>.
 
-<img alt="Illustration showing an ellipse with an outlined pie; the start angle and sweep angle are labeled" src="images/drawpie1.png"/>
+<img alt="Illustration showing an ellipse with an outlined pie; the start angle and sweep angle are labeled" src="./images/drawpie1.png"/>
 
 #### Examples
 

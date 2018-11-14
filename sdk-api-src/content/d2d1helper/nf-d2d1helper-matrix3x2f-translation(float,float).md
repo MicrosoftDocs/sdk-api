@@ -99,7 +99,7 @@ A transformation matrix that translates an object the specified horizontal and v
 
 When calling this method, specify the x and y displacements. If you prefer to define both displacements in an ordered pair by using the <a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a> structure, call the  other <a href="https://msdn.microsoft.com/eb289287-4f33-42cf-a306-120adda70371">Translation</a> method. The following illustration shows a square moved 20 pixels to the right along the x-axis, and 10 pixels downward along the y-axis.
 
-<img alt="Illustration of the square moved to the right and downward" src="images/translation_ovw.png"/>
+<img alt="Illustration of the square moved to the right and downward" src="./images/translation_ovw.png"/>
  For an example, see <a href="https://msdn.microsoft.com/0fc48801-de14-4398-816d-6e7ddf4ffdd7">How to Translate an Object</a>.
 
 

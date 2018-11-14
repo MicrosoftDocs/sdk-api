@@ -77,7 +77,7 @@ An animation that represents how the saturation of the image changes over time. 
             The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:
             
 
-<img alt="Matrix equation" src="images/saturation_formula.png"/>
+<img alt="Matrix equation" src="./images/saturation_formula.png"/>
 
 ## -returns
 

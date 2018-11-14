@@ -139,7 +139,7 @@ The specified message is not currently being read or written on the specified ch
                 state diagram:
             
 
-<img alt="" src="images/AbandonMessage.png"/>
+<img alt="" src="./images/AbandonMessage.png"/>
 
 For read operations, an application typically calls <b>WsAbandonMessage</b> when it is unnecessary for the application to continue reading the 
                 message data, for example, if the
