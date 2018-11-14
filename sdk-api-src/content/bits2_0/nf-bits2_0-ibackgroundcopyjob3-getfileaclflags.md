@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_0.h
+: 
+- IBackgroundCopyJob3.GetFileACLFlags
+: 
 ---
 
 # IBackgroundCopyJob3::GetFileACLFlags

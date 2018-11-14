@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- winsatcominterfacei.h
+: 
+- IQueryRecentWinSATAssessment.get_XML
+: 
 ---
 
 # IQueryRecentWinSATAssessment::get_XML

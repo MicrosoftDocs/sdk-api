@@ -9,8 +9,8 @@ ms.assetid: 8973cf5a-bbce-43c2-b418-2807842d43c0
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], IPrintAsyncNotifyChannel interface [Windows GDI],described, _win32_IPrintAsyncNotifyChannel, gdi.iprintasyncnotifychannel, prnasnot/IPrintAsyncNotifyChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: prnasnot.h
 req.include-header: 

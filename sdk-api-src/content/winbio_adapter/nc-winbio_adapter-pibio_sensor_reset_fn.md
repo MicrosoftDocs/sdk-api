@@ -9,8 +9,8 @@ ms.assetid: 09a93726-2dff-4a8a-b36c-ad481a4f61b6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_RESET_FN, PIBIO_SENSOR_RESET_FN callback, SensorAdapterReset, SensorAdapterReset callback function [Windows Biometric Framework API], secbiomet.sensoradapterreset, winbio_adapter/SensorAdapterReset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

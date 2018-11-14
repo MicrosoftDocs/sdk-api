@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontsetbuilder_addfontset.htm
 tech.root: DirectWrite
 ms.assetid: F8B94A1B-905B-4A96-9943-12BB516311C2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: AddFontSet, AddFontSet method [Direct Write], AddFontSet method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],AddFontSet method, IDWriteFontSetBuilder.AddFontSet, IDWriteFontSetBuilder::AddFontSet, directwrite.idwritefontsetbuilder_addfontset, dwrite_3/IDWriteFontSetBuilder::AddFontSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontSetBuilder.AddFontSet
+: 
 ---
 
 # IDWriteFontSetBuilder::AddFontSet

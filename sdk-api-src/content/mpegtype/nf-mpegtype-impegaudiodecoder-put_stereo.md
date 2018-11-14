@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mpegtype.h
+: 
+- IMpegAudioDecoder.put_Stereo
+: 
 ---
 
 # IMpegAudioDecoder::put_Stereo

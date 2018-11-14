@@ -9,8 +9,8 @@ ms.assetid: a9e004de-b157-4ad3-a463-a42ccb56f1ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSMAN_SHELL_STARTUP_INFO, WSMAN_SHELL_STARTUP_INFO structure [Windows Remote Management], WSMAN_SHELL_STARTUP_INFO_V10, _WSMAN_SHELL_STARTUP_INFO_V10, winrm.wsman_shell_startup_info, wsman/WSMAN_SHELL_STARTUP_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

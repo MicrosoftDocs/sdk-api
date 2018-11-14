@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionconstantbuffer.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D10ShaderReflectionConstantBuffer, ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10], ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionConstantBuffer, direct3d10.id3d10shaderreflectionconstantbuffer, fdeec4a2-cda3-d87b-9d10-c899b8675fd1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10shader.h
 req.include-header: 

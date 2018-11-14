@@ -9,8 +9,8 @@ ms.assetid: 5aaa4008-3b39-4d1d-90db-79631e5bb6b9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], ISdoDictionaryOld interface [Network Policy Server],described, _sdo_isdodictionaryold, nps.SDO_isdodictionaryold, sdo.isdodictionaryold, sdoias/ISdoDictionaryOld
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sdoias.h
 req.include-header: 

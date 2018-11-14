@@ -9,8 +9,8 @@ ms.assetid: c4856738-66bf-4982-9440-83b72148c85c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interface [COM+], IServiceSynchronizationConfig interface [COM+],described, _cos_IServiceSynchronizationConfig, comsvcs/IServiceSynchronizationConfig, cos.iservicesynchronizationconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

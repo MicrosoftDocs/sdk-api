@@ -9,8 +9,8 @@ ms.assetid: a54b1496-1f7e-4ba9-acb3-2debbe7e980d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structure [Display Devices], LPDDSETSURFACESTATE, LPDDSETSURFACESTATE structure pointer [Display Devices], _DDSETSURFACETATE, ddkmapi/DDSETSURFACESTATE, ddkmapi/LPDDSETSURFACESTATE, ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml, display.ddsetsurfacestate"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

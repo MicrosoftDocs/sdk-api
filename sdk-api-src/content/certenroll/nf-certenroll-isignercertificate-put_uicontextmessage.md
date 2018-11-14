@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ISignerCertificate.put_UIContextMessage
+: 
 ---
 
 # ISignerCertificate::put_UIContextMessage

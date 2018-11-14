@@ -9,8 +9,8 @@ ms.assetid: e34caf2c-1eb6-40eb-9407-20ed4fde9cdb
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlugin interface [Remote Desktop Services],described, termserv.iwtsplugin, tsvirtualchannels/IWTSPlugin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

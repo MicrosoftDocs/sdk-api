@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_getstreamindexfromfriendlyname.htm
 tech.root: medfound
 ms.assetid: 38bc2ca8-29ff-4a23-9b78-693aaab6767f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetStreamIndexFromFriendlyName method, IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfcaptureengine.h
+: 
+- IMFCaptureSource.GetStreamIndexFromFriendlyName
+: 
 ---
 
 # IMFCaptureSource::GetStreamIndexFromFriendlyName

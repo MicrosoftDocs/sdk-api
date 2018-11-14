@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msctf.h
+: 
+- ITfThreadMgr2.GetFunctionProvider
+: 
 ---
 
 # ITfThreadMgr2::GetFunctionProvider

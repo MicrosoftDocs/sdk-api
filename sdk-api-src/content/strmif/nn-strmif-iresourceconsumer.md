@@ -9,8 +9,8 @@ ms.assetid: dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], IResourceConsumer interface [DirectShow],described, IResourceConsumerInterface, dshow.iresourceconsumer, strmif/IResourceConsumer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

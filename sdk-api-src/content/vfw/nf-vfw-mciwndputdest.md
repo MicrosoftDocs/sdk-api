@@ -7,7 +7,7 @@ old-location: multimedia\mciwndputdest.htm
 tech.root: Multimedia
 ms.assetid: d058c1b7-f7f8-49a0-84cc-ece298a25289
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndPutDest, MCIWndPutDest macro [Windows Multimedia], _win32_MCIWndPutDest, multimedia.mciwndputdest, vfw/MCIWndPutDest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndPutDest
+: 
 ---
 
 # MCIWndPutDest macro

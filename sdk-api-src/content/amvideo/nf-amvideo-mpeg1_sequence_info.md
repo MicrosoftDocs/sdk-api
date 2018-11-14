@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- amvideo.h
+: 
+- MPEG1_SEQUENCE_INFO
+: 
 ---
 
 # MPEG1_SEQUENCE_INFO macro

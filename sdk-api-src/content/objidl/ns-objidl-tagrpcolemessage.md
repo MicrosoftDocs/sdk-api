@@ -9,8 +9,8 @@ ms.assetid: b4761462-1910-431c-b5cd-c14fdda0b6b6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer [COM], RPCOLEMESSAGE, RPCOLEMESSAGE structure [COM], _com_RPCOLEMESSAGE, com.rpcolemessage, objidlbase/PRPCOLEMESSAGE, objidlbase/RPCOLEMESSAGE, tagRPCOLEMESSAGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h

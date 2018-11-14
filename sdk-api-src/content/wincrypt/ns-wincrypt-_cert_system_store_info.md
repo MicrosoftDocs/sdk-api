@@ -7,10 +7,10 @@ old-location: security\cert_system_store_info.htm
 tech.root: seccrypto
 ms.assetid: 9c17ebd9-423b-4063-bdc3-6be70ceb8623
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO structure [Security], PCERT_SYSTEM_STORE_INFO, PCERT_SYSTEM_STORE_INFO structure pointer [Security], _CERT_SYSTEM_STORE_INFO, _crypto2_cert_system_store_info, security.cert_system_store_info, wincrypt/CERT_SYSTEM_STORE_INFO, wincrypt/PCERT_SYSTEM_STORE_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

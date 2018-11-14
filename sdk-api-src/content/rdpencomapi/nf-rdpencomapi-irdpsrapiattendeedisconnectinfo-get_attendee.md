@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIAttendeeDisconnectInfo.get_Attendee
+: 
 ---
 
 # IRDPSRAPIAttendeeDisconnectInfo::get_Attendee

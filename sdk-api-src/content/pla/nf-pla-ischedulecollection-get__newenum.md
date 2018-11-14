@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IScheduleCollection.get__NewEnum
+: 
 ---
 
 # IScheduleCollection::get__NewEnum

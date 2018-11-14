@@ -7,7 +7,7 @@ old-location: security\getsidlengthrequired.htm
 tech.root: secauthz
 ms.assetid: a481fb4f-20bd-4f44-a3d5-d8b8d6228339
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSidLengthRequired
+: 
 ---
 
 # GetSidLengthRequired function

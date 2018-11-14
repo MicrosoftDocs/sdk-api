@@ -7,10 +7,10 @@ old-location: fax\_mfax_faxinitializeeventqueue.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ip1.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

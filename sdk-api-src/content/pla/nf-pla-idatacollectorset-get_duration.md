@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataCollectorSet.get_Duration
+: 
 ---
 
 # IDataCollectorSet::get_Duration

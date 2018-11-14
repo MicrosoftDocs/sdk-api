@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudioobjectbuffer_gettype.htm
 tech.root: medfound
 ms.assetid: CF0285D2-E56B-44A5-B7E0-3227213D9523
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetType method, IMFSpatialAudioObjectBuffer.GetType, IMFSpatialAudioObjectBuffer::GetType, mf.imfspatialaudioobjectbuffer_gettype, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfspatialaudio.h
+: 
+- IMFSpatialAudioObjectBuffer.GetType
+: 
 ---
 
 # IMFSpatialAudioObjectBuffer::GetType

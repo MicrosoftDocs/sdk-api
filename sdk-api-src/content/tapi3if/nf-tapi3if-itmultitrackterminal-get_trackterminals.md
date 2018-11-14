@@ -7,7 +7,7 @@ old-location: tapi3\itmultitrackterminal_get_trackterminals.htm
 tech.root: tapi
 ms.assetid: 2bedefe8-6b84-48c0-8a7b-719d017baf24
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_TrackTerminals method, ITMultiTrackTerminal.get_TrackTerminals, ITMultiTrackTerminal::get_TrackTerminals, _tapi3_itmultitrackterminal_get_trackterminals, get_TrackTerminals, get_TrackTerminals method [TAPI 2.2], get_TrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_trackterminals, tapi3if/ITMultiTrackTerminal::get_TrackTerminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITMultiTrackTerminal.get_TrackTerminals
+: 
 ---
 
 # ITMultiTrackTerminal::get_TrackTerminals

@@ -9,8 +9,8 @@ ms.assetid: 0A5E0ADB-0879-4646-9F69-D8AB9BD067AD
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_NET_EVENT_CALLBACK2, FWPM_NET_EVENT_CALLBACK2 callback, FWPM_NET_EVENT_CALLBACK2 callback function [Filtering], fwp.fwpm_net_event_callback2, fwpmu/FWPM_NET_EVENT_CALLBACK2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

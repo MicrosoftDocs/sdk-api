@@ -7,7 +7,7 @@ old-location: security\getsididentifierauthority.htm
 tech.root: secauthz
 ms.assetid: 67a06e7b-775f-424c-ab36-0fc9b93b801a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSidIdentifierAuthority, GetSidIdentifierAuthority function [Security], _win32_getsididentifierauthority, security.getsididentifierauthority, securitybaseapi/GetSidIdentifierAuthority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSidIdentifierAuthority
+: 
 ---
 
 # GetSidIdentifierAuthority function

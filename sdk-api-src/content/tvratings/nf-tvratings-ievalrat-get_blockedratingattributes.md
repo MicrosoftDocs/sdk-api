@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tvratings.h
+: 
+- IEvalRat.get_BlockedRatingAttributes
+: 
 ---
 
 # IEvalRat::get_BlockedRatingAttributes

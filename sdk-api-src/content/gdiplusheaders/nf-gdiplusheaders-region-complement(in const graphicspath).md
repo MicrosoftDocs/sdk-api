@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Complement_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods\complement.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Complement, Complement method [GDI+], Complement method [GDI+],Region class, Region class [GDI+],Complement method, Region.Complement, Region.Complement(IN const GraphicsPath), Region.Complement(const GraphicsPath*), Region::Complement, Region::Complement(IN const GraphicsPath), _gdiplus_CLASS_Region_Complement_path_, gdiplus._gdiplus_CLASS_Region_Complement_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.Complement
+: 
 req.product: GDI+ 1.0
 ---
 

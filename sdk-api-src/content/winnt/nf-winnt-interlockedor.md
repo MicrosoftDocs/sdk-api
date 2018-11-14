@@ -7,7 +7,7 @@ old-location: base\interlockedor.htm
 tech.root: sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winnt/InterlockedOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InterlockedOr
+: 
 ---
 
 # InterlockedOr function

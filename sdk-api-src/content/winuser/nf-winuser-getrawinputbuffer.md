@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetRawInputBuffer
+: 
 ---
 
 # GetRawInputBuffer function
@@ -105,14 +111,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms645593(v=VS.85).aspx">NE
 
 <div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  
 
-<div class="code"><span codelanguage=""><table>
-<div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>[StructLayout(LayoutKind.Explicit)]
+
+```
+[StructLayout(LayoutKind.Explicit)]
 internal struct RAWINPUT
 {
     [FieldOffset(0)]
@@ -127,10 +128,8 @@ internal struct RAWINPUT
     [FieldOffset(16+8)]
     public RAWHID hid;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 </div>

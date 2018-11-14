@@ -9,8 +9,8 @@ ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

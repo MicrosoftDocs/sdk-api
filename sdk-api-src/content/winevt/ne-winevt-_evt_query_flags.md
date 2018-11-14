@@ -9,8 +9,8 @@ ms.assetid: e4499356-f749-4cf9-9f5d-f6a701611f42
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: EVT_QUERY_FLAGS, EVT_QUERY_FLAGS enumeration [EventLog], EvtQueryChannelPath, EvtQueryFilePath, EvtQueryForwardDirection, EvtQueryReverseDirection, EvtQueryTolerateQueryErrors, _EVT_QUERY_FLAGS, wes.evt_query_flags, winevt/EVT_QUERY_FLAGS, winevt/EvtQueryChannelPath, winevt/EvtQueryFilePath, winevt/EvtQueryForwardDirection, winevt/EvtQueryReverseDirection, winevt/EvtQueryTolerateQueryErrors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

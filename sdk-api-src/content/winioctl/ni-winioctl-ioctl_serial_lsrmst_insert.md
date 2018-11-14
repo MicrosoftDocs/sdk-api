@@ -9,8 +9,8 @@ ms.assetid: 9bd427da-1c14-403e-bebe-f64fe4e8723c
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code, _win32_ioctl_serial_lsrmst_insert, base.ioctl_serial_lsrmst_insert, winioctl/IOCTL_SERIAL_LSRMST_INSERT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

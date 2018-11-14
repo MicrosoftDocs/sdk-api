@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ISignerCertificate.get_PrivateKey
+: 
 ---
 
 # ISignerCertificate::get_PrivateKey

@@ -7,7 +7,7 @@ old-location: security\sspiencodestringsasauthidentity.htm
 tech.root: secauthn
 ms.assetid: 0aea2f00-fcf1-4c4e-a22f-a669dd4fb294
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SspiEncodeStringsAsAuthIdentity
+: 
 ---
 
 # SspiEncodeStringsAsAuthIdentity function

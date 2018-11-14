@@ -7,7 +7,7 @@ old-location: mscs\setappinstancecsvflags.htm
 tech.root: mscs
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS function [Failover Cluster], SetAppInstanceCsvFlags, SetAppInstanceCsvFlags function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS, smbclnt/SetAppInstanceCsvFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetAppInstanceCsvFlags
+: 
 ---
 
 # SetAppInstanceCsvFlags function

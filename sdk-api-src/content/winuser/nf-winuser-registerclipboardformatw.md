@@ -7,7 +7,7 @@ old-location: dataxchg\registerclipboardformat.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\registerclipboardformat.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/13/2018
 ms.keywords: RegisterClipboardFormat, RegisterClipboardFormat function [Data Exchange], RegisterClipboardFormatA, RegisterClipboardFormatW, _win32_RegisterClipboardFormat, _win32_registerclipboardformat_cpp, dataxchg.registerclipboardformat, winui._win32_registerclipboardformat, winuser/RegisterClipboardFormat, winuser/RegisterClipboardFormatA, winuser/RegisterClipboardFormatW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,6 +55,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegisterClipboardFormatW
+: 
 ---
 
 # RegisterClipboardFormatW function

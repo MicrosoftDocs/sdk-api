@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwPolicy2.put_DefaultOutboundAction
+: 
 ---
 
 # INetFwPolicy2::put_DefaultOutboundAction

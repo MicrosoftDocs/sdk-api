@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspath.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+], GraphicsPath class [GDI+],described, _gdiplus_CLASS_GraphicsPath_Class, gdiplus._gdiplus_CLASS_GraphicsPath_Class, gdipluspath/GraphicsPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: gdipluspath.h
 req.include-header: 

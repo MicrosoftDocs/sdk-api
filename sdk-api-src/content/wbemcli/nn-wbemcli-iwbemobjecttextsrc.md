@@ -9,8 +9,8 @@ ms.assetid: b86fd54e-15a8-4a08-ba29-5bc086ababf8
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IWbemObjectTextSrc, IWbemObjectTextSrc interface [Windows Management Instrumentation], IWbemObjectTextSrc interface [Windows Management Instrumentation],described, WbemObjectTextSrc, _hmm_iwbemobjecttextsrc, wbemcli/IWbemObjectTextSrc, wmi.iwbemobjecttextsrc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

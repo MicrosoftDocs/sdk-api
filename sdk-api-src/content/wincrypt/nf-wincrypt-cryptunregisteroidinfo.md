@@ -7,7 +7,7 @@ old-location: security\cryptunregisteroidinfo.htm
 tech.root: seccrypto
 ms.assetid: 1217397b-2af9-4f58-8616-5a18ee2f4b8c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptUnregisterOIDInfo, CryptUnregisterOIDInfo function [Security], _crypto2_cryptunregisteroidinfo, security.cryptunregisteroidinfo, wincrypt/CryptUnregisterOIDInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptUnregisterOIDInfo
+: 
 ---
 
 # CryptUnregisterOIDInfo function

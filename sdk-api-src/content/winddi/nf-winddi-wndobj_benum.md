@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WNDOBJ_bEnum
+: 
 ---
 
 # WNDOBJ_bEnum function

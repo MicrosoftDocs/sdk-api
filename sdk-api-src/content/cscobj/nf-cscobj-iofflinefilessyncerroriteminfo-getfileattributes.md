@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesSyncErrorItemInfo.GetFileAttributes
+: 
 ---
 
 # IOfflineFilesSyncErrorItemInfo::GetFileAttributes

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITransformProvider2.get_ZoomMinimum
+: 
 ---
 
 # ITransformProvider2::get_ZoomMinimum

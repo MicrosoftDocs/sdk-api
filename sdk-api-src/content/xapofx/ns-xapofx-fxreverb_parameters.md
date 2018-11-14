@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.xapofx.FXREVERB_PARAMETERS
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FXREVERB_PARAMETERS, FXREVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXREVERB_PARAMETERS, xaudio2.fxreverb_parameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 

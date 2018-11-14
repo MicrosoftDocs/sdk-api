@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ComboBox_SetCueBannerText
+: 
 ---
 
 # ComboBox_SetCueBannerText macro

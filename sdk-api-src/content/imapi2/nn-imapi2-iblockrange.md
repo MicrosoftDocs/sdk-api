@@ -9,8 +9,8 @@ ms.assetid: abebc651-0575-4b76-9fe8-2cea3d617582
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IBlockRange, IBlockRange interface [IMAPI], IBlockRange interface [IMAPI],described, imapi.iblockrange, imapi2/IBlockRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

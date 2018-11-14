@@ -9,8 +9,8 @@ ms.assetid: b16cc14b-4aef-43ec-9232-a95de06f1194
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_HWPROVIDER_TYPE, VDS_HWPROVIDER_TYPE enumeration [VDS], VDS_HWT_FIBRE_CHANNEL, VDS_HWT_HYBRID, VDS_HWT_ISCSI, VDS_HWT_PCI_RAID, VDS_HWT_SAS, VDS_HWT_UNKNOWN, _VDS_HWPROVIDER_TYPE, base.vds_hwprovider_type, vds/VDS_HWPROVIDER_TYPE, vds/VDS_HWT_FIBRE_CHANNEL, vds/VDS_HWT_HYBRID, vds/VDS_HWT_ISCSI, vds/VDS_HWT_PCI_RAID, vds/VDS_HWT_SAS, vds/VDS_HWT_UNKNOWN, vdshwprv/VDS_HWPROVIDER_TYPE, vdshwprv/VDS_HWT_FIBRE_CHANNEL, vdshwprv/VDS_HWT_HYBRID, vdshwprv/VDS_HWT_ISCSI, vdshwprv/VDS_HWT_PCI_RAID, vdshwprv/VDS_HWT_SAS, vdshwprv/VDS_HWT_UNKNOWN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

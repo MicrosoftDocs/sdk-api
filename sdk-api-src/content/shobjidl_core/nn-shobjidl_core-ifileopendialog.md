@@ -9,8 +9,8 @@ ms.assetid: f95b7106-18ab-4f7f-8d3f-267ac0293245
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFileOpenDialog, IFileOpenDialog interface [Windows Shell], IFileOpenDialog interface [Windows Shell],described, shell.IFileOpenDialog, shell_IFileOpenDialog, shobjidl_core/IFileOpenDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsOU, IADsOU interface [ADSI], IADsOU interface [ADSI],described, _ds_iadsou, adsi.iadsou, iads/IADsOU
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

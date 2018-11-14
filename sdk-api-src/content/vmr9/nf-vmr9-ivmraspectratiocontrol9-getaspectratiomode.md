@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vmr9.h
+: 
+- IVMRAspectRatioControl9.GetAspectRatioMode
+: 
 ---
 
 # IVMRAspectRatioControl9::GetAspectRatioMode

@@ -9,8 +9,8 @@ ms.assetid: 322363b4-081e-4100-9087-e34c21a3ffae
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BG_FILE_PROGRESS, BG_FILE_PROGRESS structure [BITS], _BG_FILE_PROGRESS, _drz_bg_file_progress, bits.bg_file_progress, bits/BG_FILE_PROGRESS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bits.h
 req.include-header: 

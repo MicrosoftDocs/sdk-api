@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_0.h
+: 
+- IBackgroundCopyFile2.GetFileRanges
+: 
 ---
 
 # IBackgroundCopyFile2::GetFileRanges

@@ -9,8 +9,8 @@ ms.assetid: 2DACA175-19BC-4192-A2FF-CB8AC7220B98
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DISPLAYCONFIG_DESKTOP_IMAGE_INFO, DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure [Display Devices], display.displayconfig_desktop_image_info, wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

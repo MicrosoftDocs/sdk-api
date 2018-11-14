@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_string_length_font_l
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsmeasurestringmethods\measurestring_56string_length_font_layoutrectsize_stri.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Graphics class [GDI+],MeasureString method, Graphics.MeasureString, Graphics.MeasureString(IN const WCHAR,IN INT,IN const Font,IN const SizeF &,IN const StringFormat,OUT SizeF,OUT INT,OUT INT), Graphics.MeasureString(const WCHAR*,INT,const Font*,const SizeF&,const StringFormat*,SizeF*,INT*,INT*), Graphics::MeasureString, Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const SizeF &,IN const StringFormat,OUT SizeF,OUT INT,OUT INT), MeasureString, MeasureString method [GDI+], MeasureString method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureString_string_length_font_layoutRectSize_stringFormat_size_codepoints, gdiplus._gdiplus_CLASS_Graphics_MeasureString_string_length_font_layoutRectSize_stringFormat_size_codepoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.MeasureString
+: 
 req.product: GDI+ 1.0
 ---
 

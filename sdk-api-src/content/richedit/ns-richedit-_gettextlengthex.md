@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: GETTEXTLENGTHEX, GETTEXTLENGTHEX structure [Windows Controls], GTL_CLOSE, GTL_DEFAULT, GTL_NUMBYTES, GTL_NUMCHARS, GTL_PRECISE, GTL_USECRLF, _gettextlengthex, _win32_GETTEXTLENGTHEX_str, _win32_GETTEXTLENGTHEX_str_cpp, controls.GETTEXTLENGTHEX, controls._win32_GETTEXTLENGTHEX_str, richedit/GETTEXTLENGTHEX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_username_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jad.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxJob interface [Fax Service],UserName property, IFaxJob.UserName, IFaxJob.get_UserName, IFaxJob::UserName, IFaxJob::get_UserName, UserName property [Fax Service], UserName property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username, fax._mfax_ifaxjob_mfax_ifaxjob_get_username_cpp, faxcom/IFaxJob::UserName, faxcom/IFaxJob::get_UserName, get_UserName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcom.h
+: 
+- IFaxJob.get_UserName
+: 
 ---
 
 # IFaxJob::get_UserName

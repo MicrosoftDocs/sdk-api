@@ -9,8 +9,8 @@ ms.assetid: d1a52353-dd86-4083-9dbc-3a6f363a1a57
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], IAdviseSinkEx interface [COM],described, _ole_iadvisesinkex, com.iadvisesinkex, ocidl/IAdviseSinkEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

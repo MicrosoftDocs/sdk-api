@@ -7,7 +7,7 @@ old-location: mf\itocentry_settitle.htm
 tech.root: medfound
 ms.assetid: 24ab6c56-59ae-4fdf-b18e-75f616ee5a80
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcodecdsp.h
+: 
+- ITocEntry.SetTitle
+: 
 ---
 
 # ITocEntry::SetTitle

@@ -9,8 +9,8 @@ ms.assetid: 35357681-c165-4981-8486-ac7cbb26de1f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_ConstUint32A, MI_ConstUint32A structure [Windows Management Infrastructure (MI)], _MI_ConstUint32A, mi/MI_ConstUint32A, wmi._mi_constuint32a, wmi_v2.mi_constuint32a
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

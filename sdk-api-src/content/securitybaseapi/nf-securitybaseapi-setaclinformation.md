@@ -7,7 +7,7 @@ old-location: security\setaclinformation.htm
 tech.root: secauthz
 ms.assetid: bb4dd7f9-2f15-4a27-89c9-1675f4fb8d92
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetAclInformation, SetAclInformation function [Security], _win32_setaclinformation, security.setaclinformation, securitybaseapi/SetAclInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetAclInformation
+: 
 ---
 
 # SetAclInformation function

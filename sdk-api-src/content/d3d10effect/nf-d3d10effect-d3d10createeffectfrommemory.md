@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D10CreateEffectFromMemory
+: 
 ---
 
 # D3D10CreateEffectFromMemory function

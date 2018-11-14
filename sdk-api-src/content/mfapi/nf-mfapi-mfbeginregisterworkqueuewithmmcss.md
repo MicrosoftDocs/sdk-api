@@ -7,7 +7,7 @@ old-location: mf\mfbeginregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca, MFBeginRegisterWorkQueueWithMMCSS, MFBeginRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcss, mfapi/MFBeginRegisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFBeginRegisterWorkQueueWithMMCSS
+: 
 ---
 
 # MFBeginRegisterWorkQueueWithMMCSS function

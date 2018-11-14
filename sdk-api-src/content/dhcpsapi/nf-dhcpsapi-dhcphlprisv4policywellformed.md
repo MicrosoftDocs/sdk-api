@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpHlprIsV4PolicyWellFormed
+: 
 ---
 
 # DhcpHlprIsV4PolicyWellFormed function

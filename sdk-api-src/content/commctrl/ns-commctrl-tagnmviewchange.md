@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\monthcal\structures\nmviewchange.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMVIEWCHANGE, LPNMVIEWCHANGE, LPNMVIEWCHANGE structure pointer [Windows Controls], MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, NMVIEWCHANGE, NMVIEWCHANGE structure [Windows Controls], _shell_NMVIEWCHANGE, _shell_NMVIEWCHANGE_cpp, commctrl/LPNMVIEWCHANGE, commctrl/NMVIEWCHANGE, controls.NMVIEWCHANGE, controls._shell_NMVIEWCHANGE, tagNMVIEWCHANGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

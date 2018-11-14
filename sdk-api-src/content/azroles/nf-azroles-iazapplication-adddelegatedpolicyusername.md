@@ -7,7 +7,7 @@ old-location: security\iazapplication_adddelegatedpolicyusername.htm
 tech.root: secauthz
 ms.assetid: f30392f6-7100-43dd-ab20-419cd02d9ea5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddDelegatedPolicyUserName, AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security],AzApplication object, AddDelegatedPolicyUserName method [Security],IAzApplication interface, AzApplication object [Security],AddDelegatedPolicyUserName method, IAzApplication interface [Security],AddDelegatedPolicyUserName method, IAzApplication.AddDelegatedPolicyUserName, IAzApplication::AddDelegatedPolicyUserName, azroles/IAzApplication::AddDelegatedPolicyUserName, security.iazapplication_adddelegatedpolicyusername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.AddDelegatedPolicyUserName
+: 
 ---
 
 # IAzApplication::AddDelegatedPolicyUserName

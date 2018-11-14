@@ -7,7 +7,7 @@ old-location: base\getintegrateddisplaysize.htm
 tech.root: sysinfo
 ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetIntegratedDisplaySize
+: 
 ---
 
 # GetIntegratedDisplaySize function

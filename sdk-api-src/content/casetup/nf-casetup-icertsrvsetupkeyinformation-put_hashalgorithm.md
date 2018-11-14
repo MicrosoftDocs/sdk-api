@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
 tech.root: seccrypto
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.put_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, put_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetupKeyInformation.put_HashAlgorithm
+: 
 ---
 
 # ICertSrvSetupKeyInformation::put_HashAlgorithm

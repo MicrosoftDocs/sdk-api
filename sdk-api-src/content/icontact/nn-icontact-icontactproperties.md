@@ -9,8 +9,8 @@ ms.assetid: c9c0d73d-4c39-4f7c-9bc6-46d764f157bd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], IContactProperties interface [Windows Contacts],described, _wincontacts_IContactProperties, icontact/IContactProperties, wincontacts._wincontacts_IContactProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h

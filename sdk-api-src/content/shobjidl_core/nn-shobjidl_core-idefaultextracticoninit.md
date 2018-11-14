@@ -9,8 +9,8 @@ ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

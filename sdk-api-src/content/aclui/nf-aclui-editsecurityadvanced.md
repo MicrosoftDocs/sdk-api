@@ -7,7 +7,7 @@ old-location: security\editsecurityadvanced.htm
 tech.root: secauthz
 ms.assetid: E451BBB9-4E01-4A8F-9ACD-750351F16453
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EditSecurityAdvanced
+: 
 ---
 
 # EditSecurityAdvanced function

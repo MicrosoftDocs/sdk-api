@@ -9,8 +9,8 @@ ms.assetid: 6797D7C0-3451-464E-9261-61217ADAB9C1
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: DSAFIPSVERSION_ENUM, DSAFIPSVERSION_ENUM enumeration [Security], DSA_FIPS186_2, DSA_FIPS186_3, bcrypt/DSAFIPSVERSION_ENUM, bcrypt/DSA_FIPS186_2, bcrypt/DSA_FIPS186_3, security.dsafipsversion_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: bcrypt.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 0a83b257-e88f-4870-924c-56ddc325f17f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], IDirectDrawMediaSample interface [DirectShow],described, IDirectDrawMediaSampleInterface, amstream/IDirectDrawMediaSample, dshow.idirectdrawmediasample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 

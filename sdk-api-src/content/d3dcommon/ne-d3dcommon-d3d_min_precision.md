@@ -9,8 +9,8 @@ ms.assetid: C97D04D7-EAE4-4E5B-80A2-EDB1CE68C2BC
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D_MIN_PRECISION, D3D_MIN_PRECISION enumeration [Direct3D 11], D3D_MIN_PRECISION_ANY_10, D3D_MIN_PRECISION_ANY_16, D3D_MIN_PRECISION_DEFAULT, D3D_MIN_PRECISION_FLOAT_16, D3D_MIN_PRECISION_FLOAT_2_8, D3D_MIN_PRECISION_RESERVED, D3D_MIN_PRECISION_SINT_16, D3D_MIN_PRECISION_UINT_16, d3dcommon/D3D_MIN_PRECISION, d3dcommon/D3D_MIN_PRECISION_ANY_10, d3dcommon/D3D_MIN_PRECISION_ANY_16, d3dcommon/D3D_MIN_PRECISION_DEFAULT, d3dcommon/D3D_MIN_PRECISION_FLOAT_16, d3dcommon/D3D_MIN_PRECISION_FLOAT_2_8, d3dcommon/D3D_MIN_PRECISION_RESERVED, d3dcommon/D3D_MIN_PRECISION_SINT_16, d3dcommon/D3D_MIN_PRECISION_UINT_16, direct3d11.d3d_min_precision
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 

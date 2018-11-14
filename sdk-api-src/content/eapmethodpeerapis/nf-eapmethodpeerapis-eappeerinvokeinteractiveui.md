@@ -4,10 +4,10 @@ title: EapPeerInvokeInteractiveUI function
 author: windows-sdk-content
 description: Raises a custom interactive user interface dialog for the EAP method on the client.
 old-location: eaphost\eappeerinvokeinteractiveui.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 16301c49-4415-4ebe-abdd-a03183db5f20
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerInvokeInteractiveUI, EapPeerInvokeInteractiveUI function [EAPHost], eaphost.eappeerinvokeinteractiveui, eapmethodpeerapis/EapPeerInvokeInteractiveUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapPeerInvokeInteractiveUI
+: 
 ---
 
 # EapPeerInvokeInteractiveUI function

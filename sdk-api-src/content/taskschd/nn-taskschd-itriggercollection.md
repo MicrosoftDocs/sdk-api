@@ -9,8 +9,8 @@ ms.assetid: 5985ff67-3aa2-4ade-9d53-da4d640f5f6e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITriggerCollection, ITriggerCollection interface [Task Scheduler], ITriggerCollection interface [Task Scheduler],described, taskschd.itriggercollection, taskschd/ITriggerCollection, triggers [Task Scheduler],trigger collection interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

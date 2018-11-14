@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITextProvider2.RangeFromAnnotation
+: 
 ---
 
 # ITextProvider2::RangeFromAnnotation

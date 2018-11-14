@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- INetSharingPortMappingProps.get_TargetIPAddress
+: 
 ---
 
 # INetSharingPortMappingProps::get_TargetIPAddress

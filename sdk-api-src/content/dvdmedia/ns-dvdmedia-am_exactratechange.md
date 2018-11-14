@@ -9,8 +9,8 @@ ms.assetid: 07f23ea0-03ef-4650-9c3b-c7efb94e56a7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AM_ExactRateChange, AM_ExactRateChange structure [DirectShow], AM_ExactRateChangeStructure, dshow.am_exactratechange, dvdmedia/AM_ExactRateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

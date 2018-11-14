@@ -7,10 +7,10 @@ old-location: security\crypt_xml_keyinfo_param.htm
 tech.root: seccrypto
 ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Security], _CRYPT_XML_KEYINFO_PARAM, cryptxml/CRYPT_XML_KEYINFO_PARAM, security.crypt_xml_keyinfo_param
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

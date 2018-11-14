@@ -9,8 +9,8 @@ ms.assetid: f4990710-7278-461f-a82e-94cd548eab35
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DRT_LEAFSET_KEY_ADDED, DRT_LEAFSET_KEY_CHANGE_TYPE, DRT_LEAFSET_KEY_CHANGE_TYPE enumeration [Peer Networking], DRT_LEAFSET_KEY_DELETED, drt/DRT_LEAFSET_KEY_ADDED, drt/DRT_LEAFSET_KEY_CHANGE_TYPE, drt/DRT_LEAFSET_KEY_DELETED, drt_leafset_key_change_type_tag, p2p.drt_leafset_key_change_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: drt.h
 req.include-header: 

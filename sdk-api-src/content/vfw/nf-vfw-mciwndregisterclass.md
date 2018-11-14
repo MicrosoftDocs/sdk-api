@@ -7,7 +7,7 @@ old-location: multimedia\mciwndregisterclass.htm
 tech.root: Multimedia
 ms.assetid: e5b7964a-ec2b-4fef-912d-f702cb3ee05c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndRegisterClass, MCIWndRegisterClass function [Windows Multimedia], _win32_MCIWndRegisterClass, multimedia.mciwndregisterclass, vfw/MCIWndRegisterClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MCIWndRegisterClass
+: 
 ---
 
 # MCIWndRegisterClass function

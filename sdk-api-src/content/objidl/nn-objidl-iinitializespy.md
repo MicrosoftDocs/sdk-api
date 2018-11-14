@@ -9,8 +9,8 @@ ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

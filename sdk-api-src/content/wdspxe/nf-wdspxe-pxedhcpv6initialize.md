@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PxeDhcpv6Initialize
+: 
 ---
 
 # PxeDhcpv6Initialize function

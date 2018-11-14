@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPFINDINFOW, LPFINDINFO, LPFINDINFO structure pointer [Windows Controls], LVFINDINFO, LVFINDINFO structure [Windows Controls], LVFINDINFOA, LVFINDINFOW, LVFI_NEARESTXY, LVFI_PARAM, LVFI_PARTIAL, LVFI_STRING, LVFI_SUBSTRING, LVFI_WRAP, _win32_LVFINDINFO, _win32_LVFINDINFO_cpp, commctrl/LPFINDINFO, commctrl/LVFINDINFO, commctrl/LVFINDINFOA, commctrl/LVFINDINFOW, controls.LVFINDINFO, controls._win32_LVFINDINFO, tagLVFINDINFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

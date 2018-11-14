@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontsetbuilder_addfontfacereference_1.htm
 tech.root: DirectWrite
 ms.assetid: 0E67F5EF-F8BB-47D9-995D-40879351DC17
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: AddFontFaceReference, AddFontFaceReference method [Direct Write], AddFontFaceReference method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],AddFontFaceReference method, IDWriteFontSetBuilder.AddFontFaceReference, IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference,DWRITE_FONT_PROPERTY const,UINT32), IDWriteFontSetBuilder::AddFontFaceReference, IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference,DWRITE_FONT_PROPERTY const,UINT32), directwrite.idwritefontsetbuilder_addfontfacereference_1, dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontSetBuilder.AddFontFaceReference
+: 
 ---
 
 # IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference,DWRITE_FONT_PROPERTY const,UINT32)

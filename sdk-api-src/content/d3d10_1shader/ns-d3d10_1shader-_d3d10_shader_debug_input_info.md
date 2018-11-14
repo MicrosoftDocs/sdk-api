@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_input_info.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 985acea2-3d0c-4a4c-f9db-ed556aec5b34, D3D10_SHADER_DEBUG_INPUT_INFO, D3D10_SHADER_DEBUG_INPUT_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INPUT_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_INPUT_INFO, direct3d10.d3d10_shader_debug_input_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h

@@ -9,8 +9,8 @@ ms.assetid: c16ad538-afc6-4530-a2fd-18965b63983b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBroadcastEventEx, IBroadcastEventEx interface [Microsoft TV Technologies], IBroadcastEventEx interface [Microsoft TV Technologies],described, IBroadcastEventExInterface, mstv.ibroadcasteventex, tuner/IBroadcastEventEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 7a6d8f77-7235-4cd1-90e1-9b5260137246
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

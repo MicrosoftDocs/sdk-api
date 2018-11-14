@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidEVR.get_Presenter
+: 
 ---
 
 # IMSVidEVR::get_Presenter

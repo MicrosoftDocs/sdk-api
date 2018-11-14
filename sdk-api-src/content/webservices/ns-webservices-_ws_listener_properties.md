@@ -9,8 +9,8 @@ ms.assetid: 19619c20-d287-42d8-9326-15c810619f22
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_LISTENER_PROPERTIES, WS_LISTENER_PROPERTIES structure [Web Services for Windows], _WS_LISTENER_PROPERTIES, webservices/WS_LISTENER_PROPERTIES, wsw.ws_listener_properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

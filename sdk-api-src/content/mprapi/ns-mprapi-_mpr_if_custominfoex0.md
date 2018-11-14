@@ -9,8 +9,8 @@ ms.assetid: 53c4b7ae-db73-4d97-a99f-a98354c48a92
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMPR_IF_CUSTOMINFOEX0, MPRAPI_IF_CUSTOM_CONFIG_FOR_IKEV2, MPR_IF_CUSTOMINFOEX0, MPR_IF_CUSTOMINFOEX0 structure [RAS], PMPR_IF_CUSTOMINFOEX0, PMPR_IF_CUSTOMINFOEX0 structure pointer [RAS], _MPR_IF_CUSTOMINFOEX0, mprapi/MPR_IF_CUSTOMINFOEX0, mprapi/PMPR_IF_CUSTOMINFOEX0, rras.mpr_if_custominfoex0"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

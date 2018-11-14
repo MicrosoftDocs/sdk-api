@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- structuredquerycondition.h
+: 
+- ICondition2.GetLocale
+: 
 ---
 
 # ICondition2::GetLocale

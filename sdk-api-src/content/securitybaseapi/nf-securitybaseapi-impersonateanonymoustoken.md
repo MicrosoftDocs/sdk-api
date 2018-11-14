@@ -7,7 +7,7 @@ old-location: security\impersonateanonymoustoken.htm
 tech.root: secauthz
 ms.assetid: 98d1072e-f569-4c8c-9254-fa558054c7ec
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ImpersonateAnonymousToken, ImpersonateAnonymousToken function [Security], _win32_impersonateanonymoustoken, security.impersonateanonymoustoken, securitybaseapi/ImpersonateAnonymousToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImpersonateAnonymousToken
+: 
 ---
 
 # ImpersonateAnonymousToken function

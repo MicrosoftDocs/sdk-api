@@ -7,10 +7,10 @@ old-location: base\finddebuginfofileproc.htm
 tech.root: debug
 ms.assetid: c7ccc66a-7897-4430-8874-a4ba66a5cce7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback, FindDebugInfoFileProc callback function, PFIND_DEBUG_FILE_CALLBACK, PFIND_DEBUG_FILE_CALLBACKW, _win32_finddebuginfofileproc, base.finddebuginfofileproc, dbghelp/FindDebugInfoFileProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

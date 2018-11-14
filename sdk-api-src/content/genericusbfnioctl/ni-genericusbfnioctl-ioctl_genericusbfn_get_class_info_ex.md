@@ -9,8 +9,8 @@ ms.assetid: 9FC6E1F4-65AF-4315-B7F2-241E74820742
 ms.author: windowssdkdev
 ms.date: 10/23/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses], buses.ioctl_genericusbfn_get_class_info_ex, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMLoadByteN4
+: 
 ---
 
 # XMLoadByteN4 function

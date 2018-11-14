@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IInputObject2.TranslateAcceleratorGlobal
+: 
 ---
 
 # IInputObject2::TranslateAcceleratorGlobal

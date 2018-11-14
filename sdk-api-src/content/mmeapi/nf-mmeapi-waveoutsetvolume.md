@@ -7,7 +7,7 @@ old-location: multimedia\waveoutsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 6dcc53ae-b663-4812-8c93-a573b8dc6e57
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveOutSetVolume, mmeapi/waveOutSetVolume, multimedia.waveoutsetvolume, waveOutSetVolume, waveOutSetVolume function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveOutSetVolume
+: 
 ---
 
 # waveOutSetVolume function

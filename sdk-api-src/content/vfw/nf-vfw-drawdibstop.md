@@ -7,7 +7,7 @@ old-location: multimedia\drawdibstop.htm
 tech.root: Multimedia
 ms.assetid: 8744d0d2-bcdc-464f-a55c-4b1db6a42522
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: DrawDibStop, DrawDibStop function [Windows Multimedia], _win32_DrawDibStop, multimedia.drawdibstop, vfw/DrawDibStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DrawDibStop
+: 
 ---
 
 # DrawDibStop function

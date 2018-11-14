@@ -4,13 +4,13 @@ title: "_EAP_METHOD_TYPE"
 author: windows-sdk-content
 description: Contains type, identification, and author information about an EAP method.
 old-location: eaphost\eap_method_type.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 47702dd9-d9c2-4dd5-a12d-23a55b031d27
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EAP_METHOD_TYPE, EAP_METHOD_TYPE structure [EAPHost], _EAP_METHOD_TYPE, eaphost.eap_method_type, eaptypes/EAP_METHOD_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

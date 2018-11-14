@@ -9,8 +9,8 @@ ms.assetid: 1c3348d5-6d22-40cb-bf4f-e843819884b9
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code, _win32_ioctl_changer_set_position, base.ioctl_changer_set_position, winioctl/IOCTL_CHANGER_SET_POSITION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

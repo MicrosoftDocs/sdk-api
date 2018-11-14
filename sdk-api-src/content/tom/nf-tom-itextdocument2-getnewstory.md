@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextDocument2.GetNewStory
+: 
 ---
 
 # ITextDocument2::GetNewStory

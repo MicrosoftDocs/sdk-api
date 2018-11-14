@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- Edit_SetWordBreakProc
+: 
 ---
 
 # Edit_SetWordBreakProc macro

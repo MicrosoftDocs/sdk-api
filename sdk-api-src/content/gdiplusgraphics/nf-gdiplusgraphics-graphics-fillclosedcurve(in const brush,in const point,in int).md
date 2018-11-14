@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillclosedcurvemethods\fillclosedcurve.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: FillClosedCurve, FillClosedCurve method [GDI+], FillClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],FillClosedCurve method, Graphics.FillClosedCurve, Graphics.FillClosedCurve(IN const Brush,IN const Point,IN INT), Graphics.FillClosedCurve(const Brush*,const Point*,INT), Graphics::FillClosedCurve, Graphics::FillClosedCurve(IN const Brush,IN const Point,IN INT), _gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillClosedCurve_Brush_brush_Point_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.FillClosedCurve
+: 
 req.product: GDI+ 1.0
 ---
 

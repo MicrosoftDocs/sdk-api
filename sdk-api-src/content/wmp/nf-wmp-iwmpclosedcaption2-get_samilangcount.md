@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPClosedCaption2.get_SAMILangCount
+: 
 ---
 
 # IWMPClosedCaption2::get_SAMILangCount

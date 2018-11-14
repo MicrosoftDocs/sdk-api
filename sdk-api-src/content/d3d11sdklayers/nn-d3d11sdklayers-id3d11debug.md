@@ -9,8 +9,8 @@ ms.assetid: 2c640295-7a91-4a7a-92d3-909d288eb0d6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ID3D11Debug interface [Direct3D 11],described, b037763f-251a-579c-a6cb-8e5097410d05, d3d11sdklayers/ID3D11Debug, direct3d11.id3d11debug
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11sdklayers.h
 req.include-header: 

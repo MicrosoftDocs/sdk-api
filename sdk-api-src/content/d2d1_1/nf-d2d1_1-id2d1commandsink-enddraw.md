@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_enddraw.htm
 tech.root: direct2d
 ms.assetid: 7324d66b-b415-4e07-9fe3-d79a1c0a49b0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: EndDraw, EndDraw method [Direct2D], EndDraw method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],EndDraw method, ID2D1CommandSink.EndDraw, ID2D1CommandSink::EndDraw, d2d1_1/ID2D1CommandSink::EndDraw, direct2d.id2d1commandsink_enddraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1CommandSink.EndDraw
+: 
 ---
 
 # ID2D1CommandSink::EndDraw

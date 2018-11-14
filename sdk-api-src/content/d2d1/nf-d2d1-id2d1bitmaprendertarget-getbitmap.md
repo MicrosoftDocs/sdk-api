@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1BitmapRenderTarget_GetBitmap.htm
 tech.root: direct2d
 ms.assetid: 173a3e2d-82b8-4c33-9a74-1bbf755bbf65
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetBitmap, GetBitmap method [Direct2D], GetBitmap method [Direct2D],ID2D1BitmapRenderTarget interface, ID2D1BitmapRenderTarget interface [Direct2D],GetBitmap method, ID2D1BitmapRenderTarget.GetBitmap, ID2D1BitmapRenderTarget::GetBitmap, d2d1/ID2D1BitmapRenderTarget::GetBitmap, direct2d.ID2D1BitmapRenderTarget_GetBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1BitmapRenderTarget.GetBitmap
+: 
 ---
 
 # ID2D1BitmapRenderTarget::GetBitmap

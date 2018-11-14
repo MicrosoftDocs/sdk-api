@@ -9,8 +9,8 @@ ms.assetid: 8a002deb-2727-456c-8078-a9b0d5893ed4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDataObject, IDataObject interface [COM], IDataObject interface [COM],described, _ole_idataobject, com.idataobject, objidl/IDataObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetcallqualityofservice.htm
 tech.root: tapi
 ms.assetid: ebef3ee3-94e3-4aef-831d-5ce031882b5c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineSetCallQualityOfService, TSPI_lineSetCallQualityOfService function [TAPI 2.2], _tspi_tspi_linesetcallqualityofservice, tspi.tspi_linesetcallqualityofservice, tspi/TSPI_lineSetCallQualityOfService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineSetCallQualityOfService
+: 
 ---
 
 # TSPI_lineSetCallQualityOfService function

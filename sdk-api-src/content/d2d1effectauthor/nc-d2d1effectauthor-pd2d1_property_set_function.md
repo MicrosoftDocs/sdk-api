@@ -7,10 +7,10 @@ old-location: direct2d\pd2d1_property_set_function.htm
 tech.root: direct2d
 ms.assetid: 3293F53E-B911-4F5F-9510-E91B5261BB90
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: PD2D1_PROPERTY_SET_FUNCTION, PD2D1_PROPERTY_SET_FUNCTION function, PD2D1_PROPERTY_SET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_SET_FUNCTION, direct2d.pd2d1_property_set_function
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: d2d1effectauthor.h
 req.include-header: 

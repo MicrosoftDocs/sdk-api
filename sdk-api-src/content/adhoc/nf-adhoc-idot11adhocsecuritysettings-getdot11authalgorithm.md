@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- adhoc.h
+: 
+- IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
+: 
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm

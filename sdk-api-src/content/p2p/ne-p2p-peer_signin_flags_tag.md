@@ -9,8 +9,8 @@ ms.assetid: 00b7f57a-222d-4152-bded-93f1899692da
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PEER_SIGNIN_ALL, PEER_SIGNIN_FLAGS, PEER_SIGNIN_FLAGS enumeration [Peer Networking], PEER_SIGNIN_INTERNET, PEER_SIGNIN_NEAR_ME, PEER_SIGNIN_NONE, p2p.peer_signin_flags, p2p/PEER_SIGNIN_ALL, p2p/PEER_SIGNIN_FLAGS, p2p/PEER_SIGNIN_INTERNET, p2p/PEER_SIGNIN_NEAR_ME, p2p/PEER_SIGNIN_NONE, peer_signin_flags_tag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

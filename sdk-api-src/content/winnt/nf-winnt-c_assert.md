@@ -7,7 +7,7 @@ old-location: base\c_assert.htm
 tech.root: debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnt.h
+: 
+- C_ASSERT
+: 
 ---
 
 # C_ASSERT macro

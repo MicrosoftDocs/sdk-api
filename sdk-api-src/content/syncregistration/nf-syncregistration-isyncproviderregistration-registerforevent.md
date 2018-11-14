@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- syncregistration.h
+: 
+- ISyncProviderRegistration.RegisterForEvent
+: 
 ---
 
 # ISyncProviderRegistration::RegisterForEvent

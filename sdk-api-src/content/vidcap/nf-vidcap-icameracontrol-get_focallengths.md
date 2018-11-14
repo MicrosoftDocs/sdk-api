@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- ICameraControl.get_FocalLengths
+: 
 ---
 
 # ICameraControl::get_FocalLengths
@@ -113,17 +121,10 @@ where:
 </ul>
 From 
 
-<div class="code"><span codelanguage=""><table>
-From <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Lcur</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Lcur
+```
 
 , you can calculate the magnification.
 

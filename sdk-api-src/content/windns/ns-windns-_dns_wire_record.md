@@ -9,8 +9,8 @@ ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], _DNS_WIRE_RECORD, dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

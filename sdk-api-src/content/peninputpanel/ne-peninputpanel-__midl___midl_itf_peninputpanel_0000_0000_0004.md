@@ -9,8 +9,8 @@ ms.assetid: 133d2012-e43c-490a-b126-b7670ea7acf8
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 133d2012-e43c-490a-b126-b7670ea7acf8, CorrectionMode, CorrectionMode enumeration [Tablet PC], CorrectionMode_NotVisible, CorrectionMode_PostInsertionCollapsed, CorrectionMode_PostInsertionExpanded, CorrectionMode_PreInsertion, __MIDL___MIDL_itf_peninputpanel_0000_0000_0004, peninputpanel/CorrectionMode, peninputpanel/CorrectionMode_NotVisible, peninputpanel/CorrectionMode_PostInsertionCollapsed, peninputpanel/CorrectionMode_PostInsertionExpanded, peninputpanel/CorrectionMode_PreInsertion, tablet.correctionmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 

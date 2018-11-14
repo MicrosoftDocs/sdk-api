@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMReaderAdvanced4.GetURL
+: 
 ---
 
 # IWMReaderAdvanced4::GetURL

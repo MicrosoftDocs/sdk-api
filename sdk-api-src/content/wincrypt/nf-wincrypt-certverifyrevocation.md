@@ -7,7 +7,7 @@ old-location: security\certverifyrevocation.htm
 tech.root: seccrypto
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATIVE_TIMEOUT_FLAG, CERT_VERIFY_REV_CHAIN_FLAG, CERT_VERIFY_REV_SERVER_OCSP_FLAG, CertVerifyRevocation, CertVerifyRevocation function [Security], _crypto2_certverifyrevocation, security.certverifyrevocation, wincrypt/CertVerifyRevocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertVerifyRevocation
+: 
 ---
 
 # CertVerifyRevocation function

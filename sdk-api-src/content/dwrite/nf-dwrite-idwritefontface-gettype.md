@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFace_GetType.htm
 tech.root: DirectWrite
 ms.assetid: 8ea4b0b0-faf4-4291-838d-480e2bc68b0c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetType, GetType method [Direct Write], GetType method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetType method, IDWriteFontFace.GetType, IDWriteFontFace::GetType, directwrite.IDWriteFontFace_GetType, dwrite/IDWriteFontFace::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFontFace.GetType
+: 
 ---
 
 # IDWriteFontFace::GetType

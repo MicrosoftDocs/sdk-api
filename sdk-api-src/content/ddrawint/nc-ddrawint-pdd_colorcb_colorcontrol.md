@@ -9,8 +9,8 @@ ms.assetid: 626fdd37-bebb-47b7-9899-7cf0dc2bd1ba
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DdControlColor, DdControlColor callback function [Display Devices], PDD_COLORCB_COLORCONTROL, PDD_COLORCB_COLORCONTROL callback, ddfncs_c79505e9-282b-469f-ae35-19a9644aecae.xml, ddrawint/DdControlColor, display.ddcontrolcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

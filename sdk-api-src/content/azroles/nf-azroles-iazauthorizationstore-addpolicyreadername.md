@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_addpolicyreadername.htm
 tech.root: secauthz
 ms.assetid: 3b111542-61d6-4e5d-abf8-0af61161c885
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddPolicyReaderName, AddPolicyReaderName method [Security], AddPolicyReaderName method [Security],AzAuthorizationStore object, AddPolicyReaderName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReaderName method, IAzAuthorizationStore interface [Security],AddPolicyReaderName method, IAzAuthorizationStore.AddPolicyReaderName, IAzAuthorizationStore::AddPolicyReaderName, azroles/IAzAuthorizationStore::AddPolicyReaderName, security.azauthorizationstore_addpolicyreadername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.AddPolicyReaderName
+: 
 ---
 
 # IAzAuthorizationStore::AddPolicyReaderName

@@ -9,8 +9,8 @@ ms.assetid: 459f3d7b-5801-453f-9274-1473aac2cfbf
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_ConstUint8A, MI_ConstUint8A structure [Windows Management Infrastructure (MI)], _MI_ConstUint8A, mi/MI_ConstUint8A, wmi._mi_constuint8a, wmi_v2.mi_constuint8a
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

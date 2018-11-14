@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IBlockRangeList.get_BlockRanges
+: 
 ---
 
 # IBlockRangeList::get_BlockRanges

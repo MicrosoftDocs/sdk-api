@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
+: 
 ---
 
 # IUIAnimationVariableCurveChangeHandler2::OnCurveChanged

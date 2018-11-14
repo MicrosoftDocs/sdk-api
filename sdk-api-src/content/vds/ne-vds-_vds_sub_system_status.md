@@ -9,8 +9,8 @@ ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVDS_SUB_SYSTEM_STATUS, VDS_SSS_FAILED, VDS_SSS_NOT_READY, VDS_SSS_OFFLINE, VDS_SSS_ONLINE, VDS_SSS_PARTIALLY_MANAGED, VDS_SSS_UNKNOWN, VDS_SUB_SYSTEM_STATUS, VDS_SUB_SYSTEM_STATUS enumeration [VDS], _VDS_SUB_SYSTEM_STATUS, base.vds_sub_system_status, vds/VDS_SSS_FAILED, vds/VDS_SSS_NOT_READY, vds/VDS_SSS_OFFLINE, vds/VDS_SSS_ONLINE, vds/VDS_SSS_PARTIALLY_MANAGED, vds/VDS_SSS_UNKNOWN, vds/VDS_SUB_SYSTEM_STATUS, vdshwprv/VDS_SSS_FAILED, vdshwprv/VDS_SSS_NOT_READY, vdshwprv/VDS_SSS_OFFLINE, vdshwprv/VDS_SSS_ONLINE, vdshwprv/VDS_SSS_PARTIALLY_MANAGED, vdshwprv/VDS_SSS_UNKNOWN, vdshwprv/VDS_SUB_SYSTEM_STATUS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

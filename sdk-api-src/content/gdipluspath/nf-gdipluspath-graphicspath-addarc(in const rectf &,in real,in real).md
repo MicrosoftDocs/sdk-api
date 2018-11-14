@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_RectF_rect_REAL_startAn
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddarcmethods\addarc_30rectfamprect_realstartangle_realsweepa.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddArc, AddArc method [GDI+], AddArc method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddArc method, GraphicsPath.AddArc, GraphicsPath.AddArc(IN const RectF &,IN REAL,IN REAL), GraphicsPath.AddArc(const RectF&,REAL,REAL), GraphicsPath::AddArc, GraphicsPath::AddArc(IN const RectF &,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddArc_RectF_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_RectF_rect_REAL_startAngle_REAL_sweepAngle_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddArc
+: 
 req.product: GDI+ 1.0
 ---
 

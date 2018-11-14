@@ -7,7 +7,7 @@ old-location: base\regsetvalue.htm
 tech.root: sysinfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win32_regsetvalue, base.regsetvalue, winreg/RegSetValue, winreg/RegSetValueA, winreg/RegSetValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegSetValueA
+: 
 ---
 
 # RegSetValueA function

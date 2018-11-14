@@ -7,7 +7,7 @@ old-location: security\iazapplication3_openroleassignment.htm
 tech.root: secauthz
 ms.assetid: 2d0ec47e-5d5f-43d7-aace-fffca0037ac3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzApplication3 interface [Security],OpenRoleAssignment method, IAzApplication3.OpenRoleAssignment, IAzApplication3::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenRoleAssignment, security.iazapplication3_openroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication3.OpenRoleAssignment
+: 
 ---
 
 # IAzApplication3::OpenRoleAssignment

@@ -7,7 +7,7 @@ old-location: security\certcomparecertificatename.htm
 tech.root: seccrypto
 ms.assetid: 6249429d-0cb2-4209-9580-87185d44b967
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertCompareCertificateName
+: 
 ---
 
 # CertCompareCertificateName function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertificationAuthorities.Add
+: 
 ---
 
 # ICertificationAuthorities::Add

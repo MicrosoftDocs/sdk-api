@@ -7,10 +7,10 @@ old-location: base\minidump_exception_stream_str.htm
 tech.root: debug
 ms.assetid: 2de717dc-a9ac-4b81-9fab-992f22da9a0d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: "*PMINIDUMP_EXCEPTION_STREAM, MINIDUMP_EXCEPTION_STREAM, MINIDUMP_EXCEPTION_STREAM structure, PMINIDUMP_EXCEPTION_STREAM, PMINIDUMP_EXCEPTION_STREAM structure pointer, _win32_minidump_exception_stream_str, base.minidump_exception_stream_str, minidumpapiset/MINIDUMP_EXCEPTION_STREAM, minidumpapiset/PMINIDUMP_EXCEPTION_STREAM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

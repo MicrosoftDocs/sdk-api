@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfprofilefrompresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: 1163d958-fbea-48f3-9ac3-1595c0cc2d32
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 1163d958-fbea-48f3-9ac3-1595c0cc2d32, MFCreateASFProfileFromPresentationDescriptor, MFCreateASFProfileFromPresentationDescriptor function [Media Foundation], mf.mfcreateasfprofilefrompresentationdescriptor, wmcontainer/MFCreateASFProfileFromPresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateASFProfileFromPresentationDescriptor
+: 
 ---
 
 # MFCreateASFProfileFromPresentationDescriptor function

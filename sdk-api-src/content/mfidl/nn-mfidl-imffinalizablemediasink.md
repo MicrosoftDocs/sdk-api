@@ -7,10 +7,10 @@ old-location: mf\imffinalizablemediasink.htm
 tech.root: medfound
 ms.assetid: e60c2773-f2fc-469e-a698-036390cbed16
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], IMFFinalizableMediaSink interface [Media Foundation],described, e60c2773-f2fc-469e-a698-036390cbed16, mf.imffinalizablemediasink, mfidl/IMFFinalizableMediaSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

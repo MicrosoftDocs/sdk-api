@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12debugcommandlist1.htm
 tech.root: direct3d12
 ms.assetid: 2DF22383-768C-4D23-9ED8-F0CFD6BA6EE7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12DebugCommandList1, ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,described, d3d12sdklayers/ID3D12DebugCommandList1, direct3d12.id3d12debugcommandlist1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 This interface enables modification of additional command list debug layer settings.
 

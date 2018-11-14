@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithname.htm
 tech.root: secauthz
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], BuildTrusteeWithNameA, BuildTrusteeWithNameW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithname, aclapi/BuildTrusteeWithName, aclapi/BuildTrusteeWithNameA, aclapi/BuildTrusteeWithNameW, pMultipleTrustee, security.buildtrusteewithname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BuildTrusteeWithNameA
+: 
 ---
 
 # BuildTrusteeWithNameA function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextDocument2.GetStoryRanges2
+: 
 ---
 
 # ITextDocument2::GetStoryRanges2

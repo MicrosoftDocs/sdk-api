@@ -9,8 +9,8 @@ ms.assetid: ca45278c-2e1e-4080-825a-d6a05e463858
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO structure pointer [NativeWIFI], WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_INFO, WLAN_PROFILE_INFO structure [NativeWIFI], WLAN_PROFILE_USER, _WLAN_PROFILE_INFO, nwifi.wlan_profile_info, wlanapi/PWLAN_PROFILE_INFO, wlanapi/WLAN_PROFILE_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

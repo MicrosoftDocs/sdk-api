@@ -9,8 +9,8 @@ ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

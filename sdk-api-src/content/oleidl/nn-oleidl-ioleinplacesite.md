@@ -9,8 +9,8 @@ ms.assetid: 6d37e022-8c19-48b3-affb-e0eca19b5e05
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], IOleInPlaceSite interface [COM],described, _ole_ioleinplacesite, com.ioleinplacesite, oleidl/IOleInPlaceSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

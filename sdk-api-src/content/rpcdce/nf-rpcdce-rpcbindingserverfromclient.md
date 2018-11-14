@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RpcBindingServerFromClient
+: 
 ---
 
 # RpcBindingServerFromClient function
@@ -167,7 +173,7 @@ Calling
 <ul>
 <li>The server handle is a partially-bound handle. It contains a network address for the calling client, but lacks an endpoint.</li>
 <li>The server handle contains the same object 
-<a href="https://msdn.microsoft.com/">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
 <a href="https://msdn.microsoft.com/5dcf341f-e392-4608-b741-8fa07cabd50b">RpcBindingsetObject</a>, 
 <a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a>, 
 <a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a>, and 

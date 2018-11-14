@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsdbase.h
+: 
+- IWSDHttpAddress.GetSecure
+: 
 ---
 
 # IWSDHttpAddress::GetSecure

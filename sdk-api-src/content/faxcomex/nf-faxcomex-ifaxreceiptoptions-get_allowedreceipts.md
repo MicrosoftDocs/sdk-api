@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_allowedrece
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3xbn.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: AllowedReceipts property [Fax Service], AllowedReceipts property [Fax Service],IFaxReceiptOptions interface, IFaxReceiptOptions interface [Fax Service],AllowedReceipts property, IFaxReceiptOptions.AllowedReceipts, IFaxReceiptOptions.get_AllowedReceipts, IFaxReceiptOptions::AllowedReceipts, IFaxReceiptOptions::get_AllowedReceipts, IFaxReceiptOptions::put_AllowedReceipts, _mfax_faxreceiptoptions.allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_allowedreceipts_cpp, faxcomex/IFaxReceiptOptions::AllowedReceipts, faxcomex/IFaxReceiptOptions::get_AllowedReceipts, faxcomex/IFaxReceiptOptions::put_AllowedReceipts, get_AllowedReceipts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxReceiptOptions.get_AllowedReceipts
+: 
 ---
 
 # IFaxReceiptOptions::get_AllowedReceipts

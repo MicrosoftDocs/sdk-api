@@ -7,10 +7,10 @@ old-location: security\iazoperation.htm
 tech.root: secauthz
 ms.assetid: 054fa4aa-70be-4618-a635-3941c830ea4e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzOperation, IAzOperation interface [Security], IAzOperation interface [Security],described, azroles/IAzOperation, security.iazoperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

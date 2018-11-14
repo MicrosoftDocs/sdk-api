@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskNamedValuePair.get_Name
+: 
 ---
 
 # ITaskNamedValuePair::get_Name

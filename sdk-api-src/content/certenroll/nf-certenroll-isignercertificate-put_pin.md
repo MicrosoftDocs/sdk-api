@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ISignerCertificate.put_Pin
+: 
 ---
 
 # ISignerCertificate::put_Pin

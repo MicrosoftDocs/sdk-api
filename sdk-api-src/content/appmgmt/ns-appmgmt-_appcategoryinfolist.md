@@ -9,8 +9,8 @@ ms.assetid: c590d9ab-ab41-4192-a6c2-c6c2c931e873
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: tapi3\itagenthandlerevent.htm
 tech.root: tapi
 ms.assetid: c61becce-09fd-4b12-bbc9-98df57d5f0d3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentHandlerEvent, ITAgentHandlerEvent interface [TAPI 2.2], ITAgentHandlerEvent interface [TAPI 2.2],described, _tapi3_itagenthandlerevent, tapi3.itagenthandlerevent, tapi3cc/ITAgentHandlerEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

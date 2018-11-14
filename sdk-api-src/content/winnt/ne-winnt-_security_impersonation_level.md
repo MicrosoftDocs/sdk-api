@@ -7,10 +7,10 @@ old-location: security\security_impersonation_level.htm
 tech.root: secauthz
 ms.assetid: a75ad777-c88e-4899-be50-0118c113a600
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Security], SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration [Security], SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, _win32_security_impersonation_level_str, security.security_impersonation_level, winnt/PSECURITY_IMPERSONATION_LEVEL, winnt/SECURITY_IMPERSONATION_LEVEL, winnt/SecurityAnonymous, winnt/SecurityDelegation, winnt/SecurityIdentification, winnt/SecurityImpersonation"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

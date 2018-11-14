@@ -7,10 +7,10 @@ old-location: security\wlxqueryclientcredentials.htm
 tech.root: secauthn
 ms.assetid: b563606d-f4d5-48d7-914d-a11ed5f536a1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PWLX_QUERY_CLIENT_CREDENTIALS, PWLX_QUERY_CLIENT_CREDENTIALS callback, WlxQueryClientCredentials, WlxQueryClientCredentials callback function [Security], _gina_wlxqueryclientcredentials, security.wlxqueryclientcredentials, winwlx/WlxQueryClientCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mmc.h
+: 
+- IS_SPECIAL_COOKIE
+: 
 ---
 
 # IS_SPECIAL_COOKIE macro

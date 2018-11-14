@@ -9,8 +9,8 @@ ms.assetid: 52669dec-2fd7-4f3e-b322-e93d9da5984d
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pnpxassoc.h
 req.include-header: 

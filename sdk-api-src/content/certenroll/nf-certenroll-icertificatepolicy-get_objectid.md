@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertificatePolicy.get_ObjectId
+: 
 ---
 
 # ICertificatePolicy::get_ObjectId

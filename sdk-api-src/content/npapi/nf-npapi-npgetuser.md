@@ -7,7 +7,7 @@ old-location: security\npgetuser.htm
 tech.root: secauthn
 ms.assetid: 15fdf8fa-417c-4c1e-803e-6345cb4216e0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPGetUser, security.npgetuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NPGetUser
+: 
 ---
 
 # NPGetUser function

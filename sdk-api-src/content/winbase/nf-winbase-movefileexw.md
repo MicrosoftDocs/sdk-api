@@ -57,6 +57,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MoveFileExW
+: 
 ---
 
 # MoveFileExW function

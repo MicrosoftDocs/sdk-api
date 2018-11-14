@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgraphicspath.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetGraphicsPath, GetGraphicsPath method [GDI+], GetGraphicsPath method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGraphicsPath method, PathGradientBrush.GetGraphicsPath, PathGradientBrush::GetGraphicsPath, _gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- PathGradientBrush.GetGraphicsPath
+: 
 req.product: GDI+ 1.0
 ---
 

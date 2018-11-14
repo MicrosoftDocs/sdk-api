@@ -9,8 +9,8 @@ ms.assetid: E237CE81-9C01-4EBB-AA75-4EB90123E8C8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], IUIAutomationSelectionPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSelectionPattern2, winauto.uiauto_IUIAutomationSelectionPattern2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

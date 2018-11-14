@@ -7,7 +7,7 @@ old-location: base\symenumsymbols.htm
 tech.root: debug
 ms.assetid: e1232657-baf6-4e5b-9995-a382aa1391c2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: "*!*, SymEnumSymbols, SymEnumSymbols function, SymEnumSymbolsW, _win32_symenumsymbols, base.symenumsymbols, dbghelp/SymEnumSymbols, dbghelp/SymEnumSymbolsW, foo, foo*!bar, foo?"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymEnumSymbols
+: 
 ---
 
 # SymEnumSymbols function

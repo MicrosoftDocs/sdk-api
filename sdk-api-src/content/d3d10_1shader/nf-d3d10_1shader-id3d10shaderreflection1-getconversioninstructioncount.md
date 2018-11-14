@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10_1shader.h
+: 
+- ID3D10ShaderReflection1.GetConversionInstructionCount
+: 
 ---
 
 # ID3D10ShaderReflection1::GetConversionInstructionCount

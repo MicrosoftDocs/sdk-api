@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpDeleteFilterV4
+: 
 ---
 
 # DhcpDeleteFilterV4 function

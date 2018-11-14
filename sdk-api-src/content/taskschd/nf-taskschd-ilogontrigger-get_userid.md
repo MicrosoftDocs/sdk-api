@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ILogonTrigger.get_UserId
+: 
 ---
 
 # ILogonTrigger::get_UserId

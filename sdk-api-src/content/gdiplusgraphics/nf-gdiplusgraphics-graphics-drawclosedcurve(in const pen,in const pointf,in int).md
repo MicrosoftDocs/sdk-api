@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_poi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawclosedcurvemethods\drawclosedcurve_26penpen_pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawClosedCurve method, Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN INT), Graphics.DrawClosedCurve(const Pen*,const PointF*,INT), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawClosedCurve
+: 
 req.product: GDI+ 1.0
 ---
 

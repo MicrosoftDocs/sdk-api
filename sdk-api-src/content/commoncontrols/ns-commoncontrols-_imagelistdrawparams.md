@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPIMAGELISTDRAWPARAMS, BLACKNESS, CLR_DEFAULT, CLR_NONE, DSTINVERT, IMAGELISTDRAWPARAMS, IMAGELISTDRAWPARAMS structure [Windows Controls], MERGECOPY, MERGEPAINT, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS_cpp, commoncontrols/IMAGELISTDRAWPARAMS, controls.IMAGELISTDRAWPARAMS, controls._win32_IMAGELISTDRAWPARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commoncontrols.h
 req.include-header: Commctrl.h

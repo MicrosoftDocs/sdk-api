@@ -9,8 +9,8 @@ ms.assetid: 0542fa39-c574-4a5e-b8eb-6ddf8a58600a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSMAN_PROXY_INFO, WSMAN_PROXY_INFO structure [Windows Remote Management], _WSMAN_PROXY_INFO, winrm.wsman_proxy_info, wsman/WSMAN_PROXY_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

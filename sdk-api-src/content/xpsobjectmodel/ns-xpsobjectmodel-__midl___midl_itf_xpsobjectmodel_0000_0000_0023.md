@@ -9,8 +9,8 @@ ms.assetid: 0df75410-0e34-4962-8499-879d5153d9af
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0023, xps.xps_matrix, xpsobjectmodel/XPS_MATRIX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: tspi\tspi_linedrop.htm
 tech.root: tapi
 ms.assetid: ac7ec102-d7ad-4e63-833e-3c798487d7b4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineDrop, TSPI_lineDrop function [TAPI 2.2], _tspi_tspi_linedrop, tspi.tspi_linedrop, tspi/TSPI_lineDrop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineDrop
+: 
 ---
 
 # TSPI_lineDrop function

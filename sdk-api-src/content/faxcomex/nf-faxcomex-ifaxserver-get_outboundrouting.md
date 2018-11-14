@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_outboundrouting_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6y1z_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxServer interface [Fax Service],OutboundRouting property, IFaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.outboundrouting_cpp, fax._mfax_faxserver_outboundrouting_cpp, faxcomex/IFaxServer::OutboundRouting, faxcomex/IFaxServer::get_OutboundRouting, get_OutboundRouting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxServer.get_OutboundRouting
+: 
 ---
 
 # IFaxServer::get_OutboundRouting

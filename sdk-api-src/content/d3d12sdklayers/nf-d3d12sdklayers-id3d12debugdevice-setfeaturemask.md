@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice_setfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: 12232AB8-BBEA-4663-BEB2-7E296851FE5E
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12DebugDevice interface,SetFeatureMask method, ID3D12DebugDevice.SetFeatureMask, ID3D12DebugDevice::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugDevice interface, d3d12sdklayers/ID3D12DebugDevice::SetFeatureMask, direct3d12.id3d12debugdevice_setfeaturemask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12DebugDevice.SetFeatureMask
+: 
 ---
 
 # ID3D12DebugDevice::SetFeatureMask

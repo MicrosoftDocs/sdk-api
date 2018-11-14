@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManConnectionOptions.get_UserName
+: 
 ---
 
 # IWSManConnectionOptions::get_UserName

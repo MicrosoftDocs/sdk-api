@@ -9,8 +9,8 @@ ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

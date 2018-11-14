@@ -7,7 +7,7 @@ old-location: security\reverttoself.htm
 tech.root: secauthz
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RevertToSelf
+: 
 ---
 
 # RevertToSelf function

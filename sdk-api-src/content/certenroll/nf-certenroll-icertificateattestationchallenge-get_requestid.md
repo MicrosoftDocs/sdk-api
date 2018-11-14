@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertificateAttestationChallenge.get_RequestID
+: 
 ---
 
 # ICertificateAttestationChallenge::get_RequestID

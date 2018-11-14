@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateRequestCmc2.get_Template
+: 
 ---
 
 # IX509CertificateRequestCmc2::get_Template

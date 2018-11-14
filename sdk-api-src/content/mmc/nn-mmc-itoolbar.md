@@ -9,8 +9,8 @@ ms.assetid: cf9c9fe9-f58f-47f0-9051-86a514df0c6d
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IToolbar, IToolbar interface [MMC], IToolbar interface [MMC],described, _slate_itoolbar, mmc.itoolbar, mmc/IToolbar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

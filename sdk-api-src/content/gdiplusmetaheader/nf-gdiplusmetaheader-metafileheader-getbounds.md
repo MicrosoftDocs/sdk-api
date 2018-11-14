@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getbounds_14rect.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetBounds method, MetafileHeader.GetBounds, MetafileHeader::GetBounds, _gdiplus_CLASS_MetafileHeader_GetBounds_rect_, gdiplus._gdiplus_CLASS_MetafileHeader_GetBounds_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmetaheader.h
+: 
+- MetafileHeader.GetBounds
+: 
 req.product: GDI+ 1.0
 ---
 

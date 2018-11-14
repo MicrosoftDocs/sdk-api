@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_originalscheduled
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9jmt.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],OriginalScheduledTime property, IFaxOutgoingJob.OriginalScheduledTime, IFaxOutgoingJob.get_OriginalScheduledTime, IFaxOutgoingJob::OriginalScheduledTime, IFaxOutgoingJob::get_OriginalScheduledTime, OriginalScheduledTime property [Fax Service], OriginalScheduledTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.originalscheduledtime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_originalscheduledtime_cpp, fax._mfax_faxoutgoingjob_originalscheduledtime, faxcomex/IFaxOutgoingJob::OriginalScheduledTime, faxcomex/IFaxOutgoingJob::get_OriginalScheduledTime, get_OriginalScheduledTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingJob.get_OriginalScheduledTime
+: 
 ---
 
 # IFaxOutgoingJob::get_OriginalScheduledTime

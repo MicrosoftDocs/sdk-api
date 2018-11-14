@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12createrootsignaturedeserializer.htm
 tech.root: direct3d12
 ms.assetid: 96E58C9B-569F-41B8-A799-E87D849C045C
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12CreateRootSignatureDeserializer, D3D12CreateRootSignatureDeserializer function, d3d12/D3D12CreateRootSignatureDeserializer, direct3d12.d3d12createrootsignaturedeserializer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D12CreateRootSignatureDeserializer
+: 
 ---
 
 # D3D12CreateRootSignatureDeserializer function

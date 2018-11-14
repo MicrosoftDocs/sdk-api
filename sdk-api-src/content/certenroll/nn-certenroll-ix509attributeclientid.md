@@ -9,8 +9,8 @@ ms.assetid: 82b773e3-7d47-4c85-a6b3-c8ef3e67630a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509AttributeClientId, IX509AttributeClientId interface [Security], IX509AttributeClientId interface [Security],described, certenroll/IX509AttributeClientId, security.ix509attributeclientid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

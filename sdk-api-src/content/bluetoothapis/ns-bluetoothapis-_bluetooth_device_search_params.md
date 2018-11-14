@@ -9,8 +9,8 @@ ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BLUETOOTH_DEVICE_SEARCH_PARAMS, BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth], _BLUETOOTH_DEVICE_SEARCH_PARAMS, bluetooth.bluetooth_device_search_params, bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

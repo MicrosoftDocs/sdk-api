@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertPropertyDescription.get_Description
+: 
 ---
 
 # ICertPropertyDescription::get_Description

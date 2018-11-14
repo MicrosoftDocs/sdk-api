@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationAndCondition.get_ChildCount
+: 
 ---
 
 # IUIAutomationAndCondition::get_ChildCount

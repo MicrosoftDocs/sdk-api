@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiribbon.h
+: 
+- IUIApplication.OnViewChanged
+: 
 req.product: Windows UI
 ---
 

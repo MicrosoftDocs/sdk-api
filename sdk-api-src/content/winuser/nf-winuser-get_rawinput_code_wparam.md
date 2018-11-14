@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- GET_RAWINPUT_CODE_WPARAM
+: 
 ---
 
 # GET_RAWINPUT_CODE_WPARAM macro

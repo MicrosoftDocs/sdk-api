@@ -9,8 +9,8 @@ ms.assetid: 673F840F-1A87-42F5-8EE1-8CEAEB0CE7F8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback, GameUICompletionRoutine callback function, gamingtcui/GameUICompletionRoutine, tcui.gameuicompletionroutine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: gamingtcui.h
 req.include-header: 

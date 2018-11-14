@@ -9,8 +9,8 @@ ms.assetid: ce10ae94-5bd5-4f97-a341-8d5f894bda59
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAttributeSet, IAttributeSet interface [Microsoft TV Technologies], IAttributeSet interface [Microsoft TV Technologies],described, IAttributeSetInterface, dsattrib/IAttributeSet, mstv.iattributeset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dsattrib.h
 req.include-header: 

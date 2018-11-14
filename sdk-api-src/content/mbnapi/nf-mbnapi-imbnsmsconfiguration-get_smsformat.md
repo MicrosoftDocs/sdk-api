@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnSmsConfiguration.get_SmsFormat
+: 
 ---
 
 # IMbnSmsConfiguration::get_SmsFormat

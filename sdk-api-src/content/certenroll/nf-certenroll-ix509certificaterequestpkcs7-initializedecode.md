@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateRequestPkcs7.InitializeDecode
+: 
 ---
 
 # IX509CertificateRequestPkcs7::InitializeDecode

@@ -9,8 +9,8 @@ ms.assetid: 3007e271-fe78-404c-ba97-ceb0be334592
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PBUSNUMBER_DES, BUSNUMBER_DES, BUSNUMBER_DES structure [Device and Driver Installation], BusNumber_Des_s, PBUSNUMBER_DES, PBUSNUMBER_DES structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_DES, cfgmgr32/PBUSNUMBER_DES, cfgmgrst_791be216-3ef2-407b-b250-4e09f40356a3.xml, devinst.busnumber_des"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

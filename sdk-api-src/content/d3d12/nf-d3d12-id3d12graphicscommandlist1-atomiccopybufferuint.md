@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint.htm
 tech.root: direct3d12
 ms.assetid: 745B641F-B136-46A2-A0EE-F5FDC13656E5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: AtomicCopyBufferUINT, AtomicCopyBufferUINT method, AtomicCopyBufferUINT method,ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,AtomicCopyBufferUINT method, ID3D12GraphicsCommandList1.AtomicCopyBufferUINT, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12GraphicsCommandList1.AtomicCopyBufferUINT
+: 
 ---
 
 # ID3D12GraphicsCommandList1::AtomicCopyBufferUINT

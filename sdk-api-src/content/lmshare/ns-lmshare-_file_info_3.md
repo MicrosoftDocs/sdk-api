@@ -9,8 +9,8 @@ ms.assetid: 67f5fa89-12c7-46fb-a118-de4bfed96923
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPFILE_INFO_3, *PFILE_INFO_3, FILE_INFO_3, FILE_INFO_3 structure [Files], LPFILE_INFO_3, LPFILE_INFO_3 structure pointer [Files], PERM_FILE_CREATE, PERM_FILE_READ, PERM_FILE_WRITE, PFILE_INFO_3, PFILE_INFO_3 structure pointer [Files], _FILE_INFO_3, _win32_file_info_3_str, fs.file_info_3_str, lmshare/FILE_INFO_3, lmshare/LPFILE_INFO_3, lmshare/PFILE_INFO_3, netmgmt.file_info_3_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

@@ -9,8 +9,8 @@ ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: CreateServiceEnumerationHandle, CreateServiceEnumerationHandle callback function [RAS], PCREATE_SERVICE_ENUMERATION_HANDLE, PCREATE_SERVICE_ENUMERATION_HANDLE callback, STM_ONLY_THIS_INTERFACE, STM_ONLY_THIS_PROTOCOL, STM_ONLY_THIS_TYPE, _mpr_createserviceenumerationhandle, rras.createserviceenumerationhandle, stm/CreateServiceEnumerationHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

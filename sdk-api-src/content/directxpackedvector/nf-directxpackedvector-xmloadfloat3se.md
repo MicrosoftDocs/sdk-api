@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMLoadFloat3SE
+: 
 ---
 
 # XMLoadFloat3SE function

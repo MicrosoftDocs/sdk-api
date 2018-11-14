@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IDailyTrigger.put_DaysInterval
+: 
 ---
 
 # IDailyTrigger::put_DaysInterval

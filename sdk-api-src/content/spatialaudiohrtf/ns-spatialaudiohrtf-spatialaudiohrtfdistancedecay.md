@@ -9,8 +9,8 @@ ms.assetid: 2EBAE322-2A5F-4610-B64F-F1B8CE2DFD2D
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union [Core Audio], coreaudio.spatialaudiohrtfdistancedecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D10StateBlockMaskIntersect
+: 
 ---
 
 # D3D10StateBlockMaskIntersect function

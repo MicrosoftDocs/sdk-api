@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkDrawingAttributes.get_ExtendedProperties
+: 
 ---
 
 # IInkDrawingAttributes::get_ExtendedProperties

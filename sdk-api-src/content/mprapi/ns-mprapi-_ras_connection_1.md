@@ -9,8 +9,8 @@ ms.assetid: 5f6c6895-4baf-46d7-865a-b95342b70abb
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PRAS_CONNECTION_1, PRAS_CONNECTION_1, PRAS_CONNECTION_1 structure pointer [RAS], RAS_CONNECTION_1, RAS_CONNECTION_1 structure [RAS], _RAS_CONNECTION_1, _mpr_ras_connection_1, mprapi/PRAS_CONNECTION_1, mprapi/RAS_CONNECTION_1, rras.ras_connection_1"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

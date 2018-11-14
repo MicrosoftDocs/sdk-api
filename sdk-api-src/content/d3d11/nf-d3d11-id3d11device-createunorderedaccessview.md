@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11Device.CreateUnorderedAccessView
+: 
 ---
 
 # ID3D11Device::CreateUnorderedAccessView

@@ -9,8 +9,8 @@ ms.assetid: 3870a471-a3cf-424f-bba3-bc06de1ebecc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PEVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR structure [Driver Development Tools], Event Filter Descriptor, Event Filter Descriptor structure [Driver Development Tools], PEVENT_FILTER_DESCRIPTOR, PEVENT_FILTER_DESCRIPTOR structure pointer [Driver Development Tools], _EVENT_FILTER_DESCRIPTOR, devtest.event_filter_descriptor, etw_km_a59972ec-314f-456d-98c3-5fe39445effe.xml, evntprov/EVENT_FILTER_DESCRIPTOR, evntprov/PEVENT_FILTER_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h

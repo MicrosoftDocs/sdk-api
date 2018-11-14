@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportNamespaceScheduledCastAutoStart.get_MinimumClients
+: 
 ---
 
 # IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients

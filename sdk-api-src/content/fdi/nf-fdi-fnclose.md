@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- fdi.h
+: 
+- FNCLOSE
+: 
 ---
 
 # FNCLOSE macro

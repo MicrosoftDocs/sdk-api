@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmFileManagementJob.put_Parameters
+: 
 ---
 
 # IFsrmFileManagementJob::put_Parameters

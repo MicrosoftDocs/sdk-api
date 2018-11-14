@@ -7,10 +7,10 @@ old-location: direct2d\ID2D1PathGeometry.htm
 tech.root: direct2d
 ms.assetid: d200563c-d78e-4fa0-a8f2-242b24480e99
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1PathGeometry, ID2D1PathGeometry interface [Direct2D], ID2D1PathGeometry interface [Direct2D],described, d2d1/ID2D1PathGeometry, direct2d.ID2D1PathGeometry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

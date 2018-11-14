@@ -9,8 +9,8 @@ ms.assetid: f5478582-466b-496e-b7f3-42fb8caa6814
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], IXpsOMImageBrush interface [XPS Documents and Packaging],described, xps.ixpsomimagebrush, xpsobjectmodel/IXpsOMImageBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

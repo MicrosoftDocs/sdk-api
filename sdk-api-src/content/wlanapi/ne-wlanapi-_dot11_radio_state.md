@@ -9,8 +9,8 @@ ms.assetid: dd44f256-9423-4f29-aba3-6b0554349864
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDOT11_RADIO_STATE, DOT11_RADIO_STATE, DOT11_RADIO_STATE enumeration [NativeWIFI], PDOT11_RADIO_STATE, PDOT11_RADIO_STATE enumeration pointer [NativeWIFI], _DOT11_RADIO_STATE, dot11_radio_state_off, dot11_radio_state_on, dot11_radio_state_unknown, nwifi.dot11_radio_state, wlanapi/DOT11_RADIO_STATE, wlanapi/PDOT11_RADIO_STATE, wlanapi/dot11_radio_state_off, wlanapi/dot11_radio_state_on, wlanapi/dot11_radio_state_unknown"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 28605b34-b1e1-4460-a8f0-b0fe9f9b94d4
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: BCRYPT_PSS_PADDING_INFO, BCRYPT_PSS_PADDING_INFO structure [Security], _BCRYPT_PSS_PADDING_INFO, bcrypt/BCRYPT_PSS_PADDING_INFO, security.bcrypt_pss_padding_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

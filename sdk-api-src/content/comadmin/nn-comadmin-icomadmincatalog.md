@@ -9,8 +9,8 @@ ms.assetid: 2c3c49df-9ca5-40ea-b45c-f4eca1004602
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comadmin.h
 req.include-header: 

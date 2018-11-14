@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_endwrite.htm
 tech.root: medfound
 ms.assetid: d3e10e89-ef5d-41c5-b549-4bd632d9370d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: EndWrite, EndWrite method [Media Foundation], EndWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndWrite method, IMFByteStream.EndWrite, IMFByteStream::EndWrite, d3e10e89-ef5d-41c5-b549-4bd632d9370d, mf.imfbytestream_endwrite, mfobjects/IMFByteStream::EndWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFByteStream.EndWrite
+: 
 ---
 
 # IMFByteStream::EndWrite

@@ -7,7 +7,7 @@ old-location: security\certfindextension.htm
 tech.root: seccrypto
 ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertFindExtension
+: 
 ---
 
 # CertFindExtension function

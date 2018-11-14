@@ -7,7 +7,7 @@ old-location: security\lookupprivilegedisplayname.htm
 tech.root: secauthz
 ms.assetid: 1fbb26b6-615e-4883-9f4b-3a1d05d9feaa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: LookupPrivilegeDisplayName, LookupPrivilegeDisplayName function [Security], LookupPrivilegeDisplayNameA, LookupPrivilegeDisplayNameW, _win32_lookupprivilegedisplayname, security.lookupprivilegedisplayname, winbase/LookupPrivilegeDisplayName, winbase/LookupPrivilegeDisplayNameA, winbase/LookupPrivilegeDisplayNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LookupPrivilegeDisplayNameW
+: 
 ---
 
 # LookupPrivilegeDisplayNameW function

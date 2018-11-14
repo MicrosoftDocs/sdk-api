@@ -7,10 +7,10 @@ old-location: mf\imfsensorprofile.htm
 tech.root: medfound
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\getfriendlynameofcert.htm
 tech.root: seccrypto
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetFriendlyNameOfCertW
+: 
 ---
 
 # GetFriendlyNameOfCertW function

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IComHandlerAction.put_Data
+: 
 ---
 
 # IComHandlerAction::put_Data

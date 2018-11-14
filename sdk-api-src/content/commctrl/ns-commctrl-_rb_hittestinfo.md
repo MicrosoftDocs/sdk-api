@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPRBHITTESTINFO, LPRBHITTESTINFO, LPRBHITTESTINFO structure pointer [Windows Controls], RBHITTESTINFO, RBHITTESTINFO structure [Windows Controls], RBHT_CAPTION, RBHT_CHEVRON, RBHT_CLIENT, RBHT_GRABBER, RBHT_NOWHERE, RBHT_SPLITTER, _RB_HITTESTINFO, _win32_RBHITTESTINFO, _win32_RBHITTESTINFO_cpp, commctrl/LPRBHITTESTINFO, commctrl/RBHITTESTINFO, controls.RBHITTESTINFO, controls._win32_RBHITTESTINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

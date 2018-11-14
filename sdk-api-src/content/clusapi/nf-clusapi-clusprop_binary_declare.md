@@ -7,7 +7,7 @@ old-location: mscs\clusprop_binary_declare.htm
 tech.root: mscs
 ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSPROP_BINARY_DECLARE, CLUSPROP_BINARY_DECLARE macro [Failover Cluster], _wolf_clusprop_binary_declare, clusapi/CLUSPROP_BINARY_DECLARE, mscs.clusprop_binary_declare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- clusapi.h
+: 
+- CLUSPROP_BINARY_DECLARE
+: 
 ---
 
 # CLUSPROP_BINARY_DECLARE macro

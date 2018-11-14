@@ -9,8 +9,8 @@ ms.assetid: 89893e25-486a-4cef-b1a6-f812c8cc1fe2
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: PrintAsyncNotifyUserFilter, PrintAsyncNotifyUserFilter enumeration [Windows GDI], _win32_PrintAsyncNotifyUserFilter, gdi.printasyncnotifyuserfilter, kAllUsers, kPerUser, prnasnot/PrintAsyncNotifyUserFilter, prnasnot/kAllUsers, prnasnot/kPerUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 

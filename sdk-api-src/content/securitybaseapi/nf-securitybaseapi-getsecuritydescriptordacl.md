@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptordacl.htm
 tech.root: secauthz
 ms.assetid: 8006c8bb-4976-463f-b074-a59c3bbab36b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSecurityDescriptorDacl, GetSecurityDescriptorDacl function [Security], _win32_getsecuritydescriptordacl, security.getsecuritydescriptordacl, securitybaseapi/GetSecurityDescriptorDacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSecurityDescriptorDacl
+: 
 ---
 
 # GetSecurityDescriptorDacl function

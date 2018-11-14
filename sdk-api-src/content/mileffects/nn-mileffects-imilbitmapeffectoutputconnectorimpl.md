@@ -9,8 +9,8 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimp
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMILBitmapEffectOutputConnectorImpl, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnectorimpl, mileffects/IMILBitmapEffectOutputConnectorImpl, wibe._wibe_imilbitmapeffectoutputconnectorimpl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 

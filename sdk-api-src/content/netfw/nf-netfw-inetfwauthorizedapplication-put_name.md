@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwAuthorizedApplication.put_Name
+: 
 ---
 
 # INetFwAuthorizedApplication::put_Name

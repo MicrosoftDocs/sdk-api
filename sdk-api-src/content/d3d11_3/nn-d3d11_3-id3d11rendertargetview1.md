@@ -9,8 +9,8 @@ ms.assetid: 6063229D-A85A-46E8-9034-D1C2C26A5274
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11RenderTargetView1, ID3D11RenderTargetView1 interface [Direct3D 11], ID3D11RenderTargetView1 interface [Direct3D 11],described, d3d11_3/ID3D11RenderTargetView1, direct3d11.id3d11rendertargetview1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

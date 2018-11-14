@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromtoken.htm
 tech.root: secauthz
 ms.assetid: 75a7fb3f-6b3a-42ca-b467-f57baf6c60c6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzInitializeContextFromToken, AuthzInitializeContextFromToken function [Security], _win32_authzinitializecontextfromtoken, authz/AuthzInitializeContextFromToken, security.authzinitializecontextfromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzInitializeContextFromToken
+: 
 ---
 
 # AuthzInitializeContextFromToken function

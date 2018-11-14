@@ -9,8 +9,8 @@ ms.assetid: 55e1b899-aa9f-45eb-9cfa-d645ea659988
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IScrollProvider, IScrollProvider interface [Windows Accessibility], IScrollProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollProvider, uiauto_IScrollProvider, uiautomationcore/IScrollProvider, winauto.uiauto_IScrollProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

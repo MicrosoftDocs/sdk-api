@@ -9,8 +9,8 @@ ms.assetid: bd51c2a6-ab26-4a2f-89f4-431d05f3dd81
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: CHANGE_PARTITION_TYPE_PARAMETERS, CHANGE_PARTITION_TYPE_PARAMETERS structure, PCHANGE_PARTITION_TYPE_PARAMETERS, PCHANGE_PARTITION_TYPE_PARAMETERS structure pointer, _CHANGE_PARTITION_TYPE_PARAMETERS, base.change_partition_type_parameters, vds/CHANGE_PARTITION_TYPE_PARAMETERS, vds/PCHANGE_PARTITION_TYPE_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

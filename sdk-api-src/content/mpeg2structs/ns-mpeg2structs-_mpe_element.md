@@ -9,8 +9,8 @@ ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Technologies], PMPE_ELEMENT, PMPE_ELEMENT structure pointer [Microsoft TV Technologies], _MPE_ELEMENT, mpeg2structs/MPE_ELEMENT, mpeg2structs/PMPE_ELEMENT, mstv.mpe_element"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

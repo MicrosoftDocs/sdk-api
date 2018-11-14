@@ -9,8 +9,8 @@ ms.assetid: 303115e1-8d52-4a0a-b05e-b5c92b8b3e2a
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu interface [Text Services Framework],described, _tsf_itfmenu_ref, ctfutb/ITfMenu, tsf.itfmenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

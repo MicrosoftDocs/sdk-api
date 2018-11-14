@@ -7,7 +7,7 @@ old-location: security\cryptverifymessagehash.htm
 tech.root: seccrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptVerifyMessageHash
+: 
 ---
 
 # CryptVerifyMessageHash function

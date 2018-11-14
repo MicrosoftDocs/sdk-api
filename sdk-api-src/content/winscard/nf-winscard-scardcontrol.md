@@ -7,7 +7,7 @@ old-location: security\scardcontrol.htm
 tech.root: secauthn
 ms.assetid: e8c69e61-4e5e-4385-a0f1-9b594c479984
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardControl
+: 
 ---
 
 # SCardControl function

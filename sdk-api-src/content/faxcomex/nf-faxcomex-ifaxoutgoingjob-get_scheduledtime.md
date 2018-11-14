@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1p2d.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ScheduledTime property, IFaxOutgoingJob.ScheduledTime, IFaxOutgoingJob.get_ScheduledTime, IFaxOutgoingJob::ScheduledTime, IFaxOutgoingJob::get_ScheduledTime, ScheduledTime property [Fax Service], ScheduledTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.scheduledtime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp, fax._mfax_faxoutgoingjob_scheduledtime, faxcomex/IFaxOutgoingJob::ScheduledTime, faxcomex/IFaxOutgoingJob::get_ScheduledTime, get_ScheduledTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingJob.get_ScheduledTime
+: 
 ---
 
 # IFaxOutgoingJob::get_ScheduledTime

@@ -7,7 +7,7 @@ old-location: security\wlxlogoff.htm
 tech.root: secauthn
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WlxLogoff
+: 
 ---
 
 # WlxLogoff function

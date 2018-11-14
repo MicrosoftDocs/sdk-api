@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassregistration_add.htm
 tech.root: tapi
 ms.assetid: ffef0255-c262-43d4-905f-5574c205c37e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Add method, ITPluggableTerminalSuperclassRegistration.Add, ITPluggableTerminalSuperclassRegistration::Add, _tapi3_itpluggableterminalsuperclassregistration_add, tapi3.itpluggableterminalsuperclassregistration_add, termmgr/ITPluggableTerminalSuperclassRegistration::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITPluggableTerminalSuperclassRegistration.Add
+: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::Add

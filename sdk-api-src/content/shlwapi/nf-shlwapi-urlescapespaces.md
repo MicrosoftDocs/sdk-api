@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- shlwapi.h
+: 
+- UrlEscapeSpaces
+: 
 ---
 
 # UrlEscapeSpaces macro

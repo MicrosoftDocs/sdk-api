@@ -7,7 +7,7 @@ old-location: security\ienroll4_providerflags.htm
 tech.root: seccrypto
 ms.assetid: 57e6f86e-fbd3-4fd7-acdd-146a67045ff8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll interface [Security],ProviderFlags property, IEnroll.ProviderFlags, IEnroll.put_ProviderFlags, IEnroll::ProviderFlags, IEnroll::get_ProviderFlags, IEnroll::put_ProviderFlags, ProviderFlags property [Security], ProviderFlags property [Security],IEnroll interface, put_ProviderFlags, security.ienroll4_providerflags, xenroll/IEnroll::ProviderFlags, xenroll/IEnroll::get_ProviderFlags, xenroll/IEnroll::put_ProviderFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.put_ProviderFlags
+: 
 ---
 
 # IEnroll::put_ProviderFlags

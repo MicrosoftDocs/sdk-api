@@ -7,7 +7,7 @@ old-location: security\cryptexportpublickeyinfo.htm
 tech.root: seccrypto
 ms.assetid: ad43a991-aaf5-4272-abab-0a981112e5e4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptExportPublicKeyInfo, CryptExportPublicKeyInfo function [Security], _crypto2_cryptexportpublickeyinfo, security.cryptexportpublickeyinfo, wincrypt/CryptExportPublicKeyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptExportPublicKeyInfo
+: 
 ---
 
 # CryptExportPublicKeyInfo function

@@ -9,8 +9,8 @@ ms.assetid: a2a78c19-3161-431a-b1af-31dac994c3f6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_V4, DHCP_SERVER_CONFIG_INFO_V4, DHCP_SERVER_CONFIG_INFO_V4 structure [DHCP], DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, LPDHCP_SERVER_CONFIG_INFO_V4, LPDHCP_SERVER_CONFIG_INFO_V4 structure pointer [DHCP], _DHCP_SERVER_CONFIG_INFO_V4, dhcp.dhcp_server_config_info_v4, dhcpsapi/LPDHCP_SERVER_CONFIG_INFO_V4, dhcpsapi/_DHCP_SERVER_CONFIG_INFO_V4"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

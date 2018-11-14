@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidAudioRenderer.put_Balance
+: 
 ---
 
 # IMSVidAudioRenderer::put_Balance

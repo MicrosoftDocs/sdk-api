@@ -7,7 +7,7 @@ old-location: security\iazscope2_openroleassignment.htm
 tech.root: secauthz
 ms.assetid: cb7560d0-da5c-444d-9944-b6db980985bc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleAssignment method, IAzScope2.OpenRoleAssignment, IAzScope2::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleAssignment, security.iazscope2_openroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope2.OpenRoleAssignment
+: 
 ---
 
 # IAzScope2::OpenRoleAssignment

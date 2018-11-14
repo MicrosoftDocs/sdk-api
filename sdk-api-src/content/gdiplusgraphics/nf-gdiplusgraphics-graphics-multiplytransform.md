@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\multiplytransform.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Graphics class [GDI+],MultiplyTransform method, Graphics.MultiplyTransform, Graphics::MultiplyTransform, MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.MultiplyTransform
+: 
 req.product: GDI+ 1.0
 ---
 

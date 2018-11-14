@@ -9,8 +9,8 @@ ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies],described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

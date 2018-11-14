@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Device_Interface_Property_Keys_ExW
+: 
 ---
 
 # CM_Get_Device_Interface_Property_Keys_ExW function

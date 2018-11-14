@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shldisp.h
+: 
+- IShellFolderViewDual3.get_SortColumns
+: 
 ---
 
 # IShellFolderViewDual3::get_SortColumns

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qmgr.h
+: 
+- IBackgroundCopyJob1.AddFiles
+: 
 ---
 
 # IBackgroundCopyJob1::AddFiles

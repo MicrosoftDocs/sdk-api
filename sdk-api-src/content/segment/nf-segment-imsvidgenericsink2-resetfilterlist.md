@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidGenericSink2.ResetFilterList
+: 
 ---
 
 # IMSVidGenericSink2::ResetFilterList

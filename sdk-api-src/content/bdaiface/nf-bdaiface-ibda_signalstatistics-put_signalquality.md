@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_SignalStatistics.put_SignalQuality
+: 
 ---
 
 # IBDA_SignalStatistics::put_SignalQuality

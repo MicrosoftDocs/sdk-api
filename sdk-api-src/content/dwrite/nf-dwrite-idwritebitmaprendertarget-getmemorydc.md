@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteBitmapRenderTarget_GetMemoryDC.htm
 tech.root: DirectWrite
 ms.assetid: 9ca9a002-2a78-4c7c-926c-52414dd801bb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetMemoryDC, GetMemoryDC method [Direct Write], GetMemoryDC method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetMemoryDC method, IDWriteBitmapRenderTarget.GetMemoryDC, IDWriteBitmapRenderTarget::GetMemoryDC, directwrite.IDWriteBitmapRenderTarget_GetMemoryDC, dwrite/IDWriteBitmapRenderTarget::GetMemoryDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteBitmapRenderTarget.GetMemoryDC
+: 
 ---
 
 # IDWriteBitmapRenderTarget::GetMemoryDC

@@ -9,8 +9,8 @@ ms.assetid: 3b0005cb-0fb6-492c-89e5-8a18a88f881b
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PDS_REPSYNCALL_UPDATEA, DS_REPSYNCALL_UPDATE, DS_REPSYNCALL_UPDATE structure [Active Directory], DS_REPSYNCALL_UPDATEA, DS_REPSYNCALL_UPDATEW, PDS_REPSYNCALL_UPDATE, PDS_REPSYNCALL_UPDATE structure pointer [Active Directory], _glines_ds_repsyncall_update, ad.ds__repsyncall__update, ad.ds_repsyncall_update, ntdsapi/DS_REPSYNCALL_UPDATE, ntdsapi/DS_REPSYNCALL_UPDATEA, ntdsapi/DS_REPSYNCALL_UPDATEW, ntdsapi/PDS_REPSYNCALL_UPDATE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

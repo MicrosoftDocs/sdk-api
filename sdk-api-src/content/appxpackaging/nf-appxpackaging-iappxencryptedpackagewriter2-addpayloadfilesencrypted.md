@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxEncryptedPackageWriter2.AddPayloadFilesEncrypted
+: 
 ---
 
 # IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted

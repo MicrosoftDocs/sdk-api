@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_shader_desc.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 4f0bd653-5cd1-26ff-b805-ecf9070b3990, D3D10_SHADER_DESC, D3D10_SHADER_DESC structure [Direct3D 10], _D3D10_SHADER_DESC, d3d10shader/D3D10_SHADER_DESC, direct3d10.d3d10_shader_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10shader.h
 req.include-header: 

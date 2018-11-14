@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmflip3dwindo
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DWMFLIP3DWINDOWPOLICY, DWMFLIP3DWINDOWPOLICY enumeration [Desktop Window Manager], DWMFLIP3D_DEFAULT, DWMFLIP3D_EXCLUDEABOVE, DWMFLIP3D_EXCLUDEBELOW, DWMFLIP3D_LAST, _udwm_dwmflip3dwindowpolicy, _udwm_dwmflip3dwindowpolicy_cpp, dwm.dwmflip3dwindowpolicy, dwmapi/DWMFLIP3DWINDOWPOLICY, dwmapi/DWMFLIP3D_DEFAULT, dwmapi/DWMFLIP3D_EXCLUDEABOVE, dwmapi/DWMFLIP3D_EXCLUDEBELOW, dwmapi/DWMFLIP3D_LAST, winui._udwm_dwmflip3dwindowpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dwmapi.h
 req.include-header: 

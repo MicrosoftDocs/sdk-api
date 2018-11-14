@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpuser_cp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_67qq.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPUser property, IFaxReceiptOptions.SMTPUser, IFaxReceiptOptions.get_SMTPUser, IFaxReceiptOptions.put_SMTPUser, IFaxReceiptOptions::SMTPUser, IFaxReceiptOptions::get_SMTPUser, IFaxReceiptOptions::put_SMTPUser, SMTPUser property [Fax Service], SMTPUser property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpuser, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpuser_cpp, fax._mfax_faxreceiptoptions_smtpuser, faxcomex/IFaxReceiptOptions::SMTPUser, faxcomex/IFaxReceiptOptions::get_SMTPUser, faxcomex/IFaxReceiptOptions::put_SMTPUser, get_SMTPUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxReceiptOptions.get_SMTPUser
+: 
 ---
 
 # IFaxReceiptOptions::get_SMTPUser

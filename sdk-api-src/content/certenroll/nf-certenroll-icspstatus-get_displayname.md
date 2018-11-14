@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspStatus.get_DisplayName
+: 
 ---
 
 # ICspStatus::get_DisplayName

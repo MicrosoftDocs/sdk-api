@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sdoias.h
+: 
+- ISdo.get__NewEnum
+: 
 ---
 
 # ISdo::get__NewEnum

@@ -9,8 +9,8 @@ ms.assetid: 1eb80e7a-93f5-474c-bed9-5b19f6657788
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPHPOS, PGLYPHPOS structure pointer [Display Devices], _GLYPHPOS, display.glyphpos, grstrcts_52c5687f-a40b-43c6-8513-accd4c72def5.xml, winddi/GLYPHPOS, winddi/PGLYPHPOS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

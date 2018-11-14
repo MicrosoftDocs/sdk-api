@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_IsInvertible_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isinvertible.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: IsInvertible, IsInvertible method [GDI+], IsInvertible method [GDI+],Matrix class, Matrix class [GDI+],IsInvertible method, Matrix.IsInvertible, Matrix::IsInvertible, _gdiplus_CLASS_Matrix_IsInvertible_, gdiplus._gdiplus_CLASS_Matrix_IsInvertible_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmatrix.h
+: 
+- Matrix.IsInvertible
+: 
 req.product: GDI+ 1.0
 ---
 

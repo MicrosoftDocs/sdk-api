@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitems
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ISearchItemsChangedSink, ISearchItemsChangedSink interface [search], ISearchItemsChangedSink interface [search],described, _search_ISearchItemsChangedSink, search._search_ISearchItemsChangedSink, searchapi/ISearchItemsChangedSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

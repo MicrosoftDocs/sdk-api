@@ -9,8 +9,8 @@ ms.assetid: dd235e33-39f7-459d-8b7f-76d5c3f96770
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY, WS_XML_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows], _WS_XML_SECURITY_TOKEN_PROPERTY, webservices/WS_XML_SECURITY_TOKEN_PROPERTY, wsw.ws_xml_security_token_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

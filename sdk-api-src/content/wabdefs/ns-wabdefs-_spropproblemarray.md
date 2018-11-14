@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\structures\spropproblemarray.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _SPropProblemArray, _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

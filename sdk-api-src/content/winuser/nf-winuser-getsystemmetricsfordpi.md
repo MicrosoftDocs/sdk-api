@@ -7,7 +7,7 @@ old-location: hidpi\getsystemmetricsfordpi.htm
 tech.root: hidpi
 ms.assetid: E95BB417-81FA-4824-BE68-A1E3E003F8E0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: GetSystemMetricsForDpi, GetSystemMetricsForDpi function [High DPI], hidpi.getsystemmetricsfordpi, winuser/GetSystemMetricsForDpi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemMetricsForDpi
+: 
 ---
 
 # GetSystemMetricsForDpi function

@@ -7,7 +7,7 @@ old-location: mf\mfunregisterplatformfrommmcss.htm
 tech.root: medfound
 ms.assetid: B080E515-AD0E-492D-A9EF-8391DCEC3891
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFUnregisterPlatformFromMMCSS
+: 
 ---
 
 # MFUnregisterPlatformFromMMCSS function

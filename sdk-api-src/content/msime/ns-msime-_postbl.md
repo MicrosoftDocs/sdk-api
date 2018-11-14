@@ -9,8 +9,8 @@ ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], _POSTBL, intl.postbl, msime/POSTBL, msime/PPOSTBL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msime.h
 req.include-header: 

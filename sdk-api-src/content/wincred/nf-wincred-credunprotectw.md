@@ -7,7 +7,7 @@ old-location: security\credunprotect.htm
 tech.root: secauthn
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CredUnprotectW
+: 
 ---
 
 # CredUnprotectW function

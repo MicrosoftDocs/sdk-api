@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- GET_DEVICE_LPARAM
+: 
 ---
 
 # GET_DEVICE_LPARAM macro

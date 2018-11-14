@@ -7,7 +7,7 @@ old-location: security\destroyprivateobjectsecurity.htm
 tech.root: secauthz
 ms.assetid: 4ef10852-8229-41de-a4d7-d2845e4c92ce
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DestroyPrivateObjectSecurity, DestroyPrivateObjectSecurity function [Security], _win32_destroyprivateobjectsecurity, security.destroyprivateobjectsecurity, securitybaseapi/DestroyPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DestroyPrivateObjectSecurity
+: 
 ---
 
 # DestroyPrivateObjectSecurity function

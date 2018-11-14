@@ -9,8 +9,8 @@ ms.assetid: e9c1b943-9cb0-480f-8ab7-0f439087216a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INSTALLSPEC, INSTALLSPEC union [Group Policy], _INSTALLSPEC, appmgmt/INSTALLSPEC, policy.installspec_union
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- amvideo.h
+: 
+- IQualProp.get_DevSyncOffset
+: 
 ---
 
 # IQualProp::get_DevSyncOffset

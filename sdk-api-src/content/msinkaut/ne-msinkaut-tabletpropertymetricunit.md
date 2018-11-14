@@ -9,8 +9,8 @@ ms.assetid: c2258c48-4062-4528-9ebb-21cdbecf70ab
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: TPMU_Centimeters, TPMU_Default, TPMU_Degrees, TPMU_Grams, TPMU_Inches, TPMU_Pounds, TPMU_Radians, TPMU_Seconds, TabletPropertyMetricUnit, TabletPropertyMetricUnit enumeration [Tablet PC], c2258c48-4062-4528-9ebb-21cdbecf70ab, msinkaut/TPMU_Centimeters, msinkaut/TPMU_Default, msinkaut/TPMU_Degrees, msinkaut/TPMU_Grams, msinkaut/TPMU_Inches, msinkaut/TPMU_Pounds, msinkaut/TPMU_Radians, msinkaut/TPMU_Seconds, msinkaut/TabletPropertyMetricUnit, tablet.tabletpropertymetricunit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

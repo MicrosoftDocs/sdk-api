@@ -9,8 +9,8 @@ ms.assetid: 5C5D8BF8-1B3E-4FEF-ACD7-FCEAEE335DFE
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_TEX2D_SRV1, D3D11_TEX2D_SRV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_SRV1, direct3d11.d3d11_tex2d_srv1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

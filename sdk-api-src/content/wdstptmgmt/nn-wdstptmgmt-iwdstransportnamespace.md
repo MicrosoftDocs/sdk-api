@@ -9,8 +9,8 @@ ms.assetid: eadb7b1b-aaef-4a4e-a2de-c641a4e10173
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], IWdsTransportNamespace interface [Windows Deployment Services],described, wds.iwdstransportnamespace, wdstptmgmt/IWdsTransportNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

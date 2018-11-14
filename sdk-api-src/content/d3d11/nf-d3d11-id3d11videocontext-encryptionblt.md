@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_encryptionblt.htm
 tech.root: medfound
 ms.assetid: 2BBD0BC2-53D9-435E-835C-20A992118329
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],EncryptionBlt method, ID3D11VideoContext.EncryptionBlt, ID3D11VideoContext::EncryptionBlt, d3d11/ID3D11VideoContext::EncryptionBlt, mf.id3d11videocontext_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoContext.EncryptionBlt
+: 
 ---
 
 # ID3D11VideoContext::EncryptionBlt

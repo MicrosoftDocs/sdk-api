@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentpolicyserversetup_initializeinstall
 tech.root: seccrypto
 ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
+: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults

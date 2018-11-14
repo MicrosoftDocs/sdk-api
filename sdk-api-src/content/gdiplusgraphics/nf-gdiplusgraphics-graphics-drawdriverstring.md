@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawdriverstring.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawDriverString, DrawDriverString method [GDI+], DrawDriverString method [GDI+],Graphics class, Graphics class [GDI+],DrawDriverString method, Graphics.DrawDriverString, Graphics::DrawDriverString, _gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_, gdiplus._gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawDriverString
+: 
 req.product: GDI+ 1.0
 ---
 

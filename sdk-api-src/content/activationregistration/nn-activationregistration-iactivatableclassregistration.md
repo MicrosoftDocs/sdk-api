@@ -9,8 +9,8 @@ ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: activationregistration.h
 req.include-header: 

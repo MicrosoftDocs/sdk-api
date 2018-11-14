@@ -7,7 +7,7 @@ old-location: base\waitforsingleobject.htm
 tech.root: sync
 ms.assetid: e37ebff7-b44e-469d-81ab-7a6bd1a0c822
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: WaitForSingleObject, WaitForSingleObject function, _win32_waitforsingleobject, base.waitforsingleobject, synchapi/WaitForSingleObject, winbase/WaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WaitForSingleObject
+: 
 ---
 
 # WaitForSingleObject function

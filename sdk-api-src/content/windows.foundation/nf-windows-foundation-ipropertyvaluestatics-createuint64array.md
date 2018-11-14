@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.foundation.h
+: 
+- IPropertyValueStatics.CreateUInt64Array
+: 
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics

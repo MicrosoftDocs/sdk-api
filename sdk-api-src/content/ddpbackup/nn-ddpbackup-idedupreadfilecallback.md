@@ -9,8 +9,8 @@ ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ddpbackup.h
 req.include-header: 

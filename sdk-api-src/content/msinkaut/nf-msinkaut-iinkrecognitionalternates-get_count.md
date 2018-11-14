@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognitionAlternates.get_Count
+: 
 ---
 
 # IInkRecognitionAlternates::get_Count

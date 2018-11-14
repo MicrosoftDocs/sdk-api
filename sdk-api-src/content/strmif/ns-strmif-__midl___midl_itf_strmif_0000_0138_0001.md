@@ -9,8 +9,8 @@ ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, __MIDL___MIDL_itf_strmif_0000_0138_0001, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

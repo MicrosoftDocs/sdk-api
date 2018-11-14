@@ -9,8 +9,8 @@ ms.assetid: 616c45f6-ec80-42d9-a485-e9e778f2b971
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PUSER_POWER_POLICY, PUSER_POWER_POLICY, PUSER_POWER_POLICY structure pointer, USER_POWER_POLICY, USER_POWER_POLICY structure, _USER_POWER_POLICY, _win32_user_power_policy_str, base.user_power_policy_str, powrprof/PUSER_POWER_POLICY, powrprof/USER_POWER_POLICY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

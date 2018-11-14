@@ -9,8 +9,8 @@ ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallback.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PFNDAENUMCALLBACK, PFNDAENUMCALLBACK callback, PFNDAENUMCALLBACK callback function [Windows Controls], PFNDPAENUMCALLBACK, PFNDSAENUMCALLBACK, _shell_PFNDAENUMCALLBACK, _shell_PFNDAENUMCALLBACK_cpp, controls.PFNDAENUMCALLBACK, controls._shell_PFNDAENUMCALLBACK, dpa_dsa/PFNDAENUMCALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 

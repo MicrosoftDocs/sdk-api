@@ -9,8 +9,8 @@ ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

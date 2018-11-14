@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmConnectionSubscriptionsGet0
+: 
 ---
 
 # FwpmConnectionSubscriptionsGet0 function

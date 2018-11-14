@@ -7,7 +7,7 @@ old-location: multimedia\drawdibclose.htm
 tech.root: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DrawDibClose
+: 
 ---
 
 # DrawDibClose function

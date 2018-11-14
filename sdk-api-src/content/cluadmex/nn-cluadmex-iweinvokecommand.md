@@ -7,10 +7,10 @@ old-location: mscs\iweinvokecommand.htm
 tech.root: mscs
 ms.assetid: 53997e65-5011-4c3b-9586-ede9ed693ab5
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], IWEInvokeCommand interface [Failover Cluster],described, _wolf_iweinvokecommand, cluadmex/IWEInvokeCommand, mscs.iweinvokecommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

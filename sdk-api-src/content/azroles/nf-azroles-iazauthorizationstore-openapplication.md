@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_openapplication.htm
 tech.root: secauthz
 ms.assetid: 63215a9a-b739-4ba9-a760-a9968be9e017
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplication method, IAzAuthorizationStore interface [Security],OpenApplication method, IAzAuthorizationStore.OpenApplication, IAzAuthorizationStore::OpenApplication, OpenApplication, OpenApplication method [Security], OpenApplication method [Security],AzAuthorizationStore object, OpenApplication method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplication, security.azauthorizationstore_openapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.OpenApplication
+: 
 ---
 
 # IAzAuthorizationStore::OpenApplication

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_clone.htm
 tech.root: seccrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],Clone method, IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certview.h
+: 
+- IEnumCERTVIEWEXTENSION.Clone
+: 
 ---
 
 # IEnumCERTVIEWEXTENSION::Clone

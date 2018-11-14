@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12descriptorheap_getgpudescriptorhandleforheapstart
 tech.root: direct3d12
 ms.assetid: 63A031A1-EF53-4308-A8F9-179E21C7CE7B
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetGPUDescriptorHandleForHeapStart, GetGPUDescriptorHandleForHeapStart method, GetGPUDescriptorHandleForHeapStart method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetGPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart, ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart, d3d12/ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart, direct3d12.id3d12descriptorheap_getgpudescriptorhandleforheapstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
+: 
 ---
 
 # ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vds.h
+: 
+- IVdsAsync.Cancel
+: 
 ---
 
 # IVdsAsync::Cancel

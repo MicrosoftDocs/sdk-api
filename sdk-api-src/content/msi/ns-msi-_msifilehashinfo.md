@@ -9,8 +9,8 @@ ms.assetid: b4176b5b-149d-4542-9a6c-27281877a3ff
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMSIFILEHASHINFO, PMSIFILEHASHINFO structure pointer, _MSIFILEHASHINFO, _msi_msifilehashinfo, msi/MSIFILEHASHINFO, msi/PMSIFILEHASHINFO, setup.msifilehashinfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msi.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: tapi3\itstreamcontrol.htm
 tech.root: tapi
 ms.assetid: 12b9457a-7afb-4348-93a2-28728c673929
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITStreamControl, ITStreamControl interface [TAPI 2.2], ITStreamControl interface [TAPI 2.2],described, _tapi3_itstreamcontrol, tapi3.itstreamcontrol, tapi3if/ITStreamControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

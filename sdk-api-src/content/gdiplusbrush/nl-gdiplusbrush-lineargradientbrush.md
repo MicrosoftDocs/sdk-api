@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrush.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+], LinearGradientBrush class [GDI+],described, _gdiplus_CLASS_LinearGradientBrush_Class, gdiplus._gdiplus_CLASS_LinearGradientBrush_Class, gdiplusbrush/LinearGradientBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusbrush.h
 req.include-header: 

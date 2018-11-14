@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdate2.get_IsPresent
+: 
 ---
 
 # IUpdate2::get_IsPresent

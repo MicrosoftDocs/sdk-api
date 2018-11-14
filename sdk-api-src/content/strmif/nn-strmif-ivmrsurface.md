@@ -9,8 +9,8 @@ ms.assetid: 8222ea5c-be77-4f33-83ff-073fb3e85e73
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow],described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

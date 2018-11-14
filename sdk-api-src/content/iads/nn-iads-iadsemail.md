@@ -9,8 +9,8 @@ ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

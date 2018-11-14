@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], _MARGINS, controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 

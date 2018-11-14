@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3PK
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3PK, dxmath.xmfloat3pk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

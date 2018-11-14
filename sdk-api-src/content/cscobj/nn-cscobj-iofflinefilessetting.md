@@ -9,8 +9,8 @@ ms.assetid: 6f47c67b-9438-4229-89b2-6b3f9da8fb68
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], IOfflineFilesSetting interface [Offline Files],described, cscobj/IOfflineFilesSetting, of.iofflinefilessetting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

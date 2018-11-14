@@ -9,8 +9,8 @@ ms.assetid: 4E988284-DE71-48B2-BF77-D616FAA2A3B1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: PWICBitmapPlane, PWICBitmapPlane structure pointer [Windows Imaging Component], WICBitmapPlane, WICBitmapPlane structure [Windows Imaging Component], wic.wicbitmapplane, wincodec/PWICBitmapPlane, wincodec/WICBitmapPlane
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

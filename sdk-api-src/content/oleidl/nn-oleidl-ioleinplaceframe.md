@@ -9,8 +9,8 @@ ms.assetid: c530aff7-fd83-413d-8945-0c9d1bfb51ba
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFrame interface [COM],described, _ole_ioleinplaceframe, com.ioleinplaceframe, oleidl/IOleInPlaceFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

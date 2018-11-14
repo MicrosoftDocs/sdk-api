@@ -9,8 +9,8 @@ ms.assetid: 9fe7375a-58ef-4807-942f-e21858f09217
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE structure pointer [Files], TXF_LOG_RECORD_AFFECTED_FILE, TXF_LOG_RECORD_AFFECTED_FILE structure [Files], _TXF_LOG_RECORD_AFFECTED_FILE, fs.txf_log_record_affected_file, txfw32/PTXF_LOG_RECORD_AFFECTED_FILE, txfw32/TXF_LOG_RECORD_AFFECTED_FILE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 

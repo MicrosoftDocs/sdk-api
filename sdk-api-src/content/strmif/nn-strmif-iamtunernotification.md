@@ -9,8 +9,8 @@ ms.assetid: 8e5fde62-d17c-4d3c-bdb0-0748a9bd285b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], IAMTunerNotification interface [DirectShow],described, IAMTunerNotificationInterface, dshow.iamtunernotification, strmif/IAMTunerNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

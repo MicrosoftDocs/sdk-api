@@ -9,8 +9,8 @@ ms.assetid: 19e20da3-5b6b-4f56-b30b-0408695f2267
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: EVT_EVENT_PROPERTY_ID, EVT_EVENT_PROPERTY_ID enumeration [EventLog], EvtEventPath, EvtEventPropertyIdEND, EvtEventQueryIDs, _EVT_EVENT_PROPERTY_ID, wes.evt_subscription_event_property_id, winevt/EVT_EVENT_PROPERTY_ID, winevt/EvtEventPath, winevt/EvtEventPropertyIdEND, winevt/EvtEventQueryIDs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

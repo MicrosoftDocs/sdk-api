@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- peninputpanel.h
+: 
+- ITextInputPanel.put_DefaultInputArea
+: 
 ---
 
 # ITextInputPanel::put_DefaultInputArea

@@ -9,8 +9,8 @@ ms.assetid: 0c5384f9-0f6c-4523-bacb-ec3dd7321648
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_BYTES_DESCRIPTION, WS_BYTES_DESCRIPTION structure [Web Services for Windows], _WS_BYTES_DESCRIPTION, webservices/WS_BYTES_DESCRIPTION, wsw.ws_bytes_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

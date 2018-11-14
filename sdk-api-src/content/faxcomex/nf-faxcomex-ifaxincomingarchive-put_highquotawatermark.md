@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_highquota
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0g2z.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],HighQuotaWaterMark property, IFaxIncomingArchive.HighQuotaWaterMark, IFaxIncomingArchive.get_HighQuotaWaterMark, IFaxIncomingArchive.put_HighQuotaWaterMark, IFaxIncomingArchive::HighQuotaWaterMark, IFaxIncomingArchive::get_HighQuotaWaterMark, IFaxIncomingArchive::put_HighQuotaWaterMark, _mfax_faxincomingarchive.highquotawatermark, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_highquotawatermark_cpp, fax._mfax_faxincomingarchive_highquotawatermark, faxcomex/IFaxIncomingArchive::HighQuotaWaterMark, faxcomex/IFaxIncomingArchive::get_HighQuotaWaterMark, faxcomex/IFaxIncomingArchive::put_HighQuotaWaterMark, put_HighQuotaWaterMark
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxIncomingArchive.put_HighQuotaWaterMark
+: 
 ---
 
 # IFaxIncomingArchive::put_HighQuotaWaterMark

@@ -7,7 +7,7 @@ old-location: hidpi\logicaltophysicalpointforpermonitordpi.htm
 tech.root: hidpi
 ms.assetid: C9ABDC73-1E96-42F1-B34D-3A649DDF02A6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: LogicalToPhysicalPointForPerMonitorDPI, LogicalToPhysicalPointForPerMonitorDPI function [High DPI], hidpi.logicaltophysicalpointforpermonitordpi, winuser/LogicalToPhysicalPointForPerMonitorDPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LogicalToPhysicalPointForPerMonitorDPI
+: 
 ---
 
 # LogicalToPhysicalPointForPerMonitorDPI function

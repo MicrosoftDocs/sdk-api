@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement4.get_CachedAnnotationTypes
+: 
 ---
 
 # IUIAutomationElement4::get_CachedAnnotationTypes

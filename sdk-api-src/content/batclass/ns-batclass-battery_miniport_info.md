@@ -9,8 +9,8 @@ ms.assetid: db9d4e7d-a794-4c08-b849-d0b75ecf606b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO structure [Battery Devices], PBATTERY_MINIPORT_INFO, PBATTERY_MINIPORT_INFO structure pointer [Battery Devices], bat-struct_0ef66c9a-61df-4c49-94f1-78e41e5b9bfb.xml, batclass/BATTERY_MINIPORT_INFO, batclass/PBATTERY_MINIPORT_INFO, battery.battery_miniport_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

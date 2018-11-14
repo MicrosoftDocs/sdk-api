@@ -9,8 +9,8 @@ ms.assetid: d509eb58-0c58-4173-8c9c-d52b81932b5c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDigitalCopyControlDescriptor, mstv.iisdbdigitalcopycontroldescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

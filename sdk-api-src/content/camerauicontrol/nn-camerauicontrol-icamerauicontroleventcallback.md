@@ -9,8 +9,8 @@ ms.assetid: f870557e-0e01-4f5c-81be-c709e397e5fd
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], ICameraUIControlEventCallback interface [Windows API],described, camerauicontrol/ICameraUIControlEventCallback, winprog.icamerauicontroleventcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: camerauicontrol.h
 req.include-header: 

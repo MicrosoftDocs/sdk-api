@@ -9,8 +9,8 @@ ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

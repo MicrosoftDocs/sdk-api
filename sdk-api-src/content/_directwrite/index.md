@@ -2,7 +2,7 @@
 UID: TP:directwrite
 ms.assetid: 1466a8a8-0196-3cad-99b3-da84e788e1e7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

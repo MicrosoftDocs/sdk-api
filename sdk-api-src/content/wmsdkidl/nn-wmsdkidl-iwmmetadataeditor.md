@@ -9,8 +9,8 @@ ms.assetid: ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], IWMMetadataEditor interface [windows Media Format],described, IWMMetadataEditorInterface, wmformat.iwmmetadataeditor, wmsdkidl/IWMMetadataEditor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

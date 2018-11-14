@@ -7,10 +7,10 @@ old-location: mf\imfspatialaudioobjectbuffer.htm
 tech.root: medfound
 ms.assetid: 61E9BC6A-2120-4874-9053-E1D232DF1CCA
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], IMFSpatialAudioObjectBuffer interface [Media Foundation],described, mf.imfspatialaudioobjectbuffer, mfspatialaudio/IMFSpatialAudioObjectBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h

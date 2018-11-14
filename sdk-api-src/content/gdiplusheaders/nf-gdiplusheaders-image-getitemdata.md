@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetItemData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getitemdata.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetItemData, GetItemData method [GDI+], GetItemData method [GDI+],Image class, Image class [GDI+],GetItemData method, Image.GetItemData, Image::GetItemData, _gdiplus_CLASS_Image_GetItemData_, gdiplus._gdiplus_CLASS_Image_GetItemData_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.GetItemData
+: 
 req.product: GDI+ 1.1
 ---
 

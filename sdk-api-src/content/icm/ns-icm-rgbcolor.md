@@ -9,8 +9,8 @@ ms.assetid: fce4437b-4625-4e72-a7ab-b362d83c7b29
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: RGBCOLOR, RGBCOLOR structure [Windows Color System], icm/RGBCOLOR, wcs.rgbcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

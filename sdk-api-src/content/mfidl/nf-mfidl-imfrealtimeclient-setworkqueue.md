@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient_setworkqueue.htm
 tech.root: medfound
 ms.assetid: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf, IMFRealTimeClient interface [Media Foundation],SetWorkQueue method, IMFRealTimeClient.SetWorkQueue, IMFRealTimeClient::SetWorkQueue, SetWorkQueue, SetWorkQueue method [Media Foundation], SetWorkQueue method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_setworkqueue, mfidl/IMFRealTimeClient::SetWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFRealTimeClient.SetWorkQueue
+: 
 ---
 
 # IMFRealTimeClient::SetWorkQueue

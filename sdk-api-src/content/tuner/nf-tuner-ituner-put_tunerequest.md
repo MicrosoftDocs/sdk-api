@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ITuner.put_TuneRequest
+: 
 ---
 
 # ITuner::put_TuneRequest

@@ -7,7 +7,7 @@ old-location: tapi3\itagentevent_get_agent.htm
 tech.root: tapi
 ms.assetid: 90a1684d-5cb0-4d1b-ac38-b03f9f1ff838
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Agent method, ITAgentEvent.get_Agent, ITAgentEvent::get_Agent, _tapi3_itagentevent_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_agent, tapi3cc/ITAgentEvent::get_Agent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgentEvent.get_Agent
+: 
 ---
 
 # ITAgentEvent::get_Agent

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- IS_POINTER_FIRSTBUTTON_WPARAM
+: 
 ---
 
 # IS_POINTER_FIRSTBUTTON_WPARAM macro

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpDeleteSuperScopeV4
+: 
 ---
 
 # DhcpDeleteSuperScopeV4 function

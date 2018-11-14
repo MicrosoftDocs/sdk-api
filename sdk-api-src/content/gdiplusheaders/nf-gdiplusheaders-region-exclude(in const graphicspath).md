@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods\exclude.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class, Region class [GDI+],Exclude method, Region.Exclude, Region.Exclude(IN const GraphicsPath), Region.Exclude(const GraphicsPath*), Region::Exclude, Region::Exclude(IN const GraphicsPath), _gdiplus_CLASS_Region_Exclude_path_, gdiplus._gdiplus_CLASS_Region_Exclude_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.Exclude
+: 
 req.product: GDI+ 1.0
 ---
 

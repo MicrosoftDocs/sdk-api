@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- IConditionFactory2.CreateCompoundFromArray
+: 
 ---
 
 # IConditionFactory2::CreateCompoundFromArray

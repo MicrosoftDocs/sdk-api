@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SynchronizedInputPattern_Cancel
+: 
 ---
 
 # SynchronizedInputPattern_Cancel function

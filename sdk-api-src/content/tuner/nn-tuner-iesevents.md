@@ -9,8 +9,8 @@ ms.assetid: 1921f632-bb3b-4833-aa25-9caa3d65363f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IESEvents, IESEvents interface [Microsoft TV Technologies], IESEvents interface [Microsoft TV Technologies],described, mstv.iesevents, tuner/IESEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: security\icertencodealtname.htm
 tech.root: seccrypto
 ms.assetid: e0ecfcb0-f2ca-4e1c-a054-c83c03d55465
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertEncodeAltName interface [Security],described, _certsrv_icertencodealtname, certenc/ICertEncodeAltName, security.icertencodealtname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h

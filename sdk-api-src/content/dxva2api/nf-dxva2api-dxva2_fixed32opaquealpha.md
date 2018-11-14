@@ -7,7 +7,7 @@ old-location: mf\dxva2_fixed32opaquealpha.htm
 tech.root: medfound
 ms.assetid: de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DXVA2_Fixed32OpaqueAlpha, DXVA2_Fixed32OpaqueAlpha function [Media Foundation], de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f, dxva2api/DXVA2_Fixed32OpaqueAlpha, mf.dxva2_fixed32opaquealpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DXVA2_Fixed32OpaqueAlpha
+: 
 ---
 
 # DXVA2_Fixed32OpaqueAlpha function

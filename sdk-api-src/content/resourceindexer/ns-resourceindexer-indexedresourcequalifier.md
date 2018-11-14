@@ -9,8 +9,8 @@ ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: resourceindexer.h
 req.include-header: 

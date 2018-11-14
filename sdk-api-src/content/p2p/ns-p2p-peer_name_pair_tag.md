@@ -9,8 +9,8 @@ ms.assetid: 4c64664e-33c6-490e-b160-7bdb5fb428fa
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEER_NAME_PAIR, PEER_NAME_PAIR, PEER_NAME_PAIR structure [Peer Networking], PPEER_NAME_PAIR, PPEER_NAME_PAIR structure pointer [Peer Networking], p2p.peer_name_pair, p2p/PPEER_NAME_PAIR, p2p/peer_name_pair_tag, peer_name_pair_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

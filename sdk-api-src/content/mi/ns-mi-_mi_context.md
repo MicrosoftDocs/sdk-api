@@ -9,8 +9,8 @@ ms.assetid: 51d6c510-f9fd-4ab7-a669-b2a5776b496d
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_Context, MI_Context structure [Windows Management Infrastructure (MI)], _MI_Context, mi/MI_Context, wmi._mi_context, wmi_v2.mi_context
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

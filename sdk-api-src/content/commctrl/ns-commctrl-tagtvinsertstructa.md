@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTVINSERTSTRUCTA, LPTVINSERTSTRUCT, LPTVINSERTSTRUCT structure pointer [Windows Controls], TVINSERTSTRUCT, TVINSERTSTRUCT structure [Windows Controls], TVINSERTSTRUCTA, TVINSERTSTRUCTW, TVI_FIRST, TVI_LAST, TVI_ROOT, TVI_SORT, _win32_TVINSERTSTRUCT, _win32_TVINSERTSTRUCT_cpp, commctrl/LPTVINSERTSTRUCT, commctrl/TVINSERTSTRUCT, commctrl/TVINSERTSTRUCTA, commctrl/TVINSERTSTRUCTW, controls.TVINSERTSTRUCT, controls._win32_TVINSERTSTRUCT, tagTVINSERTSTRUCTA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

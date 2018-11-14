@@ -7,7 +7,7 @@ old-location: mscs\clusterregcreatereadbatch.htm
 tech.root: mscs
 ms.assetid: FED3986E-7383-46C4-B2D5-259812EF63A2
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterRegCreateReadBatch
+: 
 ---
 
 # ClusterRegCreateReadBatch function

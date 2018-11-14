@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- micaut.h
+: 
+- IMathInputControl.SetCaptionText
+: 
 ---
 
 # IMathInputControl::SetCaptionText

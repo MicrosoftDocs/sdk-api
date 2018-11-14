@@ -7,10 +7,10 @@ old-location: tapi2\lineproviderentry_str.htm
 tech.root: tapi
 ms.assetid: e54a8244-e773-441f-a387-b3b22c4a0a54
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPLINEPROVIDERENTRY, LINEPROVIDERENTRY, LINEPROVIDERENTRY structure [TAPI 2.2], LPLINEPROVIDERENTRY, LPLINEPROVIDERENTRY structure pointer [TAPI 2.2], _tapi2_lineproviderentry_str, lineproviderentry_tag, tapi/LINEPROVIDERENTRY, tapi/LPLINEPROVIDERENTRY, tapi2.lineproviderentry_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\certenumsubjectinsortedctl.htm
 tech.root: seccrypto
 ms.assetid: b37cff03-5e9c-4e6c-b46e-d3f02dbf8783
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertEnumSubjectInSortedCTL, CertEnumSubjectInSortedCTL function [Security], _crypto2_certenumsubjectinsortedctl, security.certenumsubjectinsortedctl, wincrypt/CertEnumSubjectInSortedCTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertEnumSubjectInSortedCTL
+: 
 ---
 
 # CertEnumSubjectInSortedCTL function

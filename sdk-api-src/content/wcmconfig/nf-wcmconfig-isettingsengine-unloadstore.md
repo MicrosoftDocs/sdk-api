@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wcmconfig.h
+: 
+- ISettingsEngine.UnloadStore
+: 
 ---
 
 # ISettingsEngine::UnloadStore

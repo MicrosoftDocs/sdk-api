@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\header\structures\hdhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPHDHITTESTINFO, HDHITTESTINFO, HDHITTESTINFO structure [Windows Controls], HHT_ABOVE, HHT_BELOW, HHT_NOWHERE, HHT_ONDIVIDER, HHT_ONDIVOPEN, HHT_ONDROPDOWN, HHT_ONFILTER, HHT_ONFILTERBUTTON, HHT_ONHEADER, HHT_ONITEMSTATEICON, HHT_ONOVERFLOW, HHT_TOLEFT, HHT_TORIGHT, LPHDHITTESTINFO, LPHDHITTESTINFO structure pointer [Windows Controls], _HD_HITTESTINFO, _win32_HDHITTESTINFO, _win32_HDHITTESTINFO_cpp, commctrl/HDHITTESTINFO, commctrl/LPHDHITTESTINFO, controls.HDHITTESTINFO, controls._win32_HDHITTESTINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

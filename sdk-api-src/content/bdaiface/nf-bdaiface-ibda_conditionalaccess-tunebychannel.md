@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_ConditionalAccess.TuneByChannel
+: 
 ---
 
 # IBDA_ConditionalAccess::TuneByChannel

@@ -7,7 +7,7 @@ old-location: base\regqueryvalueex.htm
 tech.root: sysinfo
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegQueryValueExW
+: 
 ---
 
 # RegQueryValueExW function

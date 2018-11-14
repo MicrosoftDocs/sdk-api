@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImageList_ReplaceIcon
+: 
 ---
 
 # ImageList_ReplaceIcon function

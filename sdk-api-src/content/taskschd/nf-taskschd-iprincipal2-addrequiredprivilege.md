@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IPrincipal2.AddRequiredPrivilege
+: 
 ---
 
 # IPrincipal2::AddRequiredPrivilege

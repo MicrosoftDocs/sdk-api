@@ -7,10 +7,10 @@ old-location: mf\idirectxvideomemoryconfiguration.htm
 tech.root: medfound
 ms.assetid: cc2a6180-9698-460a-9a0d-1ee9e15f197f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 

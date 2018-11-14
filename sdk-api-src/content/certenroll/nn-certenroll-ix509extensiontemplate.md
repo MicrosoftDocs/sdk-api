@@ -9,8 +9,8 @@ ms.assetid: 2ac24ee9-f31f-4501-a4f0-321580ec2fa9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509ExtensionTemplate, IX509ExtensionTemplate interface [Security], IX509ExtensionTemplate interface [Security],described, certenroll/IX509ExtensionTemplate, security.ix509extensiontemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

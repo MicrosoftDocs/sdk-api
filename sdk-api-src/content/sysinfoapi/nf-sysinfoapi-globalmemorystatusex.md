@@ -7,7 +7,7 @@ old-location: base\globalmemorystatusex.htm
 tech.root: memory
 ms.assetid: bdcee13f-85be-4b9d-b108-3c5ea616dfbb
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: GlobalMemoryStatusEx, GlobalMemoryStatusEx function, _win32_globalmemorystatusex, base.globalmemorystatusex, sysinfoapi/GlobalMemoryStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GlobalMemoryStatusEx
+: 
 ---
 
 # GlobalMemoryStatusEx function

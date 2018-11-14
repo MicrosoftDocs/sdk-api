@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_seek.htm
 tech.root: medfound
 ms.assetid: 512c67a5-e87d-4a81-8577-e64dac868c40
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Media Foundation],Seek method, IMFByteStream.Seek, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek, Seek method [Media Foundation], Seek method [Media Foundation],IMFByteStream interface, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFByteStream.Seek
+: 
 ---
 
 # IMFByteStream::Seek

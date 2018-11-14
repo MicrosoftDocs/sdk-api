@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DsReplicaGetInfo2W
+: 
 ---
 
 # DsReplicaGetInfo2W function

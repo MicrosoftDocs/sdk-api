@@ -9,8 +9,8 @@ ms.assetid: da82e861-129b-4536-b036-2238c9e4c84c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTBINFO, TBIF_APPEND, TBIF_PREPEND, TBIF_REPLACE, TBINFO, TBINFO structure [Windows Shell], _TBINFO, _win32_TBINFO_str, shell.TBINFO_str, shlobj/TBINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

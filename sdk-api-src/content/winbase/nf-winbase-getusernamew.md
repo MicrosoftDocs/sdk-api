@@ -7,7 +7,7 @@ old-location: base\getusername.htm
 tech.root: sysinfo
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetUserNameW
+: 
 ---
 
 # GetUserNameW function

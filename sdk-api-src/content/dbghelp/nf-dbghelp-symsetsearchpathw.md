@@ -7,7 +7,7 @@ old-location: base\symsetsearchpath.htm
 tech.root: debug
 ms.assetid: 564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymSetSearchPath, SymSetSearchPath function, SymSetSearchPathW, _win32_symsetsearchpath, base.symsetsearchpath, dbghelp/SymSetSearchPath, dbghelp/SymSetSearchPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymSetSearchPathW
+: 
 ---
 
 # SymSetSearchPathW function

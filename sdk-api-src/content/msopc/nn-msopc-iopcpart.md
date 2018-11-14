@@ -9,8 +9,8 @@ ms.assetid: e6a40f30-03d1-4c93-a5e0-563b4c6588b4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOpcPart, IOpcPart interface [Open Packaging Conventions], IOpcPart interface [Open Packaging Conventions],described, msopc/IOpcPart, opc.iopcpart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

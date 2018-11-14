@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vdshwprv.h
+: 
+- IVdsLun2.QueryHints2
+: 
 ---
 
 # IVdsLun2::QueryHints2

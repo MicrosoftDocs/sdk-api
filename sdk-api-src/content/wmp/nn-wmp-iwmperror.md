@@ -9,8 +9,8 @@ ms.assetid: f22759cd-0ca7-4992-bb17-0272b35d6d75
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPError, IWMPError interface [Windows Media Player], IWMPError interface [Windows Media Player],described, IWMPErrorInterface, wmp.iwmperror, wmp/IWMPError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

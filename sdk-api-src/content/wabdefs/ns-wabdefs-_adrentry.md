@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRENTRY, _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

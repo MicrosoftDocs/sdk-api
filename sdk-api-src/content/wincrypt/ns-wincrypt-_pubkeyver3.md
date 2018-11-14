@@ -7,10 +7,10 @@ old-location: security\dhpubkey_ver3.htm
 tech.root: seccrypto
 ms.assetid: 02f702dd-be9d-4a9a-a3af-4db1802386b0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DHPUBKEY_VER3, DHPUBKEY_VER3 structure [Security], DSSPUBKEY_VER3, _PUBKEYVER3, _crypto2_dhpubkey_ver3, security.dhpubkey_ver3, wincrypt/DHPUBKEY_VER3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

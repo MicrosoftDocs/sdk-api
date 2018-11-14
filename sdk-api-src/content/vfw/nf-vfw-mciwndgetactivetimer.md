@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetactivetimer.htm
 tech.root: Multimedia
 ms.assetid: 581b9bb3-9bc0-46f2-a5d2-93397900ff28
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndGetActiveTimer, MCIWndGetActiveTimer macro [Windows Multimedia], _win32_MCIWndGetActiveTimer, multimedia.mciwndgetactivetimer, vfw/MCIWndGetActiveTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndGetActiveTimer
+: 
 ---
 
 # MCIWndGetActiveTimer macro

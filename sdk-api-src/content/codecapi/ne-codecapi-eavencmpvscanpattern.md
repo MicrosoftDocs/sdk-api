@@ -9,8 +9,8 @@ ms.assetid: 8204705e-b944-4479-b8c8-d64ab9a4d5f2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVEncMPVScanPattern, codecapi/eAVEncMPVScanPattern_AlternateScan, codecapi/eAVEncMPVScanPattern_Auto, codecapi/eAVEncMPVScanPattern_ZigZagScan, dshow.eavencmpvscanpattern, eAVEncMPVScanPattern, eAVEncMPVScanPattern enumeration [DirectShow], eAVEncMPVScanPatternEnumeration, eAVEncMPVScanPattern_AlternateScan, eAVEncMPVScanPattern_Auto, eAVEncMPVScanPattern_ZigZagScan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

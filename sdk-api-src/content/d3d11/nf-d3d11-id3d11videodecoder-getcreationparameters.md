@@ -7,7 +7,7 @@ old-location: mf\id3d11videodecoder_getcreationparameters.htm
 tech.root: medfound
 ms.assetid: 6F104317-19C2-4FCB-8CA7-34FD0C237822
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],ID3D11VideoDecoder interface, ID3D11VideoDecoder interface [Media Foundation],GetCreationParameters method, ID3D11VideoDecoder.GetCreationParameters, ID3D11VideoDecoder::GetCreationParameters, d3d11/ID3D11VideoDecoder::GetCreationParameters, mf.id3d11videodecoder_getcreationparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoDecoder.GetCreationParameters
+: 
 ---
 
 # ID3D11VideoDecoder::GetCreationParameters

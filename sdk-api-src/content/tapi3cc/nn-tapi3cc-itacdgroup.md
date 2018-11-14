@@ -7,10 +7,10 @@ old-location: tapi3\itacdgroup.htm
 tech.root: tapi
 ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

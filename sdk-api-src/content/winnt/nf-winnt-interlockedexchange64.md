@@ -7,7 +7,7 @@ old-location: base\interlockedexchange64.htm
 tech.root: sync
 ms.assetid: 80d34f5d-3491-4653-959b-6b9efebf764b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedExchange64, InterlockedExchange64 function, base.interlockedexchange64, winnt/InterlockedExchange64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InterlockedExchange64
+: 
 ---
 
 # InterlockedExchange64 function

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_deletedirectoryobject.htm
 tech.root: tapi
 ms.assetid: 1d2bb052-6986-4407-8a37-3a74920bf78e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DeleteDirectoryObject, DeleteDirectoryObject method [TAPI 2.2], DeleteDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],DeleteDirectoryObject method, ITDirectory.DeleteDirectoryObject, ITDirectory::DeleteDirectoryObject, _tapi3_itdirectory_deletedirectoryobject, rend/ITDirectory::DeleteDirectoryObject, tapi3.itdirectory_deletedirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectory.DeleteDirectoryObject
+: 
 ---
 
 # ITDirectory::DeleteDirectoryObject

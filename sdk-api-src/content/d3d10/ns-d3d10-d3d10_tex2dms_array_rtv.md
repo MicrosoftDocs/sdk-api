@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_rtv.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D10_TEX2DMS_ARRAY_RTV, D3D10_TEX2DMS_ARRAY_RTV structure [Direct3D 10], c5d75d40-aca3-78bb-905d-0a4ed02b9946, d3d10/D3D10_TEX2DMS_ARRAY_RTV, direct3d10.d3d10_tex2dms_array_rtv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\iuicol
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUICollection, IUICollection interface [Windows Ribbon], IUICollection interface [Windows Ribbon],described, scenicintent_IUICollection, uiribbon/IUICollection, windowsribbon.windowsribbon_iuicollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

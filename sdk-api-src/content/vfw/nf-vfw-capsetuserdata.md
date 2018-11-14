@@ -7,7 +7,7 @@ old-location: multimedia\capsetuserdata.htm
 tech.root: Multimedia
 ms.assetid: fefbef56-aedb-4158-9514-d19e7986d850
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_capSetUserData, capSetUserData, capSetUserData macro [Windows Multimedia], multimedia.capsetuserdata, vfw/capSetUserData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- capSetUserData
+: 
 ---
 
 # capSetUserData macro

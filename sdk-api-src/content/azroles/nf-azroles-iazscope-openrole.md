@@ -7,7 +7,7 @@ old-location: security\iazscope_openrole.htm
 tech.root: secauthz
 ms.assetid: 55ec166e-5aad-411d-8cc4-0d789c8397c4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],OpenRole method, IAzScope interface [Security],OpenRole method, IAzScope.OpenRole, IAzScope::OpenRole, OpenRole, OpenRole method [Security], OpenRole method [Security],AzScope object, OpenRole method [Security],IAzScope interface, azroles/IAzScope::OpenRole, security.iazscope_openrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.OpenRole
+: 
 ---
 
 # IAzScope::OpenRole

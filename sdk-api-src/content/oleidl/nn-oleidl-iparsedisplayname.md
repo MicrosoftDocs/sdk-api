@@ -9,8 +9,8 @@ ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

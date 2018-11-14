@@ -9,8 +9,8 @@ ms.assetid: df9f29d0-8636-4393-8f7e-c9e22f3692f5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMStarterGPOBackupCollection, IGPMStarterGPOBackupCollection, IGPMStarterGPOBackupCollection interface [GPMC], IGPMStarterGPOBackupCollection interface [GPMC],described, gpmc.igpmstartergpobackupcollection, gpmgmt/IGPMStarterGPOBackupCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

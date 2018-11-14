@@ -9,8 +9,8 @@ ms.assetid: ddb8d0b8-e975-4ee2-bb8c-423b1304c467
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_CLOSE_DATABASE_FN, PIBIO_STORAGE_CLOSE_DATABASE_FN callback, StorageAdapterCloseDatabase, StorageAdapterCloseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapterclosedatabase, winbio_adapter/StorageAdapterCloseDatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

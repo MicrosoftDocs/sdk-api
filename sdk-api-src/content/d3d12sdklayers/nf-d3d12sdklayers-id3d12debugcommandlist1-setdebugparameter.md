@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist1_setdebugparameter.htm
 tech.root: direct3d12
 ms.assetid: 8D93895A-BED7-4A86-893B-ACB5FA1B160F
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12DebugCommandList1 interface,SetDebugParameter method, ID3D12DebugCommandList1.SetDebugParameter, ID3D12DebugCommandList1::SetDebugParameter, SetDebugParameter, SetDebugParameter method, SetDebugParameter method,ID3D12DebugCommandList1 interface, d3d12sdklayers/ID3D12DebugCommandList1::SetDebugParameter, direct3d12.id3d12debugcommandlist1_setdebugparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12DebugCommandList1.SetDebugParameter
+: 
 ---
 
 # ID3D12DebugCommandList1::SetDebugParameter
@@ -49,8 +57,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Modifies optional Debug Layer settings of a command list.
 

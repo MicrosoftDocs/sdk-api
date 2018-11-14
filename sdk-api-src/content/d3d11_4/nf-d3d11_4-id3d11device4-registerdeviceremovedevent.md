@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_4.h
+: 
+- ID3D11Device4.RegisterDeviceRemovedEvent
+: 
 ---
 
 # ID3D11Device4::RegisterDeviceRemovedEvent

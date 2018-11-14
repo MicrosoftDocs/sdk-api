@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_ray_flags.htm
 tech.root: direct3d12
 ms.assetid: AD2494F6-AF2E-46E8-9140-2E91BD2BA3EB
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_RAY_FLAGS, D3D12_RAY_FLAGS enumeration, RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH, RAY_FLAG_CULL_BACK_FACING_TRIANGLES, RAY_FLAG_CULL_FRONT_FACING_TRIANGLES, RAY_FLAG_CULL_NON_OPAQUE, RAY_FLAG_CULL_OPAQUE, RAY_FLAG_FORCE_NON_OPAQUE, RAY_FLAG_FORCE_OPAQUE, RAY_FLAG_NONE, RAY_FLAG_SKIP_CLOSEST_HIT_SHADER, d3d12/D3D12_RAY_FLAGS, d3d12/RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH, d3d12/RAY_FLAG_CULL_BACK_FACING_TRIANGLES, d3d12/RAY_FLAG_CULL_FRONT_FACING_TRIANGLES, d3d12/RAY_FLAG_CULL_NON_OPAQUE, d3d12/RAY_FLAG_CULL_OPAQUE, d3d12/RAY_FLAG_FORCE_NON_OPAQUE, d3d12/RAY_FLAG_FORCE_OPAQUE, d3d12/RAY_FLAG_NONE, d3d12/RAY_FLAG_SKIP_CLOSEST_HIT_SHADER, direct3d12.d3d12_ray_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Flags passed to the <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/traceray-function">TraceRay</a> function to override transparency, culling, and early-out behavior.
 

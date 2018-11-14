@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_DevNode_Property_ExW
+: 
 ---
 
 # CM_Get_DevNode_Property_ExW function

@@ -7,7 +7,7 @@ old-location: security\isecurityinformation_setsecurity.htm
 tech.root: secauthz
 ms.assetid: 7c23c5ad-8088-4cfb-9746-99d24cc3bd0e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, ISecurityInformation interface [Security],SetSecurity method, ISecurityInformation.SetSecurity, ISecurityInformation::SetSecurity, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],ISecurityInformation interface, _win32_isecurityinformation_setsecurity, aclui/ISecurityInformation::SetSecurity, security.isecurityinformation_setsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityInformation.SetSecurity
+: 
 ---
 
 # ISecurityInformation::SetSecurity

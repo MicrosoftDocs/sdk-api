@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- rtmv2.h
+: 
+- RTM_IPV4_MAKE_NET_ADDRESS
+: 
 ---
 
 # RTM_IPV4_MAKE_NET_ADDRESS macro

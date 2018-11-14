@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rtscom.h
+: 
+- IStrokeBuilder.get_Ink
+: 
 ---
 
 # IStrokeBuilder::get_Ink

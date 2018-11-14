@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ILegacyIAccessibleProvider.get_Description
+: 
 ---
 
 # ILegacyIAccessibleProvider::get_Description

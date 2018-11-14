@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPolygon_PointF_points_INT_c
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpolygonmethods\addpolygon_35pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddPolygon, AddPolygon method [GDI+], AddPolygon method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPolygon method, GraphicsPath.AddPolygon, GraphicsPath.AddPolygon(IN const PointF,IN INT), GraphicsPath.AddPolygon(const PointF*,INT), GraphicsPath::AddPolygon, GraphicsPath::AddPolygon(IN const PointF,IN INT), _gdiplus_CLASS_GraphicsPath_AddPolygon_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPolygon_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddPolygon
+: 
 req.product: GDI+ 1.0
 ---
 

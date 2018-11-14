@@ -9,8 +9,8 @@ ms.assetid: 72647FCE-F1B0-4A50-927B-23EE38EEEC8B
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionCompositeEffect, IDCompositionCompositeEffect interface [DirectComposition], IDCompositionCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionCompositeEffect, directcomp.idcompositioncompositeeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

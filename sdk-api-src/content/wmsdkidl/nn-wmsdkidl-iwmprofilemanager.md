@@ -9,8 +9,8 @@ ms.assetid: e5ec945c-4513-48ad-8bef-e0fb54826991
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], IWMProfileManager interface [windows Media Format],described, IWMProfileManagerInterface, wmformat.iwmprofilemanager, wmsdkidl/IWMProfileManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

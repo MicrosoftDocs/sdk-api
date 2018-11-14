@@ -9,8 +9,8 @@ ms.assetid: f193b76f-ca6a-44f5-b097-1570c4527ab4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDVEnc, IDVEnc interface [DirectShow], IDVEnc interface [DirectShow],described, IDVEncInterface, dshow.idvenc, strmif/IDVEnc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

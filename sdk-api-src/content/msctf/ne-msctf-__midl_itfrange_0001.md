@@ -9,8 +9,8 @@ ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enumeration [Text Services Framework], __MIDL_ITfRange_0001, _tsf_tfgravity_ref, msctf/TF_GRAVITY_BACKWARD, msctf/TF_GRAVITY_FORWARD, msctf/TfGravity, tsf.tfgravity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

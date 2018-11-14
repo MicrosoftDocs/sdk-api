@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationTextRange3.GetChildrenBuildCache
+: 
 ---
 
 # IUIAutomationTextRange3::GetChildrenBuildCache

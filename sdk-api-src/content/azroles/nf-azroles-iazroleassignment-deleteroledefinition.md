@@ -7,7 +7,7 @@ old-location: security\iazroleassignment_deleteroledefinition.htm
 tech.root: secauthz
 ms.assetid: 17af80d0-d9b4-4e20-b7a8-72e8dc42b69d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],DeleteRoleDefinition method, IAzRoleAssignment.DeleteRoleDefinition, IAzRoleAssignment::DeleteRoleDefinition, azroles/IAzRoleAssignment::DeleteRoleDefinition, security.iazroleassignment_deleteroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRoleAssignment.DeleteRoleDefinition
+: 
 ---
 
 # IAzRoleAssignment::DeleteRoleDefinition

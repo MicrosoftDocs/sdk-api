@@ -7,7 +7,7 @@ old-location: security\settokeninformation.htm
 tech.root: secauthz
 ms.assetid: cdb8af74-540d-4059-ac64-6243f6aabaa6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win32_settokeninformation, security.settokeninformation, securitybaseapi/SetTokenInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetTokenInformation
+: 
 ---
 
 # SetTokenInformation function

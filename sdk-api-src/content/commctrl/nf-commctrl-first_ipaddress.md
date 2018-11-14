@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- FIRST_IPADDRESS
+: 
 ---
 
 # FIRST_IPADDRESS macro

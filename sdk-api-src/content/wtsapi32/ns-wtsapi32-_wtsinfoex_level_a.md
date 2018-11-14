@@ -9,8 +9,8 @@ ms.assetid: d3df1f40-698b-43ca-808d-0df5550b6eae
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: "*PWTSINFOEX_LEVEL_A, PWTSINFOEX_LEVEL, PWTSINFOEX_LEVEL union pointer [Remote Desktop Services], WTSINFOEX_LEVEL, WTSINFOEX_LEVEL union [Remote Desktop Services], WTSINFOEX_LEVEL_A, WTSINFOEX_LEVEL_W, _WTSINFOEX_LEVEL_A, termserv.wtsinfoex_level, wtsapi32/PWTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL_A, wtsapi32/WTSINFOEX_LEVEL_W"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

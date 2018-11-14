@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetBottom_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbottom.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetBottom, GetBottom method [GDI+], GetBottom method [GDI+],Rect class, Rect class [GDI+],GetBottom method, Rect.GetBottom, Rect::GetBottom, _gdiplus_CLASS_Rect_GetBottom_, gdiplus._gdiplus_CLASS_Rect_GetBottom_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- Rect.GetBottom
+: 
 req.product: GDI+ 1.0
 ---
 

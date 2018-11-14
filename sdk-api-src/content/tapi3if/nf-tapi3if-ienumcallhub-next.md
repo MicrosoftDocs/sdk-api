@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallhub_next.htm
 tech.root: tapi
 ms.assetid: 16469c1c-f12f-4941-9fd4-1413620c89bd
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Next method, IEnumCallHub.Next, IEnumCallHub::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_next, tapi3.ienumcallhub_next, tapi3if/IEnumCallHub::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- IEnumCallHub.Next
+: 
 ---
 
 # IEnumCallHub::Next

@@ -9,8 +9,8 @@ ms.assetid: c84cc4ef-ff47-447e-b216-b704cb02719a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo, tagDiagnosticsInfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ndhelper.h
 req.include-header: 

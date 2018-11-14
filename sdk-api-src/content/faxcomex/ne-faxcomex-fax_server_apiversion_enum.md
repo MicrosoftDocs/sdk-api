@@ -7,10 +7,10 @@ old-location: fax\_mfax_fax_server_apiversion_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0pbh.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: FAX_SERVER_APIVERSION_ENUM, FAX_SERVER_APIVERSION_ENUM enumeration [Fax Service], _mfax_fax_server_apiversion_enum, fax._mfax_fax_server_apiversion_enum, faxcomex/FAX_SERVER_APIVERSION_ENUM, faxcomex/fsAPI_VERSION_0, faxcomex/fsAPI_VERSION_1, faxcomex/fsAPI_VERSION_2, faxcomex/fsAPI_VERSION_3, fsAPI_VERSION_0, fsAPI_VERSION_1, fsAPI_VERSION_2, fsAPI_VERSION_3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

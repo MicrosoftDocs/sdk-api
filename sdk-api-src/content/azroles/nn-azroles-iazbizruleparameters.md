@@ -7,10 +7,10 @@ old-location: security\iazbizruleparameters.htm
 tech.root: secauthz
 ms.assetid: 07eb33be-71a3-42fc-b7f3-12be23746aa3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], IAzBizRuleParameters interface [Security],described, azroles/IAzBizRuleParameters, security.iazbizruleparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

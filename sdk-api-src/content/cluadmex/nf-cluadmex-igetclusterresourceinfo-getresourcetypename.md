@@ -7,7 +7,7 @@ old-location: mscs\igetclusterresourceinfo_getresourcetypename.htm
 tech.root: mscs
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: GetResourceTypeName, GetResourceTypeName method [Failover Cluster], GetResourceTypeName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceTypeName method, IGetClusterResourceInfo.GetResourceTypeName, IGetClusterResourceInfo::GetResourceTypeName, _wolf_igetclusterresourceinfo_getresourcetypename, cluadmex/IGetClusterResourceInfo::GetResourceTypeName, mscs.igetclusterresourceinfo_getresourcetypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cluadmex.h
+: 
+- IGetClusterResourceInfo.GetResourceTypeName
+: 
 ---
 
 # IGetClusterResourceInfo::GetResourceTypeName

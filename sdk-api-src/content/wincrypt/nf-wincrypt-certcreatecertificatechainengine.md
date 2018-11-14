@@ -7,7 +7,7 @@ old-location: security\certcreatecertificatechainengine.htm
 tech.root: seccrypto
 ms.assetid: e173016a-d3d7-42e0-aad8-e738abaf1df9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertCreateCertificateChainEngine, CertCreateCertificateChainEngine function [Security], _crypto2_certcreatecertificatechainengine, security.certcreatecertificatechainengine, wincrypt/CertCreateCertificateChainEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertCreateCertificateChainEngine
+: 
 ---
 
 # CertCreateCertificateChainEngine function

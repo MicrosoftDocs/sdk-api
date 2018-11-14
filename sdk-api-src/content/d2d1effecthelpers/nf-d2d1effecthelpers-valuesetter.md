@@ -7,7 +7,7 @@ old-location: direct2d\valuesetter.htm
 tech.root: direct2d
 ms.assetid: 5137D54E-1BAC-470C-AF16-0FB19DD36A61
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ValueSetter, ValueSetter function [Direct2D], d2d1effecthelpers/ValueSetter, direct2d.valuesetter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ValueSetter
+: 
 ---
 
 # ValueSetter function

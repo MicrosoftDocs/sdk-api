@@ -7,7 +7,7 @@ old-location: base\virtualallocexnuma.htm
 tech.root: memory
 ms.assetid: dcafd557-834e-4fdf-9cb2-aad76109ad92
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAllocExNuma, VirtualAllocExNuma function, base.virtualallocexnuma, winbase/VirtualAllocExNuma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VirtualAllocExNuma
+: 
 ---
 
 # VirtualAllocExNuma function

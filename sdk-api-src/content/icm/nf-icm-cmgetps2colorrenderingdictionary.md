@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CMGetPS2ColorRenderingDictionary
+: 
 ---
 
 # CMGetPS2ColorRenderingDictionary function

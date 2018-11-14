@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionCommand.get_MonitorCommand
+: 
 ---
 
 # IFsrmActionCommand::get_MonitorCommand

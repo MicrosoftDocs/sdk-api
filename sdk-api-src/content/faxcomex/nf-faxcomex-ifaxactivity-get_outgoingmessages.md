@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_outgoingmessages_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6tkj.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxActivity interface [Fax Service],OutgoingMessages property, IFaxActivity.OutgoingMessages, IFaxActivity.get_OutgoingMessages, IFaxActivity::OutgoingMessages, IFaxActivity::get_OutgoingMessages, OutgoingMessages property [Fax Service], OutgoingMessages property [Fax Service],IFaxActivity interface, _mfax_faxactivity.outgoingmessages, fax._mfax_faxactivity_cpp_mfax_faxactivity_outgoingmessages_cpp, fax._mfax_faxactivity_outgoingmessages, faxcomex/IFaxActivity::OutgoingMessages, faxcomex/IFaxActivity::get_OutgoingMessages, get_OutgoingMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxActivity.get_OutgoingMessages
+: 
 ---
 
 # IFaxActivity::get_OutgoingMessages

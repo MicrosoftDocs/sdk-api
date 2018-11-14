@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetbackuplogs.htm
 tech.root: seccrypto
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvBackupGetBackupLogsW
+: 
 ---
 
 # CertSrvBackupGetBackupLogsW function

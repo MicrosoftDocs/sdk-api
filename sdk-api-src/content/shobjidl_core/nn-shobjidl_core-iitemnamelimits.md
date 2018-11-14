@@ -9,8 +9,8 @@ ms.assetid: 2850bdf1-12ea-42cd-a0fb-68491337ae69
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IItemNameLimits, IItemNameLimits interface [Windows Shell], IItemNameLimits interface [Windows Shell],described, _shell_IItemNameLimits, shell.IItemNameLimits, shobjidl_core/IItemNameLimits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

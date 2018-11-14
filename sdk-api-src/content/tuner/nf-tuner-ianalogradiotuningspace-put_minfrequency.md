@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IAnalogRadioTuningSpace.put_MinFrequency
+: 
 ---
 
 # IAnalogRadioTuningSpace::put_MinFrequency

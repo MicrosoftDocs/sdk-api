@@ -7,7 +7,7 @@ old-location: security\iazrole_members.htm
 tech.root: secauthz
 ms.assetid: 03391842-fc8a-4dc2-878e-4fe1c41cc4dd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzRole object [Security],Members property, IAzRole interface [Security],Members property, IAzRole.Members, IAzRole.get_Members, IAzRole::Members, IAzRole::get_Members, Members property [Security], Members property [Security],AzRole object, Members property [Security],IAzRole interface, azroles/IAzRole::Members, azroles/IAzRole::get_Members, get_Members, security.iazrole_members
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.get_Members
+: 
 ---
 
 # IAzRole::get_Members

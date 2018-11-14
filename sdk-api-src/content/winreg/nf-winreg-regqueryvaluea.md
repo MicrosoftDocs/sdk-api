@@ -7,7 +7,7 @@ old-location: base\regqueryvalue.htm
 tech.root: sysinfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegQueryValueA
+: 
 ---
 
 # RegQueryValueA function

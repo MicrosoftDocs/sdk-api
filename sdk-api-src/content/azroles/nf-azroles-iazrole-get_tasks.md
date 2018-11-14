@@ -7,7 +7,7 @@ old-location: security\iazrole_tasks.htm
 tech.root: secauthz
 ms.assetid: 60342e8f-1947-4949-b25e-01db473712ac
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzRole object [Security],Tasks property, IAzRole interface [Security],Tasks property, IAzRole.Tasks, IAzRole.get_Tasks, IAzRole::Tasks, IAzRole::get_Tasks, Tasks property [Security], Tasks property [Security],AzRole object, Tasks property [Security],IAzRole interface, azroles/IAzRole::Tasks, azroles/IAzRole::get_Tasks, get_Tasks, security.iazrole_tasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.get_Tasks
+: 
 ---
 
 # IAzRole::get_Tasks

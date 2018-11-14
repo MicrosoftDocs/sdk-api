@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shldisp.h
+: 
+- IAutoComplete2.GetOptions
+: 
 ---
 
 # IAutoComplete2::GetOptions

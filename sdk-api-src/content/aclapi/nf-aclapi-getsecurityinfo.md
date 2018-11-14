@@ -7,7 +7,7 @@ old-location: security\getsecurityinfo.htm
 tech.root: secauthz
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSecurityInfo
+: 
 ---
 
 # GetSecurityInfo function

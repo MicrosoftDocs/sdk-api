@@ -7,7 +7,7 @@ old-location: mf\mfgetworkqueuemmcssclass.htm
 tech.root: medfound
 ms.assetid: 97b48d18-3844-4b97-9bab-c5fc38eb927e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFGetWorkQueueMMCSSClass function [Media Foundation], mf.mfgetworkqueuemmcssclass, mfapi/MFGetWorkQueueMMCSSClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFGetWorkQueueMMCSSClass
+: 
 ---
 
 # MFGetWorkQueueMMCSSClass function

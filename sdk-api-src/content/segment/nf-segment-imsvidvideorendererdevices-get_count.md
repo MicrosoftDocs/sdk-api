@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidVideoRendererDevices.get_Count
+: 
 ---
 
 # IMSVidVideoRendererDevices::get_Count

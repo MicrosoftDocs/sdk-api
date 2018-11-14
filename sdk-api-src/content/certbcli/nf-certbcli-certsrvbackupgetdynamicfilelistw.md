@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdynamicfilelist.htm
 tech.root: seccrypto
 ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertSrvBackupGetDynamicFileList, CertSrvBackupGetDynamicFileList function [Security], CertSrvBackupGetDynamicFileListW, _certsrv_certsrvbackupgetdynamicfilelist, certbcli/CertSrvBackupGetDynamicFileList, certbcli/CertSrvBackupGetDynamicFileListW, security.certsrvbackupgetdynamicfilelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvBackupGetDynamicFileListW
+: 
 ---
 
 # CertSrvBackupGetDynamicFileListW function

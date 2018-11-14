@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxManifestReader6.GetIsNonQualifiedResourcePackage
+: 
 ---
 
 # IAppxManifestReader6::GetIsNonQualifiedResourcePackage

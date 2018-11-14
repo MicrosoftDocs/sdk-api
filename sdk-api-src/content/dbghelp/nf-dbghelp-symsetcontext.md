@@ -7,7 +7,7 @@ old-location: base\symsetcontext.htm
 tech.root: debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymSetContext
+: 
 ---
 
 # SymSetContext function

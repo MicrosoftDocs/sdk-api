@@ -9,8 +9,8 @@ ms.assetid: ee261c32-aa17-496a-a568-d9da43e1e23a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks],described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC], IInkOverlay interface [Tablet PC],described, msinkaut/IInkOverlay, tablet.iinkoverlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

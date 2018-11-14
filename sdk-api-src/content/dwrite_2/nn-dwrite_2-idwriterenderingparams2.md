@@ -7,10 +7,10 @@ old-location: directwrite\idwriterenderingparams2.htm
 tech.root: DirectWrite
 ms.assetid: 0ABE2EBD-E568-4485-9B38-BA0E1E8FDA6F
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteRenderingParams2, IDWriteRenderingParams2 interface [Direct Write], IDWriteRenderingParams2 interface [Direct Write],described, directwrite.idwriterenderingparams2, dwrite_2/IDWriteRenderingParams2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_2.h
 req.include-header: 

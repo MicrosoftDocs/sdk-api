@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: HueSaturationLightness class [GDI+],SetParameters method, HueSaturationLightness.SetParameters, HueSaturationLightness::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],HueSaturationLightness class, _gdiplus_CLASS_HueSaturationLightness_SetParameters_, gdiplus._gdiplus_CLASS_HueSaturationLightness_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- HueSaturationLightness.SetParameters
+: 
 req.product: GDI+ 1.1
 ---
 

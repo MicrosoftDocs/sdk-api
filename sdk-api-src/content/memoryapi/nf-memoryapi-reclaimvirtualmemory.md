@@ -7,7 +7,7 @@ old-location: base\reclaimvirtualmemory.htm
 tech.root: memory
 ms.assetid: bb0ec5aa-b098-8a3f-67df-864a1672ba8f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: ReclaimVirtualMemory, ReclaimVirtualMemory function, base.reclaimvirtualmemory, winbase/ReclaimVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ReclaimVirtualMemory
+: 
 ---
 
 # ReclaimVirtualMemory function

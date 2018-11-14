@@ -7,7 +7,7 @@ old-location: base\symcompareinlinetrace.htm
 tech.root: debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- SymCompareInlineTrace
+: 
 ---
 
 # SymCompareInlineTrace function

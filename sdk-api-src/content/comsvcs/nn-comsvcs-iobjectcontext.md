@@ -9,8 +9,8 @@ ms.assetid: 9395bc9a-dfe5-428a-839f-1c4ad090f636
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IObjectContext, IObjectContext interface [COM+], IObjectContext interface [COM+],described, _cos_IObjectContext, comsvcs/IObjectContext, cos.iobjectcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

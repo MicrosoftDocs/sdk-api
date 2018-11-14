@@ -7,7 +7,7 @@ old-location: security\addace.htm
 tech.root: secauthz
 ms.assetid: f472d864-a273-49b5-b5e2-98772989971e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddAce
+: 
 ---
 
 # AddAce function

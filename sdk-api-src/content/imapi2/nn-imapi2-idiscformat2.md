@@ -20,8 +20,8 @@ ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], IDiscFormat2 interface [IMAPI],described, imapi.idiscformat2, imapi2/IDiscFormat2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

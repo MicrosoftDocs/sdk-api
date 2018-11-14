@@ -9,8 +9,8 @@ ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
 ms.author: windowssdkdev
 ms.date: 10/22/2018
 ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, tagHHN_NOTIFY, vsconStrhhnnotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

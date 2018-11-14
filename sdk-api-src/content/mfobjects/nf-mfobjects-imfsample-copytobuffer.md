@@ -7,7 +7,7 @@ old-location: mf\imfsample_copytobuffer.htm
 tech.root: medfound
 ms.assetid: c8a23e0a-ed2f-449d-b834-f60f383d0b5e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CopyToBuffer, CopyToBuffer method [Media Foundation], CopyToBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],CopyToBuffer method, IMFSample.CopyToBuffer, IMFSample::CopyToBuffer, c8a23e0a-ed2f-449d-b834-f60f383d0b5e, mf.imfsample_copytobuffer, mfobjects/IMFSample::CopyToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFSample.CopyToBuffer
+: 
 ---
 
 # IMFSample::CopyToBuffer

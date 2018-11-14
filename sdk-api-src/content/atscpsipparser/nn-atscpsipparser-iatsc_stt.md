@@ -9,8 +9,8 @@ ms.assetid: 03e903e0-e722-42c6-b6b7-448fecc379b9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], IATSC_STT interface [Microsoft TV Technologies],described, IATSC_STTInterface, atscpsipparser/IATSC_STT, mstv.iatsc_stt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 

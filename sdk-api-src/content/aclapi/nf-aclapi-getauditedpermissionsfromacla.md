@@ -7,7 +7,7 @@ old-location: security\getauditedpermissionsfromacl.htm
 tech.root: secauthz
 ms.assetid: 4381fe12-5fb3-4f9c-8daa-261cb1a466ec
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetAuditedPermissionsFromAcl, GetAuditedPermissionsFromAcl function [Security], GetAuditedPermissionsFromAclA, GetAuditedPermissionsFromAclW, _win32_getauditedpermissionsfromacl, aclapi/GetAuditedPermissionsFromAcl, aclapi/GetAuditedPermissionsFromAclA, aclapi/GetAuditedPermissionsFromAclW, security.getauditedpermissionsfromacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetAuditedPermissionsFromAclA
+: 
 ---
 
 # GetAuditedPermissionsFromAclA function

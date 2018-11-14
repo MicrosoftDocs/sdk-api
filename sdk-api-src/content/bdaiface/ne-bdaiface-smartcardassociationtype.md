@@ -9,8 +9,8 @@ ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: bdaiface.h
 req.include-header: 

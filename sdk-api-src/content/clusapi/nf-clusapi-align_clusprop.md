@@ -7,7 +7,7 @@ old-location: mscs\align_clusprop.htm
 tech.root: mscs
 ms.assetid: af7c9d39-b76f-494d-af5d-7e0baf0ace2d
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ALIGN_CLUSPROP, ALIGN_CLUSPROP macro [Failover Cluster], _wolf_align_clusprop, clusapi/ALIGN_CLUSPROP, mscs.align_clusprop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- clusapi.h
+: 
+- ALIGN_CLUSPROP
+: 
 ---
 
 # ALIGN_CLUSPROP macro

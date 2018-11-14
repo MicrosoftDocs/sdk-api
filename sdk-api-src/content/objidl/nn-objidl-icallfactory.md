@@ -9,8 +9,8 @@ ms.assetid: 323dc627-3867-4170-b278-0bce46077729
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

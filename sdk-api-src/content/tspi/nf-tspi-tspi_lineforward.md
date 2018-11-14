@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineforward.htm
 tech.root: tapi
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineForward
+: 
 ---
 
 # TSPI_lineForward function

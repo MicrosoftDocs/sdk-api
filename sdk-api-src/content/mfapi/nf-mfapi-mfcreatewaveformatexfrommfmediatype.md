@@ -7,7 +7,7 @@ old-location: mf\mfcreatewaveformatexfrommfmediatype.htm
 tech.root: medfound
 ms.assetid: b124bac2-90de-4358-a079-f509a89c3776
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCreateWaveFormatExFromMFMediaType, MFCreateWaveFormatExFromMFMediaType function [Media Foundation], b124bac2-90de-4358-a079-f509a89c3776, mf.mfcreatewaveformatexfrommfmediatype, mfapi/MFCreateWaveFormatExFromMFMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateWaveFormatExFromMFMediaType
+: 
 ---
 
 # MFCreateWaveFormatExFromMFMediaType function

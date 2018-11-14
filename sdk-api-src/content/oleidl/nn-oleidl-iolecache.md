@@ -9,8 +9,8 @@ ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

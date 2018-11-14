@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- evntrace.h
+: 
+- UpdateTrace
+: 
 ---
 
 # UpdateTrace macro

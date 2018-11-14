@@ -7,10 +7,10 @@ old-location: mf\d3d11_authenticated_query_channel_type_output.htm
 tech.root: medfound
 ms.assetid: B71FAB00-76A6-40D0-97EA-7ECE99833A78
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT, D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT, mf.d3d11_authenticated_query_channel_type_output
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

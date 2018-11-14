@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transfromgraph_getinputcount.htm
 tech.root: direct2d
 ms.assetid: 02CF2DE7-E1FD-4A6D-84FC-FA842EAE14C6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],GetInputCount method, ID2D1TransformGraph.GetInputCount, ID2D1TransformGraph::GetInputCount, d2d1effectauthor/ID2D1TransformGraph::GetInputCount, direct2d.id2d1transfromgraph_getinputcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1TransformGraph.GetInputCount
+: 
 ---
 
 # ID2D1TransformGraph::GetInputCount

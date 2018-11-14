@@ -9,8 +9,8 @@ ms.assetid: f0b8da9f-75ee-418d-8df6-fa0d7c600e62
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IHandlerInfo, IHandlerInfo interface [Windows Shell], IHandlerInfo interface [Windows Shell],described, shell.IHandlerInfo, shobjidl_core/IHandlerInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -7,7 +7,7 @@ old-location: tapi3\itmediacontrol_start.htm
 tech.root: tapi
 ms.assetid: b6fdf0da-9e22-4c77-9cd8-6ceccba81221
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Start method, ITMediaControl.Start, ITMediaControl::Start, Start, Start method [TAPI 2.2], Start method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_start, tapi3.itmediacontrol_start, tapi3if/ITMediaControl::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITMediaControl.Start
+: 
 ---
 
 # ITMediaControl::Start

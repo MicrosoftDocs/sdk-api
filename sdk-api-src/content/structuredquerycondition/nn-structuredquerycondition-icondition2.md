@@ -9,8 +9,8 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\icond
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ICondition2, ICondition2 interface [search], ICondition2 interface [search],described, _search_ICondition2, search._search_ICondition2, structuredquerycondition/ICondition2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquerycondition.h
 req.include-header: 

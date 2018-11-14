@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
+: 
 ---
 
 # IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage

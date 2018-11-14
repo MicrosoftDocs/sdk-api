@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_SignalStatistics.put_SampleTime
+: 
 ---
 
 # IBDA_SignalStatistics::put_SampleTime

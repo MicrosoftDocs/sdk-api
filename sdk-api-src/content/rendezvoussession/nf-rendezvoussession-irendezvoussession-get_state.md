@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rendezvoussession.h
+: 
+- IRendezvousSession.get_State
+: 
 ---
 
 # IRendezvousSession::get_State

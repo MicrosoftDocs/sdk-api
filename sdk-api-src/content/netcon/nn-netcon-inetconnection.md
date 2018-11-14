@@ -9,8 +9,8 @@ ms.assetid: 7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetConnection, INetConnection interface [ICS/ICF], INetConnection interface [ICS/ICF],described, _ics_inetconnection, ics.inetconnection, netcon/INetConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

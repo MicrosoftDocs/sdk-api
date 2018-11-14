@@ -7,7 +7,7 @@ old-location: security\areallaccessesgranted.htm
 tech.root: secauthz
 ms.assetid: 91349693-8667-49dd-a813-657497b7d467
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AreAllAccessesGranted, AreAllAccessesGranted function [Security], _win32_areallaccessesgranted, security.areallaccessesgranted, securitybaseapi/AreAllAccessesGranted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AreAllAccessesGranted
+: 
 ---
 
 # AreAllAccessesGranted function

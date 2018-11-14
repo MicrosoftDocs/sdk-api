@@ -7,10 +7,10 @@ old-location: security\iazclientcontext2.htm
 tech.root: secauthz
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], IAzClientContext2 interface [Security],described, azroles/IAzClientContext2, security.iazclientcontext2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

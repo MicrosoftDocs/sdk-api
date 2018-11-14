@@ -9,8 +9,8 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\iuiimage.ht
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIImage, IUIImage interface [Windows Ribbon], IUIImage interface [Windows Ribbon],described, scenicintent_IUIImage, uiribbon/IUIImage, windowsribbon.windowsribbon_iuiimage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

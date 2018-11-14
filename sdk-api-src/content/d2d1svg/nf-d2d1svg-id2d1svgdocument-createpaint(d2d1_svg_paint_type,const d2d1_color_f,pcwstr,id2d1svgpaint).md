@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_createpaint.htm
 tech.root: direct2d
 ms.assetid: 8AB14D87-4745-409A-A5F4-885E322698B1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreatePaint, CreatePaint method [Direct2D], CreatePaint method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePaint method, ID2D1SvgDocument.CreatePaint, ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F,PCWSTR,ID2D1SvgPaint), ID2D1SvgDocument::CreatePaint, ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F,PCWSTR,ID2D1SvgPaint), d2d1svg/ID2D1SvgDocument::CreatePaint, direct2d.id2d1svgdocument_createpaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1svg.h
+: 
+- ID2D1SvgDocument.CreatePaint
+: 
 ---
 
 # ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F,PCWSTR,ID2D1SvgPaint)

@@ -9,8 +9,8 @@ ms.assetid: CFC855E8-25C9-45A1-8D59-55AD5D4A75F3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PWSMAN_SHELL_DISCONNECT_INFO, PWSMAN_SHELL_DISCONNECT_INFO structure pointer [Windows Remote Management], WSMAN_SHELL_DISCONNECT_INFO, WSMAN_SHELL_DISCONNECT_INFO structure [Windows Remote Management], _WSMAN_SHELL_DISCONNECT_INFO, winrm.wsman_shell_disconnect_info, wsman/PWSMAN_SHELL_DISCONNECT_INFO, wsman/WSMAN_SHELL_DISCONNECT_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

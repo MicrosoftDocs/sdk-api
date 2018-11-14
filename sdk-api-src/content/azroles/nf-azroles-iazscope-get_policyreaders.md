@@ -7,7 +7,7 @@ old-location: security\iazscope_policyreaders.htm
 tech.root: secauthz
 ms.assetid: 7576997c-a585-4f0d-bec5-c616d39633f9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],PolicyReaders property, IAzScope interface [Security],PolicyReaders property, IAzScope.PolicyReaders, IAzScope.get_PolicyReaders, IAzScope::PolicyReaders, IAzScope::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzScope object, PolicyReaders property [Security],IAzScope interface, azroles/IAzScope::PolicyReaders, azroles/IAzScope::get_PolicyReaders, get_PolicyReaders, security.iazscope_policyreaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.get_PolicyReaders
+: 
 ---
 
 # IAzScope::get_PolicyReaders

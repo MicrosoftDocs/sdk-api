@@ -9,8 +9,8 @@ ms.assetid: 611b43dc-7f6d-404e-90a4-b109b9475fb6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetShowConfig interface [DirectShow],described, IAMNetShowConfigInterface, dshow.iamnetshowconfig, qnetwork/IAMNetShowConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

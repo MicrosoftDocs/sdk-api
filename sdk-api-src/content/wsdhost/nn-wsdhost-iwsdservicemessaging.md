@@ -9,8 +9,8 @@ ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

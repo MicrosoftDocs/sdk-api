@@ -9,8 +9,8 @@ ms.assetid: fb2b8863-c476-4997-915d-329cf66fd945
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IColumnData, IColumnData interface [MMC], IColumnData interface [MMC],described, _slate_icolumndata, mmc.icolumndata, mmc/IColumnData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 02a63a3c-5c9b-485f-bd52-a97c40cb83d1
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: EVT_EXPORTLOG_FLAGS, EVT_EXPORTLOG_FLAGS enumeration [EventLog], EvtExportLogChannelPath, EvtExportLogFilePath, EvtExportLogTolerateQueryErrors, _EVT_EXPORTLOG_FLAGS, wes.evt_exportlog_flags, winevt/EVT_EXPORTLOG_FLAGS, winevt/EvtExportLogChannelPath, winevt/EvtExportLogFilePath, winevt/EvtExportLogTolerateQueryErrors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 5a7d6e06-712b-4b18-baad-f4166163c50f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: INamedPropertyBag, INamedPropertyBag interface [Windows Shell], INamedPropertyBag interface [Windows Shell],described, _shell_INamedPropertyBag, shell.INamedPropertyBag, shlobj_core/INamedPropertyBag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 

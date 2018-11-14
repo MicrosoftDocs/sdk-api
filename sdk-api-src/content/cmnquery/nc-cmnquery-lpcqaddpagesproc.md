@@ -9,8 +9,8 @@ ms.assetid: 2b62c1aa-ace7-4083-8eb3-7c5c499762c9
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 

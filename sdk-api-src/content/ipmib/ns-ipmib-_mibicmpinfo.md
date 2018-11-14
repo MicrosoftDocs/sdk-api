@@ -9,8 +9,8 @@ ms.assetid: 547da10e-3490-44d2-9142-0caed041503b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MIBICMPINFO, MIBICMPINFO structure [MIB], _MIBICMPINFO, _mpr_mibicmpinfo, ipmib/MIBICMPINFO, iprtrmib/MIBICMPINFO, mib.mibicmpinfo, rras.mibicmpinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

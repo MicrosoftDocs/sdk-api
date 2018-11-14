@@ -9,8 +9,8 @@ ms.assetid: a7134395-91c6-4ea1-8b76-63830048289f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IValueMap, IValueMap interface [PLA], IValueMap interface [PLA],described, base.ivaluemap, pla.ivaluemap, pla/IValueMap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

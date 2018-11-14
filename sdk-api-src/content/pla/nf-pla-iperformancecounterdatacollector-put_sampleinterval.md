@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IPerformanceCounterDataCollector.put_SampleInterval
+: 
 ---
 
 # IPerformanceCounterDataCollector::put_SampleInterval

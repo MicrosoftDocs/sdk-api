@@ -9,8 +9,8 @@ ms.assetid: e9a0d1a3-70c9-4816-8cd4-f2574392953e
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], ITfFnPlayBack interface [Text Services Framework],described, _tsf_itffnplayback_ref, ctffunc/ITfFnPlayBack, tsf.itffnplayback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

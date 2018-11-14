@@ -7,7 +7,7 @@ old-location: security\iazapplication_authzinterfaceclsid.htm
 tech.root: secauthz
 ms.assetid: d3dddd9c-a715-4697-bcca-ba12cead3b61
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid property [Security],AzApplication object, AuthzInterfaceClsid property [Security],IAzApplication interface, AzApplication object [Security],AuthzInterfaceClsid property, IAzApplication interface [Security],AuthzInterfaceClsid property, IAzApplication.AuthzInterfaceClsid, IAzApplication.get_AuthzInterfaceClsid, IAzApplication::AuthzInterfaceClsid, IAzApplication::get_AuthzInterfaceClsid, IAzApplication::put_AuthzInterfaceClsid, azroles/IAzApplication::AuthzInterfaceClsid, azroles/IAzApplication::get_AuthzInterfaceClsid, azroles/IAzApplication::put_AuthzInterfaceClsid, get_AuthzInterfaceClsid, security.iazapplication_authzinterfaceclsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.get_AuthzInterfaceClsid
+: 
 ---
 
 # IAzApplication::get_AuthzInterfaceClsid

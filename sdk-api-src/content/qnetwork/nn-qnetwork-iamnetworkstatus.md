@@ -9,8 +9,8 @@ ms.assetid: 51d56b76-f9fc-44e1-88f0-d35d861a4697
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

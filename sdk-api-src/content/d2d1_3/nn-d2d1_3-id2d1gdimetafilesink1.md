@@ -7,10 +7,10 @@ old-location: direct2d\id2d1gdimetafilesink1.htm
 tech.root: direct2d
 ms.assetid: 7772034c-0dfe-6c9b-99bb-6222a5517524
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1GdiMetafileSink1, ID2D1GdiMetafileSink1 interface [Direct2D], ID2D1GdiMetafileSink1 interface [Direct2D],described, d2d1_3/ID2D1GdiMetafileSink1, direct2d.id2d1gdimetafilesink1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

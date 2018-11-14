@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- STROBJ_dwGetCodePage
+: 
 ---
 
 # STROBJ_dwGetCodePage function

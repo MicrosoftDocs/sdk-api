@@ -9,8 +9,8 @@ ms.assetid: 58d9b83c-a528-4b39-b08d-a0fb8c1aece8
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], IDiscFormat2RawCD interface [IMAPI],described, imapi.idiscformat2rawcd, imapi2/IDiscFormat2RawCD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

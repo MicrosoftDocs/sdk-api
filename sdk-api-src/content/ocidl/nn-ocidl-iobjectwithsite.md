@@ -9,8 +9,8 @@ ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

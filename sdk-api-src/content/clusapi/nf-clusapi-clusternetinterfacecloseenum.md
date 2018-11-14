@@ -7,7 +7,7 @@ old-location: mscs\clusternetinterfacecloseenum.htm
 tech.root: mscs
 ms.assetid: da7819b5-0f18-44e3-83e7-f6d5ccbc0de6
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterNetInterfaceCloseEnum, ClusterNetInterfaceCloseEnum function [Failover Cluster], clusapi/ClusterNetInterfaceCloseEnum, mscs.clusternetinterfacecloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterNetInterfaceCloseEnum
+: 
 ---
 
 # ClusterNetInterfaceCloseEnum function

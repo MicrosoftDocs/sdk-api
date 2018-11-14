@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement5.get_CurrentLandmarkType
+: 
 ---
 
 # IUIAutomationElement5::get_CurrentLandmarkType

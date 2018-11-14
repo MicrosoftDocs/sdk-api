@@ -9,8 +9,8 @@ ms.assetid: 572bb9b7-a33d-4323-9363-abb43d9411e6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CONFIRM_CONFLICT_RESULT_INFO, CONFIRM_CONFLICT_RESULT_INFO structure [Windows Shell], _shell_CONFIRM_CONFLICT_RESULT_INFO, shell.CONFIRM_CONFLICT_RESULT_INFO, syncmgr/CONFIRM_CONFLICT_RESULT_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: syncmgr.h
 req.include-header: 

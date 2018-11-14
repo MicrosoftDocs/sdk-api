@@ -9,8 +9,8 @@ ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PNET_ADDRESS_INFO, NET_ADDRESS_INFO, NET_ADDRESS_INFO structure [IP Helper], NET_ADDRESS_INFO_, PNET_ADDRESS_INFO, PNET_ADDRESS_INFO structure pointer [IP Helper], iphlp.net_address_info, iphlpapi/NET_ADDRESS_INFO, iphlpapi/PNET_ADDRESS_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iphlpapi.h
 req.include-header: 

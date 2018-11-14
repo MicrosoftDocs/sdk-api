@@ -7,7 +7,7 @@ old-location: security\ienroll4_mystorenamewstr.htm
 tech.root: seccrypto
 ms.assetid: 077bc593-0071-4f41-8d07-141c9959b6ed
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll.put_MyStoreNameWStr, IEnroll::MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security],IEnroll interface, put_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.put_MyStoreNameWStr
+: 
 ---
 
 # IEnroll::put_MyStoreNameWStr

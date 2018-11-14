@@ -7,7 +7,7 @@ old-location: security\authzaddsidstocontext.htm
 tech.root: secauthz
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzAddSidsToContext, AuthzAddSidsToContext function [Security], _win32_authzaddsidstocontext, authz/AuthzAddSidsToContext, security.authzaddsidstocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzAddSidsToContext
+: 
 ---
 
 # AuthzAddSidsToContext function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- GET_XBUTTON_WPARAM
+: 
 ---
 
 # GET_XBUTTON_WPARAM macro

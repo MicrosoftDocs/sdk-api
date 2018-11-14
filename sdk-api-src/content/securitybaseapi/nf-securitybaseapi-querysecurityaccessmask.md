@@ -7,7 +7,7 @@ old-location: security\querysecurityaccessmask.htm
 tech.root: secauthz
 ms.assetid: 70379640-28b7-4503-9ba8-789786078d4a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security], security.querysecurityaccessmask, securitybaseapi/QuerySecurityAccessMask, winbase/QuerySecurityAccessMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- QuerySecurityAccessMask
+: 
 ---
 
 # QuerySecurityAccessMask function

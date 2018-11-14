@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_registervideomemorybudgetchangenotifica
 tech.root: direct3ddxgi
 ms.assetid: 58ACCDE6-CB33-4BCE-9B15-84F60AC7B905
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],RegisterVideoMemoryBudgetChangeNotificationEvent method, IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent, IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent, RegisterVideoMemoryBudgetChangeNotificationEvent, RegisterVideoMemoryBudgetChangeNotificationEvent method [DXGI], RegisterVideoMemoryBudgetChangeNotificationEvent method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_registervideomemorybudgetchangenotificationevent, dxgi1_4/IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_4.h
+: 
+- IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent
+: 
 ---
 
 # IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent

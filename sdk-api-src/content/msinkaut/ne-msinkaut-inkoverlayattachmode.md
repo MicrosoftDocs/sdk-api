@@ -9,8 +9,8 @@ ms.assetid: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0, IOAM_Behind, IOAM_InFront, InkOverlayAttachMode, InkOverlayAttachMode enumeration [Tablet PC], msinkaut/IOAM_Behind, msinkaut/IOAM_InFront, msinkaut/InkOverlayAttachMode, tablet.inkoverlayattachmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

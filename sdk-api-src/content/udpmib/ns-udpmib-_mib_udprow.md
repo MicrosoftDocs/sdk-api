@@ -9,8 +9,8 @@ ms.assetid: db366802-962f-4e83-838e-1e2f51beab92
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDPROW, MIB_UDPROW, MIB_UDPROW structure [MIB], PMIB_UDPROW, PMIB_UDPROW structure pointer [MIB], _MIB_UDPROW, _mpr_mib_udprow, iprtrmib/MIB_UDPROW, iprtrmib/PMIB_UDPROW, mib.mib_udprow, rras.mib_udprow, udpmib/MIB_UDPROW, udpmib/PMIB_UDPROW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

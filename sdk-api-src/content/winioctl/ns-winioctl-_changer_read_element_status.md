@@ -9,8 +9,8 @@ ms.assetid: 4eefc457-ba39-4025-98c8-21f599a87fcb
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer, _CHANGER_READ_ELEMENT_STATUS, _win32_changer_read_element_status_str, base.changer_read_element_status_str, winioctl/CHANGER_READ_ELEMENT_STATUS, winioctl/PCHANGER_READ_ELEMENT_STATUS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

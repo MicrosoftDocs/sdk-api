@@ -7,7 +7,7 @@ old-location: multimedia\mixergetlinecontrols.htm
 tech.root: Multimedia
 ms.assetid: 48fa3396-f3ec-411a-9ea7-d7e82d606f14
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mixerGetLineControls, mixerGetLineControls, mixerGetLineControls function [Windows Multimedia], mixerGetLineControlsA, mixerGetLineControlsW, mmeapi/mixerGetLineControls, mmeapi/mixerGetLineControlsA, mmeapi/mixerGetLineControlsW, multimedia.mixergetlinecontrols"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mixerGetLineControlsA
+: 
 ---
 
 # mixerGetLineControlsA function

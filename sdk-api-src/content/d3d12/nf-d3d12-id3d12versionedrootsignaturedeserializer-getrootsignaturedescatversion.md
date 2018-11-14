@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getrootsignatu
 tech.root: direct3d12
 ms.assetid: 50EB9AC8-D13D-41D3-9E16-AC9871095A72
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetRootSignatureDescAtVersion, GetRootSignatureDescAtVersion method, GetRootSignatureDescAtVersion method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetRootSignatureDescAtVersion method, ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion, ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion, d3d12/ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion, direct3d12.id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion
+: 
 ---
 
 # ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion

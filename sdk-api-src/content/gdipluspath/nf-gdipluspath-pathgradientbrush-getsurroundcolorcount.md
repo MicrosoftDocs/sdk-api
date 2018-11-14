@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolorcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetSurroundColorCount, GetSurroundColorCount method [GDI+], GetSurroundColorCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetSurroundColorCount method, PathGradientBrush.GetSurroundColorCount, PathGradientBrush::GetSurroundColorCount, _gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- PathGradientBrush.GetSurroundColorCount
+: 
 req.product: GDI+ 1.0
 ---
 

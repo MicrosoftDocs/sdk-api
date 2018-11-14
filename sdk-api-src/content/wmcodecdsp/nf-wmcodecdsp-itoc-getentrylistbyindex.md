@@ -7,7 +7,7 @@ old-location: mf\itoc_getentrylistbyindex.htm
 tech.root: medfound
 ms.assetid: 5c457eb4-3034-40e3-93b6-e421c2e34bcf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetEntryListByIndex, GetEntryListByIndex method [Media Foundation], GetEntryListByIndex method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetEntryListByIndex method, IToc.GetEntryListByIndex, IToc::GetEntryListByIndex, codecapi.itoc_getentrylistbyindex, mf.itoc_getentrylistbyindex, wmcodecdsp/IToc::GetEntryListByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcodecdsp.h
+: 
+- IToc.GetEntryListByIndex
+: 
 ---
 
 # IToc::GetEntryListByIndex

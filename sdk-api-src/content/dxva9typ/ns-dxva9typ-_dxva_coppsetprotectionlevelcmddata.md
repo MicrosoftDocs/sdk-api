@@ -9,8 +9,8 @@ ms.assetid: 19810f8f-2d23-4b01-864d-86ac82d40fe0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [DirectShow], DXVA_COPPSetProtectionLevelCmdDataStructure, _DXVA_COPPSetProtectionLevelCmdData, dshow.dxva_coppsetprotectionlevelcmddata, dxva9typ/DXVA_COPPSetProtectionLevelCmdData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

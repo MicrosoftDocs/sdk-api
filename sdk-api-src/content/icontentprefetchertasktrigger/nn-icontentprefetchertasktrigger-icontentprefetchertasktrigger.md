@@ -9,8 +9,8 @@ ms.assetid: 5DB67142-4B8F-4B88-A77F-B69F48E75839
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IContentPrefetcherTaskTrigger, IContentPrefetcherTaskTrigger interface [Web Services for Windows], IContentPrefetcherTaskTrigger interface [Web Services for Windows],described, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger, wsw.icontentprefetchertasktrigger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 

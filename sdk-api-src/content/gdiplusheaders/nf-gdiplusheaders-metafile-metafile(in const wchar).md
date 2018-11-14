@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_filename_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_24filename.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR), Metafile.Metafile(const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_filename_, gdiplus._gdiplus_CLASS_Metafile_Metafile_filename_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Metafile.Metafile
+: 
 req.product: GDI+ 1.0
 ---
 

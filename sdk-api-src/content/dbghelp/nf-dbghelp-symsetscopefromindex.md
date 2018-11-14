@@ -7,7 +7,7 @@ old-location: base\symsetscopefromindex.htm
 tech.root: debug
 ms.assetid: 06792478-35e2-4f05-85c9-910909fe65cd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymSetScopeFromIndex, SymSetScopeFromIndex function, base.symsetscopefromindex, dbghelp/SymSetScopeFromIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later
+- apiref
+: 
+- 
+: 
+- SymSetScopeFromIndex
+: 
 ---
 
 # SymSetScopeFromIndex function

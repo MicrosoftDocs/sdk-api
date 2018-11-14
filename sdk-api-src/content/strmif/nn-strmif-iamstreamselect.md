@@ -9,8 +9,8 @@ ms.assetid: a305e91e-f506-4bd1-b4d4-7361df89e158
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

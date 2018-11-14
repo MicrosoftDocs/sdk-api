@@ -9,8 +9,8 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_4s85.htm
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: DBCONTENTSCOPE, DBCONTENTSCOPE structure [Indexing Service], _idxs_DBCONTENTSCOPE, cmdtree/DBCONTENTSCOPE, indexsrv.dbcontentscope, tagDBCONTENTSCOPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_directionalblur_prop.htm
 tech.root: direct2d
 ms.assetid: BEC82079-543E-4675-84DD-0DE7D852866E
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_DIRECTIONALBLUR_PROP, D2D1_DIRECTIONALBLUR_PROP enumeration [Direct2D], D2D1_DIRECTIONALBLUR_PROP_ANGLE, D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE, D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION, D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, d2d1effects/D2D1_DIRECTIONALBLUR_PROP, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_ANGLE, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, direct2d.d2d1_directionalblur_prop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

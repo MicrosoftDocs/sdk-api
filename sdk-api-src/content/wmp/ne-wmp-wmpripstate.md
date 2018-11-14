@@ -9,8 +9,8 @@ ms.assetid: bd62cae1-3f63-4355-afc7-e429a444189d
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMPRipState, WMPRipState enumeration [Windows Media Player], wmp.wmpripstate, wmp/WMPRipState, wmp/wmprsRipping, wmp/wmprsStopped, wmp/wmprsUnknown, wmprsRipping, wmprsStopped, wmprsUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 

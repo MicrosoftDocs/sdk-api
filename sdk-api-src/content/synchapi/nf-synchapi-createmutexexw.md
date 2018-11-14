@@ -7,7 +7,7 @@ old-location: base\createmutexex.htm
 tech.root: sync
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateMutexExW
+: 
 ---
 
 # CreateMutexExW function

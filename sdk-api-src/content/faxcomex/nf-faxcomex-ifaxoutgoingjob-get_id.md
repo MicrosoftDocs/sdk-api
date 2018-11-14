@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62ec.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Id property, IFaxOutgoingJob.Id, IFaxOutgoingJob.get_Id, IFaxOutgoingJob::Id, IFaxOutgoingJob::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.id, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp, fax._mfax_faxoutgoingjob_id, faxcomex/IFaxOutgoingJob::Id, faxcomex/IFaxOutgoingJob::get_Id, get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingJob.get_Id
+: 
 ---
 
 # IFaxOutgoingJob::get_Id

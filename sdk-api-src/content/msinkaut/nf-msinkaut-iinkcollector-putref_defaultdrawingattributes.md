@@ -52,6 +52,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkCollector.putref_DefaultDrawingAttributes
+: 
 ---
 
 # IInkCollector::putref_DefaultDrawingAttributes

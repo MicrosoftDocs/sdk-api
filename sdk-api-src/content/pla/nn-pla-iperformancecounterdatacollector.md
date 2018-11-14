@@ -9,8 +9,8 @@ ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA],described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

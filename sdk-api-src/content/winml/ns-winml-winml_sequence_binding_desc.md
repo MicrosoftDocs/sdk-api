@@ -9,8 +9,8 @@ ms.assetid: 6662327D-4BB9-40CB-869C-7BB1ADCB2D1C
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: MachineLearning.winml_sequence_binding_desc, PWINML_SEQUENCE_BINDING_DESC, PWINML_SEQUENCE_BINDING_DESC structure pointer, WINML_SEQUENCE_BINDING_DESC, WINML_SEQUENCE_BINDING_DESC structure, winml/PWINML_SEQUENCE_BINDING_DESC, winml/WINML_SEQUENCE_BINDING_DESC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

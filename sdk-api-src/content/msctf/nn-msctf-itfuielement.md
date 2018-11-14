@@ -9,8 +9,8 @@ ms.assetid: 651c3ca1-5e5b-4978-80d2-2183bd158610
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfUIElement, ITfUIElement interface [Text Services Framework], ITfUIElement interface [Text Services Framework],described, _tsf_itfuielement_ref, msctf/ITfUIElement, tsf.itfuielement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

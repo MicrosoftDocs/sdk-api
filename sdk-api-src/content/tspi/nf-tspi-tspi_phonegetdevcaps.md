@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegetdevcaps.htm
 tech.root: tapi
 ms.assetid: d929ed39-ba1d-4eae-9667-86d904ba96a8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_phoneGetDevCaps, TSPI_phoneGetDevCaps function [TAPI 2.2], _tspi_tspi_phonegetdevcaps, tspi.tspi_phonegetdevcaps, tspi/TSPI_phoneGetDevCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_phoneGetDevCaps
+: 
 ---
 
 # TSPI_phoneGetDevCaps function

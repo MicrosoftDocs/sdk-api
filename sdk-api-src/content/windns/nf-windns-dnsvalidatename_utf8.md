@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsValidateName_UTF8
+: 
 ---
 
 # DnsValidateName_UTF8 function

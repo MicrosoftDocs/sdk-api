@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_GRADIENT_STOP.htm
 tech.root: direct2d
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

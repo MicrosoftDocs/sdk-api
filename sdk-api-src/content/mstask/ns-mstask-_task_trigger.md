@@ -9,8 +9,8 @@ ms.assetid: b4716e32-7c7a-40ab-baa1-4c7ebafc3d71
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _TASK_TRIGGER, _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 

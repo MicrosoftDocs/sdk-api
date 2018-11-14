@@ -9,8 +9,8 @@ ms.assetid: 00627b0c-4484-417a-8680-0fd97aac41fe
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], IWMIndexer interface [windows Media Format],described, IWMIndexerInterface, wmformat.iwmindexer, wmsdkidl/IWMIndexer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

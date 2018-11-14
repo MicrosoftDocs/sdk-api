@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DAD_DragMove
+: 
 ---
 
 # DAD_DragMove function

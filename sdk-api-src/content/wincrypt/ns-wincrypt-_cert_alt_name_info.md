@@ -7,10 +7,10 @@ old-location: security\cert_alt_name_info.htm
 tech.root: seccrypto
 ms.assetid: f9a20827-3333-4ce2-b074-2e8ce903fad2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO structure [Security], PCERT_ALT_NAME_INFO, PCERT_ALT_NAME_INFO structure pointer [Security], _CERT_ALT_NAME_INFO, _crypto2_cert_alt_name_info, security.cert_alt_name_info, wincrypt/CERT_ALT_NAME_INFO, wincrypt/PCERT_ALT_NAME_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

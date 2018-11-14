@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Inflate, Inflate methods [GDI+], RectF.Inflate, RectF.Inflate(IN const PointF &), RectF::Inflate, RectF::Inflate(IN const PointF &), _gdiplus_CLASS_RectF_Inflate_Methods, gdiplus._gdiplus_CLASS_RectF_Inflate_Methods, gdiplustypes/Inflate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- RectF.Inflate
+: 
 ---
 
 # RectF::Inflate(IN const PointF &)

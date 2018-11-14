@@ -9,8 +9,8 @@ ms.assetid: c8bbb677-2666-4900-8fb9-788742eef656
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], ICreateTypeInfo interface [Automation],described, _oa96_ICreateTypeInfo_Interface, automat.icreatetypeinfo, oaidl/ICreateTypeInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

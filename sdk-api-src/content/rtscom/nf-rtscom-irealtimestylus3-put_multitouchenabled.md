@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rtscom.h
+: 
+- IRealTimeStylus3.put_MultiTouchEnabled
+: 
 ---
 
 # IRealTimeStylus3::put_MultiTouchEnabled

@@ -9,8 +9,8 @@ ms.assetid: 7855fcf7-e82e-4d74-a29a-99ef86b59637
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], IInvalidProductLicenseException interface [Windows Update Agent],described, wua.iinvalidproductlicenseexception, wuapi/IInvalidProductLicenseException
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

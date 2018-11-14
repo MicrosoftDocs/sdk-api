@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Module32FirstW
+: 
 ---
 
 # Module32FirstW function

@@ -9,8 +9,8 @@ ms.assetid: 6a917b7d-b91d-478a-b84e-7586d743522a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [Monitor Configuration], MC_WIDTH, _MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_HEIGHT, highlevelmonitorconfigurationapi/MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_WIDTH, monitor.mc_size_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

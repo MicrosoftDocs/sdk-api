@@ -9,8 +9,8 @@ ms.assetid: a153d88f-4c7e-45fd-9cd8-497160711de4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface [PLA],described, base.idatamanager, pla.idatamanager, pla/IDataManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

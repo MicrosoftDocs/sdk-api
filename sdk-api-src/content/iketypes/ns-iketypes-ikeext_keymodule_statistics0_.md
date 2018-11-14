@@ -9,8 +9,8 @@ ms.assetid: 87dca500-bf57-463a-a6de-db270430ae29
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS0, IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering], IKEEXT_KEYMODULE_STATISTICS0_, fwp.ikeext_keymodule_statistics0, iketypes/IKEEXT_KEYMODULE_STATISTICS0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

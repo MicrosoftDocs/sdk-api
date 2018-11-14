@@ -7,10 +7,10 @@ old-location: mf\mfwaveformatexconvertflags.htm
 tech.root: medfound
 ms.assetid: cd4a54f3-58e5-4e39-8615-e5037972c9c4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFWaveFormatExConvertFlag_ForceExtensible, MFWaveFormatExConvertFlag_Normal, MFWaveFormatExConvertFlags, MFWaveFormatExConvertFlags enumeration [Media Foundation], _MFWaveFormatExConvertFlags, cd4a54f3-58e5-4e39-8615-e5037972c9c4, mf.mfwaveformatexconvertflags, mfapi/MFWaveFormatExConvertFlag_ForceExtensible, mfapi/MFWaveFormatExConvertFlag_Normal, mfapi/MFWaveFormatExConvertFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

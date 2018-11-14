@@ -7,7 +7,7 @@ old-location: tspi\tspi_linemonitordigits.htm
 tech.root: tapi
 ms.assetid: 3153eb0e-32e9-40bf-b6aa-de594f6edbf6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineMonitorDigits, TSPI_lineMonitorDigits function [TAPI 2.2], _tspi_tspi_linemonitordigits, tspi.tspi_linemonitordigits, tspi/TSPI_lineMonitorDigits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineMonitorDigits
+: 
 ---
 
 # TSPI_lineMonitorDigits function

@@ -7,7 +7,7 @@ old-location: security\iazscope_name.htm
 tech.root: secauthz
 ms.assetid: 66c5722a-5217-4e77-b14f-f9cfa4e030c0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],Name property, IAzScope interface [Security],Name property, IAzScope.Name, IAzScope.put_Name, IAzScope::Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security],AzScope object, Name property [Security],IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, put_Name, security.iazscope_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.put_Name
+: 
 ---
 
 # IAzScope::put_Name

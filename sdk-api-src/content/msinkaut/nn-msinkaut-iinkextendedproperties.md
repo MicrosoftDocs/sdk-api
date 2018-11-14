@@ -9,8 +9,8 @@ ms.assetid: c7b7f40f-0c28-4848-83d6-d5db73eef998
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], IInkExtendedProperties interface [Tablet PC],described, c7b7f40f-0c28-4848-83d6-d5db73eef998, msinkaut/IInkExtendedProperties, tablet.iinkextendedproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTEN2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMUBYTEN2, XMUBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN2, dxmath.xmubyten2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

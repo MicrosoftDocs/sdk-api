@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstr
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: TASKDIALOG_BUTTON, TASKDIALOG_BUTTON structure [Windows Controls], _TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON_cpp, commctrl/TASKDIALOG_BUTTON, controls.TASKDIALOG_BUTTON, controls._shell_TASKDIALOG_BUTTON
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

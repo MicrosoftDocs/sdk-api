@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPMOUSEMOVEPOINT, *PMOUSEMOVEPOINT, MOUSEMOVEPOINT, MOUSEMOVEPOINT structure [Keyboard and Mouse Input], PMOUSEMOVEPOINT, PMOUSEMOVEPOINT structure pointer [Keyboard and Mouse Input], _win32_MOUSEMOVEPOINT_str, _win32_mousemovepoint_str_cpp, inputdev.mousemovepoint, tagMOUSEMOVEPOINT, winui._win32_mousemovepoint_str, winuser/MOUSEMOVEPOINT, winuser/PMOUSEMOVEPOINT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

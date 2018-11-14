@@ -9,8 +9,8 @@ ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

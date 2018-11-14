@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionDevice3.CreateTurbulenceEffect
+: 
 ---
 
 # IDCompositionDevice3::CreateTurbulenceEffect

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\callbackfunctions\lvgroupcompare.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: LVGroupCompare, PFNLVGROUPCOMPARE, PFNLVGROUPCOMPARE callback, PFNLVGROUPCOMPARE callback function [Windows Controls], _win32_LVGroupCompare, _win32_LVGroupCompare_cpp, commctrl/PFNLVGROUPCOMPARE, controls.LVGroupCompare, controls._win32_LVGroupCompare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 1097fa4c-d81d-4268-8492-c0d9f4888733
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], IRegisterServiceProvider interface [DirectShow],described, IRegisterServiceProviderInterface, dshow.iregisterserviceprovider, strmif/IRegisterServiceProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

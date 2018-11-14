@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- gai_strerrorA
+: 
 ---
 
 # gai_strerrorA function

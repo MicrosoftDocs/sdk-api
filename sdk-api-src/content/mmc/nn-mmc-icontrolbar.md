@@ -9,8 +9,8 @@ ms.assetid: 8ba12331-34e8-46ff-ab66-a6ada3d731f6
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IControlbar, IControlbar interface [MMC], IControlbar interface [MMC],described, _slate_icontrolbar, mmc.icontrolbar, mmc/IControlbar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

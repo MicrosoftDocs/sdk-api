@@ -9,8 +9,8 @@ ms.assetid: D8445188-A7D5-4A2C-827A-CB559C3B0748
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS structure pointer [Winsock], TCP_INITIAL_RTO_PARAMETERS, TCP_INITIAL_RTO_PARAMETERS structure [Winsock], _TCP_INITIAL_RTO_PARAMETERS, mstcpip/PTCP_INITIAL_RTO_PARAMETERS, mstcpip/TCP_INITIAL_RTO_PARAMETERS, winsock.tcp_initial_rto_parameters"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISharedProperty, ISharedProperty interface [COM+], ISharedProperty interface [COM+],described, _cos_ISharedProperty_Interface, comsvcs/ISharedProperty, cos.isharedproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

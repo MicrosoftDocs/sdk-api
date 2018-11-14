@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineunhold.htm
 tech.root: tapi
 ms.assetid: 4719c399-0dce-4aa2-9b6e-a84ad13f9228
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineUnhold, TSPI_lineUnhold function [TAPI 2.2], _tspi_tspi_lineunhold, tspi.tspi_lineunhold, tspi/TSPI_lineUnhold
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineUnhold
+: 
 ---
 
 # TSPI_lineUnhold function

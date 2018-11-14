@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetImage_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\getimage.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetImage, GetImage method [GDI+], GetImage method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetImage method, TextureBrush.GetImage, TextureBrush::GetImage, _gdiplus_CLASS_TextureBrush_GetImage_, gdiplus._gdiplus_CLASS_TextureBrush_GetImage_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- TextureBrush.GetImage
+: 
 req.product: GDI+ 1.0
 ---
 

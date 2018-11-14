@@ -7,7 +7,7 @@ old-location: security\scardtransmit.htm
 tech.root: secauthn
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardTransmit
+: 
 ---
 
 # SCardTransmit function

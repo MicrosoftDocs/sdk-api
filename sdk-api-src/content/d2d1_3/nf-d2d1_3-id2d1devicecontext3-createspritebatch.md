@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext3_createspritebatch.htm
 tech.root: direct2d
 ms.assetid: C9CCDF6B-BAEC-4C37-B3C1-60D50BACF973
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateSpriteBatch, CreateSpriteBatch method [Direct2D], CreateSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],CreateSpriteBatch method, ID2D1DeviceContext3.CreateSpriteBatch, ID2D1DeviceContext3::CreateSpriteBatch, d2d1_3/ID2D1DeviceContext3::CreateSpriteBatch, direct2d.id2d1devicecontext3_createspritebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_3.h
+: 
+- ID2D1DeviceContext3.CreateSpriteBatch
+: 
 ---
 
 # ID2D1DeviceContext3::CreateSpriteBatch

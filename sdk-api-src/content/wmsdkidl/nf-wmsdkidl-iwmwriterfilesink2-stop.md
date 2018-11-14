@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMWriterFileSink2.Stop
+: 
 ---
 
 # IWMWriterFileSink2::Stop

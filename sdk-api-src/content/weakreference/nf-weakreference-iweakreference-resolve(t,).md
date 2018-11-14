@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- weakreference.h
+: 
+- IWeakReference.Resolve
+: 
 ---
 
 # IWeakReference::Resolve(T,)

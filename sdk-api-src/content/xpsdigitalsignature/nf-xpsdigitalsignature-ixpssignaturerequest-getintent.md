@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsdigitalsignature.h
+: 
+- IXpsSignatureRequest.GetIntent
+: 
 ---
 
 # IXpsSignatureRequest::GetIntent

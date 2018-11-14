@@ -9,8 +9,8 @@ ms.assetid: 9bce3093-8dcd-4e91-8e20-5558f2dcce75
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DxGetPolarity, DxGetPolarity callback function [Display Devices], PDX_GETPOLARITY, PDX_GETPOLARITY callback, VideoMiniPort_DxApiFunctions_caf5417f-329e-4270-a067-8a9c9634327d.xml, display.dxgetpolarity, dxmini/DxGetPolarity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

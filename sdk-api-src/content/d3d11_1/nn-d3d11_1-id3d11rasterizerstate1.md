@@ -9,8 +9,8 @@ ms.assetid: 771BA97B-1DC4-46DD-AAB6-DFC1100F844D
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11RasterizerState1, ID3D11RasterizerState1 interface [Direct3D 11], ID3D11RasterizerState1 interface [Direct3D 11],described, d3d11_1/ID3D11RasterizerState1, direct3d11.id3d11rasterizerstate1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: direct3ddxgi\idxgiswapchainmedia.htm
 tech.root: direct3ddxgi
 ms.assetid: 80C2A6D8-3435-4671-A473-0EF0F5A70ADB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], IDXGISwapChainMedia interface [DXGI],described, direct3ddxgi.idxgiswapchainmedia, dxgi1_3/IDXGISwapChainMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

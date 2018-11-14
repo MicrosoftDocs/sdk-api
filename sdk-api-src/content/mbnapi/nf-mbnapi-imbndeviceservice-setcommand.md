@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnDeviceService.SetCommand
+: 
 ---
 
 # IMbnDeviceService::SetCommand

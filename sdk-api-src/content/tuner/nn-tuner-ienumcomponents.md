@@ -9,8 +9,8 @@ ms.assetid: 8811021c-8c14-4be6-8802-76b942bb34d8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEnumComponents, IEnumComponents interface [Microsoft TV Technologies], IEnumComponents interface [Microsoft TV Technologies],described, IEnumComponentsInterface, mstv.ienumcomponents, tuner/IEnumComponents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

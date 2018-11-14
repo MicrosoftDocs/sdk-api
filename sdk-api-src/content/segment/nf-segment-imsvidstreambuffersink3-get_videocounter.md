@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidStreamBufferSink3.get_VideoCounter
+: 
 ---
 
 # IMSVidStreamBufferSink3::get_VideoCounter

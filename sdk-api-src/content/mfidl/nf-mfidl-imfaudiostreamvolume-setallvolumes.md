@@ -7,7 +7,7 @@ old-location: mf\imfaudiostreamvolume_setallvolumes.htm
 tech.root: medfound
 ms.assetid: 6c278693-5a2f-4aa2-b477-3b3014b2cc89
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 6c278693-5a2f-4aa2-b477-3b3014b2cc89, IMFAudioStreamVolume interface [Media Foundation],SetAllVolumes method, IMFAudioStreamVolume.SetAllVolumes, IMFAudioStreamVolume::SetAllVolumes, SetAllVolumes, SetAllVolumes method [Media Foundation], SetAllVolumes method [Media Foundation],IMFAudioStreamVolume interface, mf.imfaudiostreamvolume_setallvolumes, mfidl/IMFAudioStreamVolume::SetAllVolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFAudioStreamVolume.SetAllVolumes
+: 
 ---
 
 # IMFAudioStreamVolume::SetAllVolumes

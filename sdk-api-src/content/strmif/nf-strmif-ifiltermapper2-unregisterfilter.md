@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IFilterMapper2.UnregisterFilter
+: 
 ---
 
 # IFilterMapper2::UnregisterFilter

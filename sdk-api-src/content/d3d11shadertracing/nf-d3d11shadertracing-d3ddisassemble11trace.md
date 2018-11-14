@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3DDisassemble11Trace
+: 
 ---
 
 # D3DDisassemble11Trace function

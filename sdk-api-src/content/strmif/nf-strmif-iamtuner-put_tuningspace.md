@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IAMTuner.put_TuningSpace
+: 
 ---
 
 # IAMTuner::put_TuningSpace

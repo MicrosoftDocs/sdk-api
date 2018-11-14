@@ -7,7 +7,7 @@ old-location: mscs\resutilfinddependentdiskresourcedriveletter.htm
 tech.root: mscs
 ms.assetid: 8f2187e3-6bb7-4756-af2b-a28857581bcb
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER function [Failover Cluster], ResUtilFindDependentDiskResourceDriveLetter, ResUtilFindDependentDiskResourceDriveLetter function [Failover Cluster], _wolf_resutilfinddependentdiskresourcedriveletter, mscs.resutilfinddependentdiskresourcedriveletter, resapi/PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, resapi/ResUtilFindDependentDiskResourceDriveLetter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilFindDependentDiskResourceDriveLetter
+: 
 ---
 
 # ResUtilFindDependentDiskResourceDriveLetter function

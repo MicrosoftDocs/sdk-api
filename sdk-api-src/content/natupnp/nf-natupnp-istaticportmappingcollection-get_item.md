@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- natupnp.h
+: 
+- IStaticPortMappingCollection.get_Item
+: 
 ---
 
 # IStaticPortMappingCollection::get_Item

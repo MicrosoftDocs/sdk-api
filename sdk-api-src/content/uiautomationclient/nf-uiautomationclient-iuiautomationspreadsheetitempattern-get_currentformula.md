@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
+: 
 ---
 
 # IUIAutomationSpreadsheetItemPattern::get_CurrentFormula

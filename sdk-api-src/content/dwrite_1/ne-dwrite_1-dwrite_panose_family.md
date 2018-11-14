@@ -7,10 +7,10 @@ old-location: directwrite\dwrite_panose_family.htm
 tech.root: DirectWrite
 ms.assetid: 8CC6E653-FF82-4BBA-9DDE-F3F4960C4BBB
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_PANOSE_FAMILY, DWRITE_PANOSE_FAMILY enumeration [Direct Write], DWRITE_PANOSE_FAMILY_ANY, DWRITE_PANOSE_FAMILY_DECORATIVE, DWRITE_PANOSE_FAMILY_NO_FIT, DWRITE_PANOSE_FAMILY_PICTORIAL, DWRITE_PANOSE_FAMILY_SCRIPT, DWRITE_PANOSE_FAMILY_SYMBOL, DWRITE_PANOSE_FAMILY_TEXT_DISPLAY, directwrite.dwrite_panose_family, dwrite_1/DWRITE_PANOSE_FAMILY, dwrite_1/DWRITE_PANOSE_FAMILY_ANY, dwrite_1/DWRITE_PANOSE_FAMILY_DECORATIVE, dwrite_1/DWRITE_PANOSE_FAMILY_NO_FIT, dwrite_1/DWRITE_PANOSE_FAMILY_PICTORIAL, dwrite_1/DWRITE_PANOSE_FAMILY_SCRIPT, dwrite_1/DWRITE_PANOSE_FAMILY_SYMBOL, dwrite_1/DWRITE_PANOSE_FAMILY_TEXT_DISPLAY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

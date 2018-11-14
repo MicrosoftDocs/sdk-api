@@ -9,8 +9,8 @@ ms.assetid: bc398732-037d-4f48-940f-c70975447972
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICStream, IWICStream interface [Windows Imaging Component], IWICStream interface [Windows Imaging Component],described, _wic_codec_iwicstream, wic._wic_codec_iwicstream, wincodec/IWICStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: mscs\clus_csv_maintenance_mode_info.htm
 tech.root: mscs
 ms.assetid: 4DA05ADE-3C54-45A0-8A1C-911EB1ED1308
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_CSV_MAINTENANCE_MODE_INFO, PCLUS_CSV_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_CSV_MAINTENANCE_MODE_INFO, clusapi/PCLUS_CSV_MAINTENANCE_MODE_INFO, mscs.clus_csv_maintenance_mode_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

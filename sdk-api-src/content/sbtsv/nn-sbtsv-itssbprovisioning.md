@@ -9,8 +9,8 @@ ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

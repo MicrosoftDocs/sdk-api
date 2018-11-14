@@ -9,8 +9,8 @@ ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITraceEvent, ITraceEvent interface [ETW], ITraceEvent interface [ETW],described, etw.ievent, relogger/ITraceEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: relogger.h
 req.include-header: 

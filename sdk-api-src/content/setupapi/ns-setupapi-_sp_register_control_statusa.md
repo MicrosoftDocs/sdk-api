@@ -9,8 +9,8 @@ ms.assetid: aeeedba8-f788-4f95-9583-e76dbb116db9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PSP_REGISTER_CONTROL_STATUSA, PSP_REGISTER_CONTROL_STATUS, PSP_REGISTER_CONTROL_STATUS structure pointer [Setup API], SPREG_DLLINSTALL, SPREG_GETPROCADDR, SPREG_LOADLIBRARY, SPREG_REGSVR, SPREG_SUCCESS, SPREG_TIMEOUT, SPREG_UNKNOWN, SP_REGISTER_CONTROL_STATUS, SP_REGISTER_CONTROL_STATUS structure [Setup API], SP_REGISTER_CONTROL_STATUSA, _SP_REGISTER_CONTROL_STATUSA, _setupapi_sp_register_control_status, setup.sp_register_control_status, setupapi/PSP_REGISTER_CONTROL_STATUS, setupapi/SP_REGISTER_CONTROL_STATUS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

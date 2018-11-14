@@ -9,8 +9,8 @@ ms.assetid: ad2cb3ae-dd24-4774-95bd-f5a0773c68b1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IPropertyPage interface [COM],described, _ctrl_ipropertypage, com.ipropertypage, ocidl/IPropertyPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

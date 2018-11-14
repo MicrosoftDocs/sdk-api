@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- commoncontrols.h
+: 
+- IImageList2.Initialize
+: 
 ---
 
 # IImageList2::Initialize

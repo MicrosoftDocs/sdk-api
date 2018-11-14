@@ -7,7 +7,7 @@ old-location: tapi3\ienumagenthandler_next.htm
 tech.root: tapi
 ms.assetid: 0e6a7db0-c339-4a36-aea8-e3f9f2d5cd09
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Next method, IEnumAgentHandler.Next, IEnumAgentHandler::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_next, tapi3.ienumagenthandler_next, tapi3cc/IEnumAgentHandler::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- IEnumAgentHandler.Next
+: 
 ---
 
 # IEnumAgentHandler::Next

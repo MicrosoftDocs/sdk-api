@@ -9,8 +9,8 @@ ms.assetid: 0e213ba0-3993-41da-8ddd-5ecde7942a95
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0, IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0 structure [Filtering], IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_, fwp.ipsec_sa_auth_and_cipher_information0_struct, ipsectypes/IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

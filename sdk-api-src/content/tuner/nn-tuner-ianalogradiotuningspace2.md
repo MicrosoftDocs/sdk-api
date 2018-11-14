@@ -9,8 +9,8 @@ ms.assetid: 66e631cb-2ae8-40b0-8ec8-3a02764284bf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAnalogRadioTuningSpace2, IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies], IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],described, IAnalogRadioTuningSpace2Interface, mstv.ianalogradiotuningspace2, tuner/IAnalogRadioTuningSpace2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

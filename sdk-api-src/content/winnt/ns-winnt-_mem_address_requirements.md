@@ -7,10 +7,10 @@ old-location: base\mem_address_requirements.htm
 tech.root: memory
 ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, _MEM_ADDRESS_REQUIREMENTS, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

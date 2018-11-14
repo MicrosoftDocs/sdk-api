@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12debug1.htm
 tech.root: direct3d12
 ms.assetid: 3D69D0CA-5D45-49EA-BCF0-5B0ABB916261
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, ID3D12Debug1 interface,described, d3d12sdklayers/ID3D12Debug1, direct3d12.id3d12debug1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Adds GPU-Based Validation and Dependent Command Queue Synchronization to the debug layer.
 

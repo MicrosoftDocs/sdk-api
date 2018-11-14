@@ -9,8 +9,8 @@ ms.assetid: c6eb1103-2395-431d-9130-1e1f2cc9ae96
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], IPortableDeviceConnector interface [Windows Portable Devices SDK],described, portabledeviceconnectapi/IPortableDeviceConnector, wpdsdk.iportabledeviceconnector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledeviceconnectapi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: tapi3\itaddress2_get_eventfilter.htm
 tech.root: tapi
 ms.assetid: cb0fbfc1-56bf-4455-8d6a-71c78b6a6534
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_EventFilter method, ITAddress2.get_EventFilter, ITAddress2::get_EventFilter, _tapi3_itaddress2_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_eventfilter, tapi3if/ITAddress2::get_EventFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress2.get_EventFilter
+: 
 ---
 
 # ITAddress2::get_EventFilter

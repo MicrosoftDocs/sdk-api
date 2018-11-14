@@ -9,8 +9,8 @@ ms.assetid: 8da9d625-5cda-45bd-a664-7211593fab92
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMVIDEOINFOHEADER2, WMVIDEOINFOHEADER2 structure [windows Media Format], tagWMVIDEOINFOHEADER2, wmformat.wmvideoinfoheader2, wmsdkidl/WMVIDEOINFOHEADER2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

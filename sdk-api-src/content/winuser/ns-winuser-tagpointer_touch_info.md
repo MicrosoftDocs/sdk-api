@@ -9,8 +9,8 @@ ms.assetid: fee176ba-ad07-3141-ab4d-1b8c335fd102
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: POINTER_TOUCH_INFO, POINTER_TOUCH_INFO structure [Input Messages and Notifications], _POINTER_TOUCH_INFO, inputmsg.pointer_touch_info_struct, tagPOINTER_TOUCH_INFO, winuser/POINTER_TOUCH_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

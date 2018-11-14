@@ -7,10 +7,10 @@ old-location: security\system_scoped_policy_id_ace.htm
 tech.root: secauthz
 ms.assetid: 6B678A48-E024-4C67-A60C-5224868C04A5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Security], SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Security], _SYSTEM_SCOPED_POLICY_ID_ACE, security.system_scoped_policy_id_ace, winnt/PSYSTEM_SCOPED_POLICY_ID_ACE, winnt/SYSTEM_SCOPED_POLICY_ID_ACE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

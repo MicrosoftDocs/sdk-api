@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_delete_ext_sA
+: 
 ---
 
 # ldap_delete_ext_sA function

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XFORMOBJ_iGetXform
+: 
 ---
 
 # XFORMOBJ_iGetXform function

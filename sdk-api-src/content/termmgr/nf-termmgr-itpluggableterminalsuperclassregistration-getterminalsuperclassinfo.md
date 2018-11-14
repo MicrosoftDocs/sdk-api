@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassregistration_getterminalsupercl
 tech.root: tapi
 ms.assetid: 2e7ac968-c8b7-4af9-95b1-522e1b37c23a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: GetTerminalSuperclassInfo, GetTerminalSuperclassInfo method [TAPI 2.2], GetTerminalSuperclassInfo method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],GetTerminalSuperclassInfo method, ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo, ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo, _tapi3_itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, termmgr/ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
+: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo

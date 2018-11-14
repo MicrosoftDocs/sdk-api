@@ -9,8 +9,8 @@ ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], IVMRImageCompositor9 interface [DirectShow],described, IVMRImageCompositor9Interface, dshow.ivmrimagecompositor9, vmr9/IVMRImageCompositor9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

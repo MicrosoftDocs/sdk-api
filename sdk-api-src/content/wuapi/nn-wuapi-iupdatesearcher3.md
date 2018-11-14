@@ -9,8 +9,8 @@ ms.assetid: d37017d5-6f78-4b6c-ac0b-c83b83853079
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IUpdateSearcher3, IUpdateSearcher3 interface [Windows Update Agent], IUpdateSearcher3 interface [Windows Update Agent],described, wua.iupdatesearcher3, wuapi/IUpdateSearcher3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

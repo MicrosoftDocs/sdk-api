@@ -9,8 +9,8 @@ ms.assetid: 51084a56-f666-4ca0-b98c-9f41e28b99c0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_DURATION_DESCRIPTION, WS_DURATION_DESCRIPTION structure [Web Services for Windows], _WS_DURATION_DESCRIPTION, webservices/WS_DURATION_DESCRIPTION, wsw.ws_duration_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

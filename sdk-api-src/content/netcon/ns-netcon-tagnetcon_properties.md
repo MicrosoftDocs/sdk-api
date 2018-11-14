@@ -9,8 +9,8 @@ ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES, tagNETCON_PROPERTIES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: netcon.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- shellapi.h
+: 
+- NetAddr_DisplayErrorTip
+: 
 ---
 
 # NetAddr_DisplayErrorTip macro

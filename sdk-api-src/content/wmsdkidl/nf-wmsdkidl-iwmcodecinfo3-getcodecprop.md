@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMCodecInfo3.GetCodecProp
+: 
 ---
 
 # IWMCodecInfo3::GetCodecProp

@@ -9,8 +9,8 @@ ms.assetid: 0221207b-4583-44b8-85aa-dc6cd4cd9d25
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: UI_ANIMATION_ROUNDING_CEILING, UI_ANIMATION_ROUNDING_FLOOR, UI_ANIMATION_ROUNDING_MODE, UI_ANIMATION_ROUNDING_MODE enumeration [Windows Animation], UI_ANIMATION_ROUNDING_NEAREST, __MIDL___MIDL_itf_UIAnimation_0000_0001_0001, uianimation.ui_animation_rounding_mode, uianimation/UI_ANIMATION_ROUNDING_CEILING, uianimation/UI_ANIMATION_ROUNDING_FLOOR, uianimation/UI_ANIMATION_ROUNDING_MODE, uianimation/UI_ANIMATION_ROUNDING_NEAREST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

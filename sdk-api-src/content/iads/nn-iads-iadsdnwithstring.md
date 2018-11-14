@@ -9,8 +9,8 @@ ms.assetid: 112985e7-6e96-42fb-a4cb-916296d4a524
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI],described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

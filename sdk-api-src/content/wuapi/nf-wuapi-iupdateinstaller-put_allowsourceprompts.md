@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateInstaller.put_AllowSourcePrompts
+: 
 ---
 
 # IUpdateInstaller::put_AllowSourcePrompts

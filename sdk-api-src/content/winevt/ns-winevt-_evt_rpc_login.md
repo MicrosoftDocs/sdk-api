@@ -9,8 +9,8 @@ ms.assetid: 38f74619-1643-461f-b04b-c15567c06ca8
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: EVT_RPC_LOGIN, EVT_RPC_LOGIN structure [EventLog], _EVT_RPC_LOGIN, wes.evt_rpc_login, winevt/_EVT_RPC_LOGIN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winevt.h
 req.include-header: 

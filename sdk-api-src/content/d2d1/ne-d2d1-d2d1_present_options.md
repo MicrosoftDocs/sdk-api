@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_PRESENT_OPTIONS.htm
 tech.root: direct2d
 ms.assetid: 56178ee9-7d35-42e1-97f8-62835010f277
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_PRESENT_OPTIONS, D2D1_PRESENT_OPTIONS enumeration [Direct2D], D2D1_PRESENT_OPTIONS_IMMEDIATELY, D2D1_PRESENT_OPTIONS_NONE, D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS, d2d1/D2D1_PRESENT_OPTIONS, d2d1/D2D1_PRESENT_OPTIONS_IMMEDIATELY, d2d1/D2D1_PRESENT_OPTIONS_NONE, d2d1/D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS, direct2d.D2D1_PRESENT_OPTIONS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

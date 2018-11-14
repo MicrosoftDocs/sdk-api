@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_deleteproperty_method.htm
 tech.root: seccrypto
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- IOCSPPropertyCollection.DeleteProperty
+: 
 ---
 
 # IOCSPPropertyCollection::DeleteProperty

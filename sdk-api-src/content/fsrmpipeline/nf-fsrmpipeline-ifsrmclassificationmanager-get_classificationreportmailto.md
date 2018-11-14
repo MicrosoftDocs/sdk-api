@@ -48,6 +48,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmClassificationManager.get_ClassificationReportMailTo
+: 
 ---
 
 # IFsrmClassificationManager::get_ClassificationReportMailTo

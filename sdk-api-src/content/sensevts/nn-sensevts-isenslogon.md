@@ -9,8 +9,8 @@ ms.assetid: 77c02510-6386-4f6d-af1a-e7337f5d347d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISensLogon, ISensLogon interface [SENS], ISensLogon interface [SENS],described, _zaw_isenslogon, sens.isenslogon, sensevts/ISensLogon, syncmgr.isenslogon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sensevts.h
 req.include-header: 

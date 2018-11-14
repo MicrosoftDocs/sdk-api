@@ -59,6 +59,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateNamedPipeA
+: 
 ---
 
 # CreateNamedPipeA function

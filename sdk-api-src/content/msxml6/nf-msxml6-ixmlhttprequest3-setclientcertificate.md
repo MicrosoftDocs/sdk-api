@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msxml6.h
+: 
+- IXMLHTTPRequest3.SetClientCertificate
+: 
 ---
 
 # IXMLHTTPRequest3::SetClientCertificate

@@ -9,8 +9,8 @@ ms.assetid: VS|htmlhelp|~\html\refiitwordwheelinterface.htm
 ms.author: windowssdkdev
 ms.date: 10/22/2018
 ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop],described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 

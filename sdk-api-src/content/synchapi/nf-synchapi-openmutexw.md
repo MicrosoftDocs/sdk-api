@@ -7,7 +7,7 @@ old-location: base\openmutex.htm
 tech.root: sync
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, synchapi/OpenMutex, synchapi/OpenMutexA, synchapi/OpenMutexW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OpenMutexW
+: 
 ---
 
 # OpenMutexW function

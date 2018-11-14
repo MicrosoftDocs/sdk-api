@@ -9,8 +9,8 @@ ms.assetid: b67fdf53-322b-4a70-ae83-63d4365e9b57
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IntServMainHdr, IntServMainHdr structure [QOS], lpmapi/IntServMainHdr, qos.intservmainhdr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

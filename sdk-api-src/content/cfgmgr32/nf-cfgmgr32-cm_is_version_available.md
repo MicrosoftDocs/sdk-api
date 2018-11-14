@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Is_Version_Available
+: 
 ---
 
 # CM_Is_Version_Available function

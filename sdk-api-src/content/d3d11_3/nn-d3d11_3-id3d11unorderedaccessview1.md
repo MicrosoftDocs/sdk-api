@@ -9,8 +9,8 @@ ms.assetid: 0D4F7634-0AB1-41C2-8D4F-8C42C1D973D2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11UnorderedAccessView1, ID3D11UnorderedAccessView1 interface [Direct3D 11], ID3D11UnorderedAccessView1 interface [Direct3D 11],described, d3d11_3/ID3D11UnorderedAccessView1, direct3d11.id3d11unorderedaccessview1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

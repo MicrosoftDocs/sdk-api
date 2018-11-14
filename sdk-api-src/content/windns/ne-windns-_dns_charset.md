@@ -9,8 +9,8 @@ ms.assetid: 2674a4e5-c3e2-4a25-bd6f-1fc6b4db3012
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DNS_CHARSET, DNS_CHARSET enumeration [DNS], DnsCharSetAnsi, DnsCharSetUnicode, DnsCharSetUnknown, DnsCharSetUtf8, _DNS_CHARSET, dns.dns_charset, windns/DNS_CHARSET, windns/DnsCharSetAnsi, windns/DnsCharSetUnicode, windns/DnsCharSetUnknown, windns/DnsCharSetUtf8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: windns.h
 req.include-header: 

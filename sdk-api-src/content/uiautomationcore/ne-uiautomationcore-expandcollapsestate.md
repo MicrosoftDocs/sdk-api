@@ -9,8 +9,8 @@ ms.assetid: 9625a50d-b9fb-4f85-8245-c77cc53445c3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ExpandCollapseState, ExpandCollapseState enumeration [Windows Accessibility], ExpandCollapseState_Collapsed, ExpandCollapseState_Expanded, ExpandCollapseState_LeafNode, ExpandCollapseState_PartiallyExpanded, uiauto.uiauto_ExpandCollapseStateEnum, uiauto_ExpandCollapseStateEnum, uiautomationcore/ExpandCollapseState, uiautomationcore/ExpandCollapseState_Collapsed, uiautomationcore/ExpandCollapseState_Expanded, uiautomationcore/ExpandCollapseState_LeafNode, uiautomationcore/ExpandCollapseState_PartiallyExpanded, winauto.uiauto_ExpandCollapseStateEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

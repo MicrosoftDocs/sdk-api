@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_gettimestampfrequency.htm
 tech.root: direct3d12
 ms.assetid: 90D79775-2898-453E-87FB-CD6850829E47
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetTimestampFrequency, GetTimestampFrequency method, GetTimestampFrequency method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetTimestampFrequency method, ID3D12CommandQueue.GetTimestampFrequency, ID3D12CommandQueue::GetTimestampFrequency, d3d12/ID3D12CommandQueue::GetTimestampFrequency, direct3d12.id3d12commandqueue_gettimestampfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12CommandQueue.GetTimestampFrequency
+: 
 ---
 
 # ID3D12CommandQueue::GetTimestampFrequency

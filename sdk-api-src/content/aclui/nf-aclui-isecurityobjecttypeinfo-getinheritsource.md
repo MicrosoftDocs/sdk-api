@@ -7,7 +7,7 @@ old-location: security\isecurityobjecttypeinfo_getinheritsource.htm
 tech.root: secauthz
 ms.assetid: e058ca98-08dc-4a3f-9521-adcc5990eae7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetInheritSource, GetInheritSource method [Security], GetInheritSource method [Security],ISecurityObjectTypeInfo interface, ISecurityObjectTypeInfo interface [Security],GetInheritSource method, ISecurityObjectTypeInfo.GetInheritSource, ISecurityObjectTypeInfo::GetInheritSource, aclui/ISecurityObjectTypeInfo::GetInheritSource, security.isecurityobjecttypeinfo_getinheritsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityObjectTypeInfo.GetInheritSource
+: 
 ---
 
 # ISecurityObjectTypeInfo::GetInheritSource

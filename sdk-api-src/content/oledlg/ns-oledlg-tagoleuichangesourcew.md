@@ -9,8 +9,8 @@ ms.assetid: 440d120c-a121-471b-bee1-f23af136a664
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPOLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, CSF_ONLYGETSOURCE, CSF_SHOWHELP, CSF_VALIDSOURCE, LPOLEUICHANGESOURCE, LPOLEUICHANGESOURCE structure pointer [COM], OLEUICHANGESOURCE, OLEUICHANGESOURCE structure [COM], OLEUICHANGESOURCEA, OLEUICHANGESOURCEW, POLEUICHANGESOURCE, POLEUICHANGESOURCE structure pointer [COM], _ole_OLEUICHANGESOURCE_str, com.oleuichangesource_struct, oledlg/LPOLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCEA, oledlg/OLEUICHANGESOURCEW, oledlg/POLEUICHANGESOURCE, tagOLEUICHANGESOURCEW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

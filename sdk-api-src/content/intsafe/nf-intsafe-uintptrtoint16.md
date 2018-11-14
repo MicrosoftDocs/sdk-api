@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- UIntPtrToInt16
+: 
 ---
 
 # UIntPtrToInt16 function

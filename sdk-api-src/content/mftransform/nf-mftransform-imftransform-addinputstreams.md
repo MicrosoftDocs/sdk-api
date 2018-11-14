@@ -7,7 +7,7 @@ old-location: mf\imftransform_addinputstreams.htm
 tech.root: medfound
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],AddInputStreams method, IMFTransform.AddInputStreams, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mftransform.h
+: 
+- IMFTransform.AddInputStreams
+: 
 ---
 
 # IMFTransform::AddInputStreams

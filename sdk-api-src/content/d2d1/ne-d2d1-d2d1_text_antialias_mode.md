@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_TEXT_ANTIALIAS_MODE.htm
 tech.root: direct2d
 ms.assetid: d2c829d7-9892-4cbb-9993-12bb7d77fc25
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_TEXT_ANTIALIAS_MODE, D2D1_TEXT_ANTIALIAS_MODE enumeration [Direct2D], D2D1_TEXT_ANTIALIAS_MODE_ALIASED, D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, d2d1/D2D1_TEXT_ANTIALIAS_MODE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, d2d1/D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, direct2d.D2D1_TEXT_ANTIALIAS_MODE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

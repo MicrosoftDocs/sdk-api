@@ -9,8 +9,8 @@ ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IContextMenuCB, IContextMenuCB interface [Windows Shell], IContextMenuCB interface [Windows Shell],described, _shell_IContextMenuCB, shell.IContextMenuCB, shobjidl_core/IContextMenuCB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

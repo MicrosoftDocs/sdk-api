@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DDevice9.SetTexture
+: 
 ---
 
 # IDirect3DDevice9::SetTexture

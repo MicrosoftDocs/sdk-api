@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vds.h
+: 
+- IVdsDiskPartitionMF2.FormatPartitionEx2
+: 
 ---
 
 # IVdsDiskPartitionMF2::FormatPartitionEx2

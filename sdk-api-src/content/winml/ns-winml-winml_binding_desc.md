@@ -9,8 +9,8 @@ ms.assetid: 928C2AD0-73DD-4ECA-AC54-36ED84A9E4E6
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: MachineLearning.winml_binding_desc, PWINML_BINDING_DESC, PWINML_BINDING_DESC structure pointer, WINML_BINDING_DESC, WINML_BINDING_DESC structure, winml/PWINML_BINDING_DESC, winml/WINML_BINDING_DESC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

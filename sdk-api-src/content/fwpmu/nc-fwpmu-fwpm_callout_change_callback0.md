@@ -9,8 +9,8 @@ ms.assetid: 82c678a5-adba-42ea-b85c-4bbdcec78673
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_CALLOUT_CHANGE_CALLBACK0, FWPM_CALLOUT_CHANGE_CALLBACK0 callback, FWPM_CALLOUT_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_callout_change_callback0_func, fwpmu/FWPM_CALLOUT_CHANGE_CALLBACK0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

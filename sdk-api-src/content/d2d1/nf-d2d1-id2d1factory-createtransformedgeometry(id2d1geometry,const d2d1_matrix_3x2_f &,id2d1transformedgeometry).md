@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_
 tech.root: direct2d
 ms.assetid: 14ffec4f-3ea1-4dd1-85ea-f6b9d439226e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry method [Direct2D], CreateTransformedGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateTransformedGeometry method, ID2D1Factory.CreateTransformedGeometry, ID2D1Factory.CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry), ID2D1Factory::CreateTransformedGeometry, ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry), d2d1/ID2D1Factory::CreateTransformedGeometry, direct2d.ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_ptr_ID2D1TransformedGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Factory.CreateTransformedGeometry
+: 
 ---
 
 # ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry)

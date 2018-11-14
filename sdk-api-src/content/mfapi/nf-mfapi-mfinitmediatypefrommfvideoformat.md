@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefrommfvideoformat.htm
 tech.root: medfound
 ms.assetid: 45400b67-df81-4fae-a24d-80020eb07151
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 45400b67-df81-4fae-a24d-80020eb07151, MFInitMediaTypeFromMFVideoFormat, MFInitMediaTypeFromMFVideoFormat function [Media Foundation], mf.mfinitmediatypefrommfvideoformat, mfapi/MFInitMediaTypeFromMFVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFInitMediaTypeFromMFVideoFormat
+: 
 ---
 
 # MFInitMediaTypeFromMFVideoFormat function

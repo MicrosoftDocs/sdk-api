@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: OBJECTPOSITIONS, OBJECTPOSITIONS structure [Windows Controls], _objectpositions, _win32_OBJECTPOSITIONS_str, _win32_OBJECTPOSITIONS_str_cpp, controls.OBJECTPOSITIONS, controls._win32_OBJECTPOSITIONS_str, richedit/OBJECTPOSITIONS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_PointF_poi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetcenterpointmethods\getcenterpoint_52pointfpoint.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetCenterPoint, GetCenterPoint method [GDI+], GetCenterPoint method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetCenterPoint method, PathGradientBrush.GetCenterPoint, PathGradientBrush.GetCenterPoint(OUT PointF), PathGradientBrush.GetCenterPoint(PointF*), PathGradientBrush::GetCenterPoint, PathGradientBrush::GetCenterPoint(OUT PointF), _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_PointF_point_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_PointF_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- PathGradientBrush.GetCenterPoint
+: 
 req.product: GDI+ 1.0
 ---
 

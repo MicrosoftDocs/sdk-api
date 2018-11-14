@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMGPOLinksCollection.get_Count
+: 
 ---
 
 # IGPMGPOLinksCollection::get_Count

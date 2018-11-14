@@ -9,8 +9,8 @@ ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

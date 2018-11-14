@@ -9,8 +9,8 @@ ms.assetid: d38ee3fb-3867-40c9-8e6a-35c94762fdf4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPSRAPITransportStreamEvents, IRDPSRAPITransportStreamEvents interface [RDP], IRDPSRAPITransportStreamEvents interface [RDP],described, rdp.irdpsrapitransportstreamevents, rdpencomapi/IRDPSRAPITransportStreamEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

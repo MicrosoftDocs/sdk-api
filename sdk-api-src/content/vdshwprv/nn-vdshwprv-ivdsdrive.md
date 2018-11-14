@@ -9,8 +9,8 @@ ms.assetid: 597917cf-fb02-4949-98c3-3da3f7449ed1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],described, base.ivdsdrive, vds/IVdsDrive, vdshwprv/IVdsDrive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

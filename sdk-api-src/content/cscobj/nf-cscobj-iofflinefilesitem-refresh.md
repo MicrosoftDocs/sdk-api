@@ -41,6 +41,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesItem.Refresh
+: 
 ---
 
 # IOfflineFilesItem::Refresh

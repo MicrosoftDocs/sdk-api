@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MultipleViewPattern_GetViewName
+: 
 ---
 
 # MultipleViewPattern_GetViewName function

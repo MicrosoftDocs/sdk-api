@@ -7,7 +7,7 @@ old-location: security\gettrusteename.htm
 tech.root: secauthz
 ms.assetid: 9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetTrusteeName, GetTrusteeName function [Security], GetTrusteeNameA, GetTrusteeNameW, _win32_gettrusteename, aclapi/GetTrusteeName, aclapi/GetTrusteeNameA, aclapi/GetTrusteeNameW, security.gettrusteename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetTrusteeNameA
+: 
 ---
 
 # GetTrusteeNameA function

@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginewebsupport_disconnectwebaudio.htm
 tech.root: medfound
 ms.assetid: 04AE7972-B0F1-4C35-A5F4-88F0B85C99E7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DisconnectWebAudio, DisconnectWebAudio method [Media Foundation], DisconnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],DisconnectWebAudio method, IMFMediaEngineWebSupport.DisconnectWebAudio, IMFMediaEngineWebSupport::DisconnectWebAudio, mf.imfmediaenginewebsupport_disconnectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineWebSupport.DisconnectWebAudio
+: 
 ---
 
 # IMFMediaEngineWebSupport::DisconnectWebAudio

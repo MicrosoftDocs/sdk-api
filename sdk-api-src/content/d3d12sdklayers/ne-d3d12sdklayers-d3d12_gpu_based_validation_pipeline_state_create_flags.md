@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_gpu_based_validation_pipeline_state_create_flags.
 tech.root: direct3d12
 ms.assetid: B3D0ABD0-E7CE-4853-AC7C-228398B4588C
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, direct3d12.d3d12_gpu_based_validation_pipeline_state_create_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Specifies how GPU-Based Validation handles patched pipeline states during <a href="https://msdn.microsoft.com/en-us/library/Dn788663(v=VS.85).aspx">ID3D12Device::CreateGraphicsPipelineState</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn788658(v=VS.85).aspx">ID3D12Device::CreateComputePipelineState</a>.
 

@@ -9,8 +9,8 @@ ms.assetid: 8e2e2838-5d08-4e51-be96-0928042ccb9f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_ClassDecl, MI_ClassDecl structure [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ASSOCIATION, MI_FLAG_CLASS, MI_FLAG_INDICATION, MI_FLAG_TERMINAL, _MI_ClassDecl, mi/MI_ClassDecl, wmi_v2.mi_classdecl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

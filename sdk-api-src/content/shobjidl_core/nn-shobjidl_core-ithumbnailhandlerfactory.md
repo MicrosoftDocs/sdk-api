@@ -9,8 +9,8 @@ ms.assetid: 83a9f676-ba03-4a0b-abe6-65f70c8babac
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IThumbnailHandlerFactory, IThumbnailHandlerFactory interface [Windows Shell], IThumbnailHandlerFactory interface [Windows Shell],described, _shell_IThumbnailHandlerFactory, shell.IThumbnailHandlerFactory, shobjidl_core/IThumbnailHandlerFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

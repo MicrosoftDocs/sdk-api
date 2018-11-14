@@ -7,7 +7,7 @@ old-location: security\certverifycrltimevalidity.htm
 tech.root: seccrypto
 ms.assetid: ff321fe8-df45-4a1d-b626-055fb0696438
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertVerifyCRLTimeValidity, CertVerifyCRLTimeValidity function [Security], _crypto2_certverifycrltimevalidity, security.certverifycrltimevalidity, wincrypt/CertVerifyCRLTimeValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertVerifyCRLTimeValidity
+: 
 ---
 
 # CertVerifyCRLTimeValidity function

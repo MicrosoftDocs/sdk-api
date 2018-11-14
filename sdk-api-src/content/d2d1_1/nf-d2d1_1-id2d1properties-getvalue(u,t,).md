@@ -7,7 +7,7 @@ old-location: direct2d\id2d1properties_getvalue4.htm
 tech.root: direct2d
 ms.assetid: 49278198-5763-4377-A4CA-8B605B9BB138
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,T,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U,T*), ID2D1Properties::GetValue(U,T,), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1Properties.GetValue
+: 
 ---
 
 # ID2D1Properties::GetValue(U,T,)

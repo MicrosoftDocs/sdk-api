@@ -7,7 +7,7 @@ old-location: multimedia\capcapturesingleframe.htm
 tech.root: Multimedia
 ms.assetid: 1204cd8f-a439-4dcc-8bba-f8fbc2184ca4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_capCaptureSingleFrame, capCaptureSingleFrame, capCaptureSingleFrame macro [Windows Multimedia], multimedia.capcapturesingleframe, vfw/capCaptureSingleFrame"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- capCaptureSingleFrame
+: 
 ---
 
 # capCaptureSingleFrame macro

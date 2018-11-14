@@ -9,8 +9,8 @@ ms.assetid: 236608c3-061e-4db0-96df-25d263b6463b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], INetSharingPortMapping interface [ICS/ICF],described, _ics_inetsharingportmapping, ics.inetsharingportmapping, netcon/INetSharingPortMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

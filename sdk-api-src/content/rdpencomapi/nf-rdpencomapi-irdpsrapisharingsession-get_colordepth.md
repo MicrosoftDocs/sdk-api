@@ -48,6 +48,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPISharingSession.get_ColorDepth
+: 
 ---
 
 # IRDPSRAPISharingSession::get_ColorDepth

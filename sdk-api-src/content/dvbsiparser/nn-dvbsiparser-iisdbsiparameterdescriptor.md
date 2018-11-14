@@ -9,8 +9,8 @@ ms.assetid: 264ae78d-cd72-49ff-b99b-2af637cc2917
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSIParameterDescriptor, mstv.iisdbsiparameterdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

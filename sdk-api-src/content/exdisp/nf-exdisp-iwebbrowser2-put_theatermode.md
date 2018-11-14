@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- exdisp.h
+: 
+- IWebBrowser2.put_TheaterMode
+: 
 ---
 
 # IWebBrowser2::put_TheaterMode

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HIMAGELIST_QueryInterface
+: 
 ---
 
 # HIMAGELIST_QueryInterface function

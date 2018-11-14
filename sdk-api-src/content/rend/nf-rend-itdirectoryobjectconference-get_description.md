@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_description.htm
 tech.root: tapi
 ms.assetid: f90defa9-5e70-4168-9a07-ccb520bd5a1f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Description method, ITDirectoryObjectConference.get_Description, ITDirectoryObjectConference::get_Description, _tapi3_itdirectoryobjectconference_get_description, get_Description, get_Description method [TAPI 2.2], get_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Description, tapi3.itdirectoryobjectconference_get_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObjectConference.get_Description
+: 
 ---
 
 # ITDirectoryObjectConference::get_Description

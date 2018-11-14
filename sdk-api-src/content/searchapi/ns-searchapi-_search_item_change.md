@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: SEARCH_ITEM_CHANGE, SEARCH_ITEM_CHANGE structure [search], _SEARCH_ITEM_CHANGE, _search_SEARCH_ITEM_CHANGE, search._search_SEARCH_ITEM_CHANGE, searchapi/SEARCH_ITEM_CHANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

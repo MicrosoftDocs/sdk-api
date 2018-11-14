@@ -9,8 +9,8 @@ ms.assetid: a9e37b8b-9272-43c6-b36e-1e82b0d1b0db
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMPEG2TuneRequest, IMPEG2TuneRequest interface [Microsoft TV Technologies], IMPEG2TuneRequest interface [Microsoft TV Technologies],described, IMPEG2TuneRequestInterface, mstv.impeg2tunerequest, tuner/IMPEG2TuneRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

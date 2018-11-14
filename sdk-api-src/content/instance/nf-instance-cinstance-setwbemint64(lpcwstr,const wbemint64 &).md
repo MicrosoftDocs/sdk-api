@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- instance.h
+: 
+- CInstance.SetWBEMINT64
+: 
 ---
 
 # CInstance::SetWBEMINT64(LPCWSTR,const WBEMINT64 &)

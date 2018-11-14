@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionEmail2.get_AttachmentFileListSize
+: 
 ---
 
 # IFsrmActionEmail2::get_AttachmentFileListSize

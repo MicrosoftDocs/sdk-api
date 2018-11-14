@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPCdromBurn.get_burnState
+: 
 ---
 
 # IWMPCdromBurn::get_burnState

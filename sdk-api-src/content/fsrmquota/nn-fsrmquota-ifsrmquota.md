@@ -9,8 +9,8 @@ ms.assetid: 91ced22a-01b9-4fcf-b61a-c99e6f0286f3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmQuota, IFsrmQuota interface [File Server Resource Manager], IFsrmQuota interface [File Server Resource Manager],described, fs.ifsrmquota, fsrm.ifsrmquota, fsrm/IFsrmQuota
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

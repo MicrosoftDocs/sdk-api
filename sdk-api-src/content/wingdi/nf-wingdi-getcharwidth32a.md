@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetCharWidth32A
+: 
 ---
 
 # GetCharWidth32A function

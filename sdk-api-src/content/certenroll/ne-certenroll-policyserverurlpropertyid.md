@@ -9,8 +9,8 @@ ms.assetid: 7b2f898d-9730-4f86-a7b2-dd625889c00a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PolicyServerUrlPropertyID, PolicyServerUrlPropertyID enumeration [Security], PsFriendlyName, PsPolicyID, certenroll/PolicyServerUrlPropertyID, certenroll/PsFriendlyName, certenroll/PsPolicyID, security.policyserverurlpropertyid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

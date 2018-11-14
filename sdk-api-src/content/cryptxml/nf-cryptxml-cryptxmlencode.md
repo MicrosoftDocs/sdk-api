@@ -7,7 +7,7 @@ old-location: security\cryptxmlencode.htm
 tech.root: seccrypto
 ms.assetid: fb0cd00c-f410-486e-8910-41c0463f6a74
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlEncode
+: 
 ---
 
 # CryptXmlEncode function

@@ -9,8 +9,8 @@ ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], IWMGetSecureChannel interface [windows Media Format],described, wmformat.iwmgetsecurechannel, wmsecure/IWMGetSecureChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 

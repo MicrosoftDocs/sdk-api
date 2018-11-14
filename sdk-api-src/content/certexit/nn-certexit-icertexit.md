@@ -7,10 +7,10 @@ old-location: security\icertexit.htm
 tech.root: seccrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certexit.h
 req.include-header: Certsrv.h

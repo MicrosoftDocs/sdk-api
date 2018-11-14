@@ -9,8 +9,8 @@ ms.assetid: 914f2a4d-a67a-45d9-96ee-d8cae7d08e3c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEnumObjects, IEnumObjects interface [Windows Shell], IEnumObjects interface [Windows Shell],described, _shell_IEnumObjects, shell.IEnumObjects, shobjidl_core/IEnumObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

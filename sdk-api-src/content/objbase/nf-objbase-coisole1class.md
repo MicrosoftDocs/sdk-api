@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CoIsOle1Class
+: 
 ---
 
 # CoIsOle1Class function

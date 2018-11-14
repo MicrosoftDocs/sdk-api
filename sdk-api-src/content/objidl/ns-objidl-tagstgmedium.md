@@ -9,8 +9,8 @@ ms.assetid: 5d05819a-10db-4d8e-91e4-8a7c05885cde
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPSTGMEDIUM, ASYNC_STGMEDIUM, LPSTGMEDIUM, LPSTGMEDIUM structure pointer [COM], STGMEDIUM, STGMEDIUM structure [COM], _ole_STGMEDIUM, com.stgmedium, objidl/LPSTGMEDIUM, objidl/STGMEDIUM, tagSTGMEDIUM, uSTGMEDIUM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

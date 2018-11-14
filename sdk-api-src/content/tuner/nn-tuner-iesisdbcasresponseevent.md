@@ -9,8 +9,8 @@ ms.assetid: 141c6798-5dca-495e-bdbe-f07e457a3d8a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], IESIsdbCasResponseEvent interface [DirectShow],described, mstv.iesisdbcasresponseevent, tuner/IESIsdbCasResponseEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

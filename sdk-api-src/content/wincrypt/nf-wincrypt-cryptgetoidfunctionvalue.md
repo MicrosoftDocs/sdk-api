@@ -7,7 +7,7 @@ old-location: security\cryptgetoidfunctionvalue.htm
 tech.root: seccrypto
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptGetOIDFunctionValue
+: 
 ---
 
 # CryptGetOIDFunctionValue function

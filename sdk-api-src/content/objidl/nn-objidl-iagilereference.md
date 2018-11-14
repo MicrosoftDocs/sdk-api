@@ -9,8 +9,8 @@ ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], IBackgroundCopyJobHttpOptions interface [BITS],described, bits.ibackgroundcopyjobhttpoptions, bits2_5/IBackgroundCopyJobHttpOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits2_5.h
 req.include-header: Bits.h

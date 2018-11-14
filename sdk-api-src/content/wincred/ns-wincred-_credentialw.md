@@ -7,10 +7,10 @@ old-location: security\credential.htm
 tech.root: secauthn
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCREDENTIALW, CREDENTIAL, CREDENTIAL structure [Security], CREDENTIALA, CREDENTIALW, CRED_FLAGS_PROMPT_NOW, CRED_FLAGS_USERNAME_TARGET, CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_SESSION, CRED_TYPE_DOMAIN_CERTIFICATE, CRED_TYPE_DOMAIN_EXTENDED, CRED_TYPE_DOMAIN_PASSWORD, CRED_TYPE_DOMAIN_VISIBLE_PASSWORD, CRED_TYPE_GENERIC, CRED_TYPE_GENERIC_CERTIFICATE, CRED_TYPE_MAXIMUM, CRED_TYPE_MAXIMUM_EX, PCREDENTIAL, PCREDENTIAL structure pointer [Security], _CREDENTIALW, _cred_credential, security.credential, wincred/CREDENTIAL, wincred/CREDENTIALA, wincred/CREDENTIALW, wincred/PCREDENTIAL"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DVertexBuffer9.GetDesc
+: 
 ---
 
 # IDirect3DVertexBuffer9::GetDesc

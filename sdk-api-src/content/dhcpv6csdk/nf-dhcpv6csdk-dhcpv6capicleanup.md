@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Dhcpv6CApiCleanup
+: 
 ---
 
 # Dhcpv6CApiCleanup function

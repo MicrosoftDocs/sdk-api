@@ -9,8 +9,8 @@ ms.assetid: 49ec5657-d54e-4af7-8c20-00de383ecf89
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IProcessLock, IProcessLock interface [COM], IProcessLock interface [COM],described, _com_iprocesslock, com.iprocesslock, objidl/IProcessLock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

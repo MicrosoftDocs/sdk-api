@@ -7,7 +7,7 @@ old-location: security\certgetintendedkeyusage.htm
 tech.root: seccrypto
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertGetIntendedKeyUsage
+: 
 ---
 
 # CertGetIntendedKeyUsage function

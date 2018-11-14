@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- upnp.h
+: 
+- IUPnPDevice.get_ModelNumber
+: 
 ---
 
 # IUPnPDevice::get_ModelNumber

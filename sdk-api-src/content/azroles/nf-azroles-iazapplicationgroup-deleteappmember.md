@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_deleteappmember.htm
 tech.root: secauthz
 ms.assetid: 856d9b18-927a-462a-b238-78b704bcc58b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzApplicationGroup object, DeleteAppMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppMember method, IAzApplicationGroup.DeleteAppMember, IAzApplicationGroup::DeleteAppMember, azroles/IAzApplicationGroup::DeleteAppMember, security.iazapplicationgroup_deleteappmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup.DeleteAppMember
+: 
 ---
 
 # IAzApplicationGroup::DeleteAppMember

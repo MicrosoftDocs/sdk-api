@@ -9,8 +9,8 @@ ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

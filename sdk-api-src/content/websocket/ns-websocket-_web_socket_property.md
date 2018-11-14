@@ -9,8 +9,8 @@ ms.assetid: c8b35288-4cc1-4839-a5be-4fd13b162c20
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY structure pointer [Websocket Protocol Component API], WEB_SOCKET_PROPERTY, WEB_SOCKET_PROPERTY structure [Websocket Protocol Component API], _WEB_SOCKET_PROPERTY, websock.web_socket_property, websocket/PWEB_SOCKET_PROPERTY, websocket/WEB_SOCKET_PROPERTY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: websocket.h
 req.include-header: 

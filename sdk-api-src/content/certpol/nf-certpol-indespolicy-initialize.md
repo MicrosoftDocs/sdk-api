@@ -7,7 +7,7 @@ old-location: security\indespolicy_initialize.htm
 tech.root: seccrypto
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certpol.h
+: 
+- INDESPolicy.Initialize
+: 
 ---
 
 # INDESPolicy::Initialize

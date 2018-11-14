@@ -9,8 +9,8 @@ ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes, tagDVD_TitleMainAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

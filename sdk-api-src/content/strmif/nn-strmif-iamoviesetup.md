@@ -9,8 +9,8 @@ ms.assetid: b200dbee-bab7-43d7-a204-751592fa2405
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup interface [DirectShow],described, IAMovieSetupInterface, dshow.iamoviesetup, strmif/IAMovieSetup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

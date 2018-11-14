@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromnetwork.htm
 tech.root: mscs
 ms.assetid: 90ac313a-9f60-4591-b0fa-89d99b007280
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: GetClusterFromNetwork, GetClusterFromNetwork function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NETWORK, PCLUSAPI_GET_CLUSTER_FROM_NETWORK function [Failover Cluster], _wolf_getclusterfromnetwork, clusapi/GetClusterFromNetwork, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NETWORK, mscs.getclusterfromnetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetClusterFromNetwork
+: 
 ---
 
 # GetClusterFromNetwork function

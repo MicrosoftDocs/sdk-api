@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\toolbar\structures\tbsaveparams.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTBSAVEPARAMSA, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS, tagTBSAVEPARAMSA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

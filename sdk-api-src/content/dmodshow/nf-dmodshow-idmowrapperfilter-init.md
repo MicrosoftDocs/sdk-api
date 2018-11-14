@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dmodshow.h
+: 
+- IDMOWrapperFilter.Init
+: 
 ---
 
 # IDMOWrapperFilter::Init

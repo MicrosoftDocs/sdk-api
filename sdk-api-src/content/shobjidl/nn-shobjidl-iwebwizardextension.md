@@ -9,8 +9,8 @@ ms.assetid: f1b5f53a-3163-486f-bbe9-a8fc6b244591
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWebWizardExtension, IWebWizardExtension interface [Windows Shell], IWebWizardExtension interface [Windows Shell],described, _shell_IWebWizardExtension, shell.IWebWizardExtension, shobjidl/IWebWizardExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

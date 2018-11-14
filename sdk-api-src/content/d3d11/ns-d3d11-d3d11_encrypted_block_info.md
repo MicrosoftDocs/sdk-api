@@ -7,10 +7,10 @@ old-location: mf\d3d11_encrypted_block_info.htm
 tech.root: medfound
 ms.assetid: C52E2007-1E2B-4259-BE32-A96BB439F7C0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: D3D11_ENCRYPTED_BLOCK_INFO, D3D11_ENCRYPTED_BLOCK_INFO structure [Media Foundation], d3d11/D3D11_ENCRYPTED_BLOCK_INFO, mf.d3d11_encrypted_block_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

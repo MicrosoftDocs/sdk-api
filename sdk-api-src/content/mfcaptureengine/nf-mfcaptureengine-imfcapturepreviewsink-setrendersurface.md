@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_setrendersurface.htm
 tech.root: medfound
 ms.assetid: AC50EB86-A39D-4ACA-9582-A8DB0232E056
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderSurface method, IMFCapturePreviewSink.SetRenderSurface, IMFCapturePreviewSink::SetRenderSurface, SetRenderSurface, SetRenderSurface method [Media Foundation], SetRenderSurface method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrendersurface, mfcaptureengine/IMFCapturePreviewSink::SetRenderSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfcaptureengine.h
+: 
+- IMFCapturePreviewSink.SetRenderSurface
+: 
 ---
 
 # IMFCapturePreviewSink::SetRenderSurface

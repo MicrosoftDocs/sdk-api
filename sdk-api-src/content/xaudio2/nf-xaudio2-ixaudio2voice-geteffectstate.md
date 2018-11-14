@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xaudio2.h
+: 
+- IXAudio2Voice.GetEffectState
+: 
 ---
 
 # IXAudio2Voice::GetEffectState

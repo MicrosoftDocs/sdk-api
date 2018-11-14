@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IAnalogTVTuningSpace.get_CountryCode
+: 
 ---
 
 # IAnalogTVTuningSpace::get_CountryCode

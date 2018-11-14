@@ -9,8 +9,8 @@ ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IdentityType, IdentityType enumeration [Windows Runtime], IdentityType_ActivateAsActivatingUser, IdentityType_ActivateAsActivator, IdentityType_ActivateAsPackage, IdentityType_RunAs, IdentityType_SessionUser, IdentityType_SessionVirtual, activationregistration/IdentityType, activationregistration/IdentityType_ActivateAsActivatingUser, activationregistration/IdentityType_ActivateAsActivator, activationregistration/IdentityType_ActivateAsPackage, activationregistration/IdentityType_RunAs, activationregistration/IdentityType_SessionUser, activationregistration/IdentityType_SessionVirtual, winrt.identitytype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 

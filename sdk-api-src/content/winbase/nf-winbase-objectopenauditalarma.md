@@ -7,7 +7,7 @@ old-location: security\objectopenauditalarm.htm
 tech.root: secauthz
 ms.assetid: f3cb607b-a8fd-4a1b-9361-7ccd7cd8aac2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ObjectOpenAuditAlarm, ObjectOpenAuditAlarm function [Security], ObjectOpenAuditAlarmA, ObjectOpenAuditAlarmW, _win32_objectopenauditalarm, security.objectopenauditalarm, winbase/ObjectOpenAuditAlarm, winbase/ObjectOpenAuditAlarmA, winbase/ObjectOpenAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ObjectOpenAuditAlarmA
+: 
 ---
 
 # ObjectOpenAuditAlarmA function

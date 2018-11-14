@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- audiopolicy.h
+: 
+- IAudioSessionControl2.GetProcessId
+: 
 ---
 
 # IAudioSessionControl2::GetProcessId

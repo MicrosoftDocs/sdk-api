@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidFeatures.get__NewEnum
+: 
 ---
 
 # IMSVidFeatures::get__NewEnum

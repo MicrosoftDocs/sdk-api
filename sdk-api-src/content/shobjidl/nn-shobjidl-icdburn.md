@@ -9,8 +9,8 @@ ms.assetid: 8867ae52-2109-4967-b9b9-a4fe89cf4622
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICDBurn, ICDBurn interface [Windows Shell], ICDBurn interface [Windows Shell],described, _shell_ICDBurn, shell.ICDBurn, shobjidl/ICDBurn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

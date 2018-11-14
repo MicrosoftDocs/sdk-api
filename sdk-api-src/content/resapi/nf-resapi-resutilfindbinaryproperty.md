@@ -7,7 +7,7 @@ old-location: mscs\resutilfindbinaryproperty.htm
 tech.root: mscs
 ms.assetid: 3be864ae-dc02-47e7-aa86-a6c14be13091
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_FIND_BINARY_PROPERTY, PRESUTIL_FIND_BINARY_PROPERTY function [Failover Cluster], ResUtilFindBinaryProperty, ResUtilFindBinaryProperty function [Failover Cluster], _wolf_resutilfindbinaryproperty, mscs.resutilfindbinaryproperty, resapi/PRESUTIL_FIND_BINARY_PROPERTY, resapi/ResUtilFindBinaryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilFindBinaryProperty
+: 
 ---
 
 # ResUtilFindBinaryProperty function

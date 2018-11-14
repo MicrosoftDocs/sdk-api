@@ -9,8 +9,8 @@ ms.assetid: b071ba1c-5860-4492-ad86-71eaeeb74df4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback callback function [Windows Deployment Services], WDS_CLI_MSG_COMPLETE, WDS_CLI_MSG_PROGRESS, WDS_CLI_MSG_START, WDS_CLI_MSG_TEXT, wds.pfn_wdsclicallback, wdsclientapi/PFN_WdsCliCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wdsclientapi.h
 req.include-header: 

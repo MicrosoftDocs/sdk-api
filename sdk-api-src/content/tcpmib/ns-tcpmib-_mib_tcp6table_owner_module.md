@@ -9,8 +9,8 @@ ms.assetid: aa52531c-1d4e-44f9-8638-1528beb491f3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_TCP6TABLE_OWNER_MODULE, MIB_TCP6TABLE_OWNER_MODULE, MIB_TCP6TABLE_OWNER_MODULE structure [MIB], PMIB_TCP6TABLE_OWNER_MODULE, PMIB_TCP6TABLE_OWNER_MODULE structure pointer [MIB], _MIB_TCP6TABLE_OWNER_MODULE, iprtrmib/MIB_TCP6TABLE_OWNER_MODULE, iprtrmib/PMIB_TCP6TABLE_OWNER_MODULE, mib.mib_tcp6table_owner_module, tcpmib/MIB_TCP6TABLE_OWNER_MODULE, tcpmib/PMIB_TCP6TABLE_OWNER_MODULE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

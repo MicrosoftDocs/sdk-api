@@ -9,8 +9,8 @@ ms.assetid: ad1c3075-21d9-409f-9677-fbf6d0c50313
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IDownloadCompletedCallback, IDownloadCompletedCallback interface [Windows Update Agent], IDownloadCompletedCallback interface [Windows Update Agent],described, wua.idownloadcompletedcallback, wuapi/IDownloadCompletedCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

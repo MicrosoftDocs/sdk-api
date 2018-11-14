@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_HW_Prof_FlagsA
+: 
 ---
 
 # CM_Get_HW_Prof_FlagsA function

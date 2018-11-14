@@ -9,8 +9,8 @@ ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

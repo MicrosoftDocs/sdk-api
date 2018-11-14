@@ -7,7 +7,7 @@ old-location: security\setentriesinacl.htm
 tech.root: secauthz
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetEntriesInAclA
+: 
 ---
 
 # SetEntriesInAclA function

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetPixel_x_y_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\getpixel.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Bitmap class [GDI+],GetPixel method, Bitmap.GetPixel, Bitmap::GetPixel, GetPixel, GetPixel method [GDI+], GetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_GetPixel_x_y_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.GetPixel
+: 
 req.product: GDI+ 1.0
 ---
 

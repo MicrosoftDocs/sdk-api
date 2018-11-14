@@ -9,8 +9,8 @@ ms.assetid: 02f1220b-d400-469e-8a28-64871f7fcbe2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], IUPnPDeviceFinderCallback interface [UPnP APIs],described, _upnp_iupnpdevicefindercallback, upnp.iupnpdevicefindercallback, upnp/IUPnPDeviceFinderCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

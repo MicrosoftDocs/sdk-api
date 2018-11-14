@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm
 tech.root: medfound
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderDeviceGuids method, IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxva2api.h
+: 
+- IDirectXVideoDecoderService.GetDecoderDeviceGuids
+: 
 ---
 
 # IDirectXVideoDecoderService::GetDecoderDeviceGuids

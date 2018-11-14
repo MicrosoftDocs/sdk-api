@@ -9,8 +9,8 @@ ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

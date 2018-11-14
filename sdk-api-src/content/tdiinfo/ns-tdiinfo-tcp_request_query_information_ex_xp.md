@@ -9,8 +9,8 @@ ms.assetid: 2a1f3a41-ee18-4a67-9da1-a5b18d32defb
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PTCP_REQUEST_QUERY_INFORMATION_EX, *PTCP_REQUEST_QUERY_INFORMATION_EX_XP, PTCP_REQUEST_QUERY_INFORMATION_EX, PTCP_REQUEST_QUERY_INFORMATION_EX structure pointer [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX, TCP_REQUEST_QUERY_INFORMATION_EX structure [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX_XP, tcp_request_query_information_ex_xp, tdiinfo/PTCP_REQUEST_QUERY_INFORMATION_EX, tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX, winprog.tcp_request_query_information_ex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tdiinfo.h
 req.include-header: 

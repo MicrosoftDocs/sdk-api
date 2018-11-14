@@ -7,7 +7,7 @@ old-location: base\iswindows8_1orgreater.htm
 tech.root: sysinfo
 ms.assetid: E391B568-5E43-42C7-B186-8CA524331FFE
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsWindows8Point1OrGreater
+: 
 ---
 
 # IsWindows8Point1OrGreater function

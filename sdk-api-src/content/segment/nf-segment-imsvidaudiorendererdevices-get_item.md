@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidAudioRendererDevices.get_Item
+: 
 ---
 
 # IMSVidAudioRendererDevices::get_Item

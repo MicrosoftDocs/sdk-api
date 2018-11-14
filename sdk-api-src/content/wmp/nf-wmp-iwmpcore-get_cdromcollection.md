@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPCore.get_cdromCollection
+: 
 ---
 
 # IWMPCore::get_cdromCollection

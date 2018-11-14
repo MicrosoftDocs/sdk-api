@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Brush_GetOpacity.htm
 tech.root: direct2d
 ms.assetid: 1a11b36f-96c3-46fb-9fae-721edb097ad7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetOpacity, GetOpacity method [Direct2D], GetOpacity method [Direct2D],ID2D1Brush interface, ID2D1Brush interface [Direct2D],GetOpacity method, ID2D1Brush.GetOpacity, ID2D1Brush::GetOpacity, d2d1/ID2D1Brush::GetOpacity, direct2d.ID2D1Brush_GetOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Brush.GetOpacity
+: 
 ---
 
 # ID2D1Brush::GetOpacity

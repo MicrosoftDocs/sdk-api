@@ -7,7 +7,7 @@ old-location: security\cryptgetoidfunctionaddress.htm
 tech.root: seccrypto
 ms.assetid: 2eef6109-a840-48c6-936c-ec0875039c39
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRYPT_GET_INSTALLED_OID_FUNC_FLAG, CryptGetOIDFunctionAddress, CryptGetOIDFunctionAddress function [Security], _crypto2_cryptgetoidfunctionaddress, security.cryptgetoidfunctionaddress, wincrypt/CryptGetOIDFunctionAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptGetOIDFunctionAddress
+: 
 ---
 
 # CryptGetOIDFunctionAddress function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITransformProvider.get_CanMove
+: 
 ---
 
 # ITransformProvider::get_CanMove

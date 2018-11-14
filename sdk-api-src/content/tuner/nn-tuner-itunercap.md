@@ -9,8 +9,8 @@ ms.assetid: d7027ff4-4fb9-48c1-b527-92e65009b089
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITunerCap, ITunerCap interface [Microsoft TV Technologies], ITunerCap interface [Microsoft TV Technologies],described, ITunerCapInterface, mstv.itunercap, tuner/ITunerCap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

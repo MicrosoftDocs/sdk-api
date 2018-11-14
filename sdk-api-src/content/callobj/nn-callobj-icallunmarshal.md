@@ -9,8 +9,8 @@ ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

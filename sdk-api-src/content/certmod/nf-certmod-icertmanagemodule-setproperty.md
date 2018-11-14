@@ -7,7 +7,7 @@ old-location: security\icertmanagemodule_setproperty.htm
 tech.root: seccrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certmod.h
+: 
+- ICertManageModule.SetProperty
+: 
 ---
 
 # ICertManageModule::SetProperty

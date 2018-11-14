@@ -48,6 +48,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- inked.h
+: 
+- IInkEdit.get_MouseIcon
+: 
 ---
 
 # IInkEdit::get_MouseIcon

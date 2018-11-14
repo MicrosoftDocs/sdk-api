@@ -7,7 +7,7 @@ old-location: tapi3\itphone_get_hookswitchstate.htm
 tech.root: tapi
 ms.assetid: 4560b447-45af-482a-b97b-dd0cbdb52466
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_HookSwitchState method, ITPhone.get_HookSwitchState, ITPhone::get_HookSwitchState, _tapi3_itphone_get_hookswitchstate, get_HookSwitchState, get_HookSwitchState method [TAPI 2.2], get_HookSwitchState method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_hookswitchstate, tapi3if/ITPhone::get_HookSwitchState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITPhone.get_HookSwitchState
+: 
 ---
 
 # ITPhone::get_HookSwitchState

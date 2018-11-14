@@ -9,8 +9,8 @@ ms.assetid: a57d23cd-1e91-401a-b242-6549b1457594
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_BYTE_RANGE, HTTP_BYTE_RANGE, HTTP_BYTE_RANGE structure [HTTP], PHTTP_BYTE_RANGE, PHTTP_BYTE_RANGE structure pointer [HTTP], _HTTP_BYTE_RANGE, _http_http_byte_range, http.http_byte_range, http/HTTP_BYTE_RANGE, http/PHTTP_BYTE_RANGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

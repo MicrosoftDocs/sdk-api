@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IFileSystemBindData2.GetJunctionCLSID
+: 
 ---
 
 # IFileSystemBindData2::GetJunctionCLSID

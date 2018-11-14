@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ISecurityIdentityColl.get__NewEnum
+: 
 ---
 
 # ISecurityIdentityColl::get__NewEnum

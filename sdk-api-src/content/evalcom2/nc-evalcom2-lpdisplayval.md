@@ -9,8 +9,8 @@ ms.assetid: ff7b2789-a825-4fa4-b00c-a538f37d0eba
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: evalcom2.h
 req.include-header: 

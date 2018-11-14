@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: BIDIOPTIONS, BIDIOPTIONS structure [Windows Controls], BOE_CONTEXTALIGNMENT, BOE_CONTEXTREADING, BOE_FORCERECALC, BOE_LEGACYBIDICLASS, BOE_NEUTRALOVERRIDE, BOE_PLAINTEXT, BOE_RTLDIR, BOE_UNICODEBIDI, BOM_CONTEXTALIGNMENT, BOM_CONTEXTREADING, BOM_DEFPARADIR, BOM_LEGACYBIDICLASS, BOM_NEUTRALOVERRIDE, BOM_PLAINTEXT, BOM_UNICODEBIDI, _bidioptions, _win32_BIDIOPTIONS_str, _win32_BIDIOPTIONS_str_cpp, controls.BIDIOPTIONS, controls._win32_BIDIOPTIONS_str, richedit/BIDIOPTIONS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

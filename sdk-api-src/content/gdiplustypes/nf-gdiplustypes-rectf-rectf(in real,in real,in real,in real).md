@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_x_y_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_87x_y_width_height.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL), RectF.RectF(REAL,REAL,REAL,REAL), RectF::RectF, RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_RectF_RectF_x_y_width_height_, gdiplus._gdiplus_CLASS_RectF_RectF_x_y_width_height_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- RectF.RectF
+: 
 req.product: GDI+ 1.0
 ---
 

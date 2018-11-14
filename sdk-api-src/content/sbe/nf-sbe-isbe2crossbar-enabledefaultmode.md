@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbe.h
+: 
+- ISBE2Crossbar.EnableDefaultMode
+: 
 ---
 
 # ISBE2Crossbar::EnableDefaultMode

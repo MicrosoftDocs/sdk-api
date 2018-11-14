@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_getcallmediatypes.htm
 tech.root: tapi
 ms.assetid: 7331afda-d021-428e-aa09-eecc96709744
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetCallMediaTypes method, CMSPAddress.GetCallMediaTypes, CMSPAddress::GetCallMediaTypes, GetCallMediaTypes, GetCallMediaTypes method [TAPI 2.2], GetCallMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getcallmediatypes, mspaddr/CMSPAddress::GetCallMediaTypes, tapi3.cmspaddress_getcallmediatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspaddr.h
+: 
+- CMSPAddress.GetCallMediaTypes
+: 
 ---
 
 # CMSPAddress::GetCallMediaTypes

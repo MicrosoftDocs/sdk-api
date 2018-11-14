@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromauthzcontext.htm
 tech.root: secauthz
 ms.assetid: dac5e354-ee31-45e3-9eb8-8f3263161ad2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzInitializeContextFromAuthzContext
+: 
 ---
 
 # AuthzInitializeContextFromAuthzContext function

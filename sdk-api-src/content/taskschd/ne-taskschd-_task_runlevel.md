@@ -9,8 +9,8 @@ ms.assetid: 27e8e4c2-6898-4785-a311-b7fbbf7e0108
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, TASK_RUNLEVEL_TYPE, TASK_RUNLEVEL_TYPE enumeration [Task Scheduler], _TASK_RUNLEVEL, taskschd.task_runlevel_type, taskschd/TASK_RUNLEVEL_HIGHEST, taskschd/TASK_RUNLEVEL_LUA, taskschd/TASK_RUNLEVEL_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\icenroll4_reusehardwarekeyifunabletogennew.htm
 tech.root: seccrypto
 ms.assetid: 5a9d5f78-bf88-4e24-9685-7c504f9f2e38
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3.ReuseHardwareKeyIfUnableToGenNew, ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll4.ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew, ReuseHardwareKeyIfUnableToGenNew property [Security], ReuseHardwareKeyIfUnableToGenNew property [Security],CEnroll object, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll3 interface, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll4 interface, get_ReuseHardwareKeyIfUnableToGenNew, security.icenroll4_reusehardwarekeyifunabletogennew, xenroll/ICEnroll3::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
+: 
 ---
 
 # ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew

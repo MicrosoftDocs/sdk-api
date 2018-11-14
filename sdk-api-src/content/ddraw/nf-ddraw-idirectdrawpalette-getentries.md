@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ddraw.h
+: 
+- IDirectDrawPalette.GetEntries
+: 
 ---
 
 # IDirectDrawPalette::GetEntries

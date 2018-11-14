@@ -2,7 +2,7 @@
 UID: TP:stillimg
 ms.assetid: 23d8f852-8b2d-3283-8690-f9d1e0f7ef36
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

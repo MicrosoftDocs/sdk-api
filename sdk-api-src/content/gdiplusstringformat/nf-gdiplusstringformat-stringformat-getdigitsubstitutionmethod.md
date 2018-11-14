@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getdigitsubstitutionmethod.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetDigitSubstitutionMethod, GetDigitSubstitutionMethod method [GDI+], GetDigitSubstitutionMethod method [GDI+],StringFormat class, StringFormat class [GDI+],GetDigitSubstitutionMethod method, StringFormat.GetDigitSubstitutionMethod, StringFormat::GetDigitSubstitutionMethod, _gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_, gdiplus._gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.GetDigitSubstitutionMethod
+: 
 req.product: GDI+ 1.0
 ---
 

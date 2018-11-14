@@ -7,7 +7,7 @@ old-location: security\setfilesecurity.htm
 tech.root: secauthz
 ms.assetid: 27766c97-7ac5-40fc-b798-7cd07e496c0d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetFileSecurity, SetFileSecurity function [Security], SetFileSecurityA, SetFileSecurityW, _win32_setfilesecurity, security.setfilesecurity, winbase/SetFileSecurity, winbase/SetFileSecurityA, winbase/SetFileSecurityW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,6 +53,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetFileSecurityA
+: 
 ---
 
 # SetFileSecurityA function

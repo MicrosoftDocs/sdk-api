@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vds.h
+: 
+- IVdsDisk3.QueryFreeExtents
+: 
 ---
 
 # IVdsDisk3::QueryFreeExtents

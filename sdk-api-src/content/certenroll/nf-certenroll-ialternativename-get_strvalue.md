@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IAlternativeName.get_StrValue
+: 
 ---
 
 # IAlternativeName::get_StrValue

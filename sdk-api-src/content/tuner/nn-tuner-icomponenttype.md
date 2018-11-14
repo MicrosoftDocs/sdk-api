@@ -9,8 +9,8 @@ ms.assetid: e83bbbbe-64a9-4ed3-9c32-925ca80c2c38
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], IComponentType interface [Microsoft TV Technologies],described, IComponentTypeInterface, mstv.icomponenttype, tuner/IComponentType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

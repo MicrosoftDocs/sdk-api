@@ -7,10 +7,10 @@ old-location: mf\imfgetservice.htm
 tech.root: medfound
 ms.assetid: 102a1dff-8419-4f86-a145-53ce3d0123f5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 102a1dff-8419-4f86-a145-53ce3d0123f5, IMFGetService, IMFGetService interface [Media Foundation], IMFGetService interface [Media Foundation],described, mf.imfgetservice, mfidl/IMFGetService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

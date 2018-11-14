@@ -7,10 +7,10 @@ old-location: mscs\cluspartitionex.htm
 tech.root: mscs
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPartitionEx object [Failover Cluster],described, ISClusPartitionEx, msclus/ClusPartitionEx, mscs.cluspartitionex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

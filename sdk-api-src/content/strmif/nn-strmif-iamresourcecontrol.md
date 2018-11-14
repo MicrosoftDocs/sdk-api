@@ -9,8 +9,8 @@ ms.assetid: 9b0b6b46-bf61-44c2-981a-44df4d7c6dfb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMResourceControl interface [DirectShow],described, IAMResourceControlInterface, dshow.iamresourcecontrol, strmif/IAMResourceControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

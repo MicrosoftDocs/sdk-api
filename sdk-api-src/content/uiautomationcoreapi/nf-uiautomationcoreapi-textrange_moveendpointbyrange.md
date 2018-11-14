@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TextRange_MoveEndpointByRange
+: 
 ---
 
 # TextRange_MoveEndpointByRange function

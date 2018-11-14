@@ -9,8 +9,8 @@ ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], _SdpQueryUuid, bluetooth.sdpqueryuuid, bthsdpdef/SdpQueryUuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bthsdpdef.h
 req.include-header: 

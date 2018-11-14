@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognitionResult.get_TopConfidence
+: 
 ---
 
 # IInkRecognitionResult::get_TopConfidence

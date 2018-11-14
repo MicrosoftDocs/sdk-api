@@ -7,10 +7,10 @@ old-location: security\crl_info.htm
 tech.root: seccrypto
 ms.assetid: 06a28de3-dd7c-4efe-9baa-20aac69d63f3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCRL_INFO, CRL_INFO, CRL_INFO structure [Security], CRL_V1, CRL_V2, PCRL_INFO, PCRL_INFO structure pointer [Security], _CRL_INFO, _crypto2_crl_info, security.crl_info, wincrypt/CRL_INFO, wincrypt/PCRL_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

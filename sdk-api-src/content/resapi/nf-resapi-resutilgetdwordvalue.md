@@ -7,7 +7,7 @@ old-location: mscs\resutilgetdwordvalue.htm
 tech.root: mscs
 ms.assetid: 2db6126e-a3a7-415b-a436-c3d0748fbc65
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_GET_DWORD_VALUE, PRESUTIL_GET_DWORD_VALUE function [Failover Cluster], ResUtilGetDwordValue, ResUtilGetDwordValue function [Failover Cluster], _wolf_resutilgetdwordvalue, mscs.resutilgetdwordvalue, resapi/PRESUTIL_GET_DWORD_VALUE, resapi/ResUtilGetDwordValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilGetDwordValue
+: 
 ---
 
 # ResUtilGetDwordValue function

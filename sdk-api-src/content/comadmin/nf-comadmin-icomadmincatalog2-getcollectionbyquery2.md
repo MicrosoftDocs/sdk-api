@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICOMAdminCatalog2.GetCollectionByQuery2
+: 
 ---
 
 # ICOMAdminCatalog2::GetCollectionByQuery2

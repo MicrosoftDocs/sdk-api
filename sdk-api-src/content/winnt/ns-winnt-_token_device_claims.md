@@ -7,10 +7,10 @@ old-location: security\token_device_claims.htm
 tech.root: secauthz
 ms.assetid: FF20B64C-BD5F-45F5-83F1-B52634BE1065
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PTOKEN_DEVICE_CLAIMS, PTOKEN_DEVICE_CLAIMS, PTOKEN_DEVICE_CLAIMS structure pointer [Security], TOKEN_DEVICE_CLAIMS, TOKEN_DEVICE_CLAIMS structure [Security], _TOKEN_DEVICE_CLAIMS, security.token_device_claims, winnt/PTOKEN_DEVICE_CLAIMS, winnt/TOKEN_DEVICE_CLAIMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

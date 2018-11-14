@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IDiscFormat2Data.get_CurrentMediaStatus
+: 
 ---
 
 # IDiscFormat2Data::get_CurrentMediaStatus

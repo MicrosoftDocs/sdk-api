@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_play.htm
 tech.root: medfound
 ms.assetid: 2D6083F5-734A-4350-8E54-56C79038389D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Play method, IMFMediaEngine.Play, IMFMediaEngine::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_play, mfmediaengine/IMFMediaEngine::Play
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngine.Play
+: 
 ---
 
 # IMFMediaEngine::Play

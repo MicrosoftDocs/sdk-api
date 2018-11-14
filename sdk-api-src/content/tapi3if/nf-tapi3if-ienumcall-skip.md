@@ -7,7 +7,7 @@ old-location: tapi3\ienumcall_skip.htm
 tech.root: tapi
 ms.assetid: a60a56cb-3560-4a5a-bdc2-5e578b02ce20
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Skip method, IEnumCall.Skip, IEnumCall::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_skip, tapi3.ienumcall_skip, tapi3if/IEnumCall::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- IEnumCall.Skip
+: 
 ---
 
 # IEnumCall::Skip

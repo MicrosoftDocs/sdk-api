@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorReceivePacket function
 author: windows-sdk-content
 description: Processes an EAP authentication packet received by the server EAPHost and returns a response action.
 old-location: eaphost\eapmethodauthenticatorreceivepacket.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 93505c06-fc77-44e6-8ca2-e52ee67ca267
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EapMethodAuthenticatorReceivePacket, EapMethodAuthenticatorReceivePacket function [EAPHost], eaphost.eapmethodauthenticatorreceivepacket, eapmethodauthenticatorapis/EapMethodAuthenticatorReceivePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapMethodAuthenticatorReceivePacket
+: 
 ---
 
 # EapMethodAuthenticatorReceivePacket function

@@ -7,7 +7,7 @@ old-location: security\sspiisauthidentityencrypted.htm
 tech.root: secauthn
 ms.assetid: b85095f5-0ca5-4d75-866d-9b756404c1d9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [Security], security.sspiisauthidentityencrypted, sspi/SspiIsAuthIdentityEncrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SspiIsAuthIdentityEncrypted
+: 
 ---
 
 # SspiIsAuthIdentityEncrypted function

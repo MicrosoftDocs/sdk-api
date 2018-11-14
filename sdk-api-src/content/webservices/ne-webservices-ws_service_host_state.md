@@ -9,8 +9,8 @@ ms.assetid: 99745db7-6e9c-49fd-a97a-4430a80064bb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SERVICE_HOST_STATE, WS_SERVICE_HOST_STATE enumeration [Web Services for Windows], WS_SERVICE_HOST_STATE_CLOSED, WS_SERVICE_HOST_STATE_CLOSING, WS_SERVICE_HOST_STATE_CREATED, WS_SERVICE_HOST_STATE_FAULTED, WS_SERVICE_HOST_STATE_OPEN, WS_SERVICE_HOST_STATE_OPENING, webservices/WS_SERVICE_HOST_STATE, webservices/WS_SERVICE_HOST_STATE_CLOSED, webservices/WS_SERVICE_HOST_STATE_CLOSING, webservices/WS_SERVICE_HOST_STATE_CREATED, webservices/WS_SERVICE_HOST_STATE_FAULTED, webservices/WS_SERVICE_HOST_STATE_OPEN, webservices/WS_SERVICE_HOST_STATE_OPENING, wsw.ws_service_host_state
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

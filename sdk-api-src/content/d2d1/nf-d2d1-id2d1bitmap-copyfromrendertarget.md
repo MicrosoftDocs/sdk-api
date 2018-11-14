@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Bitmap_CopyFromRenderTarget.htm
 tech.root: direct2d
 ms.assetid: 42e25099-016e-4656-a412-72dd0fbac1fd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CopyFromRenderTarget, CopyFromRenderTarget method [Direct2D], CopyFromRenderTarget method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromRenderTarget method, ID2D1Bitmap.CopyFromRenderTarget, ID2D1Bitmap::CopyFromRenderTarget, d2d1/ID2D1Bitmap::CopyFromRenderTarget, direct2d.ID2D1Bitmap_CopyFromRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Bitmap.CopyFromRenderTarget
+: 
 ---
 
 # ID2D1Bitmap::CopyFromRenderTarget

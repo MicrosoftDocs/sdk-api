@@ -9,8 +9,8 @@ ms.assetid: feb493da-0db2-4251-ba6f-ded1fbd3e430
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: OLECMDF, OLECMDF enumeration [COM], OLECMDF_DEFHIDEONCTXTMENU, OLECMDF_ENABLED, OLECMDF_INVISIBLE, OLECMDF_LATCHED, OLECMDF_NINCHED, OLECMDF_SUPPORTED, _ole_OLECMDF, com.olecmdf, docobj/OLECMDF, docobj/OLECMDF_DEFHIDEONCTXTMENU, docobj/OLECMDF_ENABLED, docobj/OLECMDF_INVISIBLE, docobj/OLECMDF_LATCHED, docobj/OLECMDF_NINCHED, docobj/OLECMDF_SUPPORTED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: docobj.h
 req.include-header: 

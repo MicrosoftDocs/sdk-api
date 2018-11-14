@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- workspaceruntime.h
+: 
+- IWorkspace2.StartRemoteApplicationEx
+: 
 ---
 
 # IWorkspace2::StartRemoteApplicationEx

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_put_securitydescriptor.htm
 tech.root: tapi
 ms.assetid: 1a6fe823-c794-4b6c-af51-ef03efe62606
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],put_SecurityDescriptor method, ITDirectoryObject.put_SecurityDescriptor, ITDirectoryObject::put_SecurityDescriptor, _tapi3_itdirectoryobject_put_securitydescriptor, put_SecurityDescriptor, put_SecurityDescriptor method [TAPI 2.2], put_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::put_SecurityDescriptor, tapi3.itdirectoryobject_put_securitydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObject.put_SecurityDescriptor
+: 
 ---
 
 # ITDirectoryObject::put_SecurityDescriptor

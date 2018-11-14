@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IUnknown_QueryInterface_Proxy
+: 
 ---
 
 # IUnknown_QueryInterface_Proxy function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationGridPattern.get_CurrentColumnCount
+: 
 ---
 
 # IUIAutomationGridPattern::get_CurrentColumnCount

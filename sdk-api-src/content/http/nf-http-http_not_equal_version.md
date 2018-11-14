@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- http.h
+: 
+- HTTP_NOT_EQUAL_VERSION
+: 
 ---
 
 # HTTP_NOT_EQUAL_VERSION macro

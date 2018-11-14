@@ -9,8 +9,8 @@ ms.assetid: 19096DFB-A8CF-4DEF-863B-3DBB9E893A8D
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], IAppxEncryptedPackageWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter, appxpkg.iappxencryptedpackagewriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies],described, mstv.isbe2streammap, sbe/ISBE2StreamMap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

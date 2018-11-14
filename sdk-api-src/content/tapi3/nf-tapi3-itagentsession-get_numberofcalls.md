@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_numberofcalls.htm
 tech.root: tapi
 ms.assetid: 8a3f00fc-9da2-4dc9-ab9a-ebc92664e907
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_NumberOfCalls method, ITAgentSession.get_NumberOfCalls, ITAgentSession::get_NumberOfCalls, _tapi3_itagentsession_get_numberofcalls, get_NumberOfCalls, get_NumberOfCalls method [TAPI 2.2], get_NumberOfCalls method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_numberofcalls, tapi3cc/ITAgentSession::get_NumberOfCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITAgentSession.get_NumberOfCalls
+: 
 ---
 
 # ITAgentSession::get_NumberOfCalls

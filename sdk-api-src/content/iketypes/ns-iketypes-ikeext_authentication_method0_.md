@@ -9,8 +9,8 @@ ms.assetid: ce11d9ac-2636-432b-9bc7-3509f52478d9
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD0, IKEEXT_AUTHENTICATION_METHOD0 structure [Filtering], IKEEXT_AUTHENTICATION_METHOD0_, fwp.ikeext_authentication_method0, iketypes/IKEEXT_AUTHENTICATION_METHOD0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

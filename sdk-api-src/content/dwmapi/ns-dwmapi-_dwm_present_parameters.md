@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_prese
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DWM_PRESENT_PARAMETERS, DWM_PRESENT_PARAMETERS structure [Desktop Window Manager], _DWM_PRESENT_PARAMETERS, _udwm_dwm_present_parameters, _udwm_dwm_present_parameters_cpp, dwm.dwm_present_parameters, dwmapi/DWM_PRESENT_PARAMETERS, winui._udwm_dwm_present_parameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 

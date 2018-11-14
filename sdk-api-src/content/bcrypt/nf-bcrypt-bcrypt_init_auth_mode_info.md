@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- bcrypt.h
+: 
+- BCRYPT_INIT_AUTH_MODE_INFO
+: 
 ---
 
 # BCRYPT_INIT_AUTH_MODE_INFO macro

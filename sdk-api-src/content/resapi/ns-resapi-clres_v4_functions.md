@@ -7,10 +7,10 @@ old-location: mscs\clres_v4_functions.htm
 tech.root: mscs
 ms.assetid: B3722540-2AC2-4B31-A22B-D40DE0AFA7BD
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS structure [Failover Cluster], PCLRES_V4_FUNCTIONS, PCLRES_V4_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v4_functions, resapi/CLRES_V4_FUNCTIONS, resapi/PCLRES_V4_FUNCTIONS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

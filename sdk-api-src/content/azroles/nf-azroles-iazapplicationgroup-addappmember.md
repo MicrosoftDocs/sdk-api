@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_addappmember.htm
 tech.root: secauthz
 ms.assetid: 35b6c928-0c11-420d-8ba7-f28b0c67f55d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzApplicationGroup object, AddAppMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddAppMember method, IAzApplicationGroup interface [Security],AddAppMember method, IAzApplicationGroup.AddAppMember, IAzApplicationGroup::AddAppMember, azroles/IAzApplicationGroup::AddAppMember, security.iazapplicationgroup_addappmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup.AddAppMember
+: 
 ---
 
 # IAzApplicationGroup::AddAppMember

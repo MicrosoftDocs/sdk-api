@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- GET_WHEEL_DELTA_WPARAM
+: 
 ---
 
 # GET_WHEEL_DELTA_WPARAM macro

@@ -7,10 +7,10 @@ old-location: multimedia\mci_dgv_save_parms.htm
 tech.root: Multimedia
 ms.assetid: a647099c-f5f8-4728-99a1-8b5b8c6b67bf
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "*LPMCI_DGV_SAVE_PARMSW, MCI_DGV_SAVE_PARMS, MCI_DGV_SAVE_PARMS structure [Windows Multimedia], MCI_DGV_SAVE_PARMSW, _win32_MCI_DGV_SAVE_PARMS_str, digitalv/MCI_DGV_SAVE_PARMS, multimedia.mci_dgv_save_parms"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

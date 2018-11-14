@@ -9,8 +9,8 @@ ms.assetid: 21e2f1c8-926e-4e53-b8d1-aecc2d1a97cb
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IEnumTfFunctionProviders, IEnumTfFunctionProviders interface [Text Services Framework], IEnumTfFunctionProviders interface [Text Services Framework],described, _tsf_ienumtffunctionproviders_ref, msctf/IEnumTfFunctionProviders, tsf.ienumtffunctionproviders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

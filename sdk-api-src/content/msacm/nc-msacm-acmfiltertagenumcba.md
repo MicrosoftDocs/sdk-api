@@ -7,10 +7,10 @@ old-location: multimedia\acmfiltertagenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterTagEnumCallback, acmFilterTagEnumCallback, acmFilterTagEnumCallback callback function [Windows Multimedia], msacm/ACMFILTERTAGENUMCBA, msacm/ACMFILTERTAGENUMCBW, msacm/acmFilterTagEnumCallback, multimedia.acmfiltertagenumcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: msacm.h
 req.include-header: 

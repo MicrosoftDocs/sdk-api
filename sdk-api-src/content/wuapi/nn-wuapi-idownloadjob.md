@@ -9,8 +9,8 @@ ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

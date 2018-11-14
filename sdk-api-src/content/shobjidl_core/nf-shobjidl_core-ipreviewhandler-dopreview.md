@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IPreviewHandler.DoPreview
+: 
 ---
 
 # IPreviewHandler::DoPreview

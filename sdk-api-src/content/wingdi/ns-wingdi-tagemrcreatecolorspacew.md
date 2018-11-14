@@ -9,8 +9,8 @@ ms.assetid: eac364ad-ef17-4f60-ac4c-39d8a9af618b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEMRCREATECOLORSPACEW, EMRCREATECOLORSPACEW, EMRCREATECOLORSPACEW structure [Windows GDI], PEMRCREATECOLORSPACEW, PEMRCREATECOLORSPACEW structure pointer [Windows GDI], _win32_EMRCREATECOLORSPACEW_str, gdi.emrcreatecolorspacew, tagEMRCREATECOLORSPACEW, wingdi/EMRCREATECOLORSPACEW, wingdi/PEMRCREATECOLORSPACEW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

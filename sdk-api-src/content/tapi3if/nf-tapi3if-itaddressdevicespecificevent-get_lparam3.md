@@ -7,7 +7,7 @@ old-location: tapi3\itaddressdevicespecificevent_get_lparam3.htm
 tech.root: tapi
 ms.assetid: 8e0a513d-2bf4-4bdf-926f-2e88a8465073
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam3 method, ITAddressDeviceSpecificEvent.get_lParam3, ITAddressDeviceSpecificEvent::get_lParam3, _tapi3_itaddressdevicespecificevent_get_lparam3, get_lParam3, get_lParam3 method [TAPI 2.2], get_lParam3 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam3, tapi3if/ITAddressDeviceSpecificEvent::get_lParam3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddressDeviceSpecificEvent.get_lParam3
+: 
 ---
 
 # ITAddressDeviceSpecificEvent::get_lParam3

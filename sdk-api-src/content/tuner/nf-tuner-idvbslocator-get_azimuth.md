@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDVBSLocator.get_Azimuth
+: 
 ---
 
 # IDVBSLocator::get_Azimuth

@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_averagewaittime.htm
 tech.root: tapi
 ms.assetid: 94883656-8a72-464d-9478-89f698c98db8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_AverageWaitTime method, ITQueue.get_AverageWaitTime, ITQueue::get_AverageWaitTime, _tapi3_itqueue_get_averagewaittime, get_AverageWaitTime, get_AverageWaitTime method [TAPI 2.2], get_AverageWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_averagewaittime, tapi3cc/ITQueue::get_AverageWaitTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITQueue.get_AverageWaitTime
+: 
 ---
 
 # ITQueue::get_AverageWaitTime

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SHFind_InitMenuPopup
+: 
 ---
 
 # SHFind_InitMenuPopup function

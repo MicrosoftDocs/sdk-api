@@ -7,7 +7,7 @@ old-location: security\iazroledefinition_roleassignments.htm
 tech.root: secauthz
 ms.assetid: 1b8c3aaf-ed33-4253-b15f-06e5d3415d58
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleAssignments property, IAzRoleDefinition.RoleAssignments, IAzRoleDefinition::RoleAssignments, IAzRoleDefinition::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleAssignments, azroles/IAzRoleDefinition::get_RoleAssignments, security.iazroledefinition_roleassignments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRoleDefinition.RoleAssignments
+: 
 ---
 
 # IAzRoleDefinition::RoleAssignments

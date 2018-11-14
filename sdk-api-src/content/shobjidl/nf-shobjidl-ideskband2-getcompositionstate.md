@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- IDeskBand2.GetCompositionState
+: 
 ---
 
 # IDeskBand2::GetCompositionState

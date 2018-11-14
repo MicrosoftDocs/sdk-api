@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_2.h
+: 
+- ID3D11DeviceContext2.TiledResourceBarrier
+: 
 ---
 
 # ID3D11DeviceContext2::TiledResourceBarrier

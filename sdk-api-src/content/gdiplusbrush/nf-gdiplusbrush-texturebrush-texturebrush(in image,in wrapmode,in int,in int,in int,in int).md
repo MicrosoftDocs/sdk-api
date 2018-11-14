@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapM
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_29imageimage_wrapmodewrapmode_intdstx_in.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT), TextureBrush.TextureBrush(Image*,WrapMode,INT,INT,INT,INT), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- TextureBrush.TextureBrush
+: 
 req.product: GDI+ 1.0
 ---
 

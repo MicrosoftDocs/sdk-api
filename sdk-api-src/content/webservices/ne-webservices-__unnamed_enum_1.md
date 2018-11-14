@@ -9,8 +9,8 @@ ms.assetid: cd11cae2-36af-4086-80f3-e99493bf9eb1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING_COMMA_SEPARATOR, WS_HTTP_HEADER_MAPPING_OPTIONS, WS_HTTP_HEADER_MAPPING_OPTIONS enumeration [Web Services for Windows], WS_HTTP_HEADER_MAPPING_QUOTED_VALUE, WS_HTTP_HEADER_MAPPING_SEMICOLON_SEPARATOR, __unnamed_enum_1, webservices/WS_HTTP_HEADER_MAPPING_COMMA_SEPARATOR, webservices/WS_HTTP_HEADER_MAPPING_OPTIONS, webservices/WS_HTTP_HEADER_MAPPING_QUOTED_VALUE, webservices/WS_HTTP_HEADER_MAPPING_SEMICOLON_SEPARATOR, wsw.ws_http_header_mapping_options
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

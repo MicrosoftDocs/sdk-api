@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OleTranslateAccelerator
+: 
 ---
 
 # OleTranslateAccelerator function

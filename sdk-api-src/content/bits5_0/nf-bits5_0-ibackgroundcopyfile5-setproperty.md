@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits5_0.h
+: 
+- IBackgroundCopyFile5.SetProperty
+: 
 ---
 
 # IBackgroundCopyFile5::SetProperty

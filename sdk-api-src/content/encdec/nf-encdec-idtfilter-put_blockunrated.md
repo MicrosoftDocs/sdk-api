@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- encdec.h
+: 
+- IDTFilter.put_BlockUnRated
+: 
 ---
 
 # IDTFilter::put_BlockUnRated

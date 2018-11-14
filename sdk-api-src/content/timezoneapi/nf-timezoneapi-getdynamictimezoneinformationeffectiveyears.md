@@ -7,7 +7,7 @@ old-location: base\getdynamictimezoneinformationeffectiveyears.htm
 tech.root: sysinfo
 ms.assetid: 6705BF71-9FF9-4D1F-B34B-752D9C83C964
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetDynamicTimeZoneInformationEffectiveYears, GetDynamicTimeZoneInformationEffectiveYears function, base.getdynamictimezoneinformationeffectiveyears, timezoneapi/GetDynamicTimeZoneInformationEffectiveYears
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetDynamicTimeZoneInformationEffectiveYears
+: 
 ---
 
 # GetDynamicTimeZoneInformationEffectiveYears function

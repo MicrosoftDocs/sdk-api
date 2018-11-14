@@ -9,8 +9,8 @@ ms.assetid: eb08f699-74bc-445d-96b7-678abbd366b3
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: SColumnSetID, SColumnSetID structure [MMC], _SColumnSetID, _slate_scolumnsetid, mmc.scolumnsetid, mmc/SColumnSetID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpServerSetDnsRegCredentialsV5
+: 
 ---
 
 # DhcpServerSetDnsRegCredentialsV5 function

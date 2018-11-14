@@ -9,8 +9,8 @@ ms.assetid: 59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: MixerPref9_ARAdjustXorY, MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_DecimateMask, MixerPref9_DecimateOutput, MixerPref9_DynamicDecimateBy2, MixerPref9_DynamicMask, MixerPref9_DynamicReserved, MixerPref9_DynamicSwitchToBOB, MixerPref9_FilteringMask, MixerPref9_FilteringReserved, MixerPref9_GaussianQuadFiltering, MixerPref9_NoDecimation, MixerPref9_NonSquareMixing, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, MixerPref9_RenderTargetMask, MixerPref9_RenderTargetRGB, MixerPref9_RenderTargetReserved, MixerPref9_RenderTargetYUV, VMR9MixerPrefs, VMR9MixerPrefs , VMR9MixerPrefs enumeration [DirectShow], VMR9MixerPrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0005_0001, dshow.vmr9mixerprefs, vmr9/MixerPref9_ARAdjustXorY, vmr9/MixerPref9_AnisotropicFiltering, vmr9/MixerPref9_BiLinearFiltering, vmr9/MixerPref9_DecimateMask, vmr9/MixerPref9_DecimateOutput, vmr9/MixerPref9_DynamicDecimateBy2, vmr9/MixerPref9_DynamicMask, vmr9/MixerPref9_DynamicReserved, vmr9/MixerPref9_DynamicSwitchToBOB, vmr9/MixerPref9_FilteringMask, vmr9/MixerPref9_FilteringReserved, vmr9/MixerPref9_GaussianQuadFiltering, vmr9/MixerPref9_NoDecimation, vmr9/MixerPref9_NonSquareMixing, vmr9/MixerPref9_PointFiltering, vmr9/MixerPref9_PyramidalQuadFiltering, vmr9/MixerPref9_RenderTargetMask, vmr9/MixerPref9_RenderTargetRGB, vmr9/MixerPref9_RenderTargetReserved, vmr9/MixerPref9_RenderTargetYUV, vmr9/VMR9MixerPrefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 

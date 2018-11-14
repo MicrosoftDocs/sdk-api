@@ -7,7 +7,7 @@ old-location: security\isecurityinformation_propertysheetpagecallback.htm
 tech.root: secauthz
 ms.assetid: 9b891e64-e648-44a4-add6-d4c214394be8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ISecurityInformation interface [Security],PropertySheetPageCallback method, ISecurityInformation.PropertySheetPageCallback, ISecurityInformation::PropertySheetPageCallback, PSPCB_CREATE, PSPCB_RELEASE, PSPCB_SI_INITDIALOG, PropertySheetPageCallback, PropertySheetPageCallback method [Security], PropertySheetPageCallback method [Security],ISecurityInformation interface, _win32_isecurityinformation_propertysheetpagecallback, aclui/ISecurityInformation::PropertySheetPageCallback, security.isecurityinformation_propertysheetpagecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityInformation.PropertySheetPageCallback
+: 
 ---
 
 # ISecurityInformation::PropertySheetPageCallback

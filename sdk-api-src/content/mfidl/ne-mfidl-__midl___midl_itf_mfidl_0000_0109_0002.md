@@ -7,10 +7,10 @@ old-location: mf\mfsensorstreamtype.htm
 tech.root: medfound
 ms.assetid: 598AE9EC-3B8D-419A-A6A9-02DCDD459162
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFSensorStreamType, MFSensorStreamType enumeration [Media Foundation], MFSensorStreamType_Input, MFSensorStreamType_Output, MFSensorStreamType_Unknown, __MIDL___MIDL_itf_mfidl_0000_0109_0002, mf.mfsensorstreamtype, mfidl/MFSensorStreamType, mfidl/MFSensorStreamType_Input, mfidl/MFSensorStreamType_Output, mfidl/MFSensorStreamType_Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

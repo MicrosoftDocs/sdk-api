@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidPlayback.get_EnableResetOnStop
+: 
 ---
 
 # IMSVidPlayback::get_EnableResetOnStop

@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMMATRIX
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxmath/XMMATRIX, dxmath.xmmatrix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: c3e2db46-bef0-4c79-91b5-97ca5a86c6ba
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], IWMPCdromRip interface [Windows Media Player],described, IWMPCdromRipInterface, wmp.iwmpcdromrip, wmp/IWMPCdromRip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 47b700aa-3410-4610-ba06-dab2b2662f5e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTRIVERTEX, *PTRIVERTEX, PTRIVERTEX, PTRIVERTEX structure pointer [Windows GDI], TRIVERTEX, TRIVERTEX structure [Windows GDI], _TRIVERTEX, _win32_TRIVERTEX_str, gdi.trivertex, wingdi/PTRIVERTEX, wingdi/TRIVERTEX"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

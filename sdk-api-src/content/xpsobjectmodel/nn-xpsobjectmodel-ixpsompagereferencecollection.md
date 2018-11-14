@@ -9,8 +9,8 @@ ms.assetid: 4b51bc29-c653-41fa-bbd3-9ff529f84e4e
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],described, xps.ixpsompagereferencecollection, xpsobjectmodel/IXpsOMPageReferenceCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

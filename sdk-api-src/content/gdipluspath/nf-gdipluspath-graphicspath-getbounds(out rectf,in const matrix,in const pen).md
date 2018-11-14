@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetBounds_RectF_bounds_Matrix_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetboundsmethods\getbounds_52rectfbounds_matrixmatrix_penpen.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetBounds method, GraphicsPath.GetBounds, GraphicsPath.GetBounds(OUT RectF,IN const Matrix,IN const Pen), GraphicsPath.GetBounds(RectF*,const Matrix*,const Pen*), GraphicsPath::GetBounds, GraphicsPath::GetBounds(OUT RectF,IN const Matrix,IN const Pen), _gdiplus_CLASS_GraphicsPath_GetBounds_RectF_bounds_Matrix_matrix_Pen_pen_, gdiplus._gdiplus_CLASS_GraphicsPath_GetBounds_RectF_bounds_Matrix_matrix_Pen_pen_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.GetBounds
+: 
 req.product: GDI+ 1.0
 ---
 

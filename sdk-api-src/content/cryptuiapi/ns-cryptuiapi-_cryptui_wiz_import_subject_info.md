@@ -7,10 +7,10 @@ old-location: security\cryptui_wiz_import_src_info.htm
 tech.root: seccrypto
 ms.assetid: 17d932e3-05ea-4ed0-9f88-fbb674b6b070
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCRYPTUI_WIZ_IMPORT_SRC_INFO, CRYPTUI_WIZ_IMPORT_SRC_INFO, CRYPTUI_WIZ_IMPORT_SRC_INFO structure [Security], CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_CONTEXT, CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_STORE, CRYPTUI_WIZ_IMPORT_SUBJECT_CRL_CONTEXT, CRYPTUI_WIZ_IMPORT_SUBJECT_CTL_CONTEXT, CRYPTUI_WIZ_IMPORT_SUBJECT_FILE, CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_USER_PROTECTED, PCCRYPTUI_WIZ_IMPORT_SRC_INFO, PCCRYPTUI_WIZ_IMPORT_SRC_INFO structure pointer [Security], _CRYPTUI_WIZ_IMPORT_SUBJECT_INFO, cryptuiapi/CRYPTUI_WIZ_IMPORT_SRC_INFO, cryptuiapi/PCCRYPTUI_WIZ_IMPORT_SRC_INFO, security.cryptui_wiz_import_src_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

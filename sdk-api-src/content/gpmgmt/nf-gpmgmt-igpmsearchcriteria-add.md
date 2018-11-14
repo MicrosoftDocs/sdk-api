@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Vista
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMSearchCriteria.Add
+: 
 ---
 
 # IGPMSearchCriteria::Add

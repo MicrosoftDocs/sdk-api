@@ -9,8 +9,8 @@ ms.assetid: 42e33817-df5f-4598-bc6a-94e49ce5fca4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN callback, StorageAdapterControlUnitPrivileged, StorageAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.storageadaptercontrolunitprivileged, winbio_adapter/StorageAdapterControlUnitPrivileged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

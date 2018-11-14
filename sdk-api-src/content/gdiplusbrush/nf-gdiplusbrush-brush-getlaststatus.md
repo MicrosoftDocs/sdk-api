@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Brush_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\getlaststatus.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Brush class [GDI+],GetLastStatus method, Brush.GetLastStatus, Brush::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetLastStatus_, gdiplus._gdiplus_CLASS_Brush_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- Brush.GetLastStatus
+: 
 req.product: GDI+ 1.0
 ---
 

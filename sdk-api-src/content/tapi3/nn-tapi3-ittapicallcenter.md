@@ -7,10 +7,10 @@ old-location: tapi3\ittapicallcenter.htm
 tech.root: tapi
 ms.assetid: 871cb217-a44f-421e-9cb4-7d8771335d08
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], ITTAPICallCenter interface [TAPI 2.2],described, _tapi3_ittapicallcenter, tapi3.ittapicallcenter, tapi3cc/ITTAPICallCenter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h

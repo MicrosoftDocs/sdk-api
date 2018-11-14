@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmNetEventUnsubscribe0
+: 
 ---
 
 # FwpmNetEventUnsubscribe0 function

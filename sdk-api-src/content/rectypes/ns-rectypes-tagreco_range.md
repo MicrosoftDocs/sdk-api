@@ -9,8 +9,8 @@ ms.assetid: 212de1c5-b61e-4e6e-a781-cba63b820504
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE structure [Tablet PC], rectypes/RECO_RANGE, tablet.reco_range, tagRECO_RANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

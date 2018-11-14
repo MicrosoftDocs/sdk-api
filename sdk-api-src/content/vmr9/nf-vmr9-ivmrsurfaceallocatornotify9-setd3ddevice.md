@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vmr9.h
+: 
+- IVMRSurfaceAllocatorNotify9.SetD3DDevice
+: 
 ---
 
 # IVMRSurfaceAllocatorNotify9::SetD3DDevice

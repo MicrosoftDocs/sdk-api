@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IAlertDataCollector.get_EventLog
+: 
 ---
 
 # IAlertDataCollector::get_EventLog

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDVBSLocator2.put_LocalOscillatorOverrideHigh
+: 
 ---
 
 # IDVBSLocator2::put_LocalOscillatorOverrideHigh

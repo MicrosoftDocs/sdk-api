@@ -9,8 +9,8 @@ ms.assetid: f64edf7f-379f-41e2-9a86-ba9aeee0f2d7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER structure [Peer Networking], PDRT_BOOTSTRAP_PROVIDER, PDRT_BOOTSTRAP_PROVIDER structure pointer [Peer Networking], drt/DRT_BOOTSTRAP_PROVIDER, drt/PDRT_BOOTSTRAP_PROVIDER, drt_bootstrap_provider_tag, p2p.drt_bootstrap_provider"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_writable.htm
 tech.root: secauthz
 ms.assetid: c0d88a7c-2df7-4f8e-94c2-75690d9758e7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplicationGroup object [Security],Writable property, IAzApplicationGroup interface [Security],Writable property, IAzApplicationGroup.Writable, IAzApplicationGroup.get_Writable, IAzApplicationGroup::Writable, IAzApplicationGroup::get_Writable, Writable property [Security], Writable property [Security],AzApplicationGroup object, Writable property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Writable, azroles/IAzApplicationGroup::get_Writable, get_Writable, security.iazapplicationgroup_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup.get_Writable
+: 
 ---
 
 # IAzApplicationGroup::get_Writable

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RpcStringBindingParseA
+: 
 ---
 
 # RpcStringBindingParseA function
@@ -71,7 +77,7 @@ Pointer to a <b>null</b>-terminated string representation of a binding.
 ### -param ObjUuid
 
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://msdn.microsoft.com/">UUID</a>. 
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. 
 
 
 

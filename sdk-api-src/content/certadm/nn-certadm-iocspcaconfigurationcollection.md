@@ -7,10 +7,10 @@ old-location: security\iocspcaconfigurationcollection.htm
 tech.root: seccrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certsrv.h

@@ -7,7 +7,7 @@ old-location: base\symgethomedirectory.htm
 tech.root: debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetHomeDirectory, SymGetHomeDirectory function, SymGetHomeDirectoryW, base.symgethomedirectory, dbghelp/SymGetHomeDirectory, dbghelp/SymGetHomeDirectoryW, hdBase, hdSrc, hdSym
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later
+- apiref
+: 
+- 
+: 
+- SymGetHomeDirectory
+: 
 ---
 
 # SymGetHomeDirectory function

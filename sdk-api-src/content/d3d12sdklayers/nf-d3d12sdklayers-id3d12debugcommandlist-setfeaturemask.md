@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist_setfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12DebugCommandList interface,SetFeatureMask method, ID3D12DebugCommandList.SetFeatureMask, ID3D12DebugCommandList::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugCommandList interface, d3d12sdklayers/ID3D12DebugCommandList::SetFeatureMask, direct3d12.id3d12debugcommandlist_setfeaturemask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12DebugCommandList.SetFeatureMask
+: 
 ---
 
 # ID3D12DebugCommandList::SetFeatureMask

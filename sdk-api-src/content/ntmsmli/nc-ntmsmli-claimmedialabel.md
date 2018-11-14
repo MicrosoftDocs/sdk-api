@@ -9,8 +9,8 @@ ms.assetid: ac957769-0513-436b-94f0-e3894f7a703b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ClaimMediaLabel, ClaimMediaLabel callback, ClaimMediaLabel callback function [Files], _zaw_claimmedialabel, base.claimmedialabel, fs.claimmedialabel, ntmsmli/ClaimMediaLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ntmsmli.h
 req.include-header: 

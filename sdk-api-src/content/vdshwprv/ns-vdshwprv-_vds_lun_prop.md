@@ -9,8 +9,8 @@ ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VDS], VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PROP, VDS_LUN_PROP structure [VDS], _VDS_LUN_PROP, base.vds_lun_prop, vds/PVDS_LUN_PROP, vds/_VDS_LUN_PROP, vdshwprv/PVDS_LUN_PROP, vdshwprv/_VDS_LUN_PROP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

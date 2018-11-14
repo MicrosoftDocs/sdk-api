@@ -9,8 +9,8 @@ ms.assetid: 05EC3940-4A17-4FBB-9446-15B511E18FF2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER union [Websocket Protocol Component API], _WEB_SOCKET_BUFFER, websock.web_socket_buffer, websocket/WEB_SOCKET_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: websocket.h
 req.include-header: 

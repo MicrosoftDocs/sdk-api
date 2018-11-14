@@ -7,7 +7,7 @@ old-location: mf\mfcreatesourcereaderfromurl.htm
 tech.root: medfound
 ms.assetid: 060b4ab3-9a9f-4c90-a8c5-9c6d81877e2f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCreateSourceReaderFromURL, MFCreateSourceReaderFromURL function [Media Foundation], mf.mfcreatesourcereaderfromurl, mfreadwrite/MFCreateSourceReaderFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateSourceReaderFromURL
+: 
 ---
 
 # MFCreateSourceReaderFromURL function

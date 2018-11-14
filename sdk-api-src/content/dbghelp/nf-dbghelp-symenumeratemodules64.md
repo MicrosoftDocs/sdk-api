@@ -7,7 +7,7 @@ old-location: base\symenumeratemodules64.htm
 tech.root: debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymEnumerateModules64
+: 
 ---
 
 # SymEnumerateModules64 function

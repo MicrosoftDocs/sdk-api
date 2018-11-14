@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbTaskInfo.get_EndTime
+: 
 ---
 
 # ITsSbTaskInfo::get_EndTime

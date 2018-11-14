@@ -9,8 +9,8 @@ ms.assetid: 18120d81-5480-4e0d-8422-0366a6811319
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer, _JOBOBJECT_ASSOCIATE_COMPLETION_PORT, _win32_jobobject_associate_completion_port_str, base.jobobject_associate_completion_port_str, winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT, winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

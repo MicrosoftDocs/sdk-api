@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetNoOp_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setnoop.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ImageAttributes class [GDI+],SetNoOp method, ImageAttributes.SetNoOp, ImageAttributes::SetNoOp, SetNoOp, SetNoOp method [GDI+], SetNoOp method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetNoOp_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetNoOp_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusimageattributes.h
+: 
+- ImageAttributes.SetNoOp
+: 
 req.product: GDI+ 1.0
 ---
 

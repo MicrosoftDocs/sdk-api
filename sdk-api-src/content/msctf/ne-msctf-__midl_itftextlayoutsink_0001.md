@@ -9,8 +9,8 @@ ms.assetid: b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: TF_LC_CHANGE, TF_LC_CREATE, TF_LC_DESTROY, TfLayoutCode, TfLayoutCode enumeration [Text Services Framework], __MIDL_ITfTextLayoutSink_0001, _tsf_tflayoutcode_ref, msctf/TF_LC_CHANGE, msctf/TF_LC_CREATE, msctf/TF_LC_DESTROY, msctf/TfLayoutCode, tsf.tflayoutcode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

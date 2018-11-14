@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- inked.h
+: 
+- IInkEdit.put_SelColor
+: 
 ---
 
 # IInkEdit::put_SelColor

@@ -9,8 +9,8 @@ ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMGPO, IGPMGPO, IGPMGPO interface [GPMC], IGPMGPO interface [GPMC],described, _win32_igpmgpo, gpmc.igpmgpo, gpmgmt/ IGPMGPO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

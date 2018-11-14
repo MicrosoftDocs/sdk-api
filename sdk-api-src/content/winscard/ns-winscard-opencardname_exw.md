@@ -7,10 +7,10 @@ old-location: security\opencardname_ex.htm
 tech.root: secauthn
 ms.assetid: fb9e64a9-441a-4c7b-b404-79682778c694
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPOPENCARDNAME_EXW, *POPENCARDNAME_EXW, LPOPENCARDNAME_EX, LPOPENCARDNAME_EX structure pointer [Security], OPENCARDNAME_EX, OPENCARDNAME_EX structure [Security], OPENCARDNAME_EXA, OPENCARDNAME_EXW, POPENCARDNAME_EX, POPENCARDNAME_EX structure pointer [Security], SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname_ex, security.opencardname_ex, winscard/LPOPENCARDNAME_EX, winscard/OPENCARDNAME_EX, winscard/OPENCARDNAME_EXA, winscard/OPENCARDNAME_EXW, winscard/POPENCARDNAME_EX"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winscard.h
 req.include-header: 

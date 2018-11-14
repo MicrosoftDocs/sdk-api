@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 1d387c67-6113-ceab-9996-b2859123af67, ID3D10EffectShaderResourceVariable, ID3D10EffectShaderResourceVariable interface [Direct3D 10], ID3D10EffectShaderResourceVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectShaderResourceVariable, direct3d10.id3d10effectshaderresourcevariable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

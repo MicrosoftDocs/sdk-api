@@ -7,10 +7,10 @@ old-location: tapi2\linetermcaps_str.htm
 tech.root: tapi
 ms.assetid: 54d36126-a032-4baa-8484-6ebeb9c4adf9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPLINETERMCAPS, LINETERMCAPS, LINETERMCAPS structure [TAPI 2.2], LPLINETERMCAPS, LPLINETERMCAPS structure pointer [TAPI 2.2], _tapi2_linetermcaps_str, linetermcaps_tag, tapi/LINETERMCAPS, tapi/LPLINETERMCAPS, tapi2.linetermcaps_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

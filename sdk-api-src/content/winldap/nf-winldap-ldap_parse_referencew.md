@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_parse_referenceW
+: 
 ---
 
 # ldap_parse_referenceW function

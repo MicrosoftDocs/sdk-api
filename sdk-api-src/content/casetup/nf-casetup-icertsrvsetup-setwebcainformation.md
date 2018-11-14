@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setwebcainformation.htm
 tech.root: seccrypto
 ms.assetid: 6c8d6b06-d36c-496f-8d5a-da20f09a2b0a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertSrvSetup interface [Security],SetWebCAInformation method, ICertSrvSetup.SetWebCAInformation, ICertSrvSetup::SetWebCAInformation, SetWebCAInformation, SetWebCAInformation method [Security], SetWebCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetWebCAInformation, security.icertsrvsetup_setwebcainformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetup.SetWebCAInformation
+: 
 ---
 
 # ICertSrvSetup::SetWebCAInformation

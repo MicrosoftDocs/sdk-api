@@ -9,8 +9,8 @@ ms.assetid: c38995b7-6f32-4489-bb6c-0e3561b11f81
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IFileSystemImage2, IFileSystemImage2 interface [IMAPI], IFileSystemImage2 interface [IMAPI],described, imapi.ifilesystemimage2, imapi2fs/IFileSystemImage2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D10GetGeometryShaderProfile
+: 
 ---
 
 # D3D10GetGeometryShaderProfile function

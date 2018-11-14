@@ -4,10 +4,10 @@ title: EapHostPeerProcessReceivedPacket function
 author: windows-sdk-content
 description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.
 old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerProcessReceivedPacket
+: 
 ---
 
 # EapHostPeerProcessReceivedPacket function

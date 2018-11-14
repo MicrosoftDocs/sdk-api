@@ -7,7 +7,7 @@ old-location: security\objectcloseauditalarm.htm
 tech.root: secauthz
 ms.assetid: 274f3a62-1833-402b-b362-f526b2bee14b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ObjectCloseAuditAlarm, ObjectCloseAuditAlarm function [Security], ObjectCloseAuditAlarmA, ObjectCloseAuditAlarmW, _win32_objectcloseauditalarm, security.objectcloseauditalarm, winbase/ObjectCloseAuditAlarm, winbase/ObjectCloseAuditAlarmA, winbase/ObjectCloseAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ObjectCloseAuditAlarmA
+: 
 ---
 
 # ObjectCloseAuditAlarmA function

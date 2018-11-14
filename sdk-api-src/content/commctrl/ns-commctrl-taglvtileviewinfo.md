@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp, tagLVTILEVIEWINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

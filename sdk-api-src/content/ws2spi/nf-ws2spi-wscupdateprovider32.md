@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSCUpdateProvider32
+: 
 ---
 
 # WSCUpdateProvider32 function

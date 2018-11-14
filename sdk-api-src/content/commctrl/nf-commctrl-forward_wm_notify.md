@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- FORWARD_WM_NOTIFY
+: 
 ---
 
 # FORWARD_WM_NOTIFY macro

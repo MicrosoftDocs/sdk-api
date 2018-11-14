@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_tile_shape.htm
 tech.root: direct3d12
 ms.assetid: 9FCF949C-B2B8-404F-9E4C-8CC6B636B687
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_TILE_SHAPE, D3D12_TILE_SHAPE structure, d3d12/D3D12_TILE_SHAPE, direct3d12.d3d12_tile_shape
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

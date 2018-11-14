@@ -7,7 +7,7 @@ old-location: security\iaztask_submit.htm
 tech.root: secauthz
 ms.assetid: a6f01573-c1ee-421d-8591-e1c9fa6c3d68
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzTask object [Security],Submit method, IAzTask interface [Security],Submit method, IAzTask.Submit, IAzTask::Submit, Submit, Submit method [Security], Submit method [Security],AzTask object, Submit method [Security],IAzTask interface, azroles/IAzTask::Submit, security.iaztask_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.Submit
+: 
 ---
 
 # IAzTask::Submit

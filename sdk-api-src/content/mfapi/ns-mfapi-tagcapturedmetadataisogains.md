@@ -9,8 +9,8 @@ ms.assetid: 6B87BDFB-EAD5-496D-BE6A-9AE709119515
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: CapturedMetadataISOGains, CapturedMetadataISOGains structure [Streaming Media Devices], mfapi/CapturedMetadataISOGains, stream.capturedmetadataisogains, tagCapturedMetadataISOGains
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: a1a54ba0-241a-4c3d-8113-89c0f8171c40
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDDeviceProxy, IWSDDeviceProxy interface, IWSDDeviceProxy interface,described, ncd.iwsddeviceproxy, wsdclient/IWSDDeviceProxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

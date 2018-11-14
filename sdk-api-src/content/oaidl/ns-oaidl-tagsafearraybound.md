@@ -9,8 +9,8 @@ ms.assetid: 303a9bdb-71d6-4f14-8747-84cf84936c6d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND, tagSAFEARRAYBOUND"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

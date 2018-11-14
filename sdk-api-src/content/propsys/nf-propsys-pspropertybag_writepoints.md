@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PSPropertyBag_WritePOINTS
+: 
 ---
 
 # PSPropertyBag_WritePOINTS function

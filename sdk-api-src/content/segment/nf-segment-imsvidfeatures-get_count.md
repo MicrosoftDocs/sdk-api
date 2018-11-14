@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidFeatures.get_Count
+: 
 ---
 
 # IMSVidFeatures::get_Count

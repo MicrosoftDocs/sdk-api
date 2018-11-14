@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetHotkeyPrefix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gethotkeyprefix.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetHotkeyPrefix, GetHotkeyPrefix method [GDI+], GetHotkeyPrefix method [GDI+],StringFormat class, StringFormat class [GDI+],GetHotkeyPrefix method, StringFormat.GetHotkeyPrefix, StringFormat::GetHotkeyPrefix, _gdiplus_CLASS_StringFormat_GetHotkeyPrefix_, gdiplus._gdiplus_CLASS_StringFormat_GetHotkeyPrefix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.GetHotkeyPrefix
+: 
 req.product: GDI+ 1.0
 ---
 

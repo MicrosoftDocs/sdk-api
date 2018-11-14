@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_3.h
+: 
+- ID3D11Fence.SetEventOnCompletion
+: 
 ---
 
 # ID3D11Fence::SetEventOnCompletion

@@ -9,8 +9,8 @@ ms.assetid: a9ae0fb3-4a6e-473e-9fa3-d3894834fb72
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRegTreeItem, IRegTreeItem interface [Windows Shell], IRegTreeItem interface [Windows Shell],described, _win32_IRegTreeItem, shell.IRegTreeItem, shobjidl_core/IRegTreeItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

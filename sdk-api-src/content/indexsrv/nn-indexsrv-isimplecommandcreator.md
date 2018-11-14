@@ -9,8 +9,8 @@ ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

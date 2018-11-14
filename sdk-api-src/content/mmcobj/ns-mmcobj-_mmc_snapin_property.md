@@ -9,8 +9,8 @@ ms.assetid: 0815d6a0-ddc2-43d1-aafd-5a05352557fc
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _MMC_SNAPIN_PROPERTY, _slate_mmc_snapin_property, mmc.mmc_snapin_property, mmcobj/MMC_SNAPIN_PROPERTY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmcobj.h
 req.include-header: 

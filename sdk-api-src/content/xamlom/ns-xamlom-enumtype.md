@@ -9,8 +9,8 @@ ms.assetid: 0C50F820-E55B-425E-A8D2-1F0CEE03FEE7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EnumType, EnumType structure, PEnumType, PEnumType structure pointer, xaml_diagnostics.enumtype, xamlom/EnumType, xamlom/PEnumType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

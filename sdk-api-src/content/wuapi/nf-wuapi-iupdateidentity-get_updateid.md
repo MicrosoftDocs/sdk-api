@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateIdentity.get_UpdateID
+: 
 ---
 
 # IUpdateIdentity::get_UpdateID

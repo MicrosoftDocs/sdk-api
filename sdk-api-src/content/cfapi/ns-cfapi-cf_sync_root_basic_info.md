@@ -9,8 +9,8 @@ ms.assetid: 7499D9DD-BAF6-449A-A34E-CEAE3EE10543
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: CF_SYNC_ROOT_BASIC_INFO, CF_SYNC_ROOT_BASIC_INFO structure, cfapi/CF_SYNC_ROOT_BASIC_INFO, cloudApi.cf_sync_root_basic_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

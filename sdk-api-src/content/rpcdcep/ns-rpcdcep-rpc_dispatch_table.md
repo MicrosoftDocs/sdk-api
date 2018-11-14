@@ -9,8 +9,8 @@ ms.assetid: 6e34c7a6-3d74-4d1d-9b56-8120fbca1d67
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE structure [RPC], _rpc_rpc_dispatch_table, rpc.rpc_dispatch_table, rpcdcep/RPC_DISPATCH_TABLE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcdcep.h
 req.include-header: 

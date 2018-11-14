@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mediaobj.h
+: 
+- IMediaBuffer.GetBufferAndLength
+: 
 ---
 
 # IMediaBuffer::GetBufferAndLength

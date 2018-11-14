@@ -9,8 +9,8 @@ ms.assetid: 6f0cd639-c0db-46e4-b3a3-bc21222d97ee
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WICBitmapPattern, WICBitmapPattern structure [Windows Imaging Component], _wic_codec_wicbitmappattern, wic._wic_codec_wicbitmappattern, wincodec/WICBitmapPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

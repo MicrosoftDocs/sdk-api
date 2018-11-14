@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vmr9.h
+: 
+- IVMRMonitorConfig9.GetMonitor
+: 
 ---
 
 # IVMRMonitorConfig9::GetMonitor

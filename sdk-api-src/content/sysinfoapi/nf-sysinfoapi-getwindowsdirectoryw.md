@@ -7,7 +7,7 @@ old-location: base\getwindowsdirectory.htm
 tech.root: sysinfo
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetWindowsDirectory, GetWindowsDirectory function, GetWindowsDirectoryA, GetWindowsDirectoryW, _win32_getwindowsdirectory, base.getwindowsdirectory, sysinfoapi/GetWindowsDirectory, sysinfoapi/GetWindowsDirectoryA, sysinfoapi/GetWindowsDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetWindowsDirectoryW
+: 
 ---
 
 # GetWindowsDirectoryW function

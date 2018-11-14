@@ -9,8 +9,8 @@ ms.assetid: 680EC2D1-740E-40A8-9721-AC53AF17AC09
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: ISpellCheckProviderFactory, ISpellCheckProviderFactory interface [Internationalization for Windows Applications], ISpellCheckProviderFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckproviderfactory, spellcheckprovider/ISpellCheckProviderFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: spellcheckprovider.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_HitTestPoint.htm
 tech.root: DirectWrite
 ms.assetid: 6eb10e03-beb6-4ad3-9b57-4b4be0e265de
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: HitTestPoint, HitTestPoint method [Direct Write], HitTestPoint method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestPoint method, IDWriteTextLayout.HitTestPoint, IDWriteTextLayout::HitTestPoint, directwrite.IDWriteTextLayout_HitTestPoint, dwrite/IDWriteTextLayout::HitTestPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteTextLayout.HitTestPoint
+: 
 ---
 
 # IDWriteTextLayout::HitTestPoint

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\toolbar\structures\tbmetrics.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTBMETRICS, LPTBMETRICS, LPTBMETRICS structure pointer [Windows Controls], TBMETRICS, TBMETRICS structure [Windows Controls], commctrl/LPTBMETRICS, commctrl/TBMETRICS, controls.TBMETRICS, controls.inet_TBMETRICS, inet_TBMETRICS, inet_TBMETRICS_cpp"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

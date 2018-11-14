@@ -9,8 +9,8 @@ ms.assetid: efa1ea12-5234-474b-a859-cd074290e375
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST structure pointer [Windows Deployment Services], WDS_TRANSPORTCLIENT_AUTH, WDS_TRANSPORTCLIENT_NO_AUTH, WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST, WDS_TRANSPORTCLIENT_REQUEST, WDS_TRANSPORTCLIENT_REQUEST structure [Windows Deployment Services], WDS_TRANSPORT_CLIENT_CURRENT_API_VERSION, _WDS_TRANSPORTCLIENT_REQUEST, wds.wds_transportclient_request, wdstci/PWDS_TRANSPORTCLIENT_REQUEST, wdstci/WDS_TRANSPORTCLIENT_REQUEST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wdstci.h
 req.include-header: 

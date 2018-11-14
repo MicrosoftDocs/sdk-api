@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IVideoWindow.get_WindowStyle
+: 
 ---
 
 # IVideoWindow::get_WindowStyle

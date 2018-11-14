@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringCchVPrintf_lExW
+: 
 ---
 
 # StringCchVPrintf_lExW function

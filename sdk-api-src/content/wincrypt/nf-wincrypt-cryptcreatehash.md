@@ -7,7 +7,7 @@ old-location: security\cryptcreatehash.htm
 tech.root: seccrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptCreateHash
+: 
 ---
 
 # CryptCreateHash function

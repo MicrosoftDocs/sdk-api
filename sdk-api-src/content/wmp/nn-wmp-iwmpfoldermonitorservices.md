@@ -9,8 +9,8 @@ ms.assetid: 42c3b03c-f8f8-4219-91e1-da54a175fb24
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], IWMPFolderMonitorServices interface [Windows Media Player],described, IWMPFolderMonitorServicesInterface, wmp.iwmpfoldermonitorservices, wmp/IWMPFolderMonitorServices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

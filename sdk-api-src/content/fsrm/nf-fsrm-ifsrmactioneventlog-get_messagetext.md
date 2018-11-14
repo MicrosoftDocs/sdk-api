@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionEventLog.get_MessageText
+: 
 ---
 
 # IFsrmActionEventLog::get_MessageText

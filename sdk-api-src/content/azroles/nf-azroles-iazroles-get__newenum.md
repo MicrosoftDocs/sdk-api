@@ -7,7 +7,7 @@ old-location: security\iazroles_newenum.htm
 tech.root: secauthz
 ms.assetid: 46388cf1-6ad8-4320-a0cd-998216b0043c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzRoles object [Security],_NewEnum property, IAzRoles interface [Security],_NewEnum property, IAzRoles._NewEnum, IAzRoles.get__NewEnum, IAzRoles::_NewEnum, IAzRoles::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzRoles object, _NewEnum property [Security],IAzRoles interface, azroles/IAzRoles::_NewEnum, azroles/IAzRoles::get__NewEnum, get__NewEnum, security.iazroles_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRoles.get__NewEnum
+: 
 ---
 
 # IAzRoles::get__NewEnum

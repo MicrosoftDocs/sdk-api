@@ -9,8 +9,8 @@ ms.assetid: ff290e39-7d7c-42da-a522-ba9e672721b8
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IUpdate5, IUpdate5 interface [Windows Update Agent], IUpdate5 interface [Windows Update Agent],described, wua.iupdate5, wuapi/IUpdate5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

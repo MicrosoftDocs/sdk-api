@@ -7,10 +7,10 @@ old-location: security\sid_info_list.htm
 tech.root: secauthz
 ms.assetid: e9be644c-ec56-4a49-9aa8-6b3f62d6cf0d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSID_INFO_LIST, PSID_INFO_LIST, PSID_INFO_LIST structure pointer [Security], SID_INFO_LIST, SID_INFO_LIST structure [Security], _SID_INFO_LIST, _win32_sid_info_list_str, aclui/PSID_INFO_LIST, aclui/SID_INFO_LIST, security.sid_info_list"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 

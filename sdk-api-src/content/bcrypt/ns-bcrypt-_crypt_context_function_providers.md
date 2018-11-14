@@ -9,8 +9,8 @@ ms.assetid: 5e175ac2-38eb-44c4-a01a-fb436e833546
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS structure [Security], PCRYPT_CONTEXT_FUNCTION_PROVIDERS, PCRYPT_CONTEXT_FUNCTION_PROVIDERS structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/PCRYPT_CONTEXT_FUNCTION_PROVIDERS, security.crypt_context_function_providers"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

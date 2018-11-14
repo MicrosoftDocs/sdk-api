@@ -7,7 +7,7 @@ old-location: mf\mfbeginunregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: e164785f-9899-45f0-805f-b091508e35aa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFBeginUnregisterWorkQueueWithMMCSS, MFBeginUnregisterWorkQueueWithMMCSS function [Media Foundation], e164785f-9899-45f0-805f-b091508e35aa, mf.mfbeginunregisterworkqueuewithmmcss, mfapi/MFBeginUnregisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFBeginUnregisterWorkQueueWithMMCSS
+: 
 ---
 
 # MFBeginUnregisterWorkQueueWithMMCSS function

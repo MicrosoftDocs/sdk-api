@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_put_measurementperiod.htm
 tech.root: tapi
 ms.assetid: 9e32b2ae-c4e5-4624-b970-673c950dee3b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITQueue interface [TAPI 2.2],put_MeasurementPeriod method, ITQueue.put_MeasurementPeriod, ITQueue::put_MeasurementPeriod, _tapi3_itqueue_put_measurementperiod, put_MeasurementPeriod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_put_measurementperiod, tapi3cc/ITQueue::put_MeasurementPeriod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITQueue.put_MeasurementPeriod
+: 
 ---
 
 # ITQueue::put_MeasurementPeriod

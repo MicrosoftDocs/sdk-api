@@ -9,8 +9,8 @@ ms.assetid: 13cc0cef-3548-4f9f-b150-4f13be23d0ca
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IMMCVersionInfo, IMMCVersionInfo interface [MMC], IMMCVersionInfo interface [MMC],described, MMCVersionInfo, _slate_immcversioninfo, mmc.immcversioninfo, mmc/IMMCVersionInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

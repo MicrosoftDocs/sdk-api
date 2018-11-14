@@ -7,10 +7,10 @@ old-location: base\updateassessment.htm
 tech.root: sysinfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, tagUpdateAssessment, waasapitypes/UpdateAssessment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: waasapitypes.h
 req.include-header: 

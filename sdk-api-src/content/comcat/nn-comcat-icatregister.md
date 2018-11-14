@@ -9,8 +9,8 @@ ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comcat.h
 req.include-header: 

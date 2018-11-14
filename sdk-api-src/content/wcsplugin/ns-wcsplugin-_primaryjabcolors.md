@@ -9,8 +9,8 @@ ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System], _PrimaryJabColors, _color_PrimaryJabColors_str, wcs.primaryjabcolors, wcsplugin/PrimaryJabColors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

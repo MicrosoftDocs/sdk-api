@@ -9,8 +9,8 @@ ms.assetid: 6b05c0c7-6f38-42cf-bf7b-2a54a4302b68
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVBFormat, IVBFormat interface [COM], IVBFormat interface [COM],described, _com_IVBFormat, com.ivbformat, vbinterf/IVBFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 

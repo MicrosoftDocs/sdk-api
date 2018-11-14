@@ -9,8 +9,8 @@ ms.assetid: bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], IAMMediaContent interface [DirectShow],described, IAMMediaContentInterface, dshow.iammediacontent, qnetwork/IAMMediaContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

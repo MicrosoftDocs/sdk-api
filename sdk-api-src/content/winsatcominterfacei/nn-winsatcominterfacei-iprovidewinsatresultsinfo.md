@@ -9,8 +9,8 @@ ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], IProvideWinSATResultsInfo interface [WinSAT],described, winsat.iprovidewinsatresultsinfo, winsatcominterfacei/IProvideWinSATResultsInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 

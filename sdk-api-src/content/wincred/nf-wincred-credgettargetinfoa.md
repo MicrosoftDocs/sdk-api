@@ -7,7 +7,7 @@ old-location: security\credgettargetinfo.htm
 tech.root: secauthn
 ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CredGetTargetInfo, CredGetTargetInfo function [Security], CredGetTargetInfoA, CredGetTargetInfoW, _cred_credgettargetinfo, security.credgettargetinfo, wincred/CredGetTargetInfo, wincred/CredGetTargetInfoA, wincred/CredGetTargetInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CredGetTargetInfoA
+: 
 ---
 
 # CredGetTargetInfoA function

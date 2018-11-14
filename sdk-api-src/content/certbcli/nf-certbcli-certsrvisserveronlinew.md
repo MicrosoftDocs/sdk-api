@@ -7,7 +7,7 @@ old-location: security\certsrvisserveronline.htm
 tech.root: seccrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvIsServerOnlineW
+: 
 ---
 
 # CertSrvIsServerOnlineW function

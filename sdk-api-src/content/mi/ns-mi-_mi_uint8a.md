@@ -9,8 +9,8 @@ ms.assetid: 8d9951eb-7656-4c66-aecb-3e47734a776a
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_Uint8A, MI_Uint8A structure [Windows Management Infrastructure (MI)], _MI_Uint8A, mi/MI_Uint8A, wmi._mi_uint8a, wmi_v2.mi_uint8a
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

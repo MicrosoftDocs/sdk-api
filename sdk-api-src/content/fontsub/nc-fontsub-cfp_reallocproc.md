@@ -9,8 +9,8 @@ ms.assetid: 06c45ea3-1776-4f9c-a931-461d0b697535
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fontsub.h
 req.include-header: 

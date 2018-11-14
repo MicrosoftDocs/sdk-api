@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetvolume.htm
 tech.root: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndGetVolume
+: 
 ---
 
 # MCIWndGetVolume macro

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyDescription2.GetImageReferenceForValue
+: 
 ---
 
 # IPropertyDescription2::GetImageReferenceForValue

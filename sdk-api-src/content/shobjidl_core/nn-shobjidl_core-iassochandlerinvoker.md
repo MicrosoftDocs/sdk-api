@@ -9,8 +9,8 @@ ms.assetid: b602280e-4237-4539-9a10-cec21c65e90d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAssocHandlerInvoker, IAssocHandlerInvoker interface [Windows Shell], IAssocHandlerInvoker interface [Windows Shell],described, _shell_IAssocHandlerInvoker, shell.IAssocHandlerInvoker, shobjidl_core/IAssocHandlerInvoker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,8 @@ ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_unmapdesktopsurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B9AF088-5856-4F1C-A794-6CF870D62A29
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],UnMapDesktopSurface method, IDXGIOutputDuplication.UnMapDesktopSurface, IDXGIOutputDuplication::UnMapDesktopSurface, UnMapDesktopSurface, UnMapDesktopSurface method [DXGI], UnMapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_unmapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::UnMapDesktopSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGIOutputDuplication.UnMapDesktopSurface
+: 
 ---
 
 # IDXGIOutputDuplication::UnMapDesktopSurface

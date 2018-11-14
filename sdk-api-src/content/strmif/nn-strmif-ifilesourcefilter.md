@@ -9,8 +9,8 @@ ms.assetid: ad70fddb-4fc9-4010-a469-9a8ca4b47379
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFileSourceFilter, IFileSourceFilter interface [DirectShow], IFileSourceFilter interface [DirectShow],described, IFileSourceFilterInterface, dshow.ifilesourcefilter, strmif/IFileSourceFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

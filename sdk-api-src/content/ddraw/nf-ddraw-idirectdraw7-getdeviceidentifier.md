@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ddraw.h
+: 
+- IDirectDraw7.GetDeviceIdentifier
+: 
 ---
 
 # IDirectDraw7::GetDeviceIdentifier

@@ -9,8 +9,8 @@ ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX structure [IP Helper], PIP_ADAPTER_DNS_SUFFIX, PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper], _IP_ADAPTER_DNS_SUFFIX, iphlp.ip_adapter_dns_suffix, iptypes/IP_ADAPTER_DNS_SUFFIX, iptypes/PIP_ADAPTER_DNS_SUFFIX"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

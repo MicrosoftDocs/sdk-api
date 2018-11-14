@@ -9,8 +9,8 @@ ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DVolume9.GetPrivateData
+: 
 ---
 
 # IDirect3DVolume9::GetPrivateData

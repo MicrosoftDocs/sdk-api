@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataCollector.get_LogOverwrite
+: 
 ---
 
 # IDataCollector::get_LogOverwrite

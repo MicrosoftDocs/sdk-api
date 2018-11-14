@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionAffineTransform2DEffect.SetTransformMatrix
+: 
 ---
 
 # IDCompositionAffineTransform2DEffect::SetTransformMatrix

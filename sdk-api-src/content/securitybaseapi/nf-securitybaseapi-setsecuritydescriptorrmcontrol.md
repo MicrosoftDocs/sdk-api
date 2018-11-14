@@ -7,7 +7,7 @@ old-location: security\setsecuritydescriptorrmcontrol.htm
 tech.root: secauthz
 ms.assetid: fe9c736b-e047-4aa3-a3de-d5f2f2cdab4f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetSecurityDescriptorRMControl, SetSecurityDescriptorRMControl function [Security], _win32_setsecuritydescriptorrmcontrol, security.setsecuritydescriptorrmcontrol, securitybaseapi/SetSecurityDescriptorRMControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetSecurityDescriptorRMControl
+: 
 ---
 
 # SetSecurityDescriptorRMControl function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
+: 
 ---
 
 # IWriteSpeedDescriptor::get_RotationTypeIsPureCAV

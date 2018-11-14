@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_81stream.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream), Metafile.Metafile(IStream*), Metafile::Metafile, Metafile::Metafile(IN IStream), _gdiplus_CLASS_Metafile_Metafile_stream_, gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Metafile.Metafile
+: 
 req.product: GDI+ 1.0
 ---
 

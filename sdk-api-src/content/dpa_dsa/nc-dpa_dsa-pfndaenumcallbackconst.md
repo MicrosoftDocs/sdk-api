@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallbackconst.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PFNDAENUMCALLBACKCONST, PFNDAENUMCALLBACKCONST callback, PFNDAENUMCALLBACKCONST callback function [Windows Controls], PFNDPAENUMCALLBACKCONST, PFNDSAENUMCALLBACKCONST, _shell_PFNDAENUMCALLBACKCONST, _shell_PFNDAENUMCALLBACKCONST_cpp, controls.PFNDAENUMCALLBACKCONST, controls._shell_PFNDAENUMCALLBACKCONST, dpa_dsa/PFNDAENUMCALLBACKCONST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1ink_setsegments.htm
 tech.root: direct2d
 ms.assetid: 930D9772-D922-4CEB-A97C-06F263543D81
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegments method, ID2D1Ink.SetSegments, ID2D1Ink::SetSegments, SetSegments, SetSegments method [Direct2D], SetSegments method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegments, direct2d.id2d1ink_setsegments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_3.h
+: 
+- ID2D1Ink.SetSegments
+: 
 ---
 
 # ID2D1Ink::SetSegments

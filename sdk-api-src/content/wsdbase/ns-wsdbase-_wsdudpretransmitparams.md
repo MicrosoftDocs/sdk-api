@@ -9,8 +9,8 @@ ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PWSDUdpRetransmitParams, PWSDUdpRetransmitParams structure pointer, WSDUdpRetransmitParams, WSDUdpRetransmitParams structure, _WSDUdpRetransmitParams, ncd.wsdupdretransmitparams, wsdbase/PWSDUdpRetransmitParams, wsdbase/WSDUdpRetransmitParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

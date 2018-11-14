@@ -7,7 +7,7 @@ old-location: base\regrestorekey.htm
 tech.root: sysinfo
 ms.assetid: 6267383d-427a-4ae8-b9cc-9c1861d3b7bb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: REG_FORCE_RESTORE, REG_WHOLE_HIVE_VOLATILE, RegRestoreKey, RegRestoreKey function, RegRestoreKeyA, RegRestoreKeyW, _win32_regrestorekey, base.regrestorekey, winreg/RegRestoreKey, winreg/RegRestoreKeyA, winreg/RegRestoreKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegRestoreKeyA
+: 
 ---
 
 # RegRestoreKeyA function

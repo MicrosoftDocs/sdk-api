@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gettype_36.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],Image class, Image class [GDI+],GetType method, Image.GetType, Image::GetType, _gdiplus_CLASS_Image_GetType_, gdiplus._gdiplus_CLASS_Image_GetType_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.GetType
+: 
 req.product: GDI+ 1.0
 ---
 

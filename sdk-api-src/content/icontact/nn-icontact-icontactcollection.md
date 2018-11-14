@@ -9,8 +9,8 @@ ms.assetid: 4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], IContactCollection interface [Windows Contacts],described, _wincontacts_IContactCollection, icontact/IContactCollection, wincontacts._wincontacts_IContactCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: icontact.h
 req.include-header: 

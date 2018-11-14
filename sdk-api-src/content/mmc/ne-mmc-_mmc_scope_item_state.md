@@ -9,8 +9,8 @@ ms.assetid: 6c1755a4-ea6e-4c0e-a84e-f609aca0085c
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: MMC_SCOPE_ITEM_STATE, MMC_SCOPE_ITEM_STATE enumeration [MMC], MMC_SCOPE_ITEM_STATE_BOLD, MMC_SCOPE_ITEM_STATE_EXPANDEDONCE, MMC_SCOPE_ITEM_STATE_NORMAL, _MMC_SCOPE_ITEM_STATE, _slate_mmc_scope_item_state, mmc.mmc_scope_item_state, mmc/MMC_SCOPE_ITEM_STATE, mmc/MMC_SCOPE_ITEM_STATE_BOLD, mmc/MMC_SCOPE_ITEM_STATE_EXPANDEDONCE, mmc/MMC_SCOPE_ITEM_STATE_NORMAL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 

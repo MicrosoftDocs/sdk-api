@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- credentialprovider.h
+: 
+- ICredentialProviderSetUserArray.SetUserArray
+: 
 ---
 
 # ICredentialProviderSetUserArray::SetUserArray

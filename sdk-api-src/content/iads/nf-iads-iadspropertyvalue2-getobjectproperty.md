@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iads.h
+: 
+- IADsPropertyValue2.GetObjectProperty
+: 
 ---
 
 # IADsPropertyValue2::GetObjectProperty

@@ -7,7 +7,7 @@ old-location: security\auditsetperuserpolicy_func.htm
 tech.root: secauthz
 ms.assetid: a6cef640-5658-4c13-96fb-a664d2a61b57
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuditSetPerUserPolicy, AuditSetPerUserPolicy function [Security], ntsecapi/AuditSetPerUserPolicy, security.auditsetperuserpolicy_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditSetPerUserPolicy
+: 
 ---
 
 # AuditSetPerUserPolicy function

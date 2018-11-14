@@ -7,7 +7,7 @@ old-location: security\iazrole_addmembername.htm
 tech.root: secauthz
 ms.assetid: fc2ca62e-40b1-4b09-a129-50d6162c6807
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzRole object, AddMemberName method [Security],IAzRole interface, AzRole object [Security],AddMemberName method, IAzRole interface [Security],AddMemberName method, IAzRole.AddMemberName, IAzRole::AddMemberName, azroles/IAzRole::AddMemberName, security.iazrole_addmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.AddMemberName
+: 
 ---
 
 # IAzRole::AddMemberName

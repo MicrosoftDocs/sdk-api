@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Add_ID_ExW
+: 
 ---
 
 # CM_Add_ID_ExW function

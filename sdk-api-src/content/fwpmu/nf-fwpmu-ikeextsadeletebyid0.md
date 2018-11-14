@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IkeextSaDeleteById0
+: 
 ---
 
 # IkeextSaDeleteById0 function

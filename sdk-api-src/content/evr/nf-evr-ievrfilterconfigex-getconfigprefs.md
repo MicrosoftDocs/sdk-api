@@ -7,7 +7,7 @@ old-location: mf\ievrfilterconfigex_getconfigprefs.htm
 tech.root: medfound
 ms.assetid: 8b286b77-de5f-44ce-82f4-d11a76fe2c4d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetConfigPrefs, GetConfigPrefs method [Media Foundation], GetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, IEVRFilterConfigEx interface [Media Foundation],GetConfigPrefs method, IEVRFilterConfigEx.GetConfigPrefs, IEVRFilterConfigEx::GetConfigPrefs, evr/IEVRFilterConfigEx::GetConfigPrefs, mf.ievrfilterconfigex_getconfigprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- evr.h
+: 
+- IEVRFilterConfigEx.GetConfigPrefs
+: 
 ---
 
 # IEVRFilterConfigEx::GetConfigPrefs

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IFolderAction.put_Actions
+: 
 ---
 
 # IFolderAction::put_Actions

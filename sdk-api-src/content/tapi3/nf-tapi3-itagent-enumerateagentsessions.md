@@ -7,7 +7,7 @@ old-location: tapi3\itagent_enumerateagentsessions.htm
 tech.root: tapi
 ms.assetid: 6b639a41-c866-49ad-bc33-1215da7c8a19
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EnumerateAgentSessions, EnumerateAgentSessions method [TAPI 2.2], EnumerateAgentSessions method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],EnumerateAgentSessions method, ITAgent.EnumerateAgentSessions, ITAgent::EnumerateAgentSessions, _tapi3_itagent_enumerateagentsessions, tapi3.itagent_enumerateagentsessions, tapi3cc/ITAgent::EnumerateAgentSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITAgent.EnumerateAgentSessions
+: 
 ---
 
 # ITAgent::EnumerateAgentSessions

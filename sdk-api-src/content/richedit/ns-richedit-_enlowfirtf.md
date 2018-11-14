@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ENLOWFIRTF, ENLOWFIRTF structure [Windows Controls], _enlowfirtf, _win32_ENLOWFIRTF_str, _win32_ENLOWFIRTF_str_cpp, controls.ENLOWFIRTF, controls._win32_ENLOWFIRTF_str, richedit/ENLOWFIRTF
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

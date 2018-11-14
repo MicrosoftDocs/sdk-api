@@ -9,8 +9,8 @@ ms.assetid: f98a5934-968e-4c74-9fd2-f824ad77692c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WM_WRITER_STATISTICS_EX, WM_WRITER_STATISTICS_EX structure [windows Media Format], _WMWriterStatisticsEx, wmformat.wm_writer_statistics_ex, wmsdkidl/WM_WRITER_STATISTICS_EX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

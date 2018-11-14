@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetBlendCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getblendcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetBlendCount, GetBlendCount method [GDI+], GetBlendCount method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetBlendCount method, LinearGradientBrush.GetBlendCount, LinearGradientBrush::GetBlendCount, _gdiplus_CLASS_LinearGradientBrush_GetBlendCount_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetBlendCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- LinearGradientBrush.GetBlendCount
+: 
 req.product: GDI+ 1.0
 ---
 

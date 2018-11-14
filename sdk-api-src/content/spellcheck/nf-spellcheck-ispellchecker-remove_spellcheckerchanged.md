@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- spellcheck.h
+: 
+- ISpellChecker.remove_SpellCheckerChanged
+: 
 ---
 
 # ISpellChecker::remove_SpellCheckerChanged

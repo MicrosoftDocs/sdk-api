@@ -9,8 +9,8 @@ ms.assetid: 992199f2-1bac-428e-9699-0740654e1922
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPCUSTDATA, CUSTDATA, CUSTDATA structure [Automation], LPCUSTDATA, LPCUSTDATA structure pointer [Automation], _oa96_CUSTDATA, automat.custdata, oaidl/CUSTDATA, oaidl/LPCUSTDATA, tagCUSTDATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

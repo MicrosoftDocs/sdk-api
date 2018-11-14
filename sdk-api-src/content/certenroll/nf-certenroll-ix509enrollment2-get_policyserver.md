@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509Enrollment2.get_PolicyServer
+: 
 ---
 
 # IX509Enrollment2::get_PolicyServer

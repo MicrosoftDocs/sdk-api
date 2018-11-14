@@ -9,8 +9,8 @@ ms.assetid: 8C3375C5-507C-4336-8F6A-DE509F3F20D2
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PRJ_UPDATE_FAILURE_CAUSES, PRJ_UPDATE_FAILURE_CAUSES enumeration, PRJ_UPDATE_FAILURE_CAUSE_DIRTY_DATA, PRJ_UPDATE_FAILURE_CAUSE_DIRTY_METADATA, PRJ_UPDATE_FAILURE_CAUSE_NONE, PRJ_UPDATE_FAILURE_CAUSE_READ_ONLY, PRJ_UPDATE_FAILURE_CAUSE_TOMBSTONE, ProjFS.prj_update_failure_causes, projectedfslib/PRJ_UPDATE_FAILURE_CAUSES, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_DIRTY_DATA, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_DIRTY_METADATA, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_NONE, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_READ_ONLY, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_TOMBSTONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: projectedfslib.h
 req.include-header: 

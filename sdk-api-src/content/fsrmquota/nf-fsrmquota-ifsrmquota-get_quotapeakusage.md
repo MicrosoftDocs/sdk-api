@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmquota.h
+: 
+- IFsrmQuota.get_QuotaPeakUsage
+: 
 ---
 
 # IFsrmQuota::get_QuotaPeakUsage

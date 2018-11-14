@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm
 tech.root: medfound
 ms.assetid: ff50e746-42f5-4fbe-a904-f83b3c691d32
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, IMFPluginControl.SetDisabled, IMFPluginControl::SetDisabled, SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFPluginControl.SetDisabled
+: 
 ---
 
 # IMFPluginControl::SetDisabled

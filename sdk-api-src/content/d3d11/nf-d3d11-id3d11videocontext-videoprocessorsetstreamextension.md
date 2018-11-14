@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamextension.htm
 tech.root: medfound
 ms.assetid: E6E1CF26-6A9F-42E1-8DA7-2AC76CE05906
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamExtension method, ID3D11VideoContext.VideoProcessorSetStreamExtension, ID3D11VideoContext::VideoProcessorSetStreamExtension, VideoProcessorSetStreamExtension, VideoProcessorSetStreamExtension method [Media Foundation], VideoProcessorSetStreamExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamExtension, mf.id3d11videocontext_videoprocessorsetstreamextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoContext.VideoProcessorSetStreamExtension
+: 
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamExtension

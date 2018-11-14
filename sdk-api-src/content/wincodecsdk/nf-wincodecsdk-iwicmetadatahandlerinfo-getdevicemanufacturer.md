@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodecsdk.h
+: 
+- IWICMetadataHandlerInfo.GetDeviceManufacturer
+: 
 ---
 
 # IWICMetadataHandlerInfo::GetDeviceManufacturer

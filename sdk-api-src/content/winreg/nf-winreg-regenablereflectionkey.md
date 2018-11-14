@@ -7,7 +7,7 @@ old-location: base\regenablereflectionkey.htm
 tech.root: sysinfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegEnableReflectionKey
+: 
 ---
 
 # RegEnableReflectionKey function

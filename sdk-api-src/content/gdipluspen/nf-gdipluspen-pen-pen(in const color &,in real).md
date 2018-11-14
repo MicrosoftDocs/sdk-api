@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_Pen_color_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors\pen_36color_width.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Pen, Pen class [GDI+],Pen constructor, Pen constructor [GDI+], Pen constructor [GDI+],Pen class, Pen.Pen, Pen.Pen(IN const Color &,IN REAL), Pen.Pen(const Color&,REAL), Pen::Pen, Pen::Pen(IN const Color &,IN REAL), _gdiplus_CLASS_Pen_Pen_color_width_, gdiplus._gdiplus_CLASS_Pen_Pen_color_width_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspen.h
+: 
+- Pen.Pen
+: 
 req.product: GDI+ 1.0
 ---
 

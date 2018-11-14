@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- IShellView3.CreateViewWindow3
+: 
 ---
 
 # IShellView3::CreateViewWindow3

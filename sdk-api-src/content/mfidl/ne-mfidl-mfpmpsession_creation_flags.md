@@ -7,10 +7,10 @@ old-location: mf\mfpmpsession_creation_flags.htm
 tech.root: medfound
 ms.assetid: 6341aaff-aa80-4172-8577-0b757a01ea53
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 6341aaff-aa80-4172-8577-0b757a01ea53, MFPMPSESSION_CREATION_FLAGS, MFPMPSESSION_CREATION_FLAGS enumeration [Media Foundation], MFPMPSESSION_UNPROTECTED_PROCESS, mf.mfpmpsession_creation_flags, mfidl/MFPMPSESSION_CREATION_FLAGS, mfidl/MFPMPSESSION_UNPROTECTED_PROCESS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

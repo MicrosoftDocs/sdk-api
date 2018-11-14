@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ISpreadsheetItemProvider.get_Formula
+: 
 ---
 
 # ISpreadsheetItemProvider::get_Formula

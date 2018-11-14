@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ListBox_GetCaretIndex
+: 
 ---
 
 # ListBox_GetCaretIndex macro

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventControl.put_AllowInprocActivation
+: 
 ---
 
 # IEventControl::put_AllowInprocActivation

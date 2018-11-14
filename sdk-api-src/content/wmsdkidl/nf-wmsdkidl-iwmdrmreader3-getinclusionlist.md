@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMDRMReader3.GetInclusionList
+: 
 ---
 
 # IWMDRMReader3::GetInclusionList

@@ -9,8 +9,8 @@ ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgroundCopyJob3 interface [BITS],described, bits.ibackgroundcopyjob3, bits2_0/IBackgroundCopyJob3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits2_0.h
 req.include-header: Bits.h

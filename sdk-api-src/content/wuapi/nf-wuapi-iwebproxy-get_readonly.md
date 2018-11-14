@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IWebProxy.get_ReadOnly
+: 
 ---
 
 # IWebProxy::get_ReadOnly

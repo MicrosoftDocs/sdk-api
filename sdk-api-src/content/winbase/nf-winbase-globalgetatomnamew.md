@@ -7,7 +7,7 @@ old-location: dataxchg\globalgetatomname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalgetatomname.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/13/2018
 ms.keywords: GlobalGetAtomName, GlobalGetAtomName function [Data Exchange], GlobalGetAtomNameA, GlobalGetAtomNameW, _win32_GlobalGetAtomName, _win32_globalgetatomname_cpp, dataxchg.globalgetatomname, winbase/GlobalGetAtomName, winbase/GlobalGetAtomNameA, winbase/GlobalGetAtomNameW, winui._win32_globalgetatomname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GlobalGetAtomNameW
+: 
 ---
 
 # GlobalGetAtomNameW function

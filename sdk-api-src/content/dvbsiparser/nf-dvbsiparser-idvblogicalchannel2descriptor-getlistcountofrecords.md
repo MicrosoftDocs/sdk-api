@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IDvbLogicalChannel2Descriptor.GetListCountOfRecords
+: 
 ---
 
 # IDvbLogicalChannel2Descriptor::GetListCountOfRecords

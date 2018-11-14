@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmcobj.h
+: 
+- ISnapinProperties.QueryPropertyNames
+: 
 ---
 
 # ISnapinProperties::QueryPropertyNames

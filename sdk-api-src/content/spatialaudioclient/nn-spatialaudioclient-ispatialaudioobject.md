@@ -9,8 +9,8 @@ ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio],described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 

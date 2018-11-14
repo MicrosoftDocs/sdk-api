@@ -9,8 +9,8 @@ ms.assetid: a762d81b-0426-483c-a9c0-70f531f4b6ac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EnrollmentSelectionStatus, EnrollmentSelectionStatus enumeration [Security], SelectedNo, SelectedYes, certenroll/EnrollmentSelectionStatus, certenroll/SelectedNo, certenroll/SelectedYes, security.enrollmentselectionstatus_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\iazprincipallocator_objectpicker_method.htm
 tech.root: secauthz
 ms.assetid: 23861b03-0e18-4c0a-a58e-91bac2d474b0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzPrincipalLocator interface [Security],ObjectPicker property, IAzPrincipalLocator.ObjectPicker, IAzPrincipalLocator.get_ObjectPicker, IAzPrincipalLocator::ObjectPicker, IAzPrincipalLocator::get_ObjectPicker, ObjectPicker property [Security], ObjectPicker property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::ObjectPicker, azroles/IAzPrincipalLocator::get_ObjectPicker, get_ObjectPicker, security.iazprincipallocator_objectpicker_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzPrincipalLocator.get_ObjectPicker
+: 
 ---
 
 # IAzPrincipalLocator::get_ObjectPicker

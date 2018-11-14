@@ -7,7 +7,7 @@ old-location: mscs\resutilsetunknownproperties.htm
 tech.root: mscs
 ms.assetid: ee729a3d-9d10-459c-b57d-de17f29d8ae8
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_SET_UNKNOWN_PROPERTIES, PRESUTIL_SET_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilSetUnknownProperties, ResUtilSetUnknownProperties function [Failover Cluster], _wolf_resutilsetunknownproperties, mscs.resutilsetunknownproperties, resapi/PRESUTIL_SET_UNKNOWN_PROPERTIES, resapi/ResUtilSetUnknownProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilSetUnknownProperties
+: 
 ---
 
 # ResUtilSetUnknownProperties function

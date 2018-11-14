@@ -9,8 +9,8 @@ ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: il21dec.h
 req.include-header: 

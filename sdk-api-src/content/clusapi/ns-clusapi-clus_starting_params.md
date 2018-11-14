@@ -7,10 +7,10 @@ old-location: mscs\clus_starting_params.htm
 tech.root: mscs
 ms.assetid: 255c68ff-0ca0-4718-b7fe-c689c93d0203
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS structure [Failover Cluster], FALSE, PCLUS_STARTING_PARAMS, PCLUS_STARTING_PARAMS structure pointer [Failover Cluster], TRUE, _wolf_clus_starting_params, clusapi/CLUS_STARTING_PARAMS, clusapi/PCLUS_STARTING_PARAMS, mscs.clus_starting_params"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

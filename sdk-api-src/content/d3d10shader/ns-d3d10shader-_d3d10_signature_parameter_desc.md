@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_signature_parameter_desc.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D10_SIGNATURE_PARAMETER_DESC, D3D10_SIGNATURE_PARAMETER_DESC structure [Direct3D 10], _D3D10_SIGNATURE_PARAMETER_DESC, d3d10shader/D3D10_SIGNATURE_PARAMETER_DESC, direct3d10.d3d10_signature_parameter_desc, eb24f675-ae7b-325f-955c-48e49ab65308
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10shader.h
 req.include-header: 

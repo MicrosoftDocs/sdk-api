@@ -9,8 +9,8 @@ ms.assetid: 223021ff-58ef-4762-a64a-056ccab2696c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI],described, _ds_iadso, adsi.iadso, iads/IADsO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

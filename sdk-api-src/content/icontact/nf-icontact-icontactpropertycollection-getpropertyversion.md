@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- icontact.h
+: 
+- IContactPropertyCollection.GetPropertyVersion
+: 
 ---
 
 # IContactPropertyCollection::GetPropertyVersion

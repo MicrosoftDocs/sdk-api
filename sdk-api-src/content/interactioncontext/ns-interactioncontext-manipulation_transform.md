@@ -9,8 +9,8 @@ ms.assetid: f1019207-3197-4ccc-a795-01b868dcc9ca
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MANIPULATION_TRANSFORM, MANIPULATION_TRANSFORM structure, input_intcontext.manipulation_transform, interactioncontext.manipulation_transform, interactioncontext/MANIPULATION_TRANSFORM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

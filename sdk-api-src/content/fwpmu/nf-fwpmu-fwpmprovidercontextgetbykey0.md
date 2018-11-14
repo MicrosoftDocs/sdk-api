@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmProviderContextGetByKey0
+: 
 ---
 
 # FwpmProviderContextGetByKey0 function

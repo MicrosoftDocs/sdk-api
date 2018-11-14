@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactory_createerror.htm
 tech.root: medfound
 ms.assetid: C089473D-CD35-4F5D-8C78-EDE0FA8C13EB
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateError, CreateError method [Media Foundation], CreateError method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateError method, IMFMediaEngineClassFactory.CreateError, IMFMediaEngineClassFactory::CreateError, mf.imfmediaengineclassfactory_createerror, mfmediaengine/IMFMediaEngineClassFactory::CreateError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineClassFactory.CreateError
+: 
 ---
 
 # IMFMediaEngineClassFactory::CreateError

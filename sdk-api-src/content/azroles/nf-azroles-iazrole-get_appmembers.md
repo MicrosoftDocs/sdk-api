@@ -7,7 +7,7 @@ old-location: security\iazrole_appmembers.htm
 tech.root: secauthz
 ms.assetid: c41933d4-d3fe-485c-9249-e82d51c0bfc9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AppMembers property [Security], AppMembers property [Security],AzRole object, AppMembers property [Security],IAzRole interface, AzRole object [Security],AppMembers property, IAzRole interface [Security],AppMembers property, IAzRole.AppMembers, IAzRole.get_AppMembers, IAzRole::AppMembers, IAzRole::get_AppMembers, azroles/IAzRole::AppMembers, azroles/IAzRole::get_AppMembers, get_AppMembers, security.iazrole_appmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.get_AppMembers
+: 
 ---
 
 # IAzRole::get_AppMembers

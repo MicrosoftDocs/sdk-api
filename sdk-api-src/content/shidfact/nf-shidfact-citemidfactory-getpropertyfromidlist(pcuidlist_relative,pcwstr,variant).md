@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shidfact.h
+: 
+- CItemIDFactory.GetPropertyFromIDList
+: 
 ---
 
 # CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT)

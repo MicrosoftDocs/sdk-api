@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- adhoc.h
+: 
+- IEnumDot11AdHocNetworks.Reset
+: 
 ---
 
 # IEnumDot11AdHocNetworks::Reset

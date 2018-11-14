@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_GetInformationalStrings.htm
 tech.root: DirectWrite
 ms.assetid: a23fec10-4027-45eb-9c29-01df385b24e7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetInformationalStrings method, IDWriteFont.GetInformationalStrings, IDWriteFont::GetInformationalStrings, directwrite.IDWriteFont_GetInformationalStrings, dwrite/IDWriteFont::GetInformationalStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFont.GetInformationalStrings
+: 
 ---
 
 # IDWriteFont::GetInformationalStrings

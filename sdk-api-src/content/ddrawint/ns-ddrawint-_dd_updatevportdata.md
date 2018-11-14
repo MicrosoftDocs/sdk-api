@@ -9,8 +9,8 @@ ms.assetid: e1ba7851-570e-4ddc-8981-766294011409
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA structure [Display Devices], _DD_UPDATEVPORTDATA, ddrawint/DD_UPDATEVPORTDATA, ddstrcts_a266490e-9cac-45ca-9129-63f3dcef6a6f.xml, display.dd_updatevportdata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

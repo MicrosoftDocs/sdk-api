@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IEmailAction.get_Bcc
+: 
 ---
 
 # IEmailAction::get_Bcc

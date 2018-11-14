@@ -9,8 +9,8 @@ ms.assetid: fb77bd6a-ae34-4e21-8f09-fc8c6a1ade86
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], ITfContextOwnerServices interface [Text Services Framework],described, _tsf_itfcontextownerservices_ref, msctf/ITfContextOwnerServices, tsf.itfcontextownerservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

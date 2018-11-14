@@ -7,10 +7,10 @@ old-location: audio\idirectmusicsynthsink.htm
 tech.root: audio
 ms.assetid: 11944933-cd95-4979-82b2-2c3875b221b3
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/13/2018
 ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], IDirectMusicSynthSink interface [Audio Devices],described, audio.idirectmusicsynthsink, audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml, dmusics/IDirectMusicSynthSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dmusics.h
 req.include-header: 

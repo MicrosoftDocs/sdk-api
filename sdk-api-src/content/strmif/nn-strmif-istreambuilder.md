@@ -9,8 +9,8 @@ ms.assetid: 233821e9-9916-4047-a554-4ff43769819f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], IStreamBuilder interface [DirectShow],described, IStreamBuilderInterface, dshow.istreambuilder, strmif/IStreamBuilder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

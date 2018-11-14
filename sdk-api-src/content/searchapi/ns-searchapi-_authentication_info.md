@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.ht
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _AUTHENTICATION_INFO, _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

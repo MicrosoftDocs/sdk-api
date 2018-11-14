@@ -2,7 +2,7 @@
 UID: NA:clfs
 ms.assetid: 5fa9f711-cd59-30b2-8149-d6c828c8f525
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMChannelInfo.get_ChannelDescription
+: 
 ---
 
 # IAMChannelInfo::get_ChannelDescription

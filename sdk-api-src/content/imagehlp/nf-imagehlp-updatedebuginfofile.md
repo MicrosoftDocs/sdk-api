@@ -7,7 +7,7 @@ old-location: base\updatedebuginfofile.htm
 tech.root: debug
 ms.assetid: b29026e2-3063-447c-9449-7105deb3d744
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: UpdateDebugInfoFile, UpdateDebugInfoFile function, _win32_updatedebuginfofile, base.updatedebuginfofile, imagehlp/UpdateDebugInfoFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- UpdateDebugInfoFile
+: 
 ---
 
 # UpdateDebugInfoFile function

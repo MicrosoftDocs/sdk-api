@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Equals_region_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\equals_59region_g.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Region class, Region class [GDI+],Equals method, Region.Equals, Region::Equals, _gdiplus_CLASS_Region_Equals_region_g_, gdiplus._gdiplus_CLASS_Region_Equals_region_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.Equals
+: 
 req.product: GDI+ 1.0
 ---
 

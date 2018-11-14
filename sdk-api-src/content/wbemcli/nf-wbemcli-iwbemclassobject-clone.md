@@ -51,6 +51,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wbemcli.h
+: 
+- IWbemClassObject.Clone
+: 
 ---
 
 # IWbemClassObject::Clone

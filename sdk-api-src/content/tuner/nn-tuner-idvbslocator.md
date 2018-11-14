@@ -9,8 +9,8 @@ ms.assetid: a9f02e78-3800-4b14-81df-acab01ea072b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], IDVBSLocator interface [Microsoft TV Technologies],described, IDVBSLocatorInterface, mstv.idvbslocator, tuner/IDVBSLocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

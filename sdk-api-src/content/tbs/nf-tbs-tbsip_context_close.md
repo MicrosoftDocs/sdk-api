@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Tbsip_Context_Close
+: 
 ---
 
 # Tbsip_Context_Close function

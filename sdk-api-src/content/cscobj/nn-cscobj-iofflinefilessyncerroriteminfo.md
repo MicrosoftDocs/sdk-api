@@ -9,8 +9,8 @@ ms.assetid: 0af039a6-f0dd-4117-a174-38d32cfc0220
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesSyncErrorItemInfo, IOfflineFilesSyncErrorItemInfo interface [Offline Files], IOfflineFilesSyncErrorItemInfo interface [Offline Files],described, cscobj/IOfflineFilesSyncErrorItemInfo, of.iofflinefilessyncerroriteminfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

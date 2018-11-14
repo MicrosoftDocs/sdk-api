@@ -7,7 +7,7 @@ old-location: security\querysecuritypackageinfo.htm
 tech.root: secauthn
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- QuerySecurityPackageInfoA
+: 
 ---
 
 # QuerySecurityPackageInfoA function

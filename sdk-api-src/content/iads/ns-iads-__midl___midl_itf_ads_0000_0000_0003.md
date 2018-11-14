@@ -9,8 +9,8 @@ ms.assetid: 4776fe35-2c16-4dd3-b708-cf36e2423425
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR structure [ADSI], PADS_NT_SECURITY_DESCRIPTOR, PADS_NT_SECURITY_DESCRIPTOR structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0003, _ds_ads_nt_security_descriptor, adsi.ads__nt__security__descriptor, adsi.ads_nt_security_descriptor, iads/ADS_NT_SECURITY_DESCRIPTOR, iads/PADS_NT_SECURITY_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

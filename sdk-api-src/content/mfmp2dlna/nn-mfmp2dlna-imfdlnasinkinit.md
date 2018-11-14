@@ -7,10 +7,10 @@ old-location: mf\imfdlnasinkinit.htm
 tech.root: medfound
 ms.assetid: fec2933a-aa1a-41e5-b697-fdae548b3789
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFDLNASinkInit, IMFDLNASinkInit interface [Media Foundation], IMFDLNASinkInit interface [Media Foundation],described, mf.imfdlnasinkinit, mfmp2dlna/IMFDLNASinkInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmp2dlna.h
 req.include-header: 

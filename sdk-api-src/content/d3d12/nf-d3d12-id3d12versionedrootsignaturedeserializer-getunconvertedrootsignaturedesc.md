@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getunconverted
 tech.root: direct3d12
 ms.assetid: 7E21B598-C13B-4418-B5B1-4ADDAA18F9B9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetUnconvertedRootSignatureDesc, GetUnconvertedRootSignatureDesc method, GetUnconvertedRootSignatureDesc method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc, ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, d3d12/ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, direct3d12.id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
+: 
 ---
 
 # ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc

@@ -7,7 +7,7 @@ old-location: tapi3\itphone_get_phonecapsstring.htm
 tech.root: tapi
 ms.assetid: e4a0ed77-455e-428c-a3e5-cd467e47b5b2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsString method, ITPhone.get_PhoneCapsString, ITPhone::get_PhoneCapsString, _tapi3_itphone_get_phonecapsstring, get_PhoneCapsString, get_PhoneCapsString method [TAPI 2.2], get_PhoneCapsString method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapsstring, tapi3if/ITPhone::get_PhoneCapsString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITPhone.get_PhoneCapsString
+: 
 ---
 
 # ITPhone::get_PhoneCapsString

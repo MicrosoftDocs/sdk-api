@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- atscpsipparser.h
+: 
+- IATSC_MGT.GetRecordCountOfDescriptors
+: 
 ---
 
 # IATSC_MGT::GetRecordCountOfDescriptors

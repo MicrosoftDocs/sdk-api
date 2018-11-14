@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IDiscRecorder2.get_VendorId
+: 
 ---
 
 # IDiscRecorder2::get_VendorId

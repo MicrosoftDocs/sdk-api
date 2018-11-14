@@ -7,7 +7,7 @@ old-location: tapi2\phonesetdisplay.htm
 tech.root: tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- phoneSetDisplay
+: 
 ---
 
 # phoneSetDisplay function

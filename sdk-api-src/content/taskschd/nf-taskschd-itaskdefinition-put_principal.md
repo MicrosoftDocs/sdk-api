@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskDefinition.put_Principal
+: 
 ---
 
 # ITaskDefinition::put_Principal

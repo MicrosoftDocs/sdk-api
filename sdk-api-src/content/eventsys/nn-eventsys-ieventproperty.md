@@ -9,8 +9,8 @@ ms.assetid: e1ed7249-7fe3-4f90-b3e1-b79597773d85
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEventProperty, IEventProperty interface [COM], IEventProperty interface [COM],described, _com_ieventproperty, com.ieventproperty, eventsys/IEventProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

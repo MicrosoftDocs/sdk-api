@@ -7,10 +7,10 @@ old-location: mf\imfreadwriteclassfactory.htm
 tech.root: medfound
 ms.assetid: 83ef0f0a-ae60-474d-a9e7-7c83a73f6255
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], IMFReadWriteClassFactory interface [Media Foundation],described, mf.imfreadwriteclassfactory, mfreadwrite/IMFReadWriteClassFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

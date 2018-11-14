@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IComObjectPool2Events.OnObjPoolRecycleToTx2
+: 
 ---
 
 # IComObjectPool2Events::OnObjPoolRecycleToTx2

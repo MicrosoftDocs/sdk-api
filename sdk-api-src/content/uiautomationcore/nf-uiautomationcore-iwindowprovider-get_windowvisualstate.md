@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IWindowProvider.get_WindowVisualState
+: 
 ---
 
 # IWindowProvider::get_WindowVisualState

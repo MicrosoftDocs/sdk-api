@@ -7,7 +7,7 @@ old-location: security\icertencodealtname_encode.htm
 tech.root: seccrypto
 ms.assetid: 34136053-1c25-4f6b-8bd6-699fffb6670b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertEncodeAltName object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeAltName object, Encode method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],Encode method, ICertEncodeAltName.Encode, ICertEncodeAltName::Encode, _certsrv_icertencodealtname_encode, certenc/ICertEncodeAltName::Encode, security.icertencodealtname_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenc.h
+: 
+- ICertEncodeAltName.Encode
+: 
 ---
 
 # ICertEncodeAltName::Encode

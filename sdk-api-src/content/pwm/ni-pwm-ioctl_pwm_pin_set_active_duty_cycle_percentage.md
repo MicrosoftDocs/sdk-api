@@ -9,8 +9,8 @@ ms.assetid: A6B29913-5F91-46BD-8B96-DB00B7B1D3FF
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control, IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_set_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

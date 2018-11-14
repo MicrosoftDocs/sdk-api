@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdate3.get_BrowseOnly
+: 
 ---
 
 # IUpdate3::get_BrowseOnly

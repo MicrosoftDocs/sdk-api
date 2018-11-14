@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PCHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT structure [Windows and Messages], MSGFLTINFO_ALLOWED_HIGHER, MSGFLTINFO_ALREADYALLOWED_FORWND, MSGFLTINFO_ALREADYDISALLOWED_FORWND, MSGFLTINFO_NONE, PCHANGEFILTERSTRUCT, PCHANGEFILTERSTRUCT structure pointer [Windows and Messages], _win32_CHANGEFILTERSTRUCT_str, _win32_changefilterstruct_str_cpp, tagCHANGEFILTERSTRUCT, winmsg.changefilterstruct, winui._win32_changefilterstruct_str, winuser/CHANGEFILTERSTRUCT, winuser/PCHANGEFILTERSTRUCT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

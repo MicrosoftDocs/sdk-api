@@ -7,10 +7,10 @@ old-location: mf\imfmediaengineclassfactory2.htm
 tech.root: medfound
 ms.assetid: 161CFCBF-BBAE-4590-8545-D916EC1885D8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaEngineClassFactory2, IMFMediaEngineClassFactory2 interface [Media Foundation], IMFMediaEngineClassFactory2 interface [Media Foundation],described, mf.imfmediaengineclassfactory2, mfmediaengine/IMFMediaEngineClassFactory2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

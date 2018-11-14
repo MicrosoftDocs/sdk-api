@@ -9,8 +9,8 @@ ms.assetid: a947618e-4b50-453a-82d5-5a6f825faebb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPAXISINFOW, *PAXISINFOW, AXISINFO, AXISINFO structure [Windows GDI], AXISINFOA, AXISINFOW, PAXISINFO, PAXISINFO structure pointer [Windows GDI], _win32_AXISINFO_str, gdi.axisinfo, tagAXISINFOW, wingdi/AXISINFO, wingdi/AXISINFOA, wingdi/AXISINFOW, wingdi/PAXISINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

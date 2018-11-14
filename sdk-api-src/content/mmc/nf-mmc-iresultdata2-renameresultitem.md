@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IResultData2.RenameResultItem
+: 
 ---
 
 # IResultData2::RenameResultItem

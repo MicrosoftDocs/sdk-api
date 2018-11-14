@@ -9,8 +9,8 @@ ms.assetid: 705f53ca-82f4-4929-b2a3-0ace8e4ca19b
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IMsmError, IMsmError interface, IMsmError interface,described, mergemod/IMsmError, setup.imsmerror_interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 

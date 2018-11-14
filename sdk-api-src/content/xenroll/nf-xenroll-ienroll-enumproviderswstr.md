@@ -7,7 +7,7 @@ old-location: security\ienroll4_enumproviderswstr.htm
 tech.root: seccrypto
 ms.assetid: f3b40f56-3332-44e8-9753-4107948d0801
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enumProvidersWStr, IEnroll::enumProvidersWStr, enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security],IEnroll interface, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.enumProvidersWStr
+: 
 ---
 
 # IEnroll::enumProvidersWStr

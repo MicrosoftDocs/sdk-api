@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateRequestCertificate.get_NotAfter
+: 
 ---
 
 # IX509CertificateRequestCertificate::get_NotAfter

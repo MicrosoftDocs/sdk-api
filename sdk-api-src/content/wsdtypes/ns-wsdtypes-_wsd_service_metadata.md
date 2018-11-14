@@ -9,8 +9,8 @@ ms.assetid: 1f80e36f-06ca-41fc-bbd7-b44823c75d4d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WSD_SERVICE_METADATA, WSD_SERVICE_METADATA structure, _WSD_SERVICE_METADATA, ncd.wsd_service_metadata_struct, wsdtypes/WSD_SERVICE_METADATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

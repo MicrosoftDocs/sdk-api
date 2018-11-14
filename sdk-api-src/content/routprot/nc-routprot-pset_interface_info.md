@@ -9,8 +9,8 @@ ms.assetid: abcfa220-a860-48cc-92c5-60ce655678b7
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo, SetInterfaceInfo callback function [RAS], _mpr_setinterfaceinfo, routprot/SetInterfaceInfo, rras.setinterfaceinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

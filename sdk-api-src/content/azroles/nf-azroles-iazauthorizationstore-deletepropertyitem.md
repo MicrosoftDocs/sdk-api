@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_deletepropertyitem.htm
 tech.root: secauthz
 ms.assetid: 7c204a3c-2c5b-44d3-bbab-2765e66da925
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzAuthorizationStore object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzAuthorizationStore object, DeletePropertyItem method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePropertyItem method, IAzAuthorizationStore.DeletePropertyItem, IAzAuthorizationStore::DeletePropertyItem, azroles/IAzAuthorizationStore::DeletePropertyItem, security.azauthorizationstore_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.DeletePropertyItem
+: 
 ---
 
 # IAzAuthorizationStore::DeletePropertyItem

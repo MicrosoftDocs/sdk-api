@@ -7,7 +7,7 @@ old-location: base\prefetchcacheline.htm
 tech.root: sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnt.h
+: 
+- PreFetchCacheLine
+: 
 ---
 
 # PreFetchCacheLine macro

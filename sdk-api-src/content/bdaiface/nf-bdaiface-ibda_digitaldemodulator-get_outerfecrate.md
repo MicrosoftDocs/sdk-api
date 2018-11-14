@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_DigitalDemodulator.get_OuterFECRate
+: 
 ---
 
 # IBDA_DigitalDemodulator::get_OuterFECRate

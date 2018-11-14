@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertPropertySHA1Hash.get_SHA1Hash
+: 
 ---
 
 # ICertPropertySHA1Hash::get_SHA1Hash

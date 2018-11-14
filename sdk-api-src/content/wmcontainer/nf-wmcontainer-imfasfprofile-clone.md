@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_clone.htm
 tech.root: medfound
 ms.assetid: e91d3d2c-ef08-460e-b6f8-e8eed8df5a67
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],Clone method, IMFASFProfile.Clone, IMFASFProfile::Clone, e91d3d2c-ef08-460e-b6f8-e8eed8df5a67, mf.imfasfprofile_clone, wmcontainer/IMFASFProfile::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcontainer.h
+: 
+- IMFASFProfile.Clone
+: 
 ---
 
 # IMFASFProfile::Clone

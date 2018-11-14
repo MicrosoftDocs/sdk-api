@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IFolderViewSettings.GetIconSize
+: 
 ---
 
 # IFolderViewSettings::GetIconSize

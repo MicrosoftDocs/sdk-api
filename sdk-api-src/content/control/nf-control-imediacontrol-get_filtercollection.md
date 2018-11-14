@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IMediaControl.get_FilterCollection
+: 
 ---
 
 # IMediaControl::get_FilterCollection

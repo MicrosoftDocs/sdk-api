@@ -9,8 +9,8 @@ ms.assetid: 868846bc-9f63-4bb3-ac8d-cea34232bb41
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_DHCID_DATA, DNS_DHCID_DATA, DNS_DHCID_DATA structure [DNS], PDNS_DHCID_DATA, PDNS_DHCID_DATA structure pointer [DNS], dns.dns_dhcid_data, windns/DNS_DHCID_DATA, windns/PDNS_DHCID_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

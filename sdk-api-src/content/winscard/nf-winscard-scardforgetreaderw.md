@@ -7,7 +7,7 @@ old-location: security\scardforgetreader.htm
 tech.root: secauthn
 ms.assetid: 2022caff-ba01-4d0d-977c-3f51bde95659
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SCardForgetReader, SCardForgetReader function [Security], SCardForgetReaderA, SCardForgetReaderW, _smart_scardforgetreader, security.scardforgetreader, winscard/SCardForgetReader, winscard/SCardForgetReaderA, winscard/SCardForgetReaderW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardForgetReaderW
+: 
 ---
 
 # SCardForgetReaderW function

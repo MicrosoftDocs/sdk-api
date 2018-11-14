@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shidfact.h
+: 
+- CItemIDFactory.GetDataFromIDList
+: 
 ---
 
 # CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE)

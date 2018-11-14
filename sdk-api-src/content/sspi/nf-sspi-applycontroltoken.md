@@ -7,7 +7,7 @@ old-location: security\applycontroltoken.htm
 tech.root: secauthn
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ApplyControlToken
+: 
 ---
 
 # ApplyControlToken function

@@ -9,8 +9,8 @@ ms.assetid: ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], IBDA_FrequencyFilter interface [Microsoft TV Technologies],described, IBDA_FrequencyFilterInterface, bdaiface/IBDA_FrequencyFilter, mstv.ibda_frequencyfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

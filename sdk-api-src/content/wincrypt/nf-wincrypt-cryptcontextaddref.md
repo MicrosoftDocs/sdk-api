@@ -7,7 +7,7 @@ old-location: security\cryptcontextaddref.htm
 tech.root: seccrypto
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptContextAddRef
+: 
 ---
 
 # CryptContextAddRef function

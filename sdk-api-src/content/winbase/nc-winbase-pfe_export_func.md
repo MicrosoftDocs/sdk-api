@@ -9,8 +9,8 @@ ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbase.h
 req.include-header: Windows.h

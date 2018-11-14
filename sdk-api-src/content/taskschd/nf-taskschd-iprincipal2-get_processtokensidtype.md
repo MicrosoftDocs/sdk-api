@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IPrincipal2.get_ProcessTokenSidType
+: 
 ---
 
 # IPrincipal2::get_ProcessTokenSidType

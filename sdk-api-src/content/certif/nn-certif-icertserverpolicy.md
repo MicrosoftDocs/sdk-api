@@ -7,10 +7,10 @@ old-location: security\icertserverpolicy.htm
 tech.root: seccrypto
 ms.assetid: 7d16161e-9827-46a0-9989-30ebca792bb1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertServerPolicy, ICertServerPolicy interface [Security], ICertServerPolicy interface [Security],described, _certsrv_icertserverpolicy, certif/ICertServerPolicy, security.icertserverpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certif.h
 req.include-header: Certsrv.h

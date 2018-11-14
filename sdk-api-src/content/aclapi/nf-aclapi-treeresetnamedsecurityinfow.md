@@ -7,7 +7,7 @@ old-location: security\treeresetnamedsecurityinfo.htm
 tech.root: secauthz
 ms.assetid: adae7d07-a452-409e-b1a1-e9f86f873e39
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: TreeResetNamedSecurityInfo, TreeResetNamedSecurityInfo function [Security], TreeResetNamedSecurityInfoA, TreeResetNamedSecurityInfoW, aclapi/TreeResetNamedSecurityInfo, aclapi/TreeResetNamedSecurityInfoA, aclapi/TreeResetNamedSecurityInfoW, security.treeresetnamedsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TreeResetNamedSecurityInfoW
+: 
 ---
 
 # TreeResetNamedSecurityInfoW function

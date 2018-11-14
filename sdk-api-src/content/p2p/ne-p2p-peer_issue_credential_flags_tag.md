@@ -9,8 +9,8 @@ ms.assetid: b5397627-ffd7-453c-b829-e3e04fa9894a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking], PEER_GROUP_STORE_CREDENTIALS, p2p.peer_group_issue_credential_flags, p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, p2p/PEER_GROUP_STORE_CREDENTIALS, peer_issue_credential_flags_tag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

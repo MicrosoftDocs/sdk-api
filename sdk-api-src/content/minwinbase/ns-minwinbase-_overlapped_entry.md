@@ -9,8 +9,8 @@ ms.assetid: 3e244e6c-0731-477a-b1d3-2601c29449ca
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY structure pointer [Files], OVERLAPPED_ENTRY, OVERLAPPED_ENTRY structure [Files], _OVERLAPPED_ENTRY, fs.overlapped_entry, minwinbase/LPOVERLAPPED_ENTRY, minwinbase/OVERLAPPED_ENTRY, winbase/LPOVERLAPPED_ENTRY, winbase/OVERLAPPED_ENTRY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

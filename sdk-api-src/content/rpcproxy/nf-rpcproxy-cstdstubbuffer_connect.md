@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CStdStubBuffer_Connect
+: 
 ---
 
 # CStdStubBuffer_Connect function

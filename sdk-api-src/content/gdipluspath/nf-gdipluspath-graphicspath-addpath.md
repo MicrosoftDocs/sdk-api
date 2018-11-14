@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\addpath.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddPath, AddPath method [GDI+], AddPath method [GDI+],GraphicsPath class, FALSE, GraphicsPath class [GDI+],AddPath method, GraphicsPath.AddPath, GraphicsPath::AddPath, TRUE, _gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddPath
+: 
 req.product: GDI+ 1.0
 ---
 

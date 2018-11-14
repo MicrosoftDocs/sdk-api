@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
+- apiref
+: 
+- COM
+: 
+- bits4_0.h
+: 
+- IBitsTokenOptions.SetHelperTokenFlags
+: 
 ---
 
 # IBitsTokenOptions::SetHelperTokenFlags

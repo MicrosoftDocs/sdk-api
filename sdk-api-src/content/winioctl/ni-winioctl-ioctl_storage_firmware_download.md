@@ -9,8 +9,8 @@ ms.assetid: 77E50787-1E71-4D90-A1D3-E6665CE0EFDC
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Files], fs.ioctl_storage_firmware_download, winioctl/IOCTL_STORAGE_FIRMWARE_DOWNLOAD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetHeight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getheight_27.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image class, Image class [GDI+],GetHeight method, Image.GetHeight, Image::GetHeight, _gdiplus_CLASS_Image_GetHeight_, gdiplus._gdiplus_CLASS_Image_GetHeight_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.GetHeight
+: 
 req.product: GDI+ 1.0
 ---
 

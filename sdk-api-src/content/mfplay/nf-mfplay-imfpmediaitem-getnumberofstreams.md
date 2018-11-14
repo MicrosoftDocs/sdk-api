@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 65a3cfc8-9171-4206-b1b6-54bb0d3ecdd1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetNumberOfStreams method, IMFPMediaItem.GetNumberOfStreams, IMFPMediaItem::GetNumberOfStreams, mf.imfpmediaitem_getnumberofstreams, mfplay/IMFPMediaItem::GetNumberOfStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfplay.h
+: 
+- IMFPMediaItem.GetNumberOfStreams
+: 
 ---
 
 # IMFPMediaItem::GetNumberOfStreams

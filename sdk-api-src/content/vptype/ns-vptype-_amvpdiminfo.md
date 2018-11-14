@@ -9,8 +9,8 @@ ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPAMVPDIMINFO, AMVPDIMINFO, AMVPDIMINFO structure [DirectShow], AMVPDIMINFOStructure, LPAMVPDIMINFO, LPAMVPDIMINFO structure pointer [DirectShow], _AMVPDIMINFO, dshow.amvpdiminfo, vptype/AMVPDIMINFO, vptype/LPAMVPDIMINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 

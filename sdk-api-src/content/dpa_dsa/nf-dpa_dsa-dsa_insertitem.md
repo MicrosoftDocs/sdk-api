@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DSA_InsertItem
+: 
 ---
 
 # DSA_InsertItem function

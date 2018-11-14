@@ -9,8 +9,8 @@ ms.assetid: 1dea310d-137b-4180-99c9-e40cd4fa3a98
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISyncMgrConflictItems, ISyncMgrConflictItems interface [Windows Shell], ISyncMgrConflictItems interface [Windows Shell],described, _shell_ISyncMgrConflictItems, shell.ISyncMgrConflictItems, syncmgr/ISyncMgrConflictItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

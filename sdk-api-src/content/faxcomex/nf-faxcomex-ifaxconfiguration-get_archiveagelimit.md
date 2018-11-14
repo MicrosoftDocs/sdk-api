@@ -7,7 +7,7 @@ old-location: fax\_mfax_IFaxConfiguration_ArchiveAgeLimit.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archiveagelimit.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveAgeLimit property, IFaxConfiguration.ArchiveAgeLimit, IFaxConfiguration.get_ArchiveAgeLimit, IFaxConfiguration::ArchiveAgeLimit, IFaxConfiguration::get_ArchiveAgeLimit, IFaxConfiguration::put_ArchiveAgeLimit, _mfax_IFaxConfiguration_ArchiveAgeLimit, fax._mfax_IFaxConfiguration_ArchiveAgeLimit, faxcomex/IFaxConfiguration::ArchiveAgeLimit, faxcomex/IFaxConfiguration::get_ArchiveAgeLimit, faxcomex/IFaxConfiguration::put_ArchiveAgeLimit, get_ArchiveAgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxConfiguration.get_ArchiveAgeLimit
+: 
 ---
 
 # IFaxConfiguration::get_ArchiveAgeLimit

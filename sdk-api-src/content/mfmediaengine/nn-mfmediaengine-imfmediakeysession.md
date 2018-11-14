@@ -7,10 +7,10 @@ old-location: mf\imfmediakeysession.htm
 tech.root: medfound
 ms.assetid: 07f97bc9-9da2-4655-9ab9-5e17abc57d6d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaKeySession, IMFMediaKeySession interface [Media Foundation], IMFMediaKeySession interface [Media Foundation],described, mf.imfmediakeysession, mfmediaengine/IMFMediaKeySession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

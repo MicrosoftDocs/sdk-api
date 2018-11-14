@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- instance.h
+: 
+- CInstance.GetClassObjectInterface
+: 
 ---
 
 # CInstance::GetClassObjectInterface

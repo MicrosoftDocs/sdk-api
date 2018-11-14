@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidDevice.get_ClassID
+: 
 ---
 
 # IMSVidDevice::get_ClassID

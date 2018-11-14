@@ -9,8 +9,8 @@ ms.assetid: 7588f526-d1d5-486f-b317-f1a4b35e3882
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT, webservices/WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_issued_token_message_security_binding_constraint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

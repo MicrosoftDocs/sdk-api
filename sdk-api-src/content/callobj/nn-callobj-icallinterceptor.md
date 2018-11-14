@@ -9,8 +9,8 @@ ms.assetid: d0a72c87-598b-4ebe-bc93-65e0927a4c3d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], ICallInterceptor interface [COM],described, _com_icallinterceptor_interface, callobj/ICallInterceptor, com.icallinterceptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getflags.htm
 tech.root: medfound
 ms.assetid: 99143CFD-930A-405C-A8FB-8DBF52CD9BB5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetFlags method, IMFSensorGroup.GetFlags, IMFSensorGroup::GetFlags, mf.imfsensorgroup_getflags, mfidl/IMFSensorGroup::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFSensorGroup.GetFlags
+: 
 ---
 
 # IMFSensorGroup::GetFlags

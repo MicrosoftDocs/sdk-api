@@ -9,8 +9,8 @@ ms.assetid: 2EDFB412-0EE2-4CC7-9718-D35A815803B2
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: MachineLearning.winml_model_desc, PWINML_MODEL_DESC, PWINML_MODEL_DESC structure pointer, WINML_MODEL_DESC, WINML_MODEL_DESC structure, winml/PWINML_MODEL_DESC, winml/WINML_MODEL_DESC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

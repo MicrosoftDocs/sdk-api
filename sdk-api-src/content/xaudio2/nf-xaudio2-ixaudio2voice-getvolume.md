@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xaudio2.h
+: 
+- IXAudio2Voice.GetVolume
+: 
 ---
 
 # IXAudio2Voice::GetVolume

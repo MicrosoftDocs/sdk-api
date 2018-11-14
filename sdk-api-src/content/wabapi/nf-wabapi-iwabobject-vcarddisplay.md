@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wabapi.h
+: 
+- IWABObject.VCardDisplay
+: 
 req.product: Internet Explorer 4.0
 ---
 

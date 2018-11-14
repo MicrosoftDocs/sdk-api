@@ -7,7 +7,7 @@ old-location: multimedia\icdrawstopplay.htm
 tech.root: Multimedia
 ms.assetid: 41faa7cd-13c9-47bc-a62e-c09c7d3264d7
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: ICDrawStopPlay, ICDrawStopPlay macro [Windows Multimedia], _win32_ICDrawStopPlay, multimedia.icdrawstopplay, vfw/ICDrawStopPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- ICDrawStopPlay
+: 
 ---
 
 # ICDrawStopPlay macro

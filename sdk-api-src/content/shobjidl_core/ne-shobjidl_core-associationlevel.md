@@ -9,8 +9,8 @@ ms.assetid: 846ce9f4-092a-420d-be73-0951efc4368f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AL_EFFECTIVE, AL_MACHINE, AL_USER, ASSOCIATIONLEVEL, ASSOCIATIONLEVEL enumeration [Windows Shell], _shell_ASSOCIATIONLEVEL, shell.ASSOCIATIONLEVEL, shobjidl_core/AL_EFFECTIVE, shobjidl_core/AL_MACHINE, shobjidl_core/AL_USER, shobjidl_core/ASSOCIATIONLEVEL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

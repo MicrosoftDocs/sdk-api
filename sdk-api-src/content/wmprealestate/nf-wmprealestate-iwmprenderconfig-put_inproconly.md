@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmprealestate.h
+: 
+- IWMPRenderConfig.put_inProcOnly
+: 
 ---
 
 # IWMPRenderConfig::put_inProcOnly

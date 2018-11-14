@@ -7,7 +7,7 @@ old-location: security\ienroll4_mystoretypewstr.htm
 tech.root: seccrypto
 ms.assetid: 46f95ae3-efd2-4545-b31d-df04112aa737
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll interface [Security],MyStoreTypeWStr property, IEnroll.MyStoreTypeWStr, IEnroll.put_MyStoreTypeWStr, IEnroll::MyStoreTypeWStr, IEnroll::get_MyStoreTypeWStr, IEnroll::put_MyStoreTypeWStr, MyStoreTypeWStr property [Security], MyStoreTypeWStr property [Security],IEnroll interface, put_MyStoreTypeWStr, security.ienroll4_mystoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::MyStoreTypeWStr, xenroll/IEnroll::get_MyStoreTypeWStr, xenroll/IEnroll::put_MyStoreTypeWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.put_MyStoreTypeWStr
+: 
 ---
 
 # IEnroll::put_MyStoreTypeWStr

@@ -7,7 +7,7 @@ old-location: tapi2\lineconfigdialogedit.htm
 tech.root: tapi
 ms.assetid: 417016c3-8053-4a70-bce4-b96cce5e09a5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_lineconfigdialogedit, lineConfigDialogEdit, lineConfigDialogEdit function [TAPI 2.2], lineConfigDialogEditA, lineConfigDialogEditW, tapi/lineConfigDialogEdit, tapi/lineConfigDialogEditA, tapi/lineConfigDialogEditW, tapi2.lineconfigdialogedit"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineConfigDialogEditA
+: 
 ---
 
 # lineConfigDialogEditA function

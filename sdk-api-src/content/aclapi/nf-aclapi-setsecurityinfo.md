@@ -7,7 +7,7 @@ old-location: security\setsecurityinfo.htm
 tech.root: secauthz
 ms.assetid: f1781ba9-81eb-46f9-b530-c390b67d65de
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetSecurityInfo
+: 
 ---
 
 # SetSecurityInfo function

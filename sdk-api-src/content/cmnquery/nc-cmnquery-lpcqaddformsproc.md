@@ -9,8 +9,8 @@ ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 

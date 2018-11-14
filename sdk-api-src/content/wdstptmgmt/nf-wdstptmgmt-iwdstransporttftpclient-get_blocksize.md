@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportTftpClient.get_BlockSize
+: 
 ---
 
 # IWdsTransportTftpClient::get_BlockSize

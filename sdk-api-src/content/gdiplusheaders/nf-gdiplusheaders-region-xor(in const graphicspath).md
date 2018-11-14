@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Xor_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods\xor.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const GraphicsPath), Region.Xor(const GraphicsPath*), Region::Xor, Region::Xor(IN const GraphicsPath), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_path_, gdiplus._gdiplus_CLASS_Region_Xor_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.Xor
+: 
 req.product: GDI+ 1.0
 ---
 

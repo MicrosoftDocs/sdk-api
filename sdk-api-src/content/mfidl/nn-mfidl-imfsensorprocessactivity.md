@@ -7,10 +7,10 @@ old-location: mf\imfsensorprocessactivity.htm
 tech.root: medfound
 ms.assetid: 833A24EA-11E0-47CF-A710-06E38A1FD50A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], IMFSensorProcessActivity interface [Media Foundation],described, mf.imfsensorprocessactivity, mfidl/IMFSensorProcessActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefo
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],ArchiveFolder property, IFaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.put_ArchiveFolder, IFaxOutgoingArchive::ArchiveFolder, IFaxOutgoingArchive::get_ArchiveFolder, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_archivefolder_cpp, faxcomex/IFaxOutgoingArchive::ArchiveFolder, faxcomex/IFaxOutgoingArchive::get_ArchiveFolder, faxcomex/IFaxOutgoingArchive::put_ArchiveFolder, put_ArchiveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingArchive.put_ArchiveFolder
+: 
 ---
 
 # IFaxOutgoingArchive::put_ArchiveFolder

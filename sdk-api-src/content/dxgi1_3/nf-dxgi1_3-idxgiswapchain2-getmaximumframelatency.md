@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain2_getmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: F0A07900-8F10-475B-B13F-E0F49B50C2EB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMaximumFrameLatency method, IDXGISwapChain2.GetMaximumFrameLatency, IDXGISwapChain2::GetMaximumFrameLatency, direct3ddxgi.idxgiswapchain2_getmaximumframelatency, dxgi1_3/IDXGISwapChain2::GetMaximumFrameLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_3.h
+: 
+- IDXGISwapChain2.GetMaximumFrameLatency
+: 
 ---
 
 # IDXGISwapChain2::GetMaximumFrameLatency

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdatif.h
+: 
+- IBDA_TIF_REGISTRATION.UnregisterTIF
+: 
 ---
 
 # IBDA_TIF_REGISTRATION::UnregisterTIF

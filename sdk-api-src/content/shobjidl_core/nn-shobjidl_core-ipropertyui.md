@@ -9,8 +9,8 @@ ms.assetid: FB3DD615-F08B-4cdb-A6EB-3458C474EBEE
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IPropertyUI, IPropertyUI interface [Windows Properties], IPropertyUI interface [Windows Properties],described, _shell_IPropertyUI, properties.IPropertyUI, shell.IPropertyUI, shobjidl_core/IPropertyUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

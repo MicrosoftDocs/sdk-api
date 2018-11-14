@@ -9,8 +9,8 @@ ms.assetid: de25636c-b8ca-47e4-ae16-182b98ede8f6
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IOEM_Delete, IOEM_Ink, IOEM_Select, InkOverlayEditingMode, InkOverlayEditingMode enumeration [Tablet PC], de25636c-b8ca-47e4-ae16-182b98ede8f6, msinkaut/IOEM_Delete, msinkaut/IOEM_Ink, msinkaut/IOEM_Select, msinkaut/InkOverlayEditingMode, tablet.inkoverlayeditingmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

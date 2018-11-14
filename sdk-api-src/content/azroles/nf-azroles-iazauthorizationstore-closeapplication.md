@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_closeapplication.htm
 tech.root: secauthz
 ms.assetid: 7ba5fc77-676a-4fbe-8de8-2af5bf5f82f6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_AZSTORE_FORCE_APPLICATION_CLOSE, AzAuthorizationStore object [Security],CloseApplication method, CloseApplication, CloseApplication method [Security], CloseApplication method [Security],AzAuthorizationStore object, CloseApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CloseApplication method, IAzAuthorizationStore.CloseApplication, IAzAuthorizationStore::CloseApplication, azroles/IAzAuthorizationStore::CloseApplication, security.azauthorizationstore_closeapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.CloseApplication
+: 
 ---
 
 # IAzAuthorizationStore::CloseApplication

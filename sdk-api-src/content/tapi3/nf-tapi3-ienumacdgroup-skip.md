@@ -7,7 +7,7 @@ old-location: tapi3\ienumacdgroup_skip.htm
 tech.root: tapi
 ms.assetid: 58f794cc-da10-4772-9afe-078337b7734b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Skip method, IEnumACDGroup.Skip, IEnumACDGroup::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_skip, tapi3.ienumacdgroup_skip, tapi3cc/IEnumACDGroup::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- IEnumACDGroup.Skip
+: 
 ---
 
 # IEnumACDGroup::Skip

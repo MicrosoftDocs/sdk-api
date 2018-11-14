@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmPropertyDefinition2.put_DisplayName
+: 
 ---
 
 # IFsrmPropertyDefinition2::put_DisplayName

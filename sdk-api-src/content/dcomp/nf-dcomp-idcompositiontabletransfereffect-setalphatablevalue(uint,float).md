@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionTableTransferEffect.SetAlphaTableValue
+: 
 ---
 
 # IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,float)

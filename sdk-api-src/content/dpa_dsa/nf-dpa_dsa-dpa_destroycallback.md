@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DPA_DestroyCallback
+: 
 ---
 
 # DPA_DestroyCallback function

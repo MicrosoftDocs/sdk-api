@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationVariable2.GetPreviousIntegerVectorValue
+: 
 ---
 
 # IUIAnimationVariable2::GetPreviousIntegerVectorValue

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ocidl.h
+: 
+- IClassFactory2.GetLicInfo
+: 
 ---
 
 # IClassFactory2::GetLicInfo

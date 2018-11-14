@@ -7,10 +7,10 @@ old-location: security\wintrust_file_info.htm
 tech.root: seccrypto
 ms.assetid: 3c3bef86-a2ed-47d1-a726-90630433358a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PWINTRUST_FILE_INFO, PWINTRUCT_FILE_INFO, PWINTRUCT_FILE_INFO structure pointer [Security], WINTRUST_FILE_INFO, WINTRUST_FILE_INFO structure [Security], WINTRUST_FILE_INFO_, _win32_wintrust_file_info, security.wintrust_file_info, wintrust/PWINTRUCT_FILE_INFO, wintrust/WINTRUST_FILE_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

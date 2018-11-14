@@ -9,8 +9,8 @@ ms.assetid: 80e3c730-880f-4cfa-921f-3bb88cf827f2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: KeyIdentifierHashAlgorithm, KeyIdentifierHashAlgorithm enumeration [Security], SKIHashCapiSha1, SKIHashDefault, SKIHashSha1, SKIHashSha256, certenroll/KeyIdentifierHashAlgorithm, certenroll/SKIHashCapiSha1, certenroll/SKIHashDefault, certenroll/SKIHashSha1, certenroll/SKIHashSha256, security.keyidentifierhashalgorithm_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

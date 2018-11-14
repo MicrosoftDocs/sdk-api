@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xapobase.h
+: 
+- CXAPOParametersBase.OnSetParameters
+: 
 ---
 
 # CXAPOParametersBase::OnSetParameters

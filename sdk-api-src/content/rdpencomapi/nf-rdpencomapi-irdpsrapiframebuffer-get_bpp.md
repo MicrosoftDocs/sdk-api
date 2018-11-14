@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIFrameBuffer.get_Bpp
+: 
 ---
 
 # IRDPSRAPIFrameBuffer::get_Bpp

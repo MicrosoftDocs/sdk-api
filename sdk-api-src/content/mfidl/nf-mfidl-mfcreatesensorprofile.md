@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorprofile.htm
 tech.root: medfound
 ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateSensorProfile
+: 
 ---
 
 # MFCreateSensorProfile function

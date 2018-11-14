@@ -9,8 +9,8 @@ ms.assetid: e6fb0ed1-cdc1-4792-98cb-2acf27bce5ce
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Player], IWMPPlaylistArray interface [Windows Media Player],described, IWMPPlaylistArrayInterface, wmp.iwmpplaylistarray, wmp/IWMPPlaylistArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 4BF06CA7-5219-4EE0-9A74-F43035914332
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP control, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Files], fs.ioctl_storage_device_power_cap, winioctl/IOCTL_STORAGE_DEVICE_POWER_CAP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

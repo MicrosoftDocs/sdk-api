@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mergemod.h
+: 
+- IMsmConfigurableItem.get_Attributes
+: 
 ---
 
 # IMsmConfigurableItem::get_Attributes

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Log_Conf_Priority_Ex
+: 
 ---
 
 # CM_Get_Log_Conf_Priority_Ex function

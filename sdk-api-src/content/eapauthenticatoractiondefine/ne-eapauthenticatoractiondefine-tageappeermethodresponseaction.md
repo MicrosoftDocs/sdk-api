@@ -4,13 +4,13 @@ title: tagEapPeerMethodResponseAction
 author: windows-sdk-content
 description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
 old-location: eaphost\eappeermethodresponseaction.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: def7e04e-ed0c-46f0-97d6-4c0ab021fa8b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerMethodResponseAction, EapPeerMethodResponseAction enumeration [EAPHost], EapPeerMethodResponseActionDiscard, EapPeerMethodResponseActionInvokeUI, EapPeerMethodResponseActionNone, EapPeerMethodResponseActionRespond, EapPeerMethodResponseActionResult, EapPeerMethodResponseActionSend, eapauthenticatoractiondefine/EapPeerMethodResponseAction, eapauthenticatoractiondefine/EapPeerMethodResponseActionDiscard, eapauthenticatoractiondefine/EapPeerMethodResponseActionInvokeUI, eapauthenticatoractiondefine/EapPeerMethodResponseActionNone, eapauthenticatoractiondefine/EapPeerMethodResponseActionRespond, eapauthenticatoractiondefine/EapPeerMethodResponseActionResult, eapauthenticatoractiondefine/EapPeerMethodResponseActionSend, eaphost.eappeermethodresponseaction, tagEapPeerMethodResponseAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 

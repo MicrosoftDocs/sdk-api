@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iwscapi.h
+: 
+- IWSCProductList.Initialize
+: 
 ---
 
 # IWSCProductList::Initialize

@@ -9,8 +9,8 @@ ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

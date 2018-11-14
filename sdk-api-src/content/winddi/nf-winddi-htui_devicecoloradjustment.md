@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HTUI_DeviceColorAdjustment
+: 
 ---
 
 # HTUI_DeviceColorAdjustment function

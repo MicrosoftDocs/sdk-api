@@ -9,8 +9,8 @@ ms.assetid: ECD44E9F-BE48-4038-94B4-37C8CA5C89F7
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PSERVICE_LAUNCH_PROTECTED_INFO, PSERVICE_LAUNCH_PROTECTED_INFO, PSERVICE_LAUNCH_PROTECTED_INFO structure pointer, SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT, SERVICE_LAUNCH_PROTECTED_INFO, SERVICE_LAUNCH_PROTECTED_INFO structure, SERVICE_LAUNCH_PROTECTED_NONE, SERVICE_LAUNCH_PROTECTED_WINDOWS, SERVICE_LAUNCH_PROTECTED_WINDOWS_LIGHT, _SERVICE_LAUNCH_PROTECTED_INFO, base.service_launch_protected_info, winsvc/PSERVICE_LAUNCH_PROTECTED_INFO, winsvc/SERVICE_LAUNCH_PROTECTED_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 

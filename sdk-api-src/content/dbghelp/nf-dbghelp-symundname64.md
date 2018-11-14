@@ -7,7 +7,7 @@ old-location: base\symundname64.htm
 tech.root: debug
 ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymUnDName64
+: 
 ---
 
 # SymUnDName64 function

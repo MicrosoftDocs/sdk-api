@@ -9,8 +9,8 @@ ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

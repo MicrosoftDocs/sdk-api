@@ -9,8 +9,8 @@ ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

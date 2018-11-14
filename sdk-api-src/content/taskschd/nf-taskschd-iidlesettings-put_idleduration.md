@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IIdleSettings.put_IdleDuration
+: 
 ---
 
 # IIdleSettings::put_IdleDuration

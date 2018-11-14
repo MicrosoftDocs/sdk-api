@@ -9,8 +9,8 @@ ms.assetid: 1819fe08-b151-482d-8e2c-1d599fd15609
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IFunctionDiscoveryNotification, IFunctionDiscoveryNotification interface, IFunctionDiscoveryNotification interface,described, functiondiscoveryapi/IFunctionDiscoveryNotification, ncd.ifunctiondiscoverynotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 

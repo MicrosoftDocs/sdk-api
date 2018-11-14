@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\enums\search_notification_priorit
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: SEARCH_HIGH_PRIORITY, SEARCH_NORMAL_PRIORITY, SEARCH_NOTIFICATION_PRIORITY, SEARCH_NOTIFICATION_PRIORITY enumeration [search], _SEARCH_NOTIFICATION_PRIORITY, _search_SEARCH_NOTIFICATION_PRIORITY, search._search_SEARCH_NOTIFICATION_PRIORITY, searchapi/SEARCH_HIGH_PRIORITY, searchapi/SEARCH_NORMAL_PRIORITY, searchapi/SEARCH_NOTIFICATION_PRIORITY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

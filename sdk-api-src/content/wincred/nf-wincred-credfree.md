@@ -7,7 +7,7 @@ old-location: security\credfree.htm
 tech.root: secauthn
 ms.assetid: bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CredFree, CredFree function [Security], _cred_credfree, security.credfree, wincred/CredFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CredFree
+: 
 ---
 
 # CredFree function

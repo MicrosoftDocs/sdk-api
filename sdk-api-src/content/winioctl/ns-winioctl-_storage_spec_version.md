@@ -9,8 +9,8 @@ ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION structure pointer [Files], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION structure [Files], _STORAGE_SPEC_VERSION, fs.storage_spec_version, winioctl/PSTORAGE_SPEC_VERSION, winioctl/_STORAGE_SPEC_VERSION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

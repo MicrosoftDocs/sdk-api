@@ -9,8 +9,8 @@ ms.assetid: 697dfecf-46a9-4558-90e2-099fabc60742
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SCESVC_INFO_TYPE, SCESVC_INFO_TYPE enumeration [Security], SceSvcAnalysisInfo, SceSvcConfigurationInfo, SceSvcInternalUse, SceSvcMergedPolicyInfo, _SCESVC_INFO_TYPE, _config_scesvc_info_type, scesvc/SCESVC_INFO_TYPE, scesvc/SceSvcAnalysisInfo, scesvc/SceSvcConfigurationInfo, scesvc/SceSvcInternalUse, scesvc/SceSvcMergedPolicyInfo, security.scesvc_info_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: scesvc.h
 req.include-header: 

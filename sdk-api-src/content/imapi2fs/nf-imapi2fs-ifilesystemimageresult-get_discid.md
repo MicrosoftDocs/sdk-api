@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2fs.h
+: 
+- IFileSystemImageResult.get_DiscId
+: 
 ---
 
 # IFileSystemImageResult::get_DiscId

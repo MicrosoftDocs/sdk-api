@@ -7,7 +7,7 @@ old-location: security\cryptcathandlefromstore.htm
 tech.root: seccrypto
 ms.assetid: e9aedc2d-9492-4ed7-9f2d-891997f85f6f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptCATHandleFromStore, CryptCATHandleFromStore function [Security], mscat/CryptCATHandleFromStore, security.cryptcathandlefromstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptCATHandleFromStore
+: 
 ---
 
 # CryptCATHandleFromStore function

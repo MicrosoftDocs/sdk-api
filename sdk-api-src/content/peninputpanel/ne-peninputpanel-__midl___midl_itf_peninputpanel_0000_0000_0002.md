@@ -9,8 +9,8 @@ ms.assetid: 95642cbf-4520-44cc-95ba-80de1fe3b447
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 95642cbf-4520-44cc-95ba-80de1fe3b447, InPlaceState, InPlaceState enumeration [Tablet PC], InPlaceState_Auto, InPlaceState_Expanded, InPlaceState_HoverTarget, __MIDL___MIDL_itf_peninputpanel_0000_0000_0002, peninputpanel/InPlaceState, peninputpanel/InPlaceState_Auto, peninputpanel/InPlaceState_Expanded, peninputpanel/InPlaceState_HoverTarget, tablet.inplacestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 

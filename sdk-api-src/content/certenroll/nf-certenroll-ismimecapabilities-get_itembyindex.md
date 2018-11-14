@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ISmimeCapabilities.get_ItemByIndex
+: 
 ---
 
 # ISmimeCapabilities::get_ItemByIndex

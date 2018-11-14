@@ -9,8 +9,8 @@ ms.assetid: 7a68713c-2de5-4944-a617-0b2d46c23eea
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IResultDataCompare, IResultDataCompare interface [MMC], IResultDataCompare interface [MMC],described, _slate_iresultdatacompare, mmc.iresultdatacompare, mmc/IResultDataCompare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

@@ -50,6 +50,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- evntrace.h
+: 
+- StopTrace
+: 
 ---
 
 # StopTrace macro

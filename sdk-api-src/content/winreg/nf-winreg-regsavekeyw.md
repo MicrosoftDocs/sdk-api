@@ -7,7 +7,7 @@ old-location: base\regsavekey.htm
 tech.root: sysinfo
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegSaveKeyW
+: 
 ---
 
 # RegSaveKeyW function

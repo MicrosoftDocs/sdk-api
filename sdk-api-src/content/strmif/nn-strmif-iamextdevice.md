@@ -9,8 +9,8 @@ ms.assetid: 0423e888-39d1-45cb-9bcf-722240a31fbd
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -9,8 +9,8 @@ ms.assetid: 15dcc80d-ef58-453d-a57a-348ffc7ddc6b
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICBitmap, IWICBitmap interface [Windows Imaging Component], IWICBitmap interface [Windows Imaging Component],described, _wic_codec_iwicbitmap, wic._wic_codec_iwicbitmap, wincodec/IWICBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

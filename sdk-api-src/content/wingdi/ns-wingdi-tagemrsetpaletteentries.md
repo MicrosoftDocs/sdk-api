@@ -9,8 +9,8 @@ ms.assetid: df75567e-150f-4f88-b6ae-938b451a7b7d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES structure [Windows GDI], PEMRSETPALETTEENTRIES, PEMRSETPALETTEENTRIES structure pointer [Windows GDI], _win32_EMRSETPALETTEENTRIES_str, gdi.emrsetpaletteentries, tagEMRSETPALETTEENTRIES, wingdi/EMRSETPALETTEENTRIES, wingdi/PEMRSETPALETTEENTRIES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

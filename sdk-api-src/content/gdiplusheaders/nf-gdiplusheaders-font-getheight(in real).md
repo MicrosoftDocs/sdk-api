@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_dpi_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\fontgetheightmethods\getheight_84dpi.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Font class [GDI+],GetHeight method, Font.GetHeight, Font.GetHeight(IN REAL), Font.GetHeight(REAL), Font::GetHeight, Font::GetHeight(IN REAL), GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Font class, _gdiplus_CLASS_Font_GetHeight_dpi_, gdiplus._gdiplus_CLASS_Font_GetHeight_dpi_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Font.GetHeight
+: 
 req.product: GDI+ 1.0
 ---
 

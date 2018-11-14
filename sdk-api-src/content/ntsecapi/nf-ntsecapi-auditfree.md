@@ -7,7 +7,7 @@ old-location: security\auditfree_func.htm
 tech.root: secauthz
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditFree
+: 
 ---
 
 # AuditFree function

@@ -7,7 +7,7 @@ old-location: security\credenumerate.htm
 tech.root: secauthn
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CredEnumerateW
+: 
 ---
 
 # CredEnumerateW function

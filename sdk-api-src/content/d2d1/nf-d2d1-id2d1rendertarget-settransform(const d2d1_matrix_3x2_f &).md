@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_SetTransform_ref_D2D_MATRIX_3X2_F.htm
 tech.root: direct2d
 ms.assetid: 8987ed2c-aafe-43f0-ae56-5915067c8561
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTransform method, ID2D1RenderTarget.SetTransform, ID2D1RenderTarget.SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1RenderTarget::SetTransform, ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F &), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTransform, direct2d.ID2D1RenderTarget_SetTransform_ref_D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1RenderTarget.SetTransform
+: 
 ---
 
 # ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F &)

@@ -7,7 +7,7 @@ old-location: tapi3\itterminal_get_state.htm
 tech.root: tapi
 ms.assetid: 18eebe2c-2c65-4836-a371-146eb76a379c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_State method, ITTerminal.get_State, ITTerminal::get_State, _tapi3_itterminal_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_state, tapi3if/ITTerminal::get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITTerminal.get_State
+: 
 ---
 
 # ITTerminal::get_State

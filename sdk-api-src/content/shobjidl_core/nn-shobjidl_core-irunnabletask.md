@@ -9,8 +9,8 @@ ms.assetid: 158a6688-949b-4075-a790-fd6efb88792c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRunnableTask, IRunnableTask interface [Windows Shell], IRunnableTask interface [Windows Shell],described, _win32_IRunnableTask, shell.IRunnableTask, shobjidl_core/IRunnableTask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

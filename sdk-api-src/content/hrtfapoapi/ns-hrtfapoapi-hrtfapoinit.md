@@ -9,8 +9,8 @@ ms.assetid: 686A2203-A991-427F-9D41-F3C679070127
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: HrtfApoInit, HrtfApoInit structure [XAudio2 Audio Mixing APIs], PHrtfApoInit, PHrtfApoInit structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfApoInit, hrtfapoapi/PHrtfApoInit, xaudio2.hrtfapoinit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 

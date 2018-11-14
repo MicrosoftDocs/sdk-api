@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VARIANT_UserFree64
+: 
 ---
 
 # VARIANT_UserFree64 function

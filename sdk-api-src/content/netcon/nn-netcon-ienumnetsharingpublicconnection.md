@@ -9,8 +9,8 @@ ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

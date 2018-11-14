@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchRoot.get_User
+: 
 ---
 
 # ISearchRoot::get_User

@@ -7,7 +7,7 @@ old-location: mf\mftgetinfo.htm
 tech.root: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-46b7-bdf7-c32983c648ee, mf.mftgetinfo, mfapi/MFTGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFTGetInfo
+: 
 ---
 
 # MFTGetInfo function

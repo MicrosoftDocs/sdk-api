@@ -7,7 +7,7 @@ old-location: mscs\clusternetworkcontrol.htm
 tech.root: mscs
 ms.assetid: df0d7b45-4d8b-4780-944a-0fbba670f99a
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterNetworkControl, ClusterNetworkControl function [Failover Cluster], _wolf_clusternetworkcontrol, clusapi/ClusterNetworkControl, mscs.clusternetworkcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterNetworkControl
+: 
 ---
 
 # ClusterNetworkControl function

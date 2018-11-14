@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_ColorChannelFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colorchannelflags.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ColorChannelFlags, ColorChannelFlags enumeration [GDI+], ColorChannelFlagsC, ColorChannelFlagsK, ColorChannelFlagsLast, ColorChannelFlagsM, ColorChannelFlagsY, _gdiplus_ENUM_ColorChannelFlags, gdiplus._gdiplus_ENUM_ColorChannelFlags, gdipluscolor/ColorChannelFlags, gdipluscolor/ColorChannelFlagsC, gdipluscolor/ColorChannelFlagsK, gdipluscolor/ColorChannelFlagsLast, gdipluscolor/ColorChannelFlagsM, gdipluscolor/ColorChannelFlagsY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WMCreateSecureChannel_DES
+: 
 ---
 
 # WMCreateSecureChannel_DES function

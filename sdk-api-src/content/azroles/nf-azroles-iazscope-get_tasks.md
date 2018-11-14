@@ -7,7 +7,7 @@ old-location: security\iazscope_tasks.htm
 tech.root: secauthz
 ms.assetid: 4b8a5280-570d-46eb-a6cb-2723cde3eb15
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],Tasks property, IAzScope interface [Security],Tasks property, IAzScope.Tasks, IAzScope.get_Tasks, IAzScope::Tasks, IAzScope::get_Tasks, Tasks property [Security], Tasks property [Security],AzScope object, Tasks property [Security],IAzScope interface, azroles/IAzScope::Tasks, azroles/IAzScope::get_Tasks, get_Tasks, security.iazscope_tasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.get_Tasks
+: 
 ---
 
 # IAzScope::get_Tasks

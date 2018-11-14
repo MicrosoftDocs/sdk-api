@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPPlayer.get_uiMode
+: 
 ---
 
 # IWMPPlayer::get_uiMode

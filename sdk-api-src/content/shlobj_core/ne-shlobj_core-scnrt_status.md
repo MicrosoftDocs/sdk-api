@@ -9,8 +9,8 @@ ms.assetid: 31fd993b-d8cb-40cc-9f31-15711dba1b10
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SCNRT_DISABLE, SCNRT_ENABLE, SCNRT_STATUS, SCNRT_STATUS enumeration [Windows Shell], _shell_SCNRT_STATUS, shell.SCNRT_STATUS, shlobj_core/SCNRT_DISABLE, shlobj_core/SCNRT_ENABLE, shlobj_core/SCNRT_STATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -9,8 +9,8 @@ ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 

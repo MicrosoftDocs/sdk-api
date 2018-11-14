@@ -9,8 +9,8 @@ ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

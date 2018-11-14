@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxenumglobalroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5zvz.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: FaxEnumGlobalRoutingInfo, FaxEnumGlobalRoutingInfo function [Fax Service], FaxEnumGlobalRoutingInfoA, FaxEnumGlobalRoutingInfoW, _mfax_faxenumglobalroutinginfo, fax._mfax_faxenumglobalroutinginfo, winfax/FaxEnumGlobalRoutingInfo, winfax/FaxEnumGlobalRoutingInfoA, winfax/FaxEnumGlobalRoutingInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FaxEnumGlobalRoutingInfoA
+: 
 ---
 
 # FaxEnumGlobalRoutingInfoA function

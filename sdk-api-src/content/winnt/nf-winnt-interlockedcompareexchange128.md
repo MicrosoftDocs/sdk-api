@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange128.htm
 tech.root: sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 function, base.interlockedcompareexchange128, winnt/InterlockedCompareExchange128
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InterlockedCompareExchange128
+: 
 ---
 
 # InterlockedCompareExchange128 function

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmAction.get_RunLimitInterval
+: 
 ---
 
 # IFsrmAction::get_RunLimitInterval

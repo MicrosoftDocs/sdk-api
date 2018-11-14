@@ -9,8 +9,8 @@ ms.assetid: dd891506-f25b-4aa5-b739-0d66d5a5f395
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509Attributes, IX509Attributes interface [Security], IX509Attributes interface [Security],described, certenroll/IX509Attributes, security.ix509attributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

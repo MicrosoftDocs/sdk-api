@@ -9,8 +9,8 @@ ms.assetid: b3f7e92a-8feb-47cd-ae50-bc5bf9a37958
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWMDMOperation2, IWMDMOperation2 interface [windows Media Device Manager], IWMDMOperation2 interface [windows Media Device Manager],described, IWMDMOperation2Interface, mswmdm/IWMDMOperation2, wmdm.iwmdmoperation2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

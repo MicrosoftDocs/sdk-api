@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FlatSB_EnableScrollBar
+: 
 ---
 
 # FlatSB_EnableScrollBar function

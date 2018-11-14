@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
+- apiref
+: 
+- 
+: 
+- ObjectFromLresult
+: 
 ---
 
 # ObjectFromLresult function

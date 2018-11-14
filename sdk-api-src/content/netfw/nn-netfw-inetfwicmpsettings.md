@@ -9,8 +9,8 @@ ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

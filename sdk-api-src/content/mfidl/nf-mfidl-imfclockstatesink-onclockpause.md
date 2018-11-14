@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclockpause.htm
 tech.root: medfound
 ms.assetid: d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockPause method, IMFClockStateSink.OnClockPause, IMFClockStateSink::OnClockPause, OnClockPause, OnClockPause method [Media Foundation], OnClockPause method [Media Foundation],IMFClockStateSink interface, d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f, mf.imfclockstatesink_onclockpause, mfidl/IMFClockStateSink::OnClockPause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFClockStateSink.OnClockPause
+: 
 ---
 
 # IMFClockStateSink::OnClockPause

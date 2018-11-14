@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\iswmfplaceable.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: IsWmfPlaceable, IsWmfPlaceable method [GDI+], IsWmfPlaceable method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsWmfPlaceable method, MetafileHeader.IsWmfPlaceable, MetafileHeader::IsWmfPlaceable, _gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_, gdiplus._gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmetaheader.h
+: 
+- MetafileHeader.IsWmfPlaceable
+: 
 req.product: GDI+ 1.0
 ---
 

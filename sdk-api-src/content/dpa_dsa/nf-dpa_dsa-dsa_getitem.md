@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DSA_GetItem
+: 
 ---
 
 # DSA_GetItem function

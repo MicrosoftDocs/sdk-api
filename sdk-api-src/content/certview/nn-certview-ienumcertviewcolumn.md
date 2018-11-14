@@ -7,10 +7,10 @@ old-location: security\ienumcertviewcolumn.htm
 tech.root: seccrypto
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

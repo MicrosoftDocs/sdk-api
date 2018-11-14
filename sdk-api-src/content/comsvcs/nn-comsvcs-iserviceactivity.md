@@ -9,8 +9,8 @@ ms.assetid: 005bf0ec-f5a7-41a3-85b3-07f79f26af27
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\cryptsignhash.htm
 tech.root: seccrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptSignHashA
+: 
 ---
 
 # CryptSignHashA function

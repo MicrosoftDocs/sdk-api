@@ -7,7 +7,7 @@ old-location: tapi3\ienumbstr_clone.htm
 tech.root: tapi
 ms.assetid: 17376fb1-05cc-4ca4-85ab-d578a48f03d1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumBstr interface, IEnumBstr interface [TAPI 2.2],Clone method, IEnumBstr.Clone, IEnumBstr::Clone, _tapi3_ienumbstr_clone, tapi3.ienumbstr_clone, tapi3if/IEnumBstr::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- IEnumBstr.Clone
+: 
 ---
 
 # IEnumBstr::Clone

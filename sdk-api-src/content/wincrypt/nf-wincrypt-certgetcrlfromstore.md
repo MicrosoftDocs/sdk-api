@@ -7,7 +7,7 @@ old-location: security\certgetcrlfromstore.htm
 tech.root: seccrypto
 ms.assetid: 7bd21424-4f74-4bac-ab47-00d51ebdca1c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertGetCRLFromStore
+: 
 ---
 
 # CertGetCRLFromStore function

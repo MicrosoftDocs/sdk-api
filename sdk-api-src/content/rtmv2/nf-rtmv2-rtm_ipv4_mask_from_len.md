@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- rtmv2.h
+: 
+- RTM_IPV4_MASK_FROM_LEN
+: 
 ---
 
 # RTM_IPV4_MASK_FROM_LEN macro

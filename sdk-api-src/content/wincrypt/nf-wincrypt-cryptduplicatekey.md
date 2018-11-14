@@ -7,7 +7,7 @@ old-location: security\cryptduplicatekey.htm
 tech.root: seccrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptDuplicateKey
+: 
 ---
 
 # CryptDuplicateKey function

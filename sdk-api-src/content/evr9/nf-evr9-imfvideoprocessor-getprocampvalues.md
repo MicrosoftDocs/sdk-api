@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getprocampvalues.htm
 tech.root: medfound
 ms.assetid: d1d6f6a4-fe3b-4acf-a004-d02ece41a302
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetProcAmpValues, GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpValues method, IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- evr9.h
+: 
+- IMFVideoProcessor.GetProcAmpValues
+: 
 ---
 
 # IMFVideoProcessor::GetProcAmpValues

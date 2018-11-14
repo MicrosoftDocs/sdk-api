@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits.h
+: 
+- IBackgroundCopyManager.EnumJobs
+: 
 ---
 
 # IBackgroundCopyManager::EnumJobs

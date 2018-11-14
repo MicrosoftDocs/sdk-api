@@ -9,8 +9,8 @@ ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes, tagResultCodes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

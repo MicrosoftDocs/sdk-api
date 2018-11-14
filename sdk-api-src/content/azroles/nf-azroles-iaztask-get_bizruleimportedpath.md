@@ -7,7 +7,7 @@ old-location: security\iaztask_bizruleimportedpath.htm
 tech.root: secauthz
 ms.assetid: 52422e14-4a96-455d-ad35-b8816871ee10
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzTask object [Security],BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],AzTask object, BizRuleImportedPath property [Security],IAzTask interface, IAzTask interface [Security],BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask.get_BizRuleImportedPath, IAzTask::BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iaztask_bizruleimportedpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.get_BizRuleImportedPath
+: 
 ---
 
 # IAzTask::get_BizRuleImportedPath

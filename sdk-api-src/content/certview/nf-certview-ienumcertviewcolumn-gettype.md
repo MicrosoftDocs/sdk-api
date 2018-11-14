@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_gettype.htm
 tech.root: seccrypto
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetType method, IEnumCERTVIEWCOLUMN.GetType, IEnumCERTVIEWCOLUMN::GetType, _certsrv_ienumcertviewcolumn_gettype, certview/IEnumCERTVIEWCOLUMN::GetType, security.ienumcertviewcolumn_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certview.h
+: 
+- IEnumCERTVIEWCOLUMN.GetType
+: 
 ---
 
 # IEnumCERTVIEWCOLUMN::GetType

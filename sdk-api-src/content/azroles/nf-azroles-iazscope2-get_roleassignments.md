@@ -7,7 +7,7 @@ old-location: security\iazscope2_roleassignments.htm
 tech.root: secauthz
 ms.assetid: 9f844f6b-8c31-4cec-ae72-a3fd4e947d49
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzScope2 interface [Security],RoleAssignments property, IAzScope2.RoleAssignments, IAzScope2.get_RoleAssignments, IAzScope2::RoleAssignments, IAzScope2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzScope2 interface, azroles/IAzScope2::RoleAssignments, azroles/IAzScope2::get_RoleAssignments, get_RoleAssignments, security.iazscope2_roleassignments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope2.get_RoleAssignments
+: 
 ---
 
 # IAzScope2::get_RoleAssignments

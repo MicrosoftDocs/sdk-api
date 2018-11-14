@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandallocator.htm
 tech.root: direct3d12
 ms.assetid: 28DA0D59-3DB7-4652-B1EA-3360EA85A659
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: CreateCommandAllocator, CreateCommandAllocator method, CreateCommandAllocator method,ID3D12Device interface, ID3D12Device interface,CreateCommandAllocator method, ID3D12Device.CreateCommandAllocator, ID3D12Device::CreateCommandAllocator, d3d12/ID3D12Device::CreateCommandAllocator, direct3d12.id3d12device_createcommandallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12Device.CreateCommandAllocator
+: 
 ---
 
 # ID3D12Device::CreateCommandAllocator

@@ -9,8 +9,8 @@ ms.assetid: 685f3627-30bd-4c78-9eda-0b06203dd46e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], IVMRDeinterlaceControl9 interface [DirectShow],described, IVMRDeinterlaceControl9Interface, dshow.ivmrdeinterlacecontrol9, vmr9/IVMRDeinterlaceControl9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

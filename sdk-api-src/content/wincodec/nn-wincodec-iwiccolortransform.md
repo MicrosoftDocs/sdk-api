@@ -9,8 +9,8 @@ ms.assetid: 6c8ae787-3175-4128-ae9f-e11cb0e4c317
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICColorTransform, IWICColorTransform interface [Windows Imaging Component], IWICColorTransform interface [Windows Imaging Component],described, _wic_codec_iwiccolortransform, wic._wic_codec_iwiccolortransform, wincodec/IWICColorTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

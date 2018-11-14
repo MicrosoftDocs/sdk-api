@@ -7,7 +7,7 @@ old-location: tapi2\linegetgrouplist.htm
 tech.root: tapi
 ms.assetid: 3e1d63e2-f87d-41ed-92ba-fe3bbdade8d3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linegetgrouplist, lineGetGroupList, lineGetGroupList function [TAPI 2.2], lineGetGroupListA, lineGetGroupListW, tapi/lineGetGroupList, tapi/lineGetGroupListA, tapi/lineGetGroupListW, tapi2.linegetgrouplist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineGetGroupListA
+: 
 ---
 
 # lineGetGroupListA function

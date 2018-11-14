@@ -9,8 +9,8 @@ ms.assetid: a6ca0fe8-84e3-43e6-9421-29dcff056dfd
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], IDvdControl interface [DirectShow],described, IDvdControlInterface, dshow.idvdcontrol, strmif/IDvdControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

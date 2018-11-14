@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits.h
+: 
+- IBackgroundCopyFile.GetRemoteName
+: 
 ---
 
 # IBackgroundCopyFile::GetRemoteName

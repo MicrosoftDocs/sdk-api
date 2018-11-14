@@ -9,8 +9,8 @@ ms.assetid: dc7891c3-33f7-498c-acb1-4687909debb7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, PIBIO_STORAGE_GET_RECORD_COUNT_FN callback, StorageAdapterGetRecordCount, StorageAdapterGetRecordCount callback function [Windows Biometric Framework API], secbiomet.storageadaptergetrecordcount, winbio_adapter/StorageAdapterGetRecordCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

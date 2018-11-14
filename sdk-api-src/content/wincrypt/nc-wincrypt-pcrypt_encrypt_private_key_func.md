@@ -7,10 +7,10 @@ old-location: security\pcrypt_encrypt_private_key_func.htm
 tech.root: seccrypto
 ms.assetid: aa6b8bca-4f0d-491e-ab38-5c273a01ca05
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback function [Security], security.pcrypt_encrypt_private_key_func, wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

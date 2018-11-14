@@ -7,7 +7,7 @@ old-location: base\setfirmwareenvironmentvariable.htm
 tech.root: sysinfo
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetFirmwareEnvironmentVariableA
+: 
 ---
 
 # SetFirmwareEnvironmentVariableA function

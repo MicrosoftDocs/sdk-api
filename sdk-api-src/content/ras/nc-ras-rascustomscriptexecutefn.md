@@ -9,8 +9,8 @@ ms.assetid: e31ab530-cb60-4bb0-be44-3ba90fdf71f1
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: RasCustomScriptExecute, RasCustomScriptExecute callback function [RAS], RasCustomScriptExecuteFn, RasCustomScriptExecuteFn callback, _ras_rascustomscriptexecute, ras/RasCustomScriptExecute, rras.rascustomscriptexecute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

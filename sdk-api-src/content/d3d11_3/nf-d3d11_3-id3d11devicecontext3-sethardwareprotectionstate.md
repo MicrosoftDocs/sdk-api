@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_3.h
+: 
+- ID3D11DeviceContext3.SetHardwareProtectionState
+: 
 ---
 
 # ID3D11DeviceContext3::SetHardwareProtectionState

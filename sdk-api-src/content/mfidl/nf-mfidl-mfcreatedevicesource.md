@@ -7,7 +7,7 @@ old-location: mf\mfcreatedevicesource.htm
 tech.root: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateDeviceSource
+: 
 ---
 
 # MFCreateDeviceSource function

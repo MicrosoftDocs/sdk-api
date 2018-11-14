@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationTransition2.SetInitialVectorVelocity
+: 
 ---
 
 # IUIAnimationTransition2::SetInitialVectorVelocity

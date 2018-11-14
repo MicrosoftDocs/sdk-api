@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventSubscription.get_InterfaceID
+: 
 ---
 
 # IEventSubscription::get_InterfaceID

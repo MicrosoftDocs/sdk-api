@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\structures\adrlist.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRLIST, _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

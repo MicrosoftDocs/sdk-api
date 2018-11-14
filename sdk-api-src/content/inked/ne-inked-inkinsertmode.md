@@ -9,8 +9,8 @@ ms.assetid: ab15cf9f-c3c8-4cdb-9350-ffa734e4da35
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IEM_InsertAsInk, IEM_InsertAsText, InkInsertMode, InkInsertMode enumeration [Tablet PC], ab15cf9f-c3c8-4cdb-9350-ffa734e4da35, inked/IEM_InsertAsInk, inked/IEM_InsertAsText, inked/InkInsertMode, tablet.inkinsertmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

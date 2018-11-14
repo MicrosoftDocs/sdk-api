@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetCellDescent_style_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getcelldescent.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: FontFamily class [GDI+],GetCellDescent method, FontFamily.GetCellDescent, FontFamily::GetCellDescent, GetCellDescent, GetCellDescent method [GDI+], GetCellDescent method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetCellDescent_style_, gdiplus._gdiplus_CLASS_FontFamily_GetCellDescent_style_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- FontFamily.GetCellDescent
+: 
 req.product: GDI+ 1.0
 ---
 

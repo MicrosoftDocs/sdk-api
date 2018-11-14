@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateGlyphRunAnalysis.htm
 tech.root: DirectWrite
 ms.assetid: fcc6fe70-84ef-43ac-82ff-3f09d977220f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory.CreateGlyphRunAnalysis, IDWriteFactory::CreateGlyphRunAnalysis, directwrite.IDWriteFactory_CreateGlyphRunAnalysis, dwrite/IDWriteFactory::CreateGlyphRunAnalysis
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFactory.CreateGlyphRunAnalysis
+: 
 ---
 
 # IDWriteFactory::CreateGlyphRunAnalysis

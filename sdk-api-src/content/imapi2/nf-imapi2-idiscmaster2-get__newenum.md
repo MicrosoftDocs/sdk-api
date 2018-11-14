@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IDiscMaster2.get__NewEnum
+: 
 ---
 
 # IDiscMaster2::get__NewEnum

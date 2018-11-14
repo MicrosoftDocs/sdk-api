@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- docobj.h
+: 
+- IOleDocument.GetDocMiscStatus
+: 
 ---
 
 # IOleDocument::GetDocMiscStatus

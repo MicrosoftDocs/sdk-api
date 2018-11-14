@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
+- apiref
+: 
+- COM
+: 
+- bits1_5.h
+: 
+- IBackgroundCopyJob2.GetReplyProgress
+: 
 ---
 
 # IBackgroundCopyJob2::GetReplyProgress

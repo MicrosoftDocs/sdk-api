@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice1_getmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: 87b98c47-3556-4588-97b2-c935d7052286
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: 65e01dd1-b488-81d7-8806-77a7e4bb8f02, GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, IDXGIDevice1 interface [DXGI],GetMaximumFrameLatency method, IDXGIDevice1.GetMaximumFrameLatency, IDXGIDevice1::GetMaximumFrameLatency, direct3ddxgi.idxgidevice1_getmaximumframelatency, dxgi/IDXGIDevice1::GetMaximumFrameLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi.h
+: 
+- IDXGIDevice1.GetMaximumFrameLatency
+: 
 ---
 
 # IDXGIDevice1::GetMaximumFrameLatency

@@ -9,8 +9,8 @@ ms.assetid: a54bdb46-b18b-4a6d-90fc-75947f6dd191
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], IWTSProtocolManager interface [Remote Desktop Services],described, termserv.iwtsprotocolmanager, wtsprotocol/IWTSProtocolManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

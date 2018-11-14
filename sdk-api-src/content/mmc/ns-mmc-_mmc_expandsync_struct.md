@@ -9,8 +9,8 @@ ms.assetid: a614ea59-0661-43db-8ad5-b732d4acee80
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: MMC_EXPANDSYNC_STRUCT, MMC_EXPANDSYNC_STRUCT structure [MMC], _MMC_EXPANDSYNC_STRUCT, _slate_mmc_expandsync_struct, mmc.mmc_expandsync_struct, mmc/MMC_EXPANDSYNC_STRUCT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletepolicyreader.htm
 tech.root: secauthz
 ms.assetid: aec8b5c4-3c5e-4b91-a10f-40ef05beca1f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzApplication object, DeletePolicyReader method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyReader method, IAzApplication.DeletePolicyReader, IAzApplication::DeletePolicyReader, azroles/IAzApplication::DeletePolicyReader, security.iazapplication_deletepolicyreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.DeletePolicyReader
+: 
 ---
 
 # IAzApplication::DeletePolicyReader

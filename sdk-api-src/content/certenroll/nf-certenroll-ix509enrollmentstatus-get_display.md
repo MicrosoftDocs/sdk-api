@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509EnrollmentStatus.get_Display
+: 
 ---
 
 # IX509EnrollmentStatus::get_Display

@@ -7,7 +7,7 @@ old-location: tapi3\itterminalcontrol_get_addresshandle.htm
 tech.root: tapi
 ms.assetid: 6f222dea-059a-4eda-bcbc-cd6c61cdf2fa
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],get_AddressHandle method, ITTerminalControl.get_AddressHandle, ITTerminalControl::get_AddressHandle, _tapi3_itterminalcontrol_get_addresshandle, get_AddressHandle, get_AddressHandle method [TAPI 2.2], get_AddressHandle method [TAPI 2.2],ITTerminalControl interface, tapi3.itterminalcontrol_get_addresshandle, termmgr/ITTerminalControl::get_AddressHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITTerminalControl.get_AddressHandle
+: 
 ---
 
 # ITTerminalControl::get_AddressHandle

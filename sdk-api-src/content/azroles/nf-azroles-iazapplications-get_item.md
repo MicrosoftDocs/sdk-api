@@ -7,7 +7,7 @@ old-location: security\iazapplications_item.htm
 tech.root: secauthz
 ms.assetid: a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplications object [Security],Item property, IAzApplications interface [Security],Item property, IAzApplications.Item, IAzApplications.get_Item, IAzApplications::Item, IAzApplications::get_Item, Item property [Security], Item property [Security],AzApplications object, Item property [Security],IAzApplications interface, azroles/IAzApplications::Item, azroles/IAzApplications::get_Item, get_Item, security.iazapplications_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplications.get_Item
+: 
 ---
 
 # IAzApplications::get_Item

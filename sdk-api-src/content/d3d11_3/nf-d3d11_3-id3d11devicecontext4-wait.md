@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_3.h
+: 
+- ID3D11DeviceContext4.Wait
+: 
 ---
 
 # ID3D11DeviceContext4::Wait

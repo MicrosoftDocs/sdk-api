@@ -7,7 +7,7 @@ old-location: mf\mfcreateaudiomediatype.htm
 tech.root: medfound
 ms.assetid: 8857e150-1746-4f3f-aaa8-db0f44787621
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 8857e150-1746-4f3f-aaa8-db0f44787621, MFCreateAudioMediaType, MFCreateAudioMediaType function [Media Foundation], mf.mfcreateaudiomediatype, mfapi/MFCreateAudioMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateAudioMediaType
+: 
 ---
 
 # MFCreateAudioMediaType function

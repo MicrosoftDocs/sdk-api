@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IUnknown_GetSite
+: 
 ---
 
 # IUnknown_GetSite function

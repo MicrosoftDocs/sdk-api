@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IUnknown_GetWindow
+: 
 ---
 
 # IUnknown_GetWindow function

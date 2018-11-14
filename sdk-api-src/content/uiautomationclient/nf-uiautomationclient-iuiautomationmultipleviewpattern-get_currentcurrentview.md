@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationMultipleViewPattern.get_CurrentCurrentView
+: 
 ---
 
 # IUIAutomationMultipleViewPattern::get_CurrentCurrentView

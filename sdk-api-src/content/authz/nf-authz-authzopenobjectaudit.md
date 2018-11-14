@@ -7,7 +7,7 @@ old-location: security\authzopenobjectaudit.htm
 tech.root: secauthz
 ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzOpenObjectAudit
+: 
 ---
 
 # AuthzOpenObjectAudit function

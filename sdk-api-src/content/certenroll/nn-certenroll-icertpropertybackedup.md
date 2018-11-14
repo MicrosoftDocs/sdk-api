@@ -9,8 +9,8 @@ ms.assetid: 9c694991-6f2d-420e-9f9f-5a36b10c39aa
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security],described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

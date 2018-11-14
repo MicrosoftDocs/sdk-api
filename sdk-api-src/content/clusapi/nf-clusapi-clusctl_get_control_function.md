@@ -7,7 +7,7 @@ old-location: mscs\clusctl_get_control_function.htm
 tech.root: mscs
 ms.assetid: 0f1abfdd-e6b2-42a8-8c77-54590e3b3a89
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSCTL_GET_CONTROL_FUNCTION, CLUSCTL_GET_CONTROL_FUNCTION macro [Failover Cluster], _wolf_clusctl_get_control_function, clusapi/CLUSCTL_GET_CONTROL_FUNCTION, mscs.clusctl_get_control_function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- clusapi.h
+: 
+- CLUSCTL_GET_CONTROL_FUNCTION
+: 
 ---
 
 # CLUSCTL_GET_CONTROL_FUNCTION macro

@@ -7,7 +7,7 @@ old-location: tapi2\linesetagentsessionstate.htm
 tech.root: tapi
 ms.assetid: 284d8411-6ac7-4496-893b-0349057523e8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineSetAgentSessionState
+: 
 ---
 
 # lineSetAgentSessionState function

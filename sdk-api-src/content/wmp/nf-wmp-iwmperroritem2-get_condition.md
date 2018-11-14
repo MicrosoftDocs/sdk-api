@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPErrorItem2.get_condition
+: 
 ---
 
 # IWMPErrorItem2::get_condition

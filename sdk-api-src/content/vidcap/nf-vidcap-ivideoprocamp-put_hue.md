@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- IVideoProcAmp.put_Hue
+: 
 ---
 
 # IVideoProcAmp::put_Hue

@@ -9,8 +9,8 @@ ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Windows Shell], shell.DELEGATEITEMID, shell_DELEGATEITEMID, shobjidl_core/DELEGATEITEMID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- GET_KEYSTATE_LPARAM
+: 
 ---
 
 # GET_KEYSTATE_LPARAM macro

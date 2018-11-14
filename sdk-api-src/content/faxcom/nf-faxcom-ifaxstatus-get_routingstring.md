@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_routingstring_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1aav.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxStatus interface [Fax Service],RoutingString property, IFaxStatus.RoutingString, IFaxStatus.get_RoutingString, IFaxStatus::RoutingString, IFaxStatus::get_RoutingString, RoutingString property [Fax Service], RoutingString property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_routingstring, fax._mfax_ifaxstatus_get_routingstring, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_routingstring_cpp, faxcom/IFaxStatus::RoutingString, faxcom/IFaxStatus::get_RoutingString, get_RoutingString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcom.h
+: 
+- IFaxStatus.get_RoutingString
+: 
 ---
 
 # IFaxStatus::get_RoutingString

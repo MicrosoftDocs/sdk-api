@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpathdata_getsegmentdata.htm
 tech.root: direct2d
 ms.assetid: D935BCEB-D7B8-4245-AD1C-25BAE63F8944
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSegmentData, GetSegmentData method [Direct2D], GetSegmentData method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentData method, ID2D1SvgPathData.GetSegmentData, ID2D1SvgPathData::GetSegmentData, d2d1svg/ID2D1SvgPathData::GetSegmentData, direct2d.id2d1svgpathdata_getsegmentdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1svg.h
+: 
+- ID2D1SvgPathData.GetSegmentData
+: 
 ---
 
 # ID2D1SvgPathData::GetSegmentData

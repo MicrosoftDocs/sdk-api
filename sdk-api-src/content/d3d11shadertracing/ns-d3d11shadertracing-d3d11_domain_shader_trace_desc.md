@@ -9,8 +9,8 @@ ms.assetid: A513A751-06BB-4298-82A5-BBBF6DCEBD1F
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_DOMAIN_SHADER_TRACE_DESC, D3D11_DOMAIN_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_DOMAIN_SHADER_TRACE_DESC, direct3d11.d3d11_domain_shader_trace_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 

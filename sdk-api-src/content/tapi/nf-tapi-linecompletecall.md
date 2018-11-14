@@ -7,7 +7,7 @@ old-location: tapi2\linecompletecall.htm
 tech.root: tapi
 ms.assetid: 4cc4c1fd-3f54-40ec-9342-58b3783031ad
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineCompleteCall
+: 
 ---
 
 # lineCompleteCall function

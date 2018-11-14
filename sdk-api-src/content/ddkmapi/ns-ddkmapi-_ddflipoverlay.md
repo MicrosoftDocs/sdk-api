@@ -9,8 +9,8 @@ ms.assetid: 455005d8-5713-4188-9bcb-333c7c4f849d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPDDFLIPOVERLAY, DDFLIPOVERLAY, DDFLIPOVERLAY structure [Display Devices], LPDDFLIPOVERLAY, LPDDFLIPOVERLAY structure pointer [Display Devices], _DDFLIPOVERLAY, ddkmapi/DDFLIPOVERLAY, ddkmapi/LPDDFLIPOVERLAY, ddstrcts_a29d7c69-b024-435d-8853-54477c17e960.xml, display.ddflipoverlay"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

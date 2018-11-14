@@ -9,8 +9,8 @@ ms.assetid: 6E4F87D1-9952-4D85-9A32-3D7068831087
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: WBEM_FLAG_NO_FLAVORS, WBEM_TEXT_FLAG_TYPE, WBEM_TEXT_FLAG_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_TEXT_FLAG_TYPE, wbemcli/WBEM_FLAG_NO_FLAVORS, wbemcli/WBEM_TEXT_FLAG_TYPE, wmi.wbem_text_flag_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

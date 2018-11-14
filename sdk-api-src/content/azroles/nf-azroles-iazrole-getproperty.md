@@ -7,7 +7,7 @@ old-location: security\iazrole_getproperty.htm
 tech.root: secauthz
 ms.assetid: f65058ce-962d-4cad-9f55-c8b983ffaa05
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AZ_PROP_WRITABLE, AzRole object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzRole object, GetProperty method [Security],IAzRole interface, IAzRole interface [Security],GetProperty method, IAzRole.GetProperty, IAzRole::GetProperty, azroles/IAzRole::GetProperty, security.iazrole_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.GetProperty
+: 
 ---
 
 # IAzRole::GetProperty

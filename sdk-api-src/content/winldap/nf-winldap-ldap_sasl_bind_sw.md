@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_sasl_bind_sW
+: 
 ---
 
 # ldap_sasl_bind_sW function

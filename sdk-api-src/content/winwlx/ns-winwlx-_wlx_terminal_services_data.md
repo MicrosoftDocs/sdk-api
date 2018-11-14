@@ -7,10 +7,10 @@ old-location: security\wlx_terminal_services_data.htm
 tech.root: secauthn
 ms.assetid: e3c6285e-cac3-490d-b2db-ea63871b3620
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA structure pointer [Security], WLX_TERMINAL_SERVICES_DATA, WLX_TERMINAL_SERVICES_DATA structure [Security], _WLX_TERMINAL_SERVICES_DATA, _gina_wlx_terminal_services_data, security.wlx_terminal_services_data, winwlx/PWLX_TERMINAL_SERVICES_DATA, winwlx/WLX_TERMINAL_SERVICES_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 

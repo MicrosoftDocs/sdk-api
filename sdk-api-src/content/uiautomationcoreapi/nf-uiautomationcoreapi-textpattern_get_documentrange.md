@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TextPattern_get_DocumentRange
+: 
 ---
 
 # TextPattern_get_DocumentRange function

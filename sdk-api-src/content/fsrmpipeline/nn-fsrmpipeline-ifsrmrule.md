@@ -9,8 +9,8 @@ ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], IFsrmRule interface [File Server Resource Manager],described, fs.ifsrmrule, fsrm.ifsrmrule, fsrm/IFsrmRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

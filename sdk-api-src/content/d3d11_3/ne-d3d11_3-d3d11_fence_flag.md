@@ -9,8 +9,8 @@ ms.assetid: 745B72A2-628C-477E-8534-336E73B5268A
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_FENCE_FLAG, D3D11_FENCE_FLAG enumeration [Direct3D 11], D3D11_FENCE_FLAG_NONE, D3D11_FENCE_FLAG_SHARED, D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER, d3d11_3/D3D11_FENCE_FLAG, d3d11_3/D3D11_FENCE_FLAG_NONE, d3d11_3/D3D11_FENCE_FLAG_SHARED, d3d11_3/D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER, direct3d11.d3d11_fence_flag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 

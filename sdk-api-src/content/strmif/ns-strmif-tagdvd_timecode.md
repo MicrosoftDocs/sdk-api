@@ -9,8 +9,8 @@ ms.assetid: 7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVD_TIMECODE, DVD_TIMECODE structure [DirectShow], DVD_TIMECODEStructure, dshow.dvd_timecode, strmif/DVD_TIMECODE, tagDVD_TIMECODE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_conn_from_msg
+: 
 ---
 
 # ldap_conn_from_msg function

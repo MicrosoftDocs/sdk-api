@@ -9,8 +9,8 @@ ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

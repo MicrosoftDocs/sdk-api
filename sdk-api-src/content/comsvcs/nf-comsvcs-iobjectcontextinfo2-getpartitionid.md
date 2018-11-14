@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IObjectContextInfo2.GetPartitionId
+: 
 ---
 
 # IObjectContextInfo2::GetPartitionId

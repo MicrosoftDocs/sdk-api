@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateTextFormat.htm
 tech.root: DirectWrite
 ms.assetid: d6e7caba-5cba-4b6e-b146-10aa6d21cac1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateTextFormat, CreateTextFormat method [Direct Write], CreateTextFormat method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextFormat method, IDWriteFactory.CreateTextFormat, IDWriteFactory::CreateTextFormat, directwrite.IDWriteFactory_CreateTextFormat, dwrite/IDWriteFactory::CreateTextFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFactory.CreateTextFormat
+: 
 ---
 
 # IDWriteFactory::CreateTextFormat

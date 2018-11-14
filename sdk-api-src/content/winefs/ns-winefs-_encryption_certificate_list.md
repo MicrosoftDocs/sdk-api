@@ -9,8 +9,8 @@ ms.assetid: e1914b96-2fba-49ed-9dd2-464659323eda
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST structure [Files], PENCRYPTION_CERTIFICATE_LIST, PENCRYPTION_CERTIFICATE_LIST structure pointer [Files], _ENCRYPTION_CERTIFICATE_LIST, _win32_encryption_certificate_list_str, base.encryption_certificate_list_str, fs.encryption_certificate_list_str, winefs/ENCRYPTION_CERTIFICATE_LIST, winefs/PENCRYPTION_CERTIFICATE_LIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h

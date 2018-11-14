@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\nmlvkeydown.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMLVKEYDOWN, LPNMLVKEYDOWN, LPNMLVKEYDOWN structure pointer [Windows Controls], NMLVKEYDOWN, NMLVKEYDOWN structure [Windows Controls], _win32_NMLVKEYDOWN, _win32_NMLVKEYDOWN_cpp, commctrl/LPNMLVKEYDOWN, commctrl/NMLVKEYDOWN, controls.NMLVKEYDOWN, controls._win32_NMLVKEYDOWN, tagLVKEYDOWN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

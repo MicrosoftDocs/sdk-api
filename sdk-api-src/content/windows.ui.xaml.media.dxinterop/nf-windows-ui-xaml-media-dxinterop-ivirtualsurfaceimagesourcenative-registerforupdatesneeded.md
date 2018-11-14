@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.ui.xaml.media.dxinterop.h
+: 
+- IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded
+: 
 ---
 
 # IVirtualSurfaceImageSourceNative::xaml

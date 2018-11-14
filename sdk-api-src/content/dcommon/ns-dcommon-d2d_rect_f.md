@@ -7,10 +7,10 @@ old-location: direct2d\D2D_RECT_F.htm
 tech.root: direct2d
 ms.assetid: 84bd7ab0-f273-46f8-b261-86cd1d7f3868
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_RECT_F, D2D_RECT_F, D2D_RECT_F structure [Direct2D], dcommon/D2D_RECT_F, direct2d.D2D_RECT_F
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h

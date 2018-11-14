@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ChangeServiceConfig2W
+: 
 ---
 
 # ChangeServiceConfig2W function

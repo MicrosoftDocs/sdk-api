@@ -7,7 +7,7 @@ old-location: security\icertexit2_getmanagemodule.htm
 tech.root: seccrypto
 ms.assetid: 7f0c1b63-fd09-43b9-9f88-fab154d94e94
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertExit object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertExit object, GetManageModule method [Security],ICertExit2 interface, ICertExit2 interface [Security],GetManageModule method, ICertExit2.GetManageModule, ICertExit2::GetManageModule, certexit/ICertExit2::GetManageModule, security.icertexit2_getmanagemodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certexit.h
+: 
+- ICertExit2.GetManageModule
+: 
 ---
 
 # ICertExit2::GetManageModule

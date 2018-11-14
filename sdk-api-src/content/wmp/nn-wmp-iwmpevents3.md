@@ -9,8 +9,8 @@ ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], IWMPEvents3 interface [Windows Media Player],described, IWMPEvents3Interface, wmp.iwmpevents3, wmp/IWMPEvents3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

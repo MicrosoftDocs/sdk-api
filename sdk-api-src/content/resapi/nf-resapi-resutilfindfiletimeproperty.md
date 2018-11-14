@@ -7,7 +7,7 @@ old-location: mscs\resutilfindfiletimeproperty.htm
 tech.root: mscs
 ms.assetid: 089a7016-47bd-4878-81e6-8854e24b9220
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_FIND_FILETIME_PROPERTY, PRESUTIL_FIND_FILETIME_PROPERTY function [Failover Cluster], ResUtilFindFileTimeProperty, ResUtilFindFileTimeProperty function [Failover Cluster], mscs.resutilfindfiletimeproperty, resapi/PRESUTIL_FIND_FILETIME_PROPERTY, resapi/ResUtilFindFileTimeProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilFindFileTimeProperty
+: 
 ---
 
 # ResUtilFindFileTimeProperty function

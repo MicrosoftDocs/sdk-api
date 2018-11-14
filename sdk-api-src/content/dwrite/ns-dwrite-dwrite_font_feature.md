@@ -7,10 +7,10 @@ old-location: directwrite\dwrite_font_feature.htm
 tech.root: DirectWrite
 ms.assetid: f8c2b1b0-ecab-4556-b3e6-5eda75e206ed
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_FONT_FEATURE, DWRITE_FONT_FEATURE structure [Direct Write], directwrite.dwrite_font_feature, dwrite/DWRITE_FONT_FEATURE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

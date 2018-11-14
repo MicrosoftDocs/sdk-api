@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengine_stoprecord.htm
 tech.root: medfound
 ms.assetid: 737C23E0-D4EF-4630-A460-2AE56FE50A12
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StopRecord method, IMFCaptureEngine.StopRecord, IMFCaptureEngine::StopRecord, StopRecord, StopRecord method [Media Foundation], StopRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoprecord, mfcaptureengine/IMFCaptureEngine::StopRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfcaptureengine.h
+: 
+- IMFCaptureEngine.StopRecord
+: 
 ---
 
 # IMFCaptureEngine::StopRecord

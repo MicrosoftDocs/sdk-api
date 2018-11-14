@@ -9,8 +9,8 @@ ms.assetid: bbe367c4-1964-4f6d-9345-fa19c090e018
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_Server, MI_Server structure [Windows Management Infrastructure (MI)], _MI_Server, mi/MI_Server, wmi._mi_server, wmi_v2.mi_server
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: e066b6c8-905f-4e18-9be7-aa3c134f9e13
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BG_JOB_PROXY_USAGE, BG_JOB_PROXY_USAGE enumeration [BITS], BG_JOB_PROXY_USAGE_AUTODETECT, BG_JOB_PROXY_USAGE_NO_PROXY, BG_JOB_PROXY_USAGE_OVERRIDE, BG_JOB_PROXY_USAGE_PRECONFIG, __MIDL_IBackgroundCopyJob_0004, _drz_bg_job_proxy_usage, bits.bg_job_proxy_usage, bits/BG_JOB_PROXY_USAGE, bits/BG_JOB_PROXY_USAGE_AUTODETECT, bits/BG_JOB_PROXY_USAGE_NO_PROXY, bits/BG_JOB_PROXY_USAGE_OVERRIDE, bits/BG_JOB_PROXY_USAGE_PRECONFIG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: bits.h
 req.include-header: 

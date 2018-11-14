@@ -9,8 +9,8 @@ ms.assetid: 99d8564f-98bc-4f30-bff9-923a4016a5fe
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IEnumTfProperties, IEnumTfProperties interface [Text Services Framework], IEnumTfProperties interface [Text Services Framework],described, _tsf_ienumtfproperties_ref, msctf/IEnumTfProperties, tsf.ienumtfproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

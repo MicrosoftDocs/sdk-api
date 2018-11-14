@@ -9,8 +9,8 @@ ms.assetid: 0296014d-d5cc-40f0-a3d3-93d8ea704ce5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BITS_FILE_PROPERTY_VALUE, BITS_FILE_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0005, bits.bits_file_property_value, bits5_0/BITS_FILE_PROPERTY_VALUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bits5_0.h
 req.include-header: Bits.h

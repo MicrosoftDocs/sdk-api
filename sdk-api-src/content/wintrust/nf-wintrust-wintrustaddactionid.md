@@ -7,7 +7,7 @@ old-location: security\wintrustaddactionid.htm
 tech.root: seccrypto
 ms.assetid: 3b282342-9c86-42fa-b745-e5194d2885dc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustAddActionID, WintrustAddActionID function [Security], security.wintrustaddactionid, wintrust/WintrustAddActionID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WintrustAddActionID
+: 
 ---
 
 # WintrustAddActionID function

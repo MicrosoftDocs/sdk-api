@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- icontentprefetchertasktrigger.h
+: 
+- IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
+: 
 ---
 
 # IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch

@@ -7,10 +7,10 @@ old-location: mscs\clus_chkdsk_info.htm
 tech.root: mscs
 ms.assetid: 455DD59C-B54D-4B42-B661-2E3994E69718
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO structure [Failover Cluster], PCLUS_CHKDSK_INFO, PCLUS_CHKDSK_INFO structure pointer [Failover Cluster], _CLUS_CHKDSK_INFO, clusapi/CLUS_CHKDSK_INFO, clusapi/PCLUS_CHKDSK_INFO, mscs.clus_chkdsk_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

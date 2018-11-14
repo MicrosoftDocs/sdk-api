@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wbemtime.h
+: 
+- WBEMTimeSpan.operator>
+: 
 ---
 
 # WBEMTimeSpan::operator-greater-than

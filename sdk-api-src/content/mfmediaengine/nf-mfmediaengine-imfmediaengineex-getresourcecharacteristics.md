@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getresourcecharacteristics.htm
 tech.root: medfound
 ms.assetid: 534595D7-007F-450B-A1C7-FA08F3958417
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetResourceCharacteristics, GetResourceCharacteristics method [Media Foundation], GetResourceCharacteristics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetResourceCharacteristics method, IMFMediaEngineEx.GetResourceCharacteristics, IMFMediaEngineEx::GetResourceCharacteristics, mf.imfmediaengineex_getresourcecharacteristics, mfmediaengine/IMFMediaEngineEx::GetResourceCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineEx.GetResourceCharacteristics
+: 
 ---
 
 # IMFMediaEngineEx::GetResourceCharacteristics

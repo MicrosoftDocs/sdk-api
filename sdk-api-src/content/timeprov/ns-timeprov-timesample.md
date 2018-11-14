@@ -7,10 +7,10 @@ old-location: base\timesample_str.htm
 tech.root: sysinfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 

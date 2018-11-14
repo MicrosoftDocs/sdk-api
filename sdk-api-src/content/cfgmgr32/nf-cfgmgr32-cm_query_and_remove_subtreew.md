@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Query_And_Remove_SubTreeW
+: 
 ---
 
 # CM_Query_And_Remove_SubTreeW function

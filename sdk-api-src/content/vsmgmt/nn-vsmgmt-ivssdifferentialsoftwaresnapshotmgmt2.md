@@ -9,8 +9,8 @@ ms.assetid: b11d53cb-5b08-4798-acca-45237fc3e170
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2, IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,described, base.ivssdifferentialsoftwaresnapshotmgmt2, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 

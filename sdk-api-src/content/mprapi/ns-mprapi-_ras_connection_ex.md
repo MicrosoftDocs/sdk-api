@@ -9,8 +9,8 @@ ms.assetid: 48526073-caeb-463e-b85b-1ef46ca1e2b4
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PRAS_CONNECTION_EX, PRAS_CONNECTION_EX, PRAS_CONNECTION_EX structure pointer [RAS], RAS_CONNECTION_EX, RAS_CONNECTION_EX structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, _RAS_CONNECTION_EX, mprapi/PRAS_CONNECTION_EX, mprapi/RAS_CONNECTION_EX, rras.ras_connection_ex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

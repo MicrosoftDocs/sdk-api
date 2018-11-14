@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventqueue_queueeventparamvar.htm
 tech.root: medfound
 ms.assetid: e2bafeca-76e7-4df4-94a7-86aef04f3a35
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEventParamVar method, IMFMediaEventQueue.QueueEventParamVar, IMFMediaEventQueue::QueueEventParamVar, QueueEventParamVar, QueueEventParamVar method [Media Foundation], QueueEventParamVar method [Media Foundation],IMFMediaEventQueue interface, e2bafeca-76e7-4df4-94a7-86aef04f3a35, mf.imfmediaeventqueue_queueeventparamvar, mfobjects/IMFMediaEventQueue::QueueEventParamVar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFMediaEventQueue.QueueEventParamVar
+: 
 ---
 
 # IMFMediaEventQueue::QueueEventParamVar

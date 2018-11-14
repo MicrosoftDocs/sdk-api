@@ -9,8 +9,8 @@ ms.assetid: f8dffd7b-3c12-43da-b61c-3c9aa8f1136f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MBN_SMS_FILTER, MBN_SMS_FILTER structure [Microsoft Broadband Networks], mbn.mbn_sms_filter, mbnapi/MBN_SMS_FILTER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

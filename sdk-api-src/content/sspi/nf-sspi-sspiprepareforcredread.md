@@ -7,7 +7,7 @@ old-location: security\sspiprepareforcredread.htm
 tech.root: secauthn
 ms.assetid: f473fd7a-5c0f-4a77-829b-28a82ad0d28d
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SspiPrepareForCredRead, SspiPrepareForCredRead function [Security], security.sspiprepareforcredread, sspi/SspiPrepareForCredRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SspiPrepareForCredRead
+: 
 ---
 
 # SspiPrepareForCredRead function

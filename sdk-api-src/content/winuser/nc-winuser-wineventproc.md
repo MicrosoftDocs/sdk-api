@@ -9,8 +9,8 @@ ms.assetid: 5fe3cacc-4563-43da-960d-729d3fe4ff70
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: WinEventProc, WinEventProc callback, WinEventProc callback function [Windows Accessibility], msaa.wineventproc_callback_function, winauto.wineventproc_callback_function, winuser/WinEventProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h

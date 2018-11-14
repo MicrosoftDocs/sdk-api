@@ -7,10 +7,10 @@ old-location: mscs\cluster_mgmt_point_type.htm
 tech.root: mscs
 ms.assetid: 9A849D8E-EC04-470B-A72A-022213CDF92E
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSTER_MGMT_POINT_TYPE, CLUSTER_MGMT_POINT_TYPE enumeration [Failover Cluster], CLUSTER_MGMT_POINT_TYPE_CNO, CLUSTER_MGMT_POINT_TYPE_CNO_ONLY, CLUSTER_MGMT_POINT_TYPE_DNS_ONLY, CLUSTER_MGMT_POINT_TYPE_NONE, __MIDL___MIDL_itf_msclus_0000_0000_0002, clusapi/CLUSTER_MGMT_POINT_TYPE, clusapi/CLUSTER_MGMT_POINT_TYPE_CNO, clusapi/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY, clusapi/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY, clusapi/CLUSTER_MGMT_POINT_TYPE_NONE, msclus/CLUSTER_MGMT_POINT_TYPE, msclus/CLUSTER_MGMT_POINT_TYPE_CNO, msclus/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY, msclus/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY, msclus/CLUSTER_MGMT_POINT_TYPE_NONE, mscs.cluster_mgmt_point_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

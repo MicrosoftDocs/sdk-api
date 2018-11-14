@@ -9,8 +9,8 @@ ms.assetid: 329d7061-9aa2-4f4e-a0ec-a0cbb1d231f5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsDeleteOps, IADsDeleteOps interface [ADSI], IADsDeleteOps interface [ADSI],described, _ds_iadsdeleteops, adsi.iadsdeleteops, iads/IADsDeleteOps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIInvitation.get_Password
+: 
 ---
 
 # IRDPSRAPIInvitation::get_Password

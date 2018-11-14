@@ -9,8 +9,8 @@ ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_PROPOSAL0, IKEEXT_PROPOSAL0 structure [Filtering], IKEEXT_PROPOSAL0_, fwp.ikeext_proposal0, iketypes/IKEEXT_PROPOSAL0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

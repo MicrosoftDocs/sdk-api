@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_getproperty.htm
 tech.root: secauthz
 ms.assetid: 93bd6813-cc46-4f48-b39b-1e67cda562ff
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_AZSTORE_DOMAIN_TIMEOUT, AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES, AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT, AZ_PROP_AZSTORE_TARGET_MACHINE, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_WRITABLE, AzAuthorizationStore object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzAuthorizationStore object, GetProperty method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],GetProperty method, IAzAuthorizationStore.GetProperty, IAzAuthorizationStore::GetProperty, azroles/IAzAuthorizationStore::GetProperty, security.azauthorizationstore_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.GetProperty
+: 
 ---
 
 # IAzAuthorizationStore::GetProperty

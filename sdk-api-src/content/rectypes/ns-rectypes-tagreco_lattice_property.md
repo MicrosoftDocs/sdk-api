@@ -9,8 +9,8 @@ ms.assetid: cbf35f4e-cc13-4d5e-886f-22a6f0e26411
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: RECO_LATTICE_PROPERTY, RECO_LATTICE_PROPERTY structure [Tablet PC], cbf35f4e-cc13-4d5e-886f-22a6f0e26411, rectypes/RECO_LATTICE_PROPERTY, tablet.reco_lattice_property, tagRECO_LATTICE_PROPERTY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

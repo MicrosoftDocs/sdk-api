@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Add_Empty_Log_Conf_Ex
+: 
 ---
 
 # CM_Add_Empty_Log_Conf_Ex function

@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_setsamplecallback.htm
 tech.root: medfound
 ms.assetid: 0E14E3E4-25C7-4FCA-B220-20E346E66933
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetSampleCallback method, IMFCapturePreviewSink.SetSampleCallback, IMFCapturePreviewSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setsamplecallback, mfcaptureengine/IMFCapturePreviewSink::SetSampleCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfcaptureengine.h
+: 
+- IMFCapturePreviewSink.SetSampleCallback
+: 
 ---
 
 # IMFCapturePreviewSink::SetSampleCallback

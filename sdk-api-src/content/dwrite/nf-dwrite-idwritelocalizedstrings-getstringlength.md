@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings_GetStringLength.htm
 tech.root: DirectWrite
 ms.assetid: 8dd55a10-d654-4d09-b2ee-d51e504d83c9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetStringLength, GetStringLength method [Direct Write], GetStringLength method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetStringLength method, IDWriteLocalizedStrings.GetStringLength, IDWriteLocalizedStrings::GetStringLength, directwrite.IDWriteLocalizedStrings_GetStringLength, dwrite/IDWriteLocalizedStrings::GetStringLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteLocalizedStrings.GetStringLength
+: 
 ---
 
 # IDWriteLocalizedStrings::GetStringLength

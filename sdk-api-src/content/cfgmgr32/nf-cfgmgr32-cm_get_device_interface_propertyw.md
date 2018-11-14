@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Device_Interface_PropertyW
+: 
 ---
 
 # CM_Get_Device_Interface_PropertyW function

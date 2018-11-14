@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionVisual.SetClip
+: 
 ---
 
 # IDCompositionVisual::SetClip(const D2D_RECT_F &)

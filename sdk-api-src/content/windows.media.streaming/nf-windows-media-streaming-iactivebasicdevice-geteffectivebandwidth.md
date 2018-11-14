@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.media.streaming.h
+: 
+- IActiveBasicDevice.GetEffectiveBandwidth
+: 
 ---
 
 # IActiveBasicDevice::streaming

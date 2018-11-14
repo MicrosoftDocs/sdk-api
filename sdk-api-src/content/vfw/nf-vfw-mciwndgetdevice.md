@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetdevice.htm
 tech.root: Multimedia
 ms.assetid: 0e918cf0-e9aa-402a-9db6-f9a39c718962
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndGetDevice, MCIWndGetDevice macro [Windows Multimedia], _win32_MCIWndGetDevice, multimedia.mciwndgetdevice, vfw/MCIWndGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndGetDevice
+: 
 ---
 
 # MCIWndGetDevice macro

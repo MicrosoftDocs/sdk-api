@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_BITMAP_INTERPOLATION_MODE.htm
 tech.root: direct2d
 ms.assetid: b53b7e0a-aa8b-4788-896c-9825c9e6cceb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_BITMAP_INTERPOLATION_MODE, D2D1_BITMAP_INTERPOLATION_MODE enumeration [Direct2D], D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1/D2D1_BITMAP_INTERPOLATION_MODE, d2d1/D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, d2d1/D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.D2D1_BITMAP_INTERPOLATION_MODE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

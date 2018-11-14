@@ -7,7 +7,7 @@ old-location: security\setcontextattributes.htm
 tech.root: secauthn
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SECPKG_ATTR_APP_DATA, SECPKG_ATTR_DTLS_MTU, SECPKG_ATTR_EAP_PRF_INFO, SECPKG_ATTR_EARLY_START, SECPKG_ATTR_KEYING_MATERIAL_INFO, SetContextAttributes, SetContextAttributes function [Security], SetContextAttributesA, SetContextAttributesW, security.setcontextattributes, sspi/SetContextAttributes, sspi/SetContextAttributesA, sspi/SetContextAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetContextAttributesA
+: 
 ---
 
 # SetContextAttributesA function

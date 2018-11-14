@@ -9,8 +9,8 @@ ms.assetid: 851d66c8-94a7-47ab-95f4-12a34897de20
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPOLEUIGNRLPROPSA, *POLEUIGNRLPROPSA, LPOLEUIGNRLPROPS, LPOLEUIGNRLPROPS structure pointer [COM], OLEUIGNRLPROPS, OLEUIGNRLPROPS structure [COM], OLEUIGNRLPROPSA, OLEUIGNRLPROPSW, POLEUIGNRLPROPS, POLEUIGNRLPROPS structure pointer [COM], _ole_OLEUIGNRLPROPS, com.oleuignrlprops_struct, oledlg/LPOLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPSA, oledlg/OLEUIGNRLPROPSW, oledlg/POLEUIGNRLPROPS, tagOLEUIGNRLPROPSA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

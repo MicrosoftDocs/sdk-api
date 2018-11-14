@@ -9,8 +9,8 @@ ms.assetid: b437b333-84a3-44d3-a4cc-0d07a331b010
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVISTDINDEX structure pointer [DirectShow], _avistdindex, aviriff/AVISTDINDEX, aviriff/PAVISTDINDEX, dshow.avistdindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

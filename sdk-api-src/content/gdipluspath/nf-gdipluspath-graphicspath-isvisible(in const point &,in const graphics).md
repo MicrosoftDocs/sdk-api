@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_90pointamppoint_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN const Point &,IN const Graphics), GraphicsPath.IsVisible(const Point&,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN const Point &,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.IsVisible
+: 
 req.product: GDI+ 1.0
 ---
 

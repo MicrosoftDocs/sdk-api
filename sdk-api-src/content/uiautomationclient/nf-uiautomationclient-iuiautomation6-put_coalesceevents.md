@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomation6.put_CoalesceEvents
+: 
 ---
 
 # IUIAutomation6::put_CoalesceEvents

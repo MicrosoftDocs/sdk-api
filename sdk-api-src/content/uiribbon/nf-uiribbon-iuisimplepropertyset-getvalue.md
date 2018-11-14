@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiribbon.h
+: 
+- IUISimplePropertySet.GetValue
+: 
 req.product: Windows UI
 ---
 

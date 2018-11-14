@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- instance.h
+: 
+- CInstance.GetEmbeddedObject
+: 
 ---
 
 # CInstance::GetEmbeddedObject

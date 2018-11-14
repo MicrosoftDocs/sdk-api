@@ -9,8 +9,8 @@ ms.assetid: 73d0f3a7-7afd-42c9-88db-911531c50137
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICspStatuses, ICspStatuses interface [Security], ICspStatuses interface [Security],described, certenroll/ICspStatuses, security.icspstatuses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

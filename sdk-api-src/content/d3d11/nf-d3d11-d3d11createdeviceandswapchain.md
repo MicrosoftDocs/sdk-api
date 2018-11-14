@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D11CreateDeviceAndSwapChain
+: 
 ---
 
 # D3D11CreateDeviceAndSwapChain function

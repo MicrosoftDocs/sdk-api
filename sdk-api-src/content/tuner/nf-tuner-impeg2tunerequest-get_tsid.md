@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IMPEG2TuneRequest.get_TSID
+: 
 ---
 
 # IMPEG2TuneRequest::get_TSID

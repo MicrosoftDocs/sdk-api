@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IRangeValueProvider.get_IsReadOnly
+: 
 ---
 
 # IRangeValueProvider::get_IsReadOnly

@@ -7,10 +7,10 @@ old-location: mf\mfsampleencryptionprotectionscheme.htm
 tech.root: medfound
 ms.assetid: 2FD4ABDA-ED8D-4403-955B-3BCEEA3C8BE7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFSampleEncryptionProtectionScheme, MFSampleEncryptionProtectionScheme enumeration [Media Foundation], SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC, SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR, SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE, _MFSampleEncryptionProtectionScheme, mf.mfsampleencryptionprotectionscheme, mfapi/MFSampleEncryptionProtectionScheme, mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC, mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR, mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

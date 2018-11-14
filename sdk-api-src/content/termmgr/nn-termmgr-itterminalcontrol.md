@@ -7,10 +7,10 @@ old-location: tapi3\itterminalcontrol.htm
 tech.root: tapi
 ms.assetid: 6fe60002-3af3-45e9-a084-7296a48e7263
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], ITTerminalControl interface [TAPI 2.2],described, _tapi3_itterminalcontrol, tapi3.itterminalcontrol, termmgr/ITTerminalControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: termmgr.h
 req.include-header: 

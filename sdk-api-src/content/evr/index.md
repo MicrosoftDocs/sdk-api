@@ -2,7 +2,7 @@
 UID: NA:evr
 ms.assetid: 8d7c0243-9fe5-3084-8bca-901110edab08
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediasharingengineclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfsharingengine.h
+: 
+- IMFMediaSharingEngineClassFactory.CreateInstance
+: 
 ---
 
 # IMFMediaSharingEngineClassFactory::CreateInstance

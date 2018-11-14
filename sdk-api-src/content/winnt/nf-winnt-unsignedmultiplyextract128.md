@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- UnsignedMultiplyExtract128
+: 
 ---
 
 # UnsignedMultiplyExtract128 function

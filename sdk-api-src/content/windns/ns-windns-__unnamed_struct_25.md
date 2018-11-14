@@ -9,8 +9,8 @@ ms.assetid: 8624cc27-feb5-4e4a-8970-40aa1d43960e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_DS_DATA, 1, 2, 3, 4, 5, DNS_DS_DATA, DNS_DS_DATA structure [DNS], PDNS_DS_DATA, PDNS_DS_DATA structure pointer [DNS], dns.dns_ds_data, windns/DNS_DS_DATA, windns/PDNS_DS_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

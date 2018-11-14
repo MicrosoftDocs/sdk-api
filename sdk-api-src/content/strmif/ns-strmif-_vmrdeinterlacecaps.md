@@ -9,8 +9,8 @@ ms.assetid: e6152130-d574-4c9e-9d35-a42de709f9ae
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: VMRDeinterlaceCaps, VMRDeinterlaceCaps structure [DirectShow], VMRDeinterlaceCapsStructure, _VMRDeinterlaceCaps, dshow.vmrdeinterlacecaps, strmif/VMRDeinterlaceCaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

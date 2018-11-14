@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont2.SetAutospaceAlpha
+: 
 ---
 
 # ITextFont2::SetAutospaceAlpha

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- il21dec.h
+: 
+- IAMLine21Decoder.GetCurrentService
+: 
 ---
 
 # IAMLine21Decoder::GetCurrentService

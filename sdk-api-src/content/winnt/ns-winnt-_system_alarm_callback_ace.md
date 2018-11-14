@@ -7,10 +7,10 @@ old-location: security\system_alarm_callback_ace.htm
 tech.root: secauthz
 ms.assetid: 8bfb579f-4bee-454e-827b-63a800bccf85
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE structure [Security], _SYSTEM_ALARM_CALLBACK_ACE, security.system_alarm_callback_ace, winnt/SYSTEM_ALARM_CALLBACK_ACE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

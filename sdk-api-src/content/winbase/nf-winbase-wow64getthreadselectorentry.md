@@ -7,7 +7,7 @@ old-location: base\wow64getthreadselectorentry.htm
 tech.root: debug
 ms.assetid: 68393913-6725-4cc6-90b9-57da2a96c91e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: Wow64GetThreadSelectorEntry, Wow64GetThreadSelectorEntry function, base.wow64getthreadselectorentry, winbase/Wow64GetThreadSelectorEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Wow64GetThreadSelectorEntry
+: 
 ---
 
 # Wow64GetThreadSelectorEntry function

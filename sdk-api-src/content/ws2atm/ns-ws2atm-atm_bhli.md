@@ -9,8 +9,8 @@ ms.assetid: a7e09a8e-5990-4493-bd73-016363b57427
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ATM_BHLI, ATM_BHLI structure [Winsock], ATM_BHLI_IE, _win32_atm_bhli_2, winsock.atm_bhli_2, ws2atm/ATM_BHLI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 

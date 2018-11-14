@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ENSAVECLIPBOARD, ENSAVECLIPBOARD structure [Windows Controls], _ensaveclipboard, _win32_ENSAVECLIPBOARD_str, _win32_ENSAVECLIPBOARD_str_cpp, controls.ENSAVECLIPBOARD, controls._win32_ENSAVECLIPBOARD_str, richedit/ENSAVECLIPBOARD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

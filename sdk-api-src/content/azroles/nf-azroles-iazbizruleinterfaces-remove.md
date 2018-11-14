@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_remove_method.htm
 tech.root: secauthz
 ms.assetid: 398e4151-aeda-48d0-b6f5-e0ea749d0720
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],Remove method, IAzBizRuleInterfaces.Remove, IAzBizRuleInterfaces::Remove, Remove, Remove method [Security], Remove method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::Remove, security.iazbizruleinterfaces_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzBizRuleInterfaces.Remove
+: 
 ---
 
 # IAzBizRuleInterfaces::Remove

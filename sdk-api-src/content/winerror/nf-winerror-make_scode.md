@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winerror.h
+: 
+- MAKE_SCODE
+: 
 ---
 
 # MAKE_SCODE macro

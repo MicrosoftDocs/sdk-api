@@ -9,8 +9,8 @@ ms.assetid: 670b47ba-bcbd-4281-95e3-a5d784f0610b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], IComponents interface [Microsoft TV Technologies],described, IComponentsInterface, mstv.icomponents, tuner/IComponents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

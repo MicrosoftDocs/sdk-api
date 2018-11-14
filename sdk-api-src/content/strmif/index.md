@@ -2,7 +2,7 @@
 UID: NA:strmif
 ms.assetid: 43bd6226-7c92-3ebe-a75b-8b415939fac6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

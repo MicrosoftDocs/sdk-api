@@ -9,8 +9,8 @@ ms.assetid: 2CE5A02A-40B4-43BE-863E-08AD9B2A9F75
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CoalesceEventsOptions, CoalesceEventsOptions enumeration [Windows Accessibility], CoalesceEventsOptions_Disabled, CoalesceEventsOptions_Enabled, uiautomationclient/CoalesceEventsOptions, uiautomationclient/CoalesceEventsOptions_Disabled, uiautomationclient/CoalesceEventsOptions_Enabled, winauto.uiauto_coalesceeventsoptions_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

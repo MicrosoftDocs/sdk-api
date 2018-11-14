@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPCBTACTIVATESTRUCT, CBTACTIVATESTRUCT, CBTACTIVATESTRUCT structure [Windows and Messages], LPCBTACTIVATESTRUCT, LPCBTACTIVATESTRUCT structure pointer [Windows and Messages], _win32_CBTACTIVATESTRUCT_str, _win32_cbtactivatestruct_str_cpp, tagCBTACTIVATESTRUCT, winmsg.cbtactivatestruct, winui._win32_cbtactivatestruct_str, winuser/CBTACTIVATESTRUCT, winuser/LPCBTACTIVATESTRUCT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

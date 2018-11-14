@@ -9,8 +9,8 @@ ms.assetid: 894e6c15-d911-4e0c-96b1-db6ec8e43eba
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: TF_ATTR_CONVERTED, TF_ATTR_FIXEDCONVERTED, TF_ATTR_INPUT, TF_ATTR_INPUT_ERROR, TF_ATTR_OTHER, TF_ATTR_TARGET_CONVERTED, TF_ATTR_TARGET_NOTCONVERTED, TF_DA_ATTR_INFO, TF_DA_ATTR_INFO enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0070_0004, _tsf_tf_da_attr_info_ref, msctf/TF_ATTR_CONVERTED, msctf/TF_ATTR_FIXEDCONVERTED, msctf/TF_ATTR_INPUT, msctf/TF_ATTR_INPUT_ERROR, msctf/TF_ATTR_OTHER, msctf/TF_ATTR_TARGET_CONVERTED, msctf/TF_ATTR_TARGET_NOTCONVERTED, msctf/TF_DA_ATTR_INFO, tsf.tf_da_attr_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

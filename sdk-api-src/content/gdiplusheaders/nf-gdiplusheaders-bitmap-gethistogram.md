@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHistogram_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\gethistogram.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Bitmap class [GDI+],GetHistogram method, Bitmap.GetHistogram, Bitmap::GetHistogram, GetHistogram, GetHistogram method [GDI+], GetHistogram method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetHistogram_, gdiplus._gdiplus_CLASS_Bitmap_GetHistogram_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.GetHistogram
+: 
 req.product: GDI+ 1.1
 ---
 

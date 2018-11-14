@@ -7,7 +7,7 @@ old-location: tapi3\itphone_get_display.htm
 tech.root: tapi
 ms.assetid: 259982d7-8c28-4c0d-81b3-e4ec49fc9765
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Display method, ITPhone.get_Display, ITPhone::get_Display, _tapi3_itphone_get_display, get_Display, get_Display method [TAPI 2.2], get_Display method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_display, tapi3if/ITPhone::get_Display
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITPhone.get_Display
+: 
 ---
 
 # ITPhone::get_Display

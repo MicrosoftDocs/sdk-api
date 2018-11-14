@@ -9,8 +9,8 @@ ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, ER_ENTITY, GENERIC_ENTITY, IF_ENTITY, TDIEntityID, TDIEntityID structure [Windows API], tdiinfo/TDIEntityID, winprog.tdientityid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tdiinfo.h
 req.include-header: 

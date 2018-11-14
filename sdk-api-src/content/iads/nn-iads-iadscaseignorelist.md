@@ -9,8 +9,8 @@ ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI],described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

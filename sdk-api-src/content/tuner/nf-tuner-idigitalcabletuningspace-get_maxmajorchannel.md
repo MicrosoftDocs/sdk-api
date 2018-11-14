@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDigitalCableTuningSpace.get_MaxMajorChannel
+: 
 ---
 
 # IDigitalCableTuningSpace::get_MaxMajorChannel

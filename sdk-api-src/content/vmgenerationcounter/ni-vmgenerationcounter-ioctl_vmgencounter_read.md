@@ -9,8 +9,8 @@ ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: vmgenerationcounter.h
 req.include-header: 

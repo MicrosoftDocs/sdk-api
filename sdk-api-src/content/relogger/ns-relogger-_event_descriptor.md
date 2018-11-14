@@ -9,8 +9,8 @@ ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [ETW], PCEVENT_DESCRIPTOR, PCEVENT_DESCRIPTOR structure pointer [ETW], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [ETW], _EVENT_DESCRIPTOR, base.event_descriptor, etw.event_descriptor, relogger/EVENT_DESCRIPTOR, relogger/PCEVENT_DESCRIPTOR, relogger/PEVENT_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: relogger.h
 req.include-header: Evntprov.h

@@ -9,8 +9,8 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMgr interface [WIA],described, _wia_IWiaNotifyDevMgr, wia._wia_IWiaNotifyDevMgr, wia_xp/IWiaNotifyDevMgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -7,7 +7,7 @@ old-location: mscs\clusterregdeletekey.htm
 tech.root: mscs
 ms.assetid: af2b3b9c-2ff1-483e-a9cf-5db7b1fcbd85
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterRegDeleteKey, ClusterRegDeleteKey function [Failover Cluster], _wolf_clusterregdeletekey, clusapi/ClusterRegDeleteKey, mscs.clusterregdeletekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterRegDeleteKey
+: 
 ---
 
 # ClusterRegDeleteKey function

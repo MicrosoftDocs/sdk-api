@@ -9,8 +9,8 @@ ms.assetid: 02A22436-A11B-4417-9832-1AB0B0FB1FA3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: RenderTarget, RenderTargetAndChildren, RenderTargetBitmapOptions, RenderTargetBitmapOptions enumeration, xaml_diagnostics.rendertargetbitmapoptions, xamlom/RenderTarget, xamlom/RenderTargetAndChildren, xamlom/RenderTargetBitmapOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 

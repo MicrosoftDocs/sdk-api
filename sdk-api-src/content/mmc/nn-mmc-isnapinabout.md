@@ -9,8 +9,8 @@ ms.assetid: 39732334-f849-433b-a313-0c4a675bf408
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: ISnapinAbout, ISnapinAbout interface [MMC], ISnapinAbout interface [MMC],described, _slate_isnapinabout, mmc.isnapinabout, mmc/ISnapinAbout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

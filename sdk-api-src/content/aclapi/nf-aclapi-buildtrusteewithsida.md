@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithsid.htm
 tech.root: secauthz
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BuildTrusteeWithSidA
+: 
 ---
 
 # BuildTrusteeWithSidA function

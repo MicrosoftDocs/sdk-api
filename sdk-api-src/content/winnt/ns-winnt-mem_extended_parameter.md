@@ -7,10 +7,10 @@ old-location: base\mem_extended_parameter.htm
 tech.root: memory
 ms.assetid: 8D189F7E-83E7-4AF3-9E25-928C66666887
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "*PMEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER structure, PMEM_EXTENDED_PARAMETER, PMEM_EXTENDED_PARAMETER structure pointer, base.mem_extended_parameter, winnt/MEM_EXTENDED_PARAMETER, winnt/PMEM_EXTENDED_PARAMETER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

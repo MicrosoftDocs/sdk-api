@@ -7,7 +7,7 @@ old-location: security\iazoperation_operationid.htm
 tech.root: secauthz
 ms.assetid: 3466dea1-b005-40fc-87d1-29b5e033f6a0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzOperation object [Security],OperationID property, IAzOperation interface [Security],OperationID property, IAzOperation.OperationID, IAzOperation.get_OperationID, IAzOperation::OperationID, IAzOperation::get_OperationID, IAzOperation::put_OperationID, OperationID property [Security], OperationID property [Security],AzOperation object, OperationID property [Security],IAzOperation interface, azroles/IAzOperation::OperationID, azroles/IAzOperation::get_OperationID, azroles/IAzOperation::put_OperationID, get_OperationID, security.iazoperation_operationid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzOperation.get_OperationID
+: 
 ---
 
 # IAzOperation::get_OperationID

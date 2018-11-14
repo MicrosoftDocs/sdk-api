@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetR_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getr.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Color class [GDI+],GetR method, Color.GetR, Color::GetR, GetR, GetR method [GDI+], GetR method [GDI+],Color class, _gdiplus_CLASS_Color_GetR_, gdiplus._gdiplus_CLASS_Color_GetR_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluscolor.h
+: 
+- Color.GetR
+: 
 req.product: GDI+ 1.0
 ---
 

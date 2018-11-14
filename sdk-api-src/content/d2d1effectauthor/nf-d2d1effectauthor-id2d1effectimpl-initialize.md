@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectimpl_initialize.htm
 tech.root: direct2d
 ms.assetid: BC5A6B97-6BA8-4C97-9F8B-D87EBCD80A98
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],Initialize method, ID2D1EffectImpl.Initialize, ID2D1EffectImpl::Initialize, Initialize, Initialize method [Direct2D], Initialize method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::Initialize, direct2d.id2d1effectimpl_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1EffectImpl.Initialize
+: 
 ---
 
 # ID2D1EffectImpl::Initialize

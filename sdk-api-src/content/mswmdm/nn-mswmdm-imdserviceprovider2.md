@@ -9,8 +9,8 @@ ms.assetid: d9ffaea8-5616-4bc2-a27c-8b77ea177b6b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDServiceProvider2, IMDServiceProvider2 interface [windows Media Device Manager], IMDServiceProvider2 interface [windows Media Device Manager],described, IMDServiceProvider2Interface, mswmdm/IMDServiceProvider2, wmdm.imdserviceprovider2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

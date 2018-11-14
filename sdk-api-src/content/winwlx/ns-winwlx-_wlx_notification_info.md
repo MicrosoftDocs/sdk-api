@@ -7,10 +7,10 @@ old-location: security\wlx_notification_info.htm
 tech.root: secauthn
 ms.assetid: 12584a05-b8dc-40a2-83b7-fbecb93ea6f2
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PWLX_NOTIFICATION_INFO, PWLX_NOTIFICATION_INFO, PWLX_NOTIFICATION_INFO structure pointer [Security], WLX_NOTIFICATION_INFO, WLX_NOTIFICATION_INFO structure [Security], _WLX_NOTIFICATION_INFO, _gina_wlx_notification_info, security.wlx_notification_info, winwlx/PWLX_NOTIFICATION_INFO, winwlx/WLX_NOTIFICATION_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 

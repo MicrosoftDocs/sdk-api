@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getunit.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Font class [GDI+],GetUnit method, Font.GetUnit, Font::GetUnit, GetUnit, GetUnit method [GDI+], GetUnit method [GDI+],Font class, _gdiplus_CLASS_Font_GetUnit_, gdiplus._gdiplus_CLASS_Font_GetUnit_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Font.GetUnit
+: 
 req.product: GDI+ 1.0
 ---
 

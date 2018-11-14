@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11shadertracing.h
+: 
+- ID3D11ShaderTrace.TraceReady
+: 
 ---
 
 # ID3D11ShaderTrace::TraceReady

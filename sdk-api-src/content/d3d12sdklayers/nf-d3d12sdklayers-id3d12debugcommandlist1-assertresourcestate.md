@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist1_assertresourcestate.htm
 tech.root: direct3d12
 ms.assetid: DB036A55-D677-4288-B165-5441BA457492
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,AssertResourceState method, ID3D12DebugCommandList1.AssertResourceState, ID3D12DebugCommandList1::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList1::AssertResourceState, direct3d12.id3d12debugcommandlist1_assertresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12DebugCommandList1.AssertResourceState
+: 
 ---
 
 # ID3D12DebugCommandList1::AssertResourceState
@@ -49,8 +57,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Validates that the given state matches the state of the subresource, assuming the state of the given subresource is known during recording of a command list (e.g. the resource was transitioned earlier in the same command list recording).  If the state is not yet known this method sets the known state for further validation later in the same command list recording.
 

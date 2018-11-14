@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Unregister_Notification
+: 
 ---
 
 # CM_Unregister_Notification function

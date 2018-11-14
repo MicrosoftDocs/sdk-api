@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizerContext.get_CharacterAutoCompletionMode
+: 
 ---
 
 # IInkRecognizerContext::get_CharacterAutoCompletionMode

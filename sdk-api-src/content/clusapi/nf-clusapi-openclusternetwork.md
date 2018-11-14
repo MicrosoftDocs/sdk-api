@@ -7,7 +7,7 @@ old-location: mscs\openclusternetwork.htm
 tech.root: mscs
 ms.assetid: a888ca91-e56f-42bc-81c5-9235c6fd5172
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: OpenClusterNetwork, OpenClusterNetwork function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK, PCLUSAPI_OPEN_CLUSTER_NETWORK function [Failover Cluster], _wolf_openclusternetwork, clusapi/OpenClusterNetwork, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK, mscs.openclusternetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OpenClusterNetwork
+: 
 ---
 
 # OpenClusterNetwork function

@@ -7,10 +7,10 @@ old-location: security\azbizrulecontext.htm
 tech.root: secauthz
 ms.assetid: 664d0307-8915-4435-a6a3-3f464afd9029
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzBizRuleContext, IAzBizRuleContext interface [Security], IAzBizRuleContext interface [Security],described, azroles/IAzBizRuleContext, security.azbizrulecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

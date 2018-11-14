@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventObjectCollection.get_Count
+: 
 ---
 
 # IEventObjectCollection::get_Count

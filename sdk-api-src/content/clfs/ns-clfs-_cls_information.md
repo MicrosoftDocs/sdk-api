@@ -9,8 +9,8 @@ ms.assetid: 06f5919e-b98f-4502-9653-9ef42c1ebe5a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, CLFS_INFORMATION, CLFS_INFORMATION structure [Files], CLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Files], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Files], _CLS_INFORMATION, clfs/PCLFS_INFORMATION, clfs/PPCLFS_INFORMATION, clfs/_CLFS_INFORMATION, fs.clfs_information"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

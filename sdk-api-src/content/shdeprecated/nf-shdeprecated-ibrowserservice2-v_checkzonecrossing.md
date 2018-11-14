@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IBrowserService2.v_CheckZoneCrossing
+: 
 req.product: Internet Explorer 5.0
 ---
 

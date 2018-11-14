@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidStreamBufferSource.get_RecordingAttribute
+: 
 ---
 
 # IMSVidStreamBufferSource::get_RecordingAttribute

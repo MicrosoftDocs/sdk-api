@@ -7,7 +7,7 @@ old-location: multimedia\joygetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 706cab9d-7d04-4151-80df-badd1d446a80
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_joyGetDevCaps, joGetDevCapsA, joyGetDevCaps, joyGetDevCaps function [Windows Multimedia], joyGetDevCapsW, joystickapi/joGetDevCapsA, joystickapi/joyGetDevCaps, joystickapi/joyGetDevCapsW, multimedia.joygetdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- joyGetDevCaps
+: 
 ---
 
 # joyGetDevCaps function

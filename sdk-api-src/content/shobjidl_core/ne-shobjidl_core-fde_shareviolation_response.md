@@ -9,8 +9,8 @@ ms.assetid: 976965f5-7806-41de-b1d4-f5bb6dc4f79b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: FDESVR_ACCEPT, FDESVR_DEFAULT, FDESVR_REFUSE, FDE_SHAREVIOLATION_RESPONSE, FDE_SHAREVIOLATION_RESPONSE enumeration [Windows Shell], shell.FDE_SHAREVIOLATION_RESPONSE, shell_FDE_SHAREVIOLATION_RESPONSE, shobjidl_core/FDESVR_ACCEPT, shobjidl_core/FDESVR_DEFAULT, shobjidl_core/FDESVR_REFUSE, shobjidl_core/FDE_SHAREVIOLATION_RESPONSE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

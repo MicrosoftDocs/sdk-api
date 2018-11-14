@@ -9,8 +9,8 @@ ms.assetid: C40070D6-AE19-4E42-A7C6-38F8AF5C1F53
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, PHTTP_SERVICE_CONFIG_SSL_CCS_KEY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_CCS_KEY, http.http_service_config_ssl_ccs_key, http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_KEY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits3_0.h
+: 
+- IBackgroundCopyCallback2.FileTransferred
+: 
 ---
 
 # IBackgroundCopyCallback2::FileTransferred

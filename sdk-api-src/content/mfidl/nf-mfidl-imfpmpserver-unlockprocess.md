@@ -7,7 +7,7 @@ old-location: mf\imfpmpserver_unlockprocess.htm
 tech.root: medfound
 ms.assetid: 2f64252f-c08b-4624-8df6-db922a630891
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 2f64252f-c08b-4624-8df6-db922a630891, IMFPMPServer interface [Media Foundation],UnlockProcess method, IMFPMPServer.UnlockProcess, IMFPMPServer::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_unlockprocess, mfidl/IMFPMPServer::UnlockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFPMPServer.UnlockProcess
+: 
 ---
 
 # IMFPMPServer::UnlockProcess

@@ -7,7 +7,7 @@ old-location: base\createfilemapping.htm
 tech.root: memory
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,6 +60,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateFileMappingW
+: 
 ---
 
 # CreateFileMappingW function

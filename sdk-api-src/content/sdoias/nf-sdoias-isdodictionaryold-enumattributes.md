@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sdoias.h
+: 
+- ISdoDictionaryOld.EnumAttributes
+: 
 ---
 
 # ISdoDictionaryOld::EnumAttributes

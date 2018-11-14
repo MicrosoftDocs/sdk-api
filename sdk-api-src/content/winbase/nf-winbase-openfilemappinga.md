@@ -7,7 +7,7 @@ old-location: base\openfilemapping.htm
 tech.root: memory
 ms.assetid: 4896144c-78fc-4d21-a302-d9ba66fb2f8a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFileMappingW, _win32_openfilemapping, base.openfilemapping, fs.openfilemapping, winbase/OpenFileMapping, winbase/OpenFileMappingA, winbase/OpenFileMappingW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OpenFileMappingA
+: 
 ---
 
 # OpenFileMappingA function

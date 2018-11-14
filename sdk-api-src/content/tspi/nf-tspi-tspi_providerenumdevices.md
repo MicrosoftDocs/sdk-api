@@ -7,7 +7,7 @@ old-location: tspi\tspi_providerenumdevices.htm
 tech.root: tapi
 ms.assetid: 5c7c578d-7200-4807-b89b-5bc39ee83e45
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_providerEnumDevices, TSPI_providerEnumDevices function [TAPI 2.2], _tspi_tspi_providerenumdevices, tspi.tspi_providerenumdevices, tspi/TSPI_providerEnumDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_providerEnumDevices
+: 
 ---
 
 # TSPI_providerEnumDevices function

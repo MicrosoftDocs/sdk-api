@@ -9,8 +9,8 @@ ms.assetid: d3868acf-b119-4ab3-aa85-64d50f76fdb7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DdVideoPortGetSignalStatus, DdVideoPortGetSignalStatus callback function [Display Devices], PDD_VPORTCB_GETSIGNALSTATUS, PDD_VPORTCB_GETSIGNALSTATUS callback, ddfncs_ed14dce3-e341-436b-90b4-1175b2eae121.xml, ddrawint/DdVideoPortGetSignalStatus, display.ddvideoportgetsignalstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

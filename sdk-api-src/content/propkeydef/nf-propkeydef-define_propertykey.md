@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- propkeydef.h
+: 
+- DEFINE_PROPERTYKEY
+: 
 ---
 
 # DEFINE_PROPERTYKEY macro

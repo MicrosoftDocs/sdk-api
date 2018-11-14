@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpSetSuperScopeV4
+: 
 ---
 
 # DhcpSetSuperScopeV4 function

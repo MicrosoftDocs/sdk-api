@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMSecurityInfo.get_Item
+: 
 ---
 
 # IGPMSecurityInfo::get_Item

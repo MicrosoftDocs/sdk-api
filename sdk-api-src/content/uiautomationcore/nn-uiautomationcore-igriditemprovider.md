@@ -9,8 +9,8 @@ ms.assetid: 334a10f1-8bfc-4935-9eee-6176a3e8a4f1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IGridItemProvider, IGridItemProvider interface [Windows Accessibility], IGridItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridItemProvider, uiauto_IGridItemProvider, uiautomationcore/IGridItemProvider, winauto.uiauto_IGridItemProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

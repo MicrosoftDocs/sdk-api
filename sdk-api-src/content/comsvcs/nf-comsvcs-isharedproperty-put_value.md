@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ISharedProperty.put_Value
+: 
 ---
 
 # ISharedProperty::put_Value

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertPropertyAutoEnroll.get_TemplateName
+: 
 ---
 
 # ICertPropertyAutoEnroll::get_TemplateName

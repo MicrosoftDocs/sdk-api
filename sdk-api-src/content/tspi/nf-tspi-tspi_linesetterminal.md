@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetterminal.htm
 tech.root: tapi
 ms.assetid: 106451b0-4491-472d-b73a-5d8333f0a372
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineSetTerminal, TSPI_lineSetTerminal function [TAPI 2.2], _tspi_tspi_linesetterminal, tspi.tspi_linesetterminal, tspi/TSPI_lineSetTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineSetTerminal
+: 
 ---
 
 # TSPI_lineSetTerminal function

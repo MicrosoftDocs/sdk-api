@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewc
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ISearchViewChangedSink, ISearchViewChangedSink interface [search], ISearchViewChangedSink interface [search],described, _search_ISearchViewChangedSink, search._search_ISearchViewChangedSink, searchapi/ISearchViewChangedSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: Searchapi.h

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateInstaller.get_ClientApplicationID
+: 
 ---
 
 # IUpdateInstaller::get_ClientApplicationID

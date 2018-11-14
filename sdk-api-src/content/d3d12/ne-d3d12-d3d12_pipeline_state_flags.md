@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_pipeline_state_flags.htm
 tech.root: direct3d12
 ms.assetid: DAE5C06B-ED1F-4B35-812E-31E26B51704C
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_PIPELINE_STATE_FLAGS, D3D12_PIPELINE_STATE_FLAGS enumeration, D3D12_PIPELINE_STATE_FLAG_NONE, D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG, d3d12/D3D12_PIPELINE_STATE_FLAGS, d3d12/D3D12_PIPELINE_STATE_FLAG_NONE, d3d12/D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG, direct3d12.d3d12_pipeline_state_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

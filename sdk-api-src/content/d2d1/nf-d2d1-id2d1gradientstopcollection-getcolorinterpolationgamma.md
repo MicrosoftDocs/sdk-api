@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GradientStopCollection_GetColorInterpolationGamma.ht
 tech.root: direct2d
 ms.assetid: d07f4dcc-7656-44ca-87cc-d59cb62eb36a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetColorInterpolationGamma, GetColorInterpolationGamma method [Direct2D], GetColorInterpolationGamma method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetColorInterpolationGamma method, ID2D1GradientStopCollection.GetColorInterpolationGamma, ID2D1GradientStopCollection::GetColorInterpolationGamma, d2d1/ID2D1GradientStopCollection::GetColorInterpolationGamma, direct2d.ID2D1GradientStopCollection_GetColorInterpolationGamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1GradientStopCollection.GetColorInterpolationGamma
+: 
 ---
 
 # ID2D1GradientStopCollection::GetColorInterpolationGamma

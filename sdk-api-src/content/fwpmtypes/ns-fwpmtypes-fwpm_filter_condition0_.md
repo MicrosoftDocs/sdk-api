@@ -9,8 +9,8 @@ ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], FWPM_FILTER_CONDITION0_, fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

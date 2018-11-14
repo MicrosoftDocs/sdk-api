@@ -9,8 +9,8 @@ ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

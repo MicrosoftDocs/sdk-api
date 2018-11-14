@@ -9,8 +9,8 @@ ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: COPYFILE2_EXTENDED_PARAMETERS, COPYFILE2_EXTENDED_PARAMETERS structure [Files], COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_NO_OFFLOAD, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_REQUEST_SECURITY_PRIVILEGES, COPY_FILE_RESTARTABLE, COPY_FILE_RESUME_FROM_PAUSE, fs.copyfile2_extended_parameters, winbase/COPYFILE2_EXTENDED_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateCollection.get__NewEnum
+: 
 ---
 
 # IUpdateCollection::get__NewEnum

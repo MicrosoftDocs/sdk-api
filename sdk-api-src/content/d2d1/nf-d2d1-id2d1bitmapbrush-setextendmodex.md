@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1BitmapBrush_SetExtendModeX.htm
 tech.root: direct2d
 ms.assetid: bb20c9ea-a2b1-4fa5-a0e3-b788fe493993
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeX method, ID2D1BitmapBrush.SetExtendModeX, ID2D1BitmapBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetExtendModeX, direct2d.ID2D1BitmapBrush_SetExtendModeX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1BitmapBrush.SetExtendModeX
+: 
 ---
 
 # ID2D1BitmapBrush::SetExtendModeX

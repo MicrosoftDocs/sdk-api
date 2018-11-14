@@ -9,8 +9,8 @@ ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imessagedispatcher.h
 req.include-header: 

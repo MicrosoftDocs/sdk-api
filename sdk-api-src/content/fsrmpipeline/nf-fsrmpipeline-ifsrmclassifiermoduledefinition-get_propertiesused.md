@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmClassifierModuleDefinition.get_PropertiesUsed
+: 
 ---
 
 # IFsrmClassifierModuleDefinition::get_PropertiesUsed

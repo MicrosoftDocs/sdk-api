@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: EMF_CENTERED, NMLVEMPTYMARKUP, NMLVEMPTYMARKUP structure [Windows Controls], commctrl/NMLVEMPTYMARKUP, controls.NMLVEMPTYMARKUP, controls.shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP_cpp, tagNMLVEMPTYMARKUP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

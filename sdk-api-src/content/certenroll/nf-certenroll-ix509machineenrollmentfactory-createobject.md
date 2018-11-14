@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509MachineEnrollmentFactory.CreateObject
+: 
 ---
 
 # IX509MachineEnrollmentFactory::CreateObject

@@ -9,8 +9,8 @@ ms.assetid: 40e6d76a-4ac5-4759-ae82-6bbb482adae2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_IP_VERSION, WS_IP_VERSION enumeration [Web Services for Windows], WS_IP_VERSION_4, WS_IP_VERSION_6, webservices/WS_IP_VERSION, webservices/WS_IP_VERSION_4, webservices/WS_IP_VERSION_6, wsw.ws_ip_version
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

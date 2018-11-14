@@ -9,8 +9,8 @@ ms.assetid: ffa62c36-6fdf-4644-b90d-9b5cc989de8a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_MODE, FFFP_MODE enumeration [Windows Shell], FFFP_NEARESTPARENTMATCH, _shell_FFFP_MODE, shell.FFFP_MODE, shobjidl_core/FFFP_EXACTMATCH, shobjidl_core/FFFP_MODE, shobjidl_core/FFFP_NEARESTPARENTMATCH
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

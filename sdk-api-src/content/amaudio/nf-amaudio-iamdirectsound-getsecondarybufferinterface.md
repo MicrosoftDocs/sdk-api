@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- amaudio.h
+: 
+- IAMDirectSound.GetSecondaryBufferInterface
+: 
 ---
 
 # IAMDirectSound::GetSecondaryBufferInterface

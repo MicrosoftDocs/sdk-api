@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transform_mapinputrectstooutputrect.htm
 tech.root: direct2d
 ms.assetid: 8FC15A61-767C-460A-A260-9F56A41DA87F
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInputRectsToOutputRect method, ID2D1Transform.MapInputRectsToOutputRect, ID2D1Transform::MapInputRectsToOutputRect, MapInputRectsToOutputRect, MapInputRectsToOutputRect method [Direct2D], MapInputRectsToOutputRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInputRectsToOutputRect, direct2d.id2d1transform_mapinputrectstooutputrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1Transform.MapInputRectsToOutputRect
+: 
 ---
 
 # ID2D1Transform::MapInputRectsToOutputRect

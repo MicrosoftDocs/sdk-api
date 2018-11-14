@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_debug_command_list_parameter_type.htm
 tech.root: direct3d12
 ms.assetid: ED8E6A7C-4D30-4396-B2D6-C09C18284B4D
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE enumeration, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, direct3d12.d3d12_debug_command_list_parameter_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Indicates the debug parameter type used by <a href="https://msdn.microsoft.com/en-us/library/Mt762989(v=VS.85).aspx">ID3D12DebugCommandList1::SetDebugParameter</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt762988(v=VS.85).aspx">ID3D12DebugCommandList1::GetDebugParameter</a>.
 

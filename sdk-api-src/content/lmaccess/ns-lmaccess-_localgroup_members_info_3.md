@@ -9,8 +9,8 @@ ms.assetid: e8d1d884-c955-4706-bc3e-142469b02545
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_3, *PLOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3 structure [Network Management], _LOCALGROUP_MEMBERS_INFO_3, _win32_localgroup_members_info_3_str, lmaccess/LOCALGROUP_MEMBERS_INFO_3, netmgmt.localgroup_members_info_3_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

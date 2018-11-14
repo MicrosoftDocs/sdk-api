@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- thumbcache.h
+: 
+- ISharedBitmap.GetSize
+: 
 ---
 
 # ISharedBitmap::GetSize

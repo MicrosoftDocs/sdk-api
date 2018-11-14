@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.media.core.interop.h
+: 
+- IAudioFrameNativeFactory.CreateFromMFSample
+: 
 ---
 
 # IAudioFrameNativeFactory::core

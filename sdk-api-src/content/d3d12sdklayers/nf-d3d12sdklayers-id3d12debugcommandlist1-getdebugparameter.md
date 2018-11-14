@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist1_getdebugparameter.htm
 tech.root: direct3d12
 ms.assetid: 936E9748-1D1A-46A9-B4FE-36C0C6627296
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetDebugParameter, GetDebugParameter method, GetDebugParameter method,ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,GetDebugParameter method, ID3D12DebugCommandList1.GetDebugParameter, ID3D12DebugCommandList1::GetDebugParameter, d3d12sdklayers/ID3D12DebugCommandList1::GetDebugParameter, direct3d12.id3d12debugcommandlist1_getdebugparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12DebugCommandList1.GetDebugParameter
+: 
 ---
 
 # ID3D12DebugCommandList1::GetDebugParameter
@@ -49,8 +57,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Gets optional Command List Debug Layer settings.
 

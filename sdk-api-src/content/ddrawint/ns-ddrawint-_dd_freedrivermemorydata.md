@@ -9,8 +9,8 @@ ms.assetid: 48a42f19-bb4f-4325-b68b-91f59a674771
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA structure [Display Devices], _DD_FREEDRIVERMEMORYDATA, ddrawint/DD_FREEDRIVERMEMORYDATA, ddstrcts_a2d4a52f-25d5-4e02-8165-27ceadbddb36.xml, display.dd_freedrivermemorydata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

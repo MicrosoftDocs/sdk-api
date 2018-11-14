@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwRule3.get_RemoteUserAuthorizedList
+: 
 ---
 
 # INetFwRule3::get_RemoteUserAuthorizedList

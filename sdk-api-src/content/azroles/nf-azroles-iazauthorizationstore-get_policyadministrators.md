@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_policyadministrators.htm
 tech.root: secauthz
 ms.assetid: 388d4970-5de4-4216-8c26-b9b24cc82ca3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyAdministrators property, IAzAuthorizationStore interface [Security],PolicyAdministrators property, IAzAuthorizationStore.PolicyAdministrators, IAzAuthorizationStore.get_PolicyAdministrators, IAzAuthorizationStore::PolicyAdministrators, IAzAuthorizationStore::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzAuthorizationStore object, PolicyAdministrators property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministrators, azroles/IAzAuthorizationStore::get_PolicyAdministrators, get_PolicyAdministrators, security.azauthorizationstore_policyadministrators
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.get_PolicyAdministrators
+: 
 ---
 
 # IAzAuthorizationStore::get_PolicyAdministrators

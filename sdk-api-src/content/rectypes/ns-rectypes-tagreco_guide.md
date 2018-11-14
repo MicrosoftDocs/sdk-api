@@ -9,8 +9,8 @@ ms.assetid: e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7, rectypes/RECO_GUIDE, tablet.reco_guide, tagRECO_GUIDE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

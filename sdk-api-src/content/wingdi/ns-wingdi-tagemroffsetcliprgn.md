@@ -9,8 +9,8 @@ ms.assetid: 814a1105-0edc-4d1e-9f94-1c13152c0925
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEMROFFSETCLIPRGN, EMROFFSETCLIPRGN, EMROFFSETCLIPRGN structure [Windows GDI], PEMROFFSETCLIPRGN, PEMROFFSETCLIPRGN structure pointer [Windows GDI], _win32_EMROFFSETCLIPRGN_str, gdi.emroffsetcliprgn, tagEMROFFSETCLIPRGN, wingdi/EMROFFSETCLIPRGN, wingdi/PEMROFFSETCLIPRGN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

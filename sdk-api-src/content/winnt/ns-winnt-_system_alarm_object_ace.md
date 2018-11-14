@@ -7,10 +7,10 @@ old-location: security\system_audit_object_ace.htm
 tech.root: secauthz
 ms.assetid: de37bef6-e6c8-4455-856a-adebebda4cc7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSYSTEM_ALARM_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, PSYSTEM_ALARM_OBJECT_ACE, PSYSTEM_ALARM_OBJECT_ACE structure pointer [Security], SYSTEM_ALARM_OBJECT_ACE, SYSTEM_AUDIT_OBJECT_ACE, SYSTEM_AUDIT_OBJECT_ACE structure [Security], _SYSTEM_ALARM_OBJECT_ACE, _SYSTEM_AUDIT_OBJECT_ACE, _win32_system_audit_object_ace_str, security.system_audit_object_ace, winnt/PSYSTEM_ALARM_OBJECT_ACE, winnt/SYSTEM_AUDIT_OBJECT_ACE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

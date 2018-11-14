@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_put_version.htm
 tech.root: tapi
 ms.assetid: 1fd659d3-869b-4055-bbd2-e567d13f239d
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Version method, ITPluggableTerminalClassRegistration.put_Version, ITPluggableTerminalClassRegistration::put_Version, _tapi3_itpluggableterminalclassregistration_put_version, put_Version, put_Version method [TAPI 2.2], put_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_version, termmgr/ITPluggableTerminalClassRegistration::put_Version
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITPluggableTerminalClassRegistration.put_Version
+: 
 ---
 
 # ITPluggableTerminalClassRegistration::put_Version

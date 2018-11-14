@@ -9,8 +9,8 @@ ms.assetid: d3da183d-eb12-4411-b461-b58689ef5bff
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesFileSysInfo, IOfflineFilesFileSysInfo interface [Offline Files], IOfflineFilesFileSysInfo interface [Offline Files],described, cscobj/IOfflineFilesFileSysInfo, of.iofflinefilesfilesysinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

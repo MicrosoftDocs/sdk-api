@@ -9,8 +9,8 @@ ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow],described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\authzinitializeremoteresourcemanager.htm
 tech.root: secauthz
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuthzInitializeRemoteResourceManager
+: 
 ---
 
 # AuthzInitializeRemoteResourceManager function

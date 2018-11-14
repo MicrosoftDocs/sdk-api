@@ -9,8 +9,8 @@ ms.assetid: 8e2f6655-4a09-4868-a909-18999104b3ff
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], IEnumSTATDATA interface [COM],described, _ole_ienumstatdata, com.ienumstatdata, objidl/IEnumSTATDATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

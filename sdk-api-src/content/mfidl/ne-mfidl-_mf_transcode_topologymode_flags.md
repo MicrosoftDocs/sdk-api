@@ -7,10 +7,10 @@ old-location: mf\mf_transcode_topologymode_flags.htm
 tech.root: medfound
 ms.assetid: 9a98a052-9fb0-4c63-bc9c-8e112e37973f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MF_TRANSCODE_TOPOLOGYMODE_FLAGS, MF_TRANSCODE_TOPOLOGYMODE_FLAGS enumeration [Media Foundation], MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED, MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY, _MF_TRANSCODE_TOPOLOGYMODE_FLAGS, mf.mf_transcode_topologymode_flags, mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS, mfidl/MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED, mfidl/MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

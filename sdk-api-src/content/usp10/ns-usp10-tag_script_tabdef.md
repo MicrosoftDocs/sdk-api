@@ -9,8 +9,8 @@ ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: SCRIPT_TABDEF, SCRIPT_TABDEF structure [Internationalization for Windows Applications], _win32_SCRIPT_TABDEF_str, intl.script_tabdef, tag_SCRIPT_TABDEF, usp10/SCRIPT_TABDEF
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 8ef21f5a-51ae-4923-a5b4-0ee18bca563f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INTERACTION_ARGUMENTS_MANIPULATION, INTERACTION_ARGUMENTS_MANIPULATION structure, input_intcontext.interaction_arguments_manipulation, interactioncontext.interaction_arguments_manipulation, interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

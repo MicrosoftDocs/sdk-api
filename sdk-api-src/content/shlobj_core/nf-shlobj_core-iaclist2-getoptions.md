@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shlobj_core.h
+: 
+- IACList2.GetOptions
+: 
 ---
 
 # IACList2::GetOptions

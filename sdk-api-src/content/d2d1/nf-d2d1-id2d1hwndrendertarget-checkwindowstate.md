@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1HwndRenderTarget_CheckWindowState.htm
 tech.root: direct2d
 ms.assetid: f40d46dc-04ec-4d11-bc3e-96043b16dcb3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CheckWindowState, CheckWindowState method [Direct2D], CheckWindowState method [Direct2D],ID2D1HwndRenderTarget interface, ID2D1HwndRenderTarget interface [Direct2D],CheckWindowState method, ID2D1HwndRenderTarget.CheckWindowState, ID2D1HwndRenderTarget::CheckWindowState, d2d1/ID2D1HwndRenderTarget::CheckWindowState, direct2d.ID2D1HwndRenderTarget_CheckWindowState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1HwndRenderTarget.CheckWindowState
+: 
 ---
 
 # ID2D1HwndRenderTarget::CheckWindowState

@@ -9,8 +9,8 @@ ms.assetid: 00b84246-b5f2-48c2-a0ab-eaaa1ec80262
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent],described, wua.iupdatesession, wuapi/IUpdateSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

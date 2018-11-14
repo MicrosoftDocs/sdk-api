@@ -7,7 +7,7 @@ old-location: tapi2\phonegetvolume.htm
 tech.root: tapi
 ms.assetid: 049da2d5-4c31-4311-8dac-30545f8bf39b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_phonegetvolume, phoneGetVolume, phoneGetVolume function [TAPI 2.2], tapi/phoneGetVolume, tapi2.phonegetvolume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- phoneGetVolume
+: 
 ---
 
 # phoneGetVolume function

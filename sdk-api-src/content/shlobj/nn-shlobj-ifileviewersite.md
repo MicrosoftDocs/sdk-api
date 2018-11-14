@@ -9,8 +9,8 @@ ms.assetid: 500fa3e4-1865-4543-ae34-8bd7ce9d94cb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFileViewerSite, IFileViewerSite interface [Windows Shell], IFileViewerSite interface [Windows Shell],described, _win32_IFileViewerSite, shell.IFileViewerSite, shlobj/IFileViewerSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

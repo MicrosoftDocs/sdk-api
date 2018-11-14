@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mmc.h
+: 
+- IS_SPECIAL_DATAOBJECT
+: 
 ---
 
 # IS_SPECIAL_DATAOBJECT macro

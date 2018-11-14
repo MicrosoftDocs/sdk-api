@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_get_next_page_s
+: 
 ---
 
 # ldap_get_next_page_s function

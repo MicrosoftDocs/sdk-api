@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMLoadUDecN4_XR
+: 
 ---
 
 # XMLoadUDecN4_XR function

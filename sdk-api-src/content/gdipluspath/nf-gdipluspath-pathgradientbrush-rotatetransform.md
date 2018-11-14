@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_RotateTransform_angle_ord
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\rotatetransform_38angle_order.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: PathGradientBrush class [GDI+],RotateTransform method, PathGradientBrush.RotateTransform, PathGradientBrush::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_RotateTransform_angle_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- PathGradientBrush.RotateTransform
+: 
 req.product: GDI+ 1.0
 ---
 

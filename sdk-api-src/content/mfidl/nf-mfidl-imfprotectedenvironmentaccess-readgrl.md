@@ -7,7 +7,7 @@ old-location: mf\imfprotectedenvironmentaccess_readgrl.htm
 tech.root: medfound
 ms.assetid: 38b70c99-1823-498c-b3e4-d2cad05278de
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFProtectedEnvironmentAccess interface [Media Foundation],ReadGRL method, IMFProtectedEnvironmentAccess.ReadGRL, IMFProtectedEnvironmentAccess::ReadGRL, ReadGRL, ReadGRL method [Media Foundation], ReadGRL method [Media Foundation],IMFProtectedEnvironmentAccess interface, mf.imfprotectedenvironmentaccess_readgrl, mfidl/IMFProtectedEnvironmentAccess::ReadGRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFProtectedEnvironmentAccess.ReadGRL
+: 
 ---
 
 # IMFProtectedEnvironmentAccess::ReadGRL

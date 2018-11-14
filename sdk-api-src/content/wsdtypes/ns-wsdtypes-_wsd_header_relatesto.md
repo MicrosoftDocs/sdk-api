@@ -9,8 +9,8 @@ ms.assetid: 6085620e-2e3d-4e77-90cd-7cb9fd2c197e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WSD_HEADER_RELATESTO, WSD_HEADER_RELATESTO structure, _WSD_HEADER_RELATESTO, ncd.wsd_header_relatesto, ncd.wsd_header_relayesto, wsdtypes/WSD_HEADER_RELATESTO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

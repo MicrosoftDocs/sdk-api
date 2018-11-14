@@ -9,8 +9,8 @@ ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: richedit.h
 req.include-header: 

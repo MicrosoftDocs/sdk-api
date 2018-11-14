@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_DiseqCommand.get_DiseqResponse
+: 
 ---
 
 # IBDA_DiseqCommand::get_DiseqResponse

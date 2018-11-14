@@ -9,8 +9,8 @@ ms.assetid: 5da4aa28-a630-41f2-abb2-5538c11242e6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PISCSI_SESSION_INFOA, ISCSI_SESSION_INFO, ISCSI_SESSION_INFO structure [iSCSI Discovery Library API], ISCSI_SESSION_INFOA, ISCSI_SESSION_INFOW, PISCSI_SESSION_INFO, PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_session_info, iscsidsc/ISCSI_SESSION_INFO, iscsidsc/ISCSI_SESSION_INFOA, iscsidsc/ISCSI_SESSION_INFOW, iscsidsc/PISCSI_SESSION_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

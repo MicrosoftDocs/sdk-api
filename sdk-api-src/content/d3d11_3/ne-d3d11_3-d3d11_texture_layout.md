@@ -9,8 +9,8 @@ ms.assetid: E7786550-99FC-4F8E-B93F-C2877C052EC2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_TEXTURE_LAYOUT, D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11], D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, D3D11_TEXTURE_LAYOUT_ROW_MAJOR, D3D11_TEXTURE_LAYOUT_UNDEFINED, d3d11_3/D3D11_TEXTURE_LAYOUT, d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR, d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED, direct3d11.d3d11_texture_layout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 

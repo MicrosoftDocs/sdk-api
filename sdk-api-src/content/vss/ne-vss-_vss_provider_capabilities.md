@@ -9,8 +9,8 @@ ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vss.h
 req.include-header: 

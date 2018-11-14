@@ -9,8 +9,8 @@ ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm
 ms.author: windowssdkdev
 ms.date: 10/22/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, tagHH_AKLINK, vsconStrhhaklink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

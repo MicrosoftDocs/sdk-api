@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ENCORRECTTEXT, ENCORRECTTEXT structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _encorrecttext, _win32_ENCORRECTTEXT_str, _win32_ENCORRECTTEXT_str_cpp, controls.ENCORRECTTEXT, controls._win32_ENCORRECTTEXT_str, richedit/ENCORRECTTEXT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

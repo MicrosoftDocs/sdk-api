@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_totalacdtalktime.htm
 tech.root: tapi
 ms.assetid: a622a812-c929-413a-a3bc-4e870158cf16
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDTalkTime method, ITAgent.get_TotalACDTalkTime, ITAgent::get_TotalACDTalkTime, _tapi3_itagent_get_totalacdtalktime, get_TotalACDTalkTime, get_TotalACDTalkTime method [TAPI 2.2], get_TotalACDTalkTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdtalktime, tapi3cc/ITAgent::get_TotalACDTalkTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgent.get_TotalACDTalkTime
+: 
 ---
 
 # ITAgent::get_TotalACDTalkTime

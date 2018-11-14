@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut15.h
+: 
+- IInkDivider.get_RecognizerContext
+: 
 ---
 
 # IInkDivider::get_RecognizerContext

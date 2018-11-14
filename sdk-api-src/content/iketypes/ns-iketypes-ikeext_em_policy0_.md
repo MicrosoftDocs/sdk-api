@@ -9,8 +9,8 @@ ms.assetid: 954a2bb8-eb54-4f41-8a0c-3f2af1190f57
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_EM_POLICY0, IKEEXT_EM_POLICY0 structure [Filtering], IKEEXT_EM_POLICY0_, fwp.ikeext_em_policy0, iketypes/IKEEXT_EM_POLICY0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

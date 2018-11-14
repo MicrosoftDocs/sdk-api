@@ -9,8 +9,8 @@ ms.assetid: fc300bb8-aea4-4848-af43-a70a7fb8c07c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICreateDevEnum, ICreateDevEnum interface [DirectShow], ICreateDevEnum interface [DirectShow],described, ICreateDevEnumInterface, dshow.icreatedevenum, strmif/ICreateDevEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

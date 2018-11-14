@@ -9,8 +9,8 @@ ms.assetid: 6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], IHardwareAudioEngineBase interface [Core Audio],described, audioengineendpoint/IHardwareAudioEngineBase, coreaudio.ihardwareaudioenginebase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

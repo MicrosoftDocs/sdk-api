@@ -7,7 +7,7 @@ old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
 tech.root: secauthn
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tpmvscmgr.h
+: 
+- ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
+: 
 ---
 
 # ITpmVirtualSmartCardManager::DestroyVirtualSmartCard

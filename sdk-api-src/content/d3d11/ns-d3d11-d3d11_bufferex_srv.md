@@ -9,8 +9,8 @@ ms.assetid: 55714c3b-ef21-43c1-94a1-60b63f3fedac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 6e2b4acb-42c7-1258-4812-425166fea83e, D3D11_BUFFEREX_SRV, D3D11_BUFFEREX_SRV structure [Direct3D 11], d3d11/D3D11_BUFFEREX_SRV, direct3d11.d3d11_bufferex_srv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

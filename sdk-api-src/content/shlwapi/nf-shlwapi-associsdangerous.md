@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AssocIsDangerous
+: 
 req.product: Internet Explorer 6.01
 ---
 

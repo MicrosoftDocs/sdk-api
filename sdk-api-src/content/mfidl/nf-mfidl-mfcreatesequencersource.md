@@ -7,7 +7,7 @@ old-location: mf\mfcreatesequencersource.htm
 tech.root: medfound
 ms.assetid: e4640731-f262-4ceb-8d17-908c2c6b192e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCreateSequencerSource, MFCreateSequencerSource function [Media Foundation], e4640731-f262-4ceb-8d17-908c2c6b192e, mf.mfcreatesequencersource, mfidl/MFCreateSequencerSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateSequencerSource
+: 
 ---
 
 # MFCreateSequencerSource function

@@ -7,7 +7,7 @@ old-location: security\authzmodifyclaims.htm
 tech.root: secauthz
 ms.assetid: A93CD1DD-4E87-4C6A-928A-F90AD7F1085E
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzModifyClaims, AuthzModifyClaims function [Security], authz/AuthzModifyClaims, security.authzmodifyclaims
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuthzModifyClaims
+: 
 ---
 
 # AuthzModifyClaims function

@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkTablet2.get_DeviceKind
+: 
 ---
 
 # IInkTablet2::get_DeviceKind

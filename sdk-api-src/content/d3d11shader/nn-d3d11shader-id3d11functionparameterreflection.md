@@ -9,8 +9,8 @@ ms.assetid: EFF60EF7-C060-4148-916C-D971B65561F5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11FunctionParameterReflection, ID3D11FunctionParameterReflection interface [Direct3D 11], ID3D11FunctionParameterReflection interface [Direct3D 11],described, d3d11shader/ID3D11FunctionParameterReflection, direct3d11.id3d11functionparameterreflection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

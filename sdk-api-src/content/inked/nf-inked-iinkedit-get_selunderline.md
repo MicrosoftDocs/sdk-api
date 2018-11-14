@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- inked.h
+: 
+- IInkEdit.get_SelUnderline
+: 
 ---
 
 # IInkEdit::get_SelUnderline

@@ -9,8 +9,8 @@ ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

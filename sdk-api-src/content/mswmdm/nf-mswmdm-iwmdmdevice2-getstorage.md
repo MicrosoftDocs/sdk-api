@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDMDevice2.GetStorage
+: 
 ---
 
 # IWMDMDevice2::GetStorage

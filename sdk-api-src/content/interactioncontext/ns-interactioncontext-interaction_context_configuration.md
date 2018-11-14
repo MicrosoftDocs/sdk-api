@@ -9,8 +9,8 @@ ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATION structure, input_intcontext.interaction_context_configuration, interactioncontext.interaction_context_configuration, interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

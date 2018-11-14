@@ -9,8 +9,8 @@ ms.assetid: 6cc0dca7-1bc7-4229-9f3b-74d600776210
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ITSGAuthenticateUserSink interface [Remote Desktop Services],described, termserv.itsgauthenticateusersink, tsgauthenticationengine/ITSGAuthenticateUserSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tsgauthenticationengine.h
 req.include-header: 

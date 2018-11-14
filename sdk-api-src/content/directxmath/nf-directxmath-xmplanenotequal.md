@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMPlaneNotEqual
+: 
 ---
 
 # XMPlaneNotEqual function
@@ -62,17 +68,10 @@ Determines if two planes are unequal.
 
 <b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
 
-<div class="code"><span codelanguage=""><table>
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>return (P1.x != P2.x || P1.y != P2.y || P1.z != P2.z || P1.w != P2.w);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+return (P1.x != P2.x || P1.y != P2.y || P1.z != P2.z || P1.w != P2.w);
+```
 
 .
 

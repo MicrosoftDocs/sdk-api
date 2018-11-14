@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vds.h
+: 
+- IVdsControllerPort.SetStatus
+: 
 ---
 
 # IVdsControllerPort::SetStatus

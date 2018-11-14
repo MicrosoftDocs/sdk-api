@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clone_97.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Clone method, GraphicsPath.Clone, GraphicsPath::Clone, _gdiplus_CLASS_GraphicsPath_Clone_, gdiplus._gdiplus_CLASS_GraphicsPath_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.Clone
+: 
 req.product: GDI+ 1.0
 ---
 

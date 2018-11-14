@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_deletepropertyitem.htm
 tech.root: secauthz
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplicationGroup object, DeletePropertyItem method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeletePropertyItem method, IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup.DeletePropertyItem
+: 
 ---
 
 # IAzApplicationGroup::DeletePropertyItem

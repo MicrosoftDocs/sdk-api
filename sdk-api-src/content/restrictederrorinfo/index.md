@@ -2,7 +2,7 @@
 UID: NA:restrictederrorinfo
 ms.assetid: 3d529451-f4fd-33ef-be06-d7eae4b247e3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

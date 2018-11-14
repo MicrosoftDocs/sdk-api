@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbClientConnection.get_LoadBalanceResult
+: 
 ---
 
 # ITsSbClientConnection::get_LoadBalanceResult

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpGetOptionInfoV5
+: 
 ---
 
 # DhcpGetOptionInfoV5 function

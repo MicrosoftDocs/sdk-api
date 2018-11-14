@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IVideoWindow.get_Left
+: 
 ---
 
 # IVideoWindow::get_Left

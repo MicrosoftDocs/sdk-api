@@ -7,7 +7,7 @@ old-location: security\certduplicatecrlcontext.htm
 tech.root: seccrypto
 ms.assetid: ea14c494-d1c7-46d0-9d56-fc89a4b4afa9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertDuplicateCRLContext, CertDuplicateCRLContext function [Security], _crypto2_certduplicatecrlcontext, security.certduplicatecrlcontext, wincrypt/CertDuplicateCRLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertDuplicateCRLContext
+: 
 ---
 
 # CertDuplicateCRLContext function

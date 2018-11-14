@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509AttributeArchiveKey.get_EncryptedKeyBlob
+: 
 ---
 
 # IX509AttributeArchiveKey::get_EncryptedKeyBlob

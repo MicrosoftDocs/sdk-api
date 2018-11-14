@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onreceiptoptionschange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onreceiptoptionschange.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnReceiptOptionsChange method, IFaxServerNotify2.OnReceiptOptionsChange, IFaxServerNotify2::OnReceiptOptionsChange, OnReceiptOptionsChange, OnReceiptOptionsChange method [Fax Service], OnReceiptOptionsChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnReceiptOptionsChange, _IFaxServerNotify2::OnReceiptOptionsChange, _mfax_ifaxservernotify2_onreceiptoptionschange, fax._mfax_ifaxservernotify2_onreceiptoptionschange, faxcomex/IFaxServerNotify2::OnReceiptOptionsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- _IFaxServerNotify2.OnReceiptOptionsChange
+: 
 ---
 
 # _IFaxServerNotify2::OnReceiptOptionsChange

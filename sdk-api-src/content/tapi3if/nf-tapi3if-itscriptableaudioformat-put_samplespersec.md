@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_put_samplespersec.htm
 tech.root: tapi
 ms.assetid: 9cf0d204-3623-4c93-9f75-39c39aa20f76
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_SamplesPerSec method, ITScriptableAudioFormat.put_SamplesPerSec, ITScriptableAudioFormat::put_SamplesPerSec, _tapi3_itscriptableaudioformat_put_samplespersec, put_SamplesPerSec, put_SamplesPerSec method [TAPI 2.2], put_SamplesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_samplespersec, tapi3if/ITScriptableAudioFormat::put_SamplesPerSec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITScriptableAudioFormat.put_SamplesPerSec
+: 
 ---
 
 # ITScriptableAudioFormat::put_SamplesPerSec

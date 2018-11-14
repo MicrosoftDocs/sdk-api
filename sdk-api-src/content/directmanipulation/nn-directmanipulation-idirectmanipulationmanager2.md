@@ -9,8 +9,8 @@ ms.assetid: 094C6C7D-F973-45AC-9B83-43DB9D46AF23
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDirectManipulationManager2, IDirectManipulationManager2 interface [Direct Manipulation], IDirectManipulationManager2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager2, directmanipulation/IDirectManipulationManager2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

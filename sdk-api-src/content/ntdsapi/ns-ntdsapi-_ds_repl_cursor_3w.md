@@ -9,8 +9,8 @@ ms.assetid: 0361a3e1-814c-4ef2-b574-2870a9289e52
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: DS_REPL_CURSOR_3, DS_REPL_CURSOR_3 structure [Active Directory], DS_REPL_CURSOR_3W, _DS_REPL_CURSOR_3W, ad.ds_repl_cursor_3, ntdsapi/DS_REPL_CURSOR_3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

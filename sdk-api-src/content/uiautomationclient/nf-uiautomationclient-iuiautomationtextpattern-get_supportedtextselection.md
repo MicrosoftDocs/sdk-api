@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationTextPattern.get_SupportedTextSelection
+: 
 ---
 
 # IUIAutomationTextPattern::get_SupportedTextSelection

@@ -7,7 +7,7 @@ old-location: security\iazapplications_newenum.htm
 tech.root: secauthz
 ms.assetid: 8c01c1b4-d3e0-40c2-b0b7-524423c38c45
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplications object [Security],_NewEnum property, IAzApplications interface [Security],_NewEnum property, IAzApplications._NewEnum, IAzApplications.get__NewEnum, IAzApplications::_NewEnum, IAzApplications::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplications object, _NewEnum property [Security],IAzApplications interface, azroles/IAzApplications::_NewEnum, azroles/IAzApplications::get__NewEnum, get__NewEnum, security.iazapplications_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplications.get__NewEnum
+: 
 ---
 
 # IAzApplications::get__NewEnum

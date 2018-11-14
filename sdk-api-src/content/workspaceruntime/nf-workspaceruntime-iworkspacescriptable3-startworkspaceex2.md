@@ -41,6 +41,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- workspaceruntime.h
+: 
+- IWorkspaceScriptable3.StartWorkspaceEx2
+: 
 ---
 
 # IWorkspaceScriptable3::StartWorkspaceEx2

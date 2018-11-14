@@ -9,8 +9,8 @@ ms.assetid: 8bcb8ee7-14a9-411e-978d-ddeed83d8392
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, LIBRARYFOLDERFILTER, LIBRARYFOLDERFILTER enumeration [Windows Shell], _shell_LIBRARYFOLDERFILTER, shell.LIBRARYFOLDERFILTER, shobjidl_core/LFF_ALLITEMS, shobjidl_core/LFF_FORCEFILESYSTEM, shobjidl_core/LFF_STORAGEITEMS, shobjidl_core/LIBRARYFOLDERFILTER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

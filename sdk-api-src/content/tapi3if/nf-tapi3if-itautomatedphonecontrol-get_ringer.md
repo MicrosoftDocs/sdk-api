@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_ringer.htm
 tech.root: tapi
 ms.assetid: cc4daec0-7f55-4c76-b8a0-19307c7046dc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Ringer method, ITAutomatedPhoneControl.get_Ringer, ITAutomatedPhoneControl::get_Ringer, _tapi3_itautomatedphonecontrol_get_ringer, get_Ringer, get_Ringer method [TAPI 2.2], get_Ringer method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_ringer, tapi3if/ITAutomatedPhoneControl::get_Ringer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAutomatedPhoneControl.get_Ringer
+: 
 ---
 
 # ITAutomatedPhoneControl::get_Ringer

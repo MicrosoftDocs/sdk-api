@@ -7,7 +7,7 @@ old-location: security\iaztask_description.htm
 tech.root: secauthz
 ms.assetid: 095bf53b-0afa-44f3-87b8-9363dfffef1f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzTask object [Security],Description property, Description property [Security], Description property [Security],AzTask object, Description property [Security],IAzTask interface, IAzTask interface [Security],Description property, IAzTask.Description, IAzTask.get_Description, IAzTask::Description, IAzTask::get_Description, IAzTask::put_Description, azroles/IAzTask::Description, azroles/IAzTask::get_Description, azroles/IAzTask::put_Description, get_Description, security.iaztask_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.get_Description
+: 
 ---
 
 # IAzTask::get_Description

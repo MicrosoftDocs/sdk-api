@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_mfax_ifaxport_getstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8lo3.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: GetStatus, GetStatus method [Fax Service], GetStatus method [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],GetStatus method, IFaxPort.GetStatus, IFaxPort::GetStatus, _mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus, fax._mfax_ifaxport_mfax_ifaxport_getstatus_cpp, faxcom/IFaxPort::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcom.h
+: 
+- IFaxPort.GetStatus
+: 
 ---
 
 # IFaxPort::GetStatus

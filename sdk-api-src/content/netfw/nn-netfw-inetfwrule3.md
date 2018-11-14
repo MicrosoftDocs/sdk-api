@@ -9,8 +9,8 @@ ms.assetid: 72bf5ac3-7ee7-4837-96b2-815b499aac2f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetFwRule3, INetFwRule3 interface [ICS/ICF], INetFwRule3 interface [ICS/ICF],described, ics.inetfwrule3, netfw/INetFwRule3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

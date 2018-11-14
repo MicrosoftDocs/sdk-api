@@ -9,8 +9,8 @@ ms.assetid: bbe81ff1-a30d-4eee-a2ca-8a1c464492fa
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVEncDDDynamicRangeCompressionControl, codecapi/eAVEncDDDynamicRangeCompressionControl_FilmLight, codecapi/eAVEncDDDynamicRangeCompressionControl_FilmStandard, codecapi/eAVEncDDDynamicRangeCompressionControl_MusicLight, codecapi/eAVEncDDDynamicRangeCompressionControl_MusicStandard, codecapi/eAVEncDDDynamicRangeCompressionControl_None, codecapi/eAVEncDDDynamicRangeCompressionControl_Speech, dshow.eavencdddynamicrangecompressioncontrol, eAVEncDDDynamicRangeCompressionControl, eAVEncDDDynamicRangeCompressionControl enumeration [DirectShow], eAVEncDDDynamicRangeCompressionControlEnumeration, eAVEncDDDynamicRangeCompressionControl_FilmLight, eAVEncDDDynamicRangeCompressionControl_FilmStandard, eAVEncDDDynamicRangeCompressionControl_MusicLight, eAVEncDDDynamicRangeCompressionControl_MusicStandard, eAVEncDDDynamicRangeCompressionControl_None, eAVEncDDDynamicRangeCompressionControl_Speech
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

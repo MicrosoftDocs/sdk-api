@@ -9,8 +9,8 @@ ms.assetid: 4a7cf425-40c6-4951-880e-b3a99076bb2b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_HTTPS_URL, WS_HTTPS_URL structure [Web Services for Windows], _WS_HTTPS_URL, webservices/WS_HTTPS_URL, wsw.ws_https_url
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

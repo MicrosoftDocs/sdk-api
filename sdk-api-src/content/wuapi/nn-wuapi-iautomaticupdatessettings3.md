@@ -9,8 +9,8 @@ ms.assetid: 2cc4d15f-eb8c-4db1-a81b-6eb3ee128121
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], IAutomaticUpdatesSettings3 interface [Windows Update Agent],described, wua.iautomaticupdatessettings3, wuapi/IAutomaticUpdatesSettings3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

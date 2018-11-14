@@ -9,8 +9,8 @@ ms.assetid: 48b786ef-a1b6-4dcf-9329-c659f15185e1
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IStreamConcatenate, IStreamConcatenate interface [IMAPI], IStreamConcatenate interface [IMAPI],described, imapi.istreamconcatenate, imapi2/IStreamConcatenate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: base\minidumpwritedump.htm
 tech.root: debug
 ms.assetid: b476023d-0e93-4d76-9ba8-ce5766c9ac51
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwritedump, base.minidumpwritedump, minidumpapiset/MiniDumpWriteDump
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll and Dbgcore.dll
+- apiref
+: 
+- 
+: 
+- MiniDumpWriteDump
+: 
 ---
 
 # MiniDumpWriteDump function

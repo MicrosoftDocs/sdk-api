@@ -9,8 +9,8 @@ ms.assetid: fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+],described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

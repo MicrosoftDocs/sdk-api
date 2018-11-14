@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPSettings.put_autoStart
+: 
 ---
 
 # IWMPSettings::put_autoStart

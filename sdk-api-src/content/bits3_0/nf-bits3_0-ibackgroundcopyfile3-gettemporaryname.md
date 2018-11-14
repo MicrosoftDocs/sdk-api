@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits3_0.h
+: 
+- IBackgroundCopyFile3.GetTemporaryName
+: 
 ---
 
 # IBackgroundCopyFile3::GetTemporaryName

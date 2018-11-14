@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- efswrtinterop.h
+: 
+- IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync
+: 
 ---
 
 # IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync

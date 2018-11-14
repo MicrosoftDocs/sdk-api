@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IISDB_NBIT.GetVersionNumber
+: 
 ---
 
 # IISDB_NBIT::GetVersionNumber

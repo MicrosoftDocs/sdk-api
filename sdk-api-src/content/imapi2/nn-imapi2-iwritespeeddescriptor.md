@@ -9,8 +9,8 @@ ms.assetid: 9efaa744-ae0c-4101-8d78-091cba990533
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IWriteSpeedDescriptor, IWriteSpeedDescriptor interface [IMAPI], IWriteSpeedDescriptor interface [IMAPI],described, imapi.iwritespeeddescriptor, imapi2/IWriteSpeedDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

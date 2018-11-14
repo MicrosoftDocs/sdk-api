@@ -7,7 +7,7 @@ old-location: base\setsystemfilecachesize.htm
 tech.root: memory
 ms.assetid: bb0a65d6-d04a-4805-80d5-61fc53eb2726
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: FILE_CACHE_MAX_HARD_DISABLE, FILE_CACHE_MAX_HARD_ENABLE, FILE_CACHE_MIN_HARD_DISABLE, FILE_CACHE_MIN_HARD_ENABLE, SetSystemFileCacheSize, SetSystemFileCacheSize function, base.setsystemfilecachesize, winbase/SetSystemFileCacheSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetSystemFileCacheSize
+: 
 ---
 
 # SetSystemFileCacheSize function

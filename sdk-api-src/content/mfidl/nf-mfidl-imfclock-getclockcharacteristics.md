@@ -7,7 +7,7 @@ old-location: mf\imfclock_getclockcharacteristics.htm
 tech.root: medfound
 ms.assetid: 50a81e8b-9aa8-484c-afb7-950068feefc4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 50a81e8b-9aa8-484c-afb7-950068feefc4, GetClockCharacteristics, GetClockCharacteristics method [Media Foundation], GetClockCharacteristics method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetClockCharacteristics method, IMFClock.GetClockCharacteristics, IMFClock::GetClockCharacteristics, mf.imfclock_getclockcharacteristics, mfidl/IMFClock::GetClockCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFClock.GetClockCharacteristics
+: 
 ---
 
 # IMFClock::GetClockCharacteristics

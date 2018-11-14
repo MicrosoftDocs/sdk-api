@@ -9,8 +9,8 @@ ms.assetid: 67a837f3-8b81-4651-a0fa-fed7b61e71c2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, _PinInfo, dshow.pin_info, strmif/PIN_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LsaLookupSids2
+: 
 ---
 
 # LsaLookupSids2 function

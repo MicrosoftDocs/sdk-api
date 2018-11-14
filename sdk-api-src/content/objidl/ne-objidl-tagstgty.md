@@ -9,8 +9,8 @@ ms.assetid: 67189e7a-b089-4a29-adf8-ad7c459c7974
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: STGTY, STGTY enumeration [Structured Storage], STGTY_LOCKBYTES, STGTY_PROPERTY, STGTY_STORAGE, STGTY_STREAM, _stg_stgty, objidl/STGTY, objidl/STGTY_LOCKBYTES, objidl/STGTY_PROPERTY, objidl/STGTY_STORAGE, objidl/STGTY_STREAM, stg.stgty, tagSTGTY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

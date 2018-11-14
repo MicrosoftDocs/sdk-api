@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- photoacquire.h
+: 
+- IPhotoAcquireOptionsDialog.DoModal
+: 
 ---
 
 # IPhotoAcquireOptionsDialog::DoModal

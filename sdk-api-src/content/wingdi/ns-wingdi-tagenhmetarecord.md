@@ -9,8 +9,8 @@ ms.assetid: efe49094-fe61-40e1-873e-3302c595717e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPENHMETARECORD, *PENHMETARECORD, ENHMETARECORD, ENHMETARECORD structure [Windows GDI], PENHMETARECORD, PENHMETARECORD structure pointer [Windows GDI], _win32_ENHMETARECORD_str, gdi.enhmetarecord, tagENHMETARECORD, wingdi/ENHMETARECORD, wingdi/PENHMETARECORD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

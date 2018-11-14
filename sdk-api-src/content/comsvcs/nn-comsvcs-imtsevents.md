@@ -9,8 +9,8 @@ ms.assetid: 7db3a373-00d3-480e-8f8e-7e65a468d5dc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMtsEvents, IMtsEvents interface [COM+], IMtsEvents interface [COM+],described, _dtc_IMtsEvents_Interface, comsvcs/IMtsEvents, cos.imtsevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

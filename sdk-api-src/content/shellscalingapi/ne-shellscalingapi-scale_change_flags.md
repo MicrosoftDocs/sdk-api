@@ -9,8 +9,8 @@ ms.assetid: 18B3E8F1-C9A9-4CE4-8982-C552486EA9B1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SCALE_CHANGE_FLAGS, SCALE_CHANGE_FLAGS enumeration [Windows Shell], SCF_PHYSICAL, SCF_SCALE, SCF_VALUE_NONE, shell.scale_change_flags, shellscalingapi/SCALE_CHANGE_FLAGS, shellscalingapi/SCF_PHYSICAL, shellscalingapi/SCF_SCALE, shellscalingapi/SCF_VALUE_NONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shellscalingapi.h
 req.include-header: 

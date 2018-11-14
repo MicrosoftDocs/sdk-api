@@ -7,7 +7,7 @@ old-location: security\authzmodifysecurityattributes.htm
 tech.root: secauthz
 ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuthzModifySecurityAttributes
+: 
 ---
 
 # AuthzModifySecurityAttributes function

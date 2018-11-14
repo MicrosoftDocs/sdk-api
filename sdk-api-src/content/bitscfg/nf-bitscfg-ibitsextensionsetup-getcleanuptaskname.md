@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on Windows XP
+- apiref
+: 
+- COM
+: 
+- bitscfg.h
+: 
+- IBITSExtensionSetup.GetCleanupTaskName
+: 
 ---
 
 # IBITSExtensionSetup::GetCleanupTaskName

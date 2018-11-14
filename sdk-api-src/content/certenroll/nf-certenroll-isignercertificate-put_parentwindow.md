@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ISignerCertificate.put_ParentWindow
+: 
 ---
 
 # ISignerCertificate::put_ParentWindow

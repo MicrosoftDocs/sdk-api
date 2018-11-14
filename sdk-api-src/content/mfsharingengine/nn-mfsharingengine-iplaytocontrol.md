@@ -7,10 +7,10 @@ old-location: mf\iplaytocontrol.htm
 tech.root: medfound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 

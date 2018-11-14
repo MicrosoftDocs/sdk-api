@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformvectorsmethods\transformvectors.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Matrix class [GDI+],TransformVectors method, Matrix.TransformVectors, Matrix.TransformVectors(IN OUT Point,IN INT), Matrix.TransformVectors(Point*,INT), Matrix::TransformVectors, Matrix::TransformVectors(IN OUT Point,IN INT), TransformVectors, TransformVectors method [GDI+], TransformVectors method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmatrix.h
+: 
+- Matrix.TransformVectors
+: 
 req.product: GDI+ 1.0
 ---
 

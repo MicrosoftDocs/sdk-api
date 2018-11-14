@@ -7,7 +7,7 @@ old-location: dataxchg\ddeadddata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeadddata.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/13/2018
 ms.keywords: DdeAddData, DdeAddData function [Data Exchange], _win32_DdeAddData, _win32_ddeadddata_cpp, dataxchg.ddeadddata, ddeml/DdeAddData, winui._win32_ddeadddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DdeAddData
+: 
 ---
 
 # DdeAddData function

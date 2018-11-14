@@ -7,7 +7,7 @@ old-location: security\icertadmin2_setcaproperty.htm
 tech.root: seccrypto
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2 interface [Security],SetCAProperty method, ICertAdmin2.SetCAProperty, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty, SetCAProperty method [Security], SetCAProperty method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- ICertAdmin2.SetCAProperty
+: 
 ---
 
 # ICertAdmin2::SetCAProperty

@@ -7,7 +7,7 @@ old-location: security\isecurityinformation_getsecurity.htm
 tech.root: secauthz
 ms.assetid: 4c9e05fd-0b58-4d6d-b33e-067d9e8e2915
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, GetSecurity, GetSecurity method [Security], GetSecurity method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetSecurity method, ISecurityInformation.GetSecurity, ISecurityInformation::GetSecurity, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, _win32_isecurityinformation_getsecurity, aclui/ISecurityInformation::GetSecurity, security.isecurityinformation_getsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityInformation.GetSecurity
+: 
 ---
 
 # ISecurityInformation::GetSecurity

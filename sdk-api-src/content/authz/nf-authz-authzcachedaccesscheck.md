@@ -7,7 +7,7 @@ old-location: security\authzcachedaccesscheck.htm
 tech.root: secauthz
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzCachedAccessCheck
+: 
 ---
 
 # AuthzCachedAccessCheck function

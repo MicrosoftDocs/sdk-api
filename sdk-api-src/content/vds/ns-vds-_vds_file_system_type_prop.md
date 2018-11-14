@@ -9,8 +9,8 @@ ms.assetid: 92383a59-d7dd-419b-b6d0-959fef41ad4e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP structure pointer [VDS], VDS_FILE_SYSTEM_TYPE_PROP, VDS_FILE_SYSTEM_TYPE_PROP structure [VDS], _VDS_FILE_SYSTEM_TYPE_PROP, base.vds_file_system_type_prop, vds/PVDS_FILE_SYSTEM_TYPE_PROP, vds/_VDS_FILE_SYSTEM_TYPE_PROP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

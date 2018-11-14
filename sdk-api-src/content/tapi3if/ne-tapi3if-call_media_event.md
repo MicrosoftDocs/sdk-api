@@ -7,10 +7,10 @@ old-location: tapi3\call_media_event.htm
 tech.root: tapi
 ms.assetid: 835759f4-652b-4d01-911a-e580bb29d292
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CALL_MEDIA_EVENT, CALL_MEDIA_EVENT enumeration [TAPI 2.2], CME_NEW_STREAM, CME_STREAM_ACTIVE, CME_STREAM_FAIL, CME_STREAM_INACTIVE, CME_STREAM_NOT_USED, CME_TERMINAL_FAIL, _tapi3_call_media_event, tapi3.call_media_event, tapi3if/CALL_MEDIA_EVENT, tapi3if/CME_NEW_STREAM, tapi3if/CME_STREAM_ACTIVE, tapi3if/CME_STREAM_FAIL, tapi3if/CME_STREAM_INACTIVE, tapi3if/CME_STREAM_NOT_USED, tapi3if/CME_TERMINAL_FAIL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

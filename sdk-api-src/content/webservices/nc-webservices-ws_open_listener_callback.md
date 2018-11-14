@@ -9,8 +9,8 @@ ms.assetid: 061111f5-a568-4a8a-9892-9c8a352556ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_OPEN_LISTENER_CALLBACK, WS_OPEN_LISTENER_CALLBACK callback, WS_OPEN_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_OPEN_LISTENER_CALLBACK, wsw.ws_open_listener_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

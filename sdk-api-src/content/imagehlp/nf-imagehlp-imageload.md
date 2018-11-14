@@ -7,7 +7,7 @@ old-location: base\imageload.htm
 tech.root: debug
 ms.assetid: e88e6417-a805-43c2-9f47-5180228cf175
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: ImageLoad, ImageLoad function, _win32_imageload, base.imageload, imagehlp/ImageLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImageLoad
+: 
 ---
 
 # ImageLoad function

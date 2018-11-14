@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StrToInt64ExW
+: 
 ---
 
 # StrToInt64ExW function

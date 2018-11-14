@@ -9,8 +9,8 @@ ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, _timecode, dshow.timecode, strmif/TIMECODE, tagTIMECODE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

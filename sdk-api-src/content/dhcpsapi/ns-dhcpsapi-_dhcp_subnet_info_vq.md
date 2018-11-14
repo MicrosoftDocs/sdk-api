@@ -9,8 +9,8 @@ ms.assetid: 8440378e-c1dc-4e22-8c56-2cf4412c2483
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ structure [DHCP], LPDHCP_SUBNET_INFO_VQ, LPDHCP_SUBNET_INFO_VQ structure pointer [DHCP], _DHCP_SUBNET_INFO_VQ, dhcp.dhcp_subnet_info_vq, dhcpsapi/DHCP_SUBNET_INFO_VQ, dhcpsapi/LPDHCP_SUBNET_INFO_VQ"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

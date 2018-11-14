@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2fs.h
+: 
+- IFileSystemImage.get_VolumeNameISO9660
+: 
 ---
 
 # IFileSystemImage::get_VolumeNameISO9660

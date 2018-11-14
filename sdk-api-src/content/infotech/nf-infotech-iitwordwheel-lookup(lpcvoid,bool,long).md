@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- infotech.h
+: 
+- IITWordWheel.Lookup
+: 
 ---
 
 # IITWordWheel::Lookup(LPCVOID,BOOL,LONG)

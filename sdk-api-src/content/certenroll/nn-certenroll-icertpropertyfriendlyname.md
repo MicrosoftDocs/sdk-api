@@ -9,8 +9,8 @@ ms.assetid: d2bfe2f2-423e-4620-8933-bbae4f98c62a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], ICertPropertyFriendlyName interface [Security],described, certenroll/ICertPropertyFriendlyName, security.icertpropertyfriendlyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

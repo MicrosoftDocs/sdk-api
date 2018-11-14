@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionDevice.CreateMatrixTransform3D
+: 
 ---
 
 # IDCompositionDevice::CreateMatrixTransform3D

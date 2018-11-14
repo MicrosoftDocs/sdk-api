@@ -9,8 +9,8 @@ ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

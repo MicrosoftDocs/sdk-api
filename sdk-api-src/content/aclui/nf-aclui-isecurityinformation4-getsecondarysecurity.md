@@ -7,7 +7,7 @@ old-location: security\isecurityinformation4_getsecondarysecurity.htm
 tech.root: secauthz
 ms.assetid: 20BD7D3B-1097-45CF-8237-0FBAD6BD6E3E
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSecondarySecurity, GetSecondarySecurity method [Security], GetSecondarySecurity method [Security],ISecurityInformation4 interface, ISecurityInformation4 interface [Security],GetSecondarySecurity method, ISecurityInformation4.GetSecondarySecurity, ISecurityInformation4::GetSecondarySecurity, aclui/ISecurityInformation4::GetSecondarySecurity, security.isecurityinformation4_getsecondarysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityInformation4.GetSecondarySecurity
+: 
 ---
 
 # ISecurityInformation4::GetSecondarySecurity

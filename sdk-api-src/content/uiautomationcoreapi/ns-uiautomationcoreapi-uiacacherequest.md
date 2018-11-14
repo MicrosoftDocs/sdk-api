@@ -9,8 +9,8 @@ ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

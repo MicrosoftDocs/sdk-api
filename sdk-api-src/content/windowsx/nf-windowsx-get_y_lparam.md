@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- GET_Y_LPARAM
+: 
 ---
 
 # GET_Y_LPARAM macro

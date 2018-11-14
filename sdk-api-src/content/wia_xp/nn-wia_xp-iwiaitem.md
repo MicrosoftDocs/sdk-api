@@ -9,8 +9,8 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\iwiaitem.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],described, _wia_IWiaItem, wia._wia_IWiaItem, wia_xp/IWiaItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -9,8 +9,8 @@ ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 
@@ -224,17 +224,10 @@ An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a p
 
  For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
- For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pActiveBasicDevice-&gt;QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&amp;spUPnPDevice );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pActiveBasicDevice->QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&spUPnPDevice );
+```
 
 
 

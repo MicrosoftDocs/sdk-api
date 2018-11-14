@@ -7,7 +7,7 @@ old-location: tapi2\phoneconfigdialog.htm
 tech.root: tapi
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog function [TAPI 2.2], phoneConfigDialogA, phoneConfigDialogW, tapi/phoneConfigDialog, tapi/phoneConfigDialogA, tapi/phoneConfigDialogW, tapi2.phoneconfigdialog"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- phoneConfigDialogW
+: 
 ---
 
 # phoneConfigDialogW function

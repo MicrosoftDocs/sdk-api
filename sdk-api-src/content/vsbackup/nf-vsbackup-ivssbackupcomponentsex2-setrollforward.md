@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vsbackup.h
+: 
+- IVssBackupComponentsEx2.SetRollForward
+: 
 ---
 
 # IVssBackupComponentsEx2::SetRollForward

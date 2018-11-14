@@ -7,7 +7,7 @@ old-location: tapi3\itstaticaudioterminal_get_waveid.htm
 tech.root: tapi
 ms.assetid: dbbfbfe0-843b-4baf-b4f5-51a3037c5fd9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITStaticAudioTerminal interface [TAPI 2.2],get_WaveId method, ITStaticAudioTerminal.get_WaveId, ITStaticAudioTerminal::get_WaveId, _tapi3_itstaticaudioterminal_get_waveid, get_WaveId, get_WaveId method [TAPI 2.2], get_WaveId method [TAPI 2.2],ITStaticAudioTerminal interface, tapi3.itstaticaudioterminal_get_waveid, tapi3if/ITStaticAudioTerminal::get_WaveId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITStaticAudioTerminal.get_WaveId
+: 
 ---
 
 # ITStaticAudioTerminal::get_WaveId

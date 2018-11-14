@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CStdAsyncStubBuffer_Release
+: 
 ---
 
 # CStdAsyncStubBuffer_Release function

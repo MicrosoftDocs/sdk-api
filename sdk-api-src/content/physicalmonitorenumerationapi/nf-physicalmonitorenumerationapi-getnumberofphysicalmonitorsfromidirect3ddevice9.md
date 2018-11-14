@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
+: 
 ---
 
 # GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function

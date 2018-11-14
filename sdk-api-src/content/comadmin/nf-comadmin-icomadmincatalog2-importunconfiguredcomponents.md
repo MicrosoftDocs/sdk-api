@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICOMAdminCatalog2.ImportUnconfiguredComponents
+: 
 ---
 
 # ICOMAdminCatalog2::ImportUnconfiguredComponents

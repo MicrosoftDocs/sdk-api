@@ -9,8 +9,8 @@ ms.assetid: d2cff547-b4ff-454d-8e0e-cd29b91cbb07
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssAsync, IVssAsync interface [VSS], IVssAsync interface [VSS],described, _win32_ivssasync, base.ivssasync, vss/IVssAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vss.h
 req.include-header: 

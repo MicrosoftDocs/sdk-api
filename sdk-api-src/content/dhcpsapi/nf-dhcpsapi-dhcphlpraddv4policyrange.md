@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpHlprAddV4PolicyRange
+: 
 ---
 
 # DhcpHlprAddV4PolicyRange function

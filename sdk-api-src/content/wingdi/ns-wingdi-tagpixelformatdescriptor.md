@@ -9,8 +9,8 @@ ms.assetid: 1480dea3-ae74-4e8b-b4de-fca8de5d8395
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPPIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR structure [OpenGL], PPIXELFORMATDESCRIPTOR, PPIXELFORMATDESCRIPTOR structure pointer [OpenGL], _ogl_PIXELFORMATDESCRIPTOR, opengl.pixelformatdescriptor, tagPIXELFORMATDESCRIPTOR, wingdi/PIXELFORMATDESCRIPTOR, wingdi/PPIXELFORMATDESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

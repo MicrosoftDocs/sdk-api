@@ -9,8 +9,8 @@ ms.assetid: 5AF5DCAC-2C3A-45A7-A165-3FBE3E0D5CAB
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11ShaderResourceView1, ID3D11ShaderResourceView1 interface [Direct3D 11], ID3D11ShaderResourceView1 interface [Direct3D 11],described, d3d11_3/ID3D11ShaderResourceView1, direct3d11.id3d11shaderresourceview1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

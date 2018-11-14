@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpappcontainerclient.h
+: 
+- IRemoteDesktopClient.get_Settings
+: 
 ---
 
 # IRemoteDesktopClient::get_Settings

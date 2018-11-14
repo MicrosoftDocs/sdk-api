@@ -9,8 +9,8 @@ ms.assetid: 2653340E-FCDD-41B7-B72C-F99C92920645
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: AppPolicyClrCompat, AppPolicyClrCompat enumeration [App packaging and management], AppPolicyClrCompat_ClassicDesktop, AppPolicyClrCompat_Other, AppPolicyClrCompat_PackagedDesktop, AppPolicyClrCompat_Universal, appmodel/AppPolicyClrCompat, appmodel/AppPolicyClrCompat_ClassicDesktop, appmodel/AppPolicyClrCompat_Other, appmodel/AppPolicyClrCompat_PackagedDesktop, appmodel/AppPolicyClrCompat_Universal, appxpkg.apppolicyclrcompat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 

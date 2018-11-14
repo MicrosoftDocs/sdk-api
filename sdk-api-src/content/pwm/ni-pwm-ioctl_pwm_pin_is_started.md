@@ -9,8 +9,8 @@ ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

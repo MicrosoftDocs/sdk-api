@@ -9,8 +9,8 @@ ms.assetid: b4e51201-47af-449f-9050-aec3207320f5
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IPropertyStoreCapabilities, IPropertyStoreCapabilities interface [Windows Properties], IPropertyStoreCapabilities interface [Windows Properties],described, _shell_IPropertyStoreCapabilities, properties.IPropertyStoreCapabilities, propsys/IPropertyStoreCapabilities, shell.IPropertyStoreCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

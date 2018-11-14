@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMProfile3.AddBandwidthSharing
+: 
 ---
 
 # IWMProfile3::AddBandwidthSharing

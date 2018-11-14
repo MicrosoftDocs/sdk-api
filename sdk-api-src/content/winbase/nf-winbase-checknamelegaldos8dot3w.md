@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CheckNameLegalDOS8Dot3W
+: 
 ---
 
 # CheckNameLegalDOS8Dot3W function

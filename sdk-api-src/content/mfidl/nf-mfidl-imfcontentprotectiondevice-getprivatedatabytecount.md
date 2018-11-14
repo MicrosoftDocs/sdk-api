@@ -7,7 +7,7 @@ old-location: mf\imfcontentprotectiondevice_getprivatedatabytecount.htm
 tech.root: medfound
 ms.assetid: 24FBA7E0-1496-4921-91C7-69E9AF830586
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetPrivateDataByteCount, GetPrivateDataByteCount method [Media Foundation], GetPrivateDataByteCount method [Media Foundation],IMFContentProtectionDevice interface, IMFContentProtectionDevice interface [Media Foundation],GetPrivateDataByteCount method, IMFContentProtectionDevice.GetPrivateDataByteCount, IMFContentProtectionDevice::GetPrivateDataByteCount, mf.imfcontentprotectiondevice_getprivatedatabytecount, mfidl/IMFContentProtectionDevice::GetPrivateDataByteCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFContentProtectionDevice.GetPrivateDataByteCount
+: 
 ---
 
 # IMFContentProtectionDevice::GetPrivateDataByteCount

@@ -7,7 +7,7 @@ old-location: base\makesuredirectorypathexists.htm
 tech.root: debug
 ms.assetid: 2be9a53a-306a-4b89-a813-0491e8a6e794
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: MakeSureDirectoryPathExists, MakeSureDirectoryPathExists function, _win32_makesuredirectorypathexists, base.makesuredirectorypathexists, dbghelp/MakeSureDirectoryPathExists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- MakeSureDirectoryPathExists
+: 
 ---
 
 # MakeSureDirectoryPathExists function

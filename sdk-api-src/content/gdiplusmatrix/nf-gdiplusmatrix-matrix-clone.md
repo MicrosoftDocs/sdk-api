@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\clone_31.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Matrix class, Matrix class [GDI+],Clone method, Matrix.Clone, Matrix::Clone, _gdiplus_CLASS_Matrix_Clone_, gdiplus._gdiplus_CLASS_Matrix_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmatrix.h
+: 
+- Matrix.Clone
+: 
 req.product: GDI+ 1.0
 ---
 

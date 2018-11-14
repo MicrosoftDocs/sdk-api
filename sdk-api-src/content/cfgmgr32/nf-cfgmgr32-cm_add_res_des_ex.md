@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Add_Res_Des_Ex
+: 
 ---
 
 # CM_Add_Res_Des_Ex function

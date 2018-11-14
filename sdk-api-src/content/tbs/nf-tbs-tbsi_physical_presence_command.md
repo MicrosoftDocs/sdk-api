@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Tbsi_Physical_Presence_Command
+: 
 ---
 
 # Tbsi_Physical_Presence_Command function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IBasicVideo.put_DestinationTop
+: 
 ---
 
 # IBasicVideo::put_DestinationTop

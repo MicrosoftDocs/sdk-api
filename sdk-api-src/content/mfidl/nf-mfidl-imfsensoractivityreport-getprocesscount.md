@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getprocesscount.htm
 tech.root: medfound
 ms.assetid: 9C3DAB31-9D28-42CB-AFB8-6288658FF6B0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetProcessCount, GetProcessCount method [Media Foundation], GetProcessCount method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessCount method, IMFSensorActivityReport.GetProcessCount, IMFSensorActivityReport::GetProcessCount, mf.imfsensoractivityreport_getprocesscount, mfidl/IMFSensorActivityReport::GetProcessCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFSensorActivityReport.GetProcessCount
+: 
 ---
 
 # IMFSensorActivityReport::GetProcessCount

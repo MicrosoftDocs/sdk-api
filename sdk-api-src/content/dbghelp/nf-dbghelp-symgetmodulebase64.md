@@ -7,7 +7,7 @@ old-location: base\symgetmodulebase64.htm
 tech.root: debug
 ms.assetid: 964d0fdb-d982-4509-8c49-0ad0a3491226
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, SymGetModuleBase64 function, _win32_symgetmodulebase64, base.symgetmodulebase64, dbghelp/SymGetModuleBase, dbghelp/SymGetModuleBase64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymGetModuleBase64
+: 
 ---
 
 # SymGetModuleBase64 function

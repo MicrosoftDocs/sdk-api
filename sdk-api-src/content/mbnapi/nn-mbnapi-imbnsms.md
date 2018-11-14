@@ -9,8 +9,8 @@ ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

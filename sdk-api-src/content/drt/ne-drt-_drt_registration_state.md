@@ -9,8 +9,8 @@ ms.assetid: 4c383efb-fedb-4f6f-9ae7-48fdf42887ac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables], DRT_REGISTRATION_STATE_UNRESOLVEABLE, _DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE, p2p.drt_registration_state"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: drt.h
 req.include-header: 

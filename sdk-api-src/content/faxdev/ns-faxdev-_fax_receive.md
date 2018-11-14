@@ -7,10 +7,10 @@ old-location: fax\_mfax_fax_receive_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7pf6.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: "*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], PFAX_RECEIVE, PFAX_RECEIVE structure pointer [Fax Service], _FAX_RECEIVE, _mfax_fax_receive_str, fax._mfax_fax_receive_str, faxdev/FAX_RECEIVE, faxdev/PFAX_RECEIVE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: faxdev.h
 req.include-header: 

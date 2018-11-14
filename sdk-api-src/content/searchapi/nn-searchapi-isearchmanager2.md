@@ -9,8 +9,8 @@ ms.assetid: EE08AC43-D2E9-4B70-BBA5-52E36DD7F9A1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager2 interface [search],described, search.isearchmanager2, searchapi/ISearchManager2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 98f0b0dd-9ff8-4321-a9ea-2deabc9529f2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D10_INCLUDE_LOCAL, D3D10_INCLUDE_SYSTEM, D3D_INCLUDE_FORCE_DWORD, D3D_INCLUDE_LOCAL, D3D_INCLUDE_SYSTEM, D3D_INCLUDE_TYPE, D3D_INCLUDE_TYPE enumeration [Direct3D 11], _D3D_INCLUDE_TYPE, d3dcommon/D3D10_INCLUDE_LOCAL, d3dcommon/D3D10_INCLUDE_SYSTEM, d3dcommon/D3D_INCLUDE_FORCE_DWORD, d3dcommon/D3D_INCLUDE_LOCAL, d3dcommon/D3D_INCLUDE_SYSTEM, d3dcommon/D3D_INCLUDE_TYPE, direct3d11.d3d_include_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 

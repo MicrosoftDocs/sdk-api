@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IDVB_SDT.GetRecordDescriptorByIndex
+: 
 ---
 
 # IDVB_SDT::GetRecordDescriptorByIndex

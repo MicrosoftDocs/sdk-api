@@ -9,8 +9,8 @@ ms.assetid: aed29340-eb64-437d-b7e8-4f0e49c8288a
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: CInstance, CInstance class [Windows Management Instrumentation], CInstance class [Windows Management Instrumentation],described, _hmm_cinstance, instance/CInstance, wmi.cinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: instance.h
 req.include-header: FwCommon.h

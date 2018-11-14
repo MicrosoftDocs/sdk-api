@@ -9,8 +9,8 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\i
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], IUIImageFromBitmap interface [Windows Ribbon],described, scenicintent_IUIImageFromBitmap, uiribbon/IUIImageFromBitmap, windowsribbon.windowsribbon_iuiimagefrombitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

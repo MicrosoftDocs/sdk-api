@@ -7,7 +7,7 @@ old-location: security\getaclinformation.htm
 tech.root: secauthz
 ms.assetid: 23ef6abd-03e9-439e-ba05-629c8d61cd66
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_getaclinformation, security.getaclinformation, securitybaseapi/GetAclInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetAclInformation
+: 
 ---
 
 # GetAclInformation function

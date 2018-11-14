@@ -7,7 +7,7 @@ old-location: mf\imfmediastreamsourcesamplerequest_setsample.htm
 tech.root: medfound
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest interface [Media Foundation],SetSample method, IMFMediaStreamSourceSampleRequest.SetSample, IMFMediaStreamSourceSampleRequest::SetSample, SetSample, SetSample method [Media Foundation], SetSample method [Media Foundation],IMFMediaStreamSourceSampleRequest interface, mf.imfmediastreamsourcesamplerequest_setsample, mfidl/IMFMediaStreamSourceSampleRequest::SetSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFMediaStreamSourceSampleRequest.SetSample
+: 
 ---
 
 # IMFMediaStreamSourceSampleRequest::SetSample

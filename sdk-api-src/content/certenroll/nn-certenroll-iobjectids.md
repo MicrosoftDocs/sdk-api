@@ -9,8 +9,8 @@ ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

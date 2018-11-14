@@ -7,7 +7,7 @@ old-location: mf\mfgetsupportedmimetypes.htm
 tech.root: medfound
 ms.assetid: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFGetSupportedMimeTypes
+: 
 ---
 
 # MFGetSupportedMimeTypes function

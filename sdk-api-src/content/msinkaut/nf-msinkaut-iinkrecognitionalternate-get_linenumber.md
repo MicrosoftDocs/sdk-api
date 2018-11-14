@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognitionAlternate.get_LineNumber
+: 
 ---
 
 # IInkRecognitionAlternate::get_LineNumber

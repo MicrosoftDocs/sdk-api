@@ -7,7 +7,7 @@ old-location: security\cryptverifydetachedmessagesignature.htm
 tech.root: seccrypto
 ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptVerifyDetachedMessageSignature
+: 
 ---
 
 # CryptVerifyDetachedMessageSignature function

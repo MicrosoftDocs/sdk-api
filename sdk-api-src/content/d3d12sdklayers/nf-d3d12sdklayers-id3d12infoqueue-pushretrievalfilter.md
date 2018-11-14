@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: 4270B455-7112-4BCD-B8B9-D60B7FEADD9E
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12InfoQueue interface,PushRetrievalFilter method, ID3D12InfoQueue.PushRetrievalFilter, ID3D12InfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method, PushRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushRetrievalFilter, direct3d12.id3d12infoqueue_pushretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12InfoQueue.PushRetrievalFilter
+: 
 ---
 
 # ID3D12InfoQueue::PushRetrievalFilter

@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo_get_tollprefixlist.htm
 tech.root: tapi
 ms.assetid: 45297e46-b1c8-45b0-bb16-8c5d5666bbd0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_TollPrefixList method, ITLocationInfo.get_TollPrefixList, ITLocationInfo::get_TollPrefixList, _tapi3_itlocationinfo_get_tollprefixlist, get_TollPrefixList, get_TollPrefixList method [TAPI 2.2], get_TollPrefixList method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_tollprefixlist, tapi3if/ITLocationInfo::get_TollPrefixList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITLocationInfo.get_TollPrefixList
+: 
 ---
 
 # ITLocationInfo::get_TollPrefixList

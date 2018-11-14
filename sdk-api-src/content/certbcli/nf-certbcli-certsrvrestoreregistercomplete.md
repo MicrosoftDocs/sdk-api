@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregistercomplete.htm
 tech.root: seccrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvRestoreRegisterComplete
+: 
 ---
 
 # CertSrvRestoreRegisterComplete function

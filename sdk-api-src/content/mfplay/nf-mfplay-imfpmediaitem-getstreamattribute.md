@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getstreamattribute.htm
 tech.root: medfound
 ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfplay.h
+: 
+- IMFPMediaItem.GetStreamAttribute
+: 
 ---
 
 # IMFPMediaItem::GetStreamAttribute

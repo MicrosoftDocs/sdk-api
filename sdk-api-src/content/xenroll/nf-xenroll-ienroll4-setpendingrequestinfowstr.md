@@ -7,7 +7,7 @@ old-location: security\ienroll4_setpendingrequestinfowstr.htm
 tech.root: seccrypto
 ms.assetid: 02b49033-3354-4e30-a816-a9c078c6164a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll4 interface [Security],setPendingRequestInfoWStr method, IEnroll4.setPendingRequestInfoWStr, IEnroll4::setPendingRequestInfoWStr, security.ienroll4_setpendingrequestinfowstr, setPendingRequestInfoWStr, setPendingRequestInfoWStr method [Security], setPendingRequestInfoWStr method [Security],IEnroll4 interface, xenroll/IEnroll4::setPendingRequestInfoWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll4.setPendingRequestInfoWStr
+: 
 ---
 
 # IEnroll4::setPendingRequestInfoWStr

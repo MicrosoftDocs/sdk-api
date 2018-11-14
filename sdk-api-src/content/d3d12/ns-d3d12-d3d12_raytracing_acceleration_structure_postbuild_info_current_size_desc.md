@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_raytracing_acceleration_structure_postbuild_info_
 tech.root: direct3d12
 ms.assetid: 42821B96-8FC6-483F-8954-0D7DD870A8AA
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC structure, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC structure pointer, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC, d3d12/PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC, direct3d12.d3d12_raytracing_acceleration_structure_postbuild_info_current_size_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Describes the space currently used by an acceleration structure..
 
 
@@ -62,7 +60,7 @@ Describes the space currently used by an acceleration structure..
 
 ### -field CurrentSizeInBytes
 
-Space currently used by an acceleration structure.  If the acceleration structure hasn’t had a compaction operation performed on it, this size is the same one reported by <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>, and if it has been compacted this size is the same reported for post-build info with <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_type">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_COMPACTED_SIZE</a>.
+Space currently used by an acceleration structure.  If the acceleration structure hasn’t had a compaction operation performed on it, this size is the same one reported by <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>, and if it has been compacted this size is the same reported for post-build info with <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_type">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_COMPACTED_SIZE</a>.
 
 
 ## -remarks

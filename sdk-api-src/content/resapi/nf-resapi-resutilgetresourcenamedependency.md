@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcenamedependency.htm
 tech.root: mscs
 ms.assetid: 071f11bb-fcb3-4c76-ad81-b19ff7bdcb4a
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY function [Failover Cluster], ResUtilGetResourceNameDependency, ResUtilGetResourceNameDependency function [Failover Cluster], _wolf_resutilgetresourcenamedependency, mscs.resutilgetresourcenamedependency, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, resapi/ResUtilGetResourceNameDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilGetResourceNameDependency
+: 
 ---
 
 # ResUtilGetResourceNameDependency function

@@ -7,7 +7,7 @@ old-location: security\auditqueryperuserpolicy_func.htm
 tech.root: secauthz
 ms.assetid: 7d4790de-ebd6-4840-b532-7158b8d80db2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditQueryPerUserPolicy
+: 
 ---
 
 # AuditQueryPerUserPolicy function

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_.h
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_77imageimage_rectamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const Rect &), Graphics.DrawImage(Image*,const Rect&), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const Rect &), _gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawImage
+: 
 req.product: GDI+ 1.0
 ---
 

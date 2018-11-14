@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509AttributeOSVersion.InitializeDecode
+: 
 ---
 
 # IX509AttributeOSVersion::InitializeDecode

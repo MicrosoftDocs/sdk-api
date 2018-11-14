@@ -7,7 +7,7 @@ old-location: direct2d\floatmax.htm
 tech.root: direct2d
 ms.assetid: 93f0e030-b913-4b3b-bee8-c52eb19c63ab
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: FloatMax, FloatMax function [Direct2D], d2d1helper/FloatMax, direct2d.floatmax
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FloatMax
+: 
 ---
 
 # FloatMax function

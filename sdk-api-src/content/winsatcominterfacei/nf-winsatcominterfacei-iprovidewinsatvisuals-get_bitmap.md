@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- winsatcominterfacei.h
+: 
+- IProvideWinSATVisuals.get_Bitmap
+: 
 ---
 
 # IProvideWinSATVisuals::get_Bitmap

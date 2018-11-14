@@ -9,8 +9,8 @@ ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

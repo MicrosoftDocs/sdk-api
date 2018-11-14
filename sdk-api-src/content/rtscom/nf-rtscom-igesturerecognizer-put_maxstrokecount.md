@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rtscom.h
+: 
+- IGestureRecognizer.put_MaxStrokeCount
+: 
 ---
 
 # IGestureRecognizer::put_MaxStrokeCount

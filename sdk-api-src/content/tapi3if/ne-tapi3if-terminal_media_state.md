@@ -7,10 +7,10 @@ old-location: tapi3\terminal_media_state.htm
 tech.root: tapi
 ms.assetid: 9cc07684-9804-41ac-bc25-f37f6ae00280
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TERMINAL_MEDIA_STATE, TERMINAL_MEDIA_STATE enumeration [TAPI 2.2], TMS_ACTIVE, TMS_IDLE, TMS_LASTITEM, TMS_PAUSED, _tapi3_terminal_media_state, tapi3.terminal_media_state, tapi3if/TERMINAL_MEDIA_STATE, tapi3if/TMS_ACTIVE, tapi3if/TMS_IDLE, tapi3if/TMS_LASTITEM, tapi3if/TMS_PAUSED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

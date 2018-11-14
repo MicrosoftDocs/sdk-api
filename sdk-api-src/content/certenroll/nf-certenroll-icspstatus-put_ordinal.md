@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspStatus.put_Ordinal
+: 
 ---
 
 # ICspStatus::put_Ordinal

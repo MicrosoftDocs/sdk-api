@@ -7,7 +7,7 @@ old-location: base\enumdirtree.htm
 tech.root: debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later
+- apiref
+: 
+- 
+: 
+- EnumDirTreeW
+: 
 ---
 
 # EnumDirTreeW function

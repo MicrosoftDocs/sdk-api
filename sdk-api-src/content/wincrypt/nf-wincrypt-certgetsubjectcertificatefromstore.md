@@ -7,7 +7,7 @@ old-location: security\certgetsubjectcertificatefromstore.htm
 tech.root: seccrypto
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertGetSubjectCertificateFromStore
+: 
 ---
 
 # CertGetSubjectCertificateFromStore function

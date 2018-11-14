@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_pause.htm
 tech.root: medfound
 ms.assetid: 113b3dc7-918e-427e-aa70-cf474b951c6d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 113b3dc7-918e-427e-aa70-cf474b951c6d, IMFMediaSource interface [Media Foundation],Pause method, IMFMediaSource.Pause, IMFMediaSource::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_pause, mfidl/IMFMediaSource::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFMediaSource.Pause
+: 
 ---
 
 # IMFMediaSource::Pause

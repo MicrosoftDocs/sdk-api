@@ -9,8 +9,8 @@ ms.assetid: 750e7d98-196f-4bf2-864b-50b3bef6f6ad
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], IRDPSRAPIVirtualChannelManager interface [RDP],described, rdp.irdpsrapivirtualchannelmanager, rdpencomapi/IRDPSRAPIVirtualChannelManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

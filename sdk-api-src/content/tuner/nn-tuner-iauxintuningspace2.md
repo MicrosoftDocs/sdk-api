@@ -9,8 +9,8 @@ ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies],described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

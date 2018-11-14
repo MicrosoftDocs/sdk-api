@@ -7,7 +7,7 @@ old-location: security\ienroll4_getcertcontextfrompkcs7.htm
 tech.root: seccrypto
 ms.assetid: 3781729d-8b08-41b5-8ff4-1de19fc4ee2e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll interface [Security],getCertContextFromPKCS7 method, IEnroll.getCertContextFromPKCS7, IEnroll2 interface [Security],getCertContextFromPKCS7 method, IEnroll2::getCertContextFromPKCS7, IEnroll::getCertContextFromPKCS7, getCertContextFromPKCS7, getCertContextFromPKCS7 method [Security], getCertContextFromPKCS7 method [Security],IEnroll interface, getCertContextFromPKCS7 method [Security],IEnroll2 interface, security.ienroll4_getcertcontextfrompkcs7, xenroll/IEnroll2::getCertContextFromPKCS7, xenroll/IEnroll::getCertContextFromPKCS7
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.getCertContextFromPKCS7
+: 
 ---
 
 # IEnroll::getCertContextFromPKCS7

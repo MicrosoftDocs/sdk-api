@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmConnectionUnsubscribe0
+: 
 ---
 
 # FwpmConnectionUnsubscribe0 function

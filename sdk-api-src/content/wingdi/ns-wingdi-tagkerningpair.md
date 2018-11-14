@@ -9,8 +9,8 @@ ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, tagKERNINGPAIR, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -7,7 +7,7 @@ old-location: mf\itocentry_setsubentries.htm
 tech.root: medfound
 ms.assetid: 4b3f4038-483c-4f00-a819-ace83d99da58
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetSubEntries method, ITocEntry.SetSubEntries, ITocEntry::SetSubEntries, SetSubEntries, SetSubEntries method [Media Foundation], SetSubEntries method [Media Foundation],ITocEntry interface, codecapi.itocentry_setsubentries, mf.itocentry_setsubentries, wmcodecdsp/ITocEntry::SetSubEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcodecdsp.h
+: 
+- ITocEntry.SetSubEntries
+: 
 ---
 
 # ITocEntry::SetSubEntries

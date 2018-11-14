@@ -9,8 +9,8 @@ ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

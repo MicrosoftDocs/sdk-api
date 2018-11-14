@@ -7,7 +7,7 @@ old-location: security\convertstringsidtosid.htm
 tech.root: secauthz
 ms.assetid: bf7262e3-ad2c-44c4-99cb-dcf29ad36efd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ConvertStringSidToSid, ConvertStringSidToSid function [Security], ConvertStringSidToSidA, ConvertStringSidToSidW, _win32_convertstringsidtosid, sddl/ConvertStringSidToSid, sddl/ConvertStringSidToSidA, sddl/ConvertStringSidToSidW, security.convertstringsidtosid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ConvertStringSidToSidW
+: 
 ---
 
 # ConvertStringSidToSidW function

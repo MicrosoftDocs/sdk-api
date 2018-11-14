@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Effect_GetAuxData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdata.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Effect class [GDI+],GetAuxData method, Effect.GetAuxData, Effect::GetAuxData, GetAuxData, GetAuxData method [GDI+], GetAuxData method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetAuxData_, gdiplus._gdiplus_CLASS_Effect_GetAuxData_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- Effect.GetAuxData
+: 
 req.product: GDI+ 1.1
 ---
 

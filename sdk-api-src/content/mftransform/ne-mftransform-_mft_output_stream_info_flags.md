@@ -7,10 +7,10 @@ old-location: mf\_mft_output_stream_info_flags.htm
 tech.root: medfound
 ms.assetid: f67e1e81-baf5-414a-ac23-45d4d6317255
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES, MFT_OUTPUT_STREAM_DISCARDABLE, MFT_OUTPUT_STREAM_FIXED_SAMPLE_SIZE, MFT_OUTPUT_STREAM_LAZY_READ, MFT_OUTPUT_STREAM_OPTIONAL, MFT_OUTPUT_STREAM_PROVIDES_SAMPLES, MFT_OUTPUT_STREAM_REMOVABLE, MFT_OUTPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, MFT_OUTPUT_STREAM_WHOLE_SAMPLES, _MFT_OUTPUT_STREAM_INFO_FLAGS, _MFT_OUTPUT_STREAM_INFO_FLAGS enumeration [Media Foundation], f67e1e81-baf5-414a-ac23-45d4d6317255, mf._mft_output_stream_info_flags, mftransform/MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES, mftransform/MFT_OUTPUT_STREAM_DISCARDABLE, mftransform/MFT_OUTPUT_STREAM_FIXED_SAMPLE_SIZE, mftransform/MFT_OUTPUT_STREAM_LAZY_READ, mftransform/MFT_OUTPUT_STREAM_OPTIONAL, mftransform/MFT_OUTPUT_STREAM_PROVIDES_SAMPLES, mftransform/MFT_OUTPUT_STREAM_REMOVABLE, mftransform/MFT_OUTPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, mftransform/MFT_OUTPUT_STREAM_WHOLE_SAMPLES, mftransform/_MFT_OUTPUT_STREAM_INFO_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mftransform.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\iazapplication_policyreadersname.htm
 tech.root: secauthz
 ms.assetid: e6ed4504-0df1-438b-87c7-1861264d02bd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],PolicyReadersName property, IAzApplication interface [Security],PolicyReadersName property, IAzApplication.PolicyReadersName, IAzApplication.get_PolicyReadersName, IAzApplication::PolicyReadersName, IAzApplication::get_PolicyReadersName, PolicyReadersName property [Security], PolicyReadersName property [Security],AzApplication object, PolicyReadersName property [Security],IAzApplication interface, azroles/IAzApplication::PolicyReadersName, azroles/IAzApplication::get_PolicyReadersName, get_PolicyReadersName, security.iazapplication_policyreadersname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.get_PolicyReadersName
+: 
 ---
 
 # IAzApplication::get_PolicyReadersName

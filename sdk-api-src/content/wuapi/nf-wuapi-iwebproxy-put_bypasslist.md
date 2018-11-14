@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IWebProxy.put_BypassList
+: 
 ---
 
 # IWebProxy::put_BypassList

@@ -9,8 +9,8 @@ ms.assetid: 8fd674a6-375e-450c-bd6b-4f252977dd8e
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: InterfaceStatus, InterfaceStatus callback function [RAS], PINTERFACE_STATUS, PINTERFACE_STATUS callback, _mpr_interfacestatus, routprot/InterfaceStatus, rras.interfacestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

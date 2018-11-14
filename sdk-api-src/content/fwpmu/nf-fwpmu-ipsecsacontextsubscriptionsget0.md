@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IPsecSaContextSubscriptionsGet0
+: 
 ---
 
 # IPsecSaContextSubscriptionsGet0 function

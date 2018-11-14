@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetFormatFlags_flags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setformatflags.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: SetFormatFlags, SetFormatFlags method [GDI+], SetFormatFlags method [GDI+],StringFormat class, StringFormat class [GDI+],SetFormatFlags method, StringFormat.SetFormatFlags, StringFormat::SetFormatFlags, _gdiplus_CLASS_StringFormat_SetFormatFlags_flags_, gdiplus._gdiplus_CLASS_StringFormat_SetFormatFlags_flags_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.SetFormatFlags
+: 
 req.product: GDI+ 1.0
 ---
 

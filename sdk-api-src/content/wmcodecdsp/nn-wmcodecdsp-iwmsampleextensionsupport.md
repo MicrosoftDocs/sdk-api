@@ -7,10 +7,10 @@ old-location: mf\iwmsampleextensionsupportinterface.htm
 tech.root: medfound
 ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

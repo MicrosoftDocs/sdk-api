@@ -9,8 +9,8 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\iwialog.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWiaLog, IWiaLog interface [WIA], IWiaLog interface [WIA],described, _wia_IWiaLog, wia._wia_IWiaLog, wia_xp/IWiaLog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

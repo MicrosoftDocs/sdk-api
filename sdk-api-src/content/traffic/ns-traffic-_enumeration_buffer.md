@@ -9,8 +9,8 @@ ms.assetid: fd80b8c9-db0c-4e2c-b259-b21b06fc5d56
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PENUMERATION_BUFFER, ENUMERATION_BUFFER, ENUMERATION_BUFFER structure [QOS], PENUMERATION_BUFFER, PENUMERATION_BUFFER structure pointer [QOS], _ENUMERATION_BUFFER, _gqos_enumeration_buffer, qos.enumeration_buffer, traffic/ENUMERATION_BUFFER, traffic/PENUMERATION_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 

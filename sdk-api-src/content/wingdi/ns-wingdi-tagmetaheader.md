@@ -9,8 +9,8 @@ ms.assetid: 3ad5be24-9558-442e-8c77-dd6a7d33c208
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPMETAHEADER, *PMETAHEADER, METAHEADER, METAHEADER structure [Windows GDI], PMETAHEADER, PMETAHEADER structure pointer [Windows GDI], _win32_METAHEADER_str, gdi.metaheader, tagMETAHEADER, wingdi/METAHEADER, wingdi/PMETAHEADER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

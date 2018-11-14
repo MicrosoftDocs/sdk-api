@@ -7,10 +7,10 @@ old-location: security\kerb_cleanup_machine_pkinit_creds_request.htm
 tech.root: secauthn
 ms.assetid: FBFCFD7C-BB92-4EBC-9C89-51B7B5D057F1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure [Security], PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure pointer [Security], _KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, ntsecapi/KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, ntsecapi/PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, security.kerb_cleanup_machine_pkinit_creds_request"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

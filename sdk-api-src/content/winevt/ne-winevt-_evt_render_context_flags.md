@@ -9,8 +9,8 @@ ms.assetid: 1c933266-28d9-4ef2-b156-eedf4ccb189b
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: EVT_RENDER_CONTEXT_FLAGS, EVT_RENDER_CONTEXT_FLAGS enumeration [EventLog], EvtRenderContextSystem, EvtRenderContextUser, EvtRenderContextValues, _EVT_RENDER_CONTEXT_FLAGS, wes.evt_render_context_flags, winevt/EVT_RENDER_CONTEXT_FLAGS, winevt/EvtRenderContextSystem, winevt/EvtRenderContextUser, winevt/EvtRenderContextValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

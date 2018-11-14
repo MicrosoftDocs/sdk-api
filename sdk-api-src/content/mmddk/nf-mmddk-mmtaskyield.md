@@ -7,7 +7,7 @@ old-location: multimedia\mmtaskyield.htm
 tech.root: Multimedia
 ms.assetid: dd52af03-94fa-4227-b4fc-25089ef54fd7
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: mmTaskYield, mmTaskYield function [Windows Multimedia], mmddk/mmTaskYield, multimedia.mmtaskyield
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mmTaskYield
+: 
 ---
 
 # mmTaskYield function

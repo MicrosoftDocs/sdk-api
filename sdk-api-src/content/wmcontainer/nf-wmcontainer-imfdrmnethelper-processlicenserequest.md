@@ -7,7 +7,7 @@ old-location: mf\imfdrmnethelper_processlicenserequest.htm
 tech.root: medfound
 ms.assetid: e60f9831-f59d-46ff-b685-b26d6484a70d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFDRMNetHelper interface [Media Foundation],ProcessLicenseRequest method, IMFDRMNetHelper.ProcessLicenseRequest, IMFDRMNetHelper::ProcessLicenseRequest, ProcessLicenseRequest, ProcessLicenseRequest method [Media Foundation], ProcessLicenseRequest method [Media Foundation],IMFDRMNetHelper interface, mf.imfdrmnethelper_processlicenserequest, wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcontainer.h
+: 
+- IMFDRMNetHelper.ProcessLicenseRequest
+: 
 ---
 
 # IMFDRMNetHelper::ProcessLicenseRequest

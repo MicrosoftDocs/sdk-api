@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm
 tech.root: direct2d
 ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: BeginFigure, BeginFigure method [Direct2D], BeginFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],BeginFigure method, ID2D1SimplifiedGeometrySink.BeginFigure, ID2D1SimplifiedGeometrySink::BeginFigure, d2d1/ID2D1SimplifiedGeometrySink::BeginFigure, direct2d.ID2D1SimplifiedGeometrySink_BeginFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1SimplifiedGeometrySink.BeginFigure
+: 
 ---
 
 # ID2D1SimplifiedGeometrySink::BeginFigure

@@ -9,8 +9,8 @@ ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 

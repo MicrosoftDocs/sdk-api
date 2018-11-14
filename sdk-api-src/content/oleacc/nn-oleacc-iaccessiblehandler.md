@@ -9,8 +9,8 @@ ms.assetid: 1b6b2c02-f3b5-4a8a-9388-b3833cd0cd44
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAccessibleHandler, IAccessibleHandler interface [Windows Accessibility], IAccessibleHandler interface [Windows Accessibility],described, msaa.iaccessiblehandler, oleacc/IAccessibleHandler, winauto.iaccessiblehandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 

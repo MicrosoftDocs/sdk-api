@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\imailuser\imailuser.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser interface [Windows Address Book],described, _wab_IMailUser, wab._wab_IMailUser, wabdefs/IMailUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wabdefs.h
 req.include-header: Wabtmp.h

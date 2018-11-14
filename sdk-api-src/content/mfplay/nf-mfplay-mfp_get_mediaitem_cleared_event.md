@@ -7,7 +7,7 @@ old-location: mf\mfp_get_mediaitem_cleared_event.htm
 tech.root: medfound
 ms.assetid: 1e3c0882-2a8a-4fe9-9f05-5a343acea456
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFP_GET_MEDIAITEM_CLEARED_EVENT, MFP_GET_MEDIAITEM_CLEARED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_cleared_event, mfplay/MFP_GET_MEDIAITEM_CLEARED_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mfplay.h
+: 
+- MFP_GET_MEDIAITEM_CLEARED_EVENT
+: 
 ---
 
 # MFP_GET_MEDIAITEM_CLEARED_EVENT macro

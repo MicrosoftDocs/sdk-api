@@ -9,8 +9,8 @@ ms.assetid: 1926db26-4a29-4ddb-85c6-dd2074eba0b8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_FLIPDATA, DD_FLIPDATA, DD_FLIPDATA structure [Display Devices], _DD_FLIPDATA, ddrawint/DD_FLIPDATA, ddstrcts_cfb79a99-a030-4516-8b9f-b6c01b69187d.xml, display.dd_flipdata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

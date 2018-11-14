@@ -9,8 +9,8 @@ ms.assetid: 9990496a-4410-4a40-8466-d32a8025c2e3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_HTTP_RESPONSE_MAPPING_OPTIONS, WS_HTTP_RESPONSE_MAPPING_OPTIONS enumeration [Web Services for Windows], WS_HTTP_RESPONSE_MAPPING_STATUS_CODE, WS_HTTP_RESPONSE_MAPPING_STATUS_TEXT, __unnamed_enum_2, webservices/WS_HTTP_RESPONSE_MAPPING_OPTIONS, webservices/WS_HTTP_RESPONSE_MAPPING_STATUS_CODE, webservices/WS_HTTP_RESPONSE_MAPPING_STATUS_TEXT, wsw.ws_http_response_mapping_options
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

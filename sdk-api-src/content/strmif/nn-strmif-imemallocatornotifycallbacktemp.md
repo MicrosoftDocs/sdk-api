@@ -9,8 +9,8 @@ ms.assetid: 63097b58-8197-4354-8b92-25baaf265df2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp, IMemAllocatorNotifyCallbackTemp interface [DirectShow], IMemAllocatorNotifyCallbackTemp interface [DirectShow],described, IMemAllocatorNotifyCallbackTempInterface, dshow.imemallocatornotifycallbacktemp, strmif/IMemAllocatorNotifyCallbackTemp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

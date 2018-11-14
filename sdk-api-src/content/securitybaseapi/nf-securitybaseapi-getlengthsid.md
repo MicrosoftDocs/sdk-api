@@ -7,7 +7,7 @@ old-location: security\getlengthsid.htm
 tech.root: secauthz
 ms.assetid: 0acaa804-494c-4d69-b1f7-8d167b494761
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetLengthSid, GetLengthSid function [Security], _win32_getlengthsid, security.getlengthsid, securitybaseapi/GetLengthSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetLengthSid
+: 
 ---
 
 # GetLengthSid function

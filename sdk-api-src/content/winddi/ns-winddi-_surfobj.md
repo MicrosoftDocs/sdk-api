@@ -9,8 +9,8 @@ ms.assetid: cee7cb50-1e8a-422b-aebe-7030ae96fb34
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SURFOBJ, SURFOBJ structure [Display Devices], _SURFOBJ, display.surfobj, grstrcts_ef22095d-660f-4276-9a10-1ce7451327fc.xml, winddi/SURFOBJ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

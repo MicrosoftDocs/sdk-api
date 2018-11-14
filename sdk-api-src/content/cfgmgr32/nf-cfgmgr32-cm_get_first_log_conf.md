@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_First_Log_Conf
+: 
 ---
 
 # CM_Get_First_Log_Conf function

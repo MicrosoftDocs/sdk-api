@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- rtmv2.h
+: 
+- RTM_IPV4_GET_ADDR_AND_MASK
+: 
 ---
 
 # RTM_IPV4_GET_ADDR_AND_MASK macro

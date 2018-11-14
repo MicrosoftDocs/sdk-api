@@ -9,8 +9,8 @@ ms.assetid: 16a0a595-ed4f-4871-a1a3-268c6bed0305
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: RPC_BINDING_VECTOR, RPC_BINDING_VECTOR structure [RPC], _RPC_BINDING_VECTOR, _rpc_rpc_binding_vector, rpc.rpc_binding_vector, rpcdce/RPC_BINDING_VECTOR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h

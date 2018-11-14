@@ -9,8 +9,8 @@ ms.assetid: b52bf815-d962-4f72-8876-a80769bc3d3d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDRT_EVENT_DATA, DRT_EVENT_DATA, DRT_EVENT_DATA structure [Peer Networking], PDRT_EVENT_DATA, PDRT_EVENT_DATA structure pointer [Peer Networking], drt/DRT_EVENT_DATA, drt/PDRT_EVENT_DATA, drt_event_data_tag, p2p.drt_event_data"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

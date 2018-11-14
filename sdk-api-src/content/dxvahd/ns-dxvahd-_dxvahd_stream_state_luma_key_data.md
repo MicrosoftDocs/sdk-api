@@ -7,10 +7,10 @@ old-location: mf\dxvahd_stream_state_luma_key_data.htm
 tech.root: medfound
 ms.assetid: d94b04d9-9d94-4392-a0bf-a33210aeef1f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DXVAHD_STREAM_STATE_LUMA_KEY_DATA, DXVAHD_STREAM_STATE_LUMA_KEY_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_LUMA_KEY_DATA, dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA, mf.dxvahd_stream_state_luma_key_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

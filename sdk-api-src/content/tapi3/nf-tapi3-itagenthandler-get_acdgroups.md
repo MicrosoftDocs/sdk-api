@@ -7,7 +7,7 @@ old-location: tapi3\itagenthandler_get_acdgroups.htm
 tech.root: tapi
 ms.assetid: 72dcc4c8-fac6-4635-995e-18a5693da99b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_ACDGroups method, ITAgentHandler.get_ACDGroups, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITAgentHandler.get_ACDGroups
+: 
 ---
 
 # ITAgentHandler::get_ACDGroups

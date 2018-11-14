@@ -7,7 +7,7 @@ old-location: base\copycontext.htm
 tech.root: debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CopyContext
+: 
 ---
 
 # CopyContext function

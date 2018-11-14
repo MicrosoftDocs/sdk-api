@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
 tech.root: tapi
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetDynamicTerminalClasses method, CMSPAddress.GetDynamicTerminalClasses, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspaddr.h
+: 
+- CMSPAddress.GetDynamicTerminalClasses
+: 
 ---
 
 # CMSPAddress::GetDynamicTerminalClasses

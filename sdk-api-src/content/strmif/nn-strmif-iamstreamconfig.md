@@ -9,8 +9,8 @@ ms.assetid: c171763e-9108-49a0-a4b7-855c6db0a71d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], IAMStreamConfig interface [DirectShow],described, IAMStreamConfigInterface, dshow.iamstreamconfig, strmif/IAMStreamConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

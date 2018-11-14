@@ -7,7 +7,7 @@ old-location: base\interlockedxor.htm
 tech.root: sync
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winnt/InterlockedXor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InterlockedXor
+: 
 ---
 
 # InterlockedXor function

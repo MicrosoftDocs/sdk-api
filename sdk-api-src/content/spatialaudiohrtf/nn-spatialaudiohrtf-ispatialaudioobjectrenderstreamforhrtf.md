@@ -9,8 +9,8 @@ ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForHrtf, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio], ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],described, coreaudio.ispatialaudiorenderstreamforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: spatialaudiohrtf.h
 req.include-header: 

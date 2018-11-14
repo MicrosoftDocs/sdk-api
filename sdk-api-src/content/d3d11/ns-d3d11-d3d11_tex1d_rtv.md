@@ -9,8 +9,8 @@ ms.assetid: 48b32ca3-39c4-437a-a4e5-468c9b52b425
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 0516fc42-e56a-46ea-3b76-1365112b0601, D3D11_TEX1D_RTV, D3D11_TEX1D_RTV structure [Direct3D 11], d3d11/D3D11_TEX1D_RTV, direct3d11.d3d11_tex1d_rtv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

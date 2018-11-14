@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetStrokeCaps_startCap_endCap
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setstrokecaps.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: CustomLineCap class [GDI+],SetStrokeCaps method, CustomLineCap.SetStrokeCaps, CustomLineCap::SetStrokeCaps, SetStrokeCaps, SetStrokeCaps method [GDI+], SetStrokeCaps method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetStrokeCaps_startCap_endCap_, gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeCaps_startCap_endCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- CustomLineCap.SetStrokeCaps
+: 
 req.product: GDI+ 1.0
 ---
 

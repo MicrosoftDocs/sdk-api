@@ -7,7 +7,7 @@ old-location: base\regqueryreflectionkey.htm
 tech.root: sysinfo
 ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegQueryReflectionKey
+: 
 ---
 
 # RegQueryReflectionKey function

@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorowner.htm
 tech.root: secauthz
 ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSecurityDescriptorOwner, GetSecurityDescriptorOwner function [Security], _win32_getsecuritydescriptorowner, security.getsecuritydescriptorowner, securitybaseapi/GetSecurityDescriptorOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSecurityDescriptorOwner
+: 
 ---
 
 # GetSecurityDescriptorOwner function

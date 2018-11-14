@@ -9,8 +9,8 @@ ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo, tagAnalogVideoInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

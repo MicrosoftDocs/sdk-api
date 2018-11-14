@@ -7,7 +7,7 @@ old-location: security\npfmxgetpermcaps.htm
 tech.root: secauthn
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NPFMXGetPermCaps
+: 
 ---
 
 # NPFMXGetPermCaps function

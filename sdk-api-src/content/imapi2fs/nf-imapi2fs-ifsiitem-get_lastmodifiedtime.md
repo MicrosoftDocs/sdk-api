@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2fs.h
+: 
+- IFsiItem.get_LastModifiedTime
+: 
 ---
 
 # IFsiItem::get_LastModifiedTime

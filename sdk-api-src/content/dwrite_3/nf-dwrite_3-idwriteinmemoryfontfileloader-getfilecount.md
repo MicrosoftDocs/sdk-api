@@ -7,7 +7,7 @@ old-location: directwrite\idwriteinmemoryfontfileloader_getfilecount.htm
 tech.root: DirectWrite
 ms.assetid: 02385843-FDE6-408A-BD48-BBDC7DE4CA67
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetFileCount, GetFileCount method [Direct Write], GetFileCount method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],GetFileCount method, IDWriteInMemoryFontFileLoader.GetFileCount, IDWriteInMemoryFontFileLoader::GetFileCount, directwrite.idwriteinmemoryfontfileloader_getfilecount, dwrite_3/IDWriteInMemoryFontFileLoader::GetFileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteInMemoryFontFileLoader.GetFileCount
+: 
 ---
 
 # IDWriteInMemoryFontFileLoader::GetFileCount

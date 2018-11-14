@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiresource_getsharedhandle.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getsharedhandle.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSharedHandle, GetSharedHandle method [DXGI], GetSharedHandle method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetSharedHandle method, IDXGIResource.GetSharedHandle, IDXGIResource::GetSharedHandle, direct3ddxgi.idxgiresource_getsharedhandle, dxgi/IDXGIResource::GetSharedHandle, fea59fdb-2526-c2b6-2bd7-58a9fe56c221
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi.h
+: 
+- IDXGIResource.GetSharedHandle
+: 
 ---
 
 # IDXGIResource::GetSharedHandle

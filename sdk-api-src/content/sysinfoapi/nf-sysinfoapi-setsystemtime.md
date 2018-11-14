@@ -7,7 +7,7 @@ old-location: base\setsystemtime.htm
 tech.root: sysinfo
 ms.assetid: 0768794d-de61-4d5c-96ad-4c4711c72584
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: SetSystemTime, SetSystemTime function, _win32_setsystemtime, base.setsystemtime, sysinfoapi/SetSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetSystemTime
+: 
 ---
 
 # SetSystemTime function

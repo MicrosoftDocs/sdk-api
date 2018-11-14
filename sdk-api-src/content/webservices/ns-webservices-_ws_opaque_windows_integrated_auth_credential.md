@@ -9,8 +9,8 @@ ms.assetid: 9dc8bde7-b70d-4b1f-9b3f-41af9ea7f215
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], _WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_opaque_windows_integrated_auth_credential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

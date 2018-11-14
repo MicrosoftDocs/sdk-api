@@ -9,8 +9,8 @@ ms.assetid: 7ce6cd61-16d1-414e-b9b3-4929a65c0cc6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], ICredentialProvider interface [Windows Shell],described, credentialprovider/ICredentialProvider, shell.ICredentialProvider, shell_ICredentialProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

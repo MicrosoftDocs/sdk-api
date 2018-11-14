@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mergemod.h
+: 
+- IMsmMerge.OpenDatabase
+: 
 ---
 
 # IMsmMerge::OpenDatabase

@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputstreaminfo.htm
 tech.root: medfound
 ms.assetid: d57ffac7-1a92-4c6b-bd59-0acd7239c0a6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mftransform.h
+: 
+- IMFTransform.GetInputStreamInfo
+: 
 ---
 
 # IMFTransform::GetInputStreamInfo

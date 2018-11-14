@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rometadataapi.h
+: 
+- IMetaDataTables2.GetMetaDataStorage
+: 
 ---
 
 # IMetaDataTables2::GetMetaDataStorage

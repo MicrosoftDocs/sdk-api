@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IDiscFormat2RawCD.get_RequestedSectorType
+: 
 ---
 
 # IDiscFormat2RawCD::get_RequestedSectorType

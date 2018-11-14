@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vswriter.h
+: 
+- IVssComponentEx2.GetFailure
+: 
 ---
 
 # IVssComponentEx2::GetFailure

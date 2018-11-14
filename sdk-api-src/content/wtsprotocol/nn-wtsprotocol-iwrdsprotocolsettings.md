@@ -9,8 +9,8 @@ ms.assetid: 3680a001-e162-4930-985f-5c50c2e8a8b9
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], IWRdsProtocolSettings interface [Remote Desktop Services],described, termserv.iwrdsprotocolsettings, wtsprotocol/IWRdsProtocolSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

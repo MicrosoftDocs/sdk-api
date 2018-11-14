@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_1.h
+: 
+- ID3D11BlendState1.GetDesc1
+: 
 ---
 
 # ID3D11BlendState1::GetDesc1

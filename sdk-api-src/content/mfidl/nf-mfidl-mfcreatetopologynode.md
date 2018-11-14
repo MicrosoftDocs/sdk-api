@@ -7,7 +7,7 @@ old-location: mf\mfcreatetopologynode.htm
 tech.root: medfound
 ms.assetid: 67c32232-09cb-4098-b80b-4b93ee121190
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 67c32232-09cb-4098-b80b-4b93ee121190, MFCreateTopologyNode, MFCreateTopologyNode function [Media Foundation], mf.mfcreatetopologynode, mfidl/MFCreateTopologyNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateTopologyNode
+: 
 ---
 
 # MFCreateTopologyNode function

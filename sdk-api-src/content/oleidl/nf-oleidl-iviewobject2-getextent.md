@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oleidl.h
+: 
+- IViewObject2.GetExtent
+: 
 ---
 
 # IViewObject2::GetExtent

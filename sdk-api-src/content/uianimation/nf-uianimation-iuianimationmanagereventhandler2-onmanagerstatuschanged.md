@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationManagerEventHandler2.OnManagerStatusChanged
+: 
 ---
 
 # IUIAnimationManagerEventHandler2::OnManagerStatusChanged

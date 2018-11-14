@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gdimetafilesink_processrecord.htm
 tech.root: direct2d
 ms.assetid: E2133C62-A689-4FE6-8E9D-39E161EEFCE1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1GdiMetafileSink interface [Direct2D],ProcessRecord method, ID2D1GdiMetafileSink.ProcessRecord, ID2D1GdiMetafileSink::ProcessRecord, ProcessRecord, ProcessRecord method [Direct2D], ProcessRecord method [Direct2D],ID2D1GdiMetafileSink interface, d2d1_1/ID2D1GdiMetafileSink::ProcessRecord, direct2d.id2d1gdimetafilesink_processrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1GdiMetafileSink.ProcessRecord
+: 
 ---
 
 # ID2D1GdiMetafileSink::ProcessRecord

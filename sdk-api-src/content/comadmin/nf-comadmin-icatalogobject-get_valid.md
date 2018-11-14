@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICatalogObject.get_Valid
+: 
 ---
 
 # ICatalogObject::get_Valid

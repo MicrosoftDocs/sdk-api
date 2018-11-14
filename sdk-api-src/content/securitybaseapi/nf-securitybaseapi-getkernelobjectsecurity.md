@@ -7,7 +7,7 @@ old-location: security\getkernelobjectsecurity.htm
 tech.root: secauthz
 ms.assetid: 276e9657-5729-48cb-9531-14bfd08b7868
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetKernelObjectSecurity, GetKernelObjectSecurity function [Security], _win32_getkernelobjectsecurity, security.getkernelobjectsecurity, securitybaseapi/GetKernelObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetKernelObjectSecurity
+: 
 ---
 
 # GetKernelObjectSecurity function

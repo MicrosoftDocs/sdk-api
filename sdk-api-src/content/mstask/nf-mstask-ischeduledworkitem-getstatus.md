@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
+- apiref
+: 
+- COM
+: 
+- mstask.h
+: 
+- IScheduledWorkItem.GetStatus
+: 
 ---
 
 # IScheduledWorkItem::GetStatus

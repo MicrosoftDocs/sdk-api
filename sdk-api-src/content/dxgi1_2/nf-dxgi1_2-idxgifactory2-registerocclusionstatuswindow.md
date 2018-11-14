@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_registerocclusionstatuswindow.htm
 tech.root: direct3ddxgi
 ms.assetid: 8E8E3C2A-F973-4DC3-A226-DB3FF32F9CC4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusWindow method, IDXGIFactory2.RegisterOcclusionStatusWindow, IDXGIFactory2::RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow method [DXGI], RegisterOcclusionStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatuswindow, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGIFactory2.RegisterOcclusionStatusWindow
+: 
 ---
 
 # IDXGIFactory2::RegisterOcclusionStatusWindow

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICatalogCollection.get_RemoveEnabled
+: 
 ---
 
 # ICatalogCollection::get_RemoveEnabled

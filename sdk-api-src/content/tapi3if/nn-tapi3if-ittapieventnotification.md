@@ -7,10 +7,10 @@ old-location: tapi3\ittapieventnotification.htm
 tech.root: tapi
 ms.assetid: 06cfe56c-907f-49ed-8a7a-db31383a06f9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITTAPIEventNotification, ITTAPIEventNotification interface [TAPI 2.2], ITTAPIEventNotification interface [TAPI 2.2],described, _tapi3_ittapieventnotification, tapi3.ittapieventnotification, tapi3if/ITTAPIEventNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

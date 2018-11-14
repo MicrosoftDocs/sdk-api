@@ -7,10 +7,10 @@ old-location: security\mandatory_level.htm
 tech.root: secauthz
 ms.assetid: 0D6EC16C-F21E-4BED-AF57-93D282D6CF86
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PMANDATORY_LEVEL, MANDATORY_LEVEL, MANDATORY_LEVEL enumeration [Security], MandatoryLevelCount, MandatoryLevelHigh, MandatoryLevelLow, MandatoryLevelMedium, MandatoryLevelSecureProcess, MandatoryLevelSystem, MandatoryLevelUntrusted, _MANDATORY_LEVEL, security.mandatory_level, winnt/MANDATORY_LEVEL, winnt/MandatoryLevelCount, winnt/MandatoryLevelHigh, winnt/MandatoryLevelLow, winnt/MandatoryLevelMedium, winnt/MandatoryLevelSecureProcess, winnt/MandatoryLevelSystem, winnt/MandatoryLevelUntrusted"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 

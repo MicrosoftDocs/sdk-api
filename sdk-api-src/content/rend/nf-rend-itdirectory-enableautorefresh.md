@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_enableautorefresh.htm
 tech.root: tapi
 ms.assetid: f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EnableAutoRefresh, EnableAutoRefresh method [TAPI 2.2], EnableAutoRefresh method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnableAutoRefresh method, ITDirectory.EnableAutoRefresh, ITDirectory::EnableAutoRefresh, _tapi3_itdirectory_enableautorefresh, rend/ITDirectory::EnableAutoRefresh, tapi3.itdirectory_enableautorefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectory.EnableAutoRefresh
+: 
 ---
 
 # ITDirectory::EnableAutoRefresh

@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_getstaticterminals.htm
 tech.root: tapi
 ms.assetid: 8fffc00d-a783-47bc-a081-fe2116060da0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetStaticTerminals method, CMSPAddress.GetStaticTerminals, CMSPAddress::GetStaticTerminals, GetStaticTerminals, GetStaticTerminals method [TAPI 2.2], GetStaticTerminals method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getstaticterminals, mspaddr/CMSPAddress::GetStaticTerminals, tapi3.cmspaddress_getstaticterminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspaddr.h
+: 
+- CMSPAddress.GetStaticTerminals
+: 
 ---
 
 # CMSPAddress::GetStaticTerminals

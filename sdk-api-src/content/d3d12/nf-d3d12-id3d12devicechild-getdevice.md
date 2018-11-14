@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12devicechild_getdevice.htm
 tech.root: direct3d12
 ms.assetid: FFF72E85-4382-420B-82C9-CE72B223F703
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,ID3D12DeviceChild interface, ID3D12DeviceChild interface,GetDevice method, ID3D12DeviceChild.GetDevice, ID3D12DeviceChild::GetDevice, d3d12/ID3D12DeviceChild::GetDevice, direct3d12.id3d12devicechild_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12DeviceChild.GetDevice
+: 
 ---
 
 # ID3D12DeviceChild::GetDevice

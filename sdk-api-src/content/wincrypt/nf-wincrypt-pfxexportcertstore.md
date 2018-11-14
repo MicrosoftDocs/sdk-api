@@ -7,7 +7,7 @@ old-location: security\pfxexportcertstore.htm
 tech.root: seccrypto
 ms.assetid: 003602c6-d6c9-4695-9c60-ffaf0aa02266
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStore, PFXExportCertStore function [Security], REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY, REPORT_NO_PRIVATE_KEY, _crypto2_pfxexportcertstore, security.pfxexportcertstore, wincrypt/PFXExportCertStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PFXExportCertStore
+: 
 ---
 
 # PFXExportCertStore function

@@ -7,7 +7,7 @@ old-location: security\auditlookupcategoryguidfromcategoryid_func.htm
 tech.root: secauthz
 ms.assetid: 2f00fe52-2e94-473a-be13-252b50b58522
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuditLookupCategoryGuidFromCategoryId, AuditLookupCategoryGuidFromCategoryId function [Security], ntsecapi/AuditLookupCategoryGuidFromCategoryId, security.auditlookupcategoryguidfromcategoryid_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditLookupCategoryGuidFromCategoryId
+: 
 ---
 
 # AuditLookupCategoryGuidFromCategoryId function

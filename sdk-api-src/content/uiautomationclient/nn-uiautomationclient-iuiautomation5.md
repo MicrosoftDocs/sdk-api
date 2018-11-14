@@ -9,8 +9,8 @@ ms.assetid: BCF67DB0-DF5B-4CED-9C32-01F126494129
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], IUIAutomation5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation5, winauto.uiauto_IUIAutomation5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

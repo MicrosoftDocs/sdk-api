@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionArithmeticCompositeEffect.SetCoefficient3
+: 
 ---
 
 # IDCompositionArithmeticCompositeEffect::SetCoefficient3(float)

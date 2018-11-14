@@ -9,8 +9,8 @@ ms.assetid: 11738d9f-25b1-4903-94a4-145202a81380
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: Audio, MSVidSinkStreams, MSVidSinkStreams enumeration [Microsoft TV Technologies], MSVidSinkStreamsEnumeration, Other, Video, mstv.msvidsinkstreams, segment/Audio, segment/MSVidSinkStreams, segment/Other, segment/Video
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: segment.h
 req.include-header: Dshow.h

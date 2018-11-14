@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_library_desc.htm
 tech.root: direct3d12
 ms.assetid: 99CB0B61-8494-4591-A3CB-B6DAD19C79ED
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_LIBRARY_DESC, D3D12_LIBRARY_DESC structure, _D3D12_LIBRARY_DESC, d3d12shader/D3D12_LIBRARY_DESC, direct3d12.d3d12_library_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

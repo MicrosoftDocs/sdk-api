@@ -9,8 +9,8 @@ ms.assetid: 8b846be3-f05f-4d90-9865-da245c2bfdbf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], ITaskHandlerStatus interface [Task Scheduler],described, taskschd.itaskhandlerstatus, taskschd/ITaskHandlerStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

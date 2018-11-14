@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3dcsx.h
+: 
+- ID3DX11Scan.Multiscan
+: 
 ---
 
 # ID3DX11Scan::Multiscan

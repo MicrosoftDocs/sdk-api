@@ -7,10 +7,10 @@ old-location: fax\_mfax_ifaxports.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1hwz.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxPorts, IFaxPorts interface [Fax Service], IFaxPorts interface [Fax Service],described, _mfax_ifaxports, fax._mfax_ifaxports, faxcom/IFaxPorts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

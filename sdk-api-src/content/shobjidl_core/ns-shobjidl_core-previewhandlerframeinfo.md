@@ -9,8 +9,8 @@ ms.assetid: dd93675e-fd69-4fa3-a8e7-5238c27783d8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PREVIEWHANDLERFRAMEINFO, PREVIEWHANDLERFRAMEINFO structure [Windows Shell], _shell_PREVIEWHANDLERFRAMEINFO, shell.PREVIEWHANDLERFRAMEINFO, shobjidl_core/PREVIEWHANDLERFRAMEINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

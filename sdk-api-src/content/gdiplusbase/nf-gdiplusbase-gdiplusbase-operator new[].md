@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_.h
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatornew[].htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GdiplusBase class [GDI+],operator new[] method, GdiplusBase.operator new[], GdiplusBase::operator new[], _gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_, operator new[], operator new[] method [GDI+], operator new[] method [GDI+],GdiplusBase class
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbase.h
+: 
+- GdiplusBase.operator new[]
+: 
 req.product: GDI+ 1.0
 ---
 

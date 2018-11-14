@@ -9,8 +9,8 @@ ms.assetid: e24105a5-711a-498a-a07c-842307602613
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], IAMClockAdjust interface [DirectShow],described, IAMClockAdjustInterface, dshow.iamclockadjust, strmif/IAMClockAdjust
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

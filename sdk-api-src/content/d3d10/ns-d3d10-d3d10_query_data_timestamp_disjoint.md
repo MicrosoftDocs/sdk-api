@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_query_data_timestamp_disjoint.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D10_QUERY_DATA_TIMESTAMP_DISJOINT, D3D10_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 10], d3d10/D3D10_QUERY_DATA_TIMESTAMP_DISJOINT, direct3d10.d3d10_query_data_timestamp_disjoint, ecae4d34-b796-887c-40aa-bb10d9b020bf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

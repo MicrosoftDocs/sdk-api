@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmStorageModuleDefinition.put_StorageType
+: 
 ---
 
 # IFsrmStorageModuleDefinition::put_StorageType

@@ -9,8 +9,8 @@ ms.assetid: 9e62a22d-cae7-4b3e-9000-71eddb1f3cad
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: APPNAME, FILEEXT, INSTALLSPECTYPE, INSTALLSPECTYPE enumeration [Group Policy], _INSTALLSPECTYPE, appmgmt/APPNAME, appmgmt/FILEEXT, appmgmt/INSTALLSPECTYPE, policy.installspectype_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: appmgmt.h
 req.include-header: 

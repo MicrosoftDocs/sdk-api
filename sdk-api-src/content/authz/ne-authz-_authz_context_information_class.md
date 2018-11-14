@@ -7,10 +7,10 @@ old-location: security\authz_context_information_class.htm
 tech.root: secauthz
 ms.assetid: 5eb752dc-17f7-4510-8aef-d18280322e76
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AUTHZ_CONTEXT_INFORMATION_CLASS, AUTHZ_CONTEXT_INFORMATION_CLASS enumeration [Security], AuthzContextInfoAll, AuthzContextInfoAppContainerSid, AuthzContextInfoAuthenticationId, AuthzContextInfoCapabilitySids, AuthzContextInfoDeviceClaims, AuthzContextInfoDeviceSids, AuthzContextInfoExpirationTime, AuthzContextInfoGroupsSids, AuthzContextInfoIdentifier, AuthzContextInfoPrivileges, AuthzContextInfoRestrictedSids, AuthzContextInfoSecurityAttributes, AuthzContextInfoServerContext, AuthzContextInfoSource, AuthzContextInfoUserClaims, AuthzContextInfoUserSid, _AUTHZ_CONTEXT_INFORMATION_CLASS, _win32_authz_context_information_class_str, authz/AUTHZ_CONTEXT_INFORMATION_CLASS, authz/AuthzContextInfoAll, authz/AuthzContextInfoAppContainerSid, authz/AuthzContextInfoAuthenticationId, authz/AuthzContextInfoCapabilitySids, authz/AuthzContextInfoDeviceClaims, authz/AuthzContextInfoDeviceSids, authz/AuthzContextInfoExpirationTime, authz/AuthzContextInfoGroupsSids, authz/AuthzContextInfoIdentifier, authz/AuthzContextInfoPrivileges, authz/AuthzContextInfoRestrictedSids, authz/AuthzContextInfoSecurityAttributes, authz/AuthzContextInfoServerContext, authz/AuthzContextInfoSource, authz/AuthzContextInfoUserClaims, authz/AuthzContextInfoUserSid, security.authz_context_information_class
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: authz.h
 req.include-header: 

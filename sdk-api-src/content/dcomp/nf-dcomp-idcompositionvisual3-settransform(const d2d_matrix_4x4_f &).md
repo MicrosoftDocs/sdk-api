@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionVisual3.SetTransform
+: 
 ---
 
 # IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &)

@@ -7,10 +7,10 @@ old-location: direct2d\id2d1svgelement.htm
 tech.root: direct2d
 ms.assetid: 19099DC9-EA14-41C5-A9DF-5EBB12696C79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1SvgElement, ID2D1SvgElement interface [Direct2D], ID2D1SvgElement interface [Direct2D],described, d2d1svg/ID2D1SvgElement, direct2d.id2d1svgelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1svg.h
 req.include-header: 

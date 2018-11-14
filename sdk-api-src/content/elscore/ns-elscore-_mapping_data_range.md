@@ -9,8 +9,8 @@ ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], _MAPPING_DATA_RANGE, elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: elscore.h
 req.include-header: 

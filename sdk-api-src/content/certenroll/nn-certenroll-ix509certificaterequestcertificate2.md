@@ -9,8 +9,8 @@ ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], IX509CertificateRequestCertificate2 interface [Security],described, certenroll/IX509CertificateRequestCertificate2, security.ix509certificaterequestcertificate2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

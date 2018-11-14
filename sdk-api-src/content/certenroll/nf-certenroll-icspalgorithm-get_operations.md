@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspAlgorithm.get_Operations
+: 
 ---
 
 # ICspAlgorithm::get_Operations

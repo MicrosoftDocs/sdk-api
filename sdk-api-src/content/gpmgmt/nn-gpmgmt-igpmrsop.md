@@ -9,8 +9,8 @@ ms.assetid: 86bbb143-2a9c-4fda-ba13-4f0fd09b2cd3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMRSOP, IGPMRSOP, IGPMRSOP interface [GPMC], IGPMRSOP interface [GPMC],described, _win32_igpmrsop, gpmc.igpmrsop, gpmgmt/IGPMRSOP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

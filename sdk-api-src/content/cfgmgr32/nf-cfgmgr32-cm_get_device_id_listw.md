@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Device_ID_ListW
+: 
 ---
 
 # CM_Get_Device_ID_ListW function

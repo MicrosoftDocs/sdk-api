@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 tech.root: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D12EnableExperimentalFeatures
+: 
 ---
 
 # D3D12EnableExperimentalFeatures function

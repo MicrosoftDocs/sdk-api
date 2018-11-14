@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits3_0.h
+: 
+- IBackgroundCopyJob4.SetPeerCachingFlags
+: 
 ---
 
 # IBackgroundCopyJob4::SetPeerCachingFlags

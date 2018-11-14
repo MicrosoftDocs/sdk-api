@@ -9,8 +9,8 @@ ms.assetid: 5B92F521-537F-4296-B9A7-7EC6985530B3
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: PSpatialAudioObjectRenderStreamForMetadataActivationParams, PSpatialAudioObjectRenderStreamForMetadataActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamForMetadataActivationParams, SpatialAudioObjectRenderStreamForMetadataActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamformetadataactivationparams, spatialaudiometadata/PSpatialAudioObjectRenderStreamForMetadataActivationParams, spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: spatialaudiometadata.h
 req.include-header: 

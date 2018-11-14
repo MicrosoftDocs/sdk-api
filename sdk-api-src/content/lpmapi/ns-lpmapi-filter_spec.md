@@ -9,8 +9,8 @@ ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

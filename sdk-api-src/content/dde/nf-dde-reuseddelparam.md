@@ -7,7 +7,7 @@ old-location: dataxchg\reuseddelparam.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\reuseddelparam.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/13/2018
 ms.keywords: ReuseDDElParam, ReuseDDElParam function [Data Exchange], _win32_ReuseDDElParam, _win32_reuseddelparam_cpp, dataxchg.reuseddelparam, dde/ReuseDDElParam, winui._win32_reuseddelparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ReuseDDElParam
+: 
 ---
 
 # ReuseDDElParam function

@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_addnonmember.htm
 tech.root: secauthz
 ms.assetid: a61f0b97-cd8a-40e5-b2ef-8eb48359fead
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddNonMember, AddNonMember method [Security], AddNonMember method [Security],AzApplicationGroup object, AddNonMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMember method, IAzApplicationGroup interface [Security],AddNonMember method, IAzApplicationGroup.AddNonMember, IAzApplicationGroup::AddNonMember, azroles/IAzApplicationGroup::AddNonMember, security.iazapplicationgroup_addnonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup.AddNonMember
+: 
 ---
 
 # IAzApplicationGroup::AddNonMember

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmCalloutGetSecurityInfoByKey0
+: 
 ---
 
 # FwpmCalloutGetSecurityInfoByKey0 function

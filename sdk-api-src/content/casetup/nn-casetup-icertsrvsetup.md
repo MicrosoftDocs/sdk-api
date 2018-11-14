@@ -7,10 +7,10 @@ old-location: security\icertsrvsetup.htm
 tech.root: seccrypto
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmIPsecTunnelAdd1
+: 
 ---
 
 # FwpmIPsecTunnelAdd1 function

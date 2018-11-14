@@ -9,8 +9,8 @@ ms.assetid: 9d60f5d7-57af-4c33-90ed-b69a9671a9ce
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_SA0, IPSEC_SA0 structure [Filtering], IPSEC_SA0_, fwp.ipsec_sa0_struct, ipsectypes/IPSEC_SA0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

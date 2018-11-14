@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPMOUSEHOOKSTRUCTEX, *PMOUSEHOOKSTRUCTEX, LPMOUSEHOOKSTRUCTEX, LPMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages], MOUSEHOOKSTRUCTEX, MOUSEHOOKSTRUCTEX structure [Windows and Messages], PMOUSEHOOKSTRUCTEX, PMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages], XBUTTON1, XBUTTON2, _win32_MOUSEHOOKSTRUCTEX_str, _win32_mousehookstructex_str_cpp, tagMOUSEHOOKSTRUCTEX, winmsg.mousehookstructex, winui._win32_mousehookstructex_str, winuser/LPMOUSEHOOKSTRUCTEX, winuser/MOUSEHOOKSTRUCTEX, winuser/PMOUSEHOOKSTRUCTEX"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

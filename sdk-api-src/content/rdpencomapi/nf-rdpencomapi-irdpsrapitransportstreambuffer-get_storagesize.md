@@ -41,6 +41,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPITransportStreamBuffer.get_StorageSize
+: 
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_StorageSize

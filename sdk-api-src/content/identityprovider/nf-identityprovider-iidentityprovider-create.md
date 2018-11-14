@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_create.htm
 tech.root: secauthn
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- identityprovider.h
+: 
+- IIdentityProvider.Create
+: 
 ---
 
 # IIdentityProvider::Create

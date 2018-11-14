@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- dpa_dsa.h
+: 
+- DPA_FastGetPtr
+: 
 ---
 
 # DPA_FastGetPtr macro

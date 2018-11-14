@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- workspaceruntime.h
+: 
+- IWorkspace3.SetClaimsToken
+: 
 ---
 
 # IWorkspace3::SetClaimsToken

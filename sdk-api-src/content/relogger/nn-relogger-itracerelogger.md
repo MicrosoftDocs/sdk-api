@@ -9,8 +9,8 @@ ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], ITraceRelogger interface [ETW],described, etw.itracerelogger, relogger/ITraceRelogger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: relogger.h
 req.include-header: 

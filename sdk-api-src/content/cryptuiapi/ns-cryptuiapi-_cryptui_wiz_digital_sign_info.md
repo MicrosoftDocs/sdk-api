@@ -7,10 +7,10 @@ old-location: security\cryptui_wiz_digital_sign_info.htm
 tech.root: seccrypto
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

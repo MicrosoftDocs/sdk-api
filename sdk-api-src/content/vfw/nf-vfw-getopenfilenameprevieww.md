@@ -7,7 +7,7 @@ old-location: multimedia\getopenfilenamepreview.htm
 tech.root: Multimedia
 ms.assetid: f0247d7b-47e2-436b-a783-ae78974f8340
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: GetOpenFileNamePreview, GetOpenFileNamePreview function [Windows Multimedia], GetOpenFileNamePreviewA, GetOpenFileNamePreviewW, _win32_GetOpenFileNamePreview, multimedia.getopenfilenamepreview, vfw/GetOpenFileNamePreview, vfw/GetOpenFileNamePreviewA, vfw/GetOpenFileNamePreviewW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetOpenFileNamePreviewW
+: 
 ---
 
 # GetOpenFileNamePreviewW function

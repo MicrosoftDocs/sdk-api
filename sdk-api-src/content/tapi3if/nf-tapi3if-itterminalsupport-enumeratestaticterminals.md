@@ -7,7 +7,7 @@ old-location: tapi3\itterminalsupport_enumeratestaticterminals.htm
 tech.root: tapi
 ms.assetid: 91fea706-9792-40e1-b812-f7578bc7968b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EnumerateStaticTerminals, EnumerateStaticTerminals method [TAPI 2.2], EnumerateStaticTerminals method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateStaticTerminals method, ITTerminalSupport.EnumerateStaticTerminals, ITTerminalSupport::EnumerateStaticTerminals, _tapi3_itterminalsupport_enumeratestaticterminals, tapi3.itterminalsupport_enumeratestaticterminals, tapi3if/ITTerminalSupport::EnumerateStaticTerminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITTerminalSupport.EnumerateStaticTerminals
+: 
 ---
 
 # ITTerminalSupport::EnumerateStaticTerminals

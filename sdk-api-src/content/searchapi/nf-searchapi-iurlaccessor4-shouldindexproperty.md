@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IUrlAccessor4.ShouldIndexProperty
+: 
 ---
 
 # IUrlAccessor4::ShouldIndexProperty

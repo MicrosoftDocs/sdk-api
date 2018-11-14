@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_IPV6Filter.PutMulticastList
+: 
 ---
 
 # IBDA_IPV6Filter::PutMulticastList

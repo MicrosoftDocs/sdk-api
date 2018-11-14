@@ -9,8 +9,8 @@ ms.assetid: 4e2eda04-4f86-4919-b754-dba90fa8d5d8
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWindowsDriverUpdate, IWindowsDriverUpdate interface [Windows Update Agent], IWindowsDriverUpdate interface [Windows Update Agent],described, wua.iwindowsdriverupdate, wuapi/IWindowsDriverUpdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

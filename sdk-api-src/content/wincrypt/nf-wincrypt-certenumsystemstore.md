@@ -7,7 +7,7 @@ old-location: security\certenumsystemstore.htm
 tech.root: seccrypto
 ms.assetid: fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertEnumSystemStore, CertEnumSystemStore function [Security], _crypto2_certenumsystemstore, security.certenumsystemstore, wincrypt/CertEnumSystemStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertEnumSystemStore
+: 
 ---
 
 # CertEnumSystemStore function

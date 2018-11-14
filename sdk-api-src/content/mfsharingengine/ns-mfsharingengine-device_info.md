@@ -7,10 +7,10 @@ old-location: mf\device_info.htm
 tech.root: medfound
 ms.assetid: B006298C-B733-4E76-BD31-A3D1DD4DC766
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DEVICE_INFO, DEVICE_INFO structure [Media Foundation], mf.device_info, mfsharingengine/DEVICE_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfsharingengine.h
 req.include-header: 

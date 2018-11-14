@@ -7,7 +7,7 @@ old-location: security\icenroll4_setpendingrequestinfo.htm
 tech.root: seccrypto
 ms.assetid: be369059-5852-4cde-8f78-d5883735b670
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],setPendingRequestInfo method, ICEnroll4 interface [Security],setPendingRequestInfo method, ICEnroll4.setPendingRequestInfo, ICEnroll4::setPendingRequestInfo, _xen_icenroll4_setpendingrequestinfo, security.icenroll4_setpendingrequestinfo, setPendingRequestInfo, setPendingRequestInfo method [Security], setPendingRequestInfo method [Security],CEnroll object, setPendingRequestInfo method [Security],ICEnroll4 interface, xenroll/ICEnroll4::setPendingRequestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.setPendingRequestInfo
+: 
 ---
 
 # ICEnroll4::setPendingRequestInfo

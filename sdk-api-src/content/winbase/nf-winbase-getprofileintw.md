@@ -7,7 +7,7 @@ old-location: base\getprofileint.htm
 tech.root: sysinfo
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetProfileIntW
+: 
 ---
 
 # GetProfileIntW function

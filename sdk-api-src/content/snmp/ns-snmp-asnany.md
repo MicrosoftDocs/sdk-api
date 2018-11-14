@@ -9,8 +9,8 @@ ms.assetid: ce8d002e-f357-499c-b976-f8ebaf1e7142
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ASN_BITS, ASN_COUNTER32, ASN_COUNTER64, ASN_GAUGE32, ASN_INTEGER, ASN_INTEGER32, ASN_IPADDRESS, ASN_OBJECTIDENTIFIER, ASN_OCTETSTRING, ASN_OPAQUE, ASN_SEQUENCE, ASN_TIMETICKS, ASN_UNSIGNED32, AsnAny, AsnAny structure [SNMP], AsnObjectSyntax, SNMP_EXCEPTION_ENDOFMIBVIEW, SNMP_EXCEPTION_NOSUCHINSTANCE, SNMP_EXCEPTION_NOSUCHOBJECT, _snmp_asnany_str, snmp.asnany_str, snmp/AsnAny
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: snmp.h
 req.include-header: 

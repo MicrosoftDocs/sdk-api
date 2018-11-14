@@ -9,8 +9,8 @@ ms.assetid: 8cdabea9-7e37-4e63-9d6c-b6f63aa536ea
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], IWMPStringCollection interface [Windows Media Player],described, IWMPStringCollectionInterface, wmp.iwmpstringcollection, wmp/IWMPStringCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

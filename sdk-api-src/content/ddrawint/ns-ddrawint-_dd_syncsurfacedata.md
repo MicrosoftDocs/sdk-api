@@ -9,8 +9,8 @@ ms.assetid: 76294b03-9182-408a-a0ee-1a24f8b53163
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA structure [Display Devices], PDD_SYNCSURFACEDATA, PDD_SYNCSURFACEDATA structure pointer [Display Devices], _DD_SYNCSURFACEDATA, ddrawint/DD_SYNCSURFACEDATA, ddrawint/PDD_SYNCSURFACEDATA, ddstrcts_59fb70d7-7462-48bf-a0f7-3d54cdf8f62e.xml, display.dd_syncsurfacedata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement3.get_CurrentIsPeripheral
+: 
 ---
 
 # IUIAutomationElement3::get_CurrentIsPeripheral

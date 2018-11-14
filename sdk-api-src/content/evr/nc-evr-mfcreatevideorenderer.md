@@ -7,10 +7,10 @@ old-location: mf\mfcreatevideorenderer.htm
 tech.root: medfound
 ms.assetid: d0f90c42-8f08-44f4-b3da-b9f3ae4869e6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCreateVideoRenderer, MFCreateVideoRenderer callback, MFCreateVideoRenderer callback function [Media Foundation], d0f90c42-8f08-44f4-b3da-b9f3ae4869e6, evr/MFCreateVideoRenderer, mf.mfcreatevideorenderer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: evr.h
 req.include-header: 

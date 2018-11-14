@@ -9,8 +9,8 @@ ms.assetid: 15d9bddc-fe6c-40c9-ba12-587c57c0bfcf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FsrmStorageModuleCaps, FsrmStorageModuleCaps enumeration [File Server Resource Manager], FsrmStorageModuleCaps_CanGet, FsrmStorageModuleCaps_CanHandleDirectories, FsrmStorageModuleCaps_CanHandleFiles, FsrmStorageModuleCaps_CanSet, FsrmStorageModuleCaps_Unknown, _FsrmStorageModuleCaps, fs.fsrmstoragemodulecaps, fsrm.fsrmstoragemodulecaps, fsrmenums/FsrmStorageModuleCaps, fsrmenums/FsrmStorageModuleCaps_CanGet, fsrmenums/FsrmStorageModuleCaps_CanHandleDirectories, fsrmenums/FsrmStorageModuleCaps_CanHandleFiles, fsrmenums/FsrmStorageModuleCaps_CanSet, fsrmenums/FsrmStorageModuleCaps_Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

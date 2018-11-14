@@ -9,8 +9,8 @@ ms.assetid: a9395048-492b-42fb-b247-52999cee3f44
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc2, RasDialFunc2 callback, RasDialFunc2 callback function [RAS], _ras_rasdialfunc2, ras/RasDialFunc2, rras.rasdialfunc2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

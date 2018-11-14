@@ -9,8 +9,8 @@ ms.assetid: b37c7e7d-80fd-4a42-a698-c20ffb2a5052
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], IEvalRat interface [Microsoft TV Technologies],described, IEvalRatInterface, mstv.ievalrat, tvratings/IEvalRat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tvratings.h
 req.include-header: 

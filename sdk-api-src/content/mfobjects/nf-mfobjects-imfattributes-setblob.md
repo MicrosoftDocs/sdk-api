@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setblob.htm
 tech.root: medfound
 ms.assetid: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c, IMFAttributes interface [Media Foundation],SetBlob method, IMFAttributes.SetBlob, IMFAttributes::SetBlob, SetBlob, SetBlob method [Media Foundation], SetBlob method [Media Foundation],IMFAttributes interface, mf.imfattributes_setblob, mfobjects/IMFAttributes::SetBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFAttributes.SetBlob
+: 
 ---
 
 # IMFAttributes::SetBlob

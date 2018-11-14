@@ -7,10 +7,10 @@ old-location: tapi3\itagenthandler.htm
 tech.root: tapi
 ms.assetid: 11861d77-39ad-4d85-bf68-ba0f4321ba7c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler interface [TAPI 2.2],described, _tapi3_itagenthandler, tapi3.itagenthandler, tapi3cc/ITAgentHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

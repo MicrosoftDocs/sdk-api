@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromsid.htm
 tech.root: secauthz
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN_GROUPS, AuthzInitializeContextFromSid, AuthzInitializeContextFromSid function [Security], _win32_authzinitializecontextfromsid, authz/AuthzInitializeContextFromSid, security.authzinitializecontextfromsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzInitializeContextFromSid
+: 
 ---
 
 # AuthzInitializeContextFromSid function

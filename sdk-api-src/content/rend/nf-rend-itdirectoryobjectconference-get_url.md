@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_url.htm
 tech.root: tapi
 ms.assetid: a3ea4bfc-dcb6-46a1-83da-2d897487c2c1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Url method, ITDirectoryObjectConference.get_Url, ITDirectoryObjectConference::get_Url, _tapi3_itdirectoryobjectconference_get_url, get_Url, get_Url method [TAPI 2.2], get_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Url, tapi3.itdirectoryobjectconference_get_url
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObjectConference.get_Url
+: 
 ---
 
 # ITDirectoryObjectConference::get_Url

@@ -7,10 +7,10 @@ old-location: security\cert_dh_parameters.htm
 tech.root: seccrypto
 ms.assetid: bd57236a-1763-4a43-83f4-95131d8adec9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCERT_DH_PARAMETERS, CERT_DH_PARAMETERS, CERT_DH_PARAMETERS structure [Security], PCERT_DH_PARAMETERS, PCERT_DH_PARAMETERS structure pointer [Security], _CERT_DH_PARAMETERS, _crypto2_cert_dh_parameters, security.cert_dh_parameters, wincrypt/CERT_DH_PARAMETERS, wincrypt/PCERT_DH_PARAMETERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

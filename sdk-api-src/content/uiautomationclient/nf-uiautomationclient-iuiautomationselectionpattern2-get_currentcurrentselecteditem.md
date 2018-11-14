@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem
+: 
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem

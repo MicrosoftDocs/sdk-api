@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oleacc.h
+: 
+- IAccessible.put_accName
+: 
 ---
 
 # IAccessible::put_accName

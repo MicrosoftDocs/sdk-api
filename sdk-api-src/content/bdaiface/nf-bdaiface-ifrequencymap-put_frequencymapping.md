@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IFrequencyMap.put_FrequencyMapping
+: 
 ---
 
 # IFrequencyMap::put_FrequencyMapping

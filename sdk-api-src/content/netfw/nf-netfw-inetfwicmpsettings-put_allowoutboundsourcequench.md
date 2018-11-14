@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwIcmpSettings.put_AllowOutboundSourceQuench
+: 
 ---
 
 # INetFwIcmpSettings::put_AllowOutboundSourceQuench

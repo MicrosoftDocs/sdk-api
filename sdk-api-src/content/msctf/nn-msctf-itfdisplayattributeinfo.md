@@ -9,8 +9,8 @@ ms.assetid: 7f590ecf-06e9-42da-ba40-4364296ae594
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfDisplayAttributeInfo, ITfDisplayAttributeInfo interface [Text Services Framework], ITfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_itfdisplayattributeinfo_ref, msctf/ITfDisplayAttributeInfo, tsf.itfdisplayattributeinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

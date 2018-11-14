@@ -9,8 +9,8 @@ ms.assetid: 0e999859-d409-4fd8-a5da-c43da64bcd8f
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI], DDiscFormat2EraseEvents interface [IMAPI],described, imapi.ddiscformat2eraseevents, imapi2/DDiscFormat2EraseEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

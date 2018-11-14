@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputref
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO_HID, RID_DEVICE_INFO_HID structure [Keyboard and Mouse Input], _win32_RID_DEVICE_INFO_HID_str, _win32_rid_device_info_hid_str_cpp, inputdev.rid_device_info_hid, tagRID_DEVICE_INFO_HID, winui._win32_rid_device_info_hid_str, winuser/PRID_DEVICE_INFO_HID, winuser/RID_DEVICE_INFO_HID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformat.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMDATETIMEFORMATA, LPNMDATETIMEFORMAT, LPNMDATETIMEFORMAT structure pointer [Windows Controls], NMDATETIMEFORMAT, NMDATETIMEFORMAT structure [Windows Controls], NMDATETIMEFORMATA, NMDATETIMEFORMATW, _win32_NMDATETIMEFORMAT, _win32_NMDATETIMEFORMAT_cpp, commctrl/LPNMDATETIMEFORMAT, commctrl/NMDATETIMEFORMAT, commctrl/NMDATETIMEFORMATA, commctrl/NMDATETIMEFORMATW, controls.NMDATETIMEFORMAT, controls._win32_NMDATETIMEFORMAT, tagNMDATETIMEFORMATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

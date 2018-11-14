@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IShowMessageAction.put_MessageBody
+: 
 ---
 
 # IShowMessageAction::put_MessageBody

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspAlgorithms.get__NewEnum
+: 
 ---
 
 # ICspAlgorithms::get__NewEnum

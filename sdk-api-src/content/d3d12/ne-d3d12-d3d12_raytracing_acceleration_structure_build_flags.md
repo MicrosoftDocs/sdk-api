@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_raytracing_acceleration_structure_build_flags.htm
 tech.root: direct3d12
 ms.assetid: 6DCDCD03-A6B8-49EB-93CE-98391F65F08C
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS enumeration, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_TRACE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_TRACE, direct3d12.d3d12_raytracing_acceleration_structure_build_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -50,9 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-Specifies flags for the build of a raytracing acceleration structure. Use a value from this enumeration with the <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure that provides input to the acceleration structure build operation.
+Specifies flags for the build of a raytracing acceleration structure. Use a value from this enumeration with the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure that provides input to the acceleration structure build operation.
 
 
 ## -enum-fields
@@ -74,7 +72,7 @@ This flag can only be set on an initial acceleration structure build, or on an u
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION
 
-Enables the option to compact the acceleration structure by calling <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> using compact mode, specified with <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_COMPACT</a>.  
+Enables the option to compact the acceleration structure by calling <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> using compact mode, specified with <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_COMPACT</a>.  
 
 This option may result in increased memory consumption and build times.  After future compaction, however, the resulting acceleration structure should consume a smaller memory footprint than building the acceleration structure from scratch.  
 
@@ -112,7 +110,7 @@ This flag is compatible with all other flags except for <b>D3D12_RAYTRACING_ACCE
 
 Minimize the amount of scratch memory used during the acceleration structure build as well as the size of the result.  This option may result in increased build times and/or raytracing times. This is orthogonal to the <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION</b> flag and the explicit acceleration structure compaction that it enables.  Combining the flags can mean both the initial acceleration structure as well as the result of compacting it use less memory.
 
-The impact of using this flag for a build is reflected in the result of calling <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a> before doing the build to retrieve memory requirements for the build.
+The impact of using this flag for a build is reflected in the result of calling <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a> before doing the build to retrieve memory requirements for the build.
 
 This flag is compatible with all other flags.
 

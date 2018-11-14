@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudioobjectbuffer_getid.htm
 tech.root: medfound
 ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfspatialaudio.h
+: 
+- IMFSpatialAudioObjectBuffer.GetID
+: 
 ---
 
 # IMFSpatialAudioObjectBuffer::GetID

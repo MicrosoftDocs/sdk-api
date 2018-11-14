@@ -9,8 +9,8 @@ ms.assetid: 57A5003A-11DF-42c2-9C00-7DE35898B64D
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDataObjectProvider, IDataObjectProvider interface [Windows Shell], IDataObjectProvider interface [Windows Shell],described, shell.IDataObjectProvider, shobjidl_core/IDataObjectProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

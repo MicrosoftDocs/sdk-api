@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesCache2.RenameItemEx
+: 
 ---
 
 # IOfflineFilesCache2::RenameItemEx

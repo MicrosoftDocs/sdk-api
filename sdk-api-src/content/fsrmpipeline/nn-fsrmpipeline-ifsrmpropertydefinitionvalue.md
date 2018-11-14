@@ -9,8 +9,8 @@ ms.assetid: 886f0f02-fe0e-4001-b6c2-e3d1d15d8e49
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], IFsrmPropertyDefinitionValue interface [File Server Resource Manager],described, fs.ifsrmpropertydefinitionvalue, fsrm.ifsrmpropertydefinitionvalue, fsrmpipeline/IFsrmPropertyDefinitionValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

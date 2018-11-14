@@ -7,7 +7,7 @@ old-location: security\isecurityinformation_mapgeneric.htm
 tech.root: secauthz
 ms.assetid: 85ad4d42-11e7-4d26-943f-3d7451899c8e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ISecurityInformation interface [Security],MapGeneric method, ISecurityInformation.MapGeneric, ISecurityInformation::MapGeneric, MapGeneric, MapGeneric method [Security], MapGeneric method [Security],ISecurityInformation interface, _win32_isecurityinformation_mapgeneric, aclui/ISecurityInformation::MapGeneric, security.isecurityinformation_mapgeneric
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityInformation.MapGeneric
+: 
 ---
 
 # ISecurityInformation::MapGeneric

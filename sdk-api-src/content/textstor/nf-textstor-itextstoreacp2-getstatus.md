@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textstor.h
+: 
+- ITextStoreACP2.GetStatus
+: 
 ---
 
 # ITextStoreACP2::GetStatus

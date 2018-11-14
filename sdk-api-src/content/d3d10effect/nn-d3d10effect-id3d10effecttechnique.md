@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\id3d10effecttechnique.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 46580a58-26ee-e999-0d60-9585dc422459, ID3D10EffectTechnique, ID3D10EffectTechnique interface [Direct3D 10], ID3D10EffectTechnique interface [Direct3D 10],described, d3d10effect/ID3D10EffectTechnique, direct3d10.id3d10effecttechnique
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

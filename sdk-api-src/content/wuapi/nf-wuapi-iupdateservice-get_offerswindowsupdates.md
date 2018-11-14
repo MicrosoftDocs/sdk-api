@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateService.get_OffersWindowsUpdates
+: 
 ---
 
 # IUpdateService::get_OffersWindowsUpdates

@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizerGuide.put_Columns
+: 
 ---
 
 # IInkRecognizerGuide::put_Columns

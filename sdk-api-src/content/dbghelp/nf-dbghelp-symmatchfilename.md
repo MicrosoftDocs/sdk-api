@@ -7,7 +7,7 @@ old-location: base\symmatchfilename.htm
 tech.root: debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymMatchFileName
+: 
 ---
 
 # SymMatchFileName function

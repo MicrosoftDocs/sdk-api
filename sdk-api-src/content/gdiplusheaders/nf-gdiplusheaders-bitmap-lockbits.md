@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBit
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\lockbits.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Bitmap class [GDI+],LockBits method, Bitmap.LockBits, Bitmap::LockBits, LockBits, LockBits method [GDI+], LockBits method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.LockBits
+: 
 req.product: GDI+ 1.0
 ---
 

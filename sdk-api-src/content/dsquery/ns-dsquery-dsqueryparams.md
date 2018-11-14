@@ -9,8 +9,8 @@ ms.assetid: 78c3fb1c-275e-45b6-bbe9-ae2d85864e6a
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active Directory], LPDSQUERYPARAMS, LPDSQUERYPARAMS structure pointer [Active Directory], _glines_dsqueryparams, ad.dsqueryparams, dsquery/DSQUERYPARAMS, dsquery/LPDSQUERYPARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 

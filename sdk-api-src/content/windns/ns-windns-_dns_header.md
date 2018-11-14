@@ -9,8 +9,8 @@ ms.assetid: e5bf19a1-4c71-482d-a075-1e149f94505b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_HEADER, *PDNS_HEADER structure [DNS], DNS_HEADER, DNS_HEADER structure [DNS], _DNS_HEADER, dns.dns_header, windns/*PDNS_HEADER, windns/DNS_HEADER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

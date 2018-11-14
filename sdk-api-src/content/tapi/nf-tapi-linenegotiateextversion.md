@@ -7,7 +7,7 @@ old-location: tapi2\linenegotiateextversion.htm
 tech.root: tapi
 ms.assetid: 89a49709-a15b-4358-984a-fd836d8e237b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linenegotiateextversion, lineNegotiateExtVersion, lineNegotiateExtVersion function [TAPI 2.2], tapi/lineNegotiateExtVersion, tapi2.linenegotiateextversion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineNegotiateExtVersion
+: 
 ---
 
 # lineNegotiateExtVersion function

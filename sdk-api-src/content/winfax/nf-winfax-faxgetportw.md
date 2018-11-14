@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3910.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: FaxGetPort, FaxGetPort function [Fax Service], FaxGetPortA, FaxGetPortW, _mfax_faxgetport, fax._mfax_faxgetport, winfax/FaxGetPort, winfax/FaxGetPortA, winfax/FaxGetPortW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FaxGetPortW
+: 
 ---
 
 # FaxGetPortW function

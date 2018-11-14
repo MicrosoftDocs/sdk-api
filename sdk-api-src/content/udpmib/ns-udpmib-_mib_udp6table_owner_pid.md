@@ -9,8 +9,8 @@ ms.assetid: 6c8d1cb9-209b-47a0-b41c-6b4098a4a81e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDP6TABLE_OWNER_PID, MIB_UDP6TABLE_OWNER_PID, MIB_UDP6TABLE_OWNER_PID structure [MIB], PMIB_UDP6TABLE_OWNER_PID, PMIB_UDP6TABLE_OWNER_PID structure pointer [MIB], _MIB_UDP6TABLE_OWNER_PID, iprtrmib/MIB_UDP6TABLE_OWNER_PID, iprtrmib/PMIB_UDP6TABLE_OWNER_PID, mib.mib_udp6table_owner_pid, udpmib/MIB_UDP6TABLE_OWNER_PID, udpmib/PMIB_UDP6TABLE_OWNER_PID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

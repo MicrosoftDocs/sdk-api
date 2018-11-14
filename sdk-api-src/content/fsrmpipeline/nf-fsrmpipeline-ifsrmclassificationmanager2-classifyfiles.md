@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmClassificationManager2.ClassifyFiles
+: 
 ---
 
 # IFsrmClassificationManager2::ClassifyFiles

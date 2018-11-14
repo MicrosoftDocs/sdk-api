@@ -7,7 +7,7 @@ old-location: security\iazscope_description.htm
 tech.root: secauthz
 ms.assetid: 51a7daff-ecb9-4a66-a7f7-aee9aeff7d6a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],Description property, Description property [Security], Description property [Security],AzScope object, Description property [Security],IAzScope interface, IAzScope interface [Security],Description property, IAzScope.Description, IAzScope.get_Description, IAzScope::Description, IAzScope::get_Description, IAzScope::put_Description, azroles/IAzScope::Description, azroles/IAzScope::get_Description, azroles/IAzScope::put_Description, get_Description, security.iazscope_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.get_Description
+: 
 ---
 
 # IAzScope::get_Description

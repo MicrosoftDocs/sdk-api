@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_unadvise.htm
 tech.root: secauthn
 ms.assetid: ba8a12fc-ea4c-45b5-8339-9cbc88c160db
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IIdentityProvider interface [Security],UnAdvise method, IIdentityProvider.UnAdvise, IIdentityProvider::UnAdvise, UnAdvise, UnAdvise method [Security], UnAdvise method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::UnAdvise, security.iidentityprovider_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- identityprovider.h
+: 
+- IIdentityProvider.UnAdvise
+: 
 ---
 
 # IIdentityProvider::UnAdvise

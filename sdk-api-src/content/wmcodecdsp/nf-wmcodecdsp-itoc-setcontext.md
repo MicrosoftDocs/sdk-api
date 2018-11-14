@@ -7,7 +7,7 @@ old-location: mf\itoc_setcontext.htm
 tech.root: medfound
 ms.assetid: 45aadac5-6c65-4525-a1fc-b045337a6030
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IToc interface [Media Foundation],SetContext method, IToc.SetContext, IToc::SetContext, SetContext, SetContext method [Media Foundation], SetContext method [Media Foundation],IToc interface, codecapi.itoc_setcontext, mf.itoc_setcontext, wmcodecdsp/IToc::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcodecdsp.h
+: 
+- IToc.SetContext
+: 
 ---
 
 # IToc::SetContext

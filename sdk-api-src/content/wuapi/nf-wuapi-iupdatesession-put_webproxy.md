@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateSession.put_WebProxy
+: 
 ---
 
 # IUpdateSession::put_WebProxy

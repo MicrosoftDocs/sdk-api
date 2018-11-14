@@ -4,10 +4,10 @@ title: EapPeerGetMethodProperties function
 author: windows-sdk-content
 description: EAP method-specific function that retrieves the properties of an EAP method given the connection and user data.
 old-location: eaphost\eappeergetmethodproperties.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: A989D86D-BFF9-4EF4-AF98-7F0F41195186
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerGetMethodProperties, EapPeerGetMethodProperties function [EAPHost], eaphost.eappeergetmethodproperties, eapmethodpeerapis/EapPeerGetMethodProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapPeerGetMethodProperties
+: 
 ---
 
 # EapPeerGetMethodProperties function

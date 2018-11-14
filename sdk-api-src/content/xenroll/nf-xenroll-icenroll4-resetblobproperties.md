@@ -7,7 +7,7 @@ old-location: security\icenroll4_resetblobproperties.htm
 tech.root: seccrypto
 ms.assetid: 4ee3c056-27b0-4606-bdf6-63e5e4439274
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],resetBlobProperties method, ICEnroll4 interface [Security],resetBlobProperties method, ICEnroll4.resetBlobProperties, ICEnroll4::resetBlobProperties, resetBlobProperties, resetBlobProperties method [Security], resetBlobProperties method [Security],CEnroll object, resetBlobProperties method [Security],ICEnroll4 interface, security.icenroll4_resetblobproperties, xenroll/ICEnroll4::resetBlobProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.resetBlobProperties
+: 
 ---
 
 # ICEnroll4::resetBlobProperties

@@ -9,8 +9,8 @@ ms.assetid: 13fdabe6-c904-4546-b876-c145f6a6c345
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER structure pointer [ETW], TRACE_LOGFILE_HEADER, TRACE_LOGFILE_HEADER structure [ETW], _TRACE_LOGFILE_HEADER, _evt_trace_logfile_header, base.trace_logfile_header, etw.trace_logfile_header, evntrace/PTRACE_LOGFILE_HEADER, evntrace/TRACE_LOGFILE_HEADER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 

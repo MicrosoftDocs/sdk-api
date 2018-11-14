@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationDragPattern.get_CachedIsGrabbed
+: 
 ---
 
 # IUIAutomationDragPattern::get_CachedIsGrabbed

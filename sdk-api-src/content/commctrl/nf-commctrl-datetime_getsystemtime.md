@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- DateTime_GetSystemtime
+: 
 ---
 
 # DateTime_GetSystemtime macro

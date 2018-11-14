@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmReportJob.get_MailTo
+: 
 ---
 
 # IFsrmReportJob::get_MailTo

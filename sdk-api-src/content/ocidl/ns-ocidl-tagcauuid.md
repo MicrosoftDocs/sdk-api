@@ -9,8 +9,8 @@ ms.assetid: 23b991fb-9494-4d3b-83df-986739beaa14
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPCAUUID, CAUUID, CAUUID structure [COM], LPCAUUID, LPCAUUID structure pointer [COM], _ctrl_CAUUID, com.cauuid, ocidl/CAUUID, ocidl/LPCAUUID, tagCAUUID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

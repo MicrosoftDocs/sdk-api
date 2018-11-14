@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D10CreateDevice1
+: 
 ---
 
 # D3D10CreateDevice1 function

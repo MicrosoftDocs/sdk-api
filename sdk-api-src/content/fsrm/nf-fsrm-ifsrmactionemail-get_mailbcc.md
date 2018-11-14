@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionEmail.get_MailBcc
+: 
 ---
 
 # IFsrmActionEmail::get_MailBcc

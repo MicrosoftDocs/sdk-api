@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnSmsReadMsgTextCdma.get_Status
+: 
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Status

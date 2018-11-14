@@ -7,7 +7,7 @@ old-location: security\iazscope_deletepolicyreadername.htm
 tech.root: secauthz
 ms.assetid: e65af2a2-c7f7-483c-af05-342075218158
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzScope object, DeletePolicyReaderName method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReaderName method, IAzScope.DeletePolicyReaderName, IAzScope::DeletePolicyReaderName, azroles/IAzScope::DeletePolicyReaderName, security.iazscope_deletepolicyreadername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.DeletePolicyReaderName
+: 
 ---
 
 # IAzScope::DeletePolicyReaderName

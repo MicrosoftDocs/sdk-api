@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMHeaderInfo2.GetCodecInfo
+: 
 ---
 
 # IWMHeaderInfo2::GetCodecInfo

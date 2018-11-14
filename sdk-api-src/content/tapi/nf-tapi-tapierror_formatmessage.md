@@ -7,7 +7,7 @@ old-location: tapi2\tapierror_formatmessage.htm
 tech.root: tapi
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- tapi.h
+: 
+- TAPIERROR_FORMATMESSAGE
+: 
 ---
 
 # TAPIERROR_FORMATMESSAGE macro

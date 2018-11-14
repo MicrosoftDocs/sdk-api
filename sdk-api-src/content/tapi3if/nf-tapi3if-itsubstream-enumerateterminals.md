@@ -7,7 +7,7 @@ old-location: tapi3\itsubstream_enumerateterminals.htm
 tech.root: tapi
 ms.assetid: bf5e1f7f-3820-433e-b71f-53798c202593
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITSubStream interface, ITSubStream interface [TAPI 2.2],EnumerateTerminals method, ITSubStream.EnumerateTerminals, ITSubStream::EnumerateTerminals, _tapi3_itsubstream_enumerateterminals, tapi3.itsubstream_enumerateterminals, tapi3if/ITSubStream::EnumerateTerminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITSubStream.EnumerateTerminals
+: 
 ---
 
 # ITSubStream::EnumerateTerminals

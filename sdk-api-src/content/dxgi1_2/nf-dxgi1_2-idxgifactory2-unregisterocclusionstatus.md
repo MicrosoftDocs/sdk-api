@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_unregisterocclusionstatus.htm
 tech.root: direct3ddxgi
 ms.assetid: 754A627C-0365-4AF5-A6DF-A8D646254ECF
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],UnregisterOcclusionStatus method, IDXGIFactory2.UnregisterOcclusionStatus, IDXGIFactory2::UnregisterOcclusionStatus, UnregisterOcclusionStatus, UnregisterOcclusionStatus method [DXGI], UnregisterOcclusionStatus method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_unregisterocclusionstatus, dxgi1_2/IDXGIFactory2::UnregisterOcclusionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGIFactory2.UnregisterOcclusionStatus
+: 
 ---
 
 # IDXGIFactory2::UnregisterOcclusionStatus

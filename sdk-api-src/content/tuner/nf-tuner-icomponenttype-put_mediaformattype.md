@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IComponentType.put_MediaFormatType
+: 
 ---
 
 # IComponentType::put_MediaFormatType

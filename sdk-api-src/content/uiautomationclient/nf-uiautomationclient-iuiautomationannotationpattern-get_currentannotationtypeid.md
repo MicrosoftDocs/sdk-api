@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
+: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId

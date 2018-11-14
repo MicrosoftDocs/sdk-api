@@ -7,10 +7,10 @@ old-location: security\icertmanagemodule.htm
 tech.root: seccrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certmod.h
 req.include-header: Certsrv.h

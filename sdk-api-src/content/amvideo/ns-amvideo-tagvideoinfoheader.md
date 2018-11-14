@@ -9,8 +9,8 @@ ms.assetid: a175592b-0dc1-4001-b52f-785407965932
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

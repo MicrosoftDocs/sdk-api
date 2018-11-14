@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateHistoryEntry2.get_Categories
+: 
 ---
 
 # IUpdateHistoryEntry2::get_Categories

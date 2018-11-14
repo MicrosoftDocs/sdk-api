@@ -9,8 +9,8 @@ ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, _MP_PARAMINFO, dshow.mp_paraminfo, medparam/MP_PARAMINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: medparam.h
 req.include-header: 

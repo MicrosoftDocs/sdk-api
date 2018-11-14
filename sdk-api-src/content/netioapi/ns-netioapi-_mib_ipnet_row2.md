@@ -9,8 +9,8 @@ ms.assetid: 164dbd93-4464-40f9-989a-17597102b1d8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPNET_ROW2, MIB_IPNET_ROW2, MIB_IPNET_ROW2 structure [MIB], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PMIB_IPNET_ROW2, PMIB_IPNET_ROW2 structure pointer [MIB], _MIB_IPNET_ROW2, mib.mib_ipnet_row2, netioapi/MIB_IPNET_ROW2, netioapi/PMIB_IPNET_ROW2"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_CLASS_Point_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\point.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Point, Point class [GDI+], Point class [GDI+],described, _gdiplus_CLASS_Point_Class, gdiplus._gdiplus_CLASS_Point_Class, gdiplustypes/Point
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplustypes.h
 req.include-header: 

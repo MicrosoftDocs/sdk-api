@@ -9,8 +9,8 @@ ms.assetid: E2B291DB-928F-4170-8684-4B26A7E067BD
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PTRACE_VERSION_INFO, PTRACE_VERSION_INFO, PTRACE_VERSION_INFO structure pointer [ETW], TRACE_VERSION_INFO, TRACE_VERSION_INFO structure [ETW], _TRACE_VERSION_INFO, etw.trace_version_info, evntrace/PTRACE_VERSION_INFO, evntrace/TRACE_VERSION_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 

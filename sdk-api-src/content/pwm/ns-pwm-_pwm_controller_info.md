@@ -9,8 +9,8 @@ ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER_INFO structure, _PWM_CONTROLLER_INFO, base.pwm_controller_info, pwm/PWM_CONTROLLER_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h

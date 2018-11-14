@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportServicePolicy2.get_UdpPortPolicy
+: 
 ---
 
 # IWdsTransportServicePolicy2::get_UdpPortPolicy

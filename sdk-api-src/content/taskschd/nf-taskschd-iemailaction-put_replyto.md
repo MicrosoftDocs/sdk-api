@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IEmailAction.put_ReplyTo
+: 
 ---
 
 # IEmailAction::put_ReplyTo

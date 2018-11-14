@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdatif.h
+: 
+- IMPEG2_TIF_CONTROL.DeletePIDs
+: 
 ---
 
 # IMPEG2_TIF_CONTROL::DeletePIDs

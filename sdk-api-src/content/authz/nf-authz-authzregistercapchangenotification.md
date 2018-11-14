@@ -7,7 +7,7 @@ old-location: security\authzregistercapchangenotification.htm
 tech.root: secauthz
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzRegisterCapChangeNotification, AuthzRegisterCapChangeNotification function [Security], authz/AuthzRegisterCapChangeNotification, security.authzregistercapchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuthzRegisterCapChangeNotification
+: 
 ---
 
 # AuthzRegisterCapChangeNotification function

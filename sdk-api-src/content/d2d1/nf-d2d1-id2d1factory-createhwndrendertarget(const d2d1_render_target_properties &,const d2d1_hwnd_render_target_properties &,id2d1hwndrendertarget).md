@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGE
 tech.root: direct2d
 ms.assetid: c1f5f5dd-3ae8-4483-bd7d-f25a69489bab
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget method [Direct2D], CreateHwndRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateHwndRenderTarget method, ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory.CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget), ID2D1Factory::CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget), d2d1/ID2D1Factory::CreateHwndRenderTarget, direct2d.ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGET_PROPERTIES_ref_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Factory.CreateHwndRenderTarget
+: 
 ---
 
 # ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget)

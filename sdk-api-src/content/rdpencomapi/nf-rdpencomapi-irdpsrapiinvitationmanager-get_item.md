@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIInvitationManager.get_Item
+: 
 ---
 
 # IRDPSRAPIInvitationManager::get_Item

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_orde
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\scaletransform_38sx_sy_order.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: PathGradientBrush class [GDI+],ScaleTransform method, PathGradientBrush.ScaleTransform, PathGradientBrush::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- PathGradientBrush.ScaleTransform
+: 
 req.product: GDI+ 1.0
 ---
 

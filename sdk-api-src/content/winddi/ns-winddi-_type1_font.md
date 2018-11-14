@@ -9,8 +9,8 @@ ms.assetid: c852a814-3ebc-4688-aa42-c99b0ee63918
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: TYPE1_FONT, TYPE1_FONT structure [Display Devices], _TYPE1_FONT, display.type1_font, grstrcts_5408143c-ae92-4fa6-b5a8-3ef75b46c30d.xml, winddi/TYPE1_FONT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

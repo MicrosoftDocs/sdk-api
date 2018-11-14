@@ -9,8 +9,8 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_5e1v.htm
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: DBSETFUNC, DBSETFUNC structure [Indexing Service], _idxs_DBSETFUNC, cmdtree/DBSETFUNC, indexsrv.dbsetfunc, tagDBSETFUNC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapapplyeffectmethods\applyeffect_bitmapinputs.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ApplyEffect, ApplyEffect method [GDI+], ApplyEffect method [GDI+],Bitmap class, Bitmap class [GDI+],ApplyEffect method, Bitmap.ApplyEffect, Bitmap.ApplyEffect(Bitmap**,INT,Effect*,RECT*,RECT*,Bitmap**), Bitmap.ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), Bitmap::ApplyEffect, Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), _gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_, gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.ApplyEffect
+: 
 req.product: GDI+ 1.1
 ---
 

@@ -7,7 +7,7 @@ old-location: base\symsrvdeltaname.htm
 tech.root: debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
+- apiref
+: 
+- 
+: 
+- SymSrvDeltaNameW
+: 
 ---
 
 # SymSrvDeltaNameW function

@@ -9,8 +9,8 @@ ms.assetid: cd9e6b58-6fbc-449a-9941-b33761797199
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMBackupCollection, IGPMBackupCollection, IGPMBackupCollection interface [GPMC], IGPMBackupCollection interface [GPMC],described, _win32_igpmbackupcollection, gpmc.igpmbackupcollection, gpmgmt/IGPMBackupCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Class_Property_Keys_Ex
+: 
 ---
 
 # CM_Get_Class_Property_Keys_Ex function

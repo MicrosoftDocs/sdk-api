@@ -7,7 +7,7 @@ old-location: tapi3\itaddress2_negotiateextversion.htm
 tech.root: tapi
 ms.assetid: 219b5c74-f999-4bb7-9e13-59c6ade9da46
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],NegotiateExtVersion method, ITAddress2.NegotiateExtVersion, ITAddress2::NegotiateExtVersion, NegotiateExtVersion, NegotiateExtVersion method [TAPI 2.2], NegotiateExtVersion method [TAPI 2.2],ITAddress2 interface, _tapi3_itaddress2_negotiateextversion, tapi3.itaddress2_negotiateextversion, tapi3if/ITAddress2::NegotiateExtVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress2.NegotiateExtVersion
+: 
 ---
 
 # ITAddress2::NegotiateExtVersion

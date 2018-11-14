@@ -9,8 +9,8 @@ ms.assetid: 54ed8ac8-4821-4c0c-9fb9-789c70dbca37
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder interface [DirectShow],described, IGraphBuilderInterface, dshow.igraphbuilder, strmif/IGraphBuilder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

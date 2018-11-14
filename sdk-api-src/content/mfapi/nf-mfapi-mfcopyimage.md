@@ -7,7 +7,7 @@ old-location: mf\mfcopyimage.htm
 tech.root: medfound
 ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c-4d44-84c6-e7b35d308d33, mf.mfcopyimage, mfapi/MFCopyImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCopyImage
+: 
 ---
 
 # MFCopyImage function

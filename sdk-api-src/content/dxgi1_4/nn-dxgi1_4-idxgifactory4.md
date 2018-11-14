@@ -7,10 +7,10 @@ old-location: direct3ddxgi\idxgifactory4.htm
 tech.root: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interface [DXGI],described, direct3ddxgi.idxgifactory4, dxgi1_4/IDXGIFactory4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: 

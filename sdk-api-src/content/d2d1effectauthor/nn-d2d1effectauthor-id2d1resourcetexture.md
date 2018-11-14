@@ -7,10 +7,10 @@ old-location: direct2d\id2d1resourcetexture.htm
 tech.root: direct2d
 ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1ResourceTexture, ID2D1ResourceTexture interface [Direct2D], ID2D1ResourceTexture interface [Direct2D],described, d2d1effectauthor/ID2D1ResourceTexture, direct2d.id2d1resourcetexture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Tbsi_Context_Create
+: 
 ---
 
 # Tbsi_Context_Create function

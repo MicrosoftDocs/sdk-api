@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidisplaycontrol_IsStereoEnabled.htm
 tech.root: direct3ddxgi
 ms.assetid: AE6AA254-3534-4E0F-A206-BAC4536B8B80
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],IsStereoEnabled method, IDXGIDisplayControl.IsStereoEnabled, IDXGIDisplayControl::IsStereoEnabled, IsStereoEnabled, IsStereoEnabled method [DXGI], IsStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled, dxgi1_2/IDXGIDisplayControl::IsStereoEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGIDisplayControl.IsStereoEnabled
+: 
 ---
 
 # IDXGIDisplayControl::IsStereoEnabled

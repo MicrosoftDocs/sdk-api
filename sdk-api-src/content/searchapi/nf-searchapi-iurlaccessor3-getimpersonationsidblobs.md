@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IUrlAccessor3.GetImpersonationSidBlobs
+: 
 ---
 
 # IUrlAccessor3::GetImpersonationSidBlobs

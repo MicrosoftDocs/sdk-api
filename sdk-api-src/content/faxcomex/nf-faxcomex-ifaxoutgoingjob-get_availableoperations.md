@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperatio
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],AvailableOperations property, IFaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp, faxcomex/IFaxOutgoingJob::AvailableOperations, faxcomex/IFaxOutgoingJob::get_AvailableOperations, get_AvailableOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingJob.get_AvailableOperations
+: 
 ---
 
 # IFaxOutgoingJob::get_AvailableOperations

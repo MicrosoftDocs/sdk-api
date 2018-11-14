@@ -9,8 +9,8 @@ ms.assetid: 6a846a07-f513-49e7-85e8-192a5c211515
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], IDDrawExclModeVideo interface [DirectShow],described, IDDrawExclModeVideoInterface, dshow.iddrawexclmodevideo, strmif/IDDrawExclModeVideo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

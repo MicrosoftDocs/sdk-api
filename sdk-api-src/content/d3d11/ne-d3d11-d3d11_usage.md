@@ -9,8 +9,8 @@ ms.assetid: 251d462e-964e-42db-8554-dba8f5a9b1ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 7ab4ccb7-1e59-6a38-2ca4-dd87773c596d, D3D11_USAGE, D3D11_USAGE enumeration [Direct3D 11], D3D11_USAGE_DEFAULT, D3D11_USAGE_DYNAMIC, D3D11_USAGE_IMMUTABLE, D3D11_USAGE_STAGING, d3d11/D3D11_USAGE, d3d11/D3D11_USAGE_DEFAULT, d3d11/D3D11_USAGE_DYNAMIC, d3d11/D3D11_USAGE_IMMUTABLE, d3d11/D3D11_USAGE_STAGING, direct3d11.d3d11_usage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

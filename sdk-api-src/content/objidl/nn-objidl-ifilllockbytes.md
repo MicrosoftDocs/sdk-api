@@ -9,8 +9,8 @@ ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

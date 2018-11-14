@@ -9,8 +9,8 @@ ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity class, TraceLoggingActivity class,described, tracelogging.traceloggingactivity, traceloggingactivity/TraceLoggingActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: traceloggingactivity.h
 req.include-header: 

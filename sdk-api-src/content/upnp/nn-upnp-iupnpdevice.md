@@ -9,8 +9,8 @@ ms.assetid: 566cc606-3dfb-4052-93b0-3c922bf30f84
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPDevice, IUPnPDevice interface [UPnP APIs], IUPnPDevice interface [UPnP APIs],described, _upnp_iupnpdevice, upnp.iupnpdevice, upnp/IUPnPDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

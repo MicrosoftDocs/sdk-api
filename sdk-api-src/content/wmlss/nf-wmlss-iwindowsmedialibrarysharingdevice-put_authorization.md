@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmlss.h
+: 
+- IWindowsMediaLibrarySharingDevice.put_Authorization
+: 
 ---
 
 # IWindowsMediaLibrarySharingDevice::put_Authorization

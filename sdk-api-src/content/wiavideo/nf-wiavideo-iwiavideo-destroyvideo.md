@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wiavideo.h
+: 
+- IWiaVideo.DestroyVideo
+: 
 ---
 
 # IWiaVideo::DestroyVideo

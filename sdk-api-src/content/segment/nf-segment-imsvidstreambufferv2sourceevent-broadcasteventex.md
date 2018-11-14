@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
+: 
 ---
 
 # IMSVidStreamBufferV2SourceEvent::BroadcastEventEx

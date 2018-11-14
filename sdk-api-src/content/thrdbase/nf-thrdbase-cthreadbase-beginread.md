@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- thrdbase.h
+: 
+- CThreadBase.BeginRead
+: 
 ---
 
 # CThreadBase::BeginRead

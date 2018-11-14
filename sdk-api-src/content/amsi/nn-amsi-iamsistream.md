@@ -9,8 +9,8 @@ ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: amsi.h
 req.include-header: 

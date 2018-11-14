@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PMENUITEMTEMPLATE, MENUITEMTEMPLATE, MENUITEMTEMPLATE structure [Menus and Other Resources], MF_CHECKED, MF_GRAYED, MF_HELP, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, PMENUITEMTEMPLATE, PMENUITEMTEMPLATE structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATE_str, _win32_menuitemtemplate_str_cpp, menurc.menuitemtemplate, winui._win32_menuitemtemplate_str, winuser/MENUITEMTEMPLATE, winuser/PMENUITEMTEMPLATE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

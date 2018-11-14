@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- ITraceDataProviderCollection.get_Count
+: 
 ---
 
 # ITraceDataProviderCollection::get_Count

@@ -9,8 +9,8 @@ ms.assetid: cdca44d4-6ab5-4c2f-91ba-bef79b1d457e
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], IDiscMaster2 interface [IMAPI],described, imapi.idiscmaster2, imapi2/IDiscMaster2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\cryptinitoidfunctionset.htm
 tech.root: seccrypto
 ms.assetid: 576a2989-ed7f-417d-b60e-24baf90a6554
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptInitOIDFunctionSet, CryptInitOIDFunctionSet function [Security], _crypto2_cryptinitoidfunctionset, security.cryptinitoidfunctionset, wincrypt/CryptInitOIDFunctionSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptInitOIDFunctionSet
+: 
 ---
 
 # CryptInitOIDFunctionSet function

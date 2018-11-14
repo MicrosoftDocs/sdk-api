@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSCInstallNameSpaceEx32
+: 
 ---
 
 # WSCInstallNameSpaceEx32 function

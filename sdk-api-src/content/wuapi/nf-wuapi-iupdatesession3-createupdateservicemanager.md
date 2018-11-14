@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateSession3.CreateUpdateServiceManager
+: 
 ---
 
 # IUpdateSession3::CreateUpdateServiceManager

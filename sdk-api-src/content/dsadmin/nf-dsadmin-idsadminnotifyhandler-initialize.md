@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dsadmin.h
+: 
+- IDsAdminNotifyHandler.Initialize
+: 
 ---
 
 # IDsAdminNotifyHandler::Initialize

@@ -9,8 +9,8 @@ ms.assetid: C8A27B21-462A-4D70-AA19-743023FD1810
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM structure pointer [Windows Network Virtualization], WNV_NOTIFICATION_PARAM, WNV_NOTIFICATION_PARAM structure [Windows Network Virtualization], _WNV_NOTIFICATION_PARAM, wnv.wnv_notification_param, wnvapi/PWNV_NOTIFICATION_PARAM, wnvapi/WNV_NOTIFICATION_PARAM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 

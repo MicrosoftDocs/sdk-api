@@ -9,8 +9,8 @@ ms.assetid: 2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], IBDA_PinControl interface [Microsoft TV Technologies],described, IBDA_PinControlInterface, bdaiface/IBDA_PinControl, mstv.ibda_pincontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

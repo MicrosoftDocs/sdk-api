@@ -7,10 +7,10 @@ old-location: base\enclave_create_info_vbs.htm
 tech.root: memory
 ms.assetid: 5AD6D695-92D6-47AC-A43C-D3A37D28C76C
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "*PENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS structure, ENCLAVE_VBS_FLAG_DEBUG, PENCLAVE_CREATE_INFO_VBS, PENCLAVE_CREATE_INFO_VBS structure pointer, _ENCLAVE_CREATE_INFO_VBS, base.enclave_create_info_vbs, winnt/ENCLAVE_CREATE_INFO_VBS, winnt/PENCLAVE_CREATE_INFO_VBS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\credreaddomaincredentials.htm
 tech.root: secauthn
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CredReadDomainCredentialsW
+: 
 ---
 
 # CredReadDomainCredentialsW function

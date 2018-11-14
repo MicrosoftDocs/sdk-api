@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollection interface [search],described, _search_ITokenCollection, search._search_ITokenCollection, structuredquery/ITokenCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

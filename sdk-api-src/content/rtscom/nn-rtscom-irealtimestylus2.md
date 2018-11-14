@@ -9,8 +9,8 @@ ms.assetid: d4b55c1d-f8cc-4aed-86a3-b5935d127c2d
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IRealTimeStylus2, IRealTimeStylus2 interface [Tablet PC], IRealTimeStylus2 interface [Tablet PC],described, d4b55c1d-f8cc-4aed-86a3-b5935d127c2d, rtscom/IRealTimeStylus2, tablet.irealtimestylus2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

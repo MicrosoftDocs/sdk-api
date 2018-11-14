@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingQuality_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingquality.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetCompositingQuality, GetCompositingQuality method [GDI+], GetCompositingQuality method [GDI+],Graphics class, Graphics class [GDI+],GetCompositingQuality method, Graphics.GetCompositingQuality, Graphics::GetCompositingQuality, _gdiplus_CLASS_Graphics_GetCompositingQuality_, gdiplus._gdiplus_CLASS_Graphics_GetCompositingQuality_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.GetCompositingQuality
+: 
 req.product: GDI+ 1.0
 ---
 

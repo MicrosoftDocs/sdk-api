@@ -9,8 +9,8 @@ ms.assetid: 8cba3835-9695-4741-b5ac-faba11c1c974
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: RESPONSEBODY_Subscribe, RESPONSEBODY_Subscribe structure, ncd.responsebody_subscribe_struct, wsdtypes/RESPONSEBODY_Subscribe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

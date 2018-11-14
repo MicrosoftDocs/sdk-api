@@ -9,8 +9,8 @@ ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], FWP_VALUE0_, fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

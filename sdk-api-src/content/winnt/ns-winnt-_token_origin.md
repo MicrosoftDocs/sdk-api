@@ -7,10 +7,10 @@ old-location: security\token_origin.htm
 tech.root: secauthz
 ms.assetid: b613f76a-7ad1-4066-90a1-244974f10219
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Security], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Security], _TOKEN_ORIGIN, security.token_origin, winnt/PTOKEN_ORIGIN, winnt/TOKEN_ORIGIN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

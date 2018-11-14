@@ -9,8 +9,8 @@ ms.assetid: 9b79526b-b7e1-41a2-b32e-88124347d77d
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITfFnBalloon interface [Text Services Framework],described, _tsf_itffnballoon_ref, ctffunc/ITfFnBalloon, tsf.itffnballoon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

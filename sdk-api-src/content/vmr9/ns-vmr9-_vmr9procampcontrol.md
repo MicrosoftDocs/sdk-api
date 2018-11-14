@@ -9,8 +9,8 @@ ms.assetid: c4395344-e659-4e5a-aba0-ee27e65fe2cc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: VMR9ProcAmpControl, VMR9ProcAmpControl structure [DirectShow], VMR9ProcAmpControlStructure, _VMR9ProcAmpControl, dshow.vmr9procampcontrol, vmr9/VMR9ProcAmpControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

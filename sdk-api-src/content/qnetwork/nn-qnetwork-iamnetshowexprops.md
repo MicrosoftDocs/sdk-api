@@ -9,8 +9,8 @@ ms.assetid: e68959dc-1a79-4e2c-aeaf-3febcb9c09ce
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: security\isecurityinformation4.htm
 tech.root: secauthz
 ms.assetid: F7AD3612-5D66-49DB-81EF-040849D32CB4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ISecurityInformation4, ISecurityInformation4 interface [Security], ISecurityInformation4 interface [Security],described, aclui/ISecurityInformation4, security.isecurityinformation4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 

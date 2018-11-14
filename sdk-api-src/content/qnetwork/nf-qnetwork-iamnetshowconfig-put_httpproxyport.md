@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMNetShowConfig.put_HTTPProxyPort
+: 
 ---
 
 # IAMNetShowConfig::put_HTTPProxyPort

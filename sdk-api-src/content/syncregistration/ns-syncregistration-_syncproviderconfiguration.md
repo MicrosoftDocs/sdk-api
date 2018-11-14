@@ -9,8 +9,8 @@ ms.assetid: 2b8c9a94-4e11-4904-a6aa-da0433d5b237
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: SyncProviderConfiguration, SyncProviderConfiguration structure [Windows Sync], _SyncProviderConfiguration, syncregistration/SyncProviderConfiguration, winsync.syncproviderconfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: syncregistration.h
 req.include-header: 

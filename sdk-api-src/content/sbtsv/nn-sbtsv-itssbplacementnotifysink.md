@@ -9,8 +9,8 @@ ms.assetid: 7abc5454-141a-47bc-b9cd-341b41a093d2
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

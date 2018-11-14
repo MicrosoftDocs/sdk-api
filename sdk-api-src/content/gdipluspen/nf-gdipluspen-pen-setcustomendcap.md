@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetCustomEndCap_customCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setcustomendcap.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Pen class [GDI+],SetCustomEndCap method, Pen.SetCustomEndCap, Pen::SetCustomEndCap, SetCustomEndCap, SetCustomEndCap method [GDI+], SetCustomEndCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetCustomEndCap_customCap_, gdiplus._gdiplus_CLASS_Pen_SetCustomEndCap_customCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspen.h
+: 
+- Pen.SetCustomEndCap
+: 
 req.product: GDI+ 1.0
 ---
 

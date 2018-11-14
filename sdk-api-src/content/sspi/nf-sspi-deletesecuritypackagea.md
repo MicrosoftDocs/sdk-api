@@ -7,7 +7,7 @@ old-location: security\deletesecuritypackage.htm
 tech.root: secauthn
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeleteSecurityPackageA
+: 
 ---
 
 # DeleteSecurityPackageA function

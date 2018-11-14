@@ -9,8 +9,8 @@ ms.assetid: a82edbbe-a069-4ba8-ba15-524830cdf330
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WICRawCapabilities, WICRawCapabilities enumeration [Windows Imaging Component], WICRawCapabilityFullySupported, WICRawCapabilityGetSupported, WICRawCapabilityNotSupported, _wic_codec_wicrawcapabilities, wic._wic_codec_wicrawcapabilities, wincodec/WICRawCapabilities, wincodec/WICRawCapabilityFullySupported, wincodec/WICRawCapabilityGetSupported, wincodec/WICRawCapabilityNotSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

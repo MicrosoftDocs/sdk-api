@@ -9,8 +9,8 @@ ms.assetid: caefafb8-55f8-47c3-adc7-26708b90d2cd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], IUIAnimationManagerEventHandler interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler, uianimation/IUIAnimationManagerEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

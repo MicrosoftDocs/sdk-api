@@ -9,8 +9,8 @@ ms.assetid: VS|wia|~\wia\refwia\structs\wia_extended_transfer_info.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO structure pointer [WIA], WIA_EXTENDED_TRANSFER_INFO, WIA_EXTENDED_TRANSFER_INFO structure [WIA], _WIA_EXTENDED_TRANSFER_INFO, _wia_WIA_EXTENDED_TRANSFER_INFO, wia._wia_WIA_EXTENDED_TRANSFER_INFO, wia_xp/PWIA_EXTENDED_TRANSFER_INFO, wia_xp/WIA_EXTENDED_TRANSFER_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

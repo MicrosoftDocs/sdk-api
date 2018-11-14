@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationTransitionLibrary2.CreateLinearTransition
+: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateLinearTransition

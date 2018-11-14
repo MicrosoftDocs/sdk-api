@@ -9,8 +9,8 @@ ms.assetid: ed5fc982-9d20-4ace-9d34-17cbef8ad8e2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IResolveShellLink, IResolveShellLink interface [Windows Shell], IResolveShellLink interface [Windows Shell],described, _win32_IResolveShellLink, shell.IResolveShellLink, shobjidl_core/IResolveShellLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

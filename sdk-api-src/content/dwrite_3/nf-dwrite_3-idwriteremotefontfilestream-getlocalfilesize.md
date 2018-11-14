@@ -7,7 +7,7 @@ old-location: directwrite\idwriteremotefontfilestream_getlocalfilesize.htm
 tech.root: DirectWrite
 ms.assetid: 06FB14D5-19F6-48D3-AEA9-3D622219EF2A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetLocalFileSize, GetLocalFileSize method [Direct Write], GetLocalFileSize method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetLocalFileSize method, IDWriteRemoteFontFileStream.GetLocalFileSize, IDWriteRemoteFontFileStream::GetLocalFileSize, directwrite.idwriteremotefontfilestream_getlocalfilesize, dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteRemoteFontFileStream.GetLocalFileSize
+: 
 ---
 
 # IDWriteRemoteFontFileStream::GetLocalFileSize

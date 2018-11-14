@@ -9,8 +9,8 @@ ms.assetid: 75cc1876-e6e0-4c39-a0af-5c47e7501c98
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: NLM_CONNECTION_PROPERTY_CHANGE, NLM_CONNECTION_PROPERTY_CHANGE enumeration [Network Awareness], NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION, netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE, netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION, nla.nlm_connection_property_change
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 

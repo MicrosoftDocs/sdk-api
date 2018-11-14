@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- manipulations.h
+: 
+- IManipulationProcessor.put_PivotRadius
+: 
 ---
 
 # IManipulationProcessor::put_PivotRadius

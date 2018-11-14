@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- callobj.h
+: 
+- ICallInterceptor.RegisterSink
+: 
 ---
 
 # ICallInterceptor::RegisterSink

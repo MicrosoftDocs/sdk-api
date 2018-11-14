@@ -7,7 +7,7 @@ old-location: multimedia\avistreamreaddata.htm
 tech.root: Multimedia
 ms.assetid: 87a787e8-547a-4c35-ba65-a592bd037063
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: AVIStreamReadData, AVIStreamReadData function [Windows Multimedia], _win32_AVIStreamReadData, multimedia.avistreamreaddata, vfw/AVIStreamReadData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AVIStreamReadData
+: 
 ---
 
 # AVIStreamReadData function

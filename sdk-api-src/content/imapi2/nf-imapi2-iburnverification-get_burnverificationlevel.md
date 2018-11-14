@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IBurnVerification.get_BurnVerificationLevel
+: 
 ---
 
 # IBurnVerification::get_BurnVerificationLevel

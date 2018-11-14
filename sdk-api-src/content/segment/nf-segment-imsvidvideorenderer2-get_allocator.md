@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidVideoRenderer2.get_Allocator
+: 
 ---
 
 # IMSVidVideoRenderer2::get_Allocator

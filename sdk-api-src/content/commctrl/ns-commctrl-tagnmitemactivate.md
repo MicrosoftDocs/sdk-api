@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\nmitemactivate.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMITEMACTIVATE, LPNMITEMACTIVATE, LPNMITEMACTIVATE structure pointer [Windows Controls], LVKF_ALT, LVKF_CONTROL, LVKF_SHIFT, NMITEMACTIVATE, NMITEMACTIVATE structure [Windows Controls], _win32_NMITEMACTIVATE, _win32_NMITEMACTIVATE_cpp, commctrl/LPNMITEMACTIVATE, commctrl/NMITEMACTIVATE, controls.NMITEMACTIVATE, controls._win32_NMITEMACTIVATE, tagNMITEMACTIVATE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

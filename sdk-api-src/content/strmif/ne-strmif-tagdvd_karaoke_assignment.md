@@ -9,8 +9,8 @@ ms.assetid: cdfd05b9-7a4a-49cc-ab50-bbe83ed9e0f0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVD_Assignment_LR, DVD_Assignment_LR1, DVD_Assignment_LR12, DVD_Assignment_LRM, DVD_Assignment_LRM1, DVD_Assignment_LRM12, DVD_Assignment_reserved0, DVD_Assignment_reserved1, DVD_KARAOKE_ASSIGNMENT, DVD_KARAOKE_ASSIGNMENT , DVD_KARAOKE_ASSIGNMENT enumeration [DirectShow], DVD_KARAOKE_ASSIGNMENTEnumeration, dshow.dvd_karaoke_assignment, strmif/DVD_Assignment_LR, strmif/DVD_Assignment_LR1, strmif/DVD_Assignment_LR12, strmif/DVD_Assignment_LRM, strmif/DVD_Assignment_LRM1, strmif/DVD_Assignment_LRM12, strmif/DVD_Assignment_reserved0, strmif/DVD_Assignment_reserved1, strmif/DVD_KARAOKE_ASSIGNMENT, tagDVD_KARAOKE_ASSIGNMENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

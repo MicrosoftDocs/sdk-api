@@ -9,8 +9,8 @@ ms.assetid: 2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CPSI_ERROR, CPSI_NONE, CPSI_SUCCESS, CPSI_WARNING, CREDENTIAL_PROVIDER_STATUS_ICON, CREDENTIAL_PROVIDER_STATUS_ICON enumeration [Windows Shell], _CREDENTIAL_PROVIDER_STATUS_ICON, _shell_CREDENTIAL_PROVIDER_STATUS_ICON, credentialprovider/CPSI_ERROR, credentialprovider/CPSI_NONE, credentialprovider/CPSI_SUCCESS, credentialprovider/CPSI_WARNING, credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON, shell.CREDENTIAL_PROVIDER_STATUS_ICON
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: mf\mfgetattributesasblobsize.htm
 tech.root: medfound
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MFGetAttributesAsBlobSize function [Media Foundation], mf.mfgetattributesasblobsize, mfapi/MFGetAttributesAsBlobSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFGetAttributesAsBlobSize
+: 
 ---
 
 # MFGetAttributesAsBlobSize function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- adhoc.h
+: 
+- IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
+: 
 ---
 
 # IDot11AdHocManager::GetIEnumDot11AdHocInterfaces

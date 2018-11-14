@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10_1.h
+: 
+- ID3D10Device1.CreateBlendState1
+: 
 ---
 
 # ID3D10Device1::CreateBlendState1

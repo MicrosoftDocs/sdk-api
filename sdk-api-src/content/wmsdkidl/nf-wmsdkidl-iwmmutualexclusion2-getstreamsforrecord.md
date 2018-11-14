@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMMutualExclusion2.GetStreamsForRecord
+: 
 ---
 
 # IWMMutualExclusion2::GetStreamsForRecord

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- asyncinfo.h
+: 
+- IAsyncInfo.get_Status
+: 
 ---
 
 # IAsyncInfo::get_Status

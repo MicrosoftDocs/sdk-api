@@ -9,8 +9,8 @@ ms.assetid: 80f6cd3a-8cb8-4bda-9b66-33e7d214015a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], IMSVidStreamBufferSink interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkInterface, mstv.imsvidstreambuffersink, segment/IMSVidStreamBufferSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

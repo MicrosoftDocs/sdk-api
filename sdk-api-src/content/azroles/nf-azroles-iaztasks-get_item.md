@@ -7,7 +7,7 @@ old-location: security\iaztasks_item.htm
 tech.root: secauthz
 ms.assetid: eddfebba-4f0e-405a-90b5-dbdc87dca3da
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzTasks object [Security],Item property, IAzTasks interface [Security],Item property, IAzTasks.Item, IAzTasks.get_Item, IAzTasks::Item, IAzTasks::get_Item, Item property [Security], Item property [Security],AzTasks object, Item property [Security],IAzTasks interface, azroles/IAzTasks::Item, azroles/IAzTasks::get_Item, get_Item, security.iaztasks_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTasks.get_Item
+: 
 ---
 
 # IAzTasks::get_Item

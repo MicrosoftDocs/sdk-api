@@ -7,10 +7,10 @@ old-location: base\tpcgetsamplesargs_str.htm
 tech.root: sysinfo
 ms.assetid: 7e92a7c1-6927-4d53-8252-6bdd424d6e0c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsamplesargs_str, base.tpcgetsamplesargs_str, timeprov/TpcGetSamplesArgs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 

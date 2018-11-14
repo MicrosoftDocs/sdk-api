@@ -7,10 +7,10 @@ old-location: base\timeprovsyscallbacks_str.htm
 tech.root: sysinfo
 ms.assetid: a38f8b26-9450-4033-bdd7-e73726c2d609
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: TimeProvSysCallbacks, TimeProvSysCallbacks structure, _win32_timeprovsyscallbacks_str, base.timeprovsyscallbacks_str, timeprov/TimeProvSysCallbacks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 

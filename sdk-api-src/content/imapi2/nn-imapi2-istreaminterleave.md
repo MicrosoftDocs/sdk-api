@@ -9,8 +9,8 @@ ms.assetid: 2d0f03e5-a47d-4b46-a177-f462bbafe153
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInterleave interface [IMAPI],described, imapi.istreaminterleave, imapi2/IStreamInterleave
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

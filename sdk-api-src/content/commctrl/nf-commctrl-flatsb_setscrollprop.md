@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FlatSB_SetScrollProp
+: 
 ---
 
 # FlatSB_SetScrollProp function

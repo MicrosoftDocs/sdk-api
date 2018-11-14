@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: KB959426 on      Windows XP with SP2 and later and Windows Server 2003 with SP1 and later
+- apiref
+: 
+- 
+: 
+- SetSearchPathMode
+: 
 ---
 
 # SetSearchPathMode function

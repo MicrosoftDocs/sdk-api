@@ -9,8 +9,8 @@ ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: featurestagingapi.h
 req.include-header: 

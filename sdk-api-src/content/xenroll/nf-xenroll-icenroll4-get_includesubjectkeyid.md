@@ -7,7 +7,7 @@ old-location: security\icenroll4_includesubjectkeyid.htm
 tech.root: seccrypto
 ms.assetid: 12150ca2-59cc-402e-b25e-cc98b940ecf8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CEnroll object [Security],IncludeSubjectKeyID property, ICEnroll4 interface [Security],IncludeSubjectKeyID property, ICEnroll4.IncludeSubjectKeyID, ICEnroll4.get_IncludeSubjectKeyID, ICEnroll4::IncludeSubjectKeyID, ICEnroll4::get_IncludeSubjectKeyID, ICEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],CEnroll object, IncludeSubjectKeyID property [Security],ICEnroll4 interface, get_IncludeSubjectKeyID, security.icenroll4_includesubjectkeyid, xenroll/ICEnroll4::IncludeSubjectKeyID, xenroll/ICEnroll4::get_IncludeSubjectKeyID, xenroll/ICEnroll4::put_IncludeSubjectKeyID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.get_IncludeSubjectKeyID
+: 
 ---
 
 # ICEnroll4::get_IncludeSubjectKeyID

@@ -9,8 +9,8 @@ ms.assetid: 58ec73dc-79bd-415b-b9be-8e9246166391
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITSDT, ITSDT interface [Microsoft TV Technologies], ITSDT interface [Microsoft TV Technologies],described, ITSDTInterface, mpeg2psiparser/ITSDT, mstv.itsdt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mpeg2psiparser.h
 req.include-header: 

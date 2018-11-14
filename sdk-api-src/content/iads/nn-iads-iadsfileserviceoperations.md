@@ -9,8 +9,8 @@ ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_PARTITION_STYLE, VDS_PARTITION_STYLE enumeration [VDS], VDS_PST_GPT, VDS_PST_MBR, VDS_PST_UNKNOWN, _VDS_PARTITION_STYLE, base.vds_partition_style, vds/VDS_PARTITION_STYLE, vds/VDS_PST_GPT, vds/VDS_PST_MBR, vds/VDS_PST_UNKNOWN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

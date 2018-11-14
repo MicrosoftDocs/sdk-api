@@ -7,7 +7,7 @@ old-location: security\buildexplicitaccesswithname.htm
 tech.root: secauthz
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: BuildExplicitAccessWithName, BuildExplicitAccessWithName function [Security], BuildExplicitAccessWithNameA, BuildExplicitAccessWithNameW, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, MultipleTrusteeOperation, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, TrusteeForm, TrusteeType, _win32_buildexplicitaccesswithname, aclapi/BuildExplicitAccessWithName, aclapi/BuildExplicitAccessWithNameA, aclapi/BuildExplicitAccessWithNameW, pMultipleTrustee, security.buildexplicitaccesswithname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BuildExplicitAccessWithNameA
+: 
 ---
 
 # BuildExplicitAccessWithNameA function

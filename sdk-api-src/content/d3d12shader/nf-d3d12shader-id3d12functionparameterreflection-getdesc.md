@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionparameterreflection_getdesc.htm
 tech.root: direct3d12
 ms.assetid: E10ACB2E-EF77-4C71-A5C7-CEFA31218091
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,GetDesc method, ID3D12FunctionParameterReflection.GetDesc, ID3D12FunctionParameterReflection::GetDesc, d3d12shader/ID3D12FunctionParameterReflection::GetDesc, direct3d12.id3d12functionparameterreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12shader.h
+: 
+- ID3D12FunctionParameterReflection.GetDesc
+: 
 ---
 
 # ID3D12FunctionParameterReflection::GetDesc

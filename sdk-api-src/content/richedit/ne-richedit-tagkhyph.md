@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: KHYPH, KHYPH enumeration [Windows Controls], _win32_KHYPH, _win32_KHYPH_cpp, controls.KHYPH, controls._win32_KHYPH, khyphAddBefore, khyphChangeAfter, khyphChangeBefore, khyphDelAndChange, khyphDeleteBefore, khyphNil, khyphNormal, richedit/KHYPH, richedit/khyphAddBefore, richedit/khyphChangeAfter, richedit/khyphChangeBefore, richedit/khyphDelAndChange, richedit/khyphDeleteBefore, richedit/khyphNil, richedit/khyphNormal, tagKHYPH
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: richedit.h
 req.include-header: 

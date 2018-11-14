@@ -9,8 +9,8 @@ ms.assetid: 1f75b357-0ce0-4efe-b1a8-39200e6b3d1a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AMAP_3D_TARGET, AMAP_ALLOW_SYSMEM, AMAP_DIRECTED_FLIP, AMAP_DXVA_TARGET, AMAP_FORCE_SYSMEM, AMAP_PIXELFORMAT_VALID, VMRSurfaceAllocationFlags, VMRSurfaceAllocationFlags enumeration [DirectShow], VMR_ALLOCATE_SURFACE_FLAGSEnumeration, dshow.vmrsurfaceallocationflags, strmif/AMAP_3D_TARGET, strmif/AMAP_ALLOW_SYSMEM, strmif/AMAP_DIRECTED_FLIP, strmif/AMAP_DXVA_TARGET, strmif/AMAP_FORCE_SYSMEM, strmif/AMAP_PIXELFORMAT_VALID, strmif/VMRSurfaceAllocationFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

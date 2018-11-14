@@ -9,8 +9,8 @@ ms.assetid: EA278262-8CA7-42A3-9F66-0C7B4D3AA525
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: UI_EVENTLOCATION, UI_EVENTLOCATION enumeration [Windows Ribbon], UI_EVENTLOCATION_ApplicationMenu, UI_EVENTLOCATION_ContextPopup, UI_EVENTLOCATION_QAT, UI_EVENTLOCATION_Ribbon, uiribbon/UI_EVENTLOCATION, uiribbon/UI_EVENTLOCATION_ApplicationMenu, uiribbon/UI_EVENTLOCATION_ContextPopup, uiribbon/UI_EVENTLOCATION_QAT, uiribbon/UI_EVENTLOCATION_Ribbon, windowsribbon.ui_eventlocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: cf744dc0-dcf7-4ad3-82f0-2ade186ba608
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WCN_VALUE_RB_24GHZ, WCN_VALUE_RB_50GHZ, WCN_VALUE_TYPE_RF_BANDS, WCN_VALUE_TYPE_RF_BANDS enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_RF_BANDS, wcn.wcn_value_type_rf_bands, wcntypes/WCN_VALUE_RB_24GHZ, wcntypes/WCN_VALUE_RB_50GHZ, wcntypes/WCN_VALUE_TYPE_RF_BANDS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 

@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsbuffer.h
+: 
+- INSSBuffer3.SetProperty
+: 
 ---
 
 # INSSBuffer3::SetProperty

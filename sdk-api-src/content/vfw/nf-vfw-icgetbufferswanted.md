@@ -7,7 +7,7 @@ old-location: multimedia\icgetbufferswanted.htm
 tech.root: Multimedia
 ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- ICGetBuffersWanted
+: 
 ---
 
 # ICGetBuffersWanted macro

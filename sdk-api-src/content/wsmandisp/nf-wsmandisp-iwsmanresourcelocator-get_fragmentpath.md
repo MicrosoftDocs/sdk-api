@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManResourceLocator.get_FragmentPath
+: 
 ---
 
 # IWSManResourceLocator::get_FragmentPath

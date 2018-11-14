@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorcontrol.htm
 tech.root: secauthz
 ms.assetid: d66682f2-8017-4245-9d93-5f8332a5b483
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSecurityDescriptorControl, GetSecurityDescriptorControl function [Security], _win32_getsecuritydescriptorcontrol, security.getsecuritydescriptorcontrol, securitybaseapi/GetSecurityDescriptorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSecurityDescriptorControl
+: 
 ---
 
 # GetSecurityDescriptorControl function

@@ -7,7 +7,7 @@ old-location: base\getprivateprofilestring.htm
 tech.root: sysinfo
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetPrivateProfileString
+: 
 ---
 
 # GetPrivateProfileString function

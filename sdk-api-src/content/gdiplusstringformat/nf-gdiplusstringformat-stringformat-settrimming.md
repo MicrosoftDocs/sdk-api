@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTrimming_trimming_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\settrimming.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: SetTrimming, SetTrimming method [GDI+], SetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],SetTrimming method, StringFormat.SetTrimming, StringFormat::SetTrimming, _gdiplus_CLASS_StringFormat_SetTrimming_trimming_, gdiplus._gdiplus_CLASS_StringFormat_SetTrimming_trimming_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.SetTrimming
+: 
 req.product: GDI+ 1.0
 ---
 

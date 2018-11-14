@@ -7,7 +7,7 @@ old-location: base\setlasterrorex.htm
 tech.root: debug
 ms.assetid: d97494db-868a-49d4-a613-e8beba86d4e6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SetLastErrorEx, SetLastErrorEx function, _win32_setlasterrorex, base.setlasterrorex, winuser/SetLastErrorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetLastErrorEx
+: 
 ---
 
 # SetLastErrorEx function

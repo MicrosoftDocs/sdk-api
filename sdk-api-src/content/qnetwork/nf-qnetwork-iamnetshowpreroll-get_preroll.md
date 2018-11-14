@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMNetShowPreroll.get_Preroll
+: 
 ---
 
 # IAMNetShowPreroll::get_Preroll

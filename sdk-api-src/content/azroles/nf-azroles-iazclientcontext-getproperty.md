@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_getproperty.htm
 tech.root: secauthz
 ms.assetid: 4be02b6d-5eeb-46e6-9339-3edd904f3606
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_CLIENT_CONTEXT_ROLE_FOR_ACCESS_CHECK, AZ_PROP_CLIENT_CONTEXT_USER_CANONICAL, AZ_PROP_CLIENT_CONTEXT_USER_DISPLAY, AZ_PROP_CLIENT_CONTEXT_USER_DN, AZ_PROP_CLIENT_CONTEXT_USER_DNS_SAM_COMPAT, AZ_PROP_CLIENT_CONTEXT_USER_GUID, AZ_PROP_CLIENT_CONTEXT_USER_SAM_COMPAT, AZ_PROP_CLIENT_CONTEXT_USER_UPN, AzClientContext object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzClientContext object, GetProperty method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetProperty method, IAzClientContext.GetProperty, IAzClientContext::GetProperty, azroles/IAzClientContext::GetProperty, security.iazclientcontext_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzClientContext.GetProperty
+: 
 ---
 
 # IAzClientContext::GetProperty

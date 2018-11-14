@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmquota.h
+: 
+- IFsrmQuotaBase.get_Thresholds
+: 
 ---
 
 # IFsrmQuotaBase::get_Thresholds

@@ -7,7 +7,7 @@ old-location: security\setthreadtoken.htm
 tech.root: secauthz
 ms.assetid: ba1a4fce-b3cc-423d-b213-5dfca3dea708
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: SetThreadToken, SetThreadToken function [Security], _win32_setthreadtoken, processthreadsapi/SetThreadToken, security.setthreadtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetThreadToken
+: 
 ---
 
 # SetThreadToken function

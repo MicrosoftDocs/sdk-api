@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmscreen.h
+: 
+- IFsrmFileScreenManager.get_ActionVariableDescriptions
+: 
 ---
 
 # IFsrmFileScreenManager::get_ActionVariableDescriptions

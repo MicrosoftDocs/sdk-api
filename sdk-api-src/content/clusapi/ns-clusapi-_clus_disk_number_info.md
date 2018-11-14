@@ -7,10 +7,10 @@ old-location: mscs\clus_disk_number_info.htm
 tech.root: mscs
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO structure [Failover Cluster], PCLUS_DISK_NUMBER_INFO, PCLUS_DISK_NUMBER_INFO structure pointer [Failover Cluster], _CLUS_DISK_NUMBER_INFO, clusapi/CLUS_DISK_NUMBER_INFO, clusapi/PCLUS_DISK_NUMBER_INFO, mscs.clus_disk_number_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: DF30E838-9C5A-45DD-8E51-5642CF726918
 ms.author: windowssdkdev
 ms.date: 10/23/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO, IOCTL_GENERICUSBFN_GET_CLASS_INFO control, IOCTL_GENERICUSBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_genericusbfn_get_class_info, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

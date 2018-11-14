@@ -7,10 +7,10 @@ old-location: tapi3\itdirectoryobjectuser.htm
 tech.root: tapi
 ms.assetid: 65356507-51d1-479d-8e93-7e18ec041ce3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], ITDirectoryObjectUser interface [TAPI 2.2],described, _tapi3_itdirectoryobjectuser, rend/ITDirectoryObjectUser, tapi3.itdirectoryobjectuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rend.h
 req.include-header: 

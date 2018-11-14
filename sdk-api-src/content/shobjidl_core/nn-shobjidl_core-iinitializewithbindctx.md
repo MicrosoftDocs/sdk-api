@@ -9,8 +9,8 @@ ms.assetid: 0741c172-cd5a-4170-837f-774049fcab9d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IInitializeWithBindCtx, IInitializeWithBindCtx interface [Windows Shell], IInitializeWithBindCtx interface [Windows Shell],described, _shell_IInitializeWithBindCtx, shell.IInitializeWithBindCtx, shobjidl_core/IInitializeWithBindCtx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

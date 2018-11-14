@@ -9,8 +9,8 @@ ms.assetid: 4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: CONFLICT_RESOLUTION_POLICY, CONFLICT_RESOLUTION_POLICY enumeration [Windows Sync], CRP_DESTINATION_PROVIDER_WINS, CRP_LAST, CRP_NONE, CRP_SOURCE_PROVIDER_WINS, __MIDL___MIDL_itf_winsync_0000_0000_0002, winsync.conflict_resolution_policy, winsync/CONFLICT_RESOLUTION_POLICY, winsync/CRP_DESTINATION_PROVIDER_WINS, winsync/CRP_LAST, winsync/CRP_NONE, winsync/CRP_SOURCE_PROVIDER_WINS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

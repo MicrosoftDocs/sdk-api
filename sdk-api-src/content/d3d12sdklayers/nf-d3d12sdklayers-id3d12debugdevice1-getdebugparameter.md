@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1_getdebugparameter.htm
 tech.root: direct3d12
 ms.assetid: 13A7E7D6-FF00-4E17-A7C5-C383F93F6A06
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetDebugParameter, GetDebugParameter method, GetDebugParameter method,ID3D12DebugDevice1 interface, ID3D12DebugDevice1 interface,GetDebugParameter method, ID3D12DebugDevice1.GetDebugParameter, ID3D12DebugDevice1::GetDebugParameter, d3d12sdklayers/ID3D12DebugDevice1::GetDebugParameter, direct3d12.id3d12debugdevice1_getdebugparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12DebugDevice1.GetDebugParameter
+: 
 ---
 
 # ID3D12DebugDevice1::GetDebugParameter
@@ -49,8 +57,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Gets optional device-wide Debug Layer settings.
 

@@ -9,8 +9,8 @@ ms.assetid: A83903B5-314B-4a8b-8D37-F8A8995DE0CB
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDesktopWallpaper, IDesktopWallpaper interface [Windows Shell], IDesktopWallpaper interface [Windows Shell],described, shell.IDesktopWallpaper, shobjidl_core/IDesktopWallpaper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -7,10 +7,10 @@ old-location: security\wlxdialogboxindirect.htm
 tech.root: secauthn
 ms.assetid: adace4e8-659e-4360-985d-d3daafdd3688
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PWLX_DIALOG_BOX_INDIRECT, PWLX_DIALOG_BOX_INDIRECT callback, WlxDialogBoxIndirect, WlxDialogBoxIndirect callback function [Security], _gina_wlxdialogboxindirect, security.wlxdialogboxindirect, winwlx/WlxDialogBoxIndirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

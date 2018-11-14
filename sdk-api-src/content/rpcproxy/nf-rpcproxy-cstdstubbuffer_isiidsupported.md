@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CStdStubBuffer_IsIIDSupported
+: 
 ---
 
 # CStdStubBuffer_IsIIDSupported function

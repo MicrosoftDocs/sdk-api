@@ -7,10 +7,10 @@ old-location: directwrite\idwritetextlayout2.htm
 tech.root: DirectWrite
 ms.assetid: 034D795B-016A-401E-AD75-D5B0D1E87806
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteTextLayout2, IDWriteTextLayout2 interface [Direct Write], IDWriteTextLayout2 interface [Direct Write],described, directwrite.idwritetextlayout2, dwrite_2/IDWriteTextLayout2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_2.h
 req.include-header: 

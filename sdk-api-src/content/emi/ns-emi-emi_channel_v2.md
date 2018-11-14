@@ -9,8 +9,8 @@ ms.assetid: D0635128-9B95-4A53-883C-FD6CCD5B694B
 ms.author: windowssdkdev
 ms.date: 11/06/2018
 ms.keywords: EMI_CHANNEL_V2, EMI_CHANNEL_V2 structure [Power Metering and Budgeting Devices], emi/EMI_CHANNEL_V2, powermeter.emi_channel_v2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: emi.h
 req.include-header: 

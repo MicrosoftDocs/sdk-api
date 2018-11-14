@@ -9,8 +9,8 @@ ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

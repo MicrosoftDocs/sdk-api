@@ -9,8 +9,8 @@ ms.assetid: 49c5ad02-f24b-4ef9-b943-483728c0bbcd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface,described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

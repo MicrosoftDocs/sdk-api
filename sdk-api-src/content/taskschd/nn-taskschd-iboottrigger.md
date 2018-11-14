@@ -9,8 +9,8 @@ ms.assetid: 8f186ee2-8d74-426c-9173-523a335422c9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBootTrigger, IBootTrigger interface [Task Scheduler], IBootTrigger interface [Task Scheduler],described, boot trigger [Task Scheduler],interface, taskschd.iboottrigger, taskschd/IBootTrigger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

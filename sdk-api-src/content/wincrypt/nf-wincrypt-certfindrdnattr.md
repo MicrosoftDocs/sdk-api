@@ -7,7 +7,7 @@ old-location: security\certfindrdnattr.htm
 tech.root: seccrypto
 ms.assetid: 31f82a02-e90a-48de-857a-9fbb03048b5c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_certfindrdnattr, security.certfindrdnattr, wincrypt/CertFindRDNAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertFindRDNAttr
+: 
 ---
 
 # CertFindRDNAttr function

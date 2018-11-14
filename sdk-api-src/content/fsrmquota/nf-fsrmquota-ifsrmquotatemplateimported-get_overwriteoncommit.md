@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmquota.h
+: 
+- IFsrmQuotaTemplateImported.get_OverwriteOnCommit
+: 
 ---
 
 # IFsrmQuotaTemplateImported::get_OverwriteOnCommit

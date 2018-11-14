@@ -9,8 +9,8 @@ ms.assetid: 42BD1BA6-AD5B-4CD0-8860-20A85048D19A
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: AppPolicyLifecycleManagement, AppPolicyLifecycleManagement enumeration [App packaging and management], AppPolicyLifecycleManagement_Managed, AppPolicyLifecycleManagement_Unmanaged, appmodel/AppPolicyLifecycleManagement, appmodel/AppPolicyLifecycleManagement_Managed, appmodel/AppPolicyLifecycleManagement_Unmanaged, appxpkg.apppolicylifecyclemanagement_enumeration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 

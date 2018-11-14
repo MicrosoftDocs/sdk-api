@@ -7,7 +7,7 @@ old-location: security\accesscheckbytyperesultlist.htm
 tech.root: secauthz
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AccessCheckByTypeResultList
+: 
 ---
 
 # AccessCheckByTypeResultList function

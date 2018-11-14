@@ -9,8 +9,8 @@ ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

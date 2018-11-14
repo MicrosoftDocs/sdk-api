@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_verifyrequest.htm
 tech.root: seccrypto
 ms.assetid: 860f0eb0-5b23-44bd-8416-687a94962f1b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertPolicy object [Security],VerifyRequest method, ICertPolicy interface [Security],VerifyRequest method, ICertPolicy.VerifyRequest, ICertPolicy2 interface [Security],VerifyRequest method, ICertPolicy2::VerifyRequest, ICertPolicy::VerifyRequest, VR_INSTANT_BAD, VR_INSTANT_OK, VR_PENDING, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],CCertPolicy object, VerifyRequest method [Security],ICertPolicy interface, VerifyRequest method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_verifyrequest, certpol/ICertPolicy2::VerifyRequest, certpol/ICertPolicy::VerifyRequest, security.icertpolicy2_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certpol.h
+: 
+- ICertPolicy.VerifyRequest
+: 
 ---
 
 # ICertPolicy::VerifyRequest

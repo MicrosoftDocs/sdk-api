@@ -7,7 +7,7 @@ old-location: direct2d\id2d1concretetransform_setcached.htm
 tech.root: direct2d
 ms.assetid: A1600D5A-BEE9-4EBE-BC2E-53B6B80EE4EA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1ConcreteTransform interface [Direct2D],SetCached method, ID2D1ConcreteTransform.SetCached, ID2D1ConcreteTransform::SetCached, SetCached, SetCached method [Direct2D], SetCached method [Direct2D],ID2D1ConcreteTransform interface, d2d1effectauthor/ID2D1ConcreteTransform::SetCached, direct2d.id2d1concretetransform_setcached
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1ConcreteTransform.SetCached
+: 
 ---
 
 # ID2D1ConcreteTransform::SetCached

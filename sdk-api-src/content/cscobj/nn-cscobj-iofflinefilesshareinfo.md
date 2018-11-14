@@ -9,8 +9,8 @@ ms.assetid: 9647aae3-06ca-4813-8243-3d0fb794802d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesShareInfo, IOfflineFilesShareInfo interface [Offline Files], IOfflineFilesShareInfo interface [Offline Files],described, cscobj/IOfflineFilesShareInfo, of.iofflinefilesshareinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

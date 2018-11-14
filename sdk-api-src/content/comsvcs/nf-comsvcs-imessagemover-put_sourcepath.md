@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IMessageMover.put_SourcePath
+: 
 ---
 
 # IMessageMover::put_SourcePath

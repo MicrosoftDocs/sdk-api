@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_activity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Activity property, IFaxServer.Activity, IFaxServer.get_Activity, IFaxServer::Activity, IFaxServer::get_Activity, _mfax_faxserver.activity_cpp, fax._mfax_faxserver_activity_cpp, faxcomex/IFaxServer::Activity, faxcomex/IFaxServer::get_Activity, get_Activity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxServer.get_Activity
+: 
 ---
 
 # IFaxServer::get_Activity

@@ -9,8 +9,8 @@ ms.assetid: 226a5ca1-10e1-47a7-8bd9-b153a0784ccb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDMA_RESOURCE, DMA_RESOURCE, DMA_RESOURCE structure [Device and Driver Installation], DMA_Resource_s, PDMA_RESOURCE, PDMA_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/DMA_RESOURCE, cfgmgr32/PDMA_RESOURCE, cfgmgrst_7efdb1b3-3104-4bbe-81a6-e118a75a70a3.xml, devinst.dma_resource"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

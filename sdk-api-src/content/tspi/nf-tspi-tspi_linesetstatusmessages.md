@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetstatusmessages.htm
 tech.root: tapi
 ms.assetid: 546c4f6e-6bda-4b4b-91ed-51d0b64af677
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_lineSetStatusMessages, TSPI_lineSetStatusMessages function [TAPI 2.2], _tspi_tspi_linesetstatusmessages, tspi.tspi_linesetstatusmessages, tspi/TSPI_lineSetStatusMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineSetStatusMessages
+: 
 ---
 
 # TSPI_lineSetStatusMessages function

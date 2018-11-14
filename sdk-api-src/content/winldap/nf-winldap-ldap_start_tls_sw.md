@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_start_tls_sW
+: 
 ---
 
 # ldap_start_tls_sW function

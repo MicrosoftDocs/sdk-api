@@ -9,8 +9,8 @@ ms.assetid: f17765d5-ccb4-4ede-86e4-36ac80022da0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVSS_VOLUME_PROP, PVSS_VOLUME_PROP, PVSS_VOLUME_PROP structure pointer [VSS], VSS_VOLUME_PROP, VSS_VOLUME_PROP structure [VSS], _VSS_VOLUME_PROP, base.vss_volume_prop, vsmgmt/PVSS_VOLUME_PROP, vsmgmt/VSS_VOLUME_PROP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vsmgmt.h
 req.include-header: 

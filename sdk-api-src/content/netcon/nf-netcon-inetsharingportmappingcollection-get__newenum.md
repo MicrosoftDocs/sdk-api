@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- INetSharingPortMappingCollection.get__NewEnum
+: 
 ---
 
 # INetSharingPortMappingCollection::get__NewEnum

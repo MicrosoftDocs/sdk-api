@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_GetStretch.htm
 tech.root: DirectWrite
 ms.assetid: 3e90f34a-bbed-4911-9a35-65185db3f162
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetStretch, GetStretch method [Direct Write], GetStretch method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetStretch method, IDWriteFont.GetStretch, IDWriteFont::GetStretch, directwrite.IDWriteFont_GetStretch, dwrite/IDWriteFont::GetStretch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFont.GetStretch
+: 
 ---
 
 # IDWriteFont::GetStretch

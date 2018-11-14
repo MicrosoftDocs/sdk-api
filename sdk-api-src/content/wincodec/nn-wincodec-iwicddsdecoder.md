@@ -9,8 +9,8 @@ ms.assetid: 632D1E7B-9C1D-48FB-95B5-1A295FE99577
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICDdsDecoder, IWICDdsDecoder interface [Windows Imaging Component], IWICDdsDecoder interface [Windows Imaging Component],described, wic.iwicddsdecoder, wincodec/IWICDdsDecoder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

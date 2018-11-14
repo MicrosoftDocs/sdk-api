@@ -9,8 +9,8 @@ ms.assetid: 64a7c075-342d-49c1-90eb-9ac34d0c2318
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVEncVideoFilmContent, codecapi/eAVEncVideoFilmContent_FilmOnly, codecapi/eAVEncVideoFilmContent_Mixed, codecapi/eAVEncVideoFilmContent_VideoOnly, dshow.eavencvideofilmcontent, eAVEncVideoFilmContent, eAVEncVideoFilmContent enumeration [DirectShow], eAVEncVideoFilmContentEnumeration, eAVEncVideoFilmContent_FilmOnly, eAVEncVideoFilmContent_Mixed, eAVEncVideoFilmContent_VideoOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

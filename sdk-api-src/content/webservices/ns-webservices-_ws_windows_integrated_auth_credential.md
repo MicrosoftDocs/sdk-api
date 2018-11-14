@@ -9,8 +9,8 @@ ms.assetid: 78df2636-439b-4e55-8ca5-dc0f4f4ad745
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], _WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_windows_integrated_auth_credential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

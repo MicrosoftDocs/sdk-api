@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reset.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GraphicsPath class [GDI+],Reset method, GraphicsPath.Reset, GraphicsPath::Reset, Reset, Reset method [GDI+], Reset method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Reset_, gdiplus._gdiplus_CLASS_GraphicsPath_Reset_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.Reset
+: 
 req.product: GDI+ 1.0
 ---
 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IExpDispSupport.OnInvoke
+: 
 req.product: Internet Explorer 4.0
 ---
 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMVector4GreaterOrEqualR
+: 
 ---
 
 # XMVector4GreaterOrEqualR function

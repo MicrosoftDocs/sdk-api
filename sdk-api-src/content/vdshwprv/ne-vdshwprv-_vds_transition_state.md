@@ -9,8 +9,8 @@ ms.assetid: ef688d1f-136b-4bc8-8209-e30033e752e9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTENDING, VDS_TS_RECONFIGING, VDS_TS_RESTRIPING, VDS_TS_SHRINKING, VDS_TS_STABLE, VDS_TS_UNKNOWN, _VDS_TRANSITION_STATE, base.vds_transition_state, vds/VDS_TRANSITION_STATE, vds/VDS_TS_EXTENDING, vds/VDS_TS_RECONFIGING, vds/VDS_TS_RESTRIPING, vds/VDS_TS_SHRINKING, vds/VDS_TS_STABLE, vds/VDS_TS_UNKNOWN, vdshwprv/VDS_TRANSITION_STATE, vdshwprv/VDS_TS_EXTENDING, vdshwprv/VDS_TS_RECONFIGING, vdshwprv/VDS_TS_RESTRIPING, vdshwprv/VDS_TS_SHRINKING, vdshwprv/VDS_TS_STABLE, vdshwprv/VDS_TS_UNKNOWN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmReportJob.get_LastError
+: 
 ---
 
 # IFsrmReportJob::get_LastError

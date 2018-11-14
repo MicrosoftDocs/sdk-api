@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iads.h
+: 
+- IADsMembers.get__NewEnum
+: 
 ---
 
 # IADsMembers::get__NewEnum

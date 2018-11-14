@@ -7,7 +7,7 @@ old-location: security\iazclientcontext3_getgroups.htm
 tech.root: secauthz
 ms.assetid: e34b55e1-df7f-4356-b84e-8f297afcda24
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_CLIENT_CONTEXT_GET_GROUPS_STORE_LEVEL_ONLY, GetGroups, GetGroups method [Security], GetGroups method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetGroups method, IAzClientContext3.GetGroups, IAzClientContext3::GetGroups, azroles/IAzClientContext3::GetGroups, security.iazclientcontext3_getgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzClientContext3.GetGroups
+: 
 ---
 
 # IAzClientContext3::GetGroups

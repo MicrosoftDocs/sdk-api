@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_PARAMETERS
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: XAUDIO2_FILTER_PARAMETERS, XAUDIO2_FILTER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_filter_parameters, xaudio2/XAUDIO2_FILTER_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 

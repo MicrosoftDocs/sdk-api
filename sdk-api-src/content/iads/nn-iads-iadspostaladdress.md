@@ -9,8 +9,8 @@ ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

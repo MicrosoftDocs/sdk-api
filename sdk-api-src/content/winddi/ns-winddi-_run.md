@@ -9,8 +9,8 @@ ms.assetid: 7c53ec29-2541-40d3-95df-bf73d900a6d6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PRUN, PRUN, PRUN structure pointer [Display Devices], RUN, RUN structure [Display Devices], _RUN, display.run, grstrcts_ccdf6b98-1c92-4d72-b777-e4c075e53064.xml, winddi/PRUN, winddi/RUN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

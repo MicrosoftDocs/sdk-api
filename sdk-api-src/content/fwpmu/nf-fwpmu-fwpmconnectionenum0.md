@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmConnectionEnum0
+: 
 ---
 
 # FwpmConnectionEnum0 function

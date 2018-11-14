@@ -9,8 +9,8 @@ ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: 

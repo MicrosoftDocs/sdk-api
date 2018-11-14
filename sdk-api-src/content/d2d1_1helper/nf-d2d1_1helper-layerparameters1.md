@@ -7,7 +7,7 @@ old-location: direct2d\layerparameters1.htm
 tech.root: direct2d
 ms.assetid: 8E882B23-CD6C-4CEB-9297-837B4E278BB7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helper/LayerParameters1, direct2d.layerparameters1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LayerParameters1
+: 
 ---
 
 # LayerParameters1 function

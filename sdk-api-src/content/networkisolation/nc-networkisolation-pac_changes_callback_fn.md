@@ -9,8 +9,8 @@ ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: networkisolation.h
 req.include-header: Netfw.h

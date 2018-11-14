@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IConfigurationDataCollector.put_ManagementQueries
+: 
 ---
 
 # IConfigurationDataCollector::put_ManagementQueries

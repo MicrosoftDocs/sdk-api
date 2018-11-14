@@ -9,8 +9,8 @@ ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

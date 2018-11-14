@@ -9,8 +9,8 @@ ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], __MIDL___MIDL_itf_eventsys_0000_0009_0001, _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eventsys.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 391e96a3-372e-43b9-a752-0234d0fd37e1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WICJpegLuminanceProperties, WICJpegLuminanceProperties enumeration [Windows Imaging Component], WICJpegLuminanceTable, _wic_codec_wicjpegluminanceproperties, wic._wic_codec_wicjpegluminanceproperties, wincodec/WICJpegLuminanceProperties, wincodec/WICJpegLuminanceTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

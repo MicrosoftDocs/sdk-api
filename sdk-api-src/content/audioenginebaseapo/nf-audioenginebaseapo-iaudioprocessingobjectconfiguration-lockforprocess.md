@@ -7,7 +7,7 @@ old-location: audio\iaudioprocessingobjectconfiguration_lockforprocess.htm
 tech.root: audio
 ms.assetid: e76c9fc5-15ed-497e-a7da-42b8e3642903
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/13/2018
 ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],LockForProcess method, IAudioProcessingObjectConfiguration.LockForProcess, IAudioProcessingObjectConfiguration::LockForProcess, LockForProcess, LockForProcess method [Audio Devices], LockForProcess method [Audio Devices],IAudioProcessingObjectConfiguration interface, audio.iaudioprocessingobjectconfiguration_lockforprocess, audio_syseffects_r_cdb70452-7705-4acd-9d29-151225d878c8.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::LockForProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- audioenginebaseapo.h
+: 
+- IAudioProcessingObjectConfiguration.LockForProcess
+: 
 ---
 
 # IAudioProcessingObjectConfiguration::LockForProcess

@@ -7,7 +7,7 @@ old-location: multimedia\midistreamclose.htm
 tech.root: Multimedia
 ms.assetid: 53096399-3e79-4534-8b67-ccb70c32ccf0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_midiStreamClose, midiStreamClose, midiStreamClose function [Windows Multimedia], mmeapi/midiStreamClose, multimedia.midistreamclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- midiStreamClose
+: 
 ---
 
 # midiStreamClose function

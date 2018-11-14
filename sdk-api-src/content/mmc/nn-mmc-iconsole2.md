@@ -9,8 +9,8 @@ ms.assetid: 9a20d09d-219c-4bcb-95b3-67a44e41629e
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IConsole2, IConsole2 interface [MMC], IConsole2 interface [MMC],described, _slate_iconsole2, mmc.iconsole2, mmc/IConsole2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

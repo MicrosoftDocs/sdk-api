@@ -7,7 +7,7 @@ old-location: base\getsystemwow64directory.htm
 tech.root: sysinfo
 ms.assetid: 31ccd1bf-87c7-4df6-ae9d-5a3dfbd8b38b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetSystemWow64Directory, GetSystemWow64Directory function, GetSystemWow64DirectoryA, GetSystemWow64DirectoryW, _win32_getsystemwow64directory, base.getsystemwow64directory, wow64apiset/GetSystemWow64Directory, wow64apiset/GetSystemWow64DirectoryA, wow64apiset/GetSystemWow64DirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,6 +55,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemWow64DirectoryW
+: 
 ---
 
 # GetSystemWow64DirectoryW function

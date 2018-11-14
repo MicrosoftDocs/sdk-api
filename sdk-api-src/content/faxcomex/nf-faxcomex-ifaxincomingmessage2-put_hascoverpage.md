@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_hascover
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\hascoverpage.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Service],IFaxIncomingMessage2 interface, IFaxIncomingMessage2 interface [Fax Service],HasCoverPage property, IFaxIncomingMessage2.HasCoverPage, IFaxIncomingMessage2.get_HasCoverPage, IFaxIncomingMessage2.put_HasCoverPage, IFaxIncomingMessage2::HasCoverPage, IFaxIncomingMessage2::get_HasCoverPage, IFaxIncomingMessage2::put_HasCoverPage, _mfax_faxincomingmessage.hascoverpage, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_hascoverpage_cpp, fax._mfax_faxincomingmessage_hascoverpage, faxcomex/IFaxIncomingMessage2::HasCoverPage, faxcomex/IFaxIncomingMessage2::get_HasCoverPage, faxcomex/IFaxIncomingMessage2::put_HasCoverPage, put_HasCoverPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxIncomingMessage2.put_HasCoverPage
+: 
 ---
 
 # IFaxIncomingMessage2::put_HasCoverPage

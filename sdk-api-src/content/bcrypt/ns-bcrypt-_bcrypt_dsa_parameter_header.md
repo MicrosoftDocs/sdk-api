@@ -9,8 +9,8 @@ ms.assetid: 96c20afb-e429-45b3-b817-88134914a26b
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC, BCRYPT_DSA_PARAMETER_HEADER, BCRYPT_DSA_PARAMETER_HEADER structure [Security], PBCRYPT_DSA_PARAMETER_HEADER, PBCRYPT_DSA_PARAMETER_HEADER structure pointer [Security], _BCRYPT_DSA_PARAMETER_HEADER, bcrypt/BCRYPT_DSA_PARAMETER_HEADER, bcrypt/PBCRYPT_DSA_PARAMETER_HEADER, security.bcrypt_dsa_parameter_header
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

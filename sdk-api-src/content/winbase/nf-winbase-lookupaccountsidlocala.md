@@ -7,7 +7,7 @@ old-location: security\lookupaccountsidlocal.htm
 tech.root: secauthz
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LookupAccountSidLocalA
+: 
 ---
 
 # LookupAccountSidLocalA function

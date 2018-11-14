@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidVMR9.SetAllocator
+: 
 ---
 
 # IMSVidVMR9::SetAllocator

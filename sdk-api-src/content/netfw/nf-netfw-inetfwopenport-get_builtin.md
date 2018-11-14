@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwOpenPort.get_BuiltIn
+: 
 ---
 
 # INetFwOpenPort::get_BuiltIn

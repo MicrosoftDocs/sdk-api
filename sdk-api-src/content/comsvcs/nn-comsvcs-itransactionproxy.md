@@ -9,8 +9,8 @@ ms.assetid: 58d40456-fd4f-4690-a679-3fa58b2f3cda
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], ITransactionProxy interface [COM+],described, comsvcs/ITransactionProxy, cos.itransactionproxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

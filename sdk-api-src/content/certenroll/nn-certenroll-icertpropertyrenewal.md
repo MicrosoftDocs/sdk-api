@@ -9,8 +9,8 @@ ms.assetid: c87a391a-aec9-4b42-8084-c593ecbb0bc6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], ICertPropertyRenewal interface [Security],described, certenroll/ICertPropertyRenewal, security.icertpropertyrenewal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

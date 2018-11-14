@@ -2,13 +2,13 @@
 UID: NF:directxcollision.BoundingOrientedBox.ContainedBy
 title: ContainedBy function
 author: windows-sdk-content
-description: Tests whether a triangle is contained within six planes (typically a frustum).
-old-location: dxmath\containedby.htm
+description: Tests whether the BoundingOrientedBox is contained by a frustum.
+old-location: dxmath\boundingorientedbox_containedby.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.TriangleTests.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
+ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 11/02/2018
-ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], DirectX::TriangleTests.ContainedBy, dxmath.containedby
+ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],ContainedBy method, BoundingOrientedBox.ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_containedby
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: DirectX::TriangleTests
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -37,11 +37,17 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - ContainedBy
+ - BoundingOrientedBox.ContainedBy
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ContainedBy
+: 
 ---
 
 # ContainedBy function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Tests whether a triangle is contained within six planes (typically a frustum).
+Tests whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> is contained by a frustum.
 
 
 ## -parameters
@@ -58,56 +64,41 @@ Tests whether a triangle is contained within six planes (typically a frustum).
 
 
 
-### -param Plane0
+### -param Plane0 [in]
 
-A vector defining a plane.
-
-
-### -param Plane1
-
-A vector defining a plane.
+A plane describing the frustum.
 
 
-### -param Plane2
+### -param Plane1 [in]
 
-A vector defining a plane.
-
-
-### -param Plane3
-
-A vector defining a plane.
+A plane describing the frustum.
 
 
-### -param Plane4
+### -param Plane2 [in]
 
-A vector defining a plane.
-
-
-### -param Plane5
-
-A vector defining a plane.
+A plane describing the frustum.
 
 
-#### - V0
+### -param Plane3 [in]
 
-A vector defining the triangle.
-
-
-#### - V1
-
-A vector defining the triangle.
+A plane describing the frustum.
 
 
-#### - V2
+### -param Plane4 [in]
 
-A vector defining the triangle.
+A plane describing the frustum.
+
+
+### -param Plane5 [in]
+
+A plane describing the frustum.
 
 
 ## -returns
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the triangle is contained within the planes.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> indicating whether the frustum contains the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 
@@ -116,9 +107,6 @@ A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">Cont
 
 
 
-<div class="alert"><b>Note</b>  <code>TriangleTests</code>::<code>ContainedBy</code> is new for DirectXMath.  This functionality is not available in XNAMath 2.x.  
-  Similar functionality for XNAMath can be found in the DirectX SDK Collision sample.</div>
-<div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -130,7 +118,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/97c5fa38-e88c-debb-f3ed-76c5878778c4">DirectXMath Triangle Test Functions</a>
+<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+
+
+
+<a href="https://msdn.microsoft.com/98aa4c21-2dac-4e7a-95ef-ca87fb5e5082">Methods</a>
+
+
+
+<b>Reference</b>
  
 
  

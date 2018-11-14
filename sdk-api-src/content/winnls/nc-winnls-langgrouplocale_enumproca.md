@@ -9,8 +9,8 @@ ms.assetid: e422c61f-7a97-4f95-8592-22a1eb5f616b
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: LANGGROUPLOCALE_ENUMPROC, LANGGROUPLOCALE_ENUMPROC callback, LANGGROUPLOCALE_ENUMPROC callback function [Internationalization for Windows Applications], LANGGROUPLOCALE_ENUMPROCA, LANGGROUPLOCALE_ENUMPROCW, _win32_EnumLanguageGroupLocalesProc, intl.enumlanguagegrouplocalesproc, winnls/LANGGROUPLOCALE_ENUMPROC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h

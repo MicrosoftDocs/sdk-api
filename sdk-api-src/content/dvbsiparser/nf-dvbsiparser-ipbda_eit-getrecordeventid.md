@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IPBDA_EIT.GetRecordEventId
+: 
 ---
 
 # IPBDA_EIT::GetRecordEventId

@@ -9,8 +9,8 @@ ms.assetid: bd96b79a-5670-4aaf-b72c-619818c2a2e7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCLASS_QUERY_INFORMATION_CALLBACK, BCLASS_QUERY_INFORMATION_CALLBACK callback, BatteryMiniQueryInformation, BatteryMiniQueryInformation callback function [Battery Devices], bat-mini_89cb050e-0a2e-4fad-b6fa-c2977703c782.xml, batclass/BatteryMiniQueryInformation, battery.batteryminiqueryinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h

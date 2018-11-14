@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\comboex\structures\comboboxexitem.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PCOMBOBOXEXITEMW, CBEIF_DI_SETITEM, CBEIF_IMAGE, CBEIF_INDENT, CBEIF_LPARAM, CBEIF_OVERLAY, CBEIF_SELECTEDIMAGE, CBEIF_TEXT, COMBOBOXEXITEM, COMBOBOXEXITEM structure [Windows Controls], COMBOBOXEXITEMA, COMBOBOXEXITEMW, PCOMBOBOXEXITEM, PCOMBOBOXEXITEM structure pointer [Windows Controls], _win32_COMBOBOXEXITEM, _win32_COMBOBOXEXITEM_cpp, commctrl/COMBOBOXEXITEM, commctrl/COMBOBOXEXITEMA, commctrl/COMBOBOXEXITEMW, commctrl/PCOMBOBOXEXITEM, controls.COMBOBOXEXITEM, controls._win32_COMBOBOXEXITEM, tagCOMBOBOXEXITEMW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

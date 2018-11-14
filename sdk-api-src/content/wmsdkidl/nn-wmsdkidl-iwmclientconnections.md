@@ -9,8 +9,8 @@ ms.assetid: fea7cd85-22ab-4f3b-8a0a-301496f0c788
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMClientConnections, IWMClientConnections interface [windows Media Format], IWMClientConnections interface [windows Media Format],described, IWMClientConnectionsInterface, wmformat.iwmclientconnections, wmsdkidl/IWMClientConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

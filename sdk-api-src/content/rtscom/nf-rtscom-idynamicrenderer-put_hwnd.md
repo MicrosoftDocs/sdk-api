@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rtscom.h
+: 
+- IDynamicRenderer.put_HWND
+: 
 ---
 
 # IDynamicRenderer::put_HWND

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IChannelTuneRequest.get_Channel
+: 
 ---
 
 # IChannelTuneRequest::get_Channel

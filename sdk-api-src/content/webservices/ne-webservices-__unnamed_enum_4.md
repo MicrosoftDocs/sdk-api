@@ -9,8 +9,8 @@ ms.assetid: 65449a2d-88c3-431e-83d5-ecb182463cf5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_MATCH_URL_DNS_FULLY_QUALIFIED_HOST, WS_MATCH_URL_DNS_HOST, WS_MATCH_URL_EXACT_PATH, WS_MATCH_URL_HOST_ADDRESSES, WS_MATCH_URL_LOCAL_HOST, WS_MATCH_URL_NETBIOS_HOST, WS_MATCH_URL_NO_QUERY, WS_MATCH_URL_PORT, WS_MATCH_URL_PREFIX_PATH, WS_MATCH_URL_THIS_HOST, WS_URL_MATCHING_OPTIONS, WS_URL_MATCHING_OPTIONS enumeration [Web Services for Windows], __unnamed_enum_4, webservices/WS_MATCH_URL_DNS_FULLY_QUALIFIED_HOST, webservices/WS_MATCH_URL_DNS_HOST, webservices/WS_MATCH_URL_EXACT_PATH, webservices/WS_MATCH_URL_HOST_ADDRESSES, webservices/WS_MATCH_URL_LOCAL_HOST, webservices/WS_MATCH_URL_NETBIOS_HOST, webservices/WS_MATCH_URL_NO_QUERY, webservices/WS_MATCH_URL_PORT, webservices/WS_MATCH_URL_PREFIX_PATH, webservices/WS_MATCH_URL_THIS_HOST, webservices/WS_URL_MATCHING_OPTIONS, wsw.ws_url_matching_options
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

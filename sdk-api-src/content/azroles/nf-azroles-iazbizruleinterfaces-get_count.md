@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_count_method.htm
 tech.root: secauthz
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces.get_Count, IAzBizRuleInterfaces::Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count, security.iazbizruleinterfaces_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzBizRuleInterfaces.get_Count
+: 
 ---
 
 # IAzBizRuleInterfaces::get_Count

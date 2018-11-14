@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rtscom.h
+: 
+- IRealTimeStylus2.get_FlicksEnabled
+: 
 ---
 
 # IRealTimeStylus2::get_FlicksEnabled

@@ -9,8 +9,8 @@ ms.assetid: 51bbbfdb-fa64-473b-aa48-2562512a2af3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PEER_GROUP_AUTHENTICATION_SCHEME, PEER_GROUP_AUTHENTICATION_SCHEME enumeration [Peer Networking], PEER_GROUP_GMC_AUTHENTICATION, PEER_GROUP_PASSWORD_AUTHENTICATION, p2p.peer_group_authentication_scheme, p2p/PEER_GROUP_AUTHENTICATION_SCHEME, p2p/PEER_GROUP_GMC_AUTHENTICATION, p2p/PEER_GROUP_PASSWORD_AUTHENTICATION, peer_group_authentication_scheme_tag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

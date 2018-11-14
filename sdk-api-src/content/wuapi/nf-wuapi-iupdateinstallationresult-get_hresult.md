@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateInstallationResult.get_HResult
+: 
 ---
 
 # IUpdateInstallationResult::get_HResult

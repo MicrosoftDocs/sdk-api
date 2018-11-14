@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsobjectmodel_2.h
+: 
+- IXpsOMPackageWriter3D.SetModelPrintTicket
+: 
 ---
 
 # IXpsOMPackageWriter3D::SetModelPrintTicket

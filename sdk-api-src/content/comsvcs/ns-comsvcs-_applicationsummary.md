@@ -9,8 +9,8 @@ ms.assetid: 3291eede-5318-4d97-a969-ce54381f30af
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ApplicationSummary, ApplicationSummary structure [COM+], _ApplicationSummary, comsvcs/ApplicationSummary, cos.applicationsummary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

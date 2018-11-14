@@ -9,8 +9,8 @@ ms.assetid: eec0a7ef-ad7c-4fb6-a101-573c2d0943c2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,described, base.ivsscreatewritermetadataex, vswriter/IVssCreateWriterMetadataEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

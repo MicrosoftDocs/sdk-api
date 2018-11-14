@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPDEBUGHOOKINFO, *NPDEBUGHOOKINFO, *PDEBUGHOOKINFO, DEBUGHOOKINFO, DEBUGHOOKINFO structure [Windows and Messages], LPDEBUGHOOKINFO, LPDEBUGHOOKINFO structure pointer [Windows and Messages], PDEBUGHOOKINFO, PDEBUGHOOKINFO structure pointer [Windows and Messages], _win32_DEBUGHOOKINFO_str, _win32_debughookinfo_str_cpp, tagDEBUGHOOKINFO, winmsg.debughookinfo, winui._win32_debughookinfo_str, winuser/DEBUGHOOKINFO, winuser/LPDEBUGHOOKINFO, winuser/PDEBUGHOOKINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiribbon.h
+: 
+- IUICollection.Insert
+: 
 req.product: Windows UI
 ---
 

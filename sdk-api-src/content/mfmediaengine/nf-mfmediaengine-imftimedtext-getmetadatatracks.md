@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_getmetadatatracks.htm
 tech.root: medfound
 ms.assetid: EA4D12F6-D1F0-4DA9-BF80-22C6965CE396
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetMetadataTracks, GetMetadataTracks method [Media Foundation], GetMetadataTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetMetadataTracks method, IMFTimedText.GetMetadataTracks, IMFTimedText::GetMetadataTracks, mf.imftimedtext_getmetadatatracks, mfmediaengine/IMFTimedText::GetMetadataTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFTimedText.GetMetadataTracks
+: 
 ---
 
 # IMFTimedText::GetMetadataTracks

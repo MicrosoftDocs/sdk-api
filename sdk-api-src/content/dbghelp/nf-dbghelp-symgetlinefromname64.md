@@ -7,7 +7,7 @@ old-location: base\symgetlinefromname64.htm
 tech.root: debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymGetLineFromName64
+: 
 ---
 
 # SymGetLineFromName64 function

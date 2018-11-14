@@ -9,8 +9,8 @@ ms.assetid: 641a10fe-8e8c-4225-b05e-b09dfb5f2fee
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], IKsTopologyInfo interface [DirectShow],described, IKsTopologyInfoInterface, dshow.ikstopologyinfo, vidcap/IKsTopologyInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 

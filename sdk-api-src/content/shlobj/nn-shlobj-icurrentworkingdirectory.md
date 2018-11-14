@@ -9,8 +9,8 @@ ms.assetid: 1fdbe616-3ca3-4f07-b89c-4c76561ba169
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windows Shell], ICurrentWorkingDirectory interface [Windows Shell],described, _win32_ICurrentWorkingDirectory, shell.ICurrentWorkingDirectory, shlobj/ICurrentWorkingDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

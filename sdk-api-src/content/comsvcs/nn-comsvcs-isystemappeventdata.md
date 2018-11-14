@@ -9,8 +9,8 @@ ms.assetid: fd88641e-e0ce-44b7-b8b6-59791be48026
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemAppEventData interface [COM+],described, _dtc_ISystemAppEventData, comsvcs/ISystemAppEventData, cos.isystemappeventdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

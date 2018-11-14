@@ -7,7 +7,7 @@ old-location: security\cryptverifymessagesignature.htm
 tech.root: seccrypto
 ms.assetid: 03411e7a-b097-4059-a198-3d412ae40e38
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [Security], _crypto2_cryptverifymessagesignature, security.cryptverifymessagesignature, wincrypt/CryptVerifyMessageSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptVerifyMessageSignature
+: 
 ---
 
 # CryptVerifyMessageSignature function

@@ -7,10 +7,10 @@ old-location: security\iidentitystore.htm
 tech.root: secauthn
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security],described, identitystore/IIdentityStore, security.iidentitystore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: identitystore.h
 req.include-header: 

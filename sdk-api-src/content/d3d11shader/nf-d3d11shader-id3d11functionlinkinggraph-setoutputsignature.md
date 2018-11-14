@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11shader.h
+: 
+- ID3D11FunctionLinkingGraph.SetOutputSignature
+: 
 ---
 
 # ID3D11FunctionLinkingGraph::SetOutputSignature

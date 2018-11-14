@@ -9,8 +9,8 @@ ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

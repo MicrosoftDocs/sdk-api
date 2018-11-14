@@ -7,7 +7,7 @@ old-location: tapi3\itlegacyaddressmediacontrol_setdevconfig.htm
 tech.root: tapi
 ms.assetid: 7c5fe0ab-8a03-41db-994b-9786782cf7c1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITLegacyAddressMediaControl interface [TAPI 2.2],SetDevConfig method, ITLegacyAddressMediaControl.SetDevConfig, ITLegacyAddressMediaControl::SetDevConfig, SetDevConfig, SetDevConfig method [TAPI 2.2], SetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, _tapi3_itlegacyaddressmediacontrol_setdevconfig, tapi3.itlegacyaddressmediacontrol_setdevconfig, tapi3if/ITLegacyAddressMediaControl::SetDevConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITLegacyAddressMediaControl.SetDevConfig
+: 
 ---
 
 # ITLegacyAddressMediaControl::SetDevConfig

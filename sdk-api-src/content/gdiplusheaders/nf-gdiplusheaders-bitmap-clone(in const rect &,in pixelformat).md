@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_Rect_rect_PixelFormat_format_.
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\bitmapclonemethods\clone.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Bitmap class [GDI+],Clone method, Bitmap.Clone, Bitmap.Clone(IN const Rect &,IN PixelFormat), Bitmap.Clone(const Rect&,PixelFormat), Bitmap::Clone, Bitmap::Clone(IN const Rect &,IN PixelFormat), Clone, Clone method [GDI+], Clone method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_Clone_Rect_rect_PixelFormat_format_, gdiplus._gdiplus_CLASS_Bitmap_Clone_Rect_rect_PixelFormat_format_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.Clone
+: 
 req.product: GDI+ 1.0
 ---
 

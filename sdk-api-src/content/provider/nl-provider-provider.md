@@ -9,8 +9,8 @@ ms.assetid: d8a7c433-7e6a-45cc-914f-a15a3688c7aa
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: "??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation],described, _hmm_provider, provider/Provider, wmi.provider"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: provider.h
 req.include-header: FwCommon.h

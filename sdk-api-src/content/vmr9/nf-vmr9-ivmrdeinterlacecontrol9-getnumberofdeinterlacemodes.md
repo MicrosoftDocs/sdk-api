@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vmr9.h
+: 
+- IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes
+: 
 ---
 
 # IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes

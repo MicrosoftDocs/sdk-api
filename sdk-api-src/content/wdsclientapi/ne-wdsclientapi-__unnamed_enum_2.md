@@ -9,8 +9,8 @@ ms.assetid: 18b577a1-a8fd-4a88-b80f-d01b612cf777
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: WDS_LOG_LEVEL, WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WDS_LOG_LEVEL_WARNING, __unnamed_enum_2, enumeration [Windows Deployment Services], wds.wds_log_level, wdsclientapi/, wdsclientapi/WDS_LOG_LEVEL_DISABLED, wdsclientapi/WDS_LOG_LEVEL_ERROR, wdsclientapi/WDS_LOG_LEVEL_INFO, wdsclientapi/WDS_LOG_LEVEL_WARNING
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wdsclientapi.h
 req.include-header: 

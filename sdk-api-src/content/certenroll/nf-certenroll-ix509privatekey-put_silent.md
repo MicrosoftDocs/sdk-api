@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509PrivateKey.put_Silent
+: 
 ---
 
 # IX509PrivateKey::put_Silent

@@ -9,8 +9,8 @@ ms.assetid: f9c24156-bcd6-423e-b055-18651f4e185e
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PFILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER structure [Files], PFILE_SET_SPARSE_BUFFER, PFILE_SET_SPARSE_BUFFER structure pointer [Files], _FILE_SET_SPARSE_BUFFER, fs.file_set_sparse_buffer, winioctl/FILE_SET_SPARSE_BUFFER, winioctl/PFILE_SET_SPARSE_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

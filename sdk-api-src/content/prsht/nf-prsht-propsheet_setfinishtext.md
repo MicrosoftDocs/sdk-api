@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- prsht.h
+: 
+- PropSheet_SetFinishText
+: 
 ---
 
 # PropSheet_SetFinishText macro

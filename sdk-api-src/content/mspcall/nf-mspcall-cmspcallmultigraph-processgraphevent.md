@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_processgraphevent.htm
 tech.root: tapi
 ms.assetid: 2b41a8ac-8aa1-47d0-ad90-f6f177895149
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],ProcessGraphEvent method, CMSPCallMultiGraph.ProcessGraphEvent, CMSPCallMultiGraph::ProcessGraphEvent, ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_processgraphevent, mspcall/CMSPCallMultiGraph::ProcessGraphEvent, tapi3.cmspcallmultigraph_processgraphevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspcall.h
+: 
+- CMSPCallMultiGraph.ProcessGraphEvent
+: 
 ---
 
 # CMSPCallMultiGraph::ProcessGraphEvent

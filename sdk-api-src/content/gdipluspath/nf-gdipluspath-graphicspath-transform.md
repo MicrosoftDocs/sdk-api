@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Transform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\transform.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GraphicsPath class [GDI+],Transform method, GraphicsPath.Transform, GraphicsPath::Transform, Transform, Transform method [GDI+], Transform method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Transform_matrix_, gdiplus._gdiplus_CLASS_GraphicsPath_Transform_matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.Transform
+: 
 req.product: GDI+ 1.0
 ---
 

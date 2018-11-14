@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_fo
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measuredriverstring.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Graphics class [GDI+],MeasureDriverString method, Graphics.MeasureDriverString, Graphics::MeasureDriverString, MeasureDriverString, MeasureDriverString method [GDI+], MeasureDriverString method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_, gdiplus._gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.MeasureDriverString
+: 
 req.product: GDI+ 1.0
 ---
 

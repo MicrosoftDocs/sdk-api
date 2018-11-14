@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.graphics.imaging.interop.h
+: 
+- ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
+: 
 ---
 
 # ISoftwareBitmapNativeFactory::imaging

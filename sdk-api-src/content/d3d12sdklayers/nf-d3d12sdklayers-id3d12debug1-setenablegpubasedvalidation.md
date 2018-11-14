@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1_setenablegpubasedvalidation.htm
 tech.root: direct3d12
 ms.assetid: 0B7ACDC1-D7F6-4565-8E33-F2F14A96E4A8
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12Debug1 interface,SetEnableGPUBasedValidation method, ID3D12Debug1.SetEnableGPUBasedValidation, ID3D12Debug1::SetEnableGPUBasedValidation, SetEnableGPUBasedValidation, SetEnableGPUBasedValidation method, SetEnableGPUBasedValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableGPUBasedValidation, direct3d12.id3d12debugdevice1_setenablegpubasedvalidation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12Debug1.SetEnableGPUBasedValidation
+: 
 ---
 
 # ID3D12Debug1::SetEnableGPUBasedValidation
@@ -49,8 +57,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.  
 

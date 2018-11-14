@@ -9,8 +9,8 @@ ms.assetid: a3a6e5c1-5818-419c-8df4-966b2fbcd8c0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], INetFwOpenPorts interface [ICS/ICF],described, ics.inetfwopenports, netfw/INetFwOpenPorts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: cfcbee55-3489-44da-a726-71dc615fa7f5
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: LEFT_BUTTON, MIDDLE_BUTTON, MouseButton, MouseButton enumeration [Tablet PC], NO_BUTTON, RIGHT_BUTTON, cfcbee55-3489-44da-a726-71dc615fa7f5, inked/LEFT_BUTTON, inked/MIDDLE_BUTTON, inked/MouseButton, inked/NO_BUTTON, inked/RIGHT_BUTTON, tablet.mousebutton
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

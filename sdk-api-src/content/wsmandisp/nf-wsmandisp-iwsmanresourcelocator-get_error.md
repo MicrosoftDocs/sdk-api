@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManResourceLocator.get_Error
+: 
 ---
 
 # IWSManResourceLocator::get_Error

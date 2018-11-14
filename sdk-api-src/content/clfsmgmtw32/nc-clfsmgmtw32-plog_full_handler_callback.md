@@ -9,8 +9,8 @@ ms.assetid: 7b8d3b94-2b2e-427e-9b89-530310ecc6fe
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: LOG_FULL_HANDLER_CALLBACK, LOG_FULL_HANDLER_CALLBACK callback function [Files], PLOG_FULL_HANDLER_CALLBACK, PLOG_FULL_HANDLER_CALLBACK callback, clfsmgmtw32/ LOG_FULL_HANDLER_CALLBACK, fs.log_full_handler_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: clfsmgmtw32.h
 req.include-header: 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMConstants.get_SecurityFlags
+: 
 ---
 
 # IGPMConstants::get_SecurityFlags

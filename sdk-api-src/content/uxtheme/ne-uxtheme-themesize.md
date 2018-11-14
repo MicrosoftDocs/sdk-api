@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\userex\enums\themesize.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: THEMESIZE, THEMESIZE enumeration [Windows Controls], THEME_SIZE, THEME_SIZE enumeration [Windows Controls], TS_DRAW, TS_MIN, TS_TRUE, controls.THEME_SIZE, controls.inet_THEME_SIZE, inet_THEME_SIZE, inet_THEME_SIZE_cpp, uxtheme/THEMESIZE, uxtheme/TS_DRAW, uxtheme/TS_MIN, uxtheme/TS_TRUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 

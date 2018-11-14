@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6f39.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],BillingCode property, IFaxSender.BillingCode, IFaxSender.put_BillingCode, IFaxSender::BillingCode, IFaxSender::get_BillingCode, IFaxSender::put_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp, faxcomex/IFaxSender::BillingCode, faxcomex/IFaxSender::get_BillingCode, faxcomex/IFaxSender::put_BillingCode, put_BillingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxSender.put_BillingCode
+: 
 ---
 
 # IFaxSender::put_BillingCode

@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetbuttoninfo.htm
 tech.root: tapi
 ms.assetid: 33b01ac2-cbfd-4697-b242-a7a8f5d1b256
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_phoneSetButtonInfo, TSPI_phoneSetButtonInfo function [TAPI 2.2], _tspi_tspi_phonesetbuttoninfo, tspi.tspi_phonesetbuttoninfo, tspi/TSPI_phoneSetButtonInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_phoneSetButtonInfo
+: 
 ---
 
 # TSPI_phoneSetButtonInfo function

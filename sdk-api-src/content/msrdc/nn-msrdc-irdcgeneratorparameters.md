@@ -9,8 +9,8 @@ ms.assetid: 1b2db5c5-79eb-490a-ae03-36b0e926725d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRdcGeneratorParameters, IRdcGeneratorParameters interface [Remote Differential Compression], IRdcGeneratorParameters interface [Remote Differential Compression],described, fs.irdcgeneratorparameters, msrdc/IRdcGeneratorParameters, rdc.irdcgeneratorparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

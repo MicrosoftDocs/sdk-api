@@ -7,7 +7,7 @@ old-location: multimedia\avistreaminfo.htm
 tech.root: Multimedia
 ms.assetid: 7a1ba29b-e8ba-435d-a551-c9184631971c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: AVIStreamInfo, AVIStreamInfo function [Windows Multimedia], AVIStreamInfoA, AVIStreamInfoW, _win32_AVIStreamInfo, multimedia.avistreaminfo, vfw/AVIStreamInfo, vfw/AVIStreamInfoA, vfw/AVIStreamInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AVIStreamInfoA
+: 
 ---
 
 # AVIStreamInfoA function

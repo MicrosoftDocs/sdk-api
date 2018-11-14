@@ -9,8 +9,8 @@ ms.assetid: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], IStrokeBuilder interface [Tablet PC],described, rtscom/IStrokeBuilder, tablet.istrokebuilder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

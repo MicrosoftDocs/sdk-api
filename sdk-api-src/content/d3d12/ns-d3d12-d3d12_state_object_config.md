@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_state_object_config.htm
 tech.root: direct3d12
 ms.assetid: 8D48150F-995E-4032-BA97-F8A6954FF728
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_STATE_OBJECT_CONFIG, D3D12_STATE_OBJECT_CONFIG structure, PD3D12_STATE_OBJECT_CONFIG, PD3D12_STATE_OBJECT_CONFIG structure pointer, d3d12/D3D12_STATE_OBJECT_CONFIG, d3d12/PD3D12_STATE_OBJECT_CONFIG, direct3d12.d3d12_state_object_config
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Defines general properties of a state object.
 
 
@@ -62,7 +60,7 @@ Defines general properties of a state object.
 
 ### -field Flags
 
-A value from the <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_state_object_flags">D3D12_STATE_OBJECT_FLAGS</a> flags enumeration that specifies the requirements for the state object.
+A value from the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_flags">D3D12_STATE_OBJECT_FLAGS</a> flags enumeration that specifies the requirements for the state object.
 
 
 ## -remarks

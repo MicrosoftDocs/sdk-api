@@ -9,8 +9,8 @@ ms.assetid: 3029868e-0b27-4ce9-90b2-22d8e1961a1f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IStreamBufferMediaSeeking2, IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies], IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],described, IStreamBufferMediaSeeking2Interface, mstv.istreambuffermediaseeking2, sbe/IStreamBufferMediaSeeking2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

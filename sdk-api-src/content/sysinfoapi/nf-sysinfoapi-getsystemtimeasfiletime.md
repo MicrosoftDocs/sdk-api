@@ -7,7 +7,7 @@ old-location: base\getsystemtimeasfiletime.htm
 tech.root: sysinfo
 ms.assetid: adf7ff5d-2d30-4490-9868-9ad78ef7a0b6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetSystemTimeAsFileTime, GetSystemTimeAsFileTime function, _win32_getsystemtimeasfiletime, base.getsystemtimeasfiletime, sysinfoapi/GetSystemTimeAsFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemTimeAsFileTime
+: 
 ---
 
 # GetSystemTimeAsFileTime function

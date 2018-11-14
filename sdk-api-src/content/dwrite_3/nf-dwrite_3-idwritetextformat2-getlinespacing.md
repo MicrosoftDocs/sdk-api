@@ -1,0 +1,103 @@
+---
+UID: NF:dwrite_3.IDWriteTextFormat2.GetLineSpacing
+title: IDWriteTextFormat2::GetLineSpacing
+author: windows-sdk-content
+description: Gets the line spacing adjustment set for a multiline text paragraph.
+old-location: directwrite\idwritetextformat2_getlinespacing.htm
+tech.root: DirectWrite
+ms.assetid: 1e05687f-137e-06f8-b9c8-983f434f7578
+ms.author: windowssdkdev
+ms.date: 11/09/2018
+ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, IDWriteTextFormat2 interface [Direct Write],GetLineSpacing method, IDWriteTextFormat2.GetLineSpacing, IDWriteTextFormat2::GetLineSpacing, directwrite.idwritetextformat2_getlinespacing, dwrite_3/IDWriteTextFormat2::GetLineSpacing
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat2.GetLineSpacing
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteTextFormat2.GetLineSpacing
+: 
+---
+
+# IDWriteTextFormat2::GetLineSpacing
+
+
+## -description
+
+
+Gets the line spacing adjustment set for a multiline text paragraph.
+
+
+## -parameters
+
+
+
+
+### -param lineSpacingOptions
+
+TBD
+
+
+
+
+#### - lineSpacingMethod [out]
+
+Type: <b><a href="https://msdn.microsoft.com/bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc">DWRITE_LINE_SPACING</a>*</b>
+
+A structure describing how the space between lines is managed for the paragraph.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4396d2b0-240f-ee8b-1d21-c4294fb29b51">IDWriteTextFormat2</a>
+ 
+
+ 
+

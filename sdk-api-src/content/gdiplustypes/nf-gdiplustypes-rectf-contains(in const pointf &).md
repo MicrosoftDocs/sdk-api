@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF.Contains(IN const PointF &), RectF::Contains, RectF::Contains(IN const PointF &), _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- RectF.Contains
+: 
 ---
 
 # RectF::Contains(IN const PointF &)

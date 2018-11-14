@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: NMHDR, NMHDR structure [Windows Controls], _nmhdr, _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: Winuser.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMDomain2.GetStarterGPO
+: 
 ---
 
 # IGPMDomain2::GetStarterGPO

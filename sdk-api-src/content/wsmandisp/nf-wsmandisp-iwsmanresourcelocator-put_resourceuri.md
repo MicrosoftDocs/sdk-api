@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManResourceLocator.put_ResourceURI
+: 
 ---
 
 # IWSManResourceLocator::put_ResourceURI

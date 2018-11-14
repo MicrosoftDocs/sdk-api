@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_2.h
+: 
+- ID3D11Device2.GetResourceTiling
+: 
 ---
 
 # ID3D11Device2::GetResourceTiling

@@ -9,8 +9,8 @@ ms.assetid: 2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI],described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

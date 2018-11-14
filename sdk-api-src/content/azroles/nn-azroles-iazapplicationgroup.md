@@ -7,10 +7,10 @@ old-location: security\iazapplicationgroup.htm
 tech.root: secauthz
 ms.assetid: 6a15acde-e582-4c49-b7e4-82d4e54012b1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzApplicationGroup, IAzApplicationGroup interface [Security], IAzApplicationGroup interface [Security],described, azroles/IAzApplicationGroup, security.iazapplicationgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

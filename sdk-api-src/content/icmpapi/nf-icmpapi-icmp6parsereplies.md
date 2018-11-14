@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Icmp6ParseReplies
+: 
 ---
 
 # Icmp6ParseReplies function

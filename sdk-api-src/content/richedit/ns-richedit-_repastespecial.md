@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_ICON, REPASTESPECIAL, REPASTESPECIAL structure [Windows Controls], _repastespecial, _win32_REPASTESPECIAL_str, _win32_REPASTESPECIAL_str_cpp, controls.REPASTESPECIAL, controls._win32_REPASTESPECIAL_str, richedit/REPASTESPECIAL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

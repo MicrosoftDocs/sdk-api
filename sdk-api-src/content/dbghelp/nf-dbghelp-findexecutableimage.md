@@ -7,7 +7,7 @@ old-location: base\findexecutableimage.htm
 tech.root: debug
 ms.assetid: 48185a75-fa1d-4735-a814-e1f5893dd095
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: FindExecutableImage, FindExecutableImage function, _win32_findexecutableimage, base.findexecutableimage, dbghelp/FindExecutableImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- FindExecutableImage
+: 
 ---
 
 # FindExecutableImage function

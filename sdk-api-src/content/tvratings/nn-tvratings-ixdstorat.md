@@ -9,8 +9,8 @@ ms.assetid: de65e5cd-3f4b-4925-a6b8-636fc2e332ec
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tvratings.h
 req.include-header: 

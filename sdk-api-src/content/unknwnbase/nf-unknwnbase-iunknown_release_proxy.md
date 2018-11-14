@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IUnknown_Release_Proxy
+: 
 ---
 
 # IUnknown_Release_Proxy function

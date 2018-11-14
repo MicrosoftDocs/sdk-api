@@ -7,10 +7,10 @@ old-location: security\crypt_xml_x509data.htm
 tech.root: seccrypto
 ms.assetid: 4895a6e6-ffac-419f-af9b-f2062a1aecd4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CRYPT_XML_X509DATA, CRYPT_XML_X509DATA structure [Security], PCRYPT_XML_X509DATA, PCRYPT_XML_X509DATA structure pointer [Security], _CRYPT_XML_X509DATA, cryptxml/CRYPT_XML_X509DATA, cryptxml/PCRYPT_XML_X509DATA, security.crypt_xml_x509data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: D87F06B4-7574-4BBD-A481-653CA35B8FB2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1, direct3d11.d3d11_render_target_view_desc1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

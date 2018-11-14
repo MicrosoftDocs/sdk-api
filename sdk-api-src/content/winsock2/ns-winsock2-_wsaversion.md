@@ -9,8 +9,8 @@ ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _WSAVersion, _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

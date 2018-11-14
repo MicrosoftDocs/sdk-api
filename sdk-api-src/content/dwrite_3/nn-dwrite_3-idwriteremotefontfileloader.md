@@ -7,10 +7,10 @@ old-location: directwrite\idwriteremotefontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: 16CFF7ED-642A-48D8-8C72-3EC68B702E50
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteRemoteFontFileLoader, IDWriteRemoteFontFileLoader interface [Direct Write], IDWriteRemoteFontFileLoader interface [Direct Write],described, directwrite.idwriteremotefontfileloader, dwrite_3/IDWriteRemoteFontFileLoader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 

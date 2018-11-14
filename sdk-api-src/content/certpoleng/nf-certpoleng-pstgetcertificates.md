@@ -7,7 +7,7 @@ old-location: security\pstgetcertificates.htm
 tech.root: secauthn
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PstGetCertificates
+: 
 ---
 
 # PstGetCertificates function

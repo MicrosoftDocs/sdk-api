@@ -7,7 +7,7 @@ old-location: security\ienroll4_sethstorerequest.htm
 tech.root: seccrypto
 ms.assetid: 7424d94f-8f81-432a-b003-a1c30fcc70ae
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreRequest method, IEnroll2.SetHStoreRequest, IEnroll2::SetHStoreRequest, SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security],IEnroll2 interface, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll2.SetHStoreRequest
+: 
 ---
 
 # IEnroll2::SetHStoreRequest

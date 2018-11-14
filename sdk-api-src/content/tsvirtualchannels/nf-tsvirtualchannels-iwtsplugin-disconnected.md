@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tsvirtualchannels.h
+: 
+- IWTSPlugin.Disconnected
+: 
 ---
 
 # IWTSPlugin::Disconnected

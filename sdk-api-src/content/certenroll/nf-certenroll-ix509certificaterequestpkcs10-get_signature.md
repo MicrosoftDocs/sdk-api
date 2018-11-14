@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateRequestPkcs10.get_Signature
+: 
 ---
 
 # IX509CertificateRequestPkcs10::get_Signature

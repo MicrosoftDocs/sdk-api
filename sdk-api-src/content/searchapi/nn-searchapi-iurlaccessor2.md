@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlacces
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IUrlAccessor2 interface [search],described, _search_IUrlAccessor2, search._search_IUrlAccessor2, searchapi/IUrlAccessor2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- ISCPSecureQuery2.MakeDecision2
+: 
 ---
 
 # ISCPSecureQuery2::MakeDecision2

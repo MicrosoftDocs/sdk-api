@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3D10DisassembleShader
+: 
 ---
 
 # D3D10DisassembleShader function

@@ -9,8 +9,8 @@ ms.assetid: a4de3031-7199-4537-a97e-f33059383d6b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo,*PHelperAttributeInfo, HelperAttributeInfo,*PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo, tagHelperAttributeInfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ndhelper.h
 req.include-header: 

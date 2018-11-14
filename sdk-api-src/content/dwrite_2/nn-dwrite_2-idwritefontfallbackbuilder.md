@@ -7,10 +7,10 @@ old-location: directwrite\idwritefontfallbackbuilder.htm
 tech.root: DirectWrite
 ms.assetid: 462AC12E-C856-4D8F-83AF-FAC3221425C2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteFontFallbackBuilder, IDWriteFontFallbackBuilder interface [Direct Write], IDWriteFontFallbackBuilder interface [Direct Write],described, directwrite.idwritefontfallbackbuilder, dwrite_2/IDWriteFontFallbackBuilder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_2.h
 req.include-header: 

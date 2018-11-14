@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LPM_Deinitialize
+: 
 ---
 
 # LPM_Deinitialize function

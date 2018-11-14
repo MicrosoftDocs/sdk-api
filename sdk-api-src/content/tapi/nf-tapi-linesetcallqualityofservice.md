@@ -7,7 +7,7 @@ old-location: tapi2\linesetcallqualityofservice.htm
 tech.root: tapi
 ms.assetid: 6a977dab-70f6-4462-a94f-78acdec7decf
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linesetcallqualityofservice, lineSetCallQualityOfService, lineSetCallQualityOfService function [TAPI 2.2], tapi/lineSetCallQualityOfService, tapi2.linesetcallqualityofservice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineSetCallQualityOfService
+: 
 ---
 
 # lineSetCallQualityOfService function

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tsuserex.h
+: 
+- IADsTSUserEx.get_TerminalServicesProfilePath
+: 
 ---
 
 # IADsTSUserEx::get_TerminalServicesProfilePath

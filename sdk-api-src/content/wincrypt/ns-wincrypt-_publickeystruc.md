@@ -7,10 +7,10 @@ old-location: security\publickeystruc.htm
 tech.root: seccrypto
 ms.assetid: 99d41222-b4ca-40f3-a240-52b0a9b3a9aa
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: BLOBHEADER, BLOBHEADER [Security], BLOBHEADER structure [Security], KEYSTATEBLOB, OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, PUBLICKEYBLOBEX, PUBLICKEYSTRUC, PUBLICKEYSTRUC structure [Security], SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _PUBLICKEYSTRUC, _cryptcsp_blobheader, _crypto2_publickeystruc, security.blobheader, security.publickeystruc, wincrypt/PUBLICKEYSTRUC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

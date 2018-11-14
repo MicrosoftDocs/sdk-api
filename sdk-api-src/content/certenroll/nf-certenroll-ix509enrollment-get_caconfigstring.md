@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509Enrollment.get_CAConfigString
+: 
 ---
 
 # IX509Enrollment::get_CAConfigString

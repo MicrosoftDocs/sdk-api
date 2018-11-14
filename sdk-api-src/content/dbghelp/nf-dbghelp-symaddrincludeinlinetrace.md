@@ -7,7 +7,7 @@ old-location: base\symaddrincludeinlinetrace.htm
 tech.root: debug
 ms.assetid: 12bb0fbf-3573-4efd-88a6-e94828906413
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymAddrIncludeInlineTrace, SymAddrIncludeInlineTrace function, base.symaddrincludeinlinetrace, dbghelp/SymAddrIncludeInlineTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- SymAddrIncludeInlineTrace
+: 
 ---
 
 # SymAddrIncludeInlineTrace function

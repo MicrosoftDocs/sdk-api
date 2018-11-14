@@ -9,8 +9,8 @@ ms.assetid: 11e4559e-04c5-4fa9-b618-458ca7daf00e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IComInstanceEvents, IComInstanceEvents interface [COM+], IComInstanceEvents interface [COM+],described, _dtc_IComInstanceEvents, comsvcs/IComInstanceEvents, cos.icominstanceevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

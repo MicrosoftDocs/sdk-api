@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallbase_init.htm
 tech.root: tapi
 ms.assetid: bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],Init method, CMSPCallBase.Init, CMSPCallBase::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_init, mspcall/CMSPCallBase::Init, tapi3.cmspcallbase_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspcall.h
+: 
+- CMSPCallBase.Init
+: 
 ---
 
 # CMSPCallBase::Init

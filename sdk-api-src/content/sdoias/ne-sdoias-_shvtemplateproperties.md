@@ -9,8 +9,8 @@ ms.assetid: dc6aafe8-61c0-4dc6-9705-272ee2b6f2bb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PROPERTY_SHV_COMBINATION_TYPE, PROPERTY_SHV_LIST, SHVTEMPLATEPROPERTIES, SHVTEMPLATEPROPERTIES enumeration [Network Policy Server], _SHVTEMPLATEPROPERTIES, nps.SDO_shvtemplateproperties, sdo.shvtemplateproperties, sdoias/PROPERTY_SHV_COMBINATION_TYPE, sdoias/PROPERTY_SHV_LIST, sdoias/SHVTEMPLATEPROPERTIES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

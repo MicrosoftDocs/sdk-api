@@ -9,8 +9,8 @@ ms.assetid: 0495ecf1-128a-4576-8420-0e79f1454015
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], IWICMetadataReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareader, wic._wic_codec_iwicmetadatareader, wincodecsdk/IWICMetadataReader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

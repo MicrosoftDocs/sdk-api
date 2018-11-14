@@ -7,7 +7,7 @@ old-location: mf\iplaytosourceclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: 3F7F8441-B0A2-407E-B127-C7DC66CA34DE
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IPlayToSourceClassFactory interface, IPlayToSourceClassFactory interface [Media Foundation],CreateInstance method, IPlayToSourceClassFactory.CreateInstance, IPlayToSourceClassFactory::CreateInstance, mf.iplaytocontrollerclassfactory_createinstance, mf.iplaytosourceclassfactory_createinstance, mfsharingengine/IPlayToSourceClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfsharingengine.h
+: 
+- IPlayToSourceClassFactory.CreateInstance
+: 
 ---
 
 # IPlayToSourceClassFactory::CreateInstance

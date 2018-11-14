@@ -2,7 +2,7 @@
 UID: NA:dxva2api
 ms.assetid: 16fa97dc-aa30-30b0-8612-2bec3847710f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

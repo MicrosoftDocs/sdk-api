@@ -7,10 +7,10 @@ old-location: multimedia\midioutcaps.htm
 tech.root: Multimedia
 ms.assetid: 395d5fc2-cf34-48f0-a0b0-185247309e2c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "*LPMIDIOUTCAPSW, *NPMIDIOUTCAPSW, *PMIDIOUTCAPSW, MIDICAPS_CACHE, MIDICAPS_LRVOLUME, MIDICAPS_STREAM, MIDICAPS_VOLUME, MIDIOUTCAPS, MIDIOUTCAPS structure [Windows Multimedia], MIDIOUTCAPSW, MOD_FMSYNTH, MOD_MAPPER, MOD_MIDIPORT, MOD_SQSYNTH, MOD_SWSYNTH, MOD_SYNTH, MOD_WAVETABLE, _win32_MIDIOUTCAPS_str, midioutcaps_tag, mmeapi/MIDIOUTCAPS, multimedia.midioutcaps, tagMIDIOUTCAPSA, tagMIDIOUTCAPSW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Windows.h

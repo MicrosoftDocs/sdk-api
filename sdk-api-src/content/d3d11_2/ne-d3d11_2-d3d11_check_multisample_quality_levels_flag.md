@@ -9,8 +9,8 @@ ms.assetid: 756AD5B2-3B6A-4F28-B034-93F59C41D02B
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG enumeration [Direct3D 11], D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, direct3d11.d3d11_check_multisample_quality_levels_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_2.h
 req.include-header: 

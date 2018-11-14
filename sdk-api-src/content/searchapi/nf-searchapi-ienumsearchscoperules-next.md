@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IEnumSearchScopeRules.Next
+: 
 ---
 
 # IEnumSearchScopeRules::Next

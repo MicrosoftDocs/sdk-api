@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(const Matrix &), Matrix::Matrix, Matrix::Matrix(const Matrix &), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmatrix.h
+: 
+- Matrix.Matrix
+: 
 req.product: GDI+ 1.0
 ---
 

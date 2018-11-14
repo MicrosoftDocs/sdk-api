@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinte
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPMDICREATESTRUCTA, LPMDICREATESTRUCT, LPMDICREATESTRUCT structure pointer [Windows and Messages], MDICREATESTRUCT, MDICREATESTRUCT structure [Windows and Messages], MDICREATESTRUCTA, MDICREATESTRUCTW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_MDICREATESTRUCT_str, _win32_mdicreatestruct_str_cpp, tagMDICREATESTRUCTA, winmsg.mdicreatestruct, winui._win32_mdicreatestruct_str, winuser/LPMDICREATESTRUCT, winuser/MDICREATESTRUCT, winuser/MDICREATESTRUCTA, winuser/MDICREATESTRUCTW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

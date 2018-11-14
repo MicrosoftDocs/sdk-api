@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Device_ID_Size
+: 
 ---
 
 # CM_Get_Device_ID_Size function

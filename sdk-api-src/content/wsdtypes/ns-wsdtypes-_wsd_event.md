@@ -9,8 +9,8 @@ ms.assetid: d8697474-bfe5-4704-b1ac-15cf96f2ca92
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WSD_EVENT, WSD_EVENT structure, _WSD_EVENT, ncd.wsd_event_struct, wsdtypes/WSD_EVENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

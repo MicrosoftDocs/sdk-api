@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_rename_ext_sW
+: 
 ---
 
 # ldap_rename_ext_sW function

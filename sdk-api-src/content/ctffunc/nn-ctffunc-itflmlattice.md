@@ -9,8 +9,8 @@ ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

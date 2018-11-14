@@ -7,10 +7,10 @@ old-location: security\ocsp_cert_id.htm
 tech.root: seccrypto
 ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*POCSP_CERT_ID, OCSP_CERT_ID, OCSP_CERT_ID structure [Security], POCSP_CERT_ID, POCSP_CERT_ID structure pointer [Security], _OCSP_CERT_ID, security.ocsp_cert_id, wincrypt/OCSP_CERT_ID, wincrypt/POCSP_CERT_ID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

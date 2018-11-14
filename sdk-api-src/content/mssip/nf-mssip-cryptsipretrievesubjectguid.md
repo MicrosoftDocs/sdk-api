@@ -7,7 +7,7 @@ old-location: security\cryptsipretrievesubjectguid.htm
 tech.root: seccrypto
 ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptSIPRetrieveSubjectGuid
+: 
 ---
 
 # CryptSIPRetrieveSubjectGuid function

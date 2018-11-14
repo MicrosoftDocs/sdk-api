@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IMDSPDevice3.DeviceIoControl
+: 
 ---
 
 # IMDSPDevice3::DeviceIoControl

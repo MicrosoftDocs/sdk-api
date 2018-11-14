@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsNameCompare_A
+: 
 ---
 
 # DnsNameCompare_A function

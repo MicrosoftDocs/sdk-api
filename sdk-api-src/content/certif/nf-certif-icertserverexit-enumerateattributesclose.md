@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateattributesclose.htm
 tech.root: seccrypto
 ms.assetid: 6ac7afbb-49c6-45b3-a27e-5ba995684848
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributesClose method, EnumerateAttributesClose, EnumerateAttributesClose method [Security], EnumerateAttributesClose method [Security],CCertServerExit object, EnumerateAttributesClose method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributesClose method, ICertServerExit.EnumerateAttributesClose, ICertServerExit::EnumerateAttributesClose, _certsrv_icertserverexit_enumerateattributesclose, certif/ICertServerExit::EnumerateAttributesClose, security.icertserverexit_enumerateattributesclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certif.h
+: 
+- ICertServerExit.EnumerateAttributesClose
+: 
 ---
 
 # ICertServerExit::EnumerateAttributesClose

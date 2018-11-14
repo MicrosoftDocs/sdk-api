@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _SRestriction, _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: base\getsystemregistryquota.htm
 tech.root: sysinfo
 ms.assetid: 06687b2a-2dab-4102-8022-4b70677064b2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetSystemRegistryQuota, GetSystemRegistryQuota function, base.getsystemregistryquota, winbase/GetSystemRegistryQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemRegistryQuota
+: 
 ---
 
 # GetSystemRegistryQuota function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cmdtree.h
+: 
+- ICommandTree.FindErrorNodes
+: 
 ---
 
 # ICommandTree::FindErrorNodes

@@ -7,7 +7,7 @@ old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
 tech.root: direct2d
 ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GradientMeshPatchFromCoonsPatch
+: 
 ---
 
 # GradientMeshPatchFromCoonsPatch function

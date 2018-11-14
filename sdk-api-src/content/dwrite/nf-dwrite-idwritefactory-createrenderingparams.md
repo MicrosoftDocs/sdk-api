@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateRenderingParams.htm
 tech.root: DirectWrite
 ms.assetid: f5e3e609-62ee-4a0a-aed1-591be852590e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: CreateRenderingParams, CreateRenderingParams method [Direct Write], CreateRenderingParams method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateRenderingParams method, IDWriteFactory.CreateRenderingParams, IDWriteFactory::CreateRenderingParams, directwrite.IDWriteFactory_CreateRenderingParams, dwrite/IDWriteFactory::CreateRenderingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFactory.CreateRenderingParams
+: 
 ---
 
 # IDWriteFactory::CreateRenderingParams

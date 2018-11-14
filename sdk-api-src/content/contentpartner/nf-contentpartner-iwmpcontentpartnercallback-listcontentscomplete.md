@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- contentpartner.h
+: 
+- IWMPContentPartnerCallback.ListContentsComplete
+: 
 ---
 
 # IWMPContentPartnerCallback::ListContentsComplete

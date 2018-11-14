@@ -9,8 +9,8 @@ ms.assetid: 5865e16b-c1a5-4bfd-8d94-c2f8f73b1205
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPLINKSRCDESCRIPTOR, *LPOBJECTDESCRIPTOR, *PLINKSRCDESCRIPTOR, *POBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, LPOBJECTDESCRIPTOR, LPOBJECTDESCRIPTOR structure pointer [COM], OBJECTDESCRIPTOR, OBJECTDESCRIPTOR structure [COM], POBJECTDESCRIPTOR, POBJECTDESCRIPTOR structure pointer [COM], _ole_OBJECTDESCRIPTOR, com.objectdescriptor, oleidl/LPOBJECTDESCRIPTOR, oleidl/OBJECTDESCRIPTOR, oleidl/POBJECTDESCRIPTOR, tagOBJECTDESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 

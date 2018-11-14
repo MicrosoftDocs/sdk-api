@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIViewer.get_SmartSizing
+: 
 ---
 
 # IRDPSRAPIViewer::get_SmartSizing

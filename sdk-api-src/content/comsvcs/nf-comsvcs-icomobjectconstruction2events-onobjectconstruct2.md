@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IComObjectConstruction2Events.OnObjectConstruct2
+: 
 ---
 
 # IComObjectConstruction2Events::OnObjectConstruct2

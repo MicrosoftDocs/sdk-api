@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
+: 
 ---
 
 # IWdsTransportMulticastSessionPolicy::put_SlowClientHandling

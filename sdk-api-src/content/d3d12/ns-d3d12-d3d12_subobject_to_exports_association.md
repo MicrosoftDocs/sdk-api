@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_subobject_to_exports_association.htm
 tech.root: direct3d12
 ms.assetid: B44B2F0C-D330-41AE-844C-F8B4D5697027
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure, PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer, d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, direct3d12.d3d12_subobject_to_exports_association
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Associates a subobject defined directly in a state object with shader exports.
 
 
@@ -79,7 +77,7 @@ The array of exports with which the subobject is associated.
 
 
 
-Depending on the flags specified in the optional <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> subobject for opting into cross linkage, the exports being associated don’t necessarily have to be present in the current state object, or one that has been seen yet, to be resolved later, on raytracing pipeline state object (RTPSO) creation for example.  
+Depending on the flags specified in the optional <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> subobject for opting into cross linkage, the exports being associated don’t necessarily have to be present in the current state object, or one that has been seen yet, to be resolved later, on raytracing pipeline state object (RTPSO) creation for example.  
 
 
 

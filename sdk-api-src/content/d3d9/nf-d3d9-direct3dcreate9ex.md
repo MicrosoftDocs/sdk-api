@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Direct3DCreate9Ex
+: 
 ---
 
 # Direct3DCreate9Ex function

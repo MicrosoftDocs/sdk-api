@@ -9,8 +9,8 @@ ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsPropertyEntry, IADsPropertyEntry interface [ADSI], IADsPropertyEntry interface [ADSI],described, PropertyEntry, _ds_iadspropertyentry, adsi.iadspropertyentry, iads/IADsPropertyEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

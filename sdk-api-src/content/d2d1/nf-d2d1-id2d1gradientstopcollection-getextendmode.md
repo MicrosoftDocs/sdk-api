@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GradientStopCollection_GetExtendMode.htm
 tech.root: direct2d
 ms.assetid: f20f5aed-db5d-4605-b5d4-58a0255822b1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetExtendMode, GetExtendMode method [Direct2D], GetExtendMode method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetExtendMode method, ID2D1GradientStopCollection.GetExtendMode, ID2D1GradientStopCollection::GetExtendMode, d2d1/ID2D1GradientStopCollection::GetExtendMode, direct2d.ID2D1GradientStopCollection_GetExtendMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1GradientStopCollection.GetExtendMode
+: 
 ---
 
 # ID2D1GradientStopCollection::GetExtendMode

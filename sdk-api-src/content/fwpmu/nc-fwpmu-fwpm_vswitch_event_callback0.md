@@ -9,8 +9,8 @@ ms.assetid: 95cccc54-8f58-4942-8770-f07f4d293396
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_VSWITCH_EVENT_CALLBACK0, FWPM_VSWITCH_EVENT_CALLBACK0 callback, FWPM_VSWITCH_EVENT_CALLBACK0 callback function [Filtering], fwp.fwpm_vswitch_event_callback0, fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

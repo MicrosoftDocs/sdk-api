@@ -9,8 +9,8 @@ ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: lpmapi.h
 req.include-header: 

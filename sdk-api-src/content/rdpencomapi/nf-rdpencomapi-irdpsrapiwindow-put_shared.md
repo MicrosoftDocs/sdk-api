@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIWindow.put_Shared
+: 
 ---
 
 # IRDPSRAPIWindow::put_Shared

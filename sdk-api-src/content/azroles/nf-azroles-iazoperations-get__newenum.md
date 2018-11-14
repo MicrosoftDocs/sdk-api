@@ -7,7 +7,7 @@ old-location: security\iazoperations_newenum.htm
 tech.root: secauthz
 ms.assetid: 20c47a77-936d-45b2-a3c3-9087c1af8667
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzOperations object [Security],_NewEnum property, IAzOperations interface [Security],_NewEnum property, IAzOperations._NewEnum, IAzOperations.get__NewEnum, IAzOperations::_NewEnum, IAzOperations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzOperations object, _NewEnum property [Security],IAzOperations interface, azroles/IAzOperations::_NewEnum, azroles/IAzOperations::get__NewEnum, get__NewEnum, security.iazoperations_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzOperations.get__NewEnum
+: 
 ---
 
 # IAzOperations::get__NewEnum

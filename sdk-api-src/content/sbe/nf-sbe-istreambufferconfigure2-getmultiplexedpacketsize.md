@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbe.h
+: 
+- IStreamBufferConfigure2.GetMultiplexedPacketSize
+: 
 ---
 
 # IStreamBufferConfigure2::GetMultiplexedPacketSize

@@ -9,8 +9,8 @@ ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

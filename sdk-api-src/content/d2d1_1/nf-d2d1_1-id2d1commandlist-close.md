@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandlist_close.htm
 tech.root: direct2d
 ms.assetid: 161A8E33-25C7-4007-8397-D86EBA777D4D
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1CommandList interface, ID2D1CommandList interface [Direct2D],Close method, ID2D1CommandList.Close, ID2D1CommandList::Close, d2d1_1/ID2D1CommandList::Close, direct2d.id2d1commandlist_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1CommandList.Close
+: 
 ---
 
 # ID2D1CommandList::Close

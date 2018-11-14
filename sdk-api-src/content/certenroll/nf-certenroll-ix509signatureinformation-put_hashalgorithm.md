@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509SignatureInformation.put_HashAlgorithm
+: 
 ---
 
 # IX509SignatureInformation::put_HashAlgorithm

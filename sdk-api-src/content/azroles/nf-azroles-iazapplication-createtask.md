@@ -7,7 +7,7 @@ old-location: security\iazapplication_createtask.htm
 tech.root: secauthz
 ms.assetid: 9c15f1aa-f0d7-4c6b-8c3c-b6537f7dac90
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzApplication object, CreateTask method [Security],IAzApplication interface, IAzApplication interface [Security],CreateTask method, IAzApplication.CreateTask, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.CreateTask
+: 
 ---
 
 # IAzApplication::CreateTask

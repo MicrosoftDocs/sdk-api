@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ndhelper.h
+: 
+- INetDiagHelper.GetCacheTime
+: 
 ---
 
 # INetDiagHelper::GetCacheTime

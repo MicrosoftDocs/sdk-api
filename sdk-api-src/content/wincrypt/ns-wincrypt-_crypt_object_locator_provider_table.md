@@ -7,10 +7,10 @@ old-location: security\crypt_object_locator_provider_table.htm
 tech.root: seccrypto
 ms.assetid: 4B319A83-C230-4BFE-AF21-1395ED2D234B
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure [Security], PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure pointer [Security], _CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, security.crypt_object_locator_provider_table, wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, wincrypt/PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

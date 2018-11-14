@@ -9,8 +9,8 @@ ms.assetid: b35ced88-92b3-4f70-842b-9664a714823c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MPEG_CURRENT_NEXT_BIT, MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies], MPEG_SECTION_IS_CURRENT, MPEG_SECTION_IS_NEXT, __MIDL___MIDL_itf_mpeg2structs_0000_0000_0004, mpeg2structs/MPEG_CURRENT_NEXT_BIT, mpeg2structs/MPEG_SECTION_IS_CURRENT, mpeg2structs/MPEG_SECTION_IS_NEXT, mstv.mpeg_current_next_bit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mpeg2structs.h
 req.include-header: 

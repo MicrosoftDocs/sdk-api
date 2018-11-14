@@ -9,8 +9,8 @@ ms.assetid: 87567836-c01e-4615-a8e7-9ca590b6f7c9
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORINFOStructure, dshow.vmrmonitorinfo, strmif/VMRMONITORINFO, tagVMRMONITORINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

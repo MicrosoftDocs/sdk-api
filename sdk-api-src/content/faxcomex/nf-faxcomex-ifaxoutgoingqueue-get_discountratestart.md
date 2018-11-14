@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountrates
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73as.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],DiscountRateStart property, IFaxOutgoingQueue.DiscountRateStart, IFaxOutgoingQueue.get_DiscountRateStart, IFaxOutgoingQueue.put_DiscountRateStart, IFaxOutgoingQueue::DiscountRateStart, IFaxOutgoingQueue::get_DiscountRateStart, IFaxOutgoingQueue::put_DiscountRateStart, _mfax_faxoutgoingqueue.discountratestart, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountratestart_cpp, fax._mfax_faxoutgoingqueue_discountratestart, faxcomex/IFaxOutgoingQueue::DiscountRateStart, faxcomex/IFaxOutgoingQueue::get_DiscountRateStart, faxcomex/IFaxOutgoingQueue::put_DiscountRateStart, get_DiscountRateStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingQueue.get_DiscountRateStart
+: 
 ---
 
 # IFaxOutgoingQueue::get_DiscountRateStart

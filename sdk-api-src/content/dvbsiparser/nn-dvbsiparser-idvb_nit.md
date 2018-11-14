@@ -9,8 +9,8 @@ ms.assetid: 70b638ae-0152-4a44-aeb1-f3ac382c19ce
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], IDVB_NIT interface [Microsoft TV Technologies],described, IDVB_NITInterface, dvbsiparser/IDVB_NIT, mstv.idvb_nit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

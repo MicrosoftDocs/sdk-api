@@ -9,8 +9,8 @@ ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage [Strctd Stg], IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage],described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propidl.h
 req.include-header: Objbase.h

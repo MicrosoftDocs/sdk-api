@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput6_checkhardwarecompositionsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CheckHardwareCompositionSupport, CheckHardwareCompositionSupport method [DXGI], CheckHardwareCompositionSupport method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],CheckHardwareCompositionSupport method, IDXGIOutput6.CheckHardwareCompositionSupport, IDXGIOutput6::CheckHardwareCompositionSupport, direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport, dxgi1_6/IDXGIOutput6::CheckHardwareCompositionSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_6.h
+: 
+- IDXGIOutput6.CheckHardwareCompositionSupport
+: 
 ---
 
 # IDXGIOutput6::CheckHardwareCompositionSupport

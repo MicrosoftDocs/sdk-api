@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputcurrenttype.htm
 tech.root: medfound
 ms.assetid: 433c1918-4b87-40b1-a32b-db5cdd74d769
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 433c1918-4b87-40b1-a32b-db5cdd74d769, GetOutputCurrentType, GetOutputCurrentType method [Media Foundation], GetOutputCurrentType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputCurrentType method, IMFTransform.GetOutputCurrentType, IMFTransform::GetOutputCurrentType, mf.imftransform_getoutputcurrenttype, mftransform/IMFTransform::GetOutputCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mftransform.h
+: 
+- IMFTransform.GetOutputCurrentType
+: 
 ---
 
 # IMFTransform::GetOutputCurrentType

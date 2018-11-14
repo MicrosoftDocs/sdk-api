@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyItemSize_propId_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitemsize.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetPropertyItemSize, GetPropertyItemSize method [GDI+], GetPropertyItemSize method [GDI+],Image class, Image class [GDI+],GetPropertyItemSize method, Image.GetPropertyItemSize, Image::GetPropertyItemSize, _gdiplus_CLASS_Image_GetPropertyItemSize_propId_, gdiplus._gdiplus_CLASS_Image_GetPropertyItemSize_propId_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.GetPropertyItemSize
+: 
 req.product: GDI+ 1.0
 ---
 

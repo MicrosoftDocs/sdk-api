@@ -9,8 +9,8 @@ ms.assetid: afa559bc-5ac2-4487-bb13-25f30c5f4033
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMTSLocator, IMTSLocator interface [COM+], IMTSLocator interface [COM+],described, _dtc_IMtsLocator_Interface, comsvcs/IMTSLocator, cos.imtslocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

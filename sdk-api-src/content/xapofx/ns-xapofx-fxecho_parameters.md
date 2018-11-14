@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_PARAMETERS
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_PARAMETERS, xaudio2.fxecho_parameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 

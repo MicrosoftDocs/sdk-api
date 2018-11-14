@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getitem.htm
 tech.root: medfound
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Media Foundation], GetItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItem method, IMFAttributes.GetItem, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFAttributes.GetItem
+: 
 ---
 
 # IMFAttributes::GetItem

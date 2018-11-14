@@ -9,8 +9,8 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\case_requirement.htm
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: CASE_REQUIREMENT, CASE_REQUIREMENT enumeration [search], CASE_REQUIREMENT_ANY, CASE_REQUIREMENT_UPPER_IF_AQS, _search_CASE_REQUIREMENT, search._search_CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT_ANY, structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 

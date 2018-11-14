@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsModifyRecordsInSet_A
+: 
 ---
 
 # DnsModifyRecordsInSet_A function

@@ -7,7 +7,7 @@ old-location: base\regcopytree.htm
 tech.root: sysinfo
 ms.assetid: d16f2b47-e537-42b0-90b3-9f9a00e61e76
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegCopyTree, RegCopyTree function, RegCopyTreeA, RegCopyTreeW, base.regcopytree, winreg/RegCopyTree, winreg/RegCopyTreeA, winreg/RegCopyTreeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,6 +53,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegCopyTreeA
+: 
 ---
 
 # RegCopyTreeA function

@@ -7,10 +7,10 @@ old-location: mscs\cluster_batch_command.htm
 tech.root: mscs
 ms.assetid: 31f8e255-80c8-4381-a8f3-0d48a3831a89
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_BATCH_COMMAND, CLUSTER_BATCH_COMMAND structure [Failover Cluster], _CLUSTER_BATCH_COMMAND, clusapi/CLUSTER_BATCH_COMMAND, mscs.cluster_batch_command
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

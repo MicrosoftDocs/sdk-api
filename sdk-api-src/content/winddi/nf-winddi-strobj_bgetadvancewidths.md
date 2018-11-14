@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- STROBJ_bGetAdvanceWidths
+: 
 ---
 
 # STROBJ_bGetAdvanceWidths function

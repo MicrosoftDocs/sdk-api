@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_36.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(), Rect::Rect, _gdiplus_CLASS_Rect_Rect_, gdiplus._gdiplus_CLASS_Rect_Rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- Rect.Rect
+: 
 req.product: GDI+ 1.0
 ---
 

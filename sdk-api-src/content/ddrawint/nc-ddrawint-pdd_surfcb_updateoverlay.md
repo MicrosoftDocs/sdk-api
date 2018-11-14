@@ -9,8 +9,8 @@ ms.assetid: e86b3b75-319a-4817-bcb1-59580c855ef9
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DdUpdateOverlay, DdUpdateOverlay callback function [Display Devices], PDD_SURFCB_UPDATEOVERLAY, PDD_SURFCB_UPDATEOVERLAY callback, ddfncs_aa6e3770-06c5-4be1-b934-2eb58f909f30.xml, ddrawint/DdUpdateOverlay, display.ddupdateoverlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

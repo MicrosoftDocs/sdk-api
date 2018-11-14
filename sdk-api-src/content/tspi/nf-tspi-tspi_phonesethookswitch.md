@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesethookswitch.htm
 tech.root: tapi
 ms.assetid: e0cfe1b7-9904-4baf-8801-43bc1a5d05d8
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TSPI_phoneSetHookSwitch, TSPI_phoneSetHookSwitch function [TAPI 2.2], _tspi_tspi_phonesethookswitch, tspi.tspi_phonesethookswitch, tspi/TSPI_phoneSetHookSwitch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_phoneSetHookSwitch
+: 
 ---
 
 # TSPI_phoneSetHookSwitch function

@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_agentsessions.htm
 tech.root: tapi
 ms.assetid: 25503eae-ebee-4b57-ab5c-b3f152de9a96
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_AgentSessions method, ITAgent.get_AgentSessions, ITAgent::get_AgentSessions, _tapi3_itagent_get_agentsessions, get_AgentSessions, get_AgentSessions method [TAPI 2.2], get_AgentSessions method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_agentsessions, tapi3cc/ITAgent::get_AgentSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgent.get_AgentSessions
+: 
 ---
 
 # ITAgent::get_AgentSessions

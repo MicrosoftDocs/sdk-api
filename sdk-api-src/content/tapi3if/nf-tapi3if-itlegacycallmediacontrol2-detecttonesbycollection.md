@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_detecttonesbycollection.htm
 tech.root: tapi
 ms.assetid: 09cbcd9d-66cd-4131-b45c-cb3898d8446d
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: DetectTonesByCollection, DetectTonesByCollection method [TAPI 2.2], DetectTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],DetectTonesByCollection method, ITLegacyCallMediaControl2.DetectTonesByCollection, ITLegacyCallMediaControl2::DetectTonesByCollection, _tapi3_itlegacycallmediacontrol2_detecttonesbycollection, tapi3.itlegacycallmediacontrol2_detecttonesbycollection, tapi3if/ITLegacyCallMediaControl2::DetectTonesByCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITLegacyCallMediaControl2.DetectTonesByCollection
+: 
 ---
 
 # ITLegacyCallMediaControl2::DetectTonesByCollection

@@ -7,8 +7,8 @@ old-location: dataxchg\addatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomW, winui._win32_addatom
+ms.date: 11/13/2018
+ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomA, AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomA, winbase/AddAtomW, winui._win32_addatom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: AddAtomW (Unicode)
+req.unicode-ansi: AddAtomW (Unicode) and AddAtomA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -41,11 +41,18 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
  - AddAtom
+ - AddAtomA
  - AddAtomW
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddAtomW
+: 
 ---
 
 # AddAtomW function

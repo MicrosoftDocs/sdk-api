@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netlistmgr.h
+: 
+- INetworkListManager.get_IsConnectedToInternet
+: 
 ---
 
 # INetworkListManager::get_IsConnectedToInternet

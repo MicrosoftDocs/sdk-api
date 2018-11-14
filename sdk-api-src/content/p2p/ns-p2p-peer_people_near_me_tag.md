@@ -9,8 +9,8 @@ ms.assetid: 15dae06d-0f44-4e7d-b146-6fcd7cc6912e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], PEER_PEOPLE_NEAR_ME, PEER_PEOPLE_NEAR_ME structure [Peer Networking], PPEER_PEOPLE_NEAR_ME, PPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], PPPEER_PEOPLE_NEAR_ME, PPPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], p2p.peer_people_near_me, p2p/PCPEER_PEOPLE_NEAR_ME, p2p/PEER_PEOPLE_NEAR_ME, p2p/PPEER_PEOPLE_NEAR_ME, p2p/PPPEER_PEOPLE_NEAR_ME, peer_people_near_me_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

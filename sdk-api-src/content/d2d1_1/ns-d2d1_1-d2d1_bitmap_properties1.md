@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_bitmap_properties1.htm
 tech.root: direct2d
 ms.assetid: c9371ce3-f6fc-4fe6-ada6-0aa64a8f29a2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_BITMAP_PROPERTIES1, D2D1_BITMAP_PROPERTIES1 structure [Direct2D], PD2D1_BITMAP_PROPERTIES1, PD2D1_BITMAP_PROPERTIES1 structure pointer [Direct2D], d2d1_1/D2D1_BITMAP_PROPERTIES1, d2d1_1/PD2D1_BITMAP_PROPERTIES1, direct2d.d2d1_bitmap_properties1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

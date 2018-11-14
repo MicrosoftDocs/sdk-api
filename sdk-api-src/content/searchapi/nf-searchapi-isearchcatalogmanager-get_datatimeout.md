@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchCatalogManager.get_DataTimeout
+: 
 ---
 
 # ISearchCatalogManager::get_DataTimeout

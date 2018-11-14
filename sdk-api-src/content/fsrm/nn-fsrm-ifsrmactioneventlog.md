@@ -9,8 +9,8 @@ ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Resource Manager], IFsrmActionEventLog interface [File Server Resource Manager],described, fs.ifsrmactioneventlog, fsrm.ifsrmactioneventlog, fsrm/IFsrmActionEventLog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

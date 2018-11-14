@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMNetShowConfig.put_EnableAutoProxy
+: 
 ---
 
 # IAMNetShowConfig::put_EnableAutoProxy

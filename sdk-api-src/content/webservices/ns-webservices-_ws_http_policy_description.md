@@ -9,8 +9,8 @@ ms.assetid: 808d4198-7863-448e-a299-23c6d1f53dc6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_HTTP_POLICY_DESCRIPTION, WS_HTTP_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_POLICY_DESCRIPTION, webservices/WS_HTTP_POLICY_DESCRIPTION, wsw.ws_http_policy_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_FillMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\fillmode.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: FillMode, FillMode enumeration [GDI+], FillModeAlternate, FillModeWinding, _gdiplus_ENUM_FillMode, gdiplus._gdiplus_ENUM_FillMode, gdiplusenums/FillMode, gdiplusenums/FillModeAlternate, gdiplusenums/FillModeWinding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- audioclient.h
+: 
+- IAudioClient3.GetCurrentSharedModeEnginePeriod
+: 
 ---
 
 # IAudioClient3::GetCurrentSharedModeEnginePeriod

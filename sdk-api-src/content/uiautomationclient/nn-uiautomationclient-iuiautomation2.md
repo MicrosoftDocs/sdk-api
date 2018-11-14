@@ -9,8 +9,8 @@ ms.assetid: 45B4D41E-9C5C-47C7-86EB-D7B9BA14211B
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomation2, IUIAutomation2 interface [Windows Accessibility], IUIAutomation2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation2, winauto.uiauto_IUIAutomation2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

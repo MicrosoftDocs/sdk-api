@@ -7,7 +7,7 @@ old-location: mf\imftimecodetranslate_beginconverttimecodetohns.htm
 tech.root: medfound
 ms.assetid: 4e25d5e4-b4d7-4ca4-81c9-12c6d712322d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: BeginConvertTimecodeToHNS, BeginConvertTimecodeToHNS method [Media Foundation], BeginConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],BeginConvertTimecodeToHNS method, IMFTimecodeTranslate.BeginConvertTimecodeToHNS, IMFTimecodeTranslate::BeginConvertTimecodeToHNS, mf.imftimecodetranslate_beginconverttimecodetohns, mfidl/IMFTimecodeTranslate::BeginConvertTimecodeToHNS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFTimecodeTranslate.BeginConvertTimecodeToHNS
+: 
 ---
 
 # IMFTimecodeTranslate::BeginConvertTimecodeToHNS

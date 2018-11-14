@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comcat.h
+: 
+- ICatRegister.RegisterClassReqCategories
+: 
 ---
 
 # ICatRegister::RegisterClassReqCategories

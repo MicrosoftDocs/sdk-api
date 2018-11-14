@@ -7,10 +7,10 @@ old-location: mscs\cluster_node_resume_failback_type.htm
 tech.root: mscs
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSTER_NODE_RESUME_FAILBACK_TYPE, CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster], ClusterNodeResumeFailbackTypeCount, DoNotFailbackGroups, FailbackGroupsImmediately, FailbackGroupsPerPolicy, clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE, clusapi/ClusterNodeResumeFailbackTypeCount, clusapi/DoNotFailbackGroups, clusapi/FailbackGroupsImmediately, clusapi/FailbackGroupsPerPolicy, mscs.cluster_node_resume_failback_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

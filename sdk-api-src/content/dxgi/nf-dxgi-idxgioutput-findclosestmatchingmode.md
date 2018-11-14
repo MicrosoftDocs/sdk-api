@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_findclosestmatchingmode.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_findclosestmatchingmode.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: FindClosestMatchingMode, FindClosestMatchingMode method [DXGI], FindClosestMatchingMode method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],FindClosestMatchingMode method, IDXGIOutput.FindClosestMatchingMode, IDXGIOutput::FindClosestMatchingMode, c140400c-32d4-ec57-8da0-a37a23cfd5e4, direct3ddxgi.idxgioutput_findclosestmatchingmode, dxgi/IDXGIOutput::FindClosestMatchingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi.h
+: 
+- IDXGIOutput.FindClosestMatchingMode
+: 
 ---
 
 # IDXGIOutput::FindClosestMatchingMode

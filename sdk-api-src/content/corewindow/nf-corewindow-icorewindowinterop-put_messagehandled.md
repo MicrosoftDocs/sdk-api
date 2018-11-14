@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- corewindow.h
+: 
+- ICoreWindowInterop.put_MessageHandled
+: 
 ---
 
 # ICoreWindowInterop::put_MessageHandled

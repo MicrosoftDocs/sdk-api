@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_raytracing_shader_config.htm
 tech.root: direct3d12
 ms.assetid: 8B34EAEF-0B8A-4FE6-81E1-C3652CB5CF6A
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_RAYTRACING_SHADER_CONFIG, D3D12_RAYTRACING_SHADER_CONFIG structure, PD3D12_RAYTRACING_SHADER_CONFIG, PD3D12_RAYTRACING_SHADER_CONFIG structure pointer, d3d12/D3D12_RAYTRACING_SHADER_CONFIG, d3d12/PD3D12_RAYTRACING_SHADER_CONFIG, direct3d12.d3d12_raytracing_shader_config
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 A state subobject that represents a shader configuration.
 

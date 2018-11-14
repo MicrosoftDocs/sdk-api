@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_c
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframedimensionslist.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetFrameDimensionsList, GetFrameDimensionsList method [GDI+], GetFrameDimensionsList method [GDI+],Image class, Image class [GDI+],GetFrameDimensionsList method, Image.GetFrameDimensionsList, Image::GetFrameDimensionsList, _gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_, gdiplus._gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.GetFrameDimensionsList
+: 
 req.product: GDI+ 1.0
 ---
 

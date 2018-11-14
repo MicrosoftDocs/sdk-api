@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchRoot.get_Password
+: 
 ---
 
 # ISearchRoot::get_Password

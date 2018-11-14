@@ -7,7 +7,7 @@ old-location: base\globalsize.htm
 tech.root: memory
 ms.assetid: 9fd01460-d6fc-41f4-9e0c-209a3d1844c1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GlobalSize
+: 
 ---
 
 # GlobalSize function

@@ -9,8 +9,8 @@ ms.assetid: ecbf48ce-0394-4da1-9f5c-d2626545982c
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IPF_Base64Gif, IPF_Base64InkSerializedFormat, IPF_Gif, IPF_InkSerializedFormat, InkPersistenceFormat, InkPersistenceFormat enumeration [Tablet PC], ecbf48ce-0394-4da1-9f5c-d2626545982c, msinkaut/IPF_Base64Gif, msinkaut/IPF_Base64InkSerializedFormat, msinkaut/IPF_Gif, msinkaut/IPF_InkSerializedFormat, msinkaut/InkPersistenceFormat, tablet.inkpersistenceformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

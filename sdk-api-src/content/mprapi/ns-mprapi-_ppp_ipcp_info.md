@@ -9,8 +9,8 @@ ms.assetid: c77f54d2-eac4-4e0a-92c5-c46d521a272d
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PPP_IPCP_INFO, PPP_IPCP_INFO structure [RAS], _PPP_IPCP_INFO, _mpr_ppp_ipcp_info, mprapi/PPP_IPCP_INFO, rras.ppp_ipcp_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

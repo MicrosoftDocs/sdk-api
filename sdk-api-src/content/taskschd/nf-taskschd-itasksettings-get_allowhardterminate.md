@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskSettings.get_AllowHardTerminate
+: 
 ---
 
 # ITaskSettings::get_AllowHardTerminate

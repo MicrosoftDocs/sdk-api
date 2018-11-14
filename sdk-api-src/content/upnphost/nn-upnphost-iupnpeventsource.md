@@ -9,8 +9,8 @@ ms.assetid: f20dfcaa-b8fe-43c8-b353-067dad4cf2b4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], IUPnPEventSource interface [UPnP APIs],described, _upnp_iupnpeventsource, upnp.iupnpeventsource, upnphost/IUPnPEventSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

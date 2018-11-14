@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_FACTORY_OPTIONS.htm
 tech.root: direct2d
 ms.assetid: 2765d34e-978c-4121-82c9-2780d54e2850
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_FACTORY_OPTIONS, D2D1_FACTORY_OPTIONS structure [Direct2D], d2d1/D2D1_FACTORY_OPTIONS, direct2d.D2D1_FACTORY_OPTIONS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

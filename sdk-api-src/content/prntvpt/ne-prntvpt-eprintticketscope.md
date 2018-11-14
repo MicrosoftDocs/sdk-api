@@ -9,8 +9,8 @@ ms.assetid: 7a817f43-c8da-4df1-91c8-6bb1c93c3abc
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: EPrintTicketScope, EPrintTicketScope enumeration [Windows GDI], _win32_EPrintTicketScope, gdi.eprintticketscope, kPTDocumentScope, kPTJobScope, kPTPageScope, prntvpt/EPrintTicketScope, prntvpt/kPTDocumentScope, prntvpt/kPTJobScope, prntvpt/kPTPageScope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: prntvpt.h
 req.include-header: 

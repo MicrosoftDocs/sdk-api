@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- DateTime_GetMonthCalStyle
+: 
 ---
 
 # DateTime_GetMonthCalStyle macro

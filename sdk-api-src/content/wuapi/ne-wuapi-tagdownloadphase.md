@@ -9,8 +9,8 @@ ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, tagDownloadPhase, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

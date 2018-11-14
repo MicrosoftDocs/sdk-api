@@ -9,8 +9,8 @@ ms.assetid: 9474C21B-47D4-468F-A970-0B0CBCF357A3
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PRJ_FILE_STATE, PRJ_FILE_STATE enumeration, PRJ_FILE_STATE_DIRTY_PLACEHOLDER, PRJ_FILE_STATE_FULL, PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, PRJ_FILE_STATE_PLACEHOLDER, PRJ_FILE_STATE_TOMBSTONE, ProjFS.prj_file_state, projectedfslib/PRJ_FILE_STATE, projectedfslib/PRJ_FILE_STATE_DIRTY_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_FULL, projectedfslib/PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_TOMBSTONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: projectedfslib.h
 req.include-header: 

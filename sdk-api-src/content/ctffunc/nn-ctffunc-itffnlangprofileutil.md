@@ -9,8 +9,8 @@ ms.assetid: 42dd534d-9786-4276-b227-fee2d58806b7
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], ITfFnLangProfileUtil interface [Text Services Framework],described, _tsf_itffnlangprofileutil_ref, ctffunc/ITfFnLangProfileUtil, tsf.itffnlangprofileutil
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

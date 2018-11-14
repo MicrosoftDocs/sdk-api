@@ -7,7 +7,7 @@ old-location: base\createfilemappingfromapp.htm
 tech.root: memory
 ms.assetid: ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateFileMappingFromApp
+: 
 ---
 
 # CreateFileMappingFromApp function

@@ -9,8 +9,8 @@ ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], IXpsSignature interface [XPS Documents and Packaging],described, xps.ixpssignature, xpsdigitalsignature/IXpsSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsdigitalsignature.h
 req.include-header: 

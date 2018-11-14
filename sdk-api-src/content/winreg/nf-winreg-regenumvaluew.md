@@ -7,7 +7,7 @@ old-location: base\regenumvalue.htm
 tech.root: sysinfo
 ms.assetid: 7014ff96-c655-486f-af32-180b87281b06
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegEnumValueW
+: 
 ---
 
 # RegEnumValueW function

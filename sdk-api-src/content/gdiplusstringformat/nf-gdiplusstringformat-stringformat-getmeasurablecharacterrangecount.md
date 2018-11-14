@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCou
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getmeasurablecharacterrangecount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetMeasurableCharacterRangeCount, GetMeasurableCharacterRangeCount method [GDI+], GetMeasurableCharacterRangeCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetMeasurableCharacterRangeCount method, StringFormat.GetMeasurableCharacterRangeCount, StringFormat::GetMeasurableCharacterRangeCount, _gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_, gdiplus._gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.GetMeasurableCharacterRangeCount
+: 
 req.product: GDI+ 1.0
 ---
 

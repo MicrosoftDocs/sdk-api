@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPM2.InitializeReportingEx
+: 
 ---
 
 # IGPM2::InitializeReportingEx

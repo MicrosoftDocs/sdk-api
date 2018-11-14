@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateRequestPkcs10.put_Subject
+: 
 ---
 
 # IX509CertificateRequestPkcs10::put_Subject

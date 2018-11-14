@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DRMGetServiceLocation
+: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

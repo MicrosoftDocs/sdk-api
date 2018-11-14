@@ -9,8 +9,8 @@ ms.assetid: C45364CE-9943-4677-856D-8761CF21EB36
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interface [App packaging and management], IAppxEncryptedPackageWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter2, appxpkg.iappxencryptedpackagewriter2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

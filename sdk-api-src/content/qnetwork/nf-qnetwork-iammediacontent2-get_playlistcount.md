@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMMediaContent2.get_PlaylistCount
+: 
 ---
 
 # IAMMediaContent2::get_PlaylistCount

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509PolicyServerListManager.get_ItemByIndex
+: 
 ---
 
 # IX509PolicyServerListManager::get_ItemByIndex

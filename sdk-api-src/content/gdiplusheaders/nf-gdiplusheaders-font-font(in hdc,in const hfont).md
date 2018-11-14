@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Font_hdc_hfont_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_2hdc_hfont.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(HDC,const HFONT), Font.Font(IN HDC,IN const HFONT), Font::Font, Font::Font(IN HDC,IN const HFONT), _gdiplus_CLASS_Font_Font_hdc_hfont_, gdiplus._gdiplus_CLASS_Font_Font_hdc_hfont_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Font.Font
+: 
 req.product: GDI+ 1.0
 ---
 

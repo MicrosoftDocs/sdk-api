@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingext
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6k6m.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MajorVersion property, IFaxInboundRoutingExtension.MajorVersion, IFaxInboundRoutingExtension.get_MajorVersion, IFaxInboundRoutingExtension::MajorVersion, IFaxInboundRoutingExtension::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.majorversion, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorversion_cpp, fax._mfax_faxinboundroutingextension_majorversion, faxcomex/IFaxInboundRoutingExtension::MajorVersion, faxcomex/IFaxInboundRoutingExtension::get_MajorVersion, get_MajorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxInboundRoutingExtension.get_MajorVersion
+: 
 ---
 
 # IFaxInboundRoutingExtension::get_MajorVersion

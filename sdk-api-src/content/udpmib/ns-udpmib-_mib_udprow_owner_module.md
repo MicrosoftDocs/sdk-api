@@ -9,8 +9,8 @@ ms.assetid: 9ae304e0-4653-4757-a823-d4ccf68627bf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], _MIB_UDPROW_OWNER_MODULE, iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

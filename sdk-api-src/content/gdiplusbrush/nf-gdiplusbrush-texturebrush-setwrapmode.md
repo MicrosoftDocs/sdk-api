@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\setwrapmode_88wrapmode.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetWrapMode method, TextureBrush.SetWrapMode, TextureBrush::SetWrapMode, _gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- TextureBrush.SetWrapMode
+: 
 req.product: GDI+ 1.0
 ---
 

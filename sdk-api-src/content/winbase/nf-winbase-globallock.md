@@ -7,7 +7,7 @@ old-location: base\globallock.htm
 tech.root: memory
 ms.assetid: 0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: GlobalLock, GlobalLock function, _win32_globallock, base.globallock, winbase/GlobalLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GlobalLock
+: 
 ---
 
 # GlobalLock function

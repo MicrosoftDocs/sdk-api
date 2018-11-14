@@ -9,8 +9,8 @@ ms.assetid: 23a97842-2d9f-438a-89a7-2dd0e381a019
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_ATTRIBUTE_DESCRIPTION, WS_ATTRIBUTE_DESCRIPTION structure [Web Services for Windows], _WS_ATTRIBUTE_DESCRIPTION, webservices/WS_ATTRIBUTE_DESCRIPTION, wsw.ws_attribute_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

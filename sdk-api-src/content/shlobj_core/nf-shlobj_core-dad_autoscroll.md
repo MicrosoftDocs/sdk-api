@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DAD_AutoScroll
+: 
 ---
 
 # DAD_AutoScroll function

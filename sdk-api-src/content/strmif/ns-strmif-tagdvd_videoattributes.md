@@ -9,8 +9,8 @@ ms.assetid: b395a322-d63e-41a0-b97a-88f99aeba0e5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVD_VideoAttributes, DVD_VideoAttributes structure [DirectShow], DVD_VideoAttributesStructure, dshow.dvd_videoattributes, strmif/DVD_VideoAttributes, tagDVD_VideoAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

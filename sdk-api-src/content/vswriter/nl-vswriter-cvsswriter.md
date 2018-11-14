@@ -9,8 +9,8 @@ ms.assetid: 5d54c966-86ad-41af-82be-8a182b3d203a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], CVssWriter class [VSS],described, _win32_cvsswriter, base.cvsswriter, vswriter/CVssWriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,8 @@ ms.assetid: c9aacc05-02aa-47b5-be58-46321cf6a99d
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: FLICK_POINT, FLICK_POINT structure [Tablet PC], c9aacc05-02aa-47b5-be58-46321cf6a99d, tabflicks/FLICK_POINT, tablet.flick_point
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tabflicks.h
 req.include-header: 

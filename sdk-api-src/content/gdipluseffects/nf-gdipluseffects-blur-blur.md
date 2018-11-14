@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Blur_Blur_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurconstructors\blur.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Blur, Blur class [GDI+],Blur constructor, Blur constructor [GDI+], Blur constructor [GDI+],Blur class, Blur.Blur, Blur::Blur, _gdiplus_CLASS_Blur_Blur_, gdiplus._gdiplus_CLASS_Blur_Blur_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- Blur.Blur
+: 
 req.product: GDI+ 1.1
 ---
 

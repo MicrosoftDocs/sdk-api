@@ -9,8 +9,8 @@ ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services],described, termserv.iworkspace, workspaceruntime/IWorkspace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: 

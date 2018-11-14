@@ -9,8 +9,8 @@ ms.assetid: 97a9112f-7b7b-4a7e-8f40-bdb148d413c8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IGetCapabilitiesKey, IGetCapabilitiesKey interface [DirectShow], IGetCapabilitiesKey interface [DirectShow],described, IGetCapabilitiesKeyInterface, dshow.igetcapabilitieskey, strmif/IGetCapabilitiesKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

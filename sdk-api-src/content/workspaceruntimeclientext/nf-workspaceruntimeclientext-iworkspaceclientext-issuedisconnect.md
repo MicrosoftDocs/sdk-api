@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- workspaceruntimeclientext.h
+: 
+- IWorkspaceClientExt.IssueDisconnect
+: 
 ---
 
 # IWorkspaceClientExt::IssueDisconnect

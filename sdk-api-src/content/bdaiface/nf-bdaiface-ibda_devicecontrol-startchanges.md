@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_DeviceControl.StartChanges
+: 
 ---
 
 # IBDA_DeviceControl::StartChanges

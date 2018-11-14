@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3DX11CreateFFT1DReal
+: 
 ---
 
 # D3DX11CreateFFT1DReal function

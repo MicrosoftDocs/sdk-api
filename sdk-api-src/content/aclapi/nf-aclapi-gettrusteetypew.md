@@ -7,7 +7,7 @@ old-location: security\gettrusteetype.htm
 tech.root: secauthz
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetTrusteeTypeW
+: 
 ---
 
 # GetTrusteeTypeW function

@@ -7,10 +7,10 @@ old-location: mf\imfmediastreamsourcesamplerequest.htm
 tech.root: medfound
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest, IMFMediaStreamSourceSampleRequest interface [Media Foundation], IMFMediaStreamSourceSampleRequest interface [Media Foundation],described, mf.imfmediastreamsourcesamplerequest, mfidl/IMFMediaStreamSourceSampleRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

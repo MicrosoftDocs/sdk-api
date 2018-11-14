@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo_get_permanentlocationid.htm
 tech.root: tapi
 ms.assetid: 5dab6a20-6113-46ef-a5d2-855ac1befc1a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PermanentLocationID method, ITLocationInfo.get_PermanentLocationID, ITLocationInfo::get_PermanentLocationID, _tapi3_itlocationinfo_get_permanentlocationid, get_PermanentLocationID, get_PermanentLocationID method [TAPI 2.2], get_PermanentLocationID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_permanentlocationid, tapi3if/ITLocationInfo::get_PermanentLocationID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITLocationInfo.get_PermanentLocationID
+: 
 ---
 
 # ITLocationInfo::get_PermanentLocationID

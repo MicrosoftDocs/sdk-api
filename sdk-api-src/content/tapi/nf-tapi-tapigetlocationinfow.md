@@ -7,7 +7,7 @@ old-location: tapi2\tapigetlocationinfo.htm
 tech.root: tapi
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- tapiGetLocationInfoW
+: 
 ---
 
 # tapiGetLocationInfoW function

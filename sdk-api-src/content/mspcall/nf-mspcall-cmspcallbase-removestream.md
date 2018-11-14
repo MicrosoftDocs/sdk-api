@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallbase_removestream.htm
 tech.root: tapi
 ms.assetid: 5e2b4261-ba0f-429a-aef5-974b2841bf0b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],RemoveStream method, CMSPCallBase.RemoveStream, CMSPCallBase::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_removestream, mspcall/CMSPCallBase::RemoveStream, tapi3.cmspcallbase_removestream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspcall.h
+: 
+- CMSPCallBase.RemoveStream
+: 
 ---
 
 # CMSPCallBase::RemoveStream

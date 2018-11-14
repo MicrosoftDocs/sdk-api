@@ -9,8 +9,8 @@ ms.assetid: fadf7114-b9e4-4f61-816b-10725b83169a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],described, IDvbFrequencyListDescriptorInterface, dvbsiparser/IDvbFrequencyListDescriptor, mstv.idvbfrequencylistdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

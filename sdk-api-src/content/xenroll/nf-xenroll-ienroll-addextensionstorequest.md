@@ -7,7 +7,7 @@ old-location: security\ienroll4_addextensionstorequest.htm
 tech.root: seccrypto
 ms.assetid: 6976fd52-98f0-4eff-aa83-7cf5cb5d5e67
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: AddExtensionsToRequest, AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security],IEnroll interface, IEnroll interface [Security],AddExtensionsToRequest method, IEnroll.AddExtensionsToRequest, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.AddExtensionsToRequest
+: 
 ---
 
 # IEnroll::AddExtensionsToRequest

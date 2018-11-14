@@ -7,10 +7,10 @@ old-location: tapi3\tmgr_direction.htm
 tech.root: tapi
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH, TMGR_TD_CAPTURE, TMGR_TD_RENDER, __MIDL___MIDL_itf_termmgr_0000_0000_0001, _tapi3_tmgr_direction, tapi3.tmgr_direction, termmgr/TMGR_DIRECTION, termmgr/TMGR_TD_BOTH, termmgr/TMGR_TD_CAPTURE, termmgr/TMGR_TD_RENDER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: termmgr.h
 req.include-header: 

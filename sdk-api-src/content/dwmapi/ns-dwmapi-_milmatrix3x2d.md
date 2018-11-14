@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\milmatrix
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [Desktop Window Manager], _MilMatrix3x2D, _udwm_MilMatrix3x2D, _udwm_milmatrix3x2d_cpp, dwm.milmatrix3x2d, dwmapi/MilMatrix3x2D, winui._udwm_milmatrix3x2d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 

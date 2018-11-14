@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_getbuffer.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getbuffer.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetBuffer, GetBuffer method [DXGI], GetBuffer method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetBuffer method, IDXGISwapChain.GetBuffer, IDXGISwapChain::GetBuffer, bd427578-fb6a-3136-aa3f-221b9262700c, direct3ddxgi.idxgiswapchain_getbuffer, dxgi/IDXGISwapChain::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi.h
+: 
+- IDXGISwapChain.GetBuffer
+: 
 ---
 
 # IDXGISwapChain::GetBuffer

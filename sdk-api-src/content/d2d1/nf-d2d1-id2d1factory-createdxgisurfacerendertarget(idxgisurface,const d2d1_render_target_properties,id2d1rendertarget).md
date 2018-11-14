@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurfa
 tech.root: direct2d
 ms.assetid: 1f24dd5e-271d-4780-b337-a9ab57f1d8f4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateDxgiSurfaceRenderTarget, CreateDxgiSurfaceRenderTarget method [Direct2D], CreateDxgiSurfaceRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDxgiSurfaceRenderTarget method, ID2D1Factory.CreateDxgiSurfaceRenderTarget, ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget), ID2D1Factory::CreateDxgiSurfaceRenderTarget, ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget), d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget, direct2d.ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ptr_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Factory.CreateDxgiSurfaceRenderTarget
+: 
 ---
 
 # ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget)

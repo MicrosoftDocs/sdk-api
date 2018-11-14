@@ -9,8 +9,8 @@ ms.assetid: DF94E03F-0A9A-4467-B932-28227B6BB3C4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], IWdsTransportContentProvider interface [Windows Deployment Services],described, wds.iwdstransportcontentprovider, wdstptmgmt/IWdsTransportContentProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

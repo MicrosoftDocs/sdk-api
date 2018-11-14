@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\enums\query_parser_manager_option
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: QPMO_APPEND_LCID_TO_LOCALIZED_PATH, QPMO_LOCALIZED_SCHEMA_BINARY_PATH, QPMO_LOCALIZER_SUPPORT, QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH, QPMO_SCHEMA_BINARY_NAME, QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH, QUERY_PARSER_MANAGER_OPTION, QUERY_PARSER_MANAGER_OPTION enumeration [search], _search_QUERY_PARSER_MANAGER_OPTION, search._search_QUERY_PARSER_MANAGER_OPTION, structuredquery/QPMO_APPEND_LCID_TO_LOCALIZED_PATH, structuredquery/QPMO_LOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QPMO_LOCALIZER_SUPPORT, structuredquery/QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QPMO_SCHEMA_BINARY_NAME, structuredquery/QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QUERY_PARSER_MANAGER_OPTION, tagQUERY_PARSER_MANAGER_OPTION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 

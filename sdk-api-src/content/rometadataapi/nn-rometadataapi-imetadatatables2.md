@@ -9,8 +9,8 @@ ms.assetid: dc59fe85-b490-4f23-a32f-2942610dd8dc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], IMetaDataTables2 interface [Windows Runtime],described, rometadataapi/IMetaDataTables2, winrt.imetadatatables2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

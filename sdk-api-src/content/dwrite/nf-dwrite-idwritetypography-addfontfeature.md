@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTypography_AddFontFeature.htm
 tech.root: DirectWrite
 ms.assetid: 6d86a66d-a72f-4288-864f-90f877bd166d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: AddFontFeature, AddFontFeature method [Direct Write], AddFontFeature method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],AddFontFeature method, IDWriteTypography.AddFontFeature, IDWriteTypography::AddFontFeature, directwrite.IDWriteTypography_AddFontFeature, dwrite/IDWriteTypography::AddFontFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteTypography.AddFontFeature
+: 
 ---
 
 # IDWriteTypography::AddFontFeature

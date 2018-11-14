@@ -9,8 +9,8 @@ ms.assetid: 297ccb5c-3fa2-4bb0-bdd2-60d4685dc55c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_HBAPORT_PROP, VDS_HBAPORT_PROP structure [VDS], _VDS_HBAPORT_PROP, base.vds_hbaport_prop, vds/VDS_HBAPORT_PROP, vdshwprv/VDS_HBAPORT_PROP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

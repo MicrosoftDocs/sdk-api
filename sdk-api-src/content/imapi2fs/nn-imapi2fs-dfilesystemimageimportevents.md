@@ -9,8 +9,8 @@ ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: DFileSystemImageImportEvents, DFileSystemImageImportEvents interface [IMAPI], DFileSystemImageImportEvents interface [IMAPI],described, imapi.dfilesystemimageimportevents, imapi2fs/DFileSystemImageImportEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

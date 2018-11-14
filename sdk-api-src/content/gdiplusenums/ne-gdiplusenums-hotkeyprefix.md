@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_HotkeyPrefix.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\hotkeyprefix.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: HotkeyPrefix, HotkeyPrefix enumeration [GDI+], HotkeyPrefixHide, HotkeyPrefixNone, HotkeyPrefixShow, _gdiplus_ENUM_HotkeyPrefix, gdiplus._gdiplus_ENUM_HotkeyPrefix, gdiplusenums/HotkeyPrefix, gdiplusenums/HotkeyPrefixHide, gdiplusenums/HotkeyPrefixNone, gdiplusenums/HotkeyPrefixShow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

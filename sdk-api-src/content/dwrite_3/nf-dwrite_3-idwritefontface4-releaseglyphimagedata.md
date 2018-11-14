@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface4_releaseglyphimagedata.htm
 tech.root: DirectWrite
 ms.assetid: 2A3211C1-90EB-42AE-BCE7-BDDA1D1E6312
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteFontFace4 interface [Direct Write],ReleaseGlyphImageData method, IDWriteFontFace4.ReleaseGlyphImageData, IDWriteFontFace4::ReleaseGlyphImageData, ReleaseGlyphImageData, ReleaseGlyphImageData method [Direct Write], ReleaseGlyphImageData method [Direct Write],IDWriteFontFace4 interface, directwrite.idwritefontface4_releaseglyphimagedata, dwrite_3/IDWriteFontFace4::ReleaseGlyphImageData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontFace4.ReleaseGlyphImageData
+: 
 ---
 
 # IDWriteFontFace4::ReleaseGlyphImageData

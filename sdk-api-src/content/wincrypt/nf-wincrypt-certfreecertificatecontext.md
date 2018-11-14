@@ -7,7 +7,7 @@ old-location: security\certfreecertificatecontext.htm
 tech.root: seccrypto
 ms.assetid: 7d2f3237-3f8b-4234-b6db-3057384cd89b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertFreeCertificateContext, CertFreeCertificateContext function [Security], _crypto2_certfreecertificatecontext, security.certfreecertificatecontext, wincrypt/CertFreeCertificateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertFreeCertificateContext
+: 
 ---
 
 # CertFreeCertificateContext function

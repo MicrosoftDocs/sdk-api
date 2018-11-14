@@ -7,7 +7,7 @@ old-location: security\iaztask_operations.htm
 tech.root: secauthz
 ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzTask object [Security],Operations property, IAzTask interface [Security],Operations property, IAzTask.Operations, IAzTask.get_Operations, IAzTask::Operations, IAzTask::get_Operations, Operations property [Security], Operations property [Security],AzTask object, Operations property [Security],IAzTask interface, azroles/IAzTask::Operations, azroles/IAzTask::get_Operations, get_Operations, security.iaztask_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.get_Operations
+: 
 ---
 
 # IAzTask::get_Operations

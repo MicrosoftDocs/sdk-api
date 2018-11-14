@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ComboBox_ShowDropdown
+: 
 ---
 
 # ComboBox_ShowDropdown macro

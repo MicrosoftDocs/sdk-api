@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICatalogCollection.get__NewEnum
+: 
 ---
 
 # ICatalogCollection::get__NewEnum

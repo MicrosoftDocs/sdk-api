@@ -9,8 +9,8 @@ ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], _tagITEMPROP, search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: subsmgr.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- syncmgr.h
+: 
+- ISyncMgrHandler.GetHandlerInfo
+: 
 ---
 
 # ISyncMgrHandler::GetHandlerInfo

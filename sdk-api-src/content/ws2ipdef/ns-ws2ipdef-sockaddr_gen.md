@@ -9,8 +9,8 @@ ms.assetid: 60b11476-07ca-476e-a2f0-669631835128
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: sockaddr_gen, sockaddr_gen union [Winsock], winsock.sockaddr_gen, ws2ipdef/sockaddr_gen, ws2tcpip/sockaddr_gen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

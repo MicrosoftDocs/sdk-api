@@ -9,8 +9,8 @@ ms.assetid: d166b139-3ef7-4f47-817a-8f5b644a3776
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMixerPinConfig2, IMixerPinConfig2 interface [DirectShow], IMixerPinConfig2 interface [DirectShow],described, IMixerPinConfig2Interface, dshow.imixerpinconfig2, mpconfig/IMixerPinConfig2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mpconfig.h
 req.include-header: 

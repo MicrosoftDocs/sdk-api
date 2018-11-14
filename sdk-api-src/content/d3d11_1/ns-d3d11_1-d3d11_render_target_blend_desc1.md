@@ -9,8 +9,8 @@ ms.assetid: A8323E69-F385-4E91-8B1F-A7CD3D508A09
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_RENDER_TARGET_BLEND_DESC1, D3D11_RENDER_TARGET_BLEND_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RENDER_TARGET_BLEND_DESC1, direct3d11.d3d11_render_target_blend_desc1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 

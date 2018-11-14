@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Point_Point_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_85x_y.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN INT,IN INT), Point.Point(INT,INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_x_y_, gdiplus._gdiplus_CLASS_Point_Point_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- Point.Point
+: 
 req.product: GDI+ 1.0
 ---
 

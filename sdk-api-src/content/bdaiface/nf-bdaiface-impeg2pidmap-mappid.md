@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IMPEG2PIDMap.MapPID
+: 
 ---
 
 # IMPEG2PIDMap::MapPID

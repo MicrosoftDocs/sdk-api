@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xamlom.h
+: 
+- IVisualTreeService3.ResolveResource
+: 
 ---
 
 # IVisualTreeService3::ResolveResource

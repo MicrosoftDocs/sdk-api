@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_create_vlv_controlA
+: 
 ---
 
 # ldap_create_vlv_controlA function

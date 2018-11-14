@@ -9,8 +9,8 @@ ms.assetid: DBAFE260-0AC6-4801-8590-DE058667C9A6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], IAccessibilityDockingService interface [COM],described, com.iaccessibilitydockingservice, shobjidl/IAccessibilityDockingService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

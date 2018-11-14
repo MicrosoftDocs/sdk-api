@@ -7,10 +7,10 @@ old-location: mf\dxvahd_stream_state_palette_data.htm
 tech.root: medfound
 ms.assetid: 91f69451-72e6-4028-92d5-555dcf834cf7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DXVAHD_STREAM_STATE_PALETTE_DATA, DXVAHD_STREAM_STATE_PALETTE_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_PALETTE_DATA, dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA, mf.dxvahd_stream_state_palette_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

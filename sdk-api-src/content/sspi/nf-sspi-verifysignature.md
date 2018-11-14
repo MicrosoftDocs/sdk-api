@@ -7,7 +7,7 @@ old-location: security\verifysignature.htm
 tech.root: secauthn
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VerifySignature
+: 
 ---
 
 # VerifySignature function

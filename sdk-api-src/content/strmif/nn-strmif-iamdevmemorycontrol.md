@@ -9,8 +9,8 @@ ms.assetid: 9945bffb-6748-4c7d-ba14-91470cf6c651
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IAMDevMemoryControl interface [DirectShow],described, IAMDevMemoryControlInterface, dshow.iamdevmemorycontrol, strmif/IAMDevMemoryControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

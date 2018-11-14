@@ -9,8 +9,8 @@ ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: TF_LANGBARITEMINFO, TF_LANGBARITEMINFO structure [Text Services Framework], _tsf_tf_langbariteminfo_ref, ctfutb/TF_LANGBARITEMINFO, tsf.tf_langbariteminfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ctfutb.h
 req.include-header: 

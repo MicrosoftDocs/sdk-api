@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Server 2008 or Windows Vista
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMStarterGPOBackupCollection.get__NewEnum
+: 
 ---
 
 # IGPMStarterGPOBackupCollection::get__NewEnum

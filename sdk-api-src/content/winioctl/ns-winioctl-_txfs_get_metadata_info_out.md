@@ -9,8 +9,8 @@ ms.assetid: 138fbd75-9d2e-4969-84a7-3cebde683d93
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PTXFS_GET_METADATA_INFO_OUT, PTXFS_GET_METADATA_INFO_OUT, PTXFS_GET_METADATA_INFO_OUT structure pointer [Files], TXFS_GET_METADATA_INFO_OUT, TXFS_GET_METADATA_INFO_OUT structure [Files], TXFS_TRANSACTION_STATE_ACTIVE, TXFS_TRANSACTION_STATE_NONE, TXFS_TRANSACTION_STATE_NOTACTIVETXFS_TRANSACTION_STATE_NOTACTIVE, TXFS_TRANSACTION_STATE_PREPARED, _TXFS_GET_METADATA_INFO_OUT, fs.txfs_get_metadata_info_out, winioctl/PTXFS_GET_METADATA_INFO_OUT, winioctl/TXFS_GET_METADATA_INFO_OUT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

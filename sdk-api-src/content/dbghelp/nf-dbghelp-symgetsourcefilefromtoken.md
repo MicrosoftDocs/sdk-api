@@ -7,7 +7,7 @@ old-location: base\symgetsourcefilefromtoken.htm
 tech.root: debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- SymGetSourceFileFromToken
+: 
 ---
 
 # SymGetSourceFileFromToken function

@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_description.htm
 tech.root: secauthz
 ms.assetid: 79ef0e2f-3178-4310-832c-b0eea06cf1b0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],Description property, Description property [Security], Description property [Security],AzAuthorizationStore object, Description property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Description property, IAzAuthorizationStore.Description, IAzAuthorizationStore.get_Description, IAzAuthorizationStore::Description, IAzAuthorizationStore::get_Description, IAzAuthorizationStore::put_Description, azroles/IAzAuthorizationStore::Description, azroles/IAzAuthorizationStore::get_Description, azroles/IAzAuthorizationStore::put_Description, get_Description, security.azauthorizationstore_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.get_Description
+: 
 ---
 
 # IAzAuthorizationStore::get_Description

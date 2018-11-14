@@ -7,7 +7,7 @@ old-location: security\cryptxmlgetdoccontext.htm
 tech.root: seccrypto
 ms.assetid: 0532c790-381c-4a91-8211-725b0fa73830
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], cryptxml/CryptXmlGetDocContext, security.cryptxmlgetdoccontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlGetDocContext
+: 
 ---
 
 # CryptXmlGetDocContext function

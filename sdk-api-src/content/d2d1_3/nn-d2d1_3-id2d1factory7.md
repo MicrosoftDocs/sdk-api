@@ -7,10 +7,10 @@ old-location: direct2d\id2d1factory7.htm
 tech.root: direct2d
 ms.assetid: 1DF655A7-5700-4E87-B254-7F5E21C6CEE5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1Factory7, ID2D1Factory7 interface [Direct2D], ID2D1Factory7 interface [Direct2D],described, d2d1_3/ID2D1Factory7, direct2d.id2d1factory7
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

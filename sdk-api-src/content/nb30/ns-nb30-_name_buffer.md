@@ -9,8 +9,8 @@ ms.assetid: f1059074-68c1-4a08-98bd-ccfb314e39ec
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, _NAME_BUFFER, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

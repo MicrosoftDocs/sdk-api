@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\nmlvdispinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMLVDISPINFOA, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO, tagLVDISPINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

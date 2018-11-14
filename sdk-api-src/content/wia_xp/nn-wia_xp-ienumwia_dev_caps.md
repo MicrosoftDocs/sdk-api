@@ -9,8 +9,8 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\ienumwia_dev_caps.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], IEnumWIA_DEV_CAPS interface [WIA],described, _wia_IEnumWIA_DEV_CAPS, wia._wia_IEnumWIA_DEV_CAPS, wia_xp/IEnumWIA_DEV_CAPS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wabapi.h
 req.include-header: 

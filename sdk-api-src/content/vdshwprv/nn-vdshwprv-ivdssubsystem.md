@@ -9,8 +9,8 @@ ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], IVdsSubSystem interface [VDS],described, base.ivdssubsystem, vds/IVdsSubSystem, vdshwprv/IVdsSubSystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

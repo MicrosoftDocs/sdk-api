@@ -9,8 +9,8 @@ ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], _VDS_PATH_POLICY, base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

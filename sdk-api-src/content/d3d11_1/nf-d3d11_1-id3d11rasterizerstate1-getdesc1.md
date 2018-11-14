@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_1.h
+: 
+- ID3D11RasterizerState1.GetDesc1
+: 
 ---
 
 # ID3D11RasterizerState1::GetDesc1

@@ -9,8 +9,8 @@ ms.assetid: 9cf87d19-2db6-48f8-96a6-2b6ac969c774
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO structure [Display Devices], PDDFLIPVIDEOPORTINFO, PDDFLIPVIDEOPORTINFO structure pointer [Display Devices], Video_Structs_e5e5e93f-25a2-47a6-a99c-6ac8ca43f069.xml, _DDFLIPVIDEOPORTINFO, display.ddflipvideoportinfo, dxmini/DDFLIPVIDEOPORTINFO, dxmini/PDDFLIPVIDEOPORTINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

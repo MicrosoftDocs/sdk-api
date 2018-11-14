@@ -9,8 +9,8 @@ ms.assetid: 78d60240-44dc-48b8-b2a6-5babbd79085f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG enumeration, VDS_FSS_DEFAULT, VDS_FSS_PREVIOUS_REVISION, VDS_FSS_RECOMMENDED, _VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, base.vds_file_system_format_support_flag, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, vds/VDS_FSS_DEFAULT, vds/VDS_FSS_PREVIOUS_REVISION, vds/VDS_FSS_RECOMMENDED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

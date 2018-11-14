@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_FEATURE_LEVEL.htm
 tech.root: direct2d
 ms.assetid: d9604c37-7345-40e3-850c-2e2c99353ba5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_FEATURE_LEVEL, D2D1_FEATURE_LEVEL enumeration [Direct2D], D2D1_FEATURE_LEVEL_10, D2D1_FEATURE_LEVEL_9, D2D1_FEATURE_LEVEL_DEFAULT, d2d1/D2D1_FEATURE_LEVEL, d2d1/D2D1_FEATURE_LEVEL_10, d2d1/D2D1_FEATURE_LEVEL_9, d2d1/D2D1_FEATURE_LEVEL_DEFAULT, direct2d.D2D1_FEATURE_LEVEL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

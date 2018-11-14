@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IFrequencyMap.get_DefaultFrequencyMapping
+: 
 ---
 
 # IFrequencyMap::get_DefaultFrequencyMapping

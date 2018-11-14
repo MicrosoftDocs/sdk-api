@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IWriteEngine2EventArgs.get_SectorCount
+: 
 ---
 
 # IWriteEngine2EventArgs::get_SectorCount

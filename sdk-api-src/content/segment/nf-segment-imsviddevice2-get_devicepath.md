@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidDevice2.get_DevicePath
+: 
 ---
 
 # IMSVidDevice2::get_DevicePath

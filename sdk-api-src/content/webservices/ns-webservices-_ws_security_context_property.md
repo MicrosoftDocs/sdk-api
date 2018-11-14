@@ -9,8 +9,8 @@ ms.assetid: 426b9847-8217-41ce-8962-138176e0555b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY, WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows], _WS_SECURITY_CONTEXT_PROPERTY, webservices/WS_SECURITY_CONTEXT_PROPERTY, wsw.ws_security_context_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

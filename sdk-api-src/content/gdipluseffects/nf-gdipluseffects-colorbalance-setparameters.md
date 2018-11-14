@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorBalance_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalancemethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ColorBalance class [GDI+],SetParameters method, ColorBalance.SetParameters, ColorBalance::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorBalance class, _gdiplus_CLASS_ColorBalance_SetParameters_, gdiplus._gdiplus_CLASS_ColorBalance_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- ColorBalance.SetParameters
+: 
 req.product: GDI+ 1.1
 ---
 

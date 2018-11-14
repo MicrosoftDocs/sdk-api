@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SHCreateShellItem
+: 
 ---
 
 # SHCreateShellItem function
@@ -114,19 +120,12 @@ There are three valid calling patterns for this function:
 
                         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-                        <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellItem *psi;
-SHCreateShellItem(pidlParent, NULL, pidlChild, &amp;psi);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IShellItem *psi;
+SHCreateShellItem(pidlParent, NULL, pidlChild, &psi);
+
+```
 
 
 </li>
@@ -134,19 +133,12 @@ SHCreateShellItem(pidlParent, NULL, pidlChild, &amp;psi);
 
                         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-                        <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellItem *psi;
-SHCreateShellItem(NULL, psfParent, pidlChild, &amp;psi);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IShellItem *psi;
+SHCreateShellItem(NULL, psfParent, pidlChild, &psi);
+
+```
 
 
 </li>
@@ -154,19 +146,12 @@ SHCreateShellItem(NULL, psfParent, pidlChild, &amp;psi);
 
                         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-                        <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellItem *psi;
-SHCreateShellItem(NULL, NULL, pidlFull, &amp;psi);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IShellItem *psi;
+SHCreateShellItem(NULL, NULL, pidlFull, &psi);
+
+```
 
 
 </li>

@@ -9,8 +9,8 @@ ms.assetid: de50fe74-8091-4a9e-a5b9-9a8c2c684895
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: TRIGGER_TYPE_UNION, TRIGGER_TYPE_UNION union [Task Scheduler], _TRIGGER_TYPE_UNION, _msb_trigger_type_union, mstask/TRIGGER_TYPE_UNION, taskschd.trigger_type_union
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 

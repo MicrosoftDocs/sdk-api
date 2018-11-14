@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_41bm.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPSender property, IFaxReceiptOptions.SMTPSender, IFaxReceiptOptions.get_SMTPSender, IFaxReceiptOptions.put_SMTPSender, IFaxReceiptOptions::SMTPSender, IFaxReceiptOptions::get_SMTPSender, IFaxReceiptOptions::put_SMTPSender, SMTPSender property [Fax Service], SMTPSender property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpsender, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp, fax._mfax_faxreceiptoptions_smtpsender, faxcomex/IFaxReceiptOptions::SMTPSender, faxcomex/IFaxReceiptOptions::get_SMTPSender, faxcomex/IFaxReceiptOptions::put_SMTPSender, get_SMTPSender
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxReceiptOptions.get_SMTPSender
+: 
 ---
 
 # IFaxReceiptOptions::get_SMTPSender

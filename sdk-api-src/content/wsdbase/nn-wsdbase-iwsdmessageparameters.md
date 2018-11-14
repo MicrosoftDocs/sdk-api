@@ -9,8 +9,8 @@ ms.assetid: fb659a5e-1f55-47a6-b22d-660975d8c0fd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, IWSDMessageParameters interface,described, ncd.iwsdmessageparameters, wsdbase/IWSDMessageParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

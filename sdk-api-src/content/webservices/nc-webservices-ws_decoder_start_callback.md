@@ -9,8 +9,8 @@ ms.assetid: e607b5a2-4d4a-4e23-854d-b5168556bb69
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_DECODER_START_CALLBACK, WS_DECODER_START_CALLBACK callback, WS_DECODER_START_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_START_CALLBACK, wsw.ws_decoder_start_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

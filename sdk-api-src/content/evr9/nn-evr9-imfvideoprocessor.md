@@ -7,10 +7,10 @@ old-location: mf\imfvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], IMFVideoProcessor interface [Media Foundation],described, evr9/IMFVideoProcessor, mf.imfvideoprocessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: evr9.h
 req.include-header: 

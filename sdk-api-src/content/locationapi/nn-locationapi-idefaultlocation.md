@@ -9,8 +9,8 @@ ms.assetid: 408062c8-2fea-4734-a243-e4ed21b7b3c3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaultLocation interface [WinLocation],described, locationapi/IDefaultLocation, winlocation.idefaultlocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

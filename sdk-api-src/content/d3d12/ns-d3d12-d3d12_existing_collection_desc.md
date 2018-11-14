@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_existing_collection_desc.htm
 tech.root: direct3d12
 ms.assetid: A6E6EC48-4DCD-4D09-B110-D572B6CDE692
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_EXISTING_COLLECTION_DESC, D3D12_EXISTING_COLLECTION_DESC structure, PD3D12_EXISTING_COLLECTION_DESC, PD3D12_EXISTING_COLLECTION_DESC structure pointer, d3d12/D3D12_EXISTING_COLLECTION_DESC, d3d12/PD3D12_EXISTING_COLLECTION_DESC, direct3d12.d3d12_existing_collection_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 A state subobject describing an existing collection that can be included in a state object.
 
 
@@ -73,7 +71,7 @@ Size of the <i>pExports</i> array.  If 0, all of the collection’s exports get 
 
 #### pExports
 
-Optional exports array.  For more information, see <a href="http://docs.microsoft.com/windows/desktop/d3d12/ns-d3d12-d3d12_export_desc">D3D12_EXPORT_DESC</a>.
+Optional exports array.  For more information, see <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_export_desc">D3D12_EXPORT_DESC</a>.
 
 
 ### -field pExports

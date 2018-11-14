@@ -9,8 +9,8 @@ ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 

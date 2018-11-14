@@ -9,8 +9,8 @@ ms.assetid: B19B2E8F-6F1C-4648-97B2-C8D0DB296370
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PREGISTRATION_INFORMATION_CLASS, DeviceRegistrationBasicInfo, REGISTRATION_INFORMATION_CLASS, REGISTRATION_INFORMATION_CLASS enumeration [MDM Registration], _REGISTRATION_INFORMATION_CLASS, mdmreg.registration_information_class, mdmregistration/DeviceRegistrationBasicInfo, mdmregistration/REGISTRATION_INFORMATION_CLASS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mdmregistration.h
 req.include-header: 

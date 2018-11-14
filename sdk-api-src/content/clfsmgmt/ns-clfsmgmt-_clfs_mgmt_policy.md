@@ -9,8 +9,8 @@ ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], _CLFS_MGMT_POLICY, clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clfsmgmt.h
 req.include-header: 

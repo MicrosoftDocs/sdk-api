@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- provider.h
+: 
+- Provider.ExecQuery
+: 
 ---
 
 # Provider::ExecQuery

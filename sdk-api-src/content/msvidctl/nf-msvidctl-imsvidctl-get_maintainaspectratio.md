@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msvidctl.h
+: 
+- IMSVidCtl.get_MaintainAspectRatio
+: 
 ---
 
 # IMSVidCtl::get_MaintainAspectRatio

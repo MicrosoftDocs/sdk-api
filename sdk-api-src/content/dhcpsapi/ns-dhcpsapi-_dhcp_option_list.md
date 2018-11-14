@@ -9,8 +9,8 @@ ms.assetid: ffe9ed82-1aec-4e09-8258-399099c87b5a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_OPTION_LIST, DHCP_OPTION_LIST, DHCP_OPTION_LIST structure [DHCP], LPDHCP_OPTION_LIST, LPDHCP_OPTION_LIST structure pointer [DHCP], _DHCP_OPTION_LIST, dhcp.dhcp_option_list, dhcpsapi/LPDHCP_OPTION_LIST, dhcpsapi/_DHCP_OPTION_LIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

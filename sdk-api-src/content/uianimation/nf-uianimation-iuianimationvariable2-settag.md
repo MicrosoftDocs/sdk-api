@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationVariable2.SetTag
+: 
 ---
 
 # IUIAnimationVariable2::SetTag

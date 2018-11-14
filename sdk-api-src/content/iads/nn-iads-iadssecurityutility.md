@@ -9,8 +9,8 @@ ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

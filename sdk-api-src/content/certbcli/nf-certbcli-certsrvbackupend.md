@@ -7,7 +7,7 @@ old-location: security\certsrvbackupend.htm
 tech.root: seccrypto
 ms.assetid: ebf87af3-df45-4440-9881-e2926b0c4f08
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertSrvBackupEnd, CertSrvBackupEnd function [Security], _certsrv_certsrvbackupend, certbcli/CertSrvBackupEnd, security.certsrvbackupend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvBackupEnd
+: 
 ---
 
 # CertSrvBackupEnd function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextPara2.SetSnapToGrid
+: 
 ---
 
 # ITextPara2::SetSnapToGrid

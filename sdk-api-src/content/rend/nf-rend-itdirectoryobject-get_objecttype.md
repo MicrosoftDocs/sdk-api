@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_get_objecttype.htm
 tech.root: tapi
 ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_ObjectType method, ITDirectoryObject.get_ObjectType, ITDirectoryObject::get_ObjectType, _tapi3_itdirectoryobject_get_objecttype, get_ObjectType, get_ObjectType method [TAPI 2.2], get_ObjectType method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_ObjectType, tapi3.itdirectoryobject_get_objecttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObject.get_ObjectType
+: 
 ---
 
 # ITDirectoryObject::get_ObjectType

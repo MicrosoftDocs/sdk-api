@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PSPropertyBag_WriteRECTL
+: 
 ---
 
 # PSPropertyBag_WriteRECTL function

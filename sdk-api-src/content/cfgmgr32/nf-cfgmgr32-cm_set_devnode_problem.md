@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Set_DevNode_Problem
+: 
 ---
 
 # CM_Set_DevNode_Problem function

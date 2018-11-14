@@ -9,8 +9,8 @@ ms.assetid: 0745ee19-34f3-44c8-a52d-fb47448f0084
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code, _win32_ioctl_changer_reinitialize_transport, base.ioctl_changer_reinitialize_transport, winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

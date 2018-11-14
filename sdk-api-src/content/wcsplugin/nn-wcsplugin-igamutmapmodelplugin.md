@@ -9,8 +9,8 @@ ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System],described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wcsplugin.h
 req.include-header: 

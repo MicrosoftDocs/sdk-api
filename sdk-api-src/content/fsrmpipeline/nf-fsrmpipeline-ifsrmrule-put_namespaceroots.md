@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmRule.put_NamespaceRoots
+: 
 ---
 
 # IFsrmRule::put_NamespaceRoots

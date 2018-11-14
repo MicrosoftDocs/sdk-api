@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xapo.h
 req.include-header: 

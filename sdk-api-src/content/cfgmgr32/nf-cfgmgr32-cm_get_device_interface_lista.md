@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Device_Interface_ListA
+: 
 ---
 
 # CM_Get_Device_Interface_ListA function

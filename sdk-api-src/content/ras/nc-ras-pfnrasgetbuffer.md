@@ -9,8 +9,8 @@ ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

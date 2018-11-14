@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_tex2d_array_dsv.htm
 tech.root: direct3d12
 ms.assetid: 2B282647-8DCC-4624-8D35-0F63E0F93EE0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_TEX2D_ARRAY_DSV, D3D12_TEX2D_ARRAY_DSV structure, d3d12/D3D12_TEX2D_ARRAY_DSV, direct3d12.d3d12_tex2d_array_dsv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

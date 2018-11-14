@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Request_Device_Eject_ExW
+: 
 ---
 
 # CM_Request_Device_Eject_ExW function

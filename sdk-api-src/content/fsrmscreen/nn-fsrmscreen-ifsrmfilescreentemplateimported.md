@@ -9,8 +9,8 @@ ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

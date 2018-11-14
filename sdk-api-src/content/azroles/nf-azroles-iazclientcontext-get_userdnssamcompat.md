@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_userdnssamcompat.htm
 tech.root: secauthz
 ms.assetid: 8f2739cd-3add-4a3c-9c00-8b23d2cec068
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzClientContext object [Security],UserDnsSamCompat property, IAzClientContext interface [Security],UserDnsSamCompat property, IAzClientContext.UserDnsSamCompat, IAzClientContext.get_UserDnsSamCompat, IAzClientContext::UserDnsSamCompat, IAzClientContext::get_UserDnsSamCompat, UserDnsSamCompat property [Security], UserDnsSamCompat property [Security],AzClientContext object, UserDnsSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDnsSamCompat, azroles/IAzClientContext::get_UserDnsSamCompat, get_UserDnsSamCompat, security.iazclientcontext_userdnssamcompat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzClientContext.get_UserDnsSamCompat
+: 
 ---
 
 # IAzClientContext::get_UserDnsSamCompat

@@ -7,7 +7,7 @@ old-location: tapi3\itmediarecord_put_filename.htm
 tech.root: tapi
 ms.assetid: d3f6155d-3989-49d7-8944-da26fd03617a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],put_FileName method, ITMediaRecord.put_FileName, ITMediaRecord::put_FileName, _tapi3_itmediarecord_put_filename, put_FileName, put_FileName method [TAPI 2.2], put_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_put_filename, tapi3if/ITMediaRecord::put_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITMediaRecord.put_FileName
+: 
 ---
 
 # ITMediaRecord::put_FileName

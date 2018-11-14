@@ -9,8 +9,8 @@ ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], ICertificateAttestationChallenge interface [Security],described, certenroll/ICertificateAttestationChallenge, security.icertificateattestationchallenge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

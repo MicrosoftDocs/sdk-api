@@ -7,10 +7,10 @@ old-location: security\wlxgetsourcedesktop.htm
 tech.root: secauthn
 ms.assetid: c0b6c64e-7c2b-4dc9-81fd-243fc2230249
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: PWLX_GET_SOURCE_DESKTOP, PWLX_GET_SOURCE_DESKTOP callback, WlxGetSourceDesktop, WlxGetSourceDesktop callback function [Security], _gina_wlxgetsourcedesktop, security.wlxgetsourcedesktop, winwlx/WlxGetSourceDesktop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

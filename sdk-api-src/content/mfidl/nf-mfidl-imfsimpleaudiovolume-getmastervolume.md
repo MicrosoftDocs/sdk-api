@@ -7,7 +7,7 @@ old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
 tech.root: medfound
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFSimpleAudioVolume.GetMasterVolume
+: 
 ---
 
 # IMFSimpleAudioVolume::GetMasterVolume

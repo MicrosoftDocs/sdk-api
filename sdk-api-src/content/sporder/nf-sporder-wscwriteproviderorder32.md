@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSCWriteProviderOrder32
+: 
 ---
 
 # WSCWriteProviderOrder32 function

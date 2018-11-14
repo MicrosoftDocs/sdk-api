@@ -9,8 +9,8 @@ ms.assetid: 5a99c772-0e8a-4f6d-a13f-9bf7b4fa7d89
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMT_PAYLOAD_FRAGMENT, WMT_PAYLOAD_FRAGMENT structure [windows Media Format], _WMT_PAYLOAD_FRAGMENT, wmformat.wmt_payload_fragment, wmsdkidl/WMT_PAYLOAD_FRAGMENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

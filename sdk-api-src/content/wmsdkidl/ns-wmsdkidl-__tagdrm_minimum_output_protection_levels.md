@@ -9,8 +9,8 @@ ms.assetid: 4358c3ea-b65b-4446-b758-c1cd2d68d02a
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS, DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure [windows Media Format], __tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS, structure [windows Media Format], wmformat.drm_minimum_output_protection_levels, wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h

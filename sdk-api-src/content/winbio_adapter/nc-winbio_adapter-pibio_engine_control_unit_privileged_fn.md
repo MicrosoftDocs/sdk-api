@@ -9,8 +9,8 @@ ms.assetid: 1d1fda45-3822-40c0-ac84-0fcdef1a6498
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EngineAdapterControlUnitPrivileged, EngineAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback, secbiomet.engineadaptercontrolunitprivileged, winbio_adapter/EngineAdapterControlUnitPrivileged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

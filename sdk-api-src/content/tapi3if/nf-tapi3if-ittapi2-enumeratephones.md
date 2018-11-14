@@ -7,7 +7,7 @@ old-location: tapi3\ittapi2_enumeratephones.htm
 tech.root: tapi
 ms.assetid: 6b6aba8d-fbf7-459f-9bc8-79647194b989
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EnumeratePhones, EnumeratePhones method [TAPI 2.2], EnumeratePhones method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],EnumeratePhones method, ITTAPI2.EnumeratePhones, ITTAPI2::EnumeratePhones, _tapi3_ittapi2_enumeratephones, tapi3.ittapi2_enumeratephones, tapi3if/ITTAPI2::EnumeratePhones
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITTAPI2.EnumeratePhones
+: 
 ---
 
 # ITTAPI2::EnumeratePhones

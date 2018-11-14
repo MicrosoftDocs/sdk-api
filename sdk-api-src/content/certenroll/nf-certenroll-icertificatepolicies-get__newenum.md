@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertificatePolicies.get__NewEnum
+: 
 ---
 
 # ICertificatePolicies::get__NewEnum

@@ -9,8 +9,8 @@ ms.assetid: 438ACF91-3C83-4E2D-B919-4CCAE65BCD3E
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PUI_EVENTPARAMS, PUI_EVENTPARAMS structure pointer [Windows Ribbon], UI_EVENTPARAMS, UI_EVENTPARAMS structure [Windows Ribbon], _UI_EVENTPARAMS, uiribbon/PUI_EVENTPARAMS, uiribbon/UI_EVENTPARAMS, windowsribbon.ui_eventparams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiribbon.h
 req.include-header: 

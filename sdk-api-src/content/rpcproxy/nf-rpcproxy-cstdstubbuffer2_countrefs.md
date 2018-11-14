@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CStdStubBuffer2_CountRefs
+: 
 ---
 
 # CStdStubBuffer2_CountRefs function

@@ -9,8 +9,8 @@ ms.assetid: 9413108b-f9b5-4d1c-83a9-b663a9f444bf
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DdMoCompCreate, DdMoCompCreate callback function [Display Devices], PDD_MOCOMPCB_CREATE, PDD_MOCOMPCB_CREATE callback, ddfncs_b5650d61-0a79-494a-acd7-231d2e859c30.xml, ddrawint/DdMoCompCreate, display.ddmocompcreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

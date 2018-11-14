@@ -9,8 +9,8 @@ ms.assetid: F86C9107-447D-47F7-A711-0687A30EF58E
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDeviceIcon, IDeviceIcon interface [Media Streaming API], IDeviceIcon interface [Media Streaming API],described, mediastreaming.ideviceicon, windows/IDeviceIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 

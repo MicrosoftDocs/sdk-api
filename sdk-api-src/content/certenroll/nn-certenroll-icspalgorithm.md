@@ -9,8 +9,8 @@ ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

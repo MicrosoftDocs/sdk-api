@@ -9,8 +9,8 @@ ms.assetid: 9ec8025b-4763-4526-ab45-390c5d8b3b1e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPSAFEARRAY, FADF_AUTO, FADF_BSTR, FADF_DISPATCH, FADF_EMBEDDED, FADF_FIXEDSIZE, FADF_HAVEIID, FADF_HAVEVARTYPE, FADF_RECORD, FADF_RESERVED, FADF_STATIC, FADF_UNKNOWN, FADF_VARIANT, LPSAFEARRAY, LPSAFEARRAY structure pointer [Automation], SAFEARRAY, SAFEARRAY structure [Automation], automat.safearray, oaidl/LPSAFEARRAY, oaidl/SAFEARRAY, tagSAFEARRAY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

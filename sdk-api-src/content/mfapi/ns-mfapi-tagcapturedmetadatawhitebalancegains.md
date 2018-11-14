@@ -9,8 +9,8 @@ ms.assetid: 1F844204-0709-4203-80C5-C90949F96159
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: CapturedMetadataWhiteBalanceGains, CapturedMetadataWhiteBalanceGains structure [Streaming Media Devices], mfapi/CapturedMetadataWhiteBalanceGains, stream.capturedmetadatawhitebalancegains, tagCapturedMetadataWhiteBalanceGains
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

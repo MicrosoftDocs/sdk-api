@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10shader.h
+: 
+- ID3D10ShaderReflectionType.GetMemberTypeByIndex
+: 
 ---
 
 # ID3D10ShaderReflectionType::GetMemberTypeByIndex

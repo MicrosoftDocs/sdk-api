@@ -7,10 +7,10 @@ old-location: tapi2\lineproxyrequestlist.htm
 tech.root: tapi
 ms.assetid: dc417954-56b4-4436-9582-7b656121fd6f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*LPLINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST structure [TAPI 2.2], LPLINEPROXYREQUESTLIST, LPLINEPROXYREQUESTLIST structure pointer [TAPI 2.2], _tapi2_lineproxyrequestlist, lineproxyrequestlist_tag, tapi/LINEPROXYREQUESTLIST, tapi/LPLINEPROXYREQUESTLIST, tapi2.lineproxyrequestlist"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

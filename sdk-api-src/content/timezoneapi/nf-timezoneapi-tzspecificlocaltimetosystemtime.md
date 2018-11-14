@@ -7,7 +7,7 @@ old-location: base\tzspecificlocaltimetosystemtime.htm
 tech.root: sysinfo
 ms.assetid: d671499a-027d-4b1f-ae16-8b1978eb9783
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: TzSpecificLocalTimeToSystemTime, TzSpecificLocalTimeToSystemTime function, _win32_tzspecificlocaltimetosystemtime, base.tzspecificlocaltimetosystemtime, timezoneapi/TzSpecificLocalTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TzSpecificLocalTimeToSystemTime
+: 
 ---
 
 # TzSpecificLocalTimeToSystemTime function

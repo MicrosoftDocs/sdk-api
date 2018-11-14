@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged
+: 
 ---
 
 # IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged

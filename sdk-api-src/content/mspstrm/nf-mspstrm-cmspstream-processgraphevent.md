@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_processgraphevent.htm
 tech.root: tapi
 ms.assetid: 343411de-956d-4264-8bab-ce0c2459f6d1
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],ProcessGraphEvent method, CMSPStream.ProcessGraphEvent, CMSPStream::ProcessGraphEvent, ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_processgraphevent, mspstrm/CMSPStream::ProcessGraphEvent, tapi3.cmspstream_processgraphevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspstrm.h
+: 
+- CMSPStream.ProcessGraphEvent
+: 
 ---
 
 # CMSPStream::ProcessGraphEvent

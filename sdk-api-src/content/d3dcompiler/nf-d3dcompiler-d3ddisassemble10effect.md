@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- D3DDisassemble10Effect
+: 
 ---
 
 # D3DDisassemble10Effect function

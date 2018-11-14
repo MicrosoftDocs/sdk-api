@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_settopology.htm
 tech.root: medfound
 ms.assetid: ea5313f0-b0fd-4945-97a2-b3f17937294f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],SetTopology method, IMFMediaSession.SetTopology, IMFMediaSession::SetTopology, SetTopology, SetTopology method [Media Foundation], SetTopology method [Media Foundation],IMFMediaSession interface, ea5313f0-b0fd-4945-97a2-b3f17937294f, mf.imfmediasession_settopology, mfidl/IMFMediaSession::SetTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFMediaSession.SetTopology
+: 
 ---
 
 # IMFMediaSession::SetTopology

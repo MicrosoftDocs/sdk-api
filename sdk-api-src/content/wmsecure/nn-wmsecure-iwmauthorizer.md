@@ -9,8 +9,8 @@ ms.assetid: eece7e36-7c3e-4bc4-9b5a-8142a062dbce
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMAuthorizer interface [windows Media Format],described, wmformat.iwmauthorizer, wmsecure/IWMAuthorizer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 

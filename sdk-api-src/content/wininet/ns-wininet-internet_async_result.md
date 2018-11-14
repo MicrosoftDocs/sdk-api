@@ -9,8 +9,8 @@ ms.assetid: e86fb4fd-8601-42e1-8c8e-9747a24459f9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPINTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT structure [WinINet], LPINTERNET_ASYNC_RESULT, LPINTERNET_ASYNC_RESULT structure pointer [WinINet], _inet_internet_async_result_structure, wininet.internet_async_result, wininet/ LPINTERNET_ASYNC_RESULT, wininet/INTERNET_ASYNC_RESULT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6
+- apiref
+: 
+- 
+: 
+- GetListBoxInfo
+: 
 ---
 
 # GetListBoxInfo function

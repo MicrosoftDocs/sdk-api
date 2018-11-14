@@ -7,7 +7,7 @@ old-location: direct2d\identitymatrix.htm
 tech.root: direct2d
 ms.assetid: 09c2ed59-db4a-4753-a98a-bef7748d3803
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IdentityMatrix, IdentityMatrix function [Direct2D], d2d1helper/IdentityMatrix, direct2d.identitymatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IdentityMatrix
+: 
 ---
 
 # IdentityMatrix function

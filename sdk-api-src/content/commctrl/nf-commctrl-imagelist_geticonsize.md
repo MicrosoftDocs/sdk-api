@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImageList_GetIconSize
+: 
 ---
 
 # ImageList_GetIconSize function

@@ -9,8 +9,8 @@ ms.assetid: ba7f7414-885f-40d0-ab61-2348d7f6125b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PCLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION structure [Files], CLFS_MGMT_NOTIFICATION_TYPE, ClfsMgmtAdvanceTailNotification, ClfsMgmtLogFullHandlerNotification, ClfsMgmtLogUnpinnedNotification, ClfsMgmtLogWriteNotification, PCLFS_MGMT_NOTIFICATION, PCLFS_MGMT_NOTIFICATION structure pointer [Files], _CLFS_MGMT_NOTIFICATION, clfsmgmt/CLFS_MGMT_NOTIFICATION, clfsmgmt/PCLFS_MGMT_NOTIFICATION, fs.clfs_mgmt_notification"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clfsmgmt.h
 req.include-header: 

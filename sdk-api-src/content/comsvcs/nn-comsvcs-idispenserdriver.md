@@ -9,8 +9,8 @@ ms.assetid: dba9c616-031d-48a7-b3e3-eb28b95a573a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], IDispenserDriver interface [COM+],described, _dtc_IDispenserDriver_Interface, comsvcs/IDispenserDriver, cos.idispenserdriver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

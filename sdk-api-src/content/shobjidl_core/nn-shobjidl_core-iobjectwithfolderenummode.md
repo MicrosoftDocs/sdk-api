@@ -9,8 +9,8 @@ ms.assetid: 33838ddc-8e0e-431a-a957-40e23f0ad0c7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IObjectWithFolderEnumMode, IObjectWithFolderEnumMode interface [Windows Shell], IObjectWithFolderEnumMode interface [Windows Shell],described, _shell_IObjectWithFolderEnumMode, shell.IObjectWithFolderEnumMode, shobjidl_core/IObjectWithFolderEnumMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_isdynamic.htm
 tech.root: tapi
 ms.assetid: 4260ad95-d684-44e4-877f-fcdbe4fe0fd7
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_IsDynamic method, ITDirectory.get_IsDynamic, ITDirectory::get_IsDynamic, _tapi3_itdirectory_get_isdynamic, get_IsDynamic, get_IsDynamic method [TAPI 2.2], get_IsDynamic method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_IsDynamic, tapi3.itdirectory_get_isdynamic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectory.get_IsDynamic
+: 
 ---
 
 # ITDirectory::get_IsDynamic

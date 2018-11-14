@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Query_Resource_Conflict_List
+: 
 ---
 
 # CM_Query_Resource_Conflict_List function

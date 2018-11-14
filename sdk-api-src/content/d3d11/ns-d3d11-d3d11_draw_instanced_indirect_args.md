@@ -9,8 +9,8 @@ ms.assetid: B83B9D3C-3C64-4F42-A08A-4276F09DA9EC
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_DRAW_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_instanced_indirect_args
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

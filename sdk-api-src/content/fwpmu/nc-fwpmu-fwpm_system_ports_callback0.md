@@ -9,8 +9,8 @@ ms.assetid: 91bf0d89-f760-4de9-8e9b-ece93b6c84ae
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_SYSTEM_PORTS_CALLBACK0, FWPM_SYSTEM_PORTS_CALLBACK0 callback, FWPM_SYSTEM_PORTS_CALLBACK0 callback function [Filtering], fwp.fwpm_system_ports_callback0_func, fwpmu/FWPM_SYSTEM_PORTS_CALLBACK0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

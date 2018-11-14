@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IAMAnalogVideoEncoder.get_CCEnable
+: 
 ---
 
 # IAMAnalogVideoEncoder::get_CCEnable

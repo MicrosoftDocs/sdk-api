@@ -9,8 +9,8 @@ ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control code, base.ioctl_pwm_controller_get_actual_period, pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

@@ -9,8 +9,8 @@ ms.assetid: 11ba822e-63d6-4947-8e21-7134bdbcbdc0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFilterRequestCallback, IFilterRequestCallback interface [Windows Sync], IFilterRequestCallback interface [Windows Sync],described, winsync.ifilterrequestcallback, winsync/IFilterRequestCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

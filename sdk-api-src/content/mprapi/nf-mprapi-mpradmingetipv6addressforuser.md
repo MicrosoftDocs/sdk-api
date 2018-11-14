@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MprAdminGetIpv6AddressForUser
+: 
 ---
 
 # MprAdminGetIpv6AddressForUser function

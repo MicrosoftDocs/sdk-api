@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DCubeTexture9.LockRect
+: 
 ---
 
 # IDirect3DCubeTexture9::LockRect

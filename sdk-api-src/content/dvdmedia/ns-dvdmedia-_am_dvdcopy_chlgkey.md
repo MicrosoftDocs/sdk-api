@@ -9,8 +9,8 @@ ms.assetid: da129f9c-fe30-42f7-b7ca-dfb352b1810d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PAM_DVDCOPY_CHLGKEY, AM_DVDCOPY_CHLGKEY, AM_DVDCOPY_CHLGKEY structure [DirectShow], PAM_DVDCOPY_CHLGKEY, PAM_DVDCOPY_CHLGKEY structure pointer [DirectShow], _AM_DVDCOPY_CHLGKEY, dshow.am_dvdcopy_chlgkey, dvdmedia/AM_DVDCOPY_CHLGKEY, dvdmedia/PAM_DVDCOPY_CHLGKEY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

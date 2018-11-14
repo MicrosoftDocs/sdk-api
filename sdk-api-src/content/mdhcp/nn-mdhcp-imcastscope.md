@@ -7,10 +7,10 @@ old-location: tapi3\imcastscope.htm
 tech.root: tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 

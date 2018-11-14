@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IExpDispSupportXP.FindCIE4ConnectionPoint
+: 
 ---
 
 # IExpDispSupportXP::FindCIE4ConnectionPoint

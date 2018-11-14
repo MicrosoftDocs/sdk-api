@@ -7,7 +7,7 @@ old-location: base\symloadmoduleex.htm
 tech.root: debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SLMFLAG_NO_SYMBOLS, SLMFLAG_VIRTUAL, SymLoadModuleEx, SymLoadModuleEx function, SymLoadModuleExW, _win32_symloadmoduleex, base.symloadmoduleex, dbghelp/SymLoadModuleEx, dbghelp/SymLoadModuleExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later
+- apiref
+: 
+- 
+: 
+- SymLoadModuleExW
+: 
 ---
 
 # SymLoadModuleExW function

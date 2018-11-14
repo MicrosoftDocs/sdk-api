@@ -9,8 +9,8 @@ ms.assetid: 46b30bb3-00c6-4f54-b040-683cd6dd5525
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_OPERATION_FREE_STATE_CALLBACK, WS_OPERATION_FREE_STATE_CALLBACK callback, WS_OPERATION_FREE_STATE_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_FREE_STATE_CALLBACK, wsw.ws_operation_free_state_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

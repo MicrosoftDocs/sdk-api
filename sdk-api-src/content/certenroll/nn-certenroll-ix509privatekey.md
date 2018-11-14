@@ -9,8 +9,8 @@ ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

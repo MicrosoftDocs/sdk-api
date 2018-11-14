@@ -9,8 +9,8 @@ ms.assetid: d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDragSourceHelper, IDragSourceHelper interface [Windows Shell], IDragSourceHelper interface [Windows Shell],described, _win32_IDragSourceHelper, shell.IDragSourceHelper, shobjidl_core/IDragSourceHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

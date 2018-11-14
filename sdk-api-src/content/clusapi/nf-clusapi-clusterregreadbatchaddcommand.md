@@ -7,7 +7,7 @@ old-location: mscs\clusterregreadbatchaddcommand.htm
 tech.root: mscs
 ms.assetid: 2B665231-7325-43C4-92A4-4EDF28126BA1
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterRegReadBatchAddCommand, ClusterRegReadBatchAddCommand function [Failover Cluster], clusapi/ClusterRegReadBatchAddCommand, mscs.clusterregreadbatchaddcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterRegReadBatchAddCommand
+: 
 ---
 
 # ClusterRegReadBatchAddCommand function

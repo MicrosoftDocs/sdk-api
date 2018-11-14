@@ -7,7 +7,7 @@ old-location: security\auditsetsecurity.htm
 tech.root: secauthz
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditSetSecurity
+: 
 ---
 
 # AuditSetSecurity function

@@ -7,7 +7,7 @@ old-location: base\interlockedxor64.htm
 tech.root: sync
 ms.assetid: b0eef2c9-5b28-462b-91cb-20a337efca7e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: InterlockedXor64, InterlockedXor64 function, base.interlockedxor64, winnt/InterlockedXor64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InterlockedXor64
+: 
 ---
 
 # InterlockedXor64 function

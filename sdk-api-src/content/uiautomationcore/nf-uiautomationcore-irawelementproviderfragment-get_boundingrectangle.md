@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IRawElementProviderFragment.get_BoundingRectangle
+: 
 ---
 
 # IRawElementProviderFragment::get_BoundingRectangle

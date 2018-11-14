@@ -7,7 +7,7 @@ old-location: security\iazoperation_submit.htm
 tech.root: secauthz
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzOperation object [Security],Submit method, IAzOperation interface [Security],Submit method, IAzOperation.Submit, IAzOperation::Submit, Submit, Submit method [Security], Submit method [Security],AzOperation object, Submit method [Security],IAzOperation interface, azroles/IAzOperation::Submit, security.iazoperation_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzOperation.Submit
+: 
 ---
 
 # IAzOperation::Submit

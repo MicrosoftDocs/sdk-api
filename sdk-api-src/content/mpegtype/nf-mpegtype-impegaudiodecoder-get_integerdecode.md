@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mpegtype.h
+: 
+- IMpegAudioDecoder.get_IntegerDecode
+: 
 ---
 
 # IMpegAudioDecoder::get_IntegerDecode

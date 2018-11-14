@@ -9,8 +9,8 @@ ms.assetid: b14dfe40-e21a-4208-835f-e0febef60783
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], INameSpaceTreeAccessible interface [Windows Shell],described, _shell_INameSpaceTreeAccessible, shell.INameSpaceTreeAccessible, shobjidl/INameSpaceTreeAccessible
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

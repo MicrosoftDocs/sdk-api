@@ -9,8 +9,8 @@ ms.assetid: 839190b4-fd29-4a94-8838-d84adfdd9668
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [DirectShow],described, IEnumPinsInterface, dshow.ienumpins, strmif/IEnumPins
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

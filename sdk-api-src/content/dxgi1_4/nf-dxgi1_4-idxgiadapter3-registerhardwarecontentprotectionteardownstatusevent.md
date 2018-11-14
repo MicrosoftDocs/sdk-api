@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_registerhardwarecontentprotectionteardo
 tech.root: direct3ddxgi
 ms.assetid: 789E6EA1-C590-44F6-A474-851E5CF437A5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],RegisterHardwareContentProtectionTeardownStatusEvent method, IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent, IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI], RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent, dxgi1_4/IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_4.h
+: 
+- IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent
+: 
 ---
 
 # IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent

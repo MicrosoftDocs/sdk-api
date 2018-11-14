@@ -7,7 +7,7 @@ old-location: security\authzsetappcontainerinformation.htm
 tech.root: secauthz
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuthzSetAppContainerInformation
+: 
 ---
 
 # AuthzSetAppContainerInformation function

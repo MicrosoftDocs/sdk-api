@@ -9,8 +9,8 @@ ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 45f10ed0-b3ce-41f5-b2d9-9166bff2abec
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISyncChangeBatchBase2, ISyncChangeBatchBase2 interface [Windows Sync], ISyncChangeBatchBase2 interface [Windows Sync],described, winsync.isyncchangebatchbase2, winsync/ISyncChangeBatchBase2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

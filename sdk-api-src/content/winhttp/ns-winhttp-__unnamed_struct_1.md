@@ -9,8 +9,8 @@ ms.assetid: 2d794a99-7bd2-43ad-b826-f160bf78ccac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [HTTP], http.http_version_info, winhttp/HTTP_VERSION_INFO, winhttp_http_version_info_structure"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

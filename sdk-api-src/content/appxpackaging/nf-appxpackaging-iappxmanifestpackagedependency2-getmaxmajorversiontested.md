@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxManifestPackageDependency2.GetMaxMajorVersionTested
+: 
 ---
 
 # IAppxManifestPackageDependency2::GetMaxMajorVersionTested

@@ -9,8 +9,8 @@ ms.assetid: 7ce84d2e-a52f-4652-b24a-55c94b7c120b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], _RM_SEND_WINDOW, winsock.rm_send_window, wsrm/RM_SEND_WINDOW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsrm.h
 req.include-header: 

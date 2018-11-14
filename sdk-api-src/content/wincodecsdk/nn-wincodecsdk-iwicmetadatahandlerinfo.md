@@ -9,8 +9,8 @@ ms.assetid: 505105c2-de50-4b5f-9089-e9a3cea2f464
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], IWICMetadataHandlerInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatahandlerinfo, wic._wic_codec_iwicmetadatahandlerinfo, wincodecsdk/IWICMetadataHandlerInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

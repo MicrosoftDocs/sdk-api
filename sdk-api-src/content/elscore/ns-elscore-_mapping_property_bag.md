@@ -9,8 +9,8 @@ ms.assetid: 08e55e27-5118-40ea-b973-cea0b1c263da
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG structure [Internationalization for Windows Applications], PMAPPING_PROPERTY_BAG, PMAPPING_PROPERTY_BAG structure pointer [Internationalization for Windows Applications], _MAPPING_PROPERTY_BAG, elscore/MAPPING_PROPERTY_BAG, elscore/PMAPPING_PROPERTY_BAG, intl.mappingpropertybag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: elscore.h
 req.include-header: 

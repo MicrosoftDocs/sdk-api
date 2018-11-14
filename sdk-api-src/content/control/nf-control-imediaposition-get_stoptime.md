@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IMediaPosition.get_StopTime
+: 
 ---
 
 # IMediaPosition::get_StopTime

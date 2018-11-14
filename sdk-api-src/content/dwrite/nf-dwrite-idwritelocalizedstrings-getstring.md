@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings_GetString.htm
 tech.root: DirectWrite
 ms.assetid: adb7358b-044b-440b-8429-be715d22cd83
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetString, GetString method [Direct Write], GetString method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetString method, IDWriteLocalizedStrings.GetString, IDWriteLocalizedStrings::GetString, directwrite.IDWriteLocalizedStrings_GetString, dwrite/IDWriteLocalizedStrings::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteLocalizedStrings.GetString
+: 
 ---
 
 # IDWriteLocalizedStrings::GetString

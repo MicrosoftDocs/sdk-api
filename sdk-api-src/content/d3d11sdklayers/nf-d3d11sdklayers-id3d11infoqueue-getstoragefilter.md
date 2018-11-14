@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11sdklayers.h
+: 
+- ID3D11InfoQueue.GetStorageFilter
+: 
 ---
 
 # ID3D11InfoQueue::GetStorageFilter

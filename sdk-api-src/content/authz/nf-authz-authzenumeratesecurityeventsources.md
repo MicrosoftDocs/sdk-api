@@ -7,7 +7,7 @@ old-location: security\authzenumeratesecurityeventsources.htm
 tech.root: secauthz
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzEnumerateSecurityEventSources
+: 
 ---
 
 # AuthzEnumerateSecurityEventSources function

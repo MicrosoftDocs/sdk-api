@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope_get_scopedescription.htm
 tech.root: tapi
 ms.assetid: e675ba4a-8e5f-42a6-8edf-9b136cf9dd46
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeDescription method, IMcastScope.get_ScopeDescription, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mdhcp.h
+: 
+- IMcastScope.get_ScopeDescription
+: 
 ---
 
 # IMcastScope::get_ScopeDescription

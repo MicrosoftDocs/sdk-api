@@ -9,8 +9,8 @@ ms.assetid: 2ccf5915-160a-4d4e-8a72-b2a3411336fd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_XML_INT64_TEXT, WS_XML_INT64_TEXT structure [Web Services for Windows], _WS_XML_INT64_TEXT, webservices/WS_XML_INT64_TEXT, wsw.ws_xml_int64_text
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

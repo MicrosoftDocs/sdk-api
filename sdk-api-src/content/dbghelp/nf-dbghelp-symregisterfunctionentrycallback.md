@@ -7,7 +7,7 @@ old-location: base\symregisterfunctionentrycallback64.htm
 tech.root: debug
 ms.assetid: 5915055f-2c6c-4a0e-ad0f-c5bd74558802
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: SymRegisterFunctionEntryCallback, SymRegisterFunctionEntryCallback function, SymRegisterFunctionEntryCallback64, SymRegisterFunctionEntryCallback64 function, _win32_symregisterfunctionentrycallback64, base.symregisterfunctionentrycallback64, dbghelp/SymRegisterFunctionEntryCallback, dbghelp/SymRegisterFunctionEntryCallback64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymRegisterFunctionEntryCallback
+: 
 ---
 
 # SymRegisterFunctionEntryCallback function

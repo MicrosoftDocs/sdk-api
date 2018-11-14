@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DAD_DragEnterEx2
+: 
 ---
 
 # DAD_DragEnterEx2 function

@@ -9,8 +9,8 @@ ms.assetid: b608d13f-bc76-478b-b18f-527f438a1222
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_SUBLAYER_CHANGE_CALLBACK0, FWPM_SUBLAYER_CHANGE_CALLBACK0 callback, FWPM_SUBLAYER_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_sublayer_change_callback0_func, fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

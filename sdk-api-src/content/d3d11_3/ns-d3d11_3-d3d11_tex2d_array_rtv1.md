@@ -9,8 +9,8 @@ ms.assetid: AD1C80E6-B2C7-4110-B3C0-6A2B2063198B
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_TEX2D_ARRAY_RTV1, D3D11_TEX2D_ARRAY_RTV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_ARRAY_RTV1, direct3d11.d3d11_tex2d_array_rtv1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

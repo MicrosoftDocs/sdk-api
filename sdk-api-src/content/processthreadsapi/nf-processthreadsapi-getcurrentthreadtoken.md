@@ -7,7 +7,7 @@ old-location: security\getcurrentthreadtoken.htm
 tech.root: secauthz
 ms.assetid: D56FE64F-CFE0-4BE4-BBDA-DF0B79E3E86F
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], processthreadsapi/GetCurrentThreadToken, security.getcurrentthreadtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetCurrentThreadToken
+: 
 ---
 
 # GetCurrentThreadToken function

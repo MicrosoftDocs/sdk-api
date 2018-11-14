@@ -7,7 +7,7 @@ old-location: mf\mfgetuncompressedvideoformat.htm
 tech.root: medfound
 ms.assetid: 7869025a-dacf-47e6-b129-db5b2daefa3b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFGetUncompressedVideoFormat
+: 
 ---
 
 # MFGetUncompressedVideoFormat function

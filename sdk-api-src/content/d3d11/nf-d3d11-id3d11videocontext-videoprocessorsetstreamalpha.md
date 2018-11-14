@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamalpha.htm
 tech.root: medfound
 ms.assetid: DA869E3F-25BB-4794-B7AE-A3C2DA968800
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAlpha method, ID3D11VideoContext.VideoProcessorSetStreamAlpha, ID3D11VideoContext::VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha method [Media Foundation], VideoProcessorSetStreamAlpha method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAlpha, mf.id3d11videocontext_videoprocessorsetstreamalpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoContext.VideoProcessorSetStreamAlpha
+: 
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamAlpha

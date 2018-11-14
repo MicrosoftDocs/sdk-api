@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPEvents2.DeviceDisconnect
+: 
 ---
 
 # IWMPEvents2::DeviceDisconnect

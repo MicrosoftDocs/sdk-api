@@ -7,7 +7,7 @@ old-location: security\iazroles_count.htm
 tech.root: secauthz
 ms.assetid: 4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzRoles object [Security],Count property, Count property [Security], Count property [Security],AzRoles object, Count property [Security],IAzRoles interface, IAzRoles interface [Security],Count property, IAzRoles.Count, IAzRoles.get_Count, IAzRoles::Count, IAzRoles::get_Count, azroles/IAzRoles::Count, azroles/IAzRoles::get_Count, get_Count, security.iazroles_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRoles.get_Count
+: 
 ---
 
 # IAzRoles::get_Count

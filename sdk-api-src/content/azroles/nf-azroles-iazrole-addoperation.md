@@ -7,7 +7,7 @@ old-location: security\iazrole_addoperation.htm
 tech.root: secauthz
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzRole object, AddOperation method [Security],IAzRole interface, AzRole object [Security],AddOperation method, IAzRole interface [Security],AddOperation method, IAzRole.AddOperation, IAzRole::AddOperation, azroles/IAzRole::AddOperation, security.iazrole_addoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.AddOperation
+: 
 ---
 
 # IAzRole::AddOperation

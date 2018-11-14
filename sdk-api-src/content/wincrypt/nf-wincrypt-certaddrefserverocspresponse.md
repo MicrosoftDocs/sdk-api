@@ -7,7 +7,7 @@ old-location: security\certaddrefserverocspresponse.htm
 tech.root: seccrypto
 ms.assetid: 6ccc0e85-1fa0-480c-a5b4-b21ba811e5d0
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertAddRefServerOcspResponse, CertAddRefServerOcspResponse function [Security], security.certaddrefserverocspresponse, wincrypt/CertAddRefServerOcspResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertAddRefServerOcspResponse
+: 
 ---
 
 # CertAddRefServerOcspResponse function

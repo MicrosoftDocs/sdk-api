@@ -9,8 +9,8 @@ ms.assetid: 1a21d53f-cc0d-48ac-8d38-c53d5ac09878
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: UnknownStatus, UserLoaded, UserRegistered, UserUnloaded, UserUnregistered, WcmUserStatus, WcmUserStatus enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0006, smi.wcmuserstatus, wcmconfig/UnknownStatus, wcmconfig/UserLoaded, wcmconfig/UserRegistered, wcmconfig/UserUnloaded, wcmconfig/UserUnregistered, wcmconfig/WcmUserStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

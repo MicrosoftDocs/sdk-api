@@ -7,10 +7,10 @@ old-location: mf\ievrfilterconfig.htm
 tech.root: medfound
 ms.assetid: 13086d85-3dbf-4e9f-b065-d95e16412832
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 13086d85-3dbf-4e9f-b065-d95e16412832, IEVRFilterConfig, IEVRFilterConfig interface [Media Foundation], IEVRFilterConfig interface [Media Foundation],described, evr/IEVRFilterConfig, mf.ievrfilterconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

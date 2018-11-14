@@ -9,8 +9,8 @@ ms.assetid: 6823f2c6-2c99-4b9a-8208-041fc1f7bf82
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: "*PPACKET_DESCRIPTION, 6823f2c6-2c99-4b9a-8208-041fc1f7bf82, PACKET_DESCRIPTION, PACKET_DESCRIPTION structure [Tablet PC], PPACKET_DESCRIPTION, PPACKET_DESCRIPTION structure pointer [Tablet PC], _PACKET_DESCRIPTION, tablet.packet_description, tpcshrd/PACKET_DESCRIPTION, tpcshrd/PPACKET_DESCRIPTION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: 

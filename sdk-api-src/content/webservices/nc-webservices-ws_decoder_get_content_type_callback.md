@@ -9,8 +9,8 @@ ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

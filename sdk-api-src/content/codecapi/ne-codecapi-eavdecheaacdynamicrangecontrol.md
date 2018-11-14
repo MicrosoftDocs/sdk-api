@@ -9,8 +9,8 @@ ms.assetid: d854093c-4ec8-439c-a1be-c34e3d080616
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVDecHEAACDynamicRangeControl, codecapi/eAVDecHEAACDynamicRangeControl_OFF, codecapi/eAVDecHEAACDynamicRangeControl_ON, dshow.eavdecheaacdynamicrangecontrol, eAVDecHEAACDynamicRangeControl, eAVDecHEAACDynamicRangeControl enumeration [DirectShow], eAVDecHEAACDynamicRangeControl_OFF, eAVDecHEAACDynamicRangeControl_ON
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

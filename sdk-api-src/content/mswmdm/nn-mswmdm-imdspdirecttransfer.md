@@ -9,8 +9,8 @@ ms.assetid: b053158c-9a1e-4da4-a428-7edceeaaee1e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media Device Manager], IMDSPDirectTransfer interface [windows Media Device Manager],described, IMDSPDirectTransferInterface, mswmdm/IMDSPDirectTransfer, wmdm.imdspdirecttransfer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

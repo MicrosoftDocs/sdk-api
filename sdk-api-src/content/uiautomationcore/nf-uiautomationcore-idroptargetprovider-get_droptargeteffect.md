@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IDropTargetProvider.get_DropTargetEffect
+: 
 ---
 
 # IDropTargetProvider::get_DropTargetEffect

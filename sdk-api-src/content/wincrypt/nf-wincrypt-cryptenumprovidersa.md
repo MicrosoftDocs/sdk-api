@@ -7,7 +7,7 @@ old-location: security\cryptenumproviders.htm
 tech.root: seccrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptEnumProvidersA
+: 
 ---
 
 # CryptEnumProvidersA function

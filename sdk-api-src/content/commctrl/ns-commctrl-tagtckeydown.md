@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: NMTCKEYDOWN, NMTCKEYDOWN structure [Windows Controls], _win32_NMTCKEYDOWN, _win32_NMTCKEYDOWN_cpp, commctrl/NMTCKEYDOWN, controls.NMTCKEYDOWN, controls._win32_NMTCKEYDOWN, tagTCKEYDOWN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

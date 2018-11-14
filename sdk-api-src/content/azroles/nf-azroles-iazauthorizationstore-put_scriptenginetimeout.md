@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_scriptenginetimeout.htm
 tech.root: secauthz
 ms.assetid: 7ac3db2d-11a6-4481-a86d-4b3a1063dee3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],ScriptEngineTimeout property, IAzAuthorizationStore interface [Security],ScriptEngineTimeout property, IAzAuthorizationStore.ScriptEngineTimeout, IAzAuthorizationStore.put_ScriptEngineTimeout, IAzAuthorizationStore::ScriptEngineTimeout, IAzAuthorizationStore::get_ScriptEngineTimeout, IAzAuthorizationStore::put_ScriptEngineTimeout, ScriptEngineTimeout property [Security], ScriptEngineTimeout property [Security],AzAuthorizationStore object, ScriptEngineTimeout property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::ScriptEngineTimeout, azroles/IAzAuthorizationStore::get_ScriptEngineTimeout, azroles/IAzAuthorizationStore::put_ScriptEngineTimeout, put_ScriptEngineTimeout, security.azauthorizationstore_scriptenginetimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.put_ScriptEngineTimeout
+: 
 ---
 
 # IAzAuthorizationStore::put_ScriptEngineTimeout

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationLegacyIAccessiblePattern.get_CurrentHelp
+: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentHelp

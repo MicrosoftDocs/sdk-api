@@ -2,7 +2,7 @@
 UID: TP:monitor
 ms.assetid: 8cab0d3b-2754-3016-85c3-9450f6d2181b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

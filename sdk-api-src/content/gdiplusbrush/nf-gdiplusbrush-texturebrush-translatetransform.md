@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\translatetransform_46dx_dy_order.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: TextureBrush class [GDI+],TranslateTransform method, TextureBrush.TranslateTransform, TextureBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],TextureBrush class, _gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- TextureBrush.TranslateTransform
+: 
 req.product: GDI+ 1.0
 ---
 

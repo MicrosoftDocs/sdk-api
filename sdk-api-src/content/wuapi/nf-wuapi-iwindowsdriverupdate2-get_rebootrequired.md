@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IWindowsDriverUpdate2.get_RebootRequired
+: 
 ---
 
 # IWindowsDriverUpdate2::get_RebootRequired

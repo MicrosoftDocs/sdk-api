@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeleteIpNetEntry2
+: 
 ---
 
 # DeleteIpNetEntry2 function

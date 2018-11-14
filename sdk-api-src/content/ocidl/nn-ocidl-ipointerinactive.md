@@ -9,8 +9,8 @@ ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

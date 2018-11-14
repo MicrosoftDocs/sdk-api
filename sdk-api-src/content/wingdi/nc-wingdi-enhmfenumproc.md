@@ -9,8 +9,8 @@ ms.assetid: c9f04b38-18bc-4b52-8c56-d9475bc30202
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ENHMFENUMPROC, ENHMFENUMPROC callback, ENHMFENUMPROC callback function [Windows GDI], _win32_EnhMetaFileProc, gdi.enhmetafileproc, wingdi/ENHMFENUMPROC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,8 @@ ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation],described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

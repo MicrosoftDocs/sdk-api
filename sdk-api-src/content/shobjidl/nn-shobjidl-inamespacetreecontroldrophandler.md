@@ -9,8 +9,8 @@ ms.assetid: 5d2c1783-daeb-488d-93b9-34df2712d849
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], INameSpaceTreeControlDropHandler interface [Windows Shell],described, _shell_INameSpaceTreeControlDropHandler, shell.INameSpaceTreeControlDropHandler, shobjidl/INameSpaceTreeControlDropHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

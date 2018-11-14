@@ -9,8 +9,8 @@ ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRAPIApplication interface [RDP],described, rdp.irdpsrapiapplication, rdpencomapi/IRDPSRAPIApplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

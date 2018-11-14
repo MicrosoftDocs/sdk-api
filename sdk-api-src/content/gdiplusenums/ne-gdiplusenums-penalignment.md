@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_PenAlignment.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\penalignment.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: PenAlignment, PenAlignment enumeration [GDI+], PenAlignmentCenter, PenAlignmentInset, _gdiplus_ENUM_PenAlignment, gdiplus._gdiplus_ENUM_PenAlignment, gdiplusenums/PenAlignment, gdiplusenums/PenAlignmentCenter, gdiplusenums/PenAlignmentInset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

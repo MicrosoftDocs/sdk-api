@@ -9,8 +9,8 @@ ms.assetid: 59c851b4-6e1a-4144-9742-48d5c094d592
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_ENDPOINT_IDENTITY, WS_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_ENDPOINT_IDENTITY, webservices/WS_ENDPOINT_IDENTITY, wsw.ws_endpoint_identity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

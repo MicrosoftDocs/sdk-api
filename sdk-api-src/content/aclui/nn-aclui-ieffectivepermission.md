@@ -7,10 +7,10 @@ old-location: security\ieffectivepermission.htm
 tech.root: secauthz
 ms.assetid: c2897dad-647c-4dc1-b962-bd7fbae2da3a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IEffectivePermission, IEffectivePermission interface [Security], IEffectivePermission interface [Security],described, aclui/IEffectivePermission, security.ieffectivepermission
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 

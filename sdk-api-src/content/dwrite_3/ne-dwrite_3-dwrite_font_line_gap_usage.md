@@ -7,10 +7,10 @@ old-location: directwrite\dwrite_font_line_gap_usage.htm
 tech.root: DirectWrite
 ms.assetid: 43d38cca-429d-7ee5-e94c-fba542e19bb5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_FONT_LINE_GAP_USAGE, DWRITE_FONT_LINE_GAP_USAGE enumeration [Direct Write], DWRITE_FONT_LINE_GAP_USAGE_DEFAULT, DWRITE_FONT_LINE_GAP_USAGE_DISABLED, DWRITE_FONT_LINE_GAP_USAGE_ENABLED, directwrite.dwrite_font_line_gap_usage, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DEFAULT, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DISABLED, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_ENABLED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 

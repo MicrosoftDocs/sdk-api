@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_RectF_rect_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods\drawellipse_59penpen_rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawEllipse, DrawEllipse method [GDI+], DrawEllipse method [GDI+],Graphics class, Graphics class [GDI+],DrawEllipse method, Graphics.DrawEllipse, Graphics.DrawEllipse(IN const Pen,IN const RectF &), Graphics.DrawEllipse(const Pen*,const RectF&), Graphics::DrawEllipse, Graphics::DrawEllipse(IN const Pen,IN const RectF &), _gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawEllipse
+: 
 req.product: GDI+ 1.0
 ---
 

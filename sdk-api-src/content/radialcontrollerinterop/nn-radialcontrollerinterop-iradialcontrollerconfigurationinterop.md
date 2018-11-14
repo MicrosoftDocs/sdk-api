@@ -9,8 +9,8 @@ ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: radialcontrollerinterop.h
 req.include-header: 

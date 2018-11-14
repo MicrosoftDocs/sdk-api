@@ -9,8 +9,8 @@ ms.assetid: 959ed1f4-d5ee-4d77-abd7-bb681778f0b1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPUSER_INFO_1020, *PUSER_INFO_1020, LPUSER_INFO_1020, LPUSER_INFO_1020 structure pointer [Network Management], PUSER_INFO_1020, PUSER_INFO_1020 structure pointer [Network Management], USER_INFO_1020, USER_INFO_1020 structure [Network Management], _USER_INFO_1020, _win32_user_info_1020_str, lmaccess/LPUSER_INFO_1020, lmaccess/PUSER_INFO_1020, lmaccess/USER_INFO_1020, netmgmt.user_info_1020_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

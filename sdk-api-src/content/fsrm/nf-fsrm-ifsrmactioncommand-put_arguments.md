@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionCommand.put_Arguments
+: 
 ---
 
 # IFsrmActionCommand::put_Arguments

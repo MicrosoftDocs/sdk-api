@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- MonthCal_GetCalendarBorder
+: 
 ---
 
 # MonthCal_GetCalendarBorder macro

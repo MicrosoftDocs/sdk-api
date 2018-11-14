@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringCbVPrintf_lA
+: 
 ---
 
 # StringCbVPrintf_lA function

@@ -9,8 +9,8 @@ ms.assetid: 7224de57-75cb-4d68-9d70-f5dd2f92b1fd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 12286442-1fa2-0c8c-14c5-6c9af4348aee, ID3D11Buffer, ID3D11Buffer interface [Direct3D 11], ID3D11Buffer interface [Direct3D 11],described, d3d11/ID3D11Buffer, direct3d11.id3d11buffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

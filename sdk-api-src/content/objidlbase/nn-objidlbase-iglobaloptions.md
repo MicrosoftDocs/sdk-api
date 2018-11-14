@@ -9,8 +9,8 @@ ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

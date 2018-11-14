@@ -9,8 +9,8 @@ ms.assetid: 78757001-cac8-412d-a6c3-74bae6eb3ad8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DROPDESCRIPTION, DROPDESCRIPTION structure [Windows Shell], _shell_DROPDESCRIPTION, shell.DROPDESCRIPTION, shlobj_core/DROPDESCRIPTION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

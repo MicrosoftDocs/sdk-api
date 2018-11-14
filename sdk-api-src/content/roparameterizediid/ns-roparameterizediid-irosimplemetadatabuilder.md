@@ -9,8 +9,8 @@ ms.assetid: 031B9F9B-FF77-4524-87B7-D786459569C3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRoSimpleMetaDataBuilder, IRoSimpleMetaDataBuilder structure [Windows Runtime], roparameterizediid/IRoSimpleMetaDataBuilder, winrt.irosimplemetadatabuilder_struct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: roparameterizediid.h
 req.include-header: 

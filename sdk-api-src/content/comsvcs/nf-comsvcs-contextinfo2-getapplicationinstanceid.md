@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ContextInfo2.GetApplicationInstanceId
+: 
 ---
 
 # ContextInfo2::GetApplicationInstanceId

@@ -9,8 +9,8 @@ ms.assetid: 33db5ce5-534b-4e66-853b-5e60892f544b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA structure [Display Devices], _DD_GETVPORTSIGNALDATA, ddrawint/DD_GETVPORTSIGNALDATA, ddstrcts_4079ddf7-58a7-46ef-b11a-858bbd486333.xml, display.dd_getvportsignaldata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -7,7 +7,7 @@ old-location: base\getphysicallyinstalledsystemmemory.htm
 tech.root: memory
 ms.assetid: b9ac1174-399d-4962-a00c-6f2e3fb0c573
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: GetPhysicallyInstalledSystemMemory, GetPhysicallyInstalledSystemMemory function, base.getphysicallyinstalledsystemmemory, sysinfoapi/GetPhysicallyInstalledSystemMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetPhysicallyInstalledSystemMemory
+: 
 ---
 
 # GetPhysicallyInstalledSystemMemory function

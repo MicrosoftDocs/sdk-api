@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_loadcomputepipeline.htm
 tech.root: direct3d12
 ms.assetid: 8295D6E3-8353-46AD-A741-170244495F8B
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12PipelineLibrary interface,LoadComputePipeline method, ID3D12PipelineLibrary.LoadComputePipeline, ID3D12PipelineLibrary::LoadComputePipeline, LoadComputePipeline, LoadComputePipeline method, LoadComputePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadComputePipeline, direct3d12.id3d12pipelinelibrary_loadcomputepipeline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12PipelineLibrary.LoadComputePipeline
+: 
 ---
 
 # ID3D12PipelineLibrary::LoadComputePipeline

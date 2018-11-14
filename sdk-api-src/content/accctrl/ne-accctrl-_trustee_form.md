@@ -7,10 +7,10 @@ old-location: security\trustee_form.htm
 tech.root: secauthz
 ms.assetid: 991ac6cb-3fc9-4915-b5c9-ae73efb25d68
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: TRUSTEE_BAD_FORM, TRUSTEE_FORM, TRUSTEE_FORM enumeration [Security], TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, _TRUSTEE_FORM, _win32_trustee_form_str, accctrl/TRUSTEE_BAD_FORM, accctrl/TRUSTEE_FORM, accctrl/TRUSTEE_IS_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_SID, accctrl/TRUSTEE_IS_SID, security.trustee_form
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 

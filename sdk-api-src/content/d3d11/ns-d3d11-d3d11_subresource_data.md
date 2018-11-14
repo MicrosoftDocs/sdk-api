@@ -9,8 +9,8 @@ ms.assetid: 0ae10f12-4ef7-4dab-a7d7-fb4f2fd72a73
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 9f8b9590-da23-b969-b66b-241a33559322, D3D11_SUBRESOURCE_DATA, D3D11_SUBRESOURCE_DATA structure [Direct3D 11], d3d11/D3D11_SUBRESOURCE_DATA, direct3d11.d3d11_subresource_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

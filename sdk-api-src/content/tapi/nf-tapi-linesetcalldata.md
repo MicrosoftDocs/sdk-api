@@ -7,7 +7,7 @@ old-location: tapi2\linesetcalldata.htm
 tech.root: tapi
 ms.assetid: f428f952-f8ff-4b55-a957-58fdb35a8c0e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linesetcalldata, lineSetCallData, lineSetCallData function [TAPI 2.2], tapi/lineSetCallData, tapi2.linesetcalldata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineSetCallData
+: 
 ---
 
 # lineSetCallData function

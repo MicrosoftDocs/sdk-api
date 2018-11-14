@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_ufn2dnW
+: 
 ---
 
 # ldap_ufn2dnW function

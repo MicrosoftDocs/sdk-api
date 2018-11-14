@@ -9,8 +9,8 @@ ms.assetid: a79931ad-deeb-4e46-a051-80a57fe5935c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], IDot11AdHocManagerNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocManagerNotificationSink, nwifi.idot11adhocmanagernotificationsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

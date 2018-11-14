@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_isencrypted.htm
 tech.root: tapi
 ms.assetid: a3228efa-2501-44ec-ba85-0e3b7c00b483
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_IsEncrypted method, ITDirectoryObjectConference.get_IsEncrypted, ITDirectoryObjectConference::get_IsEncrypted, _tapi3_itdirectoryobjectconference_get_isencrypted, get_IsEncrypted, get_IsEncrypted method [TAPI 2.2], get_IsEncrypted method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_IsEncrypted, tapi3.itdirectoryobjectconference_get_isencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObjectConference.get_IsEncrypted
+: 
 ---
 
 # ITDirectoryObjectConference::get_IsEncrypted

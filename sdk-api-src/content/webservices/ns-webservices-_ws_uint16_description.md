@@ -9,8 +9,8 @@ ms.assetid: 62bc0e6c-a8f0-4b57-89bc-a2832d785703
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_UINT16_DESCRIPTION, WS_UINT16_DESCRIPTION structure [Web Services for Windows], _WS_UINT16_DESCRIPTION, webservices/WS_UINT16_DESCRIPTION, wsw.ws_uint16_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

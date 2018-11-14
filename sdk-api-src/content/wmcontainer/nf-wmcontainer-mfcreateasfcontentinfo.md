@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfcontentinfo.htm
 tech.root: medfound
 ms.assetid: 00460f79-7033-4893-88c0-b1c939441f70
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: 00460f79-7033-4893-88c0-b1c939441f70, MFCreateASFContentInfo, MFCreateASFContentInfo function [Media Foundation], mf.mfcreateasfcontentinfo, wmcontainer/MFCreateASFContentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateASFContentInfo
+: 
 ---
 
 # MFCreateASFContentInfo function

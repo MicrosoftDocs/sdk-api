@@ -9,8 +9,8 @@ ms.assetid: bb6677d6-7c60-486a-825a-bafec1f3ffed
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],described, wds.iwdstransportmulticastsessionpolicy, wdstptmgmt/IWdsTransportMulticastSessionPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

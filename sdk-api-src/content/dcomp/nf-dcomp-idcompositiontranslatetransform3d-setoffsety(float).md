@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionTranslateTransform3D.SetOffsetY
+: 
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetY(float)

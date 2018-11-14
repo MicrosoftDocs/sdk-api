@@ -9,8 +9,8 @@ ms.assetid: a6ac7006-73b8-4673-89d6-8285453481d3
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Directory], IDsDisplaySpecifier interface [Active Directory],described, _glines_idsdisplayspecifier, ad.idsdisplayspecifier, dsclient/IDsDisplaySpecifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dsclient.h
 req.include-header: 

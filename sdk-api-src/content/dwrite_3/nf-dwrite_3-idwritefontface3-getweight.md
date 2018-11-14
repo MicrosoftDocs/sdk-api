@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface3_getweight.htm
 tech.root: DirectWrite
 ms.assetid: A57873B2-F4B4-4129-96FE-A4CAFBFD537F
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetWeight method, IDWriteFontFace3.GetWeight, IDWriteFontFace3::GetWeight, directwrite.idwritefontface3_getweight, dwrite_3/IDWriteFontFace3::GetWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontFace3.GetWeight
+: 
 ---
 
 # IDWriteFontFace3::GetWeight

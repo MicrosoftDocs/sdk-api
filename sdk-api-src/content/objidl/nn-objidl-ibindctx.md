@@ -9,8 +9,8 @@ ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

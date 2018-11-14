@@ -7,7 +7,7 @@ old-location: hidpi\setprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetProcessDpiAwareness
+: 
 ---
 
 # SetProcessDpiAwareness function

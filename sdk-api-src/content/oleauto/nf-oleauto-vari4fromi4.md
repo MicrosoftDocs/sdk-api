@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- oleauto.h
+: 
+- VarI4FromI4
+: 
 ---
 
 # VarI4FromI4 macro

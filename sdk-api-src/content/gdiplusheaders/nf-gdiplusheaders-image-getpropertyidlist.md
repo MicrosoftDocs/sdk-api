@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyidlist.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetPropertyIdList, GetPropertyIdList method [GDI+], GetPropertyIdList method [GDI+],Image class, Image class [GDI+],GetPropertyIdList method, Image.GetPropertyIdList, Image::GetPropertyIdList, _gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_, gdiplus._gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.GetPropertyIdList
+: 
 req.product: GDI+ 1.0
 ---
 

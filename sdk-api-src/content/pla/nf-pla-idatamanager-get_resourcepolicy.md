@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataManager.get_ResourcePolicy
+: 
 ---
 
 # IDataManager::get_ResourcePolicy

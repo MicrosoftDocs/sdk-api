@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- chptrarr.h
+: 
+- CHPtrArray.RemoveAll
+: 
 ---
 
 # CHPtrArray::RemoveAll

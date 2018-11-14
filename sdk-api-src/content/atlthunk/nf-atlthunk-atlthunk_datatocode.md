@@ -7,7 +7,7 @@ old-location: base\atlthunk_datatocode.htm
 tech.root: memory
 ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AtlThunk_DataToCode
+: 
 ---
 
 # AtlThunk_DataToCode function

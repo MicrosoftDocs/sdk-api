@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout2_setverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: DB6A8163-0D64-4438-A51A-3CD0B8B0C64A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetVerticalGlyphOrientation method, IDWriteTextLayout2.SetVerticalGlyphOrientation, IDWriteTextLayout2::SetVerticalGlyphOrientation, SetVerticalGlyphOrientation, SetVerticalGlyphOrientation method [Direct Write], SetVerticalGlyphOrientation method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setverticalglyphorientation, dwrite_2/IDWriteTextLayout2::SetVerticalGlyphOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteTextLayout2.SetVerticalGlyphOrientation
+: 
 ---
 
 # IDWriteTextLayout2::SetVerticalGlyphOrientation

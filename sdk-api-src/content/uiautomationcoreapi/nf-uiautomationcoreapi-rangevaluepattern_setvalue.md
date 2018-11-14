@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RangeValuePattern_SetValue
+: 
 ---
 
 # RangeValuePattern_SetValue function

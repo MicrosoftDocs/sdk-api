@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmCollection.get__NewEnum
+: 
 ---
 
 # IFsrmCollection::get__NewEnum

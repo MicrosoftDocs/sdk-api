@@ -9,8 +9,8 @@ ms.assetid: 29785bae-59b8-4bbb-b899-44f6fc3e83bd
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfKeyTraceEventSink, ITfKeyTraceEventSink interface [Text Services Framework], ITfKeyTraceEventSink interface [Text Services Framework],described, _tsf_itfkeytraceeventsink_ref, msctf/ITfKeyTraceEventSink, tsf.itfkeytraceeventsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

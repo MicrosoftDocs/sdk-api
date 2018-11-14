@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Tbsi_Get_OwnerAuth
+: 
 ---
 
 # Tbsi_Get_OwnerAuth function

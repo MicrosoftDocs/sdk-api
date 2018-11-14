@@ -9,8 +9,8 @@ ms.assetid: 8e2053a9-d7b6-4bf7-b915-4c3871a46b37
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPLOGBRUSH32, *NPLOGBRUSH32, *PLOGBRUSH32, LOGBRUSH32, LOGBRUSH32 structure [Windows GDI], PLOGBRUSH32, PLOGBRUSH32 structure pointer [Windows GDI], _win32_LOGBRUSH32_str, gdi.logbrush32, tagLOGBRUSH32, wingdi/LOGBRUSH32, wingdi/PLOGBRUSH32"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

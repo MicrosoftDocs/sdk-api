@@ -7,7 +7,7 @@ old-location: security\iazroledefinition_addroledefinition.htm
 tech.root: secauthz
 ms.assetid: 38d65f5f-452b-4641-a683-2740fb529064
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleDefinition interface, IAzRoleDefinition interface [Security],AddRoleDefinition method, IAzRoleDefinition.AddRoleDefinition, IAzRoleDefinition::AddRoleDefinition, azroles/IAzRoleDefinition::AddRoleDefinition, security.iazroledefinition_addroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRoleDefinition.AddRoleDefinition
+: 
 ---
 
 # IAzRoleDefinition::AddRoleDefinition

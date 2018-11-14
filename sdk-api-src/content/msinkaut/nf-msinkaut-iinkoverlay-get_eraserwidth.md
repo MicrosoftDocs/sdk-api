@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkOverlay.get_EraserWidth
+: 
 ---
 
 # IInkOverlay::get_EraserWidth

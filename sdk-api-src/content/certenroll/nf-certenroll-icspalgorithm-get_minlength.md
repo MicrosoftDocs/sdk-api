@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspAlgorithm.get_MinLength
+: 
 ---
 
 # ICspAlgorithm::get_MinLength

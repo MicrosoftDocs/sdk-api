@@ -9,8 +9,8 @@ ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

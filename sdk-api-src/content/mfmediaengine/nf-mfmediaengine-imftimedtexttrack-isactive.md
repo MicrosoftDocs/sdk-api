@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_isactive.htm
 tech.root: medfound
 ms.assetid: 7C4A256A-614D-49BF-8654-BEBB4E0A2688
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsActive method, IMFTimedTextTrack.IsActive, IMFTimedTextTrack::IsActive, IsActive, IsActive method [Media Foundation], IsActive method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isactive, mfmediaengine/IMFTimedTextTrack::IsActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFTimedTextTrack.IsActive
+: 
 ---
 
 # IMFTimedTextTrack::IsActive

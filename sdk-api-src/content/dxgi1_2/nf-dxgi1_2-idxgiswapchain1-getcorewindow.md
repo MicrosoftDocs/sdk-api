@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_getimmersivewindow.htm
 tech.root: direct3ddxgi
 ms.assetid: ABD529CF-41D8-4F21-8F47-D0D053AF2322
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetCoreWindow, GetCoreWindow method [DXGI], GetCoreWindow method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetCoreWindow method, IDXGISwapChain1.GetCoreWindow, IDXGISwapChain1::GetCoreWindow, direct3ddxgi.idxgiswapchain1_getimmersivewindow, dxgi1_2/IDXGISwapChain1::GetCoreWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGISwapChain1.GetCoreWindow
+: 
 ---
 
 # IDXGISwapChain1::GetCoreWindow

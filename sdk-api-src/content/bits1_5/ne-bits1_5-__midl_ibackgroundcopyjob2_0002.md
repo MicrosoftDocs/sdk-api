@@ -9,8 +9,8 @@ ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BG_AUTH_SCHEME, BG_AUTH_SCHEME enumeration [BITS], BG_AUTH_SCHEME_BASIC, BG_AUTH_SCHEME_DIGEST, BG_AUTH_SCHEME_NEGOTIATE, BG_AUTH_SCHEME_NTLM, BG_AUTH_SCHEME_PASSPORT, __MIDL_IBackgroundCopyJob2_0002, _drz_bg_auth_scheme, bits.bg_auth_scheme, bits1_5/BG_AUTH_SCHEME, bits1_5/BG_AUTH_SCHEME_BASIC, bits1_5/BG_AUTH_SCHEME_DIGEST, bits1_5/BG_AUTH_SCHEME_NEGOTIATE, bits1_5/BG_AUTH_SCHEME_NTLM, bits1_5/BG_AUTH_SCHEME_PASSPORT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: bits1_5.h
 req.include-header: Bits.h

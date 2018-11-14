@@ -9,8 +9,8 @@ ms.assetid: c77f5ed6-3c7f-48dd-8bb6-33d6d3053238
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPSHNAMEMAPPINGW, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGW, _SHNAMEMAPPINGW, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

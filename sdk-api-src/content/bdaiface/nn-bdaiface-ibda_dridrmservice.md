@@ -9,8 +9,8 @@ ms.assetid: 9b04c960-a766-4322-bf18-e59176ee2ad1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], IBDA_DRIDRMService interface [DirectShow],described, bdaiface/IBDA_DRIDRMService, mstv.ibda_dridrmservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

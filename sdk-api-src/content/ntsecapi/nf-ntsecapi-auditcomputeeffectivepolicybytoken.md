@@ -7,7 +7,7 @@ old-location: security\auditcomputeeffectivepolicybytoken_func.htm
 tech.root: secauthz
 ms.assetid: e5fc9b8d-a61e-48c2-9093-f27167232cc8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuditComputeEffectivePolicyByToken, AuditComputeEffectivePolicyByToken function [Security], ntsecapi/AuditComputeEffectivePolicyByToken, security.auditcomputeeffectivepolicybytoken_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditComputeEffectivePolicyByToken
+: 
 ---
 
 # AuditComputeEffectivePolicyByToken function

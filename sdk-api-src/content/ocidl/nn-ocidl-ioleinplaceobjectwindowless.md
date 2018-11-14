@@ -9,8 +9,8 @@ ms.assetid: 86aabb46-6bc7-4953-b4eb-8692552ca380
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleInPlaceObjectWindowless, IOleInPlaceObjectWindowless interface [COM], IOleInPlaceObjectWindowless interface [COM],described, _ole_ioleinplaceobjectwindowless, com.ioleinplaceobjectwindowless, ocidl/IOleInPlaceObjectWindowless
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

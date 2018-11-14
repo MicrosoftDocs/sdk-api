@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICryptAttribute.get_ObjectId
+: 
 ---
 
 # ICryptAttribute::get_ObjectId

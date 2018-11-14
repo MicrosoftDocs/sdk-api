@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], _INTLIST, controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 

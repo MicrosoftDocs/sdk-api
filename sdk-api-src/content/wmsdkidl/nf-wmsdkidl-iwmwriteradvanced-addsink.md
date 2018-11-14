@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMWriterAdvanced.AddSink
+: 
 ---
 
 # IWMWriterAdvanced::AddSink

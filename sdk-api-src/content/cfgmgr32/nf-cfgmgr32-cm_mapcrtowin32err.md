@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_MapCrToWin32Err
+: 
 ---
 
 # CM_MapCrToWin32Err function

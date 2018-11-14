@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509AttributeExtensions.get_X509Extensions
+: 
 ---
 
 # IX509AttributeExtensions::get_X509Extensions

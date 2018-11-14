@@ -7,7 +7,7 @@ old-location: security\certremovestorefromcollection.htm
 tech.root: seccrypto
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertRemoveStoreFromCollection
+: 
 ---
 
 # CertRemoveStoreFromCollection function

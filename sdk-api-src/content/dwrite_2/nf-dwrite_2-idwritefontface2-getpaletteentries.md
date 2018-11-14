@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface2_getpaletteentries.htm
 tech.root: DirectWrite
 ms.assetid: 4678E96C-A5E6-4294-8927-B71F55149342
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct Write], GetPaletteEntries method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntries method, IDWriteFontFace2.GetPaletteEntries, IDWriteFontFace2::GetPaletteEntries, directwrite.idwritefontface2_getpaletteentries, dwrite_2/IDWriteFontFace2::GetPaletteEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteFontFace2.GetPaletteEntries
+: 
 ---
 
 # IDWriteFontFace2::GetPaletteEntries

@@ -9,8 +9,8 @@ ms.assetid: f39c551f-891b-48c2-8143-84845506cde9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SOAPUDP_URL, WS_SOAPUDP_URL structure [Web Services for Windows], _WS_SOAPUDP_URL, webservices/WS_SOAPUDP_URL, wsw.ws_soapudp_url
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

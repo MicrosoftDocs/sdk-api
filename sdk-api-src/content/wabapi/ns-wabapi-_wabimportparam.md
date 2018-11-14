@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\structures\wabimportparam.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPWABIMPORTPARAM, LPWABIMPORTPARAM, LPWABIMPORTPARAM structure pointer [Windows Address Book], MAPI_DIALOG, WABIMPORTPARAM, WABIMPORTPARAM structure [Windows Address Book], _WABIMPORTPARAM, _wab_WABIMPORTPARAM, wab._wab_WABIMPORTPARAM, wabapi/LPWABIMPORTPARAM, wabapi/WABIMPORTPARAM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabapi.h
 req.include-header: 

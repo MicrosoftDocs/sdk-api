@@ -7,10 +7,10 @@ old-location: mf\mf_opm_cgmsa_protection_level.htm
 tech.root: medfound
 ms.assetid: EEFE04F7-E878-4F09-B973-B0FD3E9431AA
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MF_OPM_CGMSA_COPY_FREELY, MF_OPM_CGMSA_COPY_NEVER, MF_OPM_CGMSA_COPY_NO_MORE, MF_OPM_CGMSA_COPY_ONE_GENERATION, MF_OPM_CGMSA_OFF, MF_OPM_CGMSA_PROTECTION_LEVEL, MF_OPM_CGMSA_PROTECTION_LEVEL enumeration [Media Foundation], MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED, _MF_OPM_CGMSA_PROTECTION_LEVEL, mf.mf_opm_cgmsa_protection_level, mfidl/MF_OPM_CGMSA_COPY_FREELY, mfidl/MF_OPM_CGMSA_COPY_NEVER, mfidl/MF_OPM_CGMSA_COPY_NO_MORE, mfidl/MF_OPM_CGMSA_COPY_ONE_GENERATION, mfidl/MF_OPM_CGMSA_OFF, mfidl/MF_OPM_CGMSA_PROTECTION_LEVEL, mfidl/MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

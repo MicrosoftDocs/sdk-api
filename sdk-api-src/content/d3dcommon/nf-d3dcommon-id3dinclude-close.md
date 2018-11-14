@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3dcommon.h
+: 
+- ID3DInclude.Close
+: 
 ---
 
 # ID3DInclude::Close

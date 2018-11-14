@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnConnection.get_InterfaceID
+: 
 ---
 
 # IMbnConnection::get_InterfaceID

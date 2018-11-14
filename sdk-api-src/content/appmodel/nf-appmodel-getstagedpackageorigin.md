@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetStagedPackageOrigin
+: 
 ---
 
 # GetStagedPackageOrigin function

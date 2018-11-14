@@ -9,8 +9,8 @@ ms.assetid: fe5f3145-b428-42c9-ab1d-1c0e63c4454b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IConnectableCredentialProviderCredential, IConnectableCredentialProviderCredential interface [Windows Shell], IConnectableCredentialProviderCredential interface [Windows Shell],described, _shell_IConnectableCredentialProviderCredential, credentialprovider/IConnectableCredentialProviderCredential, shell.IConnectableCredentialProviderCredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

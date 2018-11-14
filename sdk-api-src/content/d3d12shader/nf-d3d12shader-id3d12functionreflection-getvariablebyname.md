@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionreflection_getvariablebyname.htm
 tech.root: direct3d12
 ms.assetid: 1E33C1B9-19DA-4ACD-8304-D5315AC63E2B
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetVariableByName method, ID3D12FunctionReflection.GetVariableByName, ID3D12FunctionReflection::GetVariableByName, d3d12shader/ID3D12FunctionReflection::GetVariableByName, direct3d12.id3d12functionreflection_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12shader.h
+: 
+- ID3D12FunctionReflection.GetVariableByName
+: 
 ---
 
 # ID3D12FunctionReflection::GetVariableByName

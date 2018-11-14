@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbSession.put_DisconnectTime
+: 
 ---
 
 # ITsSbSession::put_DisconnectTime

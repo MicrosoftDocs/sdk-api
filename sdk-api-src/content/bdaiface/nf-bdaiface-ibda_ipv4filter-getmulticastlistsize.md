@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_IPV4Filter.GetMulticastListSize
+: 
 ---
 
 # IBDA_IPV4Filter::GetMulticastListSize

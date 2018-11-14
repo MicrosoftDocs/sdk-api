@@ -7,10 +7,10 @@ old-location: mf\pdxvahdsw_getvideoprocessorcustomrates.htm
 tech.root: medfound
 ms.assetid: 0b633dcc-c6eb-47e5-b43b-b2a6cb66abf6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorCustomRates, PDXVAHDSW_GetVideoProcessorCustomRates callback, PDXVAHDSW_GetVideoProcessorCustomRates callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates, mf.pdxvahdsw_getvideoprocessorcustomrates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

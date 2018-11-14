@@ -7,7 +7,7 @@ old-location: base\opensemaphore.htm
 tech.root: sync
 ms.assetid: 2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: OpenSemaphore, OpenSemaphore function, OpenSemaphoreA, OpenSemaphoreW, _win32_opensemaphore, base.opensemaphore, synchapi/OpenSemaphore, synchapi/OpenSemaphoreA, synchapi/OpenSemaphoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OpenSemaphoreW
+: 
 ---
 
 # OpenSemaphoreW function

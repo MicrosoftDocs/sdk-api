@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_DISTANCE_CURVE
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPX3DAUDIO_DISTANCE_CURVE, LPX3DAUDIO_DISTANCE_CURVE, LPX3DAUDIO_DISTANCE_CURVE structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_DISTANCE_CURVE, X3DAUDIO_DISTANCE_CURVE structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_DISTANCE_CURVE, x3daudio/X3DAUDIO_DISTANCE_CURVE, xaudio2.x3daudio_distance_curve"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 

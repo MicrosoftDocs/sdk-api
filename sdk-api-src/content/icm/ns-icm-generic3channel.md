@@ -9,8 +9,8 @@ ms.assetid: 7ec15e26-9d3f-4603-beff-5a92180bd77c
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: GENERIC3CHANNEL, GENERIC3CHANNEL structure [Windows Color System], icm/GENERIC3CHANNEL, wcs.generic3channel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

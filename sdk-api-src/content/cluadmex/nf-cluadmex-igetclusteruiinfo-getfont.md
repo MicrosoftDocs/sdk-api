@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_getfont.htm
 tech.root: mscs
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetFont method, IGetClusterUIInfo.GetFont, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cluadmex.h
+: 
+- IGetClusterUIInfo.GetFont
+: 
 ---
 
 # IGetClusterUIInfo::GetFont

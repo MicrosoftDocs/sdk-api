@@ -7,7 +7,7 @@ old-location: base\getsystemtime.htm
 tech.root: sysinfo
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemTime
+: 
 ---
 
 # GetSystemTime function

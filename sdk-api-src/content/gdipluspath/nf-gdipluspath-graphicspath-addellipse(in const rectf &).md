@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddellipsemethods\addellipse_20rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: AddEllipse, AddEllipse method [GDI+], AddEllipse method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddEllipse method, GraphicsPath.AddEllipse, GraphicsPath.AddEllipse(IN const RectF &), GraphicsPath.AddEllipse(const RectF&), GraphicsPath::AddEllipse, GraphicsPath::AddEllipse(IN const RectF &), _gdiplus_CLASS_GraphicsPath_AddEllipse_RectF_rect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddEllipse
+: 
 req.product: GDI+ 1.0
 ---
 

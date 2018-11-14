@@ -9,8 +9,8 @@ ms.assetid: eaf220cf-111f-42fa-80db-1c69cd863258
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AMCOPPSignature, AMCOPPSignature structure [DirectShow], AMCOPPSignatureStructure, _AMCOPPSignature, dshow.amcoppsignature, strmif/AMCOPPSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

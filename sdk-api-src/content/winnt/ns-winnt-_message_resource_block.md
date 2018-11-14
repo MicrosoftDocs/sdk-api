@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PMESSAGE_RESOURCE_BLOCK, MESSAGE_RESOURCE_BLOCK, MESSAGE_RESOURCE_BLOCK structure [Menus and Other Resources], _MESSAGE_RESOURCE_BLOCK, _win32_MESSAGE_RESOURCE_BLOCK_str, _win32_message_resource_block_str_cpp, menurc.message_resource_block, winnt/MESSAGE_RESOURCE_BLOCK, winui._win32_message_resource_block_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

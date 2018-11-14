@@ -9,8 +9,8 @@ ms.assetid: 328eedfe-7fdc-4e90-8bac-ab30944b8fbf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsFileService, IADsFileService interface [ADSI], IADsFileService interface [ADSI],described, _ds_iadsfileservice, adsi.iadsfileservice, iads/IADsFileService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

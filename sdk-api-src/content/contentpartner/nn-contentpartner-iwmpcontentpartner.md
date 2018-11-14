@@ -9,8 +9,8 @@ ms.assetid: 2078ebd4-3570-4c39-9081-1b55d9e8286f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], IWMPContentPartner interface [Windows Media Player],described, IWMPContentPartnerInterface, contentpartner/IWMPContentPartner, wmp.iwmpcontentpartner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IVideoWindow.put_WindowStyle
+: 
 ---
 
 # IVideoWindow::put_WindowStyle

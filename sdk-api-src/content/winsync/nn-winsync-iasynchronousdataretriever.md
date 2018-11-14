@@ -9,8 +9,8 @@ ms.assetid: 38f07582-908b-430e-a886-c0fc24b807ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], IAsynchronousDataRetriever interface [Windows Sync],described, winsync.iasynchronousdataretriever, winsync/IAsynchronousDataRetriever
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

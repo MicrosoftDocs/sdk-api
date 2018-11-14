@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSCGetProviderInfo32
+: 
 ---
 
 # WSCGetProviderInfo32 function

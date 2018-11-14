@@ -7,10 +7,10 @@ old-location: security\security_capabilities.htm
 tech.root: secauthz
 ms.assetid: 1A865519-E042-4871-886C-9AA64D71CCE4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*LPSECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES structure pointer [Security], SECURITY_CAPABILITIES, SECURITY_CAPABILITIES structure [Security], _SECURITY_CAPABILITIES, security.security_capabilities, winnt/PSECURITY_CAPABILITIES, winnt/SECURITY_CAPABILITIES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

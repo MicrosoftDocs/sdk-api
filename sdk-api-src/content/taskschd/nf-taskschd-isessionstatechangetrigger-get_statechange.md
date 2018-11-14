@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ISessionStateChangeTrigger.get_StateChange
+: 
 ---
 
 # ISessionStateChangeTrigger::get_StateChange

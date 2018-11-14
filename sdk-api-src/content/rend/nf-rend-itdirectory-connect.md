@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_connect.htm
 tech.root: tapi
 ms.assetid: b781008b-430a-444e-a700-8cde09e721b4
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Connect method, ITDirectory.Connect, ITDirectory::Connect, _tapi3_itdirectory_connect, rend/ITDirectory::Connect, tapi3.itdirectory_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectory.Connect
+: 
 ---
 
 # ITDirectory::Connect

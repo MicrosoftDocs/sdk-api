@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getshowbackgroundalways.htm
 tech.root: medfound
 ms.assetid: 3FE2327F-542B-45D3-95F4-09CF0CE26403
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetShowBackgroundAlways, GetShowBackgroundAlways method [Media Foundation], GetShowBackgroundAlways method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetShowBackgroundAlways method, IMFTimedTextStyle.GetShowBackgroundAlways, IMFTimedTextStyle::GetShowBackgroundAlways, mf.imftimedtextstyle_getshowbackgroundalways, mfmediaengine/IMFTimedTextStyle::GetShowBackgroundAlways
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFTimedTextStyle.GetShowBackgroundAlways
+: 
 ---
 
 # IMFTimedTextStyle::GetShowBackgroundAlways

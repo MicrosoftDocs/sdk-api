@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IRawCDImageTrackInfo.get_SectorType
+: 
 ---
 
 # IRawCDImageTrackInfo::get_SectorType

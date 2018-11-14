@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MI_OperationOptions_GetResourceUri
+: 
 ---
 
 # MI_OperationOptions_GetResourceUri function

@@ -7,7 +7,7 @@ old-location: multimedia\mevt_eventtype.htm
 tech.root: Multimedia
 ms.assetid: ce2ca2b4-129c-4164-ad0c-de748b4a29aa
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MEVT_EVENTTYPE, MEVT_EVENTTYPE macro [Windows Multimedia], _win32_MEVT_EVENTTYPE, mmeapi/MEVT_EVENTTYPE, multimedia.mevt_eventtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mmeapi.h
+: 
+- MEVT_EVENTTYPE
+: 
 ---
 
 # MEVT_EVENTTYPE macro

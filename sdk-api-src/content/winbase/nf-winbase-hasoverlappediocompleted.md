@@ -7,7 +7,7 @@ old-location: base\hasoverlappediocompleted.htm
 tech.root: sync
 ms.assetid: 1e2a3bf0-a73e-4406-99ac-32652f7f5b25
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winbase.h
+: 
+- HasOverlappedIoCompleted
+: 
 ---
 
 # HasOverlappedIoCompleted macro

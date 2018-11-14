@@ -9,8 +9,8 @@ ms.assetid: D7CEC0C4-0472-467C-87F1-1496C9F08296
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DEDUP_CONTAINER_EXTENT, DEDUP_CONTAINER_EXTENT structure [Data Deduplication API], PDEDUP_CONTAINER_EXTENT, PDEDUP_CONTAINER_EXTENT structure pointer [Data Deduplication API], _DEDUP_CONTAINER_EXTENT, ddpbackup/DEDUP_CONTAINER_EXTENT, ddpbackup/PDEDUP_CONTAINER_EXTENT, dedup.dedup_container_extent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddpbackup.h
 req.include-header: 

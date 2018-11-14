@@ -9,8 +9,8 @@ ms.assetid: 32A51FC7-375D-40BE-95F2-65C5057F002C
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_REGISTER, direct3d11.d3d11_trace_register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 

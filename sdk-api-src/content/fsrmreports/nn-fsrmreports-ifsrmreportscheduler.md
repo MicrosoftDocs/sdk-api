@@ -9,8 +9,8 @@ ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

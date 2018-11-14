@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_setappendwindowstart.htm
 tech.root: medfound
 ms.assetid: 5f78e53c-ea2b-4849-9d01-6c31539d8ef5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowStart method, IMFSourceBuffer.SetAppendWindowStart, IMFSourceBuffer::SetAppendWindowStart, SetAppendWindowStart, SetAppendWindowStart method [Media Foundation], SetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowstart, mfmediaengine/IMFSourceBuffer::SetAppendWindowStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFSourceBuffer.SetAppendWindowStart
+: 
 ---
 
 # IMFSourceBuffer::SetAppendWindowStart

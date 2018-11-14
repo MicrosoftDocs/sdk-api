@@ -2,7 +2,7 @@
 UID: NA:aviriff
 ms.assetid: 367d9c81-8f67-3601-8738-ff195bf302d3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

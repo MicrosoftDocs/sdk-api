@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain3_getcurrentbackbufferindex.htm
 tech.root: direct3ddxgi
 ms.assetid: C19D56AC-4094-4D4A-B992-8FE8348A7DE2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetCurrentBackBufferIndex, GetCurrentBackBufferIndex method [DXGI], GetCurrentBackBufferIndex method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],GetCurrentBackBufferIndex method, IDXGISwapChain3.GetCurrentBackBufferIndex, IDXGISwapChain3::GetCurrentBackBufferIndex, direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex, dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_4.h
+: 
+- IDXGISwapChain3.GetCurrentBackBufferIndex
+: 
 ---
 
 # IDXGISwapChain3::GetCurrentBackBufferIndex

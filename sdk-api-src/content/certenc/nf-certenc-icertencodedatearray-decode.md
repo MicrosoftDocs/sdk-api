@@ -7,7 +7,7 @@ old-location: security\icertencodedatearray_decode.htm
 tech.root: seccrypto
 ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertEncodeDateArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeDateArray object, Decode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Decode method, ICertEncodeDateArray.Decode, ICertEncodeDateArray::Decode, _certsrv_icertencodedatearray_decode, certenc/ICertEncodeDateArray::Decode, security.icertencodedatearray_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenc.h
+: 
+- ICertEncodeDateArray.Decode
+: 
 ---
 
 # ICertEncodeDateArray::Decode

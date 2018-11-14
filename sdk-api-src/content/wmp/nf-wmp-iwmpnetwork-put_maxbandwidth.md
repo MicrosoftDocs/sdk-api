@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPNetwork.put_maxBandwidth
+: 
 ---
 
 # IWMPNetwork::put_maxBandwidth

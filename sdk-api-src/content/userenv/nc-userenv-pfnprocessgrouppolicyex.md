@@ -9,8 +9,8 @@ ms.assetid: df77fece-6e81-4a85-847a-fef3ba775e93
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPO_INFO_FLAG_ASYNC_FOREGROUND, GPO_INFO_FLAG_BACKGROUND, GPO_INFO_FLAG_FORCED_REFRESH, GPO_INFO_FLAG_LINKTRANSITION, GPO_INFO_FLAG_LOGRSOP_TRANSITION, GPO_INFO_FLAG_MACHINE, GPO_INFO_FLAG_NOCHANGES, GPO_INFO_FLAG_SAFEMODE_BOOT, GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, PFNPROCESSGROUPPOLICYEX, PFNPROCESSGROUPPOLICYEX callback, PFNPROCESSGROUPPOLICYEX callback function [Group Policy], ProcessGroupPolicyEx, _win32_processgrouppolicyex, policy.processgrouppolicyex, userenv/PFNPROCESSGROUPPOLICYEX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: userenv.h
 req.include-header: 

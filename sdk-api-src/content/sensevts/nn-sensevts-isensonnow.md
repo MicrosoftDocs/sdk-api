@@ -9,8 +9,8 @@ ms.assetid: 39d483be-8dbd-41f9-9804-af9dc4535c05
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISensOnNow, ISensOnNow interface [SENS], ISensOnNow interface [SENS],described, _zaw_isensonnow, sens.isensonnow, sensevts/ISensOnNow, syncmgr.isensonnow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sensevts.h
 req.include-header: 

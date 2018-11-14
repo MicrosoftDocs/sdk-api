@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMTVDISPINFOA, LPNMTVDISPINFO, LPNMTVDISPINFO structure pointer [Windows Controls], NMTVDISPINFO, NMTVDISPINFO structure [Windows Controls], NMTVDISPINFOA, NMTVDISPINFOW, TVIF_CHILDREN, TVIF_IMAGE, TVIF_SELECTEDIMAGE, TVIF_TEXT, _win32_NMTVDISPINFO, _win32_NMTVDISPINFO_cpp, commctrl/LPNMTVDISPINFO, commctrl/NMTVDISPINFO, commctrl/NMTVDISPINFOA, commctrl/NMTVDISPINFOW, controls.NMTVDISPINFO, controls._win32_NMTVDISPINFO, tagTVDISPINFOA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

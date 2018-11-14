@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12device3.htm
 tech.root: direct3d12
 ms.assetid: 038E546C-4000-401A-8A11-7A83F391676E
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: Id3d12device3, Id3d12device3 interface, Id3d12device3 interface,described, d3d12/Id3d12device3, direct3d12.id3d12device3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

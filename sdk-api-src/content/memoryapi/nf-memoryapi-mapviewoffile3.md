@@ -7,7 +7,7 @@ old-location: base\mapviewoffile3.htm
 tech.root: memory
 ms.assetid: 585D7BA1-688F-4F24-8D8D-46A2FC137193
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3, MapViewOfFile3 function, base.mapviewoffile3, memoryapi/MapViewOfFile3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MapViewOfFile3
+: 
 ---
 
 # MapViewOfFile3 function

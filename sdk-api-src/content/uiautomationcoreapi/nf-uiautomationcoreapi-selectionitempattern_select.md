@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SelectionItemPattern_Select
+: 
 ---
 
 # SelectionItemPattern_Select function

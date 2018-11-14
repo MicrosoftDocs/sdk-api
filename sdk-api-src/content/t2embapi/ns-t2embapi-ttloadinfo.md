@@ -9,8 +9,8 @@ ms.assetid: 7a4beae7-cd30-47e3-b310-d0a79c3c8c36
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: TTLOADINFO, TTLOADINFO structure [Windows GDI], _win32_TTLOADINFO, gdi.ttloadinfo, t2embapi/TTLOADINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\privilegedserviceauditalarm.htm
 tech.root: secauthz
 ms.assetid: a424c583-bb71-4bda-a27f-2389b89104d8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: PrivilegedServiceAuditAlarm, PrivilegedServiceAuditAlarm function [Security], PrivilegedServiceAuditAlarmA, PrivilegedServiceAuditAlarmW, _win32_privilegedserviceauditalarm, security.privilegedserviceauditalarm, winbase/PrivilegedServiceAuditAlarm, winbase/PrivilegedServiceAuditAlarmA, winbase/PrivilegedServiceAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PrivilegedServiceAuditAlarmA
+: 
 ---
 
 # PrivilegedServiceAuditAlarmA function

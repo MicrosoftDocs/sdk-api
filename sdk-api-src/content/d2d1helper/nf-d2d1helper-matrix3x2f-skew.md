@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_skew.htm
 tech.root: direct2d
 ms.assetid: 7d53aaff-3a6f-4949-9835-a30027d247dd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1helper.h
+: 
+- Matrix3x2F.Skew
+: 
 ---
 
 # Matrix3x2F::Skew

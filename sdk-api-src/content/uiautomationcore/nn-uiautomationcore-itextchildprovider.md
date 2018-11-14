@@ -9,8 +9,8 @@ ms.assetid: 370A772A-0AD9-4183-B316-CADC4FE117AE
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITextChildProvider, ITextChildProvider interface [Windows Accessibility], ITextChildProvider interface [Windows Accessibility],described, uiautomationcore/ITextChildProvider, winauto.uiauto__ITextChildProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

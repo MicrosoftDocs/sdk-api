@@ -7,7 +7,7 @@ old-location: security\iazapplication_createscope.htm
 tech.root: secauthz
 ms.assetid: 6d5044d8-0b6a-4681-a8eb-e93f50fbdf36
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],CreateScope method, CreateScope, CreateScope method [Security], CreateScope method [Security],AzApplication object, CreateScope method [Security],IAzApplication interface, IAzApplication interface [Security],CreateScope method, IAzApplication.CreateScope, IAzApplication::CreateScope, azroles/IAzApplication::CreateScope, security.iazapplication_createscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.CreateScope
+: 
 ---
 
 # IAzApplication::CreateScope

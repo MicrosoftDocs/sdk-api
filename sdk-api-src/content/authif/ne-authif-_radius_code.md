@@ -9,8 +9,8 @@ ms.assetid: cb971643-82ca-4302-a961-9d567da04c27
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: RADIUS_CODE, RADIUS_CODE enumeration [Network Policy Server], _RADIUS_CODE, _ias_radius_code, authif/RADIUS_CODE, authif/rcAccessAccept, authif/rcAccessChallenge, authif/rcAccessReject, authif/rcAccessRequest, authif/rcAccountingRequest, authif/rcAccountingResponse, authif/rcDiscard, authif/rcUnknown, ias.radius_code, nps.IAS_radius_code, rcAccessAccept, rcAccessChallenge, rcAccessReject, rcAccessRequest, rcAccountingRequest, rcAccountingResponse, rcDiscard, rcUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: authif.h
 req.include-header: 

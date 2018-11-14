@@ -7,7 +7,7 @@ old-location: security\certgetvalidusages.htm
 tech.root: seccrypto
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertGetValidUsages
+: 
 ---
 
 # CertGetValidUsages function

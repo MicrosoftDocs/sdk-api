@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletepolicyadministratorname.htm
 tech.root: secauthz
 ms.assetid: 6da92103-6de0-4310-b52c-c1441e775da8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzApplication object, DeletePolicyAdministratorName method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministratorName method, IAzApplication.DeletePolicyAdministratorName, IAzApplication::DeletePolicyAdministratorName, azroles/IAzApplication::DeletePolicyAdministratorName, security.iazapplication_deletepolicyadministratorname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.DeletePolicyAdministratorName
+: 
 ---
 
 # IAzApplication::DeletePolicyAdministratorName

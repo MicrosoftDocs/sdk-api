@@ -9,8 +9,8 @@ ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeControl interface [DirectShow],described, IKsNodeControlInterface, dshow.iksnodecontrol, vidcap/IKsNodeControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 

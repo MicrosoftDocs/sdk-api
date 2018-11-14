@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shlobj.h
+: 
+- IADesktopP2.UpdateAllDesktopSubscriptions
+: 
 ---
 
 # IADesktopP2::UpdateAllDesktopSubscriptions

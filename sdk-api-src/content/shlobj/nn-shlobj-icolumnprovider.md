@@ -9,8 +9,8 @@ ms.assetid: 06993217-2867-43f2-aa76-04b500bf8c17
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IColumnProvider, IColumnProvider interface [Windows Shell], IColumnProvider interface [Windows Shell],described, _win32_IColumnProvider, shell.IColumnProvider, shlobj/IColumnProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

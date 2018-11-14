@@ -9,8 +9,8 @@ ms.assetid: 463b634f-bb15-494d-8061-c4fa0b97b990
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_ERROR_PROPERTY, WS_ERROR_PROPERTY structure [Web Services for Windows], _WS_ERROR_PROPERTY, webservices/WS_ERROR_PROPERTY, wsw.ws_error_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

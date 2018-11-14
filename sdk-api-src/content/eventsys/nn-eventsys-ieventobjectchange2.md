@@ -9,8 +9,8 @@ ms.assetid: 1b51c7ad-eae7-4030-81c2-ed9259648d31
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEventObjectChange2, IEventObjectChange2 interface [COM+], IEventObjectChange2 interface [COM+],described, _cos_IEventObjectChange2, cos.ieventobjectchange2, eventsys/IEventObjectChange2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

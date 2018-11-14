@@ -9,8 +9,8 @@ ms.assetid: 06b82b31-1f0e-45d5-88ec-9b9835af10df
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO structure [ETW], _EVENT_PROPERTY_INFO, etw.event_property_info_struct, tdh.event_property_info_struct, tdh/EVENT_PROPERTY_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

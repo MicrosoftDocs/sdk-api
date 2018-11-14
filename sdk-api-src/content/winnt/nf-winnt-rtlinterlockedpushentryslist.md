@@ -7,7 +7,7 @@ old-location: base\rtlinterlockedpushentryslist.htm
 tech.root: sync
 ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlInterlockedPushEntrySList
+: 
 ---
 
 # RtlInterlockedPushEntrySList function

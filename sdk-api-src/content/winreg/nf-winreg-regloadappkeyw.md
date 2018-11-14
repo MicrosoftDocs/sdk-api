@@ -7,7 +7,7 @@ old-location: base\regloadappkey.htm
 tech.root: sysinfo
 ms.assetid: 88eb79c1-9ea0-436e-ad2e-9ce05b8dcb2c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: RegLoadAppKey, RegLoadAppKey function, RegLoadAppKeyA, RegLoadAppKeyW, base.regloadappkey, winreg/RegLoadAppKey, winreg/RegLoadAppKeyA, winreg/RegLoadAppKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegLoadAppKeyW
+: 
 ---
 
 # RegLoadAppKeyW function

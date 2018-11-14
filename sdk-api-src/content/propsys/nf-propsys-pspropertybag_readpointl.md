@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PSPropertyBag_ReadPOINTL
+: 
 ---
 
 # PSPropertyBag_ReadPOINTL function

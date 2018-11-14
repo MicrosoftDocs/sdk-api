@@ -9,8 +9,8 @@ ms.assetid: b61c8d05-6d73-4f84-95b2-2a892f3de77c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runtime], IMetaDataDispenserEx interface [Windows Runtime],described, rometadataapi/IMetaDataDispenserEx, winrt.imetadatadispenserex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

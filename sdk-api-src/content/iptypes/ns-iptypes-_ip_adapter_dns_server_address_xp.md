@@ -9,8 +9,8 @@ ms.assetid: 96855386-9010-40df-8260-16b43ad6646f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_DNS_SERVER_ADDRESS, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP, IP_ADAPTER_DNS_SERVER_ADDRESS, IP_ADAPTER_DNS_SERVER_ADDRESS structure [IP Helper], IP_ADAPTER_DNS_SERVER_ADDRESS_XP, PIP_ADAPTER_DNS_SERVER_ADDRESS, PIP_ADAPTER_DNS_SERVER_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_DNS_SERVER_ADDRESS_XP, _iphlp_ip_adapter_dns_server_address, iphlp.ip_adapter_dns_server_address, iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS, iptypes/PIP_ADAPTER_DNS_SERVER_ADDRESS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

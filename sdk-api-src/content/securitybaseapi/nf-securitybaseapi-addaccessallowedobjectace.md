@@ -7,7 +7,7 @@ old-location: security\addaccessallowedobjectace.htm
 tech.root: secauthz
 ms.assetid: ccf83e95-ba6f-49f5-a312-52eac90f209a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddAccessAllowedObjectAce, AddAccessAllowedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedobjectace, security.addaccessallowedobjectace, securitybaseapi/AddAccessAllowedObjectAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddAccessAllowedObjectAce
+: 
 ---
 
 # AddAccessAllowedObjectAce function

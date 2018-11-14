@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\lvbkimage.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPLVBKIMAGEW, LPLVBKIMAGE, LPLVBKIMAGE structure pointer [Windows Controls], LVBKIF_FLAG_ALPHABLEND, LVBKIF_FLAG_TILEOFFSET, LVBKIF_SOURCE_HBITMAP, LVBKIF_SOURCE_NONE, LVBKIF_SOURCE_URL, LVBKIF_STYLE_NORMAL, LVBKIF_STYLE_TILE, LVBKIF_TYPE_WATERMARK, LVBKIMAGE, LVBKIMAGE structure [Windows Controls], LVBKIMAGEA, LVBKIMAGEW, _win32_LVBKIMAGE, _win32_LVBKIMAGE_cpp, commctrl/LPLVBKIMAGE, commctrl/LVBKIMAGE, commctrl/LVBKIMAGEA, commctrl/LVBKIMAGEW, controls.LVBKIMAGE, controls._win32_LVBKIMAGE, tagLVBKIMAGEW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

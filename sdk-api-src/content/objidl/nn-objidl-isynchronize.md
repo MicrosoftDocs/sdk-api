@@ -9,8 +9,8 @@ ms.assetid: 2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISynchronize, ISynchronize interface [COM], ISynchronize interface [COM],described, _com_isynchronize, com.isynchronize, objidlbase/ISynchronize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

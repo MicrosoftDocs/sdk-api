@@ -9,8 +9,8 @@ ms.assetid: d677d46c-3b36-4081-a6db-123ac1cef84b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: X509KeySpec, X509KeySpec enumeration [Security], XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/X509KeySpec, certenroll/XCN_AT_KEYEXCHANGE, certenroll/XCN_AT_NONE, certenroll/XCN_AT_SIGNATURE, security.x509keyspec_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

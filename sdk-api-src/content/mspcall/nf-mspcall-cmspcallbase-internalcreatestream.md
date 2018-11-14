@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallbase_internalcreatestream.htm
 tech.root: tapi
 ms.assetid: 6f9cef2e-36dd-4095-9060-b6d37ccbc6d7
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],InternalCreateStream method, CMSPCallBase.InternalCreateStream, CMSPCallBase::InternalCreateStream, InternalCreateStream, InternalCreateStream method [TAPI 2.2], InternalCreateStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_internalcreatestream, mspcall/CMSPCallBase::InternalCreateStream, tapi3.cmspcallbase_internalcreatestream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspcall.h
+: 
+- CMSPCallBase.InternalCreateStream
+: 
 ---
 
 # CMSPCallBase::InternalCreateStream

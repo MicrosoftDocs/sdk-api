@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_raytracing_geometry_triangles_desc.htm
 tech.root: direct3d12
 ms.assetid: 21F4FE2C-FE1B-4520-BEE7-5058467B54D1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure, PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure pointer, d3d12/D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, d3d12/PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, direct3d12.d3d12_raytracing_geometry_triangles_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -49,8 +49,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Describes a set of triangles used as raytracing geometry. The geometry pointed to by this struct are always in triangle list form, indexed or non-indexed. Triangle strips are not supported.
 

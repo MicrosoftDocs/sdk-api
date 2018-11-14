@@ -7,7 +7,7 @@ old-location: security\cryptdecryptmessage.htm
 tech.root: seccrypto
 ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptDecryptMessage, CryptDecryptMessage function [Security], _crypto2_cryptdecryptmessage, security.cryptdecryptmessage, wincrypt/CryptDecryptMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptDecryptMessage
+: 
 ---
 
 # CryptDecryptMessage function

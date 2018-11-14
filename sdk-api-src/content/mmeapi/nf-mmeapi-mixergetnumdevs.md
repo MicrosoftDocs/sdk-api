@@ -7,7 +7,7 @@ old-location: multimedia\mixergetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: ae3c3a28-1dc1-4e35-99d6-68e629124a89
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mixerGetNumDevs, mixerGetNumDevs, mixerGetNumDevs function [Windows Multimedia], mmeapi/mixerGetNumDevs, multimedia.mixergetnumdevs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mixerGetNumDevs
+: 
 ---
 
 # mixerGetNumDevs function

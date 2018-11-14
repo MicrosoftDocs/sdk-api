@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IGridItemProvider.get_Row
+: 
 ---
 
 # IGridItemProvider::get_Row

@@ -7,7 +7,7 @@ old-location: base\queryvirtualmemoryinformation.htm
 tech.root: memory
 ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- QueryVirtualMemoryInformation
+: 
 ---
 
 # QueryVirtualMemoryInformation function

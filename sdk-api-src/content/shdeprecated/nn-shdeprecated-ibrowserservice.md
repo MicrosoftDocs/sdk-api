@@ -9,8 +9,8 @@ ms.assetid: e12ada84-0825-4946-8075-731dfc51ef50
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IBrowserService interface [Windows Shell],described, shdeprecated/IBrowserService, shell.IBrowserService, zone_IBrowserService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 

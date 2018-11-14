@@ -9,8 +9,8 @@ ms.assetid: 245f1c78-a6e9-4138-bddb-c0c890583aea
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 245f1c78-a6e9-4138-bddb-c0c890583aea, AsyncStylusQueue, AsyncStylusQueueImmediate, StylusQueue, StylusQueue enumeration [Tablet PC], SyncStylusQueue, rtscom/AsyncStylusQueue, rtscom/AsyncStylusQueueImmediate, rtscom/StylusQueue, rtscom/SyncStylusQueue, tablet.stylusqueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rtscom.h
 req.include-header: 

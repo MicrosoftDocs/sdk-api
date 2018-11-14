@@ -9,8 +9,8 @@ ms.assetid: 8d3f021d-25ac-44de-9bbc-cc558bc47f91
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_IP_RANGE, DHCP_IP_RANGE, DHCP_IP_RANGE structure [DHCP], LPDHCP_IP_RANGE, LPDHCP_IP_RANGE structure pointer [DHCP], _DHCP_IP_RANGE, dhcp.dhcp_ip_range, dhcpsapi/LPDHCP_IP_RANGE, dhcpsapi/_DHCP_IP_RANGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

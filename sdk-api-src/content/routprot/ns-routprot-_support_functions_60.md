@@ -9,8 +9,8 @@ ms.assetid: c6e1e3a3-2c2a-40ef-965f-554263614bdf
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS structure pointer [RAS], SUPPORT_FUNCTIONS, SUPPORT_FUNCTIONS structure [RAS], SUPPORT_FUNCTIONS_60, _SUPPORT_FUNCTIONS_60, _mpr_support_functions, routprot/PSUPPORT_FUNCTIONS, routprot/SUPPORT_FUNCTIONS, rras.support_functions"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 

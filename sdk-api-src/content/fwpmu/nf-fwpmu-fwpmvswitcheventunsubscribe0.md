@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmvSwitchEventUnsubscribe0
+: 
 ---
 
 # FwpmvSwitchEventUnsubscribe0 function

@@ -7,10 +7,10 @@ old-location: fax\_mfax_fax_job_param_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_21yq.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: "*PFAX_JOB_PARAMA, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_PARAM, FAX_JOB_PARAM structure [Fax Service], FAX_JOB_PARAMA, FAX_JOB_PARAMW, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, PFAX_JOB_PARAM, PFAX_JOB_PARAM structure pointer [Fax Service], _FAX_JOB_PARAMA, _mfax_fax_job_param_str, fax._mfax_fax_job_param_str, winfax/FAX_JOB_PARAM, winfax/FAX_JOB_PARAMA, winfax/FAX_JOB_PARAMW, winfax/PFAX_JOB_PARAM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 

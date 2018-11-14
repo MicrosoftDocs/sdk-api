@@ -7,10 +7,10 @@ old-location: tapi3\itmediaplayback.htm
 tech.root: tapi
 ms.assetid: 66b43721-f902-4a0e-8cbb-418438617f47
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

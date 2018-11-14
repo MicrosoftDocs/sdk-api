@@ -7,7 +7,7 @@ old-location: security\accesscheck.htm
 tech.root: secauthz
 ms.assetid: d9fd2e44-5782-40c9-a1cf-1788ca7afc50
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AccessCheck, AccessCheck function [Security], _win32_accesscheck, security.accesscheck, securitybaseapi/AccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AccessCheck
+: 
 ---
 
 # AccessCheck function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi.h
+: 
+- IDiscMaster.EnumDiscRecorders
+: 
 ---
 
 # IDiscMaster::EnumDiscRecorders

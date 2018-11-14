@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface_getsimulations.htm
 tech.root: DirectWrite
 ms.assetid: 409f5e6e-af3c-4d31-968c-d26a89aa1e9d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulations method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetSimulations method, IDWriteFontFace.GetSimulations, IDWriteFontFace::GetSimulations, directwrite.idwritefontface_getsimulations, dwrite/IDWriteFontFace::GetSimulations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteFontFace.GetSimulations
+: 
 ---
 
 # IDWriteFontFace::GetSimulations

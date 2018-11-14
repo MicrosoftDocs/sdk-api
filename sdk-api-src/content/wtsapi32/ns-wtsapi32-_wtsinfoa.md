@@ -9,8 +9,8 @@ ms.assetid: 14e2d3bb-8c83-45aa-aa63-87afef3008b3
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: "*PWTSINFOA, PWTSINFO, PWTSINFO structure pointer [Remote Desktop Services], WTSINFO, WTSINFO structure [Remote Desktop Services], WTSINFOA, WTSINFOW, _WTSINFOA, termserv.wtsinfo, wtsapi32/PWTSINFO, wtsapi32/WTSINFO, wtsapi32/WTSINFOA, wtsapi32/WTSINFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

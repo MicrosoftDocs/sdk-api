@@ -9,8 +9,8 @@ ms.assetid: f2b7d9aa-e42c-4d6b-92e0-9d9bfbde1a42
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, IVdsVolumeOnline interface,described, base.ivdsvolumeonline, vds/IVdsVolumeOnline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

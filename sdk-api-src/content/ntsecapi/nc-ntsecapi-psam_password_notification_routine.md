@@ -9,8 +9,8 @@ ms.assetid: 81d34dff-3842-407b-8fd8-3b0a5a5f38f1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PSAM_PASSWORD_NOTIFICATION_ROUTINE callback, PasswordChangeNotify, PasswordChangeNotify callback function [Security], _pswd_passwordchangenotify, ntsecapi/PasswordChangeNotify, security.passwordchangenotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ntsecapi.h
 req.include-header: 

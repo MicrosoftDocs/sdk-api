@@ -9,8 +9,8 @@ ms.assetid: E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enumeration [VHD], MODIFY_VHDSET_FLAG_NONE, PMODIFY_VHDSET_FLAG, PMODIFY_VHDSET_FLAG enumeration pointer [VHD], _MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG_NONE, vdssys/PMODIFY_VHDSET_FLAG, vhd.modify_vhdset_flag, virtdisk/MODIFY_VHDSET_FLAG, virtdisk/MODIFY_VHDSET_FLAG_NONE, virtdisk/PMODIFY_VHDSET_FLAG"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 

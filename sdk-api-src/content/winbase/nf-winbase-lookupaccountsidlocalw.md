@@ -7,7 +7,7 @@ old-location: security\lookupaccountsidlocal.htm
 tech.root: secauthz
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LookupAccountSidLocalW
+: 
 ---
 
 # LookupAccountSidLocalW function
@@ -61,13 +67,13 @@ Retrieves the name of the account for the specified SID on the local machine.
 
 
 
-#### - Sid [in]
+### -param Sid [in]
 
 A pointer to the 
 <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> to look up.
 
 
-#### - Name [out, optional]
+### -param Name [out, optional]
 
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter.
 
@@ -77,7 +83,7 @@ A pointer to a buffer that receives a <b>null</b>-terminated string that contain
 TBD
 
 
-#### - ReferencedDomainName [out, optional]
+### -param ReferencedDomainName [out, optional]
 
 On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
@@ -91,12 +97,12 @@ On a workstation, the domain name returned for most accounts in the security dat
 Some accounts are predefined by the system. The domain name returned for these accounts is BUILTIN.
 
 
-#### - cchReferencedDomainName [in, out]
+### -param cchReferencedDomainName [in, out]
 
 On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
 
-#### - peUse [out]
+### -param peUse [out]
 
 A pointer to a variable that receives a 
 <a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> value that indicates the type of the account.

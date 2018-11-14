@@ -9,8 +9,8 @@ ms.assetid: d3a34a13-6114-4f15-9de5-60da43fde600
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITypeInfo2, ITypeInfo2 interface [Automation], ITypeInfo2 interface [Automation],described, _oa96_ITypeInfo2_Interface, automat.itypeinfo2, oaidl/ITypeInfo2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: cb9d0f20-d5ca-4db9-adcc-0a803f97f196
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], IWMPSubscriptionService interface [Windows Media Player],described, IWMPSubscriptionServiceInterface, subscriptionservices/IWMPSubscriptionService, wmp.iwmpsubscriptionservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: subscriptionservices.h
 req.include-header: 

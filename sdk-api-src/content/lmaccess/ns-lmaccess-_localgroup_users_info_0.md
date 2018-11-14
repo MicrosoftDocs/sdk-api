@@ -9,8 +9,8 @@ ms.assetid: e9358f19-ec8f-4454-896c-c9fadb848378
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPLOCALGROUP_USERS_INFO_0, *PLOCALGROUP_USERS_INFO_0, LOCALGROUP_USERS_INFO_0, LOCALGROUP_USERS_INFO_0 structure [Network Management], LPLOCALGROUP_USERS_INFO_0, LPLOCALGROUP_USERS_INFO_0 structure pointer [Network Management], PLOCALGROUP_USERS_INFO_0, PLOCALGROUP_USERS_INFO_0 structure pointer [Network Management], _LOCALGROUP_USERS_INFO_0, _win32_localgroup_users_info_0_str, lmaccess/LOCALGROUP_USERS_INFO_0, lmaccess/LPLOCALGROUP_USERS_INFO_0, lmaccess/PLOCALGROUP_USERS_INFO_0, netmgmt.localgroup_users_info_0_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

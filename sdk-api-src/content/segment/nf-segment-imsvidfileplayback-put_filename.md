@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidFilePlayback.put_FileName
+: 
 ---
 
 # IMSVidFilePlayback::put_FileName

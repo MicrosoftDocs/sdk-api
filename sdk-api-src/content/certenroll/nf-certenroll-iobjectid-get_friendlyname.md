@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IObjectId.get_FriendlyName
+: 
 ---
 
 # IObjectId::get_FriendlyName

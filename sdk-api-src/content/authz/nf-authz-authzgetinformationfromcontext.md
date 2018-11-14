@@ -7,7 +7,7 @@ old-location: security\authzgetinformationfromcontext.htm
 tech.root: secauthz
 ms.assetid: c365029a-3ff3-49c1-9dfc-b52948e466f3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext function [Security], _win32_authzgetinformationfromcontext, authz/AuthzGetInformationFromContext, security.authzgetinformationfromcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzGetInformationFromContext
+: 
 ---
 
 # AuthzGetInformationFromContext function

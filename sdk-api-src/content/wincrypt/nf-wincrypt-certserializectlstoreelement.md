@@ -7,7 +7,7 @@ old-location: security\certserializectlstoreelement.htm
 tech.root: seccrypto
 ms.assetid: 63d343c1-fa65-4cd1-a210-3805c7d92208
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertSerializeCTLStoreElement, CertSerializeCTLStoreElement function [Security], _crypto2_certserializectlstoreelement, security.certserializectlstoreelement, wincrypt/CertSerializeCTLStoreElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSerializeCTLStoreElement
+: 
 ---
 
 # CertSerializeCTLStoreElement function

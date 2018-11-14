@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportSetupManager.get_Protocols
+: 
 ---
 
 # IWdsTransportSetupManager::get_Protocols

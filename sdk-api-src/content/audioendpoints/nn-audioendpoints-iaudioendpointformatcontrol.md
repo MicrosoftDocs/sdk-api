@@ -9,8 +9,8 @@ ms.assetid: 7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio],described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioendpoints.h
 req.include-header: 

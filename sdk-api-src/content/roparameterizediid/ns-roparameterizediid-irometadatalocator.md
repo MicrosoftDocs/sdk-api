@@ -9,8 +9,8 @@ ms.assetid: A1004454-1C9F-46AF-8C88-BB8204FA0410
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRoMetaDataLocator, IRoMetaDataLocator structure [Windows Runtime], PIRoMetaDataLocator, PIRoMetaDataLocator structure pointer [Windows Runtime], roparameterizediid/IRoMetaDataLocator, roparameterizediid/PIRoMetaDataLocator, winrt.irometadatalocator_struct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: roparameterizediid.h
 req.include-header: 

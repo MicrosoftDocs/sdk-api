@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IBasicAudio.put_Volume
+: 
 ---
 
 # IBasicAudio::put_Volume

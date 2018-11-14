@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ask.htm
 ms.author: windowssdkdev
-ms.date: 11/05/2018
+ms.date: 11/08/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxTiff interface, IFaxTiff interface [Fax Service],Csid property, IFaxTiff.Csid, IFaxTiff.get_Csid, IFaxTiff::Csid, IFaxTiff::get_Csid, _mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_csid_cpp, faxcom/IFaxTiff::Csid, faxcom/IFaxTiff::get_Csid, get_Csid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcom.h
+: 
+- IFaxTiff.get_Csid
+: 
 ---
 
 # IFaxTiff::get_Csid

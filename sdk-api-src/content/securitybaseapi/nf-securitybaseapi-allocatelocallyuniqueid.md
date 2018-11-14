@@ -7,7 +7,7 @@ old-location: security\allocatelocallyuniqueid.htm
 tech.root: secauthz
 ms.assetid: 5d730034-802b-4d37-bd28-68992779b93e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AllocateLocallyUniqueId, AllocateLocallyUniqueId function [Security], _win32_allocatelocallyuniqueid, security.allocatelocallyuniqueid, securitybaseapi/AllocateLocallyUniqueId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AllocateLocallyUniqueId
+: 
 ---
 
 # AllocateLocallyUniqueId function

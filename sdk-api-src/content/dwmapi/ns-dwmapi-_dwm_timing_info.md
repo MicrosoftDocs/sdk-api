@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_timin
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DWM_TIMING_INFO, DWM_TIMING_INFO structure [Desktop Window Manager], _DWM_TIMING_INFO, _udwm_dwm_timing_info, _udwm_dwm_timing_info_cpp, dwm.dwm_timing_info, dwmapi/DWM_TIMING_INFO, winui._udwm_dwm_timing_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 

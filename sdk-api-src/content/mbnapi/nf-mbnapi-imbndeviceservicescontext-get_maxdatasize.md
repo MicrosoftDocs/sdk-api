@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnDeviceServicesContext.get_MaxDataSize
+: 
 ---
 
 # IMbnDeviceServicesContext::get_MaxDataSize

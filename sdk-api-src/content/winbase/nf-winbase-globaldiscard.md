@@ -7,7 +7,7 @@ old-location: base\globaldiscard.htm
 tech.root: memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winbase.h
+: 
+- GlobalDiscard
+: 
 ---
 
 # GlobalDiscard macro

@@ -4,10 +4,10 @@ title: EapHostPeerGetIdentity function
 author: windows-sdk-content
 description: This function is called by tunnel methods to request identity information from the inner methods. This function returns the identity and user credential information.
 old-location: eaphost\eaphostpeergetidentity.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 25d1b360-694d-4ab8-9be4-a79354367068
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerGetIdentity, EapHostPeerGetIdentity function [EAPHost], eaphost.eaphostpeergetidentity, eappapis/EapHostPeerGetIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerGetIdentity
+: 
 ---
 
 # EapHostPeerGetIdentity function

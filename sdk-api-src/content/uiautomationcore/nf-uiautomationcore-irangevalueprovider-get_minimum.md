@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IRangeValueProvider.get_Minimum
+: 
 ---
 
 # IRangeValueProvider::get_Minimum

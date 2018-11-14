@@ -9,8 +9,8 @@ ms.assetid: ac6952b5-e2c7-4266-86c0-8e74b879f61c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IInkCommitRequestHandler, IInkCommitRequestHandler interface, IInkCommitRequestHandler interface,described, InkPresenterDesktop.iinkcommitrequesthandler, inkpresenterdesktop/IInkCommitRequestHandler, input_ink.iinkcommitrequesthandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 

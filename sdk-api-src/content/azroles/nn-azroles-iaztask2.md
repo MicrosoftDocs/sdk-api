@@ -7,10 +7,10 @@ old-location: security\iaztask2.htm
 tech.root: secauthz
 ms.assetid: fa9994c5-1866-41ab-9cae-2d0e7208f79c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzTask2, IAzTask2 interface [Security], IAzTask2 interface [Security],described, azroles/IAzTask2, security.iaztask2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

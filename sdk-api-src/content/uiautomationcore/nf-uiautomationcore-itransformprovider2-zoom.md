@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITransformProvider2.Zoom
+: 
 ---
 
 # ITransformProvider2::Zoom

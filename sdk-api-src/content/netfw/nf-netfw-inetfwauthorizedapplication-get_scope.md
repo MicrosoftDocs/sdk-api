@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwAuthorizedApplication.get_Scope
+: 
 ---
 
 # INetFwAuthorizedApplication::get_Scope

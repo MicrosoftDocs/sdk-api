@@ -7,7 +7,7 @@ old-location: base\systemtimetofiletime.htm
 tech.root: sysinfo
 ms.assetid: d19594bc-8238-4a8f-882d-5b9019ef4880
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: SystemTimeToFileTime, SystemTimeToFileTime function, _win32_systemtimetofiletime, base.systemtimetofiletime, timezoneapi/SystemTimeToFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SystemTimeToFileTime
+: 
 ---
 
 # SystemTimeToFileTime function

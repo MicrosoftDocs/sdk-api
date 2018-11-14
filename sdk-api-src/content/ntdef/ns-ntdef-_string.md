@@ -9,8 +9,8 @@ ms.assetid: 80bd569a-ed6f-4227-9d14-c011623678a0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver Architecture], CANSI_STRING, OEM_STRING, PANSI_STRING, PANSI_STRING structure pointer [Kernel-Mode Driver Architecture], STRING, _STRING, kernel.ansi_string, kstruct_a_0b84d0be-6b91-48b6-87cf-2fd99f043bc4.xml, ntdef/ANSI_STRING, ntdef/PANSI_STRING"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h

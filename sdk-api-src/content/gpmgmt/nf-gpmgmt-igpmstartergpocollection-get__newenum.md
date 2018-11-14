@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMStarterGPOCollection.get__NewEnum
+: 
 ---
 
 # IGPMStarterGPOCollection::get__NewEnum

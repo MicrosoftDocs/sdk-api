@@ -7,7 +7,7 @@ old-location: security\cryptmsgcountersign.htm
 tech.root: seccrypto
 ms.assetid: ebf76664-bca6-462d-b519-2b60f435d8ef
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptMsgCountersign, CryptMsgCountersign function [Security], _crypto2_cryptmsgcountersign, security.cryptmsgcountersign, wincrypt/CryptMsgCountersign
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptMsgCountersign
+: 
 ---
 
 # CryptMsgCountersign function

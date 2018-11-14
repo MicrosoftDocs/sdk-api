@@ -7,7 +7,7 @@ old-location: mf\mfscheduleworkitem.htm
 tech.root: medfound
 ms.assetid: c14786e4-7fbe-4748-a6ba-e9e68f78b241
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: MFScheduleWorkItem, MFScheduleWorkItem function [Media Foundation], c14786e4-7fbe-4748-a6ba-e9e68f78b241, mf.mfscheduleworkitem, mfapi/MFScheduleWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFScheduleWorkItem
+: 
 ---
 
 # MFScheduleWorkItem function

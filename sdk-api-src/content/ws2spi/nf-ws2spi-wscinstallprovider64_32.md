@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSCInstallProvider64_32
+: 
 ---
 
 # WSCInstallProvider64_32 function

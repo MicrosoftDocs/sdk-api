@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMU565
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMU565, XMU565 structure [DirectX Math Support APIs], directxpackedvector/XMU565, dxmath.xmu565
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

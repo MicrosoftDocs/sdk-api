@@ -9,8 +9,8 @@ ms.assetid: 655642E7-64B3-439A-BAE1-7D54461EE058
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PVisualElement, PVisualElement structure pointer, VisualElement, VisualElement structure, xaml_diagnostics.visualelement, xamlom/PVisualElement, xamlom/VisualElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

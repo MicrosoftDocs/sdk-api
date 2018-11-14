@@ -7,7 +7,7 @@ old-location: security\cryptcreatekeyidentifierfromcsp.htm
 tech.root: seccrypto
 ms.assetid: 628e1995-8207-4daa-a445-cb21a755ffa6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CryptCreateKeyIdentifierFromCSP, CryptCreateKeyIdentifierFromCSP function [Security], _crypto2_cryptcreatekeyidentifierfromcsp, security.cryptcreatekeyidentifierfromcsp, wincrypt/CryptCreateKeyIdentifierFromCSP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptCreateKeyIdentifierFromCSP
+: 
 ---
 
 # CryptCreateKeyIdentifierFromCSP function

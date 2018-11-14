@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_domaintimeout.htm
 tech.root: secauthz
 ms.assetid: e512641d-a282-41f6-a7d8-5383ad43cd5b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],DomainTimeout property, DomainTimeout property [Security], DomainTimeout property [Security],AzAuthorizationStore object, DomainTimeout property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DomainTimeout property, IAzAuthorizationStore.DomainTimeout, IAzAuthorizationStore.put_DomainTimeout, IAzAuthorizationStore::DomainTimeout, IAzAuthorizationStore::get_DomainTimeout, IAzAuthorizationStore::put_DomainTimeout, azroles/IAzAuthorizationStore::DomainTimeout, azroles/IAzAuthorizationStore::get_DomainTimeout, azroles/IAzAuthorizationStore::put_DomainTimeout, put_DomainTimeout, security.azauthorizationstore_domaintimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.put_DomainTimeout
+: 
 ---
 
 # IAzAuthorizationStore::put_DomainTimeout

@@ -9,8 +9,8 @@ ms.assetid: 4310c987-3542-4a59-a6fb-951143001741
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IViewObject, IViewObject interface [COM], IViewObject interface [COM],described, _ole_iviewobject, com.iviewobject, oleidl/IViewObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

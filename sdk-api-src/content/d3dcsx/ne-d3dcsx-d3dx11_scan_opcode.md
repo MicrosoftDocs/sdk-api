@@ -9,8 +9,8 @@ ms.assetid: eba6912b-0e24-4c61-9c8e-fe801bf709e2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 89459212-6bc9-40e6-1512-0b759d4b5126, D3DX11_SCAN_OPCODE, D3DX11_SCAN_OPCODE enumeration [Direct3D 11], D3DX11_SCAN_OPCODE_ADD, D3DX11_SCAN_OPCODE_AND, D3DX11_SCAN_OPCODE_MAX, D3DX11_SCAN_OPCODE_MIN, D3DX11_SCAN_OPCODE_MUL, D3DX11_SCAN_OPCODE_OR, D3DX11_SCAN_OPCODE_XOR, d3dcsx/D3DX11_SCAN_OPCODE, d3dcsx/D3DX11_SCAN_OPCODE_ADD, d3dcsx/D3DX11_SCAN_OPCODE_AND, d3dcsx/D3DX11_SCAN_OPCODE_MAX, d3dcsx/D3DX11_SCAN_OPCODE_MIN, d3dcsx/D3DX11_SCAN_OPCODE_MUL, d3dcsx/D3DX11_SCAN_OPCODE_OR, d3dcsx/D3DX11_SCAN_OPCODE_XOR, direct3d11.d3dx11_scan_opcode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dcsx.h
 req.include-header: 

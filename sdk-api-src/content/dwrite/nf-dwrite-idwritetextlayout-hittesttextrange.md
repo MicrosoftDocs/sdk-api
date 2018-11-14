@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_HitTestTextRange.htm
 tech.root: DirectWrite
 ms.assetid: 970ea72c-d097-42c2-9d93-774387ba7881
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: HitTestTextRange, HitTestTextRange method [Direct Write], HitTestTextRange method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextRange method, IDWriteTextLayout.HitTestTextRange, IDWriteTextLayout::HitTestTextRange, directwrite.IDWriteTextLayout_HitTestTextRange, dwrite/IDWriteTextLayout::HitTestTextRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteTextLayout.HitTestTextRange
+: 
 ---
 
 # IDWriteTextLayout::HitTestTextRange

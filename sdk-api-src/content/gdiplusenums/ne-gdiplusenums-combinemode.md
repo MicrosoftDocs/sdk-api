@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_CombineMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\combinemode.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: CombineMode, CombineMode enumeration [GDI+], CombineModeComplement, CombineModeExclude, CombineModeIntersect, CombineModeReplace, CombineModeUnion, CombineModeXor, _gdiplus_ENUM_CombineMode, gdiplus._gdiplus_ENUM_CombineMode, gdiplusenums/CombineMode, gdiplusenums/CombineModeComplement, gdiplusenums/CombineModeExclude, gdiplusenums/CombineModeIntersect, gdiplusenums/CombineModeReplace, gdiplusenums/CombineModeUnion, gdiplusenums/CombineModeXor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

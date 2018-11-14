@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSCEnableNSProvider32
+: 
 ---
 
 # WSCEnableNSProvider32 function

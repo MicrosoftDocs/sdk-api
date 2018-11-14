@@ -7,7 +7,7 @@ old-location: mscs\resutilsetvalueex.htm
 tech.root: mscs
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilSetValueEx
+: 
 ---
 
 # ResUtilSetValueEx function

@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometryCount.htm
 tech.root: direct2d
 ms.assetid: d5338e38-98b7-4e17-933c-f806bd030f88
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSourceGeometryCount, GetSourceGeometryCount method [Direct2D], GetSourceGeometryCount method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetSourceGeometryCount method, ID2D1GeometryGroup.GetSourceGeometryCount, ID2D1GeometryGroup::GetSourceGeometryCount, d2d1/ID2D1GeometryGroup::GetSourceGeometryCount, direct2d.ID2D1GeometryGroup_GetSourceGeometryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1GeometryGroup.GetSourceGeometryCount
+: 
 ---
 
 # ID2D1GeometryGroup::GetSourceGeometryCount

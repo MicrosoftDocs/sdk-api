@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProf
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearoutputchannelcolorprofile.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ClearOutputChannelColorProfile, ClearOutputChannelColorProfile method [GDI+], ClearOutputChannelColorProfile method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearOutputChannelColorProfile method, ImageAttributes.ClearOutputChannelColorProfile, ImageAttributes::ClearOutputChannelColorProfile, _gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusimageattributes.h
+: 
+- ImageAttributes.ClearOutputChannelColorProfile
+: 
 req.product: GDI+ 1.0
 ---
 

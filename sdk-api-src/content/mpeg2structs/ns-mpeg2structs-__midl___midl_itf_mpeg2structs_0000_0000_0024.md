@@ -9,8 +9,8 @@ ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MPEG_DURATION, MPEG_TIME, MPEG_TIME structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024, mpeg2structs/MPEG_TIME, mstv.mpeg_time
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

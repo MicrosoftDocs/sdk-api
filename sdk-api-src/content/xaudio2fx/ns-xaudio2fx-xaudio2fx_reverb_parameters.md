@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_PARAMETERS
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: XAUDIO2FX_REVERB_PARAMETERS, XAUDIO2FX_REVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_parameters, xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xaudio2fx.h
 req.include-header: 

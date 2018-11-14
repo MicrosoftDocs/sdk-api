@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_SolidBrush_GetColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrushmethods\getcolor_82color.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],GetColor method, SolidBrush.GetColor, SolidBrush::GetColor, _gdiplus_CLASS_SolidBrush_GetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_GetColor_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- SolidBrush.GetColor
+: 
 req.product: GDI+ 1.0
 ---
 

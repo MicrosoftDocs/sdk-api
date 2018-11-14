@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertPropertyFriendlyName.get_FriendlyName
+: 
 ---
 
 # ICertPropertyFriendlyName::get_FriendlyName

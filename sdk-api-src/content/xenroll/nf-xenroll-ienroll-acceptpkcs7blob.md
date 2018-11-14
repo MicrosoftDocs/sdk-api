@@ -7,7 +7,7 @@ old-location: security\ienroll4_acceptpkcs7blob.htm
 tech.root: seccrypto
 ms.assetid: 8772f528-2c33-48f4-bb0c-cfde91cf2fba
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: IEnroll interface [Security],acceptPKCS7Blob method, IEnroll.acceptPKCS7Blob, IEnroll::acceptPKCS7Blob, acceptPKCS7Blob, acceptPKCS7Blob method [Security], acceptPKCS7Blob method [Security],IEnroll interface, security.ienroll4_acceptpkcs7blob, xenroll/IEnroll::acceptPKCS7Blob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.acceptPKCS7Blob
+: 
 ---
 
 # IEnroll::acceptPKCS7Blob

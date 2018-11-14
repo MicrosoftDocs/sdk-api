@@ -9,8 +9,8 @@ ms.assetid: aa04d5b0-8483-4024-91d0-65d69d6891ca
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: INotifyReplica, INotifyReplica interface [Windows Shell], INotifyReplica interface [Windows Shell],described, _win32_INotifyReplica, reconcil/INotifyReplica, shell.INotifyReplica
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: reconcil.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\impersonatesecuritycontext.htm
 tech.root: secauthn
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImpersonateSecurityContext
+: 
 ---
 
 # ImpersonateSecurityContext function

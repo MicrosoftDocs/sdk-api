@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPFolderMonitorServices.get_scannedFilesCount
+: 
 ---
 
 # IWMPFolderMonitorServices::get_scannedFilesCount

@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_color_bitmap_glyph_snap_option.htm
 tech.root: direct2d
 ms.assetid: 14D99AFE-8072-4EAC-8932-6BD8D6EACB48
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION, D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION enumeration [Direct2D], D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DEFAULT, D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DISABLE, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DEFAULT, d2d1_3/D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION_DISABLE, direct2d.d2d1_color_bitmap_glyph_snap_option
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 

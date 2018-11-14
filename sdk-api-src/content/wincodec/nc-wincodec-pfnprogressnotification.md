@@ -9,8 +9,8 @@ ms.assetid: 10dd9fbe-abff-4fc9-a3a5-7c01ecc10a7f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: PFNProgressNotification, PFNProgressNotification callback, ProgressNotificationCallback, ProgressNotificationCallback callback function [Windows Imaging Component], _wic_codec_progressnotificationcallback, wic._wic_codec_progressnotificationcallback, wincodec/ProgressNotificationCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincodec.h
 req.include-header: 

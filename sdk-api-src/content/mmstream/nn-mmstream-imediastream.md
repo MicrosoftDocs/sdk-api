@@ -9,8 +9,8 @@ ms.assetid: 97f5dfdc-5941-4b58-a618-1c7e9f6665e1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMediaStream, IMediaStream interface [DirectShow], IMediaStream interface [DirectShow],described, IMediaStreamInterface, dshow.imediastream, mmstream/IMediaStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmstream.h
 req.include-header: 

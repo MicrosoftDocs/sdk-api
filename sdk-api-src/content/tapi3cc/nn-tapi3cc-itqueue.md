@@ -7,10 +7,10 @@ old-location: tapi3\itqueue.htm
 tech.root: tapi
 ms.assetid: dd1bc6c7-4d4e-4f66-ac5a-7004b85ec023
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], ITQueue interface [TAPI 2.2],described, _tapi3_itqueue, tapi3.itqueue, tapi3cc/ITQueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

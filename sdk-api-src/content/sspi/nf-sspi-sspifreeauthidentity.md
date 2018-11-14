@@ -7,7 +7,7 @@ old-location: security\sspifreeauthidentity.htm
 tech.root: secauthn
 ms.assetid: 6199f66e-7adb-4bb9-8e77-a735e31dd5f6
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SspiFreeAuthIdentity, SspiFreeAuthIdentity function [Security], security.sspifreeauthidentity, sspi/SspiFreeAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SspiFreeAuthIdentity
+: 
 ---
 
 # SspiFreeAuthIdentity function

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorLUT_ColorLUT_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutconstructors\colorlut.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+],ColorLUT constructor, ColorLUT constructor [GDI+], ColorLUT constructor [GDI+],ColorLUT class, ColorLUT.ColorLUT, ColorLUT::ColorLUT, _gdiplus_CLASS_ColorLUT_ColorLUT_, gdiplus._gdiplus_CLASS_ColorLUT_ColorLUT_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- ColorLUT.ColorLUT
+: 
 req.product: GDI+ 1.1
 ---
 

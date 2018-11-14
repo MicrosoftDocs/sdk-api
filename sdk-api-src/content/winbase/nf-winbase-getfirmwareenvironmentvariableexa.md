@@ -7,7 +7,7 @@ old-location: base\getfirmwareenvironmentvariableex.htm
 tech.root: sysinfo
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/13/2018
 ms.keywords: GetFirmwareEnvironmentVariableEx, GetFirmwareEnvironmentVariableEx function, GetFirmwareEnvironmentVariableExA, GetFirmwareEnvironmentVariableExW, base.getfirmwareenvironmentvariableex, winbase/GetFirmwareEnvironmentVariableEx, winbase/GetFirmwareEnvironmentVariableExA, winbase/GetFirmwareEnvironmentVariableExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetFirmwareEnvironmentVariableExA
+: 
 ---
 
 # GetFirmwareEnvironmentVariableExA function

@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XAudio2CreateVolumeMeter
+: 
 ---
 
 # XAudio2CreateVolumeMeter function

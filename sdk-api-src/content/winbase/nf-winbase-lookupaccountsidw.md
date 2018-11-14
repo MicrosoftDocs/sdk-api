@@ -7,7 +7,7 @@ old-location: security\lookupaccountsid.htm
 tech.root: secauthz
 ms.assetid: b8a44ffc-86e1-4f79-ad51-8340da9eaefd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LookupAccountSidW
+: 
 ---
 
 # LookupAccountSidW function

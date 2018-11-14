@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12functionreflection.htm
 tech.root: direct3d12
 ms.assetid: F0BF4AA9-66D7-4A33-A51C-B03C1D61F537
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12FunctionReflection, ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,described, d3d12shader/ID3D12FunctionReflection, direct3d12.id3d12functionreflection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 

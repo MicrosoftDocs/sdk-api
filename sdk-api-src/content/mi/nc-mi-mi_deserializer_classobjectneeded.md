@@ -9,8 +9,8 @@ ms.assetid: 0C813AAF-99B4-4DA7-9C2F-CD9FA146D7D2
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_Deserializer_ClassObjectNeeded, MI_Deserializer_ClassObjectNeeded callback, MI_Deserializer_ClassObjectNeeded callback function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_ClassObjectNeeded, wmi_v2.mi_deserializer_classobjectneeded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mi.h
 req.include-header: 

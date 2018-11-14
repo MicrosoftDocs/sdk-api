@@ -7,7 +7,7 @@ old-location: security\dseditsecurity.htm
 tech.root: secauthz
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DSEditSecurity
+: 
 ---
 
 # DSEditSecurity function

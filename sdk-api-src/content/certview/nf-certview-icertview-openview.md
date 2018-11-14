@@ -7,7 +7,7 @@ old-location: security\icertview2_openview.htm
 tech.root: seccrypto
 ms.assetid: d68a5463-f711-4737-b0ad-889f7e4855d5
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CCertView object [Security],OpenView method, ICertView interface [Security],OpenView method, ICertView.OpenView, ICertView2 interface [Security],OpenView method, ICertView2::OpenView, ICertView::OpenView, OpenView, OpenView method [Security], OpenView method [Security],CCertView object, OpenView method [Security],ICertView interface, OpenView method [Security],ICertView2 interface, certview/ICertView2::OpenView, certview/ICertView::OpenView, security.icertview2_openview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certview.h
+: 
+- ICertView.OpenView
+: 
 ---
 
 # ICertView::OpenView

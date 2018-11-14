@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetLineAlignment_align_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setlinealignment.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: SetLineAlignment, SetLineAlignment method [GDI+], SetLineAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],SetLineAlignment method, StringFormat.SetLineAlignment, StringFormat::SetLineAlignment, _gdiplus_CLASS_StringFormat_SetLineAlignment_align_, gdiplus._gdiplus_CLASS_StringFormat_SetLineAlignment_align_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.SetLineAlignment
+: 
 req.product: GDI+ 1.0
 ---
 

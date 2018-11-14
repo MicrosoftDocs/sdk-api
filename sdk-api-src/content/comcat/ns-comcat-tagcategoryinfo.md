@@ -9,8 +9,8 @@ ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO, tagCATEGORYINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: comcat.h
 req.include-header: 

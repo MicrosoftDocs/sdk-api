@@ -9,8 +9,8 @@ ms.assetid: 91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], IWICBitmapDecoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoder, wic._wic_codec_iwicbitmapdecoder, wincodec/IWICBitmapDecoder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

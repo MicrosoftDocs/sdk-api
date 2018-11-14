@@ -9,8 +9,8 @@ ms.assetid: 062b7bcf-e9b2-4024-ba9c-700cc7d69963
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ComponentHangMonitorInfo, ComponentHangMonitorInfo structure [COM+], _ComponentHangMonitorInfo, comsvcs/ComponentHangMonitorInfo, cos.componenthangmonitorinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

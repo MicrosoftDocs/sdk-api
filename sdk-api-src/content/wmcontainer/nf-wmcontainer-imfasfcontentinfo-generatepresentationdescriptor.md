@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: f22cb48d-1346-4182-8ca2-f57a7fdc76e4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GeneratePresentationDescriptor, GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GeneratePresentationDescriptor method, IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcontainer.h
+: 
+- IMFASFContentInfo.GeneratePresentationDescriptor
+: 
 ---
 
 # IMFASFContentInfo::GeneratePresentationDescriptor

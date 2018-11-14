@@ -9,8 +9,8 @@ ms.assetid: b5bb6777-a5b6-4d10-a8b8-79269fa5e2da
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: COMDLG_FILTERSPEC, COMDLG_FILTERSPEC structure [Windows Shell], _COMDLG_FILTERSPEC, shell.COMDLG_FILTERSPEC, shell_COMDLG_FILTERSPEC, shtypes/COMDLG_FILTERSPEC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICOMAdminCatalog2.get_CurrentPartitionName
+: 
 ---
 
 # ICOMAdminCatalog2::get_CurrentPartitionName

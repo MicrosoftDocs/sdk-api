@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Save_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\save.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Graphics class [GDI+],Save method, Graphics.Save, Graphics::Save, Save, Save method [GDI+], Save method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_Save_, gdiplus._gdiplus_CLASS_Graphics_Save_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.Save
+: 
 req.product: GDI+ 1.0
 ---
 

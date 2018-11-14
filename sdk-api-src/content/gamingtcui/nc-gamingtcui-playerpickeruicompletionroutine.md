@@ -9,8 +9,8 @@ ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: gamingtcui.h
 req.include-header: 

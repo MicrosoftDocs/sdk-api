@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_removeall_method.htm
 tech.root: secauthz
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],RemoveAll method, IAzBizRuleInterfaces.RemoveAll, IAzBizRuleInterfaces::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::RemoveAll, security.iazbizruleinterfaces_removeall_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzBizRuleInterfaces.RemoveAll
+: 
 ---
 
 # IAzBizRuleInterfaces::RemoveAll

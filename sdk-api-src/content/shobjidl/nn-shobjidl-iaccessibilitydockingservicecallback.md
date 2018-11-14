@@ -9,8 +9,8 @@ ms.assetid: D69C8040-AAC4-4149-ACDA-948FDBACAB48
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

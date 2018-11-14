@@ -9,8 +9,8 @@ ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h

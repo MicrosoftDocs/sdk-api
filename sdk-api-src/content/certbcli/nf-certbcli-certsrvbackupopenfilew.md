@@ -7,7 +7,7 @@ old-location: security\certsrvbackupopenfile.htm
 tech.root: seccrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvBackupOpenFileW
+: 
 ---
 
 # CertSrvBackupOpenFileW function

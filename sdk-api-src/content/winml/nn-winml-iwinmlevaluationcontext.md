@@ -9,8 +9,8 @@ ms.assetid: D4C9B16A-B351-41E4-AD42-20C25F3CC404
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,described, MachineLearning.iwinmlevaluationcontext, winml/IWinMLEvaluationContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winml.h
 req.include-header: 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wiavideo.h
+: 
+- IWiaVideo.get_ImagesDirectory
+: 
 ---
 
 # IWiaVideo::get_ImagesDirectory

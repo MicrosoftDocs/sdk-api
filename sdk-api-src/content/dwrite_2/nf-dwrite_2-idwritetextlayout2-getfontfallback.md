@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout2_getfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 65787E7E-7475-4810-B929-377D50A2BEF5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: GetFontFallback, GetFontFallback method [Direct Write], GetFontFallback method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetFontFallback method, IDWriteTextLayout2.GetFontFallback, IDWriteTextLayout2::GetFontFallback, directwrite.idwritetextlayout2_getfontfallback, dwrite_2/IDWriteTextLayout2::GetFontFallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteTextLayout2.GetFontFallback
+: 
 ---
 
 # IDWriteTextLayout2::GetFontFallback

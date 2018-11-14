@@ -7,7 +7,7 @@ old-location: direct2d\inkstyleproperties.htm
 tech.root: direct2d
 ms.assetid: a923ce8e-71a0-6332-13e1-a4d58750d1ff
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: InkStyleProperties, InkStyleProperties function [Direct2D], d2d1_3helper/InkStyleProperties, direct2d.inkstyleproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InkStyleProperties
+: 
 ---
 
 # InkStyleProperties function

@@ -7,7 +7,7 @@ old-location: mf\iplaytocontrol_disconnect.htm
 tech.root: medfound
 ms.assetid: 59EA778D-25DA-4EEA-8601-F6D72486410B
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfsharingengine.h
+: 
+- IPlayToControl.Disconnect
+: 
 ---
 
 # IPlayToControl::Disconnect

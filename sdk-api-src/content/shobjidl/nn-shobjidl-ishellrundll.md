@@ -9,8 +9,8 @@ ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: Shobjidl.h

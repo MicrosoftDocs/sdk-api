@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat1_setwraponlastline.htm
 tech.root: DirectWrite
 ms.assetid: 2A842924-B925-4F16-A1A0-997142233AA9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetLastLineWrapping method, IDWriteTextFormat1.SetLastLineWrapping, IDWriteTextFormat1::SetLastLineWrapping, SetLastLineWrapping, SetLastLineWrapping method [Direct Write], SetLastLineWrapping method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setwraponlastline, dwrite_2/IDWriteTextFormat1::SetLastLineWrapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteTextFormat1.SetLastLineWrapping
+: 
 ---
 
 # IDWriteTextFormat1::SetLastLineWrapping

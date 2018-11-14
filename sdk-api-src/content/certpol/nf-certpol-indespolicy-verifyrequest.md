@@ -7,7 +7,7 @@ old-location: security\indespolicy_verifyrequest.htm
 tech.root: seccrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certpol.h
+: 
+- INDESPolicy.VerifyRequest
+: 
 ---
 
 # INDESPolicy::VerifyRequest

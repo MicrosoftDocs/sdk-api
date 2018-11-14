@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_RectF_rects
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglesmethods\drawrectangles_19penpen_rectfrects_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: DrawRectangles, DrawRectangles method [GDI+], DrawRectangles method [GDI+],Graphics class, Graphics class [GDI+],DrawRectangles method, Graphics.DrawRectangles, Graphics.DrawRectangles(IN const Pen,IN const RectF,IN INT), Graphics.DrawRectangles(const Pen*,const RectF*,INT), Graphics::DrawRectangles, Graphics::DrawRectangles(IN const Pen,IN const RectF,IN INT), _gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_RectF_rects_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_RectF_rects_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawRectangles
+: 
 req.product: GDI+ 1.0
 ---
 

@@ -9,8 +9,8 @@ ms.assetid: f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IsService, IsService callback function [RAS], PIS_SERVICE, PIS_SERVICE callback, _mpr_isservice, rras.isservice, stm/IsService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

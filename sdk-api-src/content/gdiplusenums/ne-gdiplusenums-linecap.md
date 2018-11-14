@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_LineCap.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linecap.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: LineCap, LineCap enumeration [GDI+], LineCapArrowAnchor, LineCapCustom, LineCapDiamondAnchor, LineCapFlat, LineCapNoAnchor, LineCapRound, LineCapRoundAnchor, LineCapSquare, LineCapSquareAnchor, LineCapTriangle, _gdiplus_ENUM_LineCap, gdiplus._gdiplus_ENUM_LineCap, gdiplusenums/LineCap, gdiplusenums/LineCapArrowAnchor, gdiplusenums/LineCapCustom, gdiplusenums/LineCapDiamondAnchor, gdiplusenums/LineCapFlat, gdiplusenums/LineCapNoAnchor, gdiplusenums/LineCapRound, gdiplusenums/LineCapRoundAnchor, gdiplusenums/LineCapSquare, gdiplusenums/LineCapSquareAnchor, gdiplusenums/LineCapTriangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

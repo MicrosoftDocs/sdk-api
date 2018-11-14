@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMUINT2, XMUINT2 structure [DirectX Math Support APIs], directxmath/XMUINT2, dxmath.xmuint2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 

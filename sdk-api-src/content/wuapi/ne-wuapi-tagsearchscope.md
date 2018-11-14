@@ -9,8 +9,8 @@ ms.assetid: a7b6a930-7b79-42dc-a4b0-da2eca0dff5c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: SearchScope, SearchScope , SearchScope enumeration [Windows Update Agent], searchScopeAllUsers, searchScopeCurrentUserOnly, searchScopeDefault, searchScopeMachineAndAllUsers, searchScopeMachineAndCurrentUser, searchScopeMachineOnly, tagSearchScope, wua.searchscope, wuapi/SearchScope, wuapi/searchScopeAllUsers, wuapi/searchScopeCurrentUserOnly, wuapi/searchScopeDefault, wuapi/searchScopeMachineAndAllUsers, wuapi/searchScopeMachineAndCurrentUser, wuapi/searchScopeMachineOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

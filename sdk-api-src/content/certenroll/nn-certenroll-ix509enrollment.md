@@ -9,8 +9,8 @@ ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

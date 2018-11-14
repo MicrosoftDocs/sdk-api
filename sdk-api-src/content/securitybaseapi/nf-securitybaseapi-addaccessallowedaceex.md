@@ -7,7 +7,7 @@ old-location: security\addaccessallowedaceex.htm
 tech.root: secauthz
 ms.assetid: 6ddec01f-237f-4b6a-8ea8-a126017b30c5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddAccessAllowedAceEx, AddAccessAllowedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedaceex, security.addaccessallowedaceex, securitybaseapi/AddAccessAllowedAceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddAccessAllowedAceEx
+: 
 ---
 
 # AddAccessAllowedAceEx function

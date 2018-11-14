@@ -9,8 +9,8 @@ ms.assetid: cd9e5562-dd50-46fc-be11-0ea89e6933c0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWCM_CONNECTION_COST_SOURCE, PWCM_CONNECTION_COST_SOURCE, PWCM_CONNECTION_COST_SOURCE enumeration pointer [Windows Connection Manager], WCM_CONNECTION_COST_SOURCE, WCM_CONNECTION_COST_SOURCE enumeration [Windows Connection Manager], WCM_CONNECTION_COST_SOURCE_DEFAULT, WCM_CONNECTION_COST_SOURCE_GP, WCM_CONNECTION_COST_SOURCE_OPERATOR, WCM_CONNECTION_COST_SOURCE_USER, _WCM_CONNECTION_COST_SOURCE, wcm.wcm_connection_cost_source, wcmapi/PWCM_CONNECTION_COST_SOURCE, wcmapi/WCM_CONNECTION_COST_SOURCE, wcmapi/WCM_CONNECTION_COST_SOURCE_DEFAULT, wcmapi/WCM_CONNECTION_COST_SOURCE_GP, wcmapi/WCM_CONNECTION_COST_SOURCE_OPERATOR, wcmapi/WCM_CONNECTION_COST_SOURCE_USER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmapi.h
 req.include-header: 

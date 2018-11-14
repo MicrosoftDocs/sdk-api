@@ -2,7 +2,7 @@
 UID: NA:fdi
 ms.assetid: f9849ada-fb50-32a4-8dd1-8f8676897816
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

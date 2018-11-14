@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- IKsNodeControl.put_KsControl
+: 
 ---
 
 # IKsNodeControl::put_KsControl

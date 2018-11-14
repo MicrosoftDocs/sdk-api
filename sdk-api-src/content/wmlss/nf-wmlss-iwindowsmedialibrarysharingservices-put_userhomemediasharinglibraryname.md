@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmlss.h
+: 
+- IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
+: 
 ---
 
 # IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName

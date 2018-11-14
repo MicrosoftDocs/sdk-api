@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut15.h
+: 
+- IInkDivisionResult.get_Strokes
+: 
 ---
 
 # IInkDivisionResult::get_Strokes

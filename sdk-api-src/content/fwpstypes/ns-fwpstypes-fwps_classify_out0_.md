@@ -9,8 +9,8 @@ ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista], FWPS_CLASSIFY_OUT0_, fwpstypes/FWPS_CLASSIFY_OUT0, netvista.fwps_classify_out0, wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h

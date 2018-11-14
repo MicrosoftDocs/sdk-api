@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrushmethods\getbackgroundcolor.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [GDI+], GetBackgroundColor method [GDI+],HatchBrush class, HatchBrush class [GDI+],GetBackgroundColor method, HatchBrush.GetBackgroundColor, HatchBrush::GetBackgroundColor, _gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_, gdiplus._gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- HatchBrush.GetBackgroundColor
+: 
 req.product: GDI+ 1.0
 ---
 

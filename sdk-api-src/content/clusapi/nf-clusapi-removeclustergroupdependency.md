@@ -7,7 +7,7 @@ old-location: mscs\removeclustergroupdependency.htm
 tech.root: mscs
 ms.assetid: da264d42-28ee-4589-a790-51da9f788ee9
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster], RemoveClusterGroupDependency, RemoveClusterGroupDependency function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY, clusapi/RemoveClusterGroupDependency, mscs.removeclustergroupdependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RemoveClusterGroupDependency
+: 
 ---
 
 # RemoveClusterGroupDependency function

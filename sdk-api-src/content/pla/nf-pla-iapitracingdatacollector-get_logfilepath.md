@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IApiTracingDataCollector.get_LogFilePath
+: 
 ---
 
 # IApiTracingDataCollector::get_LogFilePath

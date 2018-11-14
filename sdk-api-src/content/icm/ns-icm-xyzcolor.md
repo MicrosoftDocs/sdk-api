@@ -9,8 +9,8 @@ ms.assetid: 0220b278-0387-4206-b64e-3196623a7e6c
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: XYZCOLOR, XYZCOLOR structure [Windows Color System], icm/XYZCOLOR, wcs.xyzcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

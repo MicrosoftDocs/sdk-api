@@ -7,7 +7,7 @@ old-location: hidpi\enablenonclientdpiscaling.htm
 tech.root: hidpi
 ms.assetid: 3459B040-B73F-4581-BA29-0B2F0241801E
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: EnableNonClientDpiScaling, EnableNonClientDpiScaling function [High DPI], hidpi.enablenonclientdpiscaling, winuser/EnableNonClientDpiScaling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EnableNonClientDpiScaling
+: 
 ---
 
 # EnableNonClientDpiScaling function

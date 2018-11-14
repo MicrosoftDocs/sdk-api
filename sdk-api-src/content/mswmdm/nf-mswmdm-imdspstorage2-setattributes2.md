@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IMDSPStorage2.SetAttributes2
+: 
 ---
 
 # IMDSPStorage2::SetAttributes2

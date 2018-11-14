@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_shadow_prop.htm
 tech.root: direct2d
 ms.assetid: 332B5743-D702-4DBC-8482-FEAD43641C3A
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_SHADOW_PROP, D2D1_SHADOW_PROP enumeration [Direct2D], D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, D2D1_SHADOW_PROP_COLOR, D2D1_SHADOW_PROP_OPTIMIZATION, d2d1effects/D2D1_SHADOW_PROP, d2d1effects/D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, d2d1effects/D2D1_SHADOW_PROP_COLOR, d2d1effects/D2D1_SHADOW_PROP_OPTIMIZATION, direct2d.d2d1_shadow_prop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: directwrite\dwrite_break_condition.htm
 tech.root: DirectWrite
 ms.assetid: 26dbe63e-eeee-486f-aa94-74320b190fcb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DWRITE_BREAK_CONDITION, DWRITE_BREAK_CONDITION enumeration [Direct Write], DWRITE_BREAK_CONDITION_CAN_BREAK, DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, DWRITE_BREAK_CONDITION_MUST_BREAK, DWRITE_BREAK_CONDITION_NEUTRAL, directwrite.dwrite_break_condition, dwrite/DWRITE_BREAK_CONDITION, dwrite/DWRITE_BREAK_CONDITION_CAN_BREAK, dwrite/DWRITE_BREAK_CONDITION_MAY_NOT_BREAK, dwrite/DWRITE_BREAK_CONDITION_MUST_BREAK, dwrite/DWRITE_BREAK_CONDITION_NEUTRAL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

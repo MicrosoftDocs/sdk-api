@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_decoderbeginframe.htm
 tech.root: medfound
 ms.assetid: 395B06D8-1BCF-44F2-9F69-A183C30E36B7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: DecoderBeginFrame, DecoderBeginFrame method [Media Foundation], DecoderBeginFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderBeginFrame method, ID3D11VideoContext.DecoderBeginFrame, ID3D11VideoContext::DecoderBeginFrame, d3d11/ID3D11VideoContext::DecoderBeginFrame, mf.id3d11videocontext_decoderbeginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoContext.DecoderBeginFrame
+: 
 ---
 
 # ID3D11VideoContext::DecoderBeginFrame

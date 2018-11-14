@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmscreen.h
+: 
+- IFsrmFileScreenTemplateImported.put_OverwriteOnCommit
+: 
 ---
 
 # IFsrmFileScreenTemplateImported::put_OverwriteOnCommit

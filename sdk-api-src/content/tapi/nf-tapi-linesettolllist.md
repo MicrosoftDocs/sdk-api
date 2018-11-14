@@ -7,7 +7,7 @@ old-location: tapi2\linesettolllist.htm
 tech.root: tapi
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "_tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineSetTollList
+: 
 ---
 
 # lineSetTollList function

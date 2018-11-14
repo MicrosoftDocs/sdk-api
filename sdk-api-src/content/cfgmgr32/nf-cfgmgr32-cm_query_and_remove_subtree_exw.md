@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Query_And_Remove_SubTree_ExW
+: 
 ---
 
 # CM_Query_And_Remove_SubTree_ExW function

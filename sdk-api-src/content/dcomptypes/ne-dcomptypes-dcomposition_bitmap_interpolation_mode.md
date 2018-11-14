@@ -9,8 +9,8 @@ ms.assetid: 0B919A5C-DEDD-4131-B743-A61CA49CA2B6
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: DCOMPOSITION_BITMAP_INTERPOLATION_MODE, DCOMPOSITION_BITMAP_INTERPOLATION_MODE enumeration [DirectComposition], DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, directcomp.dcomposition_bitmap_interpolation_mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: 

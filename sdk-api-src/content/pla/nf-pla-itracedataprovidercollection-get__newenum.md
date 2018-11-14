@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- ITraceDataProviderCollection.get__NewEnum
+: 
 ---
 
 # ITraceDataProviderCollection::get__NewEnum

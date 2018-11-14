@@ -9,8 +9,8 @@ ms.assetid: a8b3b230-8378-448b-9c89-82b601373f0e
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_ServerFT, MI_ServerFT structure [Windows Management Infrastructure (MI)], _MI_ServerFT, mi/MI_ServerFT, wmi_v2.mi_serverft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: b62ea18b-c692-464f-a009-727a2924f8b8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWMDMStorage3, IWMDMStorage3 interface [windows Media Device Manager], IWMDMStorage3 interface [windows Media Device Manager],described, IWMDMStorage3Interface, mswmdm/IWMDMStorage3, wmdm.iwmdmstorage3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

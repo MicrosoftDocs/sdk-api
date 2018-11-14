@@ -7,7 +7,7 @@ old-location: base\rtlinstallfunctiontablecallback.htm
 tech.root: debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlInstallFunctionTableCallback
+: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 

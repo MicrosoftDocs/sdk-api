@@ -9,8 +9,8 @@ ms.assetid: 153d89f4-03de-429a-9f52-36a5f6a9762f
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: MMC_CONSOLE_VERB, MMC_CONSOLE_VERB enumeration [MMC], MMC_VERB_COPY, MMC_VERB_CUT, MMC_VERB_DELETE, MMC_VERB_NONE, MMC_VERB_OPEN, MMC_VERB_PASTE, MMC_VERB_PRINT, MMC_VERB_PROPERTIES, MMC_VERB_REFRESH, MMC_VERB_RENAME, _MMC_CONSOLE_VERB, _slate_mmc_console_verb, mmc.mmc_console_verb, mmc/MMC_CONSOLE_VERB, mmc/MMC_VERB_COPY, mmc/MMC_VERB_CUT, mmc/MMC_VERB_DELETE, mmc/MMC_VERB_NONE, mmc/MMC_VERB_OPEN, mmc/MMC_VERB_PASTE, mmc/MMC_VERB_PRINT, mmc/MMC_VERB_PROPERTIES, mmc/MMC_VERB_REFRESH, mmc/MMC_VERB_RENAME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 

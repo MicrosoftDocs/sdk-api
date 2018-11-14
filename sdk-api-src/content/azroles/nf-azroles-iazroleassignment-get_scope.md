@@ -7,7 +7,7 @@ old-location: security\iazroleassignment_scope.htm
 tech.root: secauthz
 ms.assetid: f8b81fea-b4b8-4391-bc01-5c345f45ad56
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRoleAssignment.get_Scope
+: 
 ---
 
 # IAzRoleAssignment::get_Scope

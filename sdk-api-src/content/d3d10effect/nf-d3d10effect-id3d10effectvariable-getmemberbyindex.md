@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10effect.h
+: 
+- ID3D10EffectVariable.GetMemberByIndex
+: 
 ---
 
 # ID3D10EffectVariable::GetMemberByIndex

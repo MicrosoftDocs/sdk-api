@@ -7,10 +7,10 @@ old-location: tspi\line_event.htm
 tech.root: tapi
 ms.assetid: 11ae7e78-8a10-4757-886b-c0aa47c4d55b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: LINEEVENT, LINEEVENT callback, Line_Event, Line_Event callback function [TAPI 2.2], _tspi_lineevent, tspi.line_event, tspi.lineevent, tspi/Line_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: tspi.h
 req.include-header: 

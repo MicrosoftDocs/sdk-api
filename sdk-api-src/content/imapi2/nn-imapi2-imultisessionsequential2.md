@@ -9,8 +9,8 @@ ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], IMultisessionSequential2 interface [IMAPI],described, imapi.imultisessionsequential2, imapi2/IMultisessionSequential2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

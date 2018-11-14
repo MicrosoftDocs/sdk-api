@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PxeDhcpv6AppendOption
+: 
 ---
 
 # PxeDhcpv6AppendOption function

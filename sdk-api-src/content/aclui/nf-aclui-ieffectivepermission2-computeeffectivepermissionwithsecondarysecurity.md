@@ -7,7 +7,7 @@ old-location: security\ieffectivepermission2_computeeffectivepermissionwithsecon
 tech.root: secauthz
 ms.assetid: 03B73103-D7C0-4BA2-B315-3CC0049B1B8E
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ComputeEffectivePermissionWithSecondarySecurity, ComputeEffectivePermissionWithSecondarySecurity method [Security], ComputeEffectivePermissionWithSecondarySecurity method [Security],IEffectivePermission2 interface, IEffectivePermission2 interface [Security],ComputeEffectivePermissionWithSecondarySecurity method, IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity, IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity, aclui/IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity, security.ieffectivepermission2_computeeffectivepermissionwithsecondarysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
+: 
 ---
 
 # IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity

@@ -7,7 +7,7 @@ old-location: security\scardisvalidcontext.htm
 tech.root: secauthn
 ms.assetid: 50bcb6aa-6265-4035-8265-45990f791ce3
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: SCardIsValidContext, SCardIsValidContext function [Security], _smart_scardisvalidcontext, security.scardisvalidcontext, winscard/SCardIsValidContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardIsValidContext
+: 
 ---
 
 # SCardIsValidContext function

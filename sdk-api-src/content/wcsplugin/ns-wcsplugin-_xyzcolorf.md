@@ -9,8 +9,8 @@ ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], _XYZColorF, wcs.xyzcolorf, wcsplugin/XYZColorF
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

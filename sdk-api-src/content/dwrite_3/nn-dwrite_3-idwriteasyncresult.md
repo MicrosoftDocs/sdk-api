@@ -7,10 +7,10 @@ old-location: directwrite\idwriteasyncresult.htm
 tech.root: DirectWrite
 ms.assetid: 8F267213-EB98-4AD9-826A-7D4E34FEB3E4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/09/2018
 ms.keywords: IDWriteAsyncResult, IDWriteAsyncResult interface [Direct Write], IDWriteAsyncResult interface [Direct Write],described, directwrite.idwriteasyncresult, dwrite_3/IDWriteAsyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 

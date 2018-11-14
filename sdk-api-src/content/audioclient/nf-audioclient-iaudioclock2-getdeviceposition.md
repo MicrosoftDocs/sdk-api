@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- audioclient.h
+: 
+- IAudioClock2.GetDevicePosition
+: 
 ---
 
 # IAudioClock2::GetDevicePosition

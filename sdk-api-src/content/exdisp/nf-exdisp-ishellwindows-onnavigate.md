@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- exdisp.h
+: 
+- IShellWindows.OnNavigate
+: 
 req.product: Internet Explorer 5
 ---
 

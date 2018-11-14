@@ -9,8 +9,8 @@ ms.assetid: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc, IInkCursors, IInkCursors interface [Tablet PC], IInkCursors interface [Tablet PC],described, msinkaut/IInkCursors, tablet.iinkcursors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

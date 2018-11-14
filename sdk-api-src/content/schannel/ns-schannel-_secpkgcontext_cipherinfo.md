@@ -7,10 +7,10 @@ old-location: security\secpkgcontext_cipherinfo.htm
 tech.root: secauthn
 ms.assetid: 204D3520-76B6-42C0-83A4-45769F66364A
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: "*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo structure pointer [Security], SecPkgContext_CipherInfo, SecPkgContext_CipherInfo structure [Security], _SecPkgContext_CipherInfo, schannel/PSecPkgContext_CipherInfo, schannel/SecPkgContext_CipherInfo, security.secpkgcontext_cipherinfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

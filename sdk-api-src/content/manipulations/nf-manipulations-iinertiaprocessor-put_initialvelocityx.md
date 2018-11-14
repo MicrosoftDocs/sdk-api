@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- manipulations.h
+: 
+- IInertiaProcessor.put_InitialVelocityX
+: 
 ---
 
 # IInertiaProcessor::put_InitialVelocityX

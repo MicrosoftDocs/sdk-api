@@ -7,7 +7,7 @@ old-location: security\wlxdisplaylockednotice.htm
 tech.root: secauthn
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: WlxDisplayLockedNotice, WlxDisplayLockedNotice function [Security], _gina_wlxdisplaylockednotice, security.wlxdisplaylockednotice, winwlx/WlxDisplayLockedNotice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WlxDisplayLockedNotice
+: 
 ---
 
 # WlxDisplayLockedNotice function

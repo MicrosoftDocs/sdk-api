@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorlength.htm
 tech.root: secauthz
 ms.assetid: eb331839-ff3e-4f4b-b93b-18da2ea72697
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSecurityDescriptorLength, GetSecurityDescriptorLength function [Security], _win32_getsecuritydescriptorlength, security.getsecuritydescriptorlength, securitybaseapi/GetSecurityDescriptorLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSecurityDescriptorLength
+: 
 ---
 
 # GetSecurityDescriptorLength function

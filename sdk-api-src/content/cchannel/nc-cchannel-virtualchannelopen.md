@@ -9,8 +9,8 @@ ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: VirtualChannelOpen, VirtualChannelOpen callback, VirtualChannelOpen callback function [Remote Desktop Services], _win32_virtualchannelopen, cchannel/VirtualChannelOpen, termserv.virtualchannelopen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: ae92436c-0774-4664-86ac-c7df65ef40b5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DhcpDeleteClientHook, DhcpDeleteClientHook callback function [DHCP], LPDHCP_DELETE_CLIENT, LPDHCP_DELETE_CLIENT callback, _dhcp_dhcpdeleteclienthook, dhcp.dhcpdeleteclienthook, dhcpssdk/DhcpDeleteClientHook
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 35beedc3-30c6-4e04-bc27-bb9eb21256fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], _WSMAN_DATA_BINARY, winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

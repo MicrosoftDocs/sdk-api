@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12pipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

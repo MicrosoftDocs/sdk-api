@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CStdAsyncStubBuffer_Disconnect
+: 
 ---
 
 # CStdAsyncStubBuffer_Disconnect function

@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_blend_desc.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 721f9aa7-5588-d838-c466-ccde084bdae9, D3D10_BLEND_DESC, D3D10_BLEND_DESC structure [Direct3D 10], d3d10/D3D10_BLEND_DESC, direct3d10.d3d10_blend_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

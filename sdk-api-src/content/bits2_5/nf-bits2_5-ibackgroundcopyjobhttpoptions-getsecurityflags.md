@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_5.h
+: 
+- IBackgroundCopyJobHttpOptions.GetSecurityFlags
+: 
 ---
 
 # IBackgroundCopyJobHttpOptions::GetSecurityFlags

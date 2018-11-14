@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vswriter.h
+: 
+- CVssWriterEx2.GetSessionId
+: 
 ---
 
 # CVssWriterEx2::GetSessionId

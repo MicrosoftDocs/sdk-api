@@ -9,8 +9,8 @@ ms.assetid: 383a83e4-5dc2-459a-a58f-b6ce7a656348
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], IFsiNamedStreams interface [IMAPI],described, imapi.ifsinamedstreams, imapi2fs/IFsiNamedStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

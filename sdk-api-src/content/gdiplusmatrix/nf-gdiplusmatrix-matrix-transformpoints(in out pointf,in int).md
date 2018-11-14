@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_PointF_pts_INT_count
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods\transformpoints_81pointfpts_intcount.htm
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/09/2018
 ms.keywords: Matrix class [GDI+],TransformPoints method, Matrix.TransformPoints, Matrix.TransformPoints(IN OUT PointF,IN INT), Matrix.TransformPoints(PointF*,INT), Matrix::TransformPoints, Matrix::TransformPoints(IN OUT PointF,IN INT), TransformPoints, TransformPoints method [GDI+], TransformPoints method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformPoints_PointF_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_PointF_pts_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusmatrix.h
+: 
+- Matrix.TransformPoints
+: 
 req.product: GDI+ 1.0
 ---
 

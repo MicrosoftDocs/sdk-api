@@ -9,8 +9,8 @@ ms.assetid: E3BDD2EF-C3F2-435E-8473-84C8FFAEAB06
 ms.author: windowssdkdev
 ms.date: 10/23/2018
 ms.keywords: IOCTL_GENERICUSBFN_REGISTER_USB_STRING, IOCTL_GENERICUSBFN_REGISTER_USB_STRING control, IOCTL_GENERICUSBFN_REGISTER_USB_STRING control code [Buses], buses.ioctl_genericusbfn_register_usb_string, genericusbfnioctl/IOCTL_GENERICUSBFN_REGISTER_USB_STRING
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

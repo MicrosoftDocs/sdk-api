@@ -9,8 +9,8 @@ ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security],described, certenroll/ICspInformation, security.icspinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

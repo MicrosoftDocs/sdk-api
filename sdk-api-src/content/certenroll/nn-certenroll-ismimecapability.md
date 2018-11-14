@@ -9,8 +9,8 @@ ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

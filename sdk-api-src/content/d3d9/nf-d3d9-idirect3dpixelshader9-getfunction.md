@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DPixelShader9.GetFunction
+: 
 ---
 
 # IDirect3DPixelShader9::GetFunction

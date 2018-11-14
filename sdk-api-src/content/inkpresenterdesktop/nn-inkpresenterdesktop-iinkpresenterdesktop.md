@@ -9,8 +9,8 @@ ms.assetid: 6d175981-6379-4a61-84b0-8b08274bc3a3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 

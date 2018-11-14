@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Locate_DevNode_ExW
+: 
 ---
 
 # CM_Locate_DevNode_ExW function

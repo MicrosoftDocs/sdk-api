@@ -9,8 +9,8 @@ ms.assetid: 43d1951e-448d-4139-879b-3fe021490d7d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructure, _FilterInfo, dshow.filter_info, strmif/FILTER_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

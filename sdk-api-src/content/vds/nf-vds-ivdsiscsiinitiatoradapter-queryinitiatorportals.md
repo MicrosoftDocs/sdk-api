@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
+- apiref
+: 
+- COM
+: 
+- vds.h
+: 
+- IVdsIscsiInitiatorAdapter.QueryInitiatorPortals
+: 
 ---
 
 # IVdsIscsiInitiatorAdapter::QueryInitiatorPortals

@@ -9,8 +9,8 @@ ms.assetid: 0E16C482-E7D7-4477-B5B2-830D8CD9012A
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: RDPSRAPI_KBD_SYNC_FLAG, RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP], RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011, rdp.rdpsrapi_kbd_sync_flag, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: ad9d61ec-f607-4f71-ad8a-28d821e29c27
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], IX509PolicyServerUrl interface [Security],described, certenroll/IX509PolicyServerUrl, security.ix509policyserverurl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

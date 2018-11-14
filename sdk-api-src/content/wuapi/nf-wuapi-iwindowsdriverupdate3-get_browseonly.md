@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IWindowsDriverUpdate3.get_BrowseOnly
+: 
 ---
 
 # IWindowsDriverUpdate3::get_BrowseOnly

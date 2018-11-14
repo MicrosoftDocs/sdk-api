@@ -9,8 +9,8 @@ ms.assetid: 427683d5-e285-49b7-a68b-3c75b8b8ce23
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5 structure [DHCP], LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, dhcp.dhcp_subnet_element_info_array_v5, dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

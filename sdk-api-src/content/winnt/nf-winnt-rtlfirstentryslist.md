@@ -7,7 +7,7 @@ old-location: base\rtlfirstentryslist.htm
 tech.root: sync
 ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlFirstEntrySList
+: 
 ---
 
 # RtlFirstEntrySList function

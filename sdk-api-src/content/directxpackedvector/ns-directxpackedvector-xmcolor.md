@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMCOLOR
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpackedvector/XMCOLOR, dxmath.xmcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

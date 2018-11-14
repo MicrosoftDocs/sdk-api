@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_RENDER_TARGET_PROPERTIES.htm
 tech.root: direct2d
 ms.assetid: 360900bd-1353-4a92-865c-ad34d5e98123
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_RENDER_TARGET_PROPERTIES, D2D1_RENDER_TARGET_PROPERTIES structure [Direct2D], d2d1/D2D1_RENDER_TARGET_PROPERTIES, direct2d.D2D1_RENDER_TARGET_PROPERTIES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

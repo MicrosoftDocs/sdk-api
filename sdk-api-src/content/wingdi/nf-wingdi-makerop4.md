@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- wingdi.h
+: 
+- MAKEROP4
+: 
 ---
 
 # MAKEROP4 macro

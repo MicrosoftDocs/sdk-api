@@ -9,8 +9,8 @@ ms.assetid: 2f08fd42-233a-40ee-96d0-f0ac8b25b847
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEmailAction, IEmailAction interface [Task Scheduler], IEmailAction interface [Task Scheduler],described, taskschd.iemailaction, taskschd/IEmailAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

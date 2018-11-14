@@ -7,7 +7,7 @@ old-location: security\converttoautoinheritprivateobjectsecurity.htm
 tech.root: secauthz
 ms.assetid: eaaa5509-eff5-461d-843b-7ebbbe0dd58f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ConvertToAutoInheritPrivateObjectSecurity, ConvertToAutoInheritPrivateObjectSecurity function [Security], _win32_converttoautoinheritprivateobjectsecurity, security.converttoautoinheritprivateobjectsecurity, securitybaseapi/ConvertToAutoInheritPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ConvertToAutoInheritPrivateObjectSecurity
+: 
 ---
 
 # ConvertToAutoInheritPrivateObjectSecurity function

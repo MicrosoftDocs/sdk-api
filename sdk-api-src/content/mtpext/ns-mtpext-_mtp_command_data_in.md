@@ -9,8 +9,8 @@ ms.assetid: a7a6871b-3d53-4134-9877-398c532b489f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN structure [windows Media Device Manager], PMTP_COMMAND_DATA_IN, PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager], _MTP_COMMAND_DATA_IN, mtpext/MTP_COMMAND_DATA_IN, mtpext/PMTP_COMMAND_DATA_IN, wmdm.mtp_command_data_in"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mtpext.h
 req.include-header: 

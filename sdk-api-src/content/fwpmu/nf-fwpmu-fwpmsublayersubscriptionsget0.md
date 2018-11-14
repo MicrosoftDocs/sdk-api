@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmSubLayerSubscriptionsGet0
+: 
 ---
 
 # FwpmSubLayerSubscriptionsGet0 function

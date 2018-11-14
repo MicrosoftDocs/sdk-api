@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12device5.htm
 tech.root: direct3d12
 ms.assetid: 2D72898B-F512-4E0D-8FAC-A53EA6FE614A
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D122Device5, ID3D122Device5 interface, ID3D122Device5 interface,described, ID3D12Device5, d3d12/ID3D12Device5, direct3d12.id3d12device5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Represents a virtual adapter. This interface extends <b>ID3D12Device4</b> to  support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
 <div class="alert"><b>Note</b>  This interface, introduced in Windows 10, version 1809, is the latest version of the <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a> interface. Applications targeting the TBD and later should use this interface instead of earlier versions.</div><div> </div>
 
@@ -75,7 +73,7 @@ The <b>ID3D122Device5</b> interface has these methods.
 <a href="https://msdn.microsoft.com/765714D4-5133-4CCA-A09F-EDE650B06905">CheckDriverMatchingIdentifier</a>
 </td>
 <td align="left" width="63%">
-Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="http://docs.microsoft.com/windows/desktop/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
+Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
 
 </td>
 </tr>

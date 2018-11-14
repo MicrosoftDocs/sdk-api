@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportSession.get_MasterClientId
+: 
 ---
 
 # IWdsTransportSession::get_MasterClientId

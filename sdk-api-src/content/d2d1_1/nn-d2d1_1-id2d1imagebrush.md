@@ -7,10 +7,10 @@ old-location: direct2d\id2d1imagebrush.htm
 tech.root: direct2d
 ms.assetid: c5088ce2-5744-4061-957b-25831478a714
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1ImageBrush, ID2D1ImageBrush interface [Direct2D], ID2D1ImageBrush interface [Direct2D],described, d2d1_1/ID2D1ImageBrush, direct2d.id2d1imagebrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnSearchCandidateProvider, ITfFnSearchCandidateProvider interface [Text Services Framework], ITfFnSearchCandidateProvider interface [Text Services Framework],described, ctffunc/ITfFnSearchCandidateProvider, tsf.itffnsearchcandidateprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

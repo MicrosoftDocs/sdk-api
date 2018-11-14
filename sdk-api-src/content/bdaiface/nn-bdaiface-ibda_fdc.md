@@ -9,8 +9,8 @@ ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies],described, bdaiface/IBDA_FDC, mstv.ibda_fdc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

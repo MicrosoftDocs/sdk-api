@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\idistlist\idistlist.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDistList, IDistList interface [Windows Address Book], IDistList interface [Windows Address Book],described, _wab_IDistList, wab._wab_IDistList, wabdefs/IDistList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wabdefs.h
 req.include-header: Wabtmp.h

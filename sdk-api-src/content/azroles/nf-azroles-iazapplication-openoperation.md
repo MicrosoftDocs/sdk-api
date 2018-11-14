@@ -7,7 +7,7 @@ old-location: security\iazapplication_openoperation.htm
 tech.root: secauthz
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplication interface [Security],OpenOperation method, IAzApplication.OpenOperation, IAzApplication::OpenOperation, OpenOperation, OpenOperation method [Security], OpenOperation method [Security],AzApplication object, OpenOperation method [Security],IAzApplication interface, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.OpenOperation
+: 
 ---
 
 # IAzApplication::OpenOperation

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IShellItem2.GetFileTime
+: 
 ---
 
 # IShellItem2::GetFileTime

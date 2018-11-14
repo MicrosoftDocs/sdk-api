@@ -7,7 +7,7 @@ old-location: tapi3\ittapi2_createemptycollectionobject.htm
 tech.root: tapi
 ms.assetid: 0114c0d2-4582-4b44-8fb6-74e468828797
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 ms.keywords: CreateEmptyCollectionObject, CreateEmptyCollectionObject method [TAPI 2.2], CreateEmptyCollectionObject method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],CreateEmptyCollectionObject method, ITTAPI2.CreateEmptyCollectionObject, ITTAPI2::CreateEmptyCollectionObject, _tapi3_ittapi2_createemptycollectionobject, tapi3.ittapi2_createemptycollectionobject, tapi3if/ITTAPI2::CreateEmptyCollectionObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITTAPI2.CreateEmptyCollectionObject
+: 
 ---
 
 # ITTAPI2::CreateEmptyCollectionObject

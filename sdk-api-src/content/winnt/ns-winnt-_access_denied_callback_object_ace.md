@@ -7,10 +7,10 @@ old-location: security\access_denied_callback_object_ace.htm
 tech.root: secauthz
 ms.assetid: 945d9c3b-922f-481d-bb1d-3dca50fb9edb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PACCESS_DENIED_CALLBACK_OBJECT_ACE, 0, ACCESS_DENIED_CALLBACK_OBJECT_ACE, ACCESS_DENIED_CALLBACK_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_DENIED_CALLBACK_OBJECT_ACE, PACCESS_DENIED_CALLBACK_OBJECT_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_OBJECT_ACE, security.access_denied_callback_object_ace, winnt/ACCESS_DENIED_CALLBACK_OBJECT_ACE, winnt/PACCESS_DENIED_CALLBACK_OBJECT_ACE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

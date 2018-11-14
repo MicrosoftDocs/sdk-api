@@ -9,8 +9,8 @@ ms.assetid: 4f84586f-7384-4dd7-99ce-325fb609daae
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMTVAudioNotification, IAMTVAudioNotification interface [DirectShow], IAMTVAudioNotification interface [DirectShow],described, IAMTVAudioNotificationInterface, dshow.iamtvaudionotification, strmif/IAMTVAudioNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

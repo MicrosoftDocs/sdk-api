@@ -9,8 +9,8 @@ ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo, tagShellCommandInfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

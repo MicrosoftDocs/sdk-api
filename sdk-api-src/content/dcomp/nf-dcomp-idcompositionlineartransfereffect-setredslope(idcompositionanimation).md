@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionLinearTransferEffect.SetRedSlope
+: 
 ---
 
 # IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation)

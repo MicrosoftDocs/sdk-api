@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Set_Class_Property_ExW
+: 
 ---
 
 # CM_Set_Class_Property_ExW function

@@ -9,8 +9,8 @@ ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNEWCPLINFOW, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOW, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO, tagNEWCPLINFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cpl.h
 req.include-header: 

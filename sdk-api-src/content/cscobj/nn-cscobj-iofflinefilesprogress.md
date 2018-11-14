@@ -9,8 +9,8 @@ ms.assetid: b568a8c6-119b-486e-94e3-fe4e54a395bb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files],described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: base\getenabledxstatefeatures.htm
 tech.root: debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/13/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetEnabledXStateFeatures
+: 
 ---
 
 # GetEnabledXStateFeatures function

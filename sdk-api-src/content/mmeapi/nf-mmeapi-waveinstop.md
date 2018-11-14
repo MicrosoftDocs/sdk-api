@@ -7,7 +7,7 @@ old-location: multimedia\waveinstop.htm
 tech.root: Multimedia
 ms.assetid: c56085f9-256d-41e2-a3d5-7d17d42f0e57
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveInStop, mmeapi/waveInStop, multimedia.waveinstop, waveInStop, waveInStop function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveInStop
+: 
 ---
 
 # waveInStop function

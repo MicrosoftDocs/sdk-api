@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IComponent2.RestoreResultView
+: 
 ---
 
 # IComponent2::RestoreResultView
