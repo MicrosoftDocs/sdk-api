@@ -9,8 +9,8 @@ ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], _MFOffset, e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

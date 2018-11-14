@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertCreateCertificateChainEngine
+: 
 ---
 
 # CertCreateCertificateChainEngine function
@@ -96,7 +102,7 @@ The <i>phChainEngine</i> parameter returns the chain engine handle.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
 
 
 

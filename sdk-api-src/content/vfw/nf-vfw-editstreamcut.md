@@ -7,7 +7,7 @@ old-location: multimedia\editstreamcut.htm
 tech.root: Multimedia
 ms.assetid: 201f977c-926b-470c-b1ae-62946e6f691e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EditStreamCut
+: 
 ---
 
 # EditStreamCut function

@@ -9,8 +9,8 @@ ms.assetid: 830DB9FC-B2D0-46E5-B0C1-0BBC94D37050
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: HrtfDirectivity, HrtfDirectivity structure [XAudio2 Audio Mixing APIs], PHrtfDirectivity, PHrtfDirectivity structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivity, hrtfapoapi/PHrtfDirectivity, xaudio2.hrtfdirectivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 

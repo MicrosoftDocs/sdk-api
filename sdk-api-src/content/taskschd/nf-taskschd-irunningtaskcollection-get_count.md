@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IRunningTaskCollection.get_Count
+: 
 ---
 
 # IRunningTaskCollection::get_Count

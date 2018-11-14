@@ -9,8 +9,8 @@ ms.assetid: 18989598-86C5-4BD7-B8F4-27496897DFBA
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], IDeviceController interface [Media Streaming API],described, mediastreaming.idevicecontroller, windows/IDeviceController
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 

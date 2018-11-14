@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPMedia.get_markerCount
+: 
 ---
 
 # IWMPMedia::get_markerCount

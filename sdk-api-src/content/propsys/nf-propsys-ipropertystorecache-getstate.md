@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyStoreCache.GetState
+: 
 ---
 
 # IPropertyStoreCache::GetState
@@ -62,14 +70,14 @@ Gets the state of a specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
 
 
 ### -param pstate [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a>*</b>
+Type: <b><a href="shell.PSC_STATE">PSC_STATE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a> enumeration value.
+A pointer to a <a href="shell.PSC_STATE">PSC_STATE</a> enumeration value.
 
 
 ## -returns

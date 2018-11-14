@@ -9,8 +9,8 @@ ms.assetid: b1d94060-e822-447f-82ba-fd1cf2ddaa3b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: FIXED, FIXED structure [Windows GDI], _FIXED, _win32_FIXED_str, gdi.fixed, wingdi/FIXED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

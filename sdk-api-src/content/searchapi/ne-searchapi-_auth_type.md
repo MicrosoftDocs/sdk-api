@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\enums\auth_type.htm
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: AUTH_TYPE, AUTH_TYPE enumeration [search], _AUTH_TYPE, _search_AUTH_TYPE, eAUTH_TYPE_ANONYMOUS, eAUTH_TYPE_BASIC, eAUTH_TYPE_NTLM, search._search_AUTH_TYPE, searchapi/AUTH_TYPE, searchapi/eAUTH_TYPE_ANONYMOUS, searchapi/eAUTH_TYPE_BASIC, searchapi/eAUTH_TYPE_NTLM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

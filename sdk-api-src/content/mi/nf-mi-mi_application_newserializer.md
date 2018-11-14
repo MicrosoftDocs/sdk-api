@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
+- apiref
+: 
+- 
+: 
+- MI_Application_NewSerializer
+: 
 ---
 
 # MI_Application_NewSerializer function

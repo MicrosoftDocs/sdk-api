@@ -9,8 +9,8 @@ ms.assetid: 5329f725-e77e-49c2-87f5-f7204d022adc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],described, bdaiface/IBDA_GuideDataDeliveryService, mstv.ibda_guidedatadeliveryservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +55,9 @@ Retrieves out-of-band guide data from a media transform device (MTD). This inter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_GuideDataDeliveryService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_GuideDataDeliveryService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_GuideDataDeliveryService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_GuideDataDeliveryService</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IBDA_GuideDataDeliveryService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693369(v=VS.85).aspx">GetGuideData</a>
+<a href="https://msdn.microsoft.com/c261d20e-3760-4bf9-905b-f5620df4166b">GetGuideData</a>
 </td>
 <td align="left" width="63%">
 Gets the next set of guide data that is available.
@@ -79,7 +79,7 @@ Gets the next set of guide data that is available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693370(v=VS.85).aspx">GetGuideDataType</a>
+<a href="https://msdn.microsoft.com/74370ba8-2104-41f9-aa02-02b6790236da">GetGuideDataType</a>
 </td>
 <td align="left" width="63%">
 Gets the format UUID for the data that is being retrieved on this service.
@@ -88,7 +88,7 @@ Gets the format UUID for the data that is being retrieved on this service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693371(v=VS.85).aspx">GetServiceInfoFromTuneXml</a>
+<a href="https://msdn.microsoft.com/8084e4dd-a5d5-48a0-a052-24310a79df78">GetServiceInfoFromTuneXml</a>
 </td>
 <td align="left" width="63%">
 Gets service information from an XML tune request.
@@ -97,7 +97,7 @@ Gets service information from an XML tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693372(v=VS.85).aspx">GetServices</a>
+<a href="https://msdn.microsoft.com/82133fc5-0f42-4b24-abf6-bc46e72650ac">GetServices</a>
 </td>
 <td align="left" width="63%">
 Gets a list of services that are available on the the MTD.
@@ -106,7 +106,7 @@ Gets a list of services that are available on the the MTD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693373(v=VS.85).aspx">GetTuneXmlFromServiceIdx</a>
+<a href="https://msdn.microsoft.com/5f429473-6a48-4298-b8f4-61809604ffbd">GetTuneXmlFromServiceIdx</a>
 </td>
 <td align="left" width="63%">
 Converts a service identifier into an XML  tune request.
@@ -115,7 +115,7 @@ Converts a service identifier into an XML  tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693374(v=VS.85).aspx">RequestGuideDataUpdate</a>
+<a href="https://msdn.microsoft.com/e9aee857-237a-4bfd-85c2-3d5850f37ce7">RequestGuideDataUpdate</a>
 </td>
 <td align="left" width="63%">
 Requests updated guide data from the MTD.

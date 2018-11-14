@@ -9,8 +9,8 @@ ms.assetid: 4BBAB831-9A7F-407E-A7D6-9123192C12B4
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: "*PPERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER structure [Perf], PPERF_COUNTER_IDENTIFIER, PPERF_COUNTER_IDENTIFIER structure pointer [Perf], _PERF_COUNTER_IDENTIFIER, perf.perf_counter_identifier, perflib/PERF_COUNTER_IDENTIFIER, perflib/PPERF_COUNTER_IDENTIFIER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 

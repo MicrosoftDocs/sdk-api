@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcontainer.h
+: 
+- IMFASFMutualExclusion.SetType
+: 
 ---
 
 # IMFASFMutualExclusion::SetType

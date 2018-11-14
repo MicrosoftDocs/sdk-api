@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10sdklayers.h
+: 
+- ID3D10InfoQueue.ClearStoredMessages
+: 
 ---
 
 # ID3D10InfoQueue::ClearStoredMessages
@@ -74,7 +82,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

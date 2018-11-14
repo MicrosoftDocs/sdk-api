@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- textstor.h
+: 
+- ITextStoreACP.GetEmbedded
+: 
 ---
 
 # ITextStoreACP::GetEmbedded
@@ -78,7 +86,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object.
+The object should be obtained as an <a href="_ole_idataobject">IDataObject</a> object.
 
 </td>
 </tr>
@@ -88,7 +96,7 @@ The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/li
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible object</a>.
+The object should be obtained as an <a href="_msaa_accessible_objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -235,11 +243,11 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible Objects</a>
+<a href="_msaa_accessible_objects">Accessible Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

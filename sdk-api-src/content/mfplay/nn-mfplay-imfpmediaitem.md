@@ -9,8 +9,8 @@ ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfplay.h
 req.include-header: 

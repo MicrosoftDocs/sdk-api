@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StrFormatByteSize64A
+: 
 ---
 
 # StrFormatByteSize64A function

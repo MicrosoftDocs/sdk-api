@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- TabCtrl_SetPadding
+: 
 ---
 
 # TabCtrl_SetPadding macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760639(v=VS.85).aspx">TCM_SETPADDING</a> message explicitly. 
+Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/c7f84c0d-8bf4-429a-b403-a0019575e72e">TCM_SETPADDING</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Sets the amount of space (padding) around each tab's icon and label in a tab con
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

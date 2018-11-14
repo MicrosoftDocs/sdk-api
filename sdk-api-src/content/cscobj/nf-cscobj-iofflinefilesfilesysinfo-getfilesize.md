@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesFileSysInfo.GetFileSize
+: 
 ---
 
 # IOfflineFilesFileSysInfo::GetFileSize
@@ -61,7 +69,7 @@ Retrieves the size of an item.
 
 ### -param copy [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530646(v=VS.85).aspx">OFFLINEFILES_ITEM_COPY</a> enumeration value identifying which copy (local or remote) to retrieve the size of.
+An <a href="https://msdn.microsoft.com/b956f186-962b-457e-9c03-ffd1a7f937ca">OFFLINEFILES_ITEM_COPY</a> enumeration value identifying which copy (local or remote) to retrieve the size of.
 
 <b>Windows Vista:  </b>This value must be <b>OFFLINEFILES_ITEM_COPY_LOCAL</b>.
 
@@ -85,7 +93,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530568(v=VS.85).aspx">IOfflineFilesFileSysInfo</a>
+<a href="https://msdn.microsoft.com/d3da183d-eb12-4411-b461-b58689ef5bff">IOfflineFilesFileSysInfo</a>
  
 
  

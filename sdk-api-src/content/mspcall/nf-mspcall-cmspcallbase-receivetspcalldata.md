@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mspcall.h
+: 
+- CMSPCallBase.ReceiveTSPCallData
+: 
 ---
 
 # CMSPCallBase::ReceiveTSPCallData

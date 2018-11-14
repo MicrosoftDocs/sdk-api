@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tspubplugin2com.h
+: 
+- ItsPubPlugin2.ResolvePersonalDesktop
+: 
 ---
 
 # ItsPubPlugin2::ResolvePersonalDesktop

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodec.h
+: 
+- IWICDevelopRaw.SetGamma
+: 
 ---
 
 # IWICDevelopRaw::SetGamma

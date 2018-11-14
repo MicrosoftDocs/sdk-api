@@ -9,8 +9,8 @@ ms.assetid: E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio],described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

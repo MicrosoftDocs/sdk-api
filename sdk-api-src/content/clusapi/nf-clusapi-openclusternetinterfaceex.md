@@ -7,7 +7,7 @@ old-location: mscs\openclusternetinterfaceex.htm
 tech.root: mscs
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: OpenClusterNetInterfaceEx, OpenClusterNetInterfaceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX function [Failover Cluster], clusapi/OpenClusterNetInterfaceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, mscs.openclusternetinterfaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OpenClusterNetInterfaceEx
+: 
 ---
 
 # OpenClusterNetInterfaceEx function
@@ -51,7 +57,7 @@ req.redist:
 
 
 Opens a handle to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>.
+    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
 
 
 ## -parameters
@@ -61,7 +67,7 @@ Opens a handle to a
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszInterfaceName [in, optional]
@@ -106,7 +112,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371724(v=VS.85).aspx">Network Interface Management Functions</a>
+<a href="https://msdn.microsoft.com/63602522-6425-4c3f-b80f-32ee2c3d6469">Network Interface Management Functions</a>
 
 
 

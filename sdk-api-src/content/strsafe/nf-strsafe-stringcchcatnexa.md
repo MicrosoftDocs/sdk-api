@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringCchCatNExA
+: 
 ---
 
 # StringCchCatNExA function
@@ -54,7 +60,7 @@ req.redist:
 
 Concatenates the specified number of characters from one  string to another string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchCatNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCchCatNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/516b67f9-ab6e-4c23-b04a-01848de09115">StringCchCatN</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchCatNEx</b> is a replacement for the following functions:
 <ul>
@@ -283,15 +289,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
+<a href="https://msdn.microsoft.com/ad1cad70-c548-4b2f-b253-b0af5000df08">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>
+<a href="https://msdn.microsoft.com/3b829dfa-6ede-47bd-b4d7-fcbf94a26c50">StringCchCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
+<a href="https://msdn.microsoft.com/516b67f9-ab6e-4c23-b04a-01848de09115">StringCchCatN</a>
  
 
  

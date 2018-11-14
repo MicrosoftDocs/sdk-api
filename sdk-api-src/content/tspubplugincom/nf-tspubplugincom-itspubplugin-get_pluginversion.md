@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tspubplugincom.h
+: 
+- ItsPubPlugin.get_pluginVersion
+: 
 ---
 
 # ItsPubPlugin::get_pluginVersion

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeleteUrlCacheGroup
+: 
 ---
 
 # DeleteUrlCacheGroup function
@@ -66,7 +72,7 @@ ID of the cache group to be released.
 ### -param dwFlags [in]
 
 Controls the cache group deletion. This can be set to 
-any member of the <a href="https://msdn.microsoft.com/9ca2069e-497d-4747-acf4-d5b8020b8ab7">cache group constants</a>. When this parameter is set to <a href="https://msdn.microsoft.com/en-us/library/Aa383923(v=VS.85).aspx">CACHEGROUP_FLAG_FLUSHURL_ONDELETE</a>, it causes 
+any member of the <a href="https://msdn.microsoft.com/9ca2069e-497d-4747-acf4-d5b8020b8ab7">cache group constants</a>. When this parameter is set to <a href="cache_group_constants.htm">CACHEGROUP_FLAG_FLUSHURL_ONDELETE</a>, it causes 
 <b>DeleteUrlCacheGroup</b> to delete all of the cache entries associated with this group, unless the entry belongs to another group.
 
 

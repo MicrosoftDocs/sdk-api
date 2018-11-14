@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportServicePolicy.get_EndIpAddress
+: 
 ---
 
 # IWdsTransportServicePolicy::get_EndIpAddress

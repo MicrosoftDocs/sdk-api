@@ -9,8 +9,8 @@ ms.assetid: f4c036ac-13fb-47be-8ad8-32c65caf0a2a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL enumeration, VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, VSS_PROTECTION_LEVEL_SNAPSHOT, _VSS_PROTECTION_LEVEL, base.vss_protection_level, vsmgmt/VSS_PROTECTION_LEVEL, vsmgmt/VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, vsmgmt/VSS_PROTECTION_LEVEL_SNAPSHOT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vsmgmt.h
 req.include-header: 

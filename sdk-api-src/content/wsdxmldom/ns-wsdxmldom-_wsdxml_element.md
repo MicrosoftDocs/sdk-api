@@ -9,8 +9,8 @@ ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WSDXML_ELEMENT, WSDXML_ELEMENT structure, _WSDXML_ELEMENT, ncd.wsdxml_element_struct, wsdxmldom/WSDXML_ELEMENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

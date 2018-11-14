@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iads.h
+: 
+- IADsContainer.MoveHere
+: 
 ---
 
 # IADsContainer::MoveHere
@@ -90,7 +98,7 @@ The null-terminated Unicode string that specifies the <b>ADsPath</b> of the obje
 #### - ppbstrNewObject [out]
 
 Pointer to a pointer to the 
-     <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the moved
+     <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the moved
     object.
 
 
@@ -332,7 +340,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

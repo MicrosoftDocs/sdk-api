@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509Attribute.get_RawData
+: 
 ---
 
 # IX509Attribute::get_RawData
@@ -63,7 +71,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377118(v=VS.85).aspx">Initialize</a> method to specify the property value.
+Call the <a href="https://msdn.microsoft.com/82457ca3-4aae-4f47-950c-1146c8614a5b">Initialize</a> method to specify the property value.
 
 
 
@@ -73,15 +81,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377118(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

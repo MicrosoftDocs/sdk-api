@@ -9,8 +9,8 @@ ms.assetid: 369301BB-2B3E-43B2-A379-BFA03712A529
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_TEX2D_ARRAY_UAV1, D3D11_TEX2D_ARRAY_UAV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_ARRAY_UAV1, direct3d11.d3d11_tex2d_array_uav1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
@@ -83,7 +83,7 @@ The index (plane slice number) of the plane to use in an array of textures.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

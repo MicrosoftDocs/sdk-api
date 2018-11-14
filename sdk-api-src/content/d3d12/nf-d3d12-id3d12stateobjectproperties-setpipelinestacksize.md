@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12stateobjectproperties_setpipelinestacksize.htm
 tech.root: direct3d12
 ms.assetid: 0BB69DBB-F8A1-4C32-AE82-3A49E2E0E4B3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12StateObjectProperties interface,SetPipelineStackSize method, ID3D12StateObjectProperties.SetPipelineStackSize, ID3D12StateObjectProperties::SetPipelineStackSize, SetPipelineStackSize, SetPipelineStackSize method, SetPipelineStackSize method,ID3D12StateObjectProperties interface, d3d12/ID3D12StateObjectProperties::SetPipelineStackSize, direct3d12.id3d12stateobjectproperties_setpipelinestacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12StateObjectProperties.SetPipelineStackSize
+: 
 ---
 
 # ID3D12StateObjectProperties::SetPipelineStackSize

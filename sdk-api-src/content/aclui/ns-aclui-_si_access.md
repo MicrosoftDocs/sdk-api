@@ -4,13 +4,13 @@ title: "_SI_ACCESS"
 author: windows-sdk-content
 description: Contains information about an access right or default access mask for a securable object.
 old-location: security\si_access.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9c9b14da-a030-4f90-b090-d6de10507eb2
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSI_ACCESS, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_ACCESS, PSI_ACCESS structure pointer [Security], SI_ACCESS, SI_ACCESS structure [Security], SI_ACCESS_CONTAINER, SI_ACCESS_GENERAL, SI_ACCESS_PROPERTY, SI_ACCESS_SPECIFIC, _SI_ACCESS, _win32_si_access_str, aclui/PSI_ACCESS, aclui/SI_ACCESS, security.si_access"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 
@@ -83,7 +83,7 @@ A pointer to a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
+<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro. Use the 
 <a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 

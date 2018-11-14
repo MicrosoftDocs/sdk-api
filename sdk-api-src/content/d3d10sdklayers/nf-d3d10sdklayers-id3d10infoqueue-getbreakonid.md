@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10sdklayers.h
+: 
+- ID3D10InfoQueue.GetBreakOnID
+: 
 ---
 
 # ID3D10InfoQueue::GetBreakOnID
@@ -60,9 +68,9 @@ Get a message identifier to break on when a message with that identifier passes 
 
 ### -param ID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c5c07158-d102-4064-94e7-eecf8b60ac98">D3D10_MESSAGE_ID</a></b>
 
-Message identifier to break on (see <a href="https://msdn.microsoft.com/en-us/library/Bb205324(v=VS.85).aspx">D3D10_MESSAGE_ID</a>).
+Message identifier to break on (see <a href="https://msdn.microsoft.com/c5c07158-d102-4064-94e7-eecf8b60ac98">D3D10_MESSAGE_ID</a>).
 
 
 ## -returns
@@ -81,7 +89,7 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: b7abfe1e-d9e6-4583-a738-c16190ffd44d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PTRUSTED_DOMAIN_FULL_INFORMATION, PTRUSTED_DOMAIN_FULL_INFORMATION, PTRUSTED_DOMAIN_FULL_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_FULL_INFORMATION, TRUSTED_DOMAIN_FULL_INFORMATION structure [Security], _TRUSTED_DOMAIN_FULL_INFORMATION, _lsa_trusted_domain_full_information, ntsecapi/PTRUSTED_DOMAIN_FULL_INFORMATION, ntsecapi/TRUSTED_DOMAIN_FULL_INFORMATION, security.trusted_domain_full_information"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

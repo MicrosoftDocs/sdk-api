@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFTEnum2
+: 
 ---
 
 # MFTEnum2 function

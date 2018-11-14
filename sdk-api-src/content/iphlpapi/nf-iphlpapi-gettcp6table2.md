@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetTcp6Table2
+: 
 ---
 
 # GetTcp6Table2 function

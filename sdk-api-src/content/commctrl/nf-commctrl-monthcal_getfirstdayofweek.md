@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- MonthCal_GetFirstDayOfWeek
+: 
 ---
 
 # MonthCal_GetFirstDayOfWeek macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760958(v=VS.85).aspx">MCM_GETFIRSTDAYOFWEEK</a> message explicitly. 
+Retrieves the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/bbbc1c45-5693-4a79-908a-ec6e8ef8b218">MCM_GETFIRSTDAYOFWEEK</a> message explicitly. 
 
 
 ## -parameters

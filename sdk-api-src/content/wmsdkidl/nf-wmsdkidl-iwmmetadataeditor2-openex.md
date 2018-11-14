@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMMetadataEditor2.OpenEx
+: 
 ---
 
 # IWMMetadataEditor2::OpenEx

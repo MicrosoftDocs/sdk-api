@@ -9,8 +9,8 @@ ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs],described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

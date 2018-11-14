@@ -9,8 +9,8 @@ ms.assetid: 41dca573-a73d-430c-9bd3-083e72aecbdc
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PMACHINE_POWER_POLICY, MACHINE_POWER_POLICY, MACHINE_POWER_POLICY structure, PMACHINE_POWER_POLICY, PMACHINE_POWER_POLICY structure pointer, _MACHINE_POWER_POLICY, _win32_machine_power_policy_str, base.machine_power_policy_str, powrprof/MACHINE_POWER_POLICY, powrprof/PMACHINE_POWER_POLICY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

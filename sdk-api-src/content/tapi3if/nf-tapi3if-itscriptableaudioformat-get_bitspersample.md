@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITScriptableAudioFormat.get_BitsPerSample
+: 
 ---
 
 # ITScriptableAudioFormat::get_BitsPerSample
@@ -52,7 +60,7 @@ req.redist:
 
 The 
 <b>get_BitsPerSample</b> method returns the value for the <b>wBitsPerSample</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +71,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value of the <b>wBitsPerSample</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

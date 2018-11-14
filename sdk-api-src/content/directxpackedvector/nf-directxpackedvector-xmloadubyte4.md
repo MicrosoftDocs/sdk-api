@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMLoadUByte4
+: 
 ---
 
 # XMLoadUByte4 function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/210300b6-9bf2-4ac4-94e3-b2df2d228365">XMUBYTE4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +66,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/210300b6-9bf2-4ac4-94e3-b2df2d228365">XMUBYTE4</a> structure to load. 
 
 
 ## -returns

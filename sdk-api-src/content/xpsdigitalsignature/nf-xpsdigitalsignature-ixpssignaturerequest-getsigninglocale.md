@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsdigitalsignature.h
+: 
+- IXpsSignatureRequest.GetSigningLocale
+: 
 ---
 
 # IXpsSignatureRequest::GetSigningLocale
@@ -117,7 +125,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>place</i>.  If <i>place</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>place</i>.  If <i>place</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSrvBackupFree
+: 
 ---
 
 # CertSrvBackupFree function
@@ -80,19 +86,19 @@ Call this function when finished with memory allocated by using the following fu
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a>
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376582(v=VS.85).aspx">CertSrvBackupGetDatabaseNames</a>
+<a href="https://msdn.microsoft.com/5e62be79-693a-4543-8d83-262f00686c99">CertSrvBackupGetDatabaseNames</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376583(v=VS.85).aspx">CertSrvBackupGetDynamicFileList</a>
+<a href="https://msdn.microsoft.com/ff60b705-5ac6-4e61-9b88-9ffc2dc9adce">CertSrvBackupGetDynamicFileList</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377021(v=VS.85).aspx">CertSrvServerControl</a>
+<a href="https://msdn.microsoft.com/6f32e7f4-60d5-4370-b240-46aa2475e279">CertSrvServerControl</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377003(v=VS.85).aspx">CertSrvRestoreGetDatabaseLocations</a>
+<a href="https://msdn.microsoft.com/02355bd7-6788-4c32-940e-b89e47619aa0">CertSrvRestoreGetDatabaseLocations</a>
 </li>
 </ul>
 
@@ -137,27 +143,27 @@ pfnBackupFree(pBuff);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a>
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376582(v=VS.85).aspx">CertSrvBackupGetDatabaseNames</a>
+<a href="https://msdn.microsoft.com/5e62be79-693a-4543-8d83-262f00686c99">CertSrvBackupGetDatabaseNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376583(v=VS.85).aspx">CertSrvBackupGetDynamicFileList</a>
+<a href="https://msdn.microsoft.com/ff60b705-5ac6-4e61-9b88-9ffc2dc9adce">CertSrvBackupGetDynamicFileList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377003(v=VS.85).aspx">CertSrvRestoreGetDatabaseLocations</a>
+<a href="https://msdn.microsoft.com/02355bd7-6788-4c32-940e-b89e47619aa0">CertSrvRestoreGetDatabaseLocations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377021(v=VS.85).aspx">CertSrvServerControl</a>
+<a href="https://msdn.microsoft.com/6f32e7f4-60d5-4370-b240-46aa2475e279">CertSrvServerControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

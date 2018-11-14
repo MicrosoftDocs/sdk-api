@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WinUsb_GetPipePolicy
+: 
 ---
 
 # WinUsb_GetPipePolicy function

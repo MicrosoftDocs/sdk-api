@@ -9,8 +9,8 @@ ms.assetid: 695e5581-00df-49af-8abe-1dd1b25cb215
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: AsnObjectIdentifier, AsnObjectIdentifier structure [SNMP], AsnObjectName, _snmp_asnobjectidentifier_str, snmp.asnobjectidentifier_str, snmp/AsnObjectIdentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: snmp.h
 req.include-header: 

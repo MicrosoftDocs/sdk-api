@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarMgr.UnadviseEventSink
+: 
 ---
 
 # ITfLangBarMgr::UnadviseEventSink
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param dwCookie [in]
 
-A DWORD value that identifies the advise event sink to uninstall. This value is provided by a previous call to <a href="https://msdn.microsoft.com/en-us/library/ms628750(v=VS.85).aspx">ITfLangBarMgr::AdviseEventSink</a>.
+A DWORD value that identifies the advise event sink to uninstall. This value is provided by a previous call to <a href="https://msdn.microsoft.com/8ac607fd-b2c4-4441-8738-c64c25b6c586">ITfLangBarMgr::AdviseEventSink</a>.
 
 
 ## -returns
@@ -106,7 +114,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
 
 
 
@@ -115,7 +123,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629195(v=VS.85).aspx">Thread Manager</a>
+<a href="https://msdn.microsoft.com/fd43b4c3-80bb-4118-a880-bdea07022c95">Thread Manager</a>
  
 
  

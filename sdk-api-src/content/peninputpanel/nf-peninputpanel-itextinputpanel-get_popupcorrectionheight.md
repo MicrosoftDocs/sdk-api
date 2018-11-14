@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- peninputpanel.h
+: 
+- ITextInputPanel.get_PopUpCorrectionHeight
+: 
 ---
 
 # ITextInputPanel::get_PopUpCorrectionHeight

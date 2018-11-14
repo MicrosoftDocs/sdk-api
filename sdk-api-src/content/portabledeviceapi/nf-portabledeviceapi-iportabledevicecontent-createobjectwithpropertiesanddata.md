@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- portabledeviceapi.h
+: 
+- IPortableDeviceContent.CreateObjectWithPropertiesAndData
+: 
 ---
 
 # IPortableDeviceContent::CreateObjectWithPropertiesAndData
@@ -151,7 +159,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

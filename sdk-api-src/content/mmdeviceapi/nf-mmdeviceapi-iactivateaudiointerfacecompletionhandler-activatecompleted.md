@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmdeviceapi.h
+: 
+- IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+: 
 ---
 
 # IActivateAudioInterfaceCompletionHandler::ActivateCompleted

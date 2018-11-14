@@ -9,8 +9,8 @@ ms.assetid: 54875162-65fe-4959-b567-38c17ba2894d
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], IWMProfileManagerLanguage interface [windows Media Format],described, IWMProfileManagerLanguageInterface, wmformat.iwmprofilemanagerlanguage, wmsdkidl/IWMProfileManagerLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

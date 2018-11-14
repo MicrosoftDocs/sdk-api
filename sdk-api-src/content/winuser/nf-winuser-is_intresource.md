@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- IS_INTRESOURCE
+: 
 ---
 
 # IS_INTRESOURCE macro
@@ -77,7 +85,7 @@ This macro checks whether all bits except the least 16 bits are zero. When true,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources Overview</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources Overview</a>
  
 
  

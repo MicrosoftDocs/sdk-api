@@ -9,8 +9,8 @@ ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation],described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

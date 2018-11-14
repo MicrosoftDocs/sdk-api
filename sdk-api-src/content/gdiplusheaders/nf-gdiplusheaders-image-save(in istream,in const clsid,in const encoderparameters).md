@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.Save
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -118,11 +126,15 @@ image.Save(myStream, ...); // Do not do this.</code></pre>
 #### Examples
 
 The following example creates two 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> objects: one constructed from a JPEG file and one constructed from a PNG file. The code creates a compound file with two streams and saves the two images to those streams.
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> objects: one constructed from a JPEG file and one constructed from a PNG file. The code creates a compound file with two streams and saves the two images to those streams.
 
-
-```cpp
-Status MakeCompoundFile()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Status MakeCompoundFile()
 {
    IStorage* pIStorage = NULL;
    IStream* pIStream1 = NULL;
@@ -144,65 +156,65 @@ Status MakeCompoundFile()
       L"CompoundFile.cmp", 
       STGM_READWRITE|STGM_CREATE|STGM_SHARE_EXCLUSIVE, 
       0, 
-      &pIStorage);
+      &amp;pIStorage);
 
    if(FAILED(hr))
       goto Exit;
 
    // Create a stream in the compound file.
-   hr = pIStorage->CreateStream(
+   hr = pIStorage-&gt;CreateStream(
       L"StreamImage1",
       STGM_READWRITE|STGM_SHARE_EXCLUSIVE,
       0,
       0,
-      &pIStream1);
+      &amp;pIStream1);
 
    if(FAILED(hr))
       goto Exit;
 
    // Create a second stream in the compound file.
-   hr = pIStorage->CreateStream(
+   hr = pIStorage-&gt;CreateStream(
       L"StreamImage2",
       STGM_READWRITE|STGM_SHARE_EXCLUSIVE,
       0,
       0,
-      &pIStream2);
+      &amp;pIStream2);
 
    if(FAILED(hr))
       goto Exit;
 
    // Get the class identifier for the JPEG encoder.
    CLSID jpgClsid;
-   GetEncoderClsid(L"image/jpeg", &jpgClsid);
+   GetEncoderClsid(L"image/jpeg", &amp;jpgClsid);
 
    // Get the class identifier for the PNG encoder.
    CLSID pngClsid;
-   GetEncoderClsid(L"image/png", &pngClsid);
+   GetEncoderClsid(L"image/png", &amp;pngClsid);
 
    // Save image1 as a stream in the compound file.
-   stat = image1.Save(pIStream1, &jpgClsid);
+   stat = image1.Save(pIStream1, &amp;jpgClsid);
    if(stat != Ok)
       goto Exit;
 
    // Save image2 as a stream in the compound file.
-   stat = image2.Save(pIStream2, &pngClsid);
+   stat = image2.Save(pIStream2, &amp;pngClsid);
 
 Exit:
    if(pIStream1)
-      pIStream1->Release(); 
+      pIStream1-&gt;Release(); 
    if(pIStream2)
-      pIStream2->Release();
+      pIStream2-&gt;Release();
    if(pIStorage)
-      pIStorage->Release();
+      pIStorage-&gt;Release();
 
    if(stat != Ok || FAILED(hr))
       return GenericError;
 
    return Ok;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -227,7 +239,7 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 

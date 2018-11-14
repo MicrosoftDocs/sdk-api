@@ -9,8 +9,8 @@ ms.assetid: 75f76d85-39f6-4a2c-8b5f-1238639a2014
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMSIPATCHSEQUENCEINFOW, MSIPATCHSEQUENCEINFO, MSIPATCHSEQUENCEINFO structure, MSIPATCHSEQUENCEINFOA, MSIPATCHSEQUENCEINFOW, MSIPATCH_DATATYPE_PATCHFILE, MSIPATCH_DATATYPE_XMLBLOB, MSIPATCH_DATATYPE_XMLPATH, PMSIPATCHSEQUENCEINFO, PMSIPATCHSEQUENCEINFO structure pointer, msi/MSIPATCHSEQUENCEINFO, msi/MSIPATCHSEQUENCEINFOA, msi/MSIPATCHSEQUENCEINFOW, msi/PMSIPATCHSEQUENCEINFO, setup.msipatchsequenceinfo, tagMSIPATCHSEQUENCEINFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msi.h
 req.include-header: 

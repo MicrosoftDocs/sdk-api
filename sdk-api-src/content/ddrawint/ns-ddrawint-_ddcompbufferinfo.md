@@ -9,8 +9,8 @@ ms.assetid: 73dad759-499f-45b2-9345-4577deb01492
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPDDCOMPBUFFERINFO, DDCOMPBUFFERINFO, DDCOMPBUFFERINFO structure [Display Devices], LPDDCOMPBUFFERINFO, LPDDCOMPBUFFERINFO structure pointer [Display Devices], _DDCOMPBUFFERINFO, ddrawint/DDCOMPBUFFERINFO, ddrawint/LPDDCOMPBUFFERINFO, ddstrcts_b9871578-f3de-49fb-95f3-2668598e575a.xml, display.ddcompbufferinfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

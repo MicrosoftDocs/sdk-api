@@ -9,8 +9,8 @@ ms.assetid: d89efffd-ccda-4d55-8419-de142b0f9652
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteFontFileEnumerator, IDWriteFontFileEnumerator interface [Direct Write], IDWriteFontFileEnumerator interface [Direct Write],described, directwrite.IDWriteFontFileEnumerator, dwrite/IDWriteFontFileEnumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

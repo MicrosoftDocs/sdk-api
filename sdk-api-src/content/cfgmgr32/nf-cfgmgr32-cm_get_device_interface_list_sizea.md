@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Device_Interface_List_SizeA
+: 
 ---
 
 # CM_Get_Device_Interface_List_SizeA function
@@ -81,7 +87,7 @@ Supplies a GUID that identifies a
 ### -param pDeviceID [in, optional]
 
 Caller-supplied pointer to a NULL-terminated string that represents a 
-           <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If specified, the 
+           <a href="devinst.device_instance_ids">device instance ID</a>. If specified, the 
            function retrieves the length of symbolic link names for the device interfaces that are supported by the 
            device, for the specified class. If this value is <b>NULL</b>, or if it points to a 
            zero-length string, the function retrieves the length of symbolic link names for all interfaces that belong 

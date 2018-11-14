@@ -9,8 +9,8 @@ ms.assetid: 79472021-ee12-45dd-a943-3908c9e06cde
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteGdiInterop, IDWriteGdiInterop interface [Direct Write], IDWriteGdiInterop interface [Direct Write],described, directwrite.IDWriteGdiInterop, dwrite/IDWriteGdiInterop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

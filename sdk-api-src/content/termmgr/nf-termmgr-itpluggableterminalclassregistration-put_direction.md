@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITPluggableTerminalClassRegistration.put_Direction
+: 
 ---
 
 # ITPluggableTerminalClassRegistration::put_Direction

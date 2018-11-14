@@ -4,10 +4,10 @@ title: IAzApplicationGroup::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplicationGroup object, DeletePropertyItem method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeletePropertyItem method, IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup.DeletePropertyItem
+: 
 ---
 
 # IAzApplicationGroup::DeletePropertyItem
@@ -74,7 +82,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa377306(v=VS.85).aspx">DeleteAppMember</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/856d9b18-927a-462a-b238-78b704bcc58b">DeleteAppMember</a> method
 
 </td>
 </tr>
@@ -84,7 +92,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa377307(v=VS.85).aspx">DeleteAppNonMember</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c">DeleteAppNonMember</a> method
 
 </td>
 </tr>
@@ -94,7 +102,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa377308(v=VS.85).aspx">DeleteMember</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/9db3b162-b37d-4a86-a3c0-cb594370238b">DeleteMember</a> method
 
 </td>
 </tr>
@@ -104,7 +112,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa377309(v=VS.85).aspx">DeleteMemberName</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/3b3a8aee-b1ef-464a-9b67-80b703d41d69">DeleteMemberName</a> method
 
 </td>
 </tr>
@@ -114,7 +122,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa377310(v=VS.85).aspx">DeleteNonMember</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/05d58f62-fa34-4829-a535-65ea0f5144ab">DeleteNonMember</a> method
 
 </td>
 </tr>
@@ -124,7 +132,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa377311(v=VS.85).aspx">DeleteNonMemberName</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/8011e55a-1e62-45a6-a91c-07a488384d84">DeleteNonMemberName</a> method
 
 </td>
 </tr>
@@ -138,7 +146,7 @@ The entity to remove from the list  specified by the <i>lPropId</i> parameter.
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_GROUP_MEMBERS_NAME or AZ_PROP_GROUP_NON_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). If AZ_PROP_GROUP_APP_MEMBERS or AZ_PROP_GROUP_APP_NON_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://msdn.microsoft.com/en-us/library/Aa377318(v=VS.85).aspx">Name</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to remove from the list.
+If AZ_PROP_GROUP_MEMBERS_NAME or AZ_PROP_GROUP_NON_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). If AZ_PROP_GROUP_APP_MEMBERS or AZ_PROP_GROUP_APP_NON_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a> property of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to remove from the list.
 
 
 ### -param varReserved [in, optional]

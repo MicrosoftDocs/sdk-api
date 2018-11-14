@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizerContext.put_PrefixText
+: 
 ---
 
 # IInkRecognizerContext::put_PrefixText

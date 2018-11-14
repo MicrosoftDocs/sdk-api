@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- IEnumCall.Clone
+: 
 ---
 
 # IEnumCall::Clone
@@ -130,8 +138,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/418c1005-98f0-406f-a85c-c08adb269b9f">IEnumCall</a> interface returned by <b>IEnumCall::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/418c1005-98f0-406f-a85c-c08adb269b9f">IEnumCall</a> interface returned by <b>IEnumCall::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumCall</b> interface to free resources associated with it.
 
 

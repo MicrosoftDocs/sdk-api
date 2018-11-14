@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SHGetFolderPathA
+: 
 ---
 
 # SHGetFolderPathA function

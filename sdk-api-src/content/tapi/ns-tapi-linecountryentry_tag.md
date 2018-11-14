@@ -9,8 +9,8 @@ ms.assetid: 627ff743-f90b-4bcb-b646-cdbc9f768ad2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPLINECOUNTRYENTRY, LINECOUNTRYENTRY, LINECOUNTRYENTRY structure [TAPI 2.2], LPLINECOUNTRYENTRY, LPLINECOUNTRYENTRY structure pointer [TAPI 2.2], _tapi2_linecountryentry_str, linecountryentry_tag, tapi/LINECOUNTRYENTRY, tapi/LPLINECOUNTRYENTRY, tapi2.linecountryentry_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

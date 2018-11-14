@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
+: 
 ---
 
 # IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> object that represents the related property.
+Retrieves an <a href="shell.IPropertyDescription">IPropertyDescription</a> object that represents the related property.
 
 
 ## -parameters
@@ -76,7 +84,7 @@ A reference to the IID of the interface to retrieve through the <i>ppv</i> param
 
 Type: <b>void**</b>
 
-Receives the interface pointer requested in the parameter. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>.
+Receives the interface pointer requested in the parameter. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>.
 
 
 ## -returns
@@ -104,7 +112,7 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd378276(v=VS.85).aspx">IPropertyDescriptionRelatedPropertyInfo</a>
+<a href="shell.IPropertyDescriptionRelatedPropertyInfo">IPropertyDescriptionRelatedPropertyInfo</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: e6cf4d82-8820-40d5-924a-e4270252807d
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_DestinationOptionsFT, MI_DestinationOptionsFT structure [Windows Management Infrastructure (MI)], _MI_DestinationOptionsFT, mi/MI_DestinationOptionsFT, wmi_v2.mi_destinationoptionsft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

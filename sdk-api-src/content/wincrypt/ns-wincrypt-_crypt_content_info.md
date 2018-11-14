@@ -9,8 +9,8 @@ ms.assetid: 033de6e3-c860-4f41-902b-79f528f5736b
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO structure [Security], PCRYPT_CONTENT_INFO, PCRYPT_CONTENT_INFO structure pointer [Security], _CRYPT_CONTENT_INFO, _crypto2_crypt_content_info, security.crypt_content_info, wincrypt/CRYPT_CONTENT_INFO, wincrypt/PCRYPT_CONTENT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

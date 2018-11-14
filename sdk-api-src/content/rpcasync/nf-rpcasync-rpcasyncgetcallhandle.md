@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- rpcasync.h
+: 
+- RpcAsyncGetCallHandle
+: 
 ---
 
 # RpcAsyncGetCallHandle macro

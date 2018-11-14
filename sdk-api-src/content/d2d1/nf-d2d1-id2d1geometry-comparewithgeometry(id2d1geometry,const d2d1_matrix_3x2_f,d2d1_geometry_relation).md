@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ptr_D
 tech.root: direct2d
 ms.assetid: 49887b1a-24ca-4c1c-8c70-b53a995028fd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CompareWithGeometry, CompareWithGeometry method [Direct2D], CompareWithGeometry method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],CompareWithGeometry method, ID2D1Geometry.CompareWithGeometry, ID2D1Geometry.CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F,D2D1_GEOMETRY_RELATION), ID2D1Geometry::CompareWithGeometry, ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F,D2D1_GEOMETRY_RELATION), d2d1/ID2D1Geometry::CompareWithGeometry, direct2d.ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ptr_D2D_MATRIX_3X2_F_ptr_D2D1_GEOMETRY_RELATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Geometry.CompareWithGeometry
+: 
 ---
 
 # ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F,D2D1_GEOMETRY_RELATION)

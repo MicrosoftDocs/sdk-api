@@ -9,8 +9,8 @@ ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], _DXVA2_DecodeExtensionData, dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

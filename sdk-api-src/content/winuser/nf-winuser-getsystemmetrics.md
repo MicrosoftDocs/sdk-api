@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemMetrics
+: 
 ---
 
 # GetSystemMetrics function
@@ -303,7 +309,7 @@ The width of the thumb box in a horizontal scroll bar, in pixels.
 </td>
 <td width="60%">
 The default width of an icon, in pixels. The 
-       <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
+       <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
 
 </td>
 </tr>
@@ -339,7 +345,7 @@ The default width, in pixels, of a maximized top-level window on the primary dis
 The default maximum width of a window that has a caption and sizing borders, in pixels. This metric
        refers to the entire desktop. The user cannot drag the window frame to a size larger than these dimensions. A
        window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -409,7 +415,7 @@ The width of a grid cell for a minimized window, in pixels. Each minimized windo
 <td width="60%">
 The minimum tracking width of a window, in pixels. The user cannot drag the window frame to a size
        smaller than these dimensions. A window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -675,7 +681,7 @@ The height of a horizontal scroll bar, in
 </td>
 <td width="60%">
 The default height of an icon, in pixels. The 
-       <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function can load only icons with the
+       <a href="_win32_loadicon_cpp">LoadIcon</a> function can load only icons with the
        dimensions SM_CXICON and SM_CYICON.
 
 </td>
@@ -724,7 +730,7 @@ The default height, in pixels, of a maximized top-level window on the primary di
 The default maximum height of a window that has a caption and sizing borders, in pixels. This metric
        refers to the entire desktop. The user cannot drag the window frame to a size larger than these dimensions. A
        window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -805,7 +811,7 @@ The height of a grid cell for a minimized window, in pixels. Each minimized wind
 <td width="60%">
 The minimum tracking height of a window, in pixels. The user cannot drag the window frame to a size
        smaller than these dimensions. A window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>

@@ -9,8 +9,8 @@ ms.assetid: 438b5637-d711-419a-a163-a9b014bf0662
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PPKU2U_CERTIFICATE_S4U_LOGON, PKU2U_CERTIFICATE_S4U_LOGON, PKU2U_CERTIFICATE_S4U_LOGON structure [Security], PPKU2U_CERTIFICATE_S4U_LOGON, PPKU2U_CERTIFICATE_S4U_LOGON structure pointer [Security], _PKU2U_CERTIFICATE_S4U_LOGON, ntsecapi/PKU2U_CERTIFICATE_S4U_LOGON, ntsecapi/PPKU2U_CERTIFICATE_S4U_LOGON, security.pku2u_certificate_s4u_logon"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

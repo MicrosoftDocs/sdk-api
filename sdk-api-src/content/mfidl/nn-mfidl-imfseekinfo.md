@@ -9,8 +9,8 @@ ms.assetid: 5B1AD3A1-D5ED-4F9D-A895-0312E6EB3072
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo interface [Media Foundation],described, mf.imfseekinfo, mfidl/IMFSeekInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

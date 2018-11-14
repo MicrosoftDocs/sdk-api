@@ -9,8 +9,8 @@ ms.assetid: CA38504A-1CC9-4ABA-BD4E-1B2EAD6F588B
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PIP_ADAPTER_GATEWAY_ADDRESS, *PIP_ADAPTER_GATEWAY_ADDRESS_LH, IP_ADAPTER_GATEWAY_ADDRESS, IP_ADAPTER_GATEWAY_ADDRESS structure [IP Helper], IP_ADAPTER_GATEWAY_ADDRESS_LH, PIP_ADAPTER_GATEWAY_ADDRESS, PIP_ADAPTER_GATEWAY_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_GATEWAY_ADDRESS_LH, iphlp.ip_adapter_gateway_address, iptypes/IP_ADAPTER_GATEWAY_ADDRESS, iptypes/PIP_ADAPTER_GATEWAY_ADDRESS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

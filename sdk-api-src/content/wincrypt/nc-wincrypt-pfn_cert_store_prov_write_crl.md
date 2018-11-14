@@ -9,8 +9,8 @@ ms.assetid: ba259770-4462-4d1e-bd60-8572612fe032
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CertStoreProvWriteCRLCallback, PFN_CERT_STORE_PROV_WRITE_CRL, PFN_CERT_STORE_PROV_WRITE_CRL callback, PFN_CERT_STORE_PROV_WRITE_CRL callback function [Security], _crypto2_certstoreprovwritecrlcallback, security.certstoreprovwritecrlcallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CRL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -112,7 +112,7 @@ Returns <b>TRUE</b> if it is okay to update the store.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

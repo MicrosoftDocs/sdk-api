@@ -9,8 +9,8 @@ ms.assetid: 1c1a20fc-c101-4cbc-a7a6-30613aa387d7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPersistStorage, IPersistStorage interface [COM], IPersistStorage interface [COM],described, _com_ipersiststorage, com.ipersiststorage, objidl/IPersistStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

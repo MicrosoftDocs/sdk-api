@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_.htm
 tech.root: direct2d
 ms.assetid: c2aa64eb-c69a-4938-91de-1541f1c7844f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1.Matrix3x2F.Scale, D2D1::Matrix3x2F::Scale, Matrix3x2F class [Direct2D],Scale method, Matrix3x2F.Scale, Matrix3x2F.Scale(D2D1_SIZE_F,D2D1_POINT_2F), Matrix3x2F::Scale, Matrix3x2F::Scale(D2D1_SIZE_F,D2D1_POINT_2F), Scale, Scale method [Direct2D], Scale method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Scale, direct2d.matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1helper.h
+: 
+- Matrix3x2F.Scale
+: 
 ---
 
 # Matrix3x2F::Scale(D2D1_SIZE_F,D2D1_POINT_2F)
@@ -101,7 +109,7 @@ The following illustration shows the size of the square increased
 	 to 130% in each dimension.
 	 The center point for the scaling is the upper-left corner of the square.
 
-<img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="./images/scale_ovw.png"/>
+<img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="images/scale_ovw.png"/>
 
  For an example, see <a href="https://msdn.microsoft.com/3da749e2-50d5-4f4e-9ccd-8c230efe3436">How to Scale an Object</a>.
 

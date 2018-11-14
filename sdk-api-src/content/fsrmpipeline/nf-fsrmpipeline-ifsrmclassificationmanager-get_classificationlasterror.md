@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmClassificationManager.get_ClassificationLastError
+: 
 ---
 
 # IFsrmClassificationManager::get_ClassificationLastError

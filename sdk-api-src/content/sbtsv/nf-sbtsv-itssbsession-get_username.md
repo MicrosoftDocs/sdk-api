@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbSession.get_Username
+: 
 ---
 
 # ITsSbSession::get_Username

@@ -9,8 +9,8 @@ ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRAPIApplication interface [RDP],described, rdp.irdpsrapiapplication, rdpencomapi/IRDPSRAPIApplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
@@ -58,7 +58,7 @@ Groups the sharable windows within a process. Each application object contains a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

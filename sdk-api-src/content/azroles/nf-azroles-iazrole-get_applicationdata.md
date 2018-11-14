@@ -4,10 +4,10 @@ title: IAzRole::get_ApplicationData
 author: windows-sdk-content
 description: The ApplicationData property of IAzRole sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazrole_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 6cb85528-35b4-4fed-98bb-6209dd0af0fd
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzRole object, ApplicationData property [Security],IAzRole interface, AzRole object [Security],ApplicationData property, IAzRole interface [Security],ApplicationData property, IAzRole.ApplicationData, IAzRole.get_ApplicationData, IAzRole::ApplicationData, IAzRole::get_ApplicationData, IAzRole::put_ApplicationData, azroles/IAzRole::ApplicationData, azroles/IAzRole::get_ApplicationData, azroles/IAzRole::put_ApplicationData, get_ApplicationData, security.iazrole_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.get_ApplicationData
+: 
 ---
 
 # IAzRole::get_ApplicationData

@@ -9,8 +9,8 @@ ms.assetid: 3bc2615e-f07c-4959-b89e-bbbd2bf45a94
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFolderView, IFolderView interface [Windows Shell], IFolderView interface [Windows Shell],described, _shell_IFolderView, shell.IFolderView, shobjidl_core/IFolderView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

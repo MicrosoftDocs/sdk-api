@@ -9,8 +9,8 @@ ms.assetid: 79922878-f5d3-4400-8c4f-2636323d7dcf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_START_CAPTURE_FN, PIBIO_SENSOR_START_CAPTURE_FN callback, SensorAdapterStartCapture, SensorAdapterStartCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterstartcapture, winbio_adapter/SensorAdapterStartCapture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

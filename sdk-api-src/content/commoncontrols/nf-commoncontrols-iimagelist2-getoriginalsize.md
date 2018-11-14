@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- commoncontrols.h
+: 
+- IImageList2.GetOriginalSize
+: 
 ---
 
 # IImageList2::GetOriginalSize

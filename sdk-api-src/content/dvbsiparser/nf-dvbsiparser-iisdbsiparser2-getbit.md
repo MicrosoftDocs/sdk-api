@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IIsdbSiParser2.GetBIT
+: 
 ---
 
 # IIsdbSiParser2::GetBIT

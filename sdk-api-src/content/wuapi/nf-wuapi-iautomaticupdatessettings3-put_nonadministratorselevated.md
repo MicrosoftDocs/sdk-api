@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IAutomaticUpdatesSettings3.put_NonAdministratorsElevated
+: 
 ---
 
 # IAutomaticUpdatesSettings3::put_NonAdministratorsElevated

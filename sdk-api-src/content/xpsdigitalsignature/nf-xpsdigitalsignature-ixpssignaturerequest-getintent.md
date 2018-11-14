@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsdigitalsignature.h
+: 
+- IXpsSignatureRequest.GetIntent
+: 
 ---
 
 # IXpsSignatureRequest::GetIntent
@@ -119,7 +127,7 @@ The method succeeded.
 
 The signature intent string describes what the signature means to the signer. For example, for the  signature intent string "I have read and agree with the contents of this document" the presence of a digital signature means that the signer has read and agrees with the content of the document.
 
-This method allocates the memory used by the string that is returned in <i>intent</i>.  If <i>intent</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>intent</i>.  If <i>intent</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

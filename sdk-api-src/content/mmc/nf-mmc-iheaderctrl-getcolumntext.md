@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IHeaderCtrl.GetColumnText
+: 
 ---
 
 # IHeaderCtrl::GetColumnText
@@ -93,7 +101,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/64da2c79-2ede-4b17-a706-8e5cc0ade007">IHeaderCtrl</a>
  
 
  

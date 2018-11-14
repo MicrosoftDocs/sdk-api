@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Process32NextW
+: 
 ---
 
 # Process32NextW function

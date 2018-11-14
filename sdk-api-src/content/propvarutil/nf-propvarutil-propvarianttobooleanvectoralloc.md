@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantToBooleanVectorAlloc
+: 
 ---
 
 # PropVariantToBooleanVectorAlloc function
@@ -131,7 +137,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776533(v=VS.85).aspx">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToBooleanVectorAlloc">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -163,19 +169,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776506(v=VS.85).aspx">IsPropVariantVector</a>
+<a href="shell.IsPropVariantVector">IsPropVariantVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776519(v=VS.85).aspx">PropVariantGetBooleanElem</a>
+<a href="shell.PropVariantGetBooleanElem">PropVariantGetBooleanElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
  
 
  

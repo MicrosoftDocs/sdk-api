@@ -9,8 +9,8 @@ ms.assetid: 86029526-ea87-4962-b5f5-f535c7034c60
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_EAP_AUTHENTICATION0, IKEEXT_EAP_AUTHENTICATION0 structure [Filtering], IKEEXT_EAP_AUTHENTICATION0__, IKEEXT_EAP_FLAG_LOCAL_AUTH_ONLY, IKEEXT_EAP_FLAG_REMOTE_AUTH_ONLY, fwp.ikeext_eap_authentication0, iketypes/IKEEXT_EAP_AUTHENTICATION0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

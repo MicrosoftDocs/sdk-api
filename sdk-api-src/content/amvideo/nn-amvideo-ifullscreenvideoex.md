@@ -9,8 +9,8 @@ ms.assetid: 4c9de58f-6ceb-4cf5-b1a5-d3e345e08190
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IFullScreenVideoEx interface [DirectShow],described, IFullScreenVideoInterface, amvideo/IFullScreenVideoEx, dshow.ifullscreenvideoex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: amvideo.h
 req.include-header: Dshow.h

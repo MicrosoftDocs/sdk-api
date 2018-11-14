@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmFilterDeleteByKey0
+: 
 ---
 
 # FwpmFilterDeleteByKey0 function

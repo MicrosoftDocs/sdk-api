@@ -9,8 +9,8 @@ ms.assetid: ba7f7414-885f-40d0-ab61-2348d7f6125b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PCLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION structure [Files], CLFS_MGMT_NOTIFICATION_TYPE, ClfsMgmtAdvanceTailNotification, ClfsMgmtLogFullHandlerNotification, ClfsMgmtLogUnpinnedNotification, ClfsMgmtLogWriteNotification, PCLFS_MGMT_NOTIFICATION, PCLFS_MGMT_NOTIFICATION structure pointer [Files], _CLFS_MGMT_NOTIFICATION, clfsmgmt/CLFS_MGMT_NOTIFICATION, clfsmgmt/PCLFS_MGMT_NOTIFICATION, fs.clfs_mgmt_notification"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clfsmgmt.h
 req.include-header: 
@@ -79,7 +79,7 @@ The type of notification to receive.  The following  values are valid.
 </td>
 <td width="60%">
  The notification to advance the log tail. For more information, see 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb540390(v=VS.85).aspx">LOG_TAIL_ADVANCE_CALLBACK</a>.
+        <a href="https://msdn.microsoft.com/dfa64e5e-55ef-4102-90d5-104b1a624267">LOG_TAIL_ADVANCE_CALLBACK</a>.
 
 </td>
 </tr>
@@ -90,9 +90,9 @@ The type of notification to receive.  The following  values are valid.
 </dl>
 </td>
 <td width="60%">
-The notification that a  call to <a href="https://msdn.microsoft.com/en-us/library/Bb540382(v=VS.85).aspx">HandleLogFull</a> is 
+The notification that a  call to <a href="https://msdn.microsoft.com/ed4b067f-9386-4bec-a6dc-b22d6fd52390">HandleLogFull</a> is 
         complete. For more information, see 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb540386(v=VS.85).aspx">LOG_FULL_HANDLER_CALLBACK</a>.
+        <a href="https://msdn.microsoft.com/7b8d3b94-2b2e-427e-9b89-530310ecc6fe">LOG_FULL_HANDLER_CALLBACK</a>.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The notification that a  call to <a href="https://msdn.microsoft.com/en-us/libra
 </td>
 <td width="60%">
 The notification that the log is unpinned. For more information, see 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb540392(v=VS.85).aspx">LOG_UNPINNED_CALLBACK</a>.
+        <a href="https://msdn.microsoft.com/ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3">LOG_UNPINNED_CALLBACK</a>.
 
 </td>
 </tr>

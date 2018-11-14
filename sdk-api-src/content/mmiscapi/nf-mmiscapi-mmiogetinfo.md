@@ -7,7 +7,7 @@ old-location: multimedia\mmiogetinfo.htm
 tech.root: Multimedia
 ms.assetid: 9ca58586-8cd6-4d74-9cef-f0ae41b24fe3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mmioGetInfo, mmioGetInfo, mmioGetInfo function [Windows Multimedia], mmsystem/mmioGetInfo, multimedia.mmiogetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mmioGetInfo
+: 
 ---
 
 # mmioGetInfo function

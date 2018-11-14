@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_createchild.htm
 tech.root: direct2d
 ms.assetid: E8BD0808-D3A3-41BB-A7A3-2183C0E56396
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateChild, CreateChild method [Direct2D], CreateChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],CreateChild method, ID2D1SvgElement.CreateChild, ID2D1SvgElement::CreateChild, d2d1svg/ID2D1SvgElement::CreateChild, direct2d.id2d1svgelement_createchild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1svg.h
+: 
+- ID2D1SvgElement.CreateChild
+: 
 ---
 
 # ID2D1SvgElement::CreateChild

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MakeSignature
+: 
 ---
 
 # MakeSignature function
@@ -315,7 +321,7 @@ If the transport application created the security context to support sequence de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

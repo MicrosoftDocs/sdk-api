@@ -9,8 +9,8 @@ ms.assetid: 3C74A9C0-1483-4A97-94EB-19A0D30D9A08
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessageW, mapi/lpMapiMessageW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 

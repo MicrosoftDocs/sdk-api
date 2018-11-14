@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnls.h
+: 
+- IS_HIGH_SURROGATE
+: 
 ---
 
 # IS_HIGH_SURROGATE macro

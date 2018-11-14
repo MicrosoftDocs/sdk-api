@@ -9,8 +9,8 @@ ms.assetid: 62DCE279-B0B6-4536-A14E-71F5B1BAA9ED
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_configure_crypto_session_input
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

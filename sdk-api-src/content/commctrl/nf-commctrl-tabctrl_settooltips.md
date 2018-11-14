@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- TabCtrl_SetToolTips
+: 
 ---
 
 # TabCtrl_SetToolTips macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Assigns a tooltip control to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message explicitly. 
+Assigns a tooltip control to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/c1b173b1-9da6-441a-a2b6-3875e2c343f8">TCM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +68,14 @@ Assigns a tooltip control to a tab control. You can use this macro or send the <
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 
 
 ### -param hwndTT
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tooltip control. 
 
@@ -76,7 +84,7 @@ Handle to the tooltip control.
 
 
 
-You can retrieve the tooltip control associated with a tab control by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760598(v=VS.85).aspx">TCM_GETTOOLTIPS</a> message. 
+You can retrieve the tooltip control associated with a tab control by using the <a href="https://msdn.microsoft.com/d7dcca4f-8629-4eeb-844f-b3171438f528">TCM_GETTOOLTIPS</a> message. 
 
 
 

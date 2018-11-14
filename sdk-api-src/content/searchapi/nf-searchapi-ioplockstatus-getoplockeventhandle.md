@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IOpLockStatus.GetOplockEventHandle
+: 
 ---
 
 # IOpLockStatus::GetOplockEventHandle
@@ -50,7 +58,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object.
+Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object.
 
 
 ## -parameters

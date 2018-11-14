@@ -9,8 +9,8 @@ ms.assetid: 77192849-D919-4947-9BFF-343C166C5A51
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PSS_HANDLE_INFORMATION, PSS_HANDLE_INFORMATION structure, proc_snap.pss_handle_information, processsnapshot/PSS_HANDLE_INFORMATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

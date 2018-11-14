@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyDescription.GetEnumTypeList
+: 
 ---
 
 # IPropertyDescription::GetEnumTypeList
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets an instance of an <a href="https://msdn.microsoft.com/en-us/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
+Gets an instance of an <a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
 
 
 ## -parameters
@@ -72,9 +80,9 @@ TBD
 
 #### - ppenumList [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a>**</b>
+Type: <b><a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a>**</b>
 
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a> interface pointer.
+When this method returns, contains the address of an <a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a> interface pointer.
 
 
 ## -returns

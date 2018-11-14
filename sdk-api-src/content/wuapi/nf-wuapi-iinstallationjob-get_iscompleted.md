@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IInstallationJob.get_IsCompleted
+: 
 ---
 
 # IInstallationJob::get_IsCompleted

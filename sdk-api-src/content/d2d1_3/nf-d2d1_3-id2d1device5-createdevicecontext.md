@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device5_createdevicecontext.htm
 tech.root: direct2d
 ms.assetid: C1C189AC-4ABD-41F8-9696-D4D76602BE61
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device5 interface, ID2D1Device5 interface [Direct2D],CreateDeviceContext method, ID2D1Device5.CreateDeviceContext, ID2D1Device5::CreateDeviceContext, d2d1_3/ID2D1Device5::CreateDeviceContext, direct2d.id2d1device5_createdevicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_3.h
+: 
+- ID2D1Device5.CreateDeviceContext
+: 
 ---
 
 # ID2D1Device5::CreateDeviceContext

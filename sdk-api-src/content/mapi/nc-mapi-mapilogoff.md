@@ -9,8 +9,8 @@ ms.assetid: d04316cf-31f5-4f5f-ad20-01ce720fdf4c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi.mapilogoff, mapi/MAPILogoff
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

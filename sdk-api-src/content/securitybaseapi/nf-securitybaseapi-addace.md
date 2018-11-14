@@ -4,10 +4,10 @@ title: AddAce function
 author: windows-sdk-content
 description: Adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: security\addace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: f472d864-a273-49b5-b5e2-98772989971e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddAce
+: 
 ---
 
 # AddAce function
@@ -208,7 +214,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propidl.h
+: 
+- IEnumSTATPROPSETSTG.Next
+: 
 ---
 
 # IEnumSTATPROPSETSTG::Next

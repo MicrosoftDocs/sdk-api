@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IVideoWindow.get_Visible
+: 
 ---
 
 # IVideoWindow::get_Visible
@@ -132,15 +140,15 @@ This method checks for the WS_VISIBLE style bit, by calling the Windows <b>IsWin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377326(v=VS.85).aspx">IVideoWindow::put_Visible</a>
+<a href="https://msdn.microsoft.com/ae789f07-4d50-488c-b57e-2b003a8cde3e">IVideoWindow::put_Visible</a>
  
 
  

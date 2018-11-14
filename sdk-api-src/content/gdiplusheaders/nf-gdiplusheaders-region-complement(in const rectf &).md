@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.Complement
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -64,7 +72,7 @@ The <b>Region::Complement</b> method updates this region to the portion of the s
 Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
 
 Reference to a rectangle to use to update this 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object. 
+					<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object. 
 
 
 ## -returns
@@ -90,7 +98,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

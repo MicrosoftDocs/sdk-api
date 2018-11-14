@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetup.PreUnInstall
+: 
 ---
 
 # ICertSrvSetup::PreUnInstall
@@ -77,7 +85,7 @@ The <b>PreUnInstall</b> method should be called before performing a role-specifi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

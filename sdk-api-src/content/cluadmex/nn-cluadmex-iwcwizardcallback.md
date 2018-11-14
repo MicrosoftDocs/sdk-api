@@ -7,10 +7,10 @@ old-location: mscs\iwcwizardcallback.htm
 tech.root: mscs
 ms.assetid: 0d5f45c4-6091-4ea4-875a-69be7f1258db
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], IWCWizardCallback interface [Failover Cluster],described, _wolf_iwcwizardcallback, cluadmex/IWCWizardCallback, mscs.iwcwizardcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
@@ -54,15 +54,15 @@ req.redist:
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IWCWizardCallback</b> interface is called by a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extension to add a 
+    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extension to add a 
     property page to a Failover Cluster Administrator Wizard and to manage navigation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCWizardCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWCWizardCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCWizardCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWCWizardCallback</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IWCWizardCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370521(v=VS.85).aspx">AddWizardPage</a>
+<a href="https://msdn.microsoft.com/e5ce7798-c1e6-47b6-a1bf-1262b3511b22">AddWizardPage</a>
 </td>
 <td align="left" width="63%">
 Adds a property page to a Failover Cluster Administrator Wizard.
@@ -84,7 +84,7 @@ Adds a property page to a Failover Cluster Administrator Wizard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370603(v=VS.85).aspx">EnableNext</a>
+<a href="https://msdn.microsoft.com/6f485ffa-0e94-4443-9c79-991c35a60e97">EnableNext</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the <b>Next</b> or <b>Finish</b> button on a 
@@ -101,11 +101,11 @@ Enables or disables the <b>Next</b> or <b>Finish</b> button on a
 
 Use the <i>piCallback</i> pointer that you receive when Failover Cluster Administrator calls 
      your 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">IWEExtendWizard::CreateWizardPages</a> 
+     <a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a> 
      method to call the methods of the <b>IWCWizardCallback</b> 
      interface.
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Aa370511(v=VS.85).aspx">IWCWizard97Callback</a> to add Wizard97 pages.
+Use <a href="https://msdn.microsoft.com/cbde3bcf-8242-49dc-9ac0-a4b078ea526e">IWCWizard97Callback</a> to add Wizard97 pages.
 
 
 
@@ -115,15 +115,15 @@ Use <a href="https://msdn.microsoft.com/en-us/library/Aa370511(v=VS.85).aspx">IW
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369061(v=VS.85).aspx">Failover Cluster Administrator Callback Interfaces</a>
+<a href="https://msdn.microsoft.com/4a2b0c21-1b3f-4037-a143-02956e6996ce">Failover Cluster Administrator Callback Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370511(v=VS.85).aspx">IWCWizard97Callback</a>
+<a href="https://msdn.microsoft.com/cbde3bcf-8242-49dc-9ac0-a4b078ea526e">IWCWizard97Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">IWEExtendWizard::CreateWizardPages</a>
+<a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\resutilispathvalid.htm
 tech.root: mscs
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_IS_PATH_VALID, PRESUTIL_IS_PATH_VALID function [Failover Cluster], ResUtilIsPathValid, ResUtilIsPathValid function [Failover Cluster], _wolf_resutilispathvalid, mscs.resutilispathvalid, resapi/PRESUTIL_IS_PATH_VALID, resapi/ResUtilIsPathValid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilIsPathValid
+: 
 ---
 
 # ResUtilIsPathValid function

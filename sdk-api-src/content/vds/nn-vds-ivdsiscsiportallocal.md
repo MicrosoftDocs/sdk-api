@@ -9,8 +9,8 @@ ms.assetid: eec436c4-73a6-43c5-aae2-dcdd37eb5767
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsIscsiPortalLocal, IVdsIscsiPortalLocal interface [VDS], IVdsIscsiPortalLocal interface [VDS],described, base.ivdsiscsiportallocal, vds/IVdsIscsiPortalLocal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

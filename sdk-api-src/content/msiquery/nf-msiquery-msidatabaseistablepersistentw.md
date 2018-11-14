@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MsiDatabaseIsTablePersistentW
+: 
 ---
 
 # MsiDatabaseIsTablePersistentW function
@@ -86,7 +92,7 @@ This function returns MSICONDITION.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
  
 
  

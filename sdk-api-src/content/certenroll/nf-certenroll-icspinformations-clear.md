@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspInformations.Clear
+: 
 ---
 
 # ICspInformations::Clear
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> objects from the collection.
+The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> objects from the collection.
 
 
 ## -parameters
@@ -66,7 +74,7 @@ The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/en-us/li
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -76,11 +84,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
+<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
  
 
  

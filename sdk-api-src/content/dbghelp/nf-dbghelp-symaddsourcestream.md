@@ -7,7 +7,7 @@ old-location: base\symaddsourcestream.htm
 tech.root: debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymAddSourceStream, SymAddSourceStream function, SymAddSourceStreamW, base.symaddsourcestream, dbghelp/SymAddSourceStream, dbghelp/SymAddSourceStreamW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later
+- apiref
+: 
+- 
+: 
+- SymAddSourceStream
+: 
 ---
 
 # SymAddSourceStream function

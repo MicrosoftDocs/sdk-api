@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpServerGetConfigV4
+: 
 ---
 
 # DhcpServerGetConfigV4 function

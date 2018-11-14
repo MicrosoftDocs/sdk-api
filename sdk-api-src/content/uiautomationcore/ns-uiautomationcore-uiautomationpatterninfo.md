@@ -9,8 +9,8 @@ ms.assetid: f45c5736-75f3-4e44-b92a-3b0a51b41849
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: UIAutomationPatternInfo, UIAutomationPatternInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPatternInfoStruct, uiauto_UIAutomationPatternInfoStruct, uiautomationcore/UIAutomationPatternInfo, winauto.uiauto_UIAutomationPatternInfoStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

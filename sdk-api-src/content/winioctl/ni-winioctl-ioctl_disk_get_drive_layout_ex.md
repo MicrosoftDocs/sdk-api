@@ -9,8 +9,8 @@ ms.assetid: 21507182-5a33-4e58-b5ed-3724feefa4ed
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_get_drive_layout_ex, base.ioctl_disk_get_drive_layout_ex, fs.ioctl_disk_get_drive_layout_ex, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT_EX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

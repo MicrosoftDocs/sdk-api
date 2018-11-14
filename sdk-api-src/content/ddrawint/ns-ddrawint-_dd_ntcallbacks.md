@@ -9,8 +9,8 @@ ms.assetid: 9d226b1c-6959-4cc8-9e60-b57a324d9a8a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_NTCALLBACKS, DD_NTCALLBACKS, DD_NTCALLBACKS structure [Display Devices], PDD_NTCALLBACKS, PDD_NTCALLBACKS structure pointer [Display Devices], _DD_NTCALLBACKS, ddrawint/DD_NTCALLBACKS, ddrawint/PDD_NTCALLBACKS, ddstrcts_1e79e318-f193-455c-b4c6-5f016b539207.xml, display.dd_ntcallbacks"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

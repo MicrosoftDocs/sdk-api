@@ -9,8 +9,8 @@ ms.assetid: 5ed7302e-1e2f-46cc-b272-f6c06afe7552
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IconIdentifier, IconIdentifier enumeration [MMC], Icon_Error, Icon_First, Icon_Information, Icon_Last, Icon_None, Icon_Question, Icon_Warning, _slate_iconidentifier, mmc.iconidentifier, mmc/IconIdentifier, mmc/Icon_Error, mmc/Icon_First, mmc/Icon_Information, mmc/Icon_Last, mmc/Icon_None, mmc/Icon_Question, mmc/Icon_Warning, tagIconIdentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 

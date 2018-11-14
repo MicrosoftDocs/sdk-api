@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- TreeView_GetNextSelected
+: 
 ---
 
 # TreeView_GetNextSelected macro
@@ -60,7 +68,7 @@ Retrieves the tree-view item that bears the <b>TVGN_NEXTSELECTED</b> relationshi
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -86,7 +94,7 @@ Used to find the next selected item when there are multiple items selected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a>
+<a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a>
  
 
  

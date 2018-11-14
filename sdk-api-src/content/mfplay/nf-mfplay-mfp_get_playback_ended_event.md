@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mfplay.h
+: 
+- MFP_GET_PLAYBACK_ENDED_EVENT
+: 
 ---
 
 # MFP_GET_PLAYBACK_ENDED_EVENT macro

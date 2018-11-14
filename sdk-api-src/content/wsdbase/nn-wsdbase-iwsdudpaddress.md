@@ -9,8 +9,8 @@ ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface,described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

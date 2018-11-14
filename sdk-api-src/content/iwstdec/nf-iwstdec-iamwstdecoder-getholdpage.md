@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iwstdec.h
+: 
+- IAMWstDecoder.GetHoldPage
+: 
 ---
 
 # IAMWstDecoder::GetHoldPage

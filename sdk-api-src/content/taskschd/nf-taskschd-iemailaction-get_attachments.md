@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IEmailAction.get_Attachments
+: 
 ---
 
 # IEmailAction::get_Attachments
@@ -52,7 +60,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the pointer to an array of attachments that is sent with the email message.
 

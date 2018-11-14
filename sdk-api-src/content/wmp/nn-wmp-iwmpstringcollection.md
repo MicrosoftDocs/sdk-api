@@ -9,8 +9,8 @@ ms.assetid: 8cdabea9-7e37-4e63-9d6c-b6f63aa536ea
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], IWMPStringCollection interface [Windows Media Player],described, IWMPStringCollectionInterface, wmp.iwmpstringcollection, wmp/IWMPStringCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +58,7 @@ The <b>IWMPStringCollection</b> interface provides methods that work with a coll
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPStringCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPStringCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPStringCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPStringCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

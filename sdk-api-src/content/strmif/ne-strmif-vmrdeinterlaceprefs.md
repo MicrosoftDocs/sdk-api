@@ -9,8 +9,8 @@ ms.assetid: 3f88abac-fc57-4f31-9a4c-cf0f7317d6f8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DeinterlacePref_BOB, DeinterlacePref_Mask, DeinterlacePref_NextBest, DeinterlacePref_Weave, VMRDeinterlacePrefs, VMRDeinterlacePrefs enumeration [DirectShow], VMRDeinterlacePrefsEnumeration, dshow.vmrdeinterlaceprefs, strmif/DeinterlacePref_BOB, strmif/DeinterlacePref_Mask, strmif/DeinterlacePref_NextBest, strmif/DeinterlacePref_Weave, strmif/VMRDeinterlacePrefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

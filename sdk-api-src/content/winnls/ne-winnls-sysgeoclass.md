@@ -9,8 +9,8 @@ ms.assetid: 27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: GEOCLASS_ALL, GEOCLASS_NATION, GEOCLASS_REGION, SYSGEOCLASS, SYSGEOCLASS enumeration [Internationalization for Windows Applications], _win32_SYSGEOCLASS, intl.sysgeoclass, winnls/GEOCLASS_ALL, winnls/GEOCLASS_NATION, winnls/GEOCLASS_REGION, winnls/SYSGEOCLASS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winnls.h
 req.include-header: Windows.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IPsecSaContextDeleteById0
+: 
 ---
 
 # IPsecSaContextDeleteById0 function

@@ -9,8 +9,8 @@ ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation],described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

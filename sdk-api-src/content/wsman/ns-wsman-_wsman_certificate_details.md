@@ -9,8 +9,8 @@ ms.assetid: 82b723fd-c9bb-4ddd-bd2a-4b6d1186846b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSMAN_CERTIFICATE_DETAILS, WSMAN_CERTIFICATE_DETAILS structure [Windows Remote Management], _WSMAN_CERTIFICATE_DETAILS, winrm.wsman_certificate_details, wsman/WSMAN_CERTIFICATE_DETAILS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICT_RESULTREADSTR, IMECOMPTEXT, IMECOMPTEXT structure [Windows Controls], _imecomptext, _win32_IMECOMPTEXT_str, _win32_IMECOMPTEXT_str_cpp, controls.IMECOMPTEXT, controls._win32_IMECOMPTEXT_str, richedit/IMECOMPTEXT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
@@ -95,7 +95,7 @@ The final composed string.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a> message.
 
 
 
@@ -105,7 +105,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a>
+<a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a>
  
 
  

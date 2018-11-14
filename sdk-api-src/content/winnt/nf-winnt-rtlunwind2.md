@@ -7,7 +7,7 @@ old-location: base\rtlunwind2.htm
 tech.root: debug
 ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlUnwind2
+: 
 req.product: Intel Itanium edition of Windows Server 2003 or     Windows XP
 ---
 

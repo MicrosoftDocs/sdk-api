@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmprealestate.h
+: 
+- IWMPAudioRenderConfig.put_audioOutputDevice
+: 
 ---
 
 # IWMPAudioRenderConfig::put_audioOutputDevice

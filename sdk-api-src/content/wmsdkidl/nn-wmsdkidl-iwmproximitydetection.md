@@ -9,8 +9,8 @@ ms.assetid: 0897ad8f-8e06-4de9-840e-1588e0e20c54
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], IWMProximityDetection interface [windows Media Format],described, IWMProximityDetectionInterface, wmformat.iwmproximitydetection, wmsdkidl/IWMProximityDetection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

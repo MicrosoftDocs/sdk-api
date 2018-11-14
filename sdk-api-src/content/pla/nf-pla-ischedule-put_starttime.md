@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- ISchedule.put_StartTime
+: 
 ---
 
 # ISchedule::put_StartTime

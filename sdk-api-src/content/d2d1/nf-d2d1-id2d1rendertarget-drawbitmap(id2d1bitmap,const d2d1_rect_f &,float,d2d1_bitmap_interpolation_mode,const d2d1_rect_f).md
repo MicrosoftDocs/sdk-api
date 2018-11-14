@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_DrawBitmap_ptr_ID2D1Bitmap_ref_D2D_RECT
 tech.root: direct2d
 ms.assetid: d58b67fd-ad53-47ca-bbb6-1af97dd65ef4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Direct2D], DrawBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawBitmap method, ID2D1RenderTarget.DrawBitmap, ID2D1RenderTarget.DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_BITMAP_INTERPOLATION_MODE,const D2D1_RECT_F), ID2D1RenderTarget::DrawBitmap, ID2D1RenderTarget::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_BITMAP_INTERPOLATION_MODE,const D2D1_RECT_F), d2d1/ID2D1RenderTarget::DrawBitmap, direct2d.ID2D1RenderTarget_DrawBitmap_ptr_ID2D1Bitmap_ref_D2D_RECT_F_FLOAT_D2D1_BITMAP_INTERPOLATION_MODE_ptr_D2D_RECT_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1RenderTarget.DrawBitmap
+: 
 ---
 
 # ID2D1RenderTarget::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_BITMAP_INTERPOLATION_MODE,const D2D1_RECT_F)

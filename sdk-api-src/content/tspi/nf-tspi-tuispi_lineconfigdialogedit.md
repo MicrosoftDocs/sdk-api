@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TUISPI_lineConfigDialogEdit
+: 
 ---
 
 # TUISPI_lineConfigDialogEdit function

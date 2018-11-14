@@ -9,8 +9,8 @@ ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], IADsTSUserEx interface [Remote Desktop Services],described, termserv.iadstsuserex, tsuserex/IADsTSUserEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

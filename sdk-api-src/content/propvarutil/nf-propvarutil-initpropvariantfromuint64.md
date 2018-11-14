@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitPropVariantFromUInt64
+: 
 ---
 
 # InitPropVariantFromUInt64 function
@@ -94,7 +100,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762313(v=VS.85).aspx">InitPropVariantFromUInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt64">InitPropVariantFromUInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -122,15 +128,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>
+<a href="shell.InitVariantFromUInt64">InitVariantFromUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776573(v=VS.85).aspx">PropVariantToUInt64</a>
+<a href="shell.PropVariantToUInt64">PropVariantToUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776576(v=VS.85).aspx">PropVariantToUInt64WithDefault</a>
+<a href="shell.PropVariantToUInt64WithDefault">PropVariantToUInt64WithDefault</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: e2ce28c6-6dc0-4ceb-aa3f-7b86a2581425
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEER_EVENT_ENDPOINT_CHANGED_DATA, PEER_EVENT_ENDPOINT_CHANGED_DATA, PEER_EVENT_ENDPOINT_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_ENDPOINT_CHANGED_DATA, PPEER_EVENT_ENDPOINT_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_endpoint_changed_data, p2p/PEER_EVENT_ENDPOINT_CHANGED_DATA, p2p/PPEER_EVENT_ENDPOINT_CHANGED_DATA, peer_event_endpoint_changed_data_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

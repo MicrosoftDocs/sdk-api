@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodec.h
+: 
+- IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode
+: 
 ---
 
 # IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
@@ -159,7 +167,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee719653(v=VS.85).aspx">Writing Metadata</a>
+<a href="_wic_about_metadata.htm">Writing Metadata</a>
  
 
  

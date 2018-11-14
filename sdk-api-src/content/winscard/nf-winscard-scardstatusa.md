@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardStatusA
+: 
 ---
 
 # SCardStatusA function
@@ -219,7 +225,7 @@ On input, supplies the length of the <i>pbAtr</i> buffer. On output, receives th
 If the function successfully provides the current status of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> in a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 
 

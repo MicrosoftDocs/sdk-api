@@ -9,8 +9,8 @@ ms.assetid: bededb91-f343-455b-a3ef-548e6f961933
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], IWMDMLogger interface [windows Media Device Manager],described, IWMDMLoggerInterface, wmdm.iwmdmlogger, wmdmlog/IWMDMLogger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmdmlog.h
 req.include-header: 

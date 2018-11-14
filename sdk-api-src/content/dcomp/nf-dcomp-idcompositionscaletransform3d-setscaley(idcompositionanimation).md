@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionScaleTransform3D.SetScaleY
+: 
 ---
 
 # IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation)

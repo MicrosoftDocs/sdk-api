@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMReaderAdvanced2.StopBuffering
+: 
 ---
 
 # IWMReaderAdvanced2::StopBuffering

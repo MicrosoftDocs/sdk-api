@@ -9,8 +9,8 @@ ms.assetid: 4e419b50-b9c2-48e4-a484-f0fcf5c9cb7f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], IDvbLinkageDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLinkageDescriptor, mstv.idvblinkagedescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -9,8 +9,8 @@ ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: propidlbase.h
 req.include-header: Propidl.h

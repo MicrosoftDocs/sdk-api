@@ -7,7 +7,7 @@ old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm
 tech.root: mscs
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: GetNetworkHandle, GetNetworkHandle method [Failover Cluster], GetNetworkHandle method [Failover Cluster],IGetClusterNetworkInfo interface, IGetClusterNetworkInfo interface [Failover Cluster],GetNetworkHandle method, IGetClusterNetworkInfo.GetNetworkHandle, IGetClusterNetworkInfo::GetNetworkHandle, _wolf_igetclusternetworkinfo_getnetworkhandle, cluadmex/IGetClusterNetworkInfo::GetNetworkHandle, mscs.igetclusternetworkinfo_getnetworkhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cluadmex.h
+: 
+- IGetClusterNetworkInfo.GetNetworkHandle
+: 
 ---
 
 # IGetClusterNetworkInfo::GetNetworkHandle
@@ -53,7 +61,7 @@ req.redist:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Retrieves a handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>.
+Retrieves a handle to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
 
 
 ## -parameters
@@ -65,7 +73,7 @@ Retrieves a handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa3715
 
 A number representing the zero-based index of the target network. <i>lObjIndex</i> is 
        restricted to the number that can be retrieved by calling 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa370214(v=VS.85).aspx">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>.
 
 
 ## -returns
@@ -96,11 +104,11 @@ Do not close the handle obtained through this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370214(v=VS.85).aspx">IGetClusterDataInfo::GetObjectCount</a>
+<a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370219(v=VS.85).aspx">IGetClusterNetworkInfo</a>
+<a href="https://msdn.microsoft.com/7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4">IGetClusterNetworkInfo</a>
  
 
  

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IStream_ReadPidl
+: 
 ---
 
 # IStream_ReadPidl function

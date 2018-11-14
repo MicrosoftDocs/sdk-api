@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certcli.h
+: 
+- ICertRequest.Submit
+: 
 ---
 
 # ICertRequest::Submit
@@ -56,7 +64,7 @@ req.redist:
 The <b>Submit</b> method submits a request to the Certificate Services server.
 
 If the resulting disposition status is CR_DISP_ISSUED, you can retrieve the issued certificate by calling 
-the <a href="https://msdn.microsoft.com/en-us/library/Aa385046(v=VS.85).aspx">ICertRequest3::GetCertificate</a> method.
+the <a href="https://msdn.microsoft.com/ba8fc725-c376-4e66-8417-777ce13f2954">ICertRequest3::GetCertificate</a> method.
 
 
 ## -parameters
@@ -136,7 +144,7 @@ One of the following format value flags can be used to specify the type of the r
 </dl>
 </td>
 <td width="60%">
-Return a challenge that can be submitted to a CA. The challenge is a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC)  full request. When this flag is turned on, calling the <a href="https://msdn.microsoft.com/en-us/library/Aa385049(v=VS.85).aspx">GetFullResponseProperty</a> method with the FR_PROP_FULLRESPONSE flag returns a CMC response that contains key attestation challenge.
+Return a challenge that can be submitted to a CA. The challenge is a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC)  full request. When this flag is turned on, calling the <a href="https://msdn.microsoft.com/1ee979b7-2d2a-4140-8eef-5e3a5e0c132c">GetFullResponseProperty</a> method with the FR_PROP_FULLRESPONSE flag returns a CMC response that contains key attestation challenge.
 
 
 </td>
@@ -147,7 +155,7 @@ Return a challenge that can be submitted to a CA. The challenge is a <a href="ht
 </dl>
 </td>
 <td width="60%">
-The call is a response to a challenge. The RequestId must be passed in the <i>strAttributes</i> parameter and the response to the challenge must be passed in the <i>strRequest</i> parameter.  This flag should be turned on when an application needs to send back the decrypted challenge to the CA. You can then call the <a href="https://msdn.microsoft.com/en-us/library/Aa385049(v=VS.85).aspx">GetFullResponseProperty</a> method to get the issued end entity certificate.
+The call is a response to a challenge. The RequestId must be passed in the <i>strAttributes</i> parameter and the response to the challenge must be passed in the <i>strRequest</i> parameter.  This flag should be turned on when an application needs to send back the decrypted challenge to the CA. You can then call the <a href="https://msdn.microsoft.com/1ee979b7-2d2a-4140-8eef-5e3a5e0c132c">GetFullResponseProperty</a> method to get the issued end entity certificate.
 
 
 </td>
@@ -158,7 +166,7 @@ The call is a response to a challenge. The RequestId must be passed in the <i>st
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) request.
+A <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) request.
 
 </td>
 </tr>
@@ -188,7 +196,7 @@ Keygen request (Netscape format).
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">PKCS #7</a> request (renewal or registration agent).
+<a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #7</a> request (renewal or registration agent).
 
 </td>
 </tr>
@@ -250,7 +258,7 @@ Use the context of the key service computer.
 <td width="60%">
 Indicates that the message is being requested on behalf of another sender.
 
-If the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) is not configured for "renew on behalf of", then the CA rejects the request.
+If the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) is not configured for "renew on behalf of", then the CA rejects the request.
  
 
 For more information about enabling "renew on behalf of" on the CA, see <a href="http://go.microsoft.com/fwlink/p/?linkid=169173">Configuring the Certificate Enrollment Web Service for Renewal Only Mode</a>.
@@ -296,12 +304,12 @@ Specifies that the DCOM connection with the server is established, but the reque
 
 ### -param strRequest [in]
 
-A pointer to the string that contains the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a>. If CR_IN_BASE64 or CR_IN_BASE64HEADER was specified in <i>Flags</i>, <i>strRequest</i> must be a Unicode string.
+A pointer to the string that contains the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. If CR_IN_BASE64 or CR_IN_BASE64HEADER was specified in <i>Flags</i>, <i>strRequest</i> must be a Unicode string.
 
 
 ### -param strAttributes [in]
 
-A pointer to the string that contains optional extra <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">attributes</a> for the request. Each attribute is a name-value string pair. The colon character separates the name and value, and a newline character separates multiple name-value pairs, for example:
+A pointer to the string that contains optional extra <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> for the request. Each attribute is a name-value string pair. The colon character separates the name and value, and a newline character separates multiple name-value pairs, for example:
 
 <table>
 <tr>
@@ -324,8 +332,8 @@ When Certificate Services server parses attribute names, it ignores spaces, hyph
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
@@ -344,7 +352,7 @@ A pointer to the request's disposition value.
 
  Upon successful completion of this function, *<i>pDisposition</i> is set to one of the values in the following table.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the disposition of the request. The disposition is one of the following values.
@@ -539,27 +547,27 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">CCertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">CCertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa382820(v=VS.85).aspx">ICEnroll::createPKCS10</a>
+<a href="https://msdn.microsoft.com/b8e841c1-f16e-4f3a-94f2-ef6708c88910">ICEnroll::createPKCS10</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">ICertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385041(v=VS.85).aspx">ICertRequest2</a>
+<a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">ICertRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee373776(v=VS.85).aspx">ICertRequest3</a>
+<a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a>
  
 
  

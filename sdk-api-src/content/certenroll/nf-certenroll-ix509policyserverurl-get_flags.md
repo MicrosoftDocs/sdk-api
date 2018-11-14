@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509PolicyServerUrl.get_Flags
+: 
 ---
 
 # IX509PolicyServerUrl::get_Flags
@@ -74,7 +82,7 @@ When the PsfLocationGroupPolicy and PsfLocationRegistry flags are combined, this
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

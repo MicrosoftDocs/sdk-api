@@ -9,8 +9,8 @@ ms.assetid: b8d1fd9b-c735-49f6-8d3b-12b5b1d92543
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], _CIECHROMA, display.ciechroma, grstrcts_b0ffd3e4-c5c0-40f8-9272-1decae47108d.xml, winddi/CIECHROMA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

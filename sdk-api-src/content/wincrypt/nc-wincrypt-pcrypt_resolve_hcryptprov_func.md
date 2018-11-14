@@ -9,8 +9,8 @@ ms.assetid: d3b2b942-bde5-4399-9412-95fe227cd546
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PCRYPT_RESOLVE_HCRYPTPROV_FUNC, PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback, PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback function [Security], security.pcrypt_resolve_hcryptprov_func, wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

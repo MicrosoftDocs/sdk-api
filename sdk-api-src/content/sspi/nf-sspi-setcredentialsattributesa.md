@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetCredentialsAttributesA
+: 
 ---
 
 # SetCredentialsAttributesA function
@@ -222,7 +228,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

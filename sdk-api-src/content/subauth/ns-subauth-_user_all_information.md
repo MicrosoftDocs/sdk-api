@@ -9,8 +9,8 @@ ms.assetid: 18cf7194-4309-47b6-bfd1-9fb52bfddd56
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION structure pointer [Security], USER_ALL_INFORMATION, USER_ALL_INFORMATION structure [Security], _USER_ALL_INFORMATION, _lsa_user_all_information, security.user_all_information, subauth/PUSER_ALL_INFORMATION, subauth/USER_ALL_INFORMATION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmFreeMemory0
+: 
 ---
 
 # FwpmFreeMemory0 function

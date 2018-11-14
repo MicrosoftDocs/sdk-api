@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertEnumSubjectInSortedCTL
+: 
 ---
 
 # CertEnumSubjectInSortedCTL function
@@ -115,7 +121,7 @@ If the CTL is not sorted with the CERT_CREATE_CONTEXT_SORTED_FLAG flag set, an e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="cryptography_functions.htm">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

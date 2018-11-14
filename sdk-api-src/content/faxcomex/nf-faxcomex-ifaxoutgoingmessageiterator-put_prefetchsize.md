@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingMessageIterator.put_PrefetchSize
+: 
 ---
 
 # IFaxOutgoingMessageIterator::put_PrefetchSize

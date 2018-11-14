@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XInputGetAudioDeviceIds
+: 
 ---
 
 # XInputGetAudioDeviceIds function
@@ -129,7 +135,7 @@ Windows 8 (XInput 1.4)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419265(v=VS.85).aspx">XInputGetDSoundAudioDeviceGuids</a>
+<a href="https://msdn.microsoft.com/31E399C8-9001-4726-BDBA-422EF2D48E3B">XInputGetDSoundAudioDeviceGuids</a>
  
 
  

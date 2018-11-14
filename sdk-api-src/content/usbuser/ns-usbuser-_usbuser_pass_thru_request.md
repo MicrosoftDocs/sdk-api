@@ -9,8 +9,8 @@ ms.assetid: 4b04ded7-6641-4390-a5e5-e26603efc757
 ms.author: windowssdkdev
 ms.date: 10/23/2018
 ms.keywords: "*PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST structure pointer [Buses], USBUSER_PASS_THRU_REQUEST, USBUSER_PASS_THRU_REQUEST structure [Buses], _USBUSER_PASS_THRU_REQUEST, buses.usbuser_pass_thru_request, usbstrct_81650bb7-7b9f-4dc4-af2e-c2a727e7cb4c.xml, usbuser/PUSBUSER_PASS_THRU_REQUEST, usbuser/USBUSER_PASS_THRU_REQUEST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

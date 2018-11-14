@@ -9,8 +9,8 @@ ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], IMFTopologyNode interface [Media Foundation],described, mf.imftopologynode, mfidl/IMFTopologyNode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

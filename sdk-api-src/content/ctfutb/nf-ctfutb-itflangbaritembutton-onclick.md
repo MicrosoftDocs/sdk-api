@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarItemButton.OnClick
+: 
 ---
 
 # ITfLangBarItemButton::OnClick
@@ -60,7 +68,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BU
 
 ### -param click [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629055(v=VS.85).aspx">TfLBIClick</a> values that indicate which mouse button was used to click the button.
+Contains one of the <a href="https://msdn.microsoft.com/7fd151dd-e4be-4ec8-b373-2115717d5ef4">TfLBIClick</a> values that indicate which mouse button was used to click the button.
 
 
 ### -param pt [in]
@@ -117,7 +125,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628717(v=VS.85).aspx">ITfLangBarItemButton</a>
+<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
 
 
 

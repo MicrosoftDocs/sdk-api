@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardUIDlgSelectCardW
+: 
 ---
 
 # SCardUIDlgSelectCardW function
@@ -74,7 +80,7 @@ If the function successfully displays the
 						<b>Select Card</b> dialog box, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 
 

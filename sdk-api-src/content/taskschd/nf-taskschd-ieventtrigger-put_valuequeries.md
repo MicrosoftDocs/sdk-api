@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IEventTrigger.put_ValueQueries
+: 
 ---
 
 # IEventTrigger::put_ValueQueries

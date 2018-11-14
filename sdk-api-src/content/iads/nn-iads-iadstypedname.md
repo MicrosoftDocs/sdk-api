@@ -9,8 +9,8 @@ ms.assetid: ed57fad7-6cc6-4127-b8d2-da295bc0c5fe
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interface [ADSI],described, TypedName, _ds_iadstypedname, adsi.iadstypedname, iads/IADsTypedName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -65,7 +65,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

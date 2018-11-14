@@ -9,8 +9,8 @@ ms.assetid: b7228610-c28a-4e19-80c9-30997a360b9c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: EXP_PROPERTYSTORAGE, EXP_PROPERTYSTORAGE structure [Windows Shell], _shell_EXP_PROPERTYSTORAGE, shell.EXP_PROPERTYSTORAGE, shlobj_core/EXP_PROPERTYSTORAGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

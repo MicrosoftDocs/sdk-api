@@ -9,8 +9,8 @@ ms.assetid: 795c4a5c-c363-401b-8b26-447903163f80
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDvbServiceDescriptor2, IDvbServiceDescriptor2 interface [Microsoft TV Technologies], IDvbServiceDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceDescriptor2, mstv.idvbservicedescriptor2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

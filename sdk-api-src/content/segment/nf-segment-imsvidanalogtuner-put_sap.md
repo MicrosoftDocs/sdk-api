@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidAnalogTuner.put_SAP
+: 
 ---
 
 # IMSVidAnalogTuner::put_SAP

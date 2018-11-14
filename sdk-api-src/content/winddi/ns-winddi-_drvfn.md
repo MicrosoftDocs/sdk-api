@@ -9,8 +9,8 @@ ms.assetid: 2ff20004-ec2e-4192-a5f1-e3e9d2bfad3c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDRVFN, DRVFN, DRVFN structure [Display Devices], PDRVFN, PDRVFN structure pointer [Display Devices], _DRVFN, display.drvfn, grstrcts_178b2ecc-75f9-4921-8912-661b33305d80.xml, winddi/DRVFN, winddi/PDRVFN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -9,8 +9,8 @@ ms.assetid: 7e10cc9c-7ed4-449d-aeb9-21e3d75d0224
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPIN_ADDR_IPV4, *LPIN_ADDR_IPV4 union [QOS], IN_ADDR_IPV4, IN_ADDR_IPV4 union [QOS], _IN_ADDR_IPV4, qos.in_addr_ipv4, qossp/*LPIN_ADDR_IPV4, qossp/IN_ADDR_IPV4"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

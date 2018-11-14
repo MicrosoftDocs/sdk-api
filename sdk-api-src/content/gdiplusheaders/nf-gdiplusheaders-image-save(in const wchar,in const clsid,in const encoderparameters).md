@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.Save
+: 
 ---
 
 # Image::Save(IN const WCHAR,IN const CLSID,IN const EncoderParameters)

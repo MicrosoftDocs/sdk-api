@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- evr.h
+: 
+- IMFVideoMixerControl2.SetMixingPrefs
+: 
 ---
 
 # IMFVideoMixerControl2::SetMixingPrefs

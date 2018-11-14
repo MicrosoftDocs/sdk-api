@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ocidl.h
+: 
+- IPicture.set_hPal
+: 
 ---
 
 # IPicture::set_hPal

@@ -7,10 +7,10 @@ old-location: eaphost\eap_config_input_field_type.htm
 tech.root: eaphost
 ms.assetid: f05242ad-1e49-4a6d-b4f1-579c4b00ea28
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE, EAP_CONFIG_INPUT_FIELD_TYPE enumeration [EAPHost], EapConfigInputEdit, EapConfigInputNetworkPassword, EapConfigInputNetworkUsername, EapConfigInputPSK, EapConfigInputPassword, EapConfigInputPin, EapConfigInputUsername, EapConfigSmartCardError, EapConfigSmartCardUsername, _EAP_CONFIG_INPUT_FIELD_TYPE, eaphost.eap_config_input_field_type, eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE, eaptypes/EapConfigInputEdit, eaptypes/EapConfigInputNetworkPassword, eaptypes/EapConfigInputNetworkUsername, eaptypes/EapConfigInputPSK, eaptypes/EapConfigInputPassword, eaptypes/EapConfigInputPin, eaptypes/EapConfigInputUsername, eaptypes/EapConfigSmartCardError, eaptypes/EapConfigSmartCardUsername"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 

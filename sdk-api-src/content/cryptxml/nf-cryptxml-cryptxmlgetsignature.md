@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlGetSignature
+: 
 ---
 
 # CryptXmlGetSignature function
@@ -65,7 +71,7 @@ The handle of the <b>Signature</b> element.
 
 ### -param ppStruct [out]
 
-A pointer to a  pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433864(v=VS.85).aspx">CRYPT_XML_SIGNATURE</a> structure to receive the signature.
+A pointer to a  pointer to a <a href="https://msdn.microsoft.com/d9930946-aec0-42a4-949f-af8b2e9c6e6c">CRYPT_XML_SIGNATURE</a> structure to receive the signature.
 
 
 ## -returns

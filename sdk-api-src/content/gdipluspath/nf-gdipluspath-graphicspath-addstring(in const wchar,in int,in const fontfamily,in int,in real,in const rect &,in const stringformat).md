@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddString
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -133,11 +141,15 @@ Note that GDI+ does not support PostScript fonts or OpenType fonts which do not 
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object <i>path</i>, adds a <b>NULL</b>-terminated string to <i>path</i>, and then draws <i>path</i>.
+The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a <b>NULL</b>-terminated string to <i>path</i>, and then draws <i>path</i>.
 
-
-```cpp
-VOID Example_AddString(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_AddString(HDC hdc)
 {
    Graphics graphics(hdc);
    FontFamily fontFamily(L"Times New Roman");
@@ -146,18 +158,18 @@ VOID Example_AddString(HDC hdc)
    path.AddString(
       L"Hello World", 
       -1,                 // NULL-terminated string
-      &fontFamily, 
+      &amp;fontFamily, 
       FontStyleRegular, 
       48, 
       Rect(50, 50, 150, 100),
       NULL);
 
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&pen, &path);
-}
-```
-
-
+   graphics.DrawPath(&amp;pen, &amp;path);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -194,7 +206,7 @@ VOID Example_AddString(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 

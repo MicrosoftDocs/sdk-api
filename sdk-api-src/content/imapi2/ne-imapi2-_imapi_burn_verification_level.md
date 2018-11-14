@@ -9,8 +9,8 @@ ms.assetid: 83a267b7-8b25-49b8-b1d0-83efbad8fa2a
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: "*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_LEVEL enumeration [IMAPI], IMAPI_BURN_VERIFICATION_NONE, IMAPI_BURN_VERIFICATION_QUICK, _IMAPI_BURN_VERIFICATION_LEVEL, imapi.imapi_burn_verification_level, imapi2/IMAPI_BURN_VERIFICATION_FULL, imapi2/IMAPI_BURN_VERIFICATION_LEVEL, imapi2/IMAPI_BURN_VERIFICATION_NONE, imapi2/IMAPI_BURN_VERIFICATION_QUICK"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 

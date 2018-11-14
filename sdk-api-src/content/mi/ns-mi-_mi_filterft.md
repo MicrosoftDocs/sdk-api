@@ -9,8 +9,8 @@ ms.assetid: f090b05e-e99b-47aa-8458-8e2cf9031ac7
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructure (MI)], _MI_FilterFT, mi/MI_FilterFT, wmi_v2.mi_filterft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

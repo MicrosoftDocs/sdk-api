@@ -9,8 +9,8 @@ ms.assetid: 643ce467-5df9-4b1a-a149-cf301865d47a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: RPC_AUTH_KEY_RETRIEVAL_FN, RPC_AUTH_KEY_RETRIEVAL_FN callback, RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC], RpcAuthKeyRetrievalFn, _rpc_rpc_auth_key_retrieval_fn, rpc.rpc_auth_key_retrieval_fn, rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: rpcdce.h
 req.include-header: Rpc.h

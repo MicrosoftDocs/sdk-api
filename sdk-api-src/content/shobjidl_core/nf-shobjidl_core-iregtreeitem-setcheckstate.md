@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IRegTreeItem.SetCheckState
+: 
 ---
 
 # IRegTreeItem::SetCheckState
@@ -98,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760017(v=VS.85).aspx">Tree-View Controls</a>
+<a href="_win32_Tree_View_Controls">Tree-View Controls</a>
  
 
  

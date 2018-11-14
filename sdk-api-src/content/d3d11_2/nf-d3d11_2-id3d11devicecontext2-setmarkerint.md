@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_2.h
+: 
+- ID3D11DeviceContext2.SetMarkerInt
+: 
 ---
 
 # ID3D11DeviceContext2::SetMarkerInt
@@ -60,7 +68,7 @@ Allows applications to annotate graphics commands.
 
 ### -param pLabel [in]
 
-An optional string that will be logged to <a href="https://msdn.microsoft.com/library/ms751538(v=VS.85).aspx">ETW</a> when ETW logging is active. If <b>‘#d’</b> appears in the string, it will be replaced by the value of the <i>Data</i> parameter similar to the way <b>printf</b> works.
+An optional string that will be logged to <a href="ac99a063-e2d2-40cc-b659-d23c2f783f92">ETW</a> when ETW logging is active. If <b>‘#d’</b> appears in the string, it will be replaced by the value of the <i>Data</i> parameter similar to the way <b>printf</b> works.
 
 
 ### -param Data
@@ -91,7 +99,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>
+<a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestsampletime.htm
 tech.root: Multimedia
 ms.assetid: 8f9bd7b8-24b4-4bc5-98f0-0339bbaa0caf
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AVIStreamNearestSampleTime, AVIStreamNearestSampleTime macro [Windows Multimedia], _win32_AVIStreamNearestSampleTime, multimedia.avistreamnearestsampletime, vfw/AVIStreamNearestSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- AVIStreamNearestSampleTime
+: 
 ---
 
 # AVIStreamNearestSampleTime macro

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmpplug.h
+: 
+- IWMPPluginUI.Create
+: 
 ---
 
 # IWMPPluginUI::Create

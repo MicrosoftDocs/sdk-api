@@ -9,8 +9,8 @@ ms.assetid: 756bfea7-ad03-4fba-b591-42796e7d52ff
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PFN_AUTHENTICATION_CALLBACK, PFN_AUTHENTICATION_CALLBACK callback, PFN_AUTHENTICATION_CALLBACK callback function [Bluetooth], bluetooth.pfn_authentication_callback, bluetoothapis/PFN_AUTHENTICATION_CALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-The <b>PFN_AUTHENTICATION_CALLBACK</b> function is a callback function prototype used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthentication</a> function.
-<div class="alert"><b>Note</b>  When developing for Windows Vista SP2 and Windows 7 the use of <a href="https://msdn.microsoft.com/en-us/library/Cc766822(v=VS.85).aspx">PFN_AUTHENTICATION_CALLBACK_EX</a> is recommended.</div><div> </div>
+The <b>PFN_AUTHENTICATION_CALLBACK</b> function is a callback function prototype used in conjunction with the <a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthentication</a> function.
+<div class="alert"><b>Note</b>  When developing for Windows Vista SP2 and Windows 7 the use of <a href="https://msdn.microsoft.com/835a624f-c08d-402c-940b-4443e1b38d58">PFN_AUTHENTICATION_CALLBACK_EX</a> is recommended.</div><div> </div>
 
 ## -parameters
 
@@ -60,12 +60,12 @@ The <b>PFN_AUTHENTICATION_CALLBACK</b> function is a callback function prototype
 
 ### -param pvParam
 
-Optional. A context pointer previously passed into the <a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthentication</a> function.
+Optional. A context pointer previously passed into the <a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthentication</a> function.
 
 
 ### -param pDevice
 
-A remote Bluetooth device requesting authentication. The remote address is the same address used to register the callback during the previous call to the <a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthentication</a> function.
+A remote Bluetooth device requesting authentication. The remote address is the same address used to register the callback during the previous call to the <a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthentication</a> function.
 
 
 ## -returns
@@ -91,7 +91,7 @@ A caller can register for multiple addresses with the same callback function.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthentication</a>
+<a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthentication</a>
  
 
  

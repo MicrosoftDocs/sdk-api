@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptCATAdminAcquireContext2
+: 
 ---
 
 # CryptCATAdminAcquireContext2 function

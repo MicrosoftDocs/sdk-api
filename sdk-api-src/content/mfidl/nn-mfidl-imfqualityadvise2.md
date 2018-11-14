@@ -9,8 +9,8 @@ ms.assetid: c6114bbc-31d8-45eb-9bf8-745b3138dd50
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], IMFQualityAdvise2 interface [Media Foundation],described, mf.imfqualityadvise2, mfidl/IMFQualityAdvise2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

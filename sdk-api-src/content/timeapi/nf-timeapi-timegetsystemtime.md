@@ -7,7 +7,7 @@ old-location: multimedia\timegetsystemtime.htm
 tech.root: Multimedia
 ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- timeGetSystemTime
+: 
 ---
 
 # timeGetSystemTime function

@@ -9,8 +9,8 @@ ms.assetid: e3653c19-0e0b-4026-a32d-509c4bb71008
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_DOSP_STATE0, IPSEC_DOSP_STATE0 structure [Filtering], IPSEC_DOSP_STATE0_, fwp.ipsec_dosp_state0, ipsectypes/IPSEC_DOSP_STATE0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

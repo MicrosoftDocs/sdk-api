@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IRunningTask.get_InstanceGuid
+: 
 ---
 
 # IRunningTask::get_InstanceGuid

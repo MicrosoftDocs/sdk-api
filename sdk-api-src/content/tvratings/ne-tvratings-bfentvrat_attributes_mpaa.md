@@ -9,8 +9,8 @@ ms.assetid: 520046a3-2542-409e-9d8f-91a91cad54f3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BfEnTvRat_Attributes_MPAA, BfEnTvRat_Attributes_MPAA enumeration [Microsoft TV Technologies], MPAA_IsBlocked, MPAA_ValidAttrSubmask, mstv.bfentvrat_attributes_mpaa, tvratings/BfEnTvRat_Attributes_MPAA, tvratings/MPAA_IsBlocked, tvratings/MPAA_ValidAttrSubmask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

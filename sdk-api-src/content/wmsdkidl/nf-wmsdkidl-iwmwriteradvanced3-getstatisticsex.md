@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMWriterAdvanced3.GetStatisticsEx
+: 
 ---
 
 # IWMWriterAdvanced3::GetStatisticsEx

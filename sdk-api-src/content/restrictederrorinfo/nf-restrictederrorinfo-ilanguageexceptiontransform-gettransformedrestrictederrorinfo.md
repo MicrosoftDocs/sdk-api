@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- restrictederrorinfo.h
+: 
+- ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo
+: 
 ---
 
 # ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo

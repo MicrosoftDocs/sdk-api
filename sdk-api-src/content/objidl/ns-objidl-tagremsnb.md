@@ -9,8 +9,8 @@ ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb, tagRemSNB"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

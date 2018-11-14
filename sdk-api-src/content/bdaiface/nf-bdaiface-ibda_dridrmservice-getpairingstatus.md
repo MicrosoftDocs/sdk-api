@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_DRIDRMService.GetPairingStatus
+: 
 ---
 
 # IBDA_DRIDRMService::GetPairingStatus
@@ -116,7 +124,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797840(v=VS.85).aspx">IBDA_DRIDRMService</a>
+<a href="https://msdn.microsoft.com/9b04c960-a766-4322-bf18-e59176ee2ad1">IBDA_DRIDRMService</a>
  
 
  

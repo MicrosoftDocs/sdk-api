@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IScrollProvider.get_VerticalViewSize
+: 
 ---
 
 # IScrollProvider::get_VerticalViewSize

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress.get_DialableAddress
+: 
 ---
 
 # ITAddress::get_DialableAddress
@@ -120,7 +128,7 @@ The <i>pDialableAddress</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>pDialableAddress</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>pDialableAddress</i> parameter.
 			
 
 The availability of this value depends on the service provider. For example, on an address exposed by the Unimodem service provider, this method will return an empty string instead of a phone number.
@@ -137,7 +145,7 @@ The availability of this value depends on the service provider. For example, on 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
+<a href="address_ovr.htm">Dialable Addresses</a>
 
 
 

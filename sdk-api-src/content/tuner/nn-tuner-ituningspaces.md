@@ -9,8 +9,8 @@ ms.assetid: db252e22-8efe-4bfc-8fd3-2be7022bbbbd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], ITuningSpaces interface [Microsoft TV Technologies],described, ITuningSpacesInterface, mstv.ituningspaces, tuner/ITuningSpaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

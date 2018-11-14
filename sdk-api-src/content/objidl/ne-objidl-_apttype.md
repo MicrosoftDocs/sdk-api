@@ -9,8 +9,8 @@ ms.assetid: eae95b1f-3883-4334-aa7e-84e71e05fb24
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: APTTYPE, APTTYPE enumeration [COM], APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, APTTYPE_STA, _APTTYPE, _com_APTTYPE, com.apttype, objidlbase/APTTYPE, objidlbase/APTTYPE_CURRENT, objidlbase/APTTYPE_MAINSTA, objidlbase/APTTYPE_MTA, objidlbase/APTTYPE_NA, objidlbase/APTTYPE_STA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidl.h

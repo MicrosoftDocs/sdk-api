@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Auxiliary API library version 1.0 or later
+- apiref
+: 
+- 
+: 
+- AuxUlibInitialize
+: 
 ---
 
 # AuxUlibInitialize function

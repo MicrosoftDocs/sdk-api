@@ -9,8 +9,8 @@ ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CertStoreProvSetCertPropertyCallback, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], _crypto2_certstoreprovsetcertpropertycallback, security.certstoreprovsetcertpropertycallback, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -108,7 +108,7 @@ Returns <b>TRUE</b> if it is okay to set the property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 0d16d82a-287c-4402-ac10-f601684bd976
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EngineAdapterSetHashAlgorithm, EngineAdapterSetHashAlgorithm callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_HASH_ALGORITHM_FN, PIBIO_ENGINE_SET_HASH_ALGORITHM_FN callback, secbiomet.engineadaptersethashalgorithm, winbio_adapter/EngineAdapterSetHashAlgorithm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

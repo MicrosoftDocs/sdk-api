@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509EnrollmentPolicyServer.GetTemplates
+: 
 ---
 
 # IX509EnrollmentPolicyServer::GetTemplates
@@ -60,7 +68,7 @@ The <b>GetTemplates</b> method retrieves a collection of the templates supported
 
 ### -param pTemplates [out, retval]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351665(v=VS.85).aspx">IX509CertificateTemplates</a> interface that represents the template collection.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/82d14b93-e07b-4ff3-88b9-b1873972b4ad">IX509CertificateTemplates</a> interface that represents the template collection.
 
 
 ## -returns
@@ -69,7 +77,7 @@ Address of a variable that receives a pointer to an <a href="https://msdn.micros
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -83,7 +91,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object has not been initialized.
 
 </td>
 </tr>
@@ -98,7 +106,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

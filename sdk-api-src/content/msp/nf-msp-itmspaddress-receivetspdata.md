@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msp.h
+: 
+- ITMSPAddress.ReceiveTSPData
+: 
 ---
 
 # ITMSPAddress::ReceiveTSPData
@@ -63,7 +71,7 @@ The
 
 ### -param pMSPCall [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the MSP Call object.
+Pointer to <a href="_com_iunknown">IUnknown</a> interface of the MSP Call object.
 
 
 ### -param pBuffer

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationStoryboard2.AddKeyframeAfterTransition
+: 
 ---
 
 # IUIAnimationStoryboard2::AddKeyframeAfterTransition

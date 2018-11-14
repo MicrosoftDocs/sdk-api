@@ -9,8 +9,8 @@ ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: VirtualChannelClose, VirtualChannelClose callback, VirtualChannelClose callback function [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 
@@ -54,8 +54,8 @@ Closes the client end of a virtual channel.
 
 Remote Desktop Services provides a pointer to a 
 <b>VirtualChannelClose</b> function in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380779(v=VS.85).aspx">CHANNEL_ENTRY_POINTS</a> structure passed to your 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383560(v=VS.85).aspx">VirtualChannelEntry</a> entry point.
+<a href="https://msdn.microsoft.com/f64471b0-1f2e-48cb-9f9c-1bb536afc248">CHANNEL_ENTRY_POINTS</a> structure passed to your 
+<a href="https://msdn.microsoft.com/1fd185fb-6dc9-4b32-9fa7-15ef76776305">VirtualChannelEntry</a> entry point.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Remote Desktop Services provides a pointer to a
 ### -param openHandle [in]
 
 Handle to the virtual channel. This is the handle returned in the <i>pOpenHandle</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383570(v=VS.85).aspx">VirtualChannelOpen</a> function.
+<a href="https://msdn.microsoft.com/4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9">VirtualChannelOpen</a> function.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If an error occurs, the function returns one of the following values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383570(v=VS.85).aspx">VirtualChannelOpen</a>
+<a href="https://msdn.microsoft.com/4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9">VirtualChannelOpen</a>
  
 
  

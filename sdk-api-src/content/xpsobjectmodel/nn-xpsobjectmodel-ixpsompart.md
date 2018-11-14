@@ -9,8 +9,8 @@ ms.assetid: 71cd0155-6c95-42ca-bfc3-dffd43d95dc9
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], IXpsOMPart interface [XPS Documents and Packaging],described, xps.ixpsompart, xpsobjectmodel/IXpsOMPart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

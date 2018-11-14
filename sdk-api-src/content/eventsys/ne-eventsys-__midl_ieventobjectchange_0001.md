@@ -9,8 +9,8 @@ ms.assetid: 1dad5849-4c6c-4632-953c-1bb18f14e8c1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: EOC_ChangeType, EOC_ChangeType enumeration [COM], EOC_DeletedObject, EOC_ModifiedObject, EOC_NewObject, __MIDL_IEventObjectChange_0001, _com_EOC_ChangeType, com.eoc_changetype, eventsys/EOC_ChangeType, eventsys/EOC_DeletedObject, eventsys/EOC_ModifiedObject, eventsys/EOC_NewObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eventsys.h
 req.include-header: 
@@ -79,7 +79,7 @@ An existing object was deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679541(v=VS.85).aspx">IEventObjectChange</a>
+<a href="_cos_IEventObjectChange">IEventObjectChange</a>
  
 
  

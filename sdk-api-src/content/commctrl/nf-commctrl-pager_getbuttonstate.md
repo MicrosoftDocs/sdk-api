@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Pager_GetButtonState
+: 
 ---
 
 # Pager_GetButtonState macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the state of the specified button in a pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760871(v=VS.85).aspx">PGM_GETBUTTONSTATE</a> message explicitly. 
+Retrieves the state of the specified button in a pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/58f99b67-fef7-4695-86e2-0579a2f6de2f">PGM_GETBUTTONSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Retrieves the state of the specified button in a pager control. You can use this
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 
@@ -69,5 +77,5 @@ Handle to the pager control.
 
 Type: <b>int</b>
 
-Indicates which button to retrieve the state for. See the description for <i>iButton</i> in <a href="https://msdn.microsoft.com/en-us/library/Bb760871(v=VS.85).aspx">PGM_GETBUTTONSTATE</a> for a list of possible values. 
+Indicates which button to retrieve the state for. See the description for <i>iButton</i> in <a href="https://msdn.microsoft.com/58f99b67-fef7-4695-86e2-0579a2f6de2f">PGM_GETBUTTONSTATE</a> for a list of possible values. 
 

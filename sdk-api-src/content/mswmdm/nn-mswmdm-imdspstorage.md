@@ -9,8 +9,8 @@ ms.assetid: f22b8a6d-7df8-4fea-9436-79b9ded25a40
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], IMDSPStorage interface [windows Media Device Manager],described, IMDSPStorageInterface, mswmdm/IMDSPStorage, wmdm.imdspstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

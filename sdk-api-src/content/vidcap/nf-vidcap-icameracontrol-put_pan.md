@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- ICameraControl.put_Pan
+: 
 ---
 
 # ICameraControl::put_Pan

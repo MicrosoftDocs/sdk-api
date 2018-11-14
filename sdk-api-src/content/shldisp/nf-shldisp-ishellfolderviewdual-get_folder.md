@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shldisp.h
+: 
+- IShellFolderViewDual.get_Folder
+: 
 ---
 
 # IShellFolderViewDual::get_Folder

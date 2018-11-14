@@ -9,8 +9,8 @@ ms.assetid: 258cfaa3-8de2-45d9-b61b-683cf41c127f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDX_IRQDATA, DX_IRQDATA, DX_IRQDATA structure [Display Devices], PDX_IRQDATA, PDX_IRQDATA structure pointer [Display Devices], _DX_IRQDATA, ddstrcts_abf413a4-709e-4458-930c-93f21c368892.xml, display.dx_irqdata, dxmini/DX_IRQDATA, dxmini/PDX_IRQDATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

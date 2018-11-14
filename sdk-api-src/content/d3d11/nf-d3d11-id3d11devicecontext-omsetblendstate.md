@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11DeviceContext.OMSetBlendState
+: 
 ---
 
 # ID3D11DeviceContext::OMSetBlendState
@@ -70,7 +78,7 @@ Pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/ccb3
 
 Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a>[4]</b>
 
-Array of blend factors, one for each RGBA component. The blend factors modulate values for the pixel shader, render target, or both. If you created  the blend-state object with <a href="https://msdn.microsoft.com/en-us/library/Ff476086(v=VS.85).aspx">D3D11_BLEND_BLEND_FACTOR</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476086(v=VS.85).aspx">D3D11_BLEND_INV_BLEND_FACTOR</a>, the blending stage uses the non-NULL array of blend factors. If you didn't create the blend-state object with <b>D3D11_BLEND_BLEND_FACTOR</b> or <b>D3D11_BLEND_INV_BLEND_FACTOR</b>, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors, and you can later call <a href="https://msdn.microsoft.com/871429b4-8f4a-43bb-ae55-3b07f8d00f68">ID3D11DeviceContext::OMGetBlendState</a> to retrieve the blend factors. If you pass <b>NULL</b>, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
+Array of blend factors, one for each RGBA component. The blend factors modulate values for the pixel shader, render target, or both. If you created  the blend-state object with <a href="d3d11_blend.htm">D3D11_BLEND_BLEND_FACTOR</a> or <a href="d3d11_blend.htm">D3D11_BLEND_INV_BLEND_FACTOR</a>, the blending stage uses the non-NULL array of blend factors. If you didn't create the blend-state object with <b>D3D11_BLEND_BLEND_FACTOR</b> or <b>D3D11_BLEND_INV_BLEND_FACTOR</b>, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors, and you can later call <a href="https://msdn.microsoft.com/871429b4-8f4a-43bb-ae55-3b07f8d00f68">ID3D11DeviceContext::OMGetBlendState</a> to retrieve the blend factors. If you pass <b>NULL</b>, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
 
 
 ### -param SampleMask [in]
@@ -93,7 +101,7 @@ Returns nothing.
 
 
 
-Blend state is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> to determine how to blend together two RGB pixel values and two alpha values. The two RGB pixel values and two alpha values are the RGB pixel value and alpha value that the pixel shader outputs and the RGB pixel value and alpha value already in the output render target. The <a href="https://msdn.microsoft.com/5fee5cfc-519e-41d9-93d4-f4f28e1826b8">blend option</a> controls the data source that the blending stage uses to modulate values for the pixel shader, render target, or both. The <a href="https://msdn.microsoft.com/e0a201da-0d5d-4a85-a0cb-fddd9bd2f460">blend operation</a> controls how the blending stage mathematically combines these modulated values.
+Blend state is used by the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> to determine how to blend together two RGB pixel values and two alpha values. The two RGB pixel values and two alpha values are the RGB pixel value and alpha value that the pixel shader outputs and the RGB pixel value and alpha value already in the output render target. The <a href="https://msdn.microsoft.com/5fee5cfc-519e-41d9-93d4-f4f28e1826b8">blend option</a> controls the data source that the blending stage uses to modulate values for the pixel shader, render target, or both. The <a href="https://msdn.microsoft.com/e0a201da-0d5d-4a85-a0cb-fddd9bd2f460">blend operation</a> controls how the blending stage mathematically combines these modulated values.
 
 To create a blend-state interface, call <a href="https://msdn.microsoft.com/05b27d72-6ae5-4bab-8906-2d1373ea8d4c">ID3D11Device::CreateBlendState</a>.
 

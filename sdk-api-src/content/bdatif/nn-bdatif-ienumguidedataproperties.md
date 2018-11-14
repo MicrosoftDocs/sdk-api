@@ -9,8 +9,8 @@ ms.assetid: ae4db426-7e90-4cb6-b53a-2cb7074308fc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEnumGuideDataProperties, IEnumGuideDataProperties interface [Microsoft TV Technologies], IEnumGuideDataProperties interface [Microsoft TV Technologies],described, IEnumGuideDataPropertiesInterface, bdatif/IEnumGuideDataProperties, mstv.ienumguidedataproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 
@@ -55,12 +55,12 @@ The <b>IEnumGuideDataProperties</b> interface represents a collection of guide d
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694113(v=VS.85).aspx">IGuideData::GetProgramProperties</a>.</li>
+<a href="https://msdn.microsoft.com/57eb55bf-49d9-471e-b59c-0d87aa3c3e3c">IGuideData::GetProgramProperties</a>.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694115(v=VS.85).aspx">IGuideData::GetScheduleEntryProperties</a>
+<a href="https://msdn.microsoft.com/7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0">IGuideData::GetScheduleEntryProperties</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694116(v=VS.85).aspx">IGuideData::GetServiceProperties</a>
+<a href="https://msdn.microsoft.com/28be3bb7-b76a-44a3-892c-2aade5dbe255">IGuideData::GetServiceProperties</a>
 </li>
 </ul>
 
@@ -68,9 +68,9 @@ The <b>IEnumGuideDataProperties</b> interface represents a collection of guide d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGuideDataProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumGuideDataProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGuideDataProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumGuideDataProperties</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -83,7 +83,7 @@ The <b>IEnumGuideDataProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693994(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/4956b37c-a39f-4f5d-bc2d-9746a98660ec">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the collection. (Currently not implemented.)
@@ -92,7 +92,7 @@ Creates a copy of the collection. (Currently not implemented.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693995(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/5d13ce97-5729-48e5-a742-0689b2aae1f3">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item or items in the collection.
@@ -101,7 +101,7 @@ Retrieves the next item or items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693996(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/5e019e0e-81f7-4eb9-9ddb-e20e7e216e33">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the enumerator to the first item in the collection.
@@ -110,7 +110,7 @@ Sets the enumerator to the first item in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693997(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/bd8096cb-478a-4d23-b5e1-231c98ca21d1">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of items. (Currently not implemented.)
@@ -134,7 +134,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

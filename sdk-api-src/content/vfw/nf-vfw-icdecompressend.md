@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressend.htm
 tech.root: Multimedia
 ms.assetid: 9d66174a-b6bd-4bcd-a88a-bb1876bbc510
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ICDecompressEnd, ICDecompressEnd macro [Windows Multimedia], _win32_ICDecompressEnd, multimedia.icdecompressend, vfw/ICDecompressEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- ICDecompressEnd
+: 
 ---
 
 # ICDecompressEnd macro

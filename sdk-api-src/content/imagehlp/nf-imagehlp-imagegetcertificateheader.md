@@ -7,7 +7,7 @@ old-location: base\imagegetcertificateheader.htm
 tech.root: debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImageGetCertificateHeader
+: 
 ---
 
 # ImageGetCertificateHeader function

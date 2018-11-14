@@ -9,8 +9,8 @@ ms.assetid: 242D6032-62E5-4915-B074-6E595A12F912
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: D3D11_VIDEO_COLOR_YCbCrA, D3D11_VIDEO_COLOR_YCbCrA structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR_YCbCrA, mf.d3d11_video_color_ycbcra
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -106,11 +106,11 @@ For example, for 8-bit YUV formats, <code>val = BYTE(f * 255.0)</code>.  Referen
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530104(v=VS.85).aspx">About YUV Video</a>
+<a href="https://msdn.microsoft.com/089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1">About YUV Video</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

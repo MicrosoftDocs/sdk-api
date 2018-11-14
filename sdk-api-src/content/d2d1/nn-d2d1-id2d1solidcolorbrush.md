@@ -7,10 +7,10 @@ old-location: direct2d\ID2D1SolidColorBrush.htm
 tech.root: direct2d
 ms.assetid: a15c2696-3122-461e-806e-2195a50a3e92
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1SolidColorBrush, ID2D1SolidColorBrush interface [Direct2D], ID2D1SolidColorBrush interface [Direct2D],described, d2d1/ID2D1SolidColorBrush, direct2d.ID2D1SolidColorBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -102,41 +102,49 @@ A solid color brush is a device-dependent resource. (For more information about 
 
 The following example uses the <a href="https://msdn.microsoft.com/3dbfe26f-cf36-47b0-925e-4934e0d7c390">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
 
-
-```cpp
-if (SUCCEEDED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateSolidColorBrush(
+    hr = m_pRenderTarget-&gt;CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-        &m_pBlackBrush
+        &amp;m_pBlackBrush
         );
 }
 
 // Create a solid color brush with its rgb value 0x9ACD32.
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateSolidColorBrush(
+    hr = m_pRenderTarget-&gt;CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
-        &m_pYellowGreenBrush
+        &amp;m_pYellowGreenBrush
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next code example calls the <a href="https://msdn.microsoft.com/b5d7ca28-0751-4799-8480-f221fd5fe276">FillRectangle</a> method to paint the interior of a rectangle with the yellow green brush and the <a href="https://msdn.microsoft.com/bc176c12-db06-4f1e-b668-4441723a916a">DrawRectangle</a> method to paint the outline of the rectangle with the black brush:
 
-
-```cpp
-m_pRenderTarget->FillRectangle(&rcBrushRect, m_pYellowGreenBrush);
-m_pRenderTarget->DrawRectangle(&rcBrushRect, m_pBlackBrush, 1, NULL);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>m_pRenderTarget-&gt;FillRectangle(&amp;rcBrushRect, m_pYellowGreenBrush);
+m_pRenderTarget-&gt;DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
+</pre>
+</td>
+</tr>
+</table></span></div>
 These examples produce the output shown in the following illustration.
 
-<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="./images/brushes_ovw_solidcolor.png"/>
+<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="images/brushes_ovw_solidcolor.png"/>
 
 <div class="code"></div>
 

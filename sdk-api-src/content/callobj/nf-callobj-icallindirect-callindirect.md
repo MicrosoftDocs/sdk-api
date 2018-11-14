@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- callobj.h
+: 
+- ICallIndirect.CallIndirect
+: 
 ---
 
 # ICallIndirect::CallIndirect
@@ -122,7 +130,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691485(v=VS.85).aspx">ICallIndirect</a>
+<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
  
 
  

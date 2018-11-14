@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodecsdk.h
+: 
+- IWICMetadataReader.GetValueByIndex
+: 
 ---
 
 # IWICMetadataReader::GetValueByIndex
@@ -67,21 +75,21 @@ The index of the metadata item to retrieve.
 
 ### -param pvarSchema [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer that receives the schema property.
 
 
 ### -param pvarId [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer that receives the id property.
 
 
 ### -param pvarValue [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer that receives the metadata value.
 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- tapi.h
+: 
+- TAPIERROR_FORMATMESSAGE
+: 
 ---
 
 # TAPIERROR_FORMATMESSAGE macro

@@ -9,8 +9,8 @@ ms.assetid: 3216afbb-d524-486d-99ad-0ee0cfb884e0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISensor, ISensor interface [WinSensors], ISensor interface [WinSensors],described, sensorsapi/ISensor, winsensors.isensor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

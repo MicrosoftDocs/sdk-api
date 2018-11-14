@@ -7,7 +7,7 @@ old-location: base\wow64setthreadcontext.htm
 tech.root: debug
 ms.assetid: 4119c945-b654-4634-a88b-e41bc762018a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: Wow64SetThreadContext, Wow64SetThreadContext function, base.wow64setthreadcontext, winbase/Wow64SetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Wow64SetThreadContext
+: 
 ---
 
 # Wow64SetThreadContext function

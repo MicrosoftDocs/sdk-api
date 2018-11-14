@@ -9,8 +9,8 @@ ms.assetid: 3d565e99-eb90-47ca-9fb9-295236f566fb
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPLINEDEVSTATUS, LINEDEVSTATUS, LINEDEVSTATUS structure [TAPI 2.2], LPLINEDEVSTATUS, LPLINEDEVSTATUS structure pointer [TAPI 2.2], _tapi2_linedevstatus_str, linedevstatus_tag, tapi/LINEDEVSTATUS, tapi/LPLINEDEVSTATUS, tapi2.linedevstatus_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

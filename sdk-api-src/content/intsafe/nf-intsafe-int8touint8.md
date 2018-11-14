@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Int8ToUInt8
+: 
 ---
 
 # Int8ToUInt8 function

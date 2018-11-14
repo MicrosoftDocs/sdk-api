@@ -9,8 +9,8 @@ ms.assetid: fb7ddd8a-aa00-4ca8-9516-f16e2b8df7b4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: XHR_CERT_ERROR_ALL_SERVER_ERRORS, XHR_CERT_ERROR_CERT_CN_INVALID, XHR_CERT_ERROR_CERT_DATE_INVALID, XHR_CERT_ERROR_FLAG, XHR_CERT_ERROR_FLAG enumeration [XMLHttpRequest2], XHR_CERT_ERROR_REVOCATION_FAILED, XHR_CERT_ERROR_UNKNOWN_CA, _XHR_CERT_ERROR_FLAG, ixhr2.xhr_cert_error_flag, msxml6/XHR_CERT_ERROR_ALL_SERVER_ERRORS, msxml6/XHR_CERT_ERROR_CERT_CN_INVALID, msxml6/XHR_CERT_ERROR_CERT_DATE_INVALID, msxml6/XHR_CERT_ERROR_FLAG, msxml6/XHR_CERT_ERROR_REVOCATION_FAILED, msxml6/XHR_CERT_ERROR_UNKNOWN_CA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msxml6.h
 req.include-header: 

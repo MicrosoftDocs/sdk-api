@@ -9,8 +9,8 @@ ms.assetid: fb5cc2c3-ba86-401a-b51f-b28d1f5be58f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: COM handler action [Task Scheduler],interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], IComHandlerAction interface [Task Scheduler],described, taskschd.icomhandleraction, taskschd/IComHandlerAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -81,7 +81,7 @@ When reading or writing XML, a COM handler action is specified in the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

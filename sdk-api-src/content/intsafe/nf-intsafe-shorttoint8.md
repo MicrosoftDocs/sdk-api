@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ShortToInt8
+: 
 ---
 
 # ShortToInt8 function

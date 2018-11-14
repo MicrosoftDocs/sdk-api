@@ -7,10 +7,10 @@ old-location: base\imagehlp_extended_options.htm
 tech.root: debug
 ms.assetid: 5354F53C-F161-4887-85E4-7A00521034EE
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: IMAGEHLP_EXTENDED_OPTIONS, IMAGEHLP_EXTENDED_OPTIONS enumeration, SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SYMOPT_EX_MAX, base.imagehlp_extended_options, dbghelp/IMAGEHLP_EXTENDED_OPTIONS, dbghelp/SYMOPT_EX_DISABLEACCESSTIMEUPDATE, dbghelp/SYMOPT_EX_MAX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dbghelp.h
 req.include-header: 

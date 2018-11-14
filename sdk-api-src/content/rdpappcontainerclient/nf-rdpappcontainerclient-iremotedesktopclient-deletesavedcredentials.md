@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpappcontainerclient.h
+: 
+- IRemoteDesktopClient.DeleteSavedCredentials
+: 
 ---
 
 # IRemoteDesktopClient::DeleteSavedCredentials

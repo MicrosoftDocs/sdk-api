@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shldisp.h
+: 
+- IShellFolderViewDual2.get_CurrentViewMode
+: 
 ---
 
 # IShellFolderViewDual2::get_CurrentViewMode

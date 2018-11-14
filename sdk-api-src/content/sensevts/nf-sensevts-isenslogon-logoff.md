@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sensevts.h
+: 
+- ISensLogon.Logoff
+: 
 ---
 
 # ISensLogon::Logoff
@@ -112,11 +120,11 @@ SENS calls this method to notify an application that a user is logged off.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 1b250408-4e3b-4cec-a31e-2c7f7ebad23b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID enumeration [HTTP], HttpServiceConfigCache, HttpServiceConfigIPListenList, HttpServiceConfigMax, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, PHTTP_SERVICE_CONFIG_ID, PHTTP_SERVICE_CONFIG_ID enumeration pointer [HTTP], _HTTP_SERVICE_CONFIG_ID, _http_http_service_config_id, http.http_service_config_id, http/HTTP_SERVICE_CONFIG_ID, http/HttpServiceConfigCache, http/HttpServiceConfigIPListenList, http/HttpServiceConfigMax, http/HttpServiceConfigSSLCertInfo, http/HttpServiceConfigSslCcsCertInfo, http/HttpServiceConfigSslSniCertInfo, http/HttpServiceConfigTimeout, http/HttpServiceConfigUrlAclInfo, http/PHTTP_SERVICE_CONFIG_ID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

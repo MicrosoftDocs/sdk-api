@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitPropVariantFromUInt64Vector
+: 
 ---
 
 # InitPropVariantFromUInt64Vector function
@@ -99,7 +105,7 @@ Creates a VT_VECTOR | VT_UI8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,15 +134,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762313(v=VS.85).aspx">InitPropVariantFromUInt64</a>
+<a href="shell.InitPropVariantFromUInt64">InitPropVariantFromUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762343(v=VS.85).aspx">InitVariantFromUInt64Array</a>
+<a href="shell.InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776574(v=VS.85).aspx">PropVariantToUInt64Vector</a>
+<a href="shell.PropVariantToUInt64Vector">PropVariantToUInt64Vector</a>
  
 
  

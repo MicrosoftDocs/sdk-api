@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oaidl.h
+: 
+- ITypeLib.ReleaseTLibAttr
+: 
 ---
 
 # ITypeLib::ReleaseTLibAttr

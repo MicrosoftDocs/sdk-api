@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- INetworkSettings.get_Id
+: 
 ---
 
 # INetworkSettings::get_Id

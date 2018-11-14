@@ -9,8 +9,8 @@ ms.assetid: 5762E634-CBA6-496C-A771-CA5718E7E6AD
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], IAppxBundleWriter interface [App packaging and management],described, appxpackaging/IAppxBundleWriter, appxpkg.iappxbundlewriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IAzAuthorizationStore3::IsUpdateNeeded
 author: windows-sdk-content
 description: Checks whether the persisted version of this authorization store is newer than the cached version.
 old-location: security\iazauthorizationstore3_isupdateneeded_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 2b5bed8f-f38a-46dd-b889-65d43b13ce7c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],IsUpdateNeeded method, IAzAuthorizationStore3.IsUpdateNeeded, IAzAuthorizationStore3::IsUpdateNeeded, IsUpdateNeeded, IsUpdateNeeded method [Security], IsUpdateNeeded method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::IsUpdateNeeded, security.iazauthorizationstore3_isupdateneeded_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore3.IsUpdateNeeded
+: 
 ---
 
 # IAzAuthorizationStore3::IsUpdateNeeded

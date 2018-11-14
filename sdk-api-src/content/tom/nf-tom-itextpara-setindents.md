@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextPara.SetIndents
+: 
 ---
 
 # ITextPara::SetIndents
@@ -157,7 +165,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-Line indents are not allowed to position text in the margins. If the first-line indent is set to a negative value (for an outdented paragraph) while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, set the first-line indent value equal to zero either explicitly or by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">ITextPara::Reset</a> method. Then, call <b>ITextPara::SetIndents</b> to set a nonnegative, left-indent value and set the desired first-line indent.
+Line indents are not allowed to position text in the margins. If the first-line indent is set to a negative value (for an outdented paragraph) while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, set the first-line indent value equal to zero either explicitly or by calling the <a href="https://msdn.microsoft.com/1952c4b7-9f78-49a9-ba4b-a9c666fa1010">ITextPara::Reset</a> method. Then, call <b>ITextPara::SetIndents</b> to set a nonnegative, left-indent value and set the desired first-line indent.
 
 
 
@@ -171,7 +179,7 @@ Line indents are not allowed to position text in the margins. If the first-line 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -179,11 +187,11 @@ Line indents are not allowed to position text in the margins. If the first-line 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/1952c4b7-9f78-49a9-ba4b-a9c666fa1010">Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

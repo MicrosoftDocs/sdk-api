@@ -4,10 +4,10 @@ title: IAzScope::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzScope object.
 old-location: security\iazscope_submit.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c06f1994-71d9-4867-a5ed-8fa90206994f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],Submit method, IAzScope interface [Security],Submit method, IAzScope.Submit, IAzScope::Submit, Submit, Submit method [Security], Submit method [Security],AzScope object, Submit method [Security],IAzScope interface, azroles/IAzScope::Submit, security.iazscope_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.Submit
+: 
 ---
 
 # IAzScope::Submit

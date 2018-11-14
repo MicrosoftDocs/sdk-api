@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSMan.CreateSession
+: 
 ---
 
 # IWSMan::CreateSession
@@ -66,9 +74,9 @@ The protocol and service to connect to, including either IPv4 or IPv6. The forma
 ### -param flags [in]
 
 The session flags that specify the authentication method, such as 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">Negotiate authentication</a> 
+     <a href="windows_remote_management_glossary.htm">Negotiate authentication</a> 
      or 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">Digest authentication</a>, 
+     <a href="windows_remote_management_glossary.htm">Digest authentication</a>, 
      for connecting to a remote computer. These flags also specify other session connection information, such as 
      encoding or encryption. This parameter must contain one or more of the flags in 
      <b>__WSManSessionFlags</b> for a remote connection. For more information, see 

@@ -9,8 +9,8 @@ ms.assetid: 8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IExtendContextMenu, IExtendContextMenu interface [MMC], IExtendContextMenu interface [MMC],described, _slate_iextendcontextmenu, mmc.iextendcontextmenu, mmc/IExtendContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
@@ -101,7 +101,7 @@ Indicates that an extension item on a context menu was selected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

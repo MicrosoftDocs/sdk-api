@@ -9,8 +9,8 @@ ms.assetid: 0b2a5516-6faf-43d5-9370-a25dbc7e2843
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_CONTRACT_DESCRIPTION, WS_CONTRACT_DESCRIPTION structure [Web Services for Windows], _WS_CONTRACT_DESCRIPTION, webservices/WS_CONTRACT_DESCRIPTION, wsw.ws_contract_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_simple_bind_sA
+: 
 ---
 
 # ldap_simple_bind_sA function

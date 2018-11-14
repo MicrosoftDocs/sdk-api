@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarItemBalloon.GetBalloonInfo
+: 
 ---
 
 # ITfLangBarItemBalloon::GetBalloonInfo
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629076(v=VS.85).aspx">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
+Pointer to a <a href="https://msdn.microsoft.com/8ceed1ae-27f9-4998-b950-52865bfa2f79">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
 
 
 ## -returns
@@ -106,7 +114,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628702(v=VS.85).aspx">ITfLangBarItemBalloon</a>
+<a href="https://msdn.microsoft.com/619a6f21-fbac-455c-a702-0302ce13112b">ITfLangBarItemBalloon</a>
 
 
 

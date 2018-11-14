@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkCollector.putref_Renderer
+: 
 ---
 
 # IInkCollector::putref_Renderer

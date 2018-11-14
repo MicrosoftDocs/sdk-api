@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmAction.Delete
+: 
 ---
 
 # IFsrmAction::Delete

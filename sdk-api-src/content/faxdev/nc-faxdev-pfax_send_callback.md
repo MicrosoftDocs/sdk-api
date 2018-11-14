@@ -9,8 +9,8 @@ ms.assetid: VS|fax|~\fax\faxfspapiref_8xt7.htm
 ms.author: windowssdkdev
 ms.date: 11/08/2018
 ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, PFAX_SEND_CALLBACK callback, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: faxdev.h
 req.include-header: 
@@ -64,7 +64,7 @@ The <b>PFAX_SEND_CALLBACK</b> data type is a pointer to a <i>FaxSendCallback</i>
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function.
+Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a> function.
 
 
 ### -param CallHandle [in]
@@ -117,15 +117,15 @@ A virtual FSP does not need the <i>FaxSendCallback</i> function.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/402583fd-aef8-4197-a41e-870825c58351">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
+<a href="https://msdn.microsoft.com/9ec25812-658f-4d64-85c4-8ab66be5d93e">FaxDevSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a>
 
 
 
@@ -133,7 +133,7 @@ A virtual FSP does not need the <i>FaxSendCallback</i> function.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
  
 
  

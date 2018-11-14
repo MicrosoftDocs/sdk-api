@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509EnrollmentPolicyServer.LoadPolicy
+: 
 ---
 
 # IX509EnrollmentPolicyServer::LoadPolicy
@@ -60,7 +68,7 @@ The <b>LoadPolicy</b> method retrieves policy information from the certificate e
 
 ### -param option [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Ee351760(v=VS.85).aspx">X509EnrollmentPolicyLoadOption</a> enumeration that specifies how to retrieve policy from the policy server. This can be one of the following values.
+A value of the <a href="https://msdn.microsoft.com/94adcffd-b4fe-4bd9-912c-9e8d5e5fdb5b">X509EnrollmentPolicyLoadOption</a> enumeration that specifies how to retrieve policy from the policy server. This can be one of the following values.
 
 <table>
 <tr>
@@ -117,7 +125,7 @@ Registers a thread to update a sequence number if there are changes to the templ
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -157,7 +165,7 @@ There was a problem with the lightweight directory access protocol (LDAP) used t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

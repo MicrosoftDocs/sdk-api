@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- IFileDialogControlEvents.OnButtonClicked
+: 
 ---
 
 # IFileDialogControlEvents::OnButtonClicked

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextHost2.TxGetEditStyle
+: 
 ---
 
 # ITextHost2::TxGetEditStyle

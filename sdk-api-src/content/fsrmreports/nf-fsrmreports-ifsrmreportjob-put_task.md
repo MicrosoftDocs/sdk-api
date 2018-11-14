@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmReportJob.put_Task
+: 
 ---
 
 # IFsrmReportJob::put_Task

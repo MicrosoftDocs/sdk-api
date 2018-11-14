@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MsiRecordSetInteger
+: 
 ---
 
 # MsiRecordSetInteger function
@@ -119,7 +125,7 @@ To set a record integer field to <b>NULL_INTEGER</b>, set <i>iValue</i> to <b>MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

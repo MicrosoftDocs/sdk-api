@@ -9,8 +9,8 @@ ms.assetid: 10137c59-db99-4d70-9716-6f05369084a0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PSAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], SAMPR_ENCRYPTED_USER_PASSWORD, SAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], _SAMPR_ENCRYPTED_USER_PASSWORD, mschap.sampr_encrypted_user_password, mschapp/*PSAMPR_ENCRYPTED_USER_PASSWORD, mschapp/SAMPR_ENCRYPTED_USER_PASSWORD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mschapp.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: LookupPrivilegeNameA function
 author: windows-sdk-content
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
 old-location: security\lookupprivilegename.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: LookupPrivilegeName, LookupPrivilegeName function [Security], LookupPrivilegeNameA, LookupPrivilegeNameW, _win32_lookupprivilegename, security.lookupprivilegename, winbase/LookupPrivilegeName, winbase/LookupPrivilegeNameA, winbase/LookupPrivilegeNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LookupPrivilegeNameA
+: 
 ---
 
 # LookupPrivilegeNameA function
@@ -117,7 +123,7 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

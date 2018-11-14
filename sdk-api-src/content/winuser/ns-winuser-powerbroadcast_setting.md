@@ -9,8 +9,8 @@ ms.assetid: 13fa8220-bad2-4bb6-b652-38fc11a31215
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PPOWERBROADCAST_SETTING, POWERBROADCAST_SETTING, POWERBROADCAST_SETTING structure, PPOWERBROADCAST_SETTING, PPOWERBROADCAST_SETTING structure pointer, base.powerbroadcast_setting, winuser/POWERBROADCAST_SETTING, winuser/PPOWERBROADCAST_SETTING"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

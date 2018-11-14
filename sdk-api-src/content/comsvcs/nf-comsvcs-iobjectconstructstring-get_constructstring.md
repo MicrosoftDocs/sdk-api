@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IObjectConstructString.get_ConstructString
+: 
 ---
 
 # IObjectConstructString::get_ConstructString

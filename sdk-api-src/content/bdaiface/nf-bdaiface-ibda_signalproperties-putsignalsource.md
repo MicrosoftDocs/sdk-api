@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_SignalProperties.PutSignalSource
+: 
 ---
 
 # IBDA_SignalProperties::PutSignalSource
@@ -83,11 +91,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693427(v=VS.85).aspx">GetSignalSource</a>
+<a href="https://msdn.microsoft.com/929ec042-3f43-468e-944a-919dda3893be">GetSignalSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
+<a href="https://msdn.microsoft.com/fe88b628-7959-4d2f-981f-7de9126146f6">IBDA_SignalProperties Interface</a>
  
 
  

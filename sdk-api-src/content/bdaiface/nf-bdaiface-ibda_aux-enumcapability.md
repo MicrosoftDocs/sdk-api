@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_AUX.EnumCapability
+: 
 ---
 
 # IBDA_AUX::EnumCapability
@@ -60,7 +68,7 @@ Gets the capabilities of an auxiliary connector, specified by index.
 
 ### -param dwIndex [in]
 
-The zero-based index of the auxiliary connector. To get the number of connectors on the device, call <a href="https://msdn.microsoft.com/en-us/library/Dd693260(v=VS.85).aspx">IBDA_AUX::QueryCapabilities</a>.
+The zero-based index of the auxiliary connector. To get the number of connectors on the device, call <a href="https://msdn.microsoft.com/7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c">IBDA_AUX::QueryCapabilities</a>.
 
 
 ### -param dwInputID [out]
@@ -113,7 +121,7 @@ Receives the number of analog video standards that the connector supports.
 
 ### -param AnalogStds [out]
 
-Receives a bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration, specifying which analog video standards the connector supports.
+Receives a bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration, specifying which analog video standards the connector supports.
 
 
 ## -returns
@@ -129,7 +137,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Dd693260(v=VS.85).aspx">IBDA_AUX::QueryCapabilities</a> method before calling this method.
+You must call the <a href="https://msdn.microsoft.com/7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c">IBDA_AUX::QueryCapabilities</a> method before calling this method.
 
 
 
@@ -139,7 +147,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Dd693260(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693258(v=VS.85).aspx">IBDA_AUX</a>
+<a href="https://msdn.microsoft.com/8397a04f-5d40-4fa3-ac02-79c764abd174">IBDA_AUX</a>
  
 
  

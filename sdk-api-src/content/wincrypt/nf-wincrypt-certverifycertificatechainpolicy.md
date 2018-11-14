@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertVerifyCertificateChainPolicy
+: 
 ---
 
 # CertVerifyCertificateChainPolicy function
@@ -291,7 +297,7 @@ To get the certificate element use this syntax:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
  
 
  

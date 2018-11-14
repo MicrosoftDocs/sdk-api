@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\enhmetaheader3.htm
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ENHMETAHEADER3, ENHMETAHEADER3 structure [GDI+], _gdiplus_STRUC_ENHMETAHEADER3, gdiplus._gdiplus_STRUC_ENHMETAHEADER3, gdiplusmetaheader/ENHMETAHEADER3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

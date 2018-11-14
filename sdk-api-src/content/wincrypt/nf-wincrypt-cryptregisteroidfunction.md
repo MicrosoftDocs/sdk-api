@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptRegisterOIDFunction
+: 
 ---
 
 # CryptRegisterOIDFunction function
@@ -126,7 +132,7 @@ When you have finished using an OID function, unregister it by calling the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

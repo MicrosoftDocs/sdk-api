@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- icontact.h
+: 
+- IContactPropertyCollection.GetPropertyModificationDate
+: 
 ---
 
 # IContactPropertyCollection::GetPropertyModificationDate
@@ -61,7 +69,7 @@ Retrieves the last modification date for the current property in the enumeration
 
 ### -param pftModificationDate [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>*</b>
 
 Specifies the last modified date as a UTC FILETIME. 
 

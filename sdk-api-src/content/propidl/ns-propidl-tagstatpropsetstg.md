@@ -9,8 +9,8 @@ ms.assetid: 8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: STATPROPSETSTG, STATPROPSETSTG structure [Structured Storage], _stg_statpropsetstg, propidlbase/STATPROPSETSTG, stg.statpropsetstg, tagSTATPROPSETSTG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: propidl.h
 req.include-header: Propidl.h

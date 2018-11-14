@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
+- apiref
+: 
+- 
+: 
+- ScriptGetGlyphABCWidth
+: 
 ---
 
 # ScriptGetGlyphABCWidth function
@@ -53,7 +59,7 @@ req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">ABC width</a> of a given glyph.
+Retrieves the <a href="uniscribe_glossary.htm">ABC width</a> of a given glyph.
 
 
 ## -parameters

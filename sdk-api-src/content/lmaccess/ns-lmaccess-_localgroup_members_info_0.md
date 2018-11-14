@@ -9,8 +9,8 @@ ms.assetid: e559cd90-942c-442a-b57f-7d2024523455
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_0, *PLOCALGROUP_MEMBERS_INFO_0, LOCALGROUP_MEMBERS_INFO_0, LOCALGROUP_MEMBERS_INFO_0 structure [Network Management], _LOCALGROUP_MEMBERS_INFO_0, _win32_localgroup_members_info_0_str, lmaccess/LOCALGROUP_MEMBERS_INFO_0, netmgmt.localgroup_members_info_0_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
@@ -63,7 +63,7 @@ The
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that contains the 
-<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier (SID)</a> of the local group member.
+<a href="security.security_identifiers_sids_">security identifier (SID)</a> of the local group member.
 
 
 ## -see-also

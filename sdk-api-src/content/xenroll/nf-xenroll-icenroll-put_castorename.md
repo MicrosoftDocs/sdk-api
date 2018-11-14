@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.put_CAStoreName
+: 
 ---
 
 # ICEnroll::put_CAStoreName
@@ -96,15 +104,19 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BSTR     bstrStoreName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storename
-hr = pEnroll->get_CAStoreName( &bstrStoreName );
+hr = pEnroll-&gt;get_CAStoreName( &amp;bstrStoreName );
 if ( FAILED ( hr ) )
     printf("Failed getting CAStoreName - %x\n", hr );
 else
@@ -115,13 +127,13 @@ if ( NULL != bstrStoreName )
 
 // set the storename
 // bstrNewName previously set to a valid store name
-hr = pEnroll->put_CAStoreName( bstrNewName );
+hr = pEnroll-&gt;put_CAStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting CAStoreName - %x\n", hr );
 else
-    printf( "CAStoreName was set to : %ws\n", bstrNewName );
-```
-
-
+    printf( "CAStoreName was set to : %ws\n", bstrNewName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

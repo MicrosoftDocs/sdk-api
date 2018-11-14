@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateStreamOnMFByteStreamEx
+: 
 ---
 
 # MFCreateStreamOnMFByteStreamEx function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object that wraps a Microsoft Media Foundation byte stream.
+Creates an <a href="https://msdn.microsoft.com/a9a4bd11-8c69-4826-9ea0-6f42421c8367">IRandomAccessStream</a> object that wraps a Microsoft Media Foundation byte stream.
 
 
 ## -parameters

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lineGetIcon
+: 
 ---
 
 # lineGetIcon function
@@ -93,8 +99,8 @@ LINEERR_BADDEVICEID, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_RESO
 
 The 
 <b>lineGetIcon</b> function causes the provider to return a handle (in <i>lphIcon</i>) to an icon resource (obtained from 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>) that is associated with the specified line. The icon handle is for a resource associated with the provider. The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms648058(v=VS.85).aspx">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the line open.
+<a href="_win32_loadicon_cpp">LoadIcon</a>) that is associated with the specified line. The icon handle is for a resource associated with the provider. The application must use 
+<a href="_win32_copyicon_cpp">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the line open.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
 <a href="https://msdn.microsoft.com/e9981574-0058-420f-9627-6d5a1745a739">lineGetID</a>. For example, if the line supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/line", "", or <b>NULL</b> can be used to request the icon for the line service.

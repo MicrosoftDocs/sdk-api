@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- HAS_POINTER_CONFIDENCE_WPARAM
+: 
 ---
 
 # HAS_POINTER_CONFIDENCE_WPARAM macro

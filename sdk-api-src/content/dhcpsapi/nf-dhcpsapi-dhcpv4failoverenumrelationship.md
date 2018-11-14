@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpV4FailoverEnumRelationship
+: 
 ---
 
 # DhcpV4FailoverEnumRelationship function

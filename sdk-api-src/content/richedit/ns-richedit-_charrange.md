@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CHARRANGE, CHARRANGE structure [Windows Controls], _charrange, _win32_CHARRANGE_str, _win32_CHARRANGE_str_cpp, controls.CHARRANGE, controls._win32_CHARRANGE_str, richedit/CHARRANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
@@ -79,11 +79,11 @@ Character position immediately following the last character in the range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788001(v=VS.85).aspx">EM_EXGETSEL</a>
+<a href="https://msdn.microsoft.com/60fcf13e-6c45-4f4e-9b54-70f0985122fb">EM_EXGETSEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788007(v=VS.85).aspx">EM_EXSETSEL</a>
+<a href="https://msdn.microsoft.com/85a0d1d4-1826-4ac5-b823-de81a051441d">EM_EXSETSEL</a>
 
 
 

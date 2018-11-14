@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxSender.put_OfficeLocation
+: 
 ---
 
 # IFaxSender::put_OfficeLocation

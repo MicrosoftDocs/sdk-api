@@ -9,8 +9,8 @@ ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IQualityControl, IQualityControl interface [DirectShow], IQualityControl interface [DirectShow],described, IQualityControlInterface, dshow.iqualitycontrol, strmif/IQualityControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

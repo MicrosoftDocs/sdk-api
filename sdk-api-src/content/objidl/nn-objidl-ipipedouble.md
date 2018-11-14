@@ -9,8 +9,8 @@ ms.assetid: 434d0e0e-55a0-4a08-bc63-ebca4b2bdcca
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [COM],described, _com_ipipedouble, com.ipipedouble, objidlbase/IPipeDouble
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -55,7 +55,7 @@ Transfers data of the double type (which is 64 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeDouble</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPipeDouble</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeDouble</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPipeDouble</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

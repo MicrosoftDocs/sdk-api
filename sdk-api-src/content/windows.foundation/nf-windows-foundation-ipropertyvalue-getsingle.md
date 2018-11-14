@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.foundation.h
+: 
+- IPropertyValue.GetSingle
+: 
 ---
 
 # IPropertyValue::IPropertyValue

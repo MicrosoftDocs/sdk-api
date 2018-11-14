@@ -53,6 +53,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DispatchMessageA
+: 
 ---
 
 # DispatchMessageA function
@@ -61,7 +67,7 @@ req.redist:
 ## -description
 
 
-Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a> function.
+Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> function.
 
 
 ## -parameters
@@ -71,7 +77,7 @@ Dispatches a message to a window procedure. It is typically used to dispatch a m
 
 ### -param lpMsg [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
 
 A pointer to a structure that contains the message.
 
@@ -92,14 +98,14 @@ The return value specifies the value returned by the window procedure. Although 
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure must contain valid message values. If the <i>lpmsg</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message and the <i>lParam</i> parameter of the <b>WM_TIMER</b> message is not <b>NULL</b>, <i>lParam</i> points to a function that is called instead of the window procedure. 
+The <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure must contain valid message values. If the <i>lpmsg</i> parameter points to a <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message and the <i>lParam</i> parameter of the <b>WM_TIMER</b> message is not <b>NULL</b>, <i>lParam</i> points to a function that is called instead of the window procedure. 
 
-Note that the application is responsible for retrieving and dispatching input messages to the dialog box. Most applications use the main message loop for this. However, to permit the user to move to and to select controls by using the keyboard, the application must call <a href="https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx">IsDialogMessage</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms644995(v=VS.85).aspx">Dialog Box Keyboard Interface</a>.
+Note that the application is responsible for retrieving and dispatching input messages to the dialog box. Most applications use the main message loop for this. However, to permit the user to move to and to select controls by using the keyboard, the application must call <a href="https://msdn.microsoft.com/0afa23a3-f552-40f9-9713-e7bf790ba25c">IsDialogMessage</a>. For more information, see <a href="https://msdn.microsoft.com/49024a0f-ea92-4d56-b063-8e5fcdbd884a">Dialog Box Keyboard Interface</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Creating a Message Loop</a>.
+For an example, see <a href="using_messages_and_message_queues.htm">Creating a Message Loop</a>.
 
 <div class="code"></div>
 
@@ -114,23 +120,23 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx">IsDialogMessage</a>
+<a href="https://msdn.microsoft.com/0afa23a3-f552-40f9-9713-e7bf790ba25c">IsDialogMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
 
 
 
@@ -138,11 +144,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a>
+<a href="https://msdn.microsoft.com/41c2baf4-6426-4789-919c-ab8ff9be8679">TranslateMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 62e4227d-6bc9-4011-acee-6278fe388830
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSSLCertificateManager, IMFSSLCertificateManager interface [Media Foundation], IMFSSLCertificateManager interface [Media Foundation],described, mf.imfsslcertificatemanager, mfidl/IMFSSLCertificateManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

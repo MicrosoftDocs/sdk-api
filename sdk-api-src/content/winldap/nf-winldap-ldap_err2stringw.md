@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_err2stringW
+: 
 ---
 
 # ldap_err2stringW function

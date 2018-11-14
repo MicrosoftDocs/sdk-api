@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- credentialprovider.h
+: 
+- ICredentialProvider.SetUsageScenario
+: 
 ---
 
 # ICredentialProvider::SetUsageScenario
@@ -60,7 +68,7 @@ Defines the scenarios for which the credential provider is valid. Called wheneve
 
 ### -param cpus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
 
 The scenario the credential provider has been created in. This is the usage scenario that needs to be supported. See the Remarks for more information.
 
@@ -69,7 +77,7 @@ The scenario the credential provider has been created in. This is the usage scen
 
 Type: <b>DWORD</b>
 
-A value that affects the behavior of the credential provider. This value can be a bitwise-OR combination of one or more of the following values defined in Wincred.h. See <a href="https://msdn.microsoft.com/en-us/library/Aa375178(v=VS.85).aspx">CredUIPromptForWindowsCredentials</a> for more information.
+A value that affects the behavior of the credential provider. This value can be a bitwise-OR combination of one or more of the following values defined in Wincred.h. See <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> for more information.
 
 
 
@@ -93,7 +101,7 @@ A value that affects the behavior of the credential provider. This value can be 
 
 #### CREDUIWIN_IN_CRED_ONLY (0x00000020)
 
-0x00000020. If the provider can serialize the credentials, then it should enumerate a tile for that credential. No other tiles should be enumerated. Credential providers should use the input <a href="https://msdn.microsoft.com/en-us/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> in <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> and <i>dwFlags</i> in <b>ICredentialProvider::SetUsageScenario</b> in order 
+0x00000020. If the provider can serialize the credentials, then it should enumerate a tile for that credential. No other tiles should be enumerated. Credential providers should use the input <a href="https://msdn.microsoft.com/55ff9be3-490d-4f82-92a0-3551ccbcaade">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> in <a href="https://msdn.microsoft.com/eeeaa3b8-ad0f-4d31-bdd1-646b0e33b7cd">ICredentialProvider::SetSerialization</a> and <i>dwFlags</i> in <b>ICredentialProvider::SetUsageScenario</b> in order 
 to determine how many credential tiles to enumerate. This value cannot be combined with <b>CREDUIWIN_AUTHPACKAGE_ONLY</b>.
 
 

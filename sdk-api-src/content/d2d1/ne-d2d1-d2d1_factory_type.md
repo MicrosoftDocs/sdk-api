@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_FACTORY_TYPE.htm
 tech.root: direct2d
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_FACTORY_TYPE, D2D1_FACTORY_TYPE enumeration [Direct2D], D2D1_FACTORY_TYPE_MULTI_THREADED, D2D1_FACTORY_TYPE_SINGLE_THREADED, d2d1/D2D1_FACTORY_TYPE, d2d1/D2D1_FACTORY_TYPE_MULTI_THREADED, d2d1/D2D1_FACTORY_TYPE_SINGLE_THREADED, direct2d.D2D1_FACTORY_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
@@ -133,7 +133,7 @@ The following code fragments declare a factory pointer, create a singlethreaded 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368034(v=VS.85).aspx">CreateFactory</a>
+<a href="https://msdn.microsoft.com/8c0a685a-8f33-4072-a715-bb423cb44f03">CreateFactory</a>
 
 
 
@@ -141,7 +141,7 @@ The following code fragments declare a factory pointer, create a singlethreaded 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ569217(v=VS.85).aspx">Multithreaded Direct2D Apps</a>
+<a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Multithreaded Direct2D Apps</a>
  
 
  

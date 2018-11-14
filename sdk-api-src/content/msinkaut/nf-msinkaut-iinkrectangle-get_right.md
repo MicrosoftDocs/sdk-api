@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRectangle.get_Right
+: 
 ---
 
 # IInkRectangle::get_Right

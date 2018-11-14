@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod
+: 
 ---
 
 # ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod

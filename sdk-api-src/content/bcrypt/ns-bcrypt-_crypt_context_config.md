@@ -9,8 +9,8 @@ ms.assetid: 3e07b7ae-84ef-4b77-bd49-d96906eaa4f8
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], _CRYPT_CONTEXT_CONFIG, bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

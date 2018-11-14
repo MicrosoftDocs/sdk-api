@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- ITraceDataCollector.get_SessionName
+: 
 ---
 
 # ITraceDataCollector::get_SessionName

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AcquireCredentialsHandleW
+: 
 ---
 
 # AcquireCredentialsHandleW function
@@ -269,7 +275,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

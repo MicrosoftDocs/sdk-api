@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITScriptableAudioFormat.put_FormatTag
+: 
 ---
 
 # ITScriptableAudioFormat::put_FormatTag
@@ -52,7 +60,7 @@ req.redist:
 
 The 
 <b>put_FormatTag</b> method sets the <b>wFormatTag</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +71,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>wFormatTag</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

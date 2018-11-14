@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitVariantFromString
+: 
 ---
 
 # InitVariantFromString function
@@ -50,7 +56,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with a string.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a string.
 
 
 ## -parameters
@@ -62,14 +68,14 @@ Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85
 
 Type: <b>PCWSTR</b>
 
-Pointer to a buffer that contains the source Unicode string. If this value is <b>NULL</b>, the function initializes the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> with a <b>NULL</b> <b>BSTR</b>.
+Pointer to a buffer that contains the source Unicode string. If this value is <b>NULL</b>, the function initializes the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> with a <b>NULL</b> <b>BSTR</b>.
 
 
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -94,7 +100,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromString">InitVariantFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -122,19 +128,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762336(v=VS.85).aspx">InitVariantFromStringArray</a>
+<a href="shell.InitVariantFromStringArray">InitVariantFromStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776617(v=VS.85).aspx">VariantToString</a>
+<a href="shell.VariantToString">VariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776621(v=VS.85).aspx">VariantToStringWithDefault</a>
+<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
  
 
  

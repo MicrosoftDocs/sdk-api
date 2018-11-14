@@ -7,10 +7,10 @@ old-location: audio\iaudiosystemeffectscustomformats.htm
 tech.root: audio
 ms.assetid: 29b758c0-5bbe-489c-9950-bc92a185fbaf
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/13/2018
 ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], IAudioSystemEffectsCustomFormats interface [Audio Devices],described, audio.iaudiosystemeffectscustomformats, audio_syseffects_r_c8bb1589-9952-4e31-8153-653c3dd0f174.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

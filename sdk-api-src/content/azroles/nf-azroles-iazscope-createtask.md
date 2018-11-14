@@ -4,10 +4,10 @@ title: IAzScope::CreateTask
 author: windows-sdk-content
 description: Creates an IAzTask object with the specified name.
 old-location: security\iazscope_createtask.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 2be1afd7-8d10-4783-a5ea-3e8c0b103ceb
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzScope object, CreateTask method [Security],IAzScope interface, IAzScope interface [Security],CreateTask method, IAzScope.CreateTask, IAzScope::CreateTask, azroles/IAzScope::CreateTask, security.iazscope_createtask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.CreateTask
+: 
 ---
 
 # IAzScope::CreateTask

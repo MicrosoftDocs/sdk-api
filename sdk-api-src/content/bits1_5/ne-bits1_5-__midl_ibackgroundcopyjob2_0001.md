@@ -9,8 +9,8 @@ ms.assetid: efe7aa0a-48fc-4192-b81b-40d3a9b0fb22
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BG_AUTH_TARGET, BG_AUTH_TARGET enumeration [BITS], BG_AUTH_TARGET_PROXY, BG_AUTH_TARGET_SERVER, __MIDL_IBackgroundCopyJob2_0001, _drz_bg_auth_target, bits.bg_auth_target, bits1_5/BG_AUTH_TARGET, bits1_5/BG_AUTH_TARGET_PROXY, bits1_5/BG_AUTH_TARGET_SERVER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: bits1_5.h
 req.include-header: Bits.h
@@ -74,11 +74,11 @@ Use credentials for proxy requests.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362785(v=VS.85).aspx">BG_AUTH_CREDENTIALS</a>
+<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362986(v=VS.85).aspx">IBackgroundCopyJob2::RemoveCredentials</a>
+<a href="https://msdn.microsoft.com/dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c">IBackgroundCopyJob2::RemoveCredentials</a>
  
 
  

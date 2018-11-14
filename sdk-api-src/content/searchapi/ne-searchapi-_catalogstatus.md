@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\enums\catalogstatus.htm
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: CATALOG_STATUS_FULL_CRAWL, CATALOG_STATUS_IDLE, CATALOG_STATUS_INCREMENTAL_CRAWL, CATALOG_STATUS_PAUSED, CATALOG_STATUS_PROCESSING_NOTIFICATIONS, CATALOG_STATUS_RECOVERING, CATALOG_STATUS_SHUTTING_DOWN, CatalogStatus, CatalogStatus enumeration [search], _CatalogStatus, _search_CatalogStatus, search._search_CatalogStatus, searchapi/CATALOG_STATUS_FULL_CRAWL, searchapi/CATALOG_STATUS_IDLE, searchapi/CATALOG_STATUS_INCREMENTAL_CRAWL, searchapi/CATALOG_STATUS_PAUSED, searchapi/CATALOG_STATUS_PROCESSING_NOTIFICATIONS, searchapi/CATALOG_STATUS_RECOVERING, searchapi/CATALOG_STATUS_SHUTTING_DOWN, searchapi/CatalogStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231490(v=VS.85).aspx">ISearchCatalogManager::GetCatalogStatus</a> to determine the current state of the catalog.
+Used by <a href="https://msdn.microsoft.com/22cd866e-8af7-428a-8036-43f5ac9ad099">ISearchCatalogManager::GetCatalogStatus</a> to determine the current state of the catalog.
 
 
 ## -enum-fields

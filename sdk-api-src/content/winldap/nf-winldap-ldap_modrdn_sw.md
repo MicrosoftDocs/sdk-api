@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_modrdn_sW
+: 
 ---
 
 # ldap_modrdn_sW function

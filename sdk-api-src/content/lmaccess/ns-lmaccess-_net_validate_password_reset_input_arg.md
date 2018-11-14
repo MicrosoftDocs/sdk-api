@@ -9,8 +9,8 @@ ms.assetid: 3a6d4c2d-0d90-48bf-9dfa-2ba587538350
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure pointer [Network Management], _NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, netmgmt.net_validate_password_reset_input_arg"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

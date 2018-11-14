@@ -9,8 +9,8 @@ ms.assetid: 07d9853f-d38c-4e5b-815a-3dc0157b4d8d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE enumeration [HTTP], HttpCachePolicyMaximum, HttpCachePolicyNocache, HttpCachePolicyTimeToLive, HttpCachePolicyUserInvalidates, PHTTP_CACHE_POLICY_TYPE, PHTTP_CACHE_POLICY_TYPE enumeration pointer [HTTP], _HTTP_CACHE_POLICY_TYPE, _http_http_cache_policy_type, http.http_cache_policy_type, http/HTTP_CACHE_POLICY_TYPE, http/HttpCachePolicyMaximum, http/HttpCachePolicyNocache, http/HttpCachePolicyTimeToLive, http/HttpCachePolicyUserInvalidates, http/PHTTP_CACHE_POLICY_TYPE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

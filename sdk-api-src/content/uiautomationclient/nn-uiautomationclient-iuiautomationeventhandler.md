@@ -9,8 +9,8 @@ ms.assetid: 3b79e085-fb38-403d-b7f1-3e7680f3449f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationEventHandler, IUIAutomationEventHandler interface [Windows Accessibility], IUIAutomationEventHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationEventHandler, uiauto_IUIAutomationEventHandler, uiautomationclient/IUIAutomationEventHandler, winauto.uiauto_IUIAutomationEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

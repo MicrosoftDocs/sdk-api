@@ -9,8 +9,8 @@ ms.assetid: 5c1551f7-f651-4b87-829a-ec9a07fb0ec2
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPDSCLASSCREATIONINFO, DSCCIF_HASWIZARDDIALOG, DSCCIF_HASWIZARDPRIMARYPAGE, DSCLASSCREATIONINFO, DSCLASSCREATIONINFO structure [Active Directory], LPDSCLASSCREATIONINFO, LPDSCLASSCREATIONINFO structure pointer [Active Directory], _glines_dsclasscreationinfo, ad.dsclasscreationinfo, dsclient/DSCLASSCREATIONINFO, dsclient/LPDSCLASSCREATIONINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

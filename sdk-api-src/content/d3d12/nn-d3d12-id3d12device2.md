@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12device2.htm
 tech.root: direct3d12
 ms.assetid: 86C46FD2-7B1D-4F66-97F7-45F9428C5E1E
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12Device2, ID3D12Device2 interface, ID3D12Device2 interface,described, d3d12/ID3D12Device2, direct3d12.id3d12device2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

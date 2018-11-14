@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardGetAttrib
+: 
 ---
 
 # SCardGetAttrib function
@@ -505,7 +511,7 @@ ERROR_NOT_SUPPORTED.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- directmanipulation.h
+: 
+- IDirectManipulationUpdateHandler.Update
+: 
 ---
 
 # IDirectManipulationUpdateHandler::Update

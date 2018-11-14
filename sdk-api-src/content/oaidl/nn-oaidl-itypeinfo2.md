@@ -9,8 +9,8 @@ ms.assetid: d3a34a13-6114-4f15-9de5-60da43fde600
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITypeInfo2, ITypeInfo2 interface [Automation], ITypeInfo2 interface [Automation],described, _oa96_ITypeInfo2_Interface, automat.itypeinfo2, oaidl/ITypeInfo2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 
@@ -211,7 +211,7 @@ Binds to a specific member based on a known DISPID, where the member name is not
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221172(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="387d44b7-407b-44a9-9239-a4cb20e88cac">Type Description Interfaces and Functions </a>
  
 
  

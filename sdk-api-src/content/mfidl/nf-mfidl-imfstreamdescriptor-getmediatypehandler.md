@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFStreamDescriptor.GetMediaTypeHandler
+: 
 ---
 
 # IMFStreamDescriptor::GetMediaTypeHandler

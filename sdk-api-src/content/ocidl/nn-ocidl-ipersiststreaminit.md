@@ -9,8 +9,8 @@ ms.assetid: 49c413b3-3523-4602-9ec1-19f4e0fe5651
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], IPersistStreamInit interface [COM],described, _com_ipersiststreaminit, com.ipersiststreaminit, ocidl/IPersistStreamInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

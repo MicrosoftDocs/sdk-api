@@ -9,8 +9,8 @@ ms.assetid: 6afc8972-373c-4198-ac54-c2a6172b3b39
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*LPNLSVERSIONINFO, LPNLSVERSIONINFO, LPNLSVERSIONINFO structure pointer [Internationalization for Windows Applications], NLSVERSIONINFO, NLSVERSIONINFO structure [Internationalization for Windows Applications], _nlsversioninfo, _win32_NLSVERSIONINFO_str, intl.nlsversioninfo, winnls/LPNLSVERSIONINFO, winnls/NLSVERSIONINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

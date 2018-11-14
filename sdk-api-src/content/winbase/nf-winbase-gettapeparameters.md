@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetTapeParameters
+: 
 ---
 
 # GetTapeParameters function
@@ -70,7 +76,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device about which information is sought. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -337,7 +343,7 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

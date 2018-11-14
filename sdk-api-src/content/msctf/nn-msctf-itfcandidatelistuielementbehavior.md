@@ -9,8 +9,8 @@ ms.assetid: 3e1c53c6-f356-4b60-bb85-0f5a7251219d
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], ITfCandidateListUIElementBehavior interface [Text Services Framework],described, _tsf_itfcandidatelistuielementbehavior_ref, msctf/ITfCandidateListUIElementBehavior, tsf.itfcandidatelistuielementbehavior
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

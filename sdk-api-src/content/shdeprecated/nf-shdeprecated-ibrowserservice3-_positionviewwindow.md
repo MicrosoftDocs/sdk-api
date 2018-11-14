@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IBrowserService3._PositionViewWindow
+: 
 req.product: Internet Explorer 6.0
 ---
 

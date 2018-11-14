@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchManager.GetParameter
+: 
 ---
 
 # ISearchManager::GetParameter
@@ -69,7 +77,7 @@ There are currently no valid parameters in this version of search (WDS 3.0).
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>**</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>**</b>
 
 Returns a value in an undefined state as there are no properties currently defined to retrieve values from.
 

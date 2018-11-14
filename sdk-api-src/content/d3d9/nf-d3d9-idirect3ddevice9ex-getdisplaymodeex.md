@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DDevice9Ex.GetDisplayModeEx
+: 
 ---
 
 # IDirect3DDevice9Ex::GetDisplayModeEx
@@ -68,23 +76,23 @@ An unsigned integer specifying the swap chain.
 
 ### -param pMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a> structure containing data about the display mode of the adapter. As opposed to the display mode of the device, which may not be active if the device does not own full-screen mode. Can be set to <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a> structure containing data about the display mode of the adapter. As opposed to the display mode of the device, which may not be active if the device does not own full-screen mode. Can be set to <b>NULL</b>.
 
 
 ### -param pRotation [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172551(v=VS.85).aspx">D3DDISPLAYROTATION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/190aa10e-4bf0-45ec-9c07-2582c5536074">D3DDISPLAYROTATION</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172551(v=VS.85).aspx">D3DDISPLAYROTATION</a> indicating the type of screen rotation the application will do. The value returned through this pointer is important when the <a href="https://msdn.microsoft.com/en-us/library/Bb172586(v=VS.85).aspx">D3DPRESENTFLAG_NOAUTOROTATE</a> flag is used; otherwise, it can be set to <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/190aa10e-4bf0-45ec-9c07-2582c5536074">D3DDISPLAYROTATION</a> indicating the type of screen rotation the application will do. The value returned through this pointer is important when the <a href="https://msdn.microsoft.com/1294171e-b3f6-4264-8411-b69427cefe7b">D3DPRESENTFLAG_NOAUTOROTATE</a> flag is used; otherwise, it can be set to <b>NULL</b>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -96,7 +104,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
  
 
  

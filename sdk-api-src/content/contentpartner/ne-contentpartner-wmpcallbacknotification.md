@@ -9,8 +9,8 @@ ms.assetid: 6c0ba35f-a484-4d00-be42-af5114086250
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMPCallbackNotification, WMPCallbackNotification enumeration [Windows Media Player], contentpartner/WMPCallbackNotification, contentpartner/wmpcnAuthResult, contentpartner/wmpcnDisableRadioSkipping, contentpartner/wmpcnLicenseUpdated, contentpartner/wmpcnLoginStateChange, contentpartner/wmpcnNewCatalogAvailable, contentpartner/wmpcnNewPluginAvailable, enumeration [Windows Media Player], wmp.wmpcallbacknotification, wmpcnAuthResult, wmpcnDisableRadioSkipping, wmpcnLicenseUpdated, wmpcnLoginStateChange, wmpcnNewCatalogAvailable, wmpcnNewPluginAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 
@@ -98,7 +98,7 @@ Disable radio skipping in Windows Media Player.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd562861(v=VS.85).aspx">Enumerations for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
  
 
  

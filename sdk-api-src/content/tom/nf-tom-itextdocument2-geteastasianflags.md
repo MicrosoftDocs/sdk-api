@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextDocument2.GetEastAsianFlags
+: 
 ---
 
 # ITextDocument2::GetEastAsianFlags
@@ -137,7 +145,7 @@ Use password control.
 </dl>
 </td>
 <td width="60%">
-Turn off IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a>).
+Turn off IME operation (see <a href="Rich_Edit_Control_Styles.htm">ES_NOIME</a>).
 
 </td>
 </tr>
@@ -147,7 +155,7 @@ Turn off IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb
 </dl>
 </td>
 <td width="60%">
-The rich edit host handles IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>) .
+The rich edit host handles IME operation (see <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>) .
 
 </td>
 </tr>

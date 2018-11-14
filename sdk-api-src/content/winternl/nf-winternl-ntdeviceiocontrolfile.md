@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NtDeviceIoControlFile
+: 
 ---
 
 # NtDeviceIoControlFile function
@@ -72,7 +78,7 @@ A handle to an event to be set to the <code>signaled</code> state when the opera
 
 ### -param ApcRoutine [in]
 
-Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://msdn.microsoft.com/en-us/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Calls</a>. 
+Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Calls</a>. 
 
 
 ### -param ApcContext [in]
@@ -160,7 +166,7 @@ Because there is no import library for this function, you must use <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Calls</a>
+<a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Calls</a>
  
 
  

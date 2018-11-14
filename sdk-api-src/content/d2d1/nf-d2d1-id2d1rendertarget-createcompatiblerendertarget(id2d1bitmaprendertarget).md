@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateCompatibleRenderTarget_overload1.
 tech.root: direct2d
 ms.assetid: e36fbf45-9827-4ea0-ac52-676ba826a7d3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget method [Direct2D], CreateCompatibleRenderTarget method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateCompatibleRenderTarget method, ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget.CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget), ID2D1RenderTarget::CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget), d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_overload1, direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_ptr_ptr_ID2D1BitmapRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1RenderTarget.CreateCompatibleRenderTarget
+: 
 ---
 
 # ID2D1RenderTarget::CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget)

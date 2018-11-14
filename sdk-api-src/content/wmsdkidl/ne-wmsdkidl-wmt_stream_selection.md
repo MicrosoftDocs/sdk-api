@@ -9,8 +9,8 @@ ms.assetid: 7191d608-1a25-48c0-858b-c5e93f9d8e6e
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMT_CLEANPOINT_ONLY, WMT_OFF, WMT_ON, WMT_STREAM_SELECTION, WMT_STREAM_SELECTION enumeration [windows Media Format], wmformat.wmt_stream_selection, wmsdkidl/WMT_CLEANPOINT_ONLY, wmsdkidl/WMT_OFF, wmsdkidl/WMT_ON, wmsdkidl/WMT_STREAM_SELECTION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -68,7 +68,7 @@ No samples will be delivered for the stream.
 
 ### -field WMT_CLEANPOINT_ONLY
 
-Only samples with <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">cleanpoints</a> will be delivered for the stream.
+Only samples with <a href="wmformat_glossary.htm">cleanpoints</a> will be delivered for the stream.
 
 
 ### -field WMT_ON

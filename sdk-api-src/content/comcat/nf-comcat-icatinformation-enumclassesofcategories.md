@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comcat.h
+: 
+- ICatInformation.EnumClassesOfCategories
+: 
 ---
 
 # ICatInformation::EnumClassesOfCategories
@@ -99,7 +107,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

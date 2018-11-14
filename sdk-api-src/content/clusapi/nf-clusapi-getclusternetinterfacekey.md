@@ -7,7 +7,7 @@ old-location: mscs\getclusternetinterfacekey.htm
 tech.root: mscs
 ms.assetid: c6ba405a-e485-49fc-81f4-dd6c7b7bef04
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: GetClusterNetInterfaceKey, GetClusterNetInterfaceKey function [Failover Cluster], _wolf_getclusternetinterfacekey, clusapi/GetClusterNetInterfaceKey, mscs.getclusternetinterfacekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetClusterNetInterfaceKey
+: 
 ---
 
 # GetClusterNetInterfaceKey function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Opens the root of the  <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> subtree for a  <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a> object.
+Opens the root of the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> subtree for a  <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a> object.
 
 
 ## -parameters
@@ -84,7 +90,7 @@ the function returns <b>NULL</b>. For more information about the error, call <a 
 
 
 
-The  <b>GetClusterNetInterfaceKey</b> function returns a handle to a cluster database key representing the subtree root for the network interface identified by <i>hNetInterface</i>. Callers should call  <a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a> to close the key handle retrieved by  <b>GetClusterNetInterfaceKey</b> when they are done with it.
+The  <b>GetClusterNetInterfaceKey</b> function returns a handle to a cluster database key representing the subtree root for the network interface identified by <i>hNetInterface</i>. Callers should call  <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close the key handle retrieved by  <b>GetClusterNetInterfaceKey</b> when they are done with it.
 
 
 
@@ -94,7 +100,7 @@ The  <b>GetClusterNetInterfaceKey</b> function returns a handle to a cluster dat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a>
+<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
 
 
 

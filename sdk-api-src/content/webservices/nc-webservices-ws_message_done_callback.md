@@ -9,8 +9,8 @@ ms.assetid: 59ab7cbe-dc66-4e74-bec9-ffb25173ff87
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_MESSAGE_DONE_CALLBACK, WS_MESSAGE_DONE_CALLBACK callback, WS_MESSAGE_DONE_CALLBACK callback function [Web Services for Windows], webservices/WS_MESSAGE_DONE_CALLBACK, wsw.ws_message_done_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

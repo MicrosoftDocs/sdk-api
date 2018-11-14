@@ -9,8 +9,8 @@ ms.assetid: f3db7530-a662-46f1-bc64-1dd4523dc87c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], IWMSyncReader2 interface [windows Media Format],described, IWMSyncReader2Interface, wmformat.iwmsyncreader2, wmsdkidl/IWMSyncReader2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

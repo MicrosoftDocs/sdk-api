@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmquota.h
+: 
+- IFsrmQuotaTemplate.get_Name
+: 
 ---
 
 # IFsrmQuotaTemplate::get_Name

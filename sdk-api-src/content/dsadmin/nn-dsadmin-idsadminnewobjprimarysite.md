@@ -9,8 +9,8 @@ ms.assetid: cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory],described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IDsAdminNewObjPrimarySite</b> interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory. To obtain an  instance of this interface call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> with <b>IID_IDsAdminNewObjPrimarySite</b> on the <a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911fb5a3b">IDsAdminNewObj</a> interface passed to <a href="https://msdn.microsoft.com/38dd4f43-6f8f-460a-9c5d-0a506d993101">IDsAdminNewObjExt::Initialize</a>.
+The <b>IDsAdminNewObjPrimarySite</b> interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory. To obtain an  instance of this interface call <a href="_com_iunknown_queryinterface">QueryInterface</a> with <b>IID_IDsAdminNewObjPrimarySite</b> on the <a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911fb5a3b">IDsAdminNewObj</a> interface passed to <a href="https://msdn.microsoft.com/38dd4f43-6f8f-460a-9c5d-0a506d993101">IDsAdminNewObjExt::Initialize</a>.
 
 
 ## -inheritance
@@ -94,7 +94,7 @@ Enables a primary object creation extension to create a temporary object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
+<a href="ad.admin_interfaes_in_active_directory_domain_services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 

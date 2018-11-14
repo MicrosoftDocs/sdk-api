@@ -9,8 +9,8 @@ ms.assetid: bb46653e-d17d-4899-8a0b-cee8c4d68993
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVDSPLoudnessEqualization, codecapi/eAVDSPLoudnessEqualization_AUTO, codecapi/eAVDSPLoudnessEqualization_OFF, codecapi/eAVDSPLoudnessEqualization_ON, dshow.eavdsploudnessequalization, eAVDSPLoudnessEqualization, eAVDSPLoudnessEqualization enumeration [DirectShow], eAVDSPLoudnessEqualization_AUTO, eAVDSPLoudnessEqualization_OFF, eAVDSPLoudnessEqualization_ON
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

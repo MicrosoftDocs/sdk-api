@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IDownloadJob.get_Updates
+: 
 ---
 
 # IDownloadJob::get_Updates

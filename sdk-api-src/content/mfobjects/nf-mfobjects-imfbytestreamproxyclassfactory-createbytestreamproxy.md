@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMFByteStreamProxyClassFactory.CreateByteStreamProxy
+: 
 ---
 
 # IMFByteStreamProxyClassFactory::CreateByteStreamProxy

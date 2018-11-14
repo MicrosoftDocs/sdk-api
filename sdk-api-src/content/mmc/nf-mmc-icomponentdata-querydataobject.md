@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IComponentData.QueryDataObject
+: 
 ---
 
 # IComponentData::QueryDataObject
@@ -141,7 +149,7 @@ You can pass these data objects to the same snap-in or to extension snap-ins tha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
  
 
  

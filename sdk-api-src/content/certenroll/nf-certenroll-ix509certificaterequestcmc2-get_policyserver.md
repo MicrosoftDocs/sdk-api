@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateRequestCmc2.get_PolicyServer
+: 
 ---
 
 # IX509CertificateRequestCmc2::get_PolicyServer
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351617(v=VS.85).aspx">IX509CertificateRequestCmc2</a>
+<a href="https://msdn.microsoft.com/27edf846-472e-4a22-bd3c-88044a1fbd99">IX509CertificateRequestCmc2</a>
  
 
  

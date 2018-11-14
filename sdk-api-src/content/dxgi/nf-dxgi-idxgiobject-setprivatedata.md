@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject_setprivatedata.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: 5949633e-2d65-5d04-b6ba-29414dfded94, IDXGIObject interface [DXGI],SetPrivateData method, IDXGIObject.SetPrivateData, IDXGIObject::SetPrivateData, SetPrivateData, SetPrivateData method [DXGI], SetPrivateData method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedata, dxgi/IDXGIObject::SetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi.h
+: 
+- IDXGIObject.SetPrivateData
+: 
 ---
 
 # IDXGIObject::SetPrivateData
@@ -63,7 +71,7 @@ Sets application-defined data to the object and associates that data with a GUID
 
 Type: <b><a href="http://go.microsoft.com/?linkid=9742306">REFGUID</a></b>
 
-A GUID that identifies the data. Use this GUID in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb174543(v=VS.85).aspx">GetPrivateData</a> to get the data.
+A GUID that identifies the data. Use this GUID in a call to <a href="https://msdn.microsoft.com/d06e73e1-503b-44ad-9154-230d68797bc4">GetPrivateData</a> to get the data.
 
 
 ### -param DataSize
@@ -84,9 +92,9 @@ A pointer to the object's data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 
 
 
@@ -129,7 +137,7 @@ You can use <b>WKPDID_D3DDebugObjectName</b> to track down memory leaks and unde
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

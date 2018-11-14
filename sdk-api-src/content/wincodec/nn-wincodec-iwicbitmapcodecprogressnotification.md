@@ -9,8 +9,8 @@ ms.assetid: 8cf3fbca-0953-4dd7-aa44-3e1924cfd8b0
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICBitmapCodecProgressNotification, IWICBitmapCodecProgressNotification interface [Windows Imaging Component], IWICBitmapCodecProgressNotification interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification, wincodec/IWICBitmapCodecProgressNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

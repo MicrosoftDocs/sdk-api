@@ -9,8 +9,8 @@ ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework],described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -90,7 +90,7 @@ Called when display attribute information is updated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

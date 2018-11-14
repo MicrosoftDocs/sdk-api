@@ -9,8 +9,8 @@ ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
@@ -103,7 +103,7 @@ Reserved; do not use.
 ### -field cbInQue
 
 The number of bytes received by the serial provider but not yet read by a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> operation.
+<a href="base.readfile">ReadFile</a> operation.
 
 
 ### -field cbOutQue
@@ -120,7 +120,7 @@ The number of bytes of user data remaining to be transmitted for all write opera
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 

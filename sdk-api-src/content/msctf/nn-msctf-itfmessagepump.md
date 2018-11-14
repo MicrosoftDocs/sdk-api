@@ -9,8 +9,8 @@ ms.assetid: f7c3d039-cffc-4ce0-8579-041ba849de6d
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework], ITfMessagePump interface [Text Services Framework],described, _tsf_itfmessagepump_ref, msctf/ITfMessagePump, tsf.itfmessagepump
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
+The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="_win32_getmessage">GetMessage</a> and <a href="_win32_peekmessage">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
 
 
 ## -inheritance
@@ -122,23 +122,27 @@ If the application is Unicode, it should use the PeekMessageW and GetMessageW me
 
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfMessagePump *pMessagePump;
 
-hr = pThreadManager->QueryInterface(IID_ITfMessagePump, (LPVOID*)&pMessagePump);
+hr = pThreadManager-&gt;QueryInterface(IID_ITfMessagePump, (LPVOID*)&amp;pMessagePump);
 if(SUCCEEDED(hr))
 {
     //Use the ITfMessagePump interface. 
     
     //Release the ITfMessagePump interface. 
-    pMessagePump->Release();
+    pMessagePump-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

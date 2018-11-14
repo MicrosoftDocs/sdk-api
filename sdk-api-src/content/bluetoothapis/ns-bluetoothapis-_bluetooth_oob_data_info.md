@@ -9,8 +9,8 @@ ms.assetid: 0728678a-98c7-44b5-a117-5f9acae9fd25
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO structure [Bluetooth], PBLUETOOTH_OOB_DATA_INFO, PBLUETOOTH_OOB_DATA_INFO structure pointer [Bluetooth], _BLUETOOTH_OOB_DATA_INFO, bluetooth.bluetooth_oob_data_info, bluetoothapis/BLUETOOTH_OOB_DATA_INFO, bluetoothapis/PBLUETOOTH_OOB_DATA_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

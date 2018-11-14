@@ -9,8 +9,8 @@ ms.assetid: 35D78208-FFC1-48B0-8267-EE583DE2D783
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DNS_QUERY_COMPLETION_ROUTINE, DNS_QUERY_COMPLETION_ROUTINE callback, DNS_QUERY_COMPLETION_ROUTINE callback function [DNS], dns.dns_query_completion_routine, windns/DNS_QUERY_COMPLETION_ROUTINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: windns.h
 req.include-header: 

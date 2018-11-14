@@ -9,8 +9,8 @@ ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -71,7 +71,7 @@ See
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITACDGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITACDGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITACDGroup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITACDGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

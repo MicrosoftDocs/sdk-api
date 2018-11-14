@@ -9,8 +9,8 @@ ms.assetid: 9784b561-3b87-4df9-a434-55e12f97b05a
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 9784b561-3b87-4df9-a434-55e12f97b05a, MFAYUVSample, MFAYUVSample structure [Media Foundation], __MFAYUVSample, mf.mfayuvsample, mfobjects/MFAYUVSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

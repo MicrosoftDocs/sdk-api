@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\curvechannel.htm
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CurveChannel, CurveChannel enumeration [GDI+], CurveChannelAll, CurveChannelBlue, CurveChannelGreen, CurveChannelRed, _gdiplus_ENUM_CurveChannel, gdiplus._gdiplus_ENUM_CurveChannel, gdipluseffects/CurveChannel, gdipluseffects/CurveChannelAll, gdipluseffects/CurveChannelBlue, gdipluseffects/CurveChannelGreen, gdipluseffects/CurveChannelRed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CurveChannel</b> enumeration specifies which color channels are affected by a <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> bitmap adjustment.
+The <b>CurveChannel</b> enumeration specifies which color channels are affected by a <a href="https://msdn.microsoft.com/1ea62f08-f591-4da5-8fcc-74df7ddcebe4">ColorCurve</a> bitmap adjustment.
 
 
 ## -enum-fields

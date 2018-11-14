@@ -7,10 +7,10 @@ old-location: direct2d\id2d1transformgraph.htm
 tech.root: direct2d
 ms.assetid: 6CA29200-9834-4A5B-99E8-434CD6E9B243
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1TransformGraph, ID2D1TransformGraph interface [Direct2D], ID2D1TransformGraph interface [Direct2D],described, d2d1effectauthor/ID2D1TransformGraph, direct2d.id2d1transformgraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 
@@ -164,9 +164,13 @@ This interface allows a graph of transform nodes to be specified. This interface
 
 This example shows how many of the methods on the <b>ID2D1TransformGraph</b> can be used.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 class CMyEffect : public ID2D1EffectImpl
 {
 public:
@@ -177,31 +181,31 @@ public:
     {
         HRESULT hr = S_OK;
 
-        hr = pGraph->Clear();
+        hr = pGraph-&gt;Clear();
 
         if (SUCEEDED(hr))
         {
-            hr = pGraph->AddNode(_pTransform1);
+            hr = pGraph-&gt;AddNode(_pTransform1);
         }
    
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->AddNode(_pTransform2);
+            hr = pGraph-&gt;AddNode(_pTransform2);
         }
  
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->SetOuputNode(_pTransform2);
+            hr = pGraph-&gt;SetOuputNode(_pTransform2);
         }
 
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->ConnectNode(_pTransform1, _pTransform2, 0);
+            hr = pGraph-&gt;ConnectNode(_pTransform1, _pTransform2, 0);
         }
 
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->ConnectToEffectInput(0, _pTransform1, 0);
+            hr = pGraph-&gt;ConnectToEffectInput(0, _pTransform1, 0);
         }
 
         return hr;
@@ -211,21 +215,21 @@ private:
 
     class CMyTransform1 : public ID2D1DrawTransform
     {
-        // <Snip> The transform implementation, one node input</Snip>
+        // &lt;Snip&gt; The transform implementation, one node input&lt;/Snip&gt;
     };
 
     class CMyTransform2 : public ID2D1DrawTransform
     {
- 	   // <Snip> A second transform implementation one node input</Snip>
+ 	   // &lt;Snip&gt; A second transform implementation one node input&lt;/Snip&gt;
     };
 
     CMyTransform1 *_pTransform1;
     CMyTransform2 *_pTransform2;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

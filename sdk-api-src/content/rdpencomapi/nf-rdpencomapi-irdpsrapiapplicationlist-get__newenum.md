@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIApplicationList.get__NewEnum
+: 
 ---
 
 # IRDPSRAPIApplicationList::get__NewEnum

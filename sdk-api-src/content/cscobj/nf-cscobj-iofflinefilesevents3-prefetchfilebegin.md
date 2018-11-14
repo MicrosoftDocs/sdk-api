@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesEvents3.PrefetchFileBegin
+: 
 ---
 
 # IOfflineFilesEvents3::PrefetchFileBegin
@@ -78,7 +86,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd442645(v=VS.85).aspx">IOfflineFilesEvents3</a>
+<a href="https://msdn.microsoft.com/f68c2c0c-e4f7-4048-99c9-761f98928157">IOfflineFilesEvents3</a>
  
 
  

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IAMExtTransport.put_Rate
+: 
 ---
 
 # IAMExtTransport::put_Rate

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_controls_free
+: 
 ---
 
 # ldap_controls_free function

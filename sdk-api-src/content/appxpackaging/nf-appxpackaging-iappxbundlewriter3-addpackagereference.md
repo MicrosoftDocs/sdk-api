@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxBundleWriter3.AddPackageReference
+: 
 ---
 
 # IAppxBundleWriter3::AddPackageReference

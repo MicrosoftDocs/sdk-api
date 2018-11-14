@@ -9,8 +9,8 @@ ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Files], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Files], _DISK_GROW_PARTITION, base.disk_grow_partition_str, fs.disk_grow_partition_str, winioctl/DISK_GROW_PARTITION, winioctl/PDISK_GROW_PARTITION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

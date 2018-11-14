@@ -9,8 +9,8 @@ ms.assetid: 01d02658-ae12-4465-94fc-7a966dcdd8fb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PRootCauseInfo, RCF_ISCONFIRMED, RCF_ISLEAF, RCF_ISTHIRDPARTY, RootCauseInfo, RootCauseInfo structure [NDF], ndattrib/RootCauseInfo, ndf.rootcauseinfo, tagRootCauseInfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

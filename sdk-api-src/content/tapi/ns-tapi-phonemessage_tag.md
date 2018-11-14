@@ -9,8 +9,8 @@ ms.assetid: 3655efef-d24c-4d67-b1dc-29d1948a1869
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPPHONEMESSAGE, LPPHONEMESSAGE, LPPHONEMESSAGE structure pointer [TAPI 2.2], PHONEMESSAGE, PHONEMESSAGE structure [TAPI 2.2], _tapi2_phonemessage_str, phonemessage_tag, tapi/LPPHONEMESSAGE, tapi/PHONEMESSAGE, tapi2.phonemessage_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 1cb56a85-fafd-4471-b0e9-660ac0dc0219
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security], USERNAME_TARGET_CREDENTIAL_INFO, USERNAME_TARGET_CREDENTIAL_INFO structure [Security], _USERNAME_TARGET_CREDENTIAL_INFO, _cred_username_target_credential_info, security.username_target_credential_info, wincred/PUSERNAME_TARGET_CREDENTIAL_INFO, wincred/USERNAME_TARGET_CREDENTIAL_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ocidl.h
+: 
+- IFont.get_hFont
+: 
 ---
 
 # IFont::get_hFont

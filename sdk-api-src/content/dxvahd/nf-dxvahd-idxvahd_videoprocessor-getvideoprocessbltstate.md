@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxvahd.h
+: 
+- IDXVAHD_VideoProcessor.GetVideoProcessBltState
+: 
 ---
 
 # IDXVAHD_VideoProcessor::GetVideoProcessBltState

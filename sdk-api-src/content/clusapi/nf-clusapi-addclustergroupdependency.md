@@ -7,7 +7,7 @@ old-location: mscs\addclustergroupdependency.htm
 tech.root: mscs
 ms.assetid: 595921d5-cca0-49fc-b1f5-55af2c73ed74
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: AddClusterGroupDependency, AddClusterGroupDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, mscs.addclustergroupdependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddClusterGroupDependency
+: 
 ---
 
 # AddClusterGroupDependency function
@@ -75,7 +81,7 @@ The group <i>hDependentGroup</i> depends on
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

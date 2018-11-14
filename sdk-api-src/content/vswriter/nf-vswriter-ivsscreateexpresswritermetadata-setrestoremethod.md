@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vswriter.h
+: 
+- IVssCreateExpressWriterMetadata.SetRestoreMethod
+: 
 ---
 
 # IVssCreateExpressWriterMetadata::SetRestoreMethod

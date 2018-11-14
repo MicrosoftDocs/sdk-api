@@ -7,10 +7,10 @@ old-location: eaphost\eapsimcredential.htm
 tech.root: eaphost
 ms.assetid: 483BF257-BB9F-4AF6-A55C-77277AC6E21F
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapSimCredential, EapSimCredential structure [EAPHost], _EapSimCredential, eaphost.eapsimcredential, eaptypes/EAPSimCredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

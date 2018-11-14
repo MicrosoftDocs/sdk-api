@@ -9,8 +9,8 @@ ms.assetid: 1eedfff3-d561-462e-bad0-45e7bc46fb1a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER structure [Peer Networking], PDRT_SECURITY_PROVIDER, PDRT_SECURITY_PROVIDER structure pointer [Peer Networking], drt/DRT_SECURITY_PROVIDER, drt/PDRT_SECURITY_PROVIDER, drt_security_provider_tag, p2p.drt_security_provider"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

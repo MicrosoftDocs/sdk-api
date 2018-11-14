@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomation4.AddChangesEventHandler
+: 
 ---
 
 # IUIAutomation4::AddChangesEventHandler

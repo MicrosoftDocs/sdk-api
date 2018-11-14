@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.get_DeleteRequestCert
+: 
 ---
 
 # ICEnroll::get_DeleteRequestCert
@@ -97,16 +105,20 @@ The <b>DeleteRequestCert</b> property affects the behavior of the following meth
 
 #### Examples
 
-
-```cpp
-BOOL     bDRC;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL     bDRC;
 HRESULT  hr;
 
 
 // pEnroll is a previously instantiated ICEnroll interface pointer.
 // Get the DeleteRequestCert Boolean value.
 
-hr = pEnroll->get_DeleteRequestCert( &bDRC );
+hr = pEnroll-&gt;get_DeleteRequestCert( &amp;bDRC );
 if ( FAILED ( hr ) )
     printf("Failed getting DeleteRequestCert - %x\n", hr );
 else
@@ -115,13 +127,13 @@ else
 
 // Set the DeleteRequestCert value.
 
-hr = pEnroll->put_DeleteRequestCert( FALSE );
+hr = pEnroll-&gt;put_DeleteRequestCert( FALSE );
 if ( FAILED ( hr ) )
     printf("Failed Setting DeleteRequestCert - %x\n", hr );
 else
-    printf( "DeleteRequestCert was set to FALSE\n" );
-```
-
-
+    printf( "DeleteRequestCert was set to FALSE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

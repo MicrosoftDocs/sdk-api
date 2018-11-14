@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.put_RootStoreFlags
+: 
 ---
 
 # ICEnroll::put_RootStoreFlags
@@ -97,28 +105,32 @@ The <b>RootStoreFlags</b> property should be set before using the following meth
 
 #### Examples
 
-
-```cpp
-DWORD    dwFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer.
 
 // Retrieve the flag value.
-hr = pEnroll->get_RootStoreFlags( &dwFlags );
+hr = pEnroll-&gt;get_RootStoreFlags( &amp;dwFlags );
 if ( FAILED ( hr ) )
     printf("Failed retrieving RootStoreFlags - %x\n", hr );
 else
     printf("RootStoreFlags is %x\n", dwFlags );
 
 // Set the flag.
-hr = pEnroll->put_RootStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
+hr = pEnroll-&gt;put_RootStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
 if ( FAILED ( hr ) )
     printf("Failed updating RootStoreFlags - %x\n", hr );
 else
-    printf("Updated RootStoreFlags\n");
-```
-
-
+    printf("Updated RootStoreFlags\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 

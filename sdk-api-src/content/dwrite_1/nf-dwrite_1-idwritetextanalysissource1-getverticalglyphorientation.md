@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_1.h
+: 
+- IDWriteTextAnalysisSource1.GetVerticalGlyphOrientation
+: 
 ---
 
 # IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation

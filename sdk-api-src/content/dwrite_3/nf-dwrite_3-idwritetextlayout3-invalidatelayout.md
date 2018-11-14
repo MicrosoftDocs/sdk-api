@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteTextLayout3.InvalidateLayout
+: 
 ---
 
 # IDWriteTextLayout3::InvalidateLayout

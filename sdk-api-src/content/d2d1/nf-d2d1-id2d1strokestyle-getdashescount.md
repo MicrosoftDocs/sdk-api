@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1StrokeStyle_GetDashesCount.htm
 tech.root: direct2d
 ms.assetid: 0bd1df70-17db-4f0f-b7a4-b26601b23c44
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetDashesCount, GetDashesCount method [Direct2D], GetDashesCount method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashesCount method, ID2D1StrokeStyle.GetDashesCount, ID2D1StrokeStyle::GetDashesCount, d2d1/ID2D1StrokeStyle::GetDashesCount, direct2d.ID2D1StrokeStyle_GetDashesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1StrokeStyle.GetDashesCount
+: 
 ---
 
 # ID2D1StrokeStyle::GetDashesCount

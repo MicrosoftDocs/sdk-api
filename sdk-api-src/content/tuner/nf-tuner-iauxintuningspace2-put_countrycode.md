@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IAuxInTuningSpace2.put_CountryCode
+: 
 ---
 
 # IAuxInTuningSpace2::put_CountryCode

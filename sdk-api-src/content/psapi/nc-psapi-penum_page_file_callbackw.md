@@ -9,8 +9,8 @@ ms.assetid: eb3610fb-2c95-4f7b-973d-8dc41d2829f1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EnumPageFilesProc, EnumPageFilesProc callback, EnumPageFilesProc callback function [PSAPI], PENUM_PAGE_FILE_CALLBACKA, PENUM_PAGE_FILE_CALLBACKW, _win32_enumpagefilesproc, base.enumpagefilesproc, psapi.enumpagefilesproc, psapi/EnumPageFilesProc, psapi/PENUM_PAGE_FILE_CALLBACKA, psapi/PENUM_PAGE_FILE_CALLBACKW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: psapi.h
 req.include-header: 

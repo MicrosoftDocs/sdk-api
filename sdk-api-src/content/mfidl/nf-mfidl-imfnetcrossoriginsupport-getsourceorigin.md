@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFNetCrossOriginSupport.GetSourceOrigin
+: 
 ---
 
 # IMFNetCrossOriginSupport::GetSourceOrigin
@@ -89,7 +97,7 @@ Use <b>CoTaskMemFree</b> to free the string.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="mf.imfnetcrossoriginsupport">IMFNetCrossOriginSupport</a>
  
 
  

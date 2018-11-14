@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11DepthStencilView.GetDesc
+: 
 ---
 
 # ID3D11DepthStencilView::GetDesc
@@ -61,9 +69,9 @@ Get the depth-stencil view.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476112(v=VS.85).aspx">D3D11_DEPTH_STENCIL_VIEW_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f073a798-edd5-4e6a-a8a7-1592721ce35d">D3D11_DEPTH_STENCIL_VIEW_DESC</a>*</b>
 
-Pointer to a depth-stencil-view description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476112(v=VS.85).aspx">D3D11_DEPTH_STENCIL_VIEW_DESC</a>).
+Pointer to a depth-stencil-view description (see <a href="https://msdn.microsoft.com/f073a798-edd5-4e6a-a8a7-1592721ce35d">D3D11_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 ## -returns
@@ -80,7 +88,7 @@ Returns nothing
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476377(v=VS.85).aspx">ID3D11DepthStencilView</a>
+<a href="https://msdn.microsoft.com/10be1fd1-8700-4c0a-b447-d3c2569f8e81">ID3D11DepthStencilView</a>
  
 
  

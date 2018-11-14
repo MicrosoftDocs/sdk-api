@@ -9,8 +9,8 @@ ms.assetid: 1c7b8137-bf74-486c-a90e-6becfec5ddc8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PFN_WdsTransportClientSessionComplete, PFN_WdsTransportClientSessionComplete callback, PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessioncomplete, wdstci/PFN_WdsTransportClientSessionComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wdstci.h
 req.include-header: 

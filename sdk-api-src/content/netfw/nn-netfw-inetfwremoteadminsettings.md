@@ -9,8 +9,8 @@ ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
@@ -58,7 +58,7 @@ The <b>INetFwRemoteAdminSettings</b> interface provides access to the settings t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -220,7 +220,7 @@ All configuration changes take
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
@@ -228,7 +228,7 @@ All configuration changes take
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

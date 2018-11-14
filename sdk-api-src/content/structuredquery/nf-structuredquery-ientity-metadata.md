@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- IEntity.MetaData
+: 
 ---
 
 # IEntity::MetaData
@@ -50,7 +58,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this entity.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for this entity.
         
 
 
@@ -71,7 +79,7 @@ The desired IID of the result, either IID_IEnumUnknown or IID_IEnumVARIANT.
 
 Type: <b>void**</b>
 
-Receives the address of a pointer to an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects.
+Receives the address of a pointer to an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects.
             
 
 

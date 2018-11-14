@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitPropVariantFromInt16Vector
+: 
 ---
 
 # InitPropVariantFromInt16Vector function
@@ -99,7 +105,7 @@ Creates a VT_VECTOR | VT_I2 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +135,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>
+<a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
+<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776547(v=VS.85).aspx">PropVariantToInt16Vector</a>
+<a href="shell.PropVariantToInt16Vector">PropVariantToInt16Vector</a>
  
 
  

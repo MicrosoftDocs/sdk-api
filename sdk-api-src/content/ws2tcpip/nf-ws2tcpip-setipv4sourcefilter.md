@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- setipv4sourcefilter
+: 
 ---
 
 # setipv4sourcefilter function
@@ -110,7 +116,7 @@ On success,  <b>setipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +127,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

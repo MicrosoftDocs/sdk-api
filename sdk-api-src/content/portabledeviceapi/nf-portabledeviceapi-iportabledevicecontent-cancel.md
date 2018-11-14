@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- portabledeviceapi.h
+: 
+- IPortableDeviceContent.Cancel
+: 
 ---
 
 # IPortableDeviceContent::Cancel
@@ -107,7 +115,7 @@ This method cancels all pending operations on the current device handle, which c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
  
 
  

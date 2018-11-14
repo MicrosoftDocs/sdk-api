@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_SetItemPosition
+: 
 ---
 
 # ListView_SetItemPosition macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761192(v=VS.85).aspx">LVM_SETITEMPOSITION</a> message explicitly. 
+Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the <a href="https://msdn.microsoft.com/dfb35af4-e6c3-40fc-9d7c-cf0d68a3ea01">LVM_SETITEMPOSITION</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Moves an item to a specified position in a list-view control (in icon or small i
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -90,9 +98,9 @@ The new y-position of the item's upper-left corner, in view coordinates.
 
 
 
-If the list-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_AUTOARRANGE</a> style, the list-view control is arranged after the position of the item is set. 
+If the list-view control has the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style, the list-view control is arranged after the position of the item is set. 
 
-On Windows Vista, calling this macro on a list-view control with the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_AUTOARRANGE</a> style does nothing, and the return value is <b>FALSE</b>.
+On Windows Vista, calling this macro on a list-view control with the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style does nothing, and the return value is <b>FALSE</b>.
 
 
 

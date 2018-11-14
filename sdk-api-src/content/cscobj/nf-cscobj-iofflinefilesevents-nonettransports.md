@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesEvents.NoNetTransports
+: 
 ---
 
 # IOfflineFilesEvents::NoNetTransports
@@ -75,7 +83,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

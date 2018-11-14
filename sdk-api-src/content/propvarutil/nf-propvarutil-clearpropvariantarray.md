@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- ClearPropVariantArray
+: 
 ---
 
 # ClearPropVariantArray function
@@ -87,12 +93,12 @@ No return value.
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="https://msdn.microsoft.com/en-us/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
+This function performs the same action as <a href="shell.FreePropVariantArray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -116,7 +122,7 @@ ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
+<a href="shell.ClearVariantArray">ClearVariantArray</a>
  
 
  

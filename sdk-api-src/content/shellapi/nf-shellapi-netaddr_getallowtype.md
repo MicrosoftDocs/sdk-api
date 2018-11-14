@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- shellapi.h
+: 
+- NetAddr_GetAllowType
+: 
 ---
 
 # NetAddr_GetAllowType macro

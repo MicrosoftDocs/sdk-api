@@ -9,8 +9,8 @@ ms.assetid: c7aed29b-7938-4266-ae4c-b8ba84eb8a63
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MBN_CONNECTION_MODE, MBN_CONNECTION_MODE enumeration [Microsoft Broadband Networks], MBN_CONNECTION_MODE_PROFILE, MBN_CONNECTION_MODE_TMP_PROFILE, mbn.mbn_connection_mode, mbnapi/MBN_CONNECTION_MODE, mbnapi/MBN_CONNECTION_MODE_PROFILE, mbnapi/MBN_CONNECTION_MODE_TMP_PROFILE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

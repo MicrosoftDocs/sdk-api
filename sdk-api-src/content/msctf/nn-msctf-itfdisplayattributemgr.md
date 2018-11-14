@@ -9,8 +9,8 @@ ms.assetid: 4a1f9a13-54a1-4294-9635-80eef8bcd8d5
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework],described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -108,7 +108,7 @@ Called when a display attribute is changed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

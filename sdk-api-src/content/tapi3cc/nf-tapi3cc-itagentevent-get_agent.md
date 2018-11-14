@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgentEvent.get_Agent
+: 
 ---
 
 # ITAgentEvent::get_Agent

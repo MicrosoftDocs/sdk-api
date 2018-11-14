@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MsiJoinTransaction
+: 
 ---
 
 # MsiJoinTransaction function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-The <b>MsiJoinTransaction</b> function requests that the Windows Installer make the current process the owner of the <a href="https://msdn.microsoft.com/en-us/library/Aa372093(v=VS.85).aspx">transaction</a> installing the multiple-package installation. 
+The <b>MsiJoinTransaction</b> function requests that the Windows Installer make the current process the owner of the <a href="t_gly.htm">transaction</a> installing the multiple-package installation. 
 
 <b><a href="https://msdn.microsoft.com/7256b759-3fb5-4195-b0e4-a1631327ebb7">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 

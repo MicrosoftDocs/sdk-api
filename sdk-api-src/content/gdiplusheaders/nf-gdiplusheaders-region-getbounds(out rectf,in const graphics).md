@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.GetBounds
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -104,9 +112,13 @@ The current world and page transformations of the graphics object are used to ca
 
 The following example creates a region from a path, gets the region's enclosing rectangle, and then displays both.
 
-
-```cpp
-VOID Example_GetBoundsRectF(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetBoundsRectF(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -126,18 +138,18 @@ VOID Example_GetBoundsRectF(HDC hdc)
    path.AddClosedCurve(points, 6);
 
     // Create a region from a path.
-    Region pathRegion(&path);
+    Region pathRegion(&amp;path);
     
     // Get the region's enclosing rectangle.
-    pathRegion.GetBounds(&rect, &graphics);
+    pathRegion.GetBounds(&amp;rect, &amp;graphics);
 
     // Show the region and the enclosing rectangle.
-    graphics.FillRegion(&solidBrush, &pathRegion);
-    graphics.DrawRectangle(&pen, rect);
-}
-```
-
-
+    graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+    graphics.DrawRectangle(&amp;pen, rect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -150,7 +162,7 @@ VOID Example_GetBoundsRectF(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: bb033bef-e325-42d0-8879-9a2151e43e91
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: WRDS_RCM_DRAIN_STATE, WRDS_RCM_DRAIN_STATE enumeration [Remote Desktop Services], WTS_DRAIN_IN_DRAIN, WTS_DRAIN_NOT_IN_DRAIN, WTS_DRAIN_STATE_NONE, WTS_RCM_DRAIN_STATE, WTS_RCM_DRAIN_STATE enumeration [Remote Desktop Services], termserv.wts_rcm_drain_state, wtsdefs/WRDS_RCM_DRAIN_STATE, wtsdefs/WTS_DRAIN_IN_DRAIN, wtsdefs/WTS_DRAIN_NOT_IN_DRAIN, wtsdefs/WTS_DRAIN_STATE_NONE, wtsdefs/WTS_RCM_DRAIN_STATE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

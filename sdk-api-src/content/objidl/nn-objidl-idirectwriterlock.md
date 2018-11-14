@@ -9,8 +9,8 @@ ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage],described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

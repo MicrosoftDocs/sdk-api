@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertVerifyCTLUsage
+: 
 ---
 
 # CertVerifyCTLUsage function
@@ -226,7 +232,7 @@ The <b>CertDllVerifyCTLUsage</b> function in Cryptnet.dll can be installed by us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Verification Functions Using CTLs</a>
+<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
  
 
  

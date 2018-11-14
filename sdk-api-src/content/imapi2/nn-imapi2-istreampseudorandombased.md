@@ -9,8 +9,8 @@ ms.assetid: 7630b8ac-41f9-4cc7-95e7-4172a876673f
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IStreamPseudoRandomBased, IStreamPseudoRandomBased interface [IMAPI], IStreamPseudoRandomBased interface [IMAPI],described, imapi.istreampseudorandombased, imapi2/IStreamPseudoRandomBased
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

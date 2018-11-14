@@ -9,8 +9,8 @@ ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], CRYPTCATMEMBER_, mscat/CRYPTCATMEMBER, security.cryptcatmember
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 

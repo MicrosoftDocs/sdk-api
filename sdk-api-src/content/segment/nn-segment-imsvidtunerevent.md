@@ -9,8 +9,8 @@ ms.assetid: cdffe6ca-00b0-4230-963d-b4409413e5f5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technologies], IMSVidTunerEvent interface [Microsoft TV Technologies],described, IMSVidTunerEventInterface, mstv.imsvidtunerevent, segment/IMSVidTunerEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11Resource.GetType
+: 
 ---
 
 # ID3D11Resource::GetType
@@ -61,9 +69,9 @@ Get the type of the resource.
 
 ### -param pResourceDimension [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476202(v=VS.85).aspx">D3D11_RESOURCE_DIMENSION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/56f138a2-9f2b-4f3b-8619-d9f394704b8a">D3D11_RESOURCE_DIMENSION</a>*</b>
 
-Pointer to the resource type (see <a href="https://msdn.microsoft.com/en-us/library/Ff476202(v=VS.85).aspx">D3D11_RESOURCE_DIMENSION</a>).
+Pointer to the resource type (see <a href="https://msdn.microsoft.com/56f138a2-9f2b-4f3b-8619-d9f394704b8a">D3D11_RESOURCE_DIMENSION</a>).
           
 
 
@@ -92,7 +100,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>
+<a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>
  
 
  

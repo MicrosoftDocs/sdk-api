@@ -9,8 +9,8 @@ ms.assetid: c42b75f9-6b72-4aab-92f2-3361ab475ce9
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFVideoDeviceID, IMFVideoDeviceID interface [Media Foundation], IMFVideoDeviceID interface [Media Foundation],described, c42b75f9-6b72-4aab-92f2-3361ab475ce9, evr/IMFVideoDeviceID, mf.imfvideodeviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

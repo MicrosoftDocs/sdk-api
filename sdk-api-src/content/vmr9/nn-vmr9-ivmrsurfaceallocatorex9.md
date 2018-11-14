@@ -9,8 +9,8 @@ ms.assetid: 4c43867f-6c4b-4ed7-af83-0133c997efcb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRSurfaceAllocatorEx9, IVMRSurfaceAllocatorEx9 interface [DirectShow], IVMRSurfaceAllocatorEx9 interface [DirectShow],described, IVMRSurfaceAllocatorEx9Interface, dshow.ivmrsurfaceallocatorex9, vmr9/IVMRSurfaceAllocatorEx9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

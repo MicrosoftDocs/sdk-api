@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITAMMediaFormat.get_MediaFormat
+: 
 ---
 
 # ITAMMediaFormat::get_MediaFormat

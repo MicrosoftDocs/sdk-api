@@ -9,8 +9,8 @@ ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS],described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits5_0.h
 req.include-header: 
@@ -59,9 +59,9 @@ To get an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile5</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd904468(v=VS.85).aspx">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile5</b> interface inherits from <a href="https://msdn.microsoft.com/d404c4f8-cc97-4254-bca8-41bc359f0777">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>IBackgroundCopyFile5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt147018(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/7afe4d11-f611-40ea-be94-7825f95576de">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a generic BackgroundCopyFile property.
@@ -83,7 +83,7 @@ Gets the value of a generic BackgroundCopyFile property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt147020(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/7a5809ef-e84f-4566-a5fa-fd63b1dfd15c">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a generic BackgroundCopyFile property.
@@ -98,19 +98,19 @@ Sets the value of a generic BackgroundCopyFile property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a>
+<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362944(v=VS.85).aspx">IBackgroundCopyFile2</a>
+<a href="https://msdn.microsoft.com/facff24d-56a3-4a1f-a726-3442c17fe869">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362952(v=VS.85).aspx">IBackgroundCopyFile3</a>
+<a href="https://msdn.microsoft.com/5304f93a-993a-4327-9fdb-fb2ef1dafecb">IBackgroundCopyFile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd904468(v=VS.85).aspx">IBackgroundCopyFile4</a>
+<a href="https://msdn.microsoft.com/d404c4f8-cc97-4254-bca8-41bc359f0777">IBackgroundCopyFile4</a>
  
 
  

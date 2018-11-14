@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- RectF.Offset
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -101,7 +109,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 

@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CharNextW
+: 
 ---
 
 # CharNextW function
@@ -93,7 +99,7 @@ If
 
 
 
-When called as an ANSI function, <b>CharNext</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a> specifies a code-page to use.
+When called as an ANSI function, <b>CharNext</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/0501744a-83a5-4ac4-b934-3e794fe940c0">CharNextExA</a> specifies a code-page to use.
 
 This function works with default "user" expectations of characters when dealing with diacritics. For example:
 A string that contains U+0061 U+030a "LATIN SMALL LETTER A" + COMBINING RING ABOVE" — which looks like "å", will advance two code points, not one.
@@ -109,11 +115,11 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
+<a href="https://msdn.microsoft.com/0501744a-83a5-4ac4-b934-3e794fe940c0">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a>
+<a href="https://msdn.microsoft.com/f1599f24-2a6f-4887-8712-302631fee313">CharPrev</a>
 
 
 
@@ -125,7 +131,7 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

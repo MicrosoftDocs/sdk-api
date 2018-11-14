@@ -9,8 +9,8 @@ ms.assetid: 348213d1-c03f-4c38-9d13-3b1009d94e07
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellItemArray, IShellItemArray interface [Windows Shell], IShellItemArray interface [Windows Shell],described, _shell_IShellItemArray, shell.IShellItemArray, shobjidl_core/IShellItemArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

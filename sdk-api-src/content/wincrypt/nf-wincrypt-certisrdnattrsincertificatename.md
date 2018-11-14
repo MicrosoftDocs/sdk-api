@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertIsRDNAttrsInCertificateName
+: 
 ---
 
 # CertIsRDNAttrsInCertificateName function
@@ -163,7 +169,7 @@ Currently, only an exact, case-sensitive match is supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

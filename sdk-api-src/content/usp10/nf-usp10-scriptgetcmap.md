@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
+- apiref
+: 
+- 
+: 
+- ScriptGetCMap
+: 
 ---
 
 # ScriptGetCMap function

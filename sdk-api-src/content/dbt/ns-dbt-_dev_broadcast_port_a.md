@@ -9,8 +9,8 @@ ms.assetid: b8789f1c-7d82-4637-bdb0-016a22b3bc8a
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: "*PDEV_BROADCAST_PORT_A, DEV_BROADCAST_PORT, DEV_BROADCAST_PORT structure, DEV_BROADCAST_PORT_A, PDEV_BROADCAST_PORT, PDEV_BROADCAST_PORT structure pointer, _DEV_BROADCAST_PORT_A, _win32_dev_broadcast_port_str, base.dev_broadcast_port_str, dbt/DEV_BROADCAST_PORT, dbt/PDEV_BROADCAST_PORT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dbt.h
 req.include-header: 

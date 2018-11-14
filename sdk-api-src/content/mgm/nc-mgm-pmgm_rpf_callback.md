@@ -9,8 +9,8 @@ ms.assetid: 114a44c2-e352-45b9-9842-cfb369072c84
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM_RPF_CALLBACK callback function [RAS], _mpr_pmgm_rpf_callback, mgm/PMGM_RPF_CALLBACK, rras.pmgm_rpf_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 

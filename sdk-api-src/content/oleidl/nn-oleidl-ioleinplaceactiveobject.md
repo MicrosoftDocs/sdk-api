@@ -9,8 +9,8 @@ ms.assetid: b077c256-1109-494c-95c2-2d33bccbe47b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], IOleInPlaceActiveObject interface [COM],described, _ole_ioleinplaceactiveobject, com.ioleinplaceactiveobject, oleidl/IOleInPlaceActiveObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

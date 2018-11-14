@@ -9,8 +9,8 @@ ms.assetid: f329bafd-9e83-4754-a9a9-e7e111229c90
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UNICASTIPADDRESS_ROW, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, MIB_UNICASTIPADDRESS_ROW, MIB_UNICASTIPADDRESS_ROW structure [MIB], PMIB_UNICASTIPADDRESS_ROW, PMIB_UNICASTIPADDRESS_ROW structure pointer [MIB], _MIB_UNICASTIPADDRESS_ROW, mib.mib_unicastipaddress_row, netioapi/MIB_UNICASTIPADDRESS_ROW, netioapi/PMIB_UNICASTIPADDRESS_ROW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

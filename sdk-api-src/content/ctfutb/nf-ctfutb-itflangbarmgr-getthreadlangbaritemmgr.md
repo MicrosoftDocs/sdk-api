@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarMgr.GetThreadLangBarItemMgr
+: 
 ---
 
 # ITfLangBarMgr::GetThreadLangBarItemMgr
@@ -80,7 +88,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -89,7 +97,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
  
 
  

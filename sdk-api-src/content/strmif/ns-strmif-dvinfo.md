@@ -9,8 +9,8 @@ ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

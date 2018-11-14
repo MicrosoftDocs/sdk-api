@@ -9,8 +9,8 @@ ms.assetid: 375293FA-8017-4F74-A93C-C15FED8F19AF
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media Devices], IMFDeviceTransform interface [Streaming Media Devices],described, mftransform/IMFDeviceTransform, stream.imfdevicetransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mftransform.h
 req.include-header: 

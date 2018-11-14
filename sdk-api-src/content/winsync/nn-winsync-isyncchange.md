@@ -9,8 +9,8 @@ ms.assetid: 0cd29977-8d02-4a1e-b63f-783cc10021ee
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], ISyncChange interface [Windows Sync],described, winsync.isyncchange, winsync/ISyncChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

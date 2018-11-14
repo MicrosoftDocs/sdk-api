@@ -9,8 +9,8 @@ ms.assetid: b9906fd8-10d4-4bdd-97b9-fb1ae9d4c588
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EC_SUBSCRIPTION_TYPE, EC_SUBSCRIPTION_TYPE enumeration, EcSubscriptionTypeCollectorInitiated, EcSubscriptionTypeSourceInitiated, _EC_SUBSCRIPTION_TYPE, evcoll/EC_SUBSCRIPTION_TYPE, evcoll/EcSubscriptionTypeCollectorInitiated, evcoll/EcSubscriptionTypeSourceInitiated, wec.ec_subscription_type, wes.ec_subscription_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services for Windows], _WS_UNION_DESCRIPTION, webservices/WS_UNION_DESCRIPTION, wsw.ws_union_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

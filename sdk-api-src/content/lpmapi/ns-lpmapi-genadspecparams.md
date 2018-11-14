@@ -9,8 +9,8 @@ ms.assetid: 0d980286-bce6-483e-b2a1-117c7280c1c1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GenAdspecParams, GenAdspecParams structure [QOS], lpmapi/GenAdspecParams, qos.genadspecparams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

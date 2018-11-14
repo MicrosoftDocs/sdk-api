@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetMouseMovePointsEx
+: 
 ---
 
 # GetMouseMovePointsEx function
@@ -62,21 +68,21 @@ Retrieves a history of up to 64 previous coordinates of the mouse or pen.
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx">MOUSEMOVEPOINT</a> structure. 
+The size, in bytes, of the <a href="https://msdn.microsoft.com/284d8fc1-6d24-4a8b-bd91-ba260c03df4f">MOUSEMOVEPOINT</a> structure. 
 
 
 ### -param lppt [in]
 
 Type: <b>LPMOUSEMOVEPOINT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx">MOUSEMOVEPOINT</a> structure containing valid mouse coordinates (in screen coordinates). It may also contain a time stamp. 
+A pointer to a <a href="https://msdn.microsoft.com/284d8fc1-6d24-4a8b-bd91-ba260c03df4f">MOUSEMOVEPOINT</a> structure containing valid mouse coordinates (in screen coordinates). It may also contain a time stamp. 
 
 The <b>GetMouseMovePointsEx</b> function searches for the point in the mouse coordinates history. If the function finds the point, it returns the last 
 						<i>nBufPoints</i> prior to and including the supplied point. 
 
 If your application supplies a time stamp, the <b>GetMouseMovePointsEx</b> function will use it to differentiate between two equal points that were recorded at different times. 
 
-An application should call this function using the mouse coordinates received from the <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message and convert them to screen coordinates. 
+An application should call this function using the mouse coordinates received from the <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> message and convert them to screen coordinates. 
 
 
 ### -param lpptBuf [out]
@@ -155,7 +161,7 @@ The <b>GetMouseMovePointsEx</b> function will return points that eventually were
 <b>GetMouseMovePointsEx</b> may fail or return erroneous values in the following cases: 
 
 <ul>
-<li>If negative coordinates are passed in the <a href="https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx">MOUSEMOVEPOINT</a> structure. </li>
+<li>If negative coordinates are passed in the <a href="https://msdn.microsoft.com/284d8fc1-6d24-4a8b-bd91-ba260c03df4f">MOUSEMOVEPOINT</a> structure. </li>
 <li>If <b>GetMouseMovePointsEx</b> retrieves a coordinate with a negative value. </li>
 </ul>
 These situations can occur if multiple monitors are present. To correct this, first call 
@@ -221,11 +227,11 @@ for (int i = 0; i &lt; cpt; i++)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx">MOUSEMOVEPOINT</a>
+<a href="https://msdn.microsoft.com/284d8fc1-6d24-4a8b-bd91-ba260c03df4f">MOUSEMOVEPOINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

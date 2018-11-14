@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwService.get_RemoteAddresses
+: 
 ---
 
 # INetFwService::get_RemoteAddresses

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- inkrenderer.h
+: 
+- IInkD2DRenderer.Draw
+: 
 ---
 
 # IInkD2DRenderer::Draw

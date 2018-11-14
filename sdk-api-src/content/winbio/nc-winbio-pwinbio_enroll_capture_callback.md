@@ -9,8 +9,8 @@ ms.assetid: B43C8A68-4D39-4275-891C-2DFE97DC4D64
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PWINBIO_ENROLL_CAPTURE_CALLBACK, PWINBIO_ENROLL_CAPTURE_CALLBACK function, PWINBIO_ENROLL_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_enroll_capture_callback, winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio.h
 req.include-header: 

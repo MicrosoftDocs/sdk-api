@@ -9,8 +9,8 @@ ms.assetid: 0e999859-d409-4fd8-a5da-c43da64bcd8f
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI], DDiscFormat2EraseEvents interface [IMAPI],described, imapi.ddiscformat2eraseevents, imapi2/DDiscFormat2EraseEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 
@@ -55,7 +55,7 @@ Implement this interface to receive notifications of the current erase operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2EraseEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>DDiscFormat2EraseEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2EraseEvents</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>DDiscFormat2EraseEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

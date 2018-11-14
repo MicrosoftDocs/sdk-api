@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- wsipv6ok.h
+: 
+- inet_ntoa
+: 
 ---
 
 # inet_ntoa macro

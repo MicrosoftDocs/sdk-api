@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchItemsChangedSink.StoppedMonitoringScope
+: 
 ---
 
 # ISearchItemsChangedSink::StoppedMonitoringScope
@@ -85,19 +93,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a>
+<a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a>
+<a href="https://msdn.microsoft.com/7ad55cf5-5024-4a30-a465-536fb1429b19">ISearchItemsChangedSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a>
+<a href="https://msdn.microsoft.com/ace8d4f8-ffe0-45ff-8ba4-691efad23013">ISearchScopeRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
 
 
 
@@ -105,7 +113,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231463(v=VS.85).aspx">StartedMonitoringScope</a>
+<a href="https://msdn.microsoft.com/6baf05fd-a487-4e42-a054-c7058188454b">StartedMonitoringScope</a>
  
 
  

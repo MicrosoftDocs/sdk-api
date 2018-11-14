@@ -9,8 +9,8 @@ ms.assetid: 7d8bb666-c5d8-43de-ab72-5b02b6e0593d
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_BLOB, DS_REPL_VALUE_META_DATA_BLOB structure [Active Directory], _DS_REPL_VALUE_META_DATA_BLOB, ad.ds_repl_value_meta_data_blob, ntdsapi/DS_REPL_VALUE_META_DATA_BLOB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

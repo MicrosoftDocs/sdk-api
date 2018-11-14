@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.put_RequestStoreType
+: 
 ---
 
 # ICEnroll::put_RequestStoreType
@@ -109,15 +117,19 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BSTR     bstrStoreType = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrStoreType = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storetype
-hr = pEnroll->get_RequestStoreType( &bstrStoreType );
+hr = pEnroll-&gt;get_RequestStoreType( &amp;bstrStoreType );
 if ( FAILED ( hr ) )
     printf("Failed getting RequestStoreType - %x\n", hr );
 else
@@ -128,13 +140,13 @@ if ( NULL != bstrStoreType )
 
 // set the storetype
 // bstrNewType is a BSTR that is previously set to a valid store type
-hr = pEnroll->put_RequestStoreType( bstrNewType );
+hr = pEnroll-&gt;put_RequestStoreType( bstrNewType );
 if ( FAILED ( hr ) )
     printf("Failed setting RequestStoreType - %x\n", hr );
 else
-    printf( "RequestStoreType was set to %ws\n", bstrNewType );
-```
-
-
+    printf( "RequestStoreType was set to %ws\n", bstrNewType );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

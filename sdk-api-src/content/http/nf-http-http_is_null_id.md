@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- http.h
+: 
+- HTTP_IS_NULL_ID
+: 
 ---
 
 # HTTP_IS_NULL_ID macro

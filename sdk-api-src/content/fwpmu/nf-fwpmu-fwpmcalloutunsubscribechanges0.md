@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmCalloutUnsubscribeChanges0
+: 
 ---
 
 # FwpmCalloutUnsubscribeChanges0 function

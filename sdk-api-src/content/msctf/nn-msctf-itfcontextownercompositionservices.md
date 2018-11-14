@@ -9,8 +9,8 @@ ms.assetid: 7c84cffe-dec8-4e24-b00a-e536984f2a10
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfContextOwnerCompositionServices, ITfContextOwnerCompositionServices interface [Text Services Framework], ITfContextOwnerCompositionServices interface [Text Services Framework],described, _tsf_itfcontextownercompositionservices_ref, msctf/ITfContextOwnerCompositionServices, tsf.itfcontextownercompositionservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -97,25 +97,29 @@ Obtain this interface by calling <b>ITfContext::QueryInterface</b> with IID_ITfC
 
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfContextOwnerCompositionServices *pCompServices;
 
 //Get the ITfContextOwnerCompositionServices interface pointer. 
-hr = m_pContext->QueryInterface(IID_ITfContextOwnerCompositionServices, (LPVOID*)&pCompServices);
+hr = m_pContext-&gt;QueryInterface(IID_ITfContextOwnerCompositionServices, (LPVOID*)&amp;pCompServices);
 if(SUCCEEDED(hr))
 {
     //Use the interface. 
 
     //Release the interface. 
-    pCompServices->Release();
+    pCompServices-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -133,7 +137,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: d322981f-1916-4d38-9d05-bc3db2cd596d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [Files], IVssDifferentialSoftwareSnapshotMgmt interface [Files],described, base.ivssdifferentialsoftwaresnapshotmgmt, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 
@@ -121,7 +121,7 @@ Queries volumes that support shadow copy storage  areas (including volumes with 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

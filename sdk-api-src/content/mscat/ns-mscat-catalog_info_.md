@@ -9,8 +9,8 @@ ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], CATALOG_INFO_, mscat/CATALOG_INFO, security.catalog_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 

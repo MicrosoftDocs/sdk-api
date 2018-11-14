@@ -9,8 +9,8 @@ ms.assetid: FE314254-AAE4-482E-A7AE-28B2591E0060
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Media Foundation], IMFVideoProcessorControl2 interface [Media Foundation],described, mf.imfvideoprocessorcontrol2, mfidl/IMFVideoProcessorControl2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

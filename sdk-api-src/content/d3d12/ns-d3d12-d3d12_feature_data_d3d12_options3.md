@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_feature_data_d3d12_options3.htm
 tech.root: direct3d12
 ms.assetid: 4BA37E6A-124D-4808-8005-CC049B8EE165
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS3, D3D12_FEATURE_DATA_D3D12_OPTIONS3 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS3, direct3d12.d3d12_feature_data_d3d12_options3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetup.GetPrivateKeyContainerList
+: 
 ---
 
 # ICertSrvSetup::GetPrivateKeyContainerList
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>GetPrivateKeyContainerList</b> method gets the list of <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx">key container</a> names stored by the specified <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) for asymmetric signature key algorithms. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>GetPrivateKeyContainerList</b> method gets the list of <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a> names stored by the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) for asymmetric signature key algorithms. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 
 ## -parameters
@@ -73,7 +81,7 @@ A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

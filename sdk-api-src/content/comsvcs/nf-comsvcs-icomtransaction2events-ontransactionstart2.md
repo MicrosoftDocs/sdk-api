@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IComTransaction2Events.OnTransactionStart2
+: 
 ---
 
 # IComTransaction2Events::OnTransactionStart2

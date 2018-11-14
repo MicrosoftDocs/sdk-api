@@ -9,8 +9,8 @@ ms.assetid: b41c3792-76fe-48e0-b2f5-ca3b0ee4c8ae
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], IAMDroppedFrames interface [DirectShow],described, IAMDroppedFramesInterface, dshow.iamdroppedframes, strmif/IAMDroppedFrames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

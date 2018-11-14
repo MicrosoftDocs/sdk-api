@@ -4,13 +4,13 @@ title: "_TOKEN_ELEVATION"
 author: windows-sdk-content
 description: Indicates whether a token has elevated privileges.
 old-location: security\token_elevation.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: a1c87818-f092-43cf-872d-4bb2590a944b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure pointer [Security], TOKEN_ELEVATION, TOKEN_ELEVATION structure [Security], _TOKEN_ELEVATION, security.token_elevation, winnt/PTOKEN_ELEVATION, winnt/TOKEN_ELEVATION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

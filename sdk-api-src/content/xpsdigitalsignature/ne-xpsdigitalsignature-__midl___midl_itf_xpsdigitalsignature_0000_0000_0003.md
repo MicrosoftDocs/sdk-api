@@ -9,8 +9,8 @@ ms.assetid: 36fa92d4-ffd4-4666-8d3e-02436e3bb464
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: XPS_SIGN_FLAGS, XPS_SIGN_FLAGS enumeration [XPS Documents and Packaging], XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY, XPS_SIGN_FLAGS_NONE, __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0003, xps.xps_sign_flags, xpsdigitalsignature/XPS_SIGN_FLAGS, xpsdigitalsignature/XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY, xpsdigitalsignature/XPS_SIGN_FLAGS_NONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: xpsdigitalsignature.h
 req.include-header: 

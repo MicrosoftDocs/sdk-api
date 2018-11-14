@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CopyFile2
+: 
 ---
 
 # CopyFile2 function

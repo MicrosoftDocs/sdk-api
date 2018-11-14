@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits3_0.h
+: 
+- IBitsPeerCacheRecord.GetFileSize
+: 
 ---
 
 # IBitsPeerCacheRecord::GetFileSize
@@ -104,7 +112,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964291(v=VS.85).aspx">IBitsPeerCacheRecord</a>
+<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a>
  
 
  

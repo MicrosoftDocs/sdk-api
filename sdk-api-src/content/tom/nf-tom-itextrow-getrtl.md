@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextRow.GetRTL
+: 
 ---
 
 # ITextRow::GetRTL
@@ -62,7 +70,7 @@ Gets whether this row has right-to-left orientation.
 
 Type: <b>long*</b>
 
- A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row has right-to-left orientation.
+ A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row has right-to-left orientation.
 
 
 ## -returns

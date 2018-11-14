@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_5.h
+: 
+- IBackgroundCopyJobHttpOptions.SetSecurityFlags
+: 
 ---
 
 # IBackgroundCopyJobHttpOptions::SetSecurityFlags
@@ -253,7 +261,7 @@ The redirect policy applies to all files in a download job (the policy does not 
 
 <b>Prior to BITS 3.0:  </b>The redirect policies are not supported.
 
-If the policy is BG_HTTP_REDIRECT_POLICY_DISALLOW and the server redirects your request, the job is placed in the fatal error state with one of the following error codes. For descriptions of the error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa383887(v=VS.85).aspx">HTTP Status Codes</a>. 
+If the policy is BG_HTTP_REDIRECT_POLICY_DISALLOW and the server redirects your request, the job is placed in the fatal error state with one of the following error codes. For descriptions of the error codes, see <a href="https://msdn.microsoft.com/3de6a35d-41e9-4fce-ab92-e970c7c07e55">HTTP Status Codes</a>. 
 
 <ul>
 <li>HRESULT_FROM_WIN32(HTTP_STATUS_AMBIGUOUS)</li>
@@ -268,7 +276,7 @@ If peer caching is enabled and you specify BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT,
 
 If you specify  and the file is downloaded from the 
 
-Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result when calling the <a href="https://msdn.microsoft.com/en-us/library/Aa362993(v=VS.85).aspx">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method. If a server redirected your request, BITS will have already changed the original URL to the final redirected URL, so calling the <b>ReplaceRemotePrefix</b> method will not find files with the original URL.
+Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result when calling the <a href="https://msdn.microsoft.com/5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method. If a server redirected your request, BITS will have already changed the original URL to the final redirected URL, so calling the <b>ReplaceRemotePrefix</b> method will not find files with the original URL.
 
 
 
@@ -278,11 +286,11 @@ Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result whe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964250(v=VS.85).aspx">IBackgroundCopyJobHttpOptions</a>
+<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964253(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>
+<a href="https://msdn.microsoft.com/75104dca-086e-45f6-ad9e-a96730b37433">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>
  
 
  

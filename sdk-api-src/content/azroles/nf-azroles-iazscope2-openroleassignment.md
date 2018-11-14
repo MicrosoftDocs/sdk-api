@@ -4,10 +4,10 @@ title: IAzScope2::OpenRoleAssignment
 author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_openroleassignment.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cb7560d0-da5c-444d-9944-b6db980985bc
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleAssignment method, IAzScope2.OpenRoleAssignment, IAzScope2::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleAssignment, security.iazscope2_openroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope2.OpenRoleAssignment
+: 
 ---
 
 # IAzScope2::OpenRoleAssignment
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>OpenRoleAssignment</b> method opens an <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object with the specified name in this scope.
+The <b>OpenRoleAssignment</b> method opens an <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object with the specified name in this scope.
 
 
 ## -parameters
@@ -60,14 +68,14 @@ The <b>OpenRoleAssignment</b> method opens an <a href="https://msdn.microsoft.co
 
 ### -param bstrRoleAssignmentName [in]
 
-A string that contains the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object to open.
+A string that contains the name of the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object to open.
 
 
 ### -param ppRoleAssignment [out]
 
-The address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object that this method opens.
+The address of a pointer to the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object that this method opens.
 
-When you have finished using the <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
 
 
 ## -returns
@@ -76,7 +84,7 @@ When you have finished using the <a href="https://msdn.microsoft.com/en-us/libra
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 

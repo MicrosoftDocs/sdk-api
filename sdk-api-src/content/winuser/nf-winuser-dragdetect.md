@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DragDetect
+: 
 ---
 
 # DragDetect function
@@ -107,7 +113,7 @@ The system metrics for the drag rectangle are configurable, allowing for larger 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

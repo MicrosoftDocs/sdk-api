@@ -9,8 +9,8 @@ ms.assetid: 7046c4c2-b0bd-4459-b361-e46ce876823f
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMPR_ROUTING_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_ROUTING_CHARACTERISTICS, MPR50_ROUTING_CHARACTERISTICS structure [RAS], MPR_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS structure [RAS], PMPR_ROUTING_CHARACTERISTICS, PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR50_ROUTING_CHARACTERISTICS, _mpr_mpr_routing_characteristics, routprot/MPR_ROUTING_CHARACTERISTICS, routprot/PMPR_ROUTING_CHARACTERISTICS, rras.mpr_routing_characteristics"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 

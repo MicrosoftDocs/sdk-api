@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMDRMWriter.GenerateSigningKeyPair
+: 
 ---
 
 # IWMDRMWriter::GenerateSigningKeyPair
@@ -57,7 +65,7 @@ req.redist:
 ]
 
 
-The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key</a> pair that are used to sign the DRM header object.
+The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="wmformat_glossary.htm">key</a> pair that are used to sign the DRM header object.
 
 
 

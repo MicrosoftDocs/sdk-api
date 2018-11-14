@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddRectangles
+: 
 req.product: GDI+ 1.0
 ---
 

@@ -9,8 +9,8 @@ ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits5_0.h
 req.include-header: Bits.h
@@ -58,9 +58,9 @@ To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob5</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>. <b>IBackgroundCopyJob5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob5</b> interface inherits from <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>, <a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>, <a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>, and <a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>. <b>IBackgroundCopyJob5</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IBackgroundCopyJob5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh446786(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/567C21C7-C689-4A13-9DCA-D45766CB5150">GetProperty</a>
 </td>
 <td align="left" width="63%">
 A generic method for getting BITS job properties.
@@ -82,7 +82,7 @@ A generic method for getting BITS job properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404135(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/D5DB8A96-7417-4142-BA27-783314835CED">SetProperty</a>
 </td>
 <td align="left" width="63%">
 A generic method for setting BITS job properties.
@@ -97,19 +97,19 @@ A generic method for setting BITS job properties.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>
+<a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
  
 
  

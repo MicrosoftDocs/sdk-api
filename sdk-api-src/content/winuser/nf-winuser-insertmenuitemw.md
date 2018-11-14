@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InsertMenuItemW
+: 
 ---
 
 # InsertMenuItemW function
@@ -81,14 +87,14 @@ The identifier or position of the menu item before which to insert the new item.
 
 Type: <b>BOOL</b>
 
-Controls the meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://msdn.microsoft.com/en-us/library/ms647553(v=VS.85).aspx">Accessing Menu Items Programmatically</a> for more information.
+Controls the meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="about_menus.htm">Accessing Menu Items Programmatically</a> for more information.
 
 
 ### -param lpmi [in]
 
 Type: <b>LPCMENUITEMINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a> structure that contains information about the new menu item. 
+A pointer to a <a href="https://msdn.microsoft.com/43d30b39-c1e1-4711-97a2-b5bc29dad9df">MENUITEMINFO</a> structure that contains information about the new menu item. 
 
 
 ## -returns
@@ -108,14 +114,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
+The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
 
-In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/en-us/library/ms646349(v=VS.85).aspx">WM_MENUCHAR</a> message. See <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
+In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. See <a href="using_menus.htm">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Example of Menu-Item Bitmaps</a>.
+For an example, see <a href="using_menus.htm">Example of Menu-Item Bitmaps</a>.
 
 <div class="code"></div>
 
@@ -130,15 +136,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a>
+<a href="https://msdn.microsoft.com/43d30b39-c1e1-4711-97a2-b5bc29dad9df">MENUITEMINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

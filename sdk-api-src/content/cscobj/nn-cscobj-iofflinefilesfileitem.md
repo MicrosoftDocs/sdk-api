@@ -9,8 +9,8 @@ ms.assetid: 53b9af4b-7526-4b54-bae2-61c97aa67ebf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Files], IOfflineFilesFileItem interface [Offline Files],described, cscobj/IOfflineFilesFileItem, of.iofflinefilesfileitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
@@ -56,9 +56,9 @@ Represents a file item in the Offline Files cache.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesFileItem</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>. <b>IOfflineFilesFileItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesFileItem</b> interface inherits from <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>. <b>IOfflineFilesFileItem</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesFileItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530566(v=VS.85).aspx">IsEncrypted</a>
+<a href="https://msdn.microsoft.com/f4ef4836-378c-4a9b-a805-e576d4637a2a">IsEncrypted</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item in the Offline Files cache is encrypted.
@@ -80,7 +80,7 @@ Determines whether an item in the Offline Files cache is encrypted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530567(v=VS.85).aspx">IsSparse</a>
+<a href="https://msdn.microsoft.com/6f731b25-f4f0-4635-af00-dbd1ba4e5f11">IsSparse</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item in the Offline Files cache is sparsely cached.
@@ -95,11 +95,11 @@ Determines whether an item in the Offline Files cache is sparsely cached.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

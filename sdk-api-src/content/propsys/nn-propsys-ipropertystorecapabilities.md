@@ -9,8 +9,8 @@ ms.assetid: b4e51201-47af-449f-9050-aec3207320f5
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IPropertyStoreCapabilities, IPropertyStoreCapabilities interface [Windows Properties], IPropertyStoreCapabilities interface [Windows Properties],described, _shell_IPropertyStoreCapabilities, properties.IPropertyStoreCapabilities, propsys/IPropertyStoreCapabilities, shell.IPropertyStoreCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
@@ -70,7 +70,7 @@ The <b>IPropertyStoreCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761454(v=VS.85).aspx">IsPropertyWritable</a>
+<a href="shell.IPropertyStoreCapabilities_IsPropertyWritable">IsPropertyWritable</a>
 </td>
 <td align="left" width="63%">
 Queries whether the property handler allows a specific property to be edited in the UI by the user.
@@ -85,7 +85,7 @@ Queries whether the property handler allows a specific property to be edited in 
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Property handlers implement this interface to disable a user's ability to edit specific properties. These properties are typically editable in the UI, but are not supported for writing by the property handler. For example, the property System.Author is typically editable. If a property handler author created a file type that exposed <a href="https://msdn.microsoft.com/en-us/library/Bb760652(v=VS.85).aspx">System.Author</a> for reading, but could not support writing this property back, the handler author could return S_FALSE from <a href="https://msdn.microsoft.com/en-us/library/Bb761454(v=VS.85).aspx">IPropertyStoreCapabilities::IsPropertyWritable</a> for System.Author.
+Property handlers implement this interface to disable a user's ability to edit specific properties. These properties are typically editable in the UI, but are not supported for writing by the property handler. For example, the property System.Author is typically editable. If a property handler author created a file type that exposed <a href="shell.props_System_Author">System.Author</a> for reading, but could not support writing this property back, the handler author could return S_FALSE from <a href="shell.IPropertyStoreCapabilities_IsPropertyWritable">IPropertyStoreCapabilities::IsPropertyWritable</a> for System.Author.
 
 The Shell user interfaces that allow property editing, such as the <b>Details Pane</b> and <b>Details Tab</b> of the Properties dialog, call this method as part of determining whether to allow editing of a specific property. This allows the Shell property editing UI to disable controls rather than showing errors when the property handler fails to set or commit the property value. 
 

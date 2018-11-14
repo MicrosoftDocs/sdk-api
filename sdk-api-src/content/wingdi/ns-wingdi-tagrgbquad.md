@@ -9,8 +9,8 @@ ms.assetid: 22e0991d-078e-4b44-9f03-004137e31f6c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPRGBQUAD, RGBQUAD, RGBQUAD structure [Windows GDI], _win32_RGBQUAD_str, gdi.rgbquad, tagRGBQUAD, wingdi/RGBQUAD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

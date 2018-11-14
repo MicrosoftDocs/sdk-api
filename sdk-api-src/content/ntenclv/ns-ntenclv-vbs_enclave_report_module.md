@@ -4,13 +4,13 @@ title: VBS_ENCLAVE_REPORT_MODULE
 author: windows-sdk-content
 description: Describes a module loaded for the enclave.
 old-location: base\vbs_enclave_report_module.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: FB72B01D-B3FE-4FD7-8766-B209C6BC105E
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: VBS_ENCLAVE_REPORT_MODULE, VBS_ENCLAVE_REPORT_MODULE structure, base.vbs_enclave_report_module, ntenclv/VBS_ENCLAVE_REPORT_MODULE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 

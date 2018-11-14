@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- IEnumTfLangBarItems.Clone
+: 
 ---
 
 # IEnumTfLangBarItems::Clone
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538185(v=VS.85).aspx">IEnumTfLangBarItems</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://msdn.microsoft.com/a3988c0f-db2d-4841-8098-f1dc133cb60a">IEnumTfLangBarItems</a> interface pointer that receives the new enumerator.
 
 
 ## -returns

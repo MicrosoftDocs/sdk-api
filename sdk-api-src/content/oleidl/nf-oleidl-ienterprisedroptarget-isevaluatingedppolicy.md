@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oleidl.h
+: 
+- IEnterpriseDropTarget.IsEvaluatingEdpPolicy
+: 
 ---
 
 # IEnterpriseDropTarget::IsEvaluatingEdpPolicy

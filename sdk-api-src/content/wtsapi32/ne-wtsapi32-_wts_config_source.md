@@ -9,8 +9,8 @@ ms.assetid: 2e1f45d9-dc89-4848-9ba5-e6d54b2a7737
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: WTSUserConfigSourceSAM, WTS_CONFIG_SOURCE, WTS_CONFIG_SOURCE enumeration [Remote Desktop Services], _WTS_CONFIG_SOURCE, termserv.wts_config_source, wtsapi32/WTSUserConfigSourceSAM, wtsapi32/WTS_CONFIG_SOURCE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wtsapi32.h
 req.include-header: 

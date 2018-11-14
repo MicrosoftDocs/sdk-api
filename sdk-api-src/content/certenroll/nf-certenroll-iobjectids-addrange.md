@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IObjectIds.AddRange
+: 
 ---
 
 # IObjectIds::AddRange
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>AddRange</b> method adds a range of <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> objects to the collection.
+The <b>AddRange</b> method adds a range of <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> objects to the collection.
 
 
 ## -parameters
@@ -60,7 +68,7 @@ The <b>AddRange</b> method adds a range of <a href="https://msdn.microsoft.com/e
 
 ### -param pValue [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> interface that represents the collection to add.
+Pointer to an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> interface that represents the collection to add.
 
 
 ## -returns
@@ -69,7 +77,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -79,11 +87,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a>
+<a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- Edit_SetSel
+: 
 ---
 
 # Edit_SetSel macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Selects a range of characters in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761661(v=VS.85).aspx">EM_SETSEL</a> message explicitly.
+Selects a range of characters in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/5cb7ff1e-18e8-49c8-8072-872cf32b18b0">EM_SETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +91,7 @@ The ending character position of the selection.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761661(v=VS.85).aspx">EM_SETSEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/5cb7ff1e-18e8-49c8-8072-872cf32b18b0">EM_SETSEL</a>.
 
 
 

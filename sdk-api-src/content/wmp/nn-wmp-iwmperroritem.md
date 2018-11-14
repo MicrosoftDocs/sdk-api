@@ -9,8 +9,8 @@ ms.assetid: 4675eebf-80d7-4412-b3f1-ec54b977db31
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player],described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +58,7 @@ The <b>IWMPErrorItem</b> interface provides a way to access error information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

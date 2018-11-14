@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITCallInfo.get_CallHub
+: 
 ---
 
 # ITCallInfo::get_CallHub

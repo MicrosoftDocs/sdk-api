@@ -9,8 +9,8 @@ ms.assetid: eb47cd77-5788-4130-8d9c-cc84582e5d8e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPFOLDERSETDATA, FOLDERSETDATA, FOLDERSETDATA structure [Windows Shell], LPFOLDERSETDATA, LPFOLDERSETDATA structure pointer [Windows Shell], VIEW_PRIORITY_CACHEHIT, VIEW_PRIORITY_CACHEMISS, VIEW_PRIORITY_DESPERATE, VIEW_PRIORITY_INHERIT, VIEW_PRIORITY_NONE, VIEW_PRIORITY_RESTRICTED, VIEW_PRIORITY_SHELLEXT, VIEW_PRIORITY_SHELLEXT_ASBACKUP, VIEW_PRIORITY_STALECACHEHIT, VIEW_PRIORITY_USEASDEFAULT, _shell_FOLDERSETDATA, shdeprecated/FOLDERSETDATA, shdeprecated/LPFOLDERSETDATA, shell.FOLDERSETDATA, tagFolderSetData"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shdeprecated.h
 req.include-header: 

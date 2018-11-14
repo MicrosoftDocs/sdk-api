@@ -9,8 +9,8 @@ ms.assetid: bd360860-94e3-4f91-a455-5fdb227368b3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCOLORKEYStructure, dshow.ddcolorkey, strmif/DDCOLORKEY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

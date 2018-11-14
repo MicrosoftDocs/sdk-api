@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddressCapabilities.get_DeviceClasses
+: 
 ---
 
 # ITAddressCapabilities::get_DeviceClasses

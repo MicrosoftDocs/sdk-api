@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmFileConditionProperty.get_ValueType
+: 
 ---
 
 # IFsrmFileConditionProperty::get_ValueType

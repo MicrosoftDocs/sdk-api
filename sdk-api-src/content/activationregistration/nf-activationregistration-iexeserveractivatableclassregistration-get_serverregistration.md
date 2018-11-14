@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- activationregistration.h
+: 
+- IExeServerActivatableClassRegistration.get_ServerRegistration
+: 
 ---
 
 # IExeServerActivatableClassRegistration::get_ServerRegistration

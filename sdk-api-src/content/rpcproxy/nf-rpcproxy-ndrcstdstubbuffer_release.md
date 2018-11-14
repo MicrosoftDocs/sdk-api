@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrCStdStubBuffer_Release
+: 
 ---
 
 # NdrCStdStubBuffer_Release function

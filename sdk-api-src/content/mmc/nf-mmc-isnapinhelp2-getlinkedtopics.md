@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- ISnapinHelp2.GetLinkedTopics
+: 
 ---
 
 # ISnapinHelp2::GetLinkedTopics

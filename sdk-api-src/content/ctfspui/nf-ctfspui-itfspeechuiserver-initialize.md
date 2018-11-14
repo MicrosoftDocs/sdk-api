@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfspui.h
+: 
+- ITfSpeechUIServer.Initialize
+: 
 ---
 
 # ITfSpeechUIServer::Initialize
@@ -91,7 +99,7 @@ The method was successful.
 
 
 
-The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://msdn.microsoft.com/en-us/library/ms628947(v=VS.85).aspx">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
+The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://msdn.microsoft.com/40961001-b659-4ddb-ae7d-5342957770be">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
 
 
 

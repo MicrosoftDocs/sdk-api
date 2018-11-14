@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptGenKey
+: 
 ---
 
 # CryptGenKey function
@@ -727,7 +733,7 @@ if (!CryptDestroyKey(hKey))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
 
 
 

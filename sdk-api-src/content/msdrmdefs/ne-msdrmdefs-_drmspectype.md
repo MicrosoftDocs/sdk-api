@@ -9,8 +9,8 @@ ms.assetid: 40997883-2636-4dd1-adf4-deff997abcc8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DRMSPECTYPE, DRMSPECTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSPECTYPE_FILENAME, DRMSPECTYPE_UNKNOWN, _DRMSPECTYPE, msdrmdefs/DRMSPECTYPE, msdrmdefs/DRMSPECTYPE_FILENAME, msdrmdefs/DRMSPECTYPE_UNKNOWN, rm.drmspectype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 

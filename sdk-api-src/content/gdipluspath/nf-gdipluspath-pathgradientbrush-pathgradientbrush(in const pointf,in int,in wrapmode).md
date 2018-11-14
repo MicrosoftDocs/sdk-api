@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- PathGradientBrush.PathGradientBrush
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
+Creates a <a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a> object based on an array of points. Initializes the wrap mode of the path gradient brush.
 
 
 ## -parameters
@@ -97,7 +105,7 @@ Optional. Element of the <a href="https://msdn.microsoft.com/24b035f9-c03e-4502-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
@@ -105,7 +113,7 @@ Optional. Element of the <a href="https://msdn.microsoft.com/24b035f9-c03e-4502-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
 
 
 

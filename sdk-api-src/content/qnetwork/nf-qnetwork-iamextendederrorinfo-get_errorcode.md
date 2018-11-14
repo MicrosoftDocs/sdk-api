@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMExtendedErrorInfo.get_ErrorCode
+: 
 ---
 
 # IAMExtendedErrorInfo::get_ErrorCode

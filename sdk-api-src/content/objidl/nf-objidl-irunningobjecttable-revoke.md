@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- objidl.h
+: 
+- IRunningObjectTable.Revoke
+: 
 ---
 
 # IRunningObjectTable::Revoke

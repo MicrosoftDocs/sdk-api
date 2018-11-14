@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkCollector.get_DesiredPacketDescription
+: 
 ---
 
 # IInkCollector::get_DesiredPacketDescription

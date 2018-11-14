@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wbemcli.h
+: 
+- IMofCompiler.CompileFile
+: 
 ---
 
 # IMofCompiler::CompileFile
@@ -52,7 +60,7 @@ req.redist:
 
 The <b>IMofCompiler::CompileFile</b> method compiles a MOF file (including 
     binary MOFs) and stores the information in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. 
+    <a href="gloss_w.htm">WMI repository</a>. 
     This method performs the same operation as the <a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">Mofcomp</a> 
     command.
 

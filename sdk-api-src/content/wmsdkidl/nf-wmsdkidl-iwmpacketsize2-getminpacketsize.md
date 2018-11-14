@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMPacketSize2.GetMinPacketSize
+: 
 ---
 
 # IWMPacketSize2::GetMinPacketSize
@@ -54,7 +62,7 @@ req.redist:
 
 
 
-The <b>GetMinPacketSize</b> method retrieves the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
+The <b>GetMinPacketSize</b> method retrieves the minimum <a href="wmformat_glossary.htm">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
 
 
 

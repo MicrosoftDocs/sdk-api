@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpRemoveSubnetElementV5
+: 
 ---
 
 # DhcpRemoveSubnetElementV5 function

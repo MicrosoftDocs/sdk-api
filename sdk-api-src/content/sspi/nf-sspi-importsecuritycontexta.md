@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImportSecurityContextA
+: 
 ---
 
 # ImportSecurityContextA function
@@ -168,7 +174,7 @@ An error occurred that did not map to an SSPI error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

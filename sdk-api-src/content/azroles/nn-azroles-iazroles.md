@@ -4,13 +4,13 @@ title: IAzRoles
 author: windows-sdk-content
 description: Represents a collection of IAzRole objects.
 old-location: security\iazroles.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: bc69ec52-ea73-4a0c-a9a2-913a6725489e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IAzRoles, IAzRoles interface [Security], IAzRoles interface [Security],described, azroles/IAzRoles, security.iazroles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
@@ -51,12 +51,12 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 
 
 The <b>IAzRoles</b> interface represents a collection of  
-<a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> objects.
+<a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRoles</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzRoles</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRoles</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzRoles</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,25 +75,25 @@ The <b>IAzRoles</b> interface has these methods.
 <a href="https://msdn.microsoft.com/46388cf1-6ad8-4320-a0cd-998216b0043c">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa377939(v=VS.85).aspx">_NewEnum</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/46388cf1-6ad8-4320-a0cd-998216b0043c">_NewEnum</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377937(v=VS.85).aspx">get_Count</a>
+<a href="https://msdn.microsoft.com/4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa377937(v=VS.85).aspx">Count</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8">Count</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377938(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa377938(v=VS.85).aspx">Item</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">Item</a> property.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377939(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/46388cf1-6ad8-4320-a0cd-998216b0043c">_NewEnum</a>
 
 
 </td>
@@ -117,14 +117,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377937(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8">Count</a>
 
 
 </td>
@@ -133,14 +133,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> objects in the collection.
+Retrieves the number of <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377938(v=VS.85).aspx">Item</a>
+<a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">Item</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object at the specified index into the <b>IAzRoles</b> collection.
+Retrieves the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object at the specified index into the <b>IAzRoles</b> collection.
 
 </td>
 </tr>

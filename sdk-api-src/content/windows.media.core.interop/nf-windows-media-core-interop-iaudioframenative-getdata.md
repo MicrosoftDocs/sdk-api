@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.media.core.interop.h
+: 
+- IAudioFrameNative.GetData
+: 
 ---
 
 # IAudioFrameNative::core
@@ -76,7 +84,7 @@ When this method returns successfully, contains the interface pointer requested 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested interface can't be found.
 

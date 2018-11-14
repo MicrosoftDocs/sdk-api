@@ -9,8 +9,8 @@ ms.assetid: e80fa582-8dd1-4924-a3ca-a2ee668653d3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER structure [Windows Shell], LPEXP_SPECIAL_FOLDER, LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell], _win32_EXP_SPECIAL_FOLDER_str, shell.EXP_SPECIAL_FOLDER_str, shlobj_core/EXP_SPECIAL_FOLDER, shlobj_core/LPEXP_SPECIAL_FOLDER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -9,8 +9,8 @@ ms.assetid: 37a9ac59-e152-47e1-96ee-b816cd645936
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WM_MEDIA_TYPE, WM_MEDIA_TYPE structure [windows Media Format], _WMMediaType, wmformat.wm_media_type, wmsdkidl/WM_MEDIA_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

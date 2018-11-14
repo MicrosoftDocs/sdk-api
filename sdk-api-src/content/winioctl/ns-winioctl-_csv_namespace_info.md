@@ -9,8 +9,8 @@ ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PCSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO structure [Files], CSV_NAMESPACE_INFO_V1, PCSV_NAMESPACE_INFO, PCSV_NAMESPACE_INFO structure pointer [Files], _CSV_NAMESPACE_INFO, fs.csv_namespace_info, winioctl/CSV_NAMESPACE_INFO, winioctl/PCSV_NAMESPACE_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

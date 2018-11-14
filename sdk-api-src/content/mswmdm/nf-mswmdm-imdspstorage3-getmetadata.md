@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IMDSPStorage3.GetMetadata
+: 
 ---
 
 # IMDSPStorage3::GetMetadata

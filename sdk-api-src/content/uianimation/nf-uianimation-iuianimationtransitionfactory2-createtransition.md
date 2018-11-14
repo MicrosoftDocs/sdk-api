@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationTransitionFactory2.CreateTransition
+: 
 ---
 
 # IUIAnimationTransitionFactory2::CreateTransition

@@ -9,8 +9,8 @@ ms.assetid: 0e878a19-8f64-4fa2-a6a7-9a12c2ec8efc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_UINT8_DESCRIPTION, WS_UINT8_DESCRIPTION structure [Web Services for Windows], _WS_UINT8_DESCRIPTION, webservices/WS_UINT8_DESCRIPTION, wsw.ws_uint8_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

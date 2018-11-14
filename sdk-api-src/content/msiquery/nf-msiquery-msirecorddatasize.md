@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MsiRecordDataSize
+: 
 ---
 
 # MsiRecordDataSize function
@@ -90,7 +96,7 @@ If the data is in stream format, the function returns the byte count.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

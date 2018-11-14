@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- TabCtrl_GetItemRect
+: 
 ---
 
 # TabCtrl_GetItemRect macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760594(v=VS.85).aspx">TCM_GETITEMRECT</a> message explicitly. 
+Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/6abd8cdf-5f19-4b7e-800e-970097bc891b">TCM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Retrieves the bounding rectangle for a tab in a tab control. You can use this ma
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

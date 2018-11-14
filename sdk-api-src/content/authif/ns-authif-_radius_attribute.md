@@ -9,8 +9,8 @@ ms.assetid: 7c6e1a41-9736-4bd3-b709-779d871ead57
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE structure pointer [Network Policy Server], RADIUS_ATTRIBUTE, RADIUS_ATTRIBUTE structure [Network Policy Server], _RADIUS_ATTRIBUTE, _ias_radius_attribute, authif/PRADIUS_ATTRIBUTE, authif/RADIUS_ATTRIBUTE, ias.radius_attribute, nps.IAS_radius_attribute"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: authif.h
 req.include-header: 

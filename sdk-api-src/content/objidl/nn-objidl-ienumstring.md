@@ -9,8 +9,8 @@ ms.assetid: 7f3e642a-17c7-4646-8c70-da6b0946a415
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [COM],described, _com_ienumstring, com.ienumstring, objidlbase/IEnumString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -55,7 +55,7 @@ Enumerate strings. <b>LPWSTR</b> is the type that indicates a pointer to a zero-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumString</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumString</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

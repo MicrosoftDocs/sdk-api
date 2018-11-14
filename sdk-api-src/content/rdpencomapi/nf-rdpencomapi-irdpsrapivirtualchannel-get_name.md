@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIVirtualChannel.get_Name
+: 
 ---
 
 # IRDPSRAPIVirtualChannel::get_Name

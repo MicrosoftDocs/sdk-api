@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluslinecaps.h
+: 
+- AdjustableArrowCap.AdjustableArrowCap
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -96,15 +104,15 @@ The middle inset is the number of units that the midpoint of the base shifts tow
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534419(v=VS.85).aspx">AdjustableArrowCap</a>
+<a href="https://msdn.microsoft.com/da4a0644-eedf-4a9c-935a-e9fa822b2673">AdjustableArrowCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536325(v=VS.85).aspx">AdjustableArrowCap::GetMiddleInset</a>
+<a href="https://msdn.microsoft.com/83bc6530-9d78-49ad-9dfc-ea9776945ae6">AdjustableArrowCap::GetMiddleInset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536330(v=VS.85).aspx">AdjustableArrowCap::SetMiddleInset</a>
+<a href="https://msdn.microsoft.com/67721251-b805-425f-9742-6afed25df831">AdjustableArrowCap::SetMiddleInset</a>
  
 
  

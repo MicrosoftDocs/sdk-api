@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPSTYLESTRUCT, LPSTYLESTRUCT, LPSTYLESTRUCT structure pointer [Windows and Messages], STYLESTRUCT, STYLESTRUCT structure [Windows and Messages], _win32_STYLESTRUCT_str, _win32_stylestruct_str_cpp, tagSTYLESTRUCT, winmsg.stylestruct, winui._win32_stylestruct_str, winuser/LPSTYLESTRUCT, winuser/STYLESTRUCT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
@@ -101,15 +101,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632648(v=VS.85).aspx">WM_STYLECHANGED</a>
+<a href="https://msdn.microsoft.com/37bc4e1a-f75d-4851-8dee-97fa2da90254">WM_STYLECHANGED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632649(v=VS.85).aspx">WM_STYLECHANGING</a>
+<a href="https://msdn.microsoft.com/71034362-3f67-49ae-bbbf-d38853ababb3">WM_STYLECHANGING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

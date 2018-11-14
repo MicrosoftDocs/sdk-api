@@ -9,8 +9,8 @@ ms.assetid: f4e352c7-32fe-4a42-9d64-604c29680d7d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FsrmFileManagementType, FsrmFileManagementType enumeration [File Server Resource Manager], FsrmFileManagementType_Custom, FsrmFileManagementType_Expiration, FsrmFileManagementType_Rms, FsrmFileManagementType_Unknown, _FsrmFileManagementType, fs.fsrmfilemanagementtype, fsrm.fsrmfilemanagementtype, fsrm/FsrmFileManagementType, fsrm/FsrmFileManagementType_Custom, fsrm/FsrmFileManagementType_Expiration, fsrm/FsrmFileManagementType_Rms, fsrm/FsrmFileManagementType_Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, Fsrmenums.h

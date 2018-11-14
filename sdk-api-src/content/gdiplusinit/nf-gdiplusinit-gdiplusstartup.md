@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GdiplusStartup
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +57,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>GdiplusStartup</b> function initializes Windows GDI+. Call <b>GdiplusStartup</b> before making any other GDI+ calls, and call <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> when you have finished using GDI+.
+The <b>GdiplusStartup</b> function initializes Windows GDI+. Call <b>GdiplusStartup</b> before making any other GDI+ calls, and call <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> when you have finished using GDI+.
 
 
 ## -parameters
@@ -64,21 +70,21 @@ The <b>GdiplusStartup</b> function initializes Windows GDI+. Call <b>GdiplusStar
 Type: <b>ULONG_PTR token*</b>
 
 Pointer to a 
-					<b>ULONG_PTR</b> that receives a token. Pass the token to <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> when you have finished using GDI+. 
+					<b>ULONG_PTR</b> that receives a token. Pass the token to <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> when you have finished using GDI+. 
 
 
 ### -param input [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534067(v=VS.85).aspx">GdiplusStartupInput</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/dd0ffdd3-f05c-4ad4-a7c8-727d1d3ec83c">GdiplusStartupInput</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534067(v=VS.85).aspx">GdiplusStartupInput</a> structure that contains the GDI+ version, a pointer to a debug callback function, a Boolean value that specifies whether to suppress the background thread, and a Boolean value that specifies whether to suppress external image codecs. 
+Pointer to a <a href="https://msdn.microsoft.com/dd0ffdd3-f05c-4ad4-a7c8-727d1d3ec83c">GdiplusStartupInput</a> structure that contains the GDI+ version, a pointer to a debug callback function, a Boolean value that specifies whether to suppress the background thread, and a Boolean value that specifies whether to suppress external image codecs. 
 
 
 ### -param output [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534068(v=VS.85).aspx">GdiplusStartupOutput</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/dcf89c6f-c0b2-4df0-910c-43d8d758fbaf">GdiplusStartupOutput</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534068(v=VS.85).aspx">GdiplusStartupOutput</a> structure that receives a pointer to a notification hook function and a pointer to a notification unhook function. If the 
+Pointer to a <a href="https://msdn.microsoft.com/dcf89c6f-c0b2-4df0-910c-43d8d758fbaf">GdiplusStartupOutput</a> structure that receives a pointer to a notification hook function and a pointer to a notification unhook function. If the 
 					<b>SuppressBackgroundThread</b> data member of the 
 					<i>input</i> parameter is <b>FALSE</b>, then this parameter can be <b>NULL</b>. 
 
@@ -87,14 +93,14 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534068(v=VS.85)
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the function succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the function fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -103,17 +109,17 @@ If the function fails, it returns one of the other elements of the
 
 
 
-You must call <b>GdiplusStartup</b> before you create any GDI+ objects, and you must delete all of your GDI+ objects (or have them go out of scope) before you call <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a>.
+You must call <b>GdiplusStartup</b> before you create any GDI+ objects, and you must delete all of your GDI+ objects (or have them go out of scope) before you call <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a>.
 
-You can call <b>GdiplusStartup</b> on one thread and call <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> on another thread as long as you delete all of your GDI+ objects (or have them go out of scope) before you call <b>GdiplusShutdown</b>.
+You can call <b>GdiplusStartup</b> on one thread and call <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> on another thread as long as you delete all of your GDI+ objects (or have them go out of scope) before you call <b>GdiplusShutdown</b>.
 
-Do not call <b>GdiplusStartup</b> or <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> in 
+Do not call <b>GdiplusStartup</b> or <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> in 
 				<a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> or in any function that is called by DllMain. If you want to create a DLL that uses GDI+, you should use one of the following techniques to initialize GDI+:
 
 <ul>
-<li>Require your clients to call <b>GdiplusStartup</b> before they call the functions in your DLL and to call <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> when they have finished using your DLL. </li>
-<li>Export your own startup function that calls <b>GdiplusStartup</b> and your own shutdown function that calls <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a>. Require your clients to call your startup function before they call other functions in your DLL and to call your shutdown function when they have finished using your DLL. </li>
-<li>Call <b>GdiplusStartup</b> and <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> in each of your functions that make GDI+ calls. </li>
+<li>Require your clients to call <b>GdiplusStartup</b> before they call the functions in your DLL and to call <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> when they have finished using your DLL. </li>
+<li>Export your own startup function that calls <b>GdiplusStartup</b> and your own shutdown function that calls <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a>. Require your clients to call your startup function before they call other functions in your DLL and to call your shutdown function when they have finished using your DLL. </li>
+<li>Call <b>GdiplusStartup</b> and <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> in each of your functions that make GDI+ calls. </li>
 </ul>
 <div class="alert"><b>Warning</b>  For info about how to use dynamic data exchange (DDE) with GDI+, see <a href="http://go.microsoft.com/fwlink/p/?linkid=237639">Special CWinApp Services</a>.</div>
 <div> </div>
@@ -122,14 +128,14 @@ Do not call <b>GdiplusStartup</b> or <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-For an example of calling <b>GdiplusStartup</b> and <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> in a Windows application, see <a href="https://msdn.microsoft.com/en-us/library/ms533807(v=VS.85).aspx">Getting Started</a>.
+For an example of calling <b>GdiplusStartup</b> and <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> in a Windows application, see <a href="https://msdn.microsoft.com/c03c5ef1-13f6-4cf5-9395-be90b46aa6bb">Getting Started</a>.
 
-The following console application uses a GDI+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object to retrieve the width and height of a JPEG image. The code calls <b>GdiplusStartup</b> before creating the 
-						<b>Image</b> object and calls <a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a> before terminating. Note that the 
+The following console application uses a GDI+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object to retrieve the width and height of a JPEG image. The code calls <b>GdiplusStartup</b> before creating the 
+						<b>Image</b> object and calls <a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a> before terminating. Note that the 
 						<b>Image</b> object is deleted before the call to <b>GdiplusShutdown</b>.
 
 In the following code, the variable 
-						<i>gdiplusStartupInput</i> is initialized by the default constructor of the <a href="https://msdn.microsoft.com/en-us/library/ms534067(v=VS.85).aspx">GdiplusStartupInput</a> structure. The default constructor sets the data members of the structure to the following values: 
+						<i>gdiplusStartupInput</i> is initialized by the default constructor of the <a href="https://msdn.microsoft.com/dd0ffdd3-f05c-4ad4-a7c8-727d1d3ec83c">GdiplusStartupInput</a> structure. The default constructor sets the data members of the structure to the following values: 
 
 <ul>
 <li><b>GdiplusVersion</b> = 1 </li>
@@ -173,19 +179,19 @@ INT main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a>
+<a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534067(v=VS.85).aspx">GdiplusStartupInput</a>
+<a href="https://msdn.microsoft.com/dd0ffdd3-f05c-4ad4-a7c8-727d1d3ec83c">GdiplusStartupInput</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534068(v=VS.85).aspx">GdiplusStartupOutput</a>
+<a href="https://msdn.microsoft.com/dcf89c6f-c0b2-4df0-910c-43d8d758fbaf">GdiplusStartupOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533807(v=VS.85).aspx">Getting Started</a>
+<a href="https://msdn.microsoft.com/c03c5ef1-13f6-4cf5-9395-be90b46aa6bb">Getting Started</a>
  
 
  

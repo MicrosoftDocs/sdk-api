@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RpcServerRegisterIf2
+: 
 ---
 
 # RpcServerRegisterIf2 function

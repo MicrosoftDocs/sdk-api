@@ -9,8 +9,8 @@ ms.assetid: c7ba5a94-37ff-408f-9a77-91b07c28b7ce
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: "*PWTS_SERVER_INFOA, PWTS_SERVER_INFO, PWTS_SERVER_INFO structure pointer [Remote Desktop Services], WTS_SERVER_INFO, WTS_SERVER_INFO structure [Remote Desktop Services], WTS_SERVER_INFOA, WTS_SERVER_INFOW, _WTS_SERVER_INFOA, termserv.wts_server_info, wtsapi32/PWTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFOA, wtsapi32/WTS_SERVER_INFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

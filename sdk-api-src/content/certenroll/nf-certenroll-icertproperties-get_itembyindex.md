@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertProperties.get_ItemByIndex
+: 
 ---
 
 # ICertProperties::get_ItemByIndex
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
+<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
  
 
  

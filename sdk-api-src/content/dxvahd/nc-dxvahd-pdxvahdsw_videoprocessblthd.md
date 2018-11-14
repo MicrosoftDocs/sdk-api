@@ -9,8 +9,8 @@ ms.assetid: 94e6b59f-dd00-4d32-b1ca-a592a67cd0ec
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PDXVAHDSW_VideoProcessBltHD, PDXVAHDSW_VideoProcessBltHD callback, PDXVAHDSW_VideoProcessBltHD callback function [Media Foundation], dxvahd/PDXVAHDSW_VideoProcessBltHD, mf.pdxvahdsw_videoprocessblthd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

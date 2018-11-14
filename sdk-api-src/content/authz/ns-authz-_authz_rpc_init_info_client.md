@@ -4,13 +4,13 @@ title: "_AUTHZ_RPC_INIT_INFO_CLIENT"
 author: windows-sdk-content
 description: Initializes a remote resource manager for a client.
 old-location: security\authz_rpc_init_info_client.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 6859A0CB-F88E-42BF-A350-293D28E908DD
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT structure [Security], PAUTHZ_RPC_INIT_INFO_CLIENT, PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security], _AUTHZ_RPC_INIT_INFO_CLIENT, authz/AUTHZ_RPC_INIT_INFO_CLIENT, authz/PAUTHZ_RPC_INIT_INFO_CLIENT, security.authz_rpc_init_info_client"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

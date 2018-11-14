@@ -9,8 +9,8 @@ ms.assetid: 7f84fd12-40c3-4201-8986-a2883ba2f53d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 7f84fd12-40c3-4201-8986-a2883ba2f53d, MF_TOPONODE_DRAIN_ALWAYS, MF_TOPONODE_DRAIN_DEFAULT, MF_TOPONODE_DRAIN_MODE, MF_TOPONODE_DRAIN_MODE enumeration [Media Foundation], MF_TOPONODE_DRAIN_NEVER, _MF_TOPONODE_DRAIN_MODE, mf.mf_toponode_drain_mode, mfidl/MF_TOPONODE_DRAIN_ALWAYS, mfidl/MF_TOPONODE_DRAIN_DEFAULT, mfidl/MF_TOPONODE_DRAIN_MODE, mfidl/MF_TOPONODE_DRAIN_NEVER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

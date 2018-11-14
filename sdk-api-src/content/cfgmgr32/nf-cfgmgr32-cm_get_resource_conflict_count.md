@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Resource_Conflict_Count
+: 
 ---
 
 # CM_Get_Resource_Conflict_Count function

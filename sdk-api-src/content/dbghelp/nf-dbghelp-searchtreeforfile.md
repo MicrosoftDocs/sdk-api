@@ -7,7 +7,7 @@ old-location: base\searchtreeforfile.htm
 tech.root: debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SearchTreeForFile
+: 
 ---
 
 # SearchTreeForFile function

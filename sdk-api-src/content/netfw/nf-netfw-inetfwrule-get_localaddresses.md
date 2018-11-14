@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwRule.get_LocalAddresses
+: 
 ---
 
 # INetFwRule::get_LocalAddresses

@@ -9,8 +9,8 @@ ms.assetid: 7483b51e-d71d-4570-8b76-64e344c2227e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], IPersistSerializedPropStorage2 interface [Windows Shell],described, _shell_IPersistSerializedPropStorage2, propsys/IPersistSerializedPropStorage2, shell.IPersistSerializedPropStorage2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

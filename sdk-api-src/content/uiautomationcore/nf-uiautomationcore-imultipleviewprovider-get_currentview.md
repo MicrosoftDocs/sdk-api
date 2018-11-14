@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IMultipleViewProvider.get_CurrentView
+: 
 ---
 
 # IMultipleViewProvider::get_CurrentView

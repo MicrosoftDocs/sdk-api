@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITForwardInformation2.SetForwardType2
+: 
 ---
 
 # ITForwardInformation2::SetForwardType2

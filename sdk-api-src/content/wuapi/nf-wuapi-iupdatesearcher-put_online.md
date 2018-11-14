@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateSearcher.put_Online
+: 
 ---
 
 # IUpdateSearcher::put_Online

@@ -9,8 +9,8 @@ ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: pdh.h
 req.include-header: 

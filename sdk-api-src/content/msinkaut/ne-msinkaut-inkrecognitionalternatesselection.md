@@ -9,8 +9,8 @@ ms.assetid: abc9fecf-7754-4f32-974f-5febfc68a6a7
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IRAS_All, IRAS_DefaultCount, IRAS_Start, InkRecognitionAlternatesSelection, InkRecognitionAlternatesSelection enumeration [Tablet PC], abc9fecf-7754-4f32-974f-5febfc68a6a7, msinkaut/IRAS_All, msinkaut/IRAS_DefaultCount, msinkaut/IRAS_Start, msinkaut/InkRecognitionAlternatesSelection, tablet.inkrecognitionalternatesselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyEnumType.GetValue
+: 
 ---
 
 # IPropertyEnumType::GetValue
@@ -80,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For additional information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
+For additional information, see <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.
 
 
 

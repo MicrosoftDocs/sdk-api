@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPCore.get_status
+: 
 ---
 
 # IWMPCore::get_status

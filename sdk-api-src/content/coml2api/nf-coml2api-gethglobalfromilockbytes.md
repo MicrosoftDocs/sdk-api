@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetHGlobalFromILockBytes
+: 
 ---
 
 # GetHGlobalFromILockBytes function
@@ -54,7 +60,7 @@ req.redist:
 
 The 
 <b>GetHGlobalFromILockBytes</b> function retrieves a global memory handle to a byte array object created using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378977(v=VS.85).aspx">CreateILockBytesOnHGlobal</a> function.
+<a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a> function.
 
 
 ## -parameters
@@ -65,8 +71,8 @@ The
 ### -param plkbyt [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379238(v=VS.85).aspx">ILockBytes</a> interface on the byte-array object previously created by a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378977(v=VS.85).aspx">CreateILockBytesOnHGlobal</a> function.
+<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface on the byte-array object previously created by a call to the 
+<a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a> function.
 
 
 ### -param phglobal [out]
@@ -88,11 +94,11 @@ This function returns HRESULT.
 
 
 After a call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378977(v=VS.85).aspx">CreateILockBytesOnHGlobal</a>, which creates a byte array object on global memory, 
-<b>GetHGlobalFromILockBytes</b> retrieves a pointer to the handle of the global memory underlying the byte array object. The handle this function returns might be different from the original handle due to intervening calls to the <a href="https://msdn.microsoft.com/en-us/library/Aa366590(v=VS.85).aspx">GlobalReAlloc</a> function.
+<a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a>, which creates a byte array object on global memory, 
+<b>GetHGlobalFromILockBytes</b> retrieves a pointer to the handle of the global memory underlying the byte array object. The handle this function returns might be different from the original handle due to intervening calls to the <a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a> function.
 
 The contents of the returned memory handle can be written to a clean disk file, and then opened as a storage object using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380341(v=VS.85).aspx">StgOpenStorage</a> function.
+<a href="https://msdn.microsoft.com/5ff18dc8-b24f-42bb-8c32-efc4d3696687">StgOpenStorage</a> function.
 
 This function only works within the same process from which the byte array was created.
 
@@ -104,11 +110,11 @@ This function only works within the same process from which the byte array was c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378977(v=VS.85).aspx">CreateILockBytesOnHGlobal</a>
+<a href="https://msdn.microsoft.com/e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c">CreateILockBytesOnHGlobal</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380341(v=VS.85).aspx">StgOpenStorage</a>
+<a href="https://msdn.microsoft.com/5ff18dc8-b24f-42bb-8c32-efc4d3696687">StgOpenStorage</a>
  
 
  

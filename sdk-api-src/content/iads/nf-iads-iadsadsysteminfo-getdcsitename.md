@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iads.h
+: 
+- IADsADSystemInfo.GetDCSiteName
+: 
 ---
 
 # IADsADSystemInfo::GetDCSiteName
@@ -88,7 +96,7 @@ This method supports the standard <b>HRESULT</b> return values. For more informa
 
 
 
-An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://msdn.microsoft.com/library/Aa772157(v=VS.85).aspx">Active Directory Core Concepts</a>.
+An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="ad.active_directory_core_concepts">Active Directory Core Concepts</a>.
 
 
 #### Examples

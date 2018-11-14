@@ -9,8 +9,8 @@ ms.assetid: 3d76be50-0e67-4e23-8ce0-8ac9f4ad0c1c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidStreamBufferSinkEvent3, IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEvent3Interface, mstv.imsvidstreambuffersinkevent3, segment/IMSVidStreamBufferSinkEvent3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

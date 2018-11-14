@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wbemglue.h
+: 
+- CWbemProviderGlue.GetEmptyInstance
+: 
 ---
 
 # CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)

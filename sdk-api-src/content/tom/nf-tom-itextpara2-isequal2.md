@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextPara2.IsEqual2
+: 
 ---
 
 # ITextPara2::IsEqual2
@@ -69,7 +77,7 @@ The text paragraph object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that is <b>tomTrue</b> if the text paragraph objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that is <b>tomTrue</b> if the text paragraph objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
 
 
 ## -returns

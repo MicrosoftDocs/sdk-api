@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- exdisp.h
+: 
+- IWebBrowserApp.get_HWND
+: 
 ---
 
 # IWebBrowserApp::get_HWND

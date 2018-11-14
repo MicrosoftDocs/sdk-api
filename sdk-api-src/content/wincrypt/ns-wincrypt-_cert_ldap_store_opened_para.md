@@ -9,8 +9,8 @@ ms.assetid: f13b8181-6173-44f8-ab30-4311042cd1b5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCERT_LDAP_STORE_OPENED_PARA, CERT_LDAP_STORE_OPENED_PARA, CERT_LDAP_STORE_OPENED_PARA structure [Security], PCERT_LDAP_STORE_OPENED_PARA, PCERT_LDAP_STORE_OPENED_PARA structure pointer [Security], _CERT_LDAP_STORE_OPENED_PARA, security.cert_ldap_store_opened_para, wincrypt/CERT_LDAP_STORE_OPENED_PARA, wincrypt/PCERT_LDAP_STORE_OPENED_PARA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

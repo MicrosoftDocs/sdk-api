@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiCancelDriverInfoSearch
+: 
 ---
 
 # SetupDiCancelDriverInfoSearch function
@@ -60,7 +66,7 @@ The <b>SetupDiCancelDriverInfoSearch</b> function cancels a driver list search t
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which a driver list is being built.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which a driver list is being built.
 
 
 ## -returns

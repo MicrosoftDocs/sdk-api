@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ITuningSpaceContainer.put_MaxCount
+: 
 ---
 
 # ITuningSpaceContainer::put_MaxCount

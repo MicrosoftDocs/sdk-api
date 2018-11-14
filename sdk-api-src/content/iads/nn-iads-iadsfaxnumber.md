@@ -9,8 +9,8 @@ ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -65,7 +65,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

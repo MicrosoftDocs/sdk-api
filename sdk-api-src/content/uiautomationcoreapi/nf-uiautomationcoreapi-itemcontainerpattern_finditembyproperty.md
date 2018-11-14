@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ItemContainerPattern_FindItemByProperty
+: 
 ---
 
 # ItemContainerPattern_FindItemByProperty function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodec.h
+: 
+- IWICDevelopRaw.GetCurrentParameterSet
+: 
 ---
 
 # IWICDevelopRaw::GetCurrentParameterSet
@@ -61,7 +69,7 @@ Gets the current set of parameters.
 
 ### -param ppCurrentParameterSet [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a>**</b>
+Type: <b><a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a>**</b>
 
 A pointer that receives a pointer to the current set of parameters.
 

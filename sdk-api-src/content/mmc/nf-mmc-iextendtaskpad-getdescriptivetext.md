@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IExtendTaskPad.GetDescriptiveText
+: 
 ---
 
 # IExtendTaskPad::GetDescriptiveText
@@ -85,7 +93,7 @@ This method can return one of these values.
 
 
 Allocate the pszDescriptiveText string with the COM API function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
 
 
 

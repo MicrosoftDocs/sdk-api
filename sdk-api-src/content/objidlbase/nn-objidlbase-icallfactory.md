@@ -9,8 +9,8 @@ ms.assetid: 323dc627-3867-4170-b278-0bce46077729
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -55,7 +55,7 @@ Creates a call object for processing calls to the methods of an asynchronous int
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFactory</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ICallFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

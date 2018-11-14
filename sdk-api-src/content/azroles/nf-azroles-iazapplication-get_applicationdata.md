@@ -4,10 +4,10 @@ title: IAzApplication::get_ApplicationData
 author: windows-sdk-content
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazapplication_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 7d7ec5c8-8032-437a-92b5-5c578deda6f9
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzApplication object, ApplicationData property [Security],IAzApplication interface, AzApplication object [Security],ApplicationData property, IAzApplication interface [Security],ApplicationData property, IAzApplication.ApplicationData, IAzApplication.get_ApplicationData, IAzApplication::ApplicationData, IAzApplication::get_ApplicationData, IAzApplication::put_ApplicationData, azroles/IAzApplication::ApplicationData, azroles/IAzApplication::get_ApplicationData, azroles/IAzApplication::put_ApplicationData, get_ApplicationData, security.iazapplication_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.get_ApplicationData
+: 
 ---
 
 # IAzApplication::get_ApplicationData

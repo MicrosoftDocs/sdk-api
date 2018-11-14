@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vsmgmt.h
+: 
+- IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap
+: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap

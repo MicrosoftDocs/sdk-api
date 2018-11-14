@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- LinearGradientBrush.LinearGradientBrush
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -100,9 +108,13 @@ The "directional line," an imaginary straight line, is defined by the starting p
 
 The following example creates a linear gradient brush from a set of boundary points and boundary colors. The code then uses the brush to paint the interior of a rectangle.
 
-
-```cpp
-VOID Example_Construct01(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_Construct01(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -112,11 +124,11 @@ VOID Example_Construct01(HDC hdc)
       Color(255, 255, 0, 0),   // red
       Color(255, 0, 0, 255));  // blue
 
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 300, 200);
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 300, 200);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -129,7 +141,7 @@ VOID Example_Construct01(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 

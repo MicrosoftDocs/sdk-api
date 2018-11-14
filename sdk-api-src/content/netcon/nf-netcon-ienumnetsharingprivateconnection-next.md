@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- IEnumNetSharingPrivateConnection.Next
+: 
 ---
 
 # IEnumNetSharingPrivateConnection::Next
@@ -69,7 +77,7 @@ Specifies the number of privately-shared connections to retrieve.
 ### -param rgVar [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> variable for the connection. This variant contains a pointer to an 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> variable for the connection. This variant contains a pointer to an 
 <a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a> interface.
 
 

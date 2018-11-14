@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesCache.GetSettingObject
+: 
 ---
 
 # IOfflineFilesCache::GetSettingObject
@@ -66,7 +74,7 @@ Case-insensitive name of the setting.  One of the following values:
 
 ### -param ppSetting [out]
 
-If the setting exists, a pointer to the object's <a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a> interface is returned.
+If the setting exists, a pointer to the object's <a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a> interface is returned.
 
 
 ## -returns
@@ -94,7 +102,7 @@ This method is available to both administrators and non-administrators.  Securit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

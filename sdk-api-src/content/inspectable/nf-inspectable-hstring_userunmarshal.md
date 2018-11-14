@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HSTRING_UserUnmarshal
+: 
 ---
 
 # HSTRING_UserUnmarshal function

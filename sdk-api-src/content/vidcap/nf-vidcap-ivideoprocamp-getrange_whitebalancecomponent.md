@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- IVideoProcAmp.getRange_WhiteBalanceComponent
+: 
 ---
 
 # IVideoProcAmp::getRange_WhiteBalanceComponent

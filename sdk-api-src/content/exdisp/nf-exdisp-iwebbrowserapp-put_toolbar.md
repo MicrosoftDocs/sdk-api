@@ -50,6 +50,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- exdisp.h
+: 
+- IWebBrowserApp.put_ToolBar
+: 
 ---
 
 # IWebBrowserApp::put_ToolBar

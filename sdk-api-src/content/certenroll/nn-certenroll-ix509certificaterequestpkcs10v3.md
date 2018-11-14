@@ -9,8 +9,8 @@ ms.assetid: e833d1dc-da0f-4f5e-9027-ebf7413ef8c3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509CertificateRequestPkcs10V3, IX509CertificateRequestPkcs10V3 interface [Security], IX509CertificateRequestPkcs10V3 interface [Security],described, certenroll/IX509CertificateRequestPkcs10V3, security.ix509certificaterequestpkcs10v3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -50,5 +50,5 @@ req.redist:
 ## -description
 
 
-The <b>IX509CertificateRequestPkcs10V3</b> interface represents a PKCS #10 certificate request. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/en-us/library/Aa377505(v=VS.85).aspx">IX509CertificateRequestPkcs10</a>  and <a href="https://msdn.microsoft.com/en-us/library/Ee351624(v=VS.85).aspx">IX509CertificateRequestPkcs10V2</a> interfaces and adds properties that enable TPM certificate attestation.
+The <b>IX509CertificateRequestPkcs10V3</b> interface represents a PKCS #10 certificate request. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>  and <a href="https://msdn.microsoft.com/38177793-c15b-4651-8260-c90a151da83e">IX509CertificateRequestPkcs10V2</a> interfaces and adds properties that enable TPM certificate attestation.
 

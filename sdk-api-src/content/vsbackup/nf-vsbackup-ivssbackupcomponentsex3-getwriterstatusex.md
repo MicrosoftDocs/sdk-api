@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vsbackup.h
+: 
+- IVssBackupComponentsEx3.GetWriterStatusEx
+: 
 ---
 
 # IVssBackupComponentsEx3::GetWriterStatusEx
@@ -301,7 +309,7 @@ A requester must call the asynchronous operation
 If this method returns VSS_E_WRITERERROR_PARTIAL_FAILURE, the requester should use the <a href="https://msdn.microsoft.com/a5d739d3-9169-4b25-a590-35703e77dacc">IVssComponentEx2::GetFailure</a> method to retrieve the component-level errors.
 
 When the caller has finished accessing the status information returned by this method, it should call 
-    <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the 
+    <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory held by the 
     <i>pbstrWriter</i> and <i>pbstrApplicationMessage</i> parameters.
 
 

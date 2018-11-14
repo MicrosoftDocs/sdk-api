@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_1.h
+: 
+- IDWriteFactory1.GetEudcFontCollection
+: 
 ---
 
 # IDWriteFactory1::GetEudcFontCollection

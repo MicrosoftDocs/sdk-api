@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawPolygon
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -111,9 +119,13 @@ If the first and last coordinates in the
 
 The following example draws a polygon, defined by an array of points.
 
-
-```cpp
-VOID Example_DrawPolygon(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawPolygon(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -130,11 +142,11 @@ VOID Example_DrawPolygon(HDC hdc)
    Point* pPoints = points;
 
    // Draw the polygon.
-   graphics.DrawPolygon(&blackPen, pPoints, 5);
-}
-```
-
-
+   graphics.DrawPolygon(&amp;blackPen, pPoints, 5);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -147,7 +159,7 @@ VOID Example_DrawPolygon(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

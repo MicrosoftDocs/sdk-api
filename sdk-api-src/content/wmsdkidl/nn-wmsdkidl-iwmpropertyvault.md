@@ -9,8 +9,8 @@ ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], IWMPropertyVault interface [windows Media Format],described, IWMPropertyVaultInterface, wmformat.iwmpropertyvault, wmsdkidl/IWMPropertyVault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

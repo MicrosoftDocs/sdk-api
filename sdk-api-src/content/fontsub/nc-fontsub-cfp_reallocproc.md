@@ -9,8 +9,8 @@ ms.assetid: 06c45ea3-1776-4f9c-a931-461d0b697535
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: fontsub.h
 req.include-header: 
@@ -94,7 +94,7 @@ Returns a void pointer to the reallocated (and possibly moved) memory block. The
 
 
 
-<a href="https://msdn.microsoft.com/library/xbebcx7d(v=VS.100).aspx">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
+<a href="2b2239de-810b-4b11-9438-32ab0a244185">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
 
 
 

@@ -7,10 +7,10 @@ old-location: mscs\clus_ftset_info.htm
 tech.root: mscs
 ms.assetid: 75F2589D-8F4F-4B65-AE05-DA48A1EED03F
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCLUS_FTSET_INFO, CLUS_FTSET_INFO, CLUS_FTSET_INFO structure [Failover Cluster], PCLUS_FTSET_INFO, PCLUS_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUS_FTSET_INFO, clusapi/PCLUS_FTSET_INFO, mscs.clus_ftset_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about an FT (fault tolerant) set. This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn605980(v=VS.85).aspx">CLUSPROP_FTSET_INFO</a> structure to create an entry in a value list.
+Contains information about an FT (fault tolerant) set. This structure is used by the <a href="https://msdn.microsoft.com/0BD016A6-B635-4514-886A-8CD136D3F715">CLUSPROP_FTSET_INFO</a> structure to create an entry in a value list.
 
 
 ## -struct-fields
@@ -73,11 +73,11 @@ The type of fault tolerance that is supported by the FT set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn605980(v=VS.85).aspx">CLUSPROP_FTSET_INFO</a>
+<a href="https://msdn.microsoft.com/0BD016A6-B635-4514-886A-8CD136D3F715">CLUSPROP_FTSET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
  
 
  

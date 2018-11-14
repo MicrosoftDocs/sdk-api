@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509PolicyServerListManager.get__NewEnum
+: 
 ---
 
 # IX509PolicyServerListManager::get__NewEnum
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351726(v=VS.85).aspx">IX509PolicyServerListManager</a>
+<a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a>
  
 
  

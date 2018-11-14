@@ -9,8 +9,8 @@ ms.assetid: DAE43446-725E-490B-AE1B-EA6CB31F4358
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: CF_FILE_RANGE, CF_FILE_RANGE structure, cfapi/CF_FILE_RANGE, cloudApi.cf_file_range
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

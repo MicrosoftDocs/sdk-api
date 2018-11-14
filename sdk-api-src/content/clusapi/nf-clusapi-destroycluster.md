@@ -7,7 +7,7 @@ old-location: mscs\destroycluster.htm
 tech.root: mscs
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: DestroyCluster, DestroyCluster function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster], clusapi/DestroyCluster, clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DestroyCluster
+: 
 ---
 
 # DestroyCluster function
@@ -70,7 +76,7 @@ Handle to a cluster, returned by the <a href="https://msdn.microsoft.com/b2ee257
 ### -param pfnProgressCallback [in, optional]
 
 Address of callback function that matches the 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
+      <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
       function pointer that will be called periodically to provide progress on the cluster destruction.
 
 
@@ -90,7 +96,7 @@ If <b>TRUE</b>, then delete the virtual computer objects associated with the clu
 
 
 Returns <b>ERROR_SUCCESS</b> if the cluster was completely removed or a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a> for the last failed operation.
+      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> for the last failed operation.
 
 
 
@@ -111,7 +117,7 @@ It is possible for multiple steps to fail when removing a cluster with
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Cluster Management Functions</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Cluster Management Functions</a>
 
 
 

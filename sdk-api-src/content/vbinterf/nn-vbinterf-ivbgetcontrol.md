@@ -9,8 +9,8 @@ ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 
@@ -55,7 +55,7 @@ Provides access to all the controls on a Visual Basic container.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBGetControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IVBGetControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBGetControl</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IVBGetControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDigitalCableTuneRequest.get_SourceID
+: 
 ---
 
 # IDigitalCableTuneRequest::get_SourceID

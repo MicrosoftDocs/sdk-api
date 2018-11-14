@@ -9,8 +9,8 @@ ms.assetid: 05873d6d-9e0c-4d3e-9b4d-7831e29e2942
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_STATISTICS0, IPSEC_STATISTICS0 structure [Filtering], IPSEC_STATISTICS0_, fwp.ipsec_statistics0_struct, ipsectypes/IPSEC_STATISTICS0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

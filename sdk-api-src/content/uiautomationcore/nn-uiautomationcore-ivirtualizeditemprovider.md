@@ -9,8 +9,8 @@ ms.assetid: 39baaa54-b836-497c-b401-a865202626e7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVirtualizedItemProvider, IVirtualizedItemProvider interface [Windows Accessibility], IVirtualizedItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IVirtualizedItemProvider, uiauto_IVirtualizedItemProvider, uiautomationcore/IVirtualizedItemProvider, winauto.uiauto_IVirtualizedItemProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

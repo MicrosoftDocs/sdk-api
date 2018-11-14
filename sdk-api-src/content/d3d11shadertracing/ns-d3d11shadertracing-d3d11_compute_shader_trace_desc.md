@@ -9,8 +9,8 @@ ms.assetid: C047CA31-22D4-4512-B90C-3C77BA6AADA9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_COMPUTE_SHADER_TRACE_DESC, D3D11_COMPUTE_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_COMPUTE_SHADER_TRACE_DESC, direct3d11.d3d11_compute_shader_trace_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 
@@ -65,13 +65,13 @@ The invocation number of the instance of the compute shader.
 
 ### -field ThreadIDInGroup
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff471570(v=VS.85).aspx">SV_GroupThreadID</a> to trace. This value identifies indexes of individual threads within a thread group that a compute shader executes in.
+The <a href="https://msdn.microsoft.com/be944592-c4ea-43c9-88bc-98a9a190a437">SV_GroupThreadID</a> to trace. This value identifies indexes of individual threads within a thread group that a compute shader executes in.
           
 
 
 ### -field ThreadGroupID
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff471568(v=VS.85).aspx">SV_GroupID</a> to trace. This value identifies indexes of a thread group that the compute shader executes in.
+The <a href="https://msdn.microsoft.com/1b90ca74-a2b6-4a5f-aa4a-1ec879360593">SV_GroupID</a> to trace. This value identifies indexes of a thread group that the compute shader executes in.
           
 
 
@@ -90,7 +90,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
  
 
  

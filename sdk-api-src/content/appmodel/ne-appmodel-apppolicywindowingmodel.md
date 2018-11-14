@@ -9,8 +9,8 @@ ms.assetid: 236BCD35-6778-43A4-8B5E-59E9A49002FA
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: AppPolicyWindowingModel, AppPolicyWindowingModel enumeration [App packaging and management], AppPolicyWindowingModel_ClassicDesktop, AppPolicyWindowingModel_ClassicPhone, AppPolicyWindowingModel_None, AppPolicyWindowingModel_Universal, appmodel/AppPolicyWindowingModel, appmodel/AppPolicyWindowingModel_ClassicDesktop, appmodel/AppPolicyWindowingModel_ClassicPhone, appmodel/AppPolicyWindowingModel_None, appmodel/AppPolicyWindowingModel_Universal, appxpkg.apppolicywindowingmodel_enumeration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 

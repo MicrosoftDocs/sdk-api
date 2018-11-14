@@ -9,8 +9,8 @@ ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: subscriptionservices.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, _WSD_OPERATION, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

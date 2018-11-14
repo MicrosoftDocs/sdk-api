@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IMDServiceProvider2.CreateDevice
+: 
 ---
 
 # IMDServiceProvider2::CreateDevice

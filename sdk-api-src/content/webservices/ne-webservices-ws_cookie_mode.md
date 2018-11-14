@@ -9,8 +9,8 @@ ms.assetid: d1430120-efaa-4af8-a669-720387c617b2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_AUTO_COOKIE_MODE, WS_COOKIE_MODE, WS_COOKIE_MODE enumeration [Web Services for Windows], WS_MANUAL_COOKIE_MODE, webservices/WS_AUTO_COOKIE_MODE, webservices/WS_COOKIE_MODE, webservices/WS_MANUAL_COOKIE_MODE, wsw.ws_cookie_mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPStringCollection2.isIdentical
+: 
 ---
 
 # IWMPStringCollection2::isIdentical

@@ -9,8 +9,8 @@ ms.assetid: a2137043-baee-496b-b3ad-45af5a6f123e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRemoteComputer, IRemoteComputer interface [Windows Shell], IRemoteComputer interface [Windows Shell],described, _win32_IRemoteComputer, shell.IRemoteComputer, shobjidl_core/IRemoteComputer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.devices.alljoyn.interop.h
+: 
+- IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
+: 
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn

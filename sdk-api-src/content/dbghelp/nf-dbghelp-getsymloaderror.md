@@ -7,7 +7,7 @@ old-location: base\getsymloaderror.htm
 tech.root: debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, dbghelp/GetSymLoadError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- GetSymLoadError
+: 
 ---
 
 # GetSymLoadError function

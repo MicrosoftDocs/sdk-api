@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CLSIDFromProgIDEx
+: 
 ---
 
 # CLSIDFromProgIDEx function
@@ -52,7 +58,7 @@ req.redist:
 
 Triggers automatic installation if the COMClassStore policy is enabled.
 
-This is analogous to the behavior of <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> when neither CLSCTX_ENABLE_CODE_DOWNLOAD nor CLSCTX_NO_CODE_DOWNLOAD are specified.
+This is analogous to the behavior of <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> when neither CLSCTX_ENABLE_CODE_DOWNLOAD nor CLSCTX_NO_CODE_DOWNLOAD are specified.
 
 
 ## -parameters
@@ -148,7 +154,7 @@ If either of the following registry values are enabled (meaning set to 1), autom
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690567(v=VS.85).aspx">ProgIDFromCLSID</a>
+<a href="https://msdn.microsoft.com/a863cbc2-f8ab-468a-8254-b273077a6a2b">ProgIDFromCLSID</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

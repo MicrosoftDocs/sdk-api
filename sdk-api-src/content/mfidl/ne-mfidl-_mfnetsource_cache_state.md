@@ -9,8 +9,8 @@ ms.assetid: fc7f2f66-02a3-455a-820b-304a53494ef1
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFNETSOURCE_CACHE_ACTIVE_COMPLETE, MFNETSOURCE_CACHE_ACTIVE_WRITING, MFNETSOURCE_CACHE_STATE, MFNETSOURCE_CACHE_STATE enumeration [Media Foundation], MFNETSOURCE_CACHE_UNAVAILABLE, _MFNETSOURCE_CACHE_STATE, fc7f2f66-02a3-455a-820b-304a53494ef1, mf.mfnetsource_cache_state, mfidl/MFNETSOURCE_CACHE_ACTIVE_COMPLETE, mfidl/MFNETSOURCE_CACHE_ACTIVE_WRITING, mfidl/MFNETSOURCE_CACHE_STATE, mfidl/MFNETSOURCE_CACHE_UNAVAILABLE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

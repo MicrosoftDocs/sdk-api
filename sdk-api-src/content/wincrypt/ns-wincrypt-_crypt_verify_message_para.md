@@ -9,8 +9,8 @@ ms.assetid: bbd56b5e-2bbe-420f-8842-1be50dca779f
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_VERIFY_MESSAGE_PARA, PCRYPT_VERIFY_MESSAGE_PARA structure pointer [Security], _CRYPT_VERIFY_MESSAGE_PARA, _crypto2_crypt_verify_message_para, security.crypt_verify_message_para, wincrypt/CRYPT_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_VERIFY_MESSAGE_PARA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

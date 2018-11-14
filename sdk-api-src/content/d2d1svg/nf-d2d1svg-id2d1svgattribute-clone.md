@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgattribute_clone.htm
 tech.root: direct2d
 ms.assetid: 85A16E88-5010-403F-B6B9-EBA6A4321463
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: Clone, Clone method [Direct2D], Clone method [Direct2D],ID2D1SvgAttribute interface, ID2D1SvgAttribute interface [Direct2D],Clone method, ID2D1SvgAttribute.Clone, ID2D1SvgAttribute::Clone, d2d1svg/ID2D1SvgAttribute::Clone, direct2d.id2d1svgattribute_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1svg.h
+: 
+- ID2D1SvgAttribute.Clone
+: 
 ---
 
 # ID2D1SvgAttribute::Clone

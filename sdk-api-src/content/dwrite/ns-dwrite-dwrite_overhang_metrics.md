@@ -9,8 +9,8 @@ ms.assetid: a285f06b-a4d0-4ebe-80f5-157e59bfba31
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_OVERHANG_METRICS, DWRITE_OVERHANG_METRICS structure [Direct Write], PDWRITE_OVERHANG_METRICS, PDWRITE_OVERHANG_METRICS structure pointer [Direct Write], directwrite.dwrite_overhang_metrics, dwrite/DWRITE_OVERHANG_METRICS, dwrite/PDWRITE_OVERHANG_METRICS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

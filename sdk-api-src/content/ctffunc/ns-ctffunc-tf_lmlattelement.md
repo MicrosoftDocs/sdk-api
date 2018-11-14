@@ -9,8 +9,8 @@ ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ctffunc.h
 req.include-header: 
@@ -51,7 +51,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 
 
-The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms538212(v=VS.85).aspx">IEnumTfLatticeElements::Next</a> method.
+The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="https://msdn.microsoft.com/066493c9-6597-43f4-9f65-51578af00a9b">IEnumTfLatticeElements::Next</a> method.
 
 
 
@@ -103,7 +103,7 @@ Specifies the actual confidence for this element. This can be one of the followi
 
 ### -field bstrText
 
-Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -see-also
@@ -116,7 +116,7 @@ Contains the display text for the element. If the spoken word is "two", the disp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

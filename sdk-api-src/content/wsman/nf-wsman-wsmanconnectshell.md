@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinRM on Windows Server 2012.
+- apiref
+: 
+- 
+: 
+- WSManConnectShell
+: 
 ---
 
 # WSManConnectShell function

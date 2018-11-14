@@ -9,8 +9,8 @@ ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], IAutoCompleteDropDown interface [Windows Shell],described, _shell_IAutoCompleteDropDown, shell.IAutoCompleteDropDown, shobjidl/IAutoCompleteDropDown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

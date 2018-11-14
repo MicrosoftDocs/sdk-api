@@ -4,10 +4,10 @@ title: IAzScope::get_PolicyAdministratorsName
 author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy administrators.
 old-location: security\iazscope_policyadministratorsname.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 291aa2f8-f08e-45f5-ade7-b456c962dd3f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],PolicyAdministratorsName property, IAzScope interface [Security],PolicyAdministratorsName property, IAzScope.PolicyAdministratorsName, IAzScope.get_PolicyAdministratorsName, IAzScope::PolicyAdministratorsName, IAzScope::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security],AzScope object, PolicyAdministratorsName property [Security],IAzScope interface, azroles/IAzScope::PolicyAdministratorsName, azroles/IAzScope::get_PolicyAdministratorsName, get_PolicyAdministratorsName, security.iazscope_policyadministratorsname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.get_PolicyAdministratorsName
+: 
 ---
 
 # IAzScope::get_PolicyAdministratorsName
@@ -75,7 +83,7 @@ Policy administrators for an object can perform the following tasks:
 <li>Delete child objects of the object</li>
 <li>Create child objects of the object</li>
 </ul>
-In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

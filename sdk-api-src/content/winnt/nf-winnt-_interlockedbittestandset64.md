@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- _interlockedbittestandset64
+: 
 ---
 
 # _interlockedbittestandset64 function

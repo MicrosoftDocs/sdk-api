@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10effect.h
+: 
+- ID3D10EffectTechnique.GetPassByName
+: 
 ---
 
 # ID3D10EffectTechnique::GetPassByName
@@ -69,9 +77,9 @@ The name of the pass.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass Interface</a>.
 
 
 
@@ -90,7 +98,7 @@ A technique contains one or more passes; get a pass using a name or an index.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>
+<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
  
 
  

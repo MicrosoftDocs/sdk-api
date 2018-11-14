@@ -9,8 +9,8 @@ ms.assetid: 9319a98d-8f43-4f29-8787-18dec53dff88
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundation], _DXVAHD_CONTENT_DESC, dxvahd/DXVAHD_CONTENT_DESC, mf.dxvahd_content_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

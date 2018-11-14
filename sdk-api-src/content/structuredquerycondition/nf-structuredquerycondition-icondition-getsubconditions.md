@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- structuredquerycondition.h
+: 
+- ICondition.GetSubConditions
+: 
 ---
 
 # ICondition::GetSubConditions
@@ -71,7 +79,7 @@ The desired IID of the enumerating interface: either IID_IEnumUnknown, IID_IEnum
 
 Type: <b>void**</b>
 
-Receives a collection of zero or more <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> objects. Each object is a subcondition of this condition node. If <i>riid</i> was IID_ICondition and this is a negation condition, this parameter receives the single subcondition.
+Receives a collection of zero or more <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> objects. Each object is a subcondition of this condition node. If <i>riid</i> was IID_ICondition and this is a negation condition, this parameter receives the single subcondition.
             
 
 
@@ -90,7 +98,7 @@ Returns S_OK if successful, E_FAIL if this is a leaf node, or an error value oth
 
 
 
-The <i>riid</i> parameter must be the <b>GUID</b> of an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> or <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface or in the case of a negation node, IID_ICondition.
+The <i>riid</i> parameter must be the <b>GUID</b> of an <a href="_com_IEnumUnknown">IEnumUnknown</a> or <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface or in the case of a negation node, IID_ICondition.
 
 If the subcondition is a negation node, <i>ppv</i> is set to an enumeration of one element.
 
@@ -104,19 +112,19 @@ If the node is a conjunction or disjunction node, <i>ppv</i> is set to an enumer
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
 
 
 

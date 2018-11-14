@@ -9,8 +9,8 @@ ms.assetid: 1d562eee-b30b-4dce-88d3-9387c0ce2dd1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_RSA_ENDPOINT_IDENTITY, WS_RSA_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_RSA_ENDPOINT_IDENTITY, webservices/WS_RSA_ENDPOINT_IDENTITY, wsw.ws_rsa_endpoint_identity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

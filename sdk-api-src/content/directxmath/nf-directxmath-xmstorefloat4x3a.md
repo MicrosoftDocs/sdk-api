@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMStoreFloat4x3A
+: 
 ---
 
 # XMStoreFloat4x3A function
@@ -83,9 +89,6 @@ None.
 
 
 <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
-   to write out column-major data since it assumes the last column is 
-
-<div class="code"><span codelanguage=""><table>
    to write out column-major data since it assumes the last column is <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -112,9 +115,7 @@ pDestination-&gt;m[3][1] = M.r[3].v[1];
 pDestination-&gt;m[3][2] = M.r[3].v[2];</pre>
 </td>
 </tr>
-</table></span></div>
-
-.
+</table></span></div>.
 
 The following pseudocode demonstrates the operation of the function.
 

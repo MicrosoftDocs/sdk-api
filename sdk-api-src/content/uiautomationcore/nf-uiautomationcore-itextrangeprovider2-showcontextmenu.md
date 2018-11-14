@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITextRangeProvider2.ShowContextMenu
+: 
 ---
 
 # ITextRangeProvider2::ShowContextMenu

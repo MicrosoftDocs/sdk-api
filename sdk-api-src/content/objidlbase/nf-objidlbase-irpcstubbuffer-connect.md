@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- objidlbase.h
+: 
+- IRpcStubBuffer.Connect
+: 
 ---
 
 # IRpcStubBuffer::Connect

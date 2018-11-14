@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorshutdown.htm
 tech.root: eaphost
 ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapMethodAuthenticatorShutdown
+: 
 ---
 
 # EapMethodAuthenticatorShutdown function

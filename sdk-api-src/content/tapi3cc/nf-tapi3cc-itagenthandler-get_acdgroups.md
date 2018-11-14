@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgentHandler.get_ACDGroups
+: 
 ---
 
 # ITAgentHandler::get_ACDGroups

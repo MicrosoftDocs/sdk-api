@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IScrollProvider.get_HorizontallyScrollable
+: 
 ---
 
 # IScrollProvider::get_HorizontallyScrollable

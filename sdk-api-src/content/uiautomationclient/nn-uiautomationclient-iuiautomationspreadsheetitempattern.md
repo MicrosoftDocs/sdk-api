@@ -9,8 +9,8 @@ ms.assetid: 4B90ED28-5F85-4F36-8F11-1F2B60CEC9E5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationSpreadsheetItemPattern, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility], IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSpreadsheetItemPattern, winauto.uiauto_IUIAutomationSpreadsheetItemPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

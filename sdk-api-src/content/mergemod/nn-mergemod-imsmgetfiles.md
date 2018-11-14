@@ -9,8 +9,8 @@ ms.assetid: d6912c92-b3e0-4b3d-a618-17e252cd14ae
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,described, mergemod/IMsmGetFiles, setup.imsmgetfiles_interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 

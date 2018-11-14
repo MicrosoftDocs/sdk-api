@@ -9,8 +9,8 @@ ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PEXFAT_STATISTICS, EXFAT_STATISTICS, EXFAT_STATISTICS structure [Files], PEXFAT_STATISTICS, PEXFAT_STATISTICS structure pointer [Files], _EXFAT_STATISTICS, fs.exfat_statistics, winioctl/EXFAT_STATISTICS, winioctl/PEXFAT_STATISTICS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

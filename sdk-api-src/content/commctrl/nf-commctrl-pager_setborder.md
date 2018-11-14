@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Pager_SetBorder
+: 
 ---
 
 # Pager_SetBorder macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760880(v=VS.85).aspx">PGM_SETBORDER</a> message explicitly. 
+Sets the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/073a1f9e-f05b-4203-9035-8106e87e55cd">PGM_SETBORDER</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Sets the current border size for the pager control. You can use this macro or se
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 

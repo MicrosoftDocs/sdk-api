@@ -9,8 +9,8 @@ ms.assetid: 1ff8703f-b89d-435d-81af-e5c9a2dc01e2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI],described, _ds_iadssyntax, adsi.iadssyntax, iads/IADsSyntax
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -58,7 +58,7 @@ Use the <b>IADsSyntax</b> interface to process the property values of any instan
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSyntax</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsSyntax</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSyntax</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsSyntax</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -275,7 +275,7 @@ Gets the ADsPath string to the schema class object for this object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

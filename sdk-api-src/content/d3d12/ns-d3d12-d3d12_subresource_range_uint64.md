@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_subresource_range_uint64.htm
 tech.root: direct3d12
 ms.assetid: D8DACE22-9AFD-4DCD-A254-A34AD532ACD7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_SUBRESOURCE_RANGE_UINT64, D3D12_SUBRESOURCE_RANGE_UINT64 structure, d3d12/D3D12_SUBRESOURCE_RANGE_UINT64, direct3d12.d3d12_subresource_range_uint64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

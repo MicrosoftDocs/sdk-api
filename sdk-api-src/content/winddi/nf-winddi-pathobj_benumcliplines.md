@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PATHOBJ_bEnumClipLines
+: 
 ---
 
 # PATHOBJ_bEnumClipLines function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- msctf.h
+: 
+- ITfRange.GetEmbedded
+: 
 ---
 
 # ITfRange::GetEmbedded
@@ -78,7 +86,7 @@ Identifier that specifies how the embedded content is obtained.
 </dl>
 </td>
 <td width="60%">
-Output should be an <a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible object</a>.
+Output should be an <a href="_msaa_accessible_objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -98,7 +106,7 @@ Caller requires a direct pointer to the object that supports the interface speci
 </dl>
 </td>
 <td width="60%">
-Content should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
+Content should be obtained as an <a href="_ole_idataobject">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
 
 </td>
 </tr>
@@ -234,11 +242,11 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible Objects</a>
+<a href="_msaa_accessible_objects">Accessible Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

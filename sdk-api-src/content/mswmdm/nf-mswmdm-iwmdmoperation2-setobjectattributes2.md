@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDMOperation2.SetObjectAttributes2
+: 
 ---
 
 # IWMDMOperation2::SetObjectAttributes2

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11Device.CreatePixelShader
+: 
 ---
 
 # ID3D11Device::CreatePixelShader
@@ -68,16 +76,16 @@ A pointer to the compiled shader.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
 Size of the compiled pixel shader.
 
 
 ### -param pClassLinkage [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476358(v=VS.85).aspx">ID3D11ClassLinkage</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a>*</b>
 
-A pointer to a class linkage interface (see <a href="https://msdn.microsoft.com/en-us/library/Ff476358(v=VS.85).aspx">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
+A pointer to a class linkage interface (see <a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
 
 
 ### -param ppPixelShader [out, optional]
@@ -91,9 +99,9 @@ Address of a pointer to a <a href="https://msdn.microsoft.com/d16e00a9-02f9-413f
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -102,7 +110,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-After creating the pixel shader, you can set it to the device using <a href="https://msdn.microsoft.com/en-us/library/Ff476472(v=VS.85).aspx">ID3D11DeviceContext::PSSetShader</a>.
+After creating the pixel shader, you can set it to the device using <a href="https://msdn.microsoft.com/2ee5c946-10bd-40b0-90b2-015aff2377aa">ID3D11DeviceContext::PSSetShader</a>.
 
 
 
@@ -112,7 +120,7 @@ After creating the pixel shader, you can set it to the device using <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

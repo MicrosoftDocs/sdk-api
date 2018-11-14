@@ -7,7 +7,7 @@ old-location: multimedia\cappalettemanual.htm
 tech.root: Multimedia
 ms.assetid: 81dc204a-36a5-45eb-8c29-a6004d3cd49c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_capPaletteManual, capPaletteManual, capPaletteManual macro [Windows Multimedia], multimedia.cappalettemanual, vfw/capPaletteManual"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- capPaletteManual
+: 
 ---
 
 # capPaletteManual macro

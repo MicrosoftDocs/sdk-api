@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DRMCreateUser
+: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
@@ -80,7 +86,7 @@ A null-terminated string that identifies a user or group of users (see Remarks).
 ### -param wszUserId [in]
 
 A null-terminated string that identifies a user that will be granted a right. This parameter can be a 
-       Passport ID (PUID), Windows ID <a href="https://msdn.microsoft.com/en-us/library/Aa362748(v=VS.85).aspx">security ID</a> (SID), or 
+       Passport ID (PUID), Windows ID <a href="s_gly.htm">security ID</a> (SID), or 
        <b>NULL</b>. If this parameter is <b>NULL</b>, 
        <i>wszUserIdType</i> must contain "Unspecified". This ID is verified by the 
        Active Directory Rights Management Services system. For more information about possible values for this 

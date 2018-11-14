@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxDeviceIds.get__NewEnum
+: 
 ---
 
 # IFaxDeviceIds::get__NewEnum
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxDeviceIds::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
+The <b>IFaxDeviceIds::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a> collection.
 
 
 ## -parameters
@@ -60,9 +68,9 @@ The <b>IFaxDeviceIds::get__NewEnum</b> method returns a reference to an enumerat
 
 ### -param ppUnk [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
+Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
 
-Receives an indirect pointer to the enumerator object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
+Receives an indirect pointer to the enumerator object's <a href="_com_IUnknown">IUnknown</a> interface for the collection.
 
 
 ## -returns
@@ -90,11 +98,11 @@ In Microsoft Visual Basic, you do not need to use the corresponding <b>_NewEnum<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/8ba11f07-3796-4910-98f7-541a32519c41">IFaxDeviceIds</a>
  
 
  

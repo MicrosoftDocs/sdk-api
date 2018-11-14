@@ -9,8 +9,8 @@ ms.assetid: 00d4823d-114d-4cc7-afdf-54c7fed3fe45
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helper], in_addr, in_addr structure [IP Helper], inaddr/in_addr, ipexport/in_addr, iphlp.ipaddr"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: inaddr.h
 req.include-header: Ipexport.h

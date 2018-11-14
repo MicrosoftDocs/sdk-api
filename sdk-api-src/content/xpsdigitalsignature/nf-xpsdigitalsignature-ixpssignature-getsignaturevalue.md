@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsdigitalsignature.h
+: 
+- IXpsSignature.GetSignatureValue
+: 
 ---
 
 # IXpsSignature::GetSignatureValue
@@ -113,7 +121,7 @@ The interface is not connected to the signature manager.
 
 
 
-This method allocates the memory buffer whose pointer is returned in <i>signatureHashValue</i>.  If <i>signatureHashValue</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory buffer whose pointer is returned in <i>signatureHashValue</i>.  If <i>signatureHashValue</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

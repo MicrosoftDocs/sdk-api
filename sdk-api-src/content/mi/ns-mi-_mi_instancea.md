@@ -9,8 +9,8 @@ ms.assetid: f25514cb-8a2c-43a0-b6c6-b08266d3ee5c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_InstanceA, MI_InstanceA structure [Windows Management Infrastructure (MI)], _MI_InstanceA, mi/MI_InstanceA, wmi._mi_instancea, wmi_v2.mi_instancea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

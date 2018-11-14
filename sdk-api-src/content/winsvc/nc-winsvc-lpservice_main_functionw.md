@@ -9,8 +9,8 @@ ms.assetid: d7f3235e-91bd-4107-a30c-4a8f9a6c731e
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: LPSERVICE_MAIN_FUNCTION, LPSERVICE_MAIN_FUNCTION callback, LPSERVICE_MAIN_FUNCTION callback function, LPSERVICE_MAIN_FUNCTIONA, LPSERVICE_MAIN_FUNCTIONW, ServiceMain, _win32_servicemain, base.servicemain, winsvc/LPSERVICE_MAIN_FUNCTION, winsvc/LPSERVICE_MAIN_FUNCTIONA, winsvc/LPSERVICE_MAIN_FUNCTIONW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winsvc.h
 req.include-header: Windows.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventObjectChange2.ChangedEventClass
+: 
 ---
 
 # IEventObjectChange2::ChangedEventClass

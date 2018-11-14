@@ -9,8 +9,8 @@ ms.assetid: 83c4ecfa-da4f-41d3-b0ca-d654735743cd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_SENSOR_SET_MODE_FN, PIBIO_SENSOR_SET_MODE_FN callback, SensorAdapterSetMode, SensorAdapterSetMode callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetmode, winbio_adapter/SensorAdapterSetMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

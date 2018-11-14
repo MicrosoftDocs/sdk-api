@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateVssBackupComponents
+: 
 ---
 
 # CreateVssBackupComponents function
@@ -150,7 +156,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the 
     resources held by the returned 
     <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> when it is no 
     longer needed.

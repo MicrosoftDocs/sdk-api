@@ -9,8 +9,8 @@ ms.assetid: 56C9A564-2504-4940-B850-D280C8E0CF82
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionMatrixTransform3D, IDCompositionMatrixTransform3D interface [DirectComposition], IDCompositionMatrixTransform3D interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform3D, directcomp.idcompositionmatrixtransform3d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -96,7 +96,7 @@ Changes all values of the matrix of this 3D transformation effect.
 
 A 3D matrix transform represents the following 4-by-4 matrix:
 
-<img alt="Four-by-four 3D transform matrix" src="./images/3D_matrix.png"/>
+<img alt="Four-by-four 3D transform matrix" src="images/3D_matrix.png"/>
 
  The application can set any of the values in the first three columns. Note that the fourth column is padded to allow for matrix concatenation. 
 

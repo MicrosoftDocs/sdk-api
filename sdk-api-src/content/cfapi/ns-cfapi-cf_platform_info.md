@@ -9,8 +9,8 @@ ms.assetid: BEB1CBF0-05FB-4D48-AC43-AA957F2208DB
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

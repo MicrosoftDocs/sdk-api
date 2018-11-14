@@ -9,8 +9,8 @@ ms.assetid: D3D31978-D450-40B3-8C61-1F2662C1BA50
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: DDEnumCallbackEx, DDEnumCallbackEx callback function [DirectDraw], LPDDENUMCALLBACKEX, LPDDENUMCALLBACKEX callback, LPDDENUMCALLBACKEXA, LPDDENUMCALLBACKEXW, ddraw/DDEnumCallbackEx, directdraw.ddenumcallbackex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 

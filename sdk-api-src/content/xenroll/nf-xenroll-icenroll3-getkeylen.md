@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll3.GetKeyLen
+: 
 ---
 
 # ICEnroll3::GetKeyLen

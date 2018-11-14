@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteTextLayout.SetFontStyle
+: 
 ---
 
 # IDWriteTextLayout::SetFontStyle
@@ -89,28 +97,32 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The font style can be set to Normal, Italic or Oblique. The following illustration shows  three styles for the Palatino font.  For more information, see <a href="https://msdn.microsoft.com/e48a3b82-4a60-472d-8cb8-a6f63d7eeefc">DWRITE_FONT_STYLE</a>.
 
-<img alt="Illustration of normal, italic, and oblique font styles for the Palatino font" src="./images/FontStyle_for_Palatino.png"/>
+<img alt="Illustration of normal, italic, and oblique font styles for the Palatino font" src="images/FontStyle_for_Palatino.png"/>
 
 
 #### Examples
 
 The following code illustrates how to set the font style to italic.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set the font style to italic for the entire string.
 DWRITE_TEXT_RANGE textRange = {0, cTextLength_};
 
 if (SUCCEEDED(hr))
 {
-    hr = pTextLayout_->SetFontStyle(DWRITE_FONT_STYLE_ITALIC, textRange);
+    hr = pTextLayout_-&gt;SetFontStyle(DWRITE_FONT_STYLE_ITALIC, textRange);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

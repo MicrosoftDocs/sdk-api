@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_pointdiffuse_prop.htm
 tech.root: direct2d
 ms.assetid: D5FD5E6E-A50C-4434-9F68-F0B41E79267A
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_POINTDIFFUSE_PROP, D2D1_POINTDIFFUSE_PROP enumeration [Direct2D], D2D1_POINTDIFFUSE_PROP_COLOR, D2D1_POINTDIFFUSE_PROP_DIFFUSE_CONSTANT, D2D1_POINTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, D2D1_POINTDIFFUSE_PROP_LIGHT_POSITION, D2D1_POINTDIFFUSE_PROP_SCALE_MODE, D2D1_POINTDIFFUSE_PROP_SURFACE_SCALE, d2d1effects/D2D1_POINTDIFFUSE_PROP, d2d1effects/D2D1_POINTDIFFUSE_PROP_COLOR, d2d1effects/D2D1_POINTDIFFUSE_PROP_DIFFUSE_CONSTANT, d2d1effects/D2D1_POINTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_POINTDIFFUSE_PROP_LIGHT_POSITION, d2d1effects/D2D1_POINTDIFFUSE_PROP_SCALE_MODE, d2d1effects/D2D1_POINTDIFFUSE_PROP_SURFACE_SCALE, direct2d.d2d1_pointdiffuse_prop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706367(v=VS.85).aspx">Point-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/C98A4962-B9EB-4095-9AC4-F1C32C574892">Point-diffuse lighting effect</a>.
         
 
 
@@ -116,7 +116,7 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934256(v=VS.85).aspx">D2D1_POINTDIFFUSE_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/552CCE58-0D79-468C-831D-EBEFE2F87F95">D2D1_POINTDIFFUSE_SCALE_MODE</a>.
 
 The default value is D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR.
 

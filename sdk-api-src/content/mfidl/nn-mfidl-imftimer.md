@@ -9,8 +9,8 @@ ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

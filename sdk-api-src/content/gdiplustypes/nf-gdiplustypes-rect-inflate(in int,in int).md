@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- Rect.Inflate
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -102,24 +110,28 @@ The x-coordinate of the left edge is decreased by
 The following example creates a 
 						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object, draws the rectangle, inflates the rectangle, and then redraws the rectangle.
 
-
-```cpp
-VOID Example_InflateDxDy(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_InflateDxDy(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 0));
 
    // Create and draw a rectangle.
    Rect rect(100, 100, 80, 40);
-   graphics.DrawRectangle(&pen, rect);
+   graphics.DrawRectangle(&amp;pen, rect);
 
    // Inflate the rectangle, and then redraw the rectangle.
    rect.Inflate(20, 10);
-   graphics.DrawRectangle(&pen, rect);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, rect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

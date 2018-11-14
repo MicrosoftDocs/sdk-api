@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertEnumCRLsInStore
+: 
 ---
 
 # CertEnumCRLsInStore function
@@ -151,7 +157,7 @@ A duplicate of the CRL <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
 
 
 

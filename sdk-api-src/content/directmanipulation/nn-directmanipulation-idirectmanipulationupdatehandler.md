@@ -9,8 +9,8 @@ ms.assetid: a963abb5-63b8-44d1-910c-ea795398d3de
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDirectManipulationUpdateHandler, IDirectManipulationUpdateHandler interface [Direct Manipulation], IDirectManipulationUpdateHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatehandler, directmanipulation/IDirectManipulationUpdateHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

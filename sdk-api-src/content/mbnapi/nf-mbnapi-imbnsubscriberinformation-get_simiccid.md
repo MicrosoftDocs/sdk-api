@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnSubscriberInformation.get_SimIccID
+: 
 ---
 
 # IMbnSubscriberInformation::get_SimIccID

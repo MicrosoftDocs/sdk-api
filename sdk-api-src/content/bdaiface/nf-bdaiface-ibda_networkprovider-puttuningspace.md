@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_NetworkProvider.PutTuningSpace
+: 
 ---
 
 # IBDA_NetworkProvider::PutTuningSpace
@@ -80,15 +88,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693413(v=VS.85).aspx">GetTuningSpace</a>
+<a href="https://msdn.microsoft.com/3c7305a1-4a63-42a9-abc2-ae5394c3be9a">GetTuningSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693410(v=VS.85).aspx">IBDA_NetworkProvider Interface</a>
+<a href="https://msdn.microsoft.com/84b6cd51-4cb5-4a43-9ac2-88ca8049b950">IBDA_NetworkProvider Interface</a>
  
 
  

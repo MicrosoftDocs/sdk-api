@@ -7,10 +7,10 @@ old-location: eaphost\eappeermethodresultreason.htm
 tech.root: eaphost
 ms.assetid: 5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerMethodResultFailure, EapPeerMethodResultReason, EapPeerMethodResultReason enumeration [EAPHost], EapPeerMethodResultReasonOle, EapPeerMethodResultSuccess, EapPeerMethodResultUnknown, eapauthenticatoractiondefine/EapPeerMethodResultFailure, eapauthenticatoractiondefine/EapPeerMethodResultReason, eapauthenticatoractiondefine/EapPeerMethodResultSuccess, eapauthenticatoractiondefine/EapPeerMethodResultUnknown, eaphost.eappeermethodresultreason, tagEapPeerMethodResultReason
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 

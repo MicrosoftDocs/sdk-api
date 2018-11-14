@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
+- apiref
+: 
+- 
+: 
+- WSManPluginFreeRequestDetails
+: 
 ---
 
 # WSManPluginFreeRequestDetails function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteFactory2.CreateFontFallbackBuilder
+: 
 ---
 
 # IDWriteFactory2::CreateFontFallbackBuilder

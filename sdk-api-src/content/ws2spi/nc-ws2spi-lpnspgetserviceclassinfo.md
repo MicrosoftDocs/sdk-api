@@ -9,8 +9,8 @@ ms.assetid: babe1c96-9077-4d91-a52a-839c89d7a83b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
@@ -69,7 +69,7 @@ A pointer to the GUID of the specific namespace provider from which the service 
 On input, the size, in bytes, of the buffer pointed to by <i>lpServiceClassInfo</i> parameter. 
 
 On output, if the function fails and the error is 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to the <i>lpServiceClassInfo</i> parameter needed to retrieve the record.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to the <i>lpServiceClassInfo</i> parameter needed to retrieve the record.
 
 
 ### -param lpServiceClassInfo [in, out]
@@ -94,7 +94,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ The calling routine does not have sufficient privileges to access the informatio
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ The  buffer pointed to by the <i>lpServiceClass</i> parameter was too small to c
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ The specified service class identifier or namespace provider identifier is not v
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +160,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">

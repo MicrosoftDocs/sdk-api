@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITTerminalManager2.GetPluggableTerminalClasses
+: 
 ---
 
 # ITTerminalManager2::GetPluggableTerminalClasses

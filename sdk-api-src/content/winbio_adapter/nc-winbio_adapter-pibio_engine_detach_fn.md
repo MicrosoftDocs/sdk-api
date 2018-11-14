@@ -9,8 +9,8 @@ ms.assetid: a4bc8ef1-6005-4661-9bb1-20ea08d9a125
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, PIBIO_ENGINE_DETACH_FN callback, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

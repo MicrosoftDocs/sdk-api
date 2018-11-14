@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut15.h
+: 
+- IInkDivisionResult.ResultByType
+: 
 ---
 
 # IInkDivisionResult::ResultByType

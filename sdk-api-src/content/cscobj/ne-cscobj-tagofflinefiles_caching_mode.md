@@ -9,8 +9,8 @@ ms.assetid: 833cd194-7086-4faa-a05b-5f8beda62f0a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: OFFLINEFILES_CACHING_MODE, OFFLINEFILES_CACHING_MODE enumeration [Offline Files], OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/OFFLINEFILES_CACHING_MODE, cscobj/OFFLINEFILES_CACHING_MODE_AUTO_DOC, cscobj/OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, cscobj/OFFLINEFILES_CACHING_MODE_MANUAL, cscobj/OFFLINEFILES_CACHING_MODE_NOCACHING, cscobj/OFFLINEFILES_CACHING_MODE_NONE, of.offlinefiles_caching_mode, tagOFFLINEFILES_CACHING_MODE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the caching mode used in methods such as <a href="https://msdn.microsoft.com/en-us/library/Bb530497(v=VS.85).aspx">IOfflineFilesCache::IsPathCacheable</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb530612(v=VS.85).aspx">IOfflineFilesShareInfo::GetShareCachingMode</a>.
+Describes the caching mode used in methods such as <a href="https://msdn.microsoft.com/4d9a2fda-baad-4ada-8a07-f39c9cfafdfa">IOfflineFilesCache::IsPathCacheable</a> and <a href="https://msdn.microsoft.com/0045497b-0f90-4e20-80c9-6b74e4b523b8">IOfflineFilesShareInfo::GetShareCachingMode</a>.
 
 
 ## -enum-fields
@@ -88,19 +88,19 @@ The share or shared folder is configured to allow automatic caching of programs 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530497(v=VS.85).aspx">IOfflineFilesCache::IsPathCacheable</a>
+<a href="https://msdn.microsoft.com/4d9a2fda-baad-4ada-8a07-f39c9cfafdfa">IOfflineFilesCache::IsPathCacheable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530612(v=VS.85).aspx">IOfflineFilesShareInfo::GetShareCachingMode</a>
+<a href="https://msdn.microsoft.com/0045497b-0f90-4e20-80c9-6b74e4b523b8">IOfflineFilesShareInfo::GetShareCachingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb525388(v=VS.85).aspx">NetShareGetInfo</a>
+<a href="https://msdn.microsoft.com/672ea208-4048-4d2f-9606-ee3e2133765b">NetShareGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb525404(v=VS.85).aspx">SHARE_INFO_1005</a>
+<a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a>
  
 
  

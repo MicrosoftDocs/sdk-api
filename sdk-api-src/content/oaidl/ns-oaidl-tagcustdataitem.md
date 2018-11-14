@@ -9,8 +9,8 @@ ms.assetid: dae0f1be-0b77-4af6-9983-d8cb313e5276
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPCUSTDATAITEM, CUSTDATAITEM, CUSTDATAITEM structure [Automation], LPCUSTDATAITEM, LPCUSTDATAITEM structure pointer [Automation], _oa96_CUSTDATAITEM, automat.custdataitem, oaidl/CUSTDATAITEM, oaidl/LPCUSTDATAITEM, tagCUSTDATAITEM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

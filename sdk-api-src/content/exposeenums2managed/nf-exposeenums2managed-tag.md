@@ -176,6 +176,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- exposeenums2managed.h
+: 
+- TAG
+: 
 ---
 
 # TAG macro

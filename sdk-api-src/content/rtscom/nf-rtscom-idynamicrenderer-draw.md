@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rtscom.h
+: 
+- IDynamicRenderer.Draw
+: 
 ---
 
 # IDynamicRenderer::Draw

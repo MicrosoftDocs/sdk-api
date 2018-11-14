@@ -4,10 +4,10 @@ title: IAzRole::get_AppMembers
 author: windows-sdk-content
 description: Retrieves the application groups that belong to the role.
 old-location: security\iazrole_appmembers.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c41933d4-d3fe-485c-9249-e82d51c0bfc9
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AppMembers property [Security], AppMembers property [Security],AzRole object, AppMembers property [Security],IAzRole interface, AzRole object [Security],AppMembers property, IAzRole interface [Security],AppMembers property, IAzRole.AppMembers, IAzRole.get_AppMembers, IAzRole::AppMembers, IAzRole::get_AppMembers, azroles/IAzRole::AppMembers, azroles/IAzRole::get_AppMembers, get_AppMembers, security.iazrole_appmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.get_AppMembers
+: 
 ---
 
 # IAzRole::get_AppMembers
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

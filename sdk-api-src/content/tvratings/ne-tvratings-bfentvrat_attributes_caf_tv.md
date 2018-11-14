@@ -9,8 +9,8 @@ ms.assetid: f6d10852-f28e-492e-9687-d09cd132d06e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BfEnTvRat_Attributes_CAF_TV, BfEnTvRat_Attributes_CAF_TV enumeration [Microsoft TV Technologies], CAF_IsBlocked, CAF_ValidAttrSubmask, mstv.bfentvrat_attributes_caf_tv, tvratings/BfEnTvRat_Attributes_CAF_TV, tvratings/CAF_IsBlocked, tvratings/CAF_ValidAttrSubmask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

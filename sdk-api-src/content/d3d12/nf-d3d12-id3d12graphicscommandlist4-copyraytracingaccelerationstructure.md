@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_copyraytracingaccelerationst
 tech.root: direct3d12
 ms.assetid: 13E0E477-9CD5-484B-9532-AB6D415CF6CB
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: CopyRaytracingAccelerationStructure, CopyRaytracingAccelerationStructure method, CopyRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,CopyRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_copyraytracingaccelerationstructure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
+: 
 ---
 
 # ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_TransportStreamInfo.get_PatTableTickCount
+: 
 ---
 
 # IBDA_TransportStreamInfo::get_PatTableTickCount
@@ -102,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693459(v=VS.85).aspx">IBDA_TransportStreamInfo Interface</a>
+<a href="https://msdn.microsoft.com/c5f37790-f276-41a5-b5bd-7d8c7a7f587f">IBDA_TransportStreamInfo Interface</a>
  
 
  

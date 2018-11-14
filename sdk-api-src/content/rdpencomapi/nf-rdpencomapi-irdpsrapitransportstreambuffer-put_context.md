@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPITransportStreamBuffer.put_Context
+: 
 ---
 
 # IRDPSRAPITransportStreamBuffer::put_Context

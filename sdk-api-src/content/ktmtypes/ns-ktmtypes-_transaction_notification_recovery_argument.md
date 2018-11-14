@@ -9,8 +9,8 @@ ms.assetid: 29a32b89-22d1-4d26-8927-a2051dd5d37a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT structure [Files], TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT structure [Files], _TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, fs.transaction_notification_recovery_argument, ktmtypes/PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, ktmtypes/TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ktmtypes.h
 req.include-header: Windows.h

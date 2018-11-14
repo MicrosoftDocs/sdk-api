@@ -9,8 +9,8 @@ ms.assetid: 8e9948ec-7c31-45dd-ac9f-e9eafed9d2db
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], IUIAutomationTableItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTableItemPattern, uiauto_IUIAutomationTableItemPattern, uiautomationclient/IUIAutomationTableItemPattern, winauto.uiauto_IUIAutomationTableItemPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

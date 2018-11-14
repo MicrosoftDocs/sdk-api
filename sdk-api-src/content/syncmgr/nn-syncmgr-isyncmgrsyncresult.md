@@ -9,8 +9,8 @@ ms.assetid: ec48eeda-5af2-4b9b-bf36-f42a6fe46fb0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISyncMgrSyncResult, ISyncMgrSyncResult interface [Windows Shell], ISyncMgrSyncResult interface [Windows Shell],described, _shell_ISyncMgrSyncResult, shell.ISyncMgrSyncResult, syncmgr/ISyncMgrSyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

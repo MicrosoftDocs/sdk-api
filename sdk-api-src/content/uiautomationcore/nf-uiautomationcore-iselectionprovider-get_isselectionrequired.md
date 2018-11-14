@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ISelectionProvider.get_IsSelectionRequired
+: 
 ---
 
 # ISelectionProvider::get_IsSelectionRequired

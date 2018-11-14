@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdate5.get_AutoSelection
+: 
 ---
 
 # IUpdate5::get_AutoSelection

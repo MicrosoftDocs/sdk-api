@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- IOCSPCAConfiguration.get_LocalRevocationInformation
+: 
 ---
 
 # IOCSPCAConfiguration::get_LocalRevocationInformation
@@ -52,7 +60,7 @@ req.redist:
 ## -description
 
 
- The <b>LocalRevocationInformation</b> property gets or sets the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) of the local machine. This list provides additional revocation information, or supersedes information from the revocation provider configured by <a href="https://msdn.microsoft.com/en-us/library/Aa386369(v=VS.85).aspx">ProviderCLSID</a>.
+ The <b>LocalRevocationInformation</b> property gets or sets the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) of the local machine. This list provides additional revocation information, or supersedes information from the revocation provider configured by <a href="https://msdn.microsoft.com/4ea109a9-00ed-46b5-a58c-7dc5bc936102">ProviderCLSID</a>.
 
 This property is read/write.
 
@@ -74,7 +82,7 @@ The CRL used for the <b>LocalRevocationInformation</b> property can be signed or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

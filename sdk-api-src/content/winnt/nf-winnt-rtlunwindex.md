@@ -7,7 +7,7 @@ old-location: base\rtlunwindex.htm
 tech.root: debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlUnwindEx
+: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003
 ---
 

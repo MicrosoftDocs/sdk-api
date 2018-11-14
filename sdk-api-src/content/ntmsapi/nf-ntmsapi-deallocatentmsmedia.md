@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeallocateNtmsMedia
+: 
 ---
 
 # DeallocateNtmsMedia function
@@ -218,7 +224,7 @@ Sides are decommissioned upon deallocation if the side has been allocated the ma
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

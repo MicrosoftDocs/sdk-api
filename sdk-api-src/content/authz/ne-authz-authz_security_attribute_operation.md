@@ -4,13 +4,13 @@ title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 author: windows-sdk-content
 description: Indicates the type of modification to be made to security attributes by a call to the AuthzModifySecurityAttributes function.
 old-location: security\authz_security_attribute_operation.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c1716cdb-87f9-47d6-bfc3-ae6cc043e917
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, AUTHZ_SECURITY_ATTRIBUTE_OPERATION, AUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration [Security], AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL, PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, PAUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL, authz/PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, security.authz_security_attribute_operation"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: authz.h
 req.include-header: 

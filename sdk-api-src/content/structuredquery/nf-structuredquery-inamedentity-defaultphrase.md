@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- INamedEntity.DefaultPhrase
+: 
 ---
 
 # INamedEntity::DefaultPhrase
@@ -62,7 +70,7 @@ Retrieves a default phrase to use for this named entity in restatements.
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the default phrase as a Unicode string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+Receives a pointer to the default phrase as a Unicode string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataManager.put_MaxSize
+: 
 ---
 
 # IDataManager::put_MaxSize

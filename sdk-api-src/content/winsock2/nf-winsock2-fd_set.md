@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winsock2.h
+: 
+- FD_SET
+: 
 ---
 
 # FD_SET macro

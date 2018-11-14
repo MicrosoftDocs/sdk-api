@@ -9,8 +9,8 @@ ms.assetid: 4bbfc32e-b70b-4c47-a7b5-6ec2692d1df4
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: SMMCDataObjects, SMMCDataObjects structure [MMC], _SMMCDataObjects, _slate_smmcdataobjects, mmc.smmcdataobjects, mmc/SMMCDataObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

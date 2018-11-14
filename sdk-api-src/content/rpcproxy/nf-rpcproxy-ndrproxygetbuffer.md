@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrProxyGetBuffer
+: 
 ---
 
 # NdrProxyGetBuffer function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrProxyGetBuffer</b> function obtains a network buffer from COM through the use of an <a href="https://msdn.microsoft.com/en-us/library/ms686644(v=VS.85).aspx">IRpcChannelBuffer::GetBuffer</a> method call.
+The <b>NdrProxyGetBuffer</b> function obtains a network buffer from COM through the use of an <a href="_com_irpcchannelbuffer_getbuffer">IRpcChannelBuffer::GetBuffer</a> method call.
 
 
 ## -parameters

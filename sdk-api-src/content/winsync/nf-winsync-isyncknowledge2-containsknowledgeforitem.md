@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- winsync.h
+: 
+- ISyncKnowledge2.ContainsKnowledgeForItem
+: 
 ---
 
 # ISyncKnowledge2::ContainsKnowledgeForItem

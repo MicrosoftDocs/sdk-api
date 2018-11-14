@@ -9,8 +9,8 @@ ms.assetid: ffd64396-a258-4cf5-aca1-a61102ecf313
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICertificationAuthority, ICertificationAuthority interface [Security], ICertificationAuthority interface [Security],described, certenroll/ICertificationAuthority, security.icertificationauthority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ICertificationAuthority</b> interface represents a single certification authority. A collection of certification authorities is represented by the <a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a> interface.
+The <b>ICertificationAuthority</b> interface represents a single certification authority. A collection of certification authorities is represented by the <a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a> interface.
 
 
 ## -see-also
@@ -58,11 +58,11 @@ The <b>ICertificationAuthority</b> interface represents a single certification a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a>
+<a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

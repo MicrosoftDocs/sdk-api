@@ -9,8 +9,8 @@ ms.assetid: 0e397451-543c-4278-9cdd-fbd276b646dd
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEMRGLSBOUNDEDRECORD, EMRGLSBOUNDEDRECORD, EMRGLSBOUNDEDRECORD structure [Windows GDI], PEMRGLSBOUNDEDRECORD, PEMRGLSBOUNDEDRECORD structure pointer [Windows GDI], _win32_EMRGLSBOUNDEDRECORD_str, gdi.emrglsboundedrecord, tagEMRGLSBOUNDEDRECORD, wingdi/EMRGLSBOUNDEDRECORD, wingdi/PEMRGLSBOUNDEDRECORD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,8 @@ ms.assetid: 5FF6233A-8DB0-4868-925C-833B01CB9DE3
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: MachineLearning.winml_image_binding_desc, PWINML_IMAGE_BINDING_DESC, PWINML_IMAGE_BINDING_DESC structure pointer, WINML_IMAGE_BINDING_DESC, WINML_IMAGE_BINDING_DESC structure, winml/PWINML_IMAGE_BINDING_DESC, winml/WINML_IMAGE_BINDING_DESC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

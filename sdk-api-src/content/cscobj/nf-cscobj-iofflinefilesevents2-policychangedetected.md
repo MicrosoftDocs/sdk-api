@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesEvents2.PolicyChangeDetected
+: 
 ---
 
 # IOfflineFilesEvents2::PolicyChangeDetected
@@ -75,7 +83,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

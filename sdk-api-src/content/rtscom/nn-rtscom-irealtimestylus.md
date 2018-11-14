@@ -9,8 +9,8 @@ ms.assetid: bfd13012-decf-423a-bc1a-39fb9b0eb64e
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC],described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ctxtcall.h
+: 
+- IContextCallback.ContextCallback
+: 
 ---
 
 # IContextCallback::ContextCallback
@@ -112,7 +120,7 @@ If <i>riid</i> is set to IID_ICallbackWithNoReentrancyToApplicationSTA, the func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682253(v=VS.85).aspx">IContextCallback</a>
+<a href="https://msdn.microsoft.com/47af7b80-3419-4a40-8932-a5a27f297dc9">IContextCallback</a>
  
 
  

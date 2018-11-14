@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Free_Res_Des_Ex
+: 
 ---
 
 # CM_Free_Res_Des_Ex function
@@ -101,7 +107,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Ff537948(v=VS.85).aspx">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>

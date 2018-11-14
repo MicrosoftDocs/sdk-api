@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- ISystemInformation.get_OemHardwareSupportLink
+: 
 ---
 
 # ISystemInformation::get_OemHardwareSupportLink

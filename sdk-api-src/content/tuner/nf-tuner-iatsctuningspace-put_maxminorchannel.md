@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IATSCTuningSpace.put_MaxMinorChannel
+: 
 ---
 
 # IATSCTuningSpace::put_MaxMinorChannel

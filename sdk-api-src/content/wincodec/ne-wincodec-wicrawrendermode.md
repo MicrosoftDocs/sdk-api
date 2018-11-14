@@ -9,8 +9,8 @@ ms.assetid: dc020c78-a018-42ee-a500-65a743b96107
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WICRawRenderMode, WICRawRenderMode enumeration [Windows Imaging Component], WICRawRenderModeBestQuality, WICRawRenderModeDraft, WICRawRenderModeNormal, _wic_codec_wicrawrendermode, wic._wic_codec_wicrawrendermode, wincodec/WICRawRenderMode, wincodec/WICRawRenderModeBestQuality, wincodec/WICRawRenderModeDraft, wincodec/WICRawRenderModeNormal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

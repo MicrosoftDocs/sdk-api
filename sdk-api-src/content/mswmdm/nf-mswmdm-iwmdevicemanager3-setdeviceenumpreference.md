@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDeviceManager3.SetDeviceEnumPreference
+: 
 ---
 
 # IWMDeviceManager3::SetDeviceEnumPreference

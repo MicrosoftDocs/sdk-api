@@ -9,8 +9,8 @@ ms.assetid: 5b61bbdd-a00a-4985-8066-574f9bff0079
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PROOT_INFO_LUID, PROOT_INFO_LUID, PROOT_INFO_LUID structure pointer [Security], ROOT_INFO_LUID, ROOT_INFO_LUID structure [Security], _ROOT_INFO_LUID, security.root_info_luid, wincrypt/PROOT_INFO_LUID, wincrypt/ROOT_INFO_LUID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

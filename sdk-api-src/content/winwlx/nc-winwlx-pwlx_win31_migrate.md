@@ -9,8 +9,8 @@ ms.assetid: bb36254c-0696-4f3f-89d7-332837ec3a75
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PWLX_WIN31_MIGRATE, PWLX_WIN31_MIGRATE callback, WlxWin31Migrate, WlxWin31Migrate callback function [Security], _gina_wlxwin31migrate, security.wlxwin31migrate, winwlx/WlxWin31Migrate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

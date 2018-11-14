@@ -9,8 +9,8 @@ ms.assetid: a1f0e1ad-0ba4-4c42-aff5-c5fb4133e0fa
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: DRM_OPL_OUTPUT_IDS, DRM_OPL_OUTPUT_IDS structure [windows Media Format], __tagDRM_OPL_OUTPUT_IDS, structure [windows Media Format], wmformat.drm_opl_output_ids, wmsdkidl/DRM_OPL_OUTPUT_IDS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h

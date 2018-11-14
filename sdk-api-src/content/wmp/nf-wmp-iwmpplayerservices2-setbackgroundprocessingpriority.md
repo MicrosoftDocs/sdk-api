@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPPlayerServices2.setBackgroundProcessingPriority
+: 
 ---
 
 # IWMPPlayerServices2::setBackgroundProcessingPriority

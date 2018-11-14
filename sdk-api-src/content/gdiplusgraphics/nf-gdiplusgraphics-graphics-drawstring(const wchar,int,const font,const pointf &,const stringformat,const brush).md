@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawString
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -138,9 +146,13 @@ The operating system requires elevated privileges to assure that all installed f
 
 The following example uses the specified formatting to draw a string at the specified origin.
 
-
-```cpp
-VOID Example_DrawString3(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawString3(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -158,14 +170,14 @@ VOID Example_DrawString3(HDC hdc)
    graphics.DrawString(
    string,
    11,
-   &myFont,
+   &amp;myFont,
    origin,
-   &format,
-   &blackBrush);
-}
-```
-
-
+   &amp;format,
+   &amp;blackBrush);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -178,7 +190,7 @@ VOID Example_DrawString3(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking], PDRT_ADDRESS, PDRT_ADDRESS structure pointer [Peer Networking], _DRT_ADDRESS, drt/DRT_ADDRESS, drt/PDRT_ADDRESS, p2p.drt_address"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

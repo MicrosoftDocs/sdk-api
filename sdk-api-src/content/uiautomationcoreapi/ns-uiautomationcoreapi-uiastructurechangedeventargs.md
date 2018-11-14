@@ -9,8 +9,8 @@ ms.assetid: 3bd47116-e6e7-4535-a939-460d460a3eb5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: UiaStructureChangedEventArgs, UiaStructureChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaStructureChangedEventArgsStruct, uiauto_UiaStructureChangedEventArgsStruct, uiautomationcoreapi/UiaStructureChangedEventArgs, winauto.uiauto_UiaStructureChangedEventArgsStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

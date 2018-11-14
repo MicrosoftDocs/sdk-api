@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509AttributeOSVersion.get_OSVersion
+: 
 ---
 
 # IX509AttributeOSVersion::get_OSVersion
@@ -63,7 +71,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377098(v=VS.85).aspx">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/en-us/library/Aa377097(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>OSVersion</b> property.
+Call the <a href="https://msdn.microsoft.com/1eee63f8-8345-4f3d-9fee-d8d67bcebb8c">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/2f13002f-bdaa-4c82-859a-da932615dd81">InitializeDecode</a> method to initialize the <b>OSVersion</b> property.
 
 
 
@@ -73,7 +81,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377098(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377096(v=VS.85).aspx">IX509AttributeOSVersion</a>
+<a href="https://msdn.microsoft.com/2ae84d47-2bda-4954-9165-902634d09da9">IX509AttributeOSVersion</a>
  
 
  

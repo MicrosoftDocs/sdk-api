@@ -9,8 +9,8 @@ ms.assetid: 8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], IUIAnimationInterpolator interface [Windows Animation],described, uianimation.iuianimationinterpolator, uianimation/IUIAnimationInterpolator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
@@ -147,7 +147,7 @@ Custom interpolators can be reused across applications, but it is recommended th
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd940513(v=VS.85).aspx">Custom Interpolator Sample</a>.
+For an example, see <a href="uianimation.how_to__create_custom_interpolators">Custom Interpolator Sample</a>.
 
 <div class="code"></div>
 

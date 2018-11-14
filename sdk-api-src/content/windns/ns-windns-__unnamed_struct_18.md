@@ -9,8 +9,8 @@ ms.assetid: d7d60322-4d06-4c57-b181-c6a38e09e1ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_DNSKEY_DATA, *PDNS_KEY_DATA, 1, 2, 3, 4, 5, DNS_DNSKEY_DATA, DNS_DNSKEY_DATA structure [DNS], DNS_KEY_DATA, DNS_KEY_DATA structure [DNS], PDNS_DNSKEY_DATA, PDNS_DNSKEY_DATA structure pointer [DNS], PDNS_KEY_DATA, PDNS_KEY_DATA structure pointer [DNS], _dns_dns_key_data, dns.dns_key_data, windns/DNS_DNSKEY_DATA, windns/DNS_KEY_DATA, windns/PDNS_DNSKEY_DATA, windns/PDNS_KEY_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

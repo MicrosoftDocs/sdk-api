@@ -4,10 +4,10 @@ title: IAzTask::get_BizRuleLanguage
 author: windows-sdk-content
 description: Sets or retrieves the scripting language in which the business rule (BizRule) is implemented.
 old-location: security\iaztask_bizrulelanguage.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 922f4fd8-f553-439c-b9ae-51a45a88adc7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ""JScript", "VBScript", AzTask object [Security],BizRuleLanguage property, BizRuleLanguage property [Security], BizRuleLanguage property [Security],AzTask object, BizRuleLanguage property [Security],IAzTask interface, IAzTask interface [Security],BizRuleLanguage property, IAzTask.BizRuleLanguage, IAzTask.get_BizRuleLanguage, IAzTask::BizRuleLanguage, IAzTask::get_BizRuleLanguage, IAzTask::put_BizRuleLanguage, azroles/IAzTask::BizRuleLanguage, azroles/IAzTask::get_BizRuleLanguage, azroles/IAzTask::put_BizRuleLanguage, get_BizRuleLanguage, security.iaztask_bizrulelanguage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.get_BizRuleLanguage
+: 
 ---
 
 # IAzTask::get_BizRuleLanguage

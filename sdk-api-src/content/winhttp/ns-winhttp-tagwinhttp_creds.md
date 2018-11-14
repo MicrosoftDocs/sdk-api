@@ -9,8 +9,8 @@ ms.assetid: dc4960b6-ca78-4b7d-a012-61fb7b0b1ef2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWINHTTP_CREDS, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS, PWINHTTP_CREDS structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS, WINHTTP_CREDS structure [HTTP], http.winhttp_creds, tagWINHTTP_CREDS, winhttp/PWINHTTP_CREDS, winhttp/WINHTTP_CREDS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

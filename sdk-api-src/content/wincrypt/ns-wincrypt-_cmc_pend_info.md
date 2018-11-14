@@ -9,8 +9,8 @@ ms.assetid: ac3dcd19-caed-4453-bac7-55ffa3a02f54
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCMC_PEND_INFO, CMC_PEND_INFO, CMC_PEND_INFO structure [Security], PCMC_PEND_INFO, PCMC_PEND_INFO structure pointer [Security], _CMC_PEND_INFO, _crypto2_cmc_pend_info, security.cmc_pend_info, wincrypt/CMC_PEND_INFO, wincrypt/PCMC_PEND_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

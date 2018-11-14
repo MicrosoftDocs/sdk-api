@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- DateTime_CloseMonthCal
+: 
 ---
 
 # DateTime_CloseMonthCal macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Closes the date and time picker (DTP) control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761753(v=VS.85).aspx">DTM_CLOSEMONTHCAL</a> message explicitly.
+Closes the date and time picker (DTP) control. Use this macro or send the <a href="https://msdn.microsoft.com/f60af77f-ec34-4f3d-9427-cda7ac6083bf">DTM_CLOSEMONTHCAL</a> message explicitly.
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Closes the date and time picker (DTP) control. Use this macro or send the <a hre
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the DTP control.
 
@@ -69,7 +77,7 @@ A handle to the DTP control.
 
 
 
-Destroys the control and sends a <a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a> notification that the control is closing—as opposed to the control is opening (dropping-down as in the <a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a> notification)—to the control's parent.
+Destroys the control and sends a <a href="https://msdn.microsoft.com/94ace714-55cc-4c59-8b87-8d0348b15f34">DTN_CLOSEUP</a> notification that the control is closing—as opposed to the control is opening (dropping-down as in the <a href="https://msdn.microsoft.com/6f20fa87-2223-4876-b77d-2c684685bf10">DTN_DROPDOWN</a> notification)—to the control's parent.
 
 
 
@@ -79,11 +87,11 @@ Destroys the control and sends a <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a>
+<a href="https://msdn.microsoft.com/94ace714-55cc-4c59-8b87-8d0348b15f34">DTN_CLOSEUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a>
+<a href="https://msdn.microsoft.com/6f20fa87-2223-4876-b77d-2c684685bf10">DTN_DROPDOWN</a>
 
 
 

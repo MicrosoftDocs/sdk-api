@@ -9,8 +9,8 @@ ms.assetid: f30ceaa0-ff4b-49fb-b140-b6725810cd06
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,described, base.ivdsdiskonline, vds/IVdsDiskOnline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

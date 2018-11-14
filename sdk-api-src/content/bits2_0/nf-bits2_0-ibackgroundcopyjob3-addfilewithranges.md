@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_0.h
+: 
+- IBackgroundCopyJob3.AddFileWithRanges
+: 
 ---
 
 # IBackgroundCopyJob3::AddFileWithRanges
@@ -60,7 +68,7 @@ Adds a file to a download job and specifies the ranges of the file you want to d
 
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure. 
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure. 
 
 
 
@@ -71,7 +79,7 @@ Null-terminated string that contains the name of the file on the server. For inf
 
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure.
 
 
 ### -param RangeCount [in]
@@ -81,7 +89,7 @@ Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [in]
 
-Array of one or more <a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
+Array of one or more <a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
 
 
 ## -returns
@@ -236,7 +244,7 @@ For better performance on Windows BranchCache-enabled file transfers, it is reco
 
 #### Examples
 
-The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
+The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -289,19 +297,19 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a>
+<a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362946(v=VS.85).aspx">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="https://msdn.microsoft.com/2e0ea08e-5f97-45c9-9280-ce6c4dce7a17">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363017(v=VS.85).aspx">IBackgroundCopyJob::AddFile</a>
+<a href="https://msdn.microsoft.com/0dada1d3-49b6-41af-b17f-612f27ea4d56">IBackgroundCopyJob::AddFile</a>
  
 
  

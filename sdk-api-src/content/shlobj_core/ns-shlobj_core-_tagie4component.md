@@ -9,8 +9,8 @@ ms.assetid: 5fcb2853-271b-4fcc-a3ea-0c2c6dd68195
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPIE4COMPONENT, COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IE4COMPONENT, IE4COMPONENT structure [Windows Shell], LPIE4COMPONENT, LPIE4COMPONENT structure pointer [Windows Shell], _shell_IE4COMPONENT, _tagIE4COMPONENT, shell.IE4COMPONENT, shlobj_core/IE4COMPONENT, shlobj_core/LPIE4COMPONENT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

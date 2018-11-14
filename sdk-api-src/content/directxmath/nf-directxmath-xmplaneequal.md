@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMPlaneEqual
+: 
 ---
 
 # XMPlaneEqual function
@@ -60,9 +66,6 @@ Determines if two planes are equal.
 
 ### -param P1 [in]
 
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
-
-<div class="code"><span codelanguage=""><table>
 <b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -72,9 +75,7 @@ Determines if two planes are equal.
 <pre>return (P1.x == P2.x &amp;&amp; P1.y == P2.y &amp;&amp; P1.z == P2.z &amp;&amp; P1.w == P2.w);</pre>
 </td>
 </tr>
-</table></span></div>
-
-.
+</table></span></div>.
 
 
 ### -param P2 [in]

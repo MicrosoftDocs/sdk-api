@@ -2,21 +2,21 @@
 UID: NE:winioctl._STORAGE_BUS_TYPE
 title: "_STORAGE_BUS_TYPE"
 author: windows-sdk-content
-description: Provides a symbolic means of representing storage bus types.
-old-location: fs\storage_bus_type.htm
-tech.root: fileio
-ms.assetid: 3c915e05-3974-4f62-b410-b28eddea129a
+description: Specifies the various types of storage buses.
+old-location: base\storage_bus_type.htm
+tech.root: devio
+ms.assetid: fb5a17f7-8ddb-4738-83e1-f00abc3555d2
 ms.author: windowssdkdev
-ms.date: 10/12/2018
-ms.keywords: "*PSTORAGE_BUS_TYPE, BusType1394, BusTypeAta, BusTypeAtapi, BusTypeFibre, BusTypeFileBackedVirtual, BusTypeMax, BusTypeMaxReserved, BusTypeMmc, BusTypeRAID, BusTypeSas, BusTypeSata, BusTypeScsi, BusTypeSd, BusTypeSsa, BusTypeUnknown, BusTypeUsb, BusTypeVirtual, BusTypeiScsi, PSTORAGE_BUS_TYPE, PSTORAGE_BUS_TYPE enumeration pointer [Files], STORAGE_BUS_TYPE, STORAGE_BUS_TYPE enumeration [Files], _STORAGE_BUS_TYPE, fs.storage_bus_type, winioctl/BusType1394, winioctl/BusTypeAta, winioctl/BusTypeAtapi, winioctl/BusTypeFibre, winioctl/BusTypeFileBackedVirtual, winioctl/BusTypeMax, winioctl/BusTypeMaxReserved, winioctl/BusTypeMmc, winioctl/BusTypeRAID, winioctl/BusTypeSas, winioctl/BusTypeSata, winioctl/BusTypeScsi, winioctl/BusTypeSd, winioctl/BusTypeSsa, winioctl/BusTypeUnknown, winioctl/BusTypeUsb, winioctl/BusTypeVirtual, winioctl/BusTypeiScsi, winioctl/PSTORAGE_BUS_TYPE, winioctl/STORAGE_BUS_TYPE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 10/02/2018
+ms.keywords: "*PSTORAGE_BUS_TYPE, BusType1394, BusTypeAta, BusTypeAtapi, BusTypeFibre, BusTypeMaxReserved, BusTypeRAID, BusTypeSas, BusTypeSata, BusTypeScsi, BusTypeSsa, BusTypeUnknown, BusTypeUsb, BusTypeiSCSI, PSTORAGE_BUS_TYPE, PSTORAGE_BUS_TYPE enumeration pointer, STORAGE_BUS_TYPE, STORAGE_BUS_TYPE enumeration, _STORAGE_BUS_TYPE, _win32_storage_bus_type, base.storage_bus_type, winioctl/BusType1394, winioctl/BusTypeAta, winioctl/BusTypeAtapi, winioctl/BusTypeFibre, winioctl/BusTypeMaxReserved, winioctl/BusTypeRAID, winioctl/BusTypeSas, winioctl/BusTypeSata, winioctl/BusTypeScsi, winioctl/BusTypeSsa, winioctl/BusTypeUnknown, winioctl/BusTypeUsb, winioctl/BusTypeiSCSI, winioctl/PSTORAGE_BUS_TYPE, winioctl/STORAGE_BUS_TYPE"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winioctl.h
-req.include-header: 
+req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,7 +50,8 @@ req.redist:
 ## -description
 
 
-Provides a symbolic means of representing storage bus types.
+Specifies the various types of storage 
+    buses.
 
 
 ## -enum-fields
@@ -60,96 +61,78 @@ Provides a symbolic means of representing storage bus types.
 
 ### -field BusTypeUnknown
 
-Indicates an unknown bus type.
+Unknown bus type.
 
 
 ### -field BusTypeScsi
 
-Indicates a SCSI bus type.
+SCSI bus.
 
 
 ### -field BusTypeAtapi
 
-Indicates an ATAPI bus type.
+ATAPI bus.
 
 
 ### -field BusTypeAta
 
-Indicates an ATA bus type.
+ATA bus.
 
 
 ### -field BusType1394
 
-Indicates an IEEE 1394 bus type.
+IEEE-1394 bus.
 
 
 ### -field BusTypeSsa
 
-Indicates an SSA bus type.
+SSA bus.
 
 
 ### -field BusTypeFibre
 
-Indicates a fiber channel bus type.
+Fibre Channel bus.
 
 
 ### -field BusTypeUsb
 
-Indicates a USB bus type.
+USB bus.
 
 
 ### -field BusTypeRAID
 
-Indicates a RAID bus type.
+RAID bus.
 
 
 ### -field BusTypeiScsi
 
-Indicates an iSCSI bus type.
-
-<b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
-
 
 ### -field BusTypeSas
 
-Indicates a serial-attached SCSI (SAS) bus type.
+Serial Attached SCSI (SAS) bus.
+      
 
-<b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
+<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
 
 
 ### -field BusTypeSata
 
-Indicates a SATA bus type.
+SATA bus.
+      
 
-<b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
+<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
 
 
 ### -field BusTypeSd
 
-Indicates a secure digital (SD) bus type.
-
-<b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
-
 
 ### -field BusTypeMmc
-
-Indicates a multimedia card (MMC) bus type.
-
-<b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
 
 
 ### -field BusTypeVirtual
 
-Indicates a virtual bus type.
-
-<b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 7 and Windows Server 2008.
-
 
 ### -field BusTypeFileBackedVirtual
-
-Indicates a file-backed virtual bus type.
-
-<b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 7 and Windows Server 2008.
 
 
 ### -field BusTypeSpaces
@@ -166,12 +149,16 @@ Indicates a file-backed virtual bus type.
 
 ### -field BusTypeMax
 
-Indicates the maximum value for this value.
-
 
 ### -field BusTypeMaxReserved
 
-The maximum value of the storage bus type range.
+
+#### - BusTypeiSCSI
+
+iSCSI bus.
+      
+
+<b>Windows Server 2003:  </b>This is not supported before Windows Server 2003 with SP1.
 
 
 ## -see-also
@@ -179,7 +166,7 @@ The maximum value of the storage bus type range.
 
 
 
-<a href="https://msdn.microsoft.com/ed8fe5c1-dbdf-43bc-a0a7-17e541eba950">Disk Management Enumeration Types</a>
+<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a>
  
 
  

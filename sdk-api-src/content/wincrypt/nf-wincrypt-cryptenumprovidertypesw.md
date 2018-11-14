@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptEnumProviderTypesW
+: 
 ---
 
 # CryptEnumProviderTypesW function
@@ -183,11 +189,15 @@ This function enumerates the provider types available on a computer. Providers f
 
 The following example shows a loop listing all available cryptographic service provider types.
 
-
-```cpp
-#include <stdio.h>
-#include <windows.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;Wincrypt.h&gt;
 #pragma comment(lib, "advapi32.lib")
 
 void main()
@@ -214,9 +224,9 @@ void main()
            dwIndex,
            NULL,
            0,
-           &dwType,
+           &amp;dwType,
            NULL,
-           &cbName
+           &amp;cbName
            ))
     {
 
@@ -236,9 +246,9 @@ void main()
                dwIndex++,
                NULL,
                NULL,
-               &dwType,   
+               &amp;dwType,   
                pszName,
-               &cbName))     
+               &amp;cbName))     
         {
             printf ("     %4.0d\t%s\n",dwType, pszName);
         }
@@ -250,10 +260,10 @@ void main()
         LocalFree(pszName);
     } // End of while loop.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For another example that uses the <b>CryptEnumProviderTypes</b> function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
 <div class="code"></div>
@@ -269,7 +279,7 @@ For another example that uses the <b>CryptEnumProviderTypes</b> function, see <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

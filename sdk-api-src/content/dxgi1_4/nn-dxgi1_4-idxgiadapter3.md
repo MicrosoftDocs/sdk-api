@@ -7,10 +7,10 @@ old-location: direct3ddxgi\idxgiadapter3.htm
 tech.root: direct3ddxgi
 ms.assetid: 547840B4-4AAB-4049-8D79-BD34BA4D32CD
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], IDXGIAdapter3 interface [DXGI],described, direct3ddxgi.idxgiadapter3, dxgi1_4/IDXGIAdapter3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h

@@ -9,8 +9,8 @@ ms.assetid: f35d1cd9-8a04-4c12-9af3-38f2c44b8c06
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], IFsiFileItem2 interface [IMAPI],described, imapi.ifsifileitem2, imapi2fs/IFsiFileItem2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

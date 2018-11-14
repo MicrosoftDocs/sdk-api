@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- identityprovider.h
+: 
+- IAssociatedIdentityProvider.ChangeCredential
+: 
 ---
 
 # IAssociatedIdentityProvider::ChangeCredential

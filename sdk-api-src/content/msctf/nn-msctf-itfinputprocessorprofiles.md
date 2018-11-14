@@ -9,8 +9,8 @@ ms.assetid: 9fa722a4-1e3f-4845-aea7-3b24b517f2a5
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ITfInputProcessorProfiles interface [Text Services Framework],described, _tsf_itfinputprocessorprofiles_ref, msctf/ITfInputProcessorProfiles, tsf.itfinputprocessorprofiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -237,7 +237,7 @@ Removes a text service from TSF.
 
 
 
-To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
+To obtain a pointer to this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
 
 
 #### Examples
@@ -245,9 +245,13 @@ To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/
 <b>ITfInputProcessorProfiles</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfInputProcessorProfiles *pProfiles;
 
@@ -256,18 +260,18 @@ hr = CoCreateInstance(  CLSID_TF_InputProcessorProfiles,
                         NULL, 
                         CLSCTX_INPROC_SERVER, 
                         IID_ITfInputProcessorProfiles, 
-                        (LPVOID*)&pProfiles);
+                        (LPVOID*)&amp;pProfiles);
 
 if(SUCCEEDED(hr))
 {
     //Use the interface. 
 
     //Release the interface. 
-    pProfiles->Release();
+    pProfiles-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

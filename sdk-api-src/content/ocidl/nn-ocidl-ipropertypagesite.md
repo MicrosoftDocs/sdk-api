@@ -9,8 +9,8 @@ ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
@@ -55,7 +55,7 @@ Provides the main features for a property page site object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPageSite</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPropertyPageSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPageSite</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPropertyPageSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

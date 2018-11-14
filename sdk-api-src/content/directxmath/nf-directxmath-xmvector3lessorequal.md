@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMVector3LessOrEqual
+: 
 ---
 
 # XMVector3LessOrEqual function
@@ -83,13 +89,17 @@ Returns true if <i>V1</i> is less-than-or-equal-to <i>V2</i> and false otherwise
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-return ( V1.x <= V2.x && V1.y <= V2.y &&
-         V1.z <= V2.z );
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>return ( V1.x &lt;= V2.x &amp;&amp; V1.y &lt;= V2.y &amp;&amp;
+         V1.z &lt;= V2.z );</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

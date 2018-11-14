@@ -9,8 +9,8 @@ ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CertStoreProvReadCertCallback, PFN_CERT_STORE_PROV_READ_CERT, PFN_CERT_STORE_PROV_READ_CERT callback, PFN_CERT_STORE_PROV_READ_CERT callback function [Security], _crypto2_certstoreprovreadcertcallback, security.certstoreprovreadcertcallback, wincrypt/PFN_CERT_STORE_PROV_READ_CERT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -104,7 +104,7 @@ Returns <b>TRUE</b> if the certificate was successfully read.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

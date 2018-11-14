@@ -9,8 +9,8 @@ ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, tagInstallationImpact, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

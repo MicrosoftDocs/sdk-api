@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertRDNValueToStrW
+: 
 ---
 
 # CertRDNValueToStrW function
@@ -132,7 +138,7 @@ If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="cryptography_functions.htm">Data Conversion Functions</a>
  
 
  

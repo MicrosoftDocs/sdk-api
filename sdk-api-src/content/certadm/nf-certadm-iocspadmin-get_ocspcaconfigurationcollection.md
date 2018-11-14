@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- IOCSPAdmin.get_OCSPCAConfigurationCollection
+: 
 ---
 
 # IOCSPAdmin::get_OCSPCAConfigurationCollection
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>OCSPCAConfigurationCollection</b> property gets an instance of an <b>OCSPCAConfigurationCollection</b> object. This object represents the set of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
+The <b>OCSPCAConfigurationCollection</b> property gets an instance of an <b>OCSPCAConfigurationCollection</b> object. This object represents the set of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
 
 This property is read-only.
 
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a>
+<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
  
 
  

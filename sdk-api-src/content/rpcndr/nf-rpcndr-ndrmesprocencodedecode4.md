@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrMesProcEncodeDecode4
+: 
 ---
 
 # NdrMesProcEncodeDecode4 function

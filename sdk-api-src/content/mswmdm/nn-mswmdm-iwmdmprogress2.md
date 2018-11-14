@@ -9,8 +9,8 @@ ms.assetid: 59619571-0ab7-42a4-ad25-c420ec9667a3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWMDMProgress2, IWMDMProgress2 interface [windows Media Device Manager], IWMDMProgress2 interface [windows Media Device Manager],described, IWMDMProgress2Interface, mswmdm/IWMDMProgress2, wmdm.iwmdmprogress2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

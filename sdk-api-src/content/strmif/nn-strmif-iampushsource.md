@@ -9,8 +9,8 @@ ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawBeziers
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -108,9 +116,13 @@ A Bézier spline does not pass through its control points. The control points ac
 
 The following example draws a pair of Bézier curves.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawBeziers(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -136,22 +148,22 @@ VOID Example_DrawBeziers(HDC hdc)
       endPoint2};
 
    // Draw the Bezier curves.
-   graphics.DrawBeziers(&greenPen, curvePoints, 7);
+   graphics.DrawBeziers(&amp;greenPen, curvePoints, 7);
 
    // Draw the control and end points.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&redBrush, Rect(100 - 5, 100 - 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(500 - 5, 100 - 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(500 - 5, 500 - 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(100 - 5, 100 - 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(500 - 5, 100 - 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(500 - 5, 500 - 5, 10, 10));
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&blueBrush, Rect(200 - 5, 50 - 5, 10, 10));
-   graphics.FillEllipse(&blueBrush, Rect(400 - 5, 10 - 5, 10, 10));
-   graphics.FillEllipse(&blueBrush, Rect(600 - 5, 200 - 5, 10, 10));
-   graphics.FillEllipse(&blueBrush, Rect(700 - 5, 400 - 5, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;blueBrush, Rect(200 - 5, 50 - 5, 10, 10));
+   graphics.FillEllipse(&amp;blueBrush, Rect(400 - 5, 10 - 5, 10, 10));
+   graphics.FillEllipse(&amp;blueBrush, Rect(600 - 5, 200 - 5, 10, 10));
+   graphics.FillEllipse(&amp;blueBrush, Rect(700 - 5, 400 - 5, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -176,7 +188,7 @@ VOID Example_DrawBeziers(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

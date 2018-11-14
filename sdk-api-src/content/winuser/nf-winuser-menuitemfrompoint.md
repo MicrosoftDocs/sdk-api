@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MenuItemFromPoint
+: 
 ---
 
 # MenuItemFromPoint function
@@ -95,7 +101,7 @@ Returns the zero-based position of the menu item at the specified location or -1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
  
 
  

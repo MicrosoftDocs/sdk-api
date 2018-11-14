@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- VariantToPropVariant
+: 
 ---
 
 # VariantToPropVariant function
@@ -50,7 +56,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Copies the contents of a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Copies the contents of a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
 
 
 ## -parameters
@@ -62,7 +68,7 @@ Copies the contents of a <a href="https://msdn.microsoft.com/en-us/library/ms221
 
 Type: <b>const VARIANT*</b>
 
-Pointer to a source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+Pointer to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ### -param pPropVar [out]

@@ -9,8 +9,8 @@ ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objsel.h
 req.include-header: 
@@ -55,7 +55,7 @@ The <b>IDsObjectPickerCredentials</b> interface
     object implementing this interface.
 
 To obtain an instance of this interface, call 
-    <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> with the 
+    <a href="_com_iunknown_queryinterface">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
 
 

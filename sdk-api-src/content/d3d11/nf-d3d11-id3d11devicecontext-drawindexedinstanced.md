@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11DeviceContext.DrawIndexedInstanced
+: 
 ---
 
 # ID3D11DeviceContext::DrawIndexedInstanced
@@ -121,7 +129,7 @@ Instancing may extend performance by reusing the same geometry to draw multiple 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

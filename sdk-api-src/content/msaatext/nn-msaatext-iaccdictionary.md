@@ -9,8 +9,8 @@ ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msaatext.h
 req.include-header: 

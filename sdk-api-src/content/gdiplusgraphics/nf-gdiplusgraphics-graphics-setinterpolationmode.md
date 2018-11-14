@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.SetInterpolationMode
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::SetInterpolationMode</b> method sets the interpolation mode of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
+The <b>Graphics::SetInterpolationMode</b> method sets the interpolation mode of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
 
 
 ## -parameters
@@ -61,21 +69,21 @@ The <b>Graphics::SetInterpolationMode</b> method sets the interpolation mode of 
 
 ### -param interpolationMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration that specifies the interpolation mode. 
+Element of the <a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a> enumeration that specifies the interpolation mode. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -85,19 +93,19 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535711(v=VS.85).aspx">Graphics::GetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/a9f3b27c-cb16-4d52-9970-ea3708bd1e0c">Graphics::GetInterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a>
+<a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533836(v=VS.85).aspx">Using Interpolation Mode to Control Image Quality During Scaling</a>
+<a href="https://msdn.microsoft.com/3aeead47-78da-4ab3-9126-2fbe9e341e48">Using Interpolation Mode to Control Image Quality During Scaling</a>
  
 
  

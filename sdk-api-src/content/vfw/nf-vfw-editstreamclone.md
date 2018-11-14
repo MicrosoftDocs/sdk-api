@@ -7,7 +7,7 @@ old-location: multimedia\editstreamclone.htm
 tech.root: Multimedia
 ms.assetid: 2a512dbd-8d17-43d0-a074-571b4c1837c7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EditStreamClone, EditStreamClone function [Windows Multimedia], _win32_EditStreamClone, multimedia.editstreamclone, vfw/EditStreamClone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EditStreamClone
+: 
 ---
 
 # EditStreamClone function

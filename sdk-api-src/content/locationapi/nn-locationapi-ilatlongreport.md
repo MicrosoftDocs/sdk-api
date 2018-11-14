@@ -9,8 +9,8 @@ ms.assetid: b489959e-74c7-46df-b63f-7d37e3a244d5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

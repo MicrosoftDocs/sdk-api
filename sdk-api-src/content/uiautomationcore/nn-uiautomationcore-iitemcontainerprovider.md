@@ -9,8 +9,8 @@ ms.assetid: 403436f5-7540-455b-965e-e2e3b64ef7e0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IItemContainerProvider, IItemContainerProvider interface [Windows Accessibility], IItemContainerProvider interface [Windows Accessibility],described, uiauto.uiauto_IItemContainerProvider, uiauto_IItemContainerProvider, uiautomationcore/IItemContainerProvider, winauto.uiauto_IItemContainerProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

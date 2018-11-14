@@ -7,7 +7,7 @@ old-location: serports\comdbresizedatabase.htm
 tech.root: serports
 ms.assetid: fef761be-57c5-4188-8de9-dbca31d91870
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ComDBResizeDatabase, ComDBResizeDatabase function [Serial Ports], comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml, msports/ComDBResizeDatabase, serports.comdbresizedatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ComDBResizeDatabase
+: 
 ---
 
 # ComDBResizeDatabase function

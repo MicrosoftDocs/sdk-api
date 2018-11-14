@@ -7,10 +7,10 @@ old-location: mscs\extendtypecontrolcall.htm
 tech.root: mscs
 ms.assetid: 90E9A989-D281-440D-8441-02086841356E
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ExtendResTypeControlCall, ExtendResTypeControlCall callback, ExtendResTypeControlCall callback function [Failover Cluster], PEXTEND_RES_TYPE_CONTROL_CALL, PEXTEND_RES_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.extendtypecontrolcall, resapi/ExtendResTypeControlCall, resapi/PEXTEND_RES_TYPE_CONTROL_CALL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

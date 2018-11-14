@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ObjectTypeIsValid
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -62,7 +68,7 @@ The <b>ObjectTypeIsValid</b> function determines whether an element of the Objec
 
 ### -param type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534156(v=VS.85).aspx">ObjectType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9b35cac6-62e7-4ca2-98e2-2a983da565c1">ObjectType</a></b>
 
 Element of the ObjectType enumeration to be tested.
 

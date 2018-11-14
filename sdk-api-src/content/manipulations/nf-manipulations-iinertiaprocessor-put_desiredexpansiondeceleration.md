@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- manipulations.h
+: 
+- IInertiaProcessor.put_DesiredExpansionDeceleration
+: 
 ---
 
 # IInertiaProcessor::put_DesiredExpansionDeceleration

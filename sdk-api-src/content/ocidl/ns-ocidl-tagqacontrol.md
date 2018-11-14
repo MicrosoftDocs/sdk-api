@@ -9,8 +9,8 @@ ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL, tagQACONTROL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

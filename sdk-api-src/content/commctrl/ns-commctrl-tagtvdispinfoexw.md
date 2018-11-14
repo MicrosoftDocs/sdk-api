@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfoex.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMTVDISPINFOEXW, LPNMTVDISPINFOEX, LPNMTVDISPINFOEX structure pointer [Windows Controls], NMTVDISPINFOEX, NMTVDISPINFOEX structure [Windows Controls], NMTVDISPINFOEXA, NMTVDISPINFOEXW, _shell_NMTVDISPINFOEX, _shell_NMTVDISPINFOEX_cpp, commctrl/LPNMTVDISPINFOEX, commctrl/NMTVDISPINFOEX, commctrl/NMTVDISPINFOEXA, commctrl/NMTVDISPINFOEXW, controls.NMTVDISPINFOEX, controls._shell_NMTVDISPINFOEX, tagTVDISPINFOEXW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
@@ -62,15 +62,15 @@ Contains information pertaining to extended TreeView notification information.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification.
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification.
 
 
 ### -field item
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a></b>
 
 Specifies or receives attributes of a TreeView item.
 

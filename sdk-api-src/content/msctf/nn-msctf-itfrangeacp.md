@@ -9,8 +9,8 @@ ms.assetid: aaa497ca-4cf2-401a-a6d8-cc8a75479cc4
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], ITfRangeACP interface [Text Services Framework],described, _tsf_itfrangeacp_ref, msctf/ITfRangeACP, tsf.itfrangeacp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -99,7 +99,7 @@ Sets the application character position and length of the range object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationTransformPattern2.get_CurrentZoomMinimum
+: 
 ---
 
 # IUIAutomationTransformPattern2::get_CurrentZoomMinimum

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodec.h
+: 
+- IWICJpegFrameEncode.GetAcHuffmanTable
+: 
 ---
 
 # IWICJpegFrameEncode::GetAcHuffmanTable
@@ -83,7 +91,7 @@ A pointer that receives the table data. This parameter must not be NULL.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method can return one of these values.
 

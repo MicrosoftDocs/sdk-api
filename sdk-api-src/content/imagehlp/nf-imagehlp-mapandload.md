@@ -7,7 +7,7 @@ old-location: base\mapandload.htm
 tech.root: debug
 ms.assetid: 42d5ea46-4b89-4d93-b9a9-18c2855df193
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: MapAndLoad, MapAndLoad function, _win32_mapandload, base.mapandload, imagehlp/MapAndLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MapAndLoad
+: 
 ---
 
 # MapAndLoad function

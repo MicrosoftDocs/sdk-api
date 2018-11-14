@@ -9,8 +9,8 @@ ms.assetid: 4e3331ad-4adc-4ea9-8a22-6aad15f618c8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IContextMenu2, IContextMenu2 interface [Windows Shell], IContextMenu2 interface [Windows Shell],described, _win32_IContextMenu2, shell.IContextMenu2, shobjidl_core/IContextMenu2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -95,13 +95,13 @@ Implement <b>IContextMenu2</b> if your <a href="https://msdn.microsoft.com/cc387
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms646347(v=VS.85).aspx">WM_INITMENUPOPUP</a>
+<a href="https://msdn.microsoft.com/08ae1a78-5e68-488c-9b77-ee42044ca3ab">WM_INITMENUPOPUP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a>
+<a href="https://msdn.microsoft.com/e54bae5e-10d6-43b0-a766-1b270c8873a9">WM_DRAWITEM</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a>
+<a href="https://msdn.microsoft.com/6947bcd1-fd40-4238-b8f2-d4e06b90c0dc">WM_MEASUREITEM</a>
 </li>
 </ul>
 These messages are forwarded to <b>IContextMenu2</b>—through the <a href="https://msdn.microsoft.com/06ea4563-a299-4587-906f-4f312c21498a">HandleMenuMsg</a> method—only if a <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> call for an <b>IContextMenu2</b> interface pointer is successful, indicating that the object supports this interface.

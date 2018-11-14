@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- contentpartner.h
+: 
+- IWMPContentPartner.Buy
+: 
 ---
 
 # IWMPContentPartner::Buy
@@ -70,7 +78,7 @@ Pointer to a content container list that represents the content to be purchased.
 
 ### -param cookie [in]
 
-A cookie used to identify the transaction. You must store this value and pass it to <a href="https://msdn.microsoft.com/en-us/library/Dd563144(v=VS.85).aspx">IWMPContentPartnerCallback::BuyComplete</a> when the purchase transaction is finished.
+A cookie used to identify the transaction. You must store this value and pass it to <a href="https://msdn.microsoft.com/4e9ab15f-3418-472d-afc4-0f9fae852da2">IWMPContentPartnerCallback::BuyComplete</a> when the purchase transaction is finished.
 
 
 ## -returns
@@ -117,7 +125,7 @@ If the user has an expired license for content previously purchased, you can sim
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

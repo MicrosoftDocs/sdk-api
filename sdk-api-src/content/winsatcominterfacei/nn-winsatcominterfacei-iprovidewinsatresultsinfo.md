@@ -9,8 +9,8 @@ ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], IProvideWinSATResultsInfo interface [WinSAT],described, winsat.iprovidewinsatresultsinfo, winsatcominterfacei/IProvideWinSATResultsInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 
@@ -59,7 +59,7 @@ To get this interface, call the <a href="https://msdn.microsoft.com/11697416-aa4
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideWinSATResultsInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IProvideWinSATResultsInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideWinSATResultsInfo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IProvideWinSATResultsInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -9,8 +9,8 @@ ms.assetid: 1554c09c-a7c1-44ad-9821-93c0913212fc
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ICertServerExit, ICertServerExit interface [Security], ICertServerExit interface [Security],described, _certsrv_icertserverexit, certif/ICertServerExit, security.icertserverexit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certif.h
 req.include-header: Certsrv.h
@@ -61,9 +61,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertServerExit</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertServerExit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertServerExit</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertServerExit</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>ICertServerExit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385056(v=VS.85).aspx">EnumerateAttributes</a>
+<a href="https://msdn.microsoft.com/df778207-3b20-45a5-a705-8dba566eb658">EnumerateAttributes</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the next request attribute to be enumerated.
@@ -85,7 +85,7 @@ Returns the name of the next request attribute to be enumerated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385057(v=VS.85).aspx">EnumerateAttributesClose</a>
+<a href="https://msdn.microsoft.com/6ac7afbb-49c6-45b3-a27e-5ba995684848">EnumerateAttributesClose</a>
 </td>
 <td align="left" width="63%">
 Frees any resources connected with attribute enumeration.
@@ -94,7 +94,7 @@ Frees any resources connected with attribute enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385058(v=VS.85).aspx">EnumerateAttributesSetup</a>
+<a href="https://msdn.microsoft.com/c81b9c4d-483e-48b8-a270-f570e148d371">EnumerateAttributesSetup</a>
 </td>
 <td align="left" width="63%">
 Initializes the internal enumeration pointer to the first attribute associated with the current context.
@@ -103,16 +103,16 @@ Initializes the internal enumeration pointer to the first attribute associated w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385061(v=VS.85).aspx">EnumerateExtensions</a>
+<a href="https://msdn.microsoft.com/8726f5fa-dc85-4357-b73a-013842d6ab78">EnumerateExtensions</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) of the next certificate extension to be enumerated.
+Returns the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the next certificate extension to be enumerated.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385064(v=VS.85).aspx">EnumerateExtensionsClose</a>
+<a href="https://msdn.microsoft.com/769235cd-d5ef-458b-a04b-88f9f831ce3f">EnumerateExtensionsClose</a>
 </td>
 <td align="left" width="63%">
 Frees any resources connected with extension enumeration.
@@ -121,7 +121,7 @@ Frees any resources connected with extension enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385066(v=VS.85).aspx">EnumerateExtensionsSetup</a>
+<a href="https://msdn.microsoft.com/2a0c4919-b3a0-4027-85bd-970f6bc0cdeb">EnumerateExtensionsSetup</a>
 </td>
 <td align="left" width="63%">
 Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
@@ -130,7 +130,7 @@ Initializes the internal enumeration pointer to the first certificate extension 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">GetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">GetCertificateExtension</a>
 </td>
 <td align="left" width="63%">
 Gets a specified certificate extension.
@@ -139,17 +139,17 @@ Gets a specified certificate extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385072(v=VS.85).aspx">GetCertificateExtensionFlags</a>
+<a href="https://msdn.microsoft.com/0eee1d67-116b-4f93-9273-b70d50fa2c5d">GetCertificateExtensionFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags from the extension acquired by the most recent call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385068(v=VS.85).aspx">GetCertificateExtension</a>.
+<a href="https://msdn.microsoft.com/ba2d2e5f-230e-4e69-8d86-dad9c743e5ee">GetCertificateExtension</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385074(v=VS.85).aspx">GetCertificateProperty</a>
+<a href="https://msdn.microsoft.com/7a6185cd-fae5-4ee6-b403-c7613b31e48a">GetCertificateProperty</a>
 </td>
 <td align="left" width="63%">
 Returns a named certificate property.
@@ -158,7 +158,7 @@ Returns a named certificate property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385075(v=VS.85).aspx">GetRequestAttribute</a>
+<a href="https://msdn.microsoft.com/894bde77-5e76-452b-acf5-c73fcaf1fa31">GetRequestAttribute</a>
 </td>
 <td align="left" width="63%">
 Returns a named request attribute.
@@ -167,7 +167,7 @@ Returns a named request attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385077(v=VS.85).aspx">GetRequestProperty</a>
+<a href="https://msdn.microsoft.com/e9b98573-4eb0-4add-988b-dc34d6c15436">GetRequestProperty</a>
 </td>
 <td align="left" width="63%">
 Returns a named request property.
@@ -176,7 +176,7 @@ Returns a named request property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">SetContext</a>
+<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the current instantiation of the interface to operate on the specified request context.

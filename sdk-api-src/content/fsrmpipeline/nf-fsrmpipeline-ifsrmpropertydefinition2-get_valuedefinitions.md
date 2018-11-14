@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmPropertyDefinition2.get_ValueDefinitions
+: 
 ---
 
 # IFsrmPropertyDefinition2::get_ValueDefinitions

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMBackupCollection.get_Item
+: 
 ---
 
 # IGPMBackupCollection::get_Item

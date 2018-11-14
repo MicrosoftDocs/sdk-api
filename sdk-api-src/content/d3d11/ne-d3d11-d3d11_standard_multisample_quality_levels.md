@@ -9,8 +9,8 @@ ms.assetid: 20c558ae-e9c3-4bab-8c11-264d626f2cff
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_CENTER_MULTISAMPLE_PATTERN, D3D11_STANDARD_MULTISAMPLE_PATTERN, D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS, D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration [Direct3D 11], d3d11/D3D11_CENTER_MULTISAMPLE_PATTERN, d3d11/D3D11_STANDARD_MULTISAMPLE_PATTERN, d3d11/D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS, direct3d11.d3d11_standard_multisample_quality_levels, fb0a6e23-49e9-934e-53e2-2a05f3e76371
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
@@ -76,11 +76,11 @@ An app calls <a href="https://msdn.microsoft.com/346f5dae-3ce2-4c03-ab17-1c46e18
 
 The runtime defines the following standard sample patterns for 1(trivial),  2, 4, 8, and 16 sample counts. Hardware must support 1, 4, and 8 sample counts. Hardware vendors can expose more sample counts beyond these. However, if vendors support 2, 4(required), 8(required), or 16, they must also support the corresponding standard pattern or center pattern for each of those sample counts.
 
-<img alt="Pattern for 1 Sample Count" src="./images/D3D11_MSAAGrid.png"/>
+<img alt="Pattern for 1 Sample Count" src="images/D3D11_MSAAGrid.png"/>
 
-<img alt="Patterns for 2 and 4 Sample Count" src="./images/D3D11_MSAAPatterns_2_4.png"/>
+<img alt="Patterns for 2 and 4 Sample Count" src="images/D3D11_MSAAPatterns_2_4.png"/>
 
-<img alt="Patterns for 8 and 16 Sample Count" src="./images/D3D11_MSAAPatterns_8_16.png"/>
+<img alt="Patterns for 8 and 16 Sample Count" src="images/D3D11_MSAAPatterns_8_16.png"/>
 
 
 

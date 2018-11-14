@@ -9,8 +9,8 @@ ms.assetid: e3b8bcc1-9cdc-499f-840a-3545ec9b46f7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE structure [DHCP], LPDHCP_RESERVED_SCOPE, LPDHCP_RESERVED_SCOPE structure pointer [DHCP], _DHCP_RESERVED_SCOPE, dhcp.dhcp_reserved_scope, dhcpsapi/LPDHCP_RESERVED_SCOPE, dhcpsapi/_DHCP_RESERVED_SCOPE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

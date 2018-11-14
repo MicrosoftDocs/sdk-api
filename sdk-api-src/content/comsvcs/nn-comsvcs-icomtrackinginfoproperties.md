@@ -9,8 +9,8 @@ ms.assetid: 1964b04e-7146-4d08-a08f-a85393d07592
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IComTrackingInfoProperties, IComTrackingInfoProperties interface [COM+], IComTrackingInfoProperties interface [COM+],described, _dtc_IComTrackingInfoProperties, comsvcs/IComTrackingInfoProperties, cos.icomtrackinginfoproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
@@ -98,7 +98,7 @@ Retrieves the number of properties defined for a tracking information object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd179218(v=VS.85).aspx">COM+ Tracking</a>
+<a href="https://msdn.microsoft.com/ad3bdeb5-f303-411a-abfb-ccde3f9a86b9">COM+ Tracking</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 21ef4266-5dd6-48b6-9175-452b74e94a07
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_TYPOGRAPHIC_FEATURES, DWRITE_TYPOGRAPHIC_FEATURES structure [Direct Write], directwrite.dwrite_typographic_features, dwrite/DWRITE_TYPOGRAPHIC_FEATURES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

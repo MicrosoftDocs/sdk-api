@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IAnnotationProvider.get_Target
+: 
 ---
 
 # IAnnotationProvider::get_Target

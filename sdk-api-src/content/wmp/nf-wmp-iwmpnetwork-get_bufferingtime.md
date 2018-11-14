@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPNetwork.get_bufferingTime
+: 
 ---
 
 # IWMPNetwork::get_bufferingTime

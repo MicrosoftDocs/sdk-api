@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsWriteQuestionToBuffer_UTF8
+: 
 ---
 
 # DnsWriteQuestionToBuffer_UTF8 function

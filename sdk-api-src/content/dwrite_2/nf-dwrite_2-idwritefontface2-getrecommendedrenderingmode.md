@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteFontFace2.GetRecommendedRenderingMode
+: 
 ---
 
 # IDWriteFontFace2::GetRecommendedRenderingMode

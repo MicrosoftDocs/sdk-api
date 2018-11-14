@@ -9,8 +9,8 @@ ms.assetid: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9, SCROLLDIRECTION, SCROLLDIRECTION enumeration [Tablet PC], SCROLLDIRECTION_DOWN, SCROLLDIRECTION_UP, tabflicks/SCROLLDIRECTION, tabflicks/SCROLLDIRECTION_DOWN, tabflicks/SCROLLDIRECTION_UP, tablet.scrolldirection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 

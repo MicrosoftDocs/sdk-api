@@ -7,10 +7,10 @@ old-location: direct2d\ID2D1Layer.htm
 tech.root: direct2d
 ms.assetid: ce7b2345-f0e5-4e44-9146-b1f140bb00ca
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1Layer, ID2D1Layer interface [Direct2D], ID2D1Layer interface [Direct2D],described, d2d1/ID2D1Layer, direct2d.ID2D1Layer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -102,47 +102,51 @@ A layer is a device-dependent resource: your application should create layers af
 
 The following example uses a layer to clip a drawing to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
 
-
-```cpp
-HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 {
     HRESULT hr = S_OK;
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &pLayer);
+    hr = pRT-&gt;CreateLayer(NULL, &amp;pLayer);
 
     if (SUCCEEDED(hr))
     {
-        pRT->SetTransform(D2D1::Matrix3x2F::Translation(350, 50));
+        pRT-&gt;SetTransform(D2D1::Matrix3x2F::Translation(350, 50));
 
         // Push the layer with the geometric mask.
-        pRT->PushLayer(
+        pRT-&gt;PushLayer(
             D2D1::LayerParameters(D2D1::InfiniteRect(), m_pPathGeometry),
             pLayer
             );
             
   
-        pRT->DrawBitmap(m_pOrigBitmap, D2D1::RectF(0, 0, 200, 133));
-        pRT->FillRectangle(D2D1::RectF(0.f, 0.f, 25.f, 25.f), m_pSolidColorBrush);  
-        pRT->FillRectangle(D2D1::RectF(25.f, 25.f, 50.f, 50.f), m_pSolidColorBrush);
-        pRT->FillRectangle(D2D1::RectF(50.f, 50.f, 75.f, 75.f), m_pSolidColorBrush); 
-        pRT->FillRectangle(D2D1::RectF(75.f, 75.f, 100.f, 100.f), m_pSolidColorBrush);    
-        pRT->FillRectangle(D2D1::RectF(100.f, 100.f, 125.f, 125.f), m_pSolidColorBrush); 
-        pRT->FillRectangle(D2D1::RectF(125.f, 125.f, 150.f, 150.f), m_pSolidColorBrush);    
+        pRT-&gt;DrawBitmap(m_pOrigBitmap, D2D1::RectF(0, 0, 200, 133));
+        pRT-&gt;FillRectangle(D2D1::RectF(0.f, 0.f, 25.f, 25.f), m_pSolidColorBrush);  
+        pRT-&gt;FillRectangle(D2D1::RectF(25.f, 25.f, 50.f, 50.f), m_pSolidColorBrush);
+        pRT-&gt;FillRectangle(D2D1::RectF(50.f, 50.f, 75.f, 75.f), m_pSolidColorBrush); 
+        pRT-&gt;FillRectangle(D2D1::RectF(75.f, 75.f, 100.f, 100.f), m_pSolidColorBrush);    
+        pRT-&gt;FillRectangle(D2D1::RectF(100.f, 100.f, 125.f, 125.f), m_pSolidColorBrush); 
+        pRT-&gt;FillRectangle(D2D1::RectF(125.f, 125.f, 150.f, 150.f), m_pSolidColorBrush);    
         
 
-        pRT->PopLayer();
+        pRT-&gt;PopLayer();
     }
 
-    SafeRelease(&pLayer);
+    SafeRelease(&amp;pLayer);
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

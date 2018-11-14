@@ -9,8 +9,8 @@ ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: 

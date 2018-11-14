@@ -9,8 +9,8 @@ ms.assetid: 97468045-faa5-4690-8db5-50ee9656517b
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery, ncd.ifunctiondiscoveryproviderquery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

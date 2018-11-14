@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- credentialprovider.h
+: 
+- ICredentialProviderCredential.GetSerialization
+: 
 ---
 
 # ICredentialProviderCredential::GetSerialization
@@ -60,14 +68,14 @@ Called in response to an attempt to submit this credential to the underlying aut
 
 ### -param pcpgsr [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762491(v=VS.85).aspx">CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/73615129-62f2-4bc9-acf6-058a6641f4e2">CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</a>*</b>
 
 Indicates the success or failure of the attempt to serialize credentials.
 
 
 ### -param pcpcs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/55ff9be3-490d-4f82-92a0-3551ccbcaade">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
 
 A pointer to the credential. Depending on the result, there may be no valid credential.
 
@@ -81,7 +89,7 @@ A pointer to a Unicode string value that will be displayed by the Logon UI after
 
 ### -param pcpsiOptionalStatusIcon [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762492(v=VS.85).aspx">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
 
 A pointer to an icon that will be displayed by the credential after the call to <b>GetSerialization</b> returns. This value can be <b>NULL</b>.
 
@@ -103,7 +111,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is required.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> indicates what the appropriate response would be when the user attempts to submit credentials. The following table indicates how to respond based on the usage scenario.
+The <a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> indicates what the appropriate response would be when the user attempts to submit credentials. The following table indicates how to respond based on the usage scenario.
 
 <table>
 <tr>

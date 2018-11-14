@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurfa
 tech.root: direct2d
 ms.assetid: f8631a0a-e069-4ad3-995f-ac80dce625fe
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateDxgiSurfaceRenderTarget, CreateDxgiSurfaceRenderTarget method [Direct2D], CreateDxgiSurfaceRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDxgiSurfaceRenderTarget method, ID2D1Factory.CreateDxgiSurfaceRenderTarget, ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget), ID2D1Factory::CreateDxgiSurfaceRenderTarget, ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget), d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget, direct2d.ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Factory.CreateDxgiSurfaceRenderTarget
+: 
 ---
 
 # ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)
@@ -115,27 +123,41 @@ When you create a render target and hardware acceleration is available, you allo
 
 The following example obtains a  DXGI surface  (<i>pBackBuffer</i>) from an <a href="http://msdn.microsoft.com/en-us/library/bb174569(VS.85).aspx">IDXGISwapChain</a> and uses it to create a DXGI surface render target.
 
-
-```cpp
-// Get a surface in the swap chain
-hr = m_pSwapChain->GetBuffer(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get a surface in the swap chain
+hr = m_pSwapChain-&gt;GetBuffer(
     0,
-    IID_PPV_ARGS(&pBackBuffer)
+    IID_PPV_ARGS(&amp;pBackBuffer)
     );
-
-```
-
-```cpp
-    if (SUCCEEDED(hr))
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    if (SUCCEEDED(hr))
     {
-
-```
-
-```cpp
-        // Create the DXGI Surface Render Target.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        // Create the DXGI Surface Render Target.
         FLOAT dpiX;
         FLOAT dpiY;
-        m_pD2DFactory->GetDesktopDpi(&dpiX, &dpiY);
+        m_pD2DFactory-&gt;GetDesktopDpi(&amp;dpiX, &amp;dpiY);
 
         D2D1_RENDER_TARGET_PROPERTIES props =
             D2D1::RenderTargetProperties(
@@ -146,21 +168,26 @@ hr = m_pSwapChain->GetBuffer(
                 );
 
         // Create a Direct2D render target which can draw into the surface in the swap chain
-
-```
-
-```cpp
-        hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        hr = m_pD2DFactory-&gt;CreateDxgiSurfaceRenderTarget(
             pBackBuffer,
-            &props,
-            &m_pBackBufferRT
+            &amp;props,
+            &amp;m_pBackBufferRT
             );
 
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

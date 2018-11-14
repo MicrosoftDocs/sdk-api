@@ -9,8 +9,8 @@ ms.assetid: 3774c868-c312-4e7c-aa57-cdb13000a87c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: OLEWHICHMK, OLEWHICHMK enumeration [COM], OLEWHICHMK_CONTAINER, OLEWHICHMK_OBJFULL, OLEWHICHMK_OBJREL, _ole_OLEWHICHMK, com.olewhichmk, oleidl/OLEWHICHMK, oleidl/OLEWHICHMK_CONTAINER, oleidl/OLEWHICHMK_OBJFULL, oleidl/OLEWHICHMK_OBJREL, tagOLEWHICHMK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

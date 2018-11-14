@@ -4,10 +4,10 @@ title: AddMandatoryAce function
 author: windows-sdk-content
 description: Adds a SYSTEM_MANDATORY_LABEL_ACE access control entry (ACE) to the specified system access control list (SACL).
 old-location: security\addmandatoryace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 22c8f384-fdb7-4d5a-8854-d9fd25cd351e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ACL_REVISION, ACL_REVISION_DS, AddMandatoryAce, AddMandatoryAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, security.addmandatoryace, securitybaseapi/AddMandatoryAce, winbase/AddMandatoryAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddMandatoryAce
+: 
 ---
 
 # AddMandatoryAce function

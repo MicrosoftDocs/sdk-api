@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawCurve
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -111,9 +119,13 @@ A segment is defined as a curve that connects two consecutive points in the card
 
 The following example draws a cardinal spline.
 
-
-```cpp
-VOID Example_DrawCurve4(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawCurve4(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -133,18 +145,18 @@ VOID Example_DrawCurve4(HDC hdc)
    PointF* pcurvePoints = curvePoints;
 
    // Draw the curve.
-   graphics.DrawCurve(&greenPen, curvePoints, 4);
+   graphics.DrawCurve(&amp;greenPen, curvePoints, 4);
 
    //Draw the points in the curve.
    SolidBrush redBrush(Color::Red);
-   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

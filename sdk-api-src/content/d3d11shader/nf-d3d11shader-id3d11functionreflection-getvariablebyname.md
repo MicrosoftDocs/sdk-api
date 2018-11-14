@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11shader.h
+: 
+- ID3D11FunctionReflection.GetVariableByName
+: 
 ---
 
 # ID3D11FunctionReflection::GetVariableByName
@@ -60,7 +68,7 @@ Gets a variable by name.
 
 ### -param Name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
 A pointer to a string containing the variable name.
 
@@ -69,9 +77,9 @@ A pointer to a string containing the variable name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476607(v=VS.85).aspx">ID3D11ShaderReflectionVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4422a51f-b190-4df0-a1bb-a8ee2cc66da2">ID3D11ShaderReflectionVariable</a>*</b>
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Ff476607(v=VS.85).aspx">ID3D11ShaderReflectionVariable Interface</a> interface.
+Returns a <a href="https://msdn.microsoft.com/4422a51f-b190-4df0-a1bb-a8ee2cc66da2">ID3D11ShaderReflectionVariable Interface</a> interface.
           
 
 
@@ -82,7 +90,7 @@ Returns a <a href="https://msdn.microsoft.com/en-us/library/Ff476607(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280546(v=VS.85).aspx">ID3D11FunctionReflection</a>
+<a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4">ID3D11FunctionReflection</a>
  
 
  

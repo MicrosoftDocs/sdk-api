@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmProviderContextAdd1
+: 
 ---
 
 # FwpmProviderContextAdd1 function

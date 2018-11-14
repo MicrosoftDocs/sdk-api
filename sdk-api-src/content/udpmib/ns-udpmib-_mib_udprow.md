@@ -9,8 +9,8 @@ ms.assetid: db366802-962f-4e83-838e-1e2f51beab92
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDPROW, MIB_UDPROW, MIB_UDPROW structure [MIB], PMIB_UDPROW, PMIB_UDPROW structure pointer [MIB], _MIB_UDPROW, _mpr_mib_udprow, iprtrmib/MIB_UDPROW, iprtrmib/PMIB_UDPROW, mib.mib_udprow, rras.mib_udprow, udpmib/MIB_UDPROW, udpmib/PMIB_UDPROW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
@@ -77,7 +77,7 @@ The port number of the UDP endpoint on the local computer. This member is stored
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>function retrieves the IPv4 UDP listener table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/83608d38-e352-483a-b284-2f9cb444e64f">MIB_UDPTABLE</a> structure. 
+The <a href="_iphlp_getudptable">GetUdpTable</a>function retrieves the IPv4 UDP listener table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/83608d38-e352-483a-b284-2f9cb444e64f">MIB_UDPTABLE</a> structure. 
 
 An array of <b>MIB_UDPROW</b> structures are contained in the <b>MIB_UDPTABLE</b> structure.  
 
@@ -106,7 +106,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>
+<a href="_iphlp_getudptable">GetUdpTable</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 50aa04b4-9a04-4d0d-a558-42595a69aef7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], IMediaEventSink interface [DirectShow],described, IMediaEventSinkInterface, dshow.imediaeventsink, strmif/IMediaEventSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

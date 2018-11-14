@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IBPCSatelliteTuner.get_DefaultSubChannelTypes
+: 
 ---
 
 # IBPCSatelliteTuner::get_DefaultSubChannelTypes

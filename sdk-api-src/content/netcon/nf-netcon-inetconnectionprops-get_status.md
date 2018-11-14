@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- INetConnectionProps.get_Status
+: 
 ---
 
 # INetConnectionProps::get_Status

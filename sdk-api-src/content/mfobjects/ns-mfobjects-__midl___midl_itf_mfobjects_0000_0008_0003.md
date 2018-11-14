@@ -9,8 +9,8 @@ ms.assetid: 1d26b9ee-545a-4e47-9a68-b9e567f0dec4
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 1d26b9ee-545a-4e47-9a68-b9e567f0dec4, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO structure [Media Foundation], _MFT_REGISTER_TYPE_INFO, __MIDL___MIDL_itf_mfobjects_0000_0008_0003, mf.mft_register_type_info, mfobjects/MFT_REGISTER_TYPE_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidClosedCaptioning.put_Enable
+: 
 ---
 
 # IMSVidClosedCaptioning::put_Enable

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationTransformPattern2.ZoomByUnit
+: 
 ---
 
 # IUIAutomationTransformPattern2::ZoomByUnit

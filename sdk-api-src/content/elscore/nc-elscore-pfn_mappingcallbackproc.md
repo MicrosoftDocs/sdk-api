@@ -9,8 +9,8 @@ ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Internationalization for Windows Applications], PFN_MAPPINGCALLBACKPROC, PFN_MAPPINGCALLBACKPROC callback, elscore/MappingCallbackProc, intl.mappingcallbackproc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: elscore.h
 req.include-header: 

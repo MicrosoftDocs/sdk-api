@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsExtractRecordsFromMessage_UTF8
+: 
 ---
 
 # DnsExtractRecordsFromMessage_UTF8 function

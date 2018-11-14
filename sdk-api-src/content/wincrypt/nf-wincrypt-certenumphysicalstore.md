@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertEnumPhysicalStore
+: 
 ---
 
 # CertEnumPhysicalStore function
@@ -156,7 +162,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

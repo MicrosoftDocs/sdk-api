@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RpcServerUseAllProtseqs
+: 
 ---
 
 # RpcServerUseAllProtseqs function
@@ -155,13 +161,13 @@ For each protocol sequence registered by a server, the RPC run-time library crea
 <a href="https://msdn.microsoft.com/">ncacn_nb_ipx</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/">ncadg_mq</a>
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/3165e4f6-8869-4eff-af65-53e85f78a949">ncacn_at_dsp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
+<a href="https://msdn.microsoft.com/">ncacn_http</a>
 </li>
 </ul>
 </div>

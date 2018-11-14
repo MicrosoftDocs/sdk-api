@@ -9,8 +9,8 @@ ms.assetid: 9b0155ce-f313-43fa-8605-650aa8f38587
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IADsComputerOperations interface [ADSI],described, _ds_iadscomputeroperations, adsi.iadscomputeroperations, iads/IADsComputerOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -55,7 +55,7 @@ The <b>IADsComputerOperations</b> interface is a dual interface that inherits fr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsComputerOperations</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsComputerOperations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsComputerOperations</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsComputerOperations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -270,7 +270,7 @@ Gets the ADsPath string to the schema class object for this object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

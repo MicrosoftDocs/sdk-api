@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomation5.AddNotificationEventHandler
+: 
 ---
 
 # IUIAutomation5::AddNotificationEventHandler

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_GetColumnOrderArray
+: 
 ---
 
 # ListView_GetColumnOrderArray macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774913(v=VS.85).aspx">LVM_GETCOLUMNORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/d4636aa8-c61e-4467-abc7-eea897bf370e">LVM_GETCOLUMNORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Gets the current left-to-right order of columns in a list-view control. You can 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 

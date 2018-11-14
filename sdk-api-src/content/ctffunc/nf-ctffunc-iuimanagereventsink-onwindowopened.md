@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- IUIManagerEventSink.OnWindowOpened
+: 
 ---
 
 # IUIManagerEventSink::OnWindowOpened
@@ -77,7 +85,7 @@ Ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn495081(v=VS.85).aspx">IUIManagerEventSink</a>
+<a href="https://msdn.microsoft.com/A514833B-BC60-4D87-B2C6-849003E4EA63">IUIManagerEventSink</a>
  
 
  

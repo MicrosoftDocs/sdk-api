@@ -9,8 +9,8 @@ ms.assetid: 4D104C4E-18EE-418F-8D99-3E766A5478F6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API],described, mediastreaming.itransportparameters, windows/ITransportParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 

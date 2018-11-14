@@ -9,8 +9,8 @@ ms.assetid: 7f1b8a5b-389b-4276-a49d-94a39be3c35c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], INetDiagHelper interface [NDF],described, ndf.inetdiaghelper, ndhelper/INetDiagHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ndhelper.h
 req.include-header: 

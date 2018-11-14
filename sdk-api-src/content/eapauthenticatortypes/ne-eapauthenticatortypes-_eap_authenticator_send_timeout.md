@@ -7,10 +7,10 @@ old-location: eaphost\eap_authenticator_send_timeout.htm
 tech.root: eaphost
 ms.assetid: 56c3da89-eaa8-4ea9-a912-3e15d713ba45
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EAP_AUTHENTICATOR_SEND_TIMEOUT, EAP_AUTHENTICATOR_SEND_TIMEOUT enumeration [EAPHost], EAP_AUTHENTICATOR_SEND_TIMEOUT_BASIC, EAP_AUTHENTICATOR_SEND_TIMEOUT_INTERACTIVE, EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE, _EAP_AUTHENTICATOR_SEND_TIMEOUT, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_BASIC, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_INTERACTIVE, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE, eaphost.eap_authenticator_send_timeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eapauthenticatortypes.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 7817A028-031C-49AA-A17A-4364DC0E78D0
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IWinMLRuntimeFactory, IWinMLRuntimeFactory interface, IWinMLRuntimeFactory interface,described, MachineLearning.iwinmlruntimefactory, winml/IWinMLRuntimeFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winml.h
 req.include-header: 

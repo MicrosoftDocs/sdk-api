@@ -7,10 +7,10 @@ old-location: eaphost\eap_cred_expiry_req.htm
 tech.root: eaphost
 ms.assetid: baa2a580-0bfc-450a-9a96-f32d00127fa4
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_REQ structure [EAPHost], EAP_CRED_EXPIRY_RESP, PEAP_CRED_EXPIRY_REQ, PEAP_CRED_EXPIRY_REQ structure pointer [EAPHost], _EAP_CRED_EXPIRY_REQ, eaphost.eap_cred_expiry_req, eaptypes/EAP_CRED_EXPIRY_REQ, eaptypes/PEAP_CRED_EXPIRY_REQ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

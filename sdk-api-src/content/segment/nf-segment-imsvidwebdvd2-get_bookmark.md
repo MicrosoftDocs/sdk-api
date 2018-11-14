@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidWebDVD2.get_Bookmark
+: 
 ---
 
 # IMSVidWebDVD2::get_Bookmark

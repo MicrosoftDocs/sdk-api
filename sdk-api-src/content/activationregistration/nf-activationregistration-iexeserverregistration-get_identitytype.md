@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- activationregistration.h
+: 
+- IExeServerRegistration.get_IdentityType
+: 
 ---
 
 # IExeServerRegistration::get_IdentityType

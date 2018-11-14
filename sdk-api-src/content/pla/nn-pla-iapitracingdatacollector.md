@@ -9,8 +9,8 @@ ms.assetid: 8d600d35-bd2b-44fc-9da4-3c6e50e90b65
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], IApiTracingDataCollector interface [PLA],described, base.iapitracingdatacollector, pla.iapitracingdatacollector, pla/IApiTracingDataCollector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

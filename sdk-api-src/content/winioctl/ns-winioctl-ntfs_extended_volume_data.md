@@ -9,8 +9,8 @@ ms.assetid: 9ca0fe72-162c-4d75-a2f3-e1c7c0b0152a
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PNTFS_EXTENDED_VOLUME_DATA, NTFS_EXTENDED_VOLUME_DATA, NTFS_VOLUME_DATA_BUFFER, NTFS_VOLUME_DATA_BUFFER structure [Files], PNTFS_VOLUME_DATA_BUFFER, PNTFS_VOLUME_DATA_BUFFER structure pointer [Files], _win32_ntfs_volume_data_buffer_str, base.ntfs_volume_data_buffer_str, fs.ntfs_volume_data_buffer_str, winioctl/NTFS_VOLUME_DATA_BUFFER, winioctl/PNTFS_VOLUME_DATA_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

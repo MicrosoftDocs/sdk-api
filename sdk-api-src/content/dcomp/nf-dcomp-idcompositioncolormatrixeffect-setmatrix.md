@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionColorMatrixEffect.SetMatrix
+: 
 ---
 
 # IDCompositionColorMatrixEffect::SetMatrix
@@ -65,7 +73,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/c6f57691-1530-e57a-c1b4-b68b4
 The matrix used by the effect to multiply the RGBA values of the image. The matrix is column major and is applied as shown in the following equation:
           
 
-<img alt="Matrix equation" src="./images/color_matrix_formula.png"/>
+<img alt="Matrix equation" src="images/color_matrix_formula.png"/>
 
 ## -returns
 

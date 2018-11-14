@@ -9,8 +9,8 @@ ms.assetid: dccf53c3-19d9-435b-91b7-98e41bd48e29
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

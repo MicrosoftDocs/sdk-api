@@ -9,8 +9,8 @@ ms.assetid: bb7caedd-cd9e-4b36-b1a1-a457de44afb1
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Media Foundation], _OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, mf.opm_set_acp_and_cgmsa_signaling_parameters, opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

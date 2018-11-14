@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- IRawElementProviderSimple3.GetMetadataValue
+: 
 ---
 
 # IRawElementProviderSimple3::GetMetadataValue
@@ -94,7 +102,7 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt798231(v=VS.85).aspx">IRawElementProviderSimple3</a>
+<a href="winauto.irawelementprovidersimple3">IRawElementProviderSimple3</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], IMFMediaEngineClassFactory interface [Media Foundation],described, mf.imfmediaengineclassfactory, mfmediaengine/IMFMediaEngineClassFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

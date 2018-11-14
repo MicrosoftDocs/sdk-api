@@ -7,7 +7,7 @@ old-location: mscs\restartclusterresource.htm
 tech.root: mscs
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster], RestartClusterResource, RestartClusterResource function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, clusapi/RestartClusterResource, mscs.restartclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,6 +41,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RestartClusterResource
+: 
 ---
 
 # RestartClusterResource function
@@ -81,7 +87,7 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
  
 
  

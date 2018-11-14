@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteRenderingParams3.GetRenderingMode1
+: 
 ---
 
 # IDWriteRenderingParams3::GetRenderingMode1

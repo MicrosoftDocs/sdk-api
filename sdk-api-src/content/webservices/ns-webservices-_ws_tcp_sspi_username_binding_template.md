@@ -9,8 +9,8 @@ ms.assetid: c2d63721-0810-48a5-b1f8-8b1adcba96b8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, webservices/WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, wsw.ws_tcp_sspi_username_binding_template
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

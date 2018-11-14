@@ -9,8 +9,8 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_9usu.htm
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILTERREGION, filter/FILTERREGION, indexsrv.filterregion, tagFILTERREGION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: filter.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Describes the position and extent of a specified portion of text within an object.
 
@@ -89,7 +89,7 @@ The <b>cwcExtent</b> member might specify a number of characters (starting from 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691053(v=VS.85).aspx">IFilter::BindRegion</a>
+<a href="https://msdn.microsoft.com/d4ee07f3-4260-4b33-9ac9-436d17c80f2c">IFilter::BindRegion</a>
  
 
  

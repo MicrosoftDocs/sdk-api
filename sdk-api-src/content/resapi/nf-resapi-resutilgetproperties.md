@@ -7,7 +7,7 @@ old-location: mscs\resutilgetproperties.htm
 tech.root: mscs
 ms.assetid: 6ed03916-660f-4862-b638-900c9b8e4bef
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES, PRESUTIL_GET_PROPERTIES function [Failover Cluster], ResUtilGetProperties, ResUtilGetProperties function [Failover Cluster], _wolf_resutilgetproperties, mscs.resutilgetproperties, resapi/PRESUTIL_GET_PROPERTIES, resapi/ResUtilGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilGetProperties
+: 
 ---
 
 # ResUtilGetProperties function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- webservices.h
+: 
+- WS_STRING_VALUE
+: 
 ---
 
 # WS_STRING_VALUE macro

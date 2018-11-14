@@ -48,6 +48,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll3.get_EnableSMIMECapabilities
+: 
 ---
 
 # ICEnroll3::get_EnableSMIMECapabilities

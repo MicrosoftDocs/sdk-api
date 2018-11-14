@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionVisual3.SetTransform
+: 
 ---
 
 # IDCompositionVisual3::SetTransform(IDCompositionTransform3D)

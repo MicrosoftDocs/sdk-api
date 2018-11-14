@@ -9,8 +9,8 @@ ms.assetid: a463927f-550d-4078-8c0f-35c8742d887a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PRADIUS_EXTENSION_INIT, PRADIUS_EXTENSION_INIT callback, PRADIUS_EXTENSION_INIT callback function [Network Policy Server], RadiusExtensionInit, _ias_radiusextensioninit, authif/PRADIUS_EXTENSION_INIT, ias.radiusextensioninit, nps.IAS_radiusextensioninit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: authif.h
 req.include-header: 

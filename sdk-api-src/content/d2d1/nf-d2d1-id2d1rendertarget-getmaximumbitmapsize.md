@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_getmaximumbitmapsize.htm
 tech.root: direct2d
 ms.assetid: 55953177-4f81-4420-946a-ac03f1669c8f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetMaximumBitmapSize, GetMaximumBitmapSize method [Direct2D], GetMaximumBitmapSize method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetMaximumBitmapSize method, ID2D1RenderTarget.GetMaximumBitmapSize, ID2D1RenderTarget::GetMaximumBitmapSize, d2d1/ID2D1RenderTarget::GetMaximumBitmapSize, direct2d.id2d1rendertarget_getmaximumbitmapsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1RenderTarget.GetMaximumBitmapSize
+: 
 ---
 
 # ID2D1RenderTarget::GetMaximumBitmapSize

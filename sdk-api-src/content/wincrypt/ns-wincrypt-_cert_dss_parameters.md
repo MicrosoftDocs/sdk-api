@@ -9,8 +9,8 @@ ms.assetid: 4544986a-8168-4d56-be5f-59d318da7c30
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS structure [Security], PCERT_DSS_PARAMETERS, PCERT_DSS_PARAMETERS structure pointer [Security], _CERT_DSS_PARAMETERS, _crypto2_cert_dss_parameters, security.cert_dss_parameters, wincrypt/CERT_DSS_PARAMETERS, wincrypt/PCERT_DSS_PARAMETERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

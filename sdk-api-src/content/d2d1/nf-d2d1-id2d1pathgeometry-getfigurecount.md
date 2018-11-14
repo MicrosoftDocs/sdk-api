@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1PathGeometry_GetFigureCount.htm
 tech.root: direct2d
 ms.assetid: f46d28f6-5f46-45eb-85c9-6d3b21fa2cff
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetFigureCount, GetFigureCount method [Direct2D], GetFigureCount method [Direct2D],ID2D1PathGeometry interface, ID2D1PathGeometry interface [Direct2D],GetFigureCount method, ID2D1PathGeometry.GetFigureCount, ID2D1PathGeometry::GetFigureCount, d2d1/ID2D1PathGeometry::GetFigureCount, direct2d.ID2D1PathGeometry_GetFigureCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1PathGeometry.GetFigureCount
+: 
 ---
 
 # ID2D1PathGeometry::GetFigureCount

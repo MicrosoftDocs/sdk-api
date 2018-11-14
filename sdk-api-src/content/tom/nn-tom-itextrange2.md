@@ -9,8 +9,8 @@ ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], ITextRange2 interface [Windows Controls],described, controls.itextrange2, tom/ITextRange2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ITextRange2</b> interface is derived from <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
+The <b>ITextRange2</b> interface is derived from <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
 
 
 ## -inheritance

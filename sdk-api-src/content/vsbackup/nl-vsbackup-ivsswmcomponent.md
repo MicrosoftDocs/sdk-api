@@ -9,8 +9,8 @@ ms.assetid: 8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssWMComponent, IVssWMComponent interface [VSS], IVssWMComponent interface [VSS],described, _win32_ivsswmcomponent, base.ivsswmcomponent, vsbackup/IVssWMComponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

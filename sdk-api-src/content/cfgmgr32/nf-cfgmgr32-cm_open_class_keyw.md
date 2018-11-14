@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Open_Class_KeyW
+: 
 ---
 
 # CM_Open_Class_KeyW function

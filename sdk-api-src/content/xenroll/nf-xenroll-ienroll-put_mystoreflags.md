@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.put_MyStoreFlags
+: 
 ---
 
 # IEnroll::put_MyStoreFlags

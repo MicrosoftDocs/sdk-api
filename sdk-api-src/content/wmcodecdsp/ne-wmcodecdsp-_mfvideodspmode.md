@@ -9,8 +9,8 @@ ms.assetid: 24A5190B-6839-4CA1-ADBF-CDBF9B47C6AF
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVideoDSPMode_Passthrough, MFVideoDSPMode_Stabilization, _MFVideoDSPMode, mf.mfvideodspmode, wmcodecdsp/MFVideoDSPMode, wmcodecdsp/MFVideoDSPMode_Passthrough, wmcodecdsp/MFVideoDSPMode_Stabilization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmcodecdsp.h
 req.include-header: 

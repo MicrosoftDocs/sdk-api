@@ -9,8 +9,8 @@ ms.assetid: 0668B546-6825-4AD9-85CF-CA238028B2E3
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT, D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT, mf.d3d11_authenticated_query_restricted_shared_resource_process_output
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: c2aa8f29-afec-474f-8ee5-55285f06ddff
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRawElementProviderHwndOverride, IRawElementProviderHwndOverride interface [Windows Accessibility], IRawElementProviderHwndOverride interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderHwndOverride, uiauto_IRawElementProviderHwndOverride, uiautomationcore/IRawElementProviderHwndOverride, winauto.uiauto_IRawElementProviderHwndOverride
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

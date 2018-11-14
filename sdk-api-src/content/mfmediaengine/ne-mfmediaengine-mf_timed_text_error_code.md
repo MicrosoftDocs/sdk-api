@@ -9,8 +9,8 @@ ms.assetid: D59B2063-5632-4115-BA8C-503181B5DF08
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MF_TIMED_TEXT_ERROR_CODE, MF_TIMED_TEXT_ERROR_CODE enumeration [Media Foundation], MF_TIMED_TEXT_ERROR_CODE_DATA_FORMAT, MF_TIMED_TEXT_ERROR_CODE_FATAL, MF_TIMED_TEXT_ERROR_CODE_INTERNAL, MF_TIMED_TEXT_ERROR_CODE_NETWORK, MF_TIMED_TEXT_ERROR_CODE_NOERROR, mf.mf_timed_text_error_code, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_DATA_FORMAT, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_FATAL, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_INTERNAL, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_NETWORK, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_NOERROR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

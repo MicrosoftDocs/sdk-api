@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IServicePool.Initialize
+: 
 ---
 
 # IServicePool::Initialize
@@ -108,7 +116,7 @@ The method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688466(v=VS.85).aspx">IServicePool</a>
+<a href="https://msdn.microsoft.com/fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2">IServicePool</a>
  
 
  

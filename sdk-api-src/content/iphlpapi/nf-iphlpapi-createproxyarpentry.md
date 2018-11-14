@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateProxyArpEntry
+: 
 ---
 
 # CreateProxyArpEntry function
@@ -173,7 +179,7 @@ On Windows Vista and later, the <b>CreateProxyArpEnry</b> function can only be 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366886(v=VS.85).aspx">MIB_PROXYARP</a>
+<a href="_mpr_mib_proxyarp">MIB_PROXYARP</a>
  
 
  

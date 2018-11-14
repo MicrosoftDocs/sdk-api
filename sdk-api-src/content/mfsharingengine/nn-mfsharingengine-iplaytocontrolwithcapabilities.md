@@ -9,8 +9,8 @@ ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IPlayToControlWithCapabilities, IPlayToControlWithCapabilities interface [Media Foundation], IPlayToControlWithCapabilities interface [Media Foundation],described, mf.iplaytocontrolwithcapabilities, mfsharingengine/IPlayToControlWithCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 

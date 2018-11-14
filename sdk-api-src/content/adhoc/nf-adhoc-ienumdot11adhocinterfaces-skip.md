@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- adhoc.h
+: 
+- IEnumDot11AdHocInterfaces.Skip
+: 
 ---
 
 # IEnumDot11AdHocInterfaces::Skip

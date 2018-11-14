@@ -9,8 +9,8 @@ ms.assetid: DAE4705C-B786-44D4-8B03-1523EFC4C190
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IInputPaneInterop, IInputPaneInterop interface [Windows Runtime], IInputPaneInterop interface [Windows Runtime],described, inputpaneinterop/IInputPaneInterop, winrt.iinputpaneinterop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: inputpaneinterop.h
 req.include-header: 
@@ -150,7 +150,7 @@ For store apps, use the <a href="https://msdn.microsoft.com/7eda6937-7ee7-430a-b
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh551827(v=VS.105).aspx">WindowsRuntimeMarshal.GetActivationFactory</a>
+<a href="M:System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.GetActivationFactory(System.Type)">WindowsRuntimeMarshal.GetActivationFactory</a>
  
 
  

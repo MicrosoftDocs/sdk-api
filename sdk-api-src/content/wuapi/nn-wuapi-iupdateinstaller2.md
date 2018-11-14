@@ -9,8 +9,8 @@ ms.assetid: 89edc91d-59a1-4e23-9adb-fc3027e2e898
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IUpdateInstaller2, IUpdateInstaller2 interface [Windows Update Agent], IUpdateInstaller2 interface [Windows Update Agent],described, wua.iupdateinstaller2, wuapi/IUpdateInstaller2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

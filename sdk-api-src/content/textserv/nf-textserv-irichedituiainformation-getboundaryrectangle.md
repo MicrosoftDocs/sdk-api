@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- IRichEditUiaInformation.GetBoundaryRectangle
+: 
 ---
 
 # IRichEditUiaInformation::GetBoundaryRectangle
@@ -88,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://msdn.microsoft.com/89C4DF55-F889-4ED6-8812-E2244A9F7BB8">IRichEditUiaInformation</a>
  
 
  

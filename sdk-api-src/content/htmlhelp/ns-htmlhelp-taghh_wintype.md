@@ -9,8 +9,8 @@ ms.assetid: VS|htmlhelp|~\html\vsconstrhhwintype.htm
 ms.author: windowssdkdev
 ms.date: 10/22/2018
 ms.keywords: "*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop], htmlhelp.hh_wintype_structure, htmlhelp/HH_WINTYPE, tagHH_WINTYPE, vsconStrhhwintype"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Use this structure to specify or modify the attributes of a <a href="https://msdn.microsoft.com/en-us/library/ms644703(v=VS.85).aspx">window type</a>. 
+Use this structure to specify or modify the attributes of a <a href="https://msdn.microsoft.com/4A4AA861-03C6-4c7b-93DB-A10B84F64CC0">window type</a>. 
 
 
 ## -struct-fields
@@ -118,7 +118,7 @@ Specifies the handle of the window if the window has been created.
 
 ### -field hwndCaller
 
-Specifies the window that will receive HTML Help notification messages. <a href="https://msdn.microsoft.com/en-us/library/ms524237(v=VS.85).aspx">Notification messages</a> are sent via Windows <b>WM_NOTIFY</b> messages. 
+Specifies the window that will receive HTML Help notification messages. <a href="https://msdn.microsoft.com/C2A026AF-C759-4c72-8B7F-3848368E9AA6">Notification messages</a> are sent via Windows <b>WM_NOTIFY</b> messages. 
 
 
 ### -field paInfoTypes
@@ -257,10 +257,10 @@ When a <b>HH_WINTYPE</b> structure is passed to <b>HtmlHelp()</b> using the <b>H
 <h3><a id="Used_by"></a><a id="used_by"></a><a id="USED_BY"></a>Used by</h3>
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms670093(v=VS.85).aspx">HH_SET_WIN_TYPE</a>
+<a href="https://msdn.microsoft.com/49992165-6B8F-4014-858B-53B0041907D7">HH_SET_WIN_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms670087(v=VS.85).aspx">HH_GET_WIN_TYPE</a>
+<a href="https://msdn.microsoft.com/18F5020C-7AD0-4e4f-A241-06F5E7C4EA35">HH_GET_WIN_TYPE</a>
 </li>
 </ul>
 
@@ -271,7 +271,7 @@ When a <b>HH_WINTYPE</b> structure is passed to <b>HtmlHelp()</b> using the <b>H
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
+<a href="https://msdn.microsoft.com/E75CA82E-9759-47d8-AF84-5842EDAB019D">About Structures</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.Clone
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -52,7 +60,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Region::Clone</b> method makes a copy of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object and returns the address of the new 
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object and returns the address of the new 
 			<b>Region</b>object.
 
 
@@ -67,11 +75,11 @@ The <b>Region::Clone</b> method makes a copy of this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object.
+						<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object.
 
 
 

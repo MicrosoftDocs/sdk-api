@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- dpa_dsa.h
+: 
+- DSA_GetItemCount
+: 
 ---
 
 # DSA_GetItemCount macro

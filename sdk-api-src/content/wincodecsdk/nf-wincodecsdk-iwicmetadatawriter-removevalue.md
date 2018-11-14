@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodecsdk.h
+: 
+- IWICMetadataWriter.RemoveValue
+: 
 ---
 
 # IWICMetadataWriter::RemoveValue
@@ -60,14 +68,14 @@ Removes the metadata item that matches the given parameters.
 
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata schema property.
 
 
 ### -param pvarId [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata id property.
 

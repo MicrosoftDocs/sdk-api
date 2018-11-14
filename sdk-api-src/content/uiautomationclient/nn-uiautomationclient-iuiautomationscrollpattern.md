@@ -9,8 +9,8 @@ ms.assetid: cb62389c-5a7a-412d-a024-0ce9bc6403a2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], IUIAutomationScrollPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationScrollPattern, uiauto_IUIAutomationScrollPattern, uiautomationclient/IUIAutomationScrollPattern, winauto.uiauto_IUIAutomationScrollPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

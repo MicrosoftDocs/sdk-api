@@ -9,8 +9,8 @@ ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], ITaskNamedValueCollection interface [Task Scheduler],described, taskschd.itasknamedvaluecollection, taskschd/ITaskNamedValueCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -55,7 +55,7 @@ Contains a collection of <a href="https://msdn.microsoft.com/b9d186a3-017d-409e-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskNamedValueCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITaskNamedValueCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskNamedValueCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITaskNamedValueCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

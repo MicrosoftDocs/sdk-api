@@ -9,8 +9,8 @@ ms.assetid: 5281ae0f-8599-4f84-a3f3-cde8c69e893d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation],described, locationapi/ILocationEvents, winlocation.ilocationevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

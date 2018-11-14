@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfSystemDeviceTypeLangBarItem.GetIconMode
+: 
 ---
 
 # ITfSystemDeviceTypeLangBarItem::GetIconMode
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pdwFlags [out]
 
-Pointer to a <b>DWORD</b> that receives the current icon display mode for a system language bar item. For more information about possible values, see the dwFlags parameter in <a href="https://msdn.microsoft.com/en-us/library/ms628955(v=VS.85).aspx">ITfSystemDeviceTypeLangBarItem::SetIconMode</a>.
+Pointer to a <b>DWORD</b> that receives the current icon display mode for a system language bar item. For more information about possible values, see the dwFlags parameter in <a href="https://msdn.microsoft.com/25124539-4bf9-4299-b441-9a5fac18b60d">ITfSystemDeviceTypeLangBarItem::SetIconMode</a>.
 
 
 ## -returns
@@ -106,7 +114,7 @@ The system language bar item does not support this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628953(v=VS.85).aspx">ITfSystemDeviceTypeLangBarItem</a>
+<a href="https://msdn.microsoft.com/0dc32f10-eecd-4203-992c-80eb0f991615">ITfSystemDeviceTypeLangBarItem</a>
 
 
 

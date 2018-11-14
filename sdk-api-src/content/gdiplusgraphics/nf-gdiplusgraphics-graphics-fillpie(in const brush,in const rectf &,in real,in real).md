@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.FillPie
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -116,9 +124,13 @@ A pie is a portion of the interior of an ellipse (it is bounded by an elliptical
 
 The following example defines a pie and then fills it.
 
-
-```cpp
-VOID Example_FillPie2(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_FillPie2(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -131,11 +143,11 @@ VOID Example_FillPie2(HDC hdc)
    REAL sweepAngle = 45.8;
 
    // Fill the pie.
-   graphics.FillPie(&blackBrush, ellipseRect, startAngle, sweepAngle);
-}
-```
-
-
+   graphics.FillPie(&amp;blackBrush, ellipseRect, startAngle, sweepAngle);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

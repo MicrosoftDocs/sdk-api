@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_1.h
+: 
+- ID3D11DeviceContext1.SwapDeviceContextState
+: 
 ---
 
 # ID3D11DeviceContext1::SwapDeviceContextState
@@ -61,7 +69,7 @@ Activates the given context state object and changes the current device behavior
 
 ### -param pState [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a> interface for the context state object that was previously created through the <a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a> method. If <b>SwapDeviceContextState</b> is called with <i>pState</i> set to <b>NULL</b>, the call has no effect.
+A pointer to the <a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a> interface for the context state object that was previously created through the <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a> method. If <b>SwapDeviceContextState</b> is called with <i>pState</i> set to <b>NULL</b>, the call has no effect.
 
 
 ### -param ppPreviousState [out, optional]
@@ -82,30 +90,30 @@ Returns nothing.
 
 
 
-<b>SwapDeviceContextState</b> changes device behavior. This device behavior depends on the emulated interface that you passed to the <i>EmulatedInterface</i> parameter of the  <a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a> method when you created the context state object. 
+<b>SwapDeviceContextState</b> changes device behavior. This device behavior depends on the emulated interface that you passed to the <i>EmulatedInterface</i> parameter of the  <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a> method when you created the context state object. 
 
 <b>SwapDeviceContextState</b> is not supported on a deferred context.
 
-<b>SwapDeviceContextState</b> disables the incompatible device interfaces <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>. When a context state object is active, the runtime disables certain methods on the device and context interfaces. A context state object that is created with <code>__uuidof(ID3D11Device1)</code> or <code>__uuidof(ID3D11Device)</code> turns off most of the Direct3D 10 device interfaces. A context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> turns off most of the <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> methods.
-For more information about this behavior, see <a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a>.
+<b>SwapDeviceContextState</b> disables the incompatible device interfaces <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>, <a href="https://msdn.microsoft.com/511f710d-f35e-46bf-93e0-47b6ceb5c84d">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>. When a context state object is active, the runtime disables certain methods on the device and context interfaces. A context state object that is created with <code>__uuidof(ID3D11Device1)</code> or <code>__uuidof(ID3D11Device)</code> turns off most of the Direct3D 10 device interfaces. A context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> turns off most of the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> methods.
+For more information about this behavior, see <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a>.
 
 <b>SwapDeviceContextState</b> activates the context state object specified by <i>pState</i>. This means that the device behaviors that are associated with the context state object's feature level and compatible interface are activated on the Direct3D device until the next call to <b>SwapDeviceContextState</b>. In addition, any state that was saved when this context state object was last active is now reactivated, so that the previous state is replaced.
 
 <b>SwapDeviceContextState</b> sets <i>ppPreviousState</i> to the most recently activated context state object. The object allows the caller to save and then later restore the previous device state. This behavior is useful in a plug-in architecture such as Direct2D that shares a Direct3D device with its plug-ins. A Direct2D interface can use context state objects to save and restore the application's state.
 
-If the caller did not previously call the <a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a> method to create a previous context state object, <b>SwapDeviceContextState</b> sets <i>ppPreviousState</i> to the default context state object. In either case, usage of <b>SwapDeviceContextState</b> is the same.
+If the caller did not previously call the <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a> method to create a previous context state object, <b>SwapDeviceContextState</b> sets <i>ppPreviousState</i> to the default context state object. In either case, usage of <b>SwapDeviceContextState</b> is the same.
 
-The feature level that is specified by the application, and that is chosen by the context state object from the acceptable list that the application supplies to <a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a>, controls the feature level of the immediate context whenever the context state object is active. Because the Direct3D 11 device is free-threaded, the device methods cannot query the current immediate context feature level. Instead, the device runs at a feature level that is the maximum of all previously created context state objects' feature levels. This means that the device's feature level can increase dynamically.
+The feature level that is specified by the application, and that is chosen by the context state object from the acceptable list that the application supplies to <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a>, controls the feature level of the immediate context whenever the context state object is active. Because the Direct3D 11 device is free-threaded, the device methods cannot query the current immediate context feature level. Instead, the device runs at a feature level that is the maximum of all previously created context state objects' feature levels. This means that the device's feature level can increase dynamically.
 
 The feature level of the context state object controls the functionality available from the immediate context. However, to maintain the free-threaded contract of the Direct3D 11 device methods—the resource-creation methods in particular—the upper-bound feature level of all created context state objects controls the set of resources that the device creates.
 
-Because the context state object interface is published by the immediate context, the interface requires the same threading model as the immediate context. Specifically, <b>SwapDeviceContextState</b> is single-threaded with respect to the other immediate context methods and with respect to the equivalent methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>.
+Because the context state object interface is published by the immediate context, the interface requires the same threading model as the immediate context. Specifically, <b>SwapDeviceContextState</b> is single-threaded with respect to the other immediate context methods and with respect to the equivalent methods of <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>.
 
 Crucially, because only one of the Direct3D 10 or Direct3D 11 ref-count behaviors can be available at a time, one of the Direct3D 10 and Direct3D 11 interfaces must break its ref-count contract. To avoid this situation, the activation of a context state object turns off the incompatible version interface. Also, if you call a method of an incompatible version interface, the call silently fails if the method has  return type <b>void</b>, returns an <b>HRESULT</b> value of <b>E_INVALIDARG</b>, or sets any out parameter to <b>NULL</b>.
 
 When you switch from Direct3D 11 mode to either Direct3D 10 mode or Direct3D 10.1 mode, the binding behavior of the device changes. Specifically, the final release of a resource induces unbind in Direct3D 10 mode or Direct3D 10.1 mode. During final release an application releases all of the resource's references, including indirect references such as the linkage from view to resource, and the linkage from context state object to any of the context state object's bound resources. Any bound resource to which the application has no reference is unbound and destroyed, in order to maintain the Direct3D 10 behavior.
 
-<b>SwapDeviceContextState</b> does not affect any state that <a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a> sets. 
+<b>SwapDeviceContextState</b> does not affect any state that <a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a> sets. 
 
 Command lists that are generated by deferred contexts do not hold a reference to context state objects and are not affected by future updates to context state objects.
 
@@ -119,7 +127,7 @@ No asynchronous objects are affected by <b>SwapDeviceContextState</b>. For examp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
  
 
  

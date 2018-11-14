@@ -9,8 +9,8 @@ ms.assetid: 69b831a1-c935-4de0-b222-009bafc45ec5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmFileScreen, IFsrmFileScreen interface [File Server Resource Manager], IFsrmFileScreen interface [File Server Resource Manager],described, fs.ifsrmfilescreen, fsrm.ifsrmfilescreen, fsrmscreen/IFsrmFileScreen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: 

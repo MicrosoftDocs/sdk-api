@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InterlockedOr16
+: 
 ---
 
 # InterlockedOr16 function
@@ -83,7 +89,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://msdn.microsoft.com/library/b11125ze(v=VS.85).aspx">_InterlockedOr16</a> compiler intrinsic directly.
+For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="5f265240-7af8-44b7-b952-19f3a9c56186">_InterlockedOr16</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

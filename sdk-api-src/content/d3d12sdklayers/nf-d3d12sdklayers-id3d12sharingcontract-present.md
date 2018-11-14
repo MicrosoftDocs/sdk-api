@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12sharingcontract_present.htm
 tech.root: direct3d12
 ms.assetid: 878442E3-417A-46CE-B91A-698CA3CA60BE
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12SharingContract interface,Present method, ID3D12SharingContract.Present, ID3D12SharingContract::Present, Present, Present method, Present method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::Present, direct3d12.id3d12sharingcontract_present
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12sdklayers.h
+: 
+- ID3D12SharingContract.Present
+: 
 ---
 
 # ID3D12SharingContract::Present
@@ -60,14 +68,14 @@ Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 
 ### -param pResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
 A pointer to the resource to share.
 
 
 ### -param Subresource
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 An unsigned 32bit subresource id.
 
@@ -93,7 +101,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt813616(v=VS.85).aspx">ID3D12SharingContract</a>
+<a href="https://msdn.microsoft.com/10E61C88-0CDC-42E6-AB70-4911D254C40A">ID3D12SharingContract</a>
  
 
  

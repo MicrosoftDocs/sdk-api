@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDVBTLocator2.get_PhysicalLayerPipeId
+: 
 ---
 
 # IDVBTLocator2::get_PhysicalLayerPipeId

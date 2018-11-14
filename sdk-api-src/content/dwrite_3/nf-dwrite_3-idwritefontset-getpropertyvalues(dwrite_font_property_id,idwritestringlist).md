@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontSet.GetPropertyValues
+: 
 ---
 
 # IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID,IDWriteStringList)

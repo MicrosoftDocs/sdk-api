@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IComApp2Events.OnAppPaused2
+: 
 ---
 
 # IComApp2Events::OnAppPaused2

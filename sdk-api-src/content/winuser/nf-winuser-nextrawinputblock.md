@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- NEXTRAWINPUTBLOCK
+: 
 ---
 
 # NEXTRAWINPUTBLOCK macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the location of the next structure in an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures. 
+Retrieves the location of the next structure in an array of <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structures. 
 
 
 ## -parameters
@@ -60,14 +68,14 @@ Retrieves the location of the next structure in an array of <a href="https://msd
 
 ### -param ptr
 
-A pointer to a structure in an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures. 
+A pointer to a structure in an array of <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structures. 
 
 
 ## -remarks
 
 
 
-This macro is called repeatedly to traverse an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures.
+This macro is called repeatedly to traverse an array of <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structures.
 
 
 
@@ -81,11 +89,11 @@ This macro is called repeatedly to traverse an array of <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 

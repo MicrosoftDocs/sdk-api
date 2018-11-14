@@ -9,8 +9,8 @@ ms.assetid: 5FE605A9-DE92-4CD9-9390-6C9F5189A7CB
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CWMO_DEFAULT, CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CWMO_FLAGS, CWMO_FLAGS enumeration [COM], com.cwmo_flags, combaseapi/CWMO_DEFAULT, combaseapi/CWMO_DISPATCH_CALLS, combaseapi/CWMO_DISPATCH_WINDOW_MESSAGE, combaseapi/CWMO_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides flags for the <a href="https://msdn.microsoft.com/en-us/library/Hh404144(v=VS.85).aspx">CoWaitForMultipleObjects</a> function.
+Provides flags for the <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F">CoWaitForMultipleObjects</a> function.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ No call dispatch.
 
 ### -field CWMO_DISPATCH_CALLS
 
-Dispatch calls from <a href="https://msdn.microsoft.com/en-us/library/Hh404144(v=VS.85).aspx">CoWaitForMultipleObjects</a> (default is no call dispatch).
+Dispatch calls from <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F">CoWaitForMultipleObjects</a> (default is no call dispatch).
 
 
 ### -field CWMO_DISPATCH_WINDOW_MESSAGES
@@ -75,5 +75,5 @@ Dispatch calls from <a href="https://msdn.microsoft.com/en-us/library/Hh404144(v
 
 #### - CWMO_DISPATCH_WINDOW_MESSAGE
 
-Enable dispatch of window messages from <a href="https://msdn.microsoft.com/en-us/library/Hh404144(v=VS.85).aspx">CoWaitForMultipleObjects</a> in a ASTA or STA (default in ASTA is no window messages dispatched, default in STA is only a small set of special-cased messages dispatched). The value has no meaning in MTA and is ignored.
+Enable dispatch of window messages from <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F">CoWaitForMultipleObjects</a> in a ASTA or STA (default in ASTA is no window messages dispatched, default in STA is only a small set of special-cased messages dispatched). The value has no meaning in MTA and is ignored.
 

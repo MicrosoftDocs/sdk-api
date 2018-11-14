@@ -7,10 +7,10 @@ old-location: multimedia\iccompressframes.htm
 tech.root: Multimedia
 ms.assetid: ced9ceea-d3fa-4496-886a-837545a28194
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ICCOMPRESSFRAMES, ICCOMPRESSFRAMES structure [Windows Multimedia], _win32_ICCOMPRESSFRAMES_str, multimedia.iccompressframes, vfw/ICCOMPRESSFRAMES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

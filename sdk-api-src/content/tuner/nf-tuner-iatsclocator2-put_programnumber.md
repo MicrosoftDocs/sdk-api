@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IATSCLocator2.put_ProgramNumber
+: 
 ---
 
 # IATSCLocator2::put_ProgramNumber

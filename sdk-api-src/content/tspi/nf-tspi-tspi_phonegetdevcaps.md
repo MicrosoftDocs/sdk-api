@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_phoneGetDevCaps
+: 
 ---
 
 # TSPI_phoneGetDevCaps function

@@ -9,8 +9,8 @@ ms.assetid: 6d56e39d-3c7a-4c55-8d07-00e25eba18bd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 9ac83c22-f253-449f-b639-b6a07e3c790b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMSearchProperty, GPMSearchProperty enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0000_0003, backupMostRecent, gpmc.gpmsearchproperty, gpmgmt/GPMSearchProperty, gpmgmt/backupMostRecent, gpmgmt/gpoComputerExtensions, gpmgmt/gpoDisplayName, gpmgmt/gpoDomain, gpmgmt/gpoEffectivePermissions, gpmgmt/gpoID, gpmgmt/gpoPermissions, gpmgmt/gpoUserExtensions, gpmgmt/gpoWMIFilter, gpmgmt/somLinks, gpmgmt/starterGPODisplayName, gpmgmt/starterGPODomain, gpmgmt/starterGPOEffectivePermissions, gpmgmt/starterGPOID, gpmgmt/starterGPOPermissions, gpoComputerExtensions, gpoDisplayName, gpoDomain, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter, somLinks, starterGPODisplayName, starterGPODomain, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 

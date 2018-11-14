@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_copybufferregion.htm
 tech.root: direct3d12
 ms.assetid: 46F89B85-EDAA-4095-B6C6-4CC47F972F09
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: CopyBufferRegion, CopyBufferRegion method, CopyBufferRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyBufferRegion method, ID3D12GraphicsCommandList.CopyBufferRegion, ID3D12GraphicsCommandList::CopyBufferRegion, d3d12/ID3D12GraphicsCommandList::CopyBufferRegion, direct3d12.id3d12graphicscommandlist_copybufferregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12GraphicsCommandList.CopyBufferRegion
+: 
 ---
 
 # ID3D12GraphicsCommandList::CopyBufferRegion
@@ -61,9 +69,9 @@ Copies a region of a buffer from one resource to another.
 
 ### -param pDstBuffer [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-Specifies the destination <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>.
+Specifies the destination <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -77,9 +85,9 @@ Specifies a UINT64 offset (in bytes) into the destination resource.
 
 ### -param pSrcBuffer [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-Specifies the source  <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>.
+Specifies the source  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -113,20 +121,24 @@ This method does not return a value.
 
 
 
-Consider using the <a href="https://msdn.microsoft.com/en-us/library/Dn903859(v=VS.85).aspx">CopyResource</a> method when copying an entire resource, and use this method for copying regions of a resource.
+Consider using the <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6C6BFCDFF51F">CopyResource</a> method when copying an entire resource, and use this method for copying regions of a resource.
         
 
-<b>CopyBufferRegion</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/en-us/library/Dn899180(v=VS.85).aspx">CreatePlacedResource</a> for more details.
+<b>CopyBufferRegion</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::CopyBufferRegion</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::CopyBufferRegion</b> as follows:
         
 
-
-```cpp
-inline UINT64 UpdateSubresources(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT64 UpdateSubresources(
     _In_ ID3D12GraphicsCommandList* pCmdList,
     _In_ ID3D12Resource* pDestinationResource,
     _In_ ID3D12Resource* pIntermediate,
@@ -139,54 +151,54 @@ inline UINT64 UpdateSubresources(
     _In_reads_(NumSubresources) const D3D12_SUBRESOURCE_DATA* pSrcData)
 {
     // Minor validation
-    D3D12_RESOURCE_DESC IntermediateDesc = pIntermediate->GetDesc();
-    D3D12_RESOURCE_DESC DestinationDesc = pDestinationResource->GetDesc();
+    D3D12_RESOURCE_DESC IntermediateDesc = pIntermediate-&gt;GetDesc();
+    D3D12_RESOURCE_DESC DestinationDesc = pDestinationResource-&gt;GetDesc();
     if (IntermediateDesc.Dimension != D3D12_RESOURCE_DIMENSION_BUFFER || 
-        IntermediateDesc.Width < RequiredSize + pLayouts[0].Offset || 
-        RequiredSize > (SIZE_T)-1 || 
-        (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER && 
+        IntermediateDesc.Width &lt; RequiredSize + pLayouts[0].Offset || 
+        RequiredSize &gt; (SIZE_T)-1 || 
+        (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER &amp;&amp; 
             (FirstSubresource != 0 || NumSubresources != 1)))
     {
         return 0;
     }
     
     BYTE* pData;
-    HRESULT hr = pIntermediate->Map(0, NULL, reinterpret_cast<void**>(&pData));
+    HRESULT hr = pIntermediate-&gt;Map(0, NULL, reinterpret_cast&lt;void**&gt;(&amp;pData));
     if (FAILED(hr))
     {
         return 0;
     }
     
-    for (UINT i = 0; i < NumSubresources; ++i)
+    for (UINT i = 0; i &lt; NumSubresources; ++i)
     {
-        if (pRowSizesInBytes[i] > (SIZE_T)-1) return 0;
+        if (pRowSizesInBytes[i] &gt; (SIZE_T)-1) return 0;
         D3D12_MEMCPY_DEST DestData = { pData + pLayouts[i].Offset, pLayouts[i].Footprint.RowPitch, pLayouts[i].Footprint.RowPitch * pNumRows[i] };
-        MemcpySubresource(&DestData, &pSrcData[i], (SIZE_T)pRowSizesInBytes[i], pNumRows[i], pLayouts[i].Footprint.Depth);
+        MemcpySubresource(&amp;DestData, &amp;pSrcData[i], (SIZE_T)pRowSizesInBytes[i], pNumRows[i], pLayouts[i].Footprint.Depth);
     }
-    pIntermediate->Unmap(0, NULL);
+    pIntermediate-&gt;Unmap(0, NULL);
     
     if (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER)
     {
         CD3DX12_BOX SrcBox( UINT( pLayouts[0].Offset ), UINT( pLayouts[0].Offset + pLayouts[0].Footprint.Width ) );
-        pCmdList->CopyBufferRegion(
+        pCmdList-&gt;CopyBufferRegion(
             pDestinationResource, 0, pIntermediate, pLayouts[0].Offset, pLayouts[0].Footprint.Width);
     }
     else
     {
-        for (UINT i = 0; i < NumSubresources; ++i)
+        for (UINT i = 0; i &lt; NumSubresources; ++i)
         {
             CD3DX12_TEXTURE_COPY_LOCATION Dst(pDestinationResource, i + FirstSubresource);
             CD3DX12_TEXTURE_COPY_LOCATION Src(pIntermediate, pLayouts[i]);
-            pCmdList->CopyTextureRegion(&Dst, 0, 0, 0, &Src, nullptr);
+            pCmdList-&gt;CopyTextureRegion(&amp;Dst, 0, 0, 0, &amp;Src, nullptr);
         }
     }
     return RequiredSize;
 }
-
-```
-
-
-See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -198,11 +210,11 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903862(v=VS.85).aspx">CopyTextureRegion</a>
+<a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

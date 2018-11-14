@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- prsht.h
+: 
+- PropSheet_PressButton
+: 
 ---
 
 # PropSheet_PressButton macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Simulates the selection of a property sheet button. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774597(v=VS.85).aspx">PSM_PRESSBUTTON</a> message explicitly.
+Simulates the selection of a property sheet button. You can use this macro or send the <a href="https://msdn.microsoft.com/82a55a29-d916-47ee-b0a0-f685a3a386d9">PSM_PRESSBUTTON</a> message explicitly.
 
 
 ## -parameters

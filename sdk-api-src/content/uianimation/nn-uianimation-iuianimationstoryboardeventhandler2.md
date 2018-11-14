@@ -9,8 +9,8 @@ ms.assetid: 2AB8C0C5-2203-4778-BBEA-6D52B727FDDB
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2, IUIAnimationStoryboardEventHandler2 interface [Windows Animation], IUIAnimationStoryboardEventHandler2 interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler2, uianimation/IUIAnimationStoryboardEventHandler2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2fs.h
+: 
+- IFsiFileItem.get_DataSize32BitLow
+: 
 ---
 
 # IFsiFileItem::get_DataSize32BitLow

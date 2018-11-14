@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_SetBkColor
+: 
 ---
 
 # ListView_SetBkColor macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761153(v=VS.85).aspx">LVM_SETBKCOLOR</a> message explicitly. 
+Sets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/d579249d-421d-4e7e-8992-4c7fd7277593">LVM_SETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +68,14 @@ Sets the background color of a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param clrBk
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 The background color to set or the CLR_NONE value for no background color. List-view controls with background colors redraw themselves significantly faster than those without background colors. 
 

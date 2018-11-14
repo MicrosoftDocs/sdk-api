@@ -9,8 +9,8 @@ ms.assetid: 2aba59bf-3cd4-4376-b8c3-bb053ccd5c87
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPWDS_CLI_CRED, *PWDS_CLI_CRED, LPWDS_CLI_CRED, LPWDS_CLI_CRED structure pointer [Windows Deployment Services], PWDS_CLI_CRED, PWDS_CLI_CRED structure pointer [Windows Deployment Services], WDS_CLI_CRED, WDS_CLI_CRED structure [Windows Deployment Services], tagWDS_CLI_CRED, wds.wds_cli_cred, wdsclientapi/LPWDS_CLI_CRED, wdsclientapi/PWDS_CLI_CRED, wdsclientapi/WDS_CLI_CRED"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wdsclientapi.h
 req.include-header: 

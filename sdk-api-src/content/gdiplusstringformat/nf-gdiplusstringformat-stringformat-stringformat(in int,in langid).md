@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.StringFormat
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object based on string format flags and a language.
+Creates a <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object based on string format flags and a language.
 
 
 ## -parameters
@@ -63,7 +71,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).as
 
 Type: <b>INT</b>
 
-Optional. Value that specifies the format flags that control most of the characteristics of the <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object. The flags are set by applying a bitwise 
+Optional. Value that specifies the format flags that control most of the characteristics of the <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object. The flags are set by applying a bitwise 
 					<b>OR</b> to elements of the <a href="https://msdn.microsoft.com/9bbddab0-46b1-49db-86c1-cf9086692958">StringFormatFlags</a> enumeration. The default value is 0 (no flags set). 
 
 
@@ -96,7 +104,7 @@ For a list of the available languages and sublanguages, see Winnt.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 

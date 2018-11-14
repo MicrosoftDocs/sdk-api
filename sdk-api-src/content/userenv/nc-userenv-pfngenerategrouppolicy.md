@@ -9,8 +9,8 @@ ms.assetid: 748b61a1-79fb-44b9-8c9b-0b1746fa981b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, GenerateGroupPolicy, PFNGENERATEGROUPPOLICY, PFNGENERATEGROUPPOLICY callback, PFNGENERATEGROUPPOLICY callback function [Group Policy], _win32_generategrouppolicy, policy.generategrouppolicy, userenv/PFNGENERATEGROUPPOLICY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: userenv.h
 req.include-header: 

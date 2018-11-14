@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ocidl.h
+: 
+- IViewObjectEx.QueryHitPoint
+: 
 ---
 
 # IViewObjectEx::QueryHitPoint
@@ -163,7 +171,7 @@ Transparent objects may wish to implement a complex hit-detection mechanism wher
 An example of non-rectangular and transparent hit detection is a transparent circle control with an object 
      behind it (a line in the example below):
 
-<img alt="" src="./images/a7c7fe0d-f171-4823-ba4c-b51cb90d8733.png"/>
+<img alt="" src="images/a7c7fe0d-f171-4823-ba4c-b51cb90d8733.png"/>
 The values shown are for hit tests against the circle; gray regions are not part of the control, but are shown 
      here to indicate an area around the image considered close. Each object implements its own definition of close 
      but is assisted by a hint provided by the container so that closeness can be adjusted as images zoom larger or 

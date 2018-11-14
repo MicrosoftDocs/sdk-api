@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMStatusMsgCollection.get_Item
+: 
 ---
 
 # IGPMStatusMsgCollection::get_Item

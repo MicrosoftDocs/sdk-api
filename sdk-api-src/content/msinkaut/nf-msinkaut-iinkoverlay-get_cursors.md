@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkOverlay.get_Cursors
+: 
 ---
 
 # IInkOverlay::get_Cursors

@@ -9,8 +9,8 @@ ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IExplorerCommand, IExplorerCommand interface [Windows Shell], IExplorerCommand interface [Windows Shell],described, _shell_IExplorerCommand, shell.IExplorerCommand, shobjidl_core/IExplorerCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

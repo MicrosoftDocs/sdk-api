@@ -9,8 +9,8 @@ ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _WSAMSG, _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Winsock2.h

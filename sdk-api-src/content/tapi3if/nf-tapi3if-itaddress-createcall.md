@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress.CreateCall
+: 
 ---
 
 # ITAddress::CreateCall
@@ -156,8 +164,8 @@ The <i>ppCall</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 When the address type is LINEADDRESSTYPE_SDP, the application should call the 
 <a href="https://msdn.microsoft.com/a3f849ac-bda9-4937-bf3b-bce8df20cbf0">ITSDP::get_IsValid</a> method on <i>pDestAddress</i> to verify that the SDP information contained is properly constructed according to RFC 2327.

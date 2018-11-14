@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodec.h
+: 
+- IWICPixelFormatInfo2.GetNumericRepresentation
+: 
 ---
 
 # IWICPixelFormatInfo2::GetNumericRepresentation

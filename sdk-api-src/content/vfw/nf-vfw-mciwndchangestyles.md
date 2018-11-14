@@ -7,7 +7,7 @@ old-location: multimedia\mciwndchangestyles.htm
 tech.root: Multimedia
 ms.assetid: d87da0b0-4217-421d-a9d5-03602fb2b477
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndChangeStyles, MCIWndChangeStyles macro [Windows Multimedia], _win32_MCIWndChangeStyles, multimedia.mciwndchangestyles, vfw/MCIWndChangeStyles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndChangeStyles
+: 
 ---
 
 # MCIWndChangeStyles macro

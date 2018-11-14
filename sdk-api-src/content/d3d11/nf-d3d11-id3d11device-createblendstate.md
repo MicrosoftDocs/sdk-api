@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11Device.CreateBlendState
+: 
 ---
 
 # ID3D11Device::CreateBlendState
@@ -79,7 +87,7 @@ Address of a pointer to the blend-state object created (see <a href="https://msd
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the blend-state object.
               See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
@@ -108,7 +116,7 @@ An application can create up to 4096 unique blend-state objects. For each object
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarItemBitmapButton.GetText
+: 
 ---
 
 # ITfLangBarItemBitmapButton::GetText
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pbstrText [out]
 
-Pointer to a <b>BSTR</b> value that receives the string for the language bar item. This string must be allocated using the <a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller must free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Pointer to a <b>BSTR</b> value that receives the string for the language bar item. This string must be allocated using the <a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> function. The caller must free this buffer when it is no longer required by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 ## -returns
@@ -117,15 +125,15 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628707(v=VS.85).aspx">ITfLangBarItemBitmapButton</a>
+<a href="https://msdn.microsoft.com/29fcc913-fcc7-4321-918b-2c354dd751ff">ITfLangBarItemBitmapButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

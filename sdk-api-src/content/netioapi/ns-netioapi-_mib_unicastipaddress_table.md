@@ -9,8 +9,8 @@ ms.assetid: b064494c-d0d5-4570-b255-4cc95412fd3a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, _MIB_UNICASTIPADDRESS_TABLE, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

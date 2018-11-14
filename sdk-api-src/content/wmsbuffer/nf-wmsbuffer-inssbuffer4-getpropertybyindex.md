@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsbuffer.h
+: 
+- INSSBuffer4.GetPropertyByIndex
+: 
 ---
 
 # INSSBuffer4::GetPropertyByIndex

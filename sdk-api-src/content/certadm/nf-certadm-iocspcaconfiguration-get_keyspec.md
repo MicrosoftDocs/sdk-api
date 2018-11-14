@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- IOCSPCAConfiguration.get_KeySpec
+: 
 ---
 
 # IOCSPCAConfiguration::get_KeySpec
@@ -51,9 +59,9 @@ req.redist:
 ## -description
 
 
-The <b>KeySpec</b> property gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content. The default implementations of <a href="https://msdn.microsoft.com/en-us/library/Aa386313(v=VS.85).aspx">IOCSPAdmin</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa386330(v=VS.85).aspx">IOCSPCAConfigurationCollection</a> methods set this value.
+The <b>KeySpec</b> property gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content. The default implementations of <a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a> and <a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a> methods set this value.
 
- Possible values are determined by the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) in use.
+ Possible values are determined by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) in use.
 
 This property is read-only.
 
@@ -65,10 +73,10 @@ This property is read-only.
 
 
 
-For the Microsoft Base Cryptographic Provider, the <b>KeySpec</b> property has the value <b>AT_KEYEXCHANGE</b> for <a href="https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx">exchange keys</a> and the value <b>AT_SIGNATURE</b> for signature keys. The default value is <b>AT_SIGNATURE</b>.
+For the Microsoft Base Cryptographic Provider, the <b>KeySpec</b> property has the value <b>AT_KEYEXCHANGE</b> for <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">exchange keys</a> and the value <b>AT_SIGNATURE</b> for signature keys. The default value is <b>AT_SIGNATURE</b>.
 
 For information about the other Microsoft CSPs, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380245(v=VS.85).aspx">Cryptographic Service Providers</a> in the CryptoAPI 2.0 documentation.
+<a href="https://msdn.microsoft.com/4e6eb2df-a917-4533-b9f1-8da39598d0b8">Cryptographic Service Providers</a> in the CryptoAPI 2.0 documentation.
 
 For information about a non-Microsoft CSP, see the documentation provided with that CSP.
 
@@ -80,7 +88,7 @@ For information about a non-Microsoft CSP, see the documentation provided with t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

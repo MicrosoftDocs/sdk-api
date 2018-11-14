@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- natupnp.h
+: 
+- IStaticPortMapping.EditInternalPort
+: 
 ---
 
 # IStaticPortMapping::EditInternalPort

@@ -9,8 +9,8 @@ ms.assetid: 27e56c1a-ce11-4cdb-9be8-25ed2f94fb37
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: "*LPSOCKADDR_STORAGE_XP, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_XP, FAR *LPSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], PSOCKADDR_STORAGE_LH, PSOCKADDR_STORAGE_LH structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE, SOCKADDR_STORAGE structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_LH, SOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_XP, netvista.sockaddr_storage, sockaddr_storage_xp, ws2def/FAR *LPSOCKADDR_STORAGE_LH, ws2def/PSOCKADDR_STORAGE_LH, ws2def/SOCKADDR_STORAGE, wskref_6daf4329-4069-419a-add7-dada30940663.xml"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
@@ -62,7 +62,7 @@ The SOCKADDR_STORAGE structure is a generic structure that specifies a transport
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://msdn.microsoft.com/library/Ff571151(v=VS.85).aspx">WSK Address Families</a>.
+     <a href="netvista.wsk_address_families">WSK Address Families</a>.
 
 
 ### -field __ss_pad1

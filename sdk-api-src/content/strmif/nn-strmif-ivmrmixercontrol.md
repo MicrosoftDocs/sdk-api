@@ -9,8 +9,8 @@ ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

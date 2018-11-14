@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Button_SetSplitInfo
+: 
 ---
 
 # Button_SetSplitInfo macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets information for a specified split button control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775981(v=VS.85).aspx">BCM_SETSPLITINFO</a> message explicitly.
+Sets information for a specified split button control. Use this macro or send the <a href="https://msdn.microsoft.com/609b8972-9616-4850-a72c-2f87ce19f563">BCM_SETSPLITINFO</a> message explicitly.
 
 
 ## -parameters
@@ -60,23 +68,23 @@ Sets information for a specified split button control. Use this macro or send th
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control.
 
 
 ### -param pInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775955(v=VS.85).aspx">BUTTON_SPLITINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ea2292c3-1dad-4e4f-9ebc-1719c86848c6">BUTTON_SPLITINFO</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775955(v=VS.85).aspx">BUTTON_SPLITINFO</a> structure. The calling application is responsible for allocating the memory for this structure and initializing it. Set the <b>mask</b> member of this structure to determine what information to set for the button specified by <i>hwnd</i>. 
+A pointer to a <a href="https://msdn.microsoft.com/ea2292c3-1dad-4e4f-9ebc-1719c86848c6">BUTTON_SPLITINFO</a> structure. The calling application is responsible for allocating the memory for this structure and initializing it. Set the <b>mask</b> member of this structure to determine what information to set for the button specified by <i>hwnd</i>. 
 
 
 ## -remarks
 
 
 
-Use this macro only with the <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_DEFSPLITBUTTON</a> button styles.
+Use this macro only with the <a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> button styles.
 
 
 
@@ -86,11 +94,11 @@ Use this macro only with the <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://msdn.microsoft.com/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b">Button Types</a>
 
 
 

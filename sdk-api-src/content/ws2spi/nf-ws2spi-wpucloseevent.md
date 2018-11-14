@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WPUCloseEvent
+: 
 ---
 
 # WPUCloseEvent function
@@ -85,7 +91,7 @@ If the function succeeds, the return value is <b>TRUE</b>. Otherwise, the return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">

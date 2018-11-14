@@ -9,8 +9,8 @@ ms.assetid: eb725f37-4bcd-4402-968f-ea6d58d7d79a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPSERVER_INFO_1552, *PSERVER_INFO_1552, LPSERVER_INFO_1552, LPSERVER_INFO_1552 structure pointer [Network Management], PSERVER_INFO_1552, PSERVER_INFO_1552 structure pointer [Network Management], SERVER_INFO_1552, SERVER_INFO_1552 structure [Network Management], _SERVER_INFO_1552, _win32_server_info_1552_str, lmserver/LPSERVER_INFO_1552, lmserver/PSERVER_INFO_1552, lmserver/SERVER_INFO_1552, netmgmt.server_info_1552_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

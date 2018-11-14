@@ -9,8 +9,8 @@ ms.assetid: abd98a28-b208-4f31-a28b-ff6ff6677af9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO structure [Peer Networking], PPEERDIST_CLIENT_BASIC_INFO, PPEERDIST_CLIENT_BASIC_INFO structure pointer [Peer Networking], _PEERDIST_CLIENT_BASIC_INFO, p2p.peerdist_client_basic_info, peerdist/PEERDIST_CLIENT_BASIC_INFO, peerdist/PPEERDIST_CLIENT_BASIC_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: peerdist.h
 req.include-header: 

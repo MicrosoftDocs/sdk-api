@@ -9,8 +9,8 @@ ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wabmem.h
 req.include-header: Mapi.h

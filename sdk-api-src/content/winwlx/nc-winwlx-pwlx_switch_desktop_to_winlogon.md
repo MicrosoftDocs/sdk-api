@@ -9,8 +9,8 @@ ms.assetid: ed910769-94c2-455b-9788-de3795330821
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_WINLOGON, PWLX_SWITCH_DESKTOP_TO_WINLOGON callback, WlxSwitchDesktopToWinlogon, WlxSwitchDesktopToWinlogon callback function [Security], _gina_wlxswitchdesktoptowinlogon, security.wlxswitchdesktoptowinlogon, winwlx/WlxSwitchDesktopToWinlogon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

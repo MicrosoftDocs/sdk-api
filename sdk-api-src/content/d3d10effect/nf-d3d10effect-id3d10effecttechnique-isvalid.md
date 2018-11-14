@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10effect.h
+: 
+- ID3D10EffectTechnique.IsValid
+: 
 ---
 
 # ID3D10EffectTechnique::IsValid
@@ -76,7 +84,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>
+<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
  
 
  

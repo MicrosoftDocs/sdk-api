@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windowsstoragecom.h
+: 
+- IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
+: 
 ---
 
 # IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle

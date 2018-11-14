@@ -9,8 +9,8 @@ ms.assetid: ad059d7c-86dd-41a4-8cef-dbd154057c50
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AM_PIN_CONNECTION_BLOCK_FLAGSEnumeration, AM_PIN_FLOW_CONTROL_BLOCK, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS , _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS enumeration [DirectShow], dshow.am_pin_connection_block_flags, strmif/AM_PIN_FLOW_CONTROL_BLOCK, strmif/_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

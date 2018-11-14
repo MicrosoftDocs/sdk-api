@@ -7,7 +7,7 @@ old-location: multimedia\avistreamiskeyframe.htm
 tech.root: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- AVIStreamIsKeyFrame
+: 
 ---
 
 # AVIStreamIsKeyFrame macro

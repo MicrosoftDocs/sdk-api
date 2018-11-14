@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oledlg.h
+: 
+- IOleUILinkContainerW.UpdateLink
+: 
 ---
 
 # IOleUILinkContainerW::UpdateLink

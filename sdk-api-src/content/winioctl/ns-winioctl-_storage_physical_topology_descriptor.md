@@ -9,8 +9,8 @@ ms.assetid: CD596355-228D-4054-B77F-83F323AB3D0B
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Files], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Files], _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, fs.storage_physical_topology_descriptor, winioctl/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

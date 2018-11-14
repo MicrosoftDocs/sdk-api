@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DestroyPropertySheetPage
+: 
 ---
 
 # DestroyPropertySheetPage function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function.
+Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function.
 
 
 ## -parameters

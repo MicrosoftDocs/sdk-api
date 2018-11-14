@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- camerauicontrol.h
+: 
+- ICameraUIControl.RemoveCapturedItem
+: 
 ---
 
 # ICameraUIControl::RemoveCapturedItem
@@ -77,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802717(v=VS.85).aspx">ICameraUIControl</a>
+<a href="https://msdn.microsoft.com/e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9">ICameraUIControl</a>
  
 
  

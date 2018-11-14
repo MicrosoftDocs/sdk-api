@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont2.SetDoubleStrike
+: 
 ---
 
 # ITextFont2::SetDoubleStrike
@@ -62,7 +70,7 @@ Sets whether characters are displayed with double horizontal lines through the c
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

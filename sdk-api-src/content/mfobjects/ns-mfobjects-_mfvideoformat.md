@@ -9,8 +9,8 @@ ms.assetid: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618, MFVIDEOFORMAT, MFVIDEOFORMAT structure [Media Foundation], _MFVIDEOFORMAT, mf.mfvideoformat, mfobjects/MFVIDEOFORMAT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

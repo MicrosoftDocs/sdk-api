@@ -9,8 +9,8 @@ ms.assetid: 69a17378-088e-42e7-b7da-0ccc642f44d1
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog], EvtQueryNames, EvtQueryPropertyIdEND, EvtQueryStatuses, _EVT_QUERY_PROPERTY_ID, wes.evt_query_property_id, winevt/EVT_QUERY_PROPERTY_ID, winevt/EvtQueryNames, winevt/EvtQueryPropertyIdEND, winevt/EvtQueryStatuses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsQuery_UTF8
+: 
 ---
 
 # DnsQuery_UTF8 function

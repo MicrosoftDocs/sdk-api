@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- ITfFnLMProcessor.GetReconversion
+: 
 ---
 
 # ITfFnLMProcessor::GetReconversion
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers the text to be reconverted. To obtain this range object, call <a href="https://msdn.microsoft.com/en-us/library/ms538973(v=VS.85).aspx">ITfFnReconversion::QueryRange</a>.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers the text to be reconverted. To obtain this range object, call <a href="https://msdn.microsoft.com/022d0ad7-5359-48df-b83b-2319eb1a84bf">ITfFnReconversion::QueryRange</a>.
 
 
 ### -param ppCandList [out]
@@ -132,7 +140,7 @@ A memory allocation failure occurred.
 
 
 
-This method is identical to <a href="https://msdn.microsoft.com/en-us/library/ms538972(v=VS.85).aspx">ITfFnReconversion::GetReconversion</a>. When <b>ITfFnReconversion::GetReconversion</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
+This method is identical to <a href="https://msdn.microsoft.com/ed696088-c599-4c83-968e-d09d9ae81c10">ITfFnReconversion::GetReconversion</a>. When <b>ITfFnReconversion::GetReconversion</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
 
 
 
@@ -147,7 +155,7 @@ This method is identical to <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538944(v=VS.85).aspx">ITfFnLMProcessor</a>
+<a href="https://msdn.microsoft.com/89581a75-9263-45d7-99de-b3bd78a5169c">ITfFnLMProcessor</a>
 
 
 

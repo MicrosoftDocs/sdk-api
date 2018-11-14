@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LegacyIAccessiblePattern_SetValue
+: 
 ---
 
 # LegacyIAccessiblePattern_SetValue function

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlIsNameLegalDOS8Dot3
+: 
 ---
 
 # RtlIsNameLegalDOS8Dot3 function

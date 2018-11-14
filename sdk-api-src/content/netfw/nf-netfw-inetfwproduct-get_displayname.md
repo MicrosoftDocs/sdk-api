@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwProduct.get_DisplayName
+: 
 ---
 
 # INetFwProduct::get_DisplayName

@@ -51,6 +51,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CharUpperA
+: 
 ---
 
 # CharUpperA function
@@ -107,15 +113,15 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx">CharLower</a>
+<a href="https://msdn.microsoft.com/b67786aa-d629-4d23-b4cb-efb43282ca02">CharLower</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647468(v=VS.85).aspx">CharLowerBuff</a>
+<a href="https://msdn.microsoft.com/3a678c1b-76a5-4a08-8a13-dfc400492bba">CharLowerBuff</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx">CharUpperBuff</a>
+<a href="https://msdn.microsoft.com/774619cf-ed37-4342-b265-8125693fede5">CharUpperBuff</a>
 
 
 
@@ -127,7 +133,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

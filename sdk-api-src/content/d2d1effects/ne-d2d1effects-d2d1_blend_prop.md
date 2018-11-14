@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_blend_prop.htm
 tech.root: direct2d
 ms.assetid: 475CD001-27F6-40DE-887E-EC3EECB40DDA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_BLEND_PROP, D2D1_BLEND_PROP enumeration [Direct2D], D2D1_BLEND_PROP_MODE, d2d1effects/D2D1_BLEND_PROP, d2d1effects/D2D1_BLEND_PROP_MODE, direct2d.d2d1_blend_prop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706313(v=VS.85).aspx">Blend effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE">Blend effect</a>.
         
 
 
@@ -64,7 +64,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/libr
 The blend mode used for the effect.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934217(v=VS.85).aspx">D2D1_BLEND_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/006EE339-5E67-434B-BB47-FCBBC2D3FB50">D2D1_BLEND_MODE</a>.
 
 The default value is D2D1_BLEND_MODE_MULTIPLY.
 

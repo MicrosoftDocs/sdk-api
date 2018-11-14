@@ -9,8 +9,8 @@ ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -56,7 +56,7 @@ Enables a client to query an object proxy, or handler, for multiple interfaces b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiQI</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IMultiQI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiQI</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IMultiQI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxAccountOutgoingArchive.get_SizeLow
+: 
 ---
 
 # IFaxAccountOutgoingArchive::get_SizeLow

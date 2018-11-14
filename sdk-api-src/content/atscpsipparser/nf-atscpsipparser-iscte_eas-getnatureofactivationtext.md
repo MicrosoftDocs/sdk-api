@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- atscpsipparser.h
+: 
+- ISCTE_EAS.GetNatureOfActivationText
+: 
 ---
 
 # ISCTE_EAS::GetNatureOfActivationText

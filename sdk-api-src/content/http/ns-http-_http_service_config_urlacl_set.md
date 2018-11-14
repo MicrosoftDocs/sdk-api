@@ -9,8 +9,8 @@ ms.assetid: 92fc3f65-0153-4075-a61b-48a63c8e0ffe
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_SET, PHTTP_SERVICE_CONFIG_URLACL_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_SET, _http_http_service_config_urlacl_set, http.http_service_config_urlacl_set, http/HTTP_SERVICE_CONFIG_URLACL_SET, http/PHTTP_SERVICE_CONFIG_URLACL_SET"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

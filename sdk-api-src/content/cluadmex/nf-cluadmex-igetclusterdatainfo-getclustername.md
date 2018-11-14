@@ -7,7 +7,7 @@ old-location: mscs\igetclusterdatainfo_getclustername.htm
 tech.root: mscs
 ms.assetid: 711a193f-de29-4e90-adf1-6dc6e95c0c61
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterName method, IGetClusterDataInfo.GetClusterName, IGetClusterDataInfo::GetClusterName, _wolf_igetclusterdatainfo_getclustername, cluadmex/IGetClusterDataInfo::GetClusterName, mscs.igetclusterdatainfo_getclustername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cluadmex.h
+: 
+- IGetClusterDataInfo.GetClusterName
+: 
 ---
 
 # IGetClusterDataInfo::GetClusterName
@@ -103,7 +111,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370211(v=VS.85).aspx">IGetClusterDataInfo</a>
+<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
  
 
  

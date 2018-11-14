@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mdhcp.h
+: 
+- IMcastLeaseInfo.put_LeaseStopTime
+: 
 ---
 
 # IMcastLeaseInfo::put_LeaseStopTime

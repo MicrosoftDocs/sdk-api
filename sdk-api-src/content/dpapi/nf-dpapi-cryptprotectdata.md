@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptProtectData
+: 
 ---
 
 # CryptProtectData function
@@ -234,7 +240,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
 
 
 

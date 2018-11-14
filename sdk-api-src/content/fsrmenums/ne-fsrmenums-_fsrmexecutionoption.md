@@ -9,8 +9,8 @@ ms.assetid: 55512fe2-0249-4c6f-90bf-5f769674bedd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FsrmExecutionOption, FsrmExecutionOption enumeration [File Server Resource Manager], FsrmExecutionOption_EvaluateUnset, FsrmExecutionOption_ReEvaluate_ConsiderExistingValue, FsrmExecutionOption_ReEvaluate_IgnoreExistingValue, FsrmExecutionOption_Unknown, _FsrmExecutionOption, fs.fsrmexecutionoption, fsrm.fsrmexecutionoption, fsrmenums/FsrmExecutionOption, fsrmenums/FsrmExecutionOption_EvaluateUnset, fsrmenums/FsrmExecutionOption_ReEvaluate_ConsiderExistingValue, fsrmenums/FsrmExecutionOption_ReEvaluate_IgnoreExistingValue, fsrmenums/FsrmExecutionOption_Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

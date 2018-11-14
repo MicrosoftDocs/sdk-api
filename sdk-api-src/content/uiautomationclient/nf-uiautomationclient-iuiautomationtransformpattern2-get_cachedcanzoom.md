@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationTransformPattern2.get_CachedCanZoom
+: 
 ---
 
 # IUIAutomationTransformPattern2::get_CachedCanZoom

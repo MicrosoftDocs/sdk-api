@@ -4,10 +4,10 @@ title: LookupAccountNameA function
 author: windows-sdk-content
 description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 old-location: security\lookupaccountname.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LookupAccountNameA
+: 
 ---
 
 # LookupAccountNameA function
@@ -141,7 +147,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

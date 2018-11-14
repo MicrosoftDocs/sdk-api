@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsWow64Process2
+: 
 ---
 
 # IsWow64Process2 function

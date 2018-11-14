@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitVariantFromInt64
+: 
 ---
 
 # InitVariantFromInt64 function
@@ -50,7 +56,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with a 64-bit integer value.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a 64-bit integer value.
 
 
 ## -parameters
@@ -69,7 +75,7 @@ Source <b>LONGLONG</b> value.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -94,7 +100,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762331(v=VS.85).aspx">InitVariantFromInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt64">InitVariantFromInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -122,15 +128,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762301(v=VS.85).aspx">InitPropVariantFromInt64</a>
+<a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776612(v=VS.85).aspx">VariantToInt64</a>
+<a href="shell.VariantToInt64">VariantToInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776615(v=VS.85).aspx">VariantToInt64WithDefault</a>
+<a href="shell.VariantToInt64WithDefault">VariantToInt64WithDefault</a>
  
 
  

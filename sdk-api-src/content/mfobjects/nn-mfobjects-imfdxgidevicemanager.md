@@ -9,8 +9,8 @@ ms.assetid: 4A0DC266-FCF0-4ECD-AC78-CF429839486D
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], IMFDXGIDeviceManager interface [Media Foundation],described, mf.imfdxgidevicemanager, mfobjects/IMFDXGIDeviceManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

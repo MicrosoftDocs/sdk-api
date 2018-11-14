@@ -9,8 +9,8 @@ ms.assetid: 43dd800b-c51d-4a2f-ad59-943cb4975066
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], IServiceLocationDescriptor interface [Microsoft TV Technologies],described, atscpsipparser/IServiceLocationDescriptor, mstv.iservicelocationdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MprConfigServerDisconnect
+: 
 ---
 
 # MprConfigServerDisconnect function
@@ -80,7 +86,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

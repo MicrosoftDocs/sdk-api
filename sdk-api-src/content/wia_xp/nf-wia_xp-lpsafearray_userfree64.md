@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LPSAFEARRAY_UserFree64
+: 
 ---
 
 # LPSAFEARRAY_UserFree64 function

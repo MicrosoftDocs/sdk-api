@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.ui.xaml.media.dxinterop.h
+: 
+- ISwapChainBackgroundPanelNative.SetSwapChain
+: 
 ---
 
 # ISwapChainBackgroundPanelNative::xaml
@@ -67,7 +75,7 @@ TBD
 
 #### - pSwapChain [in]
 
-A configured <a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>.
+A configured <a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>.
 
 
 ## -returns
@@ -88,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>
+<a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>
 
 
 

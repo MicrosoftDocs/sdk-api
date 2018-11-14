@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DXVA2_Fixed32OpaqueAlpha
+: 
 ---
 
 # DXVA2_Fixed32OpaqueAlpha function

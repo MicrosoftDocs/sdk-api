@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ITuningSpaceContainer.get_EnumTuningSpaces
+: 
 ---
 
 # ITuningSpaceContainer::get_EnumTuningSpaces

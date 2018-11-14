@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPEvents3.CdromBurnMediaError
+: 
 ---
 
 # IWMPEvents3::CdromBurnMediaError

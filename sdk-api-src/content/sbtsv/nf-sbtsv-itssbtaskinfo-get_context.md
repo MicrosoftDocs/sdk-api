@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbTaskInfo.get_Context
+: 
 ---
 
 # ITsSbTaskInfo::get_Context

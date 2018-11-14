@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizerGuide.get_Rows
+: 
 ---
 
 # IInkRecognizerGuide::get_Rows

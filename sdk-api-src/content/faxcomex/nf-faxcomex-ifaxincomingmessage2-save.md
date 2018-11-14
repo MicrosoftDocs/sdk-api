@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxIncomingMessage2.Save
+: 
 ---
 
 # IFaxIncomingMessage2::Save

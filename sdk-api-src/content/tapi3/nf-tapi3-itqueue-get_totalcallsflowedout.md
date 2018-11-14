@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITQueue.get_TotalCallsFlowedOut
+: 
 ---
 
 # ITQueue::get_TotalCallsFlowedOut

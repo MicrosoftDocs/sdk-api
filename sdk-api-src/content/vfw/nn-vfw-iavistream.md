@@ -8,10 +8,10 @@ old-location: multimedia\iavistream.htm
 tech.root: Multimedia
 ms.assetid: 25f67f04-e005-48ee-89e7-a6ef89f6d6c6
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IAVIStream, IAVIStream interface [Windows Multimedia], IAVIStream interface [Windows Multimedia],described, _win32_IAVIStream, multimedia.iavistream, vfw/IAVIStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: fc9f532b-a37f-4338-95db-6ec988131211
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_INTERCONNECT, VDS_INTERCONNECT structure [VDS], _VDS_INTERCONNECT, base.vds_interconnect, vdslun/_VDS_INTERCONNECT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

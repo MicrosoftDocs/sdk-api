@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClearCommBreak
+: 
 ---
 
 # ClearCommBreak function
@@ -65,7 +71,7 @@ Restores character transmission for a specified communications device and places
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ## -returns
@@ -109,7 +115,7 @@ A communications device is placed in a break state by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

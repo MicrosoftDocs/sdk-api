@@ -9,8 +9,8 @@ ms.assetid: 29e7da7b-7da2-4000-8f3d-d12aa7e12fed
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IWorkspaceRegistration, IWorkspaceRegistration interface [Remote Desktop Services], IWorkspaceRegistration interface [Remote Desktop Services],described, termserv.iworkspaceregistration, workspaceruntime/IWorkspaceRegistration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: 

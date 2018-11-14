@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_5.h
+: 
+- IBackgroundCopyJobHttpOptions.GetCustomHeaders
+: 
 ---
 
 # IBackgroundCopyJobHttpOptions::GetCustomHeaders
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-Retrieves the custom headers set by an earlier call to<a href="https://msdn.microsoft.com/en-us/library/Aa964258(v=VS.85).aspx"> IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> (that is, headers which BITS will be sending to the remote, not headers which BITS receives from the remote).
+Retrieves the custom headers set by an earlier call to<a href="https://msdn.microsoft.com/422a331d-5b6b-48ec-b040-43a88be43ac3"> IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> (that is, headers which BITS will be sending to the remote, not headers which BITS receives from the remote).
 
 
 ## -parameters
@@ -62,7 +70,7 @@ Retrieves the custom headers set by an earlier call to<a href="https://msdn.micr
 ### -param pRequestHeaders [out]
 
 Null-terminated string that contains the custom headers. Each header is terminated by a carriage return and line feed (CR/LF) character. To free the string when finished, call  the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -130,7 +138,7 @@ The <i>pRequestHeaders</i> parameter is <b>NULL</b>.
 
 
 
-Only the job owner can retrieve the custom headers. To specify the headers, call the <a href="https://msdn.microsoft.com/en-us/library/Aa964258(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> method.
+Only the job owner can retrieve the custom headers. To specify the headers, call the <a href="https://msdn.microsoft.com/422a331d-5b6b-48ec-b040-43a88be43ac3">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> method.
 
 
 
@@ -140,11 +148,11 @@ Only the job owner can retrieve the custom headers. To specify the headers, call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964250(v=VS.85).aspx">IBackgroundCopyJobHttpOptions</a>
+<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964258(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a>
+<a href="https://msdn.microsoft.com/422a331d-5b6b-48ec-b040-43a88be43ac3">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a>
  
 
  

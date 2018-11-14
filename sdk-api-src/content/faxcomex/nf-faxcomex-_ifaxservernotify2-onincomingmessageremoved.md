@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- _IFaxServerNotify2.OnIncomingMessageRemoved
+: 
 ---
 
 # _IFaxServerNotify2::OnIncomingMessageRemoved

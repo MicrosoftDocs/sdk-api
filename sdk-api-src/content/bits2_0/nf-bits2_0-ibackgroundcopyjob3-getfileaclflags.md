@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits2_0.h
+: 
+- IBackgroundCopyJob3.GetFileACLFlags
+: 
 ---
 
 # IBackgroundCopyJob3::GetFileACLFlags
@@ -156,11 +164,11 @@ Successfully retrieved the flags.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362994(v=VS.85).aspx">IBackgroundCopyJob3::SetFileACLFlags</a>
+<a href="https://msdn.microsoft.com/de218e3d-8c42-4cf3-94b9-94dbc5edbb47">IBackgroundCopyJob3::SetFileACLFlags</a>
  
 
  

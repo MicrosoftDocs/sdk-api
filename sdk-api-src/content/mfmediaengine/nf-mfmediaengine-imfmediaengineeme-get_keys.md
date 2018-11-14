@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineEME.get_Keys
+: 
 ---
 
 # IMFMediaEngineEME::get_Keys

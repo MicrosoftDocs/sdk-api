@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- TabCtrl_SetImageList
+: 
 ---
 
 # TabCtrl_SetImageList macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Assigns an image list to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760629(v=VS.85).aspx">TCM_SETIMAGELIST</a> message explicitly. 
+Assigns an image list to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/b457c73c-4c38-4bc5-af5d-12bbd24504a6">TCM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Assigns an image list to a tab control. You can use this macro or send the <a hr
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

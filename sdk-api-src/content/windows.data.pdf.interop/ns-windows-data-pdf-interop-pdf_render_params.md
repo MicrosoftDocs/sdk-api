@@ -9,8 +9,8 @@ ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windows.data.pdf.interop.h
 req.include-header: 

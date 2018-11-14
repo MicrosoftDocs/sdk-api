@@ -9,8 +9,8 @@ ms.assetid: 78ea822d-da8e-4883-b0eb-4277e7eb87a2
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], IPropertyStoreFactory interface [Windows Properties],described, _shell_IPropertyStoreFactory, properties.IPropertyStoreFactory, propsys/IPropertyStoreFactory, shell.IPropertyStoreFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Exposes methods to get an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object.
+Exposes methods to get an <a href="shell.IPropertyStore">IPropertyStore</a> object.
 
 
 ## -inheritance
@@ -70,19 +70,19 @@ The <b>IPropertyStoreFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761447(v=VS.85).aspx">GetPropertyStore</a>
+<a href="shell.IPropertyStoreFactory_GetPropertyStore">GetPropertyStore</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object that corresponds to the supplied flags.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object that corresponds to the supplied flags.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761449(v=VS.85).aspx">GetPropertyStoreForKeys</a>
+<a href="shell.IPropertyStoreFactory_GetPropertyStoreForKeys">GetPropertyStoreForKeys</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="https://msdn.microsoft.com/en-us/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ This interface is typically obtained through <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776492(v=VS.85).aspx">PSCreatePropertyStoreFromObject</a>
+<a href="shell.PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
  
 
  

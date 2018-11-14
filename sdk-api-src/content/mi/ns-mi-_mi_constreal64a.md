@@ -9,8 +9,8 @@ ms.assetid: b7835074-480d-4921-abaf-a55733e0f60f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_ConstReal64A, MI_ConstReal64A structure [Windows Management Infrastructure (MI)], _MI_ConstReal64A, mi/MI_ConstReal64A, wmi._mi_constreal64a, wmi_v2.mi_constreal64a
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Header_InsertItem
+: 
 ---
 
 # Header_InsertItem macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Inserts a new item into a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775351(v=VS.85).aspx">HDM_INSERTITEM</a> message explicitly. 
+Inserts a new item into a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/aececf32-090d-4cd4-a239-4435a322f72e">HDM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Inserts a new item into a header control. You can use this macro or send the <a 
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the header control. 
 
@@ -78,7 +86,7 @@ The index of the item after which the new item is to be inserted. The new item i
 
 Type: <b>const LPHDITEM</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure that contains information about the new item. 
+A pointer to an <a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a> structure that contains information about the new item. 
 
 
 ## -remarks

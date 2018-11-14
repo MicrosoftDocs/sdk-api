@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Msv1_0SubAuthenticationRoutineEx
+: 
 ---
 
 # Msv1_0SubAuthenticationRoutineEx function

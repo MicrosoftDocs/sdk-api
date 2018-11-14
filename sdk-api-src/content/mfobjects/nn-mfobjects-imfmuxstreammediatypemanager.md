@@ -9,8 +9,8 @@ ms.assetid: BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], IMFMuxStreamMediaTypeManager interface [Media Foundation],described, mf.imfmuxstreammediatypemanager, mfobjects/IMFMuxStreamMediaTypeManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 

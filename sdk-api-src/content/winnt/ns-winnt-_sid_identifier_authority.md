@@ -4,13 +4,13 @@ title: "_SID_IDENTIFIER_AUTHORITY"
 author: windows-sdk-content
 description: Represents the top-level authority of a security identifier (SID).
 old-location: security\sid_identifier_authority.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 450a6d2d-d2e4-4098-90af-a8024ddcfcb5
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY structure pointer [Security], SID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY structure [Security], _SID_IDENTIFIER_AUTHORITY, _win32_sid_identifier_authority_str, security.sid_identifier_authority, winnt/PSID_IDENTIFIER_AUTHORITY, winnt/SID_IDENTIFIER_AUTHORITY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesEvents.ItemNotAvailableOffline
+: 
 ---
 
 # IOfflineFilesEvents::ItemNotAvailableOffline
@@ -66,7 +74,7 @@ The item's UNC path string.
 
 ### -param ItemType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530648(v=VS.85).aspx">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/cf8bb079-d691-4b37-b408-d1af1746ed37">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
 
 
 ## -returns
@@ -82,7 +90,7 @@ The return value is ignored.
 
 
 
-Receipt of this event does not mean the file has been removed from the cache.  The event <a href="https://msdn.microsoft.com/en-us/library/Bb530547(v=VS.85).aspx">ItemDeletedFromCache</a> is sent when an item has been removed.
+Receipt of this event does not mean the file has been removed from the cache.  The event <a href="https://msdn.microsoft.com/358b358a-65cc-4f37-8beb-be492b83c222">ItemDeletedFromCache</a> is sent when an item has been removed.
 
 
 
@@ -92,7 +100,7 @@ Receipt of this event does not mean the file has been removed from the cache.  T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RtlUnicodeStringToAnsiString
+: 
 ---
 
 # RtlUnicodeStringToAnsiString function
@@ -77,7 +83,7 @@ Controls allocation of the buffer space for the <i>DestinationString</i>.
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/en-us/library/ms648416(v=VS.85).aspx">RtlFreeAnsiString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/b0feaf20-cca7-4f3e-b2f0-7cd972c2df36">RtlFreeAnsiString</a>.
 
 
 

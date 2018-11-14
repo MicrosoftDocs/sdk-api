@@ -9,8 +9,8 @@ ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], _tag_AMVAInternalMemInfo, amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

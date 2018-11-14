@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidAnalogTuner2.get_NumAuxInputs
+: 
 ---
 
 # IMSVidAnalogTuner2::get_NumAuxInputs

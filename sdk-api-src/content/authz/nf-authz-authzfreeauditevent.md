@@ -4,10 +4,10 @@ title: AuthzFreeAuditEvent function
 author: windows-sdk-content
 description: Frees the structure allocated by the AuthzInitializeObjectAccessAuditEvent function.
 old-location: security\authzfreeauditevent.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: e2980ef7-45dd-47c7-ba4d-f36b52bbd7dc
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win32_authzfreeauditevent, authz/AuthzFreeAuditEvent, security.authzfreeauditevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzFreeAuditEvent
+: 
 ---
 
 # AuthzFreeAuditEvent function
@@ -86,7 +92,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

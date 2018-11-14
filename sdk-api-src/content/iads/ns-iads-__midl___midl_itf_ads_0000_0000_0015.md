@@ -9,8 +9,8 @@ ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0015, _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
@@ -95,7 +95,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_BINARY</b>, you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684429(v=VS.85).aspx">Object(DN-Binary)</a>
+<a href="ad.win2k_s_object_dn_binary">Object(DN-Binary)</a>
  
 
  

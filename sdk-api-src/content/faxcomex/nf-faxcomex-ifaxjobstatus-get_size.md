@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxJobStatus.get_Size
+: 
 ---
 
 # IFaxJobStatus::get_Size

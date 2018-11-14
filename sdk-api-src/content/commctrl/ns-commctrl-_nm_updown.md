@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _NM_UPDOWN, _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
@@ -61,10 +61,10 @@ Contains information specific to up-down control notification messages. It is id
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field iPos
@@ -90,11 +90,11 @@ Signed integer value that represents the proposed change in the up-down control'
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759903(v=VS.85).aspx">UDN_DELTAPOS</a>
+<a href="https://msdn.microsoft.com/66262566-d35a-4b2a-8157-d1e789a21016">UDN_DELTAPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://msdn.microsoft.com/23ff9dc1-3d92-4e94-8df5-7a645039ce27">WM_NOTIFY</a>
  
 
  

@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.get_HashAlgorithm
+: 
 ---
 
 # ICEnroll::get_HashAlgorithm
@@ -101,13 +109,17 @@ If both the
 
 #### Examples
 
-
-```cpp
-BSTR     bstrHashAlg = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrHashAlg = NULL;
 HRESULT  hr;
 
 // get the hash algorithm
-hr = pEnroll->get_HashAlgorithm( &bstrHashAlg );
+hr = pEnroll-&gt;get_HashAlgorithm( &amp;bstrHashAlg );
 if ( FAILED ( hr ) )
     printf("Failed get_HashAlgorithm - %x\n", hr );
 else
@@ -120,16 +132,16 @@ BSTR    bstrMyHashAlg = SysAllocString(TEXT("MD5"));
 // alternatively, ... = SysAllocString(TEXT("1.2.840.113549.1.1.4"));
 
 // set the hash algorithm
-hr = pEnroll->put_HashAlgorithm( bstrMyHashAlg );
+hr = pEnroll-&gt;put_HashAlgorithm( bstrMyHashAlg );
 if ( FAILED ( hr ) )
     printf("Failed put_HashAlgorithm - %x\n", hr );
 else
     printf( "HashAlgorithm was set to %ws\n", bstrMyHashAlg );
 // free BSTR
 if ( NULL != bstrMyHashAlg )
-    SysFreeString( bstrMyHashAlg);
-```
-
-
+    SysFreeString( bstrMyHashAlg);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

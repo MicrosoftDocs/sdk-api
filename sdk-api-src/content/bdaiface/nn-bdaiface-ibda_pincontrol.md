@@ -9,8 +9,8 @@ ms.assetid: 2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], IBDA_PinControl interface [Microsoft TV Technologies],described, IBDA_PinControlInterface, bdaiface/IBDA_PinControl, mstv.ibda_pincontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -58,9 +58,9 @@ The <b>IBDA_PinControl</b> interface is exposed on a BDA device filter's pins. A
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_PinControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_PinControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_PinControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_PinControl</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IBDA_PinControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693422(v=VS.85).aspx">GetPinID</a>
+<a href="https://msdn.microsoft.com/90f6db23-d708-4773-b91a-e4b23d1e3c5b">GetPinID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the pin.
@@ -82,7 +82,7 @@ Retrieves the identifier of the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693423(v=VS.85).aspx">GetPinType</a>
+<a href="https://msdn.microsoft.com/97ab3873-be75-48a5-b854-303aec3d7058">GetPinType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the pin.
@@ -91,7 +91,7 @@ Retrieves the type of the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693424(v=VS.85).aspx">RegistrationContext</a>
+<a href="https://msdn.microsoft.com/6e54bb4e-9c65-4f57-ba4a-c5b35ccaae1f">RegistrationContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registration context of a particular pin.
@@ -115,7 +115,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

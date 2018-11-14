@@ -9,8 +9,8 @@ ms.assetid: 4f87de9d-a068-4ab9-8f38-b75f20552b1d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION structure pointer [Files], TRANSACTION_NOTIFICATION, TRANSACTION_NOTIFICATION structure [Files], _TRANSACTION_NOTIFICATION, fs.transaction_notification, ktmtypes/PTRANSACTION_NOTIFICATION, ktmtypes/TRANSACTION_NOTIFICATION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ktmtypes.h
 req.include-header: Windows.h

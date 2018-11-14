@@ -9,8 +9,8 @@ ms.assetid: 0e45e5ea-9f38-4a96-be44-8ee123492aa9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],described, bdaiface/IBDA_ISDBConditionalAccess, mstv.ibda_isdbconditionalaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -59,9 +59,9 @@ and countries.)
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ISDBConditionalAccess</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_ISDBConditionalAccess</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ISDBConditionalAccess</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_ISDBConditionalAccess</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>IBDA_ISDBConditionalAccess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693395(v=VS.85).aspx">SetIsdbCasRequest</a>
+<a href="https://msdn.microsoft.com/c93351f5-1829-4405-b665-00f2e78391e0">SetIsdbCasRequest</a>
 </td>
 <td align="left" width="63%">
 Sends a CAS command.

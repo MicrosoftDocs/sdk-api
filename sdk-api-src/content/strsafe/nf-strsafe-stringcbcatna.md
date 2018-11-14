@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringCbCatNA
+: 
 ---
 
 # StringCbCatNA function
@@ -157,7 +163,7 @@ Compared to  the functions it replaces, <b>StringCbCatN</b> provides additional 
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/ad1cad70-c548-4b2f-b253-b0af5000df08">StringCbCatNEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbCatN</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use.
 
@@ -197,15 +203,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647495(v=VS.85).aspx">StringCbCat</a>
+<a href="https://msdn.microsoft.com/6330483b-dc61-4bbf-8ee7-e91a93495bb2">StringCbCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
+<a href="https://msdn.microsoft.com/ad1cad70-c548-4b2f-b253-b0af5000df08">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
+<a href="https://msdn.microsoft.com/516b67f9-ab6e-4c23-b04a-01848de09115">StringCchCatN</a>
  
 
  

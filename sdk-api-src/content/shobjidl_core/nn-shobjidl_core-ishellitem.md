@@ -9,8 +9,8 @@ ms.assetid: 599b9c0a-df04-4dbd-a5a6-a8736eecc560
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellItem, IShellItem interface [Windows Shell], IShellItem interface [Windows Shell],described, _win32_IShellItem, shell.IShellItem, shobjidl_core/IShellItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

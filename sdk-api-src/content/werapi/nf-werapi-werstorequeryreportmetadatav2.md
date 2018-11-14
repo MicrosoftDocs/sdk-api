@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WerStoreQueryReportMetadataV2
+: 
 ---
 
 # WerStoreQueryReportMetadataV2 function

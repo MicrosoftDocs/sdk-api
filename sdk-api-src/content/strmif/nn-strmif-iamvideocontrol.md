@@ -9,8 +9,8 @@ ms.assetid: bd114977-c76c-4429-a835-98601b350a93
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoControl interface [DirectShow],described, IAMVideoControlInterface, dshow.iamvideocontrol, strmif/IAMVideoControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

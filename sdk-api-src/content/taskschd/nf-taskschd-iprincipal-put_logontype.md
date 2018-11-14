@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IPrincipal.put_LogonType
+: 
 ---
 
 # IPrincipal::put_LogonType

@@ -54,6 +54,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RemovePropA
+: 
 ---
 
 # RemovePropA function
@@ -81,7 +87,7 @@ A handle to the window whose property list is to be changed.
 
 Type: <b>LPCTSTR</b>
 
-A null-terminated character string or an atom that identifies a string. If this parameter is an atom, it must have been created using the <a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero.
+A null-terminated character string or an atom that identifies a string. If this parameter is an atom, it must have been created using the <a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9ccaa7e3d">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero.
 
 
 ## -returns
@@ -100,7 +106,7 @@ The return value identifies the specified data. If the data cannot be found in t
 
 
 
-The return value is the <i>hData</i> value that was passed to <a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a>; it is an application-defined value. Note, this function only destroys the association between the data and the window. If appropriate, the application must free the data handles associated with entries removed from a property list. The application can remove only those properties it has added. It must not remove properties added by other applications or by the system itself.
+The return value is the <i>hData</i> value that was passed to <a href="https://msdn.microsoft.com/f447edbe-58a1-47e5-8efd-0acb10063ace">SetProp</a>; it is an application-defined value. Note, this function only destroys the association between the data and the window. If appropriate, the application must free the data handles associated with entries removed from a property list. The application can remove only those properties it has added. It must not remove properties added by other applications or by the system itself.
 
 The <b>RemoveProp</b> function returns the data handle associated with the string so that the application can free the data associated with the handle.
 
@@ -109,7 +115,7 @@ Starting with Windows Vista, <b>RemoveProp</b> is subject to the restrictions of
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v=VS.85).aspx">Deleting a Window Property</a>.
+For an example, see <a href="using_window_properties.htm">Deleting a Window Property</a>.
 
 <div class="code"></div>
 
@@ -120,7 +126,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649056(v=VS.85).aspx">AddAtom</a>
+<a href="https://msdn.microsoft.com/0712cd2e-397f-48e1-b3bd-ed0dd3155373">AddAtom</a>
 
 
 
@@ -128,7 +134,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633564(v=VS.85).aspx">GetProp</a>
+<a href="https://msdn.microsoft.com/9c71b83b-f943-4fa4-8389-b3bfcf1894c4">GetProp</a>
 
 
 
@@ -136,11 +142,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a>
+<a href="https://msdn.microsoft.com/f447edbe-58a1-47e5-8efd-0acb10063ace">SetProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://msdn.microsoft.com/c39902d3-5907-4aa9-b839-d2d67d273990">Window Properties</a>
  
 
  

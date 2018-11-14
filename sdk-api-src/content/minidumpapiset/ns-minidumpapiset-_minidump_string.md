@@ -7,10 +7,10 @@ old-location: base\minidump_string_str.htm
 tech.root: debug
 ms.assetid: b90b2b29-9d39-4a73-b5fb-bb6e04c94811
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: "*PMINIDUMP_STRING, MINIDUMP_STRING, MINIDUMP_STRING structure, PMINIDUMP_STRING, PMINIDUMP_STRING structure pointer, _MINIDUMP_STRING, _win32_minidump_string_str, base.minidump_string_str, minidumpapiset/MINIDUMP_STRING, minidumpapiset/PMINIDUMP_STRING"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

@@ -9,8 +9,8 @@ ms.assetid: efc67b64-cedf-4cd9-83b3-047f6c38c6ea
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_URL, WS_URL structure [Web Services for Windows], _WS_URL, webservices/WS_URL, wsw.ws_url
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Header_SetItem
+: 
 ---
 
 # Header_SetItem macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the attributes of the specified item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775367(v=VS.85).aspx">HDM_SETITEM</a> message explicitly. 
+Sets the attributes of the specified item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/c8f0d526-3ebe-48c5-8aea-ea3703e2d983">HDM_SETITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Sets the attributes of the specified item in a header control. You can use this 
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
@@ -76,7 +84,7 @@ The current index of the item whose attributes are to be changed.
 
 Type: <b>LPHDITEM</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure that contains item information. When this message is sent, the 
+A pointer to an <a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a> structure that contains item information. When this message is sent, the 
 					<b>mask</b> member of the structure must be set to indicate which attributes are being set. 
 
 
@@ -84,7 +92,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items. 
+The <a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items. 
 
 
 

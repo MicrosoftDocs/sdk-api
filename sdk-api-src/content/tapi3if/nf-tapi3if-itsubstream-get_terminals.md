@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITSubStream.get_Terminals
+: 
 ---
 
 # ITSubStream::get_Terminals
@@ -123,8 +131,8 @@ Insufficient memory exists to perform the operation.
 
 This method returns only the terminals selected on the substream. Other terminals may be selected on the stream or on other substreams within the stream; those terminals are not returned.
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>ITSubStream::get_Terminals</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>ITSubStream::get_Terminals</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 

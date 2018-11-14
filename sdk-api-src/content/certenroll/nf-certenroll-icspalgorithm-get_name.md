@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspAlgorithm.get_Name
+: 
 ---
 
 # ICspAlgorithm::get_Name
@@ -63,9 +71,9 @@ This property is read-only.
 
 
 
-The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375960(v=VS.85).aspx">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
+The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
 
-<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="https://msdn.microsoft.com/en-us/library/Aa375960(v=VS.85).aspx">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
+<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
 <div> </div>
 <table>
 <tr>
@@ -125,7 +133,7 @@ The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
  
 
  

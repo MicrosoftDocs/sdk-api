@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- ITraceDataProvider.put_FilterData
+: 
 ---
 
 # ITraceDataProvider::put_FilterData

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddClosedCurve
+: 
 ---
 
 # GraphicsPath::AddClosedCurve(IN const PointF,IN INT)

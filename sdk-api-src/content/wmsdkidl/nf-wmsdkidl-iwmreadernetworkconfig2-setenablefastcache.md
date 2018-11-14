@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMReaderNetworkConfig2.SetEnableFastCache
+: 
 ---
 
 # IWMReaderNetworkConfig2::SetEnableFastCache

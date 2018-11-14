@@ -9,8 +9,8 @@ ms.assetid: f6641ff6-c9f0-4ceb-9509-2c394f30ad93
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_ALL_OPTION_VALUES, DHCP_ALL_OPTION_VALUES, DHCP_ALL_OPTION_VALUES structure [DHCP], LPDHCP_ALL_OPTION_VALUES, LPDHCP_ALL_OPTION_VALUES structure pointer [DHCP], _DHCP_ALL_OPTION_VALUES, dhcp.dhcp_all_option_values, dhcpsapi/LPDHCP_ALL_OPTION_VALUES, dhcpsapi/_DHCP_ALL_OPTION_VALUES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

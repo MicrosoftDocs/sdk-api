@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- Edit_EmptyUndoBuffer
+: 
 ---
 
 # Edit_EmptyUndoBuffer macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Resets the undo flag of an edit or rich edit control. The undo flag is set whenever an operation within the edit control can be undone. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761568(v=VS.85).aspx">EM_EMPTYUNDOBUFFER</a> message explicitly.
+Resets the undo flag of an edit or rich edit control. The undo flag is set whenever an operation within the edit control can be undone. You can use this macro or send the <a href="https://msdn.microsoft.com/a4ff7bd9-f8ae-4f18-8429-4ceaaeeb0f94">EM_EMPTYUNDOBUFFER</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +77,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761568(v=VS.85).aspx">EM_EMPTYUNDOBUFFER</a>.
+For more information, see <a href="https://msdn.microsoft.com/a4ff7bd9-f8ae-4f18-8429-4ceaaeeb0f94">EM_EMPTYUNDOBUFFER</a>.
 
 
 

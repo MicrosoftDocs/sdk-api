@@ -9,8 +9,8 @@ ms.assetid: cb6cb9da-8f7f-47e9-980a-aa77fe04c80c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPBITMAPCOREINFO, *PBITMAPCOREINFO, BITMAPCOREINFO, BITMAPCOREINFO structure [Windows GDI], PBITMAPCOREINFO, PBITMAPCOREINFO structure pointer [Windows GDI], _win32_BITMAPCOREINFO_str, gdi.bitmapcoreinfo, tagBITMAPCOREINFO, wingdi/BITMAPCOREINFO, wingdi/PBITMAPCOREINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

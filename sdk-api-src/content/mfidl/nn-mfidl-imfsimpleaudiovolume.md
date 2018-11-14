@@ -9,8 +9,8 @@ ms.assetid: 002d85a7-8bc3-422e-8ced-1907ac121d7b
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], IMFSimpleAudioVolume interface [Media Foundation],described, mf.imfsimpleaudiovolume, mfidl/IMFSimpleAudioVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

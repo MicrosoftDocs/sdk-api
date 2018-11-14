@@ -9,8 +9,8 @@ ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCMSG_SIGNER_INFO, CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _CMSG_SIGNER_INFO, _crypto2_cmsg_signer_info, security.cmsg_signer_info, wincrypt/CMSG_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

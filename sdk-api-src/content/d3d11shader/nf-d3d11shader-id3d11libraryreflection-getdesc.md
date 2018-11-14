@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11shader.h
+: 
+- ID3D11LibraryReflection.GetDesc
+: 
 ---
 
 # ID3D11LibraryReflection::GetDesc
@@ -60,18 +68,18 @@ Fills the library descriptor structure for the library reflection.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280417(v=VS.85).aspx">D3D11_LIBRARY_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/A4AC9733-DB17-4855-AEB0-3DA7819F6627">D3D11_LIBRARY_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280417(v=VS.85).aspx">D3D11_LIBRARY_DESC</a> structure that receives a description of the library reflection.
+A pointer to a <a href="https://msdn.microsoft.com/A4AC9733-DB17-4855-AEB0-3DA7819F6627">D3D11_LIBRARY_DESC</a> structure that receives a description of the library reflection.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -81,7 +89,7 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280554(v=VS.85).aspx">ID3D11LibraryReflection</a>
+<a href="https://msdn.microsoft.com/59792EC6-B739-4D86-84F6-DC03AD3016F1">ID3D11LibraryReflection</a>
  
 
  

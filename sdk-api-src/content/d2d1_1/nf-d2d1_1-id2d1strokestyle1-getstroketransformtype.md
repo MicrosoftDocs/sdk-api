@@ -7,7 +7,7 @@ old-location: direct2d\id2d1strokestyle1_getstroketransformtype.htm
 tech.root: direct2d
 ms.assetid: bbf3726f-4f54-4914-a0f0-7b08add4c3e8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetStrokeTransformType, GetStrokeTransformType method [Direct2D], GetStrokeTransformType method [Direct2D],ID2D1StrokeStyle1 interface, ID2D1StrokeStyle1 interface [Direct2D],GetStrokeTransformType method, ID2D1StrokeStyle1.GetStrokeTransformType, ID2D1StrokeStyle1::GetStrokeTransformType, d2d1_1/ID2D1StrokeStyle1::GetStrokeTransformType, direct2d.id2d1strokestyle1_getstroketransformtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1StrokeStyle1.GetStrokeTransformType
+: 
 ---
 
 # ID2D1StrokeStyle1::GetStrokeTransformType

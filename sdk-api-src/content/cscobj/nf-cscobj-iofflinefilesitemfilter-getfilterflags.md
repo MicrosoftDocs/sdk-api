@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesItemFilter.GetFilterFlags
+: 
 ---
 
 # IOfflineFilesItemFilter::GetFilterFlags
@@ -61,7 +69,7 @@ Provides flags to control flag-based filtering of items.
 
 ### -param pullFlags [out]
 
-Receives the <a href="https://msdn.microsoft.com/en-us/library/Bb530661(v=VS.85).aspx">Offline Files Filter Flags</a> 
+Receives the <a href="https://msdn.microsoft.com/496126e0-d29b-415c-a3b3-44bdd9e71f78">Offline Files Filter Flags</a> 
        bit values to be used in the filter evaluation.
 
 A bit value of 1 means that the corresponding data condition in the item must be 
@@ -71,7 +79,7 @@ A bit value of 1 means that the corresponding data condition in the item must be
 
 ### -param pullMask [out]
 
-Receives the <a href="https://msdn.microsoft.com/en-us/library/Bb530661(v=VS.85).aspx">Offline Files Filter Flags</a> 
+Receives the <a href="https://msdn.microsoft.com/496126e0-d29b-415c-a3b3-44bdd9e71f78">Offline Files Filter Flags</a> 
        bit values identifying which flags are to be evaluated.
 
 A bit value of 1 means "evaluate the corresponding data" while a bit value of 0 means 
@@ -114,7 +122,7 @@ This method can be implemented in any filter type (inclusion or exclusion) or fi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530576(v=VS.85).aspx">IOfflineFilesItemFilter</a>
+<a href="https://msdn.microsoft.com/e77b4f90-7a08-47f8-b297-8c1360167e1f">IOfflineFilesItemFilter</a>
  
 
  

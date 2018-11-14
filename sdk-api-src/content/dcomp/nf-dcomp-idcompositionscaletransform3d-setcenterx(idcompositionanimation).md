@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionScaleTransform3D.SetCenterX
+: 
 ---
 
 # IDCompositionScaleTransform3D::SetCenterX(IDCompositionAnimation)

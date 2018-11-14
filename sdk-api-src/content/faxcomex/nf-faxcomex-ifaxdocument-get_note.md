@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxDocument.get_Note
+: 
 ---
 
 # IFaxDocument::get_Note

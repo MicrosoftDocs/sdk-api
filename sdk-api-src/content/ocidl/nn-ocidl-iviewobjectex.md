@@ -9,8 +9,8 @@ ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

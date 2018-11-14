@@ -9,8 +9,8 @@ ms.assetid: df0193c0-a40b-464f-8c82-08d1fe66fdf9
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: RAS_QUARANTINE_STATE, RAS_QUARANTINE_STATE enumeration [RAS], RAS_QUAR_STATE_NORMAL, RAS_QUAR_STATE_NOT_CAPABLE, RAS_QUAR_STATE_PROBATION, RAS_QUAR_STATE_QUARANTINE, _RAS_QUARANTINE_STATE, mprapi/RAS_QUARANTINE_STATE, mprapi/RAS_QUAR_STATE_NORMAL, mprapi/RAS_QUAR_STATE_NOT_CAPABLE, mprapi/RAS_QUAR_STATE_PROBATION, mprapi/RAS_QUAR_STATE_QUARANTINE, rras.ras_quarantine_state
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 

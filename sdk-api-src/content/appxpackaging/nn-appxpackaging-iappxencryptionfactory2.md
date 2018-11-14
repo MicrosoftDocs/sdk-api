@@ -9,8 +9,8 @@ ms.assetid: CEA749C5-1DD0-4207-83BA-905B8838A923
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxEncryptionFactory2, IAppxEncryptionFactory2 interface [App packaging and management], IAppxEncryptionFactory2 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory2, appxpkg.iappxencryptionfactory2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

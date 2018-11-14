@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DAD_SetDragImage
+: 
 ---
 
 # DAD_SetDragImage function
@@ -52,7 +58,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_SetDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/en-us/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> instead.]
+<p class="CCE_Message">[<b>DAD_SetDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/5b262b32-5ec2-4f19-8a76-4c318aec7dc7">ImageList_BeginDrag</a> instead.]
 
 Sets the drag image.
 

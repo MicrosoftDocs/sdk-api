@@ -9,8 +9,8 @@ ms.assetid: 53a29b57-1650-4e4d-b9d2-95307063a733
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IKsFormatSupport, IKsFormatSupport interface [Core Audio], IKsFormatSupport interface [Core Audio],described, coreaudio.iksformatsupport, devicetopology/IKsFormatSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

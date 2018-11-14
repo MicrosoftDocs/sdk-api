@@ -7,7 +7,7 @@ old-location: eaphost\eappeerbeginsession.htm
 tech.root: eaphost
 ms.assetid: 770a548c-c227-4708-bc40-08bf2681c90f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerBeginSession, EapPeerBeginSession function [EAPHost], eaphost.eappeerbeginsession, eapmethodpeerapis/EapPeerBeginSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapPeerBeginSession
+: 
 ---
 
 # EapPeerBeginSession function

@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_distantspecular_scale_mode.htm
 tech.root: direct2d
 ms.assetid: 5F23DE9E-F09A-4D1E-BA43-ABF51CB841BC
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_DISTANTSPECULAR_SCALE_MODE, D2D1_DISTANTSPECULAR_SCALE_MODE enumeration [Direct2D], D2D1_DISTANTSPECULAR_SCALE_MODE_ANISOTROPIC, D2D1_DISTANTSPECULAR_SCALE_MODE_CUBIC, D2D1_DISTANTSPECULAR_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_DISTANTSPECULAR_SCALE_MODE_LINEAR, D2D1_DISTANTSPECULAR_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_DISTANTSPECULAR_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE_CUBIC, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE_LINEAR, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_DISTANTSPECULAR_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_distantspecular_scale_mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706332(v=VS.85).aspx">Distant-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
+The interpolation mode the <a href="https://msdn.microsoft.com/74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31">Distant-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
         There are six scale modes that range in quality and speed.
 
 

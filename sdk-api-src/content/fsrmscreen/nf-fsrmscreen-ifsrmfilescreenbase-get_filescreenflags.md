@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmscreen.h
+: 
+- IFsrmFileScreenBase.get_FileScreenFlags
+: 
 ---
 
 # IFsrmFileScreenBase::get_FileScreenFlags

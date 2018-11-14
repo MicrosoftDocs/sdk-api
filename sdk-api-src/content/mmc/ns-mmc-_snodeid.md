@@ -9,8 +9,8 @@ ms.assetid: aeaee0d8-7abf-4549-b184-326ab130fcb7
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: SNodeID, SNodeID structure [MMC], _SNodeID, _slate_snodeid, mmc.snodeid, mmc/SNodeID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: GetSystemFirmwareTable function
 author: windows-sdk-content
 description: Retrieves the specified firmware table from the firmware table provider.
 old-location: base\getsystemfirmwaretable.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 3bfe81ca-6d04-4da1-9579-6b0b48faa4a2
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: GetSystemFirmwareTable, GetSystemFirmwareTable function, base.getsystemfirmwaretable, sysinfoapi/GetSystemFirmwareTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetSystemFirmwareTable
+: 
 ---
 
 # GetSystemFirmwareTable function
@@ -143,9 +149,13 @@ There is no way for applications to write to low physical memory.
 
 The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The <i>pFirmwareTableBuffer</i> buffer receives the following data:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 struct RawSMBIOSData
 {
@@ -156,10 +166,10 @@ struct RawSMBIOSData
     DWORD    Length;
     BYTE    SMBIOSTableData[];
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The function returns the size of the address range.
 
 The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://msdn.microsoft.com/42aaefc0-dc05-460d-931a-b702fa855bed">EnumSystemFirmwareTables</a> to enumerate all ACPI tables that are currently on the system.
@@ -171,9 +181,13 @@ For ACPI, if the system contains multiple tables with the same name, they are al
 
 The following example illustrates retrieving the SMBIOS table.
 
-
-```cpp
-DWORD error = ERROR_SUCCESS;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD error = ERROR_SUCCESS;
 DWORD smBiosDataSize = 0;
 RawSMBIOSData* smBiosData = NULL; // Defined in this link
 DWORD bytesWritten = 0;
@@ -197,10 +211,10 @@ if (bytesWritten != smBiosDataSize) {
 }
 
 // Process the SMBIOS data and free the memory under an exit label
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 1170fd74-7da4-49a8-b095-dd1572db382d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSignedLibrary, IMFSignedLibrary interface [Media Foundation], IMFSignedLibrary interface [Media Foundation],described, mf.imfsignedlibrary, mfidl/IMFSignedLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

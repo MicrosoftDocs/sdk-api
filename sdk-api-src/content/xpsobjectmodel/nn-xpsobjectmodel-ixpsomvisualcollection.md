@@ -9,8 +9,8 @@ ms.assetid: f373b437-3973-40aa-9cac-a6b196a3e5d1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging],described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

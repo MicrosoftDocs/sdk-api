@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- shutdown
+: 
 ---
 
 # shutdown function
@@ -127,7 +133,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +146,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +159,7 @@ This error applies only to a connection-oriented socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,7 +170,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -175,7 +181,7 @@ The <i>how</i> parameter is not valid, or is not consistent with the socket type
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +192,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +203,7 @@ The socket is not connected.  This error applies only to a connection-oriented s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +214,7 @@ The socket is not connected.  This error applies only to a connection-oriented s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">

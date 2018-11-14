@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10.h
+: 
+- ID3D10View.GetResource
+: 
 ---
 
 # ID3D10View::GetResource
@@ -61,9 +69,9 @@ Get the resource that is accessed through this view.
 
 ### -param ppResource [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>**</b>
 
-Address of a pointer to the resource that is accessed through this view. (See <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>.)
+Address of a pointer to the resource that is accessed through this view. (See <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>.)
 
 
 ## -returns
@@ -89,7 +97,7 @@ This function increments the reference count of the resource by one, so it is ne
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View Interface</a>
+<a href="https://msdn.microsoft.com/a0b0945c-f907-4212-9bd5-a05033cdee45">ID3D10View Interface</a>
  
 
  

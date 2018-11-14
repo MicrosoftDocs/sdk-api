@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- INetSharingManager.get_EnumPublicConnections
+: 
 ---
 
 # INetSharingManager::get_EnumPublicConnections

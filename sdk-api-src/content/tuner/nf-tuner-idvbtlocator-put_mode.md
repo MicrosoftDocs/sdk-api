@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDVBTLocator.put_Mode
+: 
 ---
 
 # IDVBTLocator::put_Mode

@@ -9,8 +9,8 @@ ms.assetid: BEB6BD9B-C265-4C92-98AD-59344B5274D4
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxEncryptionFactory4, IAppxEncryptionFactory4 interface [App packaging and management], IAppxEncryptionFactory4 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory4, appxpkg.iappxencryptionfactory4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

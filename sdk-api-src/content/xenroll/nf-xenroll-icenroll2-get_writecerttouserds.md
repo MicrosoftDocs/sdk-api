@@ -51,6 +51,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll2.get_WriteCertToUserDS
+: 
 ---
 
 # ICEnroll2::get_WriteCertToUserDS

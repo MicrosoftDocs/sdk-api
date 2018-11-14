@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::AddDelegatedPolicyUserName
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_adddelegatedpolicyusername.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9eeb4670-a3be-46dd-83b4-4ab12a311fe3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AddDelegatedPolicyUserName, AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security],AzAuthorizationStore object, AddDelegatedPolicyUserName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUserName method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUserName method, IAzAuthorizationStore.AddDelegatedPolicyUserName, IAzAuthorizationStore::AddDelegatedPolicyUserName, azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName, security.azauthorizationstore_adddelegatedpolicyusername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.AddDelegatedPolicyUserName
+: 
 ---
 
 # IAzAuthorizationStore::AddDelegatedPolicyUserName

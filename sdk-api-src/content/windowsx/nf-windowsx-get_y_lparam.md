@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- GET_Y_LPARAM
+: 
 ---
 
 # GET_Y_LPARAM macro
@@ -74,11 +82,11 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632654(v=VS.85).aspx">GET_X_LPARAM</a>
+<a href="https://msdn.microsoft.com/40f7dde6-1486-4050-b9b6-ffc2ed9982a9">GET_X_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a>
+<a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a>
 
 
 

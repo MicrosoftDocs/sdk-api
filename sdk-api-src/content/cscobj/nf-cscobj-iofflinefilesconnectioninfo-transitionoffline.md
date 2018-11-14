@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesConnectionInfo.TransitionOffline
+: 
 ---
 
 # IOfflineFilesConnectionInfo::TransitionOffline
@@ -120,11 +128,11 @@ Here is an example of how this method is used: When transitioning a scope offlin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530511(v=VS.85).aspx">IOfflineFilesConnectionInfo</a>
+<a href="https://msdn.microsoft.com/923c5657-67e7-498a-a46b-97d44368cf3b">IOfflineFilesConnectionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530515(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOnline</a>
+<a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">IOfflineFilesConnectionInfo::TransitionOnline</a>
  
 
  

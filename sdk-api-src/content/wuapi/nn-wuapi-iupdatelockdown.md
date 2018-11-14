@@ -9,8 +9,8 @@ ms.assetid: 918a46f5-a1da-4f47-84f1-b715fc97bb8f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
@@ -84,7 +84,7 @@ Restricts access to the methods and properties of the object that implements thi
 
 
 
-The <b>IUpdateLockdown</b> interface is derived from <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>, not <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
+The <b>IUpdateLockdown</b> interface is derived from <a href="_com_iunknown">IUnknown</a>, not <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
 
 The following classes implement the <b>IUpdateLockdown</b> interface:
 

@@ -9,8 +9,8 @@ ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSubtitlingDescriptor, mstv.idvbsubtitlingdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

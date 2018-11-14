@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptEnumKeyIdentifierProperties
+: 
 ---
 
 # CryptEnumKeyIdentifierProperties function
@@ -149,7 +155,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Base Cryptography Functions</a>
+<a href="cryptography_functions.htm">Base Cryptography Functions</a>
 
 
 

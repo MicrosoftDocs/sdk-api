@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509CertificateTemplate.get_Property
+: 
 ---
 
 # IX509CertificateTemplate::get_Property
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a>
+<a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a>
  
 
  

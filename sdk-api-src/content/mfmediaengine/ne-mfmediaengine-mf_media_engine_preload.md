@@ -9,8 +9,8 @@ ms.assetid: 784B3B3F-0A9E-4E34-9197-CE20E2F3FF78
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MF_MEDIA_ENGINE_PRELOAD, MF_MEDIA_ENGINE_PRELOAD enumeration [Media Foundation], MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC, MF_MEDIA_ENGINE_PRELOAD_EMPTY, MF_MEDIA_ENGINE_PRELOAD_METADATA, MF_MEDIA_ENGINE_PRELOAD_MISSING, MF_MEDIA_ENGINE_PRELOAD_NONE, mf.mf_media_engine_preload, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_EMPTY, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_METADATA, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_MISSING, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_NONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

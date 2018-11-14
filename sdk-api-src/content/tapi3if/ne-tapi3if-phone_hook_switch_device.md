@@ -9,8 +9,8 @@ ms.assetid: 20b17e2f-f745-41ef-91ac-d2ab21d43695
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PHONE_HOOK_SWITCH_DEVICE, PHONE_HOOK_SWITCH_DEVICE enumeration [TAPI 2.2], PHSD_HANDSET, PHSD_HEADSET, PHSD_SPEAKERPHONE, _tapi3_phone_hook_switch_device, tapi3.phone_hook_switch_device, tapi3if/PHONE_HOOK_SWITCH_DEVICE, tapi3if/PHSD_HANDSET, tapi3if/PHSD_HEADSET, tapi3if/PHSD_SPEAKERPHONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

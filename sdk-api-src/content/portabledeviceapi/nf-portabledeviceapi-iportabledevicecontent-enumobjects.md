@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- portabledeviceapi.h
+: 
+- IPortableDeviceContent.EnumObjects
+: 
 ---
 
 # IPortableDeviceContent::EnumObjects
@@ -141,7 +149,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
  
 
  

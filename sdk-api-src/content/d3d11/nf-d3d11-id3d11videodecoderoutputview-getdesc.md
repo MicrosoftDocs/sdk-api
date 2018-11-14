@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoDecoderOutputView.GetDesc
+: 
 ---
 
 # ID3D11VideoDecoderOutputView::GetDesc
@@ -61,7 +69,7 @@ Gets the properties of the video decoder output view.
 
 ### -param pDesc [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh447646(v=VS.85).aspx">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
+A pointer to a <a href="https://msdn.microsoft.com/0A0C29C5-C3A3-43E7-86DA-1849AC276060">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
 
 
 ## -returns
@@ -78,7 +86,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447767(v=VS.85).aspx">ID3D11VideoDecoderOutputView</a>
+<a href="https://msdn.microsoft.com/389E0CCC-4DD2-4E82-84D7-3794AEE59208">ID3D11VideoDecoderOutputView</a>
  
 
  

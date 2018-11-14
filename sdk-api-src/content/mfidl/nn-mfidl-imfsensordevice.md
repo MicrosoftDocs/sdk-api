@@ -9,8 +9,8 @@ ms.assetid: 061EF002-178E-42CA-9D32-7E1282297BA4
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], IMFSensorDevice interface [Media Foundation],described, mf.imfsensordevice, mfidl/IMFSensorDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

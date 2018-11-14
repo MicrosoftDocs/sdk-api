@@ -9,8 +9,8 @@ ms.assetid: e9ffa8ba-98a2-431c-a069-20ed4a45e6f8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplatform, tagCSPLATFORM, wtypes/tagCSPLATFORM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 

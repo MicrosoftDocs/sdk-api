@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mfapi.h
+: 
+- DEFINE_MEDIATYPE_GUID
+: 
 ---
 
 # DEFINE_MEDIATYPE_GUID macro

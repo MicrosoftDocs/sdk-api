@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certmod.h
+: 
+- ICertManageModule.SetProperty
+: 
 ---
 
 # ICertManageModule::SetProperty
@@ -62,14 +70,14 @@ The <b>SetProperty</b> method allows a module to set a property value.
 
 ### -param strConfig [in]
 
-Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 
 ### -param strStorageLocation [in]
 
 The location that provides storage for the property values, as described in the definition of <i>strStorageLocation</i> in 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385031(v=VS.85).aspx">ICertManageModule::GetProperty</a>.
+<a href="https://msdn.microsoft.com/f01bfcec-7031-4283-a847-0d59929e4ee5">ICertManageModule::GetProperty</a>.
 
 
 ### -param strPropertyName [in]
@@ -152,7 +160,7 @@ A value that is being assigned to the property specified by <i>strPropertyName</
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -161,7 +169,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-This method is intended for future functionality. A minimal implementation is required, however, to meet the requirements of the <a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.85).aspx">ICertManageModule</a> interface.
+This method is intended for future functionality. A minimal implementation is required, however, to meet the requirements of the <a href="https://msdn.microsoft.com/82b7b770-c098-40da-8a4e-8eb0e0b8a645">ICertManageModule</a> interface.
 
 
 #### Examples
@@ -201,15 +209,15 @@ HRESULT CCertManagePolicyModule::SetProperty(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.85).aspx">ICertManageModule</a>
+<a href="https://msdn.microsoft.com/82b7b770-c098-40da-8a4e-8eb0e0b8a645">ICertManageModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385031(v=VS.85).aspx">ICertManageModule::GetProperty</a>
+<a href="https://msdn.microsoft.com/f01bfcec-7031-4283-a847-0d59929e4ee5">ICertManageModule::GetProperty</a>
  
 
  

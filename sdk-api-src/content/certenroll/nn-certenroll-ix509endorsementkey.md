@@ -9,8 +9,8 @@ ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -55,10 +55,10 @@ X.509 Endorsement Key Interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EndorsementKey</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509EndorsementKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EndorsementKey</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509EndorsementKey</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IX509EndorsementKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379357(v=VS.85).aspx">AddCertificate</a>
+<a href="https://msdn.microsoft.com/24621d53-c435-43e9-b709-619908f09f3b">AddCertificate</a>
 </td>
 <td align="left" width="63%">
 Add an endorsement key certificate to the key storage provider (KSP) that supports endorsement keys.
@@ -80,7 +80,7 @@ Add an endorsement key certificate to the key storage provider (KSP) that suppor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379358(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/71855c96-a828-4bb6-849a-53be8269277d">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the endorsement key.
@@ -89,7 +89,7 @@ Closes the endorsement key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379359(v=VS.85).aspx">ExportPublicKey</a>
+<a href="https://msdn.microsoft.com/b38c6421-2918-4d0e-81ed-d9d575817efa">ExportPublicKey</a>
 </td>
 <td align="left" width="63%">
 Exports the endorsement public key.
@@ -107,7 +107,7 @@ Gets the endorsement certificate associated with the endorsement key from the ke
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379361(v=VS.85).aspx">GetCertificateCount</a>
+<a href="https://msdn.microsoft.com/1a8ae8f9-c4df-4701-845d-7f9a42593d57">GetCertificateCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of the endorsement certificates in the key storage provider.
@@ -116,7 +116,7 @@ Gets the count of the endorsement certificates in the key storage provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the endorsement key.
@@ -125,7 +125,7 @@ Opens the endorsement key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379368(v=VS.85).aspx">RemoveCertificate</a>
+<a href="https://msdn.microsoft.com/40c5d77c-9b0d-4ee4-a02e-cec9b2f1b392">RemoveCertificate</a>
 </td>
 <td align="left" width="63%">
 Removes an endorsement certificate related to the endorsement key from the key storage provider.
@@ -143,7 +143,7 @@ Removes an endorsement certificate related to the endorsement key from the key s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379362(v=VS.85).aspx">Length</a>
+<a href="https://msdn.microsoft.com/31a94a37-ab56-4cb5-b4e0-ab3c74b748a0">Length</a>
 
 
 </td>
@@ -159,7 +159,7 @@ The bit length of the endorsement key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379365(v=VS.85).aspx">Opened</a>
+<a href="https://msdn.microsoft.com/6bc1030b-66c9-4175-a3bb-6194d039c73f">Opened</a>
 
 
 </td>
@@ -168,14 +168,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates whether the <a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a> method has been successfully called.
+Indicates whether the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been successfully called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379367(v=VS.85).aspx">ProviderName</a>
+<a href="https://msdn.microsoft.com/5031d14d-8a10-4821-aed4-b49e12027d91">ProviderName</a>
 
 
 </td>

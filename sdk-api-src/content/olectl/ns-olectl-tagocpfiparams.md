@@ -9,8 +9,8 @@ ms.assetid: d65d8239-495c-4eee-bd9c-8e803fd09a06
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPOCPFIPARAMS, LPOCPFIPARAMS, LPOCPFIPARAMS structure pointer [COM], OCPFIPARAMS, OCPFIPARAMS structure [COM], _ctrl_OCPFIPARAMS, com.ocpfiparams, olectl/LPOCPFIPARAMS, olectl/OCPFIPARAMS, tagOCPFIPARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: olectl.h
 req.include-header: 

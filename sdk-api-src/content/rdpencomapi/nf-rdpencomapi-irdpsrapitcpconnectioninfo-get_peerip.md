@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPITcpConnectionInfo.get_PeerIP
+: 
 ---
 
 # IRDPSRAPITcpConnectionInfo::get_PeerIP

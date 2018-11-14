@@ -9,8 +9,8 @@ ms.assetid: b4f686be-9472-433c-b983-6c48dfd3ac76
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFMediaEvent, IMFMediaEvent interface [Media Foundation], IMFMediaEvent interface [Media Foundation],described, b4f686be-9472-433c-b983-6c48dfd3ac76, mf.imfmediaevent, mfobjects/IMFMediaEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

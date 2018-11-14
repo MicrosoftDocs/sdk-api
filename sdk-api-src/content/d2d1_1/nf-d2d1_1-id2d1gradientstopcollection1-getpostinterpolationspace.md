@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gradientstopcollection1_getpostinterpolationspace.ht
 tech.root: direct2d
 ms.assetid: fb579d25-f38c-4f26-a29b-c6875cbabb3b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetPostInterpolationSpace, GetPostInterpolationSpace method [Direct2D], GetPostInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPostInterpolationSpace method, ID2D1GradientStopCollection1.GetPostInterpolationSpace, ID2D1GradientStopCollection1::GetPostInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPostInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpostinterpolationspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1GradientStopCollection1.GetPostInterpolationSpace
+: 
 ---
 
 # ID2D1GradientStopCollection1::GetPostInterpolationSpace

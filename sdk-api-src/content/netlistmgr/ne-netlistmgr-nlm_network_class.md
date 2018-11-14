@@ -9,8 +9,8 @@ ms.assetid: 397602c6-efc5-454a-999b-26ea26cb56cd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: NLM_NETWORK_CLASS, NLM_NETWORK_CLASS enumeration [Network Awareness], NLM_NETWORK_IDENTIFIED, NLM_NETWORK_IDENTIFYING, NLM_NETWORK_UNIDENTIFIED, netlistmgr/NLM_NETWORK_CLASS, netlistmgr/NLM_NETWORK_IDENTIFIED, netlistmgr/NLM_NETWORK_IDENTIFYING, netlistmgr/NLM_NETWORK_UNIDENTIFIED, nla.nlm_network_class
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: base\symsearch.htm
 tech.root: debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- SymSearchW
+: 
 ---
 
 # SymSearchW function

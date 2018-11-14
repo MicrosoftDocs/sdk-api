@@ -9,8 +9,8 @@ ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTA, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, tagHIGHCONTRASTA, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

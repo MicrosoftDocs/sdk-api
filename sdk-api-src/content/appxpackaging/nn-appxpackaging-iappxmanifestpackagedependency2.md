@@ -9,8 +9,8 @@ ms.assetid: 9363C5BB-BDEF-4671-9545-5B8C0EF14FBE
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxManifestPackageDependency2, IAppxManifestPackageDependency2 interface [App packaging and management], IAppxManifestPackageDependency2 interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependency2, appxpkg.iappxmanifestpackagedependency2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 77cce7a4-a0e6-48f7-933f-a216b13ddc93
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DdGetBltStatus, DdGetBltStatus callback function [Display Devices], PDD_SURFCB_GETBLTSTATUS, PDD_SURFCB_GETBLTSTATUS callback, ddfncs_b4844b94-b4ec-402e-87c3-b7d83a980963.xml, ddrawint/DdGetBltStatus, display.ddgetbltstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

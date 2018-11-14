@@ -9,8 +9,8 @@ ms.assetid: 95389593-ce88-4f23-ae87-ff1cb67c2e8c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVEncVideoOutputScanType, codecapi/eAVEncVideoOutputScan_Automatic, codecapi/eAVEncVideoOutputScan_Interlaced, codecapi/eAVEncVideoOutputScan_Progressive, codecapi/eAVEncVideoOutputScan_SameAsInput, dshow.eavencvideooutputscantype, eAVEncVideoOutputScanType, eAVEncVideoOutputScanType enumeration [DirectShow], eAVEncVideoOutputScanTypeEnumeration, eAVEncVideoOutputScan_Automatic, eAVEncVideoOutputScan_Interlaced, eAVEncVideoOutputScan_Progressive, eAVEncVideoOutputScan_SameAsInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

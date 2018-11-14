@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- peninputpanel.h
+: 
+- IPenInputPanel.get_Height
+: 
 ---
 
 # IPenInputPanel::get_Height

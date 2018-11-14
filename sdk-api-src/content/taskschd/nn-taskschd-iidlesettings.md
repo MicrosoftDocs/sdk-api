@@ -9,8 +9,8 @@ ms.assetid: a6bd9278-b9ac-4eb3-957a-5191cee12a6f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], IIdleSettings interface [Task Scheduler],described, taskschd.iidlesettings, taskschd/IIdleSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -83,7 +83,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

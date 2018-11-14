@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MMCPropPageCallback
+: 
 ---
 
 # MMCPropPageCallback function
@@ -62,7 +68,7 @@ The
 ### -param vpsp
 
 A pointer to the Microsoft Windows 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
+<a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
 
 
 ## -returns

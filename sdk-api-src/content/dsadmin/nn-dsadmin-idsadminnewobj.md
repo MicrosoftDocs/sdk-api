@@ -9,8 +9,8 @@ ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 
@@ -94,7 +94,7 @@ Enables or disables the "Next" command button in the wizard for a specific page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
+<a href="ad.admin_interfaes_in_active_directory_domain_services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 

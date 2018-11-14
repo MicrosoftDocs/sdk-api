@@ -9,8 +9,8 @@ ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediacapture.h
 req.include-header: 

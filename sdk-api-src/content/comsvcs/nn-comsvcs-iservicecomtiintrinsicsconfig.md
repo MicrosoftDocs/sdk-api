@@ -9,8 +9,8 @@ ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

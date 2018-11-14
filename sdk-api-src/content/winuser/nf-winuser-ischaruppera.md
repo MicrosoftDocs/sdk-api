@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsCharUpperA
+: 
 ---
 
 # IsCharUpperA function
@@ -95,7 +101,7 @@ If the character is not uppercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647484(v=VS.85).aspx">IsCharLower</a>
+<a href="https://msdn.microsoft.com/5ab10397-c4e0-4d78-a017-1ea8a6f9b9ae">IsCharLower</a>
 
 
 
@@ -103,7 +109,7 @@ If the character is not uppercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

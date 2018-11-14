@@ -51,6 +51,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbTarget.put_IpAddresses
+: 
 ---
 
 # ITsSbTarget::put_IpAddresses

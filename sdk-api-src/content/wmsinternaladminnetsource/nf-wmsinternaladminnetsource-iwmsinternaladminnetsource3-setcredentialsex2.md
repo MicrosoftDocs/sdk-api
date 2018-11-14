@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsinternaladminnetsource.h
+: 
+- IWMSInternalAdminNetSource3.SetCredentialsEx2
+: 
 ---
 
 # IWMSInternalAdminNetSource3::SetCredentialsEx2

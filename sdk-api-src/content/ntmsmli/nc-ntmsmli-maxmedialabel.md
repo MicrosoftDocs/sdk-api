@@ -9,8 +9,8 @@ ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ntmsmli.h
 req.include-header: 
@@ -110,7 +110,7 @@ When the media format of the media specified in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Label Library Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Label Library Functions</a>
  
 
  

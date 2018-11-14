@@ -9,8 +9,8 @@ ms.assetid: 364EC709-C41C-4ADD-8E7D-6A635E5BCCDA
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInputSink class [RDP],described, rdp.irdpviewerinputsink, rdpencomapi/IRDPViewerInputSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: multimedia\waveinclose.htm
 tech.root: Multimedia
 ms.assetid: e064edee-7b13-4fbe-8be9-a8bdfc1cae79
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveInClose, mmeapi/waveInClose, multimedia.waveinclose, waveInClose, waveInClose function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveInClose
+: 
 ---
 
 # waveInClose function

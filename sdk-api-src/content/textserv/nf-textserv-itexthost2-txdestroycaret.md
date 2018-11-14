@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextHost2.TxDestroyCaret
+: 
 ---
 
 # ITextHost2::TxDestroyCaret

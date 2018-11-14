@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certview.h
+: 
+- IEnumCERTVIEWEXTENSION.Reset
+: 
 ---
 
 # IEnumCERTVIEWEXTENSION::Reset
@@ -68,7 +76,7 @@ The <b>Reset</b> method moves to the beginning of the extension-enumeration sequ
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -78,20 +86,20 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Upon successful completion of this method, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a> method to reference the first extension in the extension-enumeration sequence.
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a> method to reference the first extension in the extension-enumeration sequence.
 
 The extension name, flags, and value can be accessed through 
 the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386211(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetName</a>
+<a href="https://msdn.microsoft.com/7c56708c-ae25-46f5-94f3-d58eea8d08d4">IEnumCERTVIEWEXTENSION::GetName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386208(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetFlags</a>
+<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">IEnumCERTVIEWEXTENSION::GetFlags</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386216(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetValue</a>
+<a href="https://msdn.microsoft.com/7a81b096-36ba-416a-ad15-5bf1c4d512dd">IEnumCERTVIEWEXTENSION::GetValue</a>
 </li>
 </ul>
 
@@ -130,23 +138,23 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386203(v=VS.85).aspx">IEnumCERTVIEWEXTENSION</a>
+<a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">IEnumCERTVIEWEXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386208(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetFlags</a>
+<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">IEnumCERTVIEWEXTENSION::GetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386211(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetName</a>
+<a href="https://msdn.microsoft.com/7c56708c-ae25-46f5-94f3-d58eea8d08d4">IEnumCERTVIEWEXTENSION::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386216(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetValue</a>
+<a href="https://msdn.microsoft.com/7a81b096-36ba-416a-ad15-5bf1c4d512dd">IEnumCERTVIEWEXTENSION::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>
  
 
  

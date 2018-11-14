@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2fs.h
+: 
+- IFileSystemImage.put_ISO9660InterchangeLevel
+: 
 ---
 
 # IFileSystemImage::put_ISO9660InterchangeLevel

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPathIterator.GetSubpathCount
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -78,31 +86,31 @@ This method returns the number of subpaths (also called figures) in the path.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535529(v=VS.85).aspx">CloseFigure</a>
+<a href="https://msdn.microsoft.com/8f828820-7dd6-4dd0-959c-4dcfb1ca6ac7">CloseFigure</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="https://msdn.microsoft.com/91137029-182d-4dc5-89a3-f3835f55d327">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535569(v=VS.85).aspx">StartFigure</a>
+<a href="https://msdn.microsoft.com/3c503ff5-6f20-45bd-b61e-13dd0f3efca5">StartFigure</a>
  
 
  

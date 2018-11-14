@@ -9,8 +9,8 @@ ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures structure pointer [Security], SecPkgContext_SupportedSignatures, SecPkgContext_SupportedSignatures structure [Security], _SecPkgContext_SupportedSignatures, schannel/PSecPkgContext_SupportedSignatures, schannel/SecPkgContext_SupportedSignatures, security.secpkgcontext_supportedsignatures"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

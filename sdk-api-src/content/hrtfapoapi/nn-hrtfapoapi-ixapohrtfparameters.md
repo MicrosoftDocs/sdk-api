@@ -9,8 +9,8 @@ ms.assetid: EDA29173-84B5-4D2F-90B0-546EEEC49539
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IXAPOHrtfParameters, IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs], IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],described, hrtfapoapi/IXAPOHrtfParameters, xaudio2.ixapohrtfparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: hrtfapoapi.h
 req.include-header: 

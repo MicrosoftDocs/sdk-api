@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\structures\wab_param.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows Address Book], WAB_ENABLE_PROFILES, WAB_PARAM, WAB_PARAM structure [Windows Address Book], WAB_USE_OE_SENDMAIL, _tagWAB_PARAM, _wab_WAB_PARAM, wab._wab_WAB_PARAM, wabapi/LPWAB_PARAM, wabapi/WAB_PARAM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabapi.h
 req.include-header: 
@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Do not use. Contains the input information to pass to <a href="https://msdn.microsoft.com/en-us/library/ms629715(v=VS.85).aspx">WABOpen</a>.
+Do not use. Contains the input information to pass to <a href="https://msdn.microsoft.com/68f2dcd5-9153-488a-ab9b-7cc03b09a87f">WABOpen</a>.
 
 
 ## -struct-fields

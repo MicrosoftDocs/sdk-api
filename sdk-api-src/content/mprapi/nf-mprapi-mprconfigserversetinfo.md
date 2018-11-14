@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MprConfigServerSetInfo
+: 
 ---
 
 # MprConfigServerSetInfo function
@@ -206,7 +212,7 @@ The topic <a href="https://msdn.microsoft.com/9e4aa8d4-e09e-4c84-acf0-c505a58841
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

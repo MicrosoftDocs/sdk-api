@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnSmsConfiguration.get_CdmaShortMsgSize
+: 
 ---
 
 # IMbnSmsConfiguration::get_CdmaShortMsgSize

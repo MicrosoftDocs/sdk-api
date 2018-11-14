@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesSetting.GetPolicyScope
+: 
 ---
 
 # IOfflineFilesSetting::GetPolicyScope
@@ -99,7 +107,7 @@ Note that this is an indication of the supported scopes, not of the applied scop
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a>
+<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
  
 
  

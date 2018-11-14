@@ -9,8 +9,8 @@ ms.assetid: 8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], IFsrmStorageModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmstoragemoduleimplementation, fsrm.ifsrmstoragemoduleimplementation, fsrm/IFsrmStorageModuleImplementation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IDVB_EIT.GetSegmentLastSectionNumber
+: 
 ---
 
 # IDVB_EIT::GetSegmentLastSectionNumber

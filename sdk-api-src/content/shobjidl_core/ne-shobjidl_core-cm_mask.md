@@ -9,8 +9,8 @@ ms.assetid: c6ba9410-7c56-428c-9ad9-4e769c047863
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CM_MASK, CM_MASK enumeration [Windows Shell], CM_MASK_DEFAULTWIDTH, CM_MASK_IDEALWIDTH, CM_MASK_NAME, CM_MASK_STATE, CM_MASK_WIDTH, shell.CM_MASK, shell_CM_MASK, shobjidl_core/CM_MASK, shobjidl_core/CM_MASK_DEFAULTWIDTH, shobjidl_core/CM_MASK_IDEALWIDTH, shobjidl_core/CM_MASK_NAME, shobjidl_core/CM_MASK_STATE, shobjidl_core/CM_MASK_WIDTH
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

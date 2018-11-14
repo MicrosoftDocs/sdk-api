@@ -9,8 +9,8 @@ ms.assetid: e832ffc4-31db-41b1-a008-04696d9a975e
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteTextAnalyzer, IDWriteTextAnalyzer interface [Direct Write], IDWriteTextAnalyzer interface [Direct Write],described, directwrite.IDWriteTextAnalyzer, dwrite/IDWriteTextAnalyzer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10sdklayers.h
+: 
+- ID3D10InfoQueue.SetBreakOnCategory
+: 
 ---
 
 # ID3D10InfoQueue::SetBreakOnCategory
@@ -60,9 +68,9 @@ Set a message category to break on when a message with that category passes thro
 
 ### -param Category [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205323(v=VS.85).aspx">D3D10_MESSAGE_CATEGORY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/35256b90-4ba4-45ec-ad3e-a19884868740">D3D10_MESSAGE_CATEGORY</a></b>
 
-Message category to break on (see <a href="https://msdn.microsoft.com/en-us/library/Bb205323(v=VS.85).aspx">D3D10_MESSAGE_CATEGORY</a>).
+Message category to break on (see <a href="https://msdn.microsoft.com/35256b90-4ba4-45ec-ad3e-a19884868740">D3D10_MESSAGE_CATEGORY</a>).
 
 
 ### -param bEnable [in]
@@ -76,9 +84,9 @@ Turns this breaking condition on or off (true for on, false for off).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -88,7 +96,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterv
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 
@@ -70,14 +70,14 @@ The <b>IInterval</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231367(v=VS.85).aspx">GetLimits</a>
+<a href="https://msdn.microsoft.com/631f3ec2-cf8f-4c20-8933-c83bac4b3d58">GetLimits</a>
 </td>
 <td align="left" width="63%">
 Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
         
 
 
-When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <b>IInterval</b>.
+When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="_stg_propvariant">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <b>IInterval</b>.
 
 </td>
 </tr>

@@ -9,8 +9,8 @@ ms.assetid: 53305594-4539-490E-B034-99355265F175
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], _WNV_REDIRECT_PARAM, wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 

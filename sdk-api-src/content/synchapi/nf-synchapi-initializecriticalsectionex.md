@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InitializeCriticalSectionEx
+: 
 ---
 
 # InitializeCriticalSectionEx function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- restrictederrorinfo.h
+: 
+- ILanguageExceptionErrorInfo2.CapturePropagationContext
+: 
 ---
 
 # ILanguageExceptionErrorInfo2::CapturePropagationContext

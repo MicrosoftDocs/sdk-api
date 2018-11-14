@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddressDeviceSpecificEvent.get_lParam1
+: 
 ---
 
 # ITAddressDeviceSpecificEvent::get_lParam1

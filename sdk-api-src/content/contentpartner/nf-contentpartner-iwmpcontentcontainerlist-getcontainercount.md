@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- contentpartner.h
+: 
+- IWMPContentContainerList.GetContainerCount
+: 
 ---
 
 # IWMPContentContainerList::GetContainerCount
@@ -101,11 +109,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563131(v=VS.85).aspx">IWMPContentContainerList Interface</a>
+<a href="https://msdn.microsoft.com/a8fd239b-2a53-4db4-8a82-a7c510d215bc">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563132(v=VS.85).aspx">IWMPContentContainerList::GetContainer</a>
+<a href="https://msdn.microsoft.com/8922aeed-0598-4dc8-86ac-e113697fcea9">IWMPContentContainerList::GetContainer</a>
  
 
  

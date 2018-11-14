@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.put_UseExistingKeySet
+: 
 ---
 
 # ICEnroll::put_UseExistingKeySet
@@ -96,28 +104,32 @@ The <b>UseExistingKeySet</b> property affects the behavior of the following meth
 
 #### Examples
 
-
-```cpp
-BOOL     bUEKS;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL     bUEKS;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the UseExistingKeySet value
-hr = pEnroll->get_UseExistingKeySet( &bUEKS );
+hr = pEnroll-&gt;get_UseExistingKeySet( &amp;bUEKS );
 if (FAILED( hr ))
     printf("Failed get_UseExistingKeySet - %x\n", hr );
 else
     printf( "UseExistingKeySet: %d\n", bUEKS );
 
 // set the UseExistingKeySet value
-hr = pEnroll->put_UseExistingKeySet( TRUE );
+hr = pEnroll-&gt;put_UseExistingKeySet( TRUE );
 if (FAILED( hr ))
     printf("Failed put_UseExistingKeySet - %x\n", hr );
 else
-    printf( "UseExistingKeySet set to TRUE\n" );
-```
-
-
+    printf( "UseExistingKeySet set to TRUE\n" );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

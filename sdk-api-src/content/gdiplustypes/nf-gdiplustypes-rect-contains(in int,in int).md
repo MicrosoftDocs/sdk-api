@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- Rect.Contains
+: 
 req.product: GDI+ 1.0
 ---
 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BeginNtmsDeviceChangeDetection
+: 
 ---
 
 # BeginNtmsDeviceChangeDetection function
@@ -128,7 +134,7 @@ After calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
+<a href="removable_storage_manager_functions.htm">Change Detection Functions</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\faxinta_n_i
 ms.author: windowssdkdev
 ms.date: 11/08/2018
 ms.keywords: IFaxAccounts, IFaxAccounts interface [Fax Service], IFaxAccounts interface [Fax Service],described, _mfax_faxaccounts_cpp, fax._mfax_faxaccounts_cpp, faxcomex/IFaxAccounts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
@@ -56,7 +56,7 @@ Represents the collection of fax accounts on the fax server. It provides methods
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,10 +72,10 @@ The <b>IFaxAccounts</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359020(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/bdbf117a-6855-4306-9572-5355fdccdfc3">get_Item</a>
 </td>
 <td align="left" width="63%">
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object from a <a href="https://msdn.microsoft.com/en-us/library/Aa358940(v=VS.85).aspx">FaxAccounts</a> collection. 
+Returns a <a href="https://msdn.microsoft.com/85adc440-3dc8-47ce-aae8-dfb04f824b09">FaxAccount</a> object from a <a href="https://msdn.microsoft.com/bf26e82e-af97-43a1-81be-1bcb61b6cf98">FaxAccounts</a> collection. 
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).as
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359018(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/af926d20-fd72-4b9a-ba70-e3bf64eda3a4">Count</a>
 
 
 </td>
@@ -106,7 +106,7 @@ Holds the number of items in the <b>IFaxAccounts</b> collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359021(v=VS.85).aspx">NewEnum</a>
+<a href="https://msdn.microsoft.com/90eebc3b-1113-4512-b08f-5d73df8b2d7f">NewEnum</a>
 
 
 </td>
@@ -126,7 +126,7 @@ Holds the enumerator for the <b>IFaxAccounts</b> object.
 
 
 
-A default implementation of <b>IFaxAccounts</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/Aa358940(v=VS.85).aspx">FaxAccounts</a> object. The interface and the object are supported only on Windows Vista or later.
+A default implementation of <b>IFaxAccounts</b> is provided as the <a href="https://msdn.microsoft.com/bf26e82e-af97-43a1-81be-1bcb61b6cf98">FaxAccounts</a> object. The interface and the object are supported only on Windows Vista or later.
 
 
 

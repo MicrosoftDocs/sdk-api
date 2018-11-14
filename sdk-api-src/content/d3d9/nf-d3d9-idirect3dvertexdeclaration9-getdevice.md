@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DVertexDeclaration9.GetDevice
+: 
 ---
 
 # IDirect3DVertexDeclaration9::GetDevice
@@ -61,7 +69,7 @@ Gets the current device.
 
 ### -param ppDevice [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>**</b>
 
 Pointer to the IDirect3DDevice9 interface that is returned.
 
@@ -70,7 +78,7 @@ Pointer to the IDirect3DDevice9 interface that is returned.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
@@ -83,7 +91,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>
+<a href="https://msdn.microsoft.com/3c4a18a5-5307-48d0-8a21-afb343d5d816">IDirect3DVertexDeclaration9</a>
  
 
  

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- control.h
+: 
+- IMediaEvent.CancelDefaultHandling
+: 
 ---
 
 # IMediaEvent::CancelDefaultHandling
@@ -110,7 +118,7 @@ No default handling for this event.
 
 
 
-To restore the default handling for an event, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406912(v=VS.85).aspx">IMediaEvent::RestoreDefaultHandling</a> method with the event code.
+To restore the default handling for an event, call the <a href="https://msdn.microsoft.com/2df616b0-b944-44ab-8147-4f70796dd2a2">IMediaEvent::RestoreDefaultHandling</a> method with the event code.
 
 
 
@@ -120,11 +128,11 @@ To restore the default handling for an event, call the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
  
 
  

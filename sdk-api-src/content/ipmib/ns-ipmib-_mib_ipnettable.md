@@ -9,8 +9,8 @@ ms.assetid: 1cac1c19-bc42-4aee-b9d0-d007b8798eeb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_IPNETTABLE, MIB_IPNETTABLE, MIB_IPNETTABLE structure [MIB], PMIB_IPNETTABLE, PMIB_IPNETTABLE structure pointer [MIB], _MIB_IPNETTABLE, _mpr_mib_ipnettable, ipmib/MIB_IPNETTABLE, ipmib/PMIB_IPNETTABLE, iprtrmib/MIB_IPNETTABLE, iprtrmib/PMIB_IPNETTABLE, mib.mib_ipnettable, rras.mib_ipnettable"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
@@ -75,7 +75,7 @@ A pointer to a table of ARP entries implemented as an array of
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa365956(v=VS.85).aspx">GetIpNetTable</a> function retrieves the IPv4-to-physical address mapping table.
+The <a href="_iphlp_getipnettable">GetIpNetTable</a> function retrieves the IPv4-to-physical address mapping table.
 
 
 on a local system and returns this information in a <b>MIB_IPNETTABLE</b> structure. 
@@ -98,7 +98,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365956(v=VS.85).aspx">GetIpNetTable</a>
+<a href="_iphlp_getipnettable">GetIpNetTable</a>
 
 
 

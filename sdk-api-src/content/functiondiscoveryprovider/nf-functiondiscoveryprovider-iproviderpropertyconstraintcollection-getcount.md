@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- functiondiscoveryprovider.h
+: 
+- IProviderPropertyConstraintCollection.GetCount
+: 
 ---
 
 # IProviderPropertyConstraintCollection::GetCount

@@ -9,8 +9,8 @@ ms.assetid: b08c8905-1a6d-485f-9136-d63efd0e8194
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, MMC_BUTTON_STATE, MMC_BUTTON_STATE enumeration [MMC], _MMC_BUTTON_STATE, _slate_mmc_button_state, mmc.mmc_button_state, mmc/BUTTONPRESSED, mmc/CHECKED, mmc/ENABLED, mmc/HIDDEN, mmc/INDETERMINATE, mmc/MMC_BUTTON_STATE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 

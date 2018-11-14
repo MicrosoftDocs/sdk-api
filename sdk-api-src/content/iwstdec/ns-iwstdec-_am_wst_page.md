@@ -9,8 +9,8 @@ ms.assetid: 6bed254f-35e4-40d0-9a59-0a2575aa61e1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PAM_WST_PAGE, AM_WST_PAGE, AM_WST_PAGE structure [DirectShow], AM_WST_PAGEStructure, PAM_WST_PAGE, PAM_WST_PAGE structure pointer [DirectShow], _AM_WST_PAGE, dshow.am_wst_page, iwstdec/AM_WST_PAGE, iwstdec/PAM_WST_PAGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iwstdec.h
 req.include-header: 

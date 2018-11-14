@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_extended_operation_sA
+: 
 ---
 
 # ldap_extended_operation_sA function

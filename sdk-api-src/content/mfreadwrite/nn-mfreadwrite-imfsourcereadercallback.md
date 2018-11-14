@@ -9,8 +9,8 @@ ms.assetid: fff8b6e6-5d56-4301-b3ce-f3ff49398593
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSourceReaderCallback, IMFSourceReaderCallback interface [Media Foundation], IMFSourceReaderCallback interface [Media Foundation],described, mf.imfsourcereadercallback, mfreadwrite/IMFSourceReaderCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

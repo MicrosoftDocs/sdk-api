@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrStubCall2
+: 
 ---
 
 # NdrStubCall2 function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stubs.  
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/">/Oicf</a> mode stubs.  
 
 
 ## -parameters
@@ -60,12 +66,12 @@ The <b>NdrStubCall2</b> function is the server-side entry point for <a href="htt
 
 ### -param pThis [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing  <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  Set to <b>NULL</b> for nonobject RPC interfaces.
+Pointer to an instance of the CStdStubBuffer object, implementing  <a href="_com_irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  Set to <b>NULL</b> for nonobject RPC interfaces.
 
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. Set to <b>NULL</b> for nonobject interfaces.
+Pointer to <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. Set to <b>NULL</b> for nonobject interfaces.
 
 
 ### -param pRpcMsg [in, out]

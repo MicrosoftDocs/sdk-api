@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oaidl.h
+: 
+- ITypeInfo2.GetDocumentation2
+: 
 ---
 
 # ITypeInfo2::GetDocumentation2

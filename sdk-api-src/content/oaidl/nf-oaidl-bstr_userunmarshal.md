@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BSTR_UserUnmarshal
+: 
 ---
 
 # BSTR_UserUnmarshal function

@@ -56,6 +56,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateSemaphoreA
+: 
 ---
 
 # CreateSemaphoreA function

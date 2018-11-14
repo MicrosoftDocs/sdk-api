@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarEventSink.ShowFloating
+: 
 ---
 
 # ITfLangBarEventSink::ShowFloating
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param dwFlags [in]
 
-Contains the <a href="https://msdn.microsoft.com/en-us/library/ms629190(v=VS.85).aspx">TF_SFT_*</a> values passed to <b>ITfLangBarMgr::ShowFloating</b>.
+Contains the <a href="https://msdn.microsoft.com/628e1d85-9614-4327-b89b-723f6eeb0718">TF_SFT_*</a> values passed to <b>ITfLangBarMgr::ShowFloating</b>.
 
 
 ## -returns
@@ -76,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628694(v=VS.85).aspx">ITfLangBarEventSink</a>
+<a href="https://msdn.microsoft.com/2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3">ITfLangBarEventSink</a>
 
 
 

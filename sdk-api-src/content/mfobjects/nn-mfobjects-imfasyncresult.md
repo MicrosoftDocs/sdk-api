@@ -9,8 +9,8 @@ ms.assetid: 8c95b1de-8974-445c-8070-41552ea83e53
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], IMFAsyncResult interface [Media Foundation],described, mf.imfasyncresult, mfobjects/IMFAsyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -9,8 +9,8 @@ ms.assetid: 935ec6b3-12e6-4458-b8a1-ffeb4159d957
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], IMFTimecodeTranslate interface [Media Foundation],described, mf.imftimecodetranslate, mfidl/IMFTimecodeTranslate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

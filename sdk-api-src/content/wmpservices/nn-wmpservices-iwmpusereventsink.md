@@ -9,8 +9,8 @@ ms.assetid: b9afa601-543e-4338-a603-2fe4cd56db36
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Player], IWMPUserEventSink interface [Windows Media Player],described, IWMPUserEventSinkInterface, wmp.iwmpusereventsink, wmpservices/IWMPUserEventSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

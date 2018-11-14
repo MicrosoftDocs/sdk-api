@@ -9,8 +9,8 @@ ms.assetid: 7acc160c-0da8-4b85-b88c-82b59ec38106
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AM_FILTER_MISC_FLAGSEnumeration, AM_FILTER_MISC_FLAGS_IS_RENDERER, AM_FILTER_MISC_FLAGS_IS_SOURCE, _AM_FILTER_MISC_FLAGS, _AM_FILTER_MISC_FLAGS enumeration [DirectShow], dshow._am_filter_misc_flags, strmif/AM_FILTER_MISC_FLAGS_IS_RENDERER, strmif/AM_FILTER_MISC_FLAGS_IS_SOURCE, strmif/_AM_FILTER_MISC_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDMStorageControl2.Insert2
+: 
 ---
 
 # IWMDMStorageControl2::Insert2

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
+: 
 ---
 
 # GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function
@@ -60,7 +66,7 @@ Retrieves the number of physical monitors associated with a Direct3D device.
 
 ### -param pDirect3DDevice9 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of the Direct3D device.
+Pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of the Direct3D device.
           
 
 

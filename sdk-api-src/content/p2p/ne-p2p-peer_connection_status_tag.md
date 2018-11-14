@@ -9,8 +9,8 @@ ms.assetid: 42095744-bcbf-433f-b631-2281f079d2fd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PEER_CONNECTED, PEER_CONNECTION_FAILED, PEER_CONNECTION_STATUS, PEER_CONNECTION_STATUS enumeration [Peer Networking], PEER_DISCONNECTED, p2p.peer_connection_status, p2p/PEER_CONNECTED, p2p/PEER_CONNECTION_FAILED, p2p/PEER_CONNECTION_STATUS, p2p/PEER_DISCONNECTED, peer_connection_status_tag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

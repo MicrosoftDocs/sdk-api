@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchItemsChangedSink.OnItemsChanged
+: 
 ---
 
 # ISearchItemsChangedSink::OnItemsChanged
@@ -70,9 +78,9 @@ The number of items that have changed.
 
 ### -param rgDataChangeEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a>[]</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a> structures, describing the type of changes to and the paths or URLs of each item.
+An array of <a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a> structures, describing the type of changes to and the paths or URLs of each item.
                 
 
 
@@ -107,7 +115,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When there are multiple change notifications, the <b>priority</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a> structure indicates the priority of processing.
+When there are multiple change notifications, the <b>priority</b> member of the <a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a> structure indicates the priority of processing.
             
 
 
@@ -118,11 +126,11 @@ When there are multiple change notifications, the <b>priority</b> member of the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a>
+<a href="https://msdn.microsoft.com/7ad55cf5-5024-4a30-a465-536fb1429b19">ISearchItemsChangedSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
  
 
  

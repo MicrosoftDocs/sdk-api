@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DResource9.GetPriority
+: 
 ---
 
 # IDirect3DResource9::GetPriority
@@ -88,7 +96,7 @@ Priorities are used to determine when managed resources are to be removed from m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
  
 
  

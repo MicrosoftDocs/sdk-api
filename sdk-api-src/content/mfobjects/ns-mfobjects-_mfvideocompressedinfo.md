@@ -9,8 +9,8 @@ ms.assetid: fe9aa287-33e9-4413-8bc5-0e7b2da1112e
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFVideoCompressedInfo, MFVideoCompressedInfo structure [Media Foundation], _MFVideoCompressedInfo, fe9aa287-33e9-4413-8bc5-0e7b2da1112e, mf.mfvideocompressedinfo, mfobjects/MFVideoCompressedInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

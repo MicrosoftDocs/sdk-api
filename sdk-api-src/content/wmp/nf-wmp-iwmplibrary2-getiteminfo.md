@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPLibrary2.getItemInfo
+: 
 ---
 
 # IWMPLibrary2::getItemInfo

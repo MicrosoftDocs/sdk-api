@@ -9,8 +9,8 @@ ms.assetid: b0ff4b28-887c-42bf-bb7b-da23c231ff4e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PSCSI_LUN_LIST, PSCSI_LUN_LIST, PSCSI_LUN_LIST structure pointer [iSCSI Discovery Library API], SCSI_LUN_LIST, SCSI_LUN_LIST structure [iSCSI Discovery Library API], iscsidisc.scsi_lun_list, iscsidsc/PSCSI_LUN_LIST, iscsidsc/SCSI_LUN_LIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

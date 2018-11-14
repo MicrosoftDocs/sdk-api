@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpHlprIsV4PolicySingleUC
+: 
 ---
 
 # DhcpHlprIsV4PolicySingleUC function

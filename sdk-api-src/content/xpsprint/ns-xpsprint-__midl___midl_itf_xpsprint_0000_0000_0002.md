@@ -9,8 +9,8 @@ ms.assetid: c4e13960-4f26-460a-b47e-98b833fcdfd5
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: XPS_JOB_STATUS, XPS_JOB_STATUS structure [Windows GDI], __MIDL___MIDL_itf_xpsprint_0000_0000_0002, gdi.xps_job_status, xpsprint/XPS_JOB_STATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xpsprint.h
 req.include-header: 

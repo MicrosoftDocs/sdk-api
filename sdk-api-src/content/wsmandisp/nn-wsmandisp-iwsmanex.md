@@ -9,8 +9,8 @@ ms.assetid: 23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], IWSManEx interface [Windows Remote Management],described, winrm.iwsmanex, wsmandisp/ IWSManEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 

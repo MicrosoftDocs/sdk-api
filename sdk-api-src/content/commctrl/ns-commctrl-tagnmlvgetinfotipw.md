@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\listview\structures\nmlvgetinfotip.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNMLVGETINFOTIPW, LPNMLVGETINFOTIP, LPNMLVGETINFOTIP structure pointer [Windows Controls], NMLVGETINFOTIP, NMLVGETINFOTIP structure [Windows Controls], NMLVGETINFOTIPA, NMLVGETINFOTIPW, _win32_NMLVGETINFOTIP, _win32_NMLVGETINFOTIP_cpp, commctrl/LPNMLVGETINFOTIP, commctrl/NMLVGETINFOTIP, commctrl/NMLVGETINFOTIPA, commctrl/NMLVGETINFOTIPW, controls.NMLVGETINFOTIP, controls._win32_NMLVGETINFOTIP, tagNMLVGETINFOTIPW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774835(v=VS.85).aspx">LVN_GETINFOTIP</a> notification code. 
+Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://msdn.microsoft.com/62be5087-7e49-4722-a63a-1768e030af48">LVN_GETINFOTIP</a> notification code. 
 
 
 ## -struct-fields
@@ -62,22 +62,22 @@ Contains and receives list-view item information needed to display a tooltip for
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information on this notification code. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information on this notification code. 
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Either zero or LVGIT_UNFOLDED. See Remarks.
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 Address of a string buffer that receives any additional text information. If 
 					<b>dwFlags</b> is zero, this member will contain the existing item text. In this case, you should append any additional text onto the end of this string. The size of this buffer is specified by the 
@@ -108,7 +108,7 @@ One-based index of the subitem to which this structure refers. If this member is
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 Application-defined value associated with the item. This member is not currently used and will always be zero. 
 

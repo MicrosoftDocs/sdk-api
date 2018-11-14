@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- QueryContextAttributesA
+: 
 ---
 
 # QueryContextAttributesA function
@@ -292,7 +298,7 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

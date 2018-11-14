@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IPropertySheetProvider.FindPropertySheet
+: 
 ---
 
 # IPropertySheetProvider::FindPropertySheet
@@ -73,7 +81,7 @@ A pointer to the
 ### -param lpDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object.
+<a href="_ole_idataobject">IDataObject</a> interface on the data object.
 
 
 #### - HSCOPEITEM

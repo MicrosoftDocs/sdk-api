@@ -9,8 +9,8 @@ ms.assetid: 7388bdd9-a8bc-45f4-8539-a175190fb3c3
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation], _OPM_ACP_AND_CGMSA_SIGNALING, mf.opm_acp_and_cgmsa_signaling, opmapi/OPM_ACP_AND_CGMSA_SIGNALING
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

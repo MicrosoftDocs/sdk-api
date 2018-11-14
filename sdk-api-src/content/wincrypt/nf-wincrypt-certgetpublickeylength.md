@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertGetPublicKeyLength
+: 
 ---
 
 # CertGetPublicKeyLength function
@@ -92,7 +98,7 @@ Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">G
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

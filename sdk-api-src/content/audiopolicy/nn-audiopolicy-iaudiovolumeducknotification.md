@@ -9,8 +9,8 @@ ms.assetid: 08e90a50-a6ac-4405-ba90-a862b78efaf8
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], IAudioVolumeDuckNotification interface [Core Audio],described, audiopolicy/ IAudioVolumeDuckNotification, coreaudio.iaudiovolumeducknotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 85f04072-8634-454a-9038-737d86c5597d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PLSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE structure [Security], PLSA_SECPKG_FUNCTION_TABLE, PLSA_SECPKG_FUNCTION_TABLE structure pointer [Security], _LSA_SECPKG_FUNCTION_TABLE, _ssp_lsa_secpkg_function_table, ntsecpkg/LSA_SECPKG_FUNCTION_TABLE, ntsecpkg/PLSA_SECPKG_FUNCTION_TABLE, security.lsa_secpkg_function_table"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

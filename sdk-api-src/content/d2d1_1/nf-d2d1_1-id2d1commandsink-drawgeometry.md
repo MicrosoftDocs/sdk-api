@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_drawgeometry.htm
 tech.root: direct2d
 ms.assetid: ff91dd6c-0604-44aa-a30c-6b531cc3fb58
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DrawGeometry, DrawGeometry method [Direct2D], DrawGeometry method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGeometry method, ID2D1CommandSink.DrawGeometry, ID2D1CommandSink::DrawGeometry, d2d1_1/ID2D1CommandSink::DrawGeometry, direct2d.id2d1commandsink_drawgeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1CommandSink.DrawGeometry
+: 
 ---
 
 # ID2D1CommandSink::DrawGeometry

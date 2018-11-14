@@ -9,8 +9,8 @@ ms.assetid: f5cd6e84-1111-4558-bec4-26af13f21b61
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_2, *PLOCALGROUP_MEMBERS_INFO_2, LOCALGROUP_MEMBERS_INFO_2, LOCALGROUP_MEMBERS_INFO_2 structure [Network Management], LPLOCALGROUP_MEMBERS_INFO_2, LPLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management], PLOCALGROUP_MEMBERS_INFO_2, PLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management], SidTypeDeletedAccount, SidTypeGroup, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _LOCALGROUP_MEMBERS_INFO_2, _win32_localgroup_members_info_2_str, lmaccess/LOCALGROUP_MEMBERS_INFO_2, lmaccess/LPLOCALGROUP_MEMBERS_INFO_2, lmaccess/PLOCALGROUP_MEMBERS_INFO_2, netmgmt.localgroup_members_info_2_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

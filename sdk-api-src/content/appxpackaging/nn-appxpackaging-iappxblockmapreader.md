@@ -9,8 +9,8 @@ ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

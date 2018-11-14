@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineClassFactory2.CreateMediaKeys2
+: 
 ---
 
 # IMFMediaEngineClassFactory2::CreateMediaKeys2

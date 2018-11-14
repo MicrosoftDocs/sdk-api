@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CMGetPS2ColorSpaceArray
+: 
 ---
 
 # CMGetPS2ColorSpaceArray function

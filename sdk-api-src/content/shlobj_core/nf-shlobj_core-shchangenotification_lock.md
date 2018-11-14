@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SHChangeNotification_Lock
+: 
 ---
 
 # SHChangeNotification_Lock function

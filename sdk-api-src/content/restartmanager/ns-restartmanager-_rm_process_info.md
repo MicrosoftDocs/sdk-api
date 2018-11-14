@@ -9,8 +9,8 @@ ms.assetid: 27e593f9-8ff0-4de4-87ca-7fa5f324468a
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], _RM_PROCESS_INFO, restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: restartmanager.h
 req.include-header: 

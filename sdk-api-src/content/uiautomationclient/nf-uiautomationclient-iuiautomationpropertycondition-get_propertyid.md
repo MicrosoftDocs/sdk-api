@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationPropertyCondition.get_PropertyId
+: 
 ---
 
 # IUIAutomationPropertyCondition::get_PropertyId

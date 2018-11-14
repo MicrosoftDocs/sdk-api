@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizer.get_SupportedProperties
+: 
 ---
 
 # IInkRecognizer::get_SupportedProperties

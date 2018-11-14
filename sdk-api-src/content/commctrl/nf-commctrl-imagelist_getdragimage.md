@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImageList_GetDragImage
+: 
 ---
 
 # ImageList_GetDragImage function
@@ -87,7 +93,7 @@ Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
 
 
 
-The temporary image list is destroyed when the <a href="https://msdn.microsoft.com/en-us/library/Bb761541(v=VS.85).aspx">ImageList_EndDrag</a> function is called. To begin a drag operation, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> function. 
+The temporary image list is destroyed when the <a href="https://msdn.microsoft.com/54465b0d-6bbe-4c50-8124-cbf3115d0848">ImageList_EndDrag</a> function is called. To begin a drag operation, use the <a href="https://msdn.microsoft.com/5b262b32-5ec2-4f19-8a76-4c318aec7dc7">ImageList_BeginDrag</a> function. 
 
 
 

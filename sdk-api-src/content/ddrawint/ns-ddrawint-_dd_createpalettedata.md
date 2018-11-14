@@ -9,8 +9,8 @@ ms.assetid: e43ad510-b44b-4a4d-abb2-10062ce69140
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA structure [Display Devices], _DD_CREATEPALETTEDATA, ddrawint/DD_CREATEPALETTEDATA, ddstrcts_9370d793-ebdf-47ef-bc5f-869906c6e20a.xml, display.dd_createpalettedata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -9,8 +9,8 @@ ms.assetid: 1339c441-2b10-461f-87f3-4835c1692740
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], IFileSinkFilter2 interface [DirectShow],described, IFileSinkFilter2Interface, dshow.ifilesinkfilter2, strmif/IFileSinkFilter2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

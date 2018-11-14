@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mergemod.h
+: 
+- IMsmDependency.get_Module
+: 
 ---
 
 # IMsmDependency::get_Module

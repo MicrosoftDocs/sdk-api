@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetmethods.htm
 tech.root: eaphost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerGetMethods
+: 
 ---
 
 # EapHostPeerGetMethods function

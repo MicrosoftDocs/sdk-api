@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskDefinition.get_RegistrationInfo
+: 
 ---
 
 # ITaskDefinition::get_RegistrationInfo

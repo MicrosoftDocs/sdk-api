@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CDefFolderMenu_Create2
+: 
 ---
 
 # CDefFolderMenu_Create2 function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DSurface9.GetContainer
+: 
 ---
 
 # IDirect3DSurface9::GetContainer
@@ -77,7 +85,7 @@ Address of a pointer to fill with the container pointer if the query succeeds. S
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -88,7 +96,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-If the surface is created using <a href="https://msdn.microsoft.com/en-us/library/Bb174361(v=VS.85).aspx">CreateRenderTarget</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174358(v=VS.85).aspx">CreateOffscreenPlainSurface</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174356(v=VS.85).aspx">CreateDepthStencilSurface</a>, the surface is considered stand alone. In this case, <b>GetContainer</b> will return the Direct3D device used to create the surface.
+If the surface is created using <a href="https://msdn.microsoft.com/3c0c8651-0c54-4eeb-bd37-c2aa26b1211d">CreateRenderTarget</a> or <a href="https://msdn.microsoft.com/9502aa34-afde-4547-a5da-224f29719c07">CreateOffscreenPlainSurface</a> or <a href="https://msdn.microsoft.com/c94eed81-0706-44d6-a8be-83e2a5d46c39">CreateDepthStencilSurface</a>, the surface is considered stand alone. In this case, <b>GetContainer</b> will return the Direct3D device used to create the surface.
 
 If the call succeeds, the reference count of the container is increased by one.
 
@@ -122,7 +130,7 @@ if (SUCCEEDED(hr) &amp;&amp; pContainer)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
+<a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>
  
 
  

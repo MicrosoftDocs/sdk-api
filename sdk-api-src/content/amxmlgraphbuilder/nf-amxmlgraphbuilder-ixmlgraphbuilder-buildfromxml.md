@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- amxmlgraphbuilder.h
+: 
+- IXMLGraphBuilder.BuildFromXML
+: 
 ---
 
 # IXMLGraphBuilder::BuildFromXML

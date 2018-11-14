@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ENPROTECTED, ENPROTECTED structure [Windows Controls], _enprotected, _win32_ENPROTECTED_str, _win32_ENPROTECTED_str_cpp, controls.ENPROTECTED, controls._win32_ENPROTECTED_str, richedit/ENPROTECTED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information associated with an <a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code. A rich edit control sends this notification when the user attempts to edit protected text.
+Contains information associated with an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code. A rich edit control sends this notification when the user attempts to edit protected text.
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information associated with an <a href="https://msdn.microsoft.com/en-u
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> notification header. 
 
 
 ### -field msg
@@ -89,7 +89,7 @@ The <b>lParam</b> parameter of the message.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
 
 The current selection. 
 
@@ -99,7 +99,7 @@ The current selection.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
  
 
  

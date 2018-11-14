@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_input_element_desc.htm
 tech.root: direct2d
 ms.assetid: 17e70872-f0cb-4f9d-8188-d6d24770db04
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_INPUT_ELEMENT_DESC, D2D1_INPUT_ELEMENT_DESC structure [Direct2D], d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC, direct2d.d2d1_input_element_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1effectauthor.h
 req.include-header: 
@@ -61,7 +61,7 @@ A description of a single element to the vertex layout.
 
 ### -field semanticName
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">HLSL semantic</a> associated with this element in a <a href="https://msdn.microsoft.com/en-us/library/Bb509650(v=VS.85).aspx">shader input-signature</a>.
+The <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">HLSL semantic</a> associated with this element in a <a href="https://msdn.microsoft.com/c73a4f3e-e6fa-4e49-9ee8-4e200269dba7">shader input-signature</a>.
 
 
 ### -field semanticIndex
@@ -88,9 +88,9 @@ The offset in bytes between each element.
 
 
 
-This structure is a subset of <a href="https://msdn.microsoft.com/en-us/library/Ff476180(v=VS.85).aspx">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
+This structure is a subset of <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
+If the <a href="direct2d_constants.htm">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
 
 
 
@@ -101,11 +101,11 @@ If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404337(v=VS.85).aspx">D2D1_VERTEX_USAGE</a>
+<a href="https://msdn.microsoft.com/ff122e0d-5f0e-4a61-bead-53bea6f1648f">D2D1_VERTEX_USAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Getting Started with the Input-Assembler Stage</a>
+<a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">Getting Started with the Input-Assembler Stage</a>
 
 
 
@@ -117,11 +117,11 @@ If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">Semantics</a>
+<a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">Semantics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb509650(v=VS.85).aspx">Signatures</a>
+<a href="https://msdn.microsoft.com/c73a4f3e-e6fa-4e49-9ee8-4e200269dba7">Signatures</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: EC6E5B85-495E-401B-ADE5-D51891A4BDFE
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBLUETOOTH_GATT_VALUE_CHANGED_EVENT, BLUETOOTH_GATT_VALUE_CHANGED_EVENT, BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure [Bluetooth Devices], PBLUETOOTH_GATT_VALUE_CHANGED_EVENT, PBLUETOOTH_GATT_VALUE_CHANGED_EVENT structure pointer [Bluetooth Devices], _BLUETOOTH_GATT_VALUE_CHANGED_EVENT, bltooth.bluetooth_gatt_value_changed_event, bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT, bthledef/PBLUETOOTH_GATT_VALUE_CHANGED_EVENT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
@@ -78,7 +78,7 @@ The characteristic value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450842(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
+<a href="https://msdn.microsoft.com/AF36BC9A-5EB7-4495-870A-40BF5E0A57A3">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
  
 
  

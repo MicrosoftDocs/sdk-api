@@ -9,8 +9,8 @@ ms.assetid: beeedbbd-df93-4c05-a215-4cfd14e03076
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ILocation, ILocation interface [WinLocation], ILocation interface [WinLocation],described, locationapi/ILocation, winlocation.ilocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

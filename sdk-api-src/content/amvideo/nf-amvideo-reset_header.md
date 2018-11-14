@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- amvideo.h
+: 
+- RESET_HEADER
+: 
 ---
 
 # RESET_HEADER macro

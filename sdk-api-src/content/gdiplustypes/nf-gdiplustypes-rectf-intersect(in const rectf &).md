@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- RectF.Intersect
+: 
 ---
 
 # RectF::Intersect(IN const RectF &)

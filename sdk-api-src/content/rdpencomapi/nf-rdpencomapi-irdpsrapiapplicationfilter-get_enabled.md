@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIApplicationFilter.get_Enabled
+: 
 ---
 
 # IRDPSRAPIApplicationFilter::get_Enabled

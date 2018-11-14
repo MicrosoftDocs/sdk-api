@@ -9,8 +9,8 @@ ms.assetid: e68959dc-1a79-4e2c-aeaf-3febcb9c09ce
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 
@@ -58,7 +58,7 @@ The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -175,7 +175,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

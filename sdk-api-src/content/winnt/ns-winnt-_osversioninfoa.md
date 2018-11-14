@@ -4,13 +4,13 @@ title: "_OSVERSIONINFOA"
 author: windows-sdk-content
 description: Contains operating system version information.
 old-location: base\osversioninfo_str.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: a173df17-dad2-4330-aa66-4ff789fd7cc2
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*LPOSVERSIONINFOA, *POSVERSIONINFOA, OSVERSIONINFO, OSVERSIONINFO structure, OSVERSIONINFOA, OSVERSIONINFOW, VER_PLATFORM_WIN32_NT, _OSVERSIONINFOA, _OSVERSIONINFOW, _win32_osversioninfo_str, base.osversioninfo_str, winnt/OSVERSIONINFO, winnt/OSVERSIONINFOA, winnt/OSVERSIONINFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

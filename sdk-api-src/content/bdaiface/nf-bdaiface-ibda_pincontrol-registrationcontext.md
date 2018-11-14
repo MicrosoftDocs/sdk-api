@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_PinControl.RegistrationContext
+: 
 ---
 
 # IBDA_PinControl::RegistrationContext
@@ -89,11 +97,11 @@ The registration context uniquely identifies an instance of a particular pin. A 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693421(v=VS.85).aspx">IBDA_PinControl Interface</a>
+<a href="https://msdn.microsoft.com/2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae">IBDA_PinControl Interface</a>
  
 
  

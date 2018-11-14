@@ -7,7 +7,7 @@ old-location: mscs\resutilfindexpandedszproperty.htm
 tech.root: mscs
 ms.assetid: 7a639932-6dd5-41ef-a126-c2d5001a436f
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY function [Failover Cluster], ResUtilFindExpandedSzProperty, ResUtilFindExpandedSzProperty function [Failover Cluster], _wolf_resutilfindexpandedszproperty, mscs.resutilfindexpandedszproperty, resapi/PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, resapi/ResUtilFindExpandedSzProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilFindExpandedSzProperty
+: 
 ---
 
 # ResUtilFindExpandedSzProperty function

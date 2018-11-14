@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.put_ThumbPrint
+: 
 ---
 
 # ICEnroll4::put_ThumbPrint

@@ -9,8 +9,8 @@ ms.assetid: 9f6978a9-a779-49c6-b642-c411fa764972
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: "*PNET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, PNET_IF_ADMIN_STATUS, PNET_IF_ADMIN_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_ADMIN_STATUS, ifdef/NET_IF_ADMIN_STATUS, ifdef/NET_IF_ADMIN_STATUS_DOWN, ifdef/NET_IF_ADMIN_STATUS_TESTING, ifdef/NET_IF_ADMIN_STATUS_UP, ifdef/PNET_IF_ADMIN_STATUS, net_if_enums_ref_d52428da-7651-4581-8ec4-9409fbfc663f.xml, netvista.net_if_admin_status"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
@@ -51,7 +51,7 @@ req.redist:
 
 
 The NET_IF_ADMIN_STATUS enumeration type specifies the 
-  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> administrative
+  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> administrative
   status, as described in RFC 2863.
 
 
@@ -65,7 +65,7 @@ The NET_IF_ADMIN_STATUS enumeration type specifies the
 Specifies that the interface is initialized and enabled, but the interface is not necessarily
      ready to transmit and receive network data because that depends on the operational status of the
      interface. For more information about the operational status of an interface, see 
-     <a href="https://msdn.microsoft.com/library/Ff569619(v=VS.85).aspx">OID_GEN_OPERATIONAL_STATUS</a>.
+     <a href="netvista.oid_gen_operational_status">OID_GEN_OPERATIONAL_STATUS</a>.
 
 
 ### -field NET_IF_ADMIN_STATUS_DOWN
@@ -95,7 +95,7 @@ For more information on RFC 2863, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff569437(v=VS.85).aspx">OID_GEN_ADMIN_STATUS</a>
+<a href="netvista.oid_gen_admin_status">OID_GEN_ADMIN_STATUS</a>
  
 
  

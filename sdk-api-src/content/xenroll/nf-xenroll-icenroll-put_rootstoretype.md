@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.put_RootStoreType
+: 
 ---
 
 # ICEnroll::put_RootStoreType
@@ -97,15 +105,19 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BSTR     bstrStoreType = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrStoreType = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storetype
-hr = pEnroll->get_RootStoreType( &bstrStoreType );
+hr = pEnroll-&gt;get_RootStoreType( &amp;bstrStoreType );
 if ( FAILED ( hr ) )
     printf("Failed getting RootStoreType - %x\n", hr );
 else
@@ -116,13 +128,13 @@ if ( NULL != bstrStoreType )
 
 // set the storetype
 // bstrNewType is a BSTR that is previously set to a valid store type
-hr = pEnroll->put_RootStoreType( bstrNewType );
+hr = pEnroll-&gt;put_RootStoreType( bstrNewType );
 if ( FAILED ( hr ) )
     printf("Failed setting RootStoreType - %x\n", hr );
 else
-    printf( "RootStoreType was set to %ws\n", bstrNewType );
-```
-
-
+    printf( "RootStoreType was set to %ws\n", bstrNewType );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

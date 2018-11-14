@@ -9,8 +9,8 @@ ms.assetid: 2435ef20-c75c-4b28-9824-8428b2ac6326
 ms.author: windowssdkdev
 ms.date: 10/23/2018
 ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], buses.ioctl_get_hcd_driverkey_name, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml, usbuser/IOCTL_GET_HCD_DRIVERKEY_NAME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbuser.h
 req.include-header: Usbioctl.h
@@ -120,9 +120,13 @@ To get the driver key name in  the registry, you must perform the following task
 </ol>
 The following example code shows how to send the <b>IOCTL_GET_HCD_DRIVERKEY_NAME</b> I/O control request.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 /*++
 
 Routine Description:
@@ -152,9 +156,9 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         IOCTL_GET_HCD_DRIVERKEY_NAME,
         NULL,
         0,
-        &driverKeyName,
+        &amp;driverKeyName,
         sizeof(driverKeyName),
-        &nBytes,
+        &amp;nBytes,
         NULL);
 
     if (!success) 
@@ -166,7 +170,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     //2. Get the length of the driver key name.
     nBytes = driverKeyName.ActualLength;
 
-    if (nBytes <= sizeof(driverKeyName)) 
+    if (nBytes &lt;= sizeof(driverKeyName)) 
     {
         printf("Incorrect length received by IOCTL_GET_HCD_DRIVERKEY_NAME.\n");
         goto GetHCDDriverKeyNameDone;
@@ -190,7 +194,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         0,
         driverKeyNameW,
         nBytes,
-        &nBytes,
+        &amp;nBytes,
         NULL);
 
     if (!success) 
@@ -200,7 +204,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     }
 
     // print the driver key name. 
-    printf("Driver Key Name: %s.\n", driverKeyNameW->DriverKeyName);
+    printf("Driver Key Name: %s.\n", driverKeyNameW-&gt;DriverKeyName);
 
 
 GetHCDDriverKeyNameDone:
@@ -217,10 +221,10 @@ GetHCDDriverKeyNameDone:
     return success;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

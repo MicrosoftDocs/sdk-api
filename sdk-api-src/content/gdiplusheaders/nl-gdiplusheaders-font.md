@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\font.htm
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: Font, Font class [GDI+], Font class [GDI+],described, _gdiplus_CLASS_Font_Class, gdiplus._gdiplus_CLASS_Font_Class, gdiplusheaders/Font
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 

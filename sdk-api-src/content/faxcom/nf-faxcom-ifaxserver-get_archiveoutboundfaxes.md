@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcom.h
+: 
+- IFaxServer.get_ArchiveOutboundFaxes
+: 
 ---
 
 # IFaxServer::get_ArchiveOutboundFaxes

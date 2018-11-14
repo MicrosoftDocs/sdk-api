@@ -9,8 +9,8 @@ ms.assetid: 835a624f-c08d-402c-940b-4443e1b38d58
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PFN_AUTHENTICATION_CALLBACK_EX, PFN_AUTHENTICATION_CALLBACK_EX callback, PFN_AUTHENTICATION_CALLBACK_EX callback function [Bluetooth], bluetooth.pfn_authentication_callback_ex, bluetoothapis/PFN_AUTHENTICATION_CALLBACK_EX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <i>PFN_AUTHENTICATION_CALLBACK_EX</i> function is a callback function prototype  used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/Cc766820(v=VS.85).aspx">BluetoothRegisterForAuthenticationEx</a> function.
+The <i>PFN_AUTHENTICATION_CALLBACK_EX</i> function is a callback function prototype  used in conjunction with the <a href="https://msdn.microsoft.com/c9838f27-3450-4d51-be58-ce515d06d5cb">BluetoothRegisterForAuthenticationEx</a> function.
 <div class="alert"><b>Note</b>  This structure is supported in Windows Vista SP2 and Windows 7.</div><div> </div>
 
 ## -parameters
@@ -60,12 +60,12 @@ The <i>PFN_AUTHENTICATION_CALLBACK_EX</i> function is a callback function protot
 
 ### -param pvParam [in, optional]
 
-Optional. A context pointer previously passed into the <a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthentication</a> function.
+Optional. A context pointer previously passed into the <a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthentication</a> function.
 
 
 ### -param pAuthCallbackParams [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd469469(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</a> structure that contains device and authentication configuration information specific to the Bluetooth device responding to an authentication request.
+A <a href="https://msdn.microsoft.com/e9c703c1-7981-4c34-a96e-0123d3655e55">BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</a> structure that contains device and authentication configuration information specific to the Bluetooth device responding to an authentication request.
 
 
 ## -returns
@@ -82,11 +82,11 @@ The return value from this function is ignored by the system.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc766820(v=VS.85).aspx">BluetoothRegisterForAuthenticationEx</a>
+<a href="https://msdn.microsoft.com/c9838f27-3450-4d51-be58-ce515d06d5cb">BluetoothRegisterForAuthenticationEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362943(v=VS.85).aspx">PFN_AUTHENTICATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/756bfea7-ad03-4fba-b591-42796e7d52ff">PFN_AUTHENTICATION_CALLBACK</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationVariable2.GetCurrentStoryboard
+: 
 ---
 
 # IUIAnimationVariable2::GetCurrentStoryboard

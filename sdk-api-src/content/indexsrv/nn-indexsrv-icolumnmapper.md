@@ -9,8 +9,8 @@ ms.assetid: CBC7EE6C-299D-4B9D-839A-0A2755CA8112
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search],described, indexsrv/IColumnMapper, search.icolumnmapper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchCatalogManager.GetPersistentItemsChangedSink
+: 
 ---
 
 # ISearchCatalogManager::GetPersistentItemsChangedSink
@@ -60,9 +68,9 @@ Gets the change notification event sink interface for a client. This method is u
 
 ### -param ppISearchPersistentItemsChangedSink [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231454(v=VS.85).aspx">ISearchPersistentItemsChangedSink</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/ce2a5b93-c8df-4acb-9b26-7ff1004124af">ISearchPersistentItemsChangedSink</a>**</b>
 
-Receives the address of a pointer to a new <a href="https://msdn.microsoft.com/en-us/library/Bb231454(v=VS.85).aspx">ISearchPersistentItemsChangedSink</a> interface for this catalog.
+Receives the address of a pointer to a new <a href="https://msdn.microsoft.com/ce2a5b93-c8df-4acb-9b26-7ff1004124af">ISearchPersistentItemsChangedSink</a> interface for this catalog.
                 
 
 

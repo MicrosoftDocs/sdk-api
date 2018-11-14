@@ -9,8 +9,8 @@ ms.assetid: 70b5fcde-657b-4f27-b55b-5f5ac3373344
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: NAPI_PROVIDER_LEVEL, NAPI_PROVIDER_LEVEL enumeration [Winsock], ProviderLevel_None, ProviderLevel_Primary, ProviderLevel_Secondary, napi_provider_level_tag, nsemail/NAPI_PROVIDER_LEVEL, nsemail/ProviderLevel_None, nsemail/ProviderLevel_Primary, nsemail/ProviderLevel_Secondary, winsock.napi_provider_level
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: nsemail.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfcaptureengine.h
+: 
+- IMFCaptureSink2.SetOutputMediaType
+: 
 ---
 
 # IMFCaptureSink2::SetOutputMediaType

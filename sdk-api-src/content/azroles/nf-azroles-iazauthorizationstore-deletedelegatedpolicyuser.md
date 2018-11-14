@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::DeleteDelegatedPolicyUser
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cb00abca-7116-4a71-aed0-87ed9caff0fb
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUser method, IAzAuthorizationStore.DeleteDelegatedPolicyUser, IAzAuthorizationStore::DeleteDelegatedPolicyUser, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser, security.azauthorizationstore_deletedelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.DeleteDelegatedPolicyUser
+: 
 ---
 
 # IAzAuthorizationStore::DeleteDelegatedPolicyUser
@@ -51,7 +59,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>DeleteDelegatedPolicyUser</b> method removes the specified <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">security identifier</a> (SID) in text form from the list of principals that act as delegated policy users.
+The <b>DeleteDelegatedPolicyUser</b> method removes the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form from the list of principals that act as delegated policy users.
 
 
 ## -parameters
@@ -73,11 +81,11 @@ Reserved for future use.
 
 
 
-Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a>  or <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object uses to administer the delegated object. 
+Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a>  or <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object uses to administer the delegated object. 
 
 <div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
 <div> </div>
-To view the list of delegated policy users, use the <a href="https://msdn.microsoft.com/en-us/library/Aa376343(v=VS.85).aspx">DelegatedPolicyUsers</a> property.
+To view the list of delegated policy users, use the <a href="https://msdn.microsoft.com/cc1268d5-d386-4888-a987-e40896a096e4">DelegatedPolicyUsers</a> property.
 
 
 

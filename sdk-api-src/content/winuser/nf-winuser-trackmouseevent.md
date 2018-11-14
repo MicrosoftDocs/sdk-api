@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TrackMouseEvent
+: 
 ---
 
 # TrackMouseEvent function
@@ -54,7 +60,7 @@ req.redist:
 
 
 Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/ms646266(v=VS.85).aspx">_TrackMouseEvent</a> function calls <b>TrackMouseEvent</b> if it exists, otherwise <b>_TrackMouseEvent</b> emulates <b>TrackMouseEvent</b>. </div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8ecdf786-92d2-4035-8e33-dbf32dd8131f">_TrackMouseEvent</a> function calls <b>TrackMouseEvent</b> if it exists, otherwise <b>_TrackMouseEvent</b> emulates <b>TrackMouseEvent</b>. </div><div> </div>
 
 ## -parameters
 
@@ -65,7 +71,7 @@ Posts messages when the mouse pointer leaves a window or hovers over a window fo
 
 Type: <b>LPTRACKMOUSEEVENT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a> structure that contains tracking information. 
+A pointer to a <a href="https://msdn.microsoft.com/6c367eeb-5dd4-4a3a-b7d6-9504d2089112">TRACKMOUSEEVENT</a> structure that contains tracking information. 
 
 
 ## -returns
@@ -99,11 +105,11 @@ The function can post the following messages.
 </tr>
 <tr>
 <td><b>WM_NCMOUSEHOVER</b></td>
-<td>The same meaning as <a href="https://msdn.microsoft.com/en-us/library/ms645613(v=VS.85).aspx">WM_MOUSEHOVER</a> except this is for the nonclient area of the window.</td>
+<td>The same meaning as <a href="https://msdn.microsoft.com/efba7f04-2d26-44f1-89df-a565c03ad944">WM_MOUSEHOVER</a> except this is for the nonclient area of the window.</td>
 </tr>
 <tr>
 <td><b>WM_NCMOUSELEAVE</b></td>
-<td>The same meaning as <a href="https://msdn.microsoft.com/en-us/library/ms645615(v=VS.85).aspx">WM_MOUSELEAVE</a> except this is for the nonclient area of the window.</td>
+<td>The same meaning as <a href="https://msdn.microsoft.com/b23d24ff-531a-4b6d-8848-f82ac5568995">WM_MOUSELEAVE</a> except this is for the nonclient area of the window.</td>
 </tr>
 <tr>
 <td><b>WM_MOUSEHOVER</b></td>
@@ -128,7 +134,7 @@ The function can post the following messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 
@@ -144,11 +150,11 @@ The function can post the following messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a>
+<a href="https://msdn.microsoft.com/6c367eeb-5dd4-4a3a-b7d6-9504d2089112">TRACKMOUSEEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646266(v=VS.85).aspx">_TrackMouseEvent</a>
+<a href="https://msdn.microsoft.com/8ecdf786-92d2-4035-8e33-dbf32dd8131f">_TrackMouseEvent</a>
  
 
  

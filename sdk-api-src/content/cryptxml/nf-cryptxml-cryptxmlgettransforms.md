@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlGetTransforms
+: 
 ---
 
 # CryptXmlGetTransforms function
@@ -60,7 +66,7 @@ The <b>CryptXmlGetTransforms</b> function returns information about the default 
 
 ### -param ppConfig [out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433867(v=VS.85).aspx">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
+A pointer to a pointer to a <a href="https://msdn.microsoft.com/ad18ee99-685d-4a79-bd91-492df20edb8c">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
 
 
 ## -returns

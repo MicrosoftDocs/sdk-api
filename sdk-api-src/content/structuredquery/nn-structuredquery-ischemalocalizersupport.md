@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizers
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search], ISchemaLocalizerSupport interface [search],described, _search_ISchemaLocalizerSupport, search._search_ISchemaLocalizerSupport, structuredquery/ISchemaLocalizerSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 
@@ -70,7 +70,7 @@ The <b>ISchemaLocalizerSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231334(v=VS.85).aspx">Localize</a>
+<a href="https://msdn.microsoft.com/670e69aa-f8ee-4c71-bc8b-b0f689601d62">Localize</a>
 </td>
 <td align="left" width="63%">
 Localizes keywords from an input string.

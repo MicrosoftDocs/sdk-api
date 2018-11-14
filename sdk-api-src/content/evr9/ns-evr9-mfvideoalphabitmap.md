@@ -9,8 +9,8 @@ ms.assetid: 609041f2-7ba4-4157-819b-4ac21612dca2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 609041f2-7ba4-4157-819b-4ac21612dca2, MFVideoAlphaBitmap, MFVideoAlphaBitmap structure [Media Foundation], evr9/MFVideoAlphaBitmap, mf.mfvideoalphabitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evr9.h
 req.include-header: 

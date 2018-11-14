@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- IMSCEPSetup.Install
+: 
 ---
 
 # IMSCEPSetup::Install
@@ -65,7 +73,7 @@ req.redist:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

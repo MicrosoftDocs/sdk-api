@@ -9,8 +9,8 @@ ms.assetid: 8C13F1AF-3328-40B8-B5F8-6CDF753A7FA7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CItemIDFactory, CItemIDFactory class [Windows Shell], CItemIDFactory class [Windows Shell],described, shell.citemidfactory, shidfact/CItemIDFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: shidfact.h
 req.include-header: 

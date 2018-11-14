@@ -9,8 +9,8 @@ ms.assetid: 8f167342-5398-4ecc-9b56-dcf2b4248c65
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PENDINGTYPE, PENDINGTYPE enumeration [COM], PENDINGTYPE_NESTED, PENDINGTYPE_TOPLEVEL, _com_PENDINGTYPE, com.pendingtype, objidl/PENDINGTYPE, objidl/PENDINGTYPE_NESTED, objidl/PENDINGTYPE_TOPLEVEL, tagPENDINGTYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

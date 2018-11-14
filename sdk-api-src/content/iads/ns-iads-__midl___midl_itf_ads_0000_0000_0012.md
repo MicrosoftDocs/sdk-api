@@ -9,8 +9,8 @@ ms.assetid: f8cb8763-9533-4b80-8617-a99d75c92f07
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PADS_REPLICAPOINTER, ADS_REPLICAPOINTER, ADS_REPLICAPOINTER structure [ADSI], PADS_REPLICAPOINTER, PADS_REPLICAPOINTER structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0012, _ds_ads_replicapointer, adsi.ads__replicapointer, adsi.ads_replicapointer, iads/ADS_REPLICAPOINTER, iads/PADS_REPLICAPOINTER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

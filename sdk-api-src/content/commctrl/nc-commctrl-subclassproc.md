@@ -9,8 +9,8 @@ ms.assetid: 44e4cbe0-8252-4bcc-885e-d8af856e8ad7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SUBCLASSPROC, SUBCLASSPROC callback, SUBCLASSPROC callback function [Windows Shell], commctrl/SUBCLASSPROC, inet_SUBCLASSPROC_Function, shell.SUBCLASSPROC_Function
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: commctrl.h
 req.include-header: 

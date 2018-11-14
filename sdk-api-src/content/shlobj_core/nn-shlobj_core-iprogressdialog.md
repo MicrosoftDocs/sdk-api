@@ -9,8 +9,8 @@ ms.assetid: ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IProgressDialog, IProgressDialog interface [Windows Shell], IProgressDialog interface [Windows Shell],described, _win32_IProgressDialog, shell.IProgressDialog, shlobj_core/IProgressDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 

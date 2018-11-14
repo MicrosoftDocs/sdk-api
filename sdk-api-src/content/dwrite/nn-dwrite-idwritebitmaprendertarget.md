@@ -9,8 +9,8 @@ ms.assetid: 9953a9e9-7772-41a3-9cd9-2340a9dd4b6f
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteBitmapRenderTarget, IDWriteBitmapRenderTarget interface [Direct Write], IDWriteBitmapRenderTarget interface [Direct Write],described, directwrite.IDWriteBitmapRenderTarget, dwrite/IDWriteBitmapRenderTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
@@ -153,25 +153,33 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 
 You create an <b>IDWriteBitmapRenderTarget</b> by using the <a href="https://msdn.microsoft.com/1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152">IDWriteGdiInterop::CreateBitmapRenderTarget</a> method, as shown in the following code.
 
-
-```cpp
-if (SUCCEEDED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
-    hr = g_pGdiInterop->CreateBitmapRenderTarget(hdc, r.right, r.bottom, &g_pBitmapRenderTarget);
+    hr = g_pGdiInterop-&gt;CreateBitmapRenderTarget(hdc, r.right, r.bottom, &amp;g_pBitmapRenderTarget);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 <a href="https://msdn.microsoft.com/1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152">IDWriteGdiInterop::CreateBitmapRenderTarget</a> takes a handle to a DC and the desired width and height.  In the above example, the width and height given are the size of the window rect.
 
 <h3><a id="Rendering"></a><a id="rendering"></a><a id="RENDERING"></a>Rendering</h3>
 One way to use a  <b>IDWriteBitmapRenderTarget</b>, for rendering to a bitmap, is to implement a custom renderer interface derived from the <a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a> interface.  In your implementation of  the <a href="https://msdn.microsoft.com/95a0044c-dffd-4c6a-a6eb-2f87b02ef89a">DrawGlyphRun</a> method of your custom renderer, call the <a href="https://msdn.microsoft.com/d766d2d1-6be7-468a-a10e-c7cab421b9a7">IDWriteBitmapRenderTarget::DrawGlyphRun</a> method to draw the glyphs as shown in the following code.
 
-
-```cpp
-STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
     __maybenull void* clientDrawingContext,
     FLOAT baselineOriginX,
     FLOAT baselineOriginY,
@@ -186,23 +194,23 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
     // Pass on the drawing call to the render target to do the real work.
     RECT dirtyRect = {0};
 
-    hr = pRenderTarget_->DrawGlyphRun(
+    hr = pRenderTarget_-&gt;DrawGlyphRun(
         baselineOriginX,
         baselineOriginY,
         measuringMode,
         glyphRun,
         pRenderingParams_,
         RGB(0,200,255),
-        &dirtyRect
+        &amp;dirtyRect
         );
     
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>IDWriteBitmapRenderTarget</b> encapsulates and renders to a bitmap in memory.  The  <a href="https://msdn.microsoft.com/9ca9a002-2a78-4c7c-926c-52414dd801bb">GetMemoryDC</a> function returns a handle to the device context of this bitmap.
 
 

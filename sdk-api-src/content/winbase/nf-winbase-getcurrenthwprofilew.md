@@ -4,10 +4,10 @@ title: GetCurrentHwProfileW function
 author: windows-sdk-content
 description: Retrieves information about the current hardware profile for the local computer.
 old-location: base\getcurrenthwprofile.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetCurrentHwProfileW
+: 
 ---
 
 # GetCurrentHwProfileW function

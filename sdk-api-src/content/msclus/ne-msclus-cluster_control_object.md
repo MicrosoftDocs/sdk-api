@@ -7,10 +7,10 @@ old-location: mscs\cluster_control_object.htm
 tech.root: mscs
 ms.assetid: 63719776-0b3a-470a-a732-40e62064c6fc
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSTER_CONTROL_OBJECT, CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster], CLUS_OBJECT_CLUSTER, CLUS_OBJECT_GROUP, CLUS_OBJECT_GROUPSET, CLUS_OBJECT_INVALID, CLUS_OBJECT_NETINTERFACE, CLUS_OBJECT_NETWORK, CLUS_OBJECT_NODE, CLUS_OBJECT_RESOURCE, CLUS_OBJECT_RESOURCE_TYPE, CLUS_OBJECT_USER, _CLUSTER_CONTROL_OBJECT, _CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster], clusapi/CLUSTER_CONTROL_OBJECT, clusapi/CLUS_OBJECT_CLUSTER, clusapi/CLUS_OBJECT_GROUP, clusapi/CLUS_OBJECT_GROUPSET, clusapi/CLUS_OBJECT_INVALID, clusapi/CLUS_OBJECT_NETINTERFACE, clusapi/CLUS_OBJECT_NETWORK, clusapi/CLUS_OBJECT_NODE, clusapi/CLUS_OBJECT_RESOURCE, clusapi/CLUS_OBJECT_RESOURCE_TYPE, clusapi/CLUS_OBJECT_USER, clusapi/_CLUSTER_CONTROL_OBJECT, msclus/CLUSTER_CONTROL_OBJECT, msclus/CLUS_OBJECT_CLUSTER, msclus/CLUS_OBJECT_GROUP, msclus/CLUS_OBJECT_GROUPSET, msclus/CLUS_OBJECT_INVALID, msclus/CLUS_OBJECT_NETINTERFACE, msclus/CLUS_OBJECT_NETWORK, msclus/CLUS_OBJECT_NODE, msclus/CLUS_OBJECT_RESOURCE, msclus/CLUS_OBJECT_RESOURCE_TYPE, msclus/CLUS_OBJECT_USER, msclus/_CLUSTER_CONTROL_OBJECT, mscs.cluster_control_object
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
@@ -109,7 +109,7 @@ Object code part of
 ### -field CLUS_OBJECT_CLUSTER
 
 Object code part of <a href="https://msdn.microsoft.com/cabd9d59-7ace-4081-9de1-7645c882a64d">cluster control codes</a> that 
-       identifies a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> as the target.
+       identifies a <a href="c_gly.htm">cluster</a> as the target.
 
 
 ### -field CLUS_OBJECT_GROUPSET

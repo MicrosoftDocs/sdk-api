@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetpalette.htm
 tech.root: Multimedia
 ms.assetid: dba9370b-2412-47b2-a140-bc787a448024
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndSetPalette
+: 
 ---
 
 # MCIWndSetPalette macro

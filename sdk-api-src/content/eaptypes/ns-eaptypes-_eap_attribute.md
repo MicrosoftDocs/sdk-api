@@ -7,10 +7,10 @@ old-location: eaphost\eap_attribute.htm
 tech.root: eaphost
 ms.assetid: a8fe754a-ce6f-45f4-9536-7ffda2183e9e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EAP_ATTRIBUTE, EAP_ATTRIBUTE structure [EAPHost], EapAttribute, EapAttribute structure [EAPHost], _EAP_ATTRIBUTE, eaphost.eap_attribute, eaptypes/EAP_ATTRIBUTE, eaptypes/EapAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

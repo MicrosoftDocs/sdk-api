@@ -7,7 +7,7 @@ old-location: direct2d\radialgradientbrushproperties.htm
 tech.root: direct2d
 ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: RadialGradientBrushProperties, RadialGradientBrushProperties function [Direct2D], d2d1helper/RadialGradientBrushProperties, direct2d.radialgradientbrushproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RadialGradientBrushProperties
+: 
 ---
 
 # RadialGradientBrushProperties function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368149(v=VS.85).aspx">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="https://msdn.microsoft.com/194f7624-ac3b-4054-8d6f-5b4c99ef6546">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a> structure.
 
 
 ## -parameters
@@ -60,14 +66,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368149(v=VS.85).as
 
 ### -param center [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 In the brush's coordinate space, the center of the gradient ellipse.
 
 
 ### -param gradientOriginOffset [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 In the brush's coordinate space, the offset of the gradient origin relative to the gradient ellipse's center.
 
@@ -90,7 +96,7 @@ In the brush's coordinate space, the y-radius of the gradient ellipse.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368149(v=VS.85).aspx">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="https://msdn.microsoft.com/194f7624-ac3b-4054-8d6f-5b4c99ef6546">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a></b>
 
 A structure that contains the gradient origin offset and the size and position of the gradient ellipse for an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>.
 

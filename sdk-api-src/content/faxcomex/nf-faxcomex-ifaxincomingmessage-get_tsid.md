@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxIncomingMessage.get_TSID
+: 
 ---
 
 # IFaxIncomingMessage::get_TSID

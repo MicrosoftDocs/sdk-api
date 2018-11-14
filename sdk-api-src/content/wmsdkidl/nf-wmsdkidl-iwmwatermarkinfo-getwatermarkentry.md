@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMWatermarkInfo.GetWatermarkEntry
+: 
 ---
 
 # IWMWatermarkInfo::GetWatermarkEntry
@@ -111,7 +119,7 @@ The method succeeded.
 
 
 
-No watermarking <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMOs</a> are provided with the Windows Media Format SDK. You can install third-party DMOs to use with your application.
+No watermarking <a href="wmformat_glossary.htm">DMOs</a> are provided with the Windows Media Format SDK. You can install third-party DMOs to use with your application.
 
 
 

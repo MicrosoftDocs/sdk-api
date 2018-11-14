@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructur
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPCOMBOBOXINFO, *PCOMBOBOXINFO, COMBOBOXINFO, COMBOBOXINFO structure [Windows Controls], LPCOMBOBOXINFO, LPCOMBOBOXINFO structure pointer [Windows Controls], PCOMBOBOXINFO, PCOMBOBOXINFO structure pointer [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_PRESSED, _win32_COMBOBOXINFO_str, _win32_COMBOBOXINFO_str_cpp, controls.COMBOBOXINFO, controls._win32_COMBOBOXINFO_str, tagCOMBOBOXINFO, winuser/COMBOBOXINFO, winuser/LPCOMBOBOXINFO, winuser/PCOMBOBOXINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
@@ -172,7 +172,7 @@ GetComboBoxInfo(hwnd, &amp;info);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775939(v=VS.85).aspx">GetComboBoxInfo</a>
+<a href="https://msdn.microsoft.com/f7553df7-4309-49fc-9e4a-da9063e6b042">GetComboBoxInfo</a>
  
 
  

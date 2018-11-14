@@ -7,7 +7,7 @@ old-location: multimedia\joysetcapture.htm
 tech.root: Multimedia
 ms.assetid: d4511c2c-54b3-48f5-aa30-e198292a4728
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- joySetCapture
+: 
 ---
 
 # joySetCapture function

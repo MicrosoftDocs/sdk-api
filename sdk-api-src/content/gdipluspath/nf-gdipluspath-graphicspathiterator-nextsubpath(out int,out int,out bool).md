@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPathIterator.NextSubpath
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -107,9 +115,13 @@ The first time you call the <b>GraphicsPathIterator::NextSubpath</b> method of a
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <b>GraphicsPathIterator::NextSubpath</b> method three times to obtain the starting index and the ending index of the path's third figure. Then the code calls the iterator's <a href="https://msdn.microsoft.com/6b58521e-3093-45c7-93b4-ca658b67601f">GraphicsPathIterator::CopyData</a> method to retrieve the third figure's data points.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID NextSubpathExample2(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -131,7 +143,7 @@ VOID NextSubpathExample2(HDC hdc)
    path.AddRectangle(Rect(420, 20, 60, 30));  // Subpath count is 5.
  
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&path);
+   GraphicsPathIterator iterator(&amp;path);
 
    // Call NextSubpath three times to get the starting and ending 
    // indices for the third figure. 
@@ -139,9 +151,9 @@ VOID NextSubpathExample2(HDC hdc)
    INT end;
    BOOL isClosed;
    INT count;
-   count = iterator.NextSubpath(&start, &end, &isClosed);
-   count = iterator.NextSubpath(&start, &end, &isClosed);
-   count = iterator.NextSubpath(&start, &end, &isClosed);
+   count = iterator.NextSubpath(&amp;start, &amp;end, &amp;isClosed);
+   count = iterator.NextSubpath(&amp;start, &amp;end, &amp;isClosed);
+   count = iterator.NextSubpath(&amp;start, &amp;end, &amp;isClosed);
 
    // Get the third figure's data points.
    PointF* points = new PointF[count];
@@ -150,9 +162,9 @@ VOID NextSubpathExample2(HDC hdc)
 
    // Draw the third figure's data points.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j < count; ++j)
+   for(INT j = 0; j &lt; count; ++j)
       graphics.FillEllipse(
-         &brush,
+         &amp;brush,
          points[j].X - 3.0f, 
          points[j].Y - 3.0f, 
          6.0f, 
@@ -161,10 +173,10 @@ VOID NextSubpathExample2(HDC hdc)
    delete points;
    delete types;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

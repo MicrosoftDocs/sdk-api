@@ -9,8 +9,8 @@ ms.assetid: 0DDE00D1-9C5F-4F2B-8110-A92B1FFA1B64
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: PACKAGE_INFO, PACKAGE_INFO structure [App packaging and management], appmodel/PACKAGE_INFO, appxpkg.package_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: appmodel.h
 req.include-header: 

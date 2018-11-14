@@ -7,7 +7,7 @@ old-location: multimedia\midioutgetvolume.htm
 tech.root: Multimedia
 ms.assetid: d0e2d5e8-9fb9-4f4c-9b17-6d67b3f82ef7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_midiOutGetVolume, midiOutGetVolume, midiOutGetVolume function [Windows Multimedia], mmeapi/midiOutGetVolume, multimedia.midioutgetvolume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- midiOutGetVolume
+: 
 ---
 
 # midiOutGetVolume function

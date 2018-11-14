@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PstGetUserNameForCertificate
+: 
 ---
 
 # PstGetUserNameForCertificate function
@@ -60,7 +66,7 @@ Retrieves the user name associated with the specified certificate.
 
 ### -param pCertContext [in]
 
-A constant pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
+A constant pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
 
 
 ### -param UserName [out]

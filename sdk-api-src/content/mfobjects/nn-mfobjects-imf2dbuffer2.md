@@ -9,8 +9,8 @@ ms.assetid: BFA73B1A-F8A7-4100-9DBD-234CCA06F9F5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMF2DBuffer2, IMF2DBuffer2 interface [Media Foundation], IMF2DBuffer2 interface [Media Foundation],described, mf.imf2dbuffer2, mfobjects/IMF2DBuffer2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

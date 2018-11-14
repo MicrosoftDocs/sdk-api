@@ -9,8 +9,8 @@ ms.assetid: 91d55991-5994-4104-9a8f-01cfc347a96f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IIsdbDatacontentDescriptor, IIsdbDatacontentDescriptor interface [Microsoft TV Technologies], IIsdbDatacontentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDatacontentDescriptor, mstv.iisdbdatacontentdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

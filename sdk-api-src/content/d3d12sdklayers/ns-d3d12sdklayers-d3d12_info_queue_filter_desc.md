@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_info_queue_filter_desc.htm
 tech.root: direct3d12
 ms.assetid: 079494EC-3FC3-490D-B2BC-0FBD976ECC97
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_INFO_QUEUE_FILTER_DESC, D3D12_INFO_QUEUE_FILTER_DESC structure, d3d12sdklayers/D3D12_INFO_QUEUE_FILTER_DESC, direct3d12.d3d12_info_queue_filter_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -67,7 +67,7 @@ Number of message categories to allow or deny.
 
 ### -field pCategoryList
 
-Array of message categories to allow or deny. Array must have at least <i>NumCategories</i> members (see <a href="https://msdn.microsoft.com/en-us/library/Dn950145(v=VS.85).aspx">D3D12_MESSAGE_CATEGORY</a>).
+Array of message categories to allow or deny. Array must have at least <i>NumCategories</i> members (see <a href="https://msdn.microsoft.com/297923A3-CE6A-46AF-B8B6-E2AE0C1920CC">D3D12_MESSAGE_CATEGORY</a>).
 
 
 
@@ -81,7 +81,7 @@ Number of message severity levels to allow or deny.
 
 ### -field pSeverityList
 
-Array of message severity levels to allow or deny. Array must have at least <i>NumSeverities</i> members (see <a href="https://msdn.microsoft.com/en-us/library/Dn950147(v=VS.85).aspx">D3D12_MESSAGE_SEVERITY</a>).
+Array of message severity levels to allow or deny. Array must have at least <i>NumSeverities</i> members (see <a href="https://msdn.microsoft.com/44D94C37-4BA8-49FC-BEEF-6666AD59B627">D3D12_MESSAGE_SEVERITY</a>).
 
 
 
@@ -96,7 +96,7 @@ Number of message IDs to allow or deny.
 
 ### -field pIDList
 
-Array of message IDs to allow or deny. Array must have at least <i>NumIDs</i> members (see <a href="https://msdn.microsoft.com/en-us/library/Dn950146(v=VS.85).aspx">D3D12_MESSAGE_ID</a>).
+Array of message IDs to allow or deny. Array must have at least <i>NumIDs</i> members (see <a href="https://msdn.microsoft.com/95681EB0-C00B-42C8-91E1-1D1F657C886B">D3D12_MESSAGE_ID</a>).
 
 
           
@@ -106,7 +106,7 @@ Array of message IDs to allow or deny. Array must have at least <i>NumIDs</i> me
 
 
 
-For use with an <a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a> Interface.
+For use with an <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
 
 
 
@@ -116,7 +116,7 @@ For use with an <a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950152(v=VS.85).aspx">Debug Layer Structures</a>
+<a href="https://msdn.microsoft.com/FE8796A7-98D1-4333-8755-2A47567560B3">Debug Layer Structures</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- functiondiscoveryprovider.h
+: 
+- IFunctionDiscoveryProvider.InstancePropertyStoreFlush
+: 
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreFlush
@@ -52,7 +60,7 @@ req.redist:
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Provides a mechanism for the provider to persist properties without having to implement <a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>. This method is called whenever <a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a> is called by the client on the function instance property store.
+Provides a mechanism for the provider to persist properties without having to implement <a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>. This method is called whenever <a href="shell_IPropertyStoreshell_IPropertyStore_Commit_cpp">IPropertyStore::Commit</a> is called by the client on the function instance property store.
 
 
 ## -parameters

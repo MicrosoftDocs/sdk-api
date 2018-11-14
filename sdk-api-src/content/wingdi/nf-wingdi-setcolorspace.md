@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetColorSpace
+: 
 ---
 
 # SetColorSpace function
@@ -52,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>SetColorSpace</b> function defines the input <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> for a given device context.
+The <b>SetColorSpace</b> function defines the input <a href="c.htm">color space</a> for a given device context.
 
 
 ## -parameters

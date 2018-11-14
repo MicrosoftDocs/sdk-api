@@ -9,8 +9,8 @@ ms.assetid: 5f7e7f71-4cd6-4ce4-946c-9a1f7ec72fbe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtInit interface [Windows Shell],described, _win32_IShellExtInit, _win32_ishellextinit_cpp, shell.IShellExtInit, shobjidl_core/IShellExtInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

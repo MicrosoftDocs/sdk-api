@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- dpa_dsa.h
+: 
+- DPA_SortedInsertPtr
+: 
 ---
 
 # DPA_SortedInsertPtr macro
@@ -139,11 +147,11 @@ A pointer to the item that is to be inserted.
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/en-us/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775633(v=VS.85).aspx">DPA_Search</a> functions.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/275585f9-b26b-4528-a5b2-471dc1623a68">DPA_InsertPtr</a> and <a href="https://msdn.microsoft.com/9cb6bf14-6108-4b53-8cfd-fb697aa5dbdc">DPA_Search</a> functions.</div>
 <div> </div>
 The DPAS_SORTED flag is included in <i>options</i> by default to indicate that the DPA is sorted.
 
-See function <a href="https://msdn.microsoft.com/en-us/library/Bb775633(v=VS.85).aspx">DPA_Search</a> for additional information on how the <i>pFind</i> item is located. The new item is inserted before or after the <i>pFind</i> item according to the <i>options</i> parameter. The <i>pFind</i> parameter need not exist in the DPA. If it does not exist in the DPA, then the new item is inserted where <i>pFind</i> would have been had it been inserted in the DPA in sorted order.
+See function <a href="https://msdn.microsoft.com/9cb6bf14-6108-4b53-8cfd-fb697aa5dbdc">DPA_Search</a> for additional information on how the <i>pFind</i> item is located. The new item is inserted before or after the <i>pFind</i> item according to the <i>options</i> parameter. The <i>pFind</i> parameter need not exist in the DPA. If it does not exist in the DPA, then the new item is inserted where <i>pFind</i> would have been had it been inserted in the DPA in sorted order.
 
 
 

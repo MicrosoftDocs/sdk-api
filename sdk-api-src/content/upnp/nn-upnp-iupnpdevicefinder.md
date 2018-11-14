@@ -9,8 +9,8 @@ ms.assetid: a4697038-8abc-42f2-9381-702fc82af90b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], IUPnPDeviceFinder interface [UPnP APIs],described, _upnp_iupnpdevicefinder, upnp.iupnpdevicefinder, upnp/IUPnPDeviceFinder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinder</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUPnPDeviceFinder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinder</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IUPnPDeviceFinder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

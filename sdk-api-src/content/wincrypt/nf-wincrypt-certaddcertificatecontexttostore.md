@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertAddCertificateContextToStore
+: 
 ---
 
 # CertAddCertificateContextToStore function
@@ -265,7 +271,7 @@ To access a specific certificate you must iterate across the certificates in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

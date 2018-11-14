@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TUISPI_providerConfig
+: 
 ---
 
 # TUISPI_providerConfig function

@@ -9,8 +9,8 @@ ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], IVssCreateWriterMetadata interface [VSS],described, _win32_ivsscreatewritermetadata, base.ivsscreatewritermetadata, vswriter/IVssCreateWriterMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
@@ -52,7 +52,7 @@ req.redist:
 
 
 The 
-<b>IVssCreateWriterMetadata</b> interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an <a href="https://msdn.microsoft.com/en-us/library/Aa384659(v=VS.85).aspx">Identify</a> event. It is used only in 
+<b>IVssCreateWriterMetadata</b> interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an <a href="vssgloss_i.htm">Identify</a> event. It is used only in 
 the <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a> method.
 
 The addition and specification of components by a writer is managed through this interface.

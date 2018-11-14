@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WSAStringToAddressA
+: 
 ---
 
 # WSAStringToAddressA function
@@ -85,7 +91,7 @@ A pointer to a buffer that is filled with a  <a href="https://msdn.microsoft.com
 ### -param lpAddressLength [in, out]
 
 A pointer to the length, in bytes, of the buffer pointed to by the <i>lpAddress</i> parameter. If the function call is successful, this parameter returns a pointer to the size of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure returned in the <i>lpAddress</i> parameter. If the specified buffer is not large enough, the function fails with a specific error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
 
 
 ## -returns
@@ -104,7 +110,7 @@ The return value for
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +121,7 @@ The buffer pointed to by the <i>lpAddress</i> parameter is too small. Pass in a 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +133,7 @@ The functions was unable to translate the string into a
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +145,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">

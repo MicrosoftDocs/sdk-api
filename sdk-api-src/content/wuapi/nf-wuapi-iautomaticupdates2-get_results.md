@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IAutomaticUpdates2.get_Results
+: 
 ---
 
 # IAutomaticUpdates2::get_Results

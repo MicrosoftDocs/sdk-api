@@ -9,8 +9,8 @@ ms.assetid: 7a73d5ff-d08a-46e6-b4ad-4f3b973967a7
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PCL_DISPLAYNUMCOLUMNS, PCL_DISPLAYNUMROWS, PCL_GENERICPHONE, PCL_HANDSETHOOKSWITCHMODES, PCL_HEADSETHOOKSWITCHMODES, PCL_HOOKSWITCHES, PCL_NUMBUTTONLAMPS, PCL_NUMRINGMODES, PCL_SPEAKERPHONEHOOKSWITCHMODES, PHONECAPS_LONG, PHONECAPS_LONG enumeration [TAPI 2.2], _tapi3_phonecaps_long, tapi3.phonecaps_long, tapi3if/PCL_DISPLAYNUMCOLUMNS, tapi3if/PCL_DISPLAYNUMROWS, tapi3if/PCL_GENERICPHONE, tapi3if/PCL_HANDSETHOOKSWITCHMODES, tapi3if/PCL_HEADSETHOOKSWITCHMODES, tapi3if/PCL_HOOKSWITCHES, tapi3if/PCL_NUMBUTTONLAMPS, tapi3if/PCL_NUMRINGMODES, tapi3if/PCL_SPEAKERPHONEHOOKSWITCHMODES, tapi3if/PHONECAPS_LONG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

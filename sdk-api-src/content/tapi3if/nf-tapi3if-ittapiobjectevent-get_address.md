@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITTAPIObjectEvent.get_Address
+: 
 ---
 
 # ITTAPIObjectEvent::get_Address

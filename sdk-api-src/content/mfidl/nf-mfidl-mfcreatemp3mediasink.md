@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateMP3MediaSink
+: 
 ---
 
 # MFCreateMP3MediaSink function

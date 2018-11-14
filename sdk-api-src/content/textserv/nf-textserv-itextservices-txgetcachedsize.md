@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextServices.TxGetCachedSize
+: 
 ---
 
 # ITextServices::TxGetCachedSize
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in <a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>, and so forth, although it is not guaranteed to be. 
+Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in <a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">ITextServices::TxDraw</a>, <a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">ITextServices::OnTxSetCursor</a>, and so forth, although it is not guaranteed to be. 
 
 
 ## -parameters
@@ -101,11 +109,11 @@ This method can free the host from the need to maintain the cached drawing size 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">OnTxSetCursor</a>
+<a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">OnTxSetCursor</a>
 
 
 
@@ -113,11 +121,11 @@ This method can free the host from the need to maintain the cached drawing size 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">TxDraw</a>
+<a href="https://msdn.microsoft.com/5fb14a41-2e73-4760-ba77-f1bfd2a1184b">TxDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

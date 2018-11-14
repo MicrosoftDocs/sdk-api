@@ -9,8 +9,8 @@ ms.assetid: 1A70E67D-8A1E-4041-A1E4-E322317E2849
 ms.author: windowssdkdev
 ms.date: 10/23/2018
 ms.keywords: "*PWINUSB_PIPE_INFORMATION_EX, PWINUSB_PIPE_INFORMATION_EX, PWINUSB_PIPE_INFORMATION_EX structure pointer [Buses], WINUSB_PIPE_INFORMATION_EX, WINUSB_PIPE_INFORMATION_EX structure [Buses], _WINUSB_PIPE_INFORMATION_EX, buses.win_usb_pipe_information_ex, winusbio/PWINUSB_PIPE_INFORMATION_EX, winusbio/WINUSB_PIPE_INFORMATION_EX"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winusbio.h
 req.include-header: Winusbio.h

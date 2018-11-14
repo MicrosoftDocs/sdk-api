@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITACDGroupEvent.get_Group
+: 
 ---
 
 # ITACDGroupEvent::get_Group

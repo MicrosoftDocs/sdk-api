@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- IMSCEPSetup.SetMSCEPSetupProperty
+: 
 ---
 
 # IMSCEPSetup::SetMSCEPSetupProperty
@@ -60,12 +68,12 @@ The <b>SetMSCEPSetupProperty</b> method sets a property value for a Network Devi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736420(v=VS.85).aspx">MSCEPSetupProperty</a> enumeration that specifies the type of property to configure.
+A value of the <a href="https://msdn.microsoft.com/c3740afc-842e-427f-87bf-022f5544d0d4">MSCEPSetupProperty</a> enumeration that specifies the type of property to configure.
 
 
 ### -param pPropertyValue [in]
 
-A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/en-us/library/Bb736420(v=VS.85).aspx">MSCEPSetupProperty</a>.
+A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/c3740afc-842e-427f-87bf-022f5544d0d4">MSCEPSetupProperty</a>.
 
 
 ## -see-also
@@ -73,7 +81,7 @@ A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

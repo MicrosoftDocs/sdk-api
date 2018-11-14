@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetAltTabInfoW
+: 
 ---
 
 # GetAltTabInfoW function
@@ -78,7 +84,7 @@ The index of the icon in the application-switching window. If the <i>pszItemText
 
 Type: <b>PALTTABINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms632601(v=VS.85).aspx">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
+A pointer to an <a href="https://msdn.microsoft.com/56c37b16-1708-48a4-8e2c-54f98aad0cf7">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
 
 
 ### -param pszItemText [out, optional]
@@ -123,7 +129,7 @@ The application-switching window enables you to switch to the most recently used
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632601(v=VS.85).aspx">ALTTABINFO</a>
+<a href="https://msdn.microsoft.com/56c37b16-1708-48a4-8e2c-54f98aad0cf7">ALTTABINFO</a>
 
 
 
@@ -135,7 +141,7 @@ The application-switching window enables you to switch to the most recently used
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

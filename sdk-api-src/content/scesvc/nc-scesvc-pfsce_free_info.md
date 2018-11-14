@@ -9,8 +9,8 @@ ms.assetid: e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback function [Security], _config_pfsce_free_info, scesvc/PFSCE_FREE_INFO, security.pfsce_free_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: scesvc.h
 req.include-header: 

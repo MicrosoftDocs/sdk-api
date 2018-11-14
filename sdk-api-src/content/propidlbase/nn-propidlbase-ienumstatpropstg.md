@@ -9,8 +9,8 @@ ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propidlbase.h
 req.include-header: Propidl.h

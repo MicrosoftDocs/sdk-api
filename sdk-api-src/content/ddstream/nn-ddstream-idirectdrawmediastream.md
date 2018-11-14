@@ -9,8 +9,8 @@ ms.assetid: 858af0c3-9e22-45d8-ab08-307eb39a8977
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], IDirectDrawMediaStream interface [DirectShow],described, IDirectDrawMediaStreamInterface, ddstream/IDirectDrawMediaStream, dshow.idirectdrawmediastream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ddstream.h
 req.include-header: 

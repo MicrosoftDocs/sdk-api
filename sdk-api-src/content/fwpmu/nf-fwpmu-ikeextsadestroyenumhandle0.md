@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IkeextSaDestroyEnumHandle0
+: 
 ---
 
 # IkeextSaDestroyEnumHandle0 function

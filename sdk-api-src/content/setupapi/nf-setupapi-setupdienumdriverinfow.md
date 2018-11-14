@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiEnumDriverInfoW
+: 
 ---
 
 # SetupDiEnumDriverInfoW function
@@ -61,7 +67,7 @@ The <b>SetupDiEnumDriverInfo</b> function enumerates the members of a driver lis
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the driver list to enumerate.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the driver list to enumerate.
 
 
 ### -param DeviceInfoData [in, optional]

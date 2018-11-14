@@ -9,8 +9,8 @@ ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_QualifierSetFT, MI_QualifierSetFT structure [Windows Management Infrastructure (MI)], _MI_QualifierSetFT, mi/MI_QualifierSetFT, wmi_v2.mi_qualifiersetft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

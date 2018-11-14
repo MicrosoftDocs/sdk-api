@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_SetGroupMetrics
+: 
 ---
 
 # ListView_SetGroupMetrics macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a> message explicitly. 
+Sets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/268b478d-da1f-4efe-9ee9-af3f12e089ee">LVM_SETGROUPMETRICS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Sets information about the display of groups. You can use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -69,13 +77,13 @@ A handle to the list-view control.
 
 Type: <b>PLVGROUPMETRICS</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774752(v=VS.85).aspx">LVGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/8cbe72d0-7d99-48fb-b10b-bc862ba93f6e">LVGROUPMETRICS</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

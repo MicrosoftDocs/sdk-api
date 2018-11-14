@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbe.h
+: 
+- IStreamBufferRecordingAttribute.GetAttributeCount
+: 
 ---
 
 # IStreamBufferRecordingAttribute::GetAttributeCount

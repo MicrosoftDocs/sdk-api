@@ -9,8 +9,8 @@ ms.assetid: 3f89173a-d24b-400c-a229-28efb7a703be
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], IScanningTunerEx interface [Microsoft TV Technologies],described, IScanningTunerExInterface, mstv.iscanningtunerex, tuner/IScanningTunerEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

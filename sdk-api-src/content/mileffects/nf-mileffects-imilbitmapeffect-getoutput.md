@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
+- apiref
+: 
+- COM
+: 
+- mileffects.h
+: 
+- IMILBitmapEffect.GetOutput
+: 
 ---
 
 # IMILBitmapEffect::GetOutput
@@ -67,7 +75,7 @@ The output index.
 
 ### -param pContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>*</b>
 
 A pointer to the render context of the effect.
 

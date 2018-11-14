@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11Texture1D.GetDesc
+: 
 ---
 
 # ID3D11Texture1D::GetDesc
@@ -61,9 +69,9 @@ Get the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476252(v=VS.85).aspx">D3D11_TEXTURE1D_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476252(v=VS.85).aspx">D3D11_TEXTURE1D_DESC</a>).
+Pointer to a resource description (see <a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a>).
 
 
 ## -returns
@@ -80,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476633(v=VS.85).aspx">ID3D11Texture1D</a>
+<a href="https://msdn.microsoft.com/8f375031-014e-4eca-84d5-ebe40058f121">ID3D11Texture1D</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 8bfe7c31-61e0-420b-8b6b-6b014cd5e243
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PSILO_INFO, PSILO_INFO structure pointer [Enhanced Storage], SILO_INFO, SILO_INFO structure [Enhanced Storage], _SILO_INFO, ehstorapi/PSILO_INFO, ehstorapi/SILO_INFO, enstor.silo_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorapi.h
 req.include-header: 

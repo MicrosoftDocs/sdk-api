@@ -9,8 +9,8 @@ ms.assetid: a7d52959-8386-464f-958d-c870f286b265
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IAnchor, IAnchor interface [Text Services Framework], IAnchor interface [Text Services Framework],described, textstor/IAnchor, tsf.ianchor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
+The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
 
 The interface ID is IID_IAnchor.
 
@@ -177,11 +177,11 @@ Shifts the current anchor to the same position as another anchor.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
  
 
  

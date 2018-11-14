@@ -9,8 +9,8 @@ ms.assetid: 654663C4-1E28-435A-9D81-1E390BC66B62
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DEDUP_BACKUP_SUPPORT_PARAM_TYPE, DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration [Data Deduplication API], DEDUP_RECONSTRUCT_OPTIMIZED, DEDUP_RECONSTRUCT_UNOPTIMIZED, _DEDUP_BACKUP_SUPPORT_PARAM_TYPE, ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE, ddpbackup/DEDUP_RECONSTRUCT_OPTIMIZED, ddpbackup/DEDUP_RECONSTRUCT_UNOPTIMIZED, dedup.dedup_backup_support_param_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: ddpbackup.h
 req.include-header: 
@@ -73,7 +73,7 @@ Reserved for future use. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">IDedupBackupSupport::RestoreFiles</a>
+<a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a>
  
 
  

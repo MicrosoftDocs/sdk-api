@@ -9,8 +9,8 @@ ms.assetid: 05ca0877-5e9d-4b21-9fca-a1eef2cb4626
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO structure [Security], PCRYPT_TIMESTAMP_INFO, PCRYPT_TIMESTAMP_INFO structure pointer [Security], TIMESTAMP_VERSION, _CRYPT_TIMESTAMP_INFO, security.crypt_timestamp_info, wincrypt/CRYPT_TIMESTAMP_INFO, wincrypt/PCRYPT_TIMESTAMP_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

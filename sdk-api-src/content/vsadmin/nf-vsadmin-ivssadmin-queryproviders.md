@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vsadmin.h
+: 
+- IVssAdmin.QueryProviders
+: 
 ---
 
 # IVssAdmin::QueryProviders

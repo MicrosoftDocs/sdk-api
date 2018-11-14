@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.ApplyEffect
+: 
 req.product: GDI+ 1.1
 ---
 

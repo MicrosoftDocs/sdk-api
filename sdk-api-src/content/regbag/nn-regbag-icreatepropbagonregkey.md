@@ -9,8 +9,8 @@ ms.assetid: f634a04f-911f-4d53-be70-d5dbf2395ce5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], ICreatePropBagOnRegKey interface [Microsoft TV Technologies],described, ICreatePropBagOnRegKeyInterface, mstv.icreatepropbagonregkey, regbag/ICreatePropBagOnRegKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: regbag.h
 req.include-header: Tuner.h

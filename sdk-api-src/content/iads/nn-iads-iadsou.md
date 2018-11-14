@@ -9,8 +9,8 @@ ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsOU, IADsOU interface [ADSI], IADsOU interface [ADSI],described, _ds_iadsou, adsi.iadsou, iads/IADsOU
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="https://msdn.microsoft.com/library/ms683886(v=VS.85).aspx">organizationalUnit</a> objects. All <a href="https://msdn.microsoft.com/library/ms683886(v=VS.85).aspx">organizationalUnit</a> objects that implement this interface also implement the <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interface.
+The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="ad.win2k_c_organizationalunit">organizationalUnit</a> objects. All <a href="ad.win2k_c_organizationalunit">organizationalUnit</a> objects that implement this interface also implement the <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interface.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

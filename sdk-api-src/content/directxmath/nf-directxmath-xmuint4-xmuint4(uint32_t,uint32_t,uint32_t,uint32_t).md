@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMUINT4.XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t)
 title: XMUINT4 function
 author: windows-sdk-content
-description: Constructors exposed by XMUINT4.
-old-location: dxmath\xmuint4_ctor.htm
+description: Initializes a new instance of XMUINT4 from four uint32_t arguments.
+old-location: dxmath\xmuint4_ctor_2.htm
 tech.root: dxmath
-ms.assetid: Overload:Microsoft.directx_sdk.reference.XMUINT4.#ctor
+ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT4.#ctor(uint32_t,uint32_t,uint32_t,uint32_t)
 ms.author: windowssdkdev
 ms.date: 11/02/2018
-ms.keywords: XMUINT4, XMUINT4 Constructors, XMUINT4 Constructors constructors [DirectX Math Support APIs], directxmath/XMUINT4 Constructors, dxmath.xmuint4_ctor
+ms.keywords: XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t), dxmath.xmuint4_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: Use DirectX.
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,15 +33,21 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - directxmath.h
+ - DirectXMath.h
 api_name:
- - XMUINT4
+ - XMUINT4.XMUINT4
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMUINT4
+: 
 ---
 
 # XMUINT4 function
@@ -50,63 +56,73 @@ req.redist:
 ## -description
 
 
-<span>Constructors exposed by <code>XMUINT4</code>.
-
-Constructs instances of the <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> structure.
-
-<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
-<div> </div></span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07e5f922-41f2-432d-b010-ae45960ac2ab">XMUINT4 ()</a>
-</td>
-<td align="left" width="63%">
-Default constructor for <code>XMUINT4</code>.
-
-Default constructor for <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a>.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/015b6b50-e749-452e-b05e-a5d18c29fea2">XMUINT4 (const uint32_t*)</a>
-</td>
-<td align="left" width="63%">
-Initializes a new instance of <code>XMUINT4</code> from a four element <code>uint32_t</code> array
-	argument.
-
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> from a from
-	a four element <code>uint32_t</code> array argument.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8167571-fb1f-4335-9ea0-650e16d44771">XMUINT4 (uint32_t,uint32_t,uint32_t,uint32_t)</a>
-</td>
-<td align="left" width="63%">
 Initializes a new instance of <code>XMUINT4</code> from four <code>uint32_t</code> arguments.
+    
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> from four
 	<code>uint32_t</code> arguments.
-
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div>
-<div> </div>
-</td>
-</tr>
-</table>
+    </div><div> </div>
 
 ## -parameters
+
+
+
+
+### -param _x
+
+Value of the x-coordinate of the vector, the <b>x</b> member of the new
+		    <code>XMUINT4</code> instance.
+		
+
+
+### -param _y
+
+Value of the y-coordinate of the vector, the <b>y</b> member of the new
+		    <code>XMUINT4</code> instance.
+		
+
+
+### -param _z
+
+Value of the z-coordinate of the vector, the <b>z</b> member of the new
+		    <code>XMUINT4</code> instance.
+		
+
+
+### -param _w
+
+Value of the w-coordinate of the vector, the <b>w</b> member of the new
+		    <code>XMUINT4</code> instance.
+		
+
+
+## -remarks
+
+
+
+The following pseudocode demonstrates the operation of this constructor:
+	
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+	XMUINT4 instance;
+
+	instance.x = _x;
+	instance.y = _y;
+	instance.z = _z;
+	instance.w = _w;
+
+    </pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
@@ -122,7 +138,7 @@ This constructor initializes a new instance of <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/6e566251-3454-4c8d-aaa0-121112491114">XMUINT4 Extensions</a>
+<a href="https://msdn.microsoft.com/f942a6a3-467c-4beb-964a-b1f066f30b36">XMUINT4 Constructors</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IFsiItem, IFsiItem interface [IMAPI], IFsiItem interface [IMAPI],described, imapi.ifsiitem, imapi2fs/IFsiItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 
@@ -57,7 +57,7 @@ To access the properties of this interface, use the <a href="https://msdn.micros
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiItem</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsiItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiItem</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsiItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

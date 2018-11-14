@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmFileManagementJob.get_LastRun
+: 
 ---
 
 # IFsrmFileManagementJob::get_LastRun

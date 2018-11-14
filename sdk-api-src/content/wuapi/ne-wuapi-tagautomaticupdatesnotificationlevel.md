@@ -9,8 +9,8 @@ ms.assetid: a326400b-d6df-4947-8ab8-126d357834c3
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: AutomaticUpdatesNotificationLevel, AutomaticUpdatesNotificationLevel enumeration [Windows Update Agent], aunlDisabled, aunlNotConfigured, aunlNotifyBeforeDownload, aunlNotifyBeforeInstallation, aunlScheduledInstallation, tagAutomaticUpdatesNotificationLevel, wua.automaticupdatesnotificationlevel, wuapi/AutomaticUpdatesNotificationLevel, wuapi/aunlDisabled, wuapi/aunlNotConfigured, wuapi/aunlNotifyBeforeDownload, wuapi/aunlNotifyBeforeInstallation, wuapi/aunlScheduledInstallation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

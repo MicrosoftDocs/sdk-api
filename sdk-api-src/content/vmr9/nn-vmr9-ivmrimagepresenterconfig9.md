@@ -9,8 +9,8 @@ ms.assetid: fc3c9b4d-0213-47d5-96e4-db582c80ca4e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRImagePresenterConfig9, IVMRImagePresenterConfig9 interface [DirectShow], IVMRImagePresenterConfig9 interface [DirectShow],described, IVMRImagePresenterConfig9Interface, dshow.ivmrimagepresenterconfig9, vmr9/IVMRImagePresenterConfig9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

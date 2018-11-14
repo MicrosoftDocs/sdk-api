@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- INetSharingPrivateConnectionCollection.get_Count
+: 
 ---
 
 # INetSharingPrivateConnectionCollection::get_Count

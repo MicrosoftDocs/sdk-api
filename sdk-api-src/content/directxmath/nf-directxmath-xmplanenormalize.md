@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMPlaneNormalize
+: 
 ---
 
 # XMPlaneNormalize function
@@ -60,9 +66,6 @@ Normalizes the coefficients of a plane so that coefficients of x, y, and z form 
 
 ### -param P [in]
 
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
-
-<div class="code"><span codelanguage=""><table>
 <b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -82,9 +85,7 @@ Result.w = P.w * ReciprocalLength;
 return Result;</pre>
 </td>
 </tr>
-</table></span></div>
-
-.
+</table></span></div>.
 
 
 ## -returns

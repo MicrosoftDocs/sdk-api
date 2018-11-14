@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventSystem.get_EventObjectChangeEventClassID
+: 
 ---
 
 # IEventSystem::get_EventObjectChangeEventClassID

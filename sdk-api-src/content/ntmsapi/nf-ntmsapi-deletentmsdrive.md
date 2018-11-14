@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeleteNtmsDrive
+: 
 ---
 
 # DeleteNtmsDrive function
@@ -191,7 +197,7 @@ You can use this function to remove drives that are no longer connected to the R
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

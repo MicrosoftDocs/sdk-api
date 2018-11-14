@@ -7,7 +7,7 @@ old-location: direct2d\stringgetter.htm
 tech.root: direct2d
 ms.assetid: 9C35AF38-1937-46DD-8DC4-BBA322E5CAAA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: StringGetter, StringGetter function [Direct2D], d2d1effecthelpers/StringGetter, direct2d.stringgetter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringGetter
+: 
 ---
 
 # StringGetter function

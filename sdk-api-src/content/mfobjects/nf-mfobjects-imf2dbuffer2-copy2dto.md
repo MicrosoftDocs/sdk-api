@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfobjects.h
+: 
+- IMF2DBuffer2.Copy2DTo
+: 
 ---
 
 # IMF2DBuffer2::Copy2DTo

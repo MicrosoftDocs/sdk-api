@@ -9,8 +9,8 @@ ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 
@@ -222,9 +222,6 @@ Gets the cached sink protocol info for the device.
 An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a pointer to the underlying <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>, 	<b>IServiceProvider-&gt;QueryService</b> can be used with <b>GUID_NativeDeviceService</b> to get native interfaces for the device.
 
 
- For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: 
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
  For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -235,8 +232,6 @@ An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a p
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 

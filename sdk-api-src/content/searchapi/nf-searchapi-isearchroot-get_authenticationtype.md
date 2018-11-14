@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchRoot.get_AuthenticationType
+: 
 ---
 
 # ISearchRoot::get_AuthenticationType
@@ -60,9 +68,9 @@ Retrieves the type of authentication needed to access the URLs under this this s
 
 ### -param pAuthType [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a>*</b>
 
-A pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type required to access URLs under this search root.
+A pointer to a value from the <a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a> enumeration that indicates the authentication type required to access URLs under this search root.
 
 
 ## -returns

@@ -9,8 +9,8 @@ ms.assetid: acce67ef-3290-4892-b56a-77a256776c80
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], IProcessInitControl interface [COM],described, _com_iprocessinitcontrol, com.iprocessinitcontrol, objidlbase/IProcessInitControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -55,7 +55,7 @@ Specifies the process initialization time-out interval.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessInitControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IProcessInitControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessInitControl</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IProcessInitControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -9,8 +9,8 @@ ms.assetid: 58b32c87-39b6-4d64-9174-cf798ed302c2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleObject, IOleObject interface [COM], IOleObject interface [COM],described, _ole_ioleobject, com.ioleobject, oleidl/IOleObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
@@ -56,7 +56,7 @@ Serves as the principal means by which an embedded object provides basic functio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleObject</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

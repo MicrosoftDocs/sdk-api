@@ -9,8 +9,8 @@ ms.assetid: b0ddf0fc-30db-464d-8761-da400386a609
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: FsiItemDirectory, FsiItemFile, FsiItemNotFound, FsiItemType, FsiItemType enumeration [IMAPI], imapi.fsiitemtype, imapi2fs/FsiItemDirectory, imapi2fs/FsiItemFile, imapi2fs/FsiItemNotFound, imapi2fs/FsiItemType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 

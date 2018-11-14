@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10.h
+: 
+- ID3D10Asynchronous.Begin
+: 
 ---
 
 # ID3D10Asynchronous::Begin
@@ -74,8 +82,8 @@ Returns nothing.
 
 
 
-Calling Begin starts the asynchronous collection of GPU data. Calling <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> causes data collection to stop.  
-  See <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a> for additional information.
+Calling Begin starts the asynchronous collection of GPU data. Calling <a href="https://msdn.microsoft.com/147a93b4-7151-4800-8aa5-286058f49ee8">ID3D10Asynchronous::End</a> causes data collection to stop.  
+  See <a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a> for additional information.
 
 
 
@@ -85,7 +93,7 @@ Calling Begin starts the asynchronous collection of GPU data. Calling <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
+<a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a>
  
 
  

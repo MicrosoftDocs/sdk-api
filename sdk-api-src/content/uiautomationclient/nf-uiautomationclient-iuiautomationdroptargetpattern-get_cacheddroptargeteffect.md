@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationDropTargetPattern.get_CachedDropTargetEffect
+: 
 ---
 
 # IUIAutomationDropTargetPattern::get_CachedDropTargetEffect

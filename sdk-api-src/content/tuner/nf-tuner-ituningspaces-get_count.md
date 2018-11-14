@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ITuningSpaces.get_Count
+: 
 ---
 
 # ITuningSpaces::get_Count

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent
+: 
 ---
 
 # IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent
@@ -94,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When a client application subscribes to a UI Automation event, the UI Automation core also listens for WinEvents that map to this event. For example, suppose that <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Invoke_InvokedEventId</a> is mapped to <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_INVOKED</a>. When <b>EVENT_OBJECT_INVOKED</b> is raised, the client instantiates the proxy and calls <a href="https://msdn.microsoft.com/b3a63cb9-3eae-43ec-aba1-2f038ca0896f">RespondToWinEvent</a> on that proxy. In the implementation of <b>RespondToWinEvent</b>, the proxy calls <a href="https://msdn.microsoft.com/c1730b6b-f399-4e1f-91d4-5d5e40835a74">AddAutomationEvent</a>. The core then raises the corresponding UI Automation event.
+When a client application subscribes to a UI Automation event, the UI Automation core also listens for WinEvents that map to this event. For example, suppose that <a href="uiauto_event_ids.htm">UIA_Invoke_InvokedEventId</a> is mapped to <a href="event_constants.htm">EVENT_OBJECT_INVOKED</a>. When <b>EVENT_OBJECT_INVOKED</b> is raised, the client instantiates the proxy and calls <a href="https://msdn.microsoft.com/b3a63cb9-3eae-43ec-aba1-2f038ca0896f">RespondToWinEvent</a> on that proxy. In the implementation of <b>RespondToWinEvent</b>, the proxy calls <a href="https://msdn.microsoft.com/c1730b6b-f399-4e1f-91d4-5d5e40835a74">AddAutomationEvent</a>. The core then raises the corresponding UI Automation event.
 			
 
 

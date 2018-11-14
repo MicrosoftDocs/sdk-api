@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Pager_GetBorder
+: 
 ---
 
 # Pager_GetBorder macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760869(v=VS.85).aspx">PGM_GETBORDER</a> message explicitly. 
+Retrieves the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/5d2f49ad-d940-4a0b-b5a0-05d742151b1c">PGM_GETBORDER</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Retrieves the current border size for the pager control. You can use this macro 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 

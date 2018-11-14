@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_feature_data_root_signature.htm
 tech.root: direct3d12
 ms.assetid: 3CC49B10-18B9-4A10-9013-D8F265FD1A28
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_FEATURE_DATA_ROOT_SIGNATURE, D3D12_FEATURE_DATA_ROOT_SIGNATURE structure, d3d12/D3D12_FEATURE_DATA_ROOT_SIGNATURE, direct3d12.d3d12_feature_data_root_signature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

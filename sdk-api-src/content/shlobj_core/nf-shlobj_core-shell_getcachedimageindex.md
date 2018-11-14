@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Shell_GetCachedImageIndex
+: 
 ---
 
 # Shell_GetCachedImageIndex function

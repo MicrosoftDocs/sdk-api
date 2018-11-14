@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfSystemLangBarItem.SetTooltipString
+: 
 ---
 
 # ITfSystemLangBarItem::SetTooltipString
@@ -110,7 +118,7 @@ The tooltip string for the system language bar menu cannot be modified.
 
 
 
-In response to this method, the system language bar menu should call <a href="https://msdn.microsoft.com/en-us/library/ms628738(v=VS.85).aspx">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_TOOLTIP to force the language bar to obtain the new tooltip text.
+In response to this method, the system language bar menu should call <a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_TOOLTIP to force the language bar to obtain the new tooltip text.
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDirectManipulationCompositor, IDirectManipulationCompositor interface [Direct Manipulation], IDirectManipulationCompositor interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor, directmanipulation/IDirectManipulationCompositor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

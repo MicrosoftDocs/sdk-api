@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextRow.CanChange
+: 
 ---
 
 # ITextRow::CanChange
@@ -62,7 +70,7 @@ Determines whether changes can be made to this row.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> indicating whether the row can be edited. It is <b>tomTrue</b> only if the row can be edited. The <i>pB</i> paraemeter can be <b>NULL</b>.
+A <a href="About_Text_Object_Model.htm">tomBool</a> indicating whether the row can be edited. It is <b>tomTrue</b> only if the row can be edited. The <i>pB</i> paraemeter can be <b>NULL</b>.
 
 
 ## -returns

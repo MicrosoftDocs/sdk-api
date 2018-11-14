@@ -7,7 +7,7 @@ old-location: dataxchg\ddeimpersonateclient.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeimpersonateclient.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/13/2018
 ms.keywords: DdeImpersonateClient, DdeImpersonateClient function [Data Exchange], _win32_DdeImpersonateClient, _win32_ddeimpersonateclient_cpp, dataxchg.ddeimpersonateclient, ddeml/DdeImpersonateClient, winui._win32_ddeimpersonateclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DdeImpersonateClient
+: 
 ---
 
 # DdeImpersonateClient function
@@ -101,7 +107,7 @@ If the call to <b>DdeImpersonateClient</b> fails for any reason, the client is n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

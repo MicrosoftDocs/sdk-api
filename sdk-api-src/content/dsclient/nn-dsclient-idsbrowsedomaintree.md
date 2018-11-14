@@ -9,8 +9,8 @@ ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dsclient.h
 req.include-header: 
@@ -122,27 +122,31 @@ Specifies the computer and credentials to be used by this instance of the <b>IDs
 
 An instance of this interface is created by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 IDsBrowseDomainTree *pDSB = NULL;
 
 hr = CoCreateInstance(    CLSID_DsDomainTreeBrowser,
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IDsBrowseDomainTree,
-                          (void**)&pDSB);
+                          (void**)&amp;pDSB);
 
 if(SUCCEEDED(hr))
 {
     //use the IDsBrowseDomainTree object
 
     //release the IDsBrowseDomainTree object
-    pDSB->Release();
-}
-```
-
-
+    pDSB-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

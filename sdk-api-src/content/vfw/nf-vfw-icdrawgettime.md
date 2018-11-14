@@ -7,7 +7,7 @@ old-location: multimedia\icdrawgettime.htm
 tech.root: Multimedia
 ms.assetid: ebf21b97-7bfe-4eca-9442-9fc4db663ac6
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ICDrawGetTime, ICDrawGetTime macro [Windows Multimedia], _win32_ICDrawGetTime, multimedia.icdrawgettime, vfw/ICDrawGetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- ICDrawGetTime
+: 
 ---
 
 # ICDrawGetTime macro

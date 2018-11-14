@@ -9,8 +9,8 @@ ms.assetid: 53deec43-30ca-472e-9a82-750049686d2a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAudioStreamSample, IAudioStreamSample interface [DirectShow], IAudioStreamSample interface [DirectShow],described, IAudioStreamSampleInterface, austream/IAudioStreamSample, dshow.iaudiostreamsample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: austream.h
 req.include-header: 

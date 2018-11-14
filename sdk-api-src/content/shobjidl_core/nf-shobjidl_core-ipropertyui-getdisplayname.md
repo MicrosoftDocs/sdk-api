@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IPropertyUI.GetDisplayName
+: 
 ---
 
 # IPropertyUI::GetDisplayName
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
 
 
 ## -parameters

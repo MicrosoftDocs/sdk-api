@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sdoias.h
+: 
+- ISdoDictionaryOld.GetAttributeID
+: 
 ---
 
 # ISdoDictionaryOld::GetAttributeID
@@ -92,7 +100,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
 
 
 

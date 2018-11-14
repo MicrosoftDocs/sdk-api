@@ -9,8 +9,8 @@ ms.assetid: a17dd2e4-0649-4cfc-aab3-c032710480a1
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IEC_RECOGNITIONRESULTINFO, IEC_RECOGNITIONRESULTINFO (Win32 Only), IEC_RECOGNITIONRESULTINFO (Win32 Only) structure [Tablet PC], a17dd2e4-0649-4cfc-aab3-c032710480a1, inked/IEC_RECOGNITIONRESULTINFO, tablet.iec_recognitionresultinfo__win32_only_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: inked.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ber_alloc_t
+: 
 ---
 
 # ber_alloc_t function

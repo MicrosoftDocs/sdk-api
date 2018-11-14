@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_clearstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 4CD81C2B-53F2-4046-A001-72CBFD5C04CA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ClearStorageFilter, ClearStorageFilter method [DXGI], ClearStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearStorageFilter method, IDXGIInfoQueue.ClearStorageFilter, IDXGIInfoQueue::ClearStorageFilter, direct3ddxgi.idxgiinfoqueue_clearstoragefilter, dxgidebug/IDXGIInfoQueue::ClearStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgidebug.h
+: 
+- IDXGIInfoQueue.ClearStorageFilter
+: 
 ---
 
 # IDXGIInfoQueue::ClearStorageFilter

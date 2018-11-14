@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObject.get_ObjectType
+: 
 ---
 
 # ITDirectoryObject::get_ObjectType

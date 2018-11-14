@@ -9,8 +9,8 @@ ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, _VDS_PATH_INFO, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
@@ -69,7 +69,7 @@ The unique ID of the path used by MPIO.
 
 ### -field type
 
-The type of interconnect that the hardware provider supports for this LUN path. <a href="https://msdn.microsoft.com/en-us/library/Aa383366(v=VS.85).aspx">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
+The type of interconnect that the hardware provider supports for this LUN path. <a href="vds_hwprovider_type.htm">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
 
 
 ### -field status

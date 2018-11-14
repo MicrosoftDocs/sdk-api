@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontSet.GetMatchingFonts
+: 
 ---
 
 # IDWriteFontSet::GetMatchingFonts(DWRITE_FONT_PROPERTY const,UINT32,IDWriteFontSet)

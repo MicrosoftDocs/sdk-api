@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ITuningSpace.get_NetworkType
+: 
 ---
 
 # ITuningSpace::get_NetworkType

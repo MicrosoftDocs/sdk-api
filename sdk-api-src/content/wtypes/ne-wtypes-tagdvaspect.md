@@ -9,8 +9,8 @@ ms.assetid: a2b729c8-7091-4520-93cd-c44468ba0274
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVASPECT, DVASPECT enumeration [COM], DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, _ole_DVASPECT, com.dvaspect, tagDVASPECT, wtypes/DVASPECT, wtypes/DVASPECT_CONTENT, wtypes/DVASPECT_DOCPRINT, wtypes/DVASPECT_ICON, wtypes/DVASPECT_THUMBNAIL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wtypes.h
 req.include-header: 

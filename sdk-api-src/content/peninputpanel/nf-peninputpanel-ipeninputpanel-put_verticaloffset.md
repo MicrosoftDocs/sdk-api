@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- peninputpanel.h
+: 
+- IPenInputPanel.put_VerticalOffset
+: 
 ---
 
 # IPenInputPanel::put_VerticalOffset

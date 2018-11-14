@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_3.h
+: 
+- ID3D11Query1.GetDesc1
+: 
 ---
 
 # ID3D11Query1::GetDesc1
@@ -61,9 +69,9 @@ Gets a query description.
 
 ### -param pDesc1 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a> structure that receives a description of the query.
+A pointer to a <a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a> structure that receives a description of the query.
 
 
 ## -returns
@@ -80,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899236(v=VS.85).aspx">ID3D11Query1</a>
+<a href="https://msdn.microsoft.com/6DF4364F-A20D-466E-8F26-17C6DD32E84B">ID3D11Query1</a>
  
 
  

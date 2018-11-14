@@ -9,8 +9,8 @@ ms.assetid: a1f6ba18-63ef-43ac-a17f-900fa13398aa
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT structure [Security], PCERT_CHAIN_ELEMENT, PCERT_CHAIN_ELEMENT structure pointer [Security], _CERT_CHAIN_ELEMENT, _crypto2_cert_chain_element, security.cert_chain_element, wincrypt/CERT_CHAIN_ELEMENT, wincrypt/PCERT_CHAIN_ELEMENT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

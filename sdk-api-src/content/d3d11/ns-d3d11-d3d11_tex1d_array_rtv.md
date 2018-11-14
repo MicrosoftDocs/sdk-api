@@ -9,8 +9,8 @@ ms.assetid: cdb1c9e0-39a4-415e-a91f-05042b1f1b2d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 9b2f38aa-7062-6fcf-c263-f4aa1f05a173, D3D11_TEX1D_ARRAY_RTV, D3D11_TEX1D_ARRAY_RTV structure [Direct3D 11], d3d11/D3D11_TEX1D_ARRAY_RTV, direct3d11.d3d11_tex1d_array_rtv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

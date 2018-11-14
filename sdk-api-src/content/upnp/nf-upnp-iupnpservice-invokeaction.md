@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- upnp.h
+: 
+- IUPnPService.InvokeAction
+: 
 ---
 
 # IUPnPService::InvokeAction
@@ -88,7 +96,7 @@ On input, contains a reference to an empty array. On output, receives a referenc
 
 The contents of this parameter are service-specific.
 
-Free this parameter with <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+Free this parameter with <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
 						
 
 
@@ -98,7 +106,7 @@ On input, contains a reference to an empty array. On output, receives a referenc
 
 If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a> documentation.
 
-Free this parameter with <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+Free this parameter with <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
 						
 
 

@@ -9,8 +9,8 @@ ms.assetid: AE77AC07-EA27-4341-97E4-7D0995AF18E8
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MF_TIMED_TEXT_WRITING_MODE, MF_TIMED_TEXT_WRITING_MODE enumeration [Media Foundation], MF_TIMED_TEXT_WRITING_MODE_LR, MF_TIMED_TEXT_WRITING_MODE_LRTB, MF_TIMED_TEXT_WRITING_MODE_RL, MF_TIMED_TEXT_WRITING_MODE_RLTB, MF_TIMED_TEXT_WRITING_MODE_TB, MF_TIMED_TEXT_WRITING_MODE_TBLR, MF_TIMED_TEXT_WRITING_MODE_TBRL, mf.mf_timed_text_writing_mode, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_LR, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_LRTB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_RL, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_RLTB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TBLR, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TBRL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

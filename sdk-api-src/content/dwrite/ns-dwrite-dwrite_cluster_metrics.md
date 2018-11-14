@@ -9,8 +9,8 @@ ms.assetid: 738b7f15-fcc5-4960-ac1f-ca530c448271
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_CLUSTER_METRICS, DWRITE_CLUSTER_METRICS structure [Direct Write], directwrite.dwrite_cluster_metrics, dwrite/DWRITE_CLUSTER_METRICS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

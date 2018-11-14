@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IManagedPooledObj.SetHeld
+: 
 ---
 
 # IManagedPooledObj::SetHeld

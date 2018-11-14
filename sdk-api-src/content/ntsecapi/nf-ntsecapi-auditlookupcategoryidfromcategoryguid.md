@@ -4,10 +4,10 @@ title: AuditLookupCategoryIdFromCategoryGuid function
 author: windows-sdk-content
 description: Retrieves an element of the POLICY_AUDIT_EVENT_TYPE enumeration that represents the specified audit-policy category.
 old-location: security\auditlookupcategoryidfromcategoryguid_func.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c50e39f0-d45f-4deb-abe5-6261775b507c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AuditLookupCategoryIdFromCategoryGuid, AuditLookupCategoryIdFromCategoryGuid function [Security], ntsecapi/AuditLookupCategoryIdFromCategoryGuid, security.auditlookupcategoryidfromcategoryguid_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditLookupCategoryIdFromCategoryGuid
+: 
 ---
 
 # AuditLookupCategoryIdFromCategoryGuid function

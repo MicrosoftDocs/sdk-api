@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMHeaderInfo3.AddAttribute
+: 
 ---
 
 # IWMHeaderInfo3::AddAttribute

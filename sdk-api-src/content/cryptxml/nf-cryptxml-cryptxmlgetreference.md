@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlGetReference
+: 
 ---
 
 # CryptXmlGetReference function
@@ -65,7 +71,7 @@ The handle of the <b>Reference</b> element to retrieve.
 
 ### -param ppStruct [out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433862(v=VS.85).aspx">CRYPT_XML_REFERENCE</a> structure that contains the returned <b>Reference</b> element.
+A pointer to a pointer to a <a href="https://msdn.microsoft.com/af16af5a-b1e5-4250-bdb1-f3fceb1830b9">CRYPT_XML_REFERENCE</a> structure that contains the returned <b>Reference</b> element.
 
 
 ## -returns

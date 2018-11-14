@@ -9,8 +9,8 @@ ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPERATION, VDS_MAINTENANCE_OPERATION enumeration [VDS], _VDS_MAINTENANCE_OPERATION, base.vds_maintenance_operation, vds/BeepAlarm, vds/BlinkLight, vds/Ping, vds/SpinDown, vds/SpinUp, vds/VDS_MAINTENANCE_OPERATION, vdshwprv/BeepAlarm, vdshwprv/BlinkLight, vdshwprv/Ping, vdshwprv/SpinDown, vdshwprv/SpinUp, vdshwprv/VDS_MAINTENANCE_OPERATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

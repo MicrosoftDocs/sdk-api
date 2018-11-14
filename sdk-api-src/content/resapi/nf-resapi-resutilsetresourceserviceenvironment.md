@@ -7,7 +7,7 @@ old-location: mscs\resutilsetresourceserviceenvironment.htm
 tech.root: mscs
 ms.assetid: 607695f5-c542-40b8-922f-b76de6859ca7
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster], ResUtilSetResourceServiceEnvironment, ResUtilSetResourceServiceEnvironment function [Failover Cluster], _wolf_resutilsetresourceserviceenvironment, mscs.resutilsetresourceserviceenvironment, resapi/PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, resapi/ResUtilSetResourceServiceEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilSetResourceServiceEnvironment
+: 
 ---
 
 # ResUtilSetResourceServiceEnvironment function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Adjusts the environment data for a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> so that the service uses a cluster network name to identify its location. This function must be called from a  <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a>. The <b>PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT</b> type defines a pointer to this function.
+Adjusts the environment data for a <a href="s_gly.htm">service</a> so that the service uses a cluster network name to identify its location. This function must be called from a  <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a>. The <b>PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT</b> type defines a pointer to this function.
 
 
 ## -parameters

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
+: 
 ---
 
 # IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage

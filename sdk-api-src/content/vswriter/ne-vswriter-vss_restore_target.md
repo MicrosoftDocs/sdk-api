@@ -9,8 +9,8 @@ ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VSS_RESTORE_TARGET, VSS_RESTORE_TARGET enumeration [VSS], VSS_RT_ALTERNATE, VSS_RT_DIRECTED, VSS_RT_ORIGINAL, VSS_RT_ORIGINAL_LOCATION, VSS_RT_UNDEFINED, _win32_vss_restore_target, base.vss_restore_target, enumeration [VSS], vswriter/VSS_RESTORE_TARGET, vswriter/VSS_RT_ALTERNATE, vswriter/VSS_RT_DIRECTED, vswriter/VSS_RT_ORIGINAL, vswriter/VSS_RT_ORIGINAL_LOCATION, vswriter/VSS_RT_UNDEFINED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 

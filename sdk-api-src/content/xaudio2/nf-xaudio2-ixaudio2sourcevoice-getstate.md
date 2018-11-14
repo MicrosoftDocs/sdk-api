@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xaudio2.h
+: 
+- IXAudio2SourceVoice.GetState
+: 
 ---
 
 # IXAudio2SourceVoice::GetState
@@ -60,7 +68,7 @@ Returns the voice's current cursor position data.
 
 ### -param pVoiceState
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419247(v=VS.85).aspx">XAUDIO2_VOICE_STATE</a> structure containing the state of the voice.
+Pointer to an <a href="https://msdn.microsoft.com/cb621da1-9d2b-417d-8f7b-661e2efc92f7">XAUDIO2_VOICE_STATE</a> structure containing the state of the voice.
 
 
 ### -param X2DEFAULT
@@ -110,7 +118,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
  
 
  

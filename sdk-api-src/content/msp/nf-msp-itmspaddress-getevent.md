@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msp.h
+: 
+- ITMSPAddress.GetEvent
+: 
 ---
 
 # ITMSPAddress::GetEvent

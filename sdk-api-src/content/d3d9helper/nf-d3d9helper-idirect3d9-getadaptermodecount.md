@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3D9.GetAdapterModeCount
+: 
 ---
 
 # IDirect3D9::GetAdapterModeCount
@@ -68,9 +76,9 @@ Ordinal number that denotes the display adapter. D3DADAPTER_DEFAULT is always th
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
 
-Identifies the format of the surface type using <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>. Use <a href="https://msdn.microsoft.com/en-us/library/Bb174314(v=VS.85).aspx">EnumAdapterModes</a> to see the valid formats.
+Identifies the format of the surface type using <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>. Use <a href="https://msdn.microsoft.com/2e86d5bf-c7ac-47a8-af6c-0cd953d4cfa0">EnumAdapterModes</a> to see the valid formats.
 
 
 ## -returns
@@ -89,11 +97,11 @@ This method returns the number of display modes on this adapter or zero if Adapt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174314(v=VS.85).aspx">EnumAdapterModes</a>
+<a href="https://msdn.microsoft.com/2e86d5bf-c7ac-47a8-af6c-0cd953d4cfa0">EnumAdapterModes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

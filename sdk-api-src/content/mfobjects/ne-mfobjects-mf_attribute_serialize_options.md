@@ -9,8 +9,8 @@ ms.assetid: e4b218d1-185c-483f-b697-19ce8b3a4058
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MF_ATTRIBUTE_SERIALIZE_OPTIONS, MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration [Media Foundation], MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF, e4b218d1-185c-483f-b697-19ce8b3a4058, mf.mf_attribute_serialize_options, mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS, mfobjects/MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h

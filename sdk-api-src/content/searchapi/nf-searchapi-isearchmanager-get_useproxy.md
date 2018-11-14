@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchManager.get_UseProxy
+: 
 ---
 
 # ISearchManager::get_UseProxy
@@ -61,7 +69,7 @@ Retrieves the proxy server to be used.
 
 ### -param pUseProxy [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a>*</b>
 
 Receives a pointer to the proxy server to be used.
                 

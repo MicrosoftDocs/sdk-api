@@ -9,8 +9,8 @@ ms.assetid: 988e6d54-f241-4cfc-8793-fc42de92ac52
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structure [DirectShow], AMCOPPStatusInputStructure, LPAMCOPPStatusInput, LPAMCOPPStatusInput structure pointer [DirectShow], _AMCOPPStatusInput, dshow.amcoppstatusinput, strmif/AMCOPPStatusInput, strmif/LPAMCOPPStatusInput"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- http.h
+: 
+- HTTP_LESS_EQUAL_VERSION
+: 
 ---
 
 # HTTP_LESS_EQUAL_VERSION macro

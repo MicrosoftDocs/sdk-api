@@ -7,7 +7,7 @@ old-location: mscs\clusterdecrypt.htm
 tech.root: mscs
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterDecrypt, ClusterDecrypt function [Failover Cluster], PCLUSTER_DECRYPT, PCLUSTER_DECRYPT function [Failover Cluster], mscs.clusterdecrypt, resapi/ClusterDecrypt, resapi/PCLUSTER_DECRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterDecrypt
+: 
 ---
 
 # ClusterDecrypt function

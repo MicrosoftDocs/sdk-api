@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextDocument2.SetDocumentFont
+: 
 ---
 
 # ITextDocument2::SetDocumentFont
@@ -80,7 +88,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-You can also set the default character formatting by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787865(v=VS.85).aspx">ITextFont::Reset(tomDefault)</a>.
+You can also set the default character formatting by calling <a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">ITextFont::Reset(tomDefault)</a>.
 
 
 
@@ -98,7 +106,7 @@ You can also set the default character formatting by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787865(v=VS.85).aspx">ITextFont::Reset</a>
+<a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">ITextFont::Reset</a>
  
 
  

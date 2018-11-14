@@ -9,8 +9,8 @@ ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect interface [DirectComposition], IDCompositionGaussianBlurEffect interface [DirectComposition],described, dcomp/IDCompositionGaussianBlurEffect, directcomp.idcompositiongaussianblureffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

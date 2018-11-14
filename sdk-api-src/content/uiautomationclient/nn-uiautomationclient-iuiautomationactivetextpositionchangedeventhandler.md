@@ -9,8 +9,8 @@ ms.assetid: 038AD911-2FDB-42E5-86E0-76C58F765114
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationActiveTextPositionChangedEventHandler, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility], IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_DRM.GetDRMPairingStatus
+: 
 ---
 
 # IBDA_DRM::GetDRMPairingStatus
@@ -60,7 +68,7 @@ The <b>GetDRMPairingStatus</b> method queries the status of the DRM handshake.
 
 ### -param pdwStatus [out]
 
-Receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd693006(v=VS.85).aspx">BDA_DrmPairingError</a> enumeration.
+Receives a value from the <a href="https://msdn.microsoft.com/d1b100e5-497e-4cb1-9cb8-38424c9eecf8">BDA_DrmPairingError</a> enumeration.
 
 
 ### -param phError
@@ -119,7 +127,7 @@ The device does not support this functionality, or the handshake is still in pro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693315(v=VS.85).aspx">IBDA_DRM Interface</a>
+<a href="https://msdn.microsoft.com/d0bde207-d550-4e98-85c7-b0d47b0cd637">IBDA_DRM Interface</a>
  
 
  

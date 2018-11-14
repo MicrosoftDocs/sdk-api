@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IDiscFormat2RawCDEventArgs.get_RemainingTime
+: 
 ---
 
 # IDiscFormat2RawCDEventArgs::get_RemainingTime

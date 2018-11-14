@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sdoias.h
+: 
+- ISdoCollection.get__NewEnum
+: 
 ---
 
 # ISdoCollection::get__NewEnum
@@ -52,7 +60,7 @@ req.redist:
 
 The 
 <b>get__NewEnum</b> method retrieves an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface for a Server Data Objects (SDO) collection.
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface for a Server Data Objects (SDO) collection.
 
 
 ## -parameters
@@ -63,8 +71,8 @@ The
 ### -param ppEnumVARIANT [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer. On successful return the <b>IUnknown</b> interface pointer, points to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface.
+<a href="_com_iunknown">IUnknown</a> interface pointer. On successful return the <b>IUnknown</b> interface pointer, points to an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface.
 
 This parameter must not be <b>NULL</b>.
 

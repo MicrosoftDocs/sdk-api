@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITCustomTone.put_CadenceOn
+: 
 ---
 
 # ITCustomTone::put_CadenceOn

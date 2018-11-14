@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxRecipient.get_FaxNumber
+: 
 ---
 
 # IFaxRecipient::get_FaxNumber

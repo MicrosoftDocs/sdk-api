@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchCrawlScopeManager2.GetVersion
+: 
 ---
 
 # ISearchCrawlScopeManager2::GetVersion

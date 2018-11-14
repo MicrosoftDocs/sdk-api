@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IWindowsDriverUpdate.get_DeviceProblemNumber
+: 
 ---
 
 # IWindowsDriverUpdate::get_DeviceProblemNumber

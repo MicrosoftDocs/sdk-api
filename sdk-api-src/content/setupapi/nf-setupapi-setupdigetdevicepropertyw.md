@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiGetDevicePropertyW
+: 
 ---
 
 # SetupDiGetDevicePropertyW function
@@ -64,7 +70,7 @@ The <b>SetupDiGetDeviceProperty</b> function retrieves a device instance propert
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device instance for which to retrieve a device instance property.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device instance for which to retrieve a device instance property.
 
 
 ### -param DeviceInfoData [in]
@@ -246,7 +252,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetDeviceProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
+<b>SetupDiGetDeviceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceProperty</b>.
 

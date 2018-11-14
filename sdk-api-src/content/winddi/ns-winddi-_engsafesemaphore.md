@@ -9,8 +9,8 @@ ms.assetid: 225ca482-6a45-4726-b51b-57fa76b8c5b0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ENGSAFESEMAPHORE, ENGSAFESEMAPHORE structure [Display Devices], _ENGSAFESEMAPHORE, display.engsafesemaphore, grstrcts_63b165c2-5032-4dcb-9039-562a38f24cc4.xml, winddi/ENGSAFESEMAPHORE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

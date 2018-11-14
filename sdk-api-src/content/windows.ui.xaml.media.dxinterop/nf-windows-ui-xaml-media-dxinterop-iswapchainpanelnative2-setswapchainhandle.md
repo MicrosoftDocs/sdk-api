@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.ui.xaml.media.dxinterop.h
+: 
+- ISwapChainPanelNative2.SetSwapChainHandle
+: 
 ---
 
 # ISwapChainPanelNative2::xaml

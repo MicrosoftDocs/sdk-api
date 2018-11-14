@@ -9,8 +9,8 @@ ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _WSAOVERLAPPED, _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

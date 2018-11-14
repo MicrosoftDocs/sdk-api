@@ -9,8 +9,8 @@ ms.assetid: 2c19c65b-0943-4561-a28f-0104e1cbd229
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PONEX_STATUS, PONEX_STATUS structure pointer [NativeWIFI], _ONEX_STATUS, dot1x/ONEX_STATUS, dot1x/PONEX_STATUS, nwifi.onex_status"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 

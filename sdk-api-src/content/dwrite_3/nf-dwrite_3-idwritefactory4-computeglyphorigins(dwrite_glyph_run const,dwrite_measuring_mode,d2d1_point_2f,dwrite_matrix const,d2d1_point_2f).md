@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFactory4.ComputeGlyphOrigins
+: 
 ---
 
 # IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F)

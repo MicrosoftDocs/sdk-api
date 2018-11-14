@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12versionedrootsignaturedeserializer.htm
 tech.root: direct3d12
 ms.assetid: 3B1E9837-72CA-4C44-B06C-C77E32480958
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,described, d3d12/ID3D12VersionedRootSignatureDeserializer, direct3d12.id3d12versionedrootsignaturedeserializer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

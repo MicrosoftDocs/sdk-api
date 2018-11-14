@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeleteNtmsMediaType
+: 
 ---
 
 # DeleteNtmsMediaType function
@@ -203,7 +209,7 @@ If there are no physical media objects of the specified media type in the RSM sy
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

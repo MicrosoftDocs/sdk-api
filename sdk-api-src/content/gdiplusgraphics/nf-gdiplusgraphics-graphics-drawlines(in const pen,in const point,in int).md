@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawLines
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -110,9 +118,13 @@ Each line requires a starting point and an ending point. The ending point of eac
 
 The following example draws a sequence of connected lines.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawLines(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -130,12 +142,12 @@ VOID Example_DrawLines(HDC hdc)
    Point* pPoints = points;
 
    // Draw the lines.
-   graphics.DrawLines(&blackPen, pPoints, 4);
+   graphics.DrawLines(&amp;blackPen, pPoints, 4);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -148,7 +160,7 @@ VOID Example_DrawLines(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

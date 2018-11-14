@@ -9,8 +9,8 @@ ms.assetid: c07dd974-7a23-44c2-b55a-aadfe8936954
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: "*LPWSACMSGHDR, *PCMSGHDR, *PWSACMSGHDR, CMSGHDR, CMSGHDR structure [Network Drivers Starting with Windows Vista], PCMSGHDR, PCMSGHDR structure pointer [Network Drivers Starting with Windows Vista], WSACMSGHDR, _WSACMSGHDR, netvista.cmsghdr, ws2def/CMSGHDR, ws2def/PCMSGHDR, wskref_23745253-c7fd-498a-990a-d90d0722d105.xml"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h

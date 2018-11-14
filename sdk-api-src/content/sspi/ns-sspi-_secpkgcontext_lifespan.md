@@ -9,8 +9,8 @@ ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_Lifespan structure pointer [Security], SecPkgContext_Lifespan, SecPkgContext_Lifespan structure [Security], _SecPkgContext_Lifespan, _ssp_secpkgcontext_lifespan, security.secpkgcontext_lifespan, sspi/PSecPkgContext_Lifespan, sspi/SecPkgContext_Lifespan"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

@@ -9,8 +9,8 @@ ms.assetid: b5aebbfe-18c8-4aeb-a01b-488e37d227a1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG, WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure [HTTP], http.winhttp_current_user_ie_proxy_config, winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

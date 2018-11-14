@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenc.h
+: 
+- ICertEncodeLongArray.GetValue
+: 
 ---
 
 # ICertEncodeLongArray::GetValue
@@ -76,7 +84,7 @@ A pointer to a <b>Long</b> variable that receives the value.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is the <b>Long</b> value at the specified index.
@@ -89,11 +97,11 @@ The return value is the <b>Long</b> value at the specified index.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384997(v=VS.85).aspx">ICertEncodeLongArray</a>
+<a href="https://msdn.microsoft.com/e8555282-6c09-4f23-830e-358bc73287ee">ICertEncodeLongArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385011(v=VS.85).aspx">ICertEncodeLongArray::SetValue</a>
+<a href="https://msdn.microsoft.com/021b2539-3226-4893-af76-9b7b1637e12e">ICertEncodeLongArray::SetValue</a>
  
 
  

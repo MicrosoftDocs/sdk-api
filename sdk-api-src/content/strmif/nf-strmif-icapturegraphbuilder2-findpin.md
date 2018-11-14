@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- ICaptureGraphBuilder2.FindPin
+: 
 ---
 
 # ICaptureGraphBuilder2::FindPin

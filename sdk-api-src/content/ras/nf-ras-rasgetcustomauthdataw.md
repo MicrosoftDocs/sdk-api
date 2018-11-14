@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RasGetCustomAuthDataW
+: 
 ---
 
 # RasGetCustomAuthDataW function
@@ -154,7 +160,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gpmgmt.h
+: 
+- IGPMBackupCollection.get__NewEnum
+: 
 ---
 
 # IGPMBackupCollection::get__NewEnum

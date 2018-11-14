@@ -9,8 +9,8 @@ ms.assetid: 909749d7-a6be-4b3a-b432-79a5aa6e3f4c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE structure [MIB], PMIB_UDPTABLE_OWNER_MODULE, PMIB_UDPTABLE_OWNER_MODULE structure pointer [MIB], _MIB_UDPTABLE_OWNER_MODULE, iprtrmib/MIB_UDPTABLE_OWNER_MODULE, iprtrmib/PMIB_UDPTABLE_OWNER_MODULE, mib.mib_udptable_owner_module, udpmib/MIB_UDPTABLE_OWNER_MODULE, udpmib/PMIB_UDPTABLE_OWNER_MODULE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
@@ -102,7 +102,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>
+<a href="_iphlp_getudptable">GetUdpTable</a>
 
 
 

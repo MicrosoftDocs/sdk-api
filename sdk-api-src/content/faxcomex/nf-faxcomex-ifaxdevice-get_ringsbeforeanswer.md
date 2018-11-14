@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxDevice.get_RingsBeforeAnswer
+: 
 ---
 
 # IFaxDevice::get_RingsBeforeAnswer

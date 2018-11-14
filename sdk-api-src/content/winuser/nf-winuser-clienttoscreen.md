@@ -54,6 +54,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClientToScreen
+: 
 ---
 
 # ClientToScreen function
@@ -102,7 +108,7 @@ All coordinates are device coordinates.
 
 #### Examples
 
-For an example, see "Drawing Lines with the Mouse" in <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Using Mouse Input</a>.
+For an example, see "Drawing Lines with the Mouse" in <a href="_win32_Using_Mouse_Input_cpp">Using Mouse Input</a>.
 
 <div class="code"></div>
 

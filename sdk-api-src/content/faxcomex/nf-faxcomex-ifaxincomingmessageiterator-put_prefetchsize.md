@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxIncomingMessageIterator.put_PrefetchSize
+: 
 ---
 
 # IFaxIncomingMessageIterator::put_PrefetchSize
@@ -66,11 +74,11 @@ This property is read/write.
 
 The prefetch buffer contains messages and makes the iteration process more efficient because you iterate through the buffer rather than through a folder. 
 
-Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/en-us/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a> is a local object.
+Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a> is a local object.
 
 The value of the <i>lPrefetchSize</i> property determines how many fax messages the iterator object retrieves from the archive each time the object refreshes its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right.
 
 
 

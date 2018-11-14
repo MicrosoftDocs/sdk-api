@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- msctf.h
+: 
+- ITfContext.CreateRangeBackup
+: 
 ---
 
 # ITfContext::CreateRangeBackup
@@ -193,7 +201,7 @@ This method creates a copy of the range that it can use to restore the data in <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="ranges.htm">Ranges: Clones and Backups</a>
  
 
  

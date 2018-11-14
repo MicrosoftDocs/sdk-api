@@ -9,8 +9,8 @@ ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], tagUpdateOperation, uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

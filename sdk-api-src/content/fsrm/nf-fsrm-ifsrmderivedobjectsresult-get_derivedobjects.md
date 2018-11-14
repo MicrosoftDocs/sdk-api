@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmDerivedObjectsResult.get_DerivedObjects
+: 
 ---
 
 # IFsrmDerivedObjectsResult::get_DerivedObjects

@@ -7,10 +7,10 @@ old-location: mscs\sr_resource_type_eligible_disks_result.htm
 tech.root: mscs
 ms.assetid: EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, mscs.sr_resource_type_eligible_disks_result"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -73,11 +73,11 @@ An array that contains the retrieved disk information.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt421319(v=VS.85).aspx">SR_RESOURCE_TYPE_DISK_INFO</a>
+<a href="https://msdn.microsoft.com/8A53714D-D125-4B83-B51D-DF0EADE4C4E0">SR_RESOURCE_TYPE_DISK_INFO</a>
  
 
  

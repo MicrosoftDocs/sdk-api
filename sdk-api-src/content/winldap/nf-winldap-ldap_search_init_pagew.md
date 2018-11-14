@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_search_init_pageW
+: 
 ---
 
 # ldap_search_init_pageW function

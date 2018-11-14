@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wia_xp.h
+: 
+- IEnumWIA_FORMAT_INFO.Skip
+: 
 ---
 
 # IEnumWIA_FORMAT_INFO::Skip

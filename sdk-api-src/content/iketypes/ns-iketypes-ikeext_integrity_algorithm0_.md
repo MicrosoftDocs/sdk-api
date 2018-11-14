@@ -9,8 +9,8 @@ ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_INTEGRITY_ALGORITHM0, IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering], IKEEXT_INTEGRITY_ALGORITHM0_, fwp.ikeext_integrity_algorithm0, iketypes/IKEEXT_INTEGRITY_ALGORITHM0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

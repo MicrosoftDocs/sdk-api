@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll2.put_ReuseHardwareKeyIfUnableToGenNew
+: 
 ---
 
 # IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew

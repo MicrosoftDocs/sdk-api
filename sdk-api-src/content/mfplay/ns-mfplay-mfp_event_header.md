@@ -9,8 +9,8 @@ ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
+: 
 ---
 
 # IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
@@ -76,7 +84,7 @@ A value indicating the type of tree structure change that took place.
 
 Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>*</b>
 
-Receives the runtime identifier of the element. This parameter is used only when <i>changeType</i> is <a href="https://msdn.microsoft.com/en-us/library/Ee671618(v=VS.85).aspx">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events. 
+Receives the runtime identifier of the element. This parameter is used only when <i>changeType</i> is <a href="uiauto_StructureChangeTypeEnum.htm">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events. 
 
 
 ## -returns

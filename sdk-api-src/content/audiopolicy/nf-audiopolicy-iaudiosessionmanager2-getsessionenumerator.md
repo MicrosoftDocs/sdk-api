@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- audiopolicy.h
+: 
+- IAudioSessionManager2.GetSessionEnumerator
+: 
 ---
 
 # IAudioSessionManager2::GetSessionEnumerator

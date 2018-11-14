@@ -9,8 +9,8 @@ ms.assetid: e5abcf69-748a-4ed6-973d-8ba49ec22ef2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3, IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,described, base.ivssdifferentialsoftwaresnapshotmgmt3, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 
@@ -53,7 +53,7 @@ req.redist:
 Defines methods that allow applications to use the shadow copy protection feature of VSS.
 
 To obtain an instance of the <b>IVssDifferentialSoftwareSnapshotMgmt3</b> 
-   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/d322981f-1916-4d38-9d05-bc3db2cd596d">IVssDifferentialSoftwareSnapshotMgmt</a> interface and pass 
    the <b>IID_IVssDifferentialSoftwareSnapshotMgmt3</b> constant as the interface identifier (IID) parameter.
 

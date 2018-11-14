@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ListBox_SetColumnWidth
+: 
 ---
 
 # ListBox_SetColumnWidth macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the width of all columns in a multiple-column list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761338(v=VS.85).aspx">LB_SETCOLUMNWIDTH</a> message explicitly.
+Sets the width of all columns in a multiple-column list box. You can use this macro or send the <a href="https://msdn.microsoft.com/227baae1-98f1-450e-97d4-4c7e9142614e">LB_SETCOLUMNWIDTH</a> message explicitly.
 
 
 ## -parameters

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mdhcp.h
+: 
+- IMcastAddressAllocation.get_Scopes
+: 
 ---
 
 # IMcastAddressAllocation::get_Scopes

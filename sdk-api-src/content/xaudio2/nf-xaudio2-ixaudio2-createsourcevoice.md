@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xaudio2.h
+: 
+- IXAudio2.CreateSourceVoice
+: 
 ---
 
 # IXAudio2::CreateSourceVoice
@@ -60,7 +68,7 @@ Creates and configures a source voice.
 
 ### -param ppSourceVoice [out]
 
-If successful, returns a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a> object.
+If successful, returns a pointer to the new <a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a> object.
 
 
 ### -param pSourceFormat [in]
@@ -178,7 +186,7 @@ Flags that specify the behavior of the source voice. A flag can be 0 or a combin
 
 #### - MaxFrequencyRatio [in]
 
-Highest allowable frequency ratio that can be set on this voice. The value for this argument must be between XAUDIO2_MIN_FREQ_RATIO and XAUDIO2_MAX_FREQ_RATIO. Subsequent calls to <a href="https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx">IXAudio2SourceVoice::SetFrequencyRatio</a> are clamped between XAUDIO2_MIN_FREQ_RATIO and <b>MaxFrequencyRatio</b>. 
+Highest allowable frequency ratio that can be set on this voice. The value for this argument must be between XAUDIO2_MIN_FREQ_RATIO and XAUDIO2_MAX_FREQ_RATIO. Subsequent calls to <a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">IXAudio2SourceVoice::SetFrequencyRatio</a> are clamped between XAUDIO2_MIN_FREQ_RATIO and <b>MaxFrequencyRatio</b>. 
 The maximum value for this argument is defined as XAUDIO2_MAX_FREQ_RATIO, which allows pitch to be raised by up to 10 octaves.
 
 
@@ -206,17 +214,17 @@ If <i>MaxFrequencyRatio</i> is less than 1.0, the voice will use that ratio imme
 
 #### - pCallback [in, optional]
 
-Pointer to a client-provided callback interface, <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>.
+Pointer to a client-provided callback interface, <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>.
 
 
 #### - pEffectChain [in, optional]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the source voice.
+Pointer to a list of <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the source voice.
 
 
 #### - pSendList [in, out]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/en-us/library/Ee419246(v=VS.85).aspx">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the source voice. If pSendList is NULL, the send list defaults to a single output to the first mastering voice created.
+Pointer to a list of <a href="https://msdn.microsoft.com/d8618f93-aa35-4a40-80e4-b7486ba89341">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the source voice. If pSendList is NULL, the send list defaults to a single output to the first mastering voice created.
 
 
 ## -returns
@@ -260,11 +268,11 @@ XAudio2 uses an internal memory pooler for voices with the same format. This mea
 
 
 
-It is invalid to call <b>CreateSourceVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). If you call <b>CreateSourceVoice</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
+It is invalid to call <b>CreateSourceVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). If you call <b>CreateSourceVoice</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the pEffectChain argument and any <a href="https://msdn.microsoft.com/en-us/library/Ee419236(v=VS.85).aspx">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>CreateSourceVoice</b> successfully completes, and may be deleted immediately after <b>CreateSourceVoice</b> is called.
+The <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the pEffectChain argument and any <a href="https://msdn.microsoft.com/d2c7c640-9f6a-4fc0-bc87-35570281cec5">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>CreateSourceVoice</b> successfully completes, and may be deleted immediately after <b>CreateSourceVoice</b> is called.
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -283,7 +291,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
 
 
 

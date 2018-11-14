@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IWindowsDriverUpdate.get_DriverClass
+: 
 ---
 
 # IWindowsDriverUpdate::get_DriverClass

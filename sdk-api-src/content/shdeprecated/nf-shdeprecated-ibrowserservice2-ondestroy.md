@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IBrowserService2.OnDestroy
+: 
 req.product: Internet Explorer 5.0
 ---
 
@@ -51,7 +59,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message. The derived class handles the message.
 
 
 ## -parameters

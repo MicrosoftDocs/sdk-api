@@ -9,8 +9,8 @@ ms.assetid: 4de0969f-fed5-42c7-a5f8-0bd6c58dc237
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_NF_PORT_ARRIVE, VDS_NF_PORT_DEPART, VDS_NF_PORT_MODIFY, VDS_NF_PORT_REMOVED, VDS_PORT_NOTIFICATION, VDS_PORT_NOTIFICATION structure [VDS], _VDS_PORT_NOTIFICATION, base.vds_port_notification, vds/_VDS_PORT_NOTIFICATION, vdshwprv/_VDS_PORT_NOTIFICATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ImageList_GetIconSize
+: 
 ---
 
 # ImageList_GetIconSize function
@@ -83,7 +89,7 @@ A pointer to an integer variable that receives the height, in pixels, of each im
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 

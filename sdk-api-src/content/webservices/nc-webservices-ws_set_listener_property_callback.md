@@ -9,8 +9,8 @@ ms.assetid: ed3cc3b3-eeb2-4f70-8e2f-8c25aadac4a9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SET_LISTENER_PROPERTY_CALLBACK, WS_SET_LISTENER_PROPERTY_CALLBACK callback, WS_SET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_LISTENER_PROPERTY_CALLBACK, wsw.ws_set_listener_property_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

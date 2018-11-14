@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress.put_DoNotDisturb
+: 
 ---
 
 # ITAddress::put_DoNotDisturb

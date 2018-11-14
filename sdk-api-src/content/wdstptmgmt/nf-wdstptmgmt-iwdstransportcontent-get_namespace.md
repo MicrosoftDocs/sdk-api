@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportContent.get_Namespace
+: 
 ---
 
 # IWdsTransportContent::get_Namespace

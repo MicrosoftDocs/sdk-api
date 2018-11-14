@@ -9,8 +9,8 @@ ms.assetid: 57be21cf-b381-436a-bc7e-3fdc01cc2515
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation],described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 

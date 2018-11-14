@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll4.addNameValuePairToRequestWStr
+: 
 ---
 
 # IEnroll4::addNameValuePairToRequestWStr

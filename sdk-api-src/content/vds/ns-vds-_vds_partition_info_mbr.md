@@ -9,8 +9,8 @@ ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], _VDS_PARTITION_INFO_MBR, base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

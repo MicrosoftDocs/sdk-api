@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IFilterGraph2.AddSourceFilterForMoniker
+: 
 ---
 
 # IFilterGraph2::AddSourceFilterForMoniker

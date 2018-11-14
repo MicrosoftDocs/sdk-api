@@ -9,8 +9,8 @@ ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: amaudio.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple
+: 
 ---
 
 # IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple

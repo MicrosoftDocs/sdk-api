@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*LPMINMAXINFO, *PMINMAXINFO, LPMINMAXINFO, LPMINMAXINFO structure pointer [Windows and Messages], MINMAXINFO, MINMAXINFO structure [Windows and Messages], PMINMAXINFO, PMINMAXINFO structure pointer [Windows and Messages], _win32_MINMAXINFO_str, _win32_minmaxinfo_str_cpp, tagMINMAXINFO, winmsg.minmaxinfo, winui._win32_minmaxinfo_str, winuser/LPMINMAXINFO, winuser/MINMAXINFO, winuser/PMINMAXINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
@@ -119,11 +119,11 @@ For systems with multiple monitors, the <b>ptMaxSize</b> and <b>ptMaxPosition</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a>
+<a href="https://msdn.microsoft.com/af2295e0-2d0b-4ac0-b689-16138022f4b7">WM_GETMINMAXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

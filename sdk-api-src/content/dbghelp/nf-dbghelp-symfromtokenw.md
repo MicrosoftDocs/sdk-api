@@ -7,7 +7,7 @@ old-location: base\symfromtoken.htm
 tech.root: debug
 ms.assetid: ecef5213-9301-4ca0-852c-1e6be0d7b2a5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later
+- apiref
+: 
+- 
+: 
+- SymFromTokenW
+: 
 ---
 
 # SymFromTokenW function

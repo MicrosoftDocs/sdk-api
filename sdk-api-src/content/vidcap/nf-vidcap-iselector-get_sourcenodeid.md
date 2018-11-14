@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- ISelector.get_SourceNodeId
+: 
 ---
 
 # ISelector::get_SourceNodeId

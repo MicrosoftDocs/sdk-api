@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4_emitraytracingaccelerationst
 tech.root: direct3d12
 ms.assetid: 05E4B38B-1A3A-4121-8BD7-A437534C8B9A
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EmitRaytracingAccelerationStructurePostbuildInfo, EmitRaytracingAccelerationStructurePostbuildInfo method, EmitRaytracingAccelerationStructurePostbuildInfo method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,EmitRaytracingAccelerationStructurePostbuildInfo method, ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo, ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo, d3d12/ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo, direct3d12.id3d12graphicscommandlist4_emitraytracingaccelerationstructurepostbuildinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo
+: 
 ---
 
 # ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo

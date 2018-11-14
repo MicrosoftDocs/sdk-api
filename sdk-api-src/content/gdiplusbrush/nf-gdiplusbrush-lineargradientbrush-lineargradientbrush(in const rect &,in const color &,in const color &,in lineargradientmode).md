@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- LinearGradientBrush.LinearGradientBrush
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -121,9 +129,13 @@ The mode affects the boundaries of the gradient:
 
 The following example creates a linear gradient brush using LinearGradientModeVertical for the mode setting. 
 
-
-```cpp
-VOID Example_Construct04(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_Construct04(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -132,11 +144,11 @@ VOID Example_Construct04(HDC hdc)
       Color(255, 255, 0, 0),   // red
       Color(255, 0, 0, 255),   // blue
       LinearGradientModeVertical);
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 300, 300); 
-}
-```
-
-
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 300, 300); 
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -161,7 +173,7 @@ VOID Example_Construct04(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 

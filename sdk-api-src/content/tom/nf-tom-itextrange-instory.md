@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextRange.InStory
+: 
 ---
 
 # ITextRange::InStory
@@ -60,9 +68,9 @@ Determines whether this range's story is the same as a specified range's story.
 
 ### -param pRange
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object whose story is compared to this range's story. 
+The <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object whose story is compared to this range's story. 
 
 
 ### -param pValue
@@ -99,7 +107,7 @@ The method returns an <b>HRESULT</b> value. If the two stories are the same, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -107,7 +115,7 @@ The method returns an <b>HRESULT</b> value. If the two stories are the same, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

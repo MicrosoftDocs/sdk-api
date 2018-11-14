@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupSetNonInteractiveMode
+: 
 ---
 
 # SetupSetNonInteractiveMode function
@@ -76,7 +82,7 @@ The Boolean value of the non-interactive flag. If <i>NonInteractive</i> is set t
 
 
 
-Installation applications and <a href="https://msdn.microsoft.com/library/Ff554011(v=VS.85).aspx">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
+Installation applications and <a href="devinst.writing_a_co_installer">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
 
 An installation application or an installer can call <a href="https://msdn.microsoft.com/0978851d-18a6-47a3-8ac9-0c03c469cbef">SetupGetNonInteractiveMode</a> to retrieve the current value of the non-interactive flag. 
 

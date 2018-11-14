@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlDigestReference
+: 
 ---
 
 # CryptXmlDigestReference function
@@ -94,7 +100,7 @@ Specifies that the processing engine will create the digest without applying the
 
 ### -param pDataProviderIn [in]
 
-A pointer to a    <a href="https://msdn.microsoft.com/en-us/library/Dd433848(v=VS.85).aspx">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider. The <b>CryptXmlDigestReference</b> function always calls the <b>fpnClose</b> function on the data provider.
+A pointer to a    <a href="https://msdn.microsoft.com/98f32310-a4fa-414c-8a3e-877839eacd1b">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider. The <b>CryptXmlDigestReference</b> function always calls the <b>fpnClose</b> function on the data provider.
 
 
 ## -returns
@@ -116,7 +122,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
     the processing engine adds received data directly to the digest without 
     applying the transform chain engine.
 
-<div class="alert"><b>Note</b>  The <b>CryptXmlDigestReference</b> function always calls the function pointed to by the <b>fpnClose</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd433848(v=VS.85).aspx">CRYPT_XML_DATA_PROVIDER</a> structure pointed to by the <i>pDataProviderIn</i> parameter.
+<div class="alert"><b>Note</b>  The <b>CryptXmlDigestReference</b> function always calls the function pointed to by the <b>fpnClose</b> member of the <a href="https://msdn.microsoft.com/98f32310-a4fa-414c-8a3e-877839eacd1b">CRYPT_XML_DATA_PROVIDER</a> structure pointed to by the <i>pDataProviderIn</i> parameter.
 </div>
 <div> </div>
 

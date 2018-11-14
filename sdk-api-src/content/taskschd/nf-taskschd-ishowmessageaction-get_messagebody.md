@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IShowMessageAction.get_MessageBody
+: 
 ---
 
 # IShowMessageAction::get_MessageBody
@@ -52,7 +60,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="https://msdn.microsoft.com/library/sfw6660x(v=VS.85).aspx">MsgBox function</a> to show a message in the user session.]
+<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="ae073d50-e4a4-4e23-8e46-0cb1369965e7">MsgBox function</a> to show a message in the user session.]
 
 Gets or sets the message text that is displayed in the body of the message box.
 

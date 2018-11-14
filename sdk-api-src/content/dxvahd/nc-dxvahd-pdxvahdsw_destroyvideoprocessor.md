@@ -9,8 +9,8 @@ ms.assetid: 46667a66-3638-4cf0-9966-3e659d00f914
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PDXVAHDSW_DestroyVideoProcessor, PDXVAHDSW_DestroyVideoProcessor callback, PDXVAHDSW_DestroyVideoProcessor callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyVideoProcessor, mf.pdxvahdsw_destroyvideoprocessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

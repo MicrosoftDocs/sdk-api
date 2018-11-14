@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetdest.htm
 tech.root: Multimedia
 ms.assetid: eca70819-fb7c-48b9-a479-d20aa0f05649
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndGetDest, MCIWndGetDest macro [Windows Multimedia], _win32_MCIWndGetDest, multimedia.mciwndgetdest, vfw/MCIWndGetDest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndGetDest
+: 
 ---
 
 # MCIWndGetDest macro

@@ -9,8 +9,8 @@ ms.assetid: 9508df6d-281b-4a02-bb95-233b369b8279
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], IMtsEventInfo interface [COM+],described, _dtc_IMtsEventInfo_Interface, comsvcs/IMtsEventInfo, cos.imtseventinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-Describes user-defined events. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Describes user-defined events. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsEventInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsEventInfo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,7 +88,7 @@ Retrieves the display name of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679247(v=VS.85).aspx">get_EventID</a>
+<a href="https://msdn.microsoft.com/20695360-ed0d-4d8b-8c3b-42adc42e87b3">get_EventID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event identifier of the object.
@@ -97,7 +97,7 @@ Retrieves the event identifier of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683536(v=VS.85).aspx">get_Names</a>
+<a href="https://msdn.microsoft.com/83ce3935-2c9a-4ebe-8758-9ac349d4a73b">get_Names</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the names of the data values.
@@ -106,7 +106,7 @@ Retrieves an enumerator for the names of the data values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681781(v=VS.85).aspx">get_Value</a>
+<a href="https://msdn.microsoft.com/61757e85-28b2-4599-9be4-69a3531e5ac2">get_Value</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified user-defined event.
@@ -121,11 +121,11 @@ Retrieves the value of the specified user-defined event.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: c55107a3-ae0a-4b46-80a3-8a731b47976c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFileDialogEvents, IFileDialogEvents interface [Windows Shell], IFileDialogEvents interface [Windows Shell],described, shell.IFileDialogEvents, shell_IFileDialogEvents, shobjidl_core/IFileDialogEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

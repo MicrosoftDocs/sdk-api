@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EngAlphaBlend
+: 
 ---
 
 # EngAlphaBlend function
@@ -161,9 +167,6 @@ The driver should never call <b>EngAlphaBlend</b> with overlapping source and de
 The three possible cases for the AC_SRC_OVER blend function are:
 
 <ul>
-<li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in <b>SourceConstantAlpha</b> as follows:
-
-<div class="code"><span codelanguage=""><table>
 <li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in <b>SourceConstantAlpha</b> as follows:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -183,12 +186,7 @@ Dst.Alpha = Round(((Src.Alpha * SourceConstantAlpha) +
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:
-
-<div class="code"><span codelanguage=""><table>
 <li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -208,12 +206,7 @@ Dst.Alpha = Src.Alpha +
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:
-
-<div class="code"><span codelanguage=""><table>
 <li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -242,8 +235,6 @@ Dst.Alpha = Temp.Alpha +
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
 </ul>
 The driver should call <b>EngAlphaBlend</b> if it has hooked <a href="https://msdn.microsoft.com/fff3df30-cb29-4da3-97bc-dba5fbba1db5">DrvAlphaBlend</a> and it is called to do something that it does not support.

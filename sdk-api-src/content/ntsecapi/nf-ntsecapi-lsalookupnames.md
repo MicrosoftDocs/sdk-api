@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LsaLookupNames
+: 
 ---
 
 # LsaLookupNames function
@@ -147,7 +153,7 @@ All of the names were found and successfully translated.
  
 
 If the function fails, the return value is the following <b>NTSTATUS</b> value or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

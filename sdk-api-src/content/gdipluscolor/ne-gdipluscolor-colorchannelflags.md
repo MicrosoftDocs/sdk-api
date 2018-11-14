@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colorchannelflags.
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ColorChannelFlags, ColorChannelFlags enumeration [GDI+], ColorChannelFlagsC, ColorChannelFlagsK, ColorChannelFlagsLast, ColorChannelFlagsM, ColorChannelFlagsY, _gdiplus_ENUM_ColorChannelFlags, gdiplus._gdiplus_ENUM_ColorChannelFlags, gdipluscolor/ColorChannelFlags, gdipluscolor/ColorChannelFlagsC, gdipluscolor/ColorChannelFlagsK, gdipluscolor/ColorChannelFlagsLast, gdipluscolor/ColorChannelFlagsM, gdipluscolor/ColorChannelFlagsY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>ColorChannelFlags</b> enumeration specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535434(v=VS.85).aspx">ImageAttributes::SetOutputChannel</a> method.
+			<a href="https://msdn.microsoft.com/c84b0e5f-ab24-4693-811b-cfd2bbd8f85a">ImageAttributes::SetOutputChannel</a> method.
 
 
 ## -enum-fields

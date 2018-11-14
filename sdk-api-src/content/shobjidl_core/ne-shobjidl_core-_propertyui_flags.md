@@ -9,8 +9,8 @@ ms.assetid: 97c4efbf-75af-425a-8ba8-b28f7a7445ff
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: PROPERTYUI_FLAGS, PROPERTYUI_FLAGS enumeration [Windows Properties], PUIF_DEFAULT, PUIF_NOLABELININFOTIP, PUIF_RIGHTALIGN, _PROPERTYUI_FLAGS, _shell_PROPERTYUI_FLAGS, properties.PROPERTYUI_FLAGS, shell.PROPERTYUI_FLAGS, shobjidl_core/PROPERTYUI_FLAGS, shobjidl_core/PUIF_DEFAULT, shobjidl_core/PUIF_NOLABELININFOTIP, shobjidl_core/PUIF_RIGHTALIGN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 

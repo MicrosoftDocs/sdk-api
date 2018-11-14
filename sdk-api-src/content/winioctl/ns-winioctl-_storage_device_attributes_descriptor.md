@@ -9,8 +9,8 @@ ms.assetid: E911C72C-E4AF-438D-B718-798AF2E07227
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Files], _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, fs.storage_device_attributes_descriptor, winioctl/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

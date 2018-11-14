@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
+- apiref
+: 
+- COM
+: 
+- mstask.h
+: 
+- ITask.GetWorkingDirectory
+: 
 ---
 
 # ITask::GetWorkingDirectory
@@ -52,7 +60,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task's</a><a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a>.
+This method retrieves the <a href="t.htm">task's</a><a href="w.htm">working directory</a>.
 
 
 ## -parameters

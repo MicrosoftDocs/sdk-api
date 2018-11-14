@@ -9,8 +9,8 @@ ms.assetid: 74f7a54a-dae8-46d0-bc99-c42fa548f4f1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: codecapi/eAVEncDDAtoDConverterType, codecapi/eAVEncDDAtoDConverterType_HDCD, codecapi/eAVEncDDAtoDConverterType_Standard, dshow.eavencddatodconvertertype, eAVEncDDAtoDConverterType, eAVEncDDAtoDConverterType enumeration [DirectShow], eAVEncDDAtoDConverterType_HDCD, eAVEncDDAtoDConverterType_Standard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

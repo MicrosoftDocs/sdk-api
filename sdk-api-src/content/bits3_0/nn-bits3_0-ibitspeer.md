@@ -9,8 +9,8 @@ ms.assetid: 617b88d4-6c3e-4c33-9bfa-6d9f6f629866
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IBitsPeer interface [BITS],described, bits.ibitspeer, bits3_0/IBitsPeer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -53,14 +53,14 @@ req.redist:
 
 Use <b>IBitsPeer</b> to get information about a peer in the neighborhood. 
 
-To get this  interface, call the <a href="https://msdn.microsoft.com/en-us/library/Aa964311(v=VS.85).aspx">IEnumBitsPeers::Next</a> method. 
+To get this  interface, call the <a href="https://msdn.microsoft.com/b5bc254d-d74e-4076-a22a-93abf9023068">IEnumBitsPeers::Next</a> method. 
 <div class="alert"><b>Note</b>  This interface is deprecated in BITS 4.0, and all of the API methods will return <b>S_FALSE</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBitsPeer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBitsPeer</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IBitsPeer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa964299(v=VS.85).aspx">GetPeerName</a>
+<a href="https://msdn.microsoft.com/71cfc0a5-1f60-4e61-a706-bb9f9c5a6c76">GetPeerName</a>
 </td>
 <td align="left" width="63%">
 Gets the server principal name that uniquely identifies the peer.
@@ -82,7 +82,7 @@ Gets the server principal name that uniquely identifies the peer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa964300(v=VS.85).aspx">IsAuthenticated</a>
+<a href="https://msdn.microsoft.com/64718331-32a9-40ba-90f2-9dd9d8fea3e4">IsAuthenticated</a>
 </td>
 <td align="left" width="63%">
 Determines whether the peer is authenticated.
@@ -91,7 +91,7 @@ Determines whether the peer is authenticated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa964301(v=VS.85).aspx">IsAvailable</a>
+<a href="https://msdn.microsoft.com/e38166da-2139-4108-bb8a-74bb7a7997c1">IsAvailable</a>
 </td>
 <td align="left" width="63%">
 Determines whether the peer is available (online) to serve content.
@@ -106,11 +106,11 @@ Determines whether the peer is available (online) to serve content.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964308(v=VS.85).aspx">IEnumBitsPeers</a>
+<a href="https://msdn.microsoft.com/2715a58c-ba76-4223-ad9e-453d029e0eda">IEnumBitsPeers</a>
  
 
  

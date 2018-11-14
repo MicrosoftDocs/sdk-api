@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawImage
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -110,9 +118,13 @@ The value of the
 
 The following example draws an image.
 
-
-```cpp
-VOID Example_DrawImage(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage(HDC hdc)
 
 {
 
@@ -130,14 +142,14 @@ VOID Example_DrawImage(HDC hdc)
    Point* pdestPoints = destPoints;
 
    // Draw the image.
-   graphics.DrawImage(&image, pdestPoints, 3);
-}
-```
-
-
+   graphics.DrawImage(&amp;image, pdestPoints, 3);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a previously-rectangular image that is now sheared to a parallelogram" src="./images/drawimage1.png"/>
+<img alt="Illustration showing a previously-rectangular image that is now sheared to a parallelogram" src="images/drawimage1.png"/>
 
 <div class="code"></div>
 
@@ -152,7 +164,7 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

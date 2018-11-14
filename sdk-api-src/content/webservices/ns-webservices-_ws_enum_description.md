@@ -9,8 +9,8 @@ ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], _WS_ENUM_DESCRIPTION, webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

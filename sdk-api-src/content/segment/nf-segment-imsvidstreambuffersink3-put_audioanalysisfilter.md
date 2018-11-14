@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidStreamBufferSink3.put_AudioAnalysisFilter
+: 
 ---
 
 # IMSVidStreamBufferSink3::put_AudioAnalysisFilter

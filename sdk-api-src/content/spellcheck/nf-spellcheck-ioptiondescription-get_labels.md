@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- spellcheck.h
+: 
+- IOptionDescription.get_Labels
+: 
 ---
 
 # IOptionDescription::get_Labels

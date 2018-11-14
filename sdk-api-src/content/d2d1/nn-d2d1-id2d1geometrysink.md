@@ -7,10 +7,10 @@ old-location: direct2d\ID2D1GeometrySink.htm
 tech.root: direct2d
 ms.assetid: 6d2c1959-1309-45d8-8204-19ffea03375b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1GeometrySink, ID2D1GeometrySink interface [Direct2D], ID2D1GeometrySink interface [Direct2D],described, d2d1/ID2D1GeometrySink, direct2d.ID2D1GeometrySink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -126,60 +126,69 @@ A geometry sink consists of one or more figures. Each figure is made up of one o
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>. 
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
+    hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry->Open(&pSink);
+        hr = m_pPathGeometry-&gt;Open(&amp;pSink);
 
         if (SUCCEEDED(hr))
         {
-            pSink->BeginFigure(
+            pSink-&gt;BeginFigure(
                 D2D1::Point2F(0, 0),
                 D2D1_FIGURE_BEGIN_FILLED
                 );
 
-            pSink->AddLine(D2D1::Point2F(200, 0));
+            pSink-&gt;AddLine(D2D1::Point2F(200, 0));
 
-            pSink->AddBezier(
+            pSink-&gt;AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(150, 50),
                     D2D1::Point2F(150, 150),
                     D2D1::Point2F(200, 200))
                 );
 
-            pSink->AddLine(D2D1::Point2F(0, 200));
+            pSink-&gt;AddLine(D2D1::Point2F(0, 200));
 
-            pSink->AddBezier(
+            pSink-&gt;AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(50, 150),
                     D2D1::Point2F(50, 50),
                     D2D1::Point2F(0, 0))
                 );
 
-            pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
+            pSink-&gt;EndFigure(D2D1_FIGURE_END_CLOSED);
 
-            hr = pSink->Close();
+            hr = pSink-&gt;Close();
         }
-        SafeRelease(&pSink);
+        SafeRelease(&amp;pSink);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

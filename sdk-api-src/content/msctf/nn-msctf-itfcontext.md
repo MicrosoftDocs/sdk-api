@@ -9,8 +9,8 @@ ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -261,7 +261,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

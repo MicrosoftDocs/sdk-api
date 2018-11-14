@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2fs.h
+: 
+- IProgressItems.get__NewEnum
+: 
 ---
 
 # IProgressItems::get__NewEnum

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventPublisher.get_OwnerSID
+: 
 ---
 
 # IEventPublisher::get_OwnerSID

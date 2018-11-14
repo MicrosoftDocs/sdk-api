@@ -9,8 +9,8 @@ ms.assetid: 60445a53-c40c-4d0a-9650-21d0c7f3bbf6
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_OperationOptions, MI_OperationOptions structure [Windows Management Infrastructure (MI)], _MI_OperationOptions, mi/MI_OperationOptions, wmi_v2.mi_operationoptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

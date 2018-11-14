@@ -4,10 +4,10 @@ title: IAzApplication::InitializeClientContextFromStringSid
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the specified security identifier (SID) in text form.
 old-location: security\iazapplication_initializeclientcontextfromstringsid.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: b718b0bf-bb11-4485-a4d8-0a90aab62165
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromStringSid method, IAzApplication interface [Security],InitializeClientContextFromStringSid method, IAzApplication.InitializeClientContextFromStringSid, IAzApplication::InitializeClientContextFromStringSid, InitializeClientContextFromStringSid, InitializeClientContextFromStringSid method [Security], InitializeClientContextFromStringSid method [Security],AzApplication object, InitializeClientContextFromStringSid method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromStringSid, security.iazapplication_initializeclientcontextfromstringsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.InitializeClientContextFromStringSid
+: 
 ---
 
 # IAzApplication::InitializeClientContextFromStringSid
@@ -51,7 +59,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>InitializeClientContextFromStringSid</b> method gets an <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> object pointer from the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form.<div class="alert"><b>Note</b>  If possible, call the <a href="https://msdn.microsoft.com/en-us/library/Aa377365(v=VS.85).aspx">InitializeClientContextFromToken</a>  function instead of <b>InitializeClientContextFromStringSid</b>. For more information, see Remarks.</div>
+The <b>InitializeClientContextFromStringSid</b> method gets an <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> object pointer from the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form.<div class="alert"><b>Note</b>  If possible, call the <a href="https://msdn.microsoft.com/0002804d-0e97-4648-8aa1-14eba09a90fa">InitializeClientContextFromToken</a>  function instead of <b>InitializeClientContextFromStringSid</b>. For more information, see Remarks.</div>
 <div> </div>
 
 
@@ -98,7 +106,7 @@ A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/e2418
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -107,11 +115,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-If possible, call the <a href="https://msdn.microsoft.com/en-us/library/Aa377365(v=VS.85).aspx">InitializeClientContextFromToken</a>  function instead of <b>InitializeClientContextFromStringSid</b>. <b>InitializeClientContextFromStringSid</b> attempts to retrieve the information available in a logon token had the client actually logged on. An actual logon token provides more information, such as logon type and logon properties, and reflects the behavior of the authentication package used for the logon. The client context  created by <b>InitializeClientContextFromToken</b> uses a logon token, and the resulting client context is more complete and accurate than a client context created by <b>InitializeClientContextFromStringSid</b>.
+If possible, call the <a href="https://msdn.microsoft.com/0002804d-0e97-4648-8aa1-14eba09a90fa">InitializeClientContextFromToken</a>  function instead of <b>InitializeClientContextFromStringSid</b>. <b>InitializeClientContextFromStringSid</b> attempts to retrieve the information available in a logon token had the client actually logged on. An actual logon token provides more information, such as logon type and logon properties, and reflects the behavior of the authentication package used for the logon. The client context  created by <b>InitializeClientContextFromToken</b> uses a logon token, and the resulting client context is more complete and accurate than a client context created by <b>InitializeClientContextFromStringSid</b>.
 
-<div class="alert"><b>Important</b>  Applications should not assume that the calling context has permission to use this function. The <a href="https://msdn.microsoft.com/en-us/library/Aa376309(v=VS.85).aspx">AuthzInitializeContextFromSid</a> function reads the tokenGroupsGlobalAndUniversal attribute of the SID specified in the call to determine the current user's group memberships. If the user's object is in <a href="https://msdn.microsoft.com/en-us/library/Aa362244(v=VS.85).aspx">Active Directory</a>, the calling context must have read access to the tokenGroupsGlobalAndUniversal attribute on the user object. Read access to the tokenGroupsGlobalAndUniversal attribute is granted  to the <b>Pre-Windows 2000 Compatible Access</b> group, but new domains contain an empty <b>Pre-Windows 2000 Compatible Access</b> group by default because the default setup selection is <b>Permissions compatible with Windows 2000 and Windows Server 2003</b>. Therefore, applications may not have access to the tokenGroupsGlobalAndUniversal attribute; in this case, the <b>AuthzInitializeContextFromSid</b> function  fails with ACCESS_DENIED. Applications that use this function should correctly handle this error and provide supporting documentation. To simplify granting accounts permission to query a user's group information, add accounts that need the ability to look up group information to the Windows Authorization Access Group.</div>
+<div class="alert"><b>Important</b>  Applications should not assume that the calling context has permission to use this function. The <a href="https://msdn.microsoft.com/402a8641-5644-45c1-80e9-c60321c1ac38">AuthzInitializeContextFromSid</a> function reads the tokenGroupsGlobalAndUniversal attribute of the SID specified in the call to determine the current user's group memberships. If the user's object is in <a href="https://msdn.microsoft.com/9fc78c72-c59c-4c4d-ace5-00a431645c4b">Active Directory</a>, the calling context must have read access to the tokenGroupsGlobalAndUniversal attribute on the user object. Read access to the tokenGroupsGlobalAndUniversal attribute is granted  to the <b>Pre-Windows 2000 Compatible Access</b> group, but new domains contain an empty <b>Pre-Windows 2000 Compatible Access</b> group by default because the default setup selection is <b>Permissions compatible with Windows 2000 and Windows Server 2003</b>. Therefore, applications may not have access to the tokenGroupsGlobalAndUniversal attribute; in this case, the <b>AuthzInitializeContextFromSid</b> function  fails with ACCESS_DENIED. Applications that use this function should correctly handle this error and provide supporting documentation. To simplify granting accounts permission to query a user's group information, add accounts that need the ability to look up group information to the Windows Authorization Access Group.</div>
 <div> </div>
-Applications calling this function should use the fully qualified domain name or <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">user principal name</a> (UPN). Otherwise, this method might fail across forests if the NetBIOS domain name is used and the two domains do not have a direct trust relationship.
+Applications calling this function should use the fully qualified domain name or <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN). Otherwise, this method might fail across forests if the NetBIOS domain name is used and the two domains do not have a direct trust relationship.
 
 
 
@@ -121,11 +129,11 @@ Applications calling this function should use the fully qualified domain name or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375347(v=VS.85).aspx">Allowing Anonymous Access</a>
+<a href="https://msdn.microsoft.com/3d813e46-f06e-4147-874c-30b5fc6f50d9">Allowing Anonymous Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a>
+<a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a>
  
 
  

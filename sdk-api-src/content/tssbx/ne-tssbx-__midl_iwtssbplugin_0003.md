@@ -9,8 +9,8 @@ ms.assetid: 8fe243ef-f52b-4b1a-8300-0b8a5a8a4c8d
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: WTSSBX_ADDRESS_FAMILY, WTSSBX_ADDRESS_FAMILY enumeration [Remote Desktop Services], WTSSBX_ADDRESS_FAMILY_AF_INET, WTSSBX_ADDRESS_FAMILY_AF_INET6, WTSSBX_ADDRESS_FAMILY_AF_IPX, WTSSBX_ADDRESS_FAMILY_AF_NETBIOS, WTSSBX_ADDRESS_FAMILY_AF_UNSPEC, __MIDL_IWTSSBPlugin_0003, termserv.wtssbx_address_family, tssbx/WTSSBX_ADDRESS_FAMILY, tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET, tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET6, tssbx/WTSSBX_ADDRESS_FAMILY_AF_IPX, tssbx/WTSSBX_ADDRESS_FAMILY_AF_NETBIOS, tssbx/WTSSBX_ADDRESS_FAMILY_AF_UNSPEC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 

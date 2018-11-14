@@ -9,8 +9,8 @@ ms.assetid: 04eed033-45b3-42bc-a304-25525cddd085
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_LPS_FAILED, VDS_LPS_NOT_READY, VDS_LPS_OFFLINE, VDS_LPS_ONLINE, VDS_LPS_UNKNOWN, VDS_LUN_PLEX_STATUS, VDS_LUN_PLEX_STATUS enumeration [VDS], _VDS_LUN_PLEX_STATUS, base.vds_lun_plex_status, vds/VDS_LPS_FAILED, vds/VDS_LPS_NOT_READY, vds/VDS_LPS_OFFLINE, vds/VDS_LPS_ONLINE, vds/VDS_LPS_UNKNOWN, vds/VDS_LUN_PLEX_STATUS, vdshwprv/VDS_LPS_FAILED, vdshwprv/VDS_LPS_NOT_READY, vdshwprv/VDS_LPS_OFFLINE, vdshwprv/VDS_LPS_ONLINE, vdshwprv/VDS_LPS_UNKNOWN, vdshwprv/VDS_LUN_PLEX_STATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winerror.h
+: 
+- SCODE_SEVERITY
+: 
 ---
 
 # SCODE_SEVERITY macro

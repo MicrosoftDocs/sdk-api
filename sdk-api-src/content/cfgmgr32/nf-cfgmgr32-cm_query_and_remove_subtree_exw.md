@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Query_And_Remove_SubTree_ExW
+: 
 ---
 
 # CM_Query_And_Remove_SubTree_ExW function
@@ -141,7 +147,7 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539763(v=VS.85).aspx">CM_Reenumerate_DevNode</a>
+<a href="https://msdn.microsoft.com/dcba5021-7517-4922-9c50-ebfa7375e258">CM_Reenumerate_DevNode</a>
 
 
 

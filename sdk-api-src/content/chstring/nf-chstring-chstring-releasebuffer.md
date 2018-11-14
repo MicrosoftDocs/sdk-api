@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- chstring.h
+: 
+- CHString.ReleaseBuffer
+: 
 ---
 
 # CHString::ReleaseBuffer

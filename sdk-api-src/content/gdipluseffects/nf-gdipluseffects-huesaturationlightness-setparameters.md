@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- HueSaturationLightness.SetParameters
+: 
 req.product: GDI+ 1.1
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a> object. 
+The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/3bb652eb-62f0-4948-9484-4439dc9bd54e">HueSaturationLightness</a> object. 
 
 
 ## -parameters
@@ -61,23 +69,23 @@ The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of t
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/d46ef884-ac73-4fa0-8c4d-d033ac1ed406">HueSaturationLightnessParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/d46ef884-ac73-4fa0-8c4d-d033ac1ed406">HueSaturationLightnessParams</a> structure that specifies the parameters.
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -87,11 +95,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a>
+<a href="https://msdn.microsoft.com/3bb652eb-62f0-4948-9484-4439dc9bd54e">HueSaturationLightness</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535441(v=VS.85).aspx">HueSaturationLightness::GetParameters</a>
+<a href="https://msdn.microsoft.com/a743d9fb-ba19-4dfd-be66-2339ce27d70c">HueSaturationLightness::GetParameters</a>
  
 
  

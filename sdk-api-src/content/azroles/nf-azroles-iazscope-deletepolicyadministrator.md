@@ -4,10 +4,10 @@ title: IAzScope::DeletePolicyAdministrator
 author: windows-sdk-content
 description: The DeletePolicyAdministrator method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy administrators.
 old-location: security\iazscope_deletepolicyadministrator.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 23077da5-5475-45c6-87c0-b38f6c05d386
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzScope object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzScope object, DeletePolicyAdministrator method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyAdministrator method, IAzScope.DeletePolicyAdministrator, IAzScope::DeletePolicyAdministrator, azroles/IAzScope::DeletePolicyAdministrator, security.iazscope_deletepolicyadministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.DeletePolicyAdministrator
+: 
 ---
 
 # IAzScope::DeletePolicyAdministrator

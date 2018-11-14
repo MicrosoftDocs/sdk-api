@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IUrlAccessor3.GetImpersonationSidBlobs
+: 
 ---
 
 # IUrlAccessor3::GetImpersonationSidBlobs
@@ -102,7 +110,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If the file is encrypted, this method identifies who can both decrypt and access it. If the method cannot identify this information, it fails with error code E_ACCESSDENIED.
             
 
-This method assumes that the <a href="https://msdn.microsoft.com/en-us/library/Bb231412(v=VS.85).aspx">IUrlAccessor2</a> object failed to initialize and returned the code <a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">PRTH_S_TRY_IMPERSONATING</a>. Then, the search protocol host calls this method to retrieve a list of SIDs to use for impersonation and reverts to using <b>IUrlAccessor2</b>, impersonating one of the allowed users when opening the item.
+This method assumes that the <a href="https://msdn.microsoft.com/b4e6eb77-6cc3-48db-8b2a-4f7a3a052e49">IUrlAccessor2</a> object failed to initialize and returned the code <a href="https://msdn.microsoft.com/b5e99ad1-1698-483c-8173-796af33085c4">PRTH_S_TRY_IMPERSONATING</a>. Then, the search protocol host calls this method to retrieve a list of SIDs to use for impersonation and reverts to using <b>IUrlAccessor2</b>, impersonating one of the allowed users when opening the item.
 
 Impersonating a user does not elevate the caller's privileges. If the caller cannot directly retrieve the list of users authorized to access a resource, the caller won't be able to do that with this method, either. Only the search protocol host and the indexer have adequate privileges to impersonate users currently logged on.
 
@@ -114,15 +122,15 @@ Impersonating a user does not elevate the caller's privileges. If the caller can
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
+<a href="https://msdn.microsoft.com/4e13a780-b264-4baa-a7b5-a5736f2004f8">IUrlAccessor3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183431(v=VS.85).aspx">IUrlAccessor4</a>
+<a href="https://msdn.microsoft.com/e49bfd50-1743-41aa-b11b-c47b9355489f">IUrlAccessor4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/b5e99ad1-1698-483c-8173-796af33085c4">Search Protocol Handler Error Messages</a>
  
 
  

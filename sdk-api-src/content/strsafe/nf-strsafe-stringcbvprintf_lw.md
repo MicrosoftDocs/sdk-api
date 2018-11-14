@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringCbVPrintf_lW
+: 
 ---
 
 # StringCbVPrintf_lW function
@@ -54,7 +60,7 @@ req.redist:
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a> but includes a parameter for locale information.
+<b>StringCbVPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters

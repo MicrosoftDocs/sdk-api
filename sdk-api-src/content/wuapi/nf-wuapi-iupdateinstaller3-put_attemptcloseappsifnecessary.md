@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateInstaller3.put_AttemptCloseAppsIfNecessary
+: 
 ---
 
 # IUpdateInstaller3::put_AttemptCloseAppsIfNecessary
@@ -80,7 +88,7 @@ Returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="wua.iupdateinstaller3">IUpdateInstaller3</a>
  
 
  

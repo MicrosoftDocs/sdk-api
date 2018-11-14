@@ -9,8 +9,8 @@ ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 

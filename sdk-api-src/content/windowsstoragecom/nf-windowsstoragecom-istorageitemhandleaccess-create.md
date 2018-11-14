@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windowsstoragecom.h
+: 
+- IStorageItemHandleAccess.Create
+: 
 ---
 
 # IStorageItemHandleAccess::Create
@@ -97,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt765063(v=VS.85).aspx">IStorageItemHandleAccess</a>
+<a href="com.istorageitemhandleaccess">IStorageItemHandleAccess</a>
  
 
  

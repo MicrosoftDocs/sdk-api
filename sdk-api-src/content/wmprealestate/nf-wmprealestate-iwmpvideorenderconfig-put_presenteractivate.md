@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmprealestate.h
+: 
+- IWMPVideoRenderConfig.put_presenterActivate
+: 
 ---
 
 # IWMPVideoRenderConfig::put_presenterActivate

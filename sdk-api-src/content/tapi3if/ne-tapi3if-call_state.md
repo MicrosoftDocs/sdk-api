@@ -9,8 +9,8 @@ ms.assetid: d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CALL_STATE, CALL_STATE enumeration [TAPI 2.2], CS_CONNECTED, CS_DISCONNECTED, CS_HOLD, CS_IDLE, CS_INPROGRESS, CS_OFFERING, CS_QUEUED, _tapi3_call_state, tapi3.call_state, tapi3if/CALL_STATE, tapi3if/CS_CONNECTED, tapi3if/CS_DISCONNECTED, tapi3if/CS_HOLD, tapi3if/CS_IDLE, tapi3if/CS_INPROGRESS, tapi3if/CS_OFFERING, tapi3if/CS_QUEUED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

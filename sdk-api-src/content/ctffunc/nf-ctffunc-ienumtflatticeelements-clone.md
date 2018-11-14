@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- IEnumTfLatticeElements.Clone
+: 
 ---
 
 # IEnumTfLatticeElements::Clone
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538208(v=VS.85).aspx">IEnumTfLatticeElements</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://msdn.microsoft.com/5e36f052-a539-4020-8899-fb14c792c666">IEnumTfLatticeElements</a> interface pointer that receives the new enumerator.
 
 
 ## -returns

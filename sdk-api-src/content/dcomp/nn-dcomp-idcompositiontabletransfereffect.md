@@ -9,8 +9,8 @@ ms.assetid: 147E15B8-C529-4BC6-85AA-FB069B892C6C
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionTableTransferEffect, IDCompositionTableTransferEffect interface [DirectComposition], IDCompositionTableTransferEffect interface [DirectComposition],described, dcomp/IDCompositionTableTransferEffect, directcomp.idcompositiontabletransfereffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

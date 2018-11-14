@@ -9,8 +9,8 @@ ms.assetid: 55ef34c5-8d99-457d-b670-8c9efaa2eae2
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES, TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files], _TXFS_LIST_TRANSACTION_LOCKED_FILES, fs.txfs_list_transaction_locked_files, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CfGetWin32HandleFromProtectedHandle
+: 
 ---
 
 # CfGetWin32HandleFromProtectedHandle function

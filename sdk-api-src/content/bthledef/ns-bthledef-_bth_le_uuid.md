@@ -9,8 +9,8 @@ ms.assetid: FA82A099-7924-44A1-A14C-7633B8656FB7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBTH_LE_UUID, BTH_LE_UUID, BTH_LE_UUID structure [Bluetooth Devices], PBTH_LE_UUID, PBTH_LE_UUID structure pointer [Bluetooth Devices], _BTH_LE_UUID, bltooth.bth_le_uuid, bthledef/BTH_LE_UUID, bthledef/PBTH_LE_UUID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
@@ -135,7 +135,7 @@ The short 16-bit value of the UUID. This member applies only if <b>IsShortUuid</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
  
 
  

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDMProgress3.Begin3
+: 
 ---
 
 # IWMDMProgress3::Begin3

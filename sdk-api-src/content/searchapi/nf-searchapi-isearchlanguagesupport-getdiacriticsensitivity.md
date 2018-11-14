@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchLanguageSupport.GetDiacriticSensitivity
+: 
 ---
 
 # ISearchLanguageSupport::GetDiacriticSensitivity
@@ -50,7 +58,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Gets the sensitivity of an implemented <a href="https://msdn.microsoft.com/en-us/library/Bb266440(v=VS.85).aspx">ISearchLanguageSupport</a> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
+Gets the sensitivity of an implemented <a href="https://msdn.microsoft.com/a1d1f2e2-c11d-4774-b15f-5a67ce9d5340">ISearchLanguageSupport</a> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 
 
 ## -parameters

@@ -9,8 +9,8 @@ ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

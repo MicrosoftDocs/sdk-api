@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509EnrollmentStatus.put_Display
+: 
 ---
 
 # IX509EnrollmentStatus::put_Display
@@ -74,7 +82,7 @@ This property is used by the Certificate Enrollment wizard to determine whether 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

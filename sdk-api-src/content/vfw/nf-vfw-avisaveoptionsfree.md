@@ -7,7 +7,7 @@ old-location: multimedia\avisaveoptionsfree.htm
 tech.root: Multimedia
 ms.assetid: c88a786f-d008-4eb6-af3d-59a0f62ac09d
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AVISaveOptionsFree
+: 
 ---
 
 # AVISaveOptionsFree function

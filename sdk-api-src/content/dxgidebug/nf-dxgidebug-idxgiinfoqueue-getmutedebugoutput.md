@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getmutedebugoutput.htm
 tech.root: direct3ddxgi
 ms.assetid: 8123DE14-31C1-4304-A295-C7D0C3633C36
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMuteDebugOutput method, IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgidebug.h
+: 
+- IDXGIInfoQueue.GetMuteDebugOutput
+: 
 ---
 
 # IDXGIInfoQueue::GetMuteDebugOutput

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertAddCRLLinkToStore
+: 
 ---
 
 # CertAddCRLLinkToStore function
@@ -239,7 +245,7 @@ To remove the CRL context link from the certificate store, use the  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Tbsip_Cancel_Commands
+: 
 ---
 
 # Tbsip_Cancel_Commands function

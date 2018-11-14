@@ -9,8 +9,8 @@ ms.assetid: c1236acc-1f11-4501-9374-2486f7d61db3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], IMDSPStorage4 interface [windows Media Device Manager],described, IMDSPStorage4Interface, mswmdm/IMDSPStorage4, wmdm.imdspstorage4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

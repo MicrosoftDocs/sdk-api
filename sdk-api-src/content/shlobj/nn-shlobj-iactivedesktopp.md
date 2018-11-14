@@ -9,8 +9,8 @@ ms.assetid: 04d2e14a-374b-405d-803b-0bd6f57c077a
 ms.author: windowssdkdev
 ms.date: 10/31/2018
 ms.keywords: IActiveDesktopP, IActiveDesktopP interface [Legacy Windows Environment Features], IActiveDesktopP interface [Legacy Windows Environment Features],described, _win32_IActiveDesktopP, lwef.iactivedesktopp, shell.iactivedesktopp, shlobj/IActiveDesktopP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

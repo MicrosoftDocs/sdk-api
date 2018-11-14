@@ -7,10 +7,10 @@ old-location: mscs\paxostagcstruct.htm
 tech.root: mscs
 ms.assetid: 732CB125-F43A-4CC4-BC3F-EFB511BB7F2E
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure pointer [Failover Cluster], PaxosTagCStruct, PaxosTagCStruct structure [Failover Cluster], _PaxosTagCStruct, mscs.paxostagcstruct, resapi/PPaxosTagCStruct, resapi/PaxosTagCStruct"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

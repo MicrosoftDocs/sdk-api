@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsobjectmodel.h
+: 
+- IXpsOMCoreProperties.GetLanguage
+: 
 ---
 
 # IXpsOMCoreProperties::GetLanguage
@@ -110,7 +118,7 @@ The <b>language</b> property describes the language of the resource's intellectu
 
 Internet Engineering Task Force (IETF) RFC 3066 describes the recommended encoding for this property.
 
-This method allocates the memory used by the string that is returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h

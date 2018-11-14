@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qmgr.h
+: 
+- IEnumBackgroundCopyJobs1.Next
+: 
 ---
 
 # IEnumBackgroundCopyJobs1::Next

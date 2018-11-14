@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- natupnp.h
+: 
+- IStaticPortMappingCollection.get_Item
+: 
 ---
 
 # IStaticPortMappingCollection::get_Item
@@ -196,7 +204,7 @@ The NAT API with UPnP technology uses the combination of the external port and t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
 
 
 

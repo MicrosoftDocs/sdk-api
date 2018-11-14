@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EnumerateSecurityPackagesA
+: 
 ---
 
 # EnumerateSecurityPackagesA function
@@ -152,7 +158,7 @@ The caller can use the <b>Name</b> member of a <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

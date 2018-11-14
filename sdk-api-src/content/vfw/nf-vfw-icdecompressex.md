@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressex.htm
 tech.root: Multimedia
 ms.assetid: a7ae0409-e89d-400a-a601-edc8e6e3fbcc
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ICDecompressEx, ICDecompressEx function [Windows Multimedia], _win32_ICDecompressEx, multimedia.icdecompressex, vfw/ICDecompressEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ICDecompressEx
+: 
 ---
 
 # ICDecompressEx function

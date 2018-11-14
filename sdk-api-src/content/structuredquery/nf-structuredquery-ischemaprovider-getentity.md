@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- ISchemaProvider.GetEntity
+: 
 ---
 
 # ISchemaProvider::GetEntity
@@ -68,9 +76,9 @@ The name of the entity being requested.
 
 ### -param pEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
+Receives the address of a pointer to the requested entity. The calling application must release the entity by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method. If there is no entity with the specified name, this parameter is set to <b>NULL</b>.
         
 
 

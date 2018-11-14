@@ -7,10 +7,10 @@ old-location: direct2d\id2d1printcontrol.htm
 tech.root: direct2d
 ms.assetid: 0E8D8218-0671-44A2-AD6E-13BB0B4EB66C
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1PrintControl, ID2D1PrintControl interface [Direct2D], ID2D1PrintControl interface [Direct2D],described, d2d1_1/ID2D1PrintControl, direct2d.id2d1printcontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxSender.get_BillingCode
+: 
 ---
 
 # IFaxSender::get_BillingCode
@@ -65,15 +73,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a>
+<a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687533(v=VS.85).aspx">IFaxSender</a>
+<a href="https://msdn.microsoft.com/c22bd4df-6ce2-4491-91c9-7bb8c8f7eafd">IFaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

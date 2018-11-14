@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmPipelineModuleDefinition.put_Version
+: 
 ---
 
 # IFsrmPipelineModuleDefinition::put_Version

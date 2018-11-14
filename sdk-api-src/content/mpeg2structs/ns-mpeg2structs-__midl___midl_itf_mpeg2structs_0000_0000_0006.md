@@ -9,8 +9,8 @@ ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0006, mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InvokePattern_Invoke
+: 
 ---
 
 # InvokePattern_Invoke function

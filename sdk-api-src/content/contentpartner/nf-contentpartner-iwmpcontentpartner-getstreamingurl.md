@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- contentpartner.h
+: 
+- IWMPContentPartner.GetStreamingURL
+: 
 ---
 
 # IWMPContentPartner::GetStreamingURL
@@ -65,7 +73,7 @@ The <b>GetStreamingURL</b> method retrieves the streaming URL of a track.
 
 ### -param st [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564887(v=VS.85).aspx">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media item to be streamed.
+A member of the <a href="https://msdn.microsoft.com/3ac7e8cb-39c7-4437-a2da-6de5cb1efed9">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media item to be streamed.
 
 
 ### -param pStreamContext [in]
@@ -111,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

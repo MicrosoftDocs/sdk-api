@@ -9,8 +9,8 @@ ms.assetid: eea54aeb-7847-4393-87fa-86de93017be8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTTPOLYGONHEADER, LPTTPOLYGONHEADER, LPTTPOLYGONHEADER structure pointer [Windows GDI], TTPOLYGONHEADER, TTPOLYGONHEADER structure [Windows GDI], _win32_TTPOLYGONHEADER_str, gdi.ttpolygonheader, tagTTPOLYGONHEADER, wingdi/LPTTPOLYGONHEADER, wingdi/TTPOLYGONHEADER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

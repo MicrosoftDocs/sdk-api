@@ -9,8 +9,8 @@ ms.assetid: EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: CD3D11_BLEND_DESC, CD3D11_BLEND_DESC structure [Direct3D 11], d3d11/CD3D11_BLEND_DESC, direct3d11.cd3d11_blend_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -117,7 +117,7 @@ struct CD3D11_BLEND_DESC : public D3D11_BLEND_DESC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151647(v=VS.85).aspx">CD3D11 Helper Structures</a>
+<a href="https://msdn.microsoft.com/E44951D9-7830-4825-B7FA-CF98CC0D024C">CD3D11 Helper Structures</a>
  
 
  

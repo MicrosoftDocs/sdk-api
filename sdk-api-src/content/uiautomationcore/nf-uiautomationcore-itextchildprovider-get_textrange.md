@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITextChildProvider.get_TextRange
+: 
 ---
 
 # ITextChildProvider::get_TextRange

@@ -9,8 +9,8 @@ ms.assetid: f072b2f8-8c03-4f90-8edf-cf5fed97a222
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PADS_OBJECT_INFO, ADS_OBJECT_INFO, ADS_OBJECT_INFO structure [ADSI], PADS_OBJECT_INFO, PADS_OBJECT_INFO structure pointer [ADSI], _ads_object_info, _ds_ads_object_info, adsi.ads__object__info, adsi.ads_object_info, iads/ADS_OBJECT_INFO, iads/PADS_OBJECT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

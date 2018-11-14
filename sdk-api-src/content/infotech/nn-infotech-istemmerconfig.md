@@ -9,8 +9,8 @@ ms.assetid: VS|htmlhelp|~\html\refistemmerconfiginterface.htm
 ms.author: windowssdkdev
 ms.date: 10/22/2018
 ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop],described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 
@@ -70,7 +70,7 @@ The <b>IStemmerConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670064(v=VS.85).aspx">SetLocaleInfo</a>
+<a href="https://msdn.microsoft.com/7907af0e-dab1-43fc-a279-a0b7bbc973d1">SetLocaleInfo</a>
 </td>
 <td align="left" width="63%">
 Sets locale information for the stemmer.

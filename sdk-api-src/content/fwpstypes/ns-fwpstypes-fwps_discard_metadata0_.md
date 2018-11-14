@@ -9,8 +9,8 @@ ms.assetid: f17076d8-b669-4bb4-a871-10c7bdc6e370
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: FWPS_DISCARD_METADATA0, FWPS_DISCARD_METADATA0 structure [Network Drivers Starting with Windows Vista], FWPS_DISCARD_METADATA0_, fwpstypes/FWPS_DISCARD_METADATA0, netvista.fwps_discard_metadata0, wfp_ref_3_struct_3_fwps_F-O_b2c71176-0655-45cf-ac72-3fbb690fb05b.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
@@ -70,7 +70,7 @@ An
 
 A UINT32 value that specifies why the data was discarded. For a description of the discard reason
      identifiers for each type of module, see 
-     <a href="https://msdn.microsoft.com/library/Ff546441(v=VS.85).aspx">Discard Reason Identifiers</a>.
+     <a href="netvista.discard_reason_identifiers">Discard Reason Identifiers</a>.
 
 
 ### -field filterId

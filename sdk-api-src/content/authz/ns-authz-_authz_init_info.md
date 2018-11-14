@@ -4,13 +4,13 @@ title: "_AUTHZ_INIT_INFO"
 author: windows-sdk-content
 description: Defines the initialization information for the resource manager.
 old-location: security\authz_init_info.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 30489BE7-5B95-413E-8134-039AD3220A50
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PAUTHZ_INIT_INFO, AUTHZ_INIT_INFO, AUTHZ_INIT_INFO structure [Security], PAUTHZ_INIT_INFO, PAUTHZ_INIT_INFO structure pointer [Security], _AUTHZ_INIT_INFO, authz/AUTHZ_INIT_INFO, authz/PAUTHZ_INIT_INFO, security.authz_init_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

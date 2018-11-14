@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteColorGlyphRunEnumerator.MoveNext
+: 
 ---
 
 # IDWriteColorGlyphRunEnumerator::MoveNext

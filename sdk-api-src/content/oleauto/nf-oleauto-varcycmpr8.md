@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VarCyCmpR8
+: 
 ---
 
 # VarCyCmpR8 function

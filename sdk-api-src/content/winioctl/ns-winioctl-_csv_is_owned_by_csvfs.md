@@ -9,8 +9,8 @@ ms.assetid: F189E0F9-F711-4AB6-8237-775855FCD290
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PCSV_IS_OWNED_BY_CSVFS, CSV_IS_OWNED_BY_CSVFS, CSV_IS_OWNED_BY_CSVFS structure [Files], PCSV_IS_OWNED_BY_CSVFS, PCSV_IS_OWNED_BY_CSVFS structure pointer [Files], _CSV_IS_OWNED_BY_CSVFS, fs.csv_is_owned_by_csvfs, winioctl/CSV_IS_OWNED_BY_CSVFS, winioctl/PCSV_IS_OWNED_BY_CSVFS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

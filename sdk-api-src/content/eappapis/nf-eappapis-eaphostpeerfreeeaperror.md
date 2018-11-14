@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerfreeeaperror.htm
 tech.root: eaphost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerFreeEapError
+: 
 ---
 
 # EapHostPeerFreeEapError function

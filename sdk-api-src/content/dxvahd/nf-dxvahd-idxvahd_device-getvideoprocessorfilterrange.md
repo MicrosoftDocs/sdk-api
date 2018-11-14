@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxvahd.h
+: 
+- IDXVAHD_Device.GetVideoProcessorFilterRange
+: 
 ---
 
 # IDXVAHD_Device::GetVideoProcessorFilterRange

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxConfiguration.put_DiscountRateEnd
+: 
 ---
 
 # IFaxConfiguration::put_DiscountRateEnd

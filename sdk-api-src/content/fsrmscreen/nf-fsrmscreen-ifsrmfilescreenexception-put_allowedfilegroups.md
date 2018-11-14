@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmscreen.h
+: 
+- IFsrmFileScreenException.put_AllowedFileGroups
+: 
 ---
 
 # IFsrmFileScreenException::put_AllowedFileGroups

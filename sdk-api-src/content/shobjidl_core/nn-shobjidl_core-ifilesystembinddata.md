@@ -9,8 +9,8 @@ ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], IFileSystemBindData interface [Windows Shell],described, _shell_ifilesystembinddata, shell.IFileSystemBindData, shobjidl_core/IFileSystemBindData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

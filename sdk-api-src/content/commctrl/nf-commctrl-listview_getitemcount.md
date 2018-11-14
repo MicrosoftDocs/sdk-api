@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_GetItemCount
+: 
 ---
 
 # ListView_GetItemCount macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the number of items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761044(v=VS.85).aspx">LVM_GETITEMCOUNT</a> message explicitly. 
+Gets the number of items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/7c639d69-e42c-41b5-9fdd-4943166752a2">LVM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters

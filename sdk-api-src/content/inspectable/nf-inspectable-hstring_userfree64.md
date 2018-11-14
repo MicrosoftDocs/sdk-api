@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HSTRING_UserFree64
+: 
 ---
 
 # HSTRING_UserFree64 function

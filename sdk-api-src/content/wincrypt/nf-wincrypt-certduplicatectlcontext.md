@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertDuplicateCTLContext
+: 
 ---
 
 # CertDuplicateCTLContext function
@@ -78,7 +84,7 @@ Currently, a copy is not made of the context, and the returned pointer to <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

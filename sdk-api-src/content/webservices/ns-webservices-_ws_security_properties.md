@@ -9,8 +9,8 @@ ms.assetid: 36a2dca5-d49f-4af7-ac1a-0ff7e9331e9a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SECURITY_PROPERTIES, WS_SECURITY_PROPERTIES structure [Web Services for Windows], _WS_SECURITY_PROPERTIES, webservices/WS_SECURITY_PROPERTIES, wsw.ws_security_properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IConsoleNameSpace2.Expand
+: 
 ---
 
 # IConsoleNameSpace2::Expand

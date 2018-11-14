@@ -9,8 +9,8 @@ ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

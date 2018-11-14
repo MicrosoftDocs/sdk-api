@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::get_DelegatedPolicyUsers
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as delegated policy users in text form.
 old-location: security\azauthorizationstore_delegatedpolicyusers.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cc1268d5-d386-4888-a987-e40896a096e4
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzAuthorizationStore object, DelegatedPolicyUsers property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsers property, IAzAuthorizationStore.DelegatedPolicyUsers, IAzAuthorizationStore.get_DelegatedPolicyUsers, IAzAuthorizationStore::DelegatedPolicyUsers, IAzAuthorizationStore::get_DelegatedPolicyUsers, azroles/IAzAuthorizationStore::DelegatedPolicyUsers, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.azauthorizationstore_delegatedpolicyusers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.get_DelegatedPolicyUsers
+: 
 ---
 
 # IAzAuthorizationStore::get_DelegatedPolicyUsers
@@ -68,7 +76,7 @@ Delegated policy users are principals that are allowed to read the subset of the
 
 <div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
 <div> </div>
-In  JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
+In  JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

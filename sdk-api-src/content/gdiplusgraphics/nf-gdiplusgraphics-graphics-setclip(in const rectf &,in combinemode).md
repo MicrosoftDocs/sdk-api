@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.SetClip
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::SetClip</b> method updates the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to a region that is the combination of itself and a rectangle.
+The <b>Graphics::SetClip</b> method updates the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and a rectangle.
 
 
 ## -parameters
@@ -63,14 +71,14 @@ The <b>Graphics::SetClip</b> method updates the clipping region of this <a href=
 
 Type: <b>const RectF&amp;</b>
 
-Reference to a rectangle to be combined with the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. 
+Reference to a rectangle to be combined with the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. 
 
 
 ### -param combineMode [in, optional]
 
 Type: <b><a href="https://msdn.microsoft.com/8cdb8aab-7918-421a-bc64-e8c91d1b866e">CombineMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/8cdb8aab-7918-421a-bc64-e8c91d1b866e">CombineMode</a> enumeration that specifies how the specified rectangle is combined with the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The default value is CombineModeReplace. 
+Element of the <a href="https://msdn.microsoft.com/8cdb8aab-7918-421a-bc64-e8c91d1b866e">CombineMode</a> enumeration that specifies how the specified rectangle is combined with the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The default value is CombineModeReplace. 
 
 
 ## -returns
@@ -108,7 +116,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

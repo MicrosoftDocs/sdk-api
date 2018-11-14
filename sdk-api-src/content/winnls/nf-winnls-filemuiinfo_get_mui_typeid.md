@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnls.h
+: 
+- FILEMUIINFO_GET_MUI_TYPEID
+: 
 ---
 
 # FILEMUIINFO_GET_MUI_TYPEID macro

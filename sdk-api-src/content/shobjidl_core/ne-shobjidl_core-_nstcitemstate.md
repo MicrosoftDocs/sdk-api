@@ -9,8 +9,8 @@ ms.assetid: 1f3fd526-c044-41ff-9e05-c6d91d386b42
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: NSTCIS_BOLD, NSTCIS_DISABLED, NSTCIS_EXPANDED, NSTCIS_NONE, NSTCIS_SELECTED, NSTCIS_SELECTEDNOEXPAND, NSTCITEMSTATE, NSTCITEMSTATE enumeration [Windows Shell], _NSTCITEMSTATE, _shell_NSTCITEMSTATE, shell.NSTCITEMSTATE, shobjidl_core/NSTCIS_BOLD, shobjidl_core/NSTCIS_DISABLED, shobjidl_core/NSTCIS_EXPANDED, shobjidl_core/NSTCIS_NONE, shobjidl_core/NSTCIS_SELECTED, shobjidl_core/NSTCIS_SELECTEDNOEXPAND, shobjidl_core/NSTCITEMSTATE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

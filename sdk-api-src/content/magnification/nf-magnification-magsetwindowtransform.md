@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MagSetWindowTransform
+: 
 ---
 
 # MagSetWindowTransform function
@@ -67,7 +73,7 @@ The magnification window.
 
 ### -param pTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692385(v=VS.85).aspx">PMAGTRANSFORM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f07e64de-2fc8-4010-a5f1-b1ed29d06997">PMAGTRANSFORM</a></b>
 
 A transformation matrix.
 
@@ -128,7 +134,7 @@ BOOL SetMagnificationFactor(HWND hwndMag, float magFactor)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692391(v=VS.85).aspx">MagGetWindowTransform</a>
+<a href="https://msdn.microsoft.com/54fc86bc-283d-44ba-85ee-a0e370d3b64c">MagGetWindowTransform</a>
  
 
  

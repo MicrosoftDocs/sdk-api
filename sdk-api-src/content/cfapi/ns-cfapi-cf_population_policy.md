@@ -9,8 +9,8 @@ ms.assetid: 043EBBF8-4077-429B-B959-55E0623520E2
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: CF_POPULATION_POLICY, CF_POPULATION_POLICY structure, cfapi/CF_POPULATION_POLICY, cloudApi.cf_population_policy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

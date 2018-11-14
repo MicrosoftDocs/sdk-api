@@ -9,8 +9,8 @@ ms.assetid: 402d1051-d91a-4a79-96f6-10ed96a32d5c
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCERT_NAME_INFO, CERT_NAME_INFO, CERT_NAME_INFO structure [Security], PCERT_NAME_INFO, PCERT_NAME_INFO structure pointer [Security], _CERT_NAME_INFO, _crypto2_cert_name_info, security.cert_name_info, wincrypt/CERT_NAME_INFO, wincrypt/PCERT_NAME_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

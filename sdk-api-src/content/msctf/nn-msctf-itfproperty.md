@@ -9,8 +9,8 @@ ms.assetid: 72bd92f9-d82e-4994-82ad-0989e987903b
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework],described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -136,7 +136,7 @@ An instance of this interface is obtained in various ways, such as <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

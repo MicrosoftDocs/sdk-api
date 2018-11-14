@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PMENUGETOBJECTINFO, MENUGETOBJECTINFO, MENUGETOBJECTINFO structure [Menus and Other Resources], MNGOF_BOTTOMGAP, MNGOF_TOPGAP, PMENUGETOBJECTINFO, PMENUGETOBJECTINFO structure pointer [Menus and Other Resources], _win32_MENUGETOBJECTINFO_str, _win32_menugetobjectinfo_str_cpp, menurc.menugetobjectinfo, tagMENUGETOBJECTINFO, winui._win32_menugetobjectinfo_str, winuser/MENUGETOBJECTINFO, winuser/PMENUGETOBJECTINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
@@ -134,10 +134,10 @@ A pointer to the interface corresponding to the
 
 
 The <b>MENUGETOBJECTINFO</b> structure is used only in drag-and-drop menus. When the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms647607(v=VS.85).aspx">WM_MENUGETOBJECT</a>  message is sent, 
+				<a href="https://msdn.microsoft.com/08348e43-3d21-4543-b624-5504575efced">WM_MENUGETOBJECT</a>  message is sent, 
 				<i>lParam</i> is a pointer to this structure. 
 
-To create a drag-and-drop menu, call <a href="https://msdn.microsoft.com/en-us/library/ms647997(v=VS.85).aspx">SetMenuInfo</a> with <b>MNS_DRAGDROP</b> set.
+To create a drag-and-drop menu, call <a href="https://msdn.microsoft.com/2b133f55-316f-42a1-bf8f-52a2a93f540a">SetMenuInfo</a> with <b>MNS_DRAGDROP</b> set.
 
 
 
@@ -151,7 +151,7 @@ To create a drag-and-drop menu, call <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -159,7 +159,7 @@ To create a drag-and-drop menu, call <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647997(v=VS.85).aspx">SetMenuInfo</a>
+<a href="https://msdn.microsoft.com/2b133f55-316f-42a1-bf8f-52a2a93f540a">SetMenuInfo</a>
  
 
  

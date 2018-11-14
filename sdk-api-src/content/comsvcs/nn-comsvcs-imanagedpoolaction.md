@@ -9,8 +9,8 @@ ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

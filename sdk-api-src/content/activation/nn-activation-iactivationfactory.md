@@ -9,8 +9,8 @@ ms.assetid: C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IActivationFactory, IActivationFactory interface [Windows Runtime], IActivationFactory interface [Windows Runtime],described, activation/IActivationFactory, winrt.iactivationfactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: activation.h
 req.include-header: 

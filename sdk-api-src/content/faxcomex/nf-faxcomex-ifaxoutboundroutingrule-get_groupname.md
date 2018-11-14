@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutboundRoutingRule.get_GroupName
+: 
 ---
 
 # IFaxOutboundRoutingRule::get_GroupName

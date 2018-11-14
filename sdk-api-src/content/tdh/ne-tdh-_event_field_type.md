@@ -9,8 +9,8 @@ ms.assetid: da525556-e42b-41cb-b954-300f378477e5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: EVENT_FIELD_TYPE, EVENT_FIELD_TYPE enumeration [ETW], EventChannelInformation, EventInformationMax, EventKeywordInformation, EventLevelInformation, EventOpcodeInformation, EventTaskInformation, _EVENT_FIELD_TYPE, etw.event_field_type_enum, tdh.event_field_type_enum, tdh/EVENT_FIELD_TYPE, tdh/EventChannelInformation, tdh/EventInformationMax, tdh/EventKeywordInformation, tdh/EventLevelInformation, tdh/EventOpcodeInformation, tdh/EventTaskInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 

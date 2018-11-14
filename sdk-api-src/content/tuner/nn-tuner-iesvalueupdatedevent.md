@@ -9,8 +9,8 @@ ms.assetid: 6639c483-aebe-43b4-94cd-494b820c1b14
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IESValueUpdatedEvent, IESValueUpdatedEvent interface [Microsoft TV Technologies], IESValueUpdatedEvent interface [Microsoft TV Technologies],described, mstv.iesvalueupdatedevent, tuner/IESValueUpdatedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

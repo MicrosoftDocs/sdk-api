@@ -9,8 +9,8 @@ ms.assetid: 788b3848-8d38-4e8f-9fdb-452767fbac61
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO structure [Security], PCERT_QC_STATEMENTS_EXT_INFO, PCERT_QC_STATEMENTS_EXT_INFO structure pointer [Security], _CERT_QC_STATEMENTS_EXT_INFO, security.cert_qc_statements_ext_info, wincrypt/CERT_QC_STATEMENTS_EXT_INFO, wincrypt/PCERT_QC_STATEMENTS_EXT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

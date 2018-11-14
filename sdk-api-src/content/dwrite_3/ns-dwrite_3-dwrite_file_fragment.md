@@ -9,8 +9,8 @@ ms.assetid: 6E893719-E2A7-482A-B344-8FE2AA59A6B9
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_FILE_FRAGMENT, DWRITE_FILE_FRAGMENT structure [Direct Write], directwrite.dwrite_file_fragment, dwrite_3/DWRITE_FILE_FRAGMENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 

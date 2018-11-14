@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- evalcom2.h
+: 
+- IValidate.CloseCUB
+: 
 ---
 
 # IValidate::CloseCUB

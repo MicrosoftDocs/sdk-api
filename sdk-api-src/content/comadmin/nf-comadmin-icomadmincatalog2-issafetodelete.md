@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICOMAdminCatalog2.IsSafeToDelete
+: 
 ---
 
 # ICOMAdminCatalog2::IsSafeToDelete
@@ -156,7 +164,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

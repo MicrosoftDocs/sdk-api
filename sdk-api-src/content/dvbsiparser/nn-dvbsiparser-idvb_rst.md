@@ -9,8 +9,8 @@ ms.assetid: deee44cb-92b8-4d10-91d7-c99324ab5832
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], IDVB_RST interface [Microsoft TV Technologies],described, IDVB_RSTInterface, dvbsiparser/IDVB_RST, mstv.idvb_rst
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

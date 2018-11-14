@@ -9,8 +9,8 @@ ms.assetid: 235fa0ef-4fc2-4a36-8ad7-2dceb597498f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMbnConnectionProfileEvents, IMbnConnectionProfileEvents interface [Microsoft Broadband Networks], IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofileevents, mbnapi/IMbnConnectionProfileEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

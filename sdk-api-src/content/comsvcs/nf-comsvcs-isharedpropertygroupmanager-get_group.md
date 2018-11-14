@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ISharedPropertyGroupManager.get_Group
+: 
 ---
 
 # ISharedPropertyGroupManager::get_Group

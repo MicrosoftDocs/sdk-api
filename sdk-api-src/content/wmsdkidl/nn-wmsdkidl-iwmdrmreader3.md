@@ -9,8 +9,8 @@ ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

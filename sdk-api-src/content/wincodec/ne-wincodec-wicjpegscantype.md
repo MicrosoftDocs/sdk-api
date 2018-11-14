@@ -9,8 +9,8 @@ ms.assetid: DC8B42F0-66D3-4425-9AA8-6B8F0D9B8568
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WICJpegScanType, WICJpegScanType enumeration [Windows Imaging Component], WICJpegScanTypeInterleaved, WICJpegScanTypePlanarComponents, WICJpegScanTypeProgressive, WICJpegScanType_FORCE_DWORD, wic.wicjpegscantype, wincodec/WICJpegScanType, wincodec/WICJpegScanTypeInterleaved, wincodec/WICJpegScanTypePlanarComponents, wincodec/WICJpegScanTypeProgressive, wincodec/WICJpegScanType_FORCE_DWORD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

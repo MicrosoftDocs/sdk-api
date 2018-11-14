@@ -9,8 +9,8 @@ ms.assetid: 7b3d0f93-09dd-4a36-a031-70f61402c314
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

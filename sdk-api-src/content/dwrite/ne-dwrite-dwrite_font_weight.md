@@ -9,8 +9,8 @@ ms.assetid: 82396f80-eb62-4865-ba07-9653220c84f2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_FONT_WEIGHT, DWRITE_FONT_WEIGHT enumeration [Direct Write], DWRITE_FONT_WEIGHT_BLACK, DWRITE_FONT_WEIGHT_BOLD, DWRITE_FONT_WEIGHT_DEMI_BOLD, DWRITE_FONT_WEIGHT_EXTRA_BLACK, DWRITE_FONT_WEIGHT_EXTRA_BOLD, DWRITE_FONT_WEIGHT_EXTRA_LIGHT, DWRITE_FONT_WEIGHT_HEAVY, DWRITE_FONT_WEIGHT_LIGHT, DWRITE_FONT_WEIGHT_MEDIUM, DWRITE_FONT_WEIGHT_NORMAL, DWRITE_FONT_WEIGHT_REGULAR, DWRITE_FONT_WEIGHT_SEMI_BOLD, DWRITE_FONT_WEIGHT_SEMI_LIGHT, DWRITE_FONT_WEIGHT_THIN, DWRITE_FONT_WEIGHT_ULTRA_BLACK, DWRITE_FONT_WEIGHT_ULTRA_BOLD, DWRITE_FONT_WEIGHT_ULTRA_LIGHT, directwrite.dwrite_font_weight, dwrite/DWRITE_FONT_WEIGHT, dwrite/DWRITE_FONT_WEIGHT_BLACK, dwrite/DWRITE_FONT_WEIGHT_BOLD, dwrite/DWRITE_FONT_WEIGHT_DEMI_BOLD, dwrite/DWRITE_FONT_WEIGHT_EXTRA_BLACK, dwrite/DWRITE_FONT_WEIGHT_EXTRA_BOLD, dwrite/DWRITE_FONT_WEIGHT_EXTRA_LIGHT, dwrite/DWRITE_FONT_WEIGHT_HEAVY, dwrite/DWRITE_FONT_WEIGHT_LIGHT, dwrite/DWRITE_FONT_WEIGHT_MEDIUM, dwrite/DWRITE_FONT_WEIGHT_NORMAL, dwrite/DWRITE_FONT_WEIGHT_REGULAR, dwrite/DWRITE_FONT_WEIGHT_SEMI_BOLD, dwrite/DWRITE_FONT_WEIGHT_SEMI_LIGHT, dwrite/DWRITE_FONT_WEIGHT_THIN, dwrite/DWRITE_FONT_WEIGHT_ULTRA_BLACK, dwrite/DWRITE_FONT_WEIGHT_ULTRA_BOLD, dwrite/DWRITE_FONT_WEIGHT_ULTRA_LIGHT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
@@ -150,7 +150,7 @@ Predefined font weight : Ultra-black (950).
 Weight differences are generally differentiated by an increased stroke or thickness that is associated with a given character in a typeface, as compared to a "normal" character from that same typeface. 
 The following illustration shows an example of Normal and UltraBold weights for the Palatino Linotype typeface.
 
-<img alt='Illustration of the letter "W" in Normal and UltraBold weights' src="./images/FontWeight_for_Palatino.png"/>
+<img alt='Illustration of the letter "W" in Normal and UltraBold weights' src="images/FontWeight_for_Palatino.png"/>
 
 <div class="alert"><b>Note</b>  Not all weights are available for all typefaces. When a weight is not available for a typeface, the closest matching weight is returned.</div>
 <div> </div>

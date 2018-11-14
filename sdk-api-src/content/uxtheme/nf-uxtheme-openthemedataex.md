@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OpenThemeDataEx
+: 
 ---
 
 # OpenThemeDataEx function
@@ -137,7 +143,7 @@ Class names for the Aero theme are defined in AeroStyle.xml.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a>
+<a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a>
  
 
  

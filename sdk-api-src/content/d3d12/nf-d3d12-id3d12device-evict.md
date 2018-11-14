@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_evict.htm
 tech.root: direct3d12
 ms.assetid: 37F8ABA7-EDA3-4775-8B86-470FC4F95662
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: Evict, Evict method, Evict method,ID3D12Device interface, ID3D12Device interface,Evict method, ID3D12Device.Evict, ID3D12Device::Evict, d3d12/ID3D12Device::Evict, direct3d12.id3d12device_evict
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12Device.Evict
+: 
 ---
 
 # ID3D12Device::Evict
@@ -60,7 +68,7 @@ Enables the page-out of data, which precludes GPU access of that data.
 
 ### -param NumObjects
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of objects in the <i>ppObjects</i> array to evict from the device.
           
@@ -81,9 +89,9 @@ Descriptor Heaps, Heaps, Committed Resources, and Query Heaps
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -96,7 +104,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 <b>Evict</b> persists the data associated with a resource to disk, and then removes the resource from the memory pool where it was located. This method should be called on the object which owns the physical memory: either a committed resource (which owns both virtual  and physical memory assignments) or a heap - noting that reserved resources do not have physical memory, and placed resources are borrowing memory from a heap.
 
 
-Refer to the remarks for <a href="https://msdn.microsoft.com/en-us/library/Dn788682(v=VS.85).aspx">MakeResident</a>.
+Refer to the remarks for <a href="https://msdn.microsoft.com/2B3B97DC-5AA3-470E-8EED-3956B295BB94">MakeResident</a>.
 
 
 
@@ -106,7 +114,7 @@ Refer to the remarks for <a href="https://msdn.microsoft.com/en-us/library/Dn788
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

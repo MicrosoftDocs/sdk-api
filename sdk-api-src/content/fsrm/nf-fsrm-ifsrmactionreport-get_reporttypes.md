@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionReport.get_ReportTypes
+: 
 ---
 
 # IFsrmActionReport::get_ReportTypes

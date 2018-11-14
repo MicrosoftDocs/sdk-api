@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxva2api.h
+: 
+- IDirect3DDeviceManager9.GetVideoService
+: 
 ---
 
 # IDirect3DDeviceManager9::GetVideoService

@@ -9,8 +9,8 @@ ms.assetid: 251fefdf-48c7-444a-89fc-fb27b10dcb0a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], IUIAutomationWindowPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationWindowPattern, uiauto_IUIAutomationWindowPattern, uiautomationclient/IUIAutomationWindowPattern, winauto.uiauto_IUIAutomationWindowPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

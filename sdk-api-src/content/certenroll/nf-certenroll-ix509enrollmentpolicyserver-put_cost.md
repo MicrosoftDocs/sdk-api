@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509EnrollmentPolicyServer.put_Cost
+: 
 ---
 
 # IX509EnrollmentPolicyServer::put_Cost
@@ -64,7 +72,7 @@ This property is read/write.
 
 
 
-If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/en-us/library/Ee351710(v=VS.85).aspx">Initialize</a> method is called), the server with the lowest cost is contacted first. 
+If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> method is called), the server with the lowest cost is contacted first. 
 
 
 
@@ -74,7 +82,7 @@ If multiple CEP servers have the same ID value (specified when the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

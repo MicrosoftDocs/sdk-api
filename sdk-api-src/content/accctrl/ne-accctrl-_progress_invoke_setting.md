@@ -4,13 +4,13 @@ title: "_PROGRESS_INVOKE_SETTING"
 author: windows-sdk-content
 description: Indicates the initial setting of the function used to track the progress of a call to the TreeSetNamedSecurityInfo or TreeResetNamedSecurityInfo function.
 old-location: security\prog_invoke_setting.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 3eee30d6-7d9d-468f-b6ba-e172da523169
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING enumeration pointer [Security], PROG_INVOKE_SETTING, PROG_INVOKE_SETTING enumeration [Security], ProgressCancelOperation, ProgressInvokeEveryObject, ProgressInvokeNever, ProgressInvokeOnError, ProgressInvokePrePostError, ProgressRetryOperation, _PROGRESS_INVOKE_SETTING, accctrl/PPROG_INVOKE_SETTING, accctrl/PROG_INVOKE_SETTING, accctrl/ProgressCancelOperation, accctrl/ProgressInvokeEveryObject, accctrl/ProgressInvokeNever, accctrl/ProgressInvokeOnError, accctrl/ProgressInvokePrePostError, accctrl/ProgressRetryOperation, security.prog_invoke_setting"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 

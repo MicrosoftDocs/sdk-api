@@ -9,8 +9,8 @@ ms.assetid: c8c3bd92-8120-4a3b-af8b-0a2c0a9bee0f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PIP_PATTERN, IP_PATTERN, IP_PATTERN structure [QOS], PIP_PATTERN, PIP_PATTERN structure pointer [QOS], _IP_PATTERN, _gqos_ip_pattern, qos.ip_pattern, traffic/IP_PATTERN, traffic/PIP_PATTERN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 

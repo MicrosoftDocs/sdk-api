@@ -7,7 +7,7 @@ old-location: multimedia\aviputfileonclipboard.htm
 tech.root: Multimedia
 ms.assetid: 5b2bf73d-9a09-4eec-bbb2-893fe584e3e0
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AVIPutFileOnClipboard, AVIPutFileOnClipboard function [Windows Multimedia], _win32_AVIPutFileOnClipboard, multimedia.aviputfileonclipboard, vfw/AVIPutFileOnClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AVIPutFileOnClipboard
+: 
 ---
 
 # AVIPutFileOnClipboard function

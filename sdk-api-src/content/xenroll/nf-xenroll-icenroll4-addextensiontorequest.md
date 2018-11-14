@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.addExtensionToRequest
+: 
 ---
 
 # ICEnroll4::addExtensionToRequest

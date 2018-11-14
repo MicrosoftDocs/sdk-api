@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertFindCRLInStore
+: 
 ---
 
 # CertFindCRLInStore function
@@ -306,7 +312,7 @@ The returned pointer is freed when passed as the <i>pPrevCrlContext</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

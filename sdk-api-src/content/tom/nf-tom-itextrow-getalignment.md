@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextRow.GetAlignment
+: 
 ---
 
 # ITextRow::GetAlignment
@@ -64,11 +72,11 @@ Type: <b>long*</b>
 
 The horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignLeft</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignLeft</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignCenter</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignCenter</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomAlignRight</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignRight</a>
 
 
 ## -returns

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_SetItemCount
+: 
 ---
 
 # ListView_SetItemCount macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761188(v=VS.85).aspx">LVM_SETITEMCOUNT</a> message explicitly. 
+Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/5e794c12-ddcb-44fc-b0d2-677352602503">LVM_SETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -76,9 +84,9 @@ The number of items for which the list-view control should allocate memory.
 
 
 
-If the list-view control was created without the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style, this macro causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added. 
+If the list-view control was created without the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style, this macro causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added. 
 
-If the list-view control was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style (a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">virtual list view</a>), the <a href="https://msdn.microsoft.com/en-us/library/Bb775095(v=VS.85).aspx">ListView_SetItemCountEx</a> macro should be used. 
+If the list-view control was created with the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style (a <a href="List_View_Controls_Overview.htm">virtual list view</a>), the <a href="https://msdn.microsoft.com/2d622109-102b-4288-a31d-43e2232f54b9">ListView_SetItemCountEx</a> macro should be used. 
 
 
 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10shader.h
+: 
+- ID3D10ShaderReflectionConstantBuffer.GetVariableByName
+: 
 ---
 
 # ID3D10ShaderReflectionConstantBuffer::GetVariableByName
@@ -69,9 +77,9 @@ Variable name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5b88bd75-831b-4daf-baca-d4a3c1fa5876">ID3D10ShaderReflectionVariable</a>*</b>
 
-A pointer to a shader-reflection variable interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a>).
+A pointer to a shader-reflection variable interface (see <a href="https://msdn.microsoft.com/5b88bd75-831b-4daf-baca-d4a3c1fa5876">ID3D10ShaderReflectionVariable Interface</a>).
 
 
 
@@ -81,7 +89,7 @@ A pointer to a shader-reflection variable interface (see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173836(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer Interface</a>
+<a href="https://msdn.microsoft.com/5418147a-6d9f-44fc-a9ce-f619fc389ee4">ID3D10ShaderReflectionConstantBuffer Interface</a>
  
 
  

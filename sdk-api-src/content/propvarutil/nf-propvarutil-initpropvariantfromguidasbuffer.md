@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitPropVariantFromGUIDAsBuffer
+: 
 ---
 
 # InitPropVariantFromGUIDAsBuffer function
@@ -123,7 +129,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
@@ -131,11 +137,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>
+<a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

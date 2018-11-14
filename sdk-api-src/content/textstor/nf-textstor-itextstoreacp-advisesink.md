@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- textstor.h
+: 
+- ITextStoreACP.AdviseSink
+: 
 ---
 
 # ITextStoreACP::AdviseSink
@@ -153,9 +161,13 @@ CMyTextEditor
 
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask)
 {
         HRESULT         hr;
@@ -172,7 +184,7 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
         // pointer is the same as a pointer to an existing sink. 
         // If the sink exists, update the existing sink with the  
         // dwMask parameters passed to this method.      
-        hr = QueryInterface(IID_IUnknown, (LPVOID*)&punkID);
+        hr = QueryInterface(IID_IUnknown, (LPVOID*)&amp;punkID);
 
         if(FAILED(hr))
         {
@@ -197,22 +209,22 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
 
         if(IsEqualIID(riid, IID_ITextStoreACPSink))
         {
-                punk->QueryInterface(IID_ITextStoreACPSink,
-                         (LPVOID*)&m_AdviseSink.pTextStoreACPSink);
+                punk-&gt;QueryInterface(IID_ITextStoreACPSink,
+                         (LPVOID*)&amp;m_AdviseSink.pTextStoreACPSink);
                 m_AdviseSink.punkID = punkID;
                 m_AdviseSink.dwMask = dwMask;
-                punkID->AddRef();
-                punkID->Release();
+                punkID-&gt;AddRef();
+                punkID-&gt;Release();
 
                 hr = S_OK;
         }
         return hr;
         
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

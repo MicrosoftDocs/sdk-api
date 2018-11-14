@@ -9,8 +9,8 @@ ms.assetid: 514e6745-c521-41bd-81c2-b6c24cfb0192
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WM_AETYPE, WM_AETYPE enumeration [windows Media Format], WM_AETYPE_EXCLUDE, WM_AETYPE_INCLUDE, wmformat.wm_aetype, wmsdkidl/WM_AETYPE, wmsdkidl/WM_AETYPE_EXCLUDE, wmsdkidl/WM_AETYPE_INCLUDE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

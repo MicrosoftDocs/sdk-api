@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IcmpSendEcho2Ex
+: 
 ---
 
 # IcmpSendEcho2Ex function

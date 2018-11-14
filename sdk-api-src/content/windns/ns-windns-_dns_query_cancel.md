@@ -9,8 +9,8 @@ ms.assetid: 543C6F9B-3200-44F6-A2B7-A5C7F5A927DB
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], _DNS_QUERY_CANCEL, dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

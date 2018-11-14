@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyEnumType2.GetImageReference
+: 
 ---
 
 # IPropertyEnumType2::GetImageReference

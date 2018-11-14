@@ -9,8 +9,8 @@ ms.assetid: 583caafe-7fa3-4041-b5bc-4e8899b3a08a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPMODULEINFO, LPMODULEINFO, LPMODULEINFO structure pointer [PSAPI], MODULEINFO, MODULEINFO structure [PSAPI], _MODULEINFO, _win32_moduleinfo_str, base.moduleinfo_str, psapi.moduleinfo_str, psapi/LPMODULEINFO, psapi/MODULEINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

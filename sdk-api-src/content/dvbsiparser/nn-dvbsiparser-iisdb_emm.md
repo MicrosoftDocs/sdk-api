@@ -9,8 +9,8 @@ ms.assetid: a1389e7c-a3f1-4782-b811-5e09615b3e47
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_EMM interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_EMM, mstv.iisdb_emm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

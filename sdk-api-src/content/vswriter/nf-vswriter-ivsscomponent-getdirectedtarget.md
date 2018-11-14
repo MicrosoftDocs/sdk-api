@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vswriter.h
+: 
+- IVssComponent.GetDirectedTarget
+: 
 ---
 
 # IVssComponent::GetDirectedTarget
@@ -186,7 +194,7 @@ The specified item was not found.
 
 
 
-If the call to <b>GetDirectedTarget</b> is successful, the caller is responsible for freeing each returned string by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetDirectedTarget</b> is successful, the caller is responsible for freeing each returned string by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 A requester will use the directed target information stored in the Backup Components Document only if the restore target is VSS_RT_DIRECTED.
 
@@ -195,7 +203,7 @@ The syntax of the range listing (<i>wszSourceRanges</i> and <i>wszDestinationRan
 Files whose directed targets are returned by 
 <b>GetDirectedTarget</b> may be members of the files of the current component or any subcomponent it defines.
 
-The caller should free the memory held by the <i>pbstrSourcePath</i>, <i>pbstrSourceFileName</i>, <i>pbstrSourceRangeList</i>, <i>pbstrDestinationPath</i>, <i>pbstrDestinationFilename</i>, and <i>pbstrDestinationRangeList</i> parameters by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrSourcePath</i>, <i>pbstrSourceFileName</i>, <i>pbstrSourceRangeList</i>, <i>pbstrDestinationPath</i>, <i>pbstrDestinationFilename</i>, and <i>pbstrDestinationRangeList</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 Partial files may be added as directed targets, if the partial file ranges to be backed up match the directed target source ranges (see 
 <a href="https://msdn.microsoft.com/318dc1ee-e63f-4e79-96b9-8a8bd83facd3">IVssComponent::AddPartialFile</a>). This will allow you to remap partial files.

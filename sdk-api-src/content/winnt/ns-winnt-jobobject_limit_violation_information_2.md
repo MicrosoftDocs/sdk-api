@@ -9,8 +9,8 @@ ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

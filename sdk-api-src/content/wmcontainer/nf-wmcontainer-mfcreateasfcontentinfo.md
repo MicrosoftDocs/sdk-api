@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateASFContentInfo
+: 
 ---
 
 # MFCreateASFContentInfo function
@@ -51,7 +57,7 @@ req.redist:
 
 
 
-Creates the <a href="https://msdn.microsoft.com/en-us/library/Ee663575(v=VS.85).aspx">ASF Header Object</a> object.
+Creates the <a href="asf_file_structure.htm">ASF Header Object</a> object.
 
 
 

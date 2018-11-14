@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12tools_enableshaderinstrumentation.htm
 tech.root: direct3d12
 ms.assetid: 35920253-1153-42AD-AEAC-2C646FF15879
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EnableShaderInstrumentation, EnableShaderInstrumentation method, EnableShaderInstrumentation method,ID3D12Tools interface, ID3D12Tools interface,EnableShaderInstrumentation method, ID3D12Tools.EnableShaderInstrumentation, ID3D12Tools::EnableShaderInstrumentation, d3d12/ID3D12Tools::EnableShaderInstrumentation, direct3d12.id3d12tools_enableshaderinstrumentation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12Tools.EnableShaderInstrumentation
+: 
 ---
 
 # ID3D12Tools::EnableShaderInstrumentation

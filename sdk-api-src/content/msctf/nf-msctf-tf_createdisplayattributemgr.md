@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- 
+: 
+- TF_CreateDisplayAttributeMgr
+: 
 ---
 
 # TF_CreateDisplayAttributeMgr function
@@ -52,7 +58,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 The <b>TF_CreateDisplayAttributeMgr</b> function is used to create a display attribute manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.
 
-It is instead recommended that display attribute manager objects be created using <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> , as demonstrated in <a href="https://msdn.microsoft.com/4a1f9a13-54a1-4294-9635-80eef8bcd8d5">ITfDisplayAttributeMgr</a>.
+It is instead recommended that display attribute manager objects be created using <a href="_com_cocreateinstance">CoCreateInstance</a> , as demonstrated in <a href="https://msdn.microsoft.com/4a1f9a13-54a1-4294-9635-80eef8bcd8d5">ITfDisplayAttributeMgr</a>.
 
 
 ## -parameters
@@ -97,7 +103,7 @@ Pointer to an <b>ITfDisplayAttributeMgr</b> interface pointer that receives the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

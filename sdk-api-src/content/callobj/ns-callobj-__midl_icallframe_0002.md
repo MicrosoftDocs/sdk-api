@@ -9,8 +9,8 @@ ms.assetid: 0f3a1e81-c8b6-4141-8712-c600b30a2779
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CALLFRAMEPARAMINFO, CALLFRAMEPARAMINFO structure [COM], __MIDL_ICallFrame_0002, callobj/CALLFRAMEPARAMINFO, com.callframeparaminfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 
@@ -84,7 +84,7 @@ Represents the size in bytes occupied by the parameter on the stack.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

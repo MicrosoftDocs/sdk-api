@@ -9,8 +9,8 @@ ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ITsSbResourcePluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePluginStore, termserv.itssbresourcepluginstore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

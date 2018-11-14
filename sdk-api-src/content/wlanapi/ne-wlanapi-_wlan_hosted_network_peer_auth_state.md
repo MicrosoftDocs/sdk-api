@@ -9,8 +9,8 @@ ms.assetid: 9953ad0c-eafc-49ad-b9a3-09fbfba805e5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_PEER_AUTH_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, WLAN_HOSTED_NETWORK_PEER_AUTH_STATE enumeration [NativeWIFI], _WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, nwifi.wlan_hosted_network_peer_auth_state, wlan_hosted_network_peer_state_authenticated, wlan_hosted_network_peer_state_invalid, wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE, wlanapi/WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, wlanapi/wlan_hosted_network_peer_state_authenticated, wlanapi/wlan_hosted_network_peer_state_invalid"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

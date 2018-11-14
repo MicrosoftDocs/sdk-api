@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITQueue.put_MeasurementPeriod
+: 
 ---
 
 # ITQueue::put_MeasurementPeriod

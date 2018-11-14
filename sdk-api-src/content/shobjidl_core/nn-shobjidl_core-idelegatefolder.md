@@ -9,8 +9,8 @@ ms.assetid: 16db01f3-4167-43f0-9ef7-34eec906e199
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDelegateFolder, IDelegateFolder interface [Windows Shell], IDelegateFolder interface [Windows Shell],described, shell.IDelegateFolder, shell_IDelegateFolder, shobjidl_core/IDelegateFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

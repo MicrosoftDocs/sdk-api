@@ -9,8 +9,8 @@ ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], IFsrmFileGroupManager interface [File Server Resource Manager],described, fs.ifsrmfilegroupmanager, fsrm.ifsrmfilegroupmanager, fsrmscreen/IFsrmFileGroupManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
@@ -57,7 +57,7 @@ req.redist:
 Used to manage file group objects.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileGroupManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileGroupManager)</code> as the interface identifier. For an 
     example, see 
@@ -66,7 +66,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileGroupManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmFileGroupManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileGroupManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmFileGroupManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

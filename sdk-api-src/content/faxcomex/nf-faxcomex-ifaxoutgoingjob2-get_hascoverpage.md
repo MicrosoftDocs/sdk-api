@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingJob2.get_HasCoverPage
+: 
 ---
 
 # IFaxOutgoingJob2::get_HasCoverPage

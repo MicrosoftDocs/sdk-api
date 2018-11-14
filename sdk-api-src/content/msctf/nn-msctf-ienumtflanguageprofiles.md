@@ -9,8 +9,8 @@ ms.assetid: 8ac41bff-8537-4558-a92c-6e7dae6a6bdf
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IEnumTfLanguageProfiles, IEnumTfLanguageProfiles interface [Text Services Framework], IEnumTfLanguageProfiles interface [Text Services Framework],described, _tsf_ienumtflanguageprofiles_ref, msctf/IEnumTfLanguageProfiles, tsf.ienumtflanguageprofiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

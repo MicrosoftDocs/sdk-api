@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll2.InstallPKCS7Blob
+: 
 ---
 
 # IEnroll2::InstallPKCS7Blob

@@ -9,8 +9,8 @@ ms.assetid: ae7e8db3-858d-4573-afe1-c9bc14d76480
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: BCRYPT_KEY_BLOB, BCRYPT_KEY_BLOB structure [Security], _BCRYPT_KEY_BLOB, bcrypt/BCRYPT_KEY_BLOB, security.bcrypt_key_blob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

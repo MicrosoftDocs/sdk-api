@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
+- apiref
+: 
+- 
+: 
+- MI_Session_Invoke
+: 
 ---
 
 # MI_Session_Invoke function
@@ -67,7 +73,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="https://msdn.microsoft.com/en-us/library/JJ653875(v=VS.85).aspx">flags</a>.
+      <a href="mi_flags.htm">flags</a>.
 
 
 ### -param options [in, optional]

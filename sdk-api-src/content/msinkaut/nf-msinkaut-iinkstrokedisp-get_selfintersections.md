@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkStrokeDisp.get_SelfIntersections
+: 
 ---
 
 # IInkStrokeDisp::get_SelfIntersections

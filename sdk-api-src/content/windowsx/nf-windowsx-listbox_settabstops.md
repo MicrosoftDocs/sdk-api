@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ListBox_SetTabStops
+: 
 ---
 
 # ListBox_SetTabStops macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761354(v=VS.85).aspx">LB_SETTABSTOPS</a> message explicitly.
+Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/b96b974e-b1e6-4361-98bb-4dc21c752690">LB_SETTABSTOPS</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +91,7 @@ A pointer to an array of integers containing the tab stops. The integers represe
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761354(v=VS.85).aspx">LB_SETTABSTOPS</a>.
+For more information, see <a href="https://msdn.microsoft.com/b96b974e-b1e6-4361-98bb-4dc21c752690">LB_SETTABSTOPS</a>.
 	
 
 

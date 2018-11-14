@@ -9,8 +9,8 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\e\faxinto_z_fax_account_ev
 ms.author: windowssdkdev
 ms.date: 11/08/2018
 ms.keywords: FAX_ACCOUNT_EVENTS_TYPE_ENUM, FAX_ACCOUNT_EVENTS_TYPE_ENUM enumeration [Fax Service], _mfax_fax_account_events_type_enum, faetFXSSVC_ENDED, faetIN_ARCHIVE, faetIN_QUEUE, faetNONE, faetOUT_ARCHIVE, faetOUT_QUEUE, fax._mfax_fax_account_events_type_enum, faxcomex/FAX_ACCOUNT_EVENTS_TYPE_ENUM, faxcomex/faetFXSSVC_ENDED, faxcomex/faetIN_ARCHIVE, faxcomex/faetIN_QUEUE, faxcomex/faetNONE, faxcomex/faetOUT_ARCHIVE, faxcomex/faetOUT_QUEUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
@@ -92,7 +92,7 @@ A notification is sent whenever the fax service stops executing.
 
 
 
-The following table lists the <a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a> methods called by each member of the enumeration:
+The following table lists the <a href="https://msdn.microsoft.com/10867869-66bb-4e17-a9b3-7e943fe5f510">IFaxAccountNotify</a> methods called by each member of the enumeration:
 
 
 <table class="clsStd">

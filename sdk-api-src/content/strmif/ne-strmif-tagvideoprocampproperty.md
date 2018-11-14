@@ -9,8 +9,8 @@ ms.assetid: 113e3896-4920-41a3-9ce2-a26c34af4896
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: VideoProcAmpProperty, VideoProcAmpProperty enumeration [DirectShow], VideoProcAmpPropertyEnumeration, VideoProcAmp_BacklightCompensation, VideoProcAmp_Brightness, VideoProcAmp_ColorEnable, VideoProcAmp_Contrast, VideoProcAmp_Gain, VideoProcAmp_Gamma, VideoProcAmp_Hue, VideoProcAmp_Saturation, VideoProcAmp_Sharpness, VideoProcAmp_WhiteBalance, dshow.videoprocampproperty, strmif/VideoProcAmpProperty, strmif/VideoProcAmp_BacklightCompensation, strmif/VideoProcAmp_Brightness, strmif/VideoProcAmp_ColorEnable, strmif/VideoProcAmp_Contrast, strmif/VideoProcAmp_Gain, strmif/VideoProcAmp_Gamma, strmif/VideoProcAmp_Hue, strmif/VideoProcAmp_Saturation, strmif/VideoProcAmp_Sharpness, strmif/VideoProcAmp_WhiteBalance, tagVideoProcAmpProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

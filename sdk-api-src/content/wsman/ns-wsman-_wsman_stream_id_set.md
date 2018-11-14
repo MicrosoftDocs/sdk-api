@@ -9,8 +9,8 @@ ms.assetid: a5705afa-e0b3-4a74-8c13-5abf3f53a209
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSMAN_STREAM_ID_SET, WSMAN_STREAM_ID_SET structure [Windows Remote Management], _WSMAN_STREAM_ID_SET, winrm.wsman_stream_id_set, wsman/WSMAN_STREAM_ID_SET
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

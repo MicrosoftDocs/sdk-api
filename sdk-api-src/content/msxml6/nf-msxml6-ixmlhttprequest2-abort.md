@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msxml6.h
+: 
+- IXMLHTTPRequest2.Abort
+: 
 ---
 
 # IXMLHTTPRequest2::Abort

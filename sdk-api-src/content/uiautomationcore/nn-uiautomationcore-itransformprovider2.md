@@ -9,8 +9,8 @@ ms.assetid: 763F30BC-782A-43ED-9DE4-97A237D7B9F8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

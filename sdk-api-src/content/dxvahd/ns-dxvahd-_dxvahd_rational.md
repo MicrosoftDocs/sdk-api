@@ -9,8 +9,8 @@ ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], _DXVAHD_RATIONAL, dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

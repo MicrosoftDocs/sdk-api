@@ -9,8 +9,8 @@ ms.assetid: 8ba35c4a-a644-4c6d-8334-d459e7196b6f
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PWCN_VENDOR_EXTENSION_SPEC, PWCN_VENDOR_EXTENSION_SPEC structure pointer [Windows Connect Now], WCN_FLAG_AUTHENTICATED_VE, WCN_FLAG_DISCOVERY_VE, WCN_FLAG_ENCRYPTED_VE, WCN_VENDOR_EXTENSION_SPEC, WCN_VENDOR_EXTENSION_SPEC structure [Windows Connect Now], tagWCN_VENDOR_EXTENSION_SPEC, wcn.wcn_vendor_extension_spec, wcndevice/PWCN_VENDOR_EXTENSION_SPEC, wcndevice/WCN_VENDOR_EXTENSION_SPEC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wcndevice.h
 req.include-header: 

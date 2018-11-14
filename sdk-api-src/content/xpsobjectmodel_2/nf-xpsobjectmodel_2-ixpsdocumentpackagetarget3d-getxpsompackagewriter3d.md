@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsobjectmodel_2.h
+: 
+- IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
+: 
 ---
 
 # IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D

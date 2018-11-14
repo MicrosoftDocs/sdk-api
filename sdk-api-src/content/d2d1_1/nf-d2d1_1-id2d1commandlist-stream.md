@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandlist_stream.htm
 tech.root: direct2d
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1CommandList interface [Direct2D],Stream method, ID2D1CommandList.Stream, ID2D1CommandList::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1CommandList interface, d2d1_1/ID2D1CommandList::Stream, direct2d.id2d1commandlist_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1CommandList.Stream
+: 
 ---
 
 # ID2D1CommandList::Stream
@@ -96,9 +104,13 @@ If the caller makes any design-time failure calls while a command list is select
 
 Sample use:
 
-
-```cpp
-Class MyCommandSink : public ID2D1CommandSink
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Class MyCommandSink : public ID2D1CommandSink
 {
 public:
     // All of the ID2D1CommandSink methods implemented here.
@@ -117,17 +129,17 @@ StreamToMyCommandSink(
     if (SUCCEEDED(hr))
     {
         // Receive the contents of the command sink streamed to the sink.
-        hr = pCommandList->Stream(pCommandSink);
+        hr = pCommandList-&gt;Stream(pCommandSink);
     }
 
-    SafeRelease(&pCommandSink);
+    SafeRelease(&amp;pCommandSink);
    
     return hr;
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

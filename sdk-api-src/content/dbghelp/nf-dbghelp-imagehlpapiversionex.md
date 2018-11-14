@@ -7,7 +7,7 @@ old-location: base\imagehlpapiversionex.htm
 tech.root: debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehlpapiversionex, base.imagehlpapiversionex, dbghelp/ImagehlpApiVersionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- ImagehlpApiVersionEx
+: 
 ---
 
 # ImagehlpApiVersionEx function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_GetTextBkColor
+: 
 ---
 
 # ListView_GetTextBkColor macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the text background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761077(v=VS.85).aspx">LVM_GETTEXTBKCOLOR</a> message explicitly. 
+Gets the text background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/3d2c8be8-d7f9-4aa7-b358-f7effc6dbb25">LVM_GETTEXTBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Gets the text background color of a list-view control. You can use this macro or
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

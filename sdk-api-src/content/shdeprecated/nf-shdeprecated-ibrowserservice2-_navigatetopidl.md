@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IBrowserService2._NavigateToPidl
+: 
 req.product: Internet Explorer 5.0
 ---
 
@@ -70,7 +78,7 @@ The PIDL identifying the new location.
 
 Type: <b>DWORD</b>
 
-The value or values from the <a href="https://msdn.microsoft.com/library/Aa740922(v=VS.85).aspx">HLNF</a> enumeration. The following values are also supported.
+The value or values from the <a href="_inet_HLNF_Enumerated_Type_cpp">HLNF</a> enumeration. The following values are also supported.
 
 
 

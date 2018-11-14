@@ -9,8 +9,8 @@ ms.assetid: 798d1392-a8dc-4063-b33d-159a507161f1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: UpdateServiceRegistrationState, UpdateServiceRegistrationState enumeration [Windows Update Agent], tagUpdateServiceRegistrationState, usrsNotRegistered, usrsRegistered, usrsRegistrationPending, wua.updateserviceregistrationstate, wuapi/UpdateServiceRegistrationState, wuapi/usrsNotRegistered, wuapi/usrsRegistered, wuapi/usrsRegistrationPending
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

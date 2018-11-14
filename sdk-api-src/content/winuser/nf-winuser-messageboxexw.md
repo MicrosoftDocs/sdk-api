@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MessageBoxExW
+: 
 ---
 
 # MessageBoxExW function
@@ -55,7 +61,7 @@ req.redist:
 Creates, displays, and operates a message box. The message box contains an application-defined message and title, plus any combination of predefined icons and push buttons. The buttons are in the language of the system user interface.
     
 
-Currently <b>MessageBoxEx</b> and <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> work the same way.
+Currently <b>MessageBoxEx</b> and <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a> work the same way.
 
 
 ## -parameters
@@ -88,7 +94,7 @@ The dialog box title. If this parameter is <b>NULL</b>, the default title <b>Err
 
 Type: <b>UINT</b>
 
-The contents and behavior of the dialog box. For information on the supported flags, see <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>.
+The contents and behavior of the dialog box. For information on the supported flags, see <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>.
 
 
 ### -param wLanguageId [in]
@@ -252,7 +258,7 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
@@ -264,11 +270,11 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645511(v=VS.85).aspx">MessageBoxIndirect</a>
+<a href="https://msdn.microsoft.com/3834bf46-0952-4e5c-bda4-6997576192d9">MessageBoxIndirect</a>
 
 
 
@@ -280,7 +286,7 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
  
 
  

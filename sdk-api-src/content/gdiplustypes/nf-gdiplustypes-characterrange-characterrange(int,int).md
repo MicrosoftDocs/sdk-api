@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- CharacterRange.CharacterRange
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -79,19 +87,19 @@ Integer that specifies the number of positions in this range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534426(v=VS.85).aspx">CharacterRange</a>
+<a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>
+<a href="https://msdn.microsoft.com/374b89d4-4f6f-4875-a34f-8a6e9ee379ab">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>
+<a href="https://msdn.microsoft.com/2176e638-5d83-46ae-ab4f-a3031d46bde2">MeasureCharacterRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>
+<a href="https://msdn.microsoft.com/5c49c64f-f705-4b33-974b-34ffb1e43ff5">SetMeasurableCharacterRanges</a>
  
 
  

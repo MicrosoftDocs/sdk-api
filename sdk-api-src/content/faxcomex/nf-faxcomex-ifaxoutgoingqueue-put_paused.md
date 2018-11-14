@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutgoingQueue.put_Paused
+: 
 ---
 
 # IFaxOutgoingQueue::put_Paused

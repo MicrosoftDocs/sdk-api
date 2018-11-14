@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyChangeArray.InsertAt
+: 
 ---
 
 # IPropertyChangeArray::InsertAt
@@ -67,7 +75,7 @@ The index at which the change is inserted.
 
 ### -param ppropChange [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>*</b>
+Type: <b><a href="shell.IPropertyChange">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change.
 

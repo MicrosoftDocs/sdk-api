@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteBitmapRenderTarget.GetMemoryDC
+: 
 ---
 
 # IDWriteBitmapRenderTarget::GetMemoryDC
@@ -82,13 +90,17 @@ Returns a device context handle to the memory device context.
 
 Note that this method takes no parameters and returns an HDC variable, not an HRESULT.
 
-
-```cpp
-memoryHdc = g_pBitmapRenderTarget->GetMemoryDC();
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>memoryHdc = g_pBitmapRenderTarget-&gt;GetMemoryDC();
+</pre>
+</td>
+</tr>
+</table></span></div>
 The HDC returned here is still owned by the bitmap render targer object and should not be released or deleted by the client.
 
 

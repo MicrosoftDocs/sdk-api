@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- INameSpaceTreeControl2.GetControlStyle2
+: 
 ---
 
 # INameSpaceTreeControl2::GetControlStyle2

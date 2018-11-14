@@ -9,8 +9,8 @@ ms.assetid: 0d8a9414-5c5c-40e0-a34c-430ead01ef26
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPPlayer3, IWMPPlayer3 interface [Windows Media Player], IWMPPlayer3 interface [Windows Media Player],described, IWMPPlayer3Interface, wmp.iwmpplayer3, wmp/IWMPPlayer3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

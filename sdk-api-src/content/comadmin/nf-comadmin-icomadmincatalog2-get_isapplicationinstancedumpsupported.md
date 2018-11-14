@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comadmin.h
+: 
+- ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
+: 
 ---
 
 # ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

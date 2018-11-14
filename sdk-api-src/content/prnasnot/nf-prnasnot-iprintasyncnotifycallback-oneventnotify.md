@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- prnasnot.h
+: 
+- IPrintAsyncNotifyCallback.OnEventNotify
+: 
 ---
 
 # IPrintAsyncNotifyCallback::OnEventNotify
@@ -95,7 +103,7 @@ The return values are COM error codes. Because this function might complete the 
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
@@ -151,7 +159,7 @@ To deliver a notification, the print spooler will call the <b>OnEventNotify</b> 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>
+<a href="_com_error_handling">Error Handling</a>
 
 
 

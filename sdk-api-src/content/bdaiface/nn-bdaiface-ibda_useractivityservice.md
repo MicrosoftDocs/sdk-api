@@ -9,8 +9,8 @@ ms.assetid: d2c8f14e-11d7-4385-a6c8-31b086ec1286
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Microsoft TV Technologies], IBDA_UserActivityService interface [Microsoft TV Technologies],described, bdaiface/IBDA_UserActivityService, mstv.ibda_useractivityservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +55,9 @@ Defines methods that detect user activity in a Protected Broadcast Driver Archit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_UserActivityService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_UserActivityService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_UserActivityService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_UserActivityService</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IBDA_UserActivityService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd797935(v=VS.85).aspx">GetUserActivityInterval</a>
+<a href="https://msdn.microsoft.com/2ea3504a-a479-4d26-8a6b-0e5bdddf6a21">GetUserActivityInterval</a>
 </td>
 <td align="left" width="63%">
 Gets or sets the timeout interval for a Media Sink Device (MSD) to inform a Media Transfer Device (MTD) about user activity.
@@ -80,7 +80,7 @@ Gets or sets the timeout interval for a Media Sink Device (MSD) to inform a Medi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd797938(v=VS.85).aspx">SetCurrentTunerUseReason</a>
+<a href="https://msdn.microsoft.com/248a0b01-02be-49b3-88ff-3b830d77e08d">SetCurrentTunerUseReason</a>
 </td>
 <td align="left" width="63%">
 Specifies the reason for user activity.
@@ -90,7 +90,7 @@ Specifies the reason for user activity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd797940(v=VS.85).aspx">UserActivityDetected</a>
+<a href="https://msdn.microsoft.com/24c5f6af-602d-4e96-9712-5444ffdd4fe6">UserActivityDetected</a>
 </td>
 <td align="left" width="63%">
 Tells an MTD that user activity has occured.

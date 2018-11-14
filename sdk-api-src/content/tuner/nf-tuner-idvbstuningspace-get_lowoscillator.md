@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDVBSTuningSpace.get_LowOscillator
+: 
 ---
 
 # IDVBSTuningSpace::get_LowOscillator

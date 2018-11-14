@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiGetSelectedDevice
+: 
 ---
 
 # SetupDiGetSelectedDevice function
@@ -60,7 +66,7 @@ The <b>SetupDiGetSelectedDevice</b> function retrieves the selected device infor
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to retrieve the selected device information element.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve the selected device information element.
 
 
 ### -param DeviceInfoData [out]

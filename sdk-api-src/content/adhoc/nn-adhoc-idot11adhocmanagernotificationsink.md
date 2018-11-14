@@ -9,8 +9,8 @@ ms.assetid: a79931ad-deeb-4e46-a051-80a57fe5935c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], IDot11AdHocManagerNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocManagerNotificationSink, nwifi.idot11adhocmanagernotificationsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IDot11AdHocManagerNotificationSink</b> interface defines the notifications supported by the <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> interface. To register for notifications, call the  <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">Advise</a> method on an instantiated <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> object with the <b>IDot11AdHocManagerNotificationSink</b> interface passed  as the <i>pUnk</i>  parameter.  To terminate notifications, call the <a href="https://msdn.microsoft.com/en-us/library/ms686608(v=VS.85).aspx">Unadvise</a> method.
+The <b>IDot11AdHocManagerNotificationSink</b> interface defines the notifications supported by the <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> interface. To register for notifications, call the  <a href="_com_IConnectionPoint_Advise">Advise</a> method on an instantiated <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> object with the <b>IDot11AdHocManagerNotificationSink</b> interface passed  as the <i>pUnk</i>  parameter.  To terminate notifications, call the <a href="_com_IConnectionPoint_Unadvise">Unadvise</a> method.
 <div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/A649EBBA-1076-4426-9C4D-85AB8C415C66">Wi-Fi Direct</a> instead.</div><div> </div>
 
 ## -inheritance

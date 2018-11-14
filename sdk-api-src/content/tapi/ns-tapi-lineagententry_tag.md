@@ -9,8 +9,8 @@ ms.assetid: 89feff58-3396-4999-be24-4d14839378e1
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPLINEAGENTENTRY, LINEAGENTENTRY, LINEAGENTENTRY structure [TAPI 2.2], LPLINEAGENTENTRY, LPLINEAGENTENTRY structure pointer [TAPI 2.2], _tapi2_lineagententry_str, lineagententry_tag, tapi/LINEAGENTENTRY, tapi/LPLINEAGENTENTRY, tapi2.lineagententry_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

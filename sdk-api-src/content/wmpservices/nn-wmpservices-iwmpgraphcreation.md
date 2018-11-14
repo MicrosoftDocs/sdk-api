@@ -9,8 +9,8 @@ ms.assetid: 80d6f1f0-10c9-4e60-9bb7-556e340730a8
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player],described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

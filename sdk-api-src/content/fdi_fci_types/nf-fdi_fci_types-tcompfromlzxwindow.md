@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- fdi_fci_types.h
+: 
+- TCOMPfromLZXWindow
+: 
 ---
 
 # TCOMPfromLZXWindow macro

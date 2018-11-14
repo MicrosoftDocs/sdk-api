@@ -9,8 +9,8 @@ ms.assetid: 489015a1-5a3c-4994-aa1f-bc02dfff149d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRIGGER_IDLE, TASK_TRIGGER_LOGON, TASK_TRIGGER_MONTHLY, TASK_TRIGGER_MONTHLYDOW, TASK_TRIGGER_REGISTRATION, TASK_TRIGGER_SESSION_STATE_CHANGE, TASK_TRIGGER_TIME, TASK_TRIGGER_TYPE2, TASK_TRIGGER_TYPE2 enumeration [Task Scheduler], TASK_TRIGGER_WEEKLY, _TASK_TRIGGER_TYPE2, taskschd.triggertype, taskschd/TASK_TRIGGER_BOOT, taskschd/TASK_TRIGGER_DAILY, taskschd/TASK_TRIGGER_EVENT, taskschd/TASK_TRIGGER_IDLE, taskschd/TASK_TRIGGER_LOGON, taskschd/TASK_TRIGGER_MONTHLY, taskschd/TASK_TRIGGER_MONTHLYDOW, taskschd/TASK_TRIGGER_REGISTRATION, taskschd/TASK_TRIGGER_SESSION_STATE_CHANGE, taskschd/TASK_TRIGGER_TIME, taskschd/TASK_TRIGGER_TYPE2, taskschd/TASK_TRIGGER_WEEKLY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

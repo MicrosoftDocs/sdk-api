@@ -7,7 +7,7 @@ old-location: base\symenumlines.htm
 tech.root: debug
 ms.assetid: d518b320-e4db-4bd1-8221-583eb84c292c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlines, dbghelp/SymEnumLines, dbghelp/SymEnumLinesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later
+- apiref
+: 
+- 
+: 
+- SymEnumLines
+: 
 ---
 
 # SymEnumLines function

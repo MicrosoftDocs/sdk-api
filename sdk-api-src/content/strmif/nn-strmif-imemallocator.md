@@ -9,8 +9,8 @@ ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- UrlCanonicalizeW
+: 
 ---
 
 # UrlCanonicalizeW function
@@ -213,7 +219,7 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
  
 
  

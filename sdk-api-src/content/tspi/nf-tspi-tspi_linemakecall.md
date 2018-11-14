@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_lineMakeCall
+: 
 ---
 
 # TSPI_lineMakeCall function

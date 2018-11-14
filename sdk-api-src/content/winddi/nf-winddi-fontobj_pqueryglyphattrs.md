@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FONTOBJ_pQueryGlyphAttrs
+: 
 ---
 
 # FONTOBJ_pQueryGlyphAttrs function

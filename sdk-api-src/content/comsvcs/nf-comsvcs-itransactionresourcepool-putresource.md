@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ITransactionResourcePool.PutResource
+: 
 ---
 
 # ITransactionResourcePool::PutResource
@@ -86,7 +94,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686102(v=VS.85).aspx">ITransactionResourcePool</a>
+<a href="https://msdn.microsoft.com/bf7ca849-6025-4358-bf2d-629d80e06a04">ITransactionResourcePool</a>
  
 
  

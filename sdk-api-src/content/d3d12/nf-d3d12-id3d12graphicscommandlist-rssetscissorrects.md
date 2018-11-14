@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_rssetscissorrects.htm
 tech.root: direct3d12
 ms.assetid: 5A636CCB-34EB-4642-B588-4107D79F46F5
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetScissorRects method, ID3D12GraphicsCommandList.RSSetScissorRects, ID3D12GraphicsCommandList::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method, RSSetScissorRects method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetScissorRects, direct3d12.id3d12graphicscommandlist_rssetscissorrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12GraphicsCommandList.RSSetScissorRects
+: 
 ---
 
 # ID3D12GraphicsCommandList::RSSetScissorRects
@@ -95,72 +103,80 @@ All scissor rectangles must be set atomically as one operation. Any scissor rect
 Which scissor rectangle to use is determined by the <code>SV_ViewportArrayIndex</code> semantic output by a geometry shader (see shader semantic syntax). If a geometry shader does not make use of the <code>SV_ViewportArrayIndex</code> semantic then Direct3D will use the first scissor rectangle in the array.
         
 
-Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/en-us/library/Dn903900(v=VS.85).aspx">RSSetViewports</a>).
+Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/1ACFD260-1CE5-484C-83DD-021E8D895EBB">RSSetViewports</a>).
         
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
         
 
-
-```cpp
-D3D12_VIEWPORT m_viewport;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
-ComPtr<IDXGISwapChain3> m_swapChain;
-ComPtr<ID3D12Device> m_device;
-ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
-ComPtr<ID3D12CommandAllocator> m_commandAllocator;
-ComPtr<ID3D12CommandQueue> m_commandQueue;
-ComPtr<ID3D12RootSignature> m_rootSignature;
-ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
-ComPtr<ID3D12PipelineState> m_pipelineState;
-ComPtr<ID3D12GraphicsCommandList> m_commandList;
+ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
+ComPtr&lt;ID3D12Device&gt; m_device;
+ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
+ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
+ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
+ComPtr&lt;ID3D12RootSignature&gt; m_rootSignature;
+ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
+ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState;
+ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
 UINT m_rtvDescriptorSize;
-
-```
-
-
-
-```cpp
-// Command list allocators can only be reset when the associated 
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Command list allocators can only be reset when the associated 
 // command lists have finished execution on the GPU; apps should use 
 // fences to determine GPU execution progress.
-ThrowIfFailed(m_commandAllocator->Reset());
+ThrowIfFailed(m_commandAllocator-&gt;Reset());
 
 // However, when ExecuteCommandList() is called on a particular command 
 // list, that command list can then be reset at any time and must be before 
 // re-recording.
-ThrowIfFailed(m_commandList->Reset(m_commandAllocator.Get(), m_pipelineState.Get()));
+ThrowIfFailed(m_commandList-&gt;Reset(m_commandAllocator.Get(), m_pipelineState.Get()));
 
 // Set necessary state.
-m_commandList->SetGraphicsRootSignature(m_rootSignature.Get());
-m_commandList->RSSetViewports(1, &m_viewport);
-m_commandList->RSSetScissorRects(1, &m_scissorRect);
+m_commandList-&gt;SetGraphicsRootSignature(m_rootSignature.Get());
+m_commandList-&gt;RSSetViewports(1, &amp;m_viewport);
+m_commandList-&gt;RSSetScissorRects(1, &amp;m_scissorRect);
 
 // Indicate that the back buffer will be used as a render target.
-m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
 
-CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, nullptr);
+CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
+m_commandList-&gt;OMSetRenderTargets(1, &amp;rtvHandle, FALSE, nullptr);
 
 // Record commands.
 const float clearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
-m_commandList->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
-m_commandList->IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
-m_commandList->IASetVertexBuffers(0, 1, &m_vertexBufferView);
-m_commandList->DrawInstanced(3, 1, 0, 0);
+m_commandList-&gt;ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
+m_commandList-&gt;IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
+m_commandList-&gt;IASetVertexBuffers(0, 1, &amp;m_vertexBufferView);
+m_commandList-&gt;DrawInstanced(3, 1, 0, 0);
 
 // Indicate that the back buffer will now be used to present.
-m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
+m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
-ThrowIfFailed(m_commandList->Close());
-
-```
-
-
-See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+ThrowIfFailed(m_commandList-&gt;Close());
+</pre>
+</td>
+</tr>
+</table></span></div>
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -172,7 +188,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

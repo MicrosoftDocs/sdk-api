@@ -7,10 +7,10 @@ old-location: direct2d\id2d1sourcetransform.htm
 tech.root: direct2d
 ms.assetid: A2B3E8E1-8F7F-4AFA-B1CE-5E8A5FCD9B70
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1SourceTransform, ID2D1SourceTransform interface [Direct2D], ID2D1SourceTransform interface [Direct2D],described, d2d1effectauthor/ID2D1SourceTransform, direct2d.id2d1sourcetransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

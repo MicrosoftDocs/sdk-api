@@ -9,8 +9,8 @@ ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

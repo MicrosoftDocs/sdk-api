@@ -7,10 +7,10 @@ old-location: multimedia\compvars.htm
 tech.root: Multimedia
 ms.assetid: b34378cb-ccf0-4d97-a952-1966999e3f65
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*PCOMPVARS, COMPVARS, COMPVARS structure [Windows Multimedia], ICMF_COMPVARS_VALID, _win32_COMPVARS_str, multimedia.compvars, vfw/COMPVARS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

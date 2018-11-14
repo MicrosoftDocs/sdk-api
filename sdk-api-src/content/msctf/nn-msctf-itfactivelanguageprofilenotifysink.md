@@ -9,8 +9,8 @@ ms.assetid: c70141e8-c948-44f4-914e-454327aadf2b
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], ITfActiveLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itfactivelanguageprofilenotifysink_ref, msctf/ITfActiveLanguageProfileNotifySink, tsf.itfactivelanguageprofilenotifysink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -102,7 +102,7 @@ Called when the active language or text service changes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

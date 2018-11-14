@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont2.GetEffects
+: 
 ---
 
 # ITextFont2::GetEffects
@@ -211,7 +219,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
+If the  <a href="tomconstants.htm">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
 
 
 

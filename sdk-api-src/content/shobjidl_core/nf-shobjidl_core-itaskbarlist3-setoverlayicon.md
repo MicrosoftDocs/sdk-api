@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- ITaskbarList3.SetOverlayIcon
+: 
 ---
 
 # ITaskbarList3::SetOverlayIcon
@@ -110,7 +118,7 @@ In versions of Windows earlier than Windows 7, applications often used icons in
 
 The following illustration shows an overlay (the small, green square that indicates the user status as "Available") applied to the far-right taskbar button.
 
-<img alt="Screen shot of the Windows Messenger taskbar button with an overlay to indicate an Available status" src="./images/TaskbarOverlay.png"/>
+<img alt="Screen shot of the Windows Messenger taskbar button with an overlay to indicate an Available status" src="images/Taskbar/TaskbarOverlay.png"/>
 Icon overlays serve as a contextual notification of status, and are intended to negate the need for a separate notification area status icon to communicate that information to the user. The application designer must decide during the development cycle which method—icon overlay or notification area status icon—best serves that application. Overlay icons are intended to supply important, long-standing status or notifications such as network status, messenger status, or new mail. They should not be frequently changed, nor should they be animated.
 
 To display an overlay icon, the taskbar must be in the default large icon mode. If the taskbar is configured through <b>Taskbar and Start Menu Properties</b> to show small icons, overlays cannot be applied and calls to this method are ignored.

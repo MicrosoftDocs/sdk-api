@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiInstallClassW
+: 
 ---
 
 # SetupDiInstallClassW function
@@ -66,7 +72,7 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in]
 
-A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 section</a>.
+A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="devinst.inf_classinstall32_section">INF ClassInstall32 section</a>.
 
 
 ### -param Flags [in]

@@ -7,7 +7,7 @@ old-location: base\symgetsymprev64.htm
 tech.root: debug
 ms.assetid: dbb1353b-5cc1-4986-a2b5-f67be7189ea8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetSymPrev, SymGetSymPrev function, SymGetSymPrev64, SymGetSymPrev64 function, _win32_symgetsymprev64, base.symgetsymprev64, dbghelp/SymGetSymPrev, dbghelp/SymGetSymPrev64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymGetSymPrev64
+: 
 ---
 
 # SymGetSymPrev64 function

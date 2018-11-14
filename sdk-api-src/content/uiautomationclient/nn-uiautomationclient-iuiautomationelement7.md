@@ -9,8 +9,8 @@ ms.assetid: 62B3D170-C3B3-48B8-92F8-3DF02F5D4082
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], IUIAutomationElement7 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement7, winauto.uiauto_IUIAutomationElement7
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

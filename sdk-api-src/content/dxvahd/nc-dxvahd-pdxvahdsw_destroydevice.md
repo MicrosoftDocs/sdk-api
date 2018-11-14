@@ -9,8 +9,8 @@ ms.assetid: 1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice callback, PDXVAHDSW_DestroyDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyDevice, mf.pdxvahdsw_destroydevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

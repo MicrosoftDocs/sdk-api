@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- callobj.h
+: 
+- ICallFrameWalker.OnWalkInterface
+: 
 ---
 
 # ICallFrameWalker::OnWalkInterface
@@ -122,7 +130,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679746(v=VS.85).aspx">ICallFrameWalker</a>
+<a href="https://msdn.microsoft.com/1eeb00a3-d3c5-46f0-95a8-f694f802894b">ICallFrameWalker</a>
  
 
  

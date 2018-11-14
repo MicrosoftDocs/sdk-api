@@ -9,8 +9,8 @@ ms.assetid: 81384e65-5ea0-420a-b92f-e93d5e545252
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: WbemTextFlagEnum, WbemTextFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemtextflagenum, wbemTextFlagNoFlavors, wbemdisp/WbemTextFlagEnum, wbemdisp/wbemTextFlagNoFlavors, wmi.wbemtextflagenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

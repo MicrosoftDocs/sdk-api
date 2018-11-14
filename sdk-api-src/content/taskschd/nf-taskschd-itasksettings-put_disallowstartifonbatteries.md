@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskSettings.put_DisallowStartIfOnBatteries
+: 
 ---
 
 # ITaskSettings::put_DisallowStartIfOnBatteries

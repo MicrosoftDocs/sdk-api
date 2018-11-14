@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ISelectionProvider2.get_ItemCount
+: 
 ---
 
 # ISelectionProvider2::get_ItemCount

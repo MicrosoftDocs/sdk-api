@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- spellcheck.h
+: 
+- ISpellingError.get_Replacement
+: 
 ---
 
 # ISpellingError::get_Replacement

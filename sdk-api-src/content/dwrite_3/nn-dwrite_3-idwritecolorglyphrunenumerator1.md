@@ -9,8 +9,8 @@ ms.assetid: 692CB5FF-3E74-4D3E-B961-E4AF5995A1B2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator1, IDWriteColorGlyphRunEnumerator1 interface [Direct Write], IDWriteColorGlyphRunEnumerator1 interface [Direct Write],described, directwrite.idwritecolorglyphrunenumerator1, dwrite_3/IDWriteColorGlyphRunEnumerator1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 

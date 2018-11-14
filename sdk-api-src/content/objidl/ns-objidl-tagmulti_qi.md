@@ -9,8 +9,8 @@ ms.assetid: 845040c9-fad4-4ac8-856d-d35edbf48ec9
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h

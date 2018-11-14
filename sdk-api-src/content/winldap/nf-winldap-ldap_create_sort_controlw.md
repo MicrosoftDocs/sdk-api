@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_create_sort_controlW
+: 
 ---
 
 # ldap_create_sort_controlW function

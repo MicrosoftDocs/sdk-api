@@ -9,8 +9,8 @@ ms.assetid: B8EE991B-6DBF-42DE-966F-FA5CB397562C
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DIRECTMANIPULATION_GESTURE_CONFIGURATION, DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, DIRECTMANIPULATION_GESTURE_DEFAULT, DIRECTMANIPULATION_GESTURE_NONE, DIRECTMANIPULATION_GESTURE_PINCH_ZOOM, directmanipulation.directmanipulation_gesture_configuration, directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, directmanipulation/DIRECTMANIPULATION_GESTURE_DEFAULT, directmanipulation/DIRECTMANIPULATION_GESTURE_NONE, directmanipulation/DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

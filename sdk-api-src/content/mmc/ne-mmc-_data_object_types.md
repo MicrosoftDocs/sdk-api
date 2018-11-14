@@ -9,8 +9,8 @@ ms.assetid: 6f1cb622-b066-4208-9e25-cdd7e9c4dcd2
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: CCT_RESULT, CCT_SCOPE, CCT_SNAPIN_MANAGER, CCT_UNINITIALIZED, DATA_OBJECT_TYPES, DATA_OBJECT_TYPES enumeration [MMC], _DATA_OBJECT_TYPES, _slate_data_object_types, mmc.data_object_types, mmc/CCT_RESULT, mmc/CCT_SCOPE, mmc/CCT_SNAPIN_MANAGER, mmc/CCT_UNINITIALIZED, mmc/DATA_OBJECT_TYPES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 

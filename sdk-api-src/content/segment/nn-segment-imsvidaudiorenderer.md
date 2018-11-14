@@ -9,8 +9,8 @@ ms.assetid: f822b5a6-c88e-48c9-91f4-611a3f147fe0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], IMSVidAudioRenderer interface [Microsoft TV Technologies],described, IMSVidAudioRendererInterface, mstv.imsvidaudiorenderer, segment/IMSVidAudioRenderer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

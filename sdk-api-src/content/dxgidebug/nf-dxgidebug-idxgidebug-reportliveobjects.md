@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug_reportliveobjects.htm
 tech.root: direct3ddxgi
 ms.assetid: 6CA5C335-08E3-4CC6-A9C9-D7BC6B11C0EA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIDebug interface [DXGI],ReportLiveObjects method, IDXGIDebug.ReportLiveObjects, IDXGIDebug::ReportLiveObjects, ReportLiveObjects, ReportLiveObjects method [DXGI], ReportLiveObjects method [DXGI],IDXGIDebug interface, direct3ddxgi.idxgidebug_reportliveobjects, dxgidebug/IDXGIDebug::ReportLiveObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgidebug.h
+: 
+- IDXGIDebug.ReportLiveObjects
+: 
 ---
 
 # IDXGIDebug::ReportLiveObjects
@@ -72,7 +80,7 @@ A <a href="https://msdn.microsoft.com/8A4B4139-42FC-4983-9699-ABCDBF5783E7">DXGI
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwRule2.put_EdgeTraversalOptions
+: 
 ---
 
 # INetFwRule2::put_EdgeTraversalOptions

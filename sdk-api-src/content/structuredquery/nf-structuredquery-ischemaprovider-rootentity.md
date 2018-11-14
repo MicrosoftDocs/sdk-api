@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- ISchemaProvider.RootEntity
+: 
 ---
 
 # ISchemaProvider::RootEntity
@@ -61,9 +69,9 @@ Retrieves the root entity of the loaded schema.
 
 ### -param pRootEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-Receives a pointer to the root entity. The calling application must release it by invoking its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives a pointer to the root entity. The calling application must release it by invoking its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
         
 
 

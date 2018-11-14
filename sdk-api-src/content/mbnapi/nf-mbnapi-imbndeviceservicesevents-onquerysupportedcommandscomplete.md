@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
+: 
 ---
 
 # IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
@@ -60,7 +68,7 @@ Notification method indicating that a query for the messages supported on a devi
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the query was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the query was requested.
 
 
 ### -param commandIDList [in]

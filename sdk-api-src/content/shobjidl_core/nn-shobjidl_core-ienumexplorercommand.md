@@ -9,8 +9,8 @@ ms.assetid: c9a21e84-dd95-413a-b9db-e02008185bef
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IEnumExplorerCommand, IEnumExplorerCommand interface [Windows Shell], IEnumExplorerCommand interface [Windows Shell],described, _shell_IEnumExplorerCommand, shell.IEnumExplorerCommand, shobjidl_core/IEnumExplorerCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_get_values_lenW
+: 
 ---
 
 # ldap_get_values_lenW function

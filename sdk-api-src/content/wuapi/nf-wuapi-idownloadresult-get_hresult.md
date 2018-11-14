@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IDownloadResult.get_HResult
+: 
 ---
 
 # IDownloadResult::get_HResult

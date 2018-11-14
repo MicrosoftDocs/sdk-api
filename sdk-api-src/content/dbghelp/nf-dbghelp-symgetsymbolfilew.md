@@ -7,7 +7,7 @@ old-location: base\symgetsymbolfile.htm
 tech.root: debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
+- apiref
+: 
+- 
+: 
+- SymGetSymbolFileW
+: 
 ---
 
 # SymGetSymbolFileW function

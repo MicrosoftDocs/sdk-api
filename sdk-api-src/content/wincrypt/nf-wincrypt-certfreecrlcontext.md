@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertFreeCRLContext
+: 
 ---
 
 # CertFreeCRLContext function
@@ -88,7 +94,7 @@ The function always returns <b>TRUE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

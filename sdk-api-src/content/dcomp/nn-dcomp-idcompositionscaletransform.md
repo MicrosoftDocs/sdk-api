@@ -9,8 +9,8 @@ ms.assetid: 8e59c484-b7c5-446a-a5d6-e00371e2c08a
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionScaleTransform, IDCompositionScaleTransform interface [DirectComposition], IDCompositionScaleTransform interface [DirectComposition],described, dcomp/IDCompositionScaleTransform, directcomp.idcompositionscaletransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -109,7 +109,7 @@ The <b>IDCompositionScaleTransform</b> interface has these methods.
 
 A scale transform represents the following 3-by-3 matrix:
 
-<img alt="Three-by-three scale matrix" src="./images/scale_transform_3x3matrix.png"/>
+<img alt="Three-by-three scale matrix" src="images/scale_transform_3x3matrix.png"/>
 
 The effect is to scale the coordinate system up or down and apply the corresponding translation such that the center point does not move.
 

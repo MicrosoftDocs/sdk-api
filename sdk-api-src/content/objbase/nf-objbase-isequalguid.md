@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- objbase.h
+: 
+- IsEqualGUID
+: 
 ---
 
 # IsEqualGUID macro

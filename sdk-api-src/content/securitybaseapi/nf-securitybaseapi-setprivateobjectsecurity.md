@@ -4,10 +4,10 @@ title: SetPrivateObjectSecurity function
 author: windows-sdk-content
 description: Modifies a private object's security descriptor.
 old-location: security\setprivateobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 726994c8-7813-4f1a-b7d7-a25e79202c33
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: SetPrivateObjectSecurity, SetPrivateObjectSecurity function [Security], _win32_setprivateobjectsecurity, security.setprivateobjectsecurity, securitybaseapi/SetPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetPrivateObjectSecurity
+: 
 ---
 
 # SetPrivateObjectSecurity function
@@ -135,7 +141,7 @@ The process calling this function should not be impersonating a client because c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

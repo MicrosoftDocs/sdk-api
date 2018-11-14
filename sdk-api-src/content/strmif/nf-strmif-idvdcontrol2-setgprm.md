@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IDvdControl2.SetGPRM
+: 
 ---
 
 # IDvdControl2::SetGPRM

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITMediaSupport.get_MediaTypes
+: 
 ---
 
 # ITMediaSupport::get_MediaTypes

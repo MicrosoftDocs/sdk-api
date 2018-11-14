@@ -9,8 +9,8 @@ ms.assetid: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae, DXVA2_Frequency, DXVA2_Frequency structure [Media Foundation], _DXVA2_Frequency, dxva2api/DXVA2_Frequency, mf.dxva2_frequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

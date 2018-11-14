@@ -9,8 +9,8 @@ ms.assetid: 5d89d192-7e60-4b5a-ba87-d5b30971a8a6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_INIT_PARAMS, WDS_TRANSPORTPROVIDER_INIT_PARAMS structure [Windows Deployment Services], _WDS_TRANSPORTPROVIDER_INIT_PARAMS, wds.wds_transportprovider_init_params, wdstpdi/PWDS_TRANSPORTPROVIDER_INIT_PARAMS, wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wdstpdi.h
 req.include-header: 

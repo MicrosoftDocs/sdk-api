@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextServices.OnTxUIDeactivate
+: 
 ---
 
 # ITextServices::OnTxUIDeactivate
@@ -75,7 +83,7 @@ The method always returns <b>S_OK</b>.
 
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">ITextServices::OnTxInPlaceActivate</a> for a detailed description of deactivation.
+See <a href="https://msdn.microsoft.com/80e003fd-802a-49dd-9616-b4cc7b77fd09">ITextServices::OnTxInPlaceActivate</a> for a detailed description of deactivation.
 
 
 
@@ -89,11 +97,11 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">IT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">OnTxInPlaceActivate</a>
+<a href="https://msdn.microsoft.com/80e003fd-802a-49dd-9616-b4cc7b77fd09">OnTxInPlaceActivate</a>
 
 
 
@@ -101,7 +109,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">IT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

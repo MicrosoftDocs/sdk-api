@@ -9,8 +9,8 @@ ms.assetid: 2997d63f-8d33-44c3-9617-cfffe5f61f7d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_GLYPH_RUN, DWRITE_GLYPH_RUN structure [Direct Write], directwrite.dwrite_glyph_run, dwrite/DWRITE_GLYPH_RUN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

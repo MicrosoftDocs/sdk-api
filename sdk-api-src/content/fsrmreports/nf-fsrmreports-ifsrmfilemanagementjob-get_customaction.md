@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmFileManagementJob.get_CustomAction
+: 
 ---
 
 # IFsrmFileManagementJob::get_CustomAction

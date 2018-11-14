@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress2.get_PreferredPhones
+: 
 ---
 
 # ITAddress2::get_PreferredPhones

@@ -9,8 +9,8 @@ ms.assetid: 20909420-5f90-4334-b21a-82d6cdc6d019
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMPFolderScanState, WMPFolderScanState enumeration [Windows Media Player], wmp.wmpfolderscanstate, wmp/WMPFolderScanState, wmp/wmpfssScanning, wmp/wmpfssStopped, wmp/wmpfssUnknown, wmp/wmpfssUpdating, wmpfssScanning, wmpfssStopped, wmpfssUnknown, wmpfssUpdating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 

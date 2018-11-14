@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgent.get_User
+: 
 ---
 
 # ITAgent::get_User
@@ -119,7 +127,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must free the memory allocated for the <i>ppUser</i> parameter through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the variable is no longer needed.
 
 
 

@@ -52,6 +52,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetParent
+: 
 ---
 
 # SetParent function
@@ -80,7 +86,7 @@ A handle to the child window.
 Type: <b>HWND</b>
 
 A handle to the new parent window. If this parameter is <b>NULL</b>, the desktop window becomes the new parent window. 
-					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">message-only window</a>. 
+					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="window_features.htm">message-only window</a>. 
 
 
 ## -returns
@@ -107,7 +113,7 @@ If the window identified by the <i>hWndChild</i> parameter is visible, the syste
 
 For compatibility reasons, <b>SetParent</b> does not modify the <b>WS_CHILD</b> or <b>WS_POPUP</b> window styles of the window whose parent is being changed. Therefore, if <i>hWndNewParent</i> is <b>NULL</b>, you should also clear the <b>WS_CHILD</b> bit and set the <b>WS_POPUP</b> style after calling <b>SetParent</b>. Conversely, if <i>hWndNewParent</i> is not <b>NULL</b> and the window was previously a child of the desktop, you should clear the <b>WS_POPUP</b> style and set the <b>WS_CHILD</b> style before calling <b>SetParent</b>. 
 
- When you change the parent of a window, you should synchronize the UISTATE of both windows. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms646342(v=VS.85).aspx">WM_CHANGEUISTATE</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646361(v=VS.85).aspx">WM_UPDATEUISTATE</a>. 
+ When you change the parent of a window, you should synchronize the UISTATE of both windows. For more information, see <a href="https://msdn.microsoft.com/d8dfc2fe-c64f-4e7e-b021-127aa85d5dd6">WM_CHANGEUISTATE</a> and <a href="https://msdn.microsoft.com/cbdeeddd-59b2-4a73-bfe9-17647d32bcf3">WM_UPDATEUISTATE</a>. 
 
 Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild</i> are running in different DPI awareness modes. The table below outlines this behavior:
 
@@ -153,7 +159,7 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://msdn.microsoft.com/9e1991dd-e451-4f2a-ac9f-069acb8e89c2">GetParent</a>
 
 
 
@@ -161,7 +167,7 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

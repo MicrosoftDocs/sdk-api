@@ -9,8 +9,8 @@ ms.assetid: B19413F9-1DE9-4940-B0A1-11E5278F084B
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMeter, IAudioEndpointOffloadStreamMeter interface [Core Audio], IAudioEndpointOffloadStreamMeter interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMeter, coreaudio.iaudioendpointoffloadstreammeter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorbeginsession.htm
 tech.root: eaphost
 ms.assetid: 02364783-71e4-4af0-95a2-a4ade7e17521
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapMethodAuthenticatorBeginSession, EapMethodAuthenticatorBeginSession function [EAPHost], eaphost.eapmethodauthenticatorbeginsession, eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapMethodAuthenticatorBeginSession
+: 
 ---
 
 # EapMethodAuthenticatorBeginSession function

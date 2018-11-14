@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxIncomingArchive.put_SizeQuotaWarning
+: 
 ---
 
 # IFaxIncomingArchive::put_SizeQuotaWarning

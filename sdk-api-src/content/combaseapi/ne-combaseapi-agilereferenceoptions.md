@@ -9,8 +9,8 @@ ms.assetid: F46FD597-F278-4DA8-BC94-26836684AD7E
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AGILEREFERENCE_DEFAULT, AGILEREFERENCE_DELAYEDMARSHAL, AgileReferenceOptions, AgileReferenceOptions enumeration [Windows Runtime], combaseapi/AGILEREFERENCE_DEFAULT, combaseapi/AGILEREFERENCE_DELAYEDMARSHAL, combaseapi/AgileReferenceOptions, winrt.agilereferenceoptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies options for the <a href="https://msdn.microsoft.com/en-us/library/Dn269839(v=VS.85).aspx">RoGetAgileReference</a> function.
+Specifies options for the <a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B9679006">RoGetAgileReference</a> function.
 
 
 ## -enum-fields
@@ -73,7 +73,7 @@ Marshaling happens on demand.  Use this option only in situations where it's kno
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn269839(v=VS.85).aspx">RoGetAgileReference</a>
+<a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B9679006">RoGetAgileReference</a>
  
 
  

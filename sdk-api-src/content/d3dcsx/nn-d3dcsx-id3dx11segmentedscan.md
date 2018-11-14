@@ -9,8 +9,8 @@ ms.assetid: 58d8d3ea-25d6-4767-9693-fbc97ae3e8b8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3DX11SegmentedScan, ID3DX11SegmentedScan interface [Direct3D 11], ID3DX11SegmentedScan interface [Direct3D 11],described, c6827b47-df7b-c393-42aa-d39fb87fcf6d, d3dcsx/ID3DX11SegmentedScan, direct3d11.id3dx11segmentedscan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3dcsx.h
 req.include-header: 

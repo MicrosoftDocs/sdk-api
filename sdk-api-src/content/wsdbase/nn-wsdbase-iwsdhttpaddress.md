@@ -9,8 +9,8 @@ ms.assetid: 79d3570a-56b2-40ad-b3c6-cddc3239da7e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWSDHttpAddress, IWSDHttpAddress interface, IWSDHttpAddress interface,described, ncd.iwsdhttpaddress, wsdbase/IWSDHttpAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

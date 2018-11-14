@@ -9,8 +9,8 @@ ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DECODING_SOURCE, DECODING_SOURCE enumeration [ETW], DecodingSourceTlg, DecodingSourceWPP, DecodingSourceWbem, DecodingSourceXMLFile, _DECODING_SOURCE, etw.decoding_source_enum, tdh.decoding_source_enum, tdh/DECODING_SOURCE, tdh/DecodingSourceTlg, tdh/DecodingSourceWPP, tdh/DecodingSourceWbem, tdh/DecodingSourceXMLFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 

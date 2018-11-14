@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbEnvironment.get_EnvironmentPropertySet
+: 
 ---
 
 # ITsSbEnvironment::get_EnvironmentPropertySet

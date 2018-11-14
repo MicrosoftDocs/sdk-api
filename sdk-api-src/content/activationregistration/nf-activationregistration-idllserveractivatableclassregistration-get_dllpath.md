@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- activationregistration.h
+: 
+- IDllServerActivatableClassRegistration.get_DllPath
+: 
 ---
 
 # IDllServerActivatableClassRegistration::get_DllPath

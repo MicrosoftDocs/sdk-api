@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ISharedPropertyGroupManager.get__NewEnum
+: 
 ---
 
 # ISharedPropertyGroupManager::get__NewEnum

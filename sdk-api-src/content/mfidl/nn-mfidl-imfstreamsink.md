@@ -9,8 +9,8 @@ ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

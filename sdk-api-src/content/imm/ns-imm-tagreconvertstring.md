@@ -9,8 +9,8 @@ ms.assetid: 66c97e0d-d196-4062-8094-f31012b9bbb7
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*LPRECONVERTSTRING, *NPRECONVERTSTRING, *PRECONVERTSTRING, PRECONVERTSTRING, PRECONVERTSTRING structure pointer [Internationalization for Windows Applications], RECONVERTSTRING, RECONVERTSTRING structure [Internationalization for Windows Applications], _win32_RECONVERTSTRING_str, imm/PRECONVERTSTRING, imm/RECONVERTSTRING, intl.reconvertstring, tagRECONVERTSTRING"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SHGetPropertyStoreFromParsingName
+: 
 ---
 
 # SHGetPropertyStoreFromParsingName function
@@ -74,9 +80,9 @@ A pointer to a <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfc
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more values from the <a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
+One or more values from the <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
 
 
 ### -param riid [in]
@@ -90,7 +96,7 @@ A reference to the desired interface ID.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> or a related interface.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyStore">IPropertyStore</a> or a related interface.
 
 
 ## -returns

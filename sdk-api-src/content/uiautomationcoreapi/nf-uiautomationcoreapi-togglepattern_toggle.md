@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TogglePattern_Toggle
+: 
 ---
 
 # TogglePattern_Toggle function

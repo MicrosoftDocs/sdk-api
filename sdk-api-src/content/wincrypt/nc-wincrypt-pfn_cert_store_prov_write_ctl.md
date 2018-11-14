@@ -9,8 +9,8 @@ ms.assetid: 91344133-0785-4c4f-8df3-83301cf85e70
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CertStoreProvWriteCTL, PFN_CERT_STORE_PROV_WRITE_CTL, PFN_CERT_STORE_PROV_WRITE_CTL callback, PFN_CERT_STORE_PROV_WRITE_CTL callback function [Security], _crypto2_certstoreprovwritectl, security.certstoreprovwritectl, wincrypt/PFN_CERT_STORE_PROV_WRITE_CTL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

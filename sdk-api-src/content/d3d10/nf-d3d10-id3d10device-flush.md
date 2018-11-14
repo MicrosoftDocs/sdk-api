@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10.h
+: 
+- ID3D10Device.Flush
+: 
 ---
 
 # ID3D10Device::Flush
@@ -78,9 +86,9 @@ Most applications will not need to call this method. Calling this method when no
 
 When Direct3D state-setting, present, or draw commands are called by an application, those commands are queued into an internal command buffer. <b>Flush</b> sends those commands to the GPU for processing. Normally, these commands are sent to the GPU automatically whenever Direct3D determines that they need to be, such as when the command buffer is full or when mapping a resource. <b>Flush</b> will send the commands manually.
 
-<b>Flush</b> should be used when the CPU waits for an arbitrary amount of time (such as when calling <a href="https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx">Sleep</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb205618(v=VS.85).aspx">ID3DX10ThreadPump::WaitForAllItems</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb174559(v=VS.85).aspx">WaitForVBlank</a>.
+<b>Flush</b> should be used when the CPU waits for an arbitrary amount of time (such as when calling <a href="http://msdn2.microsoft.com/en-us/library/ms686298.aspx">Sleep</a>, <a href="https://msdn.microsoft.com/d81c57d6-475c-444b-82c0-87b29ce0cbb4">ID3DX10ThreadPump::WaitForAllItems</a>, or <a href="https://msdn.microsoft.com/54b1dd37-65f2-40b2-9f6c-0ea00864e546">WaitForVBlank</a>.
 
-For more information about how flushing works, see <a href="https://msdn.microsoft.com/en-us/library/Bb172234(v=VS.85).aspx">Accurately Profiling Direct3D API Calls (Direct3D 9)</a>.
+For more information about how flushing works, see <a href="https://msdn.microsoft.com/f969be42-d541-4e8d-aec4-eb9508bcc7cf">Accurately Profiling Direct3D API Calls (Direct3D 9)</a>.
 
 
 
@@ -90,7 +98,7 @@ For more information about how flushing works, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

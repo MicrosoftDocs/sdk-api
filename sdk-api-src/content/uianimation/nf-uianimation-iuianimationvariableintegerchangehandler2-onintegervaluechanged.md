@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
+: 
 ---
 
 # IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged

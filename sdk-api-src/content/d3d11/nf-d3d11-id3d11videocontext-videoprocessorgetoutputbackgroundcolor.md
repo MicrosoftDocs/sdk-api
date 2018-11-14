@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11.h
+: 
+- ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor
+: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor

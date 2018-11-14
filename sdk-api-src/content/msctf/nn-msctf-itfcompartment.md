@@ -9,8 +9,8 @@ ms.assetid: c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfCompartment, ITfCompartment interface [Text Services Framework], ITfCompartment interface [Text Services Framework],described, _tsf_itfcompartment_ref, msctf/ITfCompartment, tsf.itfcompartment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -100,7 +100,7 @@ Sets the data for a compartment.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

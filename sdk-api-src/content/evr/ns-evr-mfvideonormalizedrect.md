@@ -9,8 +9,8 @@ ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evr.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 982c82a4-466d-476e-ad17-8f6f1c309c79
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], IFsrmPipelineModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduledefinition, fsrm.ifsrmpipelinemoduledefinition, fsrm/IFsrmPipelineModuleDefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

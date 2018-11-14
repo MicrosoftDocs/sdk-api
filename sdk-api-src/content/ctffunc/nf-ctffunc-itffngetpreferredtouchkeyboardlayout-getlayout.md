@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- ITfFnGetPreferredTouchKeyboardLayout.GetLayout
+: 
 ---
 
 # ITfFnGetPreferredTouchKeyboardLayout::GetLayout
@@ -60,7 +68,7 @@ Obtains the touch keyboard layout identifier of the layout that the IME directs 
 
 ### -param pTKBLayoutType [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh802866(v=VS.85).aspx">TKBLayoutType</a> enumeration that receives the layout type.
+Pointer to a <a href="https://msdn.microsoft.com/65C46775-9D4D-4C80-A5F0-6713C805053D">TKBLayoutType</a> enumeration that receives the layout type.
 
 
 ### -param pwPreferredLayoutId [out]
@@ -82,7 +90,7 @@ The touch keyboard always expects S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802866(v=VS.85).aspx">TKBLayoutType</a> is an enumeration with the following values.
+<a href="https://msdn.microsoft.com/65C46775-9D4D-4C80-A5F0-6713C805053D">TKBLayoutType</a> is an enumeration with the following values.
 
 <table>
 <tr>
@@ -171,7 +179,7 @@ There is no way to request support for other layouts, or to add new touch optimi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802864(v=VS.85).aspx">ITfFnGetPreferredTouchKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/1BC4A446-AEDC-44AA-9BD7-786917AD2556">ITfFnGetPreferredTouchKeyboardLayout</a>
  
 
  

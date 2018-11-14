@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DwmSetIconicThumbnail
+: 
 ---
 
 # DwmSetIconicThumbnail function
@@ -100,16 +106,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-An application typically calls the <b>DwmSetIconicThumbnail</b> function after it receives a <a href="https://msdn.microsoft.com/en-us/library/Dd938875(v=VS.85).aspx">WM_DWMSENDICONICTHUMBNAIL</a> message for its window. The thumbnail should not exceed the maximum x-coordinate and y-coordinate that are specified in that message. The thumbnail must also have a 32-bit color depth.
+An application typically calls the <b>DwmSetIconicThumbnail</b> function after it receives a <a href="https://msdn.microsoft.com/476c2542-f4d0-4777-93d3-bf50da26d94f">WM_DWMSENDICONICTHUMBNAIL</a> message for its window. The thumbnail should not exceed the maximum x-coordinate and y-coordinate that are specified in that message. The thumbnail must also have a 32-bit color depth.
 
-The application calls <a href="https://msdn.microsoft.com/en-us/library/Dd389409(v=VS.85).aspx">DwmInvalidateIconicBitmaps</a> to indicate to the Desktop Window Manager (DWM) that the iconic thumbnail and live preview bitmaps are out-of-date and should be refreshed. The DWM then requests new versions from the window when they are needed. However, if the DWM bitmap cache is full, DWM will not request updated versions.
+The application calls <a href="https://msdn.microsoft.com/c4833ce3-f8fb-4d98-9a02-5bf764579cc3">DwmInvalidateIconicBitmaps</a> to indicate to the Desktop Window Manager (DWM) that the iconic thumbnail and live preview bitmaps are out-of-date and should be refreshed. The DWM then requests new versions from the window when they are needed. However, if the DWM bitmap cache is full, DWM will not request updated versions.
 
-The DWM uses a copy of the bitmap, but the application can release this copy at any time because of memory constraints. If the copy is released, the window is not notified, but it might receive a subsequent <a href="https://msdn.microsoft.com/en-us/library/Dd938875(v=VS.85).aspx">WM_DWMSENDICONICTHUMBNAIL</a> request when its thumbnail is needed again. The caller retains ownership of the original bitmap and is responsible for freeing the resources that it uses when it is no longer needed.
+The DWM uses a copy of the bitmap, but the application can release this copy at any time because of memory constraints. If the copy is released, the window is not notified, but it might receive a subsequent <a href="https://msdn.microsoft.com/476c2542-f4d0-4777-93d3-bf50da26d94f">WM_DWMSENDICONICTHUMBNAIL</a> request when its thumbnail is needed again. The caller retains ownership of the original bitmap and is responsible for freeing the resources that it uses when it is no longer needed.
 
 
 #### Examples
 
-Before calling <b>DwmSetIconicThumbnail</b>, the application must first call the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to set the <b>DWMWA_FORCE_ICONIC_REPRESENTATION</b> and <b>DWMWA_HAS_ICONIC_BITMAP</b> attributes, as shown in the following example.
+Before calling <b>DwmSetIconicThumbnail</b>, the application must first call the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to set the <b>DWMWA_FORCE_ICONIC_REPRESENTATION</b> and <b>DWMWA_HAS_ICONIC_BITMAP</b> attributes, as shown in the following example.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -137,7 +143,7 @@ Before calling <b>DwmSetIconicThumbnail</b>, the application must first call the
 </td>
 </tr>
 </table></span></div>
-Next, the application calls the <b>DwmSetIconicThumbnail</b> function in response to a <a href="https://msdn.microsoft.com/en-us/library/Dd938875(v=VS.85).aspx">WM_DWMSENDICONICTHUMBNAIL</a> message, as shown in the following example.
+Next, the application calls the <b>DwmSetIconicThumbnail</b> function in response to a <a href="https://msdn.microsoft.com/476c2542-f4d0-4777-93d3-bf50da26d94f">WM_DWMSENDICONICTHUMBNAIL</a> message, as shown in the following example.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

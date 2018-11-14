@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_escape_filter_element
+: 
 ---
 
 # ldap_escape_filter_element function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnt.h
+: 
+- FIELD_OFFSET
+: 
 ---
 
 # FIELD_OFFSET macro
@@ -82,7 +90,7 @@ Used by device driver writers to symbolically determine the offset of a known fi
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff542043(v=VS.85).aspx">CONTAINING_RECORD</a>
+<a href="kernel.containing_record">CONTAINING_RECORD</a>
  
 
  

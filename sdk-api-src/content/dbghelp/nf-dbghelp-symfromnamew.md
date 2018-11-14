@@ -7,7 +7,7 @@ old-location: base\symfromname.htm
 tech.root: debug
 ms.assetid: 26b9eba7-2038-4640-aeb2-3052889b14ea
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymFromName, SymFromName function, SymFromNameW, _win32_symfromname, base.symfromname, dbghelp/SymFromName, dbghelp/SymFromNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymFromNameW
+: 
 ---
 
 # SymFromNameW function

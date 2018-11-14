@@ -9,8 +9,8 @@ ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime],described, windows/IStringable, winrt.istringable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.foundation.h
 req.include-header: 

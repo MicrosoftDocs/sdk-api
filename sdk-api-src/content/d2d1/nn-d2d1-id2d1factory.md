@@ -7,10 +7,10 @@ old-location: direct2d\ID2D1Factory.htm
 tech.root: direct2d
 ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1Factory, ID2D1Factory interface [Direct2D], ID2D1Factory interface [Direct2D],described, d2d1/ID2D1Factory, direct2d.ID2D1Factory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -222,29 +222,43 @@ See <a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Mu
 
 The following code fragments declare a factory pointer, create a singlethreaded factory instance, and use the factory to create a render target.
 
-
-```cpp
-ID2D1Factory* m_pDirect2dFactory;
-
-```
-
-```cpp
-    // Create a Direct2D factory.
-    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);
-
-```
-
-```cpp
-        // Create a Direct2D render target.
-        hr = m_pDirect2dFactory->CreateHwndRenderTarget(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1Factory* m_pDirect2dFactory;
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Create a Direct2D factory.
+    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;m_pDirect2dFactory);
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        // Create a Direct2D render target.
+        hr = m_pDirect2dFactory-&gt;CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &m_pRenderTarget
+            &amp;m_pRenderTarget
             );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

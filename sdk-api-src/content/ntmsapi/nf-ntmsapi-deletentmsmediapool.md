@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DeleteNtmsMediaPool
+: 
 ---
 
 # DeleteNtmsMediaPool function
@@ -201,7 +207,7 @@ Free, unrecognized, and import media pools are managed by RSM and cannot be dele
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
 
 
 

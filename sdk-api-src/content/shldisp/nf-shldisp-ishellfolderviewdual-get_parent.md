@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shldisp.h
+: 
+- IShellFolderViewDual.get_Parent
+: 
 ---
 
 # IShellFolderViewDual::get_Parent
@@ -60,7 +68,7 @@ Not implemented.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 The application object.
 

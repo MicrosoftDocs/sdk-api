@@ -9,8 +9,8 @@ ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 9449fa04-867c-4f27-a05c-ff0d6e912c53, MFPERIODICCALLBACK, MFPERIODICCALLBACK callback, MFPERIODICCALLBACK callback function [Media Foundation], mf.mfperiodiccallback_callback, mfapi/MFPERIODICCALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mfapi.h
 req.include-header: 

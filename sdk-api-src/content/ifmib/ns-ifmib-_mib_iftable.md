@@ -9,8 +9,8 @@ ms.assetid: 7c3ca3d0-b6fe-4e1c-858f-82ffb26622e7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PMIB_IFTABLE, MIB_IFTABLE, MIB_IFTABLE structure [MIB], PMIB_IFTABLE, PMIB_IFTABLE structure pointer [MIB], _MIB_IFTABLE, _mpr_mib_iftable, ifmib/MIB_IFTABLE, ifmib/PMIB_IFTABLE, iprtrmib/MIB_IFTABLE, iprtrmib/PMIB_IFTABLE, mib.mib_iftable, rras.mib_iftable"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
@@ -75,7 +75,7 @@ An array of
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa365943(v=VS.85).aspx">GetIfTable</a> function enumerates the interface entries on a local system and returns this information in a <b>MIB_IFTABLE</b> structure. 
+The <a href="_iphlp_getiftable">GetIfTable</a> function enumerates the interface entries on a local system and returns this information in a <b>MIB_IFTABLE</b> structure. 
 
 
 
@@ -93,7 +93,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365943(v=VS.85).aspx">GetIfTable</a>
+<a href="_iphlp_getiftable">GetIfTable</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 5DA0A805-13D3-4977-8EFB-45E8B51AAF60
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxManifestProperties, IAppxManifestProperties interface [App packaging and management], IAppxManifestProperties interface [App packaging and management],described, appxpackaging/IAppxManifestProperties, appxpkg.iappxmanifestproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

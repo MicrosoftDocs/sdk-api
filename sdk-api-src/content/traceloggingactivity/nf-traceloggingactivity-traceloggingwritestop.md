@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- traceloggingactivity.h
+: 
+- TraceLoggingWriteStop
+: 
 ---
 
 # TraceLoggingWriteStop macro

@@ -9,8 +9,8 @@ ms.assetid: 654b0b66-17b3-4108-af10-1047d07ab2ee
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_CONNECTION_EVENT_ADD, FWPM_CONNECTION_EVENT_DELETE, FWPM_CONNECTION_EVENT_MAX, FWPM_CONNECTION_EVENT_TYPE, FWPM_CONNECTION_EVENT_TYPE enumeration [Filtering], FWPM_CONNECTION_EVENT_TYPE_, fwp.fwpm_connection_event_type, fwpmtypes/FWPM_CONNECTION_EVENT_ADD, fwpmtypes/FWPM_CONNECTION_EVENT_DELETE, fwpmtypes/FWPM_CONNECTION_EVENT_MAX, fwpmtypes/FWPM_CONNECTION_EVENT_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 

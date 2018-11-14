@@ -9,8 +9,8 @@ ms.assetid: 6273CB7A-80B9-4E9A-8C3A-5308F59BB335
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: CF_OPERATION_TRANSFER_DATA_FLAGS, CF_OPERATION_TRANSFER_DATA_FLAGS enumeration, CF_OPERATION_TRANSFER_DATA_FLAG_NONE, cfapi/CF_OPERATION_TRANSFER_DATA_FLAGS, cfapi/CF_OPERATION_TRANSFER_DATA_FLAG_NONE, cloudApi.cf_operation_transfer_data_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

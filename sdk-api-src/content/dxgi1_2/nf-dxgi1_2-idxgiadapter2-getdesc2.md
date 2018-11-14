@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter2_getdesc2.htm
 tech.root: direct3ddxgi
 ms.assetid: DC1A054D-4092-4865-A6EF-B936891AA470
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetDesc2, GetDesc2 method [DXGI], GetDesc2 method [DXGI],IDXGIAdapter2 interface, IDXGIAdapter2 interface [DXGI],GetDesc2 method, IDXGIAdapter2.GetDesc2, IDXGIAdapter2::GetDesc2, direct3ddxgi.idxgiadapter2_getdesc2, dxgi1_2/IDXGIAdapter2::GetDesc2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGIAdapter2.GetDesc2
+: 
 ---
 
 # IDXGIAdapter2::GetDesc2
@@ -62,7 +70,7 @@ Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 description of an ad
 ### -param pDesc [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/AE34913A-84D8-49DB-A736-15AECA9989F9">DXGI_ADAPTER_DESC2</a> structure that describes the adapter.  
-      This parameter must not be <b>NULL</b>. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, earlier versions of  <b>GetDesc2</b> (<a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> and <a href="https://msdn.microsoft.com/1eb051f8-4e64-41fe-8177-6aad47714cb9">GetDesc1</a>) return zeros for the PCI ID in the <b>VendorId</b>, <b>DeviceId</b>, <b>SubSysId</b>, and <b>Revision</b> members of the adapter description structure and “Software Adapter” for the description string in the <b>Description</b> member. <b>GetDesc2</b> returns the actual feature level 9 hardware values in these members.
+      This parameter must not be <b>NULL</b>. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, earlier versions of  <b>GetDesc2</b> (<a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> and <a href="https://msdn.microsoft.com/1eb051f8-4e64-41fe-8177-6aad47714cb9">GetDesc1</a>) return zeros for the PCI ID in the <b>VendorId</b>, <b>DeviceId</b>, <b>SubSysId</b>, and <b>Revision</b> members of the adapter description structure and “Software Adapter” for the description string in the <b>Description</b> member. <b>GetDesc2</b> returns the actual feature level 9 hardware values in these members.
 
 
 ## -returns
@@ -79,7 +87,7 @@ Returns S_OK if successful; otherwise, returns E_INVALIDARG if the <i>pDesc</i> 
 
 
 
-Use the <b>GetDesc2</b> method to get a DXGI 1.2 description of an adapter.  To get a DXGI 1.1 description, use the <a href="https://msdn.microsoft.com/1eb051f8-4e64-41fe-8177-6aad47714cb9">IDXGIAdapter1::GetDesc1</a> method. To get a DXGI 1.0 description, use the <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">IDXGIAdapter::GetDesc</a> method.
+Use the <b>GetDesc2</b> method to get a DXGI 1.2 description of an adapter.  To get a DXGI 1.1 description, use the <a href="https://msdn.microsoft.com/1eb051f8-4e64-41fe-8177-6aad47714cb9">IDXGIAdapter1::GetDesc1</a> method. To get a DXGI 1.0 description, use the <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">IDXGIAdapter::GetDesc</a> method.
 
 The Windows Display Driver Model (WDDM) scheduler can preempt the GPU's execution of application tasks. The granularity at which the GPU can be preempted from performing its current task in the WDDM 1.1 or earlier driver model is a direct memory access (DMA) buffer for graphics tasks or a compute packet for compute tasks. The GPU can switch between tasks only after it completes the currently executing unit of work, a DMA buffer or a compute packet. 
 

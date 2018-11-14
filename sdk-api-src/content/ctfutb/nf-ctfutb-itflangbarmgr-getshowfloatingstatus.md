@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarMgr.GetShowFloatingStatus
+: 
 ---
 
 # ITfLangBarMgr::GetShowFloatingStatus
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pdwFlags [out]
 
-Indicates current language bar display settings. For a list of bitfield values, see <a href="https://msdn.microsoft.com/en-us/library/ms628765(v=VS.85).aspx">ITfLangBarMgr::ShowFloating</a>.
+Indicates current language bar display settings. For a list of bitfield values, see <a href="https://msdn.microsoft.com/f49987c7-476d-4add-9d43-83de78693420">ITfLangBarMgr::ShowFloating</a>.
 
 
 ## -returns
@@ -117,7 +125,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
 
 
 

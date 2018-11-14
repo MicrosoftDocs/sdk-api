@@ -9,8 +9,8 @@ ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], _BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -68,7 +68,7 @@ The numeric  value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

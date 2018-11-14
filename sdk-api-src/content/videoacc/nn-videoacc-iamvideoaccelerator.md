@@ -9,8 +9,8 @@ ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: videoacc.h
 req.include-header: 

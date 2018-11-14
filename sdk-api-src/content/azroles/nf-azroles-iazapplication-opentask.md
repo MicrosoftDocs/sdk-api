@@ -4,10 +4,10 @@ title: IAzApplication::OpenTask
 author: windows-sdk-content
 description: Opens an IAzTask object with the specified name.
 old-location: security\iazapplication_opentask.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 2d34a56d-ada8-4d7d-b026-4f1abfa290ac
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],OpenTask method, IAzApplication interface [Security],OpenTask method, IAzApplication.OpenTask, IAzApplication::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzApplication object, OpenTask method [Security],IAzApplication interface, azroles/IAzApplication::OpenTask, security.iazapplication_opentask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.OpenTask
+: 
 ---
 
 # IAzApplication::OpenTask

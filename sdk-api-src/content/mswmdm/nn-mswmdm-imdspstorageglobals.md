@@ -9,8 +9,8 @@ ms.assetid: 70653352-a467-4197-93e3-e8fb45f99d34
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], IMDSPStorageGlobals interface [windows Media Device Manager],described, IMDSPStorageGlobalsInterface, mswmdm/IMDSPStorageGlobals, wmdm.imdspstorageglobals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

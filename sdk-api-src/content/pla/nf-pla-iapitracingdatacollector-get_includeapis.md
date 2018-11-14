@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IApiTracingDataCollector.get_IncludeApis
+: 
 ---
 
 # IApiTracingDataCollector::get_IncludeApis

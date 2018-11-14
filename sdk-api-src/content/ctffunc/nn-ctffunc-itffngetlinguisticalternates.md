@@ -9,8 +9,8 @@ ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
@@ -52,21 +52,21 @@ req.redist:
 
 The <b>ITfFnGetLinguisticAlternates</b> interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.
 
-Apps can use this interface to obtain IME alternates for a text range; therefore the interface <b>ITfFnGetLinguisticAlternates</b>, along with <a href="https://msdn.microsoft.com/en-us/library/Hh920951(v=VS.85).aspx">ITfFnSearchCandidateProvider</a>, provides a TSF-based replacement for the <a href="https://msdn.microsoft.com/en-us/library/Dd318559(v=VS.85).aspx">ImmGetConversionList</a> function.  Typically IMEs implement either <b>ITfFnGetLinguisticAlternates</b> or <b>ITfFnSearchCandidateProvider</b> (or neither).
+Apps can use this interface to obtain IME alternates for a text range; therefore the interface <b>ITfFnGetLinguisticAlternates</b>, along with <a href="https://msdn.microsoft.com/5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF">ITfFnSearchCandidateProvider</a>, provides a TSF-based replacement for the <a href="https://msdn.microsoft.com/c38547fa-b9d8-41a0-8d73-21056212b775">ImmGetConversionList</a> function.  Typically IMEs implement either <b>ITfFnGetLinguisticAlternates</b> or <b>ITfFnSearchCandidateProvider</b> (or neither).
 
-An app obtains a pointer to this interface by calling TSF manager <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> method with <b>IID_ITfFnGetLinguisticAlternates</b>.
+An app obtains a pointer to this interface by calling TSF manager <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> method with <b>IID_ITfFnGetLinguisticAlternates</b>.
 
 
-<div class="alert"><b>Note</b>  This interface may not be supported for all IMEs. There may be differences in support between IMEs on the Desktop and IMEs in the new Windows UI on Windows 8.1.  Some IMEs instead implement the related interface <a href="https://msdn.microsoft.com/en-us/library/Hh920951(v=VS.85).aspx">ITfFnSearchCandidateProvider</a> that can be used as a substitute for this API.  Suggested app usage is to check for this interface first, and if it's not available then check if <b>ITfFnSearchCandidateProvider</b> is supported instead.  IMEs that wish to maintain compatibility with Windows 8 should implement <b>ITfFnSearchCandidateProvider</b> instead.</div>
+<div class="alert"><b>Note</b>  This interface may not be supported for all IMEs. There may be differences in support between IMEs on the Desktop and IMEs in the new Windows UI on Windows 8.1.  Some IMEs instead implement the related interface <a href="https://msdn.microsoft.com/5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF">ITfFnSearchCandidateProvider</a> that can be used as a substitute for this API.  Suggested app usage is to check for this interface first, and if it's not available then check if <b>ITfFnSearchCandidateProvider</b> is supported instead.  IMEs that wish to maintain compatibility with Windows 8 should implement <b>ITfFnSearchCandidateProvider</b> instead.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetLinguisticAlternates</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms538978(v=VS.85).aspx">ITfFunction</a>. <b>ITfFnGetLinguisticAlternates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetLinguisticAlternates</b> interface inherits from <a href="https://msdn.microsoft.com/140b1ed8-8876-4f06-8ed2-7b0dccdc0a69">ITfFunction</a>. <b>ITfFnGetLinguisticAlternates</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -79,7 +79,7 @@ The <b>ITfFnGetLinguisticAlternates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn495080(v=VS.85).aspx">GetAlternates</a>
+<a href="https://msdn.microsoft.com/17BB0DF8-3F97-423C-A2FD-CDC7590EE49B">GetAlternates</a>
 </td>
 <td align="left" width="63%">
 Returns a list of alternate strings for a given text range.
@@ -94,7 +94,7 @@ Returns a list of alternate strings for a given text range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538978(v=VS.85).aspx">ITfFunction</a>
+<a href="https://msdn.microsoft.com/140b1ed8-8876-4f06-8ed2-7b0dccdc0a69">ITfFunction</a>
  
 
  

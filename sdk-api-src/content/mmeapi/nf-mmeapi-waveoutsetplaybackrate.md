@@ -7,7 +7,7 @@ old-location: multimedia\waveoutsetplaybackrate.htm
 tech.root: Multimedia
 ms.assetid: 53af902c-8c0e-4815-a0b1-6b59a970040d
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveOutSetPlaybackRate, mmeapi/waveOutSetPlaybackRate, multimedia.waveoutsetplaybackrate, waveOutSetPlaybackRate, waveOutSetPlaybackRate function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveOutSetPlaybackRate
+: 
 ---
 
 # waveOutSetPlaybackRate function

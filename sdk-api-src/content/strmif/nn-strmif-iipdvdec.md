@@ -9,8 +9,8 @@ ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

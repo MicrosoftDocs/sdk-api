@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propidlbase.h
+: 
+- IEnumSTATPROPSTG.Reset
+: 
 ---
 
 # IEnumSTATPROPSTG::Reset

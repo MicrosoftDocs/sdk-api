@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ICrmMonitorClerks.get_Count
+: 
 ---
 
 # ICrmMonitorClerks::get_Count
@@ -107,7 +115,7 @@ A <b>NULL</b> pointer was provided as an argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684207(v=VS.85).aspx">ICrmMonitorClerks</a>
+<a href="https://msdn.microsoft.com/90403516-f677-4396-8991-ae621c159567">ICrmMonitorClerks</a>
  
 
  

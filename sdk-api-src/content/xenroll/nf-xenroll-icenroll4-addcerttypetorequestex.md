@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.addCertTypeToRequestEx
+: 
 ---
 
 # ICEnroll4::addCertTypeToRequestEx

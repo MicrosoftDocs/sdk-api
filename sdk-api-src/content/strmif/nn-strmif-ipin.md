@@ -9,8 +9,8 @@ ms.assetid: ad0ead4e-9f8e-4935-b220-306d665e50f4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],described, IPinInterface, dshow.ipin, strmif/IPin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

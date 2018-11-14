@@ -9,8 +9,8 @@ ms.assetid: c0a34cff-f86f-4005-9320-5dadfdde5808
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFVideoARMode_Mask, MFVideoARMode_NonLinearStretch, MFVideoARMode_None, MFVideoARMode_PreservePicture, MFVideoARMode_PreservePixel, MFVideoAspectRatioMode, MFVideoAspectRatioMode enumeration [Media Foundation], c0a34cff-f86f-4005-9320-5dadfdde5808, evr/MFVideoARMode_Mask, evr/MFVideoARMode_NonLinearStretch, evr/MFVideoARMode_None, evr/MFVideoARMode_PreservePicture, evr/MFVideoARMode_PreservePixel, evr/MFVideoAspectRatioMode, mf.mfvideoaspectratiomode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: evr.h
 req.include-header: 

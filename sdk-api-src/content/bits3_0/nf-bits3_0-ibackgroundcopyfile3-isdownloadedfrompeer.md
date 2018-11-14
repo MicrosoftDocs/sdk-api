@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits3_0.h
+: 
+- IBackgroundCopyFile3.IsDownloadedFromPeer
+: 
 ---
 
 # IBackgroundCopyFile3::IsDownloadedFromPeer
@@ -104,7 +112,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362952(v=VS.85).aspx">IBackgroundCopyFile3</a>
+<a href="https://msdn.microsoft.com/5304f93a-993a-4327-9fdb-fb2ef1dafecb">IBackgroundCopyFile3</a>
  
 
  

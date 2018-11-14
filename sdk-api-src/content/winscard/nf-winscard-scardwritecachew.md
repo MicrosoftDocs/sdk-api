@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SCardWriteCacheW
+: 
 ---
 
 # SCardWriteCacheW function
@@ -97,7 +103,7 @@ The size, in bytes, of the <i>Data</i> buffer.
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns one of the following error codes. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+If the function fails, it returns one of the following error codes. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 <table>
 <tr>

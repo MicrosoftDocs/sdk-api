@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getgsinputprimitive.htm
 tech.root: direct3d12
 ms.assetid: 7A0E34F5-D2CF-41C2-B2CB-C3D0CDA511B3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method, GetGSInputPrimitive method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetGSInputPrimitive method, ID3D12ShaderReflection.GetGSInputPrimitive, ID3D12ShaderReflection::GetGSInputPrimitive, d3d12shader/ID3D12ShaderReflection::GetGSInputPrimitive, direct3d12.id3d12shaderreflection_getgsinputprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12shader.h
+: 
+- ID3D12ShaderReflection.GetGSInputPrimitive
+: 
 ---
 
 # ID3D12ShaderReflection::GetGSInputPrimitive
@@ -65,7 +73,7 @@ Gets the geometry-shader input-primitive description.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff728725(v=VS.85).aspx">D3D_PRIMITIVE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a></b>
 
 The input-primitive description.  See
             <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>.

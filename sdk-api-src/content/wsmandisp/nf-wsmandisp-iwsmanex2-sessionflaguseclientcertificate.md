@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManEx2.SessionFlagUseClientCertificate
+: 
 ---
 
 # IWSManEx2::SessionFlagUseClientCertificate

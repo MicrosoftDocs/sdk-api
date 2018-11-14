@@ -9,8 +9,8 @@ ms.assetid: 6c92bd6b-4479-45c2-986c-0a6c91248361
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionRotateTransform, IDCompositionRotateTransform interface [DirectComposition], IDCompositionRotateTransform interface [DirectComposition],described, dcomp/IDCompositionRotateTransform, directcomp.idcompositionrotatetransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -101,7 +101,7 @@ The <b>IDCompositionRotateTransform</b> interface has these methods.
 
 A rotate transform represents the following 3-by-3 matrix:
 
-<img alt="Three-by-three transformation matrix" src="./images/rotate_transform_3x3matrix.png"/>
+<img alt="Three-by-three transformation matrix" src="images/rotate_transform_3x3matrix.png"/>
 
 The effect is to rotate the coordinate system clockwise or counter-clockwise, and to apply the corresponding translation such that the center point does not move.
 

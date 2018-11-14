@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- activationregistration.h
+: 
+- IActivatableClassRegistration.get_RegisteredTrustLevel
+: 
 ---
 
 # IActivatableClassRegistration::get_RegisteredTrustLevel

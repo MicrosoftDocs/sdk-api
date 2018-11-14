@@ -9,8 +9,8 @@ ms.assetid: 1bbe5cb6-8722-45bb-ae43-01bc4460f08d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PBLENDOBJ, BLENDOBJ, BLENDOBJ structure [Display Devices], PBLENDOBJ, PBLENDOBJ structure pointer [Display Devices], _BLENDOBJ, display.blendobj, grstrcts_0d4470ae-12b0-41f4-8209-49b346e4829d.xml, winddi/BLENDOBJ, winddi/PBLENDOBJ"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

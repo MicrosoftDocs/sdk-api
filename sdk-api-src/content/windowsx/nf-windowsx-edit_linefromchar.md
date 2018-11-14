@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- Edit_LineFromChar
+: 
 ---
 
 # Edit_LineFromChar macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761609(v=VS.85).aspx">EM_LINEFROMCHAR</a> message explicitly.
+Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/e8e9217b-3f0c-478d-b44d-2a51868dbc5a">EM_LINEFROMCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +84,7 @@ The zero-based index of the character from the beginning of the text in the cont
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761609(v=VS.85).aspx">EM_LINEFROMCHAR</a>.
+For more information, see <a href="https://msdn.microsoft.com/e8e9217b-3f0c-478d-b44d-2a51868dbc5a">EM_LINEFROMCHAR</a>.
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: MIMEASSOCDLG_FL_REGISTER_ASSOC, MIMEASSOCIATIONDIALOG_IN_FLAGS, MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_MIMEASSOCIATIONDIALOG_IN_FLAGS, intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC, intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS, mimeassociationdialog_in_flags, shell.MIMEASSOCIATIONDIALOG_IN_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: intshcut.h
 req.include-header: 

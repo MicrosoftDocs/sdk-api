@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP
+- apiref
+: 
+- 
+: 
+- ScriptItemizeOpenType
+: 
 ---
 
 # ScriptItemizeOpenType function
@@ -53,7 +59,7 @@ req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ## -description
 
 
-Breaks a Unicode string into individually shapeable <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
+Breaks a Unicode string into individually shapeable <a href="uniscribe_glossary.htm">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
 
 
 ## -parameters

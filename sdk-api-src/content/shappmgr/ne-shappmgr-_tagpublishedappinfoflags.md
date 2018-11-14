@@ -9,8 +9,8 @@ ms.assetid: 9fcb93a5-24b5-4bc3-9f20-0088affb183b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PAI_ASSIGNEDTIME, PAI_EXPIRETIME, PAI_PUBLISHEDTIME, PAI_SCHEDULEDTIME, PAI_SOURCE, PUBAPPINFOFLAGS, PUBAPPINFOFLAGS enumeration [Windows Shell], _tagPublishedAppInfoFlags, inet_PUBAPPINFOFLAGS, shappmgr/PAI_ASSIGNEDTIME, shappmgr/PAI_EXPIRETIME, shappmgr/PAI_PUBLISHEDTIME, shappmgr/PAI_SCHEDULEDTIME, shappmgr/PAI_SOURCE, shappmgr/PUBAPPINFOFLAGS, shell.PUBAPPINFOFLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shappmgr.h
 req.include-header: 

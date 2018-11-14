@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionRotateTransform3D.SetCenterY
+: 
 ---
 
 # IDCompositionRotateTransform3D::SetCenterY(float)

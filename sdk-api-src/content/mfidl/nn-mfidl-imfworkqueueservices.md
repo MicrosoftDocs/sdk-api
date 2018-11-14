@@ -9,8 +9,8 @@ ms.assetid: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], IMFWorkQueueServices interface [Media Foundation],described, mf.imfworkqueueservices, mfidl/IMFWorkQueueServices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- lmalert.h
+: 
+- ALERT_OTHER_INFO
+: 
 ---
 
 # ALERT_OTHER_INFO macro

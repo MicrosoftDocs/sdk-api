@@ -7,7 +7,7 @@ old-location: multimedia\capcapturegetsetup.htm
 tech.root: Multimedia
 ms.assetid: 198b1aae-b719-4fb8-a11d-859eaf7a4606
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_capCaptureGetSetup, capCaptureGetSetup, capCaptureGetSetup macro [Windows Multimedia], multimedia.capcapturegetsetup, vfw/capCaptureGetSetup"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- capCaptureGetSetup
+: 
 ---
 
 # capCaptureGetSetup macro

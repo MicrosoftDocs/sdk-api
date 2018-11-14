@@ -9,8 +9,8 @@ ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DNS_SECTION, DNS_SECTION enumeration [DNS], DnsSectionAddtional, DnsSectionAnswer, DnsSectionAuthority, DnsSectionQuestion, _DnsSection, dns.dns_section, windns/DNS_SECTION, windns/DnsSectionAddtional, windns/DnsSectionAnswer, windns/DnsSectionAuthority, windns/DnsSectionQuestion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: windns.h
 req.include-header: 

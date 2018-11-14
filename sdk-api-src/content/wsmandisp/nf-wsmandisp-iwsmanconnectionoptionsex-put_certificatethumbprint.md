@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManConnectionOptionsEx.put_CertificateThumbprint
+: 
 ---
 
 # IWSManConnectionOptionsEx::put_CertificateThumbprint

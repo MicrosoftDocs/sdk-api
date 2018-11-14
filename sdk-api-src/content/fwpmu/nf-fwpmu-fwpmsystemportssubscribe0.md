@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmSystemPortsSubscribe0
+: 
 ---
 
 # FwpmSystemPortsSubscribe0 function

@@ -9,8 +9,8 @@ ms.assetid: 65003974-F86E-4604-BA8D-262CA2674D53
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: D3D11_VPIV_DIMENSION, D3D11_VPIV_DIMENSION enumeration [Media Foundation], D3D11_VPIV_DIMENSION_TEXTURE2D, D3D11_VPIV_DIMENSION_UNKNOWN, d3d11/D3D11_VPIV_DIMENSION, d3d11/D3D11_VPIV_DIMENSION_TEXTURE2D, d3d11/D3D11_VPIV_DIMENSION_UNKNOWN, mf.d3d11_vpiv_dimension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

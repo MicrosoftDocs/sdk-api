@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmcodecdsp.h
+: 
+- ITocEntry.SetDescriptor
+: 
 ---
 
 # ITocEntry::SetDescriptor

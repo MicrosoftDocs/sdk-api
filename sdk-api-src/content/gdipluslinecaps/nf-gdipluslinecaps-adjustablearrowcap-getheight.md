@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluslinecaps.h
+: 
+- AdjustableArrowCap.GetHeight
+: 
 req.product: GDI+ 1.0
 ---
 

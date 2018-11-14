@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- IOCSPPropertyCollection.get_Count
+: 
 ---
 
 # IOCSPPropertyCollection::get_Count
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a>
+<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
  
 
  

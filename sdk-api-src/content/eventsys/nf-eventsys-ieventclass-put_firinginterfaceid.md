@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventClass.put_FiringInterfaceID
+: 
 ---
 
 # IEventClass::put_FiringInterfaceID

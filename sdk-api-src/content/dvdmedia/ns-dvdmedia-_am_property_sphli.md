@@ -9,8 +9,8 @@ ms.assetid: fc073d53-bebb-47fc-b60c-7467b4df88c1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structure [DirectShow], PAM_PROPERTY_SPHLI, PAM_PROPERTY_SPHLI structure pointer [DirectShow], _AM_PROPERTY_SPHLI, dshow.am_property_sphli, dvdmedia/AM_PROPERTY_SPHLI, dvdmedia/PAM_PROPERTY_SPHLI"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

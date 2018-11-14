@@ -9,8 +9,8 @@ ms.assetid: 6b47fb9d-6ca4-4e6b-b117-027ef1e963ac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDataCollectorCollection, IDataCollectorCollection interface [PLA], IDataCollectorCollection interface [PLA],described, base.idatacollectorcollection, pla.idatacollectorcollection, pla/IDataCollectorCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
@@ -57,7 +57,7 @@ To get this interface, access the <a href="https://msdn.microsoft.com/1bcfc15e-b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataCollectorCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDataCollectorCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

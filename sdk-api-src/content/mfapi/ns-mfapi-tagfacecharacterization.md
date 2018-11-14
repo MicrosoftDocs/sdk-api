@@ -9,8 +9,8 @@ ms.assetid: 8A8F6E06-DA09-4595-BF42-8B905453CCCA
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: FaceCharacterization, FaceCharacterization structure [Streaming Media Devices], mfapi/FaceCharacterization, stream.facecharacterization, tagFaceCharacterization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

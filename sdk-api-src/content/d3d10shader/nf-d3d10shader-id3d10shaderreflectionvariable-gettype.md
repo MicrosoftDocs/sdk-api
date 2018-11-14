@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10shader.h
+: 
+- ID3D10ShaderReflectionVariable.GetType
+: 
 ---
 
 # ID3D10ShaderReflectionVariable::GetType
@@ -64,9 +72,9 @@ Get a shader-variable type.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3a2d087d-0a66-459b-aace-f750fe3c96ba">ID3D10ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/3a2d087d-0a66-459b-aace-f750fe3c96ba">ID3D10ShaderReflectionType Interface</a>.
 
 
 
@@ -76,7 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a>
+<a href="https://msdn.microsoft.com/5b88bd75-831b-4daf-baca-d4a3c1fa5876">ID3D10ShaderReflectionVariable Interface</a>
  
 
  

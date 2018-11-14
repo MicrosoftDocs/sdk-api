@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_shadow_optimization.htm
 tech.root: direct2d
 ms.assetid: 1C509608-BEBA-4E4C-8EC5-88B587D81B34
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_SHADOW_OPTIMIZATION, D2D1_SHADOW_OPTIMIZATION enumeration [Direct2D], D2D1_SHADOW_OPTIMIZATION_BALANCED, D2D1_SHADOW_OPTIMIZATION_QUALITY, D2D1_SHADOW_OPTIMIZATION_SPEED, d2d1effects/D2D1_SHADOW_OPTIMIZATION, d2d1effects/D2D1_SHADOW_OPTIMIZATION_BALANCED, d2d1effects/D2D1_SHADOW_OPTIMIZATION_QUALITY, d2d1effects/D2D1_SHADOW_OPTIMIZATION_SPEED, direct2d.d2d1_shadow_optimization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The level of performance optimization for the <a href="https://msdn.microsoft.com/en-us/library/Hh706334(v=VS.85).aspx">Shadow effect</a>.
+The level of performance optimization for the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
 
 
 ## -enum-fields

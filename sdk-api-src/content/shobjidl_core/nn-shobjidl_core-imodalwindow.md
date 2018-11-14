@@ -9,8 +9,8 @@ ms.assetid: e9d640fd-ef10-486a-a037-01b7a71179a0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IModalWindow, IModalWindow interface [Windows Shell], IModalWindow interface [Windows Shell],described, _win32_IModalWindow, shell.IModalWindow, shobjidl_core/IModalWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

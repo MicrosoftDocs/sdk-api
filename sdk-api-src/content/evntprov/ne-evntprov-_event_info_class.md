@@ -9,8 +9,8 @@ ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProviderBinaryTrackInfo, EventProviderSetTraits, EventProviderUseDescriptorType, MaxEventInfo, _EVENT_INFO_CLASS, etw.event_info_class, evntprov/EVENT_INFO_CLASS, evntprov/EventProviderBinaryTrackInfo, evntprov/EventProviderSetTraits, evntprov/EventProviderUseDescriptorType, evntprov/MaxEventInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: evntprov.h
 req.include-header: 

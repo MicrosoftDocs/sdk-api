@@ -9,8 +9,8 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1ub6_cpp.htm
 ms.author: windowssdkdev
 ms.date: 11/08/2018
 ms.keywords: IFaxDeviceProvider, IFaxDeviceProvider interface [Fax Service], IFaxDeviceProvider interface [Fax Service],described, _mfax_faxdeviceprovider_cpp, fax._mfax_faxdeviceprovider_cpp, faxcomex/IFaxDeviceProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
@@ -57,7 +57,7 @@ The <b>IFaxDeviceProvider</b> interface defines a configuration object used by a
 
 
 
-A default implementation of <b>IFaxDeviceProvider</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a> object.
+A default implementation of <b>IFaxDeviceProvider</b> is provided as the <a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a> object.
 
 
 

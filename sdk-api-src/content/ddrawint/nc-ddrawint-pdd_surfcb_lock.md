@@ -9,8 +9,8 @@ ms.assetid: b5256ed8-79be-4c7b-a079-ed3bca954e9e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, PDD_SURFCB_LOCK callback, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

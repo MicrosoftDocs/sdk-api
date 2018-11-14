@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICertificateAttestationChallenge.DecryptChallenge
+: 
 ---
 
 # ICertificateAttestationChallenge::DecryptChallenge
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Decrypts the challenge from the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) response and creates a re-encrypted response to send to the CA.
+Decrypts the challenge from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) response and creates a re-encrypted response to send to the CA.
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Decrypts the challenge from the <a href="https://msdn.microsoft.com/en-us/librar
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of Unicode-encoding applied to the  attestation challenge. The default value is XCN_CRYPT_STRING_BASE64.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of Unicode-encoding applied to the  attestation challenge. The default value is XCN_CRYPT_STRING_BASE64.
 
 
 ### -param pstrEnvelopedPkcs7ReencryptedToCA [out, retval]
@@ -82,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379339(v=VS.85).aspx">ICertificateAttestationChallenge</a>
+<a href="https://msdn.microsoft.com/3b8d3104-5824-4801-9b74-59307e650662">ICertificateAttestationChallenge</a>
  
 
  

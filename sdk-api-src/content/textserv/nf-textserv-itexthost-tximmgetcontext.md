@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextHost.TxImmGetContext
+: 
 ---
 
 # ITextHost::TxImmGetContext
@@ -82,7 +90,7 @@ The handle to the input context.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -90,11 +98,11 @@ The handle to the input context.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787704(v=VS.85).aspx">TxImmReleaseContext</a>
+<a href="https://msdn.microsoft.com/66923ce5-2bfb-4df0-a693-052b38ee5c7b">TxImmReleaseContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

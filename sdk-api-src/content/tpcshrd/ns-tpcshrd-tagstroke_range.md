@@ -9,8 +9,8 @@ ms.assetid: cae64877-2ea4-45a1-b5c2-0764c7ebeaf7
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: STROKE_RANGE, STROKE_RANGE structure [Tablet PC], cae64877-2ea4-45a1-b5c2-0764c7ebeaf7, tablet.stroke_range, tagSTROKE_RANGE, tpcshrd/STROKE_RANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: Tcpshrd.h

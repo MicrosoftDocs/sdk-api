@@ -9,8 +9,8 @@ ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], IMFSinkWriterCallback interface [Media Foundation],described, mf.imfsinkwritercallback, mfreadwrite/IMFSinkWriterCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

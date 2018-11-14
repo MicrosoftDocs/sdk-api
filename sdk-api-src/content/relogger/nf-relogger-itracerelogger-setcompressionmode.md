@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- relogger.h
+: 
+- ITraceRelogger.SetCompressionMode
+: 
 ---
 
 # ITraceRelogger::SetCompressionMode

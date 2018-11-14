@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateUrlCacheGroup
+: 
 ---
 
 # CreateUrlCacheGroup function
@@ -61,7 +67,7 @@ Generates cache group identifications.
 ### -param dwFlags [in]
 
 Controls the creation of the cache group. This parameter can be set to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383923(v=VS.85).aspx">CACHEGROUP_FLAG_GIDONLY</a>, which causes 
+<a href="cache_group_constants.htm">CACHEGROUP_FLAG_GIDONLY</a>, which causes 
 <b>CreateUrlCacheGroup</b> to generate a unique GROUPID, but does not create a physical group.
 
 

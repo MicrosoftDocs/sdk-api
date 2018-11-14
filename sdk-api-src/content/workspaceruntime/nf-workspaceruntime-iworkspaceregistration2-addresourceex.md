@@ -41,6 +41,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- workspaceruntime.h
+: 
+- IWorkspaceRegistration2.AddResourceEx
+: 
 ---
 
 # IWorkspaceRegistration2::AddResourceEx

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont.CanChange
+: 
 ---
 
 # ITextFont::CanChange
@@ -106,7 +114,7 @@ The font cannot change.
 
 
 
-The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. That is, no part of an associated range is protected and an associated document is not read-only. If this <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> object is a duplicate, no protection rules apply.
+The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. That is, no part of an associated range is protected and an associated document is not read-only. If this <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> object is a duplicate, no protection rules apply.
 
 
 
@@ -120,7 +128,7 @@ The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -128,7 +136,7 @@ The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

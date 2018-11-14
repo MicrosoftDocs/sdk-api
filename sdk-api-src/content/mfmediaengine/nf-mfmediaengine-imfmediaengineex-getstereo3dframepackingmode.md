@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineEx.GetStereo3DFramePackingMode
+: 
 ---
 
 # IMFMediaEngineEx::GetStereo3DFramePackingMode

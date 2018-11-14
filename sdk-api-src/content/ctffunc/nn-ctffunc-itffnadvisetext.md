@@ -9,8 +9,8 @@ ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
@@ -52,14 +52,14 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 The <b>ITfFnAdviseText</b> interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
 
-The manager obtains this interface from the text service by calling the text service <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnAdviseText.
+The manager obtains this interface from the text service by calling the text service <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnAdviseText.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnAdviseText</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnAdviseText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnAdviseText</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnAdviseText</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ITfFnAdviseText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538917(v=VS.85).aspx">OnLatticeUpdate</a>
+<a href="https://msdn.microsoft.com/c58f3d2f-ad74-43a7-a8a8-65d65d603611">OnLatticeUpdate</a>
 </td>
 <td align="left" width="63%">
 Called when a lattice element within a context changes.
@@ -81,7 +81,7 @@ Called when a lattice element within a context changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538919(v=VS.85).aspx">OnTextUpdate</a>
+<a href="https://msdn.microsoft.com/0b8235bd-22a6-4074-89e5-2223a20f3559">OnTextUpdate</a>
 </td>
 <td align="left" width="63%">
 Called when the text within a context changes.
@@ -101,7 +101,7 @@ Called when the text within a context changes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

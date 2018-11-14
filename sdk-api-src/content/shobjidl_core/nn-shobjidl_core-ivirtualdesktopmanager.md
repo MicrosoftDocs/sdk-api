@@ -9,8 +9,8 @@ ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell],described, shell.ivirtualdesktopmanager, shobjidl_core/IVirtualDesktopManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
@@ -70,7 +70,7 @@ The <b>IVirtualDesktopManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt186441(v=VS.85).aspx">GetWindowDesktopId</a>
+<a href="https://msdn.microsoft.com/1A53C70F-6034-449D-832E-A563886F20E4">GetWindowDesktopId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the virtual desktop hosting the provided top-level window.
@@ -79,7 +79,7 @@ Gets the identifier for the virtual desktop hosting the provided top-level windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt186442(v=VS.85).aspx">IsWindowOnCurrentVirtualDesktop</a>
+<a href="https://msdn.microsoft.com/CBC97CF4-0C88-4C68-A873-5A5962C5817D">IsWindowOnCurrentVirtualDesktop</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the provided window is on the currently active virtual desktop.
@@ -88,7 +88,7 @@ Indicates whether the provided window is on the currently active virtual desktop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt186443(v=VS.85).aspx">MoveWindowToDesktop</a>
+<a href="https://msdn.microsoft.com/A8756361-E371-41C5-B3F5-BD99439878D9">MoveWindowToDesktop</a>
 </td>
 <td align="left" width="63%">
 Moves a window to the specified virtual desktop.
@@ -106,7 +106,7 @@ The user can group a collection of windows together to create a virtual desktop.
 
 To support this concept, applications should avoid automatically switching the user from one virtual desktop to another. Only the user should instigate that change. In order to support this, newly created windows should appear on the currently active virtual desktop. In addition, if an application can reuse currently active windows, it should only reuse windows if they are on the currently active virtual desktop. Otherwise, a new window should be created.
 
-<img alt="Virtual desktop visualization" src="./images/VirtualDesktops.png"/>
+<img alt="Virtual desktop visualization" src="images/VirtualDesktops.png"/>
 In the above image, the user has two virtual desktops and <b>VD2</b> is the currently active virtual desktop. If the user clicks a link in an outlook message, there's a URI activation that should open the link in an Internet Explorer window. If the user has configured IE to open links in the current window, it would normally use the currently open window. However, in this case, IE is on an inactive virtual desktop. In this scenario, IE should create a new window in the currently active virtual desktop.
 
 

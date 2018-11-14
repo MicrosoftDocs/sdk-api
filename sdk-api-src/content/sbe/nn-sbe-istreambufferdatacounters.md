@@ -9,8 +9,8 @@ ms.assetid: d9394d04-ba6b-4946-b33a-9c53070238f7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IStreamBufferDataCounters, IStreamBufferDataCounters interface [Microsoft TV Technologies], IStreamBufferDataCounters interface [Microsoft TV Technologies],described, IStreamBufferDataCountersInterface, mstv.istreambufferdatacounters, sbe/IStreamBufferDataCounters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

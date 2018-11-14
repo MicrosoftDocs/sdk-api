@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IMultisession.get_ImportRecorder
+: 
 ---
 
 # IMultisession::get_ImportRecorder

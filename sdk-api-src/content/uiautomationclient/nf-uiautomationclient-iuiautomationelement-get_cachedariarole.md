@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement.get_CachedAriaRole
+: 
 ---
 
 # IUIAutomationElement::get_CachedAriaRole

@@ -4,10 +4,10 @@ title: GlobalAlloc function
 author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\globalalloc.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GlobalAlloc
+: 
 ---
 
 # GlobalAlloc function

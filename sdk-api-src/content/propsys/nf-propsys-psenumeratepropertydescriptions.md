@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PSEnumeratePropertyDescriptions
+: 
 ---
 
 # PSEnumeratePropertyDescriptions function
@@ -50,7 +56,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-A wrapper API that calls the schema subsystem's <a href="https://msdn.microsoft.com/library/Bb761426(v=VS.85).aspx">IPropertySystem::EnumeratePropertyDescriptions</a>. This function retrieves an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain either the entire list or a partial list of property descriptions in the system.
+A wrapper API that calls the schema subsystem's <a href="shell.IPropertySystem_EnumeratePropertyDescriptions">IPropertySystem::EnumeratePropertyDescriptions</a>. This function retrieves an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain either the entire list or a partial list of property descriptions in the system.
 
 
 ## -parameters
@@ -60,9 +66,9 @@ A wrapper API that calls the schema subsystem's <a href="https://msdn.microsoft.
 
 ### -param filterOn [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762524(v=VS.85).aspx">PROPDESC_ENUMFILTER</a></b>
+Type: <b><a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a></b>
 
-The list to return. <a href="https://msdn.microsoft.com/en-us/library/Bb762524(v=VS.85).aspx">PROPDESC_ENUMFILTER</a> shows the valid values for this method. 
+The list to return. <a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a> shows the valid values for this method. 
 
 
 ### -param riid [in]
@@ -76,7 +82,7 @@ Reference to the  interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns

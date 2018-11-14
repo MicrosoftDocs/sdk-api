@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certadm.h
+: 
+- IOCSPCAConfigurationCollection.get_Count
+: 
 ---
 
 # IOCSPCAConfigurationCollection::get_Count
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property gets the number of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) configurations  in the configuration set.
+The <b>Count</b> property gets the number of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configurations  in the configuration set.
 
 This property is read-only.
 
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386330(v=VS.85).aspx">IOCSPCAConfigurationCollection</a>
+<a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 205bff19-d9ac-4dc0-ab11-92cf70a3bd49
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PCABINET_INFO_W, CABINET_INFO, CABINET_INFO structure [Setup API], CABINET_INFO_W, PCABINET_INFO, PCABINET_INFO structure pointer [Setup API], _CABINET_INFO_W, _setupapi_cabinet_info_str, setup.cabinet_info_str, setupapi/CABINET_INFO, setupapi/PCABINET_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

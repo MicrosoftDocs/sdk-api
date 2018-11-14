@@ -9,8 +9,8 @@ ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mftransform.h
 req.include-header: 

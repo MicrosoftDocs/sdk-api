@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- IUserNotification2.PlaySound
+: 
 ---
 
 # IUserNotification2::PlaySound

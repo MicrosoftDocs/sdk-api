@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wia_xp.h
+: 
+- IWiaPropertyStorage.GetCount
+: 
 ---
 
 # IWiaPropertyStorage::GetCount
@@ -85,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a>
+<a href="https://msdn.microsoft.com/b80d22d4-8e36-484a-9dd1-f228e2236eaf">IWiaPropertyStorage</a>
  
 
  

@@ -48,6 +48,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMHeaderInfo.AddMarker
+: 
 ---
 
 # IWMHeaderInfo::AddMarker
@@ -57,7 +65,7 @@ req.redist:
 
 
 
-The <b>AddMarker</b> method adds a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>, consisting of a name and a specific time, to the header section of the ASF file.
+The <b>AddMarker</b> method adds a <a href="wmformat_glossary.htm">marker</a>, consisting of a name and a specific time, to the header section of the ASF file.
 
 
 

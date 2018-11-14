@@ -9,8 +9,8 @@ ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
@@ -61,7 +61,7 @@ The object should retain a pointer to the undo manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoUnit</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleUndoUnit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoUnit</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleUndoUnit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

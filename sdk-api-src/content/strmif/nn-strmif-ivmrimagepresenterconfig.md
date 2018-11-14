@@ -9,8 +9,8 @@ ms.assetid: cbf0fac4-c976-4c1a-ab3a-75ae0d565544
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRImagePresenterConfig, IVMRImagePresenterConfig interface [DirectShow], IVMRImagePresenterConfig interface [DirectShow],described, IVMRImagePresenterConfigInterface, dshow.ivmrimagepresenterconfig, strmif/IVMRImagePresenterConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -9,8 +9,8 @@ ms.assetid: FC5B37C0-8512-441B-AC33-FAE378C8C3EC
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, D3D11_SHADER_CACHE_SUPPORT_FLAGS, D3D11_SHADER_CACHE_SUPPORT_FLAGS enumeration [Direct3D 11], D3D11_SHADER_CACHE_SUPPORT_NONE, d3d11/D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, d3d11/D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, d3d11/D3D11_SHADER_CACHE_SUPPORT_FLAGS, d3d11/D3D11_SHADER_CACHE_SUPPORT_NONE, direct3d11.d3d11_shader_cache_support_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
@@ -87,7 +87,7 @@ This enum is used by the <a href="direct3d11d3d11_feature_data_shader_cache">D3D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

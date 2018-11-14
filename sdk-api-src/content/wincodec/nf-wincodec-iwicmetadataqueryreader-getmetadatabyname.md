@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wincodec.h
+: 
+- IWICMetadataQueryReader.GetMetadataByName
+: 
 ---
 
 # IWICMetadataQueryReader::GetMetadataByName
@@ -67,7 +75,7 @@ The query expression to the requested metadata block or item.
 
 ### -param pvarValue [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 When this method returns, contains the metadata block or item requested.
 
@@ -119,7 +127,7 @@ If multiple blocks or items exist that are expressed by the same query expressio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>
+<a href="_stg_propvariant">PROPVARIANT</a>
 
 
 

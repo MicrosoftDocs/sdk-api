@@ -9,8 +9,8 @@ ms.assetid: 2a3ad63f-9fa1-41c7-b628-5fe4e17ce7ac
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_TRAFFIC1, IPSEC_TRAFFIC1 structure [Filtering], IPSEC_TRAFFIC1_, fwp.ipsec_traffic1_struct, ipsectypes/IPSEC_TRAFFIC1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

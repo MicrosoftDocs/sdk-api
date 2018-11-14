@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsobjectmodel_1.h
+: 
+- IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1
+: 
 ---
 
 # IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1

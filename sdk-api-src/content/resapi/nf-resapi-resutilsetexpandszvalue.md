@@ -7,7 +7,7 @@ old-location: mscs\resutilsetexpandszvalue.htm
 tech.root: mscs
 ms.assetid: a2049be4-cebb-45bf-b2f7-40841e379b12
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilSetExpandSzValue, ResUtilSetExpandSzValue function [Failover Cluster], _wolf_resutilsetexpandszvalue, mscs.resutilsetexpandszvalue, resapi/PRESUTIL_SET_EXPAND_SZ_VALUE, resapi/ResUtilSetExpandSzValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilSetExpandSzValue
+: 
 ---
 
 # ResUtilSetExpandSzValue function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Sets an <a href="https://msdn.microsoft.com/en-us/library/Aa369570(v=VS.85).aspx">expandable string</a> value in the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>. The <b>PRESUTIL_SET_EXPAND_SZ_VALUE</b> type defines a pointer to this function.
+Sets an <a href="e_gly.htm">expandable string</a> value in the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>. The <b>PRESUTIL_SET_EXPAND_SZ_VALUE</b> type defines a pointer to this function.
 
 
 ## -parameters

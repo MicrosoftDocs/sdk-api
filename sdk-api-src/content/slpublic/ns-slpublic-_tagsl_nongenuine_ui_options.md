@@ -9,8 +9,8 @@ ms.assetid: 5e793f09-1d12-4b69-8ba6-6c45421df533
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: SL_NONGENUINE_UI_OPTIONS, SL_NONGENUINE_UI_OPTIONS structure [Security], _tagSL_NONGENUINE_UI_OPTIONS, security.sl_nongenuine_ui_options, slpublic/SL_NONGENUINE_UI_OPTIONS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: slpublic.h
 req.include-header: 

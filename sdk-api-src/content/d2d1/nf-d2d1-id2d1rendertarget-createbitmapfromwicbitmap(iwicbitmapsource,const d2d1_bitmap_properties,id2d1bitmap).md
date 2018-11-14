@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitma
 tech.root: direct2d
 ms.assetid: 2bf05918-fb43-4556-ada6-4464322313f0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateBitmapFromWicBitmap method, ID2D1RenderTarget.CreateBitmapFromWicBitmap, ID2D1RenderTarget.CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap), ID2D1RenderTarget::CreateBitmapFromWicBitmap, ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap), d2d1/ID2D1RenderTarget::CreateBitmapFromWicBitmap, direct2d.ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ref_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1RenderTarget.CreateBitmapFromWicBitmap
+: 
 ---
 
 # ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap)

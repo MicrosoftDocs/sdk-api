@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPISessionProperties.put_Property
+: 
 ---
 
 # IRDPSRAPISessionProperties::put_Property

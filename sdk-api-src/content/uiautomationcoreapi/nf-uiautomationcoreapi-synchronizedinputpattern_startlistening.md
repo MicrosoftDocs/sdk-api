@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SynchronizedInputPattern_StartListening
+: 
 ---
 
 # SynchronizedInputPattern_StartListening function

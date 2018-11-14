@@ -9,8 +9,8 @@ ms.assetid: 6526e048-b7a8-4822-afd7-30f04a3039eb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SYNCMGRINVOKEFLAGS, SYNCMGRINVOKEFLAGS enumeration [Windows Shell], SYNCMGRINVOKE_MINIMIZED, SYNCMGRINVOKE_STARTSYNC, _tagSYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKE_MINIMIZED, mobsync/SYNCMGRINVOKE_STARTSYNC, shell.syncmgr_syncmgrinvokeflags, syncmgr.syncmgrinvokeflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- OPMGetVideoOutputsFromIDirect3DDevice9Object
+: 
 ---
 
 # OPMGetVideoOutputsFromIDirect3DDevice9Object function

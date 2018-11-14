@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shappmgr.h
+: 
+- IPublishedApp2.Install2
+: 
 ---
 
 # IPublishedApp2::Install2

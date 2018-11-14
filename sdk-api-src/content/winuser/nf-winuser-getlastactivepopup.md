@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetLastActivePopup
+: 
 ---
 
 # GetLastActivePopup function
@@ -89,7 +95,7 @@ The return value identifies the most recently active pop-up window. The return v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632670(v=VS.85).aspx">AnyPopup</a>
+<a href="https://msdn.microsoft.com/dcbe94e2-3087-42e2-aaf3-3b998240057e">AnyPopup</a>
 
 
 
@@ -101,11 +107,11 @@ The return value identifies the most recently active pop-up window. The return v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx">ShowOwnedPopups</a>
+<a href="https://msdn.microsoft.com/ca4cd67b-6db1-43a9-8918-1400fef2ea1e">ShowOwnedPopups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

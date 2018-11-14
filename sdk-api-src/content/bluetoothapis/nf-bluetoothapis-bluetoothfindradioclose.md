@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BluetoothFindRadioClose
+: 
 ---
 
 # BluetoothFindRadioClose function
@@ -62,7 +68,7 @@ The <b>BluetoothFindRadioClose</b> function closes the enumeration handle associ
 
 ### -param hFind
 
-Enumeration handle to close, obtained with a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a> function.
+Enumeration handle to close, obtained with a previous call to the <a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a> function.
 
 
 ## -returns
@@ -79,19 +85,19 @@ Returns <b>TRUE</b> when the handle is successfully closed. Returns <b>FALSE</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362926(v=VS.85).aspx">BLUETOOTH_FIND_RADIO_PARAMS</a>
+<a href="https://msdn.microsoft.com/b997203d-e7e4-43aa-b751-e419483020ac">BLUETOOTH_FIND_RADIO_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a>
+<a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362790(v=VS.85).aspx">BluetoothFindNextRadio</a>
+<a href="https://msdn.microsoft.com/7dd6b823-f9c6-4375-80b6-d59c4570c8fb">BluetoothFindNextRadio</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362797(v=VS.85).aspx">BluetoothGetRadioInfo</a>
+<a href="https://msdn.microsoft.com/0c596f49-70f9-4a58-842c-e01dcf69bd01">BluetoothGetRadioInfo</a>
 
 
 

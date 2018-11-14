@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- ITfFnAdviseText.OnTextUpdate
+: 
 ---
 
 # ITfFnAdviseText::OnTextUpdate
@@ -59,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that represents the range of text that has changed.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that represents the range of text that has changed.
 
 
 ### -param pchText [in]
@@ -116,7 +124,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538915(v=VS.85).aspx">ITfFnAdviseText</a>
+<a href="https://msdn.microsoft.com/7cca7f23-48d3-4855-8f3d-e937bbc990d4">ITfFnAdviseText</a>
 
 
 

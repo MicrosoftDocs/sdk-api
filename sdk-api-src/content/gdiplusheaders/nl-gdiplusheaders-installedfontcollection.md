@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\installedfontcollection
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+], InstalledFontCollection class [GDI+],described, _gdiplus_CLASS_InstalledFontCollection_Class, gdiplus._gdiplus_CLASS_InstalledFontCollection_Class, gdiplusheaders/InstalledFontCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms535364(v=VS.85).aspx">InstalledFontCollection</a> class defines a class that represents the fonts installed on the system.
+The <a href="https://msdn.microsoft.com/9f6662f8-a0ac-459f-b4a9-ae5f8e0608ef">InstalledFontCollection</a> class defines a class that represents the fonts installed on the system.
 
 
 ## -remarks
 
 
 
-Windows GDI+ clients should not use the <a href="https://msdn.microsoft.com/en-us/library/ms535364(v=VS.85).aspx">InstalledFontCollection</a> class to install a font to Windows. Instead, use the Windows Graphics Device Interface (GDI)Â <a href="https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9">AddFontResource</a> function. An <b>InstalledFontCollection</b> object can find only those fonts that were installed in Windows before the object was created.
+Windows GDI+ clients should not use the <a href="https://msdn.microsoft.com/9f6662f8-a0ac-459f-b4a9-ae5f8e0608ef">InstalledFontCollection</a> class to install a font to Windows. Instead, use the Windows Graphics Device Interface (GDI)Â <a href="https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9">AddFontResource</a> function. An <b>InstalledFontCollection</b> object can find only those fonts that were installed in Windows before the object was created.
 
 
 
@@ -67,11 +67,11 @@ Windows GDI+ clients should not use the <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

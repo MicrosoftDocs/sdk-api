@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_1.h
+: 
+- IDWriteTextAnalyzer1.GetTextComplexity
+: 
 ---
 
 # IDWriteTextAnalyzer1::GetTextComplexity

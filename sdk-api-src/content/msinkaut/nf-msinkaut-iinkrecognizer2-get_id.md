@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizer2.get_Id
+: 
 ---
 
 # IInkRecognizer2::get_Id

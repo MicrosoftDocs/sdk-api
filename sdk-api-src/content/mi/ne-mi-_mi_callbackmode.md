@@ -9,8 +9,8 @@ ms.assetid: 742610a4-3276-4bab-877d-8e74c6dc80cd
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_CallbackMode, MI_CallbackMode enumeration [Windows Management Infrastructure (MI)], _MI_CallbackMode, mi/MI_CALLBACKMODE_INQUIRE, mi/MI_CALLBACKMODE_REPORT, mi/MI_CallbackMode, wmi._mi_callbackmode, wmi_v2.mi_callbackmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

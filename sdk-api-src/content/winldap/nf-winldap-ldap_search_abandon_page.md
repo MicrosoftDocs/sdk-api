@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_search_abandon_page
+: 
 ---
 
 # ldap_search_abandon_page function

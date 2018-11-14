@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObjectConference.put_AdvertisingScope
+: 
 ---
 
 # ITDirectoryObjectConference::put_AdvertisingScope

@@ -9,8 +9,8 @@ ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _BLUETOOTH_COD_PAIRS, _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -86,7 +86,7 @@ See the Bluetooth specification at
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS </a>
+<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS </a>
  
 
  

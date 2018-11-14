@@ -9,8 +9,8 @@ ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_SA_ENUM_TEMPLATE0, IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering], IKEEXT_SA_ENUM_TEMPLATE0_, fwp.ikeext_sa_enum_template0, iketypes/IKEEXT_SA_ENUM_TEMPLATE0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_raytracing_acceleration_structure_type.htm
 tech.root: direct3d12
 ms.assetid: 2E77BD31-A04F-4AB3-9C03-E1A7D1C962AD
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE enumeration, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL, direct3d12.d3d12_raytracing_acceleration_structure_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

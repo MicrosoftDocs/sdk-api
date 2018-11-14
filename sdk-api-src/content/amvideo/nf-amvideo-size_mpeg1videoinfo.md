@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- amvideo.h
+: 
+- SIZE_MPEG1VIDEOINFO
+: 
 ---
 
 # SIZE_MPEG1VIDEOINFO macro

@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut15.h
+: 
+- IInkDivisionUnit.get_DivisionType
+: 
 ---
 
 # IInkDivisionUnit::get_DivisionType

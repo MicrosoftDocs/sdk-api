@@ -9,8 +9,8 @@ ms.assetid: 054b84ba-bb5e-4dca-8482-6b958151aedf
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEMRANGLEARC, EMRANGLEARC, EMRANGLEARC structure [Windows GDI], PEMRANGLEARC, PEMRANGLEARC structure pointer [Windows GDI], _win32_EMRANGLEARC_str, gdi.emranglearc, tagEMRANGLEARC, wingdi/EMRANGLEARC, wingdi/PEMRANGLEARC"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,8 @@ ms.assetid: 65a3dab8-3136-416d-bd8a-ca813bfe0533
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICustomDestinationList, ICustomDestinationList interface [Windows Shell], ICustomDestinationList interface [Windows Shell],described, _shell_ICustomDestinationList, shell.ICustomDestinationList, shobjidl_core/ICustomDestinationList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -7,7 +7,7 @@ old-location: multimedia\icgetinfo.htm
 tech.root: Multimedia
 ms.assetid: 763dc5ef-7578-44c8-ab14-0e49644213ef
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ICGetInfo
+: 
 ---
 
 # ICGetInfo function

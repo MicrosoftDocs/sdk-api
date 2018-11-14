@@ -9,8 +9,8 @@ ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, naptypes/Ipv4Address, tagIpv4Address
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

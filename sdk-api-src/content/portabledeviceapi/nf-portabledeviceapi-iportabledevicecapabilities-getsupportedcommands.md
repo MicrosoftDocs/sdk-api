@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- portabledeviceapi.h
+: 
+- IPortableDeviceCapabilities.GetSupportedCommands
+: 
 ---
 
 # IPortableDeviceCapabilities::GetSupportedCommands
@@ -110,7 +118,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement7.GetCurrentMetadataValue
+: 
 ---
 
 # IUIAutomationElement7::GetCurrentMetadataValue
@@ -87,7 +95,7 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt798241(v=VS.85).aspx">IUIAutomationElement7</a>
+<a href="winauto.iuiautomationelement7">IUIAutomationElement7</a>
 
 
 

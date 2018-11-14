@@ -7,7 +7,7 @@ old-location: eaphost\eappeerinvokeinteractiveui.htm
 tech.root: eaphost
 ms.assetid: 16301c49-4415-4ebe-abdd-a03183db5f20
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerInvokeInteractiveUI, EapPeerInvokeInteractiveUI function [EAPHost], eaphost.eappeerinvokeinteractiveui, eapmethodpeerapis/EapPeerInvokeInteractiveUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapPeerInvokeInteractiveUI
+: 
 ---
 
 # EapPeerInvokeInteractiveUI function

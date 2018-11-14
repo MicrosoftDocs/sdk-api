@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cloneviewhelper.h
+: 
+- IViewHelper.SetConfiguration
+: 
 ---
 
 # IViewHelper::SetConfiguration
@@ -152,31 +160,31 @@ The following data structures are used to format the display modes and topology 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538207(v=VS.85).aspx">Adapter</a>
+<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538208(v=VS.85).aspx">Adapters</a>
+<a href="https://msdn.microsoft.com/4f91e683-66f6-4667-86d0-d3de28ba64b0">Adapters</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554037(v=VS.85).aspx">DisplayMode</a>
+<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554039(v=VS.85).aspx">DisplayModes</a>
+<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
 
 
 </li>
@@ -191,19 +199,19 @@ These structures are defined in the <i>Cloneviewhelper.h</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538207(v=VS.85).aspx">Adapter</a>
+<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538208(v=VS.85).aspx">Adapters</a>
+<a href="https://msdn.microsoft.com/4f91e683-66f6-4667-86d0-d3de28ba64b0">Adapters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554037(v=VS.85).aspx">DisplayMode</a>
+<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554039(v=VS.85).aspx">DisplayModes</a>
+<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
 
 
 
@@ -211,7 +219,7 @@ These structures are defined in the <i>Cloneviewhelper.h</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
  
 
  

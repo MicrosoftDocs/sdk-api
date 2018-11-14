@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IContextMenuCallback2.AddItem
+: 
 ---
 
 # IContextMenuCallback2::AddItem

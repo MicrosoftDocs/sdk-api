@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DCubeTexture9.UnlockRect
+: 
 ---
 
 # IDirect3DCubeTexture9::UnlockRect
@@ -61,9 +69,9 @@ Unlocks a rectangle on a cube texture resource.
 
 ### -param FaceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx">D3DCUBEMAP_FACES</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6d18b410-6f22-4202-86ae-6b3ef85e6f69">D3DCUBEMAP_FACES</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx">D3DCUBEMAP_FACES</a> enumerated type, identifying a cube map face. 
+Member of the <a href="https://msdn.microsoft.com/6d18b410-6f22-4202-86ae-6b3ef85e6f69">D3DCUBEMAP_FACES</a> enumerated type, identifying a cube map face. 
 
 
 ### -param Level [in]
@@ -77,7 +85,7 @@ Specifies a level of a mipmapped cube texture.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be: D3DERR_INVALIDCALL.
 
@@ -89,15 +97,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174329(v=VS.85).aspx">IDirect3DCubeTexture9</a>
+<a href="https://msdn.microsoft.com/59e400ae-d2ec-425c-9adf-49cb5a24c808">IDirect3DCubeTexture9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174330(v=VS.85).aspx">IDirect3DCubeTexture9::AddDirtyRect</a>
+<a href="https://msdn.microsoft.com/377536bd-c55c-4ec8-a07c-5addd8e84c3a">IDirect3DCubeTexture9::AddDirtyRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174334(v=VS.85).aspx">IDirect3DCubeTexture9::LockRect</a>
+<a href="https://msdn.microsoft.com/724317a3-1fc7-499d-94b7-759731337a00">IDirect3DCubeTexture9::LockRect</a>
  
 
  

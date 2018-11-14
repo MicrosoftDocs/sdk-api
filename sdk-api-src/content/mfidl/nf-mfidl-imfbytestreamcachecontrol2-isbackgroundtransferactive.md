@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFByteStreamCacheControl2.IsBackgroundTransferActive
+: 
 ---
 
 # IMFByteStreamCacheControl2::IsBackgroundTransferActive

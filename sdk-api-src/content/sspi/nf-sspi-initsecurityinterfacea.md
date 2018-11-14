@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InitSecurityInterfaceA
+: 
 ---
 
 # InitSecurityInterfaceA function
@@ -81,7 +87,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

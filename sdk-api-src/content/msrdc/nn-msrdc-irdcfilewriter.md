@@ -9,8 +9,8 @@ ms.assetid: 8b6ac8d0-37fd-4bd3-aa44-5b57f546364d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], IRdcFileWriter interface [Remote Differential Compression],described, fs.irdcfilewriter, msrdc/IRdcFileWriter, rdc.irdcfilewriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

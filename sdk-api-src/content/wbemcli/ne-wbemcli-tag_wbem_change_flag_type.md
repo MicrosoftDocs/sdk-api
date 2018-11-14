@@ -9,8 +9,8 @@ ms.assetid: B36B7D62-13C9-401F-A6C0-7C498A139AEC
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: WBEM_CHANGE_FLAG_TYPE, WBEM_CHANGE_FLAG_TYPE enumeration [Windows Management Instrumentation], WBEM_FLAG_ADVISORY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_MASK_UPDATE_MODE, tag_WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_FLAG_ADVISORY, wbemcli/WBEM_FLAG_CREATE_ONLY, wbemcli/WBEM_FLAG_CREATE_OR_UPDATE, wbemcli/WBEM_FLAG_UPDATE_COMPATIBLE, wbemcli/WBEM_FLAG_UPDATE_FORCE_MODE, wbemcli/WBEM_FLAG_UPDATE_ONLY, wbemcli/WBEM_FLAG_UPDATE_SAFE_MODE, wbemcli/WBEM_MASK_UPDATE_MODE, wmi.wbem_change_flag_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 6ac191ac-e63f-431f-893b-92c69320db58
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DAV_AUTHN_SCHEME_BASIC, DAV_AUTHN_SCHEME_CERT, DAV_AUTHN_SCHEME_DIGEST, DAV_AUTHN_SCHEME_FBA, DAV_AUTHN_SCHEME_NEGOTIATE, DAV_AUTHN_SCHEME_NTLM, DAV_AUTHN_SCHEME_PASSPORT, DavAuthCallback, DavAuthCallback callback function [WebDAV], PFNDAVAUTHCALLBACK, PFNDAVAUTHCALLBACK callback, davclnt/DavAuthCallback, webdav.authcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: davclnt.h
 req.include-header: 
@@ -110,7 +110,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/Aa384067(v=VS.85).aspx">Passport authentication</a> is to be used.
+<a href="http.passport">Passport authentication</a> is to be used.
 
 </td>
 </tr>

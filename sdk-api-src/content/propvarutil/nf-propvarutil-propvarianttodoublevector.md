@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantToDoubleVector
+: 
 ---
 
 # PropVariantToDoubleVector function
@@ -152,23 +158,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
+<a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776520(v=VS.85).aspx">PropVariantGetDoubleElem</a>
+<a href="shell.PropVariantGetDoubleElem">PropVariantGetDoubleElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
+<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776540(v=VS.85).aspx">PropVariantToDoubleVectorAlloc</a>
+<a href="shell.PropVariantToDoubleVectorAlloc">PropVariantToDoubleVectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a>
+<a href="shell.VariantToDoubleArray">VariantToDoubleArray</a>
  
 
  

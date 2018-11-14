@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnSmsReadMsgTextCdma.get_LanguageID
+: 
 ---
 
 # IMbnSmsReadMsgTextCdma::get_LanguageID

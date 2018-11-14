@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vmr9.h
+: 
+- IVMRMixerControl9.SetBackgroundClr
+: 
 ---
 
 # IVMRMixerControl9::SetBackgroundClr

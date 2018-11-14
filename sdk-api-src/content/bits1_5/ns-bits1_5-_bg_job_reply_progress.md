@@ -9,8 +9,8 @@ ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BG_JOB_REPLY_PROGRESS, BG_JOB_REPLY_PROGRESS structure [BITS], _BG_JOB_REPLY_PROGRESS, _drz_bg_job_reply_progress, bits.bg_job_reply_progress, bits1_5/BG_JOB_REPLY_PROGRESS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bits1_5.h
 req.include-header: Bits.h
@@ -74,7 +74,7 @@ Number of bytes transferred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362985(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyProgress</a>
+<a href="https://msdn.microsoft.com/76509b1a-fdfb-4236-8554-f63282bfc1b6">IBackgroundCopyJob2::GetReplyProgress</a>
  
 
  

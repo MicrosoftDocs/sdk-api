@@ -4,10 +4,10 @@ title: VirtualLock function
 author: windows-sdk-content
 description: Locks the specified region of the process's virtual address space into physical memory, ensuring that subsequent access to the region will not incur a page fault.
 old-location: base\virtuallock.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 414c4704-36f2-40f9-a69a-9d53ab354c30
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: VirtualLock, VirtualLock function, _win32_virtuallock, base.virtuallock, winbase/VirtualLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VirtualLock
+: 
 ---
 
 # VirtualLock function

@@ -9,8 +9,8 @@ ms.assetid: 0D4F7634-0AB1-41C2-8D4F-8C42C1D973D2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3D11UnorderedAccessView1, ID3D11UnorderedAccessView1 interface [Direct3D 11], ID3D11UnorderedAccessView1 interface [Direct3D 11],described, d3d11_3/ID3D11UnorderedAccessView1, direct3d11.id3d11unorderedaccessview1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 
@@ -56,7 +56,7 @@ An unordered-access-view interface represents the parts of a resource the pipeli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11UnorderedAccessView1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476639(v=VS.85).aspx">ID3D11UnorderedAccessView</a>. <b>ID3D11UnorderedAccessView1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11UnorderedAccessView1</b> interface inherits from <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>. <b>ID3D11UnorderedAccessView1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ All resources must be bound to the pipeline before they can be accessed. Call <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476639(v=VS.85).aspx">ID3D11UnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: b3b5caab-4d70-4f85-bf53-0344192d3674
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FsrmPropertyConditionType, FsrmPropertyConditionType enumeration [File Server Resource Manager], FsrmPropertyConditionType_Contain, FsrmPropertyConditionType_ContainedIn, FsrmPropertyConditionType_EndWith, FsrmPropertyConditionType_Equal, FsrmPropertyConditionType_Exist, FsrmPropertyConditionType_GreaterThan, FsrmPropertyConditionType_LessThan, FsrmPropertyConditionType_MatchesPattern, FsrmPropertyConditionType_NotEqual, FsrmPropertyConditionType_NotExist, FsrmPropertyConditionType_PrefixOf, FsrmPropertyConditionType_StartWith, FsrmPropertyConditionType_SuffixOf, FsrmPropertyConditionType_Unknown, _FsrmPropertyConditionType, fs.fsrmpropertyconditiontype, fsrm.fsrmpropertyconditiontype, fsrm/FsrmPropertyConditionType, fsrm/FsrmPropertyConditionType_Contain, fsrm/FsrmPropertyConditionType_ContainedIn, fsrm/FsrmPropertyConditionType_EndWith, fsrm/FsrmPropertyConditionType_Equal, fsrm/FsrmPropertyConditionType_Exist, fsrm/FsrmPropertyConditionType_GreaterThan, fsrm/FsrmPropertyConditionType_LessThan, fsrm/FsrmPropertyConditionType_MatchesPattern, fsrm/FsrmPropertyConditionType_NotEqual, fsrm/FsrmPropertyConditionType_NotExist, fsrm/FsrmPropertyConditionType_PrefixOf, fsrm/FsrmPropertyConditionType_StartWith, fsrm/FsrmPropertyConditionType_SuffixOf, fsrm/FsrmPropertyConditionType_Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, Fsrmenums.h
@@ -145,7 +145,7 @@ The property condition is met if the property value matches the specified patter
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd392474(v=VS.85).aspx">IFsrmPropertyCondition.Type</a>
+<a href="https://msdn.microsoft.com/2cec0753-20ec-4df4-9a74-c65bfed28070">IFsrmPropertyCondition.Type</a>
  
 
  

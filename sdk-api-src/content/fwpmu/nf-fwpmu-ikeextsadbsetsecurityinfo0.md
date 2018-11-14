@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IkeextSaDbSetSecurityInfo0
+: 
 ---
 
 # IkeextSaDbSetSecurityInfo0 function

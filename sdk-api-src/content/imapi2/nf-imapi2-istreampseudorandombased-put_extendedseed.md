@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IStreamPseudoRandomBased.put_ExtendedSeed
+: 
 ---
 
 # IStreamPseudoRandomBased::put_ExtendedSeed

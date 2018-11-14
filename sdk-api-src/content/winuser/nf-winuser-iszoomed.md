@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsZoomed
+: 
 ---
 
 # IsZoomed function
@@ -90,7 +96,7 @@ If the window is not zoomed, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
+<a href="https://msdn.microsoft.com/a2f0ff67-e625-4f42-9d8f-e81f52c597e8">IsIconic</a>
 
 
 
@@ -98,7 +104,7 @@ If the window is not zoomed, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

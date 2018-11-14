@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_setdestsize.htm
 tech.root: direct3ddxgi
 ms.assetid: BF35FFFE-89C7-4220-9D9F-5BFFE53D3430
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetDestSize method, IDXGIDecodeSwapChain.SetDestSize, IDXGIDecodeSwapChain::SetDestSize, SetDestSize, SetDestSize method [DXGI], SetDestSize method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setdestsize, dxgi1_3/IDXGIDecodeSwapChain::SetDestSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_3.h
+: 
+- IDXGIDecodeSwapChain.SetDestSize
+: 
 ---
 
 # IDXGIDecodeSwapChain::SetDestSize
@@ -75,7 +83,7 @@ The height of the destination size, in pixels.
 
 
 
-This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

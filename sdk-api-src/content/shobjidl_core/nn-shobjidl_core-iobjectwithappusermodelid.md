@@ -9,8 +9,8 @@ ms.assetid: f5b4e6bf-a5bf-49c5-b343-e9c1ec6c263d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IObjectWithAppUserModelID, IObjectWithAppUserModelID interface [Windows Shell], IObjectWithAppUserModelID interface [Windows Shell],described, _shell_IObjectWithAppUserModelID, shell.IObjectWithAppUserModelID, shobjidl_core/IObjectWithAppUserModelID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

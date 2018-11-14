@@ -4,10 +4,10 @@ title: RegOpenKeyA function
 author: windows-sdk-content
 description: Opens the specified registry key.
 old-location: base\regopenkey.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_regopenkey, base.regopenkey, winreg/RegOpenKey, winreg/RegOpenKeyA, winreg/RegOpenKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegOpenKeyA
+: 
 ---
 
 # RegOpenKeyA function

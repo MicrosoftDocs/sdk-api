@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mdhcp.h
+: 
+- IMcastScope.get_TTL
+: 
 ---
 
 # IMcastScope::get_TTL

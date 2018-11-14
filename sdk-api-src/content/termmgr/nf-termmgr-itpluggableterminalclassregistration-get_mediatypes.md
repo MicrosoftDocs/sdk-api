@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITPluggableTerminalClassRegistration.get_MediaTypes
+: 
 ---
 
 # ITPluggableTerminalClassRegistration::get_MediaTypes

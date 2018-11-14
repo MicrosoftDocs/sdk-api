@@ -9,8 +9,8 @@ ms.assetid: b4705882-30ce-4527-a1b5-c0b296b70274
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code, _win32_ioctl_storage_check_verify, base.ioctl_storage_check_verify, winioctl/IOCTL_STORAGE_CHECK_VERIFY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

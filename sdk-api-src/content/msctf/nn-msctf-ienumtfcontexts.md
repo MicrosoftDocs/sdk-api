@@ -9,8 +9,8 @@ ms.assetid: 20b342e6-cac4-4bc5-820b-e397e0ce4648
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework],described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

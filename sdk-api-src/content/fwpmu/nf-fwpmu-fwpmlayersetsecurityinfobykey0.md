@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmLayerSetSecurityInfoByKey0
+: 
 ---
 
 # FwpmLayerSetSecurityInfoByKey0 function

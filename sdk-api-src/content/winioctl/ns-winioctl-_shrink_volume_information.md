@@ -9,8 +9,8 @@ ms.assetid: 91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PSHRINK_VOLUME_INFORMATION, PSHRINK_VOLUME_INFORMATION, PSHRINK_VOLUME_INFORMATION structure pointer [Files], SHRINK_VOLUME_INFORMATION, SHRINK_VOLUME_INFORMATION structure [Files], ShrinkAbort, ShrinkCommit, ShrinkPrepare, _SHRINK_VOLUME_INFORMATION, fs.shrink_volume_information, winioctl/PSHRINK_VOLUME_INFORMATION, winioctl/SHRINK_VOLUME_INFORMATION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

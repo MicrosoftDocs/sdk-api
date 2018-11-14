@@ -9,8 +9,8 @@ ms.assetid: 8ac1a406-92f3-4e39-985e-ab8fa7d28751
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,described, functiondiscoveryapi/IFunctionInstanceCollection, ncd.ifunctioninstancecollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 

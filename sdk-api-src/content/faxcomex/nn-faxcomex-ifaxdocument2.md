@@ -9,8 +9,8 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\faxinta_n_
 ms.author: windowssdkdev
 ms.date: 11/08/2018
 ms.keywords: IFaxDocument2, IFaxDocument2 interface [Fax Service], IFaxDocument2 interface [Fax Service],described, _mfax_faxdocument2_cpp, fax._mfax_faxdocument2_cpp, faxcomex/IFaxDocument2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
@@ -55,7 +55,7 @@ Defines a messaging object used by a fax client application to compose a fax doc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>. <b>IFaxDocument2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument2</b> interface inherits from <a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>. <b>IFaxDocument2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,10 +71,10 @@ The <b>IFaxDocument2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359009(v=VS.85).aspx">ConnectedSubmit2</a>
+<a href="https://msdn.microsoft.com/95d13f50-59fd-4f17-877e-83b51deb9b6c">ConnectedSubmit2</a>
 </td>
 <td align="left" width="63%">
-Submits one or more fax documents to the connected <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
+Submits one or more fax documents to the connected <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
 
 
 
@@ -84,7 +84,7 @@ Submits one or more fax documents to the connected <a href="https://msdn.microso
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359012(v=VS.85).aspx">Submit2</a>
+<a href="https://msdn.microsoft.com/63deca4c-a248-4f77-9cd6-6b1d845b6236">Submit2</a>
 </td>
 <td align="left" width="63%">
 Submits one or more documents to the fax service for processing.
@@ -106,7 +106,7 @@ Submits one or more documents to the fax service for processing.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a>
+<a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">Bodies</a>
 
 
 </td>
@@ -126,7 +126,7 @@ Provides a collection of one or more documents to the fax document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359011(v=VS.85).aspx">SubmissionId</a>
+<a href="https://msdn.microsoft.com/ee3815dc-d1cb-471a-b42b-459b0085a1ad">SubmissionId</a>
 
 
 </td>
@@ -150,7 +150,7 @@ Retrieves the submission identifier for the fax document. Every job in a given b
 
 
 
-A default implementation of <a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a> and <b>IFaxDocument2</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a> object.
+A default implementation of <a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a> and <b>IFaxDocument2</b> is provided as the <a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a> object.
 
 
 
@@ -160,11 +160,11 @@ A default implementation of <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
  
 
  

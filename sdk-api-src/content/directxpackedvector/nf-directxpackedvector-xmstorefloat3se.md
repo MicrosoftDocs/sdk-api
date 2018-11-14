@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMStoreFloat3SE
+: 
 ---
 
 # XMStoreFloat3SE function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>.
 
 
 ## -parameters

@@ -9,8 +9,8 @@ ms.assetid: c6518325-7efc-46dd-831b-7cb7d2f37ddb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], _FD_DEVICEMETRICS, display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

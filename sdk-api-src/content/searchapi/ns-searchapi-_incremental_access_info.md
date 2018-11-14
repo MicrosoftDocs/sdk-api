@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\incremental_access_inf
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search], _INCREMENTAL_ACCESS_INFO, _search_INCREMENTAL_ACCESS_INFO, search._search_INCREMENTAL_ACCESS_INFO, searchapi/INCREMENTAL_ACCESS_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 
@@ -67,7 +67,7 @@ Size of the file in bytes.
 
 ### -field ftLastModifiedTime
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
+Type: <b><a href="_com_FILETIME">FILETIME</a></b>
 
 Last time the file was modified.
 

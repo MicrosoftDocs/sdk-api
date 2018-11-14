@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFontFace4.GetGlyphImageFormats
+: 
 ---
 
 # IDWriteFontFace4::GetGlyphImageFormats(UINT16,UINT32,UINT32,DWRITE_GLYPH_IMAGE_FORMATS)

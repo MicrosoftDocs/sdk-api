@@ -7,7 +7,7 @@ old-location: base\checksummappedfile.htm
 tech.root: debug
 ms.assetid: 01a99601-64de-412d-991e-b1708286ca8c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: CheckSumMappedFile, CheckSumMappedFile function, _win32_checksummappedfile, base.checksummappedfile, imagehlp/CheckSumMappedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CheckSumMappedFile
+: 
 ---
 
 # CheckSumMappedFile function

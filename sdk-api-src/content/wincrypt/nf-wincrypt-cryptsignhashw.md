@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptSignHashW
+: 
 ---
 
 # CryptSignHashW function
@@ -315,9 +321,13 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 The following example shows signing data by first hashing the data to be signed and then signing the hash by using the <b>CryptSignHash</b> function.
 
-
-```cpp
-//-------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV hProv;
@@ -357,7 +367,7 @@ if(CryptSignHash(
    szDescription, 
    0, 
    NULL, 
-   &dwSigLen)) 
+   &amp;dwSigLen)) 
 {
      printf("Signature length %d found.\n",dwSigLen);
 }
@@ -387,7 +397,7 @@ if(CryptSignHash(
    szDescription, 
    0, 
    pbSignature, 
-   &dwSigLen)) 
+   &amp;dwSigLen)) 
 {
      printf("pbSignature is the hash signature.\n");
 }
@@ -400,10 +410,10 @@ else
 // Destroy the hash object.
 
 if(hHash) 
-  CryptDestroyHash(hHash);
-```
-
-
+  CryptDestroyHash(hHash);</pre>
+</td>
+</tr>
+</table></span></div>
 For a complete example including the  context for this code, see 
 <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
@@ -436,7 +446,7 @@ For a complete example including the  context for this code, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

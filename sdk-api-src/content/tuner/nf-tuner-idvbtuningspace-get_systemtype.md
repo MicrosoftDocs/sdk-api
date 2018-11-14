@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- IDVBTuningSpace.get_SystemType
+: 
 ---
 
 # IDVBTuningSpace::get_SystemType

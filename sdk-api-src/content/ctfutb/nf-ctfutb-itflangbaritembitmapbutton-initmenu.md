@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarItemBitmapButton.InitMenu
+: 
 ---
 
 # ITfLangBarItemBitmapButton::InitMenu
@@ -60,7 +68,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_ME
 
 ### -param pMenu [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628780(v=VS.85).aspx">ITfMenu</a> interface that the language bar bitmap button uses to add items to the menu that the language bar displays for the button.
+Pointer to an <a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a> interface that the language bar bitmap button uses to add items to the menu that the language bar displays for the button.
 
 
 ## -returns
@@ -107,7 +115,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628707(v=VS.85).aspx">ITfLangBarItemBitmapButton</a>
+<a href="https://msdn.microsoft.com/29fcc913-fcc7-4321-918b-2c354dd751ff">ITfLangBarItemBitmapButton</a>
 
 
 

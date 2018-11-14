@@ -9,8 +9,8 @@ ms.assetid: 1322652f-ed9f-435f-b4ed-fa9ea425c5ae
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_ASYNC_CALLBACK, WS_ASYNC_CALLBACK callback, WS_ASYNC_CALLBACK callback function [Web Services for Windows], webservices/WS_ASYNC_CALLBACK, wsw.ws_async_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

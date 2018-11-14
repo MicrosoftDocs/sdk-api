@@ -9,8 +9,8 @@ ms.assetid: 8312b324-a698-4957-bd76-3129398e4886
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: SWbemAssocQueryInf, SWbemAssocQueryInf structure [Windows Management Instrumentation], WMIQ_ASSOCQ_ASSOCCLASS, WMIQ_ASSOCQ_ASSOCIATORS, WMIQ_ASSOCQ_CLASSDEFONLY, WMIQ_ASSOCQ_CLASSREFSONLY, WMIQ_ASSOCQ_KEYSONLY, WMIQ_ASSOCQ_REFERENCES, WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER, WMIQ_ASSOCQ_REQUIREDQUALIFIER, WMIQ_ASSOCQ_RESULTCLASS, WMIQ_ASSOCQ_RESULTROLE, WMIQ_ASSOCQ_ROLE, WMIQ_ASSOCQ_SCHEMAONLY, tag_SWbemAssocQueryInf, wmi.swbemassocqueryinf, wmiutils/SWbemAssocQueryInf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmiutils.h
 req.include-header: 

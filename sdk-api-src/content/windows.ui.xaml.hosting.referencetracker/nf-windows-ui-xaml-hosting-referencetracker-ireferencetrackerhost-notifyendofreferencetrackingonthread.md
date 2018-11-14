@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.ui.xaml.hosting.referencetracker.h
+: 
+- IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread
+: 
 ---
 
 # IReferenceTrackerHost::xaml

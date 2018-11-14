@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vsbackup.h
+: 
+- IVssBackupComponentsEx2.FastRecovery
+: 
 ---
 
 # IVssBackupComponentsEx2::FastRecovery

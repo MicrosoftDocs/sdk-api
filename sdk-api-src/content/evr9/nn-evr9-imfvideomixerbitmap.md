@@ -9,8 +9,8 @@ ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], IMFVideoMixerBitmap interface [Media Foundation],described, evr9/IMFVideoMixerBitmap, mf.imfvideomixerbitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: evr9.h
 req.include-header: 

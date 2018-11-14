@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- workspaceruntime.h
+: 
+- IWorkspaceScriptable2.ResourceDismissed
+: 
 ---
 
 # IWorkspaceScriptable2::ResourceDismissed

@@ -9,8 +9,8 @@ ms.assetid: 59f775dd-b3ed-4a57-bec7-fa6ddf267401
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PWLX_SET_OPTION, PWLX_SET_OPTION callback, WlxSetOption, WlxSetOption callback function [Security], _gina_wlxsetoption, security.wlxsetoption, winwlx/WlxSetOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

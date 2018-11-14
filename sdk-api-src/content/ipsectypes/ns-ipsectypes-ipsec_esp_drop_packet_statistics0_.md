@@ -9,8 +9,8 @@ ms.assetid: d31ac463-8265-40c6-bd68-9f3ade35eb34
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_ESP_DROP_PACKET_STATISTICS0, IPSEC_ESP_DROP_PACKET_STATISTICS0 structure [Filtering], IPSEC_ESP_DROP_PACKET_STATISTICS0_, fwp.ipsec_esp_drop_packet_statistics0_struct, ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

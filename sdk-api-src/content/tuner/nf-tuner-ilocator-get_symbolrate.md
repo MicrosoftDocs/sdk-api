@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ILocator.get_SymbolRate
+: 
 ---
 
 # ILocator::get_SymbolRate
@@ -84,7 +92,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693589(v=VS.85).aspx">put_SymbolRate</a>
+<a href="mstv.idigitallocator_put_symbolrate">put_SymbolRate</a>
  
 
  

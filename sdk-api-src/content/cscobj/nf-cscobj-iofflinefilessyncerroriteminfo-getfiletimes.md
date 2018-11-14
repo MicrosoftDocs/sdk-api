@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesSyncErrorItemInfo.GetFileTimes
+: 
 ---
 
 # IOfflineFilesSyncErrorItemInfo::GetFileTimes
@@ -83,7 +91,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530633(v=VS.85).aspx">IOfflineFilesSyncErrorItemInfo</a>
+<a href="https://msdn.microsoft.com/0af039a6-f0dd-4117-a174-38d32cfc0220">IOfflineFilesSyncErrorItemInfo</a>
  
 
  

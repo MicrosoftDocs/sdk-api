@@ -9,8 +9,8 @@ ms.assetid: 3bac219d-d9fd-4259-8f34-032554291327
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IObjectWithCancelEvent, IObjectWithCancelEvent interface [Windows Shell], IObjectWithCancelEvent interface [Windows Shell],described, _shell_IObjectWithCancelEvent, shell.IObjectWithCancelEvent, shobjidl_core/IObjectWithCancelEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

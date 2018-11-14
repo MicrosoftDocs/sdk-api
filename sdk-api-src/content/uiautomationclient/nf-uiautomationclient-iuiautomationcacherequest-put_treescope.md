@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationCacheRequest.put_TreeScope
+: 
 ---
 
 # IUIAutomationCacheRequest::put_TreeScope

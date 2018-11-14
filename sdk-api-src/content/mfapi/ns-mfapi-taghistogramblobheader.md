@@ -9,8 +9,8 @@ ms.assetid: E72DEFAB-1176-47AA-B6FC-35346D63CBD9
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: HistogramBlobHeader, HistogramBlobHeader structure [Streaming Media Devices], mfapi/HistogramBlobHeader, stream.histogramblobheader, tagHistogramBlobHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

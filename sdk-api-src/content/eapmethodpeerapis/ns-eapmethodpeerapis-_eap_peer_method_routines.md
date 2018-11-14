@@ -7,10 +7,10 @@ old-location: eaphost\eap_peer_method_routines.htm
 tech.root: eaphost
 ms.assetid: fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EAP_PEER_METHOD_ROUTINES, EAP_PEER_METHOD_ROUTINES structure [EAPHost], _EAP_PEER_METHOD_ROUTINES, eaphost.eap_peer_method_routines, eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eapmethodpeerapis.h
 req.include-header: 

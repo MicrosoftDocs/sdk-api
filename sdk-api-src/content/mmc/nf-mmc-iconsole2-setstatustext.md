@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IConsole2.SetStatusText
+: 
 ---
 
 # IConsole2::SetStatusText

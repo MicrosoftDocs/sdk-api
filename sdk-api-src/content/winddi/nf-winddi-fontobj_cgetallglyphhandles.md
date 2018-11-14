@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FONTOBJ_cGetAllGlyphHandles
+: 
 ---
 
 # FONTOBJ_cGetAllGlyphHandles function

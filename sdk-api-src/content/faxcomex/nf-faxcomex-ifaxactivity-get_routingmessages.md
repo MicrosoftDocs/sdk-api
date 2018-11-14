@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxActivity.get_RoutingMessages
+: 
 ---
 
 # IFaxActivity::get_RoutingMessages

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextHost.TxGetCharFormat
+: 
 ---
 
 # ITextHost::TxGetCharFormat
@@ -60,7 +68,7 @@ Requests the text host's default character format.
 
 ### -param ppCF
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>**</b>
+Type: <b>const <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>**</b>
 
 The default character format. 
 
@@ -101,7 +109,7 @@ Not implemented.
 
 
 
-The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a> that the default character format has changed.
+The text host retains ownership of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://msdn.microsoft.com/41ae1a84-e721-4666-bac0-eb11c9b55279">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 
 
@@ -111,7 +119,7 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
+<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
 
 
 
@@ -119,11 +127,11 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
+<a href="https://msdn.microsoft.com/41ae1a84-e721-4666-bac0-eb11c9b55279">OnTxPropertyBitsChange</a>
 
 
 
@@ -131,7 +139,7 @@ The text host retains ownership of the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

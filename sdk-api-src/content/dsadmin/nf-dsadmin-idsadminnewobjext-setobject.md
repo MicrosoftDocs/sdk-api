@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dsadmin.h
+: 
+- IDsAdminNewObjExt.SetObject
+: 
 ---
 
 # IDsAdminNewObjExt::SetObject
@@ -60,7 +68,7 @@ The <b>IDsAdminNewObjExt::SetObject</b> method provides the object creation exte
 
 ### -param pADsObj [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface for the object. This parameter may be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> or <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>.
+Pointer to an <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface for the object. This parameter may be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="_com_iunknown_addref">IUnknown::AddRef</a> or <a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>.
 
 
 ## -returns
@@ -85,11 +93,11 @@ The method should always return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a>
+<a href="_com_iunknown_addref">IUnknown::AddRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>
+<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>
  
 
  

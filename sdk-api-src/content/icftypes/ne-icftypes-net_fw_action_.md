@@ -9,8 +9,8 @@ ms.assetid: 1120e802-9159-450b-bee2-700e49d4fa61
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: NET_FW_ACTION, NET_FW_ACTION enumeration [ICS/ICF], NET_FW_ACTION_, NET_FW_ACTION_ALLOW, NET_FW_ACTION_BLOCK, NET_FW_ACTION_MAX, icftypes/NET_FW_ACTION, icftypes/NET_FW_ACTION_ALLOW, icftypes/NET_FW_ACTION_BLOCK, icftypes/NET_FW_ACTION_MAX, ics.net_fw_action
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 

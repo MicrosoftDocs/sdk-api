@@ -9,8 +9,8 @@ ms.assetid: 382838B9-C15E-459F-AC40-ECA15EFC18B8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_SET, PHTTP_SERVICE_CONFIG_SSL_SNI_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_SNI_SET, http.http_service_config_ssl_sni_set, http/HTTP_SERVICE_CONFIG_SSL_SNI_SET, http/PHTTP_SERVICE_CONFIG_SSL_SNI_SET"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 4964ccd9-e169-4afa-a9b3-1e4e4afb88c4
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY structure pointer [RAS], SOURCE_GROUP_ENTRY, SOURCE_GROUP_ENTRY structure [RAS], _SOURCE_GROUP_ENTRY, _mpr_source_group_entry_str, mgm/PSOURCE_GROUP_ENTRY, mgm/SOURCE_GROUP_ENTRY, rras.source_group_entry_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mgm.h
 req.include-header: 

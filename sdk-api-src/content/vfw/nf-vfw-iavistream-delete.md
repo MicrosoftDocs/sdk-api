@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_delete.htm
 tech.root: Multimedia
 ms.assetid: 0872023e-a760-4080-99da-df2941b84611
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: Delete, Delete method [Windows Multimedia], Delete method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Delete method, IAVIStream.Delete, IAVIStream::Delete, _win32_IAVIStream_Delete, multimedia.iavistream_delete, vfw/IAVIStream::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vfw.h
+: 
+- IAVIStream.Delete
+: 
 ---
 
 # IAVIStream::Delete

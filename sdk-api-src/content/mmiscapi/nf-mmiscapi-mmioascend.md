@@ -7,7 +7,7 @@ old-location: multimedia\mmioascend.htm
 tech.root: Multimedia
 ms.assetid: 33da4c65-8ce1-44cf-9d5f-f5626620b420
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mmioAscend, mmioAscend, mmioAscend function [Windows Multimedia], mmsystem/mmioAscend, multimedia.mmioascend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mmioAscend
+: 
 ---
 
 # mmioAscend function

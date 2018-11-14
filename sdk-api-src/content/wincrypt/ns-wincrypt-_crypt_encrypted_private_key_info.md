@@ -9,8 +9,8 @@ ms.assetid: 5e80d6d1-2e38-4a2d-90df-e6e4000cd626
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security], PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security], _CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, security.crypt_encrypted_private_key_info, wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

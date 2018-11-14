@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnDeviceServicesEvents.OnCloseCommandSessionComplete
+: 
 ---
 
 # IMbnDeviceServicesEvents::OnCloseCommandSessionComplete
@@ -60,7 +68,7 @@ Notification method indicating that a device service <b>CloseCommandSession</b> 
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the <b>CloseCommandSession</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>CloseCommandSession</b> was requested.
 
 
 ### -param status [in]

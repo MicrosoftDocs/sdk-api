@@ -9,8 +9,8 @@ ms.assetid: 5120205f-0d55-4391-a560-3089fbe11d82
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK, BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback, BatteryMiniDisableStatusNotify, BatteryMiniDisableStatusNotify callback function [Battery Devices], bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml, batclass/BatteryMiniDisableStatusNotify, battery.batteryminidisablestatusnotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h
@@ -52,7 +52,7 @@ req.redist:
 
 <i>BatteryMiniDisableStatusNotify</i> disables status notification for a battery device.
 
-This callback function is specified in the <a href="https://msdn.microsoft.com/en-us/library/Mt784595(v=VS.85).aspx">BATTERY_MINIPORT_INFO_V1_1</a> structure.
+This callback function is specified in the <a href="https://msdn.microsoft.com/3266126A-AEFC-445C-89D3-736545101522">BATTERY_MINIPORT_INFO_V1_1</a> structure.
 
 
 ## -parameters
@@ -131,11 +131,11 @@ Miniclass drivers that supply a fully functional <i>BatteryMiniDisableStatusNoti
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536269(v=VS.85).aspx">BatteryClassStatusNotify</a>
+<a href="https://msdn.microsoft.com/b74466e0-d900-49c6-a92e-d10a994fa948">BatteryClassStatusNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a>
+<a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a>
  
 
  

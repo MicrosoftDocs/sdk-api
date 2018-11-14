@@ -7,7 +7,7 @@ old-location: base\symdeletesymbol.htm
 tech.root: debug
 ms.assetid: 9fc5a19d-5984-4d0a-a3d6-3da474055f5e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymDeleteSymbol, SymDeleteSymbol function, SymDeleteSymbolW, _win32_symdeletesymbol, base.symdeletesymbol, dbghelp/SymDeleteSymbol, dbghelp/SymDeleteSymbolW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later
+- apiref
+: 
+- 
+: 
+- SymDeleteSymbol
+: 
 ---
 
 # SymDeleteSymbol function

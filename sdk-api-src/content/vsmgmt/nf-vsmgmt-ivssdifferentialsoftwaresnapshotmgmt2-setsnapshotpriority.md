@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vsmgmt.h
+: 
+- IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
+: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority

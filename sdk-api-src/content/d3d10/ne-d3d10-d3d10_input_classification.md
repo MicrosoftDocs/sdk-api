@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_input_classification.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 324be834-c39b-26f0-18f5-c78924801214, D3D10_INPUT_CLASSIFICATION, D3D10_INPUT_CLASSIFICATION enumeration [Direct3D 10], D3D10_INPUT_PER_INSTANCE_DATA, D3D10_INPUT_PER_VERTEX_DATA, d3d10/D3D10_INPUT_CLASSIFICATION, d3d10/D3D10_INPUT_PER_INSTANCE_DATA, d3d10/D3D10_INPUT_PER_VERTEX_DATA, direct3d10.d3d10_input_classification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
@@ -72,7 +72,7 @@ Input data is per-instance data.
 
 
 
-Use these values to specify the type of data for a particular input element (see <a href="https://msdn.microsoft.com/en-us/library/Bb205316(v=VS.85).aspx">D3D10_INPUT_ELEMENT_DESC</a>) of an input-layout object.
+Use these values to specify the type of data for a particular input element (see <a href="https://msdn.microsoft.com/b1d65bf3-5a94-4831-854b-dd124b663975">D3D10_INPUT_ELEMENT_DESC</a>) of an input-layout object.
 
 
 
@@ -82,7 +82,7 @@ Use these values to specify the type of data for a particular input element (see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

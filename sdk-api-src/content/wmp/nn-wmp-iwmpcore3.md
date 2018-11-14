@@ -9,8 +9,8 @@ ms.assetid: 3004551e-ce36-4f15-88c3-93b2bfaa72fc
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPCore3, IWMPCore3 interface [Windows Media Player], IWMPCore3 interface [Windows Media Player],described, IWMPCore3Interface, wmp.iwmpcore3, wmp/IWMPCore3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: ee81daca-e889-471e-b43b-4593380a55dd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDRT_DATA, DRT_DATA, DRT_DATA structure [Peer Networking], PDRT_DATA, PDRT_DATA structure pointer [Peer Networking], drt/DRT_DATA, drt/PDRT_DATA, drt_data_tag, p2p.drt_data"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

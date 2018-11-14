@@ -9,8 +9,8 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxconfiguration\ifaxco
 ms.author: windowssdkdev
 ms.date: 11/08/2018
 ms.keywords: IFaxConfiguration, IFaxConfiguration interface [Fax Service], IFaxConfiguration interface [Fax Service],described, _mfax_IFaxConfiguration, fax._mfax_IFaxConfiguration, faxcomex/IFaxConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
@@ -56,7 +56,7 @@ Defines various methods that provide configuration options for the fax service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxConfiguration</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxConfiguration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxConfiguration</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxConfiguration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IFaxConfiguration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa358927(v=VS.85).aspx">Refresh</a>
+<a href="https://msdn.microsoft.com/f296407a-4f14-4532-841a-228b8d1db535">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes the object.
@@ -81,7 +81,7 @@ Refreshes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa358930(v=VS.85).aspx">Save</a>
+<a href="https://msdn.microsoft.com/04084c00-a025-423b-a49d-ed98fa1dc54b">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the object.
@@ -99,7 +99,7 @@ Saves the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358912(v=VS.85).aspx">AllowPersonalCoverPages</a>
+<a href="https://msdn.microsoft.com/d20f4793-9dc0-48a9-ba95-4f492d2752a7">AllowPersonalCoverPages</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Sets or retrieves a value that indicates whether personal cover pages are allowe
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358914(v=VS.85).aspx">ArchiveAgeLimit</a>
+<a href="https://msdn.microsoft.com/2672f0e3-e412-4263-b3d1-b5b6c9cae708">ArchiveAgeLimit</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Sets or retrieves a value that indicates how long a fax message is kept on the s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358915(v=VS.85).aspx">ArchiveLocation</a>
+<a href="https://msdn.microsoft.com/c504b290-d970-4bc9-ae35-4b05b0d2be96">ArchiveLocation</a>
 
 
 </td>
@@ -179,7 +179,7 @@ The value that specifies the low-order 32-bit value (in bytes) for the size of t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358916(v=VS.85).aspx">AutoCreateAccountOnConnect</a>
+<a href="https://msdn.microsoft.com/02cfc898-b1c5-4647-81b0-1f34da6d2ce8">AutoCreateAccountOnConnect</a>
 
 
 </td>
@@ -196,7 +196,7 @@ Sets or retrieves a value that indicates whether the server automatically create
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358919(v=VS.85).aspx">Branding</a>
+<a href="https://msdn.microsoft.com/a6671e02-882c-41c0-828b-664464196958">Branding</a>
 
 
 </td>
@@ -212,7 +212,7 @@ Sets or retrieves a value that indicates whether the fax server generates a bran
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358920(v=VS.85).aspx">DiscountRateEnd</a>
+<a href="https://msdn.microsoft.com/718d3eea-0b6d-49c0-91c0-ca9d5a43ac1a">DiscountRateEnd</a>
 
 
 </td>
@@ -228,7 +228,7 @@ Sets or retrieves a value that indicates the time at which the discount rate per
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358921(v=VS.85).aspx">DiscountRateStart</a>
+<a href="https://msdn.microsoft.com/891175d4-90fc-479a-a0af-a17091c8ed2a">DiscountRateStart</a>
 
 
 </td>
@@ -244,7 +244,7 @@ Sets or retrieves a value that indicates the time at which the discount rate per
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358922(v=VS.85).aspx">HighQuotaWaterMark</a>
+<a href="https://msdn.microsoft.com/2c896e7c-a110-4693-9e8d-4cbf6459c6e3">HighQuotaWaterMark</a>
 
 
 </td>
@@ -260,7 +260,7 @@ Sets or retrieves a value that indicates the maximum allotted size of a watermar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358923(v=VS.85).aspx">IncomingFaxesArePublic</a>
+<a href="https://msdn.microsoft.com/f40268ab-6df0-4c4f-9c73-c3129be589cc">IncomingFaxesArePublic</a>
 
 
 </td>
@@ -276,7 +276,7 @@ Indicates whether incoming faxes are either viewable by everyone or private.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358924(v=VS.85).aspx">LowQuotaWaterMark</a>
+<a href="https://msdn.microsoft.com/939cf7c1-28dd-478a-910e-a5dd2192c0c8">LowQuotaWaterMark</a>
 
 
 </td>
@@ -292,7 +292,7 @@ Sets or retrieves a value that indicates the minimum size of a watermark.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358925(v=VS.85).aspx">OutgoingQueueAgeLimit</a>
+<a href="https://msdn.microsoft.com/3c94867a-5d20-4987-8b21-cae8317b4ff3">OutgoingQueueAgeLimit</a>
 
 
 </td>
@@ -308,7 +308,7 @@ Sets or retrieves a value that indicates the length of time that an undeliverabl
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358918(v=VS.85).aspx">OutgoingQueueBlocked</a>
+<a href="https://msdn.microsoft.com/e81f9818-428f-457d-8362-bc73b95c990c">OutgoingQueueBlocked</a>
 
 
 </td>
@@ -324,7 +324,7 @@ Sets or retrieves a value that indicates whether the fax server queue for outgoi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358926(v=VS.85).aspx">OutgoingQueuePaused</a>
+<a href="https://msdn.microsoft.com/2c4e6dd9-d8c1-4e02-96df-8e8025be78aa">OutgoingQueuePaused</a>
 
 
 </td>
@@ -340,7 +340,7 @@ Sets or retrieves a value that indicates whether the outgoing queue has been pau
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358928(v=VS.85).aspx">Retries</a>
+<a href="https://msdn.microsoft.com/4f5d647b-458e-418e-9534-065489266d16">Retries</a>
 
 
 </td>
@@ -356,7 +356,7 @@ Sets or retrieves a value that indicates the number of redial attempts for a giv
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358929(v=VS.85).aspx">RetryDelay</a>
+<a href="https://msdn.microsoft.com/e6bb8e86-41bb-46a3-9a8a-a4b218439467">RetryDelay</a>
 
 
 </td>
@@ -372,7 +372,7 @@ Sets or retrieves a value that indicates the length of time the fax service shou
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">SizeQuotaWarning</a>
+<a href="https://msdn.microsoft.com/541abd86-8edb-4d52-a323-5bdafab24653">SizeQuotaWarning</a>
 
 
 </td>
@@ -388,7 +388,7 @@ Sets or retrieves a value that indicates whether the size quota warning is turne
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358932(v=VS.85).aspx">UseArchive</a>
+<a href="https://msdn.microsoft.com/6a59fa8d-b1fa-4629-9d75-fea38108f18c">UseArchive</a>
 
 
 </td>
@@ -404,7 +404,7 @@ Sets or retrieves a value that indicates whether faxes should be archived.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358933(v=VS.85).aspx">UseDeviceTSID</a>
+<a href="https://msdn.microsoft.com/b7f26dc1-f183-411f-9693-274a61416982">UseDeviceTSID</a>
 
 
 </td>
@@ -425,7 +425,7 @@ Sets or retrieves a value that indicates whether the TSID is used.
 
 
 
-A default implementation of this interface is provided by the <a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a> object.
+A default implementation of this interface is provided by the <a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a> object.
 
 
 

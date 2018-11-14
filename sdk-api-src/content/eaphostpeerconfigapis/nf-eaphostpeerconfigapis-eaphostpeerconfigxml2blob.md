@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerconfigxml2blob.htm
 tech.root: eaphost
 ms.assetid: 728fab9e-6aa4-49c0-ab1f-89686543524c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerConfigXml2Blob, EapHostPeerConfigXml2Blob function [EAPHost], eaphost.eaphostpeerconfigxml2blob, eaphostpeerconfigapis/EapHostPeerConfigXml2Blob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerConfigXml2Blob
+: 
 ---
 
 # EapHostPeerConfigXml2Blob function

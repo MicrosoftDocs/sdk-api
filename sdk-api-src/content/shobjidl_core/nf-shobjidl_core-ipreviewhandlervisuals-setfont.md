@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IPreviewHandlerVisuals.SetFont
+: 
 ---
 
 # IPreviewHandlerVisuals::SetFont
@@ -62,7 +70,7 @@ Sets the font attributes to be used for text within the preview handler.
 
 Type: <b>const LOGFONTW*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Aa741231(v=VS.85).aspx">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
+A pointer to a <a href="_inet_LOGFONTW_Structure">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
 
 
 ## -returns

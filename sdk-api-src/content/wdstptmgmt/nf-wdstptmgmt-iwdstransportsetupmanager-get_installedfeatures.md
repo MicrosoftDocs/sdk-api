@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wdstptmgmt.h
+: 
+- IWdsTransportSetupManager.get_InstalledFeatures
+: 
 ---
 
 # IWdsTransportSetupManager::get_InstalledFeatures

@@ -9,8 +9,8 @@ ms.assetid: 0dd7fee0-0771-4c72-9843-0fee308da5cc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPNEWTEXTMETRICA, *NPNEWTEXTMETRICA, *PNEWTEXTMETRICA, NEWTEXTMETRIC, NEWTEXTMETRIC structure [Windows GDI], NEWTEXTMETRICA, NEWTEXTMETRICW, PNEWTEXTMETRIC, PNEWTEXTMETRIC structure pointer [Windows GDI], _win32_NEWTEXTMETRIC_str, gdi.newtextmetric, tagNEWTEXTMETRICA, wingdi/NEWTEXTMETRIC, wingdi/NEWTEXTMETRICA, wingdi/NEWTEXTMETRICW, wingdi/PNEWTEXTMETRIC"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

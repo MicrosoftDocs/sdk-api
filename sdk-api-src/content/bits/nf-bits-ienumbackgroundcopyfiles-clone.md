@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits.h
+: 
+- IEnumBackgroundCopyFiles.Clone
+: 
 ---
 
 # IEnumBackgroundCopyFiles::Clone
@@ -51,7 +59,7 @@ req.redist:
 
 
 Creates another 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a> enumerator that contains the same enumeration state as the current one.
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a> enumerator that contains the same enumeration state as the current one.
 
 Using this method, a client can record a particular point in the enumeration sequence, and then return to that point at a later time. The new enumerator supports the same interface as the original one.
 
@@ -87,7 +95,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a>
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a>
  
 
  

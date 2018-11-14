@@ -4,10 +4,10 @@ title: IAzRole::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzRole object property with the specified property ID.
 old-location: security\iazrole_setproperty.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0f1c4abe-69cc-4672-8a74-eaaf55fc6e88
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzRole object [Security],SetProperty method, IAzRole interface [Security],SetProperty method, IAzRole.SetProperty, IAzRole::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzRole object, SetProperty method [Security],IAzRole interface, azroles/IAzRole::SetProperty, security.iazrole_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.SetProperty
+: 
 ---
 
 # IAzRole::SetProperty

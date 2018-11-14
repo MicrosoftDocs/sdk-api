@@ -9,8 +9,8 @@ ms.assetid: 6e363020-caf4-4028-abd5-7f311edb2e69
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVDS_PORT_STATUS, VDS_PORT_STATUS, VDS_PORT_STATUS enumeration [VDS], VDS_PRS_FAILED, VDS_PRS_NOT_READY, VDS_PRS_OFFLINE, VDS_PRS_ONLINE, VDS_PRS_REMOVED, VDS_PRS_UNKNOWN, _VDS_PORT_STATUS, base.vds_port_status, vds/VDS_PORT_STATUS, vds/VDS_PRS_FAILED, vds/VDS_PRS_NOT_READY, vds/VDS_PRS_OFFLINE, vds/VDS_PRS_ONLINE, vds/VDS_PRS_REMOVED, vds/VDS_PRS_UNKNOWN, vdshwprv/VDS_PORT_STATUS, vdshwprv/VDS_PRS_FAILED, vdshwprv/VDS_PRS_NOT_READY, vdshwprv/VDS_PRS_OFFLINE, vdshwprv/VDS_PRS_ONLINE, vdshwprv/VDS_PRS_REMOVED, vdshwprv/VDS_PRS_UNKNOWN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

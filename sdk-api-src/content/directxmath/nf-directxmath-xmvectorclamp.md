@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMVectorClamp
+: 
 ---
 
 # XMVectorClamp function
@@ -88,19 +94,23 @@ Returns a vector whose components are clamped to the specified minimum and maxim
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = min( max( V.x, Min.x ), Max.x );
 Result.y = min( max( V.y, Min.y ), Max.y );
 Result.z = min( max( V.z, Min.z ), Max.z );
 Result.w = min( max( V.w, Min.w ), Max.w );
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

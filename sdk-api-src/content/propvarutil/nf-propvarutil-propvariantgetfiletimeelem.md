@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantGetFileTimeElem
+: 
 ---
 
 # PropVariantGetFileTimeElem function
@@ -94,12 +100,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_FILETIME, <i>iElem</i> must be 0; otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_FILETIME, <i>iElem</i> must be 0; otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
 
 #### Examples
 
-The following code example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776523(v=VS.85).aspx">PropVariantGetFileTimeElem</a> in an iteration statement to access the values in <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following code example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantGetFileTimeElem">PropVariantGetFileTimeElem</a> in an iteration statement to access the values in <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
       
                 
 
@@ -139,7 +145,7 @@ if ((propvar.vt &amp; VT_TYPEMASK) == VT_FILETIME)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
  
 
  

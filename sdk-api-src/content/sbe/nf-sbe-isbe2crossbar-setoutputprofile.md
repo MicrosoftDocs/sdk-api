@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbe.h
+: 
+- ISBE2Crossbar.SetOutputProfile
+: 
 ---
 
 # ISBE2Crossbar::SetOutputProfile

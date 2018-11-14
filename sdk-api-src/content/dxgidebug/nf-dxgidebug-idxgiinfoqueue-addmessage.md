@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_addmessage.htm
 tech.root: direct3ddxgi
 ms.assetid: 965DA310-D082-4970-BCD1-F15F44C074D0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddMessage, AddMessage method [DXGI], AddMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddMessage method, IDXGIInfoQueue.AddMessage, IDXGIInfoQueue::AddMessage, direct3ddxgi.idxgiinfoqueue_addmessage, dxgidebug/IDXGIInfoQueue::AddMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgidebug.h
+: 
+- IDXGIInfoQueue.AddMessage
+: 
 ---
 
 # IDXGIInfoQueue::AddMessage
@@ -87,7 +95,7 @@ The message string.
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

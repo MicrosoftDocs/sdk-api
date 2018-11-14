@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.enumContainers
+: 
 ---
 
 # ICEnroll::enumContainers
@@ -79,7 +87,7 @@ TBD
 
 #### - pbstrContainerName [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

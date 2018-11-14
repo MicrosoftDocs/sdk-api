@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgent.CreateSessionWithPIN
+: 
 ---
 
 # ITAgent::CreateSessionWithPIN
@@ -170,8 +178,8 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for <i>pPIN</i> and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for <i>pPIN</i> and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://msdn.microsoft.com/b0db0834-7b9b-4a72-9cc6-6cba31ed1275">ITAgentSession</a> interface returned by <b>ITAgent::CreateSessionWithPIN</b>. The application must call <b>Release</b> on the 

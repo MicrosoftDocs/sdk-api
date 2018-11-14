@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IFolderActionCollection.get_Item
+: 
 ---
 
 # IFolderActionCollection::get_Item

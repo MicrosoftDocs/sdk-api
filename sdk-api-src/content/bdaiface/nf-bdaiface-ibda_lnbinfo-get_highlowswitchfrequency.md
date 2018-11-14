@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_LNBInfo.get_HighLowSwitchFrequency
+: 
 ---
 
 # IBDA_LNBInfo::get_HighLowSwitchFrequency
@@ -63,7 +71,7 @@ The <b>get_HighLowSwitchFrequency</b> method retrieves the frequency of the high
 
 ### -param pulSwitchFrequency [in, out]
 
-Pointer that receives the frequency. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd693359(v=VS.85).aspx">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
+Pointer that receives the frequency. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/463a58f7-a10c-40b5-8183-3e16bcc7c6b2">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
 
 
 ## -returns
@@ -80,15 +88,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693396(v=VS.85).aspx">IBDA_LNBInfo Interface</a>
+<a href="https://msdn.microsoft.com/4985b525-c000-4d19-9679-c995cbc3c99b">IBDA_LNBInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693400(v=VS.85).aspx">IBDA_LNBInfo::put_HighLowSwitchFrequency</a>
+<a href="https://msdn.microsoft.com/3edde05f-1cdb-4648-a34b-ba95e4fcff12">IBDA_LNBInfo::put_HighLowSwitchFrequency</a>
  
 
  

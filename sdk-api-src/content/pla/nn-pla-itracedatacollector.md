@@ -9,8 +9,8 @@ ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA],described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

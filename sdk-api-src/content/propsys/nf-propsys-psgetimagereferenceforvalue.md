@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PSGetImageReferenceForValue
+: 
 ---
 
 # PSGetImageReferenceForValue function
@@ -62,7 +68,7 @@ Gets an instance of a property description interface for a specified property.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that specifies the property.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that specifies the property.
 
 
 ### -param propvar [in]

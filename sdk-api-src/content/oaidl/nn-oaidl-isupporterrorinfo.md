@@ -9,8 +9,8 @@ ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation],described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

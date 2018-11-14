@@ -4,13 +4,13 @@ title: IWaaSAssessor
 author: windows-sdk-content
 description: Gets the OS update assessment by comparing the latest build from Microsoft against the build running on the current device.
 old-location: base\iwaasassessor.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: CE5D99C9-2348-4566-AC94-DFBA5B583503
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IWaaSAssessor, IWaaSAssessor interface, IWaaSAssessor interface,described, base.iwaasassessor, waasapi/IWaaSAssessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: waasapi.h
 req.include-header: 

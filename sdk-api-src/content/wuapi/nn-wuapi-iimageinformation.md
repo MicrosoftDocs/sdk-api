@@ -9,8 +9,8 @@ ms.assetid: 869c10c3-a4d1-4001-86f1-30ebf2abe96f
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agent], IImageInformation interface [Windows Update Agent],described, wua.iimageinformation, wuapi/IImageInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

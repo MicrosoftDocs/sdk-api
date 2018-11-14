@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DnsValidateName_A
+: 
 ---
 
 # DnsValidateName_A function

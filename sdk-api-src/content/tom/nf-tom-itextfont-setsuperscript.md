@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont.SetSuperscript
+: 
 ---
 
 # ITextFont::SetSuperscript
@@ -62,7 +70,7 @@ Sets whether characters are displayed as superscript.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -161,11 +169,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774033(v=VS.85).aspx">GetSuperscript</a>
+<a href="https://msdn.microsoft.com/c800f5ee-d847-4065-8f47-4147955017b7">GetSuperscript</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -173,7 +181,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

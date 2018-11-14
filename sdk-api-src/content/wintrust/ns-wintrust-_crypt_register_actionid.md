@@ -9,8 +9,8 @@ ms.assetid: 0b2b482f-f087-4be7-b17f-91c287c3460d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCRYPT_REGISTER_ACTIONID, CRYPT_REGISTER_ACTIONID, CRYPT_REGISTER_ACTIONID structure [Security], PCRYPT_REGISTER_ACTIONID, PCRYPT_REGISTER_ACTIONID structure pointer [Security], _CRYPT_REGISTER_ACTIONID, security.crypt_register_actionid, wintrust/CRYPT_REGISTER_ACTIONID, wintrust/PCRYPT_REGISTER_ACTIONID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

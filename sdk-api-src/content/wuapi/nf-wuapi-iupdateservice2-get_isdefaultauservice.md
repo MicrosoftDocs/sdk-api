@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateService2.get_IsDefaultAUService
+: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 

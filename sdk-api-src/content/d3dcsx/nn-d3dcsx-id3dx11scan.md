@@ -9,8 +9,8 @@ ms.assetid: f57401b9-fa1e-4470-a974-825749773f95
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ID3DX11Scan, ID3DX11Scan interface [Direct3D 11], ID3DX11Scan interface [Direct3D 11],described, d3dcsx/ID3DX11Scan, direct3d11.id3dx11scan, f606bccf-3795-f179-4742-0c561a907373
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3dcsx.h
 req.include-header: 

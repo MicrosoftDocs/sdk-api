@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ddraw.h
+: 
+- IDirectDraw7.GetFourCCCodes
+: 
 ---
 
 # IDirectDraw7::GetFourCCCodes

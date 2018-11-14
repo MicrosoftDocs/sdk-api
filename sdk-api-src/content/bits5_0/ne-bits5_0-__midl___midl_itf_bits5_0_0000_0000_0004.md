@@ -9,8 +9,8 @@ ms.assetid: A14E301E-029E-43C8-B012-8FFFA652EA40
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BITS_FILE_PROPERTY_ID, BITS_FILE_PROPERTY_ID enumeration [BITS], BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, __MIDL___MIDL_itf_bits5_0_0000_0000_0004, bits.bits_file_property_id, bits5_0/BITS_FILE_PROPERTY_ID, bits5_0/BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: bits5_0.h
 req.include-header: 

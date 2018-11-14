@@ -9,8 +9,8 @@ ms.assetid: 53126339-a9b7-4b80-80af-ac1782dff8a8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: VDS_NF_PORTAL_ARRIVE, VDS_NF_PORTAL_DEPART, VDS_NF_PORTAL_MODIFY, VDS_PORTAL_NOTIFICATION, VDS_PORTAL_NOTIFICATION structure [VDS], _VDS_PORTAL_NOTIFICATION, base.vds_portal_notification, vds/_VDS_PORTAL_NOTIFICATION, vdshwprv/_VDS_PORTAL_NOTIFICATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

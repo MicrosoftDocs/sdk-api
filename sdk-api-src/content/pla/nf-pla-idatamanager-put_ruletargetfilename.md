@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataManager.put_RuleTargetFileName
+: 
 ---
 
 # IDataManager::put_RuleTargetFileName

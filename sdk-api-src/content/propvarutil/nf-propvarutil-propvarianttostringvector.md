@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantToStringVector
+: 
 ---
 
 # PropVariantToStringVector function
@@ -200,23 +206,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
+<a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a>
+<a href="shell.PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
+<a href="shell.VariantToStringArray">VariantToStringArray</a>
  
 
  

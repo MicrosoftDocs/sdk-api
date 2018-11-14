@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Bitmap.Bitmap
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -80,7 +88,7 @@ Pointer to an array of bytes that contains the pixel data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerqueryuiblobfrominteractiveuiinputfields.htm
 tech.root: eaphost
 ms.assetid: 2c4b1a0b-8c3f-47c5-8829-2f9c9bfda946
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EAPHOST_PEER_API_VERSION, EapHostPeerQueryUIBlobFromInteractiveUIInputFields, EapHostPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eaphostpeerqueryuiblobfrominteractiveuiinputfields, eaphostpeerconfigapis/EapHostPeerQueryUIBlobFromInteractiveUIInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerQueryUIBlobFromInteractiveUIInputFields
+: 
 ---
 
 # EapHostPeerQueryUIBlobFromInteractiveUIInputFields function

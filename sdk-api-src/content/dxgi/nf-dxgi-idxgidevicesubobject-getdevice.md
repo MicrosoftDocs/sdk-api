@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevicesubobject_getdevice.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject_getdevice.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetDevice, GetDevice method [DXGI], GetDevice method [DXGI],IDXGIDeviceSubObject interface, IDXGIDeviceSubObject interface [DXGI],GetDevice method, IDXGIDeviceSubObject.GetDevice, IDXGIDeviceSubObject::GetDevice, b3dce65b-334c-0973-c391-77df6912fc77, direct3ddxgi.idxgidevicesubobject_getdevice, dxgi/IDXGIDeviceSubObject::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi.h
+: 
+- IDXGIDeviceSubObject.GetDevice
+: 
 ---
 
 # IDXGIDeviceSubObject::GetDevice
@@ -77,9 +85,9 @@ The address of a pointer to the device.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-A code that indicates success or failure (see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>).
+A code that indicates success or failure (see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>).
 
 
 
@@ -102,7 +110,7 @@ The type of interface that is returned can be any interface published by the dev
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174528(v=VS.85).aspx">IDXGIDeviceSubObject</a>
+<a href="https://msdn.microsoft.com/f2f3da88-76e9-4721-bc02-b3b82b7794b8">IDXGIDeviceSubObject</a>
  
 
  

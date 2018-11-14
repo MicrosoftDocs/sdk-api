@@ -9,8 +9,8 @@ ms.assetid: 9E2B3AA1-BC28-4458-9882-13F7EFB23756
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PDUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA structure [Files], PDUPLICATE_EXTENTS_DATA, PDUPLICATE_EXTENTS_DATA structure pointer [Files], _DUPLICATE_EXTENTS_DATA, fs.duplicate_extents_data, winioctl/DUPLICATE_EXTENTS_DATA, winioctl/PDUPLICATE_EXTENTS_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

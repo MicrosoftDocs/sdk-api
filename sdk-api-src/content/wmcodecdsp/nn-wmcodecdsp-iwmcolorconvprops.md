@@ -9,8 +9,8 @@ ms.assetid: c4a6b7c1-edc0-4030-ac47-895580ad294d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], IWMColorConvProps interface [Media Foundation],described, codecapi.iwmcolorconvpropsinterface, mf.iwmcolorconvprops, mf.iwmcolorconvpropsinterface, wmcodecdsp/IWMColorConvProps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

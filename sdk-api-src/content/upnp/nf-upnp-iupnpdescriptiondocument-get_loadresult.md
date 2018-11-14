@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- upnp.h
+: 
+- IUPnPDescriptionDocument.get_LoadResult
+: 
 ---
 
 # IUPnPDescriptionDocument::get_LoadResult

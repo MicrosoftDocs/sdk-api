@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxOutboundRoutingGroup.get_DeviceIds
+: 
 ---
 
 # IFaxOutboundRoutingGroup::get_DeviceIds
@@ -64,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a>
+<a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

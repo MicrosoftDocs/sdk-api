@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wtsprotocol.h
+: 
+- IWTSProtocolManager.NotifyServiceStateChange
+: 
 ---
 
 # IWTSProtocolManager::NotifyServiceStateChange

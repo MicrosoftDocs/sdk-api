@@ -9,8 +9,8 @@ ms.assetid: a8de774b-3783-46be-9a21-c9fec2f10ffd
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], IWICBitmapFrameEncode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframeencode, wic._wic_codec_iwicbitmapframeencode, wincodec/IWICBitmapFrameEncode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

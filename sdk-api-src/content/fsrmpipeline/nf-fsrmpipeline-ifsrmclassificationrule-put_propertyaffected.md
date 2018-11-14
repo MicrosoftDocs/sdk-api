@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmClassificationRule.put_PropertyAffected
+: 
 ---
 
 # IFsrmClassificationRule::put_PropertyAffected

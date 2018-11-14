@@ -4,10 +4,10 @@ title: IAzTask::put_BizRule
 author: windows-sdk-content
 description: Sets or retrieves the text of the script that implements the business rule (BizRule).
 old-location: security\iaztask_bizrule.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cf3d87af-5320-4fe0-b513-e242f8a1dd1b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzTask object [Security],BizRule property, BizRule property [Security], BizRule property [Security],AzTask object, BizRule property [Security],IAzTask interface, IAzTask interface [Security],BizRule property, IAzTask.BizRule, IAzTask.put_BizRule, IAzTask::BizRule, IAzTask::get_BizRule, IAzTask::put_BizRule, azroles/IAzTask::BizRule, azroles/IAzTask::get_BizRule, azroles/IAzTask::put_BizRule, put_BizRule, security.iaztask_bizrule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.put_BizRule
+: 
 ---
 
 # IAzTask::put_BizRule

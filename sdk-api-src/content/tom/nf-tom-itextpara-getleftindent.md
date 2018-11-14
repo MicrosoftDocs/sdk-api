@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextPara.GetLeftIndent
+: 
 ---
 
 # ITextPara::GetLeftIndent
@@ -121,9 +129,9 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-To set the left indentation amount, call the <a href="https://msdn.microsoft.com/en-us/library/Bb774155(v=VS.85).aspx">ITextPara::SetIndents</a> method.
+To set the left indentation amount, call the <a href="https://msdn.microsoft.com/84584a22-7e0f-431a-9c7b-f7f574459948">ITextPara::SetIndents</a> method.
 
-To get the first-line indent, call <a href="https://msdn.microsoft.com/en-us/library/Bb773951(v=VS.85).aspx">ITextPara::GetFirstLineIndent</a>.
+To get the first-line indent, call <a href="https://msdn.microsoft.com/82831ef0-7ece-4d85-96f5-aa3c4591e458">ITextPara::GetFirstLineIndent</a>.
 
 
 
@@ -137,11 +145,11 @@ To get the first-line indent, call <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773951(v=VS.85).aspx">GetFirstLineIndent</a>
+<a href="https://msdn.microsoft.com/82831ef0-7ece-4d85-96f5-aa3c4591e458">GetFirstLineIndent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -149,11 +157,11 @@ To get the first-line indent, call <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774155(v=VS.85).aspx">SetIndents</a>
+<a href="https://msdn.microsoft.com/84584a22-7e0f-431a-9c7b-f7f574459948">SetIndents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

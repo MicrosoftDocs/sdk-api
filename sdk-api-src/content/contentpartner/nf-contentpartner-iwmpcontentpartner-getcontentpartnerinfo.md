@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- contentpartner.h
+: 
+- IWMPContentPartner.GetContentPartnerInfo
+: 
 ---
 
 # IWMPContentPartner::GetContentPartnerInfo
@@ -151,7 +159,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that indicates the user nam
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

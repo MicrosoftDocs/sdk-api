@@ -52,6 +52,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetWindowLongW
+: 
 ---
 
 # SetWindowLongW function
@@ -61,7 +67,7 @@ req.redist:
 
 
 Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
-<div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx">SetWindowLongPtr</a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use the <b>SetWindowLongPtr</b> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://msdn.microsoft.com/6c7c4f93-8b6b-403d-a8c7-954d69b37b59">SetWindowLongPtr</a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use the <b>SetWindowLongPtr</b> function.</div><div> </div>
 
 ## -parameters
 
@@ -126,7 +132,7 @@ Sets a new identifier of the child window. The window cannot be a top-level wind
 </dl>
 </td>
 <td width="60%">
-Sets a new <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">window style</a>.
+Sets a new <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window style</a>.
 
 </td>
 </tr>
@@ -231,18 +237,18 @@ If the previous value of the specified 32-bit integer is zero, and the function 
 
 
 
-Certain window data is cached, so changes you make using <b>SetWindowLong</b> will not take effect until you call the <a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a> function. Specifically, if you change any of the frame styles, you must call <b>SetWindowPos</b> with the <b>SWP_FRAMECHANGED</b> flag for the cache to be updated properly. 
+Certain window data is cached, so changes you make using <b>SetWindowLong</b> will not take effect until you call the <a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a> function. Specifically, if you change any of the frame styles, you must call <b>SetWindowPos</b> with the <b>SWP_FRAMECHANGED</b> flag for the cache to be updated properly. 
 
-If you use <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a> callback function. 
+If you use <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="https://msdn.microsoft.com/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c">WindowProc</a> callback function. 
 
 If you use <b>SetWindowLong</b> with the <b>DWL_MSGRESULT</b> index to set the return value for a message processed by a dialog procedure, you should return <b>TRUE</b> directly afterward. Otherwise, if you call any function that results in your dialog procedure receiving a window message, the nested window message could overwrite the return value you set using <b>DWL_MSGRESULT</b>. 
 
-Calling <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index creates a subclass of the window class used to create the window. An application can subclass a system class, but should not subclass a window class created by another process. The <b>SetWindowLong</b> function creates the window subclass by changing the window procedure associated with a particular window class, causing the system to call the new window procedure instead of the previous one. An application must pass any messages not processed by the new window procedure to the previous window procedure by calling <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a>. This allows the application to create a chain of window procedures. 
+Calling <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index creates a subclass of the window class used to create the window. An application can subclass a system class, but should not subclass a window class created by another process. The <b>SetWindowLong</b> function creates the window subclass by changing the window procedure associated with a particular window class, causing the system to call the new window procedure instead of the previous one. An application must pass any messages not processed by the new window procedure to the previous window procedure by calling <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a>. This allows the application to create a chain of window procedures. 
 
 Reserve extra window memory by specifying a nonzero value in the 
-				<b>cbWndExtra</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. 
+				<b>cbWndExtra</b> member of the <a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. 
 
-You must not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx">SetParent</a> function. 
+You must not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="https://msdn.microsoft.com/a13f1cfc-dedc-4190-826f-b29b731e76df">SetParent</a> function. 
 
 If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_OWNDC</b>, do not set the extended window styles <b>WS_EX_COMPOSITED</b> or <b>WS_EX_LAYERED</b>.
 
@@ -251,7 +257,7 @@ Calling <b>SetWindowLong</b> to set the style on a progressbar will reset its po
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v=VS.85).aspx">Subclassing a Window</a>.
+For an example, see <a href="using_window_procedures.htm">Subclassing a Window</a>.
 
 <div class="code"></div>
 
@@ -262,7 +268,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a>
+<a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a>
 
 
 
@@ -270,7 +276,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx">GetWindowLong</a>
+<a href="https://msdn.microsoft.com/4c2b634d-1df8-44bb-825c-261eb13045ce">GetWindowLong</a>
 
 
 
@@ -278,27 +284,27 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx">SetParent</a>
+<a href="https://msdn.microsoft.com/a13f1cfc-dedc-4190-826f-b29b731e76df">SetParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx">SetWindowLongPtr</a>
+<a href="https://msdn.microsoft.com/6c7c4f93-8b6b-403d-a8c7-954d69b37b59">SetWindowLongPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a>
+<a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/6ef633db-af76-42d6-b211-96846578eaac">Window Classes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a>
+<a href="https://msdn.microsoft.com/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c">WindowProc</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 8301d07f-88aa-49b4-9091-8f515b585c57
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PROV_ENUMALGS, PROV_ENUMALGS structure [Security], _PROV_ENUMALGS, _crypto2_prov_enumalgs, security.prov_enumalgs, wincrypt/PROV_ENUMALGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

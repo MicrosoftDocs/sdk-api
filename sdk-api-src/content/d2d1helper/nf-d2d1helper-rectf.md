@@ -7,7 +7,7 @@ old-location: direct2d\rectf.htm
 tech.root: direct2d
 ms.assetid: 8abcc11d-40be-45ac-9f23-b94adf9842d5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: RectF, RectF function [Direct2D], d2d1helper/RectF, direct2d.rectf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RectF
+: 
 ---
 
 # RectF function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a> structure that contains the specified dimensions.
+Creates a <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a> structure that contains the specified dimensions.
 
 
 ## -parameters
@@ -90,7 +96,7 @@ The y-coordinate of the lower-right corner of the rectangle. The default value i
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 A rectangle structure that contains the specified dimensions.
 

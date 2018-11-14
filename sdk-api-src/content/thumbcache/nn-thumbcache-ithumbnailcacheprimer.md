@@ -9,8 +9,8 @@ ms.assetid: 2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IThumbnailCachePrimer, IThumbnailCachePrimer interface [Windows Shell], IThumbnailCachePrimer interface [Windows Shell],described, shell.IThumbnailCachePrimer, thumbcache/IThumbnailCachePrimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: thumbcache.h
 req.include-header: Thumbcache.h

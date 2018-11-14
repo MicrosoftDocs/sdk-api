@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ObjectContext.get_Item
+: 
 ---
 
 # ObjectContext::get_Item

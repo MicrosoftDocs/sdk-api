@@ -9,8 +9,8 @@ ms.assetid: 97378353-8c2d-493a-8ee9-42d33ab47d18
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], ICreateTypeLib2 interface [Automation],described, _oa96_ICreateTypeLib2_Interface, automat.icreatetypelib2, oaidl/ICreateTypeLib2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

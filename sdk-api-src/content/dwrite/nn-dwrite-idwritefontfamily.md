@@ -9,8 +9,8 @@ ms.assetid: 1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteFontFamily, IDWriteFontFamily interface [Direct Write], IDWriteFontFamily interface [Direct Write],described, directwrite.IDWriteFontFamily, dwrite/IDWriteFontFamily
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
@@ -106,37 +106,45 @@ A font family is a set of fonts that share the same family name, such as "Times 
 
 The following illustration shows examples of fonts that are members of the "Times New Roman" font family.
 
-<img alt="Illustration of italic, bold, and bold italic text from the Times New Roman font family" src="./images/FontFamily_for_TimesNewRoman.png"/>
+<img alt="Illustration of italic, bold, and bold italic text from the Times New Roman font family" src="images/FontFamily_for_TimesNewRoman.png"/>
 An <b>IDWriteFontFamily</b> object can be retrieved from a font collection using the  <a href="https://msdn.microsoft.com/6104a8ed-378f-4e2b-a0e5-8c0291750e65">IDWriteFontCollection::GetFontFamily</a> method shown in the following example.  <a href="https://msdn.microsoft.com/470c63cc-b50f-4b62-98c0-f7ce183bfcfd">GetFontFamily</a> takes a <b>UINT32</b> index and returns the font family for the font at that index.
 
-
-```cpp
-IDWriteFontFamily* pFontFamily = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IDWriteFontFamily* pFontFamily = NULL;
 
 // Get the font family.
 if (SUCCEEDED(hr))
 {
-    hr = pFontCollection->GetFontFamily(i, &pFontFamily);
+    hr = pFontCollection-&gt;GetFontFamily(i, &amp;pFontFamily);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The font family name is used to specify the font family for text layout and text format objects.  You can get a list of localized font family names from an <b>IDWriteFontFamily</b> object in the form of an <a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a> object by using the <a href="https://msdn.microsoft.com/89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa">IDWriteFontFamily::GetFamilyNames</a> method, as shown in the following code.
 
-
-```cpp
-IDWriteLocalizedStrings* pFamilyNames = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IDWriteLocalizedStrings* pFamilyNames = NULL;
 
 // Get a list of localized strings for the family name.
 if (SUCCEEDED(hr))
 {
-    hr = pFontFamily->GetFamilyNames(&pFamilyNames);
+    hr = pFontFamily-&gt;GetFamilyNames(&amp;pFamilyNames);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

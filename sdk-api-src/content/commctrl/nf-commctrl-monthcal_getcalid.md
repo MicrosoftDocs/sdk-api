@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- MonthCal_GetCALID
+: 
 ---
 
 # MonthCal_GetCALID macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the current calendar ID for the given calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760951(v=VS.85).aspx">MCM_GETCALID</a> message explicitly.
+Gets the current calendar ID for the given calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/ecfab4f3-a5af-445d-8b90-243b646524a6">MCM_GETCALID</a> message explicitly.
 
 
 ## -parameters

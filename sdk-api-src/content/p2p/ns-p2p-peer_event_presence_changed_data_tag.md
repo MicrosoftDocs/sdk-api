@@ -9,8 +9,8 @@ ms.assetid: 31b64adf-f015-404a-aed7-0b9a21d83c9a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEER_EVENT_PRESENCE_CHANGED_DATA, PEER_EVENT_PRESENCE_CHANGED_DATA, PEER_EVENT_PRESENCE_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_PRESENCE_CHANGED_DATA, PPEER_EVENT_PRESENCE_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_presence_changed_data, p2p/PEER_EVENT_PRESENCE_CHANGED_DATA, p2p/PPEER_EVENT_PRESENCE_CHANGED_DATA, peer_event_presence_changed_data_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

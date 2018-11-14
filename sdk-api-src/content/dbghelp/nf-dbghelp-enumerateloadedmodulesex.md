@@ -7,7 +7,7 @@ old-location: base\enumerateloadedmodulesex.htm
 tech.root: debug
 ms.assetid: 4d3d7460-7a84-4d8b-8cea-c6773beac237
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: EnumerateLoadedModulesEx, EnumerateLoadedModulesEx function, EnumerateLoadedModulesExW, base.enumerateloadedmodulesex, dbghelp/EnumerateLoadedModulesEx, dbghelp/EnumerateLoadedModulesExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later
+- apiref
+: 
+- 
+: 
+- EnumerateLoadedModulesEx
+: 
 ---
 
 # EnumerateLoadedModulesEx function

@@ -9,8 +9,8 @@ ms.assetid: 60d13945-740f-46bd-9602-bacd0dac5e32
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: OPM_CONFIGURE_PARAMETERS, OPM_CONFIGURE_PARAMETERS structure [Media Foundation], _OPM_CONFIGURE_PARAMETERS, mf.opm_configure_parameters, opmapi/OPM_CONFIGURE_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 

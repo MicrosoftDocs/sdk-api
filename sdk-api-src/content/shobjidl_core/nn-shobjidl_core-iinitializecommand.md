@@ -9,8 +9,8 @@ ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

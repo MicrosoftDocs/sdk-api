@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RemoveLogContainerSet
+: 
 ---
 
 # RemoveLogContainerSet function
@@ -52,7 +58,7 @@ req.redist:
 
 Removes multiple containers from a log that is associated with a dedicated or multiplexed log handle.
 
-A client must have  administrative privileges on the log handle to  remove a container. The <a href="https://msdn.microsoft.com/en-us/library/Bb540416(v=VS.85).aspx">RemoveLogContainer</a> function is a special case of this <b>RemoveLogContainerSet</b> function, because it removes only one container.  To remove multiple containers, use the <b>RemoveLogContainerSet</b>.
+A client must have  administrative privileges on the log handle to  remove a container. The <a href="https://msdn.microsoft.com/e6571cb0-8453-4db0-9a33-17339c4ea223">RemoveLogContainer</a> function is a special case of this <b>RemoveLogContainerSet</b> function, because it removes only one container.  To remove multiple containers, use the <b>RemoveLogContainerSet</b>.
 
 
 ## -parameters
@@ -143,7 +149,7 @@ A log client can request a forced deletion on a container by setting the deletio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540416(v=VS.85).aspx">RemoveLogContainer</a>
+<a href="https://msdn.microsoft.com/e6571cb0-8453-4db0-9a33-17339c4ea223">RemoveLogContainer</a>
  
 
  

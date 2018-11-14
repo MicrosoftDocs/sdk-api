@@ -9,8 +9,8 @@ ms.assetid: 11ecd7ac-13c4-4f55-9700-105153b4fead
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FLOW_DESC, FLOW_DESC structure [QOS], flow_desc, lpmapi/FLOW_DESC, qos.flow_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfmediaengine.h
+: 
+- IMFMediaEngineEx.IsStereo3D
+: 
 ---
 
 # IMFMediaEngineEx::IsStereo3D

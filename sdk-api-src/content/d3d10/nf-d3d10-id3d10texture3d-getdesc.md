@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10.h
+: 
+- ID3D10Texture3D.GetDesc
+: 
 ---
 
 # ID3D10Texture3D::GetDesc
@@ -61,9 +69,9 @@ Get the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b2447872-cbef-4cf2-ab7c-2739343ceb64">D3D10_TEXTURE3D_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>).
+Pointer to a resource description (see <a href="https://msdn.microsoft.com/b2447872-cbef-4cf2-ab7c-2739343ceb64">D3D10_TEXTURE3D_DESC</a>).
 
 
 ## -returns
@@ -80,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D Interface</a>
+<a href="https://msdn.microsoft.com/786b9006-e46d-45f5-8820-965ebbb2acc6">ID3D10Texture3D Interface</a>
  
 
  

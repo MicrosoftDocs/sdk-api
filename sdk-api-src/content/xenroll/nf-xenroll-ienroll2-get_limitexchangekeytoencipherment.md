@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll2.get_LimitExchangeKeyToEncipherment
+: 
 ---
 
 # IEnroll2::get_LimitExchangeKeyToEncipherment

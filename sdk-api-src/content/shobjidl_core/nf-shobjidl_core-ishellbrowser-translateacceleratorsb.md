@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IShellBrowser.TranslateAcceleratorSB
+: 
 ---
 
 # IShellBrowser::TranslateAcceleratorSB
@@ -74,7 +82,7 @@ The command identifier value corresponding to the keystroke in the container-pro
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure containing the keystroke message.
+The address of an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure containing the keystroke message.
 
 
 ## -returns

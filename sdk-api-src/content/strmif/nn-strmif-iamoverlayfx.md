@@ -9,8 +9,8 @@ ms.assetid: 6bc78464-8c9e-4016-b9aa-6589d53d45bf
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], IAMOverlayFX interface [DirectShow],described, IAMOverlayFXInterface, dshow.iamoverlayfx, strmif/IAMOverlayFX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

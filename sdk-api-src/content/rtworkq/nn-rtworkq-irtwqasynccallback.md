@@ -9,8 +9,8 @@ ms.assetid: E595C072-98F8-4231-9C8F-A8393D751DE6
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rtworkq.h
 req.include-header: 

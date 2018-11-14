@@ -4,10 +4,10 @@ title: IAzScope::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified principal from the specified list of principals.
 old-location: security\iazscope_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 16500d05-c5bf-4d09-8649-ebf58407120d
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzScope object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzScope object, DeletePropertyItem method [Security],IAzScope interface, IAzScope interface [Security],DeletePropertyItem method, IAzScope.DeletePropertyItem, IAzScope::DeletePropertyItem, azroles/IAzScope::DeletePropertyItem, security.iazscope_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzScope.DeletePropertyItem
+: 
 ---
 
 # IAzScope::DeletePropertyItem

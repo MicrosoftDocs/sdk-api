@@ -9,8 +9,8 @@ ms.assetid: fb69c89e-ab4b-4382-9bab-889552136da4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WCN_VALUE_AT_OPEN, WCN_VALUE_AT_SHARED, WCN_VALUE_AT_WPA, WCN_VALUE_AT_WPA2, WCN_VALUE_AT_WPA2PSK, WCN_VALUE_AT_WPAPSK, WCN_VALUE_AT_WPAWPA2PSK_MIXED, WCN_VALUE_TYPE_AUTHENTICATION_TYPE, WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_AUTHENTICATION_TYPE, wcn.wcn_value_type_authentication_type, wcntypes/WCN_VALUE_AT_OPEN, wcntypes/WCN_VALUE_AT_SHARED, wcntypes/WCN_VALUE_AT_WPA, wcntypes/WCN_VALUE_AT_WPA2, wcntypes/WCN_VALUE_AT_WPA2PSK, wcntypes/WCN_VALUE_AT_WPAPSK, wcntypes/WCN_VALUE_AT_WPAWPA2PSK_MIXED, wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 

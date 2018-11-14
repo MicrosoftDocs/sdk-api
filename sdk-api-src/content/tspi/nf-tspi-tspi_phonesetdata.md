@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_phoneSetData
+: 
 ---
 
 # TSPI_phoneSetData function

@@ -4,10 +4,10 @@ title: HeapQueryInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified heap.
 old-location: base\heapqueryinformation.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInformation function, _win32_heapqueryinformation, base.heapqueryinformation, heapapi/HeapQueryInformation, winbase/HeapQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HeapQueryInformation
+: 
 ---
 
 # HeapQueryInformation function

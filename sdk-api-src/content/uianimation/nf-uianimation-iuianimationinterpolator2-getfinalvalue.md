@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationInterpolator2.GetFinalValue
+: 
 ---
 
 # IUIAnimationInterpolator2::GetFinalValue

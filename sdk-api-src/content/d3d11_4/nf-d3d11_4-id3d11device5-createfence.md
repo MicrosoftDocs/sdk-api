@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_4.h
+: 
+- ID3D11Device5.CreateFence
+: 
 ---
 
 # ID3D11Device5::CreateFence
@@ -122,7 +130,7 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt589892(v=VS.85).aspx">UnregisterDeviceRemoved</a>
+<a href="direct3d11.id3d11device5_unregisterdeviceremoved">UnregisterDeviceRemoved</a>
  
 
  

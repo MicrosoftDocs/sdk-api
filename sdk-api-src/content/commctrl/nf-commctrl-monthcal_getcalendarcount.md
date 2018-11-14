@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- MonthCal_GetCalendarCount
+: 
 ---
 
 # MonthCal_GetCalendarCount macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760947(v=VS.85).aspx">MCM_GETCALENDARCOUNT</a> message explicitly.
+Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/b9463f02-d37b-49b0-8387-0938020c23ee">MCM_GETCALENDARCOUNT</a> message explicitly.
 
 
 ## -parameters

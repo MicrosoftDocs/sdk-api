@@ -9,8 +9,8 @@ ms.assetid: 1b6bc2fd-0af4-4097-a567-cf1d1dca440c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint32AField, MI_Sint32AField structure [Windows Management Infrastructure (MI)], _MI_Sint32AField, mi/MI_Sint32AField, wmi._mi_sint32afield, wmi_v2.mi_sint32afield
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

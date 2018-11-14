@@ -9,8 +9,8 @@ ms.assetid: f06d0efb-44e1-40ed-9480-35dbdfce934c
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY callback, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY callback function [Security], security.pfn_cmsg_gen_content_encrypt_key, wincrypt/PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

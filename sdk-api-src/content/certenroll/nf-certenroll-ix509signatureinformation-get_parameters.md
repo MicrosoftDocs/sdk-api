@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509SignatureInformation.get_Parameters
+: 
 ---
 
 # IX509SignatureInformation::get_Parameters
@@ -64,7 +72,7 @@ This property is read/write.
 
 
 
-The AlgorithmIdentifier ASN.1 object that is used in various fields of an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> version 3 certificate contains an algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and optional parameters.
+The AlgorithmIdentifier ASN.1 object that is used in various fields of an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> version 3 certificate contains an algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and optional parameters.
 
 <pre class="syntax" xml:space="preserve"><code>
 AlgorithmIdentifier  ::=  SEQUENCE  
@@ -128,7 +136,7 @@ RSASSA-PSS-params ::= SEQUENCE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
+<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
  
 
  

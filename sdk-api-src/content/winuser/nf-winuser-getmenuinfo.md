@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetMenuInfo
+: 
 ---
 
 # GetMenuInfo function
@@ -69,7 +75,7 @@ A handle on a menu.
 
 Type: <b>LPMENUINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647575(v=VS.85).aspx">MENUINFO</a> structure containing information for the menu. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/dc53a6c7-b75b-4228-b04f-befff07270d4">MENUINFO</a> structure containing information for the menu. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUINFO)</code> before calling this function. 
 				
 
 
@@ -91,7 +97,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
  
 
  

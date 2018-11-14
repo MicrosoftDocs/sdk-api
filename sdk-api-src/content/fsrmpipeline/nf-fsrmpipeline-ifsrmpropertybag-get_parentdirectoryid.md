@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmPropertyBag.get_ParentDirectoryId
+: 
 ---
 
 # IFsrmPropertyBag::get_ParentDirectoryId

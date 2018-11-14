@@ -9,8 +9,8 @@ ms.assetid: cfa534c4-88c3-4170-b977-c24ea5593f6c
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MF_ATTRIBUTES_MATCH_ALL_ITEMS, MF_ATTRIBUTES_MATCH_INTERSECTION, MF_ATTRIBUTES_MATCH_OUR_ITEMS, MF_ATTRIBUTES_MATCH_SMALLER, MF_ATTRIBUTES_MATCH_THEIR_ITEMS, MF_ATTRIBUTES_MATCH_TYPE, MF_ATTRIBUTES_MATCH_TYPE enumeration [Media Foundation], _MF_ATTRIBUTES_MATCH_TYPE, cfa534c4-88c3-4170-b977-c24ea5593f6c, mf.mf_attributes_match_type, mfobjects/MF_ATTRIBUTES_MATCH_ALL_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_INTERSECTION, mfobjects/MF_ATTRIBUTES_MATCH_OUR_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_SMALLER, mfobjects/MF_ATTRIBUTES_MATCH_THEIR_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h

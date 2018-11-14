@@ -9,8 +9,8 @@ ms.assetid: 4aa36eab-eff2-4caa-9bad-15c534c5a5a0
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_VERB, HTTP_VERB, HTTP_VERB enumeration [HTTP], HttpVerbCONNECT, HttpVerbCOPY, HttpVerbDELETE, HttpVerbGET, HttpVerbHEAD, HttpVerbInvalid, HttpVerbLOCK, HttpVerbMKCOL, HttpVerbMOVE, HttpVerbMaximum, HttpVerbOPTIONS, HttpVerbPOST, HttpVerbPROPFIND, HttpVerbPROPPATCH, HttpVerbPUT, HttpVerbSEARCH, HttpVerbTRACE, HttpVerbTRACK, HttpVerbUNLOCK, HttpVerbUnknown, HttpVerbUnparsed, PHTTP_VERB, PHTTP_VERB enumeration pointer [HTTP], _HTTP_VERB, _http_http_verb, http.http_verb, http/HTTP_VERB, http/HttpVerbCONNECT, http/HttpVerbCOPY, http/HttpVerbDELETE, http/HttpVerbGET, http/HttpVerbHEAD, http/HttpVerbInvalid, http/HttpVerbLOCK, http/HttpVerbMKCOL, http/HttpVerbMOVE, http/HttpVerbMaximum, http/HttpVerbOPTIONS, http/HttpVerbPOST, http/HttpVerbPROPFIND, http/HttpVerbPROPPATCH, http/HttpVerbPUT, http/HttpVerbSEARCH, http/HttpVerbTRACE, http/HttpVerbTRACK, http/HttpVerbUNLOCK, http/HttpVerbUnknown, http/HttpVerbUnparsed, http/PHTTP_VERB"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

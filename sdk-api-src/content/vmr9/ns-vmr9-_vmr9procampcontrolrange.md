@@ -9,8 +9,8 @@ ms.assetid: 5fa61ed8-4fd6-42fb-8c5b-87d23e239cd1
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: VMR9ProcAmpControlRange, VMR9ProcAmpControlRange structure [DirectShow], VMR9ProcAmpControlRangeStructure, _VMR9ProcAmpControlRange, dshow.vmr9procampcontrolrange, vmr9/VMR9ProcAmpControlRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

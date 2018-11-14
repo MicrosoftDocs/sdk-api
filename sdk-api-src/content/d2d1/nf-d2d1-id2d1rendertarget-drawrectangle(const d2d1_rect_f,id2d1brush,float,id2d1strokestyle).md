@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1RenderTarget_DrawRectangle_ptr_D2D_RECT_F_ptr_ID2D1B
 tech.root: direct2d
 ms.assetid: f116c1ad-6eb5-4f42-9cd5-a62cf1461f53
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DrawRectangle, DrawRectangle method [Direct2D], DrawRectangle method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawRectangle method, ID2D1RenderTarget.DrawRectangle, ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawRectangle, ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/ID2D1RenderTarget::DrawRectangle, direct2d.ID2D1RenderTarget_DrawRectangle_ptr_D2D_RECT_F_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1RenderTarget.DrawRectangle
+: 
 ---
 
 # ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle)

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PstAcquirePrivateKey
+: 
 ---
 
 # PstAcquirePrivateKey function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Associates the caller's <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> with the specified <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate</a>.
+Associates the caller's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> with the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>.
 
 
 ## -parameters

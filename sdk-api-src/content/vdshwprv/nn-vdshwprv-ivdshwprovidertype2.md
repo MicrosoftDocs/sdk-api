@@ -9,8 +9,8 @@ ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

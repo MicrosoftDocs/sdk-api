@@ -9,8 +9,8 @@ ms.assetid: 5af9f007-9588-4574-a5ce-3f01ec0b45e8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CPFT_CHECKBOX, CPFT_COMBOBOX, CPFT_COMMAND_LINK, CPFT_EDIT_TEXT, CPFT_INVALID, CPFT_LARGE_TEXT, CPFT_PASSWORD_TEXT, CPFT_SMALL_TEXT, CPFT_SUBMIT_BUTTON, CPFT_TILE_IMAGE, CREDENTIAL_PROVIDER_FIELD_TYPE, CREDENTIAL_PROVIDER_FIELD_TYPE enumeration [Windows Shell], _CREDENTIAL_PROVIDER_FIELD_TYPE, credentialprovider/CPFT_CHECKBOX, credentialprovider/CPFT_COMBOBOX, credentialprovider/CPFT_COMMAND_LINK, credentialprovider/CPFT_EDIT_TEXT, credentialprovider/CPFT_INVALID, credentialprovider/CPFT_LARGE_TEXT, credentialprovider/CPFT_PASSWORD_TEXT, credentialprovider/CPFT_SMALL_TEXT, credentialprovider/CPFT_SUBMIT_BUTTON, credentialprovider/CPFT_TILE_IMAGE, credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE, shell.CREDENTIAL_PROVIDER_FIELD_TYPE, shell_CREDENTIAL_PROVIDER_FIELD_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb773243(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
+Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/8409b4b7-c601-4e85-95f9-4272feb29028">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
 
 
 ## -enum-fields
@@ -75,7 +75,7 @@ A stand-alone text label is drawn in the smaller of two font sizes.
 
 ### -field CPFT_COMMAND_LINK
 
-An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://msdn.microsoft.com/en-us/library/Bb776020(v=VS.85).aspx">CommandLinkClicked</a> in your credential provider to respond to the click.
+An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://msdn.microsoft.com/04e371cb-f968-4a15-9285-e676dff59899">CommandLinkClicked</a> in your credential provider to respond to the click.
 
 
 ### -field CPFT_EDIT_TEXT

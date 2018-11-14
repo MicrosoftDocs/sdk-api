@@ -9,8 +9,8 @@ ms.assetid: 68a75714-cf47-40f9-95ab-e1ffc8936390
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PFN_CMSG_EXPORT_MAIL_LIST, PFN_CMSG_EXPORT_MAIL_LIST callback, PFN_CMSG_EXPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_export_mail_list, wincrypt/PFN_CMSG_EXPORT_MAIL_LIST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

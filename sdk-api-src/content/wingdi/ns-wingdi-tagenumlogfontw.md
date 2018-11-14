@@ -9,8 +9,8 @@ ms.assetid: cfae9e97-c714-40fb-88ab-95e12ea3ffa9
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPENUMLOGFONTW, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, tagENUMLOGFONTW, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

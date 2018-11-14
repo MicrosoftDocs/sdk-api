@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Image.Image
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -98,7 +106,7 @@ Specifies that color correction is not enabled
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 

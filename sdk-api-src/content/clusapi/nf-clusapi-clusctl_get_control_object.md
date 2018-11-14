@@ -7,7 +7,7 @@ old-location: mscs\clusctl_get_control_object.htm
 tech.root: mscs
 ms.assetid: b49c030e-fe7a-45cd-bbbf-0056763d827c
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUSCTL_GET_CONTROL_OBJECT, CLUSCTL_GET_CONTROL_OBJECT macro [Failover Cluster], _wolf_clusctl_get_control_object, clusapi/CLUSCTL_GET_CONTROL_OBJECT, mscs.clusctl_get_control_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- clusapi.h
+: 
+- CLUSCTL_GET_CONTROL_OBJECT
+: 
 ---
 
 # CLUSCTL_GET_CONTROL_OBJECT macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Extracts the object code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a>.
+Extracts the object code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>.
 
 
 ## -parameters

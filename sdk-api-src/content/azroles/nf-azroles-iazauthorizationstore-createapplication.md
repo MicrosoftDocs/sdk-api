@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::CreateApplication
 author: windows-sdk-content
 description: Creates an IAzApplication object with the specified name.
 old-location: security\azauthorizationstore_createapplication.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: ca6feb69-15cd-454a-a2b8-c75c4c6b38cd
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzAuthorizationStore object [Security],CreateApplication method, CreateApplication, CreateApplication method [Security], CreateApplication method [Security],AzAuthorizationStore object, CreateApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CreateApplication method, IAzAuthorizationStore.CreateApplication, IAzAuthorizationStore::CreateApplication, azroles/IAzAuthorizationStore::CreateApplication, security.azauthorizationstore_createapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.CreateApplication
+: 
 ---
 
 # IAzAuthorizationStore::CreateApplication

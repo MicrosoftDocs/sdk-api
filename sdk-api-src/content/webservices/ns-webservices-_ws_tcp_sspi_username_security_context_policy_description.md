@@ -9,8 +9,8 @@ ms.assetid: ec51c3a6-726d-470a-b818-f604d2519151
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_username_security_context_policy_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO, tagIMAGEINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commoncontrols.h
 req.include-header: Commctrl.h
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761482(v=VS.85).aspx">IImageList::GetImageInfo</a> function. 
+Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/a08fbc4d-96f0-403d-8062-0592ab32dc5c">IImageList::GetImageInfo</a> function. 
 
 
 ## -struct-fields

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPClosedCaption.put_SAMILang
+: 
 ---
 
 # IWMPClosedCaption::put_SAMILang

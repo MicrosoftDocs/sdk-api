@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DDevice9.SetMaterial
+: 
 ---
 
 # IDirect3DDevice9::SetMaterial
@@ -61,16 +69,16 @@ Sets the material properties for the device.
 
 ### -param pMaterial [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/943e6f6d-8091-462f-8c44-e0c27686934a">D3DMATERIAL9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172571(v=VS.85).aspx">D3DMATERIAL9</a> structure, describing the material properties to set. 
+Pointer to a <a href="https://msdn.microsoft.com/943e6f6d-8091-462f-8c44-e0c27686934a">D3DMATERIAL9</a> structure, describing the material properties to set. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pMaterial parameter is invalid.
 
@@ -82,11 +90,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pM
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174394(v=VS.85).aspx">IDirect3DDevice9::GetMaterial</a>
+<a href="https://msdn.microsoft.com/834855f6-85ff-4c68-b1e7-8418042b71aa">IDirect3DDevice9::GetMaterial</a>
  
 
  

@@ -4,10 +4,10 @@ title: IAzApplicationGroup2::put_BizRuleLanguage
 author: windows-sdk-content
 description: Gets or sets the programming language of the business rule script associated with this application group.
 old-location: security\iazapplicationgroup2_bizrulelanguage_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 4f70daf0-57f2-47d8-93ce-133e0b714388
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: BizRuleLanguage property [Security], BizRuleLanguage property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleLanguage property, IAzApplicationGroup2.BizRuleLanguage, IAzApplicationGroup2.put_BizRuleLanguage, IAzApplicationGroup2::BizRuleLanguage, IAzApplicationGroup2::get_BizRuleLanguage, IAzApplicationGroup2::put_BizRuleLanguage, azroles/IAzApplicationGroup2::BizRuleLanguage, azroles/IAzApplicationGroup2::get_BizRuleLanguage, azroles/IAzApplicationGroup2::put_BizRuleLanguage, put_BizRuleLanguage, security.iazapplicationgroup2_bizrulelanguage_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplicationGroup2.put_BizRuleLanguage
+: 
 ---
 
 # IAzApplicationGroup2::put_BizRuleLanguage

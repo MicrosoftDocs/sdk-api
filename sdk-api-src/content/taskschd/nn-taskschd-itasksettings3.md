@@ -9,8 +9,8 @@ ms.assetid: B0315585-A41C-423C-A059-14C2F04F6652
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITaskSettings3, ITaskSettings3 interface [Task Scheduler], ITaskSettings3 interface [Task Scheduler],described, taskschd.itasksettings3, taskschd/ITaskSettings3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

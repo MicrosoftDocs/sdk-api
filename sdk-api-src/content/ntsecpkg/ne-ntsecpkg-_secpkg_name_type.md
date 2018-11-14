@@ -9,8 +9,8 @@ ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _SECPKG_NAME_TYPE, _ssp_secpkg_name_type, ntsecpkg/SECPKG_NAME_TYPE, ntsecpkg/SecNameAlternateId, ntsecpkg/SecNameDN, ntsecpkg/SecNameFlat, ntsecpkg/SecNameSamCompatible, security.secpkg_name_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 

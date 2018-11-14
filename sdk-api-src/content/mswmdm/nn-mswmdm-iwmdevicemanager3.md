@@ -9,8 +9,8 @@ ms.assetid: 728f7e2f-7198-49e1-b6d9-0ac24a0b56e6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWMDeviceManager3, IWMDeviceManager3 interface [windows Media Device Manager], IWMDeviceManager3 interface [windows Media Device Manager],described, IWMDeviceManager3Interface, mswmdm/IWMDeviceManager3, wmdm.iwmdevicemanager3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

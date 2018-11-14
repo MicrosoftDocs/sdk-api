@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- inked.h
+: 
+- IInkEdit.get_SelInksDisplayMode
+: 
 ---
 
 # IInkEdit::get_SelInksDisplayMode

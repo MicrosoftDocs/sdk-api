@@ -9,8 +9,8 @@ ms.assetid: bd06118c-ea1b-46e4-b499-67039430a52e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], IBDA_DRMService interface [Microsoft TV Technologies],described, bdaiface/IBDA_DRMService, mstv.ibda_drmservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +55,9 @@ Provides access to a device's Digital Rights Management (DRM) Service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DRMService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_DRMService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DRMService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_DRMService</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IBDA_DRMService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693317(v=VS.85).aspx">GetDRMStatus</a>
+<a href="https://msdn.microsoft.com/474ea991-6fb4-4eb4-9146-c76914765dc1">GetDRMStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the current DRM status.
@@ -79,7 +79,7 @@ Gets the current DRM status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693318(v=VS.85).aspx">SetDRM</a>
+<a href="https://msdn.microsoft.com/89da348f-c79c-4c77-8270-51a71b0a1a89">SetDRM</a>
 </td>
 <td align="left" width="63%">
 Activates a DRM system on the media transform device (MTD).

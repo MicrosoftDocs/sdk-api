@@ -9,8 +9,8 @@ ms.assetid: aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDT_KEYBOARD, IMDT_MOUSE, IMDT_PEN, IMDT_TOUCH, IMDT_TOUCHPAD, IMDT_UNAVAILABLE, INPUT_MESSAGE_DEVICE_TYPE, INPUT_MESSAGE_DEVICE_TYPE enumeration, input_sourceid.input_message_device_type, inputsourceid.input_message_device_type, tagINPUT_MESSAGE_DEVICE_TYPE, winuser/IMDT_KEYBOARD, winuser/IMDT_MOUSE, winuser/IMDT_PEN, winuser/IMDT_TOUCH, winuser/IMDT_TOUCHPAD, winuser/IMDT_UNAVAILABLE, winuser/INPUT_MESSAGE_DEVICE_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 

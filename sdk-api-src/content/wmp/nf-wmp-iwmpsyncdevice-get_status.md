@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPSyncDevice.get_status
+: 
 ---
 
 # IWMPSyncDevice::get_status

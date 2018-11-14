@@ -9,8 +9,8 @@ ms.assetid: 0881afec-2fa5-4f17-96a2-68a5293e0bba
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_FONT_SIMULATIONS, DWRITE_FONT_SIMULATIONS enumeration [Direct Write], DWRITE_FONT_SIMULATIONS_BOLD, DWRITE_FONT_SIMULATIONS_NONE, DWRITE_FONT_SIMULATIONS_OBLIQUE, directwrite.dwrite_font_simulations, dwrite/DWRITE_FONT_SIMULATIONS, dwrite/DWRITE_FONT_SIMULATIONS_BOLD, dwrite/DWRITE_FONT_SIMULATIONS_NONE, dwrite/DWRITE_FONT_SIMULATIONS_OBLIQUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

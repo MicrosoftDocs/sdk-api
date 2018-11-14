@@ -9,8 +9,8 @@ ms.assetid: 8cbe27b6-c676-49f2-8341-9e180c335636
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: COAUTHINFO, COAUTHINFO structure [COM], _COAUTHINFO, _com_COAUTHINFO, com.coauthinfo, wtypesbase/COAUTHINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypesbase.h
 req.include-header: WTypes.h

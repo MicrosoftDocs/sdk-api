@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IMtsEventInfo.get_Names
+: 
 ---
 
 # IMtsEventInfo::get_Names

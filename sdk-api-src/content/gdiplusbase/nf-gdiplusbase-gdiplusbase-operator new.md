@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbase.h
+: 
+- GdiplusBase.operator new
+: 
 req.product: GDI+ 1.0
 ---
 

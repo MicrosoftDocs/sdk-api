@@ -7,10 +7,10 @@ old-location: eaphost\eapcredential.htm
 tech.root: eaphost
 ms.assetid: DC1B9524-2853-404D-A77A-61CB012FCF11
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapCredential, EapCredential structure [EAPHost], _EapCredential, eaphost.eapcredential, eaptypes/EapCredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

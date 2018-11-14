@@ -9,8 +9,8 @@ ms.assetid: 611ABFB6-851F-4A2C-86A0-E26732CD20BE
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRDPSRAPIPerfCounterLoggingManager, IRDPSRAPIPerfCounterLoggingManager class [RDP], IRDPSRAPIPerfCounterLoggingManager class [RDP],described, rdp.irdpsrapiperfcounterloggingmanager, rdp.irdpsrapiperfcounterloggingmanager_, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

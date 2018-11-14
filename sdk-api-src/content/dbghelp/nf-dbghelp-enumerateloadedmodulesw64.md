@@ -7,7 +7,7 @@ old-location: base\enumerateloadedmodules64.htm
 tech.root: debug
 ms.assetid: 9bfa683f-2a0f-418f-8ac4-5c4224265f2e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateLoadedModules64, EnumerateLoadedModules64 function, EnumerateLoadedModulesW64, _win32_enumerateloadedmodules64, base.enumerateloadedmodules64, dbghelp/EnumerateLoadedModules, dbghelp/EnumerateLoadedModules64, dbghelp/EnumerateLoadedModulesW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- EnumerateLoadedModulesW64
+: 
 ---
 
 # EnumerateLoadedModulesW64 function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidStreamBufferSink2.UnlockProfile
+: 
 ---
 
 # IMSVidStreamBufferSink2::UnlockProfile

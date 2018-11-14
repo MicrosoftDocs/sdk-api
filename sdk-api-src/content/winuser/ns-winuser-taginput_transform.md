@@ -9,8 +9,8 @@ ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INPUT_TRANSFORM, INPUT_TRANSFORM structure [Windows and Messages], _INPUT_TRANSFORM, inputmsg.input_transform, tagINPUT_TRANSFORM, winuser/INPUT_TRANSFORM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 

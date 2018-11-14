@@ -9,8 +9,8 @@ ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], _WL_DISPLAY_PAGES, nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 

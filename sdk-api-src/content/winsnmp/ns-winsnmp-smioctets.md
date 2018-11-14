@@ -9,8 +9,8 @@ ms.assetid: d53da0e8-ce7d-4923-90c3-2469cbd9d9b1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*smiLPBITS, *smiLPIPADDR, *smiLPNSAPADDR, *smiLPOCTETS, *smiLPOPAQUE, _snmp_smioctets_str, smiBITS, smiIPADDR, smiLPOCTETS, smiLPOCTETS structure pointer [SNMP], smiNSAPADDR, smiOCTETS, smiOCTETS structure [SNMP], smiOPAQUE, snmp.smioctets_str, winsnmp/smiLPOCTETS, winsnmp/smiOCTETS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 

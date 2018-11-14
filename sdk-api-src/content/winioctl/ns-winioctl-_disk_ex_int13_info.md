@@ -9,8 +9,8 @@ ms.assetid: efde6ede-b921-4d1d-ab4a-b9f85ae6aea1
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Files], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Files], _DISK_EX_INT13_INFO, _win32_disk_ex_int13_info_str, base.disk_ex_int13_info_str, fs.disk_ex_int13_info_str, winioctl/DISK_EX_INT13_INFO, winioctl/PDISK_EX_INT13_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

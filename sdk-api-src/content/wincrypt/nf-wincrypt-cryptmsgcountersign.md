@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptMsgCountersign
+: 
 ---
 
 # CryptMsgCountersign function
@@ -155,11 +161,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

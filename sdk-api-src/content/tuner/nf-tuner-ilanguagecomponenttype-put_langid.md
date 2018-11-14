@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tuner.h
+: 
+- ILanguageComponentType.put_LangID
+: 
 ---
 
 # ILanguageComponentType::put_LangID

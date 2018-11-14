@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getmessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: F9700374-255D-423E-8E60-4FE7FFA9E807
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method [DXGI], GetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessageCountLimit method, IDXGIInfoQueue.GetMessageCountLimit, IDXGIInfoQueue::GetMessageCountLimit, direct3ddxgi.idxgiinfoqueue_getmessagecountlimit, dxgidebug/IDXGIInfoQueue::GetMessageCountLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgidebug.h
+: 
+- IDXGIInfoQueue.GetMessageCountLimit
+: 
 ---
 
 # IDXGIInfoQueue::GetMessageCountLimit

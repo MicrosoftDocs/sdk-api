@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont2.GetUnderlinePositionMode
+: 
 ---
 
 # ITextFont2::GetUnderlinePositionMode
@@ -64,9 +72,9 @@ Type: <b>long*</b>
 
 The underline position mode. It can be one of the following values.
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAuto</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionBelow</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAbove</a>
+<a href="tomconstants.htm">tomUnderlinePositionAuto</a>
+<a href="tomconstants.htm">tomUnderlinePositionBelow</a>
+<a href="tomconstants.htm">tomUnderlinePositionAbove</a>
 
 ## -returns
 

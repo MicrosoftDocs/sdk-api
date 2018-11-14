@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_4.h
+: 
+- ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData
+: 
 ---
 
 # ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData
@@ -121,7 +129,7 @@ This can be called multiple times, the first time to get the <i>Type</i> (in whi
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt808594(v=VS.85).aspx">ID3DVideoContext2</a>
+<a href="mf.id3dvideocontext2">ID3DVideoContext2</a>
  
 
  

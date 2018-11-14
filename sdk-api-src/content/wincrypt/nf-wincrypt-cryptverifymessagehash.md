@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptVerifyMessageHash
+: 
 ---
 
 # CryptVerifyMessageHash function
@@ -186,7 +192,7 @@ If the buffer specified by the <i>pbToBeHashed</i> parameter is not large enough
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

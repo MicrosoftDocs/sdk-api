@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BCryptRegisterConfigChangeNotify
+: 
 ---
 
 # BCryptRegisterConfigChangeNotify function
@@ -62,9 +68,9 @@ The <b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> function creates a user mod
 
 ### -param pEvent [out]
 
-The address of a <b>HANDLE</b> variable that receives the event handle. Use one of the <a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">Wait Functions</a>, such as <a href="https://msdn.microsoft.com/en-us/library/ms687032(v=VS.85).aspx">WaitForSingleObject</a>, to determine when the event has been signaled. The event is unnamed and must be a manual-reset event. The event is signaled when any CNG configuration data has changed.
+The address of a <b>HANDLE</b> variable that receives the event handle. Use one of the <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>, such as <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a>, to determine when the event has been signaled. The event is unnamed and must be a manual-reset event. The event is signaled when any CNG configuration data has changed.
 
-This handle must be passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb394682(v=VS.85).aspx">BCryptUnregisterConfigChangeNotify(HANDLE)</a> function to remove the event notification.
+This handle must be passed to the <a href="https://msdn.microsoft.com/204d289d-46c0-4815-a628-758310014790">BCryptUnregisterConfigChangeNotify(HANDLE)</a> function to remove the event notification.
 
 
 ## -returns
@@ -138,7 +144,7 @@ The handle returned in the variable pointed to by the <i>phEvent</i> parameter w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394682(v=VS.85).aspx">BCryptUnregisterConfigChangeNotify(HANDLE)</a>
+<a href="https://msdn.microsoft.com/204d289d-46c0-4815-a628-758310014790">BCryptUnregisterConfigChangeNotify(HANDLE)</a>
  
 
  

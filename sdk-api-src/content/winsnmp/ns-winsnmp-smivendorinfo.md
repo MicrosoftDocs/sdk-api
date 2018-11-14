@@ -9,8 +9,8 @@ ms.assetid: 78b7b736-f68a-456a-9178-9a5b40e3bc8d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*smiLPVENDORINFO, _snmp_smivendorinfo_str, smiLPVENDORINFO, smiLPVENDORINFO structure pointer [SNMP], smiVENDORINFO, smiVENDORINFO structure [SNMP], snmp.smivendorinfo_str, winsnmp/smiLPVENDORINFO, winsnmp/smiVENDORINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 

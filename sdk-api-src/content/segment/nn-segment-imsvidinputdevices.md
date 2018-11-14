@@ -9,8 +9,8 @@ ms.assetid: cb9d9885-718e-43b9-b195-66149bd7e973
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], IMSVidInputDevices interface [Microsoft TV Technologies],described, IMSVidInputDevicesInterface, mstv.imsvidinputdevices, segment/IMSVidInputDevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -58,7 +58,7 @@ The <b>IMSVidInputDevices</b> interface represents a collection of input devices
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevices</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMSVidInputDevices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevices</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMSVidInputDevices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -133,7 +133,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

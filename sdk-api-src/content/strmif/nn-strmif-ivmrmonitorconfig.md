@@ -9,8 +9,8 @@ ms.assetid: 02b4016b-a65b-41ac-b5c6-e5f6825f179c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], IVMRMonitorConfig interface [DirectShow],described, IVMRMonitorConfigInterface, dshow.ivmrmonitorconfig, strmif/IVMRMonitorConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -9,8 +9,8 @@ ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: BCRYPT_OID, BCRYPT_OID structure [Security], _BCRYPT_OID, bcrypt/BCRYPT_OID, security.bcrypt_oid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

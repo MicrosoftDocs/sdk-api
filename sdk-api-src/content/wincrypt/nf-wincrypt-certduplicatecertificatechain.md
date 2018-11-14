@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertDuplicateCertificateChain
+: 
 ---
 
 # CertDuplicateCertificateChain function
@@ -84,7 +90,7 @@ If the function fails, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
  
 
  

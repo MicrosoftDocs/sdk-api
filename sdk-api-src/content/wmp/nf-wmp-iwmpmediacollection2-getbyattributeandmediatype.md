@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPMediaCollection2.getByAttributeAndMediaType
+: 
 ---
 
 # IWMPMediaCollection2::getByAttributeAndMediaType

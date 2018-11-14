@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- rtmv2.h
+: 
+- RTM_SIZE_OF_DEST_INFO
+: 
 ---
 
 # RTM_SIZE_OF_DEST_INFO macro

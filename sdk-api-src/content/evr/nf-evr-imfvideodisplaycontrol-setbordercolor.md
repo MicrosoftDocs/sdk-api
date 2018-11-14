@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- evr.h
+: 
+- IMFVideoDisplayControl.SetBorderColor
+: 
 ---
 
 # IMFVideoDisplayControl::SetBorderColor

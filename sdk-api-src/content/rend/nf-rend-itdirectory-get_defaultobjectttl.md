@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectory.get_DefaultObjectTTL
+: 
 ---
 
 # ITDirectory::get_DefaultObjectTTL

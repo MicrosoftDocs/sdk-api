@@ -9,8 +9,8 @@ ms.assetid: fecaf8f5-1323-4a2e-94ee-26b5712ed643
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: TF_INPUTPROCESSORPROFILE, TF_INPUTPROCESSORPROFILE structure [Text Services Framework], _tsf_tf_inputprocessorprofile_ref, msctf/TF_INPUTPROCESSORPROFILE, tsf.tf_inputprocessorprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

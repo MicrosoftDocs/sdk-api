@@ -9,8 +9,8 @@ ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -55,7 +55,7 @@ Transfers data of the byte type (which is 8 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeByte</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeByte</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

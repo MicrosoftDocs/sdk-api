@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IDownloadJob.get_AsyncState
+: 
 ---
 
 # IDownloadJob::get_AsyncState

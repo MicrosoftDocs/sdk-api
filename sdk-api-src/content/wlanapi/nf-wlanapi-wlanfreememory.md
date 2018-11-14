@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
+- apiref
+: 
+- 
+: 
+- WlanFreeMemory
+: 
 ---
 
 # WlanFreeMemory function

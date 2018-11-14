@@ -9,8 +9,8 @@ ms.assetid: 785c534d-0931-4705-9ca9-f52fe0573d85
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 1ba65aec-2e16-5faf-79f0-b9d032823fb7, D3D11_INPUT_CLASSIFICATION, D3D11_INPUT_CLASSIFICATION enumeration [Direct3D 11], D3D11_INPUT_PER_INSTANCE_DATA, D3D11_INPUT_PER_VERTEX_DATA, d3d11/D3D11_INPUT_CLASSIFICATION, d3d11/D3D11_INPUT_PER_INSTANCE_DATA, d3d11/D3D11_INPUT_PER_VERTEX_DATA, direct3d11.d3d11_input_classification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

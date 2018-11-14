@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxManifestPackageId2.GetArchitecture2
+: 
 ---
 
 # IAppxManifestPackageId2::GetArchitecture2

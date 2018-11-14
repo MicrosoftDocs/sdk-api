@@ -9,8 +9,8 @@ ms.assetid: 8e6e40cb-a513-492b-bf2c-97238eb1d1db
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FsrmFileManagementLoggingFlags, FsrmFileManagementLoggingFlags enumeration [File Server Resource Manager], FsrmFileManagementLoggingFlags_Audit, FsrmFileManagementLoggingFlags_Error, FsrmFileManagementLoggingFlags_Information, FsrmFileManagementLoggingFlags_None, _FsrmFileManagementLoggingFlags, fs.fsrmfilemanagementloggingflags, fsrm.fsrmfilemanagementloggingflags, fsrmenums/FsrmFileManagementLoggingFlags, fsrmenums/FsrmFileManagementLoggingFlags_Audit, fsrmenums/FsrmFileManagementLoggingFlags_Error, fsrmenums/FsrmFileManagementLoggingFlags_Information, fsrmenums/FsrmFileManagementLoggingFlags_None
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

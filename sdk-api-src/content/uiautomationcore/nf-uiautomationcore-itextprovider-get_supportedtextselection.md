@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationcore.h
+: 
+- ITextProvider.get_SupportedTextSelection
+: 
 ---
 
 # ITextProvider::get_SupportedTextSelection

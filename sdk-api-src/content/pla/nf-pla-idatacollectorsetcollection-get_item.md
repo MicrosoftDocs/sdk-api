@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataCollectorSetCollection.get_Item
+: 
 ---
 
 # IDataCollectorSetCollection::get_Item

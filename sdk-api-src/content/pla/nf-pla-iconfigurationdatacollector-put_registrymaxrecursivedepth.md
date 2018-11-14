@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
+: 
 ---
 
 # IConfigurationDataCollector::put_RegistryMaxRecursiveDepth

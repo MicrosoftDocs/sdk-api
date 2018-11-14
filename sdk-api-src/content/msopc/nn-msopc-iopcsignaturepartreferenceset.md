@@ -9,8 +9,8 @@ ms.assetid: c6f453e4-e0f5-4ecc-b622-6b30778ff719
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOpcSignaturePartReferenceSet, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions], IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceSet, opc.iopcsignaturepartreferenceset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

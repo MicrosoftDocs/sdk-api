@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkRecognizerContext2.get_EnabledUnicodeRanges
+: 
 ---
 
 # IInkRecognizerContext2::get_EnabledUnicodeRanges

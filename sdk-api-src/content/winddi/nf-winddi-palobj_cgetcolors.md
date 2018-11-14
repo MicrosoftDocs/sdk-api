@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PALOBJ_cGetColors
+: 
 ---
 
 # PALOBJ_cGetColors function

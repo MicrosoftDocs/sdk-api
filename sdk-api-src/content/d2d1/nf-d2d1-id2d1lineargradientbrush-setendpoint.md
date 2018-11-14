@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1LinearGradientBrush_SetEndPoint.htm
 tech.root: direct2d
 ms.assetid: b4d64f42-6038-442e-8666-0555a3e4ed75
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1LinearGradientBrush interface [Direct2D],SetEndPoint method, ID2D1LinearGradientBrush.SetEndPoint, ID2D1LinearGradientBrush::SetEndPoint, SetEndPoint, SetEndPoint method [Direct2D], SetEndPoint method [Direct2D],ID2D1LinearGradientBrush interface, d2d1/ID2D1LinearGradientBrush::SetEndPoint, direct2d.ID2D1LinearGradientBrush_SetEndPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1LinearGradientBrush.SetEndPoint
+: 
 ---
 
 # ID2D1LinearGradientBrush::SetEndPoint

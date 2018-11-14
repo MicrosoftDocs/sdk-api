@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMVideoMediaProps.SetQuality
+: 
 ---
 
 # IWMVideoMediaProps::SetQuality
@@ -64,7 +72,7 @@ The <b>SetQuality</b> method specifies the quality setting for the video stream.
 
 ### -param dwQuality [in]
 
-<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">frame rate</a>) to 100 (maximum image quality).
+<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="wmformat_glossary.htm">frame rate</a>) to 100 (maximum image quality).
 
 
 ## -returns

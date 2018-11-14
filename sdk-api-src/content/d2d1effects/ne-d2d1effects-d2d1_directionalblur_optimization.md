@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_directionalblur_optimization.htm
 tech.root: direct2d
 ms.assetid: 28B99069-3380-4D44-82A1-9A8F551B3C45
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_DIRECTIONALBLUR_OPTIMIZATION, D2D1_DIRECTIONALBLUR_OPTIMIZATION enumeration [Direct2D], D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED, D2D1_DIRECTIONALBLUR_OPTIMIZATION_QUALITY, D2D1_DIRECTIONALBLUR_OPTIMIZATION_SPEED, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION_QUALITY, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION_SPEED, direct2d.d2d1_directionalblur_optimization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the optimization mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706328(v=VS.85).aspx">Directional blur effect</a>.
+Specifies the optimization mode for the <a href="https://msdn.microsoft.com/59328FA4-5C27-4A81-AAB2-C5B25B3615C6">Directional blur effect</a>.
 
 
 ## -enum-fields

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- atscpsipparser.h
+: 
+- IATSC_EIT.Initialize
+: 
 ---
 
 # IATSC_EIT::Initialize

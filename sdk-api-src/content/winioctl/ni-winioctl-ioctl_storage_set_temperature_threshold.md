@@ -9,8 +9,8 @@ ms.assetid: 6B4BF202-6CC9-4571-9078-019984805F00
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Files], fs.ioctl_storage_set_temperature_threshold, winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

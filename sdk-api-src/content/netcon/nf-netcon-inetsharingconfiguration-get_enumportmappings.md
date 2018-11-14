@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netcon.h
+: 
+- INetSharingConfiguration.get_EnumPortMappings
+: 
 ---
 
 # INetSharingConfiguration::get_EnumPortMappings

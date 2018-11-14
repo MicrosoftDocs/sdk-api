@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMReaderCallbackAdvanced.OnStreamSample
+: 
 ---
 
 # IWMReaderCallbackAdvanced::OnStreamSample
@@ -89,11 +97,11 @@ The flags that can be specified have the following uses.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
-<td>This is the same as a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
+<td>This is the same as a <a href="wmformat_glossary.htm">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
 </tr>
 <tr>
 <td>WM_SF_DISCONTINUITY</td>

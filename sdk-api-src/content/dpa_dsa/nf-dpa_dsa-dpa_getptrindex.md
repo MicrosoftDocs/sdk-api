@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DPA_GetPtrIndex
+: 
 ---
 
 # DPA_GetPtrIndex function

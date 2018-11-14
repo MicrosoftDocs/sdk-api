@@ -7,7 +7,7 @@ old-location: multimedia\mciwndopen.htm
 tech.root: Multimedia
 ms.assetid: 88620085-8cba-489c-bfb8-d28b0a5e6013
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: MCIWndOpen, MCIWndOpen macro [Windows Multimedia], _win32_MCIWndOpen, multimedia.mciwndopen, vfw/MCIWndOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- vfw.h
+: 
+- MCIWndOpen
+: 
 ---
 
 # MCIWndOpen macro

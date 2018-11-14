@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- inputscope.h
+: 
+- ITfInputScope2.EnumWordList
+: 
 ---
 
 # ITfInputScope2::EnumWordList

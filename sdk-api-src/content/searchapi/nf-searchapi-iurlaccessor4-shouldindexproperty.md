@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IUrlAccessor4.ShouldIndexProperty
+: 
 ---
 
 # IUrlAccessor4::ShouldIndexProperty
@@ -82,7 +90,7 @@ Returns S_FALSE if the property should not be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183431(v=VS.85).aspx">IUrlAccessor4</a>
+<a href="https://msdn.microsoft.com/e49bfd50-1743-41aa-b11b-c47b9355489f">IUrlAccessor4</a>
  
 
  

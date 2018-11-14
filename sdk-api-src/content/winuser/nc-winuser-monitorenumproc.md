@@ -9,8 +9,8 @@ ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h

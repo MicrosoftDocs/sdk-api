@@ -9,8 +9,8 @@ ms.assetid: 5cff6142-6d71-46a5-a943-3ec91ebac62b
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: "*PPERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK structure [Perf], _PERF_COUNTER_BLOCK, _win32_perf_counter_block_str, base.perf_counter_block_str, perf.perf_counter_block_str, winperf/PERF_COUNTER_BLOCK"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h

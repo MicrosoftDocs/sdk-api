@@ -4,10 +4,10 @@ title: WritePrivateProfileStructW function
 author: windows-sdk-content
 description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
 old-location: base\writeprivateprofilestruct.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: WritePrivateProfileStruct, WritePrivateProfileStruct function, WritePrivateProfileStructA, WritePrivateProfileStructW, _win32_writeprivateprofilestruct, base.writeprivateprofilestruct, winbase/WritePrivateProfileStruct, winbase/WritePrivateProfileStructA, winbase/WritePrivateProfileStructW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WritePrivateProfileStructW
+: 
 ---
 
 # WritePrivateProfileStructW function

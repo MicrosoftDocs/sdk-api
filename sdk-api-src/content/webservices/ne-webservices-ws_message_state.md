@@ -9,8 +9,8 @@ ms.assetid: 2c5ddedd-b0b4-4c26-a5c0-a5851f0408de
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_MESSAGE_STATE, WS_MESSAGE_STATE enumeration [Web Services for Windows], WS_MESSAGE_STATE_DONE, WS_MESSAGE_STATE_EMPTY, WS_MESSAGE_STATE_INITIALIZED, WS_MESSAGE_STATE_READING, WS_MESSAGE_STATE_WRITING, webservices/WS_MESSAGE_STATE, webservices/WS_MESSAGE_STATE_DONE, webservices/WS_MESSAGE_STATE_EMPTY, webservices/WS_MESSAGE_STATE_INITIALIZED, webservices/WS_MESSAGE_STATE_READING, webservices/WS_MESSAGE_STATE_WRITING, wsw.ws_message_state
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -113,11 +113,11 @@ A message object transitions through a set of states as it
 The following are the state transitions while writing or sending:
             
 
-<img alt="" src="./images/MessageSendStates.png"/>
+<img alt="" src="images/MessageSendStates.png"/>
 The following are the state transitions while reading or receiving:
             
 
-<img alt="" src="./images/MessageReceiveStates.png"/>
+<img alt="" src="images/MessageReceiveStates.png"/>
 Note that in the above diagrams, only valid transitions are
                 shown.
             

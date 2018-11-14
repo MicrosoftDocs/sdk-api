@@ -9,8 +9,8 @@ ms.assetid: 71b9b348-1078-4f55-a071-e5e2f273f85c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], IXpsSigningOptions interface [XPS Documents and Packaging],described, xps.ixpssigningoptions, xpsdigitalsignature/IXpsSigningOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsdigitalsignature.h
 req.include-header: 

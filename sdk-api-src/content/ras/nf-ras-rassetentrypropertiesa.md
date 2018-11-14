@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RasSetEntryPropertiesA
+: 
 ---
 
 # RasSetEntryPropertiesA function
@@ -125,8 +131,8 @@ Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i>
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in 
-      <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interfaces (TAPI)</a> 
+      <a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in 
+      <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
 
@@ -218,7 +224,7 @@ When setting properties for an all-users connection, if the calling application 
     non-<b>NULL</b> value for the phone-book parameter, <i>lpszPhonebook</i>, 
     the phone-book file must be located in the phone-book directory beneath the all-users application data path. To 
     obtain the correct location for the phone-book file, first call 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb762181(v=VS.85).aspx">SHGetFolderPath</a> with a 
+    <a href="_win32_shgetfolderpath_cpp">SHGetFolderPath</a> with a 
     <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:

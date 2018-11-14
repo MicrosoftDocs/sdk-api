@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
+: 
 ---
 
 # IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates

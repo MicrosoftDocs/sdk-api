@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs], xapo/XAPO_REGISTRATION_PROPERTIES, xaudio2.xapo_registration_properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xapo.h
 req.include-header: 
@@ -51,8 +51,8 @@ req.redist:
 
 
 Describes general characteristics of an XAPO. Used with 
-	 <a href="https://msdn.microsoft.com/en-us/library/Ee418451(v=VS.85).aspx">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee416386(v=VS.85).aspx">CXAPOParametersBase::CXAPOParametersBase</a>, and 
-	 <a href="https://msdn.microsoft.com/en-us/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. 
+	 <a href="https://msdn.microsoft.com/F9922DF3-3E7D-4847-A6B1-C2AE99C6ADEC">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/08236DB5-8119-4F3F-BB18-D9DCD3713D45">CXAPOParametersBase::CXAPOParametersBase</a>, and 
+	 <a href="https://msdn.microsoft.com/119EA60F-BB59-4D9A-972F-A95D81EEF765">CXAPOBase::CXAPOBase</a>. 
 
 
 ## -struct-fields
@@ -132,7 +132,7 @@ For example, consider an effect which may be ran in stereo to 5.1 mode or
 <tr>
 <td>XAPO_FLAG_BUFFERCOUNT_MUST_MATCH</td>
 <td>Number of input and output buffers must match, applies to 
-     			<a href="https://msdn.microsoft.com/en-us/library/Ee419208(v=VS.85).aspx">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a>. When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set
+     			<a href="https://msdn.microsoft.com/23090cfb-ab64-4399-9acb-f4c752a4be1b">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a>. When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MinInputBufferCount</b> must equal
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MinOutputBufferCount</b> and
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MaxInputBufferCount</b> must equal

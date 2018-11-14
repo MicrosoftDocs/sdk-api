@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GradientStopCollection_GetGradientStops.htm
 tech.root: direct2d
 ms.assetid: a5ae1b14-2694-4593-8eba-17d93b45bb9c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetGradientStops, GetGradientStops method [Direct2D], GetGradientStops method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetGradientStops method, ID2D1GradientStopCollection.GetGradientStops, ID2D1GradientStopCollection::GetGradientStops, d2d1/ID2D1GradientStopCollection::GetGradientStops, direct2d.ID2D1GradientStopCollection_GetGradientStops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1GradientStopCollection.GetGradientStops
+: 
 ---
 
 # ID2D1GradientStopCollection::GetGradientStops

@@ -9,8 +9,8 @@ ms.assetid: 827bc495-eb7d-4a83-a325-903de0551d5f
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PWLX_USE_CTRL_ALT_DEL, PWLX_USE_CTRL_ALT_DEL callback, WlxUseCtrlAltDel, WlxUseCtrlAltDel callback function [Security], _gina_wlxusectrlaltdel, security.wlxusectrlaltdel, winwlx/WlxUseCtrlAltDel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 

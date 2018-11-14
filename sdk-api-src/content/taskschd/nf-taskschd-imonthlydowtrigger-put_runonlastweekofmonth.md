@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth
+: 
 ---
 
 # IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth

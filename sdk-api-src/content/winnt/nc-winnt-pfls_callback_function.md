@@ -9,8 +9,8 @@ ms.assetid: d05a6550-7fec-44e6-9b38-dfafff7895c8
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: FlsCallback, FlsCallback callback function, PFLS_CALLBACK_FUNCTION, PFLS_CALLBACK_FUNCTION callback, _win32_flscallback, base.flscallback, winnt/FlsCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winnt.h
 req.include-header: 

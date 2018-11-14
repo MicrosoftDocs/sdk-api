@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_color_write_enable.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D10_COLOR_WRITE_ENABLE, D3D10_COLOR_WRITE_ENABLE enumeration [Direct3D 10], D3D10_COLOR_WRITE_ENABLE_ALL, D3D10_COLOR_WRITE_ENABLE_ALPHA, D3D10_COLOR_WRITE_ENABLE_BLUE, D3D10_COLOR_WRITE_ENABLE_GREEN, D3D10_COLOR_WRITE_ENABLE_RED, d3d10/D3D10_COLOR_WRITE_ENABLE, d3d10/D3D10_COLOR_WRITE_ENABLE_ALL, d3d10/D3D10_COLOR_WRITE_ENABLE_ALPHA, d3d10/D3D10_COLOR_WRITE_ENABLE_BLUE, d3d10/D3D10_COLOR_WRITE_ENABLE_GREEN, d3d10/D3D10_COLOR_WRITE_ENABLE_RED, d7c54bd3-8d00-c6c5-e4e5-1eede46ad09f, direct3d10.d3d10_color_write_enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identify which components of each pixel of a render target are writable during <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blending</a>.
+Identify which components of each pixel of a render target are writable during <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">blending</a>.
 
 
 ## -enum-fields
@@ -97,7 +97,7 @@ These flags can be combined with a bitwise OR.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

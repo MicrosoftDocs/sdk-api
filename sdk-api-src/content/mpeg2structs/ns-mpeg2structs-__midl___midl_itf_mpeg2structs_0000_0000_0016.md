@@ -9,8 +9,8 @@ ms.assetid: a8be6d69-1b41-49f0-8588-624b8de98678
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DSMCC_FILTER_OPTIONS, DSMCC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0016, mpeg2structs/DSMCC_FILTER_OPTIONS, mstv.dsmcc_filter_options
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

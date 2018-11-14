@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IActionCollection.get__NewEnum
+: 
 ---
 
 # IActionCollection::get__NewEnum

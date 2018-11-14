@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.media.streaming.h
+: 
+- IDeviceController.remove_DeviceArrival
+: 
 ---
 
 # IDeviceController::streaming

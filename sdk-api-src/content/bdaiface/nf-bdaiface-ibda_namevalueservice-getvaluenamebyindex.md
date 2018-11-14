@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_NameValueService.GetValueNameByIndex
+: 
 ---
 
 # IBDA_NameValueService::GetValueNameByIndex
@@ -112,7 +120,7 @@ The <i>ulIndex</i> parameter is out of bounds.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693406(v=VS.85).aspx">IBDA_NameValueService</a>
+<a href="https://msdn.microsoft.com/7b6a12d2-24e4-42d8-9138-86c2fe558d86">IBDA_NameValueService</a>
  
 
  

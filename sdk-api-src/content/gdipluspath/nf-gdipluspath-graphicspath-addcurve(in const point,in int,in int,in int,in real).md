@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspath.h
+: 
+- GraphicsPath.AddCurve
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -112,7 +120,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-You should keep a copy of the <i>points</i> array if those points will be needed later. The <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object does not store the points passed to the <b>AddClosedCurve</b> method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines. You cannot retrieve the original array of points from the 
+You should keep a copy of the <i>points</i> array if those points will be needed later. The <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object does not store the points passed to the <b>AddClosedCurve</b> method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines. You cannot retrieve the original array of points from the 
 				<b>GraphicsPath</b> object.
 
 
@@ -120,11 +128,15 @@ You should keep a copy of the <i>points</i> array if those points will be needed
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object <i>path</i>, adds a cardinal spline to <i>path</i>, and then draws <i>path</i>. The spline is built from the points indexed 2 through 6 in an array of eight points.
+The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a cardinal spline to <i>path</i>, and then draws <i>path</i>. The spline is built from the points indexed 2 through 6 in an array of eight points.
 
-
-```cpp
-VOID AddCurveExample2(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID AddCurveExample2(HDC hdc)
 {
    GraphicsPath   path;
    Graphics graphics(hdc);
@@ -144,15 +156,15 @@ VOID AddCurveExample2(HDC hdc)
       4,     // Four segments. End at the point with index 6.
       1.0f);
    Pen pen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&pen, &path);
+   graphics.DrawPath(&amp;pen, &amp;path);
    // Draw all eight points in the array.
    SolidBrush brush(Color(255, 255, 0, 0));
-   for(INT j = 0; j <= 7; ++j)
-      graphics.FillEllipse(&brush, pts[j].X - 3, pts[j].Y - 3, 6, 6);
-}
-```
-
-
+   for(INT j = 0; j &lt;= 7; ++j)
+      graphics.FillEllipse(&amp;brush, pts[j].X - 3, pts[j].Y - 3, 6, 6);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -197,7 +209,7 @@ VOID AddCurveExample2(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 

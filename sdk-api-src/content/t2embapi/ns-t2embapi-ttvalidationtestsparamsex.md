@@ -9,8 +9,8 @@ ms.assetid: 03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: TTVALIDATIONTESTSPARAMSEX, TTVALIDATIONTESTSPARAMSEX structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMSEX, gdi.ttvalidationtestparamsex, t2embapi/TTVALIDATIONTESTSPARAMSEX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 

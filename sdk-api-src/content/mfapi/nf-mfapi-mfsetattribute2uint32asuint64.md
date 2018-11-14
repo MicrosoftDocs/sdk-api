@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFSetAttribute2UINT32asUINT64
+: 
 ---
 
 # MFSetAttribute2UINT32asUINT64 function

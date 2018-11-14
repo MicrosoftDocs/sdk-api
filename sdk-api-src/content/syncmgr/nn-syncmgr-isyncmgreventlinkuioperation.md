@@ -9,8 +9,8 @@ ms.assetid: 53ea9488-77e0-4eb2-86d3-88747ba44654
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISyncMgrEventLinkUIOperation, ISyncMgrEventLinkUIOperation interface [Windows Shell], ISyncMgrEventLinkUIOperation interface [Windows Shell],described, _shell_ISyncMgrEventLinkUIOperation, shell.ISyncMgrEventLinkUIOperation, syncmgr/ISyncMgrEventLinkUIOperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

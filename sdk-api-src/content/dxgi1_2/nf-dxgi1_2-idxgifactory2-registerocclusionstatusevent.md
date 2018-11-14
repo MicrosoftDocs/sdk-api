@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_registerocclusionstatusevent.htm
 tech.root: direct3ddxgi
 ms.assetid: 9DCB6309-C1FF-403F-94E1-ABA769D18170
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusEvent method, IDXGIFactory2.RegisterOcclusionStatusEvent, IDXGIFactory2::RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent method [DXGI], RegisterOcclusionStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatusevent, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_2.h
+: 
+- IDXGIFactory2.RegisterOcclusionStatusEvent
+: 
 ---
 
 # IDXGIFactory2::RegisterOcclusionStatusEvent
@@ -78,8 +86,8 @@ A pointer to a key value that an application can pass to the <a href="https://ms
 <li>S_OK if the method successfully registered the event.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  if <i>hEvent</i> is not a valid handle or not an event handle. </li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if <i>hEvent</i> is not a valid handle or not an event handle. </li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -92,7 +100,7 @@ A pointer to a key value that an application can pass to the <a href="https://ms
 
 
 
-If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the same event handle, <b>RegisterOcclusionStatusEvent</b> fails with <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>.
+If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the same event handle, <b>RegisterOcclusionStatusEvent</b> fails with <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>.
 
 If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the different event handles, <b>RegisterOcclusionStatusEvent</b> properly registers the events.
 

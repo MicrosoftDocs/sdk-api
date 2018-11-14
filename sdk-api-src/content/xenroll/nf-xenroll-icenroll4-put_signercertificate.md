@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll4.put_SignerCertificate
+: 
 ---
 
 # ICEnroll4::put_SignerCertificate

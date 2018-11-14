@@ -9,8 +9,8 @@ ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PDNS_QUERY_REQUEST, DNS_QUERY_REQUEST, DNS_QUERY_REQUEST structure [DNS], DNS_QUERY_REQUEST_VERSION1, PDNS_QUERY_REQUEST, PDNS_QUERY_REQUEST structure pointer [DNS], _DNS_QUERY_REQUEST, dns.dns_query_request, windns/DNS_QUERY_REQUEST, windns/PDNS_QUERY_REQUEST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

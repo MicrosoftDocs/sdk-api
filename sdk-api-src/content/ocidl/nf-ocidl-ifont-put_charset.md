@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ocidl.h
+: 
+- IFont.put_Charset
+: 
 ---
 
 # IFont::put_Charset

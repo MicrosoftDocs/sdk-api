@@ -9,8 +9,8 @@ ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, IMsmConfigureModule interface,described, mergemod/IMsmConfigureModule, setup.imsmconfiguremodule_interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 

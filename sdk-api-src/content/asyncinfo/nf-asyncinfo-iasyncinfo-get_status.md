@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- asyncinfo.h
+: 
+- IAsyncInfo.get_Status
+: 
 ---
 
 # IAsyncInfo::get_Status
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/BR205795(v=VS.85).aspx">IAsyncInfo</a>
+<a href="https://msdn.microsoft.com/8a96931a-2bd0-4cc6-9d23-68064d6d1913">IAsyncInfo</a>
  
 
  

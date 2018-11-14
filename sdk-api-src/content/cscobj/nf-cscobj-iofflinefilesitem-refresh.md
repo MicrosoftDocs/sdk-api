@@ -41,6 +41,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesItem.Refresh
+: 
 ---
 
 # IOfflineFilesItem::Refresh
@@ -87,7 +95,7 @@ When a file object is first created, its internal data is initialized with infor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
  
 
  

@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiOpenDeviceInfoA
+: 
 ---
 
 # SetupDiOpenDeviceInfoA function
@@ -61,7 +67,7 @@ The <b>SetupDiOpenDeviceInfo</b> function adds a device information element for 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> to which <b>SetupDiOpenDeviceInfo</b> adds a device information element, if one does not already exist, for the device instance that is specified by <i>DeviceInstanceId</i>. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> to which <b>SetupDiOpenDeviceInfo</b> adds a device information element, if one does not already exist, for the device instance that is specified by <i>DeviceInstanceId</i>. 
 
 
 ### -param DeviceInstanceId [in]

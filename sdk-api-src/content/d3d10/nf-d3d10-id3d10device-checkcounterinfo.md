@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10.h
+: 
+- ID3D10Device.CheckCounterInfo
+: 
 ---
 
 # ID3D10Device::CheckCounterInfo
@@ -61,9 +69,9 @@ Get a counter's information.
 
 ### -param pCounterInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204906(v=VS.85).aspx">D3D10_COUNTER_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7df1d574-4660-4249-90b9-03933449be84">D3D10_COUNTER_INFO</a>*</b>
 
-Pointer to counter information (see <a href="https://msdn.microsoft.com/en-us/library/Bb204906(v=VS.85).aspx">D3D10_COUNTER_INFO</a>).
+Pointer to counter information (see <a href="https://msdn.microsoft.com/7df1d574-4660-4249-90b9-03933449be84">D3D10_COUNTER_INFO</a>).
 
 
 ## -returns
@@ -80,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

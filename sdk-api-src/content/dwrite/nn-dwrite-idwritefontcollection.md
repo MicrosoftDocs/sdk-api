@@ -9,8 +9,8 @@ ms.assetid: 2ca7e2d3-d66a-4c57-8fbe-15a5232c3506
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteFontCollection, IDWriteFontCollection interface [Direct Write], IDWriteFontCollection interface [Direct Write],described, directwrite.IDWriteFontCollection, dwrite/IDWriteFontCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
@@ -114,38 +114,46 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 
 The <a href="https://msdn.microsoft.com/4f5cbea1-9775-4266-aa3c-7c15892d61b1">IDWriteFactory::GetSystemFontCollection</a> method will give you an <b>IDWriteFontCollection</b> object, which encapsulates the set of fonts installed on the system, as shown in the following code example.
 
-
-```cpp
-IDWriteFontCollection* pFontCollection = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IDWriteFontCollection* pFontCollection = NULL;
 
 // Get the system font collection.
 if (SUCCEEDED(hr))
 {
-    hr = pDWriteFactory->GetSystemFontCollection(&pFontCollection);
+    hr = pDWriteFactory-&gt;GetSystemFontCollection(&amp;pFontCollection);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 <a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a> and <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> both have a <a href="https://msdn.microsoft.com/a94cfca5-3a03-4912-9a33-df705a2265cf">GetFontCollection</a> method that returns the font collection being used by the object.  These interfaces use the system font collection by default, but can use a custom font collection instead.
 
 To determine what fonts are available on the system,  get a reference to the system font collection.  You can then use the <a href="https://msdn.microsoft.com/82b6409a-6f6c-4b8d-9c48-916f1f7f3750">IDWriteFontCollection::GetFontFamilyCount</a> method to determine the number of fonts and loop through the list. The following example enumerates the fonts in the system font collection, and prints the font family names to the console.
 
-
-```cpp
-
-#include <dwrite.h>
-#include <string.h>
-#include <stdio.h>
-#include <new>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;dwrite.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;new&gt;
 
 // SafeRelease inline function.
-template <class T> inline void SafeRelease(T **ppT)
+template &lt;class T&gt; inline void SafeRelease(T **ppT)
 {
     if (*ppT)
     {
-        (*ppT)->Release();
+        (*ppT)-&gt;Release();
         *ppT = NULL;
     }
 }
@@ -157,7 +165,7 @@ void wmain()
     HRESULT hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
             __uuidof(IDWriteFactory),
-            reinterpret_cast<IUnknown**>(&pDWriteFactory)
+            reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory)
             );
 
     IDWriteFontCollection* pFontCollection = NULL;
@@ -165,7 +173,7 @@ void wmain()
     // Get the system font collection.
     if (SUCCEEDED(hr))
     {
-        hr = pDWriteFactory->GetSystemFontCollection(&pFontCollection);
+        hr = pDWriteFactory-&gt;GetSystemFontCollection(&amp;pFontCollection);
     }
 
     UINT32 familyCount = 0;
@@ -173,17 +181,17 @@ void wmain()
     // Get the number of font families in the collection.
     if (SUCCEEDED(hr))
     {
-        familyCount = pFontCollection->GetFontFamilyCount();
+        familyCount = pFontCollection-&gt;GetFontFamilyCount();
     }
 
-    for (UINT32 i = 0; i < familyCount; ++i)
+    for (UINT32 i = 0; i &lt; familyCount; ++i)
     {
         IDWriteFontFamily* pFontFamily = NULL;
 
         // Get the font family.
         if (SUCCEEDED(hr))
         {
-            hr = pFontCollection->GetFontFamily(i, &pFontFamily);
+            hr = pFontCollection-&gt;GetFontFamily(i, &amp;pFontFamily);
         }
 
         IDWriteLocalizedStrings* pFamilyNames = NULL;
@@ -191,7 +199,7 @@ void wmain()
         // Get a list of localized strings for the family name.
         if (SUCCEEDED(hr))
         {
-            hr = pFontFamily->GetFamilyNames(&pFamilyNames);
+            hr = pFontFamily-&gt;GetFamilyNames(&amp;pFamilyNames);
         }
 
         UINT32 index = 0;
@@ -207,11 +215,11 @@ void wmain()
             // If the default locale is returned, find that locale name, otherwise use "en-us".
             if (defaultLocaleSuccess)
             {
-                hr = pFamilyNames->FindLocaleName(localeName, &index, &exists);
+                hr = pFamilyNames-&gt;FindLocaleName(localeName, &amp;index, &amp;exists);
             }
-            if (SUCCEEDED(hr) && !exists) // if the above find did not find a match, retry with US English
+            if (SUCCEEDED(hr) &amp;&amp; !exists) // if the above find did not find a match, retry with US English
             {
-                hr = pFamilyNames->FindLocaleName(L"en-us", &index, &exists);
+                hr = pFamilyNames-&gt;FindLocaleName(L"en-us", &amp;index, &amp;exists);
             }
         }
         
@@ -224,7 +232,7 @@ void wmain()
         // Get the string length.
         if (SUCCEEDED(hr))
         {
-            hr = pFamilyNames->GetStringLength(index, &length);
+            hr = pFamilyNames-&gt;GetStringLength(index, &amp;length);
         }
 
         // Allocate a string big enough to hold the name.
@@ -237,7 +245,7 @@ void wmain()
         // Get the family name.
         if (SUCCEEDED(hr))
         {
-            hr = pFamilyNames->GetString(index, name, length+1);
+            hr = pFamilyNames-&gt;GetString(index, name, length+1);
         }
         if (SUCCEEDED(hr))
         {
@@ -245,19 +253,19 @@ void wmain()
             wprintf(L"%s\n", name);
         }
 
-        SafeRelease(&pFontFamily);
-        SafeRelease(&pFamilyNames);
+        SafeRelease(&amp;pFontFamily);
+        SafeRelease(&amp;pFamilyNames);
 
         delete [] name;
     }
 
-    SafeRelease(&pFontCollection);
-    SafeRelease(&pDWriteFactory);
+    SafeRelease(&amp;pFontCollection);
+    SafeRelease(&amp;pDWriteFactory);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

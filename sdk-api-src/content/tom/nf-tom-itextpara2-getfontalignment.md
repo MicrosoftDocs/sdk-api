@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextPara2.GetFontAlignment
+: 
 ---
 
 # ITextPara2::GetFontAlignment
@@ -69,19 +77,19 @@ The paragraph font alignment state. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="tomconstants.htm">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentTop</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBaseline</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBottom</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomFontAlignmentCenter</a></td>
+<td><a href="tomconstants.htm">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  

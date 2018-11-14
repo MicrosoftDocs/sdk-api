@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack
+- apiref
+: 
+- COM
+: 
+- indexsrv.h
+: 
+- IColumnMapper.GetPropInfoFromId
+: 
 ---
 
 # IColumnMapper::GetPropInfoFromId

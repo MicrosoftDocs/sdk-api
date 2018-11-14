@@ -4,10 +4,10 @@ title: IAzApplication::InitializeClientContextFromToken
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the specified client token.
 old-location: security\iazapplication_initializeclientcontextfromtoken.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0002804d-0e97-4648-8aa1-14eba09a90fa
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromToken method, IAzApplication interface [Security],InitializeClientContextFromToken method, IAzApplication.InitializeClientContextFromToken, IAzApplication::InitializeClientContextFromToken, InitializeClientContextFromToken, InitializeClientContextFromToken method [Security], InitializeClientContextFromToken method [Security],AzApplication object, InitializeClientContextFromToken method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromToken, security.iazapplication_initializeclientcontextfromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzApplication.InitializeClientContextFromToken
+: 
 ---
 
 # IAzApplication::InitializeClientContextFromToken
@@ -51,7 +59,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>InitializeClientContextFromToken</b> method gets an <a href="https://msdn.microsoft.com/en-us/library/Aa377837(v=VS.85).aspx">IAzClientContext</a> object pointer from the specified client token.
+The <b>InitializeClientContextFromToken</b> method gets an <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> object pointer from the specified client token.
 
 
 ## -parameters
@@ -71,7 +79,7 @@ Reserved for future use.
 
 ### -param ppClientContext [out]
 
-A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa377837(v=VS.85).aspx">IAzClientContext</a> object.
+A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> object.
 
 
 ## -returns

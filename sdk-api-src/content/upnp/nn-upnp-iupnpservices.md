@@ -9,8 +9,8 @@ ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUPnPServices, IUPnPServices interface [UPnP APIs], IUPnPServices interface [UPnP APIs],described, _upnp_iupnpservices, upnp.iupnpservices, upnp/IUPnPServices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServices</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUPnPServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServices</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IUPnPServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

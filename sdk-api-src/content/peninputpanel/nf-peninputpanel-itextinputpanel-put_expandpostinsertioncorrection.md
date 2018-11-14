@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- peninputpanel.h
+: 
+- ITextInputPanel.put_ExpandPostInsertionCorrection
+: 
 ---
 
 # ITextInputPanel::put_ExpandPostInsertionCorrection

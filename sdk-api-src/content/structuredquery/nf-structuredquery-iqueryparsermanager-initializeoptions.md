@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- IQueryParserManager.InitializeOptions
+: 
 ---
 
 # IQueryParserManager::InitializeOptions
@@ -75,7 +83,7 @@ Type: <b>BOOL</b>
 
 ### -param pQueryParser [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a>*</b>
 
 Pointer to the query parser object.
 

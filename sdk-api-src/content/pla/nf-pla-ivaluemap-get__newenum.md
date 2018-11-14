@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IValueMap.get__NewEnum
+: 
 ---
 
 # IValueMap::get__NewEnum

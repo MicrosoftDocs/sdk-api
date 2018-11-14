@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Region.GetRegionScans
+: 
 ---
 
 # Region::GetRegionScans(IN const Matrix,OUT RectF,OUT INT)

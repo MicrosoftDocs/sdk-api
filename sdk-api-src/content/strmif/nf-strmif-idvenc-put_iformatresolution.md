@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IDVEnc.put_IFormatResolution
+: 
 ---
 
 # IDVEnc::put_IFormatResolution

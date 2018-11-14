@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
+- apiref
+: 
+- COM
+: 
+- oleacc.h
+: 
+- IAccessible.accSelect
+: 
 ---
 
 # IAccessible::accSelect
@@ -112,7 +120,7 @@ The specified object is not selected.
 </dl>
 </td>
 <td width="60%">
-An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_EXTENDSELECTION</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_ADDSELECTION</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_REMOVESELECTION</a>.
+An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="selflag.htm">SELFLAG_EXTENDSELECTION</a>, <a href="selflag.htm">SELFLAG_ADDSELECTION</a>, and <a href="selflag.htm">SELFLAG_REMOVESELECTION</a>.
 
 </td>
 </tr>

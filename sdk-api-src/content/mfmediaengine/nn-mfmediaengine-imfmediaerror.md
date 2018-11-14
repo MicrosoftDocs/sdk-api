@@ -9,8 +9,8 @@ ms.assetid: 08F161FE-C0E5-44EE-923E-646ADA534C42
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFMediaError, IMFMediaError interface [Media Foundation], IMFMediaError interface [Media Foundation],described, mf.imfmediaerror, mfmediaengine/IMFMediaError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

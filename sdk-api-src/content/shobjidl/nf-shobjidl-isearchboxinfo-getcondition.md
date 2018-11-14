@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- ISearchBoxInfo.GetCondition
+: 
 ---
 
 # ISearchBoxInfo::GetCondition
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the contents of the search box as an <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> object.
+Retrieves the contents of the search box as an <a href="_search_ICondition">ICondition</a> object.
 
 
 ## -parameters
@@ -69,7 +77,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="_search_ICondition">ICondition</a>.
 
 
 ## -returns

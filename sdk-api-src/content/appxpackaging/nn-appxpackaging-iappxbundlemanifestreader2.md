@@ -9,8 +9,8 @@ ms.assetid: 37236CED-F32F-4726-B945-F7359AEFF030
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], IAppxBundleManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader2, appxpkg.iappxbundlemanifestreader2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

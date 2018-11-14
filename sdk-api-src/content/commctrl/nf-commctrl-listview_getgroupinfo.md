@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_GetGroupInfo
+: 
 ---
 
 # ListView_GetGroupInfo macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774932(v=VS.85).aspx">LVM_GETGROUPINFO</a> message explicitly. 
+Gets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/72d84e0b-121e-473b-a34d-874234c598b6">LVM_GETGROUPINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Gets group information. You can use this macro or send the <a href="https://msdn
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -74,13 +82,13 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
+<a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

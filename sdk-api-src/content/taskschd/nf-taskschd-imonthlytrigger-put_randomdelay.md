@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IMonthlyTrigger.put_RandomDelay
+: 
 ---
 
 # IMonthlyTrigger::put_RandomDelay

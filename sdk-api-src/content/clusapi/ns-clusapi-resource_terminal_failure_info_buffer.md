@@ -7,10 +7,10 @@ old-location: mscs\resource_terminal_failure_info_buffer.htm
 tech.root: mscs
 ms.assetid: D84EEF3A-BDB4-4D6E-BDC6-5A39DC32945E
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: "*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, mscs.resource_terminal_failure_info_buffer"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -72,7 +72,7 @@ The amount of time remaining for the TBD, in seconds.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 580d4b21-3a4b-4e0c-b0d1-25b4e4fb2b1b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWebApplicationNavigationEvents, IWebApplicationNavigationEvents interface [Debugging Windows Store apps], IWebApplicationNavigationEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationnavigationevents, webapplication/IWebApplicationNavigationEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 

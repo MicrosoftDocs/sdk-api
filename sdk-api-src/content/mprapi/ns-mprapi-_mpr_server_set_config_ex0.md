@@ -9,8 +9,8 @@ ms.assetid: 6c993c9c-4522-4758-926a-fa7ef2a89418
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PMPR_SERVER_SET_CONFIG_EX0, MPRAPI_SET_CONFIG_PROTOCOL_FOR_IKEV2, MPRAPI_SET_CONFIG_PROTOCOL_FOR_L2TP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_PPTP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_SSTP, MPR_SERVER_SET_CONFIG_EX, MPR_SERVER_SET_CONFIG_EX structure [RAS], MPR_SERVER_SET_CONFIG_EX0, PMPR_SERVER_SET_CONFIG_EX, PMPR_SERVER_SET_CONFIG_EX structure pointer [RAS], _MPR_SERVER_SET_CONFIG_EX0, _MPR_SERVER_SET_CONFIG_EX1, mprapi/MPR_SERVER_SET_CONFIG_EX, mprapi/PMPR_SERVER_SET_CONFIG_EX, rras.mpr_server_set_config_ex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

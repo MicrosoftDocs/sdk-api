@@ -9,8 +9,8 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\imapitable\imapitable.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable interface [Windows Address Book],described, _wab_IMAPITable, wab._wab_IMAPITable, wabdefs/IMAPITable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wabdefs.h
 req.include-header: 

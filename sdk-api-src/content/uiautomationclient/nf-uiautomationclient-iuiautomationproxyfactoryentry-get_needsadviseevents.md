@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
+: 
 ---
 
 # IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents

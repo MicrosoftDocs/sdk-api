@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- segment.h
+: 
+- IMSVidStreamBufferSink.put_SinkName
+: 
 ---
 
 # IMSVidStreamBufferSink::put_SinkName

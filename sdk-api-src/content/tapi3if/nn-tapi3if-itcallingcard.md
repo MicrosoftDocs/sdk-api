@@ -9,8 +9,8 @@ ms.assetid: 09787cd2-56b5-4ed2-8783-f3c53ce2cc66
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ITCallingCard, ITCallingCard interface [TAPI 2.2], ITCallingCard interface [TAPI 2.2],described, _tapi3_itcallingcard, tapi3.itcallingcard, tapi3if/ITCallingCard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
@@ -67,7 +67,7 @@ An
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallingCard</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITCallingCard</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallingCard</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITCallingCard</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -151,7 +151,7 @@ Gets the dialing rules for calls within the same area code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

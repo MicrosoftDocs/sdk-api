@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnPin.get_PinFormat
+: 
 ---
 
 # IMbnPin::get_PinFormat

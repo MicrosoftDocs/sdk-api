@@ -9,8 +9,8 @@ ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certsrv.h
@@ -57,7 +57,7 @@ The <b>ICertAdmin</b> interface is used to perform the following tasks:
 <ul>
 <li>Authorize or deny a certificate request.</li>
 <li>Revoke an issued certificate.</li>
-<li>Trigger the generation of a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL).</li>
+<li>Trigger the generation of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).</li>
 <li>Get the current CRL for the server.</li>
 <li>Determine whether a certificate is valid.</li>
 </ul>When you use the <b>ICertAdmin</b> interface, you have write-only access to request attributes and certificate extensions, but no direct access to other request and certificate properties.
@@ -71,9 +71,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertAdmin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertAdmin</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -86,70 +86,70 @@ The <b>ICertAdmin</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383236(v=VS.85).aspx">DenyRequest</a>
+<a href="https://msdn.microsoft.com/a432fd66-0f80-4fb8-9778-38b240dd6369">DenyRequest</a>
 </td>
 <td align="left" width="63%">
 Denies a certificate request.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383242(v=VS.85).aspx">GetCRL</a>
+<a href="https://msdn.microsoft.com/bdfc64dd-7446-4c44-997f-fa0086bfbb4f">GetCRL</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the current CRL.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383244(v=VS.85).aspx">GetRevocationReason</a>
+<a href="https://msdn.microsoft.com/244b121a-76ba-44fd-b15d-f076b722b030">GetRevocationReason</a>
 </td>
 <td align="left" width="63%">
 Returns a value that specifies the reason a certificate was revoked.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383245(v=VS.85).aspx">ImportCertificate</a>
+<a href="https://msdn.microsoft.com/b79a726e-5823-468b-869d-382e6fd73b44">ImportCertificate</a>
 </td>
 <td align="left" width="63%">
 Imports a previously issued certificate.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383247(v=VS.85).aspx">IsValidCertificate</a>
+<a href="https://msdn.microsoft.com/cd133c57-a62e-4083-b4fd-7eaf0c9e7606">IsValidCertificate</a>
 </td>
 <td align="left" width="63%">
 Checks the validity of a certificate.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383248(v=VS.85).aspx">PublishCRL</a>
+<a href="https://msdn.microsoft.com/a42cab2d-2309-43f1-8d67-adbc5923ec45">PublishCRL</a>
 </td>
 <td align="left" width="63%">
 Publishes a new CRL.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383250(v=VS.85).aspx">ResubmitRequest</a>
+<a href="https://msdn.microsoft.com/610712d9-3661-42ba-9d2f-27862ba8dbd4">ResubmitRequest</a>
 </td>
 <td align="left" width="63%">
 Submits a pended certificate request to the policy module.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383251(v=VS.85).aspx">RevokeCertificate</a>
+<a href="https://msdn.microsoft.com/d44ff8c1-a248-4e2a-a73f-55fbea9fce03">RevokeCertificate</a>
 </td>
 <td align="left" width="63%">
 Revokes a certificate on a specified date.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383257(v=VS.85).aspx">SetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/d26061da-acc3-45d8-93de-f2d431d350a6">SetCertificateExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a new extension to a certificate to be issued.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383266(v=VS.85).aspx">SetRequestAttributes</a>
+<a href="https://msdn.microsoft.com/309c53f9-50cf-4c50-bc48-a4f15a8ced18">SetRequestAttributes</a>
 </td>
 <td align="left" width="63%">
 Sets the attributes of a certificate request.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>

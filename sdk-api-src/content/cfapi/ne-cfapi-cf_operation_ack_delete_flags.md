@@ -9,8 +9,8 @@ ms.assetid: 407B7035-09A0-43BC-AC07-2CC0973DDBCC
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: CF_OPERATION_ACK_DELETE_FLAGS, CF_OPERATION_ACK_DELETE_FLAGS enumeration, CF_OPERATION_ACK_DELETE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DELETE_FLAGS, cfapi/CF_OPERATION_ACK_DELETE_FLAG_NONE, cloudApi.cf_operation_ack_delete_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

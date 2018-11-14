@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TSPI_providerCreateLineDevice
+: 
 ---
 
 # TSPI_providerCreateLineDevice function

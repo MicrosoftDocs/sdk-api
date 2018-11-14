@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- RegisterRawInputDevices
+: 
 ---
 
 # RegisterRawInputDevices function
@@ -67,21 +73,21 @@ Registers the devices that supply the raw input data.
 
 Type: <b>PCRAWINPUTDEVICE</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input.
+An array of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input.
 
 
 ### -param uiNumDevices [in]
 
 Type: <b>UINT</b>
 
-The number of <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structures pointed to by <i>pRawInputDevices</i>.
+The number of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures pointed to by <i>pRawInputDevices</i>.
 
 
 ### -param cbSize [in]
 
 Type: <b>UINT</b>
 
-The size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structure.
+The size, in bytes, of a <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure.
 
 
 ## -returns
@@ -99,11 +105,11 @@ Type: <b>BOOL</b>
 
 
 
-To receive <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a> messages, an application must first register the raw input devices using <b>RegisterRawInputDevices</b>. By default, an application does not receive raw input.
+To receive <a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a> messages, an application must first register the raw input devices using <b>RegisterRawInputDevices</b>. By default, an application does not receive raw input.
 
-To receive <a href="https://msdn.microsoft.com/en-us/library/ms645591(v=VS.85).aspx">WM_INPUT_DEVICE_CHANGE</a> messages, an application must specify the  RIDEV_DEVNOTIFY flag for each device class that is specified by the usUsagePage and usUsage fields of the  <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structure  .  By default, an application does not receive  <b>WM_INPUT_DEVICE_CHANGE</b> notifications for raw input device arrival and removal.
+To receive <a href="https://msdn.microsoft.com/2f98d8ea-b47b-4dea-9c38-f9697b18053a">WM_INPUT_DEVICE_CHANGE</a> messages, an application must specify the  RIDEV_DEVNOTIFY flag for each device class that is specified by the usUsagePage and usUsage fields of the  <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure  .  By default, an application does not receive  <b>WM_INPUT_DEVICE_CHANGE</b> notifications for raw input device arrival and removal.
 
-If a <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
+If a <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
             
 
 
@@ -118,11 +124,11 @@ If a <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">R
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a>
+<a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 
@@ -130,7 +136,7 @@ If a <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">R
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>
  
 
  

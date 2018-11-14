@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmSetting.put_AdminEmail
+: 
 ---
 
 # IFsrmSetting::put_AdminEmail

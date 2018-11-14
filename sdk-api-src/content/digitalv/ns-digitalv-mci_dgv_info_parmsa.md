@@ -7,10 +7,10 @@ old-location: multimedia\mci_dgv_info_parms.htm
 tech.root: Multimedia
 ms.assetid: 812a2445-d7a0-4751-8af5-7c9d5e673e27
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*LPMCI_DGV_INFO_PARMSA, MCI_DGV_INFO_PARMS, MCI_DGV_INFO_PARMS structure [Windows Multimedia], MCI_DGV_INFO_PARMSA, _win32_MCI_DGV_INFO_PARMS_str, digitalv/MCI_DGV_INFO_PARMS, multimedia.mci_dgv_info_parms"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

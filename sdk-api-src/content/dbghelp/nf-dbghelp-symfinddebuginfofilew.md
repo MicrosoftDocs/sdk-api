@@ -7,7 +7,7 @@ old-location: base\symfinddebuginfofile.htm
 tech.root: debug
 ms.assetid: ea4879b2-edf8-4542-b16a-41777c0068cd
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.6 or later
+- apiref
+: 
+- 
+: 
+- SymFindDebugInfoFileW
+: 
 ---
 
 # SymFindDebugInfoFileW function

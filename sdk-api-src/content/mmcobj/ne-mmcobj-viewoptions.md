@@ -9,8 +9,8 @@ ms.assetid: e3cc2834-873d-4cc1-a917-f3aeabdb2350
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PVIEWOPTIONS, PPVIEWOPTIONS, PPVIEWOPTIONS enumeration pointer [MMC], PVIEWOPTIONS, PVIEWOPTIONS enumeration pointer [MMC], VIEWOPTIONS, ViewOption_Default, ViewOption_NoToolBars, ViewOption_NotPersistable, ViewOption_ScopeTreeHidden, ViewOptions, ViewOptions enumeration [MMC], _ViewOptions, _ViewOptions enumeration [MMC], _slate_viewoptions, mmc.viewoptions, mmcobj/PPVIEWOPTIONS, mmcobj/PVIEWOPTIONS, mmcobj/ViewOption_Default, mmcobj/ViewOption_NoToolBars, mmcobj/ViewOption_NotPersistable, mmcobj/ViewOption_ScopeTreeHidden, mmcobj/ViewOptions"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509EndorsementKey.get_Opened
+: 
 ---
 
 # IX509EndorsementKey::get_Opened
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a> method has been successfully called.
+Indicates whether the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been successfully called.
 
 This property is read-only.
 
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379356(v=VS.85).aspx">IX509EndorsementKey</a>
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
  
 
  

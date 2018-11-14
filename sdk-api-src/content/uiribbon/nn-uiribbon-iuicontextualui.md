@@ -9,8 +9,8 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\iuic
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IUIContextualUI, IUIContextualUI interface [Windows Ribbon], IUIContextualUI interface [Windows Ribbon],described, scenicintent_IUIContextualUI, uiribbon/IUIContextualUI, windowsribbon.windowsribbon_iuicontextualui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 
@@ -51,7 +51,7 @@ req.redist:
 
 
 The <b>IUIContextualUI</b> interface is implemented by the 
-				Ribbon framework and provides the core functionality for the <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> View. 
+				Ribbon framework and provides the core functionality for the <a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a> View. 
 			
 
 
@@ -72,10 +72,10 @@ The <b>IUIContextualUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371486(v=VS.85).aspx">ShowAtLocation</a>
+<a href="https://msdn.microsoft.com/90a78723-99c8-4d35-ba17-bacc609990e4">ShowAtLocation</a>
 </td>
 <td align="left" width="63%">
-Displays a <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
+Displays a <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>.
 		
 
 </td>
@@ -87,26 +87,26 @@ Displays a <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).a
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> is composed of two components: the <a href="https://msdn.microsoft.com/en-us/library/Dd371651(v=VS.85).aspx">ContextMenu</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371705(v=VS.85).aspx">MiniToolbar</a> elements.
+The <a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a> is composed of two components: the <a href="https://msdn.microsoft.com/08cc0514-0795-4e6b-b80c-33d920783032">ContextMenu</a> and <a href="https://msdn.microsoft.com/bb50890d-554a-4add-a583-d4fd48b823bf">MiniToolbar</a> elements.
 			
 				
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> acts solely as a logical container for the <a href="https://msdn.microsoft.com/en-us/library/Dd371651(v=VS.85).aspx">ContextMenu</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371705(v=VS.85).aspx">MiniToolbar</a>. It does not
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a> acts solely as a logical container for the <a href="https://msdn.microsoft.com/08cc0514-0795-4e6b-b80c-33d920783032">ContextMenu</a> and <a href="https://msdn.microsoft.com/bb50890d-554a-4add-a583-d4fd48b823bf">MiniToolbar</a>. It does not
 				support scrolling, moving, or resizing. 
 			</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> is typically displayed by right-clicking the mouse (or through the keyboard shortcut  SHIFT+F10) on an object of interest. The steps required to display the Context Popup are defined by the application.
+The <a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a> is typically displayed by right-clicking the mouse (or through the keyboard shortcut  SHIFT+F10) on an object of interest. The steps required to display the Context Popup are defined by the application.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371651(v=VS.85).aspx">ContextMenu</a> is a list of menu items that is contextual and based on  
+The <a href="https://msdn.microsoft.com/08cc0514-0795-4e6b-b80c-33d920783032">ContextMenu</a> is a list of menu items that is contextual and based on  
 				the control clicked or the control with focus (when using the keyboard).
 			
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371705(v=VS.85).aspx">MiniToolbar</a> is a floating toolbar that incorporates various Commands, galleries, and complex controls such as the <a href="https://msdn.microsoft.com/en-us/library/Dd940498(v=VS.85).aspx">Font Control</a> and the <a href="https://msdn.microsoft.com/en-us/library/Dd940492(v=VS.85).aspx">Combo Box</a>.
+The <a href="https://msdn.microsoft.com/bb50890d-554a-4add-a583-d4fd48b823bf">MiniToolbar</a> is a floating toolbar that incorporates various Commands, galleries, and complex controls such as the <a href="https://msdn.microsoft.com/6052f2e3-2c9e-432e-9ed6-c1e3a50843d9">Font Control</a> and the <a href="https://msdn.microsoft.com/6b7de2ec-dcb7-44cb-b01f-db1ba0643499">Combo Box</a>.
 			
 
-The following screen shot shows the <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> with a <a href="https://msdn.microsoft.com/en-us/library/Dd371651(v=VS.85).aspx">ContextMenu</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371705(v=VS.85).aspx">MiniToolbar</a>.
+The following screen shot shows the <a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a> with a <a href="https://msdn.microsoft.com/08cc0514-0795-4e6b-b80c-33d920783032">ContextMenu</a> and <a href="https://msdn.microsoft.com/bb50890d-554a-4add-a583-d4fd48b823bf">MiniToolbar</a>.
 
-<img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="./images/IUIContextualUI_Concepts.png"/>
+<img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="images/Interfaces/IUIContextualUI_Concepts.png"/>
 
 
 
@@ -115,11 +115,11 @@ The following screen shot shows the <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a>
+<a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742701(v=VS.85).aspx">ContextPopup Sample</a>
+<a href="https://msdn.microsoft.com/f334dbfc-710a-4652-b914-a668ae36aecd">ContextPopup Sample</a>
  
 
  

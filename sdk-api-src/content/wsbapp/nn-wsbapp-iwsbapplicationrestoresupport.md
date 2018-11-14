@@ -9,8 +9,8 @@ ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], IWsbApplicationRestoreSupport interface [Windows Server Backup],described, wsb.iwsbapplicationrestoresupport, wsbapp/IWsbApplicationRestoreSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsbapp.h
 req.include-header: 

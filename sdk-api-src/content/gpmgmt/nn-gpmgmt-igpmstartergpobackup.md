@@ -9,8 +9,8 @@ ms.assetid: b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMStarterGPOBackup, IGPMStarterGPOBackup, IGPMStarterGPOBackup interface [GPMC], IGPMStarterGPOBackup interface [GPMC],described, gpmc.igpmstartergpobackup, gpmgmt/IGPMStarterGPOBackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMStarterGPOBackup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IGPMStarterGPOBackup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -210,7 +210,7 @@ Retrieves the value of the <b>Type</b> property representing a system or custom 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

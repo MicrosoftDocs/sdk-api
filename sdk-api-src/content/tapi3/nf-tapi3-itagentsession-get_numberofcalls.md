@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3.h
+: 
+- ITAgentSession.get_NumberOfCalls
+: 
 ---
 
 # ITAgentSession::get_NumberOfCalls

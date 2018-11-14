@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwServiceRestriction.get_Rules
+: 
 ---
 
 # INetFwServiceRestriction::get_Rules

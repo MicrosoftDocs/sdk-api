@@ -9,8 +9,8 @@ ms.assetid: c617f6cf-cedb-4d52-954c-fd4577260ca3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_tcp_sspi_transport_security_binding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

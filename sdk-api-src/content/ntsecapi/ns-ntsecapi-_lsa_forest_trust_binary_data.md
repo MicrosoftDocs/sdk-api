@@ -9,8 +9,8 @@ ms.assetid: 2ddcf54e-c30f-4146-8cb6-71fcdd42ae68
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PLSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA structure [Security], PLSA_FOREST_TRUST_BINARY_DATA, PLSA_FOREST_TRUST_BINARY_DATA structure pointer [Security], _LSA_FOREST_TRUST_BINARY_DATA, ntsecapi/LSA_FOREST_TRUST_BINARY_DATA, ntsecapi/PLSA_FOREST_TRUST_BINARY_DATA, security.lsa_forest_trust_binary_data"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

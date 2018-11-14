@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextSelection.GetFlags
+: 
 ---
 
 # ITextSelection::GetFlags
@@ -124,11 +132,11 @@ The method returns an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
 
 
 
@@ -136,11 +144,11 @@ The method returns an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a>
+<a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

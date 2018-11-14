@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Font.Font
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -97,7 +105,7 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 5210C04E-618B-4FE9-A6FC-6F0FF17A64D5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_SCRIPT_PROPERTIES, DWRITE_SCRIPT_PROPERTIES structure [Direct Write], directwrite.dwrite_script_properties, dwrite_1/DWRITE_SCRIPT_PROPERTIES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_1.h
 req.include-header: 

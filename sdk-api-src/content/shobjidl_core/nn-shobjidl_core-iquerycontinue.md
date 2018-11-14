@@ -9,8 +9,8 @@ ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IQueryContinue, IQueryContinue interface [Windows Shell], IQueryContinue interface [Windows Shell],described, inet_IQueryContinue, shell.IQueryContinue, shobjidl_core/IQueryContinue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

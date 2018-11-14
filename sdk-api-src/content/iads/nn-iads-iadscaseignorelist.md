@@ -9,8 +9,8 @@ ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI],described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -62,7 +62,7 @@ The <b>IADsCaseIgnoreList</b> interface provides methods for an ADSI client to a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

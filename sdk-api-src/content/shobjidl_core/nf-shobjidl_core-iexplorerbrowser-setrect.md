@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IExplorerBrowser.SetRect
+: 
 ---
 
 # IExplorerBrowser::SetRect
@@ -62,7 +70,7 @@ Sets the size and position of the view windows created by the browser.
 
 Type: <b>HDWP*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a> handle. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/2758de7b-c218-4a9b-b11b-b189301f7514">DeferWindowPos</a> handle. This parameter can be <b>NULL</b>.
 
 
 ### -param rcBrowser [in]

@@ -7,10 +7,10 @@ old-location: direct3ddxgi\_luid.htm
 tech.root: direct3ddxgi
 ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, dxgi/LUID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

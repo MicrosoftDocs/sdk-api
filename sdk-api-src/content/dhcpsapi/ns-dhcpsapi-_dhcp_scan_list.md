@@ -9,8 +9,8 @@ ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SCAN_LIST, DHCP_SCAN_LIST, DHCP_SCAN_LIST structure [DHCP], LPDHCP_SCAN_LIST, LPDHCP_SCAN_LIST structure pointer [DHCP], _DHCP_SCAN_LIST, dhcp.dhcp_scan_list, dhcpsapi/LPDHCP_SCAN_LIST, dhcpsapi/_DHCP_SCAN_LIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

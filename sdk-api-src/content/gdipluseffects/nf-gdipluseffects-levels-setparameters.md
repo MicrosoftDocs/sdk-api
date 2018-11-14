@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluseffects.h
+: 
+- Levels.SetParameters
+: 
 req.product: GDI+ 1.1
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Levels::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a> object.
+The <b>Levels::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/0256fa03-f029-472e-988a-9eb7ed117673">Levels</a> object.
 
 
 ## -parameters
@@ -61,23 +69,23 @@ The <b>Levels::SetParameters</b> method sets the parameters of this <a href="htt
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534070(v=VS.85).aspx">LevelsParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/84f6009b-ac6c-42e5-b151-9189e09c053d">LevelsParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534070(v=VS.85).aspx">LevelsParams</a> structure that specifies the parameters. 
+Pointer to a <a href="https://msdn.microsoft.com/84f6009b-ac6c-42e5-b151-9189e09c053d">LevelsParams</a> structure that specifies the parameters. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -87,11 +95,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a>
+<a href="https://msdn.microsoft.com/0256fa03-f029-472e-988a-9eb7ed117673">Levels</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535360(v=VS.85).aspx">Levels::GetParameters</a>
+<a href="https://msdn.microsoft.com/3f2866dd-e51d-4c4d-9729-79f989ca89da">Levels::GetParameters</a>
  
 
  

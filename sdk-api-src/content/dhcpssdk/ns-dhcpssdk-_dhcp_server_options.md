@@ -9,8 +9,8 @@ ms.assetid: 0c43c2ad-ac9a-43b4-b750-a3f52c025ae2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS structure [DHCP], DHCP_SERVER_OPTIONS, DHCP_SERVER_OPTIONS structure [DHCP], _DHCP_SERVER_OPTIONS, dhcp.dhcp_server_options, dhcpssdk/*LPDHCP_SERVER_OPTIONS, dhcpssdk/DHCP_SERVER_OPTIONS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpssdk.h
 req.include-header: 

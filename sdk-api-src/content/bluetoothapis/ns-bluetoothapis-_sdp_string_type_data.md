@@ -9,8 +9,8 @@ ms.assetid: 16ff7951-08a7-49c5-93a5-0782cca50dab
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PSDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA structure [Bluetooth], SDP_STRING_TYPE_DATA, SDP_STRING_TYPE_DATA structure [Bluetooth], _SDP_STRING_TYPE_DATA, bluetooth.sdp_string_type_data, bluetoothapis/*PSDP_STRING_TYPE_DATA, bluetoothapis/SDP_STRING_TYPE_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -86,31 +86,31 @@ Identifier of the base attribute in which the string is to be found in the recor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362885(v=VS.85).aspx">BluetoothSdpEnumAttributes</a>
+<a href="https://msdn.microsoft.com/3113db03-a32f-47ad-a442-3769f41ee8e7">BluetoothSdpEnumAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362886(v=VS.85).aspx">BluetoothSdpGetAttributeValue</a>
+<a href="https://msdn.microsoft.com/79368265-3d01-4bfd-ba71-930696e0bc08">BluetoothSdpGetAttributeValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362887(v=VS.85).aspx">BluetoothSdpGetContainerElementData</a>
+<a href="https://msdn.microsoft.com/7dbf44f6-8a80-419e-9db7-60ada9ca9647">BluetoothSdpGetContainerElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362889(v=VS.85).aspx">BluetoothSdpGetElementData</a>
+<a href="https://msdn.microsoft.com/65de8f2f-1781-44fa-87a9-21aa461eb8ee">BluetoothSdpGetElementData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362890(v=VS.85).aspx">BluetoothSdpGetString</a>
+<a href="https://msdn.microsoft.com/26a68fe3-6ffb-44ff-b9db-757d35022a41">BluetoothSdpGetString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362945(v=VS.85).aspx">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
+<a href="https://msdn.microsoft.com/4d728467-1866-428f-9e66-a45b597a226a">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363054(v=VS.85).aspx">SDP_ELEMENT_DATA</a>
+<a href="https://msdn.microsoft.com/9c9d6103-cc49-41d2-bbb3-6b6888fb93e7">SDP_ELEMENT_DATA</a>
  
 
  

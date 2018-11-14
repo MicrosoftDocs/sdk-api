@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteFactory3.CreateFontFaceReference
+: 
 ---
 
 # IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)

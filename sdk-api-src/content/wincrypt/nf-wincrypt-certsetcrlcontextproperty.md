@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSetCRLContextProperty
+: 
 ---
 
 # CertSetCRLContextProperty function
@@ -551,7 +557,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

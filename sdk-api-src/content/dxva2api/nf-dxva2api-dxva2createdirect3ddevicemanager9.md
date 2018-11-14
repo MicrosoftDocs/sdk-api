@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DXVA2CreateDirect3DDeviceManager9
+: 
 ---
 
 # DXVA2CreateDirect3DDeviceManager9 function

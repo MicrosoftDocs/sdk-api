@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- micaut.h
+: 
+- IMathInputControl.SetPreviewHeight
+: 
 ---
 
 # IMathInputControl::SetPreviewHeight
@@ -113,12 +121,12 @@ The following image shows the Math Input Control with the default preview height
 
 
 
-<img alt="Math input control with default preview height" src="./images/mic.png"/>
+<img alt="Math input control with default preview height" src="images/mic.png"/>
 The following image shows the Math Input Control with a custom preview height.
 
 
 
-<img alt="Math input control with custom preview height" src="./images/mic_big_preview.png"/>
+<img alt="Math input control with custom preview height" src="images/mic_big_preview.png"/>
 
 #### Examples
 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- commoncontrols.h
+: 
+- IImageList2.ReplaceFromImageList
+: 
 ---
 
 # IImageList2::ReplaceFromImageList
@@ -67,7 +75,7 @@ The index of the destination image in the image list. This is the image that is 
 
 ### -param pil [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a>*</b>
 
 A pointer to the source image list.
 

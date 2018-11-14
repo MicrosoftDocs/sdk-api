@@ -9,8 +9,8 @@ ms.assetid: CA616076-CD04-4753-9605-093C9529C826
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomation4, IUIAutomation4 interface [Windows Accessibility], IUIAutomation4 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation4, winauto.uiauto_IUIAutomation4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

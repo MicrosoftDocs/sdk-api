@@ -9,8 +9,8 @@ ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

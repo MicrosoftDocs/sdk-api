@@ -7,7 +7,7 @@ old-location: base\getthreadselectorentry.htm
 tech.root: debug
 ms.assetid: 9bf6f7b1-7a30-4398-a12a-b1de986f860d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: GetThreadSelectorEntry, GetThreadSelectorEntry function, _win32_getthreadselectorentry, base.getthreadselectorentry, winbase/GetThreadSelectorEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetThreadSelectorEntry
+: 
 ---
 
 # GetThreadSelectorEntry function

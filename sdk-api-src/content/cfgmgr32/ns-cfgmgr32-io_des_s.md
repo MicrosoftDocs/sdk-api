@@ -9,8 +9,8 @@ ms.assetid: 4b2ae544-0254-4221-80df-e2df4a23d15f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PIO_DES, IO_DES, IO_DES structure [Device and Driver Installation], IO_Des_s, PIO_DES, PIO_DES structure pointer [Device and Driver Installation], cfgmgr32/IO_DES, cfgmgr32/PIO_DES, cfgmgrst_027e9190-0074-48e2-89cd-aa86e8a08165.xml, devinst.io_des"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

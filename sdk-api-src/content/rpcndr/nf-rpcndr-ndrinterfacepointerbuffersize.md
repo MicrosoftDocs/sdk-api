@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrInterfacePointerBufferSize
+: 
 ---
 
 # NdrInterfacePointerBufferSize function
@@ -77,7 +83,7 @@ Pointer to the format string description.
 
 
 
-This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/en-us/library/ms692640(v=VS.85).aspx">CoGetMarshalSizeMax</a>.
+This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_cogetmarshalsizemax">CoGetMarshalSizeMax</a>.
 
 <table>
 <tr>

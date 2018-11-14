@@ -9,8 +9,8 @@ ms.assetid: aadcbeda-97c4-4902-a1c4-31e71d27ae40
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMP_MDRT_FLAGS_UNREPORTED_ADDED_ITEMS, WMP_MDRT_FLAGS_UNREPORTED_DELETED_ITEMS, WMP_WMDM_DEVICE2PC, WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC, WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC structure [Windows Media Player], _WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC, wmp.wmp_wmdm_metadata_round_trip_device2pc, wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmpdevices.h
 req.include-header: 

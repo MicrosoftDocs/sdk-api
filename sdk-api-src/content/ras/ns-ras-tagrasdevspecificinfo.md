@@ -9,8 +9,8 @@ ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo, tagRASDEVSPECIFICINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ras.h
 req.include-header: 

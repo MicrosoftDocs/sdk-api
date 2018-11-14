@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- IEnumSearchRoots.Reset
+: 
 ---
 
 # IEnumSearchRoots::Reset
@@ -50,7 +58,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">IEnumSearchRoots::Next</a> retrieves from the beginning.
         
 
 

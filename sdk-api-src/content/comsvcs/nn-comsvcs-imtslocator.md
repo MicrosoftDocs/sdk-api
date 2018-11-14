@@ -9,8 +9,8 @@ ms.assetid: afa559bc-5ac2-4487-bb13-25f30c5f4033
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMTSLocator, IMTSLocator interface [COM+], IMTSLocator interface [COM+],described, _dtc_IMtsLocator_Interface, comsvcs/IMTSLocator, cos.imtslocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
@@ -55,7 +55,7 @@ Describes a single event that provides access to the <a href="https://msdn.micro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMTSLocator</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMTSLocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMTSLocator</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMTSLocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

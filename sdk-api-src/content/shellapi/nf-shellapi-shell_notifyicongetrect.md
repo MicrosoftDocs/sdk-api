@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Shell_NotifyIconGetRect
+: 
 ---
 
 # Shell_NotifyIconGetRect function

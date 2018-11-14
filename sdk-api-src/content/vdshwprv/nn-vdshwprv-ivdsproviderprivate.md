@@ -9,8 +9,8 @@ ms.assetid: 5f1c38bf-85a7-4123-becb-e8abf3052b41
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsProviderPrivate, IVdsProviderPrivate interface [VDS], IVdsProviderPrivate interface [VDS],described, base.ivdsproviderprivate, vdshwprv/IVdsProviderPrivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::AddPolicyAdministrator
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_addpolicyadministrator.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzAuthorizationStore object, AddPolicyAdministrator method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministrator method, IAzAuthorizationStore interface [Security],AddPolicyAdministrator method, IAzAuthorizationStore.AddPolicyAdministrator, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzAuthorizationStore.AddPolicyAdministrator
+: 
 ---
 
 # IAzAuthorizationStore::AddPolicyAdministrator

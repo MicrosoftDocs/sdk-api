@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiRemoveDeviceInterface
+: 
 ---
 
 # SetupDiRemoveDeviceInterface function
@@ -60,7 +66,7 @@ The <b>SetupDiRemoveDeviceInterface</b> function removes a registered device int
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
 
 
 ### -param DeviceInterfaceData [in, out]

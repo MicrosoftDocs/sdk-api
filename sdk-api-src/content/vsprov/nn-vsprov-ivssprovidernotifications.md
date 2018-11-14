@@ -9,8 +9,8 @@ ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 

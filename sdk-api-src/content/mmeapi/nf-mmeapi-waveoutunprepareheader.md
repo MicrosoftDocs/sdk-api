@@ -7,7 +7,7 @@ old-location: multimedia\waveoutunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 4e68886d-278e-401b-9709-f745c69934d4
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveOutUnprepareHeader, mmeapi/waveOutUnprepareHeader, multimedia.waveoutunprepareheader, waveOutUnprepareHeader, waveOutUnprepareHeader function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveOutUnprepareHeader
+: 
 ---
 
 # waveOutUnprepareHeader function

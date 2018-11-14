@@ -9,8 +9,8 @@ ms.assetid: 74708744-78BF-4135-BB0A-50A7CA41ECDD
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], ISpatialAudioMetadataCopier interface [Core Audio],described, coreaudio.ispatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataCopier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFPinholeCameraIntrinsics, MFPinholeCameraIntrinsics structure [Media Foundation], PMFPinholeCameraIntrinsics, PMFPinholeCameraIntrinsics structure pointer [Media Foundation], _MFPinholeCameraIntrinsics, mf.mfpinholecameraintrinsics, mfapi/MFPinholeCameraIntrinsics, mfapi/PMFPinholeCameraIntrinsics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

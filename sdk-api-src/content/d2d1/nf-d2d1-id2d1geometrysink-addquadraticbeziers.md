@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GeometrySink_AddQuadraticBeziers.htm
 tech.root: direct2d
 ms.assetid: 3eb0921e-1d9c-48a0-a709-3ac7feed22c5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: AddQuadraticBeziers, AddQuadraticBeziers method [Direct2D], AddQuadraticBeziers method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddQuadraticBeziers method, ID2D1GeometrySink.AddQuadraticBeziers, ID2D1GeometrySink::AddQuadraticBeziers, d2d1/ID2D1GeometrySink::AddQuadraticBeziers, direct2d.ID2D1GeometrySink_AddQuadraticBeziers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1GeometrySink.AddQuadraticBeziers
+: 
 ---
 
 # ID2D1GeometrySink::AddQuadraticBeziers

@@ -9,8 +9,8 @@ ms.assetid: 8a8a4d1c-7dbc-4dfe-9f21-94a3370553b8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PEXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS structure [VHD], PEXPAND_VIRTUAL_DISK_PARAMETERS, PEXPAND_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/PEXPAND_VIRTUAL_DISK_PARAMETERS, vhd.expand_virtual_disk_parameters, virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS, virtdisk/PEXPAND_VIRTUAL_DISK_PARAMETERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 

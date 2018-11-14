@@ -9,8 +9,8 @@ ms.assetid: 276b44d9-a335-4d4e-8fe9-de03584dadb4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], IUIAutomationTransformPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTransformPattern, uiauto_IUIAutomationTransformPattern, uiautomationclient/IUIAutomationTransformPattern, winauto.uiauto_IUIAutomationTransformPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -7,10 +7,10 @@ old-location: base\minidump_read_memory_failure_callback.htm
 tech.root: debug
 ms.assetid: 9710684a-4d08-4ab8-bc33-17c5f01c581f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: "*PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure, PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure pointer, _MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, base.minidump_read_memory_failure_callback, minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, minidumpapiset/PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h

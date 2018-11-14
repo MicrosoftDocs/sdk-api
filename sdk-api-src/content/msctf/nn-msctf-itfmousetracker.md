@@ -9,8 +9,8 @@ ms.assetid: aad07b35-99e0-4c76-ba65-93c2c972303d
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], ITfMouseTracker interface [Text Services Framework],described, _tsf_itfmousetracker_ref, msctf/ITfMouseTracker, tsf.itfmousetracker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -99,7 +99,7 @@ Uninstalls a mouse event sink.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

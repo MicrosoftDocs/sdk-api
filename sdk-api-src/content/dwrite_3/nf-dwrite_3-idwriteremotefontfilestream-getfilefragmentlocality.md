@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_3.h
+: 
+- IDWriteRemoteFontFileStream.GetFileFragmentLocality
+: 
 ---
 
 # IDWriteRemoteFontFileStream::GetFileFragmentLocality

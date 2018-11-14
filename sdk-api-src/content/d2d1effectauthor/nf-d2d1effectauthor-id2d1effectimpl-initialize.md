@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectimpl_initialize.htm
 tech.root: direct2d
 ms.assetid: BC5A6B97-6BA8-4C97-9F8B-D87EBCD80A98
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],Initialize method, ID2D1EffectImpl.Initialize, ID2D1EffectImpl::Initialize, Initialize, Initialize method [Direct2D], Initialize method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::Initialize, direct2d.id2d1effectimpl_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1EffectImpl.Initialize
+: 
 ---
 
 # ID2D1EffectImpl::Initialize
@@ -100,9 +108,13 @@ The following example shows an effect implementing an initialize method.
 
 The example here shows an effect implementing an initialize method.
 
-
-```cpp
-class CEffectImplementation : public ID2D1EffectImpl
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>class CEffectImplementation : public ID2D1EffectImpl
 {
 public:
 
@@ -110,7 +122,7 @@ public:
     {
         if (_pContextInternal != NULL)
         {
-            _pContextInternal->Release();
+            _pContextInternal-&gt;Release();
         }
     }
 
@@ -119,10 +131,10 @@ public:
         HRESULT hr = S_OK;
 
         _pContextInternal = pContextInternal;
-        _pContextInternal->AddRef();
+        _pContextInternal-&gt;AddRef();
 
 								_pTransformGraph = pTransformGraph;
-        _pTransformGraph>AddRef();
+        _pTransformGraph&gt;AddRef();
 
 								// Populate the transform graph.					    
 
@@ -134,10 +146,10 @@ private:
     ID2D1EffectContext *_pContextInternal;
     ID2D1TransformGraph *_pTransformGraph;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

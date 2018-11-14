@@ -9,8 +9,8 @@ ms.assetid: debaa84f-8883-4117-9be0-962857b55020
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_SHAPING_GLYPH_PROPERTIES, DWRITE_SHAPING_GLYPH_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_glyph_properties, dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

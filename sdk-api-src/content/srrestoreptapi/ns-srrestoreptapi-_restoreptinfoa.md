@@ -9,8 +9,8 @@ ms.assetid: 6f3c1fab-5298-47bb-ba38-87d11f111245
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PRESTOREPOINTINFOA, APPLICATION_INSTALL, APPLICATION_UNINSTALL, BEGIN_NESTED_SYSTEM_CHANGE, BEGIN_SYSTEM_CHANGE, CANCELLED_OPERATION, DEVICE_DRIVER_INSTALL, END_NESTED_SYSTEM_CHANGE, END_SYSTEM_CHANGE, MODIFY_SETTINGS, PRESTOREPOINTINFO, PRESTOREPOINTINFO structure pointer [System Restore], RESTOREPOINTINFO, RESTOREPOINTINFO structure [System Restore], RESTOREPOINTINFOA, RESTOREPOINTINFOW, _RESTOREPTINFOA, _sr_restorepointinfo_str, sr.restorepointinfo_str, srrestoreptapi/PRESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFOA, srrestoreptapi/RESTOREPOINTINFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: srrestoreptapi.h
 req.include-header: 

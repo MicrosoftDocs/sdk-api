@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IManagedActivationEvents.DestroyManagedStub
+: 
 ---
 
 # IManagedActivationEvents::DestroyManagedStub
@@ -77,7 +85,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681786(v=VS.85).aspx">IManagedActivationEvents</a>
+<a href="https://msdn.microsoft.com/621ffc7d-186e-451c-8d97-9c8291549f51">IManagedActivationEvents</a>
  
 
  

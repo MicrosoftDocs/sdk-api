@@ -9,8 +9,8 @@ ms.assetid: f180f597-680b-47ce-b437-3395069a8c77
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 

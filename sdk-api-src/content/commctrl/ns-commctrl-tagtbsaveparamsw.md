@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\toolbar\structures\tbsaveparams.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPTBSAVEPARAMW, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS, tagTBSAVEPARAMSW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Specifies the location in the registry where the <a href="https://msdn.microsoft.com/en-us/library/Bb787394(v=VS.85).aspx">TB_SAVERESTORE</a> message stores and retrieves information about the state of a toolbar. 
+Specifies the location in the registry where the <a href="https://msdn.microsoft.com/59f51d07-cd08-4d6f-9d19-614064ba6f20">TB_SAVERESTORE</a> message stores and retrieves information about the state of a toolbar. 
 
 
 ## -struct-fields

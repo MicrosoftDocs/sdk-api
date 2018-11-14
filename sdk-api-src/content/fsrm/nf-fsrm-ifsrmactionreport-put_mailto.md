@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrm.h
+: 
+- IFsrmActionReport.put_MailTo
+: 
 ---
 
 # IFsrmActionReport::put_MailTo

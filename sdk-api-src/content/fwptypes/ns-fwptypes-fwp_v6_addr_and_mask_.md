@@ -9,8 +9,8 @@ ms.assetid: d8566d41-677a-424f-89f3-e333a0520288
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWP_V6_ADDR_AND_MASK, FWP_V6_ADDR_AND_MASK structure [Filtering], FWP_V6_ADDR_AND_MASK_, fwp.fwp_v6_addr_and_mask_struct, fwptypes/FWP_V6_ADDR_AND_MASK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

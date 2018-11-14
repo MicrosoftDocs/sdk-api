@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetCapture
+: 
 ---
 
 # SetCapture function
@@ -87,7 +93,7 @@ The return value is a handle to the window that had previously captured the mous
 
 Only the foreground window can capture the mouse. When a background window attempts to do so, the window receives messages only for mouse events that occur when the cursor hot spot is within the visible portion of the window. Also, even if the foreground window has captured the mouse, the user can still click another window, bringing it to the foreground. 
 
-When the window no longer requires all mouse input, the thread that created the window should call the <a href="https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx">ReleaseCapture</a> function to release the mouse. 
+When the window no longer requires all mouse input, the thread that created the window should call the <a href="https://msdn.microsoft.com/43e1f766-35b1-451d-9921-c1d4eebc4435">ReleaseCapture</a> function to release the mouse. 
 
 This function cannot be used to capture mouse input meant for another process. 
 
@@ -96,7 +102,7 @@ When the mouse is captured, menu hotkeys and other keyboard accelerators do not 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Drawing Lines with the Mouse</a>.
+For an example, see <a href="using_mouse_input.htm">Drawing Lines with the Mouse</a>.
 
 <div class="code"></div>
 
@@ -111,11 +117,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms645602(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx">GetCapture</a>
+<a href="https://msdn.microsoft.com/cb35a155-f66c-4dc2-9358-d1065ec9c894">GetCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 
@@ -123,11 +129,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms645602(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx">ReleaseCapture</a>
+<a href="https://msdn.microsoft.com/43e1f766-35b1-451d-9921-c1d4eebc4435">ReleaseCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645605(v=VS.85).aspx">WM_CAPTURECHANGED</a>
+<a href="https://msdn.microsoft.com/79c8f65e-31fa-4bdb-9e88-0160a52b5b7d">WM_CAPTURECHANGED</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 7e165654-74ea-4d8b-81b7-11257f87af53
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS structure pointer [Windows Shell], SV2CVW2_PARAMS, SV2CVW2_PARAMS structure [Windows Shell], _SV2CVW2_PARAMS, _win32_SV2CVW2_PARAMS, shell.SV2CVW2_PARAMS, shobjidl_core/LPSV2CVW2_PARAMS, shobjidl_core/SV2CVW2_PARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

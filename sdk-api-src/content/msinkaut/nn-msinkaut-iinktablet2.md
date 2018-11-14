@@ -9,8 +9,8 @@ ms.assetid: c912689c-9a85-41a0-87d8-68332ea762a7
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IInkTablet2, IInkTablet2 interface [Tablet PC], IInkTablet2 interface [Tablet PC],described, c912689c-9a85-41a0-87d8-68332ea762a7, msinkaut/IInkTablet2, tablet.iinktablet2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 455b7f0b-ade4-4e00-bd9d-836335a7982e
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMPackage1, IXpsOMPackage1 interface [XPS Documents and Packaging], IXpsOMPackage1 interface [XPS Documents and Packaging],described, xps.ixpsompackage1, xpsobjectmodel_1/IXpsOMPackage1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel_1.h
 req.include-header: 

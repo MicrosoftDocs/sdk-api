@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ParseURLW
+: 
 ---
 
 # ParseURLW function
@@ -93,7 +99,7 @@ Returns <b>S_OK</b> on success, or a COM error code otherwise. The function retu
 
 
 
-The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="https://msdn.microsoft.com/en-us/library/Aa384376(v=VS.85).aspx">InternetCrackUrl</a>.
+The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="_inet_InternetCrackUrl_Function">InternetCrackUrl</a>.
 
 
 #### Examples

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BRUSHOBJ_ulGetBrushColor
+: 
 ---
 
 # BRUSHOBJ_ulGetBrushColor function

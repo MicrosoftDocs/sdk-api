@@ -9,8 +9,8 @@ ms.assetid: a3f6669f-bad5-4289-abbc-633851c1f5f8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PRADIUS_EXTENSION_TERM, PRADIUS_EXTENSION_TERM callback, PRADIUS_EXTENSION_TERM callback function [Network Policy Server], RadiusExtensionTerm, _ias_radiusextensionterm, authif/PRADIUS_EXTENSION_TERM, ias.radiusextensionterm, nps.IAS_radiusextensionterm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: authif.h
 req.include-header: 

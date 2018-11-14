@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetupKeyInformation.put_Existing
+: 
 ---
 
 # ICertSrvSetupKeyInformation::put_Existing
@@ -52,7 +60,7 @@ req.redist:
 ## -description
 
 
-The <b>Existing</b> property gets or sets a value that indicates whether the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> already exists.
+The <b>Existing</b> property gets or sets a value that indicates whether the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> already exists.
 
 This property is read/write.
 
@@ -65,7 +73,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a>
+<a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a>
  
 
  

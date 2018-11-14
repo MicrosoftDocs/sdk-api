@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawImage
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -169,9 +177,13 @@ The value of the
 
 The following example draws the original source image and then draws a portion of the image in a specified parallelogram.
 
-
-```cpp
-VOID Example_DrawImage2(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage2(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -180,7 +192,7 @@ VOID Example_DrawImage2(HDC hdc)
    Image image(L"pattern.png");
 
    // Draw the original source image.
-   graphics.DrawImage(&image, 10, 10);
+   graphics.DrawImage(&amp;image, 10, 10);
 
    // Define the portion of the image to draw.
    int srcX = 70;
@@ -201,11 +213,11 @@ VOID Example_DrawImage2(HDC hdc)
    ColorMap redToBlue;
    redToBlue.oldColor = Color(255, 255, 0, 0);
    redToBlue.newColor = Color(255, 0, 0, 255);
-   remapAttributes.SetRemapTable(1, &redToBlue);
+   remapAttributes.SetRemapTable(1, &amp;redToBlue);
 
    // Draw the cropped image.
    graphics.DrawImage(
-   &image,
+   &amp;image,
    pdestPoints,
    3,
    srcX,
@@ -213,16 +225,16 @@ VOID Example_DrawImage2(HDC hdc)
    srcWidth,
    srcHeight,
    UnitPixel,
-   &remapAttributes,
+   &amp;remapAttributes,
    NULL,
    NULL);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="./images/drawimage2.png"/>
+<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="images/drawimage2.png"/>
 
 <div class="code"></div>
 
@@ -237,7 +249,7 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

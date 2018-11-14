@@ -9,8 +9,8 @@ ms.assetid: 3a06911e-8a50-4e41-874c-478ad05f6488
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: DDiscFormat2RawCDEvents, DDiscFormat2RawCDEvents interface [IMAPI], DDiscFormat2RawCDEvents interface [IMAPI],described, imapi.ddiscformat2rawcdevents, imapi2/DDiscFormat2RawCDEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 
@@ -55,7 +55,7 @@ Implement this interface to receive notifications of the current raw-image write
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2RawCDEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>DDiscFormat2RawCDEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2RawCDEvents</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>DDiscFormat2RawCDEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

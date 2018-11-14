@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationDockPattern.get_CachedDockPosition
+: 
 ---
 
 # IUIAutomationDockPattern::get_CachedDockPosition

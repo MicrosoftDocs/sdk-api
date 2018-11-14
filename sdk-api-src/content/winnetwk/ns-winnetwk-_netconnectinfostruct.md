@@ -9,8 +9,8 @@ ms.assetid: 0309667e-cb6c-406f-bb48-ed16602d38b2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Security], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Security], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _NETCONNECTINFOSTRUCT, _mnp_netconnectinfostruct, security.netconnectinfostruct, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 

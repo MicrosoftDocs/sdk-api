@@ -9,8 +9,8 @@ ms.assetid: 122db3fa-36bb-4d0c-9d05-0b7ae37f9187
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WM_PORT_NUMBER_RANGE, WM_PORT_NUMBER_RANGE structure [windows Media Format], _WMPortNumberRange, structure [windows Media Format], wmformat.wm_port_number_range, wmsdkidl/WM_PORT_NUMBER_RANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

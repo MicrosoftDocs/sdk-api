@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreatePatternBrush
+: 
 ---
 
 # CreatePatternBrush function

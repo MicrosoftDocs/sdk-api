@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SoundSentry
+: 
 ---
 
 # SoundSentry function
@@ -125,11 +131,11 @@ Set the notification behavior by calling <a href="https://msdn.microsoft.com/9b9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373646(v=VS.85).aspx">SOUNDSENTRY</a>
+<a href="_win32_SOUNDSENTRY_str">SOUNDSENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx">SoundSentryProc</a>
+<a href="_win32_SoundSentryProc">SoundSentryProc</a>
  
 
  

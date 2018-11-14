@@ -9,8 +9,8 @@ ms.assetid: e92417b7-6664-4fd7-900f-aedc83291dea
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], IVdsSubSystemIscsi interface [VDS],described, base.ivdssubsystemiscsi, vds/IVdsSubSystemIscsi, vdshwprv/IVdsSubSystemIscsi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

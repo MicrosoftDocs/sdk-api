@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- imapi2.h
+: 
+- IRawCDImageCreator.get_StartOfLeadout
+: 
 ---
 
 # IRawCDImageCreator::get_StartOfLeadout

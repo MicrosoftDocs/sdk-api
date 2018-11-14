@@ -9,8 +9,8 @@ ms.assetid: 68b4b5f5-8220-4180-8243-b6f1fd7826bd
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION structure pointer [Security], SAFER_HASH_IDENTIFICATION, SAFER_HASH_IDENTIFICATION structure [Security], _SAFER_HASH_IDENTIFICATION, _mnp_safer_hash_identification, security.safer_hash_identification, winsafer/PSAFER_HASH_IDENTIFICATION, winsafer/SAFER_HASH_IDENTIFICATION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 

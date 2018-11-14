@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputreg_info.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 346fa378-bd6e-af16-a873-be0d08fda403, D3D10_SHADER_DEBUG_OUTPUTREG_INFO, D3D10_SHADER_DEBUG_OUTPUTREG_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_OUTPUTREG_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTREG_INFO, direct3d10.d3d10_shader_debug_outputreg_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
@@ -60,7 +60,7 @@ Describes a shader output register.
 
 ### -field OutputRegisterSet
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172425(v=VS.85).aspx">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/62fbed9b-ca8f-4eb0-8c5d-d18ea7c76c24">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_TEMP, D3D10_SHADER_DEBUG_REG_TEMPARRAY or D3D10_SHADER_DEBUG_REG_OUTPUT.
 
@@ -88,7 +88,7 @@ A value of -1 means the component is masked out.
 
 ### -field OutputVars
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172424(v=VS.85).aspx">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/71239305-2bfa-43b2-ab5c-d6865f9ce998">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
 
 Indicates which variable the instruction is writing per-component.
 
@@ -112,7 +112,7 @@ Offset from OutputReg of the element being written to. Used when writing to an i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

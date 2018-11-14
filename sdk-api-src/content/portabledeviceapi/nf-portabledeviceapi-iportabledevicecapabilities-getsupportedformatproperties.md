@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- portabledeviceapi.h
+: 
+- IPortableDeviceCapabilities.GetSupportedFormatProperties
+: 
 ---
 
 # IPortableDeviceCapabilities::GetSupportedFormatProperties
@@ -119,7 +127,7 @@ If an object does not have a value assigned to a specific property, or if the pr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 

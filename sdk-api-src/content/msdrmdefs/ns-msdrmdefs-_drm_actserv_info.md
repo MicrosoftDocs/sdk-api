@@ -9,8 +9,8 @@ ms.assetid: 2ea83a08-ab86-4635-8684-519808430ce9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DRM_ACTSERV_INFO, DRM_ACTSERV_INFO structure [Active Directory Rights Management Services SDK 1.0], _DRM_ACTSERV_INFO, msdrmdefs/DRM_ACTSERV_INFO, rm.drm_actserv_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnt.h
+: 
+- Int64ShraMod32
+: 
 ---
 
 # Int64ShraMod32 macro

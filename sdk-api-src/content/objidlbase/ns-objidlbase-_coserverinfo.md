@@ -9,8 +9,8 @@ ms.assetid: 88c94a7f-5cf0-4d61-833f-91cba45d8624
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COSERVERINFO, com.coserverinfo, objidlbase/COSERVERINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: objidlbase.h
 req.include-header: Objidl.h

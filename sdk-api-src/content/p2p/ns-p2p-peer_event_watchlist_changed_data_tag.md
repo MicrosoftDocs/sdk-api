@@ -9,8 +9,8 @@ ms.assetid: 9d4af44c-c03f-4d9f-9b36-c04513a18133
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEER_EVENT_WATCHLIST_CHANGED_DATA, PEER_EVENT_WATCHLIST_CHANGED_DATA, PEER_EVENT_WATCHLIST_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_WATCHLIST_CHANGED_DATA, PPEER_EVENT_WATCHLIST_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_watchlist_changed_data, p2p/PEER_EVENT_WATCHLIST_CHANGED_DATA, p2p/PPEER_EVENT_WATCHLIST_CHANGED_DATA, peer_event_watchlist_changed_data_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
@@ -75,7 +75,7 @@ Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e7085
 
 The PEER_EVENT_WATCHLIST_CHANGED event is raised when the watch list is changed. The watch list is composed of the contacts that have <b>fWatch</b> set to true. If a new contact is added with <b>fWatch</b> set to true, or if an existing contact's <b>fWatch</b> is changed to true, the <b>changeType</b> member is set to PEER_CHANGE_ADDED. If <b>fWatch</b> is changed to false or if a contact is deleted, <b>changeType</b> is set to PEER_CHANGE_DELETED. 
 
-The p2phost.exe service must running to receive this event. P2phost.exe is launched when an application calls <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a> on this event.
+The p2phost.exe service must running to receive this event. P2phost.exe is launched when an application calls <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a> on this event.
 
 
 

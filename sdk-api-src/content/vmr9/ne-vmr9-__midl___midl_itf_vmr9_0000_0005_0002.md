@@ -9,8 +9,8 @@ ms.assetid: 5dfba718-4c89-46e7-89b6-e4b133b0ce04
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ProcAmpControl9_Brightness, ProcAmpControl9_Contrast, ProcAmpControl9_Hue, ProcAmpControl9_Mask, ProcAmpControl9_Saturation, VMR9ProcAmpControlFlags, VMR9ProcAmpControlFlags , VMR9ProcAmpControlFlags enumeration [DirectShow], __MIDL___MIDL_itf_vmr9_0000_0005_0002, dshow.vmr9procampcontrolflags, vmr9/ProcAmpControl9_Brightness, vmr9/ProcAmpControl9_Contrast, vmr9/ProcAmpControl9_Hue, vmr9/ProcAmpControl9_Mask, vmr9/ProcAmpControl9_Saturation, vmr9/VMR9ProcAmpControlFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain4_sethdrmetadata.htm
 tech.root: direct3ddxgi
 ms.assetid: 03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGISwapChain4 interface [DXGI],SetHDRMetaData method, IDXGISwapChain4.SetHDRMetaData, IDXGISwapChain4::SetHDRMetaData, SetHDRMetaData, SetHDRMetaData method [DXGI], SetHDRMetaData method [DXGI],IDXGISwapChain4 interface, direct3ddxgi.idxgiswapchain4_sethdrmetadata, dxgi1_5/IDXGISwapChain4::SetHDRMetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_5.h
+: 
+- IDXGISwapChain4.SetHDRMetaData
+: 
 ---
 
 # IDXGISwapChain4::SetHDRMetaData
@@ -83,7 +91,7 @@ Specifies a void pointer that references the metadata, if it exists. Refer to th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

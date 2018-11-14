@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MprAdminInterfaceGetCredentials
+: 
 ---
 
 # MprAdminInterfaceGetCredentials function
@@ -160,7 +166,7 @@ The <i>lpwsUserName</i>, <i>lpwsPassword</i>, and <i>lpwsDomainName</i> paramete
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -191,7 +197,7 @@ Note that the order of the parameters in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FLOATOBJ_GreaterThanLong
+: 
 ---
 
 # FLOATOBJ_GreaterThanLong function

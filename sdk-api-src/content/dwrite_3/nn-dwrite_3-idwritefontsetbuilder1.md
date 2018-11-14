@@ -9,8 +9,8 @@ ms.assetid: 32023D5C-5000-44A7-8C7A-995A821951BB
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteFontSetBuilder1, IDWriteFontSetBuilder1 interface [Direct Write], IDWriteFontSetBuilder1 interface [Direct Write],described, directwrite.idwritefontsetbuilder1, dwrite_3/IDWriteFontSetBuilder1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 

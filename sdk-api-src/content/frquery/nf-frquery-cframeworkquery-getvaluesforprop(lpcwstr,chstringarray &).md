@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- frquery.h
+: 
+- CFrameworkQuery.GetValuesForProp
+: 
 ---
 
 # CFrameworkQuery::GetValuesForProp(LPCWSTR,CHStringArray &)
@@ -182,12 +190,16 @@ For example, the following list lists the values that are returned by <a href="h
 
 The <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">GetValuesForProp</a> method only supports string types. For example, the following query, followed by a call to <b>GetValuesForProp</b>("PropInt", values), returns <b>WBEM_E_INVALID_QUERY</b> while <b>GetValuesForProp</b>("PropStr", values) returns <b>S_OK</b>.
 
-
-```cpp
-SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

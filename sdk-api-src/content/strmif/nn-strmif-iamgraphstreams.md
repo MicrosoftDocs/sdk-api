@@ -9,8 +9,8 @@ ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

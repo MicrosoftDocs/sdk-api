@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DavFlushFile
+: 
 ---
 
 # DavFlushFile function
@@ -65,7 +71,7 @@ Flushes the data from the local version of a remote file to the WebDAV server.
 A handle to an open file on a WebDAV server.
 
 The file handle must have the GENERIC_WRITE access right. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+<a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 
 ## -returns
@@ -97,11 +103,11 @@ This function does not flush encrypted files. If <i>hFile</i> is a handle to an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>
+<a href="base.flushfilebuffers">FlushFileBuffers</a>
 
 
 

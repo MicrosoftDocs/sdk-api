@@ -9,8 +9,8 @@ ms.assetid: 298C1FC8-D19D-4DB3-84AA-3870D06B16A1
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PSS_PERFORMANCE_COUNTERS, PSS_PERFORMANCE_COUNTERS structure, proc_snap.pss_performance_counters, processsnapshot/PSS_PERFORMANCE_COUNTERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

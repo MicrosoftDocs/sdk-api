@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink2_drawgradientmesh.htm
 tech.root: direct2d
 ms.assetid: 19adf39c-5eec-aa77-9022-1b69ef924679
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DrawGradientMesh, DrawGradientMesh method [Direct2D], DrawGradientMesh method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawGradientMesh method, ID2D1CommandSink2.DrawGradientMesh, ID2D1CommandSink2::DrawGradientMesh, d2d1_3/ID2D1CommandSink2::DrawGradientMesh, direct2d.id2d1commandsink2_drawgradientmesh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_3.h
+: 
+- ID2D1CommandSink2.DrawGradientMesh
+: 
 ---
 
 # ID2D1CommandSink2::DrawGradientMesh

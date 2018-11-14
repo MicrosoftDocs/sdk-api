@@ -9,8 +9,8 @@ ms.assetid: 2d44cf6d-a3fa-43db-b28e-3d48f6d13625
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMBackupDir, IGPMBackupDir, IGPMBackupDir interface [GPMC], IGPMBackupDir interface [GPMC],described, _win32_igpmbackupdir, gpmc.igpmbackupdir, gpmgmt/IGPMBackupDir
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
@@ -62,7 +62,7 @@ To create a <b>GPMBackupDir</b> object, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDir</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMBackupDir</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDir</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IGPMBackupDir</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -122,7 +122,7 @@ Full path of the file system directory for Group Policy object (GPO) backups.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 24d4a22b-0a01-4bf2-9cc6-4a1b31897d05
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-Configures side-by-side assemblies for the work that is done when calling either <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a>.
+Configures side-by-side assemblies for the work that is done when calling either <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSxSConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServiceSxSConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSxSConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceSxSConfig</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IServiceSxSConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686504(v=VS.85).aspx">SxsConfig</a>
+<a href="https://msdn.microsoft.com/ce067aca-8bb4-48ac-b466-9080d2166bdd">SxsConfig</a>
 </td>
 <td align="left" width="63%">
 Configures the side-by-side assembly for the enclosed work.
@@ -80,7 +80,7 @@ Configures the side-by-side assembly for the enclosed work.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681742(v=VS.85).aspx">SxsDirectory</a>
+<a href="https://msdn.microsoft.com/5eb909a5-7730-4f0b-aee6-9bb8de076cea">SxsDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the directory for the side-by-side assembly for the enclosed work.
@@ -90,7 +90,7 @@ Sets the directory for the side-by-side assembly for the enclosed work.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681787(v=VS.85).aspx">SxsName</a>
+<a href="https://msdn.microsoft.com/622632ba-1287-4303-a9dd-4fb870e43786">SxsName</a>
 </td>
 <td align="left" width="63%">
 Sets the file name of the side-by-side assembly for the enclosed work.
@@ -110,7 +110,7 @@ Sets the file name of the side-by-side assembly for the enclosed work.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd408052(v=VS.85).aspx">Isolated Applications and Side-by-side Assemblies</a>
+<a href="https://msdn.microsoft.com/2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0">Isolated Applications and Side-by-side Assemblies</a>
  
 
  

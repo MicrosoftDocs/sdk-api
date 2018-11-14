@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DPA_CreateEx
+: 
 ---
 
 # DPA_CreateEx function
@@ -97,7 +103,7 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775603(v=VS.85).aspx">DPA_Create</a>
+<a href="https://msdn.microsoft.com/03bbfe08-69df-41da-85c8-41a96d9dac09">DPA_Create</a>
  
 
  

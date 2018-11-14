@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringalignment.ht
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: StringAlignment, StringAlignment enumeration [GDI+], StringAlignmentCenter, StringAlignmentFar, StringAlignmentNear, _gdiplus_ENUM_StringAlignment, gdiplus._gdiplus_ENUM_StringAlignment, gdiplusenums/StringAlignment, gdiplusenums/StringAlignmentCenter, gdiplusenums/StringAlignmentFar, gdiplusenums/StringAlignmentNear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
@@ -61,7 +61,7 @@ The <b>StringAlignment</b> enumeration specifies how a string is aligned in refe
 
 ### -field StringAlignmentNear
 
-Specifies that alignment is towards the origin of the bounding rectangle. May be used for alignment of characters along the line or for alignment of lines within the rectangle. For a right to left bounding rectangle (<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlagsDirectionRightToLeft</a>), the origin is at the upper right. 
+Specifies that alignment is towards the origin of the bounding rectangle. May be used for alignment of characters along the line or for alignment of lines within the rectangle. For a right to left bounding rectangle (<a href="https://msdn.microsoft.com/9bbddab0-46b1-49db-86c1-cf9086692958">StringFormatFlagsDirectionRightToLeft</a>), the origin is at the upper right. 
 
 
 ### -field StringAlignmentCenter

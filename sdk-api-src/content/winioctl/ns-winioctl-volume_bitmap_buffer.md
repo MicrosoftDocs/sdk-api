@@ -9,8 +9,8 @@ ms.assetid: 7273f469-bc5e-46b7-b908-59ddb7389c27
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER structure pointer [Files], VOLUME_BITMAP_BUFFER, VOLUME_BITMAP_BUFFER structure [Files], _win32_volume_bitmap_buffer_str, base.volume_bitmap_buffer_str, fs.volume_bitmap_buffer_str, winioctl/PVOLUME_BITMAP_BUFFER, winioctl/VOLUME_BITMAP_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

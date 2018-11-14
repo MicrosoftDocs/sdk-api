@@ -9,8 +9,8 @@ ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -55,7 +55,7 @@ The <b>IADsPrintJob</b> interface is a dual interface that inherits from <a href
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintJob</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsPrintJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintJob</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsPrintJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -576,7 +576,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DDevice9.GetVertexShader
+: 
 ---
 
 # IDirect3DDevice9::GetVertexShader
@@ -61,7 +69,7 @@ Retrieves the currently set vertex shader.
 
 ### -param ppShader [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205922(v=VS.85).aspx">IDirect3DVertexShader9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/834bd54b-673b-4fa8-aba5-30ed5b923542">IDirect3DVertexShader9</a>**</b>
 
 Pointer to a vertex shader interface.
 
@@ -70,7 +78,7 @@ Pointer to a vertex shader interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
  If ppShader is invalid, D3DERR_INVALIDCALL is returned.
@@ -92,11 +100,11 @@ Typically, methods that return state will not work on a device that is created u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174465(v=VS.85).aspx">IDirect3DDevice9::SetVertexShader</a>
+<a href="https://msdn.microsoft.com/e4913fd8-5cb3-4799-8c91-d39f213d4b47">IDirect3DDevice9::SetVertexShader</a>
  
 
  

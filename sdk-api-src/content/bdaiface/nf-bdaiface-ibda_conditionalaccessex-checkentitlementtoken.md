@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_ConditionalAccessEx.CheckEntitlementToken
+: 
 ---
 
 # IBDA_ConditionalAccessEx::CheckEntitlementToken
@@ -72,7 +80,7 @@ The language of the dialog. This string contains an ISO 639-2 language code with
 
 ### -param RequestType [in]
 
-The type of access that is being requested, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693004(v=VS.85).aspx">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
+The type of access that is being requested, specified as a member of the <a href="https://msdn.microsoft.com/b21bca45-e219-4670-b209-9d7a63fbd65c">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
 
 
 ### -param ulcbEntitlementTokenLen [in]
@@ -106,7 +114,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693262(v=VS.85).aspx">IBDA_ConditionalAccessEx</a>
+<a href="https://msdn.microsoft.com/9db9b6b1-fc4f-48f0-940e-d79a321ef094">IBDA_ConditionalAccessEx</a>
  
 
  

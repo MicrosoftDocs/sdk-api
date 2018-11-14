@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FwpmvSwitchEventsSetSecurityInfo0
+: 
 ---
 
 # FwpmvSwitchEventsSetSecurityInfo0 function

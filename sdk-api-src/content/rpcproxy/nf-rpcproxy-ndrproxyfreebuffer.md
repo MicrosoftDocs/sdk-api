@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrProxyFreeBuffer
+: 
 ---
 
 # NdrProxyFreeBuffer function
@@ -81,7 +87,7 @@ This function does not return a value.
 
 
 
-The <b>NdrProxyFreeBuffer</b> function calls the <a href="https://msdn.microsoft.com/en-us/library/ms692532(v=VS.85).aspx">IRpcChannelBuffer::FreeBuffer</a> method to free the RPC buffer and release <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>.
+The <b>NdrProxyFreeBuffer</b> function calls the <a href="_com_irpcchannelbuffer_freebuffer">IRpcChannelBuffer::FreeBuffer</a> method to free the RPC buffer and release <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>.
 
 
 

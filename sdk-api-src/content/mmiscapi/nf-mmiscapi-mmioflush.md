@@ -7,7 +7,7 @@ old-location: multimedia\mmioflush.htm
 tech.root: Multimedia
 ms.assetid: 78c2740b-c4fa-4dad-ae4f-0d5b41557669
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mmioFlush, mmioFlush, mmioFlush function [Windows Multimedia], mmsystem/mmioFlush, multimedia.mmioflush"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mmioFlush
+: 
 ---
 
 # mmioFlush function

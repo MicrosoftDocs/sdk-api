@@ -9,8 +9,8 @@ ms.assetid: 6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_get_drive_layout, base.ioctl_disk_get_drive_layout, fs.ioctl_disk_get_drive_layout, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

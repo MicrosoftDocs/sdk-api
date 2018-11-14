@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ULongPtrToInt8
+: 
 ---
 
 # ULongPtrToInt8 function

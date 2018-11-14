@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpModifyClassV6
+: 
 ---
 
 # DhcpModifyClassV6 function

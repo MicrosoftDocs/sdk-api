@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\wmfplaceablefilehead
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: WmfPlaceableFileHeader, WmfPlaceableFileHeader structure [GDI+], _gdiplus_STRUC_WmfPlaceableFileHeader, gdiplus._gdiplus_STRUC_WmfPlaceableFileHeader, gdiplusmetaheader/WmfPlaceableFileHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
@@ -75,7 +75,7 @@ Handle to the metafile in memory. When written to disk, this field is not used a
 
 ### -field BoundingBox
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534071(v=VS.85).aspx">PWMFRect16</a></b>
+Type: <b><a href="https://msdn.microsoft.com/43c3a37c-0703-4bb5-9091-c33f6a388995">PWMFRect16</a></b>
 
 Destination rectangle, measured in twips, for displaying the metafile. 
 
@@ -123,7 +123,7 @@ Although placeable metafiles are quite common, they are not directly supported b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534071(v=VS.85).aspx">PWMFRect16</a>
+<a href="https://msdn.microsoft.com/43c3a37c-0703-4bb5-9091-c33f6a388995">PWMFRect16</a>
  
 
  

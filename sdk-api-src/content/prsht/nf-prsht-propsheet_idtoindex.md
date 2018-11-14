@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- prsht.h
+: 
+- PropSheet_IdToIndex
+: 
 ---
 
 # PropSheet_IdToIndex macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Takes the resource identifier (ID) of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774583(v=VS.85).aspx">PSM_IDTOINDEX</a> message explicitly.
+Takes the resource identifier (ID) of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/91420c1e-7f8a-4b1c-a1fc-6ff65ee4b1b0">PSM_IDTOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +85,7 @@ Resource ID of the page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774656(v=VS.85).aspx">PropSheet_IndexToId</a>
+<a href="https://msdn.microsoft.com/358f9904-5b14-42e4-8095-f7b4d8144bc2">PropSheet_IndexToId</a>
  
 
  

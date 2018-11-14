@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- LdapMapErrorToWin32
+: 
 ---
 
 # LdapMapErrorToWin32 function

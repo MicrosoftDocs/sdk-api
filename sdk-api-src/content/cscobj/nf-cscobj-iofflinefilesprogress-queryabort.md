@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesProgress.QueryAbort
+: 
 ---
 
 # IOfflineFilesProgress::QueryAbort
@@ -87,7 +95,7 @@ This method may be used by the implementation in cases where calls to other prog
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
  
 
  

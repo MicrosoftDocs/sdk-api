@@ -7,7 +7,7 @@ old-location: multimedia\waveinreset.htm
 tech.root: Multimedia
 ms.assetid: 3f0735ec-3a0a-478d-8044-8a8671cf2d5c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveInReset, mmeapi/waveInReset, multimedia.waveinreset, waveInReset, waveInReset function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveInReset
+: 
 ---
 
 # waveInReset function

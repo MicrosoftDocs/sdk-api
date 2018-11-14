@@ -9,8 +9,8 @@ ms.assetid: d4315a62-b65f-4744-8084-2317ad39c32c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Files], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, fs.transaction_outcome, winnt/TRANSACTION_OUTCOME, winnt/TransactionOutcomeAborted, winnt/TransactionOutcomeCommitted, winnt/TransactionOutcomeUndetermined
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

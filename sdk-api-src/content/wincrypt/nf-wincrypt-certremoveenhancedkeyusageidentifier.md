@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertRemoveEnhancedKeyUsageIdentifier
+: 
 ---
 
 # CertRemoveEnhancedKeyUsageIdentifier function
@@ -86,7 +92,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
  
 
  

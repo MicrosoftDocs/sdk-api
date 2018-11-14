@@ -9,8 +9,8 @@ ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], _DXVA2_VideoDesc, dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

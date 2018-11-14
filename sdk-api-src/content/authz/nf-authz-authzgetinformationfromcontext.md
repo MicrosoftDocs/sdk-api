@@ -4,10 +4,10 @@ title: AuthzGetInformationFromContext function
 author: windows-sdk-content
 description: Returns information about an Authz context.
 old-location: security\authzgetinformationfromcontext.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: c365029a-3ff3-49c1-9dfc-b52948e466f3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext function [Security], _win32_authzgetinformationfromcontext, authz/AuthzGetInformationFromContext, security.authzgetinformationfromcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- 
+: 
+- AuthzGetInformationFromContext
+: 
 ---
 
 # AuthzGetInformationFromContext function
@@ -110,7 +116,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

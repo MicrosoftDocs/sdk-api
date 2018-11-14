@@ -9,8 +9,8 @@ ms.assetid: e12a532a-4624-4e06-8e19-6e9daec550ac
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFByteStreamCacheControl, IMFByteStreamCacheControl interface [Media Foundation], IMFByteStreamCacheControl interface [Media Foundation],described, mf.imfbytestreamcachecontrol, mfidl/IMFByteStreamCacheControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

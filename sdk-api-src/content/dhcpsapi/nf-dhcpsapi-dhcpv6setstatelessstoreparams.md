@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpV6SetStatelessStoreParams
+: 
 ---
 
 # DhcpV6SetStatelessStoreParams function

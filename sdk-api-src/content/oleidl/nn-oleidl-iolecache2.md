@@ -9,8 +9,8 @@ ms.assetid: 8bbeca2d-c805-4116-b918-e2ddded8b160
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IOleCache2, IOleCache2 interface [COM], IOleCache2 interface [COM],described, _ole_iolecache2, com.iolecache2, oleidl/IOleCache2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

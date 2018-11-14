@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10sdklayers.h
+: 
+- ID3D10InfoQueue.GetNumMessagesDiscardedByMessageCountLimit
+: 
 ---
 
 # ID3D10InfoQueue::GetNumMessagesDiscardedByMessageCountLimit
@@ -75,7 +83,7 @@ Number of messages discarded.
 
 
 
-Get and set the message count limit with <a href="https://msdn.microsoft.com/en-us/library/Bb173791(v=VS.85).aspx">ID3D10InfoQueue::GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173813(v=VS.85).aspx">ID3D10InfoQueue::SetMessageCountLimit</a>, respectively.
+Get and set the message count limit with <a href="https://msdn.microsoft.com/54821cbf-a950-4403-b39c-9c89635336d2">ID3D10InfoQueue::GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/23767ef0-d87c-4ef9-a2d5-d970832f6d4e">ID3D10InfoQueue::SetMessageCountLimit</a>, respectively.
 
 
 
@@ -85,7 +93,7 @@ Get and set the message count limit with <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

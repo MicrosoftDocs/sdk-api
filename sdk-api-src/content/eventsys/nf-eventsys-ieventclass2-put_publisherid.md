@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- eventsys.h
+: 
+- IEventClass2.put_PublisherID
+: 
 ---
 
 # IEventClass2::put_PublisherID

@@ -9,8 +9,8 @@ ms.assetid: 524d83ff-4303-448c-a070-58d17dec03ba
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeakMeter interface [Core Audio],described, coreaudio.iaudiopeakmeter, devicetopology/IAudioPeakMeter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

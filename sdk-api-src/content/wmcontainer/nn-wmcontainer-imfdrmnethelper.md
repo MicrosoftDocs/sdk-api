@@ -9,8 +9,8 @@ ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

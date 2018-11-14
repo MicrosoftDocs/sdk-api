@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxReceiptOptions.get_SMTPPassword
+: 
 ---
 
 # IFaxReceiptOptions::get_SMTPPassword

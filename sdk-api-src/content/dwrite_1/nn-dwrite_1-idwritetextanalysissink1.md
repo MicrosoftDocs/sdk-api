@@ -9,8 +9,8 @@ ms.assetid: 46882D89-CD59-4C4F-A8BD-1ABC8B8C5C4B
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteTextAnalysisSink1, IDWriteTextAnalysisSink1 interface [Direct Write], IDWriteTextAnalysisSink1 interface [Direct Write],described, directwrite.idwritetextanalysissink1, dwrite_1/IDWriteTextAnalysisSink1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_1.h
 req.include-header: 

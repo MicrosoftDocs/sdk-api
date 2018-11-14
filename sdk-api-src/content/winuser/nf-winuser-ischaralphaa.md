@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsCharAlphaA
+: 
 ---
 
 # IsCharAlphaA function
@@ -95,7 +101,7 @@ If the character is not alphabetical, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx">IsCharAlphaNumeric</a>
+<a href="https://msdn.microsoft.com/5c77d035-cef6-4d63-af53-3e5e32a58ed1">IsCharAlphaNumeric</a>
 
 
 
@@ -103,7 +109,7 @@ If the character is not alphabetical, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

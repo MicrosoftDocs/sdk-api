@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptSetKeyIdentifierProperty
+: 
 ---
 
 # CryptSetKeyIdentifierProperty function
@@ -162,7 +168,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Identifier Functions</a>
+<a href="cryptography_functions.htm">Key Identifier Functions</a>
  
 
  

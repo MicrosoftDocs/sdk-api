@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- ITfCandidateList.SetResult
+: 
 ---
 
 # ITfCandidateList::SetResult
@@ -64,7 +72,7 @@ Specifies the zero-based index of the candidate string to set the result for. Th
 
 ### -param imcr [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629048(v=VS.85).aspx">TfCandidateResult</a> values that specifies the result of the reconversion operation.
+Contains one of the <a href="https://msdn.microsoft.com/8b2b4762-f28d-40e0-b162-5e35e8835c8e">TfCandidateResult</a> values that specifies the result of the reconversion operation.
 
 
 ## -returns
@@ -127,7 +135,7 @@ A typical reconversion operation would include the following operations.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a>
+<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a>
 
 
 

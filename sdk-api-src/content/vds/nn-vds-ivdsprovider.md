@@ -9,8 +9,8 @@ ms.assetid: c09aa32f-d859-44b1-8656-973ba1b6a167
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVdsProvider, IVdsProvider interface [VDS], IVdsProvider interface [VDS],described, base.ivdsprovider, vds/IVdsProvider, vdshwprv/IVdsProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

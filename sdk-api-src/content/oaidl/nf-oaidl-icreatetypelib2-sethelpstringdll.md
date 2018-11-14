@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oaidl.h
+: 
+- ICreateTypeLib2.SetHelpStringDll
+: 
 ---
 
 # ICreateTypeLib2::SetHelpStringDll

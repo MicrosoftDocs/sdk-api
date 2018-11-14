@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10.h
+: 
+- ID3D10Device.IAGetPrimitiveTopology
+: 
 ---
 
 # ID3D10Device::IAGetPrimitiveTopology
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-Get information about the <a href="https://msdn.microsoft.com/en-us/library/Bb205124(v=VS.85).aspx">primitive type</a>, and data order that describes input data for the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input assembler</a> stage.
+Get information about the <a href="https://msdn.microsoft.com/357ad085-fd91-4420-abc3-1c57e8cbb517">primitive type</a>, and data order that describes input data for the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input assembler</a> stage.
 
 
 ## -parameters
@@ -61,9 +69,9 @@ Get information about the <a href="https://msdn.microsoft.com/en-us/library/Bb20
 
 ### -param pTopology [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/a33b5406-bead-4513-96ef-bb442a18564e">D3D10_PRIMITIVE_TOPOLOGY</a>*</b>
 
-A pointer to the type of primitive, and ordering of the primitive data (see <a href="https://msdn.microsoft.com/en-us/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a>).
+A pointer to the type of primitive, and ordering of the primitive data (see <a href="https://msdn.microsoft.com/a33b5406-bead-4513-96ef-bb442a18564e">D3D10_PRIMITIVE_TOPOLOGY</a>).
 
 
 ## -returns
@@ -80,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

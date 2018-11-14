@@ -9,8 +9,8 @@ ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE, tagPAGERANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 

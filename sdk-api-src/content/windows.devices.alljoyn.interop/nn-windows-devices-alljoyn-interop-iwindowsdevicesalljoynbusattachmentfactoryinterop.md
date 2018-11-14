@@ -9,8 +9,8 @@ ms.assetid: 2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 

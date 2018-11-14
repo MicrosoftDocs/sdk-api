@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextFont2.SetDuplicate2
+: 
 ---
 
 # ITextFont2::SetDuplicate2
@@ -112,7 +120,7 @@ Insufficient memory.
 
 Values with the <b>tomUndefined</b> attribute have no effect.
 
-For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">ITextRange::SetFont</a>.
+For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/15630fec-83b2-4169-b141-8ce253dd25fe">ITextRange::SetFont</a>.
 
 
 

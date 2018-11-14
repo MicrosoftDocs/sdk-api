@@ -9,8 +9,8 @@ ms.assetid: cc2304ef-c319-45eb-b2ec-7410510af213
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: mssip/pfnIsFileSupportedName, pfnIsFileSupportedName, pfnIsFileSupportedName callback, pfnIsFileSupportedName callback function [Security], security.pfnisfilesupportedname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mssip.h
 req.include-header: 

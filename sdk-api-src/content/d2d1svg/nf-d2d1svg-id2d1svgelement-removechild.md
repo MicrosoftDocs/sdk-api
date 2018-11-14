@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_removechild.htm
 tech.root: direct2d
 ms.assetid: 986EE898-D377-4DFF-B19E-834D5CD1A4E6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],RemoveChild method, ID2D1SvgElement.RemoveChild, ID2D1SvgElement::RemoveChild, RemoveChild, RemoveChild method [Direct2D], RemoveChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::RemoveChild, direct2d.id2d1svgelement_removechild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1svg.h
+: 
+- ID2D1SvgElement.RemoveChild
+: 
 ---
 
 # ID2D1SvgElement::RemoveChild

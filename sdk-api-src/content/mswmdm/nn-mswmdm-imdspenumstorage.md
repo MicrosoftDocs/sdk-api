@@ -9,8 +9,8 @@ ms.assetid: fc2fed46-1f4d-4d53-a843-0f699b687a18
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], IMDSPEnumStorage interface [windows Media Device Manager],described, IMDSPEnumStorageInterface, mswmdm/IMDSPEnumStorage, wmdm.imdspenumstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- TextureBrush.TextureBrush
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
+Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
 
 
 ## -parameters
@@ -103,7 +111,7 @@ The default wrap mode for a texture brush is <b>WrapModeTile</b>, which specifie
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a>
+<a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a>
 
 
 

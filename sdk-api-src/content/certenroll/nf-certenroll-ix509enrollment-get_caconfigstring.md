@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509Enrollment.get_CAConfigString
+: 
 ---
 
 # IX509Enrollment::get_CAConfigString
@@ -73,7 +81,7 @@ The configuration string contains the Domain Name System (DNS) name and the comm
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

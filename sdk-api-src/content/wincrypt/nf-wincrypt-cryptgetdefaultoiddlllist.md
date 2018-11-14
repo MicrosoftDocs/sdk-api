@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptGetDefaultOIDDllList
+: 
 ---
 
 # CryptGetDefaultOIDDllList function
@@ -133,7 +139,7 @@ If the buffer specified by the <i>pwszDllList</i> parameter is not large enough 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

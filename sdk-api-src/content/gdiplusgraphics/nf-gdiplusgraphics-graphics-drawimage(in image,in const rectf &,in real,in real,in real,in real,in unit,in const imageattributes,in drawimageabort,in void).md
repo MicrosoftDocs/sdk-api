@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.DrawImage
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -159,9 +167,13 @@ The portion of the source image to be drawn is scaled to fit the rectangle.
 
 The following example draws the original source image and then draws a portion of the image in a specified rectangle.
 
-
-```cpp
-VOID Example_DrawImage6(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage6(HDC hdc)
 
 {
 
@@ -177,7 +189,7 @@ VOID Example_DrawImage6(HDC hdc)
 
    // Draw the original source image.
 
-   graphics.DrawImage(&image, 10, 10);
+   graphics.DrawImage(&amp;image, 10, 10);
 
 
 
@@ -195,7 +207,7 @@ VOID Example_DrawImage6(HDC hdc)
 
    // Create a RectF object that specifies the destination of the image.
 
-   RectF destRect(200.0f, 10.0f, <REAL>image.GetWidth(), <REAL>image.GetHeight());
+   RectF destRect(200.0f, 10.0f, &lt;REAL&gt;image.GetWidth(), &lt;REAL&gt;image.GetHeight());
 
    
 
@@ -209,7 +221,7 @@ VOID Example_DrawImage6(HDC hdc)
 
    redToBlue.newColor = Color(255, 0, 0, 255);
 
-   remapAttributes.SetRemapTable(1, &redToBlue);
+   remapAttributes.SetRemapTable(1, &amp;redToBlue);
 
 
 
@@ -217,7 +229,7 @@ VOID Example_DrawImage6(HDC hdc)
 
    graphics.DrawImage(
 
-   &image,
+   &amp;image,
 
    destRect,
 
@@ -231,19 +243,19 @@ VOID Example_DrawImage6(HDC hdc)
 
    UnitPixel,
 
-   &remapAttributes,
+   &amp;remapAttributes,
 
    NULL,
 
    NULL);
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing two graphics: a multicolored checkerboard pattern, then a two-toned enlargement from that pattern" src="./images/drawimage3.png"/>
+<img alt="Illustration showing two graphics: a multicolored checkerboard pattern, then a two-toned enlargement from that pattern" src="images/drawimage3.png"/>
 
 <div class="code"></div>
 
@@ -258,7 +270,7 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

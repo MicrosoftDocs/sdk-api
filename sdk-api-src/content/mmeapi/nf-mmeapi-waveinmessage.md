@@ -7,7 +7,7 @@ old-location: multimedia\waveinmessage.htm
 tech.root: Multimedia
 ms.assetid: fdf8cf10-807b-47a1-a31c-ca56d5ac9a42
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_waveInMessage, mmeapi/waveInMessage, multimedia.waveinmessage, waveInMessage, waveInMessage function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- waveInMessage
+: 
 ---
 
 # waveInMessage function

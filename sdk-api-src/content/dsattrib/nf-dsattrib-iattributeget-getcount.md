@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dsattrib.h
+: 
+- IAttributeGet.GetCount
+: 
 ---
 
 # IAttributeGet::GetCount

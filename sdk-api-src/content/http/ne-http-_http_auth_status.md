@@ -9,8 +9,8 @@ ms.assetid: 1290fbbe-6c8e-40dc-b47c-32976d85afca
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS enumeration [HTTP], HTTP_AUTH_STATUS, HTTP_AUTH_STATUS enumeration [HTTP], HttpAuthStatusFailure, HttpAuthStatusNotAuthenticated, HttpAuthStatusSuccess, _HTTP_AUTH_STATUS, http.http_auth_status, http/*PHTTP_AUTH_STATUS, http/HTTP_AUTH_STATUS, http/HttpAuthStatusFailure, http/HttpAuthStatusNotAuthenticated, http/HttpAuthStatusSuccess"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

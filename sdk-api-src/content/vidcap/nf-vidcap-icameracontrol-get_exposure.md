@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- ICameraControl.get_Exposure
+: 
 ---
 
 # ICameraControl::get_Exposure

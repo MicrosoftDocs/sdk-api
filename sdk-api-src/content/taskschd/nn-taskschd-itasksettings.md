@@ -9,8 +9,8 @@ ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], ITaskSettings interface [Task Scheduler],described, taskschd.itasksettings, taskschd/ITaskSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

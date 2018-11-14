@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MsiRecordIsNull
+: 
 ---
 
 # MsiRecordIsNull function
@@ -93,7 +99,7 @@ The <i>iField</i> parameter is based on 1 (one).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

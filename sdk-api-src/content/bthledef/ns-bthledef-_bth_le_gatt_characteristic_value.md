@@ -9,8 +9,8 @@ ms.assetid: AF36BC9A-5EB7-4495-870A-40BF5E0A57A3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC_VALUE, PBTH_LE_GATT_CHARACTERISTIC_VALUE structure pointer [Bluetooth Devices], _BTH_LE_GATT_CHARACTERISTIC_VALUE, bltooth.bth_le_gatt_characteristic_value, bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE, bthledef/PBTH_LE_GATT_CHARACTERISTIC_VALUE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
@@ -90,15 +90,15 @@ A pointer to the Bluetooth LE GATT characteristic value data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450822(v=VS.85).aspx">Bluetooth GATT Notification Callback Function</a>
+<a href="https://msdn.microsoft.com/96AC4E49-76D7-47B5-93B9-64D574A28E0A">Bluetooth GATT Notification Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450796(v=VS.85).aspx">BluetoothGATTGetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/8C89FCE9-8DCA-4A38-AF67-A46FDDCC9A60">BluetoothGATTGetCharacteristicValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450806(v=VS.85).aspx">BluetoothGATTSetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/114C1FCD-95F8-4358-8178-C9B283CA7323">BluetoothGATTSetCharacteristicValue</a>
  
 
  

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmquota.h
+: 
+- IFsrmQuotaBase.put_QuotaLimit
+: 
 ---
 
 # IFsrmQuotaBase::put_QuotaLimit

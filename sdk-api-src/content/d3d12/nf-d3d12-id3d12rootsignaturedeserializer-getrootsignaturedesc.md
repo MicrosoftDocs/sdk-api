@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.ht
 tech.root: direct3d12
 ms.assetid: A13FB848-A5C1-4B9B-9009-B0166A3A1C8D
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: GetRootSignatureDesc, GetRootSignatureDesc method, GetRootSignatureDesc method,ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,GetRootSignatureDesc method, ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12RootSignatureDeserializer.GetRootSignatureDesc
+: 
 ---
 
 # ID3D12RootSignatureDeserializer::GetRootSignatureDesc
@@ -65,9 +73,9 @@ Gets the layout of the root signature.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a></b>
 
-This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
+This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
           
 
 
@@ -78,7 +86,7 @@ This method returns a deserialized root signature in a <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899192(v=VS.85).aspx">ID3D12RootSignatureDeserializer</a>
+<a href="https://msdn.microsoft.com/FEDA0802-45A6-4ED5-9683-5278BD60B7A4">ID3D12RootSignatureDeserializer</a>
  
 
  

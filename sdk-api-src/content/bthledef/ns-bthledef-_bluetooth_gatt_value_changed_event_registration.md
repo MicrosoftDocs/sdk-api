@@ -9,8 +9,8 @@ ms.assetid: 97EB32A7-87BF-4DBA-9480-4BB7DFCBFB23
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure [Bluetooth Devices], PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure pointer [Bluetooth Devices], _BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, bltooth.bluetooth_gatt_value_changed_event_registration, bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, bthledef/PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
@@ -80,7 +80,7 @@ Array of characteristics to monitor for incoming events.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 8FA09CC0-99E7-4B05-88A0-2AF406C7B60C
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: EFFECTIVE_POWER_MODE, EFFECTIVE_POWER_MODE enumeration, EffectivePowerModeBalanced, EffectivePowerModeBatterySaver, EffectivePowerModeBetterBattery, EffectivePowerModeHighPerformance, EffectivePowerModeInvalid, EffectivePowerModeMaxPerformance, base.effective_power_mode, powersetting/EFFECTIVE_POWER_MODE, powersetting/EffectivePowerModeBalanced, powersetting/EffectivePowerModeBatterySaver, powersetting/EffectivePowerModeBetterBattery, powersetting/EffectivePowerModeHighPerformance, powersetting/EffectivePowerModeInvalid, powersetting/EffectivePowerModeMaxPerformance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: powersetting.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winnls.h
+: 
+- FILEMUIINFO_GET_CULTURE
+: 
 ---
 
 # FILEMUIINFO_GET_CULTURE macro

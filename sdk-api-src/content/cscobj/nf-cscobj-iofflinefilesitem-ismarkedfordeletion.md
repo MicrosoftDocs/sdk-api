@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesItem.IsMarkedForDeletion
+: 
 ---
 
 # IOfflineFilesItem::IsMarkedForDeletion
@@ -89,7 +97,7 @@ Clients should normally treat such items as if they do not exist in the cache.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
  
 
  

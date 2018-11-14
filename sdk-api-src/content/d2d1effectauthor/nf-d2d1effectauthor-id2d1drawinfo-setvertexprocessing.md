@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawinfo_setvertexprocessing.htm
 tech.root: direct2d
 ms.assetid: 23DB679B-33E4-4FB1-B356-BBB1BA95E0EB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetVertexProcessing method, ID2D1DrawInfo.SetVertexProcessing, ID2D1DrawInfo::SetVertexProcessing, SetVertexProcessing, SetVertexProcessing method [Direct2D], SetVertexProcessing method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetVertexProcessing, direct2d.id2d1drawinfo_setvertexprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1DrawInfo.SetVertexProcessing
+: 
 ---
 
 # ID2D1DrawInfo::SetVertexProcessing
@@ -116,9 +124,13 @@ If you pass the vertex option <a href="https://msdn.microsoft.com/b308aaf4-edf0-
 
 
 
-
-```cpp
-D2D1_BLEND_DESCRIPTION blendDesc = 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D2D1_BLEND_DESCRIPTION blendDesc = 
         {
             D2D1_BLEND_ONE,
             D2D1_BLEND_ZERO,
@@ -129,10 +141,10 @@ D2D1_BLEND_DESCRIPTION blendDesc =
             D2D1_BLEND_OPERATION_ADD,
 
             { 1.0f, 1.0f, 1.0f, 1.0f }
-        };
-```
-
-
+        };</pre>
+</td>
+</tr>
+</table></span></div>
 If this call fails, the corresponding <a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a> instance is placed into an error state and fails to draw.
 
   If blendDescription is NULL, a foreground-over blend mode is used.

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertOIDToAlgId
+: 
 ---
 
 # CertOIDToAlgId function
@@ -82,7 +88,7 @@ Returns the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="cryptography_functions.htm">Data Conversion Functions</a>
  
 
  

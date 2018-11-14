@@ -9,8 +9,8 @@ ms.assetid: ec805089-aff4-4885-b650-a784ce25a7d3
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], IWbemDecoupledRegistrar interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledregistrar, wbemprov/IWbemDecoupledRegistrar, wmi.iwbemdecoupledregistrar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

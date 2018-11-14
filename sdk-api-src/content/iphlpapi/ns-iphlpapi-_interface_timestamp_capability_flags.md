@@ -9,8 +9,8 @@ ms.assetid: EF064499-D11C-4C41-A417-E494D2FE3686
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS, INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, INTERFACE_TIMESTAMP_CAPABILITY_FLAGS structure [IP Helper], PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS, PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS structure pointer [IP Helper], _INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, iphlp.interface_timestamp_capability_flags, iphlpapi/INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, iphlpapi/PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iphlpapi.h
 req.include-header: 

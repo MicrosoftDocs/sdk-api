@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DDevice9.GetViewport
+: 
 ---
 
 # IDirect3DDevice9::GetViewport
@@ -61,16 +69,16 @@ Retrieves the viewport parameters currently set for the device.
 
 ### -param pViewport [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a> structure, representing the returned viewport parameters. 
+Pointer to a <a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a> structure, representing the returned viewport parameters. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the pViewport parameter is invalid.
 
@@ -91,11 +99,11 @@ Typically, methods that return state will not work on a device that is created u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174469(v=VS.85).aspx">IDirect3DDevice9::SetViewport</a>
+<a href="https://msdn.microsoft.com/57fd3a83-4bb4-4f6c-9233-d65208d4bb39">IDirect3DDevice9::SetViewport</a>
  
 
  

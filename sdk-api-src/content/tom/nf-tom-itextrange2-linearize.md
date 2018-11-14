@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextRange2.Linearize
+: 
 ---
 
 # ITextRange2::Linearize
@@ -143,7 +151,7 @@ Insufficient memory.
 
 If the linearization is successful, the originally selected range is replaced by the linearized version. 
 
-If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathChangeMask</a> values.
+If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="tomconstants.htm">tomMathChangeMask</a> values.
 
  The main purpose of these build-down modes is to facilitate transformations of the build-up math object as exposed by math context menus. 
 

@@ -7,7 +7,7 @@ old-location: base\symgetsourcefile.htm
 tech.root: debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- SymGetSourceFileW
+: 
 ---
 
 # SymGetSourceFileW function

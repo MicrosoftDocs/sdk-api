@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesCache.GetLocation
+: 
 ---
 
 # IOfflineFilesCache::GetLocation
@@ -61,7 +69,7 @@ Retrieves the current fully qualified directory path of the Offline Files cache.
 
 ### -param ppszPath [out]
 
-Address of pointer variable to accept the address of a string containing the fully qualified path of the Offline Files cache directory.  Upon successful return, the caller is expected to free the returned buffer by using  the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+Address of pointer variable to accept the address of a string containing the fully qualified path of the Offline Files cache directory.  Upon successful return, the caller is expected to free the returned buffer by using  the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -78,7 +86,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

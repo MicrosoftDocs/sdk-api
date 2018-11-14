@@ -9,8 +9,8 @@ ms.assetid: ed3dbed6-4a2c-4fba-a803-f407fe60d750
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PEMRBITBLT, EMRBITBLT, EMRBITBLT structure [Windows GDI], PEMRBITBLT, PEMRBITBLT structure pointer [Windows GDI], _win32_EMRBITBLT_str, gdi.emrbitblt, tagEMRBITBLT, wingdi/EMRBITBLT, wingdi/PEMRBITBLT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

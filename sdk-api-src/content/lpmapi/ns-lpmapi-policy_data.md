@@ -9,8 +9,8 @@ ms.assetid: 0e91b77c-e4dd-4e23-8af6-bf549168cfc5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: POLICY_DATA, POLICY_DATA structure [QOS], lpmapi/POLICY_DATA, qos.policy_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mbnapi.h
+: 
+- IMbnDeviceServicesEvents.OnOpenDataSessionComplete
+: 
 ---
 
 # IMbnDeviceServicesEvents::OnOpenDataSessionComplete
@@ -60,7 +68,7 @@ Notification method indicating that a device service <b>OpenDataSession</b> requ
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
 
 
 ### -param status [in]

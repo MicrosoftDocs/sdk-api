@@ -7,7 +7,7 @@ old-location: multimedia\editstreampaste.htm
 tech.root: Multimedia
 ms.assetid: c3c77ec1-0aa4-47ab-afc1-ed69d6aca201
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EditStreamPaste, EditStreamPaste function [Windows Multimedia], _win32_EditStreamPaste, multimedia.editstreampaste, vfw/EditStreamPaste
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EditStreamPaste
+: 
 ---
 
 # EditStreamPaste function

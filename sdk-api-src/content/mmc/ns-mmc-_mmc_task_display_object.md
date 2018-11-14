@@ -9,8 +9,8 @@ ms.assetid: ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: MMC_TASK_DISPLAY_OBJECT, MMC_TASK_DISPLAY_OBJECT structure [MMC], _MMC_TASK_DISPLAY_OBJECT, _slate_mmc_task_display_object, mmc.mmc_task_display_object, mmc/MMC_TASK_DISPLAY_OBJECT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

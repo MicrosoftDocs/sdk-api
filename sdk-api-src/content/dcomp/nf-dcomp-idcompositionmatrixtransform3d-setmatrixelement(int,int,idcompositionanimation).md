@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionMatrixTransform3D.SetMatrixElement
+: 
 ---
 
 # IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation)

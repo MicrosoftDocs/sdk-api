@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1TransformedGeometry_GetSourceGeometry.htm
 tech.root: direct2d
 ms.assetid: 2e07c2e4-5f34-4949-bca1-92183652d2fb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: GetSourceGeometry, GetSourceGeometry method [Direct2D], GetSourceGeometry method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetSourceGeometry method, ID2D1TransformedGeometry.GetSourceGeometry, ID2D1TransformedGeometry::GetSourceGeometry, d2d1/ID2D1TransformedGeometry::GetSourceGeometry, direct2d.ID2D1TransformedGeometry_GetSourceGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1TransformedGeometry.GetSourceGeometry
+: 
 ---
 
 # ID2D1TransformedGeometry::GetSourceGeometry

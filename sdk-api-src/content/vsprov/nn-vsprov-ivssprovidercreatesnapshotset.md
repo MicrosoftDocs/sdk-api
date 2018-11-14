@@ -9,8 +9,8 @@ ms.assetid: 41a795f0-7882-47a3-9226-aa50218a56e9
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], IVssProviderCreateSnapshotSet interface [VSS],described, base.ivssprovidercreatesnapshotset, vsprov/IVssProviderCreateSnapshotSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 
@@ -132,7 +132,7 @@ Ensure the provider is ready to quickly commit the prepared LUNs.
 </td>
 <td align="left" width="63%">
 Called after the applications are unfrozen to allow the writers to 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> any components so 
+     <a href="vssgloss_a.htm">auto-recover</a> any components so 
      that they can be used when they are read-only.
 
 </td>

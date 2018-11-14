@@ -7,10 +7,10 @@ old-location: base\waitchain_node_info.htm
 tech.root: debug
 ms.assetid: 7a333924-79a3-4522-aa5a-4fc60690667d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: "*PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO structure pointer, WAITCHAIN_NODE_INFO, WAITCHAIN_NODE_INFO structure, WctAlpcType, WctComActivationType, WctComType, WctCriticalSectionType, WctMutexType, WctProcessWaitType, WctSendMessageType, WctStatusAbandoned, WctStatusBlocked, WctStatusError, WctStatusNoAccess, WctStatusNotOwned, WctStatusOwned, WctStatusPidOnly, WctStatusPidOnlyRpcss, WctStatusRunning, WctStatusUnknown, WctThreadType, WctThreadWaitType, WctUnknownType, _WAITCHAIN_NODE_INFO, base.waitchain_node_info, wct/PWAITCHAIN_NODE_INFO, wct/WAITCHAIN_NODE_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wct.h
 req.include-header: 

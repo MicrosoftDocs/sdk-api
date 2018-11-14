@@ -7,7 +7,7 @@ old-location: multimedia\closedriver.htm
 tech.root: Multimedia
 ms.assetid: 47d5c666-614d-4836-8e7d-0fe6b53d399f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: CloseDriver, CloseDriver function [Windows Multimedia], _win32_CloseDriver, mmsystem/CloseDriver, multimedia.closedriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CloseDriver
+: 
 ---
 
 # CloseDriver function

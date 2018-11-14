@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_2.h
+: 
+- IDWriteTextRenderer1.DrawGlyphRun
+: 
 ---
 
 # IDWriteTextRenderer1::DrawGlyphRun

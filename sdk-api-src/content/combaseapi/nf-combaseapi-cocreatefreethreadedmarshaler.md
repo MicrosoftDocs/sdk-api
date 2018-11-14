@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CoCreateFreeThreadedMarshaler
+: 
 ---
 
 # CoCreateFreeThreadedMarshaler function
@@ -65,7 +71,7 @@ Creates an aggregatable object capable of context-dependent marshaling.
 
 ### -param punkOuter [in]
 
-A pointer to the aggregating object's controlling <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>.
+A pointer to the aggregating object's controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>.
 
 
 ### -param ppunkMarshal [out]
@@ -115,17 +121,17 @@ The <b>CoCreateFreeThreadedMarshaler</b> function performs the following tasks:
 <li>Creates a free-threaded marshaler object.</li>
 <li>Aggregates this marshaler to the object specified by the <i>punkOuter</i> parameter. This object is normally the one whose interface pointers are to be marshaled.</li>
 </ol>
-The aggregating object's implementation of <a href="https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx">IMarshal</a> should delegate <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> calls for IID_IMarshal to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> of the free-threaded marshaler. Upon receiving a call, the free-threaded marshaler performs the following tasks: 
+The aggregating object's implementation of <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> should delegate <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> calls for IID_IMarshal to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the free-threaded marshaler. Upon receiving a call, the free-threaded marshaler performs the following tasks: 
 
 
 
 <ol>
-<li>Checks the destination context specified by the <a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a> function's <i>dwDestContext</i> parameter.</li>
+<li>Checks the destination context specified by the <a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a> function's <i>dwDestContext</i> parameter.</li>
 <li>If the destination context is MSHCTX_INPROC, copies the interface pointer into the marshaling stream.</li>
 <li>If the destination context is any other value, finds or creates an instance of COM's default (standard) marshaler and delegates marshaling to it.
 </li>
 </ol>
-Values for <i>dwDestContext</i> come from the <a href="https://msdn.microsoft.com/en-us/library/ms693446(v=VS.85).aspx">MSHCTX</a> enumeration. MSHCTX_INPROC indicates that the interface pointer is to be marshaled between different threads in the same process. Because both threads have access to the same address space, the client thread can dereference the pointer directly rather than having to direct calls to a proxy. In all other cases, a proxy is required, so <b>CoCreateFreeThreadedMarshaler</b> delegates the marshaling job to COM's default implementation.
+Values for <i>dwDestContext</i> come from the <a href="https://msdn.microsoft.com/d7d09ab2-96e7-48da-9292-0e4ca6cebe64">MSHCTX</a> enumeration. MSHCTX_INPROC indicates that the interface pointer is to be marshaled between different threads in the same process. Because both threads have access to the same address space, the client thread can dereference the pointer directly rather than having to direct calls to a proxy. In all other cases, a proxy is required, so <b>CoCreateFreeThreadedMarshaler</b> delegates the marshaling job to COM's default implementation.
 
 
 
@@ -145,11 +151,11 @@ Great care should be exercised in using the <b>CoCreateFreeThreadedMarshaler</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691421(v=VS.85).aspx">CoGetInterfaceAndReleaseStream</a>
+<a href="https://msdn.microsoft.com/b529f65f-3208-4594-a772-d1cad3727dc1">CoGetInterfaceAndReleaseStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693316(v=VS.85).aspx">CoMarshalInterThreadInterfaceInStream</a>
+<a href="https://msdn.microsoft.com/c9ab8713-8604-4f0b-a11b-bdfb7d595d95">CoMarshalInterThreadInterfaceInStream</a>
  
 
  

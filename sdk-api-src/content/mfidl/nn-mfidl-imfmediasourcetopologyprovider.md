@@ -9,8 +9,8 @@ ms.assetid: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], IMFMediaSourceTopologyProvider interface [Media Foundation],described, mf.imfmediasourcetopologyprovider, mfidl/IMFMediaSourceTopologyProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

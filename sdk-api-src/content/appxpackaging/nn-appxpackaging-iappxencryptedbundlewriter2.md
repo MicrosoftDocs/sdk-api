@@ -9,8 +9,8 @@ ms.assetid: 357D7166-C115-4F32-AE8B-AA31018F700C
 ms.author: windowssdkdev
 ms.date: 09/28/2018
 ms.keywords: IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], IAppxEncryptedBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter2, appxpkg.iappxencryptedbundlewriter2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

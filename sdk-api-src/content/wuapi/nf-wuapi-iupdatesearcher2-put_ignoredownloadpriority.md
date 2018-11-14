@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateSearcher2.put_IgnoreDownloadPriority
+: 
 ---
 
 # IUpdateSearcher2::put_IgnoreDownloadPriority

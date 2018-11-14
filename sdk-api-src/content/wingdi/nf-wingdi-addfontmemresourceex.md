@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AddFontMemResourceEx
+: 
 ---
 
 # AddFontMemResourceEx function
@@ -127,7 +133,7 @@ When the function succeeds, the caller of this function can free the memory poin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

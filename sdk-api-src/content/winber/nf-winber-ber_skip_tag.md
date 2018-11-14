@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ber_skip_tag
+: 
 ---
 
 # ber_skip_tag function

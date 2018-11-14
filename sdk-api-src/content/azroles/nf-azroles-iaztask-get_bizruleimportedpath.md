@@ -4,10 +4,10 @@ title: IAzTask::get_BizRuleImportedPath
 author: windows-sdk-content
 description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported.
 old-location: security\iaztask_bizruleimportedpath.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 52422e14-4a96-455d-ad35-b8816871ee10
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AzTask object [Security],BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],AzTask object, BizRuleImportedPath property [Security],IAzTask interface, IAzTask interface [Security],BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask.get_BizRuleImportedPath, IAzTask::BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iaztask_bizruleimportedpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzTask.get_BizRuleImportedPath
+: 
 ---
 
 # IAzTask::get_BizRuleImportedPath
@@ -77,15 +85,15 @@ The maximum length of this property is 512 characters.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378378(v=VS.85).aspx">BizRule</a>
+<a href="https://msdn.microsoft.com/cf3d87af-5320-4fe0-b513-e242f8a1dd1b">BizRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378380(v=VS.85).aspx">BizRuleLanguage</a>
+<a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a>
+<a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>
  
 
  

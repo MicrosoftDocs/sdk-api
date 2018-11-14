@@ -9,8 +9,8 @@ ms.assetid: d2eed88b-9a01-4205-a35d-92a24e07a1e2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IEnumCallingCard, IEnumCallingCard interface [TAPI 2.2], IEnumCallingCard interface [TAPI 2.2],described, _tapi3_ienumcallingcard, tapi3.ienumcallingcard, tapi3if/IEnumCallingCard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

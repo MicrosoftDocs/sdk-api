@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrStubGetBuffer
+: 
 ---
 
 # NdrStubGetBuffer function
@@ -87,11 +93,11 @@ This function has no return value. Throws an exception upon error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>
+<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>
+<a href="_com_irpcstubbuffer">IRpcStubBuffer</a>
  
 
  

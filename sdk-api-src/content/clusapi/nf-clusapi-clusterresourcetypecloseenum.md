@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcetypecloseenum.htm
 tech.root: mscs
 ms.assetid: c6524604-7a73-414c-95bb-dce9524f3295
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterResourceTypeCloseEnum, ClusterResourceTypeCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM function [Failover Cluster], _wolf_clusterresourcetypecloseenum, clusapi/ClusterResourceTypeCloseEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, mscs.clusterresourcetypecloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterResourceTypeCloseEnum
+: 
 ---
 
 # ClusterResourceTypeCloseEnum function
@@ -53,7 +59,7 @@ req.redist:
 ## -description
 
 
-Closes a <a href="https://msdn.microsoft.com/en-us/library/Aa372279(v=VS.85).aspx">resource type</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM</b> type defines a pointer to this function.
+Closes a <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -73,7 +79,7 @@ Enumeration handle to be closed.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

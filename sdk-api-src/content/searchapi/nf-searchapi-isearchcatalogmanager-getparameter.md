@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- searchapi.h
+: 
+- ISearchCatalogManager.GetParameter
+: 
 ---
 
 # ISearchCatalogManager::GetParameter
@@ -68,7 +76,7 @@ The name of the parameter to be retrieved.
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>**</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>**</b>
 
 Receives a pointer to the value of the parameter. 
                 

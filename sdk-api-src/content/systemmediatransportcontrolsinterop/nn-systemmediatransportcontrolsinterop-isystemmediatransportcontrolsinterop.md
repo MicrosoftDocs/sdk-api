@@ -9,8 +9,8 @@ ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 

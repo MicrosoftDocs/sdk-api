@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- IKsTopologyInfo.get_NumCategories
+: 
 ---
 
 # IKsTopologyInfo::get_NumCategories

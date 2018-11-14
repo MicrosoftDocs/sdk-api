@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shimgdata.h
+: 
+- IShellImageData.GetPixelFormat
+: 
 ---
 
 # IShellImageData::GetPixelFormat
@@ -62,7 +70,7 @@ Gets the pixel format of the image.
 
 Type: <b>PixelFormat*</b>
 
-A pointer to a value of type <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a value of type <a href="_gdiplus_CONSTANT_Image_Pixel_Format_Constants">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
 
 
 ## -returns

@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMLanguageList.AddLanguageByRFC1766String
+: 
 ---
 
 # IWMLanguageList::AddLanguageByRFC1766String

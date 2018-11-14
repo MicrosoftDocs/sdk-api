@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDeviceManager2.EnumDevices2
+: 
 ---
 
 # IWMDeviceManager2::EnumDevices2

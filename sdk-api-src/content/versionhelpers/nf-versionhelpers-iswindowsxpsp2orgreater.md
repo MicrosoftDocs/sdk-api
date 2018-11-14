@@ -4,10 +4,10 @@ title: IsWindowsXPSP2OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 2 (SP2) version.
 old-location: base\iswindowsxpsp2orgreater.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: DA957BA8-AD28-4096-8BE5-B77CA55B9324
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IsWindowsXPSP2OrGreater, IsWindowsXPSP2OrGreater function, base.iswindowsxpsp2orgreater, versionhelpers/IsWindowsXPSP2OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsWindowsXPSP2OrGreater
+: 
 ---
 
 # IsWindowsXPSP2OrGreater function

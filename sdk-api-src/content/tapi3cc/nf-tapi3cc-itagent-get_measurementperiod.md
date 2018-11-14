@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3cc.h
+: 
+- ITAgent.get_MeasurementPeriod
+: 
 ---
 
 # ITAgent::get_MeasurementPeriod

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspInformation.get_CspAlgorithms
+: 
 ---
 
 # ICspInformation::get_CspAlgorithms
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>CspAlgorithms</b> property retrieves a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> interfaces that contain information about the algorithms supported by the provider. This property is web enabled.
+The <b>CspAlgorithms</b> property retrieves a collection of <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> interfaces that contain information about the algorithms supported by the provider. This property is web enabled.
 
 This property is read-only.
 
@@ -63,7 +71,7 @@ This property is read-only.
 
 
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> object contains information about the cryptographic algorithms supported by the provider. This includes the algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID), the permitted key lengths and incremental lengths, the algorithm name and abbreviated name, and a Boolean value that specifies whether the algorithm OID object is valid.
+An <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> object contains information about the cryptographic algorithms supported by the provider. This includes the algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID), the permitted key lengths and incremental lengths, the algorithm name and abbreviated name, and a Boolean value that specifies whether the algorithm OID object is valid.
 
 
 
@@ -73,7 +81,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICs
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

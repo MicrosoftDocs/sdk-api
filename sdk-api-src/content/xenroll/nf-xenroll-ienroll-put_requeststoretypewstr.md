@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll.put_RequestStoreTypeWStr
+: 
 ---
 
 # IEnroll::put_RequestStoreTypeWStr

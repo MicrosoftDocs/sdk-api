@@ -9,8 +9,8 @@ ms.assetid: BEC58B57-66A1-4645-A0B8-D546334E1E23
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionRotateTransform3D, IDCompositionRotateTransform3D interface [DirectComposition], IDCompositionRotateTransform3D interface [DirectComposition],described, dcomp/IDCompositionRotateTransform3D, directcomp.idcompositionrotatetransform3d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -133,11 +133,11 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 
 A 3D rotate transform represents the following 4-by-4 matrix:
 
-<img alt="Four-by-four 3D rotate transformation matrix" src="./images/3D_rotate_transform_4x4matrix.png"/>
+<img alt="Four-by-four 3D rotate transformation matrix" src="images/3D_rotate_transform_4x4matrix.png"/>
 
 where the <i>offsetX</i>, <i>offsetY</i>, and <i>offsetZ</i> values of the matrix are the following: 
 
-<img alt="Values of the four-by-four 3D rotate transformation matrix" src="./images/3D_rotate_transform_matrix_values.png"/>
+<img alt="Values of the four-by-four 3D rotate transformation matrix" src="images/3D_rotate_transform_matrix_values.png"/>
 
 The effect is to rotate the coordinate system clockwise or counter-clockwise around the specified axis, and to apply the corresponding translation such that the center point does not move.
 

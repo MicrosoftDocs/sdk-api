@@ -4,13 +4,13 @@ title: "_FILETIME"
 author: windows-sdk-content
 description: Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 old-location: base\filetime_str.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 9baf8a0e-59e3-4fbd-9616-2ec9161520d1
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, PFILETIME structure pointer, _FILETIME, _win32_filetime_str, base.filetime_str, minwinbase/FILETIME, minwinbase/PFILETIME"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

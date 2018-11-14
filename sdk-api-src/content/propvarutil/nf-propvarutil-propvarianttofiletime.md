@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantToFileTime
+: 
 ---
 
 # PropVariantToFileTime function
@@ -116,7 +122,7 @@ The source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToFileTime">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -155,19 +161,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
+<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a>
+<a href="shell.PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
+<a href="shell.VariantToFileTime">VariantToFileTime</a>
  
 
  

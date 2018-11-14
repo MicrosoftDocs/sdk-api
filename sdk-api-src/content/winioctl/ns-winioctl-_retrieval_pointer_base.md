@@ -9,8 +9,8 @@ ms.assetid: e0a779fb-6c46-4831-95dc-968e17f86a81
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE structure pointer [Files], RETRIEVAL_POINTER_BASE, RETRIEVAL_POINTER_BASE structure [Files], _RETRIEVAL_POINTER_BASE, fs.retrieval_pointer_base, winioctl/PRETRIEVAL_POINTER_BASE, winioctl/RETRIEVAL_POINTER_BASE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

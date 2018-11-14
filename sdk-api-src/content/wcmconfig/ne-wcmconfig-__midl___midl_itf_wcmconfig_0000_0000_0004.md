@@ -9,8 +9,8 @@ ms.assetid: e7dbe536-778a-445c-929b-56e490fdeffb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0004, settingTypeComplex, settingTypeList, settingTypeScalar, smi.wcmsettingtype, wcmconfig/WcmSettingType, wcmconfig/settingTypeComplex, wcmconfig/settingTypeList, wcmconfig/settingTypeScalar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

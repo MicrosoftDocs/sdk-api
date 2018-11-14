@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509PrivateKey.put_ExportPolicy
+: 
 ---
 
 # IX509PrivateKey::put_ExportPolicy
@@ -65,7 +73,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

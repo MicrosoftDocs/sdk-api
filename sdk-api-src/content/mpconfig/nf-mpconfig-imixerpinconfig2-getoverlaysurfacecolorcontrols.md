@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mpconfig.h
+: 
+- IMixerPinConfig2.GetOverlaySurfaceColorControls
+: 
 ---
 
 # IMixerPinConfig2::GetOverlaySurfaceColorControls

@@ -7,7 +7,7 @@ old-location: multimedia\mixergetcontroldetails.htm
 tech.root: Multimedia
 ms.assetid: b1fdd9e7-42cf-41fb-99f7-b7da990e5881
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetControlDetails function [Windows Multimedia], mixerGetControlDetailsA, mixerGetControlDetailsW, mmsystem/mixerGetControlDetails, mmsystem/mixerGetControlDetailsA, mmsystem/mixerGetControlDetailsW, multimedia.mixergetcontroldetails"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mixerGetControlDetails
+: 
 ---
 
 # mixerGetControlDetails function

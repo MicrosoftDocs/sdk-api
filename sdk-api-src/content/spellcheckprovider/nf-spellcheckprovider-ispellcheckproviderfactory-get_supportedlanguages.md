@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- spellcheckprovider.h
+: 
+- ISpellCheckProviderFactory.get_SupportedLanguages
+: 
 ---
 
 # ISpellCheckProviderFactory::get_SupportedLanguages

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vidcap.h
+: 
+- IVideoProcAmp.get_Saturation
+: 
 ---
 
 # IVideoProcAmp::get_Saturation

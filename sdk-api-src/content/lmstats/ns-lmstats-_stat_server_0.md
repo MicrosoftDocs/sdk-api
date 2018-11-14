@@ -9,8 +9,8 @@ ms.assetid: 7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPSTAT_SERVER_0, *PSTAT_SERVER_0, LPSTAT_SERVER_0, LPSTAT_SERVER_0 structure pointer [Files], PSTAT_SERVER_0, PSTAT_SERVER_0 structure pointer [Files], STAT_SERVER_0, STAT_SERVER_0 structure [Files], _STAT_SERVER_0, _win32_stat_server_0_str, fs.stat_server_0_str, lmstats/LPSTAT_SERVER_0, lmstats/PSTAT_SERVER_0, lmstats/STAT_SERVER_0, netmgmt.stat_server_0_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmstats.h
 req.include-header: Lm.h

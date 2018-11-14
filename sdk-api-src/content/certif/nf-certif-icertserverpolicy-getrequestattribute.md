@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certif.h
+: 
+- ICertServerPolicy.GetRequestAttribute
+: 
 ---
 
 # ICertServerPolicy::GetRequestAttribute
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>GetRequestAttribute</b> method returns a named <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">attribute</a> from a request.
+The <b>GetRequestAttribute</b> method returns a named <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attribute</a> from a request.
 
 
 ## -parameters
@@ -78,9 +86,9 @@ A pointer to a <b>BSTR</b> value that will contain the attribute value.
 
 To use this method, create a variable of type <b>BSTR</b>, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrAttributeValue</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the attribute value.
@@ -93,7 +101,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a> prior to using this method.
 
 The following request attributes are unique to KEYGEN style requests.
 
@@ -160,11 +168,11 @@ if (NULL != bstrAttribValue)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a>
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a>
  
 
  

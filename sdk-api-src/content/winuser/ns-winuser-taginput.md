@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPINPUT, *PINPUT, INPUT, INPUT structure [Keyboard and Mouse Input], INPUT_HARDWARE, INPUT_KEYBOARD, INPUT_MOUSE, PINPUT, PINPUT structure pointer [Keyboard and Mouse Input], _win32_INPUT_str, _win32_input_str_cpp, inputdev.input, tagINPUT, winui._win32_input_str, winuser/INPUT, winuser/PINPUT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> to store information for synthesizing input events such as keystrokes, mouse movement, and mouse clicks.
+Used by <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> to store information for synthesizing input events such as keystrokes, mouse movement, and mouse clicks.
 
 
 ## -struct-fields
@@ -113,21 +113,21 @@ The event is a hardware event. Use the <b>hi</b> structure of the union.
 
 ### -field DUMMYUNIONNAME.mi
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms646273(v=VS.85).aspx">MOUSEINPUT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2b60fefc-88f2-4097-a3c9-38fbe42c5907">MOUSEINPUT</a></b>
 
 The information about a simulated mouse event. 
 
 
 ### -field DUMMYUNIONNAME.ki
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms646271(v=VS.85).aspx">KEYBDINPUT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/01e8a5a4-a66d-46ae-901e-1858df36573e">KEYBDINPUT</a></b>
 
 The information about a simulated keyboard event. 
 
 
 ### -field DUMMYUNIONNAME.hi
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms646269(v=VS.85).aspx">HARDWAREINPUT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/d39d7c0e-4561-4dfe-b0a2-103c50bb5a87">HARDWAREINPUT</a></b>
 
 The information about a simulated hardware event. 
 
@@ -136,7 +136,7 @@ The information about a simulated hardware event.
 
 
 
-<b> INPUT_KEYBOARD</b> supports nonkeyboard input methods, such as handwriting recognition or voice recognition, as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. For more information, see the remarks section of <a href="https://msdn.microsoft.com/en-us/library/ms646271(v=VS.85).aspx">KEYBDINPUT</a>.
+<b> INPUT_KEYBOARD</b> supports nonkeyboard input methods, such as handwriting recognition or voice recognition, as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. For more information, see the remarks section of <a href="https://msdn.microsoft.com/01e8a5a4-a66d-46ae-901e-1858df36573e">KEYBDINPUT</a>.
 
 
 
@@ -150,23 +150,23 @@ The information about a simulated hardware event.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a>
+<a href="https://msdn.microsoft.com/c2b978b4-165b-44a0-8091-580e82f7e310">GetMessageExtraInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646269(v=VS.85).aspx">HARDWAREINPUT</a>
+<a href="https://msdn.microsoft.com/d39d7c0e-4561-4dfe-b0a2-103c50bb5a87">HARDWAREINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646271(v=VS.85).aspx">KEYBDINPUT</a>
+<a href="https://msdn.microsoft.com/01e8a5a4-a66d-46ae-901e-1858df36573e">KEYBDINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646273(v=VS.85).aspx">MOUSEINPUT</a>
+<a href="https://msdn.microsoft.com/2b60fefc-88f2-4097-a3c9-38fbe42c5907">MOUSEINPUT</a>
 
 
 
@@ -174,15 +174,15 @@ The information about a simulated hardware event.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a>
+<a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx">keybd_event</a>
+<a href="https://msdn.microsoft.com/6cd3c849-ab5f-461d-ae9d-a663bfea62e3">keybd_event</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx">mouse_event</a>
+<a href="https://msdn.microsoft.com/532a69b5-402d-41d3-8eee-ab1d2e621c92">mouse_event</a>
  
 
  

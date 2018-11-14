@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement5.get_CurrentLocalizedLandmarkType
+: 
 ---
 
 # IUIAutomationElement5::get_CurrentLocalizedLandmarkType
@@ -64,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt798233(v=VS.85).aspx">IUIAutomationElement5</a>
+<a href="winauto.iuiautomationelement5">IUIAutomationElement5</a>
  
 
  

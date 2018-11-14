@@ -47,6 +47,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CoRegisterClassObject
+: 
 ---
 
 # CoRegisterClassObject function
@@ -70,7 +76,7 @@ The CLSID to be registered.
 
 ### -param pUnk [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the class object whose availability is being published.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the class object whose availability is being published.
 
 
 ### -param dwClsContext [in]
@@ -80,12 +86,12 @@ The context in which the executable code is to be run. For information on these 
 
 ### -param flags [in]
 
-Indicates how connections are made to the class object. For information on these flags, see the <a href="https://msdn.microsoft.com/en-us/library/ms679697(v=VS.85).aspx">REGCLS</a> enumeration.
+Indicates how connections are made to the class object. For information on these flags, see the <a href="https://msdn.microsoft.com/16bca8e0-9999-4d51-b7f0-87deb7619d89">REGCLS</a> enumeration.
 
 
 ### -param lpdwRegister [out]
 
-A pointer to a value that identifies the class object registered; later used by the <a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a> function to revoke the registration.
+A pointer to a value that identifies the class object registered; later used by the <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a> function to revoke the registration.
 
 
 ## -returns
@@ -121,15 +127,15 @@ The class object was registered successfully.
 
 
 EXE object applications should call <b>CoRegisterClassObject</b> on startup. It can also be used to register internal objects for use by the same EXE or other code (such as DLLs) that the EXE uses.
-Only EXE object applications call <b>CoRegisterClassObject</b>. Object handlers or DLL object applications do not call this function — instead, they must implement and export the <a href="https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx">DllGetClassObject</a> function.
+Only EXE object applications call <b>CoRegisterClassObject</b>. Object handlers or DLL object applications do not call this function — instead, they must implement and export the <a href="https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c">DllGetClassObject</a> function.
 
-At startup, a multiple-use EXE object application must create a class object (with the <a href="https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx">IClassFactory</a> interface on it), and call <b>CoRegisterClassObject</b> to register the class object. Object applications that support several different classes (such as multiple types of embeddable objects) must allocate and register a different class object for each.
+At startup, a multiple-use EXE object application must create a class object (with the <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> interface on it), and call <b>CoRegisterClassObject</b> to register the class object. Object applications that support several different classes (such as multiple types of embeddable objects) must allocate and register a different class object for each.
 
 Multiple registrations of the same class object are independent and do not produce an error. Each subsequent registration yields a unique key in <i>lpdwRegister</i>.
 
 Multiple document interface (MDI) applications must register their class objects. Single document interface (SDI) applications must register their class objects only if they can be started by means of the <b>/Embedding</b> switch.
 
-The server for a class object should call <a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a> to revoke the class object (remove its registration) when all of the following are true:
+The server for a class object should call <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a> to revoke the class object (remove its registration) when all of the following are true:
 
 <ul>
 <li>
@@ -145,11 +151,11 @@ The application providing services to the class object is not under user control
 
 </li>
 </ul>
-After the class object is revoked, when its reference count reaches zero, the class object can be released, allowing the application to exit. Note that <b>CoRegisterClassObject</b> calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> and <a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a> calls <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>, so the two functions form an <b>AddRef</b>/<b>Release</b> pair.
+After the class object is revoked, when its reference count reaches zero, the class object can be released, allowing the application to exit. Note that <b>CoRegisterClassObject</b> calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a> and <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a> calls <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a>, so the two functions form an <b>AddRef</b>/<b>Release</b> pair.
 
 
 
-As of Windows Server 2003, if a COM object application is registered as a service, COM verifies the registration. COM makes sure the process ID of the service, in the service control manager (SCM), matches the process ID of the registering process. If not, COM fails the registration. If the COM object application runs in the system account with no registry key, COM treats the objects application identity as <a href="https://msdn.microsoft.com/en-us/library/ms693789(v=VS.85).aspx">Launching User</a>.
+As of Windows Server 2003, if a COM object application is registered as a service, COM verifies the registration. COM makes sure the process ID of the service, in the service control manager (SCM), matches the process ID of the registering process. If not, COM fails the registration. If the COM object application runs in the system account with no registry key, COM treats the objects application identity as <a href="https://msdn.microsoft.com/ea5140b6-0a79-4149-b845-4f6388e89104">Launching User</a>.
 
 
 
@@ -163,19 +169,19 @@ As of Windows Server 2003, if a COM object application is registered as a servi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>
+<a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a>
+<a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx">DllGetClassObject</a>
+<a href="https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c">DllGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679697(v=VS.85).aspx">REGCLS</a>
+<a href="https://msdn.microsoft.com/16bca8e0-9999-4d51-b7f0-87deb7619d89">REGCLS</a>
  
 
  

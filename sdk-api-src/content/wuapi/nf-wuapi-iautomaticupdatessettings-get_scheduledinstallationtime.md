@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IAutomaticUpdatesSettings.get_ScheduledInstallationTime
+: 
 ---
 
 # IAutomaticUpdatesSettings::get_ScheduledInstallationTime

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- Edit_TakeFocus
+: 
 ---
 
 # Edit_TakeFocus macro
@@ -52,7 +60,7 @@ req.redist:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Forces a single-line edit control to receive keyboard focus. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Ee663617(v=VS.85).aspx">EM_TAKEFOCUS</a> message explicitly.
+Forces a single-line edit control to receive keyboard focus. You can use this macro or send the <a href="https://msdn.microsoft.com/27470857-4219-4426-bc69-e1271afc6ffb">EM_TAKEFOCUS</a> message explicitly.
 
 
 ## -parameters
@@ -62,7 +70,7 @@ Forces a single-line edit control to receive keyboard focus. You can use this ma
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the edit control.
 
@@ -71,9 +79,9 @@ A handle to the edit control.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee663617(v=VS.85).aspx">EM_TAKEFOCUS</a> message is ignored if the edit control is not a single-line edit control.
+The <a href="https://msdn.microsoft.com/27470857-4219-4426-bc69-e1271afc6ffb">EM_TAKEFOCUS</a> message is ignored if the edit control is not a single-line edit control.
 
-If the edit control previously received an <a href="https://msdn.microsoft.com/en-us/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a> message, the edit control will appear to have the focus without actually having it; otherwise, the edit control will receive focus.
+If the edit control previously received an <a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a> message, the edit control will appear to have the focus without actually having it; otherwise, the edit control will receive focus.
 
 
 
@@ -83,11 +91,11 @@ If the edit control previously received an <a href="https://msdn.microsoft.com/e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a>
+<a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee663617(v=VS.85).aspx">EM_TAKEFOCUS</a>
+<a href="https://msdn.microsoft.com/27470857-4219-4426-bc69-e1271afc6ffb">EM_TAKEFOCUS</a>
 
 
 

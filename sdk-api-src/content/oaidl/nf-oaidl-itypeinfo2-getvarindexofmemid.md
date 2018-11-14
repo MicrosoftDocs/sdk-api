@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- oaidl.h
+: 
+- ITypeInfo2.GetVarIndexOfMemId
+: 
 ---
 
 # ITypeInfo2::GetVarIndexOfMemId

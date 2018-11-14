@@ -9,8 +9,8 @@ ms.assetid: d65f06c9-fecd-4ce6-af82-81acb48268e5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ITCollection2, ITCollection2 interface [TAPI 2.2], ITCollection2 interface [TAPI 2.2],described, _tapi3_itcollection2, tapi3.itcollection2, tapi3if/ITCollection2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCollection2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITCollection2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCollection2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITCollection2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ Removes an item from the collection at the specified index.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

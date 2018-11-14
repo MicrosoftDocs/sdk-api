@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetBufferedPaintBits
+: 
 ---
 
 # GetBufferedPaintBits function
@@ -64,7 +70,7 @@ Retrieves a pointer to the buffer bitmap if the buffer is a device-independent b
 
 Type: <b>HPAINTBUFFER</b>
 
-The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ### -param ppbBuffer [out]
@@ -96,7 +102,7 @@ Returns S_OK if successful, or an error value otherwise. If an error occurs, <i>
 
 
 
-The number of bits per pixel depends on the pixel format passed to <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+The number of bits per pixel depends on the pixel format passed to <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 
@@ -106,7 +112,7 @@ The number of bits per pixel depends on the pixel format passed to <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a>
+<a href="https://msdn.microsoft.com/9D6666C4-06F0-4DE0-95FA-A18082A04448">BP_BUFFERFORMAT</a>
 
 
 

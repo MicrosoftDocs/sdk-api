@@ -9,8 +9,8 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\imilbitmapef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMILBitmapEffectGroup, IMILBitmapEffectGroup interface [WPF Bitmap Effects], IMILBitmapEffectGroup interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroup, mileffects/IMILBitmapEffectGroup, wibe._wibe_imilbitmapeffectgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 
@@ -70,7 +70,7 @@ The <b>IMILBitmapEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735288(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/87bd24bc-95d9-4a24-9b09-accf769ae4df">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an effect to the <b>IMILBitmapEffectGroup</b>.
@@ -79,7 +79,7 @@ Adds an effect to the <b>IMILBitmapEffectGroup</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735289(v=VS.85).aspx">GetInteriorInputConnector</a>
+<a href="https://msdn.microsoft.com/322621d7-8bea-42af-a098-9b70dfd4ea52">GetInteriorInputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input connector for an effect at the given index.
@@ -88,7 +88,7 @@ Retrieves the input connector for an effect at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735290(v=VS.85).aspx">GetInteriorOutputConnector</a>
+<a href="https://msdn.microsoft.com/bdd16788-551d-4db2-9175-4962e0f9310c">GetInteriorOutputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output connector for an effect at the given index.

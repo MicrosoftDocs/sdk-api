@@ -9,8 +9,8 @@ ms.assetid: e117f103-5136-4dbb-87a0-9fb41d43a924
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_FLAG, EXPAND_VIRTUAL_DISK_FLAG enumeration [VHD], EXPAND_VIRTUAL_DISK_FLAG_NONE, _EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG_NONE, vhd.expand_virtual_disk_flag, virtdisk/EXPAND_VIRTUAL_DISK_FLAG, virtdisk/EXPAND_VIRTUAL_DISK_FLAG_NONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 

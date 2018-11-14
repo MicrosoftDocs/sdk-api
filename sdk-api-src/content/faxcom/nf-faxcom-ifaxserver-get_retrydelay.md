@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcom.h
+: 
+- IFaxServer.get_RetryDelay
+: 
 ---
 
 # IFaxServer::get_RetryDelay

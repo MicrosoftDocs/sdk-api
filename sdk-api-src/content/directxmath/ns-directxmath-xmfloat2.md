@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 structure [DirectX Math Support APIs], directxmath/XMFLOAT2, dxmath.xmfloat2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 

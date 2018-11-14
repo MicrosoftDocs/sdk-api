@@ -9,8 +9,8 @@ ms.assetid: 34c85ecf-1eb4-4f0d-a081-4b9feeb8dd15
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], HTTP_BANDWIDTH_LIMIT_INFO, HTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], _HTTP_BANDWIDTH_LIMIT_INFO, http.http_bandwidth_limit_info, http/*PHTTP_BANDWIDTH_LIMIT_INFO, http/HTTP_BANDWIDTH_LIMIT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

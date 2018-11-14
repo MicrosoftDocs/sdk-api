@@ -9,8 +9,8 @@ ms.assetid: a3090e6f-1f80-4d67-b7d7-1165486dcc66
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SECURITY_HEADER_LAYOUT, WS_SECURITY_HEADER_LAYOUT enumeration [Web Services for Windows], WS_SECURITY_HEADER_LAYOUT_LAX, WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST, WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST, WS_SECURITY_HEADER_LAYOUT_STRICT, webservices/WS_SECURITY_HEADER_LAYOUT, webservices/WS_SECURITY_HEADER_LAYOUT_LAX, webservices/WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST, webservices/WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST, webservices/WS_SECURITY_HEADER_LAYOUT_STRICT, wsw.ws_security_header_layout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

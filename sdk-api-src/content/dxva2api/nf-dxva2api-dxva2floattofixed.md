@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DXVA2FloatToFixed
+: 
 ---
 
 # DXVA2FloatToFixed function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskSettings.get_Enabled
+: 
 ---
 
 # ITaskSettings::get_Enabled

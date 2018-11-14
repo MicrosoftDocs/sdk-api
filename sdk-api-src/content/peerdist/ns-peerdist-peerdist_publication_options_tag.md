@@ -9,8 +9,8 @@ ms.assetid: 990b6551-eaf6-47f7-bc35-ea91820f917b
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking], PPEERDIST_PUBLICATION_OPTIONS, PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking], p2p.peerdist_publication_options, peerdist/PEERDIST_PUBLICATION_OPTIONS, peerdist/PPEERDIST_PUBLICATION_OPTIONS, peerdist_publication_options_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: peerdist.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: b1eb5782-13e3-4cbb-8c37-ce7219d1e838
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfComposition, ITfComposition interface [Text Services Framework], ITfComposition interface [Text Services Framework],described, _tsf_itfcomposition_ref, msctf/ITfComposition, tsf.itfcomposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -121,7 +121,7 @@ Moves the start anchor of a composition.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

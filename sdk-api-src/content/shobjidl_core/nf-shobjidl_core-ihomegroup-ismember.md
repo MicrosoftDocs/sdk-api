@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IHomeGroup.IsMember
+: 
 ---
 
 # IHomeGroup::IsMember
@@ -123,7 +131,7 @@ hr = spHomeGroup-&gt;IsMember(&amp;fIsHGMember);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a>
+<a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a>
 
 
 

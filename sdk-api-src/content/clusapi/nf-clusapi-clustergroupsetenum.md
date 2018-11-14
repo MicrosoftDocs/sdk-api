@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectionenum.htm
 tech.root: mscs
 ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: ClusterGroupCollectionEnum, ClusterGroupCollectionEnum function [Failover Cluster], ClusterGroupSetEnum, clusapi/ClusterGroupCollectionEnum, mscs.clustergroupcollectionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClusterGroupSetEnum
+: 
 ---
 
 # ClusterGroupSetEnum function
@@ -93,7 +99,7 @@ Points to a variable that specifies the size, in characters,
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

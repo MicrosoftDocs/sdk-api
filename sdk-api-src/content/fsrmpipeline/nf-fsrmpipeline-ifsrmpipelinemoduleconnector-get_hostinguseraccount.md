@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmPipelineModuleConnector.get_HostingUserAccount
+: 
 ---
 
 # IFsrmPipelineModuleConnector::get_HostingUserAccount

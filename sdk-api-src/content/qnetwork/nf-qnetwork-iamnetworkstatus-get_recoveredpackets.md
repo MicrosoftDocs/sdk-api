@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMNetworkStatus.get_RecoveredPackets
+: 
 ---
 
 # IAMNetworkStatus::get_RecoveredPackets

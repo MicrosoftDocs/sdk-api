@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shdeprecated.h
+: 
+- IExpDispSupportXP.OnTranslateAccelerator
+: 
 ---
 
 # IExpDispSupportXP::OnTranslateAccelerator
@@ -60,7 +68,7 @@ Not implemented.
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
 
 Specifies a pointer to the MSG structure describing the keystroke to be processed.
 

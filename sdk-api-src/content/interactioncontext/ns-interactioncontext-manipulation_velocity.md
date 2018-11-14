@@ -9,8 +9,8 @@ ms.assetid: fe7ef0b7-52f6-4171-8ecf-7bc8db7c7a48
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: MANIPULATION_VELOCITY, MANIPULATION_VELOCITY structure, input_intcontext.manipulation_velocity, interactioncontext.manipulation_velocity, interactioncontext/MANIPULATION_VELOCITY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

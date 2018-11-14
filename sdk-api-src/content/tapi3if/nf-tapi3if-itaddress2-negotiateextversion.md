@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAddress2.NegotiateExtVersion
+: 
 ---
 
 # ITAddress2::NegotiateExtVersion

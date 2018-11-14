@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite_1.h
+: 
+- IDWriteTextAnalyzer1.GetBaseline
+: 
 ---
 
 # IDWriteTextAnalyzer1::GetBaseline

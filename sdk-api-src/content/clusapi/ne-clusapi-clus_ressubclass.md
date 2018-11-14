@@ -7,10 +7,10 @@ old-location: mscs\clus_ressubclass.htm
 tech.root: mscs
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: CLUS_RESSUBCLASS, CLUS_RESSUBCLASS enumeration [Failover Cluster], CLUS_RESSUBCLASS_SHARED, _CLUS_RESSUBCLASS, _CLUS_RESSUBCLASS enumeration [Failover Cluster], clusapi/CLUS_RESSUBCLASS, clusapi/CLUS_RESSUBCLASS_SHARED, clusapi/_CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS_SHARED, msclus/_CLUS_RESSUBCLASS, mscs.clus_ressubclass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
@@ -62,10 +62,10 @@ Identifies a resource subclass that manages a shared resource.
 ### -field CLUS_RESSUBCLASS_SHARED
 
 Identifies a resource subclass that manages a shared resource, such as a disk on a shared SCSI bus. The 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369016(v=VS.85).aspx">ClusterResourceControl</a> function with the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa367467(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
+      <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> function with the 
+      <a href="https://msdn.microsoft.com/4c4f8809-d6eb-43e1-a09e-cfe3770a1fd4">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
       control code can retrieve a 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369187(v=VS.85).aspx">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
+      <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
       this information.
 
 
@@ -74,15 +74,15 @@ Identifies a resource subclass that manages a shared resource, such as a disk on
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367467(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/4c4f8809-d6eb-43e1-a09e-cfe3770a1fd4">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369187(v=VS.85).aspx">CLUS_RESOURCE_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369016(v=VS.85).aspx">ClusterResourceControl</a>
+<a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a>
  
 
  

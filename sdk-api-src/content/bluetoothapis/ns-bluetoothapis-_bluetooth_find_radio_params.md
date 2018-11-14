@@ -9,8 +9,8 @@ ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BLUETOOTH_FIND_RADIO_PARAMS, BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth], _BLUETOOTH_FIND_RADIO_PARAMS, bluetooth.bluetooth_find_radio_params, bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -68,11 +68,11 @@ Size of the <b>BLUETOOTH_FIND_RADIO_PARAMS</b> structure, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a>
+<a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362790(v=VS.85).aspx">BluetoothFindNextRadio</a>
+<a href="https://msdn.microsoft.com/7dd6b823-f9c6-4375-80b6-d59c4570c8fb">BluetoothFindNextRadio</a>
  
 
  

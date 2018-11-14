@@ -9,8 +9,8 @@ ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

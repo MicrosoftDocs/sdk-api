@@ -9,8 +9,8 @@ ms.assetid: 5aa13072-239a-41b6-a0b6-a2729bab2db4
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: MFP_CREDENTIAL_CLEAR_TEXT, MFP_CREDENTIAL_DO_NOT_CACHE, MFP_CREDENTIAL_LOGGED_ON_USER, MFP_CREDENTIAL_PROMPT, MFP_CREDENTIAL_PROXY, MFP_CREDENTIAL_SAVE, _MFP_CREDENTIAL_FLAGS, _MFP_CREDENTIAL_FLAGS enumeration [Media Foundation], mf._mfp_credential_flags, mfplay/MFP_CREDENTIAL_CLEAR_TEXT, mfplay/MFP_CREDENTIAL_DO_NOT_CACHE, mfplay/MFP_CREDENTIAL_LOGGED_ON_USER, mfplay/MFP_CREDENTIAL_PROMPT, mfplay/MFP_CREDENTIAL_PROXY, mfplay/MFP_CREDENTIAL_SAVE, mfplay/_MFP_CREDENTIAL_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 

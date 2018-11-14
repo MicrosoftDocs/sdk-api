@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_ConditionalAccess.InformUIClosed
+: 
 ---
 
 # IBDA_ConditionalAccess::InformUIClosed
@@ -65,7 +73,7 @@ Specifies the dialog number.
 
 ### -param CloseReason [in]
 
-Specifies the reason for closing the dialog, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd695335(v=VS.85).aspx">UICloseReasonType</a> enumeration.
+Specifies the reason for closing the dialog, as a member of the <a href="https://msdn.microsoft.com/ed609bf8-9675-40bc-a789-c98cbc96e45f">UICloseReasonType</a> enumeration.
           
 
 
@@ -83,7 +91,7 @@ If the method succeeds, it returns <b>S_OK</b>. It returns <b>S_FALSE</b> if a d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

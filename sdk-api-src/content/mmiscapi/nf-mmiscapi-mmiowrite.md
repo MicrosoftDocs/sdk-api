@@ -7,7 +7,7 @@ old-location: multimedia\mmiowrite.htm
 tech.root: Multimedia
 ms.assetid: e47d00ba-ad29-4a23-8a7c-604bedac10e7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mmioWrite, mmioWrite, mmioWrite function [Windows Multimedia], mmsystem/mmioWrite, multimedia.mmiowrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mmioWrite
+: 
 ---
 
 # mmioWrite function

@@ -9,8 +9,8 @@ ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPLINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO structure [TAPI 2.2], LPLINECALLHUBTRACKINGINFO, LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2], _tapi2_linecallhubtrackinginfo_str, linecallhubtrackinginfo_tag, tapi/LINECALLHUBTRACKINGINFO, tapi/LPLINECALLHUBTRACKINGINFO, tapi2.linecallhubtrackinginfo_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

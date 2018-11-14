@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_vartype.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D10_SHADER_DEBUG_VARTYPE, D3D10_SHADER_DEBUG_VARTYPE enumeration [Direct3D 10], D3D10_SHADER_DEBUG_VAR_FORCE_DWORD, D3D10_SHADER_DEBUG_VAR_FUNCTION, D3D10_SHADER_DEBUG_VAR_VARIABLE, _D3D10_SHADER_DEBUG_VARTYPE, b5386346-ff95-5c6c-abe3-00938e5aa5ea, d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FORCE_DWORD, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FUNCTION, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_VARIABLE, direct3d10.d3d10_shader_debug_vartype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
@@ -78,7 +78,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

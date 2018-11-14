@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mmc.h
+: 
+- IComponentData2.QueryDispatch
+: 
 ---
 
 # IComponentData2::QueryDispatch

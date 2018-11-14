@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- IWMDeviceManager2.GetDeviceFromCanonicalName
+: 
 ---
 
 # IWMDeviceManager2::GetDeviceFromCanonicalName

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesItemFilter.GetTimeFilter
+: 
 ---
 
 # IOfflineFilesItemFilter::GetTimeFilter
@@ -73,14 +81,14 @@ This can be very helpful when the granularity of filtering is a day.
 
 ### -param pTimeType [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Bb530647(v=VS.85).aspx">OFFLINEFILES_ITEM_TIME</a> enumeration value that indicates which time value associated with the cache item is to be used in the evaluation.
+Receives an <a href="https://msdn.microsoft.com/14fd41fe-c5d9-4381-8ced-7ebe183fb30c">OFFLINEFILES_ITEM_TIME</a> enumeration value that indicates which time value associated with the cache item is to be used in the evaluation.
 
 Only one value is to be provided.  This is not a mask.
 
 
 ### -param pCompare [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Bb530643(v=VS.85).aspx">OFFLINEFILES_COMPARE</a> enumeration value that indicates the type of logical comparison to perform between the selected item time and the filter time pointed to by the <i>pftTime</i> parameter.
+Receives an <a href="https://msdn.microsoft.com/17972c96-4ce1-43c0-bb6d-730787f0f93a">OFFLINEFILES_COMPARE</a> enumeration value that indicates the type of logical comparison to perform between the selected item time and the filter time pointed to by the <i>pftTime</i> parameter.
 
 
 ## -returns
@@ -114,15 +122,15 @@ This method may be implemented in any filter type (inclusion, exclusion) or filt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530576(v=VS.85).aspx">IOfflineFilesItemFilter</a>
+<a href="https://msdn.microsoft.com/e77b4f90-7a08-47f8-b297-8c1360167e1f">IOfflineFilesItemFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530643(v=VS.85).aspx">OFFLINEFILES_COMPARE</a>
+<a href="https://msdn.microsoft.com/17972c96-4ce1-43c0-bb6d-730787f0f93a">OFFLINEFILES_COMPARE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530647(v=VS.85).aspx">OFFLINEFILES_ITEM_TIME</a>
+<a href="https://msdn.microsoft.com/14fd41fe-c5d9-4381-8ced-7ebe183fb30c">OFFLINEFILES_ITEM_TIME</a>
  
 
  

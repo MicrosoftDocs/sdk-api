@@ -4,10 +4,10 @@ title: ISecurityInformation::GetAccessRights
 author: windows-sdk-content
 description: The GetAccessRights method requests information about the access rights that can be controlled for a securable object.
 old-location: security\isecurityinformation_getaccessrights.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: a40b3ded-9a75-476b-bc7e-38794a98261c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: GetAccessRights, GetAccessRights method [Security], GetAccessRights method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetAccessRights method, ISecurityInformation.GetAccessRights, ISecurityInformation::GetAccessRights, SI_ADVANCED, SI_EDIT_AUDITS, SI_EDIT_PROPERTIES, _win32_isecurityinformation_getaccessrights, aclui/ISecurityInformation::GetAccessRights, security.isecurityinformation_getaccessrights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- aclui.h
+: 
+- ISecurityInformation.GetAccessRights
+: 
 ---
 
 # ISecurityInformation::GetAccessRights

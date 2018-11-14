@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSelectCertificateA
+: 
 ---
 
 # CertSelectCertificateA function
@@ -62,7 +68,7 @@ The <b>CertSelectCertificate</b> function  presents a dialog box that allows the
 
 ### -param pCertSelectInfo [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377534(v=VS.85).aspx">CERT_SELECT_STRUCT</a> structure that contains criteria that control the displayed certificates for selection and receives the selected certificate.
+A pointer to a <a href="https://msdn.microsoft.com/49184872-d636-4e55-8e32-0f38b49b5c21">CERT_SELECT_STRUCT</a> structure that contains criteria that control the displayed certificates for selection and receives the selected certificate.
 
 
 ## -returns
@@ -82,7 +88,7 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377534(v=VS.85).aspx">CERT_SELECT_STRUCT</a>
+<a href="https://msdn.microsoft.com/49184872-d636-4e55-8e32-0f38b49b5c21">CERT_SELECT_STRUCT</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: 9b7ab901-1dcf-458c-858f-f411825f324b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: RPC_MGMT_AUTHORIZATION_FN, RPC_MGMT_AUTHORIZATION_FN callback, RPC_MGMT_AUTHORIZATION_FN callback function [RPC], RpcMgmtInqIfIds, RpcMgmtInqServerPrincName, RpcMgmtInqStats, RpcMgmtIsServerListening, RpcMgmtStopServerListening, _rpc_rpc_mgmt_authorization_fn, rpc.rpc_mgmt_authorization_fn, rpcdce/RPC_MGMT_AUTHORIZATION_FN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: rpcdce.h
 req.include-header: 

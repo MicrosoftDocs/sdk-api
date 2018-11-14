@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctffunc.h
+: 
+- ITfCandidateString.GetIndex
+: 
 ---
 
 # ITfCandidateString::GetIndex
@@ -111,7 +119,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538497(v=VS.85).aspx">ITfCandidateString</a>
+<a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a>
  
 
  

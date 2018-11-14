@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- appxpackaging.h
+: 
+- IAppxEncryptionFactory3.CreateEncryptedBundleWriter
+: 
 ---
 
 # IAppxEncryptionFactory3::CreateEncryptedBundleWriter

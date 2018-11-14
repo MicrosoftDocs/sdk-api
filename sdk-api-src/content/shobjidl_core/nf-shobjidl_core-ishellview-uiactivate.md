@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl_core.h
+: 
+- IShellView.UIActivate
+: 
 ---
 
 # IShellView::UIActivate
@@ -104,7 +112,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 
 
-Before remerging menu items, the Shell view typically hooks the <a href="https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx">WM_SETFOCUS</a> message and calls the <a href="https://msdn.microsoft.com/bd320262-f383-453b-9028-4e93f0b3761a">OnViewWindowActive</a> method. The Shell view should not hook the <a href="https://msdn.microsoft.com/en-us/library/Bb775540(v=VS.85).aspx">NM_KILLFOCUS</a> message to remerge menu items.
+Before remerging menu items, the Shell view typically hooks the <a href="https://msdn.microsoft.com/77180e4c-95a6-41a4-93d9-033381ae7543">WM_SETFOCUS</a> message and calls the <a href="https://msdn.microsoft.com/bd320262-f383-453b-9028-4e93f0b3761a">OnViewWindowActive</a> method. The Shell view should not hook the <a href="https://msdn.microsoft.com/d7538697-8b4c-4bbd-8b06-02cbc8069a22">NM_KILLFOCUS</a> message to remerge menu items.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
 Call this method to inform the view of an activation state change.

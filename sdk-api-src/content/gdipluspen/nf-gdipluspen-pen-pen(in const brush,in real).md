@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdipluspen.h
+: 
+- Pen.Pen
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
+Creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
 
 
 ## -parameters
@@ -87,15 +95,19 @@ If you pass the address of a pen to one of the draw methods of a
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object and then creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object based on the <b>Brush</b> object.
+The following example creates a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object and then creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object based on the <b>Brush</b> object.
 
-
-```cpp
-SolidBrush sBrush(Color(255,255,0,0));
-Pen pen(&sBrush, 4.0f);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SolidBrush sBrush(Color(255,255,0,0));
+Pen pen(&amp;sBrush, 4.0f);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

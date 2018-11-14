@@ -9,8 +9,8 @@ ms.assetid: e3fdfd44-9e90-4206-b7e9-97d4ed6eb8af
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC],described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSitesContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMSitesContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSitesContainer</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IGPMSitesContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -141,7 +141,7 @@ Full DNS name of the forest in which the <b>GPMSitesContainer</b> object resides
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

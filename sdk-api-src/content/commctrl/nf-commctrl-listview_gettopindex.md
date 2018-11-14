@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_GetTopIndex
+: 
 ---
 
 # ListView_GetTopIndex macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761087(v=VS.85).aspx">LVM_GETTOPINDEX</a> message explicitly. 
+Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/b5692de3-338b-422c-9dee-d3ba96f2b53d">LVM_GETTOPINDEX</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Gets the index of the topmost visible item when in list or report view. You can 
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

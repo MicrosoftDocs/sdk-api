@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- IFileDialog2.SetCancelButtonLabel
+: 
 ---
 
 # IFileDialog2::SetCancelButtonLabel

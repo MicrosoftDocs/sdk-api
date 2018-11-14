@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- winuser.h
+: 
+- GID_ROTATE_ANGLE_FROM_ARGUMENT
+: 
 ---
 
 # GID_ROTATE_ANGLE_FROM_ARGUMENT macro

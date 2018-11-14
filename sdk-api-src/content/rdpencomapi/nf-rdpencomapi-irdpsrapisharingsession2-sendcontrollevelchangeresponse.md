@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPISharingSession2.SendControlLevelChangeResponse
+: 
 ---
 
 # IRDPSRAPISharingSession2::SendControlLevelChangeResponse

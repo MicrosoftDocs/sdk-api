@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationManager2.GetStatus
+: 
 ---
 
 # IUIAnimationManager2::GetStatus

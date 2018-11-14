@@ -9,8 +9,8 @@ ms.assetid: cf1ccd40-36bf-4597-b34f-d26cef63d800
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx structure pointer [Security], SecPkgContext_IssuerListInfoEx, SecPkgContext_IssuerListInfoEx structure [Security], _SecPkgContext_IssuerListInfoEx, _ssp_secpkgcontext_issuerlistinfoex, schannel/PSecPkgContext_IssuerListInfoEx, schannel/SecPkgContext_IssuerListInfoEx, security.secpkgcontext_issuerlistinfoex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreateMPEG4MediaSink
+: 
 ---
 
 # MFCreateMPEG4MediaSink function

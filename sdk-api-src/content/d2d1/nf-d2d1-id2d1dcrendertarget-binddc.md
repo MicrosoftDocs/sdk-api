@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1DCRenderTarget_BindDC.htm
 tech.root: direct2d
 ms.assetid: a5e98470-9a9f-4a85-b00f-afb2ead3fb31
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: BindDC, BindDC method [Direct2D], BindDC method [Direct2D],ID2D1DCRenderTarget interface, ID2D1DCRenderTarget interface [Direct2D],BindDC method, ID2D1DCRenderTarget.BindDC, ID2D1DCRenderTarget::BindDC, d2d1/ID2D1DCRenderTarget::BindDC, direct2d.ID2D1DCRenderTarget_BindDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1DCRenderTarget.BindDC
+: 
 ---
 
 # ID2D1DCRenderTarget::BindDC
@@ -96,26 +104,40 @@ In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https:/
 
 The next code example binds a DC to the <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>.
 
-
-```cpp
-HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::OnRender(const PAINTSTRUCT &amp;ps)
 {
-
-```
-
-```cpp
-// Get the dimensions of the client drawing area.
-GetClientRect(m_hwnd, &rc);
-
-```
-
-```cpp
-// Bind the DC to the DC render target.
-hr = m_pDCRT->BindDC(ps.hdc, &rc);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the dimensions of the client drawing area.
+GetClientRect(m_hwnd, &amp;rc);
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Bind the DC to the DC render target.
+hr = m_pDCRT-&gt;BindDC(ps.hdc, &amp;rc);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

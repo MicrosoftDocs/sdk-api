@@ -2,21 +2,21 @@
 UID: NS:evntprov._EVENT_DESCRIPTOR
 title: "_EVENT_DESCRIPTOR"
 author: windows-sdk-content
-description: Contains metadata that defines the event.
-old-location: etw\event_descriptor.htm
-tech.root: etw
-ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
+description: The EVENT_DESCRIPTOR structure identifies the description information that is available for each event.
+old-location: devtest\event_descriptor.htm
+tech.root: devtest
+ms.assetid: cfe84b3d-fed2-4624-9899-8451e5b39de0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: "*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [ETW], PCEVENT_DESCRIPTOR, PCEVENT_DESCRIPTOR structure pointer [ETW], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [ETW], _EVENT_DESCRIPTOR, base.event_descriptor, etw.event_descriptor, relogger/EVENT_DESCRIPTOR, relogger/PCEVENT_DESCRIPTOR, relogger/PEVENT_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 09/26/2018
+ms.keywords: "*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [Driver Development Tools], Event Descriptor, Event Descriptor structure [Driver Development Tools], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [Driver Development Tools], _EVENT_DESCRIPTOR, devtest.event_descriptor, etw_km_2dcb59a8-a21d-4520-8201-1074b9291978.xml, evntprov/EVENT_DESCRIPTOR, evntprov/PEVENT_DESCRIPTOR"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evntprov.h
-req.include-header: Evntprov.h
+req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - relogger.h
+ - evntprov.h
 api_name:
  - EVENT_DESCRIPTOR
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>EVENT_DESCRIPTOR</b> structure contains metadata that defines the event.
+The EVENT_DESCRIPTOR structure identifies the description information that is available for each event. 
 
 
 ## -struct-fields
@@ -60,51 +60,131 @@ The <b>EVENT_DESCRIPTOR</b> structure contains metadata that defines the event.
 
 ### -field Id
 
-The event identifier. 
+The event identifier. Each event is associated with a 16-bit numeric value. 
 
 
 ### -field Version
 
-The version of the event. The version indicates a revision to the event definition. You can use this member and the Id member to uniquely identify the event within the scope of a provider.
+A numeric value that represents a version of the event. Component updates can change this value for a specific event.
 
 
 ### -field Channel
 
-The audience for the event (for example, administrator or developer). 
+The channel that the event is intended for. Note that the channel name is not stored here. The value of the channel is assigned by the message compiler.
 
 
 ### -field Level
 
-The severity or level of detail included in the event (for example, informational or fatal). 
+The level of the event. The level indicates the severity or verbosity of the event. The level is used  with earlier versions of the ETW and WPP event fields. The levels have names with values, such as Error, Warning, Information, and so on. 
 
 
 ### -field Opcode
 
-A step in a sequence of operations being performed within the Task.
+The activity that the driver was performing at the time of the event. The <b>Opcode</b> member is defined by the provider or is one of the system-defined values defined in the Winmeta.xml file that is provided with the Windows Driver Kit (WDK) in the %Winddk%\<i>version</i>\inc\api directory.
 
 
 ### -field Task
 
-A larger unit of work within an application or component (is broader than the Opcode).
+The <b>Task</b> corresponds to the logical activity that the driver was performing when it raised the event. The <b>Opcode</b> member refers to a specific action within that logical activity.
 
 
 ### -field Keyword
 
-A bitmask that specifies a logical group of related events. Each bit corresponds to one group. An event may belong to one or more groups. The keyword can contain one or more provider-defined keywords, standard keywords, or both.
+The categories or tags assigned to the event. Each keyword categorizes the event in some way. For example, a category could be <b>Network</b>, <b>Storage</b>, or <b>Not Found</b>. An event can belong to more then one category, in which case multiple keywords are specified for the event. The keyword values are bitmasks and can be combined. 
 
 
 ## -remarks
 
 
 
-This structure represents an event defined in the manifest. You do not declare and populate this structure, instead you use the <a href="https://msdn.microsoft.com/f9de35f1-6d31-4f4b-b2c4-8474d6fce9e0">Message Compiler (MC.exe)</a> to generate a header file that declares and populates this structure for each event in the manifest. For details on writing the manifest and generating the header file, see <a href="https://msdn.microsoft.com/eec9d129-acde-4302-9121-634b3fad8455">Writing an Instrumentation Manifest</a> and <a href="https://msdn.microsoft.com/ecb72942-08fc-470d-b4d6-f5f1a70de3fa">Compiling an Instrumentation Manifest</a>.
+The <b>Id</b> member is the event identifier. The structure members <b>Id</b> and <b>Version</b> can be used together to identify all events for a specific provider. When the <b>Id</b> and <b>Version</b> are used in conjunction with the manifest, you can precisely identify the structure and metadata of the event.
 
-For details on the members of this structure, see the attributes of the <a href="https://msdn.microsoft.com/09ea89c9-6618-4874-ac72-5ee19cde4040">EventDefinitionType</a> complex type. 
+The pointer to the EVENT_DESCRIPTOR is passed to the <a href="https://msdn.microsoft.com/19aa5905-f611-46e2-8d70-a6cc4649c911">EtwEventEnabled</a>, <a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a>, and <a href="https://msdn.microsoft.com/72a1c2f4-5f20-4c00-baf5-3d48fe27f48d">EtwWriteTransfer</a> functions. The most convenient method of populating the EVENT_DESCRIPTOR structure is to use the <b>EventDescCreate</b> macro. This macro is declared in Evntprov.h and its use is documented in the Microsoft Windows SDK. 
 
- You specify this structure when calling <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> or <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a> to write the event. You can also use it when calling <a href="https://msdn.microsoft.com/b332b6d4-6921-40bd-bebc-6646b5b9bcde">EventEnabled</a> to determine if you should write the event.
+The following is a list of the convenience macros that you can use to create the event descriptors and to extract and set fields in the structure. For information on these macros, see <a href="http://go.microsoft.com/fwlink/p/?linkid=70405">Event Tracing Macros</a>.
 
-This structure is also included in the <a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a> structure that is returned with the event record when you consume events using the <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback. For MOF-defined events, the <b>Opcode</b> member contains the event type value. The <b>Version</b> and <b>Level</b> members contain the expected information.
+<b>Macros to create event descriptors:
+    </b>
 
+<ul>
+<li>
+<b>EventDescCreate</b>
+
+</li>
+<li>
+<b>EventDescZero</b>
+
+</li>
+</ul>
+<b>Macros to extract information from an event descriptor:
+    </b>
+
+<ul>
+<li>
+<b>EventDescGetId</b>
+
+</li>
+<li>
+<b>EventDescGetVersion</b>
+
+</li>
+<li>
+<b>EventDescGetTask</b>
+
+</li>
+<li>
+<b>EventDescGetOpcode</b>
+
+</li>
+<li>
+<b>EventDescGetChannel</b>
+
+</li>
+<li>
+<b>EventDescGetLevel</b>
+
+</li>
+<li>
+<b>EventDescGetKeyword</b>
+
+</li>
+</ul>
+<b>Macros to set fields in an event descriptor:</b>
+
+<ul>
+<li>
+<b>EventDescSetId</b>
+
+</li>
+<li>
+<b>EventDescSetVersion</b>
+
+</li>
+<li>
+<b>EventDescSetTask</b>
+
+</li>
+<li>
+<b>EventDescSetOpcode</b>
+
+</li>
+<li>
+<b>EventDescSetLevel</b>
+
+</li>
+<li>
+<b>EventDescSetChannel</b>
+
+</li>
+<li>
+<b>EventDescSetKeyword</b>
+
+</li>
+<li>
+<b>EventDescOrKeyword</b>
+
+</li>
+</ul>
 
 
 
@@ -113,99 +193,15 @@ This structure is also included in the <a href="https://msdn.microsoft.com/47909
 
 
 
-<a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a>
+<a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/05ce400e-c2e5-4852-9c41-d98ac2a6b467">EventDescCreate</a>
+<a href="https://msdn.microsoft.com/eb2b7ab6-52da-4d16-b315-6adab3131a05">Event Data Descriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/193786ad-751e-477d-8747-a38b43292648">EventDescGetChannel</a>
-
-
-
-<a href="https://msdn.microsoft.com/33deea6e-27e0-44ae-8d18-e8c854bc1819">EventDescGetId</a>
-
-
-
-<a href="https://msdn.microsoft.com/4c96fad0-23c4-44cc-8b8f-2d62f08429d2">EventDescGetKeyword</a>
-
-
-
-<a href="https://msdn.microsoft.com/29f356ad-c957-4a1e-abf8-5c7e6212c92e">EventDescGetLevel</a>
-
-
-
-<a href="https://msdn.microsoft.com/cdca1dd8-da75-408c-9b57-0ac2bfe387b4">EventDescGetOpcode</a>
-
-
-
-<a href="https://msdn.microsoft.com/5913587d-5c0d-4c50-99d9-8bff266b1c5b">EventDescGetTask</a>
-
-
-
-<a href="https://msdn.microsoft.com/3881f089-d0c6-4d46-929a-09777df13f61">EventDescGetVersion</a>
-
-
-
-<a href="https://msdn.microsoft.com/ad5e06cf-e2fa-4696-9521-61ff012b9204">EventDescOrKeyword</a>
-
-
-
-<a href="https://msdn.microsoft.com/3580935d-ab7e-4409-b4ac-58f3c6019514">EventDescSetChannel</a>
-
-
-
-<a href="https://msdn.microsoft.com/1c110ea3-651c-4e2c-9675-64f6975e5fc5">EventDescSetId</a>
-
-
-
-<a href="https://msdn.microsoft.com/b1870a89-2e15-42b6-8441-82e6f9165540">EventDescSetKeyword</a>
-
-
-
-<a href="https://msdn.microsoft.com/a4fe3b0e-6ca5-401c-a669-752e2955cc52">EventDescSetLevel</a>
-
-
-
-<a href="https://msdn.microsoft.com/fe16eae0-5bff-4266-9b91-4b714540bde3">EventDescSetOpcode</a>
-
-
-
-<a href="https://msdn.microsoft.com/74298e6f-b29a-4fa7-98d1-f81270fcbc0e">EventDescSetTask</a>
-
-
-
-<a href="https://msdn.microsoft.com/f1d9fcb2-5a27-483b-b133-e8309b51165c">EventDescSetVersion</a>
-
-
-
-<a href="https://msdn.microsoft.com/c52c5f6b-c7ab-47c2-8bce-55323bae7917">EventDescZero</a>
-
-
-
-<a href="https://msdn.microsoft.com/b332b6d4-6921-40bd-bebc-6646b5b9bcde">EventEnabled</a>
-
-
-
-<a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>
-
-
-
-<a href="https://msdn.microsoft.com/CC392841-7436-4543-A846-FB5A27D9A014">PROVIDER_EVENT_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/93A03E1D-4047-49F1-987B-FB7BE03E0483">TdhEnumerateManifestProviderEvents</a>
-
-
-
-<a href="https://msdn.microsoft.com/71702F1F-1708-4CA2-9BFB-3D7332AB6129">TdhGetManifestEventInformation</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=70405">Event Tracing Macros</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -55,7 +55,7 @@ Transfers data of the long integer type (which is 32 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeLong</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPipeLong</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeLong</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPipeLong</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

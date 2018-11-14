@@ -9,8 +9,8 @@ ms.assetid: 142ea48d-d47b-4b7b-ab84-049a54955488
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], IEnumWbemClassObject interface [Windows Management Instrumentation],described, _hmm_ienumwbemclassobject, wbemcli/IEnumWbemClassObject, wmi.ienumwbemclassobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
@@ -51,7 +51,7 @@ req.redist:
 
 
 The 
-<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa390793(v=VS.85).aspx">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
+<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="gloss_c.htm">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
 
 An object of type 
 <b>IEnumWbemClassObject</b> is received from calls to the following methods:

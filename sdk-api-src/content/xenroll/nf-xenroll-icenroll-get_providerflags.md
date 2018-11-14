@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.get_ProviderFlags
+: 
 ---
 
 # ICEnroll::get_ProviderFlags
@@ -104,27 +112,31 @@ The <b>ProviderFlags</b> property affects the behavior of the following methods:
 
 #### Examples
 
-
-```cpp
-DWORD    dwProvFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwProvFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 // get the ProviderFlags value
-hr = pEnroll->get_ProviderFlags( &dwProvFlags );
+hr = pEnroll-&gt;get_ProviderFlags( &amp;dwProvFlags );
 if (FAILED( hr ))
     printf("Failed get_ProviderFlags - %x\n", hr );
 else
     printf( "ProviderFlags: %d\n", dwProvFlags );
 
 // Set the ProviderFlags value.
-hr = pEnroll->put_ProviderFlags(CRYPT_MACHINE_KEYSET);
+hr = pEnroll-&gt;put_ProviderFlags(CRYPT_MACHINE_KEYSET);
 if (FAILED( hr ))
     printf("Failed put_ProviderFlags - %x\n", hr );
 else
-    printf( "ProviderFlags set to %d\n", CRYPT_MACHINE_KEYSET  );
-```
-
-
+    printf( "ProviderFlags set to %d\n", CRYPT_MACHINE_KEYSET  );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

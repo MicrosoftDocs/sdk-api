@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ISmimeCapability.get_ObjectId
+: 
 ---
 
 # ISmimeCapability::get_ObjectId
@@ -63,7 +71,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377047(v=VS.85).aspx">Initialize</a> method to specify the <b>ObjectId</b> property. The following encryption OIDs are currently supported:
+Call the <a href="https://msdn.microsoft.com/d972121d-ecfa-4a79-9322-dd0d0b81ba68">Initialize</a> method to specify the <b>ObjectId</b> property. The following encryption OIDs are currently supported:
 
 <ul>
 <li>XCN_OID_NIST_AES128_CBC (2.16.840.1.101.3.4.1.2)</li>
@@ -87,15 +95,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377047(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376841(v=VS.85).aspx">ISmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/f9750b68-9d35-4594-96fc-2fbd54a87dcc">ISmimeCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377045(v=VS.85).aspx">ISmimeCapability</a>
+<a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378177(v=VS.85).aspx">IX509ExtensionSmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/06dca62d-282b-4bdd-bc8d-4d2e6eb226b5">IX509ExtensionSmimeCapabilities</a>
  
 
  

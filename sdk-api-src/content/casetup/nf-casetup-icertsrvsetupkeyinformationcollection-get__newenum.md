@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetupKeyInformationCollection.get__NewEnum
+: 
 ---
 
 # ICertSrvSetupKeyInformationCollection::get__NewEnum
@@ -63,7 +71,7 @@ This property is read-only.
 
 
 
-This property is provided for internal use by the <code>For Each</code> statement in Visual Basic Scripting Edition (VBScript) and C#. To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/en-us/library/Bb736375(v=VS.85).aspx">Count</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb736376(v=VS.85).aspx">Item</a> properties defined by the <a href="https://msdn.microsoft.com/en-us/library/Bb736373(v=VS.85).aspx">ICertSrvSetupKeyInformationCollection</a> interface.
+This property is provided for internal use by the <code>For Each</code> statement in Visual Basic Scripting Edition (VBScript) and C#. To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/58412a07-7e97-4379-b052-fb7458400be9">Count</a> and <a href="https://msdn.microsoft.com/2ae3d695-4dfe-4c72-8e66-64dce88c2bb2">Item</a> properties defined by the <a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a> interface.
 
 
 
@@ -73,7 +81,7 @@ This property is provided for internal use by the <code>For Each</code> statemen
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736373(v=VS.85).aspx">ICertSrvSetupKeyInformationCollection</a>
+<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
  
 
  

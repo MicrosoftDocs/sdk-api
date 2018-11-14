@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- IX509ExtensionTemplateName.get_TemplateName
+: 
 ---
 
 # IX509ExtensionTemplateName::get_TemplateName
@@ -63,9 +71,9 @@ This property is read-only.
 
 
 
-You must call either <a href="https://msdn.microsoft.com/en-us/library/Aa378285(v=VS.85).aspx">InitializeEncode</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa378278(v=VS.85).aspx">InitializeDecode</a> before you can use an  <a href="https://msdn.microsoft.com/en-us/library/Aa378276(v=VS.85).aspx">IX509ExtensionTemplateName</a> object. You can retrieve the following additional properties for this extension:<ul>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property identifies whether the extension is critical. You can also specify this property.</li>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).</li>
+You must call either <a href="https://msdn.microsoft.com/8b72b73a-bfd5-4a56-a106-01f2fd59e922">InitializeEncode</a> or <a href="https://msdn.microsoft.com/05fb275c-75b2-4619-8d6a-c6c9868d9765">InitializeDecode</a> before you can use an  <a href="https://msdn.microsoft.com/9a2d0219-6fe3-4a75-8d28-281c0b863a35">IX509ExtensionTemplateName</a> object. You can retrieve the following additional properties for this extension:<ul>
+<li>The <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property identifies whether the extension is critical. You can also specify this property.</li>
+<li>The <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property retrieves the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).</li>
 </ul>
 
 
@@ -77,7 +85,7 @@ You must call either <a href="https://msdn.microsoft.com/en-us/library/Aa378285(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378276(v=VS.85).aspx">IX509ExtensionTemplateName</a>
+<a href="https://msdn.microsoft.com/9a2d0219-6fe3-4a75-8d28-281c0b863a35">IX509ExtensionTemplateName</a>
  
 
  

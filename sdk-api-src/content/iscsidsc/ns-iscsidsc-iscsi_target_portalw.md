@@ -9,8 +9,8 @@ ms.assetid: de78c7ec-c2ce-493a-ad29-2ea10e3d7dff
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PISCSI_TARGET_PORTALW, ISCSI_TARGET_PORTAL, ISCSI_TARGET_PORTAL structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTALA, ISCSI_TARGET_PORTALW, PISCSI_TARGET_PORTAL, PISCSI_TARGET_PORTAL structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal, iscsidsc/ISCSI_TARGET_PORTAL, iscsidsc/ISCSI_TARGET_PORTALA, iscsidsc/ISCSI_TARGET_PORTALW, iscsidsc/PISCSI_TARGET_PORTAL"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

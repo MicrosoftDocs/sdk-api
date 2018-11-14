@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- mfplay.h
+: 
+- MFP_GET_FRAME_STEP_EVENT
+: 
 ---
 
 # MFP_GET_FRAME_STEP_EVENT macro

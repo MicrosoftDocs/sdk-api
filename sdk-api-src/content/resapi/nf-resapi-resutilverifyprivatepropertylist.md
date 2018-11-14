@@ -7,7 +7,7 @@ old-location: mscs\resutilverifyprivatepropertylist.htm
 tech.root: mscs
 ms.assetid: 3d2eaa83-dd82-4023-8466-0131f7b90abc
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 11/13/2018
 ms.keywords: PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST function [Failover Cluster], ResUtilVerifyPrivatePropertyList, ResUtilVerifyPrivatePropertyList function [Failover Cluster], _wolf_resutilverifyprivatepropertylist, mscs.resutilverifyprivatepropertylist, resapi/PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, resapi/ResUtilVerifyPrivatePropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResUtilVerifyPrivatePropertyList
+: 
 ---
 
 # ResUtilVerifyPrivatePropertyList function

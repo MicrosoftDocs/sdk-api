@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkDrawingAttributes.put_PenTip
+: 
 ---
 
 # IInkDrawingAttributes::put_PenTip

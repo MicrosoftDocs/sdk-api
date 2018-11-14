@@ -9,8 +9,8 @@ ms.assetid: e2b90a98-5777-42c2-95dd-4623e738c4da
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IADsComputer, IADsComputer interface [ADSI], IADsComputer interface [ADSI],described, _ds_iadscomputer, adsi.iadscomputer, iads/IADsComputer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -56,7 +56,7 @@ The <b>IADsComputer</b> interface is a dual interface that inherits from  <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsComputer</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsComputer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsComputer</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsComputer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -526,7 +526,7 @@ Gets and sets, in MB, the size of the hard disk drive.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

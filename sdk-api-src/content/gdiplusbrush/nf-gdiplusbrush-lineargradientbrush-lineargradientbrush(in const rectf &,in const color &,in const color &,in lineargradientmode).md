@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusbrush.h
+: 
+- LinearGradientBrush.LinearGradientBrush
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -137,7 +145,7 @@ The mode affects the boundaries of the gradient:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 

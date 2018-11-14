@@ -9,8 +9,8 @@ ms.assetid: 6895a807-81da-4263-b370-977ecfaffac8
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: WCS_PROFILE_MANAGEMENT_SCOPE, WCS_PROFILE_MANAGEMENT_SCOPE enumeration [Windows Color System], WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, icm/WCS_PROFILE_MANAGEMENT_SCOPE, icm/WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, icm/WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, wcs.wcs_profile_management_scope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: icm.h
 req.include-header: 

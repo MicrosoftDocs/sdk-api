@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\lineargradientmode
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: LinearGradientMode, LinearGradientMode enumeration [GDI+], LinearGradientModeBackwardDiagonal, LinearGradientModeForwardDiagonal, LinearGradientModeHorizontal, LinearGradientModeVertical, _gdiplus_ENUM_LinearGradientMode, gdiplus._gdiplus_ENUM_LinearGradientMode, gdiplusenums/LinearGradientMode, gdiplusenums/LinearGradientModeBackwardDiagonal, gdiplusenums/LinearGradientModeForwardDiagonal, gdiplusenums/LinearGradientModeHorizontal, gdiplusenums/LinearGradientModeVertical
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

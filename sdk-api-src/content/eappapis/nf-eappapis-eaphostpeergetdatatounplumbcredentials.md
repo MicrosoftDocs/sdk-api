@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetdatatounplumbcredentials.htm
 tech.root: eaphost
 ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerGetDataToUnplumbCredentials, EapHostPeerGetDataToUnplumbCredentials function [EAPHost], eaphost.eaphostpeergetdatatounplumbcredentials, eappapis/EapHostPeerGetDataToUnplumbCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerGetDataToUnplumbCredentials
+: 
 ---
 
 # EapHostPeerGetDataToUnplumbCredentials function

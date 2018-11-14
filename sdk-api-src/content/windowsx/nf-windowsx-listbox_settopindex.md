@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ListBox_SetTopIndex
+: 
 ---
 
 # ListBox_SetTopIndex macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Ensures that the specified item in a list box is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761356(v=VS.85).aspx">LB_SETTOPINDEX</a> message explicitly.
+Ensures that the specified item in a list box is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/0e938cd1-7d6c-4b81-91b2-f388465c5d7e">LB_SETTOPINDEX</a> message explicitly.
 
 
 ## -parameters

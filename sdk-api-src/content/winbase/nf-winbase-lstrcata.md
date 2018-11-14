@@ -48,6 +48,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- lstrcatA
+: 
 ---
 
 # lstrcatA function
@@ -57,7 +63,7 @@ req.redist:
 
 
 Appends one string to another.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://msdn.microsoft.com/72ddb6ab-8167-4213-815b-bd15b62d6123">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
 
 ## -parameters
 
@@ -107,51 +113,51 @@ If the function fails, the return value is <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647495(v=VS.85).aspx">StringCbCat</a>
+<a href="https://msdn.microsoft.com/6330483b-dc61-4bbf-8ee7-e91a93495bb2">StringCbCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>
+<a href="https://msdn.microsoft.com/db9f0731-0f7b-4018-ad07-1abe0bfe71e8">StringCbCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647497(v=VS.85).aspx">StringCbCatN</a>
+<a href="https://msdn.microsoft.com/56ef4ada-52df-48dd-a5e1-f62311be7592">StringCbCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
+<a href="https://msdn.microsoft.com/ad1cad70-c548-4b2f-b253-b0af5000df08">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647518(v=VS.85).aspx">StringCchCat</a>
+<a href="https://msdn.microsoft.com/72ddb6ab-8167-4213-815b-bd15b62d6123">StringCchCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>
+<a href="https://msdn.microsoft.com/3b829dfa-6ede-47bd-b4d7-fcbf94a26c50">StringCchCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647522(v=VS.85).aspx">StringCchCatN</a>
+<a href="https://msdn.microsoft.com/516b67f9-ab6e-4c23-b04a-01848de09115">StringCchCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>
+<a href="https://msdn.microsoft.com/63c9f437-b769-4c5a-9168-d0c458947abc">StringCchCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647488(v=VS.85).aspx">lstrcmp</a>
+<a href="https://msdn.microsoft.com/e7b6ac43-ef24-4121-bb4e-a01232b034ad">lstrcmp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
+<a href="https://msdn.microsoft.com/7edd4896-04d3-4b71-9ce6-d64149d683e0">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
+<a href="https://msdn.microsoft.com/0024853f-3a1f-4742-bc5e-f0ca89e23f3a">lstrlen</a>
  
 
  

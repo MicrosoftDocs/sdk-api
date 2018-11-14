@@ -9,8 +9,8 @@ ms.assetid: B21D3797-695F-4794-80A2-05D381F288C2
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IMFClockConsumer interface [Media Foundation],described, mf.imfclockconsumer, mfidl/IMFClockConsumer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

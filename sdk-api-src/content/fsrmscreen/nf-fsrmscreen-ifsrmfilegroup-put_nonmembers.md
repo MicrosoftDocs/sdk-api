@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmscreen.h
+: 
+- IFsrmFileGroup.put_NonMembers
+: 
 ---
 
 # IFsrmFileGroup::put_NonMembers

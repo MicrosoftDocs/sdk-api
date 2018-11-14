@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10sdklayers.h
+: 
+- ID3D10InfoQueue.AddRetrievalFilterEntries
+: 
 ---
 
 # ID3D10InfoQueue::AddRetrievalFilterEntries
@@ -60,18 +68,18 @@ Add storage filters to the top of the retrieval-filter stack.
 
 ### -param pFilter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/78eb4b2c-ec22-4d30-befc-bf253d8768ba">D3D10_INFO_QUEUE_FILTER</a>*</b>
 
-Array of retrieval filters (see <a href="https://msdn.microsoft.com/en-us/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>).
+Array of retrieval filters (see <a href="https://msdn.microsoft.com/78eb4b2c-ec22-4d30-befc-bf253d8768ba">D3D10_INFO_QUEUE_FILTER</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,10 +89,10 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 A retrieval filter is used to define a subgroup of the messages that are already in the info queue.  
-      Retrieval filters affect the messages that will be returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173790(v=VS.85).aspx">ID3D10InfoQueue::GetMessage</a>.
+      Retrieval filters affect the messages that will be returned by <a href="https://msdn.microsoft.com/c7ed2819-d726-4719-b46c-03c001b9b40d">ID3D10InfoQueue::GetMessage</a>.
 
 The number of messages already in the info queue that will be allowed through the retrieval filter can be determined 
-      by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173797(v=VS.85).aspx">ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter</a>.
+      by calling <a href="https://msdn.microsoft.com/e7f759b0-d5ee-4777-a16a-315baa09766c">ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter</a>.
 
 
 
@@ -94,7 +102,7 @@ The number of messages already in the info queue that will be allowed through th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

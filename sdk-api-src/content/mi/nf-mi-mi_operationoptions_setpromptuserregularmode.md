@@ -41,6 +41,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MI_OperationOptions_SetPromptUserRegularMode
+: 
 ---
 
 # MI_OperationOptions_SetPromptUserRegularMode function

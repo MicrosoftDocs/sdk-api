@@ -7,10 +7,10 @@ old-location: direct3ddxgi\dxgi_outdupl_frame_info.htm
 tech.root: direct3ddxgi
 ms.assetid: 2A5C6F99-0610-457D-9850-867DCDA8F293
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: DXGI_OUTDUPL_FRAME_INFO, DXGI_OUTDUPL_FRAME_INFO structure [DXGI], direct3ddxgi.dxgi_outdupl_frame_info, dxgi1_2/DXGI_OUTDUPL_FRAME_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 
@@ -60,13 +60,13 @@ The <b>DXGI_OUTDUPL_FRAME_INFO</b> structure describes the current desktop image
 
 ### -field LastPresentTime
 
-The time stamp of the last update of the desktop image.  The operating system calls the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> 
+The time stamp of the last update of the desktop image.  The operating system calls the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> 
         function to obtain the value. A zero value indicates that the desktop image was not updated since an application last called the <a href="https://msdn.microsoft.com/C4F8C462-C8D8-4418-9543-7C8C32CE9498">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.
 
 
 ### -field LastMouseUpdateTime
 
-The time stamp of the last update to the mouse.  The operating system calls the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> 
+The time stamp of the last update to the mouse.  The operating system calls the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> 
         function to obtain the value. A zero value indicates that the position or shape of the mouse was not updated since an application last called the <a href="https://msdn.microsoft.com/C4F8C462-C8D8-4418-9543-7C8C32CE9498">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.  The mouse position is always supplied for a mouse update. A new pointer shape is indicated by a non-zero value in the <b>PointerShapeBufferSize</b> member.
 
 

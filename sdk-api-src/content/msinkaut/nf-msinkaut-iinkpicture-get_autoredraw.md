@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkPicture.get_AutoRedraw
+: 
 ---
 
 # IInkPicture::get_AutoRedraw

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_DevNode_Property_Keys
+: 
 ---
 
 # CM_Get_DevNode_Property_Keys function
@@ -93,7 +99,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Get_DevNode_Property_Keys</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">Unified Device Property Model</a>.
+<b>CM_Get_DevNode_Property_Keys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

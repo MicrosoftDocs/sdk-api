@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WindowPattern_Close
+: 
 ---
 
 # WindowPattern_Close function

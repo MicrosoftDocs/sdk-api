@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPControls.get_currentPositionString
+: 
 ---
 
 # IWMPControls::get_currentPositionString

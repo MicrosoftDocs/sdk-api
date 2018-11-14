@@ -7,10 +7,10 @@ old-location: base\minidump_handle_object_information.htm
 tech.root: debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION, MINIDUMP_HANDLE_OBJECT_INFORMATION structure, _MINIDUMP_HANDLE_OBJECT_INFORMATION, base.minidump_handle_object_information, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h

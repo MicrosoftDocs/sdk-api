@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- qnetwork.h
+: 
+- IAMMediaContent.get_Copyright
+: 
 ---
 
 # IAMMediaContent::get_Copyright

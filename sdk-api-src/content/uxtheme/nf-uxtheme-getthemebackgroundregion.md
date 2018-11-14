@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetThemeBackgroundRegion
+: 
 ---
 
 # GetThemeBackgroundRegion function
@@ -62,7 +68,7 @@ Computes the region for a regular or partially transparent background that is bo
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -76,14 +82,14 @@ HDC to draw into. The DC uses dots per inch (DPI) scaling. This parameter may be
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the region. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the region. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param pRect [in]
@@ -129,7 +135,7 @@ The region handle that is returned by this function should be released when it i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
 
 
 

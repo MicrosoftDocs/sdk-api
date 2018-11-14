@@ -9,8 +9,8 @@ ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlwapi.h
 req.include-header: 

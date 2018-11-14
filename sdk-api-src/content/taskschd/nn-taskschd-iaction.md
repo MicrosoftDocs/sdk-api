@@ -9,8 +9,8 @@ ms.assetid: 50d60cf0-642a-43fe-9163-51740e75fa8d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAction, IAction interface [Task Scheduler], IAction interface [Task Scheduler],described, taskschd.iaction, taskschd/IAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -119,7 +119,7 @@ For more information and a code example  for this interface, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

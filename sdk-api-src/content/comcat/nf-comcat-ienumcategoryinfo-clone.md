@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comcat.h
+: 
+- IEnumCATEGORYINFO.Clone
+: 
 ---
 
 # IEnumCATEGORYINFO::Clone
@@ -79,7 +87,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a>
  
 
  

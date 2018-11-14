@@ -9,8 +9,8 @@ ms.assetid: 293de8eb-204a-4c18-807c-b1405db85b12
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: IMMEndpoint, IMMEndpoint interface [Core Audio], IMMEndpoint interface [Core Audio],described, coreaudio.immendpoint, mmdeviceapi/IMMEndpoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 

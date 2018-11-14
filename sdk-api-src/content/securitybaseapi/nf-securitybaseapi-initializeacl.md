@@ -4,10 +4,10 @@ title: InitializeAcl function
 author: windows-sdk-content
 description: Initializes a new ACL structure.
 old-location: security\initializeacl.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: b990a7bd-7840-4c10-baf8-68b3862147f4
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: InitializeAcl, InitializeAcl function [Security], _win32_initializeacl, security.initializeacl, securitybaseapi/InitializeAcl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InitializeAcl
+: 
 ---
 
 # InitializeAcl function
@@ -234,7 +240,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 2ec606d7-42bd-47cc-a4cd-82908774aa43
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_AUTH_INFORMATION, TRUSTED_DOMAIN_AUTH_INFORMATION structure [Security], _TRUSTED_DOMAIN_AUTH_INFORMATION, _lsa_trusted_domain_auth_information, ntsecapi/PTRUSTED_DOMAIN_AUTH_INFORMATION, ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION, security.trusted_domain_auth_information"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

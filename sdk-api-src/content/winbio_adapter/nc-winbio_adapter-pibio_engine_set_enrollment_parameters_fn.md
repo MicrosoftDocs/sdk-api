@@ -9,8 +9,8 @@ ms.assetid: BB353505-F861-47BD-A617-42F0AA39251E
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EngineAdapterSetEnrollmentParameters, EngineAdapterSetEnrollmentParameters callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN, PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN callback, secbiomet.engineadaptersetenrollmentparameters, winbio_adapter/EngineAdapterSetEnrollmentParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

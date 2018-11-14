@@ -9,8 +9,8 @@ ms.assetid: 751bed07-a570-442a-b48a-5fae2d19ad8a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_HTTP_REQUEST_MAPPING_OPTIONS, WS_HTTP_REQUEST_MAPPING_OPTIONS enumeration [Web Services for Windows], WS_HTTP_REQUEST_MAPPING_VERB, __unnamed_enum_3, webservices/WS_HTTP_REQUEST_MAPPING_OPTIONS, webservices/WS_HTTP_REQUEST_MAPPING_VERB, wsw.ws_http_request_mapping_options
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsobjectmodel_1.h
+: 
+- IXpsOMRemoteDictionaryResource1.GetDocumentType
+: 
 ---
 
 # IXpsOMRemoteDictionaryResource1::GetDocumentType

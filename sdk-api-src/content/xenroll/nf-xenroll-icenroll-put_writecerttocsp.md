@@ -54,6 +54,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll.put_WriteCertToCSP
+: 
 ---
 
 # ICEnroll::put_WriteCertToCSP

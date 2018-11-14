@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- structuredquery.h
+: 
+- IEntity.NamedEntities
+: 
 ---
 
 # IEntity::NamedEntities
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a> objects, one for each known named entity of this type.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> objects, one for each known named entity of this type.
 
 
 ## -parameters
@@ -69,7 +77,7 @@ The desired IID of the result, either IID_IEnumUnknown or IID_IEnumVARIANT.
 
 Type: <b>void**</b>
 
-Receives the address of a pointer to an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a> objects, one for each known named entity of this type.
+Receives the address of a pointer to an enumeration of <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> objects, one for each known named entity of this type.
 
 
 ## -returns

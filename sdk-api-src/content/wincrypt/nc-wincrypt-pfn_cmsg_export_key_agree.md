@@ -9,8 +9,8 @@ ms.assetid: 5283f3be-7451-4896-82a5-bcfe63db9344
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_AGREE, PFN_CMSG_EXPORT_KEY_AGREE callback, PFN_CMSG_EXPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_export_key_agree, wincrypt/PFN_CMSG_EXPORT_KEY_AGREE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

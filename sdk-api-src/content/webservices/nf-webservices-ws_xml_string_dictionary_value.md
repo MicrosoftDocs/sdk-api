@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- webservices.h
+: 
+- WS_XML_STRING_DICTIONARY_VALUE
+: 
 ---
 
 # WS_XML_STRING_DICTIONARY_VALUE macro

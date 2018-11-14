@@ -7,10 +7,10 @@ old-location: eaphost\eappeermethodoutput.htm
 tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapauthenticatoractiondefine/EapPeerMethodOutput, eaphost.eappeermethodoutput, tagEapPeerMethodOuput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 

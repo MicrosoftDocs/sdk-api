@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- infotech.h
+: 
+- IITPropList.Set
+: 
 ---
 
 # IITPropList::Set(PROPID,LPCWSTR,DWORD)
@@ -215,7 +223,7 @@ Use this method to set properties passed as a Unicode string.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
  
 
  

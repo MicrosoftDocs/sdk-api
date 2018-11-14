@@ -9,8 +9,8 @@ ms.assetid: a30b11c8-df26-495d-87c3-aa67e400ec28
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WSD_PROBE_MATCH, WSD_PROBE_MATCH structure, _WSD_PROBE_MATCH, ncd.wsd_probe_match_struct, wsdtypes/WSD_PROBE_MATCH
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

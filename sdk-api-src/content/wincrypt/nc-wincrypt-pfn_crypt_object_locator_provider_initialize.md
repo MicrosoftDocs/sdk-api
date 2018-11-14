@@ -9,8 +9,8 @@ ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

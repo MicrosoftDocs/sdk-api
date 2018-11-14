@@ -9,8 +9,8 @@ ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], IBDA_SignalProperties interface [Microsoft TV Technologies],described, IBDA_SignalPropertiesInterface, bdaiface/IBDA_SignalProperties, mstv.ibda_signalproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -61,9 +61,9 @@ The <b>IBDA_SignalProperties</b> interface is implemented by a BDA device filter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_SignalProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_SignalProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_SignalProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_SignalProperties</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>IBDA_SignalProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693426(v=VS.85).aspx">GetNetworkType</a>
+<a href="https://msdn.microsoft.com/6c799cad-2371-4845-a783-e7227fb81c4c">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the network type for the current tuning request.
@@ -85,7 +85,7 @@ Retrieves the network type for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693427(v=VS.85).aspx">GetSignalSource</a>
+<a href="https://msdn.microsoft.com/929ec042-3f43-468e-944a-919dda3893be">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the signal source for the current tuning request.
@@ -94,7 +94,7 @@ Retrieves the signal source for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693428(v=VS.85).aspx">GetTuningSpace</a>
+<a href="https://msdn.microsoft.com/03738363-5923-4e26-a0ea-e345b927140c">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuning space for the current tuning request.
@@ -103,7 +103,7 @@ Retrieves the tuning space for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693429(v=VS.85).aspx">PutNetworkType</a>
+<a href="https://msdn.microsoft.com/e92fa253-7e00-457f-805e-ed13bca84254">PutNetworkType</a>
 </td>
 <td align="left" width="63%">
 Specifies the network type for the current tuning request.
@@ -112,7 +112,7 @@ Specifies the network type for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693430(v=VS.85).aspx">PutSignalSource</a>
+<a href="https://msdn.microsoft.com/81cd43b1-97a7-4663-984e-2c20a8315c7e">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Specifies the signal source for the current tuning request.
@@ -121,7 +121,7 @@ Specifies the signal source for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693431(v=VS.85).aspx">PutTuningSpace</a>
+<a href="https://msdn.microsoft.com/f3ecddfc-a95b-47ba-8a2b-5073de4aad5e">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuning space for the current tuning request.
@@ -145,7 +145,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

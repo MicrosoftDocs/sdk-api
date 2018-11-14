@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DRMCreateEnablingPrincipal
+: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
@@ -89,7 +95,7 @@ A pointer to a <a href="https://msdn.microsoft.com/8b7f22e0-586e-4950-94fe-868b3
 
 ### -param wszCredentials [in]
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> of the current user.
+A pointer to a null-terminated Unicode string that contains the <a href="r_gly.htm">rights account certificate</a> of the current user.
 
 
 ### -param phEnablingPrincipal [out]

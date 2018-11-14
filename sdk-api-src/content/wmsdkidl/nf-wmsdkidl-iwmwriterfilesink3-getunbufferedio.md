@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmsdkidl.h
+: 
+- IWMWriterFileSink3.GetUnbufferedIO
+: 
 ---
 
 # IWMWriterFileSink3::GetUnbufferedIO

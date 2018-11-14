@@ -9,8 +9,8 @@ ms.assetid: 7c89cc19-28ae-472f-9400-9bd8d0f10c63
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES enumeration [iSCSI Discovery Library API], ISCSI_DIGEST_TYPE_CRC32C, ISCSI_DIGEST_TYPE_NONE, iscsidisc.iscsi_digest_types, iscsidsc/ISCSI_DIGEST_TYPES, iscsidsc/ISCSI_DIGEST_TYPE_CRC32C, iscsidsc/ISCSI_DIGEST_TYPE_NONE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 

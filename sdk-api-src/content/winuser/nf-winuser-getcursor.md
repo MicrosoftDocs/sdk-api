@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetCursor
+: 
 ---
 
 # GetCursor function
@@ -60,7 +66,7 @@ req.redist:
 
 Retrieves a handle to the current cursor.
 
-To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>.
+To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://msdn.microsoft.com/4dea42e7-f78f-4e34-9e1d-e76123a209fc">GetCursorInfo</a>.
 
 
 ## -parameters
@@ -90,11 +96,11 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
+<a href="https://msdn.microsoft.com/4dea42e7-f78f-4e34-9e1d-e76123a209fc">GetCursorInfo</a>
 
 
 
@@ -102,7 +108,7 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/69bb9f90-5366-4141-97b6-57e41b774614">SetCursor</a>
  
 
  

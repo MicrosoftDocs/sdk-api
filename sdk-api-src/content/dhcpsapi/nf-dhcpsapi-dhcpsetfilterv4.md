@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpSetFilterV4
+: 
 ---
 
 # DhcpSetFilterV4 function

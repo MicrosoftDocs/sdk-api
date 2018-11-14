@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- IEnroll2.get_EnableSMIMECapabilities
+: 
 ---
 
 # IEnroll2::get_EnableSMIMECapabilities

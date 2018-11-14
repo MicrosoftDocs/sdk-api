@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_colormatrix_alpha_mode.htm
 tech.root: direct2d
 ms.assetid: 7D7CB142-5758-4745-A4CD-41B3E2465562
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_COLORMATRIX_ALPHA_MODE, D2D1_COLORMATRIX_ALPHA_MODE enumeration [Direct2D], D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED, D2D1_COLORMATRIX_ALPHA_MODE_STRAIGHT, d2d1effects/D2D1_COLORMATRIX_ALPHA_MODE, d2d1effects/D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED, d2d1effects/D2D1_COLORMATRIX_ALPHA_MODE_STRAIGHT, direct2d.d2d1_colormatrix_alpha_mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The alpha mode of the output of the <a href="https://msdn.microsoft.com/en-us/library/Hh706319(v=VS.85).aspx">Color matrix effect</a>.
+The alpha mode of the output of the <a href="https://msdn.microsoft.com/093EEEF1-8C38-414E-8261-58A6C3DD930D">Color matrix effect</a>.
 
 
 ## -enum-fields

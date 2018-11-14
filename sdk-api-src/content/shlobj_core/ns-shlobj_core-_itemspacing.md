@@ -9,8 +9,8 @@ ms.assetid: fcd7f3da-6aba-4683-bd5e-14a6b5f93cb5
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITEMSPACING, ITEMSPACING structure [Windows Shell], _ITEMSPACING, _shell_ITEMSPACING, shell.ITEMSPACING, shlobj_core/ITEMSPACING
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

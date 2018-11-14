@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkCursorButtons.get_Count
+: 
 ---
 
 # IInkCursorButtons::get_Count

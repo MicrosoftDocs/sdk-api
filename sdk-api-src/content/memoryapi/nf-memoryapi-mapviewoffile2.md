@@ -4,10 +4,10 @@ title: MapViewOfFile2 function
 author: windows-sdk-content
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffile2.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: D97138F0-2FB3-488A-91AC-A654B22FE9AD
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: MapViewOfFile2, MapViewOfFile2 function, base.mapviewoffile2, winbase/MapViewOfFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MapViewOfFile2
+: 
 ---
 
 # MapViewOfFile2 function

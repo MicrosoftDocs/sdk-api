@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- RectF.Contains
+: 
 ---
 
 # RectF::Contains(IN const RectF &)
@@ -52,8 +60,8 @@ req.redist:
 
 <span>This topic lists the 
 			Contains methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> class. For a complete list of methods for the 
-			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534931(v=VS.85).aspx">RectF Methods</a>. 
+			<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> class. For a complete list of methods for the 
+			<b>RectF</b> class, see <a href="https://msdn.microsoft.com/f14f1693-b0f3-4e68-8245-846aef1ed299">RectF Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -61,28 +69,28 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx">Contains(RectF&)</a>
+<a href="https://msdn.microsoft.com/f27723a8-173b-4eb9-b003-d74e9cb16154">Contains(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <a href="https://msdn.microsoft.com/f27723a8-173b-4eb9-b003-d74e9cb16154">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx">Contains(PointF&)</a>
+<a href="https://msdn.microsoft.com/adeb5a20-1ef0-4811-a16a-3e9d06c05cf7">Contains(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx">RectF::Contains</a> method determines whether a point is inside this rectangle.
+The <a href="https://msdn.microsoft.com/adeb5a20-1ef0-4811-a16a-3e9d06c05cf7">RectF::Contains</a> method determines whether a point is inside this rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx">Contains(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/6aa28593-4692-44e9-984c-fd25b519dd14">Contains(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
+The <a href="https://msdn.microsoft.com/6aa28593-4692-44e9-984c-fd25b519dd14">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
 
 </td>
 </tr>

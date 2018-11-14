@@ -9,8 +9,8 @@ ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

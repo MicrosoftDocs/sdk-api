@@ -9,8 +9,8 @@ ms.assetid: c10b050a-8319-4e21-85aa-0bceb76abaaf
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWeeklyTrigger, IWeeklyTrigger interface [Task Scheduler], IWeeklyTrigger interface [Task Scheduler],described, taskschd.iweeklytrigger, taskschd/IWeeklyTrigger, weekly trigger [Task Scheduler],interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -85,7 +85,7 @@ When reading or writing your own XML for a task, a weekly trigger is specified u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

@@ -4,10 +4,10 @@ title: CheckTokenCapability function
 author: windows-sdk-content
 description: Checks the capabilities of a given token.
 old-location: security\checktokencapability.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 436A5110-B79E-4E64-92E8-1C9E713D0948
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CheckTokenCapability
+: 
 ---
 
 # CheckTokenCapability function

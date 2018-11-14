@@ -9,8 +9,8 @@ ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], WSAData, _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock.h
 req.include-header: Winsock2.h

@@ -9,8 +9,8 @@ ms.assetid: 1efda80d-cf5b-4312-801a-ea3585b152ac
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP structure pointer, PROCESSOR_RELATIONSHIP, PROCESSOR_RELATIONSHIP structure, _PROCESSOR_RELATIONSHIP, base.processor_relationship, winnt/PPROCESSOR_RELATIONSHIP, winnt/PROCESSOR_RELATIONSHIP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

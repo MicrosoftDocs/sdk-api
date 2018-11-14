@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_FILL_MODE.htm
 tech.root: direct2d
 ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_FILL_MODE, D2D1_FILL_MODE enumeration [Direct2D], D2D1_FILL_MODE_ALTERNATE, D2D1_FILL_MODE_WINDING, d2d1/D2D1_FILL_MODE, d2d1/D2D1_FILL_MODE_ALTERNATE, d2d1/D2D1_FILL_MODE_WINDING, direct2d.D2D1_FILL_MODE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
@@ -89,21 +89,21 @@ Direct2D fills the interior of a path by using one of the two fill modes specifi
 
  To see the difference between the winding and alternate fill modes, assume that you have four circles with the same center and a different radius, as shown in the following illustration. The first one has the radius of 25, the second 50, the third 75, and the fourth 100.
 
-<img alt="Illustration of four concentric circles with different radius values" src="./images/fillmode_not_filled_01.png"/>
+<img alt="Illustration of four concentric circles with different radius values" src="images/fillmode_not_filled_01.png"/>
 The following  illustration shows the shape filled by using the alternate fill mode. Notice that the center and third ring are not filled. This is because a ray drawn from any point in either of those two rings passes through an even number of segments. 
 
-<img alt="Illustration of concentric circles with the second and fourth rings filled" src="./images/fillmode_01.png"/>
+<img alt="Illustration of concentric circles with the second and fourth rings filled" src="images/fillmode_01.png"/>
 The following illustration explains this process. 
 
-<img alt="Illustration of concentric circles with points in the second and third rings and two arbitrary rays extending from each point" src="./images/fillmode_03.png"/>
+<img alt="Illustration of concentric circles with points in the second and third rings and two arbitrary rays extending from each point" src="images/fillmode_03.png"/>
 The following illustration shows how the same shape is filled when the winding fill mode is specified. 
 
-<img alt="Illustration of concentric circles with all rings filled" src="./images/fillmode_02.png"/>
+<img alt="Illustration of concentric circles with all rings filled" src="images/fillmode_02.png"/>
 Notice that all the rings are filled. This is because all the segments run in the same direction, so a ray drawn from any point will cross one or more segments, and the sum of the crossings will not equal zero. 
 
 The following illustration explains this process. The red arrows represent the direction in which the segments are drawn and the black arrow represents an arbitrary ray that runs from a point in the innermost ring. Starting with a value of zero, for each segment that the ray crosses, a value of one is added for every clockwise intersection. All points lie in the fill region in this illustration, because the count does not equal zero. 
 
-<img alt="Illustration of concentric circles with a ray from within the first ring that crosses all four rings" src="./images/fillmode_04.png"/>
+<img alt="Illustration of concentric circles with a ray from within the first ring that crosses all four rings" src="images/fillmode_04.png"/>
 
 #### Examples
 
@@ -215,7 +215,7 @@ The following code example creates the geometry groups used the preceding illust
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756653(v=VS.85).aspx">Geometries Overview</a>
+<a href="https://msdn.microsoft.com/f5870d4b-dd30-4034-884e-1c398a6865c6">Geometries Overview</a>
 
 
 

@@ -50,6 +50,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- BackupWrite
+: 
 ---
 
 # BackupWrite function
@@ -61,7 +67,7 @@ req.redist:
 The <b>BackupWrite</b> function can be used to 
     restore a file or directory that was backed up using 
     <a href="https://msdn.microsoft.com/47d13662-af70-4c76-9fb6-3835e329ae5f">BackupRead</a>. Use the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> function to get a stream of data from the backup 
+    <a href="base.readfile">ReadFile</a> function to get a stream of data from the backup 
     medium, then use <b>BackupWrite</b> to write the data to the specified file or 
     directory.
 
@@ -74,15 +80,15 @@ The <b>BackupWrite</b> function can be used to
 ### -param hFile [in]
 
 Handle to the file or directory to be restored. To obtain the handle, call the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. The SACLs are not restored unless  
+      <a href="base.createfile">CreateFile</a> function. The SACLs are not restored unless  
       the file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. To ensure that the integrity ACEs are restored correctly, the file handle must also have been created with the <b>WRITE_OWNER</b> access right. For more 
       information, see <a href="base.file_security_and_access_rights">File Security and Access 
       Rights</a>.
 
-The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
+The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="base.createfile">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 
 The <b>BackupWrite</b> function may fail if 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> was called with the flag 
+      <a href="base.createfile">CreateFile</a> was called with the flag 
       <b>FILE_FLAG_NO_BUFFERING</b>. In this case, the 
       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the value
       <b>ERROR_INVALID_PARAMETER</b>.
@@ -158,7 +164,7 @@ If the function fails, the return value is zero, indicating that an I/O error oc
 
 This function is not intended for use in restoring files encrypted under the 
     <a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">Encrypted File System</a>. Use 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365746(v=VS.85).aspx">WriteEncryptedFileRaw</a> for that purpose.
+    <a href="base.writeencryptedfileraw">WriteEncryptedFileRaw</a> for that purpose.
 
 The data read from the backup medium must be substreams separated by 
     <a href="https://msdn.microsoft.com/8beb4315-ec0e-4f6f-abfe-369094f7bedd">WIN32_STREAM_ID</a> structures.
@@ -181,7 +187,7 @@ The <b>BACKUP_LINK</b> stream type lets you restore files with hard links.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
@@ -189,7 +195,7 @@ The <b>BACKUP_LINK</b> stream type lets you restore files with hard links.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365746(v=VS.85).aspx">WriteEncryptedFileRaw</a>
+<a href="base.writeencryptedfileraw">WriteEncryptedFileRaw</a>
  
 
  

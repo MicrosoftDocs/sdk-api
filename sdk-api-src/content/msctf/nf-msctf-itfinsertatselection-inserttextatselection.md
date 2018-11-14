@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- msctf.h
+: 
+- ITfInsertAtSelection.InsertTextAtSelection
+: 
 ---
 
 # ITfInsertAtSelection::InsertTextAtSelection
@@ -196,7 +204,7 @@ Selection is read-only.
 
 
 
-To insert an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object instead of text, use <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
+To insert an <a href="_ole_idataobject">IDataObject</a> object instead of text, use <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
 
 
 
@@ -206,7 +214,7 @@ To insert an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

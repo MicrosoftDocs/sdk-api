@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DQuery9.GetDataSize
+: 
 ---
 
 # IDirect3DQuery9::GetDataSize
@@ -77,7 +85,7 @@ Returns the number of bytes of query data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205872(v=VS.85).aspx">IDirect3DQuery9</a>
+<a href="https://msdn.microsoft.com/7f25d64e-ece6-4544-ada0-5cc3d34b88e6">IDirect3DQuery9</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: bb473a7e-8957-4e85-98d0-13c6992fbf37
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], IDVB_SDT interface [Microsoft TV Technologies],described, IDVB_SDTInterface, dvbsiparser/IDVB_SDT, mstv.idvb_sdt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

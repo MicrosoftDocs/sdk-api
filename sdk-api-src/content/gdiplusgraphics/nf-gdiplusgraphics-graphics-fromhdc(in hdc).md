@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.FromHDC
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -52,7 +60,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::FromHDC</b> method creates a 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that is associated with a specified device context.
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that is associated with a specified device context.
 
 
 ## -parameters
@@ -65,18 +73,18 @@ The <b>Graphics::FromHDC</b> method creates a
 Type: <b>HDC</b>
 
 Handle to the device context that will be associated with the new 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. 
+					<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 
@@ -86,7 +94,7 @@ This method returns a pointer to the new
 
 
 When you use this method to create a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, make sure that the 
+				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, make sure that the 
 				<b>Graphics</b> object is deleted before the device context is released.
 
 
@@ -95,21 +103,25 @@ When you use this method to create a
 
 
 The following example calls <b>Graphics::FromHDC</b> to create a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and then uses that 
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and then uses that 
 						<b>Graphics</b> object to draw a rectangle.
 
-
-```cpp
-VOID Example_FromHDC(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_FromHDC(HDC hdc)
 {
    Graphics* pGraphics = Graphics::FromHDC(hdc);
    Pen pen(Color(255, 255, 0, 0));
-   pGraphics->DrawRectangle(&pen, 10, 10, 200, 100);
+   pGraphics-&gt;DrawRectangle(&amp;pen, 10, 10, 200, 100);
    delete pGraphics;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -126,7 +138,7 @@ VOID Example_FromHDC(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

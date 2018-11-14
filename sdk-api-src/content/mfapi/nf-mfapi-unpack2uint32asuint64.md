@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Unpack2UINT32AsUINT64
+: 
 ---
 
 # Unpack2UINT32AsUINT64 function

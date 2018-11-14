@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ExportNtmsDatabase
+: 
 ---
 
 # ExportNtmsDatabase function
@@ -171,7 +177,7 @@ This function creates a subdirectory called Export and places the consistent fil
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Backup and Recovery Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Backup and Recovery Functions</a>
 
 
 

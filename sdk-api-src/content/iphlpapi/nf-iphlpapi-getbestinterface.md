@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetBestInterface
+: 
 ---
 
 # GetBestInterface function
@@ -174,7 +180,7 @@ On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated inte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366822(v=VS.85).aspx">MIB_BEST_IF</a>
+<a href="_mpr_mib_best_if">MIB_BEST_IF</a>
 
 
 

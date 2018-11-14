@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_STATE
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PXINPUT_STATE, PXINPUT_STATE, PXINPUT_STATE structure pointer [XInput Game Controller APIs], XINPUT_STATE, XINPUT_STATE structure [XInput Game Controller APIs], _XINPUT_STATE, xinput.xinput_state, xinput/PXINPUT_STATE, xinput/XINPUT_STATE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 
@@ -66,7 +66,7 @@ State packet number. The packet number indicates whether there have been any cha
 ### -field Gamepad
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
 
 
 ## -remarks
@@ -85,7 +85,7 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a>
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a>
 
 
 
@@ -93,7 +93,7 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a>
  
 
  

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rend.h
+: 
+- ITDirectoryObjectUser.get_IPPhonePrimary
+: 
 ---
 
 # ITDirectoryObjectUser::get_IPPhonePrimary
@@ -111,7 +119,7 @@ Invalid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 

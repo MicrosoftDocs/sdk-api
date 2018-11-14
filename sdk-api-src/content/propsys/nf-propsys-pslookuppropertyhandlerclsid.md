@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PSLookupPropertyHandlerCLSID
+: 
 ---
 
 # PSLookupPropertyHandlerCLSID function
@@ -87,7 +93,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-For information on how to register your handler, see <a href="https://msdn.microsoft.com/en-us/library/Cc144131(v=VS.85).aspx">Initializing Property Handlers</a>.
+For information on how to register your handler, see <a href="shell.Building_Property_Handlers_Property_Handlers">Initializing Property Handlers</a>.
 
 This function returns only those handlers registered under <b>HKEY_LOCAL_MACHINE</b>.
 
@@ -95,12 +101,12 @@ Most calling applications should not need to call this method or use <a href="ht
 
 If no property handler is registered for the specified file, this function returns an error code. When this happens, it might still be possible to read certain file system properties from the property store returned from <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>.
 
-Applications that need to create a property handler from code and that must run both on Windows Vista and on Windows XP can call <a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a> to create a property store for a Shell item through the Microsoft Windows Desktop Search (WDS) redistributable.
+Applications that need to create a property handler from code and that must run both on Windows Vista and on Windows XP can call <a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a> to create a property store for a Shell item through the Microsoft Windows Desktop Search (WDS) redistributable.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762084(v=VS.85).aspx">PSLookupPropertyHandlerCLSID</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSLookupPropertyHandlerCLSID">PSLookupPropertyHandlerCLSID</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,7 +138,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776499(v=VS.85).aspx">PSGetItemPropertyHandler</a>
+<a href="shell.PSGetItemPropertyHandler">PSGetItemPropertyHandler</a>
  
 
  

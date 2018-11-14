@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibra
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IPrintDialogServices, IPrintDialogServices interface [Dialog Boxes], IPrintDialogServices interface [Dialog Boxes],described, _win32_IPrintDialogServices, _win32_iprintdialogservices_cpp, commdlg/IPrintDialogServices, dlgbox.iprintdialogservices, winui._win32_iprintdialogservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: commdlg.h
 req.include-header: Windows.h

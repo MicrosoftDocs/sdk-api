@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- TextRange_Clone
+: 
 ---
 
 # TextRange_Clone function

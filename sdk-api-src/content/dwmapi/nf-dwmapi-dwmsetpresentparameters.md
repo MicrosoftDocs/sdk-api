@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DwmSetPresentParameters
+: 
 ---
 
 # DwmSetPresentParameters function
@@ -69,7 +75,7 @@ The handle to the window where the present parameters are applied.
 
 ### -param pPresentParams [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa969501(v=VS.85).aspx">DWM_PRESENT_PARAMETERS</a> structure that contains DWM video frame parameters for frame composition.
+A pointer to a <a href="https://msdn.microsoft.com/9fa736e7-9816-45e7-a864-da88403369b9">DWM_PRESENT_PARAMETERS</a> structure that contains DWM video frame parameters for frame composition.
 
 
 ## -returns

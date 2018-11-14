@@ -9,8 +9,8 @@ ms.assetid: 667ef815-ef22-4dd1-9457-49af674b24ab
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbParentalRatingDescriptor, mstv.idvbparentalratingdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

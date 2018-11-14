@@ -9,8 +9,8 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\flushintention.htm
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: FlushIntention, FlushIntention enumeration [GDI+], FlushIntentionFlush, FlushIntentionSync, _gdiplus_ENUM_FlushIntention, gdiplus._gdiplus_ENUM_FlushIntention, gdiplusenums/FlushIntention, gdiplusenums/FlushIntentionFlush, gdiplusenums/FlushIntentionSync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
@@ -62,13 +62,13 @@ The <b>FlushIntention</b> enumeration specifies when to flush the queue of graph
 ### -field FlushIntentionFlush
 
 When passed to the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535692(v=VS.85).aspx">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 
+				<a href="https://msdn.microsoft.com/76042de2-67d7-49b0-8a31-29fdc1a4e7be">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 
 				<b>Graphics::Flush</b> method is not synchronized with the completion of the rendering operations and might return before the rendering operations are completed. 
 
 
 ### -field FlushIntentionSync
 
 When passed to the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535692(v=VS.85).aspx">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 
+				<a href="https://msdn.microsoft.com/76042de2-67d7-49b0-8a31-29fdc1a4e7be">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 
 				<b>Graphics::Flush</b> method is synchronized with the completion of the rendering operations; that is, it will not return until after the rendering operations are completed. 
 

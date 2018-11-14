@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- StringCbLengthA
+: 
 ---
 
 # StringCbLengthA function
@@ -171,7 +177,7 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647539(v=VS.85).aspx">StringCchLength</a>
+<a href="https://msdn.microsoft.com/4b29469a-e9a8-4309-9d19-db74a8bd6038">StringCchLength</a>
  
 
  

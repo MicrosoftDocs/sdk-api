@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- cscobj.h
+: 
+- IOfflineFilesItemFilter.GetPatternFilter
+: 
 ---
 
 # IOfflineFilesItemFilter::GetPatternFilter
@@ -103,7 +111,7 @@ While this method can be implemented in any filter type (inclusion, exclusion) o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530576(v=VS.85).aspx">IOfflineFilesItemFilter</a>
+<a href="https://msdn.microsoft.com/e77b4f90-7a08-47f8-b297-8c1360167e1f">IOfflineFilesItemFilter</a>
  
 
  

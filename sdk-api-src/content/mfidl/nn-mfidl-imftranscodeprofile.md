@@ -9,8 +9,8 @@ ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

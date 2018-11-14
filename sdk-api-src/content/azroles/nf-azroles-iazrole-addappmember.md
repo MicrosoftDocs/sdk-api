@@ -4,10 +4,10 @@ title: IAzRole::AddAppMember
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this role.
 old-location: security\iazrole_addappmember.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 118387f8-a422-4a8d-9d12-a5b5ee1e7b06
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzRole object, AddAppMember method [Security],IAzRole interface, AzRole object [Security],AddAppMember method, IAzRole interface [Security],AddAppMember method, IAzRole.AddAppMember, IAzRole::AddAppMember, azroles/IAzRole::AddAppMember, security.iazrole_addappmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzRole.AddAppMember
+: 
 ---
 
 # IAzRole::AddAppMember
@@ -51,7 +59,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>AddAppMember</b> method adds the specified <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to the list of application groups that belong to this role.
+The <b>AddAppMember</b> method adds the specified <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to the list of application groups that belong to this role.
 
 
 ## -parameters
@@ -61,7 +69,7 @@ The <b>AddAppMember</b> method adds the specified <a href="https://msdn.microsof
 
 ### -param bstrProp [in]
 
-String that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa377318(v=VS.85).aspx">Name</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to add to the list of the application groups that belong to this role.
+String that contains the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a> property of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to add to the list of the application groups that belong to this role.
 
 
 ### -param varReserved [in, optional]
@@ -73,9 +81,9 @@ Reserved for future use.
 
 
 
-To view the list of application groups that belong to this role, use the <a href="https://msdn.microsoft.com/en-us/library/Aa378176(v=VS.85).aspx">AppMembers</a> property.
+To view the list of application groups that belong to this role, use the <a href="https://msdn.microsoft.com/c41933d4-d3fe-485c-9249-e82d51c0bfc9">AppMembers</a> property.
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa378231(v=VS.85).aspx">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://msdn.microsoft.com/97f2018a-92f0-4ebb-85f1-78c140003d8f">Submit</a> method to persist any changes made by this method.
 
 
 

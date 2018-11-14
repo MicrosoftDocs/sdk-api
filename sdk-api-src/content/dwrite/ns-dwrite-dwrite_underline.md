@@ -9,8 +9,8 @@ ms.assetid: 01f6c48e-6986-4a6e-9dd8-9f4b098db7fd
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: DWRITE_UNDERLINE, DWRITE_UNDERLINE structure [Direct Write], directwrite.dwrite_underline, dwrite/DWRITE_UNDERLINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 35e66c77-db26-4806-9b56-51539b23bb61
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_METADATA_EXCHANGE_TYPE, WS_METADATA_EXCHANGE_TYPE enumeration [Web Services for Windows], WS_METADATA_EXCHANGE_TYPE_HTTP_GET, WS_METADATA_EXCHANGE_TYPE_MEX, WS_METADATA_EXCHANGE_TYPE_NONE, webservices/WS_METADATA_EXCHANGE_TYPE, webservices/WS_METADATA_EXCHANGE_TYPE_HTTP_GET, webservices/WS_METADATA_EXCHANGE_TYPE_MEX, webservices/WS_METADATA_EXCHANGE_TYPE_NONE, wsw.ws_metadata_exchange_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

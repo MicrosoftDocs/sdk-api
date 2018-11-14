@@ -9,8 +9,8 @@ ms.assetid: fae8bf21-2a38-4e98-9a11-89c548da9e95
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IWeakReference, IWeakReference interface [Windows Runtime], IWeakReference interface [Windows Runtime],described, weakreference/IWeakReference, winrt.iweakreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: weakreference.h
 req.include-header: 

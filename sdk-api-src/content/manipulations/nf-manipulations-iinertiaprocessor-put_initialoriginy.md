@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- manipulations.h
+: 
+- IInertiaProcessor.put_InitialOriginY
+: 
 ---
 
 # IInertiaProcessor::put_InitialOriginY

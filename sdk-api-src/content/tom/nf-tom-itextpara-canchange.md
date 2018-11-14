@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextPara.CanChange
+: 
 ---
 
 # ITextPara::CanChange
@@ -87,7 +95,7 @@ If paragraph formatting can change, <b>ITextPara::CanChange</b> succeeds and ret
 
 
 
-The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph formatting can be changed (that is, if no part of an associated range is protected and an associated document is not read-only). If this <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> object is a duplicate, no protection rules apply.
+The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph formatting can be changed (that is, if no part of an associated range is protected and an associated document is not read-only). If this <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object is a duplicate, no protection rules apply.
 
 
 
@@ -101,7 +109,7 @@ The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -109,7 +117,7 @@ The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

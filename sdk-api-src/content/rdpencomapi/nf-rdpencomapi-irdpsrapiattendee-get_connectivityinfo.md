@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIAttendee.get_ConnectivityInfo
+: 
 ---
 
 # IRDPSRAPIAttendee::get_ConnectivityInfo

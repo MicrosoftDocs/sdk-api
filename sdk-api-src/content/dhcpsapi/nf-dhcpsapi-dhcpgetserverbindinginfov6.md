@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpGetServerBindingInfoV6
+: 
 ---
 
 # DhcpGetServerBindingInfoV6 function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyDescription.GetDisplayType
+: 
 ---
 
 # IPropertyDescription::GetDisplayType
@@ -100,7 +108,7 @@ The value is displayed as date and time.
 #### PDDT_ENUMERATED (0x00000004) (4)
 
 The value is displayed as an enumerated type-list.
-                    Use <a href="https://msdn.microsoft.com/library/Bb761539(v=VS.85).aspx">IPropertyDescription::GetEnumTypeList</a> to handle this type.
+                    Use <a href="shell.IPropertyDescription_GetEnumTypeList">IPropertyDescription::GetEnumTypeList</a> to handle this type.
                     
 
 
@@ -119,7 +127,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -129,7 +137,7 @@ The value retrieved by this method is originally set through the <i>displayType<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

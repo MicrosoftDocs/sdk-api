@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- ICrmMonitorClerks.get__NewEnum
+: 
 ---
 
 # ICrmMonitorClerks::get__NewEnum

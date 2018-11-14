@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
+: 
 ---
 
 # IDirect3D9ExOverlayExtension::CheckDeviceOverlayType

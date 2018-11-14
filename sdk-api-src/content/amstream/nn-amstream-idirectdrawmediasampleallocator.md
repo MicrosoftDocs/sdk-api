@@ -9,8 +9,8 @@ ms.assetid: 35fd81ce-058a-4caf-b1de-f669be586f33
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], IDirectDrawMediaSampleAllocator interface [DirectShow],described, IDirectDrawMediaSampleAllocatorInterface, amstream/IDirectDrawMediaSampleAllocator, dshow.idirectdrawmediasampleallocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 

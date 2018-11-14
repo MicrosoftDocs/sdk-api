@@ -9,8 +9,8 @@ ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ETW_PROCESS_HANDLE_INFO_TYPE, ETW_PROCESS_HANDLE_INFO_TYPE enumeration [ETW], EtwQueryPartitionInformation, EtwQueryProcessHandleInfoMax, _ETW_PROCESS_HANDLE_INFO_TYPE, etw.etw_process_handle_info_type, evntrace/ETW_PROCESS_HANDLE_INFO_TYPE, evntrace/EtwQueryPartitionInformation, evntrace/EtwQueryProcessHandleInfoMax
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: evntrace.h
 req.include-header: 

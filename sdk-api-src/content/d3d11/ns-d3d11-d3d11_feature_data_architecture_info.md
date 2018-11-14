@@ -9,8 +9,8 @@ ms.assetid: BC815FDB-984C-4857-AF48-8B471F46CDD4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: D3D11_FEATURE_DATA_ARCHITECTURE_INFO, D3D11_FEATURE_DATA_ARCHITECTURE_INFO structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO, direct3d11.d3d11_feature_data_architecture_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -67,11 +67,11 @@ Specifies whether a rendering device batches rendering commands and performs mul
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
  
 
  

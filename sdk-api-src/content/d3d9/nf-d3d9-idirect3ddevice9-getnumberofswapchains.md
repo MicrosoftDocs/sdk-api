@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9.h
+: 
+- IDirect3DDevice9.GetNumberOfSwapChains
+: 
 ---
 
 # IDirect3DDevice9::GetNumberOfSwapChains
@@ -76,11 +84,11 @@ Number of implicit swap chains. See Remarks.
 
 
 
-Implicit swap chains are created by the device during <a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a>. This method returns the number of swap chains created by CreateDevice. 
+Implicit swap chains are created by the device during <a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a>. This method returns the number of swap chains created by CreateDevice. 
     
 
 
-An application may create additional swap chains using <a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">IDirect3DDevice9::CreateAdditionalSwapChain</a>.
+An application may create additional swap chains using <a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">IDirect3DDevice9::CreateAdditionalSwapChain</a>.
 
 
 
@@ -90,7 +98,7 @@ An application may create additional swap chains using <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

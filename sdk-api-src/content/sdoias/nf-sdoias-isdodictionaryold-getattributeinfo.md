@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sdoias.h
+: 
+- ISdoDictionaryOld.GetAttributeInfo
+: 
 ---
 
 # ISdoDictionaryOld::GetAttributeInfo
@@ -71,7 +79,7 @@ Pointer to an array of information IDs. This pointer cannot be <b>NULL</b>.
 
 ### -param pInfoValues [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of 
+Pointer to a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> of 
       information values.
 
 
@@ -109,11 +117,11 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a>
+<a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
  
 
  

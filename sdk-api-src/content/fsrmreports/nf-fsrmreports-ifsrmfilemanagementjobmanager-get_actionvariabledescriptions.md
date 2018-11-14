@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmreports.h
+: 
+- IFsrmFileManagementJobManager.get_ActionVariableDescriptions
+: 
 ---
 
 # IFsrmFileManagementJobManager::get_ActionVariableDescriptions

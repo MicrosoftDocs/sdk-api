@@ -9,8 +9,8 @@ ms.assetid: 65066913-f9d8-48c7-bcb5-68c8ddc4a009
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IClientSecurity, IClientSecurity interface [COM], IClientSecurity interface [COM],described, _com_iclientsecurity, com.iclientsecurity, objidl/IClientSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
@@ -55,7 +55,7 @@ Gives the client control over the security settings for each individual interfac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClientSecurity</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IClientSecurity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClientSecurity</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IClientSecurity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

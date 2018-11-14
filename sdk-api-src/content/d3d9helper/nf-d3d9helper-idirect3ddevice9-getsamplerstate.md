@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d9helper.h
+: 
+- IDirect3DDevice9.GetSamplerState
+: 
 ---
 
 # IDirect3DDevice9::GetSamplerState
@@ -68,9 +76,9 @@ The sampler stage index.
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx">D3DSAMPLERSTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0">D3DSAMPLERSTATETYPE</a></b>
 
-This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx">D3DSAMPLERSTATETYPE</a> enumerated type. 
+This parameter can be any member of the <a href="https://msdn.microsoft.com/03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0">D3DSAMPLERSTATETYPE</a> enumerated type. 
 
 
 ### -param pValue [out]
@@ -84,7 +92,7 @@ State value to get. The meaning of this value is determined by the Type paramete
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -95,7 +103,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>."
+This method will not return device state for a device that is created using D3DCREATE_PUREDEVICE. If you want to use this method, you must create your device with any of the other values in <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE</a>."
     
 
 
@@ -107,11 +115,11 @@ This method will not return device state for a device that is created using D3DC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174456(v=VS.85).aspx">IDirect3DDevice9::SetSamplerState</a>
+<a href="https://msdn.microsoft.com/2aee31b4-dab0-4a73-ae8a-1bee1876ed8c">IDirect3DDevice9::SetSamplerState</a>
  
 
  

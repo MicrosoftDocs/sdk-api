@@ -9,8 +9,8 @@ ms.assetid: 462dfc20-ad5a-425c-94b5-f21ab05f5af8
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: IDCompositionVisual, IDCompositionVisual interface [DirectComposition], IDCompositionVisual interface [DirectComposition],described, dcomp/IDCompositionVisual, directcomp.idcompositionvisual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

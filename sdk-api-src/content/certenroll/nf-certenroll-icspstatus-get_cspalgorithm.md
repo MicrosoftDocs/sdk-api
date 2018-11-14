@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspStatus.get_CspAlgorithm
+: 
 ---
 
 # ICspStatus::get_CspAlgorithm
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>CspAlgorithm</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> object that contains information about an algorithm supported by the provider. This property is web enabled.
+The <b>CspAlgorithm</b> property retrieves an <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> object that contains information about an algorithm supported by the provider. This property is web enabled.
 
 This property is read-only.
 
@@ -63,7 +71,7 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> object includes the following information about an algorithm:<ul>
+The <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> object includes the following information about an algorithm:<ul>
 <li>The default, minimum, maximum, and incremental lengths of the key.</li>
 <li>The abbreviated and long name of the algorithm.</li>
 <li>The cryptographic operations that can be performed by the algorithm.</li>
@@ -78,11 +86,11 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">IC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
+<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: efswrtinterop.h
 req.include-header: 

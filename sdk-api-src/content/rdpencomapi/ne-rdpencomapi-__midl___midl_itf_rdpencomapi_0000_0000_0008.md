@@ -9,8 +9,8 @@ ms.assetid: fc7b6be3-3929-4b88-9899-3949706e8985
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: APP_FLAG_PRIVILEGED, RDPSRAPI_APP_FLAGS, RDPSRAPI_APP_FLAGS enumeration [RDP], __MIDL___MIDL_itf_rdpencomapi_0000_0000_0008, rdp.rdpsrapi_app_flags, rdpencomapi/APP_FLAG_PRIVILEGED, rdpencomapi/RDPSRAPI_APP_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 2a0ec2c0-0bec-4aeb-bbd5-0db18f0d5f8c
 ms.author: windowssdkdev
 ms.date: 10/31/2018
 ms.keywords: IReconcilableObject, IReconcilableObject interface [Legacy Windows Environment Features], IReconcilableObject interface [Legacy Windows Environment Features],described, _win32_IReconcilableObject, lwef.ireconcilableobject, reconcil/IReconcilableObject, shell.ireconcilableobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: reconcil.h
 req.include-header: 

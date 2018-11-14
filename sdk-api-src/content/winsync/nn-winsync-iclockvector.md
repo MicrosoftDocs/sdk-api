@@ -9,8 +9,8 @@ ms.assetid: 31aef38d-a6df-4645-a192-9145d3ec90ad
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IClockVector, IClockVector interface [Windows Sync], IClockVector interface [Windows Sync],described, winsync.iclockvector, winsync/IClockVector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

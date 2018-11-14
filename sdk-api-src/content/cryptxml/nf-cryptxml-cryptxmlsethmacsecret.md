@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlSetHMACSecret
+: 
 ---
 
 # CryptXmlSetHMACSecret function
@@ -51,7 +57,7 @@ req.redist:
 
 
 The <b>CryptXmlSetHMACSecret</b> function sets the HMAC secret on the handle before
- calling the <a href="https://msdn.microsoft.com/en-us/library/Dd433832(v=VS.85).aspx">CryptXmlSign</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd433833(v=VS.85).aspx">CryptXmlVerify</a> function.
+ calling the <a href="https://msdn.microsoft.com/38bd365e-bc63-498c-a650-471429f09d37">CryptXmlSign</a> or <a href="https://msdn.microsoft.com/1f8776dc-d91a-4be9-90bf-7d36d587ffb2">CryptXmlVerify</a> function.
 
 
 ## -parameters
@@ -67,7 +73,7 @@ The handle of the XML <b>Signature</b> element.
 ### -param pbSecret [in]
 
 A pointer to a buffer that contains a block of bytes. 
-    The pointer must be valid during the call to the <a href="https://msdn.microsoft.com/en-us/library/Dd433832(v=VS.85).aspx">CryptXmlSign</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd433833(v=VS.85).aspx">CryptXmlVerify</a> function.
+    The pointer must be valid during the call to the <a href="https://msdn.microsoft.com/38bd365e-bc63-498c-a650-471429f09d37">CryptXmlSign</a> or <a href="https://msdn.microsoft.com/1f8776dc-d91a-4be9-90bf-7d36d587ffb2">CryptXmlVerify</a> function.
 
 
 ### -param cbSecret

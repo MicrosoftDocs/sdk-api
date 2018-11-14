@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- credentialprovider.h
+: 
+- ICredentialProviderUserArray.SetProviderFilter
+: 
 ---
 
 # ICredentialProviderUserArray::SetProviderFilter
@@ -76,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh706923(v=VS.85).aspx">ICredentialProviderUserArray</a> object contains all of the available users in the current <a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">scenario</a>. This method enables your credential provider to specify a particular subset of those users. For example, if your credential provider handles only Microsoft account users from a specific connected provider, it can call this method with the Microsoft account provider's ID to filter out users that belong to other providers.
+The <a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a> object contains all of the available users in the current <a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">scenario</a>. This method enables your credential provider to specify a particular subset of those users. For example, if your credential provider handles only Microsoft account users from a specific connected provider, it can call this method with the Microsoft account provider's ID to filter out users that belong to other providers.
 
 This method can only be called once, to filter for a single account provider. If the method is called again, the call will fail with a return value of E_UNEXPECTED.
 
@@ -88,11 +96,11 @@ This method can only be called once, to filter for a single account provider. If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706928(v=VS.85).aspx">ICredentialProviderUser::GetProviderID</a>
+<a href="https://msdn.microsoft.com/7BD6C532-0266-4579-96FA-91D0AF7E6C4C">ICredentialProviderUser::GetProviderID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706923(v=VS.85).aspx">ICredentialProviderUserArray</a>
+<a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a>
  
 
  

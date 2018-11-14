@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORT2
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMSHORT2, XMSHORT2 structure [DirectX Math Support APIs], directxpackedvector/XMSHORT2, dxmath.xmshort2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -54,9 +54,9 @@ Describes a 2D vector consisting of 16-bit signed and normalized integer compone
     
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMSHORT2</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415426(v=VS.85).aspx">XMSHORT2 Extensions</a>.
+	using <code>XMSHORT2</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/cc0db281-e304-408a-8b3d-2d520bfa283e">XMSHORT2 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -109,7 +109,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415426(v=VS.85).aspx">XMSHORT2 Extensions</a>
+<a href="https://msdn.microsoft.com/cc0db281-e304-408a-8b3d-2d520bfa283e">XMSHORT2 Extensions</a>
  
 
  

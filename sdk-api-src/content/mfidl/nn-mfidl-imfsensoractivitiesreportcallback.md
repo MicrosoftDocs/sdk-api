@@ -9,8 +9,8 @@ ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HT_Get8BPPMaskPalette
+: 
 ---
 
 # HT_Get8BPPMaskPalette function

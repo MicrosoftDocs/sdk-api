@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdatif.h
+: 
+- ITuneRequestInfo.GetNextLocator
+: 
 ---
 
 # ITuneRequestInfo::GetNextLocator
@@ -75,7 +83,7 @@ TBD
 
 #### - pCurrentRequest [in]
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface of the current tune request. <b>NULL</b> means to return information for the first stream.
+Specifies the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface of the current tune request. <b>NULL</b> means to return information for the first stream.
 
 
 #### - ppTuneRequest [out]
@@ -126,7 +134,7 @@ The method succeeded.
 
 
 
-This method is used internally by the Network Provider's <a href="https://msdn.microsoft.com/en-us/library/Dd694882(v=VS.85).aspx">IScanningTuner::SeekUp</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd694881(v=VS.85).aspx">IScanningTuner::SeekDown</a> methods, and is also useful for any Guide Store Loader that scans a network for EPG information.
+This method is used internally by the Network Provider's <a href="https://msdn.microsoft.com/43588b31-cac0-44c4-a282-b5939fed4ce7">IScanningTuner::SeekUp</a> and <a href="https://msdn.microsoft.com/ef78bae1-238f-4774-ab9a-b3681ba53656">IScanningTuner::SeekDown</a> methods, and is also useful for any Guide Store Loader that scans a network for EPG information.
 
 Currently this method is not implemented for DVB-C or DVB-S networks, and the method returns E_NOTIMPL. The method is implemented for DVB-T.
 
@@ -138,11 +146,11 @@ Currently this method is not implemented for DVB-C or DVB-S networks, and the me
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694998(v=VS.85).aspx">ITuneRequestInfo Interface</a>
+<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
  
 
  

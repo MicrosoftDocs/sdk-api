@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NdrStubForwardingFunction
+: 
 ---
 
 # NdrStubForwardingFunction function
@@ -60,12 +66,12 @@ The <b>NdrStubForwardingFunction</b> function is the entry point for server-side
 
 ### -param This [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  
+Pointer to an instance of the CStdStubBuffer object, implementing <a href="_com_irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  
 
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
+Pointer to <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
 
 
 ### -param pmsg [in, out]

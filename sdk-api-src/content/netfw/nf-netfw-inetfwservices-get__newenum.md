@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- netfw.h
+: 
+- INetFwServices.get__NewEnum
+: 
 ---
 
 # INetFwServices::get__NewEnum

@@ -7,10 +7,10 @@ old-location: direct2d\id2d1gradientmesh.htm
 tech.root: direct2d
 ms.assetid: 0c51da97-7b70-d828-2a4d-cb62ff378a56
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1GradientMesh, ID2D1GradientMesh interface [Direct2D], ID2D1GradientMesh interface [Direct2D],described, d2d1_3/ID2D1GradientMesh, direct2d.id2d1gradientmesh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

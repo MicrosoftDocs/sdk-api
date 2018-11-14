@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxva2api.h
+: 
+- IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
+: 
 ---
 
 # IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids

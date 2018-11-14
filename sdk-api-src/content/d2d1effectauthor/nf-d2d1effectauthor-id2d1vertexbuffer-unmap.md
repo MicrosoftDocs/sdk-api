@@ -7,7 +7,7 @@ old-location: direct2d\id2d1vertexbuffer_unmap.htm
 tech.root: direct2d
 ms.assetid: DD33E4D4-C020-4830-AD31-380E8E9217D0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1VertexBuffer interface [Direct2D],Unmap method, ID2D1VertexBuffer.Unmap, ID2D1VertexBuffer::Unmap, Unmap, Unmap method [Direct2D], Unmap method [Direct2D],ID2D1VertexBuffer interface, d2d1effectauthor/ID2D1VertexBuffer::Unmap, direct2d.id2d1vertexbuffer_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1effectauthor.h
+: 
+- ID2D1VertexBuffer.Unmap
+: 
 ---
 
 # ID2D1VertexBuffer::Unmap

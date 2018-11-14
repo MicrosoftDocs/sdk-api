@@ -9,8 +9,8 @@ ms.assetid: c093719f-7176-4ba4-ae75-399e8beeebf0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IAutoComplete2, IAutoComplete2 interface [Windows Shell], IAutoComplete2 interface [Windows Shell],described, _win32_IAutoComplete2, shell.IAutoComplete2, shldisp/IAutoComplete2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

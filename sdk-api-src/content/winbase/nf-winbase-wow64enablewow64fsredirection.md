@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- Wow64EnableWow64FsRedirection
+: 
 ---
 
 # Wow64EnableWow64FsRedirection function

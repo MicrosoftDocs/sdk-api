@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dvbsiparser.h
+: 
+- IPBDASiParser.Initialize
+: 
 ---
 
 # IPBDASiParser::Initialize
@@ -60,7 +68,7 @@ Initializes a  program and system information protocol  (PSIP) parser for a Prot
 
 ### -param punk [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the new object. 
+Pointer to the <a href="iunknown">IUnknown</a> interface for the new object. 
 
 
 ## -returns

@@ -9,8 +9,8 @@ ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], ITsSbBaseNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbBaseNotifySink, termserv.itssbbasenotifysink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

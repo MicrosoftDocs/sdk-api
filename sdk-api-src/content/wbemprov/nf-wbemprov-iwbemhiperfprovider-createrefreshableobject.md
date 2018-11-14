@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wbemprov.h
+: 
+- IWbemHiPerfProvider.CreateRefreshableObject
+: 
 ---
 
 # IWbemHiPerfProvider::CreateRefreshableObject
@@ -65,7 +73,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. If the pointer must call back into WMI during its execution, the provider calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on it.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. If the pointer must call back into WMI during its execution, the provider calls <a href="_com_iunknown_addref">AddRef</a> on it.
 
 
 ### -param pTemplate [in]

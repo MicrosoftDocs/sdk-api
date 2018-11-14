@@ -9,8 +9,8 @@ ms.assetid: 5081ebce-d3b9-4548-8d80-23d994bce7ab
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPDHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5 structure [DHCP], LPDHCP_MIB_INFO_V5, LPDHCP_MIB_INFO_V5 structure pointer [DHCP], _DHCP_MIB_INFO_V5, dhcp.dhcp_mib_info_v5, dhcpsapi/DHCP_MIB_INFO_V5, dhcpsapi/LPDHCP_MIB_INFO_V5"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

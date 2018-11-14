@@ -9,8 +9,8 @@ ms.assetid: 74ad74fd-457a-4408-8032-15d365f98b14
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_MESSAGE_PROPERTIES, WS_MESSAGE_PROPERTIES structure [Web Services for Windows], _WS_MESSAGE_PROPERTIES, webservices/WS_MESSAGE_PROPERTIES, wsw.ws_message_properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

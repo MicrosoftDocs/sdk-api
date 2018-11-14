@@ -7,7 +7,7 @@ old-location: direct3ddxgi\createdxgifactory2.htm
 tech.root: direct3ddxgi
 ms.assetid: D3CF43B0-8F17-486E-8750-CF0B9052BE74
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CreateDXGIFactory2, CreateDXGIFactory2 function [DXGI], direct3ddxgi.createdxgifactory2, dxgi1_3/CreateDXGIFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateDXGIFactory2
+: 
 ---
 
 # CreateDXGIFactory2 function
@@ -92,9 +98,9 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/D4F210E1-E184-410
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

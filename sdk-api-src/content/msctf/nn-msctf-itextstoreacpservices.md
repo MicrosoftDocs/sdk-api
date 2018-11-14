@@ -9,8 +9,8 @@ ms.assetid: 8c84429c-3f99-4ab1-b994-e4e93cd9c86d
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], ITextStoreACPServices interface [Text Services Framework],described, _tsf_itextstoreacpservices_ref, msctf/ITextStoreACPServices, tsf.itextstoreacpservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -117,7 +117,7 @@ Takes previously serialized property data and applies it to a property object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

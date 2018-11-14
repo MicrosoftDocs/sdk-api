@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFCreatePMPMediaSession
+: 
 ---
 
 # MFCreatePMPMediaSession function
@@ -150,7 +156,7 @@ If this function cannot create the PMP Media Session because a trusted binary wa
 </ol>
 If the function successfully creates the PMP Media Session, the <i>ppEnablerActivate</i> parameter receives the value <b>NULL</b>.
 
-Do not make calls to the PMP Media Session from a thread that is processing a window message sent from another thread. To test whether the current thread falls into this category, call <a href="https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx">InSendMessage</a>.
+Do not make calls to the PMP Media Session from a thread that is processing a window message sent from another thread. To test whether the current thread falls into this category, call <a href="winui._win32_InSendMessage">InSendMessage</a>.
 
 
 

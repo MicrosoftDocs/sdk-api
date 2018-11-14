@@ -9,8 +9,8 @@ ms.assetid: 6edeed33-16e1-4295-90e9-769929ab916a
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PCERT_REQUEST_INFO, CERT_REQUEST_INFO, CERT_REQUEST_INFO structure [Security], CERT_V1, PCERT_REQUEST_INFO, PCERT_REQUEST_INFO structure pointer [Security], _CERT_REQUEST_INFO, _crypto2_cert_request_info, security.cert_request_info, wincrypt/CERT_REQUEST_INFO, wincrypt/PCERT_REQUEST_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

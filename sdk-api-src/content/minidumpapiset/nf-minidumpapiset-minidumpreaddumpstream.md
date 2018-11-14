@@ -7,7 +7,7 @@ old-location: base\minidumpreaddumpstream.htm
 tech.root: debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll and Dbgcore.dll
+- apiref
+: 
+- 
+: 
+- MiniDumpReadDumpStream
+: 
 ---
 
 # MiniDumpReadDumpStream function

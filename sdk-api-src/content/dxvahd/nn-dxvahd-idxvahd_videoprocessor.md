@@ -9,8 +9,8 @@ ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dxvahd.h
 req.include-header: 

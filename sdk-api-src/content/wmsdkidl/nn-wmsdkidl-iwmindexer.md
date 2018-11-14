@@ -9,8 +9,8 @@ ms.assetid: 00627b0c-4484-417a-8680-0fd97aac41fe
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], IWMIndexer interface [windows Media Format],described, IWMIndexerInterface, wmformat.iwmindexer, wmsdkidl/IWMIndexer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IWMIndexer</b> interface is used to create an index for ASF files to enable seeking. An index is created only for a file that contains video, although the indexer can safely be used on files that do not contain any video.
 
-An index is an object in the ASF file that equates video samples with presentation times. This is important because the timing of video frames is not necessarily easily computed from the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">frame rate</a>.
+An index is an object in the ASF file that equates video samples with presentation times. This is important because the timing of video frames is not necessarily easily computed from the <a href="wmformat_glossary.htm">frame rate</a>.
 
 In addition to the standard temporal index, the indexer object can create indexes based on video frame number and SMPTE time code. For more information about creating these indexes, see <a href="https://msdn.microsoft.com/b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86">IWMIndexer2::Configure</a>.
 

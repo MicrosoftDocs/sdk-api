@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpencomapi.h
+: 
+- IRDPSRAPIVirtualChannelManager.get__NewEnum
+: 
 ---
 
 # IRDPSRAPIVirtualChannelManager::get__NewEnum

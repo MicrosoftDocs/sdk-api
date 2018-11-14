@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateDownloader.put_Priority
+: 
 ---
 
 # IUpdateDownloader::put_Priority

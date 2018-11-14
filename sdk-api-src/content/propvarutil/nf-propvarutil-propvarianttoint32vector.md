@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantToInt32Vector
+: 
 ---
 
 # PropVariantToInt32Vector function
@@ -149,7 +155,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776551(v=VS.85).aspx">PropVariantToInt32Vector</a> to access an Int32 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt32Vector">PropVariantToInt32Vector</a> to access an Int32 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -184,23 +190,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762300(v=VS.85).aspx">InitPropVariantFromInt32Vector</a>
+<a href="shell.InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776525(v=VS.85).aspx">PropVariantGetInt32Elem</a>
+<a href="shell.PropVariantGetInt32Elem">PropVariantGetInt32Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776550(v=VS.85).aspx">PropVariantToInt32</a>
+<a href="shell.PropVariantToInt32">PropVariantToInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776552(v=VS.85).aspx">PropVariantToInt32VectorAlloc</a>
+<a href="shell.PropVariantToInt32VectorAlloc">PropVariantToInt32VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776609(v=VS.85).aspx">VariantToInt32Array</a>
+<a href="shell.VariantToInt32Array">VariantToInt32Array</a>
  
 
  

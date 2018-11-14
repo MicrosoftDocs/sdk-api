@@ -9,8 +9,8 @@ ms.assetid: CBC4100A-756B-429E-8368-D5D018A2B0AC
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteFontFallback, IDWriteFontFallback interface [Direct Write], IDWriteFontFallback interface [Direct Write],described, directwrite.idwritefontfallback, dwrite_2/IDWriteFontFallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_2.h
 req.include-header: 

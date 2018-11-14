@@ -7,7 +7,7 @@ old-location: base\symgetlinenext64.htm
 tech.root: debug
 ms.assetid: 82adafc3-1080-43bc-b343-eaf59bdef6cb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymGetLineNext, SymGetLineNext function, SymGetLineNext64, SymGetLineNext64 function, SymGetLineNextW64, _win32_symgetlinenext64, base.symgetlinenext64, dbghelp/SymGetLineNext, dbghelp/SymGetLineNext64, dbghelp/SymGetLineNextW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymGetLineNext64
+: 
 ---
 
 # SymGetLineNext64 function

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xpsobjectmodel_1.h
+: 
+- IXpsOMPage1.GetDocumentType
+: 
 ---
 
 # IXpsOMPage1::GetDocumentType

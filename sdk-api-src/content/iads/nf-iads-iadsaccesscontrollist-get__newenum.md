@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- iads.h
+: 
+- IADsAccessControlList.get__NewEnum
+: 
 ---
 
 # IADsAccessControlList::get__NewEnum
@@ -67,8 +75,8 @@ TBD
 
 #### - ppEnumerator [out]
 
-Pointer to pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface used to retrieve
-      <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an enumerator object for the ACL.
+Pointer to pointer to the <a href="_com_iunknown">IUnknown</a> interface used to retrieve
+      <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an enumerator object for the ACL.
 
 
 ## -returns
@@ -208,7 +216,7 @@ The following code example shows how to enumerate ACEs using <b>IADsAccessContro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

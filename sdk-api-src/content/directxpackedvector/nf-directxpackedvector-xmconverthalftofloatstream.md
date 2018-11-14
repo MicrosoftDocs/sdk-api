@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMConvertHalfToFloatStream
+: 
 ---
 
 # XMConvertHalfToFloatStream function
@@ -111,7 +117,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419423(v=VS.85).aspx">XMConvertHalfToFloat</a>
+<a href="https://msdn.microsoft.com/40ba8255-6819-4137-b517-5fb04c18f46a">XMConvertHalfToFloat</a>
  
 
  

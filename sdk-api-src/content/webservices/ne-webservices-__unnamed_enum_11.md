@@ -9,8 +9,8 @@ ms.assetid: 3f54e012-4893-4f70-9f38-55ae9db365e8
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT, WS_SERVICE_OPERATION_MESSAGE_OPTION, WS_SERVICE_OPERATION_MESSAGE_OPTION enumeration [Web Services for Windows], __unnamed_enum_11, webservices/WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT, webservices/WS_SERVICE_OPERATION_MESSAGE_OPTION, wsw.ws_service_operation_message_option
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

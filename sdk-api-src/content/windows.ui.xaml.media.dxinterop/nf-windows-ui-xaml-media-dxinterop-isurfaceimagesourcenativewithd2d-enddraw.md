@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- windows.ui.xaml.media.dxinterop.h
+: 
+- ISurfaceImageSourceNativeWithD2D.EndDraw
+: 
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml

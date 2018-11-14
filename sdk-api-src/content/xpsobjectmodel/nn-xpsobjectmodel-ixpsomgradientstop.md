@@ -9,8 +9,8 @@ ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

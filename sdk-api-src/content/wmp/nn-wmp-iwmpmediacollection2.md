@@ -9,8 +9,8 @@ ms.assetid: 576e231e-542a-495c-ad1b-a246339c3cb1
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], IWMPMediaCollection2 interface [Windows Media Player],described, IWMPMediaCollection2Interface, wmp.iwmpmediacollection2, wmp/IWMPMediaCollection2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

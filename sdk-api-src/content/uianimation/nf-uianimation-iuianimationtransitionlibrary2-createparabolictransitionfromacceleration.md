@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration
+: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration

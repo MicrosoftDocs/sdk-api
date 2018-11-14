@@ -9,8 +9,8 @@ ms.assetid: b300b97b-e558-4c33-a84a-e92c28a3a606
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], IWMDRMWriter3 interface [windows Media Format],described, IWMDRMWriter3Interface, wmformat.iwmdrmwriter3, wmsdkidl/IWMDRMWriter3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

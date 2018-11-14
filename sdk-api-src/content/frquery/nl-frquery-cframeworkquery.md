@@ -9,8 +9,8 @@ ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: class
 req.header: frquery.h
 req.include-header: FwCommon.h

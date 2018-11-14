@@ -9,8 +9,8 @@ ms.assetid: af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: "*LPSOCKADDR, *PSOCKADDR, PSOCKADDR, PSOCKADDR structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR, SOCKADDR structure [Network Drivers Starting with Windows Vista], netvista.sockaddr, sockaddr, ws2def/PSOCKADDR, ws2def/SOCKADDR, wskref_4198a308-7f9c-4c7c-ba32-8f11e65e2349.xml"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
@@ -62,7 +62,7 @@ The SOCKADDR structure is a generic structure that specifies a transport address
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://msdn.microsoft.com/library/Ff571151(v=VS.85).aspx">WSK Address Families</a>.
+     <a href="netvista.wsk_address_families">WSK Address Families</a>.
 
 
 ### -field sa_data

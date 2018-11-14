@@ -9,8 +9,8 @@ ms.assetid: f013e59d-83ae-453f-9cc5-9a8230729128
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], IXpsOMObjectFactory1 interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory1, xpsobjectmodel_1/IXpsOMObjectFactory1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel_1.h
 req.include-header: 

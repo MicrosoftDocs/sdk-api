@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- textstor.h
+: 
+- ITextStoreACP.InsertEmbedded
+: 
 ---
 
 # ITextStoreACP::InsertEmbedded
@@ -75,7 +83,7 @@ Contains the ending character position where the object is inserted.
 
 ### -param pDataObject [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that contains data about the object inserted.
+Pointer to an <a href="_ole_idataobject">IDataObject</a> interface that contains data about the object inserted.
 
 
 ### -param pChange [out]
@@ -171,7 +179,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

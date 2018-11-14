@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CryptXmlVerifySignature
+: 
 ---
 
 # CryptXmlVerifySignature function
@@ -66,7 +72,7 @@ The handle of a <b>Signature</b> element.
 
 ### -param hKey [in, optional]
 
-The handle of the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> to use to verify the signature value on 
+The handle of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> to use to verify the signature value on 
     the <b>SignedInfo</b> element.
     This parameter must be <b>NULL</b> for HMAC-based signature algorithms.
 

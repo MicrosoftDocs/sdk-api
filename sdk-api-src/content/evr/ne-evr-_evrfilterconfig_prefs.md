@@ -9,8 +9,8 @@ ms.assetid: 39d6845e-8655-4f8f-be39-76d704fd1177
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: EVRFilterConfigPrefs, EVRFilterConfigPrefs enumeration [Media Foundation], EVRFilterConfigPrefs_EnableQoS, EVRFilterConfigPrefs_Mask, _EVRFilterConfig_Prefs, evr/EVRFilterConfigPrefs, evr/EVRFilterConfigPrefs_EnableQoS, evr/EVRFilterConfigPrefs_Mask, mf.evrfilterconfigprefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: evr.h
 req.include-header: 

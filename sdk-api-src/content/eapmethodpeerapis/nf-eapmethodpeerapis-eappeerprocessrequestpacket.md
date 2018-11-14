@@ -7,7 +7,7 @@ old-location: eaphost\eappeerprocessrequestpacket.htm
 tech.root: eaphost
 ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapPeerProcessRequestPacket, EapPeerProcessRequestPacket function [EAPHost], eaphost.eappeerprocessrequestpacket, eapmethodpeerapis/EapPeerProcessRequestPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapPeerProcessRequestPacket
+: 
 ---
 
 # EapPeerProcessRequestPacket function

@@ -4,10 +4,10 @@ title: AuditSetGlobalSaclW function
 author: windows-sdk-content
 description: Sets a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditsetglobalsacl.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,6 +46,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AuditSetGlobalSaclW
+: 
 ---
 
 # AuditSetGlobalSaclW function

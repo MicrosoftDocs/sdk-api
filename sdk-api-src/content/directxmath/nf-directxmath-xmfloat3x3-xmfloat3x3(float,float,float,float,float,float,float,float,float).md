@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3x3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(float,float,float,float,float,float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/02/2018
 ms.keywords: XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float), dxmath.xmfloat3x3_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,9 +139,13 @@ Value used to initialize the <b>_33</b> member (equivalently the
 The following two pseudocode examples demonstrate the operation of this constructor:
 	
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
    XMFLOAT3X3 mat;
    mat._11 = m00;
    mat._12 = m01;
@@ -152,16 +156,20 @@ The following two pseudocode examples demonstrate the operation of this construc
    mat._31 = m20;
    mat._32 = m21;
    mat._33 = m22;
-      
-```
-
-
+      </pre>
+</td>
+</tr>
+</table></span></div>
 Or
       
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
    XMFLOAT3X3 mat;
    mat.m[0,0] = m00;
    mat.m[0,1] = m01;
@@ -172,10 +180,10 @@ Or
    mat.m[2,0] = m20;
    mat.m[2,1] = m21;
    mat.m[2,2] = m22;
-      
-```
-
-
+      </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

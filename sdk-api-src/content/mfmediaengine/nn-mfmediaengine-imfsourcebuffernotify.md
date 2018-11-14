@@ -9,8 +9,8 @@ ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IRegistrationInfo.put_Description
+: 
 ---
 
 # IRegistrationInfo::put_Description

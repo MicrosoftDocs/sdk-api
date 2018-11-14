@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sdoias.h
+: 
+- ISdo.get__NewEnum
+: 
 ---
 
 # ISdo::get__NewEnum
@@ -52,7 +60,7 @@ req.redist:
 
 The 
 <b>get__NewEnum</b> method retrieves an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface for the Server Data Objects (SDO) properties.
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface for the Server Data Objects (SDO) properties.
 
 
 ## -parameters
@@ -63,9 +71,9 @@ The
 ### -param ppEnumVARIANT [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
-its <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method to obtain an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface.
+<a href="_com_iunknown">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
+its <a href="_com_iunknown_queryinterface">QueryInterface</a> method to obtain an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface.
 
 
 ## -returns
@@ -93,7 +101,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 

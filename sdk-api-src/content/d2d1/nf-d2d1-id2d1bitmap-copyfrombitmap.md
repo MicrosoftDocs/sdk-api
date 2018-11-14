@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Bitmap_CopyFromBitmap.htm
 tech.root: direct2d
 ms.assetid: d43685d9-292c-462c-bdd2-c4e81b6d704e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: CopyFromBitmap, CopyFromBitmap method [Direct2D], CopyFromBitmap method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromBitmap method, ID2D1Bitmap.CopyFromBitmap, ID2D1Bitmap::CopyFromBitmap, d2d1/ID2D1Bitmap::CopyFromBitmap, direct2d.ID2D1Bitmap_CopyFromBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1Bitmap.CopyFromBitmap
+: 
 ---
 
 # ID2D1Bitmap::CopyFromBitmap

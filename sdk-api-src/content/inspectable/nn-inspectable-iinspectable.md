@@ -9,8 +9,8 @@ ms.assetid: 0657E51F-D4C0-46C6-927D-B01E54B6846C
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectable interface [Windows Runtime],described, inspectable/IInspectable, winrt.iinspectable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: inspectable.h
 req.include-header: 

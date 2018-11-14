@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- ITraceDataProvider.get_Properties
+: 
 ---
 
 # ITraceDataProvider::get_Properties

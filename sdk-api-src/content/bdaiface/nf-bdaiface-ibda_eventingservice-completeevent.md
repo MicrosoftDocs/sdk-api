@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bdaiface.h
+: 
+- IBDA_EventingService.CompleteEvent
+: 
 ---
 
 # IBDA_EventingService::CompleteEvent
@@ -82,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693345(v=VS.85).aspx">IBDA_EventingService</a>
+<a href="https://msdn.microsoft.com/45ef0b45-92d0-47c1-9334-d0df74a43d28">IBDA_EventingService</a>
  
 
  

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- PropVariantGetElementCount
+: 
 ---
 
 # PropVariantGetElementCount function
@@ -82,7 +88,7 @@ Returns the element count of a VT_VECTOR or VT_ARRAY value: for single values, r
 
 This function works for all valid <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> types. See <b>PROPVARIANT</b> for the valid type combinations.
 
-This function is useful to get the count of elements to iterate through using a looping statement, especially for iterations that call functions such as <a href="https://msdn.microsoft.com/en-us/library/Bb776529(v=VS.85).aspx">PropVariantGetUInt32Elem</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>.
+This function is useful to get the count of elements to iterate through using a looping statement, especially for iterations that call functions such as <a href="shell.PropVariantGetUInt32Elem">PropVariantGetUInt32Elem</a> or <a href="shell.PropVariantGetElem">PropVariantGetElem</a>.
 
 
 

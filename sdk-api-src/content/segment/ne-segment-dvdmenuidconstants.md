@@ -9,8 +9,8 @@ ms.assetid: f58ce7b6-6fc4-4766-bf8a-180a5568d27c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DVDMenuID Constants, DVDMenuIDConstants, DVDMenuIDConstants enumeration [Microsoft TV Technologies], DVDMenuIDConstantsEnumeration, dvdMenu_Angle, dvdMenu_Audio, dvdMenu_Chapter, dvdMenu_Root, dvdMenu_Subpicture, dvdMenu_Title, enumeration [Microsoft TV Technologies], mstv.dvdmenuid_constants, segment/, segment/dvdMenu_Angle, segment/dvdMenu_Audio, segment/dvdMenu_Chapter, segment/dvdMenu_Root, segment/dvdMenu_Subpicture, segment/dvdMenu_Title
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -108,11 +108,11 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd695183(v=VS.85).aspx">MSVidWebDVD Constants</a>
+<a href="mstv.msvidwebdvd_constants">MSVidWebDVD Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376389(v=VS.85).aspx">ShowMenu</a>
+<a href="mstv.msvidwebdvd_showmenu_method">ShowMenu</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.ht
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _AUTHENTICATION_INFO, _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 
@@ -68,9 +68,9 @@ Size of the structure, in bytes.
 
 ### -field atAuthenticationType
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a></b>
 
-Flag to describe the type of authentication. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumerated type.
+Flag to describe the type of authentication. For a list of possible values, see the <a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a> enumerated type.
 
 
 ### -field pcwszUser

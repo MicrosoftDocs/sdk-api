@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusgraphics.h
+: 
+- Graphics.GetClipBounds
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -101,9 +109,13 @@ If you do not explicitly set the clipping region of a
 
 The following example sets a clipping region, gets the rectangle that encloses the clipping region, and then fills the rectangle.
 
-
-```cpp
-VOID Example_GetClipBounds2(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetClipBounds2(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -119,20 +131,20 @@ VOID Example_GetClipBounds2(HDC hdc)
    myRegion.Union(rect);
 
    // Set the clipping region of the graphics object.
-   graphics.SetClip(&myRegion);
+   graphics.SetClip(&amp;myRegion);
 
    // Now, get the clipping region, and fill it
-   graphics.GetClip(&gRegion);
-   graphics.FillRegion(&blueBrush, &gRegion);
+   graphics.GetClip(&amp;gRegion);
+   graphics.FillRegion(&amp;blueBrush, &amp;gRegion);
 
    // Get a rectangle that encloses the clipping region, and draw the enclosing
    // rectangle.
-   graphics.GetClipBounds(&enclosingRect);
+   graphics.GetClipBounds(&amp;enclosingRect);
    graphics.ResetClip();
-   graphics.DrawRectangle(&greenPen, enclosingRect);}
-```
-
-
+   graphics.DrawRectangle(&amp;greenPen, enclosingRect);}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

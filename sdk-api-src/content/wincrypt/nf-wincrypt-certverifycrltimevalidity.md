@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertVerifyCRLTimeValidity
+: 
 ---
 
 # CertVerifyCRLTimeValidity function
@@ -95,7 +101,7 @@ Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

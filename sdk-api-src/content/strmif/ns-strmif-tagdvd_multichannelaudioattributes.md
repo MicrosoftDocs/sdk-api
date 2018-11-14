@@ -9,8 +9,8 @@ ms.assetid: 8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DVD_MultichannelAudioAttributes, DVD_MultichannelAudioAttributes structure [DirectShow], DVD_MultichannelAudioAttributesStructure, dshow.dvd_multichannelaudioattributes, strmif/DVD_MultichannelAudioAttributes, tagDVD_MultichannelAudioAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

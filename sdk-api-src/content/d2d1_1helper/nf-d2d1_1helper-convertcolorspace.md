@@ -7,7 +7,7 @@ old-location: direct2d\convertcolorspace.htm
 tech.root: direct2d
 ms.assetid: 979E6FC2-52EB-4D58-B05C-523243F05B71
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ConvertColorSpace, ConvertColorSpace function [Direct2D], d2d1_1helper/ConvertColorSpace, direct2d.convertcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ConvertColorSpace
+: 
 ---
 
 # ConvertColorSpace function
@@ -50,7 +56,7 @@ req.redist:
 ## -description
 
 
-Convert a <a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a> from one color space to another.
+Convert a <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a> from one color space to another.
 
 
 ## -parameters
@@ -60,21 +66,21 @@ Convert a <a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).as
 
 ### -param sourceColorSpace
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446992(v=VS.85).aspx">D2D1_COLOR_SPACE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a></b>
 
 The color space of the input.
 
 
 ### -param destinationColorSpace
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446992(v=VS.85).aspx">D2D1_COLOR_SPACE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a></b>
 
 The desired color space of the output.
 
 
 ### -param color [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
 
 The input color.
 
@@ -83,7 +89,7 @@ The input color.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
 
 The converted color in the new color space.
 

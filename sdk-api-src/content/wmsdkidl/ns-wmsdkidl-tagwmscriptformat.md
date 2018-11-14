@@ -9,8 +9,8 @@ ms.assetid: b7c513ac-9c28-4556-a0c8-f3e0d6efc735
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: WMSCRIPTFORMAT, WMSCRIPTFORMAT structure [windows Media Format], tagWMSCRIPTFORMAT, wmformat.wmscriptformat, wmsdkidl/WMSCRIPTFORMAT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

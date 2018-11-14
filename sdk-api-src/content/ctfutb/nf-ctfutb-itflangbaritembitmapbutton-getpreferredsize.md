@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- ctfutb.h
+: 
+- ITfLangBarItemBitmapButton.GetPreferredSize
+: 
 ---
 
 # ITfLangBarItemBitmapButton::GetPreferredSize
@@ -113,7 +121,7 @@ The results of this method are not currently used. The bitmap for a bitmap butto
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628707(v=VS.85).aspx">ITfLangBarItemBitmapButton</a>
+<a href="https://msdn.microsoft.com/29fcc913-fcc7-4321-918b-2c354dd751ff">ITfLangBarItemBitmapButton</a>
 
 
 

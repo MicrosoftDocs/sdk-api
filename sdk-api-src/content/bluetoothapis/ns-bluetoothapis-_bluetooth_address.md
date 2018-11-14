@@ -9,8 +9,8 @@ ms.assetid: 2262a91b-c8b0-415a-9c23-7504998cc2a4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BLUETOOTH_ADDRESS, BLUETOOTH_ADDRESS structure [Bluetooth], BLUETOOTH_ADDRESS_STRUCT, _BLUETOOTH_ADDRESS, _bth_bluetooth_address, bluetooth.bluetooth_address, bluetoothapis/BLUETOOTH_ADDRESS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -9,8 +9,8 @@ ms.assetid: 5fc37251-938b-4581-bb54-816749b17001
 ms.author: windowssdkdev
 ms.date: 10/19/2018
 ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], ITfStatusSink interface [Text Services Framework],described, _tsf_itfstatussink_ref, msctf/ITfStatusSink, tsf.itfstatussink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
@@ -95,7 +95,7 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

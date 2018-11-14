@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6
+- apiref
+: 
+- 
+: 
+- GetListBoxInfo
+: 
 ---
 
 # GetListBoxInfo function
@@ -81,7 +87,7 @@ The return value is the number of items per column.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775939(v=VS.85).aspx">GetComboBoxInfo</a>
+<a href="https://msdn.microsoft.com/f7553df7-4309-49fc-9e4a-da9063e6b042">GetComboBoxInfo</a>
  
 
  

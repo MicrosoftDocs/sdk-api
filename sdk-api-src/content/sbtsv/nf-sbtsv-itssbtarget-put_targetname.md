@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sbtsv.h
+: 
+- ITsSbTarget.put_TargetName
+: 
 ---
 
 # ITsSbTarget::put_TargetName

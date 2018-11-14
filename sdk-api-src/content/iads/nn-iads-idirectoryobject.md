@@ -9,8 +9,8 @@ ms.assetid: bc4f8920-2881-4393-bb01-ed837c3db6ad
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObject interface [ADSI],described, _ds_idirectoryobject_ref, adsi.idirectoryobject, adsi.idirectoryobject__ref, iads/IDirectoryObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

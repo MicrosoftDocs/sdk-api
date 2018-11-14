@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- textstor.h
+: 
+- IAnchor.IsEqual
+: 
 ---
 
 # IAnchor::IsEqual
@@ -125,7 +133,7 @@ Anchors are always positioned between characters or regions. When two anchors ar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
+<a href="ranges.htm">Anchors</a>
 
 
 

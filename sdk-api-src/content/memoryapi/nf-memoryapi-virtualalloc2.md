@@ -4,10 +4,10 @@ title: VirtualAlloc2 function
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
 old-location: base\virtualalloc2.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 5021062F-E414-49A1-8B70-BE2A57A90E54
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAlloc2, VirtualAlloc2 function, base.virtualalloc2, memoryapi/VirtualAlloc2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VirtualAlloc2
+: 
 ---
 
 # VirtualAlloc2 function
@@ -394,11 +400,15 @@ When creating a region that will be executable, the calling program bears respon
 
 Scenario 1. Create a circular buffer by mapping two adjacent views of the same shared memory section.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 //
 // This function creates a ring buffer by allocating a pagefile-backed section
@@ -422,7 +432,7 @@ CreateRingBuffer (
     void* view1 = nullptr;
     void* view2 = nullptr;
 
-    GetSystemInfo (&sysInfo);
+    GetSystemInfo (&amp;sysInfo);
 
     if ((bufferSize % sysInfo.dwAllocationGranularity) != 0) {
         return nullptr;
@@ -568,7 +578,7 @@ int __cdecl wmain()
     void* secondaryView;
     unsigned int bufferSize = 0x10000;
 
-    ringBuffer = (char*) CreateRingBuffer (bufferSize, &secondaryView);
+    ringBuffer = (char*) CreateRingBuffer (bufferSize, &amp;secondaryView);
 
     if (ringBuffer == nullptr) {
         printf ("CreateRingBuffer failed\n");
@@ -588,15 +598,19 @@ int __cdecl wmain()
     UnmapViewOfFile (ringBuffer);
     UnmapViewOfFile (secondaryView);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Scenario 2. Specify a preferred NUMA node when allocating memory.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void*
 AllocateWithPreferredNode (size_t size, unsigned int numaNode)
 {
@@ -610,17 +624,21 @@ AllocateWithPreferredNode (size_t size, unsigned int numaNode)
         size,
         MEM_RESERVE | MEM_COMMIT,
         PAGE_READWRITE,
-        &param, 1);
+        &amp;param, 1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Scenario 3. Allocate memory in a specific virtual address range (below 4GB, in this example) and with specific alignment.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void*
 AllocateAlignedBelow2GB (size_t size, size_t alignment)
 {
@@ -631,19 +649,19 @@ AllocateAlignedBelow2GB (size_t size, size_t alignment)
     addressReqs.HighestEndingAddress = (PVOID)(ULONG_PTR) 0x7fffffff;
 
     param.Type = MemExtendedParameterAddressRequirements;
-    param.Pointer = &addressReqs;
+    param.Pointer = &amp;addressReqs;
 
     return VirtualAlloc2 (
         nullptr, nullptr,
         size,
         MEM_RESERVE | MEM_COMMIT,
         PAGE_READWRITE,
-        &param, 1);
+        &amp;param, 1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

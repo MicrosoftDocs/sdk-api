@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- casetup.h
+: 
+- ICertSrvSetupKeyInformationCollection.Add
+: 
 ---
 
 # ICertSrvSetupKeyInformationCollection::Add
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object to the collection.
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the collection.
 
 
 ## -parameters
@@ -60,7 +68,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -param pIKeyInformation [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object.
+A pointer to an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object.
 
 
 ## -see-also
@@ -68,7 +76,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736373(v=VS.85).aspx">ICertSrvSetupKeyInformationCollection</a>
+<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
  
 
  

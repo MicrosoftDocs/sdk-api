@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tom.h
+: 
+- ITextStory.GetText
+: 
 ---
 
 # ITextStory::GetText
@@ -64,7 +72,7 @@ Type: <b>long</b>
 
 The conversion flags.
 
-A <i>Flags</i> value of 0 retrieves text the same as <a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a>.  Other values include the following.
+A <i>Flags</i> value of 0 retrieves text the same as <a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">ITextRange::GetText</a>.  Other values include the following.
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>

@@ -7,7 +7,7 @@ old-location: base\syminitialize.htm
 tech.root: debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymInitialize, SymInitialize function, SymInitializeW, _win32_syminitialize, base.syminitialize, dbghelp/SymInitialize, dbghelp/SymInitializeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
+- apiref
+: 
+- 
+: 
+- SymInitializeW
+: 
 ---
 
 # SymInitializeW function

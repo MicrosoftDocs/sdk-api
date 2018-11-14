@@ -9,8 +9,8 @@ ms.assetid: 2fb6698c-5d59-4ba0-a8ff-1313fade438c
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: ALREADY_REGISTERED, ALREADY_UNREGISTERED, ASYNC_CALL_ALREADY_PARKED, ASYNC_CALL_IN_PROGRESS, ASYNC_NOTIFICATION_FAILURE, CHANNEL_ACQUIRED, CHANNEL_ALREADY_CLOSED, CHANNEL_ALREADY_OPENED, CHANNEL_CLOSED_BY_ANOTHER_LISTENER, CHANNEL_CLOSED_BY_SAME_LISTENER, CHANNEL_CLOSED_BY_SERVER, CHANNEL_NOT_OPENED, CHANNEL_RELEASED_BY_LISTENER, CHANNEL_WAITING_FOR_CLIENT_NOTIFICATION, INTERNAL_NOTIFICATION_QUEUE_IS_FULL, INVALID_NOTIFICATION_TYPE, LOCAL_ONLY_REGISTRATION, MAX_CHANNEL_COUNT_EXCEEDED, MAX_NOTIFICATION_SIZE_EXCEEDED, MAX_REGISTRATION_COUNT_EXCEEDED, NOT_REGISTERED, NO_LISTENERS, PrintAsyncNotifyError, PrintAsyncNotifyError enumeration [Windows GDI], REMOTE_ONLY_REGISTRATION, UNIRECTIONAL_NOTIFICATION_LOST, _win32_PrintAsyncNotifyError, gdi.printasyncnotifyerror, prnasnot/ALREADY_REGISTERED, prnasnot/ALREADY_UNREGISTERED, prnasnot/ASYNC_CALL_ALREADY_PARKED, prnasnot/ASYNC_CALL_IN_PROGRESS, prnasnot/ASYNC_NOTIFICATION_FAILURE, prnasnot/CHANNEL_ACQUIRED, prnasnot/CHANNEL_ALREADY_CLOSED, prnasnot/CHANNEL_ALREADY_OPENED, prnasnot/CHANNEL_CLOSED_BY_ANOTHER_LISTENER, prnasnot/CHANNEL_CLOSED_BY_SAME_LISTENER, prnasnot/CHANNEL_CLOSED_BY_SERVER, prnasnot/CHANNEL_NOT_OPENED, prnasnot/CHANNEL_RELEASED_BY_LISTENER, prnasnot/CHANNEL_WAITING_FOR_CLIENT_NOTIFICATION, prnasnot/INTERNAL_NOTIFICATION_QUEUE_IS_FULL, prnasnot/INVALID_NOTIFICATION_TYPE, prnasnot/LOCAL_ONLY_REGISTRATION, prnasnot/MAX_CHANNEL_COUNT_EXCEEDED, prnasnot/MAX_NOTIFICATION_SIZE_EXCEEDED, prnasnot/MAX_REGISTRATION_COUNT_EXCEEDED, prnasnot/NOT_REGISTERED, prnasnot/NO_LISTENERS, prnasnot/PrintAsyncNotifyError, prnasnot/REMOTE_ONLY_REGISTRATION, prnasnot/UNIRECTIONAL_NOTIFICATION_LOST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 
@@ -53,7 +53,7 @@ req.redist:
 Specifies the error code portion of the <b>HRESULT</b> returned after an asynchronous notification failure.
 
 An <b>HRESULT</b> value consists of a severity code, a facility code, and an error code. Use the <b>HRESULT_CODE</b> macro to compare just the error code of an <b>HRESULT</b>. For more information about COM error codes, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+    <a href="_com_error_handling">Error Handling</a>.
 
 
 ## -enum-fields

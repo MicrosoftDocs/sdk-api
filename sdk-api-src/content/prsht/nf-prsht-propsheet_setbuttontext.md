@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- prsht.h
+: 
+- PropSheet_SetButtonText
+: 
 ---
 
 # PropSheet_SetButtonText macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774609(v=VS.85).aspx">PSM_SETBUTTONTEXT</a> message explicitly.
+Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/30b7afd1-5094-430f-9c48-d87832d96050">PSM_SETBUTTONTEXT</a> message explicitly.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: AdjustTokenPrivileges function
 author: windows-sdk-content
 description: Enables or disables privileges in the specified access token. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
 old-location: security\adjusttokenprivileges.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 8e3f70cd-814e-4aab-8f48-0ca482beef2e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: AdjustTokenPrivileges, AdjustTokenPrivileges function [Security], None, SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_REMOVED, _win32_adjusttokenprivileges, security.adjusttokenprivileges, securitybaseapi/AdjustTokenPrivileges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- AdjustTokenPrivileges
+: 
 ---
 
 # AdjustTokenPrivileges function
@@ -230,7 +236,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

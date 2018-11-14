@@ -9,8 +9,8 @@ ms.assetid: e742e381-0fd2-482a-81a0-7b43d11b073b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IActionProgress, IActionProgress interface [Windows Shell], IActionProgress interface [Windows Shell],described, shell.IActionProgress, shell_IActionProgress, shobjidl_core/IActionProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

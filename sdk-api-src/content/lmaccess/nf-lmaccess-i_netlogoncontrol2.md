@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- I_NetLogonControl2
+: 
 ---
 
 # I_NetLogonControl2 function

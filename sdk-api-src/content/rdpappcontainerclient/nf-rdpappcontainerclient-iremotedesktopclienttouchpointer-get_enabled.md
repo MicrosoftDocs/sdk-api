@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- rdpappcontainerclient.h
+: 
+- IRemoteDesktopClientTouchPointer.get_Enabled
+: 
 ---
 
 # IRemoteDesktopClientTouchPointer::get_Enabled

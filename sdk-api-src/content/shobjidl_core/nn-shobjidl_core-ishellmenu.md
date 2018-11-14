@@ -9,8 +9,8 @@ ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

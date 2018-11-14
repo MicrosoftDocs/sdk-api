@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- directmanipulation.h
+: 
+- IDirectManipulationManager3.GetService
+: 
 ---
 
 # IDirectManipulationManager3::GetService

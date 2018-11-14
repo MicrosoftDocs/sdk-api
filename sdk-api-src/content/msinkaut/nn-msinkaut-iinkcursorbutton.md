@@ -9,8 +9,8 @@ ms.assetid: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2, IInkCursorButton, IInkCursorButton interface [Tablet PC], IInkCursorButton interface [Tablet PC],described, msinkaut/IInkCursorButton, tablet.iinkcursorbutton
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

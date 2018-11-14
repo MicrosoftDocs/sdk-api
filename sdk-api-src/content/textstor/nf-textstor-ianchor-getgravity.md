@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
+- apiref
+: 
+- COM
+: 
+- textstor.h
+: 
+- IAnchor.GetGravity
+: 
 ---
 
 # IAnchor::GetGravity
@@ -107,7 +115,7 @@ The <i>pgravity</i> pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 

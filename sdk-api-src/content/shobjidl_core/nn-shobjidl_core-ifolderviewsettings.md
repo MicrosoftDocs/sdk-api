@@ -9,8 +9,8 @@ ms.assetid: 8cb3da64-8f7a-46a6-b00c-e1da1d158b5a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFolderViewSettings, IFolderViewSettings interface [Windows Shell], IFolderViewSettings interface [Windows Shell],described, _shell_IFolderViewSettings, shell.IFolderViewSettings, shobjidl_core/IFolderViewSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

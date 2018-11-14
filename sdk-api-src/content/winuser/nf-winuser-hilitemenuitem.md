@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- HiliteMenuItem
+: 
 ---
 
 # HiliteMenuItem function
@@ -155,7 +161,7 @@ If the menu item is not set to the specified highlight state, the return value i
 
 
 
-The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://msdn.microsoft.com/en-us/library/ms647993(v=VS.85).aspx">ModifyMenu</a> function. 
+The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a> function. 
 
 
 
@@ -169,11 +175,11 @@ The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>H
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647993(v=VS.85).aspx">ModifyMenu</a>
+<a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a>
 
 
 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MprAdminConnectionRemoveQuarantine
+: 
 ---
 
 # MprAdminConnectionRemoveQuarantine function
@@ -138,7 +144,7 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 
 
-If <a href="https://msdn.microsoft.com/library/ms688288(v=VS.85).aspx">Internet Authentication Service (IAS)</a> policies configure regular filters, then these filters are added to the RAS client interface as a result of calling 
+If <a href="ias.ias_start_page">Internet Authentication Service (IAS)</a> policies configure regular filters, then these filters are added to the RAS client interface as a result of calling 
 <b>MprAdminConnectionRemoveQuarantine</b>.
 
 

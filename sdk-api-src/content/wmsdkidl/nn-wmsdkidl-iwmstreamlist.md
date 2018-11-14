@@ -9,8 +9,8 @@ ms.assetid: 076bb0bf-3cf8-48b4-bfca-abbd9c1bf211
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IWMStreamList, IWMStreamList interface [windows Media Format], IWMStreamList interface [windows Media Format],described, IWMStreamListInterface, wmformat.iwmstreamlist, wmsdkidl/IWMStreamList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

@@ -45,6 +45,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetupDiEnumDeviceInfo
+: 
 ---
 
 # SetupDiEnumDeviceInfo function
@@ -63,7 +69,7 @@ The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://msdn.micros
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to return an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents a device information element.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to return an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents a device information element.
 
 
 ### -param MemberIndex [in]

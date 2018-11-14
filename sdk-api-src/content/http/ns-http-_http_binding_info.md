@@ -9,8 +9,8 @@ ms.assetid: 551a928a-84c6-479b-a500-de69dc8857cd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], _HTTP_BINDING_INFO, http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

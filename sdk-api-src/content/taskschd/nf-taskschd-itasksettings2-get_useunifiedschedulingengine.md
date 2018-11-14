@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- ITaskSettings2.get_UseUnifiedSchedulingEngine
+: 
 ---
 
 # ITaskSettings2::get_UseUnifiedSchedulingEngine

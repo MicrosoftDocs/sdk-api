@@ -9,8 +9,8 @@ ms.assetid: 385a4d15-08b5-40c6-8444-a22bec86a981
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IFilterMapper3, IFilterMapper3 interface [DirectShow], IFilterMapper3 interface [DirectShow],described, IFilterMapper3Interface, dshow.ifiltermapper3, strmif/IFilterMapper3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

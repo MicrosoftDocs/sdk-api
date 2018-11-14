@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
+- apiref
+: 
+- 
+: 
+- SetFileInformationByHandle
+: 
 ---
 
 # SetFileInformationByHandle function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- textserv.h
+: 
+- ITextHost2.TxGetPalette
+: 
 ---
 
 # ITextHost2::TxGetPalette
@@ -76,7 +84,7 @@ Returns the color palette, or <b>NULL</b> if the control uses the system default
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774259(v=VS.85).aspx">EM_SETPALETTE</a>
+<a href="https://msdn.microsoft.com/c1dc0c24-eaf2-47a8-9bb1-59f37b206feb">EM_SETPALETTE</a>
 
 
 

@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkExtendedProperties.get_Count
+: 
 ---
 
 # IInkExtendedProperties::get_Count

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IApiTracingDataCollector.put_ExcludeApis
+: 
 ---
 
 # IApiTracingDataCollector::put_ExcludeApis

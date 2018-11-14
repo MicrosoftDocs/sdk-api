@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EjectNtmsCleaner
+: 
 ---
 
 # EjectNtmsCleaner function
@@ -241,7 +247,7 @@ Ejected cleaner cartridges are not tracked in the offline library.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
 
 
 

@@ -9,8 +9,8 @@ ms.assetid: 3006d1a8-c9cf-4528-9aea-8ad5d97ddff0
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: WTS_THUMBNAILID, WTS_THUMBNAILID structure [Windows Shell], _shell_WTS_THUMBNAILID, shell.WTS_THUMBNAILID, thumbcache/WTS_THUMBNAILID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: thumbcache.h
 req.include-header: 

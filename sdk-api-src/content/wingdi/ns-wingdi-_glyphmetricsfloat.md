@@ -9,8 +9,8 @@ ms.assetid: 6ceccb76-be31-4a4d-b093-1f8e35261a60
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _GLYPHMETRICSFLOAT, _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

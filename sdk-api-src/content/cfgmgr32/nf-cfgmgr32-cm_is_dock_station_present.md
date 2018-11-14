@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Is_Dock_Station_Present
+: 
 ---
 
 # CM_Is_Dock_Station_Present function

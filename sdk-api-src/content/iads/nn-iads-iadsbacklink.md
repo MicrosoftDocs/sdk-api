@@ -9,8 +9,8 @@ ms.assetid: 2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI],described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
@@ -63,7 +63,7 @@ The <b>IADsBackLink</b> interface provides methods for an ADSI client to access 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

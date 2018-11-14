@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- dwrite.h
+: 
+- DWRITE_MAKE_OPENTYPE_TAG
+: 
 ---
 
 # DWRITE_MAKE_OPENTYPE_TAG macro

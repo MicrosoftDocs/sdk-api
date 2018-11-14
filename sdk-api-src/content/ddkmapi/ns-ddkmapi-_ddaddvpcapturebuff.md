@@ -9,8 +9,8 @@ ms.assetid: 7ee3f5ce-987a-42c9-8681-5bcb9028178a
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPDDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF structure [Display Devices], LPDDADDVPCAPTUREBUFF, LPDDADDVPCAPTUREBUFF structure pointer [Display Devices], _DDADDVPCAPTUREBUFF, ddkmapi/DDADDVPCAPTUREBUFF, ddkmapi/LPDDADDVPCAPTUREBUFF, ddstrcts_8aed47e9-8635-4a52-aba6-7768f11f9177.xml, display.ddaddvpcapturebuff"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

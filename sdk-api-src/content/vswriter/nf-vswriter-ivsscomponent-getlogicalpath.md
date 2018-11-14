@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vswriter.h
+: 
+- IVssComponent.GetLogicalPath
+: 
 ---
 
 # IVssComponent::GetLogicalPath
@@ -144,7 +152,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller should free the memory held by the <i>pbstrPath</i> parameter by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrPath</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 Logical paths are not required of components. A component without a logical path will return S_FALSE.
 

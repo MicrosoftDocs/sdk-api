@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- VarBstrFromI1
+: 
 ---
 
 # VarBstrFromI1 function

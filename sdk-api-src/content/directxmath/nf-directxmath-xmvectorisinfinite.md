@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMVectorIsInfinite
+: 
 ---
 
 # XMVectorIsInfinite function
@@ -78,19 +84,23 @@ Returns a vector containing the results of each component test.
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = (V.x == +infinity || V.x == -infinity) ? 0xFFFFFFFF : 0;
 Result.y = (V.y == +infinity || V.y == -infinity) ? 0xFFFFFFFF : 0;
 Result.z = (V.z == +infinity || V.z == -infinity) ? 0xFFFFFFFF : 0;
 Result.w = (V.w == +infinity || V.w == -infinity) ? 0xFFFFFFFF : 0;
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IComInstance2Events.OnObjectDestroy2
+: 
 ---
 
 # IComInstance2Events::OnObjectDestroy2

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_opensharedhandle.htm
 tech.root: direct3d12
 ms.assetid: 4F428B06-2906-4ED6-BB75-5DACF2155FA9
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ID3D12Device interface,OpenSharedHandle method, ID3D12Device.OpenSharedHandle, ID3D12Device::OpenSharedHandle, OpenSharedHandle, OpenSharedHandle method, OpenSharedHandle method,ID3D12Device interface, d3d12/ID3D12Device::OpenSharedHandle, direct3d12.id3d12device_opensharedhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d12.h
+: 
+- ID3D12Device.OpenSharedHandle
+: 
 ---
 
 # ID3D12Device::OpenSharedHandle
@@ -64,7 +72,7 @@ Opens a handle for shared resources, shared heaps, and shared fences, by using H
 Type: <b>HANDLE</b>
 
 The handle that was output by the call to 
-            <a href="https://msdn.microsoft.com/en-us/library/Dn899183(v=VS.85).aspx">ID3D12Device::CreateSharedHandle</a>.
+            <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a>.
           
 
 
@@ -77,13 +85,13 @@ The globally unique identifier (<b>GUID</b>) for one of the following interfaces
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788687(v=VS.85).aspx">ID3D12Heap</a>
+<a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>
+<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899188(v=VS.85).aspx">ID3D12Fence</a>
+<a href="https://msdn.microsoft.com/2B388352-EF43-4D1E-851C-A670B4681F0F">ID3D12Fence</a>
 </li>
 </ul>
 The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro.
@@ -100,13 +108,13 @@ A pointer to a memory block that receives a pointer to one of the following inte
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788687(v=VS.85).aspx">ID3D12Heap</a>
+<a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>
+<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899188(v=VS.85).aspx">ID3D12Fence</a>
+<a href="https://msdn.microsoft.com/2B388352-EF43-4D1E-851C-A670B4681F0F">ID3D12Fence</a>
 </li>
 </ul>
 
@@ -114,9 +122,9 @@ A pointer to a memory block that receives a pointer to one of the following inte
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -127,11 +135,11 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>
+<a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>
  
 
  

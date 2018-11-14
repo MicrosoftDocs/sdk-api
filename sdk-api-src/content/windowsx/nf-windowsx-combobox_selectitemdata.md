@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ComboBox_SelectItemData
+: 
 ---
 
 # ComboBox_SelectItemData macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a> message explicitly.
+Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/c08dff72-7e44-40ed-8b64-513359292829">CB_SELECTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +91,7 @@ The item data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/c08dff72-7e44-40ed-8b64-513359292829">CB_SELECTSTRING</a>.
 	
 
 

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- TabCtrl_GetCurSel
+: 
 ---
 
 # TabCtrl_GetCurSel macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Determines the currently selected tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760583(v=VS.85).aspx">TCM_GETCURSEL</a> message explicitly. 
+Determines the currently selected tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/1caa7fad-da5a-4b26-8e78-12110c126691">TCM_GETCURSEL</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Determines the currently selected tab in a tab control. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IValueMapItem.put_Value
+: 
 ---
 
 # IValueMapItem::put_Value

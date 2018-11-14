@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_copy.htm
 tech.root: Multimedia
 ms.assetid: d2012d04-4fe5-4a49-8160-d27b7bc1bfc8
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: Copy, Copy method [Windows Multimedia], Copy method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Copy method, IAVIEditStream.Copy, IAVIEditStream::Copy, _win32_IAVIEditStream_Copy, multimedia.iavieditstream_copy, vfw/IAVIEditStream::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- vfw.h
+: 
+- IAVIEditStream.Copy
+: 
 ---
 
 # IAVIEditStream::Copy

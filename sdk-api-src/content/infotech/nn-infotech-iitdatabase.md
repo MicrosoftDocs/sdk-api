@@ -9,8 +9,8 @@ ms.assetid: VS|htmlhelp|~\html\refiitdatabaseinterface.htm
 ms.author: windowssdkdev
 ms.date: 10/22/2018
 ms.keywords: IITDatabase, IITDatabase interface [HTML Help Workshop], IITDatabase interface [HTML Help Workshop],described, htmlhelp.iitdatabase, infotech/IITDatabase, refIITDatabaseInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 
@@ -70,7 +70,7 @@ The <b>IITDatabase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670031(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/cdcc35f0-d629-4ca5-9342-945a88b49feb">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a database.
@@ -81,7 +81,7 @@ Closes a database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670032(v=VS.85).aspx">CreateObject</a>
+<a href="https://msdn.microsoft.com/8191ab96-0303-4972-ae9b-8f2f8a23ac1a">CreateObject</a>
 </td>
 <td align="left" width="63%">
 Creates an unnamed object you can reference in the future through the *<i>pdwObjInstance</i> parameter.
@@ -92,7 +92,7 @@ Creates an unnamed object you can reference in the future through the *<i>pdwObj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670033(v=VS.85).aspx">GetObject</a>
+<a href="https://msdn.microsoft.com/f83a48da-8f11-4af3-9de8-a2eabd1432ec">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
@@ -103,7 +103,7 @@ Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a37
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms670035(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/39e38979-7680-418f-b4f5-9b6841953524">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a database.

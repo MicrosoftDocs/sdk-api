@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- ComboBox_GetCount
+: 
 ---
 
 # ComboBox_GetCount macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the number of items in the list box of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775841(v=VS.85).aspx">CB_GETCOUNT</a> message explicitly.
+Gets the number of items in the list box of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/69667724-5452-4fcc-afc3-0d98d3beedc8">CB_GETCOUNT</a> message explicitly.
 
 
 ## -parameters

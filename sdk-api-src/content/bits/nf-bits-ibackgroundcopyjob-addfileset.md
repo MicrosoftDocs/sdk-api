@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits.h
+: 
+- IBackgroundCopyJob.AddFileSet
+: 
 ---
 
 # IBackgroundCopyJob::AddFileSet
@@ -74,7 +82,7 @@ TBD
 #### - paFileSet [in]
 
 Array of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structures that identify the local and remote file names of the files to transfer. 
+<a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structures that identify the local and remote file names of the files to transfer. 
 
 
 
@@ -163,10 +171,10 @@ User does not have permission to write to the specified directory on the client.
 
 
 
-It is more efficient to call the <b>AddFileSet</b> method when adding multiple files to a job than to call the <a href="https://msdn.microsoft.com/en-us/library/Aa363017(v=VS.85).aspx">IBackgroundCopyJob::AddFile</a> method in a loop. To add a single file to a job, call the 
-<b>AddFile</b> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa362779(v=VS.85).aspx">Adding Files to a Job</a>.
+It is more efficient to call the <b>AddFileSet</b> method when adding multiple files to a job than to call the <a href="https://msdn.microsoft.com/0dada1d3-49b6-41af-b17f-612f27ea4d56">IBackgroundCopyJob::AddFile</a> method in a loop. To add a single file to a job, call the 
+<b>AddFile</b> method. For more information, see <a href="https://msdn.microsoft.com/fb6e7219-b6ca-4f72-b7a3-60d65e8f3892">Adding Files to a Job</a>.
 
-To add a file to a job from which BITS downloads ranges of data from the file, call the <a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a> method.
+To add a file to a job from which BITS downloads ranges of data from the file, call the <a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a> method.
 
 Upload jobs can contain only one file. If you add more than one file, the method returns BG_E_TOO_MANY_FILES.
 
@@ -182,13 +190,13 @@ By default, a user can add up to 200 files to a job. This limit does not apply t
 
 <b>Prior to Windows Vista:  </b>There is no limit on the number of files that a user can add to a job.
 
-For scalability concerns, see <a href="https://msdn.microsoft.com/en-us/library/Aa362783(v=VS.85).aspx">Best Practices When Using BITS</a>.
+For scalability concerns, see <a href="https://msdn.microsoft.com/f4a09a80-2a85-4b59-b0fd-c23c128973f7">Best Practices When Using BITS</a>.
 
 
 #### Examples
 
 The following example shows how to add multiple files to a download job. The example assumes the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface pointer is valid.
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface pointer is valid.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -251,23 +259,23 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363017(v=VS.85).aspx">IBackgroundCopyJob::AddFile</a>
+<a href="https://msdn.microsoft.com/0dada1d3-49b6-41af-b17f-612f27ea4d56">IBackgroundCopyJob::AddFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363022(v=VS.85).aspx">IBackgroundCopyJob::EnumFiles</a>
+<a href="https://msdn.microsoft.com/c6b8ef69-9c67-447f-9f90-b6905a5a5a19">IBackgroundCopyJob::EnumFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363036(v=VS.85).aspx">IBackgroundCopyJob::GetState</a>
+<a href="https://msdn.microsoft.com/32789bd2-2368-473b-accf-ac6e317d0172">IBackgroundCopyJob::GetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">IBackgroundCopyJob::Resume</a>
+<a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a>
  
 
  

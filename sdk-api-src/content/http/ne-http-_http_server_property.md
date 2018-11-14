@@ -9,8 +9,8 @@ ms.assetid: 14865796-135c-43c2-955a-fdeae05a8278
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PHTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY enumeration [HTTP], HTTP_SERVER_PROPERTY, HTTP_SERVER_PROPERTY enumeration [HTTP], HttpServer503VerbosityProperty, HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerListenEndpointProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, _HTTP_SERVER_PROPERTY, http.http_server_property, http/*PHTTP_SERVER_PROPERTY, http/HTTP_SERVER_PROPERTY, http/HttpServer503VerbosityProperty, http/HttpServerAuthenticationProperty, http/HttpServerBindingProperty, http/HttpServerChannelBindProperty, http/HttpServerExtendedAuthenticationProperty, http/HttpServerListenEndpointProperty, http/HttpServerLoggingProperty, http/HttpServerQosProperty, http/HttpServerQueueLengthProperty, http/HttpServerStateProperty, http/HttpServerTimeoutsProperty"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

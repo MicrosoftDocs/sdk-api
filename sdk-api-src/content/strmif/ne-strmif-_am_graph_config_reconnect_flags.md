@@ -9,8 +9,8 @@ ms.assetid: 59f47597-3270-48b3-b927-09b434373eac
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS, AM_GRAPH_CONFIG_RECONNECT_DIRECTCONNECT, AM_GRAPH_CONFIG_RECONNECT_FLAGS, AM_GRAPH_CONFIG_RECONNECT_FLAGS , AM_GRAPH_CONFIG_RECONNECT_FLAGS enumeration [DirectShow], AM_GRAPH_CONFIG_RECONNECT_FLAGSEnumeration, AM_GRAPH_CONFIG_RECONNECT_USE_ONLY_CACHED_FILTERS, _AM_GRAPH_CONFIG_RECONNECT_FLAGS, dshow.am_graph_config_reconnect_flags, strmif/AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS, strmif/AM_GRAPH_CONFIG_RECONNECT_DIRECTCONNECT, strmif/AM_GRAPH_CONFIG_RECONNECT_FLAGS, strmif/AM_GRAPH_CONFIG_RECONNECT_USE_ONLY_CACHED_FILTERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

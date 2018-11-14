@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPControls3.put_currentPositionTimecode
+: 
 ---
 
 # IWMPControls3::put_currentPositionTimecode

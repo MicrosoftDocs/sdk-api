@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MFInitMediaTypeFromVideoInfoHeader2
+: 
 ---
 
 # MFInitMediaTypeFromVideoInfoHeader2 function

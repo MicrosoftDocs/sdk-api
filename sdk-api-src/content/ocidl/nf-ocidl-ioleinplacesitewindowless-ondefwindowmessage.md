@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- ocidl.h
+: 
+- IOleInPlaceSiteWindowless.OnDefWindowMessage
+: 
 ---
 
 # IOleInPlaceSiteWindowless::OnDefWindowMessage
@@ -110,12 +118,12 @@ The container's default processing for the window message was not invoked. See N
 
 
 
-A windowless object can explicitly invoke the default processing for a window message by calling this method. A container dispatches window messages to its windowless objects by calling <a href="https://msdn.microsoft.com/86aabb46-6bc7-4953-b4eb-8692552ca380">IOleInPlaceObjectWindowless::OnWindowMessage</a>. The object usually returns S_FALSE to indicate that it did not process the message. Then, the container can perform the default behavior for the message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function.
+A windowless object can explicitly invoke the default processing for a window message by calling this method. A container dispatches window messages to its windowless objects by calling <a href="https://msdn.microsoft.com/86aabb46-6bc7-4953-b4eb-8692552ca380">IOleInPlaceObjectWindowless::OnWindowMessage</a>. The object usually returns S_FALSE to indicate that it did not process the message. Then, the container can perform the default behavior for the message by calling the <a href="_win32_DefWindowProc_cpp">DefWindowProc</a> function.
 
 Instead, the object can call this method on the container's site object to explicitly invoke the default processing. Then, the object can take action on its own if the container does not handle the message.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The container must pass the following window messages to its default window procedure (the <a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function) and return S_OK. Note that *<i>plResult</i> should contain the value returned by <b>DefWindowProc</b>.
+The container must pass the following window messages to its default window procedure (the <a href="_win32_DefWindowProc_cpp">DefWindowProc</a> function) and return S_OK. Note that *<i>plResult</i> should contain the value returned by <b>DefWindowProc</b>.
 
 <ul>
 <li>WM_CHAR</li>

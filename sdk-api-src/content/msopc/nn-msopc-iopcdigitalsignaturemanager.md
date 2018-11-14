@@ -9,8 +9,8 @@ ms.assetid: 13e8a7b9-1d25-421b-bc81-adc495e6d9c7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], IOpcDigitalSignatureManager interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureManager, opc.iopcdigitalsignaturemanager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateMD5SSOHash
+: 
 ---
 
 # CreateMD5SSOHash function

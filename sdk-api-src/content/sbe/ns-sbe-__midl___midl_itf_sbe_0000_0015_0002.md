@@ -9,8 +9,8 @@ ms.assetid: 1c4ac3bc-3d0c-4f06-a146-2e39439ebb05
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DVR_STREAM_DESC, DVR_STREAM_DESC structure [Microsoft TV Technologies], PDVR_STREAM_DESC, PDVR_STREAM_DESC structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_sbe_0000_0015_0002, mstv.dvr_stream_desc, sbe/DVR_STREAM_DESC, sbe/PDVR_STREAM_DESC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: sbe.h
 req.include-header: 

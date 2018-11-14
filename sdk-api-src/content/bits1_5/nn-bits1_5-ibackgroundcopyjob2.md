@@ -9,8 +9,8 @@ ms.assetid: 9fd422ba-a68c-40e3-8b21-3077b271e58e
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], IBackgroundCopyJob2 interface [BITS],described, _drz_ibackgroundcopyjob2, bits.ibackgroundcopyjob2, bits1_5/IBackgroundCopyJob2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits1_5.h
 req.include-header: Bits.h
@@ -55,20 +55,20 @@ Use the
 
 The 
 <b>IBackgroundCopyJob2</b> interface inherits from the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface. 
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface. 
 
 To get an 
 <b>IBackgroundCopyJob2</b> interface pointer, call the <b>IBackgroundCopyJob::QueryInterface</b> method using <code>__uuidof(IBackgroundCopyJob2)</code> for the interface identifier. Use the 
 <b>IBackgroundCopyJob2</b> interface pointer to call both the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> and 
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> and 
 <b>IBackgroundCopyJob2</b> methods.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>. <b>IBackgroundCopyJob2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob2</b> interface inherits from <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>. <b>IBackgroundCopyJob2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -81,7 +81,7 @@ The <b>IBackgroundCopyJob2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362982(v=VS.85).aspx">GetNotifyCmdLine</a>
+<a href="https://msdn.microsoft.com/62978315-e893-4617-8e6d-63bab8204913">GetNotifyCmdLine</a>
 </td>
 <td align="left" width="63%">
 Retrieves the program that is executed when the job enters the error or transferred state.
@@ -90,7 +90,7 @@ Retrieves the program that is executed when the job enters the error or transfer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362983(v=VS.85).aspx">GetReplyData</a>
+<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">GetReplyData</a>
 </td>
 <td align="left" width="63%">
 Retrieves an in-memory copy of the reply data.
@@ -99,7 +99,7 @@ Retrieves an in-memory copy of the reply data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362984(v=VS.85).aspx">GetReplyFileName</a>
+<a href="https://msdn.microsoft.com/57f9245c-c1ae-4027-8e84-4926fa4861c3">GetReplyFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the file that contains the reply data.
@@ -108,7 +108,7 @@ Retrieves the name of the file that contains the reply data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362985(v=VS.85).aspx">GetReplyProgress</a>
+<a href="https://msdn.microsoft.com/76509b1a-fdfb-4236-8554-f63282bfc1b6">GetReplyProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves progress information that indicates how many bytes of the reply file have been downloaded to the client.
@@ -117,17 +117,17 @@ Retrieves progress information that indicates how many bytes of the reply file h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362986(v=VS.85).aspx">RemoveCredentials</a>
+<a href="https://msdn.microsoft.com/dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c">RemoveCredentials</a>
 </td>
 <td align="left" width="63%">
 Removes credentials set by the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362987(v=VS.85).aspx">SetCredentials</a> method.
+<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">SetCredentials</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362987(v=VS.85).aspx">SetCredentials</a>
+<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">SetCredentials</a>
 </td>
 <td align="left" width="63%">
 Specifies the credentials to use for a proxy or server user authentication.
@@ -136,7 +136,7 @@ Specifies the credentials to use for a proxy or server user authentication.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362988(v=VS.85).aspx">SetNotifyCmdLine</a>
+<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">SetNotifyCmdLine</a>
 </td>
 <td align="left" width="63%">
 Specifies a program to execute when the job enters the error or transferred state.
@@ -145,7 +145,7 @@ Specifies a program to execute when the job enters the error or transferred stat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362989(v=VS.85).aspx">SetReplyFileName</a>
+<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">SetReplyFileName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the file to contain the reply data of an upload-reply job.
@@ -160,7 +160,7 @@ Specifies the name of the file to contain the reply data of an upload-reply job.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
  
 
  

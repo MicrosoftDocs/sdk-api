@@ -7,7 +7,7 @@ old-location: base\symnext.htm
 tech.root: debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
+- apiref
+: 
+- 
+: 
+- SymNext
+: 
 ---
 
 # SymNext function

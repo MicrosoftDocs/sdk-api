@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- adhoc.h
+: 
+- IDot11AdHocNetwork.DeleteProfile
+: 
 ---
 
 # IDot11AdHocNetwork::DeleteProfile

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITPluggableTerminalSuperclassRegistration.get_CLSID
+: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::get_CLSID
@@ -62,7 +70,7 @@ The
 ### -param pCLSID [out]
 
  The <b>BSTR</b> representation of the CLSID. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

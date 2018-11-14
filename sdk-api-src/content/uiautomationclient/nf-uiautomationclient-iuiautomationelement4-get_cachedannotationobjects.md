@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uiautomationclient.h
+: 
+- IUIAutomationElement4.get_CachedAnnotationObjects
+: 
 ---
 
 # IUIAutomationElement4::get_CachedAnnotationObjects
@@ -64,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845693(v=VS.85).aspx">CurrentAnnotationObjects</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects">CurrentAnnotationObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903677(v=VS.85).aspx">IUIAutomationElement4</a>
+<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
  
 
  

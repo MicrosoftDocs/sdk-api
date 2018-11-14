@@ -9,8 +9,8 @@ ms.assetid: EC5CDD23-B862-4DAE-AC01-4926C4FAD89A
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation],described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

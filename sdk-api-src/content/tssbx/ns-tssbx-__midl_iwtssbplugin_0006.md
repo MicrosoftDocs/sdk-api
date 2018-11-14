@@ -9,8 +9,8 @@ ms.assetid: 805e606b-6f30-4f49-af04-b7f298c4fadf
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: WTSSBX_MACHINE_CONNECT_INFO, WTSSBX_MACHINE_CONNECT_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0006, termserv.wtssbx_machine_connect_info, tssbx/WTSSBX_MACHINE_CONNECT_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tssbx.h
 req.include-header: 

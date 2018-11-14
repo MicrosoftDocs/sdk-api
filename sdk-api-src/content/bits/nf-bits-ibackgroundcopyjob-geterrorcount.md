@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- bits.h
+: 
+- IBackgroundCopyJob.GetErrorCount
+: 
 ---
 
 # IBackgroundCopyJob::GetErrorCount
@@ -97,7 +105,7 @@ BITS also increases the count each time it tries to transfer the job when the jo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363025(v=VS.85).aspx">IBackgroundCopyJob::GetError</a>
+<a href="https://msdn.microsoft.com/2ad4c913-2d1e-4490-968c-960178a57e3b">IBackgroundCopyJob::GetError</a>
  
 
  

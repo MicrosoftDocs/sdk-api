@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- certenroll.h
+: 
+- ICspInformation.get_Type
+: 
 ---
 
 # ICspInformation::get_Type
@@ -129,7 +137,7 @@ The values associated with the providers distributed by Microsoft are listed in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

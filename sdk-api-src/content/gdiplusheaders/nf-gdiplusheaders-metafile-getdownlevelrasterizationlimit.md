@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Metafile.GetDownLevelRasterizationLimit
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -51,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Gets the rasterization limit currently set for this metafile. The rasterization limit is the resolution used for certain brush bitmaps that are stored in the metafile. For a detailed explanation of the rasterization limit, see <a href="https://msdn.microsoft.com/en-us/library/ms535275(v=VS.85).aspx">Metafile::SetDownLevelRasterizationLimit</a>.
+Gets the rasterization limit currently set for this metafile. The rasterization limit is the resolution used for certain brush bitmaps that are stored in the metafile. For a detailed explanation of the rasterization limit, see <a href="https://msdn.microsoft.com/27bf1db2-e1c3-4302-8cec-61b22d97214d">Metafile::SetDownLevelRasterizationLimit</a>.
 
 
 ## -parameters

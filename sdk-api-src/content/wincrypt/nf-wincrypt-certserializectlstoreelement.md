@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CertSerializeCTLStoreElement
+: 
 ---
 
 # CertSerializeCTLStoreElement function
@@ -111,7 +117,7 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

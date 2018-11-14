@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- subscriptionservices.h
+: 
+- IWMPSubscriptionService2.deviceAvailable
+: 
 ---
 
 # IWMPSubscriptionService2::deviceAvailable

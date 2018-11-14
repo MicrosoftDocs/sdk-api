@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mswmdm.h
+: 
+- ISCPSecureQuery3.GetRightsOnClearChannel
+: 
 ---
 
 # ISCPSecureQuery3::GetRightsOnClearChannel

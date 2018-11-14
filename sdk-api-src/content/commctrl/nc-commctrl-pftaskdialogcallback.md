@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfun
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: PFTASKDIALOGCALLBACK, PFTASKDIALOGCALLBACK callback, PFTASKDIALOGCALLBACK callback function [Windows Controls], _shell_TaskDialogCallbackProc, _shell_TaskDialogCallbackProc_cpp, commctrl/PFTASKDIALOGCALLBACK, controls.TaskDialogCallbackProc, controls._shell_TaskDialogCallbackProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: commctrl.h
 req.include-header: Commctrl.h

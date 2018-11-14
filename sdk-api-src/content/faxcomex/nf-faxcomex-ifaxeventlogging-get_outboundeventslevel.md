@@ -46,6 +46,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxEventLogging.get_OutboundEventsLevel
+: 
 ---
 
 # IFaxEventLogging::get_OutboundEventsLevel

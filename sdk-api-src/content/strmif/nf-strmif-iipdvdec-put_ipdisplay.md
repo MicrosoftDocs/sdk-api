@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- strmif.h
+: 
+- IIPDVDec.put_IPDisplay
+: 
 ---
 
 # IIPDVDec::put_IPDisplay

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusstringformat.h
+: 
+- StringFormat.SetHotkeyPrefix
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -61,23 +69,23 @@ The <b>StringFormat::SetHotkeyPrefix</b> method sets the type of processing that
 
 ### -param hotkeyPrefix [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a></b>
+Type: <b><a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a> enumeration that specifies how to process the hot key prefix. 
+Element of the <a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a> enumeration that specifies how to process the hot key prefix. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -104,7 +112,7 @@ A client programmer designates a hot key in an application by using the hot key 
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object and sets the type of hot key prefix processing to be performed on the string. The code then uses the 
+						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object and sets the type of hot key prefix processing to be performed on the string. The code then uses the 
 						<b>StringFormat</b> object to draw a string that contains the hot key prefix character. The code also draws the string's layout rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -147,15 +155,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534717(v=VS.85).aspx">StringFormat::GetHotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/3bedd011-6f46-4afe-9d82-90014c14b418">StringFormat::GetHotkeyPrefix</a>
  
 
  

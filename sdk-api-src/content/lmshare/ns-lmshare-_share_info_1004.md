@@ -9,8 +9,8 @@ ms.assetid: 41749066-d0e2-4a6b-aea5-216af9a530f4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPSHARE_INFO_1004, *PSHARE_INFO_1004, LPSHARE_INFO_1004, LPSHARE_INFO_1004 structure pointer [Files], PSHARE_INFO_1004, PSHARE_INFO_1004 structure pointer [Files], SHARE_INFO_1004, SHARE_INFO_1004 structure [Files], _SHARE_INFO_1004, _win32_share_info_1004_str, fs.share_info_1004_str, lmshare/LPSHARE_INFO_1004, lmshare/PSHARE_INFO_1004, lmshare/SHARE_INFO_1004, netmgmt.share_info_1004_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

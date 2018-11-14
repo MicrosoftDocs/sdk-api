@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- MonthCal_SetRange
+: 
 ---
 
 # MonthCal_SetRange macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761012(v=VS.85).aspx">MCM_SETRANGE</a> message explicitly. 
+Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/dab9ebb0-f397-4e71-b060-ef8d7d89a6bc">MCM_SETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +68,14 @@ Sets the minimum and maximum allowable dates for a month calendar control. You c
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param gd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Flag values that specify which date limits are being set. This value must be one or both of the following: 
 

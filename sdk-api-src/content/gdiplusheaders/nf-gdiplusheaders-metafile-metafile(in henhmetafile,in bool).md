@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusheaders.h
+: 
+- Metafile.Metafile
+: 
 req.product: GDI+ 1.0
 ---
 
@@ -91,7 +99,7 @@ This constructor allows GDI+ to own the windows handle to the metafile, which sh
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
 
 
 

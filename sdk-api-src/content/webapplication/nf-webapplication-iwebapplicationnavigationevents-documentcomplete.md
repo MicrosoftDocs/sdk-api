@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- webapplication.h
+: 
+- IWebApplicationNavigationEvents.DocumentComplete
+: 
 ---
 
 # IWebApplicationNavigationEvents::DocumentComplete
@@ -60,7 +68,7 @@ Fired when the document being navigated to reaches ReadyState_Complete.
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa741505(v=VS.85).aspx">IHTMLWindow2</a>*</b>
+Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
 
 The window or frame in which the document is loaded.
 

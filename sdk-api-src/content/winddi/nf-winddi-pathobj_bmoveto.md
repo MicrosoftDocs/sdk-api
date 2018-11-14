@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- PATHOBJ_bMoveTo
+: 
 ---
 
 # PATHOBJ_bMoveTo function

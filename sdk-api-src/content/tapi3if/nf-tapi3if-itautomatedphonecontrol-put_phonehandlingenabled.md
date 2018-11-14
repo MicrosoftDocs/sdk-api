@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITAutomatedPhoneControl.put_PhoneHandlingEnabled
+: 
 ---
 
 # ITAutomatedPhoneControl::put_PhoneHandlingEnabled

@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- NPAddConnection3
+: 
 ---
 
 # NPAddConnection3 function

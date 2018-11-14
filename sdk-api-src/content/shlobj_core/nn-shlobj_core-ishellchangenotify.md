@@ -9,8 +9,8 @@ ms.assetid: fc8d0bdd-0ca5-40e3-bdad-68ca1c64b08e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IShellChangeNotify, IShellChangeNotify interface [Windows Shell], IShellChangeNotify interface [Windows Shell],described, _win32_IShellChangeNotify, shell.IShellChangeNotify, shlobj_core/IShellChangeNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 

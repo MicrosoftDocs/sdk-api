@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IInstallationBehavior.get_RequiresNetworkConnectivity
+: 
 ---
 
 # IInstallationBehavior::get_RequiresNetworkConnectivity

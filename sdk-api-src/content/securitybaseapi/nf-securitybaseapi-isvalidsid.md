@@ -4,10 +4,10 @@ title: IsValidSid function
 author: windows-sdk-content
 description: Validates a security identifier (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.
 old-location: security\isvalidsid.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, security.isvalidsid, securitybaseapi/IsValidSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- IsValidSid
+: 
 ---
 
 # IsValidSid function
@@ -100,7 +106,7 @@ If <i>pSid</i> is <b>NULL</b>, the application will fail with an access violatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

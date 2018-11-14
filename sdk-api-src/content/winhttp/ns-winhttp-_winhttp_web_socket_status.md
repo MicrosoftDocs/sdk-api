@@ -9,8 +9,8 @@ ms.assetid: 4e34a306-1238-4a3b-8336-475e904b0a60
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WINHTTP_WEB_SOCKET_STATUS, WINHTTP_WEB_SOCKET_STATUS structure [HTTP], _WINHTTP_WEB_SOCKET_STATUS, http.winhttp_web_socket_status, winhttp/WINHTTP_WEB_SOCKET_STATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

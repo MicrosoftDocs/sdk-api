@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xenroll.h
+: 
+- ICEnroll3.InstallPKCS7
+: 
 ---
 
 # ICEnroll3::InstallPKCS7

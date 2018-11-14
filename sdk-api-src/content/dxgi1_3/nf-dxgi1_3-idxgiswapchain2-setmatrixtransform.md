@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain2_setmatrixtransform.htm
 tech.root: direct3ddxgi
 ms.assetid: AAED8A59-3190-49A0-93AA-F5CAF9088877
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMatrixTransform method, IDXGISwapChain2.SetMatrixTransform, IDXGISwapChain2::SetMatrixTransform, SetMatrixTransform, SetMatrixTransform method [DXGI], SetMatrixTransform method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmatrixtransform, dxgi1_3/IDXGISwapChain2::SetMatrixTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dxgi1_3.h
+: 
+- IDXGISwapChain2.SetMatrixTransform
+: 
 ---
 
 # IDXGISwapChain2::SetMatrixTransform
@@ -75,7 +83,7 @@ The transform matrix to use for swap chain scaling and translation. This functio
 <li>S_OK if it successfully retrieves the transform matrix.</li>
 <li>E_INVALIDARG if the <i>pMatrix</i> parameter is incorrect, for example, <i>pMatrix</i> is NULL or the matrix represented by <a href="https://msdn.microsoft.com/5EA0FAD4-5F19-4E5A-97D4-11AE750E8560">DXGI_MATRIX_3X2_F</a> includes components other than scale and translation.</li>
 <li>DXGI_ERROR_INVALID_CALL if the method is called on a swap chain that was not created with <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">CreateSwapChainForComposition</a>.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

@@ -9,8 +9,8 @@ ms.assetid: 56c11e64-64a8-4c42-9547-4f1fcdc13a4b
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], IXpsOMVisualBrush interface [XPS Documents and Packaging],described, xps.ixpsomvisualbrush, xpsobjectmodel/IXpsOMVisualBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

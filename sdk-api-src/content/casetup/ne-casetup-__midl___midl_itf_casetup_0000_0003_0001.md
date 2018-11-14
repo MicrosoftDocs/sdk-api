@@ -9,8 +9,8 @@ ms.assetid: c3740afc-842e-427f-87bf-022f5544d0d4
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: ENUM_CEPSETUPPROP_CAINFORMATION, ENUM_CEPSETUPPROP_CHALLENGEURL, ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION, ENUM_CEPSETUPPROP_MSCEPURL, ENUM_CEPSETUPPROP_RANAME_CITY, ENUM_CEPSETUPPROP_RANAME_CN, ENUM_CEPSETUPPROP_RANAME_COMPANY, ENUM_CEPSETUPPROP_RANAME_COUNTRY, ENUM_CEPSETUPPROP_RANAME_DEPT, ENUM_CEPSETUPPROP_RANAME_EMAIL, ENUM_CEPSETUPPROP_RANAME_STATE, ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION, ENUM_CEPSETUPPROP_USECHALLENGE, ENUM_CEPSETUPPROP_USELOCALSYSTEM, MSCEPSetupProperty, MSCEPSetupProperty enumeration [Security], __MIDL___MIDL_itf_casetup_0000_0003_0001, casetup/ENUM_CEPSETUPPROP_CAINFORMATION, casetup/ENUM_CEPSETUPPROP_CHALLENGEURL, casetup/ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION, casetup/ENUM_CEPSETUPPROP_MSCEPURL, casetup/ENUM_CEPSETUPPROP_RANAME_CITY, casetup/ENUM_CEPSETUPPROP_RANAME_CN, casetup/ENUM_CEPSETUPPROP_RANAME_COMPANY, casetup/ENUM_CEPSETUPPROP_RANAME_COUNTRY, casetup/ENUM_CEPSETUPPROP_RANAME_DEPT, casetup/ENUM_CEPSETUPPROP_RANAME_EMAIL, casetup/ENUM_CEPSETUPPROP_RANAME_STATE, casetup/ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION, casetup/ENUM_CEPSETUPPROP_USECHALLENGE, casetup/ENUM_CEPSETUPPROP_USELOCALSYSTEM, casetup/MSCEPSetupProperty, security.mscepsetupproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: casetup.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>MSCEPSetupProperty</b> enumeration specifies a property type for setup and configuration of a Microsoft <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">Simple Certificate Enrollment Protocol</a> (SCEP) role using <a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>.
+The <b>MSCEPSetupProperty</b> enumeration specifies a property type for setup and configuration of a Microsoft <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Simple Certificate Enrollment Protocol</a> (SCEP) role using <a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>.
 
 
 ## -enum-fields
@@ -105,12 +105,12 @@ A <b>VT_BSTR</b> value that specifies the country or region name to be added in 
 
 ### -field ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION
 
-A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP signing certificate. Setup creates a signing certificate based on an "EnrollmentAgentOffline" template.
+A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP signing certificate. Setup creates a signing certificate based on an "EnrollmentAgentOffline" template.
 
 
 ### -field ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION
 
-A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP key exchange certificate. Setup creates a key exchange certificate based on a "CEPEncryption" template.
+A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP key exchange certificate. Setup creates a key exchange certificate based on a "CEPEncryption" template.
 
 
 ### -field ENUM_CEPSETUPPROP_CAINFORMATION

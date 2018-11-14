@@ -9,8 +9,8 @@ ms.assetid: fb853879-3ee9-45e7-bab6-31f8f8211680
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PCRYPT_IMAGE_REF, CRYPT_IMAGE_REF, CRYPT_IMAGE_REF structure [Security], CRYPT_MIN_DEPENDENCIES, CRYPT_PROCESS_ISOLATE, PCRYPT_IMAGE_REF, PCRYPT_IMAGE_REF structure pointer [Security], _CRYPT_IMAGE_REF, bcrypt/CRYPT_IMAGE_REF, bcrypt/PCRYPT_IMAGE_REF, security.crypt_image_ref"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
@@ -101,11 +101,11 @@ This flag is not used.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375495(v=VS.85).aspx">BCryptResolveProviders</a>
+<a href="https://msdn.microsoft.com/cf30f635-4918-4911-9db0-df90d26a2f1a">BCryptResolveProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376231(v=VS.85).aspx">CRYPT_PROVIDER_REF</a>
+<a href="https://msdn.microsoft.com/3bd4a07c-8b80-4bbc-9922-88ea007f6ccd">CRYPT_PROVIDER_REF</a>
  
 
  

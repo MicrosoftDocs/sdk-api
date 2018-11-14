@@ -9,8 +9,8 @@ ms.assetid: 55F6B72E-B4D5-44F0-9268-D25D677746C5
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR structure pointer [Security], SECPKG_SHORT_VECTOR, SECPKG_SHORT_VECTOR structure [Security], _SECPKG_SHORT_VECTOR, ntsecpkg/PSECPKG_SHORT_VECTOR, ntsecpkg/SECPKG_SHORT_VECTOR, security.secpkg_short_vector"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

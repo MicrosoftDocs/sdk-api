@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfreadwrite.h
+: 
+- IMFSinkWriterCallback2.OnTransformChange
+: 
 ---
 
 # IMFSinkWriterCallback2::OnTransformChange

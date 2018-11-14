@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1SolidColorBrush_SetColor_ref_COLOR_F.htm
 tech.root: direct2d
 ms.assetid: f11d3528-e444-4a55-b522-0dad6ddcd735
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: ID2D1SolidColorBrush interface [Direct2D],SetColor method, ID2D1SolidColorBrush.SetColor, ID2D1SolidColorBrush.SetColor(const D2D1_COLOR_F &), ID2D1SolidColorBrush::SetColor, ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F &), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SolidColorBrush interface, d2d1/ID2D1SolidColorBrush::SetColor, direct2d.ID2D1SolidColorBrush_SetColor_ref_COLOR_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1.h
+: 
+- ID2D1SolidColorBrush.SetColor
+: 
 ---
 
 # ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F &)
@@ -85,26 +93,30 @@ To help create colors, Direct2D provides the <a href="https://msdn.microsoft.com
 
 The following code shows  how to use this method.
 
-
-```cpp
-        m_pSolidColorBrush->SetColor(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        m_pSolidColorBrush-&gt;SetColor(
             D2D1::ColorF(
                 0.0f,
                 intensity,
                 1.0f - intensity
                 ));
 
-        hr = m_pRealization->Fill(
+        hr = m_pRealization-&gt;Fill(
                 m_pRT,
                 m_pSolidColorBrush,
                 m_useRealizations ?
                     REALIZATION_RENDER_MODE_DEFAULT :
                     REALIZATION_RENDER_MODE_FORCE_UNREALIZED
                 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

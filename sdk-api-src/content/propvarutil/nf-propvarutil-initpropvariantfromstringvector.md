@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- 
+: 
+- InitPropVariantFromStringVector
+: 
 ---
 
 # InitPropVariantFromStringVector function
@@ -95,19 +101,19 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
+<a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
+<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS, tagIMAGELISTSTATS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commoncontrols.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains image list statistics. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb761417(v=VS.85).aspx">GetStatistics</a>.
+Contains image list statistics. Used by <a href="https://msdn.microsoft.com/D6402FCB-8E84-4F46-9B88-C0AFCEA66A9A">GetStatistics</a>.
 
 
 ## -struct-fields

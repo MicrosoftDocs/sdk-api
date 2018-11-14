@@ -9,8 +9,8 @@ ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windows Shell], OVERLAPPED, OVERLAPPED structure [Windows Shell], _OVERLAPPED, _shell_OVERLAPPED, shell.OVERLAPPED, shobjidl/LPOVERLAPPED, shobjidl/OVERLAPPED"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], tagUpdateType, utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

@@ -47,6 +47,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msinkaut.h
+: 
+- IInkExtendedProperty.put_Data
+: 
 ---
 
 # IInkExtendedProperty::put_Data

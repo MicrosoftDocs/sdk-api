@@ -9,8 +9,8 @@ ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], _SdpQueryUuid, bluetooth.sdpqueryuuid, bthsdpdef/SdpQueryUuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bthsdpdef.h
 req.include-header: 
@@ -91,7 +91,7 @@ Type of UUID being searched. Must be one of the three valid values from the SDP_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362938(v=VS.85).aspx">BTH_QUERY_SERVICE</a>
+<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
  
 
  

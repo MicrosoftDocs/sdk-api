@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ULongLongToInt8
+: 
 ---
 
 # ULongLongToInt8 function

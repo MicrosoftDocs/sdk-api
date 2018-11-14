@@ -9,8 +9,8 @@ ms.assetid: 14F39582-F51D-456F-BC19-AFE6E50D4155
 ms.author: windowssdkdev
 ms.date: 10/30/2018
 ms.keywords: IMEDLG, IMEDLG structure [Internationalization for Windows Applications], PIMEDLG, PIMEDLG structure pointer [Internationalization for Windows Applications], _IMEDLG, intl.imedlg, msime/IMEDLG, msime/PIMEDLG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msime.h
 req.include-header: 

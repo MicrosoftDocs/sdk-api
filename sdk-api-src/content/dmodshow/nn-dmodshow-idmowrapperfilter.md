@@ -9,8 +9,8 @@ ms.assetid: c85b828c-095d-4991-85a8-65b96529f305
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], IDMOWrapperFilter interface [DirectShow],described, IDMOWrapperFilterInterface, dmodshow/IDMOWrapperFilter, dshow.idmowrapperfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dmodshow.h
 req.include-header: 

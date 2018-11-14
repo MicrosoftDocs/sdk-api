@@ -9,8 +9,8 @@ ms.assetid: 747a7d5b-df7c-498b-a541-13c6561cebfe
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITranscodeImage interface [Windows Shell],described, _shell_ITranscodeImage, imagetranscode/ITranscodeImage, shell.ITranscodeImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imagetranscode.h
 req.include-header: 

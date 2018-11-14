@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
 tech.root: eaphost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EapHostPeerProcessReceivedPacket
+: 
 ---
 
 # EapHostPeerProcessReceivedPacket function

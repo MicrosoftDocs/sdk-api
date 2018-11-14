@@ -9,8 +9,8 @@ ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], _VDS_PORT_PROP, base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

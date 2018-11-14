@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CM_Get_Next_Log_Conf
+: 
 ---
 
 # CM_Get_Next_Log_Conf function
@@ -110,7 +116,7 @@ If <b>CM_Get_Next_Log_Conf</b> is called with <i>plcLogConf</i> set to <b>NULL</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538598(v=VS.85).aspx">CM_Get_Next_Log_Conf_Ex</a>
+<a href="https://msdn.microsoft.com/590baeb8-9234-4895-a05b-1917b2ee0155">CM_Get_Next_Log_Conf_Ex</a>
  
 
  

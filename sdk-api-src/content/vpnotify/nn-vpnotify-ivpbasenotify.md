@@ -9,8 +9,8 @@ ms.assetid: c72bd662-366c-4102-9ad9-9e4c59096ede
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], IVPBaseNotify interface [DirectShow],described, IVPBaseNotifyInterface, dshow.ivpbasenotify, vpnotify/IVPBaseNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vpnotify.h
 req.include-header: 

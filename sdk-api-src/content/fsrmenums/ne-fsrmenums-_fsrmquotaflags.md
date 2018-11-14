@@ -9,8 +9,8 @@ ms.assetid: 254a26c7-a859-4b23-a3e2-9d261c848eef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: FsrmQuotaFlags, FsrmQuotaFlags enumeration [File Server Resource Manager], FsrmQuotaFlags_Disable, FsrmQuotaFlags_Enforce, FsrmQuotaFlags_StatusIncomplete, FsrmQuotaFlags_StatusRebuilding, _FsrmQuotaFlags, fs.fsrmquotaflags, fsrm.fsrmquotaflags, fsrmenums/FsrmQuotaFlags, fsrmenums/FsrmQuotaFlags_Disable, fsrmenums/FsrmQuotaFlags_Enforce, fsrmenums/FsrmQuotaFlags_StatusIncomplete, fsrmenums/FsrmQuotaFlags_StatusRebuilding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

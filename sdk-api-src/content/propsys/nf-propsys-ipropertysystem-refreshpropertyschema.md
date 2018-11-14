@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertySystem.RefreshPropertySchema
+: 
 ---
 
 # IPropertySystem::RefreshPropertySchema
@@ -106,7 +114,7 @@ Indicates calling context does not have proper privileges.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

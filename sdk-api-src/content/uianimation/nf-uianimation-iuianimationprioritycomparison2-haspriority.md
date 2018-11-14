@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- uianimation.h
+: 
+- IUIAnimationPriorityComparison2.HasPriority
+: 
 ---
 
 # IUIAnimationPriorityComparison2::HasPriority

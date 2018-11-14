@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mdhcp.h
+: 
+- IMcastScope.get_InterfaceID
+: 
 ---
 
 # IMcastScope::get_InterfaceID

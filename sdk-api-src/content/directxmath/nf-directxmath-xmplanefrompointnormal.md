@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMPlaneFromPointNormal
+: 
 ---
 
 # XMPlaneFromPointNormal function
@@ -73,9 +79,6 @@ Computes the equation of a plane constructed from a point in the plane and a nor
 
 
 Returns a vector whose components are the coefficients of the plane (A, B, C, D) for the plane equation
-       
-
-<div class="code"><span codelanguage=""><table>
        <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -92,9 +95,7 @@ Result.w = -(Point.x * Normal.x + Point.y * Normal.y + Point.z * Normal.z);
 return Result;</pre>
 </td>
 </tr>
-</table></span></div>
-
-.
+</table></span></div>.
 
 
 

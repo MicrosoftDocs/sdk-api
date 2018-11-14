@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wmp.h
+: 
+- IWMPCdrom.get_driveSpecifier
+: 
 ---
 
 # IWMPCdrom::get_driveSpecifier

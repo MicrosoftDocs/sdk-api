@@ -9,8 +9,8 @@ ms.assetid: 9bd427da-1c14-403e-bebe-f64fe4e8723c
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code, _win32_ioctl_serial_lsrmst_insert, base.ioctl_serial_lsrmst_insert, winioctl/IOCTL_SERIAL_LSRMST_INSERT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
@@ -51,7 +51,7 @@ req.redist:
 
 
 Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> function.
+<a href="base.readfile">ReadFile</a> function.
 
 When this line-status and modem-status data placement mode is enabled, status values are preceded in the data stream by an escape character. The user-definable escape character is set by the 
 <b>IOCTL_SERIAL_LSRMST_INSERT</b> control code. See the Remarks section for status value details.

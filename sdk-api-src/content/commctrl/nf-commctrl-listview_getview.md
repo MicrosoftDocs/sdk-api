@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- commctrl.h
+: 
+- ListView_GetView
+: 
 ---
 
 # ListView_GetView macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the current view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761091(v=VS.85).aspx">LVM_GETVIEW</a> message explicitly. 
+Gets the current view of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/dd63e726-3a7f-40e7-8d46-4680816c02a3">LVM_GETVIEW</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +77,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_GetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

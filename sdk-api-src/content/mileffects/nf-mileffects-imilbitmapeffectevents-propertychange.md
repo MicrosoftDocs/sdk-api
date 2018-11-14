@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
+- apiref
+: 
+- COM
+: 
+- mileffects.h
+: 
+- IMILBitmapEffectEvents.PropertyChange
+: 
 ---
 
 # IMILBitmapEffectEvents::PropertyChange
@@ -50,7 +58,7 @@ req.redist: Microsoft .Net 3.0
 ## -description
 
 
-Notifies an <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a> of a property change.
+Notifies an <a href="https://msdn.microsoft.com/23eea785-8545-44d3-bfcb-1ffbc82ecc6a">IMILBitmapEffectPrimitive</a> of a property change.
 
 
 ## -parameters
@@ -60,7 +68,7 @@ Notifies an <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>*</b>
 
 The effect primitive to notify.
 

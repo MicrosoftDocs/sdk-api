@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- termmgr.h
+: 
+- ITTerminalControl.ConnectTerminal
+: 
 ---
 
 # ITTerminalControl::ConnectTerminal

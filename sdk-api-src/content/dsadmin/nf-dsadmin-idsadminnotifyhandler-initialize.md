@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dsadmin.h
+: 
+- IDsAdminNotifyHandler.Initialize
+: 
 ---
 
 # IDsAdminNotifyHandler::Initialize
@@ -112,7 +120,7 @@ If the method succeeds, <b>S_OK</b> is returned. If the method fails,  a standar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

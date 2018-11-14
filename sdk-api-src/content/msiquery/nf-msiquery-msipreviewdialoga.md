@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- MsiPreviewDialogA
+: 
 ---
 
 # MsiPreviewDialogA function
@@ -95,7 +101,7 @@ Supplying a null name in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">User Interface Functions</a>
+<a href="database_functions.htm">User Interface Functions</a>
  
 
  

@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d11_1.h
+: 
+- ID3D11DeviceContext1.VSSetConstantBuffers1
+: 
 ---
 
 # ID3D11DeviceContext1::VSSetConstantBuffers1
@@ -61,35 +69,35 @@ Sets the constant buffers that the vertex shader pipeline stage uses.
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin setting constant buffers to (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - 1).
 
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of buffers to set (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - <i>StartSlot</i>).
 
 
 ### -param ppConstantBuffers [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
 Array of constant buffers being given to the device.
 
 
 ### -param pFirstConstant [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> specifies. Each offset specifies where, from the shader's point of view, each constant buffer starts.  Each offset is measured in shader constants, which are 16 bytes (4*32-bit components).  Therefore, an offset of 16 indicates that the start of the associated constant buffer is 256 bytes into the constant buffer. Each offset must be a multiple of 16 constants.
 
 
 ### -param pNumConstants [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 An array that holds the numbers of constants in the buffers that  <i>ppConstantBuffers</i> specifies. Each number specifies the number of constants that are contained in the constant buffer that the shader uses. Each number of constants starts from its respective offset that is specified in the <i>pFirstConstant</i> array. Each number of constants must be a multiple of 16 constants, in the range [0..4096]. 
 
@@ -109,18 +117,18 @@ Returns nothing.
 
 The runtime drops the call to <b>VSSetConstantBuffers1</b> if the number of constants to which <i>pNumConstants</i> points is larger than the maximum constant buffer size that is supported by shaders (4096 constants).  The values in the elements of the <i>pFirstConstant</i> and <i>pFirstConstant</i> + <i>pNumConstants</i> arrays can exceed the length of each buffer; from the shader's point of view, the constant buffer is the intersection of the actual memory allocation for the buffer and the window [value in an element of <i>pFirstConstant</i>, value in an element of <i>pFirstConstant</i> + value in an element of <i>pNumConstants</i>]. The runtime also drops the call to <b>VSSetConstantBuffers1</b> on existing drivers that don't support this offsetting.
 
-The runtime will emulate this feature for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.  This feature is always available on new drivers for feature level 10 and higher.
+The runtime will emulate this feature for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.  This feature is always available on new drivers for feature level 10 and higher.
 
 From the shader’s point of view, element [0] in the constant buffers array is the constant at <i>pFirstConstant</i>.
 
 Out of bounds access to the constant buffers from the shader to the range that is defined by <i>pFirstConstant</i> and <i>pNumConstants</i> returns 0. 
 
-If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/en-us/library/Ff476491(v=VS.85).aspx">VSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
+If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/c6f9674b-89fe-4e1e-b814-6ddd98a9cb98">VSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
 
 If either <i>pFirstConstant</i> or <i>pNumConstants</i> is <b>NULL</b>, the other parameter must also be <b>NULL</b>.
 
 <h3><a id="Calling_VSSetConstantBuffers1_with_command_list_emulation"></a><a id="calling_vssetconstantbuffers1_with_command_list_emulation"></a><a id="CALLING_VSSETCONSTANTBUFFERS1_WITH_COMMAND_LIST_EMULATION"></a>Calling VSSetConstantBuffers1 with command list emulation</h3>
-The runtime's <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command list</a> emulation of <b>VSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
+The runtime's <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command list</a> emulation of <b>VSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
 
 <b>VSSetConstantBuffers1</b> doesn't effectively change the constant buffers at the beginning and end of the range of slots that you set to update. This section shows how to work around this 
 
@@ -208,7 +216,7 @@ If you change multiple constant buffers, set the first and last constant buffers
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
  
 
  

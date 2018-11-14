@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shobjidl.h
+: 
+- INameSpaceTreeControlCustomDraw.PrePaint
+: 
 ---
 
 # INameSpaceTreeControlCustomDraw::PrePaint
@@ -76,7 +84,7 @@ A pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8dd
 
 Type: <b>LRESULT*</b>
 
-When this method returns, contains a pointer to an <b>LRESULT</b>, which contains one or more of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb775489(v=VS.85).aspx">CDRF Constants</a> enumeration.
+When this method returns, contains a pointer to an <b>LRESULT</b>, which contains one or more of the values from the <a href="https://msdn.microsoft.com/6b05e27e-5d18-46f2-b326-2a5148597852">CDRF Constants</a> enumeration.
 
 
 ## -returns

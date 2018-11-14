@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- pla.h
+: 
+- IDataCollectorSet.get_SchedulesEnabled
+: 
 ---
 
 # IDataCollectorSet::get_SchedulesEnabled

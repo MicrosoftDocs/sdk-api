@@ -9,8 +9,8 @@ ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], IRepetitionPattern interface [Task Scheduler],described, repetition pattern [Task Scheduler],interface, taskschd.irepetitionpattern, taskschd/IRepetitionPattern, triggers [Task Scheduler],repetition pattern interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -98,7 +98,7 @@ For more information and example code for this property, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

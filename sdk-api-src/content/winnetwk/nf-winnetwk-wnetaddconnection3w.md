@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WNetAddConnection3W
+: 
 ---
 
 # WNetAddConnection3W function

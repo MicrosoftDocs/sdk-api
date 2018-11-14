@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- tapi3if.h
+: 
+- ITPhoneDeviceSpecificEvent.get_Phone
+: 
 ---
 
 # ITPhoneDeviceSpecificEvent::get_Phone

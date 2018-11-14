@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplusimageattributes.h
+: 
+- ImageAttributes.ImageAttributes
+: 
 req.product: GDI+ 1.0
 ---
 

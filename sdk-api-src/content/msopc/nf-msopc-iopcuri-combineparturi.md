@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- msopc.h
+: 
+- IOpcUri.CombinePartUri
+: 
 ---
 
 # IOpcUri::CombinePartUri
@@ -107,7 +115,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/ms775085(v=VS.85).aspx">CoInternetCombineUrl</a> function returned an invalid size.
+The <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function returned an invalid size.
               
 
 </td>
@@ -131,7 +139,7 @@ At least one of the <i>relativeUri</i>, and <i>combinedUri</i> parameters is <b>
 </dl>
 </td>
 <td width="60%">
-The size of the buffer required by the <a href="https://msdn.microsoft.com/library/ms775085(v=VS.85).aspx">CoInternetCombineUrl</a> function changed unexpectedly.
+The size of the buffer required by the <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function changed unexpectedly.
               
 
 </td>
@@ -169,7 +177,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775085(v=VS.85).aspx">CoInternetCombineUrl</a> function.
+An <b>HRESULT</b> error code from the <a href="_inet_CoInternetCombineUrl_Function">CoInternetCombineUrl</a> function.
               
 
 </td>
@@ -182,7 +190,7 @@ An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/librar
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
               
 
 </td>

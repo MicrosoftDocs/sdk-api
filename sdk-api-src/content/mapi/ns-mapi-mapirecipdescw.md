@@ -9,8 +9,8 @@ ms.assetid: 70050D1A-DA06-4D3B-90AF-F997E3B332EB
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*lpMapiRecipDescW, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDescW, MapiRecipDescW structure, lpMapiRecipDescW, lpMapiRecipDescW structure pointer, mapi.mapirecipdescw, mapi/MapiRecipDescW, mapi/lpMapiRecipDescW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 

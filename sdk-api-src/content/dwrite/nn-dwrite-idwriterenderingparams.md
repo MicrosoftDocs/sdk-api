@@ -9,8 +9,8 @@ ms.assetid: 28b118e4-9a63-46cf-8ab7-e1039126405b
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: IDWriteRenderingParams, IDWriteRenderingParams interface [Direct Write], IDWriteRenderingParams interface [Direct Write],described, directwrite.IDWriteRenderingParams, dwrite/IDWriteRenderingParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

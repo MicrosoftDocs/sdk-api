@@ -9,8 +9,8 @@ ms.assetid: c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], IMetaDataAssemblyImport interface [Windows Runtime],described, rometadataapi/IMetaDataAssemblyImport, winrt.imetadataassemblyimport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

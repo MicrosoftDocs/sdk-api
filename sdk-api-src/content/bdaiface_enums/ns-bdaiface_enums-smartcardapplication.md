@@ -9,8 +9,8 @@ ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV Technologies], SmartCardApplicationStructure, bdaiface_enums/SmartCardApplication, mstv.smartcardapplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bdaiface_enums.h
 req.include-header: Bdaiface.h
@@ -63,7 +63,7 @@ The <b>SmartCardApplication</b> structure identifies a smart card application.
 
 ### -field ApplicationType
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692989(v=VS.85).aspx">ApplicationTypeType</a> enumeration.
+Member of the <a href="https://msdn.microsoft.com/8df28daf-7e45-416c-8376-6716bd1783d4">ApplicationTypeType</a> enumeration.
 
 
 ### -field ApplicationVersion
@@ -86,7 +86,7 @@ Application URL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693017(v=VS.85).aspx">BDA Structures</a>
+<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
  
 
  

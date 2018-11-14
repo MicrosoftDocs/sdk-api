@@ -9,8 +9,8 @@ ms.assetid: bbb976df-5c8d-4d5e-ba92-7c534bba59de
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_TRANS, PFN_CMSG_EXPORT_KEY_TRANS callback, PFN_CMSG_EXPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_export_key_trans, wincrypt/PFN_CMSG_EXPORT_KEY_TRANS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

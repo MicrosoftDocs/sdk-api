@@ -9,8 +9,8 @@ ms.assetid: 0200008c-5664-445f-ae65-0eb004856a4c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: SimilarityDumpData, SimilarityDumpData structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0014, fs.similaritydumpdata, msrdc/SimilarityDumpData, rdc.similaritydumpdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

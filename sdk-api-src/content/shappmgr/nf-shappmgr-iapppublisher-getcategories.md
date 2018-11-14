@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- shappmgr.h
+: 
+- IAppPublisher.GetCategories
+: 
 ---
 
 # IAppPublisher::GetCategories

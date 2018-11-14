@@ -9,8 +9,8 @@ ms.assetid: be87cebf-da50-437b-bbb1-22c2c764e700
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: SYNCMGRREGISTERFLAGS, SYNCMGRREGISTERFLAGS enumeration [Windows Shell], SYNCMGRREGISTERFLAG_CONNECT, SYNCMGRREGISTERFLAG_IDLE, SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, _tagSYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAG_CONNECT, mobsync/SYNCMGRREGISTERFLAG_IDLE, mobsync/SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, shell.syncmgr_SYNCMGRREGISTERFLAGS, syncmgr_SYNCMGRREGISTERFLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 

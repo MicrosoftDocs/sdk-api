@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ClfsLsnEqual
+: 
 ---
 
 # ClfsLsnEqual function
@@ -102,7 +108,7 @@ LSNs from different streams are not comparable. Do not use this function to comp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540399(v=VS.85).aspx">LsnNull</a>
+<a href="https://msdn.microsoft.com/effa7924-fcde-4aaf-964b-a6916cb6d1f5">LsnNull</a>
  
 
  

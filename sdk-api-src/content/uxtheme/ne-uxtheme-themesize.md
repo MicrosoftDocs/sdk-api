@@ -9,8 +9,8 @@ ms.assetid: VS|Controls|~\controls\userex\enums\themesize.htm
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: THEMESIZE, THEMESIZE enumeration [Windows Controls], THEME_SIZE, THEME_SIZE enumeration [Windows Controls], TS_DRAW, TS_MIN, TS_TRUE, controls.THEME_SIZE, controls.inet_THEME_SIZE, inet_THEME_SIZE, inet_THEME_SIZE_cpp, uxtheme/THEMESIZE, uxtheme/TS_DRAW, uxtheme/TS_MIN, uxtheme/TS_TRUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 
@@ -77,7 +77,7 @@ Receives the size that the theme manager uses to draw a part.
 
 
 
-A value from the <b>THEMESIZE</b> enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb759759(v=VS.85).aspx">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part. 
+A value from the <b>THEMESIZE</b> enumeration is used with the <a href="https://msdn.microsoft.com/0da9bbbc-ff63-45a7-a20d-c51b5b3184e2">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part. 
 
 
 

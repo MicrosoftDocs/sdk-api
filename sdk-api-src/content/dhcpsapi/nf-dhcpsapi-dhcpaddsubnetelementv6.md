@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- DhcpAddSubnetElementV6
+: 
 ---
 
 # DhcpAddSubnetElementV6 function

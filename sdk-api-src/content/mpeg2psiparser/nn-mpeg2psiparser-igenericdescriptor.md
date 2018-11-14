@@ -9,8 +9,8 @@ ms.assetid: efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mpeg2psiparser.h
 req.include-header: 

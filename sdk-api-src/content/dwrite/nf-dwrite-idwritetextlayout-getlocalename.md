@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dwrite.h
+: 
+- IDWriteTextLayout.GetLocaleName
+: 
 ---
 
 # IDWriteTextLayout::GetLocaleName

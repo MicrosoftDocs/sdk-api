@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- FreeContextBuffer
+: 
 ---
 
 # FreeContextBuffer function
@@ -90,7 +96,7 @@ The <b>FreeContextBuffer</b> function can free any memory allocated by a securit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

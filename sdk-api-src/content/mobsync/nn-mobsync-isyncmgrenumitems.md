@@ -9,8 +9,8 @@ ms.assetid: d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISyncMgrEnumItems interface [Windows Shell],described, mobsync/ISyncMgrEnumItems, shell.syncmgr_isyncmgrenumitems, syncmgr.isyncmgrenumitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 

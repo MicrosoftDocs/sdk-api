@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_skewx.htm
 tech.root: direct2d
 ms.assetid: 6102EAEA-24B5-43C2-9351-3E9F3D06F6D3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SkewX method, Matrix4x4F.SkewX, Matrix4x4F::SkewX, SkewX, SkewX method [Direct2D], SkewX method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SkewX, direct2d.matrix4x4f_skewx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1helper.h
+: 
+- Matrix4x4F.SkewX
+: 
 ---
 
 # Matrix4x4F::SkewX
@@ -69,7 +77,7 @@ The skew amount.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The result matrix.
 
@@ -81,7 +89,7 @@ The result matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

@@ -9,8 +9,8 @@ ms.assetid: c0768c2a-3015-41af-b32f-0b228a0f2ee6
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: "*LPLINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE structure [TAPI 2.2], LPLINEMEDIACONTROLCALLSTATE, LPLINEMEDIACONTROLCALLSTATE structure pointer [TAPI 2.2], _tapi2_linemediacontrolcallstate_str, linemediacontrolcallstate_tag, tapi/LINEMEDIACONTROLCALLSTATE, tapi/LPLINEMEDIACONTROLCALLSTATE, tapi2.linemediacontrolcallstate_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

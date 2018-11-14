@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- HeaderDef
+: 
+- windowsx.h
+: 
+- Edit_FmtLines
+: 
 ---
 
 # Edit_FmtLines macro
@@ -50,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761570(v=VS.85).aspx">EM_FMTLINES</a> message explicitly.
+Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="https://msdn.microsoft.com/bfc08062-b0a7-4ba7-8858-00cb20895c77">EM_FMTLINES</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +85,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761570(v=VS.85).aspx">EM_FMTLINES</a>.
+For more information, see <a href="https://msdn.microsoft.com/bfc08062-b0a7-4ba7-8858-00cb20895c77">EM_FMTLINES</a>.
 
 
 

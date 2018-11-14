@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- comsvcs.h
+: 
+- IServicePoolConfig.put_CreationTimeout
+: 
 ---
 
 # IServicePoolConfig::put_CreationTimeout

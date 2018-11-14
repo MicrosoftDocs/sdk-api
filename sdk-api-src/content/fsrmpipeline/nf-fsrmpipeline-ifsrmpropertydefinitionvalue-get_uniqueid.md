@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- fsrmpipeline.h
+: 
+- IFsrmPropertyDefinitionValue.get_UniqueID
+: 
 ---
 
 # IFsrmPropertyDefinitionValue::get_UniqueID

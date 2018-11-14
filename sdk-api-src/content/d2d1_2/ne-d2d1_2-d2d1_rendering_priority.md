@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_rendering_priority.htm
 tech.root: direct2d
 ms.assetid: 25DC645B-7693-468C-AE11-05F6D1B11741
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/13/2018
 ms.keywords: D2D1_RENDERING_PRIORITY, D2D1_RENDERING_PRIORITY enumeration [Direct2D], D2D1_RENDERING_PRIORITY_LOW, D2D1_RENDERING_PRIORITY_NORMAL, d2d1_2/D2D1_RENDERING_PRIORITY, d2d1_2/D2D1_RENDERING_PRIORITY_LOW, d2d1_2/D2D1_RENDERING_PRIORITY_NORMAL, direct2d.d2d1_rendering_priority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1_2.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The rendering priority affects the extent to which <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> will throttle its rendering workload.
+The rendering priority affects the extent to which <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> will throttle its rendering workload.
 
 
 ## -enum-fields

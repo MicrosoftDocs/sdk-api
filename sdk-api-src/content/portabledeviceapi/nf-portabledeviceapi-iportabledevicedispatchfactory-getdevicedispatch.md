@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- portabledeviceapi.h
+: 
+- IPortableDeviceDispatchFactory.GetDeviceDispatch
+: 
 ---
 
 # IPortableDeviceDispatchFactory::GetDeviceDispatch
@@ -51,7 +59,7 @@ req.redist:
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 
 ## -parameters
@@ -66,7 +74,7 @@ A pointer to a <b>String</b> that is used by Plug-and-play to identify a current
 
 ### -param ppDeviceDispatch [out]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object.
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
 
 
 

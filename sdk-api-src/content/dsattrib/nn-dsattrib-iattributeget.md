@@ -9,8 +9,8 @@ ms.assetid: 561267ac-8720-4aba-b812-784ab1e42114
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], IAttributeGet interface [Microsoft TV Technologies],described, IAttributeGetInterface, dsattrib/IAttributeGet, mstv.iattributeget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dsattrib.h
 req.include-header: 

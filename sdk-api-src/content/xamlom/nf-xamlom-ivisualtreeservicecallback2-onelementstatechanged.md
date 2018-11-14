@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- xamlom.h
+: 
+- IVisualTreeServiceCallback2.OnElementStateChanged
+: 
 ---
 
 # IVisualTreeServiceCallback2::OnElementStateChanged

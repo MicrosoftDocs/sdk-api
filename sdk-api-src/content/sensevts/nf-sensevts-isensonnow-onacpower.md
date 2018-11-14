@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- sensevts.h
+: 
+- ISensOnNow.OnACPower
+: 
 ---
 
 # ISensOnNow::OnACPower
@@ -107,11 +115,11 @@ SENS calls this method to notify your application that AC power has been activat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

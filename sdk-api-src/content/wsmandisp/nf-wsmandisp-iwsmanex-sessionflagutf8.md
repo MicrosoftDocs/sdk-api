@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wsmandisp.h
+: 
+- IWSManEx.SessionFlagUTF8
+: 
 ---
 
 # IWSManEx::SessionFlagUTF8

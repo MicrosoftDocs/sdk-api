@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- wuapi.h
+: 
+- IUpdateExceptionCollection.get_Item
+: 
 ---
 
 # IUpdateExceptionCollection::get_Item

@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ldap_encode_sort_controlW
+: 
 ---
 
 # ldap_encode_sort_controlW function

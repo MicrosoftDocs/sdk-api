@@ -9,8 +9,8 @@ ms.assetid: VS|directx_sdk|~\d3d10_filter_type.htm
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: 137ceae1-1546-228a-f67c-1e9ba1c8ef29, D3D10_FILTER_TYPE, D3D10_FILTER_TYPE enumeration [Direct3D 10], D3D10_FILTER_TYPE_LINEAR, D3D10_FILTER_TYPE_POINT, d3d10/D3D10_FILTER_TYPE, d3d10/D3D10_FILTER_TYPE_LINEAR, d3d10/D3D10_FILTER_TYPE_POINT, direct3d10.d3d10_filter_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
@@ -73,7 +73,7 @@ Bilinear interpolation filtering used as a texture magnification or minification
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

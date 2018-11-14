@@ -9,8 +9,8 @@ ms.assetid: c77e597b-c8d9-426c-aa9d-7bb8536b349a
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK_ENUM_HIDDEN, _TASK_ENUM_FLAGS, taskschd.task_enum_flags, taskschd/TASK_ENUM_FLAGS, taskschd/TASK_ENUM_HIDDEN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

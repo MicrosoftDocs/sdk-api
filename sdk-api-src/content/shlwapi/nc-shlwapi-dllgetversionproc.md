@@ -9,8 +9,8 @@ ms.assetid: d7ec0f7d-ba2f-4aa4-b867-a2615244a580
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: shlwapi.h
 req.include-header: 

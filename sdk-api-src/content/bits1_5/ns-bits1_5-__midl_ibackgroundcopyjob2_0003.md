@@ -9,8 +9,8 @@ ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PBG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS structure [BITS], __MIDL_IBackgroundCopyJob2_0003, _drz_bg_basic_credentials, bits.bg_basic_credentials, bits1_5/BG_BASIC_CREDENTIALS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bits1_5.h
 req.include-header: Bits.h
@@ -107,7 +107,7 @@ You can specify the user name as:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362787(v=VS.85).aspx">BG_AUTH_CREDENTIALS_UNION</a>
+<a href="https://msdn.microsoft.com/c16c616c-f4cb-483d-8a15-6ff9d45762ae">BG_AUTH_CREDENTIALS_UNION</a>
  
 
  

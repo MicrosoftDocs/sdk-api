@@ -7,7 +7,7 @@ old-location: multimedia\mixersetcontroldetails.htm
 tech.root: Multimedia
 ms.assetid: c4d500f3-a1c2-432c-9096-90f229bc7b7a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: "_win32_mixerSetControlDetails, mixerSetControlDetails, mixerSetControlDetails function [Windows Multimedia], mmeapi/mixerSetControlDetails, multimedia.mixersetcontroldetails"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- mixerSetControlDetails
+: 
 ---
 
 # mixerSetControlDetails function

@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d3d10effect.h
+: 
+- ID3D10EffectVariable.AsConstantBuffer
+: 
 ---
 
 # ID3D10EffectVariable::AsConstantBuffer
@@ -64,9 +72,9 @@ Get a constant buffer.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>*</b>
 
-A pointer to a constant buffer. See <a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>.
+A pointer to a constant buffer. See <a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>.
 
 
 
@@ -77,7 +85,7 @@ A pointer to a constant buffer. See <a href="https://msdn.microsoft.com/en-us/li
 
 AsConstantBuffer returns a version of the effect variable that has been specialized to a constant buffer. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain constant buffer data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>.
 
 
 
@@ -87,7 +95,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

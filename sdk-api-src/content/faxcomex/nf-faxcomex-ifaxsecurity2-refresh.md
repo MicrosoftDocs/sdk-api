@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- faxcomex.h
+: 
+- IFaxSecurity2.Refresh
+: 
 ---
 
 # IFaxSecurity2::Refresh

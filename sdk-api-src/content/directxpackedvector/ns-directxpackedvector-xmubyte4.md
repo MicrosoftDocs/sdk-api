@@ -9,8 +9,8 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTE4
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: XMUBYTE4, XMUBYTE4 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTE4, dxmath.xmubyte4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

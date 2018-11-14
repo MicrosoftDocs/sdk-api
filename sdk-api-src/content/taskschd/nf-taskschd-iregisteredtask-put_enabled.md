@@ -44,6 +44,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- taskschd.h
+: 
+- IRegisteredTask.put_Enabled
+: 
 ---
 
 # IRegisteredTask::put_Enabled

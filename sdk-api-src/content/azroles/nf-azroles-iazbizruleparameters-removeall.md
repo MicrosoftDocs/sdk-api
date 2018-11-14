@@ -4,10 +4,10 @@ title: IAzBizRuleParameters::RemoveAll
 author: windows-sdk-content
 description: Removes all parameters from the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_removeall_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 5ec13e1b-6b83-4178-a5a5-b278fe7c8c3c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: IAzBizRuleParameters interface [Security],RemoveAll method, IAzBizRuleParameters.RemoveAll, IAzBizRuleParameters::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- azroles.h
+: 
+- IAzBizRuleParameters.RemoveAll
+: 
 ---
 
 # IAzBizRuleParameters::RemoveAll
@@ -65,11 +73,11 @@ The <b>IAzBizRuleParameters::RemoveAll</b> method removes all parameters from th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377646(v=VS.85).aspx">IAzBizRuleParameters</a>
+<a href="https://msdn.microsoft.com/07eb33be-71a3-42fc-b7f3-12be23746aa3">IAzBizRuleParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377876(v=VS.85).aspx">IAzClientContext3::BizRuleParameters</a>
+<a href="https://msdn.microsoft.com/161f8a84-ee00-4f39-9997-a1e3d1c5b7a8">IAzClientContext3::BizRuleParameters</a>
  
 
  

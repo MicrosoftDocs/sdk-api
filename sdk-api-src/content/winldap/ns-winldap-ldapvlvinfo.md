@@ -9,8 +9,8 @@ ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, ldapvlvinfo, winldap/LDAPVLVInfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

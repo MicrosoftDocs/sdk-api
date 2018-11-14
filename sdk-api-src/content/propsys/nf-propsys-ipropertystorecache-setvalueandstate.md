@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- propsys.h
+: 
+- IPropertyStoreCache.SetValueAndState
+: 
 ---
 
 # IPropertyStoreCache::SetValueAndState
@@ -62,7 +70,7 @@ Sets value and state data for a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure identifying the property.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
 
 
 ### -param ppropvar [in]
@@ -81,9 +89,9 @@ TBD
 
 #### - pstate [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a></b>
+Type: <b><a href="shell.PSC_STATE">PSC_STATE</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a> enumeration declaring the state of the property.
+A value from the <a href="shell.PSC_STATE">PSC_STATE</a> enumeration declaring the state of the property.
 
 
 ## -returns

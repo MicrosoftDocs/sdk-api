@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- mfidl.h
+: 
+- IMFSensorProfileCollection.FindProfile
+: 
 ---
 
 # IMFSensorProfileCollection::FindProfile
@@ -83,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
+<a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a>
  
 
  

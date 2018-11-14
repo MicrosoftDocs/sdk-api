@@ -9,8 +9,8 @@ ms.assetid: 889664e2-00e8-49b4-9754-4ca72dd44bbd
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PIBIO_STORAGE_ADD_RECORD_FN, PIBIO_STORAGE_ADD_RECORD_FN callback, StorageAdapterAddRecord, StorageAdapterAddRecord callback function [Windows Biometric Framework API], secbiomet.storageadapteraddrecord, winbio_adapter/StorageAdapterAddRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

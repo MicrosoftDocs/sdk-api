@@ -9,8 +9,8 @@ ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -140,7 +140,7 @@ Indicates a change in the <a href="https://msdn.microsoft.com/8fddf8c3-268e-4706
 <a href="https://msdn.microsoft.com/ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae">AVDecCommonMeanBitRate</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://msdn.microsoft.com/en-us/library/Dd742710(v=VS.85).aspx">AVDecCommonMeanBitRate</a> property.
+Indicates a change in the <a href="dshow.avdeccommonmeanbitrate_property">AVDecCommonMeanBitRate</a> property.
           
 
 </td>

@@ -7,7 +7,7 @@ old-location: serports\serialdisplayadvancedsettings.htm
 tech.root: serports
 ms.assetid: 185c66e9-0c72-4aca-a99c-54995384e26e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: SerialDisplayAdvancedSettings, SerialDisplayAdvancedSettings function [Serial Ports], comdb_6cace01c-3c22-4699-938d-9fb180d79f12.xml, msports/SerialDisplayAdvancedSettings, serports.serialdisplayadvancedsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SerialDisplayAdvancedSettings
+: 
 ---
 
 # SerialDisplayAdvancedSettings function

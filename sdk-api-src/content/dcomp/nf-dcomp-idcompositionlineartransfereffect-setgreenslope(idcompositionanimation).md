@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- dcomp.h
+: 
+- IDCompositionLinearTransferEffect.SetGreenSlope
+: 
 ---
 
 # IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation)

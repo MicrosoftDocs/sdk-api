@@ -9,8 +9,8 @@ ms.assetid: a547e869-3c9f-4408-9895-29fae0cc6066
 ms.author: windowssdkdev
 ms.date: 11/09/2018
 ms.keywords: CryptXmlDllGetInterface, CryptXmlDllGetInterface callback, CryptXmlDllGetInterface callback function [Security], cryptxml/CryptXmlDllGetInterface, security.cryptxmldllgetinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

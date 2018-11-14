@@ -4,10 +4,10 @@ title: ResetWriteWatch function
 author: windows-sdk-content
 description: Resets the write-tracking state for a region of virtual memory. Subsequent calls to the GetWriteWatch function only report pages that are written to since the reset operation.
 old-location: base\resetwritewatch.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: afbc5a58-01e2-4f32-bc47-351fe846e4a5
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/13/2018
 ms.keywords: ResetWriteWatch, ResetWriteWatch function, _win32_resetwritewatch, base.resetwritewatch, winbase/ResetWriteWatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,6 +49,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- ResetWriteWatch
+: 
 ---
 
 # ResetWriteWatch function
